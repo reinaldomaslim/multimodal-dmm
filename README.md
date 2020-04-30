@@ -12,6 +12,7 @@ After creating a virtual environment with `virtualenv` or `conda`, one can simpl
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
+./scripts/download_spacy_dicts.sh 
 ```
 
 Alternatively, one can install the following packages directly through `pip`:
