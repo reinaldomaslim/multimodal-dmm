@@ -1,0 +1,512 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Paul NAHAT Relecteur: eric vautier
+
+2
+0:00:12.792,000 --> 0:00:13,000
+Bonjour à tous.
+
+3
+0:00:14.083,000 --> 0:00:15,000
+Mon nom est Matt Cutts
+
+4
+0:00:15.375,000 --> 0:00:19,000
+et j'ai travaillé chez Google pendant presque 17 ans.
+
+5
+0:00:19.833,000 --> 0:00:2,000
+En tant qu'ingénieur émérite,
+
+6
+0:00:21.75,000 --> 0:00:25,000
+j'étais assez proche du sommet de l'écosystème de la Silicon Valley.
+
+7
+0:00:25.917,000 --> 0:00:28,000
+J'ai ensuite décidé de suivre des personnes inspirantes
+
+8
+0:00:28.958,000 --> 0:00:32,000
+et de faire une mission courte au service numérique américain.
+
+9
+0:00:33.042,000 --> 0:00:36,000
+C'est un groupe de geeks qui a aidé à sauver HealthCare.gov
+
+10
+0:00:36.25,000 --> 0:00:39,000
+lorsque ce site web a été hors service en 2013.
+
+11
+0:00:40.042,000 --> 0:00:41,000
+Oui...
+
+12
+0:00:41.333,000 --> 0:00:43,000
+J'ai donc signé pour une mission de trois à six mois
+
+13
+0:00:43.958,000 --> 0:00:45,000
+et presque trois ans plus tard,
+
+14
+0:00:46.417,000 --> 0:00:48,000
+je suis toujours à Washington,
+
+15
+0:00:48.5,000 --> 0:00:49,000
+travaillant pour le gouvernement fédéral,
+
+16
+0:00:50.45,000 --> 0:00:53,000
+car le gouvernement a vraiment besoin de technologues actuellement.
+
+17
+0:00:54.167,000 --> 0:00:55,000
+Dans ma position précédente,
+
+18
+0:00:55.538,000 --> 0:00:57,000
+chaque salle avait un système de vidéoconférence
+
+19
+0:00:58.083,000 --> 0:01:,000
+synchronisé à nos agendas,
+
+20
+0:01:00.292,000 --> 0:01:04,000
+les câbles d'alimentation étaient intégrés dans les meubles
+
+21
+0:01:04.417,000 --> 0:01:06,000
+Quand j'ai changé pour une agence gouvernementale,
+
+22
+0:01:07,000 --> 0:01:09,000
+j'ai dû appeler pour organiser une conférence téléphonique.
+
+23
+0:01:09.958,000 --> 0:01:1,000
+Et quand j'ai changé de bureau,
+
+24
+0:01:11.708,000 --> 0:01:12,000
+nous n'avions pas de meuble au début
+
+25
+0:01:13.583,000 --> 0:01:15,000
+donc nous avons installé le téléphone sur une poubelle.
+
+26
+0:01:17.625,000 --> 0:01:2,000
+Une chose qui m'a surpris, lors de mon emménagement à Washington,
+
+27
+0:01:20.917,000 --> 0:01:23,000
+était à quel point le gouvernement comptait encore sur le papier.
+
+28
+0:01:25.5,000 --> 0:01:27,000
+Ceci est un bureau à Winston-Salem,
+
+29
+0:01:27.542,000 --> 0:01:28,000
+Caroline du Nord,
+
+30
+0:01:28.958,000 --> 0:01:29,000
+où les gens avaient peur
+
+31
+0:01:30.542,000 --> 0:01:33,000
+que l'immeuble soit peut-être structurellement trop faible
+
+32
+0:01:34,000 --> 0:01:36,000
+pour le poids de tout ce papier.
+
+33
+0:01:36.292,000 --> 0:01:37,000
+Oui...
+
+34
+0:01:37.333,000 --> 0:01:38,000
+Le papier a ses mauvais côtés.
+
+35
+0:01:38.875,000 --> 0:01:39,000
+Voilà un quizz :
+
+36
+0:01:40.167,000 --> 0:01:43,000
+si votre nom commence par une lettre entre H et Z,
+
+37
+0:01:44.125,000 --> 0:01:47,000
+entre H et Z, pourriez-vous lever la main ?
+
+38
+0:01:48.667,000 --> 0:01:48,000
+Waouh.
+
+39
+0:01:49.574,000 --> 0:01:5,000
+J'ai une mauvaise nouvelle :
+
+40
+0:01:50.936,000 --> 0:01:53,000
+votre historique militaire a peut-être été détruit lors d'un incendie en 1973.
+
+41
+0:01:54.792,000 --> 0:01:55,000
+(Rires)
+
+42
+0:01:55.833,000 --> 0:01:56,000
+Oui...
+
+43
+0:01:57.125,000 --> 0:02:01,000
+L'administratif papier est aussi plus lent et plus sujet aux erreurs.
+
+44
+0:02:01.928,000 --> 0:02:02,000
+Si vous êtes un vétéran
+
+45
+0:02:03.026,000 --> 0:02:05,000
+et que vous postulez pour votre couverture médicale
+
+46
+0:02:05.421,000 --> 0:02:06,000
+en utilisant un formulaire papier,
+
+47
+0:02:07.057,000 --> 0:02:1,000
+vous pourriez attendre quelques mois pour que ce formulaire soit étudié.
+
+48
+0:02:10.875,000 --> 0:02:12,000
+Nous avons remplacé cela par un formulaire sur internet
+
+49
+0:02:13.492,000 --> 0:02:15,000
+et à présent, la plupart des vétérans vérifient
+
+50
+0:02:15.682,000 --> 0:02:17,000
+s'ils peuvent avoir accès à leur couverture médicale
+
+51
+0:02:18.157,000 --> 0:02:18,000
+en 10 minutes.
+
+52
+0:02:19.038,000 --> 0:02:21,000
+(Applaudissements)
+
+53
+0:02:21.726,000 --> 0:02:22,000
+Voici un autre projet dont je suis fier.
+
+54
+0:02:23.628,000 --> 0:02:25,000
+Nous avons travaillé pour le service pour les PME
+
+55
+0:02:26.21,000 --> 0:02:29,000
+pour migrer l'un de leurs systèmes du papier au numérique.
+
+56
+0:02:29.25,000 --> 0:02:3,000
+Ceci est une photo d'avant
+
+57
+0:02:31.25,000 --> 0:02:33,000
+et celle-ci d'après.
+
+58
+0:02:33.75,000 --> 0:02:35,000
+Même bureaux, même personnes,
+
+59
+0:02:36.208,000 --> 0:02:38,000
+juste un meilleur système pour tout le monde.
+
+60
+0:02:39.297,000 --> 0:02:42,000
+A un moment, nous voulions célébrer la modernisation d'un système,
+
+61
+0:02:42.527,000 --> 0:02:43,000
+nous sommes allés à une épicerie,
+
+62
+0:02:44.289,000 --> 0:02:46,000
+nous avons demandé : « Pouvez-vous faire un gâteau
+
+63
+0:02:46.64,000 --> 0:02:48,000
+décoré avec le formulaire que nous avons digitalisé ? »
+
+64
+0:02:49.268,000 --> 0:02:52,000
+Et les employés de l'épicerie ont été très surpris par cette demande.
+
+65
+0:02:52.792,000 --> 0:02:55,000
+Ils voulaient une lettre sur papier à en-tête du gouvernement.
+
+66
+0:02:55.893,000 --> 0:02:58,000
+Travaillant pour le gouvernement, nous avons écrit une lettre :
+
+67
+0:02:59.133,000 --> 0:03:01,000
+« Vous pouvez utiliser ce formulaire du domaine public
+
+68
+0:03:01.8,000 --> 0:03:03,000
+sur un gâteau pour raison de célébration. »
+
+69
+0:03:04.625,000 --> 0:03:06,000
+(Rires)
+
+70
+0:03:06.829,000 --> 0:03:08,000
+Ce qui a inspiré des blagues sur remplir le formulaire
+
+71
+0:03:09.351,000 --> 0:03:11,000
+sur un gâteau à trois étages - on sait rire là-bas.
+
+72
+0:03:12.09,000 --> 0:03:14,000
+J'ai beaucoup parlé de papier,
+
+73
+0:03:14.333,000 --> 0:03:17,000
+mais nous avons aussi abordé les systèmes en panne.
+
+74
+0:03:18,000 --> 0:03:2,000
+Nous apportons des pratiques informatiques
+
+75
+0:03:20.375,000 --> 0:03:23,000
+comme le design orienté utilisateur et le cloud,
+
+76
+0:03:23.625,000 --> 0:03:25,000
+et nous avons aussi aidé à améliorer les achats.
+
+77
+0:03:26.5,000 --> 0:03:28,000
+Il se trouve que le gouvernement achète des logiciels
+
+78
+0:03:29.375,000 --> 0:03:33,000
+de la même façon qu'il achète des chaises, des brownies et des tanks :
+
+79
+0:03:34.167,000 --> 0:03:39,000
+en suivant les règles du gouvernement qui font plus de 1 000 pages.
+
+80
+0:03:39.292,000 --> 0:03:42,000
+Donc oui, il y a certaines choses folles au gouvernement actuellement.
+
+81
+0:03:43,000 --> 0:03:46,000
+Mais si vous pensez que la Silicon Valley est le sauveur de l'histoire,
+
+82
+0:03:46.337,000 --> 0:03:47,000
+(Rit)
+
+83
+0:03:47.458,000 --> 0:03:48,000
+attendez d'entendre la suite.
+
+84
+0:03:49.25,000 --> 0:03:51,000
+Certains esprits les plus brillants dans la technologie
+
+85
+0:03:52.125,000 --> 0:03:55,000
+travaillent pour des start-ups de livraison de repas et de scooters
+
+86
+0:03:55.417,000 --> 0:03:58,000
+et comment mieux livrer de la marijuana aux gens.
+
+87
+0:03:59.333,000 --> 0:04:02,000
+Est-ce la chose la plus importante sur laquelle travailler maintenant ?
+
+88
+0:04:03.792,000 --> 0:04:07,000
+La Silicon Valley aime parler de rendre le monde meilleur.
+
+89
+0:04:07.917,000 --> 0:04:1,000
+Mais vous ressentez l'impact que vous avez encore plus profondément
+
+90
+0:04:11.708,000 --> 0:04:12,000
+au gouvernement.
+
+91
+0:04:14.042,000 --> 0:04:16,000
+C'est quelqu'un qui a perdu son père.
+
+92
+0:04:16.833,000 --> 0:04:18,000
+Il m'a traqué sur Twitter
+
+93
+0:04:18.875,000 --> 0:04:21,000
+pour me dire qu'un des systèmes que nous avions améliorés
+
+94
+0:04:21.917,000 --> 0:04:23,000
+avait bien marché pour lui pendant un moment difficile.
+
+95
+0:04:25.343,000 --> 0:04:28,000
+C'est dans ces durs moments que le gouvernement doit fonctionner
+
+96
+0:04:28.434,000 --> 0:04:3,000
+et c'est pourquoi il faut de l'innovation au gouvernement.
+
+97
+0:04:31.363,000 --> 0:04:32,000
+Bon, je dois vous avouer un truc.
+
+98
+0:04:32.941,000 --> 0:04:33,000
+Quand je suis arrivé à Washington,
+
+99
+0:04:34.57,000 --> 0:04:37,000
+j'utilisais des termes comme « bureaucrate ».
+
+100
+0:04:38.125,000 --> 0:04:39,000
+Maintenant,
+
+101
+0:04:39.417,000 --> 0:04:42,000
+je suis plus enclin à utiliser des termes comme « fonctionnaire ».
+
+102
+0:04:42.625,000 --> 0:04:44,000
+Comme Francine, qui peut vous faire pleurer.
+
+103
+0:04:45.542,000 --> 0:04:46,000
+Ou du moins, elle m'a fait pleurer.
+
+104
+0:04:47.458,000 --> 0:04:49,000
+Parce qu'elle est si inspirante.
+
+105
+0:04:50.125,000 --> 0:04:53,000
+Je suis aussi profondément, férocement fier de mes collègues.
+
+106
+0:04:54.125,000 --> 0:04:57,000
+Ils travaillent sur des situations illogiques
+
+107
+0:04:57.542,000 --> 0:05:,000
+et restent tard la nuit pour arriver au bon résultat.
+
+108
+0:05:01.833,000 --> 0:05:03,000
+Le gouvernement ne peut pas payer d'énormes primes,
+
+109
+0:05:04.458,000 --> 0:05:07,000
+donc nous avons fini par créer nos propres récompenses.
+
+110
+0:05:07.75,000 --> 0:05:09,000
+Notre mascotte est un crabe nommé Molly.
+
+111
+0:05:10.75,000 --> 0:05:13,000
+Et donc, cette récompense est en fait un sac en forme de crabe,
+
+112
+0:05:14.667,000 --> 0:05:15,000
+visé dans de la tôle.
+
+113
+0:05:18.208,000 --> 0:05:2,000
+De nos jours, je crois moins aux solutions miracles
+
+114
+0:05:21.083,000 --> 0:05:23,000
+qui vont tout arranger.
+
+115
+0:05:24.25,000 --> 0:05:25,000
+Je crois davantage
+
+116
+0:05:26.083,000 --> 0:05:28,000
+dans les gens qui répondent présent pour aider.
+
+117
+0:05:29.023,000 --> 0:05:31,000
+Si vous cherchez quelque chose de profondément rempli de sens --
+
+118
+0:05:32.042,000 --> 0:05:36,000
+et sans rien vous cacher, parfois incroyablement frustrant --
+
+119
+0:05:36.875,000 --> 0:05:38,000
+voici ce que vous avez besoin de savoir.
+
+120
+0:05:38.917,000 --> 0:05:39,000
+Il existe quelque chose de difficile,
+
+121
+0:05:40.833,000 --> 0:05:45,000
+désordonné, vital et magique en train d'arriver
+
+122
+0:05:46,000 --> 0:05:48,000
+quand les fonctionnaires s'associent aux technologues
+
+123
+0:05:48.917,000 --> 0:05:51,000
+à l'échelle municipale, régionale et nationale.
+
+124
+0:05:52.417,000 --> 0:05:54,000
+Vous n'avez pas à le faire pour toujours.
+
+125
+0:05:54.458,000 --> 0:05:57,000
+Mais vous pouvez faire la différence dans le service public
+
+126
+0:05:57.792,000 --> 0:05:58,000
+maintenant.
+
+127
+0:05:59.417,000 --> 0:06:,000
+Merci.
+
+128
+0:06:00.708,000 --> 0:06:03,000
+(Applaudissements)
+

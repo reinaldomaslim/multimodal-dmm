@@ -1,0 +1,324 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Veronica Martinez Starnes
+
+2
+0:00:16.804,000 --> 0:00:19,000
+Para comprender el mundo en el que vivimos, contamos historias.
+
+3
+0:00:20.773,000 --> 0:00:23,000
+Mezclar y compartir definen
+
+4
+0:00:24.243,000 --> 0:00:25,000
+la web como la conocemos;
+
+5
+0:00:25.824,000 --> 0:00:28,000
+todos podemos ser parte de esa historia con herramientas simples
+
+6
+0:00:29.659,000 --> 0:00:31,000
+que nos permiten operar en línea.
+
+7
+0:00:32.124,000 --> 0:00:36,000
+Pero el video ha quedado fuera. Llegó a la web
+
+8
+0:00:36.206,000 --> 0:00:38,000
+en una caja pequeña y allí quedó,
+
+9
+0:00:38.952,000 --> 0:00:41,000
+completamente desconectado de los datos y contenidos
+
+10
+0:00:42.041,000 --> 0:00:43,000
+circundantes.
+
+11
+0:00:43.913,000 --> 0:00:44,000
+De hecho, en más de una década en la web, lo único
+
+12
+0:00:45.825,000 --> 0:00:48,000
+que cambió respecto del video es el tamaño de la caja
+
+13
+0:00:49.421,000 --> 0:00:51,000
+y la calidad de la imagen.
+
+14
+0:00:52.298,000 --> 0:00:55,000
+Popcorn lo cambia todo.
+
+15
+0:00:55.466,000 --> 0:00:58,000
+Es una herramienta web que permite que cualquier persona
+
+16
+0:00:58.579,000 --> 0:01:01,000
+combine video con contenidos tomados de la web.
+
+17
+0:01:01.964,000 --> 0:01:04,000
+Los videos creados con Popcorn son como la propia web:
+
+18
+0:01:05.499,000 --> 0:01:09,000
+dinámicos, repletos de enlaces, totalmente combinables,
+
+19
+0:01:09.546,000 --> 0:01:13,000
+y pueden liberarse de la estructura.
+
+20
+0:01:13.845,000 --> 0:01:15,000
+Quiero hacer una demo de un prototipo
+
+21
+0:01:16.249,000 --> 0:01:18,000
+en el que trabajamos y que lanzaremos en el otoño que viene.
+
+22
+0:01:18.289,000 --> 0:01:22,000
+Será totalmente gratuito y funcionará en cualquier navegador.
+
+23
+0:01:23.235,000 --> 0:01:26,000
+Toda producción de Popcorn empieza con un video,
+
+24
+0:01:26.301,000 --> 0:01:28,000
+por eso hice un breve video de 20 segundos
+
+25
+0:01:28.687,000 --> 0:01:31,000
+con una plantilla que usamos en los talleres.
+
+26
+0:01:32.438,000 --> 0:01:35,000
+Veámoslo. Regresaremos y les mostraré cómo lo hicimos.
+
+27
+0:01:36.122,000 --> 0:01:38,000
+Hola, bienvenidos a mi noticiero.
+
+28
+0:01:38.874,000 --> 0:01:4,000
+Agregué mi ubicación con un mapa de Google
+
+29
+0:01:41.315,000 --> 0:01:44,000
+y es en directo; tratemos de movernos.
+
+30
+0:01:44.683,000 --> 0:01:47,000
+Pueden agregarse menús con enlaces en vivo e íconos personalizados
+
+31
+0:01:48.075,000 --> 0:01:51,000
+o tomar contenido de un servicio web, como Flickr,
+
+32
+0:01:51.539,000 --> 0:01:55,000
+o agregar artículos y entradas de blog con enlaces al contenido completo.
+
+33
+0:01:56.369,000 --> 0:01:59,000
+Regresemos y les mostraré qué vieron. Había muchas cosas.
+
+34
+0:02:00.008,000 --> 0:02:03,000
+Esta es la línea de tiempo y, si han editado video,
+
+35
+0:02:03.434,000 --> 0:02:05,000
+están familiarizados con esto, pero en vez de videos en la línea de tiempo,
+
+36
+0:02:06.353,000 --> 0:02:09,000
+lo que vemos son eventos web colocados en el video.
+
+37
+0:02:09.939,000 --> 0:02:11,000
+En esta producción de Popcorn tenemos
+
+38
+0:02:12.33,000 --> 0:02:15,000
+el título, un mapa de Google que aparece dentro
+
+39
+0:02:16.083,000 --> 0:02:18,000
+de la imagen, luego Popcorn permite sacarlo
+
+40
+0:02:18.57,000 --> 0:02:21,000
+del cuadro y ocupar toda la pantalla.
+
+41
+0:02:21.93,000 --> 0:02:23,000
+Hay dos cuadros emergentes que brindan más información,
+
+42
+0:02:24.599,000 --> 0:02:28,000
+y un artículo final con un enlace al artículo original.
+
+43
+0:02:28.977,000 --> 0:02:31,000
+Pasemos a este mapa de Google y les mostraré cómo pueden editarlo.
+
+44
+0:02:32.511,000 --> 0:02:35,000
+Van a la línea de tiempo, hacen doble clic en el elemento,
+
+45
+0:02:35.76,000 --> 0:02:37,000
+he ingresado Toronto porque esa es mi ciudad natal.
+
+46
+0:02:38.019,000 --> 0:02:41,000
+Pongámosle otra cosa.
+
+47
+0:02:41.541,000 --> 0:02:44,000
+Popcorn inmediatamente va a la web,
+
+48
+0:02:44.672,000 --> 0:02:47,000
+habla con Google, toma el mapa y hace que se vea en pantalla.
+
+49
+0:02:47.729,000 --> 0:02:48,000
+Es exactamente lo mismo
+
+50
+0:02:49.335,000 --> 0:02:5,000
+que ve la gente que mira el video.
+
+51
+0:02:51.071,000 --> 0:02:53,000
+Está en directo. No es una imagen. Se le puede hacer clic,
+
+52
+0:02:53.582,000 --> 0:02:57,000
+ampliar, llegar al nivel de la calle si se quiere.
+
+53
+0:02:57.812,000 --> 0:03:,000
+En este video, mencioné que había una fuente en vivo
+
+54
+0:03:00.819,000 --> 0:03:03,000
+así que ahora podemos agregarla
+
+55
+0:03:04,000 --> 0:03:06,000
+desde Flickr. Vayamos a la derecha,
+
+56
+0:03:06.884,000 --> 0:03:08,000
+tomemos Flickr de la lista de opciones,
+
+57
+0:03:09.273,000 --> 0:03:11,000
+arrastrémosla a la línea de tiempo
+
+58
+0:03:11.52,000 --> 0:03:13,000
+y la colocamos donde deseamos;
+
+59
+0:03:13.994,000 --> 0:03:15,000
+de inmediato vamos a Flickr y empieza a mostrar imágenes
+
+60
+0:03:16.457,000 --> 0:03:19,000
+relacionadas a los tags. A mis desarrolladores
+
+61
+0:03:19.469,000 --> 0:03:22,000
+les gustan los ponis, por eso lo han puesto como tag por defecto.
+
+62
+0:03:23.329,000 --> 0:03:26,000
+Probemos algo diferente,
+
+63
+0:03:26.445,000 --> 0:03:29,000
+quizá algo más relevante hoy.
+
+64
+0:03:30.013,000 --> 0:03:32,000
+Son imágenes tomadas directamente desde la fuente.
+
+65
+0:03:32.743,000 --> 0:03:33,000
+Si volvemos en una semana
+
+66
+0:03:34.331,000 --> 0:03:35,000
+será completamente diferente,
+
+67
+0:03:35.875,000 --> 0:03:37,000
+dinámico, como la web, exactamente como la web,
+
+68
+0:03:38.384,000 --> 0:03:4,000
+todo tiene una fuente; si hacen clic en el enlace,
+
+69
+0:03:40.436,000 --> 0:03:43,000
+van directo a Flickr y ven la imagen fuente.
+
+70
+0:03:44.229,000 --> 0:03:46,000
+Todo lo que han visto hoy se construyó con los elementos
+
+71
+0:03:46.475,000 --> 0:03:49,000
+básicos de la web: HTML, CSS y JavaScript.
+
+72
+0:03:50.035,000 --> 0:03:51,000
+Significa que es totalmente remezclable. Significa también
+
+73
+0:03:51.954,000 --> 0:03:53,000
+que no hay software propietario. Se necesita
+
+74
+0:03:54.518,000 --> 0:03:56,000
+solo un navegador.
+
+75
+0:03:57.477,000 --> 0:04:,000
+Imaginen si todos los videos que miramos en la web
+
+76
+0:04:00.847,000 --> 0:04:03,000
+funcionaran con la web, completamente remezclables,
+
+77
+0:04:03.893,000 --> 0:04:05,000
+vinculados con sus fuentes, interactivos
+
+78
+0:04:06.64,000 --> 0:04:08,000
+con todos los que los vieran.
+
+79
+0:04:09.021,000 --> 0:04:11,000
+Creo que Popcorn podría cambiar nuestra forma de contar historias
+
+80
+0:04:12.017,000 --> 0:04:14,000
+en la web y la forma de entender el mundo en el que vivimos.
+
+81
+0:04:14.395,000 --> 0:04:19,000
+Gracias. (Aplausos)
+

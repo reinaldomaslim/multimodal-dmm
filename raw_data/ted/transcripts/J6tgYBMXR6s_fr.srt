@@ -1,0 +1,2112 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Bruno Hauzaree Relecteur: Yves DAUMAS
+
+2
+0:00:12.784,000 --> 0:00:15,000
+Chris Anderson : Expliquez-nous ce qu'est le « machine learning »
+
+3
+0:00:15.88,000 --> 0:00:16,000
+car cela semble être le facteur clé
+
+4
+0:00:17.892,000 --> 0:00:19,000
+de toute cette excitation et de toutes ces craintes
+
+5
+0:00:20.333,000 --> 0:00:21,000
+autour de l'intelligence artificielle.
+
+6
+0:00:22.171,000 --> 0:00:23,000
+Comment cela fonctionne-t-il ?
+
+7
+0:00:23.904,000 --> 0:00:26,000
+Sebastian Thrun : L'intelligence artificielle et le « machine learning »
+
+8
+0:00:27.758,000 --> 0:00:29,000
+remontent à environ 60 ans
+
+9
+0:00:29.784,000 --> 0:00:33,000
+et n'ont pas eu leur heure de gloire jusqu'à récemment.
+
+10
+0:00:34.077,000 --> 0:00:36,000
+La raison est qu'aujourd'hui,
+
+11
+0:00:37.025,000 --> 0:00:4,000
+nous avons atteint l'échelle de puissance de calcul et de volume de données
+
+12
+0:00:40.872,000 --> 0:00:42,000
+qui était nécessaire pour rendre les machines intelligentes.
+
+13
+0:00:43.689,000 --> 0:00:44,000
+Voici comment cela fonctionne.
+
+14
+0:00:45.458,000 --> 0:00:48,000
+Si vous voulez programmer un ordinateur, disons, votre téléphone,
+
+15
+0:00:48.979,000 --> 0:00:5,000
+vous devez embaucher des ingénieurs logiciels
+
+16
+0:00:51.338,000 --> 0:00:54,000
+qui écrivent une très, très longue recette de cuisine
+
+17
+0:00:55.216,000 --> 0:00:58,000
+comme : « Si l'eau est trop chaude, baisse la température.
+
+18
+0:00:58.272,000 --> 0:01:,000
+Si l'eau est trop froide, augmente la température. »
+
+19
+0:01:00.699,000 --> 0:01:02,000
+Les recettes n'ont pas juste 10 lignes.
+
+20
+0:01:03.548,000 --> 0:01:05,000
+Elles ont des millions de lignes.
+
+21
+0:01:06.175,000 --> 0:01:1,000
+Un téléphone mobile récent a 12 millions de lignes de code.
+
+22
+0:01:10.283,000 --> 0:01:12,000
+Un navigateur internet 5 millions de lignes de code.
+
+23
+0:01:12.953,000 --> 0:01:16,000
+Chaque erreur dans la recette peut provoquer une panne de votre ordinateur.
+
+24
+0:01:17.946,000 --> 0:01:19,000
+C'est pourquoi un ingénieur logiciel gagne autant d'argent.
+
+25
+0:01:21.953,000 --> 0:01:24,000
+La nouveauté est que les ordinateurs peuvent trouver leurs propres règles.
+
+26
+0:01:25.637,000 --> 0:01:28,000
+Au lieu d'avoir un expert qui écrit, pas à pas,
+
+27
+0:01:29.267,000 --> 0:01:31,000
+une règle pour chaque cas de figure,
+
+28
+0:01:31.439,000 --> 0:01:33,000
+vous donnez maintenant à l'ordinateur des exemples
+
+29
+0:01:34.307,000 --> 0:01:35,000
+pour qu'il déduise lui-même ses règles.
+
+30
+0:01:36.198,000 --> 0:01:4,000
+Un bon exemple est AlphaGo, qui a récemment été acheté par Google.
+
+31
+0:01:40.472,000 --> 0:01:43,000
+Normalement, dans les jeux, vous voulez écrire toutes les règles,
+
+32
+0:01:44.183,000 --> 0:01:45,000
+mais dans le cas d'AlphaGo,
+
+33
+0:01:45.752,000 --> 0:01:47,000
+le système a regardé plus d'un million de parties
+
+34
+0:01:48.082,000 --> 0:01:5,000
+et a été en mesure de déduire ses propres règles
+
+35
+0:01:50.334,000 --> 0:01:52,000
+et de battre le tenant du titre mondial du jeu de go.
+
+36
+0:01:53.793,000 --> 0:01:56,000
+C'est excitant, car cela évite d'avoir à faire appel à des ingénieurs logiciels
+
+37
+0:01:57.522,000 --> 0:01:58,000
+extrêmement intelligents,
+
+38
+0:01:59.229,000 --> 0:02:01,000
+et repousse la contrainte vers les données.
+
+39
+0:02:01.578,000 --> 0:02:04,000
+Comme je le disais, le point d'inflexion où cela est vraiment devenu possible --
+
+40
+0:02:05.516,000 --> 0:02:08,000
+très embarrassant, ma thèse était sur le « machine learning ».
+
+41
+0:02:08.706,000 --> 0:02:1,000
+C'était complètement insignifiant, ne la lisez pas,
+
+42
+0:02:11.135,000 --> 0:02:11,000
+car elle a 20 ans
+
+43
+0:02:12.039,000 --> 0:02:15,000
+et alors, les ordinateurs étaient aussi gros que le cerveau d'un cafard.
+
+44
+0:02:15.44,000 --> 0:02:17,000
+Ils sont maintenant assez puissants pour imiter
+
+45
+0:02:17.795,000 --> 0:02:19,000
+une sorte de pensée humaine spécialisée.
+
+46
+0:02:19.895,000 --> 0:02:21,000
+Les ordinateurs usent du fait
+
+47
+0:02:21.942,000 --> 0:02:23,000
+qu'ils peuvent regarder beaucoup plus de données que les gens.
+
+48
+0:02:24.846,000 --> 0:02:26,000
+J'ai dit qu'AlphaGo a regardé plus d'un million de parties.
+
+49
+0:02:27.86,000 --> 0:02:29,000
+Aucun expert humain ne peut étudier un million de parties.
+
+50
+0:02:30.723,000 --> 0:02:33,000
+Google a parcouru plus d'une centaine de milliards de pages web.
+
+51
+0:02:33.929,000 --> 0:02:35,000
+Personne ne peut étudier une centaine de milliards de pages.
+
+52
+0:02:36.793,000 --> 0:02:38,000
+En conséquence, un ordinateur peut trouver des règles
+
+53
+0:02:39.341,000 --> 0:02:4,000
+que les humains ne peuvent pas trouver.
+
+54
+0:02:41.208,000 --> 0:02:45,000
+CA: Donc au lieu de suivre des règles comme « S'il fait cela, je fais ceci »,
+
+55
+0:02:45.456,000 --> 0:02:48,000
+c'est plus comme : « Voici à quoi ressemble
+
+56
+0:02:48.552,000 --> 0:02:49,000
+un modèle de partie gagnante. »
+
+57
+0:02:50.085,000 --> 0:02:52,000
+ST : Oui. Pensez comment on élève les enfants.
+
+58
+0:02:52.432,000 --> 0:02:55,000
+Vous ne passez pas 18 ans à donner aux enfants une règle pour chaque cas
+
+59
+0:02:56.046,000 --> 0:02:58,000
+pour ensuite les libérer avec ce grand programme.
+
+60
+0:02:58.525,000 --> 0:03:,000
+Ils trébuchent, tombent, se lèvent, ils sont giflés ou fessés,
+
+61
+0:03:01.598,000 --> 0:03:03,000
+ils ont une expérience positive, une bonne note à l'école,
+
+62
+0:03:04.886,000 --> 0:03:05,000
+et ils comprennent par eux-mêmes.
+
+63
+0:03:06.744,000 --> 0:03:07,000
+C'est pareil avec les ordinateurs,
+
+64
+0:03:08.505,000 --> 0:03:1,000
+ce qui rend leur programmation beaucoup plus facile tout à coup.
+
+65
+0:03:11.504,000 --> 0:03:14,000
+Plus besoin de penser à tout, il suffit d'avoir beaucoup de données.
+
+66
+0:03:14.697,000 --> 0:03:17,000
+CA : Donc, cela a été la clé de l'amélioration spectaculaire
+
+67
+0:03:18.203,000 --> 0:03:2,000
+dans les voitures autonomes.
+
+68
+0:03:21.151,000 --> 0:03:22,000
+Je pense que vous m'avez donné un exemple.
+
+69
+0:03:23.15,000 --> 0:03:25,000
+Pouvez-vous expliquer comment cela fonctionne ?
+
+70
+0:03:25.763,000 --> 0:03:28,000
+ST : C'est le trajet d'un véhicule autonome
+
+71
+0:03:29.351,000 --> 0:03:3,000
+que nous avons conçu à Udacity
+
+72
+0:03:30.922,000 --> 0:03:32,000
+récemment transformée en un spin-off appelé Voyage.
+
+73
+0:03:33.304,000 --> 0:03:35,000
+Nous avons utilisé ce qu'on appelle l'apprentissage profond
+
+74
+0:03:36.092,000 --> 0:03:37,000
+pour lui apprendre à se conduire seule.
+
+75
+0:03:37.999,000 --> 0:03:39,000
+Elle l'a fait, depuis Mountain View, en Californie,
+
+76
+0:03:40.41,000 --> 0:03:41,000
+jusqu'à San Francisco
+
+77
+0:03:41.602,000 --> 0:03:43,000
+sur El Camino Real par temps de pluie,
+
+78
+0:03:43.885,000 --> 0:03:46,000
+avec des cyclistes, des piétons et 133 feux de circulation.
+
+79
+0:03:47.433,000 --> 0:03:49,000
+La nouveauté, c'est que,
+
+80
+0:03:50.043,000 --> 0:03:53,000
+dans le passé, j'ai lancé l'équipe véhicule autonome de Google
+
+81
+0:03:53.057,000 --> 0:03:56,000
+et pour cela, j'ai engagé les meilleurs ingénieurs logiciels mondiaux
+
+82
+0:03:56.412,000 --> 0:03:57,000
+pour trouver les meilleures règles.
+
+83
+0:03:58.079,000 --> 0:03:59,000
+Là, nous l'avons juste entraînée.
+
+84
+0:03:59.851,000 --> 0:04:02,000
+Nous avons pris cette route 20 fois,
+
+85
+0:04:03.181,000 --> 0:04:05,000
+on a mis les données dans le cerveau de l'ordinateur,
+
+86
+0:04:05.708,000 --> 0:04:07,000
+et après quelques heures de calculs,
+
+87
+0:04:07.788,000 --> 0:04:1,000
+il est arrivé avec un comportement qui surpasse l'agilité humaine.
+
+88
+0:04:11.738,000 --> 0:04:13,000
+C'est beaucoup plus facile à programmer.
+
+89
+0:04:13.779,000 --> 0:04:16,000
+C'est 100% autonome, près de 53 km, une heure et demie.
+
+90
+0:04:17.606,000 --> 0:04:2,000
+CA : Bon, expliquez ceci -- sur la grande partie de ce programme à gauche,
+
+91
+0:04:21.26,000 --> 0:04:24,000
+nous voyons ce que voit l'ordinateur comme les camions, les autos
+
+92
+0:04:24.541,000 --> 0:04:26,000
+et tous ces points qui les rattrapent et ainsi de suite.
+
+93
+0:04:27.451,000 --> 0:04:3,000
+ST : A droite, on voit l'image de la caméra, qui est la source principale ici,
+
+94
+0:04:31.237,000 --> 0:04:33,000
+pour voir les lignes, les véhicules, les feux.
+
+95
+0:04:33.953,000 --> 0:04:35,000
+Le véhicule a un radar pour estimer les distances.
+
+96
+0:04:36.45,000 --> 0:04:38,000
+Ils sont souvent utilisés dans ce genre de systèmes.
+
+97
+0:04:39.095,000 --> 0:04:41,000
+Sur la gauche, on voit un diagramme laser,
+
+98
+0:04:41.111,000 --> 0:04:44,000
+où l'on voit des obstacles tels les arbres représentés par le laser.
+
+99
+0:04:44.295,000 --> 0:04:46,000
+Mais l'effort principal porte sur l'image de la caméra.
+
+100
+0:04:47.241,000 --> 0:04:5,000
+Nous passons de capteurs de précision comme les radars et les lasers
+
+101
+0:04:50.651,000 --> 0:04:52,000
+vers des capteurs banalisés à très bas coût.
+
+102
+0:04:52.977,000 --> 0:04:53,000
+Une caméra coûte moins de 8 dollars.
+
+103
+0:04:55.172,000 --> 0:04:57,000
+CA : Et ce point vert à gauche, qu'est-ce que c'est ?
+
+104
+0:04:57.989,000 --> 0:04:58,000
+C'est important ?
+
+105
+0:04:59.294,000 --> 0:05:02,000
+ST : C'est un point de vue anticipé pour le régulateur de vitesse,
+
+106
+0:05:03.056,000 --> 0:05:05,000
+qui nous aide à comprendre comment réguler la vitesse
+
+107
+0:05:05.583,000 --> 0:05:07,000
+en fonction de la distance de la voiture devant vous.
+
+108
+0:05:08.251,000 --> 0:05:1,000
+CA : Donc, vous avez aussi un exemple, je pense,
+
+109
+0:05:10.975,000 --> 0:05:12,000
+de la façon dont la partie d'apprentissage a lieu.
+
+110
+0:05:13.38,000 --> 0:05:15,000
+On peut peut-être parler de cela ?
+
+111
+0:05:15.418,000 --> 0:05:18,000
+ST : C'est un exemple de challenge proposé aux étudiants d'Udacity
+
+112
+0:05:19.281,000 --> 0:05:22,000
+qui suivent notre « Nano Diplôme » de véhicule autonome.
+
+113
+0:05:22.684,000 --> 0:05:23,000
+On leur donne ce jeu de données
+
+114
+0:05:24.203,000 --> 0:05:27,000
+en leur demandant « Trouvez comment conduire cette auto ».
+
+115
+0:05:27.281,000 --> 0:05:28,000
+Si vous regardez les images,
+
+116
+0:05:28.929,000 --> 0:05:32,000
+c'est, même pour les humains, quasi-impossible de conduire correctement.
+
+117
+0:05:33.026,000 --> 0:05:36,000
+On a organisé une compétition d'apprentissage profond,
+
+118
+0:05:36.527,000 --> 0:05:37,000
+une compétition d'IA,
+
+119
+0:05:37.844,000 --> 0:05:38,000
+et on a donné 48 heures aux étudiants.
+
+120
+0:05:39.749,000 --> 0:05:43,000
+Pour une entreprise de logiciels telle que Google et Facebook,
+
+121
+0:05:43.945,000 --> 0:05:45,000
+un tel projet peut prendre au moins six mois de travail.
+
+122
+0:05:46.686,000 --> 0:05:48,000
+On s'est dit 48 heures serait super.
+
+123
+0:05:48.912,000 --> 0:05:51,000
+En 48 heures, nous avons reçu 100 soumissions d'étudiants,
+
+124
+0:05:52.403,000 --> 0:05:55,000
+et les quatre premiers ont parfaitement réussi.
+
+125
+0:05:55.517,000 --> 0:05:57,000
+Elle conduit mieux que je pourrais le faire sur ces images,
+
+126
+0:05:58.277,000 --> 0:05:59,000
+avec l'apprentissage profond.
+
+127
+0:05:59.7,000 --> 0:06:,000
+C'est encore la même méthodologie.
+
+128
+0:06:01.497,000 --> 0:06:02,000
+C'est une chose magique.
+
+129
+0:06:02.685,000 --> 0:06:04,000
+Si un ordinateur a suffisamment de données
+
+130
+0:06:04.794,000 --> 0:06:05,000
+et suffisamment de temps pour comprendre,
+
+131
+0:06:06.724,000 --> 0:06:07,000
+il trouve ses propres règles.
+
+132
+0:06:09.339,000 --> 0:06:13,000
+CA : Cela a mené au développement d'applications puissantes
+
+133
+0:06:14.208,000 --> 0:06:15,000
+dans toutes sortes de domaines.
+
+134
+0:06:15.757,000 --> 0:06:17,000
+Vous me parliez l'autre jour du cancer.
+
+135
+0:06:18.273,000 --> 0:06:19,000
+Puis-je montrer cette vidéo ?
+
+136
+0:06:19.662,000 --> 0:06:21,000
+ST : Oui, bien sûr, allez-y. CA : Merci.
+
+137
+0:06:22.04,000 --> 0:06:25,000
+ST : C'est une sorte d'aperçu de ce qui se passe
+
+138
+0:06:25.598,000 --> 0:06:27,000
+dans un domaine complètement différent.
+
+139
+0:06:28.051,000 --> 0:06:31,000
+Ceci augmente, ou concurrence
+
+140
+0:06:31.827,000 --> 0:06:32,000
+-- selon le point de vue --
+
+141
+0:06:33.6,000 --> 0:06:36,000
+des personnes qui sont payées 400 000 $ par an,
+
+142
+0:06:37.078,000 --> 0:06:38,000
+les dermatologues,
+
+143
+0:06:38.339,000 --> 0:06:39,000
+des spécialistes entraînés.
+
+144
+0:06:40.346,000 --> 0:06:43,000
+Cela prend plus de 10 ans pour devenir un bon dermatologue.
+
+145
+0:06:43.931,000 --> 0:06:46,000
+Ce que vous voyez ici en est la version « machine learning ».
+
+146
+0:06:47.151,000 --> 0:06:48,000
+Cela s'appelle un réseau neuronal.
+
+147
+0:06:49.016,000 --> 0:06:52,000
+« Réseau neuronal » est le terme technique pour ces algorithmes d'apprentissage.
+
+148
+0:06:52.79,000 --> 0:06:53,000
+Ils sont là depuis les années 80.
+
+149
+0:06:54.595,000 --> 0:06:58,000
+Celui-ci a été inventé en 1988 par un camarade de Facebook appelé Yann LeCun,
+
+150
+0:06:59.259,000 --> 0:07:02,000
+et il propage les données par étape
+
+151
+0:07:02.841,000 --> 0:07:04,000
+à travers ce qui s'apparente à un cerveau humain.
+
+152
+0:07:05.443,000 --> 0:07:07,000
+Ce n'est pas la même chose, mais il simule la même chose.
+
+153
+0:07:08.433,000 --> 0:07:09,000
+Il procède étape par étape.
+
+154
+0:07:09.759,000 --> 0:07:12,000
+Dans la première étape, il prend le visuel et extrait les contours
+
+155
+0:07:13.42,000 --> 0:07:15,000
+et les barres et points.
+
+156
+0:07:16.056,000 --> 0:07:19,000
+Les contours de l'image deviennent plus complexes,
+
+157
+0:07:19.117,000 --> 0:07:22,000
+avec des formes comme des demi-lunes.
+
+158
+0:07:22.332,000 --> 0:07:26,000
+Finalement, il est capable de construire des concepts très compliqués.
+
+159
+0:07:26.799,000 --> 0:07:28,000
+Andrew Ng a été en mesure de montrer
+
+160
+0:07:28.871,000 --> 0:07:31,000
+que l'on peut trouver des têtes de chat et de chien
+
+161
+0:07:32.375,000 --> 0:07:33,000
+parmi de nombreuses images.
+
+162
+0:07:34.06,000 --> 0:07:36,000
+Ce que mes étudiants de Stanford ont montré, est que
+
+163
+0:07:36.808,000 --> 0:07:42,000
+si on l'entraîne sur 129 000 images de maladie de la peau,
+
+164
+0:07:42.905,000 --> 0:07:44,000
+incluant les mélanomes et les carcinomes,
+
+165
+0:07:45.494,000 --> 0:07:48,000
+on peut faire un aussi bon travail
+
+166
+0:07:48.819,000 --> 0:07:5,000
+que le meilleur dermatologue humain.
+
+167
+0:07:51.04,000 --> 0:07:53,000
+Pour se convaincre que c'est le cas,
+
+168
+0:07:53.613,000 --> 0:07:56,000
+on a pris un jeu de données indépendant que l'on a présenté à notre réseau
+
+169
+0:07:57.627,000 --> 0:08:01,000
+et à 25 dermatologues certifiés du niveau de Stanford
+
+170
+0:08:01.993,000 --> 0:08:02,000
+et on les a comparés.
+
+171
+0:08:03.689,000 --> 0:08:04,000
+Dans la plupart des cas,
+
+172
+0:08:05.217,000 --> 0:08:08,000
+il était au niveau ou au-dessus des performances de classifications
+
+173
+0:08:09.116,000 --> 0:08:1,000
+des dermatologues humains.
+
+174
+0:08:10.607,000 --> 0:08:11,000
+CA : Vous me racontiez une anecdote
+
+175
+0:08:12.377,000 --> 0:08:13,000
+je pense que c'est cette image.
+
+176
+0:08:14.358,000 --> 0:08:15,000
+Que s'est-il passé ?
+
+177
+0:08:15.866,000 --> 0:08:19,000
+ST : C'était jeudi dernier. C'est émouvant.
+
+178
+0:08:19.898,000 --> 0:08:22,000
+Nous avons montré et publié dans « Nature » cette année, la comparaison
+
+179
+0:08:23.522,000 --> 0:08:25,000
+du taux de réussite entre des dermatologues
+
+180
+0:08:25.98,000 --> 0:08:26,000
+et notre programme,
+
+181
+0:08:27.593,000 --> 0:08:28,000
+pour identifier des mélanomes.
+
+182
+0:08:29.244,000 --> 0:08:3,000
+Mais ces images viennent du passé.
+
+183
+0:08:31.046,000 --> 0:08:34,000
+Toutes ont été biopsiées pour assurer une classification correcte.
+
+184
+0:08:34.18,000 --> 0:08:35,000
+Celle-ci ne l'était pas.
+
+185
+0:08:35.332,000 --> 0:08:38,000
+Celle-ci a été faite par l'un de nos collaborateurs à Stanford.
+
+186
+0:08:38.929,000 --> 0:08:4,000
+Ce qui s'est passé, c'est que ce collaborateur,
+
+187
+0:08:41.267,000 --> 0:08:44,000
+qui est un dermatologue célèbre, l'un des trois meilleurs, apparemment,
+
+188
+0:08:44.652,000 --> 0:08:47,000
+regardait ce grain de beauté et disait : « Ce n'est pas un cancer. »
+
+189
+0:08:47.869,000 --> 0:08:49,000
+Puis, il a réfléchi, et il s'est dit :
+
+190
+0:08:50.141,000 --> 0:08:51,000
+« Autant vérifier avec l'application. »
+
+191
+0:08:52.031,000 --> 0:08:54,000
+Il a pris son iPhone et a lancé notre logiciel,
+
+192
+0:08:54.754,000 --> 0:08:56,000
+notre « dermatologue de poche »,
+
+193
+0:08:56.899,000 --> 0:08:58,000
+et l'iPhone a dit : « C'est un cancer. »
+
+194
+0:08:59.917,000 --> 0:09:,000
+Il a reconnu un mélanome.
+
+195
+0:09:01.579,000 --> 0:09:02,000
+Le dermatologue était perplexe :
+
+196
+0:09:03.122,000 --> 0:09:07,000
+« Peut-être que j'ai un peu plus confiance dans l'iPhone qu'en moi-même »,
+
+197
+0:09:07.681,000 --> 0:09:09,000
+et il envoya le tout au labo pour une biopsie.
+
+198
+0:09:10.44,000 --> 0:09:12,000
+Il s'est avéré que c'était un mélanome agressif.
+
+199
+0:09:13.505,000 --> 0:09:16,000
+Je pense que c'était la première fois que l'on a effectivement trouvé,
+
+200
+0:09:16.796,000 --> 0:09:18,000
+en utilisant des techniques d'apprentissage profond,
+
+201
+0:09:19.235,000 --> 0:09:22,000
+une personne ayant un mélanome qui aurait été non diagnostiqué,
+
+202
+0:09:22.543,000 --> 0:09:24,000
+s'il n'y avait pas eu l'apprentissage profond.
+
+203
+0:09:24.688,000 --> 0:09:25,000
+CA : C'est incroyable !
+
+204
+0:09:26.266,000 --> 0:09:27,000
+(Applaudissements)
+
+205
+0:09:28.059,000 --> 0:09:31,000
+Mais s'il y avait une demande instantanée pour une telle application,
+
+206
+0:09:31.683,000 --> 0:09:32,000
+cela pourrait effrayer beaucoup de gens.
+
+207
+0:09:33.673,000 --> 0:09:35,000
+Pensez-vous rendre cet auto-diagnostic disponible ?
+
+208
+0:09:36.194,000 --> 0:09:42,000
+ST: Ma messagerie est inondée de questions à ce sujet,
+
+209
+0:09:42.221,000 --> 0:09:44,000
+avec des histoires déchirantes de personnes,
+
+210
+0:09:44.548,000 --> 0:09:47,000
+dont certaines avaient eu 10, 15 ou 20 mélanomes enlevés,
+
+211
+0:09:47.776,000 --> 0:09:5,000
+et étaient effrayés qu'un d'entre eux, comme celui-ci, passe inaperçu,
+
+212
+0:09:51.752,000 --> 0:09:52,000
+et aussi, des demandes concernant
+
+213
+0:09:53.377,000 --> 0:09:55,000
+des autos volantes, ou de participation à des conférences.
+
+214
+0:09:56.273,000 --> 0:09:58,000
+Selon moi, nous avons besoin de plus de tests.
+
+215
+0:09:59.449,000 --> 0:10:,000
+Je veux être très prudent.
+
+216
+0:10:01.251,000 --> 0:10:04,000
+C'est facile de publier des résultats tape-à-l’œil pour impressionner TED.
+
+217
+0:10:04.941,000 --> 0:10:06,000
+C'est plus dur de construire quelque chose d'éthique.
+
+218
+0:10:07.588,000 --> 0:10:09,000
+Si les gens utilisent l'application
+
+219
+0:10:09.94,000 --> 0:10:11,000
+et choisissent de ne pas recourir à l'assistance d'un médecin
+
+220
+0:10:12.831,000 --> 0:10:13,000
+et que nous nous trompons,
+
+221
+0:10:14.408,000 --> 0:10:15,000
+je me sentirais vraiment mal.
+
+222
+0:10:15.802,000 --> 0:10:16,000
+Nous conduisons des tests cliniques
+
+223
+0:10:17.664,000 --> 0:10:19,000
+et si ces tests se poursuivent, et que les données se tiennent,
+
+224
+0:10:20.636,000 --> 0:10:22,000
+on pourrait un jour utiliser ce type de technologie
+
+225
+0:10:23.42,000 --> 0:10:25,000
+et sortir de la clinique de Stanford,
+
+226
+0:10:25.446,000 --> 0:10:26,000
+pour l'apporter au reste du monde,
+
+227
+0:10:27.068,000 --> 0:10:3,000
+dans des endroits où les docteurs de Stanford ne sont jamais allés.
+
+228
+0:10:30.617,000 --> 0:10:32,000
+CA : Est-ce que j'entends bien,
+
+229
+0:10:33.221,000 --> 0:10:34,000
+il semble que vous disiez,
+
+230
+0:10:34.591,000 --> 0:10:38,000
+parce que vous travaillez avec cette armée d'étudiants d'Udacity,
+
+231
+0:10:39.309,000 --> 0:10:42,000
+que vous appliquez une forme différente de « machine learning »
+
+232
+0:10:42.394,000 --> 0:10:44,000
+que celle utilisée dans une entreprise,
+
+233
+0:10:44.493,000 --> 0:10:47,000
+une combinaison d'apprentissage automatique et de sagesse de foule.
+
+234
+0:10:48.001,000 --> 0:10:5,000
+Pensez-vous que parfois vous pouvez surpasser
+
+235
+0:10:50.219,000 --> 0:10:52,000
+ce qu'une entreprise peut réaliser, même une très grande ?
+
+236
+0:10:52.943,000 --> 0:10:55,000
+ST : Je crois qu'il y a des cas qui m'époustouflent,
+
+237
+0:10:56.447,000 --> 0:10:57,000
+et j'essaie toujours de comprendre.
+
+238
+0:10:58.229,000 --> 0:11:01,000
+Ce à quoi Chris fait allusion, sont les compétitions que nous organisons.
+
+239
+0:11:02.19,000 --> 0:11:04,000
+En environ 48 heures, nous avons réussi
+
+240
+0:11:04.482,000 --> 0:11:06,000
+à construire un véhicule autonome
+
+241
+0:11:06.688,000 --> 0:11:09,000
+capable d'aller de Moutain View à San Francisco sur la route.
+
+242
+0:11:09.825,000 --> 0:11:12,000
+Ce n'est pas équivalent à Google, après 7 ans de développement,
+
+243
+0:11:13.777,000 --> 0:11:15,000
+mais cela s'en approche.
+
+244
+0:11:16.329,000 --> 0:11:19,000
+Cela nous a pris deux ingénieurs et trois mois pour faire cela.
+
+245
+0:11:19.437,000 --> 0:11:21,000
+La raison est que nous avons une armée d'étudiants
+
+246
+0:11:22.317,000 --> 0:11:23,000
+qui participent à ces compétitions.
+
+247
+0:11:24.051,000 --> 0:11:26,000
+D'autres utilisent aussi le « crowdsourcing ».
+
+248
+0:11:26.301,000 --> 0:11:28,000
+Uber et Didi l'utilisent pour la conduite,
+
+249
+0:11:28.682,000 --> 0:11:3,000
+Airbnb l'utilise pour les hôtels.
+
+250
+0:11:31.385,000 --> 0:11:34,000
+Beaucoup d'entreprises font rechercher des bugs en « crowdsourcing »
+
+251
+0:11:34.966,000 --> 0:11:37,000
+ou pour le pliage de protéines, ou pour toutes sortes de projets.
+
+252
+0:11:38.324,000 --> 0:11:4,000
+On a été capable de construire cette voiture en trois mois,
+
+253
+0:11:41.263,000 --> 0:11:44,000
+donc je réfléchis en ce moment
+
+254
+0:11:44.942,000 --> 0:11:46,000
+à organiser les entreprises.
+
+255
+0:11:47.204,000 --> 0:11:51,000
+On a un effectif de 9 000 personnes qui ne sont jamais embauchées,
+
+256
+0:11:51.924,000 --> 0:11:52,000
+qui ne sont jamais virées.
+
+257
+0:11:53.256,000 --> 0:11:55,000
+Elles se vont travailler, je ne le sais même pas.
+
+258
+0:11:55.642,000 --> 0:11:58,000
+Puis elles me soumettent peut-être 9 000 réponses.
+
+259
+0:11:58.724,000 --> 0:12:,000
+Je ne suis pas obligé d'en utiliser une.
+
+260
+0:12:00.924,000 --> 0:12:01,000
+A la fin, je paye seulement les gagnants,
+
+261
+0:12:02.899,000 --> 0:12:05,000
+-- ce n'est pas très généreux, et peut-être pas la meilleure chose à faire.
+
+262
+0:12:06.681,000 --> 0:12:08,000
+Mais elles considèrent cela comme une part de leur formation.
+
+263
+0:12:09.556,000 --> 0:12:13,000
+Mais ces étudiants ont été capables de produire des résultats extraordinaires
+
+264
+0:12:13.815,000 --> 0:12:16,000
+Donc oui, combiner capacités humaines et apprentissage machine est incroyable.
+
+265
+0:12:17.49,000 --> 0:12:2,000
+CA : Gary Kasparov a dit lors du premier jour [de TED2017]
+
+266
+0:12:20.518,000 --> 0:12:25,000
+que les vainqueurs aux échecs se sont avérés être deux joueurs amateurs
+
+267
+0:12:25.934,000 --> 0:12:3,000
+avec trois programmes informatiques médiocres ou médiocres-à-bons
+
+268
+0:12:31.269,000 --> 0:12:34,000
+qui pouvaient surpasser un grand maître
+
+269
+0:12:34.746,000 --> 0:12:36,000
+comme si cela faisait partie du processus.
+
+270
+0:12:36.829,000 --> 0:12:39,000
+C'est comme si vous parliez d'une version bien plus riche
+
+271
+0:12:39.838,000 --> 0:12:4,000
+de la même idée.
+
+272
+0:12:40.886,000 --> 0:12:44,000
+ST : Oui, quand nous écoutions le fantastique panel hier matin,
+
+273
+0:12:44.977,000 --> 0:12:46,000
+ces deux sessions sur l'IA,
+
+274
+0:12:47.115,000 --> 0:12:49,000
+la domination robotique et la réponse humaine,
+
+275
+0:12:49.306,000 --> 0:12:5,000
+de très grandes choses ont été dites.
+
+276
+0:12:51.312,000 --> 0:12:53,000
+Le problème est que l'on confond parfois
+
+277
+0:12:54.023,000 --> 0:12:58,000
+ce qui peut réellement être fait par l'IA avec cette sorte de menace de domination,
+
+278
+0:12:58.109,000 --> 0:13:01,000
+où votre IA développerait une conscience.
+
+279
+0:13:01.557,000 --> 0:13:03,000
+La dernière chose que je veux est une IA consciente.
+
+280
+0:13:04.552,000 --> 0:13:05,000
+Je ne veux pas aller dans ma cuisine
+
+281
+0:13:06.292,000 --> 0:13:1,000
+et trouver mon réfrigérateur, amoureux du lave-vaisselle,
+
+282
+0:13:10.509,000 --> 0:13:12,000
+qui me dise que comme je ne suis pas gentil,
+
+283
+0:13:12.663,000 --> 0:13:13,000
+ma nourriture n'est plus au frais.
+
+284
+0:13:14.574,000 --> 0:13:16,000
+Je n'achèterais pas ces produits et je n'en veux pas.
+
+285
+0:13:17.825,000 --> 0:13:18,000
+Mais à dire vrai, pour moi,
+
+286
+0:13:19.651,000 --> 0:13:21,000
+le rôle de l'IA a toujours été d'augmenter les capacités.
+
+287
+0:13:22.893,000 --> 0:13:23,000
+C'est une amélioration pour nous,
+
+288
+0:13:24.593,000 --> 0:13:25,000
+pour nous rendre plus forts.
+
+289
+0:13:26.049,000 --> 0:13:28,000
+Je pense que la remarque de Kasparov était très juste.
+
+290
+0:13:28.929,000 --> 0:13:31,000
+C'est la combinaison d'humains et de machines intelligents
+
+291
+0:13:32.802,000 --> 0:13:33,000
+qui nous rend plus forts.
+
+292
+0:13:34.29,000 --> 0:13:38,000
+Cette idée de machines nous rendant plus forts est aussi vieille que les machines.
+
+293
+0:13:39.567,000 --> 0:13:42,000
+La révolution agricole a eu lieu avec des machines à vapeur,
+
+294
+0:13:43.319,000 --> 0:13:45,000
+des équipements agricoles ne sachant pas cultiver seuls,
+
+295
+0:13:45.965,000 --> 0:13:47,000
+ils ne nous ont pas remplacés mais rendus plus forts.
+
+296
+0:13:48.471,000 --> 0:13:51,000
+Je pense que cette nouvelle génération d'IA nous rendra beaucoup plus forts
+
+297
+0:13:51.994,000 --> 0:13:52,000
+en tant que race humaine.
+
+298
+0:13:53.765,000 --> 0:13:54,000
+CA : Nous reviendrons là-dessus,
+
+299
+0:13:55.602,000 --> 0:13:58,000
+mais juste pour rester sur la partie qui effraie certains,
+
+300
+0:13:59.297,000 --> 0:14:02,000
+cela peut être effrayant pour certains
+
+301
+0:14:02.334,000 --> 0:14:07,000
+lorsqu'un ordinateur peut réécrire son propre code
+
+302
+0:14:07.521,000 --> 0:14:1,000
+et qu'il peut créer de multiples copies de lui-même,
+
+303
+0:14:11.129,000 --> 0:14:12,000
+essayer différentes versions de son code,
+
+304
+0:14:13.108,000 --> 0:14:14,000
+peut-être même au hasard,
+
+305
+0:14:14.849,000 --> 0:14:17,000
+et vérifier plus tard si le but est atteint et amélioré.
+
+306
+0:14:18.505,000 --> 0:14:21,000
+Donc, disons que le but est de faire mieux sur un test d'intelligence.
+
+307
+0:14:22.17,000 --> 0:14:25,000
+Pour un ordinateur modérément bon,
+
+308
+0:14:26.088,000 --> 0:14:28,000
+vous pourriez essayer un million de versions de cela.
+
+309
+0:14:28.621,000 --> 0:14:3,000
+Vous pourriez en trouver une meilleure,
+
+310
+0:14:30.735,000 --> 0:14:31,000
+et alors, vous savez, vous répétez.
+
+311
+0:14:32.713,000 --> 0:14:35,000
+Vous pourriez obtenir une sorte d'effet d'emballement
+
+312
+0:14:35.833,000 --> 0:14:38,000
+où tout est correct le jeudi soir,
+
+313
+0:14:38.859,000 --> 0:14:4,000
+et vous revenez dans le labo le vendredi matin,
+
+314
+0:14:41.219,000 --> 0:14:43,000
+et en raison de la vitesse des ordinateurs,
+
+315
+0:14:43.692,000 --> 0:14:44,000
+les choses sont soudain devenues folles.
+
+316
+0:14:45.619,000 --> 0:14:47,000
+ST : Je dirais que c'est une possibilité,
+
+317
+0:14:47.663,000 --> 0:14:48,000
+mais une possibilité peu probable.
+
+318
+0:14:49.603,000 --> 0:14:52,000
+Laissez-moi traduire ce que vous venez de dire.
+
+319
+0:14:52.964,000 --> 0:14:54,000
+Dans le cas d'AlphaGo, nous avons exactement cela :
+
+320
+0:14:55.692,000 --> 0:14:57,000
+l'ordinateur jouait le jeu contre lui-même
+
+321
+0:14:57.741,000 --> 0:14:58,000
+et apprenait de nouvelles règles.
+
+322
+0:14:59.346,000 --> 0:15:02,000
+Et l'apprentissage automatique est une réécriture des règles.
+
+323
+0:15:02.564,000 --> 0:15:03,000
+C'est la réécriture du code.
+
+324
+0:15:04.357,000 --> 0:15:06,000
+Mais je pense qu'il n'y a absolument aucun risque
+
+325
+0:15:07.226,000 --> 0:15:09,000
+qu'AlphaGo domine le monde.
+
+326
+0:15:09.396,000 --> 0:15:1,000
+Il ne sait même pas jouer aux échecs.
+
+327
+0:15:11.164,000 --> 0:15:16,000
+CA : Non, bien sûr, aujourd'hui ce sont des systèmes mono-domaines.
+
+328
+0:15:16.335,000 --> 0:15:18,000
+Mais il est possible d'imaginer...
+
+329
+0:15:19.238,000 --> 0:15:22,000
+Nous venons de voir un ordinateur qui semble presque capable
+
+330
+0:15:22.351,000 --> 0:15:24,000
+de passer un test d'entrée universitaire.
+
+331
+0:15:25.03,000 --> 0:15:28,000
+Ce genre de -- il ne peut lire et comprendre comme on le fait,
+
+332
+0:15:28.742,000 --> 0:15:29,000
+mais il peut absorber tout le texte
+
+333
+0:15:30.753,000 --> 0:15:32,000
+et peut-être révéler des modèles qui ont du sens.
+
+334
+0:15:33.676,000 --> 0:15:36,000
+N'y a-t-il pas une chance qu'avec l'évolution de la technologie,
+
+335
+0:15:37.264,000 --> 0:15:39,000
+il puisse y avoir un nouvel effet d'emballement ?
+
+336
+0:15:39.567,000 --> 0:15:41,000
+ST : C'est là que je trace la frontière, honnêtement.
+
+337
+0:15:42.059,000 --> 0:15:44,000
+C'est possible, je ne veux pas le minimiser,
+
+338
+0:15:44.233,000 --> 0:15:47,000
+mais cela reste très faible, et pas d'actualité pour le moment
+
+339
+0:15:47.239,000 --> 0:15:5,000
+parce que je pense que la grande révolution est ailleurs.
+
+340
+0:15:50.285,000 --> 0:15:53,000
+Tous les succès de l'Intelligence Artificielle à ce jour
+
+341
+0:15:53.831,000 --> 0:15:55,000
+ont été extrêmement spécialisés,
+
+342
+0:15:56.069,000 --> 0:15:58,000
+et cela repose sur une seule idée,
+
+343
+0:15:58.582,000 --> 0:16:,000
+qui est cet incroyable volume de données.
+
+344
+0:16:01.345,000 --> 0:16:05,000
+AlphaGo fonctionne si bien du fait de l'immense nombre de parties de go jouées
+
+345
+0:16:05.516,000 --> 0:16:08,000
+et AlphaGo ne peut ni conduire une voiture ni piloter un avion.
+
+346
+0:16:08.795,000 --> 0:16:1,000
+La voiture autonome Google ou celle d'Udacity
+
+347
+0:16:11.5,000 --> 0:16:14,000
+repose sur un volume immense de données, et elle ne peut rien faire d'autre.
+
+348
+0:16:15.074,000 --> 0:16:16,000
+Il ne peut pas conduire une moto.
+
+349
+0:16:16.691,000 --> 0:16:18,000
+C'est une fonction très spécifique à un domaine donné,
+
+350
+0:16:19.651,000 --> 0:16:2,000
+c'est pareil pour le cancer.
+
+351
+0:16:21.582,000 --> 0:16:24,000
+Il n'y a eu aucun progrès sur ce concept appelé « IA générale »,
+
+352
+0:16:24.842,000 --> 0:16:28,000
+où vous allez voir l'IA et dites : « Invente une théorie sur la relativité
+
+353
+0:16:28.866,000 --> 0:16:29,000
+ou sur la théorie des cordes. »
+
+354
+0:16:30.556,000 --> 0:16:31,000
+C'est à un stade de balbutiement.
+
+355
+0:16:32.511,000 --> 0:16:34,000
+La raison qui me pousse à souligner cela,
+
+356
+0:16:34.662,000 --> 0:16:37,000
+c'est que je vois les craintes, et je veux les reconnaître.
+
+357
+0:16:38.524,000 --> 0:16:4,000
+Si je devais penser à une chose,
+
+358
+0:16:41.434,000 --> 0:16:46,000
+je me poserais la question « Et si je pouvais prendre une tâche répétitive
+
+359
+0:16:47.021,000 --> 0:16:5,000
+et nous rendre 100 fois plus efficaces ? »
+
+360
+0:16:51.17,000 --> 0:16:55,000
+Il s'avère qu'il y a 300 ans, on était tous agriculteurs,
+
+361
+0:16:55.443,000 --> 0:16:57,000
+cultivait et faisait des tâches répétitives.
+
+362
+0:16:57.518,000 --> 0:16:59,000
+Aujourd'hui, 75% des personnes travaillent au bureau
+
+363
+0:17:00.098,000 --> 0:17:02,000
+à des tâches répétitives.
+
+364
+0:17:02.246,000 --> 0:17:04,000
+Nous sommes devenus des singes de tableurs.
+
+365
+0:17:04.453,000 --> 0:17:06,000
+Et pas seulement le travail bas de gamme.
+
+366
+0:17:06.531,000 --> 0:17:08,000
+Les dermatologues font des tâches répétitives,
+
+367
+0:17:09.219,000 --> 0:17:1,000
+les avocats font des tâches répétitives.
+
+368
+0:17:11.108,000 --> 0:17:14,000
+Je pense que nous sommes à un point où l'IA va pouvoir nous aider,
+
+369
+0:17:14.929,000 --> 0:17:15,000
+regarder par-dessus notre épaule,
+
+370
+0:17:16.671,000 --> 0:17:2,000
+et nous rendre 10 ou 50 fois plus efficaces pour ces tâches répétitives.
+
+371
+0:17:20.753,000 --> 0:17:21,000
+C'est ce que je pense.
+
+372
+0:17:22.052,000 --> 0:17:24,000
+CA : Cela semble très excitant.
+
+373
+0:17:24.526,000 --> 0:17:27,000
+Le processus pour s'y rendre semble un peu terrifiant pour certains,
+
+374
+0:17:28.08,000 --> 0:17:31,000
+car une fois qu'un ordinateur peut faire des choses répétitives
+
+375
+0:17:31.284,000 --> 0:17:34,000
+mieux qu'un dermatologue
+
+376
+0:17:34.742,000 --> 0:17:37,000
+ou qu'un chauffeur, par exemple, puisqu'on en parle beaucoup
+
+377
+0:17:37.996,000 --> 0:17:37,000
+en ce moment,
+
+378
+0:17:38.93,000 --> 0:17:4,000
+soudain des millions d'emplois disparaissent,
+
+379
+0:17:41.292,000 --> 0:17:43,000
+et le pays est en révolution
+
+380
+0:17:44.011,000 --> 0:17:48,000
+avant que nous n'atteignions l'aspect glorieux de ce qui est possible.
+
+381
+0:17:48.364,000 --> 0:17:5,000
+ST : Oui, et c'est un problème, un problème important
+
+382
+0:17:50.905,000 --> 0:17:54,000
+et il a été pointé hier matin par plusieurs orateurs.
+
+383
+0:17:55.125,000 --> 0:17:57,000
+Avant de monter sur scène,
+
+384
+0:17:57.903,000 --> 0:18:,000
+je confesse être positif et optimiste,
+
+385
+0:18:01.666,000 --> 0:18:03,000
+donc laissez-moi vous porter un discours optimiste,
+
+386
+0:18:04.079,000 --> 0:18:08,000
+qui est... Replongez-vous 300 ans en arrière.
+
+387
+0:18:08.898,000 --> 0:18:11,000
+L'Europe vient juste de survivre à 140 ans de guerre ininterrompue,
+
+388
+0:18:12.918,000 --> 0:18:13,000
+personne ne sait lire ou écrire,
+
+389
+0:18:14.653,000 --> 0:18:16,000
+les emplois que vous avez n'existent même pas,
+
+390
+0:18:17.622,000 --> 0:18:21,000
+tel que banquier en investissement, ingénieur logiciel ou présentateur TV.
+
+391
+0:18:21.742,000 --> 0:18:23,000
+Nous serions tous aux champs à cultiver.
+
+392
+0:18:24.18,000 --> 0:18:27,000
+Voilà le petit Sebastian avec une petite machine à vapeur dans la poche,
+
+393
+0:18:27.707,000 --> 0:18:28,000
+disant : « Hé les gars, regardez ça.
+
+394
+0:18:29.429,000 --> 0:18:32,000
+Cela va vous rendre 100 fois plus forts, et vous libérer du temps. »
+
+395
+0:18:32.645,000 --> 0:18:34,000
+Dans ces temps-là, il n'y avait pas de podium,
+
+396
+0:18:35.462,000 --> 0:18:37,000
+mais Chris et moi sommes dans l'étable avec les vaches,
+
+397
+0:18:38.028,000 --> 0:18:39,000
+et il dit : « Je suis inquiet :
+
+398
+0:18:39.756,000 --> 0:18:42,000
+je trais ma vache tous les jours, et si la machine le fait pour moi ? »
+
+399
+0:18:43.242,000 --> 0:18:45,000
+La raison pour laquelle je le mentionne est...
+
+400
+0:18:46.36,000 --> 0:18:49,000
+Nous voyons facilement le progrès passé et ses bénéfices,
+
+401
+0:18:49.987,000 --> 0:18:52,000
+comme les iPhone, les avions, l'électricité ou les médicaments.
+
+402
+0:18:53.365,000 --> 0:18:57,000
+Nous allons tous vivre jusque 80 ans ce qui était impossible il y a 300 ans.
+
+403
+0:18:57.634,000 --> 0:19:01,000
+Mais on n'applique pas les mêmes règles pour le futur.
+
+404
+0:19:02.621,000 --> 0:19:05,000
+Si je regarde à mon propre travail en tant que PDG,
+
+405
+0:19:05.852,000 --> 0:19:08,000
+je dirais que 90% de mon travail est répétitif,
+
+406
+0:19:09.006,000 --> 0:19:1,000
+je n'y prends pas de plaisir,
+
+407
+0:19:10.391,000 --> 0:19:13,000
+je passe près de 4 heures par jour sur des courriels répétitifs stupides.
+
+408
+0:19:14.393,000 --> 0:19:17,000
+J'ai hâte d'avoir quelque chose qui m'aide à me débarrasser de ces tâches.
+
+409
+0:19:18.058,000 --> 0:19:19,000
+Pourquoi ?
+
+410
+0:19:19.24,000 --> 0:19:22,000
+Parce que je crois que nous sommes follement créatifs,
+
+411
+0:19:22.731,000 --> 0:19:25,000
+la communauté TED plus que n'importe quelle autre.
+
+412
+0:19:25.949,000 --> 0:19:28,000
+Mais aussi les cols bleus : vous pouvez aller voir votre femme de chambre
+
+413
+0:19:29.532,000 --> 0:19:31,000
+et boire un verre avec elle,
+
+414
+0:19:31.958,000 --> 0:19:33,000
+et une heure après, vous trouverez une idée créative.
+
+415
+0:19:34.699,000 --> 0:19:38,000
+Ce que cela va permettre est de transformer cette créativité en action.
+
+416
+0:19:39.265,000 --> 0:19:42,000
+Comme par exemple, si on pouvait construire Google en un jour ?
+
+417
+0:19:43.191,000 --> 0:19:46,000
+Si on pouvait, assis autour d'une bière, inventer le prochain Snapchat,
+
+418
+0:19:46.561,000 --> 0:19:47,000
+quoi que que ce soit,
+
+419
+0:19:47.75,000 --> 0:19:49,000
+et que cela marche demain matin ?
+
+420
+0:19:49.961,000 --> 0:19:5,000
+Ce n'est pas de la science-fiction.
+
+421
+0:19:51.738,000 --> 0:19:52,000
+Ce qui va se passer est que
+
+422
+0:19:53.036,000 --> 0:19:54,000
+nous sommes déjà dans l'histoire.
+
+423
+0:19:54.927,000 --> 0:19:57,000
+On a libéré cette étonnante créativité
+
+424
+0:19:57.939,000 --> 0:19:58,000
+en se libérant de l'agriculture
+
+425
+0:19:59.814,000 --> 0:20:02,000
+et plus tard, du travail en usine,
+
+426
+0:20:03.201,000 --> 0:20:06,000
+et on a inventé tant de choses.
+
+427
+0:20:06.387,000 --> 0:20:08,000
+Cela va être encore mieux, selon moi.
+
+428
+0:20:08.589,000 --> 0:20:1,000
+Il va y avoir de grands effets secondaires.
+
+429
+0:20:10.685,000 --> 0:20:11,000
+Un des effets de bord sera que
+
+430
+0:20:12.198,000 --> 0:20:16,000
+les choses comme la nourriture, les médicaments, l'éducation, le logement
+
+431
+0:20:17.017,000 --> 0:20:18,000
+et le transport
+
+432
+0:20:18.218,000 --> 0:20:2,000
+seront plus abordables pour nous tous,
+
+433
+0:20:20.623,000 --> 0:20:21,000
+pas seulement les gens riches.
+
+434
+0:20:22.057,000 --> 0:20:23,000
+CA : Hum.
+
+435
+0:20:23.235,000 --> 0:20:27,000
+Donc quand Martin Ford argumente que cette fois c'est différent
+
+436
+0:20:27.6,000 --> 0:20:3,000
+car l'intelligence employée dans le passé
+
+437
+0:20:31.077,000 --> 0:20:33,000
+pour trouver de nouvelles façons d'être
+
+438
+0:20:33.584,000 --> 0:20:35,000
+sera égalée au même rythme
+
+439
+0:20:35.887,000 --> 0:20:37,000
+que les ordinateurs qui prennent en charge cela,
+
+440
+0:20:38.202,000 --> 0:20:41,000
+vous dites, vous, non, pas complétement
+
+441
+0:20:41.304,000 --> 0:20:43,000
+en raison de la créativité des humains.
+
+442
+0:20:44.279,000 --> 0:20:47,000
+Pensez-vous que c'est fondamentalement différent de la créativité
+
+443
+0:20:48.088,000 --> 0:20:5,000
+que les ordinateurs peuvent avoir ?
+
+444
+0:20:50.808,000 --> 0:20:54,000
+ST : C'est ce que je crois vraiment en tant qu'expert de l'IA --
+
+445
+0:20:55.266,000 --> 0:20:58,000
+je n'ai pas réellement vu de progrès en créativité
+
+446
+0:20:59.949,000 --> 0:21:,000
+ou en pensée créative.
+
+447
+0:21:01.36,000 --> 0:21:04,000
+Ce que je vois maintenant, et c'est important pour les gens de le réaliser,
+
+448
+0:21:04.877,000 --> 0:21:06,000
+car ce terme « intelligence artificielle » est alarmant
+
+449
+0:21:07.462,000 --> 0:21:09,000
+et soudain Steven Spielberg nous jette dans un film,
+
+450
+0:21:09.893,000 --> 0:21:11,000
+où tout à coup l'ordinateur domine l'humanité,
+
+451
+0:21:12.418,000 --> 0:21:13,000
+mais c'est juste de la technologie.
+
+452
+0:21:14.114,000 --> 0:21:17,000
+C'est une technologie qui nous aide à faire des tâches répétitives.
+
+453
+0:21:17.316,000 --> 0:21:2,000
+Et les progrès ont été faits sur ces tâches répétitives.
+
+454
+0:21:20.357,000 --> 0:21:22,000
+Dans la découverte des documents légaux.
+
+455
+0:21:22.609,000 --> 0:21:23,000
+Dans l'élaboration de contrats.
+
+456
+0:21:24.313,000 --> 0:21:28,000
+Dans l'interprétation de radios des poumons.
+
+457
+0:21:28.56,000 --> 0:21:29,000
+Ces choses sont si spécialisées,
+
+458
+0:21:30.247,000 --> 0:21:32,000
+que je ne vois pas la grande menace pour l'humanité.
+
+459
+0:21:32.772,000 --> 0:21:33,000
+En fait, nous en tant qu'humains,
+
+460
+0:21:34.59,000 --> 0:21:36,000
+avouons-le, nous devenons super-humains.
+
+461
+0:21:36.999,000 --> 0:21:37,000
+Nous sommes devenus super-humains.
+
+462
+0:21:38.787,000 --> 0:21:4,000
+Nous pouvons traverser l'Atlantique à la nage en 11 heures.
+
+463
+0:21:41.576,000 --> 0:21:43,000
+Nous pouvons sortir un équipement de notre poche
+
+464
+0:21:43.867,000 --> 0:21:44,000
+et crier jusqu'en en Australie,
+
+465
+0:21:45.712,000 --> 0:21:47,000
+et en temps réel, la personne peut nous répondre.
+
+466
+0:21:48.336,000 --> 0:21:51,000
+C'est physiquement impossible. Nous brisons les règles de la physique.
+
+467
+0:21:51.984,000 --> 0:21:53,000
+Quand cela sera dit et fait, nous nous rappellerons de tout
+
+468
+0:21:54.951,000 --> 0:21:55,000
+ce qui a été dit et fait,
+
+469
+0:21:56.188,000 --> 0:21:57,000
+nous nous souviendrons de tous,
+
+470
+0:21:57.708,000 --> 0:21:59,000
+ce qui est une bonne chose avec mes débuts d'Alzheimer.
+
+471
+0:22:00.358,000 --> 0:22:01,000
+Désolé, je disais ? J'ai oublié.
+
+472
+0:22:02.059,000 --> 0:22:03,000
+CA : (Rires)
+
+473
+0:22:03.661,000 --> 0:22:06,000
+ST : Nous allons probablement avoir un QI de 1 000 et plus.
+
+474
+0:22:06.762,000 --> 0:22:09,000
+Il n'y aura plus de cours d'orthographe pour nos enfants,
+
+475
+0:22:10.071,000 --> 0:22:12,000
+car il n'y aura plus de problèmes d'orthographe.
+
+476
+0:22:12.321,000 --> 0:22:13,000
+Plus de problèmes de maths.
+
+477
+0:22:14.177,000 --> 0:22:17,000
+Je pense que ce qui va se passer est que l'on va devenir super créatifs.
+
+478
+0:22:17.711,000 --> 0:22:18,000
+On l'est. On est super créatifs.
+
+479
+0:22:19.592,000 --> 0:22:2,000
+C'est notre arme secrète.
+
+480
+0:22:21.168,000 --> 0:22:23,000
+CA : Donc les emplois perdus,
+
+481
+0:22:23.345,000 --> 0:22:25,000
+dans un sens, même si cela est douloureux,
+
+482
+0:22:25.823,000 --> 0:22:27,000
+les humains sont capables de plus que ces emplois.
+
+483
+0:22:28.165,000 --> 0:22:28,000
+C'est le rêve.
+
+484
+0:22:29.176,000 --> 0:22:33,000
+Le rêve est que les humains puissent s'élever à un nouveau niveau d'autonomie
+
+485
+0:22:33.447,000 --> 0:22:34,000
+et de découverte.
+
+486
+0:22:35.128,000 --> 0:22:36,000
+C'est le rêve.
+
+487
+0:22:36.434,000 --> 0:22:37,000
+ST: Pensez à cela :
+
+488
+0:22:38.271,000 --> 0:22:4,000
+si on regarde l'histoire de l'humanité,
+
+489
+0:22:40.316,000 --> 0:22:43,000
+qui peut avoir, à peu près, 60-100 000 ans,
+
+490
+0:22:43.668,000 --> 0:22:46,000
+presque tout ce que l'on peut chérir comme inventions,
+
+491
+0:22:47.418,000 --> 0:22:49,000
+comme technologies, ces choses qu'on a créées,
+
+492
+0:22:49.593,000 --> 0:22:52,000
+l'ont été dans les 150 dernières années.
+
+493
+0:22:53.756,000 --> 0:22:56,000
+Si on exclut le livre et la roue, qui sont un peu plus anciens.
+
+494
+0:22:56.828,000 --> 0:22:57,000
+Ou la hache.
+
+495
+0:22:58.021,000 --> 0:23:,000
+Mais le téléphone, les baskets,
+
+496
+0:23:00.835,000 --> 0:23:03,000
+ces chaises, la fabrication moderne, la pénicilline --
+
+497
+0:23:04.41,000 --> 0:23:05,000
+tout ce que l'on chérit.
+
+498
+0:23:06.148,000 --> 0:23:09,000
+Pour moi, cela signifie que
+
+499
+0:23:09.64,000 --> 0:23:12,000
+nous découvrirons de nouvelles choses dans les 150 prochaines années
+
+500
+0:23:12.895,000 --> 0:23:16,000
+En fait, le rythme des inventions a augmenté et non diminué, selon moi.
+
+501
+0:23:17.073,000 --> 0:23:21,000
+Je crois que seulement 1% des choses intéressantes ont déjà été inventées.
+
+502
+0:23:22.002,000 --> 0:23:23,000
+On n'a pas soigné le cancer.
+
+503
+0:23:23.944,000 --> 0:23:26,000
+Nous n'avons pas de voitures volantes, pas encore. J'espère que je vais changer ça.
+
+504
+0:23:27.852,000 --> 0:23:3,000
+C'était un exemple où les gens riaient. (Rires).
+
+505
+0:23:30.917,000 --> 0:23:33,000
+C'est drôle, non ? Travailler secrètement sur les voitures volantes.
+
+506
+0:23:34.109,000 --> 0:23:36,000
+On ne vit pas encore deux fois plus longtemps.
+
+507
+0:23:36.76,000 --> 0:23:38,000
+Nous n'avons pas cet implant magique dans le cerveau qui
+
+508
+0:23:39.539,000 --> 0:23:4,000
+nous fournit l'information voulue.
+
+509
+0:23:41.395,000 --> 0:23:42,000
+Vous pourriez être consternés,
+
+510
+0:23:42.831,000 --> 0:23:44,000
+mais je vous promets, vous l'aimerez quand vous l'aurez !
+
+511
+0:23:45.549,000 --> 0:23:46,000
+J'espère.
+
+512
+0:23:46.633,000 --> 0:23:47,000
+C'est un peu effrayant, je sais.
+
+513
+0:23:48.526,000 --> 0:23:49,000
+Il reste tant de choses à inventer
+
+514
+0:23:50.204,000 --> 0:23:51,000
+et que l'on inventera.
+
+515
+0:23:51.256,000 --> 0:23:52,000
+On n'a pas de bouclier de gravité.
+
+516
+0:23:52.886,000 --> 0:23:53,000
+On ne peut pas se téléporter.
+
+517
+0:23:54.573,000 --> 0:23:55,000
+Ça a l'air ridicule,
+
+518
+0:23:56.278,000 --> 0:23:58,000
+mais il y a environ 200 ans,
+
+519
+0:23:58.53,000 --> 0:24:,000
+des experts pensaient qu'on ne pourrait pas voler,
+
+520
+0:24:01.221,000 --> 0:24:02,000
+même il y a 120 ans,
+
+521
+0:24:02.569,000 --> 0:24:04,000
+et que si on allait plus vite que la vitesse de course,
+
+522
+0:24:05.175,000 --> 0:24:06,000
+on mourrait instantanément.
+
+523
+0:24:06.719,000 --> 0:24:09,000
+Qui pourrait dire aujourd'hui qu'on ne peut pas téléporter une personne
+
+524
+0:24:10.312,000 --> 0:24:12,000
+d'ici sur Mars ?
+
+525
+0:24:12.585,000 --> 0:24:13,000
+CA : Sebastian, merci beaucoup
+
+526
+0:24:14.178,000 --> 0:24:16,000
+pour votre incroyable vision inspirante et votre génie.
+
+527
+0:24:16.884,000 --> 0:24:17,000
+Merci. Sebastian Thrun.
+
+528
+0:24:18.231,000 --> 0:24:19,000
+C'était fantastique. (Applaudissements)
+

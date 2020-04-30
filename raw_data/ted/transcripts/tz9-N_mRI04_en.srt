@@ -1,0 +1,544 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Krystian Aparta
+
+2
+0:00:12.203,000 --> 0:00:14,000
+Greg Gage: Mind-reading. You've seen this in sci-fi movies:
+
+3
+0:00:15.086,000 --> 0:00:16,000
+machines that can read our thoughts.
+
+4
+0:00:16.967,000 --> 0:00:17,000
+However, there are devices today
+
+5
+0:00:18.789,000 --> 0:00:2,000
+that can read the electrical activity from our brains.
+
+6
+0:00:21.337,000 --> 0:00:22,000
+We call this the EEG.
+
+7
+0:00:23.695,000 --> 0:00:25,000
+Is there information contained in these brainwaves?
+
+8
+0:00:26.548,000 --> 0:00:28,000
+And if so, could we train a computer to read our thoughts?
+
+9
+0:00:29.385,000 --> 0:00:31,000
+My buddy Nathan has been working to hack the EEG
+
+10
+0:00:32.313,000 --> 0:00:33,000
+to build a mind-reading machine.
+
+11
+0:00:34.013,000 --> 0:00:36,000
+[DIY Neuroscience]
+
+12
+0:00:36.939,000 --> 0:00:37,000
+So this is how the EEG works.
+
+13
+0:00:38.524,000 --> 0:00:39,000
+Inside your head is a brain,
+
+14
+0:00:40.392,000 --> 0:00:42,000
+and that brain is made out of billions of neurons.
+
+15
+0:00:42.974,000 --> 0:00:45,000
+Each of those neurons sends an electrical message to each other.
+
+16
+0:00:46.005,000 --> 0:00:48,000
+These small messages can combine to make an electrical wave
+
+17
+0:00:48.843,000 --> 0:00:49,000
+that we can detect on a monitor.
+
+18
+0:00:50.437,000 --> 0:00:52,000
+Now traditionally, the EEG can tell us large-scale things,
+
+19
+0:00:53.185,000 --> 0:00:55,000
+for example if you're asleep or if you're alert.
+
+20
+0:00:55.559,000 --> 0:00:56,000
+But can it tell us anything else?
+
+21
+0:00:57.177,000 --> 0:00:58,000
+Can it actually read our thoughts?
+
+22
+0:00:58.903,000 --> 0:00:59,000
+We're going to test this,
+
+23
+0:01:00.146,000 --> 0:01:02,000
+and we're not going to start with some complex thoughts.
+
+24
+0:01:02.793,000 --> 0:01:03,000
+We're going to do something very simple.
+
+25
+0:01:04.794,000 --> 0:01:07,000
+Can we interpret what someone is seeing using only their brainwaves?
+
+26
+0:01:08.071,000 --> 0:01:11,000
+Nathan's going to begin by placing electrodes on Christy's head.
+
+27
+0:01:11.095,000 --> 0:01:12,000
+Nathan: My life is tangled.
+
+28
+0:01:12.642,000 --> 0:01:13,000
+(Laughter)
+
+29
+0:01:14.152,000 --> 0:01:16,000
+GG: And then he's going to show her a bunch of pictures
+
+30
+0:01:16.76,000 --> 0:01:17,000
+from four different categories.
+
+31
+0:01:18.305,000 --> 0:01:2,000
+Nathan: Face, house, scenery and weird pictures.
+
+32
+0:01:20.983,000 --> 0:01:22,000
+GG: As we show Christy hundreds of these images,
+
+33
+0:01:23.505,000 --> 0:01:26,000
+we are also capturing the electrical waves onto Nathan's computer.
+
+34
+0:01:27.072,000 --> 0:01:3,000
+We want to see if we can detect any visual information about the photos
+
+35
+0:01:30.482,000 --> 0:01:31,000
+contained in the brainwaves,
+
+36
+0:01:31.858,000 --> 0:01:33,000
+so when we're done, we're going to see if the EEG
+
+37
+0:01:34.213,000 --> 0:01:36,000
+can tell us what kind of picture Christy is looking at,
+
+38
+0:01:36.835,000 --> 0:01:39,000
+and if it does, each category should trigger a different brain signal.
+
+39
+0:01:40.443,000 --> 0:01:42,000
+OK, so we collected all the raw EEG data,
+
+40
+0:01:43.095,000 --> 0:01:44,000
+and this is what we got.
+
+41
+0:01:45.389,000 --> 0:01:47,000
+It all looks pretty messy, so let's arrange them by picture.
+
+42
+0:01:48.826,000 --> 0:01:5,000
+Now, still a bit too noisy to see any differences,
+
+43
+0:01:51.506,000 --> 0:01:54,000
+but if we average the EEG across all image types
+
+44
+0:01:54.57,000 --> 0:01:56,000
+by aligning them to when the image first appeared,
+
+45
+0:01:57.03,000 --> 0:01:58,000
+we can remove this noise,
+
+46
+0:01:58.671,000 --> 0:02:,000
+and pretty soon, we can see some dominant patterns
+
+47
+0:02:01.029,000 --> 0:02:02,000
+emerge for each category.
+
+48
+0:02:02.617,000 --> 0:02:04,000
+Now the signals all still look pretty similar.
+
+49
+0:02:04.797,000 --> 0:02:05,000
+Let's take a closer look.
+
+50
+0:02:06.036,000 --> 0:02:08,000
+About a hundred milliseconds after the image comes on,
+
+51
+0:02:08.585,000 --> 0:02:1,000
+we see a positive bump in all four cases,
+
+52
+0:02:11.237,000 --> 0:02:13,000
+and we call this the P100, and what we think that is
+
+53
+0:02:14.05,000 --> 0:02:17,000
+is what happens in your brain when you recognize an object.
+
+54
+0:02:17.149,000 --> 0:02:19,000
+But damn, look at that signal for the face.
+
+55
+0:02:19.259,000 --> 0:02:2,000
+It looks different than the others.
+
+56
+0:02:20.994,000 --> 0:02:22,000
+There's a negative dip about 170 milliseconds
+
+57
+0:02:23.908,000 --> 0:02:24,000
+after the image comes on.
+
+58
+0:02:25.472,000 --> 0:02:26,000
+What could be going on here?
+
+59
+0:02:27.246,000 --> 0:02:3,000
+Research shows that our brain has a lot of neurons that are dedicated
+
+60
+0:02:30.51,000 --> 0:02:31,000
+to recognizing human faces,
+
+61
+0:02:31.993,000 --> 0:02:33,000
+so this N170 spike could be all those neurons
+
+62
+0:02:34.861,000 --> 0:02:35,000
+firing at once in the same location,
+
+63
+0:02:36.87,000 --> 0:02:37,000
+and we can detect that in the EEG.
+
+64
+0:02:39.083,000 --> 0:02:4,000
+So there are two takeaways here.
+
+65
+0:02:40.927,000 --> 0:02:43,000
+One, our eyes can't really detect the differences in patterns
+
+66
+0:02:44.036,000 --> 0:02:45,000
+without averaging out the noise,
+
+67
+0:02:45.631,000 --> 0:02:47,000
+and two, even after removing the noise,
+
+68
+0:02:47.892,000 --> 0:02:5,000
+our eyes can only pick up the signals associated with faces.
+
+69
+0:02:50.917,000 --> 0:02:52,000
+So this is where we turn to machine learning.
+
+70
+0:02:53.209,000 --> 0:02:56,000
+Now, our eyes are not very good at picking up patterns in noisy data,
+
+71
+0:02:57.209,000 --> 0:02:59,000
+but machine learning algorithms are designed to do just that,
+
+72
+0:03:00.179,000 --> 0:03:03,000
+so could we take a lot of pictures and a lot of data
+
+73
+0:03:03.404,000 --> 0:03:04,000
+and feed it in and train a computer
+
+74
+0:03:05.218,000 --> 0:03:08,000
+to be able to interpret what Christy is looking at in real time?
+
+75
+0:03:09.088,000 --> 0:03:13,000
+We're trying to code the information that's coming out of her EEG
+
+76
+0:03:13.229,000 --> 0:03:14,000
+in real time
+
+77
+0:03:14.428,000 --> 0:03:16,000
+and predict what it is that her eyes are looking at.
+
+78
+0:03:16.913,000 --> 0:03:17,000
+And if it works, what we should see
+
+79
+0:03:18.664,000 --> 0:03:2,000
+is every time that she gets a picture of scenery,
+
+80
+0:03:21.069,000 --> 0:03:23,000
+it should say scenery, scenery, scenery, scenery.
+
+81
+0:03:23.379,000 --> 0:03:24,000
+A face -- face, face, face, face,
+
+82
+0:03:25.36,000 --> 0:03:28,000
+but it's not quite working that way, is what we're discovering.
+
+83
+0:03:33.385,000 --> 0:03:36,000
+(Laughter)
+
+84
+0:03:36.957,000 --> 0:03:37,000
+OK.
+
+85
+0:03:38.132,000 --> 0:03:41,000
+Director: So what's going on here? GG: We need a new career, I think.
+
+86
+0:03:41.538,000 --> 0:03:42,000
+(Laughter)
+
+87
+0:03:42.632,000 --> 0:03:44,000
+OK, so that was a massive failure.
+
+88
+0:03:45.1,000 --> 0:03:48,000
+But we're still curious: How far could we push this technology?
+
+89
+0:03:48.336,000 --> 0:03:49,000
+And we looked back at what we did.
+
+90
+0:03:5,000 --> 0:03:53,000
+We noticed that the data was coming into our computer very quickly,
+
+91
+0:03:53.167,000 --> 0:03:55,000
+without any timing of when the images came on,
+
+92
+0:03:55.432,000 --> 0:03:57,000
+and that's the equivalent of reading a very long sentence
+
+93
+0:03:58.332,000 --> 0:03:59,000
+without spaces between the words.
+
+94
+0:03:59.961,000 --> 0:04:,000
+It would be hard to read,
+
+95
+0:04:01.423,000 --> 0:04:04,000
+but once we add the spaces, individual words appear
+
+96
+0:04:05.16,000 --> 0:04:07,000
+and it becomes a lot more understandable.
+
+97
+0:04:07.228,000 --> 0:04:08,000
+But what if we cheat a little bit?
+
+98
+0:04:09.099,000 --> 0:04:12,000
+By using a sensor, we can tell the computer when the image first appears.
+
+99
+0:04:12.66,000 --> 0:04:15,000
+That way, the brainwave stops being a continuous stream of information,
+
+100
+0:04:16.286,000 --> 0:04:18,000
+and instead becomes individual packets of meaning.
+
+101
+0:04:19.021,000 --> 0:04:21,000
+Also, we're going to cheat a little bit more,
+
+102
+0:04:21.413,000 --> 0:04:22,000
+by limiting the categories to two.
+
+103
+0:04:23.249,000 --> 0:04:25,000
+Let's see if we can do some real-time mind-reading.
+
+104
+0:04:25.656,000 --> 0:04:26,000
+In this new experiment,
+
+105
+0:04:26.915,000 --> 0:04:28,000
+we're going to constrict it a little bit more
+
+106
+0:04:29.036,000 --> 0:04:31,000
+so that we know the onset of the image
+
+107
+0:04:31.312,000 --> 0:04:34,000
+and we're going to limit the categories to "face" or "scenery."
+
+108
+0:04:35.097,000 --> 0:04:36,000
+Nathan: Face. Correct.
+
+109
+0:04:37.78,000 --> 0:04:38,000
+Scenery. Correct.
+
+110
+0:04:40.251,000 --> 0:04:42,000
+GG: So right now, every time the image comes on,
+
+111
+0:04:42.648,000 --> 0:04:44,000
+we're taking a picture of the onset of the image
+
+112
+0:04:44.938,000 --> 0:04:45,000
+and decoding the EEG.
+
+113
+0:04:46.657,000 --> 0:04:47,000
+It's getting correct.
+
+114
+0:04:47.937,000 --> 0:04:48,000
+Nathan: Yes. Face. Correct.
+
+115
+0:04:49.54,000 --> 0:04:51,000
+GG: So there is information in the EEG signal, which is cool.
+
+116
+0:04:52.423,000 --> 0:04:54,000
+We just had to align it to the onset of the image.
+
+117
+0:04:55.307,000 --> 0:04:56,000
+Nathan: Scenery. Correct.
+
+118
+0:04:59.344,000 --> 0:05:,000
+Face. Yeah.
+
+119
+0:05:00.518,000 --> 0:05:02,000
+GG: This means there is some information there,
+
+120
+0:05:02.83,000 --> 0:05:04,000
+so if we know at what time the picture came on,
+
+121
+0:05:05.767,000 --> 0:05:06,000
+we can tell what type of picture it was,
+
+122
+0:05:07.79,000 --> 0:05:12,000
+possibly, at least on average, by looking at these evoked potentials.
+
+123
+0:05:12.91,000 --> 0:05:13,000
+Nathan: Exactly.
+
+124
+0:05:14.259,000 --> 0:05:17,000
+GG: If you had told me at the beginning of this project this was possible,
+
+125
+0:05:17.804,000 --> 0:05:18,000
+I would have said no way.
+
+126
+0:05:19.079,000 --> 0:05:21,000
+I literally did not think we could do this.
+
+127
+0:05:21.103,000 --> 0:05:23,000
+Did our mind-reading experiment really work?
+
+128
+0:05:23.193,000 --> 0:05:24,000
+Yes, but we had to do a lot of cheating.
+
+129
+0:05:25.192,000 --> 0:05:27,000
+It turns out you can find some interesting things in the EEG,
+
+130
+0:05:28.121,000 --> 0:05:3,000
+for example if you're looking at someone's face,
+
+131
+0:05:30.435,000 --> 0:05:32,000
+but it does have a lot of limitations.
+
+132
+0:05:32.616,000 --> 0:05:34,000
+Perhaps advances in machine learning will make huge strides,
+
+133
+0:05:35.586,000 --> 0:05:38,000
+and one day we will be able to decode what's going on in our thoughts.
+
+134
+0:05:39,000 --> 0:05:43,000
+But for now, the next time a company says that they can harness your brainwaves
+
+135
+0:05:43.101,000 --> 0:05:44,000
+to be able to control devices,
+
+136
+0:05:44.875,000 --> 0:05:47,000
+it is your right, it is your duty to be skeptical.
+

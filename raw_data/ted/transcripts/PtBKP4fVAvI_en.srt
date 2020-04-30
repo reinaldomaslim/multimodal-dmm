@@ -1,0 +1,492 @@
+1
+0:00:12.564,000 --> 0:00:15,000
+My students and I work on very tiny robots.
+
+2
+0:00:16.209,000 --> 0:00:18,000
+Now, you can think of these as robotic versions
+
+3
+0:00:18.426,000 --> 0:00:21,000
+of something that you're all very familiar with: an ant.
+
+4
+0:00:22.016,000 --> 0:00:24,000
+We all know that ants and other insects at this size scale
+
+5
+0:00:24.776,000 --> 0:00:26,000
+can do some pretty incredible things.
+
+6
+0:00:27.012,000 --> 0:00:3,000
+We've all seen a group of ants, or some version of that,
+
+7
+0:00:30.197,000 --> 0:00:34,000
+carting off your potato chip at a picnic, for example.
+
+8
+0:00:34.467,000 --> 0:00:37,000
+But what are the real challenges of engineering these ants?
+
+9
+0:00:37.91,000 --> 0:00:4,000
+Well, first of all, how do we get the capabilities of an ant
+
+10
+0:00:41.861,000 --> 0:00:43,000
+in a robot at the same size scale?
+
+11
+0:00:43.909,000 --> 0:00:45,000
+Well, first we need to figure out how to make them move
+
+12
+0:00:46.513,000 --> 0:00:47,000
+when they're so small.
+
+13
+0:00:47.923,000 --> 0:00:49,000
+We need mechanisms like legs and efficient motors
+
+14
+0:00:50.223,000 --> 0:00:51,000
+in order to support that locomotion,
+
+15
+0:00:52.072,000 --> 0:00:54,000
+and we need the sensors, power and control
+
+16
+0:00:54.563,000 --> 0:00:57,000
+in order to pull everything together in a semi-intelligent ant robot.
+
+17
+0:00:58.525,000 --> 0:01:,000
+And finally, to make these things really functional,
+
+18
+0:01:01.071,000 --> 0:01:04,000
+we want a lot of them working together in order to do bigger things.
+
+19
+0:01:05.019,000 --> 0:01:07,000
+So I'll start with mobility.
+
+20
+0:01:07.71,000 --> 0:01:1,000
+Insects move around amazingly well.
+
+21
+0:01:10.871,000 --> 0:01:11,000
+This video is from UC Berkeley.
+
+22
+0:01:12.559,000 --> 0:01:14,000
+It shows a cockroach moving over incredibly rough terrain
+
+23
+0:01:15.342,000 --> 0:01:16,000
+without tipping over,
+
+24
+0:01:17.195,000 --> 0:01:2,000
+and it's able to do this because its legs are a combination of rigid materials,
+
+25
+0:01:21.192,000 --> 0:01:23,000
+which is what we traditionally use to make robots,
+
+26
+0:01:23.545,000 --> 0:01:24,000
+and soft materials.
+
+27
+0:01:26.374,000 --> 0:01:29,000
+Jumping is another really interesting way to get around when you're very small.
+
+28
+0:01:30.201,000 --> 0:01:34,000
+So these insects store energy in a spring and release that really quickly
+
+29
+0:01:34.27,000 --> 0:01:38,000
+to get the high power they need to jump out of water, for example.
+
+30
+0:01:38.281,000 --> 0:01:41,000
+So one of the big contributions from my lab
+
+31
+0:01:41.403,000 --> 0:01:43,000
+has been to combine rigid and soft materials
+
+32
+0:01:44.153,000 --> 0:01:46,000
+in very, very small mechanisms.
+
+33
+0:01:46.367,000 --> 0:01:49,000
+So this jumping mechanism is about four millimeters on a side,
+
+34
+0:01:49.532,000 --> 0:01:5,000
+so really tiny.
+
+35
+0:01:51.22,000 --> 0:01:54,000
+The hard material here is silicon, and the soft material is silicone rubber.
+
+36
+0:01:55.058,000 --> 0:01:57,000
+And the basic idea is that we're going to compress this,
+
+37
+0:01:57.953,000 --> 0:01:59,000
+store energy in the springs, and then release it to jump.
+
+38
+0:02:00.654,000 --> 0:02:03,000
+So there's no motors on board this right now, no power.
+
+39
+0:02:04.037,000 --> 0:02:06,000
+This is actuated with a method that we call in my lab
+
+40
+0:02:06.8,000 --> 0:02:08,000
+"graduate student with tweezers." (Laughter)
+
+41
+0:02:09.472,000 --> 0:02:1,000
+So what you'll see in the next video
+
+42
+0:02:11.306,000 --> 0:02:14,000
+is this guy doing amazingly well for its jumps.
+
+43
+0:02:14.333,000 --> 0:02:17,000
+So this is Aaron, the graduate student in question, with the tweezers,
+
+44
+0:02:17.947,000 --> 0:02:19,000
+and what you see is this four-millimeter-sized mechanism
+
+45
+0:02:20.63,000 --> 0:02:22,000
+jumping almost 40 centimeters high.
+
+46
+0:02:22.841,000 --> 0:02:24,000
+That's almost 100 times its own length.
+
+47
+0:02:25.265,000 --> 0:02:26,000
+And it survives, bounces on the table,
+
+48
+0:02:27.221,000 --> 0:02:3,000
+it's incredibly robust, and of course survives quite well until we lose it
+
+49
+0:02:30.735,000 --> 0:02:32,000
+because it's very tiny.
+
+50
+0:02:33.361,000 --> 0:02:35,000
+Ultimately, though, we want to add motors to this too,
+
+51
+0:02:35.97,000 --> 0:02:38,000
+and we have students in the lab working on millimeter-sized motors
+
+52
+0:02:39.086,000 --> 0:02:42,000
+to eventually integrate onto small, autonomous robots.
+
+53
+0:02:42.686,000 --> 0:02:45,000
+But in order to look at mobility and locomotion at this size scale to start,
+
+54
+0:02:46.267,000 --> 0:02:47,000
+we're cheating and using magnets.
+
+55
+0:02:48.241,000 --> 0:02:51,000
+So this shows what would eventually be part of a micro-robot leg,
+
+56
+0:02:51.317,000 --> 0:02:53,000
+and you can see the silicone rubber joints
+
+57
+0:02:53.334,000 --> 0:02:55,000
+and there's an embedded magnet that's being moved around
+
+58
+0:02:55.963,000 --> 0:02:57,000
+by an external magnetic field.
+
+59
+0:02:58.266,000 --> 0:03:,000
+So this leads to the robot that I showed you earlier.
+
+60
+0:03:01.959,000 --> 0:03:04,000
+The really interesting thing that this robot can help us figure out
+
+61
+0:03:05.11,000 --> 0:03:07,000
+is how insects move at this scale.
+
+62
+0:03:07.117,000 --> 0:03:09,000
+We have a really good model for how everything
+
+63
+0:03:09.342,000 --> 0:03:1,000
+from a cockroach up to an elephant moves.
+
+64
+0:03:11.304,000 --> 0:03:13,000
+We all move in this kind of bouncy way when we run.
+
+65
+0:03:14.228,000 --> 0:03:18,000
+But when I'm really small, the forces between my feet and the ground
+
+66
+0:03:18.513,000 --> 0:03:2,000
+are going to affect my locomotion a lot more than my mass,
+
+67
+0:03:21.288,000 --> 0:03:23,000
+which is what causes that bouncy motion.
+
+68
+0:03:23.642,000 --> 0:03:24,000
+So this guy doesn't work quite yet,
+
+69
+0:03:25.317,000 --> 0:03:28,000
+but we do have slightly larger versions that do run around.
+
+70
+0:03:28.392,000 --> 0:03:31,000
+So this is about a centimeter cubed, a centimeter on a side, so very tiny,
+
+71
+0:03:32.277,000 --> 0:03:34,000
+and we've gotten this to run about 10 body lengths per second,
+
+72
+0:03:35.179,000 --> 0:03:36,000
+so 10 centimeters per second.
+
+73
+0:03:36.565,000 --> 0:03:38,000
+It's pretty quick for a little, small guy,
+
+74
+0:03:38.598,000 --> 0:03:4,000
+and that's really only limited by our test setup.
+
+75
+0:03:40.96,000 --> 0:03:42,000
+But this gives you some idea of how it works right now.
+
+76
+0:03:44.027,000 --> 0:03:47,000
+We can also make 3D-printed versions of this that can climb over obstacles,
+
+77
+0:03:47.781,000 --> 0:03:5,000
+a lot like the cockroach that you saw earlier.
+
+78
+0:03:51.28,000 --> 0:03:53,000
+But ultimately we want to add everything onboard the robot.
+
+79
+0:03:54.166,000 --> 0:03:57,000
+We want sensing, power, control, actuation all together,
+
+80
+0:03:57.859,000 --> 0:03:59,000
+and not everything needs to be bio-inspired.
+
+81
+0:04:00.765,000 --> 0:04:03,000
+So this robot's about the size of a Tic Tac.
+
+82
+0:04:03.9,000 --> 0:04:06,000
+And in this case, instead of magnets or muscles to move this around,
+
+83
+0:04:07.849,000 --> 0:04:09,000
+we use rockets.
+
+84
+0:04:10.274,000 --> 0:04:12,000
+So this is a micro-fabricated energetic material,
+
+85
+0:04:12.94,000 --> 0:04:14,000
+and we can create tiny pixels of this,
+
+86
+0:04:15.539,000 --> 0:04:18,000
+and we can put one of these pixels on the belly of this robot,
+
+87
+0:04:19.326,000 --> 0:04:23,000
+and this robot, then, is going to jump when it senses an increase in light.
+
+88
+0:04:24.645,000 --> 0:04:25,000
+So the next video is one of my favorites.
+
+89
+0:04:26.618,000 --> 0:04:29,000
+So you have this 300-milligram robot
+
+90
+0:04:29.658,000 --> 0:04:31,000
+jumping about eight centimeters in the air.
+
+91
+0:04:32.064,000 --> 0:04:34,000
+It's only four by four by seven millimeters in size.
+
+92
+0:04:34.974,000 --> 0:04:36,000
+And you'll see a big flash at the beginning
+
+93
+0:04:37.13,000 --> 0:04:38,000
+when the energetic is set off,
+
+94
+0:04:38.622,000 --> 0:04:39,000
+and the robot tumbling through the air.
+
+95
+0:04:40.53,000 --> 0:04:41,000
+So there was that big flash,
+
+96
+0:04:42.139,000 --> 0:04:45,000
+and you can see the robot jumping up through the air.
+
+97
+0:04:45.336,000 --> 0:04:48,000
+So there's no tethers on this, no wires connecting to this.
+
+98
+0:04:48.368,000 --> 0:04:5,000
+Everything is onboard, and it jumped in response
+
+99
+0:04:50.862,000 --> 0:04:54,000
+to the student just flicking on a desk lamp next to it.
+
+100
+0:04:55.243,000 --> 0:04:58,000
+So I think you can imagine all the cool things that we could do
+
+101
+0:04:58.897,000 --> 0:05:02,000
+with robots that can run and crawl and jump and roll at this size scale.
+
+102
+0:05:03.604,000 --> 0:05:06,000
+Imagine the rubble that you get after a natural disaster like an earthquake.
+
+103
+0:05:07.394,000 --> 0:05:09,000
+Imagine these small robots running through that rubble
+
+104
+0:05:09.953,000 --> 0:05:11,000
+to look for survivors.
+
+105
+0:05:12.171,000 --> 0:05:14,000
+Or imagine a lot of small robots running around a bridge
+
+106
+0:05:15.127,000 --> 0:05:17,000
+in order to inspect it and make sure it's safe
+
+107
+0:05:17.286,000 --> 0:05:19,000
+so you don't get collapses like this,
+
+108
+0:05:19.326,000 --> 0:05:22,000
+which happened outside of Minneapolis in 2007.
+
+109
+0:05:23.233,000 --> 0:05:24,000
+Or just imagine what you could do
+
+110
+0:05:24.995,000 --> 0:05:26,000
+if you had robots that could swim through your blood.
+
+111
+0:05:27.518,000 --> 0:05:29,000
+Right? "Fantastic Voyage," Isaac Asimov.
+
+112
+0:05:29.851,000 --> 0:05:33,000
+Or they could operate without having to cut you open in the first place.
+
+113
+0:05:34.206,000 --> 0:05:36,000
+Or we could radically change the way we build things
+
+114
+0:05:36.936,000 --> 0:05:39,000
+if we have our tiny robots work the same way that termites do,
+
+115
+0:05:40.343,000 --> 0:05:42,000
+and they build these incredible eight-meter-high mounds,
+
+116
+0:05:43.108,000 --> 0:05:47,000
+effectively well ventilated apartment buildings for other termites
+
+117
+0:05:47.196,000 --> 0:05:49,000
+in Africa and Australia.
+
+118
+0:05:49.287,000 --> 0:05:51,000
+So I think I've given you some of the possibilities
+
+119
+0:05:51.717,000 --> 0:05:53,000
+of what we can do with these small robots.
+
+120
+0:05:54.154,000 --> 0:05:58,000
+And we've made some advances so far, but there's still a long way to go,
+
+121
+0:05:58.561,000 --> 0:06:,000
+and hopefully some of you can contribute to that destination.
+
+122
+0:06:01.419,000 --> 0:06:02,000
+Thanks very much.
+
+123
+0:06:03.187,000 --> 0:06:05,000
+(Applause)
+

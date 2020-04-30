@@ -1,0 +1,1252 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.76,000 --> 0:00:13,000
+Este es Pleurobot.
+
+3
+0:00:15.4,000 --> 0:00:18,000
+Pleurobot es un robot diseñado para imitar una especie de salamandra
+
+4
+0:00:19.04,000 --> 0:00:2,000
+llamada Pleurodeles waltl.
+
+5
+0:00:21.24,000 --> 0:00:23,000
+Pleurobot puede caminar, como ven aquí,
+
+6
+0:00:23.52,000 --> 0:00:25,000
+y luego verán que también puede nadar.
+
+7
+0:00:26.06,000 --> 0:00:28,000
+Quizá se pregunten por qué diseñamos este robot.
+
+8
+0:00:28.96,000 --> 0:00:31,000
+Lo diseñamos como herramienta científica para la neurociencia.
+
+9
+0:00:33.4,000 --> 0:00:35,000
+De hecho, lo diseñamos junto a los neurobiólogos
+
+10
+0:00:35.83,000 --> 0:00:37,000
+para entender cómo se mueven los animales,
+
+11
+0:00:38.026,000 --> 0:00:4,000
+y sobre todo cómo la médula espinal controla la locomoción.
+
+12
+0:00:41.38,000 --> 0:00:42,000
+Pero cuanto más trabajo en biorobótica,
+
+13
+0:00:43.28,000 --> 0:00:45,000
+más me impresiona realmente la locomoción animal.
+
+14
+0:00:45.92,000 --> 0:00:49,000
+Si lo piensan, un delfín o un gato que corre o salta,
+
+15
+0:00:50.24,000 --> 0:00:51,000
+o incluso nosotros,
+
+16
+0:00:51.84,000 --> 0:00:52,000
+cuando corremos o jugamos al tenis,
+
+17
+0:00:53.776,000 --> 0:00:54,000
+hacemos cosas asombrosas.
+
+18
+0:00:55.88,000 --> 0:00:59,000
+De hecho, el sistema nervioso resuelve un problema de control muy, muy complejo.
+
+19
+0:01:00.04,000 --> 0:01:03,000
+Tiene que coordinar más o menos 200 músculos a la perfección,
+
+20
+0:01:03.16,000 --> 0:01:06,000
+porque si la coordinación es mala, nos caemos o nos movemos mal.
+
+21
+0:01:07.56,000 --> 0:01:09,000
+Mi objetivo es entender cómo funciona esto.
+
+22
+0:01:10.67,000 --> 0:01:13,000
+Hay cuatro componentes principales detrás de la locomoción animal.
+
+23
+0:01:14.8,000 --> 0:01:15,000
+El primer componente es el cuerpo,
+
+24
+0:01:16.76,000 --> 0:01:17,000
+y, de hecho, nunca se debe subestimar
+
+25
+0:01:18.76,000 --> 0:01:21,000
+en qué medida la biomecánica en los animales ya simplificó la locomoción.
+
+26
+0:01:22.92,000 --> 0:01:23,000
+Luego está la médula espinal,
+
+27
+0:01:24.4,000 --> 0:01:25,000
+en la médula espinal hay reflejos,
+
+28
+0:01:26.4,000 --> 0:01:29,000
+múltiples reflejos que crean un ciclo de coordinación sensoriomotora
+
+29
+0:01:29.88,000 --> 0:01:32,000
+entre la actividad neural de la médula y la actividad mecánica.
+
+30
+0:01:33.89,000 --> 0:01:36,000
+Un tercer componente son los generadores de patrones centrales.
+
+31
+0:01:37,000 --> 0:01:4,000
+Son circuitos muy interesantes de la médula de los vertebrados
+
+32
+0:01:40.92,000 --> 0:01:41,000
+que pueden generar, por sí mismos,
+
+33
+0:01:42.56,000 --> 0:01:44,000
+patrones rítmicos de actividad, muy coordinados
+
+34
+0:01:44.84,000 --> 0:01:46,000
+y al mismo tiempo reciben solo señales de entrada muy simples.
+
+35
+0:01:47.746,000 --> 0:01:48,000
+Y estas señales de entrada
+
+36
+0:01:49.046,000 --> 0:01:52,000
+provenientes de la modulación descendente desde partes superiores del cerebro,
+
+37
+0:01:52.726,000 --> 0:01:54,000
+como la corteza motora, cerebelo, ganglios basales,
+
+38
+0:01:55.416,000 --> 0:01:56,000
+modularán la actividad de la médula
+
+39
+0:01:57.176,000 --> 0:01:58,000
+conforme nos desplazamos.
+
+40
+0:01:58.4,000 --> 0:02:01,000
+Lo interesante es hasta qué punto solo un componente de bajo nivel,
+
+41
+0:02:01.64,000 --> 0:02:02,000
+la médula espinal, junto con el cuerpo,
+
+42
+0:02:03.6,000 --> 0:02:05,000
+ya resuelven una gran parte del problema de la locomoción.
+
+43
+0:02:06.386,000 --> 0:02:08,000
+Quizá ya lo sepan porque al cortar la cabeza a un pollo,
+
+44
+0:02:09.062,000 --> 0:02:1,000
+este puede seguir corriendo un rato.
+
+45
+0:02:10.827,000 --> 0:02:12,000
+Eso muestra que con la parte inferior, la médula y el cuerpo,
+
+46
+0:02:13.706,000 --> 0:02:15,000
+ya se resuelve gran parte de la locomoción.
+
+47
+0:02:15.733,000 --> 0:02:17,000
+Pero entender cómo funciona es algo muy complejo
+
+48
+0:02:18.046,000 --> 0:02:19,000
+porque, en primer lugar,
+
+49
+0:02:19.306,000 --> 0:02:21,000
+grabar la actividad de la médula es muy difícil.
+
+50
+0:02:21.844,000 --> 0:02:23,000
+Más fácil es implantar electrodos en la corteza motora
+
+51
+0:02:24.64,000 --> 0:02:27,000
+que en la médula espinal, por estar protegida por las vértebras.
+
+52
+0:02:27.7,000 --> 0:02:29,000
+Sobre todo, en humanos, es muy difícil de hacer.
+
+53
+0:02:30.046,000 --> 0:02:33,000
+Segundo, la locomoción se produce gracias a una interacción muy compleja
+
+54
+0:02:33.446,000 --> 0:02:35,000
+y muy dinámica entre estos cuatro componentes.
+
+55
+0:02:36.44,000 --> 0:02:39,000
+Así que es muy difícil averiguar el papel de cada uno en el tiempo.
+
+56
+0:02:40.88,000 --> 0:02:43,000
+Aquí es donde los biorobots como Pleurobot y los modelos matemáticos
+
+57
+0:02:44.64,000 --> 0:02:45,000
+realmente pueden ayudar.
+
+58
+0:02:46.8,000 --> 0:02:47,000
+Entonces, ¿qué es la biorobótica?
+
+59
+0:02:48.69,000 --> 0:02:51,000
+La biorobótica es un campo muy activo de investigación en robótica
+
+60
+0:02:51.786,000 --> 0:02:53,000
+que quiere inspirarse en los animales
+
+61
+0:02:54,000 --> 0:02:56,000
+para hacer que los robots salgan al aire libre,
+
+62
+0:02:56.48,000 --> 0:02:58,000
+como robots de servicio, robots de búsqueda y rescate,
+
+63
+0:02:59.16,000 --> 0:03:,000
+o robots de campo.
+
+64
+0:03:00.88,000 --> 0:03:02,000
+El gran objetivo aquí es inspirarse en los animales
+
+65
+0:03:03.53,000 --> 0:03:04,000
+para hacer robots que operen en terrenos complejos:
+
+66
+0:03:05.5,000 --> 0:03:06,000
+escaleras, montañas, bosques,
+
+67
+0:03:07.22,000 --> 0:03:09,000
+lugares donde los robots todavía tienen dificultades
+
+68
+0:03:09.676,000 --> 0:03:11,000
+y donde los animales se desempeñan mucho mejor.
+
+69
+0:03:11.916,000 --> 0:03:13,000
+El robot puede ser una gran herramienta científica también.
+
+70
+0:03:14.426,000 --> 0:03:16,000
+Hay proyectos muy buenos en los que se usan robots,
+
+71
+0:03:16.884,000 --> 0:03:19,000
+como herramienta científica en neurociencia, biomecánica, hidrodinámica.
+
+72
+0:03:20.88,000 --> 0:03:22,000
+Este es exactamente el propósito de Pleurobot.
+
+73
+0:03:23.6,000 --> 0:03:25,000
+En mi laboratorio colaboramos con neurobiólogos
+
+74
+0:03:26.56,000 --> 0:03:29,000
+como Jean-Marie Cabelguen, neurobiólogo en Burdeos, Francia,
+
+75
+0:03:29.8,000 --> 0:03:33,000
+y queremos hacer modelos de la médula y validarlos en robots.
+
+76
+0:03:34.31,000 --> 0:03:35,000
+Queremos empezar de forma sencilla.
+
+77
+0:03:36.12,000 --> 0:03:37,000
+Es bueno empezar con animales simples
+
+78
+0:03:38.12,000 --> 0:03:4,000
+como las lampreas, que son peces muy primitivos,
+
+79
+0:03:40.436,000 --> 0:03:43,000
+y luego, gradualmente pasar a animales de locomoción más compleja,
+
+80
+0:03:43.646,000 --> 0:03:44,000
+como salamandras,
+
+81
+0:03:44.666,000 --> 0:03:45,000
+pero también a gatos y humanos,
+
+82
+0:03:46.616,000 --> 0:03:46,000
+los mamíferos.
+
+83
+0:03:47.42,000 --> 0:03:49,000
+Y aquí un robot se convierte en una herramienta interesante
+
+84
+0:03:50.28,000 --> 0:03:51,000
+para validar nuestros modelos.
+
+85
+0:03:52.24,000 --> 0:03:55,000
+Para mí, Pleurobot es una especie de sueño hecho realidad.
+
+86
+0:03:55.28,000 --> 0:03:57,000
+Hace más o menos 20 años yo ya trabajaba
+
+87
+0:03:58.26,000 --> 0:04:01,000
+haciendo simulaciones informáticas del movimiento de lampreas y salamandras
+
+88
+0:04:01.886,000 --> 0:04:02,000
+durante mi doctorado.
+
+89
+0:04:03.096,000 --> 0:04:06,000
+Pero siempre supe que mis simulaciones eran solo aproximaciones.
+
+90
+0:04:06.2,000 --> 0:04:09,000
+Como simular la física en el agua, o en barro o en un suelo complejo,
+
+91
+0:04:10.2,000 --> 0:04:12,000
+es muy difícil simularlo correctamente en la computadora.
+
+92
+0:04:12.916,000 --> 0:04:14,000
+¿Por qué no tener un robot real y una física real?
+
+93
+0:04:15.43,000 --> 0:04:18,000
+De todos estos animales, uno de mis favoritos es la salamandra.
+
+94
+0:04:18.76,000 --> 0:04:21,000
+Podrán preguntarse por qué y es porque, dado que es un anfibio,
+
+95
+0:04:22.24,000 --> 0:04:24,000
+es un animal clave desde un punto de vista evolutivo.
+
+96
+0:04:25.06,000 --> 0:04:27,000
+Establece una relación maravillosa entre nadar,
+
+97
+0:04:27.316,000 --> 0:04:28,000
+como vemos en la anguila o el pez,
+
+98
+0:04:29.12,000 --> 0:04:33,000
+y la locomoción del cuadrúpedo, como vemos en mamíferos, gatos y humanos.
+
+99
+0:04:34.16,000 --> 0:04:35,000
+De hecho, la salamandra moderna
+
+100
+0:04:35.84,000 --> 0:04:37,000
+se parece mucho al primer vertebrado terrestre,
+
+101
+0:04:38.14,000 --> 0:04:39,000
+por lo que es casi un fósil viviente,
+
+102
+0:04:39.956,000 --> 0:04:41,000
+lo que nos da acceso a nuestro antepasado,
+
+103
+0:04:42.006,000 --> 0:04:44,000
+el antepasado de todos los tetrápodos terrestres.
+
+104
+0:04:45.24,000 --> 0:04:46,000
+La salamandra nada,
+
+105
+0:04:46.64,000 --> 0:04:48,000
+haciendo una marcha de natación anguiliforme,
+
+106
+0:04:49.16,000 --> 0:04:52,000
+para ello propaga una onda viajera de actividad muscular de la cabeza a la cola.
+
+107
+0:04:53.44,000 --> 0:04:55,000
+Y una vez en el suelo,
+
+108
+0:04:55.64,000 --> 0:04:56,000
+pasa a un modo de andar al trote.
+
+109
+0:04:57.63,000 --> 0:05:,000
+En este caso, se produce una activación periódica de las extremidades
+
+110
+0:05:00.933,000 --> 0:05:01,000
+muy bien coordinadas
+
+111
+0:05:02.52,000 --> 0:05:04,000
+con esta ondulación estacionaria del cuerpo,
+
+112
+0:05:05.2,000 --> 0:05:08,000
+y es exactamente la marcha que están viendo aquí con el Pleurobot.
+
+113
+0:05:08.88,000 --> 0:05:1,000
+Pero muy sorprendente y, de hecho, es fascinante,
+
+114
+0:05:11.88,000 --> 0:05:15,000
+todo esto lo puede generar simplemente la médula y el cuerpo.
+
+115
+0:05:16.04,000 --> 0:05:17,000
+Si tomamos una salamandra sin cerebro,
+
+116
+0:05:17.944,000 --> 0:05:19,000
+no es tan agradable pero se le quita la cabeza,
+
+117
+0:05:20.22,000 --> 0:05:22,000
+y le estimulamos la médula con electricidad,
+
+118
+0:05:22.8,000 --> 0:05:25,000
+con un bajo nivel de estimulación inducirá un modo de andar similar.
+
+119
+0:05:26.08,000 --> 0:05:28,000
+Si se estimula un poco más, la marcha se acelera.
+
+120
+0:05:28.56,000 --> 0:05:29,000
+En un momento, hay un umbral,
+
+121
+0:05:30.48,000 --> 0:05:32,000
+y automáticamente, el animal pasa a nadar.
+
+122
+0:05:33.04,000 --> 0:05:34,000
+Es increíble.
+
+123
+0:05:34.44,000 --> 0:05:35,000
+Sencillamente cambia la marcha,
+
+124
+0:05:35.96,000 --> 0:05:36,000
+como si pisar el acelerador
+
+125
+0:05:37.72,000 --> 0:05:39,000
+de la modulación descendente en la médula espinal,
+
+126
+0:05:40.166,000 --> 0:05:42,000
+cambiara por completo entre dos marchas muy diferentes.
+
+127
+0:05:44.44,000 --> 0:05:46,000
+De hecho, lo mismo se observa en gatos.
+
+128
+0:05:47.04,000 --> 0:05:49,000
+Si uno estimula la médula de un gato,
+
+129
+0:05:49.08,000 --> 0:05:51,000
+puede pasar de caminata, a trote, a galope.
+
+130
+0:05:51.32,000 --> 0:05:53,000
+O en las aves, uno puede hacer que pasen de caminar,
+
+131
+0:05:53.98,000 --> 0:05:54,000
+en un nivel bajo de la estimulación,
+
+132
+0:05:55.746,000 --> 0:05:57,000
+a batir alas en un nivel alto de estimulación.
+
+133
+0:05:58.4,000 --> 0:06:,000
+Y esto demuestra que la médula espinal
+
+134
+0:06:00.536,000 --> 0:06:02,000
+controla la locomoción de forma muy sofisticada.
+
+135
+0:06:02.836,000 --> 0:06:05,000
+Por eso estudiamos la locomoción de la salamandra en más detalle,
+
+136
+0:06:05.986,000 --> 0:06:07,000
+y tuvimos acceso a una máquina de rayos X muy buena
+
+137
+0:06:08.48,000 --> 0:06:11,000
+del profesor Martin Fischer de la Universidad Jena en Alemania.
+
+138
+0:06:12.08,000 --> 0:06:14,000
+Gracias a eso, tenemos una máquina increíble
+
+139
+0:06:14.68,000 --> 0:06:16,000
+para grabar el movimiento de los huesos en gran detalle.
+
+140
+0:06:17.16,000 --> 0:06:18,000
+Así hicimos.
+
+141
+0:06:18.44,000 --> 0:06:21,000
+En esencia, descubrimos qué huesos importaban
+
+142
+0:06:21.64,000 --> 0:06:24,000
+y recolectamos su movimiento en 3D.
+
+143
+0:06:24.68,000 --> 0:06:26,000
+Recolectamos una gran base de datos de movimientos,
+
+144
+0:06:27.4,000 --> 0:06:28,000
+tanto en tierra como en el agua,
+
+145
+0:06:28.94,000 --> 0:06:3,000
+para obtener una base completa de los comportamientos motrices
+
+146
+0:06:31.884,000 --> 0:06:32,000
+que puede tener un animal real.
+
+147
+0:06:33.413,000 --> 0:06:35,000
+Nuestro trabajo como robotistas fue replicarlo en nuestro robot.
+
+148
+0:06:36.318,000 --> 0:06:39,000
+Mediante un proceso de optimización encontramos la estructura correcta
+
+149
+0:06:39.656,000 --> 0:06:41,000
+para colocar los motores, para conectarlos,
+
+150
+0:06:42.12,000 --> 0:06:44,000
+para poder reproducir esos movimientos lo mejor posible.
+
+151
+0:06:45.68,000 --> 0:06:47,000
+Y así cobró vida el Pleurobot.
+
+152
+0:06:49.2,000 --> 0:06:51,000
+Veamos cuánto se asemeja al animal real.
+
+153
+0:06:52.96,000 --> 0:06:54,000
+Aquí ven una comparación casi directa
+
+154
+0:06:55.48,000 --> 0:06:57,000
+entre la marca del animal real y la del Pleurobot.
+
+155
+0:06:58.2,000 --> 0:07:,000
+Puede verse que hay casi una reproducción uno a uno
+
+156
+0:07:00.96,000 --> 0:07:01,000
+de la marcha a pie.
+
+157
+0:07:02.24,000 --> 0:07:04,000
+Hacia atrás y poco a poco, se ve aún mejor.
+
+158
+0:07:07.52,000 --> 0:07:09,000
+Pero todavía mejor, podemos nadar.
+
+159
+0:07:09.92,000 --> 0:07:12,000
+Para eso usamos un traje seco y recubrimos todo el robot...
+
+160
+0:07:12.96,000 --> 0:07:13,000
+(Risas)
+
+161
+0:07:14.08,000 --> 0:07:17,000
+y entonces podemos ir al agua y reproducir la marcha de natación.
+
+162
+0:07:17.28,000 --> 0:07:2,000
+Aquí estábamos muy contentos porque esto es difícil de hacer.
+
+163
+0:07:20.64,000 --> 0:07:22,000
+La física de interacción es compleja.
+
+164
+0:07:22.78,000 --> 0:07:24,000
+El robot es mucho más grande que un animal pequeño,
+
+165
+0:07:25.32,000 --> 0:07:27,000
+por eso tuvimos que hacer un escalado dinámico de frecuencias
+
+166
+0:07:28.23,000 --> 0:07:3,000
+para asegurarnos de lograr la misma física de interacción.
+
+167
+0:07:31.036,000 --> 0:07:33,000
+Pero al final, logramos buena compatibilidad,
+
+168
+0:07:33.476,000 --> 0:07:34,000
+y estábamos muy, muy felices.
+
+169
+0:07:35.48,000 --> 0:07:37,000
+Pasemos a la médula espinal.
+
+170
+0:07:37.72,000 --> 0:07:39,000
+Con Jean-Marie Cabelguen
+
+171
+0:07:40.04,000 --> 0:07:42,000
+modelamos los circuitos de la médula.
+
+172
+0:07:43.04,000 --> 0:07:45,000
+Lo interesante es que la salamandra
+
+173
+0:07:45.2,000 --> 0:07:46,000
+conserva un circuito muy primitivo,
+
+174
+0:07:46.89,000 --> 0:07:48,000
+muy similar al de la lamprea,
+
+175
+0:07:49.43,000 --> 0:07:5,000
+ese pez parecido a una anguila primitiva,
+
+176
+0:07:51.39,000 --> 0:07:52,000
+y parece que, durante la evolución,
+
+177
+0:07:53.07,000 --> 0:07:56,000
+surgieron nuevos neuroosciladores para controlar las extremidades,
+
+178
+0:07:56.24,000 --> 0:07:57,000
+para lograr la locomoción de las piernas.
+
+179
+0:07:58.236,000 --> 0:08:,000
+Y sabemos dónde están estos osciladores neurales
+
+180
+0:08:00.546,000 --> 0:08:01,000
+pero hicimos un modelo matemático
+
+181
+0:08:02.356,000 --> 0:08:03,000
+para ver cómo deberían acoplarse
+
+182
+0:08:03.976,000 --> 0:08:05,000
+y lograr esta transición entre las dos marchas tan diferentes.
+
+183
+0:08:06.926,000 --> 0:08:08,000
+Y lo probamos a bordo de un robot.
+
+184
+0:08:09.68,000 --> 0:08:1,000
+Y tiene este aspecto.
+
+185
+0:08:18.92,000 --> 0:08:21,000
+Aquí vemos una versión previa del Pleurobot
+
+186
+0:08:21.96,000 --> 0:08:24,000
+totalmente controlada por nuestro modelo de médula espinal
+
+187
+0:08:25.08,000 --> 0:08:26,000
+programado a bordo del robot.
+
+188
+0:08:27.11,000 --> 0:08:28,000
+Lo único que hacemos
+
+189
+0:08:28.43,000 --> 0:08:3,000
+es enviarle al robot mediante un control remoto
+
+190
+0:08:30.66,000 --> 0:08:32,000
+las dos señales descendentes que debería recibir normalmente
+
+191
+0:08:33.486,000 --> 0:08:34,000
+de la parte superior del cerebro.
+
+192
+0:08:35.48,000 --> 0:08:37,000
+Y lo interesante es que, jugando con estas señales,
+
+193
+0:08:38.2,000 --> 0:08:41,000
+podemos controlar completamente velocidad, rumbo y tipo de marcha.
+
+194
+0:08:41.6,000 --> 0:08:42,000
+Por ejemplo,
+
+195
+0:08:42.84,000 --> 0:08:45,000
+si estimulamos en un nivel bajo, tenemos el modo caminar,
+
+196
+0:08:46.44,000 --> 0:08:47,000
+y, en un momento, si estimulamos mucho,
+
+197
+0:08:48.44,000 --> 0:08:5,000
+muy rápidamente pasa al modo nadar.
+
+198
+0:08:51.2,000 --> 0:08:53,000
+Y, por último, también podemos hacer giros muy bien
+
+199
+0:08:53.72,000 --> 0:08:56,000
+con solo estimular más un lado de la médula que el otro.
+
+200
+0:08:58.2,000 --> 0:08:59,000
+Y pienso que es realmente hermoso
+
+201
+0:08:59.84,000 --> 0:09:01,000
+cómo la naturaleza distribuyó el control
+
+202
+0:09:02.12,000 --> 0:09:04,000
+y le dio mucha responsabilidad a la médula espinal
+
+203
+0:09:05,000 --> 0:09:08,000
+para que la parte superior del cerebro no tenga que ocuparse de cada músculo.
+
+204
+0:09:08.63,000 --> 0:09:1,000
+Solo tiene que ocuparse de esta modulación de alto nivel,
+
+205
+0:09:11.396,000 --> 0:09:14,000
+y es trabajo de la médula coordinar cada músculo.
+
+206
+0:09:14.84,000 --> 0:09:17,000
+Pasemos ahora a la locomoción del gato y a la importancia de la biomecánica.
+
+207
+0:09:19.08,000 --> 0:09:2,000
+Este es otro proyecto
+
+208
+0:09:20.36,000 --> 0:09:22,000
+en el que estudiamos la biomecánica del gato,
+
+209
+0:09:22.8,000 --> 0:09:25,000
+y queríamos ver en qué medida la morfología ayuda a la locomoción.
+
+210
+0:09:26.72,000 --> 0:09:29,000
+Encontramos tres criterios importantes en las propiedades,
+
+211
+0:09:30.36,000 --> 0:09:31,000
+básicamente, de las extremidades.
+
+212
+0:09:32.32,000 --> 0:09:33,000
+El primero es que la extremidad del gato
+
+213
+0:09:34.32,000 --> 0:09:36,000
+se parece más o menos a una estructura de pantógrafo.
+
+214
+0:09:37.04,000 --> 0:09:39,000
+El pantógrafo es una estructura mecánica
+
+215
+0:09:39.28,000 --> 0:09:42,000
+que mantiene el segmento superior y los segmentos inferiores siempre paralelos.
+
+216
+0:09:43.6,000 --> 0:09:45,000
+Es un sistema geométrico sencillo que coordina un poco
+
+217
+0:09:46.51,000 --> 0:09:47,000
+el movimiento interno de los segmentos.
+
+218
+0:09:48.486,000 --> 0:09:51,000
+Una segunda propiedad de las extremidades del gato: son muy livianas.
+
+219
+0:09:51.826,000 --> 0:09:53,000
+La mayor parte de los músculos están en el tronco,
+
+220
+0:09:54.166,000 --> 0:09:56,000
+muy buena idea, porque las extremidades tienen baja inercia
+
+221
+0:09:57.026,000 --> 0:09:58,000
+y pueden moverse muy rápidamente.
+
+222
+0:09:58.636,000 --> 0:10:01,000
+La última propiedad importante es el comportamiento tan elástico,
+
+223
+0:10:02.08,000 --> 0:10:04,000
+para manejar impactos y fuerzas.
+
+224
+0:10:04.76,000 --> 0:10:06,000
+Así diseñamos Cheetah-Cub.
+
+225
+0:10:07.12,000 --> 0:10:09,000
+Invitemos a Cheetah-Cub al escenario.
+
+226
+0:10:14.16,000 --> 0:10:17,000
+Este es Peter Eckert, que hace su doctorado sobre este robot,
+
+227
+0:10:17.84,000 --> 0:10:19,000
+y como ven, es un pequeño y lindo robot.
+
+228
+0:10:19.92,000 --> 0:10:2,000
+Parece un juguete,
+
+229
+0:10:21.2,000 --> 0:10:23,000
+pero se usó como herramienta científica
+
+230
+0:10:23.28,000 --> 0:10:26,000
+para investigar estas propiedades de las patas del gato.
+
+231
+0:10:26.6,000 --> 0:10:28,000
+Como ven, es muy compatible, muy liviano,
+
+232
+0:10:29.24,000 --> 0:10:3,000
+y también muy elástico,
+
+233
+0:10:30.52,000 --> 0:10:32,000
+de modo que podemos pisarlo y no se romperá.
+
+234
+0:10:33.32,000 --> 0:10:34,000
+De hecho, saltará.
+
+235
+0:10:34.8,000 --> 0:10:36,000
+Esta propiedad de ser tan elástico también es muy importante.
+
+236
+0:10:39.16,000 --> 0:10:4,000
+También se ve un poco las propiedades
+
+237
+0:10:41.08,000 --> 0:10:43,000
+de estos tres segmentos de la pata como un pantógrafo.
+
+238
+0:10:44.17,000 --> 0:10:46,000
+Pero lo interesante de esta marcha bastante dinámica
+
+239
+0:10:46.79,000 --> 0:10:48,000
+es que se obtiene exclusivamente en lazo abierto,
+
+240
+0:10:49.136,000 --> 0:10:52,000
+o sea, sin sensores, ni bucles de retroalimentación complejos.
+
+241
+0:10:52.16,000 --> 0:10:54,000
+Y eso es interesante porque significa
+
+242
+0:10:54.6,000 --> 0:10:58,000
+que la mecánica ya estabiliza esta marcha bastante rápida
+
+243
+0:10:58.64,000 --> 0:11:02,000
+y que la mecánica realmente buena ya simplifica la locomoción.
+
+244
+0:11:02.84,000 --> 0:11:05,000
+Al punto que incluso se puede perturbar un poco la locomoción,
+
+245
+0:11:06.16,000 --> 0:11:07,000
+como verán en el próximo video,
+
+246
+0:11:07.84,000 --> 0:11:1,000
+podemos hacer algo de ejercicio, pedirle al robot que baje un escalón,
+
+247
+0:11:11.76,000 --> 0:11:12,000
+y el robot no se caerá,
+
+248
+0:11:13.4,000 --> 0:11:14,000
+lo cual nos sorprendió.
+
+249
+0:11:15,000 --> 0:11:16,000
+Hay una pequeña protuberancia.
+
+250
+0:11:16.596,000 --> 0:11:18,000
+Esperaba que el robot cayera de inmediato,
+
+251
+0:11:18.63,000 --> 0:11:2,000
+porque no hay sensores, ni bucle de retroalimentación rápida.
+
+252
+0:11:21.576,000 --> 0:11:23,000
+Pero no, sencillamente la mecánica estabilizó la marcha,
+
+253
+0:11:24.266,000 --> 0:11:25,000
+y el robot no se cayó.
+
+254
+0:11:25.536,000 --> 0:11:27,000
+Obviamente, con escalones más grandes y con obstáculos,
+
+255
+0:11:28.32,000 --> 0:11:31,000
+se necesitan bucles de control total, reflejos, y todo.
+
+256
+0:11:32,000 --> 0:11:34,000
+Pero lo importante aquí es que para perturbaciones pequeñas,
+
+257
+0:11:34.96,000 --> 0:11:35,000
+la mecánica es correcta.
+
+258
+0:11:36.48,000 --> 0:11:38,000
+Y pienso que este es un mensaje muy importante
+
+259
+0:11:38.756,000 --> 0:11:4,000
+de la biomecánica y la robótica para la neurociencia:
+
+260
+0:11:41.291,000 --> 0:11:45,000
+No hay que subestimar hasta qué punto el cuerpo ya ayuda a la locomoción.
+
+261
+0:11:47.02,000 --> 0:11:49,000
+Ahora, ¿qué relación tiene esto con la locomoción humana?
+
+262
+0:11:49.76,000 --> 0:11:52,000
+Claramente, la locomoción humana es más compleja que la del gato y la salamandra,
+
+263
+0:11:53.85,000 --> 0:11:56,000
+pero al mismo tiempo, el sistema nervioso de los humanos es muy similar
+
+264
+0:11:57.52,000 --> 0:11:58,000
+al de otros vertebrados.
+
+265
+0:11:59.12,000 --> 0:12:,000
+Y, sobre todo, la médula espinal
+
+266
+0:12:00.706,000 --> 0:12:02,000
+también es el controlador clave de la locomoción humana.
+
+267
+0:12:03.76,000 --> 0:12:05,000
+Por eso, una lesión en la médula espinal
+
+268
+0:12:06.2,000 --> 0:12:07,000
+tiene efectos dramáticos.
+
+269
+0:12:07.72,000 --> 0:12:09,000
+La persona puede quedar parapléjica o tetrapléjica.
+
+270
+0:12:10.41,000 --> 0:12:12,000
+Y eso debido a que el cerebro pierde la comunicación
+
+271
+0:12:12.92,000 --> 0:12:13,000
+con la médula.
+
+272
+0:12:14.2,000 --> 0:12:16,000
+Especialmente, pierde esa modulación descendente
+
+273
+0:12:16.496,000 --> 0:12:17,000
+para iniciar y modular la locomoción.
+
+274
+0:12:19.02,000 --> 0:12:21,000
+Por eso, un gran objetivo de la neuroprotésica
+
+275
+0:12:21.36,000 --> 0:12:23,000
+es poder reactivar esa comunicación
+
+276
+0:12:23.76,000 --> 0:12:25,000
+mediante estimulaciones eléctricas o químicas.
+
+277
+0:12:26.84,000 --> 0:12:28,000
+Y hay varios equipos en el mundo que hacen exactamente eso,
+
+278
+0:12:29.8,000 --> 0:12:3,000
+especialmente en la EPFL
+
+279
+0:12:31.04,000 --> 0:12:33,000
+mis colegas Grégoire Courtine y Silvestro Micera,
+
+280
+0:12:33.56,000 --> 0:12:34,000
+con quienes colaboro.
+
+281
+0:12:35.96,000 --> 0:12:38,000
+Pero para hacerlo correctamente, es muy importante entender
+
+282
+0:12:39.08,000 --> 0:12:4,000
+cómo funciona la médula,
+
+283
+0:12:40.84,000 --> 0:12:41,000
+cómo interactúa con el cuerpo,
+
+284
+0:12:42.56,000 --> 0:12:44,000
+y cómo se comunica el cuerpo con esta.
+
+285
+0:12:45.8,000 --> 0:12:47,000
+Es ahí donde los robots y los modelos que presenté hoy
+
+286
+0:12:48.72,000 --> 0:12:49,000
+espero que jueguen un rol clave
+
+287
+0:12:50.64,000 --> 0:12:52,000
+en esos objetivos tan importantes.
+
+288
+0:12:53.32,000 --> 0:12:54,000
+Gracias.
+
+289
+0:12:54.56,000 --> 0:12:58,000
+(Aplausos)
+
+290
+0:13:03.65,000 --> 0:13:06,000
+Bruno Giussani: Auke, he visto en tu laboratorio otros robots
+
+291
+0:13:06.76,000 --> 0:13:08,000
+que nadan en contaminación
+
+292
+0:13:09.24,000 --> 0:13:11,000
+y miden la contaminación mientras nadan.
+
+293
+0:13:11.72,000 --> 0:13:12,000
+Pero para esto,
+
+294
+0:13:12.96,000 --> 0:13:15,000
+mencionaste en tu charla como efecto secundario,
+
+295
+0:13:17.64,000 --> 0:13:18,000
+la búsqueda y el rescate,
+
+296
+0:13:18.88,000 --> 0:13:2,000
+y tiene una cámara en la nariz.
+
+297
+0:13:21.08,000 --> 0:13:23,000
+Auke Ijspeert: Por supuesto, el robot...
+
+298
+0:13:23.5,000 --> 0:13:24,000
+Se desprenden algunos proyectos
+
+299
+0:13:25.053,000 --> 0:13:28,000
+en los que quisiéramos usar robots para inspección de búsqueda y rescate,
+
+300
+0:13:28.52,000 --> 0:13:3,000
+por eso este robot ahora los está viendo.
+
+301
+0:13:30.536,000 --> 0:13:32,000
+Y el gran sueño es, si uno atraviesa una situación difícil
+
+302
+0:13:33.32,000 --> 0:13:36,000
+como el derrumbe o la inundación de un edificio,
+
+303
+0:13:36.96,000 --> 0:13:39,000
+y es muy peligroso para el equipo de rescate o incluso para los perros,
+
+304
+0:13:40.35,000 --> 0:13:43,000
+por qué no enviar un robot que pueda arrastrarse, nadar, caminar,
+
+305
+0:13:43.456,000 --> 0:13:46,000
+con una cámara a bordo, que inspeccione, identifique sobrevivientes,
+
+306
+0:13:46.666,000 --> 0:13:49,000
+y que quizá haga de enlace de comunicación con los supervivientes.
+
+307
+0:13:49.816,000 --> 0:13:52,000
+BG: Claro, suponiendo que las víctimas no se asusten por su forma.
+
+308
+0:13:52.986,000 --> 0:13:54,000
+AI: Sí, probablemente deberíamos cambiar la apariencia un poco,
+
+309
+0:13:55.95,000 --> 0:13:58,000
+porque supongo que un superviviente podría morir de un ataque al corazón
+
+310
+0:13:59.346,000 --> 0:14:01,000
+por temor a que esto se lo coma.
+
+311
+0:14:02.186,000 --> 0:14:04,000
+Pero cambiando la apariencia y haciéndolo más robusto,
+
+312
+0:14:04.716,000 --> 0:14:06,000
+estoy seguro de que podemos lograr una buena herramienta.
+
+313
+0:14:07.076,000 --> 0:14:09,000
+BG: Muchas gracias. Gracias a todo tu equipo.
+

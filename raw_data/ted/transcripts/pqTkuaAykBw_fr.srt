@@ -1,0 +1,1652 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Patrick Brault Relecteur: Elisabeth Buffard
+
+2
+0:00:15.26,000 --> 0:00:19,000
+Je vais commencer par lancer un tout petit défi,
+
+3
+0:00:19.26,000 --> 0:00:22,000
+le problème du traitement des données,
+
+4
+0:00:22.26,000 --> 0:00:24,000
+des données que nous devons traiter
+
+5
+0:00:24.26,000 --> 0:00:26,000
+dans le contexte médical.
+
+6
+0:00:26.26,000 --> 0:00:28,000
+C'est vraiment un énorme défi pour nous.
+
+7
+0:00:28.26,000 --> 0:00:3,000
+Et ceci est notre bête de somme.
+
+8
+0:00:30.26,000 --> 0:00:32,000
+C'est un appareil à tomographie calculée par ordinateur --
+
+9
+0:00:32.26,000 --> 0:00:34,000
+un scanner CT.
+
+10
+0:00:34.26,000 --> 0:00:36,000
+C'est un appareil extraordinaire.
+
+11
+0:00:36.26,000 --> 0:00:38,000
+Il utilise les rayons X, des faisceaux de rayons X,
+
+12
+0:00:38.26,000 --> 0:00:41,000
+qui tournent très rapidement autour du corps humain.
+
+13
+0:00:41.26,000 --> 0:00:43,000
+Il faut environ 30 secondes pour passer à travers tout l'appareil
+
+14
+0:00:43.26,000 --> 0:00:45,000
+et d'énormes quantités d'informations sont produites
+
+15
+0:00:45.26,000 --> 0:00:47,000
+en sortie de la machine.
+
+16
+0:00:47.26,000 --> 0:00:49,000
+C'est une machine extraordinaire
+
+17
+0:00:49.26,000 --> 0:00:51,000
+que nous pouvons utiliser
+
+18
+0:00:51.26,000 --> 0:00:53,000
+pour améliorer les soins de santé.
+
+19
+0:00:53.26,000 --> 0:00:55,000
+Mais, comme je l'ai dit, c'est aussi un défi à relever.
+
+20
+0:00:55.26,000 --> 0:00:58,000
+Toute l'ampleur du problème se trouve sur cette image.
+
+21
+0:00:58.26,000 --> 0:01:,000
+Il s'agit de l'explosion des données médicales
+
+22
+0:01:00.26,000 --> 0:01:02,000
+qui se produit en ce moment même.
+
+23
+0:01:02.26,000 --> 0:01:04,000
+C'est le problème auquel nous sommes confrontés.
+
+24
+0:01:04.26,000 --> 0:01:06,000
+Laissez-moi revenir en arrière.
+
+25
+0:01:06.26,000 --> 0:01:09,000
+Revenons quelques années en arrière, et observons ce qui se passait à l'époque.
+
+26
+0:01:09.26,000 --> 0:01:11,000
+Les appareils qui sortaient alors --
+
+27
+0:01:11.26,000 --> 0:01:13,000
+ils ont commencé à arriver dans les années 70 --
+
+28
+0:01:13.26,000 --> 0:01:15,000
+scannaient le corps humain,
+
+29
+0:01:15.26,000 --> 0:01:17,000
+et produisaient environ une centaine d'images
+
+30
+0:01:17.26,000 --> 0:01:19,000
+de ce corps.
+
+31
+0:01:19.26,000 --> 0:01:21,000
+J'ai pris la liberté, pour que ce soit plus clair,
+
+32
+0:01:21.26,000 --> 0:01:24,000
+de traduire cela en termes de données numériques.
+
+33
+0:01:24.26,000 --> 0:01:26,000
+Ça correspondrait à environ 50 Mo,
+
+34
+0:01:26.26,000 --> 0:01:28,000
+ce qui est peu
+
+35
+0:01:28.26,000 --> 0:01:31,000
+quand vous pensez aux quantités de données que nous pouvons manipuler de nos jours
+
+36
+0:01:31.26,000 --> 0:01:33,000
+rien que sur nos portables normaux.
+
+37
+0:01:33.26,000 --> 0:01:35,000
+Si vous traduisez ça en annuaires,
+
+38
+0:01:35.26,000 --> 0:01:38,000
+ça fait une pile d'annuaires d'environ un mètre de haut.
+
+39
+0:01:38.26,000 --> 0:01:4,000
+Quand on voit ce que l'on peut faire aujourd'hui
+
+40
+0:01:40.26,000 --> 0:01:42,000
+avec les machines dont nous disposons,
+
+41
+0:01:42.26,000 --> 0:01:44,000
+on peut, en seulement quelques secondes,
+
+42
+0:01:44.26,000 --> 0:01:46,000
+obtenir 24 000 images d'un corps.
+
+43
+0:01:46.26,000 --> 0:01:49,000
+Cela correspondrait à environ 20 Go,
+
+44
+0:01:49.26,000 --> 0:01:51,000
+ou 800 annuaires.
+
+45
+0:01:51.26,000 --> 0:01:53,000
+La pile d'annuaires ferait alors 200 mètres de haut.
+
+46
+0:01:53.26,000 --> 0:01:55,000
+Ce qui va se produire --
+
+47
+0:01:55.26,000 --> 0:01:57,000
+et nous le voyons déjà, ça commence --
+
+48
+0:01:57.26,000 --> 0:01:59,000
+c'est une tendance technologique qui arrive en ce moment même,
+
+49
+0:01:59.26,000 --> 0:02:02,000
+est que nous commençons également à regarder les images en temps réel.
+
+50
+0:02:02.26,000 --> 0:02:05,000
+Nous obtenons également la dynamique du corps.
+
+51
+0:02:05.26,000 --> 0:02:07,000
+Supposez seulement
+
+52
+0:02:07.26,000 --> 0:02:1,000
+que nous ne recueillions des données que sur une durée de cinq secondes,
+
+53
+0:02:10.26,000 --> 0:02:12,000
+cela correspondrait à un téraoctet de données.
+
+54
+0:02:12.26,000 --> 0:02:14,000
+C'est à dire 800 000 annuaires,
+
+55
+0:02:14.26,000 --> 0:02:16,000
+une pile de 16 km de haut.
+
+56
+0:02:16.26,000 --> 0:02:18,000
+Et cela pour un seul patient, un seul examen.
+
+57
+0:02:18.26,000 --> 0:02:2,000
+Voilà ce à quoi nous devons faire face.
+
+58
+0:02:20.26,000 --> 0:02:23,000
+C'est vraiment l'énorme défi qui se présente à nous.
+
+59
+0:02:23.26,000 --> 0:02:26,000
+Et dès aujourd'hui -- il s'agit de 25 000 images.
+
+60
+0:02:26.26,000 --> 0:02:28,000
+Imaginez l'époque
+
+61
+0:02:28.26,000 --> 0:02:3,000
+où les radiologues travaillaient de cette façon.
+
+62
+0:02:30.26,000 --> 0:02:32,000
+Ils auraient affiché 25 000 clichés,
+
+63
+0:02:32.26,000 --> 0:02:35,000
+et ils auraient dit 25 000 fois :" Tout va bien, tout va bien,
+
+64
+0:02:35.26,000 --> 0:02:37,000
+Ah, voilà le problème. "
+
+65
+0:02:37.26,000 --> 0:02:39,000
+On ne peut plus faire ça, c'est impossible.
+
+66
+0:02:39.26,000 --> 0:02:42,000
+Alors on doit trouver quelque chose d'un peu plus intelligent que ça.
+
+67
+0:02:43.26,000 --> 0:02:45,000
+Ce que nous faisons donc, c'est de regrouper toutes ces coupes.
+
+68
+0:02:45.26,000 --> 0:02:48,000
+Imaginez que vous découpez votre corps dans tous les sens,
+
+69
+0:02:48.26,000 --> 0:02:51,000
+et puis vous essayez de remettre les tranches ensemble
+
+70
+0:02:51.26,000 --> 0:02:53,000
+pour former une pile de données, un bloc de données.
+
+71
+0:02:53.26,000 --> 0:02:55,000
+C'est ce que nous faisons en réalité.
+
+72
+0:02:55.26,000 --> 0:02:58,000
+Ce gigaoctet, ou téraoctet de données, nous le mettons dans ce bloc.
+
+73
+0:02:58.26,000 --> 0:03:,000
+Mais, bien sûr, le bloc de données
+
+74
+0:03:00.26,000 --> 0:03:02,000
+n'indique que la quantité de rayons X
+
+75
+0:03:02.26,000 --> 0:03:04,000
+qui a été absorbée par chaque point du corps humain.
+
+76
+0:03:04.26,000 --> 0:03:06,000
+Nous devons donc trouver un moyen
+
+77
+0:03:06.26,000 --> 0:03:09,000
+de voir les choses que nous voulons observer
+
+78
+0:03:09.26,000 --> 0:03:12,000
+et de rendre transparentes les choses que nous ne voulons pas observer.
+
+79
+0:03:12.26,000 --> 0:03:14,000
+C'est-à-dire de transformer l'ensemble des données
+
+80
+0:03:14.26,000 --> 0:03:16,000
+en quelque chose qui ressemble à ça.
+
+81
+0:03:16.26,000 --> 0:03:18,000
+Et c'est très difficile.
+
+82
+0:03:18.26,000 --> 0:03:21,000
+Le défi pour nous est énorme.
+
+83
+0:03:21.26,000 --> 0:03:24,000
+En utilisant des ordinateurs, même s'ils deviennent tout le temps plus rapides et meilleurs,
+
+84
+0:03:24.26,000 --> 0:03:26,000
+il est très difficile de traiter des gigaoctets de données,
+
+85
+0:03:26.26,000 --> 0:03:28,000
+des téraoctets de données,
+
+86
+0:03:28.26,000 --> 0:03:3,000
+et d'en extraire les informations utiles.
+
+87
+0:03:30.26,000 --> 0:03:32,000
+Je veux observer le cœur,
+
+88
+0:03:32.26,000 --> 0:03:34,000
+je veux observer les vaisseaux sanguins, je veux observer le foie,
+
+89
+0:03:34.26,000 --> 0:03:36,000
+peut-être même détecter une tumeur
+
+90
+0:03:36.26,000 --> 0:03:38,000
+dans certains cas.
+
+91
+0:03:39.26,000 --> 0:03:41,000
+Et voilà où ce petit amour entre en jeu.
+
+92
+0:03:41.26,000 --> 0:03:43,000
+C'est ma fille.
+
+93
+0:03:43.26,000 --> 0:03:45,000
+A 9 h 00, ce matin même.
+
+94
+0:03:45.26,000 --> 0:03:47,000
+Elle joue à un jeu sur ordinateur.
+
+95
+0:03:47.26,000 --> 0:03:49,000
+Elle n'a que deux ans,
+
+96
+0:03:49.26,000 --> 0:03:51,000
+et elle s'éclate.
+
+97
+0:03:51.26,000 --> 0:03:54,000
+C'est elle la vraie force motrice
+
+98
+0:03:54.26,000 --> 0:03:57,000
+qui pousse au développement des cartes graphiques.
+
+99
+0:03:58.26,000 --> 0:04:,000
+Aussi longtemps que les gamins joueront à des jeux sur ordinateur,
+
+100
+0:04:00.26,000 --> 0:04:02,000
+le traitement graphique continuera à s'améliorer de plus en plus.
+
+101
+0:04:02.26,000 --> 0:04:04,000
+Alors rentrez chez vous, s'il vous plaît, et dites à vos enfants de jouer plus souvent,
+
+102
+0:04:04.26,000 --> 0:04:06,000
+parce que j'en ai besoin.
+
+103
+0:04:06.26,000 --> 0:04:08,000
+C'est ce qui est à l'intérieur de cet appareil
+
+104
+0:04:08.26,000 --> 0:04:1,000
+qui me permet de faire ce que je j'accomplis
+
+105
+0:04:10.26,000 --> 0:04:12,000
+avec les données médicales.
+
+106
+0:04:12.26,000 --> 0:04:15,000
+Ce que je fais en vérité, c'est que j'utilise ces petits appareils extraordinaires.
+
+107
+0:04:15.26,000 --> 0:04:17,000
+Et vous savez, si je reviens
+
+108
+0:04:17.26,000 --> 0:04:19,000
+peut-être dix ans en arrière
+
+109
+0:04:19.26,000 --> 0:04:21,000
+quand j'ai obtenu le financement
+
+110
+0:04:21.26,000 --> 0:04:23,000
+pour acheter mon premier ordinateur de traitement graphique.
+
+111
+0:04:23.26,000 --> 0:04:25,000
+C'était une énorme machine.
+
+112
+0:04:25.26,000 --> 0:04:28,000
+C'était des rangées de processeurs, de stockage, de tout cela.
+
+113
+0:04:28.26,000 --> 0:04:31,000
+J'ai payé cette machine aux alentours d'un million de dollars.
+
+114
+0:04:32.26,000 --> 0:04:35,000
+Et elle était à peu près aussi rapide que mon iPhone aujourd'hui.
+
+115
+0:04:37.26,000 --> 0:04:39,000
+Chaque mois il y a de nouvelles cartes graphiques qui sortent.
+
+116
+0:04:39.26,000 --> 0:04:42,000
+En voici quelques unes des dernières mises en vente --
+
+117
+0:04:42.26,000 --> 0:04:45,000
+NVIDIA, ATI. Intel est également présent.
+
+118
+0:04:45.26,000 --> 0:04:47,000
+Et vous savez, pour quelques centaines d'euros,
+
+119
+0:04:47.26,000 --> 0:04:49,000
+vous pouvez les acquérir et les mettre dans votre ordinateur,
+
+120
+0:04:49.26,000 --> 0:04:52,000
+et vous pouvez faire des choses extraordinaires avec ces cartes graphiques.
+
+121
+0:04:52.26,000 --> 0:04:54,000
+C'est donc ce qui nous permet de faire face
+
+122
+0:04:54.26,000 --> 0:04:57,000
+à l'explosion des données en médecine,
+
+123
+0:04:57.26,000 --> 0:04:59,000
+ajouté à l'élaboration de quelques solutions très habiles
+
+124
+0:04:59.26,000 --> 0:05:01,000
+en termes d'algorithmes --
+
+125
+0:05:01.26,000 --> 0:05:03,000
+de compression des données,
+
+126
+0:05:03.26,000 --> 0:05:06,000
+d'extraction des informations utiles aux travaux des chercheurs.
+
+127
+0:05:06.26,000 --> 0:05:09,000
+Je vais vous montrer quelques exemples de ce que nous pouvons faire.
+
+128
+0:05:09.26,000 --> 0:05:12,000
+Voici un ensemble de données qui ont été relevées par un scanner CT.
+
+129
+0:05:12.26,000 --> 0:05:15,000
+Vous pouvez voir que ces données sont complètes.
+
+130
+0:05:15.26,000 --> 0:05:18,000
+C'est une femme. Vous pouvez voir les cheveux.
+
+131
+0:05:18.26,000 --> 0:05:21,000
+Vous pouvez voir chaque organe de cette femme séparément.
+
+132
+0:05:21.26,000 --> 0:05:24,000
+Vous pouvez voir qu'il y a un éparpillement de rayons X
+
+133
+0:05:24.26,000 --> 0:05:26,000
+sur les dents, le métal des dents.
+
+134
+0:05:26.26,000 --> 0:05:29,000
+C'est la raison de ces traces.
+
+135
+0:05:29.26,000 --> 0:05:31,000
+Mais de façon complètement interactive,
+
+136
+0:05:31.26,000 --> 0:05:34,000
+avec une carte graphique standard, sur un ordinateur normal,
+
+137
+0:05:34.26,000 --> 0:05:36,000
+je peux faire une coupe plane.
+
+138
+0:05:36.26,000 --> 0:05:38,000
+Et bien sûr, toutes les données sont à l'intérieur,
+
+139
+0:05:38.26,000 --> 0:05:41,000
+je peux donc la faire tourner, je peux la voir sous différents angles,
+
+140
+0:05:41.26,000 --> 0:05:44,000
+et je peux voir que cette femme a eu un problème.
+
+141
+0:05:44.26,000 --> 0:05:46,000
+Elle a eu une hémorragie au cerveau,
+
+142
+0:05:46.26,000 --> 0:05:48,000
+qui a été soignée par un petit stent,
+
+143
+0:05:48.26,000 --> 0:05:5,000
+un tube en métal qui renforce le vaisseau.
+
+144
+0:05:50.26,000 --> 0:05:52,000
+Et rien qu'en changeant les réglages,
+
+145
+0:05:52.26,000 --> 0:05:55,000
+je peux décider de ce qui va être transparent,
+
+146
+0:05:55.26,000 --> 0:05:57,000
+et de ce qui va être visible.
+
+147
+0:05:57.26,000 --> 0:05:59,000
+Je peux observer la structure crânienne,
+
+148
+0:05:59.26,000 --> 0:06:02,000
+et je peux voir que, oui, c'est là qu'on a ouvert le crâne de cette femme,
+
+149
+0:06:02.26,000 --> 0:06:04,000
+et c'est par là qu'on est entré.
+
+150
+0:06:04.26,000 --> 0:06:06,000
+Ce sont des images extraordinaires.
+
+151
+0:06:06.26,000 --> 0:06:08,000
+Elles sont de très haute définition,
+
+152
+0:06:08.26,000 --> 0:06:1,000
+et sont vraiment un exemple de ce qu'on peut faire aujourd'hui
+
+153
+0:06:10.26,000 --> 0:06:13,000
+avec des cartes graphiques standard.
+
+154
+0:06:13.26,000 --> 0:06:15,000
+Alors on s'en est vraiment servi,
+
+155
+0:06:15.26,000 --> 0:06:18,000
+et on a essayé de faire entrer plein de données
+
+156
+0:06:18.26,000 --> 0:06:2,000
+dans le système.
+
+157
+0:06:20.26,000 --> 0:06:22,000
+L'une des utilisations sur lesquelles nous travaillons --
+
+158
+0:06:22.26,000 --> 0:06:25,000
+et cela a suscité quelque intérêt dans le monde entier --
+
+159
+0:06:25.26,000 --> 0:06:27,000
+est le programme d'autopsies virtuelles.
+
+160
+0:06:27.26,000 --> 0:06:29,000
+Une fois de plus, en partant de très très grands ensembles de données,
+
+161
+0:06:29.26,000 --> 0:06:32,000
+vous avez vu ces scans en pied que nous pouvons faire.
+
+162
+0:06:32.26,000 --> 0:06:35,000
+Nous faisons juste passer le corps à travers le scanner CT,
+
+163
+0:06:35.26,000 --> 0:06:38,000
+et en seulement quelques secondes nous pouvons obtenir l'ensemble des données du corps entier.
+
+164
+0:06:38.26,000 --> 0:06:4,000
+Ceci provient d'une autopsie virtuelle.
+
+165
+0:06:40.26,000 --> 0:06:42,000
+Vous pouvez voir comment j'enlève progressivement les couches.
+
+166
+0:06:42.26,000 --> 0:06:45,000
+En premier vous avez vu le sac dans lequel le corps est arrivé,
+
+167
+0:06:45.26,000 --> 0:06:48,000
+puis j'enlève la peau -- vous pouvez voir les muscles --
+
+168
+0:06:48.26,000 --> 0:06:51,000
+et finalement vous pouvez voir le squelette de cette femme.
+
+169
+0:06:51.26,000 --> 0:06:54,000
+A ce stade, je voudrais aussi souligner que,
+
+170
+0:06:54.26,000 --> 0:06:56,000
+avec le plus grand respect
+
+171
+0:06:56.26,000 --> 0:06:58,000
+pour les personnes que je vais maintenant vous montrer --
+
+172
+0:06:58.26,000 --> 0:07:,000
+je vais vous montrer quelques cas d'autopsies virtuelles --
+
+173
+0:07:00.26,000 --> 0:07:02,000
+c'est avec un grand respect pour ces personnes
+
+174
+0:07:02.26,000 --> 0:07:04,000
+qui sont mortes dans des circonstances violentes
+
+175
+0:07:04.26,000 --> 0:07:07,000
+que je vous montre ces images.
+
+176
+0:07:08.26,000 --> 0:07:1,000
+Dans le cadre médico-légal --
+
+177
+0:07:10.26,000 --> 0:07:12,000
+il y a eu jusqu'ici
+
+178
+0:07:12.26,000 --> 0:07:14,000
+environ 400 cas,
+
+179
+0:07:14.26,000 --> 0:07:16,000
+rien que dans la région de Suède d'où je viens,
+
+180
+0:07:16.26,000 --> 0:07:18,000
+qui ont subi une autopsie virtuelle
+
+181
+0:07:18.26,000 --> 0:07:2,000
+durant ces quatre dernières années.
+
+182
+0:07:20.26,000 --> 0:07:23,000
+Voilà le déroulement de la situation typique :
+
+183
+0:07:23.26,000 --> 0:07:25,000
+La police va décider --
+
+184
+0:07:25.26,000 --> 0:07:27,000
+dans la soirée, quand un cas se présente --
+
+185
+0:07:27.26,000 --> 0:07:3,000
+ils vont décider, d'accord, voilà un cas qui nécessite une autopsie.
+
+186
+0:07:30.26,000 --> 0:07:33,000
+Le lendemain, entre six et sept heures du matin,
+
+187
+0:07:33.26,000 --> 0:07:35,000
+le corps est transporté dans son sac
+
+188
+0:07:35.26,000 --> 0:07:37,000
+jusqu'à notre Centre,
+
+189
+0:07:37.26,000 --> 0:07:39,000
+et il est passé dans l'un de nos scanners CT.
+
+190
+0:07:39.26,000 --> 0:07:41,000
+Puis le radiologue, en compagnie du pathologiste
+
+191
+0:07:41.26,000 --> 0:07:43,000
+et parfois du médecin légiste,
+
+192
+0:07:43.26,000 --> 0:07:45,000
+examinent les données qui sortent,
+
+193
+0:07:45.26,000 --> 0:07:47,000
+et ils se concertent.
+
+194
+0:07:47.26,000 --> 0:07:5,000
+Ils décident alors de ce qu'ils vont faire lors de la vraie autopsie qui va suivre.
+
+195
+0:07:52.26,000 --> 0:07:54,000
+Voyons maintenant quelques cas,
+
+196
+0:07:54.26,000 --> 0:07:56,000
+voici l'un de nos tout premiers.
+
+197
+0:07:56.26,000 --> 0:07:59,000
+Vous pouvez vraiment voir les détails de l'ensemble de données ;
+
+198
+0:07:59.26,000 --> 0:08:01,000
+c'est à très haute définition.
+
+199
+0:08:01.26,000 --> 0:08:03,000
+Et ce sont nos algorithmes qui nous permettent
+
+200
+0:08:03.26,000 --> 0:08:05,000
+d'agrandir chaque détail.
+
+201
+0:08:05.26,000 --> 0:08:07,000
+Là aussi, c'est totalement interactif,
+
+202
+0:08:07.26,000 --> 0:08:09,000
+vous pouvez le faire pivoter et voir les choses en temps réel
+
+203
+0:08:09.26,000 --> 0:08:11,000
+sur ces systèmes là.
+
+204
+0:08:11.26,000 --> 0:08:13,000
+Sans trop en dire sur ce cas,
+
+205
+0:08:13.26,000 --> 0:08:15,000
+il s'agit d'un accident de circulation,
+
+206
+0:08:15.26,000 --> 0:08:17,000
+un chauffard ivre a renversé une femme.
+
+207
+0:08:17.26,000 --> 0:08:2,000
+Il est très très facile de voir les dégâts sur le squelette.
+
+208
+0:08:20.26,000 --> 0:08:23,000
+Et la cause du décès qui est la nuque brisée.
+
+209
+0:08:23.26,000 --> 0:08:25,000
+Cette femme a de plus fini sous la voiture,
+
+210
+0:08:25.26,000 --> 0:08:27,000
+alors elle est assez gravement abîmée
+
+211
+0:08:27.26,000 --> 0:08:29,000
+par l'accident.
+
+212
+0:08:29.26,000 --> 0:08:32,000
+Voici un autre cas, une attaque au couteau.
+
+213
+0:08:32.26,000 --> 0:08:34,000
+Ça nous montre une fois encore ce que nous pouvons faire.
+
+214
+0:08:34.26,000 --> 0:08:36,000
+Il est très facile d'observer les objets en métal,
+
+215
+0:08:36.26,000 --> 0:08:39,000
+nous pouvons les montrer à l'intérieur du corps.
+
+216
+0:08:39.26,000 --> 0:08:42,000
+Vous pouvez aussi voir des objets dans la mâchoire --
+
+217
+0:08:42.26,000 --> 0:08:44,000
+ce sont en réalité les plombages --
+
+218
+0:08:44.26,000 --> 0:08:47,000
+mais c'est parce que j'ai réglé les fonctions pour faire apparaître le métal
+
+219
+0:08:47.26,000 --> 0:08:49,000
+et rendre tout le reste transparent.
+
+220
+0:08:49.26,000 --> 0:08:52,000
+Voici un autre cas de violence. Ce n'est pas vraiment ça qui a tué la personne.
+
+221
+0:08:52.26,000 --> 0:08:54,000
+Elle a été tuée par des coups de poignard dans le cœur,
+
+222
+0:08:54.26,000 --> 0:08:56,000
+mais ils se sont simplement débarrassé du couteau
+
+223
+0:08:56.26,000 --> 0:08:58,000
+en l'enfonçant dans l'un des globes oculaires.
+
+224
+0:08:58.26,000 --> 0:09:,000
+Voici un autre cas.
+
+225
+0:09:00.26,000 --> 0:09:02,000
+C'est très intéressant pour nous
+
+226
+0:09:02.26,000 --> 0:09:04,000
+de pouvoir observer des choses comme les coups de couteau.
+
+227
+0:09:04.26,000 --> 0:09:07,000
+Ici vous pouvez voir que le couteau a transpercé le cœur.
+
+228
+0:09:07.26,000 --> 0:09:09,000
+On peut facilement voir comment l'air a fui
+
+229
+0:09:09.26,000 --> 0:09:11,000
+d'un endroit à l'autre,
+
+230
+0:09:11.26,000 --> 0:09:14,000
+ce qui est difficile dans une autopsie normale, standard.
+
+231
+0:09:14.26,000 --> 0:09:16,000
+Cela aide énormément
+
+232
+0:09:16.26,000 --> 0:09:18,000
+l'enquête criminelle
+
+233
+0:09:18.26,000 --> 0:09:2,000
+à établir la cause du décès,
+
+234
+0:09:20.26,000 --> 0:09:23,000
+et dans certains cas, à orienter l'enquête dans la bonne direction
+
+235
+0:09:23.26,000 --> 0:09:25,000
+pour découvrir qui est vraiment le meurtrier.
+
+236
+0:09:25.26,000 --> 0:09:27,000
+Voici un autre cas que je trouve intéressant.
+
+237
+0:09:27.26,000 --> 0:09:29,000
+Vous pouvez voir ici une balle
+
+238
+0:09:29.26,000 --> 0:09:32,000
+qui s'est logée juste à côté de la colonne vertébrale de cette personne.
+
+239
+0:09:32.26,000 --> 0:09:35,000
+Et ce que nous avons fait, c'est de transformer cette balle en source lumineuse,
+
+240
+0:09:35.26,000 --> 0:09:37,000
+de façon à ce que la balle brille réellement,
+
+241
+0:09:37.26,000 --> 0:09:4,000
+ce qui rend la recherche des fragments très facile.
+
+242
+0:09:40.26,000 --> 0:09:42,000
+Lors d'une autopsie physique,
+
+243
+0:09:42.26,000 --> 0:09:44,000
+si vous devez réellement fouiller le corps pour retrouver les fragments,
+
+244
+0:09:44.26,000 --> 0:09:46,000
+c'est vraiment assez dur à faire.
+
+245
+0:09:48.26,000 --> 0:09:5,000
+Une des choses que je suis très très heureux
+
+246
+0:09:50.26,000 --> 0:09:53,000
+de pouvoir vous montrer aujourd'hui
+
+247
+0:09:53.26,000 --> 0:09:55,000
+est notre table d'autopsie virtuelle.
+
+248
+0:09:55.26,000 --> 0:09:57,000
+C'est un appareil tactile que nous avons élaboré
+
+249
+0:09:57.26,000 --> 0:10:,000
+basé sur ces algorithmes, et qui utilise un processeur graphique standard.
+
+250
+0:10:00.26,000 --> 0:10:02,000
+Voici de quoi cela a l'air en vrai,
+
+251
+0:10:02.26,000 --> 0:10:05,000
+juste pour vous donner un idée de ce à quoi cela ressemble.
+
+252
+0:10:05.26,000 --> 0:10:08,000
+Ça marche vraiment comme un énorme iPhone.
+
+253
+0:10:08.26,000 --> 0:10:1,000
+Nous avons implémenté
+
+254
+0:10:10.26,000 --> 0:10:13,000
+tous les gestes que vous pouvez faire sur une table classique,
+
+255
+0:10:13.26,000 --> 0:10:17,000
+vous pouvez voir cela comme une énorme interface tactile.
+
+256
+0:10:17.26,000 --> 0:10:19,000
+Alors si vous aviez l'intention d'acheter un iPad,
+
+257
+0:10:19.26,000 --> 0:10:22,000
+laissez tomber, voilà ce qu'il vous faut à la place.
+
+258
+0:10:22.26,000 --> 0:10:25,000
+Steve, j'espère bien que tu nous écoutes.
+
+259
+0:10:26.26,000 --> 0:10:28,000
+C'est un petit appareil très sympa.
+
+260
+0:10:28.26,000 --> 0:10:3,000
+Alors si vous en avez l'occasion, essayez-le.
+
+261
+0:10:30.26,000 --> 0:10:33,000
+C'est vraiment une expérience concrète.
+
+262
+0:10:33.26,000 --> 0:10:36,000
+Nous avons eu des réactions favorables, et nous essayons de le développer,
+
+263
+0:10:36.26,000 --> 0:10:38,000
+et de l'utiliser à des fins pédagogiques,
+
+264
+0:10:38.26,000 --> 0:10:4,000
+mais aussi, peut-être à l'avenir,
+
+265
+0:10:40.26,000 --> 0:10:43,000
+dans un contexte plus clinique.
+
+266
+0:10:43.26,000 --> 0:10:45,000
+Il y a une vidéo sur YouTube que vous pouvez télécharger et regarder,
+
+267
+0:10:45.26,000 --> 0:10:47,000
+si vous voulez relayer l'information sur les autopsies virtuelles
+
+268
+0:10:47.26,000 --> 0:10:5,000
+vers d'autres personnes.
+
+269
+0:10:50.26,000 --> 0:10:52,000
+Bon, puisque nous parlons de toucher,
+
+270
+0:10:52.26,000 --> 0:10:54,000
+passons à la possibilité de toucher réellement les données.
+
+271
+0:10:54.26,000 --> 0:10:56,000
+C'est un peu de la science-fiction, là,
+
+272
+0:10:56.26,000 --> 0:10:59,000
+on se projette dans le futur.
+
+273
+0:10:59.26,000 --> 0:11:02,000
+Ça n'est pas vraiment ce que les médecins utilisent actuellement,
+
+274
+0:11:02.26,000 --> 0:11:04,000
+mais j'espère qu'ils le feront à l'avenir.
+
+275
+0:11:04.26,000 --> 0:11:07,000
+Ce que vous voyez à gauche est un appareil tactile.
+
+276
+0:11:07.26,000 --> 0:11:09,000
+C'est un petit stylet mécanique
+
+277
+0:11:09.26,000 --> 0:11:12,000
+qui a des moteurs pas à pas extrêmement rapides à l'intérieur.
+
+278
+0:11:12.26,000 --> 0:11:14,000
+Je peux donc produire un retour de force.
+
+279
+0:11:14.26,000 --> 0:11:16,000
+Alors, quand je touche virtuellement les données
+
+280
+0:11:16.26,000 --> 0:11:19,000
+cela va produire des retours de force dans le stylet, et j'obtiens ainsi une réaction.
+
+281
+0:11:19.26,000 --> 0:11:21,000
+Dans ce cas précis,
+
+282
+0:11:21.26,000 --> 0:11:23,000
+il s'agit du scan d'une personne vivante.
+
+283
+0:11:23.26,000 --> 0:11:26,000
+J'ai ce stylet, et j'examine les données,
+
+284
+0:11:26.26,000 --> 0:11:28,000
+je déplace le stylet vers la tête,
+
+285
+0:11:28.26,000 --> 0:11:3,000
+et tout à coup, je sens une résistance.
+
+286
+0:11:30.26,000 --> 0:11:32,000
+Et ainsi je peux sentir la peau.
+
+287
+0:11:32.26,000 --> 0:11:34,000
+Si j'appuie un peu plus fort, je vais traverser la peau,
+
+288
+0:11:34.26,000 --> 0:11:37,000
+et je pourrai sentir l'os à l'intérieur.
+
+289
+0:11:37.26,000 --> 0:11:39,000
+Si j'appuie encore plus fort, je traverserai le crâne,
+
+290
+0:11:39.26,000 --> 0:11:42,000
+particulièrement près de l'oreille, où l'os est très tendre.
+
+291
+0:11:42.26,000 --> 0:11:45,000
+Et alors je pourrai sentir le cerveau à l'intérieur, et ça aura une consistance de neige fondue, comme ceci.
+
+292
+0:11:45.26,000 --> 0:11:47,000
+C'est vraiment bien.
+
+293
+0:11:47.26,000 --> 0:11:5,000
+Et pour aller encore plus loin, voilà un cœur.
+
+294
+0:11:50.26,000 --> 0:11:53,000
+C'est aussi grâce à ces nouveaux scanners extraordinaires,
+
+295
+0:11:53.26,000 --> 0:11:55,000
+avec lesquels, en seulement 0,3 secondes,
+
+296
+0:11:55.26,000 --> 0:11:57,000
+je peux scanner la totalité du cœur,
+
+297
+0:11:57.26,000 --> 0:11:59,000
+et je peux le faire avec une dimension temporelle.
+
+298
+0:11:59.26,000 --> 0:12:01,000
+Et donc, pour observer ce cœur,
+
+299
+0:12:01.26,000 --> 0:12:03,000
+je peux faire tourner une vidéo.
+
+300
+0:12:03.26,000 --> 0:12:05,000
+Voici Karljohan, l'un de mes étudiants de troisième cycle,
+
+301
+0:12:05.26,000 --> 0:12:07,000
+qui travaille sur ce projet.
+
+302
+0:12:07.26,000 --> 0:12:1,000
+Il est assis devant l'appareil haptique, le système de retour de force,
+
+303
+0:12:10.26,000 --> 0:12:13,000
+et il déplace le stylet vers le cœur,
+
+304
+0:12:13.26,000 --> 0:12:15,000
+et le cœur bat maintenant devant lui,
+
+305
+0:12:15.26,000 --> 0:12:17,000
+pour qu'il puisse voir comment il bat.
+
+306
+0:12:17.26,000 --> 0:12:19,000
+Il a pris le stylet, et il le déplace vers le cœur,
+
+307
+0:12:19.26,000 --> 0:12:21,000
+il le pose sur le cœur,
+
+308
+0:12:21.26,000 --> 0:12:24,000
+et il sent les battements de cœur du véritable patient en vie.
+
+309
+0:12:24.26,000 --> 0:12:26,000
+Il peut alors examiner les mouvements du cœur.
+
+310
+0:12:26.26,000 --> 0:12:28,000
+Il peut entrer à l'intérieur, pénétrer à l'intérieur du cœur,
+
+311
+0:12:28.26,000 --> 0:12:31,000
+et sentir vraiment comment les valves bougent.
+
+312
+0:12:31.26,000 --> 0:12:34,000
+Ceci, je crois, est vraiment l'avenir pour les chirurgiens cardiaques.
+
+313
+0:12:34.26,000 --> 0:12:37,000
+Je veux dire, c'est probablement le plus grand fantasme pour un chirurgien du cœur
+
+314
+0:12:37.26,000 --> 0:12:4,000
+que de pouvoir aller voir à l'intérieur du cœur du patient
+
+315
+0:12:40.26,000 --> 0:12:42,000
+avant de passer à l'acte chirurgical,
+
+316
+0:12:42.26,000 --> 0:12:44,000
+et de faire cela avec des données de qualité haute définition.
+
+317
+0:12:44.26,000 --> 0:12:46,000
+C'est vraiment super.
+
+318
+0:12:47.26,000 --> 0:12:5,000
+Maintenant nous allons encore un peu plus loin dans la science-fiction.
+
+319
+0:12:50.26,000 --> 0:12:53,000
+Nous avons un peu entendu parler de l'IRM fonctionnelle.
+
+320
+0:12:53.26,000 --> 0:12:56,000
+Voilà un projet vraiment intéressant.
+
+321
+0:12:56.26,000 --> 0:12:58,000
+L'IRM utilise des champs magnétiques
+
+322
+0:12:58.26,000 --> 0:13:,000
+et des fréquences radio
+
+323
+0:13:00.26,000 --> 0:13:03,000
+pour scanner le cerveau, ou n'importe quelle partie du corps.
+
+324
+0:13:03.26,000 --> 0:13:05,000
+Ce que l'on obtient en réalité
+
+325
+0:13:05.26,000 --> 0:13:07,000
+ce sont des informations sur la structure du cerveau,
+
+326
+0:13:07.26,000 --> 0:13:09,000
+mais on peut aussi mesurer la différence de propriétés magnétiques
+
+327
+0:13:09.26,000 --> 0:13:12,000
+entre le sang qui est oxygéné
+
+328
+0:13:12.26,000 --> 0:13:15,000
+et le sang qui s'est appauvri en oxygène.
+
+329
+0:13:15.26,000 --> 0:13:17,000
+Cela signifie qu'il est possible
+
+330
+0:13:17.26,000 --> 0:13:19,000
+d'établir une carte de l'activité du cerveau.
+
+331
+0:13:19.26,000 --> 0:13:21,000
+C'est quelque chose sur quoi nous travaillons.
+
+332
+0:13:21.26,000 --> 0:13:24,000
+Vous venez juste de voir Motts, notre ingénieur d'étude,
+
+333
+0:13:24.26,000 --> 0:13:26,000
+entrer dans la machine d'IRM,
+
+334
+0:13:26.26,000 --> 0:13:28,000
+et il portait des lunettes.
+
+335
+0:13:28.26,000 --> 0:13:3,000
+Pour qu'il puisse voir des choses dans les lunettes, en fait.
+
+336
+0:13:30.26,000 --> 0:13:33,000
+Pour que je puisse lui montrer des choses pendant qu'il est dans le scanner.
+
+337
+0:13:33.26,000 --> 0:13:35,000
+Et c'est un peu bizarre,
+
+338
+0:13:35.26,000 --> 0:13:37,000
+parce que ce que Motts voit, c'est en fait ceci.
+
+339
+0:13:37.26,000 --> 0:13:4,000
+Il voit son propre cerveau.
+
+340
+0:13:40.26,000 --> 0:13:42,000
+Motts fait quelque chose, là.
+
+341
+0:13:42.26,000 --> 0:13:44,000
+Il fait probablement comme ça avec sa main droite,
+
+342
+0:13:44.26,000 --> 0:13:46,000
+parce que le côté gauche du cortex de la motricité
+
+343
+0:13:46.26,000 --> 0:13:48,000
+est actif.
+
+344
+0:13:48.26,000 --> 0:13:5,000
+Et il peut voir ceci en même temps.
+
+345
+0:13:50.26,000 --> 0:13:52,000
+Ces représentations sont toutes nouvelles.
+
+346
+0:13:52.26,000 --> 0:13:55,000
+C'est quelque chose sur quoi nous menons des recherches depuis un certain temps.
+
+347
+0:13:55.26,000 --> 0:13:58,000
+Voici une autre séquence du cerveau de Motts.
+
+348
+0:13:58.26,000 --> 0:14:01,000
+Ici, nous avons demandé à Motts de compter à rebours à partir de 100.
+
+349
+0:14:01.26,000 --> 0:14:03,000
+Il fait : " 100, 97, 94..."
+
+350
+0:14:03.26,000 --> 0:14:05,000
+Il le fait à l'envers.
+
+351
+0:14:05.26,000 --> 0:14:08,000
+Et vous pouvez voir comment le petit processeur mathématique travaille dans son cerveau,
+
+352
+0:14:08.26,000 --> 0:14:1,000
+et illumine tout le cerveau.
+
+353
+0:14:10.26,000 --> 0:14:12,000
+Eh bien, c'est extraordinaire. On peut faire ça en temps réel.
+
+354
+0:14:12.26,000 --> 0:14:14,000
+On peut étudier des tas de choses. On peut lui demander de faire des trucs.
+
+355
+0:14:14.26,000 --> 0:14:16,000
+Vous pouvez aussi voir que son cortex visuel
+
+356
+0:14:16.26,000 --> 0:14:18,000
+est actif, à l'arrière de sa tête,
+
+357
+0:14:18.26,000 --> 0:14:2,000
+parce que c'est là qu'il voit, il voit son propre cerveau.
+
+358
+0:14:20.26,000 --> 0:14:22,000
+Et il entend également nos instructions
+
+359
+0:14:22.26,000 --> 0:14:24,000
+quand nous lui disons de faire quelque chose.
+
+360
+0:14:24.26,000 --> 0:14:26,000
+De plus, le signal est vraiment profond à l'intérieur du cerveau,
+
+361
+0:14:26.26,000 --> 0:14:28,000
+mais il brille au travers,
+
+362
+0:14:28.26,000 --> 0:14:3,000
+parce qu'il y a toutes les données à l'intérieur de ce volume.
+
+363
+0:14:30.26,000 --> 0:14:32,000
+Dans juste un instant vous allez voir --
+
+364
+0:14:32.26,000 --> 0:14:34,000
+Bien, là, Motts, maintenant bouge ton pied gauche.
+
+365
+0:14:34.26,000 --> 0:14:36,000
+Il fait comme ça.
+
+366
+0:14:36.26,000 --> 0:14:38,000
+Pendant 20 secondes, il fait comme ça,
+
+367
+0:14:38.26,000 --> 0:14:4,000
+et tout à coup, ça s'illumine là-haut.
+
+368
+0:14:40.26,000 --> 0:14:42,000
+Nous avons le cortex moteur qui s'active là-haut.
+
+369
+0:14:42.26,000 --> 0:14:44,000
+C'est vraiment, vraiment bien.
+
+370
+0:14:44.26,000 --> 0:14:46,000
+Je pense que c'est un outil formidable.
+
+371
+0:14:46.26,000 --> 0:14:48,000
+Et en rapport avec la conférence qui m'a précédé ici,
+
+372
+0:14:48.26,000 --> 0:14:5,000
+c'est quelque chose que nous pourrions utiliser comme outil
+
+373
+0:14:50.26,000 --> 0:14:52,000
+pour comprendre vraiment
+
+374
+0:14:52.26,000 --> 0:14:54,000
+comment marchent les neurones, comment marche le cerveau,
+
+375
+0:14:54.26,000 --> 0:14:57,000
+et nous pouvons le faire avec de la très, très bonne qualité visuelle
+
+376
+0:14:57.26,000 --> 0:15:,000
+et une résolution très rapide.
+
+377
+0:15:00.26,000 --> 0:15:02,000
+Il nous arrive aussi de nous amuser au Centre.
+
+378
+0:15:02.26,000 --> 0:15:05,000
+Ceci est un CAT scan -- Computer Aided Tomography.
+
+379
+0:15:06.26,000 --> 0:15:08,000
+C'est Elsa, une lionne du zoo de notre région,
+
+380
+0:15:08.26,000 --> 0:15:11,000
+près de Norrkoping, dans la forêt de Kolmarden.
+
+381
+0:15:11.26,000 --> 0:15:13,000
+Elle est arrivée au Centre,
+
+382
+0:15:13.26,000 --> 0:15:15,000
+et ils l'ont endormie,
+
+383
+0:15:15.26,000 --> 0:15:17,000
+et passée directement dans le scanner.
+
+384
+0:15:17.26,000 --> 0:15:2,000
+Ensuite, bien sûr, j'obtiens tout l'ensemble des données de la lionne.
+
+385
+0:15:20.26,000 --> 0:15:22,000
+Et je peux faire de très jolies images comme celle-ci.
+
+386
+0:15:22.26,000 --> 0:15:24,000
+Je peux enlever des couches de la lionne.
+
+387
+0:15:24.26,000 --> 0:15:26,000
+Je peux observer l'intérieur.
+
+388
+0:15:26.26,000 --> 0:15:28,000
+Nous avons testé cela.
+
+389
+0:15:28.26,000 --> 0:15:3,000
+Et je pense que c'est une application formidable
+
+390
+0:15:30.26,000 --> 0:15:32,000
+pour l'avenir de cette technologie.
+
+391
+0:15:32.26,000 --> 0:15:35,000
+Parce qu'on en sait très peu sur l'anatomie animale.
+
+392
+0:15:35.26,000 --> 0:15:38,000
+Le seul savoir disponible pour les vétérinaires est très basique, en somme.
+
+393
+0:15:38.26,000 --> 0:15:4,000
+Nous pouvons scanner toutes sortes de choses,
+
+394
+0:15:40.26,000 --> 0:15:42,000
+toutes sortes d'animaux.
+
+395
+0:15:42.26,000 --> 0:15:45,000
+Le seul problème est de les faire entrer dans la machine.
+
+396
+0:15:45.26,000 --> 0:15:47,000
+Voici un ours.
+
+397
+0:15:47.26,000 --> 0:15:49,000
+Ça a été un peu dur de le faire rentrer.
+
+398
+0:15:49.26,000 --> 0:15:52,000
+L'ours est un animal affectueux, amical.
+
+399
+0:15:52.26,000 --> 0:15:55,000
+Le voilà. Voilà le nez de l'ours.
+
+400
+0:15:55.26,000 --> 0:15:58,000
+Vous pourriez avoir envie de câliner celui-ci,
+
+401
+0:15:58.26,000 --> 0:16:01,000
+jusqu'à ce que vous changiez les réglages et que vous voyiez ceci.
+
+402
+0:16:01.26,000 --> 0:16:03,000
+Alors, attention aux ours.
+
+403
+0:16:03.26,000 --> 0:16:05,000
+Pour finir,
+
+404
+0:16:05.26,000 --> 0:16:07,000
+je voudrais remercier toutes les personnes
+
+405
+0:16:07.26,000 --> 0:16:09,000
+qui m'ont aidé à produire ces images.
+
+406
+0:16:09.26,000 --> 0:16:11,000
+C'est un énorme travail que de réussir cela,
+
+407
+0:16:11.26,000 --> 0:16:14,000
+rassembler les données, développer les algorithmes,
+
+408
+0:16:14.26,000 --> 0:16:16,000
+écrire tous les programmes.
+
+409
+0:16:16.26,000 --> 0:16:19,000
+Ces personnes ont énormément de talent.
+
+410
+0:16:19.26,000 --> 0:16:22,000
+Ma devise est toujours : " N'embauche que des gens plus intelligents que toi",
+
+411
+0:16:22.26,000 --> 0:16:24,000
+et la plupart d'entre eux sont plus intelligents que moi.
+
+412
+0:16:24.26,000 --> 0:16:26,000
+Merci beaucoup.
+
+413
+0:16:26.26,000 --> 0:16:3,000
+(Applaudissements)
+

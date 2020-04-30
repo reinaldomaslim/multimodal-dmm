@@ -1,0 +1,648 @@
+1
+0:00:12.16,000 --> 0:00:15,000
+We look around the media, as we see on the news from Iraq,
+
+2
+0:00:15.16,000 --> 0:00:18,000
+Afghanistan, Sierra Leone,
+
+3
+0:00:18.16,000 --> 0:00:22,000
+and the conflict seems incomprehensible to us.
+
+4
+0:00:22.16,000 --> 0:00:26,000
+And that's certainly how it seemed to me when I started this project.
+
+5
+0:00:26.16,000 --> 0:00:28,000
+But as a physicist,
+
+6
+0:00:28.16,000 --> 0:00:31,000
+I thought, well if you give me some data,
+
+7
+0:00:31.16,000 --> 0:00:33,000
+I could maybe understand this. You know, give us a go.
+
+8
+0:00:33.16,000 --> 0:00:35,000
+So as a naive New Zealander
+
+9
+0:00:35.16,000 --> 0:00:37,000
+I thought, well I'll go to the Pentagon.
+
+10
+0:00:37.16,000 --> 0:00:39,000
+Can you get me some information?
+
+11
+0:00:39.16,000 --> 0:00:42,000
+(Laughter)
+
+12
+0:00:42.16,000 --> 0:00:46,000
+No. So I had to think a little harder.
+
+13
+0:00:46.16,000 --> 0:00:49,000
+And I was watching the news one night in Oxford.
+
+14
+0:00:49.16,000 --> 0:00:52,000
+And I looked down at the chattering heads on my channel of choice.
+
+15
+0:00:52.16,000 --> 0:00:54,000
+And I saw that there was information there.
+
+16
+0:00:54.16,000 --> 0:00:57,000
+There was data within the streams of news that we consume.
+
+17
+0:00:57.16,000 --> 0:01:01,000
+All this noise around us actually has information.
+
+18
+0:01:01.16,000 --> 0:01:03,000
+So what I started thinking was,
+
+19
+0:01:03.16,000 --> 0:01:06,000
+perhaps there is something like open source intelligence here.
+
+20
+0:01:06.16,000 --> 0:01:09,000
+If we can get enough of these streams of information together,
+
+21
+0:01:09.16,000 --> 0:01:12,000
+we can perhaps start to understand the war.
+
+22
+0:01:12.16,000 --> 0:01:15,000
+So this is exactly what I did. We started bringing a team together,
+
+23
+0:01:15.16,000 --> 0:01:17,000
+an interdisciplinary team of scientists,
+
+24
+0:01:17.16,000 --> 0:01:2,000
+of economists, mathematicians.
+
+25
+0:01:20.16,000 --> 0:01:23,000
+We brought these guys together and we started to try and solve this.
+
+26
+0:01:23.16,000 --> 0:01:25,000
+We did it in three steps.
+
+27
+0:01:25.16,000 --> 0:01:29,000
+The first step we did was to collect. We did 130 different sources of information --
+
+28
+0:01:29.16,000 --> 0:01:32,000
+from NGO reports to newspapers and cable news.
+
+29
+0:01:32.16,000 --> 0:01:35,000
+We brought this raw data in and we filtered it.
+
+30
+0:01:35.16,000 --> 0:01:38,000
+We extracted the key bits on information to build the database.
+
+31
+0:01:38.16,000 --> 0:01:4,000
+That database contained
+
+32
+0:01:40.16,000 --> 0:01:42,000
+the timing of attacks,
+
+33
+0:01:42.16,000 --> 0:01:44,000
+the location, the size and the weapons used.
+
+34
+0:01:44.16,000 --> 0:01:47,000
+It's all in the streams of information we consume daily,
+
+35
+0:01:47.16,000 --> 0:01:49,000
+we just have to know how to pull it out.
+
+36
+0:01:49.16,000 --> 0:01:51,000
+And once we had this we could start doing some cool stuff.
+
+37
+0:01:51.16,000 --> 0:01:54,000
+What if we were to look at the distribution of the sizes of attacks?
+
+38
+0:01:54.16,000 --> 0:01:56,000
+What would that tell us?
+
+39
+0:01:56.16,000 --> 0:01:58,000
+So we started doing this. And you can see here
+
+40
+0:01:58.16,000 --> 0:02:,000
+on the horizontal axis
+
+41
+0:02:00.16,000 --> 0:02:02,000
+you've got the number of people killed in an attack
+
+42
+0:02:02.16,000 --> 0:02:04,000
+or the size of the attack.
+
+43
+0:02:04.16,000 --> 0:02:07,000
+And on the vertical axis you've got the number of attacks.
+
+44
+0:02:07.16,000 --> 0:02:09,000
+So we plot data for sample on this.
+
+45
+0:02:09.16,000 --> 0:02:11,000
+You see some sort of random distribution --
+
+46
+0:02:11.16,000 --> 0:02:14,000
+perhaps 67 attacks, one person was killed,
+
+47
+0:02:14.16,000 --> 0:02:17,000
+or 47 attacks where seven people were killed.
+
+48
+0:02:17.16,000 --> 0:02:19,000
+We did this exact same thing for Iraq.
+
+49
+0:02:19.16,000 --> 0:02:22,000
+And we didn't know, for Iraq what we were going to find.
+
+50
+0:02:22.16,000 --> 0:02:26,000
+It turns out what we found was pretty surprising.
+
+51
+0:02:26.16,000 --> 0:02:28,000
+You take all of the conflict,
+
+52
+0:02:28.16,000 --> 0:02:3,000
+all of the chaos, all of the noise,
+
+53
+0:02:30.16,000 --> 0:02:32,000
+and out of that
+
+54
+0:02:32.16,000 --> 0:02:34,000
+comes this precise mathematical distribution
+
+55
+0:02:34.16,000 --> 0:02:37,000
+of the way attacks are ordered in this conflict.
+
+56
+0:02:37.16,000 --> 0:02:39,000
+This blew our mind.
+
+57
+0:02:39.16,000 --> 0:02:43,000
+Why should a conflict like Iraq have this
+
+58
+0:02:43.16,000 --> 0:02:45,000
+as its fundamental signature?
+
+59
+0:02:45.16,000 --> 0:02:47,000
+Why should there be order in war?
+
+60
+0:02:47.16,000 --> 0:02:49,000
+We didn't really understand that.
+
+61
+0:02:49.16,000 --> 0:02:53,000
+We thought maybe there is something special about Iraq.
+
+62
+0:02:53.16,000 --> 0:02:55,000
+So we looked at a few more conflicts.
+
+63
+0:02:55.16,000 --> 0:02:57,000
+We looked at Colombia, we looked at Afghanistan,
+
+64
+0:02:57.16,000 --> 0:02:59,000
+and we looked at Senegal.
+
+65
+0:02:59.16,000 --> 0:03:01,000
+And the same pattern emerged in each conflict.
+
+66
+0:03:01.16,000 --> 0:03:03,000
+This wasn't supposed to happen.
+
+67
+0:03:03.16,000 --> 0:03:06,000
+These are different wars, with different religious factions,
+
+68
+0:03:06.16,000 --> 0:03:09,000
+different political factions, and different socioeconomic problems.
+
+69
+0:03:09.16,000 --> 0:03:13,000
+And yet the fundamental patterns underlying them
+
+70
+0:03:13.16,000 --> 0:03:16,000
+are the same.
+
+71
+0:03:16.16,000 --> 0:03:18,000
+So we went a little wider.
+
+72
+0:03:18.16,000 --> 0:03:21,000
+We looked around the world at all the data we could get our hands on.
+
+73
+0:03:21.16,000 --> 0:03:24,000
+From Peru to Indonesia,
+
+74
+0:03:24.16,000 --> 0:03:26,000
+we studied this same pattern again.
+
+75
+0:03:26.16,000 --> 0:03:29,000
+And we found that not only
+
+76
+0:03:29.16,000 --> 0:03:31,000
+were the distributions these straight lines,
+
+77
+0:03:31.16,000 --> 0:03:33,000
+but the slope of these lines, they clustered around
+
+78
+0:03:33.16,000 --> 0:03:36,000
+this value of alpha equals 2.5.
+
+79
+0:03:36.16,000 --> 0:03:38,000
+And we could generate an equation
+
+80
+0:03:38.16,000 --> 0:03:41,000
+that could predict the likelihood of an attack.
+
+81
+0:03:41.16,000 --> 0:03:43,000
+What we're saying here
+
+82
+0:03:43.16,000 --> 0:03:47,000
+is the probability of an attack killing X number of people
+
+83
+0:03:47.16,000 --> 0:03:49,000
+in a country like Iraq
+
+84
+0:03:49.16,000 --> 0:03:52,000
+is equal to a constant, times the size of that attack,
+
+85
+0:03:52.16,000 --> 0:03:55,000
+raised to the power of negative alpha.
+
+86
+0:03:55.16,000 --> 0:04:01,000
+And negative alpha is the slope of that line I showed you before.
+
+87
+0:04:01.16,000 --> 0:04:03,000
+So what?
+
+88
+0:04:03.16,000 --> 0:04:06,000
+This is data, statistics. What does it tell us about these conflicts?
+
+89
+0:04:06.16,000 --> 0:04:09,000
+That was a challenge we had to face as physicists.
+
+90
+0:04:09.16,000 --> 0:04:12,000
+How do we explain this?
+
+91
+0:04:12.16,000 --> 0:04:14,000
+And what we really found was that alpha,
+
+92
+0:04:14.16,000 --> 0:04:16,000
+if we think about it, is the organizational
+
+93
+0:04:16.16,000 --> 0:04:19,000
+structure of the insurgency.
+
+94
+0:04:19.16,000 --> 0:04:22,000
+Alpha is the distribution of the sizes of attacks,
+
+95
+0:04:22.16,000 --> 0:04:24,000
+which is really the distribution
+
+96
+0:04:24.16,000 --> 0:04:26,000
+of the group strength carrying out the attacks.
+
+97
+0:04:26.16,000 --> 0:04:28,000
+So we look at a process of group dynamics:
+
+98
+0:04:28.16,000 --> 0:04:31,000
+coalescence and fragmentation,
+
+99
+0:04:31.16,000 --> 0:04:33,000
+groups coming together, groups breaking apart.
+
+100
+0:04:33.16,000 --> 0:04:36,000
+And we start running the numbers on this. Can we simulate it?
+
+101
+0:04:36.16,000 --> 0:04:39,000
+Can we create the kind of patterns that we're seeing
+
+102
+0:04:39.16,000 --> 0:04:42,000
+in places like Iraq?
+
+103
+0:04:42.16,000 --> 0:04:44,000
+Turns out we kind of do a reasonable job.
+
+104
+0:04:44.16,000 --> 0:04:46,000
+We can run these simulations.
+
+105
+0:04:46.16,000 --> 0:04:49,000
+We can recreate this using a process of group dynamics
+
+106
+0:04:49.16,000 --> 0:04:51,000
+to explain the patterns that we see
+
+107
+0:04:51.16,000 --> 0:04:56,000
+all around the conflicts around the world.
+
+108
+0:04:56.16,000 --> 0:04:58,000
+So what's going on?
+
+109
+0:04:58.16,000 --> 0:05:01,000
+Why should these different -- seemingly different conflicts
+
+110
+0:05:01.16,000 --> 0:05:03,000
+have the same patterns?
+
+111
+0:05:03.16,000 --> 0:05:06,000
+Now what I believe is going on is that
+
+112
+0:05:06.16,000 --> 0:05:1,000
+the insurgent forces, they evolve over time. They adapt.
+
+113
+0:05:10.16,000 --> 0:05:12,000
+And it turns out there is only one solution
+
+114
+0:05:12.16,000 --> 0:05:14,000
+to fight a much stronger enemy.
+
+115
+0:05:14.16,000 --> 0:05:17,000
+And if you don't find that solution as an insurgent force,
+
+116
+0:05:17.16,000 --> 0:05:19,000
+you don't exist.
+
+117
+0:05:19.16,000 --> 0:05:21,000
+So every insurgent force that is ongoing,
+
+118
+0:05:21.16,000 --> 0:05:23,000
+every conflict that is ongoing,
+
+119
+0:05:23.16,000 --> 0:05:25,000
+it's going to look something like this.
+
+120
+0:05:25.16,000 --> 0:05:28,000
+And that is what we think is happening.
+
+121
+0:05:28.16,000 --> 0:05:3,000
+Taking it forward, how do we change it?
+
+122
+0:05:30.16,000 --> 0:05:32,000
+How do we end a war like Iraq?
+
+123
+0:05:32.16,000 --> 0:05:34,000
+What does it look like?
+
+124
+0:05:34.16,000 --> 0:05:37,000
+Alpha is the structure. It's got a stable state at 2.5.
+
+125
+0:05:37.16,000 --> 0:05:41,000
+This is what wars look like when they continue.
+
+126
+0:05:41.16,000 --> 0:05:43,000
+We've got to change that.
+
+127
+0:05:43.16,000 --> 0:05:45,000
+We can push it up:
+
+128
+0:05:45.16,000 --> 0:05:47,000
+the forces become more fragmented;
+
+129
+0:05:47.16,000 --> 0:05:51,000
+there is more of them, but they are weaker.
+
+130
+0:05:51.16,000 --> 0:05:53,000
+Or we push it down:
+
+131
+0:05:53.16,000 --> 0:05:55,000
+they're more robust; there is less groups;
+
+132
+0:05:55.16,000 --> 0:05:59,000
+but perhaps you can sit and talk to them.
+
+133
+0:05:59.16,000 --> 0:06:01,000
+So this graph here, I'm going to show you now.
+
+134
+0:06:01.16,000 --> 0:06:04,000
+No one has seen this before. This is literally
+
+135
+0:06:04.16,000 --> 0:06:06,000
+stuff that we've come through last week.
+
+136
+0:06:06.16,000 --> 0:06:1,000
+And we see the evolution of Alpha through time.
+
+137
+0:06:10.16,000 --> 0:06:13,000
+We see it start. And we see it grow up to the stable state
+
+138
+0:06:13.16,000 --> 0:06:15,000
+the wars around the world look like.
+
+139
+0:06:15.16,000 --> 0:06:18,000
+And it stays there through the invasion of Fallujah
+
+140
+0:06:18.16,000 --> 0:06:2,000
+until the Samarra bombings in the
+
+141
+0:06:20.16,000 --> 0:06:23,000
+Iraqi elections of '06.
+
+142
+0:06:23.16,000 --> 0:06:25,000
+And the system gets perturbed. It moves upwards
+
+143
+0:06:25.16,000 --> 0:06:27,000
+to a fragmented state.
+
+144
+0:06:27.16,000 --> 0:06:29,000
+This is when the surge happens.
+
+145
+0:06:29.16,000 --> 0:06:31,000
+And depending on who you ask,
+
+146
+0:06:31.16,000 --> 0:06:34,000
+the surge was supposed to push it up even further.
+
+147
+0:06:34.16,000 --> 0:06:36,000
+The opposite happened.
+
+148
+0:06:36.16,000 --> 0:06:38,000
+The groups became stronger.
+
+149
+0:06:38.16,000 --> 0:06:4,000
+They became more robust.
+
+150
+0:06:40.16,000 --> 0:06:43,000
+And so I'm thinking, right, great, it's going to keep going down.
+
+151
+0:06:43.16,000 --> 0:06:46,000
+We can talk to them. We can get a solution. The opposite happened.
+
+152
+0:06:46.16,000 --> 0:06:49,000
+It's moved up again. The groups are more fragmented.
+
+153
+0:06:49.16,000 --> 0:06:51,000
+And this tells me one of two things.
+
+154
+0:06:51.16,000 --> 0:06:54,000
+Either we're back where we started
+
+155
+0:06:54.16,000 --> 0:06:56,000
+and the surge has had no effect;
+
+156
+0:06:56.16,000 --> 0:07:,000
+or finally the groups have been fragmented to the extent
+
+157
+0:07:00.16,000 --> 0:07:04,000
+that we can start to think about maybe moving out.
+
+158
+0:07:04.16,000 --> 0:07:06,000
+I don't know what the answer is to that.
+
+159
+0:07:06.16,000 --> 0:07:09,000
+But I know that we should be looking at the structure of the insurgency
+
+160
+0:07:09.16,000 --> 0:07:11,000
+to answer that question.
+
+161
+0:07:11.16,000 --> 0:07:13,000
+Thank you.
+
+162
+0:07:13.16,000 --> 0:07:18,000
+(Applause)
+

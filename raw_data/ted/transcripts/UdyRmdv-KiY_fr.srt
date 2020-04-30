@@ -1,0 +1,1360 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Timothée Parrique Relecteur: Elisabeth Buffard
+
+2
+0:00:18.33,000 --> 0:00:23,000
+Ce dont je veux vous parler aujourd'hui, c'est de la façon dont les robots envahissent nos vies
+
+3
+0:00:23.33,000 --> 0:00:26,000
+à plusieurs niveaux, et sur différentes échelles de temps.
+
+4
+0:00:26.33,000 --> 0:00:3,000
+Et quand j'imagine le futur, je ne peux imaginer un monde, dans 500 ans,
+
+5
+0:00:30.33,000 --> 0:00:32,000
+où les robots ne seraient pas omniprésents,
+
+6
+0:00:32.33,000 --> 0:00:37,000
+en supposant -- malgré toutes les prédictions pessimistes de beaucoup de gens sur notre avenir --
+
+7
+0:00:37.33,000 --> 0:00:41,000
+en supposant que nous soyons toujours là, je n'imagine pas que le monde ne soit pas peuplé de robots.
+
+8
+0:00:41.33,000 --> 0:00:44,000
+Alors la question est, s'ils sont partout dans 500 ans,
+
+9
+0:00:44.33,000 --> 0:00:46,000
+ne le seront-ils pas déjà avant?
+
+10
+0:00:46.33,000 --> 0:00:48,000
+Seront-ils là dans 50 ans?
+
+11
+0:00:48.33,000 --> 0:00:51,000
+Oui, je pense que c'est possible -- Il va y avoir beaucoup de robots autour de nous.
+
+12
+0:00:51.33,000 --> 0:00:54,000
+Et en fait, je pense que ce sera même plus tôt que ça.
+
+13
+0:00:54.33,000 --> 0:00:58,000
+Je pense que nous en sommes au point où les robots sont devenus communs,
+
+14
+0:00:58.33,000 --> 0:01:04,000
+et je pense que nous y sommes depuis les années 1978 ou 1980 soit depuis les ordinateurs personnels,
+
+15
+0:01:04.33,000 --> 0:01:07,000
+lorsque les premiers robots sont apparus.
+
+16
+0:01:07.33,000 --> 0:01:11,000
+D'une certaine manière, les ordinateurs sont apparus par le biais des jeux et des jouets.
+
+17
+0:01:11.33,000 --> 0:01:14,000
+Et comme vous le savez, le premier ordinateur que la plupart des gens avaient à la maison
+
+18
+0:01:14.33,000 --> 0:01:16,000
+devait être un ordinateur pour jouer à Pong,
+
+19
+0:01:16.33,000 --> 0:01:18,000
+un petit microprocesseur embarqué,
+
+20
+0:01:18.33,000 --> 0:01:21,000
+comme pour tous les jeux qui sont venus après ça.
+
+21
+0:01:21.33,000 --> 0:01:24,000
+Et nous commençons à observer la même chose avec les robots:
+
+22
+0:01:24.33,000 --> 0:01:28,000
+LEHO Mindstorms, Furbies -- qui ici -- est-ce que quelqu'un a un Furby?
+
+23
+0:01:28.33,000 --> 0:01:31,000
+Oui, il s'en est vendu 38 millions à travers le monde.
+
+24
+0:01:31.33,000 --> 0:01:33,000
+Ils sont très courants, en fait c'est un miniscule petit robot,
+
+25
+0:01:33.33,000 --> 0:01:35,000
+un simple robot avec des capteurs.
+
+26
+0:01:35.33,000 --> 0:01:37,000
+C'est une sorte de processus d'actionnement.
+
+27
+0:01:37.33,000 --> 0:01:4,000
+Sur la droite c'est un autre robot poupée, que vous pouviez vous procurer il y a quelques années.
+
+28
+0:01:40.33,000 --> 0:01:42,000
+Et comme aux premiers jours,
+
+29
+0:01:42.33,000 --> 0:01:47,000
+lorsqu'il il y avait de nombreuses sortes d'interactions d'amateurs sur les ordinateurs,
+
+30
+0:01:47.33,000 --> 0:01:51,000
+vous pouvez maintenant obtenir différents kits et livres pour les personnaliser.
+
+31
+0:01:51.33,000 --> 0:01:55,000
+Et sur la gauche, il y a une plateforme de Evolution Robotics,
+
+32
+0:01:55.33,000 --> 0:01:58,000
+où vous déposez un PC, et vous programmez cette chose avec un GUI
+
+33
+0:01:58.33,000 --> 0:02:01,000
+pour qu'elle se déplace dans votre maison et réalise différentes tâches.
+
+34
+0:02:01.33,000 --> 0:02:04,000
+Puis il y a plus cher, un genre de robots jouets --
+
+35
+0:02:04.33,000 --> 0:02:08,000
+Le Aibo Sony. Et là sur la droite, en voilà un développé par NEC,
+
+36
+0:02:08.33,000 --> 0:02:11,000
+le PaPeRo, mais je ne pense pas qu'ils vont le lancer sur le marché.
+
+37
+0:02:11.33,000 --> 0:02:14,000
+Mais néanmoins, ce genre d'objets existe.
+
+38
+0:02:14.33,000 --> 0:02:18,000
+Et ces derniers 2 ou 3 ans, nous avons vu des robots tondeurs de gazon,
+
+39
+0:02:18.33,000 --> 0:02:24,000
+Husqvarna en bas, Friendly Robotics en haut, une entreprise Israëlienne.
+
+40
+0:02:24.33,000 --> 0:02:26,000
+Puis ces 12 derniers mois environ
+
+41
+0:02:26.33,000 --> 0:02:3,000
+nous avons vu apparaitre plusieurs robots de nettoyage domestique.
+
+42
+0:02:30.33,000 --> 0:02:33,000
+En haut à gauche c'est un très joli robot de ménage d'intérieur
+
+43
+0:02:33.33,000 --> 0:02:37,000
+d'une entreprise appellé Dyson, au Royaume-Uni. Sauf qu'il était si cher --
+
+44
+0:02:37.33,000 --> 0:02:39,000
+3 500 dollars -- qu'ils ne l'ont pas lancé sur le marché.
+
+45
+0:02:39.33,000 --> 0:02:42,000
+Mais en bas à gauche vous voyez Electrolux, qui est en vente.
+
+46
+0:02:42.33,000 --> 0:02:44,000
+Un autre de Karcher.
+
+47
+0:02:44.33,000 --> 0:02:46,000
+En bas à droite c'en est un que j'ai construit dans mon labo
+
+48
+0:02:46.33,000 --> 0:02:49,000
+il y a 10 ans, et nous l'avons finalement produit.
+
+49
+0:02:49.33,000 --> 0:02:51,000
+Et laissez moi juste vous montrer cela.
+
+50
+0:02:51.33,000 --> 0:02:55,000
+Nous allons le distribuer, je pense que Chris l'a dit, après la présentation.
+
+51
+0:02:55.33,000 --> 0:03:01,000
+Voici un robot que vous pouvez vous procurer vous-même, et il nettoiera vos sols.
+
+52
+0:03:05.33,000 --> 0:03:1,000
+Et il commence par tourner en faisant des cercles de plus en plus larges.
+
+53
+0:03:10.33,000 --> 0:03:14,000
+Si il heurte quelque chose -- vous voyez ça ?
+
+54
+0:03:14.33,000 --> 0:03:17,000
+Maintenant il commence à suivre le mur, il fait le tour de mes pieds
+
+55
+0:03:17.33,000 --> 0:03:21,000
+pour nettoyer. Voyons voir --
+
+56
+0:03:21.33,000 --> 0:03:26,000
+oh, qui a volé volé mes céréales ?. Ils ont volé mes céréales
+
+57
+0:03:26.33,000 --> 0:03:32,000
+(Rires)
+
+58
+0:03:32.33,000 --> 0:03:35,000
+Pas d'inquiétude, détendez-vous, non, détendez-vous, il est intelligent.
+
+59
+0:03:35.33,000 --> 0:03:38,000
+(Rires)
+
+60
+0:03:38.33,000 --> 0:03:42,000
+Voyez, les enfants de 3 ans, ils ne préoccupent pas.
+
+61
+0:03:42.33,000 --> 0:03:44,000
+Ce sont les adultes qui se mettent en colère.
+
+62
+0:03:44.33,000 --> 0:03:45,000
+(Rires)
+
+63
+0:03:45.33,000 --> 0:03:47,000
+On va juste mettre un peu de bordel ici.
+
+64
+0:03:47.33,000 --> 0:03:51,000
+(Rires)
+
+65
+0:03:51.33,000 --> 0:03:53,000
+D'accord.
+
+66
+0:03:53.33,000 --> 0:03:57,000
+(Rires)
+
+67
+0:03:57.33,000 --> 0:04:,000
+Je ne sais pas si vous voyez -- alors, je mets un peu de céréales ici,
+
+68
+0:04:00.33,000 --> 0:04:07,000
+Je mets des centimes, voyons s'il va nettoyer.
+
+69
+0:04:10.33,000 --> 0:04:12,000
+Oui, d'accord. Alors --
+
+70
+0:04:12.33,000 --> 0:04:16,000
+nous allons laisser ça pour plus tard.
+
+71
+0:04:16.33,000 --> 0:04:21,000
+(Applaudissements)
+
+72
+0:04:22.33,000 --> 0:04:26,000
+Le truc c'était en partie de construire un meilleur mécanisme de nettoyage en fait ;
+
+73
+0:04:26.33,000 --> 0:04:3,000
+l'intelligence à l'intérieur était assez simple.
+
+74
+0:04:30.33,000 --> 0:04:32,000
+Et c'est vrai pour de nombreux robots.
+
+75
+0:04:32.33,000 --> 0:04:36,000
+Nous sommes tous devenus des programmateurs chauvins, je pense
+
+76
+0:04:36.33,000 --> 0:04:38,000
+et nous pensons que la programmation fait tout,
+
+77
+0:04:38.33,000 --> 0:04:4,000
+mais la mécanique reste encore importante.
+
+78
+0:04:40.33,000 --> 0:04:43,000
+Voilà un autre robot, le PackBot,
+
+79
+0:04:43.33,000 --> 0:04:45,000
+que nous avons construit il y a quelques années.
+
+80
+0:04:45.33,000 --> 0:04:51,000
+C'est un robot de surveillance militaire, pour guider les troupes,
+
+81
+0:04:51.33,000 --> 0:04:54,000
+regarder dans les grottes, par exemple.
+
+82
+0:04:54.33,000 --> 0:04:56,000
+Mais nous devions le faire très résistant,
+
+83
+0:04:56.33,000 --> 0:05:03,000
+beaucoup plus résistant que les robots que nous construisions dans nos labos.
+
+84
+0:05:03.33,000 --> 0:05:06,000
+(Rires)
+
+85
+0:05:12.33,000 --> 0:05:16,000
+A l'intérieur, ce robot est un PC sous Linux.
+
+86
+0:05:16.33,000 --> 0:05:22,000
+Il peut résister à un choc de 400G. Le robot bénéficie d'une intelligence locale:
+
+87
+0:05:22.33,000 --> 0:05:28,000
+il peut se retourner, il peut se mettre à portée de communication,
+
+88
+0:05:28.33,000 --> 0:05:31,000
+il peut monter des marches tout seul, et cetera.
+
+89
+0:05:38.33,000 --> 0:05:42,000
+D'accord, alors il navigue localement.
+
+90
+0:05:42.33,000 --> 0:05:48,000
+Un soldat lui donne l'ordre d'aller en haut, et il s'exécute.
+
+91
+0:05:49.33,000 --> 0:05:52,000
+Ce n'était pas une descente contrôlée.
+
+92
+0:05:52.33,000 --> 0:05:54,000
+(Rires)
+
+93
+0:05:54.33,000 --> 0:05:56,000
+Maintenant, il va partir.
+
+94
+0:05:56.33,000 --> 0:06:01,000
+Et la grande perçée pour ces robots, s'est vraiment produite le 11 septembre.
+
+95
+0:06:01.33,000 --> 0:06:05,000
+Nous avions ces robots au pied du World Trade Center tard ce soir là.
+
+96
+0:06:06.33,000 --> 0:06:08,000
+Ils ne pouvaient pas faire grand chose dans cette pile de gravats,
+
+97
+0:06:08.33,000 --> 0:06:11,000
+c'était trop pour eux -- il n'y avait plus rien à faire.
+
+98
+0:06:11.33,000 --> 0:06:16,000
+Mais nous avons pu aller dans tous les immeubles aux alentours qui avaient été évacués,
+
+99
+0:06:16.33,000 --> 0:06:19,000
+et chercher d'éventuels rescapés dans les immeubles
+
+100
+0:06:19.33,000 --> 0:06:21,000
+dont l'accès était trop dangereux.
+
+101
+0:06:21.33,000 --> 0:06:23,000
+Regardons la vidéo.
+
+102
+0:06:23.33,000 --> 0:06:26,000
+Journaliste: ...Nos compagnons sur le champs de bataille nous aident à réduire les risques au combat.
+
+103
+0:06:26.33,000 --> 0:06:29,000
+Nick Robertson connaît cette histoire.
+
+104
+0:06:31.33,000 --> 0:06:33,000
+Rodney Brooks: Est-ce qu'on pourrait en avoir une autre?
+
+105
+0:06:38.33,000 --> 0:06:4,000
+D'accord, entendu.
+
+106
+0:06:43.33,000 --> 0:06:46,000
+Alors, c'est un caporal qui avait vu un robot deux semaines auparavant.
+
+107
+0:06:48.33,000 --> 0:06:52,000
+Il envoie des robots dans des grottes, pour voir ce qui se passe.
+
+108
+0:06:52.33,000 --> 0:06:54,000
+Le robot fait preuve de l'autonomie la plus totale.
+
+109
+0:06:54.33,000 --> 0:06:58,000
+La pire chose qui est arrivée dans la grotte jusqu'ici
+
+110
+0:06:58.33,000 --> 0:07:01,000
+était qu'un des robots a fait une chute de dix mètres.
+
+111
+0:07:08.33,000 --> 0:07:11,000
+Alors il y a un an, l'armée américaine n'avait pas ces robots.
+
+112
+0:07:11.33,000 --> 0:07:13,000
+Aujourd'hui ils sont en service en Afghanistan tous les jours.
+
+113
+0:07:13.33,000 --> 0:07:16,000
+Et c'est l'une des raisons qui fait dire qu'une invasion de robots est en marche.
+
+114
+0:07:16.33,000 --> 0:07:2,000
+Il y a une transformation radicale de l'évolution de la technologie.
+
+115
+0:07:20.33,000 --> 0:07:22,000
+Merci.
+
+116
+0:07:23.33,000 --> 0:07:25,000
+Et au cours des tout prochains mois,
+
+117
+0:07:25.33,000 --> 0:07:28,000
+nous allons lancer la production de robots
+
+118
+0:07:28.33,000 --> 0:07:32,000
+qui descendront dans les puits de pétrole en exploitation pour en tirer les dernières années de pétrole.
+
+119
+0:07:32.33,000 --> 0:07:36,000
+Un environnement très hostile, 150 degrés, 10,000 PSI.
+
+120
+0:07:36.33,000 --> 0:07:4,000
+Des robots autonomes qui descendent faire ce genre de boulot.
+
+121
+0:07:40.33,000 --> 0:07:43,000
+Mais de tels robots sont un peu difficiles à programmer.
+
+122
+0:07:43.33,000 --> 0:07:45,000
+Comment, dans le futur, allons-nous programmer nos robots
+
+123
+0:07:45.33,000 --> 0:07:47,000
+pour les rendre plus faciles d'usage?
+
+124
+0:07:47.33,000 --> 0:07:5,000
+Et en fait je voudrais utiliser un robot ici --
+
+125
+0:07:50.33,000 --> 0:07:55,000
+un robot nommé Chris -- debout. Oui. Bien.
+
+126
+0:07:57.33,000 --> 0:08:01,000
+Viens par ici. Maintenant regardez, il pense que les robots sont forcément un peu raide.
+
+127
+0:08:01.33,000 --> 0:08:04,000
+Il l'est en quelques sortes. Mais je vais --
+
+128
+0:08:04.33,000 --> 0:08:06,000
+Chris Anderson: Je suis simplement Anglais. RB: Oh.
+
+129
+0:08:06.33,000 --> 0:08:08,000
+(Rires)
+
+130
+0:08:08.33,000 --> 0:08:1,000
+(Applaudissements)
+
+131
+0:08:10.33,000 --> 0:08:13,000
+Je vais montrer une tâche à ce robot. C'est une tâche très complexe.
+
+132
+0:08:13.33,000 --> 0:08:16,000
+Maintenant regardez, il a fait un signe de la tête, il me donnait des indications
+
+133
+0:08:16.33,000 --> 0:08:19,000
+il comprenait le flot de la communication.
+
+134
+0:08:19.33,000 --> 0:08:21,000
+Et si j'avais dit quelque chose de complétement bizarre
+
+135
+0:08:21.33,000 --> 0:08:24,000
+il m'aurait regarder avec méfiance, et aurait régulé la conversation.
+
+136
+0:08:24.33,000 --> 0:08:27,000
+Alors maintenant, j'ai mis cela en face de lui.
+
+137
+0:08:27.33,000 --> 0:08:31,000
+J'ai regardé ses yeux, et j'ai vu ses yeux regarder en haut de cette bouteille.
+
+138
+0:08:31.33,000 --> 0:08:33,000
+Et je suis en train de réaliser cette tâche juste là, et il vérifie.
+
+139
+0:08:33.33,000 --> 0:08:36,000
+Ses yeux font des aller-retour, m'épiant pour voir ce que je regarde,
+
+140
+0:08:36.33,000 --> 0:08:38,000
+donc nous partageons de l'attention.
+
+141
+0:08:38.33,000 --> 0:08:41,000
+Et alors je réalise cette tâche, et il regarde, et il me regarde
+
+142
+0:08:41.33,000 --> 0:08:45,000
+pour voir ce qui va se passer après. Et maintenant je vais lui donner la bouteille,
+
+143
+0:08:45.33,000 --> 0:08:47,000
+et nous allons voir comment il exécute la tâche. Peux-tu faire ça?
+
+144
+0:08:47.33,000 --> 0:08:5,000
+(Rires)
+
+145
+0:08:50.33,000 --> 0:08:54,000
+D'accord. Il est plutôt bon. Oui. Bien, bien, bien.
+
+146
+0:08:54.33,000 --> 0:08:56,000
+Je ne t'ai pas montré comment faire ça.
+
+147
+0:08:56.33,000 --> 0:08:58,000
+Maintenant regarde si tu peux tout mettre ensemble.
+
+148
+0:08:58.33,000 --> 0:09:,000
+(Rires)
+
+149
+0:09:00.33,000 --> 0:09:01,000
+Et il pense qu'un robot doit obligatoirement être lent.
+
+150
+0:09:01.33,000 --> 0:09:03,000
+Bon robot, c'est bien.
+
+151
+0:09:03.33,000 --> 0:09:05,000
+Alors on a vu pas mal de choses ici.
+
+152
+0:09:06.33,000 --> 0:09:09,000
+Nous avons vu que quand nous intéragissons,
+
+153
+0:09:09.33,000 --> 0:09:13,000
+nous essayons de montrer à quelqu'un comment faire quelque chose, nous dirigeons leur attention visuelle.
+
+154
+0:09:13.33,000 --> 0:09:17,000
+L'autre chose nous communique son état interne,
+
+155
+0:09:17.33,000 --> 0:09:2,000
+si il comprend ou non, il régule l'intéraction sociale.
+
+156
+0:09:20.33,000 --> 0:09:22,000
+Il y avait du partage d'attention lorsque l'on regardait le même genre de choses,
+
+157
+0:09:22.33,000 --> 0:09:26,000
+et à la fin la reconnaissance d'un renforcement socialement communiqué.
+
+158
+0:09:26.33,000 --> 0:09:29,000
+Et nous avons essayé d'intégrer ça dans nos robots de laboratoire
+
+159
+0:09:29.33,000 --> 0:09:33,000
+parce que nous pensons que c'est ainsi que nous voulons interagir avec les robots dans le futur.
+
+160
+0:09:33.33,000 --> 0:09:35,000
+J'aimerais seulement vous montrer un diagramme technique.
+
+161
+0:09:35.33,000 --> 0:09:39,000
+Le plus important pour construire un robot avec lequel vous pouvez interagir socialement
+
+162
+0:09:39.33,000 --> 0:09:41,000
+est son système d'attention visuelle.
+
+163
+0:09:41.33,000 --> 0:09:44,000
+Parce qu'il prête attention à ce qu'il voit et
+
+164
+0:09:44.33,000 --> 0:09:47,000
+à ce avec quoi il interagit, et à ce que vous comprenez qu'il fait.
+
+165
+0:09:47.33,000 --> 0:09:5,000
+Alors dans les vidéos que je suis sur le point de vous montrer,
+
+166
+0:09:50.33,000 --> 0:09:54,000
+vous allez voir un système d'attention visuelle sur un robot
+
+167
+0:09:54.33,000 --> 0:09:58,000
+qui a -- il regarde les tons de couleur dans l'espace colorimétrique TSV,
+
+168
+0:09:58.33,000 --> 0:10:02,000
+alors il passe en revue tout ça, vous savez, les colorants humains.
+
+169
+0:10:02.33,000 --> 0:10:04,000
+Il recherche les couleurs à haute saturation, venant des jouets.
+
+170
+0:10:04.33,000 --> 0:10:06,000
+Et il recherche des choses qui bougent.
+
+171
+0:10:06.33,000 --> 0:10:09,000
+Et il pondère celles-ci ensemble dans une fenêtre d'attention,
+
+172
+0:10:09.33,000 --> 0:10:11,000
+et il recherche le meilleur arrangement --
+
+173
+0:10:11.33,000 --> 0:10:13,000
+l'endroit où les choses les plus intéressantes se produisent.
+
+174
+0:10:13.33,000 --> 0:10:17,000
+Et c'est vers cet endroit que ses yeux se dirigent.
+
+175
+0:10:17.33,000 --> 0:10:19,000
+Et il fixe cet endroit.
+
+176
+0:10:19.33,000 --> 0:10:22,000
+En même temps, un genre d'approche descendante :
+
+177
+0:10:22.33,000 --> 0:10:25,000
+il pourrait décider qu'il se sent seul et aller chercher une teinte de peau,
+
+178
+0:10:25.33,000 --> 0:10:28,000
+ou pourrait décider qu'il s'ennuie et partir à la recherche d'un jouet.
+
+179
+0:10:28.33,000 --> 0:10:3,000
+Et alors ces pondérations changent.
+
+180
+0:10:30.33,000 --> 0:10:32,000
+Et juste ici sur la droite,
+
+181
+0:10:32.33,000 --> 0:10:35,000
+c'est ce qu'on appelle le module à la mémoire de Steven Spielberg.
+
+182
+0:10:35.33,000 --> 0:10:37,000
+Est-ce que les gens ont vu le film A.I. Intelligence Artificielle? Public: Oui.
+
+183
+0:10:37.33,000 --> 0:10:39,000
+RB: Oui, c'était vraiment mauvais, mais --
+
+184
+0:10:39.33,000 --> 0:10:43,000
+souvenez vous, le moment où Haley Joel Osment, le petit robot,
+
+185
+0:10:43.33,000 --> 0:10:47,000
+regarda la fée bleue pendant 2,000 ans sans détourner son regard?
+
+186
+0:10:47.33,000 --> 0:10:49,000
+Et bien, on se débarasse de ça,
+
+187
+0:10:49.33,000 --> 0:10:53,000
+parce que c'est une accomodation Gaussienne qui devient négative,
+
+188
+0:10:53.33,000 --> 0:10:56,000
+et de plus en plus intense quand il fixe quelque chose.
+
+189
+0:10:56.33,000 --> 0:10:59,000
+Et il s'ennuie, alors il ira regarder quelque chose d'autre.
+
+190
+0:10:59.33,000 --> 0:11:03,000
+Alors, une fois que vous avez compris ça -- et voici un robot, voici Kismet,
+
+191
+0:11:03.33,000 --> 0:11:07,000
+à la recherche d'un jouet. Vous voyez ce qu'il regarde.
+
+192
+0:11:07.33,000 --> 0:11:12,000
+Vous pouvez deviner la direction de son regard grâce aux globes oculaires qui couvrent sa caméra,
+
+193
+0:11:12.33,000 --> 0:11:15,000
+et vous pouvez voir le moment exact où il repère vraiment le jouet.
+
+194
+0:11:15.33,000 --> 0:11:17,000
+Et on remarque ici qu'il a une sorte de petite réaction émotionnelle.
+
+195
+0:11:17.33,000 --> 0:11:18,000
+(Rires)
+
+196
+0:11:18.33,000 --> 0:11:2,000
+Mais il va pourtant continuer à faire attention
+
+197
+0:11:20.33,000 --> 0:11:24,000
+si quelque chose de plus important entre dans son champs de vision --
+
+198
+0:11:24.33,000 --> 0:11:28,000
+comme par exemple Cynthia Breazeal, celle qui a construit ce robot -- par la droite.
+
+199
+0:11:28.33,000 --> 0:11:33,000
+Il la voit, elle attire son attention.
+
+200
+0:11:33.33,000 --> 0:11:37,000
+Kismet possède un espace émotionnel en trois dimensions sous-jacentes,
+
+201
+0:11:37.33,000 --> 0:11:4,000
+un espace vectoriel, représentant son état émotionnel.
+
+202
+0:11:40.33,000 --> 0:11:45,000
+Et à différents points dans cet espace, il exprime --
+
+203
+0:11:46.33,000 --> 0:11:48,000
+est-ce qu'on peut avoir du son par ici?
+
+204
+0:11:48.33,000 --> 0:11:5,000
+Est-ce que vous entendez ça, juste ici? Public: Oui.
+
+205
+0:11:50.33,000 --> 0:11:55,000
+Kismet: Etes-vous vraiment certain? Etes-vous vraiment certain?
+
+206
+0:11:57.33,000 --> 0:11:59,000
+Etes-vous vraiment certain?
+
+207
+0:12:00.33,000 --> 0:12:03,000
+RB: Donc il exprime son émotion avec son visage
+
+208
+0:12:03.33,000 --> 0:12:05,000
+et la prosodie dans sa voix.
+
+209
+0:12:05.33,000 --> 0:12:09,000
+Et pendant que je m'occupais du robot ici,
+
+210
+0:12:09.33,000 --> 0:12:12,000
+Chris, le robot, il était en train de mesurer la prosodie dans ma voix.
+
+211
+0:12:12.33,000 --> 0:12:17,000
+et donc nous avons un robot qui mesure la prosodie pour quatre messages de base
+
+212
+0:12:17.33,000 --> 0:12:21,000
+que les mères donnent de façon pre-linguistique à leurs enfants.
+
+213
+0:12:21.33,000 --> 0:12:24,000
+Alors là nous avons de simples cobayes félicitant le robot,
+
+214
+0:12:26.33,000 --> 0:12:28,000
+Voix: Gentil robot.
+
+215
+0:12:29.33,000 --> 0:12:31,000
+Tu es vraiment un gentil petit robot.
+
+216
+0:12:31.33,000 --> 0:12:33,000
+(Rires)
+
+217
+0:12:33.33,000 --> 0:12:35,000
+Et le robot réagit de façon appropriée.
+
+218
+0:12:35.33,000 --> 0:12:39,000
+Voix: ...très bien, Kismet.
+
+219
+0:12:40.33,000 --> 0:12:42,000
+(Rires)
+
+220
+0:12:42.33,000 --> 0:12:44,000
+Voix: Regarde mon sourire.
+
+221
+0:12:46.33,000 --> 0:12:49,000
+RB: Il sourit. Elle imite le sourire. Cela se produit constamment.
+
+222
+0:12:49.33,000 --> 0:12:51,000
+Ceux-ci sont de simples sujets.
+
+223
+0:12:51.33,000 --> 0:12:54,000
+Ici nous leur avons demandé d'attirer l'attention du robot
+
+224
+0:12:54.33,000 --> 0:12:57,000
+et d'indiquer quand ils l'avaient captée.
+
+225
+0:12:57.33,000 --> 0:13:01,000
+Voix: Hey, Kismet, ah le voilà.
+
+226
+0:13:01.33,000 --> 0:13:05,000
+RB: Alors elle se rend compte que l'attention du robot est portée sur elle.
+
+227
+0:13:08.33,000 --> 0:13:12,000
+Voix: Kismet, aimes-tu le jouet? Oh.
+
+228
+0:13:13.33,000 --> 0:13:15,000
+RB: Maintenant, voilà qu'on leur demande de prohiber le robot,
+
+229
+0:13:15.33,000 --> 0:13:19,000
+et cette première femme pousse vraiment le robot dans une impasse émotionnelle .
+
+230
+0:13:19.33,000 --> 0:13:24,000
+Voix: Non. Non. Tu ne dois pas faire ça. Non.
+
+231
+0:13:24.33,000 --> 0:13:27,000
+(Rires)
+
+232
+0:13:27.33,000 --> 0:13:33,000
+Voix: Ce n'est pas approprié. Non. Non.
+
+233
+0:13:33.33,000 --> 0:13:36,000
+(Rires)
+
+234
+0:13:36.33,000 --> 0:13:38,000
+RB: Je vais en rester là.
+
+235
+0:13:38.33,000 --> 0:13:4,000
+On met ça en place. Et puis on met en place le tour de rôle.
+
+236
+0:13:40.33,000 --> 0:13:43,000
+Quand nous parlons avec quelqu'un, nous parlons.
+
+237
+0:13:43.33,000 --> 0:13:47,000
+Alors, on lève les sourcils, on bouge nos yeux,
+
+238
+0:13:47.33,000 --> 0:13:5,000
+on donne à l'autre personne un signe pour lui dire que c'est à son tour de parler.
+
+239
+0:13:50.33,000 --> 0:13:54,000
+Et alors, elle se met à parler, et après on se passe le bâton.
+
+240
+0:13:54.33,000 --> 0:13:56,000
+Alors on intègre ça dans le robot.
+
+241
+0:13:56.33,000 --> 0:13:58,000
+On a fait entrer quelques simples cobayes,
+
+242
+0:13:58.33,000 --> 0:14:,000
+on ne leur a rien dit à propos du robot,
+
+243
+0:14:00.33,000 --> 0:14:02,000
+on les a fait asseoir en face du robot et dit, parlez au robot.
+
+244
+0:14:02.33,000 --> 0:14:04,000
+Alors maintenant, ce qu'ils ne savaient pas était,
+
+245
+0:14:04.33,000 --> 0:14:06,000
+que le robot ne comprenait pas un mot de ce qu'ils disaient,
+
+246
+0:14:06.33,000 --> 0:14:09,000
+et que le robot ne parlait pas anglais.
+
+247
+0:14:09.33,000 --> 0:14:11,000
+Il ne disait que des phonèmes anglais de manière aléatoire.
+
+248
+0:14:11.33,000 --> 0:14:13,000
+Et je veux que vous regardiez bien attentivement, au début,
+
+249
+0:14:13.33,000 --> 0:14:17,000
+le moment où cette personne, Ritchie, qui venait de parler pendant 25 minutes au robot --
+
+250
+0:14:17.33,000 --> 0:14:19,000
+(Rires)
+
+251
+0:14:19.33,000 --> 0:14:21,000
+-- dit, "J'aimerais te montrer quelque chose.
+
+252
+0:14:21.33,000 --> 0:14:23,000
+J'aimerais te montrer ma montre".
+
+253
+0:14:23.33,000 --> 0:14:28,000
+Et il amène la montre au centre, dans le champ de vision du robot,
+
+254
+0:14:28.33,000 --> 0:14:3,000
+il la montre au robot, lui donne un signal émotionnel,
+
+255
+0:14:30.33,000 --> 0:14:32,000
+et le robot regarde la montre assez efficacement.
+
+256
+0:14:32.33,000 --> 0:14:35,000
+Nous ne savons pas si il comprenait ou non que le robot --
+
+257
+0:14:36.33,000 --> 0:14:38,000
+Remarquez le passage de tour.
+
+258
+0:14:38.33,000 --> 0:14:41,000
+Ritchie: OK, je veux vous montrer quelque chose. OK, ceci est une montre
+
+259
+0:14:41.33,000 --> 0:14:44,000
+que ma petite amie ma donné.
+
+260
+0:14:44.33,000 --> 0:14:46,000
+Robot: Oh, cool.
+
+261
+0:14:46.33,000 --> 0:14:5,000
+Ritchie: Oui, regarde, il y a aussi une petite lumière bleue. J'ai presque failli la perdre cette semaine.
+
+262
+0:14:51.33,000 --> 0:14:55,000
+(Rires)
+
+263
+0:14:55.33,000 --> 0:14:58,000
+RB: Il garde le contact visuel avec lui, suivant ses yeux.
+
+264
+0:14:58.33,000 --> 0:15:,000
+Ritchie: Peux-tu faire la même chose? Robot: Oui, bien sur.
+
+265
+0:15:00.33,000 --> 0:15:02,000
+RB: Et ils réussient à avoir cette communication efficace.
+
+266
+0:15:02.33,000 --> 0:15:06,000
+Et voici un autre aspect du type de choses que Chris et moi faisions.
+
+267
+0:15:06.33,000 --> 0:15:08,000
+Voici un autre robot, Cog.
+
+268
+0:15:08.33,000 --> 0:15:14,000
+Ils ont établi un premier contact visuel, et après, quand Christie regarde son jouet,
+
+269
+0:15:14.33,000 --> 0:15:16,000
+le robot estime la direction de son regard
+
+270
+0:15:16.33,000 --> 0:15:18,000
+et regarde la même chose qu'elle regarde.
+
+271
+0:15:18.33,000 --> 0:15:19,000
+(Rires)
+
+272
+0:15:19.33,000 --> 0:15:22,000
+Nous allons voir de plus en plus de ce genre de robot
+
+273
+0:15:22.33,000 --> 0:15:24,000
+dans les laboratoires dans les années à venir.
+
+274
+0:15:24.33,000 --> 0:15:29,000
+Mais alors, les grandes questions, deux grandes questions que les gens me posent sont:
+
+275
+0:15:29.33,000 --> 0:15:31,000
+si on rend ces robots de plus en plus humains,
+
+276
+0:15:31.33,000 --> 0:15:36,000
+allons-nous les accepter, allons-nous -- auront-ils besoin de droits en fin de compte?
+
+277
+0:15:36.33,000 --> 0:15:39,000
+Et l'autre question que les gens me posent est, vont-ils prendre le pouvoir?
+
+278
+0:15:39.33,000 --> 0:15:4,000
+(Rires)
+
+279
+0:15:40.33,000 --> 0:15:43,000
+Et au début -- vous savez, ça a été un grand thème à Hollywood
+
+280
+0:15:43.33,000 --> 0:15:46,000
+avec de nombreux films. Vous reconnaissez probablement ces personnages --
+
+281
+0:15:46.33,000 --> 0:15:5,000
+où dans chacun de ces cas, les robots veulent plus de respect.
+
+282
+0:15:50.33,000 --> 0:15:53,000
+Et bien, avez-vous jamais besoin de donner du respect aux robots?
+
+283
+0:15:54.33,000 --> 0:15:56,000
+Après tout, ce ne sont que des machines.
+
+284
+0:15:56.33,000 --> 0:16:,000
+Mais je pense, vous savez, nous devons accepter le fait que nous ne sommes que des machines.
+
+285
+0:16:00.33,000 --> 0:16:05,000
+Après tout, c'est surement ce que dit la biologie moléculaire à propos de nous.
+
+286
+0:16:05.33,000 --> 0:16:08,000
+Vous ne voyez pas de description de comment,
+
+287
+0:16:08.33,000 --> 0:16:12,000
+la molécule A vient par là et s'amarre avec cette autre molécule.
+
+288
+0:16:12.33,000 --> 0:16:15,000
+Et ça avance, propulsé par différentes charges,
+
+289
+0:16:15.33,000 --> 0:16:19,000
+et alors l'âme entre en jeu et vient tirer ces molécules pour qu'elles se connectent.
+
+290
+0:16:19.33,000 --> 0:16:22,000
+Tout cela est mécanique, nous sommes des mécanismes.
+
+291
+0:16:22.33,000 --> 0:16:25,000
+Si nous sommes des machines, alors en principe du moins,
+
+292
+0:16:25.33,000 --> 0:16:29,000
+nous devrions être capable de construire des machines avec d'autres trucs,
+
+293
+0:16:29.33,000 --> 0:16:33,000
+qui sont au moins aussi vivant que nous le sommes.
+
+294
+0:16:33.33,000 --> 0:16:35,000
+Mais je pense que pour que nous admettions cela,
+
+295
+0:16:35.33,000 --> 0:16:38,000
+nous devons abandonner notre caractère spécial, d'une certaine façon.
+
+296
+0:16:38.33,000 --> 0:16:4,000
+Et nous avons à de nombreuses reprises perdu contact avec cette spécificité
+
+297
+0:16:40.33,000 --> 0:16:43,000
+sous les assauts de la science et de la technologie
+
+298
+0:16:43.33,000 --> 0:16:45,000
+durant les cent dernières années, au moins.
+
+299
+0:16:45.33,000 --> 0:16:47,000
+Il y a 500 ans, nous avons dû abandonner l'idée
+
+300
+0:16:47.33,000 --> 0:16:5,000
+selon laquelle nous étions le centre de l'univers
+
+301
+0:16:50.33,000 --> 0:16:52,000
+quand la terre commenca à tourner autour du soleil;
+
+302
+0:16:52.33,000 --> 0:16:57,000
+il y a 150 ans, avec Darwin, nous avons dû abandonner l'idée selon laquelle nous étions différents des animaux.
+
+303
+0:16:57.33,000 --> 0:17:,000
+Et pour imaginer -- , c'est toujours difficile pour nous.
+
+304
+0:17:00.33,000 --> 0:17:03,000
+Vous voyez, récemment nous avons été matraqué par l'idée que peut être
+
+305
+0:17:03.33,000 --> 0:17:05,000
+nous n'avions même pas eu notre propre acte de création, ici sur Terre,
+
+306
+0:17:05.33,000 --> 0:17:08,000
+ce que les gens n'aimaient pas beaucoup. Et puis le génome humain a dit,
+
+307
+0:17:08.33,000 --> 0:17:11,000
+peut-être n'avons-nous seulement que 35,000 gènes. Et ce fut vraiment --
+
+308
+0:17:11.33,000 --> 0:17:14,000
+les gens n'aimaient pas ça, nous avons plus de gènes que ça.
+
+309
+0:17:14.33,000 --> 0:17:17,000
+Nous n'aimons pas abandonner notre spécificité, alors
+
+310
+0:17:17.33,000 --> 0:17:19,000
+l'idée que les robots puissent ressentir des émotions,
+
+311
+0:17:19.33,000 --> 0:17:21,000
+ou que les robots puissent être des créatures vivantes --
+
+312
+0:17:21.33,000 --> 0:17:23,000
+je pense que ça va être dur pour nous de l'accepter.
+
+313
+0:17:23.33,000 --> 0:17:27,000
+Mais nous finirons bien par l'accepter au cours des 50 prochaines années.
+
+314
+0:17:27.33,000 --> 0:17:3,000
+Et la seconde question est, les machines veulent-elles prendre le pouvoir?
+
+315
+0:17:30.33,000 --> 0:17:35,000
+Et pour cela, le scénario classique est que nous créons ces choses,
+
+316
+0:17:35.33,000 --> 0:17:38,000
+elles se développent, on les élève, elles apprennent beaucoup grâce à nous,
+
+317
+0:17:38.33,000 --> 0:17:42,000
+et alors elles commencent à décider que nous sommes trop ennuyeux, lents.
+
+318
+0:17:42.33,000 --> 0:17:44,000
+Elles veulent nous prendre le pouvoir.
+
+319
+0:17:44.33,000 --> 0:17:47,000
+Et pour ceux d'entre vous qui sont parents d'adolescents, vous savez ce que c'est.
+
+320
+0:17:47.33,000 --> 0:17:48,000
+(Rires)
+
+321
+0:17:48.33,000 --> 0:17:51,000
+Mais Hollywood l'élargit aux robots.
+
+322
+0:17:51.33,000 --> 0:17:54,000
+Et la question est,
+
+323
+0:17:54.33,000 --> 0:17:58,000
+quelqu'un va-t-il construire accidentellement un robot qui nous prendra le pouvoir?
+
+324
+0:17:58.33,000 --> 0:18:01,000
+Et c'est un peu l'histoire du mec solidaire au fond de son jardin,
+
+325
+0:18:01.33,000 --> 0:18:04,000
+et, "J'ai accidentellement construit un 747."
+
+326
+0:18:04.33,000 --> 0:18:06,000
+Vous voyez, je ne pense que ça va se produire.
+
+327
+0:18:06.33,000 --> 0:18:08,000
+Et je ne pense pas --
+
+328
+0:18:08.33,000 --> 0:18:09,000
+(Rires)
+
+329
+0:18:09.33,000 --> 0:18:12,000
+-- Je ne pense pas que nous allons construire sans faire exprès des robots
+
+330
+0:18:12.33,000 --> 0:18:14,000
+avec lesquels nous ne serions pas à l'aise.
+
+331
+0:18:14.33,000 --> 0:18:16,000
+Nous allons -- vous savez, on n'aura pas un robot très méchant.
+
+332
+0:18:16.33,000 --> 0:18:19,000
+Avant ça, un robot moyennement méchant devra faire son apparition,
+
+333
+0:18:19.33,000 --> 0:18:21,000
+et encore avant lui, un robot pas si méchant que ça.
+
+334
+0:18:21.33,000 --> 0:18:22,000
+(Rires)
+
+335
+0:18:22.33,000 --> 0:18:24,000
+Et nous n'allons pas laisser les choses se passer de cette façon.
+
+336
+0:18:24.33,000 --> 0:18:25,000
+(Rires)
+
+337
+0:18:25.33,000 --> 0:18:31,000
+Alors, je pense que je vais conclure là dessus: les robots arrivent,
+
+338
+0:18:31.33,000 --> 0:18:34,000
+nous n'avons pas tellement d'inquiètudes à avoir, ça va être très marrant,
+
+339
+0:18:34.33,000 --> 0:18:38,000
+et j'espère que vous allez tous apprécier le voyage pendant ces 50 prochaines années.
+
+340
+0:18:38.33,000 --> 0:18:4,000
+(Applaudissements)
+

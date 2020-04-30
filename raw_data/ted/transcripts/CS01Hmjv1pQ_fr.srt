@@ -1,0 +1,976 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elisabeth Buffard Relecteur: Timothée Parrique
+
+2
+0:00:15.26,000 --> 0:00:18,000
+L'idée derrière le ver informatique Stuxnet
+
+3
+0:00:18.26,000 --> 0:00:2,000
+est en fait très simple.
+
+4
+0:00:20.26,000 --> 0:00:23,000
+Nous ne voulons pas que l'Iran ait la Bombe.
+
+5
+0:00:23.26,000 --> 0:00:26,000
+Leur atout majeur pour développer des armes nucléaires
+
+6
+0:00:26.26,000 --> 0:00:3,000
+est l'usine d'enrichissement d'uranium Natanz.
+
+7
+0:00:30.26,000 --> 0:00:32,000
+Les boites grises que vous voyez,
+
+8
+0:00:32.26,000 --> 0:00:35,000
+ce sont des systèmes de contrôle en temps réel.
+
+9
+0:00:35.26,000 --> 0:00:38,000
+Et si on arrive à compromettre ces systèmes
+
+10
+0:00:38.26,000 --> 0:00:41,000
+qui contrôlent la vitesse des disques et les valves
+
+11
+0:00:41.26,000 --> 0:00:44,000
+nous pouvons en fait causer beaucoup de problèmes
+
+12
+0:00:44.26,000 --> 0:00:46,000
+à la centrifugeuse.
+
+13
+0:00:46.26,000 --> 0:00:48,000
+Les boites grises ne tournent pas sous Windows ;
+
+14
+0:00:48.26,000 --> 0:00:51,000
+c'est une technologie complètement différente.
+
+15
+0:00:51.26,000 --> 0:00:53,000
+Mais si nous parvenons
+
+16
+0:00:53.26,000 --> 0:00:56,000
+à placer un bon virus Windows
+
+17
+0:00:56.26,000 --> 0:00:58,000
+dans un portable
+
+18
+0:00:58.26,000 --> 0:01:,000
+utilisé par un ingénieur
+
+19
+0:01:00.26,000 --> 0:01:03,000
+pour configurer cette boite grise,
+
+20
+0:01:03.26,000 --> 0:01:05,000
+alors on est bon.
+
+21
+0:01:05.26,000 --> 0:01:08,000
+Et c'est le scénario derrière Stuxnet.
+
+22
+0:01:08.26,000 --> 0:01:13,000
+Donc nous commençons par un dropper Windows.
+
+23
+0:01:13.26,000 --> 0:01:16,000
+La charge utile va dans la boite grise,
+
+24
+0:01:16.26,000 --> 0:01:18,000
+endommage la centrifugeuse,
+
+25
+0:01:18.26,000 --> 0:01:2,000
+et le programme nucléaire iranien est retardé --
+
+26
+0:01:20.26,000 --> 0:01:22,000
+mission accomplie.
+
+27
+0:01:22.26,000 --> 0:01:24,000
+C'est facile, non?
+
+28
+0:01:24.26,000 --> 0:01:27,000
+Je veux vous dire comment nous avons découvert ça.
+
+29
+0:01:27.26,000 --> 0:01:3,000
+Quand nous avons commencé nos recherches sur Stuxnet il y a 6 mois,
+
+30
+0:01:30.26,000 --> 0:01:33,000
+on ignorait complètement le but de la chose.
+
+31
+0:01:33.26,000 --> 0:01:35,000
+La seule chose qu'on savait
+
+32
+0:01:35.26,000 --> 0:01:38,000
+est très très complexe dans la partie Windows, la partie du dropper,
+
+33
+0:01:38.26,000 --> 0:01:41,000
+elle utilisait de multiples vulnérabilités à jour zéro.
+
+34
+0:01:41.26,000 --> 0:01:44,000
+Et ce dropper semblait vouloir faire quelque chose
+
+35
+0:01:44.26,000 --> 0:01:46,000
+avec ces boites grises, ces systèmes de contrôle en temps réel.
+
+36
+0:01:46.26,000 --> 0:01:48,000
+Cela a donc attiré notre attention,
+
+37
+0:01:48.26,000 --> 0:01:5,000
+et nous avons entrepris un projet de laboratoire
+
+38
+0:01:50.26,000 --> 0:01:54,000
+dans lequel nous avons infecté notre environnement avec Stuxnet
+
+39
+0:01:54.26,000 --> 0:01:56,000
+et examiner ce truc.
+
+40
+0:01:56.26,000 --> 0:01:59,000
+Et puis il s'est passé de très drôles de choses.
+
+41
+0:01:59.26,000 --> 0:02:02,000
+Stuxnet s'est comporté comme un rat de laboratoire
+
+42
+0:02:02.26,000 --> 0:02:05,000
+qui n'aimait pas notre fromage --
+
+43
+0:02:05.26,000 --> 0:02:07,000
+il le reniflait, mais il ne voulait pas le manger.
+
+44
+0:02:07.26,000 --> 0:02:09,000
+Pour moi, ça n'avait pas de sens.
+
+45
+0:02:09.26,000 --> 0:02:12,000
+Et après que nous ayons expérimenté avec différents parfums de fromage,
+
+46
+0:02:12.26,000 --> 0:02:16,000
+je me suis rendu compte, et bien que c'est une attaque dirigée.
+
+47
+0:02:16.26,000 --> 0:02:18,000
+Elle est complètement dirigée.
+
+48
+0:02:18.26,000 --> 0:02:2,000
+Le dropper rôde activement
+
+49
+0:02:20.26,000 --> 0:02:22,000
+dans la boite grise
+
+50
+0:02:22.26,000 --> 0:02:25,000
+si il trouve une configuration spécifique,
+
+51
+0:02:25.26,000 --> 0:02:29,000
+et même si le programme même qu'il essaye d'infecter
+
+52
+0:02:29.26,000 --> 0:02:31,000
+est ouvert sur cette cible.
+
+53
+0:02:31.26,000 --> 0:02:34,000
+Dans le cas contraire, Stuxnet ne fait rien.
+
+54
+0:02:34.26,000 --> 0:02:36,000
+Cela a donc vraiment retenu mon attention,
+
+55
+0:02:36.26,000 --> 0:02:38,000
+et nous avons commencé à travailler là dessus
+
+56
+0:02:38.26,000 --> 0:02:4,000
+presque en permanence,
+
+57
+0:02:40.26,000 --> 0:02:43,000
+parce que je pensais, nous ne savons pas quelle est la cible.
+
+58
+0:02:43.26,000 --> 0:02:45,000
+Elle pourrait être, disons par exemple,
+
+59
+0:02:45.26,000 --> 0:02:47,000
+une centrale aux Etats-Unis,
+
+60
+0:02:47.26,000 --> 0:02:49,000
+ou une usine chimique en Allemagne.
+
+61
+0:02:49.26,000 --> 0:02:52,000
+Il valait donc mieux que nous trouvions rapidement quelle était la cible .
+
+62
+0:02:52.26,000 --> 0:02:54,000
+Nous avons donc extrait et décompilé
+
+63
+0:02:54.26,000 --> 0:02:56,000
+le code d'attaque,
+
+64
+0:02:56.26,000 --> 0:02:59,000
+et nous avons découvert qu'il est structuré en deux bombes numériques --
+
+65
+0:02:59.26,000 --> 0:03:02,000
+une plus petite et une plus grande.
+
+66
+0:03:02.26,000 --> 0:03:06,000
+Et nous avons vu aussi qu'elles sont conçues de façon très professionnelle
+
+67
+0:03:06.26,000 --> 0:03:1,000
+par des gens qui avaient évidemment des informations de l'intérieur.
+
+68
+0:03:10.26,000 --> 0:03:12,000
+Ils connaissaient tous les détails et les octets
+
+69
+0:03:12.26,000 --> 0:03:14,000
+qu'ils devaient attaquer.
+
+70
+0:03:14.26,000 --> 0:03:17,000
+Ils connaissaient sans doute même la pointure de l'administrateur.
+
+71
+0:03:17.26,000 --> 0:03:19,000
+Ils savent donc tout.
+
+72
+0:03:19.26,000 --> 0:03:22,000
+Et si vous avez entendu dire que le dropper de Stuxnet
+
+73
+0:03:22.26,000 --> 0:03:24,000
+est complexe et high-tech,
+
+74
+0:03:24.26,000 --> 0:03:26,000
+permettez-moi de vous dire ceci ;
+
+75
+0:03:26.26,000 --> 0:03:28,000
+la charge utile, c'est du très haut niveau.
+
+76
+0:03:28.26,000 --> 0:03:3,000
+C'est bien au dessus de tout
+
+77
+0:03:30.26,000 --> 0:03:33,000
+ce que nous avons vu auparavant.
+
+78
+0:03:33.26,000 --> 0:03:36,000
+Vous voyez ici un échantillon du code d'attaque même.
+
+79
+0:03:36.26,000 --> 0:03:38,000
+Nous parlons de --
+
+80
+0:03:38.26,000 --> 0:03:41,000
+environ 15000 lignes de code.
+
+81
+0:03:41.26,000 --> 0:03:44,000
+Ca ressemble assez à du langage d'assembleur à l'ancienne.
+
+82
+0:03:44.26,000 --> 0:03:46,000
+Et je veux vous dire comment nous avons été en mesure
+
+83
+0:03:46.26,000 --> 0:03:48,000
+de comprendre ce code.
+
+84
+0:03:48.26,000 --> 0:03:51,000
+Donc ce que nous cherchions c'est d'abord les appels de fonctions système,
+
+85
+0:03:51.26,000 --> 0:03:53,000
+parce que nous savons ce qu'ils font.
+
+86
+0:03:53.26,000 --> 0:03:57,000
+Et ensuite nous cherchions les minuteurs et les structures de données
+
+87
+0:03:57.26,000 --> 0:03:59,000
+et nous essayions de les mettre en relation avec le monde réel --
+
+88
+0:03:59.26,000 --> 0:04:01,000
+avec des cibles potentielles du monde réel.
+
+89
+0:04:01.26,000 --> 0:04:04,000
+Nous avons donc besoin de théories de cibles
+
+90
+0:04:04.26,000 --> 0:04:07,000
+que nous pouvons prouver ou réfuter.
+
+91
+0:04:07.26,000 --> 0:04:09,000
+Pour obtenir ces théories de cibles,
+
+92
+0:04:09.26,000 --> 0:04:11,000
+nous nous souvenons
+
+93
+0:04:11.26,000 --> 0:04:13,000
+que c'est vraiment du sabotage hardcore,
+
+94
+0:04:13.26,000 --> 0:04:15,000
+ce doit être une cible de grande valeur,
+
+95
+0:04:15.26,000 --> 0:04:18,000
+et c'est le plus vraisemblablement situé en Iran,
+
+96
+0:04:18.26,000 --> 0:04:22,000
+parce que c'est là que la plupart des infections ont été signalées.
+
+97
+0:04:22.26,000 --> 0:04:25,000
+On ne trouve pas plusieurs milliers de cibles dans cette zone.
+
+98
+0:04:25.26,000 --> 0:04:27,000
+Ca se réduit en gros
+
+99
+0:04:27.26,000 --> 0:04:29,000
+à la centrale nucléaire de Bushehr
+
+100
+0:04:29.26,000 --> 0:04:31,000
+et à l'usine d'enrichissement d'uranium de Natanz.
+
+101
+0:04:31.26,000 --> 0:04:33,000
+Alors j'ai dit à mon assistant,
+
+102
+0:04:33.26,000 --> 0:04:36,000
+" Trouve moi une liste de tous les experts en centrifugeuses et centrales électriques dans notre base de clients."
+
+103
+0:04:36.26,000 --> 0:04:38,000
+Et je leur ai téléphoné et je les ai sollicités
+
+104
+0:04:38.26,000 --> 0:04:4,000
+dans un effort d'associer leur expertise
+
+105
+0:04:40.26,000 --> 0:04:43,000
+à ce que nous avons trouvé dans le code et les données.
+
+106
+0:04:43.26,000 --> 0:04:45,000
+Et ça a plutôt bien marché.
+
+107
+0:04:45.26,000 --> 0:04:47,000
+Nous avons donc été en mesure d'associer
+
+108
+0:04:47.26,000 --> 0:04:49,000
+la petite ogive numérique
+
+109
+0:04:49.26,000 --> 0:04:51,000
+au contrôle du rotor.
+
+110
+0:04:51.26,000 --> 0:04:54,000
+Le rotor est cette partie mobile dans la centrifugeuse,
+
+111
+0:04:54.26,000 --> 0:04:56,000
+cet objet noir que vous voyez.
+
+112
+0:04:56.26,000 --> 0:04:59,000
+Et si vous manipulez la vitesse de ce rotor,
+
+113
+0:04:59.26,000 --> 0:05:01,000
+vous êtes en fait capable de craquer votre rotor
+
+114
+0:05:01.26,000 --> 0:05:05,000
+et finalement faire même exploser la centifugeuse.
+
+115
+0:05:05.26,000 --> 0:05:07,000
+Ce que nous avons vu aussi
+
+116
+0:05:07.26,000 --> 0:05:09,000
+c'est que le but de l'attaque
+
+117
+0:05:09.26,000 --> 0:05:12,000
+était vraiment qu'elle soit lente et progressive --
+
+118
+0:05:12.26,000 --> 0:05:14,000
+dans un effort évident
+
+119
+0:05:14.26,000 --> 0:05:17,000
+de rendre les techniciens de maintenance fous,
+
+120
+0:05:17.26,000 --> 0:05:2,000
+et qu'ils ne soit pas en mesure de comprendre rapidement ce qui se passe.
+
+121
+0:05:20.26,000 --> 0:05:23,000
+La grande ogive numérique -- nous avons essayé
+
+122
+0:05:23.26,000 --> 0:05:25,000
+en regardant de très près
+
+123
+0:05:25.26,000 --> 0:05:27,000
+les données et leurs structures.
+
+124
+0:05:27.26,000 --> 0:05:29,000
+Donc par exemple, le chiffre 164
+
+125
+0:05:29.26,000 --> 0:05:31,000
+ressort vraiment dans ce code ;
+
+126
+0:05:31.26,000 --> 0:05:33,000
+on ne peut pas ne pas le voir.
+
+127
+0:05:33.26,000 --> 0:05:35,000
+J'ai entrepris des recherches dans la littérature scientifique
+
+128
+0:05:35.26,000 --> 0:05:37,000
+sur la façon dont ces centrifugeuses
+
+129
+0:05:37.26,000 --> 0:05:39,000
+sont en fait construites à Natanz
+
+130
+0:05:39.26,000 --> 0:05:41,000
+et j'ai trouvé qu'elles sont structurées
+
+131
+0:05:41.26,000 --> 0:05:43,000
+en ce qu'on appelle une cascade,
+
+132
+0:05:43.26,000 --> 0:05:47,000
+et chaque cascade contient 164 centrifugeuses.
+
+133
+0:05:47.26,000 --> 0:05:49,000
+Cela prend donc tout son sens, ça colle.
+
+134
+0:05:49.26,000 --> 0:05:51,000
+Et c'est encore mieux ensuite.
+
+135
+0:05:51.26,000 --> 0:05:53,000
+Ces centrifugeuses en Iran
+
+136
+0:05:53.26,000 --> 0:05:57,000
+sont subdivisées en 15 stades
+
+137
+0:05:57.26,000 --> 0:05:59,000
+Et devinez ce qu'on a trouvé dans le code d'attaque?
+
+138
+0:05:59.26,000 --> 0:06:01,000
+Une structure quasiment identique.
+
+139
+0:06:01.26,000 --> 0:06:04,000
+Donc là encore, ça colle vraiment bien.
+
+140
+0:06:04.26,000 --> 0:06:07,000
+Et ça nous a donné une très grande confiance dans ce que nous avions sous les yeux.
+
+141
+0:06:07.26,000 --> 0:06:1,000
+Ne me faites pas dire ce que je n'ai pas dit, ça ne s'est pas fait si facilement.
+
+142
+0:06:10.26,000 --> 0:06:13,000
+On a obtenu ces résultats
+
+143
+0:06:13.26,000 --> 0:06:16,000
+sur plusieurs semaines de travail très dur.
+
+144
+0:06:16.26,000 --> 0:06:19,000
+Et nous sommes souvent tombés sur des impasses
+
+145
+0:06:19.26,000 --> 0:06:21,000
+et il a fallu nous en remettre.
+
+146
+0:06:21.26,000 --> 0:06:23,000
+Mais bon , nous avons donc compris
+
+147
+0:06:23.26,000 --> 0:06:25,000
+que les deux ogives numériques
+
+148
+0:06:25.26,000 --> 0:06:27,000
+visaient en fait une seule et même cible,
+
+149
+0:06:27.26,000 --> 0:06:29,000
+mais sous des angles différents.
+
+150
+0:06:29.26,000 --> 0:06:32,000
+La petite ogive s'attaque à une cascade,
+
+151
+0:06:32.26,000 --> 0:06:35,000
+et elle accélère les rotors puis les ralentit,
+
+152
+0:06:35.26,000 --> 0:06:37,000
+et la grande ogive
+
+153
+0:06:37.26,000 --> 0:06:39,000
+s'adresse à 6 cascades
+
+154
+0:06:39.26,000 --> 0:06:41,000
+et elle manipule les valves.
+
+155
+0:06:41.26,000 --> 0:06:43,000
+Donc dans l'ensemble, nous sommes très confiants
+
+156
+0:06:43.26,000 --> 0:06:45,000
+d'avoir en fait déterminé quelle est la cible.
+
+157
+0:06:45.26,000 --> 0:06:48,000
+C'est Natanz, et Natanz seulement.
+
+158
+0:06:48.26,000 --> 0:06:5,000
+Nous n'avons donc pas à nous inquiéter
+
+159
+0:06:50.26,000 --> 0:06:52,000
+que d'autres cibles
+
+160
+0:06:52.26,000 --> 0:06:54,000
+puissent être frappées par Stuxnet.
+
+161
+0:06:54.26,000 --> 0:06:57,000
+Voici certains des trucs très chouettes que nous avons vu --
+
+162
+0:06:57.26,000 --> 0:06:59,000
+ça m'a vraiment frappé.
+
+163
+0:06:59.26,000 --> 0:07:01,000
+Là en bas il y a une boite grise,
+
+164
+0:07:01.26,000 --> 0:07:04,000
+et en haut vous voyez les centrifugeuses.
+
+165
+0:07:04.26,000 --> 0:07:06,000
+Et ce que ce truc fait
+
+166
+0:07:06.26,000 --> 0:07:09,000
+c'est qu'il intercepte les valeurs des input des capteurs --
+
+167
+0:07:09.26,000 --> 0:07:11,000
+donc par exemple, des capteurs de pression
+
+168
+0:07:11.26,000 --> 0:07:13,000
+et des capteurs de vibrations --
+
+169
+0:07:13.26,000 --> 0:07:16,000
+et il fournit du code légitime,
+
+170
+0:07:16.26,000 --> 0:07:18,000
+qui tourne toujours pendant l'attaque,
+
+171
+0:07:18.26,000 --> 0:07:2,000
+avec de fausses données d'input.
+
+172
+0:07:20.26,000 --> 0:07:22,000
+Et en fait, ces fausses données d'input
+
+173
+0:07:22.26,000 --> 0:07:25,000
+sont en fait préenregistrées dans Stuxnet.
+
+174
+0:07:25.26,000 --> 0:07:27,000
+Donc c'est comme dans les films hollywoodiens
+
+175
+0:07:27.26,000 --> 0:07:29,000
+quand pendant le holp-up
+
+176
+0:07:29.26,000 --> 0:07:32,000
+la caméra de surveillance reçoit des images vidéo préenregistrées.
+
+177
+0:07:32.26,000 --> 0:07:34,000
+C'est chouette, non?
+
+178
+0:07:35.26,000 --> 0:07:37,000
+Il est évident que l'idée ici n'est pas seulement
+
+179
+0:07:37.26,000 --> 0:07:4,000
+de tromper les opérateurs dans la salle de contrôle
+
+180
+0:07:40.26,000 --> 0:07:44,000
+Elle est en fait plus dangereuse et agressive.
+
+181
+0:07:44.26,000 --> 0:07:46,000
+L'idée
+
+182
+0:07:46.26,000 --> 0:07:49,000
+est de contourner un système de sécurité numérique.
+
+183
+0:07:50.26,000 --> 0:07:52,000
+Nous avons besoin de systèmes de sécurité numériques
+
+184
+0:07:52.26,000 --> 0:07:55,000
+là où un opérateur humain ne pourrait pas agir assez rapidement.
+
+185
+0:07:55.26,000 --> 0:07:57,000
+Donc, par exemple, dans une centrale,
+
+186
+0:07:57.26,000 --> 0:08:,000
+quand la grosse turbine à vapeur dépasse la vitesse limite,
+
+187
+0:08:00.26,000 --> 0:08:03,000
+il vaut ouvrir les vannes de délestage en une milliseconde.
+
+188
+0:08:03.26,000 --> 0:08:06,000
+Il est évident que ça ne peut pas être fait par un opérateur humain.
+
+189
+0:08:06.26,000 --> 0:08:08,000
+C'est donc là que nous avons besoin de systèmes de sécurité numériques.
+
+190
+0:08:08.26,000 --> 0:08:1,000
+Et quand ils sont compromis,
+
+191
+0:08:10.26,000 --> 0:08:13,000
+alors ça peut vraiment mal tourné.
+
+192
+0:08:13.26,000 --> 0:08:15,000
+Votre centrale peut exploser.
+
+193
+0:08:15.26,000 --> 0:08:18,000
+Et ni vos opérateurs ni votre système de sécurité ne s'en apercevront.
+
+194
+0:08:18.26,000 --> 0:08:2,000
+C'est effrayant.
+
+195
+0:08:20.26,000 --> 0:08:22,000
+Mais il y a pire.
+
+196
+0:08:22.26,000 --> 0:08:25,000
+Et c'est très important, ce que je vais dire,
+
+197
+0:08:25.26,000 --> 0:08:27,000
+Réfléchissez-y.
+
+198
+0:08:27.26,000 --> 0:08:3,000
+Cette attaque est générique.
+
+199
+0:08:30.26,000 --> 0:08:34,000
+Elle n'a rien à voir, dans les détails,
+
+200
+0:08:34.26,000 --> 0:08:36,000
+avec les centrifugeuses,
+
+201
+0:08:36.26,000 --> 0:08:39,000
+avec l'uranium enrichi.
+
+202
+0:08:39.26,000 --> 0:08:42,000
+Donc, elle marcherait aussi bien, par exemple,
+
+203
+0:08:42.26,000 --> 0:08:44,000
+dans une centrale
+
+204
+0:08:44.26,000 --> 0:08:47,000
+ou dans une usine de construction automobile.
+
+205
+0:08:47.26,000 --> 0:08:49,000
+Elle est générique.
+
+206
+0:08:49.26,000 --> 0:08:51,000
+Et vous n'avez pas -- en tant qu'attaquant --
+
+207
+0:08:51.26,000 --> 0:08:54,000
+vous n'avez pas besoin d'introduire la charge utile
+
+208
+0:08:54.26,000 --> 0:08:56,000
+à l'aide d'une clé USB,
+
+209
+0:08:56.26,000 --> 0:08:58,000
+comme nous l'avons vu dans le cas de Stuxnet.
+
+210
+0:08:58.26,000 --> 0:09:01,000
+Vous pourriez aussi employer un ver conventionnel pour le répandre.
+
+211
+0:09:01.26,000 --> 0:09:04,000
+Simplement le répandre aussi largement que possible.
+
+212
+0:09:04.26,000 --> 0:09:06,000
+Et si vous le faites,
+
+213
+0:09:06.26,000 --> 0:09:08,000
+vous vous retrouvez avec
+
+214
+0:09:08.26,000 --> 0:09:13,000
+une cyber arme de destruction massive.
+
+215
+0:09:14.26,000 --> 0:09:16,000
+C'est la conséquence
+
+216
+0:09:16.26,000 --> 0:09:19,000
+à laquelle nous devons faire face.
+
+217
+0:09:19.26,000 --> 0:09:22,000
+Donc malheureusement,
+
+218
+0:09:22.26,000 --> 0:09:25,000
+le plus grand nombre de cibles pour de telles attaques
+
+219
+0:09:25.26,000 --> 0:09:27,000
+n'est pas au Moyen-Orient.
+
+220
+0:09:27.26,000 --> 0:09:3,000
+C'est en Europe, au Etats-Unis et au Japon.
+
+221
+0:09:30.26,000 --> 0:09:32,000
+Donc toutes les zones en vert,
+
+222
+0:09:32.26,000 --> 0:09:35,000
+ce sont les environnements riches en cibles.
+
+223
+0:09:35.26,000 --> 0:09:38,000
+Nous devons faire face aux conséquences,
+
+224
+0:09:38.26,000 --> 0:09:41,000
+et nous ferions mieux de commencer à nous y préparer dès maintenant.
+
+225
+0:09:41.26,000 --> 0:09:43,000
+Merci.
+
+226
+0:09:43.26,000 --> 0:09:49,000
+(Applaudissements)
+
+227
+0:09:49.26,000 --> 0:09:51,000
+Chris Anderson : J'ai une question.
+
+228
+0:09:53.26,000 --> 0:09:55,000
+Ralph, on a beaucoup dit
+
+229
+0:09:55.26,000 --> 0:09:57,000
+que les gens pensent que le Mossad
+
+230
+0:09:57.26,000 --> 0:09:59,000
+est la principale entité derrière ça.
+
+231
+0:09:59.26,000 --> 0:10:02,000
+Est-ce votre opinion?
+
+232
+0:10:02.26,000 --> 0:10:04,000
+Ralph Langner : Bon, vous voulez vraiment entendre ça?
+
+233
+0:10:04.26,000 --> 0:10:06,000
+Oui, Bon.
+
+234
+0:10:06.26,000 --> 0:10:09,000
+Mon opinion, c'est que le Mossad est impliqué,
+
+235
+0:10:09.26,000 --> 0:10:12,000
+mais que la puissance principale n'est pas Israel.
+
+236
+0:10:12.26,000 --> 0:10:14,000
+La force principale derrière ça est donc
+
+237
+0:10:14.26,000 --> 0:10:17,000
+la cyber superpuissance.
+
+238
+0:10:17.26,000 --> 0:10:19,000
+Il n'y en a qu'une,
+
+239
+0:10:19.26,000 --> 0:10:21,000
+et ce sont les Etats-Unis --
+
+240
+0:10:21.26,000 --> 0:10:23,000
+heureusement, heureusement.
+
+241
+0:10:23.26,000 --> 0:10:25,000
+PArce qu'autrement,
+
+242
+0:10:25.26,000 --> 0:10:28,000
+nos problèmes seraient encore plus grands.
+
+243
+0:10:28.26,000 --> 0:10:32,000
+CA : merci de nous avoir terrifiés. Merci Ralph.
+
+244
+0:10:32.26,000 --> 0:10:34,000
+(Applaudissements)
+

@@ -1,0 +1,414 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: eric vautier Relecteur: Nhu PHAM
+
+2
+0:00:12.899,000 --> 0:00:15,000
+L'intelligence -- qu'est-ce que c'est?
+
+3
+0:00:16.566,000 --> 0:00:18,000
+Si nous jetons un œil à l'histoire
+
+4
+0:00:18.857,000 --> 0:00:2,000
+de la façon dont l'intelligence a été vue,
+
+5
+0:00:21.481,000 --> 0:00:24,000
+un exemple précurseur fut
+
+6
+0:00:25.099,000 --> 0:00:28,000
+la célèbre citation d'Edsger Dijkstra disant que
+
+7
+0:00:28.576,000 --> 0:00:31,000
+la question « Une machine peut-elle penser ? »
+
+8
+0:00:31.687,000 --> 0:00:32,000
+est à peu près aussi intéressante
+
+9
+0:00:32.997,000 --> 0:00:34,000
+que la question « Un sous-marin
+
+10
+0:00:35.968,000 --> 0:00:36,000
+peut-il nager ? »
+
+11
+0:00:37.758,000 --> 0:00:4,000
+Edsger Dijkstra, en l'écrivant,
+
+12
+0:00:41.602,000 --> 0:00:43,000
+la dirigeait comme une critique
+
+13
+0:00:43.656,000 --> 0:00:46,000
+des pionniers des sciences informatiques,
+
+14
+0:00:46.656,000 --> 0:00:47,000
+comme Alan Turing.
+
+15
+0:00:48.403,000 --> 0:00:5,000
+Cependant, si vous prenez du recul
+
+16
+0:00:50.902,000 --> 0:00:51,000
+et pensez à ce qu'étaient
+
+17
+0:00:52.867,000 --> 0:00:53,000
+les innovations les plus puissantes
+
+18
+0:00:54.863,000 --> 0:00:55,000
+qui nous ont permis de construire
+
+19
+0:00:56.742,000 --> 0:00:58,000
+des machine artificielles sachant nager
+
+20
+0:00:58.976,000 --> 0:01:,000
+et des machines artificielles sachant voler,
+
+21
+0:01:01.549,000 --> 0:01:04,000
+vous trouvez que ce fut uniquement à travers
+
+22
+0:01:05.096,000 --> 0:01:07,000
+la compréhension des mécanismes physiques sous-jacents
+
+23
+0:01:07.704,000 --> 0:01:09,000
+de la nage et du vol
+
+24
+0:01:10.483,000 --> 0:01:13,000
+que nous avons pu construire ces machines.
+
+25
+0:01:13.655,000 --> 0:01:15,000
+Donc, il y a plusieurs années,
+
+26
+0:01:15.911,000 --> 0:01:18,000
+j'ai entrepris un programme pour essayer de comprendre
+
+27
+0:01:19.16,000 --> 0:01:21,000
+les mécanismes physiques fondamentaux
+
+28
+0:01:21.794,000 --> 0:01:23,000
+sous-jacents à l'intelligence.
+
+29
+0:01:24.562,000 --> 0:01:25,000
+Prenons du recul.
+
+30
+0:01:26.422,000 --> 0:01:29,000
+Commençons tout d'abord avec une expérience de pensée.
+
+31
+0:01:29.571,000 --> 0:01:31,000
+Supposons que vous êtes une race extra-terrestre
+
+32
+0:01:32.425,000 --> 0:01:35,000
+qui ne sait rien ni de la biologie terrestre
+
+33
+0:01:35.466,000 --> 0:01:38,000
+ni des neurosciences terrestres ou encore de l'intelligence terrestre,
+
+34
+0:01:38.582,000 --> 0:01:4,000
+mais vous avez des télescopes incroyables
+
+35
+0:01:40.774,000 --> 0:01:42,000
+et vous êtes à même de voir la Terre,
+
+36
+0:01:43.136,000 --> 0:01:45,000
+et vous avez de très longues vies,
+
+37
+0:01:45.468,000 --> 0:01:46,000
+donc vous pouvez voir la Terre
+
+38
+0:01:46.967,000 --> 0:01:49,000
+sur des millions, même des milliards d'années.
+
+39
+0:01:50.409,000 --> 0:01:53,000
+Et vous verrez un phénomène très étrange.
+
+40
+0:01:53.424,000 --> 0:01:57,000
+Vous observerez que, durant le dernier millénaire,
+
+41
+0:01:57.736,000 --> 0:02:01,000
+la Terre est continuellement bombardée d’astéroïdes
+
+42
+0:02:02.021,000 --> 0:02:04,000
+jusqu'à un moment,
+
+43
+0:02:04.108,000 --> 0:02:05,000
+et à ce moment,
+
+44
+0:02:05.639,000 --> 0:02:09,000
+qui correspond à environ 2000 années de notre calendrier
+
+45
+0:02:09.831,000 --> 0:02:1,000
+les astériodes sur une trajectoire de collision
+
+46
+0:02:11.547,000 --> 0:02:12,000
+avec la Terre
+
+47
+0:02:13.478,000 --> 0:02:14,000
+qui l'auraient percutée
+
+48
+0:02:15.453,000 --> 0:02:17,000
+ont mystérieusement dévié
+
+49
+0:02:17.868,000 --> 0:02:2,000
+ou ont explosé avant de pouvoir atteindre la Terre.
+
+50
+0:02:20.94,000 --> 0:02:22,000
+Bien sûr, en tant que terriens,
+
+51
+0:02:23.023,000 --> 0:02:24,000
+nous savons que la raison serait
+
+52
+0:02:24.567,000 --> 0:02:25,000
+que nous essayons de nous sauver.
+
+53
+0:02:26.323,000 --> 0:02:29,000
+Nous essayons d'éviter un impact.
+
+54
+0:02:29.403,000 --> 0:02:3,000
+Mais si vous êtes une race extra-terrestre
+
+55
+0:02:31.114,000 --> 0:02:32,000
+qui ne sait rien de tout cela,
+
+56
+0:02:32.26,000 --> 0:02:34,000
+qui n'a aucune idée du concept d'intelligence terrestre,
+
+57
+0:02:34.774,000 --> 0:02:35,000
+vous seriez forcés de mettre en place
+
+58
+0:02:36.502,000 --> 0:02:38,000
+une théorie physique qui explique comment,
+
+59
+0:02:39.42,000 --> 0:02:41,000
+à partir d'un certain point dans le temps,
+
+60
+0:02:41.958,000 --> 0:02:45,000
+les astéroïdes qui démoliraient la surface d'une planète
+
+61
+0:02:46.407,000 --> 0:02:49,000
+en sont mystérieusement empêchés.
+
+62
+0:02:49.638,000 --> 0:02:53,000
+Je pense donc que c'est la même question
+
+63
+0:02:53.842,000 --> 0:02:56,000
+que celle qui consiste à comprendre la nature physique de l'intelligence.
+
+64
+0:02:57.84,000 --> 0:03:,000
+Et dans ce programme que j'ai entrepris il y a plusieurs années,
+
+65
+0:03:01.722,000 --> 0:03:03,000
+j'ai étudié une variété de différents fils conducteurs
+
+66
+0:03:04.487,000 --> 0:03:07,000
+à travers la science, à travers une multitude de disciplines,
+
+67
+0:03:07.649,000 --> 0:03:08,000
+qui convergeaient, je le pense,
+
+68
+0:03:09.541,000 --> 0:03:11,000
+vers un unique, mécanisme sous-jacent
+
+69
+0:03:12.089,000 --> 0:03:13,000
+pour décrire l'intelligence.
+
+70
+0:03:13.67,000 --> 0:03:15,000
+En cosmologie, par exemple,
+
+71
+0:03:16.216,000 --> 0:03:18,000
+il y a eu une multitude de preuves
+
+72
+0:03:18.963,000 --> 0:03:21,000
+que notre Univers semble être finement ajusté
+
+73
+0:03:22.37,000 --> 0:03:24,000
+pour le développement de l'intelligence,
+
+74
+0:03:24.523,000 --> 0:03:26,000
+et, en particulier, pour le développement
+
+75
+0:03:26.912,000 --> 0:03:27,000
+des états universaux
+
+76
+0:03:28.798,000 --> 0:03:32,000
+qui maximisent la diversité de futurs possibles.
+
+77
+0:03:32.896,000 --> 0:03:34,000
+Dans la stratégie de jeu, par exemple, dans le Go --
+
+78
+0:03:35.24,000 --> 0:03:38,000
+tout le monde se souvient de 1997
+
+79
+0:03:38.265,000 --> 0:03:41,000
+lorsque le Deep Blue d'IBM a battu Garry Kasparov aux échecs --
+
+80
+0:03:42.216,000 --> 0:03:43,000
+mais peu de gens sont au courant
+
+81
+0:03:43.739,000 --> 0:03:45,000
+que dans les dix dernières années,
+
+82
+0:03:45.757,000 --> 0:03:46,000
+le jeu de Go,
+
+83
+0:03:46.955,000 --> 0:03:47,000
+sans doute un jeu bien plus stimulant
+
+84
+0:03:48.911,000 --> 0:03:5,000
+car il a un bien plus grand facteur de ramification,
+
+85
+0:03:51.336,000 --> 0:03:52,000
+a aussi commencé à succomber
+
+86
+0:03:53.038,000 --> 0:03:54,000
+face aux programmes informatiques
+
+87
+0:03:54.903,000 --> 0:03:55,000
+pour la même raison :
+
+88
+0:03:56.476,000 --> 0:03:58,000
+les meilleures techniques pour les ordinateurs jouant au Go
+
+89
+0:03:59.276,000 --> 0:04:02,000
+sont des techniques qui tentent de maximiser les options futures
+
+90
+0:04:02.972,000 --> 0:04:04,000
+durant la partie.
+
+91
+0:04:04.986,000 --> 0:04:07,000
+Finalement, dans la planification des mouvements chez les robots,
+
+92
+0:04:08.567,000 --> 0:04:1,000
+une grande variété de nouvelles techniques
+
+93
+0:04:10.749,000 --> 0:04:11,000
+qui ont essayé de tirer avantage
+
+94
+0:04:12.651,000 --> 0:04:15,000
+de la capacité des robots à maximiser
+
+95
+0:04:15.797,000 --> 0:04:16,000
+la liberté d'action future
+
+96
+0:04:17.303,000 --> 0:04:2,000
+de façon à accomplir des tâches complexes.
+
+97
+0:04:20.4,000 --> 0:04:22,000
+De cette façon, parlant de tous ces différents sujets
+
+98
+0:04:22.755,000 --> 0:04:23,000
+et les mettant ensemble,
+
+99
+0:04:24.377,000 --> 0:04:26,000
+je me suis demandé, il y a quelques années,
+
+100
+0:04:27.017,000 --> 0:04:29,000
+s'il y avait un mécanisme sous-jacent à l'intelligence
+
+101
+0:04:29.867,000 --> 0:04:3,000
+que nous pourrions tirer
+
+102
+0:04:31.54,000 --> 0:04:32,000
+de tous ces différents sujets ?
+
+103
+0:04:33.314,000 --> 0:04:37,000
+Y a-t-il une équation unique pour l'intelligence ?
+
+104
+0:04:37.907,000 --> 0:04:4,000

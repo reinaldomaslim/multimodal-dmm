@@ -1,0 +1,544 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Morton Bast
+
+2
+0:00:15.927,000 --> 0:00:17,000
+So, well, I do applied math,
+
+3
+0:00:18.03,000 --> 0:00:19,000
+and this is a peculiar problem
+
+4
+0:00:19.554,000 --> 0:00:21,000
+for anyone who does applied math, is that
+
+5
+0:00:21.727,000 --> 0:00:22,000
+we are like management consultants.
+
+6
+0:00:23.66,000 --> 0:00:24,000
+No one knows what the hell we do.
+
+7
+0:00:25.606,000 --> 0:00:27,000
+So I am going to give you some -- attempt today
+
+8
+0:00:27.88,000 --> 0:00:29,000
+to try and explain to you what I do.
+
+9
+0:00:30.173,000 --> 0:00:33,000
+So, dancing is one of the most human of activities.
+
+10
+0:00:33.494,000 --> 0:00:36,000
+We delight at ballet virtuosos and tap dancers
+
+11
+0:00:37.176,000 --> 0:00:38,000
+you will see later on.
+
+12
+0:00:38.324,000 --> 0:00:4,000
+Now, ballet requires an extraordinary level of expertise
+
+13
+0:00:41.014,000 --> 0:00:43,000
+and a high level of skill,
+
+14
+0:00:43.928,000 --> 0:00:45,000
+and probably a level of initial suitability
+
+15
+0:00:46.459,000 --> 0:00:47,000
+that may well have a genetic component to it.
+
+16
+0:00:48.306,000 --> 0:00:51,000
+Now, sadly, neurological disorders such as Parkinson's disease
+
+17
+0:00:51.699,000 --> 0:00:53,000
+gradually destroy this extraordinary ability,
+
+18
+0:00:53.786,000 --> 0:00:55,000
+as it is doing to my friend Jan Stripling, who was
+
+19
+0:00:56.109,000 --> 0:00:58,000
+a virtuoso ballet dancer in his time.
+
+20
+0:00:59.076,000 --> 0:01:02,000
+So great progress and treatment has been made over the years.
+
+21
+0:01:02.13,000 --> 0:01:04,000
+However, there are 6.3 million people worldwide
+
+22
+0:01:05.074,000 --> 0:01:08,000
+who have the disease, and they have to live with
+
+23
+0:01:08.522,000 --> 0:01:1,000
+incurable weakness, tremor, rigidity
+
+24
+0:01:11.09,000 --> 0:01:12,000
+and the other symptoms that go along with the disease,
+
+25
+0:01:12.947,000 --> 0:01:14,000
+so what we need are objective tools
+
+26
+0:01:15.33,000 --> 0:01:18,000
+to detect the disease before it's too late.
+
+27
+0:01:18.387,000 --> 0:01:2,000
+We need to be able to measure progression objectively,
+
+28
+0:01:20.941,000 --> 0:01:23,000
+and ultimately, the only way we're going to know
+
+29
+0:01:24.114,000 --> 0:01:26,000
+when we actually have a cure is when we have
+
+30
+0:01:26.306,000 --> 0:01:29,000
+an objective measure that can answer that for sure.
+
+31
+0:01:29.704,000 --> 0:01:31,000
+But frustratingly, with Parkinson's disease
+
+32
+0:01:32.554,000 --> 0:01:34,000
+and other movement disorders, there are no biomarkers,
+
+33
+0:01:34.907,000 --> 0:01:36,000
+so there's no simple blood test that you can do,
+
+34
+0:01:37.136,000 --> 0:01:38,000
+and the best that we have is like
+
+35
+0:01:38.938,000 --> 0:01:4,000
+this 20-minute neurologist test.
+
+36
+0:01:41.179,000 --> 0:01:43,000
+You have to go to the clinic to do it. It's very, very costly,
+
+37
+0:01:43.637,000 --> 0:01:45,000
+and that means that, outside the clinical trials,
+
+38
+0:01:46.394,000 --> 0:01:48,000
+it's just never done. It's never done.
+
+39
+0:01:49.122,000 --> 0:01:52,000
+But what if patients could do this test at home?
+
+40
+0:01:52.199,000 --> 0:01:54,000
+Now, that would actually save on a difficult trip to the clinic,
+
+41
+0:01:54.297,000 --> 0:01:58,000
+and what if patients could do that test themselves, right?
+
+42
+0:01:58.551,000 --> 0:01:59,000
+No expensive staff time required.
+
+43
+0:02:00.471,000 --> 0:02:01,000
+Takes about $300, by the way,
+
+44
+0:02:01.889,000 --> 0:02:02,000
+in the neurologist's clinic to do it.
+
+45
+0:02:03.882,000 --> 0:02:05,000
+So what I want to propose to you as an unconventional way
+
+46
+0:02:06.563,000 --> 0:02:07,000
+in which we can try to achieve this,
+
+47
+0:02:08.077,000 --> 0:02:09,000
+because, you see, in one sense, at least,
+
+48
+0:02:09.885,000 --> 0:02:12,000
+we are all virtuosos like my friend Jan Stripling.
+
+49
+0:02:13.141,000 --> 0:02:16,000
+So here we have a video of the vibrating vocal folds.
+
+50
+0:02:16.896,000 --> 0:02:19,000
+Now, this is healthy and this is somebody making speech sounds,
+
+51
+0:02:20.125,000 --> 0:02:23,000
+and we can think of ourselves as vocal ballet dancers,
+
+52
+0:02:23.589,000 --> 0:02:25,000
+because we have to coordinate all of these vocal organs
+
+53
+0:02:25.803,000 --> 0:02:27,000
+when we make sounds, and we all actually
+
+54
+0:02:28.098,000 --> 0:02:3,000
+have the genes for it. FoxP2, for example.
+
+55
+0:02:30.394,000 --> 0:02:32,000
+And like ballet, it takes an extraordinary level of training.
+
+56
+0:02:33.107,000 --> 0:02:35,000
+I mean, just think how long it takes a child to learn to speak.
+
+57
+0:02:35.692,000 --> 0:02:37,000
+From the sound, we can actually track
+
+58
+0:02:38.074,000 --> 0:02:4,000
+the vocal fold position as it vibrates,
+
+59
+0:02:40.355,000 --> 0:02:42,000
+and just as the limbs are affected in Parkinson's,
+
+60
+0:02:42.898,000 --> 0:02:44,000
+so too are the vocal organs.
+
+61
+0:02:45.679,000 --> 0:02:46,000
+So on the bottom trace, you can see an example of
+
+62
+0:02:47.559,000 --> 0:02:48,000
+irregular vocal fold tremor.
+
+63
+0:02:49.257,000 --> 0:02:5,000
+We see all the same symptoms.
+
+64
+0:02:50.425,000 --> 0:02:52,000
+We see vocal tremor, weakness and rigidity.
+
+65
+0:02:53.355,000 --> 0:02:55,000
+The speech actually becomes quieter and more breathy
+
+66
+0:02:55.459,000 --> 0:02:57,000
+after a while, and that's one of the example symptoms of it.
+
+67
+0:02:57.692,000 --> 0:02:59,000
+So these vocal effects can actually be quite subtle,
+
+68
+0:03:00.539,000 --> 0:03:03,000
+in some cases, but with any digital microphone,
+
+69
+0:03:03.755,000 --> 0:03:05,000
+and using precision voice analysis software
+
+70
+0:03:06.3,000 --> 0:03:08,000
+in combination with the latest in machine learning,
+
+71
+0:03:08.709,000 --> 0:03:09,000
+which is very advanced by now,
+
+72
+0:03:10.287,000 --> 0:03:12,000
+we can now quantify exactly where somebody lies
+
+73
+0:03:13.173,000 --> 0:03:15,000
+on a continuum between health and disease
+
+74
+0:03:16.054,000 --> 0:03:18,000
+using voice signals alone.
+
+75
+0:03:18.65,000 --> 0:03:2,000
+So these voice-based tests, how do they stack up against
+
+76
+0:03:20.964,000 --> 0:03:22,000
+expert clinical tests? We'll, they're both non-invasive.
+
+77
+0:03:23.114,000 --> 0:03:26,000
+The neurologist's test is non-invasive. They both use existing infrastructure.
+
+78
+0:03:27.096,000 --> 0:03:3,000
+You don't have to design a whole new set of hospitals to do it.
+
+79
+0:03:30.1,000 --> 0:03:32,000
+And they're both accurate. Okay, but in addition,
+
+80
+0:03:32.402,000 --> 0:03:35,000
+voice-based tests are non-expert.
+
+81
+0:03:35.729,000 --> 0:03:36,000
+That means they can be self-administered.
+
+82
+0:03:37.721,000 --> 0:03:39,000
+They're high-speed, take about 30 seconds at most.
+
+83
+0:03:40.301,000 --> 0:03:42,000
+They're ultra-low cost, and we all know what happens.
+
+84
+0:03:42.595,000 --> 0:03:44,000
+When something becomes ultra-low cost,
+
+85
+0:03:45.035,000 --> 0:03:47,000
+it becomes massively scalable.
+
+86
+0:03:47.331,000 --> 0:03:5,000
+So here are some amazing goals that I think we can deal with now.
+
+87
+0:03:51.006,000 --> 0:03:53,000
+We can reduce logistical difficulties with patients.
+
+88
+0:03:53.432,000 --> 0:03:55,000
+No need to go to the clinic for a routine checkup.
+
+89
+0:03:55.744,000 --> 0:03:57,000
+We can do high-frequency monitoring to get objective data.
+
+90
+0:03:58.064,000 --> 0:04:02,000
+We can perform low-cost mass recruitment for clinical trials,
+
+91
+0:04:02.169,000 --> 0:04:04,000
+and we can make population-scale screening
+
+92
+0:04:04.284,000 --> 0:04:05,000
+feasible for the first time.
+
+93
+0:04:05.88,000 --> 0:04:07,000
+We have the opportunity to start to search
+
+94
+0:04:08.082,000 --> 0:04:11,000
+for the early biomarkers of the disease before it's too late.
+
+95
+0:04:11.623,000 --> 0:04:13,000
+So, taking the first steps towards this today,
+
+96
+0:04:14.381,000 --> 0:04:16,000
+we're launching the Parkinson's Voice Initiative.
+
+97
+0:04:16.507,000 --> 0:04:18,000
+With Aculab and PatientsLikeMe, we're aiming
+
+98
+0:04:18.739,000 --> 0:04:19,000
+to record a very large number of voices worldwide
+
+99
+0:04:20.667,000 --> 0:04:23,000
+to collect enough data to start to tackle these four goals.
+
+100
+0:04:23.807,000 --> 0:04:24,000
+We have local numbers accessible to three quarters
+
+101
+0:04:25.507,000 --> 0:04:26,000
+of a billion people on the planet.
+
+102
+0:04:27.117,000 --> 0:04:3,000
+Anyone healthy or with Parkinson's can call in, cheaply,
+
+103
+0:04:30.194,000 --> 0:04:32,000
+and leave recordings, a few cents each,
+
+104
+0:04:32.333,000 --> 0:04:34,000
+and I'm really happy to announce that we've already hit
+
+105
+0:04:34.523,000 --> 0:04:37,000
+six percent of our target just in eight hours.
+
+106
+0:04:38.066,000 --> 0:04:41,000
+Thank you. (Applause)
+
+107
+0:04:41.817,000 --> 0:04:47,000
+(Applause)
+
+108
+0:04:48.137,000 --> 0:04:51,000
+Tom Rielly: So Max, by taking all these samples of,
+
+109
+0:04:51.712,000 --> 0:04:53,000
+let's say, 10,000 people,
+
+110
+0:04:54.488,000 --> 0:04:56,000
+you'll be able to tell who's healthy and who's not?
+
+111
+0:04:57.342,000 --> 0:04:58,000
+What are you going to get out of those samples?
+
+112
+0:04:59.027,000 --> 0:05:,000
+Max Little: Yeah. Yeah. So what will happen is that,
+
+113
+0:05:00.857,000 --> 0:05:01,000
+during the call you have to indicate whether or not
+
+114
+0:05:02.514,000 --> 0:05:03,000
+you have the disease or not, you see. TR: Right.
+
+115
+0:05:03.781,000 --> 0:05:05,000
+ML: You see, some people may not do it. They may not get through it.
+
+116
+0:05:06.288,000 --> 0:05:08,000
+But we'll get a very large sample of data that is collected
+
+117
+0:05:09.005,000 --> 0:05:12,000
+from all different circumstances, and it's getting it
+
+118
+0:05:12.413,000 --> 0:05:13,000
+in different circumstances that matter because then
+
+119
+0:05:14.318,000 --> 0:05:17,000
+we are looking at ironing out the confounding factors,
+
+120
+0:05:17.702,000 --> 0:05:19,000
+and looking for the actual markers of the disease.
+
+121
+0:05:19.863,000 --> 0:05:21,000
+TR: So you're 86 percent accurate right now?
+
+122
+0:05:22.36,000 --> 0:05:23,000
+ML: It's much better than that.
+
+123
+0:05:23.554,000 --> 0:05:24,000
+Actually, my student Thanasis, I have to plug him,
+
+124
+0:05:25.274,000 --> 0:05:26,000
+because he's done some fantastic work,
+
+125
+0:05:27.144,000 --> 0:05:3,000
+and now he has proved that it works over the mobile telephone network as well,
+
+126
+0:05:30.914,000 --> 0:05:33,000
+which enables this project, and we're getting 99 percent accuracy.
+
+127
+0:05:34.304,000 --> 0:05:35,000
+TR: Ninety-nine. Well, that's an improvement.
+
+128
+0:05:35.88,000 --> 0:05:37,000
+So what that means is that people will be able to —
+
+129
+0:05:38.081,000 --> 0:05:39,000
+ML: (Laughs)
+
+130
+0:05:39.933,000 --> 0:05:4,000
+TR: People will be able to call in from their mobile phones
+
+131
+0:05:41.839,000 --> 0:05:44,000
+and do this test, and people with Parkinson's could call in,
+
+132
+0:05:44.911,000 --> 0:05:46,000
+record their voice, and then their doctor can check up
+
+133
+0:05:47.781,000 --> 0:05:49,000
+on their progress, see where they're doing in this course of the disease.
+
+134
+0:05:50.462,000 --> 0:05:5,000
+ML: Absolutely.
+
+135
+0:05:51.432,000 --> 0:05:52,000
+TR: Thanks so much. Max Little, everybody.
+
+136
+0:05:53.175,000 --> 0:05:58,000
+ML: Thanks, Tom. (Applause)
+

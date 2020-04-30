@@ -1,0 +1,1280 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Jerry Elizondo Revisor: Estuardo Rivas
+
+2
+0:00:19.33,000 --> 0:00:24,000
+Bienvenidos. ¿Me pueden poner la primera diapositiva?
+
+3
+0:00:33.33,000 --> 0:00:38,000
+En contra de los cálculos de algunos ingenieros, las abejas pueden volar
+
+4
+0:00:38.33,000 --> 0:00:45,000
+los delfines pueden nadar y las lagartijas pueden escalar
+
+5
+0:00:45.33,000 --> 0:00:51,000
+sobre las superficies más lisas. Ahora lo que quiero hacer, en el corto tiempo que tengo,
+
+6
+0:00:51.33,000 --> 0:00:55,000
+es tratar de permitir a cada uno de ustedes experimentar
+
+7
+0:00:55.33,000 --> 0:01:01,000
+de alguna manera, la emoción de revelar los secretos del diseño natural.
+
+8
+0:01:01.33,000 --> 0:01:03,000
+Yo lo hago todo el tiempo, y es simplemente increíble.
+
+9
+0:01:03.33,000 --> 0:01:09,000
+Quiero compartir un poco de eso con ustedes en esta presentación.
+
+10
+0:01:09.33,000 --> 0:01:11,000
+El desafío de mirar los diseños naturales -
+
+11
+0:01:11.33,000 --> 0:01:15,000
+y les diré de qué manera lo percibimos, y cómo lo hemos usado.
+
+12
+0:01:15.33,000 --> 0:01:17,000
+El desafío desde luego, es responder a esta pregunta:
+
+13
+0:01:17.33,000 --> 0:01:2,000
+¿Qué concede este extraordinario desempeño
+
+14
+0:01:20.33,000 --> 0:01:23,000
+que les permite básicamente ir a cualquier parte?
+
+15
+0:01:23.33,000 --> 0:01:3,000
+Y ¿si pudiéramos encontrar la manera de implementar esos diseños?
+
+16
+0:01:30.33,000 --> 0:01:33,000
+Bueno, muchos biólogos le dirán a los ingenieros y a otros,
+
+17
+0:01:33.33,000 --> 0:01:36,000
+que los organismos han tenido millones de años para perfeccionarse,
+
+18
+0:01:36.33,000 --> 0:01:39,000
+que son espectaculares, que pueden hacer todo maravillosamente bien.
+
+19
+0:01:39.33,000 --> 0:01:43,000
+Así que la respuesta es el bio-mimetismo - copiar a la naturaleza directamente.
+
+20
+0:01:43.33,000 --> 0:01:48,000
+Sabemos al trabajar con animales que la verdad es
+
+21
+0:01:48.33,000 --> 0:01:52,000
+que eso es exactamente lo que no quieres hacer. Porque la evolución trabaja
+
+22
+0:01:52.33,000 --> 0:01:55,000
+bajo el principio de “apenas-bien-basta”, no bajo el principio de la perfección.
+
+23
+0:01:55.33,000 --> 0:01:59,000
+Y las limitaciones en construir cualquier organismo, cuando lo piensas bien,
+
+24
+0:01:59.33,000 --> 0:02:04,000
+son realmente severas. Las tecnologías naturales tienen increíbles limitaciones,
+
+25
+0:02:04.33,000 --> 0:02:07,000
+Piénsalo. Si fueras un ingeniero y yo te dijera
+
+26
+0:02:07.33,000 --> 0:02:12,000
+que tienes que construir un automóvil pero que debes empezar así de pequeñito
+
+27
+0:02:12.33,000 --> 0:02:16,000
+y luego tiene que crecer a tamaño completo y tiene que funcionar en cada etapa.
+
+28
+0:02:16.33,000 --> 0:02:2,000
+Piensa en el hecho de que construyeras el automóvil y de que yo te dijera que dentro de él tienes que
+
+29
+0:02:20.33,000 --> 0:02:24,000
+construirle también un fábrica que le permita hacer otro automóvil.
+
+30
+0:02:24.33,000 --> 0:02:26,000
+(Risas)
+
+31
+0:02:26.33,000 --> 0:02:3,000
+Y no puedes absolutamente nunca, absolutamente nunca, a causa de la historia
+
+32
+0:02:30.33,000 --> 0:02:34,000
+y del plan heredado, comenzar de ceros.
+
+33
+0:02:34.33,000 --> 0:02:37,000
+Así que los organismos tienen esta importante historia.
+
+34
+0:02:37.33,000 --> 0:02:42,000
+Realmente la evolución trabaja más como alguien que repara experimentando y jugueteando que como un ingeniero.
+
+35
+0:02:42.33,000 --> 0:02:45,000
+Y esto es realmente importante cuando comienzas a estudiar a los animales.
+
+36
+0:02:45.33,000 --> 0:02:52,000
+Al contrario, creemos que debes inspirarse en la biología.
+
+37
+0:02:52.33,000 --> 0:02:56,000
+Necesitas descubrir los principios generales de la naturaleza
+
+38
+0:02:56.33,000 --> 0:02:59,000
+y entonces usar esas analogías cuando sean ventajosas.
+
+39
+0:03:02.33,000 --> 0:03:05,000
+Es un verdadero desafío hacer esto porque los animales,
+
+40
+0:03:05.33,000 --> 0:03:08,000
+cuando comienzas a mirar dentro de ellos, cómo funcionan,
+
+41
+0:03:08.33,000 --> 0:03:12,000
+parecen ser desesperantemente complejos. No hay una historia detallada
+
+42
+0:03:12.33,000 --> 0:03:15,000
+de los planos de diseño, no puedes encontrarlos en parte alguna.
+
+43
+0:03:15.33,000 --> 0:03:19,000
+Tienen demasiados movimientos para sus articulaciones, demasiados músculos
+
+44
+0:03:19.33,000 --> 0:03:22,000
+aún el más simple de los animales que se nos ocurra, como un insecto,
+
+45
+0:03:22.33,000 --> 0:03:25,000
+y tienen más neuronas y conexiones de lo que pueda imaginar.
+
+46
+0:03:25.33,000 --> 0:03:3,000
+¿Cómo puedes entender esto? Bueno, creímos -
+
+47
+0:03:30.33,000 --> 0:03:35,000
+y suponemos - que una manera en la cual los animales pueden funcionar simplemente,
+
+48
+0:03:35.33,000 --> 0:03:38,000
+es si el control de sus movimientos
+
+49
+0:03:38.33,000 --> 0:03:44,000
+tendiera a estar construido dentro de sus cuerpos mismos.
+
+50
+0:03:44.33,000 --> 0:03:51,000
+Hemos descubierto que los animales de dos, cuatro, seis y ocho patas
+
+51
+0:03:51.33,000 --> 0:03:54,000
+producen las mismas fuerzas sobre el terreno cuando se mueven.
+
+52
+0:03:54.33,000 --> 0:03:58,000
+Todos funcionan como este canguro, rebotan.
+
+53
+0:03:58.33,000 --> 0:04:02,000
+Y pueden ser modelados por un sistema de resortes y aunque lo llamamos sistema de resortes
+
+54
+0:04:02.33,000 --> 0:04:05,000
+porque somos bio-mecánicos, en realidad es un saltador que rebota.
+
+55
+0:04:05.33,000 --> 0:04:09,000
+Todos producen el patrón de un saltador. ¿De qué forma es esto verdad?
+
+56
+0:04:09.33,000 --> 0:04:15,000
+Bueno, un ser humano, una de sus piernas, trabaja como dos piernas de un perro trotando
+
+57
+0:04:15.33,000 --> 0:04:19,000
+y trabaja como las tres piernas juntas de un insecto trotando,
+
+58
+0:04:19.33,000 --> 0:04:21,000
+o cuatro piernas juntas como en un cangrejo trotando.
+
+59
+0:04:21.33,000 --> 0:04:25,000
+Y entonces alternan su propulsión
+
+60
+0:04:25.33,000 --> 0:04:3,000
+pero los patrones son los mismos. Casi todo organismo que hemos estudiado
+
+61
+0:04:30.33,000 --> 0:04:32,000
+- lo verán la semana entrante - les daré una pista,
+
+62
+0:04:32.33,000 --> 0:04:35,000
+saldrá un artículo que dice que animales realmente grandes
+
+63
+0:04:35.33,000 --> 0:04:39,000
+como el T. Rex probablemente no podían hacer esto, pero lo verán la semana próxima.
+
+64
+0:04:39.33,000 --> 0:04:41,000
+Ahora lo que es interesante es que los animales que dijimos que rebotan
+
+65
+0:04:41.33,000 --> 0:04:44,000
+en el plano vertical de esta manera, y en nuestra colaboración con Pixar
+
+66
+0:04:44.33,000 --> 0:04:46,000
+en la película "Bichos", discutimos la
+
+67
+0:04:46.33,000 --> 0:04:49,000
+naturaleza bípeda de los personajes de las hormigas.
+
+68
+0:04:49.33,000 --> 0:04:51,000
+Y les dijimos que desde luego, se mueven en otro plano también
+
+69
+0:04:51.33,000 --> 0:04:54,000
+y nos hicieron esta pregunta. Dijeron, "¿Por qué modelar
+
+70
+0:04:54.33,000 --> 0:04:56,000
+sólo el plano sagital o plano vertical
+
+71
+0:04:56.33,000 --> 0:04:58,000
+cuando nos están diciendo que esos animales se mueven
+
+72
+0:04:58.33,000 --> 0:05:01,000
+en el plano horizontal?" Esta es una buena pregunta.
+
+73
+0:05:01.33,000 --> 0:05:04,000
+Nadie en biología los había modelado de esta forma.
+
+74
+0:05:04.33,000 --> 0:05:08,000
+Seguimos su consejo y modelamos a los animales moviéndose
+
+75
+0:05:08.33,000 --> 0:05:11,000
+en la plano horizontal también. Tomamos sus tres patas
+
+76
+0:05:11.33,000 --> 0:05:12,000
+y las colapsamos a una
+
+77
+0:05:12.33,000 --> 0:05:15,000
+pusimos a algunos de los mejores matemáticos del mundo
+
+78
+0:05:15.33,000 --> 0:05:17,000
+de Princeton a trabajar en este problema.
+
+79
+0:05:17.33,000 --> 0:05:2,000
+Y pudimos crear un modelo
+
+80
+0:05:20.33,000 --> 0:05:21,000
+donde los animales no sólo rebotan de arriba a abajo,
+
+81
+0:05:21.33,000 --> 0:05:25,000
+sino también rebotan de lado a lado al mismo tiempo.
+
+82
+0:05:25.33,000 --> 0:05:27,000
+Y muchos organismos entran en esta clase de patrón.
+
+83
+0:05:27.33,000 --> 0:05:29,000
+Ahora, ¿por qué es importante tener este modelo?
+
+84
+0:05:29.33,000 --> 0:05:32,000
+Porque es muy interesante. Cuando tomas este modelo
+
+85
+0:05:32.33,000 --> 0:05:35,000
+y lo perturbas, le das un empujón,
+
+86
+0:05:35.33,000 --> 0:05:39,000
+como cuando choca con algo, se auto-estabiliza, sin cerebro,
+
+87
+0:05:39.33,000 --> 0:05:43,000
+o sin reflejos, sólo gracias a la estructura.
+
+88
+0:05:43.33,000 --> 0:05:48,000
+Es un modelo bello. Ahora, veamos las matemáticas.
+
+89
+0:05:48.33,000 --> 0:05:5,000
+(Risas)
+
+90
+0:05:50.33,000 --> 0:05:51,000
+Eso es suficiente.
+
+91
+0:05:51.33,000 --> 0:05:55,000
+(Risas)
+
+92
+0:05:55.33,000 --> 0:05:57,000
+Los animales, cuando los ves correr,
+
+93
+0:05:57.33,000 --> 0:06:,000
+parecen estar auto-estabilizados de esta manera,
+
+94
+0:06:00.33,000 --> 0:06:03,000
+usando básicamente piernas con resortes. Esto es, las piernas pueden
+
+95
+0:06:03.33,000 --> 0:06:06,000
+hacer cálculos por sí mismas, en cierto sentido los algoritmos de control
+
+96
+0:06:06.33,000 --> 0:06:09,000
+están integrados en la forma del animal mismo.
+
+97
+0:06:09.33,000 --> 0:06:16,000
+¿Por qué no hemos sido inspirados más por la naturaleza y esta clase de descubrimientos?
+
+98
+0:06:16.33,000 --> 0:06:2,000
+Bueno, argumentaría que las tecnologías humanas son realmente diferentes de
+
+99
+0:06:20.33,000 --> 0:06:23,000
+las tecnologías naturales, al menos lo han sido hasta ahora.
+
+100
+0:06:23.33,000 --> 0:06:28,000
+Piensa en la típica clase de robot que ves.
+
+101
+0:06:28.33,000 --> 0:06:31,000
+Las tecnologías humanas han tendido a ser grandes, planas
+
+102
+0:06:31.33,000 --> 0:06:36,000
+con ángulos rectos, rígidas, hechas de metal. Tienen mecanismos para rodar
+
+103
+0:06:36.33,000 --> 0:06:39,000
+y ejes. Tienen muy pocos motores, muy pocos sensores.
+
+104
+0:06:39.33,000 --> 0:06:44,000
+Mientras que la naturaleza tiende a ser pequeña, y curva,
+
+105
+0:06:44.33,000 --> 0:06:47,000
+y flexible y girable y a cambio tiene patas y apéndices,
+
+106
+0:06:47.33,000 --> 0:06:5,000
+y tiene muchos músculos y muchos, muchos sensores.
+
+107
+0:06:50.33,000 --> 0:06:54,000
+Así que es un diseño muy diferente. Sin embargo, lo que está cambiando,
+
+108
+0:06:54.33,000 --> 0:06:56,000
+lo que es realmente excitante - y les mostraré algo de ello enseguida -
+
+109
+0:06:56.33,000 --> 0:06:59,000
+es que al empezar a tomar la tecnología humana algunas de las características
+
+110
+0:06:59.33,000 --> 0:07:05,000
+de la naturaleza, entonces la naturaleza puede convertirse en una maestra más útil.
+
+111
+0:07:05.33,000 --> 0:07:07,000
+He aquí un ejemplo que es verdaderamente excitante.
+
+112
+0:07:07.33,000 --> 0:07:09,000
+Esta es una colaboración con Stanford.
+
+113
+0:07:09.33,000 --> 0:07:13,000
+Y ellos han desarrollado esta nueva técnica llamada Manufactura de Depósito Formado.
+
+114
+0:07:13.33,000 --> 0:07:17,000
+Es una técnica en la cual mezclan los materiales y moldean cualquier forma
+
+115
+0:07:17.33,000 --> 0:07:21,000
+que gusten, y entonces ponen las propiedades del material.
+
+116
+0:07:21.33,000 --> 0:07:24,000
+Pueden integrar sensores y actuadores dentro de la forma misma.
+
+117
+0:07:24.33,000 --> 0:07:29,000
+Por ejemplo, aquí está una pata - la parte clara es rígida,
+
+118
+0:07:29.33,000 --> 0:07:32,000
+la parte blanca es flexible, y no necesitas ejes o cualquier otra cosa.
+
+119
+0:07:32.33,000 --> 0:07:35,000
+Se dobla por sí misma bellamente.
+
+120
+0:07:35.33,000 --> 0:07:38,000
+Así que puedes poner tales propiedades dentro. Les inspiró a presumir
+
+121
+0:07:38.33,000 --> 0:07:44,000
+este diseño en la producción de un pequeño robot llamado Sprawl [desgarbado].
+
+122
+0:07:44.33,000 --> 0:07:48,000
+Nuestro trabajo ha inspirado también otro robot, un robot saltador inspirado en la biología
+
+123
+0:07:48.33,000 --> 0:07:5,000
+de las universidades de Michigan y McGill
+
+124
+0:07:50.33,000 --> 0:07:58,000
+llamado RHex, por robot hexápodo, y este es autónomo.
+
+125
+0:07:58.33,000 --> 0:08:01,000
+Vayamos al video y déjenme mostrarles a algunos de esos animales moviéndose.
+
+126
+0:08:01.33,000 --> 0:08:03,000
+Y después algunos de los robots simples
+
+127
+0:08:03.33,000 --> 0:08:06,000
+que han sido inspirados por nuestros descubrimientos.
+
+128
+0:08:06.33,000 --> 0:08:1,000
+He aquí lo que algunos de ustedes hicieron esta mañana, aunque lo hicieron afuera
+
+129
+0:08:10.33,000 --> 0:08:12,000
+y no sobre una caminadora.
+
+130
+0:08:12.33,000 --> 0:08:15,000
+Esto es lo que hacemos.
+
+131
+0:08:15.33,000 --> 0:08:17,000
+(Risas)
+
+132
+0:08:17.33,000 --> 0:08:22,000
+Esta es una cucaracha calavera - esta es una cucaracha americana
+
+133
+0:08:22.33,000 --> 0:08:23,000
+la cual ustedes piensan que no tienen en su cocina.
+
+134
+0:08:23.33,000 --> 0:08:3,000
+Este es un escorpión de ocho patas, hormiga de seis patas, y un ciempiés de cuarenta y cuatro patas.
+
+135
+0:08:30.33,000 --> 0:08:33,000
+He dicho que todos esos animales funcionan como un saltador -
+
+136
+0:08:33.33,000 --> 0:08:37,000
+rebotan al moverse y ustedes pueden verlo
+
+137
+0:08:37.33,000 --> 0:08:4,000
+en el cangrejo fantasma de las playas de Panamá y Carolina del Norte.
+
+138
+0:08:40.33,000 --> 0:08:43,000
+Puede alcanzar los cuatro metros por segundo cuando corre.
+
+139
+0:08:43.33,000 --> 0:08:46,000
+De hecho brinca en el aire y tiene fases aéreas
+
+140
+0:08:46.33,000 --> 0:08:5,000
+cuando lo hace, como un caballo, y verán que está rebotando aquí.
+
+141
+0:08:50.33,000 --> 0:08:53,000
+Lo que descubrimos es que ya sea que mires la pierna de un ser humano,
+
+142
+0:08:53.33,000 --> 0:08:59,000
+como Richard, o de una cucaracha, o de un cangrejo o de un canguro,
+
+143
+0:08:59.33,000 --> 0:09:04,000
+la rigidez relativa de la pierna en el brinco es la misma para todo lo que hemos visto hasta ahora.
+
+144
+0:09:04.33,000 --> 0:09:06,000
+Ahora ¿de qué sirven piernas con resorte? ¿qué pueden hacer?
+
+145
+0:09:06.33,000 --> 0:09:08,000
+Bueno, queríamos ver si les permitían a los animales
+
+146
+0:09:08.33,000 --> 0:09:11,000
+tener mayor estabilidad y maniobrabilidad.
+
+147
+0:09:11.33,000 --> 0:09:15,000
+Así que construimos un terreno que tenía obstáculos tres veces más altos que la cadera
+
+148
+0:09:15.33,000 --> 0:09:16,000
+de los animales que estábamos observando
+
+149
+0:09:16.33,000 --> 0:09:2,000
+y estábamos seguros que no podían hacerlo. Y esto es lo que hicieron.
+
+150
+0:09:20.33,000 --> 0:09:23,000
+El animal corre sobre los obstáculos y sin siquiera disminuir su velocidad.
+
+151
+0:09:23.33,000 --> 0:09:25,000
+No disminuyó su velocidad preferida para nada.
+
+152
+0:09:25.33,000 --> 0:09:28,000
+No podíamos creer que pudiera hacer esto. Esto nos dijo
+
+153
+0:09:28.33,000 --> 0:09:33,000
+que si construyes un robot con una piernas con resorte muy simples
+
+154
+0:09:33.33,000 --> 0:09:39,000
+puedes hacerlo tan maniobrable como cualquier cosa que se haya construido antes.
+
+155
+0:09:39.33,000 --> 0:09:41,000
+Aquí está el primer ejemplo de ello, este es el robot de Stanford
+
+156
+0:09:41.33,000 --> 0:09:44,000
+construido con la Manufactura de Depósito Formado llamado Sprawl.
+
+157
+0:09:44.33,000 --> 0:09:5,000
+Tiene seis patas - y son las patas sincronizadas con resorte.
+
+158
+0:09:50.33,000 --> 0:09:53,000
+Se mueve de la misma manera que un insecto y aquí está
+
+159
+0:09:53.33,000 --> 0:10:,000
+en la caminadora. Ahora, lo que es importante respecto de este robot
+
+160
+0:10:00.33,000 --> 0:10:03,000
+comparado con otros robots, es que no puede ver,
+
+161
+0:10:03.33,000 --> 0:10:09,000
+no puede sentir, no tiene un cerebro, sin embargo puede maniobrar
+
+162
+0:10:09.33,000 --> 0:10:15,000
+sobre estos obstáculos sin dificultad alguna.
+
+163
+0:10:15.33,000 --> 0:10:19,000
+Esta es la técnica de integrar las propiedades en la forma.
+
+164
+0:10:19.33,000 --> 0:10:22,000
+Este es un estudiante de doctorado, esto es lo que él le hace a su proyecto de tesis,
+
+165
+0:10:22.33,000 --> 0:10:24,000
+muy robusto si un estudiante de doctorado
+
+166
+0:10:24.33,000 --> 0:10:26,000
+le hace esto a su proyecto de tesis.
+
+167
+0:10:26.33,000 --> 0:10:27,000
+(Risas)
+
+168
+0:10:27.33,000 --> 0:10:31,000
+Este viene de las universidades de Michigan y McGill, este es el RHex,
+
+169
+0:10:31.33,000 --> 0:10:34,000
+haciendo su primer salida en una demostración.
+
+170
+0:10:34.33,000 --> 0:10:38,000
+(Risas)
+
+171
+0:10:38.33,000 --> 0:10:43,000
+El mismo principio. Sólo tiene seis partes móviles.
+
+172
+0:10:43.33,000 --> 0:10:49,000
+Seis motores, pero tiene patas con resorte, patas sincronizadas. Se mueve con postura de un insecto
+
+173
+0:10:49.33,000 --> 0:10:53,000
+la pata central se mueve en sincronía con la frontal
+
+174
+0:10:53.33,000 --> 0:10:57,000
+y la trasera del lado opuesto. Como un trípode alternante,
+
+175
+0:10:57.33,000 --> 0:11:01,000
+y puede maniobrar obstáculos tal como el animal.
+
+176
+0:11:01.33,000 --> 0:11:07,000
+(Risas)
+
+177
+0:11:07.33,000 --> 0:11:08,000
+¡Dios Mío!
+
+178
+0:11:08.33,000 --> 0:11:13,000
+(Aplausos)
+
+179
+0:11:13.33,000 --> 0:11:15,000
+Puede moverse en diferentes superficies, aquí en la arena,
+
+180
+0:11:15.33,000 --> 0:11:2,000
+aunque no hemos perfeccionado los pies todavía, pero hablaré de ello más tarde.
+
+181
+0:11:20.33,000 --> 0:11:23,000
+Aquí está RHex entrando al bosque.
+
+182
+0:11:23.33,000 --> 0:11:25,000
+(Risas)
+
+183
+0:11:38.33,000 --> 0:11:42,000
+Otra vez, este robot no puede ver, no puede sentir cosa alguna,
+
+184
+0:11:42.33,000 --> 0:11:48,000
+no tiene cerebro. Trabaja solamente con un sistema mecánico sincronizado
+
+185
+0:11:48.33,000 --> 0:11:58,000
+con partes muy simples. Pero está inspirado en las dinámicas fundamentales del animal.
+
+186
+0:11:58.33,000 --> 0:12:06,000
+¡Ah! Lo adoro Bob. Aquí avanza sobre un pasillo.
+
+187
+0:12:06.33,000 --> 0:12:09,000
+Le presenté esto al Jet Propulsion Lab de la NASA y dijeron
+
+188
+0:12:09.33,000 --> 0:12:13,000
+que ellos no tenían la habilidad de bajar a los cráteres para buscar hielo,
+
+189
+0:12:13.33,000 --> 0:12:17,000
+y finalmente vida, en Marte. Y él dijo -
+
+190
+0:12:17.33,000 --> 0:12:19,000
+particularmente usando robots con patas, porque son demasiado complicados.
+
+191
+0:12:19.33,000 --> 0:12:24,000
+Nada puede hacer eso. Yo hablo después. Les muestro este video
+
+192
+0:12:24.33,000 --> 0:12:27,000
+con el simple diseño de RHex, y solo para convencerlos
+
+193
+0:12:27.33,000 --> 0:12:31,000
+que debemos ir a Marte en el 2011, entinté el video en color naranja
+
+194
+0:12:31.33,000 --> 0:12:34,000
+para darle la impresión de estar en Marte.
+
+195
+0:12:34.33,000 --> 0:12:35,000
+(Risas)
+
+196
+0:12:35.33,000 --> 0:12:41,000
+(Aplauso)
+
+197
+0:12:43.33,000 --> 0:12:46,000
+Otra razón por la cual los animales tienen este extraordinario desempeño
+
+198
+0:12:46.33,000 --> 0:12:49,000
+y pueden ir a donde sea, es porque tienen una interacción efectiva
+
+199
+0:12:49.33,000 --> 0:12:52,000
+con el medio. El animal que voy a mostrarles
+
+200
+0:12:52.33,000 --> 0:12:56,000
+que estudiamos para ver esto es la lagartija.
+
+201
+0:12:56.33,000 --> 0:13:03,000
+Tenemos una aquí y noten su posición. Se adhiere.
+
+202
+0:13:03.33,000 --> 0:13:06,000
+Ahora, los voy a desafiar. Les mostraré un video.
+
+203
+0:13:06.33,000 --> 0:13:08,000
+Uno de los animales está corriendo en una superficie horizontal,
+
+204
+0:13:08.33,000 --> 0:13:12,000
+y el otro está escalando una pared. ¿Cuál es cuál?
+
+205
+0:13:12.33,000 --> 0:13:17,000
+Están corriendo a un metro por segundo. ¿Cuántos de ustedes piensan que el de la izquierda
+
+206
+0:13:17.33,000 --> 0:13:19,000
+está escalando una pared?
+
+207
+0:13:19.33,000 --> 0:13:23,000
+(Aplauso)
+
+208
+0:13:23.33,000 --> 0:13:28,000
+Muy bien. El punto es que es realmente difícil distinguirlos, ¿no es así? Es increíble,
+
+209
+0:13:28.33,000 --> 0:13:3,000
+vimos a estudiantes hacer esto y no podían diferenciarlos.
+
+210
+0:13:30.33,000 --> 0:13:33,000
+Pueden correr sobre una pared a un metro por segundo, 15 pasos por segundo
+
+211
+0:13:33.33,000 --> 0:13:37,000
+y parece que estuvieran corriendo en un plano horizontal. ¿Cómo lo hacen?
+
+212
+0:13:37.33,000 --> 0:13:43,000
+Es fenomenal. El de la derecha está escalando la pared.
+
+213
+0:13:43.33,000 --> 0:13:47,000
+¿Cómo hacen esto? - tienen dedos extraños - tienen dedos
+
+214
+0:13:47.33,000 --> 0:13:51,000
+que se desenrrollan como espantasuegras cuando los inflas
+
+215
+0:13:51.33,000 --> 0:13:54,000
+y luego se despegan de la superficie como cinta adhesiva.
+
+216
+0:13:54.33,000 --> 0:13:56,000
+Como si tuviéramos un pedazo de cinta adhesiva y lo despegáramos de esta forma.
+
+217
+0:13:56.33,000 --> 0:14:03,000
+Esto es lo que hacen con sus dedos. Es estrafalario. Este despegarse inspiró
+
+218
+0:14:03.33,000 --> 0:14:06,000
+el iRobot con el que trabajamos, para construir Mecho-Geckos.
+
+219
+0:14:06.33,000 --> 0:14:13,000
+Esta es la versión con patas y la versión tractor, o una versión bulldozer.
+
+220
+0:14:13.33,000 --> 0:14:15,000
+Veamos algunas lagartijas moverse en el video
+
+221
+0:14:15.33,000 --> 0:14:18,000
+y entonces les mostraré un corto de los robots.
+
+222
+0:14:18.33,000 --> 0:14:21,000
+Aquí está la lagartija escalando una superficie vertical, aquí va,
+
+223
+0:14:21.33,000 --> 0:14:28,000
+en tiempo real, aquí va otra vez. Obviamente tenemos que lentificar esto un poco.
+
+224
+0:14:28.33,000 --> 0:14:3,000
+No puedes usar cámaras comunes.
+
+225
+0:14:30.33,000 --> 0:14:33,000
+Tienes que tomar 1,000 cuadros por segundo para ver esto.
+
+226
+0:14:33.33,000 --> 0:14:36,000
+Aquí está un video a 1,000 cuadros por segundo.
+
+227
+0:14:36.33,000 --> 0:14:38,000
+Ahora, miren la espalda del animal.
+
+228
+0:14:38.33,000 --> 0:14:41,000
+¿Ven cuánto se dobla de esa manera? No lo entendemos -
+
+229
+0:14:41.33,000 --> 0:14:44,000
+es un misterio por resolver. No sabemos cómo funciona.
+
+230
+0:14:44.33,000 --> 0:14:47,000
+Si tienen un hijo o hija que quiere venir a Berkeley,
+
+231
+0:14:47.33,000 --> 0:14:51,000
+que vengan a mi laboratorio y resolveremos esto. Bueno, mándenlos a Berkeley
+
+232
+0:14:51.33,000 --> 0:14:54,000
+porque es la siguiente cosa que quiero hacer. Aquí está la caminadora para lagartijas.
+
+233
+0:14:54.33,000 --> 0:14:55,000
+(Risas)
+
+234
+0:14:55.33,000 --> 0:14:58,000
+Es una caminadora transparente con una banda transparente
+
+235
+0:14:58.33,000 --> 0:15:01,000
+para que podamos ver las patas de los animales y tomarles video
+
+236
+0:15:01.33,000 --> 0:15:04,000
+a través de la banda, para ver cómo se mueven.
+
+237
+0:15:04.33,000 --> 0:15:08,000
+Aquí está el animal que tenemos, corriendo sobre una superficie vertical,
+
+238
+0:15:08.33,000 --> 0:15:14,000
+escojan una pata y traten de ver un dedo, a ver si pueden ver lo que el animal está haciendo.
+
+239
+0:15:14.33,000 --> 0:15:16,000
+Véanlo desenrrollar y despegar esos dedos.
+
+240
+0:15:16.33,000 --> 0:15:23,000
+Lo puede hacer en 14 milisegundos. Es increíble.
+
+241
+0:15:23.33,000 --> 0:15:27,000
+Aquí están los robots que han inspirado, el Meco-Geckos de iRobot.
+
+242
+0:15:27.33,000 --> 0:15:32,000
+Primero vemos los dedos del animal despegarse - miren eso.
+
+243
+0:15:32.33,000 --> 0:15:36,000
+Y aquí está la acción de despegar del Meco-Gecko
+
+244
+0:15:36.33,000 --> 0:15:39,000
+usa un adhesivo sensible a la presión para hacerlo.
+
+245
+0:15:39.33,000 --> 0:15:42,000
+Despegar en el animal, despegar en el Meco-Gecko,
+
+246
+0:15:42.33,000 --> 0:15:45,000
+que les permite escalar autónomamente, subir una superficie plana,
+
+247
+0:15:45.33,000 --> 0:15:48,000
+pasar a una pared y luego al techo.
+
+248
+0:15:48.33,000 --> 0:15:54,000
+Esta es la versión bulldozer. Ahora, no usa el pegamento sensible a la presión.
+
+249
+0:15:54.33,000 --> 0:15:56,000
+El animal no usa eso.
+
+250
+0:15:56.33,000 --> 0:15:58,000
+Pero eso es a lo que estamos limitados por el momento.
+
+251
+0:15:58.33,000 --> 0:16:03,000
+¿Qué hace el animal? El animal tiene dedos extraños
+
+252
+0:16:03.33,000 --> 0:16:07,000
+y si miras sus dedos tienen estas pequeñas hojas ahí,
+
+253
+0:16:07.33,000 --> 0:16:09,000
+y si las magnificas verás
+
+254
+0:16:09.33,000 --> 0:16:12,000
+que hay pequeñas estriaciones en esas hojas.
+
+255
+0:16:12.33,000 --> 0:16:19,000
+Y si amplías 270 veces, verás que parece una alfombra.
+
+256
+0:16:19.33,000 --> 0:16:22,000
+Y si amplías 900 veces
+
+257
+0:16:22.33,000 --> 0:16:27,000
+puedes ver que tiene pelos ahí, pequeños pelos, y si miras cuidadosamente
+
+258
+0:16:27.33,000 --> 0:16:33,000
+esos diminutos pelos tienen estriaciones. Y si los amplías 30,000 veces
+
+259
+0:16:33.33,000 --> 0:16:36,000
+puedes ver que cada pelo termina en una bifurcación.
+
+260
+0:16:36.33,000 --> 0:16:41,000
+Y si amplías esos puedes ver que tienen pequeñas estructuras en la punta.
+
+261
+0:16:41.33,000 --> 0:16:43,000
+La más pequeña rama de los pelos parece una espátula
+
+262
+0:16:43.33,000 --> 0:16:5,000
+y un animal como este tiene mil millones de esas puntas bifurcadas de nano-tamaño
+
+263
+0:16:50.33,000 --> 0:16:55,000
+para entrar en contacto con la superficie. De hecho, aquí está el diámetro de un cabello humano
+
+264
+0:16:55.33,000 --> 0:17:01,000
+una lagartija tiene dos millones de esos y cada pelo tiene entre 100 y 1,000 puntas bifurcadas.
+
+265
+0:17:01.33,000 --> 0:17:04,000
+Piense en el contacto que eso hace posible.
+
+266
+0:17:04.33,000 --> 0:17:06,000
+Tenemos la fortuna de trabajar con otro grupo
+
+267
+0:17:06.33,000 --> 0:17:08,000
+en Stanford que construyó un sensor nano especial
+
+268
+0:17:08.33,000 --> 0:17:11,000
+que puede medir la fuerza de una pelo individual.
+
+269
+0:17:11.33,000 --> 0:17:16,000
+Aquí está un pelo individual con la punta bifurcada aquí,
+
+270
+0:17:16.33,000 --> 0:17:18,000
+cuando medimos las fuerzas eran enormes,
+
+271
+0:17:18.33,000 --> 0:17:21,000
+eran tan grandes que un pedazo de pelos de este tamaño,
+
+272
+0:17:21.33,000 --> 0:17:25,000
+la pata de la lagartija podría soportar el peso de un niño pequeño -
+
+273
+0:17:25.33,000 --> 0:17:29,000
+unos veinte kilos fácilmente. ¿Cómo lo hacen?
+
+274
+0:17:29.33,000 --> 0:17:33,000
+Recientemente descubrimos esto. ¿Lo hacen por fricción?
+
+275
+0:17:33.33,000 --> 0:17:36,000
+No, la fuerza es demasiado baja. ¿Lo hacen por electrostática?
+
+276
+0:17:36.33,000 --> 0:17:38,000
+No, puedes cambiar la carga, y siguen adheridos.
+
+277
+0:17:38.33,000 --> 0:17:41,000
+¿Lo hacen por enlaces? Algo como el velcro.
+
+278
+0:17:41.33,000 --> 0:17:44,000
+No, puedes ponerlos en superficies molecularmente lisas - no lo hacen.
+
+279
+0:17:44.33,000 --> 0:17:48,000
+¿Qué tal succión? Tampoco, pueden sujetarse en el vacío.
+
+280
+0:17:48.33,000 --> 0:17:51,000
+¿Qué tal adhesión mojada? ¿O adhesión capilar?
+
+281
+0:17:51.33,000 --> 0:17:54,000
+No tienen pegamento y se sostienen aun bajo el agua sin problemas.
+
+282
+0:17:54.33,000 --> 0:17:56,000
+Si pones sus patas bajo el agua igual se sostienen.
+
+283
+0:17:56.33,000 --> 0:18:,000
+¿Cómo lo hacen entonces? Lo creas o no, se sostienen
+
+284
+0:18:00.33,000 --> 0:18:04,000
+por fuerzas intermoleculares, fuerzas de Van Der Waals.
+
+285
+0:18:04.33,000 --> 0:18:06,000
+Probablemente estudiaron esto hace mucho tiempo en Química
+
+286
+0:18:06.33,000 --> 0:18:08,000
+donde tienes estos dos átomos, muy juntos
+
+287
+0:18:08.33,000 --> 0:18:11,000
+y los electrones se mueven alrededor. Esa pequeña fuerza es suficiente
+
+288
+0:18:11.33,000 --> 0:18:14,000
+para permitirles hacer esto porque se multiplica muchas veces
+
+289
+0:18:14.33,000 --> 0:18:17,000
+con esas pequeñas estructuras.
+
+290
+0:18:17.33,000 --> 0:18:22,000
+Lo que estamos haciendo es tomar la inspiración de los pelos
+
+291
+0:18:22.33,000 --> 0:18:27,000
+y con otro colega en Berkeley, los estamos fabricando.
+
+292
+0:18:27.33,000 --> 0:18:3,000
+Y recientemente tuvimos un avance extraordinario por el cual creemos
+
+293
+0:18:30.33,000 --> 0:18:35,000
+que vamos a poder crear el primer adhesivo sintético, auto-limpiante,
+
+294
+0:18:35.33,000 --> 0:18:4,000
+Muchas compañías están interesadas en esto.
+
+295
+0:18:40.33,000 --> 0:18:43,000
+(Risas)
+
+296
+0:18:43.33,000 --> 0:18:45,000
+También se lo presentamos a Nike.
+
+297
+0:18:45.33,000 --> 0:18:48,000
+(Risas)
+
+298
+0:18:48.33,000 --> 0:18:54,000
+(Aplauso)
+
+299
+0:18:54.33,000 --> 0:18:57,000
+Ya veremos a dónde nos lleva esto. Estamos muy contentos por ello
+
+300
+0:18:57.33,000 --> 0:19:,000
+y nos dimos cuenta que a pequeña escala,
+
+301
+0:19:00.33,000 --> 0:19:03,000
+y donde todo se vuelve adherible y la gravedad ya no importa,
+
+302
+0:19:03.33,000 --> 0:19:06,000
+necesitamos mirar a las hormigas y a sus patas porque
+
+303
+0:19:06.33,000 --> 0:19:11,000
+uno de mis otros colegas en Berkeley, ha construido un robot de silicón de seis
+
+304
+0:19:11.33,000 --> 0:19:14,000
+milímetros con patas. Pero se queda pegado. No se mueve muy bien.
+
+305
+0:19:14.33,000 --> 0:19:17,000
+Pero las hormigas lo hacen y tenemos que entender por qué, así que finalmente
+
+306
+0:19:17.33,000 --> 0:19:2,000
+tendremos que hacer esto. Imaginen, van a ser capaces de
+
+307
+0:19:20.33,000 --> 0:19:25,000
+tener enjambres de estos robots de seis milímetros corriendo.
+
+308
+0:19:25.33,000 --> 0:19:28,000
+¿Qué pasa? Creo que ya lo pueden ver.
+
+309
+0:19:28.33,000 --> 0:19:32,000
+Claramente la Internet empieza a tener ojos y oídos,
+
+310
+0:19:32.33,000 --> 0:19:36,000
+tenemos cámaras web y tal. Pero ahora también tendrá piernas y manos.
+
+311
+0:19:36.33,000 --> 0:19:38,000
+Van a poder hacer trabajo
+
+312
+0:19:38.33,000 --> 0:19:42,000
+programable con esa clase de robots, de tal forma que puedan correr,
+
+313
+0:19:42.33,000 --> 0:19:51,000
+volar y nadar donde sea. Lo vimos con David Kelly al principio con sus peces.
+
+314
+0:19:51.33,000 --> 0:19:53,000
+Así que en conclusión, creo que el mensaje es claro.
+
+315
+0:19:53.33,000 --> 0:19:57,000
+Si necesitas un mensaje, si la naturaleza no es suficiente, si te importan
+
+316
+0:19:57.33,000 --> 0:19:59,000
+las operaciones de búsqueda y rescate, desactivación de minas o la medicina
+
+317
+0:19:59.33,000 --> 0:20:03,000
+o las varias cosas en las que estamos trabajando, debemos preservar
+
+318
+0:20:03.33,000 --> 0:20:07,000
+los diseños naturales, de otra manera esos secretos se perderán para siempre.
+
+319
+0:20:07.33,000 --> 0:20:08,000
+Gracias.
+
+320
+0:20:08.33,000 --> 0:20:17,000
+(Aplauso)
+

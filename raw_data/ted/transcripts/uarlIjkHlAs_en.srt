@@ -1,0 +1,746 @@
+1
+0:00:15.26,000 --> 0:00:17,000
+Hi there.
+
+2
+0:00:17.26,000 --> 0:00:19,000
+I'm going to be talking a little bit about
+
+3
+0:00:19.26,000 --> 0:00:22,000
+music, machines and life.
+
+4
+0:00:22.26,000 --> 0:00:25,000
+Or, more specifically,
+
+5
+0:00:25.26,000 --> 0:00:28,000
+what we learned from the creation of a very large and complicated machine
+
+6
+0:00:28.26,000 --> 0:00:3,000
+for a music video.
+
+7
+0:00:30.26,000 --> 0:00:32,000
+Some of you may recognize this image.
+
+8
+0:00:32.26,000 --> 0:00:35,000
+This is the opening frame of the video that we created.
+
+9
+0:00:35.26,000 --> 0:00:37,000
+We'll be showing the video at the end,
+
+10
+0:00:37.26,000 --> 0:00:4,000
+but before we do, I want to talk a little bit about
+
+11
+0:00:40.26,000 --> 0:00:42,000
+what it is that they wanted.
+
+12
+0:00:42.26,000 --> 0:00:45,000
+Now, when we first started talking to OK Go --
+
+13
+0:00:45.26,000 --> 0:00:48,000
+the name of the song is "This Too Shall Pass" --
+
+14
+0:00:48.26,000 --> 0:00:5,000
+we were really excited because
+
+15
+0:00:50.26,000 --> 0:00:53,000
+they expressed interest in building a machine that they could dance with.
+
+16
+0:00:53.26,000 --> 0:00:55,000
+And we were very excited about this
+
+17
+0:00:55.26,000 --> 0:00:57,000
+because, of course,
+
+18
+0:00:57.26,000 --> 0:01:,000
+they have a history of dancing with machines.
+
+19
+0:01:00.26,000 --> 0:01:03,000
+They're responsible for this video, "Here It Goes Again."
+
+20
+0:01:03.26,000 --> 0:01:05,000
+50-million-plus views on YouTube.
+
+21
+0:01:05.26,000 --> 0:01:08,000
+Four guys dancing on treadmills,
+
+22
+0:01:08.26,000 --> 0:01:1,000
+no cuts, just a static camera.
+
+23
+0:01:10.26,000 --> 0:01:12,000
+A fantastically viral and wonderful video.
+
+24
+0:01:12.26,000 --> 0:01:14,000
+So we were really excited about working with them.
+
+25
+0:01:14.26,000 --> 0:01:17,000
+And we sort of started talking about what it is that they wanted.
+
+26
+0:01:17.26,000 --> 0:01:19,000
+And they explained that they wanted
+
+27
+0:01:19.26,000 --> 0:01:21,000
+kind of a Rube Goldberg machine.
+
+28
+0:01:21.26,000 --> 0:01:24,000
+Now, for those of you who don't know,
+
+29
+0:01:24.26,000 --> 0:01:26,000
+a Rube Goldberg machine
+
+30
+0:01:26.26,000 --> 0:01:28,000
+is a complicated contraption,
+
+31
+0:01:28.26,000 --> 0:01:31,000
+an incredibly over-engineered piece of machinery
+
+32
+0:01:31.26,000 --> 0:01:34,000
+that accomplishes a relatively simple task.
+
+33
+0:01:34.26,000 --> 0:01:36,000
+So we were excited by this idea,
+
+34
+0:01:36.26,000 --> 0:01:38,000
+and we started talking about
+
+35
+0:01:38.26,000 --> 0:01:4,000
+exactly what it would look like.
+
+36
+0:01:40.26,000 --> 0:01:42,000
+And we came up with some parameters, because,
+
+37
+0:01:42.26,000 --> 0:01:44,000
+you know, building a Rube Goldberg machine
+
+38
+0:01:44.26,000 --> 0:01:47,000
+has limitations,
+
+39
+0:01:47.26,000 --> 0:01:5,000
+but it also is pretty wide open.
+
+40
+0:01:50.26,000 --> 0:01:52,000
+And we wanted to make sure that we did something
+
+41
+0:01:52.26,000 --> 0:01:55,000
+that would work for a music video.
+
+42
+0:01:55.26,000 --> 0:01:58,000
+So we came up with a list of requirements,
+
+43
+0:01:58.26,000 --> 0:02:,000
+the "10 commandments,"
+
+44
+0:02:00.26,000 --> 0:02:03,000
+and they were, in order of ascending difficulty:
+
+45
+0:02:03.26,000 --> 0:02:05,000
+The first is "No magic."
+
+46
+0:02:05.26,000 --> 0:02:07,000
+Everything that happened on screen had to be
+
+47
+0:02:07.26,000 --> 0:02:09,000
+very easily understood by a typical viewer.
+
+48
+0:02:09.26,000 --> 0:02:12,000
+The rule of thumb was that, if my mother couldn't understand it,
+
+49
+0:02:12.26,000 --> 0:02:14,000
+then we couldn't use it in the video.
+
+50
+0:02:14.26,000 --> 0:02:16,000
+They wanted band integration,
+
+51
+0:02:16.26,000 --> 0:02:19,000
+that is, the machine acting upon the band members,
+
+52
+0:02:19.26,000 --> 0:02:21,000
+specifically not the other way around.
+
+53
+0:02:21.26,000 --> 0:02:24,000
+They wanted the machine action to follow the song feeling.
+
+54
+0:02:24.26,000 --> 0:02:26,000
+So as the song picks up emotion,
+
+55
+0:02:26.26,000 --> 0:02:28,000
+so should the machine
+
+56
+0:02:28.26,000 --> 0:02:3,000
+get grander in its process.
+
+57
+0:02:30.26,000 --> 0:02:32,000
+They wanted us to make use of the space.
+
+58
+0:02:32.26,000 --> 0:02:35,000
+So we have this 10,000-square-foot warehouse we were using,
+
+59
+0:02:35.26,000 --> 0:02:37,000
+divided between two floors.
+
+60
+0:02:37.26,000 --> 0:02:39,000
+It included an exterior loading dock.
+
+61
+0:02:39.26,000 --> 0:02:42,000
+We used all of that, including a giant hole in the floor
+
+62
+0:02:42.26,000 --> 0:02:45,000
+that we actually descended the camera and cameraman through.
+
+63
+0:02:45.26,000 --> 0:02:48,000
+They wanted it messy, and we were happy to oblige.
+
+64
+0:02:48.26,000 --> 0:02:5,000
+The machine itself would start the music.
+
+65
+0:02:50.26,000 --> 0:02:52,000
+So the machine would get started,
+
+66
+0:02:52.26,000 --> 0:02:54,000
+it would travel some distance,
+
+67
+0:02:54.26,000 --> 0:02:56,000
+reacting along the way,
+
+68
+0:02:56.26,000 --> 0:02:58,000
+hit play on an iPod or a tape deck
+
+69
+0:02:58.26,000 --> 0:03:,000
+or something that would start playback.
+
+70
+0:03:00.26,000 --> 0:03:03,000
+And the machine would maintain synchronization throughout.
+
+71
+0:03:03.26,000 --> 0:03:05,000
+And speaking of synchronization,
+
+72
+0:03:05.26,000 --> 0:03:07,000
+they wanted it to sync to the rhythm
+
+73
+0:03:07.26,000 --> 0:03:1,000
+and to hit specific beats along the way.
+
+74
+0:03:11.26,000 --> 0:03:14,000
+Okay. (Laughter)
+
+75
+0:03:14.26,000 --> 0:03:17,000
+They wanted it to end precisely on time.
+
+76
+0:03:17.26,000 --> 0:03:2,000
+Okay, so now the start to finish timing has to be perfect.
+
+77
+0:03:20.26,000 --> 0:03:22,000
+And they wanted the music to drop out
+
+78
+0:03:22.26,000 --> 0:03:24,000
+at a certain point in the video
+
+79
+0:03:24.26,000 --> 0:03:26,000
+and actual live audio from the machine
+
+80
+0:03:26.26,000 --> 0:03:28,000
+to play part of the song.
+
+81
+0:03:29.26,000 --> 0:03:31,000
+And as if that wasn't enough,
+
+82
+0:03:31.26,000 --> 0:03:34,000
+all of these incredibly complicating things, right,
+
+83
+0:03:34.26,000 --> 0:03:36,000
+they wanted it in one shot.
+
+84
+0:03:36.26,000 --> 0:03:38,000
+(Laughter)
+
+85
+0:03:38.26,000 --> 0:03:42,000
+(Applause)
+
+86
+0:03:43.26,000 --> 0:03:45,000
+Okay.
+
+87
+0:03:46.26,000 --> 0:03:48,000
+So, just some statistics
+
+88
+0:03:48.26,000 --> 0:03:5,000
+about what we went through in the process.
+
+89
+0:03:50.26,000 --> 0:03:52,000
+The machine itself has
+
+90
+0:03:52.26,000 --> 0:03:54,000
+89 distinct interactions.
+
+91
+0:03:54.26,000 --> 0:03:57,000
+It took us 85 takes
+
+92
+0:03:57.26,000 --> 0:03:59,000
+to get it on film
+
+93
+0:03:59.26,000 --> 0:04:01,000
+to our satisfaction.
+
+94
+0:04:01.26,000 --> 0:04:03,000
+Of those 85 takes,
+
+95
+0:04:03.26,000 --> 0:04:06,000
+only three actually successfully completed their run.
+
+96
+0:04:07.26,000 --> 0:04:09,000
+We destroyed two pianos
+
+97
+0:04:09.26,000 --> 0:04:12,000
+and 10 televisions in the process.
+
+98
+0:04:12.26,000 --> 0:04:15,000
+We went to Home Depot well over a hundred times.
+
+99
+0:04:15.26,000 --> 0:04:17,000
+(Laughter)
+
+100
+0:04:17.26,000 --> 0:04:2,000
+And we lost one high-heeled shoe
+
+101
+0:04:20.26,000 --> 0:04:22,000
+when one of our engineers, Heather Knight,
+
+102
+0:04:22.26,000 --> 0:04:24,000
+left her high-heeled shoe -- after a nice dinner,
+
+103
+0:04:24.26,000 --> 0:04:26,000
+and returned back to the build --
+
+104
+0:04:26.26,000 --> 0:04:28,000
+and left it in a pile of stuff.
+
+105
+0:04:28.26,000 --> 0:04:3,000
+And another engineer thought, "Well, that would be a really good thing to use"
+
+106
+0:04:30.26,000 --> 0:04:32,000
+and ended up using it as a really nice trigger.
+
+107
+0:04:32.26,000 --> 0:04:35,000
+And it's actually in the machine.
+
+108
+0:04:35.26,000 --> 0:04:37,000
+So what did we learn from all of this?
+
+109
+0:04:37.26,000 --> 0:04:39,000
+Well, having completed this,
+
+110
+0:04:39.26,000 --> 0:04:41,000
+we have the opportunity to step back and reflect
+
+111
+0:04:41.26,000 --> 0:04:43,000
+on some of the things.
+
+112
+0:04:43.26,000 --> 0:04:45,000
+And we learned that small stuff stinks.
+
+113
+0:04:45.26,000 --> 0:04:48,000
+Little balls in wooden tracks
+
+114
+0:04:48.26,000 --> 0:04:5,000
+are really susceptible to
+
+115
+0:04:50.26,000 --> 0:04:52,000
+humidity and temperature and a little bit of dust,
+
+116
+0:04:52.26,000 --> 0:04:54,000
+and they fall out of the tracks,
+
+117
+0:04:54.26,000 --> 0:04:56,000
+the exact angles makes it hard to get right.
+
+118
+0:04:56.26,000 --> 0:04:59,000
+And yet, a bowling ball will always follow the same path.
+
+119
+0:04:59.26,000 --> 0:05:01,000
+It doesn't matter what temperature it is,
+
+120
+0:05:01.26,000 --> 0:05:03,000
+doesn't matter what's in its way;
+
+121
+0:05:03.26,000 --> 0:05:05,000
+it will pretty much get where it needs to go.
+
+122
+0:05:05.26,000 --> 0:05:07,000
+But as much as the small stuff stinks, we needed somewhere to start,
+
+123
+0:05:07.26,000 --> 0:05:09,000
+so that we would have somewhere to go.
+
+124
+0:05:09.26,000 --> 0:05:12,000
+And so you have to start with it. You have to focus on it.
+
+125
+0:05:12.26,000 --> 0:05:14,000
+Small stuff stinks,
+
+126
+0:05:14.26,000 --> 0:05:16,000
+but, of course, it's essential, right?
+
+127
+0:05:16.26,000 --> 0:05:19,000
+What else? Planning is incredibly important.
+
+128
+0:05:19.26,000 --> 0:05:23,000
+(Laughter)
+
+129
+0:05:23.26,000 --> 0:05:25,000
+You know, we spent a lot of time ideating
+
+130
+0:05:25.26,000 --> 0:05:27,000
+and even building some of these things.
+
+131
+0:05:27.26,000 --> 0:05:29,000
+It's been said that, "No battle plan
+
+132
+0:05:29.26,000 --> 0:05:31,000
+survives contact with the enemy."
+
+133
+0:05:31.26,000 --> 0:05:33,000
+I think our enemy was physics --
+
+134
+0:05:33.26,000 --> 0:05:35,000
+(Laughter)
+
+135
+0:05:35.26,000 --> 0:05:38,000
+and she's a cruel mistress.
+
+136
+0:05:38.26,000 --> 0:05:4,000
+Often, we had to pull things out as a result
+
+137
+0:05:40.26,000 --> 0:05:43,000
+because of timing or aesthetics or whatever.
+
+138
+0:05:43.26,000 --> 0:05:46,000
+And so while planning is important, so is flexibility.
+
+139
+0:05:46.26,000 --> 0:05:48,000
+These are all things that ended up
+
+140
+0:05:48.26,000 --> 0:05:5,000
+not making it into the final machine.
+
+141
+0:05:50.26,000 --> 0:05:53,000
+So also, put reliable stuff last,
+
+142
+0:05:54.26,000 --> 0:05:56,000
+the stuff that's going to run every time.
+
+143
+0:05:56.26,000 --> 0:05:59,000
+Again, small to large is relevant here.
+
+144
+0:05:59.26,000 --> 0:06:02,000
+The little Lego car in the beginning of the video
+
+145
+0:06:02.26,000 --> 0:06:04,000
+references the big, real car
+
+146
+0:06:04.26,000 --> 0:06:06,000
+near the end of the video.
+
+147
+0:06:06.26,000 --> 0:06:09,000
+The big, real car works every time; there's no problem about it.
+
+148
+0:06:09.26,000 --> 0:06:11,000
+The little one had a tendency to try to run off the track
+
+149
+0:06:11.26,000 --> 0:06:13,000
+and that's a problem.
+
+150
+0:06:13.26,000 --> 0:06:15,000
+But you don't want to have to reset the whole machine
+
+151
+0:06:15.26,000 --> 0:06:17,000
+because the Lego car at the end doesn't work, right.
+
+152
+0:06:17.26,000 --> 0:06:19,000
+So you put that up front so that, if it fails,
+
+153
+0:06:19.26,000 --> 0:06:21,000
+at least you know
+
+154
+0:06:21.26,000 --> 0:06:23,000
+you don't have to reset the whole thing.
+
+155
+0:06:23.26,000 --> 0:06:26,000
+Life can be
+
+156
+0:06:26.26,000 --> 0:06:28,000
+messy.
+
+157
+0:06:29.26,000 --> 0:06:32,000
+There were incredibly difficult moments in the building of this thing.
+
+158
+0:06:32.26,000 --> 0:06:35,000
+Months were spent in this tiny, cold warehouse.
+
+159
+0:06:35.26,000 --> 0:06:37,000
+And the wonderful elation that we had
+
+160
+0:06:37.26,000 --> 0:06:39,000
+when we finally completed it.
+
+161
+0:06:39.26,000 --> 0:06:42,000
+So it's important to remember that whether it's good or it's bad,
+
+162
+0:06:42.26,000 --> 0:06:44,000
+"This Too Shall Pass."
+
+163
+0:06:44.26,000 --> 0:06:46,000
+Thank you very much.
+
+164
+0:06:46.26,000 --> 0:06:52,000
+(Applause)
+
+165
+0:06:52.26,000 --> 0:06:54,000
+And now to introduce
+
+166
+0:06:54.26,000 --> 0:06:56,000
+their music video,
+
+167
+0:06:56.26,000 --> 0:06:58,000
+we have OK Go.
+
+168
+0:06:58.26,000 --> 0:07:,000
+OK Go: An introduction. Hello TEDxUSC.
+
+169
+0:07:00.26,000 --> 0:07:02,000
+We are OK Go.
+
+170
+0:07:02.26,000 --> 0:07:05,000
+What are we doing? Oh, just hanging out with our Grammy. What what!
+
+171
+0:07:05.26,000 --> 0:07:08,000
+It think we can do better than this. Hello TEDxUSC.
+
+172
+0:07:08.26,000 --> 0:07:11,000
+We are OK Go. Have you read the "Natural Curiosity Cabinet?"
+
+173
+0:07:11.26,000 --> 0:07:13,000
+I mean, "Curiosity" -- excuse me.
+
+174
+0:07:13.26,000 --> 0:07:15,000
+Let me start again.
+
+175
+0:07:15.26,000 --> 0:07:18,000
+We need some more ridiculous things besides "The Cabinet of Natural Curiosities."
+
+176
+0:07:18.26,000 --> 0:07:2,000
+Tim's sundial hat.
+
+177
+0:07:20.26,000 --> 0:07:22,000
+Have you seen the new work they've done to the Waltz Towers?
+
+178
+0:07:22.26,000 --> 0:07:24,000
+Sorry, start again.
+
+179
+0:07:24.26,000 --> 0:07:26,000
+(Barking)
+
+180
+0:07:26.26,000 --> 0:07:28,000
+Dogs.
+
+181
+0:07:28.26,000 --> 0:07:3,000
+Hello, TEDxUSC. We are OK Go,
+
+182
+0:07:30.26,000 --> 0:07:33,000
+and this our new video, "This Too Shall Pass."
+
+183
+0:07:33.26,000 --> 0:07:35,000
+[unclear]
+
+184
+0:07:35.26,000 --> 0:07:38,000
+Kay, we can still do one better I think, yeah.
+
+185
+0:07:38.26,000 --> 0:07:4,000
+That one's pretty good. It's getting better.
+
+186
+0:08:04.26,000 --> 0:08:14,000
+(Music)
+
+187
+0:08:21.26,000 --> 0:08:24,000

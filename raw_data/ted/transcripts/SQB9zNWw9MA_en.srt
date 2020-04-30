@@ -1,0 +1,744 @@
+1
+0:00:12.817,000 --> 0:00:16,000
+Recently, we've seen the effects of cyber attacks on the business world.
+
+2
+0:00:17.245,000 --> 0:00:22,000
+Data breaches at companies like JP Morgan, Yahoo, Home Depot and Target
+
+3
+0:00:22.68,000 --> 0:00:24,000
+have caused losses of hundreds of millions
+
+4
+0:00:25.395,000 --> 0:00:27,000
+and in some cases, billions of dollars.
+
+5
+0:00:28.792,000 --> 0:00:31,000
+It wouldn't take many large attacks to ravage the world economy.
+
+6
+0:00:33.229,000 --> 0:00:36,000
+And the public sector has not been immune, either.
+
+7
+0:00:36.706,000 --> 0:00:39,000
+In 2012 to 2014,
+
+8
+0:00:40.498,000 --> 0:00:44,000
+there was a significant data breach at the US Office of Personnel Management.
+
+9
+0:00:45.157,000 --> 0:00:48,000
+Security clearance and fingerprint data was compromised,
+
+10
+0:00:48.611,000 --> 0:00:52,000
+affecting 22 million employees.
+
+11
+0:00:53.561,000 --> 0:00:57,000
+And you may have heard of the attempt by state-sponsored hackers
+
+12
+0:00:57.688,000 --> 0:01:02,000
+to use stolen data to influence election outcomes in a number of countries.
+
+13
+0:01:03.624,000 --> 0:01:06,000
+Two recent examples are the compromise of a large amount of data
+
+14
+0:01:07.267,000 --> 0:01:1,000
+from the Bundestag, the national Parliament of Germany,
+
+15
+0:01:10.601,000 --> 0:01:14,000
+and the theft of emails from the US Democratic National Committee.
+
+16
+0:01:16.807,000 --> 0:01:2,000
+The cyber threat is now affecting our democratic processes.
+
+17
+0:01:21.712,000 --> 0:01:22,000
+And it's likely to get worse.
+
+18
+0:01:24.141,000 --> 0:01:27,000
+As computer technology is becoming more powerful,
+
+19
+0:01:27.903,000 --> 0:01:31,000
+the systems we use to protect our data are becoming more vulnerable.
+
+20
+0:01:33.093,000 --> 0:01:36,000
+Adding to the concern is a new type of computing technology,
+
+21
+0:01:36.665,000 --> 0:01:37,000
+called quantum computing,
+
+22
+0:01:38.68,000 --> 0:01:4,000
+which leverages microscopic properties of nature
+
+23
+0:01:41.657,000 --> 0:01:44,000
+to deliver unimaginable increases in computational power.
+
+24
+0:01:46.069,000 --> 0:01:5,000
+It's so powerful that it will crack many of the encryption systems
+
+25
+0:01:50.506,000 --> 0:01:51,000
+that we use today.
+
+26
+0:01:52.625,000 --> 0:01:54,000
+So is the situation hopeless?
+
+27
+0:01:55.228,000 --> 0:01:57,000
+Should we start packing our digital survival gear
+
+28
+0:01:58.109,000 --> 0:02:01,000
+and prepare for an upcoming data apocalypse?
+
+29
+0:02:02.283,000 --> 0:02:03,000
+I would say, not yet.
+
+30
+0:02:04.489,000 --> 0:02:05,000
+Quantum computing is still in the labs,
+
+31
+0:02:06.435,000 --> 0:02:09,000
+and it will take a few years until it's put to practical applications.
+
+32
+0:02:10.347,000 --> 0:02:11,000
+More important,
+
+33
+0:02:11.577,000 --> 0:02:14,000
+there have been major breakthroughs in the field of encryption.
+
+34
+0:02:15.497,000 --> 0:02:18,000
+For me, this is a particularly exciting time
+
+35
+0:02:18.522,000 --> 0:02:2,000
+in the history of secure communications.
+
+36
+0:02:21.759,000 --> 0:02:22,000
+About 15 years ago,
+
+37
+0:02:23.212,000 --> 0:02:25,000
+when I learned of our new-found ability
+
+38
+0:02:25.562,000 --> 0:02:28,000
+to create quantum effects that don't exist in nature,
+
+39
+0:02:29.371,000 --> 0:02:3,000
+I was excited.
+
+40
+0:02:30.814,000 --> 0:02:33,000
+The idea of applying the fundamental laws of physics
+
+41
+0:02:34.125,000 --> 0:02:35,000
+to make encryption stronger
+
+42
+0:02:35.88,000 --> 0:02:36,000
+really intrigued me.
+
+43
+0:02:38.069,000 --> 0:02:44,000
+Today, a select groups of companies and labs around the world, including mine,
+
+44
+0:02:44.284,000 --> 0:02:47,000
+are maturing this technology for practical applications.
+
+45
+0:02:48.26,000 --> 0:02:49,000
+That's right.
+
+46
+0:02:49.435,000 --> 0:02:52,000
+We are now preparing to fight quantum with quantum.
+
+47
+0:02:53.719,000 --> 0:02:54,000
+So how does this all work?
+
+48
+0:02:55.624,000 --> 0:02:58,000
+Well, first, let's take a quick tour of the world of encryption.
+
+49
+0:02:59.259,000 --> 0:03:01,000
+For that, you'll need a briefcase,
+
+50
+0:03:01.33,000 --> 0:03:04,000
+some important documents that you want to send your friend, James Bond,
+
+51
+0:03:05.345,000 --> 0:03:07,000
+and a lock to keep it all safe.
+
+52
+0:03:08.122,000 --> 0:03:13,000
+Because the documents are top secret, we're going to use an advanced briefcase.
+
+53
+0:03:13.321,000 --> 0:03:15,000
+It has a special combination lock
+
+54
+0:03:15.409,000 --> 0:03:16,000
+which, when closed,
+
+55
+0:03:16.998,000 --> 0:03:19,000
+converts all the text in the documents to random numbers.
+
+56
+0:03:20.434,000 --> 0:03:23,000
+So you put your documents inside, close the lock --
+
+57
+0:03:24.174,000 --> 0:03:27,000
+at which point in time the documents get converted to random numbers --
+
+58
+0:03:27.68,000 --> 0:03:29,000
+and you send the briefcase to James.
+
+59
+0:03:30.736,000 --> 0:03:33,000
+While it's on its way, you call him to give him the code.
+
+60
+0:03:34.387,000 --> 0:03:36,000
+When he gets the briefcase, he enters the code,
+
+61
+0:03:37.347,000 --> 0:03:39,000
+the documents get unscrambled, and voilà,
+
+62
+0:03:40.355,000 --> 0:03:43,000
+you've just sent an encoded message to James Bond.
+
+63
+0:03:44.228,000 --> 0:03:45,000
+(Laughter)
+
+64
+0:03:45.966,000 --> 0:03:49,000
+A fun example, but it does illustrate three things important for encryption.
+
+65
+0:03:50.776,000 --> 0:03:52,000
+The code -- we call this an encryption key.
+
+66
+0:03:53.641,000 --> 0:03:55,000
+You can think of it as a password.
+
+67
+0:03:56.093,000 --> 0:04:,000
+The call to James to give him the code for the combination lock.
+
+68
+0:04:00.966,000 --> 0:04:02,000
+We call this key exchange.
+
+69
+0:04:03.442,000 --> 0:04:04,000
+This is how you ensure
+
+70
+0:04:04.959,000 --> 0:04:07,000
+you get the encryption key securely to the right place.
+
+71
+0:04:09.164,000 --> 0:04:12,000
+And the lock, which encodes and decodes the document.
+
+72
+0:04:12.887,000 --> 0:04:14,000
+We call this an encryption algorithm.
+
+73
+0:04:15.53,000 --> 0:04:19,000
+Using the key, it encodes the text in the documents
+
+74
+0:04:20.522,000 --> 0:04:21,000
+to random numbers.
+
+75
+0:04:21.942,000 --> 0:04:23,000
+A good algorithm will encode in such a way
+
+76
+0:04:24.728,000 --> 0:04:27,000
+that without the key it's very difficult to unscramble.
+
+77
+0:04:29.529,000 --> 0:04:3,000
+What makes encryption so important
+
+78
+0:04:31.546,000 --> 0:04:34,000
+is that if someone were to capture the briefcase and cut it open
+
+79
+0:04:35.306,000 --> 0:04:38,000
+without the encryption key and the encryption algorithm,
+
+80
+0:04:38.592,000 --> 0:04:4,000
+they wouldn't be able to read the documents.
+
+81
+0:04:41.132,000 --> 0:04:45,000
+They would look like nothing more than a bunch of random numbers.
+
+82
+0:04:46.575,000 --> 0:04:5,000
+Most security systems rely on a secure method for key exchange
+
+83
+0:04:51.448,000 --> 0:04:55,000
+to communicate the encryption key to the right place.
+
+84
+0:04:56.862,000 --> 0:04:58,000
+However, rapid increases in computational power
+
+85
+0:04:59.862,000 --> 0:05:03,000
+are putting at risk a number of the key exchange methods we have today.
+
+86
+0:05:04.776,000 --> 0:05:08,000
+Consider one of the very widely used systems today -- RSA.
+
+87
+0:05:09.855,000 --> 0:05:12,000
+When it was invented, in 1977,
+
+88
+0:05:13.18,000 --> 0:05:17,000
+it was estimated that it would take 40 quadrillion years
+
+89
+0:05:17.704,000 --> 0:05:2,000
+to break a 426-bit RSA key.
+
+90
+0:05:22.006,000 --> 0:05:26,000
+In 1994, just 17 years later,
+
+91
+0:05:26.363,000 --> 0:05:27,000
+the code was broken.
+
+92
+0:05:29.355,000 --> 0:05:31,000
+As computers have become more and more powerful,
+
+93
+0:05:31.95,000 --> 0:05:33,000
+we've had to use larger and larger codes.
+
+94
+0:05:35.117,000 --> 0:05:4,000
+Today we routinely use 2048 or 4096 bits.
+
+95
+0:05:41.831,000 --> 0:05:46,000
+As you can see, code makers and breakers are engaged in an ongoing battle
+
+96
+0:05:46.886,000 --> 0:05:47,000
+to outwit each other.
+
+97
+0:05:50.553,000 --> 0:05:54,000
+And when quantum computers arrive in the next 10 to 15 years,
+
+98
+0:05:54.673,000 --> 0:05:58,000
+they will even more rapidly crack the complex mathematics
+
+99
+0:05:58.883,000 --> 0:06:01,000
+that underlies many of our encryption systems today.
+
+100
+0:06:03.034,000 --> 0:06:08,000
+Indeed, the quantum computer is likely to turn our present security castle
+
+101
+0:06:08.466,000 --> 0:06:1,000
+into a mere house of cards.
+
+102
+0:06:12.815,000 --> 0:06:15,000
+We have to find a way to defend our castle.
+
+103
+0:06:17.474,000 --> 0:06:19,000
+There's been a growing body of research in recent years
+
+104
+0:06:20.101,000 --> 0:06:23,000
+looking at using quantum effects to make encryption stronger.
+
+105
+0:06:23.76,000 --> 0:06:26,000
+And there have been some exciting breakthroughs.
+
+106
+0:06:27.474,000 --> 0:06:29,000
+Remember those three things important for encryption --
+
+107
+0:06:30.427,000 --> 0:06:34,000
+high-quality keys, secure key exchange and a strong algorithm?
+
+108
+0:06:35.831,000 --> 0:06:37,000
+Well, advances in science and engineering
+
+109
+0:06:38.522,000 --> 0:06:41,000
+are putting two of those three elements at risk.
+
+110
+0:06:42.45,000 --> 0:06:43,000
+First of all, those keys.
+
+111
+0:06:45.006,000 --> 0:06:49,000
+Random numbers are the foundational building blocks of encryption keys.
+
+112
+0:06:49.26,000 --> 0:06:51,000
+But today, they're not truly random.
+
+113
+0:06:52.641,000 --> 0:06:54,000
+Currently, we construct encryption keys
+
+114
+0:06:55.403,000 --> 0:06:58,000
+from sequences of random numbers generated from software,
+
+115
+0:06:59.236,000 --> 0:07:01,000
+so-called pseudo-random numbers.
+
+116
+0:07:02.712,000 --> 0:07:05,000
+Numbers generated by a program or a mathematical recipe
+
+117
+0:07:06.053,000 --> 0:07:09,000
+will have some, perhaps subtle, pattern to them.
+
+118
+0:07:10.784,000 --> 0:07:11,000
+The less random the numbers are,
+
+119
+0:07:12.36,000 --> 0:07:15,000
+or in scientific terms, the less entropy they contain,
+
+120
+0:07:15.728,000 --> 0:07:17,000
+the easier they are to predict.
+
+121
+0:07:18.917,000 --> 0:07:21,000
+Recently, several casinos have been victims of a creative attack.
+
+122
+0:07:22.863,000 --> 0:07:26,000
+The output of slot machines was recorded over a period of time
+
+123
+0:07:27.236,000 --> 0:07:28,000
+and then analyzed.
+
+124
+0:07:28.982,000 --> 0:07:29,000
+This allowed the cyber criminals
+
+125
+0:07:30.974,000 --> 0:07:33,000
+to reverse engineer the pseudo-random number generator
+
+126
+0:07:34.665,000 --> 0:07:35,000
+behind the spinning wheels.
+
+127
+0:07:36.688,000 --> 0:07:41,000
+And allowed them, with high accuracy, to predict the spins of the wheels,
+
+128
+0:07:42.019,000 --> 0:07:45,000
+enabling them to make big financial gains.
+
+129
+0:07:47.122,000 --> 0:07:5,000
+Similar risks apply to encryption keys.
+
+130
+0:07:50.815,000 --> 0:07:55,000
+So having a true random number generator is essential for secure encryption.
+
+131
+0:07:57.815,000 --> 0:08:02,000
+For years, researchers have been looking at building true random number generators.
+
+132
+0:08:03.093,000 --> 0:08:06,000
+But most designs to date are either not random enough,
+
+133
+0:08:06.49,000 --> 0:08:08,000
+fast enough or aren't easily repeatable.
+
+134
+0:08:10.053,000 --> 0:08:13,000
+But the quantum world is truly random.
+
+135
+0:08:13.546,000 --> 0:08:17,000
+So it makes sense to take advantage of this intrinsic randomness.
+
+136
+0:08:20.165,000 --> 0:08:21,000
+Devices that can measure quantum effects
+
+137
+0:08:22.101,000 --> 0:08:25,000
+can produce an endless stream of random numbers at high speed.
+
+138
+0:08:26.421,000 --> 0:08:29,000
+Foiling all those would-be casino criminals.
+
+139
+0:08:30.485,000 --> 0:08:33,000
+A select group of universities and companies around the world
+
+140
+0:08:34.086,000 --> 0:08:37,000
+are focused on building true random number generators.
+
+141
+0:08:37.895,000 --> 0:08:4,000
+At my company, our quantum random number generator
+
+142
+0:08:41.577,000 --> 0:08:44,000
+started life on a two meter by one meter optic table.
+
+143
+0:08:46.085,000 --> 0:08:49,000
+We were then able to reduce it to a server-size box.
+
+144
+0:08:50.736,000 --> 0:08:55,000
+Today, it's miniaturized into a PCI card that plugs into a standard computer.
+
+145
+0:08:59.482,000 --> 0:09:03,000
+This is the world's fastest true random number generator.
+
+146
+0:09:04.053,000 --> 0:09:09,000
+It measures quantum effects to produce a billion random numbers per second.
+
+147
+0:09:09.877,000 --> 0:09:12,000
+And it's in use today to improve security
+
+148
+0:09:13.25,000 --> 0:09:16,000
+at cloud providers, banks and government agencies
+
+149
+0:09:16.948,000 --> 0:09:17,000
+around the world.
+
+150
+0:09:18.788,000 --> 0:09:24,000
+(Applause)
+
+151
+0:09:27.319,000 --> 0:09:29,000
+But even with a true random number generator,
+
+152
+0:09:29.911,000 --> 0:09:31,000
+we've still got the second big cyber threat:
+
+153
+0:09:32.831,000 --> 0:09:34,000
+the problem of secure key exchange.
+
+154
+0:09:36.315,000 --> 0:09:4,000
+Current key exchange techniques will not stand up to a quantum computer.
+
+155
+0:09:41.865,000 --> 0:09:42,000
+The quantum solution to this problem
+
+156
+0:09:43.818,000 --> 0:09:46,000
+is called quantum key distribution or QKD,
+
+157
+0:09:47.893,000 --> 0:09:51,000
+which leverages a fundamental, counterintuitive characteristic
+
+158
+0:09:52.252,000 --> 0:09:53,000
+of quantum mechanics.
+
+159
+0:09:54.077,000 --> 0:09:58,000
+The very act of looking at a quantum particle changes it.
+
+160
+0:10:00.173,000 --> 0:10:02,000
+Let me give you an example of how this works.
+
+161
+0:10:02.927,000 --> 0:10:06,000
+Consider again exchanging the code for the lock with James Bond.
+
+162
+0:10:07.974,000 --> 0:10:11,000
+Except this time, instead of a call to give James the code,
+
+163
+0:10:12.156,000 --> 0:10:16,000
+we're going to use quantum effects on a laser to carry the code
+
+164
+0:10:16.228,000 --> 0:10:19,000
+and send it over standard optic fiber to James.
+
+165
+0:10:20.774,000 --> 0:10:24,000
+We assume that Dr. No is trying to hack the exchange.
+
+166
+0:10:26.53,000 --> 0:10:31,000
+Luckily, Dr. No's attempt to intercept the quantum keys while in transit
+
+167
+0:10:31.797,000 --> 0:10:34,000
+will leave fingerprints that James and you can detect.
+
+168
+0:10:36.043,000 --> 0:10:39,000
+This allows those intercepted keys to be discarded.
+
+169
+0:10:40.026,000 --> 0:10:41,000
+The keys which are then retained
+
+170
+0:10:41.807,000 --> 0:10:44,000
+can be used to provide very strong data protection.
+
+171
+0:10:45.815,000 --> 0:10:49,000
+And because the security is based on the fundamental laws of physics,
+
+172
+0:10:50.125,000 --> 0:10:54,000
+a quantum computer, or indeed any future supercomputer
+
+173
+0:10:54.212,000 --> 0:10:55,000
+will not be able to break it.
+
+174
+0:10:56.768,000 --> 0:10:58,000
+My team and I are collaborating with leading universities
+
+175
+0:10:59.728,000 --> 0:11:,000
+and the defense sector
+
+176
+0:11:01.046,000 --> 0:11:03,000
+to mature this exciting technology
+
+177
+0:11:03.506,000 --> 0:11:06,000
+into the next generation of security products.
+
+178
+0:11:07.895,000 --> 0:11:12,000
+The internet of things is heralding a hyperconnected era
+
+179
+0:11:13.657,000 --> 0:11:19,000
+with 25 to 30 billion connected devices forecast by 2020.
+
+180
+0:11:20.569,000 --> 0:11:25,000
+For the correct functioning of our society in an IoT world,
+
+181
+0:11:25.704,000 --> 0:11:29,000
+trust in the systems that support these connected devices is vital.
+
+182
+0:11:31.704,000 --> 0:11:35,000
+We're betting that quantum technologies will be essential in providing this trust,
+
+183
+0:11:36.887,000 --> 0:11:4,000
+enabling us to fully benefit from the amazing innovations
+
+184
+0:11:41.47,000 --> 0:11:43,000
+that are going to so enrich our lives.
+
+185
+0:11:46.046,000 --> 0:11:47,000
+Thank you.
+
+186
+0:11:47.22,000 --> 0:11:51,000
+(Applause)
+

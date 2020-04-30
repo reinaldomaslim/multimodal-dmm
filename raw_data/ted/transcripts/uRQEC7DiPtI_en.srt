@@ -1,0 +1,516 @@
+1
+0:00:12.792,000 --> 0:00:13,000
+Hi everybody.
+
+2
+0:00:14.083,000 --> 0:00:15,000
+My name is Matt Cutts,
+
+3
+0:00:15.375,000 --> 0:00:19,000
+and I worked at Google for almost 17 years.
+
+4
+0:00:19.833,000 --> 0:00:2,000
+As a distinguished engineer there,
+
+5
+0:00:21.75,000 --> 0:00:25,000
+I was pretty close to the top of the Silicon Valley ecosystem.
+
+6
+0:00:25.917,000 --> 0:00:28,000
+Then I decided to follow some inspiring folks
+
+7
+0:00:28.958,000 --> 0:00:32,000
+and do a short tour at the US Digital Service.
+
+8
+0:00:33.042,000 --> 0:00:36,000
+That's the group of geeks that helped rescue HealthCare.gov
+
+9
+0:00:36.25,000 --> 0:00:39,000
+when that website went down hard in 2013.
+
+10
+0:00:40.042,000 --> 0:00:41,000
+Yeah.
+
+11
+0:00:41.333,000 --> 0:00:43,000
+So I signed up for a three-to-six-month tour,
+
+12
+0:00:43.958,000 --> 0:00:45,000
+and almost three years later,
+
+13
+0:00:46.417,000 --> 0:00:48,000
+I'm still in Washington DC,
+
+14
+0:00:48.5,000 --> 0:00:49,000
+working for the federal government,
+
+15
+0:00:50.25,000 --> 0:00:53,000
+because the government really needs technologists right now.
+
+16
+0:00:54.167,000 --> 0:00:55,000
+At my old job,
+
+17
+0:00:55.458,000 --> 0:00:57,000
+every room had videoconferencing
+
+18
+0:00:58.083,000 --> 0:01:,000
+integrated with calendars,
+
+19
+0:01:00.292,000 --> 0:01:04,000
+power cables were built right into the furniture.
+
+20
+0:01:04.417,000 --> 0:01:06,000
+When I moved to a government agency,
+
+21
+0:01:07,000 --> 0:01:09,000
+I had to call a person to set up a phone conference.
+
+22
+0:01:09.958,000 --> 0:01:1,000
+And when we moved to a new office,
+
+23
+0:01:11.708,000 --> 0:01:12,000
+we didn't have furniture for a while,
+
+24
+0:01:13.583,000 --> 0:01:15,000
+so we set up the phone on a trash can.
+
+25
+0:01:17.625,000 --> 0:01:2,000
+One of the things that surprised me, whenever I moved to DC,
+
+26
+0:01:20.917,000 --> 0:01:23,000
+is how much the government still has to deal with paper.
+
+27
+0:01:25.5,000 --> 0:01:27,000
+This is a facility in Winston-Salem,
+
+28
+0:01:27.542,000 --> 0:01:28,000
+North Carolina,
+
+29
+0:01:28.958,000 --> 0:01:29,000
+where people were worried
+
+30
+0:01:30.542,000 --> 0:01:33,000
+that the building might be structurally unsound
+
+31
+0:01:34,000 --> 0:01:36,000
+from the weight of all that paper.
+
+32
+0:01:36.292,000 --> 0:01:37,000
+Yeah.
+
+33
+0:01:37.583,000 --> 0:01:38,000
+Paper has some downsides.
+
+34
+0:01:38.875,000 --> 0:01:39,000
+Here's a pop quiz:
+
+35
+0:01:40.167,000 --> 0:01:43,000
+If your last name starts with H or higher,
+
+36
+0:01:44.125,000 --> 0:01:47,000
+H or higher, would you raise your hand?
+
+37
+0:01:48.667,000 --> 0:01:49,000
+Wow.
+
+38
+0:01:49.958,000 --> 0:01:5,000
+I have some bad news:
+
+39
+0:01:51.25,000 --> 0:01:53,000
+Your veteran records might have been destroyed
+
+40
+0:01:53.458,000 --> 0:01:54,000
+in a fire in 1973.
+
+41
+0:01:54.792,000 --> 0:01:55,000
+(Laughter)
+
+42
+0:01:55.833,000 --> 0:01:56,000
+Yeah.
+
+43
+0:01:57.125,000 --> 0:02:01,000
+Paper processes are also slower and more prone to errors.
+
+44
+0:02:01.958,000 --> 0:02:02,000
+If you're a veteran
+
+45
+0:02:03.25,000 --> 0:02:05,000
+and you're applying for your health benefits
+
+46
+0:02:05.375,000 --> 0:02:06,000
+using a paper form,
+
+47
+0:02:06.667,000 --> 0:02:1,000
+you might have to wait months for that form to be processed.
+
+48
+0:02:10.875,000 --> 0:02:12,000
+We replaced that with a web form,
+
+49
+0:02:13.292,000 --> 0:02:14,000
+and now most veterans find out
+
+50
+0:02:15.042,000 --> 0:02:17,000
+if they can get access to their health benefits
+
+51
+0:02:17.417,000 --> 0:02:18,000
+in 10 minutes.
+
+52
+0:02:18.958,000 --> 0:02:2,000
+(Applause)
+
+53
+0:02:21.75,000 --> 0:02:22,000
+Here's another launch that I'm proud of.
+
+54
+0:02:23.708,000 --> 0:02:25,000
+We worked with the Small Business Administration
+
+55
+0:02:26,000 --> 0:02:29,000
+to move one of their systems from paper to digital.
+
+56
+0:02:29.25,000 --> 0:02:3,000
+So this is a picture from before,
+
+57
+0:02:31.25,000 --> 0:02:33,000
+and this is afterwards.
+
+58
+0:02:33.75,000 --> 0:02:35,000
+Same cubicles, same people,
+
+59
+0:02:36.208,000 --> 0:02:38,000
+just a better system for everyone.
+
+60
+0:02:39.417,000 --> 0:02:42,000
+At one point, we wanted to celebrate modernizing a different system,
+
+61
+0:02:42.667,000 --> 0:02:43,000
+and so we went to a local grocery store
+
+62
+0:02:44.583,000 --> 0:02:45,000
+and we said, "Can you make a cake
+
+63
+0:02:46.25,000 --> 0:02:48,000
+and decorate it with the form that we've digitized?"
+
+64
+0:02:49.208,000 --> 0:02:52,000
+And the grocery store got really weirded out by that request.
+
+65
+0:02:52.792,000 --> 0:02:55,000
+They wanted a letter on official government letterhead.
+
+66
+0:02:55.917,000 --> 0:02:58,000
+Well, we work for the government, so we wrote a letter that said,
+
+67
+0:02:59.083,000 --> 0:03:01,000
+"You can use this public-domain form
+
+68
+0:03:01.5,000 --> 0:03:04,000
+on a cake for celebratory purposes."
+
+69
+0:03:04.625,000 --> 0:03:06,000
+(Laughter)
+
+70
+0:03:06.667,000 --> 0:03:08,000
+Which led to bad jokes about filling forms out in triplicake.
+
+71
+0:03:09.625,000 --> 0:03:1,000
+Yes, dad jokes in government.
+
+72
+0:03:11.5,000 --> 0:03:13,000
+Now I've talked a lot about paper,
+
+73
+0:03:14.333,000 --> 0:03:17,000
+but we also bring up computer systems that go down.
+
+74
+0:03:18,000 --> 0:03:2,000
+We bring in modern technology practices,
+
+75
+0:03:20.375,000 --> 0:03:23,000
+like user-centered design and the cloud,
+
+76
+0:03:23.625,000 --> 0:03:25,000
+and we also help improve procurement.
+
+77
+0:03:26.5,000 --> 0:03:28,000
+It turns out government buys software
+
+78
+0:03:29.375,000 --> 0:03:33,000
+the same way that it buys chairs and brownies and tanks:
+
+79
+0:03:34.167,000 --> 0:03:39,000
+from government regulations that are over 1,000 pages long.
+
+80
+0:03:39.292,000 --> 0:03:42,000
+So yes, there's some stuff that's messed up in government right now.
+
+81
+0:03:43,000 --> 0:03:46,000
+But if you think Silicon Valley is the savior in this story,
+
+82
+0:03:46.167,000 --> 0:03:47,000
+(Laughs)
+
+83
+0:03:47.458,000 --> 0:03:48,000
+you've got another thing coming.
+
+84
+0:03:49.25,000 --> 0:03:51,000
+Some of the best and brightest minds in technology
+
+85
+0:03:52.125,000 --> 0:03:53,000
+are working on meal-delivery start-ups
+
+86
+0:03:54.125,000 --> 0:03:55,000
+and scooters
+
+87
+0:03:55.417,000 --> 0:03:58,000
+and how to deliver weed to people better.
+
+88
+0:03:59.333,000 --> 0:04:02,000
+Is that really the most important thing to work on right now?
+
+89
+0:04:03.792,000 --> 0:04:07,000
+Silicon Valley likes to talk about making the world a better place.
+
+90
+0:04:07.917,000 --> 0:04:1,000
+But you feel your impact in a much more visceral way
+
+91
+0:04:11.708,000 --> 0:04:12,000
+in government.
+
+92
+0:04:14.042,000 --> 0:04:16,000
+This is somebody whose dad passed away.
+
+93
+0:04:16.833,000 --> 0:04:18,000
+He hunted me down on Twitter
+
+94
+0:04:18.875,000 --> 0:04:21,000
+to say that a system that we had improved
+
+95
+0:04:21.917,000 --> 0:04:23,000
+worked well for him during a tough time.
+
+96
+0:04:25.333,000 --> 0:04:28,000
+Those tough times are when government needs to work well
+
+97
+0:04:28.458,000 --> 0:04:3,000
+and why we need innovation in government.
+
+98
+0:04:31.333,000 --> 0:04:32,000
+Now I have a confession to make.
+
+99
+0:04:32.881,000 --> 0:04:33,000
+When I came to DC,
+
+100
+0:04:34.25,000 --> 0:04:37,000
+I sometimes used words like bureaucrat.
+
+101
+0:04:38.125,000 --> 0:04:39,000
+These days,
+
+102
+0:04:39.417,000 --> 0:04:42,000
+I'm much more likely to use words like civil servant.
+
+103
+0:04:42.625,000 --> 0:04:44,000
+Like Francine, who can make you cry.
+
+104
+0:04:45.542,000 --> 0:04:46,000
+Or at least, she made me cry,
+
+105
+0:04:47.458,000 --> 0:04:49,000
+because she's so inspiring.
+
+106
+0:04:50.125,000 --> 0:04:53,000
+I am also deeply, fiercely proud of my colleagues.
+
+107
+0:04:54.125,000 --> 0:04:57,000
+They will work through illogical situations
+
+108
+0:04:57.542,000 --> 0:05:,000
+and put in late nights to get to the right result.
+
+109
+0:05:01.833,000 --> 0:05:03,000
+The government can't pay huge salary bonuses,
+
+110
+0:05:04.458,000 --> 0:05:07,000
+so we ended up making our own awards.
+
+111
+0:05:07.75,000 --> 0:05:09,000
+Our mascot is a crab named Molly.
+
+112
+0:05:10.75,000 --> 0:05:13,000
+And so that award is actually a crab-shaped purse,
+
+113
+0:05:14.667,000 --> 0:05:15,000
+screwed into sheet metal.
+
+114
+0:05:18.208,000 --> 0:05:2,000
+These days, I believe less in silver bullets
+
+115
+0:05:21.083,000 --> 0:05:23,000
+that are going to fix everything.
+
+116
+0:05:24.25,000 --> 0:05:25,000
+I believe more
+
+117
+0:05:26.083,000 --> 0:05:28,000
+in the people who show up to help.
+
+118
+0:05:29.333,000 --> 0:05:31,000
+If you're looking for something deeply meaningful --
+
+119
+0:05:32.042,000 --> 0:05:36,000
+and full disclosure, sometimes incredibly frustrating --
+
+120
+0:05:36.875,000 --> 0:05:38,000
+here's what you need to know.
+
+121
+0:05:38.917,000 --> 0:05:39,000
+There is something difficult
+
+122
+0:05:40.833,000 --> 0:05:45,000
+and messy and vital and magical happening
+
+123
+0:05:46,000 --> 0:05:48,000
+when civil servants partner with technologists
+
+124
+0:05:48.917,000 --> 0:05:51,000
+at the city and state and national level.
+
+125
+0:05:52.417,000 --> 0:05:54,000
+You don't have to do it forever.
+
+126
+0:05:54.458,000 --> 0:05:57,000
+But you can make a difference in public service
+
+127
+0:05:57.792,000 --> 0:05:58,000
+right now.
+
+128
+0:05:59.417,000 --> 0:06:,000
+Thank you.
+
+129
+0:06:00.708,000 --> 0:06:03,000
+(Applause)
+

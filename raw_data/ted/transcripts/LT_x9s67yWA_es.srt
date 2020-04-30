@@ -1,0 +1,572 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: John Walker Revisor: Rafael Ortiz
+
+2
+0:00:16.26,000 --> 0:00:18,000
+Si puedo dejarlos este día con una sola gran idea,
+
+3
+0:00:18.26,000 --> 0:00:2,000
+es que el cúmulo de datos
+
+4
+0:00:20.26,000 --> 0:00:22,000
+que consumimos
+
+5
+0:00:22.26,000 --> 0:00:24,000
+es mayor que la suma de las partes,
+
+6
+0:00:24.26,000 --> 0:00:27,000
+y, en lugar de verlo como una sobrecarga de información,
+
+7
+0:00:27.26,000 --> 0:00:29,000
+Lo que quiero que piensen es en cómo
+
+8
+0:00:29.26,000 --> 0:00:32,000
+podemos utilizar esa información para resaltar patrones
+
+9
+0:00:32.26,000 --> 0:00:35,000
+y ver tendencias que de otro modo serian invisibles.
+
+10
+0:00:35.26,000 --> 0:00:38,000
+Así que lo que estamos viendo aquí es una tabla típica de mortalidad
+
+11
+0:00:38.26,000 --> 0:00:4,000
+organizada por edad.
+
+12
+0:00:40.26,000 --> 0:00:42,000
+Esta herramienta que uso es un pequeño experimento.
+
+13
+0:00:42.26,000 --> 0:00:45,000
+Se llama Pivot, y con Pivot lo que puedo hacer
+
+14
+0:00:45.26,000 --> 0:00:49,000
+es filtrar una causa en particular de muertes, digamos accidentes.
+
+15
+0:00:49.26,000 --> 0:00:52,000
+E inmediatamente vemos que se hace evidente un patrón diferente.
+
+16
+0:00:52.26,000 --> 0:00:54,000
+Esto es porque, en la sección central aquí,
+
+17
+0:00:54.26,000 --> 0:00:56,000
+las personas están su etapa mas activa,
+
+18
+0:00:56.26,000 --> 0:00:58,000
+y aquí están en la mas frágil.
+
+19
+0:00:58.26,000 --> 0:01:,000
+Podemos nuevamente volver atrás
+
+20
+0:01:00.26,000 --> 0:01:02,000
+y reorganizar los datos por causa de muerte,
+
+21
+0:01:02.26,000 --> 0:01:05,000
+viendo que las enfermedades circulatorias y el cáncer
+
+22
+0:01:05.26,000 --> 0:01:08,000
+son los sospechosos usuales, aunque no para todos.
+
+23
+0:01:08.26,000 --> 0:01:11,000
+Si filtramos por edad,
+
+24
+0:01:11.26,000 --> 0:01:13,000
+digamos menores de 40 años,
+
+25
+0:01:13.26,000 --> 0:01:15,000
+vemos que los accidentes son realmente
+
+26
+0:01:15.26,000 --> 0:01:18,000
+la principal causa de la que la gente debe preocuparse.
+
+27
+0:01:18.26,000 --> 0:01:21,000
+Y si te adentras mas en eso, es mas común en el caso de los hombres.
+
+28
+0:01:21.26,000 --> 0:01:23,000
+Así que entienden la idea
+
+29
+0:01:23.26,000 --> 0:01:26,000
+de que ver la información y los datos en esta manera,
+
+30
+0:01:26.26,000 --> 0:01:28,000
+es como nadar
+
+31
+0:01:28.26,000 --> 0:01:31,000
+en una infografía viviente de información.
+
+32
+0:01:31.26,000 --> 0:01:33,000
+Y si podemos hacer esto con datos crudos,
+
+33
+0:01:33.26,000 --> 0:01:36,000
+¿Por qué no lo hacemos también para contenido?
+
+34
+0:01:36.26,000 --> 0:01:38,000
+Así que lo que tenemos aquí,
+
+35
+0:01:38.26,000 --> 0:01:41,000
+es la portada de todas las Sports Illustrated
+
+36
+0:01:41.26,000 --> 0:01:43,000
+que se han producido.
+
+37
+0:01:43.26,000 --> 0:01:45,000
+Todo esta aquí. En la web.
+
+38
+0:01:45.26,000 --> 0:01:48,000
+Pueden regresar a sus habitaciones e intentar esto después de mi platica.
+
+39
+0:01:48.26,000 --> 0:01:51,000
+Con Pivot pueden reducirlo a una década.
+
+40
+0:01:51.26,000 --> 0:01:53,000
+O reducirlo a un año en particular.
+
+41
+0:01:53.26,000 --> 0:01:56,000
+O puedes brincar directo a una edición en particular.
+
+42
+0:01:56.26,000 --> 0:01:58,000
+Asi que estoy viendo esto, veo atletas
+
+43
+0:01:58.26,000 --> 0:02:,000
+que han aparecido en esta edición, los deportes.
+
+44
+0:02:00.26,000 --> 0:02:03,000
+Soy un fan de Lance Armstrong, así que le daré clic a eso,
+
+45
+0:02:03.26,000 --> 0:02:05,000
+que me revela, todas las ediciones
+
+46
+0:02:05.26,000 --> 0:02:07,000
+en las que está Lance Armostrong.
+
+47
+0:02:07.26,000 --> 0:02:1,000
+(Aplausos)
+
+48
+0:02:10.26,000 --> 0:02:13,000
+Ahora si solo quieren darle un vistazo a esto,
+
+49
+0:02:13.26,000 --> 0:02:15,000
+podríamos pensar,
+
+50
+0:02:15.26,000 --> 0:02:17,000
+"¿Qué tal si vemos todo lo relacionado con el ciclismo?"
+
+51
+0:02:17.26,000 --> 0:02:19,000
+Así que puedo volver, y expandir eso.
+
+52
+0:02:19.26,000 --> 0:02:21,000
+Y ahora veo a Greg Lemond.
+
+53
+0:02:21.26,000 --> 0:02:23,000
+Así tienes una idea de que cuando
+
+54
+0:02:23.26,000 --> 0:02:25,000
+navegas la información de esta manera,
+
+55
+0:02:25.26,000 --> 0:02:27,000
+acotando, expandiendo,
+
+56
+0:02:27.26,000 --> 0:02:29,000
+adentrándote, retirándote,
+
+57
+0:02:29.26,000 --> 0:02:31,000
+no estás buscando, no estás navegando.
+
+58
+0:02:31.26,000 --> 0:02:33,000
+Estas haciendo algo ligeramente distinto.
+
+59
+0:02:33.26,000 --> 0:02:36,000
+Es un intermedio, y pensamos que cambia
+
+60
+0:02:36.26,000 --> 0:02:38,000
+la forma en que se aprovecha la información.
+
+61
+0:02:38.26,000 --> 0:02:4,000
+Así que quiero extrapolar un poco esta idea
+
+62
+0:02:40.26,000 --> 0:02:42,000
+algo que es un poco loco.
+
+63
+0:02:42.26,000 --> 0:02:45,000
+Lo que hemos hecho es que hemos tomado todas las páginas de wikipedia
+
+64
+0:02:45.26,000 --> 0:02:48,000
+y las hemos reducido a un pequeño resumen.
+
+65
+0:02:48.26,000 --> 0:02:51,000
+El resumen consiste en una pequeña sinopsis
+
+66
+0:02:51.26,000 --> 0:02:54,000
+y un ícono que indica el área de tópicos de la que proviene.
+
+67
+0:02:54.26,000 --> 0:02:57,000
+Solo estoy mostrando las 500
+
+68
+0:02:57.26,000 --> 0:02:59,000
+páginas mas populares de Wikipedia.
+
+69
+0:02:59.26,000 --> 0:03:01,000
+Pero aún en esta vista limitada,
+
+70
+0:03:01.26,000 --> 0:03:03,000
+podemos hacer muchas cosas.
+
+71
+0:03:03.26,000 --> 0:03:05,000
+De inmediato, podemos tener un sentir de los topicos
+
+72
+0:03:05.26,000 --> 0:03:07,000
+más populares en Wikipedia.
+
+73
+0:03:07.26,000 --> 0:03:09,000
+Voy a aventurarme a seleccionar gobierno.
+
+74
+0:03:09.26,000 --> 0:03:12,000
+Ahora, habiendo seleccionado gobierno,
+
+75
+0:03:12.26,000 --> 0:03:14,000
+puedo ver que las categorías de Wikipedia
+
+76
+0:03:14.26,000 --> 0:03:16,000
+que más frecuentemente corresponden a eso
+
+77
+0:03:16.26,000 --> 0:03:19,000
+son la revista Time Personas del Año.
+
+78
+0:03:19.26,000 --> 0:03:22,000
+Esto es verdaderamente importante porque esto revela
+
+79
+0:03:22.26,000 --> 0:03:25,000
+algo que no estaba contenido en ninguna página de Wikipedia.
+
+80
+0:03:25.26,000 --> 0:03:27,000
+Solo es posible dar esa mirada
+
+81
+0:03:27.26,000 --> 0:03:3,000
+cuando das un paso atrás y lo ves todo.
+
+82
+0:03:30.26,000 --> 0:03:32,000
+Viendo uno de estos resúmenes en particular,
+
+83
+0:03:32.26,000 --> 0:03:35,000
+Puedo entonces indagar en el concepto de
+
+84
+0:03:35.26,000 --> 0:03:37,000
+la revista Time Personas del Año,
+
+85
+0:03:37.26,000 --> 0:03:39,000
+y verlas todas.
+
+86
+0:03:39.26,000 --> 0:03:41,000
+Así que viendo a estas personas,
+
+87
+0:03:41.26,000 --> 0:03:44,000
+puedo ver que la mayoría de ellas viene del gobierno.
+
+88
+0:03:45.26,000 --> 0:03:48,000
+Algunos vienen de ciencias naturales.
+
+89
+0:03:49.26,000 --> 0:03:52,000
+Unos cuantos, vienen del mundo de los negocios.
+
+90
+0:03:53.26,000 --> 0:03:55,000
+Ahí esta mi jefe.
+
+91
+0:03:55.26,000 --> 0:04:,000
+Y uno de ellos viene de la música.
+
+92
+0:04:00.26,000 --> 0:04:02,000
+Y de mayor interés,
+
+93
+0:04:02.26,000 --> 0:04:05,000
+Bono también es un ganador del premio TED.
+
+94
+0:04:05.26,000 --> 0:04:08,000
+Así que podemos saltar y dar un vistazo a todos los ganadores del premio TED.
+
+95
+0:04:08.26,000 --> 0:04:11,000
+Como ven, estamos navegando la Web por primera vez
+
+96
+0:04:11.26,000 --> 0:04:14,000
+como si realmente fuera una red, no de página en página,
+
+97
+0:04:14.26,000 --> 0:04:16,000
+sino a un nivel mayor de abstracción.
+
+98
+0:04:16.26,000 --> 0:04:18,000
+Quiero mostrarles una cosa más
+
+99
+0:04:18.26,000 --> 0:04:21,000
+que pueda quizá sorprenderles un poco.
+
+100
+0:04:21.26,000 --> 0:04:24,000
+Solo estoy mostrando aquí el sito del New York Times.
+
+101
+0:04:24.26,000 --> 0:04:26,000
+Y Pivot, esta herramienta --
+
+102
+0:04:26.26,000 --> 0:04:28,000
+No quiero llamarla un navegador; realmente no es un navegador,
+
+103
+0:04:28.26,000 --> 0:04:31,000
+pero puedes ver paginas Web con ella --
+
+104
+0:04:31.26,000 --> 0:04:33,000
+y traemos la tecnología de acercamiento
+
+105
+0:04:33.26,000 --> 0:04:36,000
+a cada página web como esta.
+
+106
+0:04:36.26,000 --> 0:04:39,000
+Puedo regresar,
+
+107
+0:04:39.26,000 --> 0:04:41,000
+dar un brinco atrás a una sección especifica.
+
+108
+0:04:41.26,000 --> 0:04:43,000
+Ahora, la razón por lo que es importante es porque,
+
+109
+0:04:43.26,000 --> 0:04:46,000
+por el hecho simple de ver páginas Web de esta manera,
+
+110
+0:04:46.26,000 --> 0:04:48,000
+puedo ver mi historial de navegación completo
+
+111
+0:04:48.26,000 --> 0:04:5,000
+exactamenrte en la misma manera.
+
+112
+0:04:50.26,000 --> 0:04:52,000
+Y puedo adentrarme en lo que he hecho
+
+113
+0:04:52.26,000 --> 0:04:54,000
+en periodos de tiempo específicos.
+
+114
+0:04:54.26,000 --> 0:04:56,000
+Aquí, de hecho, aparece el estado
+
+115
+0:04:56.26,000 --> 0:04:58,000
+de toda la demostración que acabo de dar.
+
+116
+0:04:58.26,000 --> 0:05:01,000
+Y puedo hacer una reproducción de algunas de las cosas que veía esta mañana.
+
+117
+0:05:01.26,000 --> 0:05:04,000
+Y, si quiero regresar y ver todo,
+
+118
+0:05:04.26,000 --> 0:05:06,000
+puedo rebanar y recortar mi historial
+
+119
+0:05:06.26,000 --> 0:05:08,000
+quizá por el historial de búsquedas.
+
+120
+0:05:08.26,000 --> 0:05:1,000
+Aquí, estaba haciendo un poco de búsqueda nepotista,
+
+121
+0:05:10.26,000 --> 0:05:13,000
+buscando por Bing, por aquí los Live Labs Pivot.
+
+122
+0:05:13.26,000 --> 0:05:15,000
+Y desde aquí puedo adentrarme a la página web
+
+123
+0:05:15.26,000 --> 0:05:17,000
+y volverlos a ejecutar.
+
+124
+0:05:17.26,000 --> 0:05:2,000
+Es una metáfora que tiene un nuevo propósito cada vez,
+
+125
+0:05:20.26,000 --> 0:05:22,000
+y en cada caso hace que la suma sea más grande
+
+126
+0:05:22.26,000 --> 0:05:24,000
+que la suma de sus partes con los datos.
+
+127
+0:05:24.26,000 --> 0:05:27,000
+Así que ahora, en este mundo,
+
+128
+0:05:27.26,000 --> 0:05:3,000
+pensamos en los datos como una maldición.
+
+129
+0:05:30.26,000 --> 0:05:33,000
+Hablamos acerca de la maldición de la sobrecarga de información.
+
+130
+0:05:33.26,000 --> 0:05:36,000
+Hablamos acerca de ahogarnos en datos.
+
+131
+0:05:36.26,000 --> 0:05:38,000
+¿Qué tal si le damos la vuelta a esto
+
+132
+0:05:38.26,000 --> 0:05:4,000
+y ponemos de cabeza la web,
+
+133
+0:05:40.26,000 --> 0:05:43,000
+para que en lugar de ir de una cosa a la siguiente,
+
+134
+0:05:43.26,000 --> 0:05:46,000
+nos acostumbremos al hábito de poder ir de muchas cosas a muchas cosas,
+
+135
+0:05:46.26,000 --> 0:05:48,000
+y luego poder ver los patrones
+
+136
+0:05:48.26,000 --> 0:05:5,000
+que de otra manera estarían ocultos?
+
+137
+0:05:50.26,000 --> 0:05:55,000
+Si podemos hacer eso, entonces en vez de estar atrapados en datos,
+
+138
+0:05:55.26,000 --> 0:05:58,000
+podremos realmente extraer información.
+
+139
+0:05:58.26,000 --> 0:06:,000
+Y si, en lugar de solo tratar con la información,
+
+140
+0:06:00.26,000 --> 0:06:02,000
+podamos extraerle conocimiento,
+
+141
+0:06:02.26,000 --> 0:06:05,000
+y si tenemos el conocimiento, entonces quizá podamos encontrar sabiduría.
+
+142
+0:06:05.26,000 --> 0:06:07,000
+Así que con eso, les doy las gracias.
+
+143
+0:06:07.26,000 --> 0:06:15,000
+(Aplausos)
+

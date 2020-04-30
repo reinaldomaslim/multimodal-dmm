@@ -1,0 +1,1488 @@
+1
+0:00:16.069,000 --> 0:00:19,000
+So the first robot to talk about is called STriDER.
+
+2
+0:00:19.267,000 --> 0:00:22,000
+It stands for Self-excited Tripedal Dynamic Experimental Robot.
+
+3
+0:00:22.76,000 --> 0:00:26,000
+It's a robot that has three legs, which is inspired by nature.
+
+4
+0:00:27.76,000 --> 0:00:3,000
+But have you seen anything in nature, an animal that has three legs?
+
+5
+0:00:31.195,000 --> 0:00:34,000
+Probably not. So why do I call this a biologically inspired robot?
+
+6
+0:00:35.089,000 --> 0:00:36,000
+How would it work?
+
+7
+0:00:36.275,000 --> 0:00:38,000
+But before that, let's look at pop culture.
+
+8
+0:00:38.461,000 --> 0:00:41,000
+So, you know H.G. Wells's "War of the Worlds," novel and movie.
+
+9
+0:00:41.953,000 --> 0:00:44,000
+And what you see over here is a very popular video game,
+
+10
+0:00:45.298,000 --> 0:00:48,000
+and in this fiction, they describe these alien creatures and robots
+
+11
+0:00:49.022,000 --> 0:00:51,000
+that have three legs that terrorize Earth.
+
+12
+0:00:51.308,000 --> 0:00:54,000
+But my robot, STriDER, does not move like this.
+
+13
+0:00:54.867,000 --> 0:00:57,000
+This is an actual dynamic simulation animation.
+
+14
+0:00:57.942,000 --> 0:00:59,000
+I'm going to show you how the robot works.
+
+15
+0:01:00.023,000 --> 0:01:02,000
+It flips its body 180 degrees
+
+16
+0:01:02.439,000 --> 0:01:04,000
+and it swings its leg between the two legs
+
+17
+0:01:04.521,000 --> 0:01:05,000
+and catches the fall.
+
+18
+0:01:05.704,000 --> 0:01:06,000
+So that's how it walks.
+
+19
+0:01:06.89,000 --> 0:01:08,000
+But when you look at us human beings, bipedal walking,
+
+20
+0:01:09.626,000 --> 0:01:1,000
+what you're doing is,
+
+21
+0:01:10.808,000 --> 0:01:14,000
+you're not really using muscle to lift your leg and walk like a robot.
+
+22
+0:01:14.919,000 --> 0:01:17,000
+What you're doing is, you swing your leg and catch the fall,
+
+23
+0:01:18.28,000 --> 0:01:2,000
+stand up again, swing your leg and catch the fall.
+
+24
+0:01:20.76,000 --> 0:01:23,000
+You're using your built-in dynamics, the physics of your body,
+
+25
+0:01:23.951,000 --> 0:01:24,000
+just like a pendulum.
+
+26
+0:01:25.726,000 --> 0:01:28,000
+We call that the concept of passive dynamic locomotion.
+
+27
+0:01:29.108,000 --> 0:01:31,000
+What you're doing is, when you stand up,
+
+28
+0:01:31.27,000 --> 0:01:33,000
+potential energy to kinetic energy,
+
+29
+0:01:33.375,000 --> 0:01:34,000
+potential energy to kinetic energy.
+
+30
+0:01:35.376,000 --> 0:01:36,000
+It's a constantly falling process.
+
+31
+0:01:37.377,000 --> 0:01:4,000
+So even though there is nothing in nature that looks like this,
+
+32
+0:01:40.45,000 --> 0:01:44,000
+really, we're inspired by biology and applying the principles of walking
+
+33
+0:01:44.603,000 --> 0:01:45,000
+to this robot.
+
+34
+0:01:45.784,000 --> 0:01:46,000
+Thus, it's a biologically inspired robot.
+
+35
+0:01:47.785,000 --> 0:01:49,000
+What you see here, this is what we want to do next.
+
+36
+0:01:50.222,000 --> 0:01:53,000
+We want to fold up the legs and shoot it up for long-range motion.
+
+37
+0:01:53.76,000 --> 0:01:55,000
+And it deploys legs -- it looks almost like "Star Wars" --
+
+38
+0:01:56.578,000 --> 0:01:58,000
+so when it lands, it absorbs the shock and starts walking.
+
+39
+0:01:59.466,000 --> 0:02:02,000
+What you see over here, this yellow thing, this is not a death ray.
+
+40
+0:02:02.695,000 --> 0:02:03,000
+(Laughter)
+
+41
+0:02:03.731,000 --> 0:02:04,000
+This is just to show you
+
+42
+0:02:04.914,000 --> 0:02:06,000
+that if you have cameras or different types of sensors,
+
+43
+0:02:07.625,000 --> 0:02:08,000
+because it's 1.8 meters tall,
+
+44
+0:02:09.166,000 --> 0:02:12,000
+you can see over obstacles like bushes and those kinds of things.
+
+45
+0:02:12.276,000 --> 0:02:13,000
+So we have two prototypes.
+
+46
+0:02:13.647,000 --> 0:02:15,000
+The first version, in the back, that's STriDER I.
+
+47
+0:02:16.614,000 --> 0:02:18,000
+The one in front, the smaller, is STriDER II.
+
+48
+0:02:18.805,000 --> 0:02:21,000
+The problem we had with STriDER I is, it was just too heavy in the body.
+
+49
+0:02:22.337,000 --> 0:02:24,000
+We had so many motors aligning the joints
+
+50
+0:02:24.945,000 --> 0:02:25,000
+and those kinds of things.
+
+51
+0:02:26.223,000 --> 0:02:29,000
+So we decided to synthesize a mechanical mechanism
+
+52
+0:02:29.447,000 --> 0:02:32,000
+so we could get rid of all the motors, and with a single motor,
+
+53
+0:02:32.54,000 --> 0:02:33,000
+we can coordinate all the motions.
+
+54
+0:02:34.241,000 --> 0:02:37,000
+It's a mechanical solution to a problem, instead of using mechatronics.
+
+55
+0:02:37.642,000 --> 0:02:4,000
+So with this, now the top body is lighted up; it's walking in our lab.
+
+56
+0:02:41.078,000 --> 0:02:43,000
+This was the very first successful step.
+
+57
+0:02:43.161,000 --> 0:02:45,000
+It's still not perfected, its coffee falls down,
+
+58
+0:02:45.853,000 --> 0:02:46,000
+so we still have a lot of work to do.
+
+59
+0:02:48.685,000 --> 0:02:5,000
+The second robot I want to talk about is called IMPASS.
+
+60
+0:02:51.405,000 --> 0:02:55,000
+It stands for Intelligent Mobility Platform with Actuated Spoke System.
+
+61
+0:02:55.888,000 --> 0:02:57,000
+It's a wheel-leg hybrid robot.
+
+62
+0:02:58.507,000 --> 0:03:01,000
+So think of a rimless wheel or a spoke wheel,
+
+63
+0:03:02.388,000 --> 0:03:04,000
+but the spokes individually move in and out of the hub;
+
+64
+0:03:05.389,000 --> 0:03:07,000
+so, it's a wheel-leg hybrid.
+
+65
+0:03:07.5,000 --> 0:03:09,000
+We're literally reinventing the wheel here.
+
+66
+0:03:09.766,000 --> 0:03:11,000
+Let me demonstrate how it works.
+
+67
+0:03:12.253,000 --> 0:03:15,000
+So in this video we're using an approach called the reactive approach.
+
+68
+0:03:16.126,000 --> 0:03:18,000
+Just simply using the tactile sensors on the feet,
+
+69
+0:03:19.127,000 --> 0:03:21,000
+it's trying to walk over a changing terrain,
+
+70
+0:03:21.961,000 --> 0:03:23,000
+a soft terrain where it pushes down and changes.
+
+71
+0:03:24.685,000 --> 0:03:26,000
+And just by the tactile information,
+
+72
+0:03:26.906,000 --> 0:03:28,000
+it successfully crosses over these types of terrains.
+
+73
+0:03:29.685,000 --> 0:03:32,000
+But, when it encounters a very extreme terrain --
+
+74
+0:03:33.514,000 --> 0:03:36,000
+in this case, this obstacle is more than three times the height
+
+75
+0:03:37.451,000 --> 0:03:38,000
+of the robot --
+
+76
+0:03:38.645,000 --> 0:03:39,000
+then it switches to a deliberate mode,
+
+77
+0:03:40.543,000 --> 0:03:42,000
+where it uses a laser range finder and camera systems
+
+78
+0:03:43.381,000 --> 0:03:44,000
+to identify the obstacle and the size.
+
+79
+0:03:45.231,000 --> 0:03:47,000
+And it carefully plans the motion of the spokes
+
+80
+0:03:48.239,000 --> 0:03:51,000
+and coordinates it so it can show this very impressive mobility.
+
+81
+0:03:51.972,000 --> 0:03:53,000
+You probably haven't seen anything like this out there.
+
+82
+0:03:54.637,000 --> 0:03:57,000
+This is a very high-mobility robot that we developed called IMPASS.
+
+83
+0:03:59.873,000 --> 0:04:,000
+Ah, isn't that cool?
+
+84
+0:04:01.685,000 --> 0:04:04,000
+When you drive your car,
+
+85
+0:04:05.003,000 --> 0:04:08,000
+when you steer your car, you use a method called Ackermann steering.
+
+86
+0:04:08.949,000 --> 0:04:09,000
+The front wheels rotate like this.
+
+87
+0:04:10.824,000 --> 0:04:12,000
+For most small-wheeled robots,
+
+88
+0:04:13.363,000 --> 0:04:15,000
+they use a method called differential steering
+
+89
+0:04:15.636,000 --> 0:04:17,000
+where the left and right wheel turn the opposite direction.
+
+90
+0:04:18.517,000 --> 0:04:2,000
+For IMPASS, we can do many, many different types of motion.
+
+91
+0:04:21.439,000 --> 0:04:22,000
+For example, in this case,
+
+92
+0:04:22.732,000 --> 0:04:24,000
+even though the left and right wheels are connected
+
+93
+0:04:25.156,000 --> 0:04:27,000
+with a single axle rotating at the same angle of velocity,
+
+94
+0:04:27.946,000 --> 0:04:3,000
+we simply change the length of the spoke, it affects the diameter,
+
+95
+0:04:31.104,000 --> 0:04:33,000
+then can turn to the left and to the right.
+
+96
+0:04:33.215,000 --> 0:04:36,000
+These are just some examples of the neat things we can do with IMPASS.
+
+97
+0:04:36.592,000 --> 0:04:37,000
+This robot is called CLIMBeR:
+
+98
+0:04:38.39,000 --> 0:04:41,000
+Cable-suspended Limbed Intelligent Matching Behavior Robot.
+
+99
+0:04:41.814,000 --> 0:04:44,000
+I've been talking to a lot of NASA JPL scientists --
+
+100
+0:04:44.965,000 --> 0:04:46,000
+at JPL, they are famous for the Mars rovers --
+
+101
+0:04:47.139,000 --> 0:04:49,000
+and the scientists, geologists always tell me
+
+102
+0:04:49.534,000 --> 0:04:52,000
+that the real interesting science, the science-rich sites,
+
+103
+0:04:52.685,000 --> 0:04:53,000
+are always at the cliffs.
+
+104
+0:04:54.22,000 --> 0:04:55,000
+But the current rovers cannot get there.
+
+105
+0:04:56.194,000 --> 0:04:58,000
+So, inspired by that, we wanted to build a robot
+
+106
+0:04:58.701,000 --> 0:05:01,000
+that can climb a structured cliff environment.
+
+107
+0:05:01.842,000 --> 0:05:02,000
+So this is CLIMBeR.
+
+108
+0:05:03.09,000 --> 0:05:04,000
+It has three legs.
+
+109
+0:05:04.625,000 --> 0:05:07,000
+It's probably difficult to see, but it has a winch and a cable at the top.
+
+110
+0:05:08.232,000 --> 0:05:1,000
+It tries to figure out the best place to put its foot.
+
+111
+0:05:10.837,000 --> 0:05:11,000
+And then once it figures that out,
+
+112
+0:05:12.496,000 --> 0:05:14,000
+in real time, it calculates the force distribution:
+
+113
+0:05:15.497,000 --> 0:05:17,000
+how much force it needs to exert to the surface
+
+114
+0:05:18.044,000 --> 0:05:19,000
+so it doesn't tip and doesn't slip.
+
+115
+0:05:20.045,000 --> 0:05:22,000
+Once it stabilizes that, it lifts a foot,
+
+116
+0:05:22.21,000 --> 0:05:25,000
+and then with the winch, it can climb up these kinds of cliffs.
+
+117
+0:05:26.045,000 --> 0:05:28,000
+Also for search and rescue applications as well.
+
+118
+0:05:28.685,000 --> 0:05:3,000
+Five years ago, I actually worked at NASA JPL
+
+119
+0:05:31.128,000 --> 0:05:32,000
+during the summer as a faculty fellow.
+
+120
+0:05:33.002,000 --> 0:05:36,000
+And they already had a six-legged robot called LEMUR.
+
+121
+0:05:36.476,000 --> 0:05:37,000
+So this is actually based on that.
+
+122
+0:05:38.14,000 --> 0:05:39,000
+This robot is called MARS:
+
+123
+0:05:39.455,000 --> 0:05:4,000
+Multi-Appendage Robotic System.
+
+124
+0:05:41.096,000 --> 0:05:42,000
+It's a hexapod robot.
+
+125
+0:05:42.358,000 --> 0:05:43,000
+We developed our adaptive gait planner.
+
+126
+0:05:44.359,000 --> 0:05:46,000
+We actually have a very interesting payload on there.
+
+127
+0:05:46.908,000 --> 0:05:47,000
+The students like to have fun.
+
+128
+0:05:48.379,000 --> 0:05:51,000
+And here you can see that it's walking over unstructured terrain.
+
+129
+0:05:51.498,000 --> 0:05:52,000
+(Motor sound)
+
+130
+0:05:52.639,000 --> 0:05:54,000
+It's trying to walk on the coastal terrain, a sandy area,
+
+131
+0:05:55.46,000 --> 0:05:59,000
+but depending on the moisture content or the grain size of the sand,
+
+132
+0:06:00.132,000 --> 0:06:03,000
+the foot's soil sinkage model changes, so it tries to adapt its gait
+
+133
+0:06:04,000 --> 0:06:06,000
+to successfully cross over these kind of things.
+
+134
+0:06:06.264,000 --> 0:06:07,000
+It also does some fun stuff.
+
+135
+0:06:07.795,000 --> 0:06:1,000
+As you can imagine, we get so many visitors visiting our lab.
+
+136
+0:06:11.304,000 --> 0:06:13,000
+So when the visitors come, MARS walks up to the computer,
+
+137
+0:06:14.06,000 --> 0:06:16,000
+starts typing, "Hello, my name is MARS.
+
+138
+0:06:16.132,000 --> 0:06:17,000
+Welcome to RoMeLa,
+
+139
+0:06:17.685,000 --> 0:06:19,000
+the Robotics Mechanisms Laboratory at Virginia Tech."
+
+140
+0:06:20.322,000 --> 0:06:21,000
+(Laughter)
+
+141
+0:06:21.816,000 --> 0:06:23,000
+This robot is an amoeba robot.
+
+142
+0:06:23.965,000 --> 0:06:25,000
+Now, we don't have enough time to go into technical details,
+
+143
+0:06:26.877,000 --> 0:06:28,000
+I'll just show you some of the experiments.
+
+144
+0:06:28.958,000 --> 0:06:3,000
+These are some of the early feasibility experiments.
+
+145
+0:06:31.494,000 --> 0:06:34,000
+We store potential energy to the elastic skin to make it move,
+
+146
+0:06:34.603,000 --> 0:06:37,000
+or use active tension cords to make it move forward and backward.
+
+147
+0:06:38.43,000 --> 0:06:39,000
+It's called ChIMERA.
+
+148
+0:06:39.611,000 --> 0:06:42,000
+We also have been working with some scientists and engineers
+
+149
+0:06:42.647,000 --> 0:06:43,000
+from UPenn
+
+150
+0:06:43.822,000 --> 0:06:46,000
+to come up with a chemically actuated version of this amoeba robot.
+
+151
+0:06:47.679,000 --> 0:06:48,000
+We do something to something,
+
+152
+0:06:49.586,000 --> 0:06:51,000
+and just like magic, it moves.
+
+153
+0:06:52.886,000 --> 0:06:53,000
+"The Blob."
+
+154
+0:06:55.193,000 --> 0:06:56,000
+This robot is a very recent project.
+
+155
+0:06:56.994,000 --> 0:06:57,000
+It's called RAPHaEL:
+
+156
+0:06:58.169,000 --> 0:07:,000
+Robotic Air-Powered Hand with Elastic Ligaments.
+
+157
+0:07:00.88,000 --> 0:07:02,000
+There are a lot of really neat, very good robotic hands
+
+158
+0:07:03.903,000 --> 0:07:04,000
+out there on the market.
+
+159
+0:07:05.09,000 --> 0:07:07,000
+The problem is, they're just too expensive --
+
+160
+0:07:07.294,000 --> 0:07:08,000
+tens of thousands of dollars.
+
+161
+0:07:08.723,000 --> 0:07:11,000
+So for prosthesis applications it's probably not too practical,
+
+162
+0:07:11.768,000 --> 0:07:12,000
+because it's not affordable.
+
+163
+0:07:13.137,000 --> 0:07:16,000
+We wanted to tackle this problem in a very different direction.
+
+164
+0:07:16.635,000 --> 0:07:19,000
+Instead of using electrical motors, electromechanical actuators,
+
+165
+0:07:19.708,000 --> 0:07:2,000
+we're using compressed air.
+
+166
+0:07:21.488,000 --> 0:07:24,000
+We developed these novel actuators for the joints, so it's compliant.
+
+167
+0:07:24.959,000 --> 0:07:25,000
+You can actually change the force,
+
+168
+0:07:26.685,000 --> 0:07:27,000
+simply just changing the air pressure.
+
+169
+0:07:28.535,000 --> 0:07:3,000
+And it can actually crush an empty soda can.
+
+170
+0:07:30.749,000 --> 0:07:33,000
+It can pick up very delicate objects like a raw egg,
+
+171
+0:07:33.823,000 --> 0:07:34,000
+or in this case, a lightbulb.
+
+172
+0:07:36.05,000 --> 0:07:39,000
+The best part: it took only 200 dollars to make the first prototype.
+
+173
+0:07:41.166,000 --> 0:07:43,000
+This robot is actually a family of snake robots
+
+174
+0:07:43.938,000 --> 0:07:44,000
+that we call HyDRAS,
+
+175
+0:07:45.33,000 --> 0:07:47,000
+Hyper Degrees-of-freedom Robotic Articulated Serpentine.
+
+176
+0:07:48.065,000 --> 0:07:5,000
+This is a robot that can climb structures.
+
+177
+0:07:50.26,000 --> 0:07:52,000
+This is a HyDRAS's arm.
+
+178
+0:07:52.367,000 --> 0:07:54,000
+It's a 12-degrees-of-freedom robotic arm.
+
+179
+0:07:54.4,000 --> 0:07:56,000
+But the cool part is the user interface.
+
+180
+0:07:56.772,000 --> 0:07:58,000
+The cable over there, that's an optical fiber.
+
+181
+0:07:59.539,000 --> 0:08:01,000
+This student, it's probably her first time using it,
+
+182
+0:08:01.999,000 --> 0:08:03,000
+but she can articulate it in many different ways.
+
+183
+0:08:04.38,000 --> 0:08:07,000
+So, for example, in Iraq, the war zone, there are roadside bombs.
+
+184
+0:08:07.867,000 --> 0:08:11,000
+Currently, you send these remotely controlled vehicles that are armed.
+
+185
+0:08:11.902,000 --> 0:08:14,000
+It takes really a lot of time and it's expensive to train the operator
+
+186
+0:08:15.465,000 --> 0:08:16,000
+to operate this complex arm.
+
+187
+0:08:17.227,000 --> 0:08:18,000
+In this case, it's very intuitive;
+
+188
+0:08:19.218,000 --> 0:08:21,000
+this student, probably his first time using it,
+
+189
+0:08:21.51,000 --> 0:08:22,000
+is doing very complex manipulation tasks,
+
+190
+0:08:23.512,000 --> 0:08:26,000
+picking up objects and doing manipulation, just like that.
+
+191
+0:08:26.897,000 --> 0:08:27,000
+Very intuitive.
+
+192
+0:08:30.025,000 --> 0:08:32,000
+Now, this robot is currently our star robot.
+
+193
+0:08:32.646,000 --> 0:08:34,000
+We actually have a fan club for the robot, DARwIn:
+
+194
+0:08:35.655,000 --> 0:08:37,000
+Dynamic Anthropomorphic Robot with Intelligence.
+
+195
+0:08:38.58,000 --> 0:08:41,000
+As you know, we're very interested in human walking,
+
+196
+0:08:42.487,000 --> 0:08:44,000
+so we decided to build a small humanoid robot.
+
+197
+0:08:44.703,000 --> 0:08:45,000
+This was in 2004; at that time,
+
+198
+0:08:46.489,000 --> 0:08:48,000
+this was something really, really revolutionary.
+
+199
+0:08:48.783,000 --> 0:08:49,000
+This was more of a feasibility study:
+
+200
+0:08:50.608,000 --> 0:08:52,000
+What kind of motors should we use? Is it even possible?
+
+201
+0:08:53.283,000 --> 0:08:54,000
+What kinds of controls should we do?
+
+202
+0:08:55.041,000 --> 0:08:58,000
+This does not have any sensors, so it's an open-loop control.
+
+203
+0:08:58.585,000 --> 0:09:,000
+For those who probably know, if you don't have any sensors
+
+204
+0:09:01.379,000 --> 0:09:03,000
+and there's any disturbances, you know what happens.
+
+205
+0:09:03.976,000 --> 0:09:05,000
+(Laughter)
+
+206
+0:09:06.113,000 --> 0:09:11,000
+Based on that success, the following year we did the proper mechanical design,
+
+207
+0:09:11.361,000 --> 0:09:12,000
+starting from kinematics.
+
+208
+0:09:12.609,000 --> 0:09:14,000
+And thus, DARwIn I was born in 2005.
+
+209
+0:09:15.543,000 --> 0:09:17,000
+It stands up, it walks -- very impressive.
+
+210
+0:09:17.878,000 --> 0:09:2,000
+However, still, as you can see, it has a cord, an umbilical cord.
+
+211
+0:09:21.259,000 --> 0:09:23,000
+So we're still using an external power source
+
+212
+0:09:23.455,000 --> 0:09:24,000
+and external computation.
+
+213
+0:09:26.002,000 --> 0:09:29,000
+So in 2006, now it's really time to have fun.
+
+214
+0:09:29.337,000 --> 0:09:3,000
+Let's give it intelligence.
+
+215
+0:09:30.82,000 --> 0:09:32,000
+We give it all the computing power it needs:
+
+216
+0:09:32.965,000 --> 0:09:34,000
+a 1.5 gigahertz Pentium M chip, two FireWire cameras,
+
+217
+0:09:35.519,000 --> 0:09:37,000
+rate gyros, accelerometers, four forced sensors on the foot,
+
+218
+0:09:38.389,000 --> 0:09:39,000
+lithium polymer batteries --
+
+219
+0:09:39.763,000 --> 0:09:42,000
+and now DARwIn II is completely autonomous.
+
+220
+0:09:43.406,000 --> 0:09:45,000
+It is not remote controlled. There's no tethers.
+
+221
+0:09:46.121,000 --> 0:09:49,000
+It looks around, searches for the ball ... looks around, searches for the ball,
+
+222
+0:09:49.878,000 --> 0:09:53,000
+and it tries to play a game of soccer autonomously -- artificial intelligence.
+
+223
+0:09:54.831,000 --> 0:09:55,000
+Let's see how it does.
+
+224
+0:09:56.009,000 --> 0:09:57,000
+This was our very first trial, and ...
+
+225
+0:09:57.98,000 --> 0:10:01,000
+(Video) Spectators: Goal!
+
+226
+0:10:03.498,000 --> 0:10:05,000
+Dennis Hong: There is actually a competition called RoboCup.
+
+227
+0:10:06.472,000 --> 0:10:08,000
+I don't know how many of you have heard about RoboCup.
+
+228
+0:10:09.083,000 --> 0:10:13,000
+It's an international autonomous robot soccer competition.
+
+229
+0:10:13.481,000 --> 0:10:15,000
+And the actual goal of RoboCup is,
+
+230
+0:10:16.253,000 --> 0:10:18,000
+by the year 2050,
+
+231
+0:10:18.47,000 --> 0:10:21,000
+we want to have full-size, autonomous humanoid robots
+
+232
+0:10:22.225,000 --> 0:10:25,000
+play soccer against the human World Cup champions
+
+233
+0:10:25.323,000 --> 0:10:26,000
+and win.
+
+234
+0:10:26.5,000 --> 0:10:27,000
+(Laughter)
+
+235
+0:10:27.556,000 --> 0:10:28,000
+It's a true, actual goal.
+
+236
+0:10:28.798,000 --> 0:10:31,000
+It's a very ambitious goal, but we truly believe we can do it.
+
+237
+0:10:32.719,000 --> 0:10:33,000
+This is last year in China.
+
+238
+0:10:34.477,000 --> 0:10:37,000
+We were the very first team in the United States that qualified
+
+239
+0:10:37.514,000 --> 0:10:38,000
+in the humanoid RoboCup competition.
+
+240
+0:10:39.338,000 --> 0:10:41,000
+This is this year in Austria.
+
+241
+0:10:41.542,000 --> 0:10:43,000
+You're going to see the action is three against three,
+
+242
+0:10:44.133,000 --> 0:10:45,000
+completely autonomous.
+
+243
+0:10:45.348,000 --> 0:10:46,000
+(Video) (Crowd groans)
+
+244
+0:10:46.463,000 --> 0:10:47,000
+DH: There you go. Yes!
+
+245
+0:10:48.591,000 --> 0:10:52,000
+The robots track and they team-play amongst themselves.
+
+246
+0:10:53.194,000 --> 0:10:54,000
+It's very impressive.
+
+247
+0:10:54.369,000 --> 0:10:55,000
+It's really a research event,
+
+248
+0:10:55.869,000 --> 0:10:59,000
+packaged in a more exciting competition event.
+
+249
+0:11:00.133,000 --> 0:11:03,000
+What you see here is the beautiful Louis Vuitton Cup trophy.
+
+250
+0:11:03.685,000 --> 0:11:04,000
+This is for the best humanoid.
+
+251
+0:11:05.228,000 --> 0:11:08,000
+We'd like to bring this, for the first time, to the United States next year,
+
+252
+0:11:08.921,000 --> 0:11:09,000
+so wish us luck.
+
+253
+0:11:10.1,000 --> 0:11:11,000
+(Applause)
+
+254
+0:11:11.16,000 --> 0:11:12,000
+Thank you.
+
+255
+0:11:12.336,000 --> 0:11:14,000
+(Applause)
+
+256
+0:11:14.441,000 --> 0:11:16,000
+DARwIn also has a lot of other talents.
+
+257
+0:11:16.533,000 --> 0:11:19,000
+Last year, it actually conducted the Roanoke Symphony Orchestra
+
+258
+0:11:20.273,000 --> 0:11:22,000
+for the holiday concert.
+
+259
+0:11:22.685,000 --> 0:11:24,000
+This is the next generation robot, DARwIn IV,
+
+260
+0:11:25.685,000 --> 0:11:27,000
+much smarter, faster, stronger.
+
+261
+0:11:28.685,000 --> 0:11:29,000
+And it's trying to show off its ability:
+
+262
+0:11:30.686,000 --> 0:11:31,000
+"I'm macho, I'm strong."
+
+263
+0:11:32.507,000 --> 0:11:33,000
+(Laughter)
+
+264
+0:11:33.975,000 --> 0:11:37,000
+"I can also do some Jackie Chan-motion, martial art movements."
+
+265
+0:11:38.224,000 --> 0:11:4,000
+(Laughter)
+
+266
+0:11:41.685,000 --> 0:11:42,000
+And it walks away. So this is DARwIn IV.
+
+267
+0:11:43.644,000 --> 0:11:45,000
+Again, you'll be able to see it in the lobby.
+
+268
+0:11:45.803,000 --> 0:11:48,000
+We truly believe this will be the very first running humanoid robot
+
+269
+0:11:49.019,000 --> 0:11:5,000
+in the United States.
+
+270
+0:11:50.194,000 --> 0:11:51,000
+So stay tuned.
+
+271
+0:11:51.372,000 --> 0:11:54,000
+All right. So I showed you some of our exciting robots at work.
+
+272
+0:11:54.397,000 --> 0:11:56,000
+So, what is the secret of our success?
+
+273
+0:11:56.609,000 --> 0:11:57,000
+Where do we come up with these ideas?
+
+274
+0:11:58.45,000 --> 0:11:59,000
+How do we develop these kinds of ideas?
+
+275
+0:12:00.367,000 --> 0:12:01,000
+We have a fully autonomous vehicle
+
+276
+0:12:02.181,000 --> 0:12:03,000
+that can drive into urban environments.
+
+277
+0:12:04.081,000 --> 0:12:06,000
+We won a half a million dollars in the DARPA Urban Challenge.
+
+278
+0:12:07.004,000 --> 0:12:1,000
+We also have the world's very first vehicle that can be driven by the blind.
+
+279
+0:12:10.685,000 --> 0:12:12,000
+We call it the Blind Driver Challenge, very exciting.
+
+280
+0:12:13.233,000 --> 0:12:16,000
+And many, many other robotics projects I want to talk about.
+
+281
+0:12:16.429,000 --> 0:12:18,000
+These are just the awards that we won in 2007 fall
+
+282
+0:12:19.09,000 --> 0:12:21,000
+from robotics competitions and those kinds of things.
+
+283
+0:12:21.685,000 --> 0:12:22,000
+So really, we have five secrets.
+
+284
+0:12:23.602,000 --> 0:12:25,000
+First is: Where do we get inspiration?
+
+285
+0:12:26.062,000 --> 0:12:28,000
+Where do we get this spark of imagination?
+
+286
+0:12:28.165,000 --> 0:12:3,000
+This is a true story, my personal story.
+
+287
+0:12:30.21,000 --> 0:12:32,000
+At night, when I go to bed, at three, four in the morning,
+
+288
+0:12:33.011,000 --> 0:12:35,000
+I lie down, close my eyes, and I see these lines and circles
+
+289
+0:12:35.924,000 --> 0:12:36,000
+and different shapes floating around.
+
+290
+0:12:37.742,000 --> 0:12:39,000
+And they assemble, and they form these kinds of mechanisms.
+
+291
+0:12:40.529,000 --> 0:12:41,000
+And I think, "Ah, this is cool."
+
+292
+0:12:42.161,000 --> 0:12:44,000
+So right next to my bed I keep a notebook, a journal,
+
+293
+0:12:45.062,000 --> 0:12:47,000
+with a special pen that has an LED light on it,
+
+294
+0:12:47.442,000 --> 0:12:5,000
+because I don't want to turn on the light and wake up my wife.
+
+295
+0:12:50.503,000 --> 0:12:53,000
+So I see this, scribble everything down, draw things, and go to bed.
+
+296
+0:12:53.796,000 --> 0:12:55,000
+Every day in the morning, the first thing I do,
+
+297
+0:12:56.21,000 --> 0:12:58,000
+before my first cup of coffee, before I brush my teeth,
+
+298
+0:12:58.841,000 --> 0:12:59,000
+I open my notebook.
+
+299
+0:13:00.027,000 --> 0:13:02,000
+Many times it's empty; sometimes I have something there.
+
+300
+0:13:02.714,000 --> 0:13:04,000
+If something's there, sometimes it's junk.
+
+301
+0:13:04.804,000 --> 0:13:06,000
+But most of the time, I can't read my handwriting.
+
+302
+0:13:07.185,000 --> 0:13:09,000
+Four in the morning -- what do you expect, right?
+
+303
+0:13:09.533,000 --> 0:13:1,000
+So I need to decipher what I wrote.
+
+304
+0:13:11.461,000 --> 0:13:14,000
+But sometimes I see this ingenious idea in there,
+
+305
+0:13:14.685,000 --> 0:13:15,000
+and I have this eureka moment.
+
+306
+0:13:16.194,000 --> 0:13:18,000
+I directly run to my home office, sit at my computer,
+
+307
+0:13:18.734,000 --> 0:13:19,000
+I type in the ideas, I sketch things out
+
+308
+0:13:20.735,000 --> 0:13:21,000
+and I keep a database of ideas.
+
+309
+0:13:23.288,000 --> 0:13:25,000
+So when we have these calls for proposals,
+
+310
+0:13:25.673,000 --> 0:13:28,000
+I try to find a match between my potential ideas
+
+311
+0:13:29.267,000 --> 0:13:3,000
+and the problem.
+
+312
+0:13:30.451,000 --> 0:13:32,000
+If there's a match, we write a research proposal,
+
+313
+0:13:32.792,000 --> 0:13:33,000
+get the research funding in,
+
+314
+0:13:34.163,000 --> 0:13:36,000
+and that's how we start our research programs.
+
+315
+0:13:36.347,000 --> 0:13:38,000
+But just a spark of imagination is not good enough.
+
+316
+0:13:38.864,000 --> 0:13:39,000
+How do we develop these kinds of ideas?
+
+317
+0:13:40.768,000 --> 0:13:42,000
+At our lab RoMeLa, the Robotics and Mechanisms Laboratory,
+
+318
+0:13:43.572,000 --> 0:13:45,000
+we have these fantastic brainstorming sessions.
+
+319
+0:13:46.208,000 --> 0:13:5,000
+So we gather around, we discuss problems and solutions and talk about it.
+
+320
+0:13:50.567,000 --> 0:13:52,000
+But before we start, we set this golden rule.
+
+321
+0:13:53.568,000 --> 0:13:54,000
+The rule is:
+
+322
+0:13:55.241,000 --> 0:13:57,000
+nobody criticizes anybody's ideas.
+
+323
+0:13:58.242,000 --> 0:14:,000
+Nobody criticizes any opinion.
+
+324
+0:14:00.685,000 --> 0:14:03,000
+This is important, because many times, students fear or feel uncomfortable
+
+325
+0:14:04.256,000 --> 0:14:07,000
+about how others might think about their opinions and thoughts.
+
+326
+0:14:07.549,000 --> 0:14:1,000
+So once you do this, it is amazing how the students open up.
+
+327
+0:14:11.363,000 --> 0:14:14,000
+They have these wacky, cool, crazy, brilliant ideas,
+
+328
+0:14:14.685,000 --> 0:14:17,000
+and the whole room is just electrified with creative energy.
+
+329
+0:14:18.138,000 --> 0:14:2,000
+And this is how we develop our ideas.
+
+330
+0:14:20.998,000 --> 0:14:21,000
+Well, we're running out of time.
+
+331
+0:14:22.579,000 --> 0:14:23,000
+One more thing I want to talk about is,
+
+332
+0:14:24.505,000 --> 0:14:27,000
+you know, just a spark of idea and development is not good enough.
+
+333
+0:14:27.685,000 --> 0:14:31,000
+There was a great TED moment -- I think it was Sir Ken Robinson, was it?
+
+334
+0:14:32.42,000 --> 0:14:36,000
+He gave a talk about how education and school kill creativity.
+
+335
+0:14:36.882,000 --> 0:14:38,000
+Well, actually, there's two sides to the story.
+
+336
+0:14:39.685,000 --> 0:14:44,000
+So there is only so much one can do with just ingenious ideas
+
+337
+0:14:44.922,000 --> 0:14:47,000
+and creativity and good engineering intuition.
+
+338
+0:14:47.962,000 --> 0:14:48,000
+If you want to go beyond a tinkering,
+
+339
+0:14:49.78,000 --> 0:14:51,000
+if you want to go beyond a hobby of robotics
+
+340
+0:14:51.954,000 --> 0:14:54,000
+and really tackle the grand challenges of robotics
+
+341
+0:14:55.419,000 --> 0:14:56,000
+through rigorous research,
+
+342
+0:14:56.685,000 --> 0:14:57,000
+we need more than that.
+
+343
+0:14:57.864,000 --> 0:14:59,000
+This is where school comes in.
+
+344
+0:14:59.902,000 --> 0:15:01,000
+Batman, fighting against the bad guys,
+
+345
+0:15:02.42,000 --> 0:15:04,000
+he has his utility belt, he has his grappling hook,
+
+346
+0:15:04.837,000 --> 0:15:05,000
+he has all different kinds of gadgets.
+
+347
+0:15:06.685,000 --> 0:15:08,000
+For us roboticists, engineers and scientists,
+
+348
+0:15:09.122,000 --> 0:15:13,000
+these tools are the courses and classes you take in class.
+
+349
+0:15:13.303,000 --> 0:15:15,000
+Math, differential equations.
+
+350
+0:15:15.329,000 --> 0:15:17,000
+I have linear algebra, science, physics --
+
+351
+0:15:18.093,000 --> 0:15:2,000
+even, nowadays, chemistry and biology, as you've seen.
+
+352
+0:15:21.085,000 --> 0:15:22,000
+These are all the tools we need.
+
+353
+0:15:22.867,000 --> 0:15:23,000
+So the more tools you have, for Batman,
+
+354
+0:15:24.767,000 --> 0:15:25,000
+more effective at fighting the bad guys,
+
+355
+0:15:26.768,000 --> 0:15:28,000
+for us, more tools to attack these kinds of big problems.
+
+356
+0:15:30.842,000 --> 0:15:31,000
+So education is very important.
+
+357
+0:15:33.828,000 --> 0:15:35,000
+Also -- it's not only about that.
+
+358
+0:15:36.449,000 --> 0:15:38,000
+You also have to work really, really hard.
+
+359
+0:15:38.541,000 --> 0:15:39,000
+So I always tell my students,
+
+360
+0:15:40.018,000 --> 0:15:42,000
+"Work smart, then work hard."
+
+361
+0:15:42.093,000 --> 0:15:44,000
+This picture in the back -- this is three in the morning.
+
+362
+0:15:44.841,000 --> 0:15:46,000
+I guarantee if you come to our lab at 3, 4am,
+
+363
+0:15:47.194,000 --> 0:15:48,000
+we have students working there,
+
+364
+0:15:48.774,000 --> 0:15:51,000
+not because I tell them to, but because we are having too much fun.
+
+365
+0:15:52.007,000 --> 0:15:53,000
+Which leads to the last topic:
+
+366
+0:15:53.685,000 --> 0:15:54,000
+do not forget to have fun.
+
+367
+0:15:55.578,000 --> 0:15:58,000
+That's really the secret of our success, we're having too much fun.
+
+368
+0:15:58.815,000 --> 0:16:01,000
+I truly believe that highest productivity comes when you're having fun,
+
+369
+0:16:02.305,000 --> 0:16:03,000
+and that's what we're doing.
+
+370
+0:16:03.685,000 --> 0:16:04,000
+And there you go.
+
+371
+0:16:04.863,000 --> 0:16:05,000
+Thank you so much.
+
+372
+0:16:06.054,000 --> 0:16:1,000
+(Applause)
+

@@ -1,0 +1,1488 @@
+1
+0:00:12.721,000 --> 0:00:14,000
+I work with children with autism.
+
+2
+0:00:15.391,000 --> 0:00:16,000
+Specifically, I make technologies
+
+3
+0:00:17.305,000 --> 0:00:19,000
+to help them communicate.
+
+4
+0:00:19.476,000 --> 0:00:2,000
+Now, many of the problems that children
+
+5
+0:00:21.015,000 --> 0:00:24,000
+with autism face, they have a common source,
+
+6
+0:00:24.778,000 --> 0:00:26,000
+and that source is that they find it difficult
+
+7
+0:00:26.872,000 --> 0:00:31,000
+to understand abstraction, symbolism.
+
+8
+0:00:32.132,000 --> 0:00:36,000
+And because of this, they have a lot of difficulty with language.
+
+9
+0:00:36.784,000 --> 0:00:39,000
+Let me tell you a little bit about why this is.
+
+10
+0:00:39.799,000 --> 0:00:42,000
+You see that this is a picture of a bowl of soup.
+
+11
+0:00:43.733,000 --> 0:00:45,000
+All of us can see it. All of us understand this.
+
+12
+0:00:46.218,000 --> 0:00:48,000
+These are two other pictures of soup,
+
+13
+0:00:48.53,000 --> 0:00:5,000
+but you can see that these are more abstract
+
+14
+0:00:50.597,000 --> 0:00:51,000
+These are not quite as concrete.
+
+15
+0:00:52.453,000 --> 0:00:54,000
+And when you get to language,
+
+16
+0:00:54.627,000 --> 0:00:55,000
+you see that it becomes a word
+
+17
+0:00:56.495,000 --> 0:00:59,000
+whose look, the way it looks and the way it sounds,
+
+18
+0:00:59.756,000 --> 0:01:01,000
+has absolutely nothing to do with what it started with,
+
+19
+0:01:02.668,000 --> 0:01:04,000
+or what it represents, which is the bowl of soup.
+
+20
+0:01:05.498,000 --> 0:01:07,000
+So it's essentially a completely abstract,
+
+21
+0:01:08.398,000 --> 0:01:1,000
+a completely arbitrary representation of something
+
+22
+0:01:10.974,000 --> 0:01:11,000
+which is in the real world,
+
+23
+0:01:12.137,000 --> 0:01:13,000
+and this is something that children with autism
+
+24
+0:01:13.928,000 --> 0:01:16,000
+have an incredible amount of difficulty with.
+
+25
+0:01:17.092,000 --> 0:01:19,000
+Now that's why most of the people that work with children with autism --
+
+26
+0:01:19.843,000 --> 0:01:2,000
+speech therapists, educators --
+
+27
+0:01:21.721,000 --> 0:01:23,000
+what they do is, they try to help children with autism
+
+28
+0:01:24.354,000 --> 0:01:27,000
+communicate not with words, but with pictures.
+
+29
+0:01:27.583,000 --> 0:01:28,000
+So if a child with autism wanted to say,
+
+30
+0:01:29.513,000 --> 0:01:31,000
+"I want soup," that child would pick
+
+31
+0:01:31.971,000 --> 0:01:33,000
+three different pictures, "I," "want," and "soup,"
+
+32
+0:01:34.231,000 --> 0:01:35,000
+and they would put these together,
+
+33
+0:01:35.84,000 --> 0:01:36,000
+and then the therapist or the parent would
+
+34
+0:01:37.707,000 --> 0:01:38,000
+understand that this is what the kid wants to say.
+
+35
+0:01:39.594,000 --> 0:01:4,000
+And this has been incredibly effective;
+
+36
+0:01:41.372,000 --> 0:01:43,000
+for the last 30, 40 years
+
+37
+0:01:43.513,000 --> 0:01:44,000
+people have been doing this.
+
+38
+0:01:45.126,000 --> 0:01:46,000
+In fact, a few years back,
+
+39
+0:01:46.475,000 --> 0:01:48,000
+I developed an app for the iPad
+
+40
+0:01:49.15,000 --> 0:01:51,000
+which does exactly this. It's called Avaz,
+
+41
+0:01:51.405,000 --> 0:01:53,000
+and the way it works is that kids select
+
+42
+0:01:53.684,000 --> 0:01:54,000
+different pictures.
+
+43
+0:01:55.005,000 --> 0:01:57,000
+These pictures are sequenced together to form sentences,
+
+44
+0:01:57.575,000 --> 0:01:58,000
+and these sentences are spoken out.
+
+45
+0:01:59.294,000 --> 0:02:02,000
+So Avaz is essentially converting pictures,
+
+46
+0:02:02.319,000 --> 0:02:05,000
+it's a translator, it converts pictures into speech.
+
+47
+0:02:06.279,000 --> 0:02:07,000
+Now, this was very effective.
+
+48
+0:02:07.997,000 --> 0:02:08,000
+There are thousands of children using this,
+
+49
+0:02:09.381,000 --> 0:02:1,000
+you know, all over the world,
+
+50
+0:02:10.811,000 --> 0:02:12,000
+and I started thinking about
+
+51
+0:02:12.986,000 --> 0:02:14,000
+what it does and what it doesn't do.
+
+52
+0:02:15.64,000 --> 0:02:16,000
+And I realized something interesting:
+
+53
+0:02:17.324,000 --> 0:02:21,000
+Avaz helps children with autism learn words.
+
+54
+0:02:21.527,000 --> 0:02:23,000
+What it doesn't help them do is to learn
+
+55
+0:02:23.932,000 --> 0:02:25,000
+word patterns.
+
+56
+0:02:26.68,000 --> 0:02:28,000
+Let me explain this in a little more detail.
+
+57
+0:02:29.152,000 --> 0:02:32,000
+Take this sentence: "I want soup tonight."
+
+58
+0:02:32.209,000 --> 0:02:36,000
+Now it's not just the words here that convey the meaning.
+
+59
+0:02:36.289,000 --> 0:02:39,000
+It's also the way in which these words are arranged,
+
+60
+0:02:39.429,000 --> 0:02:41,000
+the way these words are modified and arranged.
+
+61
+0:02:41.959,000 --> 0:02:43,000
+And that's why a sentence like "I want soup tonight"
+
+62
+0:02:44.265,000 --> 0:02:45,000
+is different from a sentence like
+
+63
+0:02:46.249,000 --> 0:02:49,000
+"Soup want I tonight," which is completely meaningless.
+
+64
+0:02:49.561,000 --> 0:02:51,000
+So there is another hidden abstraction here
+
+65
+0:02:52.18,000 --> 0:02:55,000
+which children with autism find a lot of difficulty coping with,
+
+66
+0:02:55.737,000 --> 0:02:57,000
+and that's the fact that you can modify words
+
+67
+0:02:58.577,000 --> 0:03:,000
+and you can arrange them to have
+
+68
+0:03:00.678,000 --> 0:03:02,000
+different meanings, to convey different ideas.
+
+69
+0:03:03.573,000 --> 0:03:06,000
+Now, this is what we call grammar.
+
+70
+0:03:07.032,000 --> 0:03:09,000
+And grammar is incredibly powerful,
+
+71
+0:03:09.068,000 --> 0:03:12,000
+because grammar is this one component of language
+
+72
+0:03:12.225,000 --> 0:03:15,000
+which takes this finite vocabulary that all of us have
+
+73
+0:03:15.714,000 --> 0:03:19,000
+and allows us to convey an infinite amount of information,
+
+74
+0:03:20.245,000 --> 0:03:22,000
+an infinite amount of ideas.
+
+75
+0:03:22.379,000 --> 0:03:24,000
+It's the way in which you can put things together
+
+76
+0:03:24.381,000 --> 0:03:26,000
+in order to convey anything you want to.
+
+77
+0:03:26.549,000 --> 0:03:28,000
+And so after I developed Avaz,
+
+78
+0:03:28.676,000 --> 0:03:29,000
+I worried for a very long time
+
+79
+0:03:30.244,000 --> 0:03:33,000
+about how I could give grammar to children with autism.
+
+80
+0:03:34.154,000 --> 0:03:36,000
+The solution came to me from a very interesting perspective.
+
+81
+0:03:36.429,000 --> 0:03:39,000
+I happened to chance upon a child with autism
+
+82
+0:03:39.878,000 --> 0:03:41,000
+conversing with her mom,
+
+83
+0:03:41.987,000 --> 0:03:43,000
+and this is what happened.
+
+84
+0:03:44.081,000 --> 0:03:46,000
+Completely out of the blue, very spontaneously,
+
+85
+0:03:46.267,000 --> 0:03:48,000
+the child got up and said, "Eat."
+
+86
+0:03:48.73,000 --> 0:03:49,000
+Now what was interesting was
+
+87
+0:03:50.5,000 --> 0:03:54,000
+the way in which the mom was trying to tease out
+
+88
+0:03:54.744,000 --> 0:03:56,000
+the meaning of what the child wanted to say
+
+89
+0:03:56.957,000 --> 0:03:58,000
+by talking to her in questions.
+
+90
+0:03:59.217,000 --> 0:04:01,000
+So she asked, "Eat what? Do you want to eat ice cream?
+
+91
+0:04:01.81,000 --> 0:04:03,000
+You want to eat? Somebody else wants to eat?
+
+92
+0:04:03.922,000 --> 0:04:06,000
+You want to eat cream now? You want to eat ice cream in the evening?"
+
+93
+0:04:07.235,000 --> 0:04:08,000
+And then it struck me that
+
+94
+0:04:08.749,000 --> 0:04:1,000
+what the mother had done was something incredible.
+
+95
+0:04:10.777,000 --> 0:04:11,000
+She had been able to get that child to communicate
+
+96
+0:04:12.771,000 --> 0:04:16,000
+an idea to her without grammar.
+
+97
+0:04:16.909,000 --> 0:04:18,000
+And it struck me that maybe this is what
+
+98
+0:04:19.605,000 --> 0:04:2,000
+I was looking for.
+
+99
+0:04:20.99,000 --> 0:04:24,000
+Instead of arranging words in an order, in sequence,
+
+100
+0:04:25.132,000 --> 0:04:27,000
+as a sentence, you arrange them
+
+101
+0:04:27.304,000 --> 0:04:3,000
+in this map, where they're all linked together
+
+102
+0:04:31.115,000 --> 0:04:33,000
+not by placing them one after the other
+
+103
+0:04:33.258,000 --> 0:04:36,000
+but in questions, in question-answer pairs.
+
+104
+0:04:36.542,000 --> 0:04:38,000
+And so if you do this, then what you're conveying
+
+105
+0:04:38.9,000 --> 0:04:39,000
+is not a sentence in English,
+
+106
+0:04:40.886,000 --> 0:04:42,000
+but what you're conveying is really a meaning,
+
+107
+0:04:43.852,000 --> 0:04:44,000
+the meaning of a sentence in English.
+
+108
+0:04:45.363,000 --> 0:04:47,000
+Now, meaning is really the underbelly, in some sense, of language.
+
+109
+0:04:48.295,000 --> 0:04:51,000
+It's what comes after thought but before language.
+
+110
+0:04:52.116,000 --> 0:04:54,000
+And the idea was that this particular representation
+
+111
+0:04:54.619,000 --> 0:04:57,000
+might convey meaning in its raw form.
+
+112
+0:04:57.88,000 --> 0:04:58,000
+So I was very excited by this, you know,
+
+113
+0:04:59.651,000 --> 0:05:,000
+hopping around all over the place,
+
+114
+0:05:01.144,000 --> 0:05:02,000
+trying to figure out if I can convert
+
+115
+0:05:02.915,000 --> 0:05:04,000
+all possible sentences that I hear into this.
+
+116
+0:05:05.439,000 --> 0:05:06,000
+And I found that this is not enough.
+
+117
+0:05:07.212,000 --> 0:05:08,000
+Why is this not enough?
+
+118
+0:05:08.597,000 --> 0:05:09,000
+This is not enough because if you wanted to convey
+
+119
+0:05:10.308,000 --> 0:05:12,000
+something like negation,
+
+120
+0:05:12.558,000 --> 0:05:13,000
+you want to say, "I don't want soup,"
+
+121
+0:05:14.294,000 --> 0:05:16,000
+then you can't do that by asking a question.
+
+122
+0:05:16.514,000 --> 0:05:18,000
+You do that by changing the word "want."
+
+123
+0:05:18.799,000 --> 0:05:19,000
+Again, if you wanted to say,
+
+124
+0:05:20.436,000 --> 0:05:21,000
+"I wanted soup yesterday,"
+
+125
+0:05:22.416,000 --> 0:05:24,000
+you do that by converting the word "want" into "wanted."
+
+126
+0:05:25.153,000 --> 0:05:26,000
+It's a past tense.
+
+127
+0:05:26.819,000 --> 0:05:28,000
+So this is a flourish which I added
+
+128
+0:05:28.922,000 --> 0:05:29,000
+to make the system complete.
+
+129
+0:05:30.498,000 --> 0:05:31,000
+This is a map of words joined together
+
+130
+0:05:32.475,000 --> 0:05:33,000
+as questions and answers,
+
+131
+0:05:34.131,000 --> 0:05:36,000
+and with these filters applied on top of them
+
+132
+0:05:36.395,000 --> 0:05:37,000
+in order to modify them to represent
+
+133
+0:05:38.212,000 --> 0:05:39,000
+certain nuances.
+
+134
+0:05:39.921,000 --> 0:05:4,000
+Let me show you this with a different example.
+
+135
+0:05:41.872,000 --> 0:05:42,000
+Let's take this sentence:
+
+136
+0:05:43.126,000 --> 0:05:44,000
+"I told the carpenter I could not pay him."
+
+137
+0:05:45.106,000 --> 0:05:46,000
+It's a fairly complicated sentence.
+
+138
+0:05:46.898,000 --> 0:05:47,000
+The way that this particular system works,
+
+139
+0:05:48.791,000 --> 0:05:5,000
+you can start with any part of this sentence.
+
+140
+0:05:51.369,000 --> 0:05:52,000
+I'm going to start with the word "tell."
+
+141
+0:05:53.067,000 --> 0:05:54,000
+So this is the word "tell."
+
+142
+0:05:54.529,000 --> 0:05:55,000
+Now this happened in the past,
+
+143
+0:05:56.129,000 --> 0:05:58,000
+so I'm going to make that "told."
+
+144
+0:05:58.352,000 --> 0:05:59,000
+Now, what I'm going to do is,
+
+145
+0:06:00.06,000 --> 0:06:01,000
+I'm going to ask questions.
+
+146
+0:06:01.816,000 --> 0:06:03,000
+So, who told? I told.
+
+147
+0:06:04.18,000 --> 0:06:05,000
+I told whom? I told the carpenter.
+
+148
+0:06:06.107,000 --> 0:06:07,000
+Now we start with a different part of the sentence.
+
+149
+0:06:07.858,000 --> 0:06:08,000
+We start with the word "pay,"
+
+150
+0:06:09.725,000 --> 0:06:13,000
+and we add the ability filter to it to make it "can pay."
+
+151
+0:06:14.302,000 --> 0:06:16,000
+Then we make it "can't pay,"
+
+152
+0:06:16.403,000 --> 0:06:17,000
+and we can make it "couldn't pay"
+
+153
+0:06:18.002,000 --> 0:06:19,000
+by making it the past tense.
+
+154
+0:06:19.665,000 --> 0:06:2,000
+So who couldn't pay? I couldn't pay.
+
+155
+0:06:21.588,000 --> 0:06:23,000
+Couldn't pay whom? I couldn't pay the carpenter.
+
+156
+0:06:24.264,000 --> 0:06:25,000
+And then you join these two together
+
+157
+0:06:25.995,000 --> 0:06:26,000
+by asking this question:
+
+158
+0:06:27.345,000 --> 0:06:28,000
+What did I tell the carpenter?
+
+159
+0:06:29.082,000 --> 0:06:33,000
+I told the carpenter I could not pay him.
+
+160
+0:06:33.131,000 --> 0:06:34,000
+Now think about this. This is
+
+161
+0:06:35.068,000 --> 0:06:38,000
+—(Applause)—
+
+162
+0:06:38.61,000 --> 0:06:41,000
+this is a representation of this sentence
+
+163
+0:06:42.282,000 --> 0:06:44,000
+without language.
+
+164
+0:06:44.717,000 --> 0:06:46,000
+And there are two or three interesting things about this.
+
+165
+0:06:46.909,000 --> 0:06:49,000
+First of all, I could have started anywhere.
+
+166
+0:06:50.04,000 --> 0:06:52,000
+I didn't have to start with the word "tell."
+
+167
+0:06:52.283,000 --> 0:06:53,000
+I could have started anywhere in the sentence,
+
+168
+0:06:53.699,000 --> 0:06:54,000
+and I could have made this entire thing.
+
+169
+0:06:55.206,000 --> 0:06:57,000
+The second thing is, if I wasn't an English speaker,
+
+170
+0:06:57.982,000 --> 0:06:59,000
+if I was speaking in some other language,
+
+171
+0:07:00.157,000 --> 0:07:03,000
+this map would actually hold true in any language.
+
+172
+0:07:03.313,000 --> 0:07:04,000
+So long as the questions are standardized,
+
+173
+0:07:05.303,000 --> 0:07:09,000
+the map is actually independent of language.
+
+174
+0:07:09.59,000 --> 0:07:11,000
+So I call this FreeSpeech,
+
+175
+0:07:11.705,000 --> 0:07:13,000
+and I was playing with this for many, many months.
+
+176
+0:07:14.64,000 --> 0:07:16,000
+I was trying out so many different combinations of this.
+
+177
+0:07:17.366,000 --> 0:07:19,000
+And then I noticed something very interesting about FreeSpeech.
+
+178
+0:07:19.655,000 --> 0:07:22,000
+I was trying to convert language,
+
+179
+0:07:22.898,000 --> 0:07:24,000
+convert sentences in English into sentences in FreeSpeech,
+
+180
+0:07:25.282,000 --> 0:07:26,000
+and vice versa, and back and forth.
+
+181
+0:07:27.034,000 --> 0:07:29,000
+And I realized that this particular configuration,
+
+182
+0:07:29.289,000 --> 0:07:31,000
+this particular way of representing language,
+
+183
+0:07:31.315,000 --> 0:07:35,000
+it allowed me to actually create very concise rules
+
+184
+0:07:35.71,000 --> 0:07:37,000
+that go between FreeSpeech on one side
+
+185
+0:07:38.444,000 --> 0:07:39,000
+and English on the other.
+
+186
+0:07:39.932,000 --> 0:07:41,000
+So I could actually write this set of rules
+
+187
+0:07:42.112,000 --> 0:07:45,000
+that translates from this particular representation into English.
+
+188
+0:07:45.507,000 --> 0:07:46,000
+And so I developed this thing.
+
+189
+0:07:47.338,000 --> 0:07:49,000
+I developed this thing called the FreeSpeech Engine
+
+190
+0:07:49.57,000 --> 0:07:51,000
+which takes any FreeSpeech sentence as the input
+
+191
+0:07:52.131,000 --> 0:07:55,000
+and gives out perfectly grammatical English text.
+
+192
+0:07:56.061,000 --> 0:07:57,000
+And by putting these two pieces together,
+
+193
+0:07:57.666,000 --> 0:07:58,000
+the representation and the engine,
+
+194
+0:07:59.547,000 --> 0:08:02,000
+I was able to create an app, a technology for children with autism,
+
+195
+0:08:03.343,000 --> 0:08:05,000
+that not only gives them words
+
+196
+0:08:05.842,000 --> 0:08:08,000
+but also gives them grammar.
+
+197
+0:08:09.783,000 --> 0:08:11,000
+So I tried this out with kids with autism,
+
+198
+0:08:12.143,000 --> 0:08:17,000
+and I found that there was an incredible amount of identification.
+
+199
+0:08:17.156,000 --> 0:08:19,000
+They were able to create sentences in FreeSpeech
+
+200
+0:08:19.876,000 --> 0:08:21,000
+which were much more complicated but much more effective
+
+201
+0:08:22.434,000 --> 0:08:24,000
+than equivalent sentences in English,
+
+202
+0:08:25.333,000 --> 0:08:26,000
+and I started thinking about
+
+203
+0:08:27.015,000 --> 0:08:28,000
+why that might be the case.
+
+204
+0:08:28.984,000 --> 0:08:32,000
+And I had an idea, and I want to talk to you about this idea next.
+
+205
+0:08:33.271,000 --> 0:08:36,000
+In about 1997, about 15 years back,
+
+206
+0:08:36.413,000 --> 0:08:38,000
+there were a group of scientists that were trying
+
+207
+0:08:38.424,000 --> 0:08:4,000
+to understand how the brain processes language,
+
+208
+0:08:40.813,000 --> 0:08:41,000
+and they found something very interesting.
+
+209
+0:08:42.592,000 --> 0:08:43,000
+They found that when you learn a language
+
+210
+0:08:44.464,000 --> 0:08:46,000
+as a child, as a two-year-old,
+
+211
+0:08:47.376,000 --> 0:08:49,000
+you learn it with a certain part of your brain,
+
+212
+0:08:49.742,000 --> 0:08:5,000
+and when you learn a language as an adult --
+
+213
+0:08:51.342,000 --> 0:08:54,000
+for example, if I wanted to learn Japanese right now —
+
+214
+0:08:55.253,000 --> 0:08:57,000
+a completely different part of my brain is used.
+
+215
+0:08:57.96,000 --> 0:08:58,000
+Now I don't know why that's the case,
+
+216
+0:08:59.791,000 --> 0:09:,000
+but my guess is that that's because
+
+217
+0:09:01.782,000 --> 0:09:03,000
+when you learn a language as an adult,
+
+218
+0:09:04.219,000 --> 0:09:05,000
+you almost invariably learn it
+
+219
+0:09:05.835,000 --> 0:09:09,000
+through your native language, or through your first language.
+
+220
+0:09:10.101,000 --> 0:09:13,000
+So what's interesting about FreeSpeech
+
+221
+0:09:13.353,000 --> 0:09:14,000
+is that when you create a sentence
+
+222
+0:09:15.155,000 --> 0:09:16,000
+or when you create language,
+
+223
+0:09:16.85,000 --> 0:09:19,000
+a child with autism creates language with FreeSpeech,
+
+224
+0:09:19.92,000 --> 0:09:2,000
+they're not using this support language,
+
+225
+0:09:21.753,000 --> 0:09:23,000
+they're not using this bridge language.
+
+226
+0:09:23.964,000 --> 0:09:25,000
+They're directly constructing the sentence.
+
+227
+0:09:26.621,000 --> 0:09:28,000
+And so this gave me this idea.
+
+228
+0:09:28.814,000 --> 0:09:3,000
+Is it possible to use FreeSpeech
+
+229
+0:09:30.838,000 --> 0:09:32,000
+not for children with autism
+
+230
+0:09:33.348,000 --> 0:09:39,000
+but to teach language to people without disabilities?
+
+231
+0:09:39.61,000 --> 0:09:4,000
+And so I tried a number of experiments.
+
+232
+0:09:41.588,000 --> 0:09:43,000
+The first thing I did was I built a jigsaw puzzle
+
+233
+0:09:44.536,000 --> 0:09:45,000
+in which these questions and answers
+
+234
+0:09:46.506,000 --> 0:09:47,000
+are coded in the form of shapes,
+
+235
+0:09:48.341,000 --> 0:09:49,000
+in the form of colors,
+
+236
+0:09:49.479,000 --> 0:09:5,000
+and you have people putting these together
+
+237
+0:09:51.328,000 --> 0:09:52,000
+and trying to understand how this works.
+
+238
+0:09:53.101,000 --> 0:09:55,000
+And I built an app out of it, a game out of it,
+
+239
+0:09:55.477,000 --> 0:09:57,000
+in which children can play with words
+
+240
+0:09:58.138,000 --> 0:09:59,000
+and with a reinforcement,
+
+241
+0:09:59.842,000 --> 0:10:01,000
+a sound reinforcement of visual structures,
+
+242
+0:10:02.427,000 --> 0:10:04,000
+they're able to learn language.
+
+243
+0:10:04.44,000 --> 0:10:06,000
+And this, this has a lot of potential, a lot of promise,
+
+244
+0:10:07.176,000 --> 0:10:08,000
+and the government of India recently
+
+245
+0:10:09.151,000 --> 0:10:1,000
+licensed this technology from us,
+
+246
+0:10:10.555,000 --> 0:10:12,000
+and they're going to try it out with millions of different children
+
+247
+0:10:12.629,000 --> 0:10:14,000
+trying to teach them English.
+
+248
+0:10:15.234,000 --> 0:10:17,000
+And the dream, the hope, the vision, really,
+
+249
+0:10:17.848,000 --> 0:10:2,000
+is that when they learn English this way,
+
+250
+0:10:20.93,000 --> 0:10:22,000
+they learn it with the same proficiency
+
+251
+0:10:23.573,000 --> 0:10:26,000
+as their mother tongue.
+
+252
+0:10:27.291,000 --> 0:10:3,000
+All right, let's talk about something else.
+
+253
+0:10:31.107,000 --> 0:10:32,000
+Let's talk about speech.
+
+254
+0:10:33.104,000 --> 0:10:34,000
+This is speech.
+
+255
+0:10:34.375,000 --> 0:10:35,000
+So speech is the primary mode of communication
+
+256
+0:10:36.337,000 --> 0:10:37,000
+delivered between all of us.
+
+257
+0:10:37.95,000 --> 0:10:38,000
+Now what's interesting about speech is that
+
+258
+0:10:39.805,000 --> 0:10:4,000
+speech is one-dimensional.
+
+259
+0:10:41.05,000 --> 0:10:42,000
+Why is it one-dimensional?
+
+260
+0:10:42.409,000 --> 0:10:43,000
+It's one-dimensional because it's sound.
+
+261
+0:10:43.977,000 --> 0:10:44,000
+It's also one-dimensional because
+
+262
+0:10:45.516,000 --> 0:10:46,000
+our mouths are built that way.
+
+263
+0:10:46.721,000 --> 0:10:49,000
+Our mouths are built to create one-dimensional sound.
+
+264
+0:10:50.233,000 --> 0:10:52,000
+But if you think about the brain,
+
+265
+0:10:53.099,000 --> 0:10:54,000
+the thoughts that we have in our heads
+
+266
+0:10:54.863,000 --> 0:10:56,000
+are not one-dimensional.
+
+267
+0:10:56.965,000 --> 0:10:57,000
+I mean, we have these rich,
+
+268
+0:10:58.424,000 --> 0:11:01,000
+complicated, multi-dimensional ideas.
+
+269
+0:11:01.452,000 --> 0:11:02,000
+Now, it seems to me that language
+
+270
+0:11:03.142,000 --> 0:11:05,000
+is really the brain's invention
+
+271
+0:11:05.474,000 --> 0:11:08,000
+to convert this rich, multi-dimensional thought
+
+272
+0:11:08.57,000 --> 0:11:09,000
+on one hand
+
+273
+0:11:10.157,000 --> 0:11:11,000
+into speech on the other hand.
+
+274
+0:11:12.08,000 --> 0:11:13,000
+Now what's interesting is that
+
+275
+0:11:13.842,000 --> 0:11:15,000
+we do a lot of work in information nowadays,
+
+276
+0:11:16.41,000 --> 0:11:19,000
+and almost all of that is done in the language domain.
+
+277
+0:11:19.489,000 --> 0:11:2,000
+Take Google, for example.
+
+278
+0:11:21.428,000 --> 0:11:23,000
+Google trawls all these countless billions of websites,
+
+279
+0:11:24.105,000 --> 0:11:26,000
+all of which are in English, and when you want to use Google,
+
+280
+0:11:26.83,000 --> 0:11:28,000
+you go into Google search, and you type in English,
+
+281
+0:11:29.28,000 --> 0:11:33,000
+and it matches the English with the English.
+
+282
+0:11:33.443,000 --> 0:11:36,000
+What if we could do this in FreeSpeech instead?
+
+283
+0:11:37.026,000 --> 0:11:39,000
+I have a suspicion that if we did this,
+
+284
+0:11:39.327,000 --> 0:11:41,000
+we'd find that algorithms like searching,
+
+285
+0:11:41.395,000 --> 0:11:43,000
+like retrieval, all of these things,
+
+286
+0:11:43.72,000 --> 0:11:46,000
+are much simpler and also more effective,
+
+287
+0:11:46.795,000 --> 0:11:5,000
+because they don't process the data structure of speech.
+
+288
+0:11:51.212,000 --> 0:11:56,000
+Instead they're processing the data structure of thought.
+
+289
+0:11:57.188,000 --> 0:11:59,000
+The data structure of thought.
+
+290
+0:11:59.996,000 --> 0:12:01,000
+That's a provocative idea.
+
+291
+0:12:02.072,000 --> 0:12:04,000
+But let's look at this in a little more detail.
+
+292
+0:12:04.214,000 --> 0:12:06,000
+So this is the FreeSpeech ecosystem.
+
+293
+0:12:06.58,000 --> 0:12:08,000
+We have the Free Speech representation on one side,
+
+294
+0:12:09.464,000 --> 0:12:11,000
+and we have the FreeSpeech Engine, which generates English.
+
+295
+0:12:11.694,000 --> 0:12:12,000
+Now if you think about it,
+
+296
+0:12:13.419,000 --> 0:12:15,000
+FreeSpeech, I told you, is completely language-independent.
+
+297
+0:12:15.963,000 --> 0:12:17,000
+It doesn't have any specific information in it
+
+298
+0:12:18.05,000 --> 0:12:19,000
+which is about English.
+
+299
+0:12:19.278,000 --> 0:12:21,000
+So everything that this system knows about English
+
+300
+0:12:22.078,000 --> 0:12:26,000
+is actually encoded into the engine.
+
+301
+0:12:26.698,000 --> 0:12:28,000
+That's a pretty interesting concept in itself.
+
+302
+0:12:28.935,000 --> 0:12:31,000
+You've encoded an entire human language
+
+303
+0:12:32.539,000 --> 0:12:34,000
+into a software program.
+
+304
+0:12:35.184,000 --> 0:12:37,000
+But if you look at what's inside the engine,
+
+305
+0:12:37.715,000 --> 0:12:39,000
+it's actually not very complicated.
+
+306
+0:12:40.073,000 --> 0:12:42,000
+It's not very complicated code.
+
+307
+0:12:42.178,000 --> 0:12:44,000
+And what's more interesting is the fact that
+
+308
+0:12:44.85,000 --> 0:12:46,000
+the vast majority of the code in that engine
+
+309
+0:12:47.053,000 --> 0:12:49,000
+is not really English-specific.
+
+310
+0:12:49.465,000 --> 0:12:5,000
+And that gives this interesting idea.
+
+311
+0:12:51.36,000 --> 0:12:53,000
+It might be very easy for us to actually
+
+312
+0:12:53.398,000 --> 0:12:56,000
+create these engines in many, many different languages,
+
+313
+0:12:57.224,000 --> 0:13:03,000
+in Hindi, in French, in German, in Swahili.
+
+314
+0:13:03.578,000 --> 0:13:05,000
+And that gives another interesting idea.
+
+315
+0:13:06.377,000 --> 0:13:08,000
+For example, supposing I was a writer,
+
+316
+0:13:09.031,000 --> 0:13:11,000
+say, for a newspaper or for a magazine.
+
+317
+0:13:11.153,000 --> 0:13:16,000
+I could create content in one language, FreeSpeech,
+
+318
+0:13:16.164,000 --> 0:13:18,000
+and the person who's consuming that content,
+
+319
+0:13:18.22,000 --> 0:13:21,000
+the person who's reading that particular information
+
+320
+0:13:21.281,000 --> 0:13:23,000
+could choose any engine,
+
+321
+0:13:23.776,000 --> 0:13:25,000
+and they could read it in their own mother tongue,
+
+322
+0:13:26.512,000 --> 0:13:29,000
+in their native language.
+
+323
+0:13:30.451,000 --> 0:13:32,000
+I mean, this is an incredibly attractive idea,
+
+324
+0:13:33.173,000 --> 0:13:34,000
+especially for India.
+
+325
+0:13:35.172,000 --> 0:13:36,000
+We have so many different languages.
+
+326
+0:13:36.862,000 --> 0:13:38,000
+There's a song about India, and there's a description
+
+327
+0:13:39.004,000 --> 0:13:41,000
+of the country as, it says,
+
+328
+0:13:41.348,000 --> 0:13:43,000
+(in Sanskrit).
+
+329
+0:13:43.708,000 --> 0:13:45,000
+That means "ever-smiling speaker
+
+330
+0:13:46.481,000 --> 0:13:5,000
+of beautiful languages."
+
+331
+0:13:51,000 --> 0:13:52,000
+Language is beautiful.
+
+332
+0:13:52.964,000 --> 0:13:54,000
+I think it's the most beautiful of human creations.
+
+333
+0:13:55.418,000 --> 0:13:58,000
+I think it's the loveliest thing that our brains have invented.
+
+334
+0:13:59.396,000 --> 0:14:02,000
+It entertains, it educates, it enlightens,
+
+335
+0:14:02.98,000 --> 0:14:04,000
+but what I like the most about language
+
+336
+0:14:05.024,000 --> 0:14:06,000
+is that it empowers.
+
+337
+0:14:06.524,000 --> 0:14:07,000
+I want to leave you with this.
+
+338
+0:14:08.362,000 --> 0:14:1,000
+This is a photograph of my collaborators,
+
+339
+0:14:10.747,000 --> 0:14:1,000
+my earliest collaborators
+
+340
+0:14:11.744,000 --> 0:14:12,000
+when I started working on language
+
+341
+0:14:13.206,000 --> 0:14:14,000
+and autism and various other things.
+
+342
+0:14:14.708,000 --> 0:14:15,000
+The girl's name is Pavna,
+
+343
+0:14:16.125,000 --> 0:14:17,000
+and that's her mother, Kalpana.
+
+344
+0:14:18.027,000 --> 0:14:2,000
+And Pavna's an entrepreneur,
+
+345
+0:14:20.165,000 --> 0:14:22,000
+but her story is much more remarkable than mine,
+
+346
+0:14:22.536,000 --> 0:14:24,000
+because Pavna is about 23.
+
+347
+0:14:24.936,000 --> 0:14:26,000
+She has quadriplegic cerebral palsy,
+
+348
+0:14:27.488,000 --> 0:14:28,000
+so ever since she was born,
+
+349
+0:14:29.128,000 --> 0:14:32,000
+she could neither move nor talk.
+
+350
+0:14:32.728,000 --> 0:14:34,000
+And everything that she's accomplished so far,
+
+351
+0:14:35.131,000 --> 0:14:37,000
+finishing school, going to college,
+
+352
+0:14:37.358,000 --> 0:14:38,000
+starting a company,
+
+353
+0:14:38.774,000 --> 0:14:4,000
+collaborating with me to develop Avaz,
+
+354
+0:14:40.914,000 --> 0:14:41,000
+all of these things she's done
+
+355
+0:14:42.806,000 --> 0:14:47,000
+with nothing more than moving her eyes.
+
+356
+0:14:48.329,000 --> 0:14:5,000
+Daniel Webster said this:
+
+357
+0:14:51.018,000 --> 0:14:53,000
+He said, "If all of my possessions were taken
+
+358
+0:14:53.958,000 --> 0:14:55,000
+from me with one exception,
+
+359
+0:14:56.946,000 --> 0:14:58,000
+I would choose to keep the power of communication,
+
+360
+0:14:59.927,000 --> 0:15:02,000
+for with it, I would regain all the rest."
+
+361
+0:15:03.83,000 --> 0:15:08,000
+And that's why, of all of these incredible applications of FreeSpeech,
+
+362
+0:15:08.946,000 --> 0:15:1,000
+the one that's closest to my heart
+
+363
+0:15:11.026,000 --> 0:15:13,000
+still remains the ability for this
+
+364
+0:15:13.094,000 --> 0:15:15,000
+to empower children with disabilities
+
+365
+0:15:15.474,000 --> 0:15:16,000
+to be able to communicate,
+
+366
+0:15:17.247,000 --> 0:15:18,000
+the power of communication,
+
+367
+0:15:19.036,000 --> 0:15:21,000
+to get back all the rest.
+
+368
+0:15:21.276,000 --> 0:15:22,000
+Thank you.
+
+369
+0:15:22.673,000 --> 0:15:23,000
+(Applause)
+
+370
+0:15:24.005,000 --> 0:15:28,000
+Thank you. (Applause)
+
+371
+0:15:28.204,000 --> 0:15:33,000
+Thank you. Thank you. Thank you. (Applause)
+
+372
+0:15:33.527,000 --> 0:15:37,000
+Thank you. Thank you. Thank you. (Applause)
+

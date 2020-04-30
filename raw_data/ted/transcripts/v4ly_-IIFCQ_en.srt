@@ -1,0 +1,992 @@
+1
+0:00:12.802,000 --> 0:00:15,000
+It's 4am, you've been awake for forty hours,
+
+2
+0:00:16.222,000 --> 0:00:19,000
+when you unlock a puzzle containing this video
+
+3
+0:00:19.627,000 --> 0:00:23,000
+of some kind of dance-off between a chicken and a roller-skating beaver.
+
+4
+0:00:24.627,000 --> 0:00:25,000
+(Laughter)
+
+5
+0:00:26.175,000 --> 0:00:28,000
+The confusion and delight you're experiencing
+
+6
+0:00:28.486,000 --> 0:00:31,000
+is a typical moment at the MIT Mystery Hunt,
+
+7
+0:00:31.603,000 --> 0:00:33,000
+which is basically the Olympics meets Burning Man
+
+8
+0:00:33.968,000 --> 0:00:34,000
+for a specific type of nerd.
+
+9
+0:00:35.696,000 --> 0:00:36,000
+(Laughter)
+
+10
+0:00:36.721,000 --> 0:00:38,000
+Today, I'm going to take you inside this strange,
+
+11
+0:00:39.087,000 --> 0:00:42,000
+intellectually masochistic and incredibly joyful world.
+
+12
+0:00:42.858,000 --> 0:00:45,000
+But first, I have to explain what I mean when I say "puzzle."
+
+13
+0:00:46.715,000 --> 0:00:49,000
+A puzzle-hunt-style puzzle is a data set.
+
+14
+0:00:49.977,000 --> 0:00:53,000
+It can be a grid of letters, a sudoku, a video, an audio --
+
+15
+0:00:54.811,000 --> 0:00:57,000
+it can be anything that contains hidden information
+
+16
+0:00:57.861,000 --> 0:01:01,000
+that can eventually resolve into an answer that is a word or a phrase.
+
+17
+0:01:02.194,000 --> 0:01:03,000
+So, to give you an example,
+
+18
+0:01:03.538,000 --> 0:01:05,000
+this is a puzzle called "Master Pieces."
+
+19
+0:01:06.18,000 --> 0:01:1,000
+It consists of 10 images of LEGO people looking at piles of LEGOs.
+
+20
+0:01:11.37,000 --> 0:01:14,000
+And to save us some time, I'm going to explain what's going on here.
+
+21
+0:01:14.744,000 --> 0:01:18,000
+Each of the piles of LEGOs is a deconstructed work of art
+
+22
+0:01:19.173,000 --> 0:01:2,000
+in the style of a famous artist.
+
+23
+0:01:21.046,000 --> 0:01:24,000
+So, does anybody recognize the artist on the left?
+
+24
+0:01:24.641,000 --> 0:01:25,000
+They used a lot of red.
+
+25
+0:01:26.865,000 --> 0:01:27,000
+I heard "Rothko," yeah.
+
+26
+0:01:28.873,000 --> 0:01:29,000
+The second one?
+
+27
+0:01:30.048,000 --> 0:01:31,000
+(Audience) Mondrian.
+
+28
+0:01:31.223,000 --> 0:01:32,000
+Alex Rosenthal: Yeah, well done.
+
+29
+0:01:32.809,000 --> 0:01:34,000
+And the third one? This is the hardest one --
+
+30
+0:01:37.404,000 --> 0:01:38,000
+Yeah, Klimt, I heard it.
+
+31
+0:01:38.95,000 --> 0:01:41,000
+Well done, the color is the biggest clue there.
+
+32
+0:01:42.195,000 --> 0:01:44,000
+So the puzzle has various clues
+
+33
+0:01:44.884,000 --> 0:01:46,000
+that tell you what matters here are the artists,
+
+34
+0:01:47.157,000 --> 0:01:48,000
+not the specific works of art.
+
+35
+0:01:48.8,000 --> 0:01:51,000
+And what you need to do is then look at what you haven't used yet,
+
+36
+0:01:52.301,000 --> 0:01:54,000
+which is the number of LEGO people in each painting.
+
+37
+0:01:55.228,000 --> 0:01:56,000
+And you can count them
+
+38
+0:01:56.706,000 --> 0:02:,000
+and then count into the artists' last names by the same number of letters.
+
+39
+0:02:00.76,000 --> 0:02:03,000
+So there's three people in front of the Rothko on the left,
+
+40
+0:02:03.95,000 --> 0:02:05,000
+so you take the third letter, which is a T.
+
+41
+0:02:06.633,000 --> 0:02:09,000
+There's only one in front of the Mondrian, so you take the first letter, M.
+
+42
+0:02:10.228,000 --> 0:02:13,000
+And there's three again in front of Klimt, so you take the third letter, I.
+
+43
+0:02:14.419,000 --> 0:02:16,000
+You do that for all 10 of the original artists
+
+44
+0:02:16.935,000 --> 0:02:17,000
+and put them in the order,
+
+45
+0:02:18.364,000 --> 0:02:2,000
+and you get the answer, which is "illuminate."
+
+46
+0:02:21.195,000 --> 0:02:22,000
+(Laughter)
+
+47
+0:02:23.6,000 --> 0:02:25,000
+Puzzles like this are about communicating an idea.
+
+48
+0:02:27.211,000 --> 0:02:29,000
+But where I'm trying to be as clear as possible for you now,
+
+49
+0:02:30.092,000 --> 0:02:33,000
+puzzles have to navigate the line between abstraction and clarity.
+
+50
+0:02:34.601,000 --> 0:02:37,000
+They have to be obtuse enough to make you work for it,
+
+51
+0:02:38.489,000 --> 0:02:4,000
+but elegant enough so you can get to the aha moment,
+
+52
+0:02:41.339,000 --> 0:02:42,000
+where everything clicks into place.
+
+53
+0:02:43.546,000 --> 0:02:45,000
+Puzzle solvers are junkies for this aha moment --
+
+54
+0:02:45.95,000 --> 0:02:49,000
+it feels like a brief high and an instant of pristine clarity.
+
+55
+0:02:51.077,000 --> 0:02:54,000
+And there's also a deeper fulfillment at play here,
+
+56
+0:02:54.709,000 --> 0:02:57,000
+which is that humans are innate problem-solvers.
+
+57
+0:02:57.871,000 --> 0:02:59,000
+That's why we love crosswords and escape rooms
+
+58
+0:03:00.712,000 --> 0:03:03,000
+and figuring out how to explore the bottom of the ocean.
+
+59
+0:03:04.704,000 --> 0:03:08,000
+Solving deviously difficult puzzles expands our minds in new directions,
+
+60
+0:03:09.292,000 --> 0:03:14,000
+and it also helps us come at problems from diverse perspectives.
+
+61
+0:03:15.927,000 --> 0:03:17,000
+These puzzles come in various puzzle hunts,
+
+62
+0:03:18.26,000 --> 0:03:19,000
+which come in various shapes and sizes.
+
+63
+0:03:20.173,000 --> 0:03:22,000
+There's one-hour ones designed for novices,
+
+64
+0:03:22.855,000 --> 0:03:23,000
+24-hour road rallies,
+
+65
+0:03:24.601,000 --> 0:03:27,000
+and the puzzle hunt of puzzle hunts, the MIT Mystery Hunt.
+
+66
+0:03:28.753,000 --> 0:03:3,000
+This is an event that takes place once a year
+
+67
+0:03:30.944,000 --> 0:03:35,000
+and has around 2,000 people descending on MIT's campus
+
+68
+0:03:36.356,000 --> 0:03:4,000
+and solving puzzles in teams that range from a single person to over 100.
+
+69
+0:03:41.19,000 --> 0:03:43,000
+My team has 60 people on it --
+
+70
+0:03:43.571,000 --> 0:03:46,000
+that includes a national crossword puzzle tournament champion,
+
+71
+0:03:47.515,000 --> 0:03:49,000
+a particle physicist, a composer,
+
+72
+0:03:50.212,000 --> 0:03:52,000
+an actual deep-sea explorer,
+
+73
+0:03:52.561,000 --> 0:03:55,000
+and me, feeling like "Mr. Bean goes to Bletchley Park."
+
+74
+0:03:55.95,000 --> 0:03:57,000
+(Laughter)
+
+75
+0:03:58.506,000 --> 0:04:01,000
+That's actually an apt comparison, because one year involved a puzzle
+
+76
+0:04:02.106,000 --> 0:04:04,000
+where you had to construct a working Enigma machine
+
+77
+0:04:04.919,000 --> 0:04:05,000
+out of pieces of cardboard.
+
+78
+0:04:06.58,000 --> 0:04:08,000
+(Laughter)
+
+79
+0:04:08.786,000 --> 0:04:09,000
+Each Mystery Hunt has a theme.
+
+80
+0:04:10.627,000 --> 0:04:13,000
+Past ones have included "The Matrix" and "Alice in Wonderland."
+
+81
+0:04:13.881,000 --> 0:04:16,000
+It's often pop culture- and literary-based themes.
+
+82
+0:04:18.057,000 --> 0:04:2,000
+And the goal is to find the coin
+
+83
+0:04:20.215,000 --> 0:04:22,000
+that's been hidden somewhere on MIT's campus.
+
+84
+0:04:23.033,000 --> 0:04:26,000
+And in order to get there, you have to solve around 150 puzzles
+
+85
+0:04:26.501,000 --> 0:04:28,000
+and do various events and challenges.
+
+86
+0:04:29.353,000 --> 0:04:32,000
+I had done this for about 10 years without ever dreaming of winning,
+
+87
+0:04:33.091,000 --> 0:04:35,000
+until January of 2016,
+
+88
+0:04:35.44,000 --> 0:04:39,000
+where 53 hours into a hunt whose theme is the movie "Inception,"
+
+89
+0:04:39.776,000 --> 0:04:42,000
+we haven't slept in days, so everything is hilarious ...
+
+90
+0:04:43.023,000 --> 0:04:44,000
+(Laughter)
+
+91
+0:04:44.231,000 --> 0:04:48,000
+The tables are covered in piles of papers, of our notes and completed puzzles.
+
+92
+0:04:49.173,000 --> 0:04:53,000
+The whiteboards are an unintelligible mess of three days' worth of insights.
+
+93
+0:04:53.729,000 --> 0:04:54,000
+And we're stuck on two puzzles.
+
+94
+0:04:55.364,000 --> 0:04:58,000
+If we could crack them, we would get into the endgame,
+
+95
+0:04:58.514,000 --> 0:05:,000
+and after hours of work, in a magical moment,
+
+96
+0:05:01.077,000 --> 0:05:03,000
+they both fall within 10 seconds of each other,
+
+97
+0:05:03.68,000 --> 0:05:05,000
+and soon, we're on the final runaround,
+
+98
+0:05:05.783,000 --> 0:05:07,000
+a series of clues that will lead us to the coin,
+
+99
+0:05:08.784,000 --> 0:05:1,000
+and we're racing through the halls of MIT,
+
+100
+0:05:11.22,000 --> 0:05:14,000
+trying not to knock over or terrify tour groups,
+
+101
+0:05:14.566,000 --> 0:05:15,000
+when we realize we're not alone,
+
+102
+0:05:16.169,000 --> 0:05:18,000
+there's another team on the runaround as well,
+
+103
+0:05:18.481,000 --> 0:05:2,000
+and we don't know who's ahead.
+
+104
+0:05:20.542,000 --> 0:05:22,000
+So, we're a mess of anxiety,
+
+105
+0:05:23.228,000 --> 0:05:26,000
+anticipation, exhilaration and sleep deprivation,
+
+106
+0:05:26.331,000 --> 0:05:28,000
+when we arrive at the Alchemist,
+
+107
+0:05:28.609,000 --> 0:05:3,000
+a sculpture in which we find ...
+
+108
+0:05:31.91,000 --> 0:05:32,000
+this coin.
+
+109
+0:05:33.202,000 --> 0:05:34,000
+(Cheers)
+
+110
+0:05:34.381,000 --> 0:05:35,000
+Yeah.
+
+111
+0:05:35.557,000 --> 0:05:37,000
+(Applause)
+
+112
+0:05:37.685,000 --> 0:05:39,000
+And in claiming it, we win the MIT Mystery Hunt
+
+113
+0:05:40.131,000 --> 0:05:42,000
+by a tiny margin of five minutes.
+
+114
+0:05:43.506,000 --> 0:05:44,000
+What I didn't mention before
+
+115
+0:05:44.974,000 --> 0:05:45,000
+is that the prize for winning
+
+116
+0:05:46.395,000 --> 0:05:49,000
+is that you get to construct the whole hunt for the following year.
+
+117
+0:05:49.633,000 --> 0:05:5,000
+(Laughter)
+
+118
+0:05:51.395,000 --> 0:05:52,000
+The punishment for winning
+
+119
+0:05:52.674,000 --> 0:05:56,000
+is that you have to construct the whole hunt for the following year.
+
+120
+0:05:58.08,000 --> 0:06:01,000
+At the beginning of 2016, I had never constructed a puzzle before --
+
+121
+0:06:01.479,000 --> 0:06:02,000
+I had solved plenty of puzzles,
+
+122
+0:06:03.052,000 --> 0:06:06,000
+but constructing and solving are entirely different beasts.
+
+123
+0:06:06.395,000 --> 0:06:07,000
+But once again,
+
+124
+0:06:07.601,000 --> 0:06:1,000
+I was lucky to be on a team full of brilliant mentors and collaborators.
+
+125
+0:06:11.125,000 --> 0:06:12,000
+So, from a constructor's point of view,
+
+126
+0:06:13.077,000 --> 0:06:15,000
+a puzzle is where I have an idea,
+
+127
+0:06:15.577,000 --> 0:06:16,000
+and instead of telling you what it is,
+
+128
+0:06:17.451,000 --> 0:06:2,000
+I'm going to leave a trail of breadcrumbs so you can figure it out for yourself,
+
+129
+0:06:21.297,000 --> 0:06:23,000
+and have the joy and experience of the aha moment.
+
+130
+0:06:24.053,000 --> 0:06:26,000
+This is another way of looking at the aha moment.
+
+131
+0:06:26.879,000 --> 0:06:28,000
+And what's incredible to me is that this experience,
+
+132
+0:06:29.616,000 --> 0:06:31,000
+which is very emotional and kind of almost physical,
+
+133
+0:06:32.543,000 --> 0:06:34,000
+is something that can be carefully designed.
+
+134
+0:06:35.028,000 --> 0:06:36,000
+So, to show you what I mean,
+
+135
+0:06:36.734,000 --> 0:06:39,000
+this is a puzzle I co-constructed with my friend Matt Gruskin.
+
+136
+0:06:40.258,000 --> 0:06:41,000
+It's a text adventure,
+
+137
+0:06:42.006,000 --> 0:06:44,000
+which is the old-school adventure game format,
+
+138
+0:06:44.88,000 --> 0:06:47,000
+where you're exploring, going north, east, south and west,
+
+139
+0:06:48.212,000 --> 0:06:5,000
+picking up items and using them.
+
+140
+0:06:50.649,000 --> 0:06:52,000
+And you could get to the end of the game part,
+
+141
+0:06:52.855,000 --> 0:06:53,000
+but you won't have solved the puzzle.
+
+142
+0:06:54.681,000 --> 0:06:58,000
+In order to do so, you have to recognize a hidden layer of information,
+
+143
+0:06:58.8,000 --> 0:07:,000
+and the easiest way of seeing it is by mapping the game out.
+
+144
+0:07:01.736,000 --> 0:07:02,000
+That looks something like this.
+
+145
+0:07:03.736,000 --> 0:07:05,000
+Does anybody recognize what this is?
+
+146
+0:07:07.22,000 --> 0:07:08,000
+Yeah, exactly.
+
+147
+0:07:08.783,000 --> 0:07:12,000
+This text adventure takes place within "Settlers of Catan."
+
+148
+0:07:13.22,000 --> 0:07:14,000
+Who here knows what "Settlers" is?
+
+149
+0:07:15.887,000 --> 0:07:16,000
+Nerds.
+
+150
+0:07:17.069,000 --> 0:07:18,000
+(Laughter)
+
+151
+0:07:18.95,000 --> 0:07:2,000
+If you don't know, "Settlers" is a board game
+
+152
+0:07:21.085,000 --> 0:07:23,000
+where you're competing against other people
+
+153
+0:07:23.149,000 --> 0:07:26,000
+to collect resources and use them to build structures.
+
+154
+0:07:26.307,000 --> 0:07:3,000
+And within the text adventure, we hid information in various ways,
+
+155
+0:07:31.173,000 --> 0:07:33,000
+with which you could reconstruct an entire game.
+
+156
+0:07:33.831,000 --> 0:07:35,000
+You could figure out the roads, the cities, the towns,
+
+157
+0:07:36.8,000 --> 0:07:38,000
+the resources, the numbers on the tiles, even the dice rolls.
+
+158
+0:07:39.754,000 --> 0:07:42,000
+You put all that information together and you could extract an answer
+
+159
+0:07:43.035,000 --> 0:07:45,000
+in a way that's too complicated to explain right now.
+
+160
+0:07:45.754,000 --> 0:07:46,000
+(Laughter)
+
+161
+0:07:47.31,000 --> 0:07:49,000
+But find me afterwards if you really want to know.
+
+162
+0:07:49.701,000 --> 0:07:5,000
+(Laughter)
+
+163
+0:07:50.759,000 --> 0:07:51,000
+But what this puzzle emphasized for me
+
+164
+0:07:52.72,000 --> 0:07:55,000
+is the value of perspective shifts in inspiring an aha.
+
+165
+0:07:56.157,000 --> 0:07:57,000
+So, in this puzzle,
+
+166
+0:07:57.347,000 --> 0:08:,000
+you go from experiencing the world on the ground, as a character,
+
+167
+0:08:00.45,000 --> 0:08:03,000
+to looking down on it from above as if you're playing a board game,
+
+168
+0:08:03.639,000 --> 0:08:04,000
+and in that shift,
+
+169
+0:08:04.95,000 --> 0:08:07,000
+you completely reframe all the information you've been given.
+
+170
+0:08:09.26,000 --> 0:08:13,000
+The hardest part of construction for me is coming up with a great idea for an aha.
+
+171
+0:08:13.607,000 --> 0:08:16,000
+Fortunately, the world is a torrent of ideas and information.
+
+172
+0:08:17.456,000 --> 0:08:21,000
+I've seen fantastic puzzles constructed out of the waggle dances of bees,
+
+173
+0:08:21.99,000 --> 0:08:24,000
+and the remarkable coincidence that the 88 keys of a piano
+
+174
+0:08:25.792,000 --> 0:08:28,000
+can be perfectly mapped to the 88 constellations in the sky.
+
+175
+0:08:29.403,000 --> 0:08:32,000
+Once you find that out, you can't not construct the puzzle,
+
+176
+0:08:32.792,000 --> 0:08:34,000
+and it's going to be about having the solvers
+
+177
+0:08:35.006,000 --> 0:08:36,000
+make that connection in their own minds.
+
+178
+0:08:36.99,000 --> 0:08:37,000
+Whether you give them stars on a keyboard
+
+179
+0:08:38.991,000 --> 0:08:4,000
+or play the celestial music of the cosmos,
+
+180
+0:08:41.077,000 --> 0:08:43,000
+you're getting them there, one way or another.
+
+181
+0:08:43.268,000 --> 0:08:45,000
+Before long, you find yourself staring at a turtle,
+
+182
+0:08:45.688,000 --> 0:08:47,000
+and asking yourself, "Is this a puzzle?"
+
+183
+0:08:47.895,000 --> 0:08:48,000
+(Laughter)
+
+184
+0:08:49.561,000 --> 0:08:5,000
+And also, staring at a turtle and saying,
+
+185
+0:08:51.577,000 --> 0:08:54,000
+"I never appreciated what multitudes this contains in its shell alone."
+
+186
+0:08:55.64,000 --> 0:08:57,000
+This might be a familiar experience to you,
+
+187
+0:08:57.68,000 --> 0:09:,000
+if you've ever been watching a TED Talk and asked yourself, "Is this a puzzle?"
+
+188
+0:09:01.458,000 --> 0:09:02,000
+(Laughter)
+
+189
+0:09:02.934,000 --> 0:09:03,000
+I'm not telling.
+
+190
+0:09:04.346,000 --> 0:09:05,000
+But what I will say
+
+191
+0:09:05.594,000 --> 0:09:08,000
+is that puzzles can be found in the most unexpected of places.
+
+192
+0:09:09.569,000 --> 0:09:11,000
+That brings us back to one of my favorite puzzles of all time,
+
+193
+0:09:12.514,000 --> 0:09:13,000
+which was constructed by Trip Payne.
+
+194
+0:09:14.273,000 --> 0:09:16,000
+And this time, I'm going to play it for you with the sound on,
+
+195
+0:09:17.234,000 --> 0:09:18,000
+so get ready to name that tune.
+
+196
+0:09:18.847,000 --> 0:09:2,000
+(Slowed-down mock clucking)
+
+197
+0:09:21.974,000 --> 0:09:23,000
+(Slowed-down mock clucking)
+
+198
+0:09:25.117,000 --> 0:09:31,000
+(Slowed-down mock clucking)
+
+199
+0:09:31.476,000 --> 0:09:32,000
+(Laughter)
+
+200
+0:09:32.65,000 --> 0:09:33,000
+Who knows what that is?
+
+201
+0:09:34.825,000 --> 0:09:36,000
+Yeah, "You Make Me Feel Like a Natural Woman."
+
+202
+0:09:37.023,000 --> 0:09:41,000
+(Laughter)
+
+203
+0:09:41.875,000 --> 0:09:44,000
+So you can identify that and seven other songs and clips,
+
+204
+0:09:45.256,000 --> 0:09:47,000
+and then look at the videos themselves for clues,
+
+205
+0:09:47.827,000 --> 0:09:5,000
+where the way that they are filmed and edited together
+
+206
+0:09:51.133,000 --> 0:09:54,000
+plus things like the cutaways to the panel of five people
+
+207
+0:09:54.22,000 --> 0:09:55,000
+sitting at a table,
+
+208
+0:09:55.498,000 --> 0:09:57,000
+which is reminiscent of a panel of judges,
+
+209
+0:09:57.974,000 --> 0:10:,000
+all of this can suggest "reality competition show."
+
+210
+0:10:01.252,000 --> 0:10:02,000
+And either through internet research,
+
+211
+0:10:03.173,000 --> 0:10:06,000
+or from just recognizing this, you can get to the aha,
+
+212
+0:10:06.831,000 --> 0:10:09,000
+which is that these clips are shot-for-shot recreations
+
+213
+0:10:09.895,000 --> 0:10:11,000
+of lip-synch battles from "RuPaul's Drag Race."
+
+214
+0:10:12.403,000 --> 0:10:14,000
+(Laughter)
+
+215
+0:10:15.323,000 --> 0:10:16,000
+So, why do we do this?
+
+216
+0:10:16.966,000 --> 0:10:18,000
+(Laughter)
+
+217
+0:10:19.903,000 --> 0:10:22,000
+(Applause)
+
+218
+0:10:22.927,000 --> 0:10:23,000
+You tell me, I don't know.
+
+219
+0:10:24.546,000 --> 0:10:26,000
+So, first of all, it's really fun.
+
+220
+0:10:27.22,000 --> 0:10:3,000
+But I think it also improves our lives in various ways.
+
+221
+0:10:30.696,000 --> 0:10:33,000
+Being able to solve puzzles, when I'm confronted with a challenge,
+
+222
+0:10:34.181,000 --> 0:10:37,000
+has allowed me to explore it from multiple perspectives
+
+223
+0:10:37.356,000 --> 0:10:39,000
+before I lock in an approach.
+
+224
+0:10:39.442,000 --> 0:10:42,000
+Also, the process of solving is great training for working with a team,
+
+225
+0:10:43.458,000 --> 0:10:45,000
+knowing when to listen, when to share,
+
+226
+0:10:45.966,000 --> 0:10:47,000
+and how to recognize and celebrate insight
+
+227
+0:10:48.395,000 --> 0:10:52,000
+and being able to construct ahas is a very powerful tool.
+
+228
+0:10:52.673,000 --> 0:10:56,000
+Think of how powerful and exciting and convincing an idea is
+
+229
+0:10:57.531,000 --> 0:10:59,000
+that comes from your own mind,
+
+230
+0:10:59.721,000 --> 0:11:01,000
+where you make all the connections yourself.
+
+231
+0:11:03.094,000 --> 0:11:05,000
+So in January of 2017,
+
+232
+0:11:05.419,000 --> 0:11:09,000
+after tens of thousands of hours of work,
+
+233
+0:11:09.49,000 --> 0:11:11,000
+we finally run our Mystery Hunt.
+
+234
+0:11:11.99,000 --> 0:11:15,000
+And it's a different sort of satisfaction than the quick high of an aha moment.
+
+235
+0:11:16.577,000 --> 0:11:2,000
+Instead, it's the slow burn of saying something through perplexing abstraction,
+
+236
+0:11:21.292,000 --> 0:11:22,000
+yet being understood.
+
+237
+0:11:23.085,000 --> 0:11:24,000
+And when it was all over,
+
+238
+0:11:24.68,000 --> 0:11:27,000
+in our exhaustion, we turned to each other and the world, and we said,
+
+239
+0:11:28.015,000 --> 0:11:3,000
+"We're never doing this again. It's too much work.
+
+240
+0:11:30.821,000 --> 0:11:32,000
+It's really fun, but no more winning."
+
+241
+0:11:34.109,000 --> 0:11:37,000
+One year later, in January of 2018,
+
+242
+0:11:37.53,000 --> 0:11:38,000
+we won the MIT Mystery Hunt again.
+
+243
+0:11:39.539,000 --> 0:11:4,000
+(Laughter)
+
+244
+0:11:41.245,000 --> 0:11:44,000
+So, we're currently I don't know how many tens of thousands of hours of work in,
+
+245
+0:11:45.031,000 --> 0:11:47,000
+and we're two months out from the 2019 Hunt.
+
+246
+0:11:47.458,000 --> 0:11:49,000
+So, thank you for listening, I have to go write a puzzle.
+
+247
+0:11:50.175,000 --> 0:11:51,000
+(Laughter)
+
+248
+0:11:51.444,000 --> 0:11:53,000
+(Applause)
+

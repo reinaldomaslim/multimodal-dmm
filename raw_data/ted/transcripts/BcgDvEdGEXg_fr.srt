@@ -1,0 +1,2000 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Morgane Quilfen Relecteur: Emmanuel Parfond
+
+2
+0:00:13.131,000 --> 0:00:15,000
+Chris Anderson : Qu’est-ce qui vous inquiète ?
+
+3
+0:00:15.562,000 --> 0:00:18,000
+Vous avez été très ouvert sur beaucoup de problèmes sur Twitter.
+
+4
+0:00:18.576,000 --> 0:00:2,000
+Quelle serait votre principale inquiétude
+
+5
+0:00:20.763,000 --> 0:00:22,000
+quant à l’état actuel des choses ?
+
+6
+0:00:23.447,000 --> 0:00:25,000
+Jack Dorsey : Actuellement, la santé de la conversation.
+
+7
+0:00:26.4,000 --> 0:00:29,000
+Notre objectif est de servir le débat public
+
+8
+0:00:30.084,000 --> 0:00:35,000
+et nous y avons vu un certain nombre d’attaques.
+
+9
+0:00:35.164,000 --> 0:00:37,000
+Nous avons vu des abus, du harcèlement,
+
+10
+0:00:37.613,000 --> 0:00:4,000
+de la manipulation,
+
+11
+0:00:40.859,000 --> 0:00:43,000
+de l’automatisation, de la coordination humaine,
+
+12
+0:00:44.033,000 --> 0:00:46,000
+de la désinformation.
+
+13
+0:00:46.134,000 --> 0:00:5,000
+Ce sont des dynamiques auxquelles nous ne nous attendions pas
+
+14
+0:00:50.192,000 --> 0:00:53,000
+il y a 13 ans, quand nous étions en train de lancer l’entreprise.
+
+15
+0:00:53.934,000 --> 0:00:55,000
+Mais nous les voyons maintenant à grande échelle
+
+16
+0:00:56.622,000 --> 0:01:01,000
+et ce qui m’inquiète le plus est notre capacité à résoudre cela
+
+17
+0:01:01.924,000 --> 0:01:04,000
+de façon systémique et adaptée à l’échelle,
+
+18
+0:01:05.056,000 --> 0:01:11,000
+avec une compréhension rigoureuse de comment nous agissons,
+
+19
+0:01:12.056,000 --> 0:01:15,000
+une vision transparente de comment nous agissons
+
+20
+0:01:15.185,000 --> 0:01:18,000
+et une procédure d’appel rigoureuse pour les fois où nous avons tort,
+
+21
+0:01:18.456,000 --> 0:01:2,000
+car nous aurons tort.
+
+22
+0:01:20.503,000 --> 0:01:22,000
+Whitney Pennington Rodgers : Je suis ravie d’entendre
+
+23
+0:01:23.02,000 --> 0:01:24,000
+que cela vous inquiète
+
+24
+0:01:24.876,000 --> 0:01:26,000
+car il y a beaucoup d’articles sur des personnes
+
+25
+0:01:27.441,000 --> 0:01:29,000
+qui se sont senties maltraitées, harcelées sur Twitter
+
+26
+0:01:30.031,000 --> 0:01:34,000
+et je crois que personne ne l’a plus été que les femmes, les femmes de couleur
+
+27
+0:01:34.157,000 --> 0:01:35,000
+et les femmes noires.
+
+28
+0:01:35.351,000 --> 0:01:36,000
+Des données ont été publiées --
+
+29
+0:01:37.288,000 --> 0:01:39,000
+Amnesty International a publié un rapport il y a quelques mois
+
+30
+0:01:40.221,000 --> 0:01:44,000
+où ils ont montré que pour un sous-groupe de femmes noires utilisant Twitter,
+
+31
+0:01:44.725,000 --> 0:01:47,000
+en moyenne un tweet sur 10 reçus
+
+32
+0:01:48.205,000 --> 0:01:5,000
+présentait une forme de harcèlement.
+
+33
+0:01:50.328,000 --> 0:01:53,000
+Quand vous pensez à la santé de la communauté sur Twitter,
+
+34
+0:01:54.259,000 --> 0:01:58,000
+cela m’intéresse d’entendre « de la santé pour tout le monde »,
+
+35
+0:01:58.267,000 --> 0:02:01,000
+mais en particulier : comment allez-vous faire de Twitter un espace sûr
+
+36
+0:02:01.612,000 --> 0:02:02,000
+pour ce sous-groupe, pour les femmes,
+
+37
+0:02:03.394,000 --> 0:02:05,000
+pour les femmes de couleur et les femmes noires ?
+
+38
+0:02:05.684,000 --> 0:02:06,000
+JD : Ouais.
+
+39
+0:02:06.832,000 --> 0:02:08,000
+C’est une situation effroyable
+
+40
+0:02:09.499,000 --> 0:02:1,000
+quand vous venez sur un service
+
+41
+0:02:11.142,000 --> 0:02:15,000
+où, idéalement, vous voulez apprendre quelque chose sur le monde
+
+42
+0:02:15.487,000 --> 0:02:2,000
+et vous passez la majorité de votre temps à signaler des abus, à être agressée,
+
+43
+0:02:20.954,000 --> 0:02:21,000
+à être harcelée.
+
+44
+0:02:23.373,000 --> 0:02:29,000
+Nous reconsidérons en profondeur les incitations
+
+45
+0:02:29.718,000 --> 0:02:32,000
+que la plateforme offre naturellement et le service qu’elle fournit.
+
+46
+0:02:34.262,000 --> 0:02:38,000
+Actuellement, la dynamique du système rend cela très facile de harceler
+
+47
+0:02:38.863,000 --> 0:02:41,000
+et d’agresser les autres via le service
+
+48
+0:02:42.551,000 --> 0:02:45,000
+et malheureusement, auparavant, la majorité de notre système
+
+49
+0:02:45.837,000 --> 0:02:5,000
+était entièrement basé sur le signalement du harcèlement et des agressions.
+
+50
+0:02:51.457,000 --> 0:02:56,000
+Vers le milieu de l’année dernière, nous avons décidé d’appliquer
+
+51
+0:02:56.556,000 --> 0:02:59,000
+beaucoup plus d’apprentissage automatique, d’apprentissage profond au problème
+
+52
+0:03:00.562,000 --> 0:03:04,000
+et d’essayer d’être plus proactifs là où il y a des agressions
+
+53
+0:03:05.124,000 --> 0:03:08,000
+afin de pouvoir soulager complètement les victimes de ce fardeau.
+
+54
+0:03:09.108,000 --> 0:03:11,000
+Récemment, nous avons réalisé des progrès.
+
+55
+0:03:11.567,000 --> 0:03:17,000
+Environ 38 % des tweets abusifs sont identifiés de façon proactive
+
+56
+0:03:18.08,000 --> 0:03:2,000
+par des algorithmes d’apprentissage automatique
+
+57
+0:03:20.295,000 --> 0:03:22,000
+afin que les gens n’aient pas à les signaler.
+
+58
+0:03:22.433,000 --> 0:03:25,000
+Ceux qui sont identifiés sont passés en revue par des êtres humains
+
+59
+0:03:25.706,000 --> 0:03:28,000
+afin de ne pas supprimer du contenu ou des comptes
+
+60
+0:03:28.964,000 --> 0:03:3,000
+sans que quelqu’un ne les contrôle.
+
+61
+0:03:31.114,000 --> 0:03:33,000
+C’était à zéro pourcent il y a un an.
+
+62
+0:03:33.897,000 --> 0:03:34,000
+À ce zéro pourcent,
+
+63
+0:03:35.852,000 --> 0:03:38,000
+toute personne étant agressée devant le signaler,
+
+64
+0:03:39.526,000 --> 0:03:42,000
+ce qui représentait beaucoup de travail pour elle, pour nous
+
+65
+0:03:43.129,000 --> 0:03:45,000
+et était fondamentalement injuste.
+
+66
+0:03:46.498,000 --> 0:03:47,000
+Une autre chose que nous faisons,
+
+67
+0:03:48.082,000 --> 0:03:5,000
+c’est de nous s’assurer qu’en tant qu’entreprise,
+
+68
+0:03:50.372,000 --> 0:03:51,000
+nous avons une représentation
+
+69
+0:03:51.769,000 --> 0:03:53,000
+de toutes les communautés que nous servons.
+
+70
+0:03:53.869,000 --> 0:03:55,000
+Nous ne pouvons pas bâtir une entreprise fructueuse
+
+71
+0:03:56.258,000 --> 0:03:58,000
+sans avoir de diversité de points de vue au sein de nos murs
+
+72
+0:03:59.196,000 --> 0:04:02,000
+qui ressentent ces problèmes au quotidien.
+
+73
+0:04:02.952,000 --> 0:04:05,000
+Ce n’est pas valable qu’avec l’équipe qui accomplit le travail
+
+74
+0:04:06.714,000 --> 0:04:08,000
+mais aussi avec notre direction.
+
+75
+0:04:08.834,000 --> 0:04:1,000
+Nous devons continuer à développer de l’empathie
+
+76
+0:04:11.675,000 --> 0:04:13,000
+pour ce que les gens vivent,
+
+77
+0:04:14.615,000 --> 0:04:17,000
+leur offrir de meilleurs outils pour agir en fonction de leur vécu
+
+78
+0:04:17.955,000 --> 0:04:21,000
+et offrir à nos clients une approche meilleure et plus simple
+
+79
+0:04:22.231,000 --> 0:04:24,000
+pour gérer le genre de choses que nous voyons.
+
+80
+0:04:24.637,000 --> 0:04:27,000
+Une grande partie de notre travail a trait à la technologie
+
+81
+0:04:27.927,000 --> 0:04:31,000
+mais nous considérons également les incitations du service :
+
+82
+0:04:32.259,000 --> 0:04:37,000
+qu’est-ce que Twitter vous encourage-t-il à faire quand vous l’ouvrez ?
+
+83
+0:04:37.466,000 --> 0:04:38,000
+Auparavant,
+
+84
+0:04:40.67,000 --> 0:04:45,000
+il encourageait fortement l’indignation, le comportement de foule,
+
+85
+0:04:46.238,000 --> 0:04:48,000
+le harcèlement collectif.
+
+86
+0:04:48.721,000 --> 0:04:51,000
+Nous devons considérer plus en profondeur certains des principes fondamentaux
+
+87
+0:04:52.393,000 --> 0:04:55,000
+de ce que le service fait pour affecter de plus grands changements.
+
+88
+0:04:55.561,000 --> 0:04:58,000
+Nous pouvons faire de petits changements concernant la technologie
+
+89
+0:04:59.43,000 --> 0:05:01,000
+mais fondamentalement, nous devons considérer en profondeur
+
+90
+0:05:02.2,000 --> 0:05:03,000
+les dynamiques dans le réseau même
+
+91
+0:05:03.84,000 --> 0:05:04,000
+et c’est ce que nous faisons.
+
+92
+0:05:05.258,000 --> 0:05:07,000
+CA : Quelle est votre impression --
+
+93
+0:05:07.316,000 --> 0:05:1,000
+quel genre de choses que vous pourriez changer
+
+94
+0:05:11.303,000 --> 0:05:13,000
+modifieraient fondamentalement les comportements ?
+
+95
+0:05:15.386,000 --> 0:05:16,000
+JD : Une des choses --
+
+96
+0:05:16.89,000 --> 0:05:21,000
+nous avons démarré le service avec ce concept de suivre un compte,
+
+97
+0:05:22.254,000 --> 0:05:23,000
+en tant qu’exemple,
+
+98
+0:05:24.003,000 --> 0:05:25,000
+et je ne crois pas
+
+99
+0:05:25.116,000 --> 0:05:28,000
+que ce soit la raison pour laquelle les gens viennent sur Twitter.
+
+100
+0:05:28.376,000 --> 0:05:32,000
+Je crois que Twitter est surtout un réseau basé sur les centres d’intérêt.
+
+101
+0:05:33.257,000 --> 0:05:36,000
+Les gens y viennent avec un centre d’intérêt particulier.
+
+102
+0:05:36.734,000 --> 0:05:37,000
+Il leur faut beaucoup de travail
+
+103
+0:05:38.405,000 --> 0:05:41,000
+pour trouver et suivre les comptes associés à ces centres d’intérêt.
+
+104
+0:05:42.217,000 --> 0:05:45,000
+Nous pourrions plutôt vous permettre de suivre un centre d’intérêt,
+
+105
+0:05:45.638,000 --> 0:05:47,000
+suivre un hashtag, suivre une tendance,
+
+106
+0:05:47.765,000 --> 0:05:48,000
+suivre une communauté,
+
+107
+0:05:49.543,000 --> 0:05:53,000
+ce qui nous offre l’opportunité de montrer tous les comptes,
+
+108
+0:05:54.204,000 --> 0:05:57,000
+tous les sujets, tous les moments, tous les hashtags
+
+109
+0:05:57.551,000 --> 0:06:,000
+qui sont associés à ce sujet et centre d’intérêt en particulier,
+
+110
+0:06:01.567,000 --> 0:06:05,000
+ce qui ouvre les perspectives que vous voyez.
+
+111
+0:06:06.191,000 --> 0:06:08,000
+Mais c’est un changement fondamental
+
+112
+0:06:08.372,000 --> 0:06:11,000
+faisant passer tous le réseau d’une subjectivité liée à un compte
+
+113
+0:06:12.188,000 --> 0:06:14,000
+à une subjectivité liée à un sujet et centre d’intérêt.
+
+114
+0:06:15.283,000 --> 0:06:18,000
+CA : N’est-il pas vrai
+
+115
+0:06:19.375,000 --> 0:06:22,000
+qu’une des raisons pour lesquelles vous avez là tant de contenu
+
+116
+0:06:22.94,000 --> 0:06:25,000
+résulte du fait d’avoir mis des millions de personnes à travers le monde
+
+117
+0:06:26.555,000 --> 0:06:29,000
+en compétition les uns contre les autres tels des gladiateurs
+
+118
+0:06:29.721,000 --> 0:06:31,000
+pour des abonnés, pour de l’attention ?
+
+119
+0:06:31.835,000 --> 0:06:35,000
+Du point de vue des gens qui ne font que lire Twitter,
+
+120
+0:06:35.976,000 --> 0:06:36,000
+ce n’est pas un problème,
+
+121
+0:06:37.191,000 --> 0:06:4,000
+mais pour les gens qui créent, tout le monde dit :
+
+122
+0:06:40.529,000 --> 0:06:43,000
+« J’aimerais avoir quelques “j’aime”, abonnés, retweets de plus. »
+
+123
+0:06:43.789,000 --> 0:06:45,000
+Ils font constamment des expérimentations,
+
+124
+0:06:45.961,000 --> 0:06:46,000
+essayent de trouver comment faire cela.
+
+125
+0:06:47.946,000 --> 0:06:51,000
+Nous avons tous découvert qu’un moyen pour y arriver,
+
+126
+0:06:52.096,000 --> 0:06:55,000
+c’est d’être provocateur,
+
+127
+0:06:55.526,000 --> 0:06:57,000
+odieux, odieux de façon éloquente,
+
+128
+0:06:58.53,000 --> 0:07:01,000
+les insultes éloquentes sont un rêve sur Twitter,
+
+129
+0:07:02.07,000 --> 0:07:04,000
+vous êtes vite suivi --
+
+130
+0:07:04.697,000 --> 0:07:08,000
+cela devient un processus d’outrage s’autoalimentant.
+
+131
+0:07:09.329,000 --> 0:07:11,000
+Comment arrêter cela ?
+
+132
+0:07:12.624,000 --> 0:07:14,000
+JD : Je pense que vous touchez au cœur du problème,
+
+133
+0:07:15.595,000 --> 0:07:16,000
+mais cela en revient aux incitations.
+
+134
+0:07:17.505,000 --> 0:07:19,000
+Un des choix que nous avons faits au tout début a été
+
+135
+0:07:20.161,000 --> 0:07:24,000
+que nous avions ce nombre montrant combien vous avez d’abonnés.
+
+136
+0:07:24.886,000 --> 0:07:27,000
+Nous avons décidé que ce nombre devrait être en grand et en gras,
+
+137
+0:07:27.985,000 --> 0:07:3,000
+que toute chose sur la page étant en grand et en gras avait de l’importance
+
+138
+0:07:31.633,000 --> 0:07:33,000
+et était ce que vous deviez aspirer à stimuler.
+
+139
+0:07:33.935,000 --> 0:07:34,000
+Était-ce la bonne décision à l’époque ?
+
+140
+0:07:35.866,000 --> 0:07:36,000
+Probablement pas.
+
+141
+0:07:37.043,000 --> 0:07:38,000
+Si je devais relancer le service,
+
+142
+0:07:38.872,000 --> 0:07:4,000
+je ne valoriserais pas autant le nombre d’abonnés.
+
+143
+0:07:41.294,000 --> 0:07:43,000
+Je ne valoriserais pas autant le nombre de « j’aime ».
+
+144
+0:07:43.859,000 --> 0:07:45,000
+Je ne pense pas que je créerais de « j’aime » du tout
+
+145
+0:07:46.757,000 --> 0:07:49,000
+car cela n’est pas un moteur
+
+146
+0:07:50.048,000 --> 0:07:53,000
+de ce que nous croyons aujourd’hui être la chose la plus importante :
+
+147
+0:07:53.307,000 --> 0:07:55,000
+les contributions saines au réseau
+
+148
+0:07:56.314,000 --> 0:07:58,000
+et la conversation avec le réseau,
+
+149
+0:07:58.99,000 --> 0:08:,000
+la participation à la conversation,
+
+150
+0:08:01.086,000 --> 0:08:03,000
+l’apprentissage de quelque chose via cette conversation.
+
+151
+0:08:03.719,000 --> 0:08:05,000
+Nous n’avons pas pensé à ces choses-là il y a 13 ans
+
+152
+0:08:06.351,000 --> 0:08:08,000
+et nous les croyons extrêmement importantes aujourd’hui.
+
+153
+0:08:08.97,000 --> 0:08:1,000
+Nous devons considérer la façon d’afficher le nombre d’abonnés,
+
+154
+0:08:11.961,000 --> 0:08:13,000
+la façon d’afficher le nombre de retweets,
+
+155
+0:08:14.35,000 --> 0:08:15,000
+le nombre de « j’aime »
+
+156
+0:08:15.775,000 --> 0:08:17,000
+et poser la question profonde :
+
+157
+0:08:18.053,000 --> 0:08:21,000
+est-ce vraiment le nombre que les gens veulent faire augmenter ?
+
+158
+0:08:21.125,000 --> 0:08:23,000
+Est-ce la chose que, quand vous ouvrez Twitter,
+
+159
+0:08:23.694,000 --> 0:08:25,000
+c’est cela que vous devez augmenter.
+
+160
+0:08:26.234,000 --> 0:08:28,000
+Je ne crois pas que ce soit le cas.
+
+161
+0:08:28.402,000 --> 0:08:3,000
+(Applaudissements)
+
+162
+0:08:30.529,000 --> 0:08:34,000
+WPR : Nous devrions regarder certains des tweets venant du public.
+
+163
+0:08:35.868,000 --> 0:08:37,000
+CA : Voyons voir ce que vous demandez.
+
+164
+0:08:38.328,000 --> 0:08:41,000
+C’est -- en général, une des choses géniales concernant Twitter,
+
+165
+0:08:41.646,000 --> 0:08:43,000
+c’est son utilisation pour la sagesse de foule :
+
+166
+0:08:43.964,000 --> 0:08:47,000
+plus de savoir, plus de questions, plus de points de vue
+
+167
+0:08:48.828,000 --> 0:08:49,000
+que vous ne pouvez l’imaginer
+
+168
+0:08:50.246,000 --> 0:08:53,000
+et parfois, la plupart sont vraiment sains.
+
+169
+0:08:53.803,000 --> 0:08:55,000
+WPR : Je crois en avoir vu un passer rapidement disant :
+
+170
+0:08:56.717,000 --> 0:08:57,000
+« Comment Twitter compte-t-il lutter
+
+171
+0:08:58.465,000 --> 0:08:59,000
+contre les ingérences étrangères ? »
+
+172
+0:09:00.265,000 --> 0:09:04,000
+Je crois que c’est un problème observé sur Internet en général :
+
+173
+0:09:04.785,000 --> 0:09:07,000
+il y a beaucoup d’activité automatisée et malicieuse.
+
+174
+0:09:08.476,000 --> 0:09:13,000
+Sur Twitter, par exemple, nous avons un travail
+
+175
+0:09:13.873,000 --> 0:09:15,000
+venant de nos amis à Zignal Labs
+
+176
+0:09:16.655,000 --> 0:09:18,000
+et nous pouvons peut-être le voir et prendre un exemple
+
+177
+0:09:19.335,000 --> 0:09:2,000
+de ce dont je parle :
+
+178
+0:09:21.286,000 --> 0:09:24,000
+vous avez ces robots, si vous voulez,
+
+179
+0:09:24.514,000 --> 0:09:28,000
+ou une activité de compte coordonnée, automatisée et malicieuse
+
+180
+0:09:29.088,000 --> 0:09:31,000
+utilisée pour influencer des choses comme les élections.
+
+181
+0:09:31.876,000 --> 0:09:34,000
+Dans cet exemple que Zignal a partagé avec nous
+
+182
+0:09:35.743,000 --> 0:09:37,000
+et utilisant les données qu’ils ont sur Twitter,
+
+183
+0:09:38.041,000 --> 0:09:4,000
+vous voyez que dans ce cas
+
+184
+0:09:40.43,000 --> 0:09:41,000
+le blanc représente des êtres humains --
+
+185
+0:09:42.374,000 --> 0:09:44,000
+des comptes humains, chaque point est un compte.
+
+186
+0:09:44.824,000 --> 0:09:45,000
+Plus il est rose,
+
+187
+0:09:46.207,000 --> 0:09:47,000
+plus l’activité est automatisée.
+
+188
+0:09:47.971,000 --> 0:09:52,000
+Il y a quelques êtres humains interagissant avec des robots.
+
+189
+0:09:53.965,000 --> 0:09:57,000
+Dans ce cas, il s’agit des élections en Israël
+
+190
+0:09:58.408,000 --> 0:10:,000
+et de la diffusion de désinformation au sujet de Benny Gantz
+
+191
+0:10:01.265,000 --> 0:10:03,000
+et, finalement, c’est une élection
+
+192
+0:10:03.951,000 --> 0:10:06,000
+que Netanyahu a gagnée de justesse
+
+193
+0:10:07.699,000 --> 0:10:09,000
+et elle a pu être influencée par cela.
+
+194
+0:10:10.565,000 --> 0:10:12,000
+Quand vous pensez à ce qu’il se passe sur Twitter,
+
+195
+0:10:13.204,000 --> 0:10:15,000
+quelles choses en particulier faites-vous
+
+196
+0:10:15.684,000 --> 0:10:18,000
+pour vous assurer de ne pas avoir une telle diffusion de la désinformation
+
+197
+0:10:19.41,000 --> 0:10:23,000
+influençant les gens de façons pouvant avoir un effet sur la démocratie ?
+
+198
+0:10:23.615,000 --> 0:10:24,000
+JD : Pour revenir un peu en arrière,
+
+199
+0:10:25.41,000 --> 0:10:27,000
+nous nous sommes posé une question :
+
+200
+0:10:28.409,000 --> 0:10:31,000
+pouvons-nous mesurer la santé d’une conversation
+
+201
+0:10:32.249,000 --> 0:10:33,000
+et qu’est-ce que cela signifie ?
+
+202
+0:10:33.787,000 --> 0:10:36,000
+Comme vous avez des indicateurs
+
+203
+0:10:36.967,000 --> 0:10:39,000
+et nous avons des indicateurs pour savoir si nous sommes en bonne santé
+
+204
+0:10:40.458,000 --> 0:10:44,000
+tels que la température, la rougeur de votre visage,
+
+205
+0:10:45.14,000 --> 0:10:47,000
+nous croyions pouvoir trouver
+
+206
+0:10:47.304,000 --> 0:10:49,000
+les indicateurs de la santé de la conversation.
+
+207
+0:10:49.724,000 --> 0:10:52,000
+Nous avons travaillé avec un labo du MIT appelé Cortico
+
+208
+0:10:54.479,000 --> 0:11:,000
+pour proposer quatre indicateurs initiaux
+
+209
+0:11:00.594,000 --> 0:11:03,000
+que nous croyons pouvoir utiliser pour mesurer le système.
+
+210
+0:11:05.249,000 --> 0:11:1,000
+Le premier est ce que nous appelons « attention partagée ».
+
+211
+0:11:10.877,000 --> 0:11:13,000
+C’est une mesure indiquant si la conversation est attentive
+
+212
+0:11:14.482,000 --> 0:11:16,000
+plutôt que disparate sur un sujet.
+
+213
+0:11:17.739,000 --> 0:11:19,000
+Le deuxième s’appelle « réalité partagée » :
+
+214
+0:11:21.217,000 --> 0:11:23,000
+quel pourcentage de la conversation
+
+215
+0:11:23.5,000 --> 0:11:25,000
+partage les mêmes faits --
+
+216
+0:11:25.529,000 --> 0:11:28,000
+non pas est-ce que ces faits sont vrais ou faux,
+
+217
+0:11:28.666,000 --> 0:11:31,000
+mais partageons-nous les mêmes faits durant notre conversation ?
+
+218
+0:11:32.235,000 --> 0:11:34,000
+Le troisième est la réceptivité :
+
+219
+0:11:34.612,000 --> 0:11:37,000
+quelle part de la conversation est réceptive ou civile
+
+220
+0:11:38.595,000 --> 0:11:4,000
+ou au contraire, toxique ?
+
+221
+0:11:42.213,000 --> 0:11:45,000
+Le quatrième est la diversité des points de vue.
+
+222
+0:11:45.459,000 --> 0:11:48,000
+Observons-nous des bulles de filtres ou des chambres d’écho
+
+223
+0:11:48.628,000 --> 0:11:51,000
+ou avons-nous une diversité d’opinions
+
+224
+0:11:51.709,000 --> 0:11:52,000
+dans la conversation ?
+
+225
+0:11:53.368,000 --> 0:11:57,000
+Implicitement avec ces quatre indicateurs, nous nous entendons pour dire
+
+226
+0:11:57.41,000 --> 0:12:,000
+que lorsqu’ils augmentent, la conversation devient de plus en plus saine.
+
+227
+0:12:00.91,000 --> 0:12:04,000
+Notre première étape est de voir si nous pouvons les mesurer en ligne,
+
+228
+0:12:05.717,000 --> 0:12:06,000
+ce que nous croyons possible.
+
+229
+0:12:07.125,000 --> 0:12:1,000
+Nous avons le plus de dynamisme concernant la réceptivité.
+
+230
+0:12:10.24,000 --> 0:12:14,000
+Nous avons un score de toxicité, un modèle de toxicité, dans notre système
+
+231
+0:12:14.581,000 --> 0:12:18,000
+qui peut mesurer si vous allez probablement vous retirer
+
+232
+0:12:18.729,000 --> 0:12:2,000
+d’une conversation que vous avez sur Twitter
+
+233
+0:12:21.066,000 --> 0:12:22,000
+car vous la trouvez toxique,
+
+234
+0:12:22.723,000 --> 0:12:24,000
+dont l’exactitude est plutôt élevée.
+
+235
+0:12:26.369,000 --> 0:12:28,000
+Nous travaillons à mesurer le reste
+
+236
+0:12:28.592,000 --> 0:12:29,000
+et la prochaine étape est,
+
+237
+0:12:30.58,000 --> 0:12:33,000
+alors que nous élaborons des solutions,
+
+238
+0:12:33.963,000 --> 0:12:36,000
+d’observer la tendance de ces mesures au fil du temps
+
+239
+0:12:37.478,000 --> 0:12:38,000
+et de continuer à expérimenter.
+
+240
+0:12:39.375,000 --> 0:12:43,000
+Notre objectif est de nous assurer qu’ils soient équilibrés
+
+241
+0:12:43.44,000 --> 0:12:46,000
+car si vous en augmentez un, vous pourriez en abaisser un autre.
+
+242
+0:12:46.53,000 --> 0:12:48,000
+Si vous améliorez la diversité des points de vue,
+
+243
+0:12:48.817,000 --> 0:12:5,000
+vous pourriez faire baisser la réalité partagée.
+
+244
+0:12:51.816,000 --> 0:12:55,000
+CA : Je recueille certaines des questions qui nous inondent là-haut.
+
+245
+0:12:56.829,000 --> 0:12:57,000
+JD : Plein de questions.
+
+246
+0:12:58.996,000 --> 0:13:01,000
+CA : Beaucoup de gens sont perplexes quant à pourquoi,
+
+247
+0:13:02.64,000 --> 0:13:06,000
+à quel point est-il difficile de se débarrasser des nazis sur Twitter ?
+
+248
+0:13:08.309,000 --> 0:13:09,000
+JD : (Rit)
+
+249
+0:13:09.655,000 --> 0:13:15,000
+Nous avons des politiques concernant les groupes extrémistes violents
+
+250
+0:13:16.674,000 --> 0:13:2,000
+et la majorité de notre travail et nos conditions d’utilisation
+
+251
+0:13:21.124,000 --> 0:13:24,000
+sont basées sur le comportement, pas le contenu.
+
+252
+0:13:24.877,000 --> 0:13:26,000
+Nous considérons le comportement.
+
+253
+0:13:27.452,000 --> 0:13:3,000
+Le comportement, c’est l’utilisation du service
+
+254
+0:13:30.49,000 --> 0:13:33,000
+pour harceler quelqu’un de façon répétée ou épisodique,
+
+255
+0:13:34.381,000 --> 0:13:36,000
+utiliser des images haineuses
+
+256
+0:13:36.898,000 --> 0:13:38,000
+pouvant être associées avec le Ku Klux Klan
+
+257
+0:13:39.028,000 --> 0:13:42,000
+ou le parti nazi américain.
+
+258
+0:13:42.333,000 --> 0:13:46,000
+Ce sont des choses pour lesquelles nous prenons des mesures immédiates.
+
+259
+0:13:47.002,000 --> 0:13:49,000
+Nous sommes actuellement dans une situation
+
+260
+0:13:49.268,000 --> 0:13:51,000
+où ce terme est employé à tout vent
+
+261
+0:13:52.478,000 --> 0:13:57,000
+et nous ne pouvons pas prendre une allusion à ce mot
+
+262
+0:13:57.815,000 --> 0:13:59,000
+en accusant quelqu’un d’autre
+
+263
+0:13:59.956,000 --> 0:14:02,000
+comme une indication factuelle qu’il devrait être banni de la plateforme.
+
+264
+0:14:03.735,000 --> 0:14:05,000
+Beaucoup de nos modèles sont basés, numéro un :
+
+265
+0:14:06.386,000 --> 0:14:09,000
+ce compte est-il associé à un groupe extrémiste violent ?
+
+266
+0:14:09.55,000 --> 0:14:1,000
+Si oui, nous pouvons prendre des mesures.
+
+267
+0:14:11.557,000 --> 0:14:14,000
+Nous l’avons fait avec le Ku Klux Klan, le parti nazi américain et d’autres.
+
+268
+0:14:15.433,000 --> 0:14:19,000
+Numéro deux : utilise-t-il des images ou a-t-il un comportement
+
+269
+0:14:19.64,000 --> 0:14:21,000
+qui les y associerait ?
+
+270
+0:14:22.416,000 --> 0:14:24,000
+CA : Combien de gens avez-vous à travailler
+
+271
+0:14:24.432,000 --> 0:14:26,000
+sur la modération du contenu ?
+
+272
+0:14:26.646,000 --> 0:14:27,000
+JD : Cela dépend.
+
+273
+0:14:28.166,000 --> 0:14:29,000
+Nous voulons être flexibles
+
+274
+0:14:29.785,000 --> 0:14:31,000
+car nous voulons nous assurer que, premièrement,
+
+275
+0:14:32.455,000 --> 0:14:36,000
+nous développons des algorithmes au lieu d’embaucher beaucoup de gens
+
+276
+0:14:36.903,000 --> 0:14:38,000
+car nous devons nous assurer que cela puisse être étendu
+
+277
+0:14:39.751,000 --> 0:14:42,000
+et à si grande échelle, cela ne peut pas être fait par des humains.
+
+278
+0:14:43.229,000 --> 0:14:45,000
+C’est pourquoi nous avons réalisé tant de travail
+
+279
+0:14:45.632,000 --> 0:14:49,000
+sur la détection proactive d’abus
+
+280
+0:14:49.882,000 --> 0:14:5,000
+que des humains peuvent vérifier.
+
+281
+0:14:51.473,000 --> 0:14:53,000
+Nous voulons avoir une situation
+
+282
+0:14:54.182,000 --> 0:14:57,000
+où des algorithmes parcourent constamment tous les tweets
+
+283
+0:14:57.947,000 --> 0:14:59,000
+et font remonter les plus intéressants
+
+284
+0:15:00.313,000 --> 0:15:02,000
+pour que des humains puissent exercer leur jugement
+
+285
+0:15:02.729,000 --> 0:15:03,000
+sur la prise de mesures ou non
+
+286
+0:15:04.179,000 --> 0:15:05,000
+d’après nos conditions d’utilisation.
+
+287
+0:15:05.963,000 --> 0:15:07,000
+WPR : C'est impossible à faire avec des humains,
+
+288
+0:15:08.91,000 --> 0:15:1,000
+mais combien de personnes avez-vous actuellement
+
+289
+0:15:11.155,000 --> 0:15:12,000
+à surveiller ces comptes
+
+290
+0:15:12.305,000 --> 0:15:14,000
+et comment déterminez-vous le nombre suffisant ?
+
+291
+0:15:14.705,000 --> 0:15:16,000
+JD : C’est entièrement flexible.
+
+292
+0:15:17.001,000 --> 0:15:19,000
+Parfois, nous assignons des gens au spam.
+
+293
+0:15:19.966,000 --> 0:15:22,000
+Parfois, nous assignons des gens aux abus et au harcèlement.
+
+294
+0:15:23.745,000 --> 0:15:26,000
+Nous allons nous assurer d’avoir la flexibilité dans nos effectifs
+
+295
+0:15:26.841,000 --> 0:15:28,000
+afin d’orienter leur travail sur ce qui est nécessaire.
+
+296
+0:15:29.431,000 --> 0:15:3,000
+Parfois, les élections.
+
+297
+0:15:30.549,000 --> 0:15:34,000
+Il y a eu une série d’élections au Mexique, à venir en Inde,
+
+298
+0:15:35.474,000 --> 0:15:39,000
+évidemment, les élections de mi-mandat l’année dernière,
+
+299
+0:15:39.945,000 --> 0:15:41,000
+donc nous voulons être flexibles avec nos ressources.
+
+300
+0:15:42.441,000 --> 0:15:44,000
+Quand les gens --
+
+301
+0:15:44.594,000 --> 0:15:5,000
+par exemple, si vous allez voir nos conditions d’utilisation,
+
+302
+0:15:50.997,000 --> 0:15:51,000
+vous chargez la page
+
+303
+0:15:52.672,000 --> 0:15:53,000
+et vous vous interrogez
+
+304
+0:15:53.768,000 --> 0:15:55,000
+sur les abus, le harcèlement dont vous avez été victime
+
+305
+0:15:56.378,000 --> 0:15:58,000
+et si cela va à l’encontre de nos conditions d’utilisation
+
+306
+0:15:59.106,000 --> 0:16:,000
+pour les signaler,
+
+307
+0:16:00.116,000 --> 0:16:02,000
+la première chose que vous voyez en ouvrant cette page
+
+308
+0:16:02.675,000 --> 0:16:05,000
+concerne la protection de la propriété intellectuelle.
+
+309
+0:16:06.504,000 --> 0:16:11,000
+Si vous allez plus bas, vous arrivez aux abus et au harcèlement
+
+310
+0:16:11.851,000 --> 0:16:13,000
+et tout ce à quoi vous pourriez faire face.
+
+311
+0:16:14.257,000 --> 0:16:17,000
+J’ignore comment cela s’est passé dans l’histoire de l’entreprise
+
+312
+0:16:17.476,000 --> 0:16:21,000
+mais nous avons placé cela au-dessus de ce au sujet de quoi les gens veulent
+
+313
+0:16:24.146,000 --> 0:16:27,000
+le plus d’informations et une prise de mesures.
+
+314
+0:16:27.392,000 --> 0:16:32,000
+L’ordre montre au monde ce que nous pensions important.
+
+315
+0:16:32.657,000 --> 0:16:34,000
+Nous changeons tout cela.
+
+316
+0:16:35.532,000 --> 0:16:36,000
+Nous réordonnons cela comme il faut
+
+317
+0:16:37.215,000 --> 0:16:4,000
+mais nous simplifions aussi les règles pour qu’elles soient intelligibles
+
+318
+0:16:40.67,000 --> 0:16:44,000
+et que les gens puissent comprendre d’eux-mêmes
+
+319
+0:16:44.715,000 --> 0:16:47,000
+quand une chose va ou non à l’encontre de nos conditions d’utilisation.
+
+320
+0:16:48.187,000 --> 0:16:5,000
+Puis nous faisons --
+
+321
+0:16:50.372,000 --> 0:16:53,000
+de nouveau, nous mettons l’accent sur le fait de soulager les victimes
+
+322
+0:16:54.146,000 --> 0:16:55,000
+de la charge de travail.
+
+323
+0:16:55.596,000 --> 0:16:58,000
+Cela signifie de délester plus de travail sur la technologie
+
+324
+0:16:59.354,000 --> 0:17:01,000
+plutôt qu’il soit réalisé par des humains --
+
+325
+0:17:01.417,000 --> 0:17:03,000
+que ce soit les humains victimes d’abus
+
+326
+0:17:03.688,000 --> 0:17:06,000
+ainsi que les humains devant les examiner.
+
+327
+0:17:06.738,000 --> 0:17:07,000
+Nous voulons nous assurer
+
+328
+0:17:08.435,000 --> 0:17:1,000
+de ne pas seulement encourager plus de travail
+
+329
+0:17:11.3,000 --> 0:17:13,000
+autour de quelque chose de très, très négatif
+
+330
+0:17:13.953,000 --> 0:17:15,000
+et nous voulons avoir un équilibre entre la technologie
+
+331
+0:17:16.651,000 --> 0:17:18,000
+et là où les humains peuvent être créatifs,
+
+332
+0:17:19.527,000 --> 0:17:22,000
+c’est-à-dire l’appréciation des règles
+
+333
+0:17:22.641,000 --> 0:17:25,000
+et pas seulement l’aspect mécanique : la recherche et le signalement.
+
+334
+0:17:25.932,000 --> 0:17:26,000
+Voilà comment nous voyons cela.
+
+335
+0:17:27.486,000 --> 0:17:29,000
+CA : Je suis curieux de creuser ce que vous avez dit.
+
+336
+0:17:29.972,000 --> 0:17:31,000
+J’aime que vous ayez dit que vous cherchiez des moyens
+
+337
+0:17:32.545,000 --> 0:17:35,000
+de remettre au point la conception du système
+
+338
+0:17:36.031,000 --> 0:17:4,000
+pour décourager des comportements réactifs et peut-être --
+
+339
+0:17:40.93,000 --> 0:17:42,000
+pour utiliser un langage à la Tristan Harris --
+
+340
+0:17:43.659,000 --> 0:17:47,000
+motiver la pensée plus réflexive des gens.
+
+341
+0:17:47.971,000 --> 0:17:48,000
+À quel stade en est-ce ?
+
+342
+0:17:49.849,000 --> 0:17:53,000
+Quelles seraient des alternatives au bouton « j’aime » ?
+
+343
+0:17:55.518,000 --> 0:17:58,000
+JD : Avant tout,
+
+344
+0:17:59.117,000 --> 0:18:04,000
+mon objectif personnel avec le service est que je crois fondamentalement
+
+345
+0:18:04.894,000 --> 0:18:06,000
+qu’une conversation publique est essentielle.
+
+346
+0:18:07.62,000 --> 0:18:09,000
+Le monde fait face à des problèmes existentiels --
+
+347
+0:18:10.291,000 --> 0:18:14,000
+le monde entier y fait face, pas un État-nation en particulier --
+
+348
+0:18:14.478,000 --> 0:18:16,000
+auxquels une conversation publique bénéficie.
+
+349
+0:18:17.151,000 --> 0:18:19,000
+C’est l’une des dynamiques uniques à Twitter :
+
+350
+0:18:19.547,000 --> 0:18:2,000
+c’est entièrement ouvert,
+
+351
+0:18:21.385,000 --> 0:18:22,000
+c’est entièrement public,
+
+352
+0:18:23.005,000 --> 0:18:24,000
+c’est complètement fluide
+
+353
+0:18:24.428,000 --> 0:18:28,000
+et tout le monde peut voir et participer à toutes les conversations.
+
+354
+0:18:28.49,000 --> 0:18:3,000
+Il y a des conversations comme le changement climatique,
+
+355
+0:18:31.136,000 --> 0:18:33,000
+les déplacements dans le travail
+
+356
+0:18:33.426,000 --> 0:18:35,000
+via l’intelligence artificielle,
+
+357
+0:18:35.45,000 --> 0:18:38,000
+la disparité économique.
+
+358
+0:18:38.48,000 --> 0:18:4,000
+Peu importe ce qu’un État-nation fait,
+
+359
+0:18:41.269,000 --> 0:18:43,000
+il ne pourra pas résoudre le problème seul.
+
+360
+0:18:43.714,000 --> 0:18:45,000
+Cela nécessite une coordination à travers le monde
+
+361
+0:18:46.381,000 --> 0:18:49,000
+et c’est là que je pense que Twitter peut jouer un rôle.
+
+362
+0:18:49.452,000 --> 0:18:54,000
+La deuxième chose est qu’actuellement, quand vous allez sur Twitter,
+
+363
+0:18:55.118,000 --> 0:18:56,000
+vous n’en partez pas nécessairement
+
+364
+0:18:56.818,000 --> 0:18:58,000
+avec le sentiment d’avoir appris quelque chose.
+
+365
+0:18:59.018,000 --> 0:19:,000
+Pour certains, c’est le cas.
+
+366
+0:19:00.384,000 --> 0:19:02,000
+Certains ont un réseau très, très riche,
+
+367
+0:19:03.319,000 --> 0:19:06,000
+une communauté très riche et ils apprennent chaque jour.
+
+368
+0:19:06.46,000 --> 0:19:09,000
+Mais il faut beaucoup de travail et de temps pour établir cela.
+
+369
+0:19:10.175,000 --> 0:19:13,000
+Nous voulons que les gens en viennent à ces sujets et centres d’intérêt
+
+370
+0:19:13.647,000 --> 0:19:14,000
+bien plus rapidement
+
+371
+0:19:15.25,000 --> 0:19:17,000
+et nous assurer qu’ils trouvent quelque chose,
+
+372
+0:19:18.728,000 --> 0:19:2,000
+peu importe le temps qu’ils passent sur Twitter --
+
+373
+0:19:21.112,000 --> 0:19:23,000
+je ne veux pas maximiser le temps sur Twitter,
+
+374
+0:19:23.494,000 --> 0:19:25,000
+je veux maximiser ce qu’ils en tirent
+
+375
+0:19:26.428,000 --> 0:19:28,000
+et ce qu’ils y apprennent...
+
+376
+0:19:29.598,000 --> 0:19:3,000
+CA : Est-ce vraiment le cas ?
+
+377
+0:19:30.996,000 --> 0:19:33,000
+C’est la question principale à laquelle les gens veulent une réponse.
+
+378
+0:19:34.244,000 --> 0:19:37,000
+Certainement, Jack, vous êtes considérablement contraint
+
+379
+0:19:37.88,000 --> 0:19:39,000
+par le fait d’être une entreprise privée,
+
+380
+0:19:39.911,000 --> 0:19:4,000
+des investisseurs font pression sur vous,
+
+381
+0:19:41.865,000 --> 0:19:44,000
+la façon principale dont vous gagnez de l’argent, c’est la publicité --
+
+382
+0:19:45.292,000 --> 0:19:47,000
+cela dépend de l’engagement des utilisateurs.
+
+383
+0:19:48.088,000 --> 0:19:52,000
+Êtes-vous prêt à sacrifier le temps des utilisateurs, si besoin est,
+
+384
+0:19:52.812,000 --> 0:19:55,000
+pour vous diriger vers une conversation plus réflexive ?
+
+385
+0:19:56.565,000 --> 0:19:59,000
+JD : Plus de pertinence signifie moins de temps sur le service
+
+386
+0:19:59.7,000 --> 0:20:,000
+et c’est très bien
+
+387
+0:20:01.661,000 --> 0:20:04,000
+car je veux m’assurer que vous veniez sur Twitter
+
+388
+0:20:04.784,000 --> 0:20:05,000
+et que vous voyiez immédiatement
+
+389
+0:20:06.658,000 --> 0:20:08,000
+quelque chose à apprendre et qui vous fait avancer.
+
+390
+0:20:09.328,000 --> 0:20:12,000
+Nous pouvons toujours placer une annonce là-dessus.
+
+391
+0:20:12.772,000 --> 0:20:14,000
+Vous n’avez pas à passer plus de temps pour voir plus.
+
+392
+0:20:15.717,000 --> 0:20:16,000
+Secondement, nous considérons...
+
+393
+0:20:17.474,000 --> 0:20:19,000
+CA : Sur cet objectif, l’utilisation active quotidienne,
+
+394
+0:20:20.196,000 --> 0:20:23,000
+si vous mesurez cela, cela ne signifie pas que ce sont des choses
+
+395
+0:20:23.465,000 --> 0:20:25,000
+que les gens apprécient chaque jour.
+
+396
+0:20:26.223,000 --> 0:20:29,000
+Ce pourrait être des choses les attirant tels des papillons vers une flamme.
+
+397
+0:20:29.898,000 --> 0:20:32,000
+Nous sommes accros car nous voyons quelque chose qui nous énerve,
+
+398
+0:20:32.964,000 --> 0:20:34,000
+nous ajoutons de l’huile sur le feu,
+
+399
+0:20:35.95,000 --> 0:20:37,000
+l’utilisation active quotidienne augmente,
+
+400
+0:20:37.967,000 --> 0:20:38,000
+il y a plus de revenus publicitaires
+
+401
+0:20:39.696,000 --> 0:20:41,000
+mais nous sommes tous plus en colère envers les autres.
+
+402
+0:20:42.456,000 --> 0:20:44,000
+Comme définissez-vous...
+
+403
+0:20:44.989,000 --> 0:20:48,000
+« Utilisation active quotidienne » semble être un terme dangereux à optimiser.
+
+404
+0:20:49.139,000 --> 0:20:54,000
+(Applaudissements)
+
+405
+0:20:54.22,000 --> 0:20:55,000
+JD : Tout seul, ça l’est,
+
+406
+0:20:55.512,000 --> 0:20:57,000
+mais vous ne m’avez pas laissé finir l’autre métrique :
+
+407
+0:20:58.078,000 --> 0:21:01,000
+nous observons les conversations
+
+408
+0:21:01.633,000 --> 0:21:03,000
+et les chaînes de conversations.
+
+409
+0:21:03.786,000 --> 0:21:08,000
+Nous voulons encourager des contributions saines pour le réseau
+
+410
+0:21:08.886,000 --> 0:21:12,000
+et ce que nous croyons que c'est, c’est la participation à une conversation
+
+411
+0:21:13.091,000 --> 0:21:14,000
+qui est saine,
+
+412
+0:21:14.312,000 --> 0:21:17,000
+telle que définie par ces quatre indicateurs
+
+413
+0:21:17.443,000 --> 0:21:18,000
+que j’ai présentés plus tôt.
+
+414
+0:21:19.373,000 --> 0:21:21,000
+Vous ne pouvez pas optimiser une seule métrique.
+
+415
+0:21:22.054,000 --> 0:21:24,000
+Il faut un équilibre et constamment considérer
+
+416
+0:21:24.83,000 --> 0:21:28,000
+ce qui va créer une contribution saine pour le réseau
+
+417
+0:21:28.937,000 --> 0:21:3,000
+et une expérience saine pour les gens.
+
+418
+0:21:31.302,000 --> 0:21:33,000
+Finalement, nous voulons établir une métrique
+
+419
+0:21:33.438,000 --> 0:21:36,000
+où les gens peuvent nous dire : « J’ai appris quelque chose sur Twitter
+
+420
+0:21:36.973,000 --> 0:21:38,000
+et je repars avec une chose qui a de la valeur. »
+
+421
+0:21:39.27,000 --> 0:21:4,000
+C’est notre objectif ultime,
+
+422
+0:21:41.231,000 --> 0:21:42,000
+mais cela va prendre du temps.
+
+423
+0:21:43.064,000 --> 0:21:48,000
+CA : Pour beaucoup, je pense pour moi, vous paraissez être une énigme.
+
+424
+0:21:48.37,000 --> 0:21:52,000
+C’est peut-être injuste mais je me suis réveillé l’autre soir
+
+425
+0:21:52.79,000 --> 0:21:55,000
+avec cette image qui me faisait penser à vous et à la situation :
+
+426
+0:21:56.693,000 --> 0:22:02,000
+nous étions en voyage avec vous sur un bateau appelé « Twittanic » --
+
+427
+0:22:03.62,000 --> 0:22:04,000
+(Rires)
+
+428
+0:22:04.925,000 --> 0:22:08,000
+et il y a des gens sur l’entrepont
+
+429
+0:22:09.306,000 --> 0:22:11,000
+qui expriment un malaise
+
+430
+0:22:11.533,000 --> 0:22:13,000
+et vous, contrairement à de nombreux capitaines,
+
+431
+0:22:14.1,000 --> 0:22:17,000
+leur dites : « Dites-moi, parlez-moi, écoutez-moi, je veux entendre. »
+
+432
+0:22:17.555,000 --> 0:22:2,000
+Ils vous parlent et vous disent : « L’iceberg devant nous inquiète. »
+
+433
+0:22:21.198,000 --> 0:22:23,000
+Et vous dites : « C’est une très bonne remarque
+
+434
+0:22:23.464,000 --> 0:22:25,000
+et notre bateau n’a pas été fait de façon appropriée
+
+435
+0:22:25.918,000 --> 0:22:26,000
+pour tourner autant que nécessaire. »
+
+436
+0:22:27.697,000 --> 0:22:28,000
+Nous disons : « Agissez. »
+
+437
+0:22:29.293,000 --> 0:22:3,000
+Vous allez sur le pont
+
+438
+0:22:30.728,000 --> 0:22:32,000
+et nous attendons,
+
+439
+0:22:33.047,000 --> 0:22:37,000
+nous regardons et vous faites preuve d’un calme extraordinaire,
+
+440
+0:22:37.619,000 --> 0:22:4,000
+mais nous sommes tous dehors à dire : « Jack, allez, tournez le gouvernail ! »
+
+441
+0:22:41.526,000 --> 0:22:42,000
+Vous voyez ?
+
+442
+0:22:42.701,000 --> 0:22:43,000
+(Rires)
+
+443
+0:22:44.06,000 --> 0:22:46,000
+(Applaudissements)
+
+444
+0:22:46.465,000 --> 0:22:47,000
+Je veux dire --
+
+445
+0:22:47.655,000 --> 0:22:48,000
+(Applaudissements)
+
+446
+0:22:49.413,000 --> 0:22:53,000
+La démocratie est en jeu.
+
+447
+0:22:54.031,000 --> 0:22:56,000
+Notre culture est en jeu. Notre monde est en jeu.
+
+448
+0:22:56.876,000 --> 0:23:,000
+Twitter est génial et façonne tant de choses.
+
+449
+0:23:01.506,000 --> 0:23:03,000
+Ce n’est pas aussi grand que d’autres plateformes,
+
+450
+0:23:03.889,000 --> 0:23:05,000
+mais les gens influents l’utilisent pour établir un programme
+
+451
+0:23:06.757,000 --> 0:23:12,000
+et il est difficile d’imaginer un rôle plus important au monde que de...
+
+452
+0:23:13.502,000 --> 0:23:16,000
+Vous faites un excellent travail en écoutant et entendant les gens, Jack,
+
+453
+0:23:17.31,000 --> 0:23:21,000
+mais élevez l’état d’urgence et faites avancer les choses --
+
+454
+0:23:21.779,000 --> 0:23:23,000
+ferez-vous cela ?
+
+455
+0:23:24.75,000 --> 0:23:27,000
+JD : Oui, et nous avons fait des progrès substantiels.
+
+456
+0:23:28.589,000 --> 0:23:31,000
+Il y a eu quelques dynamiques dans l’histoire de Twitter.
+
+457
+0:23:31.838,000 --> 0:23:33,000
+Un : quand je suis revenu dans l’entreprise,
+
+458
+0:23:35.477,000 --> 0:23:41,000
+nous étions dans un état déplorable concernant notre avenir
+
+459
+0:23:41.757,000 --> 0:23:45,000
+et pas seulement quant à la façon dont les gens utilisaient la plateforme,
+
+460
+0:23:46.415,000 --> 0:23:48,000
+mais aussi d’un point de vue de l’entreprise.
+
+461
+0:23:48.522,000 --> 0:23:51,000
+Nous avons dû réparer quelques fondations,
+
+462
+0:23:51.714,000 --> 0:23:52,000
+redresser l’entreprise,
+
+463
+0:23:53.707,000 --> 0:23:56,000
+en passer par deux folles périodes de licenciements,
+
+464
+0:23:56.842,000 --> 0:23:59,000
+car nous étions devenus trop gros pour ce que nous faisions,
+
+465
+0:24:00.659,000 --> 0:24:02,000
+et nous avons concentré toute notre énergie
+
+466
+0:24:02.743,000 --> 0:24:05,000
+sur ce concept qu’est servir le débat public.
+
+467
+0:24:06.275,000 --> 0:24:07,000
+Cela a nécessité du travail.
+
+468
+0:24:07.75,000 --> 0:24:09,000
+En nous plongeant là-dedans,
+
+469
+0:24:10.382,000 --> 0:24:12,000
+nous avons vu les problèmes avec des principes fondamentaux.
+
+470
+0:24:14.12,000 --> 0:24:16,000
+Nous pouvions faire des choses superficielles
+
+471
+0:24:16.49,000 --> 0:24:18,000
+pour régler ce dont vous parlez,
+
+472
+0:24:18.8,000 --> 0:24:19,000
+mais les changements doivent durer
+
+473
+0:24:20.614,000 --> 0:24:22,000
+et cela signifie aller très en profondeur
+
+474
+0:24:23.097,000 --> 0:24:27,000
+et prêter attention à ce que nous avons démarré il y a 13 ans
+
+475
+0:24:27.471,000 --> 0:24:29,000
+et remettre en question
+
+476
+0:24:29.756,000 --> 0:24:31,000
+comment le système et la structure fonctionnent
+
+477
+0:24:32.346,000 --> 0:24:35,000
+et ce dont le monde a besoin aujourd’hui,
+
+478
+0:24:36.203,000 --> 0:24:4,000
+étant données la rapidité à laquelle tout avance et l’utilisation des gens.
+
+479
+0:24:40.251,000 --> 0:24:43,000
+Nous travaillons aussi vite que possible,
+
+480
+0:24:43.609,000 --> 0:24:46,000
+mais la rapidité n’accomplira pas le travail.
+
+481
+0:24:46.819,000 --> 0:24:48,000
+C’est la concentration, la priorisation,
+
+482
+0:24:49.454,000 --> 0:24:51,000
+la compréhension des principes fondamentaux du réseau
+
+483
+0:24:52.424,000 --> 0:24:54,000
+et l’établissement d’une structure à grande échelle
+
+484
+0:24:55.29,000 --> 0:24:57,000
+et s’adaptant aux changements,
+
+485
+0:24:57.665,000 --> 0:25:02,000
+être ouverts et transparents quant à où nous en sommes
+
+486
+0:25:03.118,000 --> 0:25:05,000
+afin de continuer à gagner la confiance des gens.
+
+487
+0:25:06.141,000 --> 0:25:09,000
+Je suis fier des bases que nous avons mises en place.
+
+488
+0:25:09.496,000 --> 0:25:11,000
+Je suis fier de notre direction.
+
+489
+0:25:12.915,000 --> 0:25:14,000
+Nous pouvons évidemment aller plus vite,
+
+490
+0:25:15.657,000 --> 0:25:19,000
+mais cela nécessitait de mettre un terme à des trucs stupides que nous faisions.
+
+491
+0:25:21.067,000 --> 0:25:22,000
+CA : Très bien.
+
+492
+0:25:22.255,000 --> 0:25:26,000
+Je suppose qu’il y a beaucoup de gens ici qui, s’ils en avaient l’opportunité,
+
+493
+0:25:26.346,000 --> 0:25:29,000
+aimeraient vous aider à réaliser ces changements
+
+494
+0:25:30.359,000 --> 0:25:31,000
+et je ne sais pas si Whitney --
+
+495
+0:25:31.925,000 --> 0:25:33,000
+Jack, merci d’être venu et d’avoir parlé si ouvertement.
+
+496
+0:25:34.71,000 --> 0:25:35,000
+Cela a nécessité du courage.
+
+497
+0:25:36.261,000 --> 0:25:39,000
+J’apprécie ce que vous avez dit et bon courage pour votre mission.
+
+498
+0:25:39.669,000 --> 0:25:41,000
+JD : Merci beaucoup. Merci de m’avoir invité.
+
+499
+0:25:41.788,000 --> 0:25:44,000
+(Applaudissements)
+
+500
+0:25:45.134,000 --> 0:25:46,000
+Merci.
+

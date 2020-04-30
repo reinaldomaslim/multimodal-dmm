@@ -1,0 +1,456 @@
+1
+0:00:12.917,000 --> 0:00:14,000
+So for the past 12 years,
+
+2
+0:00:15.583,000 --> 0:00:16,000
+I've been obsessed with this idea
+
+3
+0:00:17.208,000 --> 0:00:19,000
+that climate change is an information issue
+
+4
+0:00:20.208,000 --> 0:00:22,000
+that computers will help us fight.
+
+5
+0:00:22.458,000 --> 0:00:24,000
+I went from data science to climate policy research,
+
+6
+0:00:25.125,000 --> 0:00:26,000
+from tech to public service,
+
+7
+0:00:26.542,000 --> 0:00:27,000
+in pursuit of better data
+
+8
+0:00:28.5,000 --> 0:00:31,000
+to avoid the wasted energy, resources, opportunities
+
+9
+0:00:31.625,000 --> 0:00:33,000
+that lead to runaway carbon emissions.
+
+10
+0:00:34.333,000 --> 0:00:37,000
+Until one day, running in the streets with a friend, it hit me:
+
+11
+0:00:38.792,000 --> 0:00:41,000
+the same cars, factories, power plants
+
+12
+0:00:41.875,000 --> 0:00:44,000
+whose emissions are wrecking our climate over time
+
+13
+0:00:45,000 --> 0:00:47,000
+also release harmful, local pollutants
+
+14
+0:00:47.875,000 --> 0:00:49,000
+that threaten our health right here and right now.
+
+15
+0:00:50.292,000 --> 0:00:54,000
+All this time I'd focused on the long-term environmental risk
+
+16
+0:00:54.542,000 --> 0:00:55,000
+when I should have been up in arms
+
+17
+0:00:56.458,000 --> 0:00:59,000
+about the immediate health impact of pollutants in the air.
+
+18
+0:01:00.333,000 --> 0:01:02,000
+Air pollution is a burning public health crisis.
+
+19
+0:01:02.875,000 --> 0:01:04,000
+It kills seven million people every year,
+
+20
+0:01:05.5,000 --> 0:01:09,000
+it costs five trillion dollars to the world economy
+
+21
+0:01:10.167,000 --> 0:01:13,000
+and, worst, it robs us of our most precious gift,
+
+22
+0:01:14.125,000 --> 0:01:15,000
+the years in our lives:
+
+23
+0:01:15.917,000 --> 0:01:18,000
+six months of life expectancy in my hometown of Paris
+
+24
+0:01:19.625,000 --> 0:01:22,000
+and up to three, four, five years in parts of India and China.
+
+25
+0:01:23.375,000 --> 0:01:28,000
+And in the US, more people die from car exhaust than from car accidents.
+
+26
+0:01:30.083,000 --> 0:01:32,000
+So how do we protect ourselves from pollution?
+
+27
+0:01:33.375,000 --> 0:01:36,000
+The reason it's difficult is an information gap.
+
+28
+0:01:36.625,000 --> 0:01:39,000
+We simply lack the data to understand our exposure.
+
+29
+0:01:39.917,000 --> 0:01:42,000
+And that's because the way we monitor air quality today
+
+30
+0:01:43.875,000 --> 0:01:46,000
+is designed not to help people breathe but to help governments govern.
+
+31
+0:01:47.875,000 --> 0:01:51,000
+Most major cities operate networks of air-quality monitoring stations
+
+32
+0:01:52.083,000 --> 0:01:53,000
+like this one in London,
+
+33
+0:01:53.375,000 --> 0:01:56,000
+to decide when to cut traffic or when to shut down factories.
+
+34
+0:01:56.667,000 --> 0:01:59,000
+And these machines are like the computers from the '60s
+
+35
+0:01:59.708,000 --> 0:02:,000
+that filled entire rooms.
+
+36
+0:02:01.042,000 --> 0:02:05,000
+They're incredibly precise but incredibly large,
+
+37
+0:02:05.25,000 --> 0:02:06,000
+heavy, costly --
+
+38
+0:02:06.958,000 --> 0:02:08,000
+so much that you can only deploy just a few of them,
+
+39
+0:02:09.75,000 --> 0:02:1,000
+and they cannot move.
+
+40
+0:02:11.25,000 --> 0:02:13,000
+So to governments, air pollution looks like this.
+
+41
+0:02:13.708,000 --> 0:02:14,000
+But for the rest of us,
+
+42
+0:02:15.208,000 --> 0:02:17,000
+air quality looks like this.
+
+43
+0:02:17.833,000 --> 0:02:18,000
+It changes all the time:
+
+44
+0:02:19.167,000 --> 0:02:2,000
+hour by hour, street by street,
+
+45
+0:02:21.167,000 --> 0:02:23,000
+up to eight times within a single city block.
+
+46
+0:02:23.875,000 --> 0:02:25,000
+And even more from indoor to outdoor.
+
+47
+0:02:26.25,000 --> 0:02:29,000
+So unless you happen to be walking right next to one of those stations,
+
+48
+0:02:29.875,000 --> 0:02:31,000
+they just cannot tell you what you breathe.
+
+49
+0:02:31.958,000 --> 0:02:33,000
+So what would environmental protection look like
+
+50
+0:02:34.25,000 --> 0:02:36,000
+if it was designed for the age of the smartphone?
+
+51
+0:02:37.458,000 --> 0:02:38,000
+So for the past three years,
+
+52
+0:02:39,000 --> 0:02:42,000
+my team and I have been building a technology
+
+53
+0:02:42.583,000 --> 0:02:43,000
+that helps you know what you breathe
+
+54
+0:02:44.333,000 --> 0:02:45,000
+and fits in your hand.
+
+55
+0:02:46.5,000 --> 0:02:5,000
+Flow is a personal air-quality tracker that you can wear with you
+
+56
+0:02:50.75,000 --> 0:02:52,000
+on a backpack, a bike, a stroller.
+
+57
+0:02:53.583,000 --> 0:02:55,000
+It's packed with miniature sensors
+
+58
+0:02:55.625,000 --> 0:02:58,000
+that monitor the most important pollutants in the air around you,
+
+59
+0:02:58.708,000 --> 0:02:59,000
+like nitrogen oxides,
+
+60
+0:03:00.417,000 --> 0:03:01,000
+the exhaust gas from cars,
+
+61
+0:03:01.792,000 --> 0:03:03,000
+or particulate matter that gets into your bloodstream
+
+62
+0:03:04.625,000 --> 0:03:05,000
+and creates strokes and heart issues.
+
+63
+0:03:06.583,000 --> 0:03:08,000
+Or volatile organic compounds,
+
+64
+0:03:09.125,000 --> 0:03:11,000
+the thousands of chemicals in everyday products
+
+65
+0:03:11.458,000 --> 0:03:12,000
+that we end up breathing.
+
+66
+0:03:13.083,000 --> 0:03:15,000
+And that makes this data actionable
+
+67
+0:03:15.167,000 --> 0:03:17,000
+and helps you understand what you're breathing
+
+68
+0:03:17.375,000 --> 0:03:2,000
+by telling you where and when you've been exposed to poor air quality,
+
+69
+0:03:21.208,000 --> 0:03:23,000
+and that way you can make informed decisions
+
+70
+0:03:23.792,000 --> 0:03:24,000
+to take action against pollution.
+
+71
+0:03:25.417,000 --> 0:03:27,000
+You can change the products you use at home,
+
+72
+0:03:27.542,000 --> 0:03:29,000
+you can find the best route to cycle to work,
+
+73
+0:03:29.917,000 --> 0:03:31,000
+you can run when pollution is not peaking
+
+74
+0:03:32.792,000 --> 0:03:34,000
+and you can find the best park to bring your children out.
+
+75
+0:03:35.583,000 --> 0:03:38,000
+Over time you build better habits to decrease your exposure to pollution,
+
+76
+0:03:39.542,000 --> 0:03:42,000
+and by tracking air quality around them,
+
+77
+0:03:42.958,000 --> 0:03:43,000
+cyclists, commuters, parents
+
+78
+0:03:44.833,000 --> 0:03:47,000
+will also contribute to mapping air quality in their city.
+
+79
+0:03:48.125,000 --> 0:03:49,000
+So we're building more than a device,
+
+80
+0:03:49.958,000 --> 0:03:5,000
+but a community.
+
+81
+0:03:51.5,000 --> 0:03:52,000
+And last summer,
+
+82
+0:03:52.792,000 --> 0:03:57,000
+we sent early prototypes of our technology to 100 volunteers in London,
+
+83
+0:03:58.292,000 --> 0:04:,000
+and together they mapped air quality
+
+84
+0:04:01.292,000 --> 0:04:03,000
+across 1,000 miles of sidewalk
+
+85
+0:04:04.042,000 --> 0:04:06,000
+and 20 percent of all of central London.
+
+86
+0:04:06.333,000 --> 0:04:08,000
+So our goal now is to scale this work around the world,
+
+87
+0:04:09.042,000 --> 0:04:12,000
+to crowdsource data so we can map air quality on every street,
+
+88
+0:04:12.667,000 --> 0:04:14,000
+to build an unprecedented database
+
+89
+0:04:14.833,000 --> 0:04:16,000
+so scientists can research pollution,
+
+90
+0:04:17.25,000 --> 0:04:21,000
+and to empower citizens, civic leaders, policy makers
+
+91
+0:04:21.458,000 --> 0:04:23,000
+to support clean-air policies for change.
+
+92
+0:04:25,000 --> 0:04:28,000
+Because this can and must change.
+
+93
+0:04:28.875,000 --> 0:04:3,000
+Remember cigarettes in bars?
+
+94
+0:04:31.166,000 --> 0:04:35,000
+It took decades of lung cancer research and second-hand smoking studies,
+
+95
+0:04:35.625,000 --> 0:04:38,000
+but eventually, we reached a tipping point and we passed smoking-ban laws.
+
+96
+0:04:39.333,000 --> 0:04:42,000
+We must reach the same tipping point for air quality and I believe we will.
+
+97
+0:04:43.167,000 --> 0:04:44,000
+In the past couple years alone,
+
+98
+0:04:44.958,000 --> 0:04:46,000
+governments have fined carmakers record amounts
+
+99
+0:04:47.625,000 --> 0:04:48,000
+for cheating on emission standards.
+
+100
+0:04:49.375,000 --> 0:04:52,000
+Cities have passed congestion charges or built bike lanes --
+
+101
+0:04:52.917,000 --> 0:04:54,000
+like Paris that turned this highway,
+
+102
+0:04:55.625,000 --> 0:04:57,000
+right next to my home, in the middle of the city,
+
+103
+0:04:57.958,000 --> 0:04:58,000
+into a waterfront park.
+
+104
+0:04:59.75,000 --> 0:05:02,000
+And now mayors around the world are thinking of banning diesel outright
+
+105
+0:05:03.458,000 --> 0:05:06,000
+by 2025, 2030, 2035.
+
+106
+0:05:07.875,000 --> 0:05:09,000
+But how much faster could we go, how many lives could we save?
+
+107
+0:05:12.042,000 --> 0:05:15,000
+Technology alone will not solve climate change,
+
+108
+0:05:15.25,000 --> 0:05:17,000
+nor will it make air pollution disappear overnight.
+
+109
+0:05:18.208,000 --> 0:05:22,000
+But it can make the quality of our air much more transparent,
+
+110
+0:05:22.542,000 --> 0:05:23,000
+and if we can empower people
+
+111
+0:05:24,000 --> 0:05:26,000
+to take action to improve their own health,
+
+112
+0:05:26.167,000 --> 0:05:29,000
+then together we can act to bring an end to our pollution.
+
+113
+0:05:30.375,000 --> 0:05:31,000
+Thank you very much.
+
+114
+0:05:31.667,000 --> 0:05:33,000
+(Applause)
+

@@ -1,0 +1,944 @@
+1
+0:00:16.26,000 --> 0:00:18,000
+Up until now, our communication with machines
+
+2
+0:00:18.26,000 --> 0:00:2,000
+has always been limited
+
+3
+0:00:20.26,000 --> 0:00:22,000
+to conscious and direct forms.
+
+4
+0:00:22.26,000 --> 0:00:24,000
+Whether it's something simple
+
+5
+0:00:24.26,000 --> 0:00:26,000
+like turning on the lights with a switch,
+
+6
+0:00:26.26,000 --> 0:00:29,000
+or even as complex as programming robotics,
+
+7
+0:00:29.26,000 --> 0:00:32,000
+we have always had to give a command to a machine,
+
+8
+0:00:32.26,000 --> 0:00:34,000
+or even a series of commands,
+
+9
+0:00:34.26,000 --> 0:00:37,000
+in order for it to do something for us.
+
+10
+0:00:37.26,000 --> 0:00:39,000
+Communication between people, on the other hand,
+
+11
+0:00:39.26,000 --> 0:00:42,000
+is far more complex and a lot more interesting
+
+12
+0:00:42.26,000 --> 0:00:44,000
+because we take into account
+
+13
+0:00:44.26,000 --> 0:00:47,000
+so much more than what is explicitly expressed.
+
+14
+0:00:47.26,000 --> 0:00:5,000
+We observe facial expressions, body language,
+
+15
+0:00:50.26,000 --> 0:00:52,000
+and we can intuit feelings and emotions
+
+16
+0:00:52.26,000 --> 0:00:55,000
+from our dialogue with one another.
+
+17
+0:00:55.26,000 --> 0:00:57,000
+This actually forms a large part
+
+18
+0:00:57.26,000 --> 0:00:59,000
+of our decision-making process.
+
+19
+0:00:59.26,000 --> 0:01:01,000
+Our vision is to introduce
+
+20
+0:01:01.26,000 --> 0:01:04,000
+this whole new realm of human interaction
+
+21
+0:01:04.26,000 --> 0:01:06,000
+into human-computer interaction
+
+22
+0:01:06.26,000 --> 0:01:08,000
+so that computers can understand
+
+23
+0:01:08.26,000 --> 0:01:1,000
+not only what you direct it to do,
+
+24
+0:01:10.26,000 --> 0:01:12,000
+but it can also respond
+
+25
+0:01:12.26,000 --> 0:01:14,000
+to your facial expressions
+
+26
+0:01:14.26,000 --> 0:01:16,000
+and emotional experiences.
+
+27
+0:01:16.26,000 --> 0:01:18,000
+And what better way to do this
+
+28
+0:01:18.26,000 --> 0:01:2,000
+than by interpreting the signals
+
+29
+0:01:20.26,000 --> 0:01:22,000
+naturally produced by our brain,
+
+30
+0:01:22.26,000 --> 0:01:25,000
+our center for control and experience.
+
+31
+0:01:25.26,000 --> 0:01:27,000
+Well, it sounds like a pretty good idea,
+
+32
+0:01:27.26,000 --> 0:01:29,000
+but this task, as Bruno mentioned,
+
+33
+0:01:29.26,000 --> 0:01:32,000
+isn't an easy one for two main reasons:
+
+34
+0:01:32.26,000 --> 0:01:35,000
+First, the detection algorithms.
+
+35
+0:01:35.26,000 --> 0:01:37,000
+Our brain is made up of
+
+36
+0:01:37.26,000 --> 0:01:39,000
+billions of active neurons,
+
+37
+0:01:39.26,000 --> 0:01:42,000
+around 170,000 km
+
+38
+0:01:42.26,000 --> 0:01:44,000
+of combined axon length.
+
+39
+0:01:44.26,000 --> 0:01:46,000
+When these neurons interact,
+
+40
+0:01:46.26,000 --> 0:01:48,000
+the chemical reaction emits an electrical impulse,
+
+41
+0:01:48.26,000 --> 0:01:5,000
+which can be measured.
+
+42
+0:01:50.26,000 --> 0:01:53,000
+The majority of our functional brain
+
+43
+0:01:53.26,000 --> 0:01:55,000
+is distributed over
+
+44
+0:01:55.26,000 --> 0:01:57,000
+the outer surface layer of the brain,
+
+45
+0:01:57.26,000 --> 0:02:,000
+and to increase the area that's available for mental capacity,
+
+46
+0:02:00.26,000 --> 0:02:03,000
+the brain surface is highly folded.
+
+47
+0:02:03.26,000 --> 0:02:05,000
+Now this cortical folding
+
+48
+0:02:05.26,000 --> 0:02:07,000
+presents a significant challenge
+
+49
+0:02:07.26,000 --> 0:02:1,000
+for interpreting surface electrical impulses.
+
+50
+0:02:10.26,000 --> 0:02:12,000
+Each individual's cortex
+
+51
+0:02:12.26,000 --> 0:02:14,000
+is folded differently,
+
+52
+0:02:14.26,000 --> 0:02:16,000
+very much like a fingerprint.
+
+53
+0:02:16.26,000 --> 0:02:18,000
+So even though a signal
+
+54
+0:02:18.26,000 --> 0:02:21,000
+may come from the same functional part of the brain,
+
+55
+0:02:21.26,000 --> 0:02:23,000
+by the time the structure has been folded,
+
+56
+0:02:23.26,000 --> 0:02:25,000
+its physical location
+
+57
+0:02:25.26,000 --> 0:02:27,000
+is very different between individuals,
+
+58
+0:02:27.26,000 --> 0:02:3,000
+even identical twins.
+
+59
+0:02:30.26,000 --> 0:02:32,000
+There is no longer any consistency
+
+60
+0:02:32.26,000 --> 0:02:34,000
+in the surface signals.
+
+61
+0:02:34.26,000 --> 0:02:36,000
+Our breakthrough was to create an algorithm
+
+62
+0:02:36.26,000 --> 0:02:38,000
+that unfolds the cortex,
+
+63
+0:02:38.26,000 --> 0:02:4,000
+so that we can map the signals
+
+64
+0:02:40.26,000 --> 0:02:42,000
+closer to its source,
+
+65
+0:02:42.26,000 --> 0:02:45,000
+and therefore making it capable of working across a mass population.
+
+66
+0:02:46.26,000 --> 0:02:48,000
+The second challenge
+
+67
+0:02:48.26,000 --> 0:02:51,000
+is the actual device for observing brainwaves.
+
+68
+0:02:51.26,000 --> 0:02:53,000
+EEG measurements typically involve
+
+69
+0:02:53.26,000 --> 0:02:56,000
+a hairnet with an array of sensors,
+
+70
+0:02:56.26,000 --> 0:02:59,000
+like the one that you can see here in the photo.
+
+71
+0:02:59.26,000 --> 0:03:01,000
+A technician will put the electrodes
+
+72
+0:03:01.26,000 --> 0:03:03,000
+onto the scalp
+
+73
+0:03:03.26,000 --> 0:03:05,000
+using a conductive gel or paste
+
+74
+0:03:05.26,000 --> 0:03:08,000
+and usually after a procedure of preparing the scalp
+
+75
+0:03:08.26,000 --> 0:03:1,000
+by light abrasion.
+
+76
+0:03:10.26,000 --> 0:03:12,000
+Now this is quite time consuming
+
+77
+0:03:12.26,000 --> 0:03:14,000
+and isn't the most comfortable process.
+
+78
+0:03:14.26,000 --> 0:03:16,000
+And on top of that, these systems
+
+79
+0:03:16.26,000 --> 0:03:19,000
+actually cost in the tens of thousands of dollars.
+
+80
+0:03:20.26,000 --> 0:03:23,000
+So with that, I'd like to invite onstage
+
+81
+0:03:23.26,000 --> 0:03:25,000
+Evan Grant, who is one of last year's speakers,
+
+82
+0:03:25.26,000 --> 0:03:27,000
+who's kindly agreed
+
+83
+0:03:27.26,000 --> 0:03:29,000
+to help me to demonstrate
+
+84
+0:03:29.26,000 --> 0:03:31,000
+what we've been able to develop.
+
+85
+0:03:31.26,000 --> 0:03:37,000
+(Applause)
+
+86
+0:03:37.26,000 --> 0:03:39,000
+So the device that you see
+
+87
+0:03:39.26,000 --> 0:03:41,000
+is a 14-channel, high-fidelity
+
+88
+0:03:41.26,000 --> 0:03:43,000
+EEG acquisition system.
+
+89
+0:03:43.26,000 --> 0:03:46,000
+It doesn't require any scalp preparation,
+
+90
+0:03:46.26,000 --> 0:03:48,000
+no conductive gel or paste.
+
+91
+0:03:48.26,000 --> 0:03:51,000
+It only takes a few minutes to put on
+
+92
+0:03:51.26,000 --> 0:03:53,000
+and for the signals to settle.
+
+93
+0:03:53.26,000 --> 0:03:55,000
+It's also wireless,
+
+94
+0:03:55.26,000 --> 0:03:58,000
+so it gives you the freedom to move around.
+
+95
+0:03:58.26,000 --> 0:04:01,000
+And compared to the tens of thousands of dollars
+
+96
+0:04:01.26,000 --> 0:04:04,000
+for a traditional EEG system,
+
+97
+0:04:04.26,000 --> 0:04:06,000
+this headset only costs
+
+98
+0:04:06.26,000 --> 0:04:08,000
+a few hundred dollars.
+
+99
+0:04:08.26,000 --> 0:04:11,000
+Now on to the detection algorithms.
+
+100
+0:04:11.26,000 --> 0:04:13,000
+So facial expressions --
+
+101
+0:04:13.26,000 --> 0:04:15,000
+as I mentioned before in emotional experiences --
+
+102
+0:04:15.26,000 --> 0:04:17,000
+are actually designed to work out of the box
+
+103
+0:04:17.26,000 --> 0:04:19,000
+with some sensitivity adjustments
+
+104
+0:04:19.26,000 --> 0:04:22,000
+available for personalization.
+
+105
+0:04:22.26,000 --> 0:04:24,000
+But with the limited time we have available,
+
+106
+0:04:24.26,000 --> 0:04:26,000
+I'd like to show you the cognitive suite,
+
+107
+0:04:26.26,000 --> 0:04:28,000
+which is the ability for you
+
+108
+0:04:28.26,000 --> 0:04:31,000
+to basically move virtual objects with your mind.
+
+109
+0:04:32.26,000 --> 0:04:34,000
+Now, Evan is new to this system,
+
+110
+0:04:34.26,000 --> 0:04:36,000
+so what we have to do first
+
+111
+0:04:36.26,000 --> 0:04:38,000
+is create a new profile for him.
+
+112
+0:04:38.26,000 --> 0:04:41,000
+He's obviously not Joanne -- so we'll "add user."
+
+113
+0:04:41.26,000 --> 0:04:43,000
+Evan. Okay.
+
+114
+0:04:43.26,000 --> 0:04:46,000
+So the first thing we need to do with the cognitive suite
+
+115
+0:04:46.26,000 --> 0:04:48,000
+is to start with training
+
+116
+0:04:48.26,000 --> 0:04:5,000
+a neutral signal.
+
+117
+0:04:50.26,000 --> 0:04:52,000
+With neutral, there's nothing in particular
+
+118
+0:04:52.26,000 --> 0:04:54,000
+that Evan needs to do.
+
+119
+0:04:54.26,000 --> 0:04:56,000
+He just hangs out. He's relaxed.
+
+120
+0:04:56.26,000 --> 0:04:58,000
+And the idea is to establish a baseline
+
+121
+0:04:58.26,000 --> 0:05:,000
+or normal state for his brain,
+
+122
+0:05:00.26,000 --> 0:05:02,000
+because every brain is different.
+
+123
+0:05:02.26,000 --> 0:05:04,000
+It takes eight seconds to do this,
+
+124
+0:05:04.26,000 --> 0:05:06,000
+and now that that's done,
+
+125
+0:05:06.26,000 --> 0:05:08,000
+we can choose a movement-based action.
+
+126
+0:05:08.26,000 --> 0:05:1,000
+So Evan, choose something
+
+127
+0:05:10.26,000 --> 0:05:12,000
+that you can visualize clearly in your mind.
+
+128
+0:05:12.26,000 --> 0:05:14,000
+Evan Grant: Let's do "pull."
+
+129
+0:05:14.26,000 --> 0:05:16,000
+Tan Le: Okay, so let's choose "pull."
+
+130
+0:05:16.26,000 --> 0:05:18,000
+So the idea here now
+
+131
+0:05:18.26,000 --> 0:05:2,000
+is that Evan needs to
+
+132
+0:05:20.26,000 --> 0:05:22,000
+imagine the object coming forward
+
+133
+0:05:22.26,000 --> 0:05:24,000
+into the screen,
+
+134
+0:05:24.26,000 --> 0:05:27,000
+and there's a progress bar that will scroll across the screen
+
+135
+0:05:27.26,000 --> 0:05:29,000
+while he's doing that.
+
+136
+0:05:29.26,000 --> 0:05:31,000
+The first time, nothing will happen,
+
+137
+0:05:31.26,000 --> 0:05:34,000
+because the system has no idea how he thinks about "pull."
+
+138
+0:05:34.26,000 --> 0:05:36,000
+But maintain that thought
+
+139
+0:05:36.26,000 --> 0:05:38,000
+for the entire duration of the eight seconds.
+
+140
+0:05:38.26,000 --> 0:05:41,000
+So: one, two, three, go.
+
+141
+0:05:49.26,000 --> 0:05:51,000
+Okay.
+
+142
+0:05:51.26,000 --> 0:05:53,000
+So once we accept this,
+
+143
+0:05:53.26,000 --> 0:05:55,000
+the cube is live.
+
+144
+0:05:55.26,000 --> 0:05:57,000
+So let's see if Evan
+
+145
+0:05:57.26,000 --> 0:06:,000
+can actually try and imagine pulling.
+
+146
+0:06:00.26,000 --> 0:06:02,000
+Ah, good job!
+
+147
+0:06:02.26,000 --> 0:06:05,000
+(Applause)
+
+148
+0:06:05.26,000 --> 0:06:07,000
+That's really amazing.
+
+149
+0:06:07.26,000 --> 0:06:11,000
+(Applause)
+
+150
+0:06:11.26,000 --> 0:06:13,000
+So we have a little bit of time available,
+
+151
+0:06:13.26,000 --> 0:06:15,000
+so I'm going to ask Evan
+
+152
+0:06:15.26,000 --> 0:06:17,000
+to do a really difficult task.
+
+153
+0:06:17.26,000 --> 0:06:19,000
+And this one is difficult
+
+154
+0:06:19.26,000 --> 0:06:22,000
+because it's all about being able to visualize something
+
+155
+0:06:22.26,000 --> 0:06:24,000
+that doesn't exist in our physical world.
+
+156
+0:06:24.26,000 --> 0:06:26,000
+This is "disappear."
+
+157
+0:06:26.26,000 --> 0:06:28,000
+So what you want to do -- at least with movement-based actions,
+
+158
+0:06:28.26,000 --> 0:06:31,000
+we do that all the time, so you can visualize it.
+
+159
+0:06:31.26,000 --> 0:06:33,000
+But with "disappear," there's really no analogies --
+
+160
+0:06:33.26,000 --> 0:06:35,000
+so Evan, what you want to do here
+
+161
+0:06:35.26,000 --> 0:06:38,000
+is to imagine the cube slowly fading out, okay.
+
+162
+0:06:38.26,000 --> 0:06:41,000
+Same sort of drill. So: one, two, three, go.
+
+163
+0:06:50.26,000 --> 0:06:53,000
+Okay. Let's try that.
+
+164
+0:06:53.26,000 --> 0:06:56,000
+Oh, my goodness. He's just too good.
+
+165
+0:06:57.26,000 --> 0:06:59,000
+Let's try that again.
+
+166
+0:07:04.26,000 --> 0:07:06,000
+EG: Losing concentration.
+
+167
+0:07:06.26,000 --> 0:07:08,000
+(Laughter)
+
+168
+0:07:08.26,000 --> 0:07:1,000
+TL: But we can see that it actually works,
+
+169
+0:07:10.26,000 --> 0:07:12,000
+even though you can only hold it
+
+170
+0:07:12.26,000 --> 0:07:14,000
+for a little bit of time.
+
+171
+0:07:14.26,000 --> 0:07:17,000
+As I said, it's a very difficult process
+
+172
+0:07:17.26,000 --> 0:07:19,000
+to imagine this.
+
+173
+0:07:19.26,000 --> 0:07:21,000
+And the great thing about it is that
+
+174
+0:07:21.26,000 --> 0:07:23,000
+we've only given the software one instance
+
+175
+0:07:23.26,000 --> 0:07:26,000
+of how he thinks about "disappear."
+
+176
+0:07:26.26,000 --> 0:07:29,000
+As there is a machine learning algorithm in this --
+
+177
+0:07:29.26,000 --> 0:07:33,000
+(Applause)
+
+178
+0:07:33.26,000 --> 0:07:35,000
+Thank you.
+
+179
+0:07:35.26,000 --> 0:07:38,000
+Good job. Good job.
+
+180
+0:07:38.26,000 --> 0:07:4,000
+(Applause)
+
+181
+0:07:40.26,000 --> 0:07:43,000
+Thank you, Evan, you're a wonderful, wonderful
+
+182
+0:07:43.26,000 --> 0:07:46,000
+example of the technology.
+
+183
+0:07:46.26,000 --> 0:07:48,000
+So, as you can see, before,
+
+184
+0:07:48.26,000 --> 0:07:51,000
+there is a leveling system built into this software
+
+185
+0:07:51.26,000 --> 0:07:53,000
+so that as Evan, or any user,
+
+186
+0:07:53.26,000 --> 0:07:55,000
+becomes more familiar with the system,
+
+187
+0:07:55.26,000 --> 0:07:58,000
+they can continue to add more and more detections,
+
+188
+0:07:58.26,000 --> 0:08:,000
+so that the system begins to differentiate
+
+189
+0:08:00.26,000 --> 0:08:03,000
+between different distinct thoughts.
+
+190
+0:08:04.26,000 --> 0:08:06,000
+And once you've trained up the detections,
+
+191
+0:08:06.26,000 --> 0:08:08,000
+these thoughts can be assigned or mapped
+
+192
+0:08:08.26,000 --> 0:08:1,000
+to any computing platform,
+
+193
+0:08:10.26,000 --> 0:08:12,000
+application or device.
+
+194
+0:08:12.26,000 --> 0:08:14,000
+So I'd like to show you a few examples,
+
+195
+0:08:14.26,000 --> 0:08:16,000
+because there are many possible applications
+
+196
+0:08:16.26,000 --> 0:08:18,000
+for this new interface.
+
+197
+0:08:19.26,000 --> 0:08:21,000
+In games and virtual worlds, for example,
+
+198
+0:08:21.26,000 --> 0:08:23,000
+your facial expressions
+
+199
+0:08:23.26,000 --> 0:08:25,000
+can naturally and intuitively be used
+
+200
+0:08:25.26,000 --> 0:08:28,000
+to control an avatar or virtual character.
+
+201
+0:08:29.26,000 --> 0:08:31,000
+Obviously, you can experience the fantasy of magic
+
+202
+0:08:31.26,000 --> 0:08:34,000
+and control the world with your mind.
+
+203
+0:08:36.26,000 --> 0:08:39,000
+And also, colors, lighting,
+
+204
+0:08:39.26,000 --> 0:08:41,000
+sound and effects
+
+205
+0:08:41.26,000 --> 0:08:43,000
+can dynamically respond to your emotional state
+
+206
+0:08:43.26,000 --> 0:08:46,000
+to heighten the experience that you're having, in real time.
+
+207
+0:08:47.26,000 --> 0:08:49,000
+And moving on to some applications
+
+208
+0:08:49.26,000 --> 0:08:52,000
+developed by developers and researchers around the world,
+
+209
+0:08:52.26,000 --> 0:08:55,000
+with robots and simple machines, for example --
+
+210
+0:08:55.26,000 --> 0:08:57,000
+in this case, flying a toy helicopter
+
+211
+0:08:57.26,000 --> 0:09:,000
+simply by thinking "lift" with your mind.
+
+212
+0:09:00.26,000 --> 0:09:02,000
+The technology can also be applied
+
+213
+0:09:02.26,000 --> 0:09:04,000
+to real world applications --
+
+214
+0:09:04.26,000 --> 0:09:06,000
+in this example, a smart home.
+
+215
+0:09:06.26,000 --> 0:09:09,000
+You know, from the user interface of the control system
+
+216
+0:09:09.26,000 --> 0:09:11,000
+to opening curtains
+
+217
+0:09:11.26,000 --> 0:09:14,000
+or closing curtains.
+
+218
+0:09:22.26,000 --> 0:09:25,000
+And of course, also to the lighting --
+
+219
+0:09:25.26,000 --> 0:09:28,000
+turning them on
+
+220
+0:09:28.26,000 --> 0:09:3,000
+or off.
+
+221
+0:09:30.26,000 --> 0:09:32,000
+And finally,
+
+222
+0:09:32.26,000 --> 0:09:34,000
+to real life-changing applications,
+
+223
+0:09:34.26,000 --> 0:09:37,000
+such as being able to control an electric wheelchair.
+
+224
+0:09:37.26,000 --> 0:09:39,000
+In this example,
+
+225
+0:09:39.26,000 --> 0:09:42,000
+facial expressions are mapped to the movement commands.
+
+226
+0:09:42.26,000 --> 0:09:45,000
+Man: Now blink right to go right.
+
+227
+0:09:50.26,000 --> 0:09:53,000
+Now blink left to turn back left.
+
+228
+0:10:02.26,000 --> 0:10:05,000
+Now smile to go straight.
+
+229
+0:10:08.26,000 --> 0:10:1,000
+TL: We really -- Thank you.
+
+230
+0:10:10.26,000 --> 0:10:15,000
+(Applause)
+
+231
+0:10:15.26,000 --> 0:10:18,000
+We are really only scratching the surface of what is possible today,
+
+232
+0:10:18.26,000 --> 0:10:2,000
+and with the community's input,
+
+233
+0:10:20.26,000 --> 0:10:22,000
+and also with the involvement of developers
+
+234
+0:10:22.26,000 --> 0:10:25,000
+and researchers from around the world,
+
+235
+0:10:25.26,000 --> 0:10:27,000
+we hope that you can help us to shape
+
+236
+0:10:27.26,000 --> 0:10:3,000
+where the technology goes from here. Thank you so much.
+

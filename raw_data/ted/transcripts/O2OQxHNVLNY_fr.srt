@@ -1,0 +1,832 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Amélie Gourdon Relecteur: Elaine Green
+
+2
+0:00:15.26,000 --> 0:00:18,000
+Beaucoup pensent que conduire est une activité
+
+3
+0:00:18.26,000 --> 0:00:2,000
+exclusivement réservée à ceux qui peuvent voir.
+
+4
+0:00:20.26,000 --> 0:00:23,000
+Une personne aveugle conduisant en sécurité et indépendamment
+
+5
+0:00:23.26,000 --> 0:00:26,000
+était considérée comme une tâche impossible, jusqu'à maintenant.
+
+6
+0:00:26.26,000 --> 0:00:28,000
+Bonjour, mon nom est Dennis Hong,
+
+7
+0:00:28.26,000 --> 0:00:3,000
+et nous apportons la liberté et l'indépendance aux aveugles
+
+8
+0:00:30.26,000 --> 0:00:33,000
+en construisant un véhicule pour les malvoyants.
+
+9
+0:00:33.26,000 --> 0:00:36,000
+Donc avant de vous parler de cette voiture pour aveugles,
+
+10
+0:00:36.26,000 --> 0:00:38,000
+laissez-moi vous présenter rapidement un autre projet sur lequel j'ai travaillé,
+
+11
+0:00:38.26,000 --> 0:00:4,000
+qui s'appelle le Défi Urbain DARPA.
+
+12
+0:00:40.26,000 --> 0:00:42,000
+Il s'agissait de construire une voiture robotique
+
+13
+0:00:42.26,000 --> 0:00:44,000
+qui peut se conduire elle-même.
+
+14
+0:00:44.26,000 --> 0:00:46,000
+Vous pressez le bouton de démarrage, personne ne touche quoi que ce soit,
+
+15
+0:00:46.26,000 --> 0:00:49,000
+et elle peut atteindre sa destination de façon complètement autonome.
+
+16
+0:00:49.26,000 --> 0:00:52,000
+Donc en 2007, notre équipe a gagné un demi-million de Dollars
+
+17
+0:00:52.26,000 --> 0:00:54,000
+en finissant troisième de cette compétition.
+
+18
+0:00:54.26,000 --> 0:00:56,000
+Alors à cette époque,
+
+19
+0:00:56.26,000 --> 0:00:58,000
+la Fédération Nationale des Aveugles, la NFB,
+
+20
+0:00:58.26,000 --> 0:01:,000
+a mis au défi le comité de recherche
+
+21
+0:01:00.26,000 --> 0:01:02,000
+à propos de qui pourrait développer une voiture
+
+22
+0:01:02.26,000 --> 0:01:04,000
+permettant à une personne aveugle de conduire en sécurité et indépendamment.
+
+23
+0:01:04.26,000 --> 0:01:06,000
+On a décidé d'essayer.
+
+24
+0:01:06.26,000 --> 0:01:08,000
+parce qu'on pensait "Hé, ça doit pas être bien difficile".
+
+25
+0:01:08.26,000 --> 0:01:1,000
+On avait déjà un véhicule autonome.
+
+26
+0:01:10.26,000 --> 0:01:12,000
+On avait juste à mettre une personne aveugle dedans et ce serait fait, n'est-ce pas ?
+
+27
+0:01:12.26,000 --> 0:01:14,000
+(Rires)
+
+28
+0:01:14.26,000 --> 0:01:16,000
+On n'aurait pas pu se méprendre plus.
+
+29
+0:01:16.26,000 --> 0:01:18,000
+Ce que la NFB voulait
+
+30
+0:01:18.26,000 --> 0:01:21,000
+n'était pas un véhicule qui peut transporter une personne aveugle,
+
+31
+0:01:21.26,000 --> 0:01:24,000
+mais un véhicule dans laquelle une personne aveugle peut prendre des décisions actives et conduire.
+
+32
+0:01:24.26,000 --> 0:01:26,000
+Donc nous avons dû tout jeter par la fenêtre
+
+33
+0:01:26.26,000 --> 0:01:28,000
+et recommencer à zéro.
+
+34
+0:01:28.26,000 --> 0:01:3,000
+Alors pour tester cette idée insensée,
+
+35
+0:01:30.26,000 --> 0:01:32,000
+nous avons développé un petit prototype de buggy pour dunes,
+
+36
+0:01:32.26,000 --> 0:01:34,000
+pour tester sa faisabilité.
+
+37
+0:01:34.26,000 --> 0:01:36,000
+Et durant l'été 2009,
+
+38
+0:01:36.26,000 --> 0:01:39,000
+nous avons invité des douzaines de jeunes aveugles à travers le pays
+
+39
+0:01:39.26,000 --> 0:01:41,000
+et leur avons donné l'opportunité de l'emprunter pour un tour.
+
+40
+0:01:41.26,000 --> 0:01:43,000
+Ça a été une expérience absolument extraordinaire.
+
+41
+0:01:43.26,000 --> 0:01:45,000
+Mais le problème avec cette voiture était
+
+42
+0:01:45.26,000 --> 0:01:48,000
+qu'elle était conçue seulement pour être conduite dans un environnement très contrôlé,
+
+43
+0:01:48.26,000 --> 0:01:5,000
+dans un parking plat et fermé --
+
+44
+0:01:50.26,000 --> 0:01:52,000
+même les voies étaient définies par des cônes de signalisation rouges.
+
+45
+0:01:52.26,000 --> 0:01:54,000
+Donc fort de ce succès,
+
+46
+0:01:54.26,000 --> 0:01:56,000
+nous avons décidé de sauter le grand pas suivant,
+
+47
+0:01:56.26,000 --> 0:01:59,000
+pour développer une vraie voiture pouvant être conduite sur de vraies routes.
+
+48
+0:01:59.26,000 --> 0:02:01,000
+Alors comment cela marche-t-il?
+
+49
+0:02:01.26,000 --> 0:02:03,000
+Eh bien, c'est un système plutôt complexe,
+
+50
+0:02:03.26,000 --> 0:02:06,000
+mais laissez-moi essayer de l'expliquer, peut-être de le simplifier.
+
+51
+0:02:06.26,000 --> 0:02:08,000
+Donc il y a trois étapes.
+
+52
+0:02:08.26,000 --> 0:02:1,000
+Il y a la perception, le calcul
+
+53
+0:02:10.26,000 --> 0:02:12,000
+et les interfaces non-visuelles.
+
+54
+0:02:12.26,000 --> 0:02:14,000
+Évidemment, le conducteur ne peut pas voir,
+
+55
+0:02:14.26,000 --> 0:02:16,000
+donc le système doit percevoir l'environnement
+
+56
+0:02:16.26,000 --> 0:02:18,000
+et rassembler les informations pour le conducteur.
+
+57
+0:02:18.26,000 --> 0:02:21,000
+Pour ça, nous utilisons une unité de mesure initiale.
+
+58
+0:02:21.26,000 --> 0:02:23,000
+Donc cela mesure l'accélération, l'accélération angulaire --
+
+59
+0:02:23.26,000 --> 0:02:25,000
+comme une oreille humaine, une oreille interne.
+
+60
+0:02:25.26,000 --> 0:02:27,000
+Nous fusionnons cette information avec une unité GPS
+
+61
+0:02:27.26,000 --> 0:02:3,000
+pour avoir une estimation de la position de la voiture.
+
+62
+0:02:30.26,000 --> 0:02:33,000
+Nous utilisons également deux caméras pour détecter les voies de la route.
+
+63
+0:02:33.26,000 --> 0:02:35,000
+Et nous utilisons aussi trois télémètres lasers.
+
+64
+0:02:35.26,000 --> 0:02:38,000
+Les lasers balayent l'environnement pour détecter les obstacles --
+
+65
+0:02:38.26,000 --> 0:02:4,000
+une voiture s'approchant en face, derrière
+
+66
+0:02:40.26,000 --> 0:02:43,000
+et aussi n'importe quels obstacles entrant sur la route,
+
+67
+0:02:43.26,000 --> 0:02:45,000
+n'importe quels obstacles autour du véhicule.
+
+68
+0:02:45.26,000 --> 0:02:48,000
+Donc toute cette vaste quantité d'information est alors entrée dans l'ordinateur,
+
+69
+0:02:48.26,000 --> 0:02:5,000
+et l'ordinateur peut faire deux choses.
+
+70
+0:02:50.26,000 --> 0:02:53,000
+L'une est, tout d'abord, de traiter cette information
+
+71
+0:02:53.26,000 --> 0:02:55,000
+pour avoir une appréhension de l'environnement --
+
+72
+0:02:55.26,000 --> 0:02:58,000
+ça, ce sont les voies de la route, voici les obstacles --
+
+73
+0:02:58.26,000 --> 0:03:,000
+et transmettre cette information au conducteur.
+
+74
+0:03:00.26,000 --> 0:03:02,000
+Le système est également suffisamment intelligent
+
+75
+0:03:02.26,000 --> 0:03:04,000
+pour comprendre la façon la plus sûre de faire fonctionner la voiture.
+
+76
+0:03:04.26,000 --> 0:03:06,000
+Donc on peut aussi générer des instructions
+
+77
+0:03:06.26,000 --> 0:03:08,000
+sur comment utiliser les contrôles du véhicule.
+
+78
+0:03:08.26,000 --> 0:03:1,000
+Mais le problème est le suivant : comment transmet-on
+
+79
+0:03:10.26,000 --> 0:03:12,000
+cette information et ces instructions
+
+80
+0:03:12.26,000 --> 0:03:14,000
+à quelqu'un qui ne peut pas voir
+
+81
+0:03:14.26,000 --> 0:03:17,000
+assez rapidement et précisément pour qu'il puisse conduire ?
+
+82
+0:03:17.26,000 --> 0:03:19,000
+Alors pour cela, nous avons développé beaucoup de différentes sortes
+
+83
+0:03:19.26,000 --> 0:03:22,000
+de technologie d'interface-utilisateur non-visuelle.
+
+84
+0:03:22.26,000 --> 0:03:24,000
+Donc en commençant par un système de tintement en trois dimensions,
+
+85
+0:03:24.26,000 --> 0:03:26,000
+une veste vibrante,
+
+86
+0:03:26.26,000 --> 0:03:29,000
+un volant à déclic avec commande vocale, une bande sur la jambe,
+
+87
+0:03:29.26,000 --> 0:03:31,000
+et même une chaussure qui fait pression sur le pied.
+
+88
+0:03:31.26,000 --> 0:03:33,000
+Mais aujourd'hui nous allons parler de
+
+89
+0:03:33.26,000 --> 0:03:35,000
+trois de ces interfaces-utilisateur non-visuelles.
+
+90
+0:03:35.26,000 --> 0:03:38,000
+Maintenant la première interface s'appelle un "DriveGrip".
+
+91
+0:03:38.26,000 --> 0:03:4,000
+Alors c'est une paire de gants,
+
+92
+0:03:40.26,000 --> 0:03:42,000
+et elle a un élément vibrant sur les phalanges,
+
+93
+0:03:42.26,000 --> 0:03:45,000
+pour pouvoir transmettre des instructions sur comment se diriger --
+
+94
+0:03:45.26,000 --> 0:03:47,000
+à propos de la direction et de l'intensité.
+
+95
+0:03:47.26,000 --> 0:03:49,000
+Un autre dispositif s'appelle le "SpeedStrip".
+
+96
+0:03:49.26,000 --> 0:03:52,000
+Donc c'est une chaise -- en fait, c'est en réalité une chaise de massage.
+
+97
+0:03:52.26,000 --> 0:03:56,000
+Nous l'avons vidée, et nous avons réarrangé les éléments vibrants selon des schémas différents.
+
+98
+0:03:56.26,000 --> 0:03:59,000
+Et on les déclenche pour transmettre des informations concernant la vitesse,
+
+99
+0:03:59.26,000 --> 0:04:02,000
+ainsi que des instructions sur comment utiliser l'accélérateur et la pédale de frein.
+
+100
+0:04:02.26,000 --> 0:04:04,000
+Donc par ici, vous pouvez voir
+
+101
+0:04:04.26,000 --> 0:04:06,000
+comment l'ordinateur comprend l'environnement.
+
+102
+0:04:06.26,000 --> 0:04:08,000
+Et parce que vous ne pouvez pas voir les vibrations,
+
+103
+0:04:08.26,000 --> 0:04:11,000
+nous avons en fait mis des LED rouges sur le conducteur, pour que l'on puisse vraiment voir ce qui ce passe.
+
+104
+0:04:11.26,000 --> 0:04:13,000
+Ce sont les données sensorielles,
+
+105
+0:04:13.26,000 --> 0:04:16,000
+et ces données sont transmises aux dispositifs via l'ordinateur.
+
+106
+0:04:16.26,000 --> 0:04:18,000
+Donc ces deux dispositifs, "DriveGrip" et "SpeedStrip",
+
+107
+0:04:18.26,000 --> 0:04:2,000
+sont très efficaces.
+
+108
+0:04:20.26,000 --> 0:04:22,000
+Mais le problème est que
+
+109
+0:04:22.26,000 --> 0:04:24,000
+ce sont des dispositifs signalant des instructions.
+
+110
+0:04:24.26,000 --> 0:04:26,000
+Donc ce n'est pas vraiment la liberté, n'est-ce-pas ?
+
+111
+0:04:26.26,000 --> 0:04:28,000
+L'ordinateur vous dit comment conduire --
+
+112
+0:04:28.26,000 --> 0:04:3,000
+de tourner à gauche, de tourner à droite, d'accélérer, d'arrêter.
+
+113
+0:04:30.26,000 --> 0:04:32,000
+On appelle cela le problème du conducteur du siège arrière.
+
+114
+0:04:32.26,000 --> 0:04:35,000
+Donc nous nous éloignons des dispositifs qui donnent des instructions,
+
+115
+0:04:35.26,000 --> 0:04:37,000
+et désormais nous nous concentrons plus
+
+116
+0:04:37.26,000 --> 0:04:39,000
+sur les dispositifs informationnels.
+
+117
+0:04:39.26,000 --> 0:04:41,000
+Un bon exemple d'interface-utilisateur non-visuel et informationnel
+
+118
+0:04:41.26,000 --> 0:04:43,000
+s'appelle "AirPix".
+
+119
+0:04:43.26,000 --> 0:04:45,000
+Alors, pensez à cela comme à un écran pour les aveugles.
+
+120
+0:04:45.26,000 --> 0:04:47,000
+Donc c'est une petite tablette, qui a plein de trous,
+
+121
+0:04:47.26,000 --> 0:04:49,000
+et de l'air comprimé en sort,
+
+122
+0:04:49.26,000 --> 0:04:51,000
+de sorte que ça peut réellement dessiner des images.
+
+123
+0:04:51.26,000 --> 0:04:53,000
+Donc même si vous êtes aveugle, vous pouvez mettre votre main au-dessus,
+
+124
+0:04:53.26,000 --> 0:04:55,000
+et vous pouvez voir les voies de la route et les obstacles.
+
+125
+0:04:55.26,000 --> 0:04:58,000
+En fait, vous pouvez aussi changer la fréquence de l'air qui sort
+
+126
+0:04:58.26,000 --> 0:05:,000
+et éventuellement la température.
+
+127
+0:05:00.26,000 --> 0:05:03,000
+Donc c'est en réalité une interface-utilisateur multidimensionnelle.
+
+128
+0:05:03.26,000 --> 0:05:06,000
+Alors ici vous pouvez voir la caméra de gauche, la caméra de droite depuis le véhicule
+
+129
+0:05:06.26,000 --> 0:05:09,000
+et comment l'ordinateur interprète cela et envoie les informations à l'"AirPix".
+
+130
+0:05:09.26,000 --> 0:05:11,000
+Pour cela, nous montrons un simulateur,
+
+131
+0:05:11.26,000 --> 0:05:14,000
+une personne aveugle qui conduit en utilisant l'"AirPix".
+
+132
+0:05:14.26,000 --> 0:05:17,000
+Ce simulateur était aussi très utile pour former les conducteurs aveugles
+
+133
+0:05:17.26,000 --> 0:05:19,000
+et aussi tester rapidement différents types d'idées
+
+134
+0:05:19.26,000 --> 0:05:21,000
+pour différents types d'interfaces-utilisateur non-visuelles.
+
+135
+0:05:21.26,000 --> 0:05:23,000
+Donc en gros, c'est comme cela que ça fonctionne.
+
+136
+0:05:23.26,000 --> 0:05:25,000
+Alors il y a juste un mois,
+
+137
+0:05:25.26,000 --> 0:05:27,000
+le 29 janvier [2011],
+
+138
+0:05:27.26,000 --> 0:05:29,000
+nous avons dévoilé ce véhicule au public pour la première fois,
+
+139
+0:05:29.26,000 --> 0:05:32,000
+au circuit international de Daytona, internationalement renommé,
+
+140
+0:05:32.26,000 --> 0:05:34,000
+lors des 24 heures de Daytona.
+
+141
+0:05:34.26,000 --> 0:05:37,000
+Nous avons également eu des surprises. Jetons un œil.
+
+142
+0:05:37.26,000 --> 0:05:47,000
+(Musique)
+
+143
+0:05:47.26,000 --> 0:05:51,000
+(Vidéo) Présentateur : C'est un jour historique.
+
+144
+0:05:51.26,000 --> 0:05:55,000
+Il va vers la tribune, amis de la fédération [la FNB],
+
+145
+0:05:55.26,000 --> 0:06:01,000
+(Acclamations)
+
+146
+0:06:01.26,000 --> 0:06:04,000
+(Klaxon)
+
+147
+0:06:04.26,000 --> 0:06:06,000
+C'est la tribune maintenant.
+
+148
+0:06:06.26,000 --> 0:06:1,000
+Et il suit cette camionette qui est devant lui.
+
+149
+0:06:10.26,000 --> 0:06:12,000
+Eh bien, voici la première boîte.
+
+150
+0:06:12.26,000 --> 0:06:15,000
+Maintenant voyons si Mark l'évite.
+
+151
+0:06:15.26,000 --> 0:06:18,000
+Il le fait. Il la contourne par la droite.
+
+152
+0:06:20.26,000 --> 0:06:23,000
+La troisième boîte est sortie. La quatrième boîte est sortie.
+
+153
+0:06:23.26,000 --> 0:06:26,000
+Et il trace parfaitement son chemin entre les deux.
+
+154
+0:06:26.26,000 --> 0:06:28,000
+Il se rapproche de la camionette
+
+155
+0:06:28.26,000 --> 0:06:31,000
+pour la doubler.
+
+156
+0:06:32.26,000 --> 0:06:34,000
+Eh bien, c'est tout ce dont il est question,
+
+157
+0:06:34.26,000 --> 0:06:38,000
+cette sorte de démonstration dynamique d'audace et d'ingéniosité.
+
+158
+0:06:39.26,000 --> 0:06:42,000
+Il s'approche de la fin de la piste,
+
+159
+0:06:42.26,000 --> 0:06:47,000
+se fait un chemin entre les tonneaux installés là.
+
+160
+0:06:47.26,000 --> 0:06:5,000
+(Klaxon)
+
+161
+0:06:50.26,000 --> 0:06:53,000
+(Applaudissements)
+
+162
+0:06:56.26,000 --> 0:06:58,000
+Dennis Hong: Je suis tellement content pour toi.
+
+163
+0:06:58.26,000 --> 0:07:,000
+Mark va me ramener à l'hôtel.
+
+164
+0:07:00.26,000 --> 0:07:02,000
+Mark Riccobono : Oui.
+
+165
+0:07:05.26,000 --> 0:07:14,000
+(Applaudissements)
+
+166
+0:07:14.26,000 --> 0:07:16,000
+DH : Donc depuis que nous avons commencé ce projet,
+
+167
+0:07:16.26,000 --> 0:07:19,000
+nous avons reçu des centaines de lettres, de courriers électroniques, de coups de téléphone
+
+168
+0:07:19.26,000 --> 0:07:21,000
+de gens de partout dans le monde.
+
+169
+0:07:21.26,000 --> 0:07:24,000
+Des lettres pour nous remercier, mais parfois on reçoit aussi des lettres drôles comme celle-ci :
+
+170
+0:07:24.26,000 --> 0:07:28,000
+"Maintenant je comprends pourquoi il y a du braille sur un distributeur de billets pour conducteurs."
+
+171
+0:07:28.26,000 --> 0:07:3,000
+(Rires)
+
+172
+0:07:30.26,000 --> 0:07:32,000
+Mais parfois --
+
+173
+0:07:32.26,000 --> 0:07:34,000
+(Rires)
+
+174
+0:07:34.26,000 --> 0:07:36,000
+Mais parfois je reçois aussi --
+
+175
+0:07:36.26,000 --> 0:07:38,000
+je n'appellerais pas ça des lettres d'insultes --
+
+176
+0:07:38.26,000 --> 0:07:4,000
+mais des lettres exprimant une inquiétude très sérieuse:
+
+177
+0:07:40.26,000 --> 0:07:42,000
+"Dr. Hong, êtes-vous fou,
+
+178
+0:07:42.26,000 --> 0:07:44,000
+pour essayer de mettre les aveugles sur la route ?
+
+179
+0:07:44.26,000 --> 0:07:46,000
+Vous devez avoir perdu la raison."
+
+180
+0:07:46.26,000 --> 0:07:48,000
+Mais ce véhicule est un véhicule prototype,
+
+181
+0:07:48.26,000 --> 0:07:5,000
+et il ne va pas être sur la route
+
+182
+0:07:50.26,000 --> 0:07:52,000
+avant d'être démontré aussi sûr que, ou plus sûr, qu'un véhicule d'aujourd'hui.
+
+183
+0:07:52.26,000 --> 0:07:55,000
+Et je crois vraiment que cela peut arriver.
+
+184
+0:07:55.26,000 --> 0:07:57,000
+Mais même, la société acceptera-t-elle,
+
+185
+0:07:57.26,000 --> 0:07:59,000
+les gens accepteraient-ils une idée aussi radicale ?
+
+186
+0:07:59.26,000 --> 0:08:01,000
+Comment allons-nous gérer l'assurance ?
+
+187
+0:08:01.26,000 --> 0:08:03,000
+Comment allons-nous délivrer les permis de conduire ?
+
+188
+0:08:03.26,000 --> 0:08:06,000
+Il y a plein d'obstacles divers au-delà des défis technologiques
+
+189
+0:08:06.26,000 --> 0:08:09,000
+que nous devons adresser avant que cela ne devienne une réalité.
+
+190
+0:08:09.26,000 --> 0:08:11,000
+Bien sûr, le principal but de ce projet
+
+191
+0:08:11.26,000 --> 0:08:13,000
+est de développer une voiture pour les aveugles.
+
+192
+0:08:13.26,000 --> 0:08:15,000
+Mais potentiellement plus important que cela
+
+193
+0:08:15.26,000 --> 0:08:18,000
+est la formidable valeur de la technologie dérivée
+
+194
+0:08:18.26,000 --> 0:08:2,000
+qui peut émerger de ce projet.
+
+195
+0:08:20.26,000 --> 0:08:22,000
+Les senseurs utilisés voient à travers l'obscurité,
+
+196
+0:08:22.26,000 --> 0:08:24,000
+le brouillard et la pluie.
+
+197
+0:08:24.26,000 --> 0:08:26,000
+Et ensemble avec ce nouveau type d'interfaces,
+
+198
+0:08:26.26,000 --> 0:08:28,000
+nous pouvons utiliser ces technologies
+
+199
+0:08:28.26,000 --> 0:08:3,000
+et les appliquer pour rendre les voitures pour voyants plus sûres.
+
+200
+0:08:30.26,000 --> 0:08:33,000
+Ou pour les aveugles, les appareils électriques du quotidien --
+
+201
+0:08:33.26,000 --> 0:08:35,000
+dans le contexte éducatif, au bureau.
+
+202
+0:08:35.26,000 --> 0:08:38,000
+Imaginez seulement, dans une salle de classe un professeur écrit au tableau
+
+203
+0:08:38.26,000 --> 0:08:41,000
+et un étudiant aveugle peut voir ce qui est écrit et lire
+
+204
+0:08:41.26,000 --> 0:08:43,000
+en utilisant l'une de ces interfaces non-visuelles.
+
+205
+0:08:43.26,000 --> 0:08:46,000
+Cela n'a pas de prix.
+
+206
+0:08:46.26,000 --> 0:08:49,000
+Donc aujourd'hui, les choses que je vous ai montrées, ce n'est que le début.
+
+207
+0:08:49.26,000 --> 0:08:51,000
+Merci beaucoup.
+
+208
+0:08:51.26,000 --> 0:09:02,000
+(Applaudissements)
+

@@ -1,0 +1,596 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.84,000 --> 0:00:14,000
+Lo que comenzó como una plataforma para aficionados
+
+3
+0:00:15.266,000 --> 0:00:17,000
+está por convertirse en una industria multimillonaria.
+
+4
+0:00:17.88,000 --> 0:00:21,000
+Inspección, vigilancia del medio ambiente, fotografía y cine y periodismo:
+
+5
+0:00:21.96,000 --> 0:00:24,000
+son algunas de las posibles aplicaciones para drones comerciales,
+
+6
+0:00:25.16,000 --> 0:00:27,000
+y sus capacidades se están desarrollando
+
+7
+0:00:27.59,000 --> 0:00:29,000
+en centros de investigación de todo el mundo.
+
+8
+0:00:29.76,000 --> 0:00:31,000
+Por ejemplo, antes de la entrega aérea de paquetes
+
+9
+0:00:32.4,000 --> 0:00:33,000
+entrara en nuestra conciencia social,
+
+10
+0:00:34.24,000 --> 0:00:37,000
+una flota autónoma de drones construyó una torre de 6 metros de altura
+
+11
+0:00:38.24,000 --> 0:00:39,000
+compuesta de 1500 ladrillos
+
+12
+0:00:40.2,000 --> 0:00:42,000
+frente de una audiencia en vivo en el Centro FRAC en Francia,
+
+13
+0:00:43.16,000 --> 0:00:45,000
+y hace varios años, empezaron a volar con cuerdas.
+
+14
+0:00:45.76,000 --> 0:00:46,000
+Atando máquinas voladoras,
+
+15
+0:00:47.2,000 --> 0:00:5,000
+pueden alcanzar altas velocidades y aceleraciones en espacios muy reducidos.
+
+16
+0:00:51,000 --> 0:00:54,000
+También pueden construir de forma autónoma estructuras tensadas.
+
+17
+0:00:54.12,000 --> 0:00:56,000
+Las habilidades aprendidas incluyen llevar cargas,
+
+18
+0:00:56.56,000 --> 0:00:57,000
+enfrentar perturbaciones,
+
+19
+0:00:58.04,000 --> 0:01:01,000
+y, en general, cómo interactuar con el mundo físico.
+
+20
+0:01:01.16,000 --> 0:01:04,000
+Hoy queremos mostrarles algunos nuevos proyectos que hemos trabajado.
+
+21
+0:01:04.52,000 --> 0:01:06,000
+Su objetivo es empujar los límites de lo que puede lograrse
+
+22
+0:01:07.48,000 --> 0:01:08,000
+con vuelo autónomo.
+
+23
+0:01:09.04,000 --> 0:01:11,000
+Para un sistema que funcione de manera autónoma,
+
+24
+0:01:11.52,000 --> 0:01:15,000
+debe conocer colectivamente la ubicación de sus objetos móviles en el espacio.
+
+25
+0:01:15.97,000 --> 0:01:16,000
+En nuestro laboratorio en ETH Zurich,
+
+26
+0:01:17.73,000 --> 0:01:19,000
+a menudo utilizamos cámaras externas para localizar objetos,
+
+27
+0:01:20.59,000 --> 0:01:22,000
+que nos permiten enfocar nuestros esfuerzos
+
+28
+0:01:22.67,000 --> 0:01:24,000
+en el rápido desarrollo de las tareas altamente dinámicas.
+
+29
+0:01:25.506,000 --> 0:01:26,000
+Para las demostraciones de hoy,
+
+30
+0:01:27.036,000 --> 0:01:3,000
+usaremos tecnologías de localización nuevas desarrolladas por Verity Studios,
+
+31
+0:01:30.77,000 --> 0:01:31,000
+una escisión de nuestro laboratorio.
+
+32
+0:01:32.52,000 --> 0:01:33,000
+No hay cámaras externas.
+
+33
+0:01:34.16,000 --> 0:01:39,000
+Cada máquina de vuelo con sensores a bordo para determinar su ubicación en el espacio
+
+34
+0:01:39.24,000 --> 0:01:42,000
+ya cómputo de abordo para determinar cuáles deben ser sus acciones.
+
+35
+0:01:43.28,000 --> 0:01:45,000
+Los únicos comandos externos son los de alto nivel
+
+36
+0:01:45.736,000 --> 0:01:46,000
+como "despegue" y "tierra".
+
+37
+0:02:10.56,000 --> 0:02:11,000
+Esta es una llamada "tail-sitter".
+
+38
+0:02:12.48,000 --> 0:02:15,000
+Es un avión que intenta tener su pastel y comérselo.
+
+39
+0:02:15.96,000 --> 0:02:18,000
+Como otros aviones de ala fija, es eficiente en vuelo hacia adelante,
+
+40
+0:02:19.366,000 --> 0:02:22,000
+mucho más que los helicópteros y variaciones de los mismos.
+
+41
+0:02:22.459,000 --> 0:02:24,000
+A diferencia de la mayoría de aeronaves de ala fija,
+
+42
+0:02:24.946,000 --> 0:02:25,000
+es capaz de vuelo estacionario,
+
+43
+0:02:26.44,000 --> 0:02:29,000
+que tiene enormes ventajas para el despegue, aterrizaje
+
+44
+0:02:29.6,000 --> 0:02:3,000
+y versatilidad general.
+
+45
+0:02:31.48,000 --> 0:02:33,000
+No hay almuerzo gratis, por desgracia.
+
+46
+0:02:33.57,000 --> 0:02:34,000
+Una de las limitaciones con "tal-sitters"
+
+47
+0:02:35.52,000 --> 0:02:38,000
+es que son susceptibles a perturbaciones como ráfagas de viento.
+
+48
+0:02:38.586,000 --> 0:02:4,000
+Estamos desarrollando arquitecturas de control y algoritmos
+
+49
+0:02:41.406,000 --> 0:02:42,000
+para enfrentar esta limitación.
+
+50
+0:02:50.56,000 --> 0:02:52,000
+La idea es que la aeronave se recupere
+
+51
+0:02:52.84,000 --> 0:02:54,000
+no importa en qué estado se encuentre,
+
+52
+0:03:03.4,000 --> 0:03:05,000
+y con la práctica, mejore su rendimiento en el tiempo.
+
+53
+0:03:15.6,000 --> 0:03:19,000
+(Aplausos)
+
+54
+0:03:22,000 --> 0:03:23,000
+Bien.
+
+55
+0:03:33.48,000 --> 0:03:34,000
+Al hacer investigación,
+
+56
+0:03:34.72,000 --> 0:03:36,000
+a menudo nos hacemos preguntas abstractas fundamentales
+
+57
+0:03:37.72,000 --> 0:03:39,000
+que tratan de llegar al corazón de la cuestión.
+
+58
+0:03:41.24,000 --> 0:03:43,000
+Por ejemplo, una cuestión de este tipo sería,
+
+59
+0:03:43.48,000 --> 0:03:47,000
+¿cuál es el número mínimo de piezas móviles para el vuelo controlado?
+
+60
+0:03:47.52,000 --> 0:03:48,000
+Ahora, hay razones prácticas
+
+61
+0:03:49.1,000 --> 0:03:51,000
+por las que se desea saber la respuesta a esta pregunta.
+
+62
+0:03:51.776,000 --> 0:03:52,000
+Helicópteros, por ejemplo,
+
+63
+0:03:53.04,000 --> 0:03:56,000
+cariñosamente conocidas como máquinas con un millar de piezas móviles
+
+64
+0:03:56.92,000 --> 0:03:58,000
+todas conspirando para hacerte daño corporal.
+
+65
+0:04:00.64,000 --> 0:04:01,000
+Resulta que hace décadas,
+
+66
+0:04:02.41,000 --> 0:04:05,000
+pilotos cualificados podían pilotar aviones por control remoto
+
+67
+0:04:05.72,000 --> 0:04:06,000
+con solo 2 partes móviles:
+
+68
+0:04:07.64,000 --> 0:04:08,000
+una hélice y un timón de cola.
+
+69
+0:04:1,000 --> 0:04:13,000
+Recientemente hemos descubierto que se podía hacer con una sola.
+
+70
+0:04:13.6,000 --> 0:04:14,000
+Este es el "monospinner",
+
+71
+0:04:14.88,000 --> 0:04:17,000
+la máquina voladora controlable mecánicamente más simple del mundo,
+
+72
+0:04:18.16,000 --> 0:04:19,000
+inventada hace tan solo unos meses.
+
+73
+0:04:19.96,000 --> 0:04:22,000
+Tiene una sola parte móvil, una hélice.
+
+74
+0:04:23.12,000 --> 0:04:26,000
+No tiene aletas, sin bisagras, no hay alerones,
+
+75
+0:04:26.72,000 --> 0:04:28,000
+no hay otros actuadores, no hay otras superficies de control,
+
+76
+0:04:29.645,000 --> 0:04:3,000
+solo una hélice simple.
+
+77
+0:04:31.32,000 --> 0:04:33,000
+A pesar de que es mecánicamente simple,
+
+78
+0:04:33.399,000 --> 0:04:35,000
+se hace mucho en su pequeño cerebro electrónico
+
+79
+0:04:35.92,000 --> 0:04:39,000
+para volar establemente y moverse en cualquier lugar que quiera en el espacio.
+
+80
+0:04:40.16,000 --> 0:04:41,000
+Aun así, todavía no tiene
+
+81
+0:04:41.64,000 --> 0:04:43,000
+los algoritmos sofisticados del "tail-sitter",
+
+82
+0:04:44,000 --> 0:04:46,000
+lo que significa que para que vuele,
+
+83
+0:04:46.024,000 --> 0:04:47,000
+tengo que tirarlo a la perfección.
+
+84
+0:04:48.8,000 --> 0:04:52,000
+Y dada la probabilidad de que lo lance bien es muy baja,
+
+85
+0:04:52.84,000 --> 0:04:53,000
+dado que todo el mundo me mira,
+
+86
+0:04:54.76,000 --> 0:04:55,000
+lo que vamos a hacer en cambio
+
+87
+0:04:56.24,000 --> 0:04:58,000
+es mostrar un vídeo que rodamos ayer por la noche.
+
+88
+0:04:58.636,000 --> 0:04:59,000
+(Risas)
+
+89
+0:05:10.32,000 --> 0:05:13,000
+(Aplausos)
+
+90
+0:05:23.08,000 --> 0:05:26,000
+Si el "monospinner" es un ejercicio de austeridad,
+
+91
+0:05:26.84,000 --> 0:05:29,000
+esta máquina aquí, el "omnicopter", con sus ocho hélices,
+
+92
+0:05:30.32,000 --> 0:05:32,000
+es un ejercicio de exceso.
+
+93
+0:05:32.92,000 --> 0:05:34,000
+¿Qué se puede hacer con todo este excedente?
+
+94
+0:05:35.08,000 --> 0:05:37,000
+Lo que hay que notar es que es muy simétrico.
+
+95
+0:05:37.92,000 --> 0:05:39,000
+Como resultado, es ambivalente a la orientación.
+
+96
+0:05:40.8,000 --> 0:05:42,000
+Esto le da una capacidad extraordinaria.
+
+97
+0:05:43.52,000 --> 0:05:45,000
+Puede desplazarse a cualquier lugar
+
+98
+0:05:45.76,000 --> 0:05:47,000
+independientemente del lugar que enfrente
+
+99
+0:05:48.52,000 --> 0:05:49,000
+e incluso de la forma en que gire.
+
+100
+0:05:51.04,000 --> 0:05:52,000
+Tiene sus propias complejidades,
+
+101
+0:05:52.616,000 --> 0:05:54,000
+principalmente con los flujos que interactúan
+
+102
+0:05:55.12,000 --> 0:05:56,000
+de sus ocho hélices.
+
+103
+0:05:56.68,000 --> 0:05:59,000
+Algo puede modelarse, mientras que el resto se puede aprender sobre la marcha.
+
+104
+0:06:00.56,000 --> 0:06:01,000
+Vamos a ver.
+
+105
+0:06:44.76,000 --> 0:06:47,000
+(Aplausos)
+
+106
+0:06:52.72,000 --> 0:06:54,000
+Si los drones van a entrar en nuestra vida cotidiana,
+
+107
+0:06:55.649,000 --> 0:06:57,000
+tendrán que llegar a ser extremadamente seguros y fiables.
+
+108
+0:06:58.76,000 --> 0:06:59,000
+Esta máquina aquí
+
+109
+0:07:00.16,000 --> 0:07:03,000
+es en realidad 2 máquinas voladoras de dos hélices separadas.
+
+110
+0:07:03.32,000 --> 0:07:04,000
+Esta quiere girar en sentido horario.
+
+111
+0:07:05.106,000 --> 0:07:07,000
+Esta otro quiere girar en sentido antihorario.
+
+112
+0:07:07.6,000 --> 0:07:08,000
+Cuando se ponen juntas,
+
+113
+0:07:08.96,000 --> 0:07:1,000
+se comportan como un cuadrocóptero de alto rendimiento.
+
+114
+0:07:23.64,000 --> 0:07:24,000
+Si algo va mal, sin embargo,
+
+115
+0:07:25.32,000 --> 0:07:29,000
+--un motor falla, una hélice falla, la electrónica, incluso unas baterías--
+
+116
+0:07:29.8,000 --> 0:07:32,000
+la máquina todavía puede volar, aunque de forma degradada.
+
+117
+0:07:33.16,000 --> 0:07:36,000
+Vamos a demostrárselo ahora con la desactivación de una de sus mitades.
+
+118
+0:07:56.24,000 --> 0:07:59,000
+(Aplausos)
+
+119
+0:08:03.32,000 --> 0:08:04,000
+Esta última demostración
+
+120
+0:08:04.68,000 --> 0:08:06,000
+es una exploración de enjambres sintéticos.
+
+121
+0:08:07.56,000 --> 0:08:09,000
+El gran número de entidades autónomas, coordinados
+
+122
+0:08:10.56,000 --> 0:08:12,000
+ofrece una nueva paleta para la expresión estética.
+
+123
+0:08:13.32,000 --> 0:08:15,000
+Hemos tomado microcuadricópteros disponibles en el mercado,
+
+124
+0:08:16.32,000 --> 0:08:18,000
+con un peso de menos de una rebanada de pan,
+
+125
+0:08:18.84,000 --> 0:08:2,000
+y equipados con nuestra tecnología de localización
+
+126
+0:08:21.28,000 --> 0:08:22,000
+y algoritmos personalizados.
+
+127
+0:08:22.88,000 --> 0:08:24,000
+Como cada unidad sabe dónde está en el espacio
+
+128
+0:08:25.126,000 --> 0:08:26,000
+y es autocontrolada,
+
+129
+0:08:26.4,000 --> 0:08:28,000
+en realidad no hay límite a su número.
+
+130
+0:08:55.84,000 --> 0:08:58,000
+(Aplausos)
+
+131
+0:09:19.36,000 --> 0:09:23,000
+(Aplausos)
+
+132
+0:10:18.04,000 --> 0:10:21,000
+(Aplausos)
+
+133
+0:10:35.96,000 --> 0:10:38,000
+Ojalá estas manifestaciones los motiven a soñar
+
+134
+0:10:39.08,000 --> 0:10:41,000
+nuevas funciones revolucionarias para drones.
+
+135
+0:10:42.56,000 --> 0:10:43,000
+Ese ultra seguro de allí, por ejemplo,
+
+136
+0:10:44.48,000 --> 0:10:47,000
+tiene aspiraciones de convertirse en una pantalla volador en Broadway.
+
+137
+0:10:47.816,000 --> 0:10:48,000
+(Risas)
+
+138
+0:10:49.8,000 --> 0:10:51,000
+La realidad es que es difícil de predecir
+
+139
+0:10:52,000 --> 0:10:53,000
+el impacto de la tecnología incipiente.
+
+140
+0:10:54.12,000 --> 0:10:58,000
+Para gente como nosotros, la recompensa verdadera es el viaje y el acto creativo.
+
+141
+0:10:59,000 --> 0:11:,000
+Es un recordatorio continuo
+
+142
+0:11:00.44,000 --> 0:11:02,000
+del maravilloso y mágico universo en el que vivimos,
+
+143
+0:11:03.84,000 --> 0:11:05,000
+que permite a las criaturas inteligentes, creativas,
+
+144
+0:11:06.8,000 --> 0:11:08,000
+esculpir de una manera tan espectacular.
+
+145
+0:11:09.8,000 --> 0:11:1,000
+El hecho de que esta tecnología
+
+146
+0:11:11.6,000 --> 0:11:14,000
+tiene tan enorme potencial comercial y económico
+
+147
+0:11:15.04,000 --> 0:11:16,000
+es solo la guinda del pastel.
+
+148
+0:11:16.48,000 --> 0:11:17,000
+Gracias.
+
+149
+0:11:17.72,000 --> 0:11:2,000
+(Aplausos)
+

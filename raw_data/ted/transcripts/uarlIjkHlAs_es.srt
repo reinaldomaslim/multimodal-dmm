@@ -1,0 +1,750 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Jaime Bolaños
+
+2
+0:00:15.26,000 --> 0:00:17,000
+Hola.
+
+3
+0:00:17.26,000 --> 0:00:19,000
+Hoy voy a hablar un poco sobre
+
+4
+0:00:19.26,000 --> 0:00:22,000
+la música, las máquinas y la vida.
+
+5
+0:00:22.26,000 --> 0:00:25,000
+O, más específicamente,
+
+6
+0:00:25.26,000 --> 0:00:28,000
+de lo que aprendimos en la creación de una máquina muy grande y complicada
+
+7
+0:00:28.26,000 --> 0:00:3,000
+para un videoclip.
+
+8
+0:00:30.26,000 --> 0:00:32,000
+Puede que algunos reconozcan esta imagen.
+
+9
+0:00:32.26,000 --> 0:00:35,000
+Este es el plano inicial del video que creamos.
+
+10
+0:00:35.26,000 --> 0:00:37,000
+Vamos a mostrar el video al final
+
+11
+0:00:37.26,000 --> 0:00:4,000
+pero antes quiero hablar un poco de
+
+12
+0:00:40.26,000 --> 0:00:42,000
+qué es lo que ellos querían.
+
+13
+0:00:42.26,000 --> 0:00:45,000
+Cuando empezamos a hablar de OK Go,
+
+14
+0:00:45.26,000 --> 0:00:48,000
+-- el nombre de la canción es "This Too Shall Pass" ("Esto también pasará") --
+
+15
+0:00:48.26,000 --> 0:00:5,000
+estábamos realmente emocionados porque
+
+16
+0:00:50.26,000 --> 0:00:53,000
+expresaron interés en construir una máquina con la cual poder bailar.
+
+17
+0:00:53.26,000 --> 0:00:55,000
+Y estábamos muy entusiasmados con esto
+
+18
+0:00:55.26,000 --> 0:00:57,000
+porque, por supuesto,
+
+19
+0:00:57.26,000 --> 0:01:,000
+ellos tienen experiencia bailando con máquinas.
+
+20
+0:01:00.26,000 --> 0:01:03,000
+Son responsables de este video, "Here It Goes Again" ("Ahí va de nuevo").
+
+21
+0:01:03.26,000 --> 0:01:05,000
+Más de 50 millones de reproducciones en YouTube.
+
+22
+0:01:05.26,000 --> 0:01:08,000
+Cuatro tipos bailando sobre cintas de correr
+
+23
+0:01:08.26,000 --> 0:01:1,000
+sin cortes, sólo una cámara fija.
+
+24
+0:01:10.26,000 --> 0:01:12,000
+Un vídeo maravilloso y fantásticamente viral.
+
+25
+0:01:12.26,000 --> 0:01:14,000
+Así que estábamos muy entusiasmados de trabajar con ellos.
+
+26
+0:01:14.26,000 --> 0:01:17,000
+Y como que empezamos a hablar de qué era lo que querían.
+
+27
+0:01:17.26,000 --> 0:01:19,000
+Y ellos explicaron que querían
+
+28
+0:01:19.26,000 --> 0:01:21,000
+una suerte de máquina de Rube Goldberg.
+
+29
+0:01:21.26,000 --> 0:01:24,000
+Ahora bien, para los que no lo saben
+
+30
+0:01:24.26,000 --> 0:01:26,000
+una máquina de Rube Goldberg
+
+31
+0:01:26.26,000 --> 0:01:28,000
+es un artilugio complejo,
+
+32
+0:01:28.26,000 --> 0:01:31,000
+una maquinaria de increíble ingeniería sobredimensionada
+
+33
+0:01:31.26,000 --> 0:01:34,000
+que desempeña una tarea relativamente simple.
+
+34
+0:01:34.26,000 --> 0:01:36,000
+Así que nos entusiasmamos con esta idea
+
+35
+0:01:36.26,000 --> 0:01:38,000
+y comenzamos a hablar de
+
+36
+0:01:38.26,000 --> 0:01:4,000
+exactamente cómo se vería.
+
+37
+0:01:40.26,000 --> 0:01:42,000
+Y nos encontramos algunos parámetros que...
+
+38
+0:01:42.26,000 --> 0:01:44,000
+ya saben, construir una máquina de Rube Goldberg
+
+39
+0:01:44.26,000 --> 0:01:47,000
+tiene sus limitaciones
+
+40
+0:01:47.26,000 --> 0:01:5,000
+pero también es algo bastante abierto.
+
+41
+0:01:50.26,000 --> 0:01:52,000
+Y queríamos asegurarnos de hacer algo
+
+42
+0:01:52.26,000 --> 0:01:55,000
+que funcionara en un videoclip.
+
+43
+0:01:55.26,000 --> 0:01:58,000
+Así que desarrollamos una lista de requisitos,
+
+44
+0:01:58.26,000 --> 0:02:,000
+los "10 mandamientos",
+
+45
+0:02:00.26,000 --> 0:02:03,000
+que eran, en orden ascendente de dificultad:
+
+46
+0:02:03.26,000 --> 0:02:05,000
+el primero es "Nada de magia".
+
+47
+0:02:05.26,000 --> 0:02:07,000
+Todo lo que sucedía en pantalla tenía que ser
+
+48
+0:02:07.26,000 --> 0:02:09,000
+entendido muy fácilmente por un espectador típico.
+
+49
+0:02:09.26,000 --> 0:02:12,000
+La regla general era que, si mi madre no podía entenderlo
+
+50
+0:02:12.26,000 --> 0:02:14,000
+entonces no lo podíamos usar en el video.
+
+51
+0:02:14.26,000 --> 0:02:16,000
+Hacía falta integración con la banda
+
+52
+0:02:16.26,000 --> 0:02:19,000
+lo que significa que la máquina actuara con los miembros del grupo
+
+53
+0:02:19.26,000 --> 0:02:21,000
+y, expresamente, que no fuera al revés.
+
+54
+0:02:21.26,000 --> 0:02:24,000
+Se quería que la acción de la máquina acompañara el sentimiento de la canción.
+
+55
+0:02:24.26,000 --> 0:02:26,000
+Así, a medida que la canción iba cogiendo emoción
+
+56
+0:02:26.26,000 --> 0:02:28,000
+también la máquina debía
+
+57
+0:02:28.26,000 --> 0:02:3,000
+actuar de forma más espectacular.
+
+58
+0:02:30.26,000 --> 0:02:32,000
+Nos pidieron que hiciéramos uso del espacio.
+
+59
+0:02:32.26,000 --> 0:02:35,000
+Así que estábamos usando un almacén de 900 m2
+
+60
+0:02:35.26,000 --> 0:02:37,000
+dividido en dos plantas,
+
+61
+0:02:37.26,000 --> 0:02:39,000
+que incluía un muelle de carga exterior.
+
+62
+0:02:39.26,000 --> 0:02:42,000
+Usamos todo eso, incluso un enorme agujero en el suelo
+
+63
+0:02:42.26,000 --> 0:02:45,000
+por el que de verdad bajábamos la cámara y el camarógrafo.
+
+64
+0:02:45.26,000 --> 0:02:48,000
+Querían desorden y nosotros estábamos encantados de complacerlos.
+
+65
+0:02:48.26,000 --> 0:02:5,000
+La propia máquina debía dar comienzo a la música.
+
+66
+0:02:50.26,000 --> 0:02:52,000
+Entonces la máquina arrancaría,
+
+67
+0:02:52.26,000 --> 0:02:54,000
+recorrería una cierta distancia,
+
+68
+0:02:54.26,000 --> 0:02:56,000
+reaccionando a lo largo del camino,
+
+69
+0:02:56.26,000 --> 0:02:58,000
+pulsaría reproducir en un iPod o en un grabador
+
+70
+0:02:58.26,000 --> 0:03:,000
+o algo que pudiera comenzar a reproducir.
+
+71
+0:03:00.26,000 --> 0:03:03,000
+Y la máquina mantendría la sincronización a partir de ahí.
+
+72
+0:03:03.26,000 --> 0:03:05,000
+Y hablando de sincronización
+
+73
+0:03:05.26,000 --> 0:03:07,000
+se quería que sincronizase con el ritmo
+
+74
+0:03:07.26,000 --> 0:03:1,000
+y que marcara compases específicos a lo largo del camino.
+
+75
+0:03:11.26,000 --> 0:03:14,000
+Está bien. (Risas)
+
+76
+0:03:14.26,000 --> 0:03:17,000
+Se quería que terminara exactamente a tiempo.
+
+77
+0:03:17.26,000 --> 0:03:2,000
+Muy bien, por eso el cronometraje de principio a fin tiene que ser perfecto.
+
+78
+0:03:20.26,000 --> 0:03:22,000
+Se quería que la música se detuviera
+
+79
+0:03:22.26,000 --> 0:03:24,000
+en cierto momento del video
+
+80
+0:03:24.26,000 --> 0:03:26,000
+y que el sonido real en vivo de la máquina
+
+81
+0:03:26.26,000 --> 0:03:28,000
+tocara parte de la canción.
+
+82
+0:03:29.26,000 --> 0:03:31,000
+Y como si esto no fuera suficiente
+
+83
+0:03:31.26,000 --> 0:03:34,000
+todas estas cosas increíblemente complicadas, correcto,
+
+84
+0:03:34.26,000 --> 0:03:36,000
+querían que fueran en una sola toma.
+
+85
+0:03:36.26,000 --> 0:03:38,000
+(Risas)
+
+86
+0:03:38.26,000 --> 0:03:42,000
+(Aplausos)
+
+87
+0:03:43.26,000 --> 0:03:45,000
+Bien.
+
+88
+0:03:46.26,000 --> 0:03:48,000
+Algunas estadísticas
+
+89
+0:03:48.26,000 --> 0:03:5,000
+de lo que tuvimos que pasar en el proceso.
+
+90
+0:03:50.26,000 --> 0:03:52,000
+La máquina en sí tiene
+
+91
+0:03:52.26,000 --> 0:03:54,000
+89 interacciones diferentes.
+
+92
+0:03:54.26,000 --> 0:03:57,000
+Nos llevó 85 tomas
+
+93
+0:03:57.26,000 --> 0:03:59,000
+plasmar en la película
+
+94
+0:03:59.26,000 --> 0:04:01,000
+algo satisfactorio.
+
+95
+0:04:01.26,000 --> 0:04:03,000
+De esas 85 tomas
+
+96
+0:04:03.26,000 --> 0:04:06,000
+sólo tres llegaron a terminar su ejecución con éxito.
+
+97
+0:04:07.26,000 --> 0:04:09,000
+Destruimos dos pianos
+
+98
+0:04:09.26,000 --> 0:04:12,000
+y 10 televisores en el proceso.
+
+99
+0:04:12.26,000 --> 0:04:15,000
+Fuimos a la ferretería más de un centenar de veces.
+
+100
+0:04:15.26,000 --> 0:04:17,000
+(Risas)
+
+101
+0:04:17.26,000 --> 0:04:2,000
+Y perdimos un zapato de tacones altos
+
+102
+0:04:20.26,000 --> 0:04:22,000
+cuando una de nuestras ingenieras, Heather Knight,
+
+103
+0:04:22.26,000 --> 0:04:24,000
+dejó su zapato de tacón, después de una agradable cena,
+
+104
+0:04:24.26,000 --> 0:04:26,000
+volvió a trabajar
+
+105
+0:04:26.26,000 --> 0:04:28,000
+y se lo dejó en una pila de cosas.
+
+106
+0:04:28.26,000 --> 0:04:3,000
+Y otro ingeniero pensó: "Bueno, podríamos usar esto".
+
+107
+0:04:30.26,000 --> 0:04:32,000
+Y terminó usándolo como un bonito disparador.
+
+108
+0:04:32.26,000 --> 0:04:35,000
+Y, de hecho, está en la máquina.
+
+109
+0:04:35.26,000 --> 0:04:37,000
+Así que, ¿qué aprendimos de todo esto?
+
+110
+0:04:37.26,000 --> 0:04:39,000
+Bien, después de haber terminado
+
+111
+0:04:39.26,000 --> 0:04:41,000
+tenemos la oportunidad de retroceder y reflexionar
+
+112
+0:04:41.26,000 --> 0:04:43,000
+sobre algunas de estas cosas.
+
+113
+0:04:43.26,000 --> 0:04:45,000
+Y aprendimos que las cosas pequeñas apestan.
+
+114
+0:04:45.26,000 --> 0:04:48,000
+Las bolitas en las pistas de madera
+
+115
+0:04:48.26,000 --> 0:04:5,000
+son realmente susceptibles
+
+116
+0:04:50.26,000 --> 0:04:52,000
+a la humedad, a la temperatura y a un poquito de polvo
+
+117
+0:04:52.26,000 --> 0:04:54,000
+y se caen de las pistas,
+
+118
+0:04:54.26,000 --> 0:04:56,000
+los ángulos exactos hacen difícil hacerlo bien.
+
+119
+0:04:56.26,000 --> 0:04:59,000
+Y, sin embargo, una bola de bolos siempre sigue el mismo camino.
+
+120
+0:04:59.26,000 --> 0:05:01,000
+No importa la temperatura,
+
+121
+0:05:01.26,000 --> 0:05:03,000
+no importa qué haya en su camino;
+
+122
+0:05:03.26,000 --> 0:05:05,000
+llegará bastante bien a donde tiene que llegar.
+
+123
+0:05:05.26,000 --> 0:05:07,000
+Pero aunque las cosas pequeñas apestan, tenemos que empezar por algún lado,
+
+124
+0:05:07.26,000 --> 0:05:09,000
+para tener adónde ir.
+
+125
+0:05:09.26,000 --> 0:05:12,000
+Así que tenemos que comenzar con eso. Uno tiene que centrarse en eso.
+
+126
+0:05:12.26,000 --> 0:05:14,000
+Las cosas pequeñas apestan
+
+127
+0:05:14.26,000 --> 0:05:16,000
+pero, por supuesto, son esenciales.
+
+128
+0:05:16.26,000 --> 0:05:19,000
+¿Qué más? La planificación es muy importante.
+
+129
+0:05:19.26,000 --> 0:05:23,000
+(Risas)
+
+130
+0:05:23.26,000 --> 0:05:25,000
+Ya saben, pasamos mucho tiempo ideando
+
+131
+0:05:25.26,000 --> 0:05:27,000
+e incluso construyendo algunas de estas cosas.
+
+132
+0:05:27.26,000 --> 0:05:29,000
+Se dice que "Ningún plan de batalla
+
+133
+0:05:29.26,000 --> 0:05:31,000
+sobrevive al contacto con el enemigo".
+
+134
+0:05:31.26,000 --> 0:05:33,000
+Creo que nuestro enemigo era la física
+
+135
+0:05:33.26,000 --> 0:05:35,000
+(Risas)
+
+136
+0:05:35.26,000 --> 0:05:38,000
+y ella es una amante cruel.
+
+137
+0:05:38.26,000 --> 0:05:4,000
+A menudo, hemos tenido que quitar cosas como resultado
+
+138
+0:05:40.26,000 --> 0:05:43,000
+debido al tiempo, la estética, o lo que sea.
+
+139
+0:05:43.26,000 --> 0:05:46,000
+Y así como la planificación es importante, también lo es la flexibilidad.
+
+140
+0:05:46.26,000 --> 0:05:48,000
+Todas estas son cosas que no terminaron
+
+141
+0:05:48.26,000 --> 0:05:5,000
+siendo parte de la máquina final.
+
+142
+0:05:50.26,000 --> 0:05:53,000
+También, poner las cosas fiables al final,
+
+143
+0:05:54.26,000 --> 0:05:56,000
+las cosas que van a funcionar siempre.
+
+144
+0:05:56.26,000 --> 0:05:59,000
+De nuevo, de lo pequeño a lo grande es relevante aquí.
+
+145
+0:05:59.26,000 --> 0:06:02,000
+El cochecito de Lego del comienzo del video
+
+146
+0:06:02.26,000 --> 0:06:04,000
+remite al auto grande, real,
+
+147
+0:06:04.26,000 --> 0:06:06,000
+de cerca del final del video.
+
+148
+0:06:06.26,000 --> 0:06:09,000
+El auto grande, real, funciona cada vez; no hay problema con eso.
+
+149
+0:06:09.26,000 --> 0:06:11,000
+El pequeño tenía una tendencia a salirse de la pista
+
+150
+0:06:11.26,000 --> 0:06:13,000
+y eso es un problema.
+
+151
+0:06:13.26,000 --> 0:06:15,000
+Pero uno no quiere tener que reiniciar toda la máquina
+
+152
+0:06:15.26,000 --> 0:06:17,000
+porque el coche de Lego del final no funciona, ¿verdad?
+
+153
+0:06:17.26,000 --> 0:06:19,000
+Entonces uno lo pone al principio para que, si falla,
+
+154
+0:06:19.26,000 --> 0:06:21,000
+al menos uno sabe
+
+155
+0:06:21.26,000 --> 0:06:23,000
+que no tiene que reiniciar todo.
+
+156
+0:06:23.26,000 --> 0:06:26,000
+La vida puede ser
+
+157
+0:06:26.26,000 --> 0:06:28,000
+un desorden.
+
+158
+0:06:29.26,000 --> 0:06:32,000
+Hubo momentos increíblemente difíciles en la construcción de esta cosa.
+
+159
+0:06:32.26,000 --> 0:06:35,000
+Pasamos meses en este diminuto y frío almacén.
+
+160
+0:06:35.26,000 --> 0:06:37,000
+Y qué alegría maravillosa tuvimos
+
+161
+0:06:37.26,000 --> 0:06:39,000
+cuando finalmente la terminamos.
+
+162
+0:06:39.26,000 --> 0:06:42,000
+Es importante recordar que ya sea bueno o malo
+
+163
+0:06:42.26,000 --> 0:06:44,000
+"Esto también pasará".
+
+164
+0:06:44.26,000 --> 0:06:46,000
+Muchísimas gracias.
+
+165
+0:06:46.26,000 --> 0:06:52,000
+(Aplausos)
+
+166
+0:06:52.26,000 --> 0:06:54,000
+Y ahora para presentar
+
+167
+0:06:54.26,000 --> 0:06:56,000
+su videoclip
+
+168
+0:06:56.26,000 --> 0:06:58,000
+tenemos a OK Go.
+
+169
+0:06:58.26,000 --> 0:07:,000
+OK Go: Una presentación. Hola TEDxUSC.
+
+170
+0:07:00.26,000 --> 0:07:02,000
+Somos OK Go.
+
+171
+0:07:02.26,000 --> 0:07:05,000
+¿Qué estamos haciendo? Oh, simplemente pasar el tiempo con nuestro Grammy. ¿Qué pasa?
+
+172
+0:07:05.26,000 --> 0:07:08,000
+Creo que lo podemos hacer mejor. Hola TEDxUSC.
+
+173
+0:07:08.26,000 --> 0:07:11,000
+Somos OK Go. ¿Han leído "Natural Curiosity Cabinet"?
+
+174
+0:07:11.26,000 --> 0:07:13,000
+Digo, "Curiosity", disculpen.
+
+175
+0:07:13.26,000 --> 0:07:15,000
+Permítanme empezar de nuevo.
+
+176
+0:07:15.26,000 --> 0:07:18,000
+Necesitamos cosas más ridículas aparte de "The Cabinet of Natural Curiosities".
+
+177
+0:07:18.26,000 --> 0:07:2,000
+El sombrero reloj-de-sol de Tim.
+
+178
+0:07:20.26,000 --> 0:07:22,000
+¿Han visto el lo que han hecho con las Torres Waltz?
+
+179
+0:07:22.26,000 --> 0:07:24,000
+Lo siento, comencemos de nuevo.
+
+180
+0:07:24.26,000 --> 0:07:26,000
+(Ladrido)
+
+181
+0:07:26.26,000 --> 0:07:28,000
+Perros.
+
+182
+0:07:28.26,000 --> 0:07:3,000
+Hola, TEDxUSC. Somos OK Go
+
+183
+0:07:30.26,000 --> 0:07:33,000
+y este es nuestro nuevo video "This Too Shall Pass".
+
+184
+0:07:33.26,000 --> 0:07:35,000
+[poco claro]
+
+185
+0:07:35.26,000 --> 0:07:38,000
+Kay, creo que todavía podemos hacerlo mejor, sí.
+
+186
+0:07:38.26,000 --> 0:07:4,000
+Ese está bastante bien. Cada vez mejor.
+
+187
+0:08:04.26,000 --> 0:08:14,000
+(Música)
+
+188
+0:08:21.26,000 --> 0:08:24,000

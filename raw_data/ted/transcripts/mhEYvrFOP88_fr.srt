@@ -1,0 +1,380 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Claire Ghyselen Relecteur: Alice Gabillault
+
+2
+0:00:13.28,000 --> 0:00:16,000
+Les algorithmes réalisent aujourd'hui, des tâches incroyables,
+
+3
+0:00:17.12,000 --> 0:00:19,000
+avec haute précision, à une échelle massive,
+
+4
+0:00:19.59,000 --> 0:00:21,000
+basés sur une intelligence similaire à l'homme.
+
+5
+0:00:21.92,000 --> 0:00:24,000
+Cette forme d'intelligence des ordinateurs est souvent appelée IA,
+
+6
+0:00:25.88,000 --> 0:00:26,000
+l'intelligence artificielle.
+
+7
+0:00:27.76,000 --> 0:00:31,000
+L'IA est sur le point d'avoir un impact extraordinaire sur nos vies.
+
+8
+0:00:32.88,000 --> 0:00:35,000
+Toutefois, il nous reste des défis majeurs
+
+9
+0:00:36.84,000 --> 0:00:39,000
+pour détecter et diagnostiquer plusieurs maladies mortelles
+
+10
+0:00:40.36,000 --> 0:00:42,000
+comme les maladies infectieuses ou le cancer.
+
+11
+0:00:44,000 --> 0:00:46,000
+Chaque année, des milliers de patients
+
+12
+0:00:46.32,000 --> 0:00:48,000
+perdent la vie à cause du cancer du foie ou buccal.
+
+13
+0:00:49.88,000 --> 0:00:51,000
+Notre meilleur moyen à disposition pour aider ces patients
+
+14
+0:00:52.616,000 --> 0:00:56,000
+est une détection et un diagnostic précoces de ces affections.
+
+15
+0:00:57.88,000 --> 0:01:01,000
+Comment ces maladies sont-elles détectées et l'usage de l'IA fait-il sens ?
+
+16
+0:01:03.92,000 --> 0:01:06,000
+Quand un patient, malheureusement, semble avoir une de ces affections,
+
+17
+0:01:07.6,000 --> 0:01:09,000
+le spécialiste va d'abord requérir
+
+18
+0:01:10.28,000 --> 0:01:11,000
+des analyses très onéreuses
+
+19
+0:01:11.78,000 --> 0:01:13,000
+avec des technologies d'imagerie médicale
+
+20
+0:01:13.79,000 --> 0:01:16,000
+telles l'imagerie par fluorescence, une tomodensitométrie ou un IRM.
+
+21
+0:01:17.04,000 --> 0:01:19,000
+Une fois les images à disposition,
+
+22
+0:01:19.36,000 --> 0:01:23,000
+un autre spécialiste en fait un diagnostic et parle avec le patient.
+
+23
+0:01:24.52,000 --> 0:01:27,000
+Vous le constatez, ce processus exige beaucoup de ressources,
+
+24
+0:01:28,000 --> 0:01:32,000
+deux médecins spécialistes, de l'imagerie médicale très onéreuse,
+
+25
+0:01:32.416,000 --> 0:01:35,000
+et ce n'est pas envisageable dans les pays en développement.
+
+26
+0:01:35.56,000 --> 0:01:38,000
+Ni d'ailleurs dans de nombreuses nations industrialisées.
+
+27
+0:01:39.76,000 --> 0:01:42,000
+Peut-on résoudre ce problème avec l'intelligence artificielle ?
+
+28
+0:01:43.84,000 --> 0:01:47,000
+Actuellement, si nous utilisons les architectures classiques d'IA
+
+29
+0:01:47.896,000 --> 0:01:49,000
+pour résoudre ce problème, nous aurions besoin de 10 000 --
+
+30
+0:01:50.712,000 --> 0:01:55,000
+j'insiste -- de générer 10 000 de ces images médicales si chères.
+
+31
+0:01:56.08,000 --> 0:01:58,000
+Ensuite, nous les confierions à un spécialiste
+
+32
+0:01:59,000 --> 0:02:01,000
+qui les analyserait à notre attention.
+
+33
+0:02:01.52,000 --> 0:02:03,000
+A partir ces deux informations,
+
+34
+0:02:03.64,000 --> 0:02:06,000
+je peux former un réseau de neurones, ou réseau d'apprentissage profond,
+
+35
+0:02:07.32,000 --> 0:02:09,000
+à réaliser des diagnostics de patients.
+
+36
+0:02:09.48,000 --> 0:02:1,000
+D'autres approches similaires,
+
+37
+0:02:11.24,000 --> 0:02:14,000
+des approches traditionnelles de l'IA, sont pénalisées par le même problème :
+
+38
+0:02:14.923,000 --> 0:02:16,000
+un volume important de données, des médecins spécialistes
+
+39
+0:02:17.72,000 --> 0:02:19,000
+et des experts en imagerie médicale.
+
+40
+0:02:20.32,000 --> 0:02:24,000
+Pourrions-nous concevoir des architectures d'IA
+
+41
+0:02:24.64,000 --> 0:02:27,000
+plus évolutives, plus efficaces et plus utiles,
+
+42
+0:02:27.936,000 --> 0:02:3,000
+pour résoudre ces problèmes cruciaux auxquels nous sommes confrontés ?
+
+43
+0:02:31.262,000 --> 0:02:34,000
+C'est précisément ce que nous faisons au Media Lab du MIT.
+
+44
+0:02:34.36,000 --> 0:02:37,000
+Nous avons inventé une série d'architectures d'IA inhabituelles
+
+45
+0:02:38.24,000 --> 0:02:41,000
+pour résoudre les défis les plus importants
+
+46
+0:02:41.416,000 --> 0:02:43,000
+dans l'imagerie médicale et les tests cliniques.
+
+47
+0:02:44.48,000 --> 0:02:47,000
+Dans l'exemple que je vous ai montré, nous avions deux objectifs.
+
+48
+0:02:47.56,000 --> 0:02:49,000
+Le premier consiste à réduire le nombre d'images
+
+49
+0:02:50.56,000 --> 0:02:53,000
+nécessaire pour former les algorithmes de l'IA.
+
+50
+0:02:53.84,000 --> 0:02:55,000
+Notre deuxième objectif, plus ambitieux,
+
+51
+0:02:55.96,000 --> 0:02:58,000
+est de vouloir réduire l'usage de technologies d'imagerie médicale chères
+
+52
+0:02:59.72,000 --> 0:03:,000
+pour examiner les patients.
+
+53
+0:03:01.076,000 --> 0:03:02,000
+Comment avons-nous fait ?
+
+54
+0:03:02.92,000 --> 0:03:03,000
+Pour le premier objectif,
+
+55
+0:03:04.136,000 --> 0:03:06,000
+au lieu de commencer avec des dizaines de milliers
+
+56
+0:03:06.522,000 --> 0:03:08,000
+d'images médicales chères, comme pour une IA traditionnelle,
+
+57
+0:03:09.366,000 --> 0:03:1,000
+on a commencé avec une seule image.
+
+58
+0:03:11.336,000 --> 0:03:14,000
+À partir de cette image, avec mon équipe, on a trouvé une manière très ingénieuse
+
+59
+0:03:15.192,000 --> 0:03:17,000
+d'extraire des milliards de paquets de données.
+
+60
+0:03:17.92,000 --> 0:03:2,000
+Ces paquets d'informations incluent des couleurs, des pixels, la géométrie,
+
+61
+0:03:21.64,000 --> 0:03:23,000
+et le rendu de la maladie sur l'image médicale.
+
+62
+0:03:24.2,000 --> 0:03:28,000
+En fait, on a converti une image en milliards de données de formation,
+
+63
+0:03:28.536,000 --> 0:03:31,000
+réduisant ainsi massivement le volume de données nécessaire à cette formation.
+
+64
+0:03:32.232,000 --> 0:03:35,000
+Pour notre 2e objectif, réduire l'usage de technologies d'imagerie médicale
+
+65
+0:03:35.868,000 --> 0:03:36,000
+pour examiner les patients,
+
+66
+0:03:37.436,000 --> 0:03:39,000
+on a commencé avec une photo normale, à la lumière du jour,
+
+67
+0:03:40.231,000 --> 0:03:44,000
+prise avec un appareil photographique reflex mono-objectif, ou un smartphone.
+
+68
+0:03:44.48,000 --> 0:03:47,000
+Souvenez-vous maintenant des milliards de paquets d'informations.
+
+69
+0:03:47.536,000 --> 0:03:49,000
+On les a superposés à partir de l'image médicale,
+
+70
+0:03:50.52,000 --> 0:03:52,000
+créant ce qu'on appelle une image composite.
+
+71
+0:03:53.48,000 --> 0:03:56,000
+À notre grande surprise, nous n'avons eu besoin de seulement 50,
+
+72
+0:03:56.8,000 --> 0:03:57,000
+j'insiste, seulement 50,
+
+73
+0:03:58.16,000 --> 0:04:,000
+de ces images composites pour entraîner notre algorithme
+
+74
+0:04:01.12,000 --> 0:04:02,000
+et le rendre très efficient.
+
+75
+0:04:02.68,000 --> 0:04:03,000
+Pour résumer notre approche,
+
+76
+0:04:04.04,000 --> 0:04:07,000
+au lieu d'utiliser 10 000 images médicales très chères,
+
+77
+0:04:07.216,000 --> 0:04:1,000
+nous pouvons former les algorithmes de l'IA avec des moyens non traditionnels
+
+78
+0:04:10.872,000 --> 0:04:13,000
+et utiliser seulement 50 photos de haute résolution certes, mais standard,
+
+79
+0:04:14.56,000 --> 0:04:16,000
+prises avec des appareils photos et des smartphones,
+
+80
+0:04:17.08,000 --> 0:04:18,000
+et réaliser un diagnostic.
+
+81
+0:04:18.64,000 --> 0:04:19,000
+Plus important,
+
+82
+0:04:19.88,000 --> 0:04:22,000
+nos algorithmes travaillent déjà aujourd'hui
+
+83
+0:04:23.016,000 --> 0:04:25,000
+avec de simples photos des patients prises à la lumière du jour
+
+84
+0:04:25.995,000 --> 0:04:28,000
+en lieu et place des technologies onéreuses d'imagerie médicale.
+
+85
+0:04:29.12,000 --> 0:04:32,000
+Je suis convaincu que nous sommes sur le point d'entrer dans une ère
+
+86
+0:04:32.346,000 --> 0:04:36,000
+où l'intelligence artificielle va avoir un impact incroyable sur notre avenir.
+
+87
+0:04:36.76,000 --> 0:04:38,000
+Et je pense au sujet de l'IA traditionnelle,
+
+88
+0:04:39.24,000 --> 0:04:41,000
+riche en données mais avec peu d'application,
+
+89
+0:04:42.04,000 --> 0:04:44,000
+que nous devrions persévérer dans le développement
+
+90
+0:04:44.726,000 --> 0:04:45,000
+d'architectures d'IA non orthodoxes
+
+91
+0:04:46.64,000 --> 0:04:48,000
+capables d'accepter des petits volumes de données
+
+92
+0:04:48.976,000 --> 0:04:5,000
+et résoudre nos problèmes les plus importants,
+
+93
+0:04:51.56,000 --> 0:04:52,000
+principalement dans la santé.
+
+94
+0:04:53.086,000 --> 0:04:54,000
+Merci beaucoup.
+
+95
+0:04:54.276,000 --> 0:04:57,000
+(Applaudissements)
+

@@ -1,0 +1,640 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lidia Cámara de la Fuente Revisor: Sebastian Betti
+
+2
+0:00:12.861,000 --> 0:00:15,000
+Hola, soy Joy, una poetisa del código,
+
+3
+0:00:16.019,000 --> 0:00:2,000
+en una misión para frenar una fuerza invisible que crece,
+
+4
+0:00:21.036,000 --> 0:00:23,000
+una fuerza que llamo "mirada codificada",
+
+5
+0:00:23.916,000 --> 0:00:26,000
+mi término para el sesgo algorítmico.
+
+6
+0:00:27.249,000 --> 0:00:31,000
+El sesgo algorítmico, como el humano, se traduce en injusticia.
+
+7
+0:00:31.573,000 --> 0:00:37,000
+Pero, los algoritmos, como los virus, pueden propagar sesgos a gran escala
+
+8
+0:00:37.619,000 --> 0:00:38,000
+a un ritmo acelerado.
+
+9
+0:00:39.763,000 --> 0:00:43,000
+El sesgo algorítmico puede también generar experiencias de exclusión
+
+10
+0:00:44.174,000 --> 0:00:46,000
+y prácticas discriminatorias.
+
+11
+0:00:46.326,000 --> 0:00:48,000
+Les mostraré lo que quiero decir.
+
+12
+0:00:48.8,000 --> 0:00:5,000
+(Video) Joy Buolamwini: Hola, cámara. Tengo una cara.
+
+13
+0:00:51.982,000 --> 0:00:52,000
+¿Puedes ver mi cara?
+
+14
+0:00:53.871,000 --> 0:00:54,000
+¿Sin lentes?
+
+15
+0:00:55.521,000 --> 0:00:57,000
+Puedes ver su cara.
+
+16
+0:00:58.057,000 --> 0:01:,000
+¿Qué tal mi cara?
+
+17
+0:01:03.71,000 --> 0:01:06,000
+Tengo una máscara. ¿Puedes verla?
+
+18
+0:01:08.294,000 --> 0:01:1,000
+Joy Buolamwini: ¿Cómo ocurrió esto?
+
+19
+0:01:10.683,000 --> 0:01:13,000
+¿Por qué estoy ante una computadora
+
+20
+0:01:13.848,000 --> 0:01:14,000
+con una máscara blanca,
+
+21
+0:01:15.296,000 --> 0:01:18,000
+intentando que una cámara barata me detecte?
+
+22
+0:01:18.97,000 --> 0:01:2,000
+Cuando no lucho contra la mirada codificada
+
+23
+0:01:21.285,000 --> 0:01:22,000
+como poetisa del código,
+
+24
+0:01:22.829,000 --> 0:01:25,000
+soy estudiante de posgrado en el Laboratorio de Medios del MIT,
+
+25
+0:01:26.125,000 --> 0:01:3,000
+y allí puedo trabajar en todo tipo de proyectos caprichosos,
+
+26
+0:01:31.066,000 --> 0:01:33,000
+incluso el Aspire Mirror,
+
+27
+0:01:33.117,000 --> 0:01:38,000
+un proyecto que realicé para proyectar máscaras digitales en mi propio reflejo.
+
+28
+0:01:38.275,000 --> 0:01:4,000
+Entonces, de mañana, si quería sentirme poderosa,
+
+29
+0:01:40.649,000 --> 0:01:41,000
+podía convertirme en león.
+
+30
+0:01:42.107,000 --> 0:01:45,000
+Si quería inspiración, podía usar una cita.
+
+31
+0:01:45.627,000 --> 0:01:47,000
+Entonces, usé el software de reconocimiento facial
+
+32
+0:01:48.64,000 --> 0:01:49,000
+para crear el sistema,
+
+33
+0:01:50.015,000 --> 0:01:55,000
+pero me resultó muy difícil probarlo sin colocarme una máscara blanca.
+
+34
+0:01:56.102,000 --> 0:02:,000
+Desafortunadamente, ya tuve este problema antes.
+
+35
+0:02:00.472,000 --> 0:02:04,000
+Cuando era estudiante de informática en Georgia Tech,
+
+36
+0:02:04.799,000 --> 0:02:06,000
+solía trabajar con robots sociales,
+
+37
+0:02:06.878,000 --> 0:02:09,000
+y una de mis tareas fue lograr que un robot jugara a esconderse,
+
+38
+0:02:10.679,000 --> 0:02:11,000
+un juego de turnos simple
+
+39
+0:02:12.276,000 --> 0:02:16,000
+donde las personas cubren sus rostros y luego las descubren diciendo: "Aquí está".
+
+40
+0:02:16.817,000 --> 0:02:2,000
+El problema es que el juego no funciona, si no te pueden ver
+
+41
+0:02:21.184,000 --> 0:02:23,000
+y el robot no me veía.
+
+42
+0:02:23.707,000 --> 0:02:26,000
+Pero usé el rostro de mi compañera para terminar el proyecto,
+
+43
+0:02:27.681,000 --> 0:02:28,000
+entregué la tarea,
+
+44
+0:02:29.085,000 --> 0:02:32,000
+y pensé que otra persona resolvería este problema.
+
+45
+0:02:33.489,000 --> 0:02:35,000
+Al poco tiempo,
+
+46
+0:02:35.516,000 --> 0:02:39,000
+me encontraba en Hong Kong en una competencia de emprendedores.
+
+47
+0:02:40.159,000 --> 0:02:42,000
+Los organizadores decidieron llevar a los participantes
+
+48
+0:02:42.877,000 --> 0:02:44,000
+a un recorrido por empresas locales emergentes.
+
+49
+0:02:45.273,000 --> 0:02:47,000
+Una de ellas tenía un robot social,
+
+50
+0:02:48.012,000 --> 0:02:49,000
+y decidieron hacer una demostración.
+
+51
+0:02:49.948,000 --> 0:02:51,000
+La demostración funcionó bien hasta que llegó mi turno,
+
+52
+0:02:52.952,000 --> 0:02:53,000
+y probablemente pueden adivinar.
+
+53
+0:02:54.899,000 --> 0:02:56,000
+No pudo detectar mi rostro.
+
+54
+0:02:57.888,000 --> 0:02:59,000
+Pregunté a los desarrolladores qué pasaba,
+
+55
+0:03:00.423,000 --> 0:03:05,000
+y resultó que habíamos usado el mismo software genérico de reconocimiento.
+
+56
+0:03:05.98,000 --> 0:03:06,000
+Al otro lado del mundo,
+
+57
+0:03:07.654,000 --> 0:03:1,000
+aprendí que el sesgo algorítmico puede viajar tan rápido
+
+58
+0:03:11.53,000 --> 0:03:14,000
+como el tiempo que lleva descargar archivos de Internet.
+
+59
+0:03:15.565,000 --> 0:03:18,000
+Entonces, ¿qué sucede? ¿Por qué no se detecta mi rostro?
+
+60
+0:03:18.665,000 --> 0:03:21,000
+Bueno, debemos pensar cómo hacemos que las máquinas vean.
+
+61
+0:03:22.045,000 --> 0:03:25,000
+La visión por computadora usa técnicas de aprendizaje de máquina
+
+62
+0:03:25.478,000 --> 0:03:26,000
+para el reconocimiento facial.
+
+63
+0:03:27.382,000 --> 0:03:3,000
+Se trabaja así, creando una serie de prueba con ejemplos de rostros.
+
+64
+0:03:31.303,000 --> 0:03:33,000
+Esto es un rostro. Esto es un rostro. Esto no lo es.
+
+65
+0:03:34.145,000 --> 0:03:38,000
+Con el tiempo, puedes enseñar a una computadora a reconocer rostros.
+
+66
+0:03:38.688,000 --> 0:03:41,000
+Sin embargo, si las series de prueba no son realmente diversas,
+
+67
+0:03:42.701,000 --> 0:03:45,000
+todo rostro que se desvíe mucho de la norma establecida
+
+68
+0:03:46.074,000 --> 0:03:47,000
+será más difícil de detectar,
+
+69
+0:03:47.747,000 --> 0:03:48,000
+que es lo que me sucedía a mí.
+
+70
+0:03:49.734,000 --> 0:03:51,000
+Pero no se preocupen, tengo buenas noticias.
+
+71
+0:03:52.14,000 --> 0:03:54,000
+Las series de prueba no se materializan de la nada.
+
+72
+0:03:54.935,000 --> 0:03:55,000
+En verdad las podemos crear.
+
+73
+0:03:56.747,000 --> 0:04:,000
+Por ende, se pueden crear series de prueba con espectros completos
+
+74
+0:04:00.947,000 --> 0:04:03,000
+que reflejen de manera más exhaustiva un retrato de la humanidad.
+
+75
+0:04:04.795,000 --> 0:04:06,000
+Ya han visto en mis ejemplos
+
+76
+0:04:07.04,000 --> 0:04:08,000
+cómo con los robots sociales
+
+77
+0:04:08.832,000 --> 0:04:12,000
+me enteré de la exclusión por el sesgo algorítmico.
+
+78
+0:04:13.467,000 --> 0:04:17,000
+Además, el sesgo algorítmico puede generar prácticas discriminatorias.
+
+79
+0:04:19.257,000 --> 0:04:2,000
+En EE.UU.
+
+80
+0:04:20.734,000 --> 0:04:24,000
+los departamentos de policía incorporan software de reconocimiento facial
+
+81
+0:04:24.956,000 --> 0:04:26,000
+en su arsenal para la lucha contra el crimen.
+
+82
+0:04:27.439,000 --> 0:04:29,000
+Georgetown publicó un informe
+
+83
+0:04:29.476,000 --> 0:04:35,000
+que muestra que uno de cada dos adultos en EE.UU., 117 millones de personas,
+
+84
+0:04:36.263,000 --> 0:04:39,000
+tiene sus rostros en redes de reconocimiento facial.
+
+85
+0:04:39.821,000 --> 0:04:43,000
+Los departamentos de policía hoy tienen acceso a esas redes no reguladas,
+
+86
+0:04:44.397,000 --> 0:04:48,000
+mediante algoritmos cuya exactitud no ha sido testeada.
+
+87
+0:04:48.707,000 --> 0:04:51,000
+Sabemos que el reconocimiento facial no es a prueba de fallas
+
+88
+0:04:52.595,000 --> 0:04:56,000
+y etiquetar rostros de forma consistente aún es un desafío.
+
+89
+0:04:56.798,000 --> 0:04:57,000
+Tal vez lo han visto en Facebook.
+
+90
+0:04:58.584,000 --> 0:05:,000
+Mis amigos y yo nos reímos, cuando vemos a otros
+
+91
+0:05:01.596,000 --> 0:05:03,000
+mal etiquetados en nuestras fotos.
+
+92
+0:05:04.078,000 --> 0:05:09,000
+Pero identificar mal a un sospechoso no es un tema para reírse,
+
+93
+0:05:09.693,000 --> 0:05:11,000
+tampoco lo es violar la libertad civil.
+
+94
+0:05:12.544,000 --> 0:05:15,000
+El aprendizaje automático se usa para el reconocimiento facial,
+
+95
+0:05:15.773,000 --> 0:05:19,000
+pero también se está extendiendo al campo de la visión por computadora.
+
+96
+0:05:21.086,000 --> 0:05:25,000
+En su libro, "Armas de destrucción matemática",
+
+97
+0:05:25.126,000 --> 0:05:31,000
+la científica de datos Cathy O'Neil habla sobre los nuevos WMDs,
+
+98
+0:05:31.831,000 --> 0:05:35,000
+algoritmos amplios, misteriosos y destructivos
+
+99
+0:05:36.208,000 --> 0:05:38,000
+que se usan cada vez más para tomar decisiones
+
+100
+0:05:39.196,000 --> 0:05:42,000
+que influyen sobre muchos aspectos de nuestras vidas.
+
+101
+0:05:42.397,000 --> 0:05:43,000
+¿A quién se contrata o se despide?
+
+102
+0:05:44.291,000 --> 0:05:46,000
+¿Recibes el préstamo? ¿Y la cobertura de seguros?
+
+103
+0:05:46.427,000 --> 0:05:49,000
+¿Eres aceptado en la universidad a la que deseas entrar?
+
+104
+0:05:49.954,000 --> 0:05:52,000
+¿Tú y yo pagamos el mismo precio por el mismo producto
+
+105
+0:05:53.487,000 --> 0:05:55,000
+comprado en la misma plataforma?
+
+106
+0:05:55.953,000 --> 0:05:58,000
+La aplicación de la ley también empieza a usar el aprendizaje de máquina
+
+107
+0:05:59.736,000 --> 0:06:01,000
+para la predicción de la policía.
+
+108
+0:06:02.019,000 --> 0:06:05,000
+Algunos jueces usan puntajes de riesgo generados por máquinas para determinar
+
+109
+0:06:05.943,000 --> 0:06:09,000
+cuánto tiempo un individuo permanecerá en prisión.
+
+110
+0:06:09.993,000 --> 0:06:11,000
+Así que hay que pensar sobre estas decisiones.
+
+111
+0:06:12.471,000 --> 0:06:13,000
+¿Son justas?
+
+112
+0:06:13.677,000 --> 0:06:15,000
+Y hemos visto que el sesgo algorítmico
+
+113
+0:06:16.591,000 --> 0:06:19,000
+no necesariamente lleva siempre a resultados justos.
+
+114
+0:06:19.989,000 --> 0:06:2,000
+Entonces, ¿qué podemos hacer al respecto?
+
+115
+0:06:21.977,000 --> 0:06:24,000
+Bueno, podemos empezar a pensar en cómo creamos un código más inclusivo
+
+116
+0:06:25.681,000 --> 0:06:27,000
+y emplear prácticas de codificación inclusivas.
+
+117
+0:06:28.695,000 --> 0:06:3,000
+Realmente empieza con la gente.
+
+118
+0:06:31.528,000 --> 0:06:32,000
+Con los que codifican cosas.
+
+119
+0:06:33.513,000 --> 0:06:36,000
+¿Estamos creando equipos de amplio espectro con diversidad de personas
+
+120
+0:06:37.476,000 --> 0:06:39,000
+que pueden comprobar los puntos ciegos de los demás?
+
+121
+0:06:40.091,000 --> 0:06:43,000
+Desde el punto de vista técnico, importa cómo codificamos.
+
+122
+0:06:43.66,000 --> 0:06:46,000
+¿Lo gestionamos con equidad al desarrollar los sistemas?
+
+123
+0:06:47.335,000 --> 0:06:49,000
+Y finalmente, importa por qué codificamos.
+
+124
+0:06:50.315,000 --> 0:06:52,000
+Hemos usado herramientas informáticas
+
+125
+0:06:52.712,000 --> 0:06:55,000
+para generar una riqueza inmensa.
+
+126
+0:06:55.712,000 --> 0:06:59,000
+Ahora tenemos la oportunidad de generar una igualdad aún más grande
+
+127
+0:07:00.183,000 --> 0:07:02,000
+si hacemos del cambio social una prioridad
+
+128
+0:07:03.137,000 --> 0:07:05,000
+y no solo un pensamiento.
+
+129
+0:07:05.828,000 --> 0:07:09,000
+Estos son los tres principios que constituirán el movimiento "codificador".
+
+130
+0:07:10.374,000 --> 0:07:11,000
+Quién codifica importa,
+
+131
+0:07:12.05,000 --> 0:07:13,000
+cómo codificamos importa,
+
+132
+0:07:13.617,000 --> 0:07:15,000
+y por qué codificamos importa.
+
+133
+0:07:15.664,000 --> 0:07:18,000
+Así que, para abordar la codificación, podemos empezar a pensar
+
+134
+0:07:18.787,000 --> 0:07:21,000
+en construir plataformas que puedan identificar sesgos
+
+135
+0:07:21.975,000 --> 0:07:24,000
+reuniendo experiencias de la gente como las que compartí,
+
+136
+0:07:25.077,000 --> 0:07:28,000
+pero también auditando el software existente.
+
+137
+0:07:28.171,000 --> 0:07:31,000
+También podemos crear grupos de formación más inclusivos.
+
+138
+0:07:31.96,000 --> 0:07:33,000
+Imaginen una campaña de "Selfies por la inclusión"
+
+139
+0:07:34.787,000 --> 0:07:37,000
+donde Uds. y yo podamos ayudar a los desarrolladores a crear
+
+140
+0:07:38.466,000 --> 0:07:4,000
+grupos de formación más inclusivos.
+
+141
+0:07:41.122,000 --> 0:07:43,000
+Y también podemos empezar a pensar más concienzudamente
+
+142
+0:07:43.974,000 --> 0:07:48,000
+sobre el impacto social de la tecnología que estamos desarrollando.
+
+143
+0:07:49.389,000 --> 0:07:51,000
+Para iniciar el movimiento de codificación,
+
+144
+0:07:51.806,000 --> 0:07:53,000
+creé la Liga de la Justicia algorítmica,
+
+145
+0:07:54.677,000 --> 0:07:56,000
+donde todo el que se preocupa por la equidad
+
+146
+0:07:57.15,000 --> 0:08:,000
+puede ayudar a combatir la mirada codificada.
+
+147
+0:08:00.573,000 --> 0:08:03,000
+En codedgaze.com pueden informar sesgos,
+
+148
+0:08:03.893,000 --> 0:08:05,000
+solicitar auditorías, convertirse en un betatesters
+
+149
+0:08:06.362,000 --> 0:08:08,000
+y unirse a la conversación en curso,
+
+150
+0:08:09.157,000 --> 0:08:11,000
+#codedgaze.
+
+151
+0:08:12.562,000 --> 0:08:14,000
+Así que los invito a que se unan a mí
+
+152
+0:08:15.073,000 --> 0:08:18,000
+para crear un mundo donde la tecnología trabaje para todos nosotros,
+
+153
+0:08:18.816,000 --> 0:08:19,000
+no solo para algunos de nosotros,
+
+154
+0:08:20.737,000 --> 0:08:24,000
+un mundo donde se valore la inclusión y así centrar el cambio social.
+
+155
+0:08:25.249,000 --> 0:08:26,000
+Gracias.
+
+156
+0:08:26.539,000 --> 0:08:29,000
+(Aplausos)
+
+157
+0:08:32.756,000 --> 0:08:34,000
+Pero tengo una pregunta:
+
+158
+0:08:35.547,000 --> 0:08:37,000
+¿Se unirán a mí en mi lucha?
+
+159
+0:08:37.637,000 --> 0:08:38,000
+(Risas)
+
+160
+0:08:38.851,000 --> 0:08:4,000
+(Aplausos)
+

@@ -1,0 +1,1408 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Thibaut Monnin Relecteur: Jerome Faul
+
+2
+0:00:12.16,000 --> 0:00:16,000
+L'année passée, je vous ai conté en 7 minutes l'histoire du projet Orion,
+
+3
+0:00:16.16,000 --> 0:00:18,000
+cette technologie invraisemblable
+
+4
+0:00:18.16,000 --> 0:00:22,000
+qui, techniquement, aurait pu fonctionner
+
+5
+0:00:22.16,000 --> 0:00:26,000
+mais qui ne disposait que d'une seule année politique pour se réaliser
+
+6
+0:00:26.16,000 --> 0:00:28,000
+et qui a donc échoué. C'était un rêve qui ne ne se réalisa pas.
+
+7
+0:00:28.16,000 --> 0:00:33,000
+Cette année, je vais vous conter l'histoire de la naissance du calcul numérique.
+
+8
+0:00:33.16,000 --> 0:00:35,000
+C'était une parfaite introduction.
+
+9
+0:00:35.16,000 --> 0:00:37,000
+C'est un rêve qui a fonctionné, qui s'est réalisé.
+
+10
+0:00:37.16,000 --> 0:00:39,000
+Ces machines sont partout autour de nous.
+
+11
+0:00:39.16,000 --> 0:00:43,000
+Cette technologie était inévitable.
+
+12
+0:00:43.16,000 --> 0:00:45,000
+Si les personnes dont je vais vous parler
+
+13
+0:00:45.16,000 --> 0:00:47,000
+ne l'avaient pas fait, quelqu'un d'autre l'aurait fait.
+
+14
+0:00:47.16,000 --> 0:00:51,000
+Ils ont donc eu la bonne idée au bon moment.
+
+15
+0:00:51.16,000 --> 0:00:54,000
+Voici l'univers de Barricelli. C'est l'univers dans lequel nous vivons.
+
+16
+0:00:54.16,000 --> 0:00:56,000
+C'est l'univers dans lequel ces machines
+
+17
+0:00:56.16,000 --> 0:01:02,000
+font toutes ces choses, y compris modifier la biologie.
+
+18
+0:01:02.16,000 --> 0:01:07,000
+Je commence avec l'histoire de la première bombe atomique à Trinity.
+
+19
+0:01:07.16,000 --> 0:01:09,000
+Il s'agissait du projet Manhattan. C'était un peu comme TED :
+
+20
+0:01:09.16,000 --> 0:01:12,000
+ça réunit plein d'intellectuels.
+
+21
+0:01:12.16,000 --> 0:01:14,000
+Les trois têtes de ce groupe étaient
+
+22
+0:01:14.16,000 --> 0:01:18,000
+Stan Ulam, Richard Feynman et John von Neumann.
+
+23
+0:01:18.16,000 --> 0:01:2,000
+Neumann dit, après la bombe atomique,
+
+24
+0:01:20.16,000 --> 0:01:24,000
+qu'il travaillait sur quelque chose bien plus important que les bombes.
+
+25
+0:01:24.16,000 --> 0:01:26,000
+Il parlait des ordinateurs.
+
+26
+0:01:26.16,000 --> 0:01:3,000
+Il ne se contenta pas d'en parler, il en a construit un. Voilà la machine qu'il construisit.
+
+27
+0:01:30.16,000 --> 0:01:34,000
+(Rires)
+
+28
+0:01:34.16,000 --> 0:01:36,000
+Il construisit cette machine
+
+29
+0:01:36.16,000 --> 0:01:39,000
+et nous avons là une magnifique démonstration du fonctionnement
+
+30
+0:01:39.16,000 --> 0:01:42,000
+de ces petits bits. Mais cette idée est apparue bien avant ça.
+
+31
+0:01:42.16,000 --> 0:01:45,000
+Le premier à réellement expliquer ce concept
+
+32
+0:01:45.16,000 --> 0:01:48,000
+fut Thomas Hobbes, qui, en 1651,
+
+33
+0:01:48.16,000 --> 0:01:51,000
+expliqua que l'arithmétique et la logique représente la même chose
+
+34
+0:01:51.16,000 --> 0:01:54,000
+et que, si vous souhaitez créer une pensée et une logique artificielles,
+
+35
+0:01:54.16,000 --> 0:01:56,000
+vous pouvez le faire avec l'arithmétique.
+
+36
+0:01:56.16,000 --> 0:02:,000
+Il dit que vous avez besoin, pour cela, de l'addition et de la soustraction.
+
+37
+0:02:00.16,000 --> 0:02:04,000
+Leibniz, un peu plus tard, en 1679,
+
+38
+0:02:04.16,000 --> 0:02:06,000
+montra que vous n'avez même pas besoin de la soustraction.
+
+39
+0:02:06.16,000 --> 0:02:08,000
+Vous pouvez tout réaliser à l'aide de l'addition.
+
+40
+0:02:08.16,000 --> 0:02:11,000
+Voilà toute l'arithmétique et la logique binaires
+
+41
+0:02:11.16,000 --> 0:02:13,000
+qui ont dirigé la révolution informatique.
+
+42
+0:02:13.16,000 --> 0:02:17,000
+Leibniz fut le premier à véritablement mentionner la construction d'une telle machine.
+
+43
+0:02:17.16,000 --> 0:02:19,000
+Il en parla en termes de billes
+
+44
+0:02:19.16,000 --> 0:02:21,000
+qui possèdent des portes et ce que l'on nomme des registres à décalage
+
+45
+0:02:21.16,000 --> 0:02:24,000
+grâce auxquels vous manipulez les portes et faites tomber les billes le long du chemin.
+
+46
+0:02:24.16,000 --> 0:02:26,000
+C'est ce que ces machines font,
+
+47
+0:02:26.16,000 --> 0:02:28,000
+si ce n'est qu'à la place d'utiliser des billes,
+
+48
+0:02:28.16,000 --> 0:02:3,000
+elles utilisent des électrons.
+
+49
+0:02:30.16,000 --> 0:02:34,000
+Ensuite vient von Neumann, en 1945, époque à laquelle
+
+50
+0:02:34.16,000 --> 0:02:36,000
+il réinventa le tout.
+
+51
+0:02:36.16,000 --> 0:02:39,000
+En 1945, après la guerre, l'électronique nécessaire
+
+52
+0:02:39.16,000 --> 0:02:42,000
+à la construction d'une telle machine était alors disponible.
+
+53
+0:02:42.16,000 --> 0:02:46,000
+Juin 1945. La bombe atomique n'avait en fait pas encore été lâchée
+
+54
+0:02:46.16,000 --> 0:02:5,000
+et von Neumann établissait la théorie nécessaire à la construction de cette machine.
+
+55
+0:02:50.16,000 --> 0:02:52,000
+ça remonte donc jusqu'à Turing qui,
+
+56
+0:02:52.16,000 --> 0:02:55,000
+avant ça, établit qu'il était possible de construire tout ça
+
+57
+0:02:55.16,000 --> 0:02:59,000
+avec une petite machine stupide, un automate fini
+
+58
+0:02:59.16,000 --> 0:03:02,000
+qui se contente de lire un texte entrant et un texte sortant.
+
+59
+0:03:02.16,000 --> 0:03:05,000
+Une autre stimulation au travail de von Neumann
+
+60
+0:03:05.16,000 --> 0:03:09,000
+était la difficulté d'effectuer des prévisions météorologiques.
+
+61
+0:03:09.16,000 --> 0:03:13,000
+Lewis Richardson comprit comment faire cela à l'aide d'un réseau de personnes
+
+62
+0:03:13.16,000 --> 0:03:16,000
+fournissant chacune un morceau du puzzle et en les recombinant.
+
+63
+0:03:16.16,000 --> 0:03:19,000
+Voici un modèle électrique d'un esprit effectuant un choix
+
+64
+0:03:19.16,000 --> 0:03:21,000
+mais qui ne peut générer que 2 idées.
+
+65
+0:03:21.16,000 --> 0:03:22,000
+(Rires)
+
+66
+0:03:22.16,000 --> 0:03:25,000
+C'est à proprement parlé le plus simple des ordinateurs.
+
+67
+0:03:25.16,000 --> 0:03:27,000
+C'est exactement pour cela que vous avez besoin du qubit
+
+68
+0:03:27.16,000 --> 0:03:29,000
+car il n'a que deux idées.
+
+69
+0:03:29.16,000 --> 0:03:31,000
+En assemblent un grand nombre de ces éléments,
+
+70
+0:03:31.16,000 --> 0:03:34,000
+vous obtenez la base de l'ordinateur moderne:
+
+71
+0:03:34.16,000 --> 0:03:37,000
+l'unité arithmétique, le centre de contrôle, la mémoire,
+
+72
+0:03:37.16,000 --> 0:03:4,000
+le système d'enregistrement, les entrées et les sorties.
+
+73
+0:03:40.16,000 --> 0:03:44,000
+Mais il y a un piège.
+
+74
+0:03:44.16,000 --> 0:03:47,000
+C'est ce qui fut observé avec les premiers programmes :
+
+75
+0:03:47.16,000 --> 0:03:49,000
+les instructions qui gouvernent une opération
+
+76
+0:03:49.16,000 --> 0:03:51,000
+doivent absolument être entrées exhaustivement.
+
+77
+0:03:51.16,000 --> 0:03:54,000
+Le programme doit être parfait sans quoi il ne fonctionnera pas.
+
+78
+0:03:54.16,000 --> 0:03:56,000
+L'histoire classique
+
+79
+0:03:56.16,000 --> 0:04:,000
+retrace tout ça jusqu'à l'ENIAC ici en bas.
+
+80
+0:04:00.16,000 --> 0:04:02,000
+Mais la machine dont je vais vous parler,
+
+81
+0:04:02.16,000 --> 0:04:05,000
+la machine de l'Institute for Grand Study qui se trouve tout là-haut,
+
+82
+0:04:05.16,000 --> 0:04:07,000
+devrait en fait se trouver ici en bas. Je vais donc essayer de rectifier l'histoire
+
+83
+0:04:07.16,000 --> 0:04:1,000
+et attribuer plus de crédits à ces gens qu'ils n'en ont eu jusque-là.
+
+84
+0:04:10.16,000 --> 0:04:12,000
+Un tel ordinateur devait ouvrir les portes d'univers
+
+85
+0:04:12.16,000 --> 0:04:16,000
+qui sont pour l'instant hors de portée de tous les instruments.
+
+86
+0:04:16.16,000 --> 0:04:19,000
+Il mène à un monde entièrement nouveau. Et ces gens s'en sont rendus compte.
+
+87
+0:04:19.16,000 --> 0:04:21,000
+C'est Vladimir Zworykin de la RCA (Radio Corporation of America), au milieu,
+
+88
+0:04:21.16,000 --> 0:04:24,000
+qui était censé construire cette machine.
+
+89
+0:04:24.16,000 --> 0:04:27,000
+Mais la RCA fit un des choix les plus pitoyables de l'histoire
+
+90
+0:04:27.16,000 --> 0:04:3,000
+et décida de ne pas se lancer dans l'informatique.
+
+91
+0:04:30.16,000 --> 0:04:35,000
+Cependant, le premier meeting, en novembre 1945, eut lieu dans les locaux de la RCA.
+
+92
+0:04:35.16,000 --> 0:04:39,000
+La RCA lança ce projet et décida finalement
+
+93
+0:04:39.16,000 --> 0:04:42,000
+que les télévisions étaient le futur, pas les ordinateurs.
+
+94
+0:04:42.16,000 --> 0:04:44,000
+L'essentiel - tout ce qui faisait tourner
+
+95
+0:04:44.16,000 --> 0:04:48,000
+ces machines - était là.
+
+96
+0:04:48.16,000 --> 0:04:51,000
+Von Neumann, un logicien et un mathématicien de l'armée
+
+97
+0:04:51.16,000 --> 0:04:53,000
+avaient tout rassemblé. Il ne cherchait qu'un endroit où construire leur machine.
+
+98
+0:04:53.16,000 --> 0:04:57,000
+Quand la RCA refusa de les aider, ils se rendirent à Princeton
+
+99
+0:04:57.16,000 --> 0:04:59,000
+où se trouvait l'institut pour lequel travaillait Freeman.
+
+100
+0:04:59.16,000 --> 0:05:01,000
+J'étais alors enfant.
+
+101
+0:05:01.16,000 --> 0:05:05,000
+C'est moi là, avec ma soeur qui vous a parlé tout à l'heure.
+
+102
+0:05:05.16,000 --> 0:05:08,000
+On vient donc de l'époque de cette machine.
+
+103
+0:05:08.16,000 --> 0:05:1,000
+Voilà Freeman, il y a fort longtemps.
+
+104
+0:05:10.16,000 --> 0:05:11,000
+Et ça c'est moi.
+
+105
+0:05:11.16,000 --> 0:05:14,000
+Von Neumann et Morgenstern
+
+106
+0:05:14.16,000 --> 0:05:16,000
+qui a écrit "Théorie des jeux...".
+
+107
+0:05:16.16,000 --> 0:05:2,000
+Ils ont tous unis leur forces à Princeton.
+
+108
+0:05:20.16,000 --> 0:05:22,000
+Oppenheimer qui aida à construre la bombe.
+
+109
+0:05:22.16,000 --> 0:05:26,000
+Cette machine fut d'ailleurs principalement utilisée pour des calculs balistiques.
+
+110
+0:05:26.16,000 --> 0:05:28,000
+Julian Bigelow remplaça l'ingénieur
+
+111
+0:05:28.16,000 --> 0:05:32,000
+et imagina comment construire cette machine
+
+112
+0:05:32.16,000 --> 0:05:35,000
+à l'aide de l'électronique. Voici l'ensemble des collaborateurs de ce projet
+
+113
+0:05:35.16,000 --> 0:05:4,000
+avec, au premier rang, les femmes qui ont fait le gros de la programmation.
+
+114
+0:05:40.16,000 --> 0:05:44,000
+Voici les prototypes du geek, les premiers nerds.
+
+115
+0:05:44.16,000 --> 0:05:46,000
+Ils faisaient tache dans l'Institut.
+
+116
+0:05:46.16,000 --> 0:05:49,000
+Voici une lettre du directeur se faisant du souci
+
+117
+0:05:49.16,000 --> 0:05:52,000
+"principalement par la surconsommation de sucre".
+
+118
+0:05:52.16,000 --> 0:05:53,000
+Ecrit : "Pourquoi les informaticiens ne viendraient-ils pas à 17h boire le thé avec tout le monde, sous une surveillance appropriée ?"
+
+119
+0:05:53.16,000 --> 0:05:54,000
+Ecrit : "Pourquoi les informaticiens ne viendraient-ils pas à 17h boire le thé avec tout le monde, sous une surveillance appropriée ?"
+
+120
+0:05:54.16,000 --> 0:06:,000
+Ecrit : "Pourquoi les informaticiens ne viendraient-ils pas à 17h boire le thé avec tout le monde, sous une surveillance appropriée ?"
+
+121
+0:06:00.16,000 --> 0:06:04,000
+Les hackers en décousaient pour la première fois avec les autorités.
+
+122
+0:06:04.16,000 --> 0:06:09,000
+(Rires)
+
+123
+0:06:09.16,000 --> 0:06:11,000
+Ce n'étaient pas des physiciens théoriciens.
+
+124
+0:06:11.16,000 --> 0:06:16,000
+Ils travaillaient au fer à souder. Et ils finirent par construire cette machine.
+
+125
+0:06:16.16,000 --> 0:06:18,000
+Il nous semble évident à présent que ces machines
+
+126
+0:06:18.16,000 --> 0:06:23,000
+possèdent des milliards de transistor et effectuent des milliards de cycles chaque seconde sans la moindre erreur.
+
+127
+0:06:23.16,000 --> 0:06:27,000
+Ils utilisèrent pour ça des tubes électroniques. Obtenir un comportement binaire
+
+128
+0:06:27.16,000 --> 0:06:32,000
+avec un de ces tubes électroniques est une manipulation extrêmement aléatoire.
+
+129
+0:06:32.16,000 --> 0:06:35,000
+Ils utilisérent des 6J6, les tubes électroniques présents dans les radios,
+
+130
+0:06:35.16,000 --> 0:06:39,000
+car ils les trouvaient plus sûrs que les tubes plus chers.
+
+131
+0:06:39.16,000 --> 0:06:43,000
+Ils publièrent chaque étape de leur avancée.
+
+132
+0:06:43.16,000 --> 0:06:46,000
+Des rapports furent distribués et, de cette manière, leur machine
+
+133
+0:06:46.16,000 --> 0:06:49,000
+fut clonée à 15 endroits dans le monde.
+
+134
+0:06:49.16,000 --> 0:06:53,000
+C'était véritablement le premier microprocesseur.
+
+135
+0:06:53.16,000 --> 0:06:55,000
+Tous les ordinateurs ne sont que des copies de cette machine.
+
+136
+0:06:55.16,000 --> 0:06:58,000
+Des tubes cathodiques constituaient la mémoire,
+
+137
+0:06:58.16,000 --> 0:07:01,000
+un ensemble de points sur le tube,
+
+138
+0:07:01.16,000 --> 0:07:04,000
+de très, très faibles variations électromagnétiques.
+
+139
+0:07:04.16,000 --> 0:07:06,000
+Il y avait 40 tubes,
+
+140
+0:07:06.16,000 --> 0:07:09,000
+c'était donc un peu comme une V40 en guise de mémoire.
+
+141
+0:07:09.16,000 --> 0:07:1,000
+(Rires)
+
+142
+0:07:10.16,000 --> 0:07:15,000
+Les données étaient entrées et obtenues à l'aide d'un télétype.
+
+143
+0:07:15.16,000 --> 0:07:17,000
+Voici un enregistreur construit à l'aide de roues de vélos.
+
+144
+0:07:17.16,000 --> 0:07:22,000
+C'est l'archétype du disque dur qui se trouve dans votre ordinateur.
+
+145
+0:07:22.16,000 --> 0:07:24,000
+Ils sont ensuite passés aux tambours magnétiques.
+
+146
+0:07:24.16,000 --> 0:07:26,000
+Ils modifièrent le matériel d'IBM
+
+147
+0:07:26.16,000 --> 0:07:3,000
+qui est à l'origine de l'industrie du traitement de données.
+
+148
+0:07:30.16,000 --> 0:07:33,000
+Et voilà les débuts de l'imagerie informatique.
+
+149
+0:07:33.16,000 --> 0:07:36,000
+Le "Graph's-Beam Turn On".
+
+150
+0:07:36.16,000 --> 0:07:43,000
+Voilà, autant que je sache, la première représentation d'une image numérique. Elle date de 1954.
+
+151
+0:07:43.16,000 --> 0:07:46,000
+Von Neumann était donc plongé dans un océan théorique
+
+152
+0:07:46.16,000 --> 0:07:49,000
+en train de faire des études abstraites sur la possibilité de construire
+
+153
+0:07:49.16,000 --> 0:07:52,000
+des machines fiables à l'aide d'éléments qui ne l'étaient pas.
+
+154
+0:07:52.16,000 --> 0:07:54,000
+Ces gens qui buvaient ce thé si sucré
+
+155
+0:07:54.16,000 --> 0:07:58,000
+établirent un registre à propos leurs tentatives sur
+
+156
+0:07:58.16,000 --> 0:08:01,000
+ces 2600 tubes électroniques qui lâchaient la moitié du temps.
+
+157
+0:08:01.16,000 --> 0:08:06,000
+Feuilleter ces registres est ce qui m'a occupé ces six derniers mois.
+
+158
+0:08:06.16,000 --> 0:08:09,000
+"Exécution : 2 minutes. Entrées/sorties : 90 minutes."
+
+159
+0:08:09.16,000 --> 0:08:12,000
+Ca inclut toutes les erreurs humaines.
+
+160
+0:08:12.16,000 --> 0:08:15,000
+Ils essayèrent en permanence de déterminer quelle était la part d'erreur humaine et celle due à la machine,
+
+161
+0:08:15.16,000 --> 0:08:17,000
+ce qui venait du programme et du matériel.
+
+162
+0:08:17.16,000 --> 0:08:19,000
+Voici un ingénieur qui inspecte le tube 36
+
+163
+0:08:19.16,000 --> 0:08:21,000
+pour déterminer pourquoi la mémoire flanchait.
+
+164
+0:08:21.16,000 --> 0:08:24,000
+Il devait régler la mémoire ! "Ca a l'air de fonctionner."
+
+165
+0:08:24.16,000 --> 0:08:28,000
+Il devait régler chaque tube jusqu'à ce que la mémoire fonctionne
+
+166
+0:08:28.16,000 --> 0:08:3,000
+sans parler de tous les problèmes de programmation.
+
+167
+0:08:30.16,000 --> 0:08:32,000
+"Inutile ! Rentré à la maison !"
+
+168
+0:08:32.16,000 --> 0:08:35,000
+"Impossible de comprendre ce p... de truc, où est le dossier ?"
+
+169
+0:08:35.16,000 --> 0:08:37,000
+Ils se plaignaient donc déjà des manuels:
+
+170
+0:08:37.16,000 --> 0:08:41,000
+"Dégoûté avant de fermer."
+
+171
+0:08:41.16,000 --> 0:08:43,000
+"Arithmétique générale - Registre d'opération"
+
+172
+0:08:43.16,000 --> 0:08:46,000
+Ils travaillaient tard le soir.
+
+173
+0:08:46.16,000 --> 0:08:48,000
+Ils avaient nommé la machine MANIAC, acronyme pour
+
+174
+0:08:48.16,000 --> 0:08:51,000
+Intégrateur Mathématique Et Numérique Et Calculatrice. "MANIAC a perdu la mémoire."
+
+175
+0:08:51.16,000 --> 0:08:57,000
+"MANIAC a retrouvé sa mémoire au cours d'une panne de courant." "Machine ou humain ?"
+
+176
+0:08:57.16,000 --> 0:09:,000
+"AHA !" Ils ont compris qu'il s'agissait d'une erreur de code :
+
+177
+0:09:00.16,000 --> 0:09:02,000
+"Trouvé un problème de code. J'espère."
+
+178
+0:09:02.16,000 --> 0:09:05,000
+"Erreur de code, machine non coupable."
+
+179
+0:09:05.16,000 --> 0:09:08,000
+"Je suis aussi borné que cette machine."
+
+180
+0:09:08.16,000 --> 0:09:13,000
+(Rires)
+
+181
+0:09:13.16,000 --> 0:09:15,000
+"Et l'aube arriva." Ils ont donc tourné toute la nuit.
+
+182
+0:09:15.16,000 --> 0:09:19,000
+Cette machine fonctionnait 24h par jour, principalement pour effectuer des calculs balistiques.
+
+183
+0:09:19.16,000 --> 0:09:24,000
+"Tout ce qu'on a effectué jusque là n'est que du temps perdu." "À quoi bon ? Bonne nuit."
+
+184
+0:09:24.16,000 --> 0:09:28,000
+"Plus de contrôle principal. Fait chier. Complètement faux."
+
+185
+0:09:28.16,000 --> 0:09:3,000
+"Il y a un problème avec l'aération,
+
+186
+0:09:30.16,000 --> 0:09:33,000
+il y a comme une odeur de courroie brûlée dans l'air."
+
+187
+0:09:33.16,000 --> 0:09:35,000
+"Court-circuit, ne pas allumer la machine."
+
+188
+0:09:35.16,000 --> 0:09:4,000
+"La machine d'IBM dépose une sorte de goudron sur les cartes mémoire. Le goudron vient du toit."
+
+189
+0:09:40.16,000 --> 0:09:42,000
+Ils travaillaient vraiment dans des mauvaises conditions.
+
+190
+0:09:42.16,000 --> 0:09:43,000
+(Rires)
+
+191
+0:09:43.16,000 --> 0:09:45,000
+"Une souris est passée dans le ventilateur
+
+192
+0:09:45.16,000 --> 0:09:49,000
+derrière le régulateur, le ventilateur s'est mis à vibrer. Résultat : plus de souris."
+
+193
+0:09:49.16,000 --> 0:09:54,000
+(Rires)
+
+194
+0:09:54.16,000 --> 0:10:01,000
+"Ici repose souris. Née ? Morte à 4h50, mai 1953."
+
+195
+0:10:01.16,000 --> 0:10:02,000
+(Rires)
+
+196
+0:10:02.16,000 --> 0:10:04,000
+Quelqu'un a inclut une blague pour initiés :
+
+197
+0:10:04.16,000 --> 0:10:06,000
+"Ici repose la Souris de Marston."
+
+198
+0:10:06.16,000 --> 0:10:08,000
+C'est une blague de mathématicien.
+
+199
+0:10:08.16,000 --> 0:10:09,000
+Marston était un mathématicien
+
+200
+0:10:09.16,000 --> 0:10:12,000
+qui s'opposa à la présence de l'ordinateur à cet endroit.
+
+201
+0:10:12.16,000 --> 0:10:16,000
+"Retiré une luciole du tambour." "Tourne à 2 000 tours."
+
+202
+0:10:16.16,000 --> 0:10:18,000
+C'est-à-dire 2 000 tours par seconde.
+
+203
+0:10:18.16,000 --> 0:10:21,000
+"Oui, je suis découragé." Donc 2000 tours était lent.
+
+204
+0:10:21.16,000 --> 0:10:24,000
+"Rapide" signifiait 16 000 tours par seconde.
+
+205
+0:10:24.16,000 --> 0:10:27,000
+Je ne sais pas si vous vous souvenez d'un Mac à 16 mégahertz.
+
+206
+0:10:27.16,000 --> 0:10:29,000
+C'est vraiment lent.
+
+207
+0:10:29.16,000 --> 0:10:32,000
+"J'ai reproduit les résultats.
+
+208
+0:10:32.16,000 --> 0:10:35,000
+Comment je sais lequel est le bon, en supposant qu'un est correct ?"
+
+209
+0:10:35.16,000 --> 0:10:37,000
+"On a maintenant trois résultats différents.
+
+210
+0:10:37.16,000 --> 0:10:39,000
+Je sais quand on se fout de moi."
+
+211
+0:10:39.16,000 --> 0:10:41,000
+(Rires)
+
+212
+0:10:41.16,000 --> 0:10:43,000
+"On a reproduit les erreurs."
+
+213
+0:10:43.16,000 --> 0:10:46,000
+"La machine va bien, pas le code."
+
+214
+0:10:46.16,000 --> 0:10:48,000
+"N'arrive que lorsque la machine fonctionne."
+
+215
+0:10:48.16,000 --> 0:10:52,000
+Parfois tout va bien.
+
+216
+0:10:52.16,000 --> 0:10:56,000
+"Cette machine est un bijou, une source de plaisir éternelle." "Fonctionne parfaitement."
+
+217
+0:10:56.16,000 --> 0:11:,000
+"Pensée d'adieu : même si les erreurs se multiplient, on finira par les avoir."
+
+218
+0:11:00.16,000 --> 0:11:03,000
+Personne n'était sensé savoir qu'ils étaient en train de faire des bombes.
+
+219
+0:11:03.16,000 --> 0:11:05,000
+Ils étudient les bombes à hydrogène. Quelqu'un, tard dans la nuit,
+
+220
+0:11:05.16,000 --> 0:11:07,000
+dessina finalement une bombe dans le registre.
+
+221
+0:11:07.16,000 --> 0:11:09,000
+Le résultat fut le suivant : Mike,
+
+222
+0:11:09.16,000 --> 0:11:12,000
+la première bombe thermonucléaire, en 1952.
+
+223
+0:11:12.16,000 --> 0:11:14,000
+Elle fut construite à l'aide de cette machine,
+
+224
+0:11:14.16,000 --> 0:11:16,000
+quelque part dans les bois, derrière l'Institut.
+
+225
+0:11:16.16,000 --> 0:11:2,000
+Von Neumann avait invité une bande de fous
+
+226
+0:11:20.16,000 --> 0:11:23,000
+venus des quatre coins du monde pour résoudre ces problèmes.
+
+227
+0:11:23.16,000 --> 0:11:27,000
+Baricelli, qui était venu pour créer ce que l'on nomme à présent la vie artificielle,
+
+228
+0:11:27.16,000 --> 0:11:3,000
+rechercha dans cet univers artificiel...
+
+229
+0:11:30.16,000 --> 0:11:33,000
+C'était un généticien viral vraiment, vraiment en avance sur son temps.
+
+230
+0:11:33.16,000 --> 0:11:36,000
+Il est d'ailleurs encore en avance sur une partie de ce qui se fait actuellement.
+
+231
+0:11:36.16,000 --> 0:11:41,000
+...il chercha à élaborer un système génétique artificiel, informatique.
+
+232
+0:11:41.16,000 --> 0:11:44,000
+Il commença le 3 mars 1953,
+
+233
+0:11:44.16,000 --> 0:11:49,000
+ça fera donc 50 ans mardi prochain.
+
+234
+0:11:49.16,000 --> 0:11:51,000
+Il perçut chaque chose en termes de...
+
+235
+0:11:51.16,000 --> 0:11:53,000
+Il lisait le code binaire sous sa forme brute.
+
+236
+0:11:53.16,000 --> 0:11:55,000
+Il était très compréhensif.
+
+237
+0:11:55.16,000 --> 0:11:58,000
+Certains personnes ne comprenaient pas comment la machine fonctionnait. Lui n'a jamais eu le moindre problème.
+
+238
+0:11:58.16,000 --> 0:12:,000
+"Même les erreurs ont été répétées."
+
+239
+0:12:00.16,000 --> 0:12:01,000
+(Rires)
+
+240
+0:12:01.16,000 --> 0:12:04,000
+"Dr. Barricelli affirme que la machine a tort, le code est juste."
+
+241
+0:12:04.16,000 --> 0:12:07,000
+Il a donc imaginé et supervisé cet univers.
+
+242
+0:12:07.16,000 --> 0:12:1,000
+Quand les calculs balistiques furent finis, il fut autorisé à utiliser cette machine.
+
+243
+0:12:10.16,000 --> 0:12:13,000
+Il l'utilisa des nuits entières.
+
+244
+0:12:13.16,000 --> 0:12:15,000
+Stephen Wolfram
+
+245
+0:12:15.16,000 --> 0:12:17,000
+réinventa tout ça.
+
+246
+0:12:17.16,000 --> 0:12:19,000
+Et le publia. Ce ne fut pas mis sous clé et caché du public.
+
+247
+0:12:19.16,000 --> 0:12:21,000
+Ils le publièrent dans la littérature.
+
+248
+0:12:21.16,000 --> 0:12:24,000
+"Si c'est si simple de créer des êtres vivants, pourquoi ne pas en créer quelques uns vous-même?"
+
+249
+0:12:24.16,000 --> 0:12:26,000
+Il décida donc de s'adonner
+
+250
+0:12:26.16,000 --> 0:12:3,000
+à la biologie artificielle informatique.
+
+251
+0:12:30.16,000 --> 0:12:32,000
+Il découvrit toutes sortes de choses.
+
+252
+0:12:32.16,000 --> 0:12:34,000
+Il agit un peu comme un naturaliste
+
+253
+0:12:34.16,000 --> 0:12:37,000
+observant ce minuscule univers de 5 000 octets
+
+254
+0:12:37.16,000 --> 0:12:39,000
+et ce qu'il s'y déroule
+
+255
+0:12:39.16,000 --> 0:12:42,000
+comme on peut le voir dans le monde extérieur en biologie.
+
+256
+0:12:42.16,000 --> 0:12:48,000
+Voici quelques uns des produits de son univers.
+
+257
+0:12:48.16,000 --> 0:12:5,000
+"Mais tout cela restera numérique,
+
+258
+0:12:50.16,000 --> 0:12:52,000
+ça ne deviendra pas organique."
+
+259
+0:12:52.16,000 --> 0:12:53,000
+Il leur faut quelque chose de particulier.
+
+260
+0:12:53.16,000 --> 0:12:55,000
+Il y a le génotype et le phénotype.
+
+261
+0:12:55.16,000 --> 0:12:58,000
+Il faut qu'ils sortent et fassent quelque chose.
+
+262
+0:12:58.16,000 --> 0:13:01,000
+Il donna donc à ces petits êtres numériques de quoi jouer.
+
+263
+0:13:01.16,000 --> 0:13:03,000
+Jouer aux échecs avec d'autres machines, etc...
+
+264
+0:13:03.16,000 --> 0:13:05,000
+Ils se sont donc mis à évoluer.
+
+265
+0:13:05.16,000 --> 0:13:07,000
+Puis il s'est mis à voyager.
+
+266
+0:13:07.16,000 --> 0:13:11,000
+À chaque fois qu'il trouva une nouvelle machine rapide, il réitéra l'expérience
+
+267
+0:13:11.16,000 --> 0:13:13,000
+et releva exactement ce qui se passe actuellement:
+
+268
+0:13:13.16,000 --> 0:13:19,000
+les programmes, au lieu d'être arrêtés lorsqu'on les quitte
+
+269
+0:13:19.16,000 --> 0:13:21,000
+peuvent continuer à tourner,
+
+270
+0:13:21.16,000 --> 0:13:25,000
+un peu comme un organisme multicellulaire en plusieurs machines.
+
+271
+0:13:25.16,000 --> 0:13:27,000
+C'est-à-dire tout ce que Windows fait.
+
+272
+0:13:27.16,000 --> 0:13:28,000
+Il eut la vision de tout cela.
+
+273
+0:13:28.16,000 --> 0:13:31,000
+Il comprit que cette évolution elle-même était un processus intelligent.
+
+274
+0:13:31.16,000 --> 0:13:34,000
+Ce n'était pas une intelligence créatrice,
+
+275
+0:13:34.16,000 --> 0:13:37,000
+mais un ensemble de calculs parallèles
+
+276
+0:13:37.16,000 --> 0:13:39,000
+qui possède une sorte d'intelligence.
+
+277
+0:13:39.16,000 --> 0:13:41,000
+Il a suivi son idée pour expliquer
+
+278
+0:13:41.16,000 --> 0:13:44,000
+qu'il ne sous-entendait pas que c'était là une forme de vie
+
+279
+0:13:44.16,000 --> 0:13:46,000
+ou un nouveau type de vie.
+
+280
+0:13:46.16,000 --> 0:13:49,000
+C'était simplement une autre version de ce qui se passe dans la vie.
+
+281
+0:13:49.16,000 --> 0:13:52,000
+Ce qu'il réalisait sur cet ordinateur et ce que la nature avait fait
+
+282
+0:13:52.16,000 --> 0:13:55,000
+il y a des milliards d'années étaient fondamentalement identiques.
+
+283
+0:13:55.16,000 --> 0:13:57,000
+Pourriez-vous réaliser la même chose à présent ?
+
+284
+0:13:57.16,000 --> 0:14:01,000
+Un jour, alors que j'approfondissais tout ça dans les archives,
+
+285
+0:14:01.16,000 --> 0:14:03,000
+surgit l'archiviste et dit:
+
+286
+0:14:03.16,000 --> 0:14:06,000
+"Je crois qu'on a trouvé une autre boîte qui a été jetée."
+
+287
+0:14:06.16,000 --> 0:14:08,000
+Il s'agissait de son univers de cartes perforées.
+
+288
+0:14:08.16,000 --> 0:14:14,000
+Tout était là, 50 ans plus tard. En quelque sorte en biostase.
+
+289
+0:14:14.16,000 --> 0:14:16,000
+Voici l'instruction de compilation.
+
+290
+0:14:16.16,000 --> 0:14:18,000
+Il s'agit en fait du code source
+
+291
+0:14:18.16,000 --> 0:14:2,000
+de l'un de ces univers
+
+292
+0:14:20.16,000 --> 0:14:22,000
+accompagné d'une annotation des ingénieurs
+
+293
+0:14:22.16,000 --> 0:14:23,000
+mentionnant qu'ils rencontrèrent des problèmes.
+
+294
+0:14:23.16,000 --> 0:14:28,000
+"Il doit y avoir quelque chose dans ce code que vous n'avez pas encore expliqué."
+
+295
+0:14:28.16,000 --> 0:14:31,000
+Je crois que c'est bien là toute la vérité. On ne comprend
+
+296
+0:14:31.16,000 --> 0:14:35,000
+toujours pas comment ces instructions simples peuvent mener à une complexité grandissante.
+
+297
+0:14:35.16,000 --> 0:14:37,000
+Il s'agit là de la ligne de démarcation
+
+298
+0:14:37.16,000 --> 0:14:41,000
+entre la vie et une simple copie de celle-ci.
+
+299
+0:14:41.16,000 --> 0:14:45,000
+Ces cartes, grâce à mon intrusion, sont préservées.
+
+300
+0:14:45.16,000 --> 0:14:47,000
+Et la question est, devrions-nous les compiler ou non ?
+
+301
+0:14:47.16,000 --> 0:14:49,000
+Sommes-nous capables de les compiler ?
+
+302
+0:14:49.16,000 --> 0:14:5,000
+Pouvons-nous les diffuser sur Internet ?
+
+303
+0:14:50.16,000 --> 0:14:52,000
+Ces machines penseraient qu'elles...
+
+304
+0:14:52.16,000 --> 0:14:55,000
+Ces organismes, s'ils pouvaient revenir à la vie,
+
+305
+0:14:55.16,000 --> 0:14:57,000
+bien qu'ils soient morts et partis depuis longtemps, il reste un univers...
+
+306
+0:14:57.16,000 --> 0:15:02,000
+Mon ordinateur est dix mille millions de fois
+
+307
+0:15:02.16,000 --> 0:15:07,000
+plus grand que l'univers dans lequel ils ont vécu lorsque Baricelli abandonna ce projet.
+
+308
+0:15:07.16,000 --> 0:15:09,000
+Il pensa bien plus loin,
+
+309
+0:15:09.16,000 --> 0:15:12,000
+il pensa à la manière selon laquelle tout ça se changerait en un nouveau mode de vie.
+
+310
+0:15:12.16,000 --> 0:15:14,000
+Et c'est ce qui se passe à présent!
+
+311
+0:15:14.16,000 --> 0:15:16,000
+Lorsque Juan Enriquez nous parla
+
+312
+0:15:16.16,000 --> 0:15:2,000
+de ces 12 000 milliards de bits qui sont transférés d'un endroit à un autre,
+
+313
+0:15:20.16,000 --> 0:15:24,000
+de toutes ces données génétiques envoyées au laboratoire protéomique,
+
+314
+0:15:24.16,000 --> 0:15:26,000
+il s'agissait de ce à quoi Baricelli pensait :
+
+315
+0:15:26.16,000 --> 0:15:29,000
+le code numérique de ces machines
+
+316
+0:15:29.16,000 --> 0:15:31,000
+est en fait en train de coder
+
+317
+0:15:31.16,000 --> 0:15:34,000
+à partir d'acides aminés.
+
+318
+0:15:34.16,000 --> 0:15:37,000
+C'est ce que l'on a fait depuis la PCR
+
+319
+0:15:37.16,000 --> 0:15:43,000
+et la synthèse de petites séquences d'ADN.
+
+320
+0:15:43.16,000 --> 0:15:46,000
+Très bientôt, nous synthétiserons des protéines
+
+321
+0:15:46.16,000 --> 0:15:51,000
+et comme Steve l'a montré, c'est un monde entièrement nouveau qui s'ouvrira à nous.
+
+322
+0:15:51.16,000 --> 0:15:54,000
+Ce sera un monde que von Neumann imagina.
+
+323
+0:15:54.16,000 --> 0:15:57,000
+Ceci fut publié après sa mort. Il s'agit de ses notes
+
+324
+0:15:57.16,000 --> 0:15:59,000
+à propos de machines autoreproductrices.
+
+325
+0:15:59.16,000 --> 0:16:02,000
+Comment enclencher ces machines
+
+326
+0:16:02.16,000 --> 0:16:04,000
+de manière à les faire se reproduire.
+
+327
+0:16:04.16,000 --> 0:16:06,000
+Trois personnes se penchèrent sur le sujet :
+
+328
+0:16:06.16,000 --> 0:16:09,000
+Baricelli imagina le concept de code en tant qu'objet vivant.
+
+329
+0:16:09.16,000 --> 0:16:12,000
+Von Neumann découvrit comment construire ces machines.
+
+330
+0:16:12.16,000 --> 0:16:15,000
+Aux dernières nouvelles, 4 millions
+
+331
+0:16:15.16,000 --> 0:16:18,000
+de ces machines de von Neumann sont construites chaque jour.
+
+332
+0:16:18.16,000 --> 0:16:22,000
+Et Julian Bigelow qui mourut il y a 10 jours.
+
+333
+0:16:22.16,000 --> 0:16:25,000
+Cet article est son éloge nécrologique.
+
+334
+0:16:25.16,000 --> 0:16:27,000
+Il était le lien manquant,
+
+335
+0:16:27.16,000 --> 0:16:29,000
+l'ingénieur qui trouva comment
+
+336
+0:16:29.16,000 --> 0:16:32,000
+assembler ces tubes électroniques et les faire fonctionner.
+
+337
+0:16:32.16,000 --> 0:16:34,000
+Tous nos ordinateurs contiennent
+
+338
+0:16:34.16,000 --> 0:16:38,000
+les copies de l'architecture qu'il dut dessiner,
+
+339
+0:16:38.16,000 --> 0:16:41,000
+un jour, au papier et au crayon.
+
+340
+0:16:41.16,000 --> 0:16:43,000
+On lui doit énormément.
+
+341
+0:16:43.16,000 --> 0:16:47,000
+Il expliqua, de manière très généreuse,
+
+342
+0:16:47.16,000 --> 0:16:49,000
+l'esprit qui amena toutes ces personnes
+
+343
+0:16:49.16,000 --> 0:16:52,000
+à l'Institute for Advanced Study, dans les années 40, à réaliser ce projet,
+
+344
+0:16:52.16,000 --> 0:16:55,000
+librement accessible au reste du monde, sans brevet
+
+345
+0:16:55.16,000 --> 0:16:58,000
+ni restriciton ou propriété intellectuelle.
+
+346
+0:16:58.16,000 --> 0:17:01,000
+Voici la dernière entrée du registre,
+
+347
+0:17:01.16,000 --> 0:17:04,000
+lorsque la machine fut débranchée, en juillet 1958.
+
+348
+0:17:04.16,000 --> 0:17:07,000
+C'est Julian Bigelow qui l'utilisa jusqu'à minuit
+
+349
+0:17:07.16,000 --> 0:17:09,000
+avant que la machine ne soit éteinte.
+
+350
+0:17:09.16,000 --> 0:17:11,000
+C'est la fin.
+
+351
+0:17:11.16,000 --> 0:17:13,000
+Merci beaucoup.
+
+352
+0:17:13.16,000 --> 0:17:14,000
+(Applaudissements)
+

@@ -1,0 +1,884 @@
+1
+0:00:13.937,000 --> 0:00:14,000
+Hello.
+
+2
+0:00:15.175,000 --> 0:00:16,000
+I'm not a real person.
+
+3
+0:00:17.119,000 --> 0:00:19,000
+I'm actually a copy of a real person.
+
+4
+0:00:19.913,000 --> 0:00:21,000
+Although, I feel like a real person.
+
+5
+0:00:22.49,000 --> 0:00:23,000
+It's kind of hard to explain.
+
+6
+0:00:24.42,000 --> 0:00:27,000
+Hold on -- I think I saw a real person ... there's one.
+
+7
+0:00:28.697,000 --> 0:00:29,000
+Let's bring him onstage.
+
+8
+0:00:33.307,000 --> 0:00:34,000
+Hello.
+
+9
+0:00:35.485,000 --> 0:00:38,000
+(Applause)
+
+10
+0:00:40.3,000 --> 0:00:43,000
+What you see up there is a digital human.
+
+11
+0:00:43.99,000 --> 0:00:45,000
+I'm wearing an inertial motion capture suit
+
+12
+0:00:46.998,000 --> 0:00:48,000
+that's figuring what my body is doing.
+
+13
+0:00:49.601,000 --> 0:00:52,000
+And I've got a single camera here that's watching my face
+
+14
+0:00:53.45,000 --> 0:00:57,000
+and feeding some machine-learning software that's taking my expressions,
+
+15
+0:00:58.315,000 --> 0:01:01,000
+like, "Hm, hm, hm,"
+
+16
+0:01:02.379,000 --> 0:01:03,000
+and transferring it to that guy.
+
+17
+0:01:05.3,000 --> 0:01:08,000
+We call him "DigiDoug."
+
+18
+0:01:09.292,000 --> 0:01:13,000
+He's actually a 3-D character that I'm controlling live in real time.
+
+19
+0:01:16.292,000 --> 0:01:18,000
+So, I work in visual effects.
+
+20
+0:01:19.101,000 --> 0:01:2,000
+And in visual effects,
+
+21
+0:01:20.292,000 --> 0:01:25,000
+one of the hardest things to do is to create believable, digital humans
+
+22
+0:01:26.227,000 --> 0:01:28,000
+that the audience accepts as real.
+
+23
+0:01:28.433,000 --> 0:01:32,000
+People are just really good at recognizing other people.
+
+24
+0:01:32.981,000 --> 0:01:33,000
+Go figure!
+
+25
+0:01:35.577,000 --> 0:01:38,000
+So, that's OK, we like a challenge.
+
+26
+0:01:39.006,000 --> 0:01:4,000
+Over the last 15 years,
+
+27
+0:01:40.871,000 --> 0:01:44,000
+we've been putting humans and creatures into film
+
+28
+0:01:45.878,000 --> 0:01:46,000
+that you accept as real.
+
+29
+0:01:48.712,000 --> 0:01:5,000
+If they're happy, you should feel happy.
+
+30
+0:01:51.982,000 --> 0:01:56,000
+And if they feel pain, you should empathize with them.
+
+31
+0:01:58.467,000 --> 0:02:,000
+We're getting pretty good at it, too.
+
+32
+0:02:00.681,000 --> 0:02:02,000
+But it's really, really difficult.
+
+33
+0:02:03.847,000 --> 0:02:06,000
+Effects like these take thousands of hours
+
+34
+0:02:07.085,000 --> 0:02:09,000
+and hundreds of really talented artists.
+
+35
+0:02:10.792,000 --> 0:02:11,000
+But things have changed.
+
+36
+0:02:13.014,000 --> 0:02:14,000
+Over the last five years,
+
+37
+0:02:14.958,000 --> 0:02:18,000
+computers and graphics cards have gotten seriously fast.
+
+38
+0:02:20.508,000 --> 0:02:23,000
+And machine learning, deep learning, has happened.
+
+39
+0:02:25.408,000 --> 0:02:26,000
+So we asked ourselves:
+
+40
+0:02:27.32,000 --> 0:02:3,000
+Do you suppose we could create a photo-realistic human,
+
+41
+0:02:31.122,000 --> 0:02:32,000
+like we're doing for film,
+
+42
+0:02:33.932,000 --> 0:02:38,000
+but where you're seeing the actual emotions and the details
+
+43
+0:02:39.603,000 --> 0:02:43,000
+of the person who's controlling the digital human
+
+44
+0:02:43.704,000 --> 0:02:44,000
+in real time?
+
+45
+0:02:45.704,000 --> 0:02:46,000
+In fact, that's our goal:
+
+46
+0:02:47.292,000 --> 0:02:5,000
+If you were having a conversation with DigiDoug
+
+47
+0:02:51.077,000 --> 0:02:52,000
+one-on-one,
+
+48
+0:02:53.331,000 --> 0:02:58,000
+is it real enough so that you could tell whether or not I was lying to you?
+
+49
+0:02:59.934,000 --> 0:03:,000
+So that was our goal.
+
+50
+0:03:02.601,000 --> 0:03:06,000
+About a year and a half ago, we set off to achieve this goal.
+
+51
+0:03:06.641,000 --> 0:03:09,000
+What I'm going to do now is take you basically on a little bit of a journey
+
+52
+0:03:10.564,000 --> 0:03:13,000
+to see exactly what we had to do to get where we are.
+
+53
+0:03:15.832,000 --> 0:03:18,000
+We had to capture an enormous amount of data.
+
+54
+0:03:20.347,000 --> 0:03:22,000
+In fact, by the end of this thing,
+
+55
+0:03:23.085,000 --> 0:03:27,000
+we had probably one of the largest facial data sets on the planet.
+
+56
+0:03:28.038,000 --> 0:03:29,000
+Of my face.
+
+57
+0:03:29.744,000 --> 0:03:31,000
+(Laughter)
+
+58
+0:03:32.03,000 --> 0:03:33,000
+Why me?
+
+59
+0:03:33.324,000 --> 0:03:35,000
+Well, I'll do just about anything for science.
+
+60
+0:03:36.158,000 --> 0:03:37,000
+I mean, look at me!
+
+61
+0:03:38.625,000 --> 0:03:39,000
+I mean, come on.
+
+62
+0:03:43.32,000 --> 0:03:48,000
+We had to first figure out what my face actually looked like.
+
+63
+0:03:49.391,000 --> 0:03:52,000
+Not just a photograph or a 3-D scan,
+
+64
+0:03:52.442,000 --> 0:03:55,000
+but what it actually looked like in any photograph,
+
+65
+0:03:56.387,000 --> 0:03:58,000
+how light interacts with my skin.
+
+66
+0:03:59.768,000 --> 0:04:04,000
+Luckily for us, about three blocks away from our Los Angeles studio
+
+67
+0:04:05.041,000 --> 0:04:07,000
+is this place called ICT.
+
+68
+0:04:07.708,000 --> 0:04:08,000
+They're a research lab
+
+69
+0:04:09.004,000 --> 0:04:12,000
+that's associated with the University of Southern California.
+
+70
+0:04:12.871,000 --> 0:04:15,000
+They have a device there, it's called the "light stage."
+
+71
+0:04:16.45,000 --> 0:04:19,000
+It has a zillion individually controlled lights
+
+72
+0:04:20.188,000 --> 0:04:21,000
+and a whole bunch of cameras.
+
+73
+0:04:22.085,000 --> 0:04:28,000
+And with that, we can reconstruct my face under a myriad of lighting conditions.
+
+74
+0:04:29.589,000 --> 0:04:3,000
+We even captured the blood flow
+
+75
+0:04:31.195,000 --> 0:04:34,000
+and how my face changes when I make expressions.
+
+76
+0:04:35.454,000 --> 0:04:4,000
+This let us build a model of my face that, quite frankly, is just amazing.
+
+77
+0:04:41.399,000 --> 0:04:45,000
+It's got an unfortunate level of detail, unfortunately.
+
+78
+0:04:45.756,000 --> 0:04:46,000
+(Laughter)
+
+79
+0:04:47.058,000 --> 0:04:5,000
+You can see every pore, every wrinkle.
+
+80
+0:04:50.778,000 --> 0:04:51,000
+But we had to have that.
+
+81
+0:04:52.96,000 --> 0:04:54,000
+Reality is all about detail.
+
+82
+0:04:55.365,000 --> 0:04:56,000
+And without it, you miss it.
+
+83
+0:04:58.793,000 --> 0:04:59,000
+We are far from done, though.
+
+84
+0:05:01.363,000 --> 0:05:04,000
+This let us build a model of my face that looked like me.
+
+85
+0:05:05.196,000 --> 0:05:07,000
+But it didn't really move like me.
+
+86
+0:05:08.871,000 --> 0:05:1,000
+And that's where machine learning comes in.
+
+87
+0:05:11.608,000 --> 0:05:14,000
+And machine learning needs a ton of data.
+
+88
+0:05:15.497,000 --> 0:05:19,000
+So I sat down in front of some high-resolution motion-capturing device.
+
+89
+0:05:20.45,000 --> 0:05:24,000
+And also, we did this traditional motion capture with markers.
+
+90
+0:05:25.696,000 --> 0:05:27,000
+We created a whole bunch of images of my face
+
+91
+0:05:28.696,000 --> 0:05:32,000
+and moving point clouds that represented that shapes of my face.
+
+92
+0:05:33.996,000 --> 0:05:35,000
+Man, I made a lot of expressions,
+
+93
+0:05:36.831,000 --> 0:05:39,000
+I said different lines in different emotional states ...
+
+94
+0:05:40.315,000 --> 0:05:42,000
+We had to do a lot of capture with this.
+
+95
+0:05:43.752,000 --> 0:05:45,000
+Once we had this enormous amount of data,
+
+96
+0:05:46.667,000 --> 0:05:49,000
+we built and trained deep neural networks.
+
+97
+0:05:51.117,000 --> 0:05:52,000
+And when we were finished with that,
+
+98
+0:05:52.887,000 --> 0:05:54,000
+in 16 milliseconds,
+
+99
+0:05:55.355,000 --> 0:05:58,000
+the neural network can look at my image
+
+100
+0:05:58.491,000 --> 0:06:,000
+and figure out everything about my face.
+
+101
+0:06:02.458,000 --> 0:06:07,000
+It can compute my expression, my wrinkles, my blood flow --
+
+102
+0:06:07.958,000 --> 0:06:09,000
+even how my eyelashes move.
+
+103
+0:06:10.925,000 --> 0:06:12,000
+This is then rendered and displayed up there
+
+104
+0:06:13.784,000 --> 0:06:16,000
+with all the detail that we captured previously.
+
+105
+0:06:18.077,000 --> 0:06:19,000
+We're far from done.
+
+106
+0:06:20.188,000 --> 0:06:22,000
+This is very much a work in progress.
+
+107
+0:06:22.419,000 --> 0:06:25,000
+This is actually the first time we've shown it outside of our company.
+
+108
+0:06:25.764,000 --> 0:06:29,000
+And, you know, it doesn't look as convincing as we want;
+
+109
+0:06:29.982,000 --> 0:06:31,000
+I've got wires coming out of the back of me,
+
+110
+0:06:32.189,000 --> 0:06:34,000
+and there's a sixth-of-a-second delay
+
+111
+0:06:34.251,000 --> 0:06:38,000
+between when we capture the video and we display it up there.
+
+112
+0:06:38.642,000 --> 0:06:4,000
+Sixth of a second -- that's crazy good!
+
+113
+0:06:41.911,000 --> 0:06:44,000
+But it's still why you're hearing a bit of an echo and stuff.
+
+114
+0:06:46.104,000 --> 0:06:49,000
+And you know, this machine learning stuff is brand-new to us,
+
+115
+0:06:50.017,000 --> 0:06:54,000
+sometimes it's hard to convince to do the right thing, you know?
+
+116
+0:06:54.265,000 --> 0:06:56,000
+It goes a little sideways.
+
+117
+0:06:56.347,000 --> 0:06:58,000
+(Laughter)
+
+118
+0:06:59.538,000 --> 0:07:02,000
+But why did we do this?
+
+119
+0:07:03.077,000 --> 0:07:05,000
+Well, there's two reasons, really.
+
+120
+0:07:05.363,000 --> 0:07:07,000
+First of all, it is just crazy cool.
+
+121
+0:07:08.363,000 --> 0:07:09,000
+(Laughter)
+
+122
+0:07:09.395,000 --> 0:07:1,000
+How cool is it?
+
+123
+0:07:10.99,000 --> 0:07:11,000
+Well, with the push of a button,
+
+124
+0:07:13.006,000 --> 0:07:17,000
+I can deliver this talk as a completely different character.
+
+125
+0:07:17.823,000 --> 0:07:19,000
+This is Elbor.
+
+126
+0:07:22.037,000 --> 0:07:24,000
+We put him together to test how this would work
+
+127
+0:07:24.373,000 --> 0:07:26,000
+with a different appearance.
+
+128
+0:07:27.45,000 --> 0:07:31,000
+And the cool thing about this technology is that, while I've changed my character,
+
+129
+0:07:32.292,000 --> 0:07:35,000
+the performance is still all me.
+
+130
+0:07:35.589,000 --> 0:07:37,000
+I tend to talk out of the right side of my mouth;
+
+131
+0:07:38.287,000 --> 0:07:39,000
+so does Elbor.
+
+132
+0:07:39.89,000 --> 0:07:4,000
+(Laughter)
+
+133
+0:07:42.021,000 --> 0:07:44,000
+Now, the second reason we did this, and you can imagine,
+
+134
+0:07:44.835,000 --> 0:07:46,000
+is this is going to be great for film.
+
+135
+0:07:47.195,000 --> 0:07:49,000
+This is a brand-new, exciting tool
+
+136
+0:07:49.92,000 --> 0:07:53,000
+for artists and directors and storytellers.
+
+137
+0:07:55.131,000 --> 0:07:56,000
+It's pretty obvious, right?
+
+138
+0:07:56.639,000 --> 0:07:58,000
+I mean, this is going to be really neat to have.
+
+139
+0:07:59.125,000 --> 0:08:01,000
+But also, now that we've built it,
+
+140
+0:08:01.204,000 --> 0:08:03,000
+it's clear that this is going to go way beyond film.
+
+141
+0:08:05.51,000 --> 0:08:06,000
+But wait.
+
+142
+0:08:07.653,000 --> 0:08:1,000
+Didn't I just change my identity with the push of a button?
+
+143
+0:08:11.653,000 --> 0:08:14,000
+Isn't this like "deepfake" and face-swapping
+
+144
+0:08:14.71,000 --> 0:08:15,000
+that you guys may have heard of?
+
+145
+0:08:17.208,000 --> 0:08:18,000
+Well, yeah.
+
+146
+0:08:19.074,000 --> 0:08:21,000
+In fact, we are using some of the same technology
+
+147
+0:08:22.05,000 --> 0:08:23,000
+that deepfake is using.
+
+148
+0:08:23.954,000 --> 0:08:27,000
+Deepfake is 2-D and image based, while ours is full 3-D
+
+149
+0:08:28.577,000 --> 0:08:3,000
+and way more powerful.
+
+150
+0:08:31.204,000 --> 0:08:32,000
+But they're very related.
+
+151
+0:08:33.68,000 --> 0:08:34,000
+And now I can hear you thinking,
+
+152
+0:08:35.593,000 --> 0:08:36,000
+"Darn it!
+
+153
+0:08:36.895,000 --> 0:08:39,000
+I though I could at least trust and believe in video.
+
+154
+0:08:40.72,000 --> 0:08:42,000
+If it was live video, didn't it have to be true?"
+
+155
+0:08:44.609,000 --> 0:08:47,000
+Well, we know that's not really the case, right?
+
+156
+0:08:48.727,000 --> 0:08:51,000
+Even without this, there are simple tricks that you can do with video
+
+157
+0:08:52.561,000 --> 0:08:54,000
+like how you frame a shot
+
+158
+0:08:55.361,000 --> 0:08:59,000
+that can make it really misrepresent what's actually going on.
+
+159
+0:09:00.263,000 --> 0:09:03,000
+And I've been working in visual effects for a long time,
+
+160
+0:09:03.593,000 --> 0:09:04,000
+and I've known for a long time
+
+161
+0:09:05.549,000 --> 0:09:1,000
+that with enough effort, we can fool anyone about anything.
+
+162
+0:09:11.546,000 --> 0:09:13,000
+What this stuff and deepfake is doing
+
+163
+0:09:13.958,000 --> 0:09:17,000
+is making it easier and more accessible to manipulate video,
+
+164
+0:09:18.593,000 --> 0:09:23,000
+just like Photoshop did for manipulating images, some time ago.
+
+165
+0:09:25.441,000 --> 0:09:26,000
+I prefer to think about
+
+166
+0:09:26.763,000 --> 0:09:31,000
+how this technology could bring humanity to other technology
+
+167
+0:09:31.823,000 --> 0:09:33,000
+and bring us all closer together.
+
+168
+0:09:34.141,000 --> 0:09:36,000
+Now that you've seen this,
+
+169
+0:09:36.524,000 --> 0:09:37,000
+think about the possibilities.
+
+170
+0:09:39.81,000 --> 0:09:43,000
+Right off the bat, you're going to see it in live events and concerts, like this.
+
+171
+0:09:45.612,000 --> 0:09:49,000
+Digital celebrities, especially with new projection technology,
+
+172
+0:09:50.371,000 --> 0:09:53,000
+are going to be just like the movies, but alive and in real time.
+
+173
+0:09:55.609,000 --> 0:09:57,000
+And new forms of communication are coming.
+
+174
+0:09:59.088,000 --> 0:10:03,000
+You can already interact with DigiDoug in VR.
+
+175
+0:10:03.699,000 --> 0:10:05,000
+And it is eye-opening.
+
+176
+0:10:05.993,000 --> 0:10:08,000
+It's just like you and I are in the same room,
+
+177
+0:10:09.879,000 --> 0:10:11,000
+even though we may be miles apart.
+
+178
+0:10:12.276,000 --> 0:10:14,000
+Heck, the next time you make a video call,
+
+179
+0:10:15.141,000 --> 0:10:18,000
+you will be able to choose the version of you
+
+180
+0:10:18.901,000 --> 0:10:19,000
+you want people to see.
+
+181
+0:10:20.974,000 --> 0:10:22,000
+It's like really, really good makeup.
+
+182
+0:10:24.853,000 --> 0:10:27,000
+I was scanned about a year and a half ago.
+
+183
+0:10:29.068,000 --> 0:10:3,000
+I've aged.
+
+184
+0:10:30.813,000 --> 0:10:31,000
+DigiDoug hasn't.
+
+185
+0:10:32.798,000 --> 0:10:35,000
+On video calls, I never have to grow old.
+
+186
+0:10:38.322,000 --> 0:10:41,000
+And as you can imagine, this is going to be used
+
+187
+0:10:41.434,000 --> 0:10:44,000
+to give virtual assistants a body and a face.
+
+188
+0:10:44.671,000 --> 0:10:45,000
+A humanity.
+
+189
+0:10:45.887,000 --> 0:10:47,000
+I already love it that when I talk to virtual assistants,
+
+190
+0:10:48.673,000 --> 0:10:5,000
+they answer back in a soothing, humanlike voice.
+
+191
+0:10:51.919,000 --> 0:10:52,000
+Now they'll have a face.
+
+192
+0:10:53.719,000 --> 0:10:57,000
+And you'll get all the nonverbal cues that make communication so much easier.
+
+193
+0:11:00.171,000 --> 0:11:01,000
+It's going to be really nice.
+
+194
+0:11:01.615,000 --> 0:11:04,000
+You'll be able to tell when a virtual assistant is busy or confused
+
+195
+0:11:05.276,000 --> 0:11:07,000
+or concerned about something.
+
+196
+0:11:09.694,000 --> 0:11:11,000
+Now, I couldn't leave the stage
+
+197
+0:11:12.227,000 --> 0:11:14,000
+without you actually being able to see my real face,
+
+198
+0:11:14.949,000 --> 0:11:15,000
+so you can do some comparison.
+
+199
+0:11:18.573,000 --> 0:11:19,000
+So let me take off my helmet here.
+
+200
+0:11:20.473,000 --> 0:11:24,000
+Yeah, don't worry, it looks way worse than it feels.
+
+201
+0:11:25.267,000 --> 0:11:27,000
+(Laughter)
+
+202
+0:11:29.188,000 --> 0:11:3,000
+So this is where we are.
+
+203
+0:11:30.91,000 --> 0:11:31,000
+Let me put this back on here.
+
+204
+0:11:32.538,000 --> 0:11:33,000
+(Laughter)
+
+205
+0:11:35.115,000 --> 0:11:36,000
+Doink!
+
+206
+0:11:37.292,000 --> 0:11:38,000
+So this is where we are.
+
+207
+0:11:39.997,000 --> 0:11:42,000
+We're on the cusp of being able to interact with digital humans
+
+208
+0:11:43.722,000 --> 0:11:45,000
+that are strikingly real,
+
+209
+0:11:45.927,000 --> 0:11:48,000
+whether they're being controlled by a person or a machine.
+
+210
+0:11:49.22,000 --> 0:11:53,000
+And like all new technology these days,
+
+211
+0:11:54.531,000 --> 0:11:58,000
+it's going to come with some serious and real concerns
+
+212
+0:11:59.301,000 --> 0:12:,000
+that we have to deal with.
+
+213
+0:12:02.017,000 --> 0:12:04,000
+But I am just so really excited
+
+214
+0:12:04.159,000 --> 0:12:09,000
+about the ability to bring something that I've seen only in science fiction
+
+215
+0:12:09.236,000 --> 0:12:11,000
+for my entire life
+
+216
+0:12:11.53,000 --> 0:12:12,000
+into reality.
+
+217
+0:12:13.752,000 --> 0:12:17,000
+Communicating with computers will be like talking to a friend.
+
+218
+0:12:18.323,000 --> 0:12:2,000
+And talking to faraway friends
+
+219
+0:12:20.847,000 --> 0:12:23,000
+will be like sitting with them together in the same room.
+
+220
+0:12:24.974,000 --> 0:12:25,000
+Thank you very much.
+
+221
+0:12:26.306,000 --> 0:12:32,000
+(Applause)
+

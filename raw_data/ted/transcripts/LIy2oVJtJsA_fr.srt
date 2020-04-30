@@ -1,0 +1,836 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elsa Jamet Relecteur: Nhu PHAM
+
+2
+0:00:12.71,000 --> 0:00:16,000
+Il y a neuf ans, je travaillais pour le gouvernement américain en Irak,
+
+3
+0:00:16.812,000 --> 0:00:19,000
+sur la reconstruction des infrastructures électriques.
+
+4
+0:00:19.928,000 --> 0:00:21,000
+J'étais là-bas, faisant ce travail
+
+5
+0:00:22.525,000 --> 0:00:23,000
+parce que je pense que la technologie
+
+6
+0:00:24.415,000 --> 0:00:26,000
+peut améliorer la vie des gens.
+
+7
+0:00:27.064,000 --> 0:00:3,000
+Un après-midi, je prenais le thé avec un commerçant
+
+8
+0:00:30.539,000 --> 0:00:32,000
+à l'hôtel Al Rasheed à Bagdad,
+
+9
+0:00:32.819,000 --> 0:00:36,000
+et il m'a dit : « Vous, les Américains, vous pouvez envoyer quelqu'un sur la Lune
+
+10
+0:00:36.979,000 --> 0:00:4,000
+mais moi, quand je rentrerai ce soir, je ne pourrai pas allumer la lumière. »
+
+11
+0:00:40.98,000 --> 0:00:42,000
+À cette époque, le gouvernement américain avait dépensé
+
+12
+0:00:43.677,000 --> 0:00:44,000
+plus de 2 milliards de dollars
+
+13
+0:00:45.517,000 --> 0:00:47,000
+pour la reconstruction électrique.
+
+14
+0:00:47.684,000 --> 0:00:5,000
+Comment peut-on s'assurer que la technologie atteigne les utilisateurs ?
+
+15
+0:00:51.116,000 --> 0:00:53,000
+Comment la met-on entre leurs mains
+
+16
+0:00:53.266,000 --> 0:00:54,000
+pour que ça soit utile ?
+
+17
+0:00:55.072,000 --> 0:00:58,000
+Voilà donc les questions que mes collègues et moi
+
+18
+0:00:58.116,000 --> 0:01:,000
+nous posons à D-Rev.
+
+19
+0:01:00.229,000 --> 0:01:03,000
+D-Rev est l'abréviation de Design Revolution.
+
+20
+0:01:03.377,000 --> 0:01:05,000
+J'ai pris la tête de l'organisation il y a quatre ans
+
+21
+0:01:06.251,000 --> 0:01:1,000
+et j'ai mis l'accent sur le développement de produits qui arrivent aux utilisateurs.
+
+22
+0:01:10.462,000 --> 0:01:12,000
+Et pas n'importe quels utilisateurs,
+
+23
+0:01:12.506,000 --> 0:01:15,000
+mais des clients qui vivent avec moins de quatre dollars par jour.
+
+24
+0:01:16.001,000 --> 0:01:18,000
+Un des domaines clefs sont les dispositifs médicaux,
+
+25
+0:01:18.789,000 --> 0:01:19,000
+même s'il ne paraît pas évident
+
+26
+0:01:20.742,000 --> 0:01:21,000
+que les dispositifs médicaux ont quelque chose en commun
+
+27
+0:01:22.554,000 --> 0:01:24,000
+avec le réseau électrique en Irak,
+
+28
+0:01:25.12,000 --> 0:01:27,000
+il y a quelques similitudes.
+
+29
+0:01:27.249,000 --> 0:01:29,000
+Malgré les technologies avancées, aucune n'arrive
+
+30
+0:01:29.958,000 --> 0:01:31,000
+chez les personnes qui en ont le plus besoin.
+
+31
+0:01:32.726,000 --> 0:01:34,000
+Je vais donc vous parler d'un de nos projets,
+
+32
+0:01:35.461,000 --> 0:01:37,000
+ReMotion Knee, c'est une prothèse de genou
+
+33
+0:01:38.248,000 --> 0:01:4,000
+pour les personnes amputées au-dessus du genou.
+
+34
+0:01:40.667,000 --> 0:01:42,000
+Ce projet a commencé lorsque la Jaipur Foot Organization,
+
+35
+0:01:43.497,000 --> 0:01:45,000
+le plus grand poseur de prothèses au monde,
+
+36
+0:01:46.091,000 --> 0:01:47,000
+est venue à Bay Area et a dit :
+
+37
+0:01:47.7,000 --> 0:01:49,000
+« Nous avons besoin d'un meilleur genou. »
+
+38
+0:01:50.53,000 --> 0:01:53,000
+Si vous vivez avec moins de 4 dollars par jour,
+
+39
+0:01:53.678,000 --> 0:01:54,000
+et que vous êtes amputé,
+
+40
+0:01:55.145,000 --> 0:01:57,000
+ça devrait être à cause d'un accident de véhicule
+
+41
+0:01:57.729,000 --> 0:01:59,000
+au lieu des mines.
+
+42
+0:02:00.382,000 --> 0:02:03,000
+Vous marchez sur le bord de la route et vous êtes percuté par un camion,
+
+43
+0:02:03.754,000 --> 0:02:05,000
+ou vous essayez de monter dans un train en marche,
+
+44
+0:02:06.268,000 --> 0:02:09,000
+vous êtes en retard pour le travail, et votre pantalon se coince.
+
+45
+0:02:09.683,000 --> 0:02:12,000
+La réalité est que lorsque vous n'avez pas beaucoup d'argent,
+
+46
+0:02:13.038,000 --> 0:02:15,000
+comme Kamal, ce jeune homme,
+
+47
+0:02:15.038,000 --> 0:02:17,000
+la seule possibilité que vous avez
+
+48
+0:02:17.242,000 --> 0:02:19,000
+est un bâton en bambou pour vous déplacer.
+
+49
+0:02:19.806,000 --> 0:02:21,000
+À quel point ce problème est-il important ?
+
+50
+0:02:22.288,000 --> 0:02:24,000
+Chaque année, il y a plus de trois millions d'amputés
+
+51
+0:02:25.215,000 --> 0:02:28,000
+qui ont besoin d'un nouveau genou ou d'un remplacement de prothèse.
+
+52
+0:02:28.504,000 --> 0:02:29,000
+Quelles sont leurs options ?
+
+53
+0:02:29.973,000 --> 0:02:32,000
+Voilà le haut de gamme, ce qu'on appelle un « genou intelligent ».
+
+54
+0:02:33.292,000 --> 0:02:36,000
+Il a un microprocesseur à l'intérieur et peut à peu près tout faire,
+
+55
+0:02:37.08,000 --> 0:02:38,000
+mais il coûte 20 000 dollars,
+
+56
+0:02:38.772,000 --> 0:02:4,000
+et pour vous donner une idée de qui porte ça,
+
+57
+0:02:40.978,000 --> 0:02:43,000
+les anciens combattants américains qui reviennent d'Afghanistan ou d'Irak
+
+58
+0:02:44.221,000 --> 0:02:46,000
+sont équipés de quelque chose comme ça.
+
+59
+0:02:46.467,000 --> 0:02:48,000
+Ça, c'est un genou bas de gamme en titane.
+
+60
+0:02:49.064,000 --> 0:02:51,000
+C'est une prothèse polycentrique, ça signifie que
+
+61
+0:02:51.541,000 --> 0:02:53,000
+le mécanisme est à quatre dimensions,
+
+62
+0:02:53.75,000 --> 0:02:55,000
+qui imite un genou naturel humain.
+
+63
+0:02:56.3,000 --> 0:02:58,000
+Mais à 1 400 dollars, c'est encore trop cher
+
+64
+0:02:58.703,000 --> 0:03:,000
+pour les gens comme Kamal.
+
+65
+0:03:01.017,000 --> 0:03:03,000
+Enfin, vous pouvez voir ici un genou bas de gamme.
+
+66
+0:03:03.68,000 --> 0:03:06,000
+C'est un genou qui a été conçu spécifiquement pour les gens pauvres.
+
+67
+0:03:07.191,000 --> 0:03:08,000
+Mais avec un prix abordable,
+
+68
+0:03:09.02,000 --> 0:03:1,000
+on perd en fonctionnalité.
+
+69
+0:03:10.915,000 --> 0:03:12,000
+Ici, le mécanisme est un axe simple,
+
+70
+0:03:13.566,000 --> 0:03:15,000
+et c'est comme le gond d'une porte.
+
+71
+0:03:15.815,000 --> 0:03:17,000
+Vous imaginez à quel point c'est instable.
+
+72
+0:03:18.12,000 --> 0:03:21,000
+Voilà le type de mécanisme que la Jaipur Foot Organization
+
+73
+0:03:21.395,000 --> 0:03:23,000
+utilisait en cherchant une meilleure prothèse.
+
+74
+0:03:23.804,000 --> 0:03:25,000
+Je voulais vous montrer comment une jambe fonctionne
+
+75
+0:03:26.401,000 --> 0:03:29,000
+car avec tous ces genoux, c'est difficile d'imaginer comment on assemble le tout.
+
+76
+0:03:30.2,000 --> 0:03:31,000
+En haut, vous avez une chaussette,
+
+77
+0:03:32.008,000 --> 0:03:33,000
+qui se met sur le membre résiduel,
+
+78
+0:03:33.954,000 --> 0:03:35,000
+et pour chacun ceci est un peu différent.
+
+79
+0:03:36.514,000 --> 0:03:38,000
+Ensuite vous avez le genou, ici un genou à axe unique,
+
+80
+0:03:39.418,000 --> 0:03:4,000
+vous pouvez voir comment il tourne,
+
+81
+0:03:41.408,000 --> 0:03:44,000
+puis le tibia, ensuite le pied.
+
+82
+0:03:44.911,000 --> 0:03:46,000
+Nous avons été capables de développer un genou,
+
+83
+0:03:47.634,000 --> 0:03:49,000
+un genou polycentrique. Ce type de genou
+
+84
+0:03:49.996,000 --> 0:03:51,000
+réagit comme un genou humain, mime la démarche humaine,
+
+85
+0:03:52.791,000 --> 0:03:54,000
+pour un prix de vente de 80 dollars.
+
+86
+0:03:55.314,000 --> 0:03:58,000
+(Applaudissements)
+
+87
+0:03:58.628,000 --> 0:04:01,000
+La question est comment amenez-vous cette invention géniale
+
+88
+0:04:02.498,000 --> 0:04:04,000
+aux personnes qui en ont vraiment besoin ?
+
+89
+0:04:05.19,000 --> 0:04:08,000
+Comment assurer qu'elle leur arrive et qu'elle améliore leurs vies ?
+
+90
+0:04:08.496,000 --> 0:04:11,000
+Donc, à D-Rev, nous avons mené d'autres projets,
+
+91
+0:04:11.542,000 --> 0:04:13,000
+et nous nous sommes concentrés sur 3 choses qui vont
+
+92
+0:04:14.376,000 --> 0:04:17,000
+réellement apporter la technologie aux clients, aux utilisateurs,
+
+93
+0:04:17.788,000 --> 0:04:18,000
+aux personnes qui en ont besoin.
+
+94
+0:04:19.444,000 --> 0:04:21,000
+La première chose : une très grande qualité.
+
+95
+0:04:21.885,000 --> 0:04:22,000
+le produit doit être aussi performant
+
+96
+0:04:23.536,000 --> 0:04:25,000
+ou meilleur que les meilleurs produits sur le marché.
+
+97
+0:04:26.381,000 --> 0:04:28,000
+Indépendamment de votre niveau de revenu,
+
+98
+0:04:28.527,000 --> 0:04:29,000
+vous voulez le plus beau,
+
+99
+0:04:30.065,000 --> 0:04:32,000
+le meilleur produit qui soit.
+
+100
+0:04:32.753,000 --> 0:04:34,000
+Je vais vous montrer une vidéo d'un homme
+
+101
+0:04:35.442,000 --> 0:04:37,000
+qui s'appelle Ash. Vous pouvez le voir marcher.
+
+102
+0:04:38.168,000 --> 0:04:41,000
+Il porte le même système de prothèse ici, à axe simple.
+
+103
+0:04:41.27,000 --> 0:04:44,000
+Il fait un test de marche sur 10 mètres. Vous pourrez remarquer
+
+104
+0:04:44.358,000 --> 0:04:46,000
+qu'il a de grandes difficultés à se stabiliser.
+
+105
+0:04:47.313,000 --> 0:04:49,000
+Mais ce que vous ne pouvez ni voir ni deviner,
+
+106
+0:04:49.968,000 --> 0:04:51,000
+c'est que c'est psychologiquement éprouvant
+
+107
+0:04:52.555,000 --> 0:04:55,000
+de marcher et de d'essayer d'éviter de tomber.
+
+108
+0:04:56.237,000 --> 0:04:57,000
+Voilà une vidéo de Kamal.
+
+109
+0:04:57.761,000 --> 0:05:,000
+Souvenez-vous de Kamal plus tôt, tenant son bâton de bambou.
+
+110
+0:05:00.774,000 --> 0:05:02,000
+Il porte une des premières versions de notre prothèse,
+
+111
+0:05:03.482,000 --> 0:05:06,000
+et il fait le même test de marche sur 10 mètres.
+
+112
+0:05:06.582,000 --> 0:05:11,000
+Vous pouvez voir que sa stabilité est bien meilleure.
+
+113
+0:05:11.748,000 --> 0:05:14,000
+La meilleure qualité n'est donc pas simplement une performance technique.
+
+114
+0:05:15.278,000 --> 0:05:18,000
+Il s'agit aussi d'une performance humaine.
+
+115
+0:05:18.308,000 --> 0:05:21,000
+La plupart des dispositifs médicaux sont vraiment conçus
+
+116
+0:05:21.324,000 --> 0:05:24,000
+pour des Occidentaux, pour les économies les plus riches.
+
+117
+0:05:24.357,000 --> 0:05:27,000
+Mais le fait est que nos utilisateurs, nos clients,
+
+118
+0:05:27.619,000 --> 0:05:29,000
+ont des comportements différents. Ils s’asseyent en croisant les jambes,
+
+119
+0:05:30.172,000 --> 0:05:32,000
+ils s'accroupissent, ils s'agenouillent pour prier.
+
+120
+0:05:33.014,000 --> 0:05:35,000
+Nous avons conçu nos prothèses pour avoir la plus large
+
+121
+0:05:35.762,000 --> 0:05:38,000
+marge de mouvement, parmi toutes les autres prothèses du marché.
+
+122
+0:05:39.476,000 --> 0:05:42,000
+La deuxième chose nous mène au point suivant,
+
+123
+0:05:42.686,000 --> 0:05:45,000
+les produits doivent être conçus pour les besoins des utilisateurs.
+
+124
+0:05:46.553,000 --> 0:05:48,000
+Et à D-Rev, nous allons encore plus loin,
+
+125
+0:05:48.963,000 --> 0:05:5,000
+il faut être obsédé par les utilisateurs.
+
+126
+0:05:51.053,000 --> 0:05:53,000
+On ne doit penser qu'à l'utilisateur final,
+
+127
+0:05:53.623,000 --> 0:05:55,000
+mais à tous ceux qui interagissent avec le produit,
+
+128
+0:05:56.119,000 --> 0:05:58,000
+par exemple, la prothèse qui s'adapte au genou,
+
+129
+0:05:58.463,000 --> 0:06:01,000
+mais aussi le contexte dans lequel se trouve le genou.
+
+130
+0:06:01.631,000 --> 0:06:04,000
+À quoi ressemble le marché local ? Comment les composants
+
+131
+0:06:04.745,000 --> 0:06:06,000
+arrivent à la clinique ? La chaîne d'approvisionnement.
+
+132
+0:06:07.455,000 --> 0:06:11,000
+Tout ce qui est là pour s'assurer que ce produit atteint son utilisateur final,
+
+133
+0:06:11.568,000 --> 0:06:15,000
+et qu'il fait partie intégrante d'un ensemble, qu'il est utilisé.
+
+134
+0:06:15.722,000 --> 0:06:17,000
+Je voudrais vous montrer certains modèles
+
+135
+0:06:17.828,000 --> 0:06:21,000
+que nous avons fait entre la première version, le genou de Jaipur,
+
+136
+0:06:22.421,000 --> 0:06:23,000
+c'est celui-ci.
+
+137
+0:06:24.242,000 --> 0:06:25,000
+(Claquement)
+
+138
+0:06:25.968,000 --> 0:06:27,000
+Vous remarquez quelque chose ?
+
+139
+0:06:28.186,000 --> 0:06:3,000
+Elle claque.
+
+140
+0:06:30.567,000 --> 0:06:33,000
+Nous avons vu des utilisateurs qui l'avaient modifiée.
+
+141
+0:06:33.613,000 --> 0:06:36,000
+Vous voyez cette bande noire juste ici ?
+
+142
+0:06:37.125,000 --> 0:06:39,000
+C'est une sourdine faite-maison.
+
+143
+0:06:40.117,000 --> 0:06:43,000
+Nous avons constaté que des utilisateurs l'avaient modifiée autrement.
+
+144
+0:06:43.775,000 --> 0:06:47,000
+Cet amputé avait enroulé des bandages autour de sa prothèse.
+
+145
+0:06:47.789,000 --> 0:06:48,000
+Il l'a améliorée.
+
+146
+0:06:49.512,000 --> 0:06:51,000
+Et si vous la regardez,
+
+147
+0:06:51.708,000 --> 0:06:54,000
+elle a des arêtes pointues, non ?
+
+148
+0:06:55.162,000 --> 0:06:59,000
+Donc si vous la portez sous un pantalon, ou une jupe, ou un sari, ça se voit
+
+149
+0:06:59.655,000 --> 0:07:,000
+que vous portez une prothèse,
+
+150
+0:07:01.221,000 --> 0:07:05,000
+dans des sociétés où les personnes handicapées sont encore stigmatisées,
+
+151
+0:07:05.413,000 --> 0:07:07,000
+les gens sont particulièrement préoccupés par ce sujet.
+
+152
+0:07:08.16,000 --> 0:07:1,000
+Je vais vous montrer quelques modifications.
+
+153
+0:07:10.753,000 --> 0:07:12,000
+que nous avons faites à propos de différentes choses.
+
+154
+0:07:13.601,000 --> 0:07:15,000
+Ici nous avons la version n°3, le ReMotion Knee,
+
+155
+0:07:16.029,000 --> 0:07:17,000
+si vous regardez ici, vous pouvez voir
+
+156
+0:07:17.848,000 --> 0:07:21,000
+la sourdine. C'est plus silencieux.
+
+157
+0:07:22.566,000 --> 0:07:27,000
+Nous avons aussi lissé la prothèse. Nous l'avons rendue plus fine.
+
+158
+0:07:27.661,000 --> 0:07:28,000
+Ce qui se voit de façon moins,
+
+159
+0:07:29.359,000 --> 0:07:32,000
+c'est que nous l'avons élaborée pour une production de masse.
+
+160
+0:07:32.36,000 --> 0:07:33,000
+Ce qui nous amène à mon dernier point.
+
+161
+0:07:34.256,000 --> 0:07:37,000
+Nous croyons que si un produit parviendra aux utilisateurs
+
+162
+0:07:37.347,000 --> 0:07:38,000
+dans les quantités nécessaires,
+
+163
+0:07:38.864,000 --> 0:07:39,000
+ça doit être dicté par le marché,
+
+164
+0:07:40.399,000 --> 0:07:43,000
+que les produits soient vendus.
+
+165
+0:07:43.644,000 --> 0:07:45,000
+Ils ne sont pas donnés, ni largement subventionnés.
+
+166
+0:07:46.517,000 --> 0:07:49,000
+Ils doivent être élaborés pour offrir de la valeur à l'utilisateur final.
+
+167
+0:07:50.29,000 --> 0:07:52,000
+Il doit aussi être très abordable.
+
+168
+0:07:52.46,000 --> 0:07:54,000
+Un produit valorisé par un client
+
+169
+0:07:54.634,000 --> 0:07:55,000
+est utilisé par ce client,
+
+170
+0:07:56.345,000 --> 0:07:57,000
+et l'usage est ce qui crée l'effet.
+
+171
+0:07:58.248,000 --> 0:08:,000
+C'est ce que nous croyons en tant qu'ingénieurs,
+
+172
+0:08:00.637,000 --> 0:08:02,000
+et nous sommes responsables de nos clients.
+
+173
+0:08:03.507,000 --> 0:08:05,000
+Avec une production centralisée,
+
+174
+0:08:05.893,000 --> 0:08:07,000
+nous pouvons contrôler le niveau de qualité
+
+175
+0:08:08.15,000 --> 0:08:09,000
+et atteindre ce prix de 80 dollars
+
+176
+0:08:09.878,000 --> 0:08:11,000
+tout en créant une marge de profit.
+
+177
+0:08:12.368,000 --> 0:08:15,000
+Ces marges sont critiques car si vous souhaitez augmenter l'échelle,
+
+178
+0:08:15.764,000 --> 0:08:18,000
+atteindre toutes les personnes qui auraient besoin d'un genou,
+
+179
+0:08:18.803,000 --> 0:08:2,000
+ça doit être économiquement durable.
+
+180
+0:08:21.609,000 --> 0:08:23,000
+Donc je voudrais vous montrer où on en est.
+
+181
+0:08:24.205,000 --> 0:08:27,000
+Nous avons équipé plus de 5 000 amputés,
+
+182
+0:08:27.381,000 --> 0:08:29,000
+l'un des principaux indicateurs que nous regardons,
+
+183
+0:08:3,000 --> 0:08:31,000
+c'est si ça améliore des vies.
+
+184
+0:08:31.913,000 --> 0:08:32,000
+Le critère est le suivant :
+
+185
+0:08:33.429,000 --> 0:08:36,000
+la personne porte-t-elle toujours la prothèse 6 mois plus tard ?
+
+186
+0:08:36.634,000 --> 0:08:38,000
+La moyenne du secteur est d'environ 65 %.
+
+187
+0:08:39.029,000 --> 0:08:4,000
+La nôtre est de 79 %,
+
+188
+0:08:40.684,000 --> 0:08:42,000
+et nous espérons l'améliorer.
+
+189
+0:08:43.659,000 --> 0:08:46,000
+En ce moment, nos prothèses sont portées dans 12 pays.
+
+190
+0:08:46.833,000 --> 0:08:49,000
+C'est dans cette direction que nous voulons aller dans les 3 années.
+
+191
+0:08:50.276,000 --> 0:08:52,000
+Nous doublerons ce nombre en 2015,
+
+192
+0:08:52.554,000 --> 0:08:55,000
+et nous le doublerons chaque année suivante.
+
+193
+0:08:55.614,000 --> 0:08:57,000
+Mais ensuite, nous nous heurtons à un nouveau défi :
+
+194
+0:08:58.301,000 --> 0:09:02,000
+le nombre de prothésistes qualifiés pour poser ces prothèses.
+
+195
+0:09:02.634,000 --> 0:09:04,000
+Je voudrais conclure avec l'histoire de Prinima.
+
+196
+0:09:05.422,000 --> 0:09:06,000
+Prinima avait 18 ans
+
+197
+0:09:07.113,000 --> 0:09:1,000
+quand elle a perdu sa jambe dans un accident de voiture.
+
+198
+0:09:10.22,000 --> 0:09:15,000
+Elle a voyagé pendant 12 heures en train pour se faire poser une prothèse.
+
+199
+0:09:16.079,000 --> 0:09:18,000
+Puisque tous les amputés qui portent nos genoux
+
+200
+0:09:18.546,000 --> 0:09:19,000
+nous touchent en tant que concepteurs,
+
+201
+0:09:20.529,000 --> 0:09:24,000
+elle a une signification particulière pour moi, en tant qu'ingénieur et femme
+
+202
+0:09:24.695,000 --> 0:09:28,000
+parce qu'elle était à l'école, étudiait pour devenir ingénieur.
+
+203
+0:09:29.232,000 --> 0:09:31,000
+Elle a déclaré : « Maintenant que je peux à nouveau marcher,
+
+204
+0:09:31.62,000 --> 0:09:33,000
+je peux revenir et finir mes études. »
+
+205
+0:09:33.835,000 --> 0:09:36,000
+Elle représente pour moi la prochaine génération
+
+206
+0:09:36.903,000 --> 0:09:38,000
+d'ingénieurs qui résoudront les problèmes
+
+207
+0:09:39.483,000 --> 0:09:43,000
+en s'assurant que ces technologies atteignent leurs utilisateurs.
+
+208
+0:09:43.755,000 --> 0:09:44,000
+Merci.
+
+209
+0:09:45.154,000 --> 0:09:47,000
+(Applaudissements)
+

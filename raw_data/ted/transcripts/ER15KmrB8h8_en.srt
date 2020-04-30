@@ -1,0 +1,908 @@
+1
+0:00:,000 --> 0:00:07,000
+Transcriber: Joseph Geni Reviewer: Joanna Pietrulewicz
+
+2
+0:00:13.125,000 --> 0:00:16,000
+In 2015, 25 teams from around the world
+
+3
+0:00:17.042,000 --> 0:00:19,000
+competed to build robots for disaster response
+
+4
+0:00:19.792,000 --> 0:00:2,000
+that could perform a number of tasks,
+
+5
+0:00:21.667,000 --> 0:00:22,000
+such as using a power tool,
+
+6
+0:00:23.333,000 --> 0:00:24,000
+working on uneven terrain
+
+7
+0:00:25.042,000 --> 0:00:26,000
+and driving a car.
+
+8
+0:00:27.292,000 --> 0:00:29,000
+That all sounds impressive, and it is,
+
+9
+0:00:30.458,000 --> 0:00:32,000
+but look at the body of the winning robot, HUBO.
+
+10
+0:00:34.208,000 --> 0:00:36,000
+Here, HUBO is trying to get out of a car,
+
+11
+0:00:36.542,000 --> 0:00:37,000
+and keep in mind,
+
+12
+0:00:38.292,000 --> 0:00:39,000
+the video is sped up three times.
+
+13
+0:00:40.083,000 --> 0:00:43,000
+(Laughter)
+
+14
+0:00:44.75,000 --> 0:00:46,000
+HUBO, from team KAIST out of Korea, is a state-of-the-art robot
+
+15
+0:00:47.75,000 --> 0:00:48,000
+with impressive capabilities,
+
+16
+0:00:49.542,000 --> 0:00:51,000
+but this body doesn't look all that different
+
+17
+0:00:51.708,000 --> 0:00:52,000
+from robots we've seen a few decades ago.
+
+18
+0:00:54.625,000 --> 0:00:56,000
+If you look at the other robots in the competition,
+
+19
+0:00:58,000 --> 0:01:01,000
+their movements also still look, well, very robotic.
+
+20
+0:01:01.125,000 --> 0:01:03,000
+Their bodies are complex mechanical structures
+
+21
+0:01:03.375,000 --> 0:01:04,000
+using rigid materials
+
+22
+0:01:05,000 --> 0:01:08,000
+such as metal and traditional rigid electric motors.
+
+23
+0:01:08.625,000 --> 0:01:09,000
+They certainly weren't designed
+
+24
+0:01:10.25,000 --> 0:01:13,000
+to be low-cost, safe near people
+
+25
+0:01:13.333,000 --> 0:01:15,000
+and adaptable to unpredictable challenges.
+
+26
+0:01:16.208,000 --> 0:01:18,000
+We've made good progress with the brains of robots,
+
+27
+0:01:19,000 --> 0:01:2,000
+but their bodies are still primitive.
+
+28
+0:01:22.625,000 --> 0:01:24,000
+This is my daughter Nadia.
+
+29
+0:01:24.667,000 --> 0:01:25,000
+She's only five years old
+
+30
+0:01:26.417,000 --> 0:01:28,000
+and she can get out of the car way faster than HUBO.
+
+31
+0:01:28.917,000 --> 0:01:29,000
+(Laughter)
+
+32
+0:01:30.708,000 --> 0:01:32,000
+She can also swing around on monkey bars with ease,
+
+33
+0:01:33.125,000 --> 0:01:36,000
+much better than any current human-like robot could do.
+
+34
+0:01:36.292,000 --> 0:01:37,000
+In contrast to HUBO,
+
+35
+0:01:37.667,000 --> 0:01:4,000
+the human body makes extensive use of soft and deformable materials
+
+36
+0:01:41.417,000 --> 0:01:42,000
+such as muscle and skin.
+
+37
+0:01:43.375,000 --> 0:01:45,000
+We need a new generation of robot bodies
+
+38
+0:01:45.75,000 --> 0:01:49,000
+that is inspired by the elegance, efficiency and by the soft materials
+
+39
+0:01:49.875,000 --> 0:01:5,000
+of the designs found in nature.
+
+40
+0:01:52.292,000 --> 0:01:56,000
+And indeed, this has become the key idea of a new field of research
+
+41
+0:01:56.542,000 --> 0:01:57,000
+called soft robotics.
+
+42
+0:01:58.5,000 --> 0:02:,000
+My research group and collaborators around the world
+
+43
+0:02:01.417,000 --> 0:02:04,000
+are using soft components inspired by muscle and skin
+
+44
+0:02:05.083,000 --> 0:02:07,000
+to build robots with agility and dexterity
+
+45
+0:02:07.917,000 --> 0:02:08,000
+that comes closer and closer
+
+46
+0:02:09.583,000 --> 0:02:12,000
+to the astonishing capabilities of the organisms found in nature.
+
+47
+0:02:14.458,000 --> 0:02:17,000
+I've always been particularly inspired by biological muscle.
+
+48
+0:02:18.167,000 --> 0:02:2,000
+Now, that's not surprising.
+
+49
+0:02:20.333,000 --> 0:02:23,000
+I'm also Austrian, and I know that I sound a bit like Arnie, the Terminator.
+
+50
+0:02:23.958,000 --> 0:02:26,000
+(Laughter)
+
+51
+0:02:27,000 --> 0:02:29,000
+Biological muscle is a true masterpiece of evolution.
+
+52
+0:02:3,000 --> 0:02:31,000
+It can heal after damage
+
+53
+0:02:31.583,000 --> 0:02:33,000
+and it's tightly integrated with sensory neurons
+
+54
+0:02:34.042,000 --> 0:02:36,000
+for feedback on motion and the environment.
+
+55
+0:02:37.083,000 --> 0:02:39,000
+It can contract fast enough to power the high-speed wings
+
+56
+0:02:4,000 --> 0:02:41,000
+of a hummingbird;
+
+57
+0:02:41.292,000 --> 0:02:43,000
+it can grow strong enough to move an elephant;
+
+58
+0:02:44,000 --> 0:02:47,000
+and it's adaptable enough to be used in the extremely versatile arms
+
+59
+0:02:47.583,000 --> 0:02:48,000
+of an octopus,
+
+60
+0:02:48.917,000 --> 0:02:51,000
+an animal that can squeeze its entire body through tiny holes.
+
+61
+0:02:53.25,000 --> 0:02:56,000
+Actuators are for robots what muscles are for animals:
+
+62
+0:02:57.167,000 --> 0:02:58,000
+key components of the body
+
+63
+0:02:59.042,000 --> 0:03:01,000
+that enable movement and interaction with the world.
+
+64
+0:03:02.667,000 --> 0:03:04,000
+So if we could build soft actuators,
+
+65
+0:03:05.167,000 --> 0:03:06,000
+or artificial muscles,
+
+66
+0:03:06.625,000 --> 0:03:07,000
+that are as versatile, adaptable
+
+67
+0:03:08.25,000 --> 0:03:1,000
+and could have the same performance as the real thing,
+
+68
+0:03:10.833,000 --> 0:03:11,000
+we could build almost any type of robot
+
+69
+0:03:12.792,000 --> 0:03:13,000
+for almost any type of use.
+
+70
+0:03:15.167,000 --> 0:03:18,000
+Not surprisingly, people have tried for many decades
+
+71
+0:03:18.375,000 --> 0:03:2,000
+to replicate the astonishing capabilities of muscle,
+
+72
+0:03:21.292,000 --> 0:03:22,000
+but it's been really hard.
+
+73
+0:03:24.583,000 --> 0:03:25,000
+About 10 years ago,
+
+74
+0:03:26.083,000 --> 0:03:28,000
+when I did my PhD back in Austria,
+
+75
+0:03:28.833,000 --> 0:03:3,000
+my colleagues and I rediscovered
+
+76
+0:03:30.958,000 --> 0:03:34,000
+what is likely one of the very first publications on artificial muscle,
+
+77
+0:03:35.125,000 --> 0:03:36,000
+published in 1880.
+
+78
+0:03:37,000 --> 0:03:4,000
+"On the shape and volume changes of dielectric bodies
+
+79
+0:03:40.167,000 --> 0:03:41,000
+caused by electricity,"
+
+80
+0:03:41.708,000 --> 0:03:44,000
+published by German physicist Wilhelm Röntgen.
+
+81
+0:03:44.833,000 --> 0:03:47,000
+Most of you know him as the discoverer of the X-ray.
+
+82
+0:03:49.292,000 --> 0:03:51,000
+Following his instructions, we used a pair of needles.
+
+83
+0:03:51.875,000 --> 0:03:52,000
+We connected it to a high-voltage source,
+
+84
+0:03:53.833,000 --> 0:03:55,000
+and we placed it near a transparent piece of rubber
+
+85
+0:03:56.313,000 --> 0:03:58,000
+that was prestretched onto a plastic frame.
+
+86
+0:03:59.333,000 --> 0:04:,000
+When we switched on the voltage,
+
+87
+0:04:01.042,000 --> 0:04:02,000
+the rubber deformed,
+
+88
+0:04:02.375,000 --> 0:04:05,000
+and just like our biceps flexes our arm,
+
+89
+0:04:05.583,000 --> 0:04:07,000
+the rubber flexed the plastic frame.
+
+90
+0:04:08.25,000 --> 0:04:09,000
+It looks like magic.
+
+91
+0:04:09.583,000 --> 0:04:11,000
+The needles don't even touch the rubber.
+
+92
+0:04:11.958,000 --> 0:04:13,000
+Now, having two such needles is not a practical way
+
+93
+0:04:14.5,000 --> 0:04:16,000
+of operating artificial muscles,
+
+94
+0:04:16.667,000 --> 0:04:19,000
+but this amazing experiment got me hooked on the topic.
+
+95
+0:04:19.833,000 --> 0:04:22,000
+I wanted to create new ways to build artificial muscles
+
+96
+0:04:22.875,000 --> 0:04:24,000
+that would work well for real-world applications.
+
+97
+0:04:25.708,000 --> 0:04:28,000
+For the next years, I worked on a number of different technologies
+
+98
+0:04:29.458,000 --> 0:04:3,000
+that all showed promise,
+
+99
+0:04:30.791,000 --> 0:04:33,000
+but they all had remaining challenges that are hard to overcome.
+
+100
+0:04:34.833,000 --> 0:04:35,000
+In 2015,
+
+101
+0:04:36.458,000 --> 0:04:38,000
+when I started my own lab at CU Boulder,
+
+102
+0:04:38.875,000 --> 0:04:4,000
+I wanted to try an entirely new idea.
+
+103
+0:04:41.125,000 --> 0:04:43,000
+I wanted to combine the high speed and efficiency
+
+104
+0:04:44.042,000 --> 0:04:45,000
+of electrically driven actuators
+
+105
+0:04:46.042,000 --> 0:04:48,000
+with the versatility of soft, fluidic actuators.
+
+106
+0:04:49.458,000 --> 0:04:5,000
+Therefore, I thought,
+
+107
+0:04:50.792,000 --> 0:04:53,000
+maybe I can try using really old science in a new way.
+
+108
+0:04:54.167,000 --> 0:04:55,000
+The diagram you see here
+
+109
+0:04:55.958,000 --> 0:04:57,000
+shows an effect called Maxwell stress.
+
+110
+0:04:58.542,000 --> 0:04:59,000
+When you take two metal plates
+
+111
+0:05:00.042,000 --> 0:05:02,000
+and place them in a container filled with oil,
+
+112
+0:05:02.25,000 --> 0:05:03,000
+and then switch on a voltage,
+
+113
+0:05:03.917,000 --> 0:05:06,000
+the Maxwell stress forces the oil up in between the two plates,
+
+114
+0:05:07.875,000 --> 0:05:08,000
+and that's what you see here.
+
+115
+0:05:09.375,000 --> 0:05:1,000
+So the key idea was,
+
+116
+0:05:10.75,000 --> 0:05:12,000
+can we use this effect to push around oil
+
+117
+0:05:13.708,000 --> 0:05:15,000
+contained in soft stretchy structures?
+
+118
+0:05:16.542,000 --> 0:05:18,000
+And indeed, this worked surprisingly well,
+
+119
+0:05:18.917,000 --> 0:05:2,000
+quite honestly, much better than I expected.
+
+120
+0:05:21.625,000 --> 0:05:23,000
+Together with my outstanding team of students,
+
+121
+0:05:23.833,000 --> 0:05:24,000
+we used this idea as a starting point
+
+122
+0:05:25.75,000 --> 0:05:29,000
+to develop a new technology called HASEL artificial muscles.
+
+123
+0:05:29.917,000 --> 0:05:32,000
+HASELs are gentle enough to pick up a raspberry
+
+124
+0:05:33.042,000 --> 0:05:34,000
+without damaging it.
+
+125
+0:05:36.542,000 --> 0:05:39,000
+They can expand and contract like real muscle.
+
+126
+0:05:41.625,000 --> 0:05:43,000
+And they can be operated faster than the real thing.
+
+127
+0:05:44.958,000 --> 0:05:46,000
+They can also be scaled up to deliver large forces.
+
+128
+0:05:47.625,000 --> 0:05:5,000
+Here you see them lifting a gallon filled with water.
+
+129
+0:05:51,000 --> 0:05:52,000
+They can be used to drive a robotic arm,
+
+130
+0:05:52.958,000 --> 0:05:54,000
+and they can even self-sense their position.
+
+131
+0:05:57.292,000 --> 0:05:59,000
+HASELs can be used for very precise movement,
+
+132
+0:06:01.292,000 --> 0:06:03,000
+but they can also deliver very fluidic, muscle-like movement
+
+133
+0:06:04.167,000 --> 0:06:06,000
+and bursts of power to shoot up a ball into the air.
+
+134
+0:06:09.375,000 --> 0:06:1,000
+When submerged in oil,
+
+135
+0:06:12.667,000 --> 0:06:15,000
+HASEL artificial muscles can be made invisible.
+
+136
+0:06:19.875,000 --> 0:06:2,000
+So how do HASEL artificial muscles work?
+
+137
+0:06:22.542,000 --> 0:06:23,000
+You might be surprised.
+
+138
+0:06:24.25,000 --> 0:06:27,000
+They're based on very inexpensive, easily available materials.
+
+139
+0:06:27.458,000 --> 0:06:29,000
+You can even try, and I recommend it,
+
+140
+0:06:29.75,000 --> 0:06:3,000
+the main principle at home.
+
+141
+0:06:31.875,000 --> 0:06:33,000
+Take a few Ziploc bags and fill them with olive oil.
+
+142
+0:06:34.667,000 --> 0:06:36,000
+Try to push out air bubbles as much as you can.
+
+143
+0:06:37.583,000 --> 0:06:4,000
+Now take a glass plate and place it on one side of the bag.
+
+144
+0:06:40.708,000 --> 0:06:42,000
+When you press down, you see the bag contract.
+
+145
+0:06:43.792,000 --> 0:06:45,000
+Now the amount of contraction is easy to control.
+
+146
+0:06:47.167,000 --> 0:06:49,000
+When you take a small weight, you get a small contraction.
+
+147
+0:06:5,000 --> 0:06:53,000
+With a medium weight, we get a medium contraction.
+
+148
+0:06:54.125,000 --> 0:06:56,000
+And with a large weight, you get a large contraction.
+
+149
+0:06:57.042,000 --> 0:07:,000
+Now for HASELs, the only change is to replace the force of your hand
+
+150
+0:07:00.5,000 --> 0:07:03,000
+or the weight with an electrical force.
+
+151
+0:07:03.542,000 --> 0:07:08,000
+HASEL stands for "hydraulically amplified self-healing electrostatic actuators."
+
+152
+0:07:08.917,000 --> 0:07:11,000
+Here you see a geometry called Peano-HASEL actuators,
+
+153
+0:07:12.125,000 --> 0:07:14,000
+one of many possible designs.
+
+154
+0:07:15.083,000 --> 0:07:18,000
+Again, you take a flexible polymer such as our Ziploc bag,
+
+155
+0:07:18.708,000 --> 0:07:2,000
+you fill it with an insulating liquid, such as olive oil,
+
+156
+0:07:21.667,000 --> 0:07:22,000
+and now, instead of the glass plate,
+
+157
+0:07:23.458,000 --> 0:07:25,000
+you place an electrical conductor on one side of the pouch.
+
+158
+0:07:26.958,000 --> 0:07:28,000
+To create something that looks more like a muscle fiber,
+
+159
+0:07:29.625,000 --> 0:07:3,000
+you can connect a few pouches together
+
+160
+0:07:31.625,000 --> 0:07:33,000
+and attached a weight on one side.
+
+161
+0:07:33.792,000 --> 0:07:34,000
+Next, we apply voltage.
+
+162
+0:07:36.083,000 --> 0:07:39,000
+Now, the electric field starts acting on the liquid.
+
+163
+0:07:39.417,000 --> 0:07:4,000
+It displaces the liquid,
+
+164
+0:07:41.125,000 --> 0:07:43,000
+and it forces the muscle to contract.
+
+165
+0:07:44.708,000 --> 0:07:46,000
+Here you see a completed Peano-HASEL actuator
+
+166
+0:07:47.208,000 --> 0:07:5,000
+and how it expands and contracts when voltage is applied.
+
+167
+0:07:51.125,000 --> 0:07:52,000
+Viewed from the side,
+
+168
+0:07:52.458,000 --> 0:07:55,000
+you can really see those pouches take a more cylindrical shape,
+
+169
+0:07:55.708,000 --> 0:07:56,000
+such as we saw with the Ziploc bags.
+
+170
+0:07:58.5,000 --> 0:08:01,000
+We can also place a few such muscle fibers next to each other
+
+171
+0:08:01.75,000 --> 0:08:03,000
+to create something that looks even more like a muscle
+
+172
+0:08:04.333,000 --> 0:08:06,000
+that also contracts and expands in cross section.
+
+173
+0:08:06.792,000 --> 0:08:09,000
+These HASELs here are lifting a weight that's about 200 times heavier
+
+174
+0:08:10.167,000 --> 0:08:11,000
+than their own weight.
+
+175
+0:08:12.667,000 --> 0:08:15,000
+Here you see one of our newest designs, called quadrant donut HASELs
+
+176
+0:08:16.167,000 --> 0:08:17,000
+and how they expand and contract.
+
+177
+0:08:17.792,000 --> 0:08:2,000
+They can be operated incredibly fast, reaching superhuman speeds.
+
+178
+0:08:23.333,000 --> 0:08:25,000
+They are even powerful enough to jump off the ground.
+
+179
+0:08:26.333,000 --> 0:08:27,000
+(Laughter)
+
+180
+0:08:28.917,000 --> 0:08:31,000
+Overall, HASELs show promise to become the first technology
+
+181
+0:08:32.458,000 --> 0:08:35,000
+that matches or exceeds the performance of biological muscle
+
+182
+0:08:36,000 --> 0:08:39,000
+while being compatible with large-scale manufacturing.
+
+183
+0:08:39.167,000 --> 0:08:42,000
+This is also a very young technology. We are just getting started.
+
+184
+0:08:42.333,000 --> 0:08:44,000
+We have many ideas how to drastically improve performance,
+
+185
+0:08:45.125,000 --> 0:08:48,000
+using new materials and new designs to reach a level of performance
+
+186
+0:08:49,000 --> 0:08:53,000
+beyond biological muscle and also beyond traditional rigid electric motors.
+
+187
+0:08:54.25,000 --> 0:08:57,000
+Moving towards more complex designs of HASEL for bio-inspired robotics,
+
+188
+0:08:57.667,000 --> 0:08:58,000
+here you see our artificial scorpion
+
+189
+0:08:59.458,000 --> 0:09:,000
+that can use its tail to hunt prey,
+
+190
+0:09:01.208,000 --> 0:09:02,000
+in this case, a rubber balloon.
+
+191
+0:09:02.75,000 --> 0:09:03,000
+(Laughter)
+
+192
+0:09:04.417,000 --> 0:09:06,000
+Going back to our initial inspiration,
+
+193
+0:09:06.542,000 --> 0:09:08,000
+the versatility of octopus arms and elephant trunks,
+
+194
+0:09:09.375,000 --> 0:09:11,000
+we are now able to build soft continuum actuators
+
+195
+0:09:12.167,000 --> 0:09:15,000
+that come closer and closer to the capabilities of the real thing.
+
+196
+0:09:17.833,000 --> 0:09:19,000
+I am most excited about the practical applications
+
+197
+0:09:20.75,000 --> 0:09:21,000
+of HASEL artificial muscles.
+
+198
+0:09:22.583,000 --> 0:09:24,000
+They'll enable soft robotic devices
+
+199
+0:09:25,000 --> 0:09:27,000
+that can improve the quality of life.
+
+200
+0:09:27.375,000 --> 0:09:3,000
+Soft robotics will enable a new generation of more lifelike prosthetics
+
+201
+0:09:31.208,000 --> 0:09:33,000
+for people who have lost parts of their bodies.
+
+202
+0:09:33.458,000 --> 0:09:34,000
+Here you see some HASELs in my lab,
+
+203
+0:09:35.292,000 --> 0:09:37,000
+early testing, driving a prosthetic finger.
+
+204
+0:09:39.542,000 --> 0:09:42,000
+One day, we may even merge our bodies with robotic parts.
+
+205
+0:09:45.125,000 --> 0:09:47,000
+I know that sounds very scary at first.
+
+206
+0:09:48.917,000 --> 0:09:49,000
+But when I think about my grandparents
+
+207
+0:09:50.792,000 --> 0:09:52,000
+and the way they become more dependent on others
+
+208
+0:09:53.75,000 --> 0:09:57,000
+to perform simple everyday tasks such as using the restroom alone,
+
+209
+0:09:57.875,000 --> 0:09:59,000
+they often feel like they're becoming a burden.
+
+210
+0:10:00.958,000 --> 0:10:03,000
+With soft robotics, we will be able to enhance and restore
+
+211
+0:10:04.25,000 --> 0:10:05,000
+agility and dexterity,
+
+212
+0:10:05.875,000 --> 0:10:07,000
+and thereby help older people maintain autonomy
+
+213
+0:10:08.792,000 --> 0:10:1,000
+for longer parts of their lives.
+
+214
+0:10:11.083,000 --> 0:10:13,000
+Maybe we can call that "robotics for antiaging"
+
+215
+0:10:15,000 --> 0:10:17,000
+or even a next stage of human evolution.
+
+216
+0:10:19.083,000 --> 0:10:21,000
+Unlike their traditional rigid counterparts,
+
+217
+0:10:21.958,000 --> 0:10:25,000
+soft life-like robots will safely operate near people and help us at home.
+
+218
+0:10:27.667,000 --> 0:10:3,000
+Soft robotics is a very young field. We're just getting started.
+
+219
+0:10:31.083,000 --> 0:10:34,000
+I hope that many young people from many different backgrounds
+
+220
+0:10:34.208,000 --> 0:10:35,000
+join us on this exciting journey
+
+221
+0:10:36.083,000 --> 0:10:38,000
+and help shape the future of robotics
+
+222
+0:10:38.25,000 --> 0:10:4,000
+by introducing new concepts inspired by nature.
+
+223
+0:10:42.708,000 --> 0:10:43,000
+If we do this right,
+
+224
+0:10:44.333,000 --> 0:10:45,000
+we can improve the quality of life
+
+225
+0:10:46.125,000 --> 0:10:47,000
+for all of us.
+
+226
+0:10:47.458,000 --> 0:10:48,000
+Thank you.
+
+227
+0:10:48.75,000 --> 0:10:52,000
+(Applause)
+

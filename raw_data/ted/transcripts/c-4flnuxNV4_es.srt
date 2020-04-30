@@ -1,0 +1,2724 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Rafael Solís Revisor: Marizeth Beato
+
+2
+0:00:18.33,000 --> 0:00:2,000
+Todos tomamos decisiones constantemente; queremos saber
+
+3
+0:00:20.33,000 --> 0:00:23,000
+qué es lo que debemos hacer - en entornos que van desde lo financiero
+
+4
+0:00:23.33,000 --> 0:00:27,000
+a lo gastronómico, a lo profesional, a lo romántico.
+
+5
+0:00:27.33,000 --> 0:00:3,000
+Y seguramente, si alguien pudiera decirnos cómo hacer
+
+6
+0:00:30.33,000 --> 0:00:33,000
+exactamente lo correcto en todas las ocasiones posibles,
+
+7
+0:00:33.33,000 --> 0:00:36,000
+sería un tremendo regalo.
+
+8
+0:00:36.33,000 --> 0:00:41,000
+Resulta que, de hecho, este regalo fue concedido al mundo en 1738
+
+9
+0:00:41.33,000 --> 0:00:44,000
+por un polifacético holandés llamado Daniel Bernoulli.
+
+10
+0:00:44.33,000 --> 0:00:47,000
+Y hoy quiero hablarles acerca de lo que ese regalo significa
+
+11
+0:00:47.33,000 --> 0:00:5,000
+y también explicarles por qué es
+
+12
+0:00:50.33,000 --> 0:00:53,000
+que no ha hecho la más mínima diferencia.
+
+13
+0:00:53.33,000 --> 0:00:58,000
+Ahora bien, éste es el regalo de Bernoulli. Es una cita literal.
+
+14
+0:00:58.33,000 --> 0:01:01,000
+Y si les parece griego, bueno, es porque es griego [dicho en inglés equivale a decir en español que algo "está en chino"]
+
+15
+0:01:02.33,000 --> 0:01:06,000
+Pero la traducción sencilla, mucho menos precisa,
+
+16
+0:01:06.33,000 --> 0:01:1,000
+pero que recoge la esencia de lo que Benoulli tenia que decir, era esta:
+
+17
+0:01:10.33,000 --> 0:01:12,000
+El valor esperado de cualquiera de nuestras acciones -
+
+18
+0:01:12.33,000 --> 0:01:16,000
+es decir, lo positivo que esperamos obtener -
+
+19
+0:01:16.33,000 --> 0:01:18,000
+es el producto de dos cosas:
+
+20
+0:01:18.33,000 --> 0:01:22,000
+la probabilidad de que esta acción nos permita ganar algo,
+
+21
+0:01:22.33,000 --> 0:01:25,000
+y el valor que esta ganancia tenga para nosotros.
+
+22
+0:01:25.33,000 --> 0:01:27,000
+En cierto sentido, lo que Bernoulli decía es
+
+23
+0:01:27.33,000 --> 0:01:3,000
+que si podemos estimar y multiplicar estas dos cosas,
+
+24
+0:01:30.33,000 --> 0:01:33,000
+siempre sabremos con exactitud cómo debemos comportarnos.
+
+25
+0:01:33.33,000 --> 0:01:36,000
+Ahora bien, esta sencilla ecuación, incluso para los que
+
+26
+0:01:36.33,000 --> 0:01:39,000
+no les gustan las ecuaciones, es algo a lo que están acostumbrados.
+
+27
+0:01:39.33,000 --> 0:01:42,000
+Un ejemplo: si les digo, juguemos
+
+28
+0:01:42.33,000 --> 0:01:45,000
+a lanzar una moneda, si al lanzar la moneda
+
+29
+0:01:45.33,000 --> 0:01:48,000
+sale cara, te pago 10 dólares,
+
+30
+0:01:48.33,000 --> 0:01:52,000
+pero tienes que pagar 4 dólares por el privilegio de jugar conmigo,
+
+31
+0:01:52.33,000 --> 0:01:55,000
+la mayoría de ustedes dirá, seguro, acepto la apuesta. Porque saben
+
+32
+0:01:55.33,000 --> 0:02:,000
+que la probabilidad de ganar es la mitad, que la ganancia de 10 dólares
+
+33
+0:02:00.33,000 --> 0:02:02,000
+multiplicada por la probabilidad da cinco dólares, y eso es más
+
+34
+0:02:02.33,000 --> 0:02:06,000
+que lo que te cobro por jugar. Así que la respuesta es, sí.
+
+35
+0:02:06.33,000 --> 0:02:1,000
+Esto en estadística se llama técnicamente "una muy buena apuesta".
+
+36
+0:02:10.33,000 --> 0:02:13,000
+Ahora bien, la idea es sencilla cuando se aplica a lanzar una moneda,
+
+37
+0:02:13.33,000 --> 0:02:17,000
+pero a decir verdad, no es tan sencilla cuando se aplica a la vida diaria.
+
+38
+0:02:17.33,000 --> 0:02:21,000
+La gente es terrible estimando estas dos cosas,
+
+39
+0:02:21.33,000 --> 0:02:23,000
+y de esto es de lo que les quiero hablar hoy.
+
+40
+0:02:23.33,000 --> 0:02:26,000
+Hay dos tipos de errores que la gente comete al tratar de decidir
+
+41
+0:02:26.33,000 --> 0:02:28,000
+qué es lo correcto, y estos son
+
+42
+0:02:28.33,000 --> 0:02:31,000
+errores en la estimación de las probabilidades que ellos van a superar,
+
+43
+0:02:31.33,000 --> 0:02:35,000
+y errores estimando el valor de su propio éxito.
+
+44
+0:02:35.33,000 --> 0:02:39,000
+Ahora bien, empecemos hablando del primero.
+
+45
+0:02:39.33,000 --> 0:02:41,000
+Calcular probabilidades parecería algo suficientemente sencillo:
+
+46
+0:02:41.33,000 --> 0:02:45,000
+un dado tiene 6 caras, una moneda 2 lados, hay 52 cartas en una baraja.
+
+47
+0:02:45.33,000 --> 0:02:49,000
+Todos saben cuál es la probabilidad de sacar un as de espadas
+
+48
+0:02:49.33,000 --> 0:02:5,000
+o de obtener cara en la moneda.
+
+49
+0:02:50.33,000 --> 0:02:55,000
+Pero resulta que esta idea no es tan fácil de aplicar
+
+50
+0:02:55.33,000 --> 0:02:58,000
+en la vida cotidiana. Por eso los estadounidenses gastan más -
+
+51
+0:02:58.33,000 --> 0:03:01,000
+o debería decir, pierden más - apostando
+
+52
+0:03:01.33,000 --> 0:03:06,000
+que en todas las otras formas de entretenimiento juntas.
+
+53
+0:03:06.33,000 --> 0:03:09,000
+La razón es, que esta no es la manera en que las personas calculan las probabilidades.
+
+54
+0:03:09.33,000 --> 0:03:1,000
+La forma en que la gente calcula probabilidades
+
+55
+0:03:10.33,000 --> 0:03:13,000
+requiere que primero hablemos un poco sobre cerdos.
+
+56
+0:03:13.33,000 --> 0:03:15,000
+Ahora bien, la pregunta que les voy a hacer es si creen
+
+57
+0:03:15.33,000 --> 0:03:18,000
+que hay más perros o más cerdos con correas
+
+58
+0:03:18.33,000 --> 0:03:21,000
+observados un día cualquiera en Oxford.
+
+59
+0:03:21.33,000 --> 0:03:23,000
+Y por supuesto, todos saben que la respuesta es perros.
+
+60
+0:03:23.33,000 --> 0:03:26,000
+Y la manera en que saben que la respuesta es perros es,
+
+61
+0:03:26.33,000 --> 0:03:28,000
+que han revisado rápidamente las veces que recuerdan
+
+62
+0:03:28.33,000 --> 0:03:3,000
+haber visto perros y cerdos con correa.
+
+63
+0:03:30.33,000 --> 0:03:33,000
+Fue muy fácil recordar haber visto perros,
+
+64
+0:03:33.33,000 --> 0:03:36,000
+no tan fácil recordar cerdos. Y han asumido
+
+65
+0:03:36.33,000 --> 0:03:4,000
+que si los perros con correa les vinieron más rápido a la mente,
+
+66
+0:03:40.33,000 --> 0:03:42,000
+entonces los perros con correa son más probables.
+
+67
+0:03:42.33,000 --> 0:03:47,000
+Esta no es una mala "regla de cajón", excepto cuando sí lo es.
+
+68
+0:03:47.33,000 --> 0:03:49,000
+Así que, por ejemplo, aquí les va un juego sobre palabras.
+
+69
+0:03:49.33,000 --> 0:03:51,000
+¿Acaso hay más palabras de cuatro letras en inglés
+
+70
+0:03:51.33,000 --> 0:03:55,000
+con R en la tercera posición o R en la primera?
+
+71
+0:03:55.33,000 --> 0:03:58,000
+Bien, comprueban su memoria, repasan rápidamente,
+
+72
+0:03:58.33,000 --> 0:04:01,000
+y es muy fácil decirse "Ring", "Rang", "Rung",
+
+73
+0:04:01.33,000 --> 0:04:08,000
+y muy difícil decirse "Pare", "Park": vienen más lentamente.
+
+74
+0:04:08.33,000 --> 0:04:1,000
+Pero de hecho, hay muchas más palabras en inglés
+
+75
+0:04:10.33,000 --> 0:04:13,000
+con una R en la tercera posición que en la primera.
+
+76
+0:04:13.33,000 --> 0:04:17,000
+La razón por la que las palabras con R en la tercera posición viene más lentas a tu cabeza
+
+77
+0:04:17.33,000 --> 0:04:2,000
+no son porque sean improbables, raras o infrecuentes.
+
+78
+0:04:20.33,000 --> 0:04:24,000
+Sino porque el cerebro recuerda las palabras por su primera letra.
+
+79
+0:04:24.33,000 --> 0:04:27,000
+Piensas en la letra S y la palabra viene.
+
+80
+0:04:27.33,000 --> 0:04:28,000
+Es como un diccionario;
+
+81
+0:04:28.33,000 --> 0:04:31,000
+es difícil buscar por la tercera letra.
+
+82
+0:04:31.33,000 --> 0:04:33,000
+Así que, éste es un ejemplo de cómo la idea de que
+
+83
+0:04:33.33,000 --> 0:04:35,000
+la velocidad con la que las cosas vienen a la mente
+
+84
+0:04:35.33,000 --> 0:04:37,000
+puede darnos un sentido de su probabilidad --
+
+85
+0:04:37.33,000 --> 0:04:41,000
+de cómo esta idea puede confundirnos. Y no sólo en juegos.
+
+86
+0:04:41.33,000 --> 0:04:44,000
+Por ejemplo, cuando a los estadounidenses se les pide estimar las probabilidades
+
+87
+0:04:44.33,000 --> 0:04:47,000
+de morir en una variedad de maneras interesantes --
+
+88
+0:04:47.33,000 --> 0:04:5,000
+estas son las estimaciones de número de muertes por año
+
+89
+0:04:50.33,000 --> 0:04:52,000
+por cada 200 millones de ciudadanos estadounidenses.
+
+90
+0:04:52.33,000 --> 0:04:54,000
+Y son personas comunes como ustedes a las que se les pide
+
+91
+0:04:54.33,000 --> 0:04:58,000
+adivinar cuánta gente muere por tornados, fuegos artificiales, asma, ahogos, etc.
+
+92
+0:04:58.33,000 --> 0:05:01,000
+Compárenlos con los números reales.
+
+93
+0:05:01.33,000 --> 0:05:04,000
+Ahora bien, se puede ver un patrón muy interesante aquí, en primer lugar,
+
+94
+0:05:04.33,000 --> 0:05:09,000
+dos cosas son enormemente sobrestimadas: tornados y fuegos artificiales;
+
+95
+0:05:09.33,000 --> 0:05:11,000
+y segundo, dos cosas son enormemente subestimadas:
+
+96
+0:05:11.33,000 --> 0:05:14,000
+morir ahogado y morir de asma. ¿Por qué?
+
+97
+0:05:14.33,000 --> 0:05:17,000
+¿Cuándo fue la última vez que vieron en un periódico
+
+98
+0:05:17.33,000 --> 0:05:2,000
+el titular "Niño muere de asma"?
+
+99
+0:05:20.33,000 --> 0:05:23,000
+No es interesante porque es muy común.
+
+100
+0:05:23.33,000 --> 0:05:27,000
+Es muy fácil para nosotros recordar ocasiones
+
+101
+0:05:27.33,000 --> 0:05:3,000
+de noticieros donde hemos visto
+
+102
+0:05:30.33,000 --> 0:05:32,000
+tornados devastando ciudades, o un pobre diablo
+
+103
+0:05:32.33,000 --> 0:05:36,000
+que se voló la mano con un fuego artificial celebrando el Cuatro de Julio.
+
+104
+0:05:36.33,000 --> 0:05:39,000
+Las muertes por ahogo y asma no reciben mucha atención mediática.
+
+105
+0:05:39.33,000 --> 0:05:41,000
+No nos vienen rápidamente a la mente y, por eso,
+
+106
+0:05:41.33,000 --> 0:05:43,000
+las subestimamos enormemente.
+
+107
+0:05:43.33,000 --> 0:05:45,000
+De hecho, es como el juego de Plaza Sésamo de
+
+108
+0:05:45.33,000 --> 0:05:49,000
+"¿Qué cosa no pertenece?" Y es correcto que respondan
+
+109
+0:05:49.33,000 --> 0:05:52,000
+que la piscina no pertenece, porque la piscina
+
+110
+0:05:52.33,000 --> 0:05:56,000
+es lo único de la imagen que es realmente muy peligroso.
+
+111
+0:05:56.33,000 --> 0:05:58,000
+La probabilidad de morir ahogado es mayor que la combinación
+
+112
+0:05:58.33,000 --> 0:06:02,000
+de las probabilidades de morir por estas tres otras cosas.
+
+113
+0:06:02.33,000 --> 0:06:06,000
+La lotería es un ejemplo excelente, por supuesto - una excelente muestra
+
+114
+0:06:06.33,000 --> 0:06:09,000
+de la habilidad de la gente para calcular probabilidades.
+
+115
+0:06:09.33,000 --> 0:06:12,000
+Y los economistas - con el perdón de los que juegan la lotería -
+
+116
+0:06:12.33,000 --> 0:06:15,000
+pero los economistas, al menos entre ellos, se refieren a la lotería
+
+117
+0:06:15.33,000 --> 0:06:2,000
+como un impuesto a la estupidez, porque las probalidades de obtener alguna ganancia
+
+118
+0:06:20.33,000 --> 0:06:22,000
+invirtiendo en un billete de lotería
+
+119
+0:06:22.33,000 --> 0:06:24,000
+son aproximadamente equivalentes a tirar el dinero
+
+120
+0:06:24.33,000 --> 0:06:26,000
+por el inodoro -- lo que, a propósito,
+
+121
+0:06:26.33,000 --> 0:06:3,000
+no requiere que vayas a la tienda y compres algo.
+
+122
+0:06:30.33,000 --> 0:06:33,000
+¿Por qué alguien jugaría alguna vez la lotería?
+
+123
+0:06:33.33,000 --> 0:06:36,000
+Bueno, hay muchas respuestas, pero seguramente una es
+
+124
+0:06:36.33,000 --> 0:06:4,000
+que vemos muchos ganadores, ¿cierto? Cuando esta pareja gana la lotería,
+
+125
+0:06:40.33,000 --> 0:06:43,000
+o cuando Ed McMahon aparece en tu puerta con este cheque gigante --
+
+126
+0:06:43.33,000 --> 0:06:46,000
+cómo diablos cobras algo así de grande, no lo sé.
+
+127
+0:06:46.33,000 --> 0:06:49,000
+Vemos esto en la televisión; lo leemos en el periódico.
+
+128
+0:06:49.33,000 --> 0:06:52,000
+¿Cuándo fue la última vez que vieron entrevistas extensas
+
+129
+0:06:52.33,000 --> 0:06:54,000
+con todos los que perdieron?
+
+130
+0:06:54.33,000 --> 0:06:57,000
+Ciertamente, si exigiéramos a los canales de televisión que mostraran
+
+131
+0:06:57.33,000 --> 0:06:59,000
+entrevistas de 30 segundos con cada uno de los perdedores
+
+132
+0:06:59.33,000 --> 0:07:03,000
+cada vez que entrevistaran a un ganador, los 100 millones de perdedores
+
+133
+0:07:03.33,000 --> 0:07:06,000
+del último sorteo necesitarían nueve años y medio
+
+134
+0:07:06.33,000 --> 0:07:09,000
+de su atención continua sólo para verlos decir
+
+135
+0:07:09.33,000 --> 0:07:12,000
+"¿Yo? Yo perdí". "¿Yo? Yo perdí".
+
+136
+0:07:12.33,000 --> 0:07:14,000
+Ahora, si ven nueve años y medio de televisión --
+
+137
+0:07:14.33,000 --> 0:07:19,000
+sin dormir ni ir al baño -- y vieran pérdida tras pérdida tras pérdida,
+
+138
+0:07:19.33,000 --> 0:07:21,000
+y luego al final 30 segundos de "Y yo gané",
+
+139
+0:07:21.33,000 --> 0:07:24,000
+la probabilidad de que jugaran lotería sería muy pequeña.
+
+140
+0:07:24.33,000 --> 0:07:27,000
+Miren, puedo probárselos: aquí hay una pequeña lotería.
+
+141
+0:07:27.33,000 --> 0:07:29,000
+Hay diez billetes en esta lotería.
+
+142
+0:07:29.33,000 --> 0:07:32,000
+Nueve de ellos han sido vendidos a estos individuos.
+
+143
+0:07:32.33,000 --> 0:07:35,000
+Cada billete cuesta 1 dólar y, si ganas,
+
+144
+0:07:35.33,000 --> 0:07:37,000
+recibes 20 dólares. ¿Es una buena apuesta?
+
+145
+0:07:37.33,000 --> 0:07:38,000
+Bueno, Bernoulli nos dice que sí:
+
+146
+0:07:38.33,000 --> 0:07:41,000
+el valor esperado de esta lotería es de dos dólares;
+
+147
+0:07:41.33,000 --> 0:07:44,000
+así que es una lotería en la que deberías invertir tu dinero.
+
+148
+0:07:44.33,000 --> 0:07:46,000
+Y la mayoría de la gente dice "Está bien, jugaré".
+
+149
+0:07:46.33,000 --> 0:07:49,000
+Ahora, una versión ligeramente diferente de esta lotería:
+
+150
+0:07:49.33,000 --> 0:07:51,000
+imagina que los nueve billetes los compró
+
+151
+0:07:51.33,000 --> 0:07:53,000
+un tipo gordo llamado Leroy.
+
+152
+0:07:53.33,000 --> 0:07:55,000
+Leroy tiene nueve billetes, queda uno.
+
+153
+0:07:55.33,000 --> 0:07:58,000
+¿Lo quieres? La mayoría de la gente no va a jugar esta lotería.
+
+154
+0:07:58.33,000 --> 0:08:,000
+Ahora bien, pueden ver que las probablidades de ganar no han cambiado,
+
+155
+0:08:00.33,000 --> 0:08:05,000
+pero ahora es fantásticamente fácil imaginar quién va a ganar.
+
+156
+0:08:05.33,000 --> 0:08:08,000
+Es fácil ver a Leroy ganando el cheque, ¿cierto?
+
+157
+0:08:08.33,000 --> 0:08:1,000
+No puedes decirte "Tengo tantas probabilidades de ganar como cualquiera"
+
+158
+0:08:10.33,000 --> 0:08:13,000
+porque no tienes tantas como Leroy.
+
+159
+0:08:13.33,000 --> 0:08:15,000
+El hecho de que todos esos billetes hayan sido comprados por una sola persona
+
+160
+0:08:15.33,000 --> 0:08:17,000
+cambia tu decisión de jugar,
+
+161
+0:08:17.33,000 --> 0:08:2,000
+a pesar de que no afecta para nada las probabilidades del juego mismo.
+
+162
+0:08:20.33,000 --> 0:08:25,000
+Ahora bien, calcular probabilidades, por difícil que parezca, es pan comido
+
+163
+0:08:25.33,000 --> 0:08:27,000
+comparado con tratar de calcular valor:
+
+164
+0:08:27.33,000 --> 0:08:3,000
+tratar de decir cuánto vale algo, cuánto vamos a disfrutarlo,
+
+165
+0:08:30.33,000 --> 0:08:33,000
+cuánto placer va a darnos.
+
+166
+0:08:33.33,000 --> 0:08:35,000
+Quiero hablar ahora de los errores en la valoración.
+
+167
+0:08:35.33,000 --> 0:08:39,000
+¿Cuánto vale esta Big Mac? ¿Vale 25 dólares?
+
+168
+0:08:39.33,000 --> 0:08:42,000
+La mayoría de ustedes intuye que no --
+
+169
+0:08:42.33,000 --> 0:08:44,000
+no pagarían tanto por ella.
+
+170
+0:08:44.33,000 --> 0:08:48,000
+Pero, en realidad, decidir si una Big Mac vale 25 dólares requiere
+
+171
+0:08:48.33,000 --> 0:08:51,000
+que se pregunten una, y sólo una pregunta, la cual es:
+
+172
+0:08:51.33,000 --> 0:08:53,000
+¿Qué otra cosa puedo hacer con 25 dólares?
+
+173
+0:08:53.33,000 --> 0:08:57,000
+Si alguna vez tomaran uno de esos largos vuelos a Australia
+
+174
+0:08:57.33,000 --> 0:09:,000
+y se dieran cuenta de que no les van a servir nada de comer,
+
+175
+0:09:00.33,000 --> 0:09:02,000
+pero alguien en el asiento de adelante acaba de abrir
+
+176
+0:09:02.33,000 --> 0:09:05,000
+esa bolsa de McDonald's y el olor de los arcos dorados
+
+177
+0:09:05.33,000 --> 0:09:08,000
+viene flotando por sobre el asiento, pensarían
+
+178
+0:09:08.33,000 --> 0:09:11,000
+No puedo hacer nada más con estos 25 dólares en las 16 horas que vienen.
+
+179
+0:09:11.33,000 --> 0:09:14,000
+Ni siquiera puedo quemarlos, ¡se llevaron mi encendedor!
+
+180
+0:09:14.33,000 --> 0:09:17,000
+De pronto, 25 dólares por una Big Mac puede ser una buena oferta.
+
+181
+0:09:17.33,000 --> 0:09:19,000
+Por otro lado, si están visitando un país subdesarrollado,
+
+182
+0:09:19.33,000 --> 0:09:23,000
+y con 25 dólares compras una comida gourmet, es exorbitante para una Big Mac.
+
+183
+0:09:23.33,000 --> 0:09:26,000
+¿Por qué estaban tan seguros que la respuesta era no,
+
+184
+0:09:26.33,000 --> 0:09:29,000
+antes de mencionarles el contexto?
+
+185
+0:09:29.33,000 --> 0:09:33,000
+Porque la mayoría de ustedes compararon el precio de esta Big Mac
+
+186
+0:09:33.33,000 --> 0:09:36,000
+con el precio que están acostumbrados a pagar. En vez de preguntarse,
+
+187
+0:09:36.33,000 --> 0:09:39,000
+"Qué más puedo hacer con mi dinero", comparando esta inversión
+
+188
+0:09:39.33,000 --> 0:09:43,000
+con otras inversiones posibles, la compararon con el pasado.
+
+189
+0:09:43.33,000 --> 0:09:45,000
+Y este es un error sistemático que la gente comete.
+
+190
+0:09:45.33,000 --> 0:09:5,000
+Lo que sabían era que pagaron tres dólares en el pasado; 25 sería una locura.
+
+191
+0:09:50.33,000 --> 0:09:52,000
+Esto es un error, y puedo probarlo mostrándoles
+
+192
+0:09:52.33,000 --> 0:09:54,000
+los tipos de irracionalidades a las que conduce.
+
+193
+0:09:54.33,000 --> 0:09:57,000
+Por ejemplo, esto es, por supuesto
+
+194
+0:09:57.33,000 --> 0:09:59,000
+uno de los trucos más deliciosos en mercadotecnia,
+
+195
+0:09:59.33,000 --> 0:10:01,000
+es decir que algo solía ser más caro,
+
+196
+0:10:01.33,000 --> 0:10:04,000
+y de repente parece ser una muy buena promoción.
+
+197
+0:10:04.33,000 --> 0:10:07,000
+Cuando se le pregunta a la gente acerca de estos dos trabajos:
+
+198
+0:10:07.33,000 --> 0:10:1,000
+uno en el que ganas 60,000, luego 50,000, luego 40,000,
+
+199
+0:10:10.33,000 --> 0:10:12,000
+un trabajo donde te reducen el salario cada año,
+
+200
+0:10:12.33,000 --> 0:10:14,000
+y otro donde el salario va en aumento,
+
+201
+0:10:14.33,000 --> 0:10:18,000
+la gente prefiere el segundo al primero, aunque
+
+202
+0:10:18.33,000 --> 0:10:21,000
+se les dice que ganan mucho menos dinero. ¿Por qué?
+
+203
+0:10:21.33,000 --> 0:10:25,000
+Porque tienen la sensación que salarios en reducción son peores
+
+204
+0:10:25.33,000 --> 0:10:29,000
+que salarios en aumento, aunque el salario total sea mayor
+
+205
+0:10:29.33,000 --> 0:10:33,000
+incluso en el periodo de reducción. He aquí otro buen ejemplo.
+
+206
+0:10:33.33,000 --> 0:10:38,000
+He aquí un paquete de vacaciones en Hawaii que cuesta 2,000 dólares; ahora está en oferta por 1,600.
+
+207
+0:10:38.33,000 --> 0:10:41,000
+Asumiendo que querías ir a Hawaii, ¿comprarías este paquete?
+
+208
+0:10:41.33,000 --> 0:10:45,000
+La mayoria de la gente dice que sí. He aquí una historia diferente:
+
+209
+0:10:45.33,000 --> 0:10:49,000
+El paquete de 2,000 dólares a Hawaii, ahora está en oferta por 700 dólares,
+
+210
+0:10:49.33,000 --> 0:10:51,000
+así que decides pensarlo por una semana.
+
+211
+0:10:51.33,000 --> 0:10:53,000
+Para cuando llegas a la agencia, las mejores ofertas ya se vendieron -
+
+212
+0:10:53.33,000 --> 0:10:58,000
+el paquete ahora cuesta 1,500. ¿Lo comprarías? La mayoría de la gente dice, no.
+
+213
+0:10:58.33,000 --> 0:11:02,000
+¿Por qué? Porque antes costaba 700, de ninguna manera pagaré 1,500
+
+214
+0:11:02.33,000 --> 0:11:05,000
+por algo que hace una semana costaba 700.
+
+215
+0:11:05.33,000 --> 0:11:07,000
+Esa tendencia de comparar con el pasado
+
+216
+0:11:07.33,000 --> 0:11:11,000
+hace que la gente pierda la mejor oferta. En otras palabras,
+
+217
+0:11:11.33,000 --> 0:11:14,000
+una buena oferta que solía ser una estupenda oferta, no es tan buena
+
+218
+0:11:14.33,000 --> 0:11:18,000
+como una mala oferta que solía ser una horrible oferta.
+
+219
+0:11:18.33,000 --> 0:11:2,000
+He aquí otro ejemplo de cómo al comparar con el pasado
+
+220
+0:11:20.33,000 --> 0:11:24,000
+podemos alterar nuestras decisiones.
+
+221
+0:11:24.33,000 --> 0:11:26,000
+Imaginen que van de camino al teatro.
+
+222
+0:11:26.33,000 --> 0:11:27,000
+Van de camino al teatro.
+
+223
+0:11:27.33,000 --> 0:11:29,000
+En la cartera tienen un boleto de entrada por el que pagaron 20 dólares.
+
+224
+0:11:29.33,000 --> 0:11:31,000
+También tienen un billete de 20 dólares.
+
+225
+0:11:31.33,000 --> 0:11:33,000
+Cuando llegan al teatro
+
+226
+0:11:33.33,000 --> 0:11:36,000
+descubren que en algún punto del camino perdieron el boleto.
+
+227
+0:11:36.33,000 --> 0:11:39,000
+¿Gastarían el dinero restante en reemplazar el boleto?
+
+228
+0:11:39.33,000 --> 0:11:42,000
+La mayoría de la gente responde que no lo haría.
+
+229
+0:11:42.33,000 --> 0:11:45,000
+Ahora, cambiemos solamente una cosa en este escenario.
+
+230
+0:11:45.33,000 --> 0:11:46,000
+Van de camino al teatro
+
+231
+0:11:46.33,000 --> 0:11:48,000
+y en la cartera tienen dos billetes de 20 dólares.
+
+232
+0:11:48.33,000 --> 0:11:5,000
+Al llegar al teatro descubren que perdieron un billete.
+
+233
+0:11:50.33,000 --> 0:11:52,000
+¿Gastarían sus 20 dólares restantes en un boleto?
+
+234
+0:11:52.33,000 --> 0:11:55,000
+Bueno, por supuesto: fui al teatro para ver la obra.
+
+235
+0:11:55.33,000 --> 0:11:58,000
+¿Qué tiene que ver la pérdida de los 20 dólares en el camino?
+
+236
+0:11:58.33,000 --> 0:12:01,000
+Ahora bien, en caso de que no estén entendiendo,
+
+237
+0:12:01.33,000 --> 0:12:03,000
+aquí va una representación esquemática de lo que pasó, ¿de acuerdo?
+
+238
+0:12:03.33,000 --> 0:12:04,000
+(Risas)
+
+239
+0:12:04.33,000 --> 0:12:06,000
+En el camino, perdieron algo.
+
+240
+0:12:06.33,000 --> 0:12:08,000
+En ambos casos, se trató de un pedazo de papel.
+
+241
+0:12:08.33,000 --> 0:12:12,000
+En un caso, un presidente norteamericano estaba en el papel; en el otro caso no era así.
+
+242
+0:12:12.33,000 --> 0:12:14,000
+¿Cuál es la maldita diferencia?
+
+243
+0:12:14.33,000 --> 0:12:17,000
+La diferencia es que al perder el boleto se dijeron a sí mismos,
+
+244
+0:12:17.33,000 --> 0:12:19,000
+No pagaré dos veces por la misma cosa
+
+245
+0:12:19.33,000 --> 0:12:22,000
+Comparan ahora el costo de la obra -- 40 dólares --
+
+246
+0:12:22.33,000 --> 0:12:27,000
+con el costo que tenía antes -- 20 dólares -- y se dicen que es un mal trato.
+
+247
+0:12:27.33,000 --> 0:12:31,000
+Comparar con el pasado causa muchos de los problemas
+
+248
+0:12:31.33,000 --> 0:12:34,000
+que los economistas del comportamiento y los psicólogos identifican
+
+249
+0:12:34.33,000 --> 0:12:36,000
+en los intentos de la gente para asignar valor.
+
+250
+0:12:36.33,000 --> 0:12:41,000
+Pero incluso cuando comparamos con lo posible, en vez del pasado,
+
+251
+0:12:41.33,000 --> 0:12:43,000
+aún cometemos cierto tipo de errores.
+
+252
+0:12:43.33,000 --> 0:12:45,000
+Y voy a mostrarles uno o dos de ellos.
+
+253
+0:12:45.33,000 --> 0:12:48,000
+Una de las cosas que sabemos sobre las comparaciones:
+
+254
+0:12:48.33,000 --> 0:12:51,000
+es que cuando comparamos una cosa con otra, cambia su valor.
+
+255
+0:12:51.33,000 --> 0:12:55,000
+Así que en 1992, este tipo, George Bush -para aquellos de nosotros que estábamos
+
+256
+0:12:55.33,000 --> 0:12:58,000
+un poco en el lado liberal del espectro político-
+
+257
+0:12:58.33,000 --> 0:13:,000
+no nos parecía un gran tipo.
+
+258
+0:13:00.33,000 --> 0:13:04,000
+De repente, casi estamos añorando que regrese.
+
+259
+0:13:04.33,000 --> 0:13:07,000
+(Risas)
+
+260
+0:13:07.33,000 --> 0:13:1,000
+La comparación cambia la forma en que lo evaluamos.
+
+261
+0:13:10.33,000 --> 0:13:14,000
+Ahora bien, las tiendas supieron esto mucho antes que cualquiera, por supuesto,
+
+262
+0:13:14.33,000 --> 0:13:16,000
+y usan esta sabiduría para ayudarte
+
+263
+0:13:16.33,000 --> 0:13:18,000
+a evitar la excesiva carga de tener dinero.
+
+264
+0:13:18.33,000 --> 0:13:21,000
+Por lo que un vendedor, si fueran a visitar una tienda de vinos
+
+265
+0:13:21.33,000 --> 0:13:22,000
+y tuvieran que comprar una botella de vino,
+
+266
+0:13:22.33,000 --> 0:13:26,000
+y vieran las botellas por 8, 27 y 33 dólares, ¿qué harían?
+
+267
+0:13:26.33,000 --> 0:13:28,000
+La mayoría de la gente no quiere el vino más caro,
+
+268
+0:13:28.33,000 --> 0:13:3,000
+pero tampoco el menos caro.
+
+269
+0:13:30.33,000 --> 0:13:32,000
+Así que optarían por el artículo de rango medio.
+
+270
+0:13:32.33,000 --> 0:13:35,000
+Si eres un vendedor inteligente, entonces pondrás un artículo muy caro
+
+271
+0:13:35.33,000 --> 0:13:37,000
+que nadie nunca compraría en el mostrador,
+
+272
+0:13:37.33,000 --> 0:13:43,000
+porque de repente el vino de 33 dólares ya no parece tan caro en comparación.
+
+273
+0:13:43.33,000 --> 0:13:44,000
+Así que les estoy diciendo algo que ya sabían:
+
+274
+0:13:44.33,000 --> 0:13:48,000
+esto es, que la comparación cambia el valor de las cosas.
+
+275
+0:13:48.33,000 --> 0:13:49,000
+Y he aquí porqué eso es un problema:
+
+276
+0:13:49.33,000 --> 0:13:55,000
+el problema es que cuando se llevan esa botella de 33 dólares a casa,
+
+277
+0:13:55.33,000 --> 0:13:59,000
+ya no va a importar junto a qué estaba puesta en el mostrador.
+
+278
+0:13:59.33,000 --> 0:14:04,000
+Las comparaciones que hacemos cuando estamos determinando el valor de algo,
+
+279
+0:14:04.33,000 --> 0:14:08,000
+donde estamos tratando de estimar qué tanto nos gustarán las cosas,
+
+280
+0:14:08.33,000 --> 0:14:11,000
+no son las mismas comparaciones que estaremos haciendo cuando las consumimos.
+
+281
+0:14:11.33,000 --> 0:14:15,000
+Este problema de comparaciones cambiantes puede desconcertar
+
+282
+0:14:15.33,000 --> 0:14:18,000
+nuestros intentos de tomar decisiones racionales.
+
+283
+0:14:18.33,000 --> 0:14:19,000
+Voy a darles un ejemplo.
+
+284
+0:14:19.33,000 --> 0:14:23,000
+Tengo que mostrarles algo de mi propio laboratorio, así que mencionaré esto casualmente.
+
+285
+0:14:23.33,000 --> 0:14:25,000
+Estos son individuos que vienen a un experimento para que se les haga
+
+286
+0:14:25.33,000 --> 0:14:27,000
+la más simple de las preguntas:
+
+287
+0:14:27.33,000 --> 0:14:31,000
+¿Qué tanto disfrutarás comer papas fritas dentro de un minuto?
+
+288
+0:14:31.33,000 --> 0:14:34,000
+Están sentados en un cuarto con papas fritas en frente de ellos.
+
+289
+0:14:34.33,000 --> 0:14:37,000
+Para algunos individuos, sentados en la esquina lejana del cuarto
+
+290
+0:14:37.33,000 --> 0:14:42,000
+hay una caja de chocolates Godiva, y para otros hay una lata de carne procesada.
+
+291
+0:14:42.33,000 --> 0:14:46,000
+De hecho, estos artículos puestos en el cuarto modifican
+
+292
+0:14:46.33,000 --> 0:14:49,000
+qué tanto los individuos piensan que van a disfrutar las papas fritas.
+
+293
+0:14:49.33,000 --> 0:14:51,000
+En particular, aquellos que están viendo la carne procesada
+
+294
+0:14:51.33,000 --> 0:14:53,000
+piensan que las papas fritas van a ser muy sabrosas;
+
+295
+0:14:53.33,000 --> 0:14:55,000
+aquellos que están viendo el chocolate Godiva
+
+296
+0:14:55.33,000 --> 0:14:57,000
+piensan que no serán tan sabrosas.
+
+297
+0:14:57.33,000 --> 0:14:59,000
+Por supuesto, ¿qué pasa cuando comen las papas fritas?
+
+298
+0:14:59.33,000 --> 0:15:02,000
+Bueno, miren, ustedes no necesitaron un psicólogo para decirles que
+
+299
+0:15:02.33,000 --> 0:15:06,000
+cuando tienen un bocado de un tentempié grasoso, salado, crujiente y delicioso
+
+300
+0:15:06.33,000 --> 0:15:07,000
+lo que esté puesto en la esquina del cuarto
+
+301
+0:15:07.33,000 --> 0:15:12,000
+no hace la más mínima diferencia para su experiencia gustativa.
+
+302
+0:15:12.33,000 --> 0:15:16,000
+Sin embargo, las predicciones de estos individuos fueron pervertidas por una comparación
+
+303
+0:15:16.33,000 --> 0:15:2,000
+que luego no se culmina y cambia su experiencia.
+
+304
+0:15:20.33,000 --> 0:15:22,000
+Todos ustedes han experimentado esto, incluso si nunca han venido
+
+305
+0:15:22.33,000 --> 0:15:25,000
+a nuestro laboratorio a comer papas fritas, por lo que aquí hay otra pregunta:
+
+306
+0:15:25.33,000 --> 0:15:27,000
+Quieres comprar un estéreo para tu automóvil.
+
+307
+0:15:27.33,000 --> 0:15:32,000
+El vendedor cercano a tu casa vende un estéreo en particular por 200 dólares.
+
+308
+0:15:32.33,000 --> 0:15:35,000
+pero si cruzas la ciudad, puedes conseguirlo por 100 dólares.
+
+309
+0:15:35.33,000 --> 0:15:38,000
+Así que, ¿manejarían para conseguir el 50% de descuento, ahorrando 100 dólares?
+
+310
+0:15:38.33,000 --> 0:15:4,000
+La mayoría de la gente dice que sí lo harían.
+
+311
+0:15:40.33,000 --> 0:15:42,000
+No pueden imaginar comprarlo por el doble del precio
+
+312
+0:15:42.33,000 --> 0:15:46,000
+cuando, a tan sólo un viaje a través de la ciudad, lo pueden conseguir por la mitad del precio.
+
+313
+0:15:46.33,000 --> 0:15:5,000
+Ahora, imaginemos que quieren comprar un auto que ya tiene estéreo,
+
+314
+0:15:50.33,000 --> 0:15:52,000
+y el comerciante más cercano lo vende por 31,000.
+
+315
+0:15:52.33,000 --> 0:15:57,000
+Pero si cruzan la ciudad, lo pueden conseguir por 30,900
+
+316
+0:15:57.33,000 --> 0:16:01,000
+¿Cruzarían la ciudad para conseguirlo? En este caso, los 100 dólares son un ahorro del 0.003%
+
+317
+0:16:01.33,000 --> 0:16:03,000
+La mayoría de la gente diría: No, ¿me arrastraría cruzando la ciudad
+
+318
+0:16:03.33,000 --> 0:16:06,000
+para ahorrar 100 dólares en la compra de un auto?
+
+319
+0:16:06.33,000 --> 0:16:1,000
+Este tipo de pensamiento vuelve locos a los economistas, y con razón.
+
+320
+0:16:10.33,000 --> 0:16:14,000
+Porque esos 100 dólares que ahorran, -¡hola!-
+
+321
+0:16:14.33,000 --> 0:16:16,000
+no saben de dónde vinieron.
+
+322
+0:16:16.33,000 --> 0:16:18,000
+No se sabe en qué los ahorraron.
+
+323
+0:16:18.33,000 --> 0:16:2,000
+Cuando van a comprar comida con esos dólares, no te dicen
+
+324
+0:16:20.33,000 --> 0:16:23,000
+"Soy el dinero que ahorraste en el estéreo", o
+
+325
+0:16:23.33,000 --> 0:16:27,000
+"Soy el tonto dinero ahorrado en el auto". Es sólo dinero.
+
+326
+0:16:27.33,000 --> 0:16:3,000
+Y si una cruzada de la ciudad en auto vale 100 dólares, vale 100 dólares solamente
+
+327
+0:16:30.33,000 --> 0:16:33,000
+sin importar en qué los estés ahorrando. Pero la gente no lo piensa así.
+
+328
+0:16:33.33,000 --> 0:16:35,000
+Es por eso que no saben si su administrador de fondos de inversión
+
+329
+0:16:35.33,000 --> 0:16:4,000
+recibe el 0.1% o el 0.15% de su inversión,
+
+330
+0:16:40.33,000 --> 0:16:43,000
+pero recortan cupones para ahorrar un dólar en el precio de una pasta dental.
+
+331
+0:16:43.33,000 --> 0:16:46,000
+Ahora bien, pueden ver que éste es el problema de las comparaciones cambiantes,
+
+332
+0:16:46.33,000 --> 0:16:49,000
+porque lo que hacen es comparar los 100 dólares
+
+333
+0:16:49.33,000 --> 0:16:51,000
+con la compra que están haciendo,
+
+334
+0:16:51.33,000 --> 0:16:55,000
+pero cuando van a gastar ese dinero, no harán la comparación.
+
+335
+0:16:55.33,000 --> 0:16:57,000
+Todos han tenido esta experiencia.
+
+336
+0:16:57.33,000 --> 0:17:01,000
+Si eres estadounidense, por ejemplo, probablemente has viajado a Francia.
+
+337
+0:17:01.33,000 --> 0:17:03,000
+Y en algún punto habrías conocido a una pareja
+
+338
+0:17:03.33,000 --> 0:17:04,000
+de tu ciudad de origen, y pensaste,
+
+339
+0:17:04.33,000 --> 0:17:09,000
+"Dios mío, estas personas son tan cálidas. Son tan amables conmigo.
+
+340
+0:17:09.33,000 --> 0:17:11,000
+Quiero decir que, comparadas con todas estas personas que me odian
+
+341
+0:17:11.33,000 --> 0:17:14,000
+cuando trato de hablar su lengua y me odian aún más cuando no lo hago,
+
+342
+0:17:14.33,000 --> 0:17:17,000
+estas personas son maravillosas." Por tanto, te vas de tour con ellos por Francia,
+
+343
+0:17:17.33,000 --> 0:17:19,000
+y regresas a casa y los invitas a cenar,
+
+344
+0:17:19.33,000 --> 0:17:2,000
+y ¿qué es lo que encuentras?
+
+345
+0:17:20.33,000 --> 0:17:22,000
+Comparados con tus amigos de siempre,
+
+346
+0:17:22.33,000 --> 0:17:26,000
+son aburridos y fríos, ¿no? Porque en este nuevo contexto,
+
+347
+0:17:26.33,000 --> 0:17:3,000
+la comparación es muy, muy diferente. De hecho, encuentras
+
+348
+0:17:30.33,000 --> 0:17:33,000
+que te desagradan lo suficiente como para que califiques a obtener la ciudadanía francesa.
+
+349
+0:17:34.33,000 --> 0:17:37,000
+Entonces, tienen exactamente el mismo problema que cuando compran un estéreo.
+
+350
+0:17:37.33,000 --> 0:17:4,000
+Van a la tienda de estéreos, ven dos juegos de altavoces --
+
+351
+0:17:40.33,000 --> 0:17:44,000
+estos grandes y cuadrados monolitos, y estos pequeños y sutiles altavoces,
+
+352
+0:17:44.33,000 --> 0:17:46,000
+los prueban y se dicen, saben, si escucho una diferencia:
+
+353
+0:17:46.33,000 --> 0:17:48,000
+los grandes suenan un poco mejor.
+
+354
+0:17:48.33,000 --> 0:17:5,000
+Así que los compran, los llevan a casa,
+
+355
+0:17:50.33,000 --> 0:17:53,000
+y rompen totalmente con la decoración de su casa.
+
+356
+0:17:53.33,000 --> 0:17:57,000
+El problema es, por supuesto, que esta comparación que hicieron en la tienda
+
+357
+0:17:57.33,000 --> 0:17:59,000
+es una comparación que nunca volverán a hacer.
+
+358
+0:17:59.33,000 --> 0:18:01,000
+Cuál es la probabilidad de que años después prendan el estéreo y digan:
+
+359
+0:18:01.33,000 --> 0:18:04,000
+"Suenan mucho mejor que esos altavoces pequeñitos,"
+
+360
+0:18:04.33,000 --> 0:18:06,000
+que ni siquiera se acordarán de haber escuchado.
+
+361
+0:18:06.33,000 --> 0:18:09,000
+El problema de las comparaciones cambiantes es aún más difícil
+
+362
+0:18:09.33,000 --> 0:18:12,000
+cuando estas elecciones se organizan a través del tiempo.
+
+363
+0:18:12.33,000 --> 0:18:15,000
+La gente tiene muchos problemas tomando decisiones
+
+364
+0:18:15.33,000 --> 0:18:18,000
+sobre cosas que pasarán en diferentes momentos en el tiempo.
+
+365
+0:18:18.33,000 --> 0:18:2,000
+Y lo que los psicólogos y economistas del comportamiento han descubierto
+
+366
+0:18:20.33,000 --> 0:18:23,000
+es que por lo general la gente usa dos simples reglas.
+
+367
+0:18:23.33,000 --> 0:18:27,000
+Así que permítanme darles un problema muy sencillo, un segundo problema también muy sencillo,
+
+368
+0:18:27.33,000 --> 0:18:28,000
+y un tercero y difícil problema.
+
+369
+0:18:28.33,000 --> 0:18:31,000
+Aquí va el primer problema sencillo:
+
+370
+0:18:31.33,000 --> 0:18:34,000
+Pueden tener 60 dólares ahora o tener 50 dólares ahora, ¿Qué prefieren?
+
+371
+0:18:34.33,000 --> 0:18:37,000
+A esto lo llamamos un test de Coeficiente Intelectual de una sola pregunta, ¿sí?
+
+372
+0:18:37.33,000 --> 0:18:4,000
+Todos, espero, preferimos más dinero y la razón es que
+
+373
+0:18:40.33,000 --> 0:18:43,000
+creemos que más es mejor que menos.
+
+374
+0:18:43.33,000 --> 0:18:44,000
+Aquí va el segundo problema:
+
+375
+0:18:44.33,000 --> 0:18:48,000
+Pueden tener 60 dólares hoy o 60 dólares en un mes. ¿Qué prefieren?
+
+376
+0:18:48.33,000 --> 0:18:5,000
+De nuevo, esto es una decisión fácil,
+
+377
+0:18:50.33,000 --> 0:18:54,000
+porque todos sabemos que ahora es mejor que después.
+
+378
+0:18:54.33,000 --> 0:18:57,000
+Lo que se dificulta en nuestra toma de decisión es cuando estas dos reglas entran en conflicto.
+
+379
+0:18:57.33,000 --> 0:19:01,000
+Por ejemplo, cuando se les ofrece 50 dólares ahora o 60 dólares en un mes.
+
+380
+0:19:01.33,000 --> 0:19:04,000
+Esto tipifica muchas situaciones de la vida en las cuales ganarían
+
+381
+0:19:04.33,000 --> 0:19:07,000
+al esperar, pero tienen que ser pacientes.
+
+382
+0:19:07.33,000 --> 0:19:1,000
+¿Qué sabemos? ¿Qué hace la gente en este tipo de situaciones?
+
+383
+0:19:10.33,000 --> 0:19:14,000
+Pues bien, generalmente la gente es enormemente impaciente.
+
+384
+0:19:14.33,000 --> 0:19:17,000
+Esto quiere decir, que requieren tasas de interés en el rango de los cientos
+
+385
+0:19:17.33,000 --> 0:19:21,000
+o miles porcentuales para postergar la gratificación
+
+386
+0:19:21.33,000 --> 0:19:25,000
+y esperar hasta el siguiente mes para los 10 dólares extra.
+
+387
+0:19:25.33,000 --> 0:19:28,000
+Quizá esto no es tan asombroso, pero sí lo es
+
+388
+0:19:28.33,000 --> 0:19:32,000
+lo fácil que se vuelve hacer que esta impaciencia se vaya simplemente al cambiar
+
+389
+0:19:32.33,000 --> 0:19:36,000
+el tiempo de entrega de estas unidades monetarias.
+
+390
+0:19:36.33,000 --> 0:19:39,000
+Imaginen que pueden recibir 50 dólares en un año -- eso son 12 meses --
+
+391
+0:19:39.33,000 --> 0:19:42,000
+o 60 dólares en 13 meses.
+
+392
+0:19:42.33,000 --> 0:19:43,000
+¿Qué encontramos ahora?
+
+393
+0:19:43.33,000 --> 0:19:46,000
+La gente está felizmente dispuesta a esperar: ya que van a esperar 12,
+
+394
+0:19:46.33,000 --> 0:19:48,000
+podrían esperar mejor 13 meses.
+
+395
+0:19:48.33,000 --> 0:19:51,000
+¿Qué causa esta inconsistencia dinámica?
+
+396
+0:19:51.33,000 --> 0:19:55,000
+La comparación La inquietante comparación. Permítanme mostrarles.
+
+397
+0:19:55.33,000 --> 0:19:58,000
+Esta es sólo una gráfica que muestra los resultados que acabo de sugerir
+
+398
+0:19:58.33,000 --> 0:20:,000
+que ustedes presentarían si les diera tiempo para responder, lo que es
+
+399
+0:20:00.33,000 --> 0:20:03,000
+que la gente encuentra que el valor subjetivo de 50 es mayor
+
+400
+0:20:03.33,000 --> 0:20:07,000
+que el valor subjetivo de 60 cuando se les entregará ahora
+
+401
+0:20:07.33,000 --> 0:20:09,000
+o en un mes, respectivamente -- un retraso de 30 días --
+
+402
+0:20:09.33,000 --> 0:20:13,000
+pero la gente exhibe el patrón contrario cuando mueves la decisión completamente
+
+403
+0:20:13.33,000 --> 0:20:16,000
+hacia dentro de un año en el futuro.
+
+404
+0:20:16.33,000 --> 0:20:2,000
+Ahora bien, ¿porqué diablos habría de obtenerse este patrón de resultados?
+
+405
+0:20:20.33,000 --> 0:20:21,000
+Estos individuos pueden explicarlo.
+
+406
+0:20:21.33,000 --> 0:20:24,000
+Lo que vemos aquí son dos tipos,
+
+407
+0:20:24.33,000 --> 0:20:27,000
+uno de ellos más grande que el otro: el bombero y el violinista.
+
+408
+0:20:27.33,000 --> 0:20:3,000
+Van a retroceder hacia el punto de fuga en el horizonte,
+
+409
+0:20:30.33,000 --> 0:20:32,000
+y quiero que se den cuenta de dos cosas.
+
+410
+0:20:32.33,000 --> 0:20:38,000
+En ningún punto el bombero se verá más alto que el violinista. En ninguno.
+
+411
+0:20:38.33,000 --> 0:20:41,000
+Sin embargo, la diferencia entre ellos parece ir disminuyendo.
+
+412
+0:20:41.33,000 --> 0:20:44,000
+Al principio, es una pulgada desde su punto de vista, luego un cuarto de pulgada,
+
+413
+0:20:44.33,000 --> 0:20:48,000
+luego media pulgada y finalmente desaparecen del borde de la tierra.
+
+414
+0:20:48.33,000 --> 0:20:51,000
+Aquí están los resultados de lo que les acabo de mostrar.
+
+415
+0:20:51.33,000 --> 0:20:53,000
+Esta es la altura subjetiva --
+
+416
+0:20:53.33,000 --> 0:20:56,000
+la altura de estos tipos que vieron en diferentes puntos.
+
+417
+0:20:56.33,000 --> 0:20:58,000
+Y quiero que vean que dos cosas son ciertas.
+
+418
+0:20:58.33,000 --> 0:21:01,000
+La primera es que, entre más lejos estén, más pequeños se ven;
+
+419
+0:21:01.33,000 --> 0:21:03,000
+y la segunda es que, el bombero siempre es más grande que el violinista.
+
+420
+0:21:03.33,000 --> 0:21:09,000
+Pero miren lo que sucede cuando hacemos que alguno de ellos desaparezca. Exacto.
+
+421
+0:21:09.33,000 --> 0:21:12,000
+A una distancia muy cercana, el violinista se ve más alto que el bombero.
+
+422
+0:21:12.33,000 --> 0:21:14,000
+Pero a una distancia lejana
+
+423
+0:21:14.33,000 --> 0:21:17,000
+sus proporciones normales, verdaderas, se guardan.
+
+424
+0:21:17.33,000 --> 0:21:22,000
+Como dijo Platón, lo que el espacio es al tamaño, el tiempo lo es al valor.
+
+425
+0:21:22.33,000 --> 0:21:27,000
+Estos son los resultados del problema difícil que les di:
+
+426
+0:21:27.33,000 --> 0:21:29,000
+¿60 ahora o 50 en un mes?
+
+427
+0:21:29.33,000 --> 0:21:3,000
+Y estos son los valores subjetivos,
+
+428
+0:21:30.33,000 --> 0:21:32,000
+y lo que pueden ver es que nuestras dos reglas permanecen.
+
+429
+0:21:32.33,000 --> 0:21:34,000
+La gente siempre piensa que más es mejor que menos:
+
+430
+0:21:34.33,000 --> 0:21:36,000
+60 siempre es mejor que 50;
+
+431
+0:21:36.33,000 --> 0:21:38,000
+y siempre piensan que ahora es mejor que después:
+
+432
+0:21:38.33,000 --> 0:21:41,000
+las barras de este lado son mayores que las de este lado.
+
+433
+0:21:41.33,000 --> 0:21:44,000
+Vean qué sucede cuando quitamos algunas.
+
+434
+0:21:44.33,000 --> 0:21:47,000
+De repente, tenemos la inconsistencia dinámica que nos dejó perplejos.
+
+435
+0:21:47.33,000 --> 0:21:51,000
+Tenemos la tendencia de que la gente preferirá 50 dólares ahora
+
+436
+0:21:51.33,000 --> 0:21:54,000
+en vez de esperar un mes, pero no si la decisión se toma para el futuro lejano.
+
+437
+0:21:54.33,000 --> 0:21:58,000
+Dénse cuenta que esto implica algo interesante -- en particular, que
+
+438
+0:21:58.33,000 --> 0:22:02,000
+cuando la gente se acerca al futuro, cambia su opinión.
+
+439
+0:22:02.33,000 --> 0:22:05,000
+Esto es, que cuando el mes 12 se acerca, se dirán
+
+440
+0:22:05.33,000 --> 0:22:08,000
+¿Qué estaba pensando? ¿Esperar un mes más por 60 dólares?
+
+441
+0:22:08.33,000 --> 0:22:11,000
+Tomaré los 50 dólares ahora.
+
+442
+0:22:11.33,000 --> 0:22:14,000
+En fin, la pregunta con la que quiero terminar esto es:
+
+443
+0:22:14.33,000 --> 0:22:17,000
+Si somos tan estúpidos, ¿cómo es que llegamos a la Luna?
+
+444
+0:22:17.33,000 --> 0:22:2,000
+Porque podría seguir hablando dos horas con evidencia
+
+445
+0:22:20.33,000 --> 0:22:26,000
+de la incapacidad de la gente para estimar probabilidades y valor.
+
+446
+0:22:26.33,000 --> 0:22:28,000
+La respuesta a esta pregunta, creo, es una respuesta que ya han escuchado
+
+447
+0:22:28.33,000 --> 0:22:3,000
+en algunas de las pláticas, y me atrevo a decir que la escucharán de nuevo:
+
+448
+0:22:30.33,000 --> 0:22:34,000
+en particular, que nuestros cerebros evolucionaron para un mundo muy diferente
+
+449
+0:22:34.33,000 --> 0:22:36,000
+que éste en el que vivimos.
+
+450
+0:22:36.33,000 --> 0:22:38,000
+Evolucionaron para un mundo
+
+451
+0:22:38.33,000 --> 0:22:4,000
+en el que la gente viviría en grupos muy pequeños,
+
+452
+0:22:40.33,000 --> 0:22:43,000
+dificilmente conocerían a alguien sumamente diferente de ellos,
+
+453
+0:22:43.33,000 --> 0:22:46,000
+tendrían vidas particularmente cortas en las que habrían muy pocas opciones
+
+454
+0:22:46.33,000 --> 0:22:51,000
+y la prioridad más importante sería comer y procrear hoy.
+
+455
+0:22:51.33,000 --> 0:22:56,000
+El regalo de Bernoulli, la formulita de Bernoulli, nos permite, nos dice
+
+456
+0:22:56.33,000 --> 0:23:01,000
+cómo deberíamos de pensar en un mundo para el cual la naturaleza nunca nos diseñó.
+
+457
+0:23:01.33,000 --> 0:23:05,000
+Eso explica por qué somos tan malos al usarlo, pero también
+
+458
+0:23:05.33,000 --> 0:23:1,000
+por qué es tan enormemente importante que nos volvamos buenos, rápidamente.
+
+459
+0:23:10.33,000 --> 0:23:12,000
+Somos la única especie en el planeta
+
+460
+0:23:12.33,000 --> 0:23:16,000
+que ha tenido su destino en sus propias manos.
+
+461
+0:23:16.33,000 --> 0:23:18,000
+No tenemos depredadores significativos,
+
+462
+0:23:18.33,000 --> 0:23:2,000
+somos los amos de nuestro entorno físico;
+
+463
+0:23:20.33,000 --> 0:23:23,000
+las cosas que normalmente causan que las especies se extingan
+
+464
+0:23:23.33,000 --> 0:23:26,000
+ya no son una amenaza para nosotros.
+
+465
+0:23:26.33,000 --> 0:23:31,000
+La única cosa -- la única cosa -- que puede destruirnos y condenarnos
+
+466
+0:23:31.33,000 --> 0:23:33,000
+son nuestras propias decisiones
+
+467
+0:23:33.33,000 --> 0:23:37,000
+Si no estamos aquí en 10,000 años será porque
+
+468
+0:23:37.33,000 --> 0:23:41,000
+no pudimos tomar ventaja del regalo que nos fue dado
+
+469
+0:23:41.33,000 --> 0:23:44,000
+por un joven danés en 1738,
+
+470
+0:23:44.33,000 --> 0:23:48,000
+porque subestimamos las probabilidades de nuestros dolores futuros
+
+471
+0:23:48.33,000 --> 0:23:52,000
+y sobreestimamos el valor de nuestros placeres actuales.
+
+472
+0:23:52.33,000 --> 0:23:53,000
+Gracias.
+
+473
+0:23:53.33,000 --> 0:24:03,000
+(Aplauso)
+
+474
+0:24:03.33,000 --> 0:24:06,000
+Chris Anderson: Eso fue notable.
+
+475
+0:24:06.33,000 --> 0:24:11,000
+Tenemos algo de tiempo para preguntas a Dan Gilbert. Uno y dos.
+
+476
+0:24:11.33,000 --> 0:24:14,000
+Bill Lyell: ¿Diría que este mecanismo
+
+477
+0:24:14.33,000 --> 0:24:18,000
+en parte es cómo el terrorismo de hecho funciona para asustarnos,
+
+478
+0:24:18.33,000 --> 0:24:22,000
+y hay alguna manera en la que pudiéramos contrarrestar eso?
+
+479
+0:24:22.33,000 --> 0:24:23,000
+Dan Gilbert: De hecho, estuve en consultas recientes
+
+480
+0:24:23.33,000 --> 0:24:26,000
+con el Departamento de Seguridad Interna, que por lo general cree
+
+481
+0:24:26.33,000 --> 0:24:3,000
+que los dólares destinados a la seguridad estadounidense deberían gastarse en hacer las fronteras más seguras.
+
+482
+0:24:30.33,000 --> 0:24:33,000
+Traté de señalarles que el terrorismo es un nombre
+
+483
+0:24:33.33,000 --> 0:24:37,000
+basado en la reacción psicológica de la gente frente a un conjunto de eventos,
+
+484
+0:24:37.33,000 --> 0:24:39,000
+y que si estaban preocupados por el terrorismo debían preguntar
+
+485
+0:24:39.33,000 --> 0:24:42,000
+qué es lo que causa terror y cómo podemos evitar que la gente se aterrorice,
+
+486
+0:24:42.33,000 --> 0:24:45,000
+en vez de -- no en vez de, pero adicionalmente a
+
+487
+0:24:45.33,000 --> 0:24:48,000
+detener las atrocidades que nos preocupan a todos.
+
+488
+0:24:48.33,000 --> 0:24:54,000
+Ciertamente, son el tipo de juegos a los que ceden por lo menos los medios estadounidenses --
+
+489
+0:24:54.33,000 --> 0:24:59,000
+y perdónenme, pero en números brutos se trata de accidentes muy pequeños.
+
+490
+0:24:59.33,000 --> 0:25:01,000
+Ya sabemos, por ejemplo, en los Estados Unidos,
+
+491
+0:25:01.33,000 --> 0:25:05,000
+qué más gente ha muerto como resultado de no subirse en aviones --
+
+492
+0:25:05.33,000 --> 0:25:07,000
+porque estaban asustados -- y manejando en carreteras
+
+493
+0:25:07.33,000 --> 0:25:09,000
+que los muertos el 11 de septiembre, ¿sí?
+
+494
+0:25:09.33,000 --> 0:25:11,000
+Si les dijera que había una plaga
+
+495
+0:25:11.33,000 --> 0:25:14,000
+que mataría 15,000 estadounidenses el próximo año,
+
+496
+0:25:14.33,000 --> 0:25:17,000
+se alarmarían si no supieran que se trata de la gripe.
+
+497
+0:25:17.33,000 --> 0:25:2,000
+Son accidentes en pequeña escala, y deberíamos preguntarnos
+
+498
+0:25:20.33,000 --> 0:25:22,000
+si debieran recibir el tipo de juego,
+
+499
+0:25:22.33,000 --> 0:25:24,000
+el tipo de cobertura, que reciben.
+
+500
+0:25:24.33,000 --> 0:25:27,000
+Por supuesto, esto causa que la gente sobreestime la probabilidad
+
+501
+0:25:27.33,000 --> 0:25:29,000
+de que saldrán lastimados en estas numerosas formas,
+
+502
+0:25:29.33,000 --> 0:25:31,000
+y empodera a la mismísima gente que nos quiere asustar.
+
+503
+0:25:31.33,000 --> 0:25:33,000
+CA: Dan, quisiera escuchar más sobre esto. Así que, estás diciendo
+
+504
+0:25:33.33,000 --> 0:25:37,000
+que nuestra respuesta al terror es, quiero decir, una forma de error mental?
+
+505
+0:25:37.33,000 --> 0:25:38,000
+Háblanos más de esto.
+
+506
+0:25:38.33,000 --> 0:25:41,000
+DG: Está fuera de proporción. Quiero decir, mira.
+
+507
+0:25:41.33,000 --> 0:25:43,000
+Si Australia desapareciera mañana,
+
+508
+0:25:43.33,000 --> 0:25:45,000
+el terror es probablemente la respuesta correcta.
+
+509
+0:25:45.33,000 --> 0:25:5,000
+Es un grupo terriblemente grande de gente muy agradable. Por otro lado,
+
+510
+0:25:50.33,000 --> 0:25:53,000
+cuando un autobús explota y 30 personas mueren,
+
+511
+0:25:53.33,000 --> 0:25:55,000
+mucha más gente murió
+
+512
+0:25:55.33,000 --> 0:25:58,000
+por no usar sus cinturones de seguridad en el mismo país.
+
+513
+0:25:58.33,000 --> 0:25:59,000
+¿Es el terror la respuesta correcta?
+
+514
+0:25:59.33,000 --> 0:26:03,000
+CA: ¿Qué causa el error? ¿Es acaso el drama del evento --
+
+515
+0:26:03.33,000 --> 0:26:04,000
+lo que es tan espectacular?
+
+516
+0:26:04.33,000 --> 0:26:07,000
+¿Es el hecho de que es un ataque internacional por parte de, digamos, extraños?
+
+517
+0:26:07.33,000 --> 0:26:08,000
+¿Qué es?
+
+518
+0:26:08.33,000 --> 0:26:11,000
+DG: Sí. Son varias cosas, y mencionaste algunas.
+
+519
+0:26:11.33,000 --> 0:26:13,000
+Primero, es un agente humano tratando de matarnos --
+
+520
+0:26:13.33,000 --> 0:26:16,000
+no es un árbol cayéndonos encima por accidente.
+
+521
+0:26:16.33,000 --> 0:26:19,000
+Segundo, son enemigos que pudieran querer golpear y lastimarnos de nuevo.
+
+522
+0:26:19.33,000 --> 0:26:22,000
+Gente está muriendo sin razón en vez de morir por una buena razón --
+
+523
+0:26:22.33,000 --> 0:26:25,000
+como si hubiera una buena razón, pero a veces la gente piensa que la hay.
+
+524
+0:26:25.33,000 --> 0:26:27,000
+Así que hay varias cosas que juntas
+
+525
+0:26:27.33,000 --> 0:26:3,000
+hacen que este evento parezca fantástico, pero no minimicemos
+
+526
+0:26:30.33,000 --> 0:26:34,000
+el hecho de que los diarios venden más cuando la gente ve ahí algo
+
+527
+0:26:34.33,000 --> 0:26:37,000
+que quieran leer. Así que hay un papel muy grande desempeñado por los medios,
+
+528
+0:26:37.33,000 --> 0:26:39,000
+que quieren que estas cosas
+
+529
+0:26:39.33,000 --> 0:26:43,000
+sean tan espectaculares como puedan ser.
+
+530
+0:26:43.33,000 --> 0:26:49,000
+CA: Quiero decir, ¿Qué se necesitaría para persuadir a nuestra cultura de minimizarlos?
+
+531
+0:26:49.33,000 --> 0:26:5,000
+DG: Pues, ve a Israel. Sabes,
+
+532
+0:26:50.33,000 --> 0:26:52,000
+ve a Israel. Y un centro comercial explota,
+
+533
+0:26:52.33,000 --> 0:26:55,000
+y entonces todo mundo se siente desdichado, y una hora y media después --
+
+534
+0:26:55.33,000 --> 0:26:58,000
+por lo menos cuando yo estuve ahí, y estaba a 150 pies (~45 metros) del centro comercial
+
+535
+0:26:58.33,000 --> 0:27:,000
+cuando explotó -- regresé a mi hotel
+
+536
+0:27:00.33,000 --> 0:27:03,000
+y la boda que se había planeado continuaría aún.
+
+537
+0:27:03.33,000 --> 0:27:04,000
+Y como la madre israelita dijo,
+
+538
+0:27:04.33,000 --> 0:27:08,000
+"Nunca los dejamos ganar cancelando bodas."
+
+539
+0:27:08.33,000 --> 0:27:09,000
+Quiero decir, ésta es una sociedad que ha aprendido --
+
+540
+0:27:09.33,000 --> 0:27:11,000
+y hay otras también -- que ha aprendido a vivir
+
+541
+0:27:11.33,000 --> 0:27:16,000
+con una cierta cantidad de terrorismo y a no estar tan molesta por ello,
+
+542
+0:27:16.33,000 --> 0:27:19,000
+diría yo, como aquellos de nosotros que no han tenido muchos ataques terroristas.
+
+543
+0:27:19.33,000 --> 0:27:22,000
+CA: ¿Pero existe un miedo racional a que de hecho,
+
+544
+0:27:22.33,000 --> 0:27:25,000
+la razón por la que esto nos asusta es que pensamos que
+
+545
+0:27:25.33,000 --> 0:27:26,000
+el "Gran Ataque" seguirá después?
+
+546
+0:27:26.33,000 --> 0:27:3,000
+DG: Sí, por supuesto. Así que, si supiéramos que este es el peor ataque
+
+547
+0:27:30.33,000 --> 0:27:34,000
+que habría jamás, entonces habría más y más autobuses de 30 personas --
+
+548
+0:27:34.33,000 --> 0:27:36,000
+probablemente no estaríamos tan asustados.
+
+549
+0:27:36.33,000 --> 0:27:38,000
+No quiero decir --por favor, me van a citar en algún lugar
+
+550
+0:27:38.33,000 --> 0:27:42,000
+diciendo "el terrorismo está bien y no deberíamos estar tan preocupados".
+
+551
+0:27:42.33,000 --> 0:27:44,000
+Ese no es mi punto en absoluto.
+
+552
+0:27:44.33,000 --> 0:27:46,000
+Lo que estoy diciendo es que, seguramente, racionalmente,
+
+553
+0:27:46.33,000 --> 0:27:5,000
+nuestra preocupación por las cosas que suceden, por las amenazas,
+
+554
+0:27:50.33,000 --> 0:27:53,000
+debería ser aproximadamente proporcional al tamaño de esas amenazas
+
+555
+0:27:53.33,000 --> 0:27:55,000
+y de las amenazas por venir.
+
+556
+0:27:55.33,000 --> 0:27:58,000
+Creo que en el caso del terrorismo, no es así.
+
+557
+0:27:58.33,000 --> 0:28:,000
+Y muchas de las cosas que hemos escuchado de nuestros oradores hoy --
+
+558
+0:28:00.33,000 --> 0:28:02,000
+¿cuántas personas que conoces se levantaron y dijeron,
+
+559
+0:28:02.33,000 --> 0:28:06,000
+"¡La pobreza!, no puedo creer lo que la pobreza nos está haciendo"
+
+560
+0:28:06.33,000 --> 0:28:08,000
+La gente se levanta en la mañana; no les importa la pobreza.
+
+561
+0:28:08.33,000 --> 0:28:1,000
+No está llegando a las primeras planas; no es noticia, no es vistosa.
+
+562
+0:28:10.33,000 --> 0:28:12,000
+No hay pistolas siendo disparadas.
+
+563
+0:28:12.33,000 --> 0:28:14,000
+Quiero decir, que si tuvieras que resolver uno de estos problemas, Chris,
+
+564
+0:28:14.33,000 --> 0:28:16,000
+¿Cuál resolverías? ¿el terrorismo o la pobreza?
+
+565
+0:28:16.33,000 --> 0:28:2,000
+(Risas)
+
+566
+0:28:20.33,000 --> 0:28:22,000
+(Aplausos)
+
+567
+0:28:22.33,000 --> 0:28:24,000
+Es una pregunta difícil.
+
+568
+0:28:24.33,000 --> 0:28:25,000
+CA: Sin duda.
+
+569
+0:28:25.33,000 --> 0:28:29,000
+La pobreza, por orden de magnitud, un gran orden de magnitud,
+
+570
+0:28:29.33,000 --> 0:28:32,000
+a menos que alguien demostrara que hay, sabes,
+
+571
+0:28:32.33,000 --> 0:28:36,000
+una posibilidad real de que vengan terroristas con una bomba nuclear.
+
+572
+0:28:36.33,000 --> 0:28:38,000
+Lo más reciente que he leído, visto, pensado
+
+573
+0:28:38.33,000 --> 0:28:42,000
+es que es increíblemente difícil para ellos lograrlo.
+
+574
+0:28:42.33,000 --> 0:28:44,000
+Si eso resulta ser falso, nos veremos muy mal,
+
+575
+0:28:44.33,000 --> 0:28:46,000
+pero con la pobreza es un poco --
+
+576
+0:28:46.33,000 --> 0:28:49,000
+DG: Incluso si eso fuera cierto, aún más gente muere por pobreza.
+
+577
+0:28:53.33,000 --> 0:28:54,000
+CA: Hemos evolucionado para emocionarnos
+
+578
+0:28:54.33,000 --> 0:28:57,000
+con estos ataques dramáticos. ¿Será porque en el pasado,
+
+579
+0:28:57.33,000 --> 0:29:,000
+en el paso antiguo, simplemente no entendíamos cosas como la enfermedad
+
+580
+0:29:00.33,000 --> 0:29:02,000
+y los sistemas que causan la pobreza y así sucesivamente,
+
+581
+0:29:02.33,000 --> 0:29:06,000
+por lo que no tenía sentido para nosotros como especies poner energía alguna
+
+582
+0:29:06.33,000 --> 0:29:08,000
+en preocuparnos por estas cosas?
+
+583
+0:29:08.33,000 --> 0:29:1,000
+Gente murió; que así sea.
+
+584
+0:29:10.33,000 --> 0:29:12,000
+Pero si fuiste atacado, entonces pudiste hacer algo al respecto.
+
+585
+0:29:12.33,000 --> 0:29:14,000
+así que desarrollamos estas respuestas.
+
+586
+0:29:14.33,000 --> 0:29:15,000
+¿Es eso lo que pasó?
+
+587
+0:29:15.33,000 --> 0:29:18,000
+DG: Bueno, sabes, la gente más escéptica
+
+588
+0:29:18.33,000 --> 0:29:2,000
+de saltar hacia explicaciones evolutivas para todo
+
+589
+0:29:20.33,000 --> 0:29:22,000
+son los mismos psicólogos evolutivos.
+
+590
+0:29:22.33,000 --> 0:29:25,000
+Mi conjetura es que no hay nada tan específico
+
+591
+0:29:25.33,000 --> 0:29:27,000
+en nuestro pasado evolutivo. En cambio, si estás buscando
+
+592
+0:29:27.33,000 --> 0:29:29,000
+una explicación evolutiva, podrías decir
+
+593
+0:29:29.33,000 --> 0:29:33,000
+que la mayoría de los organismos son neofóbicos -- esto es, que tienen un poco de miedo
+
+594
+0:29:33.33,000 --> 0:29:34,000
+de cosas nuevas y diferentes.
+
+595
+0:29:34.33,000 --> 0:29:36,000
+Y hay buenos argumentos para ser así,
+
+596
+0:29:36.33,000 --> 0:29:37,000
+Porque las cosas conocidas no te comieron, ¿cierto?
+
+597
+0:29:37.33,000 --> 0:29:4,000
+Es menos probable que cualquier animal que hayas visto anteriormente
+
+598
+0:29:40.33,000 --> 0:29:43,000
+sea un depredador, que uno que nunca hubieras visto antes.
+
+599
+0:29:43.33,000 --> 0:29:46,000
+Así que, ya sabes, cuando un autobús explota y nunca antes hemos visto esto,
+
+600
+0:29:46.33,000 --> 0:29:48,000
+nuestra tendencia general es orientarnos hacia
+
+601
+0:29:48.33,000 --> 0:29:53,000
+aquello que es nuevo y novedoso se activa.
+
+602
+0:29:53.33,000 --> 0:29:55,000
+No creo que sea un mecanismo tan específico
+
+603
+0:29:55.33,000 --> 0:29:57,000
+como el que aludes, pero pudiera ser uno subyaciente y más fundamental.
+
+604
+0:30:01.33,000 --> 0:30:06,000
+Jay Walker: Sabes, a los economistas les encanta hablar sobre
+
+605
+0:30:06.33,000 --> 0:30:1,000
+la estupidez de las personas que compran billetes de lotería. Pero sospecho
+
+606
+0:30:10.33,000 --> 0:30:13,000
+que cometes exactamente el mismo error del que acusas a esas personas,
+
+607
+0:30:13.33,000 --> 0:30:14,000
+que es el error de la valoración.
+
+608
+0:30:14.33,000 --> 0:30:15,000
+Lo sé, porque he entrevistado
+
+609
+0:30:15.33,000 --> 0:30:17,000
+cerca de 1,000 compradores de billetes de lotería a través de los años.
+
+610
+0:30:17.33,000 --> 0:30:21,000
+Resulta que el valor de comprar un billete de lotería no es ganar.
+
+611
+0:30:21.33,000 --> 0:30:23,000
+Eso es lo que tú piensas que es. ¿De acuerdo?
+
+612
+0:30:23.33,000 --> 0:30:26,000
+El comprador promedio de lotería compra como 150 billetes al año,
+
+613
+0:30:26.33,000 --> 0:30:3,000
+así que el comprador sabe bastante bien que él o ella va a perder,
+
+614
+0:30:30.33,000 --> 0:30:33,000
+y aún así compra 150 billetes al año. ¿Por qué?
+
+615
+0:30:33.33,000 --> 0:30:37,000
+No es porque sea estúpida o estúpido.
+
+616
+0:30:37.33,000 --> 0:30:4,000
+Es porque la anticipación de posiblemente ganar
+
+617
+0:30:40.33,000 --> 0:30:44,000
+libera serotonina en el cerebo, y de hecho genera un sentimiento de bienestar
+
+618
+0:30:44.33,000 --> 0:30:46,000
+hasta que los resultados indican que has perdido.
+
+619
+0:30:46.33,000 --> 0:30:49,000
+O, para ponerlo de otra forma, por la inversión de ese dinero,
+
+620
+0:30:49.33,000 --> 0:30:52,000
+puedes tener un sentimiento mucho mejor que al tirarlo
+
+621
+0:30:52.33,000 --> 0:30:55,000
+por el escusado, algo que no te genera un sentimiento agradable.
+
+622
+0:30:55.33,000 --> 0:30:57,000
+Ahora bien, los economistas tienden a --
+
+623
+0:30:57.33,000 --> 0:31:,000
+(Aplausos)
+
+624
+0:31:00.33,000 --> 0:31:01,000
+-- los economistas tienden a ver el mundo
+
+625
+0:31:01.33,000 --> 0:31:03,000
+a través de sus propios lentes, el cual es:
+
+626
+0:31:03.33,000 --> 0:31:05,000
+"Esto es sólo un montón de gente estúpida."
+
+627
+0:31:05.33,000 --> 0:31:09,000
+Y como resultado, mucha gente ve a los economistas como gente estúpida.
+
+628
+0:31:09.33,000 --> 0:31:12,000
+Por lo que, fundamentalmente, la razón por la que llegamos a la luna es que
+
+629
+0:31:12.33,000 --> 0:31:15,000
+no escuchamos a los economistas. Muchas gracias.
+
+630
+0:31:15.33,000 --> 0:31:2,000
+(Aplauso)
+
+631
+0:31:20.33,000 --> 0:31:23,000
+DG: Bueno, no, es un gran punto. Queda por verse
+
+632
+0:31:23.33,000 --> 0:31:27,000
+si la alegría de la anticipación es exactamente equivalente
+
+633
+0:31:27.33,000 --> 0:31:3,000
+a la cantidad de decepción después de la lotería. Porque, recuerda,
+
+634
+0:31:30.33,000 --> 0:31:33,000
+la gente que no compró billetes no se siente terrible al siguiente día,
+
+635
+0:31:33.33,000 --> 0:31:35,000
+incluso cuando no se sienten magníficamente durante el sorteo.
+
+636
+0:31:35.33,000 --> 0:31:37,000
+No estaría de acuerdo con que la gente sepa que no va a ganar.
+
+637
+0:31:37.33,000 --> 0:31:4,000
+Creo que piensan que es improbable, pero que podría suceder,
+
+638
+0:31:40.33,000 --> 0:31:43,000
+por lo que prefieren eso a tirar el dinero en el escusado.
+
+639
+0:31:43.33,000 --> 0:31:46,000
+Pero ciertamente veo tu punto: que puede haber
+
+640
+0:31:46.33,000 --> 0:31:5,000
+alguna utilidad en comprar un billete de lotería además de ganar.
+
+641
+0:31:50.33,000 --> 0:31:53,000
+Ahora bien, creo que hay muchas buenas razones para no escuchar a los economistas.
+
+642
+0:31:53.33,000 --> 0:31:56,000
+Ésa no es una de ellas, para mí, pero hay muchas otras.
+
+643
+0:31:56.33,000 --> 0:31:58,000
+CA: Última pregunta.
+
+644
+0:31:58.33,000 --> 0:32:01,000
+Aubrey de Grey: Me llamo Aubrey de Grey, soy de Cambridge,
+
+645
+0:32:01.33,000 --> 0:32:05,000
+trabajo en algo que mata más gente que cualquier otra cosa --
+
+646
+0:32:05.33,000 --> 0:32:07,000
+Trabajo en el envejecimiento -- y me interesa hacer algo al respecto,
+
+647
+0:32:07.33,000 --> 0:32:08,000
+como todos podremos escuchar mañana.
+
+648
+0:32:08.33,000 --> 0:32:11,000
+Comparto mucho lo que dices,
+
+649
+0:32:11.33,000 --> 0:32:13,000
+porque para mí el problema
+
+650
+0:32:13.33,000 --> 0:32:16,000
+de que la gente se interese en hacer algo sobre el envejecimiento
+
+651
+0:32:16.33,000 --> 0:32:19,000
+es que para cuando el envejecimiento te va a matar, se parece al cáncer
+
+652
+0:32:19.33,000 --> 0:32:22,000
+o las enfermedades cardiacas, o lo que sea. ¿Tienes algún consejo?
+
+653
+0:32:22.33,000 --> 0:32:25,000
+(Risas)
+
+654
+0:32:25.33,000 --> 0:32:26,000
+DG: ¿Para ti o para ellos?
+
+655
+0:32:26.33,000 --> 0:32:27,000
+AdG: Para convencerlos.
+
+656
+0:32:27.33,000 --> 0:32:29,000
+DG: Ah, para que los convenzas.
+
+657
+0:32:29.33,000 --> 0:32:32,000
+Bueno, es particularmente difícil lograr que la gente tenga visión de futuro.
+
+658
+0:32:32.33,000 --> 0:32:36,000
+Pero algo que los psicólogos han intentado y que parece funcionar
+
+659
+0:32:36.33,000 --> 0:32:39,000
+es que la gente se imagine el futuro más vívidamente.
+
+660
+0:32:39.33,000 --> 0:32:42,000
+Uno de los problemas que tiene decidir sobre el futuro lejano
+
+661
+0:32:42.33,000 --> 0:32:45,000
+y sobre el futuro cercano es que imaginamos al futuro cercano
+
+662
+0:32:45.33,000 --> 0:32:47,000
+mucho más vívidamente que el futuro lejano.
+
+663
+0:32:47.33,000 --> 0:32:51,000
+En la medida en que puedas equiparar la cantidad de detalle
+
+664
+0:32:51.33,000 --> 0:32:53,000
+que la gente pone en sus representaciones mentales
+
+665
+0:32:53.33,000 --> 0:32:55,000
+sobre el futuro cercano y el lejano, la gente empieza a tomar decisiones
+
+666
+0:32:55.33,000 --> 0:32:57,000
+sobre ambos futuros en la misma manera.
+
+667
+0:32:57.33,000 --> 0:33:02,000
+Por lo que, ¿te gustaría tener 100,000 dólares extra cuando tengas 65 años?
+
+668
+0:33:02.33,000 --> 0:33:03,000
+es una pregunta muy diferente de,
+
+669
+0:33:03.33,000 --> 0:33:07,000
+'Imagina quién serás cuando tengas 65 años: ¿estarás vivo?
+
+670
+0:33:07.33,000 --> 0:33:09,000
+¿cómo lucirás? ¿cuánto pelo tendrás?
+
+671
+0:33:09.33,000 --> 0:33:1,000
+¿con quién estarás viviendo?'.
+
+672
+0:33:10.33,000 --> 0:33:13,000
+Una vez que tenemos todos los detalles de esa situación imaginaria,
+
+673
+0:33:13.33,000 --> 0:33:15,000
+de repente sentimos que podría ser importante ahorrar
+
+674
+0:33:15.33,000 --> 0:33:18,000
+para que ese tipo del futuro tenga un poco de dinero para su retiro.
+
+675
+0:33:18.33,000 --> 0:33:2,000
+Pero estos son trucos complementarios.
+
+676
+0:33:20.33,000 --> 0:33:23,000
+Creo que en general estás combatiendo una tendencia humana muy fundamental,
+
+677
+0:33:23.33,000 --> 0:33:25,000
+que es el decir, "Hoy estoy aquí,
+
+678
+0:33:25.33,000 --> 0:33:28,000
+así que ahora es más importante que después."
+
+679
+0:33:28.33,000 --> 0:33:3,000
+CA: Dan, muchas gracias. Miembros de la audiencia,
+
+680
+0:33:30.33,000 --> 0:33:31,000
+ésta fue una sesión fantástica. Muchas gracias.
+
+681
+0:33:31.33,000 --> 0:33:33,000
+(Aplausos)
+

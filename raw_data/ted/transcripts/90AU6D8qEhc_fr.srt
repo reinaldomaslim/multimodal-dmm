@@ -1,0 +1,532 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Francois Roughol Relecteur: Mia C.
+
+2
+0:00:18.33,000 --> 0:00:21,000
+Un des plus grands défis dans l'image de synthèse
+
+3
+0:00:21.33,000 --> 0:00:23,000
+a toujours été de créer un visage humain
+
+4
+0:00:23.33,000 --> 0:00:25,000
+photo-réaliste.
+
+5
+0:00:25.33,000 --> 0:00:28,000
+Et une des raisons pour cela, à l'inverse des aliens ou des dinosaures,
+
+6
+0:00:28.33,000 --> 0:00:31,000
+est que nous regardons des visages humains tous les jours.
+
+7
+0:00:31.33,000 --> 0:00:33,000
+Et ceux-ci sont très importants dans la façon dont nous communiquons entre nous.
+
+8
+0:00:33.33,000 --> 0:00:36,000
+Et nous sommes donc sensibles aux moindres détails
+
+9
+0:00:36.33,000 --> 0:00:38,000
+potentiellement erronés d'une image de synthèse,
+
+10
+0:00:38.33,000 --> 0:00:41,000
+nous empêchant de croire que ce visage puisse être réaliste.
+
+11
+0:00:41.33,000 --> 0:00:43,000
+Et ce que je vais faire pendant les cinq prochaines minutes
+
+12
+0:00:43.33,000 --> 0:00:45,000
+est de vous faire partager un processus
+
+13
+0:00:45.33,000 --> 0:00:48,000
+grâce auquel nous avons essayé de créer un visage de synthèse photo-réaliste,
+
+14
+0:00:48.33,000 --> 0:00:51,000
+en utilisant une technologie d'image de synthèse que nous avons développé
+
+15
+0:00:51.33,000 --> 0:00:53,000
+avec nos collaborateurs chez Image Metrics.
+
+16
+0:00:53.33,000 --> 0:00:55,000
+Nous allons essayer de reproduire le visage de l'actrice
+
+17
+0:00:55.33,000 --> 0:00:58,000
+Emily O'Brian, ici présente, de manière réaliste.
+
+18
+0:00:58.33,000 --> 0:01:01,000
+Et voici une image de synthèse de son visage, entièrement reconstituée.
+
+19
+0:01:01.33,000 --> 0:01:03,000
+D'ici la fin de cette présentation, vous la verrez bouger.
+
+20
+0:01:03.33,000 --> 0:01:06,000
+Notre méthode fut d'abord d'essayer avec Emily en personne,
+
+21
+0:01:06.33,000 --> 0:01:09,000
+qui a gentiment accepté de venir dans notre laboratoire
+
+22
+0:01:09.33,000 --> 0:01:12,000
+de Marina Del Rey, et de participer à une session de Light Stage 5.
+
+23
+0:01:12.33,000 --> 0:01:16,000
+C'est une sphère faite de 156 DEL blanches tout autour qui scannent son visage
+
+24
+0:01:16.33,000 --> 0:01:18,000
+et nous permettent de le photographier
+
+25
+0:01:18.33,000 --> 0:01:21,000
+dans un ensemble d'éclairages extrêmement contrôlés.
+
+26
+0:01:21.33,000 --> 0:01:24,000
+Et l'éclairage que nous utilisons en ce moment ressemble à ceci.
+
+27
+0:01:24.33,000 --> 0:01:26,000
+Nous prenons toutes ces photos en environ trois secondes.
+
+28
+0:01:26.33,000 --> 0:01:29,000
+Et nous obtenons suffisamment d'informations
+
+29
+0:01:29.33,000 --> 0:01:33,000
+avec des modèles de projection vidéo qui enrobent les contours de son visage,
+
+30
+0:01:33.33,000 --> 0:01:35,000
+et les diverses orientations principales de lumière,
+
+31
+0:01:35.33,000 --> 0:01:37,000
+pour reconstituer à la fois la definition haute
+
+32
+0:01:37.33,000 --> 0:01:39,000
+et basse des détails de son visage.
+
+33
+0:01:39.33,000 --> 0:01:41,000
+Si nous zoomons sur cette photo ici,
+
+34
+0:01:41.33,000 --> 0:01:43,000
+nous pouvons voir que c'est un très beau cliché à avoir
+
+35
+0:01:43.33,000 --> 0:01:47,000
+car elle est éclairée d'absolument partout à la fois
+
+36
+0:01:47.33,000 --> 0:01:49,000
+et cela donne une belle image de la texture de son visage.
+
+37
+0:01:49.33,000 --> 0:01:52,000
+Et en plus, nous avons utilisé des filtres polarisateurs sur toutes les lumières
+
+38
+0:01:52.33,000 --> 0:01:54,000
+de la même façon que les lunettes polarisées
+
+39
+0:01:54.33,000 --> 0:01:56,000
+peuvent bloquer les reflets sur la route,
+
+40
+0:01:56.33,000 --> 0:01:58,000
+les filtres polarisateurs bloquent la brillance de la peau,
+
+41
+0:01:58.33,000 --> 0:02:01,000
+et nous obtenons une texture sans reflets spéculaires.
+
+42
+0:02:01.33,000 --> 0:02:03,000
+Maintenant, si nous tournons un peu ces filtres,
+
+43
+0:02:03.33,000 --> 0:02:05,000
+nous pouvons en fait réintroduire
+
+44
+0:02:05.33,000 --> 0:02:07,000
+les reflets spéculaires sur la peau
+
+45
+0:02:07.33,000 --> 0:02:1,000
+et vous pouvez voir que sa peau semble très brillante et huilée maintenant.
+
+46
+0:02:10.33,000 --> 0:02:13,000
+Si l'on soustrait les différences entre ces deux images là,
+
+47
+0:02:13.33,000 --> 0:02:15,000
+on peut obtenir une image éclairée par toute la sphère de lumière
+
+48
+0:02:15.33,000 --> 0:02:18,000
+ou bien uniquement la brillance de la peau d'Emily.
+
+49
+0:02:18.33,000 --> 0:02:2,000
+Je crois qu'aucune photo de ce type n'a jamais été prise
+
+50
+0:02:20.33,000 --> 0:02:22,000
+avant la nôtre.
+
+51
+0:02:22.33,000 --> 0:02:25,000
+Et cette lumière est extrêmement importante à saisir,
+
+52
+0:02:25.33,000 --> 0:02:27,000
+car c'est la lumière qui se reflète à la surface de la peau.
+
+53
+0:02:27.33,000 --> 0:02:29,000
+Elle ne pénètre pas au delà des couches
+
+54
+0:02:29.33,000 --> 0:02:31,000
+translucides de la peau pour s'y dissiper.
+
+55
+0:02:31.33,000 --> 0:02:33,000
+Et le résultat est une très bonne indication
+
+56
+0:02:33.33,000 --> 0:02:36,000
+de la forme détaillée de la structure poreuse de la peau
+
+57
+0:02:36.33,000 --> 0:02:38,000
+et de toutes les fines rides que nous avons tous,
+
+58
+0:02:38.33,000 --> 0:02:4,000
+exactement le genre de chose qui nous donnent l'aspect de vrais humains.
+
+59
+0:02:40.33,000 --> 0:02:44,000
+Donc, si nous utilisons ces données venant des reflets spéculaires
+
+60
+0:02:44.33,000 --> 0:02:46,000
+nous pouvons aller d'un scan traditionnel de visage
+
+61
+0:02:46.33,000 --> 0:02:5,000
+qui pourrait avoir les contours grossiers et la forme basique du visage,
+
+62
+0:02:50.33,000 --> 0:02:52,000
+et ajouter les informations
+
+63
+0:02:52.33,000 --> 0:02:55,000
+nécessaires à cette structure poreuse et aux fines rides de la peau.
+
+64
+0:02:55.33,000 --> 0:02:57,000
+Et, plus important encore,
+
+65
+0:02:57.33,000 --> 0:03:,000
+puisque c'est un processus photométrique qui ne prend que trois secondes,
+
+66
+0:03:00.33,000 --> 0:03:02,000
+nous pouvons photographier Emily
+
+67
+0:03:02.33,000 --> 0:03:04,000
+seulement en une partie de l'après-midi,
+
+68
+0:03:04.33,000 --> 0:03:07,000
+en de nombreuses positions et expressions faciales.
+
+69
+0:03:07.33,000 --> 0:03:1,000
+Ici, vous pouvez la voir bouger ses yeux et sa bouche.
+
+70
+0:03:10.33,000 --> 0:03:13,000
+Et nous nous en servirons pour créer notre personnage de synthèse photo-realiste.
+
+71
+0:03:13.33,000 --> 0:03:17,000
+Si vous regardez ces scans que nous avons d'Emily,
+
+72
+0:03:17.33,000 --> 0:03:2,000
+vous pouvez voir que le visage humain est capable d'un nombre impressionnant de choses
+
+73
+0:03:20.33,000 --> 0:03:23,000
+lorsqu'il exprime différents sentiments.
+
+74
+0:03:23.33,000 --> 0:03:26,000
+Vous pouvez voir ces choses. Non seulement le visage change,
+
+75
+0:03:26.33,000 --> 0:03:3,000
+mais plein de plis et de rides apparaissent.
+
+76
+0:03:30.33,000 --> 0:03:34,000
+Vous pouvez voir que la structure poreuse de la peau change
+
+77
+0:03:34.33,000 --> 0:03:36,000
+énormément entre les pores étirées
+
+78
+0:03:36.33,000 --> 0:03:38,000
+et la texture habituelle de la peau.
+
+79
+0:03:38.33,000 --> 0:03:41,000
+Vous pouvez voir les froncements du front, et comment la micro-structure change là.
+
+80
+0:03:41.33,000 --> 0:03:45,000
+Vous pouvez voir les muscles tirer vers le bas pour faire descendre ses sourcils.
+
+81
+0:03:45.33,000 --> 0:03:48,000
+Ses muscles se bomber sur son front lorsqu'elle grimace comme cela.
+
+82
+0:03:48.33,000 --> 0:03:51,000
+En plus de toute cette sorte de géométrie haute résolution,
+
+83
+0:03:51.33,000 --> 0:03:55,000
+puisque c'est pris avec des caméras, on a un superbe plan de textures pour son visage.
+
+84
+0:03:55.33,000 --> 0:03:57,000
+Et en observant comment les différents canaux de colorimétrie,
+
+85
+0:03:57.33,000 --> 0:03:59,000
+le rouge, le vert et le bleu,
+
+86
+0:03:59.33,000 --> 0:04:01,000
+diffusent la lumière de façon différente,
+
+87
+0:04:01.33,000 --> 0:04:04,000
+nous pouvons trouver une façon d'ajouter des tons à la peau sur l'ordinateur.
+
+88
+0:04:04.33,000 --> 0:04:07,000
+Et ainsi, plutôt que de ressembler a un mannequin de plâtre,
+
+89
+0:04:07.33,000 --> 0:04:1,000
+cela semble être fait de chair humaine bien vivante.
+
+90
+0:04:10.33,000 --> 0:04:12,000
+Et nous nous sommes servis de ça
+
+91
+0:04:12.33,000 --> 0:04:14,000
+au service de l'entreprise Image Metrics
+
+92
+0:04:14.33,000 --> 0:04:17,000
+pour créer une version numérique d'Emily.
+
+93
+0:04:17.33,000 --> 0:04:19,000
+Nous ne voyons que les formes basiques ici.
+
+94
+0:04:19.33,000 --> 0:04:22,000
+Mais ils ont en gros créé une marionnette numérique d'elle,
+
+95
+0:04:22.33,000 --> 0:04:24,000
+sur laquelle nous pouvons tirer sur ces différentes ficelles,
+
+96
+0:04:24.33,000 --> 0:04:26,000
+et elles font bouger son visage de façon complètement
+
+97
+0:04:26.33,000 --> 0:04:28,000
+en accord avec les scans que nous avons pris.
+
+98
+0:04:28.33,000 --> 0:04:3,000
+Et, en plus des formes basiques,
+
+99
+0:04:30.33,000 --> 0:04:32,000
+ils ont également utilisé tous ces détails
+
+100
+0:04:32.33,000 --> 0:04:35,000
+pour créer une série de "plans de déplacement"
+
+101
+0:04:35.33,000 --> 0:04:38,000
+qui peuvent être animées également.
+
+102
+0:04:38.33,000 --> 0:04:4,000
+Voici les plans de déplacement.
+
+103
+0:04:40.33,000 --> 0:04:43,000
+Et vous pouvez voir les différentes rides apparaître lorsqu'elle s'anime.
+
+104
+0:04:43.33,000 --> 0:04:45,000
+Donc le processus suivant était de l'animer.
+
+105
+0:04:45.33,000 --> 0:04:49,000
+Nous avons en fait utilisé une de ses performance comme source de données.
+
+106
+0:04:49.33,000 --> 0:04:52,000
+Et en analysant la vidéo avec des méthodes de tracking par ordinateur,
+
+107
+0:04:52.33,000 --> 0:04:54,000
+ils ont été capable de synchroniser le modèle de son visage
+
+108
+0:04:54.33,000 --> 0:04:56,000
+avec la performance générée par l'ordinateur.
+
+109
+0:04:56.33,000 --> 0:04:58,000
+Ce que vous allez voir maintenant, après ceci,
+
+110
+0:04:58.33,000 --> 0:05:,000
+est un visage entièrement numérique et photo-réaliste.
+
+111
+0:05:00.33,000 --> 0:05:02,000
+On peut augmenter le volume un petit peu si possible.
+
+112
+0:05:02.33,000 --> 0:05:06,000
+Emily : Image Metrics est une entreprise d'animation sans tracking, basée sur la performance humaine.
+
+113
+0:05:06.33,000 --> 0:05:09,000
+Nous sommes spécialisés dans l'animation haute résolution de visages
+
+114
+0:05:09.33,000 --> 0:05:11,000
+pour films et jeux vidéos.
+
+115
+0:05:11.33,000 --> 0:05:15,000
+Image Metrics est une entreprise d'animation sans tracking, basée sur la performance humaine.
+
+116
+0:05:15.33,000 --> 0:05:18,000
+Nous sommes spécialisés dans l'animation haute résolution de visages
+
+117
+0:05:18.33,000 --> 0:05:21,000
+pour films et jeux vidéos.
+
+118
+0:05:21.33,000 --> 0:05:23,000
+Paul Debevec : En décomposant tout ceci en couches, voici la texture diffuse
+
+119
+0:05:23.33,000 --> 0:05:25,000
+que nous avons vu en première partie.
+
+120
+0:05:25.33,000 --> 0:05:27,000
+Voici l'animation des reflets spéculaires.
+
+121
+0:05:27.33,000 --> 0:05:29,000
+Vous pouvez voir toutes les rides apparaître ici.
+
+122
+0:05:29.33,000 --> 0:05:34,000
+Et voici la maquette de base.
+
+123
+0:05:34.33,000 --> 0:05:36,000
+Et voici la vraie Emily.
+
+124
+0:05:36.33,000 --> 0:05:38,000
+Alors maintenant, que faire de tout ça?
+
+125
+0:05:38.33,000 --> 0:05:42,000
+Nous sommes allés un peu plus loin que le Light Stage 5. Voici Light Stage 6.
+
+126
+0:05:42.33,000 --> 0:05:44,000
+Et nous étudions la possibilité d'utiliser cette technologie
+
+127
+0:05:44.33,000 --> 0:05:46,000
+en l'appliquant sur le corps humain complet.
+
+128
+0:05:46.33,000 --> 0:05:48,000
+Voici Bruce Lawmen, un des chercheurs du groupe,
+
+129
+0:05:48.33,000 --> 0:05:51,000
+qui a gentiment accepté de se faire numériser en courant.
+
+130
+0:05:51.33,000 --> 0:05:53,000
+Et voilà ce que ça donne dans la version générée par ordinateur
+
+131
+0:05:53.33,000 --> 0:05:55,000
+de Bruce, courant dans un nouvel environnement.
+
+132
+0:06:01.33,000 --> 0:06:03,000
+Merci beaucoup.
+
+133
+0:06:03.33,000 --> 0:06:04,000
+(Applaudissements)
+

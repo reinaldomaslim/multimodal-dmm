@@ -1,0 +1,1096 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ana Santos Revisor: Sebastian Betti
+
+2
+0:00:12.899,000 --> 0:00:15,000
+Inteligencia, ¿qué es eso?
+
+3
+0:00:16.566,000 --> 0:00:18,000
+Si analizamos la historia
+
+4
+0:00:18.857,000 --> 0:00:2,000
+de cómo se ha visto la inteligencia,
+
+5
+0:00:21.481,000 --> 0:00:24,000
+un ejemplo productivo ha sido
+
+6
+0:00:25.099,000 --> 0:00:28,000
+la famosa cita de Edsger Dijkstra de que
+
+7
+0:00:28.576,000 --> 0:00:31,000
+"La pregunta de si una máquina puede pensar
+
+8
+0:00:31.687,000 --> 0:00:32,000
+es tan interesante
+
+9
+0:00:32.997,000 --> 0:00:34,000
+como la pregunta de si un submarino
+
+10
+0:00:35.968,000 --> 0:00:36,000
+puede nadar".
+
+11
+0:00:37.758,000 --> 0:00:4,000
+Cuando Edsger Dijkstra escribió esto
+
+12
+0:00:41.602,000 --> 0:00:43,000
+lo hizo como una crítica
+
+13
+0:00:43.656,000 --> 0:00:46,000
+a los pioneros de la informática
+
+14
+0:00:46.656,000 --> 0:00:47,000
+como Alan Turing.
+
+15
+0:00:48.403,000 --> 0:00:5,000
+Sin embargo, si miramos al pasado
+
+16
+0:00:50.902,000 --> 0:00:51,000
+y pensamos cuáles han sido
+
+17
+0:00:52.867,000 --> 0:00:53,000
+las innovaciones más poderosas
+
+18
+0:00:54.863,000 --> 0:00:55,000
+que nos han permitido construir
+
+19
+0:00:56.742,000 --> 0:00:58,000
+máquinas artificiales que nadan
+
+20
+0:00:58.976,000 --> 0:01:,000
+y máquinas artificiales que vuelan,
+
+21
+0:01:01.549,000 --> 0:01:04,000
+hallarán que fue solo comprendiendo
+
+22
+0:01:05.096,000 --> 0:01:07,000
+los mecanismos físicos subyacentes
+
+23
+0:01:07.704,000 --> 0:01:09,000
+del nadar y el volar
+
+24
+0:01:10.483,000 --> 0:01:13,000
+que pudimos construir esas máquinas.
+
+25
+0:01:13.655,000 --> 0:01:15,000
+Y así, hace algunos años,
+
+26
+0:01:15.911,000 --> 0:01:18,000
+emprendí un programa para tratar de entender
+
+27
+0:01:19.16,000 --> 0:01:21,000
+los mecanismos físicos fundamentales
+
+28
+0:01:21.794,000 --> 0:01:23,000
+subyacentes de la inteligencia.
+
+29
+0:01:24.562,000 --> 0:01:25,000
+Retrocedamos un paso.
+
+30
+0:01:26.422,000 --> 0:01:29,000
+Primero empecemos con un experimento mental.
+
+31
+0:01:29.571,000 --> 0:01:31,000
+Imaginen que son de una raza alienígena,
+
+32
+0:01:32.425,000 --> 0:01:35,000
+que no saben nada de la biología de la Tierra
+
+33
+0:01:35.466,000 --> 0:01:38,000
+ni de neurociencia de la Tierra ni de inteligencia de la Tierra,
+
+34
+0:01:38.582,000 --> 0:01:4,000
+pero que tienen telescopios increíbles
+
+35
+0:01:40.774,000 --> 0:01:42,000
+y pueden observar la Tierra,
+
+36
+0:01:43.136,000 --> 0:01:45,000
+y tienen vidas increíblemente largas,
+
+37
+0:01:45.468,000 --> 0:01:46,000
+así que pueden observar la Tierra
+
+38
+0:01:46.967,000 --> 0:01:49,000
+durante millones, incluso miles de millones de años.
+
+39
+0:01:50.409,000 --> 0:01:53,000
+Y ven un efecto muy extraño.
+
+40
+0:01:53.424,000 --> 0:01:57,000
+Observan que, en el transcurso de los milenios,
+
+41
+0:01:57.736,000 --> 0:02:01,000
+la Tierra es continuamente bombardeada por asteroides
+
+42
+0:02:02.021,000 --> 0:02:04,000
+hasta un cierto momento,
+
+43
+0:02:04.108,000 --> 0:02:05,000
+y que en ese momento,
+
+44
+0:02:05.639,000 --> 0:02:09,000
+que corresponde aproximadamente a nuestro año 2000 d.C.,
+
+45
+0:02:09.831,000 --> 0:02:1,000
+asteroides que se encuentran
+
+46
+0:02:11.547,000 --> 0:02:12,000
+en un curso de colisión con la Tierra
+
+47
+0:02:13.478,000 --> 0:02:14,000
+que de otra forma habrían chocado,
+
+48
+0:02:15.453,000 --> 0:02:17,000
+misteriosamente salen desviados
+
+49
+0:02:17.868,000 --> 0:02:2,000
+o detonan antes de impactar la Tierra.
+
+50
+0:02:20.94,000 --> 0:02:22,000
+Por supuesto, como terrícolas,
+
+51
+0:02:23.023,000 --> 0:02:24,000
+sabemos que la razón sería
+
+52
+0:02:24.567,000 --> 0:02:25,000
+que estamos tratando de salvarnos a nosotros mismos.
+
+53
+0:02:26.323,000 --> 0:02:29,000
+Estamos tratando de evitar un impacto.
+
+54
+0:02:29.403,000 --> 0:02:3,000
+Pero si son de una raza alienígena
+
+55
+0:02:31.114,000 --> 0:02:32,000
+que no sabe nada de esto,
+
+56
+0:02:32.26,000 --> 0:02:34,000
+que no tiene ningún concepto sobre inteligencia de la Tierra,
+
+57
+0:02:34.774,000 --> 0:02:35,000
+se verían obligados a desarrollar
+
+58
+0:02:36.502,000 --> 0:02:38,000
+una teoría física que explicara cómo,
+
+59
+0:02:39.42,000 --> 0:02:41,000
+hasta cierto momento en el tiempo,
+
+60
+0:02:41.958,000 --> 0:02:45,000
+los asteroides que demolerían la superficie de un planeta
+
+61
+0:02:46.407,000 --> 0:02:49,000
+misteriosamente dejan de hacerlo.
+
+62
+0:02:49.638,000 --> 0:02:53,000
+Y por eso afirmo que esta es la misma pregunta
+
+63
+0:02:53.842,000 --> 0:02:56,000
+que la de entender la naturaleza física de la inteligencia.
+
+64
+0:02:57.84,000 --> 0:03:,000
+Así que en este programa que llevé a cabo hace varios años,
+
+65
+0:03:01.722,000 --> 0:03:03,000
+analicé una variedad de temas
+
+66
+0:03:04.487,000 --> 0:03:07,000
+a través de la ciencia, a través de varias disciplinas,
+
+67
+0:03:07.649,000 --> 0:03:08,000
+que señalaban, creo,
+
+68
+0:03:09.541,000 --> 0:03:11,000
+hacia un único mecanismo subyacente
+
+69
+0:03:12.089,000 --> 0:03:13,000
+de la inteligencia.
+
+70
+0:03:13.67,000 --> 0:03:15,000
+En cosmología, por ejemplo,
+
+71
+0:03:16.216,000 --> 0:03:18,000
+ha habido una variedad de evidencias
+
+72
+0:03:18.963,000 --> 0:03:21,000
+de que nuestro universo parece estar finamente ajustado
+
+73
+0:03:22.37,000 --> 0:03:24,000
+para el desarrollo de la inteligencia,
+
+74
+0:03:24.523,000 --> 0:03:26,000
+y, en particular, para el desarrollo
+
+75
+0:03:26.912,000 --> 0:03:27,000
+de estados universales
+
+76
+0:03:28.798,000 --> 0:03:32,000
+que maximizan la diversidad de posibles futuros.
+
+77
+0:03:32.896,000 --> 0:03:34,000
+En el juego de Go, por ejemplo,
+
+78
+0:03:35.24,000 --> 0:03:38,000
+—todo el mundo recuerda en 1997
+
+79
+0:03:38.265,000 --> 0:03:41,000
+cuando Deep Blue de IBM derrotó a Garry Kasparov en ajedrez—
+
+80
+0:03:42.216,000 --> 0:03:43,000
+pocas personas son conscientes
+
+81
+0:03:43.739,000 --> 0:03:45,000
+de que en los últimos 10 años aproximadamente,
+
+82
+0:03:45.757,000 --> 0:03:46,000
+el juego de Go,
+
+83
+0:03:46.955,000 --> 0:03:47,000
+explicablemente un juego mucho más desafiante
+
+84
+0:03:48.911,000 --> 0:03:5,000
+porque tiene un factor de ramificación mucho más alto,
+
+85
+0:03:51.336,000 --> 0:03:52,000
+también ha comenzado a sucumbir
+
+86
+0:03:53.038,000 --> 0:03:54,000
+ante las computadoras
+
+87
+0:03:54.903,000 --> 0:03:55,000
+por la misma razón:
+
+88
+0:03:56.476,000 --> 0:03:58,000
+las mejores técnicas en este momento en las computadoras con el Go
+
+89
+0:03:59.276,000 --> 0:04:02,000
+son técnicas que intentan maximizar las opciones futuras
+
+90
+0:04:02.972,000 --> 0:04:04,000
+durante el juego.
+
+91
+0:04:04.986,000 --> 0:04:07,000
+Finalmente, en la planeación de movimiento robótico,
+
+92
+0:04:08.567,000 --> 0:04:1,000
+ha habido una variedad de técnicas recientes
+
+93
+0:04:10.749,000 --> 0:04:11,000
+que han intentado aprovechar
+
+94
+0:04:12.651,000 --> 0:04:15,000
+las habilidades de los robots para maximizar
+
+95
+0:04:15.797,000 --> 0:04:16,000
+la futura libertad de acción
+
+96
+0:04:17.303,000 --> 0:04:2,000
+con el fin de realizar tareas complejas.
+
+97
+0:04:20.4,000 --> 0:04:22,000
+Y así, tomando todos estos temas diferentes
+
+98
+0:04:22.755,000 --> 0:04:23,000
+y colocándolos juntos,
+
+99
+0:04:24.377,000 --> 0:04:26,000
+pregunté, desde hace ya varios años:
+
+100
+0:04:27.017,000 --> 0:04:29,000
+¿Existe un mecanismo subyacente para la inteligencia
+
+101
+0:04:29.867,000 --> 0:04:3,000
+que podamos extraer
+
+102
+0:04:31.54,000 --> 0:04:32,000
+de todos estos diferentes temas?
+
+103
+0:04:33.314,000 --> 0:04:37,000
+¿Existe solamente una ecuación para la inteligencia?
+
+104
+0:04:37.907,000 --> 0:04:4,000
+Y creo que la respuesta es sí.
+
+105
+0:04:41.278,000 --> 0:04:42,000
+Lo que están viendo es probablemente
+
+106
+0:04:43.191,000 --> 0:04:46,000
+el equivalente más cercano a un E = mc²
+
+107
+0:04:46.485,000 --> 0:04:48,000
+para la inteligencia que yo haya visto.
+
+108
+0:04:49.315,000 --> 0:04:5,000
+Así que lo que están viendo aquí
+
+109
+0:04:51.017,000 --> 0:04:53,000
+es una afirmación
+
+110
+0:04:53.686,000 --> 0:04:57,000
+de que la inteligencia es una fuerza, F,
+
+111
+0:04:58.121,000 --> 0:05:02,000
+que actúa con el fin de maximizar la futura libertad de acción.
+
+112
+0:05:02.771,000 --> 0:05:04,000
+Actúa para maximizar la futura libertad de acción,
+
+113
+0:05:05.146,000 --> 0:05:06,000
+o mantener las opciones abiertas,
+
+114
+0:05:06.774,000 --> 0:05:08,000
+con una fuerza T,
+
+115
+0:05:08.999,000 --> 0:05:12,000
+con la diversidad de posibles futuros accesibles, S,
+
+116
+0:05:13.776,000 --> 0:05:15,000
+hasta un inminente tiempo futuro, tau.
+
+117
+0:05:16.326,000 --> 0:05:19,000
+En pocas palabras, a la inteligencia no le gusta quedar atrapada.
+
+118
+0:05:19.535,000 --> 0:05:22,000
+La inteligencia intenta maximizar la futura libertad de acción
+
+119
+0:05:22.59,000 --> 0:05:24,000
+y mantener las opciones abiertas.
+
+120
+0:05:25.263,000 --> 0:05:27,000
+Y así, teniendo en cuenta esta ecuación,
+
+121
+0:05:27.696,000 --> 0:05:29,000
+es natural preguntar: ¿Qué se puede hacer con esto?
+
+122
+0:05:30.228,000 --> 0:05:31,000
+¿Qué tan predictivo es?
+
+123
+0:05:31.579,000 --> 0:05:33,000
+¿Predice el nivel de inteligencia humana?
+
+124
+0:05:33.714,000 --> 0:05:35,000
+¿Predice la inteligencia artificial?
+
+125
+0:05:36.532,000 --> 0:05:38,000
+Así que voy a mostrarles ahora un video
+
+126
+0:05:38.574,000 --> 0:05:41,000
+que pienso, mostrará
+
+127
+0:05:41.994,000 --> 0:05:43,000
+algunas de las aplicaciones sorprendentes
+
+128
+0:05:44.282,000 --> 0:05:46,000
+de esta simple ecuación.
+
+129
+0:05:46.601,000 --> 0:05:47,000
+(Video) Narrador: Recientes investigaciones en cosmología
+
+130
+0:05:48.58,000 --> 0:05:5,000
+han sugerido que los universos que producen
+
+131
+0:05:50.627,000 --> 0:05:53,000
+más desorden, o "entropía", durante su vida
+
+132
+0:05:54.108,000 --> 0:05:56,000
+deberían tener tendencia a condiciones más favorables
+
+133
+0:05:56.586,000 --> 0:05:59,000
+para la existencia de seres inteligentes como nosotros.
+
+134
+0:05:59.602,000 --> 0:06:01,000
+Pero ¿qué pasa si esa conexión cosmológica tentativa
+
+135
+0:06:02.176,000 --> 0:06:03,000
+entre la entropía y la inteligencia
+
+136
+0:06:04.019,000 --> 0:06:05,000
+insinúa una relación más profunda?
+
+137
+0:06:05.79,000 --> 0:06:07,000
+¿Qué pasa si el comportamiento inteligente no solo se correlaciona
+
+138
+0:06:08.354,000 --> 0:06:09,000
+con la producción de entropía a largo plazo,
+
+139
+0:06:10.198,000 --> 0:06:12,000
+sino que en realidad surge directamente de ella?
+
+140
+0:06:12.516,000 --> 0:06:14,000
+Para averiguarlo, hemos desarrollado un motor de software
+
+141
+0:06:14.922,000 --> 0:06:16,000
+llamado Entropica, diseñado para maximizar
+
+142
+0:06:17.425,000 --> 0:06:18,000
+la producción de entropía a largo plazo
+
+143
+0:06:19.193,000 --> 0:06:21,000
+en cualquier sistema en que se encuentre dentro.
+
+144
+0:06:21.769,000 --> 0:06:23,000
+Sorprendentemente, Entropica pudo pasar
+
+145
+0:06:23.924,000 --> 0:06:26,000
+múltiples pruebas de inteligencia animal, jugar juegos de humanos,
+
+146
+0:06:27.38,000 --> 0:06:29,000
+e incluso ganar dinero comerciando acciones,
+
+147
+0:06:29.526,000 --> 0:06:31,000
+todo ello sin que se le hubiera indicado hacer eso.
+
+148
+0:06:31.637,000 --> 0:06:33,000
+Aquí están algunos ejemplos de Entropica en acción.
+
+149
+0:06:34.155,000 --> 0:06:37,000
+Al igual que un humano de pie sin caerse,
+
+150
+0:06:37.36,000 --> 0:06:38,000
+aquí vemos a Entropica
+
+151
+0:06:38.59,000 --> 0:06:4,000
+equilibrando automáticamente un poste usando un carrito.
+
+152
+0:06:41.475,000 --> 0:06:43,000
+Este comportamiento es notable en parte
+
+153
+0:06:43.487,000 --> 0:06:45,000
+porque nunca le dimos a Entropica una meta.
+
+154
+0:06:45.818,000 --> 0:06:48,000
+Simplemente decidió por su cuenta equilibrar el poste.
+
+155
+0:06:48.975,000 --> 0:06:5,000
+Esta habilidad de equilibrio tendrá aplicaciones
+
+156
+0:06:51.107,000 --> 0:06:52,000
+para la robótica humanoide
+
+157
+0:06:52.504,000 --> 0:06:54,000
+y tecnologías de asistencia humana.
+
+158
+0:06:55.019,000 --> 0:06:57,000
+Así como algunos animales pueden usar los objetos
+
+159
+0:06:57.02,000 --> 0:06:58,000
+en sus entornos como herramientas
+
+160
+0:06:58.462,000 --> 0:06:59,000
+para alcanzar en espacios estrechos,
+
+161
+0:07:00.449,000 --> 0:07:01,000
+aquí vemos que Entropica,
+
+162
+0:07:02.331,000 --> 0:07:03,000
+otra vez por su propia iniciativa,
+
+163
+0:07:04.169,000 --> 0:07:06,000
+pudo mover un disco grande que representa a un animal
+
+164
+0:07:07.079,000 --> 0:07:09,000
+alrededor, con el fin de lograr que un pequeño disco,
+
+165
+0:07:09.424,000 --> 0:07:11,000
+que representa una herramienta, llegue a un espacio confinado
+
+166
+0:07:12.195,000 --> 0:07:13,000
+sosteniendo un tercer disco
+
+167
+0:07:13.732,000 --> 0:07:15,000
+y soltándolo desde su posición fija inicialmente.
+
+168
+0:07:16.704,000 --> 0:07:18,000
+Esta capacidad de uso de herramientas tendrá aplicaciones
+
+169
+0:07:18.893,000 --> 0:07:2,000
+en la manufactura inteligente y la agricultura.
+
+170
+0:07:21.252,000 --> 0:07:22,000
+Además, al igual que algunos otros animales
+
+171
+0:07:23.196,000 --> 0:07:25,000
+pueden cooperar tirando de extremos opuestos de una cuerda
+
+172
+0:07:25.892,000 --> 0:07:27,000
+al mismo tiempo para liberar la comida,
+
+173
+0:07:27.945,000 --> 0:07:29,000
+aquí vemos que Entropica puede realizar
+
+174
+0:07:30.24,000 --> 0:07:31,000
+una versión del modelo de esa tarea.
+
+175
+0:07:32.228,000 --> 0:07:34,000
+Esta capacidad de cooperación tiene consecuencias interesantes
+
+176
+0:07:34.75,000 --> 0:07:37,000
+para la planeación económica y en una variedad de otros campos.
+
+177
+0:07:38.185,000 --> 0:07:4,000
+Entropica es ampliamente aplicable
+
+178
+0:07:40.256,000 --> 0:07:41,000
+a una variedad de dominios.
+
+179
+0:07:42.199,000 --> 0:07:44,000
+Por ejemplo, aquí la vemos exitosamente
+
+180
+0:07:44.641,000 --> 0:07:46,000
+jugando un juego de pong contra sí misma,
+
+181
+0:07:47.2,000 --> 0:07:49,000
+ilustrando su potencial para el juego.
+
+182
+0:07:49.543,000 --> 0:07:5,000
+Aquí vemos a Entropica orquestar
+
+183
+0:07:51.462,000 --> 0:07:52,000
+nuevas conexiones en una red social
+
+184
+0:07:53.301,000 --> 0:07:55,000
+donde los amigos se desconectan constantemente
+
+185
+0:07:56.061,000 --> 0:07:58,000
+y mantiene con éxito la red bien conectada.
+
+186
+0:07:58.917,000 --> 0:08:,000
+Esta misma capacidad de orquestación de red
+
+187
+0:08:01.215,000 --> 0:08:03,000
+también tiene aplicaciones en el cuidado de la salud,
+
+188
+0:08:03.543,000 --> 0:08:06,000
+en energía e inteligencia.
+
+189
+0:08:06.775,000 --> 0:08:08,000
+Aquí vemos a Entropica organizar las rutas
+
+190
+0:08:08.86,000 --> 0:08:09,000
+de una flota de barcos,
+
+191
+0:08:10.346,000 --> 0:08:13,000
+descubriendo con éxito y usando el Canal de Panamá
+
+192
+0:08:13.521,000 --> 0:08:15,000
+para ampliar a nivel mundial su alcance desde el Atlántico
+
+193
+0:08:15.979,000 --> 0:08:16,000
+hasta el Pacífico.
+
+194
+0:08:17.508,000 --> 0:08:18,000
+De la misma manera, Entropica
+
+195
+0:08:19.235,000 --> 0:08:2,000
+es ampliamente aplicable a problemas
+
+196
+0:08:20.855,000 --> 0:08:25,000
+en defensa autónoma, logística y transporte.
+
+197
+0:08:26.173,000 --> 0:08:28,000
+Finalmente, aquí vemos a Entropica
+
+198
+0:08:28.203,000 --> 0:08:3,000
+espontáneamente descubrir y ejecutar
+
+199
+0:08:30.926,000 --> 0:08:32,000
+una estrategia de compra-bajo, vende-alto
+
+200
+0:08:32.993,000 --> 0:08:34,000
+en una serie simulada de negociación de acciones,
+
+201
+0:08:35.171,000 --> 0:08:37,000
+exitosamente aumentando los activos bajo su gestión
+
+202
+0:08:37.502,000 --> 0:08:38,000
+exponencialmente.
+
+203
+0:08:38.926,000 --> 0:08:39,000
+Esta habilidad de gestión de riesgo
+
+204
+0:08:40.234,000 --> 0:08:42,000
+tendrá amplias aplicaciones en finanzas
+
+205
+0:08:42.721,000 --> 0:08:45,000
+y en seguros.
+
+206
+0:08:46.049,000 --> 0:08:48,000
+Alex Wissner-Gross: Lo que han visto
+
+207
+0:08:48.14,000 --> 0:08:52,000
+es que una variedad de marcas de comportamientos humanos
+
+208
+0:08:52.532,000 --> 0:08:53,000
+cognitivos inteligentes
+
+209
+0:08:54.289,000 --> 0:08:56,000
+tales como el uso de herramientas, caminar erguidos
+
+210
+0:08:57.12,000 --> 0:08:59,000
+y la cooperación social,
+
+211
+0:08:59.149,000 --> 0:09:01,000
+todos derivan de una sola ecuación,
+
+212
+0:09:02.121,000 --> 0:09:03,000
+que conduce a un sistema
+
+213
+0:09:04.053,000 --> 0:09:07,000
+para maximizar su futura libertad de acción.
+
+214
+0:09:07.964,000 --> 0:09:1,000
+Ahora, aquí hay una profunda ironía.
+
+215
+0:09:10.971,000 --> 0:09:12,000
+Volvamos al principio
+
+216
+0:09:12.995,000 --> 0:09:15,000
+del uso del término robot,
+
+217
+0:09:16.268,000 --> 0:09:18,000
+la obra "RUR";
+
+218
+0:09:19.171,000 --> 0:09:21,000
+hubo siempre el concepto
+
+219
+0:09:21.406,000 --> 0:09:24,000
+de que si desarrollábamos máquinas inteligentes,
+
+220
+0:09:24.632,000 --> 0:09:27,000
+habría una rebelión cibernética.
+
+221
+0:09:27.659,000 --> 0:09:3,000
+Las máquinas se levantarían contra nosotros.
+
+222
+0:09:31.21,000 --> 0:09:33,000
+Una de las mayores consecuencias de este trabajo
+
+223
+0:09:33.529,000 --> 0:09:35,000
+es que tal vez todas estas décadas,
+
+224
+0:09:36.298,000 --> 0:09:38,000
+hemos tenido todo el concepto de la rebelión cibernética
+
+225
+0:09:39.274,000 --> 0:09:41,000
+a la inversa.
+
+226
+0:09:41.285,000 --> 0:09:44,000
+No es que las máquinas primero se vuelven inteligentes
+
+227
+0:09:44.564,000 --> 0:09:46,000
+y luego megalómanas
+
+228
+0:09:46.579,000 --> 0:09:48,000
+y que intenten apoderarse del mundo.
+
+229
+0:09:48.803,000 --> 0:09:49,000
+Es todo lo contrario,
+
+230
+0:09:50.237,000 --> 0:09:52,000
+que el impulso de tomar el control
+
+231
+0:09:53.143,000 --> 0:09:55,000
+de todos los futuros posibles
+
+232
+0:09:55.404,000 --> 0:09:57,000
+es un principio más fundamental
+
+233
+0:09:57.522,000 --> 0:09:58,000
+que el de la inteligencia,
+
+234
+0:09:58.885,000 --> 0:10:01,000
+que la inteligencia general puede de hecho surgir
+
+235
+0:10:02.585,000 --> 0:10:05,000
+directamente de tomar el control,
+
+236
+0:10:06.144,000 --> 0:10:1,000
+en vez de ser al revés.
+
+237
+0:10:10.329,000 --> 0:10:13,000
+Otra consecuencia importante es la búsqueda del objetivo.
+
+238
+0:10:14.098,000 --> 0:10:18,000
+A menudo me preguntan: ¿Cómo es que buscar objetivos
+
+239
+0:10:18.458,000 --> 0:10:19,000
+se desprende de este tipo de marco?
+
+240
+0:10:20.078,000 --> 0:10:23,000
+Y la respuesta es que la habilidad de buscar objetivos
+
+241
+0:10:23.106,000 --> 0:10:24,000
+derivará directamente de esto
+
+242
+0:10:24.988,000 --> 0:10:25,000
+en el siguiente sentido:
+
+243
+0:10:26.822,000 --> 0:10:28,000
+igual que si viajaran a través de un túnel,
+
+244
+0:10:29.687,000 --> 0:10:31,000
+un cuello de botella en su futura trayectoria del espacio,
+
+245
+0:10:32.192,000 --> 0:10:33,000
+con el fin de lograr muchos otros
+
+246
+0:10:34.063,000 --> 0:10:36,000
+diversos objetivos más adelante,
+
+247
+0:10:36.084,000 --> 0:10:38,000
+o igual que si invirtieran
+
+248
+0:10:38.456,000 --> 0:10:39,000
+en una seguridad financiera,
+
+249
+0:10:40.243,000 --> 0:10:42,000
+reduciendo la liquidez de corto plazo
+
+250
+0:10:42.48,000 --> 0:10:44,000
+para aumentar la riqueza a largo plazo,
+
+251
+0:10:44.88,000 --> 0:10:46,000
+la búsqueda de metas surge directamente
+
+252
+0:10:47.217,000 --> 0:10:48,000
+de un impulso de largo plazo
+
+253
+0:10:48.946,000 --> 0:10:52,000
+de aumentar la futura libertad de acción.
+
+254
+0:10:52.983,000 --> 0:10:55,000
+Finalmente, Richard Feynman, físico famoso,
+
+255
+0:10:56.511,000 --> 0:10:59,000
+una vez escribió que si la civilización humana fuera destruida
+
+256
+0:11:00.183,000 --> 0:11:01,000
+y pudiera pasar solamente una única idea
+
+257
+0:11:02.076,000 --> 0:11:03,000
+a nuestros descendientes
+
+258
+0:11:03.447,000 --> 0:11:05,000
+para ayudarles a reconstruir la civilización,
+
+259
+0:11:05.754,000 --> 0:11:06,000
+ese concepto debería ser
+
+260
+0:11:07.44,000 --> 0:11:08,000
+que toda la materia que nos rodea
+
+261
+0:11:09.292,000 --> 0:11:11,000
+está hecha de elementos diminutos
+
+262
+0:11:11.615,000 --> 0:11:13,000
+que se atraen entre sí cuando están muy separados
+
+263
+0:11:14.123,000 --> 0:11:17,000
+pero que se repelen cuando están muy juntos.
+
+264
+0:11:17.453,000 --> 0:11:18,000
+Mi equivalente a esa declaración
+
+265
+0:11:19.234,000 --> 0:11:2,000
+para pasar a los descendientes
+
+266
+0:11:20.502,000 --> 0:11:22,000
+para ayudarles a construir inteligencias artificiales
+
+267
+0:11:23.214,000 --> 0:11:25,000
+o para ayudarles a comprender la inteligencia humana,
+
+268
+0:11:26.163,000 --> 0:11:27,000
+es la siguiente:
+
+269
+0:11:27.43,000 --> 0:11:29,000
+La inteligencia debe ser vista
+
+270
+0:11:29.483,000 --> 0:11:3,000
+como un proceso físico
+
+271
+0:11:30.896,000 --> 0:11:32,000
+que intenta maximizar la futura libertad de acción
+
+272
+0:11:33.861,000 --> 0:11:36,000
+y evitar las restricciones en su propio futuro.
+
+273
+0:11:37.477,000 --> 0:11:38,000
+Muchas gracias.
+
+274
+0:11:38.835,000 --> 0:11:42,000
+(Aplausos)
+

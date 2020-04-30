@@ -1,0 +1,320 @@
+1
+0:00:16.26,000 --> 0:00:19,000
+Let me introduce to you Rezero.
+
+2
+0:00:19.26,000 --> 0:00:21,000
+This little fellow was developed
+
+3
+0:00:21.26,000 --> 0:00:23,000
+by a group of 10 undergraduate students
+
+4
+0:00:23.26,000 --> 0:00:25,000
+at the Autonomous Systems Laboratory
+
+5
+0:00:25.26,000 --> 0:00:27,000
+at ETH-Zurich.
+
+6
+0:00:27.26,000 --> 0:00:29,000
+Our robot belongs to a family of robots
+
+7
+0:00:29.26,000 --> 0:00:31,000
+called Ballbots.
+
+8
+0:00:31.26,000 --> 0:00:33,000
+Instead of wheels, a Ballbot is balancing
+
+9
+0:00:33.26,000 --> 0:00:35,000
+and moving on one single ball.
+
+10
+0:00:35.26,000 --> 0:00:37,000
+The main characteristics of such a system is
+
+11
+0:00:37.26,000 --> 0:00:4,000
+that there's one sole contact point to the ground.
+
+12
+0:00:40.26,000 --> 0:00:42,000
+This means that the robot
+
+13
+0:00:42.26,000 --> 0:00:44,000
+is inherently unstable.
+
+14
+0:00:44.26,000 --> 0:00:46,000
+It's like when I am trying to stand
+
+15
+0:00:46.26,000 --> 0:00:47,000
+on one foot.
+
+16
+0:00:47.26,000 --> 0:00:49,000
+You might ask yourself, what's the usefulness
+
+17
+0:00:49.26,000 --> 0:00:51,000
+of a robot that's unstable?
+
+18
+0:00:51.26,000 --> 0:00:53,000
+Now we'll explain that in a second.
+
+19
+0:00:53.26,000 --> 0:00:55,000
+Let me first explain how Rezero
+
+20
+0:00:55.26,000 --> 0:00:57,000
+actually keeps his balance.
+
+21
+0:00:57.26,000 --> 0:00:59,000
+Rezero keeps his balance by constantly
+
+22
+0:00:59.26,000 --> 0:01:02,000
+measuring his pitch angle with a sensor.
+
+23
+0:01:02.26,000 --> 0:01:05,000
+He then counteracts and avoids toppling over
+
+24
+0:01:05.26,000 --> 0:01:07,000
+by turning the motors appropriately.
+
+25
+0:01:07.26,000 --> 0:01:09,000
+This happens 160 times per second,
+
+26
+0:01:09.26,000 --> 0:01:11,000
+and if anything fails in this process,
+
+27
+0:01:11.26,000 --> 0:01:14,000
+Rezero would immediately fall to the ground.
+
+28
+0:01:14.26,000 --> 0:01:16,000
+Now to move and to balance,
+
+29
+0:01:16.26,000 --> 0:01:18,000
+Rezero needs to turn the ball.
+
+30
+0:01:18.26,000 --> 0:01:2,000
+The ball is driven by three special wheels
+
+31
+0:01:20.26,000 --> 0:01:23,000
+that allow Rezero to move into any direction
+
+32
+0:01:23.26,000 --> 0:01:25,000
+and also move around his own axis
+
+33
+0:01:25.26,000 --> 0:01:29,000
+at the same time.
+
+34
+0:01:29.26,000 --> 0:01:31,000
+Due to his instability, Rezero is always
+
+35
+0:01:31.26,000 --> 0:01:33,000
+in motion. Now here's the trick.
+
+36
+0:01:33.26,000 --> 0:01:36,000
+It's indeed exactly this instability that allows
+
+37
+0:01:36.26,000 --> 0:01:38,000
+a robot to move very [dynamically].
+
+38
+0:01:38.26,000 --> 0:01:4,000
+Let's play a little.
+
+39
+0:01:40.26,000 --> 0:01:42,000
+You may have wondered what happens
+
+40
+0:01:42.26,000 --> 0:01:45,000
+if I give the robot a little push.
+
+41
+0:01:47.26,000 --> 0:01:49,000
+In this mode, he's trying to maintain
+
+42
+0:01:49.26,000 --> 0:01:52,000
+his position.
+
+43
+0:01:52.26,000 --> 0:01:55,000
+For the next demo, I'd like you to introduce
+
+44
+0:01:55.26,000 --> 0:01:58,000
+to my colleagues Michael, on the computer,
+
+45
+0:01:58.26,000 --> 0:02:01,000
+and Thomas who's helping me onstage.
+
+46
+0:02:02.26,000 --> 0:02:04,000
+In the next mode, Rezero is passive,
+
+47
+0:02:04.26,000 --> 0:02:07,000
+and we can move him around.
+
+48
+0:02:08.26,000 --> 0:02:1,000
+With almost no force I can control
+
+49
+0:02:10.26,000 --> 0:02:13,000
+his position and his velocity.
+
+50
+0:02:16.26,000 --> 0:02:19,000
+I can also make him spin.
+
+51
+0:02:30.26,000 --> 0:02:32,000
+In the next mode, we can get Rezero
+
+52
+0:02:32.26,000 --> 0:02:35,000
+to follow a person.
+
+53
+0:02:35.26,000 --> 0:02:38,000
+He's now keeping a constant distance to Thomas.
+
+54
+0:02:42.26,000 --> 0:02:44,000
+This works with a laser sensor
+
+55
+0:02:44.26,000 --> 0:02:46,000
+that's mounted on top of Rezero.
+
+56
+0:02:50.26,000 --> 0:02:52,000
+With the same method, we can also
+
+57
+0:02:52.26,000 --> 0:02:55,000
+get him to circle a person.
+
+58
+0:02:57.26,000 --> 0:03:01,000
+We call this the orbiting mode.
+
+59
+0:03:10.26,000 --> 0:03:12,000
+All right, thank you, Thomas.
+
+60
+0:03:12.26,000 --> 0:03:16,000
+(Applause)
+
+61
+0:03:16.26,000 --> 0:03:19,000
+Now, what's the use of this technology?
+
+62
+0:03:22.26,000 --> 0:03:24,000
+For now, it's an experiment, but let me
+
+63
+0:03:24.26,000 --> 0:03:27,000
+show you some possible future applications.
+
+64
+0:03:28.26,000 --> 0:03:3,000
+Rezero could be used in exhibitions or parks.
+
+65
+0:03:30.26,000 --> 0:03:32,000
+With a screen it could inform people or show
+
+66
+0:03:32.26,000 --> 0:03:35,000
+them around in a fun and entertaining way.
+
+67
+0:03:35.26,000 --> 0:03:37,000
+In a hospital, this device could be used to
+
+68
+0:03:37.26,000 --> 0:03:39,000
+carry around medical equipment.
+
+69
+0:03:39.26,000 --> 0:03:41,000
+Due to the Ballbot system, it has a very small
+
+70
+0:03:41.26,000 --> 0:03:44,000
+footprint and it's also easy to move around.
+
+71
+0:03:44.26,000 --> 0:03:46,000
+And of course, who wouldn't like
+
+72
+0:03:46.26,000 --> 0:03:49,000
+to take a ride on one of these.
+
+73
+0:03:49.26,000 --> 0:03:51,000
+And these are more practical applications.
+
+74
+0:03:51.26,000 --> 0:03:53,000
+But there's also a certain beauty
+
+75
+0:03:53.26,000 --> 0:03:55,000
+within this technology.
+
+76
+0:03:55.26,000 --> 0:04:04,000
+(Music)
+
+77
+0:04:58.26,000 --> 0:04:59,000
+(Applause)
+
+78
+0:04:59.26,000 --> 0:05:01,000
+Thank you.
+
+79
+0:05:01.26,000 --> 0:05:05,000
+(Applause)
+
+80
+0:05:05.26,000 --> 0:05:07,000
+Thank you.
+

@@ -1,0 +1,1204 @@
+1
+0:00:18.33,000 --> 0:00:23,000
+I got my first computer when I was a teenager growing up in Accra,
+
+2
+0:00:23.33,000 --> 0:00:26,000
+and it was a really cool device.
+
+3
+0:00:26.33,000 --> 0:00:31,000
+You could play games with it. You could program it in BASIC.
+
+4
+0:00:31.33,000 --> 0:00:33,000
+And I was fascinated.
+
+5
+0:00:33.33,000 --> 0:00:39,000
+So I went into the library to figure out how did this thing work.
+
+6
+0:00:39.33,000 --> 0:00:44,000
+I read about how the CPU is constantly shuffling data back and forth
+
+7
+0:00:44.33,000 --> 0:00:48,000
+between the memory, the RAM and the ALU,
+
+8
+0:00:48.33,000 --> 0:00:5,000
+the arithmetic and logic unit.
+
+9
+0:00:50.33,000 --> 0:00:54,000
+And I thought to myself, this CPU really has to work like crazy
+
+10
+0:00:54.33,000 --> 0:00:58,000
+just to keep all this data moving through the system.
+
+11
+0:00:58.33,000 --> 0:01:01,000
+But nobody was really worried about this.
+
+12
+0:01:01.33,000 --> 0:01:03,000
+When computers were first introduced,
+
+13
+0:01:03.33,000 --> 0:01:06,000
+they were said to be a million times faster than neurons.
+
+14
+0:01:06.33,000 --> 0:01:11,000
+People were really excited. They thought they would soon outstrip
+
+15
+0:01:11.33,000 --> 0:01:14,000
+the capacity of the brain.
+
+16
+0:01:14.33,000 --> 0:01:17,000
+This is a quote, actually, from Alan Turing:
+
+17
+0:01:17.33,000 --> 0:01:21,000
+"In 30 years, it will be as easy to ask a computer a question
+
+18
+0:01:21.33,000 --> 0:01:23,000
+as to ask a person."
+
+19
+0:01:23.33,000 --> 0:01:3,000
+This was in 1946. And now, in 2007, it's still not true.
+
+20
+0:01:30.33,000 --> 0:01:34,000
+And so, the question is, why aren't we really seeing
+
+21
+0:01:34.33,000 --> 0:01:38,000
+this kind of power in computers that we see in the brain?
+
+22
+0:01:38.33,000 --> 0:01:42,000
+What people didn't realize, and I'm just beginning to realize right now,
+
+23
+0:01:42.33,000 --> 0:01:44,000
+is that we pay a huge price for the speed
+
+24
+0:01:44.33,000 --> 0:01:48,000
+that we claim is a big advantage of these computers.
+
+25
+0:01:48.33,000 --> 0:01:5,000
+Let's take a look at some numbers.
+
+26
+0:01:50.33,000 --> 0:01:54,000
+This is Blue Gene, the fastest computer in the world.
+
+27
+0:01:54.33,000 --> 0:01:59,000
+It's got 120,000 processors; they can basically process
+
+28
+0:01:59.33,000 --> 0:02:02,000
+10 quadrillion bits of information per second.
+
+29
+0:02:02.33,000 --> 0:02:09,000
+That's 10 to the sixteenth. And they consume one and a half megawatts of power.
+
+30
+0:02:09.33,000 --> 0:02:12,000
+So that would be really great, if you could add that
+
+31
+0:02:12.33,000 --> 0:02:14,000
+to the production capacity in Tanzania.
+
+32
+0:02:14.33,000 --> 0:02:16,000
+It would really boost the economy.
+
+33
+0:02:16.33,000 --> 0:02:2,000
+Just to go back to the States,
+
+34
+0:02:20.33,000 --> 0:02:22,000
+if you translate the amount of power or electricity
+
+35
+0:02:22.33,000 --> 0:02:25,000
+this computer uses to the amount of households in the States,
+
+36
+0:02:25.33,000 --> 0:02:29,000
+you get 1,200 households in the U.S.
+
+37
+0:02:29.33,000 --> 0:02:31,000
+That's how much power this computer uses.
+
+38
+0:02:31.33,000 --> 0:02:34,000
+Now, let's compare this with the brain.
+
+39
+0:02:34.33,000 --> 0:02:39,000
+This is a picture of, actually Rory Sayres' girlfriend's brain.
+
+40
+0:02:39.33,000 --> 0:02:41,000
+Rory is a graduate student at Stanford.
+
+41
+0:02:41.33,000 --> 0:02:45,000
+He studies the brain using MRI, and he claims that
+
+42
+0:02:45.33,000 --> 0:02:48,000
+this is the most beautiful brain that he has ever scanned.
+
+43
+0:02:48.33,000 --> 0:02:5,000
+(Laughter)
+
+44
+0:02:50.33,000 --> 0:02:53,000
+So that's true love, right there.
+
+45
+0:02:53.33,000 --> 0:02:56,000
+Now, how much computation does the brain do?
+
+46
+0:02:56.33,000 --> 0:02:58,000
+I estimate 10 to the 16 bits per second,
+
+47
+0:02:58.33,000 --> 0:03:02,000
+which is actually about very similar to what Blue Gene does.
+
+48
+0:03:02.33,000 --> 0:03:04,000
+So that's the question. The question is, how much --
+
+49
+0:03:04.33,000 --> 0:03:07,000
+they are doing a similar amount of processing, similar amount of data --
+
+50
+0:03:07.33,000 --> 0:03:12,000
+the question is how much energy or electricity does the brain use?
+
+51
+0:03:12.33,000 --> 0:03:15,000
+And it's actually as much as your laptop computer:
+
+52
+0:03:15.33,000 --> 0:03:17,000
+it's just 10 watts.
+
+53
+0:03:17.33,000 --> 0:03:2,000
+So what we are doing right now with computers
+
+54
+0:03:20.33,000 --> 0:03:23,000
+with the energy consumed by 1,200 houses,
+
+55
+0:03:23.33,000 --> 0:03:28,000
+the brain is doing with the energy consumed by your laptop.
+
+56
+0:03:28.33,000 --> 0:03:31,000
+So the question is, how is the brain able to achieve this kind of efficiency?
+
+57
+0:03:31.33,000 --> 0:03:33,000
+And let me just summarize. So the bottom line:
+
+58
+0:03:33.33,000 --> 0:03:37,000
+the brain processes information using 100,000 times less energy
+
+59
+0:03:37.33,000 --> 0:03:41,000
+than we do right now with this computer technology that we have.
+
+60
+0:03:41.33,000 --> 0:03:43,000
+How is the brain able to do this?
+
+61
+0:03:43.33,000 --> 0:03:46,000
+Let's just take a look about how the brain works,
+
+62
+0:03:46.33,000 --> 0:03:5,000
+and then I'll compare that with how computers work.
+
+63
+0:03:50.33,000 --> 0:03:54,000
+So, this clip is from the PBS series, "The Secret Life of the Brain."
+
+64
+0:03:54.33,000 --> 0:03:57,000
+It shows you these cells that process information.
+
+65
+0:03:57.33,000 --> 0:03:58,000
+They are called neurons.
+
+66
+0:03:58.33,000 --> 0:04:04,000
+They send little pulses of electricity down their processes to each other,
+
+67
+0:04:04.33,000 --> 0:04:06,000
+and where they contact each other, those little pulses
+
+68
+0:04:06.33,000 --> 0:04:08,000
+of electricity can jump from one neuron to the other.
+
+69
+0:04:08.33,000 --> 0:04:11,000
+That process is called a synapse.
+
+70
+0:04:11.33,000 --> 0:04:13,000
+You've got this huge network of cells interacting with each other --
+
+71
+0:04:13.33,000 --> 0:04:15,000
+about 100 million of them,
+
+72
+0:04:15.33,000 --> 0:04:19,000
+sending about 10 quadrillion of these pulses around every second.
+
+73
+0:04:19.33,000 --> 0:04:25,000
+And that's basically what's going on in your brain right now as you're watching this.
+
+74
+0:04:25.33,000 --> 0:04:27,000
+How does that compare with the way computers work?
+
+75
+0:04:27.33,000 --> 0:04:29,000
+In the computer, you have all the data
+
+76
+0:04:29.33,000 --> 0:04:31,000
+going through the central processing unit,
+
+77
+0:04:31.33,000 --> 0:04:34,000
+and any piece of data basically has to go through that bottleneck,
+
+78
+0:04:34.33,000 --> 0:04:38,000
+whereas in the brain, what you have is these neurons,
+
+79
+0:04:38.33,000 --> 0:04:42,000
+and the data just really flows through a network of connections
+
+80
+0:04:42.33,000 --> 0:04:44,000
+among the neurons. There's no bottleneck here.
+
+81
+0:04:44.33,000 --> 0:04:48,000
+It's really a network in the literal sense of the word.
+
+82
+0:04:48.33,000 --> 0:04:52,000
+The net is doing the work in the brain.
+
+83
+0:04:52.33,000 --> 0:04:54,000
+If you just look at these two pictures,
+
+84
+0:04:54.33,000 --> 0:04:56,000
+these kind of words pop into your mind.
+
+85
+0:04:56.33,000 --> 0:05:,000
+This is serial and it's rigid -- it's like cars on a freeway,
+
+86
+0:05:00.33,000 --> 0:05:03,000
+everything has to happen in lockstep --
+
+87
+0:05:03.33,000 --> 0:05:05,000
+whereas this is parallel and it's fluid.
+
+88
+0:05:05.33,000 --> 0:05:08,000
+Information processing is very dynamic and adaptive.
+
+89
+0:05:08.33,000 --> 0:05:12,000
+So I'm not the first to figure this out. This is a quote from Brian Eno:
+
+90
+0:05:12.33,000 --> 0:05:16,000
+"the problem with computers is that there is not enough Africa in them."
+
+91
+0:05:16.33,000 --> 0:05:22,000
+(Laughter)
+
+92
+0:05:22.33,000 --> 0:05:25,000
+Brian actually said this in 1995.
+
+93
+0:05:25.33,000 --> 0:05:28,000
+And nobody was listening then,
+
+94
+0:05:28.33,000 --> 0:05:3,000
+but now people are beginning to listen
+
+95
+0:05:30.33,000 --> 0:05:35,000
+because there's a pressing, technological problem that we face.
+
+96
+0:05:35.33,000 --> 0:05:4,000
+And I'll just take you through that a little bit in the next few slides.
+
+97
+0:05:40.33,000 --> 0:05:44,000
+This is -- it's actually really this remarkable convergence
+
+98
+0:05:44.33,000 --> 0:05:49,000
+between the devices that we use to compute in computers,
+
+99
+0:05:49.33,000 --> 0:05:53,000
+and the devices that our brains use to compute.
+
+100
+0:05:53.33,000 --> 0:05:57,000
+The devices that computers use are what's called a transistor.
+
+101
+0:05:57.33,000 --> 0:06:01,000
+This electrode here, called the gate, controls the flow of current
+
+102
+0:06:01.33,000 --> 0:06:04,000
+from the source to the drain -- these two electrodes.
+
+103
+0:06:04.33,000 --> 0:06:06,000
+And that current, electrical current,
+
+104
+0:06:06.33,000 --> 0:06:12,000
+is carried by electrons, just like in your house and so on.
+
+105
+0:06:12.33,000 --> 0:06:17,000
+And what you have here is, when you actually turn on the gate,
+
+106
+0:06:17.33,000 --> 0:06:21,000
+you get an increase in the amount of current, and you get a steady flow of current.
+
+107
+0:06:21.33,000 --> 0:06:25,000
+And when you turn off the gate, there's no current flowing through the device.
+
+108
+0:06:25.33,000 --> 0:06:3,000
+Your computer uses this presence of current to represent a one,
+
+109
+0:06:30.33,000 --> 0:06:34,000
+and the absence of current to represent a zero.
+
+110
+0:06:34.33,000 --> 0:06:4,000
+Now, what's happening is that as transistors are getting smaller and smaller and smaller,
+
+111
+0:06:40.33,000 --> 0:06:42,000
+they no longer behave like this.
+
+112
+0:06:42.33,000 --> 0:06:47,000
+In fact, they are starting to behave like the device that neurons use to compute,
+
+113
+0:06:47.33,000 --> 0:06:49,000
+which is called an ion channel.
+
+114
+0:06:49.33,000 --> 0:06:51,000
+And this is a little protein molecule.
+
+115
+0:06:51.33,000 --> 0:06:55,000
+I mean, neurons have thousands of these.
+
+116
+0:06:55.33,000 --> 0:06:59,000
+And it sits in the membrane of the cell and it's got a pore in it.
+
+117
+0:06:59.33,000 --> 0:07:02,000
+And these are individual potassium ions
+
+118
+0:07:02.33,000 --> 0:07:04,000
+that are flowing through that pore.
+
+119
+0:07:04.33,000 --> 0:07:06,000
+Now, this pore can open and close.
+
+120
+0:07:06.33,000 --> 0:07:11,000
+But, when it's open, because these ions have to line up
+
+121
+0:07:11.33,000 --> 0:07:16,000
+and flow through, one at a time, you get a kind of sporadic, not steady --
+
+122
+0:07:16.33,000 --> 0:07:19,000
+it's a sporadic flow of current.
+
+123
+0:07:19.33,000 --> 0:07:22,000
+And even when you close the pore -- which neurons can do,
+
+124
+0:07:22.33,000 --> 0:07:27,000
+they can open and close these pores to generate electrical activity --
+
+125
+0:07:27.33,000 --> 0:07:3,000
+even when it's closed, because these ions are so small,
+
+126
+0:07:30.33,000 --> 0:07:33,000
+they can actually sneak through, a few can sneak through at a time.
+
+127
+0:07:33.33,000 --> 0:07:36,000
+So, what you have is that when the pore is open,
+
+128
+0:07:36.33,000 --> 0:07:38,000
+you get some current sometimes.
+
+129
+0:07:38.33,000 --> 0:07:41,000
+These are your ones, but you've got a few zeros thrown in.
+
+130
+0:07:41.33,000 --> 0:07:45,000
+And when it's closed, you have a zero,
+
+131
+0:07:45.33,000 --> 0:07:48,000
+but you have a few ones thrown in.
+
+132
+0:07:48.33,000 --> 0:07:51,000
+Now, this is starting to happen in transistors.
+
+133
+0:07:51.33,000 --> 0:07:56,000
+And the reason why that's happening is that, right now, in 2007 --
+
+134
+0:07:56.33,000 --> 0:08:,000
+the technology that we are using -- a transistor is big enough
+
+135
+0:08:00.33,000 --> 0:08:05,000
+that several electrons can flow through the channel simultaneously, side by side.
+
+136
+0:08:05.33,000 --> 0:08:09,000
+In fact, there's about 12 electrons can all be flowing this way.
+
+137
+0:08:09.33,000 --> 0:08:11,000
+And that means that a transistor corresponds
+
+138
+0:08:11.33,000 --> 0:08:14,000
+to about 12 ion channels in parallel.
+
+139
+0:08:14.33,000 --> 0:08:19,000
+Now, in a few years time, by 2015, we will shrink transistors so much.
+
+140
+0:08:19.33,000 --> 0:08:24,000
+This is what Intel does to keep adding more cores onto the chip.
+
+141
+0:08:24.33,000 --> 0:08:27,000
+Or your memory sticks that you have now can carry one gigabyte
+
+142
+0:08:27.33,000 --> 0:08:29,000
+of stuff on them -- before, it was 256.
+
+143
+0:08:29.33,000 --> 0:08:32,000
+Transistors are getting smaller to allow this to happen,
+
+144
+0:08:32.33,000 --> 0:08:35,000
+and technology has really benefitted from that.
+
+145
+0:08:35.33,000 --> 0:08:4,000
+But what's happening now is that in 2015, the transistor is going to become so small,
+
+146
+0:08:40.33,000 --> 0:08:43,000
+that it corresponds to only one electron at a time
+
+147
+0:08:43.33,000 --> 0:08:45,000
+can flow through that channel,
+
+148
+0:08:45.33,000 --> 0:08:47,000
+and that corresponds to a single ion channel.
+
+149
+0:08:47.33,000 --> 0:08:51,000
+And you start having the same kind of traffic jams that you have in the ion channel.
+
+150
+0:08:51.33,000 --> 0:08:54,000
+The current will turn on and off at random,
+
+151
+0:08:54.33,000 --> 0:08:56,000
+even when it's supposed to be on.
+
+152
+0:08:56.33,000 --> 0:08:58,000
+And that means your computer is going to get
+
+153
+0:08:58.33,000 --> 0:09:02,000
+its ones and zeros mixed up, and that's going to crash your machine.
+
+154
+0:09:02.33,000 --> 0:09:06,000
+So, we are at the stage where we
+
+155
+0:09:06.33,000 --> 0:09:09,000
+don't really know how to compute with these kinds of devices.
+
+156
+0:09:09.33,000 --> 0:09:12,000
+And the only kind of thing -- the only thing we know right now
+
+157
+0:09:12.33,000 --> 0:09:15,000
+that can compute with these kinds of devices are the brain.
+
+158
+0:09:15.33,000 --> 0:09:19,000
+OK, so a computer picks a specific item of data from memory,
+
+159
+0:09:19.33,000 --> 0:09:22,000
+it sends it into the processor or the ALU,
+
+160
+0:09:22.33,000 --> 0:09:24,000
+and then it puts the result back into memory.
+
+161
+0:09:24.33,000 --> 0:09:26,000
+That's the red path that's highlighted.
+
+162
+0:09:26.33,000 --> 0:09:3,000
+The way brains work, I told you all, you have got all these neurons.
+
+163
+0:09:30.33,000 --> 0:09:32,000
+And the way they represent information is
+
+164
+0:09:32.33,000 --> 0:09:34,000
+they break up that data into little pieces
+
+165
+0:09:34.33,000 --> 0:09:37,000
+that are represented by pulses and different neurons.
+
+166
+0:09:37.33,000 --> 0:09:39,000
+So you have all these pieces of data
+
+167
+0:09:39.33,000 --> 0:09:41,000
+distributed throughout the network.
+
+168
+0:09:41.33,000 --> 0:09:44,000
+And then the way that you process that data to get a result
+
+169
+0:09:44.33,000 --> 0:09:48,000
+is that you translate this pattern of activity into a new pattern of activity,
+
+170
+0:09:48.33,000 --> 0:09:51,000
+just by it flowing through the network.
+
+171
+0:09:51.33,000 --> 0:09:53,000
+So you set up these connections
+
+172
+0:09:53.33,000 --> 0:09:56,000
+such that the input pattern just flows
+
+173
+0:09:56.33,000 --> 0:09:58,000
+and generates the output pattern.
+
+174
+0:09:58.33,000 --> 0:10:02,000
+What you see here is that there's these redundant connections.
+
+175
+0:10:02.33,000 --> 0:10:06,000
+So if this piece of data or this piece of the data gets clobbered,
+
+176
+0:10:06.33,000 --> 0:10:11,000
+it doesn't show up over here, these two pieces can activate the missing part
+
+177
+0:10:11.33,000 --> 0:10:13,000
+with these redundant connections.
+
+178
+0:10:13.33,000 --> 0:10:15,000
+So even when you go to these crappy devices
+
+179
+0:10:15.33,000 --> 0:10:18,000
+where sometimes you want a one and you get a zero, and it doesn't show up,
+
+180
+0:10:18.33,000 --> 0:10:2,000
+there's redundancy in the network
+
+181
+0:10:20.33,000 --> 0:10:23,000
+that can actually recover the missing information.
+
+182
+0:10:23.33,000 --> 0:10:26,000
+It makes the brain inherently robust.
+
+183
+0:10:26.33,000 --> 0:10:29,000
+What you have here is a system where you store data locally.
+
+184
+0:10:29.33,000 --> 0:10:33,000
+And it's brittle, because each of these steps has to be flawless,
+
+185
+0:10:33.33,000 --> 0:10:36,000
+otherwise you lose that data, whereas in the brain, you have a system
+
+186
+0:10:36.33,000 --> 0:10:4,000
+that stores data in a distributed way, and it's robust.
+
+187
+0:10:40.33,000 --> 0:10:44,000
+What I want to basically talk about is my dream,
+
+188
+0:10:44.33,000 --> 0:10:47,000
+which is to build a computer that works like the brain.
+
+189
+0:10:47.33,000 --> 0:10:51,000
+This is something that we've been working on for the last couple of years.
+
+190
+0:10:51.33,000 --> 0:10:54,000
+And I'm going to show you a system that we designed
+
+191
+0:10:54.33,000 --> 0:10:57,000
+to model the retina,
+
+192
+0:10:57.33,000 --> 0:11:02,000
+which is a piece of brain that lines the inside of your eyeball.
+
+193
+0:11:02.33,000 --> 0:11:08,000
+We didn't do this by actually writing code, like you do in a computer.
+
+194
+0:11:08.33,000 --> 0:11:11,000
+In fact, the processing that happens
+
+195
+0:11:11.33,000 --> 0:11:13,000
+in that little piece of brain is very similar
+
+196
+0:11:13.33,000 --> 0:11:14,000
+to the kind of processing that computers
+
+197
+0:11:14.33,000 --> 0:11:18,000
+do when they stream video over the Internet.
+
+198
+0:11:18.33,000 --> 0:11:19,000
+They want to compress the information --
+
+199
+0:11:19.33,000 --> 0:11:23,000
+they just want to send the changes, what's new in the image, and so on --
+
+200
+0:11:23.33,000 --> 0:11:26,000
+and that is how your eyeball
+
+201
+0:11:26.33,000 --> 0:11:29,000
+is able to squeeze all that information down to your optic nerve,
+
+202
+0:11:29.33,000 --> 0:11:31,000
+to send to the rest of the brain.
+
+203
+0:11:31.33,000 --> 0:11:34,000
+Instead of doing this in software, or doing those kinds of algorithms,
+
+204
+0:11:34.33,000 --> 0:11:37,000
+we went and talked to neurobiologists
+
+205
+0:11:37.33,000 --> 0:11:41,000
+who have actually reverse engineered that piece of brain that's called the retina.
+
+206
+0:11:41.33,000 --> 0:11:43,000
+And they figured out all the different cells,
+
+207
+0:11:43.33,000 --> 0:11:46,000
+and they figured out the network, and we just took that network
+
+208
+0:11:46.33,000 --> 0:11:5,000
+and we used it as the blueprint for the design of a silicon chip.
+
+209
+0:11:50.33,000 --> 0:11:56,000
+So now the neurons are represented by little nodes or circuits on the chip,
+
+210
+0:11:56.33,000 --> 0:12:01,000
+and the connections among the neurons are represented, actually modeled by transistors.
+
+211
+0:12:01.33,000 --> 0:12:03,000
+And these transistors are behaving essentially
+
+212
+0:12:03.33,000 --> 0:12:06,000
+just like ion channels behave in the brain.
+
+213
+0:12:06.33,000 --> 0:12:11,000
+It will give you the same kind of robust architecture that I described.
+
+214
+0:12:11.33,000 --> 0:12:15,000
+Here is actually what our artificial eye looks like.
+
+215
+0:12:15.33,000 --> 0:12:2,000
+The retina chip that we designed sits behind this lens here.
+
+216
+0:12:20.33,000 --> 0:12:22,000
+And the chip -- I'm going to show you a video
+
+217
+0:12:22.33,000 --> 0:12:25,000
+that the silicon retina put out of its output
+
+218
+0:12:25.33,000 --> 0:12:28,000
+when it was looking at Kareem Zaghloul,
+
+219
+0:12:28.33,000 --> 0:12:3,000
+who's the student who designed this chip.
+
+220
+0:12:30.33,000 --> 0:12:32,000
+Let me explain what you're going to see, OK,
+
+221
+0:12:32.33,000 --> 0:12:35,000
+because it's putting out different kinds of information,
+
+222
+0:12:35.33,000 --> 0:12:37,000
+it's not as straightforward as a camera.
+
+223
+0:12:37.33,000 --> 0:12:4,000
+The retina chip extracts four different kinds of information.
+
+224
+0:12:40.33,000 --> 0:12:43,000
+It extracts regions with dark contrast,
+
+225
+0:12:43.33,000 --> 0:12:46,000
+which will show up on the video as red.
+
+226
+0:12:46.33,000 --> 0:12:5,000
+And it extracts regions with white or light contrast,
+
+227
+0:12:50.33,000 --> 0:12:52,000
+which will show up on the video as green.
+
+228
+0:12:52.33,000 --> 0:12:54,000
+This is Kareem's dark eyes
+
+229
+0:12:54.33,000 --> 0:12:57,000
+and that's the white background that you see here.
+
+230
+0:12:57.33,000 --> 0:12:59,000
+And then it also extracts movement.
+
+231
+0:12:59.33,000 --> 0:13:01,000
+When Kareem moves his head to the right,
+
+232
+0:13:01.33,000 --> 0:13:03,000
+you will see this blue activity there;
+
+233
+0:13:03.33,000 --> 0:13:06,000
+it represents regions where the contrast is increasing in the image,
+
+234
+0:13:06.33,000 --> 0:13:09,000
+that's where it's going from dark to light.
+
+235
+0:13:09.33,000 --> 0:13:11,000
+And you also see this yellow activity,
+
+236
+0:13:11.33,000 --> 0:13:15,000
+which represents regions where contrast is decreasing;
+
+237
+0:13:15.33,000 --> 0:13:17,000
+it's going from light to dark.
+
+238
+0:13:17.33,000 --> 0:13:2,000
+And these four types of information --
+
+239
+0:13:20.33,000 --> 0:13:24,000
+your optic nerve has about a million fibers in it,
+
+240
+0:13:24.33,000 --> 0:13:27,000
+and 900,000 of those fibers
+
+241
+0:13:27.33,000 --> 0:13:29,000
+send these four types of information.
+
+242
+0:13:29.33,000 --> 0:13:33,000
+So we are really duplicating the kind of signals that you have on the optic nerve.
+
+243
+0:13:33.33,000 --> 0:13:36,000
+What you notice here is that these snapshots
+
+244
+0:13:36.33,000 --> 0:13:4,000
+taken from the output of the retina chip are very sparse, right?
+
+245
+0:13:40.33,000 --> 0:13:42,000
+It doesn't light up green everywhere in the background,
+
+246
+0:13:42.33,000 --> 0:13:45,000
+only on the edges, and then in the hair, and so on.
+
+247
+0:13:45.33,000 --> 0:13:46,000
+And this is the same thing you see
+
+248
+0:13:46.33,000 --> 0:13:5,000
+when people compress video to send: they want to make it very sparse,
+
+249
+0:13:50.33,000 --> 0:13:53,000
+because that file is smaller. And this is what the retina is doing,
+
+250
+0:13:53.33,000 --> 0:13:57,000
+and it's doing it just with the circuitry, and how this network of neurons
+
+251
+0:13:57.33,000 --> 0:14:,000
+that are interacting in there, which we've captured on the chip.
+
+252
+0:14:00.33,000 --> 0:14:03,000
+But the point that I want to make -- I'll show you up here.
+
+253
+0:14:03.33,000 --> 0:14:06,000
+So this image here is going to look like these ones,
+
+254
+0:14:06.33,000 --> 0:14:08,000
+but here I'll show you that we can reconstruct the image,
+
+255
+0:14:08.33,000 --> 0:14:13,000
+so, you know, you can almost recognize Kareem in that top part there.
+
+256
+0:14:13.33,000 --> 0:14:15,000
+And so, here you go.
+
+257
+0:14:24.33,000 --> 0:14:27,000
+Yes, so that's the idea.
+
+258
+0:14:27.33,000 --> 0:14:29,000
+When you stand still, you just see the light and dark contrasts.
+
+259
+0:14:29.33,000 --> 0:14:31,000
+But when it's moving back and forth,
+
+260
+0:14:31.33,000 --> 0:14:34,000
+the retina picks up these changes.
+
+261
+0:14:34.33,000 --> 0:14:35,000
+And that's why, you know, when you're sitting here
+
+262
+0:14:35.33,000 --> 0:14:37,000
+and something happens in your background,
+
+263
+0:14:37.33,000 --> 0:14:39,000
+you merely move your eyes to it.
+
+264
+0:14:39.33,000 --> 0:14:41,000
+There are these cells that detect change
+
+265
+0:14:41.33,000 --> 0:14:43,000
+and you move your attention to it.
+
+266
+0:14:43.33,000 --> 0:14:45,000
+So those are very important for catching somebody
+
+267
+0:14:45.33,000 --> 0:14:47,000
+who's trying to sneak up on you.
+
+268
+0:14:47.33,000 --> 0:14:5,000
+Let me just end by saying that this is what happens
+
+269
+0:14:50.33,000 --> 0:14:53,000
+when you put Africa in a piano, OK.
+
+270
+0:14:53.33,000 --> 0:14:56,000
+This is a steel drum here that has been modified,
+
+271
+0:14:56.33,000 --> 0:14:59,000
+and that's what happens when you put Africa in a piano.
+
+272
+0:14:59.33,000 --> 0:15:03,000
+And what I would like us to do is put Africa in the computer,
+
+273
+0:15:03.33,000 --> 0:15:05,000
+and come up with a new kind of computer
+
+274
+0:15:05.33,000 --> 0:15:08,000
+that will generate thought, imagination, be creative and things like that.
+
+275
+0:15:08.33,000 --> 0:15:1,000
+Thank you.
+
+276
+0:15:10.33,000 --> 0:15:12,000
+(Applause)
+
+277
+0:15:12.33,000 --> 0:15:14,000
+Chris Anderson: Question for you, Kwabena.
+
+278
+0:15:14.33,000 --> 0:15:18,000
+Do you put together in your mind the work you're doing,
+
+279
+0:15:18.33,000 --> 0:15:21,000
+the future of Africa, this conference --
+
+280
+0:15:21.33,000 --> 0:15:24,000
+what connections can we make, if any, between them?
+
+281
+0:15:24.33,000 --> 0:15:26,000
+Kwabena Boahen: Yes, like I said at the beginning,
+
+282
+0:15:26.33,000 --> 0:15:3,000
+I got my first computer when I was a teenager, growing up in Accra.
+
+283
+0:15:30.33,000 --> 0:15:34,000
+And I had this gut reaction that this was the wrong way to do it.
+
+284
+0:15:34.33,000 --> 0:15:37,000
+It was very brute force; it was very inelegant.
+
+285
+0:15:37.33,000 --> 0:15:39,000
+I don't think that I would've had that reaction,
+
+286
+0:15:39.33,000 --> 0:15:42,000
+if I'd grown up reading all this science fiction,
+
+287
+0:15:42.33,000 --> 0:15:46,000
+hearing about RD2D2, whatever it was called, and just -- you know,
+
+288
+0:15:46.33,000 --> 0:15:47,000
+buying into this hype about computers.
+
+289
+0:15:47.33,000 --> 0:15:49,000
+I was coming at it from a different perspective,
+
+290
+0:15:49.33,000 --> 0:15:51,000
+where I was bringing that different perspective
+
+291
+0:15:51.33,000 --> 0:15:53,000
+to bear on the problem.
+
+292
+0:15:53.33,000 --> 0:15:56,000
+And I think a lot of people in Africa have this different perspective,
+
+293
+0:15:56.33,000 --> 0:15:58,000
+and I think that's going to impact technology.
+
+294
+0:15:58.33,000 --> 0:16:,000
+And that's going to impact how it's going to evolve.
+
+295
+0:16:00.33,000 --> 0:16:02,000
+And I think you're going to be able to see, use that infusion,
+
+296
+0:16:02.33,000 --> 0:16:04,000
+to come up with new things,
+
+297
+0:16:04.33,000 --> 0:16:07,000
+because you're coming from a different perspective.
+
+298
+0:16:07.33,000 --> 0:16:11,000
+I think we can contribute. We can dream like everybody else.
+
+299
+0:16:11.33,000 --> 0:16:13,000
+CA: Thanks Kwabena, that was really interesting.
+
+300
+0:16:13.33,000 --> 0:16:14,000
+Thank you.
+
+301
+0:16:14.33,000 --> 0:16:16,000
+(Applause)
+

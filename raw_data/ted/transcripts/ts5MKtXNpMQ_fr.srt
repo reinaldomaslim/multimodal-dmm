@@ -1,0 +1,1548 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Yann Jouitteau Relecteur: Francois Roughol
+
+2
+0:00:18.33,000 --> 0:00:21,000
+Ce que j'aimerais faire ce soir, c'est expliquer
+
+3
+0:00:21.33,000 --> 0:00:23,000
+rapidement comment prédire l'avenir
+
+4
+0:00:23.33,000 --> 0:00:25,000
+et illustrer ma méthode par des prédictions
+
+5
+0:00:25.33,000 --> 0:00:3,000
+sur le futur de l'Iran, dans les deux prochaines années.
+
+6
+0:00:30.33,000 --> 0:00:33,000
+Pour prévoir efficacement,
+
+7
+0:00:33.33,000 --> 0:00:36,000
+Nous avons besoin de la science
+
+8
+0:00:36.33,000 --> 0:00:39,000
+Pour une simple et bonne raison :
+
+9
+0:00:39.33,000 --> 0:00:41,000
+Nous pouvons alors reproduire nos calculs
+
+10
+0:00:41.33,000 --> 0:00:44,000
+Ce n'est pas de l'intuition, ou des formulations d'hypothèses.
+
+11
+0:00:44.33,000 --> 0:00:47,000
+Et si nous pouvons prédire l'avenir
+
+12
+0:00:47.33,000 --> 0:00:49,000
+alors nous pouvons construire le futur
+
+13
+0:00:49.33,000 --> 0:00:53,000
+Donc, si vous voulez influencer la politique sur l'énergie
+
+14
+0:00:53.33,000 --> 0:00:58,000
+ou bien la politique sur la sécurité nationale
+
+15
+0:00:58.33,000 --> 0:01:01,000
+ou même sur la santé, ou l'éducation,
+
+16
+0:01:01.33,000 --> 0:01:05,000
+la science, et une branche particulière de la science peut vous aider
+
+17
+0:01:05.33,000 --> 0:01:07,000
+plus que les techniques actuelles
+
+18
+0:01:07.33,000 --> 0:01:09,000
+qui relèvent d'approximations grossières.
+
+19
+0:01:09.33,000 --> 0:01:11,000
+Avant de rentrer dans les détails,
+
+20
+0:01:11.33,000 --> 0:01:14,000
+quelques vérités dans cette publicité
+
+21
+0:01:14.33,000 --> 0:01:17,000
+parce que je ne fais pas dans la magie.
+
+22
+0:01:17.33,000 --> 0:01:21,000
+Il y a beaucoup de choses que ma méthode peut prévoir
+
+23
+0:01:21.33,000 --> 0:01:23,000
+et certaines autres qu'elle ne peut pas.
+
+24
+0:01:23.33,000 --> 0:01:26,000
+Elle peut prévoir des négociations difficiles,
+
+25
+0:01:26.33,000 --> 0:01:29,000
+ou des situations contraignantes,
+
+26
+0:01:29.33,000 --> 0:01:33,000
+i.e. en général, tout ce qui a à voir avec la politique
+
+27
+0:01:33.33,000 --> 0:01:35,000
+et a peu près tout ce qui relève de l'industrie
+
+28
+0:01:35.33,000 --> 0:01:41,000
+Mais désolé, si vous voulez spéculer sur le marché financier
+
+29
+0:01:41.33,000 --> 0:01:43,000
+Je ne prédis pas les marchés financiers --
+
+30
+0:01:43.33,000 --> 0:01:46,000
+OK, en ce moment, ca ne montera pas.
+
+31
+0:01:46.33,000 --> 0:01:49,000
+Mais je ne m'engage pas dans ce genre de choses
+
+32
+0:01:49.33,000 --> 0:01:52,000
+Je ne prédis pas les générateurs de nombres aléatoires,
+
+33
+0:01:52.33,000 --> 0:01:54,000
+Je reçois, de fait, des appels de personnes
+
+34
+0:01:54.33,000 --> 0:01:57,000
+qui veulent connaître les numéros du loto.
+
+35
+0:01:57.33,000 --> 0:02:,000
+Je n'en ai aucune idée.
+
+36
+0:02:00.33,000 --> 0:02:04,000
+Je m'intéresse à la théorie du jeu, la théorie du jeu est une branche des mathématiques
+
+37
+0:02:04.33,000 --> 0:02:08,000
+et cela veut dire, désolé, que même pour la politique
+
+38
+0:02:08.33,000 --> 0:02:11,000
+on retrouve des mathématiques.
+
+39
+0:02:11.33,000 --> 0:02:15,000
+Nous ne pouvons plus dire que nous spéculons sur la politique,
+
+40
+0:02:15.33,000 --> 0:02:18,000
+nous l'étudions maintenant de manière méthodique.
+
+41
+0:02:18.33,000 --> 0:02:21,000
+Bon, qu'est ce que la théorie du jeu ?
+
+42
+0:02:21.33,000 --> 0:02:26,000
+L'hypothèse est que les gens font ce qui est bon pour eux
+
+43
+0:02:26.33,000 --> 0:02:28,000
+ca ne semble pas terriblement choquant
+
+44
+0:02:28.33,000 --> 0:02:3,000
+bien que ce soit controversé par beaucoup :
+
+45
+0:02:30.33,000 --> 0:02:34,000
+nous sommes tous des gens intéressés.
+
+46
+0:02:34.33,000 --> 0:02:36,000
+Pour trouver le meilleur compromis pour eux,
+
+47
+0:02:36.33,000 --> 0:02:38,000
+ou ce qu'ils pensent est le meilleur compromis,
+
+48
+0:02:38.33,000 --> 0:02:42,000
+les gens ont des valeurs -- ils identifient ce qu'ils veulent, et ce qu'ils ne veulent pas.
+
+49
+0:02:42.33,000 --> 0:02:45,000
+Et ils ont des suppositions sur ce que les autres veulent,
+
+50
+0:02:45.33,000 --> 0:02:48,000
+sur ce qu'ils ne veulent pas, sur quelle quantité de pouvoir les autres ont,
+
+51
+0:02:48.33,000 --> 0:02:52,000
+a quel point ils pourraient interférer avec vos plans pour avoir ce que vous voulez.
+
+52
+0:02:52.33,000 --> 0:02:56,000
+Et ils ont des limites, des contraintes,
+
+53
+0:02:56.33,000 --> 0:02:59,000
+ils peuvent être faibles, mal placés dans le monde,
+
+54
+0:02:59.33,000 --> 0:03:02,000
+il peuvent être Einstein, coincés dans leur ferme
+
+55
+0:03:02.33,000 --> 0:03:06,000
+quelque part dans un patelin indien, jamais remarqués,
+
+56
+0:03:06.33,000 --> 0:03:09,000
+comme ce fut le cas pour Ramanujan pendant longtemps,
+
+57
+0:03:09.33,000 --> 0:03:12,000
+un grand mathématicien que personne ne remarqua.
+
+58
+0:03:12.33,000 --> 0:03:14,000
+Ensuite, qui est rationnel ?
+
+59
+0:03:14.33,000 --> 0:03:17,000
+Beaucoup de personnes se demandent a quoi rime la rationalité ?
+
+60
+0:03:17.33,000 --> 0:03:19,000
+Les gens sont rationnels.
+
+61
+0:03:19.33,000 --> 0:03:22,000
+Mère Térésa était rationnelle.
+
+62
+0:03:22.33,000 --> 0:03:26,000
+Les terroristes sont rationnels.
+
+63
+0:03:26.33,000 --> 0:03:29,000
+A peu près tout le monde est rationnel.
+
+64
+0:03:29.33,000 --> 0:03:32,000
+Je ne connais que deux exceptions :
+
+65
+0:03:32.33,000 --> 0:03:34,000
+les bébés de deux ans ne sont pas rationnels,
+
+66
+0:03:34.33,000 --> 0:03:37,000
+il ont des désirs très capricieux,
+
+67
+0:03:37.33,000 --> 0:03:39,000
+ils changent d'avis tout le temps,
+
+68
+0:03:39.33,000 --> 0:03:42,000
+et les schizophrènes ne sont peut-être pas rationnels,
+
+69
+0:03:42.33,000 --> 0:03:44,000
+mais a peu près tout le monde est rationnel.
+
+70
+0:03:44.33,000 --> 0:03:46,000
+C'est à dire, ils essaient simplement de faire
+
+71
+0:03:46.33,000 --> 0:03:51,000
+ceux qu'ils pensent être dans leur meilleur intérêt.
+
+72
+0:03:51.33,000 --> 0:03:53,000
+Maintenant, pour savoir ce que les gens vont faire
+
+73
+0:03:53.33,000 --> 0:03:55,000
+pour réaliser leurs intérêts,
+
+74
+0:03:55.33,000 --> 0:03:57,000
+nous recherchons ceux qui influencent le monde.
+
+75
+0:03:57.33,000 --> 0:04:02,000
+Si vous essayez d'influencer les entreprises pour modifier leur comportement,
+
+76
+0:04:02.33,000 --> 0:04:05,000
+a propos de la production de polluants,
+
+77
+0:04:05.33,000 --> 0:04:07,000
+une approche, la plus habituelle,
+
+78
+0:04:07.33,000 --> 0:04:09,000
+est de les exhorter à être meilleures,
+
+79
+0:04:09.33,000 --> 0:04:12,000
+leur expliquer les dommages qu'elles infligent à notre planète.
+
+80
+0:04:12.33,000 --> 0:04:14,000
+Et beaucoup d'entre vous ont pu constater que ca n'avait pas
+
+81
+0:04:14.33,000 --> 0:04:18,000
+un effet flagrant, en tout cas pas autant que ce que vous n'auriez voulu,
+
+82
+0:04:18.33,000 --> 0:04:21,000
+mais si vous leur montrez que cela va dans leurs intérêts
+
+83
+0:04:21.33,000 --> 0:04:23,000
+alors les entreprises réagissent.
+
+84
+0:04:23.33,000 --> 0:04:26,000
+Donc, nous devons trouver qui a de l'influence sur le problème.
+
+85
+0:04:26.33,000 --> 0:04:28,000
+Si nous regardons l'Iran, le président des Etats-Unis
+
+86
+0:04:28.33,000 --> 0:04:31,000
+espère-t-on, peut avoir quelque influence --
+
+87
+0:04:31.33,000 --> 0:04:35,000
+le président Iranien en a certainement --
+
+88
+0:04:35.33,000 --> 0:04:38,000
+Mais nous ferions une erreur en nous intéressant uniquement
+
+89
+0:04:38.33,000 --> 0:04:41,000
+à la personne tout au haut de l'échelle du pouvoir
+
+90
+0:04:41.33,000 --> 0:04:44,000
+car cette personne ne connait pas grand chose à l'Iran,
+
+91
+0:04:44.33,000 --> 0:04:46,000
+pas plus qu'aux politiques sur l'énergie,
+
+92
+0:04:46.33,000 --> 0:04:48,000
+pas plus qu'au programme de santé,
+
+93
+0:04:48.33,000 --> 0:04:5,000
+ni plus qu'aucun programme particulier.
+
+94
+0:04:50.33,000 --> 0:04:55,000
+Cette personne s'entoure de conseillers.
+
+95
+0:04:55.33,000 --> 0:04:57,000
+Si nous parlons de problèmes de sécurité nationale,
+
+96
+0:04:57.33,000 --> 0:04:59,000
+ce sera par exemple le secrétaire d'état,
+
+97
+0:04:59.33,000 --> 0:05:01,000
+ou peut-être le secrétaire à la défense,
+
+98
+0:05:01.33,000 --> 0:05:03,000
+le directeur des services de renseignements,
+
+99
+0:05:03.33,000 --> 0:05:05,000
+peut-être l'ambassadeur des Nations Unis, peut-être quelqu'un d'autre
+
+100
+0:05:05.33,000 --> 0:05:09,000
+qui, pensent-ils, sera plus compétent sur ce problème en particulier.
+
+101
+0:05:09.33,000 --> 0:05:12,000
+Mais même le secrétaire d'état ne connait pas grand chose à l'Iran.
+
+102
+0:05:12.33,000 --> 0:05:15,000
+Le secrétaire à la défense non plus.
+
+103
+0:05:15.33,000 --> 0:05:18,000
+Chacune de ces personnes, à son tour,
+
+104
+0:05:18.33,000 --> 0:05:2,000
+a des conseillers pour l'aider,
+
+105
+0:05:20.33,000 --> 0:05:23,000
+afin qu'ils puissent aider le président.
+
+106
+0:05:23.33,000 --> 0:05:26,000
+Beaucoup de personnes influencent ces décisions
+
+107
+0:05:26.33,000 --> 0:05:28,000
+et si nous voulons prédire correctement,
+
+108
+0:05:28.33,000 --> 0:05:31,000
+nous devons prendre en compte tout ceux
+
+109
+0:05:31.33,000 --> 0:05:33,000
+qui essaient d'influer sur le résultat,
+
+110
+0:05:33.33,000 --> 0:05:36,000
+pas juste les gens tout au haut
+
+111
+0:05:36.33,000 --> 0:05:4,000
+de la pyramide de décision.
+
+112
+0:05:40.33,000 --> 0:05:42,000
+Malheureusement, la plupart du temps, on ne fait pas ça,
+
+113
+0:05:42.33,000 --> 0:05:44,000
+et ceci pour une bonne raison,
+
+114
+0:05:44.33,000 --> 0:05:47,000
+et une bonne raison d'utiliser la théorie du jeu et les ordinateurs,
+
+115
+0:05:47.33,000 --> 0:05:5,000
+est que nous pouvons dépasser cette limite
+
+116
+0:05:50.33,000 --> 0:05:52,000
+de ne s'intéresser qu'à quelques personnes.
+
+117
+0:05:52.33,000 --> 0:05:56,000
+Supposons un problème avec seulement 5 décideurs.
+
+118
+0:05:56.33,000 --> 0:05:58,000
+Imaginons, par exemple
+
+119
+0:05:58.33,000 --> 0:06:,000
+que Sally, ici,
+
+120
+0:06:00.33,000 --> 0:06:03,000
+veut savoir ce que Harry, Jane
+
+121
+0:06:03.33,000 --> 0:06:06,000
+George et Frank pensent,
+
+122
+0:06:06.33,000 --> 0:06:08,000
+et envoie des messages à ces personnes.
+
+123
+0:06:08.33,000 --> 0:06:1,000
+Sally leur donne son avis,
+
+124
+0:06:10.33,000 --> 0:06:13,000
+et ils lui renvoient leur avis.
+
+125
+0:06:13.33,000 --> 0:06:15,000
+Mais Sally veut aussi savoir
+
+126
+0:06:15.33,000 --> 0:06:18,000
+ce que Harry dit aux trois autres,
+
+127
+0:06:18.33,000 --> 0:06:2,000
+et ce qu'ils disent à Harry.
+
+128
+0:06:20.33,000 --> 0:06:22,000
+Et Harry veut savoir
+
+129
+0:06:22.33,000 --> 0:06:25,000
+ce que chacun d'entre eux dit à chaque autres, et caetera,
+
+130
+0:06:25.33,000 --> 0:06:28,000
+et Sally aimerait connaitre ce que Harry pensent que les autres disent.
+
+131
+0:06:28.33,000 --> 0:06:31,000
+C'est un problème compliqué, beaucoup de choses à savoir.
+
+132
+0:06:31.33,000 --> 0:06:34,000
+Avec 5 décideurs
+
+133
+0:06:34.33,000 --> 0:06:36,000
+il y a déjà beaucoup de liens --
+
+134
+0:06:36.33,000 --> 0:06:38,000
+on en compte 120
+
+135
+0:06:38.33,000 --> 0:06:4,000
+si vous vous souvenez de vos factorielles.
+
+136
+0:06:40.33,000 --> 0:06:42,000
+5 factorielle égale 120.
+
+137
+0:06:42.33,000 --> 0:06:44,000
+Vous serez peut-être surpris d'apprendre
+
+138
+0:06:44.33,000 --> 0:06:47,000
+que certains arrivent à garder 120 données
+
+139
+0:06:47.33,000 --> 0:06:49,000
+en tête
+
+140
+0:06:49.33,000 --> 0:06:51,000
+Supposons que nous doublions le nombre de décideurs
+
+141
+0:06:51.33,000 --> 0:06:53,000
+de 5 à 10.
+
+142
+0:06:53.33,000 --> 0:06:57,000
+Avons nous doublé la quantité d'information
+
+143
+0:06:57.33,000 --> 0:06:59,000
+à retenir, de 120 à 240 ?
+
+144
+0:06:59.33,000 --> 0:07:01,000
+Non, peut-être 10 fois ?
+
+145
+0:07:01.33,000 --> 0:07:04,000
+jusqu'à 1200 ? Non.
+
+146
+0:07:04.33,000 --> 0:07:07,000
+Nous sommes montés à 3.6 million.
+
+147
+0:07:07.33,000 --> 0:07:09,000
+Personne ne peut retenir tout ca de tête.
+
+148
+0:07:09.33,000 --> 0:07:12,000
+Par contre, les ordinateurs,
+
+149
+0:07:12.33,000 --> 0:07:15,000
+eux peuvent. Pas besoin de pause café,
+
+150
+0:07:15.33,000 --> 0:07:18,000
+pas besoin de vacances,
+
+151
+0:07:18.33,000 --> 0:07:2,000
+pas besoin de dormir la nuit,
+
+152
+0:07:20.33,000 --> 0:07:23,000
+ils ne demandent pas d'augmentation non plus.
+
+153
+0:07:23.33,000 --> 0:07:25,000
+Ils peuvent retenir toute cette information
+
+154
+0:07:25.33,000 --> 0:07:28,000
+et cela veut dire que nous pouvons traiter cette information.
+
+155
+0:07:28.33,000 --> 0:07:3,000
+Je vais donc vous parler de comment la traiter,
+
+156
+0:07:30.33,000 --> 0:07:33,000
+et je vais vous donner des exemples venus d'Iran,
+
+157
+0:07:33.33,000 --> 0:07:35,000
+et vous aller vous demander :
+
+158
+0:07:35.33,000 --> 0:07:37,000
+"Pourquoi devrions-nous écouter ce type?"
+
+159
+0:07:37.33,000 --> 0:07:4,000
+"Pourquoi devrions-nous le croire?"
+
+160
+0:07:40.33,000 --> 0:07:44,000
+Donc voici quelques assertions.
+
+161
+0:07:44.33,000 --> 0:07:47,000
+Ceci est une évaluation de la CIA
+
+162
+0:07:47.33,000 --> 0:07:49,000
+du pourcentage de fois
+
+163
+0:07:49.33,000 --> 0:07:51,000
+où le modèle dont je parle
+
+164
+0:07:51.33,000 --> 0:07:54,000
+a raison sur une prédiction dont le résultat est encore inconnu,
+
+165
+0:07:54.33,000 --> 0:07:58,000
+quand les experts qui ont donné les données en entrée
+
+166
+0:07:58.33,000 --> 0:08:,000
+se sont trompés.
+
+167
+0:08:00.33,000 --> 0:08:03,000
+C'est la CIA qui le dit, vous pouvez le lire,
+
+168
+0:08:03.33,000 --> 0:08:06,000
+il a été déclassifié il y a longtemps. Vous pouvez le lire dans un volume édité par
+
+169
+0:08:06.33,000 --> 0:08:09,000
+H. Bradford Westerfield, Yale University Press.
+
+170
+0:08:09.33,000 --> 0:08:11,000
+Donc, qu'a-t-on besoin de savoir
+
+171
+0:08:11.33,000 --> 0:08:13,000
+pour faire une prédiction ?
+
+172
+0:08:13.33,000 --> 0:08:16,000
+Vous serez surpris de savoir que nous n'avons pas besoin de grand-chose.
+
+173
+0:08:16.33,000 --> 0:08:19,000
+Nous devons savoir qui a interêt
+
+174
+0:08:19.33,000 --> 0:08:24,000
+à influer sur le résultat de la décision.
+
+175
+0:08:24.33,000 --> 0:08:27,000
+Nous devons savoir ce qu'ils disent vouloir,
+
+176
+0:08:27.33,000 --> 0:08:3,000
+pas ce qu'ils veulent réellement au fond d'eux,
+
+177
+0:08:30.33,000 --> 0:08:32,000
+pas ce qu'ils pensent pouvoir avoir,
+
+178
+0:08:32.33,000 --> 0:08:35,000
+mais ce qu'ils disent vouloir, parce que c'est une position stratégiquement choisie,
+
+179
+0:08:35.33,000 --> 0:08:37,000
+et que nous pouvons travailler à reculons, à partir de cela
+
+180
+0:08:37.33,000 --> 0:08:41,000
+pour inférer des points importants sur leur processus de décision.
+
+181
+0:08:41.33,000 --> 0:08:43,000
+Nous devons savoir a quel point ils sont concernés
+
+182
+0:08:43.33,000 --> 0:08:45,000
+par le problème.
+
+183
+0:08:45.33,000 --> 0:08:48,000
+C'est-à-dire, sont-ils prêt à laisser tomber ce qu'ils font pour se concentrer sur ce problème
+
+184
+0:08:48.33,000 --> 0:08:52,000
+et s'y consacrer au lieu de se consacrer à autre chose --
+
+185
+0:08:52.33,000 --> 0:08:54,000
+A quel point ceci est un problème pour eux ?
+
+186
+0:08:54.33,000 --> 0:08:57,000
+Et quelle influence peuvent-ils amener sur ce problème
+
+187
+0:08:57.33,000 --> 0:09:02,000
+s'ils choisissent de s'y consacrer.
+
+188
+0:09:02.33,000 --> 0:09:04,000
+Si nous savons cela,
+
+189
+0:09:04.33,000 --> 0:09:07,000
+nous pouvons prévoir leur comportement en supposons que tout le monde
+
+190
+0:09:07.33,000 --> 0:09:12,000
+s'intéressent à deux choses, en toute décision :
+
+191
+0:09:12.33,000 --> 0:09:14,000
+- Le résultat, ils voudraient un résultat aussi proche que possible
+
+192
+0:09:14.33,000 --> 0:09:17,000
+de ce qui les intéressent.
+
+193
+0:09:17.33,000 --> 0:09:2,000
+- Leur carrière, ils veulent être récompensés
+
+194
+0:09:20.33,000 --> 0:09:22,000
+il y a un certain ego mis en jeu,
+
+195
+0:09:22.33,000 --> 0:09:26,000
+ils veulent être vus comme ayant du pouvoir sur le résultat,
+
+196
+0:09:26.33,000 --> 0:09:31,000
+ou tout aussi important, pour bloquer un résultat.
+
+197
+0:09:31.33,000 --> 0:09:34,000
+Nous devons donc trouver comment ils équilibrent ces deux choses.
+
+198
+0:09:34.33,000 --> 0:09:36,000
+Des personnes différentes choisissent
+
+199
+0:09:36.33,000 --> 0:09:39,000
+entre soutenir coûte que coûte leur résultat,
+
+200
+0:09:39.33,000 --> 0:09:42,000
+le soutenir fidèlement, perdre dans un éclair de gloire,
+
+201
+0:09:42.33,000 --> 0:09:45,000
+ou laisser tomber, envoyer tout le monde se faire voir
+
+202
+0:09:45.33,000 --> 0:09:48,000
+et faire ce qu'ils pensent nécessaire pour obtenir une position gagnante
+
+203
+0:09:48.33,000 --> 0:09:51,000
+La plupart des gens se trouvent entre les deux, et si nous pouvons trouver où,
+
+204
+0:09:51.33,000 --> 0:09:53,000
+nous pouvons savoir comment négocier avec eux
+
+205
+0:09:53.33,000 --> 0:09:55,000
+pour modifier leur comportement.
+
+206
+0:09:55.33,000 --> 0:09:58,000
+Donc avec simplement ces entrées
+
+207
+0:09:58.33,000 --> 0:10:01,000
+nous pouvons définir quels choix ont ces personnes,
+
+208
+0:10:01.33,000 --> 0:10:04,000
+et quels risques sont-ils prêt à prendre,
+
+209
+0:10:04.33,000 --> 0:10:07,000
+ce qui les fait courir, ce qu'ils les importent, ce qu'ils veulent,
+
+210
+0:10:07.33,000 --> 0:10:1,000
+et ce qu'ils croient sur les autres décideurs.
+
+211
+0:10:10.33,000 --> 0:10:14,000
+Vous aurez remarqué ce que nous n'avons pas besoin de savoir
+
+212
+0:10:14.33,000 --> 0:10:16,000
+Il n'y a pas d'historique ici.
+
+213
+0:10:16.33,000 --> 0:10:18,000
+Comment ils sont arrivés là
+
+214
+0:10:18.33,000 --> 0:10:2,000
+peut être important pour définir les informations en entrée,
+
+215
+0:10:20.33,000 --> 0:10:22,000
+mais une fois que nous savons où ils sont
+
+216
+0:10:22.33,000 --> 0:10:25,000
+nous nous intéressons à où ils vont dans l'avenir.
+
+217
+0:10:25.33,000 --> 0:10:29,000
+Comment ils sont arrivés là n'est plus vraiment relevant pour notre prédiction.
+
+218
+0:10:29.33,000 --> 0:10:33,000
+Je vous rappelle le taux de 90 pourcent de précision.
+
+219
+0:10:33.33,000 --> 0:10:35,000
+Donc, où allons-nous trouver ces informations ?
+
+220
+0:10:35.33,000 --> 0:10:38,000
+Nous pouvons les trouver
+
+221
+0:10:38.33,000 --> 0:10:41,000
+par Internet, par The Economist,
+
+222
+0:10:41.33,000 --> 0:10:44,000
+Le Financial Times, le New York Times,
+
+223
+0:10:44.33,000 --> 0:10:47,000
+U.S. News et World Report, ce genre de sources,
+
+224
+0:10:47.33,000 --> 0:10:49,000
+ou nous pouvons les avoir en demandant à des experts
+
+225
+0:10:49.33,000 --> 0:10:52,000
+qui ont passé leur vie à étudier les lieux et les problèmes,
+
+226
+0:10:52.33,000 --> 0:10:55,000
+parce que ces experts connaissent ces informations.
+
+227
+0:10:55.33,000 --> 0:10:58,000
+S'ils ne savent pas quelles personnes tentent d'influer sur la décision,
+
+228
+0:10:58.33,000 --> 0:11:,000
+le pouvoir qu'ils ont,
+
+229
+0:11:00.33,000 --> 0:11:03,000
+si le problème est capital pour eux, et ceux qu'ils disent vouloir,
+
+230
+0:11:03.33,000 --> 0:11:06,000
+sont-ils alors des experts ? C'est le sens même du mot expert.
+
+231
+0:11:06.33,000 --> 0:11:1,000
+C'est la base de ce qu'un expert doit savoir.
+
+232
+0:11:10.33,000 --> 0:11:12,000
+Enfin, intéressons-nous à l'Iran.
+
+233
+0:11:12.33,000 --> 0:11:15,000
+Faisons trois prédictions importantes --
+
+234
+0:11:15.33,000 --> 0:11:18,000
+vous pourrez vérifier, le temps me jugera.
+
+235
+0:11:18.33,000 --> 0:11:26,000
+Que va faire l'Iran a propos de son programme d'armement nucléaire ?
+
+236
+0:11:26.33,000 --> 0:11:29,000
+Le régime théocratique Iranien est-il en sécurité ?
+
+237
+0:11:29.33,000 --> 0:11:31,000
+Quel est son futur ?
+
+238
+0:11:31.33,000 --> 0:11:34,000
+Et le meilleur ami de tout le monde ici :
+
+239
+0:11:34.33,000 --> 0:11:37,000
+Ahmadinejad. Comment les choses vont-elles aller pour lui ?
+
+240
+0:11:37.33,000 --> 0:11:43,000
+Que va-t-il lui arriver dans les deux prochaines années ?
+
+241
+0:11:43.33,000 --> 0:11:46,000
+Regardez donc, ceci n'est pas basé sur des statistiques.
+
+242
+0:11:46.33,000 --> 0:11:51,000
+Laissez moi être très clair. Je ne projette pas des données passées dans le futur.
+
+243
+0:11:51.33,000 --> 0:11:54,000
+J'ai pris comme entrées les positions de chacun, etc,
+
+244
+0:11:54.33,000 --> 0:11:56,000
+traiter les données dans un modèle informatique
+
+245
+0:11:56.33,000 --> 0:11:59,000
+qui a simulé les dynamiques d'interaction,
+
+246
+0:11:59.33,000 --> 0:12:01,000
+et voici les dynamiques simulées,
+
+247
+0:12:01.33,000 --> 0:12:04,000
+les prédictions sur l'évolution du programme nucléaire
+
+248
+0:12:04.33,000 --> 0:12:07,000
+Vous pouvez voir, sur l'axe vertical,
+
+249
+0:12:07.33,000 --> 0:12:09,000
+Je ne l'ai pas mis jusqu'à zéro,
+
+250
+0:12:09.33,000 --> 0:12:12,000
+il y a beaucoup d'autres options, mais je ne vous montre ici que la prédiction,
+
+251
+0:12:12.33,000 --> 0:12:14,000
+donc j'ai réduit l'échelle,
+
+252
+0:12:14.33,000 --> 0:12:17,000
+tout en haut de l'axe, "Construire la bombe."
+
+253
+0:12:17.33,000 --> 0:12:21,000
+à 130, nous commençons quelquepart au-dessus de 130,
+
+254
+0:12:21.33,000 --> 0:12:24,000
+entre "construire la bombe", et faire suffisamment de carburant atomique
+
+255
+0:12:24.33,000 --> 0:12:26,000
+pour pouvoir construire la bombe
+
+256
+0:12:26.33,000 --> 0:12:29,000
+C'est ici, selon mes analyses,
+
+257
+0:12:29.33,000 --> 0:12:32,000
+que les Iraniens étaient au début de cette année.
+
+258
+0:12:32.33,000 --> 0:12:35,000
+Et ensuite, le modèle déroule les prédictions,
+
+259
+0:12:35.33,000 --> 0:12:39,000
+à 115, ils produiraient seulement suffisamment de carburant atomique
+
+260
+0:12:39.33,000 --> 0:12:41,000
+pour prouver qu'ils savent comment faire, mais ne produiraient pas de bombe,
+
+261
+0:12:41.33,000 --> 0:12:43,000
+ils en construiraient en quantité suffisante pour la recherche
+
+262
+0:12:43.33,000 --> 0:12:45,000
+Cela suffirait à la fierté nationale,
+
+263
+0:12:45.33,000 --> 0:12:48,000
+mais ils n'iraient pas plus loin, et ne construiraient pas de bombe.
+
+264
+0:12:48.33,000 --> 0:12:5,000
+Et en dessous de 100, ils construiraient de l'énergie nucléaire civile,
+
+265
+0:12:50.33,000 --> 0:12:54,000
+ce qui, selon eux, est leur objectif.
+
+266
+0:12:54.33,000 --> 0:12:57,000
+La ligne jaune nous montre l'évolution la plus probable.
+
+267
+0:12:57.33,000 --> 0:12:58,000
+Cette ligne inclus une analyse
+
+268
+0:12:58.33,000 --> 0:13:01,000
+de 87 décideurs en Iran,
+
+269
+0:13:01.33,000 --> 0:13:04,000
+et d'un grand nombre d'influences extérieures
+
+270
+0:13:04.33,000 --> 0:13:07,000
+qui tentent de faire pression sur l'Iran pour modifier son comportement,
+
+271
+0:13:07.33,000 --> 0:13:1,000
+un nombre important de joueurs aux U.S. en Egypte,
+
+272
+0:13:10.33,000 --> 0:13:12,000
+en Arabie Saoudite, en Russie, de l'Union Européenne,
+
+273
+0:13:12.33,000 --> 0:13:14,000
+au Japon, etc...
+
+274
+0:13:14.33,000 --> 0:13:18,000
+La ligne blanche reproduit l'analyse
+
+275
+0:13:18.33,000 --> 0:13:2,000
+si l'environnement international
+
+276
+0:13:20.33,000 --> 0:13:23,000
+laissait l'Iran prendre ses propres décisions internes
+
+277
+0:13:23.33,000 --> 0:13:25,000
+soumises à ses propres pressions politiques
+
+278
+0:13:25.33,000 --> 0:13:27,000
+-- cela n'arrivent certainement pas --
+
+279
+0:13:27.33,000 --> 0:13:31,000
+mais vous pouvez constater que la ligne descend plus vite
+
+280
+0:13:31.33,000 --> 0:13:34,000
+s'ils ne sont pas soumis à une pression internationale,
+
+281
+0:13:34.33,000 --> 0:13:36,000
+s'ils sont autorisés à construire leurs propres engins.
+
+282
+0:13:36.33,000 --> 0:13:39,000
+Dans tous les cas, à la fin de cette année,
+
+283
+0:13:39.33,000 --> 0:13:42,000
+ou au début de l'année prochaine, nous aurons atteint une position d'équilibre.
+
+284
+0:13:42.33,000 --> 0:13:46,000
+Et cet équilibre n'est pas ce que les Etats-Unis voudraient,
+
+285
+0:13:46.33,000 --> 0:13:49,000
+mais c'est probablement un équilibre avec lequel les U.S peuvent vivre,
+
+286
+0:13:49.33,000 --> 0:13:51,000
+et dont la plupart des pays s'arrangeront.
+
+287
+0:13:51.33,000 --> 0:13:55,000
+L'Iran satisfera cette fierté nationaliste
+
+288
+0:13:55.33,000 --> 0:13:59,000
+en construisant suffisament de carburant atomique, pour la recherche
+
+289
+0:13:59.33,000 --> 0:14:03,000
+pour pouvoir démontrer qu'ils savent comment le faire,
+
+290
+0:14:03.33,000 --> 0:14:08,000
+mais ne construira, de fait, pas de bombe avec.
+
+291
+0:14:08.33,000 --> 0:14:1,000
+Comment cela se fait-il ?
+
+292
+0:14:10.33,000 --> 0:14:14,000
+Ici, vous pouvez voir la distribution
+
+293
+0:14:14.33,000 --> 0:14:19,000
+de pouvoir, soutenant le programme d'energie atomique civil aujourd'hui,
+
+294
+0:14:19.33,000 --> 0:14:22,000
+et l'évolution de cette distribution
+
+295
+0:14:22.33,000 --> 0:14:28,000
+vers fin 2010, début 2011
+
+296
+0:14:28.33,000 --> 0:14:32,000
+Personne ne supporte les carburants atomiques aujourd'hui,
+
+297
+0:14:32.33,000 --> 0:14:35,000
+mais en 2011, cela représentera un bloc important
+
+298
+0:14:35.33,000 --> 0:14:39,000
+vous réunissez ces deux blocks, vous obtenez l'influence majoritaire en Iran.
+
+299
+0:14:39.33,000 --> 0:14:42,000
+Aujourd'hui, il y a pas mal de gens --
+
+300
+0:14:42.33,000 --> 0:14:44,000
+Ahmadinejad, par exemple --
+
+301
+0:14:44.33,000 --> 0:14:46,000
+qui voudrait, non seulement construire une bombe,
+
+302
+0:14:46.33,000 --> 0:14:48,000
+mais aussi la tester.
+
+303
+0:14:48.33,000 --> 0:14:5,000
+Ce pouvoir disparait complètement,
+
+304
+0:14:50.33,000 --> 0:14:53,000
+plus personne ne supporte cela en 2011.
+
+305
+0:14:53.33,000 --> 0:14:55,000
+ceux-la diminuent tous,
+
+306
+0:14:55.33,000 --> 0:14:58,000
+le pouvoir se déplace vers là
+
+307
+0:14:58.33,000 --> 0:15:01,000
+le résultat va donc être les carburants atomiques
+
+308
+0:15:01.33,000 --> 0:15:04,000
+Quels sont les gagnants, et qui sont les perdants en Iran ?
+
+309
+0:15:04.33,000 --> 0:15:07,000
+Prenons ceux-là, leur pouvoir grandit,
+
+310
+0:15:07.33,000 --> 0:15:1,000
+et, au passage, ceci a été réalisé il y a un certain temps
+
+311
+0:15:10.33,000 --> 0:15:12,000
+avant la crise économique actuelle
+
+312
+0:15:12.33,000 --> 0:15:14,000
+et l'augmentation va probablement s'accélérer.
+
+313
+0:15:14.33,000 --> 0:15:16,000
+Ces types sont les intérêts financiers en Iran,
+
+314
+0:15:16.33,000 --> 0:15:2,000
+les banquiers, les groupes pétroliers, les Bazaaries,
+
+315
+0:15:20.33,000 --> 0:15:23,000
+leur pouvoir politique grandit,
+
+316
+0:15:23.33,000 --> 0:15:26,000
+alors que les mullahs sont en train de s'isoler --
+
+317
+0:15:26.33,000 --> 0:15:28,000
+à l'exception d'un certain groupe de mullahs,
+
+318
+0:15:28.33,000 --> 0:15:3,000
+peu connu des Américains.
+
+319
+0:15:30.33,000 --> 0:15:32,000
+Cette ligne, ici, dont le pouvoir grandit,
+
+320
+0:15:32.33,000 --> 0:15:36,000
+ce sont les Iraniens appelés les Quiétistes.
+
+321
+0:15:36.33,000 --> 0:15:39,000
+Ce sont les Ayatollahs, la plupart près de Qom,
+
+322
+0:15:39.33,000 --> 0:15:43,000
+qui ont un grand pouvoir dans la communauté religieuse,
+
+323
+0:15:43.33,000 --> 0:15:46,000
+qui ont été calmes en politiques, mais qui vont se faire entendre,
+
+324
+0:15:46.33,000 --> 0:15:48,000
+parce qu'ils voient l'Iran partir dans une mauvaise direction
+
+325
+0:15:48.33,000 --> 0:15:5,000
+une direction contraire
+
+326
+0:15:50.33,000 --> 0:15:54,000
+à ce que Khomeini avait en tête.
+
+327
+0:15:54.33,000 --> 0:15:56,000
+Voici M. Ahmadinejad.
+
+328
+0:15:56.33,000 --> 0:15:59,000
+Deux choses à constater : il est de plus en plus faible,
+
+329
+0:15:59.33,000 --> 0:16:01,000
+et alors qu'il reçoit beaucoup d'attention de la part des US
+
+330
+0:16:01.33,000 --> 0:16:03,000
+il n'est pas un joueur de premier plan en Iran,
+
+331
+0:16:03.33,000 --> 0:16:05,000
+il est déjà sur la pente raide.
+
+332
+0:16:05.33,000 --> 0:16:09,000
+OK, j'aimerais que vous preniez un peu de recul sur tout cela.
+
+333
+0:16:09.33,000 --> 0:16:11,000
+Tout n'est pas prévisible, les marchés financiers
+
+334
+0:16:11.33,000 --> 0:16:14,000
+sont, au moins pour moi, imprévisibles,
+
+335
+0:16:14.33,000 --> 0:16:19,000
+mais les négociations les plus hardues, elles, le sont.
+
+336
+0:16:19.33,000 --> 0:16:23,000
+Une fois de plus, que nous parlions de programme de santé, d'éducation,
+
+337
+0:16:23.33,000 --> 0:16:26,000
+d'environnement, d'énergie,
+
+338
+0:16:26.33,000 --> 0:16:28,000
+de litiges, de fusion-acquisitions,
+
+339
+0:16:28.33,000 --> 0:16:3,000
+tout ces problèmes compliqués
+
+340
+0:16:30.33,000 --> 0:16:32,000
+sont prévisibles,
+
+341
+0:16:32.33,000 --> 0:16:36,000
+et ce genre de technologie est applicable.
+
+342
+0:16:36.33,000 --> 0:16:41,000
+Et la raison pour laquelle pouvoir prévoir toutes ces choses est important,
+
+343
+0:16:41.33,000 --> 0:16:44,000
+ce n'est pas seulement parce que vous pouvez vous retrouver à la tête d'un Hedge Fund, et vouloir en tirer de l'argent,
+
+344
+0:16:44.33,000 --> 0:16:47,000
+mais c'est parce que si vous pouvez prévoir comment les gens vont agir,
+
+345
+0:16:47.33,000 --> 0:16:5,000
+vous pouvez transformer leurs actions.
+
+346
+0:16:50.33,000 --> 0:16:52,000
+Et si vous transformer ce qu'ils font, vous pouvez changer le monde.
+
+347
+0:16:52.33,000 --> 0:16:54,000
+vous pouvez avoir un meilleur résultat.
+
+348
+0:16:54.33,000 --> 0:16:57,000
+J'aimerais vous laisser sur une pensée :
+
+349
+0:16:57.33,000 --> 0:17:02,000
+pour moi, l'idée dominante derrière cette réunion
+
+350
+0:17:02.33,000 --> 0:17:05,000
+et c'est l'idée dominante derrière cette manière de penser le monde.
+
+351
+0:17:05.33,000 --> 0:17:08,000
+Quand les gens vous disent,
+
+352
+0:17:08.33,000 --> 0:17:1,000
+"C'est impossible,"
+
+353
+0:17:10.33,000 --> 0:17:12,000
+vous pouvez leur répondre,
+
+354
+0:17:12.33,000 --> 0:17:14,000
+"Quand tu dis : "C'est impossible"
+
+355
+0:17:14.33,000 --> 0:17:16,000
+tu veux dire :
+
+356
+0:17:16.33,000 --> 0:17:19,000
+"Je ne sais pas comment le faire"
+
+357
+0:17:19.33,000 --> 0:17:21,000
+Merci
+
+358
+0:17:21.33,000 --> 0:17:25,000
+(Applaudissement)
+
+359
+0:17:25.33,000 --> 0:17:27,000
+Chris Anderson: Une question pour vous.
+
+360
+0:17:27.33,000 --> 0:17:3,000
+C'était fascinant.
+
+361
+0:17:30.33,000 --> 0:17:33,000
+J'adore tout ce que vous mettez dans cette présentation.
+
+362
+0:17:33.33,000 --> 0:17:35,000
+Cependant je me suis inquiété, au milieu de votre présentation
+
+363
+0:17:35.33,000 --> 0:17:38,000
+me demandant si vous incluiez dans votre modèle la possibilité
+
+364
+0:17:38.33,000 --> 0:17:42,000
+que révéler cette prédiction puisse changer le résultat.
+
+365
+0:17:42.33,000 --> 0:17:45,000
+Nous avons 800 personnes à Téheran qui suivent les TEDTalks.
+
+366
+0:17:45.33,000 --> 0:17:47,000
+Bruce Bueno de Mesquita: J'y ai pensé,
+
+367
+0:17:47.33,000 --> 0:17:51,000
+j'ai fait pas mal de travail pour les services de renseignements,
+
+368
+0:17:51.33,000 --> 0:17:53,000
+ils ont aussi pris cela en compte.
+
+369
+0:17:53.33,000 --> 0:17:56,000
+Cela sera une bonne chose si
+
+370
+0:17:56.33,000 --> 0:17:59,000
+les gens payaient plus attention, prenaient ceci sérieusement
+
+371
+0:17:59.33,000 --> 0:18:01,000
+et demarraient le même genre de calculs,
+
+372
+0:18:01.33,000 --> 0:18:05,000
+parce que cela changeraient les choses. Mais les choses changeraient de deux manières bénéfiques :
+
+373
+0:18:05.33,000 --> 0:18:11,000
+Cela réduirait le temps que passent les gens à trouver un accord,
+
+374
+0:18:11.33,000 --> 0:18:14,000
+et tout le monde s'épargnerait des chagrins et du temps.
+
+375
+0:18:14.33,000 --> 0:18:18,000
+Et, nous arriverions à un accord qui contenterait tout le monde,
+
+376
+0:18:18.33,000 --> 0:18:21,000
+sans avoir à trop manipuler les gens --
+
+377
+0:18:21.33,000 --> 0:18:24,000
+ce qui est finalement ce que je fais, je les manipule.
+
+378
+0:18:24.33,000 --> 0:18:26,000
+Donc cela serait une bonne chose.
+
+379
+0:18:26.33,000 --> 0:18:3,000
+CA: Donc vous êtes plus ou moins en train de dire : "Peuple d'Iran, voici votre destinée, allons-y."
+
+380
+0:18:30.33,000 --> 0:18:36,000
+BBM: En fait, peuple d'Iran, ceci est ce que la majorité d'entre vous va finir par vouloir,
+
+381
+0:18:36.33,000 --> 0:18:38,000
+et nous pourrions y être beaucoup plus rapidement,
+
+382
+0:18:38.33,000 --> 0:18:41,000
+et vous souffririez beaucoup moins des sanctions économiques,
+
+383
+0:18:41.33,000 --> 0:18:47,000
+et nous souffririons beaucoup moins de la peur d'avoir à utiliser, au final, notre force militaire,
+
+384
+0:18:47.33,000 --> 0:18:49,000
+et le monde pourrait être meilleur.
+
+385
+0:18:49.33,000 --> 0:18:52,000
+CA: En espérant qu'ils l'entendent de cette manière. Merci beaucoup Bruce.
+
+386
+0:18:52.33,000 --> 0:18:54,000
+BBM: Merci.
+
+387
+0:18:54.33,000 --> 0:18:59,000
+(Applaudissement)
+

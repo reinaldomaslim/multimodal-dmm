@@ -1,0 +1,604 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Matthieu Coville Relecteur: eric vautier
+
+2
+0:00:25,000 --> 0:00:27,000
+Ce que je vais vous montrer en premier, aussi vite que possible,
+
+3
+0:00:27,000 --> 0:00:31,000
+c'est un travail fondateur, une nouvelle technologie
+
+4
+0:00:31,000 --> 0:00:34,000
+que nous avons apportée à Microsoft comme part d'une acquisition
+
+5
+0:00:34,000 --> 0:00:37,000
+il y a presque exactement un an. Voici Seadragon.
+
+6
+0:00:37,000 --> 0:00:4,000
+Et c'est un environnement dans lequel vous pouvez, localement ou à distance,
+
+7
+0:00:4,000 --> 0:00:43,000
+interagir avec de grandes quantités de données visuelles.
+
+8
+0:00:43,000 --> 0:00:46,000
+On a ici devant les yeux beaucoup, beaucoup de gigabytes de photos numériques
+
+9
+0:00:46,000 --> 0:00:49,000
+et on fait des zooms avant de manière continue et en quelque sorte fluide,
+
+10
+0:00:5,000 --> 0:00:52,000
+on navigue dans le truc, on le réarrange de la manière qu'on veut.
+
+11
+0:00:52,000 --> 0:00:56,000
+Et ce quelle que soit la quantité d'informations que l'on visionne,
+
+12
+0:00:56,000 --> 0:00:59,000
+la taille de ces collections ou la taille des images.
+
+13
+0:00:59,000 --> 0:01:01,000
+La plupart sont des photos d'appareils numériques ordinaires,
+
+14
+0:01:01,000 --> 0:01:04,000
+mais celle-ci, par exemple, est scannée à partir de la Bibliothèque du Congrès,
+
+15
+0:01:05,000 --> 0:01:07,000
+et elle fait dans les 300 mégapixels.
+
+16
+0:01:08,000 --> 0:01:09,000
+Cela ne fait aucune différence
+
+17
+0:01:09,000 --> 0:01:12,000
+parce que la seule chose qui devrait limiter les performances
+
+18
+0:01:12,000 --> 0:01:15,000
+d'un système comme celui-ci, c'est le nombre de pixels sur votre écran
+
+19
+0:01:15,000 --> 0:01:18,000
+à un instant "t". C'est aussi une architecture très flexible.
+
+20
+0:01:18,000 --> 0:01:21,000
+Voici un livre entier, un exemple de donnée qui n'est pas une image.
+
+21
+0:01:22,000 --> 0:01:27,000
+C'est Bleak House de Dickens. Chaque colonne est un chapitre.
+
+22
+0:01:27,000 --> 0:01:31,000
+Pour vous prouver que c'est vraiment du texte, et pas une image,
+
+23
+0:01:31,000 --> 0:01:33,000
+on peut faire quelque chose comme ça, pour bien montrer
+
+24
+0:01:33,000 --> 0:01:36,000
+que c'est une véritable représentation du texte; ce n'est pas une photo.
+
+25
+0:01:37,000 --> 0:01:39,000
+C'est peut-être une manière un peu artificielle de lire un e-book.
+
+26
+0:01:39,000 --> 0:01:4,000
+Je ne vous le recommande pas.
+
+27
+0:01:4,000 --> 0:01:43,000
+Voilà un exemple plus réaliste. C'est un numéro du Guardian.
+
+28
+0:01:43,000 --> 0:01:45,000
+Chaque grande image est le début d'une section.
+
+29
+0:01:45,000 --> 0:01:48,000
+Et cela vous donne véritablement la joie et l'expérience agréable
+
+30
+0:01:48,000 --> 0:01:53,000
+de la lecture de la vraie version papier d'un magazine ou d'un journal,
+
+31
+0:01:54,000 --> 0:01:55,000
+qui est un type de media multi-échelles par définition.
+
+32
+0:01:56,000 --> 0:01:57,000
+Nous avons également mis au point quelque chose
+
+33
+0:01:57,000 --> 0:02:,000
+avec le coin de ce numéro du Guardian en particulier.
+
+34
+0:02:,000 --> 0:02:03,000
+Nous avons créé une fausse publicité en très haute résolution...
+
+35
+0:02:03,000 --> 0:02:05,000
+bien plus haute que ce que vous pourriez obtenir dans une publicité classique...
+
+36
+0:02:05,000 --> 0:02:07,000
+et nous avons inséré du contenu supplémentaire.
+
+37
+0:02:07,000 --> 0:02:09,000
+Si vous voulez voir les caractéristiques de cette voiture, on peut les voir ici.
+
+38
+0:02:1,000 --> 0:02:14,000
+Ou d'autres modèles, ou même des spécifications techniques.
+
+39
+0:02:15,000 --> 0:02:17,000
+Et on en arrive vraiment à certaines de ces idées
+
+40
+0:02:18,000 --> 0:02:22,000
+pour vraiment se débarrasser de ces limites d'espace de l'écran.
+
+41
+0:02:22,000 --> 0:02:24,000
+On espère que cela signifie la fin des pop-ups
+
+42
+0:02:24,000 --> 0:02:26,000
+et d'autres types de pollution du même genre... ne devraient plus être nécessaires.
+
+43
+0:02:27,000 --> 0:02:29,000
+Bien entendu, la cartographie est l'une des applications évidentes
+
+44
+0:02:29,000 --> 0:02:31,000
+pour une technologie comme celle-ci.
+
+45
+0:02:31,000 --> 0:02:33,000
+Et sur celle-ci je vais passer très rapidement,
+
+46
+0:02:33,000 --> 0:02:35,000
+si ce n'est pour dire qu'on a des choses pour contribuer à ce domaine également.
+
+47
+0:02:37,000 --> 0:02:39,000
+Ce sont toutes les routes des Etats-Unis
+
+48
+0:02:39,000 --> 0:02:43,000
+superposées à une image géospatiale de la NASA.
+
+49
+0:02:44,000 --> 0:02:46,000
+Bon, maintenant, allons chercher autre chose.
+
+50
+0:02:46,000 --> 0:02:49,000
+Tout ça est en ce moment en ligne sur le Web, vous pouvez aller vérifier.
+
+51
+0:02:49,000 --> 0:02:5,000
+C'est un projet appelé Photosynth,
+
+52
+0:02:51,000 --> 0:02:52,000
+qui en réalité marie deux technologies différentes.
+
+53
+0:02:52,000 --> 0:02:53,000
+L'une d'entre elles est Seadragon
+
+54
+0:02:54,000 --> 0:02:56,000
+et l'autre est issue d'une recherche magnifique sur la vision informatisée
+
+55
+0:02:57,000 --> 0:02:59,000
+menée par Noah Snavely, un étudiant de 3ème cycle à l'Université de Washington,
+
+56
+0:03:,000 --> 0:03:02,000
+co-dirigée par Steve Seitz à l'UW
+
+57
+0:03:02,000 --> 0:03:06,000
+et Rick Szeliski de la recherche Microsoft. Une très belle collaboration.
+
+58
+0:03:07,000 --> 0:03:09,000
+Et donc c'est en ligne sur le Web. Cela fonctionne avec la technologie Seadragon.
+
+59
+0:03:09,000 --> 0:03:11,000
+On peut le voir quand on utilise ce genre de visualisations,
+
+60
+0:03:12,000 --> 0:03:13,000
+où on peut plonger dans les images
+
+61
+0:03:14,000 --> 0:03:15,000
+et avoir cette sorte d'expérience multi-résolutions.
+
+62
+0:03:16,000 --> 0:03:2,000
+Mais l'arrangement dans l'espace des images dans ce cas-là a en fait un sens.
+
+63
+0:03:2,000 --> 0:03:23,000
+Les algorithmes de vision informatisée ont enregistré ces images ensemble,
+
+64
+0:03:23,000 --> 0:03:27,000
+afin qu'elles correspondent à l'espace réel dans lequel ces photos
+
+65
+0:03:27,000 --> 0:03:29,000
+(toutes prises près des lacs Grassi dans les Rocheuses canadiennes)
+
+66
+0:03:31,000 --> 0:03:33,000
+ont été prises. Donc vous voyez des éléments ici
+
+67
+0:03:33,000 --> 0:03:37,000
+de diaporama stabilisé ou d'imagerie panoramique,
+
+68
+0:03:4,000 --> 0:03:42,000
+et toutes ces choses ont été reliées entre elles dans l'espace.
+
+69
+0:03:42,000 --> 0:03:45,000
+Je ne suis pas sûr d'avoir le temps de vous montrer d'autres environnements.
+
+70
+0:03:45,000 --> 0:03:46,000
+Certains sont beaucoup plus spatiaux.
+
+71
+0:03:47,000 --> 0:03:5,000
+J'aimerais sauter directement à l'un des premiers ensemble de données de Noah
+
+72
+0:03:5,000 --> 0:03:52,000
+(et cela vient d'un premier prototype de Photosynth
+
+73
+0:03:52,000 --> 0:03:54,000
+que nous avons fait fonctionner pour la première fois cet été)
+
+74
+0:03:54,000 --> 0:03:55,000
+pour vous montrer ce qui d'après moi
+
+75
+0:03:55,000 --> 0:03:58,000
+est vraiment le point fort de cette technologie,
+
+76
+0:03:59,000 --> 0:04:01,000
+la technologie Photosynth. Et ce n'est pas nécessairement si évident
+
+77
+0:04:01,000 --> 0:04:04,000
+quand on regarde les environnements que nous avons mis en ligne sur le site web.
+
+78
+0:04:04,000 --> 0:04:06,000
+On a du se préoccuper des avocats et des trucs dans le genre.
+
+79
+0:04:07,000 --> 0:04:08,000
+Voici une reconstruction de la cathédrale Notre-Dame
+
+80
+0:04:09,000 --> 0:04:11,000
+qui a été faite entièrement par calcul informatique
+
+81
+0:04:11,000 --> 0:04:14,000
+à partir d'images récupérées sur Flickr. On tape juste Notre Dame dans Flickr,
+
+82
+0:04:14,000 --> 0:04:17,000
+et on trouve des photos de types en t-shirts, du campus (de l'université de ND, NdT)
+
+83
+0:04:17,000 --> 0:04:21,000
+et ainsi de suite. Et chacun des ces cônes oranges représente une image
+
+84
+0:04:22,000 --> 0:04:24,000
+qui a été identifiée comme appartenant à ce modèle.
+
+85
+0:04:26,000 --> 0:04:28,000
+Et donc ce sont toutes des images Flickr,
+
+86
+0:04:28,000 --> 0:04:31,000
+et elles ont toutes été reliées entre elles dans l'espace de cette manière.
+
+87
+0:04:31,000 --> 0:04:33,000
+Et on peut naviguer dedans très simplement de cette manière.
+
+88
+0:04:35,000 --> 0:04:44,000
+(Applaudissements)
+
+89
+0:04:44,000 --> 0:04:46,000
+Vous savez, je n'aurais jamais cru que je finirais par travailler chez Microsoft.
+
+90
+0:04:46,000 --> 0:04:5,000
+C'est très gratifiant d'être reçu ici de cette manière.
+
+91
+0:04:5,000 --> 0:04:53,000
+(Rires)
+
+92
+0:04:53,000 --> 0:04:56,000
+Je pense que vous pouvez voir
+
+93
+0:04:56,000 --> 0:04:58,000
+qu'il s'agit de beaucoup de types d'appareils photos différents:
+
+94
+0:04:58,000 --> 0:05:01,000
+il y a de tout, des appareils photo de téléphone portable aux reflex mono-objectifs de professionnels,
+
+95
+0:05:02,000 --> 0:05:03,000
+un assez grand nombre de photos, cousues
+
+96
+0:05:03,000 --> 0:05:04,000
+ensemble dans cet environnement.
+
+97
+0:05:04,000 --> 0:05:06,000
+Et si j'y arrive, je vais en trouver quelques-unes un peu étranges.
+
+98
+0:05:08,000 --> 0:05:11,000
+Beaucoup d'entre elles sont occultées par des visages, et ainsi de suite.
+
+99
+0:05:13,000 --> 0:05:14,000
+Quelque part par là il y a même
+
+100
+0:05:15,000 --> 0:05:16,000
+une série de photographies... nous y voilà.
+
+101
+0:05:17,000 --> 0:05:2,000
+Il s'agit en fait d'un poster de Notre Dame qui a été enregistré comme correct.
+
+102
+0:05:21,000 --> 0:05:23,000
+On peut plonger depuis le poster
+
+103
+0:05:24,000 --> 0:05:27,000
+dans une vue physique de l'environnement.
+
+104
+0:05:31,000 --> 0:05:34,000
+Le vrai but de tout ça, c'est qu'on peut faire des choses
+
+105
+0:05:34,000 --> 0:05:39,000
+avec l'environnement social. On prend maintenant les données de tout le monde...
+
+106
+0:05:39,000 --> 0:05:4,000
+de l'ensemble de la mémoire collective
+
+107
+0:05:4,000 --> 0:05:42,000
+de ce à quoi ressemble la Terre, visuellement...
+
+108
+0:05:43,000 --> 0:05:44,000
+et on relie tout ça ensemble.
+
+109
+0:05:44,000 --> 0:05:46,000
+Toutes ces photos deviennent liées entre elles,
+
+110
+0:05:46,000 --> 0:05:47,000
+et elles font émerger quelque chose
+
+111
+0:05:47,000 --> 0:05:49,000
+de plus grand que la somme des parties.
+
+112
+0:05:49,000 --> 0:05:51,000
+Il y a un modèle de la Terre entière qui émerge.
+
+113
+0:05:51,000 --> 0:05:56,000
+Voyez ça comme la longue traîne du travail de Stephen Lawler sur la Terre Virtuelle.
+
+114
+0:05:56,000 --> 0:05:58,000
+Et c'est quelque chose qui devient de plus en plus complexe
+
+115
+0:05:58,000 --> 0:06:01,000
+à mesure que les gens l'utilisent, et dont les bénéfices s'accroissent
+
+116
+0:06:01,000 --> 0:06:03,000
+pour les utilisateurs à mesure qu'ils l'utilisent.
+
+117
+0:06:03,000 --> 0:06:05,000
+Leurs propres photos sont marquées avec des méta-données
+
+118
+0:06:05,000 --> 0:06:06,000
+que quelqu'un d'autre a entrées.
+
+119
+0:06:07,000 --> 0:06:1,000
+Si quelqu'un s'embêtait à marquer tous ces saints
+
+120
+0:06:1,000 --> 0:06:13,000
+et à donner tous leurs noms, ma photo de la cathédrale Notre Dame
+
+121
+0:06:13,000 --> 0:06:15,000
+serait enrichie d'un coup de toutes ces données,
+
+122
+0:06:15,000 --> 0:06:18,000
+et je pourrais l'utiliser comme point d'entrée pour plonger dans cet espace,
+
+123
+0:06:18,000 --> 0:06:2,000
+dans ce méta-verse, en utilisant les photos de tout le monde,
+
+124
+0:06:21,000 --> 0:06:23,000
+pour faire une sorte d'expérience sociale trans-modale
+
+125
+0:06:25,000 --> 0:06:28,000
+et trans-utilisateurs de cette manière.
+
+126
+0:06:28,000 --> 0:06:29,000
+Et bien sûr, un sous-produit de tout ça,
+
+127
+0:06:3,000 --> 0:06:32,000
+ce sont des modèles virtuels immensément riches
+
+128
+0:06:32,000 --> 0:06:34,000
+de tous les coins intéressants la Terre, récoltés
+
+129
+0:06:35,000 --> 0:06:38,000
+pas simplement par des vols en altitude et par des images satellite
+
+130
+0:06:38,000 --> 0:06:4,000
+et autres, mais par la mémoire collective.
+
+131
+0:06:4,000 --> 0:06:42,000
+Merci beaucoup.
+
+132
+0:06:42,000 --> 0:06:53,000
+(Applaudissements)
+
+133
+0:06:53,000 --> 0:06:57,000
+Chris Anderson: Est-ce que je comprends bien ? Que ce que votre logiciel va permettre,
+
+134
+0:06:58,000 --> 0:07:,000
+c'est qu'à un certain moment, vraiment dans les quelques années à venir,
+
+135
+0:07:01,000 --> 0:07:05,000
+toutes les photos qui sont partagées par quiconque dans le monde
+
+136
+0:07:05,000 --> 0:07:07,000
+seront en gros liées entre elles ?
+
+137
+0:07:07,000 --> 0:07:09,000
+BAA: Oui. Ce que le logiciel fait, c'est découvrir.
+
+138
+0:07:09,000 --> 0:07:12,000
+Il crée des hyperliens, si vous voulez, entre les images.
+
+139
+0:07:12,000 --> 0:07:13,000
+Et il le fait
+
+140
+0:07:13,000 --> 0:07:14,000
+en se fondant sur le contenu des images.
+
+141
+0:07:14,000 --> 0:07:17,000
+Et ça devient vraiment passionnant quand vous songez à la richesse
+
+142
+0:07:17,000 --> 0:07:19,000
+de l'information sémantique que bon nombre de ces images possèdent.
+
+143
+0:07:19,000 --> 0:07:21,000
+Par exemple quand on fait une recherche web sur des images,
+
+144
+0:07:22,000 --> 0:07:24,000
+on tape des phrases, et le texte de la page web
+
+145
+0:07:24,000 --> 0:07:27,000
+contient beaucoup d'informations à propos du sujet de cette photo.
+
+146
+0:07:27,000 --> 0:07:29,000
+Maintenant, que se passe-t-il si cette photo est liée à toutes vos photos ?
+
+147
+0:07:29,000 --> 0:07:31,000
+Dans ce cas la quantité d'interconnexions sémantiques
+
+148
+0:07:31,000 --> 0:07:32,000
+et la quantité de richesse qui en ressort
+
+149
+0:07:32,000 --> 0:07:35,000
+est vraiment immense.C'est un effet de réseau classique.
+
+150
+0:07:35,000 --> 0:07:37,000
+CA: Blaise, c'est vraiment incroyable. Félicitations.
+
+151
+0:07:37,000 --> 0:07:38,000
+BAA: Merci beaucoup.
+

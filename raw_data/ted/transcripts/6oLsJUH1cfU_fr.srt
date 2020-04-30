@@ -1,0 +1,424 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Jules Daunay Relecteur: eric vautier
+
+2
+0:00:12.76,000 --> 0:00:15,000
+Comme tous les ingénieurs logiciels passionnés,
+
+3
+0:00:16.24,000 --> 0:00:19,000
+je suis les entreprises technologiques de la Silicon Valley de près,
+
+4
+0:00:19.6,000 --> 0:00:22,000
+un peu comme les fans de foot avec leurs équipes en Europe.
+
+5
+0:00:23.64,000 --> 0:00:25,000
+Je lis des articles sur des blogs tech
+
+6
+0:00:25.88,000 --> 0:00:27,000
+et j'écoute des podcasts sur mon portable.
+
+7
+0:00:29.08,000 --> 0:00:3,000
+Mais après avoir fini l'article,
+
+8
+0:00:30.92,000 --> 0:00:33,000
+éteint mon portable et retiré mes écouteurs,
+
+9
+0:00:34.28,000 --> 0:00:36,000
+je suis de retour en Afrique subsaharienne,
+
+10
+0:00:36.52,000 --> 0:00:38,000
+où le décor n'est pas tout à fait le même.
+
+11
+0:00:40.16,000 --> 0:00:42,000
+Nous avons des pannes de courant longues et fréquentes,
+
+12
+0:00:43.72,000 --> 0:00:45,000
+peu d'ordinateurs,
+
+13
+0:00:45.8,000 --> 0:00:46,000
+une connexion Internet lente
+
+14
+0:00:47.76,000 --> 0:00:51,000
+et beaucoup de patients, soignés dans des hôpitaux en manque de personnel.
+
+15
+0:00:52.04,000 --> 0:00:54,000
+Depuis l'épidémie de Sida,
+
+16
+0:00:54.2,000 --> 0:00:59,000
+les hôpitaux ont du mal à gérer l'historique des traitements du Sida
+
+17
+0:00:59.88,000 --> 0:01:,000
+avec une hausse du nombre de patients.
+
+18
+0:01:02.72,000 --> 0:01:03,000
+Dans de tels environnements,
+
+19
+0:01:04.48,000 --> 0:01:07,000
+importer des systèmes technologiques développés ailleurs a été un échec.
+
+20
+0:01:08.4,000 --> 0:01:11,000
+En 2006, j'ai rejoint Baobab Health,
+
+21
+0:01:11.64,000 --> 0:01:14,000
+une équipe faisant travailler des ingénieurs basés sur place
+
+22
+0:01:15.2,000 --> 0:01:17,000
+pour développer des interventions adaptées,
+
+23
+0:01:17.84,000 --> 0:01:2,000
+répondant aux problèmes de santé au Malawi.
+
+24
+0:01:21.72,000 --> 0:01:24,000
+Nous avons conçu un système électronique d'archives de santé,
+
+25
+0:01:25.16,000 --> 0:01:28,000
+utilisé par le personnel de santé lors des consultations.
+
+26
+0:01:28.52,000 --> 0:01:32,000
+Au cours du projet, on a réalisé qu'il ne fallait pas seulement créer le logiciel,
+
+27
+0:01:33.12,000 --> 0:01:35,000
+on devait aussi mettre en place l'infrastructure.
+
+28
+0:01:36.64,000 --> 0:01:38,000
+On n'avait pas assez de personnel médical
+
+29
+0:01:38.88,000 --> 0:01:4,000
+pour examiner en intégralité chaque patient.
+
+30
+0:01:41.76,000 --> 0:01:44,000
+On a donc intégré des directives cliniques dans le logiciel
+
+31
+0:01:44.84,000 --> 0:01:46,000
+pour guider les infirmières et les employés
+
+32
+0:01:47.04,000 --> 0:01:49,000
+qui aident à gérer une partie du travail.
+
+33
+0:01:5,000 --> 0:01:51,000
+Tout le monde a un anniversaire,
+
+34
+0:01:51.68,000 --> 0:01:53,000
+sans toujours connaître sa date d'anniversaire.
+
+35
+0:01:54.2,000 --> 0:01:57,000
+Donc, on a écrit des algorithmes pour que les dates de naissance estimées
+
+36
+0:01:58.04,000 --> 0:01:59,000
+deviennent précises.
+
+37
+0:02:00.2,000 --> 0:02:03,000
+Comment suivre des patients vivant dans des bidonvilles
+
+38
+0:02:04.16,000 --> 0:02:06,000
+sans numéro de rue et de maison ?
+
+39
+0:02:07.2,000 --> 0:02:1,000
+On a utilisé des points de repère pour estimer des adresses physiques.
+
+40
+0:02:12.04,000 --> 0:02:15,000
+Le Malawi n'avait pas d'identification unique pour les patients,
+
+41
+0:02:16.48,000 --> 0:02:18,000
+on a dû en mettre une en place
+
+42
+0:02:19,000 --> 0:02:21,000
+pour relier les dossiers des patients entre les hôpitaux.
+
+43
+0:02:22.919,000 --> 0:02:24,000
+Les ID sont imprimées sous forme de codes barres
+
+44
+0:02:26.2,000 --> 0:02:28,000
+sur des étiquettes, collées sur les livrets de santé
+
+45
+0:02:29.046,000 --> 0:02:3,000
+conservés par chaque patient.
+
+46
+0:02:31,000 --> 0:02:32,000
+Grâce à cet identifiant à codes barres,
+
+47
+0:02:33,000 --> 0:02:35,000
+un simple scan avec un lecteur de codes barres
+
+48
+0:02:35.44,000 --> 0:02:37,000
+retrouve rapidement les dossiers du patient.
+
+49
+0:02:38.38,000 --> 0:02:4,000
+Pas besoin de réécrire leurs données personnelles
+
+50
+0:02:40.76,000 --> 0:02:42,000
+sur des registres papier à chaque visite.
+
+51
+0:02:43.2,000 --> 0:02:45,000
+Soudain, les files d'attente se sont raccourcies.
+
+52
+0:02:45.88,000 --> 0:02:49,000
+Ainsi, les patients comme les mères portant des bébés sur leur dos,
+
+53
+0:02:50.8,000 --> 0:02:53,000
+ont pu attendre moins longtemps avant la consultation.
+
+54
+0:02:53.96,000 --> 0:02:54,000
+Et s'ils perdent leurs livrets de santé,
+
+55
+0:02:55.92,000 --> 0:02:58,000
+leurs données peuvent même être retrouvées en utilisant leur nom.
+
+56
+0:02:59.12,000 --> 0:03:03,000
+La façon dont on prononce et on épèle les noms est très variable.
+
+57
+0:03:04.36,000 --> 0:03:06,000
+On mélange facilement les R, les L et
+
+58
+0:03:07.08,000 --> 0:03:09,000
+les versions anglaises et vernaculaires des noms des patients.
+
+59
+0:03:10.68,000 --> 0:03:11,000
+Même avec Soundex,
+
+60
+0:03:12.12,000 --> 0:03:16,000
+une méthode de référence pour grouper les mots selon leur ressemblance sonore,
+
+61
+0:03:16.56,000 --> 0:03:17,000
+ce n'était pas assez précis.
+
+62
+0:03:18.16,000 --> 0:03:19,000
+On a donc dû le modifier
+
+63
+0:03:19.88,000 --> 0:03:22,000
+pour nous aider à relier et faire concorder les enregistrements existants.
+
+64
+0:03:26.16,000 --> 0:03:27,000
+Avant l'iPhone,
+
+65
+0:03:28.04,000 --> 0:03:31,000
+les ingénieurs en logiciels développaient pour les PC.
+
+66
+0:03:31.88,000 --> 0:03:32,000
+Mais par expérience,
+
+67
+0:03:33.16,000 --> 0:03:36,000
+on savait que notre système électrique n'était pas assez fiable
+
+68
+0:03:36.56,000 --> 0:03:37,000
+pour des PC.
+
+69
+0:03:38.48,000 --> 0:03:42,000
+On a donc reprogrammé des terminaux de points de vente à écran tactile,
+
+70
+0:03:43.16,000 --> 0:03:44,000
+destinés aux commerces,
+
+71
+0:03:44.88,000 --> 0:03:45,000
+en postes de travail hospitaliers.
+
+72
+0:03:47.92,000 --> 0:03:51,000
+À l'époque, on importait des terminaux internet appelés i-Openers
+
+73
+0:03:52.96,000 --> 0:03:55,000
+qui avaient été fabriqués au moment de la bulle Internet
+
+74
+0:03:56,000 --> 0:03:58,000
+par une entreprise américaine en faillite.
+
+75
+0:03:59.08,000 --> 0:04:01,000
+On a modifié leur écran
+
+76
+0:04:01.08,000 --> 0:04:02,000
+pour intégrer des capteurs tactiles
+
+77
+0:04:02.8,000 --> 0:04:05,000
+et l'électricité provient de batteries.
+
+78
+0:04:06.68,000 --> 0:04:11,000
+Quand on a commencé, on n'a pas trouvé de réseau fiable pour envoyer les données,
+
+79
+0:04:11.84,000 --> 0:04:13,000
+surtout depuis les hôpitaux à la campagne.
+
+80
+0:04:14.24,000 --> 0:04:16,000
+On a donc construit nos propres antennes.
+
+81
+0:04:17.72,000 --> 0:04:18,000
+On a créé un réseau sans fil
+
+82
+0:04:19.64,000 --> 0:04:21,000
+et on a relié des hôpitaux de Lilongwe,
+
+83
+0:04:22.08,000 --> 0:04:23,000
+la capitale du Malawi.
+
+84
+0:04:24.6,000 --> 0:04:26,000
+(Applaudissements)
+
+85
+0:04:32.2,000 --> 0:04:34,000
+travaillant au sein d'un campus hospitalier,
+
+86
+0:04:34.52,000 --> 0:04:36,000
+on a observé le personnel de santé utiliser le système
+
+87
+0:04:37.2,000 --> 0:04:4,000
+et construire petit à petit un système d'information,
+
+88
+0:04:40.44,000 --> 0:04:43,000
+qui gère maintenant l'archivage des dossiers du Sida
+
+89
+0:04:44.28,000 --> 0:04:47,000
+dans tous les grands hôpitaux publics du Malawi.
+
+90
+0:04:47.92,000 --> 0:04:52,000
+Chacun de ces hôpitaux accueille plus de 2 000 séropositifs.
+
+91
+0:04:54.68,000 --> 0:04:56,000
+Désormais, les travailleurs de santé, qui passaient des jours
+
+92
+0:04:57.56,000 --> 0:04:59,000
+sur les chiffres des rapports trimestriels,
+
+93
+0:04:59.72,000 --> 0:05:01,000
+produisent les mêmes rapports en un rien de temps.
+
+94
+0:05:02.96,000 --> 0:05:05,000
+Des experts du secteur de la santé du monde entier
+
+95
+0:05:06.84,000 --> 0:05:09,000
+viennent au Malawi pour apprendre comment nous l'avons fait.
+
+96
+0:05:10.88,000 --> 0:05:13,000
+(Applaudissements)
+
+97
+0:05:14.36,000 --> 0:05:16,000
+C'est inspirant et divertissant
+
+98
+0:05:16.96,000 --> 0:05:18,000
+de suivre les tendances technologiques globales.
+
+99
+0:05:19.8,000 --> 0:05:21,000
+Mais, pour qu'elles fonctionnent,
+
+100
+0:05:21.84,000 --> 0:05:23,000
+dans des environnements avec peu de ressources,
+
+101
+0:05:24.12,000 --> 0:05:27,000
+comme les hôpitaux publics en Afrique subsaharienne,
+
+102
+0:05:27.32,000 --> 0:05:3,000
+on a été obligés de devenir multifonctions
+
+103
+0:05:31.12,000 --> 0:05:34,000
+et de construire des systèmes complets, sans oublier l'infrastructure,
+
+104
+0:05:34.68,000 --> 0:05:35,000
+à partir de rien.
+
+105
+0:05:36.56,000 --> 0:05:37,000
+Je vous remercie.
+
+106
+0:05:37.8,000 --> 0:05:42,000
+(Applaudissements)
+

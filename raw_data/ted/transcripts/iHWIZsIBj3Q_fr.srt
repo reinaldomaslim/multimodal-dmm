@@ -1,0 +1,516 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Helena China Relecteur: Eléa Weibel
+
+2
+0:00:12.812,000 --> 0:00:14,000
+Je voudrais démontrer, pour la première fois en public
+
+3
+0:00:16.352,000 --> 0:00:19,000
+qu'il est possible de transmettre une vidéo
+
+4
+0:00:20.143,000 --> 0:00:24,000
+d'une lampe LED normale
+
+5
+0:00:25.54,000 --> 0:00:28,000
+à une cellule photovoltaïque, avec un ordinateur portable comme récepteur.
+
+6
+0:00:30.422,000 --> 0:00:32,000
+Il n'y a pas de Wi-fi, juste de la lumière.
+
+7
+0:00:33.093,000 --> 0:00:35,000
+Et vous pouvez vous demander : « Quel intérêt ? »
+
+8
+0:00:35.951,000 --> 0:00:36,000
+Voici l'intérêt :
+
+9
+0:00:38.399,000 --> 0:00:4,000
+il va y avoir une immense extension d'Internet
+
+10
+0:00:41.099,000 --> 0:00:43,000
+pour combler la fracture numérique,
+
+11
+0:00:43.933,000 --> 0:00:44,000
+mais aussi pour permettre
+
+12
+0:00:45.138,000 --> 0:00:48,000
+à ce qu'on appelle : « l'Internet des Objets » --
+
+13
+0:00:48.138,000 --> 0:00:51,000
+des dizaines de milliards d'appareils connectés à Internet.
+
+14
+0:00:51.328,000 --> 0:00:55,000
+A mon avis, une telle expansion d'Internet ne peut fonctionner
+
+15
+0:00:55.383,000 --> 0:00:57,000
+que si elle n'utilise quasiment pas d’énergie.
+
+16
+0:00:58.173,000 --> 0:01:,000
+Cela signifie que nous devons utiliser
+
+17
+0:01:00.497,000 --> 0:01:03,000
+les infrastructures existantes autant que possible.
+
+18
+0:01:03.497,000 --> 0:01:07,000
+Et c'est là que la cellule photovoltaïque et la LED entrent en jeu.
+
+19
+0:01:08.959,000 --> 0:01:1,000
+J'ai expliqué pour la première fois,
+
+20
+0:01:11.301,000 --> 0:01:12,000
+à TED en 2011,
+
+21
+0:01:13.29,000 --> 0:01:15,000
+comment marchait le Li-Fi, ou Light Fidelity.
+
+22
+0:01:15.781,000 --> 0:01:18,000
+Le Li-fi utilise des LEDs classiques
+
+23
+0:01:18.8,000 --> 0:01:21,000
+pour transmettre des données incroyablement rapidement,
+
+24
+0:01:21.8,000 --> 0:01:23,000
+mais aussi de manière sûre et sécurisée.
+
+25
+0:01:25.402,000 --> 0:01:27,000
+Les données sont transportées par la lumière,
+
+26
+0:01:28.307,000 --> 0:01:31,000
+encodées dans les changements subtils de luminosité.
+
+27
+0:01:32.39,000 --> 0:01:35,000
+Si nous regardons autour de nous, il y beaucoup de LEDs,
+
+28
+0:01:35.978,000 --> 0:01:39,000
+il y a donc une riche infrastructure de transmetteurs de Li-Fi autour de nous.
+
+29
+0:01:41.393,000 --> 0:01:43,000
+Mais jusqu'à présent,
+
+30
+0:01:43.496,000 --> 0:01:46,000
+nous utilisons des appareils spéciaux-- de petits photodétecteurs,
+
+31
+0:01:46.656,000 --> 0:01:49,000
+pour recevoir l'information encodée dans les données.
+
+32
+0:01:50.94,000 --> 0:01:53,000
+Je voulais trouver un moyen d'utiliser aussi les infrastructures déjà existantes
+
+33
+0:01:54.856,000 --> 0:01:57,000
+pour recevoir des données depuis nos lampes Li-Fi.
+
+34
+0:01:58.426,000 --> 0:02:02,000
+Et c'est pourquoi je me suis intéressé aux cellules et panneaux solaires.
+
+35
+0:02:03.016,000 --> 0:02:08,000
+Une cellule solaire absorbe la lumière et la convertit en énergie électrique.
+
+36
+0:02:08.549,000 --> 0:02:09,000
+C'est pourquoi nous pouvons utiliser
+
+37
+0:02:10.409,000 --> 0:02:13,000
+une cellule solaire pour charger nos mobiles.
+
+38
+0:02:13.409,000 --> 0:02:14,000
+Mais nous devons garder en mémoire
+
+39
+0:02:15.055,000 --> 0:02:18,000
+que les données sont encodées
+
+40
+0:02:18.244,000 --> 0:02:21,000
+dans des changements subtils de luminosité de la LED,
+
+41
+0:02:21.244,000 --> 0:02:24,000
+donc si la lumière entrante fluctue,
+
+42
+0:02:24.617,000 --> 0:02:26,000
+l’énergie récoltée par la cellule solaire également.
+
+43
+0:02:28.579,000 --> 0:02:31,000
+Ce qui signifie que nous avons mis en place un mécanisme principal
+
+44
+0:02:32.112,000 --> 0:02:38,000
+afin de recevoir l'information depuis la lumière et par la cellule solaire
+
+45
+0:02:38.246,000 --> 0:02:4,000
+puisque les fluctuations de l'energie recoltée
+
+46
+0:02:41.045,000 --> 0:02:43,000
+correspondent aux données transmises.
+
+47
+0:02:43.934,000 --> 0:02:45,000
+Bien sûr, la question est :
+
+48
+0:02:46.084,000 --> 0:02:5,000
+pouvons-nous recevoir de très rapides et subtils changements de luminosité,
+
+49
+0:02:50.268,000 --> 0:02:53,000
+comme ceux transmis par nos lampes LED ?
+
+50
+0:02:54.641,000 --> 0:02:57,000
+Et la réponse est oui.
+
+51
+0:02:58.637,000 --> 0:02:59,000
+Nous avons démontré en laboratoire
+
+52
+0:03:00.44,000 --> 0:03:03,000
+que nous pouvons recevoir jusqu’à 50 Mb/s
+
+53
+0:03:03.946,000 --> 0:03:05,000
+depuis une cellule solaire standard.
+
+54
+0:03:06.771,000 --> 0:03:09,000
+Et ceci est plus rapide que la plupart des connexions haut débit d'aujourd'hui.
+
+55
+0:03:11.437,000 --> 0:03:14,000
+Maintenant, laissez-moi vous le démontrer.
+
+56
+0:03:17.095,000 --> 0:03:21,000
+Dans cette boite se trouve une lampe LED standard,
+
+57
+0:03:23.193,000 --> 0:03:25,000
+ceci est une cellule solaire standard,
+
+58
+0:03:25.792,000 --> 0:03:27,000
+elle est connectée à un ordinateur.
+
+59
+0:03:28.949,000 --> 0:03:3,000
+Nous avons également ici un instrument
+
+60
+0:03:31.293,000 --> 0:03:34,000
+pour visualiser l'énergie que nous récoltons depuis la cellule solaire.
+
+61
+0:03:35.095,000 --> 0:03:37,000
+Et cet instrument nous montre quelque chose en ce moment.
+
+62
+0:03:37.917,000 --> 0:03:41,000
+C'est parce que la cellule solaire reçoit déjà la lumière ambiante.
+
+63
+0:03:42.822,000 --> 0:03:45,000
+Ce que je voudrais faire en premier, c'est allumer la lumière,
+
+64
+0:03:45.836,000 --> 0:03:47,000
+et je vais seulement, simplement, allumer la lumière,
+
+65
+0:03:48.382,000 --> 0:03:49,000
+pour un instant,
+
+66
+0:03:50.228,000 --> 0:03:53,000
+et vous allez remarquer que l'instrument saute vers la droite.
+
+67
+0:03:54.644,000 --> 0:03:55,000
+Donc, pour un instant, la cellule solaire,
+
+68
+0:03:56.618,000 --> 0:03:59,000
+reçoit de l'énergie de cette source lumineuse artificielle.
+
+69
+0:04:00.54,000 --> 0:04:03,000
+Si je l'éteins, on voit que ça chute.
+
+70
+0:04:03.842,000 --> 0:04:04,000
+Je l'allume...
+
+71
+0:04:05.049,000 --> 0:04:07,000
+Et nous récoltons de l'énergie par la cellule solaire.
+
+72
+0:04:08.586,000 --> 0:04:13,000
+Mais ensuite je voudrais activer le streaming de la vidéo.
+
+73
+0:04:15.418,000 --> 0:04:17,000
+Et je l'ai fait en pressant ce bouton.
+
+74
+0:04:17.766,000 --> 0:04:21,000
+Maintenant cette lampe LED ici transmet une vidéo en streaming
+
+75
+0:04:22.513,000 --> 0:04:26,000
+en changeant la luminosité de la LED de manière très subtile,
+
+76
+0:04:26.669,000 --> 0:04:28,000
+d'une manière que vous ne pouvez voir de vos yeux,
+
+77
+0:04:29.191,000 --> 0:04:32,000
+car les changements sont trop rapides pour être remarqués.
+
+78
+0:04:33.384,000 --> 0:04:35,000
+Mais pour montrer le but de ce raisonnement,
+
+79
+0:04:35.807,000 --> 0:04:38,000
+je peux bloquer la lumière de la cellule solaire.
+
+80
+0:04:40.087,000 --> 0:04:43,000
+D'abord vous remarquez que l'énergie récoltée chute
+
+81
+0:04:43.334,000 --> 0:04:44,000
+et la vidéo s'arrête aussi.
+
+82
+0:04:45.05,000 --> 0:04:48,000
+Si j'enlève le blocage, la vidéo reprend.
+
+83
+0:04:49.357,000 --> 0:04:55,000
+(Applaudissements)
+
+84
+0:04:55.61,000 --> 0:04:57,000
+Et je peux le refaire.
+
+85
+0:04:57.967,000 --> 0:04:59,000
+Donc lorsque nous stoppons la transmission de la vidéo,
+
+86
+0:05:00.662,000 --> 0:05:02,000
+la récolte de l'énergie se stoppe aussi.
+
+87
+0:05:03.242,000 --> 0:05:07,000
+Cela nous montre que la cellule solaire agit comme un recepteur.
+
+88
+0:05:08.079,000 --> 0:05:13,000
+Maintenant imaginez que cette LED est un lampadaire et qu'il y a du brouillard.
+
+89
+0:05:14.106,000 --> 0:05:16,000
+Je veux donc simuler le brouillard.
+
+90
+0:05:16.433,000 --> 0:05:18,000
+C'est pourquoi j'ai apporté un mouchoir.
+
+91
+0:05:19.2,000 --> 0:05:2,000
+(Rires)
+
+92
+0:05:20.656,000 --> 0:05:23,000
+Laissez-moi mettre le mouchoir sur le panneau solaire.
+
+93
+0:05:25.905,000 --> 0:05:26,000
+D'abord vous remarquez que
+
+94
+0:05:27.557,000 --> 0:05:31,000
+l'énergie récoltée chute comme prévu,
+
+95
+0:05:31.778,000 --> 0:05:33,000
+mais la vidéo continue.
+
+96
+0:05:34.769,000 --> 0:05:36,000
+Ce qui signifie que, malgré le blocage,
+
+97
+0:05:37.412,000 --> 0:05:4,000
+il y a une lumière passante suffisante du mouchoir vers la cellule solaire,
+
+98
+0:05:41.317,000 --> 0:05:46,000
+pour que celle-ci soit capable de décoder et diffuser l'information,
+
+99
+0:05:46.856,000 --> 0:05:48,000
+dans ce cas, une vidéo haute définition.
+
+100
+0:05:51.04,000 --> 0:05:56,000
+L'important ici est que le panneau solaire est devenu récepteur
+
+101
+0:05:56.627,000 --> 0:05:59,000
+de signaux sans fil à haute vitesse encodés dans la lumière,
+
+102
+0:06:00.466,000 --> 0:06:05,000
+alors même que sa fonction principale de récolte d'énergie est maintenue.
+
+103
+0:06:05.872,000 --> 0:06:07,000
+C'est pourquoi il est possible
+
+104
+0:06:08.315,000 --> 0:06:11,000
+d'utiliser des cellules solaires sur le toit d'une maison
+
+105
+0:06:12.196,000 --> 0:06:14,000
+pour qu'elles agissent comme récepteurs haut débit
+
+106
+0:06:14.713,000 --> 0:06:18,000
+à partir d'une station laser sur une colline proche, voire un lampadaire.
+
+107
+0:06:19.605,000 --> 0:06:22,000
+Et l'endroit où le faisceau touche la cellule solaire n'a pas d'importance.
+
+108
+0:06:23.647,000 --> 0:06:24,000
+Et c'est également vrai
+
+109
+0:06:24.849,000 --> 0:06:27,000
+pour les panneaux solaires translucides intégrés aux fenêtres,
+
+110
+0:06:28.666,000 --> 0:06:31,000
+les panneaux solaires intégrés dans le mobilier urbain,
+
+111
+0:06:32.222,000 --> 0:06:36,000
+ou encore, les panneaux solaires intégrés dans ces milliards d'appareils
+
+112
+0:06:36.789,000 --> 0:06:38,000
+qui formeront l'Internet des Objets.
+
+113
+0:06:38.889,000 --> 0:06:39,000
+Parce que simplement,
+
+114
+0:06:40.071,000 --> 0:06:42,000
+nous ne voulons pas recharger ces appareils souvent,
+
+115
+0:06:42.586,000 --> 0:06:44,000
+ou pire, remplacer les batteries après quelques mois.
+
+116
+0:06:46.418,000 --> 0:06:47,000
+Comme je vous l'ai dit,
+
+117
+0:06:48.072,000 --> 0:06:5,000
+c'est la première fois que je montre cela en public.
+
+118
+0:06:50.57,000 --> 0:06:51,000
+C'est plutôt une expérience de laboratoire,
+
+119
+0:06:52.593,000 --> 0:06:53,000
+un prototype.
+
+120
+0:06:54.276,000 --> 0:06:57,000
+Mais mon équipe et moi sommes sûrs que nous pourrons le commercialiser
+
+121
+0:06:57.594,000 --> 0:06:58,000
+d'ici deux ou trois ans.
+
+122
+0:07:00.251,000 --> 0:07:05,000
+Et nous espérons pouvoir contribuer à combler le fossé numérique,
+
+123
+0:07:05.568,000 --> 0:07:06,000
+et contribuer également,
+
+124
+0:07:06.79,000 --> 0:07:08,000
+à connecter tous ces milliards d'appareils à Internet.
+
+125
+0:07:10.37,000 --> 0:07:11,000
+Et cela sans causer
+
+126
+0:07:11.919,000 --> 0:07:13,000
+une explosion massive de la consommation d'énergie
+
+127
+0:07:14.265,000 --> 0:07:16,000
+et grâce aux cellules solaires, plutôt même le contraire.
+
+128
+0:07:17.077,000 --> 0:07:17,000
+Merci.
+
+129
+0:07:17.851,000 --> 0:07:21,000
+(Applaudissements)
+

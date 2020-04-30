@@ -1,0 +1,1308 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Claire Ea Relecteur: Nhu PHAM
+
+2
+0:00:12.721,000 --> 0:00:14,000
+Je travaille avec des enfants atteints d'autisme.
+
+3
+0:00:15.391,000 --> 0:00:17,000
+Plus précisément, j'élabore des technologies
+
+4
+0:00:17.775,000 --> 0:00:19,000
+pour les aider à communiquer.
+
+5
+0:00:19.826,000 --> 0:00:21,000
+La plupart des problèmes qu'ils confrontent
+
+6
+0:00:22.165,000 --> 0:00:24,000
+ont une source commune.
+
+7
+0:00:24.778,000 --> 0:00:26,000
+Cette source, c'est qu'ils ont des difficultés
+
+8
+0:00:27.272,000 --> 0:00:3,000
+à comprendre l'abstrait, les symboles.
+
+9
+0:00:32.132,000 --> 0:00:36,000
+A cause de cela, ils ont beaucoup de difficultés avec le langage.
+
+10
+0:00:36.784,000 --> 0:00:39,000
+Permettez-moi de vous dire quelques mots sur les raisons.
+
+11
+0:00:39.799,000 --> 0:00:42,000
+Vous voyez qu'il s'agit de la photo d'un bol de soupe.
+
+12
+0:00:43.524,000 --> 0:00:45,000
+Nous pouvons tous le voir. Nous le comprenons tous.
+
+13
+0:00:46.218,000 --> 0:00:48,000
+Voici deux autres images de soupe,
+
+14
+0:00:48.41,000 --> 0:00:5,000
+vous pouvez voir qu'elles sont plus abstraites,
+
+15
+0:00:50.827,000 --> 0:00:51,000
+qu'elles sont moins concrètes.
+
+16
+0:00:52.453,000 --> 0:00:54,000
+Quand vous en arrivez au langage,
+
+17
+0:00:54.627,000 --> 0:00:55,000
+vous voyez que cela devient un mot
+
+18
+0:00:56.495,000 --> 0:00:57,000
+dont l'apparence,
+
+19
+0:00:58.392,000 --> 0:00:59,000
+et la façon dont il sonne,
+
+20
+0:01:00.049,000 --> 0:01:02,000
+n'ont rien à voir avec ce par quoi on a commencé,
+
+21
+0:01:02.958,000 --> 0:01:04,000
+ou ce qu'il représente : le bol de soupe.
+
+22
+0:01:05.498,000 --> 0:01:07,000
+C'est une représentation complètement abstraite,
+
+23
+0:01:08.398,000 --> 0:01:1,000
+complètement arbitraire, de quelque chose
+
+24
+0:01:10.974,000 --> 0:01:11,000
+dans le monde réel.
+
+25
+0:01:12.137,000 --> 0:01:16,000
+C'est la chose avec laquelle les enfants autistes ont d'énormes difficultés.
+
+26
+0:01:16.898,000 --> 0:01:18,000
+C'est pourquoi la plupart des gens travaillant avec eux
+
+27
+0:01:19.843,000 --> 0:01:2,000
+-- orthophonistes, éducateurs... --
+
+28
+0:01:21.721,000 --> 0:01:23,000
+ils essayent de les aider
+
+29
+0:01:24.354,000 --> 0:01:27,000
+à communiquer non pas avec des mots, mais avec des images.
+
+30
+0:01:27.583,000 --> 0:01:28,000
+Donc si un enfant autiste voulait dire :
+
+31
+0:01:29.513,000 --> 0:01:31,000
+« Je veux de la soupe » il piocherait
+
+32
+0:01:31.691,000 --> 0:01:33,000
+trois images différentes : « je », « veux » et « soupe »,
+
+33
+0:01:34.581,000 --> 0:01:35,000
+et les rassemblerait,
+
+34
+0:01:35.75,000 --> 0:01:38,000
+et le thérapeute ou le parent comprendrait ainsi ce que l'enfant veut dire.
+
+35
+0:01:39.597,000 --> 0:01:42,000
+Cela a été incroyablement efficace ; ces 30, 40 dernières années
+
+36
+0:01:43.513,000 --> 0:01:44,000
+les gens l'ont appliqué.
+
+37
+0:01:45.126,000 --> 0:01:49,000
+En fait, il y a quelques années, j'ai développé une application pour iPad
+
+38
+0:01:49.15,000 --> 0:01:51,000
+qui fait exactement cela. Elle s'appelle Avaz,
+
+39
+0:01:51.405,000 --> 0:01:54,000
+et son principe c'est que les enfants sélectionnent différentes images.
+
+40
+0:01:55.005,000 --> 0:01:57,000
+Ces images sont arrangées pour former des phrases,
+
+41
+0:01:57.575,000 --> 0:01:58,000
+prononcées à haute voix.
+
+42
+0:01:59.534,000 --> 0:02:01,000
+Donc Avaz consiste principalement à convertir des images,
+
+43
+0:02:02.319,000 --> 0:02:05,000
+c'est un traducteur, qui convertit les images en langage.
+
+44
+0:02:06.279,000 --> 0:02:07,000
+Ça a bien marché.
+
+45
+0:02:07.757,000 --> 0:02:1,000
+Des milliers d'enfants l'utilisent partout dans le monde,
+
+46
+0:02:10.821,000 --> 0:02:12,000
+et j'ai commencé à réfléchir
+
+47
+0:02:12.986,000 --> 0:02:14,000
+à ce qu'elle fait et ce qu'elle ne fait pas.
+
+48
+0:02:15.25,000 --> 0:02:17,000
+J'ai réalisé quelque chose d'intéressant :
+
+49
+0:02:17.614,000 --> 0:02:2,000
+Avaz aide les enfants autistes à apprendre des mots.
+
+50
+0:02:21.527,000 --> 0:02:23,000
+Ce qu'elle ne leur permet pas d'apprendre,
+
+51
+0:02:23.932,000 --> 0:02:25,000
+ce sont les tournures de phrase.
+
+52
+0:02:26.68,000 --> 0:02:28,000
+Laissez-moi l'expliquer un peu plus en détails.
+
+53
+0:02:29.152,000 --> 0:02:32,000
+Prenez la phrase : « Je veux de la soupe ce soir. »
+
+54
+0:02:32.209,000 --> 0:02:36,000
+Ce ne sont pas que les mots qui donnent le sens.
+
+55
+0:02:36.289,000 --> 0:02:39,000
+C'est aussi la façon dont ces mots sont ordonnés,
+
+56
+0:02:39.429,000 --> 0:02:41,000
+la façon dont ces mots sont modifiés et ordonnés.
+
+57
+0:02:42.144,000 --> 0:02:44,000
+C'est pourquoi une phrase comme « Je veux de la soupe ce soir »
+
+58
+0:02:44.375,000 --> 0:02:45,000
+est différente d'une phrase comme
+
+59
+0:02:46.249,000 --> 0:02:49,000
+« Soupe veux je ce soir » qui n'a absolument aucun sens.
+
+60
+0:02:49.561,000 --> 0:02:51,000
+Il y a donc une autre abstraction cachée ici,
+
+61
+0:02:52.18,000 --> 0:02:55,000
+à laquelle les enfants autistes ont du mal à faire face,
+
+62
+0:02:55.737,000 --> 0:02:57,000
+et c'est le fait que vous pouvez modifier les mots,
+
+63
+0:02:58.577,000 --> 0:03:02,000
+les ordonner pour obtenir des sens différents, communiquer différentes idées.
+
+64
+0:03:03.513,000 --> 0:03:06,000
+C'est ce qu'on appelle la grammaire.
+
+65
+0:03:07.032,000 --> 0:03:09,000
+Et la grammaire est un outil très puissant,
+
+66
+0:03:09.368,000 --> 0:03:11,000
+car elle est un composant du langage
+
+67
+0:03:12.225,000 --> 0:03:15,000
+qui prend ce vocabulaire limité que nous avons tous
+
+68
+0:03:15.714,000 --> 0:03:19,000
+et nous permet de communiquer un nombre infini d'informations,
+
+69
+0:03:20.245,000 --> 0:03:21,000
+un nombre infini d'idées.
+
+70
+0:03:21.959,000 --> 0:03:23,000
+C'est le moyen qui permet d'assembler des choses
+
+71
+0:03:24.381,000 --> 0:03:26,000
+afin de communiquer tout ce que vous voulez.
+
+72
+0:03:26.549,000 --> 0:03:28,000
+Donc, après avoir développé Avaz,
+
+73
+0:03:28.676,000 --> 0:03:29,000
+je me suis longtemps demandé
+
+74
+0:03:30.244,000 --> 0:03:33,000
+comment je pouvais apporter la grammaire aux enfants autistes.
+
+75
+0:03:34.154,000 --> 0:03:36,000
+La solution m'est venue sous un angle très intéressant.
+
+76
+0:03:36.999,000 --> 0:03:38,000
+Je suis tombé par hasard sur un enfant autiste
+
+77
+0:03:39.878,000 --> 0:03:41,000
+discutant avec sa maman,
+
+78
+0:03:41.987,000 --> 0:03:42,000
+et voilà ce qui s'est produit.
+
+79
+0:03:43.931,000 --> 0:03:45,000
+Complètement à l'improviste, très spontanément,
+
+80
+0:03:46.447,000 --> 0:03:48,000
+l'enfant s'est levé et a dit : « manger ».
+
+81
+0:03:48.73,000 --> 0:03:49,000
+Ce qui était intéressant c'était
+
+82
+0:03:50.5,000 --> 0:03:54,000
+la façon dont la maman essayait de démêler
+
+83
+0:03:54.504,000 --> 0:03:56,000
+le sens de ce que l'enfant tentait d'exprimer,
+
+84
+0:03:57.247,000 --> 0:03:58,000
+en lui posant des questions.
+
+85
+0:03:58.997,000 --> 0:04:,000
+Elle a demandé : « Manger quoi ? Tu veux manger de la glace ?
+
+86
+0:04:01.97,000 --> 0:04:03,000
+Tu veux manger ? Quelqu'un d'autre veut manger ?
+
+87
+0:04:04.112,000 --> 0:04:07,000
+Tu veux de la glace maintenant ? Tu veux de la glace ce soir ? »
+
+88
+0:04:07.235,000 --> 0:04:1,000
+Et là, j'ai réalisé que la mère avait fait quelque chose d'incroyable.
+
+89
+0:04:10.779,000 --> 0:04:16,000
+Elle avait pu amener son enfant à lui communiquer une idée sans grammaire.
+
+90
+0:04:16.909,000 --> 0:04:2,000
+J'ai réalisé que c'était peut-être ce que je cherchais.
+
+91
+0:04:21.015,000 --> 0:04:25,000
+Au lieu d'arranger les mots dans un ordre, séquencés,
+
+92
+0:04:25.132,000 --> 0:04:27,000
+comme une phrase, vous les arrangez
+
+93
+0:04:27.304,000 --> 0:04:3,000
+selon un plan, tous reliés entre eux,
+
+94
+0:04:31.115,000 --> 0:04:33,000
+sans les placer les uns après les autres
+
+95
+0:04:33.258,000 --> 0:04:36,000
+mais sous forme de questions, dans des paires question-réponse.
+
+96
+0:04:36.542,000 --> 0:04:38,000
+Si vous le faites, ce que vous communiquez
+
+97
+0:04:38.9,000 --> 0:04:39,000
+n'est pas une phrase en anglais,
+
+98
+0:04:40.886,000 --> 0:04:44,000
+mais un sens, le sens d'une phrase en anglais.
+
+99
+0:04:45.372,000 --> 0:04:48,000
+Le sens est, d'une certaine façon, la face cachée du langage,
+
+100
+0:04:48.665,000 --> 0:04:51,000
+ce qui vient après la pensée mais avant le langage.
+
+101
+0:04:52.116,000 --> 0:04:54,000
+Et l'idée c'est que cette représentation particulière
+
+102
+0:04:54.809,000 --> 0:04:57,000
+pourrait communiquer le sens sous sa forme brute.
+
+103
+0:04:57.88,000 --> 0:04:58,000
+Donc j'étais très excité par cela,
+
+104
+0:04:59.651,000 --> 0:05:,000
+sautillant partout,
+
+105
+0:05:01.144,000 --> 0:05:02,000
+essayant de voir si je pouvais convertir
+
+106
+0:05:02.915,000 --> 0:05:04,000
+toutes les phrases possibles que j'entendais avec ceci.
+
+107
+0:05:05.749,000 --> 0:05:08,000
+Je me suis rendu compte que ce n'était pas suffisant. Pourquoi ?
+
+108
+0:05:08.952,000 --> 0:05:11,000
+Parce que si vous voulez communiquer quelque chose comme une négation,
+
+109
+0:05:12.578,000 --> 0:05:14,000
+si vous voulez dire « Je ne veux pas de soupe »,
+
+110
+0:05:14.734,000 --> 0:05:16,000
+vous ne le dites pas en posant une question
+
+111
+0:05:16.964,000 --> 0:05:17,000
+mais en changeant le mot « veux ».
+
+112
+0:05:18.799,000 --> 0:05:19,000
+Pareil, si vous voulez dire :
+
+113
+0:05:20.436,000 --> 0:05:21,000
+« Je voulais de la soupe hier »,
+
+114
+0:05:22.416,000 --> 0:05:25,000
+vous le faites en convertissant le mot « veux » par « voulais »
+
+115
+0:05:25.643,000 --> 0:05:26,000
+C'est du passé.
+
+116
+0:05:26.819,000 --> 0:05:28,000
+Donc c'est un plus que j'ai ajouté
+
+117
+0:05:28.922,000 --> 0:05:29,000
+pour rendre le système complet.
+
+118
+0:05:30.498,000 --> 0:05:32,000
+C'est une carte de mots reliés entre eux
+
+119
+0:05:32.625,000 --> 0:05:35,000
+dans un modèle de question-réponse, avec ces filtres appliqués au-dessus
+
+120
+0:05:36.395,000 --> 0:05:39,000
+afin de les modifier pour représenter certaines nuances.
+
+121
+0:05:39.521,000 --> 0:05:41,000
+Laissez-moi vous le montrer avec quelques exemples.
+
+122
+0:05:42.042,000 --> 0:05:43,000
+Prenons cette phrase :
+
+123
+0:05:43.086,000 --> 0:05:45,000
+« J'ai dit au charpentier que je ne pouvais pas le payer. »
+
+124
+0:05:45.516,000 --> 0:05:46,000
+C'est assez compliqué.
+
+125
+0:05:46.758,000 --> 0:05:48,000
+La façon dont ce système fonctionne,
+
+126
+0:05:48.791,000 --> 0:05:51,000
+fait que l'on peut commencer la phrase par n'importe quel bout.
+
+127
+0:05:51.819,000 --> 0:05:54,000
+Je vais commencer avec le mot « dire ». Voici le mot « dire »,
+
+128
+0:05:54.827,000 --> 0:05:57,000
+Ceci est arrivé dans le passé, donc je vais le transformer en « a dit »
+
+129
+0:05:58.352,000 --> 0:05:59,000
+À partir de là,
+
+130
+0:06:00.06,000 --> 0:06:01,000
+je vais poser des questions.
+
+131
+0:06:01.816,000 --> 0:06:03,000
+Qui a dit ? Je l'ai dit.
+
+132
+0:06:04.18,000 --> 0:06:05,000
+A qui ? Au charpentier.
+
+133
+0:06:06.107,000 --> 0:06:09,000
+Maintenant, on commence par un autre bout, avec le mot « payer »,
+
+134
+0:06:09.725,000 --> 0:06:13,000
+on ajoute le filtre correspondant pour le transformer en « peux payer »,
+
+135
+0:06:14.302,000 --> 0:06:16,000
+puis, en « ne peux pas payer »,
+
+136
+0:06:16.403,000 --> 0:06:17,000
+et « ne pouvais pas payer »,
+
+137
+0:06:18.002,000 --> 0:06:19,000
+en le conjuguant au passé.
+
+138
+0:06:19.515,000 --> 0:06:21,000
+Qui ne pouvait pas payer ? Je ne pouvais pas payer.
+
+139
+0:06:21.588,000 --> 0:06:24,000
+Ne pouvais pas payer qui ? Je ne pouvais pas payer le charpentier.
+
+140
+0:06:24.654,000 --> 0:06:26,000
+Puis vous joignez ces deux bouts en posant cette question :
+
+141
+0:06:27.345,000 --> 0:06:28,000
+Qu'est-ce que j'ai dit au charpentier ?
+
+142
+0:06:29.262,000 --> 0:06:32,000
+J'ai dit au charpentier que je ne pouvais pas le payer.
+
+143
+0:06:33.131,000 --> 0:06:34,000
+Réfléchissez-y. C'est -
+
+144
+0:06:35.068,000 --> 0:06:38,000
+-- (Applaudissements) --
+
+145
+0:06:38.61,000 --> 0:06:41,000
+c'est une représentation de cette phrase
+
+146
+0:06:42.282,000 --> 0:06:44,000
+sans langage.
+
+147
+0:06:44.517,000 --> 0:06:46,000
+Il y a deux ou trois choses intéressantes à ce propos.
+
+148
+0:06:47.299,000 --> 0:06:5,000
+D'abord, j'aurais pu commencer dans n'importe quel sens,
+
+149
+0:06:50.32,000 --> 0:06:52,000
+pas forcément avec le mot « dire »,
+
+150
+0:06:52.753,000 --> 0:06:54,000
+et faire tout ce processus.
+
+151
+0:06:55.219,000 --> 0:06:57,000
+La seconde chose est que si je ne parlais pas anglais,
+
+152
+0:06:57.982,000 --> 0:06:58,000
+mais une autre langue,
+
+153
+0:06:59.977,000 --> 0:07:02,000
+cette carte serait vraie pour n'importe quelle langue.
+
+154
+0:07:03.313,000 --> 0:07:09,000
+Tant que les questions sont standardisées, la carte est indépendante de la langue.
+
+155
+0:07:09.623,000 --> 0:07:11,000
+Donc j'ai appelé cela le « FreeSpeech »
+
+156
+0:07:11.705,000 --> 0:07:13,000
+et j'ai joué avec ceci pendant plusieurs mois.
+
+157
+0:07:14.64,000 --> 0:07:16,000
+J'essayais plein de combinaisons différentes.
+
+158
+0:07:17.136,000 --> 0:07:19,000
+J'ai remarqué quelque chose de très intéressant avec ceci.
+
+159
+0:07:19.945,000 --> 0:07:21,000
+J'essayais de convertir le langage,
+
+160
+0:07:22.898,000 --> 0:07:24,000
+des phrases en anglais en « FreeSpeech »,
+
+161
+0:07:25.282,000 --> 0:07:27,000
+et vice versa, dans les deux sens.
+
+162
+0:07:27.394,000 --> 0:07:3,000
+J'ai réalisé que cette configuration particulière de représenter le langage,
+
+163
+0:07:31.339,000 --> 0:07:35,000
+m'a permis de créer des règles très concises
+
+164
+0:07:35.71,000 --> 0:07:39,000
+entre le « FreeSpeech » d'un côté et l'anglais de l'autre.
+
+165
+0:07:39.954,000 --> 0:07:41,000
+Je pouvais écrire cet ensemble de règles
+
+166
+0:07:42.112,000 --> 0:07:45,000
+qui se traduit de cette représentation particulière à l'anglais.
+
+167
+0:07:45.617,000 --> 0:07:49,000
+J'ai donc développé ce principe. J'ai développé la Machine FreeSpeech
+
+168
+0:07:49.928,000 --> 0:07:51,000
+qui prend n'importe quelle phrase en FreeSpeech
+
+169
+0:07:52.621,000 --> 0:07:55,000
+et donne une phrase en un anglais parfaitement correct en grammaire.
+
+170
+0:07:56.061,000 --> 0:07:59,000
+En assemblant ces deux morceaux, la représentation et la machine,
+
+171
+0:07:59.527,000 --> 0:08:03,000
+j'ai été capable de créer une application, une technologie pour les enfants autistes,
+
+172
+0:08:03.813,000 --> 0:08:08,000
+qui leur donne non seulement des mots mais aussi la grammaire.
+
+173
+0:08:09.773,000 --> 0:08:11,000
+J'ai donc essayé cela avec des enfants autistes,
+
+174
+0:08:12.143,000 --> 0:08:17,000
+et j'ai découvert une quantité incroyable d'identifications.
+
+175
+0:08:17.156,000 --> 0:08:19,000
+Ils étaient capables de créer une phrase en FreeSpeech
+
+176
+0:08:19.876,000 --> 0:08:2,000
+beaucoup plus compliquée,
+
+177
+0:08:21.695,000 --> 0:08:22,000
+mais beaucoup plus efficace
+
+178
+0:08:23.514,000 --> 0:08:24,000
+que les équivalentes en anglais.
+
+179
+0:08:25.333,000 --> 0:08:26,000
+J'ai commencé à me demander
+
+180
+0:08:27.015,000 --> 0:08:28,000
+pourquoi.
+
+181
+0:08:28.984,000 --> 0:08:32,000
+Et j'ai eu une idée, et c'est de ça dont je veux parler ensuite.
+
+182
+0:08:33.271,000 --> 0:08:36,000
+Vers 1997, il y a environ 15 ans,
+
+183
+0:08:36.413,000 --> 0:08:38,000
+un groupe de scientifiques essayait
+
+184
+0:08:38.424,000 --> 0:08:4,000
+de comprendre comment le cerveau traite le langage,
+
+185
+0:08:41.203,000 --> 0:08:44,000
+ils ont trouvé quelque chose d'intéressant, que lorsque vous apprenez une langue
+
+186
+0:08:44.942,000 --> 0:08:48,000
+enfant, à deux ans, vous l'apprenez avec une certaine partie de votre cerveau,
+
+187
+0:08:49.512,000 --> 0:08:5,000
+quand vous l'apprenez adulte --
+
+188
+0:08:51.342,000 --> 0:08:54,000
+par exemple, si je voulais apprendre le japonais tout de suite --
+
+189
+0:08:55.253,000 --> 0:08:58,000
+une partie complètement différente de mon cerveau est utilisée.
+
+190
+0:08:58.42,000 --> 0:09:01,000
+Je ne sais pas pourquoi c'est comme ça, mais je suppose que c'est parce que
+
+191
+0:09:02.031,000 --> 0:09:04,000
+lorsque vous apprenez une langue adulte,
+
+192
+0:09:04.219,000 --> 0:09:05,000
+vous l'apprenez invariablement
+
+193
+0:09:05.835,000 --> 0:09:09,000
+à travers votre langue maternelle, ou à travers votre première langue.
+
+194
+0:09:10.101,000 --> 0:09:13,000
+Donc ce qui est intéressant avec le FreeSpeech,
+
+195
+0:09:13.353,000 --> 0:09:16,000
+c'est que lorsque vous créez une phrase ou du langage,
+
+196
+0:09:17.141,000 --> 0:09:2,000
+un enfant autiste créant du langage avec le FreeSpeech,
+
+197
+0:09:20.24,000 --> 0:09:23,000
+n'utilise pas de support de langue, ni ce pont entre les langues.
+
+198
+0:09:23.964,000 --> 0:09:25,000
+Il construit directement une phrase.
+
+199
+0:09:26.621,000 --> 0:09:28,000
+Donc cela m'a donné une idée.
+
+200
+0:09:28.814,000 --> 0:09:3,000
+Est-il possible d'utiliser le FreeSpeech,
+
+201
+0:09:31.018,000 --> 0:09:33,000
+non seulement pour les enfants autistes,
+
+202
+0:09:33.348,000 --> 0:09:38,000
+mais aussi pour enseigner les langues aux gens sans handicap ?
+
+203
+0:09:39.26,000 --> 0:09:41,000
+Donc j'ai tenté un certain nombre d'expériences.
+
+204
+0:09:41.988,000 --> 0:09:44,000
+La première chose que j'ai faite a été de construire un puzzle
+
+205
+0:09:45.146,000 --> 0:09:49,000
+dans lequel ces questions et réponses sont codées en formes, en couleurs,
+
+206
+0:09:49.496,000 --> 0:09:53,000
+les gens les mettent en commun, essaient de comprendre comment ça fonctionne.
+
+207
+0:09:53.498,000 --> 0:09:55,000
+J'ai élaboré une application, un jeu avec lequel
+
+208
+0:09:56.177,000 --> 0:09:57,000
+les enfants peuvent jouer avec les mots
+
+209
+0:09:58.138,000 --> 0:10:02,000
+avec un renforcement auditif de structures visuelles,
+
+210
+0:10:02.417,000 --> 0:10:04,000
+ils sont capables d'apprendre le langage.
+
+211
+0:10:04.76,000 --> 0:10:06,000
+Cela a beaucoup de potentiel, c'est très prometteur,
+
+212
+0:10:07.496,000 --> 0:10:1,000
+le gouvernement indien a récemment autorisé cette technologie,
+
+213
+0:10:10.535,000 --> 0:10:12,000
+ils vont l'essayer avec des millions d'enfants différents
+
+214
+0:10:13.529,000 --> 0:10:14,000
+pour leur apprendre l'anglais.
+
+215
+0:10:15.234,000 --> 0:10:17,000
+Et le rêve, l'espoir, la vision
+
+216
+0:10:17.848,000 --> 0:10:2,000
+est que lorsqu'ils apprennent l'anglais de cette façon,
+
+217
+0:10:20.93,000 --> 0:10:22,000
+ils l'apprennent avec la même compétence
+
+218
+0:10:23.573,000 --> 0:10:26,000
+que leur langue maternelle.
+
+219
+0:10:27.291,000 --> 0:10:3,000
+Très bien, parlons de quelque chose d'autre.
+
+220
+0:10:31.107,000 --> 0:10:32,000
+Parlons de la parole.
+
+221
+0:10:33.104,000 --> 0:10:34,000
+Ceci est la parole.
+
+222
+0:10:34.375,000 --> 0:10:37,000
+La parole est le premier mode de communication délivré entre nous tous.
+
+223
+0:10:37.95,000 --> 0:10:38,000
+Ce qu'il y a d'intéressant avec la parole,
+
+224
+0:10:39.805,000 --> 0:10:41,000
+c'est qu'elle est unidimensionnelle. Pourquoi ?
+
+225
+0:10:42.43,000 --> 0:10:43,000
+Parce que c'est du son.
+
+226
+0:10:43.977,000 --> 0:10:45,000
+Parce que nos bouches sont faites de cette manière.
+
+227
+0:10:46.946,000 --> 0:10:49,000
+Nos bouches sont faites pour créer un son unidimensionnel.
+
+228
+0:10:50.233,000 --> 0:10:54,000
+Mais si vous pensez au cerveau, les pensées que nous avons dans nos têtes
+
+229
+0:10:55.139,000 --> 0:10:56,000
+ne sont pas unidimensionnelles.
+
+230
+0:10:56.965,000 --> 0:11:,000
+C'est-à-dire que nous avons ces idées riches, compliquées, multidimensionnelles.
+
+231
+0:11:01.474,000 --> 0:11:02,000
+Il me semble que le langage
+
+232
+0:11:03.142,000 --> 0:11:05,000
+est vraiment une invention du cerveau
+
+233
+0:11:05.474,000 --> 0:11:08,000
+pour convertir cette pensée riche, multidimensionnelle
+
+234
+0:11:08.57,000 --> 0:11:09,000
+d'une part,
+
+235
+0:11:10.157,000 --> 0:11:11,000
+en parole d'autre part.
+
+236
+0:11:12.08,000 --> 0:11:13,000
+Ce qui est intéressant est que
+
+237
+0:11:13.682,000 --> 0:11:15,000
+l'on travaille beaucoup avec l'information de nos jours,
+
+238
+0:11:16.63,000 --> 0:11:18,000
+presque tout cela est fait dans le domaine du langage.
+
+239
+0:11:19.489,000 --> 0:11:2,000
+Prenez Google, par exemple.
+
+240
+0:11:21.428,000 --> 0:11:23,000
+Google brasse ces innombrables milliards de sites web,
+
+241
+0:11:24.385,000 --> 0:11:26,000
+tous sont en anglais, quand vous utilisez Google,
+
+242
+0:11:27.03,000 --> 0:11:29,000
+vous allez sur Google, vous tapez en anglais,
+
+243
+0:11:29.76,000 --> 0:11:32,000
+et il fait correspondre l'anglais avec l'anglais.
+
+244
+0:11:33.443,000 --> 0:11:36,000
+Si on le faisait plutôt avec FreeSpeech ?
+
+245
+0:11:37.026,000 --> 0:11:38,000
+Je suspecte que si nous le faisions,
+
+246
+0:11:38.997,000 --> 0:11:4,000
+on trouverait que les algorithmes comme « rechercher »,
+
+247
+0:11:41.825,000 --> 0:11:43,000
+comme l'extraction, toutes ces choses,
+
+248
+0:11:44.03,000 --> 0:11:46,000
+seraient plus simples et aussi plus efficaces,
+
+249
+0:11:46.795,000 --> 0:11:5,000
+parce qu'ils ne traitent pas la structure des données de la parole.
+
+250
+0:11:51.212,000 --> 0:11:56,000
+En revanche, ils traitent la structure des données de la pensée.
+
+251
+0:11:57.188,000 --> 0:11:59,000
+La structure des données de la pensée.
+
+252
+0:11:59.996,000 --> 0:12:01,000
+C'est une idée provocante.
+
+253
+0:12:02.072,000 --> 0:12:04,000
+Mais regardons-la plus en détails.
+
+254
+0:12:04.214,000 --> 0:12:06,000
+Ceci est l'écosystème « FreeSpeech ».
+
+255
+0:12:06.58,000 --> 0:12:08,000
+On a la représentation de « FreeSpeech » d'une part,
+
+256
+0:12:09.464,000 --> 0:12:11,000
+et la machine « FreeSpeech », qui génère l'anglais.
+
+257
+0:12:12.012,000 --> 0:12:13,000
+Si vous y réfléchissez,
+
+258
+0:12:13.419,000 --> 0:12:15,000
+« FreeSpeech » est complètement indépendant du langage.
+
+259
+0:12:16.183,000 --> 0:12:19,000
+Il ne contient aucune information spécifique en anglais.
+
+260
+0:12:19.28,000 --> 0:12:21,000
+Tout ce que ce système sait à propos de l'anglais
+
+261
+0:12:22.078,000 --> 0:12:26,000
+est en fait codé dans l'application.
+
+262
+0:12:26.698,000 --> 0:12:28,000
+C'est un concept assez intéressant.
+
+263
+0:12:28.935,000 --> 0:12:31,000
+On encode l'ensemble d'un langage humain
+
+264
+0:12:32.539,000 --> 0:12:34,000
+dans le programme d'un logiciel.
+
+265
+0:12:35.184,000 --> 0:12:37,000
+Mais si vous regardez à l'intérieur de cette machine,
+
+266
+0:12:38.085,000 --> 0:12:39,000
+en fait, ce n'est pas très compliqué.
+
+267
+0:12:40.073,000 --> 0:12:42,000
+Ce n'est pas un code très compliqué.
+
+268
+0:12:42.178,000 --> 0:12:44,000
+Ce qui est encore plus intéressant est le fait que
+
+269
+0:12:44.85,000 --> 0:12:46,000
+la plus grande majorité du code dans cette machine
+
+270
+0:12:47.493,000 --> 0:12:49,000
+n'est pas vraiment spécifique à l'anglais.
+
+271
+0:12:49.815,000 --> 0:12:52,000
+Cela donne cette idée intéressante. Il serait très facile pour nous
+
+272
+0:12:53.41,000 --> 0:12:56,000
+de créer ces machines dans pleins pleins de langues différentes,
+
+273
+0:12:57.224,000 --> 0:13:03,000
+en Hindi, en Français, en Allemand, en Swahili.
+
+274
+0:13:03.578,000 --> 0:13:05,000
+Cela donne une autre idée intéressante.
+
+275
+0:13:06.377,000 --> 0:13:08,000
+Par exemple, en supposant que je sois écrivain
+
+276
+0:13:09.031,000 --> 0:13:11,000
+disons, pour un journal ou un magazine.
+
+277
+0:13:11.153,000 --> 0:13:16,000
+Je pourrais créer un contenu en un seul langage : « FreeSpeech ».
+
+278
+0:13:16.164,000 --> 0:13:18,000
+Et la personne qui achète le contenu,
+
+279
+0:13:18.22,000 --> 0:13:21,000
+qui lit cette information particulière,
+
+280
+0:13:21.281,000 --> 0:13:23,000
+pourrait choisir n'importe quelle machine,
+
+281
+0:13:23.776,000 --> 0:13:25,000
+et le lire dans sa langue maternelle,
+
+282
+0:13:26.512,000 --> 0:13:29,000
+dans sa langue d'origine.
+
+283
+0:13:30.451,000 --> 0:13:32,000
+C'est une idée incroyablement tentante,
+
+284
+0:13:33.173,000 --> 0:13:34,000
+surtout pour l'Inde.
+
+285
+0:13:35.172,000 --> 0:13:36,000
+Nous avons tant de langues.
+
+286
+0:13:36.862,000 --> 0:13:4,000
+Il y a une chanson sur l'Inde, où il y a une description du pays comme,
+
+287
+0:13:41.348,000 --> 0:13:43,000
+ça dit, (en Sanskrit)
+
+288
+0:13:43.708,000 --> 0:13:5,000
+Cela signifie « toujours souriant parleur de beaux langages ».
+
+289
+0:13:51.021,000 --> 0:13:52,000
+Le langage est magnifique.
+
+290
+0:13:52.754,000 --> 0:13:54,000
+Je pense que c'est la plus belle création humaine,
+
+291
+0:13:55.418,000 --> 0:13:58,000
+la chose la plus charmante que notre cerveau ait inventée.
+
+292
+0:13:59.396,000 --> 0:14:02,000
+Il divertit, il éduque, il illumine,
+
+293
+0:14:02.72,000 --> 0:14:04,000
+mais ce que j'aime le plus avec le langage
+
+294
+0:14:05.274,000 --> 0:14:06,000
+c'est qu'il donne du pouvoir.
+
+295
+0:14:06.894,000 --> 0:14:07,000
+Je veux vous quitter avec cela.
+
+296
+0:14:08.552,000 --> 0:14:1,000
+C'est une photo de mes collègues, mes premiers collègues
+
+297
+0:14:11.507,000 --> 0:14:14,000
+quand j'ai commencé à travailler sur le langage, l'autisme et autres choses.
+
+298
+0:14:15.236,000 --> 0:14:17,000
+La fille s'appelle Pavna, et voici sa mère, Kalpana.
+
+299
+0:14:18.065,000 --> 0:14:19,000
+Pavna est une femme d'affaires,
+
+300
+0:14:19.965,000 --> 0:14:21,000
+son histoire est beaucoup plus remarquable que la mienne,
+
+301
+0:14:22.786,000 --> 0:14:24,000
+car elle a environ 23 ans.
+
+302
+0:14:24.936,000 --> 0:14:26,000
+Elle a une paralysie cérébrale tétraplégique,
+
+303
+0:14:27.488,000 --> 0:14:28,000
+donc depuis sa naissance,
+
+304
+0:14:29.128,000 --> 0:14:32,000
+elle n'a jamais pu bouger ni parler.
+
+305
+0:14:32.728,000 --> 0:14:34,000
+Tout ce qu'elle a accompli jusqu'à maintenant,
+
+306
+0:14:35.131,000 --> 0:14:37,000
+finir l'école, aller à l'université,
+
+307
+0:14:37.358,000 --> 0:14:38,000
+démarrer une entreprise,
+
+308
+0:14:38.774,000 --> 0:14:4,000
+collaborer avec moi pour développer Avaz,
+
+309
+0:14:40.914,000 --> 0:14:41,000
+toutes ces choses qu'elle a faites
+
+310
+0:14:42.806,000 --> 0:14:47,000
+avec rien de plus que bouger ses yeux.
+
+311
+0:14:48.969,000 --> 0:14:5,000
+Daniel Webster a dit ceci :
+
+312
+0:14:51.018,000 --> 0:14:53,000
+« Si tous mes biens m'étaient pris
+
+313
+0:14:53.958,000 --> 0:14:55,000
+à une exception près,
+
+314
+0:14:56.946,000 --> 0:14:58,000
+je choisirais de garder le pouvoir de communiquer
+
+315
+0:14:59.927,000 --> 0:15:02,000
+avec ceci, je pourrais retrouver tout le reste. »
+
+316
+0:15:03.83,000 --> 0:15:08,000
+C'est pourquoi, de toutes ces applications incroyables de « FreeSpeech »,
+
+317
+0:15:08.946,000 --> 0:15:1,000
+celle qui est la plus chère à mon cœur,
+
+318
+0:15:11.026,000 --> 0:15:13,000
+est celle qui laisse encore la possibilité
+
+319
+0:15:13.354,000 --> 0:15:15,000
+de redonner aux enfants handicapés
+
+320
+0:15:15.474,000 --> 0:15:16,000
+la capacité de communiquer,
+
+321
+0:15:17.247,000 --> 0:15:18,000
+le pouvoir de la communication,
+
+322
+0:15:19.036,000 --> 0:15:21,000
+pour récupérer tout le reste.
+
+323
+0:15:21.276,000 --> 0:15:22,000
+Merci.
+
+324
+0:15:22.673,000 --> 0:15:23,000
+(Applaudissements)
+
+325
+0:15:24.005,000 --> 0:15:28,000
+Merci. (Applaudissements)
+
+326
+0:15:28.204,000 --> 0:15:33,000
+Merci. Merci. Merci. (Applaudissements)
+
+327
+0:15:33.527,000 --> 0:15:37,000
+Merci. Merci. Merci. (Applaudissements)
+

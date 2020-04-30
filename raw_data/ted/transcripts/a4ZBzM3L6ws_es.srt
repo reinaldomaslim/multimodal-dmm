@@ -1,0 +1,460 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Olivia Rzepczynski Revisor: --Galena-- PTS
+
+2
+0:00:13.081,000 --> 0:00:15,000
+Según la ONU,
+
+3
+0:00:15.111,000 --> 0:00:18,000
+miles de millones de personas aún viven sin una dirección.
+
+4
+0:00:19.154,000 --> 0:00:21,000
+El economista Hernando de Soto dijo:
+
+5
+0:00:21.459,000 --> 0:00:22,000
+"Sin una dirección,
+
+6
+0:00:22.841,000 --> 0:00:23,000
+vives fuera de la ley,
+
+7
+0:00:24.767,000 --> 0:00:25,000
+incluso puede que no existas".
+
+8
+0:00:27.679,000 --> 0:00:28,000
+Estoy aquí para contarles cómo
+
+9
+0:00:29.296,000 --> 0:00:31,000
+mi equipo y yo estamos intentando cambiar eso.
+
+10
+0:00:31.986,000 --> 0:00:34,000
+Si usan un mapa en línea y buscan una favela en Brasil
+
+11
+0:00:35.226,000 --> 0:00:36,000
+o un pueblo en Sudáfrica,
+
+12
+0:00:37.074,000 --> 0:00:39,000
+verán algunas calles pero mucho espacio vacío.
+
+13
+0:00:40.678,000 --> 0:00:42,000
+Pero si cambian a la vista satelital,
+
+14
+0:00:42.845,000 --> 0:00:45,000
+hay miles de personas, hogares y empresas
+
+15
+0:00:45.983,000 --> 0:00:48,000
+en esos enormes espacios que no figuran en el mapa ni tienen direcciones.
+
+16
+0:00:49.551,000 --> 0:00:5,000
+En Acra, la capital de Ghana,
+
+17
+0:00:51.435,000 --> 0:00:54,000
+se encuentran números y letras garabateados en las paredes,
+
+18
+0:00:54.538,000 --> 0:00:56,000
+donde han puesto a prueba sistemas de direcciones,
+
+19
+0:00:57.163,000 --> 0:01:,000
+pero no han terminado de implementarlos.
+
+20
+0:01:00.163,000 --> 0:01:03,000
+Pero estos lugares que carecen de direcciones
+
+21
+0:01:03.323,000 --> 0:01:05,000
+presentan un enorme potencial económico.
+
+22
+0:01:06.651,000 --> 0:01:07,000
+Así es como llegué a interesarme
+
+23
+0:01:08.201,000 --> 0:01:1,000
+por el problema del sistema de direcciones.
+
+24
+0:01:10.293,000 --> 0:01:12,000
+Trabajé en el mundo de la música durante 10 años,
+
+25
+0:01:12.705,000 --> 0:01:14,000
+y lo que quizá no sepan sobre el mundo de la música
+
+26
+0:01:15.479,000 --> 0:01:19,000
+es que, todos los días, se enfrentan problemas con el sistema de direcciones
+
+27
+0:01:19.581,000 --> 0:01:22,000
+desde los músicos que deben encontrar los locales donde tocarán
+
+28
+0:01:22.581,000 --> 0:01:24,000
+hasta las productoras que llevan los equipos,
+
+29
+0:01:24.688,000 --> 0:01:26,000
+de alguna manera todos siempre se extravían
+
+30
+0:01:26.797,000 --> 0:01:28,000
+y tuvimos que incluir a alguien en nuestra agenda
+
+31
+0:01:29.324,000 --> 0:01:31,000
+a quién llamar cuando pensábamos que habíamos llegado,
+
+32
+0:01:32.12,000 --> 0:01:33,000
+para darnos cuenta de que no,
+
+33
+0:01:33.991,000 --> 0:01:35,000
+y tuvimos algunos días bastante complicados.
+
+34
+0:01:36.034,000 --> 0:01:38,000
+En Italia, un camionero descargó todos los equipos
+
+35
+0:01:38.458,000 --> 0:01:4,000
+a una hora al norte de Roma, no a una hora al sur de Roma,
+
+36
+0:01:41.283,000 --> 0:01:43,000
+o un día un poco peor, cuando un tecladista me llamó y me dijo:
+
+37
+0:01:44.248,000 --> 0:01:45,000
+"Chris, no te asustes, pero
+
+38
+0:01:45.871,000 --> 0:01:46,000
+es posible que haya sido la boda equivocada".
+
+39
+0:01:47.741,000 --> 0:01:48,000
+(Risas)
+
+40
+0:01:49.697,000 --> 0:01:51,000
+Poco después del desafortunado evento de Roma,
+
+41
+0:01:51.857,000 --> 0:01:53,000
+hablé sobre este tema con un amigo matemático,
+
+42
+0:01:54.977,000 --> 0:01:56,000
+y pensamos que era un problema que podíamos resolver.
+
+43
+0:01:58.365,000 --> 0:02:,000
+Pensamos que podíamos crear un nuevo sistema
+
+44
+0:02:01.105,000 --> 0:02:02,000
+pero que no se pareciera al antiguo.
+
+45
+0:02:03.313,000 --> 0:02:05,000
+Estábamos de acuerdo en que las direcciones eran deficientes.
+
+46
+0:02:06.193,000 --> 0:02:07,000
+Sabíamos que deseábamos algo muy preciso,
+
+47
+0:02:08.224,000 --> 0:02:1,000
+pero que las coordenadas de GPS, latitud y longitud,
+
+48
+0:02:10.834,000 --> 0:02:11,000
+eran demasiado complicadas.
+
+49
+0:02:12.978,000 --> 0:02:14,000
+Entonces dividimos al mundo en cuadrados de 3 metros.
+
+50
+0:02:15.852,000 --> 0:02:19,000
+El mundo se dividía en aproximadamente 57 billones de cuadrados de 3 metros,
+
+51
+0:02:20.521,000 --> 0:02:22,000
+y descubrimos que existían suficientes combinaciones
+
+52
+0:02:22.972,000 --> 0:02:23,000
+de 3 palabras del diccionario
+
+53
+0:02:24.742,000 --> 0:02:26,000
+para asignar nombres a cada cuadrado de 3 metros en el mundo,
+
+54
+0:02:27.597,000 --> 0:02:29,000
+de manera exclusiva, con solo 3 palabras.
+
+55
+0:02:30.457,000 --> 0:02:32,000
+Usamos 40 000 palabras, lo que implica 40 000 al cubo;
+
+56
+0:02:33.257,000 --> 0:02:35,000
+64 billones de combinaciones de 3 palabras,
+
+57
+0:02:35.304,000 --> 0:02:4,000
+lo que es más que suficiente para los 57 billones de cuadrados de 3 metros,
+
+58
+0:02:40.931,000 --> 0:02:41,000
+con algunos de repuesto
+
+59
+0:02:42.892,000 --> 0:02:43,000
+y eso fue exactamente lo que hicimos:
+
+60
+0:02:45.015,000 --> 0:02:47,000
+dividimos al mundo en cuadrados de 3 metros
+
+61
+0:02:47.454,000 --> 0:02:5,000
+y les asignamos a cada uno un identificador exclusivo de 3 palabras,
+
+62
+0:02:50.949,000 --> 0:02:52,000
+lo que llamamos una dirección de 3 palabras,
+
+63
+0:02:53.379,000 --> 0:02:54,000
+por ejemplo, justo aquí me encuentro
+
+64
+0:02:55.889,000 --> 0:02:57,000
+en mustards.coupons.pinup.
+
+65
+0:02:58.619,000 --> 0:02:58,000
+(Risas)
+
+66
+0:03:00.02,000 --> 0:03:01,000
+Pero aquí,
+
+67
+0:03:02.05,000 --> 0:03:05,000
+me encuentro en pinched.singularly.tutorial.
+
+68
+0:03:09.13,000 --> 0:03:11,000
+Pero no hemos hecho esto solo en inglés,
+
+69
+0:03:11.15,000 --> 0:03:13,000
+consideramos que era esencial que las personas
+
+70
+0:03:13.542,000 --> 0:03:15,000
+pudieran usar este sistema en su propio idioma.
+
+71
+0:03:15.992,000 --> 0:03:17,000
+Hasta ahora, lo hemos creado en 14 idiomas,
+
+72
+0:03:18.09,000 --> 0:03:19,000
+incluso en francés, suajili y árabe,
+
+73
+0:03:20.4,000 --> 0:03:22,000
+y ahora estamos trabajando para agregar xhosa, zulú e hindi.
+
+74
+0:03:25.158,000 --> 0:03:27,000
+No obstante, esta idea puede lograr mucho más
+
+75
+0:03:27.318,000 --> 0:03:3,000
+que solo permitir que mis músicos lleguen a tiempo a los locales donde tocarán.
+
+76
+0:03:30.816,000 --> 0:03:33,000
+Si el 75 % de los países que carecen de un sistema de direcciones confiable
+
+77
+0:03:34.546,000 --> 0:03:36,000
+empezarán a usar direcciones de 3 palabras,
+
+78
+0:03:36.796,000 --> 0:03:38,000
+descubrirían un montón de aplicaciones mucho más importantes.
+
+79
+0:03:40.026,000 --> 0:03:42,000
+En Durban, Sudáfrica,
+
+80
+0:03:42.366,000 --> 0:03:43,000
+una ONG llamada Gateway Health
+
+81
+0:03:43.835,000 --> 0:03:45,000
+ha distribuido 11 000 señales de direcciones de 3 palabras
+
+82
+0:03:47.135,000 --> 0:03:47,000
+a su comunidad,
+
+83
+0:03:47.993,000 --> 0:03:48,000
+de esta manera, las madres embarazadas
+
+84
+0:03:49.833,000 --> 0:03:5,000
+al ponerse de parto,
+
+85
+0:03:50.871,000 --> 0:03:51,000
+pueden llamar al servicio de emergencias
+
+86
+0:03:52.821,000 --> 0:03:54,000
+e indicarle con precisión dónde debe buscarlas,
+
+87
+0:03:55.019,000 --> 0:03:57,000
+porque, de otro modo, a las ambulancias generalmente
+
+88
+0:03:57.459,000 --> 0:03:58,000
+les habría llevado horas encontrarlas.
+
+89
+0:03:59.217,000 --> 0:04:01,000
+En Mongolia, el servicio postal nacional ha adoptado el sistema
+
+90
+0:04:02.168,000 --> 0:04:05,000
+y ahora realiza entregas a muchos hogares por primera vez.
+
+91
+0:04:06.161,000 --> 0:04:09,000
+La ONU lo usa para geoetiquetar fotos en zonas de desastre
+
+92
+0:04:09.861,000 --> 0:04:11,000
+para poder llevar ayuda exactamente al lugar correcto,
+
+93
+0:04:12.561,000 --> 0:04:14,000
+incluso Domino's Pizza lo usa en el Caribe,
+
+94
+0:04:15.141,000 --> 0:04:17,000
+porque no ha podido encontrar los hogares de los clientes,
+
+95
+0:04:17.911,000 --> 0:04:2,000
+pero realmente desea entregarles sus pizzas mientras aún estén calientes.
+
+96
+0:04:21.731,000 --> 0:04:24,000
+En breve, podrás entrar a un auto, decir las tres palabras
+
+97
+0:04:26.032,000 --> 0:04:28,000
+y el vehículo te llevará al lugar exacto.
+
+98
+0:04:29.781,000 --> 0:04:31,000
+En África, el continente ha dejado atrás las líneas telefónicas
+
+99
+0:04:32.736,000 --> 0:04:33,000
+y las ha reemplazado por móviles,
+
+100
+0:04:34.416,000 --> 0:04:36,000
+y ha pasado por alto los bancos tradicionales
+
+101
+0:04:36.517,000 --> 0:04:37,000
+para ir directamente a los pagos móviles.
+
+102
+0:04:39.295,000 --> 0:04:41,000
+Realmente nos enorgullece que los servicios postales
+
+103
+0:04:41.876,000 --> 0:04:43,000
+de 3 países africanos: Nigeria, Yibuti y Costa de Marfil,
+
+104
+0:04:44.599,000 --> 0:04:47,000
+hayan pasado directamente a la adopción de las direcciones de 3 palabras
+
+105
+0:04:48.001,000 --> 0:04:5,000
+lo cual significa que en esos países hoy en día
+
+106
+0:04:50.601,000 --> 0:04:53,000
+las personas tienen una manera realmente sencilla de explicar dónde viven.
+
+107
+0:04:55.172,000 --> 0:04:58,000
+Para mí, un sistema de direcciones deficiente era una frustración molesta,
+
+108
+0:04:58.868,000 --> 0:04:59,000
+pero para miles de millones de personas significa
+
+109
+0:05:01.399,000 --> 0:05:03,000
+una enorme ineficiencia comercial,
+
+110
+0:05:03.825,000 --> 0:05:05,000
+obstaculiza seriamente su crecimiento en infraestructura
+
+111
+0:05:06.602,000 --> 0:05:07,000
+y puede costar vidas.
+
+112
+0:05:08.837,000 --> 0:05:09,000
+Tenemos la misión de cambiarlo,
+
+113
+0:05:10.51,000 --> 0:05:11,000
+con 3 palabras a la vez.
+
+114
+0:05:11.729,000 --> 0:05:12,000
+Gracias.
+
+115
+0:05:12.903,000 --> 0:05:14,000
+(Aplausos)
+

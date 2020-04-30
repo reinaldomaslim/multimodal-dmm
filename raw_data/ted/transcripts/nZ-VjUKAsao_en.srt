@@ -1,0 +1,552 @@
+1
+0:00:12.906,000 --> 0:00:14,000
+I've been intrigued by this question
+
+2
+0:00:15.091,000 --> 0:00:19,000
+of whether we could evolve or develop a sixth sense --
+
+3
+0:00:19.542,000 --> 0:00:22,000
+a sense that would give us seamless access
+
+4
+0:00:23.16,000 --> 0:00:28,000
+and easy access to meta-information or information that may exist somewhere
+
+5
+0:00:29.16,000 --> 0:00:31,000
+that may be relevant to help us make the right decision
+
+6
+0:00:32.16,000 --> 0:00:35,000
+about whatever it is that we're coming across.
+
+7
+0:00:36.024,000 --> 0:00:38,000
+And some of you may argue,
+
+8
+0:00:38.16,000 --> 0:00:41,000
+"Well, don't today's cell phones do that already?"
+
+9
+0:00:41.446,000 --> 0:00:42,000
+But I would say no.
+
+10
+0:00:43.16,000 --> 0:00:44,000
+When you meet someone here at TED --
+
+11
+0:00:45.16,000 --> 0:00:49,000
+and this is the top networking place, of course, of the year --
+
+12
+0:00:49.223,000 --> 0:00:5,000
+you don't shake somebody's hand
+
+13
+0:00:51.105,000 --> 0:00:53,000
+and then say, "Can you hold on for a moment
+
+14
+0:00:53.16,000 --> 0:00:56,000
+while I take out my phone and Google you?"
+
+15
+0:00:56.27,000 --> 0:00:58,000
+Or when you go to the supermarket
+
+16
+0:00:59.16,000 --> 0:01:01,000
+and you're standing there in that huge aisle
+
+17
+0:01:01.993,000 --> 0:01:03,000
+of different types of toilet papers,
+
+18
+0:01:04.533,000 --> 0:01:07,000
+you don't take out your cell phone, and open a browser,
+
+19
+0:01:08.16,000 --> 0:01:12,000
+and go to a website to try to decide which of these different toilet papers
+
+20
+0:01:13.16,000 --> 0:01:17,000
+is the most ecologically responsible purchase to make.
+
+21
+0:01:17.244,000 --> 0:01:2,000
+So we don't really have easy access to all this relevant information
+
+22
+0:01:21.16,000 --> 0:01:24,000
+that can just help us make optimal decisions
+
+23
+0:01:25.154,000 --> 0:01:28,000
+about what to do next and what actions to take.
+
+24
+0:01:28.331,000 --> 0:01:3,000
+And so my research group at the Media Lab
+
+25
+0:01:31.16,000 --> 0:01:35,000
+has been developing a series of inventions
+
+26
+0:01:36.044,000 --> 0:01:4,000
+to give us access to this information in a sort of easy way,
+
+27
+0:01:40.645,000 --> 0:01:44,000
+without requiring that the user changes any of their behavior.
+
+28
+0:01:45.641,000 --> 0:01:49,000
+And I'm here to unveil our latest effort,
+
+29
+0:01:50.16,000 --> 0:01:51,000
+and most successful effort so far,
+
+30
+0:01:52.16,000 --> 0:01:54,000
+which is still very much a work in process.
+
+31
+0:01:54.994,000 --> 0:01:59,000
+I'm actually wearing the device right now and we've sort of cobbled it together
+
+32
+0:02:00.16,000 --> 0:02:03,000
+with components that are off the shelf --
+
+33
+0:02:03.842,000 --> 0:02:07,000
+and that, by the way, only cost 350 dollars at this point in time.
+
+34
+0:02:08.762,000 --> 0:02:11,000
+I'm wearing a camera, just a simple web cam,
+
+35
+0:02:12.742,000 --> 0:02:17,000
+a portable, battery-powered projection system with a little mirror.
+
+36
+0:02:18.514,000 --> 0:02:22,000
+These components communicate to my cell phone in my pocket
+
+37
+0:02:22.609,000 --> 0:02:26,000
+which acts as the communication and computation device.
+
+38
+0:02:26.914,000 --> 0:02:29,000
+And in the video here we see my student Pranav Mistry,
+
+39
+0:02:30.858,000 --> 0:02:32,000
+who's really the genius who's been implementing
+
+40
+0:02:33.16,000 --> 0:02:35,000
+and designing this whole system.
+
+41
+0:02:35.551,000 --> 0:02:4,000
+And we see how this system lets him walk up to any surface
+
+42
+0:02:41.16,000 --> 0:02:44,000
+and start using his hands to interact with the information
+
+43
+0:02:45.16,000 --> 0:02:47,000
+that is projected in front of him.
+
+44
+0:02:47.876,000 --> 0:02:51,000
+The system tracks the four significant fingers.
+
+45
+0:02:51.998,000 --> 0:02:54,000
+In this case, he's wearing simple marker caps
+
+46
+0:02:55.688,000 --> 0:02:56,000
+that you may recognize.
+
+47
+0:02:57.16,000 --> 0:02:59,000
+But if you want a more stylish version,
+
+48
+0:02:59.874,000 --> 0:03:02,000
+you could also paint your nails in different colors.
+
+49
+0:03:03.575,000 --> 0:03:06,000
+And the camera basically tracks these four fingers
+
+50
+0:03:07.16,000 --> 0:03:1,000
+and recognizes any gestures that he's making
+
+51
+0:03:11.023,000 --> 0:03:15,000
+so he can just go to, for example, a map of Long Beach,
+
+52
+0:03:15.549,000 --> 0:03:17,000
+zoom in and out, etc.
+
+53
+0:03:17.811,000 --> 0:03:23,000
+The system also recognizes iconic gestures such as the "take a picture" gesture,
+
+54
+0:03:23.929,000 --> 0:03:26,000
+and then takes a picture of whatever is in front of you.
+
+55
+0:03:27.371,000 --> 0:03:29,000
+And when he then walks back to the Media Lab,
+
+56
+0:03:30.16,000 --> 0:03:32,000
+he can just go up to any wall
+
+57
+0:03:32.629,000 --> 0:03:34,000
+and project all the pictures that he's taken,
+
+58
+0:03:35.565,000 --> 0:03:38,000
+sort through them and organize them, and re-size them, etc.,
+
+59
+0:03:39.16,000 --> 0:03:42,000
+again using all natural gestures.
+
+60
+0:03:43.008,000 --> 0:03:47,000
+So, some of you most likely were here two years ago
+
+61
+0:03:47.091,000 --> 0:03:51,000
+and saw the demo by Jeff Han, or some of you may think,
+
+62
+0:03:51.369,000 --> 0:03:54,000
+"Well, doesn't this look like the Microsoft Surface Table?"
+
+63
+0:03:54.764,000 --> 0:03:58,000
+And yes, you also interact using natural gestures,
+
+64
+0:03:59.16,000 --> 0:04:,000
+both hands, etc.
+
+65
+0:04:01.16,000 --> 0:04:03,000
+But the difference here is that you can use any surface,
+
+66
+0:04:04.16,000 --> 0:04:06,000
+you can walk up to any surface,
+
+67
+0:04:07.16,000 --> 0:04:09,000
+including your hand, if nothing else is available,
+
+68
+0:04:10.16,000 --> 0:04:13,000
+and interact with this projected data.
+
+69
+0:04:13.681,000 --> 0:04:17,000
+The device is completely portable, and can be --
+
+70
+0:04:18.16,000 --> 0:04:2,000
+(Applause)
+
+71
+0:04:23.728,000 --> 0:04:24,000
+(Applause ends)
+
+72
+0:04:25.565,000 --> 0:04:28,000
+So, one important difference is that it's totally mobile.
+
+73
+0:04:29.16,000 --> 0:04:33,000
+Another even more important difference is that in mass production,
+
+74
+0:04:33.918,000 --> 0:04:36,000
+this would not cost more tomorrow than today's cell phones
+
+75
+0:04:37.607,000 --> 0:04:4,000
+and would actually not sort of be a bigger packaging --
+
+76
+0:04:41.609,000 --> 0:04:43,000
+could look a lot more stylish
+
+77
+0:04:43.655,000 --> 0:04:46,000
+than this version that I'm wearing around my neck.
+
+78
+0:04:48.293,000 --> 0:04:52,000
+But other than letting some of you live out your fantasy
+
+79
+0:04:53.063,000 --> 0:04:56,000
+of looking as cool as Tom Cruise in "Minority Report,"
+
+80
+0:04:57.018,000 --> 0:05:01,000
+the reason why we're really excited about this device
+
+81
+0:05:01.06,000 --> 0:05:06,000
+is that it really can act as one of these sixth-sense devices
+
+82
+0:05:06.916,000 --> 0:05:11,000
+that gives you relevant information about whatever is in front of you.
+
+83
+0:05:12.192,000 --> 0:05:15,000
+So we see Pranav here going into the supermarket
+
+84
+0:05:16.16,000 --> 0:05:19,000
+and he's shopping for some paper towels.
+
+85
+0:05:19.524,000 --> 0:05:2,000
+And, as he picks up a product,
+
+86
+0:05:21.452,000 --> 0:05:24,000
+the system can recognize the product that he's picking up,
+
+87
+0:05:24.53,000 --> 0:05:28,000
+using either image recognition or marker technology,
+
+88
+0:05:28.79,000 --> 0:05:3,000
+and give him the green light or an orange light.
+
+89
+0:05:31.788,000 --> 0:05:33,000
+He can ask for additional information.
+
+90
+0:05:34.722,000 --> 0:05:37,000
+So this particular choice here
+
+91
+0:05:38.507,000 --> 0:05:41,000
+is a particularly good choice, given his personal criteria.
+
+92
+0:05:42.16,000 --> 0:05:45,000
+Some of you may want the toilet paper with the most bleach in it
+
+93
+0:05:46.16,000 --> 0:05:49,000
+rather than the most ecologically responsible choice.
+
+94
+0:05:49.755,000 --> 0:05:52,000
+(Laughter)
+
+95
+0:05:52.932,000 --> 0:05:56,000
+If he picks up a book in the bookstore, he can get an Amazon rating --
+
+96
+0:05:57.664,000 --> 0:05:59,000
+it gets projected right on the cover of the book.
+
+97
+0:06:00.3,000 --> 0:06:03,000
+This is Juan's book, our previous speaker,
+
+98
+0:06:04.16,000 --> 0:06:06,000
+which gets a great rating, by the way, at Amazon.
+
+99
+0:06:06.892,000 --> 0:06:08,000
+And so, Pranav turns the page of the book
+
+100
+0:06:09.16,000 --> 0:06:12,000
+and can then see additional information about the book --
+
+101
+0:06:12.916,000 --> 0:06:18,000
+reader comments, maybe sort of information by his favorite critic, etc.
+
+102
+0:06:19.16,000 --> 0:06:2,000
+If he turns to a particular page,
+
+103
+0:06:21.16,000 --> 0:06:25,000
+he finds an annotation by maybe an expert or a friend of ours
+
+104
+0:06:25.477,000 --> 0:06:27,000
+that gives him a little bit of additional information
+
+105
+0:06:28.323,000 --> 0:06:31,000
+about whatever is on that particular page.
+
+106
+0:06:31.372,000 --> 0:06:35,000
+Reading the newspaper -- it never has to be outdated.
+
+107
+0:06:35.773,000 --> 0:06:36,000
+(Laughter)
+
+108
+0:06:37.16,000 --> 0:06:41,000
+You can get video annotations of the events that you're reading about.
+
+109
+0:06:41.973,000 --> 0:06:44,000
+You can get the latest sports scores, etc.
+
+110
+0:06:46.044,000 --> 0:06:48,000
+This is a more controversial one.
+
+111
+0:06:48.16,000 --> 0:06:49,000
+(Laughter)
+
+112
+0:06:49.835,000 --> 0:06:51,000
+As you interact with someone at TED,
+
+113
+0:06:52.16,000 --> 0:06:55,000
+maybe you can see a word cloud of the tags,
+
+114
+0:06:56.16,000 --> 0:06:58,000
+the words that are associated with that person
+
+115
+0:06:58.912,000 --> 0:07:,000
+in their blog and personal web pages.
+
+116
+0:07:01.684,000 --> 0:07:06,000
+In this case, the student is interested in cameras, etc.
+
+117
+0:07:06.861,000 --> 0:07:07,000
+On your way to the airport,
+
+118
+0:07:08.841,000 --> 0:07:12,000
+if you pick up your boarding pass, it can tell you that your flight is delayed,
+
+119
+0:07:12.934,000 --> 0:07:14,000
+that the gate has changed, etc.
+
+120
+0:07:15.594,000 --> 0:07:18,000
+And, if you need to know what the current time is,
+
+121
+0:07:18.738,000 --> 0:07:21,000
+it's as simple as drawing a watch --
+
+122
+0:07:22.16,000 --> 0:07:23,000
+(Laughter)
+
+123
+0:07:23.389,000 --> 0:07:24,000
+(Applause)
+
+124
+0:07:24.548,000 --> 0:07:25,000
+on your arm.
+
+125
+0:07:27.774,000 --> 0:07:33,000
+So that's where we're at so far in developing this sixth sense
+
+126
+0:07:34.16,000 --> 0:07:38,000
+that would give us seamless access to all this relevant information
+
+127
+0:07:38.91,000 --> 0:07:4,000
+about the things that we may come across.
+
+128
+0:07:41.752,000 --> 0:07:45,000
+My student Pranav, who's really, like I said, the genius behind this.
+
+129
+0:07:46.17,000 --> 0:07:49,000
+(Applause and cheering)
+
+130
+0:08:07.005,000 --> 0:08:08,000
+(Applause ends)
+
+131
+0:08:08.16,000 --> 0:08:1,000
+He does deserve a lot of applause,
+
+132
+0:08:11.16,000 --> 0:08:15,000
+because I don't think he's slept much in the last three months, actually.
+
+133
+0:08:15.532,000 --> 0:08:18,000
+And his girlfriend is probably not very happy about him either.
+
+134
+0:08:18.958,000 --> 0:08:22,000
+But it's not perfect yet, it's very much a work in progress.
+
+135
+0:08:23.837,000 --> 0:08:25,000
+And who knows, maybe in another 10 years
+
+136
+0:08:26.794,000 --> 0:08:3,000
+we'll be here with the ultimate sixth sense brain implant.
+
+137
+0:08:31.16,000 --> 0:08:32,000
+Thank you.
+
+138
+0:08:32.231,000 --> 0:08:34,000
+(Applause)
+

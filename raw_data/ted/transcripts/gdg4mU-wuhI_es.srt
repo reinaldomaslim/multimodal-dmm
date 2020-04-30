@@ -1,0 +1,1808 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Francisco Gnecco
+
+2
+0:00:15.26,000 --> 0:00:18,000
+Generalmente trato
+
+3
+0:00:18.26,000 --> 0:00:2,000
+de explicarle a la gente
+
+4
+0:00:20.26,000 --> 0:00:23,000
+lo maravilloso que van a ser
+
+5
+0:00:23.26,000 --> 0:00:25,000
+las nuevas tecnologías que están surgiendo.
+
+6
+0:00:25.26,000 --> 0:00:28,000
+Hay que mirar hacia atrás
+
+7
+0:00:28.26,000 --> 0:00:32,000
+para entender lo que está ocurriendo.
+
+8
+0:00:32.26,000 --> 0:00:34,000
+Aquí entre amigos quiero contarles lo que pienso
+
+9
+0:00:34.26,000 --> 0:00:37,000
+de estos grandes avances tecnológicos,
+
+10
+0:00:37.26,000 --> 0:00:42,000
+tan vertiginosos
+
+11
+0:00:42.26,000 --> 0:00:45,000
+que apenas podemos seguirles el ritmo.
+
+12
+0:00:45.26,000 --> 0:00:47,000
+Empezaré mostrando
+
+13
+0:00:47.26,000 --> 0:00:5,000
+una diapositiva sobre tecnología, muy aburrida.
+
+14
+0:00:50.26,000 --> 0:00:53,000
+Por favor, si pueden ponerla...
+
+15
+0:00:56.26,000 --> 0:00:58,000
+Es un diagrama cualquiera
+
+16
+0:00:58.26,000 --> 0:01:,000
+que tomé de una carpeta mía.
+
+17
+0:01:00.26,000 --> 0:01:03,000
+No me interesa tanto mostrarles los detalles
+
+18
+0:01:03.26,000 --> 0:01:05,000
+sino el aspecto general.
+
+19
+0:01:05.26,000 --> 0:01:08,000
+Se trata de un análisis que estuvimos haciendo
+
+20
+0:01:08.26,000 --> 0:01:11,000
+sobre la potencia de los microprocesadores RISC
+
+21
+0:01:11.26,000 --> 0:01:14,000
+versus la potencia de las redes de área local.
+
+22
+0:01:14.26,000 --> 0:01:16,000
+Lo interesante de esto
+
+23
+0:01:16.26,000 --> 0:01:18,000
+es que ésta,
+
+24
+0:01:18.26,000 --> 0:01:21,000
+como muchas otras que solemos ver,
+
+25
+0:01:21.26,000 --> 0:01:23,000
+es una especie de línea recta
+
+26
+0:01:23.26,000 --> 0:01:25,000
+en escala logarítmica.
+
+27
+0:01:25.26,000 --> 0:01:27,000
+En otras palabras, cada paso de aquí
+
+28
+0:01:27.26,000 --> 0:01:29,000
+representa un orden de magnitud
+
+29
+0:01:29.26,000 --> 0:01:31,000
+en la escala de rendimiento.
+
+30
+0:01:31.26,000 --> 0:01:33,000
+Hablar de tecnología
+
+31
+0:01:33.26,000 --> 0:01:35,000
+con curvas semilogarítimicas
+
+32
+0:01:35.26,000 --> 0:01:37,000
+es algo novedoso.
+
+33
+0:01:37.26,000 --> 0:01:39,000
+Aquí ocurre algo extraño.
+
+34
+0:01:39.26,000 --> 0:01:42,000
+Y de eso precisamente voy a hablar.
+
+35
+0:01:42.26,000 --> 0:01:45,000
+Por favor, enciendan las luces.
+
+36
+0:01:47.26,000 --> 0:01:49,000
+Necesitaría más intensidad
+
+37
+0:01:49.26,000 --> 0:01:52,000
+porque escribiré sobre papel.
+
+38
+0:01:52.26,000 --> 0:01:54,000
+¿Por qué graficamos curvas tecnológicas
+
+39
+0:01:54.26,000 --> 0:01:56,000
+en escalas logarítmicas?
+
+40
+0:01:56.26,000 --> 0:01:59,000
+La respuesta es que si las dibujara en una curva normal
+
+41
+0:01:59.26,000 --> 0:02:01,000
+en la que, digamos, estos son los años,
+
+42
+0:02:01.26,000 --> 0:02:03,000
+o alguna unidad de tiempo,
+
+43
+0:02:03.26,000 --> 0:02:06,000
+y esto sería cualquier medida de la tecnología
+
+44
+0:02:06.26,000 --> 0:02:09,000
+que quisiera graficar,
+
+45
+0:02:09.26,000 --> 0:02:12,000
+el diagrama se vería algo ridículo.
+
+46
+0:02:12.26,000 --> 0:02:15,000
+Sería algo así,
+
+47
+0:02:15.26,000 --> 0:02:18,000
+que no dice mucho.
+
+48
+0:02:18.26,000 --> 0:02:21,000
+Pero si grafico, por ejemplo,
+
+49
+0:02:21.26,000 --> 0:02:23,000
+alguna otra tecnología, como el transporte,
+
+50
+0:02:23.26,000 --> 0:02:25,000
+en una curva semilogarítmica
+
+51
+0:02:25.26,000 --> 0:02:28,000
+sería muy tonto, veríamos una línea recta.
+
+52
+0:02:28.26,000 --> 0:02:3,000
+Pero si ocurre algo como esto,
+
+53
+0:02:30.26,000 --> 0:02:32,000
+se da un cambio cualitativo.
+
+54
+0:02:32.26,000 --> 0:02:34,000
+Si la tecnología del transporte
+
+55
+0:02:34.26,000 --> 0:02:37,000
+avanzara tan rápido como la de microprocesadores,
+
+56
+0:02:37.26,000 --> 0:02:39,000
+pasado mañana
+
+57
+0:02:39.26,000 --> 0:02:41,000
+podríamos tomar un taxi
+
+58
+0:02:41.26,000 --> 0:02:43,000
+y estar en Tokio en 30 segundos.
+
+59
+0:02:43.26,000 --> 0:02:45,000
+Pero no avanza a ese ritmo.
+
+60
+0:02:45.26,000 --> 0:02:47,000
+No hay precedentes
+
+61
+0:02:47.26,000 --> 0:02:49,000
+en la historia del desarrollo tecnológico
+
+62
+0:02:49.26,000 --> 0:02:51,000
+de un crecimiento retroalimentado
+
+63
+0:02:51.26,000 --> 0:02:54,000
+que cada pocos años avance órdenes de magnitud.
+
+64
+0:02:54.26,000 --> 0:02:57,000
+La cuestión que quiero plantear es...
+
+65
+0:02:57.26,000 --> 0:03:,000
+Mirando estas curvas exponenciales,
+
+66
+0:03:00.26,000 --> 0:03:03,000
+vemos que no siguen eternamente.
+
+67
+0:03:03.26,000 --> 0:03:06,000
+No es posible sostener este cambio
+
+68
+0:03:06.26,000 --> 0:03:08,000
+tan rápido como va.
+
+69
+0:03:08.26,000 --> 0:03:11,000
+Ocurrirá una de dos cosas.
+
+70
+0:03:11.26,000 --> 0:03:15,000
+O bien se convertirá en una típica curva S como esta
+
+71
+0:03:15.26,000 --> 0:03:19,000
+hasta que surja algo totalmente diferente,
+
+72
+0:03:19.26,000 --> 0:03:21,000
+o quizá hará algo así.
+
+73
+0:03:21.26,000 --> 0:03:23,000
+Eso es todo lo que puede pasar.
+
+74
+0:03:23.26,000 --> 0:03:25,000
+Soy optimista,
+
+75
+0:03:25.26,000 --> 0:03:28,000
+por eso creo que quizá ocurrirá algo así.
+
+76
+0:03:28.26,000 --> 0:03:31,000
+De ser así, ahora estaríamos en el medio
+
+77
+0:03:31.26,000 --> 0:03:33,000
+de una transición.
+
+78
+0:03:33.26,000 --> 0:03:35,000
+En esta línea estamos
+
+79
+0:03:35.26,000 --> 0:03:37,000
+en una transición de lo que solía ser el mundo,
+
+80
+0:03:37.26,000 --> 0:03:4,000
+a una nueva forma.
+
+81
+0:03:40.26,000 --> 0:03:43,000
+Por eso lo que trato de preguntar, y preguntarme, es:
+
+82
+0:03:43.26,000 --> 0:03:46,000
+¿cuál es esa nueva forma que adopta el mundo?
+
+83
+0:03:46.26,000 --> 0:03:49,000
+¿Hacia qué nuevo estado se dirige el mundo?
+
+84
+0:03:49.26,000 --> 0:03:52,000
+La transición parece muy, muy confusa
+
+85
+0:03:52.26,000 --> 0:03:54,000
+si estamos inmersos en ella.
+
+86
+0:03:54.26,000 --> 0:03:57,000
+Recuerdo que de niño
+
+87
+0:03:57.26,000 --> 0:04:,000
+el futuro ocurría en el año 2000
+
+88
+0:04:00.26,000 --> 0:04:04,000
+y la gente solía hablar de lo que ocurriría en el año 2000.
+
+89
+0:04:04.26,000 --> 0:04:06,000
+Esta es una conferencia
+
+90
+0:04:06.26,000 --> 0:04:08,000
+en la que la gente habla del futuro
+
+91
+0:04:08.26,000 --> 0:04:11,000
+y vemos que el futuro sigue siendo el año 2000.
+
+92
+0:04:11.26,000 --> 0:04:13,000
+Eso es todo lo que vemos.
+
+93
+0:04:13.26,000 --> 0:04:16,000
+En otras palabras, el futuro se ha encogido,
+
+94
+0:04:16.26,000 --> 0:04:19,000
+año tras año,
+
+95
+0:04:19.26,000 --> 0:04:22,000
+a lo largo de mi vida.
+
+96
+0:04:22.26,000 --> 0:04:24,000
+Pero creo que se debe
+
+97
+0:04:24.26,000 --> 0:04:26,000
+a que sentimos
+
+98
+0:04:26.26,000 --> 0:04:28,000
+que algo está ocurriendo,
+
+99
+0:04:28.26,000 --> 0:04:3,000
+que ocurre una transformación. Podemos sentirlo.
+
+100
+0:04:30.26,000 --> 0:04:32,000
+Y sabemos que no tiene mucho sentido
+
+101
+0:04:32.26,000 --> 0:04:34,000
+pensar a 30 o 50 años
+
+102
+0:04:34.26,000 --> 0:04:37,000
+porque todo será tan diferente
+
+103
+0:04:37.26,000 --> 0:04:39,000
+que extrapolar lo que estamos haciendo hoy
+
+104
+0:04:39.26,000 --> 0:04:42,000
+no tiene ningún sentido.
+
+105
+0:04:42.26,000 --> 0:04:44,000
+Por eso quiero hablarles
+
+106
+0:04:44.26,000 --> 0:04:46,000
+de cómo podría ser,
+
+107
+0:04:46.26,000 --> 0:04:49,000
+cómo podría ser esa transición que experimentamos.
+
+108
+0:04:49.26,000 --> 0:04:52,000
+Pero para hacer eso
+
+109
+0:04:52.26,000 --> 0:04:54,000
+tendré que hablar un poco de cosas
+
+110
+0:04:54.26,000 --> 0:04:56,000
+que no tienen mucho que ver
+
+111
+0:04:56.26,000 --> 0:04:58,000
+con tecnología e informática.
+
+112
+0:04:58.26,000 --> 0:05:,000
+Porque creo que la única manera de entenderlo
+
+113
+0:05:00.26,000 --> 0:05:02,000
+es tomando distancia
+
+114
+0:05:02.26,000 --> 0:05:04,000
+y mirar las cosas a largo plazo.
+
+115
+0:05:04.26,000 --> 0:05:07,000
+La escala de tiempo en la que me gustaría hacerlo
+
+116
+0:05:07.26,000 --> 0:05:1,000
+es el tiempo de la vida en la Tierra.
+
+117
+0:05:13.26,000 --> 0:05:15,000
+Creo que esta imagen tiene sentido
+
+118
+0:05:15.26,000 --> 0:05:19,000
+si la miramos cada mil millones de años.
+
+119
+0:05:19.26,000 --> 0:05:21,000
+Así, nos remontamos
+
+120
+0:05:21.26,000 --> 0:05:23,000
+unos 2500 millones de años
+
+121
+0:05:23.26,000 --> 0:05:26,000
+cuando la Tierra era una gran roca estéril
+
+122
+0:05:26.26,000 --> 0:05:29,000
+con muchos químicos que flotaban a su alrededor.
+
+123
+0:05:29.26,000 --> 0:05:31,000
+Si vemos la manera
+
+124
+0:05:31.26,000 --> 0:05:33,000
+en que se organizaron esos químicos
+
+125
+0:05:33.26,000 --> 0:05:36,000
+nos damos una idea de cómo ocurrieron las cosas.
+
+126
+0:05:36.26,000 --> 0:05:39,000
+Y creo que hay teorías para empezar a comprender
+
+127
+0:05:39.26,000 --> 0:05:41,000
+el origen con el ARN.
+
+128
+0:05:41.26,000 --> 0:05:44,000
+Voy a contarles una versión simple de esto
+
+129
+0:05:44.26,000 --> 0:05:46,000
+y es que, en ese momento,
+
+130
+0:05:46.26,000 --> 0:05:49,000
+había flotando unas gotitas de aceite
+
+131
+0:05:49.26,000 --> 0:05:52,000
+con todo tipo de recetas químicas en su interior.
+
+132
+0:05:52.26,000 --> 0:05:54,000
+Algunas de esas gotas de aceite
+
+133
+0:05:54.26,000 --> 0:05:56,000
+contenían una combinación particular de químicos
+
+134
+0:05:56.26,000 --> 0:05:59,000
+que les hicieron incorporar materiales del el exterior
+
+135
+0:05:59.26,000 --> 0:06:02,000
+y así las gotas crecieron
+
+136
+0:06:02.26,000 --> 0:06:04,000
+y empezaron
+
+137
+0:06:04.26,000 --> 0:06:06,000
+a dividirse.
+
+138
+0:06:06.26,000 --> 0:06:09,000
+En cierto sentido, esas fueron las formas celulares más primitivas;
+
+139
+0:06:09.26,000 --> 0:06:11,000
+esas gotitas de aceite.
+
+140
+0:06:11.26,000 --> 0:06:14,000
+Pero esas gotas no estaban vivas, en el sentido actual,
+
+141
+0:06:14.26,000 --> 0:06:16,000
+porque cada una de ellas
+
+142
+0:06:16.26,000 --> 0:06:18,000
+contenía una receta aleatoria de químicos.
+
+143
+0:06:18.26,000 --> 0:06:2,000
+Y cada vez que se dividían
+
+144
+0:06:20.26,000 --> 0:06:23,000
+ocasionaban una distribución desigual
+
+145
+0:06:23.26,000 --> 0:06:25,000
+de los químicos que contenían.
+
+146
+0:06:25.26,000 --> 0:06:28,000
+Por eso cada gotita era un poco diferente.
+
+147
+0:06:28.26,000 --> 0:06:3,000
+De hecho, las gotas que de algún modo se diferenciaban
+
+148
+0:06:30.26,000 --> 0:06:32,000
+siendo mejores a la hora
+
+149
+0:06:32.26,000 --> 0:06:34,000
+de incorporar los químicos circundantes;
+
+150
+0:06:34.26,000 --> 0:06:37,000
+crecían más, incorporaban más químicos y se dividían más.
+
+151
+0:06:37.26,000 --> 0:06:39,000
+Generalmente vivían más tiempo,
+
+152
+0:06:39.26,000 --> 0:06:42,000
+estaban más representadas.
+
+153
+0:06:42.26,000 --> 0:06:45,000
+Era una forma de vida,
+
+154
+0:06:45.26,000 --> 0:06:47,000
+vida química, muy simple,
+
+155
+0:06:47.26,000 --> 0:06:5,000
+pero las cosas se tornaron interesantes
+
+156
+0:06:50.26,000 --> 0:06:52,000
+cuando estas gotas
+
+157
+0:06:52.26,000 --> 0:06:55,000
+aprendieron el truco de la abstracción.
+
+158
+0:06:55.26,000 --> 0:06:58,000
+De alguna forma que no entendemos muy bien
+
+159
+0:06:58.26,000 --> 0:07:01,000
+estas gotitas aprendieron a almacenar información.
+
+160
+0:07:01.26,000 --> 0:07:03,000
+Aprendieron a guardar información,
+
+161
+0:07:03.26,000 --> 0:07:05,000
+que era la receta de la célula,
+
+162
+0:07:05.26,000 --> 0:07:07,000
+en un químico especial
+
+163
+0:07:07.26,000 --> 0:07:09,000
+llamado ADN.
+
+164
+0:07:09.26,000 --> 0:07:11,000
+En otras palabras, elaboraron
+
+165
+0:07:11.26,000 --> 0:07:14,000
+en esta evolución sin sentido,
+
+166
+0:07:14.26,000 --> 0:07:17,000
+un sistema de escritura que les permitió registrar qué eran
+
+167
+0:07:17.26,000 --> 0:07:2,000
+para poder replicarse.
+
+168
+0:07:20.26,000 --> 0:07:23,000
+Lo increíble es que ese sistema de escritura
+
+169
+0:07:23.26,000 --> 0:07:25,000
+parece haber permanecido estable
+
+170
+0:07:25.26,000 --> 0:07:27,000
+desde que evolucionó hace 2500 millones de años.
+
+171
+0:07:27.26,000 --> 0:07:3,000
+Nuestra receta, nuestros genes,
+
+172
+0:07:30.26,000 --> 0:07:33,000
+tienen exactamente el mismo código, ese mismo sistema de escritura.
+
+173
+0:07:33.26,000 --> 0:07:36,000
+De hecho, cada ser viviente está expresado
+
+174
+0:07:36.26,000 --> 0:07:38,000
+con exactamente el mismo conjunto de letras y el mismo código.
+
+175
+0:07:38.26,000 --> 0:07:4,000
+Y una de las cosas que hice
+
+176
+0:07:40.26,000 --> 0:07:42,000
+sólo por diversión...
+
+177
+0:07:42.26,000 --> 0:07:44,000
+Ahora podemos escribir cosas con este código.
+
+178
+0:07:44.26,000 --> 0:07:5,000
+Aquí tengo 100 microgramos de polvo blanco
+
+179
+0:07:50.26,000 --> 0:07:54,000
+que trato de ocultar a la gente de seguridad del aeropuerto.
+
+180
+0:07:54.26,000 --> 0:07:56,000
+(Risas)
+
+181
+0:07:56.26,000 --> 0:07:58,000
+Pero contiene...
+
+182
+0:07:58.26,000 --> 0:08:,000
+Tomé este código...
+
+183
+0:08:00.26,000 --> 0:08:03,000
+El código tiene las letras comunes que solemos usar en esto...
+
+184
+0:08:03.26,000 --> 0:08:06,000
+y escribí mis datos personales en este fragmento de ADN
+
+185
+0:08:06.26,000 --> 0:08:09,000
+y lo amplifiqué 10 a la 22 veces.
+
+186
+0:08:09.26,000 --> 0:08:12,000
+Por eso si alguien quiere 100 millones de copias de mi tarjeta personal
+
+187
+0:08:12.26,000 --> 0:08:14,000
+tengo muchas para todos los presentes;
+
+188
+0:08:14.26,000 --> 0:08:16,000
+de hecho, para cada persona del mundo
+
+189
+0:08:16.26,000 --> 0:08:19,000
+y está aquí.
+
+190
+0:08:19.26,000 --> 0:08:24,000
+(Risas)
+
+191
+0:08:26.26,000 --> 0:08:28,000
+Si fuera un ególatra
+
+192
+0:08:28.26,000 --> 0:08:31,000
+lo habría puesto en un virus y lo habría esparcido por la sala.
+
+193
+0:08:31.26,000 --> 0:08:36,000
+(Risas)
+
+194
+0:08:39.26,000 --> 0:08:41,000
+¿Cuál fue el siguiente paso?
+
+195
+0:08:41.26,000 --> 0:08:43,000
+Escribir el ADN fue un paso interesante.
+
+196
+0:08:43.26,000 --> 0:08:45,000
+Esto hizo que estas células
+
+197
+0:08:45.26,000 --> 0:08:47,000
+estuvieran felices otros mil millones de años.
+
+198
+0:08:47.26,000 --> 0:08:49,000
+Pero luego ocurrió otro gran paso interesante
+
+199
+0:08:49.26,000 --> 0:08:52,000
+en el que las cosas se tornaron muy diferentes
+
+200
+0:08:52.26,000 --> 0:08:55,000
+y fue que estas células empezaron a intercambiar y comunicar información
+
+201
+0:08:55.26,000 --> 0:08:57,000
+formando así comunidades de células.
+
+202
+0:08:57.26,000 --> 0:08:59,000
+No sé si lo saben,
+
+203
+0:08:59.26,000 --> 0:09:01,000
+pero las bacterias pueden intercambiar ADN.
+
+204
+0:09:01.26,000 --> 0:09:03,000
+De ese modo, por ejemplo,
+
+205
+0:09:03.26,000 --> 0:09:05,000
+evolucionó la resistencia a los antibióticos.
+
+206
+0:09:05.26,000 --> 0:09:08,000
+Algunas bacterias encontraron la forma de evitar la penicilina
+
+207
+0:09:08.26,000 --> 0:09:11,000
+y se las apañaron para crear su pequeño ADN
+
+208
+0:09:11.26,000 --> 0:09:13,000
+con otras bacterias
+
+209
+0:09:13.26,000 --> 0:09:16,000
+y ahora hay muchas resistentes a la penicilina
+
+210
+0:09:16.26,000 --> 0:09:18,000
+porque las bacterias se comunican.
+
+211
+0:09:18.26,000 --> 0:09:2,000
+Esta comunicación dio lugar
+
+212
+0:09:20.26,000 --> 0:09:22,000
+a que se formaran comunidades
+
+213
+0:09:22.26,000 --> 0:09:24,000
+que, en cierto modo, estaban juntas en eso;
+
+214
+0:09:24.26,000 --> 0:09:26,000
+y establecieron una sinergia.
+
+215
+0:09:26.26,000 --> 0:09:28,000
+De ese modo sobrevivían
+
+216
+0:09:28.26,000 --> 0:09:3,000
+o fallaban juntas,
+
+217
+0:09:30.26,000 --> 0:09:32,000
+o sea que si una comunidad era muy exitosa
+
+218
+0:09:32.26,000 --> 0:09:34,000
+todos los individuos de esa comunidad
+
+219
+0:09:34.26,000 --> 0:09:36,000
+se replicaban más
+
+220
+0:09:36.26,000 --> 0:09:39,000
+y eran favorecidos por la evolución.
+
+221
+0:09:39.26,000 --> 0:09:41,000
+Y el punto de inflexión ocurrió
+
+222
+0:09:41.26,000 --> 0:09:43,000
+cuando estas comunidades se acercaron tanto
+
+223
+0:09:43.26,000 --> 0:09:45,000
+que, de hecho, se unieron
+
+224
+0:09:45.26,000 --> 0:09:48,000
+y decidieron escribir toda la receta de la comunidad
+
+225
+0:09:48.26,000 --> 0:09:51,000
+junta en una cadena de ADN.
+
+226
+0:09:51.26,000 --> 0:09:53,000
+La siguiente etapa interesante para la vida
+
+227
+0:09:53.26,000 --> 0:09:55,000
+llevó otros mil millones de años.
+
+228
+0:09:55.26,000 --> 0:09:57,000
+Y en esa etapa
+
+229
+0:09:57.26,000 --> 0:09:59,000
+tenemos comunidades multicelulares,
+
+230
+0:09:59.26,000 --> 0:10:01,000
+comunidades de muchos tipos de células diferentes
+
+231
+0:10:01.26,000 --> 0:10:03,000
+trabajando juntas como un solo organismo.
+
+232
+0:10:03.26,000 --> 0:10:06,000
+De hecho, nosotros somos una comunidad multicelular.
+
+233
+0:10:06.26,000 --> 0:10:08,000
+Tenemos muchas células
+
+234
+0:10:08.26,000 --> 0:10:1,000
+que ya no actúan solas.
+
+235
+0:10:10.26,000 --> 0:10:13,000
+La célula de la piel no sirve
+
+236
+0:10:13.26,000 --> 0:10:15,000
+sin la del corazón, o la de los músculos,
+
+237
+0:10:15.26,000 --> 0:10:17,000
+o la del cerebro, etc.
+
+238
+0:10:17.26,000 --> 0:10:19,000
+Así, estas comunidades evolucionaron
+
+239
+0:10:19.26,000 --> 0:10:22,000
+y se produjeron niveles más interesantes
+
+240
+0:10:22.26,000 --> 0:10:24,000
+que el celular,
+
+241
+0:10:24.26,000 --> 0:10:27,000
+algo que llamamos un organismo.
+
+242
+0:10:28.26,000 --> 0:10:3,000
+El siguiente nivel ocurrió
+
+243
+0:10:30.26,000 --> 0:10:32,000
+dentro de estas comunidades.
+
+244
+0:10:32.26,000 --> 0:10:34,000
+Éstas empezaron
+
+245
+0:10:34.26,000 --> 0:10:36,000
+a abstraer información
+
+246
+0:10:36.26,000 --> 0:10:39,000
+y a construir estructuras muy especiales
+
+247
+0:10:39.26,000 --> 0:10:42,000
+que no hacían más que procesar información en comunidad.
+
+248
+0:10:42.26,000 --> 0:10:44,000
+Son las estructuras neuronales.
+
+249
+0:10:44.26,000 --> 0:10:47,000
+Las neuronas son los aparatos que procesan la información
+
+250
+0:10:47.26,000 --> 0:10:5,000
+que esas comunidades celulares construyeron.
+
+251
+0:10:50.26,000 --> 0:10:52,000
+De hecho, empezaron a especializarse dentro de la comunidad
+
+252
+0:10:52.26,000 --> 0:10:54,000
+siendo las estructuras
+
+253
+0:10:54.26,000 --> 0:10:56,000
+responsables de registrar,
+
+254
+0:10:56.26,000 --> 0:10:59,000
+comprender y transmitir la información.
+
+255
+0:10:59.26,000 --> 0:11:01,000
+Esos fueron los cerebros y el sistema nervioso
+
+256
+0:11:01.26,000 --> 0:11:03,000
+de esas comunidades.
+
+257
+0:11:03.26,000 --> 0:11:05,000
+Y eso les dio una ventaja evolutiva.
+
+258
+0:11:05.26,000 --> 0:11:08,000
+Porque en ese momento
+
+259
+0:11:08.26,000 --> 0:11:11,000
+como individuos...
+
+260
+0:11:11.26,000 --> 0:11:13,000
+El aprendizaje estaba
+
+261
+0:11:13.26,000 --> 0:11:15,000
+confinado a la duración de un organismo,
+
+262
+0:11:15.26,000 --> 0:11:18,000
+y no al período de tiempo evolutivo.
+
+263
+0:11:18.26,000 --> 0:11:2,000
+Así, un organismo podía, por ejemplo,
+
+264
+0:11:20.26,000 --> 0:11:22,000
+aprender a no comer cierta fruta
+
+265
+0:11:22.26,000 --> 0:11:26,000
+porque sabía mal y se enfermó la última vez que la comió.
+
+266
+0:11:26.26,000 --> 0:11:29,000
+Eso podía ocurrir durante la vida de un organismo
+
+267
+0:11:29.26,000 --> 0:11:33,000
+dado que antes habían construido estas estructuras de procesamiento de información
+
+268
+0:11:33.26,000 --> 0:11:35,000
+que por la evolución habrían aprendido
+
+269
+0:11:35.26,000 --> 0:11:38,000
+durante cientos de miles de años
+
+270
+0:11:38.26,000 --> 0:11:41,000
+por la muerte de individuos que comieron esa fruta
+
+271
+0:11:41.26,000 --> 0:11:43,000
+Por eso el hecho de que
+
+272
+0:11:43.26,000 --> 0:11:46,000
+el sistema nervioso construyera esas estructuras de información
+
+273
+0:11:46.26,000 --> 0:11:49,000
+aceleró enormemente el proceso evolutivo.
+
+274
+0:11:49.26,000 --> 0:11:52,000
+Porque la evolución podría ahora ocurrir confinada a un individuo.
+
+275
+0:11:52.26,000 --> 0:11:55,000
+Podría suceder en el tiempo necesario para aprender.
+
+276
+0:11:55.26,000 --> 0:11:57,000
+Pero luego, claro,
+
+277
+0:11:57.26,000 --> 0:11:59,000
+los individuos descubrieron
+
+278
+0:11:59.26,000 --> 0:12:01,000
+el truco de la comunicación.
+
+279
+0:12:01.26,000 --> 0:12:03,000
+Así, por ejemplo,
+
+280
+0:12:03.26,000 --> 0:12:06,000
+la versión más refinada que conocemos es el lenguaje humano.
+
+281
+0:12:06.26,000 --> 0:12:09,000
+Si lo pensamos, es una invención increíble.
+
+282
+0:12:09.26,000 --> 0:12:11,000
+Yo tengo una idea muy complicada
+
+283
+0:12:11.26,000 --> 0:12:14,000
+una idea vaga, en la cabeza.
+
+284
+0:12:14.26,000 --> 0:12:17,000
+Estoy aquí sentado emitiendo unos gruñidos
+
+285
+0:12:17.26,000 --> 0:12:2,000
+y, con suerte, construyendo una idea similar, vaga y confusa, en sus cabezas
+
+286
+0:12:20.26,000 --> 0:12:22,000
+que guarda cierta analogía con la mía.
+
+287
+0:12:22.26,000 --> 0:12:24,000
+Pero tomamos algo muy complicado
+
+288
+0:12:24.26,000 --> 0:12:27,000
+lo convertimos en sonido, en secuencias de sonido,
+
+289
+0:12:27.26,000 --> 0:12:31,000
+y producimos algo muy complicado en otro cerebro.
+
+290
+0:12:31.26,000 --> 0:12:33,000
+Eso ahora nos permite
+
+291
+0:12:33.26,000 --> 0:12:35,000
+empezar a funcionar
+
+292
+0:12:35.26,000 --> 0:12:38,000
+como un organismo.
+
+293
+0:12:38.26,000 --> 0:12:41,000
+De hecho, como humanidad,
+
+294
+0:12:41.26,000 --> 0:12:43,000
+hemos empezado
+
+295
+0:12:43.26,000 --> 0:12:45,000
+a realizar abstracciones.
+
+296
+0:12:45.26,000 --> 0:12:47,000
+Ahora pasamos por períodos similares
+
+297
+0:12:47.26,000 --> 0:12:49,000
+a los organismos multicelulares;
+
+298
+0:12:49.26,000 --> 0:12:52,000
+abstraemos nuestros métodos de registro,
+
+299
+0:12:52.26,000 --> 0:12:54,000
+presentación y procesamiento de información.
+
+300
+0:12:54.26,000 --> 0:12:56,000
+Por ejemplo, la invención del lenguaje
+
+301
+0:12:56.26,000 --> 0:12:59,000
+fue un pequeño paso en esa dirección.
+
+302
+0:12:59.26,000 --> 0:13:01,000
+La telefonía, la informática,
+
+303
+0:13:01.26,000 --> 0:13:04,000
+la cinta de video, el CD-ROM, etc.
+
+304
+0:13:04.26,000 --> 0:13:06,000
+son los mecanismos especializados
+
+305
+0:13:06.26,000 --> 0:13:08,000
+que ahora construimos
+
+306
+0:13:08.26,000 --> 0:13:1,000
+para manejar esa información.
+
+307
+0:13:10.26,000 --> 0:13:13,000
+Y eso nos congrega
+
+308
+0:13:13.26,000 --> 0:13:15,000
+en algo
+
+309
+0:13:15.26,000 --> 0:13:17,000
+mucho más grande,
+
+310
+0:13:17.26,000 --> 0:13:19,000
+más rápido
+
+311
+0:13:19.26,000 --> 0:13:21,000
+y capaz de evolucionar
+
+312
+0:13:21.26,000 --> 0:13:23,000
+más de lo que hacíamos antes.
+
+313
+0:13:23.26,000 --> 0:13:25,000
+Ahora la evolución puede ocurrir
+
+314
+0:13:25.26,000 --> 0:13:27,000
+en microsegundos.
+
+315
+0:13:27.26,000 --> 0:13:29,000
+Ya vieron el ejemplito evolutivo de Ty
+
+316
+0:13:29.26,000 --> 0:13:31,000
+en el que produjo cierta evolución
+
+317
+0:13:31.26,000 --> 0:13:34,000
+con el programa Convolución, ante nuestros ojos.
+
+318
+0:13:34.26,000 --> 0:13:37,000
+Y ahora hemos acelerado las escalas de tiempo otra vez.
+
+319
+0:13:37.26,000 --> 0:13:39,000
+Las primeras etapas de la historia que les contaba
+
+320
+0:13:39.26,000 --> 0:13:41,000
+llevaron mil millones de años cada una.
+
+321
+0:13:41.26,000 --> 0:13:43,000
+Las siguientes etapas,
+
+322
+0:13:43.26,000 --> 0:13:45,000
+el sistema nervioso y el cerebro,
+
+323
+0:13:45.26,000 --> 0:13:47,000
+llevó unos cientos de millones de años.
+
+324
+0:13:47.26,000 --> 0:13:5,000
+Las siguientes, el lenguaje etc.,
+
+325
+0:13:50.26,000 --> 0:13:52,000
+llevaron menos de un millón de años.
+
+326
+0:13:52.26,000 --> 0:13:54,000
+Y las siguientes, como la electrónica,
+
+327
+0:13:54.26,000 --> 0:13:56,000
+parece llevar sólo unas décadas.
+
+328
+0:13:56.26,000 --> 0:13:58,000
+El proceso se retroalimenta;
+
+329
+0:13:58.26,000 --> 0:14:01,000
+supongo que auto-catalítico es la palabra correcta para
+
+330
+0:14:01.26,000 --> 0:14:04,000
+nombrar algo que acelera su propio ritmo de cambio.
+
+331
+0:14:04.26,000 --> 0:14:07,000
+Cuanto más cambia, más rápido lo hace.
+
+332
+0:14:07.26,000 --> 0:14:1,000
+Y creo que es eso lo que observamos en esta explosión de la curva.
+
+333
+0:14:10.26,000 --> 0:14:13,000
+Vemos que el proceso se retroalimenta.
+
+334
+0:14:13.26,000 --> 0:14:16,000
+Pero yo me gano la vida diseñando computadoras
+
+335
+0:14:16.26,000 --> 0:14:18,000
+y sé que los mecanismos
+
+336
+0:14:18.26,000 --> 0:14:21,000
+que empleo para diseñarlas
+
+337
+0:14:21.26,000 --> 0:14:23,000
+no serían posibles
+
+338
+0:14:23.26,000 --> 0:14:25,000
+sin los avances informáticos recientes.
+
+339
+0:14:25.26,000 --> 0:14:27,000
+Pero ahora
+
+340
+0:14:27.26,000 --> 0:14:3,000
+diseño objetos de tal complejidad
+
+341
+0:14:30.26,000 --> 0:14:33,000
+que sería imposible para mí diseñarlos de manera convencional.
+
+342
+0:14:33.26,000 --> 0:14:37,000
+No sé que hace cada transistor en esa máquina de conexiones.
+
+343
+0:14:37.26,000 --> 0:14:39,000
+Hay miles de millones.
+
+344
+0:14:39.26,000 --> 0:14:41,000
+En vez de eso,
+
+345
+0:14:41.26,000 --> 0:14:44,000
+con los diseñadores de Thinking Machines,
+
+346
+0:14:44.26,000 --> 0:14:46,000
+pensamos un nivel de abstracción,
+
+347
+0:14:46.26,000 --> 0:14:48,000
+lo ponemos en la máquina
+
+348
+0:14:48.26,000 --> 0:14:51,000
+y la máquina con eso hace algo que antes no se podía,
+
+349
+0:14:51.26,000 --> 0:14:54,000
+llega mucho más lejos y más rápido que nunca antes.
+
+350
+0:14:54.26,000 --> 0:14:56,000
+De hecho, a veces emplea métodos
+
+351
+0:14:56.26,000 --> 0:14:59,000
+que ni siquiera entendemos bien.
+
+352
+0:14:59.26,000 --> 0:15:01,000
+Un método particularmente interesante,
+
+353
+0:15:01.26,000 --> 0:15:04,000
+que he estado usando últimamente,
+
+354
+0:15:04.26,000 --> 0:15:06,000
+es la evolución misma.
+
+355
+0:15:06.26,000 --> 0:15:08,000
+Colocamos
+
+356
+0:15:08.26,000 --> 0:15:1,000
+dentro de la máquina
+
+357
+0:15:10.26,000 --> 0:15:12,000
+un proceso evolutivo
+
+358
+0:15:12.26,000 --> 0:15:14,000
+que opera en la escala de los microsegundos.
+
+359
+0:15:14.26,000 --> 0:15:16,000
+Y, por ejemplo,
+
+360
+0:15:16.26,000 --> 0:15:18,000
+en los casos más extremos,
+
+361
+0:15:18.26,000 --> 0:15:2,000
+podemos evolucionar un programa
+
+362
+0:15:20.26,000 --> 0:15:24,000
+a partir de una secuencia aleatoria de instrucciones.
+
+363
+0:15:24.26,000 --> 0:15:26,000
+Le decimos: "por favor computadora, ¿puedes correr
+
+364
+0:15:26.26,000 --> 0:15:29,000
+cien millones de secuencias de instrucciones al azar?
+
+365
+0:15:29.26,000 --> 0:15:32,000
+¿Podrías ejecutar estas secuencias de instrucciones al azar,
+
+366
+0:15:32.26,000 --> 0:15:34,000
+ejecutar todos esos programas,
+
+367
+0:15:34.26,000 --> 0:15:37,000
+y tomar aquellas que más se aproximen a lo que queremos hacer?"
+
+368
+0:15:37.26,000 --> 0:15:39,000
+En otras palabras, yo defino lo que quiero.
+
+369
+0:15:39.26,000 --> 0:15:41,000
+Digamos que quiero ordenar números,
+
+370
+0:15:41.26,000 --> 0:15:43,000
+para poner un ejemplo simple.
+
+371
+0:15:43.26,000 --> 0:15:46,000
+Así, encontramos los programas que más se acercan a ordenar números.
+
+372
+0:15:46.26,000 --> 0:15:49,000
+Claro, es poco probable que unas secuencias aleatorias
+
+373
+0:15:49.26,000 --> 0:15:51,000
+de instrucciones, ordenen números,
+
+374
+0:15:51.26,000 --> 0:15:53,000
+así que ninguna de ellas lo logró.
+
+375
+0:15:53.26,000 --> 0:15:55,000
+Pero una, por suerte,
+
+376
+0:15:55.26,000 --> 0:15:57,000
+pudo ubicar dos números en el orden correcto.
+
+377
+0:15:57.26,000 --> 0:15:59,000
+Y dije: "computadora,
+
+378
+0:15:59.26,000 --> 0:16:02,000
+¿podrías tomar el 10% de esas
+
+379
+0:16:02.26,000 --> 0:16:04,000
+secuencias aleatorias que mejor hicieron la tarea?
+
+380
+0:16:04.26,000 --> 0:16:06,000
+Guardemos esas y eliminemos al resto.
+
+381
+0:16:06.26,000 --> 0:16:08,000
+Y ahora reproduzcamos
+
+382
+0:16:08.26,000 --> 0:16:1,000
+las que mejor ordenaron los números.
+
+383
+0:16:10.26,000 --> 0:16:13,000
+Y volvamos a reproducirlas siguiendo un proceso de recombinación
+
+384
+0:16:13.26,000 --> 0:16:15,000
+análogo al sexo".
+
+385
+0:16:15.26,000 --> 0:16:18,000
+Tomemos dos programas, que engendren hijos,
+
+386
+0:16:18.26,000 --> 0:16:2,000
+que intercambien subrutinas,
+
+387
+0:16:20.26,000 --> 0:16:23,000
+y que los hijos hereden las propiedades de ambos programas.
+
+388
+0:16:23.26,000 --> 0:16:26,000
+Así conseguimos una nueva generación de programas
+
+389
+0:16:26.26,000 --> 0:16:28,000
+producto de las combinaciones
+
+390
+0:16:28.26,000 --> 0:16:3,000
+de programas que tuvieron un poco más de éxito.
+
+391
+0:16:30.26,000 --> 0:16:32,000
+Y decimos: "Por favor, repite el proceso".
+
+392
+0:16:32.26,000 --> 0:16:34,000
+Califica de nuevo.
+
+393
+0:16:34.26,000 --> 0:16:36,000
+Introduce algunas mutaciones
+
+394
+0:16:36.26,000 --> 0:16:39,000
+e intenta de nuevo y repítelo con otra generación.
+
+395
+0:16:39.26,000 --> 0:16:42,000
+Bueno, cada generación lleva unos pocos milisegundos.
+
+396
+0:16:42.26,000 --> 0:16:44,000
+Así, puedo hacer el equivalente
+
+397
+0:16:44.26,000 --> 0:16:46,000
+a millones de años de evolución
+
+398
+0:16:46.26,000 --> 0:16:49,000
+en unos pocos minutos
+
+399
+0:16:49.26,000 --> 0:16:51,000
+o, en casos complicados, en pocas horas.
+
+400
+0:16:51.26,000 --> 0:16:54,000
+Al final, terminamos con programas
+
+401
+0:16:54.26,000 --> 0:16:56,000
+que ordenan números de modo absolutamente perfecto.
+
+402
+0:16:56.26,000 --> 0:16:59,000
+De hecho, son programas mucho más eficientes
+
+403
+0:16:59.26,000 --> 0:17:01,000
+que los que yo podría haber escrito a mano.
+
+404
+0:17:01.26,000 --> 0:17:03,000
+Si miro esos programas
+
+405
+0:17:03.26,000 --> 0:17:05,000
+no puedo decir cómo funcionan.
+
+406
+0:17:05.26,000 --> 0:17:07,000
+He intentado analizarlos para ver cómo funcionan.
+
+407
+0:17:07.26,000 --> 0:17:09,000
+Son programas oscuros, extraños.
+
+408
+0:17:09.26,000 --> 0:17:11,000
+Pero cumplen el cometido.
+
+409
+0:17:11.26,000 --> 0:17:14,000
+De hecho, lo sé, tengo la seguridad de que logran el objetivo
+
+410
+0:17:14.26,000 --> 0:17:16,000
+porque vienen de un linaje
+
+411
+0:17:16.26,000 --> 0:17:18,000
+de cientos de miles de programas que lo lograron.
+
+412
+0:17:18.26,000 --> 0:17:21,000
+De hecho, sus vidas dependían de lograrlo.
+
+413
+0:17:21.26,000 --> 0:17:25,000
+(Risas)
+
+414
+0:17:26.26,000 --> 0:17:28,000
+Una vez iba en un 747
+
+415
+0:17:28.26,000 --> 0:17:3,000
+con Marvin Minsky
+
+416
+0:17:30.26,000 --> 0:17:33,000
+y saca una tarjeta y me dice: "Mira esto.
+
+417
+0:17:33.26,000 --> 0:17:37,000
+Dice: 'Este avión tiene cientos de miles de partecitas
+
+418
+0:17:37.26,000 --> 0:17:41,000
+que trabajan juntas para ofrecer un vuelo seguro'.
+
+419
+0:17:41.26,000 --> 0:17:43,000
+¿No te hace sentir tranquilo?"
+
+420
+0:17:43.26,000 --> 0:17:45,000
+(Risas)
+
+421
+0:17:45.26,000 --> 0:17:48,000
+Sabemos que los procesos de ingeniería no funcionan muy bien
+
+422
+0:17:48.26,000 --> 0:17:5,000
+cuando se tornan complicados.
+
+423
+0:17:50.26,000 --> 0:17:52,000
+Por eso empezamos a depender de las computadoras
+
+424
+0:17:52.26,000 --> 0:17:56,000
+para hacer procesos de diseño bien diferentes.
+
+425
+0:17:56.26,000 --> 0:17:59,000
+Y eso nos permite producir cosas mucho más complejas
+
+426
+0:17:59.26,000 --> 0:18:01,000
+que las que produce la ingeniería normal.
+
+427
+0:18:01.26,000 --> 0:18:04,000
+Sin embargo, no entendemos del todo las opciones que hay.
+
+428
+0:18:04.26,000 --> 0:18:06,000
+En ese sentido, va delante de nosotros.
+
+429
+0:18:06.26,000 --> 0:18:08,000
+Ahora usamos esos programas
+
+430
+0:18:08.26,000 --> 0:18:1,000
+para hacer computadoras mucho más rápidas
+
+431
+0:18:10.26,000 --> 0:18:13,000
+y así poder ejecutar estos programas mucho más rápidamente.
+
+432
+0:18:13.26,000 --> 0:18:16,000
+O sea, se retroalimenta.
+
+433
+0:18:16.26,000 --> 0:18:18,000
+La cosa va cada vez más rápido
+
+434
+0:18:18.26,000 --> 0:18:2,000
+y por eso creo que parece tan confusa.
+
+435
+0:18:20.26,000 --> 0:18:23,000
+Porque todas estas tecnologías se retroalimentan.
+
+436
+0:18:23.26,000 --> 0:18:25,000
+Estamos despegando.
+
+437
+0:18:25.26,000 --> 0:18:28,000
+Y estamos en un momento
+
+438
+0:18:28.26,000 --> 0:18:3,000
+análogo al de los organismos unicelulares
+
+439
+0:18:30.26,000 --> 0:18:33,000
+cuando se volvieron multicelulares.
+
+440
+0:18:33.26,000 --> 0:18:35,000
+Somos las amebas
+
+441
+0:18:35.26,000 --> 0:18:38,000
+y no podemos entender qué diablos estamos creando.
+
+442
+0:18:38.26,000 --> 0:18:4,000
+Estamos en el punto de inflexión.
+
+443
+0:18:40.26,000 --> 0:18:43,000
+Pero creo que algo viene detrás de nosotros.
+
+444
+0:18:43.26,000 --> 0:18:45,000
+Creo que sería muy arrogante de nuestra parte
+
+445
+0:18:45.26,000 --> 0:18:48,000
+pensar que somos el producto final de la evolución.
+
+446
+0:18:48.26,000 --> 0:18:5,000
+Y creo que todos nosotros
+
+447
+0:18:50.26,000 --> 0:18:52,000
+somos parte de la creación
+
+448
+0:18:52.26,000 --> 0:18:54,000
+de lo que sea que venga.
+
+449
+0:18:54.26,000 --> 0:18:56,000
+Pero ahora viene el almuerzo
+
+450
+0:18:56.26,000 --> 0:18:58,000
+y creo que pararé aquí
+
+451
+0:18:58.26,000 --> 0:19:,000
+antes de que me eliminen.
+
+452
+0:19:00.26,000 --> 0:19:03,000
+(Aplausos)
+

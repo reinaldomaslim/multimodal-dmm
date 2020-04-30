@@ -1,0 +1,956 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Máximo Hdez
+
+2
+0:00:12.285,000 --> 0:00:14,000
+Esta es una imagen del planeta Tierra.
+
+3
+0:00:15.178,000 --> 0:00:18,000
+Se parece mucho a las imágenes del Apolo,
+
+4
+0:00:18.271,000 --> 0:00:19,000
+tan bien conocidas.
+
+5
+0:00:19.882,000 --> 0:00:21,000
+Hay algo diferente;
+
+6
+0:00:21.952,000 --> 0:00:22,000
+se les puede hacer clic,
+
+7
+0:00:23.399,000 --> 0:00:24,000
+y al hacerlo
+
+8
+0:00:24.597,000 --> 0:00:27,000
+uno se acerca a casi cualquier sitio del planeta.
+
+9
+0:00:27.669,000 --> 0:00:28,000
+Por ejemplo, esta es una vista de pájaro
+
+10
+0:00:29.668,000 --> 0:00:31,000
+del campus de la EPFL.
+
+11
+0:00:32.334,000 --> 0:00:34,000
+En muchos casos, también podemos tener
+
+12
+0:00:34.442,000 --> 0:00:37,000
+la vista de un edificio desde una calle cercana.
+
+13
+0:00:38.182,000 --> 0:00:39,000
+Esto es bastante sorprendente.
+
+14
+0:00:39.604,000 --> 0:00:42,000
+Pero hay algo que falta en este recorrido maravilloso:
+
+15
+0:00:43.031,000 --> 0:00:45,000
+el tiempo.
+
+16
+0:00:45.219,000 --> 0:00:48,000
+No estoy muy seguro de cuándo se tomó esta foto.
+
+17
+0:00:48.289,000 --> 0:00:49,000
+Ni siquiera estoy seguro de que fuera tomada
+
+18
+0:00:49.701,000 --> 0:00:55,000
+en el mismo momento que la vista a vuelo de pájaro.
+
+19
+0:00:55.784,000 --> 0:00:57,000
+En mi laboratorio desarrollamos herramientas
+
+20
+0:00:57.993,000 --> 0:00:58,000
+para viajar no solo en el espacio
+
+21
+0:00:59.757,000 --> 0:01:01,000
+sino también en el tiempo.
+
+22
+0:01:02.315,000 --> 0:01:03,000
+El tipo de pregunta que estamos haciendo es:
+
+23
+0:01:04.185,000 --> 0:01:05,000
+¿Es posible construir algo
+
+24
+0:01:05.578,000 --> 0:01:07,000
+como Google Maps del pasado?
+
+25
+0:01:07.756,000 --> 0:01:1,000
+¿Puedo añadir un control deslizante en la parte superior de Google Maps
+
+26
+0:01:11.066,000 --> 0:01:12,000
+y cambiar el año,
+
+27
+0:01:12.869,000 --> 0:01:13,000
+viendo como fue 100 años antes,
+
+28
+0:01:14.66,000 --> 0:01:15,000
+1000 años antes?
+
+29
+0:01:16.329,000 --> 0:01:18,000
+¿Es posible?
+
+30
+0:01:18.452,000 --> 0:01:2,000
+¿Puedo reconstruir las redes sociales del pasado?
+
+31
+0:01:20.704,000 --> 0:01:23,000
+¿Puedo hacer un Facebook de la Edad Media?
+
+32
+0:01:23.753,000 --> 0:01:26,000
+¿Puedo construir máquinas del tiempo?
+
+33
+0:01:27.529,000 --> 0:01:29,000
+Tal vez solo podemos decir: "No, no es posible".
+
+34
+0:01:30.094,000 --> 0:01:33,000
+O, quizá, podemos pensar en ello desde el punto de vista informativo.
+
+35
+0:01:33.904,000 --> 0:01:36,000
+Esto es lo que yo llamo el hongo de información.
+
+36
+0:01:37.094,000 --> 0:01:38,000
+En el eje vertical está el tiempo.
+
+37
+0:01:38.677,000 --> 0:01:4,000
+En el horizontal, la cantidad de información digital disponible.
+
+38
+0:01:41.417,000 --> 0:01:44,000
+Obviamente, en los últimos 10 años, tenemos mucha información.
+
+39
+0:01:44.899,000 --> 0:01:47,000
+Y, obviamente, cuanto más vamos al pasado, menos información tenemos.
+
+40
+0:01:48.447,000 --> 0:01:5,000
+Si queremos construir un Google Maps del pasado,
+
+41
+0:01:50.765,000 --> 0:01:51,000
+o un Facebook del pasado,
+
+42
+0:01:52.259,000 --> 0:01:53,000
+tenemos que ampliar este espacio,
+
+43
+0:01:53.833,000 --> 0:01:54,000
+tenemos que transformarlo en un rectángulo.
+
+44
+0:01:55.771,000 --> 0:01:56,000
+¿Cómo lo hacemos?
+
+45
+0:01:57.281,000 --> 0:01:59,000
+Una forma es la digitalización.
+
+46
+0:01:59.395,000 --> 0:02:,000
+Hay mucho material disponible:
+
+47
+0:02:01.19,000 --> 0:02:07,000
+periódicos, libros impresos, miles de libros impresos.
+
+48
+0:02:07.46,000 --> 0:02:08,000
+Puedo digitalizar todo.
+
+49
+0:02:09.228,000 --> 0:02:11,000
+Puedo extraer información de allí.
+
+50
+0:02:11.965,000 --> 0:02:14,000
+Claro, cuanto más nos adentramos en el pasado, menos información habrá.
+
+51
+0:02:15.508,000 --> 0:02:17,000
+Puede no ser suficiente.
+
+52
+0:02:18.154,000 --> 0:02:2,000
+Entonces puedo hacer como los historiadores.
+
+53
+0:02:20.562,000 --> 0:02:21,000
+Puedo extrapolar.
+
+54
+0:02:22.086,000 --> 0:02:26,000
+Esto es lo que llamamos, en ciencias de la computación, simulación.
+
+55
+0:02:26.556,000 --> 0:02:27,000
+Si tomo un libro de registro,
+
+56
+0:02:28.307,000 --> 0:02:3,000
+puedo considerar que no solo es el libro de registro
+
+57
+0:02:30.711,000 --> 0:02:32,000
+de un capitán veneciano que hizo un viaje en particular.
+
+58
+0:02:33.683,000 --> 0:02:34,000
+Puedo considerar que es un libro de registro
+
+59
+0:02:35.326,000 --> 0:02:37,000
+representativo de muchos viajes de la época.
+
+60
+0:02:37.908,000 --> 0:02:39,000
+Estoy extrapolando.
+
+61
+0:02:40.153,000 --> 0:02:42,000
+Si tengo la pintura de una fachada,
+
+62
+0:02:42.191,000 --> 0:02:44,000
+puedo considerar que no solo es de ese edificio en particular,
+
+63
+0:02:44.942,000 --> 0:02:47,000
+sino que quizá también comparte la misma gramática
+
+64
+0:02:48.874,000 --> 0:02:52,000
+de los edificios en los que hemos perdido información.
+
+65
+0:02:52.915,000 --> 0:02:54,000
+Así que si queremos construir una máquina del tiempo,
+
+66
+0:02:55.773,000 --> 0:02:56,000
+necesitamos 2 cosas.
+
+67
+0:02:57.112,000 --> 0:02:59,000
+Necesitamos archivos muy grandes
+
+68
+0:02:59.346,000 --> 0:03:01,000
+y excelentes especialistas.
+
+69
+0:03:02.088,000 --> 0:03:03,000
+La Máquina del Tiempo Veneciana,
+
+70
+0:03:03.962,000 --> 0:03:04,000
+el proyecto del que les hablaré,
+
+71
+0:03:05.767,000 --> 0:03:08,000
+es un proyecto conjunto entre la EPFL
+
+72
+0:03:08.787,000 --> 0:03:1,000
+y la Universidad de Venecia Ca'Foscari.
+
+73
+0:03:11.765,000 --> 0:03:13,000
+Hay algo muy peculiar en Venecia,
+
+74
+0:03:13.93,000 --> 0:03:15,000
+y es que su administración ha sido
+
+75
+0:03:16.604,000 --> 0:03:18,000
+muy, muy burocrática.
+
+76
+0:03:18.798,000 --> 0:03:2,000
+Ellos han hecho seguimiento de todo,
+
+77
+0:03:20.991,000 --> 0:03:22,000
+casi como Google hoy.
+
+78
+0:03:23.906,000 --> 0:03:24,000
+En el Archivio di Stato,
+
+79
+0:03:25.42,000 --> 0:03:26,000
+hay 80 kilómetros de archivos
+
+80
+0:03:27.184,000 --> 0:03:29,000
+que documentan cada aspecto
+
+81
+0:03:29.193,000 --> 0:03:31,000
+de la vida de Venecia durante más de 1000 años.
+
+82
+0:03:31.439,000 --> 0:03:32,000
+Están todos los botes que zarparon,
+
+83
+0:03:33.359,000 --> 0:03:34,000
+todos los botes que arribaron.
+
+84
+0:03:34.435,000 --> 0:03:36,000
+Están todo los cambios realizados en la ciudad.
+
+85
+0:03:37.232,000 --> 0:03:4,000
+Todo eso está allí.
+
+86
+0:03:40.523,000 --> 0:03:43,000
+Estamos estableciendo un programa de digitalización a 10 años
+
+87
+0:03:44.431,000 --> 0:03:45,000
+con el objetivo de transformar
+
+88
+0:03:46.108,000 --> 0:03:47,000
+este archivo inmenso
+
+89
+0:03:47.492,000 --> 0:03:49,000
+en un gigante sistema de información.
+
+90
+0:03:49.918,000 --> 0:03:5,000
+El objetivo es digitalizar
+
+91
+0:03:51.775,000 --> 0:03:55,000
+450 libros al día.
+
+92
+0:03:56.501,000 --> 0:03:58,000
+Por supuesto, digitalizar no es suficiente
+
+93
+0:03:58.748,000 --> 0:03:59,000
+porque la mayor parte de estos documentos
+
+94
+0:04:00.035,000 --> 0:04:02,000
+está en latín, en toscano,
+
+95
+0:04:02.689,000 --> 0:04:03,000
+en dialecto veneciano,
+
+96
+0:04:04.204,000 --> 0:04:05,000
+así que hay que transcribirlos,
+
+97
+0:04:05.879,000 --> 0:04:06,000
+traducirlos en algunos casos,
+
+98
+0:04:07.56,000 --> 0:04:08,000
+para indexarlos,
+
+99
+0:04:08.68,000 --> 0:04:1,000
+y esto obviamente no es fácil.
+
+100
+0:04:10.844,000 --> 0:04:13,000
+En particular, el método óptico tradicional de reconocimiento de caracteres
+
+101
+0:04:14.688,000 --> 0:04:15,000
+que puede usarse para manuscritos impresos,
+
+102
+0:04:16.112,000 --> 0:04:2,000
+no funciona bien en documentos escritos a mano.
+
+103
+0:04:20.116,000 --> 0:04:22,000
+La solución es inspirarse
+
+104
+0:04:22.246,000 --> 0:04:24,000
+en otro dominio: el reconocimiento de voz.
+
+105
+0:04:25.147,000 --> 0:04:27,000
+Este es un dominio de algo que parece imposible,
+
+106
+0:04:27.202,000 --> 0:04:29,000
+que puede hacerse,
+
+107
+0:04:29.739,000 --> 0:04:31,000
+poniendo restricciones adicionales.
+
+108
+0:04:31.933,000 --> 0:04:32,000
+Si uno tiene un muy buen modelo
+
+109
+0:04:33.519,000 --> 0:04:34,000
+de un lenguaje empleado,
+
+110
+0:04:35.045,000 --> 0:04:37,000
+si uno tiene un muy buen modelo de un documento,
+
+111
+0:04:37.131,000 --> 0:04:38,000
+si están bien estructurados
+
+112
+0:04:38.563,000 --> 0:04:39,000
+--estos son documentos administrativos,
+
+113
+0:04:39.931,000 --> 0:04:41,000
+están muy bien estructurados en muchos casos--
+
+114
+0:04:42.063,000 --> 0:04:45,000
+si uno divide este archivo enorme en subconjuntos más pequeños
+
+115
+0:04:45.371,000 --> 0:04:47,000
+que compartan características similares,
+
+116
+0:04:48.248,000 --> 0:04:52,000
+entonces hay una posibilidad de éxito.
+
+117
+0:04:54.761,000 --> 0:04:56,000
+Si llegamos a esa etapa, entonces hay algo más:
+
+118
+0:04:57.196,000 --> 0:05:,000
+podemos extraer eventos de este documento.
+
+119
+0:05:00.718,000 --> 0:05:02,000
+Quizá puedan obtenerse 10 000 millones
+
+120
+0:05:03.016,000 --> 0:05:04,000
+de eventos de este archivo.
+
+121
+0:05:04.947,000 --> 0:05:05,000
+Y este gigante sistema de información
+
+122
+0:05:06.671,000 --> 0:05:07,000
+puede buscarse de muchas formas.
+
+123
+0:05:08.487,000 --> 0:05:09,000
+Uno puede preguntar cosas como:
+
+124
+0:05:09.855,000 --> 0:05:11,000
+"¿Quién vivió en este palacio en 1323?"
+
+125
+0:05:12.615,000 --> 0:05:14,000
+"¿Cuánto costaba un besugo en el mercado de Realto
+
+126
+0:05:14.837,000 --> 0:05:15,000
+en 1434?"
+
+127
+0:05:16.561,000 --> 0:05:17,000
+"¿Cuál era el salario
+
+128
+0:05:18.021,000 --> 0:05:2,000
+de un fabricante de vidrio en Murano
+
+129
+0:05:20.066,000 --> 0:05:21,000
+en una década?&quot;
+
+130
+0:05:21.472,000 --> 0:05:22,000
+Uno puede hacer incluso preguntas más grandes
+
+131
+0:05:22.894,000 --> 0:05:24,000
+porque estará codificado semánticamente.
+
+132
+0:05:25.632,000 --> 0:05:27,000
+Y luego se lo puede poner en el espacio
+
+133
+0:05:27.772,000 --> 0:05:29,000
+porque mucha de esta información es espacial.
+
+134
+0:05:29.945,000 --> 0:05:3,000
+Y a partir de esto se pueden hacer cosas
+
+135
+0:05:31.88,000 --> 0:05:33,000
+como reconstruir este viaje extraordinario
+
+136
+0:05:33.993,000 --> 0:05:36,000
+de esa ciudad que logró tener un desarrollo sustentable
+
+137
+0:05:37.349,000 --> 0:05:39,000
+durante más de 1000 años,
+
+138
+0:05:39.475,000 --> 0:05:4,000
+logrando tener todo el tiempo
+
+139
+0:05:41.095,000 --> 0:05:43,000
+una forma de equilibrio con su medio ambiente.
+
+140
+0:05:43.956,000 --> 0:05:44,000
+Uno puede reconstruir ese viaje,
+
+141
+0:05:45.204,000 --> 0:05:47,000
+y visualizarlo de muchas maneras diferentes.
+
+142
+0:05:48.1,000 --> 0:05:5,000
+Pero, claro, no se puede comprender Venecia si solo se mira la ciudad.
+
+143
+0:05:50.799,000 --> 0:05:52,000
+Hay que ponerla en un contexto europeo más grande.
+
+144
+0:05:53.195,000 --> 0:05:55,000
+Por eso la idea es documentar también
+
+145
+0:05:56.016,000 --> 0:05:58,000
+las cosas a nivel europeo.
+
+146
+0:05:58.439,000 --> 0:05:59,000
+Podemos reconstruir también el viaje
+
+147
+0:06:00.403,000 --> 0:06:01,000
+del imperio marítimo veneciano.
+
+148
+0:06:02.393,000 --> 0:06:05,000
+Cómo fue que controló de manera progresiva el Mar Adriático,
+
+149
+0:06:05.559,000 --> 0:06:08,000
+cómo se transformó en el imperio medieval más poderoso
+
+150
+0:06:09.305,000 --> 0:06:1,000
+de su tiempo,
+
+151
+0:06:10.866,000 --> 0:06:12,000
+controlando la mayor parte de las rutas marítimas
+
+152
+0:06:13.038,000 --> 0:06:15,000
+desde el este hacia el sur.
+
+153
+0:06:17.305,000 --> 0:06:19,000
+Pero también se pueden hacer otras cosas,
+
+154
+0:06:19.621,000 --> 0:06:21,000
+porque en estas rutas marítimas
+
+155
+0:06:21.898,000 --> 0:06:22,000
+hay patrones regulares.
+
+156
+0:06:23.889,000 --> 0:06:25,000
+Podemos ir un paso más allá
+
+157
+0:06:26.382,000 --> 0:06:28,000
+y crear un sistema de simulación,
+
+158
+0:06:28.502,000 --> 0:06:3,000
+crear un simulador mediterráneo
+
+159
+0:06:31.317,000 --> 0:06:33,000
+capaz de reconstruir
+
+160
+0:06:33.91,000 --> 0:06:35,000
+incluso la información perdida
+
+161
+0:06:36.112,000 --> 0:06:38,000
+que nos permitiría hacer preguntas
+
+162
+0:06:39.1,000 --> 0:06:41,000
+como si tuviésemos un planificador de rutas.
+
+163
+0:06:42.088,000 --> 0:06:45,000
+"Si estoy en Corfú en junio de 1323
+
+164
+0:06:45.159,000 --> 0:06:47,000
+y quiero ir a Constantinopla,
+
+165
+0:06:47.685,000 --> 0:06:49,000
+¿dónde puedo tomar un bote?"
+
+166
+0:06:49.828,000 --> 0:06:5,000
+Probablemente podemos responder esta pregunta
+
+167
+0:06:51.195,000 --> 0:06:55,000
+con 1, 2 o 3 días de precisión.
+
+168
+0:06:55.668,000 --> 0:06:56,000
+"¿Cuánto costará?"
+
+169
+0:06:57.275,000 --> 0:07:,000
+"¿Cuáles son las probabilidades de encontrarse con piratas?"
+
+170
+0:07:00.867,000 --> 0:07:01,000
+Por supuesto, como comprenderán,
+
+171
+0:07:02.678,000 --> 0:07:04,000
+el reto científico central de un proyecto como este
+
+172
+0:07:05.287,000 --> 0:07:08,000
+es calificar, cuantificar y representar
+
+173
+0:07:09.016,000 --> 0:07:12,000
+la incertidumbre y la inconsistencia en cada paso del proceso.
+
+174
+0:07:12.346,000 --> 0:07:14,000
+Hay errores en todas partes;
+
+175
+0:07:15.058,000 --> 0:07:17,000
+errores en el documento, error en el nombre del capitán,
+
+176
+0:07:17.547,000 --> 0:07:2,000
+algunos de los barcos nunca zarparon.
+
+177
+0:07:20.76,000 --> 0:07:24,000
+Hay errores de traducción, sesgos interpretativos,
+
+178
+0:07:25.624,000 --> 0:07:28,000
+y encima de eso, si sumamos procesos algorítmicos,
+
+179
+0:07:29.09,000 --> 0:07:31,000
+tendremos errores de reconocimiento,
+
+180
+0:07:32.039,000 --> 0:07:33,000
+errores en la extracción,
+
+181
+0:07:34,000 --> 0:07:38,000
+por eso tenemos datos muy, muy inciertos.
+
+182
+0:07:38.481,000 --> 0:07:41,000
+Entonces, ¿cómo podemos detectar y corregir estas inconsistencias?
+
+183
+0:07:42.238,000 --> 0:07:45,000
+¿Cómo podemos representar esa incertidumbre?
+
+184
+0:07:45.898,000 --> 0:07:47,000
+Es difícil. Algo que podemos hacer
+
+185
+0:07:47.995,000 --> 0:07:49,000
+es documentar cada paso del proceso,
+
+186
+0:07:50.221,000 --> 0:07:52,000
+no solo codificar la información histórica
+
+187
+0:07:52.669,000 --> 0:07:54,000
+sino también lo que llamamos la información meta-histórica,
+
+188
+0:07:55.348,000 --> 0:07:57,000
+cómo se construye el conocimiento histórico,
+
+189
+0:07:58.011,000 --> 0:07:59,000
+documentar cada paso.
+
+190
+0:08:00.009,000 --> 0:08:01,000
+Eso no garantizará la convergencia
+
+191
+0:08:01.654,000 --> 0:08:03,000
+hacia una única historia de Venecia,
+
+192
+0:08:04.104,000 --> 0:08:06,000
+pero probablemente podamos reconstruir
+
+193
+0:08:06.242,000 --> 0:08:09,000
+una historia potencial de Venecia totalmente documentada.
+
+194
+0:08:09.29,000 --> 0:08:1,000
+Tal vez no haya un solo mapa.
+
+195
+0:08:10.749,000 --> 0:08:12,000
+Quizá haya varios mapas.
+
+196
+0:08:12.869,000 --> 0:08:14,000
+El sistema debe permitir eso,
+
+197
+0:08:15.085,000 --> 0:08:17,000
+porque tenemos que enfrentar una nueva forma de incertidumbre,
+
+198
+0:08:17.944,000 --> 0:08:21,000
+algo nuevo para este tipo de gigantescas bases de datos.
+
+199
+0:08:22.585,000 --> 0:08:24,000
+Y ¿cómo deberíamos comunicar
+
+200
+0:08:24.79,000 --> 0:08:27,000
+esta nueva investigación a un público más amplio?
+
+201
+0:08:28.769,000 --> 0:08:3,000
+Una vez más, Venecia es extraordinaria para eso.
+
+202
+0:08:31.432,000 --> 0:08:33,000
+Con los millones de visitantes que recibe cada año
+
+203
+0:08:33.603,000 --> 0:08:34,000
+es uno de los mejores lugares
+
+204
+0:08:35.366,000 --> 0:08:37,000
+para tratar de inventar el museo del futuro.
+
+205
+0:08:38.354,000 --> 0:08:41,000
+Imaginen que en el eje horizontal ven el mapa reconstruido
+
+206
+0:08:41.658,000 --> 0:08:42,000
+de un año dado,
+
+207
+0:08:42.944,000 --> 0:08:44,000
+y en el vertical, ven el documento
+
+208
+0:08:45.902,000 --> 0:08:46,000
+usado para la reconstrucción,
+
+209
+0:08:47.413,000 --> 0:08:5,000
+pinturas, por ejemplo.
+
+210
+0:08:50.813,000 --> 0:08:52,000
+Imaginen un sistema inmersivo que permita
+
+211
+0:08:53.393,000 --> 0:08:56,000
+meterse, bucear y reconstruir la Venecia de un año dado,
+
+212
+0:08:56.895,000 --> 0:08:58,000
+una experiencia que podría compartirse en grupo.
+
+213
+0:08:59.61,000 --> 0:09:01,000
+O al contrario, imaginen que parten
+
+214
+0:09:01.856,000 --> 0:09:03,000
+de un documento, un manuscrito veneciano,
+
+215
+0:09:04.063,000 --> 0:09:07,000
+y muestran lo que se puede construir a partir de eso,
+
+216
+0:09:07.112,000 --> 0:09:08,000
+cómo se decodifica,
+
+217
+0:09:08.884,000 --> 0:09:1,000
+cómo puede recrearse el contexto de ese documento.
+
+218
+0:09:11.299,000 --> 0:09:12,000
+Esta es la imagen de una muestra
+
+219
+0:09:13.184,000 --> 0:09:15,000
+que actualmente se lleva a cabo en Ginebra
+
+220
+0:09:15.46,000 --> 0:09:17,000
+con ese tipo de sistema.
+
+221
+0:09:17.814,000 --> 0:09:19,000
+Para concluir, podemos decir que
+
+222
+0:09:19.989,000 --> 0:09:22,000
+la investigación en humanidades está a punto de experimentar
+
+223
+0:09:23.068,000 --> 0:09:24,000
+una evolución quizá similar
+
+224
+0:09:24.87,000 --> 0:09:28,000
+a lo ocurrido con las ciencias de la vida hace 30 años.
+
+225
+0:09:29.452,000 --> 0:09:33,000
+Es realmente una cuestión de escala.
+
+226
+0:09:34.13,000 --> 0:09:37,000
+Vemos proyectos que exceden
+
+227
+0:09:37.433,000 --> 0:09:4,000
+lo que puede hacer un simple equipo de investigación
+
+228
+0:09:41.276,000 --> 0:09:43,000
+y esto es realmente nuevo para las humanidades,
+
+229
+0:09:43.519,000 --> 0:09:46,000
+que muy a menudo tienen el hábito de trabajar
+
+230
+0:09:47.388,000 --> 0:09:51,000
+en pequeños grupos o solo con un par de investigadores.
+
+231
+0:09:51.396,000 --> 0:09:53,000
+Cuando uno visita el Archivio di Stato
+
+232
+0:09:53.514,000 --> 0:09:55,000
+siente que excede el trabajo de un solo equipo,
+
+233
+0:09:56.336,000 --> 0:09:59,000
+y que debe ser un esfuerzo conjunto y mancomunado.
+
+234
+0:10:00.17,000 --> 0:10:03,000
+Este cambio de paradigma requiere
+
+235
+0:10:03.276,000 --> 0:10:04,000
+fomentar una nueva generación
+
+236
+0:10:05.178,000 --> 0:10:06,000
+de "humanistas digitales"
+
+237
+0:10:06.715,000 --> 0:10:08,000
+que estén preparados para el cambio.
+
+238
+0:10:08.805,000 --> 0:10:09,000
+Muchas gracias.
+
+239
+0:10:10.764,000 --> 0:10:14,000
+(Aplausos)
+

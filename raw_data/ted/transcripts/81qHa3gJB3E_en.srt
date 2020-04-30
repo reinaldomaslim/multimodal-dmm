@@ -1,0 +1,1184 @@
+1
+0:00:25,000 --> 0:00:26,000
+So anyway, who am I?
+
+2
+0:00:26,000 --> 0:00:29,000
+I usually say to people, when they say, "What do you do?"
+
+3
+0:00:29,000 --> 0:00:31,000
+I say, "I do hardware,"
+
+4
+0:00:31,000 --> 0:00:33,000
+because it sort of conveniently encompasses everything I do.
+
+5
+0:00:33,000 --> 0:00:37,000
+And I recently said that to a venture capitalist casually at some
+
+6
+0:00:37,000 --> 0:00:4,000
+Valley event, to which he replied, "How quaint."
+
+7
+0:00:4,000 --> 0:00:42,000
+(Laughter)
+
+8
+0:00:42,000 --> 0:00:45,000
+And I sort of really was dumbstruck.
+
+9
+0:00:45,000 --> 0:00:47,000
+And I really should have said something smart.
+
+10
+0:00:47,000 --> 0:00:52,000
+And now I've had a little bit of time to think about it,
+
+11
+0:00:52,000 --> 0:00:54,000
+I would have said, "Well, you know,
+
+12
+0:00:54,000 --> 0:00:56,000
+if we look at the next 100 years
+
+13
+0:00:56,000 --> 0:00:58,000
+and we've seen all these problems in the last few days,
+
+14
+0:00:58,000 --> 0:01:01,000
+most of the big issues -- clean water, clean energy --
+
+15
+0:01:01,000 --> 0:01:03,000
+and they're interchangeable in some respects --
+
+16
+0:01:03,000 --> 0:01:05,000
+and cleaner, more functional materials --
+
+17
+0:01:05,000 --> 0:01:08,000
+they all look to me to be hardware problems.
+
+18
+0:01:08,000 --> 0:01:1,000
+This doesn't mean we should ignore software,
+
+19
+0:01:1,000 --> 0:01:12,000
+or information, or computation."
+
+20
+0:01:12,000 --> 0:01:15,000
+And that's in fact probably what I'm going to try and tell you about.
+
+21
+0:01:15,000 --> 0:01:18,000
+So, this talk is going to be about how do we make things
+
+22
+0:01:18,000 --> 0:01:23,000
+and what are the new ways that we're going to make things in the future.
+
+23
+0:01:23,000 --> 0:01:28,000
+Now, TED sends you a lot of spam if you're a speaker
+
+24
+0:01:28,000 --> 0:01:3,000
+about "do this, do that" and you fill out all these forms,
+
+25
+0:01:3,000 --> 0:01:33,000
+and you don't actually know how they're going to describe you,
+
+26
+0:01:33,000 --> 0:01:36,000
+and it flashed across my desk that they were going to introduce me as a futurist.
+
+27
+0:01:36,000 --> 0:01:38,000
+And I've always been nervous about the term "futurist,"
+
+28
+0:01:38,000 --> 0:01:41,000
+because you seem doomed to failure because you can't really predict it.
+
+29
+0:01:41,000 --> 0:01:44,000
+And I was laughing about this with the very smart colleagues I have,
+
+30
+0:01:44,000 --> 0:01:48,000
+and said, "You know, well, if I have to talk about the future, what is it?"
+
+31
+0:01:48,000 --> 0:01:53,000
+And George Homsey, a great guy, said, "Oh, the future is amazing.
+
+32
+0:01:53,000 --> 0:01:55,000
+It is so much stranger than you think.
+
+33
+0:01:55,000 --> 0:01:57,000
+We're going to reprogram the bacteria in your gut,
+
+34
+0:01:57,000 --> 0:02:02,000
+and we're going to make your poo smell like peppermint."
+
+35
+0:02:02,000 --> 0:02:04,000
+(Laughter)
+
+36
+0:02:04,000 --> 0:02:07,000
+So, you may think that's sort of really crazy,
+
+37
+0:02:07,000 --> 0:02:09,000
+but there are some pretty amazing things that are happening
+
+38
+0:02:09,000 --> 0:02:1,000
+that make this possible.
+
+39
+0:02:1,000 --> 0:02:14,000
+So, this isn't my work, but it's work of good friends of mine at MIT.
+
+40
+0:02:14,000 --> 0:02:16,000
+This is called the registry of standard biological parts.
+
+41
+0:02:16,000 --> 0:02:18,000
+This is headed by Drew Endy and Tom Knight
+
+42
+0:02:18,000 --> 0:02:21,000
+and a few other very, very bright individuals.
+
+43
+0:02:21,000 --> 0:02:24,000
+Basically, what they're doing is looking at biology as a programmable system.
+
+44
+0:02:24,000 --> 0:02:28,000
+Literally, think of proteins as subroutines
+
+45
+0:02:28,000 --> 0:02:31,000
+that you can string together to execute a program.
+
+46
+0:02:31,000 --> 0:02:36,000
+Now, this is actually becoming such an interesting idea.
+
+47
+0:02:36,000 --> 0:02:39,000
+This is a state diagram. That's an extremely simple computer.
+
+48
+0:02:39,000 --> 0:02:41,000
+This one is a two-bit counter.
+
+49
+0:02:41,000 --> 0:02:47,000
+So that's essentially the computational equivalent of two light switches.
+
+50
+0:02:47,000 --> 0:02:5,000
+And this is being built by a group of students at Zurich
+
+51
+0:02:5,000 --> 0:02:52,000
+for a design competition in biology.
+
+52
+0:02:52,000 --> 0:02:55,000
+And from the results of the same competition last year,
+
+53
+0:02:55,000 --> 0:02:59,000
+a University of Texas team of students programmed bacteria
+
+54
+0:02:59,000 --> 0:03:02,000
+so that they can detect light and switch on and off.
+
+55
+0:03:02,000 --> 0:03:04,000
+So this is interesting in the sense that you can now
+
+56
+0:03:04,000 --> 0:03:09,000
+do "if-then-for" statements in materials, in structure.
+
+57
+0:03:09,000 --> 0:03:11,000
+This is a pretty interesting trend,
+
+58
+0:03:11,000 --> 0:03:13,000
+because we used to live in a world where everyone's said glibly,
+
+59
+0:03:13,000 --> 0:03:17,000
+"Form follows function," but I think I've sort of grown up in a world
+
+60
+0:03:17,000 --> 0:03:2,000
+-- you listened to Neil Gershenfeld yesterday;
+
+61
+0:03:2,000 --> 0:03:24,000
+I was in a lab associated with his -- where it's really a world
+
+62
+0:03:24,000 --> 0:03:27,000
+where information defines form and function.
+
+63
+0:03:27,000 --> 0:03:31,000
+I spent six years thinking about that,
+
+64
+0:03:31,000 --> 0:03:33,000
+but to show you the power of art over science --
+
+65
+0:03:33,000 --> 0:03:36,000
+this is actually one of the cartoons I write. These are called "HowToons."
+
+66
+0:03:36,000 --> 0:03:38,000
+I work with a fabulous illustrator called Nick Dragotta.
+
+67
+0:03:38,000 --> 0:03:4,000
+Took me six years at MIT,
+
+68
+0:03:4,000 --> 0:03:44,000
+and about that many pages to describe what I was doing,
+
+69
+0:03:44,000 --> 0:03:49,000
+and it took him one page. And so this is our muse Tucker.
+
+70
+0:03:49,000 --> 0:03:51,000
+He's an interesting little kid -- and his sister, Celine --
+
+71
+0:03:51,000 --> 0:03:53,000
+and what he's doing here
+
+72
+0:03:53,000 --> 0:03:57,000
+is observing the self-assembly of his Cheerios in his cereal bowl.
+
+73
+0:03:57,000 --> 0:04:,000
+And in fact you can program the self-assembly of things,
+
+74
+0:04:,000 --> 0:04:02,000
+so he starts chocolate-dipping edges,
+
+75
+0:04:02,000 --> 0:04:04,000
+changing the hydrophobicity and the hydrophylicity.
+
+76
+0:04:04,000 --> 0:04:06,000
+In theory, if you program those sufficiently,
+
+77
+0:04:06,000 --> 0:04:08,000
+you should be able to do something pretty interesting
+
+78
+0:04:08,000 --> 0:04:1,000
+and make a very complex structure.
+
+79
+0:04:1,000 --> 0:04:15,000
+In this case, he's done self-replication of a complex 3D structure.
+
+80
+0:04:15,000 --> 0:04:18,000
+And that's what I thought about for a long time,
+
+81
+0:04:18,000 --> 0:04:2,000
+because this is how we currently make things.
+
+82
+0:04:2,000 --> 0:04:22,000
+This is a silicon wafer, and essentially
+
+83
+0:04:22,000 --> 0:04:26,000
+that's just a whole bunch of layers of two-dimensional stuff, sort of layered up.
+
+84
+0:04:26,000 --> 0:04:28,000
+The feature side is -- you know, people will say,
+
+85
+0:04:28,000 --> 0:04:3,000
+[unclear] down around about 65 nanometers now.
+
+86
+0:04:3,000 --> 0:04:32,000
+On the right, that's a radiolara.
+
+87
+0:04:32,000 --> 0:04:35,000
+That's a unicellular organism ubiquitous in the oceans.
+
+88
+0:04:35,000 --> 0:04:39,000
+And that has feature sizes down to about 20 nanometers,
+
+89
+0:04:39,000 --> 0:04:41,000
+and it's a complex 3D structure.
+
+90
+0:04:41,000 --> 0:04:45,000
+We could do a lot more with computers and things generally
+
+91
+0:04:45,000 --> 0:04:48,000
+if we knew how to build things this way.
+
+92
+0:04:48,000 --> 0:04:51,000
+The secret to biology is, it builds computation
+
+93
+0:04:51,000 --> 0:04:54,000
+into the way it makes things. So this little thing here, polymerase,
+
+94
+0:04:54,000 --> 0:04:59,000
+is essentially a supercomputer designed for replicating DNA.
+
+95
+0:04:59,000 --> 0:05:02,000
+And the ribosome here is another little computer
+
+96
+0:05:02,000 --> 0:05:04,000
+that helps in the translation of the proteins.
+
+97
+0:05:04,000 --> 0:05:05,000
+I thought about this
+
+98
+0:05:05,000 --> 0:05:08,000
+in the sense that it's great to build in biological materials,
+
+99
+0:05:08,000 --> 0:05:1,000
+but can we do similar things?
+
+100
+0:05:1,000 --> 0:05:12,000
+Can we get self-replicating-type behavior?
+
+101
+0:05:12,000 --> 0:05:16,000
+Can we get complex 3D structure automatically assembling
+
+102
+0:05:16,000 --> 0:05:18,000
+in inorganic systems?
+
+103
+0:05:18,000 --> 0:05:2,000
+Because there are some advantages to inorganic systems,
+
+104
+0:05:2,000 --> 0:05:22,000
+like higher speed semiconductors, etc.
+
+105
+0:05:22,000 --> 0:05:24,000
+So, this is some of my work
+
+106
+0:05:24,000 --> 0:05:3,000
+on how do you do an autonomously self-replicating system.
+
+107
+0:05:3,000 --> 0:05:32,000
+And this is sort of Babbage's revenge.
+
+108
+0:05:32,000 --> 0:05:33,000
+These are little mechanical computers.
+
+109
+0:05:33,000 --> 0:05:36,000
+These are five-state state machines.
+
+110
+0:05:36,000 --> 0:05:39,000
+So, that's about three light switches lined up.
+
+111
+0:05:39,000 --> 0:05:41,000
+In a neutral state, they won't bind at all.
+
+112
+0:05:41,000 --> 0:05:45,000
+Now, if I make a string of these, a bit string,
+
+113
+0:05:45,000 --> 0:05:47,000
+they will be able to replicate.
+
+114
+0:05:47,000 --> 0:05:48,000
+So we start with white, blue, blue, white.
+
+115
+0:05:48,000 --> 0:05:54,000
+That encodes; that will now copy. From one comes two,
+
+116
+0:05:54,000 --> 0:05:56,000
+and then from two comes three.
+
+117
+0:05:56,000 --> 0:06:,000
+And so you've got this sort of replicating system.
+
+118
+0:06:,000 --> 0:06:02,000
+It was work actually by Lionel Penrose,
+
+119
+0:06:02,000 --> 0:06:05,000
+father of Roger Penrose, the tiles guy.
+
+120
+0:06:05,000 --> 0:06:07,000
+He did a lot of this work in the '60s,
+
+121
+0:06:07,000 --> 0:06:09,000
+and so a lot of this logic theory lay fallow
+
+122
+0:06:09,000 --> 0:06:12,000
+as we went down the digital computer revolution, but it's now coming back.
+
+123
+0:06:12,000 --> 0:06:16,000
+So now I'm going to show you the hands-free, autonomous self-replication.
+
+124
+0:06:16,000 --> 0:06:18,000
+So we've tracked in the video the input string,
+
+125
+0:06:18,000 --> 0:06:2,000
+which was green, green, yellow, yellow, green.
+
+126
+0:06:2,000 --> 0:06:24,000
+We set them off on this air hockey table.
+
+127
+0:06:24,000 --> 0:06:26,000
+You know, high science uses air hockey tables --
+
+128
+0:06:26,000 --> 0:06:27,000
+(Laughter)
+
+129
+0:06:27,000 --> 0:06:29,000
+-- and if you watch this thing long enough you get dizzy,
+
+130
+0:06:29,000 --> 0:06:32,000
+but what you're actually seeing is copies of that original string
+
+131
+0:06:32,000 --> 0:06:35,000
+emerging from the parts bin that you have here.
+
+132
+0:06:35,000 --> 0:06:4,000
+So we've got autonomous replication of bit strings.
+
+133
+0:06:4,000 --> 0:06:43,000
+So, why would you want to replicate bit strings?
+
+134
+0:06:43,000 --> 0:06:46,000
+Well, it turns out biology has this other very interesting meme,
+
+135
+0:06:46,000 --> 0:06:49,000
+that you can take a linear string, which is a convenient thing to copy,
+
+136
+0:06:49,000 --> 0:06:53,000
+and you can fold that into an arbitrarily complex 3D structure.
+
+137
+0:06:53,000 --> 0:06:56,000
+So I was trying to, you know, take the engineer's version:
+
+138
+0:06:56,000 --> 0:06:59,000
+Can we build a mechanical system in inorganic materials
+
+139
+0:06:59,000 --> 0:07:,000
+that will do the same thing?
+
+140
+0:07:,000 --> 0:07:05,000
+So what I'm showing you here is that we can make a 2D shape --
+
+141
+0:07:05,000 --> 0:07:09,000
+the B -- assemble from a string of components
+
+142
+0:07:09,000 --> 0:07:11,000
+that follow extremely simple rules.
+
+143
+0:07:11,000 --> 0:07:14,000
+And the whole point of going with the extremely simple rules here,
+
+144
+0:07:14,000 --> 0:07:17,000
+and the incredibly simple state machines in the previous design,
+
+145
+0:07:17,000 --> 0:07:2,000
+was that you don't need digital logic to do computation.
+
+146
+0:07:2,000 --> 0:07:24,000
+And that way you can scale things much smaller than microchips.
+
+147
+0:07:24,000 --> 0:07:28,000
+So you can literally use these as the tiny components in the assembly process.
+
+148
+0:07:28,000 --> 0:07:33,000
+So, Neil Gershenfeld showed you this video on Wednesday, I believe,
+
+149
+0:07:33,000 --> 0:07:35,000
+but I'll show you again.
+
+150
+0:07:35,000 --> 0:07:38,000
+This is literally the colored sequence of those tiles.
+
+151
+0:07:38,000 --> 0:07:41,000
+Each different color has a different magnetic polarity,
+
+152
+0:07:41,000 --> 0:07:46,000
+and the sequence is uniquely specifying the structure that is coming out.
+
+153
+0:07:46,000 --> 0:07:49,000
+Now, hopefully, those of you who know anything about graph theory
+
+154
+0:07:49,000 --> 0:07:51,000
+can look at that, and that will satisfy you
+
+155
+0:07:51,000 --> 0:07:54,000
+that that can also do arbitrary 3D structure,
+
+156
+0:07:54,000 --> 0:07:59,000
+and in fact, you know, I can now take a dog, carve it up
+
+157
+0:07:59,000 --> 0:08:01,000
+and then reassemble it so it's a linear string
+
+158
+0:08:01,000 --> 0:08:03,000
+that will fold from a sequence. And now
+
+159
+0:08:03,000 --> 0:08:1,000
+I can actually define that three-dimensional object as a sequence of bits.
+
+160
+0:08:1,000 --> 0:08:13,000
+So, you know, it's a pretty interesting world
+
+161
+0:08:13,000 --> 0:08:15,000
+when you start looking at the world a little bit differently.
+
+162
+0:08:15,000 --> 0:08:18,000
+And the universe is now a compiler.
+
+163
+0:08:18,000 --> 0:08:2,000
+And so I'm thinking about, you know, what are the programs
+
+164
+0:08:2,000 --> 0:08:23,000
+for programming the physical universe?
+
+165
+0:08:23,000 --> 0:08:26,000
+And how do we think about materials and structure,
+
+166
+0:08:26,000 --> 0:08:29,000
+sort of as an information and computation problem?
+
+167
+0:08:29,000 --> 0:08:32,000
+Not just where you attach a micro-controller to the end point,
+
+168
+0:08:32,000 --> 0:08:37,000
+but that the structure and the mechanisms are the logic, are the computers.
+
+169
+0:08:37,000 --> 0:08:42,000
+Having totally absorbed this philosophy,
+
+170
+0:08:42,000 --> 0:08:45,000
+I started looking at a lot of problems a little differently.
+
+171
+0:08:45,000 --> 0:08:46,000
+With the universe as a computer,
+
+172
+0:08:46,000 --> 0:08:48,000
+you can look at this droplet of water
+
+173
+0:08:48,000 --> 0:08:5,000
+as having performed the computations.
+
+174
+0:08:5,000 --> 0:08:52,000
+You set a couple of boundary conditions, like gravity,
+
+175
+0:08:52,000 --> 0:08:56,000
+the surface tension, density, etc., and then you press "execute,"
+
+176
+0:08:56,000 --> 0:09:01,000
+and magically, the universe produces you a perfect ball lens.
+
+177
+0:09:01,000 --> 0:09:03,000
+So, this actually applied to the problem
+
+178
+0:09:03,000 --> 0:09:06,000
+of -- so there's a half a billion to a billion people in the world
+
+179
+0:09:06,000 --> 0:09:08,000
+don't have access to cheap eyeglasses.
+
+180
+0:09:08,000 --> 0:09:1,000
+So can you make a machine
+
+181
+0:09:1,000 --> 0:09:14,000
+that could make any prescription lens very quickly on site?
+
+182
+0:09:14,000 --> 0:09:18,000
+This is a machine where you literally define a boundary condition.
+
+183
+0:09:18,000 --> 0:09:21,000
+If it's circular, you make a spherical lens.
+
+184
+0:09:21,000 --> 0:09:24,000
+If it's elliptical, you can make an astigmatic lens.
+
+185
+0:09:24,000 --> 0:09:27,000
+You then put a membrane on that and you apply pressure --
+
+186
+0:09:27,000 --> 0:09:29,000
+so that's part of the extra program.
+
+187
+0:09:29,000 --> 0:09:32,000
+And literally with only those two inputs --
+
+188
+0:09:32,000 --> 0:09:34,000
+so, the shape of your boundary condition and the pressure --
+
+189
+0:09:34,000 --> 0:09:36,000
+you can define an infinite number of lenses
+
+190
+0:09:36,000 --> 0:09:38,000
+that cover the range of human refractive error,
+
+191
+0:09:38,000 --> 0:09:43,000
+from minus 12 to plus eight diopters, up to four diopters of cylinder.
+
+192
+0:09:43,000 --> 0:09:46,000
+And then literally, you now pour on a monomer.
+
+193
+0:09:46,000 --> 0:09:49,000
+You know, I'll do a Julia Childs here.
+
+194
+0:09:49,000 --> 0:09:52,000
+This is three minutes of UV light.
+
+195
+0:09:52,000 --> 0:09:55,000
+And you reverse the pressure on your membrane
+
+196
+0:09:55,000 --> 0:09:58,000
+once you've cooked it. Pop it out.
+
+197
+0:09:58,000 --> 0:10:01,000
+I've seen this video, but I still don't know if it's going to end right.
+
+198
+0:10:01,000 --> 0:10:04,000
+(Laughter)
+
+199
+0:10:04,000 --> 0:10:06,000
+So you reverse this. This is a very old movie,
+
+200
+0:10:06,000 --> 0:10:1,000
+so with the new prototypes, actually both surfaces are flexible,
+
+201
+0:10:1,000 --> 0:10:12,000
+but this will show you the point.
+
+202
+0:10:12,000 --> 0:10:14,000
+Now you've finished the lens, you literally pop it out.
+
+203
+0:10:14,000 --> 0:10:21,000
+That's next year's Yves Klein, you know, eyeglasses shape.
+
+204
+0:10:21,000 --> 0:10:24,000
+And you can see that that has a mild prescription of about minus two diopters.
+
+205
+0:10:24,000 --> 0:10:28,000
+And as I rotate it against this side shot, you'll see that that has cylinder,
+
+206
+0:10:28,000 --> 0:10:29,000
+and that was programmed in --
+
+207
+0:10:29,000 --> 0:10:33,000
+literally into the physics of the system.
+
+208
+0:10:33,000 --> 0:10:36,000
+So, this sort of thinking about structure as computation
+
+209
+0:10:36,000 --> 0:10:41,000
+and structure as information leads to other things, like this.
+
+210
+0:10:41,000 --> 0:10:44,000
+This is something that my people at SQUID Labs
+
+211
+0:10:44,000 --> 0:10:46,000
+are working on at the moment, called "electronic rope."
+
+212
+0:10:46,000 --> 0:10:5,000
+So literally, you think about a rope. It has very complex structure in the weave.
+
+213
+0:10:5,000 --> 0:10:52,000
+And under no load, it's one structure.
+
+214
+0:10:52,000 --> 0:10:55,000
+Under a different load, it's a different structure. And you can actually exploit that
+
+215
+0:10:55,000 --> 0:10:57,000
+by putting in a very small number of
+
+216
+0:10:57,000 --> 0:10:59,000
+conducting fibers to actually make it a sensor.
+
+217
+0:10:59,000 --> 0:11:02,000
+So this is now a rope that knows the load on the rope
+
+218
+0:11:02,000 --> 0:11:04,000
+at any particular point in the rope.
+
+219
+0:11:04,000 --> 0:11:07,000
+Just by thinking about the physics of the world,
+
+220
+0:11:07,000 --> 0:11:09,000
+materials as the computer,
+
+221
+0:11:09,000 --> 0:11:12,000
+you can start to do things like this.
+
+222
+0:11:12,000 --> 0:11:15,000
+I'm going to segue a little here.
+
+223
+0:11:15,000 --> 0:11:17,000
+I guess I'm just going to casually tell you the types of things
+
+224
+0:11:17,000 --> 0:11:18,000
+that I think about with this.
+
+225
+0:11:18,000 --> 0:11:22,000
+One thing I'm really interested about this right now is, how,
+
+226
+0:11:22,000 --> 0:11:26,000
+if you're really taking this view of the universe as a computer,
+
+227
+0:11:26,000 --> 0:11:28,000
+how do we make things in a very general sense,
+
+228
+0:11:28,000 --> 0:11:32,000
+and how might we share the way we make things in a general sense
+
+229
+0:11:32,000 --> 0:11:35,000
+the same way you share open source hardware?
+
+230
+0:11:35,000 --> 0:11:38,000
+And a lot of talks here have espoused the benefits
+
+231
+0:11:38,000 --> 0:11:4,000
+of having lots of people look at problems,
+
+232
+0:11:4,000 --> 0:11:43,000
+share the information and work on those things together.
+
+233
+0:11:43,000 --> 0:11:46,000
+So, a convenient thing about being a human is you move in linear time,
+
+234
+0:11:46,000 --> 0:11:48,000
+and unless Lisa Randall changes that,
+
+235
+0:11:48,000 --> 0:11:51,000
+we'll continue to move in linear time.
+
+236
+0:11:51,000 --> 0:11:53,000
+So that means anything you do, or anything you make,
+
+237
+0:11:53,000 --> 0:11:55,000
+you produce a sequence of steps --
+
+238
+0:11:55,000 --> 0:11:58,000
+and I think Lego in the '70s nailed this,
+
+239
+0:11:58,000 --> 0:11:59,000
+and they did it most elegantly.
+
+240
+0:11:59,000 --> 0:12:03,000
+But they can show you how to build things in sequence.
+
+241
+0:12:03,000 --> 0:12:06,000
+So, I'm thinking about, how can we generalize
+
+242
+0:12:06,000 --> 0:12:08,000
+the way we make all sorts of things,
+
+243
+0:12:08,000 --> 0:12:1,000
+so you end up with this sort of guy, right?
+
+244
+0:12:1,000 --> 0:12:15,000
+And I think this applies across a very broad -- sort of, a lot of concepts.
+
+245
+0:12:15,000 --> 0:12:17,000
+You know, Cameron Sinclair yesterday said,
+
+246
+0:12:17,000 --> 0:12:19,000
+"How do I get everyone to collaborate on design
+
+247
+0:12:19,000 --> 0:12:22,000
+globally to do housing for humanity?"
+
+248
+0:12:22,000 --> 0:12:24,000
+And if you've seen Amy Smith,
+
+249
+0:12:24,000 --> 0:12:28,000
+she talks about how you get students at MIT
+
+250
+0:12:28,000 --> 0:12:3,000
+to work with communities in Haiti.
+
+251
+0:12:3,000 --> 0:12:32,000
+And I think we have to sort of redefine and rethink
+
+252
+0:12:32,000 --> 0:12:36,000
+how we define structure and materials and assembly things,
+
+253
+0:12:36,000 --> 0:12:38,000
+so that we can really share the information
+
+254
+0:12:38,000 --> 0:12:4,000
+on how you do those things in a more profound way
+
+255
+0:12:4,000 --> 0:12:43,000
+and build on each other's source code for structure.
+
+256
+0:12:43,000 --> 0:12:44,000
+I don't know exactly how to do this yet,
+
+257
+0:12:44,000 --> 0:12:49,000
+but, you know, it's something being actively thought about.
+
+258
+0:12:49,000 --> 0:12:51,000
+So, you know, that leads to questions
+
+259
+0:12:51,000 --> 0:12:55,000
+like, is this a compiler? Is this a sub-routine?
+
+260
+0:12:55,000 --> 0:12:56,000
+Interesting things like that.
+
+261
+0:12:56,000 --> 0:12:59,000
+Maybe I'm getting a little too abstract, but you know,
+
+262
+0:12:59,000 --> 0:13:02,000
+this is the sort of -- returning to our comic characters --
+
+263
+0:13:02,000 --> 0:13:04,000
+this is sort of the universe, or a different universe view,
+
+264
+0:13:04,000 --> 0:13:06,000
+that I think is going to be very prevalent in the future --
+
+265
+0:13:06,000 --> 0:13:09,000
+from biotech to materials assembly. It was great to hear Bill Joy.
+
+266
+0:13:09,000 --> 0:13:12,000
+They're starting to invest in materials science,
+
+267
+0:13:12,000 --> 0:13:14,000
+but these are the new things in materials science.
+
+268
+0:13:14,000 --> 0:13:18,000
+How do we put real information and real structure into new ideas,
+
+269
+0:13:18,000 --> 0:13:21,000
+and see the world in a different way? And it's not going to be binary code
+
+270
+0:13:21,000 --> 0:13:23,000
+that defines the computers of the universe --
+
+271
+0:13:23,000 --> 0:13:25,000
+it's sort of an analog computer.
+
+272
+0:13:25,000 --> 0:13:3,000
+But it's definitely an interesting new worldview.
+
+273
+0:13:3,000 --> 0:13:33,000
+I've gone too far. So that sounds like it's it.
+
+274
+0:13:33,000 --> 0:13:35,000
+I've probably got a couple of minutes of questions,
+
+275
+0:13:35,000 --> 0:13:39,000
+or I can show -- I think they also said that I do extreme stuff
+
+276
+0:13:39,000 --> 0:13:43,000
+in the introduction, so I may have to explain that.
+
+277
+0:13:43,000 --> 0:13:46,000
+So maybe I'll do that with this short video.
+
+278
+0:13:46,000 --> 0:13:52,000
+So this is actually a 3,000-square-foot kite,
+
+279
+0:13:52,000 --> 0:13:54,000
+which also happens to be a minimal energy surface.
+
+280
+0:13:54,000 --> 0:13:56,000
+So returning to the droplet, again,
+
+281
+0:13:56,000 --> 0:13:58,000
+thinking about the universe in a new way.
+
+282
+0:13:58,000 --> 0:14:,000
+This is a kite designed by a guy called Dave Kulp.
+
+283
+0:14:,000 --> 0:14:02,000
+And why do you want a 3,000-square-foot kite?
+
+284
+0:14:02,000 --> 0:14:04,000
+So that's a kite the size of your house.
+
+285
+0:14:04,000 --> 0:14:08,000
+And so you want that to tow boats very fast.
+
+286
+0:14:08,000 --> 0:14:11,000
+So I've been working on this a little, also,
+
+287
+0:14:11,000 --> 0:14:13,000
+with a couple of other guys.
+
+288
+0:14:13,000 --> 0:14:15,000
+But, you know, this is another way to look at the --
+
+289
+0:14:15,000 --> 0:14:17,000
+if you abstract again,
+
+290
+0:14:17,000 --> 0:14:21,000
+this is a structure that is defined by the physics of the universe.
+
+291
+0:14:21,000 --> 0:14:22,000
+You could just hang it as a bed sheet,
+
+292
+0:14:22,000 --> 0:14:24,000
+but again, the computation of all the physics
+
+293
+0:14:24,000 --> 0:14:26,000
+gives you the aerodynamic shape.
+
+294
+0:14:26,000 --> 0:14:29,000
+And so you can actually sort of almost double your boat speed
+
+295
+0:14:29,000 --> 0:14:36,000
+with systems like that. So that's sort of another interesting aspect of the future.
+
+296
+0:14:36,000 --> 0:14:37,000
+(Applause)
+

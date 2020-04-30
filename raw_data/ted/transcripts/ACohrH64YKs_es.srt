@@ -1,0 +1,324 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Larisa Esteche Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:16.26,000 --> 0:00:19,000
+Les presento a Rezero.
+
+3
+0:00:19.26,000 --> 0:00:21,000
+Este compañero fue desarrollado
+
+4
+0:00:21.26,000 --> 0:00:23,000
+por un grupo de 10 estudiantes universitarios
+
+5
+0:00:23.26,000 --> 0:00:25,000
+en el Laboratorio de Sistemas Autónomos
+
+6
+0:00:25.26,000 --> 0:00:27,000
+de la universidad técnica de Zurich (ETH).
+
+7
+0:00:27.26,000 --> 0:00:29,000
+Nuestro robot pertenece a una familia de robots
+
+8
+0:00:29.26,000 --> 0:00:31,000
+llamados Robopelota.
+
+9
+0:00:31.26,000 --> 0:00:33,000
+En vez de ruedas, un Robopelota se sostiene
+
+10
+0:00:33.26,000 --> 0:00:35,000
+y mueve sobre una sola pelota.
+
+11
+0:00:35.26,000 --> 0:00:37,000
+La característica principal de este sistema es
+
+12
+0:00:37.26,000 --> 0:00:4,000
+que hay un único punto de contacto con el suelo.
+
+13
+0:00:40.26,000 --> 0:00:42,000
+Esto significa que el robot
+
+14
+0:00:42.26,000 --> 0:00:44,000
+es intrínsecamente inestable.
+
+15
+0:00:44.26,000 --> 0:00:46,000
+Es como cuando trato de sostenerme
+
+16
+0:00:46.26,000 --> 0:00:47,000
+en un pie.
+
+17
+0:00:47.26,000 --> 0:00:49,000
+Se preguntarán cuál es la utilidad
+
+18
+0:00:49.26,000 --> 0:00:51,000
+de un robot inestable.
+
+19
+0:00:51.26,000 --> 0:00:53,000
+Se lo explicaré en un segundo.
+
+20
+0:00:53.26,000 --> 0:00:55,000
+Primero les diré cómo Rezero
+
+21
+0:00:55.26,000 --> 0:00:57,000
+mantiene el equilibrio.
+
+22
+0:00:57.26,000 --> 0:00:59,000
+Rezero se sostiene midiendo
+
+23
+0:00:59.26,000 --> 0:01:02,000
+su ángulo de inclinación constantemente con un sensor.
+
+24
+0:01:02.26,000 --> 0:01:05,000
+Luego contrarresta y evita caerse
+
+25
+0:01:05.26,000 --> 0:01:07,000
+girando los motores de manera apropiada.
+
+26
+0:01:07.26,000 --> 0:01:09,000
+Esto sucede 160 veces por segundo,
+
+27
+0:01:09.26,000 --> 0:01:11,000
+y si algo falla en este proceso,
+
+28
+0:01:11.26,000 --> 0:01:14,000
+Rezero inmediatamente cae al suelo.
+
+29
+0:01:14.26,000 --> 0:01:16,000
+Para moverse y sostenerse,
+
+30
+0:01:16.26,000 --> 0:01:18,000
+Rezero debe girar la pelota.
+
+31
+0:01:18.26,000 --> 0:01:2,000
+Tres ruedas especiales manejan la pelota
+
+32
+0:01:20.26,000 --> 0:01:23,000
+lo que permite a Rezero moverse en cualquier dirección
+
+33
+0:01:23.26,000 --> 0:01:25,000
+e incluso moverse sobre su propio eje
+
+34
+0:01:25.26,000 --> 0:01:29,000
+al mismo tiempo.
+
+35
+0:01:29.26,000 --> 0:01:31,000
+Debido a esta inestabilidad, Rezero está en constante
+
+36
+0:01:31.26,000 --> 0:01:33,000
+movimiento. Ahora, ahí está el truco.
+
+37
+0:01:33.26,000 --> 0:01:36,000
+De hecho, es esta inestabilidad lo que permite
+
+38
+0:01:36.26,000 --> 0:01:38,000
+a un robot moverse dinámicamente.
+
+39
+0:01:38.26,000 --> 0:01:4,000
+Juguemos un poco.
+
+40
+0:01:40.26,000 --> 0:01:42,000
+Se habrán preguntado qué pasaría
+
+41
+0:01:42.26,000 --> 0:01:45,000
+si le doy un empujoncito al robot.
+
+42
+0:01:47.26,000 --> 0:01:49,000
+En este modo, trata de mantener
+
+43
+0:01:49.26,000 --> 0:01:52,000
+su posición.
+
+44
+0:01:52.26,000 --> 0:01:55,000
+Para la siguiente demostración, me gustaría presentarles
+
+45
+0:01:55.26,000 --> 0:01:58,000
+a mis colegas Michael, en la computadora,
+
+46
+0:01:58.26,000 --> 0:02:01,000
+y Thomas quien me ayudará en el escenario.
+
+47
+0:02:02.26,000 --> 0:02:04,000
+En el siguiente modo, Rezero está pasivo,
+
+48
+0:02:04.26,000 --> 0:02:07,000
+y lo podemos mover.
+
+49
+0:02:08.26,000 --> 0:02:1,000
+Casi sin fuerza puedo controlar
+
+50
+0:02:10.26,000 --> 0:02:13,000
+su posición y velocidad.
+
+51
+0:02:16.26,000 --> 0:02:19,000
+También puedo hacerlo girar.
+
+52
+0:02:30.26,000 --> 0:02:32,000
+En el siguiente modo, podemos hacer que Rezero
+
+53
+0:02:32.26,000 --> 0:02:35,000
+siga a una persona.
+
+54
+0:02:35.26,000 --> 0:02:38,000
+Ahora mantiene una distancia constante con Thomas.
+
+55
+0:02:42.26,000 --> 0:02:44,000
+Esto funciona con un sensor láser
+
+56
+0:02:44.26,000 --> 0:02:46,000
+que se encuentra en la parte superior de Rezero.
+
+57
+0:02:50.26,000 --> 0:02:52,000
+Con el mismo método, podemos hacer
+
+58
+0:02:52.26,000 --> 0:02:55,000
+que de vueltas alrededor de una persona.
+
+59
+0:02:57.26,000 --> 0:03:01,000
+Lo llamamos modo orbital.
+
+60
+0:03:10.26,000 --> 0:03:12,000
+Bien, muchas gracias, Thomas.
+
+61
+0:03:12.26,000 --> 0:03:16,000
+(Aplausos)
+
+62
+0:03:16.26,000 --> 0:03:19,000
+Ahora bien, ¿cuál es el uso de esta tecnología?
+
+63
+0:03:22.26,000 --> 0:03:24,000
+Por ahora, es un experimento, pero déjenme
+
+64
+0:03:24.26,000 --> 0:03:27,000
+mostrales algunas posibles aplicaciones futuras,
+
+65
+0:03:28.26,000 --> 0:03:3,000
+Rezero puede utilizarse en exhibiciones o parques.
+
+66
+0:03:30.26,000 --> 0:03:32,000
+Con una pantalla podría informar o mostrar a las personas
+
+67
+0:03:32.26,000 --> 0:03:35,000
+de una forma divertida y entretenida.
+
+68
+0:03:35.26,000 --> 0:03:37,000
+En un hospital este dispositivo podría usarse
+
+69
+0:03:37.26,000 --> 0:03:39,000
+para llevar equipo médico.
+
+70
+0:03:39.26,000 --> 0:03:41,000
+Debido al sistema Robopelota, tiene una huella muy
+
+71
+0:03:41.26,000 --> 0:03:44,000
+pequeña y es fácil de manejar.
+
+72
+0:03:44.26,000 --> 0:03:46,000
+Y por supuesto, a quién no le gustaría
+
+73
+0:03:46.26,000 --> 0:03:49,000
+pasear en uno de estos.
+
+74
+0:03:49.26,000 --> 0:03:51,000
+Y éstas son aplicaciones más prácticas.
+
+75
+0:03:51.26,000 --> 0:03:53,000
+Pero también hay cierta belleza
+
+76
+0:03:53.26,000 --> 0:03:55,000
+dentro de esta tecnología.
+
+77
+0:03:55.26,000 --> 0:04:04,000
+(Música)
+
+78
+0:04:58.26,000 --> 0:04:59,000
+(Aplausos)
+
+79
+0:04:59.26,000 --> 0:05:01,000
+Muchas gracias.
+
+80
+0:05:01.26,000 --> 0:05:05,000
+(Aplausos)
+
+81
+0:05:05.26,000 --> 0:05:07,000
+Gracias.
+

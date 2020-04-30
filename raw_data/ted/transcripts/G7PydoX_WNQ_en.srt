@@ -1,0 +1,424 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Krystian Aparta
+
+2
+0:00:12.355,000 --> 0:00:14,000
+Greg Gage: It's an age-old pursuit of all parents,
+
+3
+0:00:14.806,000 --> 0:00:16,000
+getting their kids to eat their vegetables.
+
+4
+0:00:16.832,000 --> 0:00:18,000
+But getting them to eat cookies or ice cream
+
+5
+0:00:18.905,000 --> 0:00:19,000
+is relatively easy,
+
+6
+0:00:20.08,000 --> 0:00:22,000
+and that's because our brains prefer sweetness.
+
+7
+0:00:22.345,000 --> 0:00:24,000
+Now, there's a new technology called optogenetics
+
+8
+0:00:24.784,000 --> 0:00:26,000
+which may be able to trick our taste buds,
+
+9
+0:00:26.83,000 --> 0:00:28,000
+for instance preferring vegetables over sweets.
+
+10
+0:00:29.467,000 --> 0:00:31,000
+We're going to try this today using fruit flies.
+
+11
+0:00:32.108,000 --> 0:00:34,000
+[DIY Neuroscience]
+
+12
+0:00:35.086,000 --> 0:00:37,000
+The reason why we experiment with fruit flies
+
+13
+0:00:37.22,000 --> 0:00:39,000
+is they have a small enough nervous system
+
+14
+0:00:39.255,000 --> 0:00:42,000
+that gives us a fighting chance to really understand what's going on.
+
+15
+0:00:42.521,000 --> 0:00:45,000
+And believe it or not, their taste buds are very similar to ours.
+
+16
+0:00:45.624,000 --> 0:00:47,000
+But before we try to manipulate their taste preferences,
+
+17
+0:00:48.307,000 --> 0:00:5,000
+we need to establish: What is the baseline of the fruit fly?
+
+18
+0:00:51.185,000 --> 0:00:52,000
+What does it prefer?
+
+19
+0:00:52.36,000 --> 0:00:53,000
+We call this a control experiment.
+
+20
+0:00:54.272,000 --> 0:00:56,000
+Spencer's been hard at work doing this.
+
+21
+0:00:56.499,000 --> 0:00:58,000
+OK, Spencer, let's do our first experiment.
+
+22
+0:00:58.587,000 --> 0:01:01,000
+We want to test to see if fruit flies prefer bananas or broccoli.
+
+23
+0:01:01.905,000 --> 0:01:02,000
+So what do we need?
+
+24
+0:01:03.476,000 --> 0:01:06,000
+Spencer Brown: So we need the fly pad, which is basically an iPad for flies.
+
+25
+0:01:07.097,000 --> 0:01:08,000
+It measures the touch.
+
+26
+0:01:08.304,000 --> 0:01:09,000
+GG: You put a fly in each chamber?
+
+27
+0:01:10.288,000 --> 0:01:12,000
+SB: Yeah. Inside, we'll offer them banana and broccoli
+
+28
+0:01:13.211,000 --> 0:01:14,000
+to see which one they prefer.
+
+29
+0:01:14.621,000 --> 0:01:15,000
+GG: In order to count how many times
+
+30
+0:01:16.424,000 --> 0:01:18,000
+the fruit fly eats a banana versus the broccoli,
+
+31
+0:01:18.926,000 --> 0:01:2,000
+these chambers have been outfitted with a small electrode
+
+32
+0:01:21.662,000 --> 0:01:22,000
+that sends data to a computer.
+
+33
+0:01:23.276,000 --> 0:01:26,000
+And so what were your findings on banana versus broccoli?
+
+34
+0:01:26.442,000 --> 0:01:28,000
+SB: I found that the flies visited banana the most.
+
+35
+0:01:29.003,000 --> 0:01:3,000
+GG: Both were there, but like most kids,
+
+36
+0:01:30.951,000 --> 0:01:34,000
+they choose not to eat the broccoli, and they go switch to something sweeter.
+
+37
+0:01:35.258,000 --> 0:01:37,000
+GG: Now a quick background on how taste works.
+
+38
+0:01:37.464,000 --> 0:01:39,000
+Taste buds are made up of specialized neurons
+
+39
+0:01:39.669,000 --> 0:01:4,000
+called taste receptors.
+
+40
+0:01:40.861,000 --> 0:01:42,000
+When we eat something that triggers a particular taste,
+
+41
+0:01:43.535,000 --> 0:01:45,000
+those taste neurons will fire a signal to the brain.
+
+42
+0:01:46.058,000 --> 0:01:48,000
+This allows our brain to know what's sweet and what's bitter.
+
+43
+0:01:49.002,000 --> 0:01:52,000
+So when a fruit fly eats a banana, its sweet taste neurons will fire.
+
+44
+0:01:52.362,000 --> 0:01:55,000
+But when it eats broccoli, those same neurons stay pretty quiet.
+
+45
+0:01:55.867,000 --> 0:01:57,000
+But what if we could force those sweet-tasting neurons to fire
+
+46
+0:01:58.865,000 --> 0:01:59,000
+every time the fruit fly eats broccoli?
+
+47
+0:02:00.755,000 --> 0:02:01,000
+We may be able to get the fruit fly
+
+48
+0:02:02.497,000 --> 0:02:03,000
+to like broccoli as much as banana.
+
+49
+0:02:04.268,000 --> 0:02:05,000
+Enter optogenetics.
+
+50
+0:02:05.529,000 --> 0:02:08,000
+This is the revolutionary new tool that's taking neuroscience by storm,
+
+51
+0:02:08.925,000 --> 0:02:1,000
+and in this case, "opto" means light
+
+52
+0:02:11.267,000 --> 0:02:14,000
+and "genetic" refers to the fact that these fruit flies have been modified
+
+53
+0:02:14.822,000 --> 0:02:17,000
+to contain a special gene that makes only certain neurons respond to light.
+
+54
+0:02:18.671,000 --> 0:02:21,000
+In our case, we've added the special gene to the sweet taste receptors.
+
+55
+0:02:22.734,000 --> 0:02:23,000
+Now here's the fun part.
+
+56
+0:02:23.94,000 --> 0:02:26,000
+Optogenetics means that we can control these special neurons
+
+57
+0:02:27.018,000 --> 0:02:29,000
+whenever they're exposed to a bright-colored light,
+
+58
+0:02:29.651,000 --> 0:02:31,000
+causing them to send messages to the brain.
+
+59
+0:02:31.864,000 --> 0:02:34,000
+In this experiment, we're going to have these modified fruit flies
+
+60
+0:02:35.027,000 --> 0:02:37,000
+choose between banana and broccoli again,
+
+61
+0:02:37.066,000 --> 0:02:39,000
+only this time, every time the fruit fly eats the broccoli,
+
+62
+0:02:39.931,000 --> 0:02:41,000
+we're going to trigger a big bright red light.
+
+63
+0:02:42.146,000 --> 0:02:45,000
+And when the channels see that red light, they're going to open up,
+
+64
+0:02:45.32,000 --> 0:02:47,000
+and they're going to cause that neuron to fire,
+
+65
+0:02:47.484,000 --> 0:02:49,000
+and the sweet taste message will be sent to the brain.
+
+66
+0:02:50.032,000 --> 0:02:51,000
+How do you get them out?
+
+67
+0:02:51.3,000 --> 0:02:53,000
+SB: So we're going to be using a mouth aspirator,
+
+68
+0:02:53.698,000 --> 0:02:54,000
+so it's just two straws put together.
+
+69
+0:02:55.563,000 --> 0:02:56,000
+GG: So it's a fancy name for a straw.
+
+70
+0:02:57.396,000 --> 0:02:58,000
+SB: Basically.
+
+71
+0:02:58.571,000 --> 0:02:59,000
+GG: So you're going to suck those out.
+
+72
+0:03:01.822,000 --> 0:03:02,000
+Have you ever sucked up a fly before?
+
+73
+0:03:03.678,000 --> 0:03:04,000
+SB: Once or twice.
+
+74
+0:03:10.432,000 --> 0:03:11,000
+GG: There we go. You got all four.
+
+75
+0:03:12.106,000 --> 0:03:13,000
+OK, perfect.
+
+76
+0:03:13.281,000 --> 0:03:15,000
+So you're going to turn on your OptoStimmers here.
+
+77
+0:03:15.725,000 --> 0:03:18,000
+You're going to park the light right on top of the chambers.
+
+78
+0:03:18.883,000 --> 0:03:2,000
+So now we sit here and we wait for them to eat broccoli,
+
+79
+0:03:21.732,000 --> 0:03:22,000
+and then when the light fires,
+
+80
+0:03:23.716,000 --> 0:03:25,000
+they're going to think it's tasting something sweet.
+
+81
+0:03:26.255,000 --> 0:03:27,000
+Come on. Oh, he's getting closer.
+
+82
+0:03:28.241,000 --> 0:03:29,000
+Come on. It tastes good now.
+
+83
+0:03:30.193,000 --> 0:03:31,000
+SB: It's about to.
+
+84
+0:03:31.736,000 --> 0:03:32,000
+GG: Oh, he's back. All right!
+
+85
+0:03:33.268,000 --> 0:03:36,000
+All right, so now we see that some of these flies
+
+86
+0:03:36.586,000 --> 0:03:38,000
+are switching over from the banana to the broccoli.
+
+87
+0:03:39.435,000 --> 0:03:4,000
+SB: Exactly, yeah.
+
+88
+0:03:40.625,000 --> 0:03:41,000
+GG: Every time this light goes off,
+
+89
+0:03:42.332,000 --> 0:03:44,000
+that means that they think they're tasting something sweet.
+
+90
+0:03:45.143,000 --> 0:03:47,000
+SB: Yeah. So this guy's really going after it.
+
+91
+0:03:47.338,000 --> 0:03:49,000
+GG: So we saw that we were able to rescue broccoli
+
+92
+0:03:49.536,000 --> 0:03:51,000
+and make it just as appealing as banana to our fruit flies.
+
+93
+0:03:52.433,000 --> 0:03:54,000
+And we're able to replicate these same results
+
+94
+0:03:54.711,000 --> 0:03:55,000
+in all of our experiments.
+
+95
+0:03:56.068,000 --> 0:03:58,000
+So the question is: Can we do the same thing in humans?
+
+96
+0:03:58.692,000 --> 0:03:59,000
+Well, that depends on a number of items.
+
+97
+0:04:00.621,000 --> 0:04:03,000
+First, do optogenetic tools even work in humans?
+
+98
+0:04:04.107,000 --> 0:04:06,000
+And that looks like the answer is yes,
+
+99
+0:04:06.134,000 --> 0:04:08,000
+and in fact, clinical trials are already being planned
+
+100
+0:04:08.74,000 --> 0:04:11,000
+that will treat chronic pain and blindness using optogenetics.
+
+101
+0:04:12.294,000 --> 0:04:14,000
+And the next question is, can we easily trigger a light source
+
+102
+0:04:15.309,000 --> 0:04:17,000
+so that every time we eat vegetables, it will go off?
+
+103
+0:04:17.857,000 --> 0:04:2,000
+For that, I'm afraid at least at this time, the answer is still no.
+
+104
+0:04:21.319,000 --> 0:04:24,000
+But today, we got to witness just a taste of optogenetics
+
+105
+0:04:24.672,000 --> 0:04:25,000
+and its amazing potential.
+
+106
+0:04:26.11,000 --> 0:04:32,000
+(Music)
+

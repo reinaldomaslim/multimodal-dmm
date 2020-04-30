@@ -1,0 +1,1036 @@
+1
+0:00:13.15,000 --> 0:00:14,000
+When I was a kid,
+
+2
+0:00:14.349,000 --> 0:00:18,000
+I was, like many of you in this room, very much fascinated by Star Wars,
+
+3
+0:00:19.273,000 --> 0:00:23,000
+and what fascinated me the most is this notion of the Force,
+
+4
+0:00:23.773,000 --> 0:00:26,000
+this energy that connects all people and all objects
+
+5
+0:00:26.907,000 --> 0:00:29,000
+and allows you to feel people that you can't even see.
+
+6
+0:00:30.753,000 --> 0:00:33,000
+And I remember many nights, I would be sitting at home,
+
+7
+0:00:33.865,000 --> 0:00:36,000
+just, like, concentrating and focusing, trying to feel the Force,
+
+8
+0:00:38.624,000 --> 0:00:4,000
+and I didn't feel anything, don't worry.
+
+9
+0:00:41.211,000 --> 0:00:42,000
+(Laughter)
+
+10
+0:00:43.092,000 --> 0:00:45,000
+And later in life, I became a scientist.
+
+11
+0:00:45.966,000 --> 0:00:49,000
+I joined the MIT faculty and started working on wireless signals.
+
+12
+0:00:51.184,000 --> 0:00:54,000
+These are things like Wi-Fi or cellular systems,
+
+13
+0:00:54.351,000 --> 0:00:56,000
+and I did a lot of work in that domain.
+
+14
+0:00:57.489,000 --> 0:01:01,000
+But then, again, this Force thing kept nagging me,
+
+15
+0:01:02.102,000 --> 0:01:03,000
+and at some point, I was just like,
+
+16
+0:01:04.051,000 --> 0:01:08,000
+"Wait a minute, these wireless signals -- they are like the Force."
+
+17
+0:01:08.727,000 --> 0:01:09,000
+So if you think about it,
+
+18
+0:01:09.945,000 --> 0:01:11,000
+wireless signals, they travel through space,
+
+19
+0:01:12.6,000 --> 0:01:15,000
+they go through obstacles and walls and occlusions,
+
+20
+0:01:16.104,000 --> 0:01:17,000
+and some of them,
+
+21
+0:01:17.369,000 --> 0:01:21,000
+they reflect off our bodies, because our bodies are full of water,
+
+22
+0:01:21.543,000 --> 0:01:23,000
+and some of these minute reflections,
+
+23
+0:01:23.773,000 --> 0:01:24,000
+they come back.
+
+24
+0:01:25.055,000 --> 0:01:31,000
+And if, just if, I had a device that can just sense these minute reflections,
+
+25
+0:01:32.05,000 --> 0:01:34,000
+then I would be able to feel people that I cannot see.
+
+26
+0:01:36.444,000 --> 0:01:39,000
+So I started working with my students on building such a device,
+
+27
+0:01:40.221,000 --> 0:01:43,000
+and I want to show you some of our early results.
+
+28
+0:01:44.584,000 --> 0:01:46,000
+So here, you see my student standing,
+
+29
+0:01:46.891,000 --> 0:01:47,000
+and here is our device.
+
+30
+0:01:48.892,000 --> 0:01:53,000
+And we are going to put the device in the other office, behind the wall,
+
+31
+0:01:54.526,000 --> 0:01:56,000
+and we are going to monitor him as he moves.
+
+32
+0:01:57.367,000 --> 0:02:01,000
+This red dot is tracking him using wireless signals.
+
+33
+0:02:02.76,000 --> 0:02:06,000
+And as you can see, the red dot is tracking his movements very accurately,
+
+34
+0:02:07.568,000 --> 0:02:11,000
+purely based on how his body interacts with the surrounding wireless signals.
+
+35
+0:02:13.631,000 --> 0:02:14,000
+Pretty accurate, isn't it?
+
+36
+0:02:16.702,000 --> 0:02:17,000
+He has no wearables, nothing.
+
+37
+0:02:18.599,000 --> 0:02:2,000
+(Applause)
+
+38
+0:02:21.437,000 --> 0:02:22,000
+Now you might be wondering,
+
+39
+0:02:23.206,000 --> 0:02:26,000
+how is it possible that we can sense people
+
+40
+0:02:26.412,000 --> 0:02:29,000
+and track them, without any wearables, through walls,
+
+41
+0:02:30.282,000 --> 0:02:33,000
+and the easiest analogy to think about is radar.
+
+42
+0:02:33.672,000 --> 0:02:35,000
+I'm sure many of you have seen this picture.
+
+43
+0:02:35.789,000 --> 0:02:37,000
+You transmit a wireless signal to the sky,
+
+44
+0:02:37.971,000 --> 0:02:39,000
+it reflects off some airplane, comes back to you,
+
+45
+0:02:40.963,000 --> 0:02:42,000
+and you start detecting these airplanes.
+
+46
+0:02:44.328,000 --> 0:02:45,000
+But if it were just radar,
+
+47
+0:02:46.296,000 --> 0:02:48,000
+then we would have this 50 years ago.
+
+48
+0:02:49.272,000 --> 0:02:5,000
+So it's not just radar.
+
+49
+0:02:51.285,000 --> 0:02:53,000
+There are two key differences.
+
+50
+0:02:54.229,000 --> 0:02:55,000
+So the first difference, of course --
+
+51
+0:02:56.016,000 --> 0:02:59,000
+you can't, like radar, just blast wireless power at somebody.
+
+52
+0:02:59.559,000 --> 0:03:01,000
+You're going to fry them like if they were in a microwave.
+
+53
+0:03:02.31,000 --> 0:03:03,000
+Don't do that.
+
+54
+0:03:04.595,000 --> 0:03:09,000
+So it means that you have to be able to deal with very weak signals,
+
+55
+0:03:09.684,000 --> 0:03:12,000
+and that means that your device has to be very sensitive.
+
+56
+0:03:14.144,000 --> 0:03:18,000
+The second difference is that, unlike the sky, where it's empty --
+
+57
+0:03:18.299,000 --> 0:03:21,000
+if you are lucky, there is one airplane that you can catch there.
+
+58
+0:03:21.467,000 --> 0:03:22,000
+Like, look at the room
+
+59
+0:03:22.833,000 --> 0:03:24,000
+and look how many objects and people there are.
+
+60
+0:03:25.745,000 --> 0:03:28,000
+So in indoor environments, the signal not only reflects off the person,
+
+61
+0:03:29.706,000 --> 0:03:32,000
+if reflects off the person, off the floor, the ceiling,
+
+62
+0:03:33.523,000 --> 0:03:35,000
+off other people around,
+
+63
+0:03:35.769,000 --> 0:03:36,000
+and you get very complex reflections
+
+64
+0:03:37.776,000 --> 0:03:39,000
+where the same signal reflects off me and then off you,
+
+65
+0:03:40.531,000 --> 0:03:42,000
+and then off the ceiling, then off the floor.
+
+66
+0:03:42.793,000 --> 0:03:45,000
+And you have to make sense of that mess.
+
+67
+0:03:47.993,000 --> 0:03:48,000
+But we were lucky.
+
+68
+0:03:49.866,000 --> 0:03:51,000
+We were coming at the right time.
+
+69
+0:03:53.252,000 --> 0:03:54,000
+So two things helped us.
+
+70
+0:03:55.148,000 --> 0:03:59,000
+The first thing is radiotechnologies have evolved a lot,
+
+71
+0:03:59.228,000 --> 0:04:,000
+and over the last decade,
+
+72
+0:04:01.027,000 --> 0:04:03,000
+radio technology became much more powerful,
+
+73
+0:04:03.361,000 --> 0:04:06,000
+so we were able to build very sensitive radios
+
+74
+0:04:07.122,000 --> 0:04:1,000
+that can sense weak and minute RF signals.
+
+75
+0:04:11.725,000 --> 0:04:14,000
+The second thing: machine learning.
+
+76
+0:04:14.788,000 --> 0:04:16,000
+So you keep hearing about machine learning
+
+77
+0:04:16.812,000 --> 0:04:18,000
+and there was a revolution of machine learning recently,
+
+78
+0:04:19.797,000 --> 0:04:2,000
+in deep learning,
+
+79
+0:04:20.972,000 --> 0:04:23,000
+and that allowed us to build machine-learning models
+
+80
+0:04:24.765,000 --> 0:04:27,000
+that can understand wireless signals and interpret them
+
+81
+0:04:28.336,000 --> 0:04:31,000
+so they would know what happened in the environment.
+
+82
+0:04:31.865,000 --> 0:04:34,000
+So if you think of it, the radio is like the ear of our device
+
+83
+0:04:35.699,000 --> 0:04:37,000
+and the machine learning is like the brain,
+
+84
+0:04:38.302,000 --> 0:04:41,000
+and together, they have a very powerful device.
+
+85
+0:04:44.108,000 --> 0:04:49,000
+So what else can we sense about people using wireless signals?
+
+86
+0:04:50.458,000 --> 0:04:51,000
+Sleep.
+
+87
+0:04:51.633,000 --> 0:04:53,000
+Sleep, actually, is something very dear to my heart,
+
+88
+0:04:54.086,000 --> 0:04:55,000
+because my sleep is a disaster.
+
+89
+0:04:56.037,000 --> 0:04:57,000
+(Laughter)
+
+90
+0:04:57.409,000 --> 0:05:,000
+So one thing is when you start working on some physiological signal
+
+91
+0:05:00.662,000 --> 0:05:02,000
+and you discover that yours sucks.
+
+92
+0:05:03.908,000 --> 0:05:06,000
+(Laughter)
+
+93
+0:05:07.344,000 --> 0:05:09,000
+So you can see why we can capture sleep,
+
+94
+0:05:09.494,000 --> 0:05:12,000
+because the person walks and the device sees him as he walks to bed,
+
+95
+0:05:12.784,000 --> 0:05:14,000
+when he stops tossing around in bed,
+
+96
+0:05:15.083,000 --> 0:05:16,000
+when he steps out of bed,
+
+97
+0:05:16.948,000 --> 0:05:19,000
+and that measure of sleep is what people call actigraphy.
+
+98
+0:05:20.67,000 --> 0:05:21,000
+It's based on motion.
+
+99
+0:05:23.087,000 --> 0:05:26,000
+But it turned out that we can actually get sleep
+
+100
+0:05:26.405,000 --> 0:05:28,000
+at a much more important level.
+
+101
+0:05:28.816,000 --> 0:05:31,000
+We can understand the change in the brain waves
+
+102
+0:05:32.404,000 --> 0:05:33,000
+that occur during sleep.
+
+103
+0:05:35.403,000 --> 0:05:37,000
+So, many of you probably know that as we go to sleep,
+
+104
+0:05:38.38,000 --> 0:05:41,000
+our brainwaves change and we enter different stages:
+
+105
+0:05:41.777,000 --> 0:05:45,000
+awake, light sleep, deep sleep and REM, or rapid eye movement.
+
+106
+0:05:46.267,000 --> 0:05:5,000
+These stages are of course related to sleep disorders,
+
+107
+0:05:50.625,000 --> 0:05:53,000
+but they are also related to various diseases.
+
+108
+0:05:53.759,000 --> 0:05:58,000
+So for example, disturbances in REM are associated with depression.
+
+109
+0:05:59.718,000 --> 0:06:02,000
+Disturbances in deep sleep are associated with Alzheimer's.
+
+110
+0:06:04.614,000 --> 0:06:06,000
+So if you want to get sleep staging,
+
+111
+0:06:07.177,000 --> 0:06:09,000
+today, you will send the person to the hospital,
+
+112
+0:06:09.511,000 --> 0:06:11,000
+they put all of these electrodes on their head,
+
+113
+0:06:12.089,000 --> 0:06:13,000
+and they ask them to sleep like that.
+
+114
+0:06:13.943,000 --> 0:06:15,000
+(Laughter)
+
+115
+0:06:16.027,000 --> 0:06:18,000
+It's not really a happy experience.
+
+116
+0:06:20.155,000 --> 0:06:22,000
+So what if I tell you that I can do the same thing
+
+117
+0:06:23.115,000 --> 0:06:26,000
+but without any of these electrodes on the person's body?
+
+118
+0:06:27.596,000 --> 0:06:28,000
+So here is our device,
+
+119
+0:06:29.492,000 --> 0:06:31,000
+transmitting very low power wireless signal,
+
+120
+0:06:32.278,000 --> 0:06:34,000
+analyzes the reflections using AI
+
+121
+0:06:34.414,000 --> 0:06:37,000
+and spits out the sleep stages throughout the night.
+
+122
+0:06:38.647,000 --> 0:06:41,000
+So we know, for example, when this person is dreaming.
+
+123
+0:06:44.333,000 --> 0:06:45,000
+Not just that ...
+
+124
+0:06:46.691,000 --> 0:06:49,000
+we can even get your breathing while you are sitting like that,
+
+125
+0:06:49.802,000 --> 0:06:5,000
+and without touching you.
+
+126
+0:06:51.399,000 --> 0:06:52,000
+So he is sitting and reading
+
+127
+0:06:53.025,000 --> 0:06:55,000
+and this is his inhales, exhales.
+
+128
+0:06:55.994,000 --> 0:06:56,000
+We asked him to hold his breath,
+
+129
+0:06:58.009,000 --> 0:07:,000
+and you see the signal staying at a steady level
+
+130
+0:07:00.899,000 --> 0:07:01,000
+because he exhaled.
+
+131
+0:07:02.074,000 --> 0:07:03,000
+He did not inhale.
+
+132
+0:07:05.279,000 --> 0:07:07,000
+And I want to zoom in on the signal.
+
+133
+0:07:07.787,000 --> 0:07:09,000
+And this is the same signal as before.
+
+134
+0:07:09.874,000 --> 0:07:1,000
+These are the inhales,
+
+135
+0:07:11.579,000 --> 0:07:12,000
+these are the exhales.
+
+136
+0:07:13.247,000 --> 0:07:15,000
+And you see these blips on the signal?
+
+137
+0:07:15.358,000 --> 0:07:16,000
+These are not noise.
+
+138
+0:07:17.159,000 --> 0:07:18,000
+They are his heartbeats.
+
+139
+0:07:19.971,000 --> 0:07:2,000
+And you can see them beat by beat.
+
+140
+0:07:23.439,000 --> 0:07:27,000
+So I want to stop here for a moment and show you a live demo.
+
+141
+0:07:27.684,000 --> 0:07:29,000
+Zach is going to help me with the demo,
+
+142
+0:07:29.779,000 --> 0:07:33,000
+and we're going to use the device to monitor Zach's breathing.
+
+143
+0:07:35.272,000 --> 0:07:38,000
+So this white box that you see here is the device,
+
+144
+0:07:39.064,000 --> 0:07:41,000
+and Zach is turning it on ...
+
+145
+0:07:43.581,000 --> 0:07:45,000
+and let's see whether he breathes well.
+
+146
+0:07:46.146,000 --> 0:07:5,000
+So we're going to do exactly what we did in the video with the other guy,
+
+147
+0:07:50.772,000 --> 0:07:52,000
+so the wireless signal is going through,
+
+148
+0:07:53.487,000 --> 0:07:54,000
+it's touching Zach's body,
+
+149
+0:07:55.161,000 --> 0:07:57,000
+and it's reflecting back to the device,
+
+150
+0:07:57.408,000 --> 0:08:,000
+and we want to monitor his breathing, his inhale-exhale motion.
+
+151
+0:08:00.803,000 --> 0:08:02,000
+So we see the inhales, exhales --
+
+152
+0:08:03.35,000 --> 0:08:07,000
+so see, these ups and downs are Zach breathing.
+
+153
+0:08:10.191,000 --> 0:08:12,000
+Inhaling, exhaling.
+
+154
+0:08:12.366,000 --> 0:08:17,000
+(Applause)
+
+155
+0:08:17.992,000 --> 0:08:19,000
+So, he can breathe.
+
+156
+0:08:20.168,000 --> 0:08:21,000
+(Laughter)
+
+157
+0:08:21.613,000 --> 0:08:23,000
+Zach, can you hold your breath, please?
+
+158
+0:08:25.216,000 --> 0:08:28,000
+OK, so now he's holding his breath,
+
+159
+0:08:28.303,000 --> 0:08:3,000
+so you see the signal stays at a steady level,
+
+160
+0:08:30.581,000 --> 0:08:31,000
+and these are his heartbeats.
+
+161
+0:08:32.231,000 --> 0:08:35,000
+Beat, beat, beat, beat, beat.
+
+162
+0:08:35.731,000 --> 0:08:36,000
+(Applause)
+
+163
+0:08:36.756,000 --> 0:08:38,000
+OK, Zach, you can breathe again.
+
+164
+0:08:38.947,000 --> 0:08:39,000
+(Laughter)
+
+165
+0:08:40.86,000 --> 0:08:41,000
+We don't want accidents here.
+
+166
+0:08:42.304,000 --> 0:08:43,000
+(Laughter)
+
+167
+0:08:43.329,000 --> 0:08:44,000
+OK, thank you.
+
+168
+0:08:45.756,000 --> 0:08:5,000
+(Applause)
+
+169
+0:08:51.716,000 --> 0:08:53,000
+So as you can see, we have this device
+
+170
+0:08:54.501,000 --> 0:08:57,000
+that can monitor so many physiological signals for you,
+
+171
+0:08:58.065,000 --> 0:09:,000
+and what is really interesting about this device
+
+172
+0:09:01.049,000 --> 0:09:03,000
+is that it does all this without any wearables,
+
+173
+0:09:03.636,000 --> 0:09:05,000
+without asking the person to change his behavior
+
+174
+0:09:06.358,000 --> 0:09:08,000
+or to wear anything or charge anything special.
+
+175
+0:09:09.739,000 --> 0:09:11,000
+And that got doctors very excited,
+
+176
+0:09:12.731,000 --> 0:09:13,000
+because doctors,
+
+177
+0:09:13.906,000 --> 0:09:15,000
+they always want to know more information about their patients,
+
+178
+0:09:16.887,000 --> 0:09:17,000
+particularly at home,
+
+179
+0:09:18.081,000 --> 0:09:2,000
+and this is particularly true in chronic diseases,
+
+180
+0:09:20.739,000 --> 0:09:24,000
+like pulmonary diseases, like COPD,
+
+181
+0:09:24.918,000 --> 0:09:28,000
+or heart failure or Alzheimer's and even depression.
+
+182
+0:09:29.466,000 --> 0:09:31,000
+All of these chronic diseases are very important.
+
+183
+0:09:31.807,000 --> 0:09:33,000
+In fact -- perhaps you know --
+
+184
+0:09:34.299,000 --> 0:09:36,000
+two-thirds of the cost of health care in the US
+
+185
+0:09:37.203,000 --> 0:09:38,000
+is due to chronic diseases.
+
+186
+0:09:39.545,000 --> 0:09:41,000
+But what is really interesting about chronic diseases
+
+187
+0:09:42.1,000 --> 0:09:43,000
+is that when the person, for example,
+
+188
+0:09:43.944,000 --> 0:09:47,000
+has a problem that leads to the hospital and the emergency room,
+
+189
+0:09:48.705,000 --> 0:09:5,000
+this problem doesn't happen overnight.
+
+190
+0:09:51.044,000 --> 0:09:53,000
+Actually, things happen gradually.
+
+191
+0:09:53.147,000 --> 0:09:56,000
+So if we can monitor chronic disease patients in their home,
+
+192
+0:09:56.893,000 --> 0:10:,000
+we can detect changes in their breathing, heartbeat, mobility, sleep --
+
+193
+0:10:01.178,000 --> 0:10:05,000
+and we can detect emergencies before they occur
+
+194
+0:10:05.384,000 --> 0:10:07,000
+and have the doctor intervene earlier
+
+195
+0:10:07.725,000 --> 0:10:09,000
+so that we can avoid hospitalization.
+
+196
+0:10:10.645,000 --> 0:10:14,000
+And indeed, today we are working with multiple doctors
+
+197
+0:10:14.771,000 --> 0:10:15,000
+in different disease categories.
+
+198
+0:10:16.754,000 --> 0:10:17,000
+So I'm really excited
+
+199
+0:10:17.961,000 --> 0:10:19,000
+because we have deployed the device with many patients.
+
+200
+0:10:20.669,000 --> 0:10:23,000
+We have deployed the device with patients that have COPD,
+
+201
+0:10:24.025,000 --> 0:10:25,000
+which is a pulmonary disease,
+
+202
+0:10:25.556,000 --> 0:10:27,000
+patients that have Alzheimer's,
+
+203
+0:10:27.635,000 --> 0:10:29,000
+patients that have depression and anxiety
+
+204
+0:10:29.952,000 --> 0:10:3,000
+and people that have Parkinson's.
+
+205
+0:10:32.798,000 --> 0:10:34,000
+And we are working with the doctors on improving their life,
+
+206
+0:10:35.705,000 --> 0:10:36,000
+understanding the disease better.
+
+207
+0:10:38.718,000 --> 0:10:4,000
+So when I started, I told you
+
+208
+0:10:41.313,000 --> 0:10:46,000
+that I'm really fascinated with Star Wars and the Force in Star Wars,
+
+209
+0:10:46.757,000 --> 0:10:49,000
+and indeed, I'm still very much fascinated,
+
+210
+0:10:50.107,000 --> 0:10:52,000
+even now, as a grown-up, with Star Wars,
+
+211
+0:10:52.137,000 --> 0:10:54,000
+waiting for the next movie.
+
+212
+0:10:54.456,000 --> 0:10:59,000
+But I'm very fascinated now and excited
+
+213
+0:10:59.749,000 --> 0:11:02,000
+about this new Force of wireless signals,
+
+214
+0:11:03.571,000 --> 0:11:07,000
+and the potential of changing health care with this new force.
+
+215
+0:11:07.601,000 --> 0:11:09,000
+One of the patients with whom we deployed is actually my aunt.
+
+216
+0:11:10.569,000 --> 0:11:12,000
+She has heart failure,
+
+217
+0:11:12.744,000 --> 0:11:15,000
+and I'm sure many of you guys in the audience
+
+218
+0:11:16.476,000 --> 0:11:2,000
+have parents, grandparents, loved ones who have chronic diseases.
+
+219
+0:11:21.188,000 --> 0:11:23,000
+So I want you to imagine with me a future
+
+220
+0:11:24.07,000 --> 0:11:26,000
+where in every home that has a chronic disease patient,
+
+221
+0:11:26.976,000 --> 0:11:29,000
+there is a device like this device sitting in the background
+
+222
+0:11:30.125,000 --> 0:11:32,000
+and just monitoring passively
+
+223
+0:11:32.514,000 --> 0:11:36,000
+sleep, breathing, the health of this chronic disease patient,
+
+224
+0:11:37.204,000 --> 0:11:39,000
+and before an emergency occurs,
+
+225
+0:11:39.352,000 --> 0:11:42,000
+it would detect the degradation in the physiological signal
+
+226
+0:11:42.399,000 --> 0:11:43,000
+and alert the doctor
+
+227
+0:11:43.923,000 --> 0:11:45,000
+so that we can avoid hospitalization.
+
+228
+0:11:46.652,000 --> 0:11:49,000
+This can change health care as we know it today,
+
+229
+0:11:49.803,000 --> 0:11:52,000
+improve how we understand chronic diseases
+
+230
+0:11:52.827,000 --> 0:11:53,000
+and also save many lives.
+
+231
+0:11:54.898,000 --> 0:11:55,000
+Thank you.
+
+232
+0:11:56.073,000 --> 0:12:01,000
+(Applause)
+
+233
+0:12:01.231,000 --> 0:12:02,000
+Helen Walters: Dina, thank you so much.
+
+234
+0:12:03.142,000 --> 0:12:04,000
+Thank you too, Zach.
+
+235
+0:12:04.317,000 --> 0:12:05,000
+So glad you're breathing.
+
+236
+0:12:05.652,000 --> 0:12:07,000
+So Dina, this is amazing.
+
+237
+0:12:08.373,000 --> 0:12:11,000
+The positive applications are incredible.
+
+238
+0:12:11.425,000 --> 0:12:14,000
+What is the framework, though, like the ethical framework around this?
+
+239
+0:12:15.444,000 --> 0:12:17,000
+What are you doing to prevent this technology from being used
+
+240
+0:12:18.348,000 --> 0:12:21,000
+for other, perhaps less positive types of applications?
+
+241
+0:12:22.141,000 --> 0:12:25,000
+Dina Katabi: Yeah, this is a very important question, of course,
+
+242
+0:12:25.22,000 --> 0:12:26,000
+like, what about misuse,
+
+243
+0:12:26.413,000 --> 0:12:29,000
+or what about, I guess you could say, about the Dark Side of the Force?
+
+244
+0:12:30.059,000 --> 0:12:31,000
+HW: Right, right.
+
+245
+0:12:31.257,000 --> 0:12:33,000
+(Laughter)
+
+246
+0:12:33.368,000 --> 0:12:36,000
+DK: So we actually have technologies
+
+247
+0:12:36.891,000 --> 0:12:4,000
+that prevent people from trying to use this device
+
+248
+0:12:41.192,000 --> 0:12:43,000
+to monitor somebody without their consent.
+
+249
+0:12:43.57,000 --> 0:12:45,000
+Because the device understands space,
+
+250
+0:12:45.847,000 --> 0:12:48,000
+it will ask you to prove, by doing certain movements,
+
+251
+0:12:49.292,000 --> 0:12:5,000
+that you have access to the space
+
+252
+0:12:51.071,000 --> 0:12:54,000
+and you are the person who you are asking the device to monitor.
+
+253
+0:12:54.395,000 --> 0:12:56,000
+So technology-wise,
+
+254
+0:12:56.609,000 --> 0:12:59,000
+we have technology that we integrate to prevent misuse,
+
+255
+0:13:00.021,000 --> 0:13:03,000
+but also, I think there is a role for policy, like everything else,
+
+256
+0:13:03.935,000 --> 0:13:08,000
+and hopefully, with the two of them, we can control any misuse.
+
+257
+0:13:09.395,000 --> 0:13:1,000
+HW: Amazing. Thank you so much.
+
+258
+0:13:10.976,000 --> 0:13:11,000
+DK: Thank you.
+
+259
+0:13:12.151,000 --> 0:13:15,000
+(Applause)
+

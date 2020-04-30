@@ -1,0 +1,1124 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Veronica Martinez Starnes
+
+2
+0:00:15.26,000 --> 0:00:17,000
+Hoy voy a hablarles
+
+3
+0:00:17.26,000 --> 0:00:2,000
+del diseño de tecnología médica para entornos de bajos recursos.
+
+4
+0:00:20.26,000 --> 0:00:22,000
+Estudio los sistemas de salud de estos países
+
+5
+0:00:22.26,000 --> 0:00:24,000
+y una de las mayores carencias en protección,
+
+6
+0:00:24.26,000 --> 0:00:26,000
+en casi todas partes,
+
+7
+0:00:26.26,000 --> 0:00:28,000
+es el acceso a cirugías seguras.
+
+8
+0:00:28.26,000 --> 0:00:31,000
+Uno de los mayores obstáculos que encontramos
+
+9
+0:00:31.26,000 --> 0:00:34,000
+y que dificulta tanto el acceso a las cirugías
+
+10
+0:00:34.26,000 --> 0:00:36,000
+como la seguridad de estas,
+
+11
+0:00:36.26,000 --> 0:00:38,000
+es la anestesia.
+
+12
+0:00:38.26,000 --> 0:00:4,000
+Y realmente, es sobre este modelo que esperamos trabajar
+
+13
+0:00:40.26,000 --> 0:00:42,000
+para llevar anestesia
+
+14
+0:00:42.26,000 --> 0:00:44,000
+a estos lugares.
+
+15
+0:00:44.26,000 --> 0:00:46,000
+Esta es una escena que pueden encontrar
+
+16
+0:00:46.26,000 --> 0:00:49,000
+en cualquier sala de cirugía de EE.UU. u otro país desarrollado.
+
+17
+0:00:49.26,000 --> 0:00:51,000
+Al fondo
+
+18
+0:00:51.26,000 --> 0:00:53,000
+hay una máquina de anestesia muy sofisticada.
+
+19
+0:00:53.26,000 --> 0:00:55,000
+Esta máquina
+
+20
+0:00:55.26,000 --> 0:00:57,000
+permite realizar cirugías y salvar vidas
+
+21
+0:00:57.26,000 --> 0:00:59,000
+ya que está diseñada
+
+22
+0:00:59.26,000 --> 0:01:01,000
+pensando en este ambiente.
+
+23
+0:01:01.26,000 --> 0:01:04,000
+Para funcionar, necesita muchas cosas
+
+24
+0:01:04.26,000 --> 0:01:06,000
+que el hospital tiene que darle.
+
+25
+0:01:06.26,000 --> 0:01:09,000
+Necesita un anestesiólogo bien capacitado
+
+26
+0:01:09.26,000 --> 0:01:11,000
+con años de práctica con máquinas complejas
+
+27
+0:01:11.26,000 --> 0:01:14,000
+que le permitan monitorizar los flujos de gases
+
+28
+0:01:14.26,000 --> 0:01:16,000
+y tener a sus pacientes seguros y anestesiados
+
+29
+0:01:16.26,000 --> 0:01:18,000
+durante toda la cirugía.
+
+30
+0:01:18.26,000 --> 0:01:21,000
+Es una máquina delicada, controlada por algoritmos computacionales
+
+31
+0:01:21.26,000 --> 0:01:24,000
+que necesita cuidado especial para seguir funcionando
+
+32
+0:01:24.26,000 --> 0:01:26,000
+y que se puede dañar muy fácilmente.
+
+33
+0:01:26.26,000 --> 0:01:29,000
+Y cuando se daña, necesita un equipo de ingenieros biomédicos
+
+34
+0:01:29.26,000 --> 0:01:31,000
+que entiendan su complejidad,
+
+35
+0:01:31.26,000 --> 0:01:33,000
+puedan arreglarla y conseguir sus repuestos
+
+36
+0:01:33.26,000 --> 0:01:35,000
+para que siga salvando vidas.
+
+37
+0:01:35.26,000 --> 0:01:37,000
+Es una máquina muy costosa.
+
+38
+0:01:37.26,000 --> 0:01:39,000
+Necesita un hospital
+
+39
+0:01:39.26,000 --> 0:01:41,000
+cuyo presupuesto permita comprarla y mantenerla
+
+40
+0:01:41.26,000 --> 0:01:44,000
+a un costo de hasta 50 000 o 100 000 dólares.
+
+41
+0:01:44.26,000 --> 0:01:46,000
+Y tal vez, lo más obvio,
+
+42
+0:01:46.26,000 --> 0:01:48,000
+y quizá lo más importante
+
+43
+0:01:48.26,000 --> 0:01:5,000
+–además de ser la forma de ilustrar los conceptos de los que
+
+44
+0:01:50.26,000 --> 0:01:52,000
+hemos oído hablar–
+
+45
+0:01:52.26,000 --> 0:01:54,000
+es que necesita una infraestructura
+
+46
+0:01:54.26,000 --> 0:01:56,000
+que le suministre una fuente ininterrumpida
+
+47
+0:01:56.26,000 --> 0:01:59,000
+de electricidad, oxigeno comprimido
+
+48
+0:01:59.26,000 --> 0:02:01,000
+y otros suministros médicos
+
+49
+0:02:01.26,000 --> 0:02:03,000
+críticos para el funcionamiento
+
+50
+0:02:03.26,000 --> 0:02:05,000
+de esta máquina.
+
+51
+0:02:05.26,000 --> 0:02:08,000
+En otras palabras, esta máquina requiere muchas cosas
+
+52
+0:02:08.26,000 --> 0:02:1,000
+que este hospital no le puede dar.
+
+53
+0:02:10.26,000 --> 0:02:12,000
+Este es el suministro eléctrico
+
+54
+0:02:12.26,000 --> 0:02:14,000
+de un hospital rural en Malawi.
+
+55
+0:02:14.26,000 --> 0:02:16,000
+En este hospital,
+
+56
+0:02:16.26,000 --> 0:02:18,000
+hay una persona que da anestesia
+
+57
+0:02:18.26,000 --> 0:02:2,000
+y está calificada para ello
+
+58
+0:02:20.26,000 --> 0:02:22,000
+debido a que tiene 12, quizá 18 meses,
+
+59
+0:02:22.26,000 --> 0:02:24,000
+de instrucción en anestesia.
+
+60
+0:02:24.26,000 --> 0:02:26,000
+En el hospital y en toda la región,
+
+61
+0:02:26.26,000 --> 0:02:28,000
+no hay un solo ingeniero biomédico.
+
+62
+0:02:28.26,000 --> 0:02:3,000
+Así que cuando esta máquina se daña,
+
+63
+0:02:30.26,000 --> 0:02:32,000
+cuando se dañan las máquinas con las que trabajan,
+
+64
+0:02:32.26,000 --> 0:02:35,000
+tienen que intentar arreglarlas, pero casi siempre, no hay nada que hacer.
+
+65
+0:02:35.26,000 --> 0:02:38,000
+Estas máquinas van a la bien conocida chatarrería.
+
+66
+0:02:38.26,000 --> 0:02:41,000
+Y el precio que les mencioné de estas máquinas
+
+67
+0:02:41.26,000 --> 0:02:43,000
+puede representar de un cuarto a un tercio
+
+68
+0:02:43.26,000 --> 0:02:45,000
+del presupuesto anual operacional
+
+69
+0:02:45.26,000 --> 0:02:47,000
+de este hospital.
+
+70
+0:02:47.26,000 --> 0:02:5,000
+Y finalmente, creo que pueden ver que esta infraestructura no es muy resistente.
+
+71
+0:02:50.26,000 --> 0:02:53,000
+Este hospital está conectado a una red eléctrica muy débil
+
+72
+0:02:53.26,000 --> 0:02:55,000
+que tiene cortes frecuentes.
+
+73
+0:02:55.26,000 --> 0:02:57,000
+Así que, a menudo, todo el hospital
+
+74
+0:02:57.26,000 --> 0:02:59,000
+funciona con un solo generador.
+
+75
+0:02:59.26,000 --> 0:03:01,000
+E imaginarán que el generador se daña o
+
+76
+0:03:01.26,000 --> 0:03:03,000
+se queda sin combustible.
+
+77
+0:03:03.26,000 --> 0:03:05,000
+El Banco Mundial ve esto
+
+78
+0:03:05.26,000 --> 0:03:08,000
+y calcula que un hospital de un país de bajos ingresos
+
+79
+0:03:08.26,000 --> 0:03:11,000
+puede esperar hasta 18 cortes de electricidad
+
+80
+0:03:11.26,000 --> 0:03:13,000
+al mes.
+
+81
+0:03:13.26,000 --> 0:03:15,000
+Igualmente el oxígeno comprimido y otros suministros médicos
+
+82
+0:03:15.26,000 --> 0:03:17,000
+son realmente un lujo
+
+83
+0:03:17.26,000 --> 0:03:19,000
+y frecuentemente se agotan
+
+84
+0:03:19.26,000 --> 0:03:21,000
+por meses o hasta un año.
+
+85
+0:03:21.26,000 --> 0:03:24,000
+Así que parece una locura, pero el modelo actual
+
+86
+0:03:24.26,000 --> 0:03:26,000
+es tomar estas máquinas,
+
+87
+0:03:26.26,000 --> 0:03:28,000
+diseñadas para ese primer entorno que les mostré,
+
+88
+0:03:28.26,000 --> 0:03:3,000
+y donarlas o venderlas
+
+89
+0:03:30.26,000 --> 0:03:33,000
+a hospitales con este entorno.
+
+90
+0:03:33.26,000 --> 0:03:35,000
+No es solo inadecuado,
+
+91
+0:03:35.26,000 --> 0:03:38,000
+sino realmente peligroso.
+
+92
+0:03:38.26,000 --> 0:03:4,000
+Uno de nuestros colegas en el Johns Hopkins
+
+93
+0:03:40.26,000 --> 0:03:43,000
+observó cirugías en Sierra Leona
+
+94
+0:03:43.26,000 --> 0:03:45,000
+hace cerca de un año.
+
+95
+0:03:45.26,000 --> 0:03:48,000
+La primera cirugía del día resultó ser un caso de obstetricia.
+
+96
+0:03:48.26,000 --> 0:03:51,000
+La mujer que llegó necesitaba una cesárea
+
+97
+0:03:51.26,000 --> 0:03:54,000
+para salvar su vida y la de su bebé.
+
+98
+0:03:54.26,000 --> 0:03:56,000
+Todo comenzó muy bien.
+
+99
+0:03:56.26,000 --> 0:03:58,000
+El cirujano estaba de turno y disponible,
+
+100
+0:03:58.26,000 --> 0:04:,000
+la enfermera estaba ahí
+
+101
+0:04:00.26,000 --> 0:04:02,000
+y fue capaz de anestesiarla rápidamente
+
+102
+0:04:02.26,000 --> 0:04:05,000
+y esto era importante dada la urgencia de la situación.
+
+103
+0:04:05.26,000 --> 0:04:07,000
+Todo comenzó bien
+
+104
+0:04:07.26,000 --> 0:04:1,000
+hasta que se fue la electricidad.
+
+105
+0:04:10.26,000 --> 0:04:12,000
+Y en la mitad de la cirugía
+
+106
+0:04:12.26,000 --> 0:04:15,000
+el cirujano corría contra el reloj para acabar pronto
+
+107
+0:04:15.26,000 --> 0:04:17,000
+y lo logró con una linterna.
+
+108
+0:04:17.26,000 --> 0:04:19,000
+Pero la enfermera, literalmente
+
+109
+0:04:19.26,000 --> 0:04:22,000
+corría alrededor de la sala oscura
+
+110
+0:04:22.26,000 --> 0:04:24,000
+tratando de encontrar algo para anestesiar su paciente,
+
+111
+0:04:24.26,000 --> 0:04:26,000
+para mantenerla dormida,
+
+112
+0:04:26.26,000 --> 0:04:29,000
+porque su máquina no funciona sin electricidad.
+
+113
+0:04:30.26,000 --> 0:04:33,000
+Y ahora esta cirugía de rutina que muchos de ustedes seguramente hacen
+
+114
+0:04:33.26,000 --> 0:04:35,000
+y otros probablemente han nacido así,
+
+115
+0:04:35.26,000 --> 0:04:38,000
+se volvió una tragedia.
+
+116
+0:04:38.26,000 --> 0:04:41,000
+Y lo más frustrante es que no es un hecho aislado;
+
+117
+0:04:41.26,000 --> 0:04:43,000
+pasa constantemente en los países en desarrollo.
+
+118
+0:04:43.26,000 --> 0:04:46,000
+Se realizan 35 millones de cirugías al año
+
+119
+0:04:46.26,000 --> 0:04:48,000
+sin una anestesia segura.
+
+120
+0:04:48.26,000 --> 0:04:5,000
+Mi colega, el Dr. Paul Fenton,
+
+121
+0:04:50.26,000 --> 0:04:52,000
+vivió esta realidad.
+
+122
+0:04:52.26,000 --> 0:04:54,000
+Era el jefe de anestesiología
+
+123
+0:04:54.26,000 --> 0:04:56,000
+en un hospital en Malawi, un hospital docente.
+
+124
+0:04:56.26,000 --> 0:04:58,000
+Iba a trabajar todos los días
+
+125
+0:04:58.26,000 --> 0:05:,000
+a unas salas de cirugía como esta
+
+126
+0:05:00.26,000 --> 0:05:03,000
+y trataba de dar anestesia y enseñar a otros a hacerlo
+
+127
+0:05:03.26,000 --> 0:05:05,000
+usando el mismo equipo del hospital
+
+128
+0:05:05.26,000 --> 0:05:07,000
+que se volvió poco fiable,
+
+129
+0:05:07.26,000 --> 0:05:09,000
+francamente peligroso.
+
+130
+0:05:09.26,000 --> 0:05:11,000
+Y después de innumerables cirugías
+
+131
+0:05:11.26,000 --> 0:05:14,000
+e, imaginarán, inexplicables tragedias,
+
+132
+0:05:14.26,000 --> 0:05:16,000
+simplemente dijo: “Es todo. Se acabó. Suficiente.
+
+133
+0:05:16.26,000 --> 0:05:18,000
+Tiene que haber algo mejor”.
+
+134
+0:05:18.26,000 --> 0:05:2,000
+Se fue por el pasillo
+
+135
+0:05:20.26,000 --> 0:05:22,000
+a dónde tiraban todas las máquinas que los habían dejado
+
+136
+0:05:22.26,000 --> 0:05:24,000
+–creo que es el término científico–
+
+137
+0:05:24.26,000 --> 0:05:26,000
+y comenzó a restaurarlas.
+
+138
+0:05:26.26,000 --> 0:05:28,000
+Tomó una parte de aquí, otra de allá
+
+139
+0:05:28.26,000 --> 0:05:3,000
+y trató de idear una máquina
+
+140
+0:05:30.26,000 --> 0:05:33,000
+que funcionara en la realidad que él afrontaba.
+
+141
+0:05:33.26,000 --> 0:05:36,000
+Y se le ocurrió
+
+142
+0:05:36.26,000 --> 0:05:39,000
+el prototipo de la “máquina universal de anestesia”,
+
+143
+0:05:39.26,000 --> 0:05:41,000
+una máquina que podía funcionar
+
+144
+0:05:41.26,000 --> 0:05:43,000
+y anestesiar a sus pacientes
+
+145
+0:05:43.26,000 --> 0:05:47,000
+sin importar las circunstancias que se presentaran en el hospital.
+
+146
+0:05:47.26,000 --> 0:05:49,000
+Aquí está de regreso
+
+147
+0:05:49.26,000 --> 0:05:52,000
+al mismo hospital, un poco más desarrollada, 12 años después,
+
+148
+0:05:52.26,000 --> 0:05:55,000
+para trabajar con pacientes desde pediatría hasta geriatría.
+
+149
+0:05:55.26,000 --> 0:05:58,000
+Permítanme mostrarles un poco cómo funciona esta máquina
+
+150
+0:05:58.26,000 --> 0:06:,000
+Voilà!
+
+151
+0:06:00.26,000 --> 0:06:02,000
+Aquí está.
+
+152
+0:06:02.26,000 --> 0:06:04,000
+Cuando hay electricidad,
+
+153
+0:06:04.26,000 --> 0:06:06,000
+todo en esta máquina comienza en la base.
+
+154
+0:06:06.26,000 --> 0:06:09,000
+Hay un concentrador de oxígeno instalado aquí.
+
+155
+0:06:09.26,000 --> 0:06:12,000
+Me han oído mencionar varias veces al oxígeno.
+
+156
+0:06:12.26,000 --> 0:06:14,000
+Esencialmente, para dar anestesia,
+
+157
+0:06:14.26,000 --> 0:06:16,000
+se prefiere oxígeno tan puro como sea posible,
+
+158
+0:06:16.26,000 --> 0:06:18,000
+ya que al final hay que diluirlo
+
+159
+0:06:18.26,000 --> 0:06:2,000
+con el anestésico.
+
+160
+0:06:20.26,000 --> 0:06:22,000
+Y la mezcla que inhala el paciente
+
+161
+0:06:22.26,000 --> 0:06:24,000
+necesita al menos cierto porcentaje de oxígeno
+
+162
+0:06:24.26,000 --> 0:06:26,000
+o de lo contrario sería peligrosa.
+
+163
+0:06:26.26,000 --> 0:06:28,000
+Cuando hay electricidad,
+
+164
+0:06:28.26,000 --> 0:06:31,000
+el concentrador de oxígeno toma el aire de la sala,
+
+165
+0:06:31.26,000 --> 0:06:34,000
+que es completamente gratuito,
+
+166
+0:06:34.26,000 --> 0:06:36,000
+abundante
+
+167
+0:06:36.26,000 --> 0:06:38,000
+y tiene un 21 % de oxígeno.
+
+168
+0:06:38.26,000 --> 0:06:41,000
+El concentrador lo toma, lo filtra
+
+169
+0:06:41.26,000 --> 0:06:43,000
+y envía oxígeno 95 % puro
+
+170
+0:06:43.26,000 --> 0:06:45,000
+por aquí
+
+171
+0:06:45.26,000 --> 0:06:48,000
+donde lo mezcla con el agente anestésico.
+
+172
+0:06:48.26,000 --> 0:06:5,000
+Luego de mezclarlo,
+
+173
+0:06:50.26,000 --> 0:06:52,000
+va a los pulmones del paciente
+
+174
+0:06:52.26,000 --> 0:06:54,000
+pasando por aquí;
+
+175
+0:06:54.26,000 --> 0:06:56,000
+no lo pueden ver, pero hay un oxímetro aquí
+
+176
+0:06:56.26,000 --> 0:06:58,000
+que mostrará en esta pantalla
+
+177
+0:06:58.26,000 --> 0:07:01,000
+el porcentaje de oxígeno dado.
+
+178
+0:07:01.26,000 --> 0:07:03,000
+Y si no tienen electricidad,
+
+179
+0:07:03.26,000 --> 0:07:06,000
+o, Dios no lo quiera, la electricidad se va en la mitad de una cirugía,
+
+180
+0:07:06.26,000 --> 0:07:08,000
+la máquina automáticamente cambia,
+
+181
+0:07:08.26,000 --> 0:07:1,000
+sin tocarla siquiera,
+
+182
+0:07:10.26,000 --> 0:07:13,000
+a un funcionamiento con aire ambiente por esta entrada.
+
+183
+0:07:13.26,000 --> 0:07:15,000
+Todo lo demás es igual.
+
+184
+0:07:15.26,000 --> 0:07:17,000
+La única diferencia es que ahora
+
+185
+0:07:17.26,000 --> 0:07:2,000
+se trabaja con oxígeno al 21 %.
+
+186
+0:07:20.26,000 --> 0:07:23,000
+Solía ser un peligroso juego de adivinanzas
+
+187
+0:07:23.26,000 --> 0:07:26,000
+porque solo sabías que habías dado poco oxígeno, una vez que algo malo pasaba.
+
+188
+0:07:26.26,000 --> 0:07:29,000
+Pero pusimos una batería de larga duración de soporte aquí.
+
+189
+0:07:29.26,000 --> 0:07:31,000
+Esta es la única parte con batería de soporte.
+
+190
+0:07:31.26,000 --> 0:07:33,000
+Pero da control al anestesiólogo,
+
+191
+0:07:33.26,000 --> 0:07:35,000
+haya o no electricidad,
+
+192
+0:07:35.26,000 --> 0:07:37,000
+debido a que puede ajustar el flujo
+
+193
+0:07:37.26,000 --> 0:07:4,000
+basado en el porcentaje de oxígeno que le esté dando al paciente.
+
+194
+0:07:40.26,000 --> 0:07:42,000
+En ambos casos,
+
+195
+0:07:42.26,000 --> 0:07:44,000
+tenga o no electricidad,
+
+196
+0:07:44.26,000 --> 0:07:46,000
+a veces el paciente necesita ayuda para respirar.
+
+197
+0:07:46.26,000 --> 0:07:49,000
+Es una realidad de la anestesia. Los pulmones pueden paralizarse.
+
+198
+0:07:49.26,000 --> 0:07:51,000
+Así que simplemente añadimos este fuelle manual.
+
+199
+0:07:51.26,000 --> 0:07:54,000
+Hemos tenido cirugías de tres o cuatro horas
+
+200
+0:07:54.26,000 --> 0:07:57,000
+en las que hemos ventilado así al paciente.
+
+201
+0:07:57.26,000 --> 0:08:,000
+Es una máquina sencilla.
+
+202
+0:08:00.26,000 --> 0:08:02,000
+Me estremece decir simple;
+
+203
+0:08:02.26,000 --> 0:08:04,000
+es sencilla.
+
+204
+0:08:04.26,000 --> 0:08:06,000
+Y lo es por diseño.
+
+205
+0:08:06.26,000 --> 0:08:08,000
+Y no se necesita ser
+
+206
+0:08:08.26,000 --> 0:08:11,000
+un anestesiólogo altamente calificado para usarla
+
+207
+0:08:11.26,000 --> 0:08:14,000
+y eso es bueno, dado que en las áreas rurales
+
+208
+0:08:14.26,000 --> 0:08:17,000
+no se encuentra este nivel de formación.
+
+209
+0:08:17.26,000 --> 0:08:2,000
+Está diseñada para el medio en que será usada.
+
+210
+0:08:20.26,000 --> 0:08:22,000
+Esta es una máquina increíblemente resistente.
+
+211
+0:08:22.26,000 --> 0:08:24,000
+Tiene que soportar
+
+212
+0:08:24.26,000 --> 0:08:26,000
+el calor y el desgaste que ocurre
+
+213
+0:08:26.26,000 --> 0:08:29,000
+en hospitales rurales.
+
+214
+0:08:29.26,000 --> 0:08:31,000
+Y no se va a dañar fácilmente,
+
+215
+0:08:31.26,000 --> 0:08:34,000
+pero si pasara, todas las piezas de esta máquina
+
+216
+0:08:34.26,000 --> 0:08:37,000
+pueden retirarse y reemplazarse
+
+217
+0:08:37.26,000 --> 0:08:4,000
+con una llave hexagonal y un destornillador.
+
+218
+0:08:40.26,000 --> 0:08:42,000
+Y finalmente, es asequible.
+
+219
+0:08:42.26,000 --> 0:08:44,000
+Esta máquina tiene
+
+220
+0:08:44.26,000 --> 0:08:46,000
+un octavo del costo
+
+221
+0:08:46.26,000 --> 0:08:49,000
+de una convencional como la que les mostré al principio.
+
+222
+0:08:49.26,000 --> 0:08:52,000
+En otras palabras, lo que tenemos aquí
+
+223
+0:08:52.26,000 --> 0:08:55,000
+es una máquina que permite hacer cirugías y salvar vidas
+
+224
+0:08:55.26,000 --> 0:08:58,000
+porque está diseñada para estos ambientes,
+
+225
+0:08:58.26,000 --> 0:09:,000
+tal como la primera máquina que les mostré.
+
+226
+0:09:00.26,000 --> 0:09:02,000
+Pero no queremos detenernos aquí.
+
+227
+0:09:02.26,000 --> 0:09:04,000
+¿Funciona?
+
+228
+0:09:04.26,000 --> 0:09:06,000
+¿Es el diseño que va a servir en el sitio de trabajo?
+
+229
+0:09:06.26,000 --> 0:09:08,000
+Hemos visto buenos resultados hasta ahora.
+
+230
+0:09:08.26,000 --> 0:09:11,000
+Está en 13 hospitales en 4 países,
+
+231
+0:09:11.26,000 --> 0:09:13,000
+y desde 2010,
+
+232
+0:09:13.26,000 --> 0:09:15,000
+hemos hecho 2000 cirugías
+
+233
+0:09:15.26,000 --> 0:09:17,000
+sin ningún efecto clínico adverso.
+
+234
+0:09:17.26,000 --> 0:09:19,000
+Así que estamos encantados.
+
+235
+0:09:19.26,000 --> 0:09:23,000
+Parece ser una solución costo-efectiva, escalable
+
+236
+0:09:23.26,000 --> 0:09:26,000
+para un problema realmente generalizado.
+
+237
+0:09:26.26,000 --> 0:09:28,000
+Pero queremos estar seguros
+
+238
+0:09:28.26,000 --> 0:09:3,000
+de que es el aparato más efectivo y seguro
+
+239
+0:09:30.26,000 --> 0:09:32,000
+que podemos poner en los hospitales.
+
+240
+0:09:32.26,000 --> 0:09:34,000
+Por eso enviamos a un número de asociados
+
+241
+0:09:34.26,000 --> 0:09:36,000
+con ONGs y universidades
+
+242
+0:09:36.26,000 --> 0:09:39,000
+a recolectar datos sobre la interfaz del usuario
+
+243
+0:09:39.26,000 --> 0:09:41,000
+y a averiguar el tipo de cirugías para la que es apropiada
+
+244
+0:09:41.26,000 --> 0:09:43,000
+y las formas de mejorar el aparato en sí.
+
+245
+0:09:43.26,000 --> 0:09:45,000
+Uno de esos asociados
+
+246
+0:09:45.26,000 --> 0:09:48,000
+está en Johns Hopkins, aquí mismo en Baltimore.
+
+247
+0:09:48.26,000 --> 0:09:52,000
+Tienen un excelente laboratorio de simulación de anestesia.
+
+248
+0:09:52.26,000 --> 0:09:54,000
+Así que llevamos esta máquina
+
+249
+0:09:54.26,000 --> 0:09:57,000
+y recreamos algunas de las crisis en cirugía
+
+250
+0:09:57.26,000 --> 0:09:59,000
+que está máquina enfrentará
+
+251
+0:09:59.26,000 --> 0:10:01,000
+en uno de los hospitales a la que está destinada,
+
+252
+0:10:01.26,000 --> 0:10:04,000
+en un ambiente controlado y seguro,
+
+253
+0:10:04.26,000 --> 0:10:06,000
+para evaluar su efectividad.
+
+254
+0:10:06.26,000 --> 0:10:09,000
+Estaremos en capacidad de comparar los resultados del estudio
+
+255
+0:10:09.26,000 --> 0:10:11,000
+con la experiencia del mundo real,
+
+256
+0:10:11.26,000 --> 0:10:13,000
+ya que pusimos dos de estas en hospitales
+
+257
+0:10:13.26,000 --> 0:10:15,000
+con los que Johns Hopkins trabaja en Sierra Leona,
+
+258
+0:10:15.26,000 --> 0:10:18,000
+incluso en el que se dio la emergencia en la cesárea.
+
+259
+0:10:20.26,000 --> 0:10:23,000
+He hablado mucho de anestesia y tiendo a hacerlo.
+
+260
+0:10:23.26,000 --> 0:10:25,000
+Creo que es increíblemente fascinante
+
+261
+0:10:25.26,000 --> 0:10:27,000
+y un componente importante de la salud.
+
+262
+0:10:27.26,000 --> 0:10:3,000
+Y parece periférica, nunca pensamos en ella,
+
+263
+0:10:30.26,000 --> 0:10:32,000
+hasta que no tenemos acceso a ella
+
+264
+0:10:32.26,000 --> 0:10:34,000
+y se vuelve un factor decisivo:
+
+265
+0:10:34.26,000 --> 0:10:36,000
+¿Quién recibe una cirugía y quién no?
+
+266
+0:10:36.26,000 --> 0:10:39,000
+¿Quién tiene una cirugía segura y quién no?
+
+267
+0:10:39.26,000 --> 0:10:42,000
+Pero ya saben, es solo una de las muchas formas
+
+268
+0:10:42.26,000 --> 0:10:45,000
+en que un diseño, uno apropiado,
+
+269
+0:10:45.26,000 --> 0:10:48,000
+puede tener un impacto en la salud.
+
+270
+0:10:48.26,000 --> 0:10:5,000
+Si más personas del sistema de salud
+
+271
+0:10:50.26,000 --> 0:10:53,000
+trabajan realmente en estos retos de los países de bajos ingresos,
+
+272
+0:10:53.26,000 --> 0:10:55,000
+se puede comenzar un proceso de diseño
+
+273
+0:10:55.26,000 --> 0:10:57,000
+que busque soluciones
+
+274
+0:10:57.26,000 --> 0:10:59,000
+fuera de la caja proverbial
+
+275
+0:10:59.26,000 --> 0:11:01,000
+y dentro del hospital;
+
+276
+0:11:01.26,000 --> 0:11:03,000
+en otras palabras, si podemos diseñar
+
+277
+0:11:03.26,000 --> 0:11:06,000
+para el medio que existe en muchos países del mundo
+
+278
+0:11:06.26,000 --> 0:11:08,000
+más que para uno que quisiéramos que existiera,
+
+279
+0:11:08.26,000 --> 0:11:11,000
+podríamos salvar muchas vidas.
+
+280
+0:11:11.26,000 --> 0:11:13,000
+Muchas gracias.
+
+281
+0:11:13.26,000 --> 0:11:17,000
+(Aplausos)
+

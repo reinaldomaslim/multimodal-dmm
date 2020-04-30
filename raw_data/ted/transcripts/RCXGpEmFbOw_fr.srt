@@ -1,0 +1,560 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Claire Ghyselen Relecteur: eric vautier
+
+2
+0:00:12.944,000 --> 0:00:13,000
+Notre plateforme pour amateurs
+
+3
+0:00:14.92,000 --> 0:00:16,000
+pourrait très bien se transformer en aventure industrielle.
+
+4
+0:00:17.896,000 --> 0:00:2,000
+Les applications commerciales pour les drones sont multiples :
+
+5
+0:00:21.01,000 --> 0:00:25,000
+surveillance, monitoring environnemental, photographie, cinéma ou journalisme.
+
+6
+0:00:25.16,000 --> 0:00:27,000
+C'est possible grâce au savoir-faire qui se développe
+
+7
+0:00:27.71,000 --> 0:00:29,000
+dans les centres de recherche dans le monde.
+
+8
+0:00:29.816,000 --> 0:00:33,000
+Avant que les livraisons de colis aériennes ne fassent partie de notre vie,
+
+9
+0:00:34.246,000 --> 0:00:37,000
+une flotte autonome d'engins volants ont construit une tour de 6 mètres,
+
+10
+0:00:38.216,000 --> 0:00:4,000
+composées de 1500 briques.
+
+11
+0:00:40.232,000 --> 0:00:42,000
+Cet exploit a eu lieu en direct, au centre FRAC, en France.
+
+12
+0:00:43.136,000 --> 0:00:45,000
+Depuis quelques années, ces objets volent avec des cables.
+
+13
+0:00:45.842,000 --> 0:00:46,000
+En les attachant,
+
+14
+0:00:46.986,000 --> 0:00:48,000
+elles atteignent une haute vélocité et de fortes accélérations
+
+15
+0:00:49.906,000 --> 0:00:5,000
+dans des espaces ténus.
+
+16
+0:00:51,000 --> 0:00:54,000
+Elles peuvent construire en autonomie des structures suspendues.
+
+17
+0:00:54.096,000 --> 0:00:56,000
+Elles ont appris à porter des charges,
+
+18
+0:00:56.5,000 --> 0:00:57,000
+à gérer les perturbations,
+
+19
+0:00:58.046,000 --> 0:01:01,000
+et, de manière générale, à interagir avec le monde physique.
+
+20
+0:01:01.136,000 --> 0:01:04,000
+Aujourd'hui, je vais vous montrer quelques-uns de nos projets en cours.
+
+21
+0:01:04.522,000 --> 0:01:08,000
+Notre but est de repousser les limites du possible des vols autonomes.
+
+22
+0:01:09.04,000 --> 0:01:11,000
+Pour qu'un système fonctionne de manière autonome,
+
+23
+0:01:11.496,000 --> 0:01:14,000
+il doit connaître collectivement, la localisation de chaque objet volant
+
+24
+0:01:14.906,000 --> 0:01:15,000
+qui constitue son essaim.
+
+25
+0:01:16.18,000 --> 0:01:17,000
+Dans notre labo à ETH Zurich,
+
+26
+0:01:17.946,000 --> 0:01:19,000
+nous utilisons des caméras externes pour localiser les objets.
+
+27
+0:01:20.856,000 --> 0:01:21,000
+Ça nous permet de concentrer nos efforts
+
+28
+0:01:22.806,000 --> 0:01:24,000
+sur le développement rapide de tâches très dynamiques.
+
+29
+0:01:25.456,000 --> 0:01:29,000
+Les démos d'aujourd'hui sont basées sur une nouvelle technique de localisation
+
+30
+0:01:29.834,000 --> 0:01:31,000
+développée par Verity Studios, une spin-off du labo.
+
+31
+0:01:32.58,000 --> 0:01:33,000
+Il n'y a pas de caméra externe.
+
+32
+0:01:34.176,000 --> 0:01:38,000
+Chaque engin volant détermine sa localisation dans l'espace
+
+33
+0:01:38.22,000 --> 0:01:4,000
+avec des capteurs embarqués,
+
+34
+0:01:40.28,000 --> 0:01:43,000
+et un ordinateur embarqué qui détermine les actions à prendre.
+
+35
+0:01:43.28,000 --> 0:01:45,000
+Les seules commandes externes sont les plus sensibles :
+
+36
+0:01:45.926,000 --> 0:01:47,000
+« décoller » et « atterrir ».
+
+37
+0:02:10.56,000 --> 0:02:11,000
+Voici ce qu'on appelle une « aile VTOL ».
+
+38
+0:02:12.546,000 --> 0:02:15,000
+C'est un avion qui veut le beurre, et l'argent du beurre.
+
+39
+0:02:15.936,000 --> 0:02:18,000
+Comme tout aéronef à voilure fixe, il est très efficace pour voler,
+
+40
+0:02:19.252,000 --> 0:02:22,000
+bien meilleur que les hélicoptères.
+
+41
+0:02:22.455,000 --> 0:02:24,000
+Contrairement aux avions à voilure fixe,
+
+42
+0:02:24.942,000 --> 0:02:25,000
+il peut voler verticalement.
+
+43
+0:02:26.476,000 --> 0:02:29,000
+C'est particulièrement intéressant au décollage et à l'atterrissage,
+
+44
+0:02:29.696,000 --> 0:02:3,000
+et offre une grande flexibilité.
+
+45
+0:02:31.49,000 --> 0:02:33,000
+Hélas, il y a un revers de la médaille.
+
+46
+0:02:33.6,000 --> 0:02:34,000
+Une des contraintes des ailes VTOL
+
+47
+0:02:35.576,000 --> 0:02:37,000
+est sa sensibilité aux perturbations comme les rafales de vent.
+
+48
+0:02:38.536,000 --> 0:02:4,000
+Nous développons des architectures et algorithmes nouveaux
+
+49
+0:02:41.282,000 --> 0:02:42,000
+pour résoudre ces contraintes.
+
+50
+0:02:50.56,000 --> 0:02:52,000
+Le principe est que l'aéronef puisse récupérer sa stabilité,
+
+51
+0:02:53.416,000 --> 0:02:55,000
+quelle que soit la situation,
+
+52
+0:03:03.4,000 --> 0:03:05,000
+et, avec l'expérience, qu'il améliore ses performances.
+
+53
+0:03:15.6,000 --> 0:03:19,000
+(Applaudissements)
+
+54
+0:03:22,000 --> 0:03:23,000
+Bon.
+
+55
+0:03:33.48,000 --> 0:03:34,000
+Dans nos recherches,
+
+56
+0:03:34.746,000 --> 0:03:36,000
+nous nous posons souvent des questions fondamentales abstraites
+
+57
+0:03:37.736,000 --> 0:03:39,000
+pour aller au cœur du sujet.
+
+58
+0:03:41.264,000 --> 0:03:43,000
+Une de ces question est la suivante :
+
+59
+0:03:43.48,000 --> 0:03:47,000
+quel est le nombre minimum de composants animés nécessaires pour contrôler un vol ?
+
+60
+0:03:47.496,000 --> 0:03:51,000
+Il y a plusieurs raisons pratiques derrière ses questions.
+
+61
+0:03:51.762,000 --> 0:03:52,000
+Prenez les hélicoptères.
+
+62
+0:03:53.076,000 --> 0:03:56,000
+On les affectionne parce qu'ils sont constitués de 1000 composants mobiles,
+
+63
+0:03:56.92,000 --> 0:03:58,000
+qui se liguent toutes pour vous blesser.
+
+64
+0:04:00.29,000 --> 0:04:03,000
+Or, des pilotes expérimentés ont pu, il y a des dizaines d'années de ça,
+
+65
+0:04:03.716,000 --> 0:04:06,000
+faire voler à distance des aéronefs équipés de deux composants animés :
+
+66
+0:04:07.64,000 --> 0:04:08,000
+une hélice et un gouvernail.
+
+67
+0:04:1,000 --> 0:04:13,000
+Nous venons de découvrir qu'une seule pièce mobile suffit.
+
+68
+0:04:13.624,000 --> 0:04:14,000
+Voici un Mono Spinner,
+
+69
+0:04:14.88,000 --> 0:04:17,000
+l'objet volant télécommandé le plus simple mécaniquement parlant,
+
+70
+0:04:18.136,000 --> 0:04:19,000
+sorti du berceau il y a quelques mois.
+
+71
+0:04:19.982,000 --> 0:04:22,000
+Il n'a qu'un seul composant animé : une hélice.
+
+72
+0:04:23.12,000 --> 0:04:26,000
+Il n'y a ni volets, ni charnières, ni ailerons.
+
+73
+0:04:26.696,000 --> 0:04:28,000
+Aucun vérin, aucune surface de contrôle.
+
+74
+0:04:29.261,000 --> 0:04:31,000
+Il n'y a qu'une simple hélice.
+
+75
+0:04:31.32,000 --> 0:04:33,000
+Quoique mécaniquement simple,
+
+76
+0:04:33.375,000 --> 0:04:35,000
+le cerveau électronique fonctionne à plein régime,
+
+77
+0:04:35.922,000 --> 0:04:37,000
+pour lui permettre de voler de manière stable,
+
+78
+0:04:38.15,000 --> 0:04:4,000
+et de se mouvoir librement.
+
+79
+0:04:40.16,000 --> 0:04:43,000
+Il n'est pas encore muni des algorithmes sophistiqués de l'aile VTOL.
+
+80
+0:04:44.006,000 --> 0:04:45,000
+Ce qui signifie que pour qu'il vole,
+
+81
+0:04:46,000 --> 0:04:48,000
+on doit le lancer d'une manière très précise.
+
+82
+0:04:48.81,000 --> 0:04:53,000
+La probabilité que j'y arrive devant vous est très faible.
+
+83
+0:04:54.766,000 --> 0:04:57,000
+Je préfère donc vous en montrer une vidéo, filmée hier soir.
+
+84
+0:04:58.006,000 --> 0:04:59,000
+(Rires)
+
+85
+0:05:10.32,000 --> 0:05:11,000
+(Applaudissements)
+
+86
+0:05:23.08,000 --> 0:05:26,000
+Le monospinner représente la frugalité.
+
+87
+0:05:26.816,000 --> 0:05:29,000
+Voici maintenant son opposé, l'Omni Copter, composé de huit hélices.
+
+88
+0:05:30.332,000 --> 0:05:32,000
+C'est un exercice dans l'excès.
+
+89
+0:05:32.93,000 --> 0:05:34,000
+Que faire de tous ces excédents ?
+
+90
+0:05:35.056,000 --> 0:05:37,000
+Vous le constatez, il est très symétrique.
+
+91
+0:05:37.937,000 --> 0:05:39,000
+La conséquence est son ambivalence par rapport à l'orientation.
+
+92
+0:05:40.906,000 --> 0:05:42,000
+Ça lui confère des capacités de vol extraordinaires
+
+93
+0:05:43.496,000 --> 0:05:45,000
+n'importe où dans l'espace,
+
+94
+0:05:45.772,000 --> 0:05:49,000
+sans notion d'avant ou d'arrière, ou de rotation sur lui-même.
+
+95
+0:05:51.04,000 --> 0:05:52,000
+Il a ses propres difficultés,
+
+96
+0:05:52.466,000 --> 0:05:54,000
+principalement liées à l'interaction des courants
+
+97
+0:05:55.096,000 --> 0:05:56,000
+provoqués par ses huit hélices.
+
+98
+0:05:56.696,000 --> 0:05:59,000
+Une partie de tout ça peut être modélisée. Le reste est appris en volant.
+
+99
+0:06:00.536,000 --> 0:06:01,000
+Regardons ensemble.
+
+100
+0:06:44.76,000 --> 0:06:46,000
+(Applaudissements)
+
+101
+0:06:52.72,000 --> 0:06:54,000
+Comme les drones vont faire partie de notre vie quotidienne,
+
+102
+0:06:55.525,000 --> 0:06:58,000
+ils devront être extrêmement sûrs et fiables.
+
+103
+0:06:58.76,000 --> 0:06:59,000
+Cette machine, là-bas,
+
+104
+0:07:00.16,000 --> 0:07:03,000
+est constituée de deux objets volants, équipés de deux hélices.
+
+105
+0:07:03.296,000 --> 0:07:05,000
+Celui-ci tourne dans le sens des aiguilles d'une montre.
+
+106
+0:07:05.992,000 --> 0:07:06,000
+Celui-là, dans le sens contraire.
+
+107
+0:07:07.616,000 --> 0:07:08,000
+Quand on les couple,
+
+108
+0:07:08.986,000 --> 0:07:11,000
+ils se comportent comme un quadricoptère à haute performance.
+
+109
+0:07:23.64,000 --> 0:07:24,000
+Si un problème survient,
+
+110
+0:07:25.336,000 --> 0:07:29,000
+un rotor ou une hélice en panne, l'électronique ou une batterie qui lâche,
+
+111
+0:07:29.776,000 --> 0:07:32,000
+il peut continuer de rester en vol, quoique ses performances se dégradent.
+
+112
+0:07:33.312,000 --> 0:07:36,000
+Je vais vous montrer ça en désactivant une moitié.
+
+113
+0:07:56.24,000 --> 0:07:58,000
+(Applaudissements)
+
+114
+0:08:03.32,000 --> 0:08:07,000
+La dernière démonstration explore les essaims synthétiques.
+
+115
+0:08:07.566,000 --> 0:08:09,000
+Un grand nombre d'entités autonomes et coordonnées
+
+116
+0:08:10.536,000 --> 0:08:12,000
+ouvre des perspectives nouvelles à l'expression artistique.
+
+117
+0:08:13.342,000 --> 0:08:15,000
+Nous avons acheté des micro quadrimoteurs,
+
+118
+0:08:16.296,000 --> 0:08:18,000
+qui sont moins lourds qu'une tranche de pain.
+
+119
+0:08:18.852,000 --> 0:08:2,000
+Nous les avons équipés de notre technologie,
+
+120
+0:08:21.256,000 --> 0:08:22,000
+et d'algorithmes dédiés.
+
+121
+0:08:22.902,000 --> 0:08:24,000
+Leur nombre peut être illimité
+
+122
+0:08:24.976,000 --> 0:08:26,000
+parce que chaque unité connaît sa localisation dans l'espace,
+
+123
+0:08:27.842,000 --> 0:08:28,000
+et s'auto-contrôle.
+
+124
+0:08:55.84,000 --> 0:08:56,000
+(Applaudissements)
+
+125
+0:09:19.36,000 --> 0:09:21,000
+(Applaudissements)
+
+126
+0:10:18.04,000 --> 0:10:19,000
+(Applaudissements)
+
+127
+0:10:35.96,000 --> 0:10:38,000
+J'espère que ces démonstrations vont vous inciter à imaginer
+
+128
+0:10:39.056,000 --> 0:10:42,000
+des nouveaux rôles révolutionnaires pour les objets volants.
+
+129
+0:10:42.566,000 --> 0:10:44,000
+Celui-ci, qui est ultra-sûr,
+
+130
+0:10:44.706,000 --> 0:10:47,000
+aspire à fournir un éclairage indirect à Broadway.
+
+131
+0:10:48.416,000 --> 0:10:49,000
+(Rires)
+
+132
+0:10:49.826,000 --> 0:10:51,000
+En fait, c'est très difficile de prédire
+
+133
+0:10:51.976,000 --> 0:10:53,000
+l'impact qu'aura cette technologie naissante.
+
+134
+0:10:54.166,000 --> 0:10:58,000
+Pour nous, la satisfaction émerge du voyage et du processus créatif.
+
+135
+0:10:58.962,000 --> 0:11:02,000
+Ça nous rappelle combien notre univers est merveilleux et magique,
+
+136
+0:11:03.85,000 --> 0:11:08,000
+qu'il pousse les être créatifs à le ciseler de manière si spectaculaire.
+
+137
+0:11:09.5,000 --> 0:11:14,000
+Que cette technologie recèle un potentiel économique et commercial extraordinaire
+
+138
+0:11:14.596,000 --> 0:11:15,000
+n'est que la cerise sur le gateau.
+
+139
+0:11:16.542,000 --> 0:11:17,000
+Merci.
+
+140
+0:11:17.696,000 --> 0:11:18,000
+(Applaudissements)
+

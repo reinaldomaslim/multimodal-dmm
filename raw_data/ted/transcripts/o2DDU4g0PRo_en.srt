@@ -1,0 +1,576 @@
+1
+0:00:12.876,000 --> 0:00:13,000
+Look at these images.
+
+2
+0:00:14.051,000 --> 0:00:16,000
+Now, tell me which Obama here is real.
+
+3
+0:00:16.71,000 --> 0:00:18,000
+(Video) Barack Obama: To help families refinance their homes,
+
+4
+0:00:19.595,000 --> 0:00:21,000
+to invest in things like high-tech manufacturing,
+
+5
+0:00:22.266,000 --> 0:00:23,000
+clean energy
+
+6
+0:00:23.449,000 --> 0:00:25,000
+and the infrastructure that creates good new jobs.
+
+7
+0:00:26.647,000 --> 0:00:27,000
+Supasorn Suwajanakorn: Anyone?
+
+8
+0:00:28.155,000 --> 0:00:29,000
+The answer is none of them.
+
+9
+0:00:30.053,000 --> 0:00:31,000
+(Laughter)
+
+10
+0:00:31.191,000 --> 0:00:32,000
+None of these is actually real.
+
+11
+0:00:33.001,000 --> 0:00:34,000
+So let me tell you how we got here.
+
+12
+0:00:35.94,000 --> 0:00:36,000
+My inspiration for this work
+
+13
+0:00:37.542,000 --> 0:00:42,000
+was a project meant to preserve our last chance for learning about the Holocaust
+
+14
+0:00:42.977,000 --> 0:00:43,000
+from the survivors.
+
+15
+0:00:44.769,000 --> 0:00:46,000
+It's called New Dimensions in Testimony,
+
+16
+0:00:47.42,000 --> 0:00:5,000
+and it allows you to have interactive conversations
+
+17
+0:00:50.57,000 --> 0:00:52,000
+with a hologram of a real Holocaust survivor.
+
+18
+0:00:53.793,000 --> 0:00:54,000
+(Video) Man: How did you survive the Holocaust?
+
+19
+0:00:55.783,000 --> 0:00:56,000
+(Video) Hologram: How did I survive?
+
+20
+0:00:57.912,000 --> 0:00:58,000
+I survived,
+
+21
+0:01:00.419,000 --> 0:01:01,000
+I believe,
+
+22
+0:01:01.97,000 --> 0:01:04,000
+because providence watched over me.
+
+23
+0:01:05.573,000 --> 0:01:08,000
+SS: Turns out these answers were prerecorded in a studio.
+
+24
+0:01:09.051,000 --> 0:01:11,000
+Yet the effect is astounding.
+
+25
+0:01:11.527,000 --> 0:01:14,000
+You feel so connected to his story and to him as a person.
+
+26
+0:01:16.011,000 --> 0:01:19,000
+I think there's something special about human interaction
+
+27
+0:01:19.336,000 --> 0:01:21,000
+that makes it much more profound
+
+28
+0:01:22.117,000 --> 0:01:24,000
+and personal
+
+29
+0:01:24.339,000 --> 0:01:27,000
+than what books or lectures or movies could ever teach us.
+
+30
+0:01:28.267,000 --> 0:01:3,000
+So I saw this and began to wonder,
+
+31
+0:01:30.716,000 --> 0:01:32,000
+can we create a model like this for anyone?
+
+32
+0:01:33.55,000 --> 0:01:35,000
+A model that looks, talks and acts just like them?
+
+33
+0:01:37.573,000 --> 0:01:39,000
+So I set out to see if this could be done
+
+34
+0:01:39.604,000 --> 0:01:41,000
+and eventually came up with a new solution
+
+35
+0:01:41.938,000 --> 0:01:44,000
+that can build a model of a person using nothing but these:
+
+36
+0:01:45.747,000 --> 0:01:47,000
+existing photos and videos of a person.
+
+37
+0:01:48.701,000 --> 0:01:5,000
+If you can leverage this kind of passive information,
+
+38
+0:01:51.342,000 --> 0:01:53,000
+just photos and video that are out there,
+
+39
+0:01:53.373,000 --> 0:01:55,000
+that's the key to scaling to anyone.
+
+40
+0:01:56.119,000 --> 0:01:57,000
+By the way, here's Richard Feynman,
+
+41
+0:01:57.92,000 --> 0:02:,000
+who in addition to being a Nobel Prize winner in physics
+
+42
+0:02:01.357,000 --> 0:02:03,000
+was also known as a legendary teacher.
+
+43
+0:02:05.08,000 --> 0:02:07,000
+Wouldn't it be great if we could bring him back
+
+44
+0:02:07.302,000 --> 0:02:1,000
+to give his lectures and inspire millions of kids,
+
+45
+0:02:10.591,000 --> 0:02:12,000
+perhaps not just in English but in any language?
+
+46
+0:02:14.441,000 --> 0:02:18,000
+Or if you could ask our grandparents for advice and hear those comforting words
+
+47
+0:02:19.067,000 --> 0:02:2,000
+even if they're no longer with us?
+
+48
+0:02:21.683,000 --> 0:02:24,000
+Or maybe using this tool, book authors, alive or not,
+
+49
+0:02:25.103,000 --> 0:02:27,000
+could read aloud all of their books for anyone interested.
+
+50
+0:02:29.199,000 --> 0:02:31,000
+The creative possibilities here are endless,
+
+51
+0:02:31.66,000 --> 0:02:32,000
+and to me, that's very exciting.
+
+52
+0:02:34.595,000 --> 0:02:36,000
+And here's how it's working so far.
+
+53
+0:02:36.621,000 --> 0:02:37,000
+First, we introduce a new technique
+
+54
+0:02:38.312,000 --> 0:02:42,000
+that can reconstruct a high-detailed 3D face model from any image
+
+55
+0:02:42.908,000 --> 0:02:44,000
+without ever 3D-scanning the person.
+
+56
+0:02:45.89,000 --> 0:02:47,000
+And here's the same output model from different views.
+
+57
+0:02:49.969,000 --> 0:02:5,000
+This also works on videos,
+
+58
+0:02:51.495,000 --> 0:02:53,000
+by running the same algorithm on each video frame
+
+59
+0:02:54.371,000 --> 0:02:56,000
+and generating a moving 3D model.
+
+60
+0:02:57.538,000 --> 0:02:59,000
+And here's the same output model from different angles.
+
+61
+0:03:01.933,000 --> 0:03:03,000
+It turns out this problem is very challenging,
+
+62
+0:03:04.491,000 --> 0:03:06,000
+but the key trick is that we are going to analyze
+
+63
+0:03:07.04,000 --> 0:03:09,000
+a large photo collection of the person beforehand.
+
+64
+0:03:10.65,000 --> 0:03:12,000
+For George W. Bush, we can just search on Google,
+
+65
+0:03:14.309,000 --> 0:03:16,000
+and from that, we are able to build an average model,
+
+66
+0:03:16.832,000 --> 0:03:19,000
+an iterative, refined model to recover the expression
+
+67
+0:03:19.967,000 --> 0:03:21,000
+in fine details, like creases and wrinkles.
+
+68
+0:03:23.326,000 --> 0:03:24,000
+What's fascinating about this
+
+69
+0:03:24.753,000 --> 0:03:27,000
+is that the photo collection can come from your typical photos.
+
+70
+0:03:28.2,000 --> 0:03:3,000
+It doesn't really matter what expression you're making
+
+71
+0:03:30.827,000 --> 0:03:31,000
+or where you took those photos.
+
+72
+0:03:32.736,000 --> 0:03:34,000
+What matters is that there are a lot of them.
+
+73
+0:03:35.16,000 --> 0:03:36,000
+And we are still missing color here,
+
+74
+0:03:36.92,000 --> 0:03:38,000
+so next, we develop a new blending technique
+
+75
+0:03:39.292,000 --> 0:03:41,000
+that improves upon a single averaging method
+
+76
+0:03:42.152,000 --> 0:03:44,000
+and produces sharp facial textures and colors.
+
+77
+0:03:45.779,000 --> 0:03:47,000
+And this can be done for any expression.
+
+78
+0:03:49.485,000 --> 0:03:51,000
+Now we have a control of a model of a person,
+
+79
+0:03:52.008,000 --> 0:03:55,000
+and the way it's controlled now is by a sequence of static photos.
+
+80
+0:03:55.827,000 --> 0:03:58,000
+Notice how the wrinkles come and go, depending on the expression.
+
+81
+0:04:00.109,000 --> 0:04:02,000
+We can also use a video to drive the model.
+
+82
+0:04:02.879,000 --> 0:04:04,000
+(Video) Daniel Craig: Right, but somehow,
+
+83
+0:04:05.496,000 --> 0:04:08,000
+we've managed to attract some more amazing people.
+
+84
+0:04:10.021,000 --> 0:04:11,000
+SS: And here's another fun demo.
+
+85
+0:04:11.687,000 --> 0:04:13,000
+So what you see here are controllable models
+
+86
+0:04:13.957,000 --> 0:04:15,000
+of people I built from their internet photos.
+
+87
+0:04:16.425,000 --> 0:04:18,000
+Now, if you transfer the motion from the input video,
+
+88
+0:04:19.353,000 --> 0:04:21,000
+we can actually drive the entire party.
+
+89
+0:04:21.529,000 --> 0:04:23,000
+George W. Bush: It's a difficult bill to pass,
+
+90
+0:04:23.725,000 --> 0:04:25,000
+because there's a lot of moving parts,
+
+91
+0:04:26.052,000 --> 0:04:31,000
+and the legislative processes can be ugly.
+
+92
+0:04:31.307,000 --> 0:04:32,000
+(Applause)
+
+93
+0:04:32.961,000 --> 0:04:33,000
+SS: So coming back a little bit,
+
+94
+0:04:34.822,000 --> 0:04:37,000
+our ultimate goal, rather, is to capture their mannerisms
+
+95
+0:04:38.037,000 --> 0:04:41,000
+or the unique way each of these people talks and smiles.
+
+96
+0:04:41.106,000 --> 0:04:43,000
+So to do that, can we actually teach the computer
+
+97
+0:04:43.443,000 --> 0:04:45,000
+to imitate the way someone talks
+
+98
+0:04:45.689,000 --> 0:04:47,000
+by only showing it video footage of the person?
+
+99
+0:04:48.898,000 --> 0:04:5,000
+And what I did exactly was, I let a computer watch
+
+100
+0:04:51.499,000 --> 0:04:54,000
+14 hours of pure Barack Obama giving addresses.
+
+101
+0:04:55.443,000 --> 0:04:58,000
+And here's what we can produce given only his audio.
+
+102
+0:04:58.983,000 --> 0:04:59,000
+(Video) BO: The results are clear.
+
+103
+0:05:00.784,000 --> 0:05:04,000
+America's businesses have created 14.5 million new jobs
+
+104
+0:05:05.157,000 --> 0:05:07,000
+over 75 straight months.
+
+105
+0:05:07.955,000 --> 0:05:09,000
+SS: So what's being synthesized here is only the mouth region,
+
+106
+0:05:10.884,000 --> 0:05:11,000
+and here's how we do it.
+
+107
+0:05:12.764,000 --> 0:05:13,000
+Our pipeline uses a neural network
+
+108
+0:05:14.614,000 --> 0:05:16,000
+to convert and input audio into these mouth points.
+
+109
+0:05:18.547,000 --> 0:05:22,000
+(Video) BO: We get it through our job or through Medicare or Medicaid.
+
+110
+0:05:22.796,000 --> 0:05:25,000
+SS: Then we synthesize the texture, enhance details and teeth,
+
+111
+0:05:26.24,000 --> 0:05:29,000
+and blend it into the head and background from a source video.
+
+112
+0:05:29.338,000 --> 0:05:3,000
+(Video) BO: Women can get free checkups,
+
+113
+0:05:31.267,000 --> 0:05:33,000
+and you can't get charged more just for being a woman.
+
+114
+0:05:34.973,000 --> 0:05:37,000
+Young people can stay on a parent's plan until they turn 26.
+
+115
+0:05:39.267,000 --> 0:05:41,000
+SS: I think these results seem very realistic and intriguing,
+
+116
+0:05:42.243,000 --> 0:05:45,000
+but at the same time frightening, even to me.
+
+117
+0:05:45.44,000 --> 0:05:49,000
+Our goal was to build an accurate model of a person, not to misrepresent them.
+
+118
+0:05:49.956,000 --> 0:05:52,000
+But one thing that concerns me is its potential for misuse.
+
+119
+0:05:53.958,000 --> 0:05:55,000
+People have been thinking about this problem for a long time,
+
+120
+0:05:56.953,000 --> 0:05:58,000
+since the days when Photoshop first hit the market.
+
+121
+0:05:59.862,000 --> 0:06:02,000
+As a researcher, I'm also working on countermeasure technology,
+
+122
+0:06:03.687,000 --> 0:06:05,000
+and I'm part of an ongoing effort at AI Foundation,
+
+123
+0:06:06.653,000 --> 0:06:09,000
+which uses a combination of machine learning and human moderators
+
+124
+0:06:10.074,000 --> 0:06:12,000
+to detect fake images and videos,
+
+125
+0:06:12.242,000 --> 0:06:13,000
+fighting against my own work.
+
+126
+0:06:14.675,000 --> 0:06:17,000
+And one of the tools we plan to release is called Reality Defender,
+
+127
+0:06:17.889,000 --> 0:06:21,000
+which is a web-browser plug-in that can flag potentially fake content
+
+128
+0:06:21.952,000 --> 0:06:23,000
+automatically, right in the browser.
+
+129
+0:06:24.509,000 --> 0:06:28,000
+(Applause)
+
+130
+0:06:28.761,000 --> 0:06:29,000
+Despite all this, though,
+
+131
+0:06:30.238,000 --> 0:06:31,000
+fake videos could do a lot of damage,
+
+132
+0:06:32.102,000 --> 0:06:35,000
+even before anyone has a chance to verify,
+
+133
+0:06:35.42,000 --> 0:06:37,000
+so it's very important that we make everyone aware
+
+134
+0:06:38.166,000 --> 0:06:4,000
+of what's currently possible
+
+135
+0:06:40.197,000 --> 0:06:43,000
+so we can have the right assumption and be critical about what we see.
+
+136
+0:06:44.423,000 --> 0:06:49,000
+There's still a long way to go before we can fully model individual people
+
+137
+0:06:49.454,000 --> 0:06:51,000
+and before we can ensure the safety of this technology.
+
+138
+0:06:53.097,000 --> 0:06:54,000
+But I'm excited and hopeful,
+
+139
+0:06:54.708,000 --> 0:06:57,000
+because if we use it right and carefully,
+
+140
+0:06:58.271,000 --> 0:07:02,000
+this tool can allow any individual's positive impact on the world
+
+141
+0:07:02.604,000 --> 0:07:04,000
+to be massively scaled
+
+142
+0:07:04.818,000 --> 0:07:06,000
+and really help shape our future the way we want it to be.
+
+143
+0:07:07.584,000 --> 0:07:08,000
+Thank you.
+
+144
+0:07:08.759,000 --> 0:07:13,000
+(Applause)
+

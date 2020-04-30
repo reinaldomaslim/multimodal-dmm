@@ -1,0 +1,300 @@
+1
+0:00:13.683,000 --> 0:00:15,000
+This is a work in process,
+
+2
+0:00:16.617,000 --> 0:00:2,000
+based on some comments that were made at TED two years ago
+
+3
+0:00:21.176,000 --> 0:00:24,000
+about the need for the storage of vaccine.
+
+4
+0:00:24.849,000 --> 0:00:25,000
+(Video): [On this planet
+
+5
+0:00:26.493,000 --> 0:00:28,000
+1.6 billion people
+
+6
+0:00:29.032,000 --> 0:00:3,000
+don't have access to electricity
+
+7
+0:00:31.021,000 --> 0:00:35,000
+refrigeration
+
+8
+0:00:35.18,000 --> 0:00:37,000
+or stored fuels
+
+9
+0:00:38.16,000 --> 0:00:41,000
+this is a problem
+
+10
+0:00:41.619,000 --> 0:00:43,000
+it impacts:
+
+11
+0:00:44.425,000 --> 0:00:47,000
+the spread of disease
+
+12
+0:00:47.671,000 --> 0:00:48,000
+the storage of food and medicine
+
+13
+0:00:49.503,000 --> 0:00:52,000
+and the quality of life.
+
+14
+0:00:53.43,000 --> 0:00:55,000
+So here's the plan ... inexpensive refrigeration
+
+15
+0:00:55.719,000 --> 0:00:58,000
+that doesn't use electricity, propane, gas, kerosene or consumables
+
+16
+0:01:01.159,000 --> 0:01:03,000
+time for some thermodynamics
+
+17
+0:01:03.675,000 --> 0:01:05,000
+And the story of the Intermittent Absorption Refrigerator]
+
+18
+0:01:06.421,000 --> 0:01:08,000
+Adam Grosser: So 29 years ago, I had this thermo teacher
+
+19
+0:01:09.071,000 --> 0:01:12,000
+who talked about absorption and refrigeration, one of those things
+
+20
+0:01:12.198,000 --> 0:01:14,000
+that stuck in my head, a lot like the Stirling engine:
+
+21
+0:01:14.75,000 --> 0:01:16,000
+it was cool, but you didn't know what to do with it.
+
+22
+0:01:17.225,000 --> 0:01:19,000
+It was invented in 1858, by this guy Ferdinand Carré,
+
+23
+0:01:19.799,000 --> 0:01:21,000
+but he couldn't actually build anything with it
+
+24
+0:01:22.088,000 --> 0:01:23,000
+because of the tools at the time.
+
+25
+0:01:23.733,000 --> 0:01:27,000
+This crazy Canadian named Powel Crosley commercialized this thing
+
+26
+0:01:27.997,000 --> 0:01:29,000
+called the IcyBall, in 1928.
+
+27
+0:01:30.021,000 --> 0:01:33,000
+It was a really neat idea, and I'll get to why it didn't work,
+
+28
+0:01:33.086,000 --> 0:01:34,000
+but here's how it works.
+
+29
+0:01:34.284,000 --> 0:01:36,000
+There's two spheres and they're separated in distance.
+
+30
+0:01:36.884,000 --> 0:01:38,000
+One has a working fluid, water and ammonia,
+
+31
+0:01:39.264,000 --> 0:01:4,000
+and the other is a condenser.
+
+32
+0:01:40.876,000 --> 0:01:41,000
+You heat up one side, the hot side.
+
+33
+0:01:42.865,000 --> 0:01:45,000
+The ammonia evaporates and it recondenses in the other side.
+
+34
+0:01:45.908,000 --> 0:01:47,000
+You let it cool to room temperature,
+
+35
+0:01:48.47,000 --> 0:01:51,000
+and then, as the ammonia reevaporates and combines with the water
+
+36
+0:01:51.657,000 --> 0:01:52,000
+back on the erstwhile hot side,
+
+37
+0:01:53.284,000 --> 0:01:54,000
+it creates a powerful cooling effect.
+
+38
+0:01:55.577,000 --> 0:01:57,000
+So it was a great idea that didn't work at all.
+
+39
+0:01:58.018,000 --> 0:01:59,000
+They blew up.
+
+40
+0:01:59.236,000 --> 0:02:,000
+(Laughter)
+
+41
+0:02:00.795,000 --> 0:02:02,000
+Because you're using ammonia, you get hugely high pressures
+
+42
+0:02:03.606,000 --> 0:02:04,000
+if you heated them wrong;
+
+43
+0:02:04.897,000 --> 0:02:05,000
+it topped 400 psi.
+
+44
+0:02:06.676,000 --> 0:02:08,000
+The ammonia was toxic, it sprayed everywhere.
+
+45
+0:02:08.84,000 --> 0:02:1,000
+But it was kind of an interesting thought.
+
+46
+0:02:11.036,000 --> 0:02:13,000
+So the great thing about 2006,
+
+47
+0:02:13.492,000 --> 0:02:15,000
+there's a lot of really great computational work you can do.
+
+48
+0:02:16.371,000 --> 0:02:2,000
+So we got the whole thermodynamics department at Stanford involved --
+
+49
+0:02:20.47,000 --> 0:02:21,000
+a lot of computational fluid dynamics.
+
+50
+0:02:22.324,000 --> 0:02:25,000
+We proved that most of the ammonia refrigeration tables are wrong.
+
+51
+0:02:26.283,000 --> 0:02:28,000
+We found some nontoxic refrigerants
+
+52
+0:02:28.36,000 --> 0:02:3,000
+that worked at very low vapor pressures.
+
+53
+0:02:30.962,000 --> 0:02:31,000
+We brought in a team from the UK --
+
+54
+0:02:32.675,000 --> 0:02:34,000
+a lot of great refrigeration people, it turns out, in the UK --
+
+55
+0:02:35.674,000 --> 0:02:37,000
+and built a test rig, and proved that, in fact,
+
+56
+0:02:37.978,000 --> 0:02:4,000
+we could make a low-pressure, nontoxic refrigerator.
+
+57
+0:02:41.245,000 --> 0:02:42,000
+So this is the way it works.
+
+58
+0:02:42.617,000 --> 0:02:43,000
+You put it on a cooking fire.
+
+59
+0:02:44.053,000 --> 0:02:46,000
+Most people have cooking fires in the world,
+
+60
+0:02:46.187,000 --> 0:02:47,000
+whether it's camel dung or wood.
+
+61
+0:02:47.765,000 --> 0:02:49,000
+It heats up for about 30 minutes, cools for an hour.
+
+62
+0:02:51.57,000 --> 0:02:54,000
+You put it into a container and it will refrigerate for 24 hours.
+
+63
+0:02:55.273,000 --> 0:02:56,000
+It looks like this.
+
+64
+0:02:56.519,000 --> 0:02:58,000
+This is the fifth prototype, it's not quite done.
+
+65
+0:02:59.36,000 --> 0:03:01,000
+It weighs about eight pounds, and this is the way it works.
+
+66
+0:03:02.368,000 --> 0:03:05,000
+You put it into a 15-liter vessel, about three gallons,
+
+67
+0:03:05.974,000 --> 0:03:07,000
+and it'll cool it down to just above freezing --
+
+68
+0:03:08.47,000 --> 0:03:09,000
+three degrees above freezing --
+
+69
+0:03:09.972,000 --> 0:03:12,000
+for 24 hours in a 30 degree C environment.
+
+70
+0:03:13.036,000 --> 0:03:14,000
+It's really cheap.
+
+71
+0:03:14.247,000 --> 0:03:17,000
+We think we can build these in high volumes for about 25 dollars,
+
+72
+0:03:17.347,000 --> 0:03:18,000
+in low volumes for about 40 dollars.
+
+73
+0:03:19.102,000 --> 0:03:22,000
+And we think we can make refrigeration something that everybody can have.
+
+74
+0:03:22.596,000 --> 0:03:23,000
+Thank you.
+
+75
+0:03:23.796,000 --> 0:03:25,000
+(Applause)
+

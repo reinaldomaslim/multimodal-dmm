@@ -1,0 +1,1844 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: mariana vergnano
+
+2
+0:00:12.77,000 --> 0:00:14,000
+Aquí hay muchos unos y ceros.
+
+3
+0:00:15.032,000 --> 0:00:18,000
+Es lo que llamamos información binaria.
+
+4
+0:00:18.131,000 --> 0:00:19,000
+Así hablan las computadoras.
+
+5
+0:00:19.573,000 --> 0:00:2,000
+Así almacenan información.
+
+6
+0:00:21.502,000 --> 0:00:22,000
+Así piensan las computadoras.
+
+7
+0:00:23.128,000 --> 0:00:24,000
+Así las computadoras
+
+8
+0:00:24.747,000 --> 0:00:26,000
+hacen todo lo que saben hacer.
+
+9
+0:00:27.129,000 --> 0:00:29,000
+Soy investigador de seguridad informática;
+
+10
+0:00:29.176,000 --> 0:00:31,000
+o sea, mi trabajo consiste en analizar esta información
+
+11
+0:00:31.246,000 --> 0:00:32,000
+y tratar de darle sentido,
+
+12
+0:00:32.93,000 --> 0:00:34,000
+tratar de entender qué significan esos unos y ceros.
+
+13
+0:00:35.683,000 --> 0:00:36,000
+Por desgracia para mí, no solo estamos hablando
+
+14
+0:00:37.526,000 --> 0:00:39,000
+de los unos y ceros que tengo aquí en la pantalla.
+
+15
+0:00:39.76,000 --> 0:00:41,000
+No estamos hablando de pocas páginas de unos y ceros.
+
+16
+0:00:42.443,000 --> 0:00:44,000
+Estamos hablando de miles y miles de millones
+
+17
+0:00:45.052,000 --> 0:00:46,000
+de unos y ceros;
+
+18
+0:00:46.385,000 --> 0:00:48,000
+más de los que alguien podría comprender.
+
+19
+0:00:49.026,000 --> 0:00:5,000
+Ahora, apasionante como suena,
+
+20
+0:00:50.885,000 --> 0:00:52,000
+cuando empecé a trabajar en ciberseguridad...
+
+21
+0:00:53.377,000 --> 0:00:54,000
+(Risas)
+
+22
+0:00:55.12,000 --> 0:00:57,000
+cuando empecé con la ciberseguridad, no estaba seguro
+
+23
+0:00:57.123,000 --> 0:00:58,000
+de que tamizar unos y ceros
+
+24
+0:00:58.596,000 --> 0:01:,000
+fuera lo que quería hacer el resto de mi vida,
+
+25
+0:01:00.89,000 --> 0:01:02,000
+porque, para mí, la ciberseguridad
+
+26
+0:01:02.91,000 --> 0:01:05,000
+era mantener la computadora de mi abuela libre de virus,
+
+27
+0:01:06.591,000 --> 0:01:09,000
+era mantener las páginas de MySpace libres de ciberataques,
+
+28
+0:01:09.939,000 --> 0:01:11,000
+y solo quizá, en un día de gloria,
+
+29
+0:01:12.124,000 --> 0:01:15,000
+salvar a alguien del robo a la información de su tarjeta de crédito.
+
+30
+0:01:15.875,000 --> 0:01:16,000
+Son cosas importantes,
+
+31
+0:01:17.238,000 --> 0:01:19,000
+pero no es la forma en que quería pasar mi vida.
+
+32
+0:01:19.996,000 --> 0:01:2,000
+Luego de 30 minutos de trabajo
+
+33
+0:01:21.93,000 --> 0:01:22,000
+como contratista de defensa,
+
+34
+0:01:23.283,000 --> 0:01:25,000
+pronto advertí que mi idea de ciberseguridad
+
+35
+0:01:26.073,000 --> 0:01:27,000
+era un poco errónea.
+
+36
+0:01:27.942,000 --> 0:01:28,000
+De hecho, en materia de seguridad nacional,
+
+37
+0:01:29.887,000 --> 0:01:31,000
+mantener la computadora de mi abuela libre de virus
+
+38
+0:01:31.958,000 --> 0:01:34,000
+estaba sorprendentemente abajo en la lista de prioridades.
+
+39
+0:01:35.144,000 --> 0:01:36,000
+Y esto se debe a que la ciberseguridad
+
+40
+0:01:36.445,000 --> 0:01:39,000
+es mucho más importante que cualquiera de esas cosas.
+
+41
+0:01:40.238,000 --> 0:01:42,000
+La ciberseguridad es parte integral de nuestras vidas,
+
+42
+0:01:43.063,000 --> 0:01:46,000
+porque las computadoras son parte integral en nuestras vidas,
+
+43
+0:01:46.123,000 --> 0:01:47,000
+incluso si uno no tiene una computadora.
+
+44
+0:01:48.075,000 --> 0:01:5,000
+Las computadoras controlan todo en nuestros autos,
+
+45
+0:01:50.721,000 --> 0:01:51,000
+desde el GPS hasta los airbags.
+
+46
+0:01:52.601,000 --> 0:01:53,000
+Controlan el teléfono.
+
+47
+0:01:53.917,000 --> 0:01:54,000
+Son la razón por la cual podemos llamar al 911
+
+48
+0:01:55.088,000 --> 0:01:56,000
+y alguien nos atiende en la otra línea.
+
+49
+0:01:56.884,000 --> 0:01:58,000
+Controlan toda la infraestructura nacional.
+
+50
+0:01:59.678,000 --> 0:02:,000
+Gracias a ellas tenemos electricidad,
+
+51
+0:02:01.354,000 --> 0:02:03,000
+calefacción, agua potable, alimentos.
+
+52
+0:02:03.692,000 --> 0:02:04,000
+Las computadoras controlan nuestros equipos militares,
+
+53
+0:02:05.593,000 --> 0:02:06,000
+todo, desde los silos de misiles y los satélites
+
+54
+0:02:07.27,000 --> 0:02:1,000
+hasta las redes de defensa nuclear.
+
+55
+0:02:11.184,000 --> 0:02:12,000
+Todas estas cosas son posibles
+
+56
+0:02:13.173,000 --> 0:02:14,000
+gracias a las computadoras
+
+57
+0:02:14.589,000 --> 0:02:15,000
+y, por lo tanto, gracias a la ciberseguridad.
+
+58
+0:02:16.572,000 --> 0:02:17,000
+Y cuando algo sale mal,
+
+59
+0:02:18.076,000 --> 0:02:21,000
+la ciberseguridad puede hacer imposible estas cosas.
+
+60
+0:02:21.194,000 --> 0:02:22,000
+Pero ahí es donde entro yo.
+
+61
+0:02:22.779,000 --> 0:02:24,000
+Gran parte de mi trabajo consiste en defender estas cosas,
+
+62
+0:02:25.719,000 --> 0:02:26,000
+en mantenerlas en funcionamiento.
+
+63
+0:02:27.381,000 --> 0:02:29,000
+Pero, cada tanto, parte de mi trabajo consiste en romper alguna de estas cosas,
+
+64
+0:02:29.709,000 --> 0:02:31,000
+porque la ciberseguridad no es solo defensiva,
+
+65
+0:02:32.105,000 --> 0:02:34,000
+también es ofensiva.
+
+66
+0:02:34.378,000 --> 0:02:35,000
+Estamos entrando a una era en la que hablamos
+
+67
+0:02:35.954,000 --> 0:02:36,000
+de ciberarmas.
+
+68
+0:02:37.415,000 --> 0:02:4,000
+De hecho, tan grande es el potencial de la ciberofensiva
+
+69
+0:02:40.55,000 --> 0:02:43,000
+que la ciberseguridad se considera como un nuevo dominio de la guerra.
+
+70
+0:02:44.171,000 --> 0:02:45,000
+La guerra
+
+71
+0:02:45.971,000 --> 0:02:46,000
+no necesariamente es algo malo.
+
+72
+0:02:47.9,000 --> 0:02:49,000
+Por un lado, implica que hay todo un nuevo frente
+
+73
+0:02:50.651,000 --> 0:02:51,000
+en el que tenemos que defendernos,
+
+74
+0:02:52.394,000 --> 0:02:53,000
+pero por otro lado,
+
+75
+0:02:53.879,000 --> 0:02:54,000
+que hay toda una nueva forma de atacar,
+
+76
+0:02:55.721,000 --> 0:02:56,000
+una nueva forma de impedir que los malos
+
+77
+0:02:57.58,000 --> 0:02:59,000
+hagan cosas malas.
+
+78
+0:02:59.807,000 --> 0:03:,000
+Consideremos un ejemplo de esto
+
+79
+0:03:01.618,000 --> 0:03:02,000
+completamente teórico.
+
+80
+0:03:03.307,000 --> 0:03:05,000
+Supongamos que un terrorista quiere volar un edificio,
+
+81
+0:03:05.565,000 --> 0:03:07,000
+y quiere hacerlo una y otra vez
+
+82
+0:03:07.633,000 --> 0:03:08,000
+en el futuro.
+
+83
+0:03:09.084,000 --> 0:03:11,000
+No quiere estar en el edificio cuando explote.
+
+84
+0:03:11.924,000 --> 0:03:12,000
+Usará su móvil
+
+85
+0:03:13.442,000 --> 0:03:15,000
+como detonador remoto.
+
+86
+0:03:15.777,000 --> 0:03:16,000
+La única forma que solíamos tener
+
+87
+0:03:17.648,000 --> 0:03:18,000
+para detener a este terrorista
+
+88
+0:03:19.284,000 --> 0:03:21,000
+era con una balacera y una persecución en auto,
+
+89
+0:03:21.957,000 --> 0:03:23,000
+pero esto ya no necesariamente es así.
+
+90
+0:03:24.289,000 --> 0:03:25,000
+Estamos entrando en una era en la cual podemos detenerlo
+
+91
+0:03:25.852,000 --> 0:03:26,000
+con solo presionar un botón
+
+92
+0:03:26.962,000 --> 0:03:28,000
+a 1600 km de distancia
+
+93
+0:03:28.969,000 --> 0:03:29,000
+porque, lo sepa o no,
+
+94
+0:03:30.558,000 --> 0:03:31,000
+cuando decidió usar su móvil
+
+95
+0:03:32.269,000 --> 0:03:35,000
+entró al dominio de la ciberseguridad.
+
+96
+0:03:35.403,000 --> 0:03:38,000
+Un ataque cibernético bien elaborado podría entrar en su teléfono,
+
+97
+0:03:38.52,000 --> 0:03:4,000
+desactivar la protección de sobretensión en la batería,
+
+98
+0:03:40.669,000 --> 0:03:41,000
+sobrecargar drásticamente el circuito,
+
+99
+0:03:42.424,000 --> 0:03:44,000
+y hacer que la batería se sobrecaliente y explote.
+
+100
+0:03:44.781,000 --> 0:03:46,000
+No más teléfonos, no más detonador,
+
+101
+0:03:47.227,000 --> 0:03:48,000
+quizá no más terrorista,
+
+102
+0:03:49.15,000 --> 0:03:5,000
+todo con solo presionar un botón
+
+103
+0:03:50.181,000 --> 0:03:52,000
+a más de mil kilómetros de distancia.
+
+104
+0:03:52.861,000 --> 0:03:53,000
+¿Cómo funciona esto?
+
+105
+0:03:54.612,000 --> 0:03:56,000
+Se reduce a esos unos y ceros.
+
+106
+0:03:56.88,000 --> 0:03:59,000
+La información binaria hace que funcione el móvil,
+
+107
+0:03:59.885,000 --> 0:04:02,000
+y usado correctamente, puede hacer que el móvil explote.
+
+108
+0:04:03.469,000 --> 0:04:05,000
+Cuando empezamos a ver la ciberseguridad desde esta perspectiva,
+
+109
+0:04:05.941,000 --> 0:04:08,000
+pasar la vida hurgando en información binaria
+
+110
+0:04:09.104,000 --> 0:04:11,000
+se torna un poco apasionante.
+
+111
+0:04:11.521,000 --> 0:04:13,000
+Pero aquí está el truco: Esto es difícil,
+
+112
+0:04:14.167,000 --> 0:04:15,000
+muy, muy difícil,
+
+113
+0:04:15.852,000 --> 0:04:16,000
+y este es el porqué.
+
+114
+0:04:17.686,000 --> 0:04:19,000
+Piensen en todo lo que tienen en el móvil.
+
+115
+0:04:20.452,000 --> 0:04:21,000
+Tienen las fotos que tomaron.
+
+116
+0:04:22.415,000 --> 0:04:23,000
+Tienen la música que escuchan.
+
+117
+0:04:24.201,000 --> 0:04:25,000
+Tienen la lista de contactos,
+
+118
+0:04:25.849,000 --> 0:04:26,000
+el correo, y probablemente 500 apps
+
+119
+0:04:27.474,000 --> 0:04:3,000
+que nunca usaron en sus vidas,
+
+120
+0:04:30.475,000 --> 0:04:33,000
+y debajo de todo esto está el software, el código,
+
+121
+0:04:34.462,000 --> 0:04:35,000
+que controla el móvil,
+
+122
+0:04:35.842,000 --> 0:04:37,000
+y, en algún lugar, enterrado en ese código,
+
+123
+0:04:38.498,000 --> 0:04:4,000
+está un fragmento que controla la batería,
+
+124
+0:04:41.046,000 --> 0:04:42,000
+y eso es lo que me interesa.
+
+125
+0:04:42.917,000 --> 0:04:45,000
+Pero todo esto, un montón de unos y ceros,
+
+126
+0:04:46.603,000 --> 0:04:47,000
+está todo mezclado.
+
+127
+0:04:48.134,000 --> 0:04:51,000
+En ciberseguridad a esto lo llamamos encontrar una aguja en una pila,
+
+128
+0:04:51.679,000 --> 0:04:53,000
+porque todo más o menos se parece.
+
+129
+0:04:54.028,000 --> 0:04:55,000
+Estoy buscando una pieza clave,
+
+130
+0:04:55.76,000 --> 0:04:58,000
+pero está mezclada con todo lo demás.
+
+131
+0:04:58.994,000 --> 0:05:,000
+Apartémonos de esta situación teórica
+
+132
+0:05:01.246,000 --> 0:05:03,000
+de hacer explotar el móvil de un terrorista,
+
+133
+0:05:03.59,000 --> 0:05:05,000
+y veamos algo que me ocurrió a mí.
+
+134
+0:05:06.406,000 --> 0:05:07,000
+Casi sin importar qué haga,
+
+135
+0:05:07.749,000 --> 0:05:08,000
+mi trabajo siempre empieza analizando
+
+136
+0:05:09.191,000 --> 0:05:11,000
+un montón de información binaria,
+
+137
+0:05:11.563,000 --> 0:05:12,000
+y siempre busco una pieza clave
+
+138
+0:05:13.29,000 --> 0:05:14,000
+para hacer algo específico.
+
+139
+0:05:15.277,000 --> 0:05:17,000
+En este caso, estaba buscando un fragmento de código
+
+140
+0:05:17.354,000 --> 0:05:18,000
+muy avanzado, muy de vanguardia
+
+141
+0:05:18.872,000 --> 0:05:19,000
+que sabía que podría hackear,
+
+142
+0:05:20.087,000 --> 0:05:21,000
+pero estaba enterrado en algún lugar
+
+143
+0:05:21.801,000 --> 0:05:23,000
+dentro de mil millones de unos y ceros.
+
+144
+0:05:23.827,000 --> 0:05:24,000
+Por desgracia para mí, yo no sabía
+
+145
+0:05:25.405,000 --> 0:05:26,000
+bien lo que estaba buscando.
+
+146
+0:05:27.096,000 --> 0:05:28,000
+No sabía bien el aspecto de lo que buscaba,
+
+147
+0:05:28.292,000 --> 0:05:3,000
+y eso dificultaba mucho la búsqueda.
+
+148
+0:05:31.21,000 --> 0:05:33,000
+Cuando tengo que hacer esto
+
+149
+0:05:33.249,000 --> 0:05:35,000
+básicamente analizo varias piezas
+
+150
+0:05:35.591,000 --> 0:05:36,000
+de esta información binaria,
+
+151
+0:05:37.314,000 --> 0:05:39,000
+tratando de descifrar cada pieza, y de ver si puede ser
+
+152
+0:05:39.516,000 --> 0:05:4,000
+lo que busco.
+
+153
+0:05:40.74,000 --> 0:05:41,000
+Después de un tiempo, pensé que había encontrado la información
+
+154
+0:05:42.365,000 --> 0:05:43,000
+que estaba buscando.
+
+155
+0:05:43.702,000 --> 0:05:45,000
+Pensé que quizá era eso.
+
+156
+0:05:45.806,000 --> 0:05:47,000
+Parecía estar bastante bien, pero no podía confirmarlo.
+
+157
+0:05:47.838,000 --> 0:05:49,000
+No podía decir qué representaban esos unos y ceros.
+
+158
+0:05:50.756,000 --> 0:05:53,000
+Pasé un tiempo tratando de unir las piezas,
+
+159
+0:05:54.13,000 --> 0:05:55,000
+pero no tenía mucha suerte,
+
+160
+0:05:55.8,000 --> 0:05:56,000
+y finalmente decidí
+
+161
+0:05:56.986,000 --> 0:05:57,000
+hacerle frente a la situación,
+
+162
+0:05:58.595,000 --> 0:05:59,000
+quedarme el fin de semana,
+
+163
+0:06:00.106,000 --> 0:06:01,000
+y no abandonar
+
+164
+0:06:01.446,000 --> 0:06:02,000
+hasta averiguar qué representaban.
+
+165
+0:06:03.158,000 --> 0:06:05,000
+Y así hice. Llegué el sábado por la mañana,
+
+166
+0:06:05.324,000 --> 0:06:08,000
+y en unas 10 horas tenía todas las piezas del rompecabezas.
+
+167
+0:06:08.969,000 --> 0:06:09,000
+Solo que no sabía cómo unirlas.
+
+168
+0:06:10.361,000 --> 0:06:12,000
+No sabía qué significaban estos unos y ceros.
+
+169
+0:06:13.151,000 --> 0:06:15,000
+En la marca de 15 horas,
+
+170
+0:06:15.218,000 --> 0:06:17,000
+empecé a hacerme una idea de lo que había,
+
+171
+0:06:17.82,000 --> 0:06:18,000
+pero tenía una leve sospecha
+
+172
+0:06:19.592,000 --> 0:06:2,000
+de que lo que estaba buscando
+
+173
+0:06:21.181,000 --> 0:06:23,000
+no estaba para nada relacionado con lo que quería.
+
+174
+0:06:24.104,000 --> 0:06:26,000
+A las 20 horas, las piezas empezaron a encajar
+
+175
+0:06:26.591,000 --> 0:06:29,000
+muy lentamente... (Risas)
+
+176
+0:06:30.355,000 --> 0:06:31,000
+y estaba bastante seguro de que iba
+
+177
+0:06:31.621,000 --> 0:06:32,000
+por el camino incorrecto,
+
+178
+0:06:33.56,000 --> 0:06:35,000
+pero no me daría por vencido.
+
+179
+0:06:35.811,000 --> 0:06:37,000
+Luego de 30 horas en el laboratorio,
+
+180
+0:06:38.645,000 --> 0:06:4,000
+me di cuenta exactamente de lo que estaba buscando,
+
+181
+0:06:40.906,000 --> 0:06:42,000
+y tenía razón, no era lo que quería.
+
+182
+0:06:43.724,000 --> 0:06:44,000
+Pasé 30 horas atando cabos,
+
+183
+0:06:45.423,000 --> 0:06:47,000
+y los unos y ceros formaban la imagen de un gatito.
+
+184
+0:06:48.145,000 --> 0:06:49,000
+(Risas)
+
+185
+0:06:49.94,000 --> 0:06:52,000
+Desperdicié 30 horas de mi vida buscando este gatito
+
+186
+0:06:53.746,000 --> 0:06:54,000
+que no tenía nada que ver
+
+187
+0:06:55.584,000 --> 0:06:56,000
+con lo que estaba tratando de lograr.
+
+188
+0:06:57.571,000 --> 0:07:,000
+Estaba frustrado, estaba agotado.
+
+189
+0:07:01.434,000 --> 0:07:04,000
+Después de 30 horas en el laboratorio, quizá olía horrible.
+
+190
+0:07:04.66,000 --> 0:07:06,000
+Pero en vez de ir a casa
+
+191
+0:07:06.89,000 --> 0:07:08,000
+y ponerle punto final a esto, di un paso atrás
+
+192
+0:07:09.42,000 --> 0:07:11,000
+y me pregunté: ¿qué salió mal?
+
+193
+0:07:11.961,000 --> 0:07:13,000
+¿Cómo pude cometer un error tan tonto?
+
+194
+0:07:14.173,000 --> 0:07:15,000
+Soy realmente muy bueno en esto.
+
+195
+0:07:15.571,000 --> 0:07:16,000
+Me gano la vida con esto.
+
+196
+0:07:16.89,000 --> 0:07:18,000
+¿Qué pasó?
+
+197
+0:07:19.038,000 --> 0:07:21,000
+Bueno, pensé, cuando uno mira la información a este nivel,
+
+198
+0:07:21.813,000 --> 0:07:23,000
+es fácil perder la noción de lo que está haciendo.
+
+199
+0:07:24.64,000 --> 0:07:25,000
+Es fácil que el árbol tape el bosque.
+
+200
+0:07:26.384,000 --> 0:07:28,000
+Es fácil irse por las ramas
+
+201
+0:07:28.548,000 --> 0:07:29,000
+y perder una enorme cantidad de tiempo
+
+202
+0:07:30.31,000 --> 0:07:31,000
+haciendo lo incorrecto.
+
+203
+0:07:32.13,000 --> 0:07:33,000
+Pero tuve esta revelación:
+
+204
+0:07:33.73,000 --> 0:07:35,000
+Estuvimos viendo los datos de manera totalmente incorrecta
+
+205
+0:07:36.729,000 --> 0:07:37,000
+desde el primer día.
+
+206
+0:07:38.219,000 --> 0:07:4,000
+Así piensan las computadoras, con unos y ceros.
+
+207
+0:07:40.322,000 --> 0:07:41,000
+Las personas no pensamos así,
+
+208
+0:07:41.714,000 --> 0:07:43,000
+pero hemos tratado de adaptar nuestras mentes
+
+209
+0:07:44.028,000 --> 0:07:45,000
+para pensar como computadoras
+
+210
+0:07:45.373,000 --> 0:07:47,000
+y poder entender esta información.
+
+211
+0:07:47.97,000 --> 0:07:48,000
+En vez de tratar de hacer que nuestras mentes se adapten al problema,
+
+212
+0:07:49.92,000 --> 0:07:5,000
+deberíamos hacer que el problema
+
+213
+0:07:51.568,000 --> 0:07:51,000
+se adapte a nuestras mentes,
+
+214
+0:07:52.537,000 --> 0:07:54,000
+porque nuestros cerebros tienen un potencial enorme
+
+215
+0:07:54.646,000 --> 0:07:57,000
+para analizar grandes volúmenes de información,
+
+216
+0:07:57.732,000 --> 0:07:58,000
+pero no de este modo.
+
+217
+0:07:59.029,000 --> 0:08:,000
+¿Y si pudiésemos desatar ese potencial
+
+218
+0:08:00.496,000 --> 0:08:01,000
+con solo traducir esto
+
+219
+0:08:02.023,000 --> 0:08:04,000
+en el tipo correcto de información?
+
+220
+0:08:04.871,000 --> 0:08:05,000
+Con estas ideas en mente,
+
+221
+0:08:06.065,000 --> 0:08:07,000
+pasé del sótano de mi trabajo
+
+222
+0:08:07.683,000 --> 0:08:08,000
+al sótano de mi casa,
+
+223
+0:08:08.99,000 --> 0:08:09,000
+que se parecían mucho.
+
+224
+0:08:10.986,000 --> 0:08:11,000
+La principal diferencia es que en el trabajo
+
+225
+0:08:12.81,000 --> 0:08:13,000
+estoy rodeado de cibermateriales,
+
+226
+0:08:14.389,000 --> 0:08:16,000
+y lo ciber parecía ser el problema en esta situación.
+
+227
+0:08:16.994,000 --> 0:08:19,000
+En casa, estoy rodeado por todo lo demás que he aprendido.
+
+228
+0:08:20.347,000 --> 0:08:21,000
+Me sumergí en todos los libros que pude encontrar,
+
+229
+0:08:22.219,000 --> 0:08:23,000
+en cada idea que había encontrado,
+
+230
+0:08:23.551,000 --> 0:08:25,000
+para ver cómo traducir un problema
+
+231
+0:08:25.697,000 --> 0:08:28,000
+de un dominio a algo completamente diferente.
+
+232
+0:08:28.829,000 --> 0:08:29,000
+La gran pregunta era:
+
+233
+0:08:30.223,000 --> 0:08:31,000
+¿en qué queremos traducirlo?
+
+234
+0:08:32.191,000 --> 0:08:34,000
+Nuestros cerebros ¿qué hacen de forma perfectamente natural
+
+235
+0:08:34.303,000 --> 0:08:35,000
+que podamos explotar?
+
+236
+0:08:36.181,000 --> 0:08:38,000
+Mi respuesta fue: la visión.
+
+237
+0:08:38.47,000 --> 0:08:41,000
+Tenemos una gran capacidad para analizar la información visual.
+
+238
+0:08:41.619,000 --> 0:08:43,000
+Podemos combinar gradientes de colores, señales de profundidad,
+
+239
+0:08:44.202,000 --> 0:08:45,000
+todo tipo de señales diferentes
+
+240
+0:08:45.99,000 --> 0:08:47,000
+en una imagen coherente del mundo circundante.
+
+241
+0:08:48.385,000 --> 0:08:49,000
+Eso es increíble.
+
+242
+0:08:49.792,000 --> 0:08:5,000
+Por eso, si pudiésemos encontrar una forma de traducir
+
+243
+0:08:51.173,000 --> 0:08:53,000
+estos patrones binarios en señales visuales,
+
+244
+0:08:53.359,000 --> 0:08:54,000
+realmente podríamos desatar el potencial de nuestros cerebros
+
+245
+0:08:55.191,000 --> 0:08:57,000
+para procesar este material.
+
+246
+0:08:57.901,000 --> 0:08:58,000
+Empezamos a analizar la información binaria,
+
+247
+0:08:59.744,000 --> 0:09:,000
+y me pregunté qué haré
+
+248
+0:09:00.834,000 --> 0:09:01,000
+cuando encuentre algo así por primera vez?
+
+249
+0:09:02.71,000 --> 0:09:03,000
+Y lo primero que quiero hacer,
+
+250
+0:09:04.333,000 --> 0:09:05,000
+lo primero que quiero responder,
+
+251
+0:09:05.692,000 --> 0:09:06,000
+es ¿qué es esto?
+
+252
+0:09:06.97,000 --> 0:09:08,000
+No me importa qué hace, cómo funciona.
+
+253
+0:09:09.498,000 --> 0:09:11,000
+Solo quiero saber qué es esto.
+
+254
+0:09:11.977,000 --> 0:09:12,000
+Y la manera de averiguarlo
+
+255
+0:09:13.652,000 --> 0:09:14,000
+es analizando los fragmentos,
+
+256
+0:09:15.335,000 --> 0:09:17,000
+fragmentos secuenciales de información binaria,
+
+257
+0:09:17.788,000 --> 0:09:19,000
+y estudiar las relaciones entre esos fragmentos.
+
+258
+0:09:20.69,000 --> 0:09:21,000
+Cuando reuní suficientes secuencias,
+
+259
+0:09:22.462,000 --> 0:09:24,000
+empecé a hacerme una idea de exactamente
+
+260
+0:09:24.466,000 --> 0:09:26,000
+qué debía ser esta información.
+
+261
+0:09:27.1,000 --> 0:09:28,000
+Volvamos a la situación
+
+262
+0:09:28.284,000 --> 0:09:3,000
+de volar el móvil del terrorista.
+
+263
+0:09:30.374,000 --> 0:09:32,000
+Un texto en inglés tiene este aspecto
+
+264
+0:09:32.577,000 --> 0:09:33,000
+a nivel binario.
+
+265
+0:09:33.89,000 --> 0:09:35,000
+Así se vería una lista de contactos
+
+266
+0:09:36.216,000 --> 0:09:37,000
+si la examinásemos.
+
+267
+0:09:37.776,000 --> 0:09:39,000
+Es muy difícil analizarlo a este nivel,
+
+268
+0:09:40.01,000 --> 0:09:42,000
+pero si tomamos esos mismos fragmentos binarios
+
+269
+0:09:42.114,000 --> 0:09:43,000
+que yo trataba de encontrar,
+
+270
+0:09:43.296,000 --> 0:09:44,000
+y en cambio los traducimos
+
+271
+0:09:45.06,000 --> 0:09:46,000
+a representaciones visuales,
+
+272
+0:09:46.98,000 --> 0:09:47,000
+si traducimos esas relaciones,
+
+273
+0:09:48.777,000 --> 0:09:49,000
+obtenemos esto.
+
+274
+0:09:50.333,000 --> 0:09:51,000
+Este es el aspecto de un texto en inglés
+
+275
+0:09:52.247,000 --> 0:09:54,000
+desde una perspectiva de abstracción visual.
+
+276
+0:09:54.918,000 --> 0:09:55,000
+De repente,
+
+277
+0:09:56.058,000 --> 0:09:57,000
+nos muestra la misma información
+
+278
+0:09:57.493,000 --> 0:09:58,000
+que estaba en los unos y ceros,
+
+279
+0:09:58.665,000 --> 0:10:,000
+pero de manera totalmente diferente,
+
+280
+0:10:00.986,000 --> 0:10:01,000
+que podemos entender de inmediato.
+
+281
+0:10:02.703,000 --> 0:10:04,000
+En un instante podemos ver todos los patrones.
+
+282
+0:10:05.668,000 --> 0:10:07,000
+Me lleva segundos detectar patrones aquí,
+
+283
+0:10:08.26,000 --> 0:10:1,000
+pero horas o días hacerlo
+
+284
+0:10:10.514,000 --> 0:10:11,000
+entre unos y ceros.
+
+285
+0:10:11.834,000 --> 0:10:12,000
+A cualquiera le lleva minutos aprender
+
+286
+0:10:13.57,000 --> 0:10:14,000
+lo que representan estos patrones,
+
+287
+0:10:15.235,000 --> 0:10:17,000
+pero años de experiencia en ciberseguridad
+
+288
+0:10:17.482,000 --> 0:10:18,000
+aprendiendo lo que esos patrones representan
+
+289
+0:10:19.136,000 --> 0:10:2,000
+en unos y ceros.
+
+290
+0:10:20.722,000 --> 0:10:21,000
+Este fragmento se forma
+
+291
+0:10:22.384,000 --> 0:10:24,000
+con minúsculas seguidas por otras minúsculas
+
+292
+0:10:24.408,000 --> 0:10:25,000
+dentro de esa lista de contactos.
+
+293
+0:10:26.175,000 --> 0:10:27,000
+Esto con mayúsculas y mayúsculas,
+
+294
+0:10:27.516,000 --> 0:10:29,000
+mayúsculas y minúsculas, minúsculas y mayúsculas.
+
+295
+0:10:30.201,000 --> 0:10:32,000
+Esto con espacios. Esto con retornos de carro.
+
+296
+0:10:32.887,000 --> 0:10:33,000
+Podemos analizar cada pequeño detalle
+
+297
+0:10:34.395,000 --> 0:10:36,000
+de la información binaria, en segundos,
+
+298
+0:10:37.361,000 --> 0:10:4,000
+en lugar de semanas, meses, a este nivel.
+
+299
+0:10:40.895,000 --> 0:10:41,000
+Así se ve una imagen
+
+300
+0:10:42.407,000 --> 0:10:43,000
+desde un móvil.
+
+301
+0:10:44.283,000 --> 0:10:45,000
+Pero así se ve
+
+302
+0:10:45.296,000 --> 0:10:46,000
+en una abstracción visual.
+
+303
+0:10:47.187,000 --> 0:10:48,000
+Así se ve la música,
+
+304
+0:10:49.172,000 --> 0:10:51,000
+y aquí su abstracción visual.
+
+305
+0:10:51.375,000 --> 0:10:52,000
+Lo más importante, para mí,
+
+306
+0:10:53.135,000 --> 0:10:56,000
+así se ve el código que hay en sus móviles.
+
+307
+0:10:56.41,000 --> 0:10:58,000
+Esto es lo que me interesa en definitiva,
+
+308
+0:10:58.567,000 --> 0:11:,000
+pero esta es su abstracción visual.
+
+309
+0:11:00.707,000 --> 0:11:02,000
+Si encuentro esto, no puedo hacer explotar el móvil.
+
+310
+0:11:03.216,000 --> 0:11:05,000
+Podría pasar semanas tratando de encontrar esto
+
+311
+0:11:05.835,000 --> 0:11:06,000
+en los unos y ceros,
+
+312
+0:11:07.012,000 --> 0:11:08,000
+pero me lleva segundos analizar
+
+313
+0:11:08.796,000 --> 0:11:11,000
+una abstracción visual como esta.
+
+314
+0:11:12.1,000 --> 0:11:14,000
+Una de las partes más notables de todo esto
+
+315
+0:11:14.592,000 --> 0:11:16,000
+es que nos da una forma totalmente nueva de entender
+
+316
+0:11:17.424,000 --> 0:11:2,000
+la información nueva, cosas que no hemos visto antes.
+
+317
+0:11:20.663,000 --> 0:11:22,000
+Sé como se ve el texto en inglés a nivel binario,
+
+318
+0:11:23.167,000 --> 0:11:25,000
+y sé cómo se ve su abstracción visual,
+
+319
+0:11:25.277,000 --> 0:11:28,000
+pero nunca he visto binario en ruso en toda mi vida.
+
+320
+0:11:28.592,000 --> 0:11:29,000
+Me llevaría semanas solo averiguar
+
+321
+0:11:30.392,000 --> 0:11:32,000
+qué estaba buscando a partir de unos y ceros,
+
+322
+0:11:33.389,000 --> 0:11:34,000
+pero como nuestros cerebros pueden detectar al instante
+
+323
+0:11:35.14,000 --> 0:11:37,000
+y reconocer estos patrones sutiles dentro
+
+324
+0:11:37.957,000 --> 0:11:38,000
+de estas abstracciones visuales,
+
+325
+0:11:39.445,000 --> 0:11:4,000
+inconscientemente podemos aplicarlos
+
+326
+0:11:41.277,000 --> 0:11:42,000
+a nuevas situaciones.
+
+327
+0:11:42.85,000 --> 0:11:43,000
+Así se ve el ruso
+
+328
+0:11:44.332,000 --> 0:11:45,000
+en una abstracción visual.
+
+329
+0:11:45.912,000 --> 0:11:46,000
+Dado que sé cómo se ve un idioma,
+
+330
+0:11:47.716,000 --> 0:11:48,000
+puedo reconocer otros idiomas
+
+331
+0:11:49.292,000 --> 0:11:5,000
+incluso si no me resultan familiares.
+
+332
+0:11:51.162,000 --> 0:11:52,000
+Así se ve una fotografía,
+
+333
+0:11:52.948,000 --> 0:11:53,000
+y así un clip de arte.
+
+334
+0:11:54.835,000 --> 0:11:56,000
+Así se ve el código del teléfono,
+
+335
+0:11:57.39,000 --> 0:11:59,000
+y así se ve el código de la computadora.
+
+336
+0:12:00.097,000 --> 0:12:01,000
+Nuestros cerebros pueden detectar estos patrones
+
+337
+0:12:01.961,000 --> 0:12:02,000
+de formas que nunca podríamos hacer
+
+338
+0:12:03.912,000 --> 0:12:05,000
+mirando unos y ceros en crudo.
+
+339
+0:12:06.408,000 --> 0:12:07,000
+Pero solo hemos rozado la superficie
+
+340
+0:12:08.264,000 --> 0:12:1,000
+con lo que puede hacerse con este enfoque.
+
+341
+0:12:10.401,000 --> 0:12:11,000
+Recién empezamos a desatar las capacidades
+
+342
+0:12:12.079,000 --> 0:12:15,000
+de nuestras mentes para procesar información visual.
+
+343
+0:12:15.394,000 --> 0:12:16,000
+Si en cambio tomamos esos mismos conceptos y los traducimos
+
+344
+0:12:17.384,000 --> 0:12:18,000
+a tres dimensiones,
+
+345
+0:12:19.035,000 --> 0:12:22,000
+encontramos formas totalmente nuevas de darle sentido a la información.
+
+346
+0:12:22.23,000 --> 0:12:24,000
+En segundos, podemos identificar cada patrón.
+
+347
+0:12:24.715,000 --> 0:12:25,000
+Podemos ver la cruz asociada al código.
+
+348
+0:12:26.535,000 --> 0:12:27,000
+Podemos ver cubos asociados con el texto.
+
+349
+0:12:28.467,000 --> 0:12:3,000
+Podemos incluso detectar los más diminutos artefactos visuales.
+
+350
+0:12:30.943,000 --> 0:12:32,000
+Las cosas que nos llevarían semanas,
+
+351
+0:12:33.073,000 --> 0:12:35,000
+o meses encontrar entre unos y ceros,
+
+352
+0:12:35.267,000 --> 0:12:36,000
+son evidentes de inmediato
+
+353
+0:12:37.07,000 --> 0:12:39,000
+en algún tipo de abstracción visual,
+
+354
+0:12:39.34,000 --> 0:12:4,000
+y a medida que avanzamos en esto
+
+355
+0:12:40.472,000 --> 0:12:42,000
+y le arrojamos cada vez más información,
+
+356
+0:12:42.488,000 --> 0:12:44,000
+encontramos que podemos procesar
+
+357
+0:12:44.769,000 --> 0:12:46,000
+miles de millones de unos y ceros
+
+358
+0:12:47.185,000 --> 0:12:48,000
+en cuestión de segundos
+
+359
+0:12:48.353,000 --> 0:12:51,000
+con solo usar nuestra capacidad cerebral innata
+
+360
+0:12:51.587,000 --> 0:12:52,000
+para analizar patrones.
+
+361
+0:12:53.541,000 --> 0:12:55,000
+Esto es muy bueno y ayuda,
+
+362
+0:12:55.844,000 --> 0:12:57,000
+pero me dice lo que estoy viendo.
+
+363
+0:12:58.203,000 --> 0:12:59,000
+En este momento, con los patrones visuales,
+
+364
+0:12:59.687,000 --> 0:13:01,000
+puedo encontrar el código en el teléfono.
+
+365
+0:13:02.096,000 --> 0:13:04,000
+Pero eso no es suficiente para hacer explotar una batería.
+
+366
+0:13:04.761,000 --> 0:13:05,000
+Luego necesito encontrar el código
+
+367
+0:13:06.329,000 --> 0:13:07,000
+que controla la batería, pero volvemos
+
+368
+0:13:08.09,000 --> 0:13:09,000
+al problema de la aguja en la pila.
+
+369
+0:13:09.821,000 --> 0:13:11,000
+Ese código se parece mucho a los otros tipos de código
+
+370
+0:13:12.21,000 --> 0:13:14,000
+de ese sistema.
+
+371
+0:13:14.448,000 --> 0:13:16,000
+Podría no encontrar el código que controla la batería,
+
+372
+0:13:16.849,000 --> 0:13:18,000
+hay muchas cosas similares a eso.
+
+373
+0:13:18.86,000 --> 0:13:19,000
+Hay código que controla la pantalla,
+
+374
+0:13:20.714,000 --> 0:13:22,000
+otro que controla los botones, otro que controla los micrófonos,
+
+375
+0:13:22.93,000 --> 0:13:23,000
+e incluso si no puedo encontrar el código de la batería,
+
+376
+0:13:24.858,000 --> 0:13:26,000
+apuesto a que puedo encontrar una de esas cosas.
+
+377
+0:13:27.103,000 --> 0:13:29,000
+El paso siguiente en mi proceso de análisis del binario
+
+378
+0:13:29.808,000 --> 0:13:3,000
+es analizar fragmentos de información
+
+379
+0:13:31.039,000 --> 0:13:33,000
+que tengan similitudes.
+
+380
+0:13:33.057,000 --> 0:13:36,000
+Es muy, muy difícil de hacer a nivel binario,
+
+381
+0:13:37.04,000 --> 0:13:4,000
+pero si en cambio traducimos esas similitudes en abstracciones visuales,
+
+382
+0:13:40.683,000 --> 0:13:42,000
+ni siquiera tenemos que tamizar los datos en bruto.
+
+383
+0:13:43.121,000 --> 0:13:45,000
+Solo tenemos que esperar a que la imagen se ilumine
+
+384
+0:13:45.276,000 --> 0:13:47,000
+para ver cuándo tenemos un fragmento similar.
+
+385
+0:13:47.512,000 --> 0:13:5,000
+Seguimos estas hebras de similitud como un rastro de migas de pan
+
+386
+0:13:50.54,000 --> 0:13:53,000
+para encontrar exactamente qué buscamos.
+
+387
+0:13:53.646,000 --> 0:13:54,000
+En este punto del proceso,
+
+388
+0:13:55.38,000 --> 0:13:56,000
+ubicamos el código
+
+389
+0:13:56.698,000 --> 0:13:57,000
+responsable de controlar la batería,
+
+390
+0:13:58.383,000 --> 0:14:,000
+pero eso aún no es suficiente para volar un teléfono.
+
+391
+0:14:00.959,000 --> 0:14:01,000
+La última pieza del rompecabezas
+
+392
+0:14:02.523,000 --> 0:14:04,000
+es entender cómo controla
+
+393
+0:14:04.602,000 --> 0:14:05,000
+ese código la batería.
+
+394
+0:14:06.404,000 --> 0:14:08,000
+Para esto, tenemos que identificar
+
+395
+0:14:08.792,000 --> 0:14:09,000
+relaciones muy sutiles, muy detalladas
+
+396
+0:14:10.508,000 --> 0:14:12,000
+entre esa información binaria,
+
+397
+0:14:12.597,000 --> 0:14:13,000
+otra cosa muy difícil de hacer
+
+398
+0:14:14.352,000 --> 0:14:16,000
+mirando unos y ceros.
+
+399
+0:14:16.664,000 --> 0:14:17,000
+Pero si traducimos esa información
+
+400
+0:14:18.06,000 --> 0:14:2,000
+en una representación física,
+
+401
+0:14:20.24,000 --> 0:14:23,000
+podemos dejar que nuestra corteza visual haga el trabajo difícil.
+
+402
+0:14:23.256,000 --> 0:14:24,000
+Puede encontrar los patrones detallados,
+
+403
+0:14:24.99,000 --> 0:14:26,000
+las piezas importantes por nosotros.
+
+404
+0:14:27.01,000 --> 0:14:29,000
+Puede descubrir exactamente cómo trabajan juntas
+
+405
+0:14:29.603,000 --> 0:14:31,000
+las piezas de ese código para controlar la batería.
+
+406
+0:14:32.537,000 --> 0:14:35,000
+Todo esto puede hacerse en cuestión de horas,
+
+407
+0:14:35.541,000 --> 0:14:36,000
+mientras que el mismo proceso
+
+408
+0:14:36.897,000 --> 0:14:38,000
+antes demandaba meses.
+
+409
+0:14:39.819,000 --> 0:14:4,000
+Todo esto está muy bien
+
+410
+0:14:41.008,000 --> 0:14:43,000
+para la voladura teórica del teléfono de un terrorista.
+
+411
+0:14:43.95,000 --> 0:14:45,000
+Yo quería descubrir si esto funcionaría
+
+412
+0:14:46.797,000 --> 0:14:48,000
+en mi trabajo diario.
+
+413
+0:14:49.426,000 --> 0:14:52,000
+Así, estaba jugando con estos mismos conceptos
+
+414
+0:14:52.481,000 --> 0:14:55,000
+con algunos datos que analicé en el pasado,
+
+415
+0:14:55.505,000 --> 0:14:57,000
+y, otra vez, trataba de encontrar
+
+416
+0:14:57.997,000 --> 0:14:59,000
+un fragmento muy detallado, muy específico
+
+417
+0:15:00.205,000 --> 0:15:03,000
+dentro de un gran volumen de información binaria.
+
+418
+0:15:03.8,000 --> 0:15:04,000
+Así que lo miré a este nivel,
+
+419
+0:15:05.573,000 --> 0:15:06,000
+pensando que buscaba lo correcto,
+
+420
+0:15:07.523,000 --> 0:15:09,000
+solo para ver que esto no tiene
+
+421
+0:15:09.844,000 --> 0:15:1,000
+la conectividad que cabría esperar
+
+422
+0:15:11.584,000 --> 0:15:12,000
+para el código que estaba buscando.
+
+423
+0:15:13.489,000 --> 0:15:15,000
+De hecho, no estoy muy seguro de qué es,
+
+424
+0:15:16.092,000 --> 0:15:17,000
+pero si me apartaba un nivel
+
+425
+0:15:17.104,000 --> 0:15:18,000
+y analizaba las similitudes dentro del código
+
+426
+0:15:18.819,000 --> 0:15:2,000
+veía que no tenía similitud
+
+427
+0:15:21.113,000 --> 0:15:22,000
+con cualquier código que había allí.
+
+428
+0:15:22.604,000 --> 0:15:24,000
+Ni siquiera podía ver código.
+
+429
+0:15:24.829,000 --> 0:15:26,000
+De hecho, desde esta perspectiva,
+
+430
+0:15:27.215,000 --> 0:15:29,000
+podría decir que esto no es código.
+
+431
+0:15:29.263,000 --> 0:15:31,000
+Es una imagen de algún tipo.
+
+432
+0:15:31.311,000 --> 0:15:32,000
+Y a partir de aquí, pude ver,
+
+433
+0:15:32.993,000 --> 0:15:34,000
+no es solo una imagen, es una fotografía.
+
+434
+0:15:35.904,000 --> 0:15:36,000
+Ahora que sé que es una fotografía,
+
+435
+0:15:37.296,000 --> 0:15:39,000
+tengo decenas de otras técnicas de traducción de binarios
+
+436
+0:15:40.226,000 --> 0:15:42,000
+para visualizar y entender esa información,
+
+437
+0:15:42.647,000 --> 0:15:44,000
+así que en cuestión de segundos, puedo tomar esta información,
+
+438
+0:15:45.19,000 --> 0:15:47,000
+pasarla por una decena de otras técnicas de traducción visual
+
+439
+0:15:47.587,000 --> 0:15:5,000
+para descubrir exactamente qué estábamos mirando.
+
+440
+0:15:51.318,000 --> 0:15:52,000
+Vi... (Risas)
+
+441
+0:15:53,000 --> 0:15:56,000
+era ese gatito otra vez.
+
+442
+0:15:56.456,000 --> 0:15:57,000
+Todo esto fue posible
+
+443
+0:15:57.506,000 --> 0:15:58,000
+gracias a que pudimos encontrar la forma
+
+444
+0:15:59.001,000 --> 0:16:01,000
+de traducir un problema muy difícil
+
+445
+0:16:01.03,000 --> 0:16:03,000
+en algo que nuestros cerebros hacen con mucha naturalidad.
+
+446
+0:16:03.542,000 --> 0:16:05,000
+¿Qué quiere decir esto?
+
+447
+0:16:05.78,000 --> 0:16:06,000
+Bueno, para los gatitos significa
+
+448
+0:16:07.325,000 --> 0:16:09,000
+ya no esconderse entre los unos y ceros.
+
+449
+0:16:09.742,000 --> 0:16:12,000
+Para mí, significa ya no desperdiciar más fines de semana.
+
+450
+0:16:13.045,000 --> 0:16:15,000
+Para la ciberseguridad significa que tenemos una nueva forma radical
+
+451
+0:16:15.657,000 --> 0:16:17,000
+de abordar los problemas imposibles.
+
+452
+0:16:18.622,000 --> 0:16:19,000
+Significa que tenemos una nueva arma
+
+453
+0:16:20.434,000 --> 0:16:22,000
+en el teatro cambiante de la ciberguerra,
+
+454
+0:16:22.85,000 --> 0:16:23,000
+pero para todos,
+
+455
+0:16:24.27,000 --> 0:16:25,000
+significa que los ciberingenieros
+
+456
+0:16:25.745,000 --> 0:16:27,000
+ahora pueden ser los primeros en responder
+
+457
+0:16:27.891,000 --> 0:16:29,000
+en situaciones de emergencia.
+
+458
+0:16:30.474,000 --> 0:16:31,000
+Cuando los segundos cuentan,
+
+459
+0:16:31.521,000 --> 0:16:34,000
+hemos desatado los medios para detener a los malos.
+
+460
+0:16:34.93,000 --> 0:16:36,000
+Gracias.
+
+461
+0:16:36.93,000 --> 0:16:38,000
+(Aplausos)
+

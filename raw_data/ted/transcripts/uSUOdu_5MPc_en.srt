@@ -1,0 +1,1488 @@
+1
+0:00:12.8,000 --> 0:00:15,000
+So, I lead a team at Google that works on machine intelligence;
+
+2
+0:00:15.948,000 --> 0:00:19,000
+in other words, the engineering discipline of making computers and devices
+
+3
+0:00:20.622,000 --> 0:00:22,000
+able to do some of the things that brains do.
+
+4
+0:00:23.439,000 --> 0:00:26,000
+And this makes us interested in real brains
+
+5
+0:00:26.562,000 --> 0:00:27,000
+and neuroscience as well,
+
+6
+0:00:27.875,000 --> 0:00:31,000
+and especially interested in the things that our brains do
+
+7
+0:00:32.071,000 --> 0:00:36,000
+that are still far superior to the performance of computers.
+
+8
+0:00:37.209,000 --> 0:00:4,000
+Historically, one of those areas has been perception,
+
+9
+0:00:40.842,000 --> 0:00:43,000
+the process by which things out there in the world --
+
+10
+0:00:43.905,000 --> 0:00:44,000
+sounds and images --
+
+11
+0:00:45.513,000 --> 0:00:47,000
+can turn into concepts in the mind.
+
+12
+0:00:48.235,000 --> 0:00:5,000
+This is essential for our own brains,
+
+13
+0:00:50.776,000 --> 0:00:52,000
+and it's also pretty useful on a computer.
+
+14
+0:00:53.636,000 --> 0:00:56,000
+The machine perception algorithms, for example, that our team makes,
+
+15
+0:00:57.01,000 --> 0:01:,000
+are what enable your pictures on Google Photos to become searchable,
+
+16
+0:01:00.908,000 --> 0:01:01,000
+based on what's in them.
+
+17
+0:01:03.594,000 --> 0:01:06,000
+The flip side of perception is creativity:
+
+18
+0:01:07.111,000 --> 0:01:1,000
+turning a concept into something out there into the world.
+
+19
+0:01:10.173,000 --> 0:01:13,000
+So over the past year, our work on machine perception
+
+20
+0:01:13.752,000 --> 0:01:17,000
+has also unexpectedly connected with the world of machine creativity
+
+21
+0:01:18.635,000 --> 0:01:19,000
+and machine art.
+
+22
+0:01:20.556,000 --> 0:01:23,000
+I think Michelangelo had a penetrating insight
+
+23
+0:01:23.864,000 --> 0:01:26,000
+into to this dual relationship between perception and creativity.
+
+24
+0:01:28.023,000 --> 0:01:3,000
+This is a famous quote of his:
+
+25
+0:01:30.053,000 --> 0:01:33,000
+"Every block of stone has a statue inside of it,
+
+26
+0:01:34.036,000 --> 0:01:37,000
+and the job of the sculptor is to discover it."
+
+27
+0:01:38.029,000 --> 0:01:41,000
+So I think that what Michelangelo was getting at
+
+28
+0:01:41.269,000 --> 0:01:44,000
+is that we create by perceiving,
+
+29
+0:01:44.473,000 --> 0:01:47,000
+and that perception itself is an act of imagination
+
+30
+0:01:47.52,000 --> 0:01:49,000
+and is the stuff of creativity.
+
+31
+0:01:50.691,000 --> 0:01:53,000
+The organ that does all the thinking and perceiving and imagining,
+
+32
+0:01:54.64,000 --> 0:01:55,000
+of course, is the brain.
+
+33
+0:01:57.089,000 --> 0:01:59,000
+And I'd like to begin with a brief bit of history
+
+34
+0:01:59.658,000 --> 0:02:01,000
+about what we know about brains.
+
+35
+0:02:02.496,000 --> 0:02:04,000
+Because unlike, say, the heart or the intestines,
+
+36
+0:02:04.966,000 --> 0:02:07,000
+you really can't say very much about a brain by just looking at it,
+
+37
+0:02:08.134,000 --> 0:02:09,000
+at least with the naked eye.
+
+38
+0:02:09.983,000 --> 0:02:11,000
+The early anatomists who looked at brains
+
+39
+0:02:12.423,000 --> 0:02:15,000
+gave the superficial structures of this thing all kinds of fanciful names,
+
+40
+0:02:16.254,000 --> 0:02:18,000
+like hippocampus, meaning "little shrimp."
+
+41
+0:02:18.711,000 --> 0:02:2,000
+But of course that sort of thing doesn't tell us very much
+
+42
+0:02:21.499,000 --> 0:02:23,000
+about what's actually going on inside.
+
+43
+0:02:24.78,000 --> 0:02:27,000
+The first person who, I think, really developed some kind of insight
+
+44
+0:02:28.417,000 --> 0:02:29,000
+into what was going on in the brain
+
+45
+0:02:30.371,000 --> 0:02:33,000
+was the great Spanish neuroanatomist, Santiago Ramón y Cajal,
+
+46
+0:02:34.315,000 --> 0:02:35,000
+in the 19th century,
+
+47
+0:02:35.883,000 --> 0:02:38,000
+who used microscopy and special stains
+
+48
+0:02:39.662,000 --> 0:02:43,000
+that could selectively fill in or render in very high contrast
+
+49
+0:02:43.856,000 --> 0:02:45,000
+the individual cells in the brain,
+
+50
+0:02:45.888,000 --> 0:02:48,000
+in order to start to understand their morphologies.
+
+51
+0:02:49.972,000 --> 0:02:51,000
+And these are the kinds of drawings that he made of neurons
+
+52
+0:02:52.887,000 --> 0:02:53,000
+in the 19th century.
+
+53
+0:02:54.12,000 --> 0:02:55,000
+This is from a bird brain.
+
+54
+0:02:56.028,000 --> 0:02:59,000
+And you see this incredible variety of different sorts of cells,
+
+55
+0:02:59.109,000 --> 0:03:02,000
+even the cellular theory itself was quite new at this point.
+
+56
+0:03:02.568,000 --> 0:03:03,000
+And these structures,
+
+57
+0:03:03.87,000 --> 0:03:05,000
+these cells that have these arborizations,
+
+58
+0:03:06.153,000 --> 0:03:08,000
+these branches that can go very, very long distances --
+
+59
+0:03:08.785,000 --> 0:03:09,000
+this was very novel at the time.
+
+60
+0:03:10.779,000 --> 0:03:12,000
+They're reminiscent, of course, of wires.
+
+61
+0:03:13.706,000 --> 0:03:16,000
+That might have been obvious to some people in the 19th century;
+
+62
+0:03:17.187,000 --> 0:03:21,000
+the revolutions of wiring and electricity were just getting underway.
+
+63
+0:03:21.964,000 --> 0:03:22,000
+But in many ways,
+
+64
+0:03:23.166,000 --> 0:03:26,000
+these microanatomical drawings of Ramón y Cajal's, like this one,
+
+65
+0:03:26.503,000 --> 0:03:28,000
+they're still in some ways unsurpassed.
+
+66
+0:03:28.859,000 --> 0:03:29,000
+We're still more than a century later,
+
+67
+0:03:30.737,000 --> 0:03:32,000
+trying to finish the job that Ramón y Cajal started.
+
+68
+0:03:33.586,000 --> 0:03:36,000
+These are raw data from our collaborators
+
+69
+0:03:36.744,000 --> 0:03:38,000
+at the Max Planck Institute of Neuroscience.
+
+70
+0:03:39.649,000 --> 0:03:4,000
+And what our collaborators have done
+
+71
+0:03:41.463,000 --> 0:03:46,000
+is to image little pieces of brain tissue.
+
+72
+0:03:46.488,000 --> 0:03:49,000
+The entire sample here is about one cubic millimeter in size,
+
+73
+0:03:49.838,000 --> 0:03:51,000
+and I'm showing you a very, very small piece of it here.
+
+74
+0:03:52.483,000 --> 0:03:54,000
+That bar on the left is about one micron.
+
+75
+0:03:54.853,000 --> 0:03:56,000
+The structures you see are mitochondria
+
+76
+0:03:57.286,000 --> 0:03:59,000
+that are the size of bacteria.
+
+77
+0:03:59.354,000 --> 0:04:,000
+And these are consecutive slices
+
+78
+0:04:00.929,000 --> 0:04:03,000
+through this very, very tiny block of tissue.
+
+79
+0:04:04.101,000 --> 0:04:06,000
+Just for comparison's sake,
+
+80
+0:04:06.528,000 --> 0:04:09,000
+the diameter of an average strand of hair is about 100 microns.
+
+81
+0:04:10.344,000 --> 0:04:12,000
+So we're looking at something much, much smaller
+
+82
+0:04:12.642,000 --> 0:04:13,000
+than a single strand of hair.
+
+83
+0:04:14.064,000 --> 0:04:18,000
+And from these kinds of serial electron microscopy slices,
+
+84
+0:04:18.119,000 --> 0:04:23,000
+one can start to make reconstructions in 3D of neurons that look like these.
+
+85
+0:04:23.151,000 --> 0:04:26,000
+So these are sort of in the same style as Ramón y Cajal.
+
+86
+0:04:26.332,000 --> 0:04:27,000
+Only a few neurons lit up,
+
+87
+0:04:27.848,000 --> 0:04:29,000
+because otherwise we wouldn't be able to see anything here.
+
+88
+0:04:30.653,000 --> 0:04:31,000
+It would be so crowded,
+
+89
+0:04:31.989,000 --> 0:04:32,000
+so full of structure,
+
+90
+0:04:33.343,000 --> 0:04:35,000
+of wiring all connecting one neuron to another.
+
+91
+0:04:37.293,000 --> 0:04:39,000
+So Ramón y Cajal was a little bit ahead of his time,
+
+92
+0:04:40.121,000 --> 0:04:42,000
+and progress on understanding the brain
+
+93
+0:04:42.7,000 --> 0:04:44,000
+proceeded slowly over the next few decades.
+
+94
+0:04:45.455,000 --> 0:04:47,000
+But we knew that neurons used electricity,
+
+95
+0:04:48.332,000 --> 0:04:5,000
+and by World War II, our technology was advanced enough
+
+96
+0:04:51.292,000 --> 0:04:53,000
+to start doing real electrical experiments on live neurons
+
+97
+0:04:54.122,000 --> 0:04:56,000
+to better understand how they worked.
+
+98
+0:04:56.631,000 --> 0:05:,000
+This was the very same time when computers were being invented,
+
+99
+0:05:01.011,000 --> 0:05:04,000
+very much based on the idea of modeling the brain --
+
+100
+0:05:04.135,000 --> 0:05:07,000
+of "intelligent machinery," as Alan Turing called it,
+
+101
+0:05:07.244,000 --> 0:05:08,000
+one of the fathers of computer science.
+
+102
+0:05:09.923,000 --> 0:05:13,000
+Warren McCulloch and Walter Pitts looked at Ramón y Cajal's drawing
+
+103
+0:05:14.579,000 --> 0:05:15,000
+of visual cortex,
+
+104
+0:05:15.92,000 --> 0:05:16,000
+which I'm showing here.
+
+105
+0:05:17.506,000 --> 0:05:21,000
+This is the cortex that processes imagery that comes from the eye.
+
+106
+0:05:22.424,000 --> 0:05:25,000
+And for them, this looked like a circuit diagram.
+
+107
+0:05:26.353,000 --> 0:05:29,000
+So there are a lot of details in McCulloch and Pitts's circuit diagram
+
+108
+0:05:30.212,000 --> 0:05:31,000
+that are not quite right.
+
+109
+0:05:31.588,000 --> 0:05:32,000
+But this basic idea
+
+110
+0:05:32.847,000 --> 0:05:35,000
+that visual cortex works like a series of computational elements
+
+111
+0:05:36.863,000 --> 0:05:38,000
+that pass information one to the next in a cascade,
+
+112
+0:05:39.633,000 --> 0:05:4,000
+is essentially correct.
+
+113
+0:05:41.259,000 --> 0:05:43,000
+Let's talk for a moment
+
+114
+0:05:43.633,000 --> 0:05:47,000
+about what a model for processing visual information would need to do.
+
+115
+0:05:48.228,000 --> 0:05:5,000
+The basic task of perception
+
+116
+0:05:50.993,000 --> 0:05:54,000
+is to take an image like this one and say,
+
+117
+0:05:55.211,000 --> 0:05:56,000
+"That's a bird,"
+
+118
+0:05:56.411,000 --> 0:05:58,000
+which is a very simple thing for us to do with our brains.
+
+119
+0:05:59.309,000 --> 0:06:02,000
+But you should all understand that for a computer,
+
+120
+0:06:02.754,000 --> 0:06:05,000
+this was pretty much impossible just a few years ago.
+
+121
+0:06:05.865,000 --> 0:06:06,000
+The classical computing paradigm
+
+122
+0:06:07.805,000 --> 0:06:09,000
+is not one in which this task is easy to do.
+
+123
+0:06:11.366,000 --> 0:06:13,000
+So what's going on between the pixels,
+
+124
+0:06:13.942,000 --> 0:06:17,000
+between the image of the bird and the word "bird,"
+
+125
+0:06:17.994,000 --> 0:06:19,000
+is essentially a set of neurons connected to each other
+
+126
+0:06:20.832,000 --> 0:06:21,000
+in a neural network,
+
+127
+0:06:22.011,000 --> 0:06:23,000
+as I'm diagramming here.
+
+128
+0:06:23.258,000 --> 0:06:26,000
+This neural network could be biological, inside our visual cortices,
+
+129
+0:06:26.554,000 --> 0:06:28,000
+or, nowadays, we start to have the capability
+
+130
+0:06:28.74,000 --> 0:06:3,000
+to model such neural networks on the computer.
+
+131
+0:06:31.834,000 --> 0:06:33,000
+And I'll show you what that actually looks like.
+
+132
+0:06:34.211,000 --> 0:06:37,000
+So the pixels you can think about as a first layer of neurons,
+
+133
+0:06:37.651,000 --> 0:06:39,000
+and that's, in fact, how it works in the eye --
+
+134
+0:06:39.914,000 --> 0:06:4,000
+that's the neurons in the retina.
+
+135
+0:06:41.601,000 --> 0:06:42,000
+And those feed forward
+
+136
+0:06:43.125,000 --> 0:06:46,000
+into one layer after another layer, after another layer of neurons,
+
+137
+0:06:46.552,000 --> 0:06:49,000
+all connected by synapses of different weights.
+
+138
+0:06:49.609,000 --> 0:06:5,000
+The behavior of this network
+
+139
+0:06:50.968,000 --> 0:06:53,000
+is characterized by the strengths of all of those synapses.
+
+140
+0:06:54.276,000 --> 0:06:57,000
+Those characterize the computational properties of this network.
+
+141
+0:06:57.588,000 --> 0:06:58,000
+And at the end of the day,
+
+142
+0:06:59.082,000 --> 0:07:01,000
+you have a neuron or a small group of neurons
+
+143
+0:07:01.553,000 --> 0:07:02,000
+that light up, saying, "bird."
+
+144
+0:07:03.824,000 --> 0:07:06,000
+Now I'm going to represent those three things --
+
+145
+0:07:06.98,000 --> 0:07:1,000
+the input pixels and the synapses in the neural network,
+
+146
+0:07:11.7,000 --> 0:07:12,000
+and bird, the output --
+
+147
+0:07:13.309,000 --> 0:07:16,000
+by three variables: x, w and y.
+
+148
+0:07:16.853,000 --> 0:07:17,000
+There are maybe a million or so x's --
+
+149
+0:07:18.688,000 --> 0:07:19,000
+a million pixels in that image.
+
+150
+0:07:20.665,000 --> 0:07:22,000
+There are billions or trillions of w's,
+
+151
+0:07:23.135,000 --> 0:07:26,000
+which represent the weights of all these synapses in the neural network.
+
+152
+0:07:26.58,000 --> 0:07:27,000
+And there's a very small number of y's,
+
+153
+0:07:28.479,000 --> 0:07:29,000
+of outputs that that network has.
+
+154
+0:07:30.361,000 --> 0:07:31,000
+"Bird" is only four letters, right?
+
+155
+0:07:33.088,000 --> 0:07:36,000
+So let's pretend that this is just a simple formula,
+
+156
+0:07:36.538,000 --> 0:07:38,000
+x "x" w = y.
+
+157
+0:07:38.725,000 --> 0:07:4,000
+I'm putting the times in scare quotes
+
+158
+0:07:40.785,000 --> 0:07:42,000
+because what's really going on there, of course,
+
+159
+0:07:43.089,000 --> 0:07:46,000
+is a very complicated series of mathematical operations.
+
+160
+0:07:47.172,000 --> 0:07:48,000
+That's one equation.
+
+161
+0:07:48.417,000 --> 0:07:49,000
+There are three variables.
+
+162
+0:07:50.113,000 --> 0:07:52,000
+And we all know that if you have one equation,
+
+163
+0:07:52.863,000 --> 0:07:55,000
+you can solve one variable by knowing the other two things.
+
+164
+0:07:57.158,000 --> 0:08:,000
+So the problem of inference,
+
+165
+0:08:00.562,000 --> 0:08:02,000
+that is, figuring out that the picture of a bird is a bird,
+
+166
+0:08:03.459,000 --> 0:08:04,000
+is this one:
+
+167
+0:08:04.757,000 --> 0:08:07,000
+it's where y is the unknown and w and x are known.
+
+168
+0:08:08.24,000 --> 0:08:1,000
+You know the neural network, you know the pixels.
+
+169
+0:08:10.723,000 --> 0:08:13,000
+As you can see, that's actually a relatively straightforward problem.
+
+170
+0:08:14.074,000 --> 0:08:16,000
+You multiply two times three and you're done.
+
+171
+0:08:16.862,000 --> 0:08:18,000
+I'll show you an artificial neural network
+
+172
+0:08:19.009,000 --> 0:08:21,000
+that we've built recently, doing exactly that.
+
+173
+0:08:21.634,000 --> 0:08:23,000
+This is running in real time on a mobile phone,
+
+174
+0:08:24.518,000 --> 0:08:27,000
+and that's, of course, amazing in its own right,
+
+175
+0:08:27.855,000 --> 0:08:3,000
+that mobile phones can do so many billions and trillions of operations
+
+176
+0:08:31.347,000 --> 0:08:32,000
+per second.
+
+177
+0:08:32.619,000 --> 0:08:33,000
+What you're looking at is a phone
+
+178
+0:08:34.258,000 --> 0:08:37,000
+looking at one after another picture of a bird,
+
+179
+0:08:37.829,000 --> 0:08:39,000
+and actually not only saying, "Yes, it's a bird,"
+
+180
+0:08:40.568,000 --> 0:08:43,000
+but identifying the species of bird with a network of this sort.
+
+181
+0:08:44.89,000 --> 0:08:45,000
+So in that picture,
+
+182
+0:08:46.74,000 --> 0:08:49,000
+the x and the w are known, and the y is the unknown.
+
+183
+0:08:50.566,000 --> 0:08:52,000
+I'm glossing over the very difficult part, of course,
+
+184
+0:08:53.098,000 --> 0:08:56,000
+which is how on earth do we figure out the w,
+
+185
+0:08:56.983,000 --> 0:08:58,000
+the brain that can do such a thing?
+
+186
+0:08:59.194,000 --> 0:09:,000
+How would we ever learn such a model?
+
+187
+0:09:01.418,000 --> 0:09:04,000
+So this process of learning, of solving for w,
+
+188
+0:09:04.675,000 --> 0:09:06,000
+if we were doing this with the simple equation
+
+189
+0:09:07.346,000 --> 0:09:09,000
+in which we think about these as numbers,
+
+190
+0:09:09.37,000 --> 0:09:11,000
+we know exactly how to do that: 6 = 2 x w,
+
+191
+0:09:12.081,000 --> 0:09:15,000
+well, we divide by two and we're done.
+
+192
+0:09:16.001,000 --> 0:09:18,000
+The problem is with this operator.
+
+193
+0:09:18.823,000 --> 0:09:19,000
+So, division --
+
+194
+0:09:19.998,000 --> 0:09:22,000
+we've used division because it's the inverse to multiplication,
+
+195
+0:09:23.143,000 --> 0:09:24,000
+but as I've just said,
+
+196
+0:09:24.607,000 --> 0:09:26,000
+the multiplication is a bit of a lie here.
+
+197
+0:09:27.08,000 --> 0:09:3,000
+This is a very, very complicated, very non-linear operation;
+
+198
+0:09:30.43,000 --> 0:09:31,000
+it has no inverse.
+
+199
+0:09:32.158,000 --> 0:09:35,000
+So we have to figure out a way to solve the equation
+
+200
+0:09:35.332,000 --> 0:09:37,000
+without a division operator.
+
+201
+0:09:37.38,000 --> 0:09:39,000
+And the way to do that is fairly straightforward.
+
+202
+0:09:39.747,000 --> 0:09:41,000
+You just say, let's play a little algebra trick,
+
+203
+0:09:42.442,000 --> 0:09:44,000
+and move the six over to the right-hand side of the equation.
+
+204
+0:09:45.372,000 --> 0:09:46,000
+Now, we're still using multiplication.
+
+205
+0:09:47.675,000 --> 0:09:5,000
+And that zero -- let's think about it as an error.
+
+206
+0:09:51.279,000 --> 0:09:53,000
+In other words, if we've solved for w the right way,
+
+207
+0:09:53.818,000 --> 0:09:54,000
+then the error will be zero.
+
+208
+0:09:55.498,000 --> 0:09:56,000
+And if we haven't gotten it quite right,
+
+209
+0:09:57.46,000 --> 0:09:58,000
+the error will be greater than zero.
+
+210
+0:09:59.233,000 --> 0:10:02,000
+So now we can just take guesses to minimize the error,
+
+211
+0:10:02.623,000 --> 0:10:04,000
+and that's the sort of thing computers are very good at.
+
+212
+0:10:05.334,000 --> 0:10:06,000
+So you've taken an initial guess:
+
+213
+0:10:06.951,000 --> 0:10:07,000
+what if w = 0?
+
+214
+0:10:08.131,000 --> 0:10:09,000
+Well, then the error is 6.
+
+215
+0:10:09.395,000 --> 0:10:1,000
+What if w = 1? The error is 4.
+
+216
+0:10:10.865,000 --> 0:10:12,000
+And then the computer can sort of play Marco Polo,
+
+217
+0:10:13.256,000 --> 0:10:15,000
+and drive down the error close to zero.
+
+218
+0:10:15.647,000 --> 0:10:18,000
+As it does that, it's getting successive approximations to w.
+
+219
+0:10:19.045,000 --> 0:10:22,000
+Typically, it never quite gets there, but after about a dozen steps,
+
+220
+0:10:22.725,000 --> 0:10:26,000
+we're up to w = 2.999, which is close enough.
+
+221
+0:10:28.302,000 --> 0:10:29,000
+And this is the learning process.
+
+222
+0:10:30.14,000 --> 0:10:32,000
+So remember that what's been going on here
+
+223
+0:10:32.894,000 --> 0:10:36,000
+is that we've been taking a lot of known x's and known y's
+
+224
+0:10:37.296,000 --> 0:10:4,000
+and solving for the w in the middle through an iterative process.
+
+225
+0:10:40.774,000 --> 0:10:43,000
+It's exactly the same way that we do our own learning.
+
+226
+0:10:44.354,000 --> 0:10:46,000
+We have many, many images as babies
+
+227
+0:10:46.608,000 --> 0:10:48,000
+and we get told, "This is a bird; this is not a bird."
+
+228
+0:10:49.714,000 --> 0:10:51,000
+And over time, through iteration,
+
+229
+0:10:51.836,000 --> 0:10:53,000
+we solve for w, we solve for those neural connections.
+
+230
+0:10:55.46,000 --> 0:10:59,000
+So now, we've held x and w fixed to solve for y;
+
+231
+0:10:59.57,000 --> 0:11:,000
+that's everyday, fast perception.
+
+232
+0:11:01.441,000 --> 0:11:02,000
+We figure out how we can solve for w,
+
+233
+0:11:03.228,000 --> 0:11:04,000
+that's learning, which is a lot harder,
+
+234
+0:11:05.155,000 --> 0:11:06,000
+because we need to do error minimization,
+
+235
+0:11:07.164,000 --> 0:11:08,000
+using a lot of training examples.
+
+236
+0:11:08.875,000 --> 0:11:11,000
+And about a year ago, Alex Mordvintsev, on our team,
+
+237
+0:11:12.086,000 --> 0:11:15,000
+decided to experiment with what happens if we try solving for x,
+
+238
+0:11:15.66,000 --> 0:11:17,000
+given a known w and a known y.
+
+239
+0:11:18.124,000 --> 0:11:19,000
+In other words,
+
+240
+0:11:19.299,000 --> 0:11:2,000
+you know that it's a bird,
+
+241
+0:11:20.675,000 --> 0:11:23,000
+and you already have your neural network that you've trained on birds,
+
+242
+0:11:24.002,000 --> 0:11:26,000
+but what is the picture of a bird?
+
+243
+0:11:27.034,000 --> 0:11:32,000
+It turns out that by using exactly the same error-minimization procedure,
+
+244
+0:11:32.082,000 --> 0:11:35,000
+one can do that with the network trained to recognize birds,
+
+245
+0:11:35.536,000 --> 0:11:38,000
+and the result turns out to be ...
+
+246
+0:11:42.4,000 --> 0:11:43,000
+a picture of birds.
+
+247
+0:11:44.814,000 --> 0:11:47,000
+So this is a picture of birds generated entirely by a neural network
+
+248
+0:11:48.575,000 --> 0:11:49,000
+that was trained to recognize birds,
+
+249
+0:11:50.425,000 --> 0:11:53,000
+just by solving for x rather than solving for y,
+
+250
+0:11:53.987,000 --> 0:11:54,000
+and doing that iteratively.
+
+251
+0:11:55.732,000 --> 0:11:56,000
+Here's another fun example.
+
+252
+0:11:57.603,000 --> 0:12:,000
+This was a work made by Mike Tyka in our group,
+
+253
+0:12:01.064,000 --> 0:12:03,000
+which he calls "Animal Parade."
+
+254
+0:12:03.396,000 --> 0:12:05,000
+It reminds me a little bit of William Kentridge's artworks,
+
+255
+0:12:06.296,000 --> 0:12:08,000
+in which he makes sketches, rubs them out,
+
+256
+0:12:08.809,000 --> 0:12:09,000
+makes sketches, rubs them out,
+
+257
+0:12:10.293,000 --> 0:12:11,000
+and creates a movie this way.
+
+258
+0:12:11.715,000 --> 0:12:12,000
+In this case,
+
+259
+0:12:12.89,000 --> 0:12:15,000
+what Mike is doing is varying y over the space of different animals,
+
+260
+0:12:16.191,000 --> 0:12:18,000
+in a network designed to recognize and distinguish
+
+261
+0:12:18.597,000 --> 0:12:19,000
+different animals from each other.
+
+262
+0:12:20.431,000 --> 0:12:23,000
+And you get this strange, Escher-like morph from one animal to another.
+
+263
+0:12:26.221,000 --> 0:12:3,000
+Here he and Alex together have tried reducing
+
+264
+0:12:30.859,000 --> 0:12:32,000
+the y's to a space of only two dimensions,
+
+265
+0:12:33.642,000 --> 0:12:36,000
+thereby making a map out of the space of all things
+
+266
+0:12:37.104,000 --> 0:12:38,000
+recognized by this network.
+
+267
+0:12:38.847,000 --> 0:12:4,000
+Doing this kind of synthesis
+
+268
+0:12:40.894,000 --> 0:12:42,000
+or generation of imagery over that entire surface,
+
+269
+0:12:43.3,000 --> 0:12:45,000
+varying y over the surface, you make a kind of map --
+
+270
+0:12:46.17,000 --> 0:12:49,000
+a visual map of all the things the network knows how to recognize.
+
+271
+0:12:49.335,000 --> 0:12:51,000
+The animals are all here; "armadillo" is right in that spot.
+
+272
+0:12:52.919,000 --> 0:12:54,000
+You can do this with other kinds of networks as well.
+
+273
+0:12:55.422,000 --> 0:12:57,000
+This is a network designed to recognize faces,
+
+274
+0:12:58.32,000 --> 0:13:,000
+to distinguish one face from another.
+
+275
+0:13:00.344,000 --> 0:13:03,000
+And here, we're putting in a y that says, "me,"
+
+276
+0:13:03.617,000 --> 0:13:04,000
+my own face parameters.
+
+277
+0:13:05.216,000 --> 0:13:06,000
+And when this thing solves for x,
+
+278
+0:13:06.946,000 --> 0:13:08,000
+it generates this rather crazy,
+
+279
+0:13:09.588,000 --> 0:13:13,000
+kind of cubist, surreal, psychedelic picture of me
+
+280
+0:13:14.04,000 --> 0:13:15,000
+from multiple points of view at once.
+
+281
+0:13:15.87,000 --> 0:13:17,000
+The reason it looks like multiple points of view at once
+
+282
+0:13:18.628,000 --> 0:13:21,000
+is because that network is designed to get rid of the ambiguity
+
+283
+0:13:22.339,000 --> 0:13:24,000
+of a face being in one pose or another pose,
+
+284
+0:13:24.839,000 --> 0:13:27,000
+being looked at with one kind of lighting, another kind of lighting.
+
+285
+0:13:28.239,000 --> 0:13:3,000
+So when you do this sort of reconstruction,
+
+286
+0:13:30.348,000 --> 0:13:32,000
+if you don't use some sort of guide image
+
+287
+0:13:32.676,000 --> 0:13:33,000
+or guide statistics,
+
+288
+0:13:33.911,000 --> 0:13:36,000
+then you'll get a sort of confusion of different points of view,
+
+289
+0:13:37.7,000 --> 0:13:38,000
+because it's ambiguous.
+
+290
+0:13:39.786,000 --> 0:13:43,000
+This is what happens if Alex uses his own face as a guide image
+
+291
+0:13:44.033,000 --> 0:13:47,000
+during that optimization process to reconstruct my own face.
+
+292
+0:13:48.284,000 --> 0:13:5,000
+So you can see it's not perfect.
+
+293
+0:13:50.636,000 --> 0:13:51,000
+There's still quite a lot of work to do
+
+294
+0:13:52.534,000 --> 0:13:54,000
+on how we optimize that optimization process.
+
+295
+0:13:55.011,000 --> 0:13:57,000
+But you start to get something more like a coherent face,
+
+296
+0:13:57.862,000 --> 0:13:59,000
+rendered using my own face as a guide.
+
+297
+0:14:00.892,000 --> 0:14:02,000
+You don't have to start with a blank canvas
+
+298
+0:14:03.417,000 --> 0:14:04,000
+or with white noise.
+
+299
+0:14:04.597,000 --> 0:14:05,000
+When you're solving for x,
+
+300
+0:14:05.925,000 --> 0:14:08,000
+you can begin with an x, that is itself already some other image.
+
+301
+0:14:09.838,000 --> 0:14:11,000
+That's what this little demonstration is.
+
+302
+0:14:12.418,000 --> 0:14:16,000
+This is a network that is designed to categorize
+
+303
+0:14:16.564,000 --> 0:14:19,000
+all sorts of different objects -- man-made structures, animals ...
+
+304
+0:14:19.707,000 --> 0:14:21,000
+Here we're starting with just a picture of clouds,
+
+305
+0:14:22.324,000 --> 0:14:23,000
+and as we optimize,
+
+306
+0:14:24.019,000 --> 0:14:28,000
+basically, this network is figuring out what it sees in the clouds.
+
+307
+0:14:28.931,000 --> 0:14:3,000
+And the more time you spend looking at this,
+
+308
+0:14:31.275,000 --> 0:14:33,000
+the more things you also will see in the clouds.
+
+309
+0:14:35.004,000 --> 0:14:38,000
+You could also use the face network to hallucinate into this,
+
+310
+0:14:38.403,000 --> 0:14:39,000
+and you get some pretty crazy stuff.
+
+311
+0:14:40.239,000 --> 0:14:41,000
+(Laughter)
+
+312
+0:14:42.401,000 --> 0:14:44,000
+Or, Mike has done some other experiments
+
+313
+0:14:45.169,000 --> 0:14:48,000
+in which he takes that cloud image,
+
+314
+0:14:49.098,000 --> 0:14:52,000
+hallucinates, zooms, hallucinates, zooms hallucinates, zooms.
+
+315
+0:14:52.629,000 --> 0:14:53,000
+And in this way,
+
+316
+0:14:53.804,000 --> 0:14:56,000
+you can get a sort of fugue state of the network, I suppose,
+
+317
+0:14:57.503,000 --> 0:15:,000
+or a sort of free association,
+
+318
+0:15:01.207,000 --> 0:15:03,000
+in which the network is eating its own tail.
+
+319
+0:15:03.458,000 --> 0:15:06,000
+So every image is now the basis for,
+
+320
+0:15:06.903,000 --> 0:15:07,000
+"What do I think I see next?
+
+321
+0:15:08.348,000 --> 0:15:1,000
+What do I think I see next? What do I think I see next?"
+
+322
+0:15:11.487,000 --> 0:15:13,000
+I showed this for the first time in public
+
+323
+0:15:14.447,000 --> 0:15:19,000
+to a group at a lecture in Seattle called "Higher Education" --
+
+324
+0:15:19.908,000 --> 0:15:21,000
+this was right after marijuana was legalized.
+
+325
+0:15:22.369,000 --> 0:15:24,000
+(Laughter)
+
+326
+0:15:26.627,000 --> 0:15:28,000
+So I'd like to finish up quickly
+
+327
+0:15:28.755,000 --> 0:15:32,000
+by just noting that this technology is not constrained.
+
+328
+0:15:33.034,000 --> 0:15:36,000
+I've shown you purely visual examples because they're really fun to look at.
+
+329
+0:15:36.723,000 --> 0:15:38,000
+It's not a purely visual technology.
+
+330
+0:15:39.198,000 --> 0:15:4,000
+Our artist collaborator, Ross Goodwin,
+
+331
+0:15:41.215,000 --> 0:15:44,000
+has done experiments involving a camera that takes a picture,
+
+332
+0:15:44.91,000 --> 0:15:48,000
+and then a computer in his backpack writes a poem using neural networks,
+
+333
+0:15:49.168,000 --> 0:15:5,000
+based on the contents of the image.
+
+334
+0:15:51.136,000 --> 0:15:53,000
+And that poetry neural network has been trained
+
+335
+0:15:54.107,000 --> 0:15:56,000
+on a large corpus of 20th-century poetry.
+
+336
+0:15:56.365,000 --> 0:15:57,000
+And the poetry is, you know,
+
+337
+0:15:57.888,000 --> 0:15:58,000
+I think, kind of not bad, actually.
+
+338
+0:15:59.826,000 --> 0:16:,000
+(Laughter)
+
+339
+0:16:01.234,000 --> 0:16:02,000
+In closing,
+
+340
+0:16:02.417,000 --> 0:16:04,000
+I think that per Michelangelo,
+
+341
+0:16:04.573,000 --> 0:16:05,000
+I think he was right;
+
+342
+0:16:05.831,000 --> 0:16:08,000
+perception and creativity are very intimately connected.
+
+343
+0:16:09.611,000 --> 0:16:11,000
+What we've just seen are neural networks
+
+344
+0:16:12.269,000 --> 0:16:14,000
+that are entirely trained to discriminate,
+
+345
+0:16:14.596,000 --> 0:16:16,000
+or to recognize different things in the world,
+
+346
+0:16:16.862,000 --> 0:16:19,000
+able to be run in reverse, to generate.
+
+347
+0:16:20.047,000 --> 0:16:21,000
+One of the things that suggests to me
+
+348
+0:16:21.854,000 --> 0:16:23,000
+is not only that Michelangelo really did see
+
+349
+0:16:24.276,000 --> 0:16:26,000
+the sculpture in the blocks of stone,
+
+350
+0:16:26.752,000 --> 0:16:29,000
+but that any creature, any being, any alien
+
+351
+0:16:30.414,000 --> 0:16:33,000
+that is able to do perceptual acts of that sort
+
+352
+0:16:34.095,000 --> 0:16:35,000
+is also able to create
+
+353
+0:16:35.494,000 --> 0:16:38,000
+because it's exactly the same machinery that's used in both cases.
+
+354
+0:16:38.742,000 --> 0:16:42,000
+Also, I think that perception and creativity are by no means
+
+355
+0:16:43.298,000 --> 0:16:44,000
+uniquely human.
+
+356
+0:16:44.532,000 --> 0:16:47,000
+We start to have computer models that can do exactly these sorts of things.
+
+357
+0:16:48.264,000 --> 0:16:51,000
+And that ought to be unsurprising; the brain is computational.
+
+358
+0:16:51.616,000 --> 0:16:52,000
+And finally,
+
+359
+0:16:53.297,000 --> 0:16:57,000
+computing began as an exercise in designing intelligent machinery.
+
+360
+0:16:57.989,000 --> 0:16:59,000
+It was very much modeled after the idea
+
+361
+0:17:00.475,000 --> 0:17:03,000
+of how could we make machines intelligent.
+
+362
+0:17:03.512,000 --> 0:17:05,000
+And we finally are starting to fulfill now
+
+363
+0:17:05.698,000 --> 0:17:07,000
+some of the promises of those early pioneers,
+
+364
+0:17:08.128,000 --> 0:17:09,000
+of Turing and von Neumann
+
+365
+0:17:09.865,000 --> 0:17:11,000
+and McCulloch and Pitts.
+
+366
+0:17:12.154,000 --> 0:17:16,000
+And I think that computing is not just about accounting
+
+367
+0:17:16.276,000 --> 0:17:18,000
+or playing Candy Crush or something.
+
+368
+0:17:18.447,000 --> 0:17:2,000
+From the beginning, we modeled them after our minds.
+
+369
+0:17:21.049,000 --> 0:17:24,000
+And they give us both the ability to understand our own minds better
+
+370
+0:17:24.342,000 --> 0:17:25,000
+and to extend them.
+
+371
+0:17:26.627,000 --> 0:17:27,000
+Thank you very much.
+
+372
+0:17:27.818,000 --> 0:17:32,000
+(Applause)
+

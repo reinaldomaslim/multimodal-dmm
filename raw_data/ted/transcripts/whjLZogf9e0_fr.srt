@@ -1,0 +1,1812 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Pascal DELAMAIRE Relecteur: Fares SEAIDI
+
+2
+0:00:18.26,000 --> 0:00:2,000
+La plupart des présentations
+
+3
+0:00:20.26,000 --> 0:00:23,000
+auxquelles vous avez pu assister au cours de ces fabuleuses dernières journées,
+
+4
+0:00:23.26,000 --> 0:00:25,000
+étaient présentées par des gens qui avaient en commun la caractéristique
+
+5
+0:00:25.26,000 --> 0:00:27,000
+d'avoir réfléchi sur un sujet,
+
+6
+0:00:27.26,000 --> 0:00:3,000
+d'être expert et, de savoir de quoi il s'agit.
+
+7
+0:00:31.26,000 --> 0:00:33,000
+Vous connaissez tous le sujet
+
+8
+0:00:33.26,000 --> 0:00:35,000
+dont je suis supposé parler.
+
+9
+0:00:35.26,000 --> 0:00:37,000
+Autrement dit, vous savez ce que c'est que la simplicité,
+
+10
+0:00:37.26,000 --> 0:00:39,000
+vous savez ce que c'est que la complexité.
+
+11
+0:00:39.26,000 --> 0:00:41,000
+Le problème, c'est que moi, je ne le sais pas.
+
+12
+0:00:41.26,000 --> 0:00:43,000
+Et ce que je vais faire, c'est partager avec vous
+
+13
+0:00:43.26,000 --> 0:00:45,000
+mon ignorance à ce sujet.
+
+14
+0:00:46.26,000 --> 0:00:48,000
+Je veux que vous lisiez ceci
+
+15
+0:00:48.26,000 --> 0:00:51,000
+parce que nous allons y revenir dans un instant.
+
+16
+0:00:53.26,000 --> 0:00:55,000
+La citation est tirée
+
+17
+0:00:55.26,000 --> 0:00:57,000
+du fameux avis de Potter Stewart
+
+18
+0:00:59.26,000 --> 0:01:02,000
+sur la pornographie.
+
+19
+0:01:02.26,000 --> 0:01:04,000
+Laissez-moi vous la lire,
+
+20
+0:01:04.26,000 --> 0:01:06,000
+les détails sont ici importants.
+
+21
+0:01:06.26,000 --> 0:01:09,000
+"Description abrégée, pornographie patente;
+
+22
+0:01:09.26,000 --> 0:01:12,000
+et peut-être je ne pourrais jamais réussir à la définir de façon intelligible.
+
+23
+0:01:12.26,000 --> 0:01:14,000
+Mais je le sais quand je le vois. "
+
+24
+0:01:14.26,000 --> 0:01:17,000
+J'y reviendrai dans un instant.
+
+25
+0:01:17.26,000 --> 0:01:19,000
+Alors, qu'est-ce que la simplicité ?
+
+26
+0:01:19.26,000 --> 0:01:21,000
+C'est une bonne idée de commencer avec quelques exemples.
+
+27
+0:01:22.26,000 --> 0:01:25,000
+Une tasse à café, on n'y pense pas, aux tasses à café,
+
+28
+0:01:25.26,000 --> 0:01:27,000
+mais c'est beaucoup plus intéressant que l'on pourrait penser.
+
+29
+0:01:27.26,000 --> 0:01:3,000
+Une tasse à café est un ustensile, oui,
+
+30
+0:01:30.26,000 --> 0:01:33,000
+qui comprend un récipient, oui, et une poignée, oui.
+
+31
+0:01:33.26,000 --> 0:01:36,000
+La poignée vous permet de la tenir
+
+32
+0:01:36.26,000 --> 0:01:39,000
+quand le récipient est rempli de liquide chaud, ouais.
+
+33
+0:01:39.26,000 --> 0:01:41,000
+Pourquoi est-ce important?
+
+34
+0:01:41.26,000 --> 0:01:43,000
+Eh bien, ça vous permet de boire du café.
+
+35
+0:01:43.26,000 --> 0:01:45,000
+Mais aussi, le café est chaud,
+
+36
+0:01:45.26,000 --> 0:01:47,000
+le liquide est stérile,
+
+37
+0:01:47.26,000 --> 0:01:49,000
+et il y a peu de chances que vous attrapiez des microbes de cette façon.
+
+38
+0:01:49.26,000 --> 0:01:52,000
+Ainsi, la tasse à café, ou la tasse avec une poignée,
+
+39
+0:01:52.26,000 --> 0:01:55,000
+est un des outils qu'utilise la société
+
+40
+0:01:55.26,000 --> 0:01:57,000
+pour préserver la santé publique.
+
+41
+0:01:57.26,000 --> 0:01:59,000
+Les ciseaux sont pour vos vêtements.
+
+42
+0:01:59.26,000 --> 0:02:01,000
+Les lunettes vous permettent de voir les choses,
+
+43
+0:02:01.26,000 --> 0:02:03,000
+et vous empêchent d'être mangé par les guépards
+
+44
+0:02:03.26,000 --> 0:02:05,000
+ou écrasé par les automobiles.
+
+45
+0:02:05.26,000 --> 0:02:08,000
+Et les livres sont là, après tout, pour votre éducation.
+
+46
+0:02:08.26,000 --> 0:02:1,000
+Mais il ya une autre catégorie d'objets simples,
+
+47
+0:02:10.26,000 --> 0:02:12,000
+qui sont également très importants.
+
+48
+0:02:12.26,000 --> 0:02:14,000
+Simples par leur fonction,
+
+49
+0:02:14.26,000 --> 0:02:17,000
+mais pas du tout simples dans la façon dont ils sont construits.
+
+50
+0:02:17.26,000 --> 0:02:2,000
+Et les deux que voici n'en sont que des exemples.
+
+51
+0:02:20.26,000 --> 0:02:23,000
+Le premier est le téléphone portable, que nous utilisons tous les jours.
+
+52
+0:02:23.26,000 --> 0:02:25,000
+Et il repose sur une complexité,
+
+53
+0:02:25.26,000 --> 0:02:27,000
+qui a certaines caractéristiques
+
+54
+0:02:27.26,000 --> 0:02:29,000
+très différentes de celles dont mon ami
+
+55
+0:02:29.26,000 --> 0:02:31,000
+Benoit Mandelbrot a discuté,
+
+56
+0:02:31.26,000 --> 0:02:33,000
+mais qui sont très intéressantes.
+
+57
+0:02:33.26,000 --> 0:02:36,000
+Et l'autre, bien sûr, est une pilule contraceptive,
+
+58
+0:02:36.26,000 --> 0:02:38,000
+qui, d'une manière très simple,
+
+59
+0:02:38.26,000 --> 0:02:4,000
+a fondamentalement changé la structure de la société
+
+60
+0:02:40.26,000 --> 0:02:43,000
+en y changeant le rôle des femmes,
+
+61
+0:02:43.26,000 --> 0:02:45,000
+en leur apportant
+
+62
+0:02:45.26,000 --> 0:02:47,000
+la possibilité de faire des choix en matière de reproduction.
+
+63
+0:02:50.26,000 --> 0:02:53,000
+Voilà deux façons de penser à ce mot, je crois.
+
+64
+0:02:53.26,000 --> 0:02:55,000
+Et là, j'ai détourné
+
+65
+0:02:55.26,000 --> 0:02:58,000
+la citation de Potter Stewart
+
+66
+0:02:58.26,000 --> 0:03:,000
+en disant que nous pouvons penser à quelque chose
+
+67
+0:03:00.26,000 --> 0:03:02,000
+qui va des ciseaux
+
+68
+0:03:02.26,000 --> 0:03:04,000
+au téléphone cellulaire,
+
+69
+0:03:04.26,000 --> 0:03:06,000
+à Internet et à la pilule contraceptive
+
+70
+0:03:06.26,000 --> 0:03:09,000
+en disant qu'ils sont simples --
+
+71
+0:03:09.26,000 --> 0:03:11,000
+les fonctions sont simples --
+
+72
+0:03:11.26,000 --> 0:03:13,000
+et nous reconnaissons ce qu'est la simplicité
+
+73
+0:03:13.26,000 --> 0:03:15,000
+lorsque nous la voyons.
+
+74
+0:03:15.26,000 --> 0:03:18,000
+Une autre manière de faire, peut-être,
+
+75
+0:03:19.26,000 --> 0:03:22,000
+serait de penser au problème en termes de,
+
+76
+0:03:22.26,000 --> 0:03:25,000
+si on se réfère aux philosophes moralistes,
+
+77
+0:03:25.26,000 --> 0:03:28,000
+ce qu'on, appelle "le problème de la théière".
+
+78
+0:03:29.26,000 --> 0:03:32,000
+Voilà comment je poserais le "problème de la théière"
+
+79
+0:03:32.26,000 --> 0:03:34,000
+Supposons que vous voyiez une théière,
+
+80
+0:03:34.26,000 --> 0:03:37,000
+et cette théière
+
+81
+0:03:37.26,000 --> 0:03:39,000
+est pleine d'eau chaude.
+
+82
+0:03:39.26,000 --> 0:03:41,000
+Et puis, vous posez la question :
+
+83
+0:03:41.26,000 --> 0:03:43,000
+"Pourquoi l'eau est-elle chaude ?"
+
+84
+0:03:43.26,000 --> 0:03:45,000
+C'est une question simple.
+
+85
+0:03:45.26,000 --> 0:03:47,000
+Comme "Qu'est-ce que la simplicité?"
+
+86
+0:03:47.26,000 --> 0:03:49,000
+Une réponse pourrait être :
+
+87
+0:03:49.26,000 --> 0:03:51,000
+"Parce que l'énergie cinétique des molécules d'eau est élevée,
+
+88
+0:03:51.26,000 --> 0:03:53,000
+et elles rebondissent rapidement contre les parois."
+
+89
+0:03:53.26,000 --> 0:03:56,000
+C'est un peu le raisonnement de la physique.
+
+90
+0:03:56.26,000 --> 0:03:58,000
+Un autre raisonnement pourrait être :
+
+91
+0:03:58.26,000 --> 0:04:01,000
+"Parce qu'elle était sur une cuisinière, avec le feu allumé."
+
+92
+0:04:01.26,000 --> 0:04:03,000
+C'est le raisonnement historique.
+
+93
+0:04:03.26,000 --> 0:04:05,000
+Un troisième est que je voulais de l'eau chaude
+
+94
+0:04:05.26,000 --> 0:04:07,000
+pour mon thé.
+
+95
+0:04:07.26,000 --> 0:04:09,000
+C'est le raisonnement intentionnel.
+
+96
+0:04:09.26,000 --> 0:04:11,000
+Et, puisque cela vient d'un philosophe moraliste,
+
+97
+0:04:11.26,000 --> 0:04:14,000
+le quatrième serait que cela fait partie du plan de Dieu pour l'Univers.
+
+98
+0:04:14.26,000 --> 0:04:16,000
+Tous représentent une possibilité.
+
+99
+0:04:16.26,000 --> 0:04:19,000
+Le fait est qu'on commence à avoir des problèmes
+
+100
+0:04:19.26,000 --> 0:04:21,000
+quand on pose une unique question
+
+101
+0:04:21.26,000 --> 0:04:23,000
+avec une seule réponse possible,
+
+102
+0:04:23.26,000 --> 0:04:26,000
+et que dans cette unique question il y a de multiples questions,
+
+103
+0:04:26.26,000 --> 0:04:28,000
+avec des significations relativement différentes,
+
+104
+0:04:28.26,000 --> 0:04:31,000
+mais qui emploient les mêmes mots.
+
+105
+0:04:31.26,000 --> 0:04:34,000
+Je pense que demander "Qu'est-ce que la simplicité" rentre dans cette catégorie.
+
+106
+0:04:35.26,000 --> 0:04:37,000
+Quel est l'état de la Science?
+
+107
+0:04:37.26,000 --> 0:04:39,000
+Et, de façon intéressante, la complexité
+
+108
+0:04:39.26,000 --> 0:04:41,000
+est hautement évoluée.
+
+109
+0:04:41.26,000 --> 0:04:43,000
+Nous avons beaucoup d'informations intéressantes
+
+110
+0:04:43.26,000 --> 0:04:45,000
+sur ce qu'est la complexité.
+
+111
+0:04:45.26,000 --> 0:04:47,000
+La simplicité, pour d'assez
+
+112
+0:04:47.26,000 --> 0:04:49,000
+obscures raisons,
+
+113
+0:04:49.26,000 --> 0:04:51,000
+n'est presque pas étudiée,
+
+114
+0:04:51.26,000 --> 0:04:53,000
+du moins pas dans le monde académique.
+
+115
+0:04:53.26,000 --> 0:04:55,000
+Nous, les universitaires --Je suis un universitaire--
+
+116
+0:04:55.26,000 --> 0:04:57,000
+nous adorons la complexité.
+
+117
+0:04:57.26,000 --> 0:04:59,000
+On peut écrire des articles sur la complexité.
+
+118
+0:04:59.26,000 --> 0:05:01,000
+Et ce qu'il y a de bien avec la complexité,
+
+119
+0:05:01.26,000 --> 0:05:03,000
+c'est qu'elle est fondamentalement insoluble à de nombreux égards,
+
+120
+0:05:03.26,000 --> 0:05:06,000
+alors, vous n'êtes pas responsable des conséquences.
+
+121
+0:05:06.26,000 --> 0:05:09,000
+La simplicité-- Chacun de vous aimerait vraiment
+
+122
+0:05:09.26,000 --> 0:05:11,000
+que, le matin, votre mixer à jus de fruits
+
+123
+0:05:11.26,000 --> 0:05:13,000
+fasse ce que doit faire tout mixer à jus de fruits,
+
+124
+0:05:13.26,000 --> 0:05:16,000
+mais pas exploser, ou se mettre à jouer du Beethoven.
+
+125
+0:05:16.26,000 --> 0:05:19,000
+Ça ne vous intéresse pas de pousser aussi loin les limites.
+
+126
+0:05:19.26,000 --> 0:05:21,000
+Ce à quoi on s'intéresse
+
+127
+0:05:21.26,000 --> 0:05:24,000
+est en relation étroite avec les récompenses du système.
+
+128
+0:05:24.26,000 --> 0:05:26,000
+Et il y a beaucoup de récompenses à penser
+
+129
+0:05:26.26,000 --> 0:05:28,000
+à la complexité et à l'émergence,
+
+130
+0:05:28.26,000 --> 0:05:31,000
+et beaucoup moins à penser à la simplicité.
+
+131
+0:05:31.26,000 --> 0:05:33,000
+Une des choses que je veux faire,
+
+132
+0:05:33.26,000 --> 0:05:36,000
+c'est de vous aider dans une tâche très importante,
+
+133
+0:05:36.26,000 --> 0:05:39,000
+dont vous ne savez pas qu'elle est très courante,
+
+134
+0:05:39.26,000 --> 0:05:41,000
+et qui est de comprendre
+
+135
+0:05:41.26,000 --> 0:05:44,000
+comment s'asseoir à côté d'un physicien à un dîner
+
+136
+0:05:44.26,000 --> 0:05:46,000
+et tenir une conversation.
+
+137
+0:05:46.26,000 --> 0:05:49,000
+Et les mots sur lesquels j'aimerais que vous vous concentriez
+
+138
+0:05:49.26,000 --> 0:05:51,000
+sont "complexité" et "émergence",
+
+139
+0:05:51.26,000 --> 0:05:54,000
+parce qu'ils vous permettront de démarrer la conversation,
+
+140
+0:05:54.26,000 --> 0:05:56,000
+et puis de vous laisser aller à rêvasser d'autre chose.
+
+141
+0:05:56.26,000 --> 0:05:59,000
+(Rires)
+
+142
+0:05:59.26,000 --> 0:06:02,000
+Bien, alors qu'est-ce que la complexité, de ce point de vue ?
+
+143
+0:06:02.26,000 --> 0:06:04,000
+Et qu'est-ce que l'émergence ?
+
+144
+0:06:04.26,000 --> 0:06:07,000
+En fait, nous avons une définition de la complexité qui fonctionne assez bien.
+
+145
+0:06:07.26,000 --> 0:06:09,000
+Il s'agit d'un système, comme la circulation [automobile],
+
+146
+0:06:09.26,000 --> 0:06:11,000
+qui possède des composants.
+
+147
+0:06:11.26,000 --> 0:06:13,000
+Les composants interagissent les uns avec les autres.
+
+148
+0:06:13.26,000 --> 0:06:16,000
+Ici, les voitures et les conducteurs. Ils dispersent l'énergie.
+
+149
+0:06:16.26,000 --> 0:06:18,000
+Il s'avère qu'à chaque fois que vous avez un tel système,
+
+150
+0:06:18.26,000 --> 0:06:2,000
+d'étranges choses se mettent à survenir,
+
+151
+0:06:20.26,000 --> 0:06:22,000
+et vous, ici à Los Angeles,
+
+152
+0:06:22.26,000 --> 0:06:25,000
+vous savez cela mieux que quiconque.
+
+153
+0:06:25.26,000 --> 0:06:27,000
+Et voici un autre exemple,
+
+154
+0:06:27.26,000 --> 0:06:29,000
+que je vous propose parce que
+
+155
+0:06:29.26,000 --> 0:06:32,000
+c'est un exemple de la science actuelle qui compte vraiment.
+
+156
+0:06:32.26,000 --> 0:06:35,000
+Ce n'est possible que vous arriviez à déchiffrer ceci, et ce n'était pas le but.
+
+157
+0:06:35.26,000 --> 0:06:37,000
+Mais c'est une toute petite partie
+
+158
+0:06:37.26,000 --> 0:06:39,000
+des réactions chimiques qui se produisent
+
+159
+0:06:39.26,000 --> 0:06:42,000
+en permanence, dans chacune de vos cellules.
+
+160
+0:06:42.26,000 --> 0:06:45,000
+Et c'est comme pour la circulation automobile, ici,
+
+161
+0:06:45.26,000 --> 0:06:47,000
+ce qui est étonnant à propos de la cellule, c'est
+
+162
+0:06:47.26,000 --> 0:06:49,000
+qu'en fait elle maintient une relation de travail
+
+163
+0:06:49.26,000 --> 0:06:52,000
+assez stable avec les autres cellules.
+
+164
+0:06:52.26,000 --> 0:06:54,000
+Mais on ne sait pas pourquoi.
+
+165
+0:06:54.26,000 --> 0:06:56,000
+Si quelqu'un vous dit que nous comprenons ce qu'est la vie,
+
+166
+0:06:56.26,000 --> 0:06:58,000
+fuyez.
+
+167
+0:06:59.26,000 --> 0:07:02,000
+Permettez-moi de ramener ceci au plus simple niveau.
+
+168
+0:07:02.26,000 --> 0:07:04,000
+Nous avons récemment écouté Bill Gates.
+
+169
+0:07:04.26,000 --> 0:07:06,000
+Chacun d'entre nous, dans une certaine mesure, nous avons étudié
+
+170
+0:07:06.26,000 --> 0:07:08,000
+cet objet appelée un Bill Gates.
+
+171
+0:07:08.26,000 --> 0:07:1,000
+Super. On apprend tout ce qu'on peut dessus.
+
+172
+0:07:10.26,000 --> 0:07:13,000
+Et puis arrive une autre sorte d'objet qu'on pourrait étudier,
+
+173
+0:07:13.26,000 --> 0:07:15,000
+et on s'y met aussi à fond.
+
+174
+0:07:15.26,000 --> 0:07:17,000
+C'est un Bono; C'est Bono lui-même.
+
+175
+0:07:17.26,000 --> 0:07:2,000
+Mais ensuite, en ayant appris tout ce que vous pouviez de ces deux objets,
+
+176
+0:07:20.26,000 --> 0:07:22,000
+si vous les rassemblez,
+
+177
+0:07:22.26,000 --> 0:07:24,000
+que pouvez-vous dire de cette combinaison ?
+
+178
+0:07:24.26,000 --> 0:07:26,000
+La réponse est : Pas grand chose.
+
+179
+0:07:26.26,000 --> 0:07:28,000
+C'est ça, la complexité.
+
+180
+0:07:28.26,000 --> 0:07:31,000
+Maintenant, imaginez cela à l'échelle d'une cité, ou d'une société,
+
+181
+0:07:31.26,000 --> 0:07:34,000
+et vous avez manifestement un intéressant problème.
+
+182
+0:07:34.26,000 --> 0:07:37,000
+Bien, maintenant laissez-moi vous donner un exemple
+
+183
+0:07:37.26,000 --> 0:07:39,000
+de simplicité,
+
+184
+0:07:39.26,000 --> 0:07:41,000
+d'un genre assez particulier.
+
+185
+0:07:41.26,000 --> 0:07:43,000
+Et je voudrais aussi mettre en place un mot
+
+186
+0:07:43.26,000 --> 0:07:45,000
+dont je pense qu'il nous sera utile,
+
+187
+0:07:45.26,000 --> 0:07:47,000
+qui est "empilage".
+
+188
+0:07:47.26,000 --> 0:07:5,000
+Et je vais utiliser "empilage" pour une sorte de simplicité
+
+189
+0:07:50.26,000 --> 0:07:52,000
+qui a la caractéristique
+
+190
+0:07:52.26,000 --> 0:07:54,000
+d'être si simple
+
+191
+0:07:54.26,000 --> 0:07:56,000
+et si fiable
+
+192
+0:07:56.26,000 --> 0:07:58,000
+que je peux construire des choses avec.
+
+193
+0:07:58.26,000 --> 0:08:,000
+Ou bien je vais utiliser "simple" pour dire
+
+194
+0:08:00.26,000 --> 0:08:03,000
+"fiable", "prévisible", "reproductible".
+
+195
+0:08:05.26,000 --> 0:08:07,000
+Et je vais prendre Internet comme exemple,
+
+196
+0:08:07.26,000 --> 0:08:09,000
+parce que c'est un très bon exemple
+
+197
+0:08:09.26,000 --> 0:08:12,000
+de simplicité empilée.
+
+198
+0:08:12.26,000 --> 0:08:14,000
+Nous appelons ça un système complexe, et ça l'est,
+
+199
+0:08:14.26,000 --> 0:08:17,000
+mais c'est aussi quelque chose d'autre.
+
+200
+0:08:17.26,000 --> 0:08:2,000
+L'Internet commence par des mathématiques.
+
+201
+0:08:20.26,000 --> 0:08:22,000
+Il commence avec du langage binaire.
+
+202
+0:08:22.26,000 --> 0:08:25,000
+Et si vous regardez la liste de ces choses, en bas,
+
+203
+0:08:25.26,000 --> 0:08:27,000
+[vous verrez que] nous sommes familiers avec les chiffres arabes,
+
+204
+0:08:27.26,000 --> 0:08:29,000
+de 1 à 10, etc.
+
+205
+0:08:29.26,000 --> 0:08:32,000
+En binaire, 1 c'est 0001,
+
+206
+0:08:32.26,000 --> 0:08:35,000
+et 7 c'est 0111.
+
+207
+0:08:35.26,000 --> 0:08:37,000
+La question est : Pourquoi le binaire est-il
+
+208
+0:08:37.26,000 --> 0:08:39,000
+plus simple que les chiffres arabes ?
+
+209
+0:08:39.26,000 --> 0:08:41,000
+Et la réponse est simplement
+
+210
+0:08:41.26,000 --> 0:08:44,000
+que si je lève 3 doigts, on arrive à les compter facilement,
+
+211
+0:08:44.26,000 --> 0:08:46,000
+mais si je fais comme ça,
+
+212
+0:08:46.26,000 --> 0:08:48,000
+c'est assez dur de voir que j'ai dit 7.
+
+213
+0:08:48.26,000 --> 0:08:51,000
+Le mérite est que c'est le moyen le plus simple de
+
+214
+0:08:51.26,000 --> 0:08:53,000
+représenter des chiffres.
+
+215
+0:08:53.26,000 --> 0:08:55,000
+Tous les autres sont plus compliqués.
+
+216
+0:08:55.26,000 --> 0:08:57,000
+On peut détecter les erreurs avec celui-ci.
+
+217
+0:08:57.26,000 --> 0:08:59,000
+Il est sans ambiguïté dans sa lecture.
+
+218
+0:08:59.26,000 --> 0:09:01,000
+Il y a plein d'avantages avec le binaire.
+
+219
+0:09:01.26,000 --> 0:09:03,000
+Il est donc très très simple
+
+220
+0:09:03.26,000 --> 0:09:05,000
+une fois que vous savez le lire.
+
+221
+0:09:05.26,000 --> 0:09:07,000
+Maintenant, si on veut se représenter
+
+222
+0:09:07.26,000 --> 0:09:09,000
+ce zéro et ce un [qui composent le] binaire,
+
+223
+0:09:09.26,000 --> 0:09:11,000
+il nous faut un dispositif.
+
+224
+0:09:11.26,000 --> 0:09:13,000
+Et penser aux choses de notre vie courante
+
+225
+0:09:13.26,000 --> 0:09:15,000
+qui sont binaires.
+
+226
+0:09:15.26,000 --> 0:09:17,000
+Parmi elles, les interrupteurs électriques.
+
+227
+0:09:17.26,000 --> 0:09:19,000
+Ils peuvent être sur "marche" ou "arrêt". C'est binaire.
+
+228
+0:09:19.26,000 --> 0:09:22,000
+Mais on sait tous que les interrupteurs muraux, ça tombe en panne.
+
+229
+0:09:23.26,000 --> 0:09:25,000
+Heureusement, nos amis les physiciens de la matière condensée
+
+230
+0:09:25.26,000 --> 0:09:28,000
+ont réussi à mettre au point, il y a près de 50 ans,
+
+231
+0:09:28.26,000 --> 0:09:31,000
+ce très bel appareil, que vous voyez sous cette cloche de verre,
+
+232
+0:09:31.26,000 --> 0:09:33,000
+qui est un transistor.
+
+233
+0:09:33.26,000 --> 0:09:35,000
+Un transistor n'est rien de plus qu'un interrupteur mural.
+
+234
+0:09:35.26,000 --> 0:09:37,000
+Il met les chose sur "marche" ou "arrêt",
+
+235
+0:09:37.26,000 --> 0:09:39,000
+mais il le fait sans pièces mobiles
+
+236
+0:09:39.26,000 --> 0:09:42,000
+et il ne tombe pas en panne, en fait, sur une très longue période de temps.
+
+237
+0:09:42.26,000 --> 0:09:45,000
+Ainsi, la deuxième couche de simplicité
+
+238
+0:09:45.26,000 --> 0:09:48,000
+a été le transistor et Internet.
+
+239
+0:09:48.26,000 --> 0:09:51,000
+Et, puisque le transistor est tellement simple,
+
+240
+0:09:51.26,000 --> 0:09:53,000
+on peut en assembler beaucoup.
+
+241
+0:09:53.26,000 --> 0:09:55,000
+Si vous en mettez plein ensemble, vous obtenez
+
+242
+0:09:55.26,000 --> 0:09:57,000
+quelque chose qu'on appelle les "circuits intégrés".
+
+243
+0:09:57.26,000 --> 0:09:59,000
+Et un circuit intégré courant
+
+244
+0:09:59.26,000 --> 0:10:01,000
+peut avoir dans chacune de ces puces
+
+245
+0:10:01.26,000 --> 0:10:03,000
+quelque chose comme un milliard de transistors,
+
+246
+0:10:03.26,000 --> 0:10:06,000
+qui, tous, doivent en permanence fonctionner parfaitement.
+
+247
+0:10:06.26,000 --> 0:10:09,000
+Voilà donc la couche suivante de simplicité,
+
+248
+0:10:09.26,000 --> 0:10:11,000
+et, en fait, les circuits intégrés
+
+249
+0:10:11.26,000 --> 0:10:13,000
+sont très simples, en ce sens
+
+250
+0:10:13.26,000 --> 0:10:15,000
+qu'en général, ils fonctionnent très bien.
+
+251
+0:10:15.26,000 --> 0:10:18,000
+Avec des circuits intégrés, vous pouvez fabriquer des téléphones cellulaires.
+
+252
+0:10:18.26,000 --> 0:10:21,000
+Vous êtes tous habitués à ce que vos téléphones cellulaires fonctionnent
+
+253
+0:10:21.26,000 --> 0:10:23,000
+la grande majorité du temps.
+
+254
+0:10:23.26,000 --> 0:10:25,000
+À Boston, Boston est un peu comme la Namibie
+
+255
+0:10:25.26,000 --> 0:10:27,000
+pour sa couverture cellulaire,
+
+256
+0:10:27.26,000 --> 0:10:29,000
+de sorte que nous n'avons pas l'habitude que ça marche tout le temps,
+
+257
+0:10:29.26,000 --> 0:10:32,000
+mais [seulement] de temps en temps.
+
+258
+0:10:32.26,000 --> 0:10:34,000
+Mais, si vous avez un téléphone cellulaire,
+
+259
+0:10:34.26,000 --> 0:10:36,000
+maintenant vous pouvez entrer en contact avec cette gentille dame,
+
+260
+0:10:36.26,000 --> 0:10:38,000
+qui vit quelque part, comme en Namibie,
+
+261
+0:10:38.26,000 --> 0:10:4,000
+et qui est extrêmement contente,
+
+262
+0:10:40.26,000 --> 0:10:42,000
+parce que, bien qu'elle n'ait pas
+
+263
+0:10:42.26,000 --> 0:10:44,000
+un diplôme de maîtrise
+
+264
+0:10:44.26,000 --> 0:10:46,000
+en ingénierie électrique du M.I.T (=Massachussetts Institute of Technology),
+
+265
+0:10:46.26,000 --> 0:10:48,000
+elle est néanmoins capable de bricoler son téléphone cellulaire
+
+266
+0:10:48.26,000 --> 0:10:51,000
+pour avoir du réseau, d'une manière assez amusante.
+
+267
+0:10:51.26,000 --> 0:10:53,000
+Et puis de là arrive l'Internet.
+
+268
+0:10:53.26,000 --> 0:10:56,000
+Et voici une carte des flux de données à travers les continents.
+
+269
+0:10:56.26,000 --> 0:10:59,000
+Les deux taches éclairées de l'intérieur,
+
+270
+0:10:59.26,000 --> 0:11:01,000
+ce sont les États-Unis et l'Europe
+
+271
+0:11:01.26,000 --> 0:11:04,000
+Et puis on revient de nouveau à la simplicité.
+
+272
+0:11:04.26,000 --> 0:11:07,000
+Et nous avons ici ce que je pense être l'une des grandes idées,
+
+273
+0:11:07.26,000 --> 0:11:09,000
+et c'est Google,
+
+274
+0:11:09.26,000 --> 0:11:11,000
+qui, dans ce simple portail,
+
+275
+0:11:11.26,000 --> 0:11:13,000
+revendique le fait
+
+276
+0:11:13.26,000 --> 0:11:15,000
+de rendre accessible
+
+277
+0:11:15.26,000 --> 0:11:17,000
+la totalité de l'information disponible dans le monde.
+
+278
+0:11:17.26,000 --> 0:11:19,000
+Ce qui est important,
+
+279
+0:11:19.26,000 --> 0:11:22,000
+c'est que cette idée extraordinairement simple
+
+280
+0:11:22.26,000 --> 0:11:25,000
+repose sur des couches de simplicité,
+
+281
+0:11:25.26,000 --> 0:11:27,000
+chacune participant à former une complexité
+
+282
+0:11:27.26,000 --> 0:11:29,000
+qui elle-même est simple,
+
+283
+0:11:29.26,000 --> 0:11:32,000
+dans le sens qu'elle est totalement fiable.
+
+284
+0:11:33.26,000 --> 0:11:35,000
+Hé bien, je vais en terminer
+
+285
+0:11:35.26,000 --> 0:11:38,000
+avec quatre déclarations générales,
+
+286
+0:11:39.26,000 --> 0:11:42,000
+un exemple et deux aphorismes.
+
+287
+0:11:42.26,000 --> 0:11:44,000
+Les caractéristiques que je crois
+
+288
+0:11:44.26,000 --> 0:11:47,000
+être utiles pour réfléchir à des choses simples :
+
+289
+0:11:47.26,000 --> 0:11:5,000
+D'abord, elles sont prévisibles.
+
+290
+0:11:51.26,000 --> 0:11:53,000
+Leur comportement est prévisible.
+
+291
+0:11:53.26,000 --> 0:11:55,000
+Une des caractéristiques agréables
+
+292
+0:11:55.26,000 --> 0:11:57,000
+des choses simples,
+
+293
+0:11:57.26,000 --> 0:11:59,000
+c'est que, généralement, on sait ce qu'elles vont faire.
+
+294
+0:11:59.26,000 --> 0:12:01,000
+Ainsi, la simplicité et la prévisibilité
+
+295
+0:12:01.26,000 --> 0:12:04,000
+sont caractéristiques des choses simples.
+
+296
+0:12:04.26,000 --> 0:12:07,000
+La seconde est, et c'est une déclaration triviale,
+
+297
+0:12:07.26,000 --> 0:12:09,000
+elles sont bon marché.
+
+298
+0:12:09.26,000 --> 0:12:11,000
+Si vous avez des choses suffisamment bon marché
+
+299
+0:12:11.26,000 --> 0:12:13,000
+les gens leur trouveront différents usages,
+
+300
+0:12:13.26,000 --> 0:12:15,000
+même si elles semblent très primitives.
+
+301
+0:12:15.26,000 --> 0:12:17,000
+Prenons, par exemple, les pierres.
+
+302
+0:12:17.26,000 --> 0:12:2,000
+Avec des pierres, vous pouvez construire des cathédrales,
+
+303
+0:12:20.26,000 --> 0:12:22,000
+il vous suffit de savoir ce que c'est.
+
+304
+0:12:22.26,000 --> 0:12:24,000
+Vous les sculptez en blocs, et puis vous
+
+305
+0:12:24.26,000 --> 0:12:26,000
+les empilez les unes sur les autres,
+
+306
+0:12:26.26,000 --> 0:12:28,000
+et elles supporteront le poids.
+
+307
+0:12:28.26,000 --> 0:12:31,000
+Donc il doit y avoir une fonction, et la fonction doit être prévisible,
+
+308
+0:12:31.26,000 --> 0:12:33,000
+et le coût peu élevé.
+
+309
+0:12:33.26,000 --> 0:12:35,000
+Ce que ça signifie, c'est qu'il faut
+
+310
+0:12:35.26,000 --> 0:12:37,000
+avoir une excellente performance, ou une
+
+311
+0:12:37.26,000 --> 0:12:4,000
+forte valeur, pour le prix.
+
+312
+0:12:41.26,000 --> 0:12:43,000
+Alors je vous proposerais,
+
+313
+0:12:43.26,000 --> 0:12:45,000
+comme pour ce dernier composant,
+
+314
+0:12:45.26,000 --> 0:12:48,000
+qu'elles servent, ou aient le potentiel de servir,
+
+315
+0:12:48.26,000 --> 0:12:5,000
+de blocs de construction.
+
+316
+0:12:50.26,000 --> 0:12:52,000
+Qu'on puisse les empiler.
+
+317
+0:12:52.26,000 --> 0:12:55,000
+Et par empiler, j'entends dans ce sens, ou dans cet autre sens,
+
+318
+0:12:55.26,000 --> 0:12:58,000
+ou encore empiler dans n'importe quel espace donné à n dimensions.
+
+319
+0:12:58.26,000 --> 0:13:,000
+Mais si vous avez quelque chose qui possède une fonction,
+
+320
+0:13:00.26,000 --> 0:13:02,000
+qui est vraiment bon marché,
+
+321
+0:13:02.26,000 --> 0:13:04,000
+les gens trouveront de nouvelles façons de les arranger
+
+322
+0:13:04.26,000 --> 0:13:06,000
+pour créer de nouvelles choses.
+
+323
+0:13:06.26,000 --> 0:13:09,000
+Ce qui est à la fois fiable, bon marché et fonctionnel
+
+324
+0:13:09.26,000 --> 0:13:11,000
+déchaine la créativité des gens
+
+325
+0:13:11.26,000 --> 0:13:14,000
+qui construisent alors des trucs que vous n'auriez pas imaginé.
+
+326
+0:13:14.26,000 --> 0:13:17,000
+Il n'y a aucun moyen de prédire l'Internet
+
+327
+0:13:17.26,000 --> 0:13:19,000
+en se basant sur le premier transistor.
+
+328
+0:13:19.26,000 --> 0:13:21,000
+Ce n'est simplement pas possible.
+
+329
+0:13:21.26,000 --> 0:13:24,000
+Voilà pour les composants.
+
+330
+0:13:24.26,000 --> 0:13:26,000
+Maintenant, l'exemple
+
+331
+0:13:26.26,000 --> 0:13:28,000
+que je vais vous donner est quelque chose
+
+332
+0:13:28.26,000 --> 0:13:31,000
+qui est issu du travail que nous effectuons.
+
+333
+0:13:31.26,000 --> 0:13:34,000
+Nous nous intéressons beaucoup à la manière
+
+334
+0:13:34.26,000 --> 0:13:37,000
+de délivrer des soins de santé dans les pays en voie de développement.
+
+335
+0:13:37.26,000 --> 0:13:4,000
+Et une des choses que nous souhaitons apporter dans ce domaine,
+
+336
+0:13:40.26,000 --> 0:13:43,000
+est de trouver une façon de poser un diagnostic médical
+
+337
+0:13:43.26,000 --> 0:13:45,000
+pour un coût aussi proche de zéro
+
+338
+0:13:45.26,000 --> 0:13:47,000
+que possible.
+
+339
+0:13:47.26,000 --> 0:13:49,000
+Alors comment faire ?
+
+340
+0:13:49.26,000 --> 0:13:51,000
+Il y a un monde dans lequel il n'y a pas d'électricité,
+
+341
+0:13:51.26,000 --> 0:13:54,000
+pas d'argent, pas de compétences médicales.
+
+342
+0:13:54.26,000 --> 0:13:57,000
+Et je ne veux pas vous faire perdre votre temps avec des détails,
+
+343
+0:13:57.26,000 --> 0:13:59,000
+mais dans le coin, en bas à droite,
+
+344
+0:13:59.26,000 --> 0:14:02,000
+vous pouvez voir un exemple du genre de chose que nous avons.
+
+345
+0:14:02.26,000 --> 0:14:04,000
+C'est un petit morceau de papier.
+
+346
+0:14:04.26,000 --> 0:14:06,000
+Il y a des choses imprimées dessus
+
+347
+0:14:06.26,000 --> 0:14:08,000
+en utilisant la même technologie
+
+348
+0:14:08.26,000 --> 0:14:1,000
+que pour fabriquer des bandes dessinées,
+
+349
+0:14:10.26,000 --> 0:14:13,000
+d'où est venue l'inspiration pour ce projet.
+
+350
+0:14:13.26,000 --> 0:14:16,000
+Et on dépose, dans ce cas précis, une goutte d'urine sur le bas.
+
+351
+0:14:16.26,000 --> 0:14:19,000
+Elle se répand le long de ces petites branches.
+
+352
+0:14:19.26,000 --> 0:14:21,000
+Vous voyez, pas besoin d'électricité.
+
+353
+0:14:21.26,000 --> 0:14:23,000
+Les couleurs changent. Sur cet exemple,
+
+354
+0:14:23.26,000 --> 0:14:26,000
+vous pouvez lire les fonctions rénales.
+
+355
+0:14:26.26,000 --> 0:14:29,000
+Et, comme l'auxiliaire de santé
+
+356
+0:14:29.26,000 --> 0:14:31,000
+dans cette partie du monde
+
+357
+0:14:31.26,000 --> 0:14:34,000
+est un garçon de 18 ans avec un AK-47,
+
+358
+0:14:34.26,000 --> 0:14:36,000
+qui se retrouve sans travail et a envie
+
+359
+0:14:36.26,000 --> 0:14:38,000
+de se promener et de faire ce genre de chose,
+
+360
+0:14:38.26,000 --> 0:14:4,000
+alors il peut prendre une photo avec son téléphone portable,
+
+361
+0:14:40.26,000 --> 0:14:42,000
+envoyer la photo là où il y a un docteur,
+
+362
+0:14:42.26,000 --> 0:14:44,000
+et le docteur peut la regarder.
+
+363
+0:14:44.26,000 --> 0:14:47,000
+Donc ce que vous avez fait là, c'est de prendre une technologie
+
+364
+0:14:47.26,000 --> 0:14:49,000
+qui est disponible partout,
+
+365
+0:14:49.26,000 --> 0:14:52,000
+réaliser un dispositif, qui est extrêmement bon marché,
+
+366
+0:14:52.26,000 --> 0:14:54,000
+et le réaliser de telle façon,
+
+367
+0:14:54.26,000 --> 0:14:56,000
+qu'il soit très, très fiable.
+
+368
+0:14:56.26,000 --> 0:14:58,000
+Si on réussit à finaliser ça,
+
+369
+0:14:58.26,000 --> 0:15:,000
+si on arrive à ajouter plus de fonctions,
+
+370
+0:15:00.26,000 --> 0:15:02,000
+ça deviendra empilable.
+
+371
+0:15:02.26,000 --> 0:15:05,000
+C'est à dire que, si on arrive à faire fonctionner
+
+372
+0:15:05.26,000 --> 0:15:07,000
+la technologie de base pour une ou deux choses,
+
+373
+0:15:07.26,000 --> 0:15:09,000
+elle sera applicable à une très très large
+
+374
+0:15:09.26,000 --> 0:15:11,000
+variété d'états pathologiques humains,
+
+375
+0:15:11.26,000 --> 0:15:13,000
+et, par conséquent, extensible dans les deux
+
+376
+0:15:13.26,000 --> 0:15:16,000
+directions, verticale et horizontale.
+
+377
+0:15:16.26,000 --> 0:15:18,000
+Une partie de mon intérêt pour cela, je dois dire,
+
+378
+0:15:18.26,000 --> 0:15:21,000
+c'est que je voudrais, comment puis-je dire ça poliment,
+
+379
+0:15:21.26,000 --> 0:15:23,000
+changer la façon dont, ou peut-être étriper,
+
+380
+0:15:23.26,000 --> 0:15:26,000
+la structure financière du système de santé américain,
+
+381
+0:15:26.26,000 --> 0:15:29,000
+qui, je pense, est fondamentalement vicié.
+
+382
+0:15:29.26,000 --> 0:15:31,000
+Alors, permettez-moi de conclure --
+
+383
+0:15:31.26,000 --> 0:15:34,000
+(Applaudissements)
+
+384
+0:15:34.26,000 --> 0:15:36,000
+Permettez-moi de terminer avec mes deux aphorismes.
+
+385
+0:15:36.26,000 --> 0:15:38,000
+L'un d'eux est de M. Einstein.
+
+386
+0:15:38.26,000 --> 0:15:4,000
+Et il dit: «Tout devrait être rendu
+
+387
+0:15:40.26,000 --> 0:15:43,000
+aussi simple que possible, mais pas plus simple."
+
+388
+0:15:43.26,000 --> 0:15:46,000
+Et je pense que c'est une très bonne façon de penser le problème.
+
+389
+0:15:46.26,000 --> 0:15:48,000
+Si vous retranchez trop
+
+390
+0:15:48.26,000 --> 0:15:5,000
+de quelque chose qui est simple, vous perdez la fonction.
+
+391
+0:15:50.26,000 --> 0:15:52,000
+On doit avoir un coût faible,
+
+392
+0:15:52.26,000 --> 0:15:54,000
+mais on doit aussi avoir une fonction.
+
+393
+0:15:54.26,000 --> 0:15:56,000
+Alors, il ne faut pas le faire trop simple.
+
+394
+0:15:56.26,000 --> 0:15:58,000
+Le second aphorisme est un problème de conception,
+
+395
+0:15:58.26,000 --> 0:16:01,000
+il n'est pas directement pertinent, mais c'est une jolie pensée.
+
+396
+0:16:01.26,000 --> 0:16:04,000
+Elle est de St-Exupéry.
+
+397
+0:16:04.26,000 --> 0:16:07,000
+Et il disait
+
+398
+0:16:07.26,000 --> 0:16:1,000
+non pas lorsque vous n'avez plus rien à ajouter,
+
+399
+0:16:10.26,000 --> 0:16:12,000
+mais quand vous n'avez plus rien à enlever."
+
+400
+0:16:12.26,000 --> 0:16:15,000
+Et ça va certainement dans la bonne direction.
+
+401
+0:16:16.26,000 --> 0:16:19,000
+Alors, ce que je pense qu'on peut commencer à faire
+
+402
+0:16:19.26,000 --> 0:16:22,000
+avec cette espèce
+
+403
+0:16:22.26,000 --> 0:16:24,000
+de découpage du mot simplicité,
+
+404
+0:16:24.26,000 --> 0:16:26,000
+et ça ne recouvre pas Rancuzzi,
+
+405
+0:16:26.26,000 --> 0:16:28,000
+ça ne répond pas à la question de savoir
+
+406
+0:16:28.26,000 --> 0:16:31,000
+si Mondrian est meilleur ou pire,
+
+407
+0:16:31.26,000 --> 0:16:33,000
+ou bien plus ou moins simple que Van Gogh,
+
+408
+0:16:33.26,000 --> 0:16:35,000
+et ça ne règle certainement pas la question
+
+409
+0:16:35.26,000 --> 0:16:38,000
+si Mozart est plus simple que Bach
+
+410
+0:16:38.26,000 --> 0:16:4,000
+Mais ça règle un point
+
+411
+0:16:40.26,000 --> 0:16:42,000
+qui est celui qui, dans un sens,
+
+412
+0:16:42.26,000 --> 0:16:45,000
+différencie le monde réel des gens qui font les choses,
+
+413
+0:16:45.26,000 --> 0:16:48,000
+du monde des gens qui pensent aux choses,
+
+414
+0:16:48.26,000 --> 0:16:51,000
+et, il y a un mérite intellectuel à se le demander,
+
+415
+0:16:51.26,000 --> 0:16:53,000
+qui est :"Comment faire les choses
+
+416
+0:16:53.26,000 --> 0:16:55,000
+aussi simple que nous le pouvons,
+
+417
+0:16:55.26,000 --> 0:16:58,000
+aussi bon marché, aussi fonctionnelles qu'on peut,
+
+418
+0:16:58.26,000 --> 0:17:01,000
+et aussi librement interconnectables que possible ?
+
+419
+0:17:01.26,000 --> 0:17:04,000
+Si nous réalisons ce genre de simplicité dans notre technologie,
+
+420
+0:17:04.26,000 --> 0:17:06,000
+et puis qu'on vous le donne, à vous tous,
+
+421
+0:17:06.26,000 --> 0:17:09,000
+alors, vous allez pouvoir foncer, et faire des choses fabuleuses avec
+
+422
+0:17:09.26,000 --> 0:17:11,000
+Merci beaucoup
+
+423
+0:17:11.26,000 --> 0:17:2,000
+(Applaudissements)
+
+424
+0:17:20.26,000 --> 0:17:22,000
+Chris Anderson : Une question rapide
+
+425
+0:17:22.26,000 --> 0:17:25,000
+Pouvez-vous imaginer
+
+426
+0:17:25.26,000 --> 0:17:27,000
+qu'une science de la simpolicité
+
+427
+0:17:27.26,000 --> 0:17:29,000
+puisse arriver au point où
+
+428
+0:17:29.26,000 --> 0:17:31,000
+vous pourriez regarder divers systèmes,
+
+429
+0:17:31.26,000 --> 0:17:34,000
+disons un système financier, ou un système légal, ou encore un système de santé, et dire
+
+430
+0:17:34.26,000 --> 0:17:36,000
+qu'il est arrivé à un stade dangereux,
+
+431
+0:17:36.26,000 --> 0:17:38,000
+où il se met à dysfonctionner, pour telle et telle raison,
+
+432
+0:17:38.26,000 --> 0:17:4,000
+et dire comment on pourrait le simplifier ?
+
+433
+0:17:40.26,000 --> 0:17:42,000
+George Whitesides : Oui, je crois parce que si on examine
+
+434
+0:17:42.26,000 --> 0:17:44,000
+les composants dont le système est fait,
+
+435
+0:17:44.26,000 --> 0:17:47,000
+qu'on examine leur fragilité, ou leur stabilité,
+
+436
+0:17:47.26,000 --> 0:17:5,000
+on peut probablement établir une estimation des risques fondée sur ces bases.
+
+437
+0:17:50.26,000 --> 0:17:52,000
+C.A. : Avez-vous déjà commencé à le faire ?
+
+438
+0:17:52.26,000 --> 0:17:54,000
+Je veux dire, concernant le système de santé, vous aviez une solution
+
+439
+0:17:54.26,000 --> 0:17:56,000
+plutôt radicale, pour l'aspect des coûts.
+
+440
+0:17:56.26,000 --> 0:17:58,000
+Mais qu'en est-il du système lui-même ?
+
+441
+0:17:58.26,000 --> 0:18:,000
+G.W. : Hé bien , non.
+
+442
+0:18:00.26,000 --> 0:18:02,000
+Pour le dire simplement, non.
+
+443
+0:18:02.26,000 --> 0:18:05,000
+C.A. : C'était une simple et puissante réponse. G.W. : Oui.
+
+444
+0:18:05.26,000 --> 0:18:07,000
+C.A.: Et, pour revenir
+
+445
+0:18:07.26,000 --> 0:18:09,000
+à cette technologie de diagnostic que vous possédez,
+
+446
+0:18:09.26,000 --> 0:18:11,000
+où en est-on, et quand la voyez-vous
+
+447
+0:18:11.26,000 --> 0:18:13,000
+possible à être déployée à grande échelle ?
+
+448
+0:18:13.26,000 --> 0:18:16,000
+G.W. : Ça arrive bientôt, je veux dire, le système marche,
+
+449
+0:18:16.26,000 --> 0:18:18,000
+et on a encore à trouver comment fabriquer, et ce genre de choses,
+
+450
+0:18:18.26,000 --> 0:18:2,000
+mais la technologie de base fonctionne.
+
+451
+0:18:20.26,000 --> 0:18:22,000
+C.A. : Vous avez une entreprise qui est prête pour--
+
+452
+0:18:22.26,000 --> 0:18:25,000
+G. W. : Une fondation, une fondation. Sans but lucratif.
+
+453
+0:18:25.26,000 --> 0:18:28,000
+C. A. : Parfait. Hé bien, merci beaucoup pour votre exposé. Merci.
+

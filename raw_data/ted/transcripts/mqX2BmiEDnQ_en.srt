@@ -1,0 +1,924 @@
+1
+0:00:12.896,000 --> 0:00:15,000
+We know more about other planets than our own,
+
+2
+0:00:17.446,000 --> 0:00:2,000
+and today, I want to show you a new type of robot
+
+3
+0:00:20.693,000 --> 0:00:24,000
+designed to help us better understand our own planet.
+
+4
+0:00:25.408,000 --> 0:00:26,000
+It belongs to a category
+
+5
+0:00:27.044,000 --> 0:00:31,000
+known in the oceanographic community as an unmanned surface vehicle, or USV.
+
+6
+0:00:32.665,000 --> 0:00:33,000
+And it uses no fuel.
+
+7
+0:00:35.047,000 --> 0:00:38,000
+Instead, it relies on wind power for propulsion.
+
+8
+0:00:39.005,000 --> 0:00:42,000
+And yet, it can sail around the globe for months at a time.
+
+9
+0:00:43.474,000 --> 0:00:45,000
+So I want to share with you why we built it,
+
+10
+0:00:46.376,000 --> 0:00:47,000
+and what it means for you.
+
+11
+0:00:49.814,000 --> 0:00:53,000
+A few years ago, I was on a sailboat making its way across the Pacific,
+
+12
+0:00:54.422,000 --> 0:00:56,000
+from San Francisco to Hawaii.
+
+13
+0:00:57.296,000 --> 0:01:,000
+I had just spent the past 10 years working nonstop,
+
+14
+0:01:00.674,000 --> 0:01:03,000
+developing video games for hundreds of millions of users,
+
+15
+0:01:03.814,000 --> 0:01:06,000
+and I wanted to take a step back and look at the big picture
+
+16
+0:01:07.359,000 --> 0:01:08,000
+and get some much-needed thinking time.
+
+17
+0:01:09.918,000 --> 0:01:1,000
+I was the navigator on board,
+
+18
+0:01:12.034,000 --> 0:01:15,000
+and one evening, after a long session analyzing weather data
+
+19
+0:01:15.722,000 --> 0:01:16,000
+and plotting our course,
+
+20
+0:01:17.375,000 --> 0:01:2,000
+I came up on deck and saw this beautiful sunset.
+
+21
+0:01:20.814,000 --> 0:01:21,000
+And a thought occurred to me:
+
+22
+0:01:22.747,000 --> 0:01:25,000
+How much do we really know about our oceans?
+
+23
+0:01:27.252,000 --> 0:01:3,000
+The Pacific was stretching all around me as far as the eye could see,
+
+24
+0:01:31.155,000 --> 0:01:33,000
+and the waves were rocking our boat forcefully,
+
+25
+0:01:33.494,000 --> 0:01:36,000
+a sort of constant reminder of its untold power.
+
+26
+0:01:37.291,000 --> 0:01:4,000
+How much do we really know about our oceans?
+
+27
+0:01:41.235,000 --> 0:01:42,000
+I decided to find out.
+
+28
+0:01:44.362,000 --> 0:01:47,000
+What I quickly learned is that we don't know very much.
+
+29
+0:01:47.495,000 --> 0:01:5,000
+The first reason is just how vast oceans are,
+
+30
+0:01:50.645,000 --> 0:01:52,000
+covering 70 percent of the planet,
+
+31
+0:01:53.01,000 --> 0:01:56,000
+and yet we know they drive complex planetary systems
+
+32
+0:01:56.579,000 --> 0:01:57,000
+like global weather,
+
+33
+0:01:57.783,000 --> 0:01:59,000
+which affect all of us on a daily basis,
+
+34
+0:02:00.252,000 --> 0:02:01,000
+sometimes dramatically.
+
+35
+0:02:02.562,000 --> 0:02:05,000
+And yet, those activities are mostly invisible to us.
+
+36
+0:02:06.944,000 --> 0:02:09,000
+Ocean data is scarce by any standard.
+
+37
+0:02:11.268,000 --> 0:02:16,000
+Back on land, I had grown used to accessing lots of sensors --
+
+38
+0:02:16.396,000 --> 0:02:17,000
+billions of them, actually.
+
+39
+0:02:18.576,000 --> 0:02:24,000
+But at sea, in situ data is scarce and expensive.
+
+40
+0:02:25.535,000 --> 0:02:28,000
+Why? Because it relies on a small number of ships and buoys.
+
+41
+0:02:29.919,000 --> 0:02:31,000
+How small a number was actually a great surprise.
+
+42
+0:02:33.329,000 --> 0:02:36,000
+Our National Oceanic and Atmospheric Administration,
+
+43
+0:02:36.474,000 --> 0:02:37,000
+better known as NOAA,
+
+44
+0:02:38.121,000 --> 0:02:4,000
+only has 16 ships,
+
+45
+0:02:40.969,000 --> 0:02:44,000
+and there are less than 200 buoys offshore globally.
+
+46
+0:02:45.77,000 --> 0:02:46,000
+It is easy to understand why:
+
+47
+0:02:47.465,000 --> 0:02:49,000
+the oceans are an unforgiving place,
+
+48
+0:02:49.629,000 --> 0:02:52,000
+and to collect in situ data, you need a big ship,
+
+49
+0:02:52.987,000 --> 0:02:54,000
+capable of carrying a vast amount of fuel
+
+50
+0:02:55.345,000 --> 0:02:56,000
+and large crews,
+
+51
+0:02:57.187,000 --> 0:03:,000
+costing hundreds of millions of dollars each,
+
+52
+0:03:00.39,000 --> 0:03:05,000
+or, big buoys tethered to the ocean floor with a four-mile-long cable
+
+53
+0:03:06.513,000 --> 0:03:08,000
+and weighted down by a set of train wheels,
+
+54
+0:03:09.532,000 --> 0:03:13,000
+which is both dangerous to deploy and expensive to maintain.
+
+55
+0:03:14.628,000 --> 0:03:15,000
+What about satellites, you might ask?
+
+56
+0:03:17.028,000 --> 0:03:18,000
+Well, satellites are fantastic,
+
+57
+0:03:18.955,000 --> 0:03:2,000
+and they have taught us so much about the big picture
+
+58
+0:03:21.482,000 --> 0:03:23,000
+over the past few decades.
+
+59
+0:03:23.527,000 --> 0:03:25,000
+However, the problem with satellites
+
+60
+0:03:25.927,000 --> 0:03:29,000
+is they can only see through one micron of the surface of the ocean.
+
+61
+0:03:31.124,000 --> 0:03:34,000
+They have relatively poor spatial and temporal resolution,
+
+62
+0:03:35.45,000 --> 0:03:39,000
+and their signal needs to be corrected for cloud cover and land effects
+
+63
+0:03:39.748,000 --> 0:03:4,000
+and other factors.
+
+64
+0:03:42.094,000 --> 0:03:45,000
+So what is going on in the oceans?
+
+65
+0:03:45.929,000 --> 0:03:46,000
+And what are we trying to measure?
+
+66
+0:03:48.283,000 --> 0:03:5,000
+And how could a robot be of any use?
+
+67
+0:03:51.361,000 --> 0:03:54,000
+Let's zoom in on a small cube in the ocean.
+
+68
+0:03:55.283,000 --> 0:03:58,000
+One of the key things we want to understand is the surface,
+
+69
+0:03:58.615,000 --> 0:04:,000
+because the surface, if you think about it,
+
+70
+0:04:00.678,000 --> 0:04:03,000
+is the nexus of all air-sea interaction.
+
+71
+0:04:04.001,000 --> 0:04:08,000
+It is the interface through which all energy and gases must flow.
+
+72
+0:04:09.552,000 --> 0:04:11,000
+Our sun radiates energy,
+
+73
+0:04:11.676,000 --> 0:04:13,000
+which is absorbed by oceans as heat
+
+74
+0:04:14.596,000 --> 0:04:16,000
+and then partially released into the atmosphere.
+
+75
+0:04:17.476,000 --> 0:04:21,000
+Gases in our atmosphere like CO2 get dissolved into our oceans.
+
+76
+0:04:22.099,000 --> 0:04:25,000
+Actually, about 30 percent of all global CO2 gets absorbed.
+
+77
+0:04:26.603,000 --> 0:04:29,000
+Plankton and microorganisms release oxygen into the atmosphere,
+
+78
+0:04:30.235,000 --> 0:04:34,000
+so much so that every other breath you take comes from the ocean.
+
+79
+0:04:34.43,000 --> 0:04:37,000
+Some of that heat generates evaporation, which creates clouds
+
+80
+0:04:37.486,000 --> 0:04:39,000
+and then eventually leads to precipitation.
+
+81
+0:04:39.804,000 --> 0:04:41,000
+And pressure gradients create surface wind,
+
+82
+0:04:42.081,000 --> 0:04:44,000
+which moves the moisture through the atmosphere.
+
+83
+0:04:45.731,000 --> 0:04:48,000
+Some of the heat radiates down into the deep ocean
+
+84
+0:04:49.588,000 --> 0:04:51,000
+and gets stored in different layers,
+
+85
+0:04:51.74,000 --> 0:04:54,000
+the ocean acting as some kind of planetary-scale boiler
+
+86
+0:04:55.069,000 --> 0:04:56,000
+to store all that energy,
+
+87
+0:04:56.714,000 --> 0:04:59,000
+which later might be released in short-term events like hurricanes
+
+88
+0:05:00.475,000 --> 0:05:02,000
+or long-term phenomena like El Niño.
+
+89
+0:05:03.329,000 --> 0:05:07,000
+These layers can get mixed up by vertical upwelling currents
+
+90
+0:05:07.668,000 --> 0:05:1,000
+or horizontal currents, which are key in transporting heat
+
+91
+0:05:11.138,000 --> 0:05:12,000
+from the tropics to the poles.
+
+92
+0:05:13.623,000 --> 0:05:15,000
+And of course, there is marine life,
+
+93
+0:05:16.446,000 --> 0:05:21,000
+occupying the largest ecosystem in volume on the planet,
+
+94
+0:05:21.486,000 --> 0:05:24,000
+from microorganisms to fish to marine mammals,
+
+95
+0:05:25.212,000 --> 0:05:28,000
+like seals, dolphins and whales.
+
+96
+0:05:28.244,000 --> 0:05:31,000
+But all of these are mostly invisible to us.
+
+97
+0:05:33.821,000 --> 0:05:38,000
+The challenge in studying those ocean variables at scale
+
+98
+0:05:39.221,000 --> 0:05:41,000
+is one of energy,
+
+99
+0:05:41.419,000 --> 0:05:45,000
+the energy that it takes to deploy sensors into the deep ocean.
+
+100
+0:05:46.597,000 --> 0:05:48,000
+And of course, many solutions have been tried --
+
+101
+0:05:48.914,000 --> 0:05:49,000
+from wave-actuated devices
+
+102
+0:05:50.549,000 --> 0:05:51,000
+to surface drifters
+
+103
+0:05:52.114,000 --> 0:05:54,000
+to sun-powered electrical drives --
+
+104
+0:05:54.86,000 --> 0:05:56,000
+each with their own compromises.
+
+105
+0:05:57.745,000 --> 0:06:,000
+Our team breakthrough came from an unlikely source --
+
+106
+0:06:00.939,000 --> 0:06:04,000
+the pursuit of the world speed record in a wind-powered land yacht.
+
+107
+0:06:05.742,000 --> 0:06:07,000
+It took 10 years of research and development
+
+108
+0:06:08.067,000 --> 0:06:1,000
+to come up with a novel wing concept
+
+109
+0:06:10.62,000 --> 0:06:13,000
+that only uses three watts of power to control
+
+110
+0:06:14.452,000 --> 0:06:17,000
+and yet can propel a vehicle all around the globe
+
+111
+0:06:17.564,000 --> 0:06:19,000
+with seemingly unlimited autonomy.
+
+112
+0:06:20.262,000 --> 0:06:23,000
+By adapting this wing concept into a marine vehicle,
+
+113
+0:06:24.356,000 --> 0:06:26,000
+we had the genesis of an ocean drone.
+
+114
+0:06:27.28,000 --> 0:06:29,000
+Now, these are larger than they appear.
+
+115
+0:06:29.638,000 --> 0:06:33,000
+They are about 15 feet high, 23 feet long, seven feet deep.
+
+116
+0:06:34.238,000 --> 0:06:36,000
+Think of them as surface satellites.
+
+117
+0:06:36.315,000 --> 0:06:39,000
+They're laden with an array of science-grade sensors
+
+118
+0:06:39.477,000 --> 0:06:4,000
+that measure all key variables,
+
+119
+0:06:41.309,000 --> 0:06:43,000
+both oceanographic and atmospheric,
+
+120
+0:06:44.331,000 --> 0:06:48,000
+and a live satellite link transmits this high-resolution data
+
+121
+0:06:48.712,000 --> 0:06:5,000
+back to shore in real time.
+
+122
+0:06:51.515,000 --> 0:06:53,000
+Our team has been hard at work over the past few years,
+
+123
+0:06:54.417,000 --> 0:06:57,000
+conducting missions in some of the toughest ocean conditions
+
+124
+0:06:57.949,000 --> 0:06:58,000
+on the planet,
+
+125
+0:06:59.197,000 --> 0:07:01,000
+from the Arctic to the tropical Pacific.
+
+126
+0:07:01.686,000 --> 0:07:03,000
+We have sailed all the way to the polar ice shelf.
+
+127
+0:07:04.434,000 --> 0:07:06,000
+We have sailed into Atlantic hurricanes.
+
+128
+0:07:07.159,000 --> 0:07:08,000
+We have rounded Cape Horn,
+
+129
+0:07:09.141,000 --> 0:07:12,000
+and we have slalomed between the oil rigs of the Gulf of Mexico.
+
+130
+0:07:12.404,000 --> 0:07:14,000
+This is one tough robot.
+
+131
+0:07:15.629,000 --> 0:07:17,000
+Let me share with you recent work that we did
+
+132
+0:07:18.634,000 --> 0:07:19,000
+around the Pribilof Islands.
+
+133
+0:07:20.532,000 --> 0:07:23,000
+This is a small group of islands deep in the cold Bering Sea
+
+134
+0:07:24.475,000 --> 0:07:26,000
+between the US and Russia.
+
+135
+0:07:26.661,000 --> 0:07:29,000
+Now, the Bering Sea is the home of the walleye pollock,
+
+136
+0:07:30.135,000 --> 0:07:32,000
+which is a whitefish you might not recognize,
+
+137
+0:07:32.734,000 --> 0:07:36,000
+but you might likely have tasted if you enjoy fish sticks or surimi.
+
+138
+0:07:37.445,000 --> 0:07:4,000
+Yes, surimi looks like crabmeat, but it's actually pollock.
+
+139
+0:07:41.908,000 --> 0:07:44,000
+And the pollock fishery is the largest fishery in the nation,
+
+140
+0:07:44.942,000 --> 0:07:46,000
+both in terms of value and volume --
+
+141
+0:07:47.511,000 --> 0:07:5,000
+about 3.1 billion pounds of fish caught every year.
+
+142
+0:07:51.695,000 --> 0:07:53,000
+So over the past few years, a fleet of ocean drones
+
+143
+0:07:54.418,000 --> 0:07:56,000
+has been hard at work in the Bering Sea
+
+144
+0:07:56.668,000 --> 0:08:,000
+with the goal to help assess the size of the pollock fish stock.
+
+145
+0:08:01.147,000 --> 0:08:04,000
+This helps improve the quota system that's used to manage the fishery
+
+146
+0:08:04.942,000 --> 0:08:06,000
+and help prevent a collapse of the fish stock
+
+147
+0:08:07.134,000 --> 0:08:09,000
+and protects this fragile ecosystem.
+
+148
+0:08:10.538,000 --> 0:08:14,000
+Now, the drones survey the fishing ground using acoustics,
+
+149
+0:08:15.371,000 --> 0:08:16,000
+i.e., a sonar.
+
+150
+0:08:16.919,000 --> 0:08:19,000
+This sends a sound wave downwards,
+
+151
+0:08:20.164,000 --> 0:08:22,000
+and then the reflection, the echo from the sound wave
+
+152
+0:08:22.698,000 --> 0:08:23,000
+from the seabed or schools of fish,
+
+153
+0:08:24.48,000 --> 0:08:26,000
+gives us an idea of what's happening below the surface.
+
+154
+0:08:27.849,000 --> 0:08:31,000
+Our ocean drones are actually pretty good at this repetitive task,
+
+155
+0:08:31.879,000 --> 0:08:34,000
+so they have been gridding the Bering Sea day in, day out.
+
+156
+0:08:35.808,000 --> 0:08:41,000
+Now, the Pribilof Islands are also the home of a large colony of fur seals.
+
+157
+0:08:43.175,000 --> 0:08:47,000
+In the 1950s, there were about two million individuals in that colony.
+
+158
+0:08:48.374,000 --> 0:08:51,000
+Sadly, these days, the population has rapidly declined.
+
+159
+0:08:52.158,000 --> 0:08:54,000
+There's less than 50 percent of that number left,
+
+160
+0:08:54.525,000 --> 0:08:56,000
+and the population continues to fall rapidly.
+
+161
+0:08:57.904,000 --> 0:08:59,000
+So to understand why,
+
+162
+0:09:00.031,000 --> 0:09:03,000
+our science partner at the National Marine Mammal Laboratory
+
+163
+0:09:03.544,000 --> 0:09:06,000
+has fitted a GPS tag on some of the mother seals,
+
+164
+0:09:06.905,000 --> 0:09:07,000
+glued to their furs.
+
+165
+0:09:08.406,000 --> 0:09:11,000
+And this tag measures location and depth
+
+166
+0:09:11.431,000 --> 0:09:13,000
+and also has a really cool little camera
+
+167
+0:09:13.787,000 --> 0:09:15,000
+that's triggered by sudden acceleration.
+
+168
+0:09:16.207,000 --> 0:09:19,000
+Here is a movie taken by an artistically inclined seal,
+
+169
+0:09:20.145,000 --> 0:09:23,000
+giving us unprecedented insight into an underwater hunt
+
+170
+0:09:23.91,000 --> 0:09:24,000
+deep in the Arctic,
+
+171
+0:09:25.748,000 --> 0:09:27,000
+and the shot of this pollock prey
+
+172
+0:09:28.144,000 --> 0:09:3,000
+just seconds before it gets devoured.
+
+173
+0:09:30.934,000 --> 0:09:33,000
+Now, doing work in the Arctic is very tough, even for a robot.
+
+174
+0:09:34.744,000 --> 0:09:36,000
+They had to survive a snowstorm in August
+
+175
+0:09:37.358,000 --> 0:09:4,000
+and interferences from bystanders --
+
+176
+0:09:40.873,000 --> 0:09:43,000
+that little spotted seal enjoying a ride.
+
+177
+0:09:44.155,000 --> 0:09:46,000
+(Laughter)
+
+178
+0:09:47.378,000 --> 0:09:53,000
+Now, the seal tags have recorded over 200,000 dives over the season,
+
+179
+0:09:54.395,000 --> 0:09:55,000
+and upon a closer look,
+
+180
+0:09:56.378,000 --> 0:10:,000
+we get to see the individual seal tracks and the repetitive dives.
+
+181
+0:10:01.413,000 --> 0:10:03,000
+We are on our way to decode what is really happening
+
+182
+0:10:04.294,000 --> 0:10:05,000
+over that foraging ground,
+
+183
+0:10:05.997,000 --> 0:10:06,000
+and it's quite beautiful.
+
+184
+0:10:08.362,000 --> 0:10:11,000
+Once you superimpose the acoustic data collected by the drones,
+
+185
+0:10:11.789,000 --> 0:10:13,000
+a picture starts to emerge.
+
+186
+0:10:13.937,000 --> 0:10:17,000
+As the seals leave the islands and swim from left to right,
+
+187
+0:10:18.333,000 --> 0:10:22,000
+they are observed to dive at a relatively shallow depth of about 20 meters,
+
+188
+0:10:22.77,000 --> 0:10:26,000
+which the drone identifies is populated by small young pollock
+
+189
+0:10:26.883,000 --> 0:10:28,000
+with low calorific content.
+
+190
+0:10:28.99,000 --> 0:10:32,000
+The seals then swim much greater distance and start to dive deeper
+
+191
+0:10:33.138,000 --> 0:10:37,000
+to a place where the drone identifies larger, more adult pollock,
+
+192
+0:10:37.834,000 --> 0:10:39,000
+which are more nutritious as fish.
+
+193
+0:10:40.117,000 --> 0:10:44,000
+Unfortunately, the calories expended by the mother seals
+
+194
+0:10:44.263,000 --> 0:10:46,000
+to swim this extra distance
+
+195
+0:10:46.41,000 --> 0:10:5,000
+don't leave them with enough energy to lactate their pups back on the island,
+
+196
+0:10:51.35,000 --> 0:10:53,000
+leading to the population decline.
+
+197
+0:10:54.408,000 --> 0:10:59,000
+Further, the drones identify that the water temperature around the island
+
+198
+0:10:59.779,000 --> 0:11:,000
+has significantly warmed.
+
+199
+0:11:01.488,000 --> 0:11:05,000
+It might be one of the driving forces that's pushing the pollock north,
+
+200
+0:11:05.812,000 --> 0:11:07,000
+and to spread in search of colder regions.
+
+201
+0:11:08.765,000 --> 0:11:09,000
+So the data analysis is ongoing,
+
+202
+0:11:10.574,000 --> 0:11:13,000
+but already we can see that some of the pieces of the puzzle
+
+203
+0:11:13.977,000 --> 0:11:14,000
+from the fur seal mystery
+
+204
+0:11:15.374,000 --> 0:11:16,000
+are coming into focus.
+
+205
+0:11:18.69,000 --> 0:11:2,000
+But if you look back at the big picture,
+
+206
+0:11:20.803,000 --> 0:11:21,000
+we are mammals, too.
+
+207
+0:11:23.032,000 --> 0:11:26,000
+And actually, the oceans provide up to 20 kilos of fish per human per year.
+
+208
+0:11:26.88,000 --> 0:11:29,000
+As we deplete our fish stocks, what can we humans learn
+
+209
+0:11:30.033,000 --> 0:11:31,000
+from the fur seal story?
+
+210
+0:11:32.719,000 --> 0:11:34,000
+And beyond fish, the oceans affect all of us daily
+
+211
+0:11:35.616,000 --> 0:11:36,000
+as they drive global weather systems,
+
+212
+0:11:37.514,000 --> 0:11:39,000
+which affect things like global agricultural output
+
+213
+0:11:40.299,000 --> 0:11:43,000
+or can lead to devastating destruction of lives and property
+
+214
+0:11:43.952,000 --> 0:11:46,000
+through hurricanes, extreme heat and floods.
+
+215
+0:11:47.756,000 --> 0:11:5,000
+Our oceans are pretty much unexplored and undersampled,
+
+216
+0:11:51.56,000 --> 0:11:55,000
+and today, we still know more about other planets than our own.
+
+217
+0:11:56.021,000 --> 0:11:59,000
+But if you divide this vast ocean in six-by-six-degree squares,
+
+218
+0:11:59.833,000 --> 0:12:01,000
+each about 400 miles long,
+
+219
+0:12:03.539,000 --> 0:12:05,000
+you'd get about 1,000 such squares.
+
+220
+0:12:05.717,000 --> 0:12:07,000
+So little by little, working with our partners,
+
+221
+0:12:08.037,000 --> 0:12:12,000
+we are deploying one ocean drone in each of those boxes,
+
+222
+0:12:12.159,000 --> 0:12:14,000
+the hope being that achieving planetary coverage
+
+223
+0:12:14.605,000 --> 0:12:17,000
+will give us better insights into those planetary systems
+
+224
+0:12:17.809,000 --> 0:12:18,000
+that affect humanity.
+
+225
+0:12:19.603,000 --> 0:12:22,000
+We have been using robots to study distant worlds in our solar system
+
+226
+0:12:23.239,000 --> 0:12:24,000
+for a while now.
+
+227
+0:12:24.939,000 --> 0:12:26,000
+Now it is time to quantify our own planet,
+
+228
+0:12:28.44,000 --> 0:12:31,000
+because we cannot fix what we cannot measure,
+
+229
+0:12:32.303,000 --> 0:12:34,000
+and we cannot prepare for what we don't know.
+
+230
+0:12:35.761,000 --> 0:12:36,000
+Thank you.
+
+231
+0:12:36.945,000 --> 0:12:39,000
+(Applause)
+

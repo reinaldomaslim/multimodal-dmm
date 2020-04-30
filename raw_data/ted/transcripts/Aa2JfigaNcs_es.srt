@@ -1,0 +1,1120 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Francisco Gnecco Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:15.33,000 --> 0:00:17,000
+Me dedico a estudiar los procesos
+
+3
+0:00:17.33,000 --> 0:00:19,000
+de información en el cerebro. Osea,
+
+4
+0:00:19.33,000 --> 0:00:21,000
+cómo capta información externa y
+
+5
+0:00:21.33,000 --> 0:00:23,000
+la convierte en patrones de actividad eléctrica,
+
+6
+0:00:23.33,000 --> 0:00:25,000
+y cómo usa esos patrones
+
+7
+0:00:25.33,000 --> 0:00:27,000
+para poder hacer cosas;
+
+8
+0:00:27.33,000 --> 0:00:29,000
+para ver, oír, alcanzar objetos.
+
+9
+0:00:29.33,000 --> 0:00:31,000
+En realidad soy básicamente investigadora y no
+
+10
+0:00:31.33,000 --> 0:00:33,000
+médica que trata a pacientes, pero en el último año y medio
+
+11
+0:00:33.33,000 --> 0:00:35,000
+comencé a cambiar, a usar lo que
+
+12
+0:00:35.33,000 --> 0:00:37,000
+hemos aprendido sobre patrones
+
+13
+0:00:37.33,000 --> 0:00:4,000
+de actividad para desarrollar prótesis.
+
+14
+0:00:40.33,000 --> 0:00:42,000
+Lo que haré hoy es mostrarles
+
+15
+0:00:42.33,000 --> 0:00:44,000
+un ejemplo de esto.
+
+16
+0:00:44.33,000 --> 0:00:46,000
+Es nuestra primera incursión.
+
+17
+0:00:46.33,000 --> 0:00:48,000
+Es el desarrollo de una prótesis
+
+18
+0:00:48.33,000 --> 0:00:5,000
+para corregir la ceguera.
+
+19
+0:00:50.33,000 --> 0:00:52,000
+Permítanme comenzar con el problema.
+
+20
+0:00:52.33,000 --> 0:00:54,000
+En EEUU hay 10 millones de personas
+
+21
+0:00:54.33,000 --> 0:00:56,000
+y muchos más en todo el mundo, ciegas,
+
+22
+0:00:56.33,000 --> 0:00:58,000
+o que están a punto de quedar ciegas por
+
+23
+0:00:58.33,000 --> 0:01:,000
+males de retina, como
+
+24
+0:01:00.33,000 --> 0:01:02,000
+la degeneración macular. Y no se
+
+25
+0:01:02.33,000 --> 0:01:04,000
+puede hacer mucho para ayudarles.
+
+26
+0:01:04.33,000 --> 0:01:06,000
+Hay tratamientos farmacológicos pero
+
+27
+0:01:06.33,000 --> 0:01:08,000
+sólo son efectivos para una pequeña parte
+
+28
+0:01:08.33,000 --> 0:01:1,000
+de la población. Para la gran mayoría
+
+29
+0:01:10.33,000 --> 0:01:12,000
+de los pacientes, la mayor esperanza
+
+30
+0:01:12.33,000 --> 0:01:14,000
+de recuperar la vista es mediante prótesis.
+
+31
+0:01:14.33,000 --> 0:01:16,000
+El problema es que las prótesis actuales
+
+32
+0:01:16.33,000 --> 0:01:18,000
+no funcionan muy bien. Son muy limitadas
+
+33
+0:01:18.33,000 --> 0:01:2,000
+en la visión que pueden proporcionar.
+
+34
+0:01:20.33,000 --> 0:01:22,000
+Por ejemplo, en el caso de esos aparatos,
+
+35
+0:01:22.33,000 --> 0:01:24,000
+los pacientes ven cosas sencillas como
+
+36
+0:01:24.33,000 --> 0:01:26,000
+luces brillantes y bordes de alto contraste
+
+37
+0:01:26.33,000 --> 0:01:28,000
+y no mucho más. No se ha logrado nada parecido
+
+38
+0:01:28.33,000 --> 0:01:31,000
+a la visión normal.
+
+39
+0:01:31.33,000 --> 0:01:33,000
+Pero hoy quiero contarles algo sobre
+
+40
+0:01:33.33,000 --> 0:01:35,000
+una prótesis en la que estamos trabajando
+
+41
+0:01:35.33,000 --> 0:01:37,000
+que pienso, tiene el potencial para
+
+42
+0:01:37.33,000 --> 0:01:39,000
+marcar una diferencia mucho más efectiva.
+
+43
+0:01:39.33,000 --> 0:01:41,000
+Lo que haré es mostrarles
+
+44
+0:01:41.33,000 --> 0:01:43,000
+cómo funciona. Permítanme retroceder
+
+45
+0:01:43.33,000 --> 0:01:45,000
+un tanto y mostrarles primero como funciona
+
+46
+0:01:45.33,000 --> 0:01:47,000
+una retina normal, para que vean el problema
+
+47
+0:01:47.33,000 --> 0:01:49,000
+que tratamos de resolver.
+
+48
+0:01:49.33,000 --> 0:01:51,000
+Aquí tenemos una retina.
+
+49
+0:01:51.33,000 --> 0:01:53,000
+Tenemos una imagen, una retina y un cerebro.
+
+50
+0:01:53.33,000 --> 0:01:55,000
+Al mirar algo, como esta imagen
+
+51
+0:01:55.33,000 --> 0:01:57,000
+de la cara de un bebé, llega al ojo
+
+52
+0:01:57.33,000 --> 0:01:59,000
+y se coloca en la retina, en las células de
+
+53
+0:01:59.33,000 --> 0:02:01,000
+la parte delantera, los fotoreceptores.
+
+54
+0:02:01.33,000 --> 0:02:03,000
+Entonces los circuitos de la retina,
+
+55
+0:02:03.33,000 --> 0:02:05,000
+en la zona intermedia, empiezan a trabajar
+
+56
+0:02:05.33,000 --> 0:02:07,000
+y llevan a cabo algunas operaciones,
+
+57
+0:02:07.33,000 --> 0:02:09,000
+extraen la información y
+
+58
+0:02:09.33,000 --> 0:02:11,000
+la convierten en un código.
+
+59
+0:02:11.33,000 --> 0:02:13,000
+Ese código tiene la forma de patrones
+
+60
+0:02:13.33,000 --> 0:02:15,000
+de pulsos eléctricos que se envían
+
+61
+0:02:15.33,000 --> 0:02:17,000
+hacia el cerebro. Lo importante es que
+
+62
+0:02:17.33,000 --> 0:02:19,000
+la imagen finalmente se convierte
+
+63
+0:02:19.33,000 --> 0:02:21,000
+en un código. Digo código
+
+64
+0:02:21.33,000 --> 0:02:23,000
+en sentido literal.
+
+65
+0:02:23.33,000 --> 0:02:26,000
+Este patrón de pulsos aquí, se traduce en "cara de bebé".
+
+66
+0:02:26.33,000 --> 0:02:28,000
+Así, cuando el cerebro recibe este patrón
+
+67
+0:02:28.33,000 --> 0:02:3,000
+de pulsos, sabe que lo que había allá afuera
+
+68
+0:02:30.33,000 --> 0:02:32,000
+era una cara de bebé. Si recibe
+
+69
+0:02:32.33,000 --> 0:02:34,000
+un patrón diferente, sabrá que
+
+70
+0:02:34.33,000 --> 0:02:36,000
+lo que había era, por ejemplo, un perro,
+
+71
+0:02:36.33,000 --> 0:02:38,000
+u otro patrón, podría ser una casa.
+
+72
+0:02:38.33,000 --> 0:02:4,000
+Creo que entienden la idea.
+
+73
+0:02:40.33,000 --> 0:02:42,000
+Claro, en la vida real todo es muy dinámico,
+
+74
+0:02:42.33,000 --> 0:02:44,000
+o sea que cambia todo el tiempo.
+
+75
+0:02:44.33,000 --> 0:02:46,000
+Los patrones de pulsos cambian
+
+76
+0:02:46.33,000 --> 0:02:48,000
+porque el mundo que
+
+77
+0:02:48.33,000 --> 0:02:51,000
+miramos también cambia.
+
+78
+0:02:51.33,000 --> 0:02:53,000
+Es algo bastante complicado.
+
+79
+0:02:53.33,000 --> 0:02:55,000
+Tenemos patrones de pulsos
+
+80
+0:02:55.33,000 --> 0:02:57,000
+provenientes de los ojos cada milisegundo
+
+81
+0:02:57.33,000 --> 0:02:59,000
+que dicen al cerebro lo que ven.
+
+82
+0:02:59.33,000 --> 0:03:01,000
+¿Qué le ocurre a una persona con una
+
+83
+0:03:01.33,000 --> 0:03:03,000
+enfermedad de la retina como
+
+84
+0:03:03.33,000 --> 0:03:05,000
+la degeneración macular? Lo que sucede es
+
+85
+0:03:05.33,000 --> 0:03:07,000
+que mueren las células frontales,
+
+86
+0:03:07.33,000 --> 0:03:09,000
+los fotoreceptores, y con el tiempo,
+
+87
+0:03:09.33,000 --> 0:03:11,000
+todas las células y los circuitos
+
+88
+0:03:11.33,000 --> 0:03:13,000
+conectados a ellas mueren también,
+
+89
+0:03:13.33,000 --> 0:03:15,000
+hasta quedar únicamente
+
+90
+0:03:15.33,000 --> 0:03:17,000
+estas células, las células de salida,
+
+91
+0:03:17.33,000 --> 0:03:19,000
+las que mandan las señales al cerebro.
+
+92
+0:03:19.33,000 --> 0:03:21,000
+Pero debido a toda esa degeneración
+
+93
+0:03:21.33,000 --> 0:03:23,000
+ya no pueden enviar ninguna señal.
+
+94
+0:03:23.33,000 --> 0:03:25,000
+No tienen ninguna entrada,
+
+95
+0:03:25.33,000 --> 0:03:27,000
+por tanto el cerebro de la persona ya no
+
+96
+0:03:27.33,000 --> 0:03:29,000
+recibe ninguna información;
+
+97
+0:03:29.33,000 --> 0:03:32,000
+es decir, está ciega.
+
+98
+0:03:32.33,000 --> 0:03:34,000
+Una solución al problema sería entonces
+
+99
+0:03:34.33,000 --> 0:03:36,000
+construir un aparato que imitara
+
+100
+0:03:36.33,000 --> 0:03:38,000
+las acciones de los circuitos frontales
+
+101
+0:03:38.33,000 --> 0:03:4,000
+y enviara señales a las células de salida de la retina,
+
+102
+0:03:40.33,000 --> 0:03:42,000
+de modo que éstas retomaran su
+
+103
+0:03:42.33,000 --> 0:03:44,000
+función normal de mandar señales al cerebro.
+
+104
+0:03:44.33,000 --> 0:03:46,000
+Es en esto en lo que trabajamos
+
+105
+0:03:46.33,000 --> 0:03:48,000
+y esto es lo que hace nuestra prótesis.
+
+106
+0:03:48.33,000 --> 0:03:5,000
+Consta de dos partes llamadas
+
+107
+0:03:50.33,000 --> 0:03:52,000
+codificador y transductor.
+
+108
+0:03:52.33,000 --> 0:03:54,000
+Lo que hace el codificador es simplemente
+
+109
+0:03:54.33,000 --> 0:03:56,000
+lo que dije: imita las acciones
+
+110
+0:03:56.33,000 --> 0:03:58,000
+de los circuitos frontales capta imágenes
+
+111
+0:03:58.33,000 --> 0:04:,000
+y las convierte en códigos de retina.
+
+112
+0:04:00.33,000 --> 0:04:02,000
+Luego el transductor hace que
+
+113
+0:04:02.33,000 --> 0:04:04,000
+las células de salida envíen el código
+
+114
+0:04:04.33,000 --> 0:04:06,000
+al cerebro. El resultado es una
+
+115
+0:04:06.33,000 --> 0:04:09,000
+prótesis de retina que puede producir
+
+116
+0:04:09.33,000 --> 0:04:11,000
+salida de retina normal.
+
+117
+0:04:11.33,000 --> 0:04:13,000
+Así, una retina completamente ciega,
+
+118
+0:04:13.33,000 --> 0:04:15,000
+aunque no tenga ningún circuito frontal,
+
+119
+0:04:15.33,000 --> 0:04:17,000
+sin fotoreceptores,
+
+120
+0:04:17.33,000 --> 0:04:19,000
+ahora puede enviar señales normales
+
+121
+0:04:19.33,000 --> 0:04:22,000
+que el cerebro puede interpretar.
+
+122
+0:04:22.33,000 --> 0:04:24,000
+Ningún otro aparato ha podido
+
+123
+0:04:24.33,000 --> 0:04:26,000
+hacer esto.
+
+124
+0:04:26.33,000 --> 0:04:28,000
+Sólo quiero decir
+
+125
+0:04:28.33,000 --> 0:04:3,000
+una o dos frases sobre lo que es
+
+126
+0:04:30.33,000 --> 0:04:32,000
+el codificador y lo que hace, porque
+
+127
+0:04:32.33,000 --> 0:04:34,000
+en realidad es la parte central.
+
+128
+0:04:34.33,000 --> 0:04:36,000
+Es interesante, es genial.
+
+129
+0:04:36.33,000 --> 0:04:38,000
+No estoy segura si la palabra "genial" es la correcta,
+
+130
+0:04:38.33,000 --> 0:04:4,000
+pero Uds. me entienden.
+
+131
+0:04:40.33,000 --> 0:04:42,000
+Lo que hace es que reemplaza
+
+132
+0:04:42.33,000 --> 0:04:44,000
+los circuitos de la retina, osea la esencia
+
+133
+0:04:44.33,000 --> 0:04:46,000
+de esos circuitos, con un conjunto de ecuaciones
+
+134
+0:04:46.33,000 --> 0:04:48,000
+que podemos implementar en un chip.
+
+135
+0:04:48.33,000 --> 0:04:5,000
+Puras matemáticas.
+
+136
+0:04:50.33,000 --> 0:04:53,000
+En otras palabras, no reemplazamos
+
+137
+0:04:53.33,000 --> 0:04:55,000
+los componentes de la retina.
+
+138
+0:04:55.33,000 --> 0:04:57,000
+No hacemos un aparato en miniatura
+
+139
+0:04:57.33,000 --> 0:04:59,000
+para cada uno de los diversos tipos de células.
+
+140
+0:04:59.33,000 --> 0:05:01,000
+Simplemente hemos abstraído el
+
+141
+0:05:01.33,000 --> 0:05:03,000
+funcionamiento de la retina con unas ecuaciones.
+
+142
+0:05:03.33,000 --> 0:05:05,000
+Las ecuaciones, en cierta forma, sirven
+
+143
+0:05:05.33,000 --> 0:05:07,000
+como diccionario. Llega una imagen,
+
+144
+0:05:07.33,000 --> 0:05:1,000
+pasa por las ecuaciones
+
+145
+0:05:10.33,000 --> 0:05:12,000
+y sale una secuencia de pulsos eléctricos,
+
+146
+0:05:12.33,000 --> 0:05:16,000
+como los de una retina normal.
+
+147
+0:05:16.33,000 --> 0:05:18,000
+Ahora permítanme mostrar
+
+148
+0:05:18.33,000 --> 0:05:2,000
+en la práctica, cómo
+
+149
+0:05:20.33,000 --> 0:05:22,000
+podemos producir una visión normal.
+
+150
+0:05:22.33,000 --> 0:05:24,000
+Veremos las implicaciones.
+
+151
+0:05:24.33,000 --> 0:05:26,000
+Aquí hay tres conjuntos de
+
+152
+0:05:26.33,000 --> 0:05:28,000
+patrones de señales. La de arriba es de
+
+153
+0:05:28.33,000 --> 0:05:3,000
+un animal normal. La del medio es de
+
+154
+0:05:30.33,000 --> 0:05:32,000
+un animal ciego que ha sido tratado con
+
+155
+0:05:32.33,000 --> 0:05:34,000
+el mecanismo codificador-transductor y la
+
+156
+0:05:34.33,000 --> 0:05:36,000
+inferior es de un animal tratado
+
+157
+0:05:36.33,000 --> 0:05:38,000
+con una prótesis corriente.
+
+158
+0:05:38.33,000 --> 0:05:4,000
+La última es el sistema más moderno
+
+159
+0:05:40.33,000 --> 0:05:42,000
+de los existentes en la actualidad,
+
+160
+0:05:42.33,000 --> 0:05:44,000
+básicamente hecho con detectores de luz,
+
+161
+0:05:44.33,000 --> 0:05:46,000
+sin codificador. Lo que hicimos fue
+
+162
+0:05:46.33,000 --> 0:05:48,000
+presentar una película sobre cosas corrientes;
+
+163
+0:05:48.33,000 --> 0:05:5,000
+gente, bebés, bancos de parque,
+
+164
+0:05:50.33,000 --> 0:05:52,000
+osea, cosas normales que suceden, y
+
+165
+0:05:52.33,000 --> 0:05:54,000
+grabamos las respuestas de las retinas
+
+166
+0:05:54.33,000 --> 0:05:56,000
+de estos tres grupos de animales.
+
+167
+0:05:56.33,000 --> 0:05:58,000
+Simplemente como orientación, cada cuadro
+
+168
+0:05:58.33,000 --> 0:06:,000
+muestra los patrones de varias células,
+
+169
+0:06:00.33,000 --> 0:06:02,000
+y, como en las gráficas anteriores,
+
+170
+0:06:02.33,000 --> 0:06:04,000
+cada fila es una célula diferente.
+
+171
+0:06:04.33,000 --> 0:06:06,000
+Sólo que aquí reduje un tanto los pulsos
+
+172
+0:06:06.33,000 --> 0:06:09,000
+y los hice más delgados para mostrar
+
+173
+0:06:09.33,000 --> 0:06:11,000
+una larga cadena de datos.
+
+174
+0:06:11.33,000 --> 0:06:13,000
+Como pueden ver, los patrones de señales
+
+175
+0:06:13.33,000 --> 0:06:15,000
+de los animales ciegos tratados con
+
+176
+0:06:15.33,000 --> 0:06:17,000
+el codificador-transductor,
+
+177
+0:06:17.33,000 --> 0:06:19,000
+realmente se ajustan a los normales;
+
+178
+0:06:19.33,000 --> 0:06:21,000
+no es perfecto, pero sí bastante bueno.
+
+179
+0:06:21.33,000 --> 0:06:23,000
+Y en el caso del animal ciego tratado
+
+180
+0:06:23.33,000 --> 0:06:25,000
+con la prótesis corriente,
+
+181
+0:06:25.33,000 --> 0:06:27,000
+las respuestas no se parecen.
+
+182
+0:06:27.33,000 --> 0:06:3,000
+Con el método corriente
+
+183
+0:06:30.33,000 --> 0:06:32,000
+las células sí emiten señales, pero
+
+184
+0:06:32.33,000 --> 0:06:34,000
+no con los patrones normales, porque
+
+185
+0:06:34.33,000 --> 0:06:36,000
+no tienen el código correcto.
+
+186
+0:06:36.33,000 --> 0:06:38,000
+¿Qué es lo importante de esto?
+
+187
+0:06:38.33,000 --> 0:06:4,000
+¿Cuál es el impacto potencial
+
+188
+0:06:40.33,000 --> 0:06:43,000
+en la capacidad de ver de un paciente?
+
+189
+0:06:43.33,000 --> 0:06:45,000
+Sólo les mostraré los resultados
+
+190
+0:06:45.33,000 --> 0:06:47,000
+de un experimento que responde a esto.
+
+191
+0:06:47.33,000 --> 0:06:49,000
+Claro que tengo muchos más datos;
+
+192
+0:06:49.33,000 --> 0:06:51,000
+si tienen interés, me encantaría
+
+193
+0:06:51.33,000 --> 0:06:53,000
+mostrarles más. Éste se llama
+
+194
+0:06:53.33,000 --> 0:06:55,000
+experimento de reconstrucción.
+
+195
+0:06:55.33,000 --> 0:06:57,000
+Lo que hicimos fue tomar un momento
+
+196
+0:06:57.33,000 --> 0:07:,000
+de esas grabaciones y preguntarnos,
+
+197
+0:07:00.33,000 --> 0:07:02,000
+¿qué veía la retina en ese momento?
+
+198
+0:07:02.33,000 --> 0:07:04,000
+¿Podríamos reconstruir lo que la retina
+
+199
+0:07:04.33,000 --> 0:07:06,000
+veía, a partir de las respuestas
+
+200
+0:07:06.33,000 --> 0:07:08,000
+de los patrones de señales?
+
+201
+0:07:08.33,000 --> 0:07:11,000
+Esto lo hicimos con las respuestas
+
+202
+0:07:11.33,000 --> 0:07:14,000
+del método corriente y con las del
+
+203
+0:07:14.33,000 --> 0:07:16,000
+codificador y transductor.
+
+204
+0:07:16.33,000 --> 0:07:18,000
+Aquí están. Comienzo con
+
+205
+0:07:18.33,000 --> 0:07:2,000
+el método corriente, primero.
+
+206
+0:07:20.33,000 --> 0:07:22,000
+Como pueden ver, es muy imperfecto.
+
+207
+0:07:22.33,000 --> 0:07:24,000
+Como los patrones de señales no están
+
+208
+0:07:24.33,000 --> 0:07:26,000
+en el código correcto, son muy inadecuados
+
+209
+0:07:26.33,000 --> 0:07:28,000
+sobre lo que pueden mostrar
+
+210
+0:07:28.33,000 --> 0:07:3,000
+de lo que había. Se puede ver que
+
+211
+0:07:30.33,000 --> 0:07:32,000
+hay algo ahí, pero no está muy claro
+
+212
+0:07:32.33,000 --> 0:07:34,000
+qué es. De esto
+
+213
+0:07:34.33,000 --> 0:07:36,000
+hablaba al
+
+214
+0:07:36.33,000 --> 0:07:38,000
+principio sobre el método corriente.
+
+215
+0:07:38.33,000 --> 0:07:4,000
+Los pacientes pueden ver bordes de alto contraste,
+
+216
+0:07:40.33,000 --> 0:07:42,000
+pueden ver la luz, pero no mucho más
+
+217
+0:07:42.33,000 --> 0:07:44,000
+que eso. Entonces, ¿Cuál era
+
+218
+0:07:44.33,000 --> 0:07:47,000
+la imagen? La cara del bebé.
+
+219
+0:07:47.33,000 --> 0:07:49,000
+Y ¿cómo es con nuestro método,
+
+220
+0:07:49.33,000 --> 0:07:51,000
+si se añade el código? Como pueden ver
+
+221
+0:07:51.33,000 --> 0:07:53,000
+es mucho mejor. No sólo se puede decir
+
+222
+0:07:53.33,000 --> 0:07:55,000
+que es la cara de un bebé, sino que es
+
+223
+0:07:55.33,000 --> 0:07:57,000
+la cara de ese bebé, lo cual es ya un reto
+
+224
+0:07:57.33,000 --> 0:07:59,000
+bastante exigente.
+
+225
+0:07:59.33,000 --> 0:08:01,000
+A la izquierda está el del codificador
+
+226
+0:08:01.33,000 --> 0:08:03,000
+solo, y a la derecha, el de una retina
+
+227
+0:08:03.33,000 --> 0:08:05,000
+ciega, con el codificador y el transductor
+
+228
+0:08:05.33,000 --> 0:08:07,000
+El elemento clave es el codificador solo,
+
+229
+0:08:07.33,000 --> 0:08:09,000
+porque se puede conectar con
+
+230
+0:08:09.33,000 --> 0:08:11,000
+un transductor diferente.
+
+231
+0:08:11.33,000 --> 0:08:13,000
+Este es el primero que ensayamos.
+
+232
+0:08:13.33,000 --> 0:08:15,000
+Quisiera decir algo sobre el método corriente.
+
+233
+0:08:15.33,000 --> 0:08:17,000
+Cuando salió por primera vez, fue algo muy
+
+234
+0:08:17.33,000 --> 0:08:19,000
+emocionante; era la idea de
+
+235
+0:08:19.33,000 --> 0:08:22,000
+poder hacer que una retina ciega respondiera.
+
+236
+0:08:22.33,000 --> 0:08:25,000
+Pero existía este factor limitador,
+
+237
+0:08:25.33,000 --> 0:08:27,000
+el del código y cómo hacer que
+
+238
+0:08:27.33,000 --> 0:08:29,000
+las células respondieran mejor,
+
+239
+0:08:29.33,000 --> 0:08:31,000
+que produjeran respuestas normales,
+
+240
+0:08:31.33,000 --> 0:08:33,000
+y ésta es nuestra contribución.
+
+241
+0:08:33.33,000 --> 0:08:35,000
+Ahora quiero terminar.
+
+242
+0:08:35.33,000 --> 0:08:37,000
+Como dije antes,
+
+243
+0:08:37.33,000 --> 0:08:39,000
+tengo muchos datos más,
+
+244
+0:08:39.33,000 --> 0:08:41,000
+si tienen interés. Todo lo que quería mostrar
+
+245
+0:08:41.33,000 --> 0:08:43,000
+era la idea básica
+
+246
+0:08:43.33,000 --> 0:08:46,000
+de que podemos comunicarnos
+
+247
+0:08:46.33,000 --> 0:08:48,000
+con el cerebro en su lenguaje, y la
+
+248
+0:08:48.33,000 --> 0:08:51,000
+capacidad potencial de poder hacerlo.
+
+249
+0:08:51.33,000 --> 0:08:53,000
+Esto es diferente de las prótesis de movimiento
+
+250
+0:08:53.33,000 --> 0:08:55,000
+donde la comunicación va del cerebro
+
+251
+0:08:55.33,000 --> 0:08:57,000
+al aparato. Aquí tenemos que comunicarnos
+
+252
+0:08:57.33,000 --> 0:08:59,000
+desde el mundo exterior
+
+253
+0:08:59.33,000 --> 0:09:01,000
+hacia el cerebro y lograr que
+
+254
+0:09:01.33,000 --> 0:09:03,000
+éste nos entienda.
+
+255
+0:09:03.33,000 --> 0:09:05,000
+Lo último que quiero
+
+256
+0:09:05.33,000 --> 0:09:07,000
+destacar es que
+
+257
+0:09:07.33,000 --> 0:09:09,000
+la idea se puede generalizar.
+
+258
+0:09:09.33,000 --> 0:09:11,000
+La misma estrategia que usamos
+
+259
+0:09:11.33,000 --> 0:09:13,000
+para hallar el código de la retina, también
+
+260
+0:09:13.33,000 --> 0:09:15,000
+puede usarse para encontrar otros códigos,
+
+261
+0:09:15.33,000 --> 0:09:17,000
+por ejemplo, del sistema auditivo y
+
+262
+0:09:17.33,000 --> 0:09:19,000
+del sistema motriz, para tratar la sordera
+
+263
+0:09:19.33,000 --> 0:09:21,000
+y los trastornos de movimiento.
+
+264
+0:09:21.33,000 --> 0:09:23,000
+De la misma manera que hemos
+
+265
+0:09:23.33,000 --> 0:09:25,000
+evitado los circuitos
+
+266
+0:09:25.33,000 --> 0:09:27,000
+deteriorados de la retina para llegar a las células
+
+267
+0:09:27.33,000 --> 0:09:29,000
+de salida, así mismo podremos evitar los
+
+268
+0:09:29.33,000 --> 0:09:31,000
+circuitos defectuosos de la cóclea
+
+269
+0:09:31.33,000 --> 0:09:33,000
+para llegar al nervio auditivo,
+
+270
+0:09:33.33,000 --> 0:09:35,000
+o evitar las áreas defectuosas del área motriz de
+
+271
+0:09:35.33,000 --> 0:09:38,000
+la corteza cerebral, para evitar el vacío
+
+272
+0:09:38.33,000 --> 0:09:4,000
+dejado por una apoplejía.
+
+273
+0:09:40.33,000 --> 0:09:42,000
+Terminaré con un sencillo
+
+274
+0:09:42.33,000 --> 0:09:44,000
+mensaje diciendo que entender el código
+
+275
+0:09:44.33,000 --> 0:09:46,000
+es algo realmente muy importante, y si
+
+276
+0:09:46.33,000 --> 0:09:48,000
+podemos entender
+
+277
+0:09:48.33,000 --> 0:09:5,000
+el lenguaje del cerebro, las cosas que
+
+278
+0:09:50.33,000 --> 0:09:52,000
+antes no parecían factibles, ahora
+
+279
+0:09:52.33,000 --> 0:09:54,000
+serán posibles. Gracias.
+
+280
+0:09:54.33,000 --> 0:09:59,000
+(Aplausos)
+

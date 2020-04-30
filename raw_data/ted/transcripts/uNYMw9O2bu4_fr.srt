@@ -1,0 +1,1548 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Frederic Mikusek Relecteur: Sarah Fathallah
+
+2
+0:00:16.16,000 --> 0:00:19,000
+En fait, je suis un peu fatigué de parler de simplicité.
+
+3
+0:00:19.16,000 --> 0:00:22,000
+c'est pourquoi, pour expérimenter, j'ai pensé que j'allais essayer de rendre ma vie un peu plus complexe.
+
+4
+0:00:22.16,000 --> 0:00:24,000
+Donc, je vais parcourir quelques diapos
+
+5
+0:00:24.16,000 --> 0:00:26,000
+d'il y a quelque temps
+
+6
+0:00:26.16,000 --> 0:00:29,000
+et les parcourir pour vous donner une idée de comment j'en suis arrivé ici.
+
+7
+0:00:29.16,000 --> 0:00:31,000
+Donc, en gros tout a commencé avec
+
+8
+0:00:31.16,000 --> 0:00:33,000
+cette idée d'un ordinateur.
+
+9
+0:00:33.16,000 --> 0:00:36,000
+Qui a un ordinateur ? Ouais.
+
+10
+0:00:36.16,000 --> 0:00:38,000
+OK, donc, tout le monde a un ordinateur.
+
+11
+0:00:38.16,000 --> 0:00:4,000
+Même un téléphone portable, c'est un ordinateur.
+
+12
+0:00:40.16,000 --> 0:00:43,000
+Et -- Quelqu'un se souvient de ce cahier d'exercices ?
+
+13
+0:00:43.16,000 --> 0:00:45,000
+"Instant Activities for Your Apple" -- (Exercices de programmation pour votre apple)
+
+14
+0:00:45.16,000 --> 0:00:47,000
+avec le poster gratuit dans chacun des livres?
+
+15
+0:00:47.16,000 --> 0:00:49,000
+C'est comme ça que l'informatique a commencé.
+
+16
+0:00:49.16,000 --> 0:00:53,000
+Rappelez-vous : lorsque l'ordinateur apparut ; il n'avait pas de logiciel.
+
+17
+0:00:53.16,000 --> 0:00:56,000
+Vous achetiez ce truc, le rameniez à la maison, le branchiez,
+
+18
+0:00:56.16,000 --> 0:00:58,000
+et il ne faisait absolument rien du tout.
+
+19
+0:00:58.16,000 --> 0:01:,000
+Alors vous aviez à le programmer,
+
+20
+0:01:00.16,000 --> 0:01:02,000
+et il y avait de chouettes tutoriels, comme ceux-là.
+
+21
+0:01:02.16,000 --> 0:01:04,000
+Enfin, c'était vraiment bien.
+
+22
+0:01:04.16,000 --> 0:01:06,000
+C'est comme, vous savez, Herbie l'Apple II
+
+23
+0:01:06.16,000 --> 0:01:08,000
+C'est tellement une bonne manière de--
+
+24
+0:01:08.16,000 --> 0:01:11,000
+Je veux dire, ils devraient faire des livres sur le Java de la même manière,
+
+25
+0:01:11.16,000 --> 0:01:13,000
+et on n'aurait pas de difficultés à apprendre le language.
+
+26
+0:01:13.16,000 --> 0:01:15,000
+Mais c'était un bien bon temps pour l'ordinateur,
+
+27
+0:01:15.16,000 --> 0:01:19,000
+lorsque c'était juste, comment dire? Une époque primitive.
+
+28
+0:01:19.16,000 --> 0:01:22,000
+Et, vous voyez,
+
+29
+0:01:22.16,000 --> 0:01:24,000
+cette époque coïncida avec ma propre enfance.
+
+30
+0:01:24.16,000 --> 0:01:27,000
+J'ai grandi dans une fabrique de tofu à Seattle.
+
+31
+0:01:27.16,000 --> 0:01:29,000
+Qui d'entre vous a grandi dans une entreprise familiale?
+
+32
+0:01:30.16,000 --> 0:01:32,000
+Souffert le martyr ? Oui, oui.
+
+33
+0:01:32.16,000 --> 0:01:35,000
+Mais la torture était bonne. N'était-ce pas une bonne torture?
+
+34
+0:01:35.16,000 --> 0:01:38,000
+Mais c'était une expérience qui a changé ma vie vous savez. Et donc, dans ma vie, vous voyez, j'étais dans le tofu ;
+
+35
+0:01:38.16,000 --> 0:01:4,000
+c'était une entreprise familiale.
+
+36
+0:01:40.16,000 --> 0:01:43,000
+Et ma mère était aussi une espèce de designer.
+
+37
+0:01:43.16,000 --> 0:01:46,000
+elle faisait cette sorte de mur de photos de plats de tofu,
+
+38
+0:01:46.16,000 --> 0:01:48,000
+et cela déstabilisait les clients,
+
+39
+0:01:48.16,000 --> 0:01:5,000
+parce qu'ils pensaient tous qu'il s'agissait d'un restaurant.
+
+40
+0:01:50.16,000 --> 0:01:52,000
+Une espèce de mauvaise sorte d'image de marque ou je ne sais quoi.
+
+41
+0:01:52.16,000 --> 0:01:54,000
+Mais, en tout cas, c'est là ou j'ai grandi,
+
+42
+0:01:54.16,000 --> 0:01:56,000
+dans cette petite fabrique de tofu à Seattle,
+
+43
+0:01:56.16,000 --> 0:01:59,000
+et c'était un peu comme ça :
+
+44
+0:01:59.16,000 --> 0:02:02,000
+Une petite pièce où j'ai grandi, en gros. Je suis grand sur cette photo.
+
+45
+0:02:02.16,000 --> 0:02:05,000
+C'est mon père. Mon père était un peu comme MacGyver, vraiment :
+
+46
+0:02:05.16,000 --> 0:02:07,000
+Il inventait des façons de rendre les choses pesantes.
+
+47
+0:02:08.16,000 --> 0:02:11,000
+Comme par exemple, il y a une sorte de technologie basée sur un bloc de ciment;
+
+48
+0:02:11.16,000 --> 0:02:14,000
+il utilisait des blocs de ciment pour presser le tofu,
+
+49
+0:02:14.16,000 --> 0:02:17,000
+mais parce que le tofu est en fait quelque chose de plutôt liquide,
+
+50
+0:02:17.16,000 --> 0:02:19,000
+il vous faut utiliser des choses lourdes,
+
+51
+0:02:19.16,000 --> 0:02:21,000
+pour extraire le liquide et le rendre consistant.
+
+52
+0:02:21.16,000 --> 0:02:24,000
+Le tofu arrive dans ces grandes cuves,
+
+53
+0:02:24.16,000 --> 0:02:27,000
+et mon père les découpaient en gros à la main.
+
+54
+0:02:27.16,000 --> 0:02:3,000
+Je ne sais pas vraiment comment vous dire -- histoire d'entreprise familiale : vous allez comprendre ça --
+
+55
+0:02:30.16,000 --> 0:02:33,000
+mon père était l'homme le plus sincère possible.
+
+56
+0:02:33.16,000 --> 0:02:36,000
+Il est une fois entré dans un Safeway (épicerie), un jour de pluie
+
+57
+0:02:36.16,000 --> 0:02:38,000
+a glissé, s'est cassé un bras, puis s'est précipité dehors.
+
+58
+0:02:38.16,000 --> 0:02:4,000
+Il ne voulais pas importuner le Safeway.
+
+59
+0:02:41.16,000 --> 0:02:43,000
+Donc, à la place, mon père a alors le bras cassé
+
+60
+0:02:43.16,000 --> 0:02:46,000
+pendant deux semaines à la boutique. Et cette semaine,
+
+61
+0:02:46.16,000 --> 0:02:48,000
+non, ces deux semaines, c'était à moi et mon grand frère
+
+62
+0:02:48.16,000 --> 0:02:5,000
+de tout faire.
+
+63
+0:02:50.16,000 --> 0:02:53,000
+Et ça, c'était de la torture, de la vraie torture.
+
+64
+0:02:53.16,000 --> 0:02:55,000
+Parce que, vous voyez, nous observions notre père
+
+65
+0:02:55.16,000 --> 0:02:57,000
+prendre le gros bloc de tofu et le couper,
+
+66
+0:02:57.16,000 --> 0:03:,000
+avec un couteau, zap, zap, zap. On se disait: "wow".
+
+67
+0:03:00.16,000 --> 0:03:02,000
+Donc la première fois que j'ai fait ca, jétais comme: "woah !" Comme ca.
+
+68
+0:03:03.16,000 --> 0:03:05,000
+Mauvaises formes. Mais de toute façon,
+
+69
+0:03:06.16,000 --> 0:03:09,000
+le tofu était pour moi un peu comme mon origine, en fait.
+
+70
+0:03:10.16,000 --> 0:03:13,000
+Et parce que travailler dans un magasin était si dur,
+
+71
+0:03:13.16,000 --> 0:03:15,000
+j'aimais aller à l'école ; c'était comme le paradis.
+
+72
+0:03:16.16,000 --> 0:03:18,000
+Et j'étais vraiment bon à l'école.
+
+73
+0:03:18.16,000 --> 0:03:2,000
+Donc, comme vous savez, je suis entré au MIT,
+
+74
+0:03:20.16,000 --> 0:03:22,000
+et puisque la plupart d'entre vous êtes des créatifs
+
+75
+0:03:22.16,000 --> 0:03:25,000
+vos parents vous ont tous dit de ne pas être créatifs, n'est-ce pas ?
+
+76
+0:03:25.16,000 --> 0:03:27,000
+Donc, de la même facon, vous savez,
+
+77
+0:03:27.16,000 --> 0:03:29,000
+j'étais bon en art et bon en maths, et mon père disait --
+
+78
+0:03:29.16,000 --> 0:03:31,000
+John est bon en maths.
+
+79
+0:03:31.16,000 --> 0:03:33,000
+Je suis allé au MIT, fais mes maths,
+
+80
+0:03:33.16,000 --> 0:03:35,000
+mais j'ai eu cette merveilleuse opportunité,
+
+81
+0:03:35.16,000 --> 0:03:38,000
+parce que les ordinateurs venaient tout juste de devenir visuels.
+
+82
+0:03:38.16,000 --> 0:03:4,000
+L'Apple -- Macintosh venait juste de sortir;
+
+83
+0:03:40.16,000 --> 0:03:42,000
+J'avais un Mac en main lorsque je suis allé au MIT
+
+84
+0:03:42.16,000 --> 0:03:44,000
+Et c'était une époque où quelqu'un pouvait, en quelque sorte,
+
+85
+0:03:44.16,000 --> 0:03:46,000
+croiser les deux disciplines -- (maths et informatique)
+
+86
+0:03:46.16,000 --> 0:03:48,000
+C'était le bon temps.
+
+87
+0:03:48.16,000 --> 0:03:51,000
+Et donc je me souviens que mon premier gros logiciel
+
+88
+0:03:51.16,000 --> 0:03:54,000
+était une copie directe de l'alors nommé Aldus PageMaker.
+
+89
+0:03:54.16,000 --> 0:03:57,000
+j'avais fait un logiciel de publishing
+
+90
+0:03:57.16,000 --> 0:04:,000
+et c'était mes premiers pas pour comprendre comment --
+
+91
+0:04:00.16,000 --> 0:04:02,000
+oh, ces deux disciplines sont plutôt amusantes à mélanger.
+
+92
+0:04:02.16,000 --> 0:04:04,000
+Et le problème, lorsque vous êtes plus jeunes --
+
+93
+0:04:04.16,000 --> 0:04:06,000
+pour vous autres étudiants ici présents --
+
+94
+0:04:06.16,000 --> 0:04:09,000
+c'est que, votre tête grossit assez facilement.
+
+95
+0:04:09.16,000 --> 0:04:11,000
+Et lorsque je faisais des icônes, j'étais, genre
+
+96
+0:04:11.16,000 --> 0:04:13,000
+le maître des icônes,
+
+97
+0:04:13.16,000 --> 0:04:15,000
+et je me disais, je suis, très bon à ça, vous savez.
+
+98
+0:04:15.16,000 --> 0:04:17,000
+Et heureusement, vous savez,
+
+99
+0:04:17.16,000 --> 0:04:2,000
+j'ai eu la chance d'aller dans un endroit appelé une bibliothèque,
+
+100
+0:04:20.16,000 --> 0:04:23,000
+et dans cette bibliothèque je suis tombé sur ce même livre
+
+101
+0:04:23.16,000 --> 0:04:25,000
+J'ai trouvé ce livre. Il s'appelle,
+
+102
+0:04:25.16,000 --> 0:04:28,000
+"Thought on Design" (pensées sur le Design), par un homme nommé Paul Rand.
+
+103
+0:04:28.16,000 --> 0:04:3,000
+C'est un petit livre ; Je ne suis pas sûr si vous avez vu ça.
+
+104
+0:04:30.16,000 --> 0:04:33,000
+C'est un bon petit livre. C'est à propos de ce type, Paul Rand,
+
+105
+0:04:33.16,000 --> 0:04:35,000
+qui était l'un des meilleurs designers,
+
+106
+0:04:35.16,000 --> 0:04:37,000
+ainsi qu'un très bon écrivain.
+
+107
+0:04:37.16,000 --> 0:04:39,000
+Et lorsque j'ai vu son travail,
+
+108
+0:04:39.16,000 --> 0:04:42,000
+j'ai réalisé à quel point j'étais mauvais en design,
+
+109
+0:04:42.16,000 --> 0:04:44,000
+ou du moins ce que j'appelais design à l'époque,
+
+110
+0:04:44.16,000 --> 0:04:46,000
+et soudainement j'ai eu une espèce d'objectif de carrière,
+
+111
+0:04:46.16,000 --> 0:04:48,000
+un peu comme une poursuite effrénée.
+
+112
+0:04:50.16,000 --> 0:04:53,000
+Donc j'ai changé. Je suis allé au MIT, je l'ai fini.
+
+113
+0:04:54.16,000 --> 0:04:56,000
+J'ai eu mon master, et suis allé dans une école d'art après ça.
+
+114
+0:04:58.16,000 --> 0:05:,000
+Et alors que j'ai commencé à concevoir des choses,
+
+115
+0:05:00.16,000 --> 0:05:02,000
+comme des emballages de baguettes, des serviettes, des menus -- tout ce sur quoi j'ai pu mettre la main :
+
+116
+0:05:02.16,000 --> 0:05:05,000
+faire tout ce qui était possible, évoluer dans le monde du design, tout ca.
+
+117
+0:05:05.16,000 --> 0:05:08,000
+Et n'est-ce pas un étrange moment lorsque votre design se voit publié ?
+
+118
+0:05:08.16,000 --> 0:05:1,000
+Rappelez-vous de ce moment -- la publication de votre design ?
+
+119
+0:05:10.16,000 --> 0:05:13,000
+Vous vous en rappelez ? On se sent bien, n'est-ce pas ?
+
+120
+0:05:13.16,000 --> 0:05:14,000
+Donc, j'étais publié, vous savez
+
+121
+0:05:14.16,000 --> 0:05:16,000
+donc, wow, mes designs sont dans un livre, vous savez ?
+
+122
+0:05:16.16,000 --> 0:05:18,000
+Après ça, les choses ont tourné un peu bizzarement,
+
+123
+0:05:18.16,000 --> 0:05:2,000
+et je me suis mis à penser aux ordinateurs,
+
+124
+0:05:20.16,000 --> 0:05:23,000
+parce que l'ordinateur m'a toujours turlupiné.
+
+125
+0:05:23.16,000 --> 0:05:25,000
+Je ne comprenais pas trop. Paul Rand
+
+126
+0:05:25.16,000 --> 0:05:28,000
+était un designer plutôt croustillant,
+
+127
+0:05:28.16,000 --> 0:05:31,000
+vous savez, un designer croustillant, comme un -- comme du bon pain Français ?
+
+128
+0:05:31.16,000 --> 0:05:33,000
+Vous savez, il a écrit dans l'un de ses livres :
+
+129
+0:05:33.16,000 --> 0:05:35,000
+"Un étudiant de Yale a dit une fois,
+
+130
+0:05:35.16,000 --> 0:05:38,000
+'Je suis venu ici pour apprendre comment designer, pas comment utiliser un ordinateur.'
+
+131
+0:05:38.16,000 --> 0:05:4,000
+Les écoles de design ont écouté."
+
+132
+0:05:40.16,000 --> 0:05:42,000
+C'était dans les années 80
+
+133
+0:05:42.16,000 --> 0:05:45,000
+lors du grand clash des entre les pro et les anti ordinateurs.
+
+134
+0:05:45.16,000 --> 0:05:47,000
+Une époque très difficile, en fait.
+
+135
+0:05:47.16,000 --> 0:05:49,000
+Et pour moi c'était un message important de Rand.
+
+136
+0:05:51.16,000 --> 0:05:54,000
+Et donc, je commençais à fouiner dans l'ordinateur à cette époque.
+
+137
+0:05:54.16,000 --> 0:05:57,000
+C'est ma première sorte d'expérimentation.
+
+138
+0:05:57.16,000 --> 0:06:01,000
+J'avais fait une espèce de version fonctionnelle Adobe Illustrator-esque.
+
+139
+0:06:01.16,000 --> 0:06:03,000
+Ça ressemble à Illustrator; ça peut, par exemple, dessiner.
+
+140
+0:06:03.16,000 --> 0:06:05,000
+C'était très dur de faire ca, en fait.
+
+141
+0:06:05.16,000 --> 0:06:07,000
+Ça a pris un mois pour faire cette partie.
+
+142
+0:06:07.16,000 --> 0:06:09,000
+Ensuite j'ai pensé "et si j'ajoutais cette fonctionnalité ?",
+
+143
+0:06:09.16,000 --> 0:06:11,000
+à partir de ce point, je pouvais dire
+
+144
+0:06:11.16,000 --> 0:06:14,000
+que je pouvais voler comme un oiseau. La liberté, en quelque sorte.
+
+145
+0:06:14.16,000 --> 0:06:18,000
+Donc je pouvais, en quelque sorte, changer l'espèce de stabilité
+
+146
+0:06:18.16,000 --> 0:06:2,000
+avec un petit contrôle là sur le cadran,
+
+147
+0:06:20.16,000 --> 0:06:22,000
+je peux le voir se retourner
+
+148
+0:06:22.16,000 --> 0:06:25,000
+et ça c'était en 1993.
+
+149
+0:06:25.16,000 --> 0:06:29,000
+Et lorsque mes professeurs ont vu ça, ils étaient très énervés contre moi.
+
+150
+0:06:29.16,000 --> 0:06:31,000
+Ils disaient "pourquoi est-ce que ça bouge ?"
+
+151
+0:06:32.16,000 --> 0:06:35,000
+Ils disaient "Arrête-le maintenant".
+
+152
+0:06:35.16,000 --> 0:06:37,000
+Là je leur disais "Eh bien, c'est bien là toute l'idée : ça bouge."
+
+153
+0:06:37.16,000 --> 0:06:39,000
+Et il disait "Eh bien, quand est-ce que ça va s'arrêter ?"
+
+154
+0:06:39.16,000 --> 0:06:4,000
+Et je leur disais : "Jamais."
+
+155
+0:06:40.16,000 --> 0:06:43,000
+Et il disait : "Encore pire. Stoppe-le maintenant."
+
+156
+0:06:43.16,000 --> 0:06:45,000
+J'ai commencé à étudier cette idée,
+
+157
+0:06:45.16,000 --> 0:06:48,000
+"Qu'est-ce que c'est que cet ordinateur ? C'est un drôle de support.
+
+158
+0:06:48.16,000 --> 0:06:51,000
+Ce n'est pas comme du papier. Ce n'est pas comme de la vidéo.
+
+159
+0:06:51.16,000 --> 0:06:54,000
+Ca reste pour toujours. C'est un support très étrange.
+
+160
+0:06:54.16,000 --> 0:06:56,000
+Donc, je partais de là,
+
+161
+0:06:56.16,000 --> 0:06:58,000
+et commençais à chercher encore d'autres choses.
+
+162
+0:06:58.16,000 --> 0:07:01,000
+Et donc, au Japon, j'ai commencé à expérimenter avec les gens.
+
+163
+0:07:01.16,000 --> 0:07:04,000
+En fait, c'est plutôt mauvais, les expériences humaines.
+
+164
+0:07:04.16,000 --> 0:07:07,000
+Je faisais ces choses où je transformais des étudiants en stylos :
+
+165
+0:07:07.16,000 --> 0:07:1,000
+il y a les stylos bleu, rouge, vert, noir.
+
+166
+0:07:10.16,000 --> 0:07:13,000
+et quelqu'un s'asseyait et dessinait une image.
+
+167
+0:07:18.16,000 --> 0:07:2,000
+Ils rient parce qu'il dit
+
+168
+0:07:20.16,000 --> 0:07:23,000
+"dessine du milieu droit au milieu" et il s'est trompé.
+
+169
+0:07:23.16,000 --> 0:07:25,000
+Vous voyez, les humains ne savent pas comment recevoir des ordres ;
+
+170
+0:07:25.16,000 --> 0:07:27,000
+l'ordinateur est tellement bon à ça.
+
+171
+0:07:27.16,000 --> 0:07:3,000
+Ce type a compris comment faire pour que l'ordinateur dessine avec deux stylos en même temps :
+
+172
+0:07:30.16,000 --> 0:07:33,000
+vous savez "toi stylo, fait ça ; et toi stylo, fait ça".
+
+173
+0:07:33.16,000 --> 0:07:36,000
+Et donc avec plusieurs stylos sur la page --
+
+174
+0:07:36.16,000 --> 0:07:39,000
+une fois de plus, difficile de le faire avec nos mains.
+
+175
+0:07:39.16,000 --> 0:07:41,000
+Et ensuite quelqu'un a découvert en une révélation
+
+176
+0:07:41.16,000 --> 0:07:44,000
+que l'on pouvait utiliser un système de coordonnées.
+
+177
+0:07:44.16,000 --> 0:07:46,000
+On a pensé "ah, c'est à ce moment que ça va arriver".
+
+178
+0:07:46.16,000 --> 0:07:49,000
+Au final, il a dessiné une maison. C'était la chose la plus ennuyeuse possible.
+
+179
+0:07:49.16,000 --> 0:07:52,000
+C'était devenu informatique ; on a commencé à penser informatique --
+
+180
+0:07:52.16,000 --> 0:07:55,000
+le système X, Y -- et donc c'était une espèce de révélation.
+
+181
+0:07:55.16,000 --> 0:07:58,000
+Et après ça j'ai voulu construire un ordinateur avec des gens,
+
+182
+0:07:58.16,000 --> 0:08:,000
+appelé "ordinateur alimenté par des humains".
+
+183
+0:08:00.16,000 --> 0:08:03,000
+Donc, ceci s'est passé en 1993.
+
+184
+0:08:04.16,000 --> 0:08:05,000
+Un peu moins fort, s'il vous plait.
+
+185
+0:08:05.16,000 --> 0:08:09,000
+C'est un ordinateur où les gens sont les composants
+
+186
+0:08:09.16,000 --> 0:08:13,000
+Derrière ce mur, il y avait un disque dur, un processeur
+
+187
+0:08:13.16,000 --> 0:08:15,000
+une carte graphique, un système de mémoire
+
+188
+0:08:15.16,000 --> 0:08:18,000
+Ils transportent une disquette géante faite en carton.
+
+189
+0:08:18.16,000 --> 0:08:21,000
+Elle est mise dans l'ordinateur.
+
+190
+0:08:21.16,000 --> 0:08:24,000
+Et ce petit programme est sur le carton.
+
+191
+0:08:24.16,000 --> 0:08:27,000
+Donc, elle porte le disque,
+
+192
+0:08:27.16,000 --> 0:08:31,000
+et lit les données du secteur du disque
+
+193
+0:08:31.16,000 --> 0:08:34,000
+et l'ordinateur s'allume ; il démarre en fait, vraiment.
+
+194
+0:08:34.16,000 --> 0:08:37,000
+Et c'était une sorte d'ordinateur opérationnel. Et lorsque j'ai construit cet ordinateur,
+
+195
+0:08:37.16,000 --> 0:08:39,000
+J'ai eu un moment de -- comment ça s'appelle? --
+
+196
+0:08:39.16,000 --> 0:08:43,000
+l'épiphanie où j'ai réalisé que l'ordinateur était tellement rapide.
+
+197
+0:08:43.16,000 --> 0:08:47,000
+Cet ordinateur parait être rapide - elle travaille très dur,
+
+198
+0:08:47.16,000 --> 0:08:5,000
+et ces gens courent dans tout les sens, et on a pensé, "wow, ça se fait vite"
+
+199
+0:08:51.16,000 --> 0:08:54,000
+et cet ordinateur est programmé pour faire une seule chose, qui est,
+
+200
+0:08:54.16,000 --> 0:08:57,000
+si tu bouge ta souris, la souris change à l'écran.
+
+201
+0:08:57.16,000 --> 0:09:,000
+Sur un ordinateur, lorsque vous bougez votre souris, cette flèche bouge.
+
+202
+0:09:01.16,000 --> 0:09:03,000
+Sur cet ordinateur, si vous bougez la souris, ça prend une demie heure
+
+203
+0:09:03.16,000 --> 0:09:05,000
+pour que le curseur de la souris bouge.
+
+204
+0:09:05.16,000 --> 0:09:07,000
+Ca vous donne une idée de la vitesse, l'ordre de grandeur :
+
+205
+0:09:07.16,000 --> 0:09:1,000
+l'ordinateur est juste tellement rapide, ok ?
+
+206
+0:09:10.16,000 --> 0:09:13,000
+Et donc, après ça j'ai commencé à faire des expériences pour différentes compagnies.
+
+207
+0:09:13.16,000 --> 0:09:16,000
+Ceci est quelque chose que j'ai fait pour Sony en 1996.
+
+208
+0:09:16.16,000 --> 0:09:18,000
+C'était trois appareils Sony "H"
+
+209
+0:09:18.16,000 --> 0:09:2,000
+qui répondaient au son.
+
+210
+0:09:20.16,000 --> 0:09:22,000
+Donc, si vous parlez dans le micro,
+
+211
+0:09:22.16,000 --> 0:09:24,000
+vous entendez un peu de musique dans votre casque
+
+212
+0:09:24.16,000 --> 0:09:26,000
+si vous parlez dans le téléphone, une vidéo se déclenchait.
+
+213
+0:09:26.16,000 --> 0:09:28,000
+Donc, j'ai commencé à expérimenter de différentes manières avec l'industrie
+
+214
+0:09:28.16,000 --> 0:09:31,000
+avec cette espèce de mélange de compétences.
+
+215
+0:09:31.16,000 --> 0:09:35,000
+J'ai fait cette publicité. Je ne crois pas en ce genre d'alcool, mais j'en bois parfois.
+
+216
+0:09:35.16,000 --> 0:09:37,000
+Et Chanel. Donc, j'étais sur des projet différents.
+
+217
+0:09:37.16,000 --> 0:09:39,000
+Et aussi, quelque chose que j'ai réalisé c'était que
+
+218
+0:09:39.16,000 --> 0:09:41,000
+j'aime faire des choses.
+
+219
+0:09:41.16,000 --> 0:09:44,000
+Nous aimons faire des choses. C'est drôle de faire des choses.
+
+220
+0:09:44.16,000 --> 0:09:46,000
+Et donc je n'ai jamais développé la capacité à avoir une équipe.
+
+221
+0:09:46.16,000 --> 0:09:48,000
+Je n'ai pas d'équipe ; c'est un peu fait tout à la main --
+
+222
+0:09:48.16,000 --> 0:09:5,000
+ce genre de mains maladroites.
+
+223
+0:09:50.16,000 --> 0:09:53,000
+Et ces mains ont été influencées
+
+224
+0:09:53.16,000 --> 0:09:56,000
+par cet homme, M. Inami Neomi.
+
+225
+0:09:56.16,000 --> 0:09:58,000
+Cet homme était comme un mentor pour moi.
+
+226
+0:09:58.16,000 --> 0:10:01,000
+Il était le premier producteur de média digital à Tokyo.
+
+227
+0:10:01.16,000 --> 0:10:03,000
+C'est le type qui m'a découvert en quelque sorte,
+
+228
+0:10:03.16,000 --> 0:10:05,000
+et qui m'a orienté vers le média digital.
+
+229
+0:10:05.16,000 --> 0:10:08,000
+C'était une telle source d'inspiration.
+
+230
+0:10:08.16,000 --> 0:10:11,000
+Je me souviens que l'on était dans son studio jusqu'à 2h du matin,
+
+231
+0:10:11.16,000 --> 0:10:14,000
+et ensuite il revenait d'une rencontre client.
+
+232
+0:10:14.16,000 --> 0:10:16,000
+Il venait et disait "tu sais,
+
+233
+0:10:16.16,000 --> 0:10:19,000
+si je suis là, tout va bien."
+
+234
+0:10:19.16,000 --> 0:10:21,000
+Et vous vous sentiez tellement mieux, vous savez.
+
+235
+0:10:21.16,000 --> 0:10:25,000
+Et je n'oublierai jamais comment... comment,
+
+236
+0:10:25.16,000 --> 0:10:28,000
+il a soudainement eu un -- il a eu un anévrisme.
+
+237
+0:10:28.16,000 --> 0:10:3,000
+Il est entré dans un coma.
+
+238
+0:10:30.16,000 --> 0:10:33,000
+Et donc, pendant 3 ans, il était absent, et il pouvait juste cligner des yeux,
+
+239
+0:10:33.16,000 --> 0:10:35,000
+et donc j'ai réalisé à ce moment, je me suis dit, wow --
+
+240
+0:10:35.16,000 --> 0:10:37,000
+à quel point cette chose que nous portons était fragile,
+
+241
+0:10:37.16,000 --> 0:10:39,000
+ce corps et cet esprit que nous portons,
+
+242
+0:10:39.16,000 --> 0:10:41,000
+et donc je me suis dit. Comment faire pour être plus à fond ?
+
+243
+0:10:41.16,000 --> 0:10:44,000
+Comment prendre ce temps qu'il reste et y aller à fond ?
+
+244
+0:10:44.16,000 --> 0:10:46,000
+Voilà, Naomi était central pour ça.
+
+245
+0:10:46.16,000 --> 0:10:49,000
+Et donc, j'ai commencé à penser un peu plus précisément à l'ordinateur.
+
+246
+0:10:49.16,000 --> 0:10:51,000
+C'était un moment où je pensais à,
+
+247
+0:10:51.16,000 --> 0:10:53,000
+donc, vous avez un programme informatique,
+
+248
+0:10:53.16,000 --> 0:10:57,000
+il répond au mouvement -- X et Y--
+
+249
+0:10:57.16,000 --> 0:10:59,000
+et j'ai réalisé que chacun des programmes informatiques
+
+250
+0:10:59.16,000 --> 0:11:02,000
+avait toutes ces images dans le programme.
+
+251
+0:11:02.16,000 --> 0:11:04,000
+Donc, si vous pouvez voir ici, vous savez,
+
+252
+0:11:04.16,000 --> 0:11:06,000
+ce programme que vous voyez dans le coin,
+
+253
+0:11:06.16,000 --> 0:11:09,000
+si vous l'étalez, c'est toutes ces choses à la fois.
+
+254
+0:11:09.16,000 --> 0:11:13,000
+C'est la véritable simultanéité. C'est complètement différent de tout ce à quoi l'on est habitué pour travailller.
+
+255
+0:11:13.16,000 --> 0:11:15,000
+Nous sommes tellement habitués à travailler sur un seul vecteur.
+
+256
+0:11:15.16,000 --> 0:11:17,000
+C'était tout en même temps.
+
+257
+0:11:17.16,000 --> 0:11:19,000
+L'ordinateur vit dans tellement de dimensions.
+
+258
+0:11:19.16,000 --> 0:11:21,000
+Et aussi, en même temps j'étais frustré,
+
+259
+0:11:21.16,000 --> 0:11:23,000
+parce que j'allais à toutes ces écoles d'art et de design,
+
+260
+0:11:23.16,000 --> 0:11:26,000
+et il y avait ces espèces de "labos informatiquex" vous savez,
+
+261
+0:11:26.16,000 --> 0:11:29,000
+et ça se passait dans la fin des années 90,
+
+262
+0:11:29.16,000 --> 0:11:31,000
+et ça c'est à Bâle,
+
+263
+0:11:31.16,000 --> 0:11:33,000
+une bonne école de design graphique.
+
+264
+0:11:33.16,000 --> 0:11:35,000
+Et il y avait ça: une salle d'ordinateur sale,
+
+265
+0:11:35.16,000 --> 0:11:38,000
+sombre et de mauvaise qualité.
+
+266
+0:11:38.16,000 --> 0:11:4,000
+Et je commencais à me dire, "C'est ça le but ?"
+
+267
+0:11:40.16,000 --> 0:11:43,000
+Est-ce que c'est ce que l'on veut, vous savez?
+
+268
+0:11:43.16,000 --> 0:11:46,000
+Et aussi, j'ai commencé à être fasciné par les machines --
+
+269
+0:11:46.16,000 --> 0:11:49,000
+vous savez, comme les photocopieuses -- et donc, ça c'était en fait à Bâle.
+
+270
+0:11:49.16,000 --> 0:11:52,000
+J'ai remarqué combien de temps on a passé à la rendre interactive --
+
+271
+0:11:52.16,000 --> 0:11:54,000
+ça, c'est comme, un écran tactile --
+
+272
+0:11:54.16,000 --> 0:11:56,000
+et j'ai remarqué que l'on pouvait uniquement toucher 5 endroits,
+
+273
+0:11:56.16,000 --> 0:11:59,000
+et donc "pourquoi est-ce que l'on gâche autant d'interactivité partout ailleurs ?"
+
+274
+0:11:59.16,000 --> 0:12:02,000
+est devenu une question. Aussi, le son :
+
+275
+0:12:02.16,000 --> 0:12:06,000
+j'ai découvert que je pouvais faire passer mon ThinkPad pour un téléphone.
+
+276
+0:12:07.16,000 --> 0:12:09,000
+Vous avez compris? Non ? D'accord.
+
+277
+0:12:09.16,000 --> 0:12:12,000
+Et aussi, j'ai découvert à l'aéroport de Logan,
+
+278
+0:12:12.16,000 --> 0:12:15,000
+ça, comment dire... ça m'appelait.
+
+279
+0:12:20.16,000 --> 0:12:23,000
+Vous avez entendu ça ? C'est comme des vaches. C'était à 4 heures du matin à Logan.
+
+280
+0:12:23.16,000 --> 0:12:25,000
+Donc je me demandais,
+
+281
+0:12:25.16,000 --> 0:12:28,000
+"Qu'est-ce que cette chose devant moi, cette espèce d'ordinateur?"
+
+282
+0:12:28.16,000 --> 0:12:3,000
+Ça n'avait aucun sens.
+
+283
+0:12:30.16,000 --> 0:12:32,000
+Donc, je me suis remis à faire des choses. C'était une autre série d'objets
+
+284
+0:12:32.16,000 --> 0:12:34,000
+faits de vieux ordinateurs de ma cave.
+
+285
+0:12:34.16,000 --> 0:12:36,000
+J'ai créé -- J'ai pris mes vieux Macintoshes
+
+286
+0:12:36.16,000 --> 0:12:39,000
+et en fait différents objets pour Tokyo.
+
+287
+0:12:39.16,000 --> 0:12:42,000
+j'ai commencé à être très désintéressé dans les ordinateur en eux mêmes,
+
+288
+0:12:42.16,000 --> 0:12:44,000
+j'ai donc commencé à faire des peintures avec des PalmPilots.
+
+289
+0:12:44.16,000 --> 0:12:46,000
+J'ai fait cette série d'oeuvres.
+
+290
+0:12:46.16,000 --> 0:12:49,000
+Ce sont des peintures que j'ai faites en mettant un PalmPilot au centre
+
+291
+0:12:49.16,000 --> 0:12:51,000
+comme une espèce de présentation qui pense
+
+292
+0:12:51.16,000 --> 0:12:54,000
+Je suis de l'art abstrait. Que suis-je ? Je suis abstrait.
+
+293
+0:12:54.16,000 --> 0:12:57,000
+Et donc il pense sans cesse à sa propre abstraction.
+
+294
+0:12:58.16,000 --> 0:13:01,000
+J'ai commencé à être fasciné par le plastique,
+
+295
+0:13:01.16,000 --> 0:13:04,000
+donc j'ai passé 4 mois à faire huit blocs de plastique
+
+296
+0:13:04.16,000 --> 0:13:06,000
+parfaitement transparent optiquement,
+
+297
+0:13:06.16,000 --> 0:13:09,000
+pour décompresser, on pourrait dire.
+
+298
+0:13:09.16,000 --> 0:13:12,000
+A cause de ça, je me suis intéressé au scotch bleu,
+
+299
+0:13:12.16,000 --> 0:13:15,000
+donc à San Francisco, à CC, j'ai fait une exposition complète sur le scotch bleu.
+
+300
+0:13:15.16,000 --> 0:13:17,000
+J'ai fait un installation complète à partir de ce scotch bleu qu'utilisent les peintres.
+
+301
+0:13:17.16,000 --> 0:13:2,000
+Et c'est à ce moment là que ma femme à commencé à s'inquiéter pour moi,
+
+302
+0:13:20.16,000 --> 0:13:22,000
+donc j'ai arrêté de faire des trucs avec du scotch bleu et j'ai commencer à penser,
+
+303
+0:13:22.16,000 --> 0:13:24,000
+"Bon, qu'y a t-il d'autre dans la vie ?"
+
+304
+0:13:24.16,000 --> 0:13:26,000
+Et donc les ordinateurs, comme vous le savez,
+
+305
+0:13:27.16,000 --> 0:13:29,000
+ces gros ordinateurs, ils sont maintenant devenus de petits ordinateurs.
+
+306
+0:13:29.16,000 --> 0:13:31,000
+Ce sont des ordinateurs plus petits, donc les ordinateurs mono-puces,
+
+307
+0:13:31.16,000 --> 0:13:33,000
+j'ai commencé à programmer des ordinateurs en une seule puce
+
+308
+0:13:33.16,000 --> 0:13:37,000
+et fait des objets à partir de cartes d'ordinateurs, de diodes.
+
+309
+0:13:37.16,000 --> 0:13:39,000
+J'ai commencé à faire des sculptures de diodes électroluminescentes
+
+310
+0:13:39.16,000 --> 0:13:42,000
+qui vivraient dans des petites boites faites de panneaux en aggloméré.
+
+311
+0:13:42.16,000 --> 0:13:45,000
+C'est une série de boites lumineuses que j'ai faite pour une exposition en Italie.
+
+312
+0:13:46.16,000 --> 0:13:49,000
+Des boites vraiment simples : vous appuyez juste sur un bouton et les diodes interagissent.
+
+313
+0:13:49.16,000 --> 0:13:52,000
+Ceci est une série de lampes que j'ai faite. Ceci est un une lampe boîte de Bento :
+
+314
+0:13:52.16,000 --> 0:13:55,000
+C'est une espèce de lampe de riz en plastique ;
+
+315
+0:13:55.16,000 --> 0:13:57,000
+c'est très sympa.
+
+316
+0:13:57.16,000 --> 0:14:,000
+J'ai fait une exposition à Londres l'année dernière avec des iPods --
+
+317
+0:14:00.16,000 --> 0:14:02,000
+Je me suis servi d'iPods comme de martériau.
+
+318
+0:14:02.16,000 --> 0:14:04,000
+Donc j'ai pris 16 iPods Nanos
+
+319
+0:14:04.16,000 --> 0:14:06,000
+et j'ai fait une sorte de poisson Nano, en gros.
+
+320
+0:14:06.16,000 --> 0:14:08,000
+Récemment, ça c'était pour Reebok.
+
+321
+0:14:08.16,000 --> 0:14:1,000
+J'ai aussi fait des chaussures pour Reebok,
+
+322
+0:14:10.16,000 --> 0:14:12,000
+une sorte de hobby pour l'habillement.
+
+323
+0:14:12.16,000 --> 0:14:15,000
+Donc de toute façon, il y a toutes ces choses que l'on peut faire,
+
+324
+0:14:15.16,000 --> 0:14:17,000
+mais la chose que j'aime le plus c'est
+
+325
+0:14:17.16,000 --> 0:14:19,000
+l'expérience, goûter au monde.
+
+326
+0:14:19.16,000 --> 0:14:21,000
+Le monde est tellement délicieux.
+
+327
+0:14:21.16,000 --> 0:14:23,000
+On pense qu'on ira dans un musée ; c'est là que se trouve tous les goûts.
+
+328
+0:14:23.16,000 --> 0:14:25,000
+Non, ils sont partout en dehors.
+
+329
+0:14:25.16,000 --> 0:14:27,000
+Donc, ça, c'est, devant la Tour Eiffel, réellement,
+
+330
+0:14:27.16,000 --> 0:14:29,000
+en fait, aux alentours du Louvre.
+
+331
+0:14:29.16,000 --> 0:14:31,000
+Ce que j'ai trouvé, où la nature avait fait une image à mon intention,
+
+332
+0:14:31.16,000 --> 0:14:33,000
+c'est un angle parfait de 90 degrés naturel.
+
+333
+0:14:33.16,000 --> 0:14:36,000
+Dans ce moment étrange où, ces choses semblent apparaître.
+
+334
+0:14:36.16,000 --> 0:14:38,000
+Nous sommes des personnes créatives.
+
+335
+0:14:38.16,000 --> 0:14:41,000
+Nous avons cette anomalie génétique dans notre esprit.
+
+336
+0:14:41.16,000 --> 0:14:44,000
+Nous ne pouvons nous empêcher de nous y arrêter, n'est-ce pas ? Cette sensation est une chose formidable.
+
+337
+0:14:44.16,000 --> 0:14:47,000
+C'est le sempiternel-perpétuel musée.
+
+338
+0:14:47.16,000 --> 0:14:49,000
+Ceci provient du Cape, l'an dernier.
+
+339
+0:14:49.16,000 --> 0:14:52,000
+J'ai découvert que je devais trouver l'équation de l'art et du design,
+
+340
+0:14:52.16,000 --> 0:14:55,000
+que nous connaissons sous la forme cercle-triangle-carré.
+
+341
+0:14:55.16,000 --> 0:14:57,000
+J'ai découvert que c'est partout sur la plage.
+
+342
+0:14:57.16,000 --> 0:15:,000
+J'ai commencé à rassembler chaque occurrence de cercle-triangle-carré.
+
+343
+0:15:00.16,000 --> 0:15:02,000
+Au fait, j'ai remis tout cela en place
+
+344
+0:15:02.16,000 --> 0:15:04,000
+et j'ai découvert que
+
+345
+0:15:04.16,000 --> 0:15:07,000
+certains cailloux sont des jumeaux séparés à la naissance
+
+346
+0:15:07.16,000 --> 0:15:1,000
+C'est là aussi, vous savez.
+
+347
+0:15:10.16,000 --> 0:15:12,000
+Je me demande comment ce genre de choses arrivent.
+
+348
+0:15:12.16,000 --> 0:15:14,000
+Je vous ai rassemblés de nouveau.
+
+349
+0:15:14.16,000 --> 0:15:17,000
+Donc, il y a trois ans, je découvrais que les lettres M-I-T
+
+350
+0:15:17.16,000 --> 0:15:19,000
+apparaissent dans simplicité et dans complexité.
+
+351
+0:15:19.16,000 --> 0:15:21,000
+Ma mère nourricière, MIT, et j'ai eu ce moment --
+
+352
+0:15:21.16,000 --> 0:15:22,000
+une sorte de moment "M. Night Shayamalan" ---
+
+353
+0:15:22.16,000 --> 0:15:25,000
+où j'ai pensé : Wouah ! Je dois faire ça.
+
+354
+0:15:25.16,000 --> 0:15:28,000
+J'y suis allé avec passion.
+
+355
+0:15:28.16,000 --> 0:15:32,000
+Cependant, récemment cette opportunité au RISD apparut ---
+
+356
+0:15:32.16,000 --> 0:15:35,000
+aller au RISD -- et je ne pouvais pas concilier ça très facilement,
+
+357
+0:15:35.16,000 --> 0:15:39,000
+parce que les lettres m'avaient dit, MIT pour toujours.
+
+358
+0:15:39.16,000 --> 0:15:42,000
+Mais j'ai découvert en Français les mots "Raison d'être".
+
+359
+0:15:42.16,000 --> 0:15:44,000
+Et je me suis dit, attends une seconde.
+
+360
+0:15:44.16,000 --> 0:15:47,000
+Et voilà que RISD apparut.
+
+361
+0:15:47.16,000 --> 0:15:49,000
+Et alors j'ai réalisé que c'était OK d'y aller.
+
+362
+0:15:49.16,000 --> 0:15:53,000
+Donc, en fait, je vais au RISD.
+
+363
+0:15:53.16,000 --> 0:15:55,000
+Qui est un ancien de RISD ici ?
+
+364
+0:15:55.16,000 --> 0:15:58,000
+Un ancien de RISD ? Oui, RISD. Allons-y, RISD, Wouh, RISD.
+
+365
+0:15:58.16,000 --> 0:16:,000
+Désolé, je suis désolé -- Art Center est bon aussi.
+
+366
+0:16:00.16,000 --> 0:16:04,000
+RISD est en quelque sorte ma nouvelle passion,
+
+367
+0:16:04.16,000 --> 0:16:07,000
+et je vais vous en parler un petit peu.
+
+368
+0:16:07.16,000 --> 0:16:09,000
+Donc, RISD c'est --
+
+369
+0:16:09.16,000 --> 0:16:11,000
+J'étais à l'extérieur de RISD,
+
+370
+0:16:11.16,000 --> 0:16:13,000
+et des étudiants ont écrit ceci sur un bloc, et j'ai songé,
+
+371
+0:16:13.16,000 --> 0:16:16,000
+Wow, RISD veut savoir ce qu'elle est.
+
+372
+0:16:16.16,000 --> 0:16:18,000
+Et en fait, je n'ai pas idée de ce que RISD devrait être,
+
+373
+0:16:18.16,000 --> 0:16:2,000
+ou ce qu'elle veut être, mais je dois vous dire une chose
+
+374
+0:16:21.16,000 --> 0:16:24,000
+même si je suis un technologue, je n'aime pas tellement la technologie.
+
+375
+0:16:24.16,000 --> 0:16:26,000
+C'est un question de qi ou quoi que ce soit d'autre.
+
+376
+0:16:26.16,000 --> 0:16:28,000
+Les gens disent,
+
+377
+0:16:28.16,000 --> 0:16:3,000
+Emmenerez-vous RISD dans le future ?
+
+378
+0:16:30.16,000 --> 0:16:33,000
+et je réponds, bon, je vais ramener le futur au RISD.
+
+379
+0:16:33.16,000 --> 0:16:36,000
+C'est ma perspective. Parce qu'en réalité,
+
+380
+0:16:36.16,000 --> 0:16:39,000
+le problème n'est pas de rendre le monde plus technologique.
+
+381
+0:16:40.16,000 --> 0:16:42,000
+Mais de le rendre plus humain à nouveau.
+
+382
+0:16:42.16,000 --> 0:16:46,000
+Et plus encore, je pense que RISD a un ADN étrange.
+
+383
+0:16:46.16,000 --> 0:16:48,000
+C'est une étrange exubérance
+
+384
+0:16:48.16,000 --> 0:16:5,000
+des matériaux, du monde :
+
+385
+0:16:50.16,000 --> 0:16:52,000
+une fascination dont, je pense, le monde a pas mal
+
+386
+0:16:52.16,000 --> 0:16:54,000
+besoin en ce moment.
+
+387
+0:16:54.16,000 --> 0:16:56,000
+Voilà, Merci à tous.
+

@@ -1,0 +1,864 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Morton Bast Reviewer: Thu-Huong Ha
+
+2
+0:00:15.73,000 --> 0:00:17,000
+As an architect, I often ask myself,
+
+3
+0:00:18.179,000 --> 0:00:2,000
+what is the origin of the forms that we design?
+
+4
+0:00:21.019,000 --> 0:00:23,000
+What kind of forms could we design
+
+5
+0:00:23.924,000 --> 0:00:25,000
+if we wouldn't work with references anymore?
+
+6
+0:00:26.747,000 --> 0:00:29,000
+If we had no bias, if we had no preconceptions,
+
+7
+0:00:30.132,000 --> 0:00:32,000
+what kind of forms could we design
+
+8
+0:00:32.339,000 --> 0:00:33,000
+if we could free ourselves from
+
+9
+0:00:33.939,000 --> 0:00:35,000
+our experience?
+
+10
+0:00:36.075,000 --> 0:00:4,000
+If we could free ourselves from our education?
+
+11
+0:00:40.809,000 --> 0:00:43,000
+What would these unseen forms look like?
+
+12
+0:00:43.836,000 --> 0:00:46,000
+Would they surprise us? Would they intrigue us?
+
+13
+0:00:47.547,000 --> 0:00:49,000
+Would they delight us?
+
+14
+0:00:49.962,000 --> 0:00:52,000
+If so, then how can we go about creating something that is truly new?
+
+15
+0:00:53.883,000 --> 0:00:55,000
+I propose we look to nature.
+
+16
+0:00:56.275,000 --> 0:01:,000
+Nature has been called the greatest architect of forms.
+
+17
+0:01:00.539,000 --> 0:01:03,000
+And I'm not saying that we should copy nature,
+
+18
+0:01:04.127,000 --> 0:01:06,000
+I'm not saying we should mimic biology,
+
+19
+0:01:06.507,000 --> 0:01:09,000
+instead I propose that we can borrow nature's processes.
+
+20
+0:01:09.955,000 --> 0:01:13,000
+We can abstract them and to create something that is new.
+
+21
+0:01:14.409,000 --> 0:01:17,000
+Nature's main process of creation, morphogenesis,
+
+22
+0:01:18.287,000 --> 0:01:21,000
+is the splitting of one cell into two cells.
+
+23
+0:01:22.116,000 --> 0:01:24,000
+And these cells can either be identical,
+
+24
+0:01:24.173,000 --> 0:01:26,000
+or they can be distinct from each other
+
+25
+0:01:26.348,000 --> 0:01:28,000
+through asymmetric cell division.
+
+26
+0:01:28.412,000 --> 0:01:31,000
+If we abstract this process, and simplify it as much as possible,
+
+27
+0:01:32.211,000 --> 0:01:34,000
+then we could start with a single sheet of paper,
+
+28
+0:01:34.444,000 --> 0:01:36,000
+one surface, and we could make a fold
+
+29
+0:01:36.94,000 --> 0:01:38,000
+and divide the surface into two surfaces.
+
+30
+0:01:39.876,000 --> 0:01:41,000
+We're free to choose where we make the fold.
+
+31
+0:01:42.139,000 --> 0:01:46,000
+And by doing so, we can differentiate the surfaces.
+
+32
+0:01:47.049,000 --> 0:01:48,000
+Through this very simple process,
+
+33
+0:01:48.943,000 --> 0:01:51,000
+we can create an astounding variety of forms.
+
+34
+0:01:52.555,000 --> 0:01:54,000
+Now, we can take this form and use the same process
+
+35
+0:01:55.28,000 --> 0:01:56,000
+to generate three-dimensional structures,
+
+36
+0:01:57.272,000 --> 0:01:59,000
+but rather than folding things by hand,
+
+37
+0:01:59.68,000 --> 0:02:01,000
+we'll bring the structure into the computer,
+
+38
+0:02:02.265,000 --> 0:02:04,000
+and code it as an algorithm.
+
+39
+0:02:05.24,000 --> 0:02:08,000
+And in doing so, we can suddenly fold anything.
+
+40
+0:02:08.248,000 --> 0:02:1,000
+We can fold a million times faster,
+
+41
+0:02:10.407,000 --> 0:02:13,000
+we can fold in hundreds and hundreds of variations.
+
+42
+0:02:13.568,000 --> 0:02:15,000
+And as we're seeking to make something three-dimensional,
+
+43
+0:02:16.048,000 --> 0:02:19,000
+we start not with a single surface, but with a volume.
+
+44
+0:02:19.264,000 --> 0:02:2,000
+A simple volume, the cube.
+
+45
+0:02:20.617,000 --> 0:02:21,000
+If we take its surfaces and fold them
+
+46
+0:02:22.337,000 --> 0:02:24,000
+again and again and again and again,
+
+47
+0:02:24.393,000 --> 0:02:26,000
+then after 16 iterations, 16 steps,
+
+48
+0:02:27.256,000 --> 0:02:3,000
+we end up with 400,000 surfaces and a shape that looks,
+
+49
+0:02:31.105,000 --> 0:02:33,000
+for instance, like this.
+
+50
+0:02:33.64,000 --> 0:02:35,000
+And if we change where we make the folds,
+
+51
+0:02:36.352,000 --> 0:02:37,000
+if we change the folding ratio,
+
+52
+0:02:37.993,000 --> 0:02:4,000
+then this cube turns into this one.
+
+53
+0:02:41.416,000 --> 0:02:45,000
+We can change the folding ratio again to produce this shape,
+
+54
+0:02:45.555,000 --> 0:02:46,000
+or this shape.
+
+55
+0:02:47.382,000 --> 0:02:48,000
+So we exert control over the form
+
+56
+0:02:49.005,000 --> 0:02:52,000
+by specifying the position of where we're making the fold,
+
+57
+0:02:52.509,000 --> 0:02:56,000
+but essentially you're looking at a folded cube.
+
+58
+0:02:57.215,000 --> 0:02:58,000
+And we can play with this.
+
+59
+0:02:58.279,000 --> 0:03:,000
+We can apply different folding ratios to different parts
+
+60
+0:03:00.895,000 --> 0:03:02,000
+of the form to create local conditions.
+
+61
+0:03:03.64,000 --> 0:03:04,000
+We can begin to sculpt the form.
+
+62
+0:03:05.583,000 --> 0:03:07,000
+And because we're doing the folding on the computer,
+
+63
+0:03:08.471,000 --> 0:03:11,000
+we are completely free of any physical constraints.
+
+64
+0:03:12.167,000 --> 0:03:14,000
+So that means that surfaces can intersect themselves,
+
+65
+0:03:15.118,000 --> 0:03:16,000
+they can become impossibly small.
+
+66
+0:03:16.607,000 --> 0:03:19,000
+We can make folds that we otherwise could not make.
+
+67
+0:03:20.208,000 --> 0:03:21,000
+Surfaces can become porous.
+
+68
+0:03:22.086,000 --> 0:03:24,000
+They can stretch. They can tear.
+
+69
+0:03:24.815,000 --> 0:03:28,000
+And all of this expounds the scope of forms that we can produce.
+
+70
+0:03:29.45,000 --> 0:03:31,000
+But in each case, I didn't design the form.
+
+71
+0:03:32.2,000 --> 0:03:36,000
+I designed the process that generated the form.
+
+72
+0:03:36.801,000 --> 0:03:4,000
+In general, if we make a small change to the folding ratio,
+
+73
+0:03:41.289,000 --> 0:03:42,000
+which is what you're seeing here,
+
+74
+0:03:42.884,000 --> 0:03:45,000
+then the form changes correspondingly.
+
+75
+0:03:46.657,000 --> 0:03:48,000
+But that's only half of the story --
+
+76
+0:03:48.913,000 --> 0:03:52,000
+99.9 percent of the folding ratios produce not this,
+
+77
+0:03:53.236,000 --> 0:03:57,000
+but this, the geometric equivalent of noise.
+
+78
+0:03:58.132,000 --> 0:04:,000
+The forms that I showed before were made actually
+
+79
+0:04:00.252,000 --> 0:04:01,000
+through very long trial and error.
+
+80
+0:04:01.9,000 --> 0:04:04,000
+A far more effective way to create forms, I have found,
+
+81
+0:04:05.116,000 --> 0:04:08,000
+is to use information that is already contained in forms.
+
+82
+0:04:09.004,000 --> 0:04:11,000
+A very simple form such as this one actually contains
+
+83
+0:04:11.659,000 --> 0:04:14,000
+a lot of information that may not be visible to the human eye.
+
+84
+0:04:15.251,000 --> 0:04:17,000
+So, for instance, we can plot the length of the edges.
+
+85
+0:04:17.732,000 --> 0:04:2,000
+White surfaces have long edges, black ones have short ones.
+
+86
+0:04:21.068,000 --> 0:04:24,000
+We can plot the planarity of the surfaces, their curvature,
+
+87
+0:04:24.645,000 --> 0:04:28,000
+how radial they are -- all information that may not be
+
+88
+0:04:28.732,000 --> 0:04:29,000
+instantly visible to you,
+
+89
+0:04:30.679,000 --> 0:04:32,000
+but that we can bring out, that we can articulate,
+
+90
+0:04:33.104,000 --> 0:04:36,000
+and that we can use to control the folding.
+
+91
+0:04:36.48,000 --> 0:04:37,000
+So now I'm not specifying a single
+
+92
+0:04:38.439,000 --> 0:04:4,000
+ratio anymore to fold it,
+
+93
+0:04:40.615,000 --> 0:04:42,000
+but instead I'm establishing a rule,
+
+94
+0:04:43.167,000 --> 0:04:45,000
+I'm establishing a link between a property of a surface
+
+95
+0:04:45.603,000 --> 0:04:47,000
+and how that surface is folded.
+
+96
+0:04:48.576,000 --> 0:04:5,000
+And because I've designed the process and not the form,
+
+97
+0:04:51.527,000 --> 0:04:53,000
+I can run the process again and again and again
+
+98
+0:04:53.849,000 --> 0:04:55,000
+to produce a whole family of forms.
+
+99
+0:05:08.645,000 --> 0:05:12,000
+These forms look elaborate, but the process is a very minimal one.
+
+100
+0:05:13.088,000 --> 0:05:14,000
+There is a simple input,
+
+101
+0:05:14.217,000 --> 0:05:15,000
+it's always a cube that I start with,
+
+102
+0:05:16.169,000 --> 0:05:19,000
+and it's a very simple operation -- it's making a fold,
+
+103
+0:05:19.745,000 --> 0:05:22,000
+and doing this over and over again.
+
+104
+0:05:23.697,000 --> 0:05:25,000
+So let's bring this process to architecture.
+
+105
+0:05:25.977,000 --> 0:05:26,000
+How? And at what scale?
+
+106
+0:05:27.577,000 --> 0:05:28,000
+I chose to design a column.
+
+107
+0:05:29.305,000 --> 0:05:32,000
+Columns are architectural archetypes.
+
+108
+0:05:32.681,000 --> 0:05:35,000
+They've been used throughout history to express ideals
+
+109
+0:05:35.748,000 --> 0:05:4,000
+about beauty, about technology.
+
+110
+0:05:40.823,000 --> 0:05:41,000
+A challenge to me was how we could express
+
+111
+0:05:42.745,000 --> 0:05:45,000
+this new algorithmic order in a column.
+
+112
+0:05:46.041,000 --> 0:05:48,000
+I started using four cylinders.
+
+113
+0:05:49.025,000 --> 0:05:52,000
+Through a lot of experimentation, these cylinders
+
+114
+0:05:52.801,000 --> 0:05:55,000
+eventually evolved into this.
+
+115
+0:05:55.936,000 --> 0:05:59,000
+And these columns, they have information at very many scales.
+
+116
+0:06:00.552,000 --> 0:06:02,000
+We can begin to zoom into them.
+
+117
+0:06:03.07,000 --> 0:06:06,000
+The closer one gets, the more new features one discovers.
+
+118
+0:06:06.625,000 --> 0:06:09,000
+Some formations are almost at the threshold of human visibility.
+
+119
+0:06:10.297,000 --> 0:06:11,000
+And unlike traditional architecture,
+
+120
+0:06:12.249,000 --> 0:06:14,000
+it's a single process that creates both the overall form
+
+121
+0:06:15.033,000 --> 0:06:2,000
+and the microscopic surface detail.
+
+122
+0:06:20.378,000 --> 0:06:22,000
+These forms are undrawable.
+
+123
+0:06:23.069,000 --> 0:06:26,000
+An architect who's drawing them with a pen and a paper
+
+124
+0:06:26.445,000 --> 0:06:27,000
+would probably take months,
+
+125
+0:06:28.237,000 --> 0:06:3,000
+or it would take even a year to draw all the sections,
+
+126
+0:06:30.621,000 --> 0:06:32,000
+all of the elevations, you can only create something like this
+
+127
+0:06:32.925,000 --> 0:06:34,000
+through an algorithm.
+
+128
+0:06:35.061,000 --> 0:06:37,000
+The more interesting question, perhaps, is,
+
+129
+0:06:37.093,000 --> 0:06:39,000
+are these forms imaginable?
+
+130
+0:06:39.722,000 --> 0:06:41,000
+Usually, an architect can somehow envision the end state
+
+131
+0:06:42.357,000 --> 0:06:43,000
+of what he is designing.
+
+132
+0:06:44.221,000 --> 0:06:46,000
+In this case, the process is deterministic.
+
+133
+0:06:47.046,000 --> 0:06:49,000
+There's no randomness involved at all,
+
+134
+0:06:49.405,000 --> 0:06:51,000
+but it's not entirely predictable.
+
+135
+0:06:51.412,000 --> 0:06:52,000
+There's too many surfaces,
+
+136
+0:06:52.988,000 --> 0:06:55,000
+there's too much detail, one can't see the end state.
+
+137
+0:06:56.598,000 --> 0:06:59,000
+So this leads to a new role for the architect.
+
+138
+0:06:59.812,000 --> 0:07:02,000
+One needs a new method to explore all of the possibilities
+
+139
+0:07:03.423,000 --> 0:07:04,000
+that are out there.
+
+140
+0:07:05.199,000 --> 0:07:08,000
+For one thing, one can design many variants of a form,
+
+141
+0:07:08.431,000 --> 0:07:1,000
+in parallel, and one can cultivate them.
+
+142
+0:07:10.645,000 --> 0:07:12,000
+And to go back to the analogy with nature,
+
+143
+0:07:12.893,000 --> 0:07:14,000
+one can begin to think in terms of populations,
+
+144
+0:07:15.389,000 --> 0:07:18,000
+one can talk about permutations, about generations,
+
+145
+0:07:18.917,000 --> 0:07:22,000
+about crossing and breeding to come up with a design.
+
+146
+0:07:23.78,000 --> 0:07:25,000
+And the architect is really, he moves into the position
+
+147
+0:07:26.165,000 --> 0:07:29,000
+of being an orchestrator of all of these processes.
+
+148
+0:07:29.597,000 --> 0:07:31,000
+But enough of the theory.
+
+149
+0:07:31.941,000 --> 0:07:33,000
+At one point I simply wanted to jump inside
+
+150
+0:07:34.468,000 --> 0:07:37,000
+this image, so to say, I bought these red and blue
+
+151
+0:07:38.297,000 --> 0:07:4,000
+3D glasses, got up very close to the screen,
+
+152
+0:07:41.233,000 --> 0:07:43,000
+but still that wasn't the same as being able to
+
+153
+0:07:43.305,000 --> 0:07:45,000
+walk around and touch things.
+
+154
+0:07:45.657,000 --> 0:07:46,000
+So there was only one possibility --
+
+155
+0:07:47.56,000 --> 0:07:5,000
+to bring the column out of the computer.
+
+156
+0:07:50.657,000 --> 0:07:52,000
+There's been a lot of talk now about 3D printing.
+
+157
+0:07:53.577,000 --> 0:07:55,000
+For me, or for my purpose at this moment,
+
+158
+0:07:56.536,000 --> 0:07:59,000
+there's still too much of an unfavorable tradeoff
+
+159
+0:07:59.618,000 --> 0:08:05,000
+between scale, on the one hand, and resolution and speed, on the other.
+
+160
+0:08:06.401,000 --> 0:08:08,000
+So instead, we decided to take the column,
+
+161
+0:08:08.658,000 --> 0:08:1,000
+and we decided to build it as a layered model,
+
+162
+0:08:11.097,000 --> 0:08:15,000
+made out of very many slices, thinly stacked over each other.
+
+163
+0:08:15.225,000 --> 0:08:16,000
+What you're looking at here is an X-ray
+
+164
+0:08:17.122,000 --> 0:08:19,000
+of the column that you just saw, viewed from the top.
+
+165
+0:08:19.897,000 --> 0:08:21,000
+Unbeknownst to me at the time,
+
+166
+0:08:21.897,000 --> 0:08:23,000
+because we had only seen the outside,
+
+167
+0:08:24.273,000 --> 0:08:26,000
+the surfaces were continuing to fold themselves,
+
+168
+0:08:26.433,000 --> 0:08:28,000
+to grow on the inside of the column,
+
+169
+0:08:28.697,000 --> 0:08:3,000
+which was quite a surprising discovery.
+
+170
+0:08:31.243,000 --> 0:08:34,000
+From this shape, we calculated a cutting line,
+
+171
+0:08:34.857,000 --> 0:08:37,000
+and then we gave this cutting line to a laser cutter
+
+172
+0:08:37.881,000 --> 0:08:4,000
+to produce -- and you're seeing a segment of it here --
+
+173
+0:08:41.695,000 --> 0:08:45,000
+very many thin slices, individually cut, on top of each other.
+
+174
+0:08:48.74,000 --> 0:08:5,000
+And this is a photo now, it's not a rendering,
+
+175
+0:08:51.553,000 --> 0:08:52,000
+and the column that we ended up with
+
+176
+0:08:53.353,000 --> 0:08:56,000
+after a lot of work, ended up looking remarkably like the one
+
+177
+0:08:56.4,000 --> 0:08:59,000
+that we had designed in the computer.
+
+178
+0:09:00.11,000 --> 0:09:02,000
+Almost all of the details, almost all of the
+
+179
+0:09:02.231,000 --> 0:09:05,000
+surface intricacies were preserved.
+
+180
+0:09:07.886,000 --> 0:09:09,000
+But it was very labor intensive.
+
+181
+0:09:10.232,000 --> 0:09:12,000
+There's a huge disconnect at the moment still
+
+182
+0:09:12.633,000 --> 0:09:14,000
+between the virtual and the physical.
+
+183
+0:09:15.393,000 --> 0:09:17,000
+It took me several months to design the column,
+
+184
+0:09:17.519,000 --> 0:09:19,000
+but ultimately it takes the computer about 30 seconds
+
+185
+0:09:20.237,000 --> 0:09:22,000
+to calculate all of the 16 million faces.
+
+186
+0:09:23.085,000 --> 0:09:24,000
+The physical model, on the other hand,
+
+187
+0:09:25.046,000 --> 0:09:29,000
+is 2,700 layers, one millimeter thick,
+
+188
+0:09:29.254,000 --> 0:09:33,000
+it weighs 700 kilos, it's made of sheet that can cover
+
+189
+0:09:33.401,000 --> 0:09:35,000
+this entire auditorium.
+
+190
+0:09:35.539,000 --> 0:09:37,000
+And the cutting path that the laser followed
+
+191
+0:09:37.627,000 --> 0:09:42,000
+goes from here to the airport and back again.
+
+192
+0:09:42.744,000 --> 0:09:43,000
+But it is increasingly possible.
+
+193
+0:09:44.493,000 --> 0:09:46,000
+Machines are getting faster, it's getting less expensive,
+
+194
+0:09:47.104,000 --> 0:09:49,000
+and there's some promising technological developments
+
+195
+0:09:49.864,000 --> 0:09:5,000
+just on the horizon.
+
+196
+0:09:51.647,000 --> 0:09:54,000
+These are images from the Gwangju Biennale.
+
+197
+0:09:54.719,000 --> 0:09:57,000
+And in this case, I used ABS plastic to produce the columns,
+
+198
+0:09:58.243,000 --> 0:09:59,000
+we used the bigger, faster machine,
+
+199
+0:10:00.097,000 --> 0:10:03,000
+and they have a steel core inside, so they're structural,
+
+200
+0:10:03.154,000 --> 0:10:05,000
+they can bear loads for once.
+
+201
+0:10:06.13,000 --> 0:10:08,000
+Each column is effectively a hybrid of two columns.
+
+202
+0:10:08.145,000 --> 0:10:11,000
+You can see a different column in the mirror,
+
+203
+0:10:11.554,000 --> 0:10:13,000
+if there's a mirror behind the column
+
+204
+0:10:13.604,000 --> 0:10:16,000
+that creates a sort of an optical illusion.
+
+205
+0:10:16.691,000 --> 0:10:17,000
+So where does this leave us?
+
+206
+0:10:18.522,000 --> 0:10:22,000
+I think this project gives us a glimpse of the unseen objects that await us
+
+207
+0:10:22.99,000 --> 0:10:25,000
+if we as architects begin to think about designing not the object,
+
+208
+0:10:26.873,000 --> 0:10:29,000
+but a process to generate objects.
+
+209
+0:10:30.266,000 --> 0:10:33,000
+I've shown one simple process that was inspired by nature;
+
+210
+0:10:33.539,000 --> 0:10:35,000
+there's countless other ones.
+
+211
+0:10:36.387,000 --> 0:10:39,000
+In short, we have no constraints.
+
+212
+0:10:39.834,000 --> 0:10:42,000
+Instead, we have processes in our hands right now
+
+213
+0:10:43.404,000 --> 0:10:47,000
+that allow us to create structures at all scales
+
+214
+0:10:47.985,000 --> 0:10:5,000
+that we couldn't even have dreamt up.
+
+215
+0:10:51.017,000 --> 0:10:55,000
+And, if I may add, at one point we will build them.
+
+216
+0:10:55.836,000 --> 0:11:01,000
+Thank you. (Applause)
+

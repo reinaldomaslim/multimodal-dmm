@@ -1,0 +1,656 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Eduardo Salinas Revisor: Sebastian Betti
+
+2
+0:00:15.26,000 --> 0:00:17,000
+Año y medio atrás
+
+3
+0:00:17.26,000 --> 0:00:2,000
+Stephen Lawler quien también dio una charla
+
+4
+0:00:20.26,000 --> 0:00:22,000
+aquí en TED en el 2007 sobre Microsoft Virtual Earth
+
+5
+0:00:22.26,000 --> 0:00:26,000
+me trajo para ser el arquitecto de Bing Maps,
+
+6
+0:00:26.26,000 --> 0:00:29,000
+que es el esfuerzo de mapas en línea de Microsoft.
+
+7
+0:00:29.26,000 --> 0:00:31,000
+En los últimos dos años y medio, hemos trabajado mucho
+
+8
+0:00:31.26,000 --> 0:00:35,000
+en redefinir el modo de funcionamiento de los mapas en línea.
+
+9
+0:00:35.26,000 --> 0:00:37,000
+Y, en realidad, estamos viéndolo en términos muy diferentes
+
+10
+0:00:37.26,000 --> 0:00:39,000
+del tipo de sitio de cartografía y direcciones
+
+11
+0:00:39.26,000 --> 0:00:41,000
+al que estamos acostumbrados.
+
+12
+0:00:41.26,000 --> 0:00:43,000
+Entonces, lo primero que uno observa en el sitio de mapas
+
+13
+0:00:43.26,000 --> 0:00:45,000
+es la fluidez del zoom y de los paneos
+
+14
+0:00:45.26,000 --> 0:00:47,000
+que, si conocen Seadragon,
+
+15
+0:00:47.26,000 --> 0:00:49,000
+es de donde proviene.
+
+16
+0:00:49.26,000 --> 0:00:51,000
+Los mapas son, por supuesto,
+
+17
+0:00:51.26,000 --> 0:00:53,000
+no sólo cartografía,
+
+18
+0:00:53.26,000 --> 0:00:55,000
+sino también imágenes.
+
+19
+0:00:55.26,000 --> 0:00:58,000
+Entonces, si amplificamos después de un cierto nivel
+
+20
+0:00:58.26,000 --> 0:01:01,000
+esto se convierte en una suerte de "Sim City",
+
+21
+0:01:01.26,000 --> 0:01:03,000
+una vista virtual a 45 grados.
+
+22
+0:01:03.26,000 --> 0:01:05,000
+Puede ser visto desde cualquier dirección
+
+23
+0:01:05.26,000 --> 0:01:08,000
+para enseñar la estructura 3D de la ciudad, las fachadas.
+
+24
+0:01:08.26,000 --> 0:01:14,000
+Ahora, vemos este espacio, un ambiente tridimensional
+
+25
+0:01:14.26,000 --> 0:01:17,000
+como un lienzo donde
+
+26
+0:01:17.26,000 --> 0:01:23,000
+puede representarse todo tipo de aplicaciones.
+
+27
+0:01:23.26,000 --> 0:01:26,000
+Y la función de direcciones es solamente un ejemplo.
+
+28
+0:01:26.26,000 --> 0:01:29,000
+Si uno le da clic verá
+
+29
+0:01:29.26,000 --> 0:01:32,000
+algunas de las que hemos publicado en los últimos meses
+
+30
+0:01:32.26,000 --> 0:01:34,000
+desde el lanzamiento.
+
+31
+0:01:34.26,000 --> 0:01:36,000
+Por ejemplo, un par de días después del desastre de Haití,
+
+32
+0:01:36.26,000 --> 0:01:38,000
+tuvimos un mapa del terremoto que mostraba
+
+33
+0:01:38.26,000 --> 0:01:4,000
+fotos aéreas de antes y después.
+
+34
+0:01:40.26,000 --> 0:01:42,000
+Una muy interesante, pero no tengo tiempo para enseñarla,
+
+35
+0:01:42.26,000 --> 0:01:45,000
+toma blogs hiper-locales en tiempo real
+
+36
+0:01:45.26,000 --> 0:01:47,000
+y asigna esas historias, esas entradas,
+
+37
+0:01:47.26,000 --> 0:01:49,000
+a los lugares mencionados en los blogs.
+
+38
+0:01:49.26,000 --> 0:01:52,000
+Es grandioso.
+
+39
+0:01:52.26,000 --> 0:01:55,000
+Pero les enseñaré cosas más atractivas.
+
+40
+0:01:55.26,000 --> 0:01:59,000
+Podemos ver las imágenes, por supuesto,
+
+41
+0:01:59.26,000 --> 0:02:02,000
+y estas no paran en el cielo.
+
+42
+0:02:02.26,000 --> 0:02:05,000
+Esas pequeñas burbujas verdes representan
+
+43
+0:02:05.26,000 --> 0:02:07,000
+"photosynths" creadas por los usuarios.
+
+44
+0:02:07.26,000 --> 0:02:1,000
+No voy a abrir una pero las "photosynths" están integradas a los mapas.
+
+45
+0:02:10.26,000 --> 0:02:12,000
+Todo lo que está delimitado en azul
+
+46
+0:02:12.26,000 --> 0:02:17,000
+es un área en el que hemos tomado imágenes en el suelo también.
+
+47
+0:02:17.26,000 --> 0:02:19,000
+Entonces, cuando uno vuela hacia abajo...
+
+48
+0:02:19.26,000 --> 0:02:21,000
+(Aplausos)
+
+49
+0:02:21.26,000 --> 0:02:23,000
+Gracias. Cuando uno vuela hacia el suelo
+
+50
+0:02:23.26,000 --> 0:02:26,000
+y ve este tipo de imagen panorámica,
+
+51
+0:02:26.26,000 --> 0:02:3,000
+lo primero de lo que uno se da cuenta es que no es sólo una imagen,
+
+52
+0:02:30.26,000 --> 0:02:33,000
+hay tanta comprensión tridimensional del entorno
+
+53
+0:02:33.26,000 --> 0:02:36,000
+como lo debe haber de una ciudad tridimensional.
+
+54
+0:02:36.26,000 --> 0:02:4,000
+Si selecciono algo para verlo de más cerca,
+
+55
+0:02:40.26,000 --> 0:02:43,000
+entonces, el hecho que esta transición se vea así
+
+56
+0:02:43.26,000 --> 0:02:45,000
+es debido a toda esa geometría,
+
+57
+0:02:45.26,000 --> 0:02:49,000
+a todo ese entendimiento 3D detrás de este modelo.
+
+58
+0:02:49.26,000 --> 0:02:52,000
+Ahora, les mostraré una aplicación divertida.
+
+59
+0:02:52.26,000 --> 0:02:59,000
+Hemos estado trabajando en colaboración con nuestros amigos de Flickr.
+
+60
+0:02:59.26,000 --> 0:03:02,000
+Este toma imágenes geolocalizadas de Flickr
+
+61
+0:03:02.26,000 --> 0:03:05,000
+y utiliza procesos similares a "photoshynths"
+
+62
+0:03:05.26,000 --> 0:03:09,000
+para conectarlas con nuestras imágenes.
+
+63
+0:03:09.26,000 --> 0:03:12,000
+No estoy seguro si esa es la que quería utilizar, pero...
+
+64
+0:03:12.26,000 --> 0:03:15,000
+(Risas)
+
+65
+0:03:15.26,000 --> 0:03:19,000
+Pero vean... esto es, por supuesto, una atracción turística popular,
+
+66
+0:03:19.26,000 --> 0:03:21,000
+y hay muchas fotos aquí,
+
+67
+0:03:21.26,000 --> 0:03:24,000
+y estas fotos fueron tomadas en distintos momentos.
+
+68
+0:03:24.26,000 --> 0:03:26,000
+Esta fue tomada cerca de las cinco.
+
+69
+0:03:26.26,000 --> 0:03:28,000
+Esa es una imagen de Flickr,
+
+70
+0:03:28.26,000 --> 0:03:3,000
+esas son nuestras imágenes.
+
+71
+0:03:30.26,000 --> 0:03:33,000
+Así pueden ver como todas estas imágenes
+
+72
+0:03:33.26,000 --> 0:03:36,000
+se integran, de manera muy profunda, dentro del mapa.
+
+73
+0:03:36.26,000 --> 0:03:38,000
+(Aplausos)
+
+74
+0:03:38.26,000 --> 0:03:4,000
+Gracias.
+
+75
+0:03:40.26,000 --> 0:03:42,000
+(Aplausos)
+
+76
+0:03:42.26,000 --> 0:03:44,000
+Hay muchas razones por las que esto es interesante
+
+77
+0:03:44.26,000 --> 0:03:46,000
+y una de ellas, por supuesto, es el viaje en el tiempo.
+
+78
+0:03:46.26,000 --> 0:03:48,000
+No les mostraré las imágenes históricas y bellas que tenemos
+
+79
+0:03:48.26,000 --> 0:03:51,000
+pero hay unas con caballos y carruajes, además de otras cosas.
+
+80
+0:03:51.26,000 --> 0:03:54,000
+Pero lo bueno de esto es que no sólo aumenta
+
+81
+0:03:54.26,000 --> 0:03:56,000
+esta representación visual del mundo
+
+82
+0:03:56.26,000 --> 0:03:59,000
+con las cosas de los usuarios,
+
+83
+0:03:59.26,000 --> 0:04:03,000
+sino también es la base de la realidad aumentada
+
+84
+0:04:03.26,000 --> 0:04:06,000
+y eso es algo importante que les mostraré en un momento.
+
+85
+0:04:06.26,000 --> 0:04:1,000
+Ahora hice una transición a los interiores. Eso también es interesante.
+
+86
+0:04:10.26,000 --> 0:04:12,000
+Vean que ahora hay un techo encima nuestro.
+
+87
+0:04:12.26,000 --> 0:04:15,000
+Estamos adentro de Pike Place Market.
+
+88
+0:04:15.26,000 --> 0:04:17,000
+Esto es algo que podemos lograr con una cámara en una mochila,
+
+89
+0:04:17.26,000 --> 0:04:21,000
+así que no sólo tomamos imágenes en la calle
+
+90
+0:04:21.26,000 --> 0:04:23,000
+con la cámara encima de los autos
+
+91
+0:04:23.26,000 --> 0:04:27,000
+sino también tomamos imágenes del interior.
+
+92
+0:04:27.26,000 --> 0:04:32,000
+Y desde aquí, podemos hacer el mismo tipo de tomas,
+
+93
+0:04:32.26,000 --> 0:04:36,000
+no sólo de imágenes fijas sino de videos.
+
+94
+0:04:36.26,000 --> 0:04:38,000
+Esto es algo que vamos a intentar ahora
+
+95
+0:04:38.26,000 --> 0:04:4,000
+por primera vez, en vivo,
+
+96
+0:04:40.26,000 --> 0:04:43,000
+y esto es en realidad muy aterrador.
+
+97
+0:04:43.26,000 --> 0:04:45,000
+(Risas)
+
+98
+0:04:46.26,000 --> 0:04:48,000
+Bueno.
+
+99
+0:04:48.26,000 --> 0:04:5,000
+(Sonido de celular)
+
+100
+0:04:50.26,000 --> 0:04:52,000
+Muy bien, muchachos, ¿están ahí?
+
+101
+0:04:52.26,000 --> 0:04:54,000
+(Ruido)
+
+102
+0:04:54.26,000 --> 0:04:56,000
+Muy bien. Le voy a dar. Le voy a picar a correr.
+
+103
+0:04:56.26,000 --> 0:04:58,000
+Estoy en vivo. Muy bien. Aquí vamos.
+
+104
+0:04:58.26,000 --> 0:05:03,000
+Entonces, aquí están nuestros amigos en Pike Place Market.
+
+105
+0:05:03.26,000 --> 0:05:11,000
+(Aplausos)
+
+106
+0:05:12.26,000 --> 0:05:14,000
+Esta transmisión es en vivo.
+
+107
+0:05:14.26,000 --> 0:05:18,000
+George, ¿puedes moverte hacia la esquina?
+
+108
+0:05:18.26,000 --> 0:05:22,000
+Porque quiero enseñar unos puntos de interés.
+
+109
+0:05:22.26,000 --> 0:05:25,000
+No, no. Hacia el otro lado.
+
+110
+0:05:25.26,000 --> 0:05:27,000
+Sí, sí. Hacia la esquina. Hacia la esquina.
+
+111
+0:05:27.26,000 --> 0:05:3,000
+No quiero verlos a Uds por ahora.
+
+112
+0:05:31.26,000 --> 0:05:37,000
+Sí. Sí. En la esquina.
+
+113
+0:05:37.26,000 --> 0:05:39,000
+Bueno, olvídenlo.
+
+114
+0:05:40.26,000 --> 0:05:42,000
+Lo que quería enseñarles eran los puntos de interés
+
+115
+0:05:42.26,000 --> 0:05:44,000
+de la parte superior de la imagen
+
+116
+0:05:44.26,000 --> 0:05:46,000
+porque esto es lo que nos da la sensación
+
+117
+0:05:46.26,000 --> 0:05:48,000
+de que en realidad uno está en ese lugar...
+
+118
+0:05:48.26,000 --> 0:05:5,000
+piensen en esto...
+
+119
+0:05:50.26,000 --> 0:05:53,000
+esto es dar un paso más en la realidad aumentada.
+
+120
+0:05:53.26,000 --> 0:05:55,000
+Qué demonios hacen... oh, lo siento.
+
+121
+0:05:55.26,000 --> 0:05:58,000
+(Risas)
+
+122
+0:05:58.26,000 --> 0:06:01,000
+Estamos haciendo dos...
+
+123
+0:06:01.26,000 --> 0:06:04,000
+...ahora voy a colgar.
+
+124
+0:06:04.26,000 --> 0:06:06,000
+Estamos haciendo dos cosas distintas aquí.
+
+125
+0:06:06.26,000 --> 0:06:08,000
+Una de ellas es tomar lo real...
+
+126
+0:06:08.26,000 --> 0:06:15,000
+(Risas)
+
+127
+0:06:15.26,000 --> 0:06:18,000
+Un momento, para agradecer al equipo.
+
+128
+0:06:18.26,000 --> 0:06:2,000
+Ellos han hecho un trabajo fantástico para lograr esto.
+
+129
+0:06:20.26,000 --> 0:06:22,000
+(Aplausos)
+
+130
+0:06:22.26,000 --> 0:06:25,000
+Los voy a abandonar ahora y caminar hacia afuera.
+
+131
+0:06:25.26,000 --> 0:06:28,000
+Mientras hago esto, mencionaré que
+
+132
+0:06:28.26,000 --> 0:06:3,000
+aquí, utilizamos esto para "tele presencia",
+
+133
+0:06:30.26,000 --> 0:06:32,000
+pero también podemos usar esto
+
+134
+0:06:32.26,000 --> 0:06:34,000
+en el lugar, para realidad aumentada.
+
+135
+0:06:34.26,000 --> 0:06:36,000
+Cuando utilizamos esto en el lugar, significa que
+
+136
+0:06:36.26,000 --> 0:06:38,000
+es posible traer toda esa meta información
+
+137
+0:06:38.26,000 --> 0:06:4,000
+e información del mundo hacia uno.
+
+138
+0:06:40.26,000 --> 0:06:42,000
+Entonces aquí estamos dando el paso extra de transmitirlo.
+
+139
+0:06:42.26,000 --> 0:06:45,000
+Eso fue transmitido utilizando una red de 4G
+
+140
+0:06:45.26,000 --> 0:06:48,000
+del mercado.
+
+141
+0:06:48.26,000 --> 0:06:51,000
+Bueno, hay una última TED talk
+
+142
+0:06:51.26,000 --> 0:06:53,000
+de Microsoft en los últimos años.
+
+143
+0:06:53.26,000 --> 0:06:56,000
+La de Curtis Wong y el telescopio virtual WWT (WorldWide Telescope).
+
+144
+0:06:56.26,000 --> 0:06:58,000
+Vamos a acercarnos a los contenedores de basura,
+
+145
+0:06:58.26,000 --> 0:07:01,000
+donde es tradicional que después de un largo día en el mercado,
+
+146
+0:07:01.26,000 --> 0:07:05,000
+uno vaya por un descanso pero también a admirar el cielo.
+
+147
+0:07:05.26,000 --> 0:07:07,000
+Esto es la integración
+
+148
+0:07:07.26,000 --> 0:07:1,000
+de nuestros mapas con el WWT.
+
+149
+0:07:10.26,000 --> 0:07:12,000
+(Aplausos)
+
+150
+0:07:12.26,000 --> 0:07:15,000
+Esto es el tiempo... gracias...
+
+151
+0:07:15.26,000 --> 0:07:17,000
+Esto es el tiempo actual, pero si borramos el tiempo,
+
+152
+0:07:17.26,000 --> 0:07:2,000
+podemos ver como se ve el cielo en distintas horas,
+
+153
+0:07:20.26,000 --> 0:07:22,000
+y así podemos ver todo muy detallado,
+
+154
+0:07:22.26,000 --> 0:07:26,000
+información de distintas horas, distintas fechas.
+
+155
+0:07:27.26,000 --> 0:07:29,000
+Vamos a mover la luna un poco más arriba en el cielo,
+
+156
+0:07:29.26,000 --> 0:07:33,000
+también cambiar la fecha.
+
+157
+0:07:33.26,000 --> 0:07:36,000
+Me gustaría acercarme más a la luna.
+
+158
+0:07:39.26,000 --> 0:07:41,000
+Entonces, esto es una representación
+
+159
+0:07:41.26,000 --> 0:07:44,000
+astronómica completa del cielo
+
+160
+0:07:44.26,000 --> 0:07:46,000
+integrada con la Tierra.
+
+161
+0:07:46.26,000 --> 0:07:48,000
+Se ha terminado mi tiempo,
+
+162
+0:07:48.26,000 --> 0:07:5,000
+así que tengo que parar.
+
+163
+0:07:50.26,000 --> 0:07:52,000
+Muchas gracias a todos.
+
+164
+0:07:52.26,000 --> 0:08:04,000
+(Aplausos)
+

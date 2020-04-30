@@ -1,0 +1,1312 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Morton Bast
+
+2
+0:00:15.838,000 --> 0:00:18,000
+I'm a brain scientist, and as a brain scientist,
+
+3
+0:00:18.935,000 --> 0:00:21,000
+I'm actually interested in how the brain learns,
+
+4
+0:00:22.007,000 --> 0:00:25,000
+and I'm especially interested in a possibility of
+
+5
+0:00:25.374,000 --> 0:00:29,000
+making our brains smarter, better and faster.
+
+6
+0:00:30.106,000 --> 0:00:32,000
+This is in this context I'm going to tell you
+
+7
+0:00:32.982,000 --> 0:00:34,000
+about video games. When we say video games,
+
+8
+0:00:35.732,000 --> 0:00:37,000
+most of you think about children.
+
+9
+0:00:38.27,000 --> 0:00:41,000
+It's true. Ninety percent of children do play video games.
+
+10
+0:00:42.248,000 --> 0:00:44,000
+But let's be frank.
+
+11
+0:00:45.166,000 --> 0:00:49,000
+When the kids are in bed, who is in front of the PlayStation?
+
+12
+0:00:49.955,000 --> 0:00:55,000
+Most of you. The average age of a gamer is 33 years old,
+
+13
+0:00:56.439,000 --> 0:00:59,000
+not eight years old, and in fact, if we look
+
+14
+0:00:59.446,000 --> 0:01:02,000
+at the projected demographics of video game play,
+
+15
+0:01:03.155,000 --> 0:01:05,000
+the video game players of tomorrow are
+
+16
+0:01:05.888,000 --> 0:01:08,000
+older adults. (Laughter)
+
+17
+0:01:09.012,000 --> 0:01:13,000
+So video [gaming] is pervasive throughout our society.
+
+18
+0:01:13.263,000 --> 0:01:17,000
+It is clearly here to stay. It has an amazing impact
+
+19
+0:01:17.646,000 --> 0:01:2,000
+on our everyday life. Consider these statistics
+
+20
+0:01:21.033,000 --> 0:01:26,000
+released by Activision. After one month of release
+
+21
+0:01:26.848,000 --> 0:01:3,000
+of the game "Call Of Duty: Black Ops," it had been played
+
+22
+0:01:31.34,000 --> 0:01:34,000
+for 68,000 years
+
+23
+0:01:34.713,000 --> 0:01:35,000
+worldwide, right?
+
+24
+0:01:36.579,000 --> 0:01:38,000
+Would any of you complain if this was the case
+
+25
+0:01:39.526,000 --> 0:01:42,000
+about doing linear algebra?
+
+26
+0:01:42.689,000 --> 0:01:46,000
+So what we are asking in the lab is, how can we leverage that power?
+
+27
+0:01:46.984,000 --> 0:01:47,000
+Now I want to step back a bit.
+
+28
+0:01:48.832,000 --> 0:01:51,000
+I know most of you have had the experience of coming back
+
+29
+0:01:52.073,000 --> 0:01:56,000
+home and finding your kids playing these kinds of games.
+
+30
+0:01:56.793,000 --> 0:01:58,000
+(Shooting noises) The name of the game is to get
+
+31
+0:01:58.933,000 --> 0:02:,000
+after your enemy zombie bad guys
+
+32
+0:02:01.897,000 --> 0:02:04,000
+before they get to you, right?
+
+33
+0:02:05.487,000 --> 0:02:08,000
+And I'm almost sure most of you have thought,
+
+34
+0:02:08.664,000 --> 0:02:11,000
+"Oh, come on, can't you do something more intelligent
+
+35
+0:02:11.985,000 --> 0:02:14,000
+than shooting at zombies?"
+
+36
+0:02:15.312,000 --> 0:02:18,000
+I'd like you to put this kind of knee-jerk reaction
+
+37
+0:02:18.778,000 --> 0:02:2,000
+in the context of what you would have thought
+
+38
+0:02:21.275,000 --> 0:02:24,000
+if you had found your girl playing sudoku
+
+39
+0:02:24.784,000 --> 0:02:28,000
+or your boy reading Shakespeare. Right?
+
+40
+0:02:29.135,000 --> 0:02:31,000
+Most parents would find that great.
+
+41
+0:02:31.872,000 --> 0:02:34,000
+Well, I'm not going to tell you that playing video games
+
+42
+0:02:35.216,000 --> 0:02:37,000
+days in and days out is actually good for your health.
+
+43
+0:02:38.184,000 --> 0:02:41,000
+It's not, and binging is never good.
+
+44
+0:02:41.384,000 --> 0:02:44,000
+But I'm going to argue that in reasonable doses,
+
+45
+0:02:45.375,000 --> 0:02:47,000
+actually the very game I showed you at the beginning,
+
+46
+0:02:48.344,000 --> 0:02:5,000
+those action-packed shooter games
+
+47
+0:02:50.928,000 --> 0:02:53,000
+have quite powerful effects and positive effects
+
+48
+0:02:54.704,000 --> 0:02:57,000
+on many different aspects of our behavior.
+
+49
+0:02:58.562,000 --> 0:03:01,000
+There's not one week that goes without some major
+
+50
+0:03:02.257,000 --> 0:03:04,000
+headlines in the media about whether video games are
+
+51
+0:03:05.033,000 --> 0:03:09,000
+good or bad for you, right? You're all bombarded with that.
+
+52
+0:03:09.649,000 --> 0:03:14,000
+I'd like to put this kind of Friday night bar discussion aside
+
+53
+0:03:15.337,000 --> 0:03:18,000
+and get you to actually step into the lab.
+
+54
+0:03:18.48,000 --> 0:03:2,000
+What we do in the lab is actually measure directly,
+
+55
+0:03:21.353,000 --> 0:03:23,000
+in a quantitative fashion, what is the impact
+
+56
+0:03:24.12,000 --> 0:03:26,000
+of video games on the brain.
+
+57
+0:03:26.889,000 --> 0:03:29,000
+And so I'm going to take a few examples from our work.
+
+58
+0:03:30.224,000 --> 0:03:32,000
+One first saying that I'm sure you all have heard
+
+59
+0:03:32.823,000 --> 0:03:34,000
+is the fact that too much screen time
+
+60
+0:03:35.109,000 --> 0:03:37,000
+makes your eyesight worse.
+
+61
+0:03:37.924,000 --> 0:03:39,000
+That's a statement about vision.
+
+62
+0:03:40.127,000 --> 0:03:42,000
+There may be vision scientists among you.
+
+63
+0:03:42.663,000 --> 0:03:44,000
+We actually know how to test that statement.
+
+64
+0:03:45.602,000 --> 0:03:48,000
+We can step into the lab and measure how good your vision is.
+
+65
+0:03:49.039,000 --> 0:03:52,000
+Well, guess what? People that don't play a lot
+
+66
+0:03:52.72,000 --> 0:03:54,000
+of action games, that don't actually spend a lot of time
+
+67
+0:03:55.71,000 --> 0:03:58,000
+in front of screens, have normal, or what we call
+
+68
+0:03:59.242,000 --> 0:04:01,000
+corrective-to-normal vision. That's okay.
+
+69
+0:04:01.896,000 --> 0:04:03,000
+The issue is what happens with these guys that actually
+
+70
+0:04:04.345,000 --> 0:04:07,000
+indulge into playing video games like five hours per week,
+
+71
+0:04:07.625,000 --> 0:04:08,000
+10 hours per week, 15 hours per week.
+
+72
+0:04:09.5,000 --> 0:04:12,000
+By that statement, their vision should be really bad, right?
+
+73
+0:04:12.728,000 --> 0:04:14,000
+Guess what? Their vision is really, really good.
+
+74
+0:04:15.425,000 --> 0:04:17,000
+It's better than those that don't play.
+
+75
+0:04:17.865,000 --> 0:04:19,000
+And it's better in two different ways.
+
+76
+0:04:20.137,000 --> 0:04:22,000
+The first way is that they're actually able to resolve
+
+77
+0:04:22.562,000 --> 0:04:25,000
+small detail in the context of clutter, and though that means
+
+78
+0:04:25.817,000 --> 0:04:28,000
+being able to read the fine print on a prescription
+
+79
+0:04:29.615,000 --> 0:04:33,000
+rather than using magnifier glasses, you can actually do it
+
+80
+0:04:34.242,000 --> 0:04:35,000
+with just your eyesight.
+
+81
+0:04:35.808,000 --> 0:04:37,000
+The other way that they are better is actually being able
+
+82
+0:04:38.624,000 --> 0:04:4,000
+to resolve different levels of gray.
+
+83
+0:04:41.533,000 --> 0:04:44,000
+Imagine you're driving in a fog. That makes a difference
+
+84
+0:04:44.704,000 --> 0:04:46,000
+between seeing the car in front of you
+
+85
+0:04:47.185,000 --> 0:04:5,000
+and avoiding the accident, or getting into an accident.
+
+86
+0:04:50.928,000 --> 0:04:53,000
+So we're actually leveraging that work to develop games
+
+87
+0:04:53.944,000 --> 0:04:57,000
+for patients with low vision, and to have an impact
+
+88
+0:04:58.418,000 --> 0:05:01,000
+on retraining their brain to see better.
+
+89
+0:05:01.753,000 --> 0:05:04,000
+Clearly, when it comes to action video games,
+
+90
+0:05:05.402,000 --> 0:05:07,000
+screen time doesn't make your eyesight worse.
+
+91
+0:05:08.297,000 --> 0:05:11,000
+Another saying that I'm sure you have all heard around:
+
+92
+0:05:12.283,000 --> 0:05:16,000
+Video games lead to attention problems and greater distractability.
+
+93
+0:05:16.657,000 --> 0:05:19,000
+Okay, we know how to measure attention in the lab.
+
+94
+0:05:20.562,000 --> 0:05:23,000
+I'm actually going to give you an example of how we do so.
+
+95
+0:05:24.163,000 --> 0:05:26,000
+I'm going to ask you to participate, so you're going to have
+
+96
+0:05:26.888,000 --> 0:05:29,000
+to actually play the game with me. I'm going to show you
+
+97
+0:05:29.912,000 --> 0:05:34,000
+colored words. I want you to shout out the color of the ink.
+
+98
+0:05:35.345,000 --> 0:05:38,000
+Right? So this is the first example.
+
+99
+0:05:38.728,000 --> 0:05:39,000
+["Chair"]
+
+100
+0:05:39.818,000 --> 0:05:42,000
+Orange, good. ["Table"] Green.
+
+101
+0:05:42.879,000 --> 0:05:43,000
+["Board"] Audience: Red.Daphne Bavelier: Red.
+
+102
+0:05:44.259,000 --> 0:05:45,000
+["Horse"] DB: Yellow. Audience: Yellow.
+
+103
+0:05:45.553,000 --> 0:05:46,000
+["Yellow"] DB: Red. Audience: Yellow.
+
+104
+0:05:46.878,000 --> 0:05:47,000
+["Blue"] DB: Yellow.
+
+105
+0:05:48.387,000 --> 0:05:54,000
+Okay, you get my point, right? (Laughter)
+
+106
+0:05:54.742,000 --> 0:05:57,000
+You're getting better, but it's hard. Why is it hard?
+
+107
+0:05:58.078,000 --> 0:06:01,000
+Because I introduced a conflict between
+
+108
+0:06:02.032,000 --> 0:06:04,000
+the word itself and its color.
+
+109
+0:06:04.945,000 --> 0:06:07,000
+How good your attention is determines actually how fast
+
+110
+0:06:07.984,000 --> 0:06:09,000
+you resolve that conflict, so the young guys here
+
+111
+0:06:10.511,000 --> 0:06:12,000
+at the top of their game probably, like, did a little better
+
+112
+0:06:13.072,000 --> 0:06:15,000
+than some of us that are older.
+
+113
+0:06:15.616,000 --> 0:06:17,000
+What we can show is that when you do this kind of task
+
+114
+0:06:18.184,000 --> 0:06:19,000
+with people that play a lot of action games,
+
+115
+0:06:19.784,000 --> 0:06:22,000
+they actually resolve the conflict faster.
+
+116
+0:06:23.104,000 --> 0:06:26,000
+So clearly playing those action games doesn't lead
+
+117
+0:06:26.312,000 --> 0:06:28,000
+to attention problems.
+
+118
+0:06:28.795,000 --> 0:06:29,000
+Actually, those action video game players have
+
+119
+0:06:30.766,000 --> 0:06:32,000
+many other advantages in terms of attention, and one
+
+120
+0:06:33.083,000 --> 0:06:35,000
+aspect of attention which is also improved for the better
+
+121
+0:06:35.982,000 --> 0:06:39,000
+is our ability to track objects around in the world.
+
+122
+0:06:40.76,000 --> 0:06:42,000
+This is something we use all the time. When you're driving,
+
+123
+0:06:43.304,000 --> 0:06:46,000
+you're tracking, keeping track of the cars around you.
+
+124
+0:06:46.552,000 --> 0:06:49,000
+You're also keeping track of the pedestrian, the running dog,
+
+125
+0:06:49.627,000 --> 0:06:52,000
+and that's how you can actually be safe driving, right?
+
+126
+0:06:52.68,000 --> 0:06:55,000
+In the lab, we get people to come to the lab,
+
+127
+0:06:55.744,000 --> 0:06:57,000
+sit in front of a computer screen, and we give them
+
+128
+0:06:57.824,000 --> 0:06:59,000
+little tasks that I'm going to get you to do again.
+
+129
+0:07:00.72,000 --> 0:07:02,000
+You're going to see yellow happy faces
+
+130
+0:07:03.672,000 --> 0:07:06,000
+and a few sad blue faces. These are children
+
+131
+0:07:07.488,000 --> 0:07:1,000
+in the schoolyard in Geneva during a recess
+
+132
+0:07:11.308,000 --> 0:07:15,000
+during the winter. Most kids are happy. It's actually recess.
+
+133
+0:07:15.609,000 --> 0:07:18,000
+But a few kids are sad and blue because they've forgotten their coat.
+
+134
+0:07:18.736,000 --> 0:07:21,000
+Everybody begins to move around, and your task
+
+135
+0:07:22.056,000 --> 0:07:25,000
+is to keep track of who had a coat at the beginning
+
+136
+0:07:25.18,000 --> 0:07:27,000
+and who didn't. So I'm just going to show you an example
+
+137
+0:07:27.671,000 --> 0:07:29,000
+where there is only one sad kid. It's easy because you can
+
+138
+0:07:30.5,000 --> 0:07:32,000
+actually track it with your eyes. You can track,
+
+139
+0:07:32.837,000 --> 0:07:34,000
+you can track, and then when it stops, and there is
+
+140
+0:07:35.117,000 --> 0:07:38,000
+a question mark, and I ask you, did this kid have a coat or not?
+
+141
+0:07:39.048,000 --> 0:07:41,000
+Was it yellow initially or blue?
+
+142
+0:07:41.876,000 --> 0:07:44,000
+I hear a few yellow. Good. So most of you have a brain. (Laughter)
+
+143
+0:07:45.673,000 --> 0:07:49,000
+I'm now going to ask you to do the task, but now with
+
+144
+0:07:50.469,000 --> 0:07:52,000
+a little more challenging task. There are going to be
+
+145
+0:07:52.557,000 --> 0:07:55,000
+three of them that are blue. Don't move your eyes.
+
+146
+0:07:55.74,000 --> 0:07:57,000
+Please don't move your eyes. Keep your eyes fixated
+
+147
+0:07:57.993,000 --> 0:07:59,000
+and expand, pull your attention. That's the only way
+
+148
+0:08:00.639,000 --> 0:08:02,000
+you can actually do it. If you move your eyes, you're doomed.
+
+149
+0:08:03.487,000 --> 0:08:04,000
+Yellow or blue?
+
+150
+0:08:04.95,000 --> 0:08:05,000
+Audience: Yellow.DB: Good.
+
+151
+0:08:06.596,000 --> 0:08:08,000
+So your typical normal young adult
+
+152
+0:08:09.099,000 --> 0:08:12,000
+can have a span of about three or four objects of attention.
+
+153
+0:08:12.735,000 --> 0:08:14,000
+That's what we just did. Your action video game player
+
+154
+0:08:15.495,000 --> 0:08:18,000
+has a span of about six to seven objects of attention,
+
+155
+0:08:18.695,000 --> 0:08:2,000
+which is what is shown in this video here.
+
+156
+0:08:21.673,000 --> 0:08:24,000
+That's for you guys, action video game players.
+
+157
+0:08:25.149,000 --> 0:08:26,000
+A bit more challenging, right? (Laughter)
+
+158
+0:08:27.034,000 --> 0:08:3,000
+Yellow or blue? Blue. We have some people
+
+159
+0:08:30.742,000 --> 0:08:33,000
+that are serious out there. Yeah. (Laughter)
+
+160
+0:08:33.946,000 --> 0:08:36,000
+Good. So in the same way that we actually see
+
+161
+0:08:37.55,000 --> 0:08:4,000
+the effects of video games on people's behavior,
+
+162
+0:08:41.028,000 --> 0:08:44,000
+we can use brain imaging and look at the impact
+
+163
+0:08:44.093,000 --> 0:08:47,000
+of video games on the brain, and we do find many changes,
+
+164
+0:08:47.878,000 --> 0:08:5,000
+but the main changes are actually to the brain networks
+
+165
+0:08:51.238,000 --> 0:08:55,000
+that control attention. So one part is the parietal cortex
+
+166
+0:08:55.782,000 --> 0:08:58,000
+which is very well known to control the orientation of attention.
+
+167
+0:08:59.501,000 --> 0:09:01,000
+The other one is the frontal lobe, which controls
+
+168
+0:09:01.934,000 --> 0:09:03,000
+how we sustain attention, and another one
+
+169
+0:09:04.644,000 --> 0:09:06,000
+is the anterior cingulate, which controls how we allocate
+
+170
+0:09:07.213,000 --> 0:09:1,000
+and regulate attention and resolve conflict.
+
+171
+0:09:10.51,000 --> 0:09:12,000
+Now, when we do brain imaging, we find that all three
+
+172
+0:09:13.374,000 --> 0:09:16,000
+of these networks are actually much more efficient
+
+173
+0:09:16.718,000 --> 0:09:18,000
+in people that play action games.
+
+174
+0:09:19.478,000 --> 0:09:23,000
+This actually leads me to a rather counterintuitive finding
+
+175
+0:09:24.229,000 --> 0:09:27,000
+in the literature about technology and the brain.
+
+176
+0:09:27.67,000 --> 0:09:31,000
+You all know about multitasking. You all have been faulty
+
+177
+0:09:32.119,000 --> 0:09:34,000
+of multitasking when you're driving
+
+178
+0:09:34.329,000 --> 0:09:38,000
+and you pick up your cellphone. Bad idea. Very bad idea.
+
+179
+0:09:39.02,000 --> 0:09:42,000
+Why? Because as your attention shifts to your cell phone,
+
+180
+0:09:42.923,000 --> 0:09:46,000
+you are actually losing the capacity to react swiftly
+
+181
+0:09:47.071,000 --> 0:09:49,000
+to the car braking in front of you, and so you're
+
+182
+0:09:49.519,000 --> 0:09:54,000
+much more likely to get engaged into a car accident.
+
+183
+0:09:55.09,000 --> 0:09:57,000
+Now, we can measure that kind of skills in the lab.
+
+184
+0:09:57.966,000 --> 0:09:59,000
+We obviously don't ask people to drive around and see
+
+185
+0:10:00.438,000 --> 0:10:02,000
+how many car accidents they have. That would be a little
+
+186
+0:10:02.783,000 --> 0:10:05,000
+costly proposition. But we design tasks on the computer
+
+187
+0:10:06.33,000 --> 0:10:09,000
+where we can measure, to millisecond accuracy,
+
+188
+0:10:09.448,000 --> 0:10:13,000
+how good they are at switching from one task to another.
+
+189
+0:10:13.976,000 --> 0:10:15,000
+When we do that, we actually find that people
+
+190
+0:10:16.544,000 --> 0:10:19,000
+that play a lot of action games are really, really good.
+
+191
+0:10:19.628,000 --> 0:10:23,000
+They switch really fast, very swiftly. They pay a very small cost.
+
+192
+0:10:24.111,000 --> 0:10:26,000
+Now I'd like you to remember that result, and put it
+
+193
+0:10:26.769,000 --> 0:10:29,000
+in the context of another group of technology users,
+
+194
+0:10:30.501,000 --> 0:10:32,000
+a group which is actually much revered by society,
+
+195
+0:10:32.911,000 --> 0:10:36,000
+which are people that engage in multimedia-tasking.
+
+196
+0:10:37.45,000 --> 0:10:4,000
+What is multimedia-tasking? It's the fact that most of us,
+
+197
+0:10:41.095,000 --> 0:10:44,000
+most of our children, are engaged with listening to music
+
+198
+0:10:44.376,000 --> 0:10:46,000
+at the same time as they're doing search on the web
+
+199
+0:10:47.123,000 --> 0:10:5,000
+at the same time as they're chatting on Facebook with their friends.
+
+200
+0:10:50.48,000 --> 0:10:52,000
+That's a multimedia-tasker.
+
+201
+0:10:52.816,000 --> 0:10:55,000
+There was a first study done by colleagues at Stanford
+
+202
+0:10:56.376,000 --> 0:10:58,000
+and that we replicated that showed that
+
+203
+0:10:58.929,000 --> 0:11:02,000
+those people that identify as being high multimedia-taskers
+
+204
+0:11:03.576,000 --> 0:11:06,000
+are absolutely abysmal at multitasking.
+
+205
+0:11:07.423,000 --> 0:11:09,000
+When we measure them in the lab, they're really bad.
+
+206
+0:11:10.16,000 --> 0:11:12,000
+Right? So these kinds of results really
+
+207
+0:11:12.866,000 --> 0:11:14,000
+makes two main points.
+
+208
+0:11:15.352,000 --> 0:11:18,000
+The first one is that not all media are created equal.
+
+209
+0:11:18.544,000 --> 0:11:22,000
+You can't compare the effect of multimedia-tasking
+
+210
+0:11:23.456,000 --> 0:11:24,000
+and the effect of playing action games. They have
+
+211
+0:11:25.102,000 --> 0:11:28,000
+totally different effects on different aspects of cognition,
+
+212
+0:11:28.494,000 --> 0:11:31,000
+perception and attention.
+
+213
+0:11:31.608,000 --> 0:11:33,000
+Even within video games, I'm telling you right now
+
+214
+0:11:34.448,000 --> 0:11:35,000
+about these action-packed video games.
+
+215
+0:11:36.201,000 --> 0:11:39,000
+Different video games have a different effect on your brains.
+
+216
+0:11:39.535,000 --> 0:11:41,000
+So we actually need to step into the lab and really measure
+
+217
+0:11:42.217,000 --> 0:11:44,000
+what is the effect of each video game.
+
+218
+0:11:44.728,000 --> 0:11:48,000
+The other lesson is that general wisdom carries no weight.
+
+219
+0:11:49.015,000 --> 0:11:52,000
+I showed that to you already, like we looked at the fact that
+
+220
+0:11:52.071,000 --> 0:11:54,000
+despite a lot of screen time, those action gamers
+
+221
+0:11:54.519,000 --> 0:11:58,000
+have a lot of very good vision, etc.
+
+222
+0:11:58.527,000 --> 0:12:01,000
+Here, what was really striking is that these undergraduates
+
+223
+0:12:01.845,000 --> 0:12:04,000
+that actually report engaging in a lot of high
+
+224
+0:12:05.086,000 --> 0:12:09,000
+multimedia-tasking are convinced they aced the test.
+
+225
+0:12:10.063,000 --> 0:12:12,000
+So you show them their data, you show them they are bad
+
+226
+0:12:12.353,000 --> 0:12:14,000
+and they're like, "Not possible." You know, they have
+
+227
+0:12:15.039,000 --> 0:12:18,000
+this sort of gut feeling that, really, they are doing really, really good.
+
+228
+0:12:18.895,000 --> 0:12:2,000
+That's another argument for why we need to step into the lab
+
+229
+0:12:21.84,000 --> 0:12:24,000
+and really measure the impact of technology on the brain.
+
+230
+0:12:25.432,000 --> 0:12:29,000
+Now in a sense, when we think about the effect
+
+231
+0:12:30.015,000 --> 0:12:32,000
+of video games on the brain, it's very similar
+
+232
+0:12:32.495,000 --> 0:12:35,000
+to the effect of wine on the health.
+
+233
+0:12:36.359,000 --> 0:12:39,000
+There are some very poor uses of wine. There are some
+
+234
+0:12:39.399,000 --> 0:12:43,000
+very poor uses of video games. But when consumed
+
+235
+0:12:43.615,000 --> 0:12:46,000
+in reasonable doses, and at the right age,
+
+236
+0:12:47.096,000 --> 0:12:5,000
+wine can be very good for health. There are actually
+
+237
+0:12:50.367,000 --> 0:12:53,000
+specific molecules that have been identified
+
+238
+0:12:53.631,000 --> 0:12:58,000
+in red wine as leading to greater life expectancy.
+
+239
+0:12:59.463,000 --> 0:13:02,000
+So it's the same way, like those action video games
+
+240
+0:13:02.735,000 --> 0:13:03,000
+have a number of ingredients that are actually really
+
+241
+0:13:04.397,000 --> 0:13:07,000
+powerful for brain plasticity, learning, attention,
+
+242
+0:13:08.367,000 --> 0:13:11,000
+vision, etc., and so we need and we're working on
+
+243
+0:13:11.972,000 --> 0:13:13,000
+understanding what are those active ingredients so that
+
+244
+0:13:14.727,000 --> 0:13:17,000
+we can really then leverage them to deliver better games,
+
+245
+0:13:18.617,000 --> 0:13:22,000
+either for education or for rehabilitation of patients.
+
+246
+0:13:22.86,000 --> 0:13:25,000
+Now because we are interested in having an impact
+
+247
+0:13:26.639,000 --> 0:13:28,000
+for education or rehabilitation of patients, we are actually
+
+248
+0:13:29.127,000 --> 0:13:32,000
+not that interested in how those of you that choose
+
+249
+0:13:32.543,000 --> 0:13:35,000
+to play video games for many hours on end perform.
+
+250
+0:13:36.415,000 --> 0:13:39,000
+I'm much more interested in taking any of you
+
+251
+0:13:40.24,000 --> 0:13:43,000
+and showing that by forcing you to play an action game,
+
+252
+0:13:44.02,000 --> 0:13:46,000
+I can actually change your vision for the better,
+
+253
+0:13:46.883,000 --> 0:13:48,000
+whether you want to play that action game or not, right?
+
+254
+0:13:49.214,000 --> 0:13:51,000
+That's the point of rehabilitation or education.
+
+255
+0:13:51.63,000 --> 0:13:52,000
+Most of the kids don't go to school saying,
+
+256
+0:13:53.556,000 --> 0:13:55,000
+"Great, two hours of math!"
+
+257
+0:13:56.296,000 --> 0:14:,000
+So that's really the crux of the research, and to do that,
+
+258
+0:14:00.735,000 --> 0:14:02,000
+we need to go one more step.
+
+259
+0:14:03.199,000 --> 0:14:06,000
+And one more step is to do training studies.
+
+260
+0:14:06.223,000 --> 0:14:09,000
+So let me illustrate that step with
+
+261
+0:14:09.623,000 --> 0:14:12,000
+a task which is called mental rotation.
+
+262
+0:14:13.191,000 --> 0:14:17,000
+Mental rotation is a task where I'm going to ask you,
+
+263
+0:14:17.366,000 --> 0:14:18,000
+and again you're going to do the task,
+
+264
+0:14:19.251,000 --> 0:14:22,000
+to look at this shape. Study it, it's a target shape,
+
+265
+0:14:22.936,000 --> 0:14:25,000
+and I'm going to present to you four different shapes.
+
+266
+0:14:26.19,000 --> 0:14:28,000
+One of these four different shapes is actually a rotated
+
+267
+0:14:29.03,000 --> 0:14:33,000
+version of this shape. I want you to tell me which one:
+
+268
+0:14:33.334,000 --> 0:14:37,000
+the first one, second one, third one or fourth one?
+
+269
+0:14:38.175,000 --> 0:14:4,000
+Okay, I'll help you. Fourth one.
+
+270
+0:14:40.592,000 --> 0:14:44,000
+One more. Get those brains working. Come on.
+
+271
+0:14:45.122,000 --> 0:14:49,000
+That's our target shape.
+
+272
+0:14:50.096,000 --> 0:14:53,000
+Third. Good! This is hard, right?
+
+273
+0:14:53.799,000 --> 0:14:54,000
+Like, the reason that I asked you to do that is because
+
+274
+0:14:55.286,000 --> 0:14:57,000
+you really feel your brain cringing, right?
+
+275
+0:14:58.02,000 --> 0:15:01,000
+It doesn't really feel like playing mindless action video games.
+
+276
+0:15:01.452,000 --> 0:15:03,000
+Well, what we do in these training studies is, people
+
+277
+0:15:04.157,000 --> 0:15:06,000
+come to the lab, they do tasks like this one,
+
+278
+0:15:06.766,000 --> 0:15:1,000
+we then force them to play 10 hours of action games.
+
+279
+0:15:11.096,000 --> 0:15:13,000
+They don't play 10 hours of action games in a row.
+
+280
+0:15:13.842,000 --> 0:15:16,000
+They do distributed practice, so little shots of 40 minutes
+
+281
+0:15:16.952,000 --> 0:15:2,000
+several days over a period of two weeks.
+
+282
+0:15:21.253,000 --> 0:15:22,000
+Then, once they are done with the training, they come back
+
+283
+0:15:23.049,000 --> 0:15:26,000
+a few days later and they are tested again on a similar type
+
+284
+0:15:27.022,000 --> 0:15:3,000
+of mental rotation task. So this is work from a colleague
+
+285
+0:15:30.638,000 --> 0:15:32,000
+in Toronto. What they showed is that, initially,
+
+286
+0:15:33.173,000 --> 0:15:35,000
+you know, subjects perform where they are expected
+
+287
+0:15:35.371,000 --> 0:15:4,000
+to perform given their age. After two weeks of training
+
+288
+0:15:40.581,000 --> 0:15:43,000
+on action video games, they actually perform better,
+
+289
+0:15:44.437,000 --> 0:15:49,000
+and the improvement is still there five months after
+
+290
+0:15:49.793,000 --> 0:15:51,000
+having done the training. That's really, really important.
+
+291
+0:15:52.661,000 --> 0:15:54,000
+Why? Because I told you we want to use these games
+
+292
+0:15:55.141,000 --> 0:15:58,000
+for education or for rehabilitation. We need to have effects
+
+293
+0:15:58.341,000 --> 0:16:,000
+that are going to be long-lasting.
+
+294
+0:16:01.277,000 --> 0:16:03,000
+Now, at this point, a number of you are probably wondering
+
+295
+0:16:04.13,000 --> 0:16:07,000
+well, what are you waiting for, to put on the market
+
+296
+0:16:07.763,000 --> 0:16:09,000
+a game that would be good for the attention
+
+297
+0:16:10.315,000 --> 0:16:13,000
+of my grandmother and that she would actually enjoy,
+
+298
+0:16:13.835,000 --> 0:16:15,000
+or a game that would be great to rehabilitate the vision
+
+299
+0:16:16.418,000 --> 0:16:19,000
+of my grandson who has amblyopia, for example?
+
+300
+0:16:20.227,000 --> 0:16:24,000
+Well, we're working on it, but here is a challenge.
+
+301
+0:16:24.707,000 --> 0:16:25,000
+There are brain scientists like me that are beginning
+
+302
+0:16:26.618,000 --> 0:16:29,000
+to understand what are the good ingredients in games
+
+303
+0:16:29.875,000 --> 0:16:32,000
+to promote positive effects, and that's what I'm going
+
+304
+0:16:32.98,000 --> 0:16:35,000
+to call the broccoli side of the equation.
+
+305
+0:16:36.554,000 --> 0:16:39,000
+There is an entertainment software industry
+
+306
+0:16:40.29,000 --> 0:16:43,000
+which is extremely deft at coming up with
+
+307
+0:16:43.762,000 --> 0:16:47,000
+appealing products that you can't resist.
+
+308
+0:16:47.906,000 --> 0:16:5,000
+That's the chocolate side of the equation.
+
+309
+0:16:51.434,000 --> 0:16:54,000
+The issue is we need to put the two together,
+
+310
+0:16:54.458,000 --> 0:16:56,000
+and it's a little bit like with food.
+
+311
+0:16:56.714,000 --> 0:16:59,000
+Who really wants to eat chocolate-covered broccoli?
+
+312
+0:17:00.355,000 --> 0:17:02,000
+None of you. (Laughter) And you probably have had
+
+313
+0:17:02.614,000 --> 0:17:04,000
+that feeling, right, picking up an education game
+
+314
+0:17:04.946,000 --> 0:17:07,000
+and sort of feeling, hmm, you know, it's not really fun,
+
+315
+0:17:08.338,000 --> 0:17:1,000
+it's not really engaging. So what we need
+
+316
+0:17:10.755,000 --> 0:17:13,000
+is really a new brand of chocolate, a brand of chocolate
+
+317
+0:17:14.106,000 --> 0:17:18,000
+that is irresistible, that you really want to play,
+
+318
+0:17:18.117,000 --> 0:17:2,000
+but that has all the ingredients, the good ingredients
+
+319
+0:17:21.102,000 --> 0:17:24,000
+that are extracted from the broccoli that you can't recognize
+
+320
+0:17:24.33,000 --> 0:17:26,000
+but are still working on your brains. And we're working on it,
+
+321
+0:17:27.169,000 --> 0:17:31,000
+but it takes brain scientists to come and to get together,
+
+322
+0:17:31.645,000 --> 0:17:33,000
+people that work in the entertainment software industry,
+
+323
+0:17:34.608,000 --> 0:17:36,000
+and publishers, so these are not people that usually
+
+324
+0:17:37.346,000 --> 0:17:39,000
+meet every day, but it's actually doable,
+
+325
+0:17:39.683,000 --> 0:17:41,000
+and we are on the right track.
+
+326
+0:17:42.33,000 --> 0:17:43,000
+I'd like to leave you with that thought,
+
+327
+0:17:44.112,000 --> 0:17:47,000
+and thank you for your attention. (Applause)
+
+328
+0:17:47.479,000 --> 0:17:51,000
+(Applause)
+

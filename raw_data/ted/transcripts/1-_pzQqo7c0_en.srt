@@ -1,0 +1,1212 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Camille Martínez
+
+2
+0:00:13.928,000 --> 0:00:14,000
+Mark Miskin: This is a rotifer.
+
+3
+0:00:15.524,000 --> 0:00:18,000
+It's a microorganism about a hair's width in size.
+
+4
+0:00:18.722,000 --> 0:00:21,000
+They live everywhere on earth -- saltwater, freshwater, everywhere --
+
+5
+0:00:22.432,000 --> 0:00:24,000
+and this one is out looking for food.
+
+6
+0:00:25.609,000 --> 0:00:27,000
+I remember the first time I saw this thing,
+
+7
+0:00:27.659,000 --> 0:00:29,000
+I was like eight years old and it completely blew me away.
+
+8
+0:00:30.413,000 --> 0:00:32,000
+I mean, here is this incredible little creature,
+
+9
+0:00:32.7,000 --> 0:00:33,000
+it's hunting, swimming,
+
+10
+0:00:34.324,000 --> 0:00:35,000
+going about its life,
+
+11
+0:00:35.613,000 --> 0:00:38,000
+but its whole universe fits within a drop of pond water.
+
+12
+0:00:40.251,000 --> 0:00:43,000
+Paul McEuen: So this little rotifer shows us something really amazing.
+
+13
+0:00:43.677,000 --> 0:00:45,000
+It says that you can build a machine
+
+14
+0:00:45.749,000 --> 0:00:48,000
+that is functional, complex, smart,
+
+15
+0:00:49.158,000 --> 0:00:51,000
+but all in a tiny little package,
+
+16
+0:00:51.7,000 --> 0:00:54,000
+one so small that it's impossible to see it.
+
+17
+0:00:56.134,000 --> 0:00:59,000
+Now, the engineer in me is just blown away by this thing,
+
+18
+0:00:59.503,000 --> 0:01:01,000
+that anyone could make such a creature.
+
+19
+0:01:02.309,000 --> 0:01:05,000
+But right behind that wonder, I have to admit, is a bit of envy.
+
+20
+0:01:06.578,000 --> 0:01:09,000
+I mean, nature can do it. Why can't we?
+
+21
+0:01:10.518,000 --> 0:01:11,000
+Why can't we build tiny robots?
+
+22
+0:01:13.205,000 --> 0:01:15,000
+Well, I'm not the only one to have this idea.
+
+23
+0:01:15.611,000 --> 0:01:17,000
+In fact, in the last, oh, few years,
+
+24
+0:01:18.294,000 --> 0:01:2,000
+researchers around the world have taken up the task
+
+25
+0:01:21.271,000 --> 0:01:23,000
+of trying to build robots
+
+26
+0:01:23.37,000 --> 0:01:25,000
+that are so small that they can't be seen.
+
+27
+0:01:26.79,000 --> 0:01:28,000
+And what we're going to tell you about today
+
+28
+0:01:28.902,000 --> 0:01:29,000
+is an effort at Cornell University
+
+29
+0:01:30.774,000 --> 0:01:32,000
+and now at the University of Pennsylvania
+
+30
+0:01:33.106,000 --> 0:01:35,000
+to try to build tiny robots.
+
+31
+0:01:36.064,000 --> 0:01:37,000
+OK, so that's the goal.
+
+32
+0:01:38.523,000 --> 0:01:39,000
+But how do we do it?
+
+33
+0:01:40.503,000 --> 0:01:42,000
+How do we go about building tiny robots?
+
+34
+0:01:43.348,000 --> 0:01:46,000
+Well, Pablo Picasso, of all people, gives us our first clue.
+
+35
+0:01:47.651,000 --> 0:01:48,000
+Picasso said --
+
+36
+0:01:48.828,000 --> 0:01:5,000
+["Good artists copy, great artists steal."]
+
+37
+0:01:50.872,000 --> 0:01:5,000
+(Laughter)
+
+38
+0:01:51.865,000 --> 0:01:53,000
+"Good artists copy. Great artists steal."
+
+39
+0:01:54.356,000 --> 0:01:55,000
+(Laughter)
+
+40
+0:01:55.788,000 --> 0:01:57,000
+OK. But steal from what?
+
+41
+0:01:58.279,000 --> 0:01:59,000
+Well, believe it or not,
+
+42
+0:01:59.551,000 --> 0:02:03,000
+most of the technology you need to build a tiny robot already exists.
+
+43
+0:02:04.208,000 --> 0:02:06,000
+The semiconductor industry has been getting better and better
+
+44
+0:02:07.145,000 --> 0:02:09,000
+at making tinier and tinier devices,
+
+45
+0:02:09.299,000 --> 0:02:12,000
+so at this point they could put something like a million transistors
+
+46
+0:02:13.2,000 --> 0:02:15,000
+into the size of a package that is occupied by, say,
+
+47
+0:02:16.043,000 --> 0:02:18,000
+a single-celled paramecium.
+
+48
+0:02:19.12,000 --> 0:02:21,000
+And it's not just electronics.
+
+49
+0:02:21.284,000 --> 0:02:22,000
+They can also build little sensors,
+
+50
+0:02:23.132,000 --> 0:02:24,000
+LEDs,
+
+51
+0:02:24.327,000 --> 0:02:27,000
+whole communication packages that are too small to be seen.
+
+52
+0:02:28.961,000 --> 0:02:29,000
+So that's what we're going to do.
+
+53
+0:02:30.575,000 --> 0:02:31,000
+We're going to steal that technology.
+
+54
+0:02:32.762,000 --> 0:02:33,000
+Here's a robot.
+
+55
+0:02:33.961,000 --> 0:02:34,000
+(Laughter)
+
+56
+0:02:35.607,000 --> 0:02:37,000
+Robot's got two parts, as it turns out.
+
+57
+0:02:37.807,000 --> 0:02:39,000
+It's got a head, and it's got legs.
+
+58
+0:02:39.854,000 --> 0:02:4,000
+[Steal these: Brains]
+
+59
+0:02:41.09,000 --> 0:02:43,000
+(Laughter)
+
+60
+0:02:44.512,000 --> 0:02:46,000
+We're going to call this a legless robot,
+
+61
+0:02:47.413,000 --> 0:02:48,000
+which may sound exotic,
+
+62
+0:02:49.069,000 --> 0:02:51,000
+but they're pretty cool all by themselves.
+
+63
+0:02:51.799,000 --> 0:02:54,000
+In fact, most of you have a legless robot with you right now.
+
+64
+0:02:55.571,000 --> 0:02:58,000
+Your smartphone is the world's most successful legless robot.
+
+65
+0:03:00.204,000 --> 0:03:03,000
+In just 15 years, it has taken over the entire planet.
+
+66
+0:03:04.009,000 --> 0:03:05,000
+And why not?
+
+67
+0:03:05.266,000 --> 0:03:07,000
+It's such a beautiful little machine.
+
+68
+0:03:07.549,000 --> 0:03:08,000
+It's incredibly intelligent,
+
+69
+0:03:09.169,000 --> 0:03:11,000
+it's got great communication skills,
+
+70
+0:03:11.221,000 --> 0:03:13,000
+and it's all in a package that you can hold in your hand.
+
+71
+0:03:14.517,000 --> 0:03:16,000
+So we would like to be able to build something like this,
+
+72
+0:03:17.268,000 --> 0:03:19,000
+only down at the cellular scale,
+
+73
+0:03:19.375,000 --> 0:03:2,000
+the size of a paramecium.
+
+74
+0:03:21.165,000 --> 0:03:22,000
+And here it is.
+
+75
+0:03:22.611,000 --> 0:03:24,000
+This is our cell-sized smartphone.
+
+76
+0:03:25.264,000 --> 0:03:27,000
+It even kind of looks like a smartphone,
+
+77
+0:03:27.373,000 --> 0:03:3,000
+only it's about 10,000 times smaller.
+
+78
+0:03:30.461,000 --> 0:03:31,000
+We call it an OWIC.
+
+79
+0:03:32.374,000 --> 0:03:34,000
+[Optical Wireless Integrated Circuits]
+
+80
+0:03:35.307,000 --> 0:03:36,000
+OK, we're not advertisers, all right?
+
+81
+0:03:37.269,000 --> 0:03:39,000
+(Laughter)
+
+82
+0:03:40.31,000 --> 0:03:41,000
+But it's pretty cool all by itself.
+
+83
+0:03:42.246,000 --> 0:03:44,000
+In fact, this OWIC has a number of parts.
+
+84
+0:03:44.496,000 --> 0:03:45,000
+So up near the top,
+
+85
+0:03:46.033,000 --> 0:03:49,000
+there are these cool little solar cells that you shine light on the device
+
+86
+0:03:49.572,000 --> 0:03:51,000
+and it wakes up a little circuit that's there in the middle.
+
+87
+0:03:52.424,000 --> 0:03:54,000
+And that circuit can drive a little tiny LED
+
+88
+0:03:54.567,000 --> 0:03:57,000
+that can blink at you and allows the OWIC to communicate with you.
+
+89
+0:03:58.062,000 --> 0:03:59,000
+So unlike your cell phone,
+
+90
+0:03:59.478,000 --> 0:04:,000
+the OWIC communicates with light,
+
+91
+0:04:01.23,000 --> 0:04:03,000
+sort of like a tiny firefly.
+
+92
+0:04:04.342,000 --> 0:04:06,000
+Now, one thing that's pretty cool about these OWICs
+
+93
+0:04:06.803,000 --> 0:04:07,000
+is we don't make them one at a time,
+
+94
+0:04:08.57,000 --> 0:04:09,000
+soldering all the pieces together.
+
+95
+0:04:10.639,000 --> 0:04:12,000
+We make them in massive parallel.
+
+96
+0:04:12.91,000 --> 0:04:14,000
+For example, about a million of these OWICs
+
+97
+0:04:15.31,000 --> 0:04:17,000
+can fit on a single four-inch wafer.
+
+98
+0:04:18.29,000 --> 0:04:2,000
+And just like your phone has different apps,
+
+99
+0:04:20.419,000 --> 0:04:21,000
+you can have different kinds of OWICs.
+
+100
+0:04:22.269,000 --> 0:04:24,000
+There can be ones that, say, measure voltage,
+
+101
+0:04:24.418,000 --> 0:04:25,000
+some that measure temperature,
+
+102
+0:04:25.9,000 --> 0:04:28,000
+or just have a little light that can blink at you to tell you that it's there.
+
+103
+0:04:29.645,000 --> 0:04:32,000
+So that's pretty cool, these tiny little devices.
+
+104
+0:04:33.385,000 --> 0:04:36,000
+And I'd like to tell you about them in a little more detail.
+
+105
+0:04:36.444,000 --> 0:04:38,000
+But first, I have to tell you about something else.
+
+106
+0:04:39.334,000 --> 0:04:42,000
+I'm going to tell you a few things about pennies that you might not know.
+
+107
+0:04:42.822,000 --> 0:04:43,000
+So this one is a little bit older penny.
+
+108
+0:04:44.813,000 --> 0:04:46,000
+It's got a picture of the Lincoln Memorial on the back.
+
+109
+0:04:47.437,000 --> 0:04:48,000
+But the first thing you might not know,
+
+110
+0:04:49.334,000 --> 0:04:51,000
+that if you zoom in, you'll find in the center of this thing
+
+111
+0:04:52.298,000 --> 0:04:53,000
+you can actually see Abraham Lincoln,
+
+112
+0:04:54.178,000 --> 0:04:56,000
+just like in the real Lincoln Memorial not so far from here.
+
+113
+0:04:57.074,000 --> 0:04:58,000
+What I'm sure you don't know,
+
+114
+0:04:58.885,000 --> 0:05:,000
+that if you zoom in even further --
+
+115
+0:05:01.135,000 --> 0:05:02,000
+(Laughter)
+
+116
+0:05:02.603,000 --> 0:05:06,000
+you'll see that there's actually an OWIC on Abe Lincoln's chest.
+
+117
+0:05:06.684,000 --> 0:05:08,000
+(Laughter)
+
+118
+0:05:09.282,000 --> 0:05:1,000
+But the cool thing is,
+
+119
+0:05:10.972,000 --> 0:05:13,000
+you could stare at this all day long and you would never see it.
+
+120
+0:05:15.377,000 --> 0:05:16,000
+It's invisible to the naked eye.
+
+121
+0:05:17.232,000 --> 0:05:18,000
+These OWICs are so small,
+
+122
+0:05:18.838,000 --> 0:05:2,000
+and we make them in such parallel fashion,
+
+123
+0:05:21.353,000 --> 0:05:23,000
+that each OWIC costs actually less than a penny.
+
+124
+0:05:25.26,000 --> 0:05:28,000
+In fact, the most expensive thing in this demo is that little sticker
+
+125
+0:05:28.696,000 --> 0:05:29,000
+that says "OWIC."
+
+126
+0:05:30.037,000 --> 0:05:32,000
+(Laughter)
+
+127
+0:05:34.879,000 --> 0:05:36,000
+That cost about eight cents.
+
+128
+0:05:36.956,000 --> 0:05:37,000
+(Laughter)
+
+129
+0:05:40.266,000 --> 0:05:43,000
+Now, we're very excited about these things for all sorts of reasons.
+
+130
+0:05:43.589,000 --> 0:05:46,000
+For example, we can use them as little tiny secure smart tags,
+
+131
+0:05:46.78,000 --> 0:05:47,000
+more identifying than a fingerprint.
+
+132
+0:05:48.756,000 --> 0:05:5,000
+We're actually putting them inside of other medical instruments
+
+133
+0:05:51.762,000 --> 0:05:52,000
+to give other information,
+
+134
+0:05:53.032,000 --> 0:05:55,000
+and even starting to think about putting them in the brain
+
+135
+0:05:55.822,000 --> 0:05:56,000
+to listen to neurons one at a time.
+
+136
+0:05:57.591,000 --> 0:05:59,000
+In fact, there's only one thing wrong with these OWICs:
+
+137
+0:06:01.574,000 --> 0:06:02,000
+it's not a robot.
+
+138
+0:06:02.904,000 --> 0:06:03,000
+It's just a head.
+
+139
+0:06:04.264,000 --> 0:06:05,000
+(Laughter)
+
+140
+0:06:05.407,000 --> 0:06:06,000
+And I think we'll all agree
+
+141
+0:06:07.28,000 --> 0:06:1,000
+that half a robot really isn't a robot at all.
+
+142
+0:06:11.553,000 --> 0:06:13,000
+Without the legs, we've got basically nothing.
+
+143
+0:06:14.837,000 --> 0:06:17,000
+MM: OK, so you need the legs, too, if you want to build a robot.
+
+144
+0:06:18.16,000 --> 0:06:2,000
+Now, here it turns out you can't just steal
+
+145
+0:06:20.608,000 --> 0:06:21,000
+some preexisting technology.
+
+146
+0:06:22.552,000 --> 0:06:26,000
+If you want legs for your tiny robot, you need actuators, parts that move.
+
+147
+0:06:26.994,000 --> 0:06:28,000
+They have to satisfy a lot of different requirements.
+
+148
+0:06:29.486,000 --> 0:06:3,000
+They need to be low voltage.
+
+149
+0:06:31.44,000 --> 0:06:32,000
+They need to be low power, too.
+
+150
+0:06:32.979,000 --> 0:06:34,000
+But most importantly, they have to be small.
+
+151
+0:06:35.064,000 --> 0:06:38,000
+If you want to build a cell-sized robot, you need cell-sized legs.
+
+152
+0:06:38.788,000 --> 0:06:39,000
+Now, nobody knows how to build that.
+
+153
+0:06:40.542,000 --> 0:06:43,000
+There was no preexisting technology that meets all of those demands.
+
+154
+0:06:43.943,000 --> 0:06:45,000
+To make our legs for our tiny robots,
+
+155
+0:06:46.429,000 --> 0:06:47,000
+we had to make something new.
+
+156
+0:06:47.953,000 --> 0:06:48,000
+So here's what we built.
+
+157
+0:06:49.619,000 --> 0:06:51,000
+This is one of our actuators, and I'm applying a voltage to it.
+
+158
+0:06:52.6,000 --> 0:06:54,000
+When I do, you can see the actuator respond by curling up.
+
+159
+0:06:55.61,000 --> 0:06:56,000
+Now, this might not look like much,
+
+160
+0:06:57.329,000 --> 0:07:,000
+but if we were to put a red blood cell up on the screen, it'd be about that big,
+
+161
+0:07:01.138,000 --> 0:07:02,000
+so these are unbelievably tiny curls.
+
+162
+0:07:03.135,000 --> 0:07:04,000
+They're unbelievably small,
+
+163
+0:07:04.461,000 --> 0:07:07,000
+and yet this device can just bend and unbend, no problem, nothing breaks.
+
+164
+0:07:08.273,000 --> 0:07:09,000
+So how do we do it?
+
+165
+0:07:09.45,000 --> 0:07:11,000
+Well, the actuator is made from a layer of platinum
+
+166
+0:07:11.871,000 --> 0:07:12,000
+just a dozen atoms or so thick.
+
+167
+0:07:13.386,000 --> 0:07:15,000
+Now it turns out, if you take platinum and put it in water
+
+168
+0:07:16.198,000 --> 0:07:17,000
+and apply a voltage to it,
+
+169
+0:07:17.471,000 --> 0:07:19,000
+atoms from the water will attach or remove themselves
+
+170
+0:07:19.996,000 --> 0:07:2,000
+from the surface of the platinum,
+
+171
+0:07:21.604,000 --> 0:07:22,000
+depending on how much voltage you use.
+
+172
+0:07:23.453,000 --> 0:07:24,000
+This creates a force,
+
+173
+0:07:24.644,000 --> 0:07:26,000
+and you can use that force for voltage-controlled actuation.
+
+174
+0:07:27.548,000 --> 0:07:29,000
+The key here was to make everything ultrathin.
+
+175
+0:07:30.459,000 --> 0:07:31,000
+Then your actuator is flexible enough
+
+176
+0:07:32.251,000 --> 0:07:34,000
+to bend to these small sizes without breaking,
+
+177
+0:07:34.427,000 --> 0:07:35,000
+and it can use the forces that come about
+
+178
+0:07:36.41,000 --> 0:07:38,000
+from just attaching or removing a single layer of atoms.
+
+179
+0:07:39.062,000 --> 0:07:41,000
+Now, we don't have to build these one at a time, either.
+
+180
+0:07:41.723,000 --> 0:07:42,000
+In fact, just like the OWICs,
+
+181
+0:07:43.144,000 --> 0:07:45,000
+we can build them massively in parallel as well.
+
+182
+0:07:45.504,000 --> 0:07:47,000
+So here's a couple thousand or so actuators,
+
+183
+0:07:47.955,000 --> 0:07:49,000
+and all I'm doing is applying a voltage,
+
+184
+0:07:50.222,000 --> 0:07:51,000
+and they all wave,
+
+185
+0:07:51.886,000 --> 0:07:54,000
+looking like nothing more than the legs of a future robot army.
+
+186
+0:07:55.467,000 --> 0:07:57,000
+(Laughter)
+
+187
+0:07:58.17,000 --> 0:08:,000
+So now we've got the brains and we've got the brawn.
+
+188
+0:08:00.937,000 --> 0:08:02,000
+We've got the smarts and the actuators.
+
+189
+0:08:03.4,000 --> 0:08:04,000
+The OWICs are the brains.
+
+190
+0:08:04.737,000 --> 0:08:06,000
+They give us sensors, they give us power supplies,
+
+191
+0:08:07.197,000 --> 0:08:09,000
+and they give us a two-way communication system via light.
+
+192
+0:08:10.076,000 --> 0:08:11,000
+The platinum layers are the muscle.
+
+193
+0:08:11.79,000 --> 0:08:13,000
+They're what's going to move the robot around.
+
+194
+0:08:13.975,000 --> 0:08:15,000
+Now we can take those two pieces, put them together
+
+195
+0:08:16.449,000 --> 0:08:18,000
+and start to build our tiny, tiny robots.
+
+196
+0:08:18.556,000 --> 0:08:2,000
+The first thing we wanted to build was something really simple.
+
+197
+0:08:21.557,000 --> 0:08:23,000
+This robot walks around under user control.
+
+198
+0:08:23.584,000 --> 0:08:26,000
+In the middle are some solar cells and some wiring attached to it.
+
+199
+0:08:26.71,000 --> 0:08:27,000
+That's the OWIC.
+
+200
+0:08:27.885,000 --> 0:08:29,000
+They're connected to a set of legs which have a platinum layer
+
+201
+0:08:30.835,000 --> 0:08:31,000
+and these rigid panels that we put on top
+
+202
+0:08:32.825,000 --> 0:08:35,000
+that tell the legs how to fold up, which shape they should take.
+
+203
+0:08:35.856,000 --> 0:08:38,000
+The idea is that by shooting a laser at the different solar cells,
+
+204
+0:08:39.003,000 --> 0:08:4,000
+you can choose which leg you want to move
+
+205
+0:08:41.002,000 --> 0:08:42,000
+and make the robot walk around.
+
+206
+0:08:42.652,000 --> 0:08:44,000
+Now, of course, we don't build those one at a time, either.
+
+207
+0:08:45.443,000 --> 0:08:47,000
+We build them massively in parallel as well.
+
+208
+0:08:47.549,000 --> 0:08:5,000
+We can build something like one million robots on a single four-inch wafer.
+
+209
+0:08:51.138,000 --> 0:08:53,000
+So, for example, this image on the left, this is a chip,
+
+210
+0:08:53.846,000 --> 0:08:55,000
+and this chip has something like 10,000 robots on it.
+
+211
+0:08:56.439,000 --> 0:08:57,000
+Now, in our world, the macro world,
+
+212
+0:08:58.144,000 --> 0:09:01,000
+this thing looks like it might be a new microprocessor or something.
+
+213
+0:09:01.396,000 --> 0:09:03,000
+But if you take that chip and you put it under a microscope,
+
+214
+0:09:04.295,000 --> 0:09:07,000
+what you're going to see are thousands and thousands of tiny robots.
+
+215
+0:09:08.41,000 --> 0:09:09,000
+Now, these robots are still stuck down.
+
+216
+0:09:10.325,000 --> 0:09:12,000
+They're still attached to the surface that we built them on.
+
+217
+0:09:13.188,000 --> 0:09:15,000
+In order for them to walk around, we have to release them.
+
+218
+0:09:15.949,000 --> 0:09:18,000
+We wanted to show you how we do that live, how we release the robot army,
+
+219
+0:09:19.439,000 --> 0:09:21,000
+but the process involves highly dangerous chemicals,
+
+220
+0:09:22.363,000 --> 0:09:24,000
+like, really nasty stuff,
+
+221
+0:09:25.144,000 --> 0:09:27,000
+and we're like a mile from the White House right now?
+
+222
+0:09:27.701,000 --> 0:09:29,000
+Yeah. They wouldn't let us do it.
+
+223
+0:09:30.133,000 --> 0:09:31,000
+So --
+
+224
+0:09:31.315,000 --> 0:09:32,000
+(Laughter)
+
+225
+0:09:33.269,000 --> 0:09:36,000
+so we're going to show you a movie instead. (Laughs)
+
+226
+0:09:37.072,000 --> 0:09:4,000
+What you're looking at here are the final stages of robot deployment.
+
+227
+0:09:40.411,000 --> 0:09:41,000
+We're using chemicals
+
+228
+0:09:41.59,000 --> 0:09:43,000
+to etch the substrate out from underneath the robots.
+
+229
+0:09:44.138,000 --> 0:09:47,000
+When it dissolves, the robots are free to fold up into their final shapes.
+
+230
+0:09:47.689,000 --> 0:09:49,000
+Now, you can see here, the yield's about 90 percent,
+
+231
+0:09:50.176,000 --> 0:09:52,000
+so almost every one of those 10,000 robots we build,
+
+232
+0:09:52.833,000 --> 0:09:54,000
+that's a robot that we can deploy and control later.
+
+233
+0:09:55.705,000 --> 0:09:58,000
+And we can take those robots and we can put them places as well.
+
+234
+0:09:58.748,000 --> 0:10:01,000
+So if you look at the movie on the left, that's some robots in water.
+
+235
+0:10:02.035,000 --> 0:10:03,000
+I'm going to come along with a pipette,
+
+236
+0:10:04.017,000 --> 0:10:05,000
+and I can vacuum them all up.
+
+237
+0:10:06.571,000 --> 0:10:08,000
+Now when you inject the robots back out of that pipette,
+
+238
+0:10:09.283,000 --> 0:10:1,000
+they're just fine.
+
+239
+0:10:10.46,000 --> 0:10:11,000
+In fact, these robots are so small,
+
+240
+0:10:12.162,000 --> 0:10:15,000
+they're small enough to pass through the thinnest hypodermic needle
+
+241
+0:10:15.342,000 --> 0:10:16,000
+you can buy.
+
+242
+0:10:16.52,000 --> 0:10:17,000
+Yeah, so if you wanted to,
+
+243
+0:10:18.268,000 --> 0:10:2,000
+you could inject yourself full of robots.
+
+244
+0:10:20.621,000 --> 0:10:21,000
+(Laughter)
+
+245
+0:10:22.733,000 --> 0:10:23,000
+I think they're into it.
+
+246
+0:10:24.412,000 --> 0:10:25,000
+(Laughter)
+
+247
+0:10:27.274,000 --> 0:10:29,000
+On the right is a robot that we put in some pond water.
+
+248
+0:10:30.004,000 --> 0:10:32,000
+I want you to wait for just one second.
+
+249
+0:10:32.309,000 --> 0:10:33,000
+Ooop!
+
+250
+0:10:34.157,000 --> 0:10:38,000
+You see that? That was no shark. That was a paramecium.
+
+251
+0:10:38.409,000 --> 0:10:4,000
+So that's the world that these things live in.
+
+252
+0:10:40.91,000 --> 0:10:41,000
+OK, so this is all well and good,
+
+253
+0:10:42.551,000 --> 0:10:44,000
+but you might be wondering at this point,
+
+254
+0:10:44.594,000 --> 0:10:45,000
+"Well, do they walk?"
+
+255
+0:10:46.434,000 --> 0:10:5,000
+Right? That's what they're supposed to do. They better. So let's find out.
+
+256
+0:10:50.75,000 --> 0:10:52,000
+So here's the robot and here are its solar cells in the middle.
+
+257
+0:10:53.767,000 --> 0:10:54,000
+Those are those little rectangles.
+
+258
+0:10:55.421,000 --> 0:10:58,000
+I want you to look at the solar cell closest to the top of the slide.
+
+259
+0:10:58.739,000 --> 0:11:,000
+See that little white dot? That's a laser spot.
+
+260
+0:11:00.977,000 --> 0:11:02,000
+Now watch what happens when we start switching that laser
+
+261
+0:11:03.716,000 --> 0:11:05,000
+between different solar cells on the robot.
+
+262
+0:11:09.567,000 --> 0:11:1,000
+Off it goes!
+
+263
+0:11:11.024,000 --> 0:11:13,000
+(Applause)
+
+264
+0:11:13.521,000 --> 0:11:14,000
+Yeah!
+
+265
+0:11:14.721,000 --> 0:11:18,000
+(Applause)
+
+266
+0:11:20.469,000 --> 0:11:22,000
+Off goes the robot marching around the microworld.
+
+267
+0:11:23.613,000 --> 0:11:25,000
+Now, one of the things that's cool about this movie is:
+
+268
+0:11:26.296,000 --> 0:11:28,000
+I'm actually piloting the robot in this movie.
+
+269
+0:11:28.795,000 --> 0:11:33,000
+In fact, for six months, my job was to shoot lasers at tiny cell-sized robots
+
+270
+0:11:34.023,000 --> 0:11:36,000
+to pilot them around the microworld.
+
+271
+0:11:36.21,000 --> 0:11:37,000
+This was actually my job.
+
+272
+0:11:37.753,000 --> 0:11:4,000
+As far as I could tell, that is the coolest job in the world.
+
+273
+0:11:40.793,000 --> 0:11:41,000
+(Laughter)
+
+274
+0:11:42.092,000 --> 0:11:44,000
+It was just the feeling of total excitement,
+
+275
+0:11:44.433,000 --> 0:11:45,000
+like you're doing the impossible.
+
+276
+0:11:46.614,000 --> 0:11:49,000
+It's a feeling of wonder like that first time I looked through a microscope
+
+277
+0:11:50.163,000 --> 0:11:52,000
+as a kid staring at that rotifer.
+
+278
+0:11:52.392,000 --> 0:11:55,000
+Now, I'm a dad, I have a son of my own, and he's about three years old.
+
+279
+0:11:56.089,000 --> 0:11:59,000
+But one day, he's going to look through a microscope like that one.
+
+280
+0:11:59.51,000 --> 0:12:,000
+And I often wonder:
+
+281
+0:12:01.715,000 --> 0:12:02,000
+What is he going to see?
+
+282
+0:12:03.716,000 --> 0:12:05,000
+Instead of just watching the microworld,
+
+283
+0:12:05.805,000 --> 0:12:08,000
+we as humans can now build technology to shape it,
+
+284
+0:12:09.015,000 --> 0:12:11,000
+to interact with it, to engineer it.
+
+285
+0:12:12.169,000 --> 0:12:16,000
+In 30 years, when my son is my age, what will we do with that ability?
+
+286
+0:12:17.334,000 --> 0:12:2,000
+Will microrobots live in our bloodstream,
+
+287
+0:12:20.614,000 --> 0:12:21,000
+as common as bacteria?
+
+288
+0:12:22.888,000 --> 0:12:24,000
+Will they live on our crops and get rid of pests?
+
+289
+0:12:25.878,000 --> 0:12:29,000
+Will they tell us when we have infections, or will they fight cancer cell by cell?
+
+290
+0:12:31.952,000 --> 0:12:32,000
+PM: And one cool part is,
+
+291
+0:12:33.373,000 --> 0:12:35,000
+you're going to be able to participate in this revolution.
+
+292
+0:12:36.157,000 --> 0:12:37,000
+Ten years or so from now,
+
+293
+0:12:37.4,000 --> 0:12:41,000
+when you buy your new iPhone 15x Moto or whatever it's called --
+
+294
+0:12:41.725,000 --> 0:12:42,000
+(Laughter)
+
+295
+0:12:42.765,000 --> 0:12:45,000
+it may come with a little jar with a few thousand tiny robots in it
+
+296
+0:12:46.155,000 --> 0:12:48,000
+that you can control by an app on your cell phone.
+
+297
+0:12:49.424,000 --> 0:12:52,000
+So if you want to ride a paramecium, go for it.
+
+298
+0:12:53.2,000 --> 0:12:57,000
+If you want to -- I don't know -- DJ the world's smallest robot dance party,
+
+299
+0:12:57.504,000 --> 0:12:58,000
+make it happen.
+
+300
+0:12:58.688,000 --> 0:12:59,000
+(Laughter)
+
+301
+0:12:59.737,000 --> 0:13:02,000
+And I, for one, am very excited about that day coming.
+
+302
+0:13:03.615,000 --> 0:13:04,000
+MM: Thank you.
+
+303
+0:13:04.876,000 --> 0:13:08,000
+(Applause)
+

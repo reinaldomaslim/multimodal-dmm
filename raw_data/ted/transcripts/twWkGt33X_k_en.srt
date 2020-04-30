@@ -1,0 +1,696 @@
+1
+0:00:13.381,000 --> 0:00:17,000
+I work on helping computers communicate about the world around us.
+
+2
+0:00:17.754,000 --> 0:00:18,000
+There are a lot of ways to do this,
+
+3
+0:00:19.571,000 --> 0:00:21,000
+and I like to focus on helping computers
+
+4
+0:00:22.187,000 --> 0:00:24,000
+to talk about what they see and understand.
+
+5
+0:00:25.514,000 --> 0:00:26,000
+Given a scene like this,
+
+6
+0:00:27.109,000 --> 0:00:28,000
+a modern computer-vision algorithm
+
+7
+0:00:29.038,000 --> 0:00:32,000
+can tell you that there's a woman and there's a dog.
+
+8
+0:00:32.157,000 --> 0:00:34,000
+It can tell you that the woman is smiling.
+
+9
+0:00:34.887,000 --> 0:00:37,000
+It might even be able to tell you that the dog is incredibly cute.
+
+10
+0:00:38.784,000 --> 0:00:39,000
+I work on this problem
+
+11
+0:00:40.157,000 --> 0:00:44,000
+thinking about how humans understand and process the world.
+
+12
+0:00:45.577,000 --> 0:00:47,000
+The thoughts, memories and stories
+
+13
+0:00:48.553,000 --> 0:00:5,000
+that a scene like this might evoke for humans.
+
+14
+0:00:51.395,000 --> 0:00:55,000
+All the interconnections of related situations.
+
+15
+0:00:55.704,000 --> 0:00:58,000
+Maybe you've seen a dog like this one before,
+
+16
+0:00:58.854,000 --> 0:01:,000
+or you've spent time running on a beach like this one,
+
+17
+0:01:01.847,000 --> 0:01:05,000
+and that further evokes thoughts and memories of a past vacation,
+
+18
+0:01:06.649,000 --> 0:01:07,000
+past times to the beach,
+
+19
+0:01:08.593,000 --> 0:01:1,000
+times spent running around with other dogs.
+
+20
+0:01:11.688,000 --> 0:01:16,000
+One of my guiding principles is that by helping computers to understand
+
+21
+0:01:16.919,000 --> 0:01:18,000
+what it's like to have these experiences,
+
+22
+0:01:19.839,000 --> 0:01:24,000
+to understand what we share and believe and feel,
+
+23
+0:01:26.094,000 --> 0:01:3,000
+then we're in a great position to start evolving computer technology
+
+24
+0:01:30.428,000 --> 0:01:34,000
+in a way that's complementary with our own experiences.
+
+25
+0:01:35.539,000 --> 0:01:38,000
+So, digging more deeply into this,
+
+26
+0:01:38.95,000 --> 0:01:43,000
+a few years ago I began working on helping computers to generate human-like stories
+
+27
+0:01:44.879,000 --> 0:01:45,000
+from sequences of images.
+
+28
+0:01:47.427,000 --> 0:01:48,000
+So, one day,
+
+29
+0:01:49.355,000 --> 0:01:53,000
+I was working with my computer to ask it what it thought about a trip to Australia.
+
+30
+0:01:54.768,000 --> 0:01:56,000
+It took a look at the pictures, and it saw a koala.
+
+31
+0:01:58.236,000 --> 0:01:59,000
+It didn't know what the koala was,
+
+32
+0:01:59.903,000 --> 0:02:01,000
+but it said it thought it was an interesting-looking creature.
+
+33
+0:02:04.053,000 --> 0:02:08,000
+Then I shared with it a sequence of images about a house burning down.
+
+34
+0:02:09.704,000 --> 0:02:12,000
+It took a look at the images and it said,
+
+35
+0:02:13.013,000 --> 0:02:16,000
+"This is an amazing view! This is spectacular!"
+
+36
+0:02:17.45,000 --> 0:02:19,000
+It sent chills down my spine.
+
+37
+0:02:20.983,000 --> 0:02:24,000
+It saw a horrible, life-changing and life-destroying event
+
+38
+0:02:25.579,000 --> 0:02:27,000
+and thought it was something positive.
+
+39
+0:02:27.985,000 --> 0:02:3,000
+I realized that it recognized the contrast,
+
+40
+0:02:31.45,000 --> 0:02:33,000
+the reds, the yellows,
+
+41
+0:02:34.173,000 --> 0:02:37,000
+and thought it was something worth remarking on positively.
+
+42
+0:02:37.928,000 --> 0:02:38,000
+And part of why it was doing this
+
+43
+0:02:39.577,000 --> 0:02:41,000
+was because most of the images I had given it
+
+44
+0:02:42.546,000 --> 0:02:43,000
+were positive images.
+
+45
+0:02:44.903,000 --> 0:02:47,000
+That's because people tend to share positive images
+
+46
+0:02:48.585,000 --> 0:02:5,000
+when they talk about their experiences.
+
+47
+0:02:51.267,000 --> 0:02:53,000
+When was the last time you saw a selfie at a funeral?
+
+48
+0:02:55.434,000 --> 0:02:58,000
+I realized that, as I worked on improving AI
+
+49
+0:02:58.553,000 --> 0:03:01,000
+task by task, dataset by dataset,
+
+50
+0:03:02.291,000 --> 0:03:04,000
+that I was creating massive gaps,
+
+51
+0:03:05.212,000 --> 0:03:08,000
+holes and blind spots in what it could understand.
+
+52
+0:03:10.307,000 --> 0:03:11,000
+And while doing so,
+
+53
+0:03:11.665,000 --> 0:03:13,000
+I was encoding all kinds of biases.
+
+54
+0:03:15.029,000 --> 0:03:18,000
+Biases that reflect a limited viewpoint,
+
+55
+0:03:18.371,000 --> 0:03:2,000
+limited to a single dataset --
+
+56
+0:03:21.283,000 --> 0:03:24,000
+biases that can reflect human biases found in the data,
+
+57
+0:03:25.165,000 --> 0:03:28,000
+such as prejudice and stereotyping.
+
+58
+0:03:29.554,000 --> 0:03:32,000
+I thought back to the evolution of the technology
+
+59
+0:03:32.635,000 --> 0:03:34,000
+that brought me to where I was that day --
+
+60
+0:03:35.966,000 --> 0:03:37,000
+how the first color images
+
+61
+0:03:38.223,000 --> 0:03:41,000
+were calibrated against a white woman's skin,
+
+62
+0:03:41.665,000 --> 0:03:45,000
+meaning that color photography was biased against black faces.
+
+63
+0:03:46.514,000 --> 0:03:48,000
+And that same bias, that same blind spot
+
+64
+0:03:49.463,000 --> 0:03:5,000
+continued well into the '90s.
+
+65
+0:03:51.701,000 --> 0:03:54,000
+And the same blind spot continues even today
+
+66
+0:03:54.879,000 --> 0:03:57,000
+in how well we can recognize different people's faces
+
+67
+0:03:58.601,000 --> 0:04:,000
+in facial recognition technology.
+
+68
+0:04:01.323,000 --> 0:04:04,000
+I though about the state of the art in research today,
+
+69
+0:04:04.49,000 --> 0:04:08,000
+where we tend to limit our thinking to one dataset and one problem.
+
+70
+0:04:09.688,000 --> 0:04:13,000
+And that in doing so, we were creating more blind spots and biases
+
+71
+0:04:14.593,000 --> 0:04:16,000
+that the AI could further amplify.
+
+72
+0:04:17.712,000 --> 0:04:19,000
+I realized then that we had to think deeply
+
+73
+0:04:19.815,000 --> 0:04:24,000
+about how the technology we work on today looks in five years, in 10 years.
+
+74
+0:04:25.99,000 --> 0:04:28,000
+Humans evolve slowly, with time to correct for issues
+
+75
+0:04:29.156,000 --> 0:04:32,000
+in the interaction of humans and their environment.
+
+76
+0:04:33.276,000 --> 0:04:38,000
+In contrast, artificial intelligence is evolving at an incredibly fast rate.
+
+77
+0:04:39.013,000 --> 0:04:4,000
+And that means that it really matters
+
+78
+0:04:40.81,000 --> 0:04:42,000
+that we think about this carefully right now --
+
+79
+0:04:44.18,000 --> 0:04:47,000
+that we reflect on our own blind spots,
+
+80
+0:04:47.212,000 --> 0:04:49,000
+our own biases,
+
+81
+0:04:49.553,000 --> 0:04:52,000
+and think about how that's informing the technology we're creating
+
+82
+0:04:53.434,000 --> 0:04:56,000
+and discuss what the technology of today will mean for tomorrow.
+
+83
+0:04:58.593,000 --> 0:05:01,000
+CEOs and scientists have weighed in on what they think
+
+84
+0:05:01.808,000 --> 0:05:04,000
+the artificial intelligence technology of the future will be.
+
+85
+0:05:05.157,000 --> 0:05:06,000
+Stephen Hawking warns that
+
+86
+0:05:06.799,000 --> 0:05:09,000
+"Artificial intelligence could end mankind."
+
+87
+0:05:10.307,000 --> 0:05:12,000
+Elon Musk warns that it's an existential risk
+
+88
+0:05:13.014,000 --> 0:05:16,000
+and one of the greatest risks that we face as a civilization.
+
+89
+0:05:17.665,000 --> 0:05:18,000
+Bill Gates has made the point,
+
+90
+0:05:19.141,000 --> 0:05:22,000
+"I don't understand why people aren't more concerned."
+
+91
+0:05:23.412,000 --> 0:05:24,000
+But these views --
+
+92
+0:05:25.618,000 --> 0:05:26,000
+they're part of the story.
+
+93
+0:05:28.079,000 --> 0:05:3,000
+The math, the models,
+
+94
+0:05:30.523,000 --> 0:05:33,000
+the basic building blocks of artificial intelligence
+
+95
+0:05:33.617,000 --> 0:05:36,000
+are something that we call access and all work with.
+
+96
+0:05:36.776,000 --> 0:05:39,000
+We have open-source tools for machine learning and intelligence
+
+97
+0:05:40.585,000 --> 0:05:41,000
+that we can contribute to.
+
+98
+0:05:42.919,000 --> 0:05:45,000
+And beyond that, we can share our experience.
+
+99
+0:05:46.76,000 --> 0:05:49,000
+We can share our experiences with technology and how it concerns us
+
+100
+0:05:50.252,000 --> 0:05:51,000
+and how it excites us.
+
+101
+0:05:52.251,000 --> 0:05:53,000
+We can discuss what we love.
+
+102
+0:05:55.244,000 --> 0:05:57,000
+We can communicate with foresight
+
+103
+0:05:57.299,000 --> 0:06:01,000
+about the aspects of technology that could be more beneficial
+
+104
+0:06:02.18,000 --> 0:06:04,000
+or could be more problematic over time.
+
+105
+0:06:05.799,000 --> 0:06:09,000
+If we all focus on opening up the discussion on AI
+
+106
+0:06:09.966,000 --> 0:06:1,000
+with foresight towards the future,
+
+107
+0:06:13.093,000 --> 0:06:17,000
+this will help create a general conversation and awareness
+
+108
+0:06:17.387,000 --> 0:06:19,000
+about what AI is now,
+
+109
+0:06:21.212,000 --> 0:06:23,000
+what it can become
+
+110
+0:06:23.237,000 --> 0:06:24,000
+and all the things that we need to do
+
+111
+0:06:25.046,000 --> 0:06:28,000
+in order to enable that outcome that best suits us.
+
+112
+0:06:29.49,000 --> 0:06:32,000
+We already see and know this in the technology that we use today.
+
+113
+0:06:33.767,000 --> 0:06:36,000
+We use smart phones and digital assistants and Roombas.
+
+114
+0:06:38.457,000 --> 0:06:39,000
+Are they evil?
+
+115
+0:06:40.268,000 --> 0:06:41,000
+Maybe sometimes.
+
+116
+0:06:42.664,000 --> 0:06:43,000
+Are they beneficial?
+
+117
+0:06:45.005,000 --> 0:06:46,000
+Yes, they're that, too.
+
+118
+0:06:48.236,000 --> 0:06:49,000
+And they're not all the same.
+
+119
+0:06:50.489,000 --> 0:06:53,000
+And there you already see a light shining on what the future holds.
+
+120
+0:06:54.942,000 --> 0:06:57,000
+The future continues on from what we build and create right now.
+
+121
+0:06:59.165,000 --> 0:07:01,000
+We set into motion that domino effect
+
+122
+0:07:01.831,000 --> 0:07:03,000
+that carves out AI's evolutionary path.
+
+123
+0:07:05.173,000 --> 0:07:07,000
+In our time right now, we shape the AI of tomorrow.
+
+124
+0:07:08.566,000 --> 0:07:11,000
+Technology that immerses us in augmented realities
+
+125
+0:07:12.289,000 --> 0:07:14,000
+bringing to life past worlds.
+
+126
+0:07:15.844,000 --> 0:07:19,000
+Technology that helps people to share their experiences
+
+127
+0:07:20.18,000 --> 0:07:22,000
+when they have difficulty communicating.
+
+128
+0:07:23.323,000 --> 0:07:27,000
+Technology built on understanding the streaming visual worlds
+
+129
+0:07:27.879,000 --> 0:07:3,000
+used as technology for self-driving cars.
+
+130
+0:07:32.49,000 --> 0:07:35,000
+Technology built on understanding images and generating language,
+
+131
+0:07:35.927,000 --> 0:07:39,000
+evolving into technology that helps people who are visually impaired
+
+132
+0:07:40.014,000 --> 0:07:42,000
+be better able to access the visual world.
+
+133
+0:07:42.838,000 --> 0:07:45,000
+And we also see how technology can lead to problems.
+
+134
+0:07:46.885,000 --> 0:07:47,000
+We have technology today
+
+135
+0:07:48.337,000 --> 0:07:51,000
+that analyzes physical characteristics we're born with --
+
+136
+0:07:52.196,000 --> 0:07:55,000
+such as the color of our skin or the look of our face --
+
+137
+0:07:55.492,000 --> 0:07:58,000
+in order to determine whether or not we might be criminals or terrorists.
+
+138
+0:07:59.688,000 --> 0:08:01,000
+We have technology that crunches through our data,
+
+139
+0:08:02.617,000 --> 0:08:04,000
+even data relating to our gender or our race,
+
+140
+0:08:05.537,000 --> 0:08:07,000
+in order to determine whether or not we might get a loan.
+
+141
+0:08:09.494,000 --> 0:08:1,000
+All that we see now
+
+142
+0:08:11.097,000 --> 0:08:14,000
+is a snapshot in the evolution of artificial intelligence.
+
+143
+0:08:15.763,000 --> 0:08:16,000
+Because where we are right now,
+
+144
+0:08:17.565,000 --> 0:08:19,000
+is within a moment of that evolution.
+
+145
+0:08:20.69,000 --> 0:08:23,000
+That means that what we do now will affect what happens down the line
+
+146
+0:08:24.516,000 --> 0:08:25,000
+and in the future.
+
+147
+0:08:26.063,000 --> 0:08:29,000
+If we want AI to evolve in a way that helps humans,
+
+148
+0:08:30.038,000 --> 0:08:32,000
+then we need to define the goals and strategies
+
+149
+0:08:32.863,000 --> 0:08:33,000
+that enable that path now.
+
+150
+0:08:35.68,000 --> 0:08:38,000
+What I'd like to see is something that fits well with humans,
+
+151
+0:08:39.442,000 --> 0:08:41,000
+with our culture and with the environment.
+
+152
+0:08:43.435,000 --> 0:08:47,000
+Technology that aids and assists those of us with neurological conditions
+
+153
+0:08:47.943,000 --> 0:08:48,000
+or other disabilities
+
+154
+0:08:49.688,000 --> 0:08:52,000
+in order to make life equally challenging for everyone.
+
+155
+0:08:54.097,000 --> 0:08:55,000
+Technology that works
+
+156
+0:08:55.542,000 --> 0:08:58,000
+regardless of your demographics or the color of your skin.
+
+157
+0:09:00.383,000 --> 0:09:04,000
+And so today, what I focus on is the technology for tomorrow
+
+158
+0:09:05.149,000 --> 0:09:06,000
+and for 10 years from now.
+
+159
+0:09:08.53,000 --> 0:09:1,000
+AI can turn out in many different ways.
+
+160
+0:09:11.688,000 --> 0:09:12,000
+But in this case,
+
+161
+0:09:12.937,000 --> 0:09:15,000
+it isn't a self-driving car without any destination.
+
+162
+0:09:16.884,000 --> 0:09:18,000
+This is the car that we are driving.
+
+163
+0:09:19.953,000 --> 0:09:22,000
+We choose when to speed up and when to slow down.
+
+164
+0:09:23.572,000 --> 0:09:25,000
+We choose if we need to make a turn.
+
+165
+0:09:26.868,000 --> 0:09:29,000
+We choose what the AI of the future will be.
+
+166
+0:09:31.186,000 --> 0:09:32,000
+There's a vast playing field
+
+167
+0:09:32.547,000 --> 0:09:34,000
+of all the things that artificial intelligence can become.
+
+168
+0:09:36.064,000 --> 0:09:37,000
+It will become many things.
+
+169
+0:09:39.694,000 --> 0:09:4,000
+And it's up to us now,
+
+170
+0:09:41.45,000 --> 0:09:44,000
+in order to figure out what we need to put in place
+
+171
+0:09:44.535,000 --> 0:09:47,000
+to make sure the outcomes of artificial intelligence
+
+172
+0:09:48.366,000 --> 0:09:51,000
+are the ones that will be better for all of us.
+
+173
+0:09:51.456,000 --> 0:09:52,000
+Thank you.
+
+174
+0:09:52.63,000 --> 0:09:54,000
+(Applause)
+

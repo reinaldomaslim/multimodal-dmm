@@ -1,0 +1,1064 @@
+1
+0:00:12.738,000 --> 0:00:13,000
+If you remember that first decade of the web,
+
+2
+0:00:14.735,000 --> 0:00:16,000
+it was really a static place.
+
+3
+0:00:16.99,000 --> 0:00:18,000
+You could go online, you could look at pages,
+
+4
+0:00:19.235,000 --> 0:00:21,000
+and they were put up either by organizations
+
+5
+0:00:21.748,000 --> 0:00:22,000
+who had teams to do it
+
+6
+0:00:23.269,000 --> 0:00:25,000
+or by individuals who were really tech-savvy
+
+7
+0:00:25.498,000 --> 0:00:26,000
+for the time.
+
+8
+0:00:27.235,000 --> 0:00:28,000
+And with the rise of social media
+
+9
+0:00:28.81,000 --> 0:00:3,000
+and social networks in the early 2000s,
+
+10
+0:00:31.209,000 --> 0:00:33,000
+the web was completely changed
+
+11
+0:00:33.358,000 --> 0:00:36,000
+to a place where now the vast majority of content
+
+12
+0:00:36.966,000 --> 0:00:39,000
+we interact with is put up by average users,
+
+13
+0:00:40.278,000 --> 0:00:42,000
+either in YouTube videos or blog posts
+
+14
+0:00:42.975,000 --> 0:00:45,000
+or product reviews or social media postings.
+
+15
+0:00:46.29,000 --> 0:00:48,000
+And it's also become a much more interactive place,
+
+16
+0:00:48.637,000 --> 0:00:5,000
+where people are interacting with others,
+
+17
+0:00:51.274,000 --> 0:00:52,000
+they're commenting, they're sharing,
+
+18
+0:00:52.97,000 --> 0:00:53,000
+they're not just reading.
+
+19
+0:00:54.584,000 --> 0:00:55,000
+So Facebook is not the only place you can do this,
+
+20
+0:00:56.45,000 --> 0:00:57,000
+but it's the biggest,
+
+21
+0:00:57.548,000 --> 0:00:58,000
+and it serves to illustrate the numbers.
+
+22
+0:00:59.332,000 --> 0:01:02,000
+Facebook has 1.2 billion users per month.
+
+23
+0:01:02.809,000 --> 0:01:03,000
+So half the Earth's Internet population
+
+24
+0:01:04.739,000 --> 0:01:05,000
+is using Facebook.
+
+25
+0:01:06.392,000 --> 0:01:07,000
+They are a site, along with others,
+
+26
+0:01:08.324,000 --> 0:01:11,000
+that has allowed people to create an online persona
+
+27
+0:01:11.543,000 --> 0:01:12,000
+with very little technical skill,
+
+28
+0:01:13.325,000 --> 0:01:15,000
+and people responded by putting huge amounts
+
+29
+0:01:15.801,000 --> 0:01:16,000
+of personal data online.
+
+30
+0:01:17.784,000 --> 0:01:19,000
+So the result is that we have behavioral,
+
+31
+0:01:20.327,000 --> 0:01:21,000
+preference, demographic data
+
+32
+0:01:22.313,000 --> 0:01:24,000
+for hundreds of millions of people,
+
+33
+0:01:24.414,000 --> 0:01:26,000
+which is unprecedented in history.
+
+34
+0:01:26.44,000 --> 0:01:28,000
+And as a computer scientist, what this means is that
+
+35
+0:01:29,000 --> 0:01:3,000
+I've been able to build models
+
+36
+0:01:30.664,000 --> 0:01:32,000
+that can predict all sorts of hidden attributes
+
+37
+0:01:32.986,000 --> 0:01:34,000
+for all of you that you don't even know
+
+38
+0:01:35.27,000 --> 0:01:37,000
+you're sharing information about.
+
+39
+0:01:37.472,000 --> 0:01:39,000
+As scientists, we use that to help
+
+40
+0:01:39.854,000 --> 0:01:41,000
+the way people interact online,
+
+41
+0:01:41.968,000 --> 0:01:43,000
+but there's less altruistic applications,
+
+42
+0:01:44.467,000 --> 0:01:46,000
+and there's a problem in that users don't really
+
+43
+0:01:46.848,000 --> 0:01:48,000
+understand these techniques and how they work,
+
+44
+0:01:49.318,000 --> 0:01:52,000
+and even if they did, they don't have a lot of control over it.
+
+45
+0:01:52.446,000 --> 0:01:53,000
+So what I want to talk to you about today
+
+46
+0:01:53.936,000 --> 0:01:55,000
+is some of these things that we're able to do,
+
+47
+0:01:56.638,000 --> 0:01:58,000
+and then give us some ideas of how we might go forward
+
+48
+0:01:59.401,000 --> 0:02:01,000
+to move some control back into the hands of users.
+
+49
+0:02:02.17,000 --> 0:02:03,000
+So this is Target, the company.
+
+50
+0:02:03.756,000 --> 0:02:04,000
+I didn't just put that logo
+
+51
+0:02:05.08,000 --> 0:02:07,000
+on this poor, pregnant woman's belly.
+
+52
+0:02:07.25,000 --> 0:02:08,000
+You may have seen this anecdote that was printed
+
+53
+0:02:09.09,000 --> 0:02:11,000
+in Forbes magazine where Target
+
+54
+0:02:11.151,000 --> 0:02:13,000
+sent a flyer to this 15-year-old girl
+
+55
+0:02:13.512,000 --> 0:02:14,000
+with advertisements and coupons
+
+56
+0:02:15.222,000 --> 0:02:17,000
+for baby bottles and diapers and cribs
+
+57
+0:02:17.776,000 --> 0:02:18,000
+two weeks before she told her parents
+
+58
+0:02:19.46,000 --> 0:02:2,000
+that she was pregnant.
+
+59
+0:02:21.324,000 --> 0:02:23,000
+Yeah, the dad was really upset.
+
+60
+0:02:24.028,000 --> 0:02:25,000
+He said, "How did Target figure out
+
+61
+0:02:25.744,000 --> 0:02:26,000
+that this high school girl was pregnant
+
+62
+0:02:27.568,000 --> 0:02:28,000
+before she told her parents?"
+
+63
+0:02:29.528,000 --> 0:02:31,000
+It turns out that they have the purchase history
+
+64
+0:02:32.149,000 --> 0:02:34,000
+for hundreds of thousands of customers
+
+65
+0:02:34.45,000 --> 0:02:36,000
+and they compute what they call a pregnancy score,
+
+66
+0:02:37.18,000 --> 0:02:39,000
+which is not just whether or not a woman's pregnant,
+
+67
+0:02:39.512,000 --> 0:02:4,000
+but what her due date is.
+
+68
+0:02:41.242,000 --> 0:02:42,000
+And they compute that
+
+69
+0:02:42.546,000 --> 0:02:43,000
+not by looking at the obvious things,
+
+70
+0:02:44.314,000 --> 0:02:46,000
+like, she's buying a crib or baby clothes,
+
+71
+0:02:46.826,000 --> 0:02:48,000
+but things like, she bought more vitamins
+
+72
+0:02:49.769,000 --> 0:02:5,000
+than she normally had,
+
+73
+0:02:51.486,000 --> 0:02:52,000
+or she bought a handbag
+
+74
+0:02:52.95,000 --> 0:02:53,000
+that's big enough to hold diapers.
+
+75
+0:02:54.661,000 --> 0:02:55,000
+And by themselves, those purchases don't seem
+
+76
+0:02:56.571,000 --> 0:02:58,000
+like they might reveal a lot,
+
+77
+0:02:59.04,000 --> 0:03:,000
+but it's a pattern of behavior that,
+
+78
+0:03:01.018,000 --> 0:03:04,000
+when you take it in the context of thousands of other people,
+
+79
+0:03:04.135,000 --> 0:03:06,000
+starts to actually reveal some insights.
+
+80
+0:03:06.892,000 --> 0:03:07,000
+So that's the kind of thing that we do
+
+81
+0:03:08.685,000 --> 0:03:1,000
+when we're predicting stuff about you on social media.
+
+82
+0:03:11.252,000 --> 0:03:13,000
+We're looking for little patterns of behavior that,
+
+83
+0:03:14.048,000 --> 0:03:16,000
+when you detect them among millions of people,
+
+84
+0:03:16.73,000 --> 0:03:18,000
+lets us find out all kinds of things.
+
+85
+0:03:19.436,000 --> 0:03:2,000
+So in my lab and with colleagues,
+
+86
+0:03:21.183,000 --> 0:03:22,000
+we've developed mechanisms where we can
+
+87
+0:03:22.96,000 --> 0:03:23,000
+quite accurately predict things
+
+88
+0:03:24.52,000 --> 0:03:25,000
+like your political preference,
+
+89
+0:03:26.245,000 --> 0:03:29,000
+your personality score, gender, sexual orientation,
+
+90
+0:03:29.997,000 --> 0:03:31,000
+religion, age, intelligence,
+
+91
+0:03:32.87,000 --> 0:03:33,000
+along with things like
+
+92
+0:03:34.264,000 --> 0:03:35,000
+how much you trust the people you know
+
+93
+0:03:36.201,000 --> 0:03:37,000
+and how strong those relationships are.
+
+94
+0:03:38.005,000 --> 0:03:39,000
+We can do all of this really well.
+
+95
+0:03:39.79,000 --> 0:03:41,000
+And again, it doesn't come from what you might
+
+96
+0:03:41.987,000 --> 0:03:43,000
+think of as obvious information.
+
+97
+0:03:44.089,000 --> 0:03:46,000
+So my favorite example is from this study
+
+98
+0:03:46.37,000 --> 0:03:47,000
+that was published this year
+
+99
+0:03:47.61,000 --> 0:03:48,000
+in the Proceedings of the National Academies.
+
+100
+0:03:49.405,000 --> 0:03:5,000
+If you Google this, you'll find it.
+
+101
+0:03:50.69,000 --> 0:03:51,000
+It's four pages, easy to read.
+
+102
+0:03:52.562,000 --> 0:03:55,000
+And they looked at just people's Facebook likes,
+
+103
+0:03:55.565,000 --> 0:03:56,000
+so just the things you like on Facebook,
+
+104
+0:03:57.485,000 --> 0:03:59,000
+and used that to predict all these attributes,
+
+105
+0:03:59.623,000 --> 0:04:,000
+along with some other ones.
+
+106
+0:04:01.268,000 --> 0:04:03,000
+And in their paper they listed the five likes
+
+107
+0:04:04.229,000 --> 0:04:06,000
+that were most indicative of high intelligence.
+
+108
+0:04:07.016,000 --> 0:04:09,000
+And among those was liking a page
+
+109
+0:04:09.34,000 --> 0:04:1,000
+for curly fries. (Laughter)
+
+110
+0:04:11.245,000 --> 0:04:13,000
+Curly fries are delicious,
+
+111
+0:04:13.338,000 --> 0:04:15,000
+but liking them does not necessarily mean
+
+112
+0:04:15.868,000 --> 0:04:17,000
+that you're smarter than the average person.
+
+113
+0:04:17.948,000 --> 0:04:2,000
+So how is it that one of the strongest indicators
+
+114
+0:04:21.155,000 --> 0:04:22,000
+of your intelligence
+
+115
+0:04:22.725,000 --> 0:04:23,000
+is liking this page
+
+116
+0:04:24.172,000 --> 0:04:26,000
+when the content is totally irrelevant
+
+117
+0:04:26.424,000 --> 0:04:28,000
+to the attribute that's being predicted?
+
+118
+0:04:28.951,000 --> 0:04:29,000
+And it turns out that we have to look at
+
+119
+0:04:30.535,000 --> 0:04:31,000
+a whole bunch of underlying theories
+
+120
+0:04:32.153,000 --> 0:04:34,000
+to see why we're able to do this.
+
+121
+0:04:34.722,000 --> 0:04:36,000
+One of them is a sociological theory called homophily,
+
+122
+0:04:37.635,000 --> 0:04:4,000
+which basically says people are friends with people like them.
+
+123
+0:04:40.727,000 --> 0:04:42,000
+So if you're smart, you tend to be friends with smart people,
+
+124
+0:04:42.741,000 --> 0:04:44,000
+and if you're young, you tend to be friends with young people,
+
+125
+0:04:45.371,000 --> 0:04:46,000
+and this is well established
+
+126
+0:04:46.998,000 --> 0:04:47,000
+for hundreds of years.
+
+127
+0:04:48.743,000 --> 0:04:49,000
+We also know a lot
+
+128
+0:04:49.975,000 --> 0:04:51,000
+about how information spreads through networks.
+
+129
+0:04:52.525,000 --> 0:04:53,000
+It turns out things like viral videos
+
+130
+0:04:54.279,000 --> 0:04:56,000
+or Facebook likes or other information
+
+131
+0:04:56.685,000 --> 0:04:57,000
+spreads in exactly the same way
+
+132
+0:04:58.573,000 --> 0:05:,000
+that diseases spread through social networks.
+
+133
+0:05:01.027,000 --> 0:05:02,000
+So this is something we've studied for a long time.
+
+134
+0:05:02.818,000 --> 0:05:03,000
+We have good models of it.
+
+135
+0:05:04.394,000 --> 0:05:06,000
+And so you can put those things together
+
+136
+0:05:06.551,000 --> 0:05:09,000
+and start seeing why things like this happen.
+
+137
+0:05:09.639,000 --> 0:05:1,000
+So if I were to give you a hypothesis,
+
+138
+0:05:11.453,000 --> 0:05:14,000
+it would be that a smart guy started this page,
+
+139
+0:05:14.68,000 --> 0:05:15,000
+or maybe one of the first people who liked it
+
+140
+0:05:16.619,000 --> 0:05:17,000
+would have scored high on that test.
+
+141
+0:05:18.355,000 --> 0:05:2,000
+And they liked it, and their friends saw it,
+
+142
+0:05:20.643,000 --> 0:05:23,000
+and by homophily, we know that he probably had smart friends,
+
+143
+0:05:23.765,000 --> 0:05:26,000
+and so it spread to them, and some of them liked it,
+
+144
+0:05:26.821,000 --> 0:05:27,000
+and they had smart friends,
+
+145
+0:05:28.01,000 --> 0:05:28,000
+and so it spread to them,
+
+146
+0:05:28.817,000 --> 0:05:29,000
+and so it propagated through the network
+
+147
+0:05:30.79,000 --> 0:05:32,000
+to a host of smart people,
+
+148
+0:05:33.359,000 --> 0:05:35,000
+so that by the end, the action
+
+149
+0:05:35.415,000 --> 0:05:37,000
+of liking the curly fries page
+
+150
+0:05:37.959,000 --> 0:05:38,000
+is indicative of high intelligence,
+
+151
+0:05:39.574,000 --> 0:05:4,000
+not because of the content,
+
+152
+0:05:41.377,000 --> 0:05:43,000
+but because the actual action of liking
+
+153
+0:05:43.899,000 --> 0:05:44,000
+reflects back the common attributes
+
+154
+0:05:45.799,000 --> 0:05:47,000
+of other people who have done it.
+
+155
+0:05:48.267,000 --> 0:05:5,000
+So this is pretty complicated stuff, right?
+
+156
+0:05:51.164,000 --> 0:05:53,000
+It's a hard thing to sit down and explain
+
+157
+0:05:53.363,000 --> 0:05:55,000
+to an average user, and even if you do,
+
+158
+0:05:56.211,000 --> 0:05:58,000
+what can the average user do about it?
+
+159
+0:05:58.399,000 --> 0:06:,000
+How do you know that you've liked something
+
+160
+0:06:00.447,000 --> 0:06:01,000
+that indicates a trait for you
+
+161
+0:06:01.939,000 --> 0:06:04,000
+that's totally irrelevant to the content of what you've liked?
+
+162
+0:06:05.484,000 --> 0:06:07,000
+There's a lot of power that users don't have
+
+163
+0:06:08.03,000 --> 0:06:1,000
+to control how this data is used.
+
+164
+0:06:10.26,000 --> 0:06:13,000
+And I see that as a real problem going forward.
+
+165
+0:06:13.372,000 --> 0:06:14,000
+So I think there's a couple paths
+
+166
+0:06:15.349,000 --> 0:06:16,000
+that we want to look at
+
+167
+0:06:16.35,000 --> 0:06:17,000
+if we want to give users some control
+
+168
+0:06:18.26,000 --> 0:06:19,000
+over how this data is used,
+
+169
+0:06:2,000 --> 0:06:21,000
+because it's not always going to be used
+
+170
+0:06:21.94,000 --> 0:06:22,000
+for their benefit.
+
+171
+0:06:23.321,000 --> 0:06:24,000
+An example I often give is that,
+
+172
+0:06:24.743,000 --> 0:06:25,000
+if I ever get bored being a professor,
+
+173
+0:06:26.389,000 --> 0:06:27,000
+I'm going to go start a company
+
+174
+0:06:28.042,000 --> 0:06:29,000
+that predicts all of these attributes
+
+175
+0:06:29.496,000 --> 0:06:3,000
+and things like how well you work in teams
+
+176
+0:06:31.098,000 --> 0:06:33,000
+and if you're a drug user, if you're an alcoholic.
+
+177
+0:06:33.769,000 --> 0:06:34,000
+We know how to predict all that.
+
+178
+0:06:35.209,000 --> 0:06:36,000
+And I'm going to sell reports
+
+179
+0:06:36.97,000 --> 0:06:38,000
+to H.R. companies and big businesses
+
+180
+0:06:39.07,000 --> 0:06:41,000
+that want to hire you.
+
+181
+0:06:41.343,000 --> 0:06:42,000
+We totally can do that now.
+
+182
+0:06:42.52,000 --> 0:06:43,000
+I could start that business tomorrow,
+
+183
+0:06:44.308,000 --> 0:06:46,000
+and you would have absolutely no control
+
+184
+0:06:46.36,000 --> 0:06:48,000
+over me using your data like that.
+
+185
+0:06:48.498,000 --> 0:06:5,000
+That seems to me to be a problem.
+
+186
+0:06:50.79,000 --> 0:06:51,000
+So one of the paths we can go down
+
+187
+0:06:52.7,000 --> 0:06:54,000
+is the policy and law path.
+
+188
+0:06:54.732,000 --> 0:06:57,000
+And in some respects, I think that that would be most effective,
+
+189
+0:06:57.778,000 --> 0:06:59,000
+but the problem is we'd actually have to do it.
+
+190
+0:07:00.534,000 --> 0:07:02,000
+Observing our political process in action
+
+191
+0:07:03.314,000 --> 0:07:05,000
+makes me think it's highly unlikely
+
+192
+0:07:05.693,000 --> 0:07:06,000
+that we're going to get a bunch of representatives
+
+193
+0:07:07.29,000 --> 0:07:08,000
+to sit down, learn about this,
+
+194
+0:07:09.276,000 --> 0:07:11,000
+and then enact sweeping changes
+
+195
+0:07:11.382,000 --> 0:07:13,000
+to intellectual property law in the U.S.
+
+196
+0:07:13.539,000 --> 0:07:15,000
+so users control their data.
+
+197
+0:07:16,000 --> 0:07:17,000
+We could go the policy route,
+
+198
+0:07:17.304,000 --> 0:07:18,000
+where social media companies say,
+
+199
+0:07:18.783,000 --> 0:07:19,000
+you know what? You own your data.
+
+200
+0:07:20.185,000 --> 0:07:22,000
+You have total control over how it's used.
+
+201
+0:07:22.674,000 --> 0:07:23,000
+The problem is that the revenue models
+
+202
+0:07:24.522,000 --> 0:07:25,000
+for most social media companies
+
+203
+0:07:26.246,000 --> 0:07:3,000
+rely on sharing or exploiting users' data in some way.
+
+204
+0:07:30.277,000 --> 0:07:31,000
+It's sometimes said of Facebook that the users
+
+205
+0:07:32.11,000 --> 0:07:34,000
+aren't the customer, they're the product.
+
+206
+0:07:34.638,000 --> 0:07:36,000
+And so how do you get a company
+
+207
+0:07:37.352,000 --> 0:07:39,000
+to cede control of their main asset
+
+208
+0:07:39.91,000 --> 0:07:4,000
+back to the users?
+
+209
+0:07:41.159,000 --> 0:07:42,000
+It's possible, but I don't think it's something
+
+210
+0:07:42.86,000 --> 0:07:44,000
+that we're going to see change quickly.
+
+211
+0:07:45.18,000 --> 0:07:46,000
+So I think the other path
+
+212
+0:07:46.68,000 --> 0:07:48,000
+that we can go down that's going to be more effective
+
+213
+0:07:48.968,000 --> 0:07:49,000
+is one of more science.
+
+214
+0:07:50.476,000 --> 0:07:52,000
+It's doing science that allowed us to develop
+
+215
+0:07:52.986,000 --> 0:07:53,000
+all these mechanisms for computing
+
+216
+0:07:54.736,000 --> 0:07:56,000
+this personal data in the first place.
+
+217
+0:07:56.788,000 --> 0:07:58,000
+And it's actually very similar research
+
+218
+0:07:58.894,000 --> 0:07:59,000
+that we'd have to do
+
+219
+0:08:00.332,000 --> 0:08:02,000
+if we want to develop mechanisms
+
+220
+0:08:02.718,000 --> 0:08:03,000
+that can say to a user,
+
+221
+0:08:04.139,000 --> 0:08:06,000
+"Here's the risk of that action you just took."
+
+222
+0:08:06.368,000 --> 0:08:08,000
+By liking that Facebook page,
+
+223
+0:08:08.448,000 --> 0:08:1,000
+or by sharing this piece of personal information,
+
+224
+0:08:10.983,000 --> 0:08:11,000
+you've now improved my ability
+
+225
+0:08:12.485,000 --> 0:08:14,000
+to predict whether or not you're using drugs
+
+226
+0:08:14.571,000 --> 0:08:16,000
+or whether or not you get along well in the workplace.
+
+227
+0:08:17.433,000 --> 0:08:18,000
+And that, I think, can affect whether or not
+
+228
+0:08:19.281,000 --> 0:08:2,000
+people want to share something,
+
+229
+0:08:20.791,000 --> 0:08:23,000
+keep it private, or just keep it offline altogether.
+
+230
+0:08:24.03,000 --> 0:08:25,000
+We can also look at things like
+
+231
+0:08:25.593,000 --> 0:08:27,000
+allowing people to encrypt data that they upload,
+
+232
+0:08:28.321,000 --> 0:08:29,000
+so it's kind of invisible and worthless
+
+233
+0:08:30.176,000 --> 0:08:31,000
+to sites like Facebook
+
+234
+0:08:31.607,000 --> 0:08:33,000
+or third party services that access it,
+
+235
+0:08:34.236,000 --> 0:08:37,000
+but that select users who the person who posted it
+
+236
+0:08:37.483,000 --> 0:08:39,000
+want to see it have access to see it.
+
+237
+0:08:40.153,000 --> 0:08:42,000
+This is all super exciting research
+
+238
+0:08:42.319,000 --> 0:08:43,000
+from an intellectual perspective,
+
+239
+0:08:43.939,000 --> 0:08:44,000
+and so scientists are going to be willing to do it.
+
+240
+0:08:45.798,000 --> 0:08:48,000
+So that gives us an advantage over the law side.
+
+241
+0:08:49.408,000 --> 0:08:5,000
+One of the problems that people bring up
+
+242
+0:08:51.133,000 --> 0:08:52,000
+when I talk about this is, they say,
+
+243
+0:08:52.728,000 --> 0:08:54,000
+you know, if people start keeping all this data private,
+
+244
+0:08:55.374,000 --> 0:08:57,000
+all those methods that you've been developing
+
+245
+0:08:57.487,000 --> 0:08:59,000
+to predict their traits are going to fail.
+
+246
+0:09:00.14,000 --> 0:09:03,000
+And I say, absolutely, and for me, that's success,
+
+247
+0:09:03.66,000 --> 0:09:04,000
+because as a scientist,
+
+248
+0:09:05.446,000 --> 0:09:08,000
+my goal is not to infer information about users,
+
+249
+0:09:09.134,000 --> 0:09:11,000
+it's to improve the way people interact online.
+
+250
+0:09:11.901,000 --> 0:09:14,000
+And sometimes that involves inferring things about them,
+
+251
+0:09:15.119,000 --> 0:09:18,000
+but if users don't want me to use that data,
+
+252
+0:09:18.141,000 --> 0:09:2,000
+I think they should have the right to do that.
+
+253
+0:09:20.179,000 --> 0:09:22,000
+I want users to be informed and consenting
+
+254
+0:09:22.83,000 --> 0:09:24,000
+users of the tools that we develop.
+
+255
+0:09:24.942,000 --> 0:09:26,000
+And so I think encouraging this kind of science
+
+256
+0:09:27.894,000 --> 0:09:28,000
+and supporting researchers
+
+257
+0:09:29.24,000 --> 0:09:32,000
+who want to cede some of that control back to users
+
+258
+0:09:32.263,000 --> 0:09:34,000
+and away from the social media companies
+
+259
+0:09:34.574,000 --> 0:09:36,000
+means that going forward, as these tools evolve
+
+260
+0:09:37.245,000 --> 0:09:38,000
+and advance,
+
+261
+0:09:38.721,000 --> 0:09:39,000
+means that we're going to have an educated
+
+262
+0:09:40.135,000 --> 0:09:41,000
+and empowered user base,
+
+263
+0:09:41.829,000 --> 0:09:42,000
+and I think all of us can agree
+
+264
+0:09:42.929,000 --> 0:09:44,000
+that that's a pretty ideal way to go forward.
+
+265
+0:09:45.493,000 --> 0:09:47,000
+Thank you.
+
+266
+0:09:47.677,000 --> 0:09:5,000
+(Applause)
+

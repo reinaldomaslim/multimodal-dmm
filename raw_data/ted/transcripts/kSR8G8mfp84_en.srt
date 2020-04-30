@@ -1,0 +1,624 @@
+1
+0:00:12.837,000 --> 0:00:14,000
+How much do you need to know about a person
+
+2
+0:00:14.862,000 --> 0:00:16,000
+before you'd feel comfortable making a loan?
+
+3
+0:00:18.044,000 --> 0:00:2,000
+Suppose you wanted to lend 1,000 dollars
+
+4
+0:00:20.523,000 --> 0:00:22,000
+to the person sitting two rows behind you.
+
+5
+0:00:23.19,000 --> 0:00:25,000
+What would you need to know about that person
+
+6
+0:00:25.346,000 --> 0:00:26,000
+before you'd feel comfortable?
+
+7
+0:00:27.291,000 --> 0:00:3,000
+My mom came to the US from India in her late thirties.
+
+8
+0:00:31.614,000 --> 0:00:32,000
+She's a doctor in Brooklyn,
+
+9
+0:00:33.07,000 --> 0:00:37,000
+and she often lets friends and neighbors come to see her for health services,
+
+10
+0:00:37.317,000 --> 0:00:39,000
+whether they can pay right away or not.
+
+11
+0:00:39.955,000 --> 0:00:42,000
+I remember running into her patients with her at the grocery store
+
+12
+0:00:43.186,000 --> 0:00:44,000
+or on the sidewalk,
+
+13
+0:00:44.361,000 --> 0:00:46,000
+and sometimes they would come and pay her right on the spot
+
+14
+0:00:47.225,000 --> 0:00:48,000
+for previous appointments.
+
+15
+0:00:48.607,000 --> 0:00:49,000
+She would thank them,
+
+16
+0:00:49.87,000 --> 0:00:51,000
+and ask them about their families and their health.
+
+17
+0:00:53.466,000 --> 0:00:56,000
+She gave them credit because she trusted them.
+
+18
+0:00:57.122,000 --> 0:00:59,000
+Most of us are like my mom.
+
+19
+0:00:59.899,000 --> 0:01:01,000
+We would give credit to someone we know
+
+20
+0:01:02.786,000 --> 0:01:03,000
+or that we live next to.
+
+21
+0:01:04.206,000 --> 0:01:07,000
+But most of us are probably not going to lend to a stranger
+
+22
+0:01:07.934,000 --> 0:01:1,000
+unless we know a little something about them.
+
+23
+0:01:11.634,000 --> 0:01:14,000
+Banks, credit card companies and other financial institutions
+
+24
+0:01:15.361,000 --> 0:01:17,000
+don't know us on a personal level,
+
+25
+0:01:17.645,000 --> 0:01:19,000
+but they do have a way of trusting us,
+
+26
+0:01:20.548,000 --> 0:01:22,000
+and that's through our credit scores.
+
+27
+0:01:23.033,000 --> 0:01:24,000
+Our credit scores have been created
+
+28
+0:01:25.052,000 --> 0:01:29,000
+through an aggregation and analysis of our public consumer credit data.
+
+29
+0:01:29.596,000 --> 0:01:32,000
+And because of them, we have pretty much easy access
+
+30
+0:01:32.861,000 --> 0:01:34,000
+to all of the goods and services that we need,
+
+31
+0:01:35.329,000 --> 0:01:37,000
+from getting electricity to buying a home,
+
+32
+0:01:38.197,000 --> 0:01:4,000
+or taking a risk and starting a business.
+
+33
+0:01:41.561,000 --> 0:01:42,000
+But ...
+
+34
+0:01:42.746,000 --> 0:01:46,000
+there are 2.5 billion people around the world
+
+35
+0:01:47.137,000 --> 0:01:49,000
+that don't have a credit score.
+
+36
+0:01:49.247,000 --> 0:01:52,000
+That's a third of the world's population.
+
+37
+0:01:52.93,000 --> 0:01:53,000
+They don't have a score
+
+38
+0:01:54.209,000 --> 0:01:57,000
+because there are no formal public records on them --
+
+39
+0:01:57.494,000 --> 0:01:58,000
+no bank accounts,
+
+40
+0:01:58.882,000 --> 0:01:59,000
+no credit histories
+
+41
+0:02:00.4,000 --> 0:02:02,000
+and no social security numbers.
+
+42
+0:02:02.482,000 --> 0:02:03,000
+And because they don't have a score,
+
+43
+0:02:04.225,000 --> 0:02:08,000
+they don't have access to the credit or financial products
+
+44
+0:02:08.9,000 --> 0:02:09,000
+that can improve their lives.
+
+45
+0:02:11.509,000 --> 0:02:13,000
+They are not trusted.
+
+46
+0:02:14.968,000 --> 0:02:17,000
+So we wanted to find a way to build trust
+
+47
+0:02:18.162,000 --> 0:02:22,000
+and to open up financial access for these 2.5 billion.
+
+48
+0:02:22.772,000 --> 0:02:24,000
+So we created a mobile application
+
+49
+0:02:25.262,000 --> 0:02:29,000
+that builds credit scores for them using mobile data.
+
+50
+0:02:30.345,000 --> 0:02:34,000
+There are currently over one billion smartphones in emerging markets.
+
+51
+0:02:34.825,000 --> 0:02:36,000
+And people are using them the same way that we do.
+
+52
+0:02:38.235,000 --> 0:02:4,000
+They're texting their friends, they're looking up directions,
+
+53
+0:02:41.228,000 --> 0:02:42,000
+they're browsing the Internet
+
+54
+0:02:42.664,000 --> 0:02:44,000
+and they're even making financial transactions.
+
+55
+0:02:45.167,000 --> 0:02:48,000
+Over time, this data is getting captured on our phones,
+
+56
+0:02:48.377,000 --> 0:02:51,000
+and it provides a really rich picture of a person's life.
+
+57
+0:02:53.132,000 --> 0:02:55,000
+Our customers give us access to this data
+
+58
+0:02:55.332,000 --> 0:02:58,000
+and we capture it through our mobile application.
+
+59
+0:02:58.466,000 --> 0:03:,000
+It helps us understand the creditworthiness
+
+60
+0:03:01.134,000 --> 0:03:05,000
+of people like Jenipher, a small-business owner in Nairobi, Kenya.
+
+61
+0:03:06.29,000 --> 0:03:1,000
+Jenipher is 65 years old, and for decades has been running a food stall
+
+62
+0:03:11.197,000 --> 0:03:13,000
+in the central business district.
+
+63
+0:03:13.897,000 --> 0:03:16,000
+She has three sons who she put through vocational school,
+
+64
+0:03:17.12,000 --> 0:03:19,000
+and she's also the leader of her local chama,
+
+65
+0:03:19.668,000 --> 0:03:2,000
+or savings group.
+
+66
+0:03:21.609,000 --> 0:03:22,000
+Jenipher's food stall does well.
+
+67
+0:03:23.556,000 --> 0:03:26,000
+She makes just enough every day to cover her expenses.
+
+68
+0:03:27.024,000 --> 0:03:29,000
+But she's not financially secure.
+
+69
+0:03:29.842,000 --> 0:03:31,000
+Any emergency could force her into debt.
+
+70
+0:03:32.887,000 --> 0:03:33,000
+And she has no discretionary income
+
+71
+0:03:34.758,000 --> 0:03:36,000
+to improve her family's way of living,
+
+72
+0:03:37.02,000 --> 0:03:38,000
+for emergencies,
+
+73
+0:03:38.283,000 --> 0:03:4,000
+or for investing into growing her business.
+
+74
+0:03:42.065,000 --> 0:03:45,000
+If Jenipher wants credit, her options are limited.
+
+75
+0:03:45.733,000 --> 0:03:46,000
+She could get a microloan,
+
+76
+0:03:47.135,000 --> 0:03:5,000
+but she'd have to form a group that could help vouch for her credibility.
+
+77
+0:03:51.003,000 --> 0:03:53,000
+And even then, the loan sizes would be way too small
+
+78
+0:03:53.999,000 --> 0:03:55,000
+to really have an impact on her business,
+
+79
+0:03:56.28,000 --> 0:03:58,000
+averaging around 150 dollars.
+
+80
+0:03:59.525,000 --> 0:04:01,000
+Loan sharks are always an option,
+
+81
+0:04:02.067,000 --> 0:04:05,000
+but with interest rates that are well above 300 percent,
+
+82
+0:04:06.041,000 --> 0:04:07,000
+they're financially risky.
+
+83
+0:04:08.079,000 --> 0:04:11,000
+And because Jenipher doesn't have collateral or a credit history,
+
+84
+0:04:12.088,000 --> 0:04:15,000
+she can't walk into a bank and ask for a business loan.
+
+85
+0:04:16.331,000 --> 0:04:17,000
+But one day,
+
+86
+0:04:17.678,000 --> 0:04:2,000
+Jenipher's son convinced her to download our application
+
+87
+0:04:21.68,000 --> 0:04:22,000
+and apply for a loan.
+
+88
+0:04:23.407,000 --> 0:04:25,000
+Jenipher answered a few questions on her phone
+
+89
+0:04:25.97,000 --> 0:04:28,000
+and she gave us access to a few key data points on her device.
+
+90
+0:04:30.561,000 --> 0:04:31,000
+And here's what we saw.
+
+91
+0:04:32.392,000 --> 0:04:33,000
+So, bad news first.
+
+92
+0:04:34.996,000 --> 0:04:38,000
+Jenipher had a low savings balance and no previous loan history.
+
+93
+0:04:40.395,000 --> 0:04:41,000
+These are factors
+
+94
+0:04:41.57,000 --> 0:04:44,000
+that would have thrown up a red flag to a traditional bank.
+
+95
+0:04:44.62,000 --> 0:04:46,000
+But there were other points in her history that showed us
+
+96
+0:04:47.375,000 --> 0:04:5,000
+a much richer picture of her potential.
+
+97
+0:04:51.342,000 --> 0:04:52,000
+So for one,
+
+98
+0:04:52.517,000 --> 0:04:55,000
+we saw that she made regular phone calls to her family in Uganda.
+
+99
+0:04:57.629,000 --> 0:04:59,000
+Well, it turns out that the data shows
+
+100
+0:05:00.11,000 --> 0:05:02,000
+a four percent increase in repayment
+
+101
+0:05:02.868,000 --> 0:05:06,000
+among people who consistently communicate with a few close contacts.
+
+102
+0:05:08.657,000 --> 0:05:09,000
+We could also see
+
+103
+0:05:09.84,000 --> 0:05:11,000
+that though she traveled around a lot throughout the day,
+
+104
+0:05:12.672,000 --> 0:05:14,000
+she actually had pretty regular travel patterns,
+
+105
+0:05:15.427,000 --> 0:05:18,000
+and she was either at home or at her food stall.
+
+106
+0:05:19.315,000 --> 0:05:22,000
+And the data shows a six percent increase in repayment
+
+107
+0:05:23.326,000 --> 0:05:25,000
+among customers who are consistent
+
+108
+0:05:25.737,000 --> 0:05:27,000
+with where they spend most of their time.
+
+109
+0:05:29.349,000 --> 0:05:31,000
+We could also see that she communicated a lot
+
+110
+0:05:31.954,000 --> 0:05:33,000
+with many different people throughout the day
+
+111
+0:05:34.326,000 --> 0:05:36,000
+and that she had a strong support network.
+
+112
+0:05:37.287,000 --> 0:05:38,000
+Our data shows
+
+113
+0:05:38.704,000 --> 0:05:42,000
+that people who communicate with more than 58 different contacts
+
+114
+0:05:43.408,000 --> 0:05:45,000
+tend to be more likely to be good borrowers.
+
+115
+0:05:46.333,000 --> 0:05:47,000
+In Jenipher's case,
+
+116
+0:05:47.626,000 --> 0:05:51,000
+she communicated with 89 different individuals,
+
+117
+0:05:51.693,000 --> 0:05:54,000
+which showed a nine percent increase in her repayment.
+
+118
+0:05:55.888,000 --> 0:05:58,000
+These are just some of the thousands of different data points
+
+119
+0:05:59.679,000 --> 0:06:02,000
+that we look at to understand a person's creditworthiness.
+
+120
+0:06:03.397,000 --> 0:06:06,000
+And after analyzing all of these different data points,
+
+121
+0:06:06.494,000 --> 0:06:07,000
+we took the first risk
+
+122
+0:06:08.49,000 --> 0:06:1,000
+and gave Jenipher a loan.
+
+123
+0:06:11.37,000 --> 0:06:14,000
+This is data that would not be found on a paper trail
+
+124
+0:06:14.72,000 --> 0:06:16,000
+or in any formal financial record.
+
+125
+0:06:17.72,000 --> 0:06:18,000
+But it proves trust.
+
+126
+0:06:20.193,000 --> 0:06:21,000
+By looking beyond income,
+
+127
+0:06:22.194,000 --> 0:06:24,000
+we can see that people in emerging markets
+
+128
+0:06:24.375,000 --> 0:06:27,000
+that may seem risky and unpredictable on the surface
+
+129
+0:06:28.068,000 --> 0:06:32,000
+are actually willing and have the capacity to repay.
+
+130
+0:06:33.334,000 --> 0:06:38,000
+Our credit scores have helped us deliver over 200,000 loans in Kenya
+
+131
+0:06:38.543,000 --> 0:06:39,000
+in just the past year.
+
+132
+0:06:40.164,000 --> 0:06:43,000
+And our repayment rates are above 90 percent --
+
+133
+0:06:43.49,000 --> 0:06:48,000
+which, by the way, is in line with traditional bank repayment rates.
+
+134
+0:06:49.564,000 --> 0:06:51,000
+With something as simple as a credit score,
+
+135
+0:06:52.497,000 --> 0:06:55,000
+we're giving people the power to build their own futures.
+
+136
+0:06:56.647,000 --> 0:06:59,000
+Our customers have used their loans for family expenses,
+
+137
+0:06:59.978,000 --> 0:07:,000
+emergencies, travel
+
+138
+0:07:01.859,000 --> 0:07:03,000
+and for investing back into growing their businesses.
+
+139
+0:07:05.792,000 --> 0:07:08,000
+They're now building better economies and communities
+
+140
+0:07:09.288,000 --> 0:07:11,000
+where more people can succeed.
+
+141
+0:07:12.664,000 --> 0:07:14,000
+Over the past two years of using our product,
+
+142
+0:07:15.416,000 --> 0:07:19,000
+Jenipher has increased her savings by 60 percent.
+
+143
+0:07:19.624,000 --> 0:07:21,000
+She's also started two additional food stalls
+
+144
+0:07:22.3,000 --> 0:07:25,000
+and is now making plans for her own restaurant.
+
+145
+0:07:25.401,000 --> 0:07:28,000
+She's applying for a small-business loan from a commercial bank,
+
+146
+0:07:28.829,000 --> 0:07:32,000
+because she now has the credit history to prove she deserves it.
+
+147
+0:07:34.038,000 --> 0:07:36,000
+I saw Jenipher in Nairobi just last week,
+
+148
+0:07:36.977,000 --> 0:07:39,000
+and she told me how excited she was to get started.
+
+149
+0:07:40.252,000 --> 0:07:41,000
+She said,
+
+150
+0:07:42.178,000 --> 0:07:47,000
+"Only my son believed I could do this. I didn't think this was for me."
+
+151
+0:07:48.25,000 --> 0:07:5,000
+She's lived her whole life
+
+152
+0:07:50.56,000 --> 0:07:54,000
+believing that there was a part of the world that was closed off to her.
+
+153
+0:07:55.536,000 --> 0:07:59,000
+Our job now is to open the world to Jenipher
+
+154
+0:07:59.916,000 --> 0:08:03,000
+and the billions like her that deserve to be trusted.
+
+155
+0:08:04.135,000 --> 0:08:05,000
+Thank you.
+
+156
+0:08:05.318,000 --> 0:08:09,000
+(Applause)
+

@@ -1,0 +1,1612 @@
+1
+0:00:12.88,000 --> 0:00:16,000
+It used to be that if you wanted to get a computer to do something new,
+
+2
+0:00:16.893,000 --> 0:00:17,000
+you would have to program it.
+
+3
+0:00:18.447,000 --> 0:00:21,000
+Now, programming, for those of you here that haven't done it yourself,
+
+4
+0:00:21.858,000 --> 0:00:24,000
+requires laying out in excruciating detail
+
+5
+0:00:25.36,000 --> 0:00:28,000
+every single step that you want the computer to do
+
+6
+0:00:28.727,000 --> 0:00:3,000
+in order to achieve your goal.
+
+7
+0:00:31.089,000 --> 0:00:34,000
+Now, if you want to do something that you don't know how to do yourself,
+
+8
+0:00:34.585,000 --> 0:00:36,000
+then this is going to be a great challenge.
+
+9
+0:00:36.648,000 --> 0:00:39,000
+So this was the challenge faced by this man, Arthur Samuel.
+
+10
+0:00:40.131,000 --> 0:00:44,000
+In 1956, he wanted to get this computer
+
+11
+0:00:44.208,000 --> 0:00:46,000
+to be able to beat him at checkers.
+
+12
+0:00:46.548,000 --> 0:00:48,000
+How can you write a program,
+
+13
+0:00:48.588,000 --> 0:00:51,000
+lay out in excruciating detail, how to be better than you at checkers?
+
+14
+0:00:52.394,000 --> 0:00:53,000
+So he came up with an idea:
+
+15
+0:00:54.116,000 --> 0:00:57,000
+he had the computer play against itself thousands of times
+
+16
+0:00:57.84,000 --> 0:00:59,000
+and learn how to play checkers.
+
+17
+0:01:00.364,000 --> 0:01:03,000
+And indeed it worked, and in fact, by 1962,
+
+18
+0:01:03.544,000 --> 0:01:07,000
+this computer had beaten the Connecticut state champion.
+
+19
+0:01:07.561,000 --> 0:01:09,000
+So Arthur Samuel was the father of machine learning,
+
+20
+0:01:10.534,000 --> 0:01:11,000
+and I have a great debt to him,
+
+21
+0:01:12.251,000 --> 0:01:14,000
+because I am a machine learning practitioner.
+
+22
+0:01:15.014,000 --> 0:01:16,000
+I was the president of Kaggle,
+
+23
+0:01:16.479,000 --> 0:01:19,000
+a community of over 200,000 machine learning practictioners.
+
+24
+0:01:19.867,000 --> 0:01:21,000
+Kaggle puts up competitions
+
+25
+0:01:21.925,000 --> 0:01:24,000
+to try and get them to solve previously unsolved problems,
+
+26
+0:01:25.633,000 --> 0:01:28,000
+and it's been successful hundreds of times.
+
+27
+0:01:29.47,000 --> 0:01:31,000
+So from this vantage point, I was able to find out
+
+28
+0:01:31.94,000 --> 0:01:34,000
+a lot about what machine learning can do in the past, can do today,
+
+29
+0:01:35.89,000 --> 0:01:37,000
+and what it could do in the future.
+
+30
+0:01:38.252,000 --> 0:01:42,000
+Perhaps the first big success of machine learning commercially was Google.
+
+31
+0:01:42.675,000 --> 0:01:45,000
+Google showed that it is possible to find information
+
+32
+0:01:45.784,000 --> 0:01:46,000
+by using a computer algorithm,
+
+33
+0:01:47.536,000 --> 0:01:49,000
+and this algorithm is based on machine learning.
+
+34
+0:01:50.437,000 --> 0:01:53,000
+Since that time, there have been many commercial successes of machine learning.
+
+35
+0:01:54.323,000 --> 0:01:55,000
+Companies like Amazon and Netflix
+
+36
+0:01:56.16,000 --> 0:01:59,000
+use machine learning to suggest products that you might like to buy,
+
+37
+0:01:59.876,000 --> 0:02:01,000
+movies that you might like to watch.
+
+38
+0:02:01.896,000 --> 0:02:02,000
+Sometimes, it's almost creepy.
+
+39
+0:02:03.703,000 --> 0:02:04,000
+Companies like LinkedIn and Facebook
+
+40
+0:02:05.657,000 --> 0:02:07,000
+sometimes will tell you about who your friends might be
+
+41
+0:02:08.251,000 --> 0:02:09,000
+and you have no idea how it did it,
+
+42
+0:02:10.228,000 --> 0:02:12,000
+and this is because it's using the power of machine learning.
+
+43
+0:02:13.195,000 --> 0:02:15,000
+These are algorithms that have learned how to do this from data
+
+44
+0:02:16.152,000 --> 0:02:19,000
+rather than being programmed by hand.
+
+45
+0:02:19.399,000 --> 0:02:21,000
+This is also how IBM was successful
+
+46
+0:02:21.877,000 --> 0:02:24,000
+in getting Watson to beat the two world champions at "Jeopardy,"
+
+47
+0:02:25.739,000 --> 0:02:28,000
+answering incredibly subtle and complex questions like this one.
+
+48
+0:02:28.964,000 --> 0:02:3,000
+["The ancient 'Lion of Nimrud' went missing from this city's national museum in 2003 (along with a lot of other stuff)"]
+
+49
+0:02:31.799,000 --> 0:02:34,000
+This is also why we are now able to see the first self-driving cars.
+
+50
+0:02:35.034,000 --> 0:02:37,000
+If you want to be able to tell the difference between, say,
+
+51
+0:02:37.856,000 --> 0:02:39,000
+a tree and a pedestrian, well, that's pretty important.
+
+52
+0:02:40.488,000 --> 0:02:42,000
+We don't know how to write those programs by hand,
+
+53
+0:02:43.075,000 --> 0:02:45,000
+but with machine learning, this is now possible.
+
+54
+0:02:46.072,000 --> 0:02:48,000
+And in fact, this car has driven over a million miles
+
+55
+0:02:48.68,000 --> 0:02:51,000
+without any accidents on regular roads.
+
+56
+0:02:52.196,000 --> 0:02:55,000
+So we now know that computers can learn,
+
+57
+0:02:56.11,000 --> 0:02:57,000
+and computers can learn to do things
+
+58
+0:02:58.01,000 --> 0:03:,000
+that we actually sometimes don't know how to do ourselves,
+
+59
+0:03:00.848,000 --> 0:03:02,000
+or maybe can do them better than us.
+
+60
+0:03:03.733,000 --> 0:03:07,000
+One of the most amazing examples I've seen of machine learning
+
+61
+0:03:07.928,000 --> 0:03:09,000
+happened on a project that I ran at Kaggle
+
+62
+0:03:10.32,000 --> 0:03:13,000
+where a team run by a guy called Geoffrey Hinton
+
+63
+0:03:13.911,000 --> 0:03:14,000
+from the University of Toronto
+
+64
+0:03:15.463,000 --> 0:03:17,000
+won a competition for automatic drug discovery.
+
+65
+0:03:18.14,000 --> 0:03:2,000
+Now, what was extraordinary here is not just that they beat
+
+66
+0:03:20.987,000 --> 0:03:24,000
+all of the algorithms developed by Merck or the international academic community,
+
+67
+0:03:25,000 --> 0:03:3,000
+but nobody on the team had any background in chemistry or biology or life sciences,
+
+68
+0:03:30.061,000 --> 0:03:32,000
+and they did it in two weeks.
+
+69
+0:03:32.23,000 --> 0:03:33,000
+How did they do this?
+
+70
+0:03:34.421,000 --> 0:03:36,000
+They used an extraordinary algorithm called deep learning.
+
+71
+0:03:37.342,000 --> 0:03:39,000
+So important was this that in fact the success was covered
+
+72
+0:03:40.291,000 --> 0:03:43,000
+in The New York Times in a front page article a few weeks later.
+
+73
+0:03:43.412,000 --> 0:03:45,000
+This is Geoffrey Hinton here on the left-hand side.
+
+74
+0:03:46.147,000 --> 0:03:5,000
+Deep learning is an algorithm inspired by how the human brain works,
+
+75
+0:03:50.488,000 --> 0:03:51,000
+and as a result it's an algorithm
+
+76
+0:03:52.3,000 --> 0:03:55,000
+which has no theoretical limitations on what it can do.
+
+77
+0:03:56.141,000 --> 0:03:58,000
+The more data you give it and the more computation time you give it,
+
+78
+0:03:58.964,000 --> 0:03:59,000
+the better it gets.
+
+79
+0:04:00.276,000 --> 0:04:02,000
+The New York Times also showed in this article
+
+80
+0:04:02.615,000 --> 0:04:04,000
+another extraordinary result of deep learning
+
+81
+0:04:04.857,000 --> 0:04:06,000
+which I'm going to show you now.
+
+82
+0:04:07.569,000 --> 0:04:11,000
+It shows that computers can listen and understand.
+
+83
+0:04:12.51,000 --> 0:04:14,000
+(Video) Richard Rashid: Now, the last step
+
+84
+0:04:15.221,000 --> 0:04:18,000
+that I want to be able to take in this process
+
+85
+0:04:18.246,000 --> 0:04:22,000
+is to actually speak to you in Chinese.
+
+86
+0:04:22.961,000 --> 0:04:24,000
+Now the key thing there is,
+
+87
+0:04:25.596,000 --> 0:04:3,000
+we've been able to take a large amount of information from many Chinese speakers
+
+88
+0:04:30.598,000 --> 0:04:32,000
+and produce a text-to-speech system
+
+89
+0:04:33.128,000 --> 0:04:37,000
+that takes Chinese text and converts it into Chinese language,
+
+90
+0:04:37.801,000 --> 0:04:41,000
+and then we've taken an hour or so of my own voice
+
+91
+0:04:41.929,000 --> 0:04:42,000
+and we've used that to modulate
+
+92
+0:04:43.82,000 --> 0:04:47,000
+the standard text-to-speech system so that it would sound like me.
+
+93
+0:04:48.364,000 --> 0:04:5,000
+Again, the result's not perfect.
+
+94
+0:04:50.904,000 --> 0:04:52,000
+There are in fact quite a few errors.
+
+95
+0:04:53.552,000 --> 0:04:55,000
+(In Chinese)
+
+96
+0:04:56.036,000 --> 0:04:59,000
+(Applause)
+
+97
+0:05:01.446,000 --> 0:05:04,000
+There's much work to be done in this area.
+
+98
+0:05:05.022,000 --> 0:05:08,000
+(In Chinese)
+
+99
+0:05:08.667,000 --> 0:05:11,000
+(Applause)
+
+100
+0:05:13.345,000 --> 0:05:16,000
+Jeremy Howard: Well, that was at a machine learning conference in China.
+
+101
+0:05:16.744,000 --> 0:05:18,000
+It's not often, actually, at academic conferences
+
+102
+0:05:19.114,000 --> 0:05:2,000
+that you do hear spontaneous applause,
+
+103
+0:05:21.011,000 --> 0:05:24,000
+although of course sometimes at TEDx conferences, feel free.
+
+104
+0:05:24.687,000 --> 0:05:26,000
+Everything you saw there was happening with deep learning.
+
+105
+0:05:27.482,000 --> 0:05:28,000
+(Applause) Thank you.
+
+106
+0:05:29.007,000 --> 0:05:31,000
+The transcription in English was deep learning.
+
+107
+0:05:31.289,000 --> 0:05:34,000
+The translation to Chinese and the text in the top right, deep learning,
+
+108
+0:05:34.701,000 --> 0:05:37,000
+and the construction of the voice was deep learning as well.
+
+109
+0:05:38.008,000 --> 0:05:41,000
+So deep learning is this extraordinary thing.
+
+110
+0:05:41.242,000 --> 0:05:44,000
+It's a single algorithm that can seem to do almost anything,
+
+111
+0:05:44.341,000 --> 0:05:47,000
+and I discovered that a year earlier, it had also learned to see.
+
+112
+0:05:47.452,000 --> 0:05:49,000
+In this obscure competition from Germany
+
+113
+0:05:49.628,000 --> 0:05:51,000
+called the German Traffic Sign Recognition Benchmark,
+
+114
+0:05:52.225,000 --> 0:05:55,000
+deep learning had learned to recognize traffic signs like this one.
+
+115
+0:05:55.618,000 --> 0:05:57,000
+Not only could it recognize the traffic signs
+
+116
+0:05:57.712,000 --> 0:05:58,000
+better than any other algorithm,
+
+117
+0:05:59.47,000 --> 0:06:01,000
+the leaderboard actually showed it was better than people,
+
+118
+0:06:02.189,000 --> 0:06:03,000
+about twice as good as people.
+
+119
+0:06:04.041,000 --> 0:06:05,000
+So by 2011, we had the first example
+
+120
+0:06:06.037,000 --> 0:06:09,000
+of computers that can see better than people.
+
+121
+0:06:09.442,000 --> 0:06:11,000
+Since that time, a lot has happened.
+
+122
+0:06:11.491,000 --> 0:06:14,000
+In 2012, Google announced that they had a deep learning algorithm
+
+123
+0:06:15.005,000 --> 0:06:16,000
+watch YouTube videos
+
+124
+0:06:16.42,000 --> 0:06:19,000
+and crunched the data on 16,000 computers for a month,
+
+125
+0:06:19.857,000 --> 0:06:23,000
+and the computer independently learned about concepts such as people and cats
+
+126
+0:06:24.218,000 --> 0:06:25,000
+just by watching the videos.
+
+127
+0:06:26.027,000 --> 0:06:28,000
+This is much like the way that humans learn.
+
+128
+0:06:28.379,000 --> 0:06:3,000
+Humans don't learn by being told what they see,
+
+129
+0:06:31.119,000 --> 0:06:34,000
+but by learning for themselves what these things are.
+
+130
+0:06:34.45,000 --> 0:06:37,000
+Also in 2012, Geoffrey Hinton, who we saw earlier,
+
+131
+0:06:37.819,000 --> 0:06:39,000
+won the very popular ImageNet competition,
+
+132
+0:06:40.677,000 --> 0:06:44,000
+looking to try to figure out from one and a half million images
+
+133
+0:06:44.818,000 --> 0:06:45,000
+what they're pictures of.
+
+134
+0:06:46.256,000 --> 0:06:49,000
+As of 2014, we're now down to a six percent error rate
+
+135
+0:06:49.789,000 --> 0:06:5,000
+in image recognition.
+
+136
+0:06:51.242,000 --> 0:06:53,000
+This is better than people, again.
+
+137
+0:06:53.268,000 --> 0:06:56,000
+So machines really are doing an extraordinarily good job of this,
+
+138
+0:06:57.037,000 --> 0:06:59,000
+and it is now being used in industry.
+
+139
+0:06:59.306,000 --> 0:07:02,000
+For example, Google announced last year
+
+140
+0:07:02.348,000 --> 0:07:06,000
+that they had mapped every single location in France in two hours,
+
+141
+0:07:06.933,000 --> 0:07:09,000
+and the way they did it was that they fed street view images
+
+142
+0:07:10.38,000 --> 0:07:14,000
+into a deep learning algorithm to recognize and read street numbers.
+
+143
+0:07:14.699,000 --> 0:07:16,000
+Imagine how long it would have taken before:
+
+144
+0:07:16.919,000 --> 0:07:19,000
+dozens of people, many years.
+
+145
+0:07:20.274,000 --> 0:07:21,000
+This is also happening in China.
+
+146
+0:07:22.185,000 --> 0:07:26,000
+Baidu is kind of the Chinese Google, I guess,
+
+147
+0:07:26.221,000 --> 0:07:28,000
+and what you see here in the top left
+
+148
+0:07:28.504,000 --> 0:07:31,000
+is an example of a picture that I uploaded to Baidu's deep learning system,
+
+149
+0:07:32.478,000 --> 0:07:35,000
+and underneath you can see that the system has understood what that picture is
+
+150
+0:07:36.247,000 --> 0:07:38,000
+and found similar images.
+
+151
+0:07:38.483,000 --> 0:07:4,000
+The similar images actually have similar backgrounds,
+
+152
+0:07:41.219,000 --> 0:07:42,000
+similar directions of the faces,
+
+153
+0:07:42.877,000 --> 0:07:43,000
+even some with their tongue out.
+
+154
+0:07:44.665,000 --> 0:07:47,000
+This is not clearly looking at the text of a web page.
+
+155
+0:07:47.695,000 --> 0:07:48,000
+All I uploaded was an image.
+
+156
+0:07:49.107,000 --> 0:07:53,000
+So we now have computers which really understand what they see
+
+157
+0:07:53.128,000 --> 0:07:54,000
+and can therefore search databases
+
+158
+0:07:54.752,000 --> 0:07:57,000
+of hundreds of millions of images in real time.
+
+159
+0:07:58.306,000 --> 0:08:01,000
+So what does it mean now that computers can see?
+
+160
+0:08:01.536,000 --> 0:08:03,000
+Well, it's not just that computers can see.
+
+161
+0:08:03.553,000 --> 0:08:05,000
+In fact, deep learning has done more than that.
+
+162
+0:08:05.622,000 --> 0:08:07,000
+Complex, nuanced sentences like this one
+
+163
+0:08:08.57,000 --> 0:08:1,000
+are now understandable with deep learning algorithms.
+
+164
+0:08:11.394,000 --> 0:08:12,000
+As you can see here,
+
+165
+0:08:12.697,000 --> 0:08:14,000
+this Stanford-based system showing the red dot at the top
+
+166
+0:08:15.465,000 --> 0:08:18,000
+has figured out that this sentence is expressing negative sentiment.
+
+167
+0:08:19.384,000 --> 0:08:22,000
+Deep learning now in fact is near human performance
+
+168
+0:08:22.802,000 --> 0:08:27,000
+at understanding what sentences are about and what it is saying about those things.
+
+169
+0:08:27.923,000 --> 0:08:29,000
+Also, deep learning has been used to read Chinese,
+
+170
+0:08:30.651,000 --> 0:08:33,000
+again at about native Chinese speaker level.
+
+171
+0:08:33.807,000 --> 0:08:35,000
+This algorithm developed out of Switzerland
+
+172
+0:08:35.975,000 --> 0:08:38,000
+by people, none of whom speak or understand any Chinese.
+
+173
+0:08:39.331,000 --> 0:08:41,000
+As I say, using deep learning
+
+174
+0:08:41.382,000 --> 0:08:43,000
+is about the best system in the world for this,
+
+175
+0:08:43.601,000 --> 0:08:48,000
+even compared to native human understanding.
+
+176
+0:08:48.718,000 --> 0:08:5,000
+This is a system that we put together at my company
+
+177
+0:08:51.682,000 --> 0:08:53,000
+which shows putting all this stuff together.
+
+178
+0:08:53.728,000 --> 0:08:55,000
+These are pictures which have no text attached,
+
+179
+0:08:56.189,000 --> 0:08:58,000
+and as I'm typing in here sentences,
+
+180
+0:08:58.541,000 --> 0:09:,000
+in real time it's understanding these pictures
+
+181
+0:09:01.51,000 --> 0:09:02,000
+and figuring out what they're about
+
+182
+0:09:03.189,000 --> 0:09:06,000
+and finding pictures that are similar to the text that I'm writing.
+
+183
+0:09:06.352,000 --> 0:09:08,000
+So you can see, it's actually understanding my sentences
+
+184
+0:09:09.108,000 --> 0:09:11,000
+and actually understanding these pictures.
+
+185
+0:09:11.332,000 --> 0:09:13,000
+I know that you've seen something like this on Google,
+
+186
+0:09:13.891,000 --> 0:09:15,000
+where you can type in things and it will show you pictures,
+
+187
+0:09:16.666,000 --> 0:09:19,000
+but actually what it's doing is it's searching the webpage for the text.
+
+188
+0:09:20.09,000 --> 0:09:23,000
+This is very different from actually understanding the images.
+
+189
+0:09:23.091,000 --> 0:09:25,000
+This is something that computers have only been able to do
+
+190
+0:09:25.843,000 --> 0:09:28,000
+for the first time in the last few months.
+
+191
+0:09:29.091,000 --> 0:09:33,000
+So we can see now that computers can not only see but they can also read,
+
+192
+0:09:33.182,000 --> 0:09:36,000
+and, of course, we've shown that they can understand what they hear.
+
+193
+0:09:36.947,000 --> 0:09:39,000
+Perhaps not surprising now that I'm going to tell you they can write.
+
+194
+0:09:40.389,000 --> 0:09:44,000
+Here is some text that I generated using a deep learning algorithm yesterday.
+
+195
+0:09:45.172,000 --> 0:09:48,000
+And here is some text that an algorithm out of Stanford generated.
+
+196
+0:09:49.096,000 --> 0:09:5,000
+Each of these sentences was generated
+
+197
+0:09:50.86,000 --> 0:09:54,000
+by a deep learning algorithm to describe each of those pictures.
+
+198
+0:09:55.109,000 --> 0:09:59,000
+This algorithm before has never seen a man in a black shirt playing a guitar.
+
+199
+0:09:59.581,000 --> 0:10:01,000
+It's seen a man before, it's seen black before,
+
+200
+0:10:01.801,000 --> 0:10:02,000
+it's seen a guitar before,
+
+201
+0:10:03.4,000 --> 0:10:07,000
+but it has independently generated this novel description of this picture.
+
+202
+0:10:07.694,000 --> 0:10:1,000
+We're still not quite at human performance here, but we're close.
+
+203
+0:10:11.196,000 --> 0:10:15,000
+In tests, humans prefer the computer-generated caption
+
+204
+0:10:15.264,000 --> 0:10:16,000
+one out of four times.
+
+205
+0:10:16.791,000 --> 0:10:18,000
+Now this system is now only two weeks old,
+
+206
+0:10:18.855,000 --> 0:10:19,000
+so probably within the next year,
+
+207
+0:10:20.701,000 --> 0:10:22,000
+the computer algorithm will be well past human performance
+
+208
+0:10:23.502,000 --> 0:10:24,000
+at the rate things are going.
+
+209
+0:10:25.364,000 --> 0:10:28,000
+So computers can also write.
+
+210
+0:10:28.413,000 --> 0:10:31,000
+So we put all this together and it leads to very exciting opportunities.
+
+211
+0:10:31.888,000 --> 0:10:32,000
+For example, in medicine,
+
+212
+0:10:33.38,000 --> 0:10:35,000
+a team in Boston announced that they had discovered
+
+213
+0:10:35.905,000 --> 0:10:37,000
+dozens of new clinically relevant features
+
+214
+0:10:38.854,000 --> 0:10:42,000
+of tumors which help doctors make a prognosis of a cancer.
+
+215
+0:10:44.22,000 --> 0:10:46,000
+Very similarly, in Stanford,
+
+216
+0:10:46.516,000 --> 0:10:49,000
+a group there announced that, looking at tissues under magnification,
+
+217
+0:10:50.179,000 --> 0:10:52,000
+they've developed a machine learning-based system
+
+218
+0:10:52.56,000 --> 0:10:54,000
+which in fact is better than human pathologists
+
+219
+0:10:55.142,000 --> 0:10:59,000
+at predicting survival rates for cancer sufferers.
+
+220
+0:10:59.519,000 --> 0:11:02,000
+In both of these cases, not only were the predictions more accurate,
+
+221
+0:11:02.764,000 --> 0:11:04,000
+but they generated new insightful science.
+
+222
+0:11:05.276,000 --> 0:11:06,000
+In the radiology case,
+
+223
+0:11:06.781,000 --> 0:11:09,000
+they were new clinical indicators that humans can understand.
+
+224
+0:11:09.876,000 --> 0:11:1,000
+In this pathology case,
+
+225
+0:11:11.668,000 --> 0:11:15,000
+the computer system actually discovered that the cells around the cancer
+
+226
+0:11:16.168,000 --> 0:11:19,000
+are as important as the cancer cells themselves
+
+227
+0:11:19.508,000 --> 0:11:2,000
+in making a diagnosis.
+
+228
+0:11:21.26,000 --> 0:11:26,000
+This is the opposite of what pathologists had been taught for decades.
+
+229
+0:11:26.621,000 --> 0:11:29,000
+In each of those two cases, they were systems developed
+
+230
+0:11:29.913,000 --> 0:11:32,000
+by a combination of medical experts and machine learning experts,
+
+231
+0:11:33.534,000 --> 0:11:35,000
+but as of last year, we're now beyond that too.
+
+232
+0:11:36.275,000 --> 0:11:39,000
+This is an example of identifying cancerous areas
+
+233
+0:11:39.824,000 --> 0:11:41,000
+of human tissue under a microscope.
+
+234
+0:11:42.354,000 --> 0:11:46,000
+The system being shown here can identify those areas more accurately,
+
+235
+0:11:46.967,000 --> 0:11:48,000
+or about as accurately, as human pathologists,
+
+236
+0:11:49.742,000 --> 0:11:52,000
+but was built entirely with deep learning using no medical expertise
+
+237
+0:11:53.134,000 --> 0:11:55,000
+by people who have no background in the field.
+
+238
+0:11:56.73,000 --> 0:11:58,000
+Similarly, here, this neuron segmentation.
+
+239
+0:11:59.285,000 --> 0:12:02,000
+We can now segment neurons about as accurately as humans can,
+
+240
+0:12:02.953,000 --> 0:12:04,000
+but this system was developed with deep learning
+
+241
+0:12:05.67,000 --> 0:12:08,000
+using people with no previous background in medicine.
+
+242
+0:12:08.921,000 --> 0:12:11,000
+So myself, as somebody with no previous background in medicine,
+
+243
+0:12:12.148,000 --> 0:12:15,000
+I seem to be entirely well qualified to start a new medical company,
+
+244
+0:12:15.875,000 --> 0:12:17,000
+which I did.
+
+245
+0:12:18.021,000 --> 0:12:19,000
+I was kind of terrified of doing it,
+
+246
+0:12:19.761,000 --> 0:12:21,000
+but the theory seemed to suggest that it ought to be possible
+
+247
+0:12:22.65,000 --> 0:12:27,000
+to do very useful medicine using just these data analytic techniques.
+
+248
+0:12:28.142,000 --> 0:12:3,000
+And thankfully, the feedback has been fantastic,
+
+249
+0:12:30.622,000 --> 0:12:32,000
+not just from the media but from the medical community,
+
+250
+0:12:32.978,000 --> 0:12:34,000
+who have been very supportive.
+
+251
+0:12:35.322,000 --> 0:12:39,000
+The theory is that we can take the middle part of the medical process
+
+252
+0:12:39.471,000 --> 0:12:41,000
+and turn that into data analysis as much as possible,
+
+253
+0:12:42.364,000 --> 0:12:45,000
+leaving doctors to do what they're best at.
+
+254
+0:12:45.429,000 --> 0:12:46,000
+I want to give you an example.
+
+255
+0:12:47.031,000 --> 0:12:51,000
+It now takes us about 15 minutes to generate a new medical diagnostic test
+
+256
+0:12:51.975,000 --> 0:12:52,000
+and I'll show you that in real time now,
+
+257
+0:12:53.929,000 --> 0:12:56,000
+but I've compressed it down to three minutes by cutting some pieces out.
+
+258
+0:12:57.416,000 --> 0:13:,000
+Rather than showing you creating a medical diagnostic test,
+
+259
+0:13:00.477,000 --> 0:13:03,000
+I'm going to show you a diagnostic test of car images,
+
+260
+0:13:03.846,000 --> 0:13:05,000
+because that's something we can all understand.
+
+261
+0:13:06.068,000 --> 0:13:09,000
+So here we're starting with about 1.5 million car images,
+
+262
+0:13:09.269,000 --> 0:13:12,000
+and I want to create something that can split them into the angle
+
+263
+0:13:12.475,000 --> 0:13:14,000
+of the photo that's being taken.
+
+264
+0:13:14.698,000 --> 0:13:17,000
+So these images are entirely unlabeled, so I have to start from scratch.
+
+265
+0:13:18.586,000 --> 0:13:19,000
+With our deep learning algorithm,
+
+266
+0:13:20.451,000 --> 0:13:23,000
+it can automatically identify areas of structure in these images.
+
+267
+0:13:24.158,000 --> 0:13:27,000
+So the nice thing is that the human and the computer can now work together.
+
+268
+0:13:27.778,000 --> 0:13:29,000
+So the human, as you can see here,
+
+269
+0:13:29.956,000 --> 0:13:31,000
+is telling the computer about areas of interest
+
+270
+0:13:32.631,000 --> 0:13:36,000
+which it wants the computer then to try and use to improve its algorithm.
+
+271
+0:13:37.281,000 --> 0:13:41,000
+Now, these deep learning systems actually are in 16,000-dimensional space,
+
+272
+0:13:41.577,000 --> 0:13:44,000
+so you can see here the computer rotating this through that space,
+
+273
+0:13:45.009,000 --> 0:13:46,000
+trying to find new areas of structure.
+
+274
+0:13:47.001,000 --> 0:13:48,000
+And when it does so successfully,
+
+275
+0:13:48.782,000 --> 0:13:52,000
+the human who is driving it can then point out the areas that are interesting.
+
+276
+0:13:52.786,000 --> 0:13:54,000
+So here, the computer has successfully found areas,
+
+277
+0:13:55.208,000 --> 0:13:57,000
+for example, angles.
+
+278
+0:13:57.77,000 --> 0:13:58,000
+So as we go through this process,
+
+279
+0:13:59.376,000 --> 0:14:01,000
+we're gradually telling the computer more and more
+
+280
+0:14:01.716,000 --> 0:14:03,000
+about the kinds of structures we're looking for.
+
+281
+0:14:04.144,000 --> 0:14:05,000
+You can imagine in a diagnostic test
+
+282
+0:14:05.916,000 --> 0:14:08,000
+this would be a pathologist identifying areas of pathosis, for example,
+
+283
+0:14:09.266,000 --> 0:14:14,000
+or a radiologist indicating potentially troublesome nodules.
+
+284
+0:14:14.292,000 --> 0:14:16,000
+And sometimes it can be difficult for the algorithm.
+
+285
+0:14:16.851,000 --> 0:14:17,000
+In this case, it got kind of confused.
+
+286
+0:14:18.815,000 --> 0:14:2,000
+The fronts and the backs of the cars are all mixed up.
+
+287
+0:14:21.365,000 --> 0:14:23,000
+So here we have to be a bit more careful,
+
+288
+0:14:23.437,000 --> 0:14:26,000
+manually selecting these fronts as opposed to the backs,
+
+289
+0:14:26.669,000 --> 0:14:31,000
+then telling the computer that this is a type of group
+
+290
+0:14:32.175,000 --> 0:14:33,000
+that we're interested in.
+
+291
+0:14:33.523,000 --> 0:14:35,000
+So we do that for a while, we skip over a little bit,
+
+292
+0:14:36.2,000 --> 0:14:38,000
+and then we train the machine learning algorithm
+
+293
+0:14:38.446,000 --> 0:14:39,000
+based on these couple of hundred things,
+
+294
+0:14:40.42,000 --> 0:14:42,000
+and we hope that it's gotten a lot better.
+
+295
+0:14:42.445,000 --> 0:14:45,000
+You can see, it's now started to fade some of these pictures out,
+
+296
+0:14:45.518,000 --> 0:14:49,000
+showing us that it already is recognizing how to understand some of these itself.
+
+297
+0:14:50.226,000 --> 0:14:52,000
+We can then use this concept of similar images,
+
+298
+0:14:53.128,000 --> 0:14:55,000
+and using similar images, you can now see,
+
+299
+0:14:55.222,000 --> 0:14:59,000
+the computer at this point is able to entirely find just the fronts of cars.
+
+300
+0:14:59.241,000 --> 0:15:01,000
+So at this point, the human can tell the computer,
+
+301
+0:15:02.189,000 --> 0:15:04,000
+okay, yes, you've done a good job of that.
+
+302
+0:15:05.652,000 --> 0:15:07,000
+Sometimes, of course, even at this point
+
+303
+0:15:07.837,000 --> 0:15:1,000
+it's still difficult to separate out groups.
+
+304
+0:15:11.511,000 --> 0:15:14,000
+In this case, even after we let the computer try to rotate this for a while,
+
+305
+0:15:15.399,000 --> 0:15:18,000
+we still find that the left sides and the right sides pictures
+
+306
+0:15:18.744,000 --> 0:15:19,000
+are all mixed up together.
+
+307
+0:15:20.222,000 --> 0:15:22,000
+So we can again give the computer some hints,
+
+308
+0:15:22.362,000 --> 0:15:24,000
+and we say, okay, try and find a projection that separates out
+
+309
+0:15:25.338,000 --> 0:15:27,000
+the left sides and the right sides as much as possible
+
+310
+0:15:27.945,000 --> 0:15:29,000
+using this deep learning algorithm.
+
+311
+0:15:30.067,000 --> 0:15:32,000
+And giving it that hint -- ah, okay, it's been successful.
+
+312
+0:15:33.009,000 --> 0:15:35,000
+It's managed to find a way of thinking about these objects
+
+313
+0:15:35.891,000 --> 0:15:37,000
+that's separated out these together.
+
+314
+0:15:38.271,000 --> 0:15:4,000
+So you get the idea here.
+
+315
+0:15:40.709,000 --> 0:15:48,000
+This is a case not where the human is being replaced by a computer,
+
+316
+0:15:48.906,000 --> 0:15:5,000
+but where they're working together.
+
+317
+0:15:51.546,000 --> 0:15:54,000
+What we're doing here is we're replacing something that used to take a team
+
+318
+0:15:55.096,000 --> 0:15:57,000
+of five or six people about seven years
+
+319
+0:15:57.098,000 --> 0:15:59,000
+and replacing it with something that takes 15 minutes
+
+320
+0:15:59.703,000 --> 0:16:01,000
+for one person acting alone.
+
+321
+0:16:02.208,000 --> 0:16:05,000
+So this process takes about four or five iterations.
+
+322
+0:16:06.158,000 --> 0:16:07,000
+You can see we now have 62 percent
+
+323
+0:16:08.017,000 --> 0:16:1,000
+of our 1.5 million images classified correctly.
+
+324
+0:16:10.976,000 --> 0:16:12,000
+And at this point, we can start to quite quickly
+
+325
+0:16:13.448,000 --> 0:16:14,000
+grab whole big sections,
+
+326
+0:16:14.745,000 --> 0:16:16,000
+check through them to make sure that there's no mistakes.
+
+327
+0:16:17.664,000 --> 0:16:2,000
+Where there are mistakes, we can let the computer know about them.
+
+328
+0:16:21.616,000 --> 0:16:24,000
+And using this kind of process for each of the different groups,
+
+329
+0:16:24.661,000 --> 0:16:26,000
+we are now up to an 80 percent success rate
+
+330
+0:16:27.148,000 --> 0:16:29,000
+in classifying the 1.5 million images.
+
+331
+0:16:29.563,000 --> 0:16:31,000
+And at this point, it's just a case
+
+332
+0:16:31.641,000 --> 0:16:34,000
+of finding the small number that aren't classified correctly,
+
+333
+0:16:35.22,000 --> 0:16:37,000
+and trying to understand why.
+
+334
+0:16:38.108,000 --> 0:16:39,000
+And using that approach,
+
+335
+0:16:39.851,000 --> 0:16:43,000
+by 15 minutes we get to 97 percent classification rates.
+
+336
+0:16:43.972,000 --> 0:16:47,000
+So this kind of technique could allow us to fix a major problem,
+
+337
+0:16:48.578,000 --> 0:16:51,000
+which is that there's a lack of medical expertise in the world.
+
+338
+0:16:51.614,000 --> 0:16:54,000
+The World Economic Forum says that there's between a 10x and a 20x
+
+339
+0:16:55.103,000 --> 0:16:57,000
+shortage of physicians in the developing world,
+
+340
+0:16:57.727,000 --> 0:16:59,000
+and it would take about 300 years
+
+341
+0:16:59.84,000 --> 0:17:01,000
+to train enough people to fix that problem.
+
+342
+0:17:02.734,000 --> 0:17:04,000
+So imagine if we can help enhance their efficiency
+
+343
+0:17:05.619,000 --> 0:17:07,000
+using these deep learning approaches?
+
+344
+0:17:08.458,000 --> 0:17:1,000
+So I'm very excited about the opportunities.
+
+345
+0:17:10.69,000 --> 0:17:12,000
+I'm also concerned about the problems.
+
+346
+0:17:13.279,000 --> 0:17:16,000
+The problem here is that every area in blue on this map
+
+347
+0:17:16.403,000 --> 0:17:19,000
+is somewhere where services are over 80 percent of employment.
+
+348
+0:17:20.172,000 --> 0:17:21,000
+What are services?
+
+349
+0:17:21.959,000 --> 0:17:22,000
+These are services.
+
+350
+0:17:23.473,000 --> 0:17:27,000
+These are also the exact things that computers have just learned how to do.
+
+351
+0:17:27.627,000 --> 0:17:3,000
+So 80 percent of the world's employment in the developed world
+
+352
+0:17:31.431,000 --> 0:17:33,000
+is stuff that computers have just learned how to do.
+
+353
+0:17:33.963,000 --> 0:17:34,000
+What does that mean?
+
+354
+0:17:35.403,000 --> 0:17:37,000
+Well, it'll be fine. They'll be replaced by other jobs.
+
+355
+0:17:37.986,000 --> 0:17:39,000
+For example, there will be more jobs for data scientists.
+
+356
+0:17:40.693,000 --> 0:17:4,000
+Well, not really.
+
+357
+0:17:41.51,000 --> 0:17:44,000
+It doesn't take data scientists very long to build these things.
+
+358
+0:17:44.628,000 --> 0:17:47,000
+For example, these four algorithms were all built by the same guy.
+
+359
+0:17:47.88,000 --> 0:17:49,000
+So if you think, oh, it's all happened before,
+
+360
+0:17:50.318,000 --> 0:17:53,000
+we've seen the results in the past of when new things come along
+
+361
+0:17:54.126,000 --> 0:17:56,000
+and they get replaced by new jobs,
+
+362
+0:17:56.378,000 --> 0:17:58,000
+what are these new jobs going to be?
+
+363
+0:17:58.494,000 --> 0:17:59,000
+It's very hard for us to estimate this,
+
+364
+0:18:00.365,000 --> 0:18:02,000
+because human performance grows at this gradual rate,
+
+365
+0:18:03.104,000 --> 0:18:05,000
+but we now have a system, deep learning,
+
+366
+0:18:05.666,000 --> 0:18:08,000
+that we know actually grows in capability exponentially.
+
+367
+0:18:08.893,000 --> 0:18:09,000
+And we're here.
+
+368
+0:18:10.498,000 --> 0:18:12,000
+So currently, we see the things around us
+
+369
+0:18:12.559,000 --> 0:18:14,000
+and we say, "Oh, computers are still pretty dumb." Right?
+
+370
+0:18:15.235,000 --> 0:18:18,000
+But in five years' time, computers will be off this chart.
+
+371
+0:18:18.664,000 --> 0:18:21,000
+So we need to be starting to think about this capability right now.
+
+372
+0:18:22.529,000 --> 0:18:24,000
+We have seen this once before, of course.
+
+373
+0:18:24.579,000 --> 0:18:25,000
+In the Industrial Revolution,
+
+374
+0:18:25.966,000 --> 0:18:27,000
+we saw a step change in capability thanks to engines.
+
+375
+0:18:29.667,000 --> 0:18:32,000
+The thing is, though, that after a while, things flattened out.
+
+376
+0:18:32.805,000 --> 0:18:33,000
+There was social disruption,
+
+377
+0:18:34.507,000 --> 0:18:37,000
+but once engines were used to generate power in all the situations,
+
+378
+0:18:37.946,000 --> 0:18:39,000
+things really settled down.
+
+379
+0:18:40.3,000 --> 0:18:41,000
+The Machine Learning Revolution
+
+380
+0:18:41.773,000 --> 0:18:43,000
+is going to be very different from the Industrial Revolution,
+
+381
+0:18:44.682,000 --> 0:18:46,000
+because the Machine Learning Revolution, it never settles down.
+
+382
+0:18:47.632,000 --> 0:18:49,000
+The better computers get at intellectual activities,
+
+383
+0:18:50.614,000 --> 0:18:54,000
+the more they can build better computers to be better at intellectual capabilities,
+
+384
+0:18:54.862,000 --> 0:18:55,000
+so this is going to be a kind of change
+
+385
+0:18:56.77,000 --> 0:18:58,000
+that the world has actually never experienced before,
+
+386
+0:18:59.248,000 --> 0:19:02,000
+so your previous understanding of what's possible is different.
+
+387
+0:19:02.974,000 --> 0:19:03,000
+This is already impacting us.
+
+388
+0:19:04.754,000 --> 0:19:07,000
+In the last 25 years, as capital productivity has increased,
+
+389
+0:19:08.4,000 --> 0:19:12,000
+labor productivity has been flat, in fact even a little bit down.
+
+390
+0:19:13.408,000 --> 0:19:15,000
+So I want us to start having this discussion now.
+
+391
+0:19:16.149,000 --> 0:19:19,000
+I know that when I often tell people about this situation,
+
+392
+0:19:19.176,000 --> 0:19:2,000
+people can be quite dismissive.
+
+393
+0:19:20.666,000 --> 0:19:21,000
+Well, computers can't really think,
+
+394
+0:19:22.339,000 --> 0:19:25,000
+they don't emote, they don't understand poetry,
+
+395
+0:19:25.367,000 --> 0:19:27,000
+we don't really understand how they work.
+
+396
+0:19:27.888,000 --> 0:19:28,000
+So what?
+
+397
+0:19:29.374,000 --> 0:19:3,000
+Computers right now can do the things
+
+398
+0:19:31.178,000 --> 0:19:33,000
+that humans spend most of their time being paid to do,
+
+399
+0:19:33.897,000 --> 0:19:34,000
+so now's the time to start thinking
+
+400
+0:19:35.628,000 --> 0:19:39,000
+about how we're going to adjust our social structures and economic structures
+
+401
+0:19:40.015,000 --> 0:19:41,000
+to be aware of this new reality.
+
+402
+0:19:41.855,000 --> 0:19:42,000
+Thank you.
+
+403
+0:19:43.388,000 --> 0:19:43,000
+(Applause)
+

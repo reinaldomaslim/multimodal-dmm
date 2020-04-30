@@ -1,0 +1,1036 @@
+1
+0:00:13.341,000 --> 0:00:17,000
+Someday, we may have robots as smart as people,
+
+2
+0:00:17.809,000 --> 0:00:19,000
+artificial intelligence, AI.
+
+3
+0:00:20.307,000 --> 0:00:21,000
+How could that happen?
+
+4
+0:00:22.632,000 --> 0:00:25,000
+One route is that we'll just keep accumulating better software,
+
+5
+0:00:25.84,000 --> 0:00:26,000
+like we've been doing for 70 years.
+
+6
+0:00:28.363,000 --> 0:00:3,000
+At past rates of progress, that may take centuries.
+
+7
+0:00:31.958,000 --> 0:00:33,000
+Some say it'll happen a lot faster
+
+8
+0:00:34.332,000 --> 0:00:37,000
+as we discover grand new powerful theories of intelligence.
+
+9
+0:00:38.227,000 --> 0:00:39,000
+I'm skeptical.
+
+10
+0:00:40.428,000 --> 0:00:43,000
+But a third scenario
+
+11
+0:00:43.513,000 --> 0:00:44,000
+is what I'm going to talk about today.
+
+12
+0:00:45.364,000 --> 0:00:47,000
+The idea is to port the software from the human brain.
+
+13
+0:00:48.792,000 --> 0:00:51,000
+To do this, we're going to need three technologies to be good enough,
+
+14
+0:00:52.117,000 --> 0:00:53,000
+and none of them are there yet.
+
+15
+0:00:54.237,000 --> 0:00:58,000
+First, we're going to need lots of cheap, fast, parallel computers.
+
+16
+0:01:00.675,000 --> 0:01:04,000
+Second, we're going to need to scan individual human brains
+
+17
+0:01:04.906,000 --> 0:01:06,000
+in fine spatial and chemical detail,
+
+18
+0:01:07.168,000 --> 0:01:11,000
+to see exactly what cells are where, connected to what, of what type.
+
+19
+0:01:11.22,000 --> 0:01:15,000
+And third, we're going to need computer models
+
+20
+0:01:15.6,000 --> 0:01:17,000
+of how each kind of brain cell works --
+
+21
+0:01:18.822,000 --> 0:01:2,000
+taking input signals, changing interval state
+
+22
+0:01:21.426,000 --> 0:01:22,000
+and sending output signals.
+
+23
+0:01:22.744,000 --> 0:01:25,000
+If we have good enough models of all the kinds of brain cells
+
+24
+0:01:26.586,000 --> 0:01:27,000
+and a good enough model of the brain,
+
+25
+0:01:28.373,000 --> 0:01:31,000
+we can put it together to make a good enough model of an entire brain,
+
+26
+0:01:31.831,000 --> 0:01:35,000
+and that model would have the same input-output behavior as the original.
+
+27
+0:01:35.858,000 --> 0:01:37,000
+So if you talk to it, it might talk back.
+
+28
+0:01:38.367,000 --> 0:01:4,000
+If you ask it to do things, it might do them.
+
+29
+0:01:40.488,000 --> 0:01:42,000
+And if we could do that, everything would change.
+
+30
+0:01:43.334,000 --> 0:01:45,000
+People have been talking about this idea for decades,
+
+31
+0:01:45.926,000 --> 0:01:46,000
+under the name of "uploads."
+
+32
+0:01:47.739,000 --> 0:01:48,000
+I'm going to call them "ems."
+
+33
+0:01:50.175,000 --> 0:01:52,000
+When they talk about it, they say,
+
+34
+0:01:52.803,000 --> 0:01:53,000
+"Is this even possible?
+
+35
+0:01:54.658,000 --> 0:01:57,000
+If you made one, would it be conscious? Or is it just an empty machine?
+
+36
+0:01:58.033,000 --> 0:02:,000
+If you made one of me, is that me or someone else?"
+
+37
+0:02:00.856,000 --> 0:02:03,000
+These are all fascinating questions that I'm going to ignore ...
+
+38
+0:02:03.982,000 --> 0:02:05,000
+(Laughter)
+
+39
+0:02:06.861,000 --> 0:02:08,000
+because I see a neglected question:
+
+40
+0:02:08.974,000 --> 0:02:09,000
+What would actually happen?
+
+41
+0:02:12.26,000 --> 0:02:13,000
+I became obsessed with this question.
+
+42
+0:02:15.813,000 --> 0:02:17,000
+I spent four years trying to analyze it,
+
+43
+0:02:18.79,000 --> 0:02:21,000
+using standard academic tools, to guess what would happen,
+
+44
+0:02:22.361,000 --> 0:02:23,000
+and I'm here to tell you what I found.
+
+45
+0:02:24.748,000 --> 0:02:25,000
+But be warned --
+
+46
+0:02:26.542,000 --> 0:02:29,000
+I'm not offering inspiration, I'm offering analysis.
+
+47
+0:02:29.973,000 --> 0:02:31,000
+I see my job as telling you what's most likely to happen
+
+48
+0:02:32.791,000 --> 0:02:33,000
+if we did the least to avoid it.
+
+49
+0:02:35.952,000 --> 0:02:38,000
+If you aren't at least a bit disturbed by something I tell you here,
+
+50
+0:02:39.278,000 --> 0:02:4,000
+you're just not paying attention.
+
+51
+0:02:40.896,000 --> 0:02:41,000
+(Laughter)
+
+52
+0:02:42.271,000 --> 0:02:44,000
+OK, the first thing I can tell you
+
+53
+0:02:44.891,000 --> 0:02:47,000
+is that ems spend most of their life in virtual reality.
+
+54
+0:02:48.639,000 --> 0:02:52,000
+This is what you might look like if you were using virtual reality.
+
+55
+0:02:53.894,000 --> 0:02:55,000
+And this is what you might see:
+
+56
+0:02:57.064,000 --> 0:03:,000
+sunlight glinting off of water, you might hear gulls flying above,
+
+57
+0:03:00.684,000 --> 0:03:03,000
+you might even feel the wind on your cheeks or smell seawater,
+
+58
+0:03:03.739,000 --> 0:03:04,000
+with advanced hardware.
+
+59
+0:03:05.902,000 --> 0:03:07,000
+Now, if you were to spend a lot of time here,
+
+60
+0:03:08.023,000 --> 0:03:09,000
+you might want a dashboard
+
+61
+0:03:09.313,000 --> 0:03:11,000
+where you could do things like make a phone call,
+
+62
+0:03:11.831,000 --> 0:03:12,000
+move to a new virtual world,
+
+63
+0:03:13.405,000 --> 0:03:14,000
+check your bank account.
+
+64
+0:03:15.78,000 --> 0:03:18,000
+Now, while this is what you would look like in virtual reality,
+
+65
+0:03:19.461,000 --> 0:03:22,000
+this is what an em would look like in virtual reality.
+
+66
+0:03:22.613,000 --> 0:03:24,000
+It's computer hardware sitting in a server rack somewhere.
+
+67
+0:03:25.393,000 --> 0:03:28,000
+But still, it could see and experience the same thing.
+
+68
+0:03:29.102,000 --> 0:03:3,000
+But some things are different for ems.
+
+69
+0:03:31.51,000 --> 0:03:35,000
+First, while you'll probably always notice that virtual reality isn't entirely real,
+
+70
+0:03:36.32,000 --> 0:03:39,000
+to an em, it can feel as real to them as this room feels to you now
+
+71
+0:03:39.598,000 --> 0:03:4,000
+or as anything ever feels.
+
+72
+0:03:41.26,000 --> 0:03:43,000
+And ems also have some more action possibilities.
+
+73
+0:03:44.209,000 --> 0:03:46,000
+For example, your mind just always runs at the same speed,
+
+74
+0:03:46.949,000 --> 0:03:49,000
+but an em can add more or less computer hardware to run faster or slower,
+
+75
+0:03:50.814,000 --> 0:03:53,000
+and therefore, if the world around them seems to be going too fast,
+
+76
+0:03:54.526,000 --> 0:03:55,000
+they can just speed up their mind,
+
+77
+0:03:56.169,000 --> 0:03:58,000
+and the world around them would seem to slow down.
+
+78
+0:03:58.543,000 --> 0:04:02,000
+In addition, an em can make a copy of itself at that moment.
+
+79
+0:04:03.94,000 --> 0:04:05,000
+This copy would remember everything the same,
+
+80
+0:04:06.061,000 --> 0:04:09,000
+and if it starts out with the same speed, looking at the same speed,
+
+81
+0:04:09.401,000 --> 0:04:11,000
+it might even need to be told, "You are the copy."
+
+82
+0:04:12.599,000 --> 0:04:13,000
+And em could make archive copies,
+
+83
+0:04:14.196,000 --> 0:04:15,000
+and with enough archives,
+
+84
+0:04:16.044,000 --> 0:04:18,000
+an em can be immortal --
+
+85
+0:04:18.14,000 --> 0:04:2,000
+in principle, though not usually in practice.
+
+86
+0:04:21.231,000 --> 0:04:24,000
+And an em can move its brain, the computer that represents its brain,
+
+87
+0:04:24.787,000 --> 0:04:26,000
+from one physical location to another.
+
+88
+0:04:27.857,000 --> 0:04:3,000
+Ems can actually move around the world at the speed of light,
+
+89
+0:04:31.199,000 --> 0:04:32,000
+and by moving to a new location,
+
+90
+0:04:32.755,000 --> 0:04:35,000
+they can interact more quickly with ems near that new location.
+
+91
+0:04:36.043,000 --> 0:04:4,000
+So far, I've been talking about what ems can do.
+
+92
+0:04:41.047,000 --> 0:04:42,000
+What do ems choose to do?
+
+93
+0:04:44.225,000 --> 0:04:46,000
+To understand that, we'll need to understand three key facts.
+
+94
+0:04:47.916,000 --> 0:04:53,000
+First, ems by definition do what the human they emulate would do
+
+95
+0:04:54.091,000 --> 0:04:55,000
+in the same situation.
+
+96
+0:04:56.125,000 --> 0:04:58,000
+So their lives and behavior are very human.
+
+97
+0:04:58.792,000 --> 0:05:01,000
+They're mainly different because they're living in a different world.
+
+98
+0:05:02.113,000 --> 0:05:05,000
+Second, ems need real resources to survive.
+
+99
+0:05:05.435,000 --> 0:05:08,000
+You need food and shelter or you'll die.
+
+100
+0:05:09.122,000 --> 0:05:13,000
+Also, ems need computer hardware, energy, cooling, or they can't exist.
+
+101
+0:05:13.456,000 --> 0:05:15,000
+For every subjective minute that an em experiences,
+
+102
+0:05:16.055,000 --> 0:05:19,000
+someone, usually that em, had to work to pay for it.
+
+103
+0:05:19.956,000 --> 0:05:2,000
+Third, ems are poor.
+
+104
+0:05:21.67,000 --> 0:05:22,000
+(Laughter)
+
+105
+0:05:23.535,000 --> 0:05:25,000
+The em population can grow quicker than the em economy,
+
+106
+0:05:26.194,000 --> 0:05:29,000
+so that means wages fall down to em subsistence levels.
+
+107
+0:05:29.553,000 --> 0:05:31,000
+That means ems have to be working most of the time.
+
+108
+0:05:32.181,000 --> 0:05:34,000
+So that means this is what ems usually see:
+
+109
+0:05:35.504,000 --> 0:05:37,000
+beautiful and luxurious, but desks --
+
+110
+0:05:38.076,000 --> 0:05:39,000
+they're working most of the time.
+
+111
+0:05:40.103,000 --> 0:05:43,000
+Now, a subsistence wage scenario, you might think, is exotic and strange,
+
+112
+0:05:44.096,000 --> 0:05:46,000
+but it's actually the usual case in human history,
+
+113
+0:05:46.461,000 --> 0:05:48,000
+and it's how pretty much all wild animals have ever lived,
+
+114
+0:05:49.199,000 --> 0:05:51,000
+so we know what humans do in this situation.
+
+115
+0:05:51.499,000 --> 0:05:53,000
+Humans basically do what it takes to survive,
+
+116
+0:05:54.453,000 --> 0:05:57,000
+and this is what lets me say so much about the em world.
+
+117
+0:05:58.572,000 --> 0:06:,000
+When creatures are rich, like you,
+
+118
+0:06:00.985,000 --> 0:06:02,000
+you have to know a lot about what they want
+
+119
+0:06:03.032,000 --> 0:06:04,000
+to figure out what they do.
+
+120
+0:06:04.397,000 --> 0:06:05,000
+When creatures are poor,
+
+121
+0:06:05.591,000 --> 0:06:07,000
+you know that they mostly do what it takes to survive.
+
+122
+0:06:08.596,000 --> 0:06:11,000
+So we've been talking about the em world from the point of view of the ems --
+
+123
+0:06:12.244,000 --> 0:06:14,000
+now, let's step back and look at their whole world.
+
+124
+0:06:14.783,000 --> 0:06:17,000
+First, the em world grows much faster than ours,
+
+125
+0:06:17.887,000 --> 0:06:19,000
+roughly a hundred times faster.
+
+126
+0:06:20.375,000 --> 0:06:23,000
+So the amount of change we would experience in a century or two,
+
+127
+0:06:23.562,000 --> 0:06:24,000
+they would experience in a year or two.
+
+128
+0:06:25.444,000 --> 0:06:28,000
+And I'm not really willing to project this age much beyond that,
+
+129
+0:06:28.506,000 --> 0:06:31,000
+because plausibly by then something else will happen, I don't know what.
+
+130
+0:06:31.967,000 --> 0:06:33,000
+Second, the typical emulation runs even faster,
+
+131
+0:06:34.349,000 --> 0:06:36,000
+roughly a thousand times human speed.
+
+132
+0:06:37.136,000 --> 0:06:42,000
+So for them, they experience thousands of years in this year or two,
+
+133
+0:06:42.5,000 --> 0:06:45,000
+and for them, the world around them is actually changing more slowly
+
+134
+0:06:45.716,000 --> 0:06:46,000
+than your world seems to change for you.
+
+135
+0:06:48.097,000 --> 0:06:52,000
+Third, ems are crammed together in a small number of very dense cities.
+
+136
+0:06:52.605,000 --> 0:06:55,000
+This is not only how they see themselves in virtual reality,
+
+137
+0:06:56.095,000 --> 0:06:58,000
+it's also how they actually are physically crammed together.
+
+138
+0:06:59.294,000 --> 0:07:02,000
+So at em speeds, physical travel feels really painfully slow,
+
+139
+0:07:03.204,000 --> 0:07:05,000
+so most em cities are self-sufficient,
+
+140
+0:07:05.55,000 --> 0:07:06,000
+most war is cyber war,
+
+141
+0:07:07.324,000 --> 0:07:09,000
+and most of the rest of the earth away from the em cities
+
+142
+0:07:10.039,000 --> 0:07:13,000
+is left to the humans, because the ems really aren't that interested in it.
+
+143
+0:07:14.072,000 --> 0:07:15,000
+Speaking of humans,
+
+144
+0:07:15.604,000 --> 0:07:16,000
+you were wanting to hear about that.
+
+145
+0:07:17.412,000 --> 0:07:21,000
+Humans must retire, at once, for good.
+
+146
+0:07:22.707,000 --> 0:07:23,000
+They just can't compete.
+
+147
+0:07:24.738,000 --> 0:07:27,000
+Now, humans start out owning all of the capital in this world.
+
+148
+0:07:27.834,000 --> 0:07:29,000
+The economy grows very fast, their wealth grows very fast.
+
+149
+0:07:30.727,000 --> 0:07:32,000
+Humans get rich, collectively.
+
+150
+0:07:34.048,000 --> 0:07:37,000
+As you may know, most humans today don't actually own that much
+
+151
+0:07:37.311,000 --> 0:07:38,000
+besides their ability to work,
+
+152
+0:07:39.176,000 --> 0:07:42,000
+so between now and then, they need to acquire sufficient assets,
+
+153
+0:07:42.748,000 --> 0:07:43,000
+insurance or sharing arrangements,
+
+154
+0:07:44.605,000 --> 0:07:45,000
+or they may starve.
+
+155
+0:07:46.09,000 --> 0:07:48,000
+I highly recommend avoiding this outcome.
+
+156
+0:07:48.129,000 --> 0:07:49,000
+(Laughter)
+
+157
+0:07:50.285,000 --> 0:07:51,000
+Now, you might wonder,
+
+158
+0:07:51.532,000 --> 0:07:52,000
+why would ems let humans exist?
+
+159
+0:07:53.034,000 --> 0:07:54,000
+Why not kill them, take their stuff?
+
+160
+0:07:55.521,000 --> 0:07:58,000
+But notice we have many unproductive retirees around us today,
+
+161
+0:07:58.622,000 --> 0:08:,000
+and we don't kill them and take their stuff.
+
+162
+0:08:00.751,000 --> 0:08:01,000
+(Laughter)
+
+163
+0:08:02.409,000 --> 0:08:06,000
+In part, that's because it would disrupt the institutions we share with them.
+
+164
+0:08:07.344,000 --> 0:08:09,000
+Other groups would wonder who's next,
+
+165
+0:08:09.484,000 --> 0:08:13,000
+so plausibly, ems may well let humans retire in peace during the age of em.
+
+166
+0:08:14.234,000 --> 0:08:17,000
+You should worry more that the age of em only lasts a year or two
+
+167
+0:08:17.307,000 --> 0:08:18,000
+and you don't know what happens next.
+
+168
+0:08:21.027,000 --> 0:08:23,000
+Ems are very much like humans,
+
+169
+0:08:23.417,000 --> 0:08:25,000
+but they are not like the typical human.
+
+170
+0:08:26.258,000 --> 0:08:31,000
+The typical em is a copy of the few hundred most productive humans.
+
+171
+0:08:33.149,000 --> 0:08:36,000
+So in fact, they are as elite, compared to the typical human,
+
+172
+0:08:36.753,000 --> 0:08:38,000
+as the typical billionaire, Nobel Prize winner,
+
+173
+0:08:39.039,000 --> 0:08:41,000
+Olympic gold medalist, head of state.
+
+174
+0:08:42.347,000 --> 0:08:46,000
+Ems look on humans perhaps with nostalgia and gratitude,
+
+175
+0:08:46.673,000 --> 0:08:47,000
+but not so much respect,
+
+176
+0:08:48.205,000 --> 0:08:51,000
+which is, if you think about it, how you think about your ancestors.
+
+177
+0:08:51.424,000 --> 0:08:54,000
+We know many things about how humans differ in terms of productivity.
+
+178
+0:08:54.715,000 --> 0:08:56,000
+We can just use those to predict features of ems --
+
+179
+0:08:57.158,000 --> 0:09:,000
+for example, they tend to be smart, conscientious, hard-working,
+
+180
+0:09:00.278,000 --> 0:09:01,000
+married, religious, middle-aged.
+
+181
+0:09:02.281,000 --> 0:09:03,000
+These are features of ems.
+
+182
+0:09:03.917,000 --> 0:09:05,000
+Em world also contains enormous variety.
+
+183
+0:09:06.53,000 --> 0:09:09,000
+Not only does it continue on with most of the kinds of variety that humans do,
+
+184
+0:09:10.222,000 --> 0:09:12,000
+including variety of industry and profession,
+
+185
+0:09:12.641,000 --> 0:09:14,000
+they also have many new kinds of variety,
+
+186
+0:09:14.827,000 --> 0:09:16,000
+and one of the most important is mind speed.
+
+187
+0:09:17.532,000 --> 0:09:2,000
+Ems can plausibly go from human speed
+
+188
+0:09:21.39,000 --> 0:09:23,000
+up to a million times faster than human speed,
+
+189
+0:09:24.294,000 --> 0:09:26,000
+and down to a billion times slower than human speed.
+
+190
+0:09:28.046,000 --> 0:09:3,000
+Faster ems tend to have markers of high status.
+
+191
+0:09:30.836,000 --> 0:09:32,000
+They embody more wealth. They win arguments.
+
+192
+0:09:33.02,000 --> 0:09:34,000
+They sit at premium locations.
+
+193
+0:09:34.707,000 --> 0:09:35,000
+Slower ems are mostly retirees,
+
+194
+0:09:36.551,000 --> 0:09:38,000
+and they are like the ghosts of our literature.
+
+195
+0:09:38.825,000 --> 0:09:4,000
+If you recall, ghosts are all around us --
+
+196
+0:09:40.89,000 --> 0:09:42,000
+you can interact with them if you pay the price.
+
+197
+0:09:43.184,000 --> 0:09:45,000
+But they don't know much, they can't influence much,
+
+198
+0:09:45.637,000 --> 0:09:47,000
+and they're obsessed with the past, so what's the point?
+
+199
+0:09:48.359,000 --> 0:09:49,000
+(Laughter)
+
+200
+0:09:49.534,000 --> 0:09:51,000
+Ems also have more variety in the structure of their lives.
+
+201
+0:09:52.515,000 --> 0:09:54,000
+This is your life: you start and you end, really simple.
+
+202
+0:09:55.221,000 --> 0:09:56,000
+This is the life of an em,
+
+203
+0:09:56.858,000 --> 0:09:58,000
+who every day splits off some short-term copies
+
+204
+0:09:59.175,000 --> 0:10:,000
+to do short-term tasks and then end.
+
+205
+0:10:01.157,000 --> 0:10:05,000
+We'll talk more about those short term versions in a moment,
+
+206
+0:10:05.308,000 --> 0:10:06,000
+but they are much more efficient
+
+207
+0:10:06.942,000 --> 0:10:08,000
+because they don't have to rest for the next day.
+
+208
+0:10:09.331,000 --> 0:10:1,000
+This em is more opportunistic.
+
+209
+0:10:10.863,000 --> 0:10:13,000
+They make more copies of themselves when there's more demand for that.
+
+210
+0:10:14.174,000 --> 0:10:16,000
+They don't know which way the future's going.
+
+211
+0:10:16.295,000 --> 0:10:17,000
+This is an em designer,
+
+212
+0:10:17.618,000 --> 0:10:18,000
+who conceives of a large system
+
+213
+0:10:19.244,000 --> 0:10:22,000
+and then breaks recursively into copies who elaborate that,
+
+214
+0:10:22.753,000 --> 0:10:25,000
+so ems can implement larger, more coherent designs.
+
+215
+0:10:26.189,000 --> 0:10:27,000
+This an emulation plumber
+
+216
+0:10:27.571,000 --> 0:10:29,000
+who remembers that every day, for the last 20 years,
+
+217
+0:10:30.04,000 --> 0:10:32,000
+they only ever worked two hours a day, a life of leisure.
+
+218
+0:10:32.845,000 --> 0:10:35,000
+But what really happened is, every day they had a thousand copies,
+
+219
+0:10:35.966,000 --> 0:10:36,000
+each of whom did a two-hour plumbing job,
+
+220
+0:10:37.943,000 --> 0:10:39,000
+and only one of them went on to the next day.
+
+221
+0:10:40.132,000 --> 0:10:42,000
+Objectively, they're working well over 99 percent of the time.
+
+222
+0:10:43.155,000 --> 0:10:45,000
+Subjectively, they remember a life of leisure.
+
+223
+0:10:45.369,000 --> 0:10:46,000
+(Laughter)
+
+224
+0:10:46.401,000 --> 0:10:48,000
+This, again, is you. You start and you end.
+
+225
+0:10:48.513,000 --> 0:10:5,000
+This could be you if at the start of party,
+
+226
+0:10:50.649,000 --> 0:10:52,000
+you took a drug that meant you would not remember that party
+
+227
+0:10:53.484,000 --> 0:10:54,000
+ever after that day.
+
+228
+0:10:55.126,000 --> 0:10:56,000
+Some people do this, I'm told.
+
+229
+0:10:57.49,000 --> 0:10:58,000
+Toward the end of the party,
+
+230
+0:10:59.149,000 --> 0:11:01,000
+will you say to yourself, "I'm about to die, this is terrible.
+
+231
+0:11:02.099,000 --> 0:11:05,000
+That person tomorrow isn't me, because they won't remember what I do."
+
+232
+0:11:05.426,000 --> 0:11:08,000
+Or you could say, "I will go on tomorrow. I just won't remember what I did."
+
+233
+0:11:09.411,000 --> 0:11:11,000
+This is an em who splits off a short-term copy
+
+234
+0:11:11.864,000 --> 0:11:12,000
+to do a short-term task and then end.
+
+235
+0:11:13.752,000 --> 0:11:15,000
+They have the same two attitude possibilities.
+
+236
+0:11:15.982,000 --> 0:11:18,000
+They can say, "I'm a new short-term creature with a short life. I hate this."
+
+237
+0:11:19.685,000 --> 0:11:22,000
+Or "I'm a part of a larger creature who won't remember this part."
+
+238
+0:11:22.843,000 --> 0:11:24,000
+I predict they'll have that second attitude,
+
+239
+0:11:24.985,000 --> 0:11:27,000
+not because it's philosophically correct, but because it helps them get along.
+
+240
+0:11:28.685,000 --> 0:11:3,000
+Today, if the president says we must invade Iraq,
+
+241
+0:11:31.037,000 --> 0:11:32,000
+and you say, "Why?"
+
+242
+0:11:32.212,000 --> 0:11:33,000
+and they say, "State secret,"
+
+243
+0:11:33.618,000 --> 0:11:34,000
+you're not sure if you can trust them,
+
+244
+0:11:35.492,000 --> 0:11:38,000
+but for ems, a copy of the president and a copy of you can go inside a safe,
+
+245
+0:11:39.132,000 --> 0:11:4,000
+explain all their secret reasons,
+
+246
+0:11:40.81,000 --> 0:11:42,000
+and then one bit comes out from your copy to yourself,
+
+247
+0:11:43.365,000 --> 0:11:44,000
+telling you if you were convinced.
+
+248
+0:11:45.245,000 --> 0:11:47,000
+So now you can know there is a good reason.
+
+249
+0:11:47.796,000 --> 0:11:49,000
+I know you guys are all eager to evaluate this world.
+
+250
+0:11:50.365,000 --> 0:11:52,000
+You're eager to decide if you love it or hate it.
+
+251
+0:11:52.723,000 --> 0:11:54,000
+But think: your ancestors from thousands of years ago
+
+252
+0:11:55.29,000 --> 0:11:56,000
+would have loved or hated your world
+
+253
+0:11:57.067,000 --> 0:11:59,000
+based on the first few things they heard about it,
+
+254
+0:11:59.512,000 --> 0:12:,000
+because your world is really just weird.
+
+255
+0:12:01.399,000 --> 0:12:04,000
+So before judging a strange future world, you should really learn a lot about it,
+
+256
+0:12:05.237,000 --> 0:12:06,000
+maybe read a whole book about it,
+
+257
+0:12:06.851,000 --> 0:12:08,000
+and then, if you don't like it, work to change it.
+
+258
+0:12:09.229,000 --> 0:12:1,000
+Thank you.
+
+259
+0:12:10.272,000 --> 0:12:14,000
+(Applause)
+

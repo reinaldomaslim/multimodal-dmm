@@ -1,0 +1,1432 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Antoine Combeau Relecteur: Mathieu Marthe
+
+2
+0:00:12.532,000 --> 0:00:13,000
+Voici Lee Sedol.
+
+3
+0:00:14.108,000 --> 0:00:17,000
+Lee Sedol est l'un des meilleurs joueurs de go au monde,
+
+4
+0:00:18.129,000 --> 0:00:2,000
+et il vient d'avoir ce que mes amis de Silicon Valley appellent
+
+5
+0:00:21.114,000 --> 0:00:22,000
+un moment « Mince alors... »
+
+6
+0:00:22.572,000 --> 0:00:23,000
+(Rires)
+
+7
+0:00:23.669,000 --> 0:00:25,000
+Ce moment où nous réalisons
+
+8
+0:00:25.881,000 --> 0:00:28,000
+que l'intelligence artificielle progresse plus rapidement que prévu.
+
+9
+0:00:29.884,000 --> 0:00:32,000
+Les hommes ont donc perdu au jeu de go. Qu'en est-il du monde réel ?
+
+10
+0:00:33.141,000 --> 0:00:35,000
+Eh bien, le monde réel est bien plus grand,
+
+11
+0:00:35.169,000 --> 0:00:37,000
+plus compliqué d'un plateau de go.
+
+12
+0:00:37.442,000 --> 0:00:38,000
+C'est beaucoup moins visible
+
+13
+0:00:39.285,000 --> 0:00:41,000
+mais ça reste un problème de décision.
+
+14
+0:00:42.768,000 --> 0:00:44,000
+Si nous pensons à certaines technologies
+
+15
+0:00:45.113,000 --> 0:00:46,000
+qui apparaissent...
+
+16
+0:00:47.558,000 --> 0:00:51,000
+Noriko [Arai] a dit que la lecture n'est pas encore au point pour les machines,
+
+17
+0:00:51.917,000 --> 0:00:52,000
+du moins avec compréhension.
+
+18
+0:00:53.441,000 --> 0:00:54,000
+Mais cela se produira,
+
+19
+0:00:55.001,000 --> 0:00:56,000
+et quand ça se produira,
+
+20
+0:00:56.796,000 --> 0:00:57,000
+très peu de temps après,
+
+21
+0:00:58.007,000 --> 0:01:02,000
+les machines liront tout ce que la race humaine a jamais écrit.
+
+22
+0:01:03.67,000 --> 0:01:04,000
+Cela permettra aux machines,
+
+23
+0:01:05.504,000 --> 0:01:08,000
+qui ont la capacité de voir plus loin que les hommes ne le peuvent,
+
+24
+0:01:08.668,000 --> 0:01:09,000
+comme démontré avec le jeu de go,
+
+25
+0:01:10.372,000 --> 0:01:12,000
+si elles ont accès à plus d'informations,
+
+26
+0:01:12.56,000 --> 0:01:16,000
+de prendre de meilleures décisions dans le monde réel que nous.
+
+27
+0:01:18.612,000 --> 0:01:19,000
+Est-ce donc une bonne chose ?
+
+28
+0:01:21.718,000 --> 0:01:23,000
+Eh bien, je l'espère.
+
+29
+0:01:26.514,000 --> 0:01:29,000
+Notre civilisation tout entière, tout ce que nous apprécions,
+
+30
+0:01:29.793,000 --> 0:01:31,000
+est basé sur notre intelligence.
+
+31
+0:01:31.885,000 --> 0:01:34,000
+Et si nous avions accès à une plus large intelligence,
+
+32
+0:01:35.603,000 --> 0:01:38,000
+alors il n'y aurait aucune limite à ce que la race humaine peut faire.
+
+33
+0:01:40.485,000 --> 0:01:43,000
+Je pense que cela pourrait être, comme certains l'ont décrit,
+
+34
+0:01:43.834,000 --> 0:01:45,000
+le plus grand moment de l'histoire humaine.
+
+35
+0:01:48.485,000 --> 0:01:5,000
+Alors, pourquoi les gens racontent-ils des choses comme :
+
+36
+0:01:51.338,000 --> 0:01:53,000
+« l'IA pourrait signifier la fin de la race humaine ? »
+
+37
+0:01:55.258,000 --> 0:01:56,000
+Est-ce une chose nouvelle ?
+
+38
+0:01:56.941,000 --> 0:02:,000
+Cela ne concerne-t-il qu' Elon Musk, Bill Gates et Stephen Hawking ?
+
+39
+0:02:01.773,000 --> 0:02:04,000
+En fait, non. Cette idée existe depuis un moment.
+
+40
+0:02:05.059,000 --> 0:02:06,000
+Voici une citation :
+
+41
+0:02:07.045,000 --> 0:02:11,000
+« Même si nous pouvions garder les machines dans une position subalterne,
+
+42
+0:02:11.349,000 --> 0:02:14,000
+par exemple, en coupant l'énergie à des moments stratégiques... »
+
+43
+0:02:14.443,000 --> 0:02:17,000
+et je reviendrai sur cette idée de « couper l'énergie » plus tard...
+
+44
+0:02:17.688,000 --> 0:02:19,000
+« Nous devrions, en tant qu'espèce, faire preuve d'humilité. »
+
+45
+0:02:21.997,000 --> 0:02:24,000
+Donc qui a dit ça ? C'est Alan Turing en 1951.
+
+46
+0:02:26.12,000 --> 0:02:28,000
+Alan Turing, vous le savez, est le père de l'informatique
+
+47
+0:02:28.907,000 --> 0:02:31,000
+et à bien des égards, le père de l'IA également.
+
+48
+0:02:33.059,000 --> 0:02:34,000
+Si nous pensons à ce problème,
+
+49
+0:02:34.965,000 --> 0:02:37,000
+celui de créer quelque chose de plus intelligent que notre propre espèce,
+
+50
+0:02:38.776,000 --> 0:02:4,000
+appelons cela « le problème du gorille »,
+
+51
+0:02:42.165,000 --> 0:02:45,000
+parce que leurs ancêtres ont vécu cela il y a quelques millions d'années,
+
+52
+0:02:45.939,000 --> 0:02:46,000
+nous pouvons donc leur demander :
+
+53
+0:02:48.372,000 --> 0:02:49,000
+« Était-ce une bonne idée ? »
+
+54
+0:02:49.756,000 --> 0:02:52,000
+Donc, ils ont eu une réunion pour savoir si c'était une bonne idée
+
+55
+0:02:53.31,000 --> 0:02:56,000
+et après un petit moment, ils conclurent que non,
+
+56
+0:02:56.68,000 --> 0:02:57,000
+c'était une mauvaise idée.
+
+57
+0:02:58.049,000 --> 0:02:59,000
+« Notre espèce est en difficulté. »
+
+58
+0:03:00.358,000 --> 0:03:04,000
+En fait, vous pouvez voir de la tristesse existentielle dans leurs yeux.
+
+59
+0:03:04.645,000 --> 0:03:05,000
+(Rires)
+
+60
+0:03:06.309,000 --> 0:03:09,000
+Ce sentiment gênant d'avoir créé quelque chose de plus intelligent
+
+61
+0:03:10.163,000 --> 0:03:13,000
+que votre propre espèce alors que ce n'est peut-être pas une bonne idée...
+
+62
+0:03:14.308,000 --> 0:03:15,000
+« Que pouvons-nous y faire ? »
+
+63
+0:03:15.823,000 --> 0:03:19,000
+Eh bien, rien, sauf abandonner l'IA.
+
+64
+0:03:20.614,000 --> 0:03:22,000
+Mais à cause de tous les avantages que j'ai mentionnés
+
+65
+0:03:23.134,000 --> 0:03:24,000
+et parce que je suis chercheur en IA,
+
+66
+0:03:24.894,000 --> 0:03:25,000
+je ne peux m'y résoudre.
+
+67
+0:03:27.103,000 --> 0:03:29,000
+Je veux réellement continuer à travailler sur l'IA.
+
+68
+0:03:30.435,000 --> 0:03:32,000
+Nous avons besoin de définir un peu plus le problème.
+
+69
+0:03:33.137,000 --> 0:03:34,000
+Quel est donc le problème ?
+
+70
+0:03:34.532,000 --> 0:03:37,000
+Pourquoi une meilleure IA pourrait être une catastrophe ?
+
+71
+0:03:39.218,000 --> 0:03:4,000
+Voici une autre citation :
+
+72
+0:03:41.755,000 --> 0:03:44,000
+« Nous devrions être certains que l'objectif introduit dans la machine
+
+73
+0:03:45.114,000 --> 0:03:47,000
+est bien l'objectif que nous souhaitons. »
+
+74
+0:03:48.102,000 --> 0:03:51,000
+C'est une citation de Norbert Wienner en 1960,
+
+75
+0:03:51.624,000 --> 0:03:55,000
+peu après qu'il a observé l'un des premiers systèmes d'apprentissage
+
+76
+0:03:55.65,000 --> 0:03:57,000
+apprendre à mieux jouer aux échecs que son créateur.
+
+77
+0:04:00.422,000 --> 0:04:02,000
+Mais ça aurait aussi pu être
+
+78
+0:04:03.129,000 --> 0:04:04,000
+le roi Midas, qui a dit :
+
+79
+0:04:04.851,000 --> 0:04:07,000
+« Je souhaite que tout ce que je touche se transforme en or »
+
+80
+0:04:07.893,000 --> 0:04:09,000
+et qui a obtenu exactement ce qu'il avait demandé.
+
+81
+0:04:10.558,000 --> 0:04:12,000
+C'était l'objectif qu'il a introduit dans la machine,
+
+82
+0:04:13.333,000 --> 0:04:14,000
+pour ainsi dire.
+
+83
+0:04:14.807,000 --> 0:04:17,000
+Sa nourriture, sa boisson et sa famille se sont alors changées en or.
+
+84
+0:04:18.275,000 --> 0:04:2,000
+Il est mort de faim dans la misère.
+
+85
+0:04:22.264,000 --> 0:04:24,000
+Nous appellerons ça « le problème du roi Midas »,
+
+86
+0:04:24.629,000 --> 0:04:27,000
+le fait de déclarer un objectif qui n'est pas, en fait,
+
+87
+0:04:27.958,000 --> 0:04:29,000
+en adéquation avec ce que nous voulons.
+
+88
+0:04:30.395,000 --> 0:04:33,000
+Aujourd'hui, nous appelons cela « un problème d'alignement de valeur ».
+
+89
+0:04:36.867,000 --> 0:04:39,000
+Établir le mauvais objectif n'est qu'une partie du problème.
+
+90
+0:04:40.376,000 --> 0:04:41,000
+Il en existe une autre.
+
+91
+0:04:41.86,000 --> 0:04:43,000
+Si vous introduisez un objectif dans une machine,
+
+92
+0:04:44.153,000 --> 0:04:46,000
+même une chose simple comme « acheter du café »,
+
+93
+0:04:47.728,000 --> 0:04:48,000
+la machine se dit :
+
+94
+0:04:50.553,000 --> 0:04:52,000
+« Comment pourrais-je échouer à apporter du café ?
+
+95
+0:04:53.2,000 --> 0:04:54,000
+Quelqu'un pourrait m'éteindre.
+
+96
+0:04:55.415,000 --> 0:04:57,000
+Alors, je dois prendre des mesures pour éviter cela.
+
+97
+0:04:57.876,000 --> 0:04:58,000
+Je vais désactiver mon interrupteur.
+
+98
+0:05:00.354,000 --> 0:05:02,000
+Je ferai tout pour me défendre contre les interférences
+
+99
+0:05:03.337,000 --> 0:05:05,000
+contre l'objectif qu'on m'a donné. »
+
+100
+0:05:05.99,000 --> 0:05:07,000
+Cette quête obsessionnelle,
+
+101
+0:05:08.633,000 --> 0:05:11,000
+avec une attitude très défensive envers un objectif qui n'est, en fait,
+
+102
+0:05:12.002,000 --> 0:05:14,000
+pas aligné sur les vrais objectifs de la race humaine...
+
+103
+0:05:15.912,000 --> 0:05:17,000
+C'est le problème auquel nous sommes confrontés.
+
+104
+0:05:18.827,000 --> 0:05:21,000
+Et c'est aussi la notion importante à retenir de cette présentation.
+
+105
+0:05:22.788,000 --> 0:05:24,000
+Si vous ne devez retenir qu'une chose,
+
+106
+0:05:25.087,000 --> 0:05:28,000
+c'est que vous ne pourrez pas aller chercher le café si vous êtes mort.
+
+107
+0:05:28.742,000 --> 0:05:28,000
+(Rires)
+
+108
+0:05:29.481,000 --> 0:05:32,000
+C'est très simple. Rappelez-vous de cela. Répétez-le-vous trois fois par jour.
+
+109
+0:05:33.334,000 --> 0:05:34,000
+(Rires)
+
+110
+0:05:35.179,000 --> 0:05:37,000
+En fait, c'est exactement l'intrigue
+
+111
+0:05:37.957,000 --> 0:05:39,000
+de « 2001, l'Odyssée de l'espace. »
+
+112
+0:05:41.046,000 --> 0:05:43,000
+HAL a un objectif, une mission,
+
+113
+0:05:43.16,000 --> 0:05:46,000
+qui n'est pas en adéquation avec les objectifs des êtres humains
+
+114
+0:05:46.916,000 --> 0:05:47,000
+et cela conduit à ce conflit.
+
+115
+0:05:49.314,000 --> 0:05:51,000
+Heureusement, HAL n'est pas super-intelligent.
+
+116
+0:05:52.307,000 --> 0:05:55,000
+Il est assez malin, mais finalement Dave le surpasse
+
+117
+0:05:55.918,000 --> 0:05:56,000
+et parvient à l'éteindre.
+
+118
+0:06:01.648,000 --> 0:06:02,000
+Nous pourrions avoir moins de chance.
+
+119
+0:06:08.013,000 --> 0:06:09,000
+Alors qu'allons-nous faire ?
+
+120
+0:06:12.191,000 --> 0:06:14,000
+J'essaie de redéfinir l'IA,
+
+121
+0:06:14.816,000 --> 0:06:16,000
+afin de nous éloigner de cette notion classique
+
+122
+0:06:17.044,000 --> 0:06:21,000
+de machines qui poursuivent leurs objectifs de manière intelligente.
+
+123
+0:06:22.532,000 --> 0:06:23,000
+Cela repose sur trois principes.
+
+124
+0:06:24.354,000 --> 0:06:27,000
+Le premier est un principe d'altruisme, si vous voulez.
+
+125
+0:06:27.667,000 --> 0:06:3,000
+L'unique objectif du robot
+
+126
+0:06:30.953,000 --> 0:06:34,000
+est de maximiser la réalisation des objectifs des êtres humains,
+
+127
+0:06:35.223,000 --> 0:06:36,000
+des valeurs humaines.
+
+128
+0:06:36.637,000 --> 0:06:39,000
+Je ne parle pas de celles qui sont sentimentales ou sainte-nitouche.
+
+129
+0:06:39.991,000 --> 0:06:42,000
+Je parle de la vie que les êtres humains voudraient
+
+130
+0:06:43.802,000 --> 0:06:44,000
+par n'importe quels moyens.
+
+131
+0:06:47.184,000 --> 0:06:49,000
+Cela viole la loi d'Asimov, selon laquelle
+
+132
+0:06:49.517,000 --> 0:06:51,000
+le robot doit protéger sa propre existence.
+
+133
+0:06:51.87,000 --> 0:06:54,000
+Il n'a aucun intérêt à préserver son existence.
+
+134
+0:06:57.24,000 --> 0:07:,000
+La deuxième loi est une loi d'humilité, si vous préférez.
+
+135
+0:07:01.794,000 --> 0:07:04,000
+Elle s'avère très importante afin de rendre le robot inoffensif.
+
+136
+0:07:05.561,000 --> 0:07:08,000
+L'idée, c'est que le robot ne sait pas
+
+137
+0:07:08.727,000 --> 0:07:1,000
+ce que sont les valeurs humaines.
+
+138
+0:07:10.779,000 --> 0:07:13,000
+Il doit les maximiser, mais il ne sait pas ce qu'elles sont.
+
+139
+0:07:15.074,000 --> 0:07:17,000
+Pour éviter une quête obsessionnelle
+
+140
+0:07:17.724,000 --> 0:07:18,000
+d'un objectif,
+
+141
+0:07:18.96,000 --> 0:07:2,000
+cette incertitude s'avère cruciale.
+
+142
+0:07:21.546,000 --> 0:07:22,000
+Mais pour nous être utiles,
+
+143
+0:07:23.209,000 --> 0:07:25,000
+il doit avoir une idée de nos désirs.
+
+144
+0:07:27.043,000 --> 0:07:32,000
+Il obtient cette information surtout par l'observation des choix humains.
+
+145
+0:07:32.494,000 --> 0:07:34,000
+Ces choix révèlent donc des informations
+
+146
+0:07:35.319,000 --> 0:07:38,000
+quant à ce que nous désirons pour notre vie.
+
+147
+0:07:40.452,000 --> 0:07:41,000
+Ce sont donc les trois principes.
+
+148
+0:07:42.119,000 --> 0:07:44,000
+Voyons comment cela s'applique à la question
+
+149
+0:07:44.517,000 --> 0:07:46,000
+de Turing : « Pouvez-vous éteindre la machine ? »
+
+150
+0:07:48.893,000 --> 0:07:5,000
+Voici un robot PR2.
+
+151
+0:07:51.037,000 --> 0:07:52,000
+C'est celui que nous avons au laboratoire
+
+152
+0:07:53.009,000 --> 0:07:55,000
+Il possède un gros interrupteur rouge directement sur le dos.
+
+153
+0:07:56.341,000 --> 0:07:58,000
+La question est : « Va-t-il nous laisser l'éteindre ? »
+
+154
+0:07:59.006,000 --> 0:08:,000
+Selon la méthode classique,
+
+155
+0:08:00.489,000 --> 0:08:02,000
+nous lui donnons pour objectif de « chercher du café,
+
+156
+0:08:03.111,000 --> 0:08:06,000
+je dois aller chercher du café, je ne peux pas y aller si je suis mort. »
+
+157
+0:08:06.599,000 --> 0:08:09,000
+Alors, évidemment, le PR2 a écouté ma présentation
+
+158
+0:08:09.964,000 --> 0:08:12,000
+et il se dit : « Je dois désactiver mon interrupteur
+
+159
+0:08:14.796,000 --> 0:08:16,000
+et tirer sur toutes les autres personnes dans le Starbucks
+
+160
+0:08:17.521,000 --> 0:08:18,000
+qui pourraient interférer avec moi. »
+
+161
+0:08:19.378,000 --> 0:08:2,000
+(Rires)
+
+162
+0:08:21.184,000 --> 0:08:23,000
+Cela semble inévitable, n'est-ce pas ?
+
+163
+0:08:23.361,000 --> 0:08:25,000
+Ce genre d'échec semble être inévitable
+
+164
+0:08:25.783,000 --> 0:08:28,000
+et résulte de l'objectif concret et défini.
+
+165
+0:08:30.632,000 --> 0:08:33,000
+Qu'arrive-t-il si la machine ne connaît pas l'objectif ?
+
+166
+0:08:33.8,000 --> 0:08:35,000
+Eh bien, elle raisonne différemment.
+
+167
+0:08:35.951,000 --> 0:08:37,000
+Elle se dit : « OK, l'humain pourrait m'éteindre,
+
+168
+0:08:38.964,000 --> 0:08:39,000
+si je fais ce qui ne va pas.
+
+169
+0:08:41.567,000 --> 0:08:43,000
+Eh bien, je ne sais pas vraiment ce qui est mal,
+
+170
+0:08:44.066,000 --> 0:08:46,000
+mais je sais que je ne veux pas le faire. »
+
+171
+0:08:46.134,000 --> 0:08:49,000
+Voilà le premier et le deuxième principes.
+
+172
+0:08:49.168,000 --> 0:08:52,000
+« Je devrais donc laisser l'humain m'éteindre. »
+
+173
+0:08:53.541,000 --> 0:08:56,000
+En fait, vous pouvez calculer l'incitation que le robot a
+
+174
+0:08:57.521,000 --> 0:08:59,000
+à se laisser éteindre.
+
+175
+0:09:00.038,000 --> 0:09:01,000
+C'est directement lié au degré
+
+176
+0:09:01.976,000 --> 0:09:03,000
+d'incertitude de l'objectif sous-jacent.
+
+177
+0:09:05.797,000 --> 0:09:07,000
+Et c'est lorsque la machine est éteinte
+
+178
+0:09:08.67,000 --> 0:09:09,000
+que ce troisième principe entre en jeu.
+
+179
+0:09:10.589,000 --> 0:09:13,000
+Elle apprend des choses sur les objectifs qu'elle doit poursuivre
+
+180
+0:09:13.765,000 --> 0:09:15,000
+en constatant que ce qu'elle a fait n'était pas bien.
+
+181
+0:09:16.248,000 --> 0:09:19,000
+En fait, avec une utilisation appropriée des symboles grecs,
+
+182
+0:09:19.836,000 --> 0:09:21,000
+comme le font souvent les mathématiciens,
+
+183
+0:09:21.991,000 --> 0:09:22,000
+nous pouvons prouver un théorème
+
+184
+0:09:23.999,000 --> 0:09:26,000
+qui dit qu'un tel robot est manifestement bénéfique pour l'humain.
+
+185
+0:09:27.576,000 --> 0:09:3,000
+Vous êtes probablement mieux avec une machine conçue de cette façon
+
+186
+0:09:31.403,000 --> 0:09:32,000
+que sans.
+
+187
+0:09:33.017,000 --> 0:09:35,000
+C'est donc un exemple très simple, mais c'est la première étape
+
+188
+0:09:35.987,000 --> 0:09:38,000
+dans ce que nous essayons de faire avec l'IA compatible avec les êtres humains.
+
+189
+0:09:42.477,000 --> 0:09:43,000
+Quant au troisième principe,
+
+190
+0:09:44.398,000 --> 0:09:48,000
+je pense que vous êtes en train de vous gratter la tête à ce sujet.
+
+191
+0:09:48.894,000 --> 0:09:51,000
+Vous pensez probablement : « Eh bien, vous savez, je me comporte mal.
+
+192
+0:09:52.157,000 --> 0:09:54,000
+Je ne veux pas que mon robot se comporte comme moi.
+
+193
+0:09:55.11,000 --> 0:09:58,000
+Je me faufile au milieu de la nuit et je picore dans le frigo.
+
+194
+0:09:58.568,000 --> 0:09:59,000
+Je fais ceci et cela. »
+
+195
+0:09:59.76,000 --> 0:10:02,000
+Il y a plein de choses que vous ne voulez pas qu'un robot fasse.
+
+196
+0:10:02.841,000 --> 0:10:03,000
+Mais cela ne fonctionne pas ainsi.
+
+197
+0:10:04.676,000 --> 0:10:06,000
+Votre mauvais comportement
+
+198
+0:10:06.815,000 --> 0:10:08,000
+ne va pas inciter le robot à vous copier.
+
+199
+0:10:09.538,000 --> 0:10:12,000
+Il va comprendre vos motivations et peut-être vous aider à résister,
+
+200
+0:10:13.436,000 --> 0:10:14,000
+le cas échéant.
+
+201
+0:10:16.026,000 --> 0:10:17,000
+Mais ça restera difficile.
+
+202
+0:10:18.122,000 --> 0:10:2,000
+Ce que nous essayons de faire, en fait, c'est de permettre
+
+203
+0:10:20.857,000 --> 0:10:23,000
+aux machines de se demander, pour toute personne et
+
+204
+0:10:24.291,000 --> 0:10:27,000
+pour toute vie qu'ils pourraient vivre
+
+205
+0:10:27.696,000 --> 0:10:28,000
+et les vies de tous les autres :
+
+206
+0:10:29.317,000 --> 0:10:31,000
+« Laquelle préfèreraient-ils ? »
+
+207
+0:10:33.881,000 --> 0:10:35,000
+Et cela engendre beaucoup, beaucoup de difficultés.
+
+208
+0:10:36.739,000 --> 0:10:39,000
+Je ne m'attends pas à ce que nous résolvions cela très rapidement.
+
+209
+0:10:39.905,000 --> 0:10:41,000
+Le vrai problème, en fait, c'est nous.
+
+210
+0:10:43.969,000 --> 0:10:46,000
+Comme je l'ai déjà mentionné, nous nous comportons mal.
+
+211
+0:10:47.11,000 --> 0:10:49,000
+Certains d'entre nous sont même foncièrement méchants.
+
+212
+0:10:50.251,000 --> 0:10:53,000
+Le robot, comme je l'ai dit, n'est pas obligé de copier ce comportement.
+
+213
+0:10:53.867,000 --> 0:10:55,000
+Il n'a aucun objectif propre.
+
+214
+0:10:56.142,000 --> 0:10:57,000
+Il est purement altruiste.
+
+215
+0:10:59.113,000 --> 0:11:04,000
+Il ne doit pas uniquement satisfaire les désirs d'une personne, l'utilisateur,
+
+216
+0:11:04.358,000 --> 0:11:07,000
+mais, en fait, il doit respecter les préférences de tous.
+
+217
+0:11:09.083,000 --> 0:11:11,000
+Il peut donc faire face à une certaine négligence.
+
+218
+0:11:11.677,000 --> 0:11:14,000
+Il peut même comprendre votre malveillance, par exemple,
+
+219
+0:11:15.402,000 --> 0:11:18,000
+si vous acceptez des pots-de-vin en tant que préposé aux passeports
+
+220
+0:11:18.597,000 --> 0:11:2,000
+afin de nourrir votre famille et envoyer vos enfants à l'école.
+
+221
+0:11:21.583,000 --> 0:11:24,000
+Il peut comprendre cela, ce qui ne signifie pas qu'il va se mettre à voler.
+
+222
+0:11:25.109,000 --> 0:11:27,000
+En fait, il vous aidera à envoyer vos enfants à l'école.
+
+223
+0:11:28.796,000 --> 0:11:31,000
+Nous sommes limités par la puissance de calcul.
+
+224
+0:11:31.832,000 --> 0:11:33,000
+Lee Sedol est un brillant joueur de go,
+
+225
+0:11:34.361,000 --> 0:11:35,000
+mais il a quand même perdu.
+
+226
+0:11:35.71,000 --> 0:11:39,000
+Si on regarde ses actions, il a pris une décision qui lui a coûté le match.
+
+227
+0:11:39.973,000 --> 0:11:41,000
+Ça ne veut pas dire qu'il voulait perdre.
+
+228
+0:11:43.16,000 --> 0:11:45,000
+Pour comprendre son comportement,
+
+229
+0:11:45.224,000 --> 0:11:48,000
+nous devons l'observer à travers un modèle de cognition humaine
+
+230
+0:11:48.892,000 --> 0:11:52,000
+qui inclut nos limites en calcul. Un modèle très compliqué.
+
+231
+0:11:53.893,000 --> 0:11:55,000
+Ça demande un effort, mais nous pouvons le comprendre.
+
+232
+0:11:57.696,000 --> 0:12:01,000
+Ce qui est le plus difficile, de mon point de vue de chercheur en IA,
+
+233
+0:12:02.04,000 --> 0:12:04,000
+c'est le fait que nous sommes si nombreux.
+
+234
+0:12:06.114,000 --> 0:12:09,000
+La machine doit faire des choix, évaluer les préférences
+
+235
+0:12:09.719,000 --> 0:12:11,000
+d'un grand nombre de personnes différentes
+
+236
+0:12:11.948,000 --> 0:12:13,000
+et il existe différentes façons de le faire.
+
+237
+0:12:14.144,000 --> 0:12:17,000
+Les économistes, les sociologues, les philosophes l'ont bien compris
+
+238
+0:12:17.611,000 --> 0:12:19,000
+et nous cherchons activement leur collaboration.
+
+239
+0:12:20.09,000 --> 0:12:23,000
+Voyons ce qui se passe lorsque vous avez un problème.
+
+240
+0:12:23.365,000 --> 0:12:25,000
+Vous pouvez discuter, par exemple,
+
+241
+0:12:25.452,000 --> 0:12:27,000
+avec votre assistant personnel intelligent
+
+242
+0:12:27.47,000 --> 0:12:29,000
+qui pourrait être disponible dans quelques années.
+
+243
+0:12:29.805,000 --> 0:12:31,000
+Pensez à un Siri sous stéroïdes.
+
+244
+0:12:33.447,000 --> 0:12:37,000
+Siri dit : « Votre femme a appelé pour vous rappeler le dîner de ce soir. »
+
+245
+0:12:38.436,000 --> 0:12:4,000
+Bien sûr, vous aviez oublié. « Quoi ? Quel dîner ?
+
+246
+0:12:40.968,000 --> 0:12:41,000
+De quoi me parles-tu ? »
+
+247
+0:12:42.417,000 --> 0:12:45,000
+« Euh, votre 20ème anniversaire à 19h00. »
+
+248
+0:12:48.735,000 --> 0:12:51,000
+« Je ne peux pas. J'ai une réunion avec le secrétaire général à 19h30.
+
+249
+0:12:52.478,000 --> 0:12:53,000
+Comment cela a-t-il pu arriver ? »
+
+250
+0:12:54.194,000 --> 0:12:58,000
+« Eh bien, je vous ai prévenu, mais vous avez ignoré mon avertissement. »
+
+251
+0:12:59.966,000 --> 0:13:02,000
+« Qu'est-ce que je vais faire ? Je ne peux pas lui dire que je suis occupé. »
+
+252
+0:13:04.11,000 --> 0:13:07,000
+« Ne vous inquiétez pas. J'ai fait en sorte que son avion ait du retard. »
+
+253
+0:13:07.681,000 --> 0:13:08,000
+(Rires)
+
+254
+0:13:10.069,000 --> 0:13:12,000
+« Une sorte de bug de l'ordinateur. »
+
+255
+0:13:12.194,000 --> 0:13:13,000
+(Rires)
+
+256
+0:13:13.43,000 --> 0:13:14,000
+« Vraiment ? Tu peux faire ça ? »
+
+257
+0:13:16.22,000 --> 0:13:18,000
+« Il vous présente ses excuses
+
+258
+0:13:18.423,000 --> 0:13:2,000
+et voudrait vous rencontrer demain pour le déjeuner. »
+
+259
+0:13:21.002,000 --> 0:13:22,000
+(Rires)
+
+260
+0:13:22.325,000 --> 0:13:26,000
+Donc là... Il y a une légère erreur.
+
+261
+0:13:26.752,000 --> 0:13:29,000
+Ce scénario suit clairement la philosophie de ma femme.
+
+262
+0:13:29.785,000 --> 0:13:31,000
+qui est : « femme heureuse, vie heureuse. »
+
+263
+0:13:31.878,000 --> 0:13:32,000
+(Rires)
+
+264
+0:13:33.485,000 --> 0:13:34,000
+Mais ça pourrait aussi aller autrement.
+
+265
+0:13:35.641,000 --> 0:13:37,000
+Vous pourriez rentrer après une dure journée
+
+266
+0:13:37.866,000 --> 0:13:39,000
+et l'ordinateur vous dit : « Dure journée ? »
+
+267
+0:13:40.085,000 --> 0:13:42,000
+« Oui, je n'ai même pas eu le temps de manger. »
+
+268
+0:13:42.397,000 --> 0:13:43,000
+« Tu dois avoir faim. »
+
+269
+0:13:43.703,000 --> 0:13:45,000
+« Oui, très faim. Tu peux me faire à dîner ? »
+
+270
+0:13:47.89,000 --> 0:13:49,000
+« Je dois te dire quelque chose. »
+
+271
+0:13:50.004,000 --> 0:13:51,000
+(Rires)
+
+272
+0:13:52.013,000 --> 0:13:56,000
+« Il y a des gens au Soudan du Sud qui ont bien plus besoin de nourriture que toi. »
+
+273
+0:13:56.942,000 --> 0:13:57,000
+(Rires)
+
+274
+0:13:58.07,000 --> 0:14:,000
+« Je te quitte. Fais-toi à dîner toi-même. »
+
+275
+0:14:00.169,000 --> 0:14:02,000
+(Rires)
+
+276
+0:14:02.643,000 --> 0:14:03,000
+Nous devons résoudre ces problèmes
+
+277
+0:14:04.406,000 --> 0:14:06,000
+et je suis impatient de travailler là-dessus.
+
+278
+0:14:06.865,000 --> 0:14:07,000
+Nous avons des raisons d'être optimistes.
+
+279
+0:14:08.812,000 --> 0:14:09,000
+La première, c'est que
+
+280
+0:14:09.995,000 --> 0:14:1,000
+nous disposons d'une masse de données.
+
+281
+0:14:11.887,000 --> 0:14:13,000
+Parce que, souvenez-vous, j'ai dit que l'IA va lire tout
+
+282
+0:14:14.705,000 --> 0:14:15,000
+ce que l'homme a jamais écrit.
+
+283
+0:14:16.265,000 --> 0:14:18,000
+La plupart du temps, nous écrivons sur ce que les humains font
+
+284
+0:14:19.169,000 --> 0:14:2,000
+et sur les gens que ça contrarie.
+
+285
+0:14:20.961,000 --> 0:14:22,000
+Alors il y a une masse de données dans laquelle puiser.
+
+286
+0:14:23.539,000 --> 0:14:25,000
+Il y a également une très forte incitation économique à cela.
+
+287
+0:14:27.151,000 --> 0:14:28,000
+Donc,
+
+288
+0:14:28.361,000 --> 0:14:29,000
+imaginez votre robot domestique.
+
+289
+0:14:30.336,000 --> 0:14:33,000
+Vous êtes en retard au travail et le robot doit nourrir les enfants,
+
+290
+0:14:33.523,000 --> 0:14:35,000
+les enfants ont faim et il n'y a rien dans le réfrigérateur.
+
+291
+0:14:36.33,000 --> 0:14:38,000
+Le robot voit le chat.
+
+292
+0:14:38.953,000 --> 0:14:39,000
+(Rires)
+
+293
+0:14:40.669,000 --> 0:14:44,000
+Le robot n'a pas bien appris les valeurs humaines,
+
+294
+0:14:44.883,000 --> 0:14:45,000
+donc il ne comprend pas
+
+295
+0:14:46.158,000 --> 0:14:5,000
+que la valeur sentimentale du chat l'emporte sur sa valeur nutritionnelle.
+
+296
+0:14:51.026,000 --> 0:14:52,000
+(Rires)
+
+297
+0:14:52.145,000 --> 0:14:53,000
+Que se passe-t-il ?
+
+298
+0:14:53.917,000 --> 0:14:56,000
+Eh bien, que se passe-t-il ?
+
+299
+0:14:57.238,000 --> 0:14:59,000
+« Le robot fou cuisine le chat de la famille pour le dîner. »
+
+300
+0:15:00.226,000 --> 0:15:04,000
+Cet incident sonnerait la fin de l'industrie du robot domestique.
+
+301
+0:15:04.773,000 --> 0:15:07,000
+Il y a donc une incitation énorme à régler cela
+
+302
+0:15:08.169,000 --> 0:15:11,000
+bien avant que nous n'arrivions aux machines supra-intelligentes.
+
+303
+0:15:11.948,000 --> 0:15:12,000
+Pour résumer.
+
+304
+0:15:13.507,000 --> 0:15:15,000
+J'essaie de modifier la définition de l'IA
+
+305
+0:15:16.412,000 --> 0:15:18,000
+afin que nous ayons des machines irréfutablement bénéfiques.
+
+306
+0:15:19.429,000 --> 0:15:2,000
+Les principes sont :
+
+307
+0:15:20.675,000 --> 0:15:21,000
+des machines altruistes,
+
+308
+0:15:22.097,000 --> 0:15:24,000
+ne cherchant qu'à atteindre nos objectifs,
+
+309
+0:15:24.925,000 --> 0:15:27,000
+mais ayant une incertitude quant à ces objectifs
+
+310
+0:15:28.065,000 --> 0:15:29,000
+et qui nous observerons
+
+311
+0:15:30.087,000 --> 0:15:33,000
+afin d'en savoir plus sur ce que nous voulons vraiment.
+
+312
+0:15:34.193,000 --> 0:15:37,000
+J'espère que dans le processus, nous apprendrons aussi à devenir meilleurs.
+
+313
+0:15:37.776,000 --> 0:15:38,000
+Merci beaucoup.
+
+314
+0:15:38.991,000 --> 0:15:41,000
+(Applaudissements)
+
+315
+0:15:42.544,000 --> 0:15:44,000
+Chris Anderson : Très intéressant, Stuart.
+
+316
+0:15:44.616,000 --> 0:15:47,000
+Nous allons rester un peu ici, car je crois qu'ils préparent
+
+317
+0:15:47.74,000 --> 0:15:48,000
+la prochaine intervention.
+
+318
+0:15:49.001,000 --> 0:15:5,000
+Plusieurs questions.
+
+319
+0:15:50.547,000 --> 0:15:55,000
+L'idée d'une programmation limitée semble intuitivement très puissante.
+
+320
+0:15:56.024,000 --> 0:15:58,000
+En se rapprochant de la supra-intelligence,
+
+321
+0:15:58.028,000 --> 0:15:59,000
+qu'est-ce qui empêchera un robot
+
+322
+0:15:59.924,000 --> 0:16:02,000
+de lire la littérature et de découvrir cette notion que la connaissance
+
+323
+0:16:03.256,000 --> 0:16:04,000
+est en fait supérieure à l'ignorance
+
+324
+0:16:04.992,000 --> 0:16:07,000
+et de changer ses propres objectifs en réécrivant cette programmation ?
+
+325
+0:16:09.512,000 --> 0:16:15,000
+Stuart Russell : Oui, nous voulons qu'il en apprenne davantage, comme je l'ai dit,
+
+326
+0:16:15.892,000 --> 0:16:16,000
+à propos de nos objectifs.
+
+327
+0:16:17.203,000 --> 0:16:22,000
+Il gagnera en confiance avec l'expérience,
+
+328
+0:16:22.748,000 --> 0:16:23,000
+la preuve est là,
+
+329
+0:16:24.717,000 --> 0:16:26,000
+et il sera conçu pour interpréter correctement nos objectifs.
+
+330
+0:16:27.611,000 --> 0:16:3,000
+Il comprendra, par exemple, que les livres sont très biaisés
+
+331
+0:16:31.445,000 --> 0:16:32,000
+en fonction de leur contenu.
+
+332
+0:16:32.952,000 --> 0:16:34,000
+Ils ne parlent que de rois et de princes
+
+333
+0:16:35.373,000 --> 0:16:37,000
+et des choses que fait l'élite blanche.
+
+334
+0:16:38.197,000 --> 0:16:4,000
+C'est donc un problème complexe,
+
+335
+0:16:40.317,000 --> 0:16:43,000
+mais comme il en apprend plus sur nos objectifs,
+
+336
+0:16:44.213,000 --> 0:16:45,000
+il nous sera de plus en plus utile.
+
+337
+0:16:46.12,000 --> 0:16:48,000
+CA : Et vous ne pourriez pas résumer cela en une seule loi,
+
+338
+0:16:49.026,000 --> 0:16:5,000
+vous savez, une ligne de code :
+
+339
+0:16:50.524,000 --> 0:16:53,000
+« Si un humain essaie de me débrancher,
+
+340
+0:16:53.841,000 --> 0:16:54,000
+je coopère, je coopère. »
+
+341
+0:16:55.8,000 --> 0:16:56,000
+SR : Impossible.
+
+342
+0:16:57.006,000 --> 0:16:58,000
+Ce serait une mauvaise idée.
+
+343
+0:16:58.529,000 --> 0:17:,000
+Imaginez que vous ayez une voiture sans chauffeur
+
+344
+0:17:01.242,000 --> 0:17:03,000
+et vous souhaitez envoyer votre enfant de cinq ans
+
+345
+0:17:03.699,000 --> 0:17:04,000
+à la maternelle.
+
+346
+0:17:04.887,000 --> 0:17:07,000
+Voulez-vous que votre enfant de cinq ans puisse éteindre la voiture
+
+347
+0:17:08.028,000 --> 0:17:09,000
+alors qu'elle roule ?
+
+348
+0:17:09.259,000 --> 0:17:1,000
+Probablement pas.
+
+349
+0:17:10.442,000 --> 0:17:14,000
+Alors l'IA doit pouvoir évaluer si la personne est rationnelle et raisonnable.
+
+350
+0:17:15.169,000 --> 0:17:16,000
+Plus la personne est rationnelle,
+
+351
+0:17:16.869,000 --> 0:17:18,000
+plus elle devrait avoir de contrôle.
+
+352
+0:17:18.996,000 --> 0:17:2,000
+Si la personne est incohérente ou même malveillante,
+
+353
+0:17:21.563,000 --> 0:17:23,000
+alors elle devrait avoir un contrôle plus limité.
+
+354
+0:17:24.089,000 --> 0:17:25,000
+CA : Très bien. Stuart,
+
+355
+0:17:25.949,000 --> 0:17:27,000
+j'espère que vous allez régler cela pour nous.
+
+356
+0:17:28.343,000 --> 0:17:3,000
+Merci beaucoup pour cette présentation. C'était incroyable.
+
+357
+0:17:31.262,000 --> 0:17:31,000
+SR : Merci.
+
+358
+0:17:32.093,000 --> 0:17:33,000
+(Applaudissements)
+

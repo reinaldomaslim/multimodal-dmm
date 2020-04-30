@@ -1,0 +1,1856 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lidia Cámara de la Fuente Revisor: Ciro Gomez
+
+2
+0:00:12.535,000 --> 0:00:15,000
+Soy profesora de ciencias de la computación e ingeniería aquí en Carnegie Mellon,
+
+3
+0:00:15.98,000 --> 0:00:19,000
+y mi investigación se centra en la privacidad y seguridad utilizable,
+
+4
+0:00:20.228,000 --> 0:00:22,000
+y por ello, a mis amigos les gusta darme ejemplos
+
+5
+0:00:22.996,000 --> 0:00:24,000
+de sus frustraciones con los sistemas informáticos,
+
+6
+0:00:25.198,000 --> 0:00:28,000
+especialmente de frustraciones relacionados con
+
+7
+0:00:28.552,000 --> 0:00:32,000
+la privacidad y la seguridad inutilizable.
+
+8
+0:00:32.664,000 --> 0:00:34,000
+Así que he oído mucho sobre contraseñas.
+
+9
+0:00:35.375,000 --> 0:00:37,000
+Muchas personas se sienten frustradas con las contraseñas,
+
+10
+0:00:38.255,000 --> 0:00:39,000
+y es bastante lamentable
+
+11
+0:00:39.949,000 --> 0:00:41,000
+cuando uno debe tener una contraseña muy buena
+
+12
+0:00:42.593,000 --> 0:00:43,000
+que pueda recordar
+
+13
+0:00:44.415,000 --> 0:00:46,000
+pero que nadie pueda adivinar.
+
+14
+0:00:47.309,000 --> 0:00:48,000
+Pero ¿qué hacer cuando se tienen cuentas
+
+15
+0:00:48.946,000 --> 0:00:49,000
+en un centenar de diferentes sistemas
+
+16
+0:00:50.754,000 --> 0:00:52,000
+y que a su vez se supone que deben ser contraseñas únicas
+
+17
+0:00:53.03,000 --> 0:00:56,000
+para cada uno de estos sistemas?
+
+18
+0:00:56.067,000 --> 0:00:58,000
+Es complejo.
+
+19
+0:00:58.251,000 --> 0:00:59,000
+En Carnegie Mellon solían hacerlo
+
+20
+0:01:00.01,000 --> 0:01:01,000
+bastante fácil
+
+21
+0:01:01.309,000 --> 0:01:02,000
+para que recordáramos nuestras contraseñas.
+
+22
+0:01:03.046,000 --> 0:01:05,000
+El requisito hasta el 2009 para las contraseñas era
+
+23
+0:01:05.449,000 --> 0:01:07,000
+que estas tuvieran
+
+24
+0:01:07.828,000 --> 0:01:09,000
+al menos un carácter.
+
+25
+0:01:10.039,000 --> 0:01:12,000
+Bastante fácil. Pero luego cambiaron las cosas,
+
+26
+0:01:12.927,000 --> 0:01:14,000
+y al final del 2009 se anunció
+
+27
+0:01:15.597,000 --> 0:01:17,000
+que íbamos a tener una nueva política,
+
+28
+0:01:17.973,000 --> 0:01:18,000
+y esta nueva política precisaba
+
+29
+0:01:19.836,000 --> 0:01:21,000
+contraseñas que tuvieran al menos 8 caracteres,
+
+30
+0:01:22.517,000 --> 0:01:23,000
+con una letra mayúscula, letra minúscula,
+
+31
+0:01:24.292,000 --> 0:01:25,000
+un dígito y un símbolo.
+
+32
+0:01:25.58,000 --> 0:01:27,000
+No se podía utilizar el mismo carácter más de tres veces,
+
+33
+0:01:28.218,000 --> 0:01:3,000
+y no podía aparecer en un diccionario.
+
+34
+0:01:30.652,000 --> 0:01:32,000
+Cuando implementaron esta nueva política,
+
+35
+0:01:32.834,000 --> 0:01:34,000
+muchos de mis colegas y amigos,
+
+36
+0:01:35.144,000 --> 0:01:36,000
+me vinieron para decirme:
+
+37
+0:01:36.998,000 --> 0:01:37,000
+"Ahora sí que es realmente inservible.
+
+38
+0:01:38.51,000 --> 0:01:39,000
+¿Por qué nos hacen esto
+
+39
+0:01:39.703,000 --> 0:01:4,000
+y por qué no los detuviste?"
+
+40
+0:01:41.414,000 --> 0:01:42,000
+Y yo dije: "¿Saben qué?
+
+41
+0:01:42.77,000 --> 0:01:43,000
+Nadie me preguntó".
+
+42
+0:01:44.278,000 --> 0:01:47,000
+Pero me picó la curiosidad y decidí ir a hablar
+
+43
+0:01:47.743,000 --> 0:01:48,000
+con las personas a cargo de nuestros sistemas informáticos
+
+44
+0:01:49.68,000 --> 0:01:51,000
+y averiguar qué les llevó a introducir
+
+45
+0:01:52.511,000 --> 0:01:53,000
+esta nueva política.
+
+46
+0:01:54.359,000 --> 0:01:55,000
+Y dijeron que la universidad
+
+47
+0:01:55.943,000 --> 0:01:57,000
+se había unido a un consorcio de universidades,
+
+48
+0:01:58.309,000 --> 0:02:,000
+y uno de los requisitos de membresía
+
+49
+0:02:00.943,000 --> 0:02:02,000
+era que debíamos tener contraseñas más seguras
+
+50
+0:02:03.191,000 --> 0:02:05,000
+que cumpliesen algunos nuevos requisitos,
+
+51
+0:02:05.463,000 --> 0:02:07,000
+y estos requisitos eran que nuestras contraseñas
+
+52
+0:02:07.567,000 --> 0:02:08,000
+tenía que tener una gran cantidad de entropía.
+
+53
+0:02:09.171,000 --> 0:02:11,000
+La entropía es un término complicado,
+
+54
+0:02:11.449,000 --> 0:02:13,000
+pero básicamente mide la fuerza de las contraseñas.
+
+55
+0:02:14.247,000 --> 0:02:15,000
+Pero el tema es que eso no es en realidad
+
+56
+0:02:16.226,000 --> 0:02:17,000
+una medida estándar de entropía.
+
+57
+0:02:18.175,000 --> 0:02:2,000
+El Instituto Nacional de Estándares y Tecnología
+
+58
+0:02:20.574,000 --> 0:02:21,000
+tiene un conjunto de directrices
+
+59
+0:02:22.127,000 --> 0:02:24,000
+con algunas reglas básicas
+
+60
+0:02:24.695,000 --> 0:02:25,000
+para medir la entropía,
+
+61
+0:02:26.135,000 --> 0:02:28,000
+pero no tienen nada muy específico,
+
+62
+0:02:29.03,000 --> 0:02:31,000
+y la razón por la que solo tiene reglas básicas
+
+63
+0:02:31.367,000 --> 0:02:34,000
+es porque en realidad no tienen buena información
+
+64
+0:02:34.503,000 --> 0:02:35,000
+sobre contraseñas.
+
+65
+0:02:36.023,000 --> 0:02:38,000
+De hecho, su informe señala,
+
+66
+0:02:38.335,000 --> 0:02:4,000
+"Desafortunadamente, no tenemos mucha información
+
+67
+0:02:40.663,000 --> 0:02:42,000
+sobre las contraseñas que los usuarios eligen bajo reglas particulares.
+
+68
+0:02:43.505,000 --> 0:02:45,000
+Al Instituto de estándares y tecnología (NIST) le gustaría obtener más datos
+
+69
+0:02:45.838,000 --> 0:02:47,000
+sobre las contraseñas escogidas por los usuarios,
+
+70
+0:02:48.3,000 --> 0:02:5,000
+pero los administradores de sistemas son comprensiblemente reacios
+
+71
+0:02:50.763,000 --> 0:02:52,000
+a revelar datos de las contraseñas a externos".
+
+72
+0:02:53.703,000 --> 0:02:56,000
+Esto es un problema, pero nuestro grupo de investigación
+
+73
+0:02:56.8,000 --> 0:02:58,000
+lo vio como una oportunidad.
+
+74
+0:02:58.94,000 --> 0:03:01,000
+Dijimos: "Hay una necesidad de tener buenos datos sobre contraseñas.
+
+75
+0:03:02.04,000 --> 0:03:04,000
+Tal vez podamos recoger algunos buenos datos sobre contraseñas
+
+76
+0:03:04.188,000 --> 0:03:06,000
+y de hecho avanzar el estado actual aquí".
+
+77
+0:03:06.892,000 --> 0:03:07,000
+Así que lo primero que hicimos fue
+
+78
+0:03:08.564,000 --> 0:03:09,000
+ir con una bolsa de caramelos
+
+79
+0:03:10.12,000 --> 0:03:11,000
+a dar una vuelta por el campus
+
+80
+0:03:11.206,000 --> 0:03:13,000
+para hablar con los estudiantes, profesores y personal,
+
+81
+0:03:14.004,000 --> 0:03:15,000
+y pedirles información
+
+82
+0:03:15.534,000 --> 0:03:16,000
+sobre sus contraseñas.
+
+83
+0:03:17.086,000 --> 0:03:2,000
+No les decíamos: "Danos tu contraseña".
+
+84
+0:03:20.09,000 --> 0:03:22,000
+Solo les preguntamos acerca de su contraseña.
+
+85
+0:03:22.751,000 --> 0:03:23,000
+¿Cuánto tiempo hace que la tienes? ¿Tiene algún dígito?
+
+86
+0:03:24.229,000 --> 0:03:25,000
+¿Tiene un símbolo?
+
+87
+0:03:25.297,000 --> 0:03:27,000
+Y ¿te molestó tener que crear
+
+88
+0:03:27.342,000 --> 0:03:29,000
+una nueva la semana pasada?
+
+89
+0:03:30.086,000 --> 0:03:33,000
+Así que obtuvimos resultados de 470 estudiantes,
+
+90
+0:03:33.292,000 --> 0:03:33,000
+personal docente y administrativo,
+
+91
+0:03:34.263,000 --> 0:03:36,000
+y de hecho se confirmó que la nueva política
+
+92
+0:03:36.777,000 --> 0:03:37,000
+era muy molesta.
+
+93
+0:03:38.23,000 --> 0:03:39,000
+No obstante, también averiguamos que
+
+94
+0:03:40.022,000 --> 0:03:43,000
+se sentían más seguros con estas nuevas contraseñas.
+
+95
+0:03:43.152,000 --> 0:03:45,000
+Averiguamos que la mayoría de la gente sabía
+
+96
+0:03:45.458,000 --> 0:03:47,000
+que se suponía que no debía anotar su contraseña,
+
+97
+0:03:47.61,000 --> 0:03:49,000
+y solo el 13 % lo hizo,
+
+98
+0:03:50.001,000 --> 0:03:52,000
+pero desconcertantemente, el 80 %
+
+99
+0:03:52.417,000 --> 0:03:54,000
+dijo que reutilizaban su contraseña.
+
+100
+0:03:54.541,000 --> 0:03:55,000
+Ahora, esto es en realidad más peligroso
+
+101
+0:03:56.337,000 --> 0:03:58,000
+que anotar la contraseña,
+
+102
+0:03:58.359,000 --> 0:04:01,000
+porque nos hace mucho más vulnerables a los atacantes.
+
+103
+0:04:01.92,000 --> 0:04:04,000
+Así que si tienen que hacerlo, anoten sus contraseñas,
+
+104
+0:04:05.038,000 --> 0:04:06,000
+pero no la reutilicen.
+
+105
+0:04:06.837,000 --> 0:04:07,000
+También averiguamos algunas cosas interesantes
+
+106
+0:04:08.588,000 --> 0:04:1,000
+acerca de los símbolos que las personas utilizan en las contraseñas.
+
+107
+0:04:11.549,000 --> 0:04:13,000
+Así CMU permite 32 posibles símbolos,
+
+108
+0:04:14.348,000 --> 0:04:16,000
+pero como pueden ver, solo hay un pequeño número
+
+109
+0:04:16.781,000 --> 0:04:17,000
+que la mayoría de la gente utiliza,
+
+110
+0:04:18.583,000 --> 0:04:2,000
+así que no estamos consiguiendo realmente mucha seguridad
+
+111
+0:04:21.524,000 --> 0:04:23,000
+con los símbolos en nuestras contraseñas.
+
+112
+0:04:23.99,000 --> 0:04:25,000
+Así que fue un estudio muy interesante,
+
+113
+0:04:26.701,000 --> 0:04:28,000
+y ahora teníamos los datos de 470 personas,
+
+114
+0:04:29.165,000 --> 0:04:3,000
+pero en la situación actual
+
+115
+0:04:30.47,000 --> 0:04:32,000
+esos no son realmente muchos datos de contraseñas,
+
+116
+0:04:33.05,000 --> 0:04:34,000
+y así miramos a nuestro alrededor para ver
+
+117
+0:04:34.495,000 --> 0:04:36,000
+dónde podríamos encontrar datos adicionales de contraseñas.
+
+118
+0:04:37.055,000 --> 0:04:39,000
+Resulta que hay mucha gente
+
+119
+0:04:39.231,000 --> 0:04:41,000
+por ahí robando contraseñas
+
+120
+0:04:41.433,000 --> 0:04:43,000
+y a menudo las publican
+
+121
+0:04:43.91,000 --> 0:04:44,000
+en Internet.
+
+122
+0:04:45.247,000 --> 0:04:46,000
+Así que pudimos obtener acceso
+
+123
+0:04:46.92,000 --> 0:04:49,000
+a algunos de estos conjuntos de contraseñas robadas.
+
+124
+0:04:50.89,000 --> 0:04:52,000
+Sin embargo, esto todavía no es realmente ideal para una investigación,
+
+125
+0:04:53.218,000 --> 0:04:55,000
+porque no es del todo claro
+
+126
+0:04:55.255,000 --> 0:04:57,000
+de dónde proceden todas estas contraseñas,
+
+127
+0:04:57.439,000 --> 0:04:59,000
+o qué políticas concretas estaban en efecto
+
+128
+0:04:59.681,000 --> 0:05:01,000
+cuando las personas crearon esas contraseñas.
+
+129
+0:05:01.789,000 --> 0:05:04,000
+Así es que queríamos encontrar una mejor fuente de datos.
+
+130
+0:05:05.341,000 --> 0:05:06,000
+Decidimos qué una cosa que podríamos hacer
+
+131
+0:05:06.975,000 --> 0:05:08,000
+era hacer un estudio y que la gente
+
+132
+0:05:09.104,000 --> 0:05:12,000
+realmente creara contraseñas para nuestro estudio.
+
+133
+0:05:12.344,000 --> 0:05:14,000
+Así que usamos un servicio llamado Amazon Mechanical Turk,
+
+134
+0:05:15.165,000 --> 0:05:17,000
+que es un servicio para enviar
+
+135
+0:05:17.499,000 --> 0:05:19,000
+un pequeña tarea que lleva un minuto,
+
+136
+0:05:19.803,000 --> 0:05:2,000
+unos minutos, una hora,
+
+137
+0:05:21.303,000 --> 0:05:23,000
+y paga a la gente un centavo, diez centavos, unos dólares
+
+138
+0:05:23.887,000 --> 0:05:24,000
+por hacer la tarea por Ud.,
+
+139
+0:05:25.233,000 --> 0:05:27,000
+y después se les paga a través de Amazon.com.
+
+140
+0:05:27.355,000 --> 0:05:29,000
+Así que pagamos a la gente unos 50 centavos
+
+141
+0:05:29.649,000 --> 0:05:31,000
+por crear una contraseña siguiendo nuestras reglas
+
+142
+0:05:32.245,000 --> 0:05:33,000
+y por responder una encuesta,
+
+143
+0:05:33.655,000 --> 0:05:35,000
+y luego les pagamos de nuevo para volver
+
+144
+0:05:36.18,000 --> 0:05:38,000
+dos días más tarde y abrir una sesión
+
+145
+0:05:38.251,000 --> 0:05:4,000
+usando su contraseña y contestar otra encuesta.
+
+146
+0:05:40.825,000 --> 0:05:44,000
+Haciendo esto, hemos recogido 5000 contraseñas,
+
+147
+0:05:45.289,000 --> 0:05:47,000
+y dimos a la gente una serie de diferentes políticas
+
+148
+0:05:47.984,000 --> 0:05:48,000
+para crear contraseñas.
+
+149
+0:05:49.492,000 --> 0:05:5,000
+Algunas personas debían aplicar una política bastante fácil,
+
+150
+0:05:51.402,000 --> 0:05:52,000
+la llamamos Basic8,
+
+151
+0:05:52.941,000 --> 0:05:54,000
+y ahí la única regla es que la contraseña
+
+152
+0:05:55.087,000 --> 0:05:58,000
+debía tener al menos ocho caracteres.
+
+153
+0:05:58.503,000 --> 0:06:,000
+Otras personas tenían que aplicar una política mucho más dura,
+
+154
+0:06:00.754,000 --> 0:06:02,000
+y esto era muy similar a la política de CMU,
+
+155
+0:06:03.291,000 --> 0:06:04,000
+es decir, ocho caracteres
+
+156
+0:06:05.225,000 --> 0:06:07,000
+incluyendo mayúsculas, minúsculas, dígitos, símbolo,
+
+157
+0:06:07.601,000 --> 0:06:09,000
+y pasar una verificación de diccionario.
+
+158
+0:06:09.99,000 --> 0:06:1,000
+Y una de las otras políticas que probamos,
+
+159
+0:06:11.325,000 --> 0:06:12,000
+y había un montón más,
+
+160
+0:06:12.595,000 --> 0:06:14,000
+pero una de las que probamos fue la llamada Basic16,
+
+161
+0:06:14.835,000 --> 0:06:16,000
+y el único requisito aquí
+
+162
+0:06:17.467,000 --> 0:06:2,000
+era que la contraseña debía tener al menos 16 caracteres.
+
+163
+0:06:20.62,000 --> 0:06:22,000
+Muy bien, así que ahora teníamos 5000 contraseñas,
+
+164
+0:06:23.078,000 --> 0:06:26,000
+e información mucho más detallada.
+
+165
+0:06:26.641,000 --> 0:06:28,000
+Una vez más constatamos que la gente realmente solo usa
+
+166
+0:06:29.2,000 --> 0:06:3,000
+un pequeño número de símbolos
+
+167
+0:06:31.115,000 --> 0:06:32,000
+en sus contraseñas.
+
+168
+0:06:33.001,000 --> 0:06:35,000
+También queríamos tener una idea de cuánta seguridad
+
+169
+0:06:35.6,000 --> 0:06:37,000
+ofrecían las contraseñas que las personas creaban,
+
+170
+0:06:38.371,000 --> 0:06:4,000
+pero, como recordarán, no es una buena medida
+
+171
+0:06:40.991,000 --> 0:06:41,000
+de seguridad de la contraseña.
+
+172
+0:06:42.745,000 --> 0:06:44,000
+Así que decidimos ver
+
+173
+0:06:45.057,000 --> 0:06:47,000
+el tiempo que se tardaría en descifrar estas contraseñas
+
+174
+0:06:47.427,000 --> 0:06:48,000
+utilizando las mejores herramientas de descifrado
+
+175
+0:06:48.841,000 --> 0:06:49,000
+que usan los malos,
+
+176
+0:06:50.649,000 --> 0:06:52,000
+o averiguando información al respecto
+
+177
+0:06:52.665,000 --> 0:06:53,000
+en la literatura especializada.
+
+178
+0:06:54.202,000 --> 0:06:56,000
+Para que se hagan una idea de cómo los chicos malos
+
+179
+0:06:56.96,000 --> 0:06:58,000
+descifran contraseñas,
+
+180
+0:06:59.13,000 --> 0:07:,000
+ellos roban un archivo de contraseñas
+
+181
+0:07:01.081,000 --> 0:07:03,000
+donde están todas las contraseñas
+
+182
+0:07:03.234,000 --> 0:07:05,000
+en una especie de formulario codificado llamado hash,
+
+183
+0:07:06.123,000 --> 0:07:08,000
+y así lo que harán es una conjetura
+
+184
+0:07:08.685,000 --> 0:07:09,000
+acerca de lo que es una contraseña,
+
+185
+0:07:10.397,000 --> 0:07:11,000
+que se comparará con una función hash,
+
+186
+0:07:12.294,000 --> 0:07:13,000
+para ver si coincide con
+
+187
+0:07:14.059,000 --> 0:07:17,000
+las contraseñas de su lista de contraseñas robadas.
+
+188
+0:07:18.009,000 --> 0:07:21,000
+Así que un atacante tonto tratará todas las contraseñas en orden.
+
+189
+0:07:21.114,000 --> 0:07:24,000
+Empezarán con AAAAA y pasarán a AAAAB,
+
+190
+0:07:24.682,000 --> 0:07:26,000
+y esto tomará mucho tiempo
+
+191
+0:07:27.1,000 --> 0:07:28,000
+antes de encontrar las contraseñas
+
+192
+0:07:28.626,000 --> 0:07:3,000
+que las personas son propensas a tener.
+
+193
+0:07:31.323,000 --> 0:07:33,000
+Por otra parte, un atacante astuto,
+
+194
+0:07:33.506,000 --> 0:07:34,000
+hace algo mucho más inteligente.
+
+195
+0:07:34.892,000 --> 0:07:35,000
+Miran las contraseñas
+
+196
+0:07:36.718,000 --> 0:07:37,000
+que se saben que son populares
+
+197
+0:07:38.518,000 --> 0:07:39,000
+a partir de estos conjuntos de contraseñas robadas,
+
+198
+0:07:40.245,000 --> 0:07:41,000
+y las adivinan en primer lugar.
+
+199
+0:07:41.434,000 --> 0:07:43,000
+Así que empezaremos adivinando "contraseña"
+
+200
+0:07:43.568,000 --> 0:07:45,000
+y luego "Te amo" y "mono"
+
+201
+0:07:46.319,000 --> 0:07:48,000
+y "12345678",
+
+202
+0:07:48.902,000 --> 0:07:49,000
+porque estas son las contraseñas
+
+203
+0:07:50.214,000 --> 0:07:51,000
+que con mayor probabilidad tiene la gente.
+
+204
+0:07:52.119,000 --> 0:07:55,000
+De hecho, algunos de Uds. probablemente tienen estas contraseñas.
+
+205
+0:07:57.191,000 --> 0:07:58,000
+Así que lo que encontramos
+
+206
+0:07:58.489,000 --> 0:08:01,000
+mediante la ejecución de todas estas 5000 contraseñas recogidas
+
+207
+0:08:01.895,000 --> 0:08:05,000
+a través de estas pruebas para ver lo seguras que eran,
+
+208
+0:08:06.001,000 --> 0:08:08,000
+encontramos que las contraseñas largas
+
+209
+0:08:08.753,000 --> 0:08:09,000
+eran en realidad bastante seguras,
+
+210
+0:08:10.033,000 --> 0:08:13,000
+y las contraseñas complejas eran bastante seguras también.
+
+211
+0:08:13.295,000 --> 0:08:15,000
+Sin embargo, cuando nos fijamos en los datos del estudio,
+
+212
+0:08:15.737,000 --> 0:08:18,000
+vimos que la gente estaba realmente frustrada
+
+213
+0:08:18.761,000 --> 0:08:2,000
+por las contraseñas muy complejas,
+
+214
+0:08:21.1,000 --> 0:08:23,000
+y que las contraseñas largas eran mucho más usables,
+
+215
+0:08:23.73,000 --> 0:08:24,000
+y, en algunos casos, eran en realidad
+
+216
+0:08:25.055,000 --> 0:08:27,000
+incluso más seguras que las contraseñas complejas.
+
+217
+0:08:27.963,000 --> 0:08:28,000
+Así que esto sugiere que,
+
+218
+0:08:29.132,000 --> 0:08:3,000
+en lugar de decirle a la gente que necesitan
+
+219
+0:08:30.835,000 --> 0:08:31,000
+poner todos estos símbolos y números
+
+220
+0:08:32.357,000 --> 0:08:34,000
+y cosas locas en sus contraseñas,
+
+221
+0:08:35.199,000 --> 0:08:37,000
+podríamos mejorar simplemente diciendo a la gente
+
+222
+0:08:37.221,000 --> 0:08:39,000
+que tengan contraseñas largas.
+
+223
+0:08:39.873,000 --> 0:08:4,000
+Sin embargo, aquí hay el problema,
+
+224
+0:08:41.665,000 --> 0:08:43,000
+Algunas personas tenían contraseñas largas
+
+225
+0:08:43.92,000 --> 0:08:44,000
+que en realidad no eran muy seguras.
+
+226
+0:08:45.475,000 --> 0:08:46,000
+Pueden crear contraseñas largas
+
+227
+0:08:47.472,000 --> 0:08:48,000
+del tipo
+
+228
+0:08:49.028,000 --> 0:08:5,000
+que un atacante podría adivinar fácilmente.
+
+229
+0:08:50.77,000 --> 0:08:53,000
+Así que debemos añadir algo más a las contraseñas largas.
+
+230
+0:08:54.135,000 --> 0:08:55,000
+Deben existir requisitos adicionales,
+
+231
+0:08:56.071,000 --> 0:08:58,000
+y nuestra investigación en curso está mirando
+
+232
+0:08:59.04,000 --> 0:09:01,000
+qué requisitos adicionales hay que añadir
+
+233
+0:09:01.479,000 --> 0:09:03,000
+para crear contraseñas más seguras
+
+234
+0:09:03.583,000 --> 0:09:05,000
+que también sean fáciles para la gente
+
+235
+0:09:05.895,000 --> 0:09:07,000
+recordar y escribir.
+
+236
+0:09:08.593,000 --> 0:09:1,000
+Otra forma para lograr que las personas tengan
+
+237
+0:09:10.719,000 --> 0:09:12,000
+contraseñas más seguras es usar un medidor de contraseña.
+
+238
+0:09:12.976,000 --> 0:09:13,000
+Estos son algunos ejemplos:
+
+239
+0:09:14.361,000 --> 0:09:15,000
+Puede que los hayan visto en Internet
+
+240
+0:09:15.762,000 --> 0:09:18,000
+al crear sus contraseñas.
+
+241
+0:09:18.819,000 --> 0:09:2,000
+Decidimos hacer un estudio para averiguar
+
+242
+0:09:21.067,000 --> 0:09:23,000
+si estos medidores de contraseñas realmente funcionan.
+
+243
+0:09:23.954,000 --> 0:09:24,000
+¿Esto realmente ayuda a las personas
+
+244
+0:09:25.375,000 --> 0:09:26,000
+a tener contraseñas seguras?
+
+245
+0:09:26.828,000 --> 0:09:28,000
+Y si es así, ¿cuáles son mejores?
+
+246
+0:09:28.914,000 --> 0:09:3,000
+Así que probamos medidores de contraseñas
+
+247
+0:09:31.421,000 --> 0:09:33,000
+de diferentes tamaños, formas, colores,
+
+248
+0:09:33.519,000 --> 0:09:34,000
+diferentes palabras al lado,
+
+249
+0:09:34.935,000 --> 0:09:37,000
+y hasta probamos uno con era un conejito bailarín.
+
+250
+0:09:38.21,000 --> 0:09:39,000
+Al escribir una mejor contraseña,
+
+251
+0:09:39.792,000 --> 0:09:41,000
+el conejo baila cada vez más rápido.
+
+252
+0:09:42.331,000 --> 0:09:44,000
+Así que fue bastante divertido.
+
+253
+0:09:44.86,000 --> 0:09:45,000
+Lo que encontramos
+
+254
+0:09:46.427,000 --> 0:09:49,000
+fue que los medidores de contraseñas funcionan.
+
+255
+0:09:49.999,000 --> 0:09:5,000
+(Risas)
+
+256
+0:09:51.8,000 --> 0:09:54,000
+La mayoría de los medidores de contraseñas eran realmente eficaces,
+
+257
+0:09:55.133,000 --> 0:09:57,000
+y el conejo bailarín era muy eficaz también,
+
+258
+0:09:57.654,000 --> 0:09:59,000
+pero los medidores de contraseña más eficaces
+
+259
+0:10:00.535,000 --> 0:10:02,000
+fueron los que les hicieron trabajar más
+
+260
+0:10:02.89,000 --> 0:10:03,000
+antes de mostrar el pulgar alzado y decir
+
+261
+0:10:04.87,000 --> 0:10:05,000
+que estábamos haciendo un buen trabajo,
+
+262
+0:10:06.247,000 --> 0:10:07,000
+y de hecho encontramos que la mayoría
+
+263
+0:10:07.759,000 --> 0:10:09,000
+de los medidores de contraseña en Internet hoy
+
+264
+0:10:10.04,000 --> 0:10:1,000
+son demasiado permisivos.
+
+265
+0:10:10.992,000 --> 0:10:12,000
+Dicen que lo hacemos bien antes de tiempo,
+
+266
+0:10:13.195,000 --> 0:10:14,000
+y si solo esperaran un poco
+
+267
+0:10:15.124,000 --> 0:10:17,000
+antes de dar esa respuesta positiva,
+
+268
+0:10:17.173,000 --> 0:10:2,000
+Uds. probablemente tendrían mejores contraseñas.
+
+269
+0:10:20.333,000 --> 0:10:23,000
+Ahora, otro enfoque para mejorar las contraseñas, tal vez,
+
+270
+0:10:24.18,000 --> 0:10:26,000
+es usar frases de paso en lugar de contraseñas.
+
+271
+0:10:27.07,000 --> 0:10:3,000
+Este fue un dibujo animado xkcd de hace unos años,
+
+272
+0:10:30.488,000 --> 0:10:31,000
+y el dibujante sugiere
+
+273
+0:10:32.162,000 --> 0:10:34,000
+que todos debemos utilizar frases de paso,
+
+274
+0:10:34.358,000 --> 0:10:37,000
+y si nos fijamos en la segunda fila de esta caricatura,
+
+275
+0:10:37.528,000 --> 0:10:38,000
+se puede ver que el dibujante sugiere
+
+276
+0:10:39.385,000 --> 0:10:42,000
+que la frase "batería básica del caballo correcto"
+
+277
+0:10:42.826,000 --> 0:10:44,000
+sería una frase muy segura
+
+278
+0:10:45.307,000 --> 0:10:46,000
+y algo muy fácil de recordar.
+
+279
+0:10:47.223,000 --> 0:10:49,000
+Él dice que, de hecho, uno ya la recuerda.
+
+280
+0:10:50.02,000 --> 0:10:52,000
+Así que decidimos hacer un estudio
+
+281
+0:10:52.17,000 --> 0:10:54,000
+para averiguar si esto era cierto o no.
+
+282
+0:10:54.762,000 --> 0:10:55,000
+De hecho, a todos con los que hablo que
+
+283
+0:10:56.537,000 --> 0:10:58,000
+les menciono que estoy haciendo una investigación sobre contraseñas,
+
+284
+0:10:58.579,000 --> 0:10:59,000
+señalan esta caricatura.
+
+285
+0:10:59.979,000 --> 0:11:,000
+"¿Has visto esto? Ese xkcd.
+
+286
+0:11:01.553,000 --> 0:11:02,000
+Batería básica del caballo correcto".
+
+287
+0:11:03.155,000 --> 0:11:04,000
+Así que hicimos el estudio para ver
+
+288
+0:11:04.961,000 --> 0:11:06,000
+lo que realmente pasaría.
+
+289
+0:11:07.32,000 --> 0:11:1,000
+En nuestro estudio, hemos utilizado Mechanical Turk de nuevo,
+
+290
+0:11:10.38,000 --> 0:11:14,000
+e hicimos que la computadora recogiera palabras al azar
+
+291
+0:11:14.547,000 --> 0:11:15,000
+en la frase de paso.
+
+292
+0:11:15.647,000 --> 0:11:16,000
+Ahora, la razón para hacerlo
+
+293
+0:11:16.8,000 --> 0:11:17,000
+es que los humanos no son muy buenos
+
+294
+0:11:18.386,000 --> 0:11:19,000
+escogiendo palabras al azar.
+
+295
+0:11:19.77,000 --> 0:11:2,000
+Si pidiéramos a un humano hacerlo,
+
+296
+0:11:21.032,000 --> 0:11:23,000
+elegirían las cosas que no son muy arbitrarias.
+
+297
+0:11:24.03,000 --> 0:11:26,000
+Así que probamos algunas premisas diferentes.
+
+298
+0:11:26.062,000 --> 0:11:28,000
+Bajo una de las premisas la computadora escogió
+
+299
+0:11:28.152,000 --> 0:11:3,000
+de un diccionario de palabras muy comunes
+
+300
+0:11:30.368,000 --> 0:11:31,000
+del idioma inglés,
+
+301
+0:11:31.73,000 --> 0:11:32,000
+y así se obtendría frases de paso como
+
+302
+0:11:33.494,000 --> 0:11:34,000
+"Intentemos hay tres vienen".
+
+303
+0:11:35.418,000 --> 0:11:36,000
+Y nos fijamos en eso, y dijimos,
+
+304
+0:11:37.15,000 --> 0:11:4,000
+"Bueno, no parece realmente muy memorizable".
+
+305
+0:11:40.2,000 --> 0:11:42,000
+Así que intentamos recoger las palabras
+
+306
+0:11:42.44,000 --> 0:11:44,000
+que vinieron de partes específicas de la conversación
+
+307
+0:11:44.961,000 --> 0:11:46,000
+como por ejemplo nombre-verbo-sustantivo-adjetivo.
+
+308
+0:11:47.143,000 --> 0:11:49,000
+Eso está relacionado con algo que es una especie de oración.
+
+309
+0:11:49.72,000 --> 0:11:51,000
+Así que Uds. pueden obtener una frase como
+
+310
+0:11:51.79,000 --> 0:11:52,000
+"plan construye poder seguro".
+
+311
+0:11:53.098,000 --> 0:11:55,000
+o "final determina drogas rojas".
+
+312
+0:11:55.884,000 --> 0:11:57,000
+Y estas parecían un poco más memorizables,
+
+313
+0:11:58.56,000 --> 0:12:,000
+y tal vez a la gente le gustarían más.
+
+314
+0:12:01.382,000 --> 0:12:03,000
+Queríamos compararlas con las contraseñas,
+
+315
+0:12:03.954,000 --> 0:12:06,000
+y teníamos la computadora para escoger contraseñas aleatorias,
+
+316
+0:12:07.15,000 --> 0:12:08,000
+y estas eran agradables y cortas, pero como pueden ver,
+
+317
+0:12:09.14,000 --> 0:12:11,000
+en realidad, no parecen muy memorizables.
+
+318
+0:12:11.946,000 --> 0:12:12,000
+Y entonces decidimos probar algo llamado
+
+319
+0:12:13.342,000 --> 0:12:14,000
+contraseña pronunciable.
+
+320
+0:12:14.988,000 --> 0:12:16,000
+Así que aquí la computadora recoge sílabas al azar
+
+321
+0:12:17.233,000 --> 0:12:18,000
+y las pone une
+
+322
+0:12:18.367,000 --> 0:12:2,000
+para obtener algo pronunciable,
+
+323
+0:12:20.842,000 --> 0:12:22,000
+como "tufritvi" y "vadasabi".
+
+324
+0:12:23.444,000 --> 0:12:25,000
+Eso fluye en la lengua.
+
+325
+0:12:25.591,000 --> 0:12:27,000
+Así que eran contraseñas aleatorias
+
+326
+0:12:27.807,000 --> 0:12:29,000
+generadas por nuestra computadora
+
+327
+0:12:30.551,000 --> 0:12:32,000
+Lo que encontramos en este estudio fue que, sorprendentemente,
+
+328
+0:12:33.529,000 --> 0:12:36,000
+utilizar frases no era, en realidad, tan bueno.
+
+329
+0:12:37.297,000 --> 0:12:39,000
+La gente no recordaba mejor
+
+330
+0:12:40.09,000 --> 0:12:42,000
+las frases de paso que estas contraseñas aleatorias,
+
+331
+0:12:43.043,000 --> 0:12:45,000
+y como las frases de paso son más largas,
+
+332
+0:12:45.797,000 --> 0:12:46,000
+se precisa más tiempo para escribirlas
+
+333
+0:12:47.023,000 --> 0:12:5,000
+y la gente cometía más errores al escribirlas.
+
+334
+0:12:50.033,000 --> 0:12:53,000
+Así que no es realmente una victoria clara para las frases de paso.
+
+335
+0:12:53.26,000 --> 0:12:56,000
+Perdón por todos los fans de xkcd.
+
+336
+0:12:56.605,000 --> 0:12:57,000
+Por otro lado, averiguamos
+
+337
+0:12:58.497,000 --> 0:12:59,000
+que las contraseñas pronunciables
+
+338
+0:13:00.301,000 --> 0:13:01,000
+funcionaron sorprendentemente bien,
+
+339
+0:13:01.772,000 --> 0:13:03,000
+por eso estamos profundizando más
+
+340
+0:13:04.19,000 --> 0:13:07,000
+para ver si podemos hacer que este enfoque sea aún mejor.
+
+341
+0:13:07.385,000 --> 0:13:08,000
+Uno de los problemas
+
+342
+0:13:09.197,000 --> 0:13:1,000
+con algunos de los estudios realizados
+
+343
+0:13:10.82,000 --> 0:13:11,000
+es que, debido a que está todo hecho,
+
+344
+0:13:12.503,000 --> 0:13:13,000
+usando Mechanical Turk,
+
+345
+0:13:14.093,000 --> 0:13:15,000
+no se trata de contraseñas reales de la gente.
+
+346
+0:13:15.905,000 --> 0:13:17,000
+Son las claves que
+
+347
+0:13:18.01,000 --> 0:13:2,000
+la computadora ha creado para ellos para nuestro estudio.
+
+348
+0:13:20.505,000 --> 0:13:21,000
+Y lo que queríamos saber es si la gente
+
+349
+0:13:22.073,000 --> 0:13:24,000
+en realidad se comportaría de la misma forma
+
+350
+0:13:24.385,000 --> 0:13:26,000
+con sus contraseñas reales.
+
+351
+0:13:26.612,000 --> 0:13:29,000
+Así que hablamos con la oficina de seguridad informática en Carnegie Mellon
+
+352
+0:13:30.293,000 --> 0:13:33,000
+y preguntamos si podíamos obtener contraseñas reales de todo el mundo.
+
+353
+0:13:34.096,000 --> 0:13:35,000
+No es de extrañar, que fueran un poco reticentes
+
+354
+0:13:35.85,000 --> 0:13:36,000
+de dárnoslas,
+
+355
+0:13:37.4,000 --> 0:13:38,000
+pero estábamos realmente dispuestos a elaborar
+
+356
+0:13:39.21,000 --> 0:13:4,000
+un sistema con ellos
+
+357
+0:13:40.25,000 --> 0:13:42,000
+donde poner todas las contraseñas reales
+
+358
+0:13:42.359,000 --> 0:13:45,000
+de 25 000 estudiantes de CMU, profesores y personal,
+
+359
+0:13:45.45,000 --> 0:13:47,000
+en una computadora bloqueada en una habitación cerrada,
+
+360
+0:13:47.898,000 --> 0:13:48,000
+sin conexión a Internet,
+
+361
+0:13:49.292,000 --> 0:13:5,000
+para ejecutar el código que escribimos
+
+362
+0:13:51.14,000 --> 0:13:53,000
+para analizar estas contraseñas.
+
+363
+0:13:53.292,000 --> 0:13:54,000
+Auditaron nuestro código.
+
+364
+0:13:54.618,000 --> 0:13:55,000
+Ejecutaron el código.
+
+365
+0:13:55.93,000 --> 0:13:56,000
+Y así nunca, en realidad, vimos
+
+366
+0:13:57.668,000 --> 0:13:59,000
+las contraseñas de nadie.
+
+367
+0:14:00.485,000 --> 0:14:01,000
+Obtuvimos algunos resultados interesantes,
+
+368
+0:14:02,000 --> 0:14:03,000
+y aquellos de Uds. estudiantes de Tepper de atrás
+
+369
+0:14:03.696,000 --> 0:14:05,000
+estarán muy interesados en esto.
+
+370
+0:14:06.571,000 --> 0:14:09,000
+Así nos encontramos con que las contraseñas creadas
+
+371
+0:14:10.302,000 --> 0:14:12,000
+por las personas afiliadas a la escuela de ciencias de la computación
+
+372
+0:14:12.46,000 --> 0:14:14,000
+en realidad eran 1,8 veces más seguras
+
+373
+0:14:14.784,000 --> 0:14:17,000
+que las de los afiliados a la escuela de negocios.
+
+374
+0:14:18.522,000 --> 0:14:2,000
+Tenemos también información
+
+375
+0:14:20.562,000 --> 0:14:22,000
+demográfica muy interesante.
+
+376
+0:14:22.8,000 --> 0:14:23,000
+Otra cosa interesante que encontramos
+
+377
+0:14:24.646,000 --> 0:14:26,000
+es que al comparar las contraseñas de Carnegie Mellon
+
+378
+0:14:27.086,000 --> 0:14:29,000
+con las contraseñas generadas por Mechanical Turk,
+
+379
+0:14:29.369,000 --> 0:14:31,000
+había una gran cantidad de similitudes,
+
+380
+0:14:31.988,000 --> 0:14:32,000
+y así que esto ayudó a validar nuestro método de investigación
+
+381
+0:14:33.936,000 --> 0:14:35,000
+y mostrar que en realidad, la recogida de contraseñas
+
+382
+0:14:36.446,000 --> 0:14:37,000
+utilizando estos estudios de Mechanical Turk
+
+383
+0:14:38.254,000 --> 0:14:4,000
+es en realidad una forma válida para estudiar las contraseñas.
+
+384
+0:14:41.042,000 --> 0:14:43,000
+Así que fue una buena noticia.
+
+385
+0:14:43.327,000 --> 0:14:45,000
+Bien, quiero cerrar hablando de
+
+386
+0:14:45.741,000 --> 0:14:47,000
+algunas ideas que tuve durante mi año sabático
+
+387
+0:14:47.809,000 --> 0:14:5,000
+el año pasado en la escuela de arte de Carnegie Mellon.
+
+388
+0:14:51.01,000 --> 0:14:52,000
+Una de las cosas que hice
+
+389
+0:14:52.291,000 --> 0:14:53,000
+es una serie de edredones,
+
+390
+0:14:53.815,000 --> 0:14:54,000
+y he hecho este edredón de aquí.
+
+391
+0:14:55.363,000 --> 0:14:56,000
+Se llama "Manta de Seguridad".
+
+392
+0:14:57.262,000 --> 0:14:59,000
+(Risas)
+
+393
+0:14:59.693,000 --> 0:15:02,000
+Este edredón tiene las 1000
+
+394
+0:15:02.788,000 --> 0:15:04,000
+contraseñas robadas con más frecuencia
+
+395
+0:15:05.116,000 --> 0:15:07,000
+del sitio web RockYou.
+
+396
+0:15:07.687,000 --> 0:15:09,000
+El tamaño de las contraseñas es proporcional
+
+397
+0:15:09.748,000 --> 0:15:1,000
+a la frecuencia con que aparecían
+
+398
+0:15:11.649,000 --> 0:15:13,000
+en el conjunto de datos robados.
+
+399
+0:15:13.897,000 --> 0:15:15,000
+Lo que hice es crear esta nube de palabras,
+
+400
+0:15:16.529,000 --> 0:15:18,000
+y examiné todas las 1000 palabras,
+
+401
+0:15:18.661,000 --> 0:15:19,000
+y las categoricé en
+
+402
+0:15:20.456,000 --> 0:15:22,000
+categorías temáticas sueltas.
+
+403
+0:15:22.836,000 --> 0:15:23,000
+Y, en algunos casos,
+
+404
+0:15:24.739,000 --> 0:15:26,000
+era un poco difícil de entender
+
+405
+0:15:26.777,000 --> 0:15:27,000
+en qué categoría debían estar
+
+406
+0:15:28.532,000 --> 0:15:29,000
+y entonces las identifiqué por colores.
+
+407
+0:15:30.431,000 --> 0:15:32,000
+Así que estos son algunos ejemplos de la dificultad.
+
+408
+0:15:33.05,000 --> 0:15:34,000
+Digamos "justin".
+
+409
+0:15:34.231,000 --> 0:15:35,000
+¿Es ese el nombre del usuario,
+
+410
+0:15:36.06,000 --> 0:15:37,000
+su novio, su hijo?
+
+411
+0:15:37.382,000 --> 0:15:39,000
+Tal vez son un fan de Justin Bieber.
+
+412
+0:15:40.27,000 --> 0:15:42,000
+O "princesa".
+
+413
+0:15:42.495,000 --> 0:15:43,000
+¿Es un apodo?
+
+414
+0:15:44.13,000 --> 0:15:45,000
+¿Son fans de las princesas de Disney?
+
+415
+0:15:45.725,000 --> 0:15:48,000
+O tal vez ese es el nombre de su gato.
+
+416
+0:15:49.419,000 --> 0:15:5,000
+"Iloveyou" aparece muchas veces
+
+417
+0:15:51.074,000 --> 0:15:52,000
+en muchos idiomas diferentes.
+
+418
+0:15:52.619,000 --> 0:15:55,000
+Hay mucho amor en estas contraseñas.
+
+419
+0:15:56.354,000 --> 0:15:57,000
+Si miran atentamente, verán que hay también
+
+420
+0:15:58.034,000 --> 0:16:,000
+algunas palabras soeces,
+
+421
+0:16:00.301,000 --> 0:16:01,000
+pero lo que fue realmente interesante ver para mí
+
+422
+0:16:02.251,000 --> 0:16:04,000
+es que hay mucho más amor que odio
+
+423
+0:16:04.558,000 --> 0:16:06,000
+en estas contraseñas.
+
+424
+0:16:06.85,000 --> 0:16:07,000
+Y hay animales,
+
+425
+0:16:08.34,000 --> 0:16:09,000
+una gran cantidad de animales,
+
+426
+0:16:09.7,000 --> 0:16:11,000
+y "mono" es el animal más común
+
+427
+0:16:12.004,000 --> 0:16:15,000
+y la 14 contraseña más popular.
+
+428
+0:16:15.679,000 --> 0:16:17,000
+Y esto fue realmente curioso para mí,
+
+429
+0:16:17.91,000 --> 0:16:19,000
+y me pregunté: "¿Por qué son tan populares los monos?"
+
+430
+0:16:20.433,000 --> 0:16:23,000
+Y así, en nuestro último estudio sobre contraseñas,
+
+431
+0:16:23.785,000 --> 0:16:24,000
+cuando detectamos que alguien
+
+432
+0:16:25.471,000 --> 0:16:27,000
+crea una contraseña usando "mono",
+
+433
+0:16:28.12,000 --> 0:16:31,000
+les preguntamos por qué tenían un mono en su contraseña.
+
+434
+0:16:31.15,000 --> 0:16:32,000
+Y lo que averiguamos...
+
+435
+0:16:33.06,000 --> 0:16:35,000
+encontramos 17 personas hasta el momento
+
+436
+0:16:35.163,000 --> 0:16:36,000
+que tienen la palabra "mono"...
+
+437
+0:16:36.446,000 --> 0:16:37,000
+Encontramos que un tercio de ellos dijo
+
+438
+0:16:38.258,000 --> 0:16:39,000
+que tienen una mascota llamada "mono"
+
+439
+0:16:39.998,000 --> 0:16:41,000
+o un amigo cuyo apodo es "mono"
+
+440
+0:16:42.289,000 --> 0:16:43,000
+y alrededor de un tercio de ellos dijo
+
+441
+0:16:43.949,000 --> 0:16:44,000
+simplemente que le gustan los monos
+
+442
+0:16:45.482,000 --> 0:16:46,000
+y que los monos son muy lindos.
+
+443
+0:16:47.12,000 --> 0:16:5,000
+Y ese joven es muy lindo.
+
+444
+0:16:50.759,000 --> 0:16:53,000
+Así, parece que al final,
+
+445
+0:16:54.167,000 --> 0:16:55,000
+cuando hacemos las contraseñas,
+
+446
+0:16:55.95,000 --> 0:16:56,000
+hacemos algo que o es muy fácil
+
+447
+0:16:57.924,000 --> 0:17:,000
+de escribir, un patrón común,
+
+448
+0:17:00.933,000 --> 0:17:02,000
+o cosas que nos recuerdan a la palabra contraseña
+
+449
+0:17:03.419,000 --> 0:17:06,000
+o a la cuenta para la que hemos creado la contraseña,
+
+450
+0:17:06.731,000 --> 0:17:08,000
+o lo que sea.
+
+451
+0:17:09.348,000 --> 0:17:11,000
+O pensamos acerca de las cosas que nos hacen felices,
+
+452
+0:17:11.99,000 --> 0:17:12,000
+y creamos nuestra contraseña
+
+453
+0:17:13.294,000 --> 0:17:15,000
+basados en las cosas que nos hacen felices.
+
+454
+0:17:15.532,000 --> 0:17:17,000
+Y si bien esto facilita la escritura
+
+455
+0:17:18.395,000 --> 0:17:2,000
+y recordarla es más divertido,
+
+456
+0:17:21.265,000 --> 0:17:22,000
+también hace que sea mucho más fácil
+
+457
+0:17:23.072,000 --> 0:17:24,000
+descifrar la contraseña.
+
+458
+0:17:24.578,000 --> 0:17:25,000
+Así que sé que un montón de estas charlas TED
+
+459
+0:17:26.326,000 --> 0:17:27,000
+son fuente de inspiración
+
+460
+0:17:27.96,000 --> 0:17:29,000
+y hacen pensar sobre cosas agradables y felices,
+
+461
+0:17:30.421,000 --> 0:17:31,000
+pero cuando estén creando su contraseña,
+
+462
+0:17:32.318,000 --> 0:17:33,000
+traten de pensar en otra cosa.
+
+463
+0:17:34.309,000 --> 0:17:35,000
+Gracias.
+
+464
+0:17:35.416,000 --> 0:17:35,000
+(Aplausos)
+

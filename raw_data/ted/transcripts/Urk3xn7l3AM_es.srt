@@ -1,0 +1,1020 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Miguel A. Quiceno Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:13.071,000 --> 0:00:17,000
+Algún día puede que tengamos robots tan inteligentes como personas,
+
+3
+0:00:17.809,000 --> 0:00:19,000
+inteligencia artificial, IA.
+
+4
+0:00:20.283,000 --> 0:00:21,000
+¿Cómo podría suceder eso?
+
+5
+0:00:22.632,000 --> 0:00:25,000
+Un camino es que vamos a seguir acumulando mejor software,
+
+6
+0:00:25.816,000 --> 0:00:27,000
+como lo hemos estado haciendo desde hace 70 años.
+
+7
+0:00:28.363,000 --> 0:00:3,000
+A ritmos de progreso anteriores, eso podría tomar siglos.
+
+8
+0:00:31.958,000 --> 0:00:33,000
+Algunos dicen que sucederá mucho más rápido,
+
+9
+0:00:34.308,000 --> 0:00:35,000
+a medida que descubramos grandes,
+
+10
+0:00:35.888,000 --> 0:00:37,000
+nuevas y poderosas teorías de la inteligencia.
+
+11
+0:00:38.137,000 --> 0:00:39,000
+Soy escéptico.
+
+12
+0:00:40.428,000 --> 0:00:42,000
+Pero sobre un tercer escenario,
+
+13
+0:00:43.513,000 --> 0:00:44,000
+es de lo que hablaré hoy.
+
+14
+0:00:45.04,000 --> 0:00:47,000
+La idea es portar el software desde el cerebro humano.
+
+15
+0:00:48.552,000 --> 0:00:5,000
+Para hacer esto, necesitaremos tres tecnologías
+
+16
+0:00:50.932,000 --> 0:00:53,000
+que sean lo suficientemente buenas y ninguna de ellas existe aún.
+
+17
+0:00:54.237,000 --> 0:00:58,000
+Primero que todo, necesitaremos muchas computadoras baratas, rápidas y paralelas.
+
+18
+0:01:00.675,000 --> 0:01:04,000
+Segundo, necesitaremos escanear cerebros de individuos humanos,
+
+19
+0:01:04.882,000 --> 0:01:06,000
+en fino detalle espacial y químico,
+
+20
+0:01:07.12,000 --> 0:01:11,000
+para ver exactamente en qué lugar están conectadas las células y a qué y qué tipo.
+
+21
+0:01:11.158,000 --> 0:01:15,000
+Y tercero, necesitaremos modelos de computadora
+
+22
+0:01:15.576,000 --> 0:01:17,000
+de cómo funciona cada tipo de neurona...
+
+23
+0:01:18.532,000 --> 0:01:2,000
+tomar las señales de entrada, cambiar el estado de intervalo
+
+24
+0:01:21.386,000 --> 0:01:22,000
+y enviar señales de salida.
+
+25
+0:01:22.69,000 --> 0:01:25,000
+Si tenemos suficientes modelos buenos de todos los tipos de neuronas
+
+26
+0:01:26.396,000 --> 0:01:28,000
+y un modelo del cerebro suficientemente bueno,
+
+27
+0:01:28.539,000 --> 0:01:31,000
+podemos juntarlo para hacer un modelo, suficientemente bueno de todo un cerebro
+
+28
+0:01:32.257,000 --> 0:01:35,000
+y ese modelo tendría el mismo comportamiento del original.
+
+29
+0:01:35.474,000 --> 0:01:37,000
+Así que, si le hablan a eso, podría responder.
+
+30
+0:01:38.399,000 --> 0:01:4,000
+Si le piden que haga cosas, podría hacerlas.
+
+31
+0:01:40.454,000 --> 0:01:42,000
+Y si pudiéramos hacer eso, todo cambiaría.
+
+32
+0:01:43.244,000 --> 0:01:45,000
+La gente ha estado hablando de esta idea durante décadas,
+
+33
+0:01:45.932,000 --> 0:01:46,000
+bajo el nombre de "cargar software".
+
+34
+0:01:47.655,000 --> 0:01:48,000
+Los llamaré "ems".
+
+35
+0:01:50.175,000 --> 0:01:52,000
+Cuando hablan de ello, dicen:
+
+36
+0:01:52.779,000 --> 0:01:53,000
+"¿Es esto siquiera posible?
+
+37
+0:01:54.658,000 --> 0:01:57,000
+Si hicieras uno, ¿sería consciente? ¿O es solo una máquina vacía?
+
+38
+0:01:57.929,000 --> 0:01:59,000
+Si hicieras uno de mí, ¿sería yo o alguien más?".
+
+39
+0:02:00.856,000 --> 0:02:03,000
+Todas estas son preguntas fascinantes, que voy a ignorar...
+
+40
+0:02:04.198,000 --> 0:02:05,000
+(Risas)
+
+41
+0:02:06.861,000 --> 0:02:08,000
+porque veo una pregunta olvidada:
+
+42
+0:02:08.95,000 --> 0:02:09,000
+¿Qué pasaría realmente?
+
+43
+0:02:12.23,000 --> 0:02:14,000
+Me obsesioné con esta pregunta.
+
+44
+0:02:15.813,000 --> 0:02:17,000
+Pasé cuatro años tratando de analizarla,
+
+45
+0:02:18.766,000 --> 0:02:21,000
+utilizando herramientas académicas estándar, para descifrar qué pasaría
+
+46
+0:02:22.313,000 --> 0:02:24,000
+y estoy aquí para contarles lo que encontré.
+
+47
+0:02:24.748,000 --> 0:02:25,000
+Pero tengan cuidado,
+
+48
+0:02:26.542,000 --> 0:02:29,000
+no estoy ofreciendo inspiración, estoy ofreciendo análisis.
+
+49
+0:02:29.889,000 --> 0:02:32,000
+Veo mi trabajo como el contarles, lo que es más probable que suceda,
+
+50
+0:02:33.093,000 --> 0:02:34,000
+si hicimos muy poco para evitarlo.
+
+51
+0:02:35.912,000 --> 0:02:38,000
+Si no están al menos un poco perturbados por lo que les diga aquí,
+
+52
+0:02:39.064,000 --> 0:02:41,000
+simplemente no están prestando la atención.
+
+53
+0:02:41.088,000 --> 0:02:41,000
+(Risas)
+
+54
+0:02:42.277,000 --> 0:02:44,000
+Bueno, lo primero que puedo decir
+
+55
+0:02:44.867,000 --> 0:02:47,000
+es que los ems pasan la mayor parte de su vida en la realidad virtual.
+
+56
+0:02:48.639,000 --> 0:02:52,000
+A esto podría parecerse si utilizaran la realidad virtual.
+
+57
+0:02:53.894,000 --> 0:02:55,000
+Y esto es lo que podrían ver:
+
+58
+0:02:57.064,000 --> 0:03:,000
+la luz del sol que destella en el agua, podrían oír las gaviotas volando,
+
+59
+0:03:00.71,000 --> 0:03:03,000
+podrían incluso sentir el viento en sus mejillas u oler el agua de mar
+
+60
+0:03:04.005,000 --> 0:03:05,000
+con un hardware avanzado.
+
+61
+0:03:05.902,000 --> 0:03:08,000
+Ahora, si pasaran mucho tiempo aquí, podrían querer un panel de mandos,
+
+62
+0:03:09.249,000 --> 0:03:11,000
+donde pudieran hacer cosas como una llamada telefónica,
+
+63
+0:03:11.877,000 --> 0:03:12,000
+pasar a un nuevo mundo virtual,
+
+64
+0:03:13.381,000 --> 0:03:14,000
+revisar su cuenta bancaria.
+
+65
+0:03:15.78,000 --> 0:03:18,000
+Mientras que es así como les parecería a Uds. la realidad virtual,
+
+66
+0:03:19.307,000 --> 0:03:22,000
+así es como un em se vería en realidad virtual.
+
+67
+0:03:22.395,000 --> 0:03:25,000
+Es hardware de computadora, ubicado en un servidor en alguna parte.
+
+68
+0:03:25.531,000 --> 0:03:27,000
+Pero aun así, podría ver y experimentar lo mismo.
+
+69
+0:03:28.992,000 --> 0:03:3,000
+Pero algunas cosas son diferentes para los ems.
+
+70
+0:03:31.342,000 --> 0:03:33,000
+Primero, mientras que Uds. probablemente siempre notarán
+
+71
+0:03:33.966,000 --> 0:03:35,000
+que la realidad virtual no es del todo verdadera,
+
+72
+0:03:36.306,000 --> 0:03:39,000
+un em, puede sentirla tan real como ahora es esta sala para Uds.,
+
+73
+0:03:39.658,000 --> 0:03:4,000
+o como cualquier cosa que uno siente.
+
+74
+0:03:41.416,000 --> 0:03:43,000
+Los ems también tienen algunas posibilidades más de acción.
+
+75
+0:03:44.318,000 --> 0:03:46,000
+Por ejemplo, nuestra mente siempre corre a la misma velocidad,
+
+76
+0:03:47.275,000 --> 0:03:49,000
+pero un em puede agregar o quitar hardware,
+
+77
+0:03:49.315,000 --> 0:03:5,000
+para operar más rápido o lento,
+
+78
+0:03:50.796,000 --> 0:03:53,000
+y, por lo tanto, si el mundo alrededor parece ir demasiado rápido,
+
+79
+0:03:54.292,000 --> 0:03:55,000
+simplemente pueden acelerar sus mentes,
+
+80
+0:03:56.161,000 --> 0:03:58,000
+y el mundo que les rodea parecería ralentizarse.
+
+81
+0:03:58.511,000 --> 0:04:02,000
+Además, un em puede hacer una copia de sí mismo en ese momento.
+
+82
+0:04:03.964,000 --> 0:04:05,000
+Esta copia recordaría todo igual
+
+83
+0:04:06.021,000 --> 0:04:09,000
+y si comienza con la misma velocidad --observando a la misma velocidad--
+
+84
+0:04:09.407,000 --> 0:04:11,000
+podría incluso necesitar que le dijeran: "Tú eres la copia".
+
+85
+0:04:12.478,000 --> 0:04:15,000
+Y un em podría archivar copias de archivos y con suficientes archivos,
+
+86
+0:04:16.021,000 --> 0:04:18,000
+un em puede ser inmortal;
+
+87
+0:04:18.093,000 --> 0:04:2,000
+en teoría, aunque no en la práctica por lo general.
+
+88
+0:04:20.921,000 --> 0:04:24,000
+Y un em puede trasladar su cerebro, la computadora que representa su cerebro,
+
+89
+0:04:24.923,000 --> 0:04:25,000
+de una ubicación física a otra.
+
+90
+0:04:27.797,000 --> 0:04:3,000
+De hecho, los ems pueden viajar por el mundo a la velocidad de la luz
+
+91
+0:04:31.035,000 --> 0:04:32,000
+y al moverse a una nueva ubicación,
+
+92
+0:04:32.707,000 --> 0:04:35,000
+pueden interactuar más rápidamente con ems cerca de esa nueva ubicación.
+
+93
+0:04:36.089,000 --> 0:04:4,000
+Hasta ahora, he estado hablando de lo que los ems pueden hacer.
+
+94
+0:04:41.047,000 --> 0:04:43,000
+¿Qué deciden hacer los ems?
+
+95
+0:04:44.165,000 --> 0:04:46,000
+Para entender eso, necesitaremos entender tres hechos claves.
+
+96
+0:04:47.876,000 --> 0:04:48,000
+Primero...
+
+97
+0:04:50.614,000 --> 0:04:54,000
+por definición los ems emulan lo que el humano haría en la misma situación.
+
+98
+0:04:56.125,000 --> 0:04:57,000
+Así que, su vida y comportamiento
+
+99
+0:04:57.715,000 --> 0:04:58,000
+es muy humano.
+
+100
+0:04:58.738,000 --> 0:05:01,000
+Son principalmente diferentes porque están viviendo en un mundo diferente.
+
+101
+0:05:02.215,000 --> 0:05:05,000
+Segundo, los ems necesitan recursos reales para sobrevivir.
+
+102
+0:05:05.411,000 --> 0:05:08,000
+Uds. necesitan comida y refugio o de lo contrario morirían.
+
+103
+0:05:08.764,000 --> 0:05:1,000
+Del mismo modo, los ems necesitan hardware, energía,
+
+104
+0:05:11.426,000 --> 0:05:13,000
+refrigeración, pues de otra manera no pueden existir.
+
+105
+0:05:14.086,000 --> 0:05:16,000
+Por cada minuto subjetivo que experimenta un em,
+
+106
+0:05:16.601,000 --> 0:05:19,000
+alguien, en general ese em, tuvo que trabajar para pagar por ello.
+
+107
+0:05:20.025,000 --> 0:05:21,000
+Tercero, los ems son pobres.
+
+108
+0:05:21.646,000 --> 0:05:21,000
+(Risas)
+
+109
+0:05:22.425,000 --> 0:05:25,000
+La población de ems puede crecer más rápido que la economía de los ems,
+
+110
+0:05:25.87,000 --> 0:05:28,000
+de modo que los salarios se reducen a los niveles de subsistencia de ems.
+
+111
+0:05:29.445,000 --> 0:05:32,000
+Eso significa que los ems deben trabajar la mayoría del tiempo.
+
+112
+0:05:32.649,000 --> 0:05:35,000
+Así que esto significa, que esto es lo que los ems generalmente ven:
+
+113
+0:05:35.979,000 --> 0:05:37,000
+hermosos y lujosos... pero al final escritorios.
+
+114
+0:05:38.342,000 --> 0:05:39,000
+Trabajan la mayoría del tiempo.
+
+115
+0:05:39.876,000 --> 0:05:43,000
+Podría pensarse que un escenario de salario de subsistencia es exótico y raro,
+
+116
+0:05:43.885,000 --> 0:05:45,000
+pero en realidad es el caso habitual en la historia humana
+
+117
+0:05:46.596,000 --> 0:05:48,000
+y es como casi todos los animales salvajes han vivido,
+
+118
+0:05:49.115,000 --> 0:05:51,000
+así que sabemos lo que hacen los humanos en esta situación.
+
+119
+0:05:51.901,000 --> 0:05:54,000
+Básicamente, los humanos hacen lo que se necesita para sobrevivir
+
+120
+0:05:54.949,000 --> 0:05:57,000
+y esto es lo que me permite decir tanto acerca del mundo de los ems.
+
+121
+0:05:58.522,000 --> 0:06:,000
+Cuando las criaturas son ricas, como Uds.,
+
+122
+0:06:00.881,000 --> 0:06:03,000
+se tiene que saber mucho de lo que ellos quieren, para averiguar lo que hacen.
+
+123
+0:06:04.613,000 --> 0:06:07,000
+Cuando las criaturas son pobres, la mayoría hace lo necesario para sobrevivir.
+
+124
+0:06:08.387,000 --> 0:06:11,000
+Hemos hablado del mundo de los ems, desde la perspectiva de los ems.
+
+125
+0:06:12.16,000 --> 0:06:14,000
+Ahora, demos un paso atrás y observemos todo su mundo.
+
+126
+0:06:14.729,000 --> 0:06:17,000
+Primero, el mundo de los ems crece mucho más rápido que el nuestro,
+
+127
+0:06:18.169,000 --> 0:06:19,000
+cerca de cien veces más rápido.
+
+128
+0:06:19.945,000 --> 0:06:22,000
+Así que la misma cantidad de cambio que experimentaríamos en un siglo o dos,
+
+129
+0:06:23.538,000 --> 0:06:24,000
+ellos lo experimentarían en un año o dos.
+
+130
+0:06:25.486,000 --> 0:06:28,000
+Y no estoy dispuesto a proyectar esta época mucho más allá de eso,
+
+131
+0:06:28.578,000 --> 0:06:31,000
+porque posiblemente para entonces, algo más sucederá, no sé qué.
+
+132
+0:06:31.763,000 --> 0:06:33,000
+Segundo, la emulación típica se ejecuta aún más rápido,
+
+133
+0:06:34.341,000 --> 0:06:36,000
+aproximadamente mil veces la velocidad humana.
+
+134
+0:06:37.036,000 --> 0:06:42,000
+Así que, ellos experimentan miles de años en ese año o dos,
+
+135
+0:06:42.376,000 --> 0:06:45,000
+y para ellos el mundo que les rodea cambia más lentamente,
+
+136
+0:06:45.488,000 --> 0:06:47,000
+de lo que el mundo parece cambiar para Uds.
+
+137
+0:06:48.114,000 --> 0:06:52,000
+Tercero, los ems se hacinan en un número pequeño de ciudades muy pobladas.
+
+138
+0:06:52.471,000 --> 0:06:55,000
+Esto no es solo cómo se ven a sí mismas en la realidad virtual,
+
+139
+0:06:56.047,000 --> 0:06:58,000
+también es cómo realmente están hacinadas físicamente.
+
+140
+0:06:58.944,000 --> 0:07:01,000
+Así que, a velocidad de ems, los viajes físicos parecen dolorosamente lentos,
+
+141
+0:07:02.83,000 --> 0:07:04,000
+por lo que la mayoría de las ciudades son autosuficientes,
+
+142
+0:07:05.59,000 --> 0:07:06,000
+las guerra cibernéticas,
+
+143
+0:07:07.09,000 --> 0:07:1,000
+y la mayor parte del resto de la Tierra, lejos de las ciudades de ems,
+
+144
+0:07:10.455,000 --> 0:07:13,000
+se deja a los humanos, ya que los ems no están realmente interesados en ella.
+
+145
+0:07:14.093,000 --> 0:07:15,000
+Hablando de humanos,
+
+146
+0:07:15.58,000 --> 0:07:16,000
+querían oír hablar acerca de eso.
+
+147
+0:07:17.364,000 --> 0:07:21,000
+Los humanos deben retirarse, a la vez y para bien.
+
+148
+0:07:22.707,000 --> 0:07:23,000
+Simplemente no pueden competir.
+
+149
+0:07:24.708,000 --> 0:07:27,000
+Ahora, los humanos empiezan a poseer todo el capital de este mundo.
+
+150
+0:07:27.85,000 --> 0:07:29,000
+La economía crece muy rápido; su riqueza crece muy rápido.
+
+151
+0:07:30.703,000 --> 0:07:32,000
+Los humanos se hacen ricos colectivamente.
+
+152
+0:07:34.008,000 --> 0:07:37,000
+Como saben, la mayoría de los humanos hoy día no poseen realmente mucho,
+
+153
+0:07:37.407,000 --> 0:07:38,000
+aparte de su capacidad para trabajar,
+
+154
+0:07:39.176,000 --> 0:07:42,000
+por lo que entre ahora y luego, necesitan adquirir suficientes activos,
+
+155
+0:07:42.724,000 --> 0:07:43,000
+seguros o acuerdos de participación,
+
+156
+0:07:44.557,000 --> 0:07:45,000
+o pueden morir de hambre.
+
+157
+0:07:46.018,000 --> 0:07:48,000
+Recomiendo encarecidamente evitar este resultado.
+
+158
+0:07:48.333,000 --> 0:07:48,000
+(Risas)
+
+159
+0:07:49.905,000 --> 0:07:52,000
+Ahora, podrían preguntarse, ¿por qué los ems permitirían a los humanos existir?
+
+160
+0:07:53.868,000 --> 0:07:54,000
+¿Por qué no matarlos y tomar sus cosas?
+
+161
+0:07:55.729,000 --> 0:07:58,000
+Pero noten que tenemos muchos jubilados improductivos, que nos rodean hoy día
+
+162
+0:07:59.358,000 --> 0:08:,000
+y no los matamos y tomamos sus cosas.
+
+163
+0:08:01.117,000 --> 0:08:02,000
+(Risas)
+
+164
+0:08:02.385,000 --> 0:08:06,000
+En parte, eso se debe a que rompería las instituciones que compartimos con ellos.
+
+165
+0:08:06.408,000 --> 0:08:08,000
+Otros grupos se preguntarían quién es el próximo.
+
+166
+0:08:08.744,000 --> 0:08:1,000
+De manera muy plausible, los ems sí pueden
+
+167
+0:08:10.904,000 --> 0:08:13,000
+permitir a los humanos retirarse en paz durante la era de ems.
+
+168
+0:08:13.994,000 --> 0:08:15,000
+Uds. deberían preocuparse más por la edad de un em,
+
+169
+0:08:16.673,000 --> 0:08:19,000
+ya que solo dura un año o dos y no se sabe lo que sucede a continuación.
+
+170
+0:08:21.027,000 --> 0:08:23,000
+Los ems son muy parecidos a los humanos,
+
+171
+0:08:23.393,000 --> 0:08:25,000
+pero no son como el humano típico.
+
+172
+0:08:26.258,000 --> 0:08:31,000
+El típico em es una copia de los pocos cientos de humanos más productivos.
+
+173
+0:08:33.149,000 --> 0:08:36,000
+De hecho, son como una élite en comparación con el típico humano,
+
+174
+0:08:36.569,000 --> 0:08:37,000
+como el típico multimillonario,
+
+175
+0:08:38.055,000 --> 0:08:41,000
+Premio Nobel, medallista olímpico de oro, jefe de Estado.
+
+176
+0:08:42.287,000 --> 0:08:46,000
+Los ems observan a los humanos, quizás con nostalgia y gratitud,
+
+177
+0:08:46.459,000 --> 0:08:47,000
+pero no tanto con respeto,
+
+178
+0:08:47.751,000 --> 0:08:5,000
+lo cual es, si piensan en ello, cómo Uds. piensan sobre sus antepasados.
+
+179
+0:08:51.16,000 --> 0:08:54,000
+Sabemos mucho sobre cómo los humanos difieren en términos de productividad.
+
+180
+0:08:54.691,000 --> 0:08:56,000
+Solo podemos usarlos para predecir características de ems.
+
+181
+0:08:57.58,000 --> 0:09:,000
+Por ejemplo, tienden a ser inteligentes, conscientes, trabajadores, casados,
+
+182
+0:09:01.178,000 --> 0:09:02,000
+religiosos, de mediana edad.
+
+183
+0:09:02.601,000 --> 0:09:03,000
+Son las características de los ems.
+
+184
+0:09:04.453,000 --> 0:09:06,000
+El mundo de ems también tiene una gran variedad.
+
+185
+0:09:06.851,000 --> 0:09:09,000
+No solo la mayoría del tipo de variedades humanas,
+
+186
+0:09:10.269,000 --> 0:09:12,000
+incluyendo la variedad de industria y profesión,
+
+187
+0:09:12.588,000 --> 0:09:14,000
+también tienen muchos tipos nuevos de variedad,
+
+188
+0:09:14.85,000 --> 0:09:16,000
+y uno de los más importantes es la velocidad de la mente.
+
+189
+0:09:17.513,000 --> 0:09:2,000
+Es posible para los ems ir desde la velocidad humana,
+
+190
+0:09:21.337,000 --> 0:09:23,000
+hasta un millón de veces más rápido que la velocidad humana
+
+191
+0:09:24.217,000 --> 0:09:26,000
+y hasta mil millones de veces más lento que la velocidad humana.
+
+192
+0:09:27.656,000 --> 0:09:3,000
+Los ems más rápidos tienden a tener marcadores de alto estatus.
+
+193
+0:09:30.812,000 --> 0:09:33,000
+reflejan más riqueza, ganan discusiones, se sientan en lugares privilegiados.
+
+194
+0:09:34.712,000 --> 0:09:35,000
+Los más lentos son sobre todo jubilados
+
+195
+0:09:36.567,000 --> 0:09:38,000
+y son como los fantasmas de nuestra literatura.
+
+196
+0:09:38.781,000 --> 0:09:4,000
+Si recuerdan, los fantasmas nos rodean a todos;
+
+197
+0:09:40.982,000 --> 0:09:42,000
+pueden interactuar con ellos si pagan el precio,
+
+198
+0:09:43.22,000 --> 0:09:45,000
+pero no saben mucho, no pueden influir mucho
+
+199
+0:09:45.293,000 --> 0:09:47,000
+y están obsesionados con el pasado, así que ¿cuál es el punto?
+
+200
+0:09:49.054,000 --> 0:09:52,000
+Los ems también tienen más variedad en la estructura de sus vidas.
+
+201
+0:09:52.491,000 --> 0:09:54,000
+Esta es su vida: empiezan y terminan, muy simple.
+
+202
+0:09:54.903,000 --> 0:09:57,000
+Esta es la vida de un em que hace algunas copias a corto plazo cada día,
+
+203
+0:09:58.536,000 --> 0:10:,000
+para hacer tareas a corto plazo y luego terminar.
+
+204
+0:10:01.133,000 --> 0:10:05,000
+Hablaremos más sobre esas versiones a corto plazo en un momento;
+
+205
+0:10:05.2,000 --> 0:10:08,000
+pero son mucho más eficientes porque no necesitan descansar para el día siguiente.
+
+206
+0:10:09.067,000 --> 0:10:1,000
+Este em es más oportunista.
+
+207
+0:10:10.849,000 --> 0:10:13,000
+Hacen más copias de sí mismos cuando hay más demanda de eso.
+
+208
+0:10:13.996,000 --> 0:10:15,000
+No saben de qué manera va el futuro.
+
+209
+0:10:16.043,000 --> 0:10:18,000
+Este es un em de diseñador que concibe un sistema grande
+
+210
+0:10:18.922,000 --> 0:10:21,000
+y luego se divide recursivamente en copias que elaboran eso,
+
+211
+0:10:22.519,000 --> 0:10:25,000
+para que los ems puedan implementar diseños más grandes y más coherentes.
+
+212
+0:10:26.151,000 --> 0:10:27,000
+Este un plomero de emulación,
+
+213
+0:10:27.537,000 --> 0:10:29,000
+que recuerda que todos los días, por los últimos 20 años,
+
+214
+0:10:30.206,000 --> 0:10:32,000
+solo han trabajado dos horas diarias; una vida de ocio.
+
+215
+0:10:32.821,000 --> 0:10:34,000
+Pero lo que realmente sucedió es que cada día tenían mil copias,
+
+216
+0:10:35.818,000 --> 0:10:37,000
+y cada una hizo un trabajo de dos horas de plomería
+
+217
+0:10:38.211,000 --> 0:10:39,000
+y solo una continúo al día siguiente.
+
+218
+0:10:39.982,000 --> 0:10:41,000
+Objetivamente están trabajando bien más del 99 % del tiempo.
+
+219
+0:10:42.845,000 --> 0:10:44,000
+Subjetivamente, recuerdan una vida de ocio.
+
+220
+0:10:45.911,000 --> 0:10:47,000
+Esto de nuevo, son Uds. Empiezan y terminan.
+
+221
+0:10:48.029,000 --> 0:10:5,000
+Esto podría ser Uds. si al inicio de la fiesta,
+
+222
+0:10:50.261,000 --> 0:10:52,000
+tomaran una droga que provocara que no recordaran esa fiesta,
+
+223
+0:10:53.132,000 --> 0:10:54,000
+absolutamente nada después de ese día.
+
+224
+0:10:55.12,000 --> 0:10:57,000
+Me dicen que algunas personas hacen esto.
+
+225
+0:10:57.154,000 --> 0:10:59,000
+Mi pregunta es, ¿al final de la fiesta se dirían a sí mismos:
+
+226
+0:11:00.029,000 --> 0:11:02,000
+'Estoy a punto de morir, esto es terrible.
+
+227
+0:11:02.095,000 --> 0:11:05,000
+Esa persona mañana no seré yo, porque no recordará lo que hago?'.
+
+228
+0:11:05.178,000 --> 0:11:05,000
+O podrían decir:
+
+229
+0:11:06.068,000 --> 0:11:08,000
+"Continuaré con el mañana, solo que no recordaré lo que hice".
+
+230
+0:11:09.037,000 --> 0:11:11,000
+Este es un em que divide una copia a corto plazo,
+
+231
+0:11:11.536,000 --> 0:11:13,000
+para hacer una tarea a corto plazo y luego terminar.
+
+232
+0:11:14.03,000 --> 0:11:15,000
+Tiene las mismas dos posibles actitudes.
+
+233
+0:11:15.968,000 --> 0:11:18,000
+Puede decir: "Soy una nueva criatura a corto plazo de corta vida. Odio esto".
+
+234
+0:11:19.641,000 --> 0:11:22,000
+O: "Soy una parte de una criatura más grande que no recordará esta parte".
+
+235
+0:11:23.115,000 --> 0:11:24,000
+Predigo que tendrán esa segunda actitud,
+
+236
+0:11:25.041,000 --> 0:11:28,000
+no porque sea filosóficamente correcto, sino porque les ayuda a avanzar.
+
+237
+0:11:28.431,000 --> 0:11:3,000
+Hoy, si el presidente dice que debemos invadir Irak,
+
+238
+0:11:30.863,000 --> 0:11:32,000
+y Uds. dicen: ¿por qué? y les dicen: secreto de Estado;
+
+239
+0:11:33.434,000 --> 0:11:35,000
+no están seguros si pueden confiar en ellos,
+
+240
+0:11:35.482,000 --> 0:11:37,000
+pero los ems, copias de Uds. y del presidente
+
+241
+0:11:37.732,000 --> 0:11:4,000
+pueden ir dentro de una caja fuerte, explicar todas sus razones secretas
+
+242
+0:11:41.256,000 --> 0:11:43,000
+y luego un bit sale de su copia de sí mismos,
+
+243
+0:11:43.431,000 --> 0:11:44,000
+diciéndoles si están convencidos.
+
+244
+0:11:45.197,000 --> 0:11:47,000
+Así que ahora, pueden saber que hay una buena razón.
+
+245
+0:11:47.75,000 --> 0:11:49,000
+Sé que están ansiosos por evaluar este mundo.
+
+246
+0:11:50.175,000 --> 0:11:52,000
+Están ansiosos por decidir si les gusta o lo odian.
+
+247
+0:11:52.629,000 --> 0:11:54,000
+Pero piensen, sus antepasados de hace miles de años
+
+248
+0:11:55.022,000 --> 0:11:56,000
+habrían amado u odiado su mundo,
+
+249
+0:11:56.545,000 --> 0:11:58,000
+con base a las primeras cosas que escucharon sobre él,
+
+250
+0:11:59.07,000 --> 0:12:,000
+porque su mundo es realmente extraño.
+
+251
+0:12:00.835,000 --> 0:12:02,000
+Así que antes de juzgar un extraño mundo futuro,
+
+252
+0:12:03.093,000 --> 0:12:06,000
+realmente deberían aprender mucho sobre él, quizá leer un libro al respecto
+
+253
+0:12:06.613,000 --> 0:12:08,000
+y luego, si no les gusta: trabajar para cambiarlo.
+
+254
+0:12:08.957,000 --> 0:12:09,000
+Gracias.
+
+255
+0:12:09.966,000 --> 0:12:12,000
+(Aplausos)
+

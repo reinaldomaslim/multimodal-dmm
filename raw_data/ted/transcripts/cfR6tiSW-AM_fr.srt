@@ -1,0 +1,1508 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Felix Amyot Relecteur: Shadia Ramsahye
+
+2
+0:00:15.26,000 --> 0:00:18,000
+Alors, le premier robot que je vous présente se nomme STriDER.
+
+3
+0:00:18.26,000 --> 0:00:2,000
+Cela signifie Robot Expérimental ...
+
+4
+0:00:20.26,000 --> 0:00:22,000
+... Tripède Dynamique Auto-Stimulé
+
+5
+0:00:22.26,000 --> 0:00:24,000
+Il a trois pattes,
+
+6
+0:00:24.26,000 --> 0:00:27,000
+concept inspiré de la nature.
+
+7
+0:00:27.26,000 --> 0:00:29,000
+Mais avez-vous déjà rencontré quelque chose dans la nature...
+
+8
+0:00:29.26,000 --> 0:00:31,000
+qui ait trois pattes?
+
+9
+0:00:31.26,000 --> 0:00:33,000
+Probablement que non. Donc pourquoi est-ce que je dis
+
+10
+0:00:33.26,000 --> 0:00:35,000
+que c'est un robot inspiré de la nature? Comment fonctionnerait-il?
+
+11
+0:00:35.26,000 --> 0:00:38,000
+Mais avant tout cela, jettons un oeil à la culture-pop.
+
+12
+0:00:38.26,000 --> 0:00:41,000
+Vous connaissez H.G. Wells et son roman (et film) "La Guerre Des Mondes" (War of Worlds).
+
+13
+0:00:41.26,000 --> 0:00:43,000
+Ce que vous voyez ici est un jeu vidéo
+
+14
+0:00:43.26,000 --> 0:00:45,000
+très populaire.
+
+15
+0:00:45.26,000 --> 0:00:48,000
+Dans le roman, on y décrit les créatures extra-terrestres terrorisant la planète
+
+16
+0:00:48.26,000 --> 0:00:5,000
+comme des robots dotés de trois pattes.
+
+17
+0:00:50.26,000 --> 0:00:54,000
+Mais mon robot, STrider, ne se déplace pas de cette façon.
+
+18
+0:00:54.26,000 --> 0:00:57,000
+Voici une animation de la simulation dynamique réelle.
+
+19
+0:00:57.26,000 --> 0:00:59,000
+Je vais vous montrer comment ce robot fonctionne.
+
+20
+0:00:59.26,000 --> 0:01:02,000
+Il fait pivoter son corps de 180 degrés.
+
+21
+0:01:02.26,000 --> 0:01:05,000
+Il balance la jambe centrale entre les deux autres pour rattraper la chute.
+
+22
+0:01:05.26,000 --> 0:01:07,000
+C'est donc de cette façon qu'il marche. Mais quand vous nous regardez
+
+23
+0:01:07.26,000 --> 0:01:09,000
+marcher, nous les êtres humains, avec deux jambes,
+
+24
+0:01:09.26,000 --> 0:01:11,000
+nous n'utilisons pas vraiment de muscle
+
+25
+0:01:11.26,000 --> 0:01:14,000
+pour lever une jambe et marcher comme un robot. Pas vrai?
+
+26
+0:01:14.26,000 --> 0:01:17,000
+Ce que nous faisons vraiment c'est lancer une jambe devant et arrêter la chute,
+
+27
+0:01:17.26,000 --> 0:01:2,000
+se relever, lancer l'autre jambre et rattraper la chute encore une fois.
+
+28
+0:01:20.26,000 --> 0:01:23,000
+Le tout, en utilisant notre dynamique interne, la physique de notre corps,
+
+29
+0:01:23.26,000 --> 0:01:25,000
+à la manière d'un pendule.
+
+30
+0:01:25.26,000 --> 0:01:29,000
+Nous appelons cela le concept de locomotion dynamique passive.
+
+31
+0:01:29.26,000 --> 0:01:31,000
+Ce que vous faites lorsque vous vous levez,
+
+32
+0:01:31.26,000 --> 0:01:33,000
+c'est de transformer de l'énergie potentielle en énergie cinétique...
+
+33
+0:01:33.26,000 --> 0:01:35,000
+potentielle à cinétique...
+
+34
+0:01:35.26,000 --> 0:01:37,000
+C'est un processus continu de chutes.
+
+35
+0:01:37.26,000 --> 0:01:4,000
+Donc même s'il n'y a rien dans la nature qui ressemble à cela,
+
+36
+0:01:40.26,000 --> 0:01:42,000
+nous avons vraiment été inspirés par la biologie
+
+37
+0:01:42.26,000 --> 0:01:44,000
+et nous avons appliqué les principes de la marche
+
+38
+0:01:44.26,000 --> 0:01:47,000
+à ce robot, d'où l'inspiration biologique.
+
+39
+0:01:47.26,000 --> 0:01:49,000
+Ce que vous voyez ici est ce que nous souhaitons faire par la suite.
+
+40
+0:01:49.26,000 --> 0:01:53,000
+Nous aimerions plier les jambes et propulser le tout en l'air pour des déplacements à longue portée.
+
+41
+0:01:53.26,000 --> 0:01:56,000
+And il pourra déployer ses jambes, comme dans La Guerre Des Étoiles (Star Wars).
+
+42
+0:01:56.26,000 --> 0:01:59,000
+À l'atterrissage, le choc est absorbé et il recommence à marcher.
+
+43
+0:01:59.26,000 --> 0:02:02,000
+Ce que vous voyez ici, la chose jaune, n'est pas un rayon de mort.
+
+44
+0:02:02.26,000 --> 0:02:04,000
+C'est simplement pour vous montrer que si vous avez des caméras
+
+45
+0:02:04.26,000 --> 0:02:06,000
+ou d'autres sortes de senseurs,
+
+46
+0:02:06.26,000 --> 0:02:08,000
+grâce à sa taille, 1,80 mètre,
+
+47
+0:02:08.26,000 --> 0:02:11,000
+vous pouvez voir au dessus d'obstacles comme des buissons et d'autres choses du genre.
+
+48
+0:02:11.26,000 --> 0:02:13,000
+Nous avons donc deux prototypes.
+
+49
+0:02:13.26,000 --> 0:02:16,000
+La première version, en arrière, c'est STriDER I.
+
+50
+0:02:16.26,000 --> 0:02:18,000
+En avant, la plus petite, c'est STriDER II.
+
+51
+0:02:18.26,000 --> 0:02:2,000
+Le problème que nous avons rencontré avec STriDER I est que
+
+52
+0:02:20.26,000 --> 0:02:23,000
+son corps était trop lourd. Nous avions tant de moteurs,
+
+53
+0:02:23.26,000 --> 0:02:25,000
+vous savez, pour aligner les joints et ce genre de choses.
+
+54
+0:02:25.26,000 --> 0:02:29,000
+Alors nous avons décidé de créer un mécanisme mécanique
+
+55
+0:02:29.26,000 --> 0:02:32,000
+pour éliminer tous les moteurs et donc à l'aide d'un seul
+
+56
+0:02:32.26,000 --> 0:02:34,000
+pouvoir coordonner tous les mouvements.
+
+57
+0:02:34.26,000 --> 0:02:37,000
+C'est une solution mécanique à un problème, à la place d'utiliser la mécatronique.
+
+58
+0:02:37.26,000 --> 0:02:4,000
+Avec ce changement, le corps du haut est suffisamment léger pour marcher dans un laboratoire.
+
+59
+0:02:40.26,000 --> 0:02:43,000
+Ce fut la première étape véritablement réussie.
+
+60
+0:02:43.26,000 --> 0:02:45,000
+Ce n'est pas encore parfait.
+
+61
+0:02:45.26,000 --> 0:02:48,000
+Nous avons encore bien du pain sur la planche.
+
+62
+0:02:48.26,000 --> 0:02:51,000
+Le deuxième robot dont je veux vous parler s'appelle IMPASS.
+
+63
+0:02:51.26,000 --> 0:02:55,000
+Ça signifie Platerforme de Mobilité Intelligente avec un Système de Tiges Réactives. (trad. libre)
+
+64
+0:02:55.26,000 --> 0:02:58,000
+C'est donc un robot hybride patte-roue.
+
+65
+0:02:58.26,000 --> 0:03:,000
+Pensez à une roue sans contour,
+
+66
+0:03:00.26,000 --> 0:03:02,000
+seulement avec les rayons.
+
+67
+0:03:02.26,000 --> 0:03:05,000
+Par contre, les rayons bougent individuellement par rapport au moyeu central.
+
+68
+0:03:05.26,000 --> 0:03:07,000
+C'est donc un hybride roue-jambe.
+
+69
+0:03:07.26,000 --> 0:03:09,000
+Dans les faits, nous réinventons la roue ici!
+
+70
+0:03:09.26,000 --> 0:03:12,000
+Laissez-moi vous montrer comment il fonctionne.
+
+71
+0:03:12.26,000 --> 0:03:14,000
+Dans ce vidéo nous utilisons une approche
+
+72
+0:03:14.26,000 --> 0:03:16,000
+appelée Approche Réactive.
+
+73
+0:03:16.26,000 --> 0:03:19,000
+En utilisant uniquement les capteurs tactiles sur les pieds,
+
+74
+0:03:19.26,000 --> 0:03:21,000
+il tente de se déplacer sur un terrain changeant,
+
+75
+0:03:21.26,000 --> 0:03:24,000
+un terrain flexible qui est modifié lorsqu'il s'appuie dessus.
+
+76
+0:03:24.26,000 --> 0:03:26,000
+Et simplement par l'information tactile,
+
+77
+0:03:26.26,000 --> 0:03:29,000
+Il parvient à traverser ce genre de terrain avec succès.
+
+78
+0:03:29.26,000 --> 0:03:33,000
+Par contre, lorsqu'il rencontre un obstacle majeur,
+
+79
+0:03:33.26,000 --> 0:03:36,000
+dans ce cas-ci c'est trois fois sa propre hauteur
+
+80
+0:03:36.26,000 --> 0:03:38,000
+qu'il rencontre,
+
+81
+0:03:38.26,000 --> 0:03:4,000
+alors il se met en mode délibéré
+
+82
+0:03:40.26,000 --> 0:03:42,000
+où il utilise une sonde de distance au laser
+
+83
+0:03:42.26,000 --> 0:03:44,000
+et des caméras pour identifier l'obstacle et sa taille,
+
+84
+0:03:44.26,000 --> 0:03:47,000
+afin de planifier précisément le déplacement de ses tiges
+
+85
+0:03:47.26,000 --> 0:03:49,000
+et coordonner le tout pour parvenir
+
+86
+0:03:49.26,000 --> 0:03:51,000
+à ce genre de mobilité impressionnante.
+
+87
+0:03:51.26,000 --> 0:03:53,000
+Vous n'avez probablement rien vu de ce genre dans le monde réel.
+
+88
+0:03:53.26,000 --> 0:03:56,000
+Il s'agit d'un robot à mobilité très élevée
+
+89
+0:03:56.26,000 --> 0:03:59,000
+que nous avons conçu et qui se nomme IMPASS.
+
+90
+0:03:59.26,000 --> 0:04:01,000
+N'est-ce pas génial?
+
+91
+0:04:01.26,000 --> 0:04:04,000
+Lorsque vous conduisez votre véhicule,
+
+92
+0:04:04.26,000 --> 0:04:06,000
+lorsque vous effectuez un virage, vous utilisez une méthode appelée
+
+93
+0:04:06.26,000 --> 0:04:08,000
+virage Ackermann (Ackermann steering).
+
+94
+0:04:08.26,000 --> 0:04:1,000
+Les roues avant se déplacent ainsi.
+
+95
+0:04:10.26,000 --> 0:04:13,000
+Pour la plupart des petits robots dotés de roues,
+
+96
+0:04:13.26,000 --> 0:04:15,000
+la méthode utilisée est plutôt celle de virage différentiel
+
+97
+0:04:15.26,000 --> 0:04:18,000
+où les roues droite et gauche tournent dans des directions opposées.
+
+98
+0:04:18.26,000 --> 0:04:21,000
+Pour IMPASS, nous pouvons effectuer plusieurs types de déplacement.
+
+99
+0:04:21.26,000 --> 0:04:24,000
+Dans cet exemple, même si les roues droite et gauche sont connectées
+
+100
+0:04:24.26,000 --> 0:04:26,000
+par un moyeu unique, tournant à la même vitesse angulaire,
+
+101
+0:04:26.26,000 --> 0:04:29,000
+en modifiant seulement la longueur des tiges,
+
+102
+0:04:29.26,000 --> 0:04:31,000
+on en modifie le diamètre et donc il tourne à gauche, tourne à droite...
+
+103
+0:04:31.26,000 --> 0:04:33,000
+Voilà donc quelques exemples des jolies choses
+
+104
+0:04:33.26,000 --> 0:04:36,000
+que nous pouvons effectuer avec IMPASS.
+
+105
+0:04:36.26,000 --> 0:04:38,000
+Ce robot est nommé CLIMBeR, pour
+
+106
+0:04:38.26,000 --> 0:04:41,000
+Robot Jambiste Suspendu à Comportement Mimétique Intelligent (trad. libre)
+
+107
+0:04:41.26,000 --> 0:04:44,000
+Nous avons parlé à plusieurs scientifiques du JPL de la NASA (note: Jet Propulsion Laboratory);
+
+108
+0:04:44.26,000 --> 0:04:46,000
+où ils sont très connus pour avoir conçu les véhicules d'exploration de Mars.
+
+109
+0:04:46.26,000 --> 0:04:48,000
+Et ces scientifiques, géologues, me disent toujours
+
+110
+0:04:48.26,000 --> 0:04:51,000
+que le vrai côté intéressant de la science,
+
+111
+0:04:51.26,000 --> 0:04:54,000
+les sites riches en informations géologiques sont toujours les falaises.
+
+112
+0:04:54.26,000 --> 0:04:56,000
+Mais les véhicules d'exploration actuels ne peuvent s'y rendre.
+
+113
+0:04:56.26,000 --> 0:04:58,000
+Donc, en nous basant là dessus, nous avons souhaité concevoir un robot
+
+114
+0:04:58.26,000 --> 0:05:01,000
+capable de grimper un environnement structuré en falaise.
+
+115
+0:05:01.26,000 --> 0:05:03,000
+Voici donc CLIMBeR.
+
+116
+0:05:03.26,000 --> 0:05:05,000
+Alors ce qu'il fait: il a trois jambes. C'est probablement difficile à voir,
+
+117
+0:05:05.26,000 --> 0:05:08,000
+mais il a aussi un treuil et un câble sur le dessus.
+
+118
+0:05:08.26,000 --> 0:05:1,000
+Il tente alors de trouver le meilleur appui où placer son pied
+
+119
+0:05:10.26,000 --> 0:05:12,000
+et lorsqu'il a trouvé,
+
+120
+0:05:12.26,000 --> 0:05:15,000
+il calcule en temps réel la distribution des forces.
+
+121
+0:05:15.26,000 --> 0:05:18,000
+Quelle force il doit exercer sur la surface
+
+122
+0:05:18.26,000 --> 0:05:2,000
+pour ne pas glisser ni perdre l'équilibre.
+
+123
+0:05:20.26,000 --> 0:05:22,000
+Une fois stabilisé, il lève un autre pied
+
+124
+0:05:22.26,000 --> 0:05:26,000
+et alors, grâce au treuil, il peut grimper ce genre de paroi.
+
+125
+0:05:26.26,000 --> 0:05:28,000
+Aussi utile pour des missions de recherche et sauvetage.
+
+126
+0:05:28.26,000 --> 0:05:3,000
+Il y a cinq ans j'ai en fait travaillé au JPL de la NASA
+
+127
+0:05:30.26,000 --> 0:05:32,000
+durant l'été comme membre de la faculté.
+
+128
+0:05:32.26,000 --> 0:05:36,000
+Et ils avaient déjà un robot à 6 pattes nommé LEMUR.
+
+129
+0:05:36.26,000 --> 0:05:39,000
+Donc ceci s'en inspire. Il s'appelle MARS,
+
+130
+0:05:39.26,000 --> 0:05:42,000
+pour Système Robotique Multi-Pattes. Il s'agit donc d'un hexapode.
+
+131
+0:05:42.26,000 --> 0:05:44,000
+Nous avons conçu une planification de démarche adaptative.
+
+132
+0:05:44.26,000 --> 0:05:46,000
+Vous voyez ici une charge utile fort intéressante.
+
+133
+0:05:46.26,000 --> 0:05:48,000
+Les étudiants aiment bien avoir s'amuser. Et vous voyez ici qu'il
+
+134
+0:05:48.26,000 --> 0:05:51,000
+marche sur un terrain non-structuré.
+
+135
+0:05:51.26,000 --> 0:05:53,000
+Il tente de marcher sur un terrain grossier,
+
+136
+0:05:53.26,000 --> 0:05:55,000
+une surface sablonneuse,
+
+137
+0:05:55.26,000 --> 0:06:,000
+mais selon l'humidité du terrain et la taille des grains de sable,
+
+138
+0:06:00.26,000 --> 0:06:02,000
+le modèle d'enfoncement du pied varie.
+
+139
+0:06:02.26,000 --> 0:06:06,000
+Donc il tente d'adapter sa démarche pour traverser efficacement ce genre de choses.
+
+140
+0:06:06.26,000 --> 0:06:08,000
+Il peut aussi faire des trucs rigolos, comme vous pouvez l'imaginer.
+
+141
+0:06:08.26,000 --> 0:06:11,000
+Nous recevons tant de visiteurs au labo,
+
+142
+0:06:11.26,000 --> 0:06:13,000
+que lorsqu'ils arrivent, MARS se déplace jusqu'à l'ordinateur,
+
+143
+0:06:13.26,000 --> 0:06:15,000
+et commence à écrire "Bonjour, mon nom est MARS.
+
+144
+0:06:15.26,000 --> 0:06:17,000
+Bienvenue à RoMeLa,
+
+145
+0:06:17.26,000 --> 0:06:21,000
+le Laboratoire des Mécanismes Robotiqes à Virginia Tech."
+
+146
+0:06:21.26,000 --> 0:06:23,000
+Ceci est un robot-amibe.
+
+147
+0:06:23.26,000 --> 0:06:26,000
+Nous n'avons pas assez de temps pour entrer dans les détails techniques,
+
+148
+0:06:26.26,000 --> 0:06:28,000
+je vais simplement vous montrer quelques expériences.
+
+149
+0:06:28.26,000 --> 0:06:3,000
+Donc voici quelques uns des tests de faisabilité.
+
+150
+0:06:30.26,000 --> 0:06:34,000
+Nous emmagasinons de l'énergie potentielle dans la peau élastique pour le faire bouger.
+
+151
+0:06:34.26,000 --> 0:06:36,000
+Ou bien on utilise un cordon à tension active pour le faire se déplacer
+
+152
+0:06:36.26,000 --> 0:06:39,000
+d'avant en arrière. Son nom est ChiMERA.
+
+153
+0:06:39.26,000 --> 0:06:41,000
+Nous avons également travaillé avec quelques chercheurs
+
+154
+0:06:41.26,000 --> 0:06:43,000
+et ingénieurs de l'UPenn (Université de Pennsylvanie)
+
+155
+0:06:43.26,000 --> 0:06:45,000
+pour aboutir avec une version réagissant chimiquement
+
+156
+0:06:45.26,000 --> 0:06:47,000
+de ce robot-amibe.
+
+157
+0:06:47.26,000 --> 0:06:49,000
+Nous faisons quelque chose à quelque chose
+
+158
+0:06:49.26,000 --> 0:06:55,000
+et, comme par magie, il bouge! Le blob!
+
+159
+0:06:55.26,000 --> 0:06:57,000
+Ce robot est un très récent projet. Il se nomme RAPHaEL.
+
+160
+0:06:57.26,000 --> 0:07:,000
+Main Robotique à Ligaments Élastiques Alimenté à l'Air.
+
+161
+0:07:00.26,000 --> 0:07:04,000
+Il existe plusieurs mains robotisées très intéressantes sur le marché.
+
+162
+0:07:04.26,000 --> 0:07:08,000
+Le problème c'est qu'elles sont trop chères, dans les dizaines de milliers de dollars.
+
+163
+0:07:08.26,000 --> 0:07:1,000
+Donc, pour des prothèses, ce n'est probablement pas vraiment pratique,
+
+164
+0:07:10.26,000 --> 0:07:12,000
+car ce n'est pas abordable.
+
+165
+0:07:12.26,000 --> 0:07:16,000
+Nous voulions attaquer ce problème d'un angle différent.
+
+166
+0:07:16.26,000 --> 0:07:19,000
+À la place d'utiliser des moteurs électriques, déclencheurs électromécaniques
+
+167
+0:07:19.26,000 --> 0:07:21,000
+nous utilisons de l'air comprimé.
+
+168
+0:07:21.26,000 --> 0:07:23,000
+Nous avons développé ces nouveaux déclencheurs pour les jointures.
+
+169
+0:07:23.26,000 --> 0:07:26,000
+C'est flexible, vous pouvez changer la force
+
+170
+0:07:26.26,000 --> 0:07:28,000
+et modifiant simplement la pression d'air.
+
+171
+0:07:28.26,000 --> 0:07:3,000
+Donc vous pouvez écraser une canette d'aluminium vide.
+
+172
+0:07:30.26,000 --> 0:07:33,000
+Vous pouvez également saisir des objets délicats tel un oeuf cru,
+
+173
+0:07:33.26,000 --> 0:07:36,000
+ou dans ce cas une ampoule électrique.
+
+174
+0:07:36.26,000 --> 0:07:4,000
+Le plus beau: le prototype a coûté seulement 200 dollars à fabriquer.
+
+175
+0:07:40.26,000 --> 0:07:43,000
+Ce robot fait partie d'une famille de robots serpent
+
+176
+0:07:43.26,000 --> 0:07:45,000
+que l'on appelle HyDRAS, pour
+
+177
+0:07:45.26,000 --> 0:07:47,000
+Serpentin Robotique Articulé à Hyper Dégré de Liberté
+
+178
+0:07:47.26,000 --> 0:07:5,000
+C'est un robot qui peut grimper des structures.
+
+179
+0:07:50.26,000 --> 0:07:52,000
+C'est un des bras de HyDRAS.
+
+180
+0:07:52.26,000 --> 0:07:54,000
+Ce bras robotique a 12 degrés de liberté.
+
+181
+0:07:54.26,000 --> 0:07:56,000
+Mais la partie super c'est l'interface utilisateur.
+
+182
+0:07:56.26,000 --> 0:07:59,000
+Le câble que vous voyez est une fibre optique.
+
+183
+0:07:59.26,000 --> 0:08:01,000
+Et cette étudiante, probablement à sa première tentative,
+
+184
+0:08:01.26,000 --> 0:08:03,000
+peut l'articuler de plusieurs manières.
+
+185
+0:08:03.26,000 --> 0:08:06,000
+Alors par exemple en Iraq, vous savez, en zone de guerre,
+
+186
+0:08:06.26,000 --> 0:08:08,000
+il y a des bombes de bord de route. Présentement on envoie
+
+187
+0:08:08.26,000 --> 0:08:11,000
+un robot télécommandé armé.
+
+188
+0:08:11.26,000 --> 0:08:13,000
+Cela requiert énormément de temps et d'argent
+
+189
+0:08:13.26,000 --> 0:08:17,000
+pour entraîner un opérateur pour ce bras complexe.
+
+190
+0:08:17.26,000 --> 0:08:19,000
+Dans ce cas, c'est très intuitif.
+
+191
+0:08:19.26,000 --> 0:08:23,000
+Cet étudiant, aussi à ces premiers essais, peut effectuer des manipulations complexes,
+
+192
+0:08:23.26,000 --> 0:08:25,000
+saisir des objets et manoeuvrer
+
+193
+0:08:25.26,000 --> 0:08:28,000
+juste comme ça, de façon naturelle.
+
+194
+0:08:30.26,000 --> 0:08:32,000
+Voici maintenant notre robot star.
+
+195
+0:08:32.26,000 --> 0:08:35,000
+Il existe même un fan club pour ce robot: DARwin,
+
+196
+0:08:35.26,000 --> 0:08:38,000
+Robot Anthropomorphique Dynamique Avec Intelligence.
+
+197
+0:08:38.26,000 --> 0:08:4,000
+Comme vous le savez, nous sommes très intéressés
+
+198
+0:08:40.26,000 --> 0:08:42,000
+à créer un robot humanoïde, capable de marcher comme nous,
+
+199
+0:08:42.26,000 --> 0:08:44,000
+donc nous avons décidé de construire un petit robot humanoïde.
+
+200
+0:08:44.26,000 --> 0:08:46,000
+Ceci était en 2004, à cette époque
+
+201
+0:08:46.26,000 --> 0:08:48,000
+c'était quelque chose de vraiment révolutionnaire.
+
+202
+0:08:48.26,000 --> 0:08:5,000
+Il s'agissait davantage d'une étude de faisabilité:
+
+203
+0:08:50.26,000 --> 0:08:52,000
+quels genres de moteurs devrions-nous utiliser?
+
+204
+0:08:52.26,000 --> 0:08:54,000
+Est-ce seulement possible? Quel type de contrôles intégrer?
+
+205
+0:08:54.26,000 --> 0:08:56,000
+Donc, celui-ci n'a pas beaucoup de capteurs.
+
+206
+0:08:56.26,000 --> 0:08:58,000
+C'est un contrôle en boucle ouverte.
+
+207
+0:08:58.26,000 --> 0:09:,000
+Pour ceux d'entre vous qui le savez, si vous n'avez pas de capteurs,
+
+208
+0:09:00.26,000 --> 0:09:02,000
+et qu'il y a une quelconque perturbation, vous savez ce qu'il arrive...
+
+209
+0:09:05.26,000 --> 0:09:06,000
+(Rires)
+
+210
+0:09:06.26,000 --> 0:09:08,000
+Donc d'après cette réussite, l'année suivante
+
+211
+0:09:08.26,000 --> 0:09:11,000
+nous avons conçu le bon design mécanique
+
+212
+0:09:11.26,000 --> 0:09:13,000
+à partir de la cinématique.
+
+213
+0:09:13.26,000 --> 0:09:15,000
+Et donc, DARwin I est né en 2005.
+
+214
+0:09:15.26,000 --> 0:09:17,000
+Il peut se lever. Il marche, très impressionnant.
+
+215
+0:09:17.26,000 --> 0:09:19,000
+Par contre, comme vous le voyez,
+
+216
+0:09:19.26,000 --> 0:09:23,000
+il a un câble, un cordon ombilical. Donc on utilise toujours une source de puissance externe,
+
+217
+0:09:23.26,000 --> 0:09:25,000
+et de la communication de l'extérieur.
+
+218
+0:09:25.26,000 --> 0:09:29,000
+Donc, en 2006, nous avons commencé à nous amuser.
+
+219
+0:09:29.26,000 --> 0:09:32,000
+Donnons-lui l'intelligence. Nous l'avons doté de toute la puissance informatique nécessaire,
+
+220
+0:09:32.26,000 --> 0:09:34,000
+un processeur Pentium M de 1,5 GHz,
+
+221
+0:09:34.26,000 --> 0:09:36,000
+deux caméras FireWire, 8 gyroscopes, des accéléromètres
+
+222
+0:09:36.26,000 --> 0:09:39,000
+4 capteurs de moments, des batteries au lithium.
+
+223
+0:09:39.26,000 --> 0:09:43,000
+Et depuis, DARwin II est complètement autonome.
+
+224
+0:09:43.26,000 --> 0:09:45,000
+Il n'est plus télécommandé.
+
+225
+0:09:45.26,000 --> 0:09:48,000
+Il n'y a plus de câble. Il regarde autour, cherche le ballon,
+
+226
+0:09:48.26,000 --> 0:09:51,000
+regarde encore, cherche le ballon et tente de jouer au foot
+
+227
+0:09:51.26,000 --> 0:09:54,000
+de façon autonome, avec l'intelligence artificielle.
+
+228
+0:09:54.26,000 --> 0:09:57,000
+Voyons comment il se débrouille. Ceci est notre tout premier essai,
+
+229
+0:09:57.26,000 --> 0:10:02,000
+et... vidéo: BUUUUT!
+
+230
+0:10:03.26,000 --> 0:10:06,000
+Sachez qu'il existe une compétition nommée RoboCup.
+
+231
+0:10:06.26,000 --> 0:10:08,000
+Je ne sais pas si plusieurs d'entre vous la connaissez.
+
+232
+0:10:08.26,000 --> 0:10:13,000
+C'est une compétition internationale de robots autonomes jouant au football.
+
+233
+0:10:13.26,000 --> 0:10:16,000
+L'objectif de la RoboCup, le véritable objectif, consiste à,
+
+234
+0:10:16.26,000 --> 0:10:18,000
+d'ici l'an 2050,
+
+235
+0:10:18.26,000 --> 0:10:21,000
+avoir des robots humanoïdes pleine grandeur, complètement autonomes,
+
+236
+0:10:21.26,000 --> 0:10:25,000
+qui disputeront un match contre les gagnants humains de la Coupe Du Monde...
+
+237
+0:10:25.26,000 --> 0:10:27,000
+et gagneront!
+
+238
+0:10:27.26,000 --> 0:10:29,000
+C'est véritablement le but. C'en est un très ambitieux
+
+239
+0:10:29.26,000 --> 0:10:31,000
+mais nous croyons vraiment pouvoir y arriver.
+
+240
+0:10:31.26,000 --> 0:10:34,000
+Donc nous voici l'année dernière en Chine.
+
+241
+0:10:34.26,000 --> 0:10:36,000
+Nous avons été la toute première équipe américaine à se qualifier
+
+242
+0:10:36.26,000 --> 0:10:38,000
+dans la compétition de robot humanoïde.
+
+243
+0:10:38.26,000 --> 0:10:41,000
+Ici c'est cette année, en Autriche.
+
+244
+0:10:41.26,000 --> 0:10:43,000
+Vous allez voir l'action, 3 contre 3,
+
+245
+0:10:43.26,000 --> 0:10:45,000
+de façon complètement autonome.
+
+246
+0:10:45.26,000 --> 0:10:47,000
+Voilà. Oui!
+
+247
+0:10:48.26,000 --> 0:10:5,000
+Les robots suivent le ballon et jouent
+
+248
+0:10:50.26,000 --> 0:10:53,000
+en équipe entre eux.
+
+249
+0:10:53.26,000 --> 0:10:55,000
+C'est très impressionnant. C'est vraiment un événement de recherche
+
+250
+0:10:55.26,000 --> 0:10:59,000
+enrobé par une compétition plus excitante.
+
+251
+0:10:59.26,000 --> 0:11:01,000
+Ce que vous voyez ici, c'est la magnifique
+
+252
+0:11:01.26,000 --> 0:11:03,000
+Coupe Louis Vuitton.
+
+253
+0:11:03.26,000 --> 0:11:05,000
+Elle est décernée au meilleur humanoïde,
+
+254
+0:11:05.26,000 --> 0:11:07,000
+et nous aimerions bien la rapporter pour la toute première fois aux États-Unis
+
+255
+0:11:07.26,000 --> 0:11:09,000
+l'année prochaine, donc souhaitez-nous bonne chance!
+
+256
+0:11:09.26,000 --> 0:11:11,000
+Merci!
+
+257
+0:11:11.26,000 --> 0:11:14,000
+(Applaudissements)
+
+258
+0:11:14.26,000 --> 0:11:16,000
+DARwin a aussi beacoup d'autres talents.
+
+259
+0:11:16.26,000 --> 0:11:19,000
+L'an passé il a dirigé l'Orchestre Symphonique de Roanoke
+
+260
+0:11:19.26,000 --> 0:11:22,000
+pour le concert des Fêtes.
+
+261
+0:11:22.26,000 --> 0:11:25,000
+Voici la prochaine génération, le DARwin IV,
+
+262
+0:11:25.26,000 --> 0:11:28,000
+plus intelligent, rapide et fort.
+
+263
+0:11:28.26,000 --> 0:11:3,000
+Et il tente de vous montrer son agileté.
+
+264
+0:11:30.26,000 --> 0:11:33,000
+"Je suis macho, je suis fort.
+
+265
+0:11:33.26,000 --> 0:11:36,000
+Je peux aussi faire des mouvements d'arts martiaux
+
+266
+0:11:36.26,000 --> 0:11:39,000
+à la Jackie Chan"
+
+267
+0:11:39.26,000 --> 0:11:41,000
+(Rires)
+
+268
+0:11:41.26,000 --> 0:11:43,000
+Et il quitte. Donc c'était DARwin IV,
+
+269
+0:11:43.26,000 --> 0:11:45,000
+encore une fois, vous pourrez le voir dans le lobby.
+
+270
+0:11:45.26,000 --> 0:11:47,000
+Nous croyons vraiment qu'il s'agira du premier robot
+
+271
+0:11:47.26,000 --> 0:11:5,000
+humanoïde capable de courir des États-Unis. Donc, à suivre!
+
+272
+0:11:50.26,000 --> 0:11:53,000
+Très bien, donc je vous ai montré quelques uns de nos plus excitants robots au travail.
+
+273
+0:11:53.26,000 --> 0:11:56,000
+Mais quel est le secret de notre succès?
+
+274
+0:11:56.26,000 --> 0:11:58,000
+D'où viennent ces idées?
+
+275
+0:11:58.26,000 --> 0:12:,000
+Comment arrivons-nous à développer ce genre d'idées?
+
+276
+0:12:00.26,000 --> 0:12:02,000
+Nous avons un véhicule complètement autonome
+
+277
+0:12:02.26,000 --> 0:12:04,000
+qui peut se déplacer dans un environnement urbain. Nous avons gagné un demi-million de dollars
+
+278
+0:12:04.26,000 --> 0:12:06,000
+à la compétition DARPA Urban Challenge.
+
+279
+0:12:06.26,000 --> 0:12:08,000
+Nous avons également le tout premier
+
+280
+0:12:08.26,000 --> 0:12:1,000
+véhicule de la planète qui puisse être conduit par un aveugle.
+
+281
+0:12:10.26,000 --> 0:12:12,000
+Nous l'appelons le défi du conducteur aveugle, c'est très excitant
+
+282
+0:12:12.26,000 --> 0:12:16,000
+et plusieurs autres projets de robotique dont j'aimerais vous entretenir.
+
+283
+0:12:16.26,000 --> 0:12:18,000
+Voici les prix que nous avons gagné à l'automne 2007 seulement,
+
+284
+0:12:18.26,000 --> 0:12:21,000
+lors de compétitions de robotique et ce genre de choses.
+
+285
+0:12:21.26,000 --> 0:12:23,000
+Dans les faits, nous avons 5 secrets.
+
+286
+0:12:23.26,000 --> 0:12:25,000
+Premièrement, comment trouver cette inspiration,
+
+287
+0:12:25.26,000 --> 0:12:27,000
+où aller pour avoir cet éclair de génie?
+
+288
+0:12:27.26,000 --> 0:12:3,000
+Voici une histoire vraie, mon histoire.
+
+289
+0:12:30.26,000 --> 0:12:32,000
+Le soir lorsque je me couche, vers 3 ou 4 heures du matin,
+
+290
+0:12:32.26,000 --> 0:12:35,000
+je m'étends, je ferme mes yeux et je vois ces lignes et cercles
+
+291
+0:12:35.26,000 --> 0:12:37,000
+et ces différentes formes qui flottent autour de moi,
+
+292
+0:12:37.26,000 --> 0:12:4,000
+elles s'assemblent et composent ce genre de mécanismes.
+
+293
+0:12:40.26,000 --> 0:12:42,000
+Et alors je pense: "Ah! Ceci, c'est super!"
+
+294
+0:12:42.26,000 --> 0:12:44,000
+Donc, juste à côté de mon lit, je garde un cahier de notes,
+
+295
+0:12:44.26,000 --> 0:12:47,000
+un journal, avec un stylo spécial doté d'une lumière, une DEL,
+
+296
+0:12:47.26,000 --> 0:12:49,000
+pour éviter d'allumer la lumière et réveiller ma femme.
+
+297
+0:12:49.26,000 --> 0:12:51,000
+Donc je vois cela, gribouille le tout par écrit, ajoute quelques schémas,
+
+298
+0:12:51.26,000 --> 0:12:53,000
+et je retourne au lit.
+
+299
+0:12:53.26,000 --> 0:12:55,000
+Chaque matin,
+
+300
+0:12:55.26,000 --> 0:12:57,000
+la toute première chose que je fais avant la première tasse de café,
+
+301
+0:12:57.26,000 --> 0:12:59,000
+avant de me brosser les dents, c'est d'ouvrir ce calepin.
+
+302
+0:12:59.26,000 --> 0:13:01,000
+Souvent il est vide,
+
+303
+0:13:01.26,000 --> 0:13:03,000
+parfois il s'y trouve quelque chose d'inutile,
+
+304
+0:13:03.26,000 --> 0:13:06,000
+mais la plupart du temps je ne peux simplement pas me relire.
+
+305
+0:13:06.26,000 --> 0:13:09,000
+Et donc ... 4 heures du matin, à quoi vous attendez-vous?
+
+306
+0:13:09.26,000 --> 0:13:11,000
+Donc je dois déchiffrer ce que j'ai écrit.
+
+307
+0:13:11.26,000 --> 0:13:14,000
+Mais quelques fois je vois cette brillante idée là dedans,
+
+308
+0:13:14.26,000 --> 0:13:16,000
+et j'ai cette épiphanie.
+
+309
+0:13:16.26,000 --> 0:13:18,000
+Je cours à mon ordinateur, dans mon bureau à la maison,
+
+310
+0:13:18.26,000 --> 0:13:2,000
+je tape ces idées avec les schémas,
+
+311
+0:13:20.26,000 --> 0:13:23,000
+et je maintiens un base de données d'idées.
+
+312
+0:13:23.26,000 --> 0:13:25,000
+Alors quand nous recevons un appel pour une soumission,
+
+313
+0:13:25.26,000 --> 0:13:27,000
+je tente de trouver une solution possible entre
+
+314
+0:13:27.26,000 --> 0:13:29,000
+mes idées possibles
+
+315
+0:13:29.26,000 --> 0:13:31,000
+et le problème. S'il y a correspondance nous préparons une soumission,
+
+316
+0:13:31.26,000 --> 0:13:35,000
+obtenons les fonds de recherche et c'est comme ça que nos programmes de recherche naissent.
+
+317
+0:13:35.26,000 --> 0:13:38,000
+Mais une simple étincelle d'imagination n'est pas suffisante.
+
+318
+0:13:38.26,000 --> 0:13:4,000
+Comment arrivons-nous à développer ce genre d'idées?
+
+319
+0:13:40.26,000 --> 0:13:43,000
+À notre labo, RoMeLa,
+
+320
+0:13:43.26,000 --> 0:13:46,000
+nous tenons de fantastiques séances de tempêtes d'idées.
+
+321
+0:13:46.26,000 --> 0:13:48,000
+Donc nous nous rassemblons et discutons de problèmes,
+
+322
+0:13:48.26,000 --> 0:13:5,000
+même des problèmes sociaux et nous en parlons.
+
+323
+0:13:50.26,000 --> 0:13:53,000
+Mais avant de commencer, nous instaurons cette règle sacrée:
+
+324
+0:13:53.26,000 --> 0:13:55,000
+la voici:
+
+325
+0:13:55.26,000 --> 0:13:58,000
+Personne ne critique les idées de l'autre.
+
+326
+0:13:58.26,000 --> 0:14:,000
+Personne ne s'oppose à une opinion.
+
+327
+0:14:00.26,000 --> 0:14:02,000
+C'est important car souvent les étudiants craignent
+
+328
+0:14:02.26,000 --> 0:14:05,000
+ou se sentent mal à l'aide face aux avis des autres
+
+329
+0:14:05.26,000 --> 0:14:07,000
+quant à leurs idées et pensées.
+
+330
+0:14:07.26,000 --> 0:14:09,000
+Par contre, une fois cette règle établie, c'est impressionnnant
+
+331
+0:14:09.26,000 --> 0:14:11,000
+de voir à quel point les étudiants se laissent aller.
+
+332
+0:14:11.26,000 --> 0:14:14,000
+Ils ont ces folles et brillantes idées,
+
+333
+0:14:14.26,000 --> 0:14:17,000
+toute la salle est électrifiée d'énergie créative.
+
+334
+0:14:17.26,000 --> 0:14:2,000
+Et c'est de cette façon que l'on obtient nos idées.
+
+335
+0:14:20.26,000 --> 0:14:23,000
+Bien, nous arrivons à la fin mais il y a une chose encore dont je veux vous parler.
+
+336
+0:14:23.26,000 --> 0:14:27,000
+Donc, simplement une étincelle d'idée et du développement ne sont pas suffisants.
+
+337
+0:14:27.26,000 --> 0:14:29,000
+Il y a eu un grand moment à TED,
+
+338
+0:14:29.26,000 --> 0:14:32,000
+je crois que c'était Sir Ken Robinson, n'est-ce pas?
+
+339
+0:14:32.26,000 --> 0:14:34,000
+Il a donné une conférence à propos de l'éducation
+
+340
+0:14:34.26,000 --> 0:14:36,000
+et disait que l'école tue la créativité.
+
+341
+0:14:36.26,000 --> 0:14:39,000
+Alors, dans les faits il y a deux côtés à cette histoire.
+
+342
+0:14:39.26,000 --> 0:14:42,000
+On ne peut réaliser
+
+343
+0:14:42.26,000 --> 0:14:44,000
+ces merveilleuses idées
+
+344
+0:14:44.26,000 --> 0:14:47,000
+avec la créativité et l'intuition d'ingénierie seulement.
+
+345
+0:14:47.26,000 --> 0:14:49,000
+Si vous souhaitez aller plus loin que la surface,
+
+346
+0:14:49.26,000 --> 0:14:51,000
+si vous voulez dépassez le stade du hobby en robotique
+
+347
+0:14:51.26,000 --> 0:14:54,000
+et aborder les grands challenges de la robotique
+
+348
+0:14:54.26,000 --> 0:14:56,000
+à travers de la recherche rigoureuse,
+
+349
+0:14:56.26,000 --> 0:14:59,000
+nous avons besoin de plus que cela. C'est là que l'école entre en compte.
+
+350
+0:14:59.26,000 --> 0:15:02,000
+Batman, qui se bat contre les forces du mal,
+
+351
+0:15:02.26,000 --> 0:15:04,000
+il a sa ceinture d'outils, il a son grappin,
+
+352
+0:15:04.26,000 --> 0:15:06,000
+et toutes sortes de gadgets.
+
+353
+0:15:06.26,000 --> 0:15:08,000
+Pour nous, roboticiens, ingénieurs et chercheurs,
+
+354
+0:15:08.26,000 --> 0:15:13,000
+ces outils ce sont les leçons que nous apprenons en classe.
+
+355
+0:15:13.26,000 --> 0:15:15,000
+En Mathématiques, les Équations Différentielles,
+
+356
+0:15:15.26,000 --> 0:15:17,000
+J'ai l'algèbre linéaire, la science, la physique,
+
+357
+0:15:17.26,000 --> 0:15:2,000
+et même de nos jours, la chimie et la biologie, comme vous l'avez constaté.
+
+358
+0:15:20.26,000 --> 0:15:22,000
+Ce sont tous des outils dont nous avons besoin.
+
+359
+0:15:22.26,000 --> 0:15:24,000
+Donc, le plus d'outils nous avons, pour Batman
+
+360
+0:15:24.26,000 --> 0:15:26,000
+le plus efficace il est à combattre les méchants,
+
+361
+0:15:26.26,000 --> 0:15:3,000
+pour nous, le mieux équipés nous sommes à attaquer ces gros problèmes.
+
+362
+0:15:30.26,000 --> 0:15:33,000
+Alors l'éducation est très importante.
+
+363
+0:15:33.26,000 --> 0:15:35,000
+Et il ne s'agit pas seulement de cela
+
+364
+0:15:35.26,000 --> 0:15:37,000
+seulement, vous devez travailler extrêmement dur.
+
+365
+0:15:37.26,000 --> 0:15:39,000
+Alors je dis toujours à mes étudiants:
+
+366
+0:15:39.26,000 --> 0:15:41,000
+"Travaillez intelligemment, ensuite travaillez dur".
+
+367
+0:15:41.26,000 --> 0:15:44,000
+Cette photo a été prise à 3:00 du matin.
+
+368
+0:15:44.26,000 --> 0:15:46,000
+Je vous garantis que si vous venez au labo à 3:00, 4:00
+
+369
+0:15:46.26,000 --> 0:15:48,000
+des étudiants travaillent là,
+
+370
+0:15:48.26,000 --> 0:15:51,000
+pas parce que je le leur demande, mais parce qu'ils s'amusent trop!
+
+371
+0:15:51.26,000 --> 0:15:53,000
+Ce qui m'amène au dernier point:
+
+372
+0:15:53.26,000 --> 0:15:55,000
+N'oubliez pas de vous amuser.
+
+373
+0:15:55.26,000 --> 0:15:58,000
+C'est réellement là le secret de notre réussite. Nous avons beaucoup trop de plaisir.
+
+374
+0:15:58.26,000 --> 0:16:01,000
+Je crois réellement que la plus grande productivité est atteinte lorsqu'on s'amuse.
+
+375
+0:16:01.26,000 --> 0:16:03,000
+Et c'est précisément ce que l'on fait.
+
+376
+0:16:03.26,000 --> 0:16:05,000
+Et voilà. Merci infiniment.
+
+377
+0:16:05.26,000 --> 0:16:1,000
+(Applaudissements)
+

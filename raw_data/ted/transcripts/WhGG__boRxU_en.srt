@@ -1,0 +1,1536 @@
+1
+0:00:12.16,000 --> 0:00:15,000
+So, people argue vigorously about the definition of life.
+
+2
+0:00:15.16,000 --> 0:00:2,000
+They ask if it should have reproduction in it, or metabolism, or evolution.
+
+3
+0:00:20.16,000 --> 0:00:22,000
+And I don't know the answer to that, so I'm not going to tell you.
+
+4
+0:00:22.16,000 --> 0:00:25,000
+I will say that life involves computation.
+
+5
+0:00:25.16,000 --> 0:00:27,000
+So this is a computer program.
+
+6
+0:00:27.16,000 --> 0:00:3,000
+Booted up in a cell, the program would execute,
+
+7
+0:00:30.16,000 --> 0:00:33,000
+and it could result in this person;
+
+8
+0:00:33.16,000 --> 0:00:36,000
+or with a small change, it could result in this person;
+
+9
+0:00:36.16,000 --> 0:00:38,000
+or another small change, this person;
+
+10
+0:00:38.16,000 --> 0:00:41,000
+or with a larger change, this dog,
+
+11
+0:00:41.16,000 --> 0:00:43,000
+or this tree, or this whale.
+
+12
+0:00:43.16,000 --> 0:00:45,000
+So now, if you take this metaphor
+
+13
+0:00:45.16,000 --> 0:00:47,000
+[of] genome as program seriously,
+
+14
+0:00:47.16,000 --> 0:00:49,000
+you have to consider that Chris Anderson
+
+15
+0:00:49.16,000 --> 0:00:52,000
+is a computer-fabricated artifact, as is Jim Watson,
+
+16
+0:00:52.16,000 --> 0:00:55,000
+Craig Venter, as are all of us.
+
+17
+0:00:55.16,000 --> 0:00:57,000
+And in convincing yourself that this metaphor is true,
+
+18
+0:00:57.16,000 --> 0:00:59,000
+there are lots of similarities between genetic programs
+
+19
+0:00:59.16,000 --> 0:01:02,000
+and computer programs that could help to convince you.
+
+20
+0:01:02.16,000 --> 0:01:04,000
+But one, to me, that's most compelling
+
+21
+0:01:04.16,000 --> 0:01:07,000
+is the peculiar sensitivity to small changes
+
+22
+0:01:07.16,000 --> 0:01:1,000
+that can make large changes in biological development -- the output.
+
+23
+0:01:10.16,000 --> 0:01:12,000
+A small mutation can take a two-wing fly
+
+24
+0:01:12.16,000 --> 0:01:13,000
+and make it a four-wing fly.
+
+25
+0:01:13.16,000 --> 0:01:17,000
+Or it could take a fly and put legs where its antennae should be.
+
+26
+0:01:17.16,000 --> 0:01:19,000
+Or if you're familiar with "The Princess Bride,"
+
+27
+0:01:19.16,000 --> 0:01:21,000
+it could create a six-fingered man.
+
+28
+0:01:21.16,000 --> 0:01:23,000
+Now, a hallmark of computer programs
+
+29
+0:01:23.16,000 --> 0:01:26,000
+is just this kind of sensitivity to small changes.
+
+30
+0:01:26.16,000 --> 0:01:28,000
+If your bank account's one dollar, and you flip a single bit,
+
+31
+0:01:28.16,000 --> 0:01:3,000
+you could end up with a thousand dollars.
+
+32
+0:01:30.16,000 --> 0:01:33,000
+So these small changes are things that I think
+
+33
+0:01:33.16,000 --> 0:01:35,000
+that -- they indicate to us that a complicated computation
+
+34
+0:01:35.16,000 --> 0:01:39,000
+in development is underlying these amplified, large changes.
+
+35
+0:01:39.16,000 --> 0:01:45,000
+So now, all of this indicates that there are molecular programs underlying biology,
+
+36
+0:01:45.16,000 --> 0:01:49,000
+and it shows the power of molecular programs -- biology does.
+
+37
+0:01:49.16,000 --> 0:01:51,000
+And what I want to do is write molecular programs,
+
+38
+0:01:51.16,000 --> 0:01:53,000
+potentially to build technology.
+
+39
+0:01:53.16,000 --> 0:01:54,000
+And there are a lot of people doing this,
+
+40
+0:01:54.16,000 --> 0:01:57,000
+a lot of synthetic biologists doing this, like Craig Venter.
+
+41
+0:01:57.16,000 --> 0:01:59,000
+And they concentrate on using cells.
+
+42
+0:01:59.16,000 --> 0:02:01,000
+They're cell-oriented.
+
+43
+0:02:01.16,000 --> 0:02:03,000
+So my friends, molecular programmers, and I
+
+44
+0:02:03.16,000 --> 0:02:05,000
+have a sort of biomolecule-centric approach.
+
+45
+0:02:05.16,000 --> 0:02:08,000
+We're interested in using DNA, RNA and protein,
+
+46
+0:02:08.16,000 --> 0:02:11,000
+and building new languages for building things from the bottom up,
+
+47
+0:02:11.16,000 --> 0:02:12,000
+using biomolecules,
+
+48
+0:02:12.16,000 --> 0:02:15,000
+potentially having nothing to do with biology.
+
+49
+0:02:15.16,000 --> 0:02:19,000
+So, these are all the machines in a cell.
+
+50
+0:02:19.16,000 --> 0:02:21,000
+There's a camera.
+
+51
+0:02:21.16,000 --> 0:02:22,000
+There's the solar panels of the cell,
+
+52
+0:02:22.16,000 --> 0:02:24,000
+some switches that turn your genes on and off,
+
+53
+0:02:24.16,000 --> 0:02:27,000
+the girders of the cell, motors that move your muscles.
+
+54
+0:02:27.16,000 --> 0:02:29,000
+My little group of molecular programmers
+
+55
+0:02:29.16,000 --> 0:02:33,000
+are trying to refashion all of these parts from DNA.
+
+56
+0:02:33.16,000 --> 0:02:35,000
+We're not DNA zealots, but DNA is the cheapest,
+
+57
+0:02:35.16,000 --> 0:02:38,000
+easiest to understand and easy to program material to do this.
+
+58
+0:02:38.16,000 --> 0:02:4,000
+And as other things become easier to use --
+
+59
+0:02:40.16,000 --> 0:02:43,000
+maybe protein -- we'll work with those.
+
+60
+0:02:43.16,000 --> 0:02:45,000
+If we succeed, what will molecular programming look like?
+
+61
+0:02:45.16,000 --> 0:02:47,000
+You're going to sit in front of your computer.
+
+62
+0:02:47.16,000 --> 0:02:49,000
+You're going to design something like a cell phone,
+
+63
+0:02:49.16,000 --> 0:02:51,000
+and in a high-level language, you'll describe that cell phone.
+
+64
+0:02:51.16,000 --> 0:02:53,000
+Then you're going to have a compiler
+
+65
+0:02:53.16,000 --> 0:02:54,000
+that's going to take that description
+
+66
+0:02:54.16,000 --> 0:02:56,000
+and it's going to turn it into actual molecules
+
+67
+0:02:56.16,000 --> 0:02:58,000
+that can be sent to a synthesizer
+
+68
+0:02:58.16,000 --> 0:03:01,000
+and that synthesizer will pack those molecules into a seed.
+
+69
+0:03:01.16,000 --> 0:03:04,000
+And what happens if you water and feed that seed appropriately,
+
+70
+0:03:04.16,000 --> 0:03:06,000
+is it will do a developmental computation,
+
+71
+0:03:06.16,000 --> 0:03:09,000
+a molecular computation, and it'll build an electronic computer.
+
+72
+0:03:09.16,000 --> 0:03:11,000
+And if I haven't revealed my prejudices already,
+
+73
+0:03:12.16,000 --> 0:03:14,000
+I think that life has been about molecular computers
+
+74
+0:03:14.16,000 --> 0:03:16,000
+building electrochemical computers,
+
+75
+0:03:16.16,000 --> 0:03:18,000
+building electronic computers,
+
+76
+0:03:18.16,000 --> 0:03:2,000
+which together with electrochemical computers
+
+77
+0:03:20.16,000 --> 0:03:22,000
+will build new molecular computers,
+
+78
+0:03:22.16,000 --> 0:03:25,000
+which will build new electronic computers, and so forth.
+
+79
+0:03:25.16,000 --> 0:03:26,000
+And if you buy all of this,
+
+80
+0:03:26.16,000 --> 0:03:28,000
+and you think life is about computation, as I do,
+
+81
+0:03:28.16,000 --> 0:03:31,000
+then you look at big questions through the eyes of a computer scientist.
+
+82
+0:03:31.16,000 --> 0:03:35,000
+So one big question is, how does a baby know when to stop growing?
+
+83
+0:03:35.16,000 --> 0:03:37,000
+And for molecular programming,
+
+84
+0:03:37.16,000 --> 0:03:39,000
+the question is how does your cell phone know when to stop growing?
+
+85
+0:03:39.16,000 --> 0:03:4,000
+(Laughter)
+
+86
+0:03:40.16,000 --> 0:03:43,000
+Or how does a computer program know when to stop running?
+
+87
+0:03:43.16,000 --> 0:03:46,000
+Or more to the point, how do you know if a program will ever stop?
+
+88
+0:03:46.16,000 --> 0:03:48,000
+There are other questions like this, too.
+
+89
+0:03:48.16,000 --> 0:03:5,000
+One of them is Craig Venter's question.
+
+90
+0:03:50.16,000 --> 0:03:52,000
+Turns out I think he's actually a computer scientist.
+
+91
+0:03:52.16,000 --> 0:03:55,000
+He asked, how big is the minimal genome
+
+92
+0:03:55.16,000 --> 0:03:57,000
+that will give me a functioning microorganism?
+
+93
+0:03:57.16,000 --> 0:03:59,000
+How few genes can I use?
+
+94
+0:03:59.16,000 --> 0:04:01,000
+This is exactly analogous to the question,
+
+95
+0:04:01.16,000 --> 0:04:02,000
+what's the smallest program I can write
+
+96
+0:04:02.16,000 --> 0:04:04,000
+that will act exactly like Microsoft Word?
+
+97
+0:04:04.16,000 --> 0:04:05,000
+(Laughter)
+
+98
+0:04:05.16,000 --> 0:04:09,000
+And just as he's writing, you know, bacteria that will be smaller,
+
+99
+0:04:09.16,000 --> 0:04:1,000
+he's writing genomes that will work,
+
+100
+0:04:10.16,000 --> 0:04:12,000
+we could write smaller programs
+
+101
+0:04:12.16,000 --> 0:04:14,000
+that would do what Microsoft Word does.
+
+102
+0:04:14.16,000 --> 0:04:16,000
+But for molecular programming, our question is,
+
+103
+0:04:16.16,000 --> 0:04:2,000
+how many molecules do we need to put in that seed to get a cell phone?
+
+104
+0:04:20.16,000 --> 0:04:22,000
+What's the smallest number we can get away with?
+
+105
+0:04:22.16,000 --> 0:04:24,000
+Now, these are big questions in computer science.
+
+106
+0:04:24.16,000 --> 0:04:26,000
+These are all complexity questions,
+
+107
+0:04:26.16,000 --> 0:04:28,000
+and computer science tells us that these are very hard questions.
+
+108
+0:04:28.16,000 --> 0:04:3,000
+Almost -- many of them are impossible.
+
+109
+0:04:30.16,000 --> 0:04:33,000
+But for some tasks, we can start to answer them.
+
+110
+0:04:33.16,000 --> 0:04:34,000
+So, I'm going to start asking those questions
+
+111
+0:04:34.16,000 --> 0:04:37,000
+for the DNA structures I'm going to talk about next.
+
+112
+0:04:37.16,000 --> 0:04:4,000
+So, this is normal DNA, what you think of as normal DNA.
+
+113
+0:04:40.16,000 --> 0:04:42,000
+It's double-stranded, it's a double helix,
+
+114
+0:04:42.16,000 --> 0:04:45,000
+has the As, Ts, Cs and Gs that pair to hold the strands together.
+
+115
+0:04:45.16,000 --> 0:04:47,000
+And I'm going to draw it like this sometimes,
+
+116
+0:04:47.16,000 --> 0:04:49,000
+just so I don't scare you.
+
+117
+0:04:49.16,000 --> 0:04:52,000
+We want to look at individual strands and not think about the double helix.
+
+118
+0:04:52.16,000 --> 0:04:55,000
+When we synthesize it, it comes single-stranded,
+
+119
+0:04:55.16,000 --> 0:04:58,000
+so we can take the blue strand in one tube
+
+120
+0:04:58.16,000 --> 0:05:,000
+and make an orange strand in the other tube,
+
+121
+0:05:00.16,000 --> 0:05:02,000
+and they're floppy when they're single-stranded.
+
+122
+0:05:02.16,000 --> 0:05:05,000
+You mix them together and they make a rigid double helix.
+
+123
+0:05:05.16,000 --> 0:05:07,000
+Now for the last 25 years,
+
+124
+0:05:07.16,000 --> 0:05:09,000
+Ned Seeman and a bunch of his descendants
+
+125
+0:05:09.16,000 --> 0:05:12,000
+have worked very hard and made beautiful three-dimensional structures
+
+126
+0:05:12.16,000 --> 0:05:15,000
+using this kind of reaction of DNA strands coming together.
+
+127
+0:05:15.16,000 --> 0:05:18,000
+But a lot of their approaches, though elegant, take a long time.
+
+128
+0:05:18.16,000 --> 0:05:21,000
+They can take a couple of years, or it can be difficult to design.
+
+129
+0:05:21.16,000 --> 0:05:24,000
+So I came up with a new method a couple of years ago
+
+130
+0:05:24.16,000 --> 0:05:25,000
+I call DNA origami
+
+131
+0:05:25.16,000 --> 0:05:27,000
+that's so easy you could do it at home in your kitchen
+
+132
+0:05:27.16,000 --> 0:05:29,000
+and design the stuff on a laptop.
+
+133
+0:05:29.16,000 --> 0:05:32,000
+But to do it, you need a long, single strand of DNA,
+
+134
+0:05:32.16,000 --> 0:05:34,000
+which is technically very difficult to get.
+
+135
+0:05:34.16,000 --> 0:05:36,000
+So, you can go to a natural source.
+
+136
+0:05:36.16,000 --> 0:05:38,000
+You can look in this computer-fabricated artifact,
+
+137
+0:05:38.16,000 --> 0:05:4,000
+and he's got a double-stranded genome -- that's no good.
+
+138
+0:05:40.16,000 --> 0:05:43,000
+You look in his intestines. There are billions of bacteria.
+
+139
+0:05:43.16,000 --> 0:05:45,000
+They're no good either.
+
+140
+0:05:45.16,000 --> 0:05:47,000
+Double strand again, but inside them, they're infected with a virus
+
+141
+0:05:47.16,000 --> 0:05:5,000
+that has a nice, long, single-stranded genome
+
+142
+0:05:50.16,000 --> 0:05:52,000
+that we can fold like a piece of paper.
+
+143
+0:05:52.16,000 --> 0:05:53,000
+And here's how we do it.
+
+144
+0:05:53.16,000 --> 0:05:54,000
+This is part of that genome.
+
+145
+0:05:54.16,000 --> 0:05:57,000
+We add a bunch of short, synthetic DNAs that I call staples.
+
+146
+0:05:57.16,000 --> 0:06:01,000
+Each one has a left half that binds the long strand in one place,
+
+147
+0:06:01.16,000 --> 0:06:04,000
+and a right half that binds it in a different place,
+
+148
+0:06:04.16,000 --> 0:06:06,000
+and brings the long strand together like this.
+
+149
+0:06:07.16,000 --> 0:06:09,000
+The net action of many of these on that long strand
+
+150
+0:06:09.16,000 --> 0:06:11,000
+is to fold it into something like a rectangle.
+
+151
+0:06:11.16,000 --> 0:06:13,000
+Now, we can't actually take a movie of this process,
+
+152
+0:06:13.16,000 --> 0:06:15,000
+but Shawn Douglas at Harvard
+
+153
+0:06:15.16,000 --> 0:06:17,000
+has made a nice visualization for us
+
+154
+0:06:17.16,000 --> 0:06:21,000
+that begins with a long strand and has some short strands in it.
+
+155
+0:06:21.16,000 --> 0:06:25,000
+And what happens is that we mix these strands together.
+
+156
+0:06:25.16,000 --> 0:06:27,000
+We heat them up, we add a little bit of salt,
+
+157
+0:06:27.16,000 --> 0:06:29,000
+we heat them up to almost boiling and cool them down,
+
+158
+0:06:29.16,000 --> 0:06:3,000
+and as we cool them down,
+
+159
+0:06:30.16,000 --> 0:06:32,000
+the short strands bind the long strands
+
+160
+0:06:32.16,000 --> 0:06:34,000
+and start to form structure.
+
+161
+0:06:34.16,000 --> 0:06:37,000
+And you can see a little bit of double helix forming there.
+
+162
+0:06:38.16,000 --> 0:06:4,000
+When you look at DNA origami,
+
+163
+0:06:40.16,000 --> 0:06:43,000
+you can see that what it really is,
+
+164
+0:06:43.16,000 --> 0:06:44,000
+even though you think it's complicated,
+
+165
+0:06:44.16,000 --> 0:06:47,000
+is a bunch of double helices that are parallel to each other,
+
+166
+0:06:47.16,000 --> 0:06:49,000
+and they're held together
+
+167
+0:06:49.16,000 --> 0:06:51,000
+by places where short strands go along one helix
+
+168
+0:06:51.16,000 --> 0:06:53,000
+and then jump to another one.
+
+169
+0:06:53.16,000 --> 0:06:56,000
+So there's a strand that goes like this, goes along one helix and binds --
+
+170
+0:06:56.16,000 --> 0:06:58,000
+it jumps to another helix and comes back.
+
+171
+0:06:58.16,000 --> 0:07:,000
+That holds the long strand like this.
+
+172
+0:07:00.16,000 --> 0:07:03,000
+Now, to show that we could make any shape or pattern
+
+173
+0:07:03.16,000 --> 0:07:05,000
+that we wanted, I tried to make this shape.
+
+174
+0:07:06.16,000 --> 0:07:08,000
+I wanted to fold DNA into something that goes up over the eye,
+
+175
+0:07:08.16,000 --> 0:07:11,000
+down the nose, up the nose, around the forehead,
+
+176
+0:07:11.16,000 --> 0:07:14,000
+back down and end in a little loop like this.
+
+177
+0:07:14.16,000 --> 0:07:17,000
+And so, I thought, if this could work, anything could work.
+
+178
+0:07:17.16,000 --> 0:07:2,000
+So I had the computer program design the short staples to do this.
+
+179
+0:07:20.16,000 --> 0:07:22,000
+I ordered them; they came by FedEx.
+
+180
+0:07:22.16,000 --> 0:07:24,000
+I mixed them up, heated them, cooled them down,
+
+181
+0:07:24.16,000 --> 0:07:28,000
+and I got 50 billion little smiley faces
+
+182
+0:07:28.16,000 --> 0:07:3,000
+floating around in a single drop of water.
+
+183
+0:07:30.16,000 --> 0:07:32,000
+And each one of these is just
+
+184
+0:07:32.16,000 --> 0:07:36,000
+one-thousandth the width of a human hair, OK?
+
+185
+0:07:36.16,000 --> 0:07:39,000
+So, they're all floating around in solution, and to look at them,
+
+186
+0:07:39.16,000 --> 0:07:41,000
+you have to get them on a surface where they stick.
+
+187
+0:07:41.16,000 --> 0:07:43,000
+So, you pour them out onto a surface
+
+188
+0:07:43.16,000 --> 0:07:45,000
+and they start to stick to that surface,
+
+189
+0:07:45.16,000 --> 0:07:47,000
+and we take a picture using an atomic-force microscope.
+
+190
+0:07:47.16,000 --> 0:07:49,000
+It's got a needle, like a record needle,
+
+191
+0:07:49.16,000 --> 0:07:51,000
+that goes back and forth over the surface,
+
+192
+0:07:51.16,000 --> 0:07:54,000
+bumps up and down, and feels the height of the first surface.
+
+193
+0:07:54.16,000 --> 0:07:56,000
+It feels the DNA origami.
+
+194
+0:07:56.16,000 --> 0:07:58,000
+There's the atomic-force microscope working
+
+195
+0:07:59.16,000 --> 0:08:,000
+and you can see that the landing's a little rough.
+
+196
+0:08:00.16,000 --> 0:08:02,000
+When you zoom in, they've got, you know,
+
+197
+0:08:02.16,000 --> 0:08:03,000
+weak jaws that flip over their heads
+
+198
+0:08:03.16,000 --> 0:08:06,000
+and some of their noses get punched out, but it's pretty good.
+
+199
+0:08:06.16,000 --> 0:08:08,000
+You can zoom in and even see the extra little loop,
+
+200
+0:08:08.16,000 --> 0:08:1,000
+this little nano-goatee.
+
+201
+0:08:10.16,000 --> 0:08:13,000
+Now, what's great about this is anybody can do this.
+
+202
+0:08:13.16,000 --> 0:08:17,000
+And so, I got this in the mail about a year after I did this, unsolicited.
+
+203
+0:08:17.16,000 --> 0:08:2,000
+Anyone know what this is? What is it?
+
+204
+0:08:20.16,000 --> 0:08:22,000
+It's China, right?
+
+205
+0:08:22.16,000 --> 0:08:24,000
+So, what happened is, a graduate student in China,
+
+206
+0:08:24.16,000 --> 0:08:26,000
+Lulu Qian, did a great job.
+
+207
+0:08:26.16,000 --> 0:08:28,000
+She wrote all her own software
+
+208
+0:08:28.16,000 --> 0:08:3,000
+to design and built this DNA origami,
+
+209
+0:08:30.16,000 --> 0:08:33,000
+a beautiful rendition of China, which even has Taiwan,
+
+210
+0:08:33.16,000 --> 0:08:36,000
+and you can see it's sort of on the world's shortest leash, right?
+
+211
+0:08:36.16,000 --> 0:08:38,000
+(Laughter)
+
+212
+0:08:39.16,000 --> 0:08:4,000
+So, this works really well
+
+213
+0:08:41.16,000 --> 0:08:43,000
+and you can make patterns as well as shapes, OK?
+
+214
+0:08:44.16,000 --> 0:08:47,000
+And you can make a map of the Americas and spell DNA with DNA.
+
+215
+0:08:47.16,000 --> 0:08:5,000
+And what's really neat about it --
+
+216
+0:08:50.16,000 --> 0:08:52,000
+well, actually, this all looks like nano-artwork,
+
+217
+0:08:52.16,000 --> 0:08:53,000
+but it turns out that nano-artwork
+
+218
+0:08:53.16,000 --> 0:08:55,000
+is just what you need to make nano-circuits.
+
+219
+0:08:55.16,000 --> 0:08:57,000
+So, you can put circuit components on the staples,
+
+220
+0:08:57.16,000 --> 0:08:59,000
+like a light bulb and a light switch.
+
+221
+0:08:59.16,000 --> 0:09:02,000
+Let the thing assemble, and you'll get some kind of a circuit.
+
+222
+0:09:02.16,000 --> 0:09:05,000
+And then you can maybe wash the DNA away and have the circuit left over.
+
+223
+0:09:05.16,000 --> 0:09:07,000
+So, this is what some colleagues of mine at Caltech did.
+
+224
+0:09:07.16,000 --> 0:09:1,000
+They took a DNA origami, organized some carbon nano-tubes,
+
+225
+0:09:10.16,000 --> 0:09:12,000
+made a little switch, you see here, wired it up,
+
+226
+0:09:12.16,000 --> 0:09:15,000
+tested it and showed that it is indeed a switch.
+
+227
+0:09:15.16,000 --> 0:09:17,000
+Now, this is just a single switch
+
+228
+0:09:17.16,000 --> 0:09:21,000
+and you need half a billion for a computer, so we have a long way to go.
+
+229
+0:09:21.16,000 --> 0:09:23,000
+But this is very promising
+
+230
+0:09:23.16,000 --> 0:09:28,000
+because the origami can organize parts just one-tenth the size
+
+231
+0:09:28.16,000 --> 0:09:29,000
+of those in a normal computer.
+
+232
+0:09:29.16,000 --> 0:09:32,000
+So it's very promising for making small computers.
+
+233
+0:09:32.16,000 --> 0:09:35,000
+Now, I want to get back to that compiler.
+
+234
+0:09:35.16,000 --> 0:09:38,000
+The DNA origami is a proof that that compiler actually works.
+
+235
+0:09:39.16,000 --> 0:09:41,000
+So, you start with something in the computer.
+
+236
+0:09:41.16,000 --> 0:09:44,000
+You get a high-level description of the computer program,
+
+237
+0:09:44.16,000 --> 0:09:46,000
+a high-level description of the origami.
+
+238
+0:09:46.16,000 --> 0:09:49,000
+You can compile it to molecules, send it to a synthesizer,
+
+239
+0:09:49.16,000 --> 0:09:5,000
+and it actually works.
+
+240
+0:09:50.16,000 --> 0:09:54,000
+And it turns out that a company has made a nice program
+
+241
+0:09:54.16,000 --> 0:09:56,000
+that's much better than my code, which was kind of ugly,
+
+242
+0:09:56.16,000 --> 0:09:57,000
+and will allow us to do this in a nice,
+
+243
+0:09:57.16,000 --> 0:09:59,000
+visual, computer-aided design way.
+
+244
+0:10:00.16,000 --> 0:10:01,000
+So, now you can say, all right,
+
+245
+0:10:01.16,000 --> 0:10:03,000
+why isn't DNA origami the end of the story?
+
+246
+0:10:03.16,000 --> 0:10:05,000
+You have your molecular compiler, you can do whatever you want.
+
+247
+0:10:05.16,000 --> 0:10:08,000
+The fact is that it does not scale.
+
+248
+0:10:08.16,000 --> 0:10:11,000
+So if you want to build a human from DNA origami,
+
+249
+0:10:11.16,000 --> 0:10:13,000
+the problem is, you need a long strand
+
+250
+0:10:13.16,000 --> 0:10:16,000
+that's 10 trillion trillion bases long.
+
+251
+0:10:16.16,000 --> 0:10:18,000
+That's three light years' worth of DNA,
+
+252
+0:10:18.16,000 --> 0:10:2,000
+so we're not going to do this.
+
+253
+0:10:20.16,000 --> 0:10:22,000
+We're going to turn to another technology,
+
+254
+0:10:22.16,000 --> 0:10:24,000
+called algorithmic self-assembly of tiles.
+
+255
+0:10:24.16,000 --> 0:10:26,000
+It was started by Erik Winfree,
+
+256
+0:10:26.16,000 --> 0:10:27,000
+and what it does,
+
+257
+0:10:27.16,000 --> 0:10:31,000
+it has tiles that are a hundredth the size of a DNA origami.
+
+258
+0:10:31.16,000 --> 0:10:33,000
+You zoom in, there are just four DNA strands
+
+259
+0:10:34.16,000 --> 0:10:36,000
+and they have little single-stranded bits on them
+
+260
+0:10:36.16,000 --> 0:10:38,000
+that can bind to other tiles, if they match.
+
+261
+0:10:38.16,000 --> 0:10:41,000
+And we like to draw these tiles as little squares.
+
+262
+0:10:42.16,000 --> 0:10:44,000
+And if you look at their sticky ends, these little DNA bits,
+
+263
+0:10:44.16,000 --> 0:10:47,000
+you can see that they actually form a checkerboard pattern.
+
+264
+0:10:47.16,000 --> 0:10:5,000
+So, these tiles would make a complicated, self-assembling checkerboard.
+
+265
+0:10:50.16,000 --> 0:10:52,000
+And the point of this, if you didn't catch that,
+
+266
+0:10:52.16,000 --> 0:10:55,000
+is that tiles are a kind of molecular program
+
+267
+0:10:55.16,000 --> 0:10:58,000
+and they can output patterns.
+
+268
+0:10:58.16,000 --> 0:11:,000
+And a really amazing part of this is
+
+269
+0:11:00.16,000 --> 0:11:02,000
+that any computer program can be translated
+
+270
+0:11:02.16,000 --> 0:11:05,000
+into one of these tile programs -- specifically, counting.
+
+271
+0:11:05.16,000 --> 0:11:08,000
+So, you can come up with a set of tiles
+
+272
+0:11:08.16,000 --> 0:11:11,000
+that when they come together, form a little binary counter
+
+273
+0:11:11.16,000 --> 0:11:13,000
+rather than a checkerboard.
+
+274
+0:11:13.16,000 --> 0:11:16,000
+So you can read off binary numbers five, six and seven.
+
+275
+0:11:16.16,000 --> 0:11:19,000
+And in order to get these kinds of computations started right,
+
+276
+0:11:19.16,000 --> 0:11:21,000
+you need some kind of input, a kind of seed.
+
+277
+0:11:21.16,000 --> 0:11:23,000
+You can use DNA origami for that.
+
+278
+0:11:23.16,000 --> 0:11:25,000
+You can encode the number 32
+
+279
+0:11:25.16,000 --> 0:11:27,000
+in the right-hand side of a DNA origami,
+
+280
+0:11:27.16,000 --> 0:11:29,000
+and when you add those tiles that count,
+
+281
+0:11:29.16,000 --> 0:11:32,000
+they will start to count -- they will read that 32
+
+282
+0:11:32.16,000 --> 0:11:34,000
+and they'll stop at 32.
+
+283
+0:11:34.16,000 --> 0:11:37,000
+So, what we've done is we've figured out a way
+
+284
+0:11:37.16,000 --> 0:11:4,000
+to have a molecular program know when to stop going.
+
+285
+0:11:40.16,000 --> 0:11:42,000
+It knows when to stop growing because it can count.
+
+286
+0:11:42.16,000 --> 0:11:44,000
+It knows how big it is.
+
+287
+0:11:44.16,000 --> 0:11:47,000
+So, that answers that sort of first question I was talking about.
+
+288
+0:11:47.16,000 --> 0:11:5,000
+It doesn't tell us how babies do it, however.
+
+289
+0:11:50.16,000 --> 0:11:54,000
+So now, we can use this counting to try and get at much bigger things
+
+290
+0:11:54.16,000 --> 0:11:55,000
+than DNA origami could otherwise.
+
+291
+0:11:55.16,000 --> 0:11:58,000
+Here's the DNA origami, and what we can do
+
+292
+0:11:58.16,000 --> 0:12:01,000
+is we can write 32 on both edges of the DNA origami,
+
+293
+0:12:01.16,000 --> 0:12:03,000
+and we can now use our watering can
+
+294
+0:12:03.16,000 --> 0:12:07,000
+and water with tiles, and we can start growing tiles off of that
+
+295
+0:12:07.16,000 --> 0:12:09,000
+and create a square.
+
+296
+0:12:09.16,000 --> 0:12:12,000
+The counter serves as a template
+
+297
+0:12:12.16,000 --> 0:12:14,000
+to fill in a square in the middle of this thing.
+
+298
+0:12:14.16,000 --> 0:12:15,000
+So, what we've done is we've succeeded
+
+299
+0:12:15.16,000 --> 0:12:18,000
+in making something much bigger than a DNA origami
+
+300
+0:12:18.16,000 --> 0:12:21,000
+by combining DNA origami with tiles.
+
+301
+0:12:21.16,000 --> 0:12:24,000
+And the neat thing about it is, is that it's also reprogrammable.
+
+302
+0:12:24.16,000 --> 0:12:28,000
+You can just change a couple of the DNA strands in this binary representation
+
+303
+0:12:28.16,000 --> 0:12:31,000
+and you'll get 96 rather than 32.
+
+304
+0:12:31.16,000 --> 0:12:34,000
+And if you do that, the origami's the same size,
+
+305
+0:12:34.16,000 --> 0:12:38,000
+but the resulting square that you get is three times bigger.
+
+306
+0:12:39.16,000 --> 0:12:4,000
+So, this sort of recapitulates
+
+307
+0:12:40.16,000 --> 0:12:42,000
+what I was telling you about development.
+
+308
+0:12:42.16,000 --> 0:12:45,000
+You have a very sensitive computer program
+
+309
+0:12:45.16,000 --> 0:12:48,000
+where small changes -- single, tiny, little mutations --
+
+310
+0:12:48.16,000 --> 0:12:5,000
+can take something that made one size square
+
+311
+0:12:50.16,000 --> 0:12:53,000
+and make something very much bigger.
+
+312
+0:12:54.16,000 --> 0:12:57,000
+Now, this -- using counting to compute
+
+313
+0:12:57.16,000 --> 0:12:59,000
+and build these kinds of things
+
+314
+0:12:59.16,000 --> 0:13:01,000
+by this kind of developmental process
+
+315
+0:13:01.16,000 --> 0:13:05,000
+is something that also has bearing on Craig Venter's question.
+
+316
+0:13:05.16,000 --> 0:13:07,000
+So, you can ask, how many DNA strands are required
+
+317
+0:13:07.16,000 --> 0:13:09,000
+to build a square of a given size?
+
+318
+0:13:09.16,000 --> 0:13:14,000
+If we wanted to make a square of size 10, 100 or 1,000,
+
+319
+0:13:14.16,000 --> 0:13:16,000
+if we used DNA origami alone,
+
+320
+0:13:16.16,000 --> 0:13:19,000
+we would require a number of DNA strands that's the square
+
+321
+0:13:19.16,000 --> 0:13:21,000
+of the size of that square;
+
+322
+0:13:21.16,000 --> 0:13:23,000
+so we'd need 100, 10,000 or a million DNA strands.
+
+323
+0:13:23.16,000 --> 0:13:25,000
+That's really not affordable.
+
+324
+0:13:25.16,000 --> 0:13:27,000
+But if we use a little computation --
+
+325
+0:13:27.16,000 --> 0:13:31,000
+we use origami, plus some tiles that count --
+
+326
+0:13:31.16,000 --> 0:13:34,000
+then we can get away with using 100, 200 or 300 DNA strands.
+
+327
+0:13:34.16,000 --> 0:13:39,000
+And so we can exponentially reduce the number of DNA strands we use,
+
+328
+0:13:39.16,000 --> 0:13:42,000
+if we use counting, if we use a little bit of computation.
+
+329
+0:13:42.16,000 --> 0:13:45,000
+And so computation is some very powerful way
+
+330
+0:13:45.16,000 --> 0:13:48,000
+to reduce the number of molecules you need to build something,
+
+331
+0:13:48.16,000 --> 0:13:51,000
+to reduce the size of the genome that you're building.
+
+332
+0:13:51.16,000 --> 0:13:54,000
+And finally, I'm going to get back to that sort of crazy idea
+
+333
+0:13:54.16,000 --> 0:13:56,000
+about computers building computers.
+
+334
+0:13:56.16,000 --> 0:13:59,000
+If you look at the square that you build with the origami
+
+335
+0:13:59.16,000 --> 0:14:01,000
+and some counters growing off it,
+
+336
+0:14:01.16,000 --> 0:14:04,000
+the pattern that it has is exactly the pattern that you need
+
+337
+0:14:04.16,000 --> 0:14:05,000
+to make a memory.
+
+338
+0:14:05.16,000 --> 0:14:08,000
+So if you affix some wires and switches to those tiles --
+
+339
+0:14:08.16,000 --> 0:14:11,000
+rather than to the staple strands, you affix them to the tiles --
+
+340
+0:14:11.16,000 --> 0:14:14,000
+then they'll self-assemble the somewhat complicated circuits,
+
+341
+0:14:14.16,000 --> 0:14:17,000
+the demultiplexer circuits, that you need to address this memory.
+
+342
+0:14:17.16,000 --> 0:14:19,000
+So you can actually make a complicated circuit
+
+343
+0:14:19.16,000 --> 0:14:21,000
+using a little bit of computation.
+
+344
+0:14:21.16,000 --> 0:14:24,000
+It's a molecular computer building an electronic computer.
+
+345
+0:14:24.16,000 --> 0:14:27,000
+Now, you ask me, how far have we gotten down this path?
+
+346
+0:14:27.16,000 --> 0:14:3,000
+Experimentally, this is what we've done in the last year.
+
+347
+0:14:30.16,000 --> 0:14:32,000
+Here is a DNA origami rectangle,
+
+348
+0:14:33.16,000 --> 0:14:35,000
+and here are some tiles growing from it.
+
+349
+0:14:35.16,000 --> 0:14:37,000
+And you can see how they count.
+
+350
+0:14:37.16,000 --> 0:14:49,000
+One, two, three, four, five, six, nine, 10, 11, 12, 17.
+
+351
+0:14:49.16,000 --> 0:14:53,000
+So it's got some errors, but at least it counts up.
+
+352
+0:14:53.16,000 --> 0:14:54,000
+(Laughter)
+
+353
+0:14:54.16,000 --> 0:14:57,000
+So, it turns out we actually had this idea nine years ago,
+
+354
+0:14:57.16,000 --> 0:15:,000
+and that's about the time constant for how long it takes
+
+355
+0:15:00.16,000 --> 0:15:02,000
+to do these kinds of things, so I think we made a lot of progress.
+
+356
+0:15:02.16,000 --> 0:15:04,000
+We've got ideas about how to fix these errors.
+
+357
+0:15:04.16,000 --> 0:15:06,000
+And I think in the next five or 10 years,
+
+358
+0:15:06.16,000 --> 0:15:08,000
+we'll make the kind of squares that I described
+
+359
+0:15:08.16,000 --> 0:15:11,000
+and maybe even get to some of those self-assembled circuits.
+
+360
+0:15:11.16,000 --> 0:15:15,000
+So now, what do I want you to take away from this talk?
+
+361
+0:15:15.16,000 --> 0:15:17,000
+I want you to remember that
+
+362
+0:15:17.16,000 --> 0:15:21,000
+to create life's very diverse and complex forms,
+
+363
+0:15:21.16,000 --> 0:15:23,000
+life uses computation to do that.
+
+364
+0:15:23.16,000 --> 0:15:27,000
+And the computations that it uses, they're molecular computations,
+
+365
+0:15:27.16,000 --> 0:15:29,000
+and in order to understand this and get a better handle on it,
+
+366
+0:15:29.16,000 --> 0:15:31,000
+as Feynman said, you know,
+
+367
+0:15:31.16,000 --> 0:15:33,000
+we need to build something to understand it.
+
+368
+0:15:33.16,000 --> 0:15:37,000
+And so we are going to use molecules and refashion this thing,
+
+369
+0:15:37.16,000 --> 0:15:39,000
+rebuild everything from the bottom up,
+
+370
+0:15:39.16,000 --> 0:15:42,000
+using DNA in ways that nature never intended,
+
+371
+0:15:42.16,000 --> 0:15:44,000
+using DNA origami,
+
+372
+0:15:44.16,000 --> 0:15:47,000
+and DNA origami to seed this algorithmic self-assembly.
+
+373
+0:15:47.16,000 --> 0:15:49,000
+You know, so this is all very cool,
+
+374
+0:15:50.16,000 --> 0:15:51,000
+but what I'd like you to take from the talk,
+
+375
+0:15:51.16,000 --> 0:15:53,000
+hopefully from some of those big questions,
+
+376
+0:15:53.16,000 --> 0:15:56,000
+is that this molecular programming isn't just about making gadgets.
+
+377
+0:15:56.16,000 --> 0:15:58,000
+It's not just making about --
+
+378
+0:15:58.16,000 --> 0:16:,000
+it's making self-assembled cell phones and circuits.
+
+379
+0:16:00.16,000 --> 0:16:02,000
+What it's really about is taking computer science
+
+380
+0:16:02.16,000 --> 0:16:05,000
+and looking at big questions in a new light,
+
+381
+0:16:05.16,000 --> 0:16:07,000
+asking new versions of those big questions
+
+382
+0:16:07.16,000 --> 0:16:09,000
+and trying to understand how biology
+
+383
+0:16:09.16,000 --> 0:16:11,000
+can make such amazing things. Thank you.
+
+384
+0:16:12.16,000 --> 0:16:19,000
+(Applause)
+

@@ -1,0 +1,1320 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Amaranta Heredia Jaén
+
+2
+0:00:15.26,000 --> 0:00:17,000
+Buenas tardes a todos.
+
+3
+0:00:17.26,000 --> 0:00:2,000
+Tengo algo que mostrarles.
+
+4
+0:00:37.26,000 --> 0:00:39,000
+(Risas)
+
+5
+0:00:39.26,000 --> 0:00:42,000
+Piensen que es un píxel, un píxel volador.
+
+6
+0:00:42.26,000 --> 0:00:45,000
+En nuestro laboratorio lo llamamos diseño sensible.
+
+7
+0:00:45.26,000 --> 0:00:47,000
+Les voy a contar un poco sobre esto.
+
+8
+0:00:47.26,000 --> 0:00:5,000
+Si se fijan en esta foto... soy de origen italiano,
+
+9
+0:00:50.26,000 --> 0:00:52,000
+todos los niños en Italia crecen
+
+10
+0:00:52.26,000 --> 0:00:54,000
+con esta foto en la pared de su dormitorio.
+
+11
+0:00:54.26,000 --> 0:00:56,000
+Pero la razón por la que les muestro esto
+
+12
+0:00:56.26,000 --> 0:00:58,000
+es que ha sucedido algo muy interesante
+
+13
+0:00:58.26,000 --> 0:01:,000
+en las carreras de Fórmula 1
+
+14
+0:01:00.26,000 --> 0:01:02,000
+en las últimas dos décadas.
+
+15
+0:01:02.26,000 --> 0:01:04,000
+Hace ya algún tiempo,
+
+16
+0:01:04.26,000 --> 0:01:06,000
+si uno quería ganar una carrera de Fórmula 1,
+
+17
+0:01:06.26,000 --> 0:01:08,000
+tomaba un presupuesto y lo apostaba
+
+18
+0:01:08.26,000 --> 0:01:11,000
+a un buen piloto y un buen coche,
+
+19
+0:01:11.26,000 --> 0:01:14,000
+y si el coche y el piloto eran lo suficientemente buenos, uno ganaba la carrera.
+
+20
+0:01:14.26,000 --> 0:01:16,000
+Pero hoy, si uno quiere ganar una carrera,
+
+21
+0:01:16.26,000 --> 0:01:19,000
+hace falta también algo como esto...
+
+22
+0:01:19.26,000 --> 0:01:22,000
+Algo que monitoree el coche en tiempo real,
+
+23
+0:01:22.26,000 --> 0:01:24,000
+con miles de sensores
+
+24
+0:01:24.26,000 --> 0:01:26,000
+que recopilan información
+
+25
+0:01:26.26,000 --> 0:01:29,000
+y la transmiten al sistema
+
+26
+0:01:29.26,000 --> 0:01:31,000
+para luego procesarla
+
+27
+0:01:31.26,000 --> 0:01:34,000
+y usarla para darle instrucciones al coche
+
+28
+0:01:34.26,000 --> 0:01:36,000
+y cambiar cosas en tiempo real
+
+29
+0:01:36.26,000 --> 0:01:38,000
+a medida que se recopila información.
+
+30
+0:01:38.26,000 --> 0:01:4,000
+Esto es lo que, en ingeniería,
+
+31
+0:01:40.26,000 --> 0:01:43,000
+se denominaría sistema de control en tiempo real.
+
+32
+0:01:43.26,000 --> 0:01:46,000
+En esencia es un sistema que tiene dos componentes:
+
+33
+0:01:46.26,000 --> 0:01:48,000
+un sensor y un accionador.
+
+34
+0:01:48.26,000 --> 0:01:5,000
+Hoy lo interesante
+
+35
+0:01:50.26,000 --> 0:01:52,000
+es que los sistemas de control en tiempo real
+
+36
+0:01:52.26,000 --> 0:01:55,000
+están empezando a entrar en nuestras vidas.
+
+37
+0:01:55.26,000 --> 0:01:58,000
+Nuestras ciudades, en los últimos años,
+
+38
+0:01:58.26,000 --> 0:02:,000
+han sido cubiertas
+
+39
+0:02:00.26,000 --> 0:02:02,000
+de redes y electrónica.
+
+40
+0:02:02.26,000 --> 0:02:04,000
+Se están volviendo computadoras al aire libre.
+
+41
+0:02:04.26,000 --> 0:02:06,000
+Y, como tales,
+
+42
+0:02:06.26,000 --> 0:02:08,000
+están empezando a responder de manera diferente
+
+43
+0:02:08.26,000 --> 0:02:11,000
+y pueden ser detectadas y accionadas.
+
+44
+0:02:11.26,000 --> 0:02:13,000
+Acondicionar las ciudades es algo grande.
+
+45
+0:02:13.26,000 --> 0:02:15,000
+Como nota aparte quería mencionar
+
+46
+0:02:15.26,000 --> 0:02:19,000
+que las ciudades son sólo el 2% de la corteza del planeta
+
+47
+0:02:19.26,000 --> 0:02:22,000
+pero representan el 50% de la población mundial;
+
+48
+0:02:22.26,000 --> 0:02:25,000
+el 75% del consumo de energía...
+
+49
+0:02:25.26,000 --> 0:02:28,000
+y hasta el 80% de las emisiones de CO2.
+
+50
+0:02:28.26,000 --> 0:02:31,000
+Si pudiéramos hacer algo con las ciudades, sería algo grande.
+
+51
+0:02:31.26,000 --> 0:02:33,000
+Más allá de las ciudades,
+
+52
+0:02:33.26,000 --> 0:02:36,000
+todas estas detecciones y activaciones
+
+53
+0:02:36.26,000 --> 0:02:38,000
+están entrando en nuestros objetos cotidianos.
+
+54
+0:02:38.26,000 --> 0:02:4,000
+Esto es de una exhibición
+
+55
+0:02:40.26,000 --> 0:02:42,000
+de Paola Antonelli
+
+56
+0:02:42.26,000 --> 0:02:44,000
+para fines de año en el MoMA, durante el verano.
+
+57
+0:02:44.26,000 --> 0:02:46,000
+Se llama "Talk to Me" (Háblame, NT)
+
+58
+0:02:46.26,000 --> 0:02:48,000
+Bueno, nuestros objetos, el entorno,
+
+59
+0:02:48.26,000 --> 0:02:5,000
+empiezan a hablarnos.
+
+60
+0:02:50.26,000 --> 0:02:53,000
+En cierto modo es como si casi todos los átomos existentes
+
+61
+0:02:53.26,000 --> 0:02:56,000
+se volvieran sensores y actuadores.
+
+62
+0:02:56.26,000 --> 0:02:59,000
+Y eso está cambiando por completo la interacción que como humanos tenemos
+
+63
+0:02:59.26,000 --> 0:03:01,000
+con el entorno exterior.
+
+64
+0:03:01.26,000 --> 0:03:03,000
+En cierto sentido
+
+65
+0:03:03.26,000 --> 0:03:06,000
+es casi como en el viejo sueño de Miguel Ángel...
+
+66
+0:03:06.26,000 --> 0:03:08,000
+Ya saben, cuando Miguel Ángel esculpió el Moisés,
+
+67
+0:03:08.26,000 --> 0:03:11,000
+se dice que al final tomó el martillo y se lo arrojó al Moisés
+
+68
+0:03:11.26,000 --> 0:03:14,000
+-de hecho aún se puede ver una pequeña mella debajo-
+
+69
+0:03:14.26,000 --> 0:03:16,000
+y dijo gritando:
+
+70
+0:03:16.26,000 --> 0:03:18,000
+"Perché non parli?" (¿por qué no hablas?).
+
+71
+0:03:18.26,000 --> 0:03:2,000
+Bueno, hoy, por primera vez,
+
+72
+0:03:20.26,000 --> 0:03:23,000
+nuestro entorno empieza a hablarnos.
+
+73
+0:03:23.26,000 --> 0:03:25,000
+Y les voy a mostrar sólo unos ejemplos;
+
+74
+0:03:25.26,000 --> 0:03:28,000
+insistiendo en la idea de captar el entorno y accionar algo.
+
+75
+0:03:28.26,000 --> 0:03:31,000
+Empecemos con la detección.
+
+76
+0:03:31.26,000 --> 0:03:33,000
+El primer proyecto que quería compartir con Uds.
+
+77
+0:03:33.26,000 --> 0:03:36,000
+es en verdad uno de los primeros proyectos de nuestro laboratorio.
+
+78
+0:03:36.26,000 --> 0:03:39,000
+Esto fue hace 4 años y medio en Italia.
+
+79
+0:03:39.26,000 --> 0:03:41,000
+Lo que hicimos allí
+
+80
+0:03:41.26,000 --> 0:03:43,000
+fue usar un nuevo tipo de red de ese momento
+
+81
+0:03:43.26,000 --> 0:03:45,000
+que se había desarrollado por todo el mundo
+
+82
+0:03:45.26,000 --> 0:03:47,000
+-la red de telefonía celular-
+
+83
+0:03:47.26,000 --> 0:03:49,000
+y consolidamos información anónima de esa red
+
+84
+0:03:49.26,000 --> 0:03:51,000
+que de todos modos era recopilada por el operador
+
+85
+0:03:51.26,000 --> 0:03:53,000
+para entender
+
+86
+0:03:53.26,000 --> 0:03:55,000
+el funcionamiento de la ciudad.
+
+87
+0:03:55.26,000 --> 0:03:58,000
+Fue un verano con suerte el de 2006.
+
+88
+0:03:58.26,000 --> 0:04:01,000
+Fue el año en que Italia ganó la Copa del Mundo.
+
+89
+0:04:01.26,000 --> 0:04:04,000
+Quizá algunos lo recuerden, jugaban Italia y Francia,
+
+90
+0:04:04.26,000 --> 0:04:06,000
+y al final Zidane dio el cabezazo.
+
+91
+0:04:06.26,000 --> 0:04:08,000
+Y de todos modos, al final ganó Italia.
+
+92
+0:04:08.26,000 --> 0:04:1,000
+(Risas)
+
+93
+0:04:10.26,000 --> 0:04:12,000
+Ahora veamos qué pasó ese día
+
+94
+0:04:12.26,000 --> 0:04:14,000
+observando la actividad
+
+95
+0:04:14.26,000 --> 0:04:16,000
+ocurrida en la red.
+
+96
+0:04:16.26,000 --> 0:04:18,000
+Aquí vemos la ciudad.
+
+97
+0:04:18.26,000 --> 0:04:21,000
+Se ve el Coliseo en el medio
+
+98
+0:04:21.26,000 --> 0:04:24,000
+y el río Tíber.
+
+99
+0:04:24.26,000 --> 0:04:26,000
+Es la mañana, antes del juego.
+
+100
+0:04:26.26,000 --> 0:04:28,000
+La línea de tiempo está en la parte superior.
+
+101
+0:04:28.26,000 --> 0:04:3,000
+Por la tarde temprano
+
+102
+0:04:30.26,000 --> 0:04:32,000
+hay gente por aquí y allá
+
+103
+0:04:32.26,000 --> 0:04:34,000
+haciendo llamadas, moviéndose.
+
+104
+0:04:34.26,000 --> 0:04:37,000
+Comienza el partido: silencio.
+
+105
+0:04:37.26,000 --> 0:04:4,000
+Gol de Francia. Gol de Italia.
+
+106
+0:04:40.26,000 --> 0:04:44,000
+Entretiempo; la gente hace una llamada rápida y va al baño.
+
+107
+0:04:44.26,000 --> 0:04:46,000
+Segundo tiempo. Fin del tiempo reglamentario.
+
+108
+0:04:46.26,000 --> 0:04:48,000
+Primer tiempo adicional; segundo.
+
+109
+0:04:48.26,000 --> 0:04:51,000
+Zidane, y en un momento, el cabezazo.
+
+110
+0:04:51.26,000 --> 0:04:53,000
+Gana Italia, ¡sí!
+
+111
+0:04:53.26,000 --> 0:04:55,000
+(Risas)
+
+112
+0:04:55.26,000 --> 0:04:58,000
+(Aplausos)
+
+113
+0:04:58.26,000 --> 0:05:,000
+Esa noche todos fueron a celebrarlo al centro.
+
+114
+0:05:00.26,000 --> 0:05:02,000
+Ahí ven el gran pico.
+
+115
+0:05:02.26,000 --> 0:05:04,000
+Al día siguiente todos fueron al centro
+
+116
+0:05:04.26,000 --> 0:05:07,000
+al encuentro del equipo ganador
+
+117
+0:05:07.26,000 --> 0:05:09,000
+y del primer ministro de entonces.
+
+118
+0:05:09.26,000 --> 0:05:11,000
+Y luego todo el mundo bajó.
+
+119
+0:05:11.26,000 --> 0:05:13,000
+Ven la imagen del lugar llamado Circo Massimo
+
+120
+0:05:13.26,000 --> 0:05:16,000
+donde, desde la época romana, la gente va a celebrar;
+
+121
+0:05:16.26,000 --> 0:05:19,000
+es una gran fiesta, puede verse el pico al final del día.
+
+122
+0:05:19.26,000 --> 0:05:21,000
+Este es sólo un ejemplo de cómo hoy se puede medir el pulso de la ciudad
+
+123
+0:05:21.26,000 --> 0:05:23,000
+de un modo que no habríamos podido hacer
+
+124
+0:05:23.26,000 --> 0:05:25,000
+hace sólo unos años.
+
+125
+0:05:25.26,000 --> 0:05:27,000
+Otro ejemplo rápido de detección:
+
+126
+0:05:27.26,000 --> 0:05:29,000
+no se trata de gente,
+
+127
+0:05:29.26,000 --> 0:05:31,000
+sino de cosas que usamos y consumimos.
+
+128
+0:05:31.26,000 --> 0:05:33,000
+Hoy en día sabemos todo
+
+129
+0:05:33.26,000 --> 0:05:36,000
+sobre la procedencia de nuestros objetos.
+
+130
+0:05:36.26,000 --> 0:05:38,000
+Este es un mapa que muestra
+
+131
+0:05:38.26,000 --> 0:05:41,000
+todos los chips que conforman una Mac, cómo se ensamblan.
+
+132
+0:05:41.26,000 --> 0:05:44,000
+Pero sabemos muy poco sobre adónde van las cosas.
+
+133
+0:05:44.26,000 --> 0:05:46,000
+Por eso en este proyecto
+
+134
+0:05:46.26,000 --> 0:05:48,000
+desarrollamos unas etiquetas pequeñas
+
+135
+0:05:48.26,000 --> 0:05:51,000
+para rastrear la basura en su desplazamiento por el sistema.
+
+136
+0:05:51.26,000 --> 0:05:54,000
+Empezamos con unos voluntarios
+
+137
+0:05:54.26,000 --> 0:05:56,000
+que nos ayudaron en Seattle
+
+138
+0:05:56.26,000 --> 0:05:58,000
+hace poco más de un año,
+
+139
+0:05:58.26,000 --> 0:06:01,000
+a etiquetar lo que estaban arrojando;
+
+140
+0:06:01.26,000 --> 0:06:04,000
+distinto tipo de cosas, como pueden ver,
+
+141
+0:06:04.26,000 --> 0:06:06,000
+cosas que de todos modos tirarían.
+
+142
+0:06:06.26,000 --> 0:06:08,000
+Luego les pusimos un pequeño chip, una etiqueta,
+
+143
+0:06:08.26,000 --> 0:06:1,000
+a la basura
+
+144
+0:06:10.26,000 --> 0:06:12,000
+y luego empezamos a rastrearla.
+
+145
+0:06:12.26,000 --> 0:06:15,000
+Estos son los resultados obtenidos.
+
+146
+0:06:15.26,000 --> 0:06:18,000
+(Música)
+
+147
+0:06:18.26,000 --> 0:06:21,000
+Partiendo de Seattle...
+
+148
+0:06:26.26,000 --> 0:06:28,000
+después de una semana.
+
+149
+0:06:53.26,000 --> 0:06:55,000
+Con esta información nos dimos cuenta
+
+150
+0:06:55.26,000 --> 0:06:57,000
+de que hay muchas ineficiencias en el sistema.
+
+151
+0:06:57.26,000 --> 0:07:,000
+Podemos hacer lo mismo con mucha menos energía.
+
+152
+0:07:00.26,000 --> 0:07:02,000
+Estos son datos que antes no existían.
+
+153
+0:07:02.26,000 --> 0:07:05,000
+Están sucediendo cosas complicadas y hay mucho transporte innecesario.
+
+154
+0:07:05.26,000 --> 0:07:07,000
+Pero la otra cosa que creemos
+
+155
+0:07:07.26,000 --> 0:07:09,000
+es que si vemos todos los días
+
+156
+0:07:09.26,000 --> 0:07:11,000
+que la taza que arrojamos no desaparece,
+
+157
+0:07:11.26,000 --> 0:07:13,000
+que todavía está en algún lugar del planeta,
+
+158
+0:07:13.26,000 --> 0:07:16,000
+que si la botella de plástico que arrojamos un día todavía sigue ahí,
+
+159
+0:07:16.26,000 --> 0:07:18,000
+que si le mostramos eso a la gente,
+
+160
+0:07:18.26,000 --> 0:07:2,000
+entonces podremos promover algún cambio de conducta.
+
+161
+0:07:20.26,000 --> 0:07:22,000
+Esa fue la razón del proyecto.
+
+162
+0:07:22.26,000 --> 0:07:24,000
+Mi colega del MIT, Assaf Biderman,
+
+163
+0:07:24.26,000 --> 0:07:26,000
+podría contarnos mucho más sobre detección
+
+164
+0:07:26.26,000 --> 0:07:28,000
+y muchas otras cosas geniales que podemos hacer con eso,
+
+165
+0:07:28.26,000 --> 0:07:31,000
+pero quería ir a la segunda parte que mencionamos al principio,
+
+166
+0:07:31.26,000 --> 0:07:33,000
+que es accionar sobre el entorno.
+
+167
+0:07:33.26,000 --> 0:07:35,000
+Y el primer proyecto
+
+168
+0:07:35.26,000 --> 0:07:38,000
+es algo que hicimos hace un par de años en Zaragoza (España).
+
+169
+0:07:38.26,000 --> 0:07:41,000
+Todo comenzó con una pregunta del alcalde de la ciudad,
+
+170
+0:07:41.26,000 --> 0:07:43,000
+que vino y nos dijo
+
+171
+0:07:43.26,000 --> 0:07:46,000
+que España y el sur de Europa tienen una hermosa tradición
+
+172
+0:07:46.26,000 --> 0:07:49,000
+del uso del agua en espacios públicos, en la arquitectura.
+
+173
+0:07:49.26,000 --> 0:07:51,000
+Y la pregunta fue: ¿cómo puede la tecnología, la nueva tecnología,
+
+174
+0:07:51.26,000 --> 0:07:53,000
+sumarse a eso?
+
+175
+0:07:53.26,000 --> 0:07:56,000
+Y una de las ideas que desarrollamos en el MIT, en un taller,
+
+176
+0:07:56.26,000 --> 0:07:59,000
+fue: imaginen que tienen un caño y válvulas,
+
+177
+0:07:59.26,000 --> 0:08:01,000
+válvulas de solenoide, lengüetas
+
+178
+0:08:01.26,000 --> 0:08:03,000
+que se abren y se cierran.
+
+179
+0:08:03.26,000 --> 0:08:06,000
+Se crea como una cortina de agua, con píxeles de agua.
+
+180
+0:08:06.26,000 --> 0:08:08,000
+Si caen los píxeles
+
+181
+0:08:08.26,000 --> 0:08:1,000
+se puede escribir en ellos,
+
+182
+0:08:10.26,000 --> 0:08:12,000
+mostrar patrones, imágenes, textos.
+
+183
+0:08:12.26,000 --> 0:08:14,000
+Y al acercarnos, la cortina se abrirá
+
+184
+0:08:14.26,000 --> 0:08:16,000
+para que podamos pasar,
+
+185
+0:08:16.26,000 --> 0:08:18,000
+como ven en la imagen.
+
+186
+0:08:18.26,000 --> 0:08:2,000
+Le presentamos esto al alcalde Belloch.
+
+187
+0:08:20.26,000 --> 0:08:22,000
+Le gustó mucho
+
+188
+0:08:22.26,000 --> 0:08:24,000
+y designó una comisión para diseñar el edificio
+
+189
+0:08:24.26,000 --> 0:08:26,000
+a la entrada de la Expo.
+
+190
+0:08:26.26,000 --> 0:08:28,000
+Lo llamamos Pabellón de Agua Digital.
+
+191
+0:08:28.26,000 --> 0:08:31,000
+Todo el edificio está hecho de agua.
+
+192
+0:08:33.26,000 --> 0:08:35,000
+No hay puertas ni ventanas,
+
+193
+0:08:35.26,000 --> 0:08:37,000
+pero cuando uno se aproxima
+
+194
+0:08:37.26,000 --> 0:08:39,000
+se abre para que uno pueda pasar.
+
+195
+0:08:39.26,000 --> 0:08:45,000
+(Música)
+
+196
+0:08:52.26,000 --> 0:08:55,000
+El techo también está cubierto de agua.
+
+197
+0:08:57.26,000 --> 0:08:59,000
+Y si hay un poco de viento,
+
+198
+0:08:59.26,000 --> 0:09:02,000
+si se quieren minimizar las salpicaduras, se baja el techo.
+
+199
+0:09:04.26,000 --> 0:09:06,000
+O se puede cerrar el edificio
+
+200
+0:09:06.26,000 --> 0:09:08,000
+y toda la arquitectura desaparece,
+
+201
+0:09:08.26,000 --> 0:09:1,000
+como en este caso.
+
+202
+0:09:10.26,000 --> 0:09:12,000
+Esos días siempre habrá alguien, en el invierno,
+
+203
+0:09:12.26,000 --> 0:09:14,000
+cuando bajan el techo,
+
+204
+0:09:14.26,000 --> 0:09:17,000
+alguien que estuvo allí y que dijo: "Demolieron el edificio".
+
+205
+0:09:17.26,000 --> 0:09:19,000
+No, no es que lo hayan demolido, sino que cuando se baja
+
+206
+0:09:19.26,000 --> 0:09:21,000
+casi toda la arquitectura desaparece.
+
+207
+0:09:21.26,000 --> 0:09:24,000
+Aquí está en funcionamiento.
+
+208
+0:09:24.26,000 --> 0:09:27,000
+Se ve a las personas intrigadas por lo que pasa dentro.
+
+209
+0:09:27.26,000 --> 0:09:29,000
+Y aquí estoy yo mismo tratando de no mojarme
+
+210
+0:09:29.26,000 --> 0:09:32,000
+al probar los sensores que abren el agua.
+
+211
+0:09:32.26,000 --> 0:09:34,000
+Creo que debería contarles lo que sucedió una noche
+
+212
+0:09:34.26,000 --> 0:09:37,000
+cuando todos los sensores dejaron de funcionar.
+
+213
+0:09:37.26,000 --> 0:09:4,000
+Esa noche fue en verdad incluso más divertida.
+
+214
+0:09:40.26,000 --> 0:09:42,000
+Todos los niños de Zaragoza vinieron al edificio
+
+215
+0:09:42.26,000 --> 0:09:45,000
+porque la manera de interactuar había cambiado un poco.
+
+216
+0:09:45.26,000 --> 0:09:48,000
+Ya no era un edificio que se abría para dejarte pasar,
+
+217
+0:09:48.26,000 --> 0:09:51,000
+sino un edificio que seguía haciendo cortes y agujeros de agua
+
+218
+0:09:51.26,000 --> 0:09:53,000
+y uno tenía que saltar para no mojarse.
+
+219
+0:09:53.26,000 --> 0:10:06,000
+(Video) (Ruido de gente)
+
+220
+0:10:06.26,000 --> 0:10:08,000
+Y para nosotros eso fue muy interesante
+
+221
+0:10:08.26,000 --> 0:10:11,000
+porque como arquitectos, ingenieros, diseñadores,
+
+222
+0:10:11.26,000 --> 0:10:14,000
+siempre pensamos en el uso que la gente le dará a nuestros diseños.
+
+223
+0:10:14.26,000 --> 0:10:17,000
+Pero luego la realidad siempre es impredecible.
+
+224
+0:10:17.26,000 --> 0:10:19,000
+Y ésa es la belleza de hacer cosas
+
+225
+0:10:19.26,000 --> 0:10:21,000
+para interactuar, que la gente usa.
+
+226
+0:10:21.26,000 --> 0:10:23,000
+Ésta es una imagen del edificio
+
+227
+0:10:23.26,000 --> 0:10:25,000
+con los píxeles físicos, los píxeles de agua,
+
+228
+0:10:25.26,000 --> 0:10:28,000
+y de proyecciones sobre ellos.
+
+229
+0:10:28.26,000 --> 0:10:3,000
+Y esto es lo que nos llevó a pensar
+
+230
+0:10:30.26,000 --> 0:10:32,000
+en el siguiente proyecto que les voy a mostrar.
+
+231
+0:10:32.26,000 --> 0:10:35,000
+Imaginen que esos píxeles pudieran empezar a volar.
+
+232
+0:10:35.26,000 --> 0:10:37,000
+Imaginen que pudieran tener pequeños helicópteros
+
+233
+0:10:37.26,000 --> 0:10:39,000
+en el aire
+
+234
+0:10:39.26,000 --> 0:10:42,000
+y que cada uno tuviese un pequeño píxel que cambia de color
+
+235
+0:10:42.26,000 --> 0:10:45,000
+como si fuera una nube que se mueve en el espacio.
+
+236
+0:10:45.26,000 --> 0:10:47,000
+Éste es el video.
+
+237
+0:10:47.26,000 --> 0:10:53,000
+(Música)
+
+238
+0:10:53.26,000 --> 0:10:56,000
+Imaginen un helicóptero,
+
+239
+0:10:56.26,000 --> 0:10:59,000
+como el que vimos antes,
+
+240
+0:11:01.26,000 --> 0:11:04,000
+que se mueve con otros
+
+241
+0:11:04.26,000 --> 0:11:06,000
+en sincronía.
+
+242
+0:11:06.26,000 --> 0:11:09,000
+Podríamos formar esta nube,
+
+243
+0:11:15.26,000 --> 0:11:19,000
+una especie de pantalla flexible como ésta
+
+244
+0:11:19.26,000 --> 0:11:22,000
+con una configuración normal en dos dimensiones.
+
+245
+0:11:29.26,000 --> 0:11:32,000
+O normal, pero en tres dimensiones,
+
+246
+0:11:32.26,000 --> 0:11:34,000
+en la que lo que cambia es la luz,
+
+247
+0:11:34.26,000 --> 0:11:36,000
+no la posición de los píxeles.
+
+248
+0:11:46.26,000 --> 0:11:48,000
+Se puede jugar con un tipo diferente.
+
+249
+0:11:48.26,000 --> 0:11:5,000
+Imaginen que la pantalla apareciera
+
+250
+0:11:50.26,000 --> 0:11:53,000
+en distintas escalas y tamaños,
+
+251
+0:11:53.26,000 --> 0:11:56,000
+en distintos tipos de resolución.
+
+252
+0:12:05.26,000 --> 0:12:07,000
+Y que luego todo eso pudiera
+
+253
+0:12:07.26,000 --> 0:12:09,000
+una nube de píxeles en 3D
+
+254
+0:12:09.26,000 --> 0:12:12,000
+a la que uno puede acercarse, y atravesar,
+
+255
+0:12:12.26,000 --> 0:12:15,000
+y ver desde muy diversos ángulos.
+
+256
+0:12:15.26,000 --> 0:12:17,000
+Ésta es la verdadera Flyfire
+
+257
+0:12:17.26,000 --> 0:12:21,000
+controlada, yendo hacia abajo para formar una V, como antes.
+
+258
+0:12:21.26,000 --> 0:12:24,000
+Cuando se enciende la luz, se ve esto. Lo mismo que vimos antes.
+
+259
+0:12:24.26,000 --> 0:12:26,000
+Imaginen cada uno de ellos controlado por una persona.
+
+260
+0:12:26.26,000 --> 0:12:28,000
+Podemos tener cada pixel
+
+261
+0:12:28.26,000 --> 0:12:3,000
+con una entrada que viene de personas,
+
+262
+0:12:30.26,000 --> 0:12:32,000
+del movimiento de las personas, etc., etc.
+
+263
+0:12:32.26,000 --> 0:12:35,000
+Quiero mostrarles algo por primera vez.
+
+264
+0:12:35.26,000 --> 0:12:37,000
+Hemos estado trabajando con Roberto Bolle
+
+265
+0:12:37.26,000 --> 0:12:39,000
+-uno de los mejores bailarines de ballet de hoy,
+
+266
+0:12:39.26,000 --> 0:12:41,000
+la estrella del Metropolitan de Nueva York
+
+267
+0:12:41.26,000 --> 0:12:43,000
+y de La Scala de Milán-
+
+268
+0:12:43.26,000 --> 0:12:45,000
+para capturar sus movimientos en 3D
+
+269
+0:12:45.26,000 --> 0:12:48,000
+y usarlos como entrada para el Flyfire.
+
+270
+0:12:48.26,000 --> 0:12:51,000
+Aquí podemos ver a Roberto bailando.
+
+271
+0:12:53.26,000 --> 0:12:55,000
+A la izquierda ven los píxeles,
+
+272
+0:12:55.26,000 --> 0:12:57,000
+la captura en distintas resoluciones.
+
+273
+0:12:57.26,000 --> 0:12:59,000
+Es tanto digitalización 3D en tiempo real
+
+274
+0:12:59.26,000 --> 0:13:02,000
+como captura de movimiento.
+
+275
+0:13:03.26,000 --> 0:13:06,000
+Puede reconstruirse todo el movimiento.
+
+276
+0:13:10.26,000 --> 0:13:13,000
+Se puede recorrer todo el camino.
+
+277
+0:13:16.26,000 --> 0:13:18,000
+Y una vez que tenemos los píxeles podemos jugar con ellos,
+
+278
+0:13:18.26,000 --> 0:13:21,000
+con el color y el movimiento,
+
+279
+0:13:21.26,000 --> 0:13:24,000
+con la gravedad y la rotación.
+
+280
+0:13:24.26,000 --> 0:13:26,000
+Queremos usar esto como una posible entrada
+
+281
+0:13:26.26,000 --> 0:13:28,000
+para el Flyfire.
+
+282
+0:13:47.26,000 --> 0:13:49,000
+Quería mostrarles el último proyecto en el que estamos trabajando.
+
+283
+0:13:49.26,000 --> 0:13:51,000
+Es algo para los Juegos Olímpicos de Londres.
+
+284
+0:13:51.26,000 --> 0:13:53,000
+Se llama La Nube.
+
+285
+0:13:53.26,000 --> 0:13:55,000
+Y la idea es, imaginen otra vez,
+
+286
+0:13:55.26,000 --> 0:13:57,000
+que pudiéramos involucrar a la gente
+
+287
+0:13:57.26,000 --> 0:14:,000
+para que haga algo y cambie nuestro entorno
+
+288
+0:14:00.26,000 --> 0:14:02,000
+-casi como un criadero de nubes-
+
+289
+0:14:02.26,000 --> 0:14:04,000
+como la cría de granero, pero con una nube.
+
+290
+0:14:04.26,000 --> 0:14:08,000
+Imaginen que pudiéramos hacer que todos donaran un poquito para un píxel.
+
+291
+0:14:08.26,000 --> 0:14:1,000
+Y creo que lo notable
+
+292
+0:14:10.26,000 --> 0:14:12,000
+que ha sucedido en los últimos años
+
+293
+0:14:12.26,000 --> 0:14:14,000
+es que, en las últimas dos décadas,
+
+294
+0:14:14.26,000 --> 0:14:17,000
+pasamos del mundo físico al mundo digital.
+
+295
+0:14:17.26,000 --> 0:14:19,000
+Hemos digitalizado todo, como el conocimiento,
+
+296
+0:14:19.26,000 --> 0:14:21,000
+y es accesible a través de Internet.
+
+297
+0:14:21.26,000 --> 0:14:23,000
+Hoy, por primera vez
+
+298
+0:14:23.26,000 --> 0:14:25,000
+-y la campaña de Obama nos lo mostró-,
+
+299
+0:14:25.26,000 --> 0:14:27,000
+podemos pasar del mundo digital,
+
+300
+0:14:27.26,000 --> 0:14:29,000
+del poder auto-organizado de las redes,
+
+301
+0:14:29.26,000 --> 0:14:31,000
+al mundo físico.
+
+302
+0:14:31.26,000 --> 0:14:33,000
+En nuestro caso, esto puede
+
+303
+0:14:33.26,000 --> 0:14:35,000
+que queramos usarlo para diseñar y hacer un símbolo.
+
+304
+0:14:35.26,000 --> 0:14:37,000
+Eso significaría algo construido en una ciudad.
+
+305
+0:14:37.26,000 --> 0:14:39,000
+Pero mañana puede ser
+
+306
+0:14:39.26,000 --> 0:14:42,000
+para abordar los desafíos de hoy:
+
+307
+0:14:42.26,000 --> 0:14:44,000
+piensen en el cambio climático o las emisiones de CO2.
+
+308
+0:14:44.26,000 --> 0:14:47,000
+¿Cómo pasar del mundo digital al mundo físico?
+
+309
+0:14:47.26,000 --> 0:14:49,000
+La idea es que podemos hacer que la gente se involucre
+
+310
+0:14:49.26,000 --> 0:14:51,000
+en hacer esto juntos, de forma colectiva.
+
+311
+0:14:51.26,000 --> 0:14:54,000
+La nube es una nube, de nuevo, hecha de píxeles
+
+312
+0:14:54.26,000 --> 0:14:56,000
+de la misma manera que la nube real
+
+313
+0:14:56.26,000 --> 0:14:58,000
+es una nube de partículas.
+
+314
+0:14:58.26,000 --> 0:15:,000
+Y esas partículas son agua,
+
+315
+0:15:00.26,000 --> 0:15:02,000
+mientras que en nuestra nube son píxeles.
+
+316
+0:15:02.26,000 --> 0:15:05,000
+Es una estructura física en Londres, pero cubierta de píxeles.
+
+317
+0:15:05.26,000 --> 0:15:07,000
+Uno puede moverse por dentro, tener distintas experiencias.
+
+318
+0:15:07.26,000 --> 0:15:09,000
+Puede verse desde abajo, servir para
+
+319
+0:15:09.26,000 --> 0:15:11,000
+compartir los momentos principales
+
+320
+0:15:11.26,000 --> 0:15:14,000
+de los Juegos Olímpicos de 2012 y aún más,
+
+321
+0:15:14.26,000 --> 0:15:18,000
+y puede usarse como una forma de conexión con la comunidad.
+
+322
+0:15:18.26,000 --> 0:15:22,000
+Así, es tanto una nube física del cielo
+
+323
+0:15:22.26,000 --> 0:15:25,000
+como algo a lo que uno puede subir,
+
+324
+0:15:25.26,000 --> 0:15:27,000
+como una nueva cima de Londres.
+
+325
+0:15:27.26,000 --> 0:15:29,000
+Uno puede entrar ahí
+
+326
+0:15:29.26,000 --> 0:15:32,000
+como si fuera un nuevo faro digital en la noche,
+
+327
+0:15:32.26,000 --> 0:15:34,000
+pero lo más importante es que
+
+328
+0:15:34.26,000 --> 0:15:37,000
+será una nueva experiencia para cualquiera que vaya a la cima.
+
+329
+0:15:37.26,000 --> 0:15:39,000
+Gracias.
+
+330
+0:15:39.26,000 --> 0:15:41,000
+(Aplausos)
+

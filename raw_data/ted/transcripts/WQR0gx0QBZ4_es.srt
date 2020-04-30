@@ -1,0 +1,1560 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ruth Alonso Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:25,000 --> 0:00:29,000
+En 1962, Charles Van Doren —más tarde editor jefe de la Enciclopedia Británica—
+
+3
+0:00:29,000 --> 0:00:33,000
+dijo que la enciclopedia ideal debería ser radical —debería dejar de ser prudente.
+
+4
+0:00:33,000 --> 0:00:36,000
+Pero si saben algo de la historia de la Británica desde 1962,
+
+5
+0:00:36,000 --> 0:00:38,000
+fue todo menos radical.
+
+6
+0:00:38,000 --> 0:00:43,000
+Era un tipo de enciclopedia poco arriesgada y muy pesada.
+
+7
+0:00:43,000 --> 0:00:48,000
+Por el contrario, Wikipedia parte de una idea muy radical,
+
+8
+0:00:48,000 --> 0:00:5,000
+que todos imaginemos un mundo
+
+9
+0:00:5,000 --> 0:00:52,000
+en el que todas las personas del planeta
+
+10
+0:00:52,000 --> 0:00:55,000
+dispongan de acceso gratis a todo el conocimiento humano.
+
+11
+0:00:55,000 --> 0:00:57,000
+Y eso es lo que hacemos. Así que Wikipedia,
+
+12
+0:00:58,000 --> 0:01:,000
+— acaban de ver una pequeña demostración de esto—
+
+13
+0:01:,000 --> 0:01:04,000
+es una enciclopedia de licencia libre. La escriben miles de voluntarios
+
+14
+0:01:04,000 --> 0:01:06,000
+de todo el mundo en muchas lenguas.
+
+15
+0:01:06,000 --> 0:01:08,000
+Se escribe usando software Wiki,
+
+16
+0:01:08,000 --> 0:01:11,000
+que es un tipo de software que se acaba de mostrar
+
+17
+0:01:11,000 --> 0:01:13,000
+—de modo que todos puedan editar y guardar,
+
+18
+0:01:13,000 --> 0:01:16,000
+y aparece de inmediato en internet.
+
+19
+0:01:16,000 --> 0:01:21,000
+Y casi todo lo relativo a Wikipedia se organiza mediante una plantilla de voluntarios.
+
+20
+0:01:21,000 --> 0:01:25,000
+Así que cuando Yochai habla de nuevos métodos de organización,
+
+21
+0:01:25,000 --> 0:01:29,000
+describe justamente Wikipedia. Y lo que haré hoy
+
+22
+0:01:29,000 --> 0:01:33,000
+es hablarles de cómo funciona realmente por dentro.
+
+23
+0:01:33,000 --> 0:01:38,000
+Wikipedia es propiedad de la Fundación Wikimedia que yo fundé,
+
+24
+0:01:38,000 --> 0:01:43,000
+una organización sin ánimo de lucro. Y el objetivo fundamental de la Fundación Wikimedia,
+
+25
+0:01:43,000 --> 0:01:46,000
+es dar acceso gratuito a una enciclopedia a cada una de las personas del planeta.
+
+26
+0:01:46,000 --> 0:01:48,000
+Así que si piensan en lo que eso significa,
+
+27
+0:01:48,000 --> 0:01:51,000
+implica mucho más que simplemente crear una página web chula.
+
+28
+0:01:51,000 --> 0:01:55,000
+Estamos realmente interesados en la brecha social digital, en la pobreza del mundo,
+
+29
+0:01:55,000 --> 0:01:59,000
+en empoderar a la gente en todas partes para que tengan la información
+
+30
+0:01:59,000 --> 0:02:,000
+que les permita tomar buenas decisiones.
+
+31
+0:02:,000 --> 0:02:04,000
+Así que tendremos mucho trabajo que va más allá de Internet.
+
+32
+0:02:04,000 --> 0:02:08,000
+Y eso explica en gran medida por qué hemos elegido un modelo de licencia libre,
+
+33
+0:02:08,000 --> 0:02:1,000
+porque eso empodera a los empresarios locales,
+
+34
+0:02:1,000 --> 0:02:12,000
+o a quien quiera, para que usen nuestros contenidos
+
+35
+0:02:12,000 --> 0:02:16,000
+y hagan lo que quieran —se puede copiar, redistribuir,
+
+36
+0:02:16,000 --> 0:02:18,000
+y se puede usar con o sin fines comerciales.
+
+37
+0:02:18,000 --> 0:02:22,000
+Así que surgirán muchas oportunidades en torno a Wikipedia
+
+38
+0:02:22,000 --> 0:02:24,000
+en todo el mundo.
+
+39
+0:02:24,000 --> 0:02:26,000
+Nuestros fondos provienen de donaciones particulares,
+
+40
+0:02:26,000 --> 0:02:29,000
+y una de las cosas más interesantes sobre eso
+
+41
+0:02:29,000 --> 0:02:32,000
+es lo poco que cuesta dirigir Wikipedia.
+
+42
+0:02:32,000 --> 0:02:37,000
+Yochai les mostró el gráfico de lo que costaba una imprenta.
+
+43
+0:02:37,000 --> 0:02:41,000
+Y yo les diré cuánto cuesta Wikipedia,
+
+44
+0:02:41,000 --> 0:02:43,000
+pero antes les mostraré cuán grande es.
+
+45
+0:02:43,000 --> 0:02:47,000
+Tenemos más de 600 000 artículos en inglés.
+
+46
+0:02:47,000 --> 0:02:51,000
+Y un total de dos millones de artículos en muchas lenguas diferentes.
+
+47
+0:02:51,000 --> 0:02:54,000
+Las lenguas con más fuerza son el alemán, el japonés, el francés.
+
+48
+0:02:54,000 --> 0:02:58,000
+Todas las lenguas del oeste de Europa tienen bastante fuerza.
+
+49
+0:02:58,000 --> 0:03:01,000
+Pero solo alrededor de un tercio de todo el tráfico a nuestro sitio
+
+50
+0:03:01,000 --> 0:03:03,000
+desemboca en Wikipedia en inglés,
+
+51
+0:03:03,000 --> 0:03:05,000
+lo cual sorprende a mucha gente.
+
+52
+0:03:05,000 --> 0:03:09,000
+Muchas personas piensan en Internet de modo muy anglo-céntrico,
+
+53
+0:03:09,000 --> 0:03:12,000
+pero somos realmente globales. Existimos en muchas lenguas.
+
+54
+0:03:13,000 --> 0:03:16,000
+Lo populares que nos hemos hecho —somos uno de los 50 sitios web más visitados
+
+55
+0:03:16,000 --> 0:03:18,000
+y somos más populares que el New York Times.
+
+56
+0:03:18,000 --> 0:03:22,000
+Aquí es donde llegamos a la discusión de Yochai.
+
+57
+0:03:23,000 --> 0:03:26,000
+Esto nos muestra el crecimiento de Wikipedia —somos la línea azul de ahí
+
+58
+0:03:26,000 --> 0:03:29,000
+y este de ahí es el New York Times—.
+
+59
+0:03:29,000 --> 0:03:32,000
+Y lo interesante de esto es que el sitio del New York Times
+
+60
+0:03:32,000 --> 0:03:36,000
+es una operación corporativa enorme con —no tengo ni idea de cuántos—, cientos de empleados.
+
+61
+0:03:36,000 --> 0:03:39,000
+Nosotros tenemos exactamente un empleado,
+
+62
+0:03:39,000 --> 0:03:42,000
+y ese empleado es nuestro principal programador de software.
+
+63
+0:03:42,000 --> 0:03:45,000
+Y es nuestro empleado desde solo enero de 2005,
+
+64
+0:03:45,000 --> 0:03:47,000
+todo nuestro otro crecimiento vino antes de eso.
+
+65
+0:03:47,000 --> 0:03:5,000
+Así que los servidores se organizan mediante un grupo de voluntarios,
+
+66
+0:03:5,000 --> 0:03:52,000
+así como todo el trabajo editorial.
+
+67
+0:03:52,000 --> 0:03:54,000
+Y la manera de organizarnos
+
+68
+0:03:54,000 --> 0:03:57,000
+no es como la de cualquier otra organización que imaginen.
+
+69
+0:03:57,000 --> 0:03:59,000
+La gente siempre pregunta, "¿Quién dirige todo esto?"
+
+70
+0:03:59,000 --> 0:04:04,000
+o "¿Quién hace eso?" Y la respuesta es: quienquiera que quiera involucrarse.
+
+71
+0:04:04,000 --> 0:04:07,000
+Es algo poco usual y caótico.
+
+72
+0:04:07,000 --> 0:04:1,000
+Ahora tenemos más de 90 servidores en tres lugares.
+
+73
+0:04:1,000 --> 0:04:14,000
+Un sistema de administradores voluntarios en línea los controlan.
+
+74
+0:04:14,000 --> 0:04:17,000
+Puedo contectarme a Internet en cualquier momento del día o noche
+
+75
+0:04:17,000 --> 0:04:21,000
+y ver de 8 a 10 personas esperando
+
+76
+0:04:21,000 --> 0:04:25,000
+a que les pregunte cualquier cosa acerca de los servidores.
+
+77
+0:04:25,000 --> 0:04:27,000
+Nunca uno se podría permitir eso en una compañía.
+
+78
+0:04:27,000 --> 0:04:31,000
+Nunca sería asequible tener un grupo de gente de guardia
+
+79
+0:04:31,000 --> 0:04:35,000
+24 horas al día, haciendo lo que hacemos en Wikipedia.
+
+80
+0:04:35,000 --> 0:04:38,000
+Tenemos 1.4 billones de visitas al mes,
+
+81
+0:04:38,000 --> 0:04:41,000
+así que se ha convertido en algo enorme.
+
+82
+0:04:41,000 --> 0:04:43,000
+Y todo lo organizan voluntarios.
+
+83
+0:04:43,000 --> 0:04:48,000
+El coste mensual total de la banda ancha es de unos USD 5 000 .
+
+84
+0:04:48,000 --> 0:04:5,000
+Y ese es nuestro gasto principal.
+
+85
+0:04:5,000 --> 0:04:53,000
+De hecho podríamos prescindir de ese empleado. En realidad,
+
+86
+0:04:53,000 --> 0:04:56,000
+contratamos a Brian porque llevaba trabajando dos años a tiempo parcial
+
+87
+0:04:56,000 --> 0:04:58,000
+y a tiempo completo en Wikipedia,
+
+88
+0:04:58,000 --> 0:05:02,000
+así que al final lo contratamos para que pudiera tener vida propia e ir al cine de vez en cuando.
+
+89
+0:05:03,000 --> 0:05:06,000
+Así que la gran pregunta cuando uno se enfrenta a una organización realmente caótica como esta, es:
+
+90
+0:05:06,000 --> 0:05:1,000
+¿cómo es que no es todo una porquería? ¿por qué es tan bueno el sitio?
+
+91
+0:05:1,000 --> 0:05:13,000
+Primero, ¿cuán bueno es? Bastante. No es perfecto,
+
+92
+0:05:13,000 --> 0:05:16,000
+pero es mucho mejor de lo que uno esperaría,
+
+93
+0:05:16,000 --> 0:05:18,000
+teniendo en cuenta un modelo tan caótico como el nuestro.
+
+94
+0:05:18,000 --> 0:05:21,000
+Así que cuando vieron como él editaba ridículamente mi página
+
+95
+0:05:21,000 --> 0:05:25,000
+quizá piensen: "Esto degenerará en basura."
+
+96
+0:05:25,000 --> 0:05:29,000
+Pero al ver pruebas de calidad — y de éstas no ha habido suficientes todavía,
+
+97
+0:05:29,000 --> 0:05:31,000
+por eso animo sinceramente a la gente a que lo haga más— ,
+
+98
+0:05:31,000 --> 0:05:35,000
+comparando Wikipedia con productos tradicionales —ganamos de calle.
+
+99
+0:05:35,000 --> 0:05:38,000
+Una revista alemana comparó la Wikipedia alemana,
+
+100
+0:05:38,000 --> 0:05:41,000
+que es mucho más pequeña que la inglesa,
+
+101
+0:05:41,000 --> 0:05:45,000
+con Microsoft Encarta y Brockhaus Multimedia,
+
+102
+0:05:45,000 --> 0:05:47,000
+y ganamos en todo.
+
+103
+0:05:47,000 --> 0:05:5,000
+Contrataron a expertos para que compararan la calidad de los artículos,
+
+104
+0:05:5,000 --> 0:05:53,000
+y el resultado nos satisfizo mucho.
+
+105
+0:05:53,000 --> 0:05:57,000
+Mucha gente sabe de la controversia Bush-Kerry en Wikipedia.
+
+106
+0:05:57,000 --> 0:06:01,000
+Esto es, —los medios de comunicación han cubierto esto ampliamente.—
+
+107
+0:06:01,000 --> 0:06:04,000
+Empezó con un artículo en Red Herring.
+
+108
+0:06:04,000 --> 0:06:07,000
+Los reporteros me llamaron
+
+109
+0:06:07,000 --> 0:06:12,000
+deletrearon bien mi nombre, ero lo que de verdad querían decir era:
+
+110
+0:06:12,000 --> 0:06:14,000
+las elecciones Bush-Kerry son tan polémicas,
+
+111
+0:06:14,000 --> 0:06:18,000
+que están dividiendo a la comunidad de Wikipedia. Y me citaron diciendo:
+
+112
+0:06:18,000 --> 0:06:21,000
+"Son las más polémicas de la historia de Wikipedia."
+
+113
+0:06:21,000 --> 0:06:23,000
+Lo que dije en realidad es que no son polémicas, en absoluto.
+
+114
+0:06:23,000 --> 0:06:29,000
+Es una cita ligeramente errónea. Los artículos se editaron bastante.
+
+115
+0:06:29,000 --> 0:06:32,000
+Y es cierto que tuvimos que bloquear los artículos un par de veces.
+
+116
+0:06:32,000 --> 0:06:35,000
+La revista Time informó recientemente de que
+
+117
+0:06:35,000 --> 0:06:38,000
+"A veces hay que tomar medidas extremas,
+
+118
+0:06:38,000 --> 0:06:43,000
+y Wales bloqueó las entradas sobre Kerry y Bush durante la mayor parte de 2004."
+
+119
+0:06:43,000 --> 0:06:47,000
+Esto se dijo después de que le dijera al periodista que teníamos que bloquearlo—
+
+120
+0:06:47,000 --> 0:06:49,000
+ocasionalmente, un poco aquí y allá.
+
+121
+0:06:49,000 --> 0:06:52,000
+Así que, la verdad, en general es que este tipo de polémicas
+
+122
+0:06:52,000 --> 0:06:56,000
+que Uds. probablemente pensarían que tenemos en la comunidad de Wikipedia
+
+123
+0:06:56,000 --> 0:06:58,000
+no son polémicas en absoluto.
+
+124
+0:06:58,000 --> 0:07:01,000
+Los artículos sobre temas controvertidos se editan mucho,
+
+125
+0:07:01,000 --> 0:07:04,000
+pero no causan mucha polémica dentro de la comunidad.
+
+126
+0:07:04,000 --> 0:07:09,000
+Y la razón es que la mayoría entiende la necesidad de ser neutrales.
+
+127
+0:07:11,000 --> 0:07:15,000
+La lucha de verdad no es entre la derecha y la izquierda,
+
+128
+0:07:15,000 --> 0:07:17,000
+eso es lo que la mayoría asume,
+
+129
+0:07:17,000 --> 0:07:2,000
+sino entre el partido de los que piensan y el de los imbéciles.
+
+130
+0:07:2,000 --> 0:07:24,000
+Y ninguna tendencia del espectro político tiene el monopolio de esas cualidades.
+
+131
+0:07:24,000 --> 0:07:28,000
+La auténtica verdad sobre el incidente Bush-Kerry
+
+132
+0:07:28,000 --> 0:07:3,000
+es que los artículos sobre Bush-Kerry
+
+133
+0:07:3,000 --> 0:07:33,000
+fueron bloqueados menos del 1% del tiempo en 2004,
+
+134
+0:07:33,000 --> 0:07:35,000
+y no fue porque fueran polémicos;
+
+135
+0:07:35,000 --> 0:07:38,000
+fue porque estaban sujetos a vandalismo,
+
+136
+0:07:38,000 --> 0:07:42,000
+lo cual sucede a veces incluso en el escenario,
+
+137
+0:07:42,000 --> 0:07:45,000
+a veces incluso los periodistas me han informado de que vandalizan Wikipedia
+
+138
+0:07:45,000 --> 0:07:48,000
+y se sorprenden de lo rápido que se corrige.
+
+139
+0:07:48,000 --> 0:07:52,000
+Y les dije, siempre digo, por favor, no hagan eso, no es bueno.
+
+140
+0:07:52,000 --> 0:07:54,000
+Así que, ¿cómo lo hacemos?
+
+141
+0:07:54,000 --> 0:07:56,000
+¿Cómo regulamos el control de calidad?
+
+142
+0:07:56,000 --> 0:07:59,000
+¿Cómo se hace? ¿cómo funciona?
+
+143
+0:07:59,000 --> 0:08:02,000
+Aquí tienen algunos elementos,
+
+144
+0:08:02,000 --> 0:08:05,000
+sobre todo normas sociales y algunos elementos del software.
+
+145
+0:08:05,000 --> 0:08:09,000
+Lo más importante es nuestra política de neutralidad.
+
+146
+0:08:09,000 --> 0:08:12,000
+Esto es algo que desde el principio constituí
+
+147
+0:08:12,000 --> 0:08:16,000
+en un principio central de la comunidad que no está sujeto a debate.
+
+148
+0:08:16,000 --> 0:08:19,000
+Es un concepto social de cooperación,
+
+149
+0:08:19,000 --> 0:08:23,000
+así que no hablamos mucho de la verdad y la objetividad.
+
+150
+0:08:23,000 --> 0:08:27,000
+La razón es que si decimos que solo escribiremos la verdad sobre un tema,
+
+151
+0:08:27,000 --> 0:08:3,000
+eso no nos ayuda a la hora de decidir qué escribir,
+
+152
+0:08:3,000 --> 0:08:32,000
+porque no estoy de acuerdo contigo en qué es la verdad.
+
+153
+0:08:32,000 --> 0:08:35,000
+Pero tenemos este término de neutralidad,
+
+154
+0:08:35,000 --> 0:08:37,000
+con una larga historia en la comunidad,
+
+155
+0:08:37,000 --> 0:08:41,000
+que básicamente explica que cuando haya un tema controvertido
+
+156
+0:08:41,000 --> 0:08:44,000
+Wikipedia no debería tomar partido.
+
+157
+0:08:44,000 --> 0:08:47,000
+Debemos informar meramente de lo que fuentes acreditadas han dicho sobre ello.
+
+158
+0:08:47,000 --> 0:08:5,000
+Esta política de neutralidad es realmente importante para nosotros,
+
+159
+0:08:5,000 --> 0:08:54,000
+porque empodera a una comunidad que es muy diversa
+
+160
+0:08:54,000 --> 0:08:56,000
+para que se una y consiga cosas de verdad.
+
+161
+0:08:56,000 --> 0:08:59,000
+Así que tenemos colaboradores con trasfondos políticos, religiosos
+
+162
+0:08:59,000 --> 0:09:01,000
+y culturales muy diversos.
+
+163
+0:09:01,000 --> 0:09:03,000
+Al tener una política de neutralidad firme,
+
+164
+0:09:03,000 --> 0:09:05,000
+que desde el principio no es negociable,
+
+165
+0:09:05,000 --> 0:09:07,000
+nos aseguramos de que la gente puede trabajar junta
+
+166
+0:09:07,000 --> 0:09:09,000
+y de que las entradas no se conviertan en una guerra constante
+
+167
+0:09:09,000 --> 0:09:12,000
+entre izquierda y derecha.
+
+168
+0:09:12,000 --> 0:09:14,000
+Si alguien muestra ese comportamiento,
+
+169
+0:09:14,000 --> 0:09:16,000
+se le pedirá que abandone la comunidad.
+
+170
+0:09:17,000 --> 0:09:19,000
+Así que hay revisiones hechas por colegas en tiempo real.
+
+171
+0:09:19,000 --> 0:09:22,000
+Todos y cada uno de los cambios en el sitio van a la página de cambios recientes.
+
+172
+0:09:22,000 --> 0:09:25,000
+Así que en cuanto él hizo el cambio, fui a la página de cambios recientes.
+
+173
+0:09:25,000 --> 0:09:29,000
+Esa página de cambios recientes también llega a un canal de IRC,
+
+174
+0:09:29,000 --> 0:09:31,000
+que es un canal de chat en Internet
+
+175
+0:09:31,000 --> 0:09:33,000
+que la gente vigila con varias herramientas de software.
+
+176
+0:09:35,000 --> 0:09:37,000
+Y la gente puede acceder a feeds RSS —
+
+177
+0:09:37,000 --> 0:09:4,000
+y pueden recibir correos con los cambios.
+
+178
+0:09:4,000 --> 0:09:42,000
+Y luego los usuarios pueden crear una lista de vigilancia propia.
+
+179
+0:09:42,000 --> 0:09:45,000
+Mi página está en las listas de bastantes voluntarios,
+
+180
+0:09:45,000 --> 0:09:47,000
+porque a veces es objeto de vandalismo.
+
+181
+0:09:49,000 --> 0:09:53,000
+Y lo que pasa es que alguien se dará cuenta del cambio rápidamente,
+
+182
+0:09:53,000 --> 0:09:57,000
+y simplemente lo eliminará.
+
+183
+0:09:57,000 --> 0:09:59,000
+Por ejemplo, hay un nuevo feed de páginas
+
+184
+0:09:59,000 --> 0:10:01,000
+que permite acceder a cierta página de Wikipedia
+
+185
+0:10:01,000 --> 0:10:03,000
+y ver todas las páginas nuevas a media que se crean.
+
+186
+0:10:03,000 --> 0:10:05,000
+Esto es muy importante, porque muchas páginas nuevas
+
+187
+0:10:05,000 --> 0:10:08,000
+son porquería y tienen que borrarse.
+
+188
+0:10:08,000 --> 0:10:11,000
+Pero esas son algunas de las cosas más interesantes y divertidas en Wikipedia,
+
+189
+0:10:11,000 --> 0:10:13,000
+algunos de esos artículos nuevos.
+
+190
+0:10:13,000 --> 0:10:15,000
+La gente empieza un artículo sobre un tema interesante,
+
+191
+0:10:15,000 --> 0:10:17,000
+otras personas lo encontrarán fascinante
+
+192
+0:10:17,000 --> 0:10:19,000
+y se unirán para ayudar y mejorarlo.
+
+193
+0:10:19,000 --> 0:10:21,000
+Tenemos a usuarios anónimos que editan,
+
+194
+0:10:21,000 --> 0:10:25,000
+esto es una de las cosas más controvertidas y fascinantes sobre Wikipedia.
+
+195
+0:10:25,000 --> 0:10:29,000
+Así que Chris pudo hacer su cambio, no tuvo que registrarse ni nada,
+
+196
+0:10:29,000 --> 0:10:32,000
+simplemente estaba en la página e hizo un cambio.
+
+197
+0:10:32,000 --> 0:10:35,000
+Pero resulta que solo alrededor del 18 % de todas las correcciones
+
+198
+0:10:35,000 --> 0:10:37,000
+las hacen usuarios anónimos.
+
+199
+0:10:37,000 --> 0:10:39,000
+Y esto es algo importante de comprender
+
+200
+0:10:39,000 --> 0:10:42,000
+la inmensa mayoría de las correcciones que aparecen en el sitio
+
+201
+0:10:42,000 --> 0:10:46,000
+provienen de una comunidad muy unida de entre 600 y 1 000 personas
+
+202
+0:10:46,000 --> 0:10:48,000
+que se comunican constantemente.
+
+203
+0:10:48,000 --> 0:10:5,000
+Y tenemos más de 40 canales IRC, 40 listas de correo.
+
+204
+0:10:5,000 --> 0:10:54,000
+Y todas estas personas se conocen. Se comunican, tienen reuniones offline.
+
+205
+0:10:54,000 --> 0:10:56,000
+Esas son las personas que crean la mayor parte del sitio
+
+206
+0:10:56,000 --> 0:11:01,000
+y, en cierto modo, son semiprofesionales de lo que hacen,
+
+207
+0:11:01,000 --> 0:11:05,000
+en el sentido de que el control de calidad que nos exigimos es igual o mayor
+
+208
+0:11:05,000 --> 0:11:07,000
+que el de los profesionales.
+
+209
+0:11:07,000 --> 0:11:09,000
+No siempre llegamos a ese nivel,
+
+210
+0:11:09,000 --> 0:11:11,000
+pero es lo que intentamos.
+
+211
+0:11:11,000 --> 0:11:14,000
+Así que esa comunidad tan unida es la que de verdad se preocupa del sitio,
+
+212
+0:11:14,000 --> 0:11:16,000
+y son algunas de las personas más brillantes que conozco.
+
+213
+0:11:16,000 --> 0:11:18,000
+Desde luego, es mi trabajo decir eso, pero es la verdad.
+
+214
+0:11:18,000 --> 0:11:22,000
+El tipo de gente a la que le atrae escribir una enciclopedia para divertirse
+
+215
+0:11:22,000 --> 0:11:24,000
+tiende a ser bastante inteligente.
+
+216
+0:11:25,000 --> 0:11:27,000
+Las herramientas y el software: hay muchas herramientas que nos permiten
+
+217
+0:11:27,000 --> 0:11:31,000
+a la comunidad autocontrolarnos y vigilar todo el trabajo.
+
+218
+0:11:31,000 --> 0:11:33,000
+Este es un ejemplo del historial de una página sobre la "tierra plana",
+
+219
+0:11:33,000 --> 0:11:36,000
+y pueden ver algunos de los cambios hechos.
+
+220
+0:11:36,000 --> 0:11:39,000
+Lo que me gusta de esta página es que, de inmediato, se puede consultar esto
+
+221
+0:11:39,000 --> 0:11:41,000
+y darse cuenta, "vale, ahora lo entiendo".
+
+222
+0:11:41,000 --> 0:11:44,000
+Cuando alguien lo consulta, se ve que alguien,
+
+223
+0:11:44,000 --> 0:11:46,000
+un número IP anónimo, editó mi página.
+
+224
+0:11:46,000 --> 0:11:49,000
+Sospechoso ¿quién es esta persona? Alguien se fija,
+
+225
+0:11:49,000 --> 0:11:53,000
+y puede ver inmediatamente resaltados en rojo todos los cambios hechos,
+
+226
+0:11:53,000 --> 0:11:57,000
+y ver, bueno, vale, estas palabras han cambiado, cosas como esta.
+
+227
+0:11:57,000 --> 0:12:02,000
+Es una herramienta que se puede usar muy rápido para controlar el historial de una página.
+
+228
+0:12:02,000 --> 0:12:05,000
+Otra cosa que hacemos en la comunidad
+
+229
+0:12:05,000 --> 0:12:08,000
+es dejar todo abierto.
+
+230
+0:12:08,000 --> 0:12:12,000
+La mayoría de las normas sociales y métodos de trabajo
+
+231
+0:12:12,000 --> 0:12:14,000
+se dejan completamente abiertos en el software.
+
+232
+0:12:14,000 --> 0:12:16,000
+Todo eso está en páginas Wiki.
+
+233
+0:12:16,000 --> 0:12:19,000
+Así que no hay nada en el software que haga valer las normas.
+
+234
+0:12:19,000 --> 0:12:22,000
+El ejemplo que muestro aquí es una página de consulta de borrado.
+
+235
+0:12:23,000 --> 0:12:26,000
+Como dije antes, la gente escribe tonterías,
+
+236
+0:12:26,000 --> 0:12:29,000
+hay que borrarlo. En casos como ese, los administradores simplemente lo borran.
+
+237
+0:12:29,000 --> 0:12:31,000
+No hay por qué tener una discusión sobre eso.
+
+238
+0:12:31,000 --> 0:12:35,000
+Pero pueden imaginar que hay muchas otras áreas en las que la pregunta es,
+
+239
+0:12:35,000 --> 0:12:37,000
+¿es esto suficientemente importante para aparecer en una enciclopedia?
+
+240
+0:12:37,000 --> 0:12:41,000
+¿Es la información verificable? ¿Es un engaño? ¿Es verdad? ¿Qué es?
+
+241
+0:12:41,000 --> 0:12:44,000
+Necesitamos un método social para encontrar la solución.
+
+242
+0:12:44,000 --> 0:12:47,000
+Y el método que surgió de modo natural dentro de la comunidad:
+
+243
+0:12:47,000 --> 0:12:49,000
+es la página de consulta de borrado.
+
+244
+0:12:49,000 --> 0:12:51,000
+Y en el ejemplo particular que tenemos aquí, es una película,
+
+245
+0:12:51,000 --> 0:12:53,000
+"Twisted Issues", y la primera persona dice,
+
+246
+0:12:53,000 --> 0:12:57,000
+"Se supone que esto es una película. Falla el test de google estrepitosamente."
+
+247
+0:12:57,000 --> 0:13:,000
+El test de Google es: miras en Google y ves si está ahí,
+
+248
+0:13:,000 --> 0:13:04,000
+porque si algo ni siquiera está en Google, probablemente no existe en absoluto.
+
+249
+0:13:04,000 --> 0:13:08,000
+No es una regla perfecta, pero es un buen punto de partida para investigar con rapidez.
+
+250
+0:13:09,000 --> 0:13:12,000
+Así que alguien dice, "Bórrenlo, por favor. Bórrenlo, no es importante."
+
+251
+0:13:12,000 --> 0:13:14,000
+Y entonces alguien dice, "Esperen, esperen, esperen. Lo encontré."
+
+252
+0:13:14,000 --> 0:13:16,000
+Lo encontré en un libro, "Guía de vídeo de la Revista Film Threat:
+
+253
+0:13:16,000 --> 0:13:18,000
+Las 20 películas underground que hay que ver."
+
+254
+0:13:18,000 --> 0:13:2,000
+Oh, vale. Así que la siguiente persona dice: "Limpiémoslo."
+
+255
+0:13:2,000 --> 0:13:24,000
+Alguien dice, "Lo he encontrado en IMDB. Sigamos, sigamos."
+
+256
+0:13:24,000 --> 0:13:27,000
+Lo interesante de esto es que el software es...
+
+257
+0:13:27,000 --> 0:13:3,000
+los votos son simplemente texto escrito en una página.
+
+258
+0:13:3,000 --> 0:13:35,000
+No es tanto un voto como un diálogo.
+
+259
+0:13:35,000 --> 0:13:37,000
+Es cierto que al final
+
+260
+0:13:37,000 --> 0:13:4,000
+un administrador puede revisarlo y decir,
+
+261
+0:13:4,000 --> 0:13:43,000
+18 votos a favor de borrar, 2 a favor de seguir, lo borramos.
+
+262
+0:13:43,000 --> 0:13:48,000
+Pero en otros casos, puede haber 18 a favor de borrar y 2 de seguir, y lo mantendríamos,
+
+263
+0:13:48,000 --> 0:13:5,000
+porque si esos dos dicen, "Esperemos un poco, esperemos.
+
+264
+0:13:5,000 --> 0:13:52,000
+nadie ha visto esto pero yo lo encontré en un libro,
+
+265
+0:13:52,000 --> 0:13:56,000
+y encontré un enlace a una página que lo describe, y lo arreglaré mañana,
+
+266
+0:13:56,000 --> 0:13:59,000
+por favor no lo borren," entonces sobreviviría.
+
+267
+0:13:59,000 --> 0:14:01,000
+Y también importa quienes son las personas que votan.
+
+268
+0:14:01,000 --> 0:14:03,000
+Como digo, es una comunidad estrecha.
+
+269
+0:14:03,000 --> 0:14:05,000
+Aquí abajo, "Mantener, película real," Rick Kay.
+
+270
+0:14:05,000 --> 0:14:08,000
+Rick Kay es un wikipedista famoso
+
+271
+0:14:08,000 --> 0:14:11,000
+que trabaja mucho contra el vandalismo, los artículos falsos
+
+272
+0:14:11,000 --> 0:14:13,000
+y los votos para borrar.
+
+273
+0:14:13,000 --> 0:14:16,000
+Su voz tiene mucho peso en la comunidad
+
+274
+0:14:16,000 --> 0:14:18,000
+porque sabe lo que hace.
+
+275
+0:14:18,000 --> 0:14:2,000
+Así que ¿cómo se gobierna todo esto?
+
+276
+0:14:2,000 --> 0:14:24,000
+La gente realmente quiere saber cosas sobre los administradores, cosas de esas.
+
+277
+0:14:24,000 --> 0:14:28,000
+Así que el modelo de gobierno de Wikipedia, el gobierno de la comunidad,
+
+278
+0:14:28,000 --> 0:14:32,000
+es una mezcla de consenso muy confusa pero que permite trabajar,
+
+279
+0:14:32,000 --> 0:14:34,000
+es decir, que intentamos no votar el contenido de los artículos,
+
+280
+0:14:34,000 --> 0:14:38,000
+porque la opinión de la mayoría no necesariamente es neutral.
+
+281
+0:14:38,000 --> 0:14:4,000
+Cierto nivel de democracia. Todos los administradores,
+
+282
+0:14:4,000 --> 0:14:43,000
+esos tienen la capacidad de borrar páginas.
+
+283
+0:14:43,000 --> 0:14:45,000
+Eso no quiere decir que tengan el derecho a borrar páginas,
+
+284
+0:14:45,000 --> 0:14:48,000
+ellos también tienen que seguir normas, pero a ellos se les elige.
+
+285
+0:14:48,000 --> 0:14:5,000
+Son elegidos por la comunidad. A veces a la gente
+
+286
+0:14:5,000 --> 0:14:54,000
+con bulos que surgen en Internet, le gusta acusarme de nombrar a dedo a los administradores
+
+287
+0:14:54,000 --> 0:14:56,000
+para sesgar el contenido de la enciclopedia.
+
+288
+0:14:56,000 --> 0:15:,000
+Siempre me río de esto, porque no tengo ni idea de cómo se los elige.
+
+289
+0:15:,000 --> 0:15:02,000
+Hay un cierto nivel de aristocracia.
+
+290
+0:15:02,000 --> 0:15:05,000
+Y puede que tuvieran un amago de eso cuando mencioné
+
+291
+0:15:05,000 --> 0:15:08,000
+que la voz de Rick Kay tiene mucho más peso que la de alguien a quien no conocemos.
+
+292
+0:15:08,000 --> 0:15:12,000
+A veces doy esta charla con Angela, que acaba de ser reelegida
+
+293
+0:15:12,000 --> 0:15:15,000
+para la Junta de la comunidad, para la Junta de la Fundación,
+
+294
+0:15:15,000 --> 0:15:19,000
+con más del doble de los votos que la persona no seleccionada.
+
+295
+0:15:19,000 --> 0:15:23,000
+Y siempre la avergüenzo porque digo que, por ejemplo, Angela
+
+296
+0:15:23,000 --> 0:15:26,000
+podría salirse con la suya haciendo lo que le diera la real gana en Wikipedia
+
+297
+0:15:26,000 --> 0:15:28,000
+porque se la admira mucho y es poderosa.
+
+298
+0:15:28,000 --> 0:15:32,000
+Pero la ironía es, desde luego, que Angela puede hacer eso porque es la única persona
+
+299
+0:15:32,000 --> 0:15:35,000
+que nunca jamás, rompe ninguna regla de Wikipedia.
+
+300
+0:15:35,000 --> 0:15:38,000
+Y también me gustaría decir que es la única persona
+
+301
+0:15:38,000 --> 0:15:41,000
+que conoce todas las reglas de Wikipedia...
+
+302
+0:15:41,000 --> 0:15:45,000
+y también está la monarquía, y ese es mi papel en la comunidad...
+
+303
+0:15:46,000 --> 0:15:51,000
+Lo expliqué una vez en Berlín y al día siguiente el titular
+
+304
+0:15:51,000 --> 0:15:54,000
+de un periódico decía: "Soy la Reina de Inglaterra."
+
+305
+0:15:54,000 --> 0:15:57,000
+Y eso no es exactamente lo que dije, pero,
+
+306
+0:15:59,000 --> 0:16:01,000
+lo que quiero aclarar es mi papel en la comunidad
+
+307
+0:16:01,000 --> 0:16:04,000
+dentro del mundo del software.
+
+308
+0:16:04,000 --> 0:16:09,000
+Ha habido una vieja y duradera tradición del modelo del dictador benevolente.
+
+309
+0:16:09,000 --> 0:16:12,000
+Así que al observar la mayoría de los principales proyectos de software libre,
+
+310
+0:16:12,000 --> 0:16:14,000
+tienen una sola persona a cargo
+
+311
+0:16:14,000 --> 0:16:17,000
+y todos están de acuerdo en que es el dictador benevolente.
+
+312
+0:16:17,000 --> 0:16:2,000
+No me gusta el término dictador benevolente,
+
+313
+0:16:2,000 --> 0:16:23,000
+y no creo que sea mi trabajo o mi papel en el mundo de las ideas
+
+314
+0:16:23,000 --> 0:16:28,000
+ser el dictador del futuro de todo el conocimiento humano compilado por el mundo.
+
+315
+0:16:28,000 --> 0:16:3,000
+Simplemente no es apropiado.
+
+316
+0:16:3,000 --> 0:16:33,000
+Aún así, hace falta un cierto nivel de monarquía,
+
+317
+0:16:33,000 --> 0:16:36,000
+una cierta cantidad de... A veces hay que tomar una decisión,
+
+318
+0:16:36,000 --> 0:16:39,000
+y no queremos atascarnos demasiado
+
+319
+0:16:39,000 --> 0:16:41,000
+en tomas de decisión formales.
+
+320
+0:16:41,000 --> 0:16:45,000
+Como ejemplo de por qué ha sucedido esto
+
+321
+0:16:45,000 --> 0:16:47,000
+o de qué manera puede ser relevante,
+
+322
+0:16:47,000 --> 0:16:5,000
+recientemente tuvimos una situación donde un sitio neo-nazi descubrió Wikipedia,
+
+323
+0:16:5,000 --> 0:16:55,000
+y dijeron, "Oh, esto es horrible, este sitio es una conspiración judía
+
+324
+0:16:55,000 --> 0:16:58,000
+y haremos que se borren ciertos artículos que no nos gustan.
+
+325
+0:16:58,000 --> 0:17:,000
+Y como tienen un proceso de votación, enviaremos votos.
+
+326
+0:17:,000 --> 0:17:04,000
+Tenemos 40.000 miembros y vamos a hacer
+
+327
+0:17:04,000 --> 0:17:06,000
+que voten para conseguir que se borren estas páginas."
+
+328
+0:17:06,000 --> 0:17:09,000
+Solo consiguieron que aparecieran 18 personas.
+
+329
+0:17:09,000 --> 0:17:11,000
+Eso son matemáticas neo-nazis.
+
+330
+0:17:11,000 --> 0:17:14,000
+Siempre piensan que son 40 000 miembros cuando son 18.
+
+331
+0:17:14,000 --> 0:17:19,000
+Pero consiguieron que 18 personas votaran de manera bastante absurda
+
+332
+0:17:19,000 --> 0:17:21,000
+para borrar un artículo perfectamente válido.
+
+333
+0:17:21,000 --> 0:17:24,000
+Desde luego, la votación terminó siendo más o menos de 85 a 18,
+
+334
+0:17:24,000 --> 0:17:27,000
+así que no había un peligro real para nuestro proceso democrático.
+
+335
+0:17:27,000 --> 0:17:3,000
+Por otra parte, la gente dice: "Pero, ¿qué vamos a hacer?
+
+336
+0:17:3,000 --> 0:17:34,000
+Esto podría pasar y ¿si un grupo se organiza de verdad
+
+337
+0:17:34,000 --> 0:17:36,000
+y entra y quiere votar?"
+
+338
+0:17:36,000 --> 0:17:39,000
+Y entonces dije, "A la mierda, cambiaremos la normas."
+
+339
+0:17:39,000 --> 0:17:44,000
+Ese es mi trabajo en la comunidad: decir que no permitiremos que nuestro carácter abierto
+
+340
+0:17:44,000 --> 0:17:47,000
+y nuestra libertad resten calidad al contenido.
+
+341
+0:17:47,000 --> 0:17:5,000
+Así que mientras la gente confíe en mi papel,
+
+342
+0:17:5,000 --> 0:17:52,000
+hay un lugar válido para mí.
+
+343
+0:17:52,000 --> 0:17:56,000
+Evidentemente, por la licencia libre, si hago mal mi trabajo,
+
+344
+0:17:56,000 --> 0:17:58,000
+los voluntarios son libres de irse.
+
+345
+0:17:58,000 --> 0:18:,000
+No puedo decirle a nadie qué hacer.
+
+346
+0:18:,000 --> 0:18:04,000
+El último punto es que para entender cómo funciona Wikipedia
+
+347
+0:18:04,000 --> 0:18:08,000
+es importante entender que nuestro modelo Wiki es nuestra forma de trabajar,
+
+348
+0:18:08,000 --> 0:18:12,000
+pero no somos anarquistas fanáticos de la red. De hecho,
+
+349
+0:18:12,000 --> 0:18:15,000
+somos muy flexibles en cuanto a la metodología social,
+
+350
+0:18:15,000 --> 0:18:19,000
+porque la pasión de la comunidad estriba en la calidad del trabajo,
+
+351
+0:18:19,000 --> 0:18:23,000
+no necesariamente por el proceso usado para generarlo.
+
+352
+0:18:23,000 --> 0:18:25,000
+Gracias.
+
+353
+0:18:25,000 --> 0:18:28,000
+(Aplausos)
+
+354
+0:18:28,000 --> 0:18:3,000
+Ben Saunders: Sí, hola, Ben Saunders.
+
+355
+0:18:3,000 --> 0:18:34,000
+Jimmy, mencionaste que la imparcialidad es un elemento clave del éxito de Wikipedia.
+
+356
+0:18:34,000 --> 0:18:38,000
+Me choca que muchos de los libros de texto
+
+357
+0:18:38,000 --> 0:18:41,000
+que se usan para educar a nuestros niños estén inherentemente sesgados.
+
+358
+0:18:41,000 --> 0:18:45,000
+¿Has encontrado a profesores que usan Wikipedia,
+
+359
+0:18:45,000 --> 0:18:47,000
+y cómo crees que Wikipedia puede cambiar la educación?
+
+360
+0:18:47,000 --> 0:18:52,000
+Jimmy Wales: Si, muchos profesores están empezando a usar Wikipedoa.
+
+361
+0:18:52,000 --> 0:18:56,000
+Hay otra historia mediática sobre Wikipedia que creo que es falsa.
+
+362
+0:18:56,000 --> 0:18:59,000
+Se basa en la historia de los blogueros contra los periódicos.
+
+363
+0:18:59,000 --> 0:19:03,000
+Y la historia es, existe esta locura, Wikipedia,
+
+364
+0:19:03,000 --> 0:19:09,000
+pero los académicos la odian y los profesores la odian. Y resulta que no es cierto.
+
+365
+0:19:09,000 --> 0:19:11,000
+La última vez que recibí un correo de un periodista preguntaba:
+
+366
+0:19:11,000 --> 0:19:13,000
+"¿Por que odian los académicos Wikipedia?"
+
+367
+0:19:13,000 --> 0:19:15,000
+Lo envié desde mi dirección de correo de Harvard,
+
+368
+0:19:15,000 --> 0:19:17,000
+porque acaban de nombrarme miembro de la universidad.
+
+369
+0:19:17,000 --> 0:19:2,000
+Y dije, "Bueno, no todos la odian."
+
+370
+0:19:2,000 --> 0:19:23,000
+Pero creo que habrá un gran impacto.
+
+371
+0:19:23,000 --> 0:19:25,000
+Y de hecho tenemos un proyecto
+
+372
+0:19:25,000 --> 0:19:27,000
+que personalmente me emociona,
+
+373
+0:19:27,000 --> 0:19:29,000
+que es el proyecto de libros Wiki,
+
+374
+0:19:29,000 --> 0:19:31,000
+un esfuerzo por crear libros de texto en todas las lenguas.
+
+375
+0:19:31,000 --> 0:19:33,000
+Ese es un proyecto mucho mayor;
+
+376
+0:19:33,000 --> 0:19:37,000
+tardará unos 20 años en dar frutos.
+
+377
+0:19:37,000 --> 0:19:39,000
+Pero parte de eso es para cumplir nuestra misión
+
+378
+0:19:39,000 --> 0:19:42,000
+de dar una enciclopedia a todas y cada una de las personas del planeta.
+
+379
+0:19:42,000 --> 0:19:45,000
+Y no me refiero a que les vayamos a bombardear con CDs
+
+380
+0:19:45,000 --> 0:19:48,000
+Queremos decir que les daremos una herramienta que puedan usar.
+
+381
+0:19:48,000 --> 0:19:5,000
+Y para mucha gente en el mundo,
+
+382
+0:19:5,000 --> 0:19:52,000
+si le doy una enciclopedia escrita a nivel universitario,
+
+383
+0:19:52,000 --> 0:19:54,000
+no le hace ningún bien
+
+384
+0:19:54,000 --> 0:19:56,000
+sin muchos materiales complementarios
+
+385
+0:19:56,000 --> 0:19:58,000
+para formarle hasta llegar al punto en que pueda usarla de verdad.
+
+386
+0:19:58,000 --> 0:20:01,000
+Los libros Wiki son un intento de hacer eso.
+
+387
+0:20:01,000 --> 0:20:03,000
+Y creo que vamos a ver un inmenso...
+
+388
+0:20:03,000 --> 0:20:04,000
+puede que no surja de nosotros,
+
+389
+0:20:04,000 --> 0:20:06,000
+hay mucha innovación en progreso.
+
+390
+0:20:06,000 --> 0:20:1,000
+Pero los libros de texto de licencia libre serán la próxima revolución en educación.
+

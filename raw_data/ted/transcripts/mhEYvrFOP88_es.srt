@@ -1,0 +1,384 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Valentina Capra Revisor: Lucía Rodríguez
+
+2
+0:00:13.28,000 --> 0:00:16,000
+Hoy, los algoritmos computacionales pueden realizar tareas asombrosas
+
+3
+0:00:17.16,000 --> 0:00:21,000
+con gran precisión, a una escala enorme y con inteligencia parecida a la humana.
+
+4
+0:00:21.92,000 --> 0:00:24,000
+Y esta inteligencia computacional es a la que solemos llamar IA
+
+5
+0:00:25.88,000 --> 0:00:26,000
+o inteligencia artificial.
+
+6
+0:00:27.76,000 --> 0:00:31,000
+La IA está preparada para tener un gran impacto en nuestras vidas en el futuro.
+
+7
+0:00:32.88,000 --> 0:00:35,000
+Hoy, sin embargo, todavía nos enfrentamos a retos enormes
+
+8
+0:00:36.84,000 --> 0:00:39,000
+en cuanto a la detección y el diagnóstico de varias enfermedades terminales,
+
+9
+0:00:40.416,000 --> 0:00:42,000
+como las enfermedades contagiosas y el cáncer.
+
+10
+0:00:44,000 --> 0:00:46,000
+Cada año, miles de pacientes
+
+11
+0:00:46.32,000 --> 0:00:48,000
+pierden la vida a causa del cáncer hepático u oral.
+
+12
+0:00:49.88,000 --> 0:00:51,000
+La mejor forma de ayudar a estos pacientes
+
+13
+0:00:52.6,000 --> 0:00:56,000
+es realizar un diagnóstico precoz de esas enfermedades.
+
+14
+0:00:57.88,000 --> 0:01:01,000
+¿Cómo las detectamos hoy y cómo la inteligencia artificial puede ayudar?
+
+15
+0:01:03.92,000 --> 0:01:06,000
+Cuando se sospecha que el paciente tiene alguna de estas enfermedades,
+
+16
+0:01:07.6,000 --> 0:01:12,000
+un médico especialista pide tecnologías de escaneo muy caras
+
+17
+0:01:12.93,000 --> 0:01:16,000
+como la captación de imágenes por fluorescencia, los TAC o las RM.
+
+18
+0:01:17.04,000 --> 0:01:19,000
+Una vez que se obtienen las imágenes,
+
+19
+0:01:19.36,000 --> 0:01:23,000
+otro médico especialista hace el diagnóstico y habla con el paciente.
+
+20
+0:01:24.52,000 --> 0:01:27,000
+Como pueden ver, es un proceso que requiere de muchos recursos,
+
+21
+0:01:28,000 --> 0:01:3,000
+médicos especialistas
+
+22
+0:01:30.478,000 --> 0:01:32,000
+y costosos equipos de diagnóstico por escáner,
+
+23
+0:01:32.636,000 --> 0:01:34,000
+y no se considera práctico para los países en desarrollo.
+
+24
+0:01:35.56,000 --> 0:01:38,000
+De hecho, ni siquiera en muchos países desarrollados.
+
+25
+0:01:39.61,000 --> 0:01:42,000
+¿Podemos resolver este problema con la inteligencia artificial?
+
+26
+0:01:43.84,000 --> 0:01:46,000
+Hoy, si fuera a utilizar arquitecturas de inteligencia artificial tradicionales
+
+27
+0:01:47.77,000 --> 0:01:48,000
+para resolver este problema,
+
+28
+0:01:49.16,000 --> 0:01:5,000
+necesitaría obtener 10 000...
+
+29
+0:01:50.64,000 --> 0:01:54,000
+Repito, cerca de 10 000 de estos costosos aparatos médicos,
+
+30
+0:01:54.68,000 --> 0:01:55,000
+y eso para empezar.
+
+31
+0:01:56.08,000 --> 0:01:58,000
+Luego, consultaría a un especialista,
+
+32
+0:01:59,000 --> 0:02:01,000
+que analizaría esas imágenes.
+
+33
+0:02:01.52,000 --> 0:02:02,000
+Y con esos dos datos,
+
+34
+0:02:03.44,000 --> 0:02:06,000
+puedo entrenar una red neuronal profunda o una red de aprendizaje profundo
+
+35
+0:02:07.07,000 --> 0:02:09,000
+para diagnosticar a los pacientes.
+
+36
+0:02:09.48,000 --> 0:02:1,000
+Parecido al primer enfoque,
+
+37
+0:02:11.14,000 --> 0:02:13,000
+los enfoques tradicionales de IA
+
+38
+0:02:13.493,000 --> 0:02:14,000
+tienen el mismo problema.
+
+39
+0:02:14.88,000 --> 0:02:18,000
+Gran cantidad de datos, especialistas y equipos profesionales de escaneo.
+
+40
+0:02:20.32,000 --> 0:02:24,000
+¿Podemos entonces inventar arquitecturas de inteligencia artificial
+
+41
+0:02:24.64,000 --> 0:02:27,000
+más escalables, efectivas y más útiles
+
+42
+0:02:27.96,000 --> 0:02:3,000
+para resolver estos problemas a los que hoy nos enfrentamos?
+
+43
+0:02:31.04,000 --> 0:02:34,000
+Esto es exactamente lo que hace mi grupo en el MIT Media Labs.
+
+44
+0:02:34.36,000 --> 0:02:37,000
+Hemos inventado una variedad de arquitecturas de IA no convencionales
+
+45
+0:02:38.24,000 --> 0:02:41,000
+para resolver algunos de los retos más importantes que enfrentamos hoy
+
+46
+0:02:41.576,000 --> 0:02:43,000
+en los escáneres y estudios clínicos.
+
+47
+0:02:44.48,000 --> 0:02:47,000
+En el ejemplo que compartí hoy teníamos dos objetivos.
+
+48
+0:02:47.56,000 --> 0:02:49,000
+El primero era reducir el número de imágenes
+
+49
+0:02:50.56,000 --> 0:02:53,000
+necesarias para entrenar a los algoritmos de inteligencia artificial.
+
+50
+0:02:53.84,000 --> 0:02:55,000
+Con el segundo fuimos más ambiciosos,
+
+51
+0:02:55.96,000 --> 0:02:58,000
+queríamos reducir el uso de estos costosos equipos de tecnología
+
+52
+0:02:59.58,000 --> 0:03:,000
+para escaner los pacientes.
+
+53
+0:03:00.96,000 --> 0:03:01,000
+¿Cómo lo hicimos?
+
+54
+0:03:02.92,000 --> 0:03:03,000
+Para el primer objetivo,
+
+55
+0:03:04.16,000 --> 0:03:07,000
+en vez de comenzar con decenas de miles de estas costosas imágenes,
+
+56
+0:03:07.966,000 --> 0:03:08,000
+como la IA tradicional,
+
+57
+0:03:09.28,000 --> 0:03:11,000
+comenzamos con una sola imagen médica.
+
+58
+0:03:11.426,000 --> 0:03:14,000
+De esta imagen, mi equipo y yo encontramos una manera ingeniosa
+
+59
+0:03:15.16,000 --> 0:03:17,000
+de extraer miles de millones de paquetes de información.
+
+60
+0:03:17.92,000 --> 0:03:2,000
+Estos paquetes incluían colores, píxeles, geometría
+
+61
+0:03:21.49,000 --> 0:03:24,000
+y la representación de la enfermedad en la imagen de diagnóstico.
+
+62
+0:03:24.546,000 --> 0:03:27,000
+Es decir, convertimos una imagen en miles de millones de puntos de datos,
+
+63
+0:03:28.48,000 --> 0:03:31,000
+reduciendo enormemente la cantidad de datos necesarios para el entrenamiento.
+
+64
+0:03:32.12,000 --> 0:03:33,000
+Para el segundo objetivo,
+
+65
+0:03:33.36,000 --> 0:03:36,000
+para reducir el uso de los costosos escáneres para examinar pacientes
+
+66
+0:03:37.24,000 --> 0:03:39,000
+comenzamos con una fotografía estándar con luz natural
+
+67
+0:03:40.12,000 --> 0:03:44,000
+tomada con una cámara DSLR o con el teléfono del paciente.
+
+68
+0:03:44.24,000 --> 0:03:46,000
+¿Recuerdan esos miles de millones de paquetes de información?
+
+69
+0:03:47.096,000 --> 0:03:49,000
+Superpusimos esos paquetes de la imagen de diagnóstico
+
+70
+0:03:49.681,000 --> 0:03:49,000
+sobre esta imagen,
+
+71
+0:03:50.636,000 --> 0:03:52,000
+creando lo que llamamos una imagen compuesta.
+
+72
+0:03:53.48,000 --> 0:03:56,000
+Para nuestra sorpresa, solo necesitamos 50,
+
+73
+0:03:56.8,000 --> 0:03:57,000
+repito, solo 50
+
+74
+0:03:58.046,000 --> 0:04:02,000
+de esas imágenes compuestas para entrenar a los algoritmos con gran eficiencia.
+
+75
+0:04:02.63,000 --> 0:04:03,000
+Para resumir nuestro enfoque,
+
+76
+0:04:04.04,000 --> 0:04:07,000
+en lugar de utilizar 10 000 costosas imágenes de diagnóstico,
+
+77
+0:04:07.13,000 --> 0:04:1,000
+hoy podemos entrenar a los algoritmos de IA de un modo poco ortodoxo,
+
+78
+0:04:10.386,000 --> 0:04:14,000
+usando solo 50 de estas fotos de alta definición pero estándares,
+
+79
+0:04:14.56,000 --> 0:04:16,000
+tomadas con cámaras DSLR y teléfonos,
+
+80
+0:04:17.08,000 --> 0:04:18,000
+y establecer un diagnóstico.
+
+81
+0:04:18.64,000 --> 0:04:19,000
+Más importante aun,
+
+82
+0:04:19.88,000 --> 0:04:22,000
+nuestros algoritmos pueden aceptar, en el futuro o incluso hoy,
+
+83
+0:04:23.04,000 --> 0:04:25,000
+algunas fotos muy sencillas y estándares del paciente,
+
+84
+0:04:25.88,000 --> 0:04:27,000
+en lugar de los costosos equipos de diagnósticos por escáner.
+
+85
+0:04:29.12,000 --> 0:04:32,000
+Creo que estamos preparados para entrar en una nueva era
+
+86
+0:04:32.24,000 --> 0:04:33,000
+en la que la inteligencia artificial
+
+87
+0:04:34.2,000 --> 0:04:36,000
+incidirá increíblemente en nuestro futuro.
+
+88
+0:04:36.76,000 --> 0:04:38,000
+Y, pensando en la IA tradicional,
+
+89
+0:04:39.24,000 --> 0:04:41,000
+que es rica en datos pero ineficiente en su utilización,
+
+90
+0:04:42.04,000 --> 0:04:43,000
+deberíamos seguir pensando
+
+91
+0:04:43.6,000 --> 0:04:45,000
+en arquitecturas de IA no convencionales
+
+92
+0:04:46.3,000 --> 0:04:47,000
+que aceptan poca cantidad de datos
+
+93
+0:04:48.16,000 --> 0:04:51,000
+y resuelven algunos de los problemas más importantes de hoy en día,
+
+94
+0:04:51.346,000 --> 0:04:52,000
+especialmente en el sector de la salud.
+
+95
+0:04:53.206,000 --> 0:04:54,000
+Muchas gracias.
+
+96
+0:04:54.256,000 --> 0:04:57,000
+(Aplausos)
+

@@ -1,0 +1,1182 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lidia Cámara de la Fuente Revisor: Sebastian Betti
+
+2
+0:00:12.811,000 --> 0:00:15,000
+Uno va al médico y le hacen varias pruebas.
+
+3
+0:00:16.674,000 --> 0:00:18,000
+El médico determina que el colesterol está alto
+
+4
+0:00:19.318,000 --> 0:00:22,000
+y que sería bueno tomar una medicación adecuada.
+
+5
+0:00:22.981,000 --> 0:00:23,000
+Así que le dan pastillas.
+
+6
+0:00:25.505,000 --> 0:00:26,000
+Uno tiene cierta confianza,
+
+7
+0:00:26.728,000 --> 0:00:28,000
+el médico confía en que esto va a funcionar.
+
+8
+0:00:29.689,000 --> 0:00:32,000
+La empresa que lo creó hizo muchos estudios que revisó la FDA.
+
+9
+0:00:33.266,000 --> 0:00:35,000
+Lo analizaron cuidadosamente, con escepticismo, lo aprobaron.
+
+10
+0:00:36.137,000 --> 0:00:38,000
+Tienen una idea aproximada de cómo funciona,
+
+11
+0:00:38.26,000 --> 0:00:4,000
+y de cuáles son aproximadamente los efectos secundarios.
+
+12
+0:00:41.123,000 --> 0:00:42,000
+Debería estar bien.
+
+13
+0:00:42.864,000 --> 0:00:44,000
+Uno tiene algo más que una conversación con su médico
+
+14
+0:00:45.706,000 --> 0:00:47,000
+y al médico le preocupa un poco que uno esté desanimado,
+
+15
+0:00:48.693,000 --> 0:00:49,000
+que no sea uno mismo,
+
+16
+0:00:50.01,000 --> 0:00:53,000
+que no pueda disfrutar de las cosas de la vida tanto como antes.
+
+17
+0:00:53.765,000 --> 0:00:56,000
+El médico dice: "Sabes, creo que estás un poco deprimido.
+
+18
+0:00:57.792,000 --> 0:00:59,000
+Voy a recetarte otras pastillas".
+
+19
+0:01:00.934,000 --> 0:01:02,000
+Así que ahora hablamos de dos medicamentos.
+
+20
+0:01:03.441,000 --> 0:01:06,000
+También esta pastilla la han tomado millones de personas
+
+21
+0:01:06.569,000 --> 0:01:09,000
+la farmacéutica hizo estudios, la FDA los revisó, todo bien.
+
+22
+0:01:10.823,000 --> 0:01:12,000
+Las cosas deberían ir bien.
+
+23
+0:01:12.904,000 --> 0:01:14,000
+Las cosas deberían ir bien.
+
+24
+0:01:15.125,000 --> 0:01:16,000
+Pero, esperen un momento.
+
+25
+0:01:16.587,000 --> 0:01:19,000
+¿Cuánto sabemos sobre cómo actúan las dos juntas?
+
+26
+0:01:20.63,000 --> 0:01:22,000
+Es difícil hacer un estudio así.
+
+27
+0:01:22.954,000 --> 0:01:24,000
+De hecho, no se suele hacer.
+
+28
+0:01:25.108,000 --> 0:01:3,000
+Dependemos de lo que llamamos "supervisión tras la comercialización",
+
+29
+0:01:30.65,000 --> 0:01:31,000
+después de que salgan al mercado.
+
+30
+0:01:32.996,000 --> 0:01:34,000
+¿Cómo podemos averiguar si va a pasar algo malo
+
+31
+0:01:35.868,000 --> 0:01:36,000
+al combinar dos medicamentos?
+
+32
+0:01:37.249,000 --> 0:01:39,000
+¿Y tres? ¿Cinco? ¿Siete?
+
+33
+0:01:39.708,000 --> 0:01:41,000
+Pregunten a quien quieran que tenga varios diagnósticos
+
+34
+0:01:42.147,000 --> 0:01:43,000
+cuántos medicamentos toma.
+
+35
+0:01:44.53,000 --> 0:01:45,000
+¿Por qué me preocupo por esto?
+
+36
+0:01:46.134,000 --> 0:01:47,000
+Me preocupa en serio.
+
+37
+0:01:47.315,000 --> 0:01:51,000
+Soy informático y científico de datos y de verdad, en mi opinión,
+
+38
+0:01:51.643,000 --> 0:01:54,000
+la única esperanza, única esperanza, para entender estas interacciones
+
+39
+0:01:55.412,000 --> 0:01:58,000
+es usar muchas fuentes de datos diferentes
+
+40
+0:01:58.492,000 --> 0:02:01,000
+para comprender cuándo se pueden usar las medicinas juntas con seguridad
+
+41
+0:02:02.072,000 --> 0:02:03,000
+y cuando no es tan seguro.
+
+42
+0:02:04.265,000 --> 0:02:06,000
+Les contaré una historia sobre la ciencia de datos.
+
+43
+0:02:06.69,000 --> 0:02:08,000
+Comienza con mi estudiante Nick.
+
+44
+0:02:08.868,000 --> 0:02:1,000
+Vamos a llamarlo "Nick", porque ese es su nombre.
+
+45
+0:02:11.272,000 --> 0:02:12,000
+(Risas)
+
+46
+0:02:12.658,000 --> 0:02:13,000
+Nick era un joven estudiante.
+
+47
+0:02:14.103,000 --> 0:02:17,000
+Le dije: "Nick, tenemos que entender cómo funcionan las medicinas
+
+48
+0:02:17.216,000 --> 0:02:19,000
+cómo funcionan juntas y cómo funcionan por separado,
+
+49
+0:02:19.866,000 --> 0:02:2,000
+y no tenemos una gran visión.
+
+50
+0:02:21.741,000 --> 0:02:23,000
+Pero la FDA ha publicado una base de datos increíble.
+
+51
+0:02:24.281,000 --> 0:02:26,000
+Es una base de datos de reacciones adversas.
+
+52
+0:02:26.42,000 --> 0:02:27,000
+Literalmente, han puesto en la web
+
+53
+0:02:28.083,000 --> 0:02:31,000
+abierta al público, todos pueden descargarla ahora mismo,
+
+54
+0:02:31.13,000 --> 0:02:34,000
+cientos de miles de informes de efectos adversos
+
+55
+0:02:34.781,000 --> 0:02:37,000
+de pacientes, médicos, empresas, farmacéuticos.
+
+56
+0:02:38.435,000 --> 0:02:39,000
+Y estos informes son bastante simples:
+
+57
+0:02:40.384,000 --> 0:02:42,000
+contienen todas las enfermedades que tiene el paciente,
+
+58
+0:02:43.02,000 --> 0:02:44,000
+las medicinas que toma
+
+59
+0:02:44.811,000 --> 0:02:47,000
+y todas las reacciones adversas o efectos secundarios que ha tenido.
+
+60
+0:02:48.653,000 --> 0:02:51,000
+No son todas las reacciones adversas que están dándose hoy en EE.UU.,
+
+61
+0:02:52.113,000 --> 0:02:54,000
+pero son cientos y cientos de miles de medicamentos.
+
+62
+0:02:54.715,000 --> 0:02:55,000
+Así que le dije a Nick:
+
+63
+0:02:56.038,000 --> 0:02:57,000
+"Vamos a considerar la glucosa.
+
+64
+0:02:57.888,000 --> 0:03:,000
+La glucosa es muy importante y conocemos su relación con la diabetes.
+
+65
+0:03:01.479,000 --> 0:03:04,000
+Vamos a ver si podemos entender la respuesta de la glucosa.
+
+66
+0:03:05.473,000 --> 0:03:07,000
+Envié a Nick. Nick regresó.
+
+67
+0:03:08.248,000 --> 0:03:09,000
+"Russ", dijo,
+
+68
+0:03:10.351,000 --> 0:03:15,000
+"He creado un clasificador que examina los efectos secundarios de una medicina
+
+69
+0:03:15.487,000 --> 0:03:17,000
+explorando esta base de datos,
+
+70
+0:03:17.562,000 --> 0:03:21,000
+y puede mostrar si es probable que esa medicina cambie o no la glucosa".
+
+71
+0:03:21.857,000 --> 0:03:23,000
+Él lo hizo. En un sentido, era sencillo.
+
+72
+0:03:23.897,000 --> 0:03:25,000
+Eligió las medicinas que sabemos que alteran la glucosa
+
+73
+0:03:26.556,000 --> 0:03:28,000
+y un puñado de medicinas que no la alteran
+
+74
+0:03:28.969,000 --> 0:03:3,000
+y dijo: "¿En qué se diferencian los efectos secundarios?
+
+75
+0:03:31.831,000 --> 0:03:35,000
+¿Hay diferencias en el cansancio? ¿En el apetito? ¿En los hábitos urinarios?"
+
+76
+0:03:36.757,000 --> 0:03:38,000
+Todo se confabuló para darle un muy buen indicador.
+
+77
+0:03:39.661,000 --> 0:03:41,000
+Dijo: "Russ, puedo predecir con una precisión del 93 %
+
+78
+0:03:42.203,000 --> 0:03:43,000
+si una medicina alterará la glucosa".
+
+79
+0:03:43.995,000 --> 0:03:44,000
+Dije: "Nick, eso es genial".
+
+80
+0:03:45.355,000 --> 0:03:47,000
+Es un estudiante joven, hay que cimentar su confianza.
+
+81
+0:03:48.269,000 --> 0:03:49,000
+"Pero hay un problema, Nick.
+
+82
+0:03:49.683,000 --> 0:03:52,000
+Todos los médicos del mundo conocen los medicamentos que alteran la glucosa,
+
+83
+0:03:53.567,000 --> 0:03:55,000
+porque es fundamental para nuestra práctica.
+
+84
+0:03:55.729,000 --> 0:03:58,000
+Así que es genial, buen trabajo, pero en realidad no es tan interesante,
+
+85
+0:03:59.475,000 --> 0:04:,000
+definitivamente no publicable".
+
+86
+0:04:01.03,000 --> 0:04:02,000
+(Risas)
+
+87
+0:04:02.068,000 --> 0:04:04,000
+Él dijo: "Lo sé, Russ. Sabía que dirías algo así".
+
+88
+0:04:04.642,000 --> 0:04:05,000
+Nick es inteligente.
+
+89
+0:04:06.149,000 --> 0:04:08,000
+Dijo: "Como sabía que lo dirías, hice otro experimento.
+
+90
+0:04:08.877,000 --> 0:04:11,000
+Estudié a gente en esa base de datos que tomaban ambas medicinas,
+
+91
+0:04:11.999,000 --> 0:04:15,000
+y busqué marcas similares, señales de alteraciones de la glucosa,
+
+92
+0:04:16.265,000 --> 0:04:17,000
+de gente que toma ambos medicamentos,
+
+93
+0:04:18.093,000 --> 0:04:23,000
+pero cada medicina sola no altera la glucosa,
+
+94
+0:04:23.686,000 --> 0:04:25,000
+pero juntas constaté un marcador fuerte".
+
+95
+0:04:26.17,000 --> 0:04:29,000
+Y dije: "Eres inteligente. Buena idea. Muéstrame la lista".
+
+96
+0:04:29.343,000 --> 0:04:31,000
+Hay muchas medicinas, no muy emocionante.
+
+97
+0:04:31.62,000 --> 0:04:34,000
+Pero lo que más me llamó la atención fue que en la lista había dos,
+
+98
+0:04:35.577,000 --> 0:04:38,000
+paroxetina o Paxil, un antidepresivo;
+
+99
+0:04:39.756,000 --> 0:04:42,000
+y pravastatina, o Pravachol, un medicamento para el colesterol.
+
+100
+0:04:43.936,000 --> 0:04:47,000
+Y dije: "Hay millones de estadounidenses que toman esos dos medicamentos".
+
+101
+0:04:48.243,000 --> 0:04:49,000
+De hecho, como vimos,
+
+102
+0:04:49.513,000 --> 0:04:55,000
+15 millones de estadounidenses toman paroxetina en este momento
+
+103
+0:04:55.569,000 --> 0:04:57,000
+y estimamos que un millón toman las dos.
+
+104
+0:04:58.767,000 --> 0:04:59,000
+Un millón de personas
+
+105
+0:05:00.045,000 --> 0:05:02,000
+podrían estar teniendo problemas con su glucosa
+
+106
+0:05:02.342,000 --> 0:05:05,000
+si este aprendizaje automático en jerga generado
+
+107
+0:05:05.722,000 --> 0:05:06,000
+en la base de datos de la FDA fuese válido.
+
+108
+0:05:07.676,000 --> 0:05:08,000
+Y dije: "Todavía no es publicable,
+
+109
+0:05:09.397,000 --> 0:05:1,000
+aunque me encanta lo que hiciste
+
+110
+0:05:11.281,000 --> 0:05:13,000
+con el aprendizaje automático en jerga
+
+111
+0:05:13.557,000 --> 0:05:16,000
+pero en realidad no es una prueba irrefutable".
+
+112
+0:05:17.268,000 --> 0:05:18,000
+Así que tenemos que hacer algo más.
+
+113
+0:05:19.231,000 --> 0:05:21,000
+Entraremos en el historial clínico electrónico de Stanford.
+
+114
+0:05:22.121,000 --> 0:05:24,000
+Tenemos una copia lo que está bien para la investigación,
+
+115
+0:05:24.915,000 --> 0:05:26,000
+eliminamos la información de identificación.
+
+116
+0:05:27.075,000 --> 0:05:29,000
+Y dije: "Veremos si la gente con ambos fármacos
+
+117
+0:05:29.344,000 --> 0:05:31,000
+tiene problemas en sus niveles de glucosa".
+
+118
+0:05:31.537,000 --> 0:05:32,000
+Pero hay miles y miles de personas
+
+119
+0:05:33.429,000 --> 0:05:36,000
+en los registros médicos de Stanford que toman paroxetina y pravastatina.
+
+120
+0:05:36.956,000 --> 0:05:37,000
+Necesitábamos pacientes especiales.
+
+121
+0:05:38.885,000 --> 0:05:42,000
+Necesitábamos pacientes con uno de ellos y con una medición de glucosa,
+
+122
+0:05:43.4,000 --> 0:05:46,000
+luego el segundo con otra medición de glucosa,
+
+123
+0:05:46.873,000 --> 0:05:49,000
+todo dentro de un período razonable de tiempo, algo así como dos meses.
+
+124
+0:05:50.512,000 --> 0:05:53,000
+Y cuando lo hicimos, encontramos 10 pacientes.
+
+125
+0:05:54.592,000 --> 0:05:58,000
+Sin embargo, 8 de 10 tuvieron un bache en sus niveles de glucosa
+
+126
+0:05:58.854,000 --> 0:06:,000
+cuando consiguieron la segunda P, a esto lo llamamos P y P,
+
+127
+0:06:01.713,000 --> 0:06:02,000
+cuando consiguieron la segunda P.
+
+128
+0:06:03.333,000 --> 0:06:05,000
+Cualquiera de las dos podría ser la primera, lo que aparece,
+
+129
+0:06:06.319,000 --> 0:06:08,000
+es que la glucosa subió a 20 mg por dl.
+
+130
+0:06:08.514,000 --> 0:06:09,000
+Así como un recordatorio,
+
+131
+0:06:09.796,000 --> 0:06:11,000
+uno camina con normalidad, si no es diabético,
+
+132
+0:06:12.045,000 --> 0:06:13,000
+con una glucosa de alrededor de 90.
+
+133
+0:06:13.764,000 --> 0:06:14,000
+Y si se pone hasta 120, 125,
+
+134
+0:06:15.628,000 --> 0:06:18,000
+el médico empieza a pensar en un posible diagnóstico de diabetes.
+
+135
+0:06:19.102,000 --> 0:06:21,000
+Por eso un aumento de 20 es bastante significativo.
+
+136
+0:06:22.581,000 --> 0:06:23,000
+Le dije: "Nick, esto es genial.
+
+137
+0:06:24.896,000 --> 0:06:26,000
+Pero, lo siento, todavía no podemos publicar
+
+138
+0:06:27.503,000 --> 0:06:29,000
+porque se trata de 10 pacientes y, en serio,
+
+139
+0:06:30.036,000 --> 0:06:31,000
+no son suficientes pacientes".
+
+140
+0:06:31.505,000 --> 0:06:32,000
+Así que dijimos, ¿qué podemos hacer?
+
+141
+0:06:33.291,000 --> 0:06:35,000
+Llamaremos a nuestros amigos en Harvard y Vanderbilt,
+
+142
+0:06:35.855,000 --> 0:06:37,000
+que también, de Harvard en Boston, Vanderbilt en Nashville,
+
+143
+0:06:38.782,000 --> 0:06:41,000
+tienen registros médicos electrónicos similares a los nuestros.
+
+144
+0:06:41.847,000 --> 0:06:43,000
+Vamos a ver si pueden encontrar pacientes similares
+
+145
+0:06:44.061,000 --> 0:06:46,000
+con una P, la otra P, las mediciones de glucosa
+
+146
+0:06:46.695,000 --> 0:06:47,000
+en ese rango que necesitamos.
+
+147
+0:06:48.347,000 --> 0:06:53,000
+Dios los bendiga, Vanderbilt en una semana encontró 40 de estos pacientes,
+
+148
+0:06:53.402,000 --> 0:06:54,000
+misma tendencia.
+
+149
+0:06:55.804,000 --> 0:06:58,000
+Harvard encontró 100 pacientes, la misma tendencia.
+
+150
+0:06:59.448,000 --> 0:07:03,000
+Al final, tuvimos 150 pacientes de tres diferentes centros médicos
+
+151
+0:07:03.753,000 --> 0:07:06,000
+que nos decían que los pacientes que ingerían estos dos medicamentos
+
+152
+0:07:07.074,000 --> 0:07:09,000
+tenían niveles de glucosa alterados de manera significativa.
+
+153
+0:07:10.227,000 --> 0:07:12,000
+Más interesante aún, dejamos de lado a los diabéticos,
+
+154
+0:07:12.961,000 --> 0:07:14,000
+porque los diabéticos ya tienen alterada la glucosa.
+
+155
+0:07:15.492,000 --> 0:07:17,000
+Cuando analizamos, la glucosa de los diabéticos
+
+156
+0:07:18.13,000 --> 0:07:21,000
+llegaba hasta 60 mg por dl, no solo a 20.
+
+157
+0:07:21.76,000 --> 0:07:24,000
+Este fue un gran logro, y dijimos: "Tenemos que publicar esto".
+
+158
+0:07:25.016,000 --> 0:07:26,000
+Hemos presentado el artículo.
+
+159
+0:07:26.439,000 --> 0:07:28,000
+Con toda la evidencia de los datos,
+
+160
+0:07:28.574,000 --> 0:07:3,000
+datos de la FDA, datos de Stanford,
+
+161
+0:07:30.981,000 --> 0:07:32,000
+datos de Vanderbilt, datos de la Universidad de Harvard.
+
+162
+0:07:33.307,000 --> 0:07:35,000
+No habíamos hecho ni un solo experimento real.
+
+163
+0:07:36.495,000 --> 0:07:37,000
+Pero estábamos nerviosos.
+
+164
+0:07:38.201,000 --> 0:07:41,000
+Mientras que el artículo estaba en revisión, Nick y yo fuimos al laboratorio.
+
+165
+0:07:41.955,000 --> 0:07:43,000
+Encontramos a alguien que sabía de cosas de laboratorio.
+
+166
+0:07:44.697,000 --> 0:07:45,000
+Yo no hago eso.
+
+167
+0:07:45.858,000 --> 0:07:47,000
+Me cuido de los pacientes, pero no trabajo con pipetas.
+
+168
+0:07:49.42,000 --> 0:07:52,000
+Nos mostraron cómo suministrar fármacos a los ratones.
+
+169
+0:07:52.864,000 --> 0:07:54,000
+Nos llevamos ratones y les dimos una P, paroxetina.
+
+170
+0:07:55.302,000 --> 0:07:57,000
+Dimos a otros pravastatina.
+
+171
+0:07:57.834,000 --> 0:08:,000
+Y a un tercer grupo de ratones ambos fármacos.
+
+172
+0:08:01.893,000 --> 0:08:04,000
+Y la glucosa subió de 20 a 60 mg por dl
+
+173
+0:08:05.863,000 --> 0:08:06,000
+en los ratones.
+
+174
+0:08:07.018,000 --> 0:08:1,000
+El artículo fue aceptado con base solo a la evidencia informática,
+
+175
+0:08:10.12,000 --> 0:08:12,000
+pero hemos añadido una pequeña nota al final,
+
+176
+0:08:12.294,000 --> 0:08:14,000
+comentando que si se da esto a los ratones, sube la glucosa.
+
+177
+0:08:15.197,000 --> 0:08:17,000
+Eso fue genial, y la historia podría haber terminado ahí.
+
+178
+0:08:18.129,000 --> 0:08:2,000
+Pero todavía tengo seis minutos y medio.
+
+179
+0:08:20.18,000 --> 0:08:22,000
+(Risas)
+
+180
+0:08:22.465,000 --> 0:08:24,000
+Así que sentados pensando en todo esto,
+
+181
+0:08:25.304,000 --> 0:08:27,000
+no recuerdo quién pensó en ello, pero alguien dijo:
+
+182
+0:08:28.063,000 --> 0:08:31,000
+"Me pregunto si los pacientes que toman ambos fármacos
+
+183
+0:08:31.288,000 --> 0:08:34,000
+notan efectos secundarios por hiperglucemia.
+
+184
+0:08:34.865,000 --> 0:08:35,000
+Podrían y deberían notarlos.
+
+185
+0:08:36.761,000 --> 0:08:37,000
+¿Cómo lo podríamos comprobar?"
+
+186
+0:08:39.341,000 --> 0:08:4,000
+Dijimos, bueno, ¿qué hace uno?
+
+187
+0:08:40.968,000 --> 0:08:42,000
+Uno toma un medicamento, uno o dos nuevos medicamentos,
+
+188
+0:08:43.622,000 --> 0:08:44,000
+y tiene una sensación extraña.
+
+189
+0:08:45.318,000 --> 0:08:46,000
+¿Qué hace?
+
+190
+0:08:46.359,000 --> 0:08:47,000
+Uno va a Google
+
+191
+0:08:47.534,000 --> 0:08:5,000
+y teclea uno o los dos medicamentos que esté tomando
+
+192
+0:08:50.797,000 --> 0:08:51,000
+y teclea "efectos secundarios".
+
+193
+0:08:52.534,000 --> 0:08:53,000
+¿Qué estás experimentando?
+
+194
+0:08:54.029,000 --> 0:08:55,000
+Así que dijimos bien,
+
+195
+0:08:55.073,000 --> 0:08:58,000
+pediremos a Google que comparta sus registros de búsqueda con nosotros,
+
+196
+0:08:58.51,000 --> 0:09:,000
+para poder mirar los registros de búsqueda
+
+197
+0:09:00.607,000 --> 0:09:02,000
+y ver si los pacientes hacen este tipo de búsquedas.
+
+198
+0:09:03.196,000 --> 0:09:06,000
+Google, siento decirlo, denegó nuestra petición.
+
+199
+0:09:06.689,000 --> 0:09:07,000
+Así que estaba devastado.
+
+200
+0:09:07.994,000 --> 0:09:1,000
+En una cena con un colega que trabaja en Microsoft Research
+
+201
+0:09:11.184,000 --> 0:09:12,000
+dije: "Queríamos hacer este estudio,
+
+202
+0:09:13.149,000 --> 0:09:15,000
+Google dijo que no, es triste".
+
+203
+0:09:15.339,000 --> 0:09:17,000
+Él dijo: "Bueno, tenemos las búsquedas de Bing".
+
+204
+0:09:18.195,000 --> 0:09:21,000
+(Risas)
+
+205
+0:09:22.805,000 --> 0:09:23,000
+Sí.
+
+206
+0:09:24.096,000 --> 0:09:25,000
+Eso es genial.
+
+207
+0:09:25.271,000 --> 0:09:26,000
+Me sentí como si estuviera...
+
+208
+0:09:26.712,000 --> 0:09:26,000
+(Risas)
+
+209
+0:09:27.47,000 --> 0:09:29,000
+Me sentí como si estuviera hablando con Nick de nuevo.
+
+210
+0:09:30.207,000 --> 0:09:32,000
+Él trabaja para una de las empresas más grandes del mundo,
+
+211
+0:09:33.085,000 --> 0:09:35,000
+y ya estaba intentando hacerle sentir bien.
+
+212
+0:09:35.185,000 --> 0:09:37,000
+Sin embargo, dijo, "No, Russ, creo que no entiendes.
+
+213
+0:09:37.714,000 --> 0:09:38,000
+No solo tenemos las búsquedas de Bing,
+
+214
+0:09:39.544,000 --> 0:09:42,000
+pues si usas Internet Explorer para hacer búsquedas en Google,
+
+215
+0:09:42.988,000 --> 0:09:43,000
+Yahoo, Bing, cualquiera...
+
+216
+0:09:44.587,000 --> 0:09:47,000
+Mantenemos los datos solo con fines de investigación 18 meses".
+
+217
+0:09:48.254,000 --> 0:09:49,000
+Le dije: "¡Así se habla!"
+
+218
+0:09:50.214,000 --> 0:09:52,000
+Este era Eric Horvitz, mi amigo en Microsoft.
+
+219
+0:09:52.436,000 --> 0:09:53,000
+Así que hicimos un estudio
+
+220
+0:09:54.155,000 --> 0:09:58,000
+donde definimos 50 palabras que una persona normal puede escribir
+
+221
+0:09:58.798,000 --> 0:09:59,000
+si sufre hiperglucemia,
+
+222
+0:10:00.424,000 --> 0:10:04,000
+como "fatiga", "pérdida de apetito", "orinar mucho", "mear mucho",
+
+223
+0:10:04.68,000 --> 0:10:06,000
+perdóname, pero esa es una de las cosas que se puede teclear.
+
+224
+0:10:07.621,000 --> 0:10:1,000
+Así que teníamos 50 frases que llamamos "palabras de la diabetes".
+
+225
+0:10:10.795,000 --> 0:10:12,000
+Y lo hicimos por primera vez como línea de partida.
+
+226
+0:10:13.298,000 --> 0:10:15,000
+Y resulta que alrededor del 0,5 al 1 %
+
+227
+0:10:15.42,000 --> 0:10:18,000
+de todas las búsquedas en Internet implican una de esas palabras.
+
+228
+0:10:18.636,000 --> 0:10:2,000
+Así que esa es nuestra tasa de referencia.
+
+229
+0:10:20.748,000 --> 0:10:23,000
+Si la gente escribe "paroxetina" o "Paxil", que son sinónimos,
+
+230
+0:10:24.569,000 --> 0:10:25,000
+y una de esas palabras,
+
+231
+0:10:25.808,000 --> 0:10:29,000
+la tasa sube a aproximadamente 2 % de las palabras de tipo diabetes,
+
+232
+0:10:30.722,000 --> 0:10:33,000
+Si ya se sabe que está la palabra "paroxetina".
+
+233
+0:10:34.191,000 --> 0:10:38,000
+Si es "pravastatina", la tasa sube a un 3 % en la línea de partida.
+
+234
+0:10:39.171,000 --> 0:10:43,000
+Si están "paroxetina" y "pravastatina" presentes en la consulta,
+
+235
+0:10:43.585,000 --> 0:10:44,000
+sube a 10 %,
+
+236
+0:10:45.278,000 --> 0:10:48,000
+un aumento enorme de tres a cuatro veces
+
+237
+0:10:48.763,000 --> 0:10:51,000
+en esas búsquedas con los dos fármacos que nos interesan
+
+238
+0:10:52.176,000 --> 0:10:55,000
+y las palabras de tipo diabetes o palabras de tipo hiperglucemia.
+
+239
+0:10:55.996,000 --> 0:10:56,000
+Hemos publicado esto,
+
+240
+0:10:57.365,000 --> 0:10:58,000
+y obtuvo algo de atención.
+
+241
+0:10:58.855,000 --> 0:10:59,000
+La razón por la que merece la atención
+
+242
+0:11:00.797,000 --> 0:11:04,000
+es que los pacientes nos dicen sus efectos secundarios indirectamente
+
+243
+0:11:04.993,000 --> 0:11:05,000
+a través de sus búsquedas.
+
+244
+0:11:06.313,000 --> 0:11:08,000
+Llamamos la atención de la FDA.
+
+245
+0:11:08.475,000 --> 0:11:09,000
+Ellos estaban interesados.
+
+246
+0:11:09.768,000 --> 0:11:12,000
+Se han aplicado programas de vigilancia en los medios sociales
+
+247
+0:11:13.398,000 --> 0:11:14,000
+para colaborar con Microsoft,
+
+248
+0:11:14.983,000 --> 0:11:16,000
+que tenía una bonita infraestructura para hacer esto, y otros,
+
+249
+0:11:17.991,000 --> 0:11:18,000
+mirando los datos en Twitter,
+
+250
+0:11:19.423,000 --> 0:11:2,000
+los datos en Facebook,
+
+251
+0:11:21.037,000 --> 0:11:22,000
+mirando los registros de búsqueda,
+
+252
+0:11:22.738,000 --> 0:11:26,000
+para ver los primeros signos de que los fármacos ya sea individualmente
+
+253
+0:11:26.895,000 --> 0:11:27,000
+o en conjunto, están causando problemas.
+
+254
+0:11:28.868,000 --> 0:11:3,000
+¿Qué sacamos de esto? ¿Por qué contar esta historia?
+
+255
+0:11:31.362,000 --> 0:11:32,000
+Bueno, en primer lugar,
+
+256
+0:11:32.503,000 --> 0:11:35,000
+tenemos la promesa de grandes volúmenes de datos y de tamaño mediano
+
+257
+0:11:36.238,000 --> 0:11:39,000
+para ayudarnos a entender las interacciones entre medicamentos
+
+258
+0:11:39.26,000 --> 0:11:42,000
+y, esencialmente, sus efectos.
+
+259
+0:11:42.32,000 --> 0:11:43,000
+¿Cómo funcionan los medicamentos?
+
+260
+0:11:43.927,000 --> 0:11:45,000
+Esto creará y ha creado un nuevo ecosistema
+
+261
+0:11:46.217,000 --> 0:11:49,000
+para comprender cómo funcionan los medicamentos y optimizar su uso.
+
+262
+0:11:49.813,000 --> 0:11:52,000
+Nick continuó; él es profesor de la Universidad de Columbia ahora.
+
+263
+0:11:52.986,000 --> 0:11:56,000
+Ha hecho esto en su tesis doctoral con cientos de pares de medicamentos.
+
+264
+0:11:57.082,000 --> 0:11:59,000
+Encontró varias interacciones muy importantes,
+
+265
+0:11:59.623,000 --> 0:12:,000
+y lo replicamos
+
+266
+0:12:00.821,000 --> 0:12:03,000
+y hemos demostrado que esta es una manera que realmente funciona
+
+267
+0:12:04.005,000 --> 0:12:06,000
+para la búsqueda de interacciones fármaco-fármaco.
+
+268
+0:12:06.438,000 --> 0:12:07,000
+Sin embargo, hay algunas salvedades.
+
+269
+0:12:08.04,000 --> 0:12:11,000
+No nos limitamos a usar pares de medicamentos.
+
+270
+0:12:11.11,000 --> 0:12:15,000
+Como he dicho antes, hay pacientes con tres, cinco, siete, nueve medicamentos.
+
+271
+0:12:15.981,000 --> 0:12:18,000
+¿Cómo estudiamos su interacción de nueve maneras?
+
+272
+0:12:19.647,000 --> 0:12:23,000
+Sí, podemos hacerlo de a pares A y B, A y C, A y D,
+
+273
+0:12:23.879,000 --> 0:12:27,000
+pero ¿qué pasa con A, B, C, D, E, F, G todos juntos,
+
+274
+0:12:28.189,000 --> 0:12:29,000
+en el mismo paciente,
+
+275
+0:12:29.975,000 --> 0:12:31,000
+tal vez interactúan entre sí
+
+276
+0:12:32.117,000 --> 0:12:35,000
+de manera que, o bien los hace más eficaces o menos eficaces
+
+277
+0:12:35.919,000 --> 0:12:37,000
+o causa efectos secundarios inesperados?
+
+278
+0:12:38.275,000 --> 0:12:39,000
+Realmente no tenemos idea.
+
+279
+0:12:40.126,000 --> 0:12:43,000
+Es un campo fértil, abierto al uso de datos
+
+280
+0:12:43.906,000 --> 0:12:45,000
+para tratar de comprender la interacción de los fármacos.
+
+281
+0:12:46.848,000 --> 0:12:47,000
+Dos lecciones más:
+
+282
+0:12:48.242,000 --> 0:12:52,000
+Quiero que piensen en el poder que hemos generado
+
+283
+0:12:52.465,000 --> 0:12:56,000
+con datos de personas que han presentado reacciones adversas
+
+284
+0:12:56.93,000 --> 0:12:59,000
+a través de sus farmacéuticos, de ellos mismos y de sus médicos,
+
+285
+0:13:00.493,000 --> 0:13:03,000
+personas que permitieron usar las bases de datos de la Universidad de Stanford,
+
+286
+0:13:04.184,000 --> 0:13:06,000
+Harvard, Vanderbilt, para la investigación.
+
+287
+0:13:06.351,000 --> 0:13:07,000
+La gente está preocupada por los datos.
+
+288
+0:13:08.344,000 --> 0:13:09,000
+Está preocupada por su privacidad y la seguridad y deben estarlo.
+
+289
+0:13:10.165,000 --> 0:13:11,000
+Necesitamos sistemas seguros.
+
+290
+0:13:11.74,000 --> 0:13:15,000
+Pero no podemos tener un sistema que se cierre a los datos,
+
+291
+0:13:15.92,000 --> 0:13:17,000
+porque es una fuente demasiado rica
+
+292
+0:13:17.99,000 --> 0:13:2,000
+de inspiración, innovación y descubrimiento
+
+293
+0:13:21.811,000 --> 0:13:22,000
+para cosas nuevas en la medicina.
+
+294
+0:13:24.494,000 --> 0:13:25,000
+Y lo último que quiero decir es,
+
+295
+0:13:26.312,000 --> 0:13:29,000
+en este caso encontramos dos fármacos, una historia triste.
+
+296
+0:13:29.313,000 --> 0:13:31,000

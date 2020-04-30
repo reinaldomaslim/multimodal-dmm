@@ -1,0 +1,872 @@
+1
+0:00:12.874,000 --> 0:00:15,000
+So many of you have probably seen the movie "The Martian."
+
+2
+0:00:16.961,000 --> 0:00:19,000
+But for those of you who did not, it's a movie about an astronaut
+
+3
+0:00:20.802,000 --> 0:00:24,000
+who is stranded on Mars, and his efforts to stay alive
+
+4
+0:00:25.369,000 --> 0:00:29,000
+until the Earth can send a rescue mission to bring him back to Earth.
+
+5
+0:00:31.025,000 --> 0:00:34,000
+Gladly, they do re-establish communication
+
+6
+0:00:34.188,000 --> 0:00:36,000
+with the character, astronaut Watney, at some point
+
+7
+0:00:36.75,000 --> 0:00:41,000
+so that he's not as alone on Mars until he can be rescued.
+
+8
+0:00:42.546,000 --> 0:00:44,000
+So while you're watching the movie, or even if you haven't,
+
+9
+0:00:45.332,000 --> 0:00:46,000
+when you think about Mars,
+
+10
+0:00:46.904,000 --> 0:00:5,000
+you're probably thinking about how far away it is and how distant.
+
+11
+0:00:51.728,000 --> 0:00:53,000
+And, what might not have occurred to you is,
+
+12
+0:00:54.331,000 --> 0:00:57,000
+what are the logistics really like of working on another planet --
+
+13
+0:00:58.252,000 --> 0:01:,000
+of living on two planets
+
+14
+0:01:00.522,000 --> 0:01:05,000
+when there are people on the Earth and there are rovers or people on Mars?
+
+15
+0:01:06.38,000 --> 0:01:1,000
+So think about when you have friends, families and co-workers
+
+16
+0:01:10.562,000 --> 0:01:13,000
+in California, on the West Coast or in other parts of the world.
+
+17
+0:01:14.045,000 --> 0:01:16,000
+When you're trying to communicate with them,
+
+18
+0:01:16.122,000 --> 0:01:18,000
+one of the things you probably first think about is:
+
+19
+0:01:18.584,000 --> 0:01:2,000
+wait, what time is it in California?
+
+20
+0:01:20.704,000 --> 0:01:22,000
+Will I wake them up? Is it OK to call?
+
+21
+0:01:23.703,000 --> 0:01:26,000
+So even if you're interacting with colleagues who are in Europe,
+
+22
+0:01:27.078,000 --> 0:01:29,000
+you're immediately thinking about:
+
+23
+0:01:29.144,000 --> 0:01:36,000
+What does it take to coordinate communication when people are far away?
+
+24
+0:01:36.793,000 --> 0:01:41,000
+So we don't have people on Mars right now, but we do have rovers.
+
+25
+0:01:42.401,000 --> 0:01:47,000
+And actually right now, on Curiosity, it is 6:10 in the morning.
+
+26
+0:01:47.53,000 --> 0:01:49,000
+So, 6:10 in the morning on Mars.
+
+27
+0:01:50.696,000 --> 0:01:52,000
+We have four rovers on Mars.
+
+28
+0:01:52.721,000 --> 0:01:56,000
+The United States has put four rovers on Mars since the mid-1990s,
+
+29
+0:01:56.752,000 --> 0:01:59,000
+and I have been privileged enough to work on three of them.
+
+30
+0:02:00.715,000 --> 0:02:04,000
+So, I am a spacecraft engineer, a spacecraft operations engineer,
+
+31
+0:02:05.26,000 --> 0:02:09,000
+at NASA's Jet Propulsion Laboratory in Los Angeles, California.
+
+32
+0:02:10.676,000 --> 0:02:14,000
+And these rovers are our robotic emissaries.
+
+33
+0:02:14.861,000 --> 0:02:2,000
+So, they are our eyes and our ears, and they see the planet for us
+
+34
+0:02:21.163,000 --> 0:02:22,000
+until we can send people.
+
+35
+0:02:23.02,000 --> 0:02:28,000
+So we learn how to operate on other planets through these rovers.
+
+36
+0:02:28.337,000 --> 0:02:32,000
+So before we send people, we send robots.
+
+37
+0:02:33.146,000 --> 0:02:36,000
+So the reason there's a time difference on Mars right now,
+
+38
+0:02:37.121,000 --> 0:02:38,000
+from the time that we're at
+
+39
+0:02:38.447,000 --> 0:02:41,000
+is because the Martian day is longer than the Earth day.
+
+40
+0:02:42.774,000 --> 0:02:44,000
+Our Earth day is 24 hours,
+
+41
+0:02:45.595,000 --> 0:02:48,000
+because that's how long it takes the Earth to rotate,
+
+42
+0:02:48.993,000 --> 0:02:5,000
+how long it takes to go around once.
+
+43
+0:02:51.018,000 --> 0:02:52,000
+So our day is 24 hours.
+
+44
+0:02:53.306,000 --> 0:02:59,000
+It takes Mars 24 hours and approximately 40 minutes to rotate once.
+
+45
+0:03:00.15,000 --> 0:03:06,000
+So that means that the Martian day is 40 minutes longer than the Earth day.
+
+46
+0:03:07.027,000 --> 0:03:12,000
+So teams of people who are operating the rovers on Mars, like this one,
+
+47
+0:03:12.206,000 --> 0:03:17,000
+what we are doing is we are living on Earth, but working on Mars.
+
+48
+0:03:17.642,000 --> 0:03:22,000
+So we have to think as if we are actually on Mars with the rover.
+
+49
+0:03:23.474,000 --> 0:03:26,000
+Our job, the job of this team, of which I'm a part of,
+
+50
+0:03:27.077,000 --> 0:03:32,000
+is to send commands to the rover to tell it what to do the next day.
+
+51
+0:03:33.03,000 --> 0:03:37,000
+To tell it to drive or drill or tell her whatever she's supposed to do.
+
+52
+0:03:37.373,000 --> 0:03:41,000
+So while she's sleeping -- and the rover does sleep at night
+
+53
+0:03:41.863,000 --> 0:03:43,000
+because she needs to recharge her batteries
+
+54
+0:03:44.257,000 --> 0:03:47,000
+and she needs to weather the cold Martian night.
+
+55
+0:03:48.177,000 --> 0:03:49,000
+And so she sleeps.
+
+56
+0:03:49.563,000 --> 0:03:53,000
+So while she sleeps, we work on her program for the next day.
+
+57
+0:03:54.677,000 --> 0:03:56,000
+So I work the Martian night shift.
+
+58
+0:03:57.683,000 --> 0:03:58,000
+(Laughter)
+
+59
+0:03:59.298,000 --> 0:04:05,000
+So in order to come to work on the Earth at the same time every day on Mars --
+
+60
+0:04:05.95,000 --> 0:04:07,000
+like, let's say I need to be at work at 5:00 p.m.,
+
+61
+0:04:08.378,000 --> 0:04:13,000
+this team needs to be at work at 5:00 p.m. Mars time every day,
+
+62
+0:04:13.971,000 --> 0:04:2,000
+then we have to come to work on the Earth 40 minutes later every day,
+
+63
+0:04:21.962,000 --> 0:04:23,000
+in order to stay in sync with Mars.
+
+64
+0:04:24.165,000 --> 0:04:26,000
+That's like moving a time zone every day.
+
+65
+0:04:27.141,000 --> 0:04:32,000
+So one day you come in at 8:00, the next day 40 minutes later at 8:40,
+
+66
+0:04:32.62,000 --> 0:04:35,000
+the next day 40 minutes later at 9:20,
+
+67
+0:04:35.913,000 --> 0:04:36,000
+the next day at 10:00.
+
+68
+0:04:37.526,000 --> 0:04:4,000
+So you keep moving 40 minutes every day,
+
+69
+0:04:41.128,000 --> 0:04:43,000
+until soon you're coming to work in the middle of the night --
+
+70
+0:04:44.141,000 --> 0:04:45,000
+the middle of the Earth night.
+
+71
+0:04:45.982,000 --> 0:04:48,000
+Right? So you can imagine how confusing that is.
+
+72
+0:04:49.624,000 --> 0:04:51,000
+Hence, the Mars watch.
+
+73
+0:04:51.8,000 --> 0:04:52,000
+(Laughter)
+
+74
+0:04:52.825,000 --> 0:04:55,000
+This weights in this watch have been mechanically adjusted
+
+75
+0:04:56.367,000 --> 0:04:58,000
+so that it runs more slowly.
+
+76
+0:04:58.919,000 --> 0:04:59,000
+Right? And we didn't start out --
+
+77
+0:05:00.832,000 --> 0:05:02,000
+I got this watch in 2004
+
+78
+0:05:03.082,000 --> 0:05:06,000
+when Spirit and Opportunity, the rovers back then.
+
+79
+0:05:06.41,000 --> 0:05:07,000
+We didn't start out thinking
+
+80
+0:05:08.04,000 --> 0:05:1,000
+that we were going to need Mars watches.
+
+81
+0:05:10.495,000 --> 0:05:14,000
+Right? We thought, OK, we'll just have the time on our computers
+
+82
+0:05:14.95,000 --> 0:05:17,000
+and on the mission control screens, and that would be enough.
+
+83
+0:05:18.622,000 --> 0:05:19,000
+Yeah, not so much.
+
+84
+0:05:20.027,000 --> 0:05:22,000
+Because we weren't just working on Mars time,
+
+85
+0:05:22.9,000 --> 0:05:25,000
+we were actually living on Mars time.
+
+86
+0:05:26.083,000 --> 0:05:3,000
+And we got just instantaneously confused about what time it was.
+
+87
+0:05:30.39,000 --> 0:05:33,000
+So you really needed something on your wrist to tell you:
+
+88
+0:05:34.207,000 --> 0:05:37,000
+What time is it on the Earth? What time is it on Mars?
+
+89
+0:05:37.927,000 --> 0:05:42,000
+And it wasn't just the time on Mars that was confusing;
+
+90
+0:05:43.845,000 --> 0:05:47,000
+we also needed to be able to talk to each other about it.
+
+91
+0:05:49.157,000 --> 0:05:54,000
+So a "sol" is a Martian day -- again, 24 hours and 40 minutes.
+
+92
+0:05:54.808,000 --> 0:05:57,000
+So when we're talking about something that's happening on the Earth,
+
+93
+0:05:58.027,000 --> 0:05:59,000
+we will say, today.
+
+94
+0:06:00.048,000 --> 0:06:02,000
+So, for Mars, we say, "tosol."
+
+95
+0:06:02.904,000 --> 0:06:03,000
+(Laughter)
+
+96
+0:06:05.812,000 --> 0:06:09,000
+Yesterday became "yestersol" for Mars.
+
+97
+0:06:10.657,000 --> 0:06:14,000
+Again, we didn't start out thinking, "Oh, let's invent a language."
+
+98
+0:06:15.188,000 --> 0:06:16,000
+It was just very confusing.
+
+99
+0:06:16.502,000 --> 0:06:18,000
+I remember somebody walked up to me and said,
+
+100
+0:06:18.707,000 --> 0:06:21,000
+"I would like to do this activity on the vehicle tomorrow, on the rover."
+
+101
+0:06:22.164,000 --> 0:06:27,000
+And I said, "Tomorrow, tomorrow, or Mars, tomorrow?"
+
+102
+0:06:27.807,000 --> 0:06:32,000
+We started this terminology because we needed a way to talk to each other.
+
+103
+0:06:32.883,000 --> 0:06:33,000
+(Laughter)
+
+104
+0:06:34.035,000 --> 0:06:38,000
+Tomorrow became "nextersol" or "solorrow."
+
+105
+0:06:39.036,000 --> 0:06:42,000
+Because people have different preferences for the words they use.
+
+106
+0:06:42.675,000 --> 0:06:45,000
+Some of you might say "soda" and some of you might say "pop."
+
+107
+0:06:46.649,000 --> 0:06:49,000
+So we have people who say "nextersol" or "solorrow."
+
+108
+0:06:50.382,000 --> 0:06:54,000
+And then something that I noticed after a few years of working on these missions,
+
+109
+0:06:55.13,000 --> 0:06:59,000
+was that the people who work on the rovers, we say "tosol."
+
+110
+0:07:00.246,000 --> 0:07:03,000
+The people who work on the landed missions that don't rove around,
+
+111
+0:07:03.804,000 --> 0:07:04,000
+they say "tosoul."
+
+112
+0:07:05.778,000 --> 0:07:09,000
+So I could actually tell what mission you worked on from your Martian accent.
+
+113
+0:07:10.521,000 --> 0:07:13,000
+(Laughter)
+
+114
+0:07:13.795,000 --> 0:07:16,000
+So we have the watches and the language, and you're detecting a theme here, right?
+
+115
+0:07:17.679,000 --> 0:07:18,000
+So that we don't get confused.
+
+116
+0:07:20.239,000 --> 0:07:23,000
+But even the Earth daylight could confuse us.
+
+117
+0:07:24.489,000 --> 0:07:26,000
+If you think that right now, you've come to work
+
+118
+0:07:26.852,000 --> 0:07:28,000
+and it's the middle of the Martian night
+
+119
+0:07:28.971,000 --> 0:07:31,000
+and there's light streaming in from the windows
+
+120
+0:07:32.293,000 --> 0:07:34,000
+that's going to be confusing as well.
+
+121
+0:07:34.901,000 --> 0:07:36,000
+So you can see from this image of the control room
+
+122
+0:07:37.43,000 --> 0:07:39,000
+that all of the blinds are down.
+
+123
+0:07:39.723,000 --> 0:07:42,000
+So that there's no light to distract us.
+
+124
+0:07:42.75,000 --> 0:07:46,000
+The blinds went down all over the building about a week before landing,
+
+125
+0:07:47.126,000 --> 0:07:5,000
+and they didn't go up until we went off Mars time.
+
+126
+0:07:50.847,000 --> 0:07:53,000
+So this also works for the house, for at home.
+
+127
+0:07:54.052,000 --> 0:07:56,000
+I've been on Mars time three times, and my husband is like,
+
+128
+0:07:56.849,000 --> 0:07:57,000
+OK, we're getting ready for Mars time.
+
+129
+0:07:58.688,000 --> 0:08:04,000
+And so he'll put foil all over the windows and dark curtains and shades
+
+130
+0:08:04.914,000 --> 0:08:07,000
+because it also affects your families.
+
+131
+0:08:08.085,000 --> 0:08:12,000
+And so here I was living in kind of this darkened environment, but so was he.
+
+132
+0:08:13.525,000 --> 0:08:14,000
+And he'd gotten used to it.
+
+133
+0:08:14.845,000 --> 0:08:17,000
+But then I would get these plaintive emails from him when he was at work.
+
+134
+0:08:19.077,000 --> 0:08:22,000
+Should I come home? Are you awake?
+
+135
+0:08:22.393,000 --> 0:08:25,000
+What time is it on Mars?
+
+136
+0:08:25.547,000 --> 0:08:27,000
+And I decided, OK, so he needs a Mars watch.
+
+137
+0:08:28.069,000 --> 0:08:29,000
+(Laughter)
+
+138
+0:08:29.628,000 --> 0:08:33,000
+But of course, it's 2016, so there's an app for that.
+
+139
+0:08:34.086,000 --> 0:08:35,000
+(Laughter)
+
+140
+0:08:35.388,000 --> 0:08:39,000
+So now instead of the watches, we can also use our phones.
+
+141
+0:08:40.42,000 --> 0:08:44,000
+But the impact on families was just across the board;
+
+142
+0:08:44.584,000 --> 0:08:47,000
+it wasn't just those of us who were working on the rovers
+
+143
+0:08:48.27,000 --> 0:08:5,000
+but our families as well.
+
+144
+0:08:50.508,000 --> 0:08:52,000
+This is David Oh, one of our flight directors,
+
+145
+0:08:53.011,000 --> 0:08:57,000
+and he's at the beach in Los Angeles with his family at 1:00 in the morning.
+
+146
+0:08:57.509,000 --> 0:08:58,000
+(Laughter)
+
+147
+0:08:58.956,000 --> 0:09:,000
+So because we landed in August
+
+148
+0:09:01.96,000 --> 0:09:05,000
+and his kids didn't have to go back to school until September,
+
+149
+0:09:06.43,000 --> 0:09:1,000
+they actually went on to Mars time with him for one month.
+
+150
+0:09:11.202,000 --> 0:09:15,000
+They got up 40 minutes later every day.
+
+151
+0:09:15.995,000 --> 0:09:17,000
+And they were on dad's work schedule.
+
+152
+0:09:18.202,000 --> 0:09:21,000
+So they lived on Mars time for a month and had these great adventures,
+
+153
+0:09:22.201,000 --> 0:09:24,000
+like going bowling in the middle of the night
+
+154
+0:09:24.322,000 --> 0:09:25,000
+or going to the beach.
+
+155
+0:09:25.969,000 --> 0:09:28,000
+And one of the things that we all discovered
+
+156
+0:09:29.352,000 --> 0:09:32,000
+is you can get anywhere in Los Angeles
+
+157
+0:09:33.364,000 --> 0:09:36,000
+at 3:00 in the morning when there's no traffic.
+
+158
+0:09:36.941,000 --> 0:09:37,000
+(Laughter)
+
+159
+0:09:38.439,000 --> 0:09:39,000
+So we would get off work,
+
+160
+0:09:39.655,000 --> 0:09:42,000
+and we didn't want to go home and bother our families,
+
+161
+0:09:42.794,000 --> 0:09:45,000
+and we were hungry, so instead of going locally to eat something,
+
+162
+0:09:46.008,000 --> 0:09:49,000
+we'd go, "Wait, there's this great all-night deli in Long Beach,
+
+163
+0:09:49.596,000 --> 0:09:51,000
+and we can get there in 10 minutes!"
+
+164
+0:09:51.862,000 --> 0:09:53,000
+So we would drive down -- it was like the 60s, no traffic.
+
+165
+0:09:54.607,000 --> 0:09:57,000
+We would drive down there, and the restaurant owners would go,
+
+166
+0:09:58.386,000 --> 0:10:,000
+"Who are you people?
+
+167
+0:10:01.241,000 --> 0:10:05,000
+And why are you at my restaurant at 3:00 in the morning?"
+
+168
+0:10:05.778,000 --> 0:10:09,000
+So they came to realize that there were these packs of Martians,
+
+169
+0:10:11.481,000 --> 0:10:15,000
+roaming the LA freeways, in the middle of the night --
+
+170
+0:10:17.108,000 --> 0:10:19,000
+in the middle of the Earth night.
+
+171
+0:10:19.155,000 --> 0:10:23,000
+And we did actually start calling ourselves Martians.
+
+172
+0:10:24.401,000 --> 0:10:29,000
+So those of us who were on Mars time would refer to ourselves as Martians,
+
+173
+0:10:30.031,000 --> 0:10:32,000
+and everyone else as Earthlings.
+
+174
+0:10:32.908,000 --> 0:10:33,000
+(Laughter)
+
+175
+0:10:34.232,000 --> 0:10:39,000
+And that's because when you're moving a time-zone every day,
+
+176
+0:10:39.951,000 --> 0:10:44,000
+you start to really feel separated from everyone else.
+
+177
+0:10:45.788,000 --> 0:10:48,000
+You're literally in your own world.
+
+178
+0:10:50.524,000 --> 0:10:56,000
+So I have this button on that says, "I survived Mars time. Sol 0-90."
+
+179
+0:10:57.473,000 --> 0:10:59,000
+And there's a picture of it up on the screen.
+
+180
+0:11:00.242,000 --> 0:11:05,000
+So the reason we got these buttons is because we work on Mars time
+
+181
+0:11:05.895,000 --> 0:11:1,000
+in order to be as efficient as possible with the rover on Mars,
+
+182
+0:11:10.968,000 --> 0:11:12,000
+to make the best use of our time.
+
+183
+0:11:13.282,000 --> 0:11:16,000
+But we don't stay on Mars time for more than three to four months.
+
+184
+0:11:17.192,000 --> 0:11:21,000
+Eventually, we'll move to a modified Mars time, which is what we're working now.
+
+185
+0:11:22.199,000 --> 0:11:26,000
+And that's because it's hard on your bodies, it's hard on your families.
+
+186
+0:11:26.88,000 --> 0:11:3,000
+In fact, there were sleep researchers who actually were studying us
+
+187
+0:11:31.786,000 --> 0:11:36,000
+because it was so unusual for humans to try to extend their day.
+
+188
+0:11:37.147,000 --> 0:11:38,000
+And they had about 30 of us
+
+189
+0:11:38.461,000 --> 0:11:41,000
+that they would do sleep deprivation experiments on.
+
+190
+0:11:42.111,000 --> 0:11:45,000
+So I would come in and take the test and I fell asleep in each one.
+
+191
+0:11:45.698,000 --> 0:11:51,000
+And that was because, again, this eventually becomes hard on your body.
+
+192
+0:11:52.364,000 --> 0:11:55,000
+Even though it was a blast.
+
+193
+0:11:55.703,000 --> 0:11:59,000
+It was a huge bonding experience with the other members on the team,
+
+194
+0:12:00.241,000 --> 0:12:02,000
+but it is difficult to sustain.
+
+195
+0:12:04.063,000 --> 0:12:1,000
+So these rover missions are our first steps out into the solar system.
+
+196
+0:12:10.272,000 --> 0:12:15,000
+We are learning how to live on more than one planet.
+
+197
+0:12:15.369,000 --> 0:12:2,000
+We are changing our perspective to become multi-planetary.
+
+198
+0:12:20.763,000 --> 0:12:22,000
+So the next time you see a Star Wars movie,
+
+199
+0:12:23.582,000 --> 0:12:26,000
+and there are people going from the Dagobah system to Tatooine,
+
+200
+0:12:27.281,000 --> 0:12:32,000
+think about what it really means to have people spread out so far.
+
+201
+0:12:32.795,000 --> 0:12:35,000
+What it means in terms of the distances between them,
+
+202
+0:12:35.881,000 --> 0:12:38,000
+how they will start to feel separate from each other
+
+203
+0:12:39.725,000 --> 0:12:42,000
+and just the logistics of the time.
+
+204
+0:12:43.757,000 --> 0:12:47,000
+We have not sent people to Mars yet, but we hope to.
+
+205
+0:12:48.333,000 --> 0:12:51,000
+And between companies like SpaceX and NASA
+
+206
+0:12:52.196,000 --> 0:12:55,000
+and all of the international space agencies of the world,
+
+207
+0:12:55.709,000 --> 0:12:58,000
+we hope to do that in the next few decades.
+
+208
+0:12:59.5,000 --> 0:13:04,000
+So soon we will have people on Mars, and we truly will be multi-planetary.
+
+209
+0:13:05.82,000 --> 0:13:07,000
+And the young boy or the young girl
+
+210
+0:13:08.256,000 --> 0:13:15,000
+who will be going to Mars could be in this audience or listening today.
+
+211
+0:13:16.021,000 --> 0:13:21,000
+I have wanted to work at JPL on these missions since I was 14 years old
+
+212
+0:13:21.647,000 --> 0:13:23,000
+and I am privileged to be a part of it.
+
+213
+0:13:23.893,000 --> 0:13:27,000
+And this is a remarkable time in the space program,
+
+214
+0:13:27.971,000 --> 0:13:3,000
+and we are all in this journey together.
+
+215
+0:13:31.169,000 --> 0:13:36,000
+So the next time you think you don't have enough time in your day,
+
+216
+0:13:36.404,000 --> 0:13:4,000
+just remember, it's all a matter of your Earthly perspective.
+
+217
+0:13:41.206,000 --> 0:13:42,000
+Thank you.
+
+218
+0:13:42.381,000 --> 0:13:46,000
+(Applause)
+

@@ -1,0 +1,1460 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Guillaume Vier Relecteur: Mohamed Achraf BEN MOHAMED
+
+2
+0:00:15.16,000 --> 0:00:19,000
+Je vais parler d'une technologie que nous développons à Oxford
+
+3
+0:00:19.16,000 --> 0:00:22,000
+qui va, selon nous, changer la façon dont
+
+4
+0:00:22.16,000 --> 0:00:25,000
+les jeux vidéos et les films Hollywoodiens sont faits.
+
+5
+0:00:26.16,000 --> 0:00:29,000
+Cette technologie c'est les humains artificiels.
+
+6
+0:00:29.16,000 --> 0:00:32,000
+Des humains artificiels avec un corps artificiel
+
+7
+0:00:32.16,000 --> 0:00:35,000
+et un système nerveux artificiel pour contrôler ce corps.
+
+8
+0:00:36.16,000 --> 0:00:39,000
+Avant que j'entre dans les détails
+
+9
+0:00:39.16,000 --> 0:00:42,000
+regardons à quoi ressemblent les personnages
+
+10
+0:00:42.16,000 --> 0:00:45,000
+dans les jeux vidéos actuellement.
+
+11
+0:00:45.16,000 --> 0:00:48,000
+Voici un extrait du jeu Grand Theft Auto 3.
+
+12
+0:00:48.16,000 --> 0:00:5,000
+Nous l'avons déjà vu rapidement hier.
+
+13
+0:00:50.16,000 --> 0:00:53,000
+C'est en fait un très bon jeu,
+
+14
+0:00:53.16,000 --> 0:00:56,000
+l'un des meilleurs de tous les temps.
+
+15
+0:00:56.16,000 --> 0:01:,000
+Mais vous allez voir que les animations dans ce jeu sont très répétitives.
+
+16
+0:01:00.16,000 --> 0:01:02,000
+Elles se ressemblent beaucoup.
+
+17
+0:01:02.16,000 --> 0:01:05,000
+Je le fais courir vers un mur plusieurs fois,
+
+18
+0:01:05.16,000 --> 0:01:07,000
+et vous voyez qu'il garde toujours la même apparence.
+
+19
+0:01:07.16,000 --> 0:01:1,000
+La raison c'est que tous ces personnages
+
+20
+0:01:10.16,000 --> 0:01:12,000
+ne sont en fait pas de vrais personnages.
+
+21
+0:01:12.16,000 --> 0:01:16,000
+Ce sont des visualisations graphiques d'un personnage.
+
+22
+0:01:16.16,000 --> 0:01:21,000
+Pour créer ces animations l'infographiste doit anticiper dans son studio
+
+23
+0:01:21.16,000 --> 0:01:24,000
+ce qu'il va se passer dans le jeu
+
+24
+0:01:24.16,000 --> 0:01:27,000
+et ensuite animer cette séquence particulière.
+
+25
+0:01:27.16,000 --> 0:01:31,000
+Donc il ou elle anime la scène, essaye d'anticiper ce qui va se passer,
+
+26
+0:01:31.16,000 --> 0:01:34,000
+et ces animations sont simplement jouées
+
+27
+0:01:34.16,000 --> 0:01:37,000
+au moment approprié dans le jeu.
+
+28
+0:01:37.16,000 --> 0:01:42,000
+Et le problème c'est que ce n'est pas interactif.
+
+29
+0:01:42.16,000 --> 0:01:45,000
+Tout ce qu'on a ce sont des animations jouées
+
+30
+0:01:45.16,000 --> 0:01:47,000
+plus ou moins au bon moment.
+
+31
+0:01:47.16,000 --> 0:01:52,000
+Ça veut dire que les jeux ne sont pas aussi surprenants qu'ils pourraient l'être
+
+32
+0:01:52.16,000 --> 0:01:55,000
+parce qu'on obtient seulement, en terme de personnage,
+
+33
+0:01:55.16,000 --> 0:01:57,000
+ce qu'on y met.
+
+34
+0:01:57.16,000 --> 0:01:59,000
+Il n'y a pas d'émergence réelle dans ça.
+
+35
+0:01:59.16,000 --> 0:02:03,000
+Et troisièmement, la plupart des animations sont très répétitives à cause de ça.
+
+36
+0:02:03.16,000 --> 0:02:05,000
+Le seul moyen de contourner ce problème
+
+37
+0:02:05.16,000 --> 0:02:07,000
+c'est de simuler un corps humain
+
+38
+0:02:07.16,000 --> 0:02:12,000
+et la partie du système nerveux du cerveau qui contrôle ce corps.
+
+39
+0:02:12.16,000 --> 0:02:15,000
+Et si vous pouviez venir pour une petite démonstration
+
+40
+0:02:15.16,000 --> 0:02:17,000
+pour montrer la différence --
+
+41
+0:02:17.16,000 --> 0:02:21,000
+c'est vraiment trivial.
+
+42
+0:02:21.16,000 --> 0:02:24,000
+Si je pousse Chris comme ça il va réagir.
+
+43
+0:02:24.16,000 --> 0:02:27,000
+Si je le pousse avec un angle différent il va réagir différemment,
+
+44
+0:02:27.16,000 --> 0:02:29,000
+c'est parce qu'il possède un corps physique,
+
+45
+0:02:29.16,000 --> 0:02:32,000
+et les capacités motrices pour le contrôler.
+
+46
+0:02:32.16,000 --> 0:02:34,000
+C'est vraiment trivial.
+
+47
+0:02:34.16,000 --> 0:02:36,000
+Ce n'est pas quelque chose que l'on voit dans les jeux vidéos actuellement.
+
+48
+0:02:36.16,000 --> 0:02:38,000
+Merci beaucoup. Chris Anderson: c'est tout ?
+
+49
+0:02:38.16,000 --> 0:02:4,000
+Torsten Reil: oui, c'est tout.
+
+50
+0:02:40.16,000 --> 0:02:41,000
+Voilà ce que nous essayons de simuler --
+
+51
+0:02:41.16,000 --> 0:02:45,000
+pas Chris en particulier, mais les humains en général.
+
+52
+0:02:46.16,000 --> 0:02:51,000
+Nous avons commencé à travailler sur ça il y a longtemps à l'université d'Oxford,
+
+53
+0:02:51.16,000 --> 0:02:53,000
+et on a essayé de commencer avec des choses simples.
+
+54
+0:02:53.16,000 --> 0:02:56,000
+Nous avons essayé d'apprendre à marcher à une figurine.
+
+55
+0:02:56.16,000 --> 0:02:59,000
+Cette figurine est simulée physiquement. Vous la voyez sur l'écran.
+
+56
+0:02:59.16,000 --> 0:03:02,000
+Elle est soumise à la gravité, a des articulations, etc...
+
+57
+0:03:02.16,000 --> 0:03:05,000
+Si on lance la simulation elle s'écroule.
+
+58
+0:03:05.16,000 --> 0:03:09,000
+Le problème est d'y mettre de l'intelligence artificielle (IA)
+
+59
+0:03:09.16,000 --> 0:03:11,000
+pour que ça marche.
+
+60
+0:03:11.16,000 --> 0:03:14,000
+Pour cela on utilise le réseau de neurones que nous avons construit
+
+61
+0:03:14.16,000 --> 0:03:16,000
+à partir de la zone de la moelle épinière
+
+62
+0:03:16.16,000 --> 0:03:18,000
+qui contrôle la marche chez l'homme.
+
+63
+0:03:18.16,000 --> 0:03:2,000
+Ça s'appelle le générateur central de rythme.
+
+64
+0:03:20.16,000 --> 0:03:23,000
+Nous avons simulé ça, et le plus difficile
+
+65
+0:03:23.16,000 --> 0:03:25,000
+c'est d'apprendre à marcher à ce réseau.
+
+66
+0:03:25.16,000 --> 0:03:29,000
+Pour cela on utilise l'évolution artificielle -- des algorithmes génétiques.
+
+67
+0:03:29.16,000 --> 0:03:31,000
+Nous en avons déjà entendu parler hier
+
+68
+0:03:31.16,000 --> 0:03:34,000
+et j'imagine que la plupart d'entre vous connaissent.
+
+69
+0:03:34.16,000 --> 0:03:36,000
+Mais rapidement, le concept c'est de
+
+70
+0:03:36.16,000 --> 0:03:39,000
+créer un grand nombre d'individus différents,
+
+71
+0:03:39.16,000 --> 0:03:41,000
+des réseaux de neurones dans ce cas,
+
+72
+0:03:41.16,000 --> 0:03:43,000
+qui sont tous aléatoires au départ.
+
+73
+0:03:43.16,000 --> 0:03:45,000
+On les attache -- aux muscles virtuels
+
+74
+0:03:45.16,000 --> 0:03:48,000
+de cette créature à 2 jambes dans notre cas --
+
+75
+0:03:48.16,000 --> 0:03:51,000
+et on espère que ça fasse quelque chose d'intéressant.
+
+76
+0:03:51.16,000 --> 0:03:53,000
+Au début ils sont tous vraiment ennuyeux.
+
+77
+0:03:53.16,000 --> 0:03:55,000
+La plupart ne vont pas bouger du tout,
+
+78
+0:03:55.16,000 --> 0:03:57,000
+quelques uns vont peut être faire un pas.
+
+79
+0:03:57.16,000 --> 0:03:59,000
+Ceux-ci sont ensuite sélectionnés par l'algorithme,
+
+80
+0:03:59.16,000 --> 0:04:03,000
+reproduits avec mutation et recombinaison pour ajouter le sexe.
+
+81
+0:04:03.16,000 --> 0:04:05,000
+Et on répète le processus encore et encore
+
+82
+0:04:05.16,000 --> 0:04:07,000
+jusqu'à ce qu'on obtienne quelque chose qui marche --
+
+83
+0:04:07.16,000 --> 0:04:09,000
+en ligne droite comme ça.
+
+84
+0:04:09.16,000 --> 0:04:11,000
+C'était donc l'idée derrière ça.
+
+85
+0:04:11.16,000 --> 0:04:14,000
+Un soir au tout début j'ai configuré la simulation.
+
+86
+0:04:14.16,000 --> 0:04:17,000
+Ça a pris 3-4 heures pour exécuter la simulation.
+
+87
+0:04:17.16,000 --> 0:04:21,000
+Le lendemain matin en me levant j'ai regardé les résultats sur l'ordinateur,
+
+88
+0:04:21.16,000 --> 0:04:24,000
+j'espérais un truc qui marche en ligne droite,
+
+89
+0:04:24.16,000 --> 0:04:26,000
+comme je viens de montrer,
+
+90
+0:04:26.16,000 --> 0:04:28,000
+et voilà ce que j'ai eu à la place.
+
+91
+0:04:28.16,000 --> 0:04:38,000
+(rires)
+
+92
+0:04:38.16,000 --> 0:04:41,000
+Retour à la planche à dessin pour nous.
+
+93
+0:04:42.16,000 --> 0:04:45,000
+Finalement on a réussi,
+
+94
+0:04:45.16,000 --> 0:04:47,000
+en bidouillant à droite à gauche.
+
+95
+0:04:47.16,000 --> 0:04:5,000
+Et voici un exemple d'une exécution évolutionnaire réussie.
+
+96
+0:04:50.16,000 --> 0:04:53,000
+Dans un moment vous allez voir un bipède simplifié
+
+97
+0:04:53.16,000 --> 0:04:56,000
+qui apprend à marcher en utilisant l'évolution artificielle.
+
+98
+0:04:56.16,000 --> 0:04:58,000
+Au début il ne sait pas du tout marcher,
+
+99
+0:04:58.16,000 --> 0:05:,000
+mais il va s'améliorer avec le temps.
+
+100
+0:05:02.16,000 --> 0:05:05,000
+Voilà celui qui ne sait pas du tout marcher.
+
+101
+0:05:05.16,000 --> 0:05:11,000
+(rires)
+
+102
+0:05:11.16,000 --> 0:05:14,000
+Et après 5 générations du processus évolutionnaire,
+
+103
+0:05:14.16,000 --> 0:05:17,000
+l'algorithme génétique s'améliore un petit peu.
+
+104
+0:05:17.16,000 --> 0:05:25,000
+(rires)
+
+105
+0:05:25.16,000 --> 0:05:27,000
+Génération 10 il fait quelques pas de plus.
+
+106
+0:05:31.16,000 --> 0:05:33,000
+C'est pas encore ça.
+
+107
+0:05:34.16,000 --> 0:05:39,000
+Et après 20 générations il marche en ligne droite sans tomber.
+
+108
+0:05:40.16,000 --> 0:05:43,000
+C'était une avancée capitale pour nous.
+
+109
+0:05:43.16,000 --> 0:05:46,000
+Académiquement c'était un projet très ambitieux,
+
+110
+0:05:46.16,000 --> 0:05:49,000
+et après avoir atteint ce stade nous avions confiance
+
+111
+0:05:49.16,000 --> 0:05:52,000
+que nous pouvions faire d'autres choses avec cette approche --
+
+112
+0:05:52.16,000 --> 0:05:54,000
+simuler le corps en fait
+
+113
+0:05:54.16,000 --> 0:05:57,000
+et simuler cette partie du système nerveux qui le contrôle.
+
+114
+0:05:57.16,000 --> 0:06:,000
+A ce stade c'est devenu clair que ça pouvait être très intéressant
+
+115
+0:06:00.16,000 --> 0:06:03,000
+pour les jeux vidéos ou les mondes en ligne.
+
+116
+0:06:03.16,000 --> 0:06:05,000
+Ce que vous voyez là c'est le personnage debout,
+
+117
+0:06:05.16,000 --> 0:06:07,000
+et un obstacle en travers de son chemin.
+
+118
+0:06:07.16,000 --> 0:06:12,000
+Et vous allez voir, il va trébucher sur l'obstacle.
+
+119
+0:06:12.16,000 --> 0:06:15,000
+Ce qui est intéressant c'est qu'en déplaçant l'obstacle légèrement à droite,
+
+120
+0:06:15.16,000 --> 0:06:17,000
+ce que je viens de faire là,
+
+121
+0:06:17.16,000 --> 0:06:21,000
+il va trébucher de façon complètement différente.
+
+122
+0:06:24.16,000 --> 0:06:29,000
+Un peu plus à droite, et encore une chute différente.
+
+123
+0:06:29.16,000 --> 0:06:31,000
+(rires)
+
+124
+0:06:31.16,000 --> 0:06:33,000
+Ce que vous voyez là en haut
+
+125
+0:06:33.16,000 --> 0:06:36,000
+c'est l'activité des neurones transmise aux muscles artificiels.
+
+126
+0:06:36.16,000 --> 0:06:38,000
+OK, c'était la vidéo. Merci.
+
+127
+0:06:38.16,000 --> 0:06:41,000
+Ça peut paraître trivial mais c'est en fait très important
+
+128
+0:06:41.16,000 --> 0:06:43,000
+parce qu'on ne voit pas ça actuellement,
+
+129
+0:06:43.16,000 --> 0:06:45,000
+dans aucun monde interactif ou virtuel.
+
+130
+0:06:48.16,000 --> 0:06:51,000
+A ce stade nous avons créé une entreprise pour développer ça
+
+131
+0:06:51.16,000 --> 0:06:54,000
+parce qu'évidemment c'était juste un simple bipède fait de blocs.
+
+132
+0:06:54.16,000 --> 0:06:56,000
+Nous voulions un corps humain complet,
+
+133
+0:06:56.16,000 --> 0:06:57,000
+donc on a créé cette entreprise.
+
+134
+0:06:57.16,000 --> 0:07:02,000
+Nous avons embauché une équipe de physiciens, informaticiens et biologistes
+
+135
+0:07:02.16,000 --> 0:07:05,000
+pour travailler sur ça, et la première chose à faire
+
+136
+0:07:05.16,000 --> 0:07:09,000
+était de créer un corps humain.
+
+137
+0:07:09.16,000 --> 0:07:12,000
+Ce doit être relativement rapide pour tourner sur une machine normale,
+
+138
+0:07:12.16,000 --> 0:07:15,000
+mais suffisamment précis pour avoir l'air joli.
+
+139
+0:07:15.16,000 --> 0:07:18,000
+Nous avons investi pas mal de nos connaissances en biomécanique
+
+140
+0:07:18.16,000 --> 0:07:22,000
+et essayé de le rendre aussi réel que possible.
+
+141
+0:07:22.16,000 --> 0:07:24,000
+Ce que vous voyez sur l'écran là
+
+142
+0:07:24.16,000 --> 0:07:26,000
+est une visualisation très simple de ce corps.
+
+143
+0:07:26.16,000 --> 0:07:3,000
+Il est très facile d'y ajouter des cheveux, des vêtements, etc..
+
+144
+0:07:30.16,000 --> 0:07:33,000
+mais là nous utilisons une visualisation très simplifiée
+
+145
+0:07:33.16,000 --> 0:07:35,000
+pour se concentrer sur les mouvements.
+
+146
+0:07:35.16,000 --> 0:07:38,000
+Ce que je vais faire dans un instant,
+
+147
+0:07:38.16,000 --> 0:07:41,000
+je vais pousser légèrement ce personnage et on va voir ce qu'il se passe.
+
+148
+0:07:46.16,000 --> 0:07:48,000
+Pas grand chose d'intéressant en fait.
+
+149
+0:07:48.16,000 --> 0:07:51,000
+Il tombe comme une poupée de chiffon.
+
+150
+0:07:51.16,000 --> 0:07:54,000
+La raison c'est qu'il n y a aucune intelligence dedans.
+
+151
+0:07:54.16,000 --> 0:07:58,000
+Ça devient intéressant quand on y ajoute de l'intelligence artificielle.
+
+152
+0:07:58.16,000 --> 0:08:02,000
+Ce personnage a maintenant des capacités motrices dans le haut du corps.
+
+153
+0:08:02.16,000 --> 0:08:04,000
+Rien dans les jambes pour l'instant.
+
+154
+0:08:04.16,000 --> 0:08:07,000
+Mais ce qu'il va faire -- je vais le pousser encore.
+
+155
+0:08:07.16,000 --> 0:08:09,000
+Il réalise de lui même qu'il vient d'être poussé.
+
+156
+0:08:09.16,000 --> 0:08:11,000
+Il va mettre ses mains en avant.
+
+157
+0:08:11.16,000 --> 0:08:14,000
+Il va se tourner dans sa chute et essayer de se rattraper.
+
+158
+0:08:20.16,000 --> 0:08:22,000
+C'est ce que vous voyez là.
+
+159
+0:08:22.16,000 --> 0:08:24,000
+Ça devient vraiment intéressant
+
+160
+0:08:24.16,000 --> 0:08:28,000
+si on ajoute l'IA pour le bas du corps.
+
+161
+0:08:28.16,000 --> 0:08:3,000
+Voici le même personnage.
+
+162
+0:08:30.16,000 --> 0:08:32,000
+Je le pousse plus fort,
+
+163
+0:08:32.16,000 --> 0:08:34,000
+plus qu'avec Chris.
+
+164
+0:08:34.16,000 --> 0:08:38,000
+Il va recevoir un coup de la gauche là.
+
+165
+0:08:41.16,000 --> 0:08:43,000
+Et vous voyez qu'il recule --
+
+166
+0:08:43.16,000 --> 0:08:45,000
+il essaye de reprendre son équilibre,
+
+167
+0:08:45.16,000 --> 0:08:49,000
+il regarde où est-ce qu'il va tomber.
+
+168
+0:08:49.16,000 --> 0:08:51,000
+Encore une fois.
+
+169
+0:08:51.16,000 --> 0:08:54,000
+Et finalement il touche le sol.
+
+170
+0:08:55.16,000 --> 0:08:58,000
+Ça devient vraiment intéressant
+
+171
+0:08:58.16,000 --> 0:09:03,000
+quand on le pousse dans différentes directions.
+
+172
+0:09:03.16,000 --> 0:09:07,000
+C'est quelque chose qu'on ne peut pas faire actuellement.
+
+173
+0:09:07.16,000 --> 0:09:1,000
+Actuellement il n'y a que des graphismes vides dans les jeux.
+
+174
+0:09:10.16,000 --> 0:09:13,000
+Là c'est une vraie simulation. C'est ce que je veux vous montrer.
+
+175
+0:09:13.16,000 --> 0:09:16,000
+Voici le même personnage avec le même comportement,
+
+176
+0:09:16.16,000 --> 0:09:18,000
+mais là je vais le pousser dans différentes directions.
+
+177
+0:09:18.16,000 --> 0:09:2,000
+D'abord de la droite.
+
+178
+0:09:23.16,000 --> 0:09:26,000
+C'est au ralenti, pour bien voir ce qu'il se passe.
+
+179
+0:09:26.16,000 --> 0:09:29,000
+Maintenant l'angle a légèrement changé
+
+180
+0:09:29.16,000 --> 0:09:33,000
+vous voyez que la réaction est différente.
+
+181
+0:09:33.16,000 --> 0:09:36,000
+Maintenant je le pousse de face.
+
+182
+0:09:37.16,000 --> 0:09:39,000
+Vous voyez qu'il tombe différemment.
+
+183
+0:09:39.16,000 --> 0:09:41,000
+De la gauche.
+
+184
+0:09:43.16,000 --> 0:09:45,000
+Il tombe différemment.
+
+185
+0:09:45.16,000 --> 0:09:47,000
+C'était super pour nous de voir ça.
+
+186
+0:09:47.16,000 --> 0:09:49,000
+C'était la première fois que nous le voyions.
+
+187
+0:09:49.16,000 --> 0:09:51,000
+C'est la première fois que le public le voit
+
+188
+0:09:51.16,000 --> 0:09:53,000
+parce qu'on travaillait en mode furtif.
+
+189
+0:09:53.16,000 --> 0:09:55,000
+Je ne l'ai montré à personne pour l'instant.
+
+190
+0:09:55.16,000 --> 0:09:57,000
+Un truc marrant.
+
+191
+0:09:57.16,000 --> 0:09:59,000
+Que se passe-t-il si vous mettez ce personnage --
+
+192
+0:09:59.16,000 --> 0:10:01,000
+une version en bois maintenant, mais avec la même IA --
+
+193
+0:10:01.16,000 --> 0:10:03,000
+si vous le mettez sur une surface glissante, de la glace.
+
+194
+0:10:03.16,000 --> 0:10:06,000
+On a fait ça pour rigoler, pour voir ce qui se passe.
+
+195
+0:10:06.16,000 --> 0:10:07,000
+(rires)
+
+196
+0:10:07.16,000 --> 0:10:09,000
+Voilà ce qui se passe.
+
+197
+0:10:09.16,000 --> 0:10:12,000
+(rires)
+
+198
+0:10:12.16,000 --> 0:10:15,000
+(applaudissements)
+
+199
+0:10:15.16,000 --> 0:10:17,000
+On a rien touché.
+
+200
+0:10:17.16,000 --> 0:10:19,000
+On a juste pris ce personnage dont je viens de parler,
+
+201
+0:10:19.16,000 --> 0:10:22,000
+on l'a mis sur la glace, et voilà ce qui se passe.
+
+202
+0:10:22.16,000 --> 0:10:25,000
+Et c'est ce qui est vraiment fascinant dans cette approche.
+
+203
+0:10:26.16,000 --> 0:10:29,000
+Quand nous sommes allés voir des studios de cinéma et jeux vidéos
+
+204
+0:10:29.16,000 --> 0:10:32,000
+pour leur montrer cette technologie, on a eu un très bon retour.
+
+205
+0:10:32.16,000 --> 0:10:36,000
+Ils nous ont dit que la 1ère chose dont ils ont besoin immédiatement c'est des cascadeurs virtuels.
+
+206
+0:10:36.16,000 --> 0:10:4,000
+Les cascades coutent très chères parce qu'elles sont dangereuses,
+
+207
+0:10:40.16,000 --> 0:10:42,000
+et il y a beaucoup de scènes de cascades qu'on ne peut pas faire
+
+208
+0:10:42.16,000 --> 0:10:45,000
+parce qu'on ne peut pas prendre le risque de blesser grièvement un cascadeur.
+
+209
+0:10:45.16,000 --> 0:10:48,000
+Ils voulaient donc une version numérique du cascadeur
+
+210
+0:10:48.16,000 --> 0:10:5,000
+et nous avons travaillé sur ça ces derniers mois.
+
+211
+0:10:50.16,000 --> 0:10:55,000
+C'est notre première production, que nous allons livrée dans quelques semaines.
+
+212
+0:10:55.16,000 --> 0:11:,000
+Voici quelques scènes de ce personnage qui reçoit un coup de pied.
+
+213
+0:11:00.16,000 --> 0:11:02,000
+C'est ce que veulent les gens. C'est ce qu'on leur donne.
+
+214
+0:11:02.16,000 --> 0:11:09,000
+(rires)
+
+215
+0:11:09.16,000 --> 0:11:11,000
+Vous voyez, il réagit tout le temps.
+
+216
+0:11:11.16,000 --> 0:11:15,000
+Ce n'est pas un corps inerte. C'est un corps qui, dans ce cas,
+
+217
+0:11:15.16,000 --> 0:11:17,000
+ressent la force et essaye de se protéger la tête.
+
+218
+0:11:17.16,000 --> 0:11:19,000
+C'est quand même un coup puissant.
+
+219
+0:11:19.16,000 --> 0:11:21,000
+On a pitié pour lui,
+
+220
+0:11:21.16,000 --> 0:11:23,000
+mais ça fait tellement de fois que nous le voyons
+
+221
+0:11:23.16,000 --> 0:11:25,000
+on y fait plus attention.
+
+222
+0:11:25.16,000 --> 0:11:26,000
+(rires)
+
+223
+0:11:26.16,000 --> 0:11:3,000
+Il y a des vidéos pires que celle là, que j'ai enlevées d'ailleurs...
+
+224
+0:11:31.16,000 --> 0:11:33,000
+En voilà une autre.
+
+225
+0:11:33.16,000 --> 0:11:37,000
+Les gens voulaient une scène d'explosion,
+
+226
+0:11:37.16,000 --> 0:11:39,000
+une force puissante appliquée au personnage,
+
+227
+0:11:39.16,000 --> 0:11:41,000
+et le personnage réagit dans les airs.
+
+228
+0:11:41.16,000 --> 0:11:43,000
+De sorte qu'il ne soit pas mou,
+
+229
+0:11:43.16,000 --> 0:11:46,000
+mais bouge comme un personnage de film d'action
+
+230
+0:11:46.16,000 --> 0:11:48,000
+qui a l'air vivant dans les airs aussi.
+
+231
+0:11:48.16,000 --> 0:11:5,000
+Donc ce personnage va être frappé par une force,
+
+232
+0:11:50.16,000 --> 0:11:52,000
+il va réaliser qu'il est en l'air
+
+233
+0:11:52.16,000 --> 0:11:55,000
+et il va essayer de
+
+234
+0:11:55.16,000 --> 0:11:57,000
+mettre ses bras en avant vers son point de chute.
+
+235
+0:11:59.16,000 --> 0:12:02,000
+Sous un angle, en voici un autre.
+
+236
+0:12:02.16,000 --> 0:12:04,000
+Nous pensons que le niveau de réalisme atteint
+
+237
+0:12:04.16,000 --> 0:12:06,000
+est assez bon pour être utilisé dans un film.
+
+238
+0:12:06.16,000 --> 0:12:09,000
+Regardons une visualisation un peu différente.
+
+239
+0:12:09.16,000 --> 0:12:11,000
+C'est un truc que j'ai reçu hier soir
+
+240
+0:12:11.16,000 --> 0:12:14,000
+d'un studio d'animation à Londres, qui utilise notre logiciel
+
+241
+0:12:14.16,000 --> 0:12:16,000
+et expérimente avec.
+
+242
+0:12:16.16,000 --> 0:12:19,000
+C'est exactement le même comportement qu'on vient de voir,
+
+243
+0:12:19.16,000 --> 0:12:23,000
+mais avec un rendu bien meilleur.
+
+244
+0:12:23.16,000 --> 0:12:26,000
+Si vous regardez bien le personnage
+
+245
+0:12:26.16,000 --> 0:12:28,000
+vous voyez qu'il y a beaucoup de mouvements,
+
+246
+0:12:28.16,000 --> 0:12:3,000
+et aucun besoin de les animer à l'ancienne.
+
+247
+0:12:30.16,000 --> 0:12:32,000
+Les infographistes devaient les animer en fait.
+
+248
+0:12:32.16,000 --> 0:12:34,000
+Tout ça se fait automatiquement dans la simulation.
+
+249
+0:12:34.16,000 --> 0:12:36,000
+Sous un angle différent,
+
+250
+0:12:39.16,000 --> 0:12:41,000
+et encore un ralenti de la scène.
+
+251
+0:12:41.16,000 --> 0:12:45,000
+C'est très rapide. Tout se passe en temps réel.
+
+252
+0:12:45.16,000 --> 0:12:47,000
+Vous pouvez lancer la simulation en temps réel, sous vos yeux,
+
+253
+0:12:47.16,000 --> 0:12:5,000
+la changer si on veut, et on obtient l'animation directement.
+
+254
+0:12:50.16,000 --> 0:12:52,000
+Actuellement, faire la même chose à la main
+
+255
+0:12:52.16,000 --> 0:12:54,000
+prendrait surement quelques jours.
+
+256
+0:12:55.16,000 --> 0:12:58,000
+Voici une autre scène qu'ils ont demandée.
+
+257
+0:12:58.16,000 --> 0:13:,000
+Je sais pas trop pourquoi, mais nous l'avons fait.
+
+258
+0:13:00.16,000 --> 0:13:02,000
+C'est une situation très simple qui montre le pouvoir de cette approche.
+
+259
+0:13:02.16,000 --> 0:13:04,000
+Dans ce cas les mains du personnage
+
+260
+0:13:04.16,000 --> 0:13:06,000
+sont fixes en un certain point de l'espace,
+
+261
+0:13:06.16,000 --> 0:13:09,000
+et tout ce qu'on dit au personnage c'est de se débattre.
+
+262
+0:13:09.16,000 --> 0:13:12,000
+Ça a l'air naturel, réaliste.
+
+263
+0:13:12.16,000 --> 0:13:14,000
+On a pitié pour lui.
+
+264
+0:13:14.16,000 --> 0:13:17,000
+C'est encore pire - encore une vidéo reçue hier soir --
+
+265
+0:13:17.16,000 --> 0:13:19,000
+avec un rendu plus réaliste.
+
+266
+0:13:23.16,000 --> 0:13:25,000
+Je vous le passee juste pour vous montrer
+
+267
+0:13:25.16,000 --> 0:13:27,000
+à quel point ça peut avoir l'air naturel et réaliste.
+
+268
+0:13:27.16,000 --> 0:13:3,000
+C'est entièrement une simulation du corps,
+
+269
+0:13:30.16,000 --> 0:13:33,000
+utilisant de l'IA pour contrôler les muscles de ce corps.
+
+270
+0:13:35.16,000 --> 0:13:38,000
+Un truc qu'on a fait pour rire, nous avons créé
+
+271
+0:13:38.16,000 --> 0:13:4,000
+une scène de cascade un peu plus complexe,
+
+272
+0:13:40.16,000 --> 0:13:43,000
+et l'une des cascades les plus célèbres c'est quand James Bond
+
+273
+0:13:43.16,000 --> 0:13:47,000
+saute à l'élastique du haut d'un barrage en Suisse.
+
+274
+0:13:48.16,000 --> 0:13:5,000
+Voici un court extrait.
+
+275
+0:13:54.16,000 --> 0:13:56,000
+Oui vous le voyez là.
+
+276
+0:13:56.16,000 --> 0:13:59,000
+Ils ont utilisé un vrai cascadeur. C'était une cascade très dangereuse.
+
+277
+0:13:59.16,000 --> 0:14:02,000
+Je crois que le Sunday Times l'a élue comme l'une des cascades les plus impressionnantes.
+
+278
+0:14:02.16,000 --> 0:14:05,000
+On a regardé notre personnage et on s'est demandé,
+
+279
+0:14:05.16,000 --> 0:14:07,000
+"Peut-on le faire nous même?"
+
+280
+0:14:07.16,000 --> 0:14:09,000
+Peut-on utiliser la simulation physique du personnage,
+
+281
+0:14:09.16,000 --> 0:14:11,000
+de l'intelligence artificielle,
+
+282
+0:14:11.16,000 --> 0:14:13,000
+donner au personnage cette intelligence artificielle,
+
+283
+0:14:13.16,000 --> 0:14:17,000
+contrôler ses muscles artificiels, simuler le saut depuis le barrage,
+
+284
+0:14:17.16,000 --> 0:14:19,000
+la chute qui suit,
+
+285
+0:14:19.16,000 --> 0:14:21,000
+et le rattraper par l'élastique?
+
+286
+0:14:21.16,000 --> 0:14:24,000
+On l'a fait. Ça a pris 2 heures environ,
+
+287
+0:14:24.16,000 --> 0:14:26,000
+pour créer la simulation.
+
+288
+0:14:26.16,000 --> 0:14:28,000
+Et voilà le résultat.
+
+289
+0:14:37.16,000 --> 0:14:4,000
+On pourrait l'améliorer. C'est un début,
+
+290
+0:14:40.16,000 --> 0:14:42,000
+et on a juste fait ça pour rire,
+
+291
+0:14:42.16,000 --> 0:14:44,000
+pour voir ce qu'on pouvait en tirer.
+
+292
+0:14:44.16,000 --> 0:14:46,000
+Mais nous avons découvert par la suite
+
+293
+0:14:46.16,000 --> 0:14:49,000
+que cette approche sur laquelle on se base
+
+294
+0:14:49.16,000 --> 0:14:51,000
+a un pouvoir incroyable.
+
+295
+0:14:51.16,000 --> 0:14:55,000
+Les simulations nous surprennent nous-même!
+
+296
+0:14:55.16,000 --> 0:14:59,000
+Très souvent on obtient un comportement inattendu.
+
+297
+0:14:59.16,000 --> 0:15:01,000
+Il y a tellement de choses que l'on peut faire avec ça.
+
+298
+0:15:01.16,000 --> 0:15:04,000
+La première chose, c'est les cascadeurs virtuels.
+
+299
+0:15:04.16,000 --> 0:15:08,000
+Plusieurs studios utilisent ce logiciel pour créer des cascadeurs virtuels,
+
+300
+0:15:08.16,000 --> 0:15:1,000
+et on va les voir à l'écran bientôt,
+
+301
+0:15:10.16,000 --> 0:15:12,000
+dans de grandes productions.
+
+302
+0:15:12.16,000 --> 0:15:15,000
+La deuxième chose c'est les jeux vidéos.
+
+303
+0:15:15.16,000 --> 0:15:19,000
+Grâce à cette technologie les jeux vidéos vont évoluer graphiquement.
+
+304
+0:15:19.16,000 --> 0:15:22,000
+Pour la première fois les acteurs seront vraiment interactifs,
+
+305
+0:15:22.16,000 --> 0:15:24,000
+avec de vrais corps qui réagissent.
+
+306
+0:15:24.16,000 --> 0:15:27,000
+Je crois que ça va être vraiment intéressant.
+
+307
+0:15:27.16,000 --> 0:15:29,000
+Probablement les jeux de sports en premier,
+
+308
+0:15:29.16,000 --> 0:15:31,000
+qui vont devenir beaucoup plus interactif.
+
+309
+0:15:31.16,000 --> 0:15:32,000
+Mais ce qui me plaît particulièrement
+
+310
+0:15:32.16,000 --> 0:15:35,000
+c'est d'utiliser cette technologie dans les mondes en ligne,
+
+311
+0:15:35.16,000 --> 0:15:38,000
+comme celui que Tom Melcher nous a montré par exemple.
+
+312
+0:15:38.16,000 --> 0:15:4,000
+Le degré d'interactivité que vous allez avoir
+
+313
+0:15:40.16,000 --> 0:15:43,000
+sera totalement différent de ce qui se fait actuellement.
+
+314
+0:15:44.16,000 --> 0:15:48,000
+La troisième chose c'est pour la simulation.
+
+315
+0:15:49.16,000 --> 0:15:51,000
+Plusieurs entreprises nous ont contactés,
+
+316
+0:15:51.16,000 --> 0:15:54,000
+et un projet qui nous intéresse particulièrement et commence le mois prochain,
+
+317
+0:15:54.16,000 --> 0:15:58,000
+est d'utiliser notre technologie de marche pour aider les chirurgiens
+
+318
+0:15:58.16,000 --> 0:16:02,000
+opérant sur des enfants atteints d'infirmité motrice cérébrale,
+
+319
+0:16:02.16,000 --> 0:16:05,000
+à prédire le résultat de ces opérations.
+
+320
+0:16:05.16,000 --> 0:16:07,000
+Vous le savez peut être,
+
+321
+0:16:07.16,000 --> 0:16:1,000
+il est très difficile de prédire le résultat d'une opération visant
+
+322
+0:16:10.16,000 --> 0:16:12,000
+à essayer de corriger la démarche.
+
+323
+0:16:12.16,000 --> 0:16:15,000
+Je crois qu'on dit qu'au mieux le résultat est imprévisible,
+
+324
+0:16:15.16,000 --> 0:16:18,000
+c'est ce que les gens pensent actuellement.
+
+325
+0:16:18.16,000 --> 0:16:22,000
+Nous voulons permettre aux chirurgiens d'utiliser notre logiciel comme un outil.
+
+326
+0:16:22.16,000 --> 0:16:25,000
+Nous allons simuler la démarche d'un enfant
+
+327
+0:16:25.16,000 --> 0:16:28,000
+et le chirurgien va pouvoir travailler sur cette simulation
+
+328
+0:16:28.16,000 --> 0:16:3,000
+et essayer différentes choses pour améliorer cette démarche
+
+329
+0:16:30.16,000 --> 0:16:33,000
+avant de s'engager dans l'opération.
+
+330
+0:16:33.16,000 --> 0:16:35,000
+C'est un projet qui nous intéresse particulièrement,
+
+331
+0:16:35.16,000 --> 0:16:37,000
+et qui commence le mois prochain.
+
+332
+0:16:39.16,000 --> 0:16:42,000
+Et pour conclure, ce n'est que le début.
+
+333
+0:16:42.16,000 --> 0:16:44,000
+On ne peut simuler qu'un certain nombre de comportements actuellement.
+
+334
+0:16:44.16,000 --> 0:16:47,000
+L'IA n'est pas assez bonne pour un corps humain tout entier.
+
+335
+0:16:47.16,000 --> 0:16:5,000
+Le corps oui, mais pas toutes les capacités motrices.
+
+336
+0:16:50.16,000 --> 0:16:53,000
+Je pense qu'on aura atteint l'objectif si on peut simuler un ballet.
+
+337
+0:16:53.16,000 --> 0:16:55,000
+Actuellement on ne peut pas
+
+338
+0:16:55.16,000 --> 0:16:57,000
+mais je suis convaincu qu'on y arrivera un jour.
+
+339
+0:16:57.16,000 --> 0:17:,000
+On a quand même involontairement un danseur,
+
+340
+0:17:00.16,000 --> 0:17:02,000
+la dernière chose à vous montrer.
+
+341
+0:17:02.16,000 --> 0:17:05,000
+C'est une ébauche d'IA, produite et évoluée --
+
+342
+0:17:05.16,000 --> 0:17:08,000
+enfin à moitié évoluée -- pour gérer l'équilibre en gros.
+
+343
+0:17:08.16,000 --> 0:17:11,000
+On frappe le bonhomme et il est sensé se rattraper.
+
+344
+0:17:11.16,000 --> 0:17:14,000
+C'est ce qu'on pensait qu'il allait se passer.
+
+345
+0:17:14.16,000 --> 0:17:16,000
+Mais voilà ce qui en est ressorti.
+
+346
+0:17:17.16,000 --> 0:17:27,000
+(musique)
+
+347
+0:17:27.16,000 --> 0:17:3,000
+Bizarrement il a pas de tête. Je sais pas trop pourquoi.
+
+348
+0:17:31.16,000 --> 0:17:33,000
+Ce n'est pas quelque chose que l'on a fait là.
+
+349
+0:17:33.16,000 --> 0:17:37,000
+Il s'est mis à danser tout seul.
+
+350
+0:17:37.16,000 --> 0:17:4,000
+Je dois dire qu'il danse même mieux que moi!
+
+351
+0:17:41.16,000 --> 0:17:43,000
+Et après quelques temps --
+
+352
+0:17:43.16,000 --> 0:17:45,000
+je crois qu'il atteint l'orgasme à la fin.
+
+353
+0:17:49.16,000 --> 0:17:52,000
+Voilà!
+
+354
+0:17:52.16,000 --> 0:17:54,000
+(rires)
+
+355
+0:17:54.16,000 --> 0:17:56,000
+Tout ça s'est fait automatiquement. On a rien touché.
+
+356
+0:17:56.16,000 --> 0:17:59,000
+C'est juste la simulation qui créé ça elle même.
+
+357
+0:17:59.16,000 --> 0:18:01,000
+C'est juste --
+
+358
+0:18:01.16,000 --> 0:18:02,000
+(applaudissements)
+
+359
+0:18:02.16,000 --> 0:18:04,000
+Merci.
+
+360
+0:18:05.16,000 --> 0:18:08,000
+Pas encore John Travolta mais on y travaille.
+
+361
+0:18:08.16,000 --> 0:18:1,000
+Merci beaucoup.
+
+362
+0:18:10.16,000 --> 0:18:11,000
+Merci.
+
+363
+0:18:11.16,000 --> 0:18:12,000
+(applaudissements)
+
+364
+0:18:12.16,000 --> 0:18:14,000
+Chris Anderson: Incroyable. C'était vraiment incroyable.
+
+365
+0:18:14.16,000 --> 0:18:15,000
+Torstein Reil: Merci.
+

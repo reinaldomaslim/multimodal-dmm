@@ -1,0 +1,648 @@
+1
+0:00:13.2,000 --> 0:00:14,000
+Three years ago,
+
+2
+0:00:14.48,000 --> 0:00:17,000
+I started building a decentralized web
+
+3
+0:00:17.52,000 --> 0:00:2,000
+because I was worried about the future of our internet.
+
+4
+0:00:21.68,000 --> 0:00:23,000
+The current internet we are using is about gatekeepers.
+
+5
+0:00:24.32,000 --> 0:00:26,000
+If you want to reach something on the web,
+
+6
+0:00:26.72,000 --> 0:00:28,000
+then you need to go through multiple middlemen.
+
+7
+0:00:29.12,000 --> 0:00:31,000
+First, a domain name server,
+
+8
+0:00:31.6,000 --> 0:00:33,000
+then a server hosting company,
+
+9
+0:00:34.16,000 --> 0:00:37,000
+which usually points you to a third party,
+
+10
+0:00:37.92,000 --> 0:00:38,000
+to a web hosting service.
+
+11
+0:00:41.08,000 --> 0:00:44,000
+And this happens every time you want to reach a website on the web.
+
+12
+0:00:45.44,000 --> 0:00:49,000
+But these gatekeepers are vulnerable to internet attacks
+
+13
+0:00:49.92,000 --> 0:00:52,000
+and also makes the censorship and the surveillance easier.
+
+14
+0:00:55.04,000 --> 0:00:56,000
+And the situation is getting worse.
+
+15
+0:00:57.84,000 --> 0:00:58,000
+Everything is moving to the cloud,
+
+16
+0:00:59.56,000 --> 0:01:02,000
+where the data is hosted by giant corporations.
+
+17
+0:01:03.4,000 --> 0:01:07,000
+This move creates much, much more powerful middlemen.
+
+18
+0:01:08.56,000 --> 0:01:1,000
+Now, move to the cloud makes sense
+
+19
+0:01:10.88,000 --> 0:01:12,000
+because this way it's easier and cheaper
+
+20
+0:01:12.96,000 --> 0:01:14,000
+for the developers and the service operators.
+
+21
+0:01:15.12,000 --> 0:01:19,000
+They don't have to worry about maintaining the physical servers.
+
+22
+0:01:20.72,000 --> 0:01:25,000
+I can't blame them, but I found this trend to be very dangerous,
+
+23
+0:01:25.96,000 --> 0:01:27,000
+because this way, these giant corporations
+
+24
+0:01:28.24,000 --> 0:01:31,000
+have unlimited control over the hosting services.
+
+25
+0:01:32.92,000 --> 0:01:35,000
+And it's very easy to abuse this power.
+
+26
+0:01:37.44,000 --> 0:01:4,000
+For example, last year, a CEO of a company
+
+27
+0:01:41.24,000 --> 0:01:45,000
+that acts as a gatekeeper for nine million websites
+
+28
+0:01:45.88,000 --> 0:01:47,000
+decided, after some public pressure,
+
+29
+0:01:48,000 --> 0:01:5,000
+that one of the sites it manages,
+
+30
+0:01:50.44,000 --> 0:01:52,000
+a far right page, should be blocked.
+
+31
+0:01:54.52,000 --> 0:01:56,000
+He then sent an internal email to his coworkers.
+
+32
+0:01:59,000 --> 0:02:01,000
+"This was an arbitrary decision.
+
+33
+0:02:02.64,000 --> 0:02:04,000
+I woke up this morning in a bad mood
+
+34
+0:02:05.2,000 --> 0:02:07,000
+and decided to kick them off the Internet."
+
+35
+0:02:09.96,000 --> 0:02:1,000
+Even he admits,
+
+36
+0:02:11.88,000 --> 0:02:13,000
+"No one should have this power."
+
+37
+0:02:15.72,000 --> 0:02:17,000
+As a response, one of the employees asked him,
+
+38
+0:02:18.64,000 --> 0:02:2,000
+"Is this the day the Internet dies?"
+
+39
+0:02:23.8,000 --> 0:02:25,000
+I don't think we are actually killing the internet,
+
+40
+0:02:26.24,000 --> 0:02:27,000
+but I do think that we are in the middle
+
+41
+0:02:28.2,000 --> 0:02:3,000
+of a kind of irresponsible centralization process
+
+42
+0:02:31,000 --> 0:02:33,000
+that makes our internet more fragile.
+
+43
+0:02:35.12,000 --> 0:02:38,000
+The decentralized, people-to-people web
+
+44
+0:02:38.48,000 --> 0:02:41,000
+solves this problem by removing the central points,
+
+45
+0:02:41.56,000 --> 0:02:42,000
+the web-hosting services.
+
+46
+0:02:43.88,000 --> 0:02:45,000
+It empowers the users
+
+47
+0:02:46.16,000 --> 0:02:49,000
+to have host sites they want to preserve.
+
+48
+0:02:51.08,000 --> 0:02:56,000
+On this network, the sites get downloaded directly from other visitors.
+
+49
+0:02:57.12,000 --> 0:02:59,000
+This means, if you have a site with 100 visitors,
+
+50
+0:02:59.48,000 --> 0:03:02,000
+then it's hosted [by] 100 computers around the world.
+
+51
+0:03:04.04,000 --> 0:03:09,000
+Basically, this is a people-powered version of the internet.
+
+52
+0:03:10.72,000 --> 0:03:14,000
+The security of the network is provided by public-key cryptography.
+
+53
+0:03:14.76,000 --> 0:03:17,000
+This makes sure that no one can modify the sites
+
+54
+0:03:18.28,000 --> 0:03:19,000
+but only the real owner.
+
+55
+0:03:21.36,000 --> 0:03:25,000
+Think of it like instead of getting electricity from big power plants,
+
+56
+0:03:25.84,000 --> 0:03:27,000
+you put solar panels on top of your house,
+
+57
+0:03:27.92,000 --> 0:03:29,000
+and if your neighbor down the street needs some extra energy,
+
+58
+0:03:30.84,000 --> 0:03:32,000
+then they can just download some from your house.
+
+59
+0:03:36.76,000 --> 0:03:38,000
+So by using the decentralized web,
+
+60
+0:03:39.6,000 --> 0:03:43,000
+we can help to keep content accessible for other visitors.
+
+61
+0:03:44.8,000 --> 0:03:46,000
+And by that, it means
+
+62
+0:03:47.52,000 --> 0:03:5,000
+that we can also fight against things
+
+63
+0:03:51.2,000 --> 0:03:52,000
+that we feel are unjust,
+
+64
+0:03:54,000 --> 0:03:55,000
+like censorship.
+
+65
+0:03:56.48,000 --> 0:03:58,000
+In China, the internet is tightly controlled.
+
+66
+0:04:00.6,000 --> 0:04:03,000
+They can't criticize the government,
+
+67
+0:04:04.48,000 --> 0:04:06,000
+organize a protest,
+
+68
+0:04:06.52,000 --> 0:04:08,000
+and it's also forbidden to post
+
+69
+0:04:09.28,000 --> 0:04:13,000
+a kind of emoticon to remember the victims of the Tiananmen Square Massacre.
+
+70
+0:04:15.04,000 --> 0:04:18,000
+With the decentralized web, it's not the government that decides
+
+71
+0:04:18.126,000 --> 0:04:19,000
+what gets seen and what doesn't.
+
+72
+0:04:21.08,000 --> 0:04:23,000
+It's the people,
+
+73
+0:04:23.12,000 --> 0:04:25,000
+which makes the web more democratic.
+
+74
+0:04:26.6,000 --> 0:04:28,000
+But at the same time, it's hard to use this network
+
+75
+0:04:29.04,000 --> 0:04:31,000
+to do something that is clearly illegal
+
+76
+0:04:31.839,000 --> 0:04:32,000
+everywhere in the world,
+
+77
+0:04:33.24,000 --> 0:04:36,000
+as the users probably don't want to endanger themselves
+
+78
+0:04:36.8,000 --> 0:04:38,000
+hosting these kinds of problematic content.
+
+79
+0:04:41.72,000 --> 0:04:43,000
+Another increasing threat
+
+80
+0:04:44.68,000 --> 0:04:45,000
+to internet freedom
+
+81
+0:04:47.4,000 --> 0:04:48,000
+is overregulation.
+
+82
+0:04:51.16,000 --> 0:04:53,000
+I have the impression
+
+83
+0:04:53.28,000 --> 0:04:54,000
+that our delegates
+
+84
+0:04:55,000 --> 0:04:57,000
+who vote on the internet regulation laws
+
+85
+0:04:57.88,000 --> 0:05:,000
+are not fully aware of their decisions.
+
+86
+0:05:01.76,000 --> 0:05:04,000
+For example, the European Parliament has a new law on the table,
+
+87
+0:05:05.44,000 --> 0:05:06,000
+a new copyright protection law,
+
+88
+0:05:07.44,000 --> 0:05:09,000
+that has a part called Article 13.
+
+89
+0:05:11.68,000 --> 0:05:15,000
+If it passes, it would require every big website
+
+90
+0:05:16.04,000 --> 0:05:18,000
+to implement a filter
+
+91
+0:05:18.32,000 --> 0:05:21,000
+that automatically blocks content
+
+92
+0:05:21.64,000 --> 0:05:23,000
+based on rules controlled by big corporations.
+
+93
+0:05:25.8,000 --> 0:05:27,000
+The original idea is to protect copyrighted materials,
+
+94
+0:05:28.48,000 --> 0:05:31,000
+but it would endanger many other things we do on the internet:
+
+95
+0:05:32,000 --> 0:05:35,000
+blogging, criticizing, discussing, linking and sharing.
+
+96
+0:05:36.76,000 --> 0:05:39,000
+Google and YouTube already have similar systems
+
+97
+0:05:40.6,000 --> 0:05:45,000
+and they are receiving 100,000 takedown requests every hour.
+
+98
+0:05:47.44,000 --> 0:05:5,000
+Of course, they can't process this amount of data by hand,
+
+99
+0:05:50.68,000 --> 0:05:51,000
+so they are using machine learning
+
+100
+0:05:52.36,000 --> 0:05:54,000
+to decide if it's really a copyright violation or not.
+
+101
+0:05:56.6,000 --> 0:05:59,000
+But these filters do make mistakes.
+
+102
+0:06:01,000 --> 0:06:06,000
+They're removing everything from documentation of human rights abuses,
+
+103
+0:06:06.84,000 --> 0:06:08,000
+lectures about copyrights
+
+104
+0:06:09.76,000 --> 0:06:11,000
+and search results
+
+105
+0:06:12,000 --> 0:06:17,000
+that point to criticism of this new Article 13.
+
+106
+0:06:18.84,000 --> 0:06:2,000
+Beside of that, they are also removing many other things.
+
+107
+0:06:24.48,000 --> 0:06:3,000
+And sometimes, these filters aren't just removing the specific content,
+
+108
+0:06:30.8,000 --> 0:06:34,000
+but it could also lead to loss of your linked accounts:
+
+109
+0:06:35.6,000 --> 0:06:39,000
+your email address, your documents, your photos,
+
+110
+0:06:39.8,000 --> 0:06:41,000
+or your unfinished book,
+
+111
+0:06:42,000 --> 0:06:44,000
+which happened with the writer Dennis Cooper.
+
+112
+0:06:45.92,000 --> 0:06:49,000
+It's not hard to see how a system like this could be abused
+
+113
+0:06:50.44,000 --> 0:06:53,000
+by politicians and corporate competitors.
+
+114
+0:06:55.76,000 --> 0:07:01,000
+This Article 13, the extension of these automated filters to the whole internet,
+
+115
+0:07:02.08,000 --> 0:07:04,000
+got strong opposition
+
+116
+0:07:04.24,000 --> 0:07:09,000
+from Wikipedia, Github, Mozilla, and many others,
+
+117
+0:07:09.64,000 --> 0:07:14,000
+including the original founders of the internet and the World Wide Web,
+
+118
+0:07:15.2,000 --> 0:07:16,000
+Vint Cerf and Tim Berners-Lee.
+
+119
+0:07:18.12,000 --> 0:07:2,000
+But despite this strong opposition,
+
+120
+0:07:21.04,000 --> 0:07:23,000
+on the last European Parliament vote,
+
+121
+0:07:23.44,000 --> 0:07:26,000
+two thirds of the representatives supported this law.
+
+122
+0:07:29.08,000 --> 0:07:31,000
+The final vote will be early 2019.
+
+123
+0:07:32.92,000 --> 0:07:33,000
+The result is important,
+
+124
+0:07:34.92,000 --> 0:07:36,000
+but whatever happens,
+
+125
+0:07:37.64,000 --> 0:07:42,000
+I'm pretty sure it will be followed by many other similar proposals
+
+126
+0:07:42.96,000 --> 0:07:43,000
+around the world.
+
+127
+0:07:45.28,000 --> 0:07:48,000
+These kinds of regulations would be very hard to enforce
+
+128
+0:07:48.48,000 --> 0:07:49,000
+through a decentralized web,
+
+129
+0:07:49.96,000 --> 0:07:51,000
+as there is no hosting companies.
+
+130
+0:07:53.28,000 --> 0:07:56,000
+The websites are served by the visitors themselves.
+
+131
+0:07:58.24,000 --> 0:08:01,000
+I started to build this network three years ago.
+
+132
+0:08:03.12,000 --> 0:08:07,000
+Since then, I've spent thousands, tens of thousands of hours
+
+133
+0:08:07.4,000 --> 0:08:08,000
+on the development.
+
+134
+0:08:09.8,000 --> 0:08:1,000
+Why?
+
+135
+0:08:11.4,000 --> 0:08:14,000
+Why would anyone spend thousands of hours on something anyone can freely copy,
+
+136
+0:08:15.2,000 --> 0:08:17,000
+rename, or even sell?
+
+137
+0:08:19.6,000 --> 0:08:2,000
+Well, in my case,
+
+138
+0:08:21.36,000 --> 0:08:23,000
+one of the reasons was to do something meaningful.
+
+139
+0:08:24.72,000 --> 0:08:26,000
+During my daily regular job as a web developer,
+
+140
+0:08:27.28,000 --> 0:08:3,000
+I didn't have the feeling that I'm working on something
+
+141
+0:08:30.52,000 --> 0:08:32,000
+that had a chance to be a bigger than me.
+
+142
+0:08:35,000 --> 0:08:38,000
+Simply, I just wanted to make my short presence in this world
+
+143
+0:08:38.84,000 --> 0:08:39,000
+to be meaningful.
+
+144
+0:08:43,000 --> 0:08:48,000
+Last year, the Great Firewall of China started blocking this network I created.
+
+145
+0:08:49.4,000 --> 0:08:52,000
+This move officially made me the enemy
+
+146
+0:08:52.679,000 --> 0:08:55,000
+of the government-supported internet censorship.
+
+147
+0:08:57.68,000 --> 0:09:,000
+Since then, it's been really a game of cat and mouse.
+
+148
+0:09:00.72,000 --> 0:09:02,000
+They make new rules in the firewall
+
+149
+0:09:03.48,000 --> 0:09:06,000
+and I try to react to it as fast as I can
+
+150
+0:09:06.52,000 --> 0:09:1,000
+so the users can keep hosting content and create websites
+
+151
+0:09:10.64,000 --> 0:09:15,000
+that otherwise would be censored by the centralized Chinese internet.
+
+152
+0:09:17.68,000 --> 0:09:21,000
+My other motivation to create this network was worry.
+
+153
+0:09:23.08,000 --> 0:09:28,000
+I fear that the future of our internet is out of our control.
+
+154
+0:09:28.32,000 --> 0:09:31,000
+The increasing centralization and the proposed laws
+
+155
+0:09:31.76,000 --> 0:09:33,000
+are threatening our freedom of speech
+
+156
+0:09:34.32,000 --> 0:09:36,000
+and, by that, our democracy.
+
+157
+0:09:37.44,000 --> 0:09:4,000
+So for me, building a decentralized web
+
+158
+0:09:40.8,000 --> 0:09:43,000
+means creating a safe harbor,
+
+159
+0:09:44.04,000 --> 0:09:5,000
+a space where the rules are not written by big corporations and political parties,
+
+160
+0:09:50.88,000 --> 0:09:51,000
+but by the people.
+
+161
+0:09:53.84,000 --> 0:09:54,000
+Thank you.
+
+162
+0:09:55.08,000 --> 0:09:59,000
+(Applause)
+

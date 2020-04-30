@@ -1,0 +1,452 @@
+1
+0:00:13.081,000 --> 0:00:15,000
+According to the UN,
+
+2
+0:00:15.111,000 --> 0:00:18,000
+billions of people still live without an address.
+
+3
+0:00:19.154,000 --> 0:00:21,000
+The economist Hernando de Soto said,
+
+4
+0:00:21.459,000 --> 0:00:22,000
+"Without an address,
+
+5
+0:00:22.841,000 --> 0:00:23,000
+you live outside the law.
+
+6
+0:00:24.767,000 --> 0:00:25,000
+You might as well not exist."
+
+7
+0:00:27.679,000 --> 0:00:3,000
+I'm here to tell you how my team and I are trying to change that.
+
+8
+0:00:31.986,000 --> 0:00:34,000
+If you go to an online map and look at a favela in Brazil
+
+9
+0:00:35.226,000 --> 0:00:36,000
+or a township in South Africa,
+
+10
+0:00:37.074,000 --> 0:00:39,000
+you'll see a few streets but a lot of empty space.
+
+11
+0:00:40.678,000 --> 0:00:42,000
+But if you flip to satellite view,
+
+12
+0:00:42.845,000 --> 0:00:45,000
+there are thousands of people, homes and businesses
+
+13
+0:00:45.983,000 --> 0:00:48,000
+in this vast, unmapped and unaddressed spaces.
+
+14
+0:00:49.551,000 --> 0:00:5,000
+In Ghana's capital, Accra,
+
+15
+0:00:51.435,000 --> 0:00:55,000
+there are numbers and letters scrawled onto the sides of walls,
+
+16
+0:00:55.548,000 --> 0:00:58,000
+where they piloted address systems but not finished them.
+
+17
+0:01:00.163,000 --> 0:01:03,000
+But these places, these unaddressed places,
+
+18
+0:01:03.323,000 --> 0:01:04,000
+hold huge economic potential.
+
+19
+0:01:07.201,000 --> 0:01:09,000
+Here's why the issue of addressing stuck with me.
+
+20
+0:01:10.453,000 --> 0:01:12,000
+I worked in the music business for 10 years,
+
+21
+0:01:12.529,000 --> 0:01:14,000
+and what you may not know about the music world
+
+22
+0:01:14.931,000 --> 0:01:17,000
+is that every day, people struggle with the problems of addressing.
+
+23
+0:01:18.368,000 --> 0:01:2,000
+So from the musicians who have to find the gigs
+
+24
+0:01:21.221,000 --> 0:01:23,000
+to the production companies who bring the equipment,
+
+25
+0:01:23.674,000 --> 0:01:25,000
+everyone somehow always gets lost.
+
+26
+0:01:25.76,000 --> 0:01:27,000
+We even had to add someone to our schedules
+
+27
+0:01:27.925,000 --> 0:01:29,000
+who was the person you called when you thought you'd arrived
+
+28
+0:01:30.768,000 --> 0:01:31,000
+but then realized you hadn't.
+
+29
+0:01:32.176,000 --> 0:01:34,000
+And we had some pretty bad days,
+
+30
+0:01:34.523,000 --> 0:01:37,000
+like in Italy, where a truck driver unloaded all the equipment
+
+31
+0:01:37.732,000 --> 0:01:39,000
+an hour north of Rome, not an hour south of Rome,
+
+32
+0:01:40.339,000 --> 0:01:41,000
+and a slightly worse day
+
+33
+0:01:41.572,000 --> 0:01:43,000
+where a keyboard player called me and said,
+
+34
+0:01:43.671,000 --> 0:01:45,000
+"Chris, don't panic, but we may have just sound-checked
+
+35
+0:01:46.609,000 --> 0:01:47,000
+at the wrong people's wedding."
+
+36
+0:01:48.196,000 --> 0:01:49,000
+(Laughter)
+
+37
+0:01:49.795,000 --> 0:01:51,000
+So not long after the fated Rome event,
+
+38
+0:01:52.457,000 --> 0:01:54,000
+I chatted this through with a friend of mine
+
+39
+0:01:54.59,000 --> 0:01:55,000
+who is a mathematician,
+
+40
+0:01:55.778,000 --> 0:01:57,000
+and we thought it was a problem we could do something about.
+
+41
+0:01:58.612,000 --> 0:02:,000
+We thought, well, we could make a new system,
+
+42
+0:02:00.973,000 --> 0:02:02,000
+but it shouldn't look like the old system.
+
+43
+0:02:03.628,000 --> 0:02:05,000
+We agreed that addresses were bad.
+
+44
+0:02:06.474,000 --> 0:02:08,000
+We knew we wanted something very precise,
+
+45
+0:02:08.524,000 --> 0:02:1,000
+but GPS coordinates, latitude and longitude,
+
+46
+0:02:10.903,000 --> 0:02:11,000
+were just too complicated.
+
+47
+0:02:13.256,000 --> 0:02:15,000
+So we divided the world into three-meter squares.
+
+48
+0:02:16.583,000 --> 0:02:2,000
+The world divides into around 57 trillion three-meter squares,
+
+49
+0:02:20.7,000 --> 0:02:22,000
+and we found that there are enough combinations
+
+50
+0:02:22.915,000 --> 0:02:23,000
+of three dictionary words
+
+51
+0:02:24.749,000 --> 0:02:27,000
+that we could name every three-meter square in the world uniquely
+
+52
+0:02:28.365,000 --> 0:02:29,000
+with just three words.
+
+53
+0:02:30.546,000 --> 0:02:31,000
+We used 40,000 words,
+
+54
+0:02:32.141,000 --> 0:02:33,000
+so that's 40,000 cubed,
+
+55
+0:02:33.758,000 --> 0:02:36,000
+64 trillion combinations of three words,
+
+56
+0:02:37.015,000 --> 0:02:4,000
+which is more than enough for the 57-trillion-odd three-meter squares,
+
+57
+0:02:40.927,000 --> 0:02:41,000
+with a few spare.
+
+58
+0:02:43.044,000 --> 0:02:44,000
+So that's exactly what we did.
+
+59
+0:02:45.017,000 --> 0:02:48,000
+We divided the world into three-meter squares,
+
+60
+0:02:48.115,000 --> 0:02:5,000
+gave each one a unique, three-word identifier --
+
+61
+0:02:50.98,000 --> 0:02:51,000
+what we call a three-word address.
+
+62
+0:02:53.385,000 --> 0:02:56,000
+So for example, right here,
+
+63
+0:02:56.481,000 --> 0:02:58,000
+I'm standing at mustards.coupons.pinup,
+
+64
+0:02:58.858,000 --> 0:02:59,000
+(Laughter)
+
+65
+0:03:00.032,000 --> 0:03:01,000
+but over here ...
+
+66
+0:03:02.753,000 --> 0:03:04,000
+I'm standing at pinched. singularly.tutorial.
+
+67
+0:03:09.133,000 --> 0:03:1,000
+But we haven't just done this in English.
+
+68
+0:03:11.128,000 --> 0:03:14,000
+We thought it was essential that people should be able to use this system
+
+69
+0:03:14.581,000 --> 0:03:15,000
+in their own language.
+
+70
+0:03:15.867,000 --> 0:03:17,000
+So far, we've built it into 14 languages,
+
+71
+0:03:18.124,000 --> 0:03:2,000
+including French, Swahili and Arabic,
+
+72
+0:03:20.591,000 --> 0:03:22,000
+and we're working on more now, like Xhosa, Zulu and Hindi.
+
+73
+0:03:25.157,000 --> 0:03:26,000
+But this idea can do a lot more
+
+74
+0:03:27.028,000 --> 0:03:29,000
+than just get my musicians to their gigs on time.
+
+75
+0:03:29.752,000 --> 0:03:33,000
+If the 75 percent of countries that struggle with reliable addressing
+
+76
+0:03:33.953,000 --> 0:03:34,000
+started using three-word addresses,
+
+77
+0:03:35.681,000 --> 0:03:37,000
+there's a stack of far more important applications.
+
+78
+0:03:40.033,000 --> 0:03:42,000
+In Durban, South Africa,
+
+79
+0:03:42.487,000 --> 0:03:43,000
+an NGO called Gateway Health
+
+80
+0:03:44.168,000 --> 0:03:46,000
+have distributed 11,000 three-word address signs
+
+81
+0:03:47.142,000 --> 0:03:48,000
+to their community,
+
+82
+0:03:48.555,000 --> 0:03:5,000
+so the pregnant mothers, when they go into labor,
+
+83
+0:03:50.958,000 --> 0:03:51,000
+can call the emergency services
+
+84
+0:03:52.79,000 --> 0:03:54,000
+and tell them exactly where to pick them up from,
+
+85
+0:03:55.165,000 --> 0:03:58,000
+because otherwise, the ambulances have often taken hours to find them.
+
+86
+0:03:58.964,000 --> 0:04:01,000
+In Mongolia, the National Post Service have adopted the system
+
+87
+0:04:02.265,000 --> 0:04:04,000
+and are now doing deliveries to many people's houses
+
+88
+0:04:04.727,000 --> 0:04:05,000
+for the first time.
+
+89
+0:04:06.152,000 --> 0:04:09,000
+The UN are using it to geotag photos in disaster zones
+
+90
+0:04:09.859,000 --> 0:04:11,000
+so they can deliver aid to exactly the right place.
+
+91
+0:04:12.555,000 --> 0:04:14,000
+Even Domino's Pizza are using it in the Caribbean,
+
+92
+0:04:15.249,000 --> 0:04:17,000
+because they haven't been able to find customers' homes,
+
+93
+0:04:17.974,000 --> 0:04:2,000
+but they really want to get their pizza to them while its still hot.
+
+94
+0:04:21.729,000 --> 0:04:23,000
+Shortly, you'll be able to get into a car,
+
+95
+0:04:24.274,000 --> 0:04:25,000
+speak the three words,
+
+96
+0:04:26.034,000 --> 0:04:28,000
+and the car will navigate you to that exact spot.
+
+97
+0:04:29.888,000 --> 0:04:32,000
+In Africa, the continent has leapfrogged phone lines
+
+98
+0:04:33.437,000 --> 0:04:34,000
+to go to mobile phones,
+
+99
+0:04:34.854,000 --> 0:04:37,000
+bypassed traditional banks to go straight to mobile payments.
+
+100
+0:04:39.298,000 --> 0:04:42,000
+We're really proud that the post services of three African countries --
+
+101
+0:04:43.276,000 --> 0:04:45,000
+Nigeria, Djibouti and Côte d'Ivoire,
+
+102
+0:04:45.896,000 --> 0:04:47,000
+have gone straight to adopting three-word addresses,
+
+103
+0:04:48.572,000 --> 0:04:5,000
+which means that people in those countries
+
+104
+0:04:50.669,000 --> 0:04:53,000
+have a really simple way to explain where they live, today.
+
+105
+0:04:55.167,000 --> 0:04:58,000
+For me, poor addressing was an annoying frustration,
+
+106
+0:04:58.87,000 --> 0:05:,000
+but for billions of people,
+
+107
+0:05:01.398,000 --> 0:05:03,000
+it's a huge business inefficiency,
+
+108
+0:05:03.835,000 --> 0:05:05,000
+severely hampers their infrastructure growth,
+
+109
+0:05:06.54,000 --> 0:05:07,000
+and can cost lives.
+
+110
+0:05:08.837,000 --> 0:05:09,000
+We're on a mission to change that,
+
+111
+0:05:10.489,000 --> 0:05:11,000
+three words at a time.
+
+112
+0:05:11.726,000 --> 0:05:12,000
+Thank you.
+
+113
+0:05:12.901,000 --> 0:05:16,000
+(Applause)
+

@@ -1,0 +1,1588 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Patrick Brault Relecteur: Marta de Tena
+
+2
+0:00:13.119,000 --> 0:00:16,000
+En 1781, un compositeur anglais,
+
+3
+0:00:16.59,000 --> 0:00:18,000
+ingénieur et astronome, nommé William Herschel,
+
+4
+0:00:19.379,000 --> 0:00:2,000
+remarqua un objet dans le ciel
+
+5
+0:00:20.926,000 --> 0:00:22,000
+qui ne se déplaçait pas tout à fait de la même façon
+
+6
+0:00:23.433,000 --> 0:00:24,000
+que les autres étoiles.
+
+7
+0:00:24.75,000 --> 0:00:26,000
+Et le fait qu'Hershel s'aperçoive de cette différence,
+
+8
+0:00:27.434,000 --> 0:00:28,000
+de cette anomalie,
+
+9
+0:00:29.301,000 --> 0:00:31,000
+a conduit à la découverte d'une planète,
+
+10
+0:00:31.383,000 --> 0:00:32,000
+la planète Uranus,
+
+11
+0:00:33.2,000 --> 0:00:34,000
+un nom qui a fait rigoler
+
+12
+0:00:34.555,000 --> 0:00:37,000
+d'innombrables générations d'enfants,
+
+13
+0:00:37.715,000 --> 0:00:39,000
+mais une planète qui, du jour au lendemain,
+
+14
+0:00:40.05,000 --> 0:00:42,000
+a doublé la taille du système solaire connu.
+
+15
+0:00:42.416,000 --> 0:00:44,000
+Rien que le mois dernier, la NASA a annoncé la découverte
+
+16
+0:00:45.081,000 --> 0:00:46,000
+de 517 nouvelles planètes
+
+17
+0:00:46.85,000 --> 0:00:48,000
+en orbite autour d'étoiles proches,
+
+18
+0:00:48.976,000 --> 0:00:5,000
+doublant ainsi d'un coup le nombre de planètes connues
+
+19
+0:00:51.887,000 --> 0:00:52,000
+de notre galaxie.
+
+20
+0:00:53.825,000 --> 0:00:55,000
+L'astronomie est en permanence transformée
+
+21
+0:00:56.457,000 --> 0:00:58,000
+par cette capacité à rassembler des données,
+
+22
+0:00:58.595,000 --> 0:01:,000
+et comme ces données doublent presque chaque année,
+
+23
+0:01:01.01,000 --> 0:01:03,000
+au cours des 20 prochaines années, il se pourrait
+
+24
+0:01:03.368,000 --> 0:01:06,000
+que nous atteignons un seuil où, pour la première fois dans l'Histoire,
+
+25
+0:01:06.786,000 --> 0:01:08,000
+nous ayons découvert la plupart des galaxies
+
+26
+0:01:08.88,000 --> 0:01:09,000
+de l'Univers.
+
+27
+0:01:10.054,000 --> 0:01:12,000
+Mais alors que nous entrons dans l'ère du big data,
+
+28
+0:01:12.518,000 --> 0:01:14,000
+nous commençons à nous apercevoir qu'il y a une différence
+
+29
+0:01:15.318,000 --> 0:01:16,000
+entre la simple accumulation de données,
+
+30
+0:01:17.269,000 --> 0:01:18,000
+et les transformations que cela apporte,
+
+31
+0:01:19.249,000 --> 0:01:21,000
+la capacité de changer les questions que l'on se pose.
+
+32
+0:01:22.14,000 --> 0:01:24,000
+La question n'est pas combien de données on rassemble,
+
+33
+0:01:24.93,000 --> 0:01:26,000
+c'est si ces données ouvrent de nouvelles fenêtres
+
+34
+0:01:27.409,000 --> 0:01:28,000
+sur notre univers,
+
+35
+0:01:28.527,000 --> 0:01:3,000
+si elles changent la façon dont nous regardons le ciel.
+
+36
+0:01:31.412,000 --> 0:01:34,000
+Quelle est alors la prochaine fenêtre sur notre univers ?
+
+37
+0:01:34.851,000 --> 0:01:36,000
+Quel est le prochain chapitre de l'astronomie ?
+
+38
+0:01:37.292,000 --> 0:01:4,000
+Eh bien, je vais vous montrer quelques-uns des outils et des techniques
+
+39
+0:01:40.687,000 --> 0:01:42,000
+que nous allons développer dans les années à venir,
+
+40
+0:01:43.171,000 --> 0:01:44,000
+et comment ces technologies,
+
+41
+0:01:44.584,000 --> 0:01:46,000
+combinées à un usage intelligent des données,
+
+42
+0:01:46.772,000 --> 0:01:48,000
+pourraient de nouveau transformer l'astronomie
+
+43
+0:01:49.172,000 --> 0:01:51,000
+en ouvrant une fenêtre sur notre univers,
+
+44
+0:01:51.219,000 --> 0:01:52,000
+la fenêtre du temps.
+
+45
+0:01:52.89,000 --> 0:01:55,000
+Pourquoi le temps ? Eh bien, le temps a un rapport avec les origines,
+
+46
+0:01:56.264,000 --> 0:01:57,000
+et avec l'évolution.
+
+47
+0:01:57.474,000 --> 0:01:58,000
+Les origines de notre système solaire,
+
+48
+0:01:59.31,000 --> 0:02:,000
+comment notre système solaire est né.
+
+49
+0:02:01.174,000 --> 0:02:04,000
+Est-il particulier, ou spécial, d'une manière ou d'une autre ?
+
+50
+0:02:04.583,000 --> 0:02:06,000
+Au sujet de l'évolution de notre univers :
+
+51
+0:02:06.854,000 --> 0:02:08,000
+pourquoi continue-t-il à s'étendre ?
+
+52
+0:02:09.58,000 --> 0:02:11,000
+Et quelle est cette mystérieuse énergie noire
+
+53
+0:02:11.793,000 --> 0:02:13,000
+qui alimente son expansion ?
+
+54
+0:02:14.128,000 --> 0:02:17,000
+Mais tout d'abord, je veux vous montrer comment la technologie
+
+55
+0:02:17.162,000 --> 0:02:19,000
+va changer la façon dont on regarde le ciel.
+
+56
+0:02:19.663,000 --> 0:02:2,000
+Imaginez que vous êtes situés
+
+57
+0:02:21.17,000 --> 0:02:23,000
+dans les montagnes du nord du Chili
+
+58
+0:02:23.262,000 --> 0:02:24,000
+et que vous regardez vers l'ouest,
+
+59
+0:02:24.989,000 --> 0:02:25,000
+vers l'Océan Pacifique,
+
+60
+0:02:26.717,000 --> 0:02:28,000
+quelques heures avant l'aube.
+
+61
+0:02:29.281,000 --> 0:02:32,000
+Voici le ciel nocturne que vous verriez,
+
+62
+0:02:32.518,000 --> 0:02:33,000
+c'est une vision magnifique,
+
+63
+0:02:34.189,000 --> 0:02:36,000
+avec la Voie Lactée qui pointe juste au-dessus de l'horizon,
+
+64
+0:02:37.102,000 --> 0:02:39,000
+mais c'est une vision statique.
+
+65
+0:02:39.262,000 --> 0:02:42,000
+D'une certaine façon, c'est ainsi que nous voyons notre univers :
+
+66
+0:02:42.39,000 --> 0:02:44,000
+éternel et immuable.
+
+67
+0:02:44.414,000 --> 0:02:45,000
+Mais l'Univers est tout sauf statique.
+
+68
+0:02:46.405,000 --> 0:02:48,000
+Il change constamment, à l'échelle de la seconde
+
+69
+0:02:48.936,000 --> 0:02:49,000
+comme à celle du milliard d'années.
+
+70
+0:02:50.791,000 --> 0:02:52,000
+Les galaxies fusionnent, elles entrent en collision
+
+71
+0:02:53.315,000 --> 0:02:55,000
+à des centaines de milliers de kilomètre/heures.
+
+72
+0:02:55.64,000 --> 0:02:57,000
+Des étoiles naissent, elles meurent,
+
+73
+0:02:57.64,000 --> 0:02:59,000
+elles explosent en ces feux d'artifice extravagants
+
+74
+0:03:00.4,000 --> 0:03:01,000
+En fait, si nous revenons
+
+75
+0:03:01.67,000 --> 0:03:03,000
+à notre ciel tranquille au Chili,
+
+76
+0:03:04.269,000 --> 0:03:06,000
+et que nous laissons le temps s'écouler
+
+77
+0:03:06.734,000 --> 0:03:1,000
+pour voir comment le ciel pourrait évoluer au cours de la prochaine année,
+
+78
+0:03:11.127,000 --> 0:03:13,000
+les pulsations que vous voyez
+
+79
+0:03:13.417,000 --> 0:03:17,000
+sont des supernovae, les derniers feux d'agonie d'étoiles
+
+80
+0:03:17.826,000 --> 0:03:2,000
+qui meurent en explosant, qui brillent puis disparaissent.
+
+81
+0:03:21.573,000 --> 0:03:22,000
+Chacune de ces supernovae
+
+82
+0:03:23.463,000 --> 0:03:26,000
+est cinq milliards de fois plus brillante que notre soleil,
+
+83
+0:03:26.466,000 --> 0:03:28,000
+ce qui nous permet de la voir d'aussi loin,
+
+84
+0:03:28.806,000 --> 0:03:3,000
+mais seulement pour un court instant.
+
+85
+0:03:31.302,000 --> 0:03:33,000
+A chaque seconde, dix supernovae explosent quelque part
+
+86
+0:03:33.879,000 --> 0:03:34,000
+dans notre univers.
+
+87
+0:03:35.296,000 --> 0:03:36,000
+Si nous pouvions les entendre,
+
+88
+0:03:37.106,000 --> 0:03:4,000
+ça crépiterait comme un sac de pop-corn.
+
+89
+0:03:40.415,000 --> 0:03:43,000
+Si maintenant nous enlevons les supernovae,
+
+90
+0:03:43.542,000 --> 0:03:46,000
+il n'y a pas que la luminosité qui change.
+
+91
+0:03:46.771,000 --> 0:03:48,000
+Notre ciel est toujours en mouvement.
+
+92
+0:03:49.11,000 --> 0:03:52,000
+Cette nuée d'objets que vous voyez traverser le ciel
+
+93
+0:03:52.28,000 --> 0:03:54,000
+sont des astéroïdes qui tournent autour de notre soleil,
+
+94
+0:03:54.938,000 --> 0:03:56,000
+et ce sont ces changements et ce mouvement,
+
+95
+0:03:57.17,000 --> 0:03:59,000
+c'est la dynamique du système,
+
+96
+0:03:59.234,000 --> 0:04:01,000
+qui nous permet de construire notre modèle de l'univers,
+
+97
+0:04:02.007,000 --> 0:04:05,000
+pour prévoir son futur et expliquer son passé.
+
+98
+0:04:05.68,000 --> 0:04:08,000
+Mais les télescopes que nous avons utilisés ces dernières années
+
+99
+0:04:08.774,000 --> 0:04:12,000
+ne sont pas conçus pour capturer les données à cette échelle.
+
+100
+0:04:12.789,000 --> 0:04:13,000
+Le Télescope Spatial Hubble :
+
+101
+0:04:14.409,000 --> 0:04:16,000
+depuis 25 ans, il a fourni
+
+102
+0:04:16.67,000 --> 0:04:17,000
+quelques-unes des vues les plus détaillées
+
+103
+0:04:18.631,000 --> 0:04:19,000
+de l'univers lointain,
+
+104
+0:04:20.622,000 --> 0:04:23,000
+mais si vous essayez de l'utiliser pour produire une image du ciel,
+
+105
+0:04:23.852,000 --> 0:04:26,000
+cela prendrait 13 millions d'images différentes,
+
+106
+0:04:27.27,000 --> 0:04:3,000
+et environ 120 ans, pour le faire une seule fois.
+
+107
+0:04:30.982,000 --> 0:04:32,000
+Cela nous amène aux nouvelles technologies
+
+108
+0:04:33.243,000 --> 0:04:34,000
+et aux nouveaux télescopes,
+
+109
+0:04:34.9,000 --> 0:04:36,000
+des télescopes qui peuvent affiner leur champ de vision
+
+110
+0:04:37.512,000 --> 0:04:38,000
+pour voir l'univers lointain,
+
+111
+0:04:39.065,000 --> 0:04:41,000
+mais qui peuvent aussi l'élargir
+
+112
+0:04:41.066,000 --> 0:04:43,000
+pour capturer le ciel aussi vite que possible.
+
+113
+0:04:43.885,000 --> 0:04:46,000
+Des télescopes comme le Large Synoptic Survey Telescope,
+
+114
+0:04:47.446,000 --> 0:04:48,000
+ou LSST,
+
+115
+0:04:49.325,000 --> 0:04:51,000
+sans doute le nom le plus ennuyeux jamais donné
+
+116
+0:04:51.665,000 --> 0:04:53,000
+à l'une des expériences les plus fascinantes
+
+117
+0:04:53.844,000 --> 0:04:54,000
+de l'histoire de l'astronomie.
+
+118
+0:04:55.636,000 --> 0:04:57,000
+C'est la preuve, s'il en était besoin,
+
+119
+0:04:57.85,000 --> 0:04:59,000
+qu'il ne faut jamais laisser un scientifique ou un ingénieur
+
+120
+0:05:00.838,000 --> 0:05:05,000
+baptiser quoi que ce soit, pas même vos enfants. (Rires)
+
+121
+0:05:06.349,000 --> 0:05:07,000
+Nous construisons le LSST.
+
+122
+0:05:07.814,000 --> 0:05:09,000
+Nous espérons qu'il produira des données
+
+123
+0:05:10.437,000 --> 0:05:11,000
+à la fin de la décennie.
+
+124
+0:05:11.64,000 --> 0:05:13,000
+Je vais vous montrer la façon dont nous pensons
+
+125
+0:05:13.834,000 --> 0:05:15,000
+qu'il va changer notre vision de l'univers.
+
+126
+0:05:16.471,000 --> 0:05:18,000
+C'est parce qu'une seule image du LSST
+
+127
+0:05:18.845,000 --> 0:05:2,000
+équivaudra à 3 000 images
+
+128
+0:05:21.23,000 --> 0:05:23,000
+du télescope Spatial Hubble,
+
+129
+0:05:23.356,000 --> 0:05:26,000
+chacune couvrira 3,5 degrés du ciel,
+
+130
+0:05:26.494,000 --> 0:05:28,000
+7 fois la largeur de la Lune.
+
+131
+0:05:29.27,000 --> 0:05:31,000
+Alors, comment capture-t-on une image de cette taille ?
+
+132
+0:05:31.849,000 --> 0:05:34,000
+Eh bien, on construit la plus grande caméra digitale de l'histoire,
+
+133
+0:05:35.73,000 --> 0:05:38,000
+à partir de la même technologie que la caméra de votre portable,
+
+134
+0:05:38.951,000 --> 0:05:41,000
+ou la caméra digitale qu'on peut acheter au magasin du coin,
+
+135
+0:05:42.682,000 --> 0:05:45,000
+mais d'un mètre cinquante de large,
+
+136
+0:05:45.802,000 --> 0:05:47,000
+à peu près la taille d'une Coccinelle,
+
+137
+0:05:48.21,000 --> 0:05:5,000
+et où chaque image fait 3 milliards de pixels.
+
+138
+0:05:51.168,000 --> 0:05:52,000
+Si on voulait regarder une de ces images
+
+139
+0:05:53.026,000 --> 0:05:55,000
+à pleine résolution, juste une seule image du LSST,
+
+140
+0:05:55.735,000 --> 0:05:59,000
+ça prendrait environ 1 500 écrans télé haute définition.
+
+141
+0:06:00.46,000 --> 0:06:02,000
+Et cette caméra va photographier le ciel,
+
+142
+0:06:03.238,000 --> 0:06:06,000
+en prenant une image toutes les 20 secondes,
+
+143
+0:06:06.276,000 --> 0:06:08,000
+balayant le ciel constamment,
+
+144
+0:06:08.464,000 --> 0:06:11,000
+de sorte que toutes les trois nuits, nous aurons une nouvelle vue complète
+
+145
+0:06:12.159,000 --> 0:06:13,000
+des cieux au-dessus du Chili.
+
+146
+0:06:13.672,000 --> 0:06:15,000
+Pendant la durée de son existence, ce télescope
+
+147
+0:06:16.507,000 --> 0:06:19,000
+va détecter 40 milliards d'étoiles et de galaxies,
+
+148
+0:06:19.859,000 --> 0:06:2,000
+et ce sera la première fois
+
+149
+0:06:21.359,000 --> 0:06:23,000
+que nous aurons détecté plus d'objets dans l'univers
+
+150
+0:06:24.134,000 --> 0:06:26,000
+que d'hommes sur la terre.
+
+151
+0:06:26.823,000 --> 0:06:27,000
+On peut en parler
+
+152
+0:06:28.038,000 --> 0:06:3,000
+en termes de téra-octets et de péta-octets,
+
+153
+0:06:30.4,000 --> 0:06:31,000
+et de milliards d'objets,
+
+154
+0:06:31.919,000 --> 0:06:33,000
+mais une façon d'avoir une idée de la quantité de données
+
+155
+0:06:34.687,000 --> 0:06:35,000
+qui va provenir de cette caméra
+
+156
+0:06:36.196,000 --> 0:06:38,000
+et de la comparer à la diffusion simultanée
+
+157
+0:06:38.427,000 --> 0:06:4,000
+de toutes les conférences de TED jamais enregistrées,
+
+158
+0:06:41.048,000 --> 0:06:43,000
+24 heures sur 24,
+
+159
+0:06:43.37,000 --> 0:06:45,000
+7 jours sur 7, pendant 10 ans.
+
+160
+0:06:46.228,000 --> 0:06:48,000
+Et traiter ces données
+
+161
+0:06:48.489,000 --> 0:06:5,000
+implique de chercher parmi toutes ces conférences
+
+162
+0:06:50.963,000 --> 0:06:52,000
+toutes les nouvelles idées et les nouveaux concepts,
+
+163
+0:06:53.422,000 --> 0:06:54,000
+en examinant chaque partie des vidéos
+
+164
+0:06:55.308,000 --> 0:06:56,000
+pour voir si une image est différente
+
+165
+0:06:57.153,000 --> 0:06:58,000
+de la précédente.
+
+166
+0:06:58.388,000 --> 0:07:,000
+Ça change la façon dont on fait de la science,
+
+167
+0:07:00.739,000 --> 0:07:02,000
+dont on fait de l'astronomie,
+
+168
+0:07:02.994,000 --> 0:07:04,000
+pour un domaine où les programmes et les algorithmes
+
+169
+0:07:05.8,000 --> 0:07:06,000
+doivent exploiter toutes ces données,
+
+170
+0:07:07.778,000 --> 0:07:09,000
+où les programmes sont aussi importants pour la science
+
+171
+0:07:10.584,000 --> 0:07:13,000
+que le télescope et la caméra que nous avons construits.
+
+172
+0:07:14.351,000 --> 0:07:16,000
+Des milliers de découvertes
+
+173
+0:07:16.938,000 --> 0:07:17,000
+découleront de ce projet,
+
+174
+0:07:18.673,000 --> 0:07:2,000
+mais je vais seulement vous parler de deux des idées
+
+175
+0:07:21.274,000 --> 0:07:22,000
+sur les origines et l'évolution
+
+176
+0:07:22.857,000 --> 0:07:24,000
+qui pourraient être transformées par notre accès aux données
+
+177
+0:07:25.67,000 --> 0:07:26,000
+à cette échelle.
+
+178
+0:07:27.501,000 --> 0:07:29,000
+Ces cinq dernières années, la NASA a découvert
+
+179
+0:07:29.886,000 --> 0:07:31,000
+plus de 1 000 systèmes solaires
+
+180
+0:07:32.147,000 --> 0:07:34,000
+autour d'étoiles proches,
+
+181
+0:07:34.24,000 --> 0:07:35,000
+mais les systèmes que nous découvrons
+
+182
+0:07:36.17,000 --> 0:07:38,000
+ne ressemblent pas au nôtre.
+
+183
+0:07:38.66,000 --> 0:07:39,000
+L'une des questions qui se pose est :
+
+184
+0:07:40.635,000 --> 0:07:42,000
+est-ce qu'on n'a pas assez bien cherché ?
+
+185
+0:07:42.713,000 --> 0:07:43,000
+Ou bien y a-t-il quelque chose de spécial
+
+186
+0:07:44.709,000 --> 0:07:46,000
+dans la façon dont notre système solaire s'est formé ?
+
+187
+0:07:47.347,000 --> 0:07:49,000
+Si nous voulons répondre à cette question,
+
+188
+0:07:49.399,000 --> 0:07:5,000
+nous devons connaître et comprendre
+
+189
+0:07:51.168,000 --> 0:07:53,000
+l'histoire de notre système solaire en détail,
+
+190
+0:07:53.514,000 --> 0:07:54,000
+car ce sont les détails qui comptent.
+
+191
+0:07:55.411,000 --> 0:07:58,000
+Si nous revenons à notre ciel,
+
+192
+0:07:59.077,000 --> 0:08:02,000
+à nos astéroïdes qui traversaient le ciel,
+
+193
+0:08:02.628,000 --> 0:08:06,000
+ils sont comme les débris de notre système solaire.
+
+194
+0:08:06.85,000 --> 0:08:07,000
+La position des astéroïdes
+
+195
+0:08:08.738,000 --> 0:08:1,000
+est comme l'empreinte digitale d'une époque ancienne,
+
+196
+0:08:11.285,000 --> 0:08:13,000
+quand les orbites de Neptune et de Jupiter
+
+197
+0:08:13.445,000 --> 0:08:14,000
+étaient bien plus proches du soleil.
+
+198
+0:08:15.16,000 --> 0:08:18,000
+Quand ces planètes géantes ont migré à travers notre système solaire,
+
+199
+0:08:18.513,000 --> 0:08:21,000
+elles ont éparpillé les astéroïdes dans leur sillage.
+
+200
+0:08:21.653,000 --> 0:08:22,000
+Étudier les astéroïdes,
+
+201
+0:08:22.959,000 --> 0:08:24,000
+c'est comme de faire une expertise médico-légale,
+
+202
+0:08:25.39,000 --> 0:08:27,000
+l'expertise de notre système solaire.
+
+203
+0:08:27.638,000 --> 0:08:29,000
+Mais pour le faire, il nous faut du recul,
+
+204
+0:08:30.34,000 --> 0:08:32,000
+c'est le mouvement qui nous donne le recul,
+
+205
+0:08:32.419,000 --> 0:08:36,000
+et nous avons le mouvement grâce à notre accès au temps.
+
+206
+0:08:36.966,000 --> 0:08:37,000
+De quelle façon ?
+
+207
+0:08:38.668,000 --> 0:08:4,000
+Eh bien, si on regarde les petits astéroïdes jaunes
+
+208
+0:08:41.195,000 --> 0:08:42,000
+qui voltigent à travers l'écran,
+
+209
+0:08:43.168,000 --> 0:08:45,000
+ce sont ceux qui bougent le plus vite,
+
+210
+0:08:45.368,000 --> 0:08:48,000
+parce qu'ils sont les plus proche de nous, les plus proches de la Terre.
+
+211
+0:08:48.829,000 --> 0:08:5,000
+Ce sont ceux vers lesquels nous pourrions bien, un jour,
+
+212
+0:08:51.576,000 --> 0:08:53,000
+envoyer des vaisseaux pour exploiter leurs minéraux,
+
+213
+0:08:54.004,000 --> 0:08:56,000
+mais ce sont aussi ceux qui pourraient un jour
+
+214
+0:08:56.146,000 --> 0:08:57,000
+frapper la Terre ,
+
+215
+0:08:57.291,000 --> 0:08:59,000
+comme cela est arrivé il y a 60 millions d'années,
+
+216
+0:08:59.732,000 --> 0:09:,000
+avec l'extinction des dinosaures,
+
+217
+0:09:01.437,000 --> 0:09:03,000
+ou bien juste au début du siècle dernier,
+
+218
+0:09:03.609,000 --> 0:09:04,000
+lorsqu'un astéroïde a anéanti
+
+219
+0:09:05.351,000 --> 0:09:07,000
+près de 2 600 km² de forêt sibérienne,
+
+220
+0:09:08.18,000 --> 0:09:1,000
+ou même juste l'année dernière,
+
+221
+0:09:10.413,000 --> 0:09:12,000
+lorsque l'un d'entre eux a brûlé au dessus de la Russie,
+
+222
+0:09:13.076,000 --> 0:09:15,000
+en libérant l'énergie d'une petite bombe atomique.
+
+223
+0:09:15.45,000 --> 0:09:18,000
+L'expertise de notre système solaire
+
+224
+0:09:18.502,000 --> 0:09:2,000
+ne nous renseigne pas seulement sur le passé,
+
+225
+0:09:21,000 --> 0:09:24,000
+elle peut aussi prédire le futur, y compris notre futur.
+
+226
+0:09:26.771,000 --> 0:09:27,000
+Quand on prend du recul,
+
+227
+0:09:28.739,000 --> 0:09:31,000
+on peut voir les astéroïdes dans leur milieu naturel,
+
+228
+0:09:32.328,000 --> 0:09:33,000
+en orbite autour du soleil.
+
+229
+0:09:33.65,000 --> 0:09:35,000
+Chaque point de cette simulation que vous pouvez voir
+
+230
+0:09:36.557,000 --> 0:09:38,000
+est un astéroïde réel.
+
+231
+0:09:39.32,000 --> 0:09:43,000
+Son orbite a été calculée à partir de son déplacement dans le ciel.
+
+232
+0:09:43.33,000 --> 0:09:46,000
+Les couleurs reflètent la composition des astéroïdes,
+
+233
+0:09:46.671,000 --> 0:09:48,000
+secs et minéraux au centre,
+
+234
+0:09:48.808,000 --> 0:09:5,000
+riches en eau et primitifs vers le bord,
+
+235
+0:09:51.395,000 --> 0:09:54,000
+des astéroïdes riches en eau qui pourraient avoir ensemencé
+
+236
+0:09:54.429,000 --> 0:09:56,000
+les océans et les mers que l'on trouve sur notre planète,
+
+237
+0:09:57.13,000 --> 0:10:,000
+lorsqu'ils ont bombardé la Terre à une époque ancienne.
+
+238
+0:10:02.127,000 --> 0:10:04,000
+Le LSSTsera capable d'affiner son champ de vision,
+
+239
+0:10:04.959,000 --> 0:10:05,000
+et pas seulement de voir large,
+
+240
+0:10:06.657,000 --> 0:10:07,000
+nous pourrons donc voir ces astéroïdes
+
+241
+0:10:08.465,000 --> 0:10:11,000
+bien au-delà des régions intérieures de notre système solaire,
+
+242
+0:10:11.652,000 --> 0:10:14,000
+des astéroïdes au-delà des orbites de Mars et Neptune,
+
+243
+0:10:15.465,000 --> 0:10:17,000
+des comètes et des astéroïdes qui pourraient se trouver
+
+244
+0:10:18.076,000 --> 0:10:2,000
+presque à une année-lumière de notre soleil.
+
+245
+0:10:20.956,000 --> 0:10:22,000
+Et en grossissant les détails de cette image,
+
+246
+0:10:23.565,000 --> 0:10:26,000
+en les grossissant d'un facteur de 10 à 100,
+
+247
+0:10:26.692,000 --> 0:10:28,000
+nous pourrons savoir s'il y a des traces de planètes
+
+248
+0:10:29.122,000 --> 0:10:32,000
+au-delà de l'orbite de Neptune,
+
+249
+0:10:32.711,000 --> 0:10:34,000
+détecter les astéroïdes qui risquent de frapper la Terre
+
+250
+0:10:35.448,000 --> 0:10:37,000
+bien avant qu'ils ne soient un danger,
+
+251
+0:10:37.753,000 --> 0:10:38,000
+et de découvrir, peut-être,
+
+252
+0:10:39.51,000 --> 0:10:42,000
+si notre soleil s'est formé tout seul ou bien dans un groupe d'étoiles.
+
+253
+0:10:42.98,000 --> 0:10:44,000
+Peut-être est-ce ces compagnons stellaires
+
+254
+0:10:45.772,000 --> 0:10:48,000
+qui ont influencé la formation de notre système solaire,
+
+255
+0:10:49.214,000 --> 0:10:52,000
+et peut-être est-ce pour cela que les systèmes comme le nôtre
+
+256
+0:10:52.654,000 --> 0:10:55,000
+semblent si rares.
+
+257
+0:10:56.094,000 --> 0:10:59,000
+Les distances et les changements, dans notre univers...
+
+258
+0:10:59.536,000 --> 0:11:02,000
+La distance équivaut au temps,
+
+259
+0:11:03.395,000 --> 0:11:05,000
+tout comme les changements dans le ciel.
+
+260
+0:11:05.454,000 --> 0:11:07,000
+Chaque mètre de la distance où porte votre regard,
+
+261
+0:11:08.244,000 --> 0:11:1,000
+ou plutôt chaque mètre qui vous sépare d'un objet,
+
+262
+0:11:10.729,000 --> 0:11:13,000
+vous fait regarder près d'un milliardième de seconde dans le passé.
+
+263
+0:11:14.318,000 --> 0:11:16,000
+Ce concept, cette notion de regarder dans le passé
+
+264
+0:11:16.931,000 --> 0:11:18,000
+a révolutionné nos idées sur l'univers,
+
+265
+0:11:19.562,000 --> 0:11:21,000
+et plus d'une fois.
+
+266
+0:11:21.842,000 --> 0:11:23,000
+La première fois fut en 1929,
+
+267
+0:11:24.654,000 --> 0:11:26,000
+lorsqu'un astronome appelé Edwin Hubble
+
+268
+0:11:26.746,000 --> 0:11:28,000
+a montré que l'univers était en expansion,
+
+269
+0:11:28.995,000 --> 0:11:3,000
+ce qui a conduit à l'idée du Big Bang.
+
+270
+0:11:31.708,000 --> 0:11:33,000
+Et les observations étaient simples :
+
+271
+0:11:34.29,000 --> 0:11:36,000
+seulement 24 galaxies
+
+272
+0:11:36.444,000 --> 0:11:39,000
+et un schéma fait à la main.
+
+273
+0:11:41.124,000 --> 0:11:45,000
+Mais rien que l'idée que plus une galaxie est lointaine,
+
+274
+0:11:45.784,000 --> 0:11:47,000
+plus elle s'éloigne rapidement,
+
+275
+0:11:47.854,000 --> 0:11:5,000
+a suffi à donner naissance à la cosmologie moderne.
+
+276
+0:11:51.053,000 --> 0:11:53,000
+Une deuxième révolution s'est produite 70 ans plus tard,
+
+277
+0:11:53.748,000 --> 0:11:55,000
+lorsque deux groupes d'astronomes ont montré
+
+278
+0:11:55.98,000 --> 0:11:57,000
+que l'univers n'était pas seulement en expansion,
+
+279
+0:11:58.403,000 --> 0:11:59,000
+il accélérait,
+
+280
+0:11:59.528,000 --> 0:12:02,000
+une chose aussi surprenante que de jeter une balle en l'air
+
+281
+0:12:02.871,000 --> 0:12:04,000
+et de s'apercevoir que plus elle monte,
+
+282
+0:12:05.683,000 --> 0:12:06,000
+plus elle prend de la vitesse.
+
+283
+0:12:07.461,000 --> 0:12:08,000
+Ils ont montré cela
+
+284
+0:12:08.97,000 --> 0:12:1,000
+en mesurant la luminosité des supernovae,
+
+285
+0:12:11.375,000 --> 0:12:12,000
+et la façon dont cette luminosité
+
+286
+0:12:13.209,000 --> 0:12:15,000
+diminue avec la distance.
+
+287
+0:12:15.38,000 --> 0:12:17,000
+Ces observations étaient plus complexes.
+
+288
+0:12:17.833,000 --> 0:12:2,000
+Elles nécessitaient de technologies et de télescopes nouveaux,
+
+289
+0:12:21.307,000 --> 0:12:24,000
+parce que les supernovae étaient dans des galaxies
+
+290
+0:12:24.897,000 --> 0:12:25,000
+2 000 fois plus éloignées
+
+291
+0:12:26.855,000 --> 0:12:28,000
+que celles utilisées par Hubble.
+
+292
+0:12:29.543,000 --> 0:12:33,000
+Et ça a pris trois ans de trouver seulement 42 supernovae,
+
+293
+0:12:34.164,000 --> 0:12:36,000
+parce qu'il ne se produit qu'une explosion de supernova
+
+294
+0:12:36.838,000 --> 0:12:38,000
+tous les cent ans dans une galaxie.
+
+295
+0:12:39.69,000 --> 0:12:41,000
+Trois ans pour trouver 42 supernovae
+
+296
+0:12:41.974,000 --> 0:12:45,000
+en fouillant des dizaines de milliers de galaxies.
+
+297
+0:12:45.993,000 --> 0:12:46,000
+Et une fois les données rassemblées,
+
+298
+0:12:47.844,000 --> 0:12:5,000
+voici ce qu'ils ont trouvé.
+
+299
+0:12:51.592,000 --> 0:12:53,000
+Ça n'a l'air de rien, comme ça,
+
+300
+0:12:54.303,000 --> 0:12:58,000
+mais c'est à cela que ressemble une révolution en physique :
+
+301
+0:12:58.418,000 --> 0:13:,000
+une ligne qui prévoit la luminosité d'une supernova
+
+302
+0:13:00.848,000 --> 0:13:02,000
+à 11 milliards d'années-lumière,
+
+303
+0:13:02.894,000 --> 0:13:05,000
+et une poignée de points qui ne sont pas sur la ligne.
+
+304
+0:13:06.69,000 --> 0:13:1,000
+Des petits écarts qui produisent de grandes conséquences.
+
+305
+0:13:10.803,000 --> 0:13:12,000
+Des petits écarts qui nous permettent de faire des découvertes,
+
+306
+0:13:13.751,000 --> 0:13:15,000
+comme la planète trouvée par Herschel.
+
+307
+0:13:16.574,000 --> 0:13:18,000
+Des petits écarts qui bouleversent
+
+308
+0:13:18.846,000 --> 0:13:2,000
+notre compréhension de l'univers.
+
+309
+0:13:21.247,000 --> 0:13:24,000
+42 supernovae, légèrement trop sombres,
+
+310
+0:13:24.711,000 --> 0:13:26,000
+ce qui veut dire légèrement plus loin,
+
+311
+0:13:26.72,000 --> 0:13:29,000
+ce qui implique que l'univers ne fait pas que s'étendre,
+
+312
+0:13:29.88,000 --> 0:13:32,000
+mais que cette expansion s'accélère,
+
+313
+0:13:33.21,000 --> 0:13:34,000
+et qui révèle un élément de notre univers
+
+314
+0:13:35.156,000 --> 0:13:37,000
+que nous appelons aujourd'hui l'énergie noire,
+
+315
+0:13:37.642,000 --> 0:13:39,000
+un élément qui alimente cette expansion,
+
+316
+0:13:40.151,000 --> 0:13:43,000
+et qui constitue 68 % de l'énergie
+
+317
+0:13:43.178,000 --> 0:13:45,000
+de notre univers.
+
+318
+0:13:46.751,000 --> 0:13:49,000
+A quoi ressemblera donc la prochaine révolution ?
+
+319
+0:13:50.365,000 --> 0:13:53,000
+Eh bien, qu'est-ce que l'énergie noire, et pourquoi existe-t-elle ?
+
+320
+0:13:53.624,000 --> 0:13:55,000
+Chacune de ces lignes représente un modèle différent
+
+321
+0:13:56.212,000 --> 0:13:58,000
+de ce que pourrait être l'énergie noire,
+
+322
+0:13:58.465,000 --> 0:14:,000
+en faisant apparaître ses propriétés.
+
+323
+0:14:00.946,000 --> 0:14:03,000
+Chacun est cohérent avec les 42 points,
+
+324
+0:14:04.569,000 --> 0:14:06,000
+mais les idées qui les sous-tendent
+
+325
+0:14:06.796,000 --> 0:14:08,000
+sont radicalement différentes.
+
+326
+0:14:08.899,000 --> 0:14:1,000
+Certains pensent que l'énergie noire
+
+327
+0:14:11.442,000 --> 0:14:12,000
+évolue avec le temps,
+
+328
+0:14:12.9,000 --> 0:14:14,000
+ou bien que ses propriétés sont différentes
+
+329
+0:14:15.188,000 --> 0:14:17,000
+suivant la direction dans laquelle on regarde le ciel.
+
+330
+0:14:17.944,000 --> 0:14:18,000
+D'autres introduisent des changements
+
+331
+0:14:19.767,000 --> 0:14:22,000
+dans la physique au niveau subatomique.
+
+332
+0:14:22.815,000 --> 0:14:24,000
+Ou alors, ils voient les choses en grand,
+
+333
+0:14:25.605,000 --> 0:14:28,000
+et modifient la façon dont la gravité et la relativité générale fonctionnent,
+
+334
+0:14:29.28,000 --> 0:14:32,000
+ou bien ils disent que notre univers n'est qu'un parmi d'autres,
+
+335
+0:14:32.321,000 --> 0:14:34,000
+un élément de ce mystérieux multivers.
+
+336
+0:14:34.559,000 --> 0:14:37,000
+Mais toutes ces idées, toutes ces théories
+
+337
+0:14:37.72,000 --> 0:14:4,000
+stupéfiantes et, je l'admets, parfois un peu folles,
+
+338
+0:14:41.219,000 --> 0:14:45,000
+sont toutes cohérentes avec nos 42 points.
+
+339
+0:14:45.246,000 --> 0:14:47,000
+Comment alors pouvons-nous espérer y voir clair
+
+340
+0:14:47.598,000 --> 0:14:49,000
+dans les années à venir ?
+
+341
+0:14:49.7,000 --> 0:14:52,000
+Eh bien, imaginez que je vous donne une paire de dés,
+
+342
+0:14:52.93,000 --> 0:14:53,000
+et que je vous demande de déterminer
+
+343
+0:14:54.929,000 --> 0:14:55,000
+si ces dés sont truqués ou pas.
+
+344
+0:14:56.796,000 --> 0:14:58,000
+Un seul lancer de dés ne vous dirait pas grand-chose,
+
+345
+0:14:59.73,000 --> 0:15:,000
+mais plus vous les lancez,
+
+346
+0:15:01.722,000 --> 0:15:02,000
+plus vous rassemblez de données,
+
+347
+0:15:03.644,000 --> 0:15:05,000
+plus vous sauriez avec certitude
+
+348
+0:15:05.816,000 --> 0:15:07,000
+non seulement s'ils sont truqués ou pas,
+
+349
+0:15:08.419,000 --> 0:15:11,000
+mais dans quelle mesure, et de quelle manière.
+
+350
+0:15:12.317,000 --> 0:15:15,000
+Il a fallu trois ans pour trouver seulement 42 supernovae
+
+351
+0:15:16.119,000 --> 0:15:19,000
+parce que les télescopes que nous avions construits
+
+352
+0:15:19.166,000 --> 0:15:22,000
+ne pouvaient explorer qu'une petite partie du ciel.
+
+353
+0:15:22.859,000 --> 0:15:24,000
+Avec le LSST, nous avons une nouvelle image complète
+
+354
+0:15:25.524,000 --> 0:15:28,000
+du ciel au -dessus du Chili toutes les trois nuits.
+
+355
+0:15:29.146,000 --> 0:15:31,000
+Lors de sa première nuit de fonctionnement,
+
+356
+0:15:31.609,000 --> 0:15:34,000
+il va trouver 10 fois plus de supernovae
+
+357
+0:15:34.759,000 --> 0:15:37,000
+que ce qu'il a fallu pour découvrir l'énergie noire.
+
+358
+0:15:37.9,000 --> 0:15:38,000
+Et ce nombre sera multiplié par mille
+
+359
+0:15:39.709,000 --> 0:15:41,000
+dans les quatre premiers mois :
+
+360
+0:15:42.202,000 --> 0:15:46,000
+1,5 milliard de supernovae à la fin de l'étude,
+
+361
+0:15:46.986,000 --> 0:15:49,000
+chaque supernova sera comme un lancer de dés,
+
+362
+0:15:50.171,000 --> 0:15:53,000
+et nous montrera un peu plus quelles théories de l'énergie noire
+
+363
+0:15:53.933,000 --> 0:15:56,000
+sont cohérentes, et quelles ne le sont pas.
+
+364
+0:15:57.741,000 --> 0:16:,000
+Et ainsi, en combinant ces données sur les supernovae
+
+365
+0:16:01.544,000 --> 0:16:03,000
+avec d'autres mesures de la cosmologie,
+
+366
+0:16:03.82,000 --> 0:16:05,000
+nous éliminerons progressivement les différentes idées
+
+367
+0:16:06.71,000 --> 0:16:07,000
+et théories de l'énergie noire,
+
+368
+0:16:08.686,000 --> 0:16:15,000
+jusqu'à ce que, je l'espère, à la fin de cette étude, vers 2030,
+
+369
+0:16:15.828,000 --> 0:16:17,000
+on puisse espérer voir
+
+370
+0:16:18.442,000 --> 0:16:2,000
+une théorie de notre univers,
+
+371
+0:16:20.584,000 --> 0:16:22,000
+une théorie fondamentale de la physique de notre univers,
+
+372
+0:16:23.363,000 --> 0:16:25,000
+émerger progressivement.
+
+373
+0:16:26.95,000 --> 0:16:28,000
+A plus d'un titre, les questions que j'ai posées
+
+374
+0:16:29.342,000 --> 0:16:33,000
+sont en réalité tout ce qu'il y a de plus simple.
+
+375
+0:16:33.373,000 --> 0:16:35,000
+Nous ne connaissons peut-être pas les réponses,
+
+376
+0:16:35.887,000 --> 0:16:38,000
+mais au moins savons-nous comment poser les questions.
+
+377
+0:16:39.309,000 --> 0:16:42,000
+Mais si explorer des dizaines de milliers de galaxies
+
+378
+0:16:42.427,000 --> 0:16:44,000
+a révélé 42 supernovae qui ont bouleversé
+
+379
+0:16:45.365,000 --> 0:16:48,000
+notre compréhension de l'univers,
+
+380
+0:16:48.844,000 --> 0:16:5,000
+quand nous travaillerons sur des milliards de galaxies
+
+381
+0:16:51.758,000 --> 0:16:53,000
+combien de fois encore allons-nous trouver
+
+382
+0:16:54.025,000 --> 0:16:59,000
+42 points qui ne correspondent pas à ce que nous attendions ?
+
+383
+0:16:59.183,000 --> 0:17:01,000
+Comme la planète trouvée par Herschel,
+
+384
+0:17:01.94,000 --> 0:17:03,000
+ou l'énergie noire,
+
+385
+0:17:04.357,000 --> 0:17:07,000
+ou la mécanique quantique, ou la relativité générale,
+
+386
+0:17:08.2,000 --> 0:17:1,000
+toutes ces idées qui sont venues parce que les données
+
+387
+0:17:10.894,000 --> 0:17:13,000
+ne correspondaient pas à ce que nous attendions.
+
+388
+0:17:13.999,000 --> 0:17:16,000
+Ce qui est si enthousiasmant pour les prochaines années
+
+389
+0:17:17.26,000 --> 0:17:18,000
+dans les données en astronomie,
+
+390
+0:17:18.91,000 --> 0:17:2,000
+c'est que nous ne savons même pas combien il y a de réponses
+
+391
+0:17:21.721,000 --> 0:17:23,000
+qui nous attendent au tournant,
+
+392
+0:17:23.871,000 --> 0:17:25,000
+des réponses sur nos origines ou sur notre évolution.
+
+393
+0:17:26.822,000 --> 0:17:27,000
+Combien y a-t-il de réponses
+
+394
+0:17:28.687,000 --> 0:17:3,000
+aux questions que nous ne savons même pas
+
+395
+0:17:31.211,000 --> 0:17:33,000
+que nous voulons poser ?
+
+396
+0:17:33.222,000 --> 0:17:34,000
+Merci.
+
+397
+0:17:35.169,000 --> 0:17:38,000
+(Applaudissements)
+

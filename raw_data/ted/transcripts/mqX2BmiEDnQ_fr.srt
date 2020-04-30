@@ -1,0 +1,928 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Charlotte Scavarda Relecteur: eric vautier
+
+2
+0:00:12.896,000 --> 0:00:15,000
+Nous connaissons mieux les autres planètes que la nôtre,
+
+3
+0:00:17.446,000 --> 0:00:2,000
+et aujourd'hui, je vais vous présenter un nouveau robot
+
+4
+0:00:20.693,000 --> 0:00:24,000
+qui nous aidera à mieux comprendre notre planète.
+
+5
+0:00:25.408,000 --> 0:00:26,000
+Il appartient à une catégorie
+
+6
+0:00:27.044,000 --> 0:00:31,000
+que les océanographes appellent drone de surface (USV en anglais).
+
+7
+0:00:32.665,000 --> 0:00:33,000
+Et il n'a pas besoin de carburant.
+
+8
+0:00:35.047,000 --> 0:00:38,000
+Il utilise l'énergie éolienne pour la propulsion.
+
+9
+0:00:39.005,000 --> 0:00:42,000
+Mais ça ne l'empêche pas de naviguer autour du monde pendant des mois.
+
+10
+0:00:43.474,000 --> 0:00:45,000
+Donc je veux vous expliquer pourquoi nous l'avons construit
+
+11
+0:00:46.376,000 --> 0:00:47,000
+et ce que cela signifie pour vous.
+
+12
+0:00:49.814,000 --> 0:00:53,000
+Il y a quelques années, j'étais sur un voilier dans le Pacifique,
+
+13
+0:00:54.422,000 --> 0:00:56,000
+naviguant de San Francisco jusqu'à Hawaï.
+
+14
+0:00:57.296,000 --> 0:01:,000
+Je venais de passer 10 ans à travailler sans relâche,
+
+15
+0:01:00.674,000 --> 0:01:03,000
+à développer des jeux vidéos pour des millions d'utilisateurs,
+
+16
+0:01:03.814,000 --> 0:01:06,000
+et je voulais prendre du recul pour avoir une vue d'ensemble
+
+17
+0:01:07.359,000 --> 0:01:08,000
+et prendre le temps de réfléchir.
+
+18
+0:01:09.918,000 --> 0:01:1,000
+J'étais le navigateur,
+
+19
+0:01:12.034,000 --> 0:01:15,000
+et un soir, après une longue session d'analyse des données météorologiques,
+
+20
+0:01:15.612,000 --> 0:01:16,000
+et de planification de notre trajet,
+
+21
+0:01:17.381,000 --> 0:01:2,000
+je suis sorti sur le pont et j'ai vu un coucher de soleil magnifique.
+
+22
+0:01:20.814,000 --> 0:01:21,000
+Et je me suis dit :
+
+23
+0:01:22.747,000 --> 0:01:25,000
+connaît-on vraiment nos océans ?
+
+24
+0:01:27.252,000 --> 0:01:3,000
+Autour de moi, il n'y avait que le Pacifique à perte de vue,
+
+25
+0:01:31.155,000 --> 0:01:33,000
+et les vagues secouaient notre bateau avec force,
+
+26
+0:01:33.494,000 --> 0:01:36,000
+un rappel constant de son pouvoir inimaginable.
+
+27
+0:01:37.291,000 --> 0:01:4,000
+A quel point connaît-on vraiment nos océans ?
+
+28
+0:01:41.235,000 --> 0:01:42,000
+J'ai voulu le découvrir.
+
+29
+0:01:44.362,000 --> 0:01:47,000
+J'ai vite appris que l'on ne sait pas grand-chose.
+
+30
+0:01:47.495,000 --> 0:01:5,000
+La première raison est la taille des océans,
+
+31
+0:01:50.645,000 --> 0:01:52,000
+qui occupent 70% de la planète,
+
+32
+0:01:53.01,000 --> 0:01:56,000
+mais on sait qu'ils influencent des systèmes complexes,
+
+33
+0:01:56.579,000 --> 0:01:57,000
+comme le climat mondial,
+
+34
+0:01:57.783,000 --> 0:01:59,000
+qui nous affectent tous au quotidien,
+
+35
+0:02:00.252,000 --> 0:02:01,000
+parfois de manière dramatique.
+
+36
+0:02:02.562,000 --> 0:02:05,000
+Pourtant, cette activité nous est presque invisible.
+
+37
+0:02:06.944,000 --> 0:02:09,000
+Les données sur l'océan sont très minces.
+
+38
+0:02:11.268,000 --> 0:02:16,000
+Sur terre, j'avais l'habitude d'avoir accès à beaucoup de capteurs,
+
+39
+0:02:16.396,000 --> 0:02:17,000
+des milliards de capteurs.
+
+40
+0:02:18.576,000 --> 0:02:24,000
+Mais en mer, les données in situ sont rares et coûtent cher.
+
+41
+0:02:25.535,000 --> 0:02:28,000
+Pourquoi ? Parce qu'elles reposent sur un nombre réduit de navires et bouées.
+
+42
+0:02:29.919,000 --> 0:02:31,000
+A ma grande surprise, ce nombre était vraiment petit.
+
+43
+0:02:33.329,000 --> 0:02:36,000
+L'agence américaine d'observation océanique et atmosphérique,
+
+44
+0:02:36.474,000 --> 0:02:37,000
+la NOAA en anglais,
+
+45
+0:02:38.121,000 --> 0:02:4,000
+ne possède que 16 navires,
+
+46
+0:02:40.969,000 --> 0:02:44,000
+et il y a moins de 200 bouées offshore dans le monde.
+
+47
+0:02:45.77,000 --> 0:02:46,000
+Les raisons sont simples :
+
+48
+0:02:47.465,000 --> 0:02:49,000
+l'océan ne pardonne pas,
+
+49
+0:02:49.629,000 --> 0:02:52,000
+et pour obtenir des données in situ, il faut des grands navires,
+
+50
+0:02:52.987,000 --> 0:02:54,000
+capables de transporter beaucoup de carburant
+
+51
+0:02:55.345,000 --> 0:02:56,000
+et un équipage important,
+
+52
+0:02:57.187,000 --> 0:03:,000
+et qui coûtent des centaines de millions de dollars chacun,
+
+53
+0:03:00.39,000 --> 0:03:05,000
+ou des bouées attachées au fond de l'océan par un câble de 6 km
+
+54
+0:03:06.513,000 --> 0:03:08,000
+et alourdies par des essieux de train,
+
+55
+0:03:09.532,000 --> 0:03:13,000
+qui sont dangereuses à poser et dont l'entretien coûte cher.
+
+56
+0:03:14.628,000 --> 0:03:15,000
+Et les satellites, alors ?
+
+57
+0:03:17.028,000 --> 0:03:18,000
+Les satellites sont formidables,
+
+58
+0:03:18.955,000 --> 0:03:2,000
+et ils nous ont appris beaucoup de choses
+
+59
+0:03:21.482,000 --> 0:03:23,000
+au cours des dernières décennies.
+
+60
+0:03:23.527,000 --> 0:03:25,000
+Mais le problème des satellites,
+
+61
+0:03:25.927,000 --> 0:03:29,000
+c'est qu'ils ne peuvent voir qu'un micromètre sous l'océan.
+
+62
+0:03:31.124,000 --> 0:03:34,000
+Ils ont des résolutions spatiales et temporelles médiocres,
+
+63
+0:03:35.45,000 --> 0:03:39,000
+et leurs signaux doivent être corrigés pour les nuages, l'influence de la Terre
+
+64
+0:03:39.748,000 --> 0:03:4,000
+et d'autres facteurs.
+
+65
+0:03:42.094,000 --> 0:03:45,000
+Donc que se passe-t-il dans les océans ?
+
+66
+0:03:45.929,000 --> 0:03:46,000
+Que veut-on mesurer ?
+
+67
+0:03:48.283,000 --> 0:03:5,000
+Comment un robot pourrait être utile ?
+
+68
+0:03:51.361,000 --> 0:03:54,000
+Concentrons-nous sur un petit cube dans l'océan.
+
+69
+0:03:55.283,000 --> 0:03:58,000
+Une des choses que l'on veut absolument comprendre est la surface,
+
+70
+0:03:58.615,000 --> 0:04:,000
+car la surface, quand on y pense,
+
+71
+0:04:00.678,000 --> 0:04:03,000
+est le lien entre l'air et la mer.
+
+72
+0:04:04.001,000 --> 0:04:08,000
+Toute l'énergie et tous les gaz doivent passer par la surface.
+
+73
+0:04:09.552,000 --> 0:04:11,000
+Notre soleil émet de l'énergie,
+
+74
+0:04:11.676,000 --> 0:04:13,000
+qui est absorbée par l'océan sous forme de chaleur,
+
+75
+0:04:14.596,000 --> 0:04:16,000
+puis partiellement rejetée dans l’atmosphère.
+
+76
+0:04:17.476,000 --> 0:04:21,000
+Les gaz de l'atmosphère, comme le CO2, sont dissous dans les océans.
+
+77
+0:04:22.099,000 --> 0:04:25,000
+En fait, 30% du CO2 mondial est absorbé.
+
+78
+0:04:26.593,000 --> 0:04:29,000
+Le plancton et les micro-organismes rejettent de l'oxygène dans l’atmosphère,
+
+79
+0:04:30.235,000 --> 0:04:34,000
+à tel point que chaque bouffée d'air que vous respirez provient de l'océan.
+
+80
+0:04:34.31,000 --> 0:04:37,000
+Une partie de la chaleur génère de l'évaporation et crée des nuages
+
+81
+0:04:37.512,000 --> 0:04:39,000
+puis engendre des précipitations.
+
+82
+0:04:39.754,000 --> 0:04:41,000
+Les gradients de pression créent le vent de surface,
+
+83
+0:04:42.177,000 --> 0:04:44,000
+qui transporte l'humidité à travers l'atmosphère.
+
+84
+0:04:45.731,000 --> 0:04:48,000
+Une autre partie de la chaleur atteint le fond de l'océan
+
+85
+0:04:49.588,000 --> 0:04:51,000
+et est stockée dans plusieurs strates,
+
+86
+0:04:51.74,000 --> 0:04:54,000
+l'océan sert donc de chaudière géante
+
+87
+0:04:55.069,000 --> 0:04:56,000
+et stocke toute cette énergie,
+
+88
+0:04:56.714,000 --> 0:04:59,000
+qui peut être libérée lors de phénomènes de courte durée comme les ouragans,
+
+89
+0:05:00.475,000 --> 0:05:02,000
+ou de longue durée, comme El Niño.
+
+90
+0:05:03.329,000 --> 0:05:07,000
+Ces strates peuvent être mélangées par les remontées d'eau
+
+91
+0:05:07.668,000 --> 0:05:1,000
+ou par les courants horizontaux, importants pour le transport de chaleur
+
+92
+0:05:11.138,000 --> 0:05:12,000
+des tropiques jusqu'aux pôles.
+
+93
+0:05:13.623,000 --> 0:05:15,000
+Et bien sûr, il y a les organismes marins,
+
+94
+0:05:16.446,000 --> 0:05:21,000
+qui occupent le plus grand écosystème de la planète en volume,
+
+95
+0:05:21.486,000 --> 0:05:24,000
+des micro-organismes aux poissons, sans oublier les mammifères marins,
+
+96
+0:05:25.212,000 --> 0:05:28,000
+comme les phoques, dauphins et baleines.
+
+97
+0:05:28.244,000 --> 0:05:31,000
+Mais tout ça nous est presque invisible.
+
+98
+0:05:33.821,000 --> 0:05:38,000
+Le défi de l'étude de ces variables à grande échelle
+
+99
+0:05:39.221,000 --> 0:05:41,000
+est l'énergie,
+
+100
+0:05:41.419,000 --> 0:05:45,000
+l'énergie qu'il faut pour déployer des capteurs dans les grands fonds.
+
+101
+0:05:46.597,000 --> 0:05:48,000
+Bien sûr, d'autres solutions ont été envisagées,
+
+102
+0:05:48.914,000 --> 0:05:5,000
+comme les systèmes actionnés par la houle,
+
+103
+0:05:50.915,000 --> 0:05:51,000
+les dériveurs de surface,
+
+104
+0:05:52.114,000 --> 0:05:54,000
+ou les moteurs électriques solaires,
+
+105
+0:05:54.86,000 --> 0:05:56,000
+chaque solution ayant ses compromis.
+
+106
+0:05:57.745,000 --> 0:06:,000
+Notre découverte s'est faite grâce à une chose surprenante :
+
+107
+0:06:00.935,000 --> 0:06:04,000
+la course au record de vitesse mondial en char à voile porté par le vent.
+
+108
+0:06:05.742,000 --> 0:06:07,000
+Il a fallu 10 ans de recherche et développement
+
+109
+0:06:08.067,000 --> 0:06:1,000
+pour inventer un nouveau type de voile
+
+110
+0:06:10.62,000 --> 0:06:13,000
+qui n'a besoin que de trois watts d'énergie pour être contrôlée
+
+111
+0:06:14.452,000 --> 0:06:17,000
+mais peut tout de même entraîner un véhicule autour du monde
+
+112
+0:06:17.564,000 --> 0:06:19,000
+avec une autonomie apparemment infinie.
+
+113
+0:06:20.262,000 --> 0:06:23,000
+En adaptant ce type de voile pour un véhicule marin,
+
+114
+0:06:24.356,000 --> 0:06:26,000
+nous avons obtenu la base d'un drone marin.
+
+115
+0:06:27.28,000 --> 0:06:29,000
+Toutefois, ils sont plus gros qu'ils en ont l'air.
+
+116
+0:06:29.664,000 --> 0:06:33,000
+Ils font 4,5 mètres de haut, 7 de large, 2 de profondeur.
+
+117
+0:06:34.198,000 --> 0:06:36,000
+Ce sont un peu des satellites de surface.
+
+118
+0:06:36.315,000 --> 0:06:39,000
+Ils sont chargés de toutes sortes de capteurs très précis
+
+119
+0:06:39.457,000 --> 0:06:4,000
+qui mesurent les variables importantes,
+
+120
+0:06:41.315,000 --> 0:06:43,000
+aussi bien océanographiques qu'atmosphériques,
+
+121
+0:06:44.331,000 --> 0:06:48,000
+et une liaison satellite directe transmet ces données haute-définition
+
+122
+0:06:48.712,000 --> 0:06:5,000
+au continent, en temps réel.
+
+123
+0:06:51.515,000 --> 0:06:53,000
+Notre équipe a beaucoup travaillé ces dernières années,
+
+124
+0:06:54.417,000 --> 0:06:57,000
+en effectuant des missions dans les mers les plus hostiles
+
+125
+0:06:57.949,000 --> 0:06:58,000
+de la planète,
+
+126
+0:06:59.197,000 --> 0:07:01,000
+de l'Arctique jusqu'aux tropiques.
+
+127
+0:07:01.686,000 --> 0:07:03,000
+Nous avons navigué jusqu'à la barrière de glace.
+
+128
+0:07:04.434,000 --> 0:07:06,000
+A travers des ouragans dans l'Atlantique.
+
+129
+0:07:07.159,000 --> 0:07:08,000
+Nous avons contourné le Cap Horn,
+
+130
+0:07:09.141,000 --> 0:07:12,000
+et slalomé entre les plateformes pétrolières du Golfe du Mexique.
+
+131
+0:07:12.4,000 --> 0:07:14,000
+Ce robot est sacrément coriace.
+
+132
+0:07:15.629,000 --> 0:07:17,000
+Regardons maintenant le travail que nous avons effectué
+
+133
+0:07:18.634,000 --> 0:07:19,000
+autour des îles Pribilof.
+
+134
+0:07:20.532,000 --> 0:07:23,000
+C'est un petit archipel au milieu de la mer de Béring,
+
+135
+0:07:24.475,000 --> 0:07:26,000
+entre les États-Unis et la Russie.
+
+136
+0:07:26.661,000 --> 0:07:29,000
+Dans la mer de Béring, on rencontre le colin d'Alaska,
+
+137
+0:07:30.055,000 --> 0:07:32,000
+un poisson à chair blanche qui ne vous dit peut-être rien,
+
+138
+0:07:32.77,000 --> 0:07:36,000
+mais que vous avez sans doute mangé dans des bâtonnets de poisson ou surimi.
+
+139
+0:07:37.451,000 --> 0:07:4,000
+Oui, le surimi ressemble à du crabe, mais en réalité, c'est du colin.
+
+140
+0:07:41.908,000 --> 0:07:44,000
+La pêche au colin est l'une des plus importantes des États-Unis,
+
+141
+0:07:44.942,000 --> 0:07:46,000
+en termes de valeur et de volume.
+
+142
+0:07:47.511,000 --> 0:07:5,000
+Environ 1,5 milliard de kilo de colin sont pêchés chaque année.
+
+143
+0:07:51.695,000 --> 0:07:53,000
+Donc ces dernières années, une flotte de drones marins
+
+144
+0:07:54.418,000 --> 0:07:56,000
+a durement travaillé dans la mer de Béring
+
+145
+0:07:56.668,000 --> 0:08:,000
+dans le but de déterminer la taille des stocks de colin.
+
+146
+0:08:01.147,000 --> 0:08:04,000
+C'est utile pour améliorer les quotas mis en place pour réguler la pêche,
+
+147
+0:08:04.942,000 --> 0:08:06,000
+et pour empêcher un déclin des stocks de colin,
+
+148
+0:08:07.14,000 --> 0:08:09,000
+et donc protéger cet écosystème fragile.
+
+149
+0:08:10.538,000 --> 0:08:14,000
+Les drones sondent la zone de pêche en utilisant l'acoustique,
+
+150
+0:08:15.371,000 --> 0:08:16,000
+c'est-à-dire un sonar.
+
+151
+0:08:16.919,000 --> 0:08:19,000
+Le sonar envoie une onde sonore vers le fond,
+
+152
+0:08:20.164,000 --> 0:08:22,000
+et l'écho de l'onde sonore qui provient
+
+153
+0:08:22.598,000 --> 0:08:23,000
+des fonds marins ou des bancs de poisson,
+
+154
+0:08:24.553,000 --> 0:08:26,000
+nous donne une idée de ce qu'il se passe sous l'eau.
+
+155
+0:08:27.849,000 --> 0:08:31,000
+Nos drones sont très forts pour cette tâche répétitive,
+
+156
+0:08:31.879,000 --> 0:08:34,000
+donc ils ont quadrillé la mer de Béring, jour après jour.
+
+157
+0:08:35.808,000 --> 0:08:41,000
+Aux îles Pribilof, on trouve aussi une grande colonie d'otaries à fourrure.
+
+158
+0:08:43.175,000 --> 0:08:47,000
+Dans les années 50, cette colonie comptait deux millions d'individus.
+
+159
+0:08:48.374,000 --> 0:08:51,000
+Malheureusement, cette population a rapidement diminué.
+
+160
+0:08:52.158,000 --> 0:08:54,000
+Elle a diminué de plus de 50%,
+
+161
+0:08:54.525,000 --> 0:08:56,000
+et continue de diminuer encore aujourd'hui.
+
+162
+0:08:57.904,000 --> 0:08:59,000
+Pour comprendre cela,
+
+163
+0:09:00.031,000 --> 0:09:03,000
+notre partenaire au laboratoire national des mammifères marins
+
+164
+0:09:03.544,000 --> 0:09:06,000
+a posé des balises GPS sur certaines otaries femelles,
+
+165
+0:09:06.905,000 --> 0:09:07,000
+collées à leur fourrure.
+
+166
+0:09:08.406,000 --> 0:09:11,000
+Ces balises mesurent la localisation et la profondeur,
+
+167
+0:09:11.431,000 --> 0:09:13,000
+et ont aussi une super petite caméra
+
+168
+0:09:13.787,000 --> 0:09:15,000
+qui est déclenchée par l'accélération soudaine.
+
+169
+0:09:16.207,000 --> 0:09:19,000
+Voici un film réalisé par une otarie artiste,
+
+170
+0:09:20.145,000 --> 0:09:23,000
+qui nous donne un aperçu jamais vu d'une partie de chasse sous-marine
+
+171
+0:09:23.91,000 --> 0:09:24,000
+au fin fond de l'Arctique,
+
+172
+0:09:25.748,000 --> 0:09:27,000
+et une photo de ce colin
+
+173
+0:09:28.144,000 --> 0:09:3,000
+juste avant qu'il ne soit dévoré.
+
+174
+0:09:30.934,000 --> 0:09:33,000
+Travailler dans l'Arctique est très dur, même pour un robot.
+
+175
+0:09:34.744,000 --> 0:09:36,000
+Ils ont dû survivre à une tempête de neige en août
+
+176
+0:09:37.358,000 --> 0:09:4,000
+et aux interférences des passants,
+
+177
+0:09:40.873,000 --> 0:09:43,000
+comme ce petit phoque tacheté qui profite du voyage.
+
+178
+0:09:44.155,000 --> 0:09:46,000
+(Rires)
+
+179
+0:09:47.378,000 --> 0:09:53,000
+Les balises des otaries ont enregistré plus de 200 000 plongées cette saison,
+
+180
+0:09:54.395,000 --> 0:09:55,000
+et si on regarde de plus près,
+
+181
+0:09:56.378,000 --> 0:10:,000
+on peut voir le trajet de chaque otarie et les plongées répétitives.
+
+182
+0:10:01.413,000 --> 0:10:03,000
+Nous sommes sur le point de décoder ce qu'il se passe
+
+183
+0:10:04.294,000 --> 0:10:05,000
+dans cette zone de chasse,
+
+184
+0:10:05.997,000 --> 0:10:06,000
+et c'est magnifique.
+
+185
+0:10:08.362,000 --> 0:10:11,000
+Si l'on superpose les données acoustiques collectées par les drones,
+
+186
+0:10:11.789,000 --> 0:10:13,000
+on commence à comprendre.
+
+187
+0:10:13.937,000 --> 0:10:17,000
+Quand les otaries quittent les îles et nagent de gauche à droite,
+
+188
+0:10:18.333,000 --> 0:10:22,000
+on voit qu'elles ne plongent qu'à une profondeur de 20 mètres,
+
+189
+0:10:22.77,000 --> 0:10:26,000
+ce que le drone identifie comme la zone où vivent les jeunes colins
+
+190
+0:10:26.883,000 --> 0:10:28,000
+avec une faible teneur en calories.
+
+191
+0:10:28.99,000 --> 0:10:32,000
+Les otaries nagent ensuite beaucoup plus loin et plus profond
+
+192
+0:10:33.138,000 --> 0:10:37,000
+dans une zone où le drone identifie des colins adultes plus gros,
+
+193
+0:10:37.834,000 --> 0:10:39,000
+qui sont des poissons plus nourrissants.
+
+194
+0:10:40.117,000 --> 0:10:44,000
+Malheureusement, les calories dépensées par les mères otaries
+
+195
+0:10:44.263,000 --> 0:10:46,000
+pour nager sur cette distance supplémentaire,
+
+196
+0:10:46.41,000 --> 0:10:5,000
+ne leur laissent pas assez d'énergie pour allaiter leurs petits sur l'île,
+
+197
+0:10:51.35,000 --> 0:10:53,000
+ce qui mène à un déclin de la population.
+
+198
+0:10:54.408,000 --> 0:10:59,000
+De plus, les drones indiquent que la température de l'eau autour de l'île
+
+199
+0:10:59.779,000 --> 0:11:,000
+a beaucoup augmenté.
+
+200
+0:11:01.488,000 --> 0:11:05,000
+C'est peut-être une des raisons qui poussent le colin à aller vers le nord
+
+201
+0:11:05.812,000 --> 0:11:07,000
+et à se séparer pour chercher des régions plus froides.
+
+202
+0:11:08.725,000 --> 0:11:09,000
+On est en train d'analyser ces données,
+
+203
+0:11:10.58,000 --> 0:11:13,000
+mais on peut déjà voir que certaines pièces du puzzle
+
+204
+0:11:13.937,000 --> 0:11:14,000
+du mystère des otaries
+
+205
+0:11:15.37,000 --> 0:11:16,000
+commencent à devenir claires.
+
+206
+0:11:18.69,000 --> 0:11:2,000
+Mais prenons du recul :
+
+207
+0:11:20.803,000 --> 0:11:21,000
+nous sommes aussi des mammifères.
+
+208
+0:11:23.032,000 --> 0:11:26,000
+Et l'océan nous donne jusqu'à 20 kg de poisson par humain par an.
+
+209
+0:11:26.88,000 --> 0:11:29,000
+Alors que l'on vide nos stocks de poisson, que peut nous apprendre
+
+210
+0:11:30.033,000 --> 0:11:31,000
+l'histoire des otaries ?
+
+211
+0:11:32.719,000 --> 0:11:34,000
+Et au-delà des poissons, l'océan nous affecte quotidiennement
+
+212
+0:11:35.622,000 --> 0:11:36,000
+car il est à l'origine des climats,
+
+213
+0:11:37.514,000 --> 0:11:39,000
+qui ont un effet sur l'agriculture mondiale
+
+214
+0:11:40.299,000 --> 0:11:43,000
+ou peuvent causer la destruction de vies et de biens
+
+215
+0:11:43.952,000 --> 0:11:46,000
+à travers les ouragans, la chaleur extrême ou les inondations.
+
+216
+0:11:47.756,000 --> 0:11:5,000
+Nos océans sont quasiment inexplorés et peu échantillonnés,
+
+217
+0:11:51.56,000 --> 0:11:55,000
+et aujourd'hui, nous connaissons mieux les autres planètes que la nôtre.
+
+218
+0:11:56.021,000 --> 0:11:59,000
+Mais si on divisait cet océan en des carrés de six degrés de côté,
+
+219
+0:11:59.833,000 --> 0:12:01,000
+chacun d'environ 650 km de long,
+
+220
+0:12:03.539,000 --> 0:12:05,000
+on obtiendrait près de 1 000 carrés.
+
+221
+0:12:05.717,000 --> 0:12:07,000
+Donc petit à petit, avec nos partenaires,
+
+222
+0:12:08.043,000 --> 0:12:12,000
+nous déployons un drone dans chacun de ces carrés,
+
+223
+0:12:12.159,000 --> 0:12:14,000
+en espérant qu'en couvrant la surface de la planète,
+
+224
+0:12:14.605,000 --> 0:12:17,000
+nous aurons un meilleur aperçu de ces systèmes planétaires
+
+225
+0:12:17.809,000 --> 0:12:18,000
+qui affectent l'humanité.
+
+226
+0:12:19.603,000 --> 0:12:22,000
+Nous utilisons des robots pour étudier des planètes de notre système solaire
+
+227
+0:12:23.239,000 --> 0:12:24,000
+depuis un certain temps.
+
+228
+0:12:24.939,000 --> 0:12:26,000
+Il est donc temps de quantifier notre propre planète,
+
+229
+0:12:28.44,000 --> 0:12:31,000
+car on ne peut pas résoudre ce que l'on ne peut pas mesurer,
+
+230
+0:12:32.303,000 --> 0:12:34,000
+et on ne peut pas se préparer pour l'inconnu.
+
+231
+0:12:35.761,000 --> 0:12:36,000
+Merci.
+
+232
+0:12:36.945,000 --> 0:12:39,000
+(Applaudissements)
+

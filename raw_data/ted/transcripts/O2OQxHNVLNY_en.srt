@@ -1,0 +1,828 @@
+1
+0:00:15.26,000 --> 0:00:18,000
+Many believe driving is an activity
+
+2
+0:00:18.26,000 --> 0:00:2,000
+solely reserved for those who can see.
+
+3
+0:00:20.26,000 --> 0:00:23,000
+A blind person driving a vehicle safely and independently
+
+4
+0:00:23.26,000 --> 0:00:26,000
+was thought to be an impossible task, until now.
+
+5
+0:00:26.26,000 --> 0:00:28,000
+Hello, my name is Dennis Hong,
+
+6
+0:00:28.26,000 --> 0:00:3,000
+and we're bringing freedom and independence to the blind
+
+7
+0:00:30.26,000 --> 0:00:33,000
+by building a vehicle for the visually impaired.
+
+8
+0:00:33.26,000 --> 0:00:36,000
+So before I talk about this car for the blind,
+
+9
+0:00:36.26,000 --> 0:00:38,000
+let me briefly tell you about another project that I worked on
+
+10
+0:00:38.26,000 --> 0:00:4,000
+called the DARPA Urban Challenge.
+
+11
+0:00:40.26,000 --> 0:00:42,000
+Now this was about building a robotic car
+
+12
+0:00:42.26,000 --> 0:00:44,000
+that can drive itself.
+
+13
+0:00:44.26,000 --> 0:00:46,000
+You press start, nobody touches anything,
+
+14
+0:00:46.26,000 --> 0:00:49,000
+and it can reach its destination fully autonomously.
+
+15
+0:00:49.26,000 --> 0:00:52,000
+So in 2007, our team won half a million dollars
+
+16
+0:00:52.26,000 --> 0:00:54,000
+by placing third place in this competition.
+
+17
+0:00:54.26,000 --> 0:00:56,000
+So about that time,
+
+18
+0:00:56.26,000 --> 0:00:58,000
+the National Federation of the Blind, or NFB,
+
+19
+0:00:58.26,000 --> 0:01:,000
+challenged the research committee
+
+20
+0:01:00.26,000 --> 0:01:02,000
+about who can develop a car
+
+21
+0:01:02.26,000 --> 0:01:04,000
+that lets a blind person drive safely and independently.
+
+22
+0:01:04.26,000 --> 0:01:06,000
+We decided to give it a try,
+
+23
+0:01:06.26,000 --> 0:01:08,000
+because we thought, "Hey, how hard could it be?"
+
+24
+0:01:08.26,000 --> 0:01:1,000
+We have already an autonomous vehicle.
+
+25
+0:01:10.26,000 --> 0:01:12,000
+We just put a blind person in it and we're done, right?
+
+26
+0:01:12.26,000 --> 0:01:14,000
+(Laughter)
+
+27
+0:01:14.26,000 --> 0:01:16,000
+We couldn't have been more wrong.
+
+28
+0:01:16.26,000 --> 0:01:18,000
+What NFB wanted
+
+29
+0:01:18.26,000 --> 0:01:21,000
+was not a vehicle that can drive a blind person around,
+
+30
+0:01:21.26,000 --> 0:01:24,000
+but a vehicle where a blind person can make active decisions and drive.
+
+31
+0:01:24.26,000 --> 0:01:26,000
+So we had to throw everything out the window
+
+32
+0:01:26.26,000 --> 0:01:28,000
+and start from scratch.
+
+33
+0:01:28.26,000 --> 0:01:3,000
+So to test this crazy idea,
+
+34
+0:01:30.26,000 --> 0:01:32,000
+we developed a small dune buggy prototype vehicle
+
+35
+0:01:32.26,000 --> 0:01:34,000
+to test the feasibility.
+
+36
+0:01:34.26,000 --> 0:01:36,000
+And in the summer of 2009,
+
+37
+0:01:36.26,000 --> 0:01:39,000
+we invited dozens of blind youth from all over the country
+
+38
+0:01:39.26,000 --> 0:01:41,000
+and gave them a chance to take it for a spin.
+
+39
+0:01:41.26,000 --> 0:01:43,000
+It was an absolutely amazing experience.
+
+40
+0:01:43.26,000 --> 0:01:45,000
+But the problem with this car was
+
+41
+0:01:45.26,000 --> 0:01:48,000
+it was designed to only be driven in a very controlled environment,
+
+42
+0:01:48.26,000 --> 0:01:5,000
+in a flat, closed-off parking lot --
+
+43
+0:01:50.26,000 --> 0:01:52,000
+even the lanes defined by red traffic cones.
+
+44
+0:01:52.26,000 --> 0:01:54,000
+So with this success,
+
+45
+0:01:54.26,000 --> 0:01:56,000
+we decided to take the next big step,
+
+46
+0:01:56.26,000 --> 0:01:59,000
+to develop a real car that can be driven on real roads.
+
+47
+0:01:59.26,000 --> 0:02:01,000
+So how does it work?
+
+48
+0:02:01.26,000 --> 0:02:03,000
+Well, it's a rather complex system,
+
+49
+0:02:03.26,000 --> 0:02:06,000
+but let me try to explain it, maybe simplify it.
+
+50
+0:02:06.26,000 --> 0:02:08,000
+So we have three steps.
+
+51
+0:02:08.26,000 --> 0:02:1,000
+We have perception, computation
+
+52
+0:02:10.26,000 --> 0:02:12,000
+and non-visual interfaces.
+
+53
+0:02:12.26,000 --> 0:02:14,000
+Now obviously the driver cannot see,
+
+54
+0:02:14.26,000 --> 0:02:16,000
+so the system needs to perceive the environment
+
+55
+0:02:16.26,000 --> 0:02:18,000
+and gather information for the driver.
+
+56
+0:02:18.26,000 --> 0:02:21,000
+For that, we use an initial measurement unit.
+
+57
+0:02:21.26,000 --> 0:02:23,000
+So it measures acceleration, angular acceleration --
+
+58
+0:02:23.26,000 --> 0:02:25,000
+like a human ear, inner ear.
+
+59
+0:02:25.26,000 --> 0:02:27,000
+We fuse that information with a GPS unit
+
+60
+0:02:27.26,000 --> 0:02:3,000
+to get an estimate of the location of the car.
+
+61
+0:02:30.26,000 --> 0:02:33,000
+We also use two cameras to detect the lanes of the road.
+
+62
+0:02:33.26,000 --> 0:02:35,000
+And we also use three laser range finders.
+
+63
+0:02:35.26,000 --> 0:02:38,000
+The lasers scan the environment to detect obstacles --
+
+64
+0:02:38.26,000 --> 0:02:4,000
+a car approaching from the front, the back
+
+65
+0:02:40.26,000 --> 0:02:43,000
+and also any obstacles that run into the roads,
+
+66
+0:02:43.26,000 --> 0:02:45,000
+any obstacles around the vehicle.
+
+67
+0:02:45.26,000 --> 0:02:48,000
+So all this vast amount of information is then fed into the computer,
+
+68
+0:02:48.26,000 --> 0:02:5,000
+and the computer can do two things.
+
+69
+0:02:50.26,000 --> 0:02:53,000
+One is, first of all, process this information
+
+70
+0:02:53.26,000 --> 0:02:55,000
+to have an understanding of the environment --
+
+71
+0:02:55.26,000 --> 0:02:58,000
+these are the lanes of the road, there's the obstacles --
+
+72
+0:02:58.26,000 --> 0:03:,000
+and convey this information to the driver.
+
+73
+0:03:00.26,000 --> 0:03:02,000
+The system is also smart enough
+
+74
+0:03:02.26,000 --> 0:03:04,000
+to figure out the safest way to operate the car.
+
+75
+0:03:04.26,000 --> 0:03:06,000
+So we can also generate instructions
+
+76
+0:03:06.26,000 --> 0:03:08,000
+on how to operate the controls of the vehicle.
+
+77
+0:03:08.26,000 --> 0:03:1,000
+But the problem is this: How do we convey
+
+78
+0:03:10.26,000 --> 0:03:12,000
+this information and instructions
+
+79
+0:03:12.26,000 --> 0:03:14,000
+to a person who cannot see
+
+80
+0:03:14.26,000 --> 0:03:17,000
+fast enough and accurate enough so he can drive?
+
+81
+0:03:17.26,000 --> 0:03:19,000
+So for this, we developed many different types
+
+82
+0:03:19.26,000 --> 0:03:22,000
+of non-visual user interface technology.
+
+83
+0:03:22.26,000 --> 0:03:24,000
+So starting from a three-dimensional ping sound system,
+
+84
+0:03:24.26,000 --> 0:03:26,000
+a vibrating vest,
+
+85
+0:03:26.26,000 --> 0:03:29,000
+a click wheel with voice commands, a leg strip,
+
+86
+0:03:29.26,000 --> 0:03:31,000
+even a shoe that applies pressure to the foot.
+
+87
+0:03:31.26,000 --> 0:03:33,000
+But today we're going to talk about
+
+88
+0:03:33.26,000 --> 0:03:35,000
+three of these non-visual user interfaces.
+
+89
+0:03:35.26,000 --> 0:03:38,000
+Now the first interface is called a DriveGrip.
+
+90
+0:03:38.26,000 --> 0:03:4,000
+So these are a pair of gloves,
+
+91
+0:03:40.26,000 --> 0:03:42,000
+and it has vibrating elements on the knuckle part
+
+92
+0:03:42.26,000 --> 0:03:45,000
+so you can convey instructions about how to steer --
+
+93
+0:03:45.26,000 --> 0:03:47,000
+the direction and the intensity.
+
+94
+0:03:47.26,000 --> 0:03:49,000
+Another device is called SpeedStrip.
+
+95
+0:03:49.26,000 --> 0:03:52,000
+So this is a chair -- as a matter of fact, it's actually a massage chair.
+
+96
+0:03:52.26,000 --> 0:03:56,000
+We gut it out, and we rearrange the vibrating elements in different patterns,
+
+97
+0:03:56.26,000 --> 0:03:59,000
+and we actuate them to convey information about the speed,
+
+98
+0:03:59.26,000 --> 0:04:02,000
+and also instructions how to use the gas and the brake pedal.
+
+99
+0:04:02.26,000 --> 0:04:04,000
+So over here, you can see
+
+100
+0:04:04.26,000 --> 0:04:06,000
+how the computer understands the environment,
+
+101
+0:04:06.26,000 --> 0:04:08,000
+and because you cannot see the vibration,
+
+102
+0:04:08.26,000 --> 0:04:11,000
+we actually put red LED's on the driver so that you can see what's happening.
+
+103
+0:04:11.26,000 --> 0:04:13,000
+This is the sensory data,
+
+104
+0:04:13.26,000 --> 0:04:16,000
+and that data is transferred to the devices through the computer.
+
+105
+0:04:16.26,000 --> 0:04:18,000
+So these two devices, DriveGrip and SpeedStrip,
+
+106
+0:04:18.26,000 --> 0:04:2,000
+are very effective.
+
+107
+0:04:20.26,000 --> 0:04:22,000
+But the problem is
+
+108
+0:04:22.26,000 --> 0:04:24,000
+these are instructional cue devices.
+
+109
+0:04:24.26,000 --> 0:04:26,000
+So this is not really freedom, right?
+
+110
+0:04:26.26,000 --> 0:04:28,000
+The computer tells you how to drive --
+
+111
+0:04:28.26,000 --> 0:04:3,000
+turn left, turn right, speed up, stop.
+
+112
+0:04:30.26,000 --> 0:04:32,000
+We call this the "backseat-driver problem."
+
+113
+0:04:32.26,000 --> 0:04:35,000
+So we're moving away from the instructional cue devices,
+
+114
+0:04:35.26,000 --> 0:04:37,000
+and we're now focusing more
+
+115
+0:04:37.26,000 --> 0:04:39,000
+on the informational devices.
+
+116
+0:04:39.26,000 --> 0:04:41,000
+A good example for this informational non-visual user interface
+
+117
+0:04:41.26,000 --> 0:04:43,000
+is called AirPix.
+
+118
+0:04:43.26,000 --> 0:04:45,000
+So think of it as a monitor for the blind.
+
+119
+0:04:45.26,000 --> 0:04:47,000
+So it's a small tablet, has many holes in it,
+
+120
+0:04:47.26,000 --> 0:04:49,000
+and compressed air comes out,
+
+121
+0:04:49.26,000 --> 0:04:51,000
+so it can actually draw images.
+
+122
+0:04:51.26,000 --> 0:04:53,000
+So even though you are blind, you can put your hand over it,
+
+123
+0:04:53.26,000 --> 0:04:55,000
+you can see the lanes of the road and obstacles.
+
+124
+0:04:55.26,000 --> 0:04:58,000
+Actually, you can also change the frequency of the air coming out
+
+125
+0:04:58.26,000 --> 0:05:,000
+and possibly the temperature.
+
+126
+0:05:00.26,000 --> 0:05:03,000
+So it's actually a multi-dimensional user interface.
+
+127
+0:05:03.26,000 --> 0:05:06,000
+So here you can see the left camera, the right camera from the vehicle
+
+128
+0:05:06.26,000 --> 0:05:09,000
+and how the computer interprets that and sends that information to the AirPix.
+
+129
+0:05:09.26,000 --> 0:05:11,000
+For this, we're showing a simulator,
+
+130
+0:05:11.26,000 --> 0:05:14,000
+a blind person driving using the AirPix.
+
+131
+0:05:14.26,000 --> 0:05:17,000
+This simulator was also very useful for training the blind drivers
+
+132
+0:05:17.26,000 --> 0:05:19,000
+and also quickly testing different types of ideas
+
+133
+0:05:19.26,000 --> 0:05:21,000
+for different types of non-visual user interfaces.
+
+134
+0:05:21.26,000 --> 0:05:23,000
+So basically that's how it works.
+
+135
+0:05:23.26,000 --> 0:05:25,000
+So just a month ago,
+
+136
+0:05:25.26,000 --> 0:05:27,000
+on January 29th,
+
+137
+0:05:27.26,000 --> 0:05:29,000
+we unveiled this vehicle for the very first time to the public
+
+138
+0:05:29.26,000 --> 0:05:32,000
+at the world-famous Daytona International Speedway
+
+139
+0:05:32.26,000 --> 0:05:34,000
+during the Rolex 24 racing event.
+
+140
+0:05:34.26,000 --> 0:05:37,000
+We also had some surprises. Let's take a look.
+
+141
+0:05:37.26,000 --> 0:05:47,000
+(Music)
+
+142
+0:05:47.26,000 --> 0:05:51,000
+(Video) Announcer: This is an historic day in January.
+
+143
+0:05:51.26,000 --> 0:05:55,000
+He's coming up to the grandstand, fellow Federationists.
+
+144
+0:05:55.26,000 --> 0:06:01,000
+(Cheering)
+
+145
+0:06:01.26,000 --> 0:06:04,000
+(Honking)
+
+146
+0:06:04.26,000 --> 0:06:06,000
+There's the grandstand now.
+
+147
+0:06:06.26,000 --> 0:06:1,000
+And he's [unclear] following that van that's out in front of him.
+
+148
+0:06:10.26,000 --> 0:06:12,000
+Well there comes the first box.
+
+149
+0:06:12.26,000 --> 0:06:15,000
+Now let's see if Mark avoids it.
+
+150
+0:06:15.26,000 --> 0:06:18,000
+He does. He passes it on the right.
+
+151
+0:06:20.26,000 --> 0:06:23,000
+Third box is out. The fourth box is out.
+
+152
+0:06:23.26,000 --> 0:06:26,000
+And he's perfectly making his way between the two.
+
+153
+0:06:26.26,000 --> 0:06:28,000
+He's closing in on the van
+
+154
+0:06:28.26,000 --> 0:06:31,000
+to make the moving pass.
+
+155
+0:06:32.26,000 --> 0:06:34,000
+Well this is what it's all about,
+
+156
+0:06:34.26,000 --> 0:06:38,000
+this kind of dynamic display of audacity and ingenuity.
+
+157
+0:06:39.26,000 --> 0:06:42,000
+He's approaching the end of the run,
+
+158
+0:06:42.26,000 --> 0:06:47,000
+makes his way between the barrels that are set up there.
+
+159
+0:06:47.26,000 --> 0:06:5,000
+(Honking)
+
+160
+0:06:50.26,000 --> 0:06:53,000
+(Applause)
+
+161
+0:06:56.26,000 --> 0:06:58,000
+Dennis Hong: I'm so happy for you.
+
+162
+0:06:58.26,000 --> 0:07:,000
+Mark's going to give me a ride back to the hotel.
+
+163
+0:07:00.26,000 --> 0:07:02,000
+Mark Riccobono: Yes.
+
+164
+0:07:05.26,000 --> 0:07:14,000
+(Applause)
+
+165
+0:07:14.26,000 --> 0:07:16,000
+DH: So since we started this project,
+
+166
+0:07:16.26,000 --> 0:07:19,000
+we've been getting hundreds of letters, emails, phone calls
+
+167
+0:07:19.26,000 --> 0:07:21,000
+from people from all around the world.
+
+168
+0:07:21.26,000 --> 0:07:24,000
+Letters thanking us, but sometimes you also get funny letters like this one:
+
+169
+0:07:24.26,000 --> 0:07:28,000
+"Now I understand why there is Braille on a drive-up ATM machine."
+
+170
+0:07:28.26,000 --> 0:07:3,000
+(Laughter)
+
+171
+0:07:30.26,000 --> 0:07:32,000
+But sometimes --
+
+172
+0:07:32.26,000 --> 0:07:34,000
+(Laughter)
+
+173
+0:07:34.26,000 --> 0:07:36,000
+But sometimes I also do get --
+
+174
+0:07:36.26,000 --> 0:07:38,000
+I wouldn't call it hate mail --
+
+175
+0:07:38.26,000 --> 0:07:4,000
+but letters of really strong concern:
+
+176
+0:07:40.26,000 --> 0:07:42,000
+"Dr. Hong, are you insane,
+
+177
+0:07:42.26,000 --> 0:07:44,000
+trying to put blind people on the road?
+
+178
+0:07:44.26,000 --> 0:07:46,000
+You must be out of your mind."
+
+179
+0:07:46.26,000 --> 0:07:48,000
+But this vehicle is a prototype vehicle,
+
+180
+0:07:48.26,000 --> 0:07:5,000
+and it's not going to be on the road
+
+181
+0:07:50.26,000 --> 0:07:52,000
+until it's proven as safe as, or safer than, today's vehicle.
+
+182
+0:07:52.26,000 --> 0:07:55,000
+And I truly believe that this can happen.
+
+183
+0:07:55.26,000 --> 0:07:57,000
+But still, will the society,
+
+184
+0:07:57.26,000 --> 0:07:59,000
+would they accept such a radical idea?
+
+185
+0:07:59.26,000 --> 0:08:01,000
+How are we going to handle insurance?
+
+186
+0:08:01.26,000 --> 0:08:03,000
+How are we going to issue driver's licenses?
+
+187
+0:08:03.26,000 --> 0:08:06,000
+There's many of these different kinds of hurdles besides technology challenges
+
+188
+0:08:06.26,000 --> 0:08:09,000
+that we need to address before this becomes a reality.
+
+189
+0:08:09.26,000 --> 0:08:11,000
+Of course, the main goal of this project
+
+190
+0:08:11.26,000 --> 0:08:13,000
+is to develop a car for the blind.
+
+191
+0:08:13.26,000 --> 0:08:15,000
+But potentially more important than this
+
+192
+0:08:15.26,000 --> 0:08:18,000
+is the tremendous value of the spin-off technology
+
+193
+0:08:18.26,000 --> 0:08:2,000
+that can come from this project.
+
+194
+0:08:20.26,000 --> 0:08:22,000
+The sensors that are used can see through the dark,
+
+195
+0:08:22.26,000 --> 0:08:24,000
+the fog and rain.
+
+196
+0:08:24.26,000 --> 0:08:26,000
+And together with this new type of interfaces,
+
+197
+0:08:26.26,000 --> 0:08:28,000
+we can use these technologies
+
+198
+0:08:28.26,000 --> 0:08:3,000
+and apply them to safer cars for sighted people.
+
+199
+0:08:30.26,000 --> 0:08:33,000
+Or for the blind, everyday home appliances --
+
+200
+0:08:33.26,000 --> 0:08:35,000
+in the educational setting, in the office setting.
+
+201
+0:08:35.26,000 --> 0:08:38,000
+Just imagine, in a classroom a teacher writes on the blackboard
+
+202
+0:08:38.26,000 --> 0:08:41,000
+and a blind student can see what's written and read
+
+203
+0:08:41.26,000 --> 0:08:43,000
+using these non-visual interfaces.
+
+204
+0:08:43.26,000 --> 0:08:46,000
+This is priceless.
+
+205
+0:08:46.26,000 --> 0:08:49,000
+So today, the things I've showed you today, is just the beginning.
+
+206
+0:08:49.26,000 --> 0:08:51,000
+Thank you very much.
+
+207
+0:08:51.26,000 --> 0:09:02,000
+(Applause)
+

@@ -1,0 +1,628 @@
+1
+0:00:12.861,000 --> 0:00:15,000
+Hello, I'm Joy, a poet of code,
+
+2
+0:00:16.019,000 --> 0:00:2,000
+on a mission to stop an unseen force that's rising,
+
+3
+0:00:21.036,000 --> 0:00:23,000
+a force that I called "the coded gaze,"
+
+4
+0:00:23.916,000 --> 0:00:26,000
+my term for algorithmic bias.
+
+5
+0:00:27.249,000 --> 0:00:31,000
+Algorithmic bias, like human bias, results in unfairness.
+
+6
+0:00:31.573,000 --> 0:00:37,000
+However, algorithms, like viruses, can spread bias on a massive scale
+
+7
+0:00:37.619,000 --> 0:00:38,000
+at a rapid pace.
+
+8
+0:00:39.763,000 --> 0:00:43,000
+Algorithmic bias can also lead to exclusionary experiences
+
+9
+0:00:44.174,000 --> 0:00:46,000
+and discriminatory practices.
+
+10
+0:00:46.326,000 --> 0:00:48,000
+Let me show you what I mean.
+
+11
+0:00:48.8,000 --> 0:00:5,000
+(Video) Joy Buolamwini: Hi, camera. I've got a face.
+
+12
+0:00:51.982,000 --> 0:00:52,000
+Can you see my face?
+
+13
+0:00:53.871,000 --> 0:00:54,000
+No-glasses face?
+
+14
+0:00:55.521,000 --> 0:00:57,000
+You can see her face.
+
+15
+0:00:58.057,000 --> 0:01:,000
+What about my face?
+
+16
+0:01:03.71,000 --> 0:01:06,000
+I've got a mask. Can you see my mask?
+
+17
+0:01:08.294,000 --> 0:01:1,000
+Joy Buolamwini: So how did this happen?
+
+18
+0:01:10.683,000 --> 0:01:13,000
+Why am I sitting in front of a computer
+
+19
+0:01:13.848,000 --> 0:01:14,000
+in a white mask,
+
+20
+0:01:15.296,000 --> 0:01:18,000
+trying to be detected by a cheap webcam?
+
+21
+0:01:18.97,000 --> 0:01:2,000
+Well, when I'm not fighting the coded gaze
+
+22
+0:01:21.285,000 --> 0:01:22,000
+as a poet of code,
+
+23
+0:01:22.829,000 --> 0:01:25,000
+I'm a graduate student at the MIT Media Lab,
+
+24
+0:01:26.125,000 --> 0:01:3,000
+and there I have the opportunity to work on all sorts of whimsical projects,
+
+25
+0:01:31.066,000 --> 0:01:33,000
+including the Aspire Mirror,
+
+26
+0:01:33.117,000 --> 0:01:38,000
+a project I did so I could project digital masks onto my reflection.
+
+27
+0:01:38.275,000 --> 0:01:4,000
+So in the morning, if I wanted to feel powerful,
+
+28
+0:01:40.649,000 --> 0:01:41,000
+I could put on a lion.
+
+29
+0:01:42.107,000 --> 0:01:45,000
+If I wanted to be uplifted, I might have a quote.
+
+30
+0:01:45.627,000 --> 0:01:47,000
+So I used generic facial recognition software
+
+31
+0:01:48.64,000 --> 0:01:49,000
+to build the system,
+
+32
+0:01:50.015,000 --> 0:01:55,000
+but found it was really hard to test it unless I wore a white mask.
+
+33
+0:01:56.102,000 --> 0:02:,000
+Unfortunately, I've run into this issue before.
+
+34
+0:02:00.472,000 --> 0:02:04,000
+When I was an undergraduate at Georgia Tech studying computer science,
+
+35
+0:02:04.799,000 --> 0:02:06,000
+I used to work on social robots,
+
+36
+0:02:06.878,000 --> 0:02:09,000
+and one of my tasks was to get a robot to play peek-a-boo,
+
+37
+0:02:10.679,000 --> 0:02:11,000
+a simple turn-taking game
+
+38
+0:02:12.386,000 --> 0:02:16,000
+where partners cover their face and then uncover it saying, "Peek-a-boo!"
+
+39
+0:02:16.731,000 --> 0:02:2,000
+The problem is, peek-a-boo doesn't really work if I can't see you,
+
+40
+0:02:21.184,000 --> 0:02:23,000
+and my robot couldn't see me.
+
+41
+0:02:23.707,000 --> 0:02:26,000
+But I borrowed my roommate's face to get the project done,
+
+42
+0:02:27.681,000 --> 0:02:28,000
+submitted the assignment,
+
+43
+0:02:29.085,000 --> 0:02:32,000
+and figured, you know what, somebody else will solve this problem.
+
+44
+0:02:33.489,000 --> 0:02:35,000
+Not too long after,
+
+45
+0:02:35.516,000 --> 0:02:39,000
+I was in Hong Kong for an entrepreneurship competition.
+
+46
+0:02:40.159,000 --> 0:02:42,000
+The organizers decided to take participants
+
+47
+0:02:42.877,000 --> 0:02:44,000
+on a tour of local start-ups.
+
+48
+0:02:45.273,000 --> 0:02:47,000
+One of the start-ups had a social robot,
+
+49
+0:02:48.012,000 --> 0:02:49,000
+and they decided to do a demo.
+
+50
+0:02:49.948,000 --> 0:02:51,000
+The demo worked on everybody until it got to me,
+
+51
+0:02:52.952,000 --> 0:02:53,000
+and you can probably guess it.
+
+52
+0:02:54.899,000 --> 0:02:56,000
+It couldn't detect my face.
+
+53
+0:02:57.888,000 --> 0:02:59,000
+I asked the developers what was going on,
+
+54
+0:03:00.423,000 --> 0:03:05,000
+and it turned out we had used the same generic facial recognition software.
+
+55
+0:03:05.98,000 --> 0:03:06,000
+Halfway around the world,
+
+56
+0:03:07.654,000 --> 0:03:1,000
+I learned that algorithmic bias can travel as quickly
+
+57
+0:03:11.53,000 --> 0:03:14,000
+as it takes to download some files off of the internet.
+
+58
+0:03:15.565,000 --> 0:03:18,000
+So what's going on? Why isn't my face being detected?
+
+59
+0:03:18.665,000 --> 0:03:21,000
+Well, we have to look at how we give machines sight.
+
+60
+0:03:22.045,000 --> 0:03:25,000
+Computer vision uses machine learning techniques
+
+61
+0:03:25.478,000 --> 0:03:26,000
+to do facial recognition.
+
+62
+0:03:27.382,000 --> 0:03:3,000
+So how this works is, you create a training set with examples of faces.
+
+63
+0:03:31.303,000 --> 0:03:33,000
+This is a face. This is a face. This is not a face.
+
+64
+0:03:34.145,000 --> 0:03:38,000
+And over time, you can teach a computer how to recognize other faces.
+
+65
+0:03:38.688,000 --> 0:03:41,000
+However, if the training sets aren't really that diverse,
+
+66
+0:03:42.701,000 --> 0:03:45,000
+any face that deviates too much from the established norm
+
+67
+0:03:46.074,000 --> 0:03:47,000
+will be harder to detect,
+
+68
+0:03:47.747,000 --> 0:03:48,000
+which is what was happening to me.
+
+69
+0:03:49.734,000 --> 0:03:51,000
+But don't worry -- there's some good news.
+
+70
+0:03:52.14,000 --> 0:03:54,000
+Training sets don't just materialize out of nowhere.
+
+71
+0:03:54.935,000 --> 0:03:55,000
+We actually can create them.
+
+72
+0:03:56.747,000 --> 0:04:,000
+So there's an opportunity to create full-spectrum training sets
+
+73
+0:04:00.947,000 --> 0:04:03,000
+that reflect a richer portrait of humanity.
+
+74
+0:04:04.795,000 --> 0:04:06,000
+Now you've seen in my examples
+
+75
+0:04:07.04,000 --> 0:04:08,000
+how social robots
+
+76
+0:04:08.832,000 --> 0:04:12,000
+was how I found out about exclusion with algorithmic bias.
+
+77
+0:04:13.467,000 --> 0:04:17,000
+But algorithmic bias can also lead to discriminatory practices.
+
+78
+0:04:19.257,000 --> 0:04:2,000
+Across the US,
+
+79
+0:04:20.734,000 --> 0:04:24,000
+police departments are starting to use facial recognition software
+
+80
+0:04:24.956,000 --> 0:04:26,000
+in their crime-fighting arsenal.
+
+81
+0:04:27.439,000 --> 0:04:29,000
+Georgetown Law published a report
+
+82
+0:04:29.476,000 --> 0:04:35,000
+showing that one in two adults in the US -- that's 117 million people --
+
+83
+0:04:36.263,000 --> 0:04:39,000
+have their faces in facial recognition networks.
+
+84
+0:04:39.821,000 --> 0:04:43,000
+Police departments can currently look at these networks unregulated,
+
+85
+0:04:44.397,000 --> 0:04:48,000
+using algorithms that have not been audited for accuracy.
+
+86
+0:04:48.707,000 --> 0:04:51,000
+Yet we know facial recognition is not fail proof,
+
+87
+0:04:52.595,000 --> 0:04:56,000
+and labeling faces consistently remains a challenge.
+
+88
+0:04:56.798,000 --> 0:04:57,000
+You might have seen this on Facebook.
+
+89
+0:04:58.584,000 --> 0:05:,000
+My friends and I laugh all the time when we see other people
+
+90
+0:05:01.596,000 --> 0:05:03,000
+mislabeled in our photos.
+
+91
+0:05:04.078,000 --> 0:05:09,000
+But misidentifying a suspected criminal is no laughing matter,
+
+92
+0:05:09.693,000 --> 0:05:11,000
+nor is breaching civil liberties.
+
+93
+0:05:12.544,000 --> 0:05:15,000
+Machine learning is being used for facial recognition,
+
+94
+0:05:15.773,000 --> 0:05:19,000
+but it's also extending beyond the realm of computer vision.
+
+95
+0:05:21.086,000 --> 0:05:25,000
+In her book, "Weapons of Math Destruction,"
+
+96
+0:05:25.126,000 --> 0:05:31,000
+data scientist Cathy O'Neil talks about the rising new WMDs --
+
+97
+0:05:31.831,000 --> 0:05:35,000
+widespread, mysterious and destructive algorithms
+
+98
+0:05:36.208,000 --> 0:05:38,000
+that are increasingly being used to make decisions
+
+99
+0:05:39.196,000 --> 0:05:42,000
+that impact more aspects of our lives.
+
+100
+0:05:42.397,000 --> 0:05:43,000
+So who gets hired or fired?
+
+101
+0:05:44.291,000 --> 0:05:46,000
+Do you get that loan? Do you get insurance?
+
+102
+0:05:46.427,000 --> 0:05:49,000
+Are you admitted into the college you wanted to get into?
+
+103
+0:05:49.954,000 --> 0:05:52,000
+Do you and I pay the same price for the same product
+
+104
+0:05:53.487,000 --> 0:05:55,000
+purchased on the same platform?
+
+105
+0:05:55.953,000 --> 0:05:58,000
+Law enforcement is also starting to use machine learning
+
+106
+0:05:59.736,000 --> 0:06:01,000
+for predictive policing.
+
+107
+0:06:02.049,000 --> 0:06:05,000
+Some judges use machine-generated risk scores to determine
+
+108
+0:06:05.567,000 --> 0:06:09,000
+how long an individual is going to spend in prison.
+
+109
+0:06:09.993,000 --> 0:06:11,000
+So we really have to think about these decisions.
+
+110
+0:06:12.471,000 --> 0:06:13,000
+Are they fair?
+
+111
+0:06:13.677,000 --> 0:06:15,000
+And we've seen that algorithmic bias
+
+112
+0:06:16.591,000 --> 0:06:19,000
+doesn't necessarily always lead to fair outcomes.
+
+113
+0:06:19.989,000 --> 0:06:2,000
+So what can we do about it?
+
+114
+0:06:21.977,000 --> 0:06:24,000
+Well, we can start thinking about how we create more inclusive code
+
+115
+0:06:25.681,000 --> 0:06:27,000
+and employ inclusive coding practices.
+
+116
+0:06:28.695,000 --> 0:06:3,000
+It really starts with people.
+
+117
+0:06:31.528,000 --> 0:06:32,000
+So who codes matters.
+
+118
+0:06:33.513,000 --> 0:06:37,000
+Are we creating full-spectrum teams with diverse individuals
+
+119
+0:06:37.656,000 --> 0:06:39,000
+who can check each other's blind spots?
+
+120
+0:06:40.091,000 --> 0:06:43,000
+On the technical side, how we code matters.
+
+121
+0:06:43.66,000 --> 0:06:46,000
+Are we factoring in fairness as we're developing systems?
+
+122
+0:06:47.335,000 --> 0:06:49,000
+And finally, why we code matters.
+
+123
+0:06:50.605,000 --> 0:06:55,000
+We've used tools of computational creation to unlock immense wealth.
+
+124
+0:06:55.712,000 --> 0:06:59,000
+We now have the opportunity to unlock even greater equality
+
+125
+0:07:00.183,000 --> 0:07:02,000
+if we make social change a priority
+
+126
+0:07:03.137,000 --> 0:07:05,000
+and not an afterthought.
+
+127
+0:07:05.828,000 --> 0:07:09,000
+And so these are the three tenets that will make up the "incoding" movement.
+
+128
+0:07:10.374,000 --> 0:07:11,000
+Who codes matters,
+
+129
+0:07:12.05,000 --> 0:07:13,000
+how we code matters
+
+130
+0:07:13.617,000 --> 0:07:15,000
+and why we code matters.
+
+131
+0:07:15.664,000 --> 0:07:18,000
+So to go towards incoding, we can start thinking about
+
+132
+0:07:18.787,000 --> 0:07:21,000
+building platforms that can identify bias
+
+133
+0:07:21.975,000 --> 0:07:24,000
+by collecting people's experiences like the ones I shared,
+
+134
+0:07:25.077,000 --> 0:07:28,000
+but also auditing existing software.
+
+135
+0:07:28.171,000 --> 0:07:31,000
+We can also start to create more inclusive training sets.
+
+136
+0:07:31.96,000 --> 0:07:33,000
+Imagine a "Selfies for Inclusion" campaign
+
+137
+0:07:34.787,000 --> 0:07:37,000
+where you and I can help developers test and create
+
+138
+0:07:38.466,000 --> 0:07:4,000
+more inclusive training sets.
+
+139
+0:07:41.122,000 --> 0:07:43,000
+And we can also start thinking more conscientiously
+
+140
+0:07:43.974,000 --> 0:07:48,000
+about the social impact of the technology that we're developing.
+
+141
+0:07:49.389,000 --> 0:07:51,000
+To get the incoding movement started,
+
+142
+0:07:51.806,000 --> 0:07:53,000
+I've launched the Algorithmic Justice League,
+
+143
+0:07:54.677,000 --> 0:07:59,000
+where anyone who cares about fairness can help fight the coded gaze.
+
+144
+0:08:00.573,000 --> 0:08:03,000
+On codedgaze.com, you can report bias,
+
+145
+0:08:03.893,000 --> 0:08:05,000
+request audits, become a tester
+
+146
+0:08:06.362,000 --> 0:08:08,000
+and join the ongoing conversation,
+
+147
+0:08:09.157,000 --> 0:08:11,000
+#codedgaze.
+
+148
+0:08:12.562,000 --> 0:08:14,000
+So I invite you to join me
+
+149
+0:08:15.073,000 --> 0:08:18,000
+in creating a world where technology works for all of us,
+
+150
+0:08:18.816,000 --> 0:08:19,000
+not just some of us,
+
+151
+0:08:20.737,000 --> 0:08:24,000
+a world where we value inclusion and center social change.
+
+152
+0:08:25.349,000 --> 0:08:26,000
+Thank you.
+
+153
+0:08:26.548,000 --> 0:08:3,000
+(Applause)
+
+154
+0:08:32.693,000 --> 0:08:34,000
+But I have one question:
+
+155
+0:08:35.571,000 --> 0:08:37,000
+Will you join me in the fight?
+
+156
+0:08:37.654,000 --> 0:08:38,000
+(Laughter)
+
+157
+0:08:38.963,000 --> 0:08:41,000
+(Applause)
+

@@ -1,0 +1,1860 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Morgane Quilfen Relecteur: Elisabeth Buffard
+
+2
+0:00:12.535,000 --> 0:00:13,000
+Je suis professeur d'informatique et d'ingéniérie informatique
+
+3
+0:00:14.462,000 --> 0:00:15,000
+à Carnegie Mellon,
+
+4
+0:00:16.389,000 --> 0:00:17,000
+et mes recherches se concentrent sur l'utilisabilité de la vie privée
+
+5
+0:00:18.318,000 --> 0:00:2,000
+et de la sécurité,
+
+6
+0:00:20.656,000 --> 0:00:22,000
+et mes amis aiment me donner des exemples
+
+7
+0:00:22.996,000 --> 0:00:24,000
+de leurs frustrations liées aux systèmes informatiques,
+
+8
+0:00:25.198,000 --> 0:00:28,000
+particulièrement des frustrations liées à
+
+9
+0:00:28.552,000 --> 0:00:32,000
+une vie privée et une sécurité qui ne sont pas utilisables.
+
+10
+0:00:32.664,000 --> 0:00:34,000
+J'entends donc beaucoup parler des mots de passe.
+
+11
+0:00:35.375,000 --> 0:00:37,000
+Beaucoup de gens sont irrités par les mots de passe,
+
+12
+0:00:38.255,000 --> 0:00:39,000
+c'est déjà assez compliqué
+
+13
+0:00:39.949,000 --> 0:00:41,000
+d'avoir un très bon mot de passe
+
+14
+0:00:42.593,000 --> 0:00:43,000
+dont vous pouvez vous souvenir
+
+15
+0:00:44.415,000 --> 0:00:46,000
+mais que personne d'autre ne peut deviner.
+
+16
+0:00:47.309,000 --> 0:00:48,000
+Mais que fait-on lorsqu'on a des comptes
+
+17
+0:00:48.946,000 --> 0:00:49,000
+sur une centaine de systèmes différents
+
+18
+0:00:50.754,000 --> 0:00:52,000
+et qu'on est sensé avoir un mot de passe unique
+
+19
+0:00:53.03,000 --> 0:00:56,000
+pour chacun de ces systèmes ?
+
+20
+0:00:56.067,000 --> 0:00:58,000
+C'est difficile.
+
+21
+0:00:58.251,000 --> 0:00:59,000
+A Carnegie Mellon, ils rendaient
+
+22
+0:01:00.01,000 --> 0:01:03,000
+la mémorisation de nos mots de passe plutôt facile.
+
+23
+0:01:03.049,000 --> 0:01:05,000
+Jusqu'en 2009, l'exigence était
+
+24
+0:01:05.449,000 --> 0:01:07,000
+d'avoir un mot de passe
+
+25
+0:01:07.828,000 --> 0:01:09,000
+comportant au moins un caractère.
+
+26
+0:01:10.039,000 --> 0:01:12,000
+Plutôt facile. Et puis les choses ont changé,
+
+27
+0:01:12.927,000 --> 0:01:14,000
+et fin 2009, ils ont annoncé
+
+28
+0:01:15.597,000 --> 0:01:17,000
+que nous allions avoir une nouvelle politique,
+
+29
+0:01:17.973,000 --> 0:01:18,000
+et cette nouvelle politique exigeait
+
+30
+0:01:19.836,000 --> 0:01:21,000
+des mots de passe d'au moins huit caractères,
+
+31
+0:01:22.517,000 --> 0:01:23,000
+avec une majuscule, une minuscule,
+
+32
+0:01:24.292,000 --> 0:01:25,000
+un chiffre, un symbole,
+
+33
+0:01:25.58,000 --> 0:01:27,000
+vous ne pouviez pas utiliser le même caractère plus de trois fois,
+
+34
+0:01:28.218,000 --> 0:01:3,000
+et ce ne pouvait pas être un mot du dictionnaire.
+
+35
+0:01:30.652,000 --> 0:01:32,000
+Quand ils ont mis en place cette nouvelle politique,
+
+36
+0:01:32.834,000 --> 0:01:34,000
+beaucoup de gens, mes collègues et amis,
+
+37
+0:01:35.144,000 --> 0:01:36,000
+sont venus me voir et ont dit :
+
+38
+0:01:36.998,000 --> 0:01:37,000
+« C'est vraiment inutilisable.
+
+39
+0:01:38.51,000 --> 0:01:39,000
+Pourquoi nous font-ils ça,
+
+40
+0:01:39.703,000 --> 0:01:4,000
+et pourquoi ne les en as-tu pas empêchés ? »
+
+41
+0:01:41.414,000 --> 0:01:42,000
+Et j'ai dit : « Vous savez quoi ?
+
+42
+0:01:42.77,000 --> 0:01:43,000
+On ne m'a rien demandé. »
+
+43
+0:01:44.278,000 --> 0:01:47,000
+Mais ça a éveillé ma curiosité, et j'ai décidé d'aller parler
+
+44
+0:01:47.743,000 --> 0:01:48,000
+aux personnes en charge des systèmes informatiques
+
+45
+0:01:49.68,000 --> 0:01:51,000
+et de découvrir ce qui les a amenés à introduire
+
+46
+0:01:52.511,000 --> 0:01:53,000
+cette nouvelle politique,
+
+47
+0:01:54.359,000 --> 0:01:55,000
+et ils ont dit que l'université
+
+48
+0:01:55.943,000 --> 0:01:57,000
+avait rejoint un consortium d'universités,
+
+49
+0:01:58.309,000 --> 0:02:,000
+et que l'une des exigences pour devenir membre
+
+50
+0:02:00.943,000 --> 0:02:02,000
+était que nous devions avoir des mots de passe plus compliqués
+
+51
+0:02:03.191,000 --> 0:02:05,000
+qui respectaient de nouvelles exigences,
+
+52
+0:02:05.463,000 --> 0:02:07,000
+et ces exigences étaient que nos mots de passe
+
+53
+0:02:07.567,000 --> 0:02:08,000
+devaient avoir beaucoup d'entropie.
+
+54
+0:02:09.171,000 --> 0:02:11,000
+L'entropie est un terme compliqué,
+
+55
+0:02:11.449,000 --> 0:02:13,000
+mais en fait ça mesure la sécurité des mots de passe.
+
+56
+0:02:14.247,000 --> 0:02:15,000
+Mais le fait est qu'en réalité, il n'y a pas
+
+57
+0:02:16.226,000 --> 0:02:17,000
+de mesure standard de l'entropie.
+
+58
+0:02:18.175,000 --> 0:02:2,000
+L'Institut National des Standards et de la Technologie (INST)
+
+59
+0:02:20.574,000 --> 0:02:21,000
+a fixé des règles,
+
+60
+0:02:22.127,000 --> 0:02:24,000
+qui sont basées sur le bon sens,
+
+61
+0:02:24.695,000 --> 0:02:25,000
+pour mesurer l'entropie,
+
+62
+0:02:26.135,000 --> 0:02:28,000
+mais elles n'ont rien de spécifique,
+
+63
+0:02:29.03,000 --> 0:02:31,000
+et la raison pour laquelle il n'y a que des règles de bon sens
+
+64
+0:02:31.367,000 --> 0:02:34,000
+est qu'il n'y a pas vraiment de bonne base de données
+
+65
+0:02:34.503,000 --> 0:02:35,000
+sur les mots de passe.
+
+66
+0:02:36.023,000 --> 0:02:38,000
+En fait, dans leur rapport, ils déclarent :
+
+67
+0:02:38.335,000 --> 0:02:4,000
+« Malheureusement, nous n'avons pas beaucoup de données
+
+68
+0:02:40.663,000 --> 0:02:42,000
+sur les mots de passe que les utilisateurs choisissent selon les règles spécifiques.
+
+69
+0:02:43.505,000 --> 0:02:45,000
+L'INST aimerait obtenir plus de données
+
+70
+0:02:45.838,000 --> 0:02:47,000
+sur les mots de passe que les utilisateurs choisissent,
+
+71
+0:02:48.3,000 --> 0:02:5,000
+mais les administrateurs systèmes sont, on le comprend, réticents
+
+72
+0:02:50.763,000 --> 0:02:52,000
+à révéler les mots de passe à d'autres personnes. »
+
+73
+0:02:53.703,000 --> 0:02:56,000
+C'est donc un problème, mais notre groupe de recherche
+
+74
+0:02:56.8,000 --> 0:02:58,000
+l'a envisagé comme une opportunité.
+
+75
+0:02:58.94,000 --> 0:03:01,000
+Nous avons dit : « Il y a besoin de bonnes données sur les mots de passe.
+
+76
+0:03:02.04,000 --> 0:03:04,000
+Peut-être que nous pouvons collecter de bonnes données sur les mots de passe
+
+77
+0:03:04.188,000 --> 0:03:06,000
+et faire avancer l'état de l'art. »
+
+78
+0:03:06.892,000 --> 0:03:07,000
+La première chose que nous avons faite est
+
+79
+0:03:08.564,000 --> 0:03:09,000
+que nous avons pris un sac plein de sucreries
+
+80
+0:03:10.12,000 --> 0:03:11,000
+et nous nous sommes promenés dans le campus,
+
+81
+0:03:11.206,000 --> 0:03:13,000
+nous avons parlé à des étudiants, des professeurs et au personnel,
+
+82
+0:03:14.004,000 --> 0:03:15,000
+et leur avons demandé des informations
+
+83
+0:03:15.534,000 --> 0:03:16,000
+sur leurs mots de passe.
+
+84
+0:03:17.086,000 --> 0:03:2,000
+Nous ne leur avons pas dit : « Donnez-nous votre mot de passe. »
+
+85
+0:03:20.09,000 --> 0:03:22,000
+Non, nous leur avons simplement posé des questions sur leur mot de passe.
+
+86
+0:03:22.751,000 --> 0:03:23,000
+Est-il long ? Contient-il un chiffre ?
+
+87
+0:03:24.229,000 --> 0:03:25,000
+Contient-il un symbole ?
+
+88
+0:03:25.297,000 --> 0:03:27,000
+Avez-vous trouvé gênant de devoir en créer
+
+89
+0:03:27.342,000 --> 0:03:29,000
+un nouveau la semaine dernière ?
+
+90
+0:03:30.086,000 --> 0:03:33,000
+Nous avons eu les résultats concernant 470 étudiants,
+
+91
+0:03:33.292,000 --> 0:03:33,000
+professeurs et membres du personnel,
+
+92
+0:03:34.263,000 --> 0:03:36,000
+et avons confirmé que la nouvelle politque
+
+93
+0:03:36.777,000 --> 0:03:37,000
+était très embêtante,
+
+94
+0:03:38.23,000 --> 0:03:39,000
+mais nous avons aussi remarqué que les gens disaient
+
+95
+0:03:40.022,000 --> 0:03:43,000
+qu'ils se sentaient plus en sécurité avec ces nouveaux mots de passe.
+
+96
+0:03:43.152,000 --> 0:03:45,000
+Nous avons constaté que la plupart des gens savait
+
+97
+0:03:45.458,000 --> 0:03:47,000
+qu'ils n'étaient pas sensés écrire leur mot de passe sur un papier,
+
+98
+0:03:47.61,000 --> 0:03:49,000
+et que seulement 13% d'entre eux le faisaient,
+
+99
+0:03:50.001,000 --> 0:03:52,000
+mais, de façon dérangeante, 80% des gens
+
+100
+0:03:52.417,000 --> 0:03:54,000
+disaient qu'ils réutilisaient leur mot de passe.
+
+101
+0:03:54.541,000 --> 0:03:55,000
+C'est en fait plus dangereux
+
+102
+0:03:56.337,000 --> 0:03:58,000
+que d'écrire votre mot de passe sur un papier,
+
+103
+0:03:58.359,000 --> 0:04:01,000
+parce que ça vous rend plus exposés aux attaques.
+
+104
+0:04:01.92,000 --> 0:04:04,000
+Donc, si vous en avez besoin, écrivez vos mots de passe sur un papier,
+
+105
+0:04:05.038,000 --> 0:04:06,000
+mais ne les réutilisez pas.
+
+106
+0:04:06.837,000 --> 0:04:07,000
+Nous avons également constaté des choses intéressantes
+
+107
+0:04:08.588,000 --> 0:04:1,000
+concernant les symboles utilisés dans les mots de passe.
+
+108
+0:04:11.549,000 --> 0:04:13,000
+La CMU autorise 32 symboles possibles,
+
+109
+0:04:14.348,000 --> 0:04:16,000
+mais comme vous pouvez le voir, seul un petit nombre
+
+110
+0:04:16.781,000 --> 0:04:17,000
+est utilisé par la majorité des gens,
+
+111
+0:04:18.583,000 --> 0:04:2,000
+donc nos mots de passe ne sont pas vraiment beaucoup plus sûrs
+
+112
+0:04:21.524,000 --> 0:04:23,000
+si on y met des symboles.
+
+113
+0:04:23.99,000 --> 0:04:25,000
+C'était une étude très intéressante,
+
+114
+0:04:26.701,000 --> 0:04:28,000
+et nous avons maintenant les données de 470 personnes,
+
+115
+0:04:29.165,000 --> 0:04:3,000
+mais dans la situation actuelle,
+
+116
+0:04:30.47,000 --> 0:04:32,000
+ça ne représente pas beaucoup de données sur les mots de passe,
+
+117
+0:04:33.05,000 --> 0:04:34,000
+nous avons donc regardé autour de nous :
+
+118
+0:04:34.495,000 --> 0:04:36,000
+où pouvions-nous trouver des données additionnelles sur les mots de passe ?
+
+119
+0:04:37.055,000 --> 0:04:39,000
+Il s'avère que beaucoup de personnes
+
+120
+0:04:39.231,000 --> 0:04:41,000
+volent des mots de passe,
+
+121
+0:04:41.433,000 --> 0:04:43,000
+et souvent postent ces mots de passe
+
+122
+0:04:43.91,000 --> 0:04:44,000
+sur internet.
+
+123
+0:04:45.247,000 --> 0:04:46,000
+Nous avons donc eu accès
+
+124
+0:04:46.92,000 --> 0:04:49,000
+à certains de ces ensembles de mots de passe volés.
+
+125
+0:04:50.89,000 --> 0:04:52,000
+Cependant, ce n'est pas idéal pour la recherche
+
+126
+0:04:53.218,000 --> 0:04:55,000
+parce que la provenance de ces mots de passe
+
+127
+0:04:55.255,000 --> 0:04:57,000
+n'est pas totalement claire,
+
+128
+0:04:57.439,000 --> 0:04:59,000
+ni quelles politiques étaient en place
+
+129
+0:04:59.681,000 --> 0:05:01,000
+quand les gens ont créé ces mots de passe.
+
+130
+0:05:01.789,000 --> 0:05:04,000
+Nous voulions trouver une meilleure source de données.
+
+131
+0:05:05.341,000 --> 0:05:06,000
+Nous avons décidé qu'une chose que nous pouvions faire
+
+132
+0:05:06.975,000 --> 0:05:08,000
+était de faire une étude et de demander aux gens
+
+133
+0:05:09.104,000 --> 0:05:12,000
+de créer des mots de passe pour notre étude.
+
+134
+0:05:12.344,000 --> 0:05:14,000
+Nous avons utilisé un service du nom de Amazon Mechanical Turk,
+
+135
+0:05:15.165,000 --> 0:05:17,000
+c'est un service où vous pouvez poster
+
+136
+0:05:17.499,000 --> 0:05:19,000
+un petit job en ligne qui prend une minute,
+
+137
+0:05:19.803,000 --> 0:05:2,000
+quelques minutes, une heure,
+
+138
+0:05:21.303,000 --> 0:05:23,000
+et payer les gens, un penny, dix centimes, quelques dollars,
+
+139
+0:05:23.887,000 --> 0:05:24,000
+pour accomplir une tache pour vous
+
+140
+0:05:25.233,000 --> 0:05:27,000
+et ensuite vous les payez via Amazon.com.
+
+141
+0:05:27.355,000 --> 0:05:29,000
+Nous avons payé les gens environ 50 centimes
+
+142
+0:05:29.649,000 --> 0:05:31,000
+pour créer un mot de passe suivant nos règles
+
+143
+0:05:32.245,000 --> 0:05:33,000
+et répondre à un sondage,
+
+144
+0:05:33.655,000 --> 0:05:35,000
+et ensuite nous les payions pour revenir
+
+145
+0:05:36.18,000 --> 0:05:38,000
+deux jours plus tard se connecter
+
+146
+0:05:38.251,000 --> 0:05:4,000
+en utilisant leur mot de passe pour répondre à un autre sondage.
+
+147
+0:05:40.825,000 --> 0:05:44,000
+Nous avons fait ça et nous avons collecté 5000 mots de passe,
+
+148
+0:05:45.289,000 --> 0:05:47,000
+et nous avons soumis les gens à différentes réglementations
+
+149
+0:05:47.984,000 --> 0:05:48,000
+pour créer ces mots de passe.
+
+150
+0:05:49.492,000 --> 0:05:5,000
+Certaines personnes avaient une réglementation plutôt simple,
+
+151
+0:05:51.402,000 --> 0:05:52,000
+nous appelons ça Basic8,
+
+152
+0:05:52.941,000 --> 0:05:54,000
+et la seule règle était que votre mot de passe
+
+153
+0:05:55.087,000 --> 0:05:58,000
+devait faire au moins 8 caractères de long.
+
+154
+0:05:58.503,000 --> 0:06:,000
+Et puis d'autres personnes avaient une réglementation bien plus difficile,
+
+155
+0:06:00.754,000 --> 0:06:02,000
+et qui était très similaire à la politique du CMU,
+
+156
+0:06:03.291,000 --> 0:06:04,000
+ils devaient avoir 8 caractères
+
+157
+0:06:05.225,000 --> 0:06:07,000
+dont une majuscule, une minuscule, un chiffre, un symbole,
+
+158
+0:06:07.601,000 --> 0:06:09,000
+et ne pas être dans le dictionnaire.
+
+159
+0:06:09.99,000 --> 0:06:1,000
+Et l'une des autres réglementations que nous avons essayées,
+
+160
+0:06:11.325,000 --> 0:06:12,000
+et il y en avait plein d'autres,
+
+161
+0:06:12.595,000 --> 0:06:14,000
+mais l'une que nous avons essayée s'appelait Basic16,
+
+162
+0:06:14.835,000 --> 0:06:16,000
+et la seule exigence était
+
+163
+0:06:17.467,000 --> 0:06:2,000
+d'avoir un mot de passe d'au moins 16 caractères.
+
+164
+0:06:20.62,000 --> 0:06:22,000
+Nous avions donc 5000 mots de passe,
+
+165
+0:06:23.078,000 --> 0:06:26,000
+et donc nous avions des informations beaucoup plus détaillées.
+
+166
+0:06:26.641,000 --> 0:06:28,000
+Encore une fois, nous voyons que seul un petit nombre
+
+167
+0:06:29.2,000 --> 0:06:3,000
+de symboles est utilisé
+
+168
+0:06:31.115,000 --> 0:06:32,000
+dans les mots de passe.
+
+169
+0:06:33.001,000 --> 0:06:35,000
+Nous voulions aussi avoir une idée de la difficulté
+
+170
+0:06:35.6,000 --> 0:06:37,000
+des mots de passe que les gens créaient,
+
+171
+0:06:38.371,000 --> 0:06:4,000
+mais comme vous vous souvenez peut-être, il n'y a pas de bonne mesure
+
+172
+0:06:40.991,000 --> 0:06:41,000
+de la difficulté d'un mot de passe.
+
+173
+0:06:42.745,000 --> 0:06:44,000
+Nous avons donc décidé de regarder
+
+174
+0:06:45.057,000 --> 0:06:47,000
+le temps qu'il faudrait pour craquer ces mots de passe
+
+175
+0:06:47.427,000 --> 0:06:48,000
+en utilisant les meilleurs outils
+
+176
+0:06:48.841,000 --> 0:06:49,000
+que les voyous utilisent,
+
+177
+0:06:50.649,000 --> 0:06:52,000
+ou sur lesquels nous pouvions trouver des informations
+
+178
+0:06:52.665,000 --> 0:06:53,000
+dans la littérature de recherche.
+
+179
+0:06:54.202,000 --> 0:06:56,000
+Pour vous donner une idée de comment les voyous
+
+180
+0:06:56.96,000 --> 0:06:58,000
+craquent les mots de passe,
+
+181
+0:06:59.13,000 --> 0:07:,000
+ils volent un fichier de mots de passe
+
+182
+0:07:01.081,000 --> 0:07:03,000
+qui contiendra tous les mots de passe
+
+183
+0:07:03.234,000 --> 0:07:05,000
+sous une forme brouillée, appelée hachage,
+
+184
+0:07:06.123,000 --> 0:07:08,000
+et ce qu'ils vont faire c'est faire une supposition
+
+185
+0:07:08.685,000 --> 0:07:09,000
+sur ce qu'un mot de passe peut être,
+
+186
+0:07:10.397,000 --> 0:07:11,000
+le passer dans une fonction de hachage,
+
+187
+0:07:12.294,000 --> 0:07:13,000
+et regarder si ça correspond
+
+188
+0:07:14.059,000 --> 0:07:17,000
+aux mots de passe qu'ils ont sur la liste volée.
+
+189
+0:07:18.009,000 --> 0:07:21,000
+Un attaquant idiot prendra tous les mots de passe dans l'ordre.
+
+190
+0:07:21.114,000 --> 0:07:24,000
+Il commencera par AAAAA et ensuite AAAAB,
+
+191
+0:07:24.682,000 --> 0:07:26,000
+et ça va prendre beaucoup de temps
+
+192
+0:07:27.1,000 --> 0:07:28,000
+avant qu'il n'obtienne un mot de passe
+
+193
+0:07:28.626,000 --> 0:07:3,000
+que les gens pourraient avoir.
+
+194
+0:07:31.323,000 --> 0:07:33,000
+Un attaquant intelligent, d'un autre côté,
+
+195
+0:07:33.506,000 --> 0:07:34,000
+fait quelque chose de beaucoup plus malin.
+
+196
+0:07:34.892,000 --> 0:07:35,000
+Il regarde les mots de passe
+
+197
+0:07:36.718,000 --> 0:07:37,000
+qui sont réputés populaires
+
+198
+0:07:38.518,000 --> 0:07:39,000
+dans ces listes de mots de passe volés,
+
+199
+0:07:40.245,000 --> 0:07:41,000
+et il suppose quels sont les premiers.
+
+200
+0:07:41.434,000 --> 0:07:43,000
+Il va donc commencer par penser à « mot de passe »,
+
+201
+0:07:43.568,000 --> 0:07:45,000
+puis à « je t'aime » et « singe »,
+
+202
+0:07:46.319,000 --> 0:07:48,000
+et « 12345678 »
+
+203
+0:07:48.902,000 --> 0:07:49,000
+parce que ce sont les mots de passe
+
+204
+0:07:50.214,000 --> 0:07:51,000
+que les gens ont le plus de chance d'avoir.
+
+205
+0:07:52.119,000 --> 0:07:55,000
+En fait, certains d'entre vous ont probablement ces mots de passe.
+
+206
+0:07:57.191,000 --> 0:07:58,000
+Ce que nous avons constaté
+
+207
+0:07:58.489,000 --> 0:08:01,000
+en testant ces 5000 mots de passe collectés
+
+208
+0:08:01.895,000 --> 0:08:05,000
+pour connaître leur difficulté,
+
+209
+0:08:06.001,000 --> 0:08:08,000
+nous avons constaté que les longs mots de passe
+
+210
+0:08:08.753,000 --> 0:08:09,000
+étaient en fait plutôt difficiles,
+
+211
+0:08:10.033,000 --> 0:08:13,000
+et que les mots de passe compliqués résistaient aussi plutôt bien.
+
+212
+0:08:13.295,000 --> 0:08:15,000
+Cependant, quand on regarde les sondages,
+
+213
+0:08:15.737,000 --> 0:08:18,000
+on remarque que les gens étaient vraiment frustrés
+
+214
+0:08:18.761,000 --> 0:08:2,000
+par les mots de passe compliqués,
+
+215
+0:08:21.1,000 --> 0:08:23,000
+et les mots de passe longs étaient beaucoup plus utilisables,
+
+216
+0:08:23.73,000 --> 0:08:24,000
+et dans certains cas, ils étaient en fait
+
+217
+0:08:25.055,000 --> 0:08:27,000
+plus difficiles que les mots de passe complexes.
+
+218
+0:08:27.963,000 --> 0:08:28,000
+Cela suggère que
+
+219
+0:08:29.132,000 --> 0:08:3,000
+au lieu de dire aux gens qu'ils ont besoin
+
+220
+0:08:30.835,000 --> 0:08:31,000
+de mettre tous ces symboles et nombres
+
+221
+0:08:32.357,000 --> 0:08:34,000
+et ces choses un peu folles dans leurs mots de passe,
+
+222
+0:08:35.199,000 --> 0:08:37,000
+nous ferions mieux de dire aux gens
+
+223
+0:08:37.221,000 --> 0:08:39,000
+d'avoir des mots de passe longs.
+
+224
+0:08:39.873,000 --> 0:08:4,000
+Cependant, il reste un problème :
+
+225
+0:08:41.665,000 --> 0:08:43,000
+certaines personnes ont de longs mots de passe
+
+226
+0:08:43.92,000 --> 0:08:44,000
+qui ne sont pas très difficiles.
+
+227
+0:08:45.475,000 --> 0:08:46,000
+On peut faire de longs mots de passe
+
+228
+0:08:47.472,000 --> 0:08:48,000
+qui sont quand même
+
+229
+0:08:49.028,000 --> 0:08:5,000
+facilement devinables par un attaquant.
+
+230
+0:08:50.77,000 --> 0:08:53,000
+Nous devons faire plus que demander des mots de passe longs.
+
+231
+0:08:54.135,000 --> 0:08:55,000
+Il doit y avoir d'autres exigences,
+
+232
+0:08:56.071,000 --> 0:08:58,000
+et parmi nos recherches en cours, nous recherchons
+
+233
+0:08:59.04,000 --> 0:09:01,000
+quelles exigences supplémentaires nous devrions avoir
+
+234
+0:09:01.479,000 --> 0:09:03,000
+pour faire des mots de passe plus difficiles
+
+235
+0:09:03.583,000 --> 0:09:05,000
+qui seront également faciles
+
+236
+0:09:05.895,000 --> 0:09:07,000
+à retenir et à taper.
+
+237
+0:09:08.593,000 --> 0:09:1,000
+Une autre approche pour pousser les gens à avoir
+
+238
+0:09:10.719,000 --> 0:09:12,000
+des mots de passe plus difficiles est d'utiliser une mesure de mots de passe.
+
+239
+0:09:12.976,000 --> 0:09:13,000
+Voici quelques exemples.
+
+240
+0:09:14.361,000 --> 0:09:15,000
+Vous avez les peut-être vu sur internet
+
+241
+0:09:15.762,000 --> 0:09:18,000
+quand vous créiez des mots de passe.
+
+242
+0:09:18.819,000 --> 0:09:2,000
+Nous avons décidé de lancer une étude pour voir si
+
+243
+0:09:21.067,000 --> 0:09:23,000
+ces mesures de mots de passe fonctionnaient ou non.
+
+244
+0:09:23.954,000 --> 0:09:24,000
+Aident-elles les gens
+
+245
+0:09:25.375,000 --> 0:09:26,000
+à avoir des mots de passe plus difficiles ?
+
+246
+0:09:26.828,000 --> 0:09:28,000
+Et si oui, lesquelles sont les meilleures ?
+
+247
+0:09:28.914,000 --> 0:09:3,000
+Nous avons testé des mesures de mots de passe qui étaient
+
+248
+0:09:31.421,000 --> 0:09:33,000
+de différentes tailles, formes et couleurs,
+
+249
+0:09:33.519,000 --> 0:09:34,000
+ayant des mots différents associés,
+
+250
+0:09:34.935,000 --> 0:09:37,000
+et nous avons même testé un lapin dansant.
+
+251
+0:09:38.21,000 --> 0:09:39,000
+Quand vous tapez un meilleur mot de passe,
+
+252
+0:09:39.792,000 --> 0:09:41,000
+le lapin dance plus vite.
+
+253
+0:09:42.331,000 --> 0:09:44,000
+C'était plutôt amusant.
+
+254
+0:09:44.86,000 --> 0:09:45,000
+Ce que nous avons remarqué
+
+255
+0:09:46.427,000 --> 0:09:49,000
+était que les mesures de mots de passe fonctionnent.
+
+256
+0:09:49.999,000 --> 0:09:5,000
+(Rires)
+
+257
+0:09:51.8,000 --> 0:09:54,000
+La plupart de ces mesures de mots de passe étaient efficaces,
+
+258
+0:09:55.133,000 --> 0:09:57,000
+et le lapin dansant était également très efficace,
+
+259
+0:09:57.654,000 --> 0:09:59,000
+mais les mesures de mots de passe qui étaient les plus efficaces
+
+260
+0:10:00.535,000 --> 0:10:02,000
+étaient celles qui vous faisaient travailler plus dur
+
+261
+0:10:02.89,000 --> 0:10:03,000
+avant de vous donner le feu vert et de dire que
+
+262
+0:10:04.87,000 --> 0:10:05,000
+vous faissiez un bon travail,
+
+263
+0:10:06.247,000 --> 0:10:07,000
+et en fait nous avons remarqué que la plupart
+
+264
+0:10:07.759,000 --> 0:10:09,000
+des mesures de mots de passe actuellement sur internet
+
+265
+0:10:10.04,000 --> 0:10:1,000
+étaient trop indulgentes.
+
+266
+0:10:10.992,000 --> 0:10:12,000
+Elles vous disent trop tôt que vous faites du bon travail,
+
+267
+0:10:13.195,000 --> 0:10:14,000
+et si elles attendaient juste un petit peu
+
+268
+0:10:15.124,000 --> 0:10:17,000
+avant de vous donner un retour positif,
+
+269
+0:10:17.173,000 --> 0:10:2,000
+vous auriez probablement de meilleurs mots de passe.
+
+270
+0:10:20.333,000 --> 0:10:23,000
+Maintenant, une autre approche pour, peut-être, de meilleurs mots de passe,
+
+271
+0:10:24.18,000 --> 0:10:26,000
+est d'utiliser des phrases de passe à la place des mots de passe.
+
+272
+0:10:27.07,000 --> 0:10:3,000
+C'était un dessin animé de la xfcd d'il y a quelques années,
+
+273
+0:10:30.488,000 --> 0:10:31,000
+et le dessinateur suggère
+
+274
+0:10:32.162,000 --> 0:10:34,000
+que nous devrions tous nous servir d'expressions de passe,
+
+275
+0:10:34.358,000 --> 0:10:37,000
+et si vous regardez à l'arrière plan de ce dessin animé,
+
+276
+0:10:37.528,000 --> 0:10:38,000
+vous pouvez voir que le dessinateur suggère
+
+277
+0:10:39.385,000 --> 0:10:42,000
+que l'expression de passe « correct cheval batterie agrafe »
+
+278
+0:10:42.826,000 --> 0:10:44,000
+serait une phrase de passe très difficile
+
+279
+0:10:45.307,000 --> 0:10:46,000
+et très facile à retenir.
+
+280
+0:10:47.223,000 --> 0:10:49,000
+Il dit, en fait, que vous devriez dejà l'avoir retenue.
+
+281
+0:10:50.02,000 --> 0:10:52,000
+Nous avons donc décidé de lancer une étude
+
+282
+0:10:52.17,000 --> 0:10:54,000
+pour découvrir si c'était vrai ou pas.
+
+283
+0:10:54.762,000 --> 0:10:55,000
+Toutes les personnes auxquelles j'ai parlé,
+
+284
+0:10:56.537,000 --> 0:10:58,000
+auxquelles j'ai mentionné que je faisais de la recherche sur les mots de passe,
+
+285
+0:10:58.579,000 --> 0:10:59,000
+toutes m'ont parlé de ce dessin animé.
+
+286
+0:10:59.979,000 --> 0:11:,000
+« L'avez-vous vu ? Ce xkcd.
+
+287
+0:11:01.553,000 --> 0:11:02,000
+Correct cheval batterie agrafe. »
+
+288
+0:11:03.155,000 --> 0:11:04,000
+Nous avons donc fait l'étude pour voir
+
+289
+0:11:04.961,000 --> 0:11:06,000
+ce qu'il se passerait.
+
+290
+0:11:07.32,000 --> 0:11:1,000
+Dans cette étude, nous avons à nouveau utilisé Mechanical Turk,
+
+291
+0:11:10.38,000 --> 0:11:14,000
+l'ordinateur prenait des mots au hasard
+
+292
+0:11:14.547,000 --> 0:11:15,000
+pour former la phrase de passe.
+
+293
+0:11:15.647,000 --> 0:11:16,000
+La raison pour laquelle nous avons fait ça
+
+294
+0:11:16.8,000 --> 0:11:17,000
+est que les humains ne sont pas très bons
+
+295
+0:11:18.386,000 --> 0:11:19,000
+quand il s'agit de choisir des mots au hasard.
+
+296
+0:11:19.77,000 --> 0:11:2,000
+Si nous demandions à des humains de le faire,
+
+297
+0:11:21.032,000 --> 0:11:23,000
+ils choisiraient des choses pas vraiment au hasard.
+
+298
+0:11:24.03,000 --> 0:11:26,000
+Nous avons essayé plusieurs conditions.
+
+299
+0:11:26.062,000 --> 0:11:28,000
+Dans une des conditions, l'ordinateur choisissait
+
+300
+0:11:28.152,000 --> 0:11:3,000
+dans un dictionnaire de mots très communs
+
+301
+0:11:30.368,000 --> 0:11:31,000
+de la langue anglaise,
+
+302
+0:11:31.73,000 --> 0:11:32,000
+et donc vous obteniez des expressions de passe comme :
+
+303
+0:11:33.494,000 --> 0:11:34,000
+« essayer là trois venir ».
+
+304
+0:11:35.418,000 --> 0:11:36,000
+Nous avons regardé ça et nous avons dit :
+
+305
+0:11:37.15,000 --> 0:11:4,000
+« Ça ne semble pas très mémorisable. »
+
+306
+0:11:40.2,000 --> 0:11:42,000
+Alors ensuite nous avons essayé de choisir les mots
+
+307
+0:11:42.44,000 --> 0:11:44,000
+issus de parties spécifiques du langage,
+
+308
+0:11:44.961,000 --> 0:11:46,000
+qu'en est-il de nom-verbe-nom-adjectif.
+
+309
+0:11:47.143,000 --> 0:11:49,000
+Il en ressort quelque chose qui ressemble à une phrase.
+
+310
+0:11:49.72,000 --> 0:11:51,000
+Vous pouvez obtenir une expression de passe comme :
+
+311
+0:11:51.79,000 --> 0:11:52,000
+« Projet construit pouvoir sûr »
+
+312
+0:11:53.098,000 --> 0:11:55,000
+ou « Fin détermine drogue rouge ».
+
+313
+0:11:55.884,000 --> 0:11:57,000
+Celles-ci semblaient un peu plus mémorisables,
+
+314
+0:11:58.56,000 --> 0:12:,000
+et peut-être que les gens les préfèreraient.
+
+315
+0:12:01.382,000 --> 0:12:03,000
+Nous voulions les comparer avec les mots de passe,
+
+316
+0:12:03.954,000 --> 0:12:06,000
+l'ordinateur choisissait donc des mots de passe au hasard,
+
+317
+0:12:07.15,000 --> 0:12:08,000
+qui étaient sympas et courts, mais comme vous pouvez le voir,
+
+318
+0:12:09.14,000 --> 0:12:11,000
+ils n'ont pas l'air très mémorisables.
+
+319
+0:12:11.946,000 --> 0:12:12,000
+Nous avons ensuite décidé d'essayer quelque chose qui s'appelle
+
+320
+0:12:13.342,000 --> 0:12:14,000
+un mot de passe prononçable.
+
+321
+0:12:14.988,000 --> 0:12:16,000
+L'ordinateur choisit des syllables au hasard
+
+322
+0:12:17.233,000 --> 0:12:18,000
+et les réunit
+
+323
+0:12:18.367,000 --> 0:12:2,000
+pour avoir quelque chose de prononçable
+
+324
+0:12:20.842,000 --> 0:12:22,000
+comme « tufritvi » et « vadasabi ».
+
+325
+0:12:23.444,000 --> 0:12:25,000
+Ce genre de choses qui se prononcent plutôt bien.
+
+326
+0:12:25.591,000 --> 0:12:27,000
+C'étaient des mots de passe qui étaient
+
+327
+0:12:27.807,000 --> 0:12:29,000
+générés au hasard par notre ordinateur.
+
+328
+0:12:30.551,000 --> 0:12:32,000
+Ce que nous avons remarqué dans cette étude est que, étonamment,
+
+329
+0:12:33.529,000 --> 0:12:36,000
+les expressions de passe n'étaient en fait pas si bonnes que ça.
+
+330
+0:12:37.297,000 --> 0:12:39,000
+Les gens ne retenaient pas mieux
+
+331
+0:12:40.09,000 --> 0:12:42,000
+les phrases de passe que ces mots de passe aléatoires,
+
+332
+0:12:43.043,000 --> 0:12:45,000
+et parce que les phrases de passe sont plus longues,
+
+333
+0:12:45.797,000 --> 0:12:46,000
+il fallait plus de temps pour les taper
+
+334
+0:12:47.023,000 --> 0:12:5,000
+et les gens faisaient plus d'erreurs en les tapant.
+
+335
+0:12:50.033,000 --> 0:12:53,000
+Ce n'est donc pas une victoire nette pour les phrases de passe.
+
+336
+0:12:53.26,000 --> 0:12:56,000
+Désolée pour tous les fans de xkcd.
+
+337
+0:12:56.605,000 --> 0:12:57,000
+D'un autre côté, nous avons remarqué
+
+338
+0:12:58.497,000 --> 0:12:59,000
+que les mots de passe prononçables
+
+339
+0:13:00.301,000 --> 0:13:01,000
+fonctionnaient étonnamment bien,
+
+340
+0:13:01.772,000 --> 0:13:03,000
+et nous faisons donc de la recherche additionnelle
+
+341
+0:13:04.19,000 --> 0:13:07,000
+pour voir si nous pouvons faire fonctionner cette approche encore mieux.
+
+342
+0:13:07.385,000 --> 0:13:08,000
+Un des problèmes
+
+343
+0:13:09.197,000 --> 0:13:1,000
+avec certaines des études que nous avons faites
+
+344
+0:13:10.82,000 --> 0:13:11,000
+est que parce qu'elles sont toutes faites
+
+345
+0:13:12.503,000 --> 0:13:13,000
+via Mechanical Turk,
+
+346
+0:13:14.093,000 --> 0:13:15,000
+ce ne sont pas de vrais mots de passe.
+
+347
+0:13:15.905,000 --> 0:13:17,000
+Ce sont des mots de passe qu'ils ont créés
+
+348
+0:13:18.01,000 --> 0:13:2,000
+ou que l'ordinateur a créés pour notre étude.
+
+349
+0:13:20.505,000 --> 0:13:21,000
+Et nous voulions savoir est-ce que les gens
+
+350
+0:13:22.073,000 --> 0:13:24,000
+se comporteraient de la même façon
+
+351
+0:13:24.385,000 --> 0:13:26,000
+avec leurs vrais mots de passe.
+
+352
+0:13:26.612,000 --> 0:13:29,000
+Nous nous sommes donc adressés au bureau de la sécurité des informations de la CMU
+
+353
+0:13:30.293,000 --> 0:13:32,000
+et leur avons demandé si nous pouvions avoir les vrais mots de passe
+
+354
+0:13:33.146,000 --> 0:13:34,000
+de tout le monde.
+
+355
+0:13:34.33,000 --> 0:13:37,000
+Ce n'est pas étonnant qu'ils aient été un peu réticents à les partager avec nous,
+
+356
+0:13:37.4,000 --> 0:13:38,000
+mais nous avons été capables de mettre au point
+
+357
+0:13:39.21,000 --> 0:13:4,000
+un système avec eux
+
+358
+0:13:40.25,000 --> 0:13:42,000
+où ils ont mis tous les vrais mots de passe
+
+359
+0:13:42.359,000 --> 0:13:45,000
+pour 25 000 étudiants, professeurs et membres du personnel de la CMU,
+
+360
+0:13:45.45,000 --> 0:13:47,000
+sur un ordinateur verrouillé dans une pièce verrouillée,
+
+361
+0:13:47.898,000 --> 0:13:48,000
+pas connecté à internet,
+
+362
+0:13:49.292,000 --> 0:13:5,000
+et ils ont lancé un programme que nous avions codé
+
+363
+0:13:51.14,000 --> 0:13:53,000
+pour analyser ces mots de passe.
+
+364
+0:13:53.292,000 --> 0:13:54,000
+Ils ont vérifié le programme.
+
+365
+0:13:54.618,000 --> 0:13:55,000
+Ils ont lancé le programme.
+
+366
+0:13:55.93,000 --> 0:13:56,000
+Nous n'avons jamais vraiment vu
+
+367
+0:13:57.668,000 --> 0:13:59,000
+aucun mot de passe.
+
+368
+0:14:00.485,000 --> 0:14:01,000
+Nous avons obtenu des résultats intéressants,
+
+369
+0:14:02,000 --> 0:14:03,000
+et les étudiants de Tepper dans le fond,
+
+370
+0:14:03.696,000 --> 0:14:05,000
+ceci va vous intéresser.
+
+371
+0:14:06.571,000 --> 0:14:09,000
+Nous avons constaté que les mots de passe créés
+
+372
+0:14:10.302,000 --> 0:14:12,000
+par des personnes affiliées à l'école d'informatique
+
+373
+0:14:12.46,000 --> 0:14:14,000
+étaient en fait 1,8 fois plus difficiles
+
+374
+0:14:14.784,000 --> 0:14:17,000
+que ceux des personnes affiliées à l'école de commerce.
+
+375
+0:14:18.522,000 --> 0:14:2,000
+Nous avons également beaucoup d'autres
+
+376
+0:14:20.562,000 --> 0:14:22,000
+informations démographiques très intéressantes.
+
+377
+0:14:22.8,000 --> 0:14:23,000
+L'autre chose très intéressante que nous avons constatée
+
+378
+0:14:24.646,000 --> 0:14:26,000
+est que lorsque nous avons comparé les mots de passe de Carnegie Mellon
+
+379
+0:14:27.086,000 --> 0:14:29,000
+avec ceux générés par Mechanical Turk,
+
+380
+0:14:29.369,000 --> 0:14:31,000
+il y avait beaucoup de similitudes,
+
+381
+0:14:31.988,000 --> 0:14:32,000
+et ça a contribué à valider notre méthode de recherche
+
+382
+0:14:33.936,000 --> 0:14:35,000
+et montre qu'en fait, collecter des mots de passe
+
+383
+0:14:36.446,000 --> 0:14:37,000
+en utilisant les études de Mechanical Turk
+
+384
+0:14:38.254,000 --> 0:14:4,000
+est une façon valide d'étudier les mots de passe.
+
+385
+0:14:41.042,000 --> 0:14:43,000
+C'étaient donc de bonnes nouvelles.
+
+386
+0:14:43.327,000 --> 0:14:45,000
+OK, pour finir je voudrais parler de
+
+387
+0:14:45.741,000 --> 0:14:47,000
+d'aperçus que j'ai eu alors que j'étais en année sabbatique
+
+388
+0:14:47.809,000 --> 0:14:5,000
+l'année dernière à l'école d'art de Carnegie Mellon.
+
+389
+0:14:51.01,000 --> 0:14:52,000
+Une des choses que j'ai faites
+
+390
+0:14:52.291,000 --> 0:14:53,000
+est que j'ai fait nombre de couettes,
+
+391
+0:14:53.815,000 --> 0:14:54,000
+et j'ai fait cette couette-ci.
+
+392
+0:14:55.363,000 --> 0:14:56,000
+Elle s'appelle la « couverture de sécurité ».
+
+393
+0:14:57.262,000 --> 0:14:59,000
+(Rires)
+
+394
+0:14:59.693,000 --> 0:15:02,000
+Et sur cette couette il y a les 1 000
+
+395
+0:15:02.788,000 --> 0:15:04,000
+mots de passe les plus fréquemment volés
+
+396
+0:15:05.116,000 --> 0:15:07,000
+du site RockYou.
+
+397
+0:15:07.687,000 --> 0:15:09,000
+Et la taille des mots de passe est proportionnelle
+
+398
+0:15:09.748,000 --> 0:15:1,000
+à leur fréquence d'apparition
+
+399
+0:15:11.649,000 --> 0:15:13,000
+dans la base de données des vols.
+
+400
+0:15:13.897,000 --> 0:15:15,000
+Ce que j'ai fait c'est que j'ai créé ce nuage de mots
+
+401
+0:15:16.529,000 --> 0:15:18,000
+et j'ai parcouru ces 1 000 mots
+
+402
+0:15:18.661,000 --> 0:15:19,000
+et je les ai classés
+
+403
+0:15:20.456,000 --> 0:15:22,000
+en catégories thématiques.
+
+404
+0:15:22.836,000 --> 0:15:23,000
+Et, dans certains cas,
+
+405
+0:15:24.739,000 --> 0:15:26,000
+il a été assez difficile de déterminer
+
+406
+0:15:26.777,000 --> 0:15:27,000
+dans quelle catégorie ils devraient être,
+
+407
+0:15:28.532,000 --> 0:15:29,000
+et ensuite j'ai créé un code couleur.
+
+408
+0:15:30.431,000 --> 0:15:32,000
+Voici des exemples de la difficulté.
+
+409
+0:15:33.05,000 --> 0:15:34,000
+« Justin ».
+
+410
+0:15:34.231,000 --> 0:15:35,000
+Est-ce le nom de l'utilisateur,
+
+411
+0:15:36.06,000 --> 0:15:37,000
+de son copain, de son fils ?
+
+412
+0:15:37.382,000 --> 0:15:39,000
+Peut-être que c'est juste un fan de Justin Bieber.
+
+413
+0:15:40.27,000 --> 0:15:42,000
+Ou « princesse ».
+
+414
+0:15:42.495,000 --> 0:15:43,000
+Est-ce un surnom ?
+
+415
+0:15:44.13,000 --> 0:15:45,000
+Est-ce un fan des princesses de Disney ?
+
+416
+0:15:45.725,000 --> 0:15:48,000
+Ou peut-être que c'est le nom de leur chat.
+
+417
+0:15:49.419,000 --> 0:15:5,000
+« Jetaime » apparaît de nombreuses fois
+
+418
+0:15:51.074,000 --> 0:15:52,000
+dans de nombreuses langues.
+
+419
+0:15:52.619,000 --> 0:15:55,000
+Il y a beaucoup d'amour dans ces mots de passe.
+
+420
+0:15:56.354,000 --> 0:15:57,000
+Si vous regardez attentivement, vous verrez également
+
+421
+0:15:58.034,000 --> 0:16:,000
+quelques obscénités,
+
+422
+0:16:00.301,000 --> 0:16:01,000
+mais pour moi il était très intéressant de voir
+
+423
+0:16:02.251,000 --> 0:16:04,000
+qu'il y a beaucoup plus d'amour que de haine
+
+424
+0:16:04.558,000 --> 0:16:06,000
+dans ces mots de passe.
+
+425
+0:16:06.85,000 --> 0:16:07,000
+Il y a des animaux,
+
+426
+0:16:08.34,000 --> 0:16:09,000
+beaucoup d'animaux,
+
+427
+0:16:09.7,000 --> 0:16:11,000
+et « singe » est l'animal le plus commun
+
+428
+0:16:12.004,000 --> 0:16:15,000
+et le 14ème mot de passe le plus populaire de tous.
+
+429
+0:16:15.679,000 --> 0:16:17,000
+Et cela m'a paru curieux,
+
+430
+0:16:17.91,000 --> 0:16:19,000
+et je me suis demandé : « Pourquoi les singes sont-il si populaires ? »
+
+431
+0:16:20.433,000 --> 0:16:23,000
+Donc dans notre dernière étude sur les mots de passe,
+
+432
+0:16:23.785,000 --> 0:16:24,000
+à chaque fois que nous détections quelqu'un
+
+433
+0:16:25.471,000 --> 0:16:27,000
+qui créait un mot de passe contenant le mot « singe »,
+
+434
+0:16:28.12,000 --> 0:16:31,000
+nous leur demandions pourquoi ils avaient « singe » dans leur mot de passe.
+
+435
+0:16:31.15,000 --> 0:16:32,000
+Et nous avons constaté --
+
+436
+0:16:33.06,000 --> 0:16:35,000
+jusqu'ici nous avons trouvé 17 personnes, je crois,
+
+437
+0:16:35.163,000 --> 0:16:36,000
+qui ont le mot « singe » --
+
+438
+0:16:36.446,000 --> 0:16:37,000
+Nous avons remarqué qu'environ un tiers d'entre eux disait
+
+439
+0:16:38.258,000 --> 0:16:39,000
+qu'ils avaient un animal de compagnie qui s'appelait « singe »
+
+440
+0:16:39.998,000 --> 0:16:41,000
+ou un ami surnommé « singe »,
+
+441
+0:16:42.289,000 --> 0:16:43,000
+et environ un tiers d'entre eux disait
+
+442
+0:16:43.949,000 --> 0:16:44,000
+que c'était juste qu'ils aimaient les singes
+
+443
+0:16:45.482,000 --> 0:16:46,000
+et que les singes sont très mignons.
+
+444
+0:16:47.12,000 --> 0:16:5,000
+Et celui-ci est vraiment mignon.
+
+445
+0:16:50.759,000 --> 0:16:53,000
+Il semble qu'en fin de compte,
+
+446
+0:16:54.167,000 --> 0:16:55,000
+quand nous créons nos mots de passe,
+
+447
+0:16:55.95,000 --> 0:16:56,000
+nous faisons soit quelque chose de très simple
+
+448
+0:16:57.924,000 --> 0:17:,000
+à taper, un schéma familier,
+
+449
+0:17:00.933,000 --> 0:17:02,000
+ou quelque chose qui nous rappelle l'expression « mot de passe »
+
+450
+0:17:03.419,000 --> 0:17:06,000
+ou le compte pour lequel nous avons créé le mot de passe,
+
+451
+0:17:06.731,000 --> 0:17:08,000
+ou quoi que ce soit.
+
+452
+0:17:09.348,000 --> 0:17:11,000
+Ou nous pensons à des choses qui nous rendent heureux,
+
+453
+0:17:11.99,000 --> 0:17:12,000
+et nous créons notre mot de passe
+
+454
+0:17:13.294,000 --> 0:17:15,000
+à partir de choses qui nous rendent heureux.
+
+455
+0:17:15.532,000 --> 0:17:17,000
+Et, alors que ça rend plus amusant le fait de taper
+
+456
+0:17:18.395,000 --> 0:17:2,000
+et de se souvenir de notre mot de passe,
+
+457
+0:17:21.265,000 --> 0:17:22,000
+ça rend aussi nos mots de passe
+
+458
+0:17:23.072,000 --> 0:17:24,000
+plus facilement devinables.
+
+459
+0:17:24.578,000 --> 0:17:25,000
+Je sais que beaucoup de ces exposés de TED
+
+460
+0:17:26.326,000 --> 0:17:27,000
+sont source d'inspiration
+
+461
+0:17:27.96,000 --> 0:17:29,000
+et qu'ils vont font penser à des choses sympas et heureuses,
+
+462
+0:17:30.421,000 --> 0:17:31,000
+mais quand vous créez votre mot de passe,
+
+463
+0:17:32.318,000 --> 0:17:33,000
+essayez de penser à quelque chose d'autre.
+
+464
+0:17:34.309,000 --> 0:17:35,000
+Merci.
+
+465
+0:17:35.416,000 --> 0:17:35,000
+(Applaudissements)
+

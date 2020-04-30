@@ -1,0 +1,1220 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Pablo Abitbol Revisor: Sebastian Betti
+
+2
+0:00:13.16,000 --> 0:00:16,000
+Quiero empezar mi historia en Alemania, en 1877,
+
+3
+0:00:16.16,000 --> 0:00:18,000
+con un matemático llamado Georg Cantor.
+
+4
+0:00:18.16,000 --> 0:00:23,000
+Y Cantor decidió que iba a tomar una línea y a borrar el tercio central de la línea,
+
+5
+0:00:23.16,000 --> 0:00:28,000
+y a tomar esas dos líneas resultantes y a traerlas de vuelta al mismo proceso, un proceso recursivo.
+
+6
+0:00:28.16,000 --> 0:00:3,000
+Así que comienza con una línea, luego con dos,
+
+7
+0:00:30.16,000 --> 0:00:33,000
+luego cuatro, luego 16, y así sucesivamente.
+
+8
+0:00:33.16,000 --> 0:00:36,000
+Y si hace esto un número infinito de veces, lo cual se puede hacer en matemáticas,
+
+9
+0:00:36.16,000 --> 0:00:38,000
+termina con un número infinito de líneas,
+
+10
+0:00:38.16,000 --> 0:00:41,000
+cada una de las cuales tiene un número infinito de puntos.
+
+11
+0:00:41.16,000 --> 0:00:45,000
+Así que se dio cuenta que tenía un conjunto cuyo número de elementos era mayor que infinito.
+
+12
+0:00:45.16,000 --> 0:00:48,000
+Y esto le sacudió la mente. Literalmente. Ingresó en un psiquiátrico. (Risas)
+
+13
+0:00:48.16,000 --> 0:00:5,000
+Y cuando salió del psiquiátrico,
+
+14
+0:00:50.16,000 --> 0:00:56,000
+estaba convencido que había venido a la Tierra para fundar la teoría de conjuntos transfinitos,
+
+15
+0:00:56.16,000 --> 0:00:59,000
+porque el mayor conjunto de infinito sería Dios mismo.
+
+16
+0:00:59.16,000 --> 0:01:,000
+Era un hombre muy religioso.
+
+17
+0:01:00.16,000 --> 0:01:02,000
+Era un matemático en una misión.
+
+18
+0:01:02.16,000 --> 0:01:04,000
+Y otros matemáticos hicieron cosas del mismo tipo.
+
+19
+0:01:04.16,000 --> 0:01:06,000
+El matemático sueco, von Koch,
+
+20
+0:01:06.16,000 --> 0:01:1,000
+decidió que en vez de restar líneas, las sumaría.
+
+21
+0:01:10.16,000 --> 0:01:12,000
+Y así salió con esta hermosa curva.
+
+22
+0:01:12.16,000 --> 0:01:15,000
+Y no hay una razón en particular para que tengamos que empezar con esta forma semilla;
+
+23
+0:01:15.16,000 --> 0:01:19,000
+podemos empezar con cualquier forma semilla.
+
+24
+0:01:19.16,000 --> 0:01:23,000
+Y voy a reorganizar esto y meter esto en algún lado -- ahí abajo, OK --
+
+25
+0:01:23.16,000 --> 0:01:3,000
+y ahora iterando, esa forma semilla como que se despliega en una estructura que se ve muy diferente.
+
+26
+0:01:30.16,000 --> 0:01:32,000
+Así que todas estas tienen la propiedad de la autosimilitud:
+
+27
+0:01:32.16,000 --> 0:01:34,000
+la parte se ve como el todo.
+
+28
+0:01:34.16,000 --> 0:01:36,000
+Es el mismo patrón en muchas escalas diferentes.
+
+29
+0:01:37.16,000 --> 0:01:39,000
+Ahora, los matemáticos pensaron que esto era algo muy extraño,
+
+30
+0:01:39.16,000 --> 0:01:44,000
+porque a medida que encoges una regla, mides una distancia cada vez más larga.
+
+31
+0:01:44.16,000 --> 0:01:46,000
+Y como pasaron por las iteraciones un número infinito de veces,
+
+32
+0:01:46.16,000 --> 0:01:52,000
+a medida que la regla se encoge infinitamente, la longitud se extiende hacia el infinito.
+
+33
+0:01:52.16,000 --> 0:01:53,000
+Esto no tenía ningún sentido,
+
+34
+0:01:53.16,000 --> 0:01:56,000
+así que relegaron estas curvas al final de los libros de matemáticas.
+
+35
+0:01:56.16,000 --> 0:02:,000
+Dijeron que éstas son curvas patológicas, y que no tenemos que discutirlas.
+
+36
+0:02:00.16,000 --> 0:02:01,000
+(Risas)
+
+37
+0:02:01.16,000 --> 0:02:03,000
+Y eso funcionó durante cien años.
+
+38
+0:02:04.16,000 --> 0:02:09,000
+Y luego en 1977, Benoit Mandelbrot, un matemático francés,
+
+39
+0:02:09.16,000 --> 0:02:14,000
+se dio cuenta que si haces gráficas por computadora y usas estas formas que llamó fractales
+
+40
+0:02:14.16,000 --> 0:02:16,000
+obtienes las formas de la naturaleza.
+
+41
+0:02:16.16,000 --> 0:02:2,000
+Obtienes los pulmones humanos, obtienes acacias, obtienes helechos,
+
+42
+0:02:20.16,000 --> 0:02:22,000
+obtienes estas hermosas formas naturales.
+
+43
+0:02:22.16,000 --> 0:02:26,000
+Si miran su pulgar y su dedo índice y se fijan justo donde se encuentran --
+
+44
+0:02:26.16,000 --> 0:02:28,000
+adelante, háganlo ahora --
+
+45
+0:02:28.16,000 --> 0:02:31,000
+y relajen su mano, van a ver un pliegue,
+
+46
+0:02:31.16,000 --> 0:02:34,000
+y luego una arruga dentro del pliegue, y un pliegue dentro de la arruga. ¿Verdad?
+
+47
+0:02:34.16,000 --> 0:02:36,000
+Su cuerpo está cubierto de fractales.
+
+48
+0:02:36.16,000 --> 0:02:39,000
+Los matemáticos que decían que éstas eran formas patológicamente inútiles.
+
+49
+0:02:39.16,000 --> 0:02:41,000
+Ellos estaban respirando esas palabras con pulmones fractales.
+
+50
+0:02:41.16,000 --> 0:02:45,000
+Es muy irónico. Y les voy a mostrar una pequeña recursión natural acá.
+
+51
+0:02:45.16,000 --> 0:02:5,000
+De nuevo, tan solo tomamos estas líneas y las reemplazamos recursivamente con toda la figura.
+
+52
+0:02:50.16,000 --> 0:02:55,000
+Asi que aquí está la segunda iteración, y la tercera, la cuarta, y así sucesivamente.
+
+53
+0:02:55.16,000 --> 0:02:57,000
+Así que la naturaleza tiene esta estructura autosimilar.
+
+54
+0:02:57.16,000 --> 0:02:59,000
+La naturaleza usa sistemas auto-organizativos.
+
+55
+0:02:59.16,000 --> 0:03:02,000
+En los años 80 me pasó que noté
+
+56
+0:03:02.16,000 --> 0:03:06,000
+que si uno mira una fotografía aérea de una aldea africana, uno ve fractales.
+
+57
+0:03:06.16,000 --> 0:03:1,000
+Y pensé: "¡Esto es fabuloso! Me pregunto: ¿por qué?"
+
+58
+0:03:10.16,000 --> 0:03:12,000
+Y por supuesto tuve que ir a África y preguntarle a la gente por qué.
+
+59
+0:03:12.16,000 --> 0:03:18,000
+Así que obtuve una beca Fulbright para viajar alrededor de Africa por un año
+
+60
+0:03:18.16,000 --> 0:03:2,000
+preguntándole a la gente por qué estaban construyendo fractales,
+
+61
+0:03:20.16,000 --> 0:03:22,000
+lo cual es un gran trabajo si pueden conseguirlo.
+
+62
+0:03:22.16,000 --> 0:03:23,000
+(Risas)
+
+63
+0:03:23.16,000 --> 0:03:3,000
+Y finalmente llegué a esta ciudad, y había hecho un pequeño modelo fractal para la ciudad
+
+64
+0:03:30.16,000 --> 0:03:33,000
+sólo para ver cómo se desplegaría --
+
+65
+0:03:33.16,000 --> 0:03:36,000
+pero cuando llegué ahí, llegué al palacio del jefe,
+
+66
+0:03:36.16,000 --> 0:03:39,000
+y mi francés no es muy bueno, dije algo como:
+
+67
+0:03:39.16,000 --> 0:03:42,000
+"Soy un matemático y quisiera subirme a su techo".
+
+68
+0:03:42.16,000 --> 0:03:45,000
+Pero él estuvo realmente tranquilo con eso, y me subió ahí,
+
+69
+0:03:45.16,000 --> 0:03:46,000
+y hablamos de fractales.
+
+70
+0:03:46.16,000 --> 0:03:49,000
+Y dijo: "¡Oh si, si! Nosotros sabíamos de un rectángulo en un rectángulo,
+
+71
+0:03:49.16,000 --> 0:03:51,000
+sabemos al respecto".
+
+72
+0:03:51.16,000 --> 0:03:55,000
+Y resulta que la insignia real tiene un rectángulo dentro de un rectángulo dentro de un rectángulo,
+
+73
+0:03:55.16,000 --> 0:03:59,000
+y el camino a través del palacio es en efecto esta espiral.
+
+74
+0:03:59.16,000 --> 0:04:03,000
+Y a medida que uno atraviesa el camino, uno tiene que ser más y más educado.
+
+75
+0:04:03.16,000 --> 0:04:06,000
+Así que están trazando el mapa de la escala social sobre una escala geométrica;
+
+76
+0:04:06.16,000 --> 0:04:11,000
+es un patrón consciente. No es inconsciente como el montículo fractal de las termitas.
+
+77
+0:04:11.16,000 --> 0:04:13,000
+Esto es una aldea en el sur de Zambia.
+
+78
+0:04:13.16,000 --> 0:04:17,000
+Los ba-ila construyeron esta aldea de alrededor de 400 metros de diámetro.
+
+79
+0:04:17.16,000 --> 0:04:19,000
+Hay un anillo enorme.
+
+80
+0:04:19.16,000 --> 0:04:25,000
+Los anillos que representan los recintos familiares se agrandan cada vez más, a medida que uno va hacia atrás,
+
+81
+0:04:26.16,000 --> 0:04:3,000
+y luego uno tiene el anillo del jefe acá hacia atrás
+
+82
+0:04:30.16,000 --> 0:04:33,000
+y el recinto de la familia inmediata del jefe en ese anillo.
+
+83
+0:04:33.16,000 --> 0:04:34,000
+Así que aquí hay un pequeño modelo fractal de él.
+
+84
+0:04:34.16,000 --> 0:04:37,000
+Acá hay una casa con el altar sagrado,
+
+85
+0:04:37.16,000 --> 0:04:4,000
+acá está la casa de casas, el recinto familiar,
+
+86
+0:04:40.16,000 --> 0:04:43,000
+con los humanos acá donde estaría el altar sagrado,
+
+87
+0:04:43.16,000 --> 0:04:45,000
+y luego acá está la aldea como un todo --
+
+88
+0:04:45.16,000 --> 0:04:5,000
+un anillo de anillo de anillos con la familia extensa del jefe acá, la famiia inmediata del jefe acá,
+
+89
+0:04:50.16,000 --> 0:04:53,000
+y acá hay una diminuta aldea tan sólo así de grande.
+
+90
+0:04:53.16,000 --> 0:04:57,000
+Ahora podrán ustedes preguntarse: ¿cómo puede la gente caber en una diminuta aldea tan solo así de grande?
+
+91
+0:04:57.16,000 --> 0:05:,000
+Eso es porque ellos son gente espíritu. Son los ancestros.
+
+92
+0:05:00.16,000 --> 0:05:05,000
+Y, por supuesto, la gente espíritu tiene una pequeña aldea miniatura en su aldea, ¿verdad?
+
+93
+0:05:05.16,000 --> 0:05:08,000
+Así es que es tal como dijo Georg Cantor, la recursión continúa para siempre.
+
+94
+0:05:08.16,000 --> 0:05:12,000
+Esto sucede en el macizo de Mandara, cerca de la frontera nigeriana con Camerún, en Mokoulek.
+
+95
+0:05:12.16,000 --> 0:05:15,000
+Vi este diagrama dibujado por un arquitecto francés,
+
+96
+0:05:15.16,000 --> 0:05:17,000
+y pensé: "¡Guau! ¡Qué fractal tan hermoso!"
+
+97
+0:05:17.16,000 --> 0:05:23,000
+Así que traté de salir con una forma semilla, la cual, iterándola, se desplegaría en esta cosa.
+
+98
+0:05:23.16,000 --> 0:05:25,000
+Llegué a esta estructura de acá.
+
+99
+0:05:25.16,000 --> 0:05:29,000
+Veamos, primera iteración, segunda, tercera, cuarta.
+
+100
+0:05:29.16,000 --> 0:05:31,000
+Ahora, después de que hice la simulación,
+
+101
+0:05:31.16,000 --> 0:05:34,000
+me di cuenta que toda la aldea gira en espiral, justo así,
+
+102
+0:05:34.16,000 --> 0:05:4,000
+y acá está esa línea de recurrencia -- una línea autorrecurrente que se desdobla en un fractal.
+
+103
+0:05:40.16,000 --> 0:05:45,000
+Bueno, noté que esa línea está más o menos donde está el único edificio cuadrado de la aldea.
+
+104
+0:05:45.16,000 --> 0:05:47,000
+Así que, cuando llegué a la aldea,
+
+105
+0:05:47.16,000 --> 0:05:49,000
+dije: "¿Me pueden llevar al edificio cuadrado?
+
+106
+0:05:49.16,000 --> 0:05:51,000
+Creo que algo está pasando ahí".
+
+107
+0:05:51.16,000 --> 0:05:54,000
+Y ellos dijeron: "Bueno, lo podemos llevar ahí, pero usted no puede entrar
+
+108
+0:05:54.16,000 --> 0:05:57,000
+porque ese es el altar sagrado, donde hacemos sacrificios cada año
+
+109
+0:05:57.16,000 --> 0:06:,000
+para mantener esos ciclos anuales de fertilidad en los campos".
+
+110
+0:06:00.16,000 --> 0:06:02,000
+Y comencé a darme cuenta que los ciclos de fertilidad
+
+111
+0:06:02.16,000 --> 0:06:06,000
+eran justo como los ciclos recursivos del algoritmo geométrico que construye esto.
+
+112
+0:06:06.16,000 --> 0:06:1,000
+Y la recursión en algunas de estas aldeas continúa hasta escalas diminutas.
+
+113
+0:06:10.16,000 --> 0:06:12,000
+Acá hay una aldea nankani en Mali.
+
+114
+0:06:12.16,000 --> 0:06:15,000
+Y pueden ver, uno entra al recinto familiar --
+
+115
+0:06:15.16,000 --> 0:06:19,000
+uno entra y acá hay ollas en el fogón, apiladas recursivamente.
+
+116
+0:06:19.16,000 --> 0:06:23,000
+Acá hay calabazas que Issa justo nos mostraba,
+
+117
+0:06:23.16,000 --> 0:06:25,000
+y están apiladas recursivamente.
+
+118
+0:06:25.16,000 --> 0:06:27,000
+Ahora, la más pequeña de las calabazas guarda el alma de la mujer.
+
+119
+0:06:27.16,000 --> 0:06:29,000
+Y cuando muere hacen una ceremonia
+
+120
+0:06:29.16,000 --> 0:06:34,000
+en la que rompen la pila llamada la zalanga y su alma viaja a la eternidad.
+
+121
+0:06:34.16,000 --> 0:06:37,000
+De nuevo, el infinito es importante.
+
+122
+0:06:38.16,000 --> 0:06:42,000
+Ahora, ustedes pueden hacerse tres preguntas en este punto.
+
+123
+0:06:42.16,000 --> 0:06:46,000
+¿No son estos patrones de escala simplemente universales en toda arquitectura aborigen?
+
+124
+0:06:46.16,000 --> 0:06:48,000
+Y esa era en efecto mi hipótesis inicial.
+
+125
+0:06:48.16,000 --> 0:06:5,000
+Cuando vi por primera vez esos fractales africanos,
+
+126
+0:06:50.16,000 --> 0:06:54,000
+pensé: "¡Guau! Así que cualquier grupo aborigen que no tiene sociedad estatal,
+
+127
+0:06:54.16,000 --> 0:06:57,000
+esa especie de jerarquía, debe tener algún tipo de arquitectura de abajo hacia arriba."
+
+128
+0:06:57.16,000 --> 0:06:59,000
+Pero eso resulta no ser cierto.
+
+129
+0:06:59.16,000 --> 0:07:03,000
+Comencé a recolectar fotografías aéreas de arquitectura aborigen de EE.UU. y del Pacífico Sur;
+
+130
+0:07:03.16,000 --> 0:07:05,000
+y sólo las africanas eran fractales.
+
+131
+0:07:05.16,000 --> 0:07:11,000
+Y si piensan al respecto, todas estas distintas sociedades usan diferentes temas de diseños geométricos.
+
+132
+0:07:11.16,000 --> 0:07:17,000
+Así que los aborígenes de EE.UU. usan una combinación de simetría circular y simetría cuádruple.
+
+133
+0:07:17.16,000 --> 0:07:19,000
+Lo pueden ver en la cerámica y la cestería.
+
+134
+0:07:19.16,000 --> 0:07:22,000
+Acá hay una fotografía aérea de una de las ruinas anasazi;
+
+135
+0:07:22.16,000 --> 0:07:27,000
+pueden ver que es circular en la escala más amplia, pero rectangular en la escala más pequeña, ¿verdad?
+
+136
+0:07:27.16,000 --> 0:07:31,000
+No es el mismo patrón en dos escalas diferenrtes.
+
+137
+0:07:31.16,000 --> 0:07:32,000
+Segundo, podrían preguntar:
+
+138
+0:07:32.16,000 --> 0:07:35,000
+"Bueno, Dr. Eglash, ¿no está Ud. ignorando la diversidad de culturas africanas?"
+
+139
+0:07:36.16,000 --> 0:07:38,000
+Y, tres veces, la respuesta es no.
+
+140
+0:07:38.16,000 --> 0:07:42,000
+En primer lugar, estoy de acuerdo con el maravilloso libro de Mudimbe, "La Invención de África".
+
+141
+0:07:42.16,000 --> 0:07:45,000
+en que África es un invento artificial, primero, del colonialismo
+
+142
+0:07:45.16,000 --> 0:07:47,000
+y, luego, de los movimientos opositores.
+
+143
+0:07:47.16,000 --> 0:07:52,000
+No, porque una práctica de diseño ampliamente compartida no implica necesariamente una unidad cultural --
+
+144
+0:07:52.16,000 --> 0:07:55,000
+y definitivamente no está en el ADN.
+
+145
+0:07:55.16,000 --> 0:07:57,000
+Y finalmente, los fractales tienen autosimilitud --
+
+146
+0:07:57.16,000 --> 0:08:01,000
+así que son similares a sí mismos pero no son necesariamente similares entre sí --
+
+147
+0:08:01.16,000 --> 0:08:03,000
+uno ve usos muy diferentes de los fractales.
+
+148
+0:08:03.16,000 --> 0:08:05,000
+Es una tecnología compartida en África.
+
+149
+0:08:06.16,000 --> 0:08:09,000
+Y finalmente, bueno, ¿no es esto tan solo intuición?
+
+150
+0:08:09.16,000 --> 0:08:11,000
+No es realmente conocimiento matemático.
+
+151
+0:08:11.16,000 --> 0:08:14,000
+No es posible que los africanos realmente estén usando geometría fractal, ¿cierto?
+
+152
+0:08:14.16,000 --> 0:08:16,000
+No fue inventada sino hasta los años 70.
+
+153
+0:08:17.16,000 --> 0:08:22,000
+Bueno, es verdad que algunos fractales africanos son, hasta donde yo sé, sólo pura intuición.
+
+154
+0:08:22.16,000 --> 0:08:25,000
+Así que algunas de estas cosas, yo recorrería las calles de Dakar
+
+155
+0:08:25.16,000 --> 0:08:28,000
+pregutándole a la gente: "¿Cuál es el algoritmo? ¿Cuál es la regla para hacer esto?"
+
+156
+0:08:28.16,000 --> 0:08:29,000
+y me dirían,
+
+157
+0:08:29.16,000 --> 0:08:32,000
+"Bueno, sólo lo hacemos así porque se ve bonito, estúpido". (Risas)
+
+158
+0:08:32.16,000 --> 0:08:35,000
+Pero algunas veces no es ese el caso.
+
+159
+0:08:35.16,000 --> 0:08:4,000
+En algunos casos hay, en efecto, algoritmos y algoritmos muy sofisticados.
+
+160
+0:08:40.16,000 --> 0:08:43,000
+Así en la escultura manghetu uno vería esta geometría recursiva.
+
+161
+0:08:43.16,000 --> 0:08:48,000
+En las cruces etíopes uno ve este maravilloso desdoblamiento de la forma.
+
+162
+0:08:48.16,000 --> 0:08:52,000
+En Angola la etnia chokwe dibuja líneas en la arena
+
+163
+0:08:52.16,000 --> 0:08:55,000
+y es lo que el matemático alemán Euler llamó un grafo;
+
+164
+0:08:55.16,000 --> 0:08:57,000
+ahora lo llamamos un camino euleriano --
+
+165
+0:08:57.16,000 --> 0:08:59,000
+nunca puedes levantar tu bolígrafo de la superficie
+
+166
+0:08:59.16,000 --> 0:09:02,000
+y nunca puedes pasar sobre la misma línea dos veces.
+
+167
+0:09:02.16,000 --> 0:09:05,000
+Pero lo hacen recursivamente, y lo hacen con un sistema de gradación por edades,
+
+168
+0:09:05.16,000 --> 0:09:08,000
+así que los niños pequeños aprenden éste, y luego los mayores aprenden éste,
+
+169
+0:09:08.16,000 --> 0:09:11,000
+luego en la siguiente iniciación por grado de edad, uno aprende éste.
+
+170
+0:09:11.16,000 --> 0:09:14,000
+Y con cada iteración del algoritmo,
+
+171
+0:09:14.16,000 --> 0:09:16,000
+uno aprende las iteraciones del mito.
+
+172
+0:09:16.16,000 --> 0:09:18,000
+Uno aprende el siguiente nivel de conocimiento.
+
+173
+0:09:19.16,000 --> 0:09:21,000
+Y finalmente, en toda África, uno ve este juego de tablero.
+
+174
+0:09:21.16,000 --> 0:09:24,000
+Se llama owari en Ghana, donde yo lo estudié;
+
+175
+0:09:24.16,000 --> 0:09:29,000
+se llama mancala acá en la costa este, bao en Kenia, sogo en otras partes.
+
+176
+0:09:29.16,000 --> 0:09:34,000
+Bueno, uno ve patrones auto-organizados que ocurren espontáneamente en este juego de tablero.
+
+177
+0:09:34.16,000 --> 0:09:37,000
+Y la gente en Ghana sabe de estos patrones auto-organizados
+
+178
+0:09:37.16,000 --> 0:09:39,000
+y los usan estratégicamente.
+
+179
+0:09:39.16,000 --> 0:09:41,000
+Así que éste es un conocimiento muy consciente.
+
+180
+0:09:41.16,000 --> 0:09:43,000
+Acá hay un maravilloso fractal.
+
+181
+0:09:43.16,000 --> 0:09:47,000
+Donde quiera que vayan en Sahel, verán esta pantalla de viento.
+
+182
+0:09:47.16,000 --> 0:09:51,000
+Y por supuesto las cercas del mundo son cartesianas, todas estrictamente lineales.
+
+183
+0:09:51.16,000 --> 0:09:55,000
+Pero acá en África, Uds. tienen estas cercas no lineales en escalas.
+
+184
+0:09:55.16,000 --> 0:09:57,000
+Así que busqué a una de las personas que fabrican estas cosas.
+
+185
+0:09:57.16,000 --> 0:10:01,000
+un tipo en Mali justo en las afueras de Bamako, y le pregunté:
+
+186
+0:10:01.16,000 --> 0:10:03,000
+"¿Cómo es que Ud. anda haciendo cercas fractales? Porque nadie más las hace".
+
+187
+0:10:03.16,000 --> 0:10:05,000
+Y su respuesta fue muy interesante.
+
+188
+0:10:05.16,000 --> 0:10:1,000
+Dijo: "Bueno, si viviera en la selva, sólo usaría las hileras largas de paja,
+
+189
+0:10:10.16,000 --> 0:10:12,000
+porque son rápidas, y son muy baratas.
+
+190
+0:10:12.16,000 --> 0:10:15,000
+No lleva mucho tiempo ni consume mucha paja".
+
+191
+0:10:15.16,000 --> 0:10:17,000
+Dijo: "Pero el viento y el polvo se filtran muy fácilmente.
+
+192
+0:10:17.16,000 --> 0:10:21,000
+Ahora, las filas apretadas en lo más alto, realmente detienen el viento y el polvo.
+
+193
+0:10:21.16,000 --> 0:10:26,000
+Pero lleva mucho tiempo, y mucha paja, porque están realmente apretadas".
+
+194
+0:10:26.16,000 --> 0:10:28,000
+"Ahora", dijo, "sabemos por experiencia
+
+195
+0:10:28.16,000 --> 0:10:33,000
+que entre más arriba del piso vayas, más fuerte sopla el viento".
+
+196
+0:10:33.16,000 --> 0:10:36,000
+¿Verdad? Es justo como en el análisis costo-beneficio.
+
+197
+0:10:36.16,000 --> 0:10:38,000
+Y yo medí las longitudes de la paja,
+
+198
+0:10:38.16,000 --> 0:10:4,000
+lo puse en una matriz bi-logarítmica, saqué el exponencial de escala,
+
+199
+0:10:40.16,000 --> 0:10:45,000
+y casi exactamente equivale al exponencial de escala para la relación entre altura y velocidad del viento
+
+200
+0:10:45.16,000 --> 0:10:46,000
+del manual de ingeniería de vientos.
+
+201
+0:10:46.16,000 --> 0:10:51,000
+Así que estos tipos dan justo en el blanco con el uso práctico de tecnología de escala.
+
+202
+0:10:51.16,000 --> 0:10:56,000
+El ejemplo más complejo que encontré de una aproximación algorítmica a los fractales
+
+203
+0:10:56.16,000 --> 0:10:58,000
+en realidad no fue en geometría, sino en un código simbólico,
+
+204
+0:10:58.16,000 --> 0:11:01,000
+y esto fue la adivinación bahmani en arena.
+
+205
+0:11:01.16,000 --> 0:11:04,000
+Y el mismo sistema de adivinación se encuentra por toda África.
+
+206
+0:11:04.16,000 --> 0:11:09,000
+Lo pueden encontrar en la costa este y en la costa oeste,
+
+207
+0:11:09.16,000 --> 0:11:11,000
+y usualmente los símbolos están muy bien preservados,
+
+208
+0:11:11.16,000 --> 0:11:17,000
+así que cada uno de estos símbolos tiene cuatro bits -- es una palabra binaria de cuatro bits --
+
+209
+0:11:17.16,000 --> 0:11:22,000
+uno dibuja esta líneas aleatoriamente sobre la arena, y luego cuenta,
+
+210
+0:11:22.16,000 --> 0:11:24,000
+y si es un número impar, uno dibuja un trazo,
+
+211
+0:11:24.16,000 --> 0:11:26,000
+y si es un número par, uno dibuja dos trazos.
+
+212
+0:11:26.16,000 --> 0:11:29,000
+Y hacían esto muy rápidamente
+
+213
+0:11:29.16,000 --> 0:11:31,000
+y yo no podía entender hacia qué iban --
+
+214
+0:11:31.16,000 --> 0:11:33,000
+ellos sólo hicieron la aleatoridad cuatro veces --
+
+215
+0:11:33.16,000 --> 0:11:35,000
+Yo no podía entender de dónde sacaban los otros 12 símbolos.
+
+216
+0:11:35.16,000 --> 0:11:37,000
+Y no me lo dirían.
+
+217
+0:11:37.16,000 --> 0:11:39,000
+Decían: "No, no, no te puedo hablar de esto".
+
+218
+0:11:39.16,000 --> 0:11:41,000
+Y yo decía: "Bueno, mira, te pago, puedes ser mi profesor,
+
+219
+0:11:41.16,000 --> 0:11:43,000
+y yo vengo cada día y te pago".
+
+220
+0:11:43.16,000 --> 0:11:46,000
+Ellos dijeron: "No es cuestión de dinero. Este es un asunto religioso".
+
+221
+0:11:46.16,000 --> 0:11:47,000
+Y finalmente, de la desesperación, yo dije:
+
+222
+0:11:47.16,000 --> 0:11:5,000
+"Bueno, déjenme explicar Georg Cantor en 1877".
+
+223
+0:11:50.16,000 --> 0:11:54,000
+Y empecé a explicar por qué estaba yo en África,
+
+224
+0:11:54.16,000 --> 0:11:56,000
+y se emocionaron mucho cuando vieron el conjunto de Cantor.
+
+225
+0:11:56.16,000 --> 0:12:,000
+Y uno de ellos dijo: "Ven acá. Creo que te puedo ayudar con esto".
+
+226
+0:12:00.16,000 --> 0:12:05,000
+Y así me llevó por el proceso de iniciación ritual de un sacerdote bahmani.
+
+227
+0:12:05.16,000 --> 0:12:07,000
+Y por supuesto, yo sólo estaba interesado en la matemática,
+
+228
+0:12:07.16,000 --> 0:12:09,000
+así que todo el tiempo, él sacudía su cabeza diciendo:
+
+229
+0:12:09.16,000 --> 0:12:1,000
+"Tu sabes, yo no lo aprendí de esta manera".
+
+230
+0:12:10.16,000 --> 0:12:14,000
+Pero yo tenía que dormir con una nuez de cola al lado de la cama, enterrada en la arena,
+
+231
+0:12:14.16,000 --> 0:12:17,000
+y darle siete monedas a los siete leprosos y todo eso.
+
+232
+0:12:17.16,000 --> 0:12:21,000
+Y finalmente, él me reveló la verdad del asunto.
+
+233
+0:12:22.16,000 --> 0:12:26,000
+Y resulta que es un generador de números pseudo-aleatorios que usa caos determinístico.
+
+234
+0:12:26.16,000 --> 0:12:32,000
+Cuano uno tiene un símbolo de cuatro bits, uno puede juntarlo con otro de costado.
+
+235
+0:12:32.16,000 --> 0:12:34,000
+Así, par más impar da impar.
+
+236
+0:12:34.16,000 --> 0:12:36,000
+Impar más par da impar.
+
+237
+0:12:36.16,000 --> 0:12:39,000
+Par más par da par. Impar más impar da par.
+
+238
+0:12:39.16,000 --> 0:12:43,000
+Es adición módulo 2, justo como en la prueba de paridad de bits de su computadora.
+
+239
+0:12:43.16,000 --> 0:12:47,000
+Y, luego, uno toma este símbolo y lo vuelve a meter
+
+240
+0:12:47.16,000 --> 0:12:49,000
+así que es una diversidad de símbolos autogenerada.
+
+241
+0:12:49.16,000 --> 0:12:53,000
+Realmente están usando un tipo de caos determinístico al hacer esto.
+
+242
+0:12:53.16,000 --> 0:12:55,000
+Ahora, como es un código binario,
+
+243
+0:12:55.16,000 --> 0:12:57,000
+uno puede en efecto implementar esto en hardware --
+
+244
+0:12:57.16,000 --> 0:13:02,000
+qué fantástica herramienta de enseñanza sería esto en las escuelas africanas de ingeniería.
+
+245
+0:13:02.16,000 --> 0:13:05,000
+Y lo más interesante que encontré al respecto fue algo histórico.
+
+246
+0:13:05.16,000 --> 0:13:11,000
+En el siglo 12, Hugo Santillana lo trajo de los místicos musulmanes a España.
+
+247
+0:13:11.16,000 --> 0:13:17,000
+Y ahí entró en la comunidad alquimista como geomancia:
+
+248
+0:13:17.16,000 --> 0:13:19,000
+adivinación a través de la tierra.
+
+249
+0:13:19.16,000 --> 0:13:24,000
+Esto es una carta geomántica dibujada por el rey Ricardo II en 1390.
+
+250
+0:13:24.16,000 --> 0:13:27,000
+Leibniz, el matemático alemán,
+
+251
+0:13:27.16,000 --> 0:13:31,000
+habló de geomancia en su disertación llamada "De Combinatoria"
+
+252
+0:13:31.16,000 --> 0:13:35,000
+Y dijo: "Bueno, en vez de usar un trazo y dos trazos,
+
+253
+0:13:35.16,000 --> 0:13:39,000
+usemos un uno y un cero, y podemos contar por potencias de dos".
+
+254
+0:13:39.16,000 --> 0:13:41,000
+¿Correcto? Unos y ceros: el código binario.
+
+255
+0:13:41.16,000 --> 0:13:44,000
+George Boole tomó el código binario de Leibniz y creó el álgebra booleana,
+
+256
+0:13:44.16,000 --> 0:13:47,000
+y John von Neumann tomó el álgebra boolena y creó la computadora digital.
+
+257
+0:13:47.16,000 --> 0:13:5,000
+Así que todos estos pequeños PDAs y computadores portátiles --
+
+258
+0:13:50.16,000 --> 0:13:53,000
+todo circuito digital en el mundo -- comenzó en África.
+
+259
+0:13:53.16,000 --> 0:13:58,000
+Y sé que Brian Eno dice que no hay suficiente África en las computadoras;
+
+260
+0:13:58.16,000 --> 0:14:03,000
+saben, yo no creo que haya suficiente historia africana en Brian Eno.
+
+261
+0:14:03.16,000 --> 0:14:06,000
+(Aplausos)
+
+262
+0:14:06.16,000 --> 0:14:1,000
+Así que déjenme terminar con unas pocas palabras sobre aplicaciones que hemos encontrado para esto.
+
+263
+0:14:10.16,000 --> 0:14:12,000
+Y pueden ir a nuestro sitio web,
+
+264
+0:14:12.16,000 --> 0:14:14,000
+las aplicaciones son gratuitas; simplemente corren en el browser.
+
+265
+0:14:14.16,000 --> 0:14:16,000
+Cualquier persona en el mundo puede usarlas.
+
+266
+0:14:16.16,000 --> 0:14:21,000
+El programa de Ampliación de la Participación en la Computación de la Fundación Nacional de la Ciencia
+
+267
+0:14:21.16,000 --> 0:14:28,000
+recientemente nos otorgó una beca de investigación para hacer una versión programable de estas herramientas de diseño,
+
+268
+0:14:28.16,000 --> 0:14:3,000
+así que esperamos que en tres años cualquiera pueda entrar a la Web
+
+269
+0:14:30.16,000 --> 0:14:33,000
+y crear sus propias simulaciones y sus propios artefactos.
+
+270
+0:14:33.16,000 --> 0:14:38,000
+Nos hemos centrado en EE.UU., en estudiantes afro, aborigenes y latinos de EE.UU.
+
+271
+0:14:38.16,000 --> 0:14:44,000
+Hemos encontrado mejorías estadísticamente significativas en niños que usan este software en clases de matemáticas
+
+272
+0:14:44.16,000 --> 0:14:47,000
+en comparación con un grupo de control que no tenía el software.
+
+273
+0:14:47.16,000 --> 0:14:53,000
+Así que es realmente muy exitoso enseñándole a los niños que tienen una herencia que es sobre matemáticas,
+
+274
+0:14:53.16,000 --> 0:14:57,000
+que no es sólo sobre canto y danza.
+
+275
+0:14:57.16,000 --> 0:15:,000
+Hemos comenzado un programa piloto en Ghana,
+
+276
+0:15:00.16,000 --> 0:15:05,000
+tenemos una pequeña beca semilla, sólo para ver si la gente está dispuesta a trabajar con nostros en esto;
+
+277
+0:15:05.16,000 --> 0:15:08,000
+estamos muy emocionados de las posibilidades futuras para eso.
+
+278
+0:15:08.16,000 --> 0:15:1,000
+También hemos estado trabajando en diseño.
+
+279
+0:15:10.16,000 --> 0:15:15,000
+No puse su nombre acá -- mi colega, Kerry, en Kenia, salió con esta gran idea
+
+280
+0:15:15.16,000 --> 0:15:2,000
+de usar estructuras fractales para direcciones de correo en aldeas que tienen estructura fractal
+
+281
+0:15:20.16,000 --> 0:15:24,000
+porque si uno trata de imponer un sistema postal con estructura matricial en una aldea fractal,
+
+282
+0:15:24.16,000 --> 0:15:26,000
+no se ajusta muy bien.
+
+283
+0:15:26.16,000 --> 0:15:31,000
+Bernard Tschumi en la Universidad de Columbia ha terminado de usar esto en un diseño para un museo de arte africano.
+
+284
+0:15:31.16,000 --> 0:15:39,000
+David Hughes en la Universidad Estatal de Ohio ha escrito un manual de arquitectura afrocéntrica
+
+285
+0:15:39.16,000 --> 0:15:41,000
+en el que usa algunas de estas estructuras fractales.
+
+286
+0:15:41.16,000 --> 0:15:46,000
+Y finalmente, yo sólo quería apuntar que esta idea de auto-organización,
+
+287
+0:15:46.16,000 --> 0:15:48,000
+como oímos más temprano, está en el cerebro.
+
+288
+0:15:48.16,000 --> 0:15:53,000
+Está en -- está en el motor de búsqueda de Google.
+
+289
+0:15:53.16,000 --> 0:15:55,000
+De hecho, la razón por la cual Google ha sido tan exitoso
+
+290
+0:15:55.16,000 --> 0:15:59,000
+es porque fueron los primeros en tomar ventaja de las propiedades auto-organizativas de la red.
+
+291
+0:15:59.16,000 --> 0:16:01,000
+Está en la sostenibilidad ecológica.
+
+292
+0:16:01.16,000 --> 0:16:03,000
+Está en el poder del emprendimiento para el desarrollo,
+
+293
+0:16:03.16,000 --> 0:16:05,000
+en el poder ético de la democracia.
+
+294
+0:16:06.16,000 --> 0:16:08,000
+También está en algunas cosas malas.
+
+295
+0:16:08.16,000 --> 0:16:11,000
+La auto-organización es la razón por la cual el SIDA se esparce tan rápido.
+
+296
+0:16:11.16,000 --> 0:16:15,000
+Y si Uds. no creen que el capitalismo, que es auto-organizativo, puede tener efectos destructivos,
+
+297
+0:16:15.16,000 --> 0:16:17,000
+es que no han abierto suficientemente los ojos.
+
+298
+0:16:17.16,000 --> 0:16:21,000
+Así que debemos pensar sobre, como fue dicho antes,
+
+299
+0:16:21.16,000 --> 0:16:23,000
+los métodos africanos tradicionales para hacer auto-organización.
+
+300
+0:16:23.16,000 --> 0:16:25,000
+Estos son algoritmos robustos.
+
+301
+0:16:26.16,000 --> 0:16:29,000
+Estas son maneras de hacer auto-organización -- de hacer emprendimiento --
+
+302
+0:16:29.16,000 --> 0:16:31,000
+que son delicadas, que son igualitarias.
+
+303
+0:16:31.16,000 --> 0:16:35,000
+Así que si queremos encontrar una mejor manera de hacer ese tipo de trabajo,
+
+304
+0:16:35.16,000 --> 0:16:4,000
+no necesitamos buscar más allá de África para encontrar estos robustos algoritmos auto-organizativos.
+
+305
+0:16:40.16,000 --> 0:16:41,000
+Gracias.
+

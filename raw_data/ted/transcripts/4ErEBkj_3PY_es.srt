@@ -1,0 +1,1428 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Andrea Pisera
+
+2
+0:00:20.26,000 --> 0:00:22,000
+Buenos días.
+
+3
+0:00:22.26,000 --> 0:00:24,000
+Hoy vine a hablarles
+
+4
+0:00:24.26,000 --> 0:00:27,000
+de las pelotas de playa voladoras.
+
+5
+0:00:27.26,000 --> 0:00:31,000
+No, de robots ágiles aéreos como este.
+
+6
+0:00:31.26,000 --> 0:00:34,000
+Me gustaría hablar un poco de los desafíos de su construcción
+
+7
+0:00:34.26,000 --> 0:00:36,000
+y de algunas aplicaciones fabulosas
+
+8
+0:00:36.26,000 --> 0:00:38,000
+de esta tecnología.
+
+9
+0:00:38.26,000 --> 0:00:4,000
+Estos robots están emparentados
+
+10
+0:00:40.26,000 --> 0:00:43,000
+con los vehículos aéreos no tripulados.
+
+11
+0:00:43.26,000 --> 0:00:46,000
+Sin embargo, los vehículos que ven aquí son grandes.
+
+12
+0:00:46.26,000 --> 0:00:48,000
+Pesan miles de kilos
+
+13
+0:00:48.26,000 --> 0:00:5,000
+no son ágiles, en absoluto.
+
+14
+0:00:50.26,000 --> 0:00:52,000
+Ni siquiera son autónomos.
+
+15
+0:00:52.26,000 --> 0:00:54,000
+De hecho, muchos de estos vehículos
+
+16
+0:00:54.26,000 --> 0:00:56,000
+son operados por tripulaciones de vuelo
+
+17
+0:00:56.26,000 --> 0:00:59,000
+que pueden contar con varios pilotos,
+
+18
+0:00:59.26,000 --> 0:01:01,000
+operadores de sensores
+
+19
+0:01:01.26,000 --> 0:01:03,000
+y coordinadores de misión.
+
+20
+0:01:03.26,000 --> 0:01:05,000
+Nos interesa desarrollar robots como este
+
+21
+0:01:05.26,000 --> 0:01:07,000
+-aquí hay dos fotos más
+
+22
+0:01:07.26,000 --> 0:01:1,000
+de robots que se comercializan.
+
+23
+0:01:10.26,000 --> 0:01:13,000
+Estos son helicópteros con cuatro rotores
+
+24
+0:01:13.26,000 --> 0:01:17,000
+miden más o menos un metro a escala
+
+25
+0:01:17.26,000 --> 0:01:19,000
+y pesan cientos de gramos.
+
+26
+0:01:19.26,000 --> 0:01:22,000
+Nosotros adaptamos estos robots con sensores y procesadores
+
+27
+0:01:22.26,000 --> 0:01:24,000
+para que puedan volar
+
+28
+0:01:24.26,000 --> 0:01:26,000
+sin GPS.
+
+29
+0:01:26.26,000 --> 0:01:28,000
+El robot que tengo en la mano
+
+30
+0:01:28.26,000 --> 0:01:3,000
+es éste,
+
+31
+0:01:30.26,000 --> 0:01:33,000
+y fue creado por dos estudiantes,
+
+32
+0:01:33.26,000 --> 0:01:35,000
+Alex y Daniel.
+
+33
+0:01:35.26,000 --> 0:01:37,000
+Este pesa
+
+34
+0:01:37.26,000 --> 0:01:39,000
+unos 50 gramos.
+
+35
+0:01:39.26,000 --> 0:01:41,000
+Consume unos 15 vatios de potencia.
+
+36
+0:01:41.26,000 --> 0:01:43,000
+Y, como pueden ver,
+
+37
+0:01:43.26,000 --> 0:01:45,000
+mide unos 20 cm de diámetro.
+
+38
+0:01:45.26,000 --> 0:01:48,000
+Así que voy a dar un tutorial rápido
+
+39
+0:01:48.26,000 --> 0:01:5,000
+sobre su funcionamiento.
+
+40
+0:01:50.26,000 --> 0:01:52,000
+Tiene cuatro rotores.
+
+41
+0:01:52.26,000 --> 0:01:54,000
+Si los cuatro rotores giran a la misma velocidad
+
+42
+0:01:54.26,000 --> 0:01:56,000
+lo hacen cernerse.
+
+43
+0:01:56.26,000 --> 0:01:59,000
+Al aumentar la velocidad de cada uno de los rotores
+
+44
+0:01:59.26,000 --> 0:02:02,000
+el robot vuela hacia arriba, acelera.
+
+45
+0:02:02.26,000 --> 0:02:04,000
+Claro, si el robot estuviera inclinado
+
+46
+0:02:04.26,000 --> 0:02:06,000
+respecto a la horizontal
+
+47
+0:02:06.26,000 --> 0:02:09,000
+aceleraría en esa dirección.
+
+48
+0:02:09.26,000 --> 0:02:12,000
+Hay dos maneras de hacer que se incline.
+
+49
+0:02:12.26,000 --> 0:02:14,000
+En esta imagen
+
+50
+0:02:14.26,000 --> 0:02:16,000
+ven que el rotor 4 gira más rápido
+
+51
+0:02:16.26,000 --> 0:02:18,000
+y que el rotor 2 gira más despacio.
+
+52
+0:02:18.26,000 --> 0:02:2,000
+Cuando ocurre eso
+
+53
+0:02:20.26,000 --> 0:02:23,000
+se produce un impulso que lo hace rodar.
+
+54
+0:02:23.26,000 --> 0:02:25,000
+Y, al revés,
+
+55
+0:02:25.26,000 --> 0:02:28,000
+si se incrementa la velocidad del rotor 3
+
+56
+0:02:28.26,000 --> 0:02:3,000
+y decrementa la del rotor 1,
+
+57
+0:02:30.26,000 --> 0:02:33,000
+se lanza hacia adelante.
+
+58
+0:02:33.26,000 --> 0:02:35,000
+Y, por último,
+
+59
+0:02:35.26,000 --> 0:02:37,000
+si se giran los pares opuestos de rotores
+
+60
+0:02:37.26,000 --> 0:02:39,000
+más rápido que los otros pares,
+
+61
+0:02:39.26,000 --> 0:02:41,000
+el robot vira en torno al eje vertical.
+
+62
+0:02:41.26,000 --> 0:02:43,000
+Un procesador de a bordo
+
+63
+0:02:43.26,000 --> 0:02:46,000
+analiza los movimientos a ejecutar,
+
+64
+0:02:46.26,000 --> 0:02:48,000
+combina estos movimientos
+
+65
+0:02:48.26,000 --> 0:02:51,000
+y calcula los comandos a enviar a los motores
+
+66
+0:02:51.26,000 --> 0:02:53,000
+600 veces por segundo.
+
+67
+0:02:53.26,000 --> 0:02:55,000
+Básicamente, así funciona.
+
+68
+0:02:55.26,000 --> 0:02:57,000
+Una de las ventajas de este diseño
+
+69
+0:02:57.26,000 --> 0:02:59,000
+es que, al disminuir la escala,
+
+70
+0:02:59.26,000 --> 0:03:02,000
+el robot es naturalmente más ágil.
+
+71
+0:03:02.26,000 --> 0:03:04,000
+Aquí R
+
+72
+0:03:04.26,000 --> 0:03:06,000
+es la longitud característica del robot.
+
+73
+0:03:06.26,000 --> 0:03:09,000
+Es la mitad del diámetro.
+
+74
+0:03:09.26,000 --> 0:03:12,000
+Hay muchos parámetros físicos que cambian
+
+75
+0:03:12.26,000 --> 0:03:14,000
+al reducir R.
+
+76
+0:03:14.26,000 --> 0:03:16,000
+Uno de los más importantes
+
+77
+0:03:16.26,000 --> 0:03:18,000
+es la inercia o resistencia al movimiento.
+
+78
+0:03:18.26,000 --> 0:03:2,000
+Resulta que
+
+79
+0:03:20.26,000 --> 0:03:23,000
+la inercia, que regula el movimiento angular,
+
+80
+0:03:23.26,000 --> 0:03:26,000
+se eleva a la quinta potencia de R.
+
+81
+0:03:26.26,000 --> 0:03:28,000
+Así, cuanto más chica es R
+
+82
+0:03:28.26,000 --> 0:03:31,000
+más acentuadamente se reduce la inercia.
+
+83
+0:03:31.26,000 --> 0:03:34,000
+Como resultado, la aceleración angular,
+
+84
+0:03:34.26,000 --> 0:03:36,000
+denotada aquí con la letra griega alfa,
+
+85
+0:03:36.26,000 --> 0:03:38,000
+es 1 sobre R.
+
+86
+0:03:38.26,000 --> 0:03:4,000
+Es inversamente proporcional a R.
+
+87
+0:03:40.26,000 --> 0:03:43,000
+Cuanto más chica sea R, más rápido se puede girar.
+
+88
+0:03:43.26,000 --> 0:03:45,000
+Esto debería quedar claro con estos videos.
+
+89
+0:03:45.26,000 --> 0:03:48,000
+Abajo a la derecha se ve un robot
+
+90
+0:03:48.26,000 --> 0:03:5,000
+que da un giro de 360 grados
+
+91
+0:03:50.26,000 --> 0:03:52,000
+en menos de medio segundo.
+
+92
+0:03:52.26,000 --> 0:03:55,000
+Y varios giros en un poco más de tiempo.
+
+93
+0:03:55.26,000 --> 0:03:57,000
+Aquí los procesos de a bordo
+
+94
+0:03:57.26,000 --> 0:03:59,000
+reciben respuesta de los acelerómetros
+
+95
+0:03:59.26,000 --> 0:04:01,000
+y giroscopios de a bordo
+
+96
+0:04:01.26,000 --> 0:04:03,000
+y calculan comandos, como dije antes,
+
+97
+0:04:03.26,000 --> 0:04:05,000
+600 veces por segundo
+
+98
+0:04:05.26,000 --> 0:04:07,000
+para estabilizar al robot.
+
+99
+0:04:07.26,000 --> 0:04:1,000
+A la izquierda ven a Daniel que arroja el robot al aire.
+
+100
+0:04:10.26,000 --> 0:04:12,000
+Eso muestra la robustez del control.
+
+101
+0:04:12.26,000 --> 0:04:14,000
+Sin importar como uno lo lance,
+
+102
+0:04:14.26,000 --> 0:04:18,000
+el robot se recupera y regresa a su mano.
+
+103
+0:04:18.26,000 --> 0:04:2,000
+¿Por qué construir robots así?
+
+104
+0:04:20.26,000 --> 0:04:23,000
+Bien, estos robots tienen muchas aplicaciones.
+
+105
+0:04:23.26,000 --> 0:04:26,000
+Se los puede enviar a edificios como este,
+
+106
+0:04:26.26,000 --> 0:04:29,000
+como primera repuesta en busca de intrusos,
+
+107
+0:04:29.26,000 --> 0:04:32,000
+o en busca de escapes bioquímicos,
+
+108
+0:04:32.26,000 --> 0:04:34,000
+o de una fuga de gas.
+
+109
+0:04:34.26,000 --> 0:04:36,000
+Se los puede usar también
+
+110
+0:04:36.26,000 --> 0:04:38,000
+en la construcción.
+
+111
+0:04:38.26,000 --> 0:04:42,000
+Aquí hay robots que transportan vigas y columnas
+
+112
+0:04:42.26,000 --> 0:04:45,000
+que montan estructuras cúbicas.
+
+113
+0:04:45.26,000 --> 0:04:48,000
+Les contaré más al respecto.
+
+114
+0:04:48.26,000 --> 0:04:51,000
+Pueden usarse en el transporte de carga.
+
+115
+0:04:51.26,000 --> 0:04:54,000
+Pero uno de los problemas de estos pequeños robots
+
+116
+0:04:54.26,000 --> 0:04:56,000
+es su capacidad de carga útil.
+
+117
+0:04:56.26,000 --> 0:04:58,000
+Por eso querríamos distribuir la carga útil
+
+118
+0:04:58.26,000 --> 0:05:,000
+en varios robots.
+
+119
+0:05:00.26,000 --> 0:05:02,000
+Esta es una imagen de un experimento reciente
+
+120
+0:05:02.26,000 --> 0:05:04,000
+-ya no tan reciente-
+
+121
+0:05:04.26,000 --> 0:05:07,000
+en Sendai, poco después del terremoto.
+
+122
+0:05:07.26,000 --> 0:05:1,000
+Podrían enviarse robots como este a edificios derrumbados
+
+123
+0:05:10.26,000 --> 0:05:12,000
+para evaluar los daños luego de desastres naturales
+
+124
+0:05:12.26,000 --> 0:05:15,000
+o a edificios radiactivos
+
+125
+0:05:15.26,000 --> 0:05:18,000
+para medir el nivel de radiación.
+
+126
+0:05:19.26,000 --> 0:05:21,000
+Un problema fundamental
+
+127
+0:05:21.26,000 --> 0:05:24,000
+que tienen que resolver los robots para ser autónomos
+
+128
+0:05:24.26,000 --> 0:05:26,000
+es averiguar
+
+129
+0:05:26.26,000 --> 0:05:28,000
+cómo llegar del punto A al punto B.
+
+130
+0:05:28.26,000 --> 0:05:3,000
+Esto se hace un poco difícil
+
+131
+0:05:30.26,000 --> 0:05:33,000
+porque la dinámica de este robot es muy complicada.
+
+132
+0:05:33.26,000 --> 0:05:35,000
+De hecho, opera en un espacio de 12 dimensiones.
+
+133
+0:05:35.26,000 --> 0:05:37,000
+Por eso usamos un truco.
+
+134
+0:05:37.26,000 --> 0:05:4,000
+Usamos este espacio curvo de 12 dimensiones
+
+135
+0:05:40.26,000 --> 0:05:42,000
+y lo transformamos
+
+136
+0:05:42.26,000 --> 0:05:44,000
+en un espacio plano de 4 dimensiones.
+
+137
+0:05:44.26,000 --> 0:05:46,000
+Y ese espacio de 4 dimensiones
+
+138
+0:05:46.26,000 --> 0:05:49,000
+está formado por X, Y, Z y el ángulo de viraje.
+
+139
+0:05:49.26,000 --> 0:05:51,000
+Así, el robot planifica
+
+140
+0:05:51.26,000 --> 0:05:55,000
+lo que denominamos la trayectoria de sacudida mínima.
+
+141
+0:05:55.26,000 --> 0:05:57,000
+Recordando un poco de física,
+
+142
+0:05:57.26,000 --> 0:05:59,000
+tenemos la posición, la derivada, la velocidad,
+
+143
+0:05:59.26,000 --> 0:06:01,000
+luego la aceleración,
+
+144
+0:06:01.26,000 --> 0:06:03,000
+luego viene el tirón
+
+145
+0:06:03.26,000 --> 0:06:05,000
+y después la sacudida (snap).
+
+146
+0:06:05.26,000 --> 0:06:08,000
+Este robot minimiza la sacudida.
+
+147
+0:06:08.26,000 --> 0:06:1,000
+Y eso da como resultado
+
+148
+0:06:10.26,000 --> 0:06:12,000
+un movimiento suave y elegante.
+
+149
+0:06:12.26,000 --> 0:06:15,000
+Y todo eso, evitando obstáculos.
+
+150
+0:06:15.26,000 --> 0:06:18,000
+Estas trayectorias de sacudida mínima en el espacio plano
+
+151
+0:06:18.26,000 --> 0:06:2,000
+luego son transformadas
+
+152
+0:06:20.26,000 --> 0:06:22,000
+en este espacio complicado de 12 dimensiones
+
+153
+0:06:22.26,000 --> 0:06:24,000
+que el robot debe realizar
+
+154
+0:06:24.26,000 --> 0:06:26,000
+para el control y posterior ejecución.
+
+155
+0:06:26.26,000 --> 0:06:28,000
+Les mostraré algunos ejemplos
+
+156
+0:06:28.26,000 --> 0:06:3,000
+de trayectorias de sacudida mínima.
+
+157
+0:06:30.26,000 --> 0:06:32,000
+En el primer video
+
+158
+0:06:32.26,000 --> 0:06:34,000
+verán al robot ir del punto A al punto B,
+
+159
+0:06:34.26,000 --> 0:06:36,000
+pasando por un punto intermedio.
+
+160
+0:06:42.26,000 --> 0:06:44,000
+El robot puede recorrer
+
+161
+0:06:44.26,000 --> 0:06:46,000
+cualquier trayectoria curva.
+
+162
+0:06:46.26,000 --> 0:06:48,000
+En estas trayectorias circulares
+
+163
+0:06:48.26,000 --> 0:06:51,000
+el robot experimenta unas dos fuerzas G.
+
+164
+0:06:52.26,000 --> 0:06:56,000
+En la parte superior hay cámaras aéreas de captura de movimiento
+
+165
+0:06:56.26,000 --> 0:06:59,000
+que le indican al robot dónde está, 100 veces por segundo.
+
+166
+0:06:59.26,000 --> 0:07:02,000
+Además, le dicen dónde están los obstáculos.
+
+167
+0:07:02.26,000 --> 0:07:04,000
+Los obstáculos pueden moverse.
+
+168
+0:07:04.26,000 --> 0:07:07,000
+Y aquí vemos a Daniel lanzando el aro al aire
+
+169
+0:07:07.26,000 --> 0:07:09,000
+mientras el robot calcula la posición del aro
+
+170
+0:07:09.26,000 --> 0:07:13,000
+y trata de averiguar la mejor manera de atravesarlo.
+
+171
+0:07:13.26,000 --> 0:07:15,000
+Como académicos,
+
+172
+0:07:15.26,000 --> 0:07:18,000
+estamos entrenados para saltar aros y así conseguir fondos para el laboratorio
+
+173
+0:07:18.26,000 --> 0:07:21,000
+y logramos que nuestros robots lo hagan.
+
+174
+0:07:21.26,000 --> 0:07:27,000
+(Aplausos)
+
+175
+0:07:27.26,000 --> 0:07:29,000
+Otra cosa que puede hacer el robot
+
+176
+0:07:29.26,000 --> 0:07:32,000
+es recordar partes de la trayectoria
+
+177
+0:07:32.26,000 --> 0:07:34,000
+que aprende o que tiene pre-programada.
+
+178
+0:07:34.26,000 --> 0:07:36,000
+Por eso aquí ven al robot
+
+179
+0:07:36.26,000 --> 0:07:38,000
+combinando un movimiento
+
+180
+0:07:38.26,000 --> 0:07:4,000
+que acumula impulso,
+
+181
+0:07:40.26,000 --> 0:07:43,000
+después cambia su orientación y luego se recupera.
+
+182
+0:07:43.26,000 --> 0:07:46,000
+Tiene que hacerlo porque el hueco de la ventana
+
+183
+0:07:46.26,000 --> 0:07:5,000
+es ligeramente más grande que el ancho del robot.
+
+184
+0:07:50.26,000 --> 0:07:53,000
+Así, al igual que un clavadista se para en el trampolín
+
+185
+0:07:53.26,000 --> 0:07:55,000
+luego salta para ganar impulso,
+
+186
+0:07:55.26,000 --> 0:07:58,000
+hace esa pirueta, dos saltos mortales y medio
+
+187
+0:07:58.26,000 --> 0:08:,000
+y se recupera con gracia;
+
+188
+0:08:00.26,000 --> 0:08:02,000
+este robot hace básicamente eso.
+
+189
+0:08:02.26,000 --> 0:08:05,000
+Sabe cómo combinar pequeños tramos de trayectorias
+
+190
+0:08:05.26,000 --> 0:08:09,000
+para realizar estas tareas bastante difíciles.
+
+191
+0:08:09.26,000 --> 0:08:11,000
+Quiero cambiar de marcha.
+
+192
+0:08:11.26,000 --> 0:08:14,000
+Una de las desventajas de estos pequeños robots es el tamaño.
+
+193
+0:08:14.26,000 --> 0:08:16,000
+Como les dije antes
+
+194
+0:08:16.26,000 --> 0:08:18,000
+quisiéramos emplear gran cantidad de robots
+
+195
+0:08:18.26,000 --> 0:08:21,000
+para sortear las limitaciones del tamaño.
+
+196
+0:08:21.26,000 --> 0:08:23,000
+Y una de las dificultades
+
+197
+0:08:23.26,000 --> 0:08:26,000
+es la manera de coordinar muchos de estos robots.
+
+198
+0:08:26.26,000 --> 0:08:28,000
+Por eso recurrimos a la naturaleza.
+
+199
+0:08:28.26,000 --> 0:08:3,000
+Quiero mostrarles un video
+
+200
+0:08:30.26,000 --> 0:08:32,000
+de las hormigas aphaenogasters del desierto
+
+201
+0:08:32.26,000 --> 0:08:35,000
+cargando un objeto en el lab. del Profesor Stephen Pratt
+
+202
+0:08:35.26,000 --> 0:08:37,000
+Es un pedacito de higo.
+
+203
+0:08:37.26,000 --> 0:08:39,000
+En realidad, cualquier objeto cubierto con jugo de higo sirve
+
+204
+0:08:39.26,000 --> 0:08:42,000
+para que las hormigas lo lleven al hormiguero.
+
+205
+0:08:42.26,000 --> 0:08:45,000
+Estas hormigas no tienen un coordinador central.
+
+206
+0:08:45.26,000 --> 0:08:47,000
+Detectan a sus vecinas.
+
+207
+0:08:47.26,000 --> 0:08:49,000
+No hay comunicación explícita.
+
+208
+0:08:49.26,000 --> 0:08:51,000
+Pero como detectan a sus vecinas
+
+209
+0:08:51.26,000 --> 0:08:53,000
+y detectan al objeto
+
+210
+0:08:53.26,000 --> 0:08:56,000
+tienen, como grupo, una coordinación implícita.
+
+211
+0:08:56.26,000 --> 0:08:58,000
+Ese es el tipo de coordinación
+
+212
+0:08:58.26,000 --> 0:09:01,000
+que queremos para nuestros robots.
+
+213
+0:09:01.26,000 --> 0:09:03,000
+Cuando tenemos un robot
+
+214
+0:09:03.26,000 --> 0:09:05,000
+rodeado por vecinos
+
+215
+0:09:05.26,000 --> 0:09:07,000
+-miremos al robot I y al J-
+
+216
+0:09:07.26,000 --> 0:09:09,000
+queremos que los robots
+
+217
+0:09:09.26,000 --> 0:09:12,000
+controlen la separación entre ellos
+
+218
+0:09:12.26,000 --> 0:09:14,000
+mientras vuelan en formación,
+
+219
+0:09:14.26,000 --> 0:09:16,000
+y asegurarnos
+
+220
+0:09:16.26,000 --> 0:09:18,000
+de que la separación entre ellos sea aceptable.
+
+221
+0:09:18.26,000 --> 0:09:21,000
+De nuevo, los robots controlan este error
+
+222
+0:09:21.26,000 --> 0:09:23,000
+y calculan los comandos correctivos
+
+223
+0:09:23.26,000 --> 0:09:25,000
+100 veces por segundo
+
+224
+0:09:25.26,000 --> 0:09:28,000
+que luego se traducen en comandos al motor, 600 veces por segundo.
+
+225
+0:09:28.26,000 --> 0:09:3,000
+Esto tiene que hacerse
+
+226
+0:09:30.26,000 --> 0:09:32,000
+de manera descentralizada.
+
+227
+0:09:32.26,000 --> 0:09:34,000
+Otra vez, si tenemos muchos robots
+
+228
+0:09:34.26,000 --> 0:09:38,000
+es imposible coordinarlos con información centralizada
+
+229
+0:09:38.26,000 --> 0:09:41,000
+lo suficientemente rápido como para que cumplan la tarea.
+
+230
+0:09:41.26,000 --> 0:09:43,000
+Además, los robots tienen que basar sus acciones
+
+231
+0:09:43.26,000 --> 0:09:45,000
+sólo en la información local
+
+232
+0:09:45.26,000 --> 0:09:47,000
+que detecten de sus vecinos.
+
+233
+0:09:47.26,000 --> 0:09:49,000
+Y, finalmente,
+
+234
+0:09:49.26,000 --> 0:09:51,000
+insistimos en que los robots desconozcan
+
+235
+0:09:51.26,000 --> 0:09:53,000
+quiénes son sus vecinos.
+
+236
+0:09:53.26,000 --> 0:09:56,000
+Esto es lo que llamamos anonimato.
+
+237
+0:09:56.26,000 --> 0:09:58,000
+Ahora quiero mostrarles
+
+238
+0:09:58.26,000 --> 0:10:,000
+un video
+
+239
+0:10:00.26,000 --> 0:10:03,000
+de 20 pequeños robots
+
+240
+0:10:03.26,000 --> 0:10:05,000
+que vuelan en formación.
+
+241
+0:10:05.26,000 --> 0:10:08,000
+Observan la posición de sus vecinos.
+
+242
+0:10:08.26,000 --> 0:10:1,000
+Mantienen la formación.
+
+243
+0:10:10.26,000 --> 0:10:12,000
+Las formaciones pueden cambiar.
+
+244
+0:10:12.26,000 --> 0:10:14,000
+Pueden ser formaciones planas,
+
+245
+0:10:14.26,000 --> 0:10:16,000
+pueden ser tridimensionales.
+
+246
+0:10:16.26,000 --> 0:10:18,000
+Como pueden ver aquí
+
+247
+0:10:18.26,000 --> 0:10:21,000
+pasan de una formación tridimensional a una formación plana.
+
+248
+0:10:21.26,000 --> 0:10:23,000
+Y para volar sorteando obstáculos
+
+249
+0:10:23.26,000 --> 0:10:27,000
+pueden modificar las formaciones sobre la marcha.
+
+250
+0:10:27.26,000 --> 0:10:3,000
+Estos robots pueden acercarse mucho unos a otros.
+
+251
+0:10:30.26,000 --> 0:10:32,000
+Como pueden ver en este vuelo en forma de 8,
+
+252
+0:10:32.26,000 --> 0:10:34,000
+están a centímetros unos de otros.
+
+253
+0:10:34.26,000 --> 0:10:37,000
+Y a pesar de las interacciones aerodinámicas
+
+254
+0:10:37.26,000 --> 0:10:39,000
+de las palas de las hélices,
+
+255
+0:10:39.26,000 --> 0:10:41,000
+pueden mantener un vuelo estable.
+
+256
+0:10:41.26,000 --> 0:10:48,000
+(Aplausos)
+
+257
+0:10:48.26,000 --> 0:10:5,000
+Así que una vez que uno sabe volar en formación,
+
+258
+0:10:50.26,000 --> 0:10:52,000
+puede levantar objetos en forma colaborativa.
+
+259
+0:10:52.26,000 --> 0:10:54,000
+Esto demuestra
+
+260
+0:10:54.26,000 --> 0:10:57,000
+que podemos duplicar, triplicar, cuadruplicar,
+
+261
+0:10:57.26,000 --> 0:10:59,000
+la fuerza del robot
+
+262
+0:10:59.26,000 --> 0:11:01,000
+con sólo hacerlo trabajar en equipo con sus vecinos, como ven aquí.
+
+263
+0:11:01.26,000 --> 0:11:04,000
+Una de las desventajas de esto,
+
+264
+0:11:04.26,000 --> 0:11:06,000
+a medida que agrandamos la escala,
+
+265
+0:11:06.26,000 --> 0:11:08,000
+es que si tenemos muchos robots llevando la misma cosa
+
+266
+0:11:08.26,000 --> 0:11:11,000
+efectivamente aumentamos la inercia
+
+267
+0:11:11.26,000 --> 0:11:14,000
+y por ende pagamos un precio: no son tan ágiles.
+
+268
+0:11:14.26,000 --> 0:11:17,000
+Pero lo ganamos en términos de capacidad de carga útil.
+
+269
+0:11:17.26,000 --> 0:11:19,000
+Esta es otra aplicación que quiero mostrarles
+
+270
+0:11:19.26,000 --> 0:11:21,000
+de nuestro laboratorio.
+
+271
+0:11:21.26,000 --> 0:11:23,000
+Es un trabajo de Quentin Lindsey, un estudiante graduado.
+
+272
+0:11:23.26,000 --> 0:11:26,000
+Su algoritmo le dice al robot
+
+273
+0:11:26.26,000 --> 0:11:28,000
+cómo construir en forma autónoma
+
+274
+0:11:28.26,000 --> 0:11:3,000
+estructuras cúbicas
+
+275
+0:11:30.26,000 --> 0:11:33,000
+con armazones.
+
+276
+0:11:33.26,000 --> 0:11:35,000
+Su algoritmo le dice al robot
+
+277
+0:11:35.26,000 --> 0:11:37,000
+qué parte levantar,
+
+278
+0:11:37.26,000 --> 0:11:39,000
+cuándo y dónde ubicarlo.
+
+279
+0:11:39.26,000 --> 0:11:41,000
+En este video vemos
+
+280
+0:11:41.26,000 --> 0:11:43,000
+-está acelerado de 10 a 14 veces-
+
+281
+0:11:43.26,000 --> 0:11:46,000
+a los robots construyendo tres estructuras diferentes
+
+282
+0:11:46.26,000 --> 0:11:48,000
+Y nuevamente de manera autónoma,
+
+283
+0:11:48.26,000 --> 0:11:5,000
+lo que Quentin hace
+
+284
+0:11:50.26,000 --> 0:11:52,000
+es darles un plano
+
+285
+0:11:52.26,000 --> 0:11:56,000
+del diseño que quiere que construyan.
+
+286
+0:11:56.26,000 --> 0:11:59,000
+Todos estos experimentos que hemos visto hasta ahora,
+
+287
+0:11:59.26,000 --> 0:12:01,000
+todas estas demostraciones,
+
+288
+0:12:01.26,000 --> 0:12:04,000
+requieren sistemas de captura de movimiento.
+
+289
+0:12:04.26,000 --> 0:12:06,000
+Pero, ¿qué pasa cuando salimos del laboratorio
+
+290
+0:12:06.26,000 --> 0:12:09,000
+y vamos al mundo real?
+
+291
+0:12:09.26,000 --> 0:12:12,000
+¿Y si no hay GPS?
+
+292
+0:12:12.26,000 --> 0:12:14,000
+Pues este robot
+
+293
+0:12:14.26,000 --> 0:12:16,000
+está equipado con una cámara
+
+294
+0:12:16.26,000 --> 0:12:19,000
+y un telémetro láser de Hokuyo.
+
+295
+0:12:19.26,000 --> 0:12:21,000
+Y usa estos sensores
+
+296
+0:12:21.26,000 --> 0:12:23,000
+para trazar un mapa del entorno.
+
+297
+0:12:23.26,000 --> 0:12:26,000
+Ese mapa tiene características
+
+298
+0:12:26.26,000 --> 0:12:28,000
+como puertas, ventanas,
+
+299
+0:12:28.26,000 --> 0:12:3,000
+gente, muebles...
+
+300
+0:12:30.26,000 --> 0:12:32,000
+y calcula su posición
+
+301
+0:12:32.26,000 --> 0:12:34,000
+respecto de esas características.
+
+302
+0:12:34.26,000 --> 0:12:36,000
+No hay sistema de posicionamiento global.
+
+303
+0:12:36.26,000 --> 0:12:39,000
+El sistema de coordenadas se define respecto del robot,
+
+304
+0:12:39.26,000 --> 0:12:42,000
+dónde está y hacia dónde mira.
+
+305
+0:12:42.26,000 --> 0:12:45,000
+Y navega siguiendo estas características.
+
+306
+0:12:45.26,000 --> 0:12:47,000
+Por eso quiero mostrarles un video
+
+307
+0:12:47.26,000 --> 0:12:49,000
+de algoritmos desarrollados por Frank Shen
+
+308
+0:12:49.26,000 --> 0:12:51,000
+y el profesor Nathan Michael
+
+309
+0:12:51.26,000 --> 0:12:55,000
+que muestra al robot entrando por primera vez al edificio
+
+310
+0:12:55.26,000 --> 0:12:58,000
+y trazando este mapa sobre la marcha.
+
+311
+0:12:58.26,000 --> 0:13:01,000
+El robot descubre las características.
+
+312
+0:13:01.26,000 --> 0:13:03,000
+Traza el mapa.
+
+313
+0:13:03.26,000 --> 0:13:05,000
+Descubre dónde está respecto de las características
+
+314
+0:13:05.26,000 --> 0:13:07,000
+y luego estima su posición
+
+315
+0:13:07.26,000 --> 0:13:09,000
+100 veces por segundo
+
+316
+0:13:09.26,000 --> 0:13:11,000
+y nos permite usar los algoritmos de control
+
+317
+0:13:11.26,000 --> 0:13:13,000
+que les describí antes.
+
+318
+0:13:13.26,000 --> 0:13:15,000
+Así que este robot es comandado
+
+319
+0:13:15.26,000 --> 0:13:17,000
+a distancia por Frank.
+
+320
+0:13:17.26,000 --> 0:13:19,000
+Pero el robot puede averiguar
+
+321
+0:13:19.26,000 --> 0:13:21,000
+a dónde ir por su cuenta.
+
+322
+0:13:21.26,000 --> 0:13:23,000
+Supongan que lo enviara a un edificio
+
+323
+0:13:23.26,000 --> 0:13:25,000
+y no tuviera idea del aspecto del edificio,
+
+324
+0:13:25.26,000 --> 0:13:27,000
+puedo pedirle al robot que entre,
+
+325
+0:13:27.26,000 --> 0:13:29,000
+que trace un mapa
+
+326
+0:13:29.26,000 --> 0:13:32,000
+y luego regrese y me diga cómo es el edificio.
+
+327
+0:13:32.26,000 --> 0:13:35,000
+Aquí, el robot no sólo resuelve el problema
+
+328
+0:13:35.26,000 --> 0:13:38,000
+de cómo ir del punto A al punto B en este mapa,
+
+329
+0:13:38.26,000 --> 0:13:4,000
+sino que averigua
+
+330
+0:13:40.26,000 --> 0:13:42,000
+cuál es el mejor punto B en cada momento.
+
+331
+0:13:42.26,000 --> 0:13:45,000
+En esencia, sabe dónde ir
+
+332
+0:13:45.26,000 --> 0:13:47,000
+a buscar lugares con la menor información.
+
+333
+0:13:47.26,000 --> 0:13:5,000
+Así es como completa el mapa.
+
+334
+0:13:50.26,000 --> 0:13:52,000
+Y quiero despedirme
+
+335
+0:13:52.26,000 --> 0:13:54,000
+con una última aplicación.
+
+336
+0:13:54.26,000 --> 0:13:57,000
+Es una tecnología que tiene muchas aplicaciones.
+
+337
+0:13:57.26,000 --> 0:13:59,000
+Soy profesor y me apasiona la educación.
+
+338
+0:13:59.26,000 --> 0:14:01,000
+Robots como estos pueden cambiar el modo
+
+339
+0:14:01.26,000 --> 0:14:03,000
+de educar desde la ed. preescolar hasta los 12 años.
+
+340
+0:14:03.26,000 --> 0:14:05,000
+Pero estamos en el sur de California,
+
+341
+0:14:05.26,000 --> 0:14:07,000
+cerca de Los Ángeles,
+
+342
+0:14:07.26,000 --> 0:14:09,000
+así que tengo que cerrar
+
+343
+0:14:09.26,000 --> 0:14:11,000
+con algo de entretenimiento.
+
+344
+0:14:11.26,000 --> 0:14:13,000
+Quiero concluir con un video musical.
+
+345
+0:14:13.26,000 --> 0:14:16,000
+Quiero presentarles a los creadores, Alex y Daniel,
+
+346
+0:14:16.26,000 --> 0:14:18,000
+ellos crearon el video.
+
+347
+0:14:18.26,000 --> 0:14:25,000
+(Aplausos)
+
+348
+0:14:25.26,000 --> 0:14:27,000
+Pero antes de reproducir el video
+
+349
+0:14:27.26,000 --> 0:14:3,000
+quiero que sepan que lo crearon en los últimos tres días
+
+350
+0:14:30.26,000 --> 0:14:32,000
+después de una llamada de Chris.
+
+351
+0:14:32.26,000 --> 0:14:34,000
+Y los robots que actúan en el video
+
+352
+0:14:34.26,000 --> 0:14:36,000
+son completamente autónomos.
+
+353
+0:14:36.26,000 --> 0:14:39,000
+Verán a nueve robots ejecutar seis instrumentos diferentes.
+
+354
+0:14:39.26,000 --> 0:14:43,000
+Y, claro, está hecho exclusivamente para TED 2012.
+
+355
+0:14:43.26,000 --> 0:14:46,000
+Veamos.
+
+356
+0:15:19.26,000 --> 0:15:29,000
+(Música)
+
+357
+0:16:23.26,000 --> 0:16:4,000
+(Aplausos)
+

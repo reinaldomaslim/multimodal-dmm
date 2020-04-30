@@ -1,0 +1,1244 @@
+1
+0:00:13.675,000 --> 0:00:15,000
+Belle Gibson was a happy young Australian.
+
+2
+0:00:16.619,000 --> 0:00:19,000
+She lived in Perth, and she loved skateboarding.
+
+3
+0:00:20.173,000 --> 0:00:24,000
+But in 2009, Belle learned that she had brain cancer and four months to live.
+
+4
+0:00:25.034,000 --> 0:00:28,000
+Two months of chemo and radiotherapy had no effect.
+
+5
+0:00:29.145,000 --> 0:00:3,000
+But Belle was determined.
+
+6
+0:00:30.669,000 --> 0:00:32,000
+She'd been a fighter her whole life.
+
+7
+0:00:32.823,000 --> 0:00:35,000
+From age six, she had to cook for her brother, who had autism,
+
+8
+0:00:36.141,000 --> 0:00:38,000
+and her mother, who had multiple sclerosis.
+
+9
+0:00:38.553,000 --> 0:00:39,000
+Her father was out of the picture.
+
+10
+0:00:40.736,000 --> 0:00:43,000
+So Belle fought, with exercise, with meditation
+
+11
+0:00:44.046,000 --> 0:00:46,000
+and by ditching meat for fruit and vegetables.
+
+12
+0:00:47.387,000 --> 0:00:49,000
+And she made a complete recovery.
+
+13
+0:00:50.784,000 --> 0:00:51,000
+Belle's story went viral.
+
+14
+0:00:52.387,000 --> 0:00:55,000
+It was tweeted, blogged about, shared and reached millions of people.
+
+15
+0:00:56.246,000 --> 0:00:59,000
+It showed the benefits of shunning traditional medicine
+
+16
+0:00:59.381,000 --> 0:01:,000
+for diet and exercise.
+
+17
+0:01:01.381,000 --> 0:01:05,000
+In August 2013, Belle launched a healthy eating app,
+
+18
+0:01:05.903,000 --> 0:01:06,000
+The Whole Pantry,
+
+19
+0:01:07.276,000 --> 0:01:11,000
+downloaded 200,000 times in the first month.
+
+20
+0:01:13.228,000 --> 0:01:15,000
+But Belle's story was a lie.
+
+21
+0:01:17.227,000 --> 0:01:18,000
+Belle never had cancer.
+
+22
+0:01:19.601,000 --> 0:01:23,000
+People shared her story without ever checking if it was true.
+
+23
+0:01:24.815,000 --> 0:01:27,000
+This is a classic example of confirmation bias.
+
+24
+0:01:28.403,000 --> 0:01:32,000
+We accept a story uncritically if it confirms what we'd like to be true.
+
+25
+0:01:33.484,000 --> 0:01:35,000
+And we reject any story that contradicts it.
+
+26
+0:01:36.937,000 --> 0:01:37,000
+How often do we see this
+
+27
+0:01:38.786,000 --> 0:01:41,000
+in the stories that we share and we ignore?
+
+28
+0:01:41.855,000 --> 0:01:45,000
+In politics, in business, in health advice.
+
+29
+0:01:47.18,000 --> 0:01:51,000
+The Oxford Dictionary's word of 2016 was "post-truth."
+
+30
+0:01:51.768,000 --> 0:01:54,000
+And the recognition that we now live in a post-truth world
+
+31
+0:01:55.284,000 --> 0:01:58,000
+has led to a much needed emphasis on checking the facts.
+
+32
+0:01:59.339,000 --> 0:02:,000
+But the punch line of my talk
+
+33
+0:02:00.76,000 --> 0:02:02,000
+is that just checking the facts is not enough.
+
+34
+0:02:04.347,000 --> 0:02:06,000
+Even if Belle's story were true,
+
+35
+0:02:07.298,000 --> 0:02:09,000
+it would be just as irrelevant.
+
+36
+0:02:10.457,000 --> 0:02:11,000
+Why?
+
+37
+0:02:11.957,000 --> 0:02:14,000
+Well, let's look at one of the most fundamental techniques in statistics.
+
+38
+0:02:15.489,000 --> 0:02:17,000
+It's called Bayesian inference.
+
+39
+0:02:18.251,000 --> 0:02:2,000
+And the very simple version is this:
+
+40
+0:02:21.211,000 --> 0:02:24,000
+We care about "does the data support the theory?"
+
+41
+0:02:25.053,000 --> 0:02:28,000
+Does the data increase our belief that the theory is true?
+
+42
+0:02:29.52,000 --> 0:02:33,000
+But instead, we end up asking, "Is the data consistent with the theory?"
+
+43
+0:02:34.838,000 --> 0:02:36,000
+But being consistent with the theory
+
+44
+0:02:37.377,000 --> 0:02:39,000
+does not mean that the data supports the theory.
+
+45
+0:02:40.799,000 --> 0:02:41,000
+Why?
+
+46
+0:02:41.982,000 --> 0:02:44,000
+Because of a crucial but forgotten third term --
+
+47
+0:02:45.831,000 --> 0:02:48,000
+the data could also be consistent with rival theories.
+
+48
+0:02:49.918,000 --> 0:02:53,000
+But due to confirmation bias, we never consider the rival theories,
+
+49
+0:02:54.609,000 --> 0:02:57,000
+because we're so protective of our own pet theory.
+
+50
+0:02:58.688,000 --> 0:03:,000
+Now, let's look at this for Belle's story.
+
+51
+0:03:01.125,000 --> 0:03:05,000
+Well, we care about: Does Belle's story support the theory
+
+52
+0:03:05.363,000 --> 0:03:06,000
+that diet cures cancer?
+
+53
+0:03:06.99,000 --> 0:03:07,000
+But instead, we end up asking,
+
+54
+0:03:08.801,000 --> 0:03:12,000
+"Is Belle's story consistent with diet curing cancer?"
+
+55
+0:03:13.79,000 --> 0:03:14,000
+And the answer is yes.
+
+56
+0:03:15.839,000 --> 0:03:19,000
+If diet did cure cancer, we'd see stories like Belle's.
+
+57
+0:03:20.839,000 --> 0:03:22,000
+But even if diet did not cure cancer,
+
+58
+0:03:23.712,000 --> 0:03:25,000
+we'd still see stories like Belle's.
+
+59
+0:03:26.744,000 --> 0:03:31,000
+A single story in which a patient apparently self-cured
+
+60
+0:03:31.958,000 --> 0:03:34,000
+just due to being misdiagnosed in the first place.
+
+61
+0:03:35.68,000 --> 0:03:38,000
+Just like, even if smoking was bad for your health,
+
+62
+0:03:39.03,000 --> 0:03:42,000
+you'd still see one smoker who lived until 100.
+
+63
+0:03:42.664,000 --> 0:03:43,000
+(Laughter)
+
+64
+0:03:44.157,000 --> 0:03:46,000
+Just like, even if education was good for your income,
+
+65
+0:03:46.743,000 --> 0:03:5,000
+you'd still see one multimillionaire who didn't go to university.
+
+66
+0:03:51.048,000 --> 0:03:55,000
+(Laughter)
+
+67
+0:03:56.056,000 --> 0:03:59,000
+So the biggest problem with Belle's story is not that it was false.
+
+68
+0:03:59.991,000 --> 0:04:01,000
+It's that it's only one story.
+
+69
+0:04:03.094,000 --> 0:04:07,000
+There might be thousands of other stories where diet alone failed,
+
+70
+0:04:07.499,000 --> 0:04:08,000
+but we never hear about them.
+
+71
+0:04:10.141,000 --> 0:04:13,000
+We share the outlier cases because they are new,
+
+72
+0:04:14.061,000 --> 0:04:15,000
+and therefore they are news.
+
+73
+0:04:16.657,000 --> 0:04:18,000
+We never share the ordinary cases.
+
+74
+0:04:19.157,000 --> 0:04:22,000
+They're too ordinary, they're what normally happens.
+
+75
+0:04:23.125,000 --> 0:04:26,000
+And that's the true 99 percent that we ignore.
+
+76
+0:04:26.244,000 --> 0:04:28,000
+Just like in society, you can't just listen to the one percent,
+
+77
+0:04:29.236,000 --> 0:04:3,000
+the outliers,
+
+78
+0:04:30.418,000 --> 0:04:32,000
+and ignore the 99 percent, the ordinary.
+
+79
+0:04:34.022,000 --> 0:04:37,000
+Because that's the second example of confirmation bias.
+
+80
+0:04:37.3,000 --> 0:04:39,000
+We accept a fact as data.
+
+81
+0:04:41.038,000 --> 0:04:44,000
+The biggest problem is not that we live in a post-truth world;
+
+82
+0:04:45.03,000 --> 0:04:48,000
+it's that we live in a post-data world.
+
+83
+0:04:49.792,000 --> 0:04:52,000
+We prefer a single story to tons of data.
+
+84
+0:04:54.752,000 --> 0:04:57,000
+Now, stories are powerful, they're vivid, they bring it to life.
+
+85
+0:04:57.792,000 --> 0:04:59,000
+They tell you to start every talk with a story.
+
+86
+0:05:00.038,000 --> 0:05:01,000
+I did.
+
+87
+0:05:01.696,000 --> 0:05:05,000
+But a single story is meaningless and misleading
+
+88
+0:05:06.474,000 --> 0:05:08,000
+unless it's backed up by large-scale data.
+
+89
+0:05:11.236,000 --> 0:05:13,000
+But even if we had large-scale data,
+
+90
+0:05:13.617,000 --> 0:05:15,000
+that might still not be enough.
+
+91
+0:05:16.26,000 --> 0:05:19,000
+Because it could still be consistent with rival theories.
+
+92
+0:05:20.136,000 --> 0:05:21,000
+Let me explain.
+
+93
+0:05:22.072,000 --> 0:05:25,000
+A classic study by psychologist Peter Wason
+
+94
+0:05:25.358,000 --> 0:05:26,000
+gives you a set of three numbers
+
+95
+0:05:27.334,000 --> 0:05:29,000
+and asks you to think of the rule that generated them.
+
+96
+0:05:30.585,000 --> 0:05:34,000
+So if you're given two, four, six,
+
+97
+0:05:35.085,000 --> 0:05:36,000
+what's the rule?
+
+98
+0:05:36.895,000 --> 0:05:39,000
+Well, most people would think, it's successive even numbers.
+
+99
+0:05:40.767,000 --> 0:05:41,000
+How would you test it?
+
+100
+0:05:42.306,000 --> 0:05:45,000
+Well, you'd propose other sets of successive even numbers:
+
+101
+0:05:45.592,000 --> 0:05:48,000
+4, 6, 8 or 12, 14, 16.
+
+102
+0:05:49.546,000 --> 0:05:51,000
+And Peter would say these sets also work.
+
+103
+0:05:53.124,000 --> 0:05:55,000
+But knowing that these sets also work,
+
+104
+0:05:55.712,000 --> 0:05:59,000
+knowing that perhaps hundreds of sets of successive even numbers also work,
+
+105
+0:06:00.501,000 --> 0:06:01,000
+tells you nothing.
+
+106
+0:06:02.572,000 --> 0:06:05,000
+Because this is still consistent with rival theories.
+
+107
+0:06:06.889,000 --> 0:06:09,000
+Perhaps the rule is any three even numbers.
+
+108
+0:06:11,000 --> 0:06:13,000
+Or any three increasing numbers.
+
+109
+0:06:14.365,000 --> 0:06:16,000
+And that's the third example of confirmation bias:
+
+110
+0:06:17.277,000 --> 0:06:2,000
+accepting data as evidence,
+
+111
+0:06:20.99,000 --> 0:06:23,000
+even if it's consistent with rival theories.
+
+112
+0:06:24.704,000 --> 0:06:26,000
+Data is just a collection of facts.
+
+113
+0:06:28.402,000 --> 0:06:32,000
+Evidence is data that supports one theory and rules out others.
+
+114
+0:06:34.665,000 --> 0:06:36,000
+So the best way to support your theory
+
+115
+0:06:37.172,000 --> 0:06:4,000
+is actually to try to disprove it, to play devil's advocate.
+
+116
+0:06:41.466,000 --> 0:06:45,000
+So test something, like 4, 12, 26.
+
+117
+0:06:46.938,000 --> 0:06:49,000
+If you got a yes to that, that would disprove your theory
+
+118
+0:06:50.645,000 --> 0:06:51,000
+of successive even numbers.
+
+119
+0:06:53.232,000 --> 0:06:55,000
+Yet this test is powerful,
+
+120
+0:06:55.272,000 --> 0:06:59,000
+because if you got a no, it would rule out "any three even numbers"
+
+121
+0:07:00.141,000 --> 0:07:01,000
+and "any three increasing numbers."
+
+122
+0:07:01.877,000 --> 0:07:04,000
+It would rule out the rival theories, but not rule out yours.
+
+123
+0:07:05.968,000 --> 0:07:09,000
+But most people are too afraid of testing the 4, 12, 26,
+
+124
+0:07:10.786,000 --> 0:07:14,000
+because they don't want to get a yes and prove their pet theory to be wrong.
+
+125
+0:07:16.727,000 --> 0:07:21,000
+Confirmation bias is not only about failing to search for new data,
+
+126
+0:07:22.427,000 --> 0:07:25,000
+but it's also about misinterpreting data once you receive it.
+
+127
+0:07:26.339,000 --> 0:07:29,000
+And this applies outside the lab to important, real-world problems.
+
+128
+0:07:29.911,000 --> 0:07:32,000
+Indeed, Thomas Edison famously said,
+
+129
+0:07:33.244,000 --> 0:07:34,000
+"I have not failed,
+
+130
+0:07:35.156,000 --> 0:07:39,000
+I have found 10,000 ways that won't work."
+
+131
+0:07:40.281,000 --> 0:07:42,000
+Finding out that you're wrong
+
+132
+0:07:42.932,000 --> 0:07:44,000
+is the only way to find out what's right.
+
+133
+0:07:46.654,000 --> 0:07:48,000
+Say you're a university admissions director
+
+134
+0:07:49.624,000 --> 0:07:51,000
+and your theory is that only students with good grades
+
+135
+0:07:52.211,000 --> 0:07:53,000
+from rich families do well.
+
+136
+0:07:54.339,000 --> 0:07:56,000
+So you only let in such students.
+
+137
+0:07:56.553,000 --> 0:07:57,000
+And they do well.
+
+138
+0:07:58.482,000 --> 0:08:,000
+But that's also consistent with the rival theory.
+
+139
+0:08:01.593,000 --> 0:08:03,000
+Perhaps all students with good grades do well,
+
+140
+0:08:04.364,000 --> 0:08:05,000
+rich or poor.
+
+141
+0:08:06.307,000 --> 0:08:09,000
+But you never test that theory because you never let in poor students
+
+142
+0:08:10.061,000 --> 0:08:12,000
+because you don't want to be proven wrong.
+
+143
+0:08:14.577,000 --> 0:08:15,000
+So, what have we learned?
+
+144
+0:08:17.315,000 --> 0:08:2,000
+A story is not fact, because it may not be true.
+
+145
+0:08:21.498,000 --> 0:08:23,000
+A fact is not data,
+
+146
+0:08:23.609,000 --> 0:08:27,000
+it may not be representative if it's only one data point.
+
+147
+0:08:28.68,000 --> 0:08:3,000
+And data is not evidence --
+
+148
+0:08:31.053,000 --> 0:08:34,000
+it may not be supportive if it's consistent with rival theories.
+
+149
+0:08:36.146,000 --> 0:08:38,000
+So, what do you do?
+
+150
+0:08:39.464,000 --> 0:08:41,000
+When you're at the inflection points of life,
+
+151
+0:08:42.17,000 --> 0:08:44,000
+deciding on a strategy for your business,
+
+152
+0:08:44.76,000 --> 0:08:46,000
+a parenting technique for your child
+
+153
+0:08:47.395,000 --> 0:08:49,000
+or a regimen for your health,
+
+154
+0:08:49.847,000 --> 0:08:52,000
+how do you ensure that you don't have a story
+
+155
+0:08:53.41,000 --> 0:08:54,000
+but you have evidence?
+
+156
+0:08:56.268,000 --> 0:08:57,000
+Let me give you three tips.
+
+157
+0:08:58.641,000 --> 0:09:01,000
+The first is to actively seek other viewpoints.
+
+158
+0:09:02.649,000 --> 0:09:05,000
+Read and listen to people you flagrantly disagree with.
+
+159
+0:09:06.267,000 --> 0:09:09,000
+Ninety percent of what they say may be wrong, in your view.
+
+160
+0:09:10.728,000 --> 0:09:12,000
+But what if 10 percent is right?
+
+161
+0:09:13.851,000 --> 0:09:14,000
+As Aristotle said,
+
+162
+0:09:15.494,000 --> 0:09:17,000
+"The mark of an educated man
+
+163
+0:09:17.732,000 --> 0:09:2,000
+is the ability to entertain a thought
+
+164
+0:09:21.153,000 --> 0:09:23,000
+without necessarily accepting it."
+
+165
+0:09:24.649,000 --> 0:09:26,000
+Surround yourself with people who challenge you,
+
+166
+0:09:26.917,000 --> 0:09:29,000
+and create a culture that actively encourages dissent.
+
+167
+0:09:31.347,000 --> 0:09:33,000
+Some banks suffered from groupthink,
+
+168
+0:09:33.689,000 --> 0:09:37,000
+where staff were too afraid to challenge management's lending decisions,
+
+169
+0:09:38.022,000 --> 0:09:4,000
+contributing to the financial crisis.
+
+170
+0:09:41.029,000 --> 0:09:45,000
+In a meeting, appoint someone to be devil's advocate
+
+171
+0:09:45.252,000 --> 0:09:46,000
+against your pet idea.
+
+172
+0:09:47.72,000 --> 0:09:49,000
+And don't just hear another viewpoint --
+
+173
+0:09:50.315,000 --> 0:09:52,000
+listen to it, as well.
+
+174
+0:09:53.389,000 --> 0:09:55,000
+As psychologist Stephen Covey said,
+
+175
+0:09:55.817,000 --> 0:09:58,000
+"Listen with the intent to understand,
+
+176
+0:09:59.238,000 --> 0:10:,000
+not the intent to reply."
+
+177
+0:10:01.642,000 --> 0:10:04,000
+A dissenting viewpoint is something to learn from
+
+178
+0:10:05.158,000 --> 0:10:06,000
+not to argue against.
+
+179
+0:10:07.69,000 --> 0:10:1,000
+Which takes us to the other forgotten terms in Bayesian inference.
+
+180
+0:10:12.198,000 --> 0:10:14,000
+Because data allows you to learn,
+
+181
+0:10:14.546,000 --> 0:10:17,000
+but learning is only relative to a starting point.
+
+182
+0:10:18.085,000 --> 0:10:23,000
+If you started with complete certainty that your pet theory must be true,
+
+183
+0:10:23.825,000 --> 0:10:24,000
+then your view won't change --
+
+184
+0:10:25.746,000 --> 0:10:27,000
+regardless of what data you see.
+
+185
+0:10:28.641,000 --> 0:10:32,000
+Only if you are truly open to the possibility of being wrong
+
+186
+0:10:33.056,000 --> 0:10:34,000
+can you ever learn.
+
+187
+0:10:35.58,000 --> 0:10:37,000
+As Leo Tolstoy wrote,
+
+188
+0:10:37.699,000 --> 0:10:39,000
+"The most difficult subjects
+
+189
+0:10:39.905,000 --> 0:10:42,000
+can be explained to the most slow-witted man
+
+190
+0:10:43.064,000 --> 0:10:45,000
+if he has not formed any idea of them already.
+
+191
+0:10:46.365,000 --> 0:10:47,000
+But the simplest thing
+
+192
+0:10:48.262,000 --> 0:10:51,000
+cannot be made clear to the most intelligent man
+
+193
+0:10:51.357,000 --> 0:10:54,000
+if he is firmly persuaded that he knows already."
+
+194
+0:10:56.5,000 --> 0:10:59,000
+Tip number two is "listen to experts."
+
+195
+0:11:01.04,000 --> 0:11:04,000
+Now, that's perhaps the most unpopular advice that I could give you.
+
+196
+0:11:04.556,000 --> 0:11:05,000
+(Laughter)
+
+197
+0:11:05.8,000 --> 0:11:09,000
+British politician Michael Gove famously said that people in this country
+
+198
+0:11:10.562,000 --> 0:11:12,000
+have had enough of experts.
+
+199
+0:11:13.696,000 --> 0:11:16,000
+A recent poll showed that more people would trust their hairdresser --
+
+200
+0:11:17.228,000 --> 0:11:19,000
+(Laughter)
+
+201
+0:11:19.537,000 --> 0:11:2,000
+or the man on the street
+
+202
+0:11:21.394,000 --> 0:11:25,000
+than they would leaders of businesses, the health service and even charities.
+
+203
+0:11:26.227,000 --> 0:11:29,000
+So we respect a teeth-whitening formula discovered by a mom,
+
+204
+0:11:30.228,000 --> 0:11:33,000
+or we listen to an actress's view on vaccination.
+
+205
+0:11:33.45,000 --> 0:11:35,000
+We like people who tell it like it is, who go with their gut,
+
+206
+0:11:36.339,000 --> 0:11:37,000
+and we call them authentic.
+
+207
+0:11:38.847,000 --> 0:11:41,000
+But gut feel can only get you so far.
+
+208
+0:11:42.736,000 --> 0:11:46,000
+Gut feel would tell you never to give water to a baby with diarrhea,
+
+209
+0:11:47.196,000 --> 0:11:49,000
+because it would just flow out the other end.
+
+210
+0:11:49.538,000 --> 0:11:51,000
+Expertise tells you otherwise.
+
+211
+0:11:53.149,000 --> 0:11:56,000
+You'd never trust your surgery to the man on the street.
+
+212
+0:11:56.887,000 --> 0:11:59,000
+You'd want an expert who spent years doing surgery
+
+213
+0:12:00.498,000 --> 0:12:02,000
+and knows the best techniques.
+
+214
+0:12:03.514,000 --> 0:12:06,000
+But that should apply to every major decision.
+
+215
+0:12:07.255,000 --> 0:12:11,000
+Politics, business, health advice
+
+216
+0:12:11.835,000 --> 0:12:13,000
+require expertise, just like surgery.
+
+217
+0:12:16.474,000 --> 0:12:19,000
+So then, why are experts so mistrusted?
+
+218
+0:12:20.981,000 --> 0:12:23,000
+Well, one reason is they're seen as out of touch.
+
+219
+0:12:24.244,000 --> 0:12:28,000
+A millionaire CEO couldn't possibly speak for the man on the street.
+
+220
+0:12:29.455,000 --> 0:12:32,000
+But true expertise is found on evidence.
+
+221
+0:12:33.447,000 --> 0:12:35,000
+And evidence stands up for the man on the street
+
+222
+0:12:36.376,000 --> 0:12:37,000
+and against the elites.
+
+223
+0:12:38.456,000 --> 0:12:4,000
+Because evidence forces you to prove it.
+
+224
+0:12:41.774,000 --> 0:12:45,000
+Evidence prevents the elites from imposing their own view
+
+225
+0:12:46.219,000 --> 0:12:47,000
+without proof.
+
+226
+0:12:49.006,000 --> 0:12:51,000
+A second reason why experts are not trusted
+
+227
+0:12:51.101,000 --> 0:12:54,000
+is that different experts say different things.
+
+228
+0:12:54.212,000 --> 0:12:58,000
+For every expert who claimed that leaving the EU would be bad for Britain,
+
+229
+0:12:58.712,000 --> 0:13:,000
+another expert claimed it would be good.
+
+230
+0:13:01.165,000 --> 0:13:04,000
+Half of these so-called experts will be wrong.
+
+231
+0:13:05.774,000 --> 0:13:09,000
+And I have to admit that most papers written by experts are wrong.
+
+232
+0:13:10.52,000 --> 0:13:13,000
+Or at best, make claims that the evidence doesn't actually support.
+
+233
+0:13:14.99,000 --> 0:13:17,000
+So we can't just take an expert's word for it.
+
+234
+0:13:18.776,000 --> 0:13:24,000
+In November 2016, a study on executive pay hit national headlines.
+
+235
+0:13:25.24,000 --> 0:13:27,000
+Even though none of the newspapers who covered the study
+
+236
+0:13:28.154,000 --> 0:13:29,000
+had even seen the study.
+
+237
+0:13:30.685,000 --> 0:13:31,000
+It wasn't even out yet.
+
+238
+0:13:32.708,000 --> 0:13:34,000
+They just took the author's word for it,
+
+239
+0:13:35.768,000 --> 0:13:36,000
+just like with Belle.
+
+240
+0:13:38.093,000 --> 0:13:4,000
+Nor does it mean that we can just handpick any study
+
+241
+0:13:40.553,000 --> 0:13:42,000
+that happens to support our viewpoint --
+
+242
+0:13:42.688,000 --> 0:13:44,000
+that would, again, be confirmation bias.
+
+243
+0:13:44.815,000 --> 0:13:46,000
+Nor does it mean that if seven studies show A
+
+244
+0:13:47.394,000 --> 0:13:48,000
+and three show B,
+
+245
+0:13:49.086,000 --> 0:13:5,000
+that A must be true.
+
+246
+0:13:51.109,000 --> 0:13:53,000
+What matters is the quality,
+
+247
+0:13:53.792,000 --> 0:13:55,000
+and not the quantity of expertise.
+
+248
+0:13:57.879,000 --> 0:13:58,000
+So we should do two things.
+
+249
+0:14:00.434,000 --> 0:14:04,000
+First, we should critically examine the credentials of the authors.
+
+250
+0:14:05.807,000 --> 0:14:09,000
+Just like you'd critically examine the credentials of a potential surgeon.
+
+251
+0:14:10.347,000 --> 0:14:13,000
+Are they truly experts in the matter,
+
+252
+0:14:13.577,000 --> 0:14:15,000
+or do they have a vested interest?
+
+253
+0:14:16.768,000 --> 0:14:18,000
+Second, we should pay particular attention
+
+254
+0:14:19.315,000 --> 0:14:22,000
+to papers published in the top academic journals.
+
+255
+0:14:24.038,000 --> 0:14:27,000
+Now, academics are often accused of being detached from the real world.
+
+256
+0:14:28.585,000 --> 0:14:31,000
+But this detachment gives you years to spend on a study.
+
+257
+0:14:32.339,000 --> 0:14:33,000
+To really nail down a result,
+
+258
+0:14:34.268,000 --> 0:14:36,000
+to rule out those rival theories,
+
+259
+0:14:36.307,000 --> 0:14:39,000
+and to distinguish correlation from causation.
+
+260
+0:14:40.172,000 --> 0:14:43,000
+And academic journals involve peer review,
+
+261
+0:14:43.673,000 --> 0:14:45,000
+where a paper is rigorously scrutinized
+
+262
+0:14:45.991,000 --> 0:14:46,000
+(Laughter)
+
+263
+0:14:47.434,000 --> 0:14:48,000
+by the world's leading minds.
+
+264
+0:14:50.434,000 --> 0:14:52,000
+The better the journal, the higher the standard.
+
+265
+0:14:53.014,000 --> 0:14:58,000
+The most elite journals reject 95 percent of papers.
+
+266
+0:14:59.434,000 --> 0:15:02,000
+Now, academic evidence is not everything.
+
+267
+0:15:03.109,000 --> 0:15:05,000
+Real-world experience is critical, also.
+
+268
+0:15:06.465,000 --> 0:15:09,000
+And peer review is not perfect, mistakes are made.
+
+269
+0:15:10.53,000 --> 0:15:12,000
+But it's better to go with something checked
+
+270
+0:15:12.617,000 --> 0:15:13,000
+than something unchecked.
+
+271
+0:15:14.696,000 --> 0:15:17,000
+If we latch onto a study because we like the findings,
+
+272
+0:15:17.919,000 --> 0:15:2,000
+without considering who it's by or whether it's even been vetted,
+
+273
+0:15:21.831,000 --> 0:15:24,000
+there is a massive chance that that study is misleading.
+
+274
+0:15:26.894,000 --> 0:15:28,000
+And those of us who claim to be experts
+
+275
+0:15:29.498,000 --> 0:15:32,000
+should recognize the limitations of our analysis.
+
+276
+0:15:33.244,000 --> 0:15:37,000
+Very rarely is it possible to prove or predict something with certainty,
+
+277
+0:15:38.292,000 --> 0:15:42,000
+yet it's so tempting to make a sweeping, unqualified statement.
+
+278
+0:15:43.069,000 --> 0:15:47,000
+It's easier to turn into a headline or to be tweeted in 140 characters.
+
+279
+0:15:48.417,000 --> 0:15:51,000
+But even evidence may not be proof.
+
+280
+0:15:52.481,000 --> 0:15:56,000
+It may not be universal, it may not apply in every setting.
+
+281
+0:15:57.252,000 --> 0:16:01,000
+So don't say, "Red wine causes longer life,"
+
+282
+0:16:02.196,000 --> 0:16:06,000
+when the evidence is only that red wine is correlated with longer life.
+
+283
+0:16:07.379,000 --> 0:16:09,000
+And only then in people who exercise as well.
+
+284
+0:16:11.868,000 --> 0:16:14,000
+Tip number three is "pause before sharing anything."
+
+285
+0:16:16.907,000 --> 0:16:19,000
+The Hippocratic oath says, "First, do no harm."
+
+286
+0:16:21.046,000 --> 0:16:24,000
+What we share is potentially contagious,
+
+287
+0:16:24.204,000 --> 0:16:27,000
+so be very careful about what we spread.
+
+288
+0:16:28.632,000 --> 0:16:3,000
+Our goal should not be to get likes or retweets.
+
+289
+0:16:31.609,000 --> 0:16:34,000
+Otherwise, we only share the consensus; we don't challenge anyone's thinking.
+
+290
+0:16:36.085,000 --> 0:16:38,000
+Otherwise, we only share what sounds good,
+
+291
+0:16:39.014,000 --> 0:16:41,000
+regardless of whether it's evidence.
+
+292
+0:16:42.188,000 --> 0:16:44,000
+Instead, we should ask the following:
+
+293
+0:16:45.572,000 --> 0:16:47,000
+If it's a story, is it true?
+
+294
+0:16:47.731,000 --> 0:16:49,000
+If it's true, is it backed up by large-scale evidence?
+
+295
+0:16:50.62,000 --> 0:16:52,000
+If it is, who is it by, what are their credentials?
+
+296
+0:16:53.239,000 --> 0:16:55,000
+Is it published, how rigorous is the journal?
+
+297
+0:16:56.733,000 --> 0:16:58,000
+And ask yourself the million-dollar question:
+
+298
+0:16:59.98,000 --> 0:17:03,000
+If the same study was written by the same authors with the same credentials
+
+299
+0:17:05.13,000 --> 0:17:06,000
+but found the opposite results,
+
+300
+0:17:07.608,000 --> 0:17:1,000
+would you still be willing to believe it and to share it?
+
+301
+0:17:13.442,000 --> 0:17:15,000
+Treating any problem --
+
+302
+0:17:15.712,000 --> 0:17:18,000
+a nation's economic problem or an individual's health problem,
+
+303
+0:17:19.528,000 --> 0:17:2,000
+is difficult.
+
+304
+0:17:21.242,000 --> 0:17:25,000
+So we must ensure that we have the very best evidence to guide us.
+
+305
+0:17:26.188,000 --> 0:17:28,000
+Only if it's true can it be fact.
+
+306
+0:17:29.601,000 --> 0:17:31,000
+Only if it's representative can it be data.
+
+307
+0:17:33.128,000 --> 0:17:36,000
+Only if it's supportive can it be evidence.
+
+308
+0:17:36.317,000 --> 0:17:41,000
+And only with evidence can we move from a post-truth world
+
+309
+0:17:41.508,000 --> 0:17:42,000
+to a pro-truth world.
+
+310
+0:17:44.183,000 --> 0:17:45,000
+Thank you very much.
+
+311
+0:17:45.541,000 --> 0:17:46,000
+(Applause)
+

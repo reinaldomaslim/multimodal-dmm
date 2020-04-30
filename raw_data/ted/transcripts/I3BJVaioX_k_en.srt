@@ -1,0 +1,1292 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Camille Martínez
+
+2
+0:00:12.782,000 --> 0:00:15,000
+I'm in the business of safeguarding secrets,
+
+3
+0:00:16.081,000 --> 0:00:18,000
+and this includes your secrets.
+
+4
+0:00:19.206,000 --> 0:00:21,000
+Cryptographers are the first line of defense
+
+5
+0:00:21.364,000 --> 0:00:24,000
+in an ongoing war that's been raging for centuries:
+
+6
+0:00:24.97,000 --> 0:00:26,000
+a war between code makers
+
+7
+0:00:27.257,000 --> 0:00:28,000
+and code breakers.
+
+8
+0:00:29.03,000 --> 0:00:31,000
+And this is a war on information.
+
+9
+0:00:32.227,000 --> 0:00:35,000
+The modern battlefield for information is digital.
+
+10
+0:00:35.735,000 --> 0:00:37,000
+And it wages across your phones,
+
+11
+0:00:37.921,000 --> 0:00:38,000
+your computers
+
+12
+0:00:39.121,000 --> 0:00:4,000
+and the internet.
+
+13
+0:00:41.299,000 --> 0:00:45,000
+Our job is to create systems that scramble your emails and credit card numbers,
+
+14
+0:00:46.302,000 --> 0:00:48,000
+your phone calls and text messages --
+
+15
+0:00:48.585,000 --> 0:00:5,000
+and that includes those saucy selfies --
+
+16
+0:00:50.801,000 --> 0:00:51,000
+(Laughter)
+
+17
+0:00:52.047,000 --> 0:00:54,000
+so that all of this information can only be descrambled
+
+18
+0:00:54.824,000 --> 0:00:56,000
+by the recipient that it's intended for.
+
+19
+0:00:58.017,000 --> 0:01:,000
+Now, until very recently,
+
+20
+0:01:00.354,000 --> 0:01:02,000
+we thought we'd won this war for good.
+
+21
+0:01:03.694,000 --> 0:01:05,000
+Right now, each of your smartphones is using encryption
+
+22
+0:01:06.663,000 --> 0:01:09,000
+that we thought was unbreakable and that was going to remain that way.
+
+23
+0:01:11.654,000 --> 0:01:12,000
+We were wrong,
+
+24
+0:01:13.618,000 --> 0:01:15,000
+because quantum computers are coming,
+
+25
+0:01:16.028,000 --> 0:01:18,000
+and they're going to change the game completely.
+
+26
+0:01:20.445,000 --> 0:01:22,000
+Throughout history, cryptography and code-breaking
+
+27
+0:01:22.925,000 --> 0:01:24,000
+has always been this game of cat and mouse.
+
+28
+0:01:25.598,000 --> 0:01:26,000
+Back in the 1500s,
+
+29
+0:01:27.299,000 --> 0:01:3,000
+Queen Mary of the Scots thought she was sending encrypted letters
+
+30
+0:01:30.502,000 --> 0:01:31,000
+that only her soldiers could decipher.
+
+31
+0:01:33.074,000 --> 0:01:35,000
+But Queen Elizabeth of England,
+
+32
+0:01:35.144,000 --> 0:01:37,000
+she had code breakers that were all over it.
+
+33
+0:01:38.116,000 --> 0:01:4,000
+They decrypted Mary's letters,
+
+34
+0:01:40.145,000 --> 0:01:43,000
+saw that she was attempting to assassinate Elizabeth
+
+35
+0:01:43.342,000 --> 0:01:45,000
+and, subsequently, they chopped Mary's head off.
+
+36
+0:01:47.729,000 --> 0:01:49,000
+A few centuries later, in World War II,
+
+37
+0:01:50.987,000 --> 0:01:52,000
+the Nazis communicated using the Engima code,
+
+38
+0:01:53.895,000 --> 0:01:56,000
+a much more complicated encryption scheme that they thought was unbreakable.
+
+39
+0:01:58.274,000 --> 0:01:59,000
+But then good old Alan Turing,
+
+40
+0:02:00.228,000 --> 0:02:03,000
+the same guy who invented what we now call the modern computer,
+
+41
+0:02:03.287,000 --> 0:02:05,000
+he built a machine and used it to break Enigma.
+
+42
+0:02:06.545,000 --> 0:02:07,000
+He deciphered the German messages
+
+43
+0:02:08.174,000 --> 0:02:1,000
+and helped to bring Hitler and his Third Reich to a halt.
+
+44
+0:02:11.772,000 --> 0:02:13,000
+And so the story has gone throughout the centuries.
+
+45
+0:02:14.821,000 --> 0:02:16,000
+Cryptographers improve their encryption,
+
+46
+0:02:17.347,000 --> 0:02:2,000
+and then code breakers fight back and they find a way to break it.
+
+47
+0:02:20.969,000 --> 0:02:23,000
+This war's gone back and forth, and it's been pretty neck and neck.
+
+48
+0:02:25.533,000 --> 0:02:27,000
+That was until the 1970s,
+
+49
+0:02:28.272,000 --> 0:02:3,000
+when some cryptographers made a huge breakthrough.
+
+50
+0:02:31.781,000 --> 0:02:34,000
+They discovered an extremely powerful way to do encryption
+
+51
+0:02:35.366,000 --> 0:02:36,000
+called "public-key cryptography."
+
+52
+0:02:37.839,000 --> 0:02:41,000
+Unlike all of the prior methods used throughout history, it doesn't require
+
+53
+0:02:42.138,000 --> 0:02:45,000
+that the two parties that want to send each other confidential information
+
+54
+0:02:45.769,000 --> 0:02:47,000
+have exchanged the secret key beforehand.
+
+55
+0:02:48.602,000 --> 0:02:52,000
+The magic of public-key cryptography is that it allows us to connect securely
+
+56
+0:02:52.738,000 --> 0:02:53,000
+with anyone in the world,
+
+57
+0:02:55.481,000 --> 0:02:57,000
+whether we've exchanged data before or not,
+
+58
+0:02:58.374,000 --> 0:03:01,000
+and to do it so fast that you and I don't even realize it's happening.
+
+59
+0:03:03.001,000 --> 0:03:06,000
+Whether you're texting your mate to catch up for a beer,
+
+60
+0:03:06.263,000 --> 0:03:1,000
+or you're a bank that's transferring billions of dollars to another bank,
+
+61
+0:03:10.534,000 --> 0:03:13,000
+modern encryption enables us to send data that can be secured
+
+62
+0:03:13.609,000 --> 0:03:15,000
+in a matter of milliseconds.
+
+63
+0:03:17.502,000 --> 0:03:19,000
+The brilliant idea that makes this magic possible,
+
+64
+0:03:20.408,000 --> 0:03:22,000
+it relies on hard mathematical problems.
+
+65
+0:03:23.623,000 --> 0:03:26,000
+Cryptographers are deeply interested in things that calculators can't do.
+
+66
+0:03:29.25,000 --> 0:03:32,000
+For example, calculators can multiply any two numbers you like,
+
+67
+0:03:32.675,000 --> 0:03:33,000
+no matter how big the size.
+
+68
+0:03:35.175,000 --> 0:03:36,000
+But going back the other way --
+
+69
+0:03:37.14,000 --> 0:03:39,000
+starting with the product and then asking,
+
+70
+0:03:39.382,000 --> 0:03:41,000
+"Which two numbers multiply to give this one?" --
+
+71
+0:03:41.771,000 --> 0:03:43,000
+that's actually a really hard problem.
+
+72
+0:03:45.358,000 --> 0:03:49,000
+If I asked you to find which two-digit numbers multiply to give 851,
+
+73
+0:03:51.051,000 --> 0:03:52,000
+even with a calculator,
+
+74
+0:03:52.267,000 --> 0:03:55,000
+most people in this room would have a hard time finding the answer
+
+75
+0:03:55.398,000 --> 0:03:56,000
+by the time I'm finished with this talk.
+
+76
+0:03:57.338,000 --> 0:03:59,000
+And if I make the numbers a little larger,
+
+77
+0:04:00.023,000 --> 0:04:03,000
+then there's no calculator on earth that can do this.
+
+78
+0:04:03.704,000 --> 0:04:05,000
+In fact, even the world's fastest supercomputer
+
+79
+0:04:06.611,000 --> 0:04:08,000
+would take longer than the life age of the universe
+
+80
+0:04:09.125,000 --> 0:04:11,000
+to find the two numbers that multiply to give this one.
+
+81
+0:04:13.029,000 --> 0:04:16,000
+And this problem, called "integer factorization,"
+
+82
+0:04:16.394,000 --> 0:04:19,000
+is exactly what each of your smartphones and laptops is using right now
+
+83
+0:04:20.044,000 --> 0:04:21,000
+to keep your data secure.
+
+84
+0:04:22.254,000 --> 0:04:24,000
+This is the basis of modern encryption.
+
+85
+0:04:26.266,000 --> 0:04:3,000
+And the fact that all the computing power on the planet combined can't solve it,
+
+86
+0:04:30.5,000 --> 0:04:32,000
+that's the reason we cryptographers thought we'd found a way
+
+87
+0:04:33.397,000 --> 0:04:35,000
+to stay ahead of the code breakers for good.
+
+88
+0:04:37.131,000 --> 0:04:38,000
+Perhaps we got a little cocky
+
+89
+0:04:39.902,000 --> 0:04:41,000
+because just when we thought the war was won,
+
+90
+0:04:42.272,000 --> 0:04:44,000
+a bunch of 20th-century physicists came to the party,
+
+91
+0:04:45.234,000 --> 0:04:47,000
+and they revealed that the laws of the universe,
+
+92
+0:04:47.937,000 --> 0:04:49,000
+the same laws that modern cryptography was built upon,
+
+93
+0:04:51.422,000 --> 0:04:52,000
+they aren't as we thought they were.
+
+94
+0:04:54.205,000 --> 0:04:57,000
+We thought that one object couldn't be in two places at the same time.
+
+95
+0:04:58.262,000 --> 0:04:59,000
+It's not the case.
+
+96
+0:04:59.827,000 --> 0:05:02,000
+We thought nothing can possibly spin clockwise and anticlockwise
+
+97
+0:05:03.563,000 --> 0:05:04,000
+simultaneously.
+
+98
+0:05:05.265,000 --> 0:05:06,000
+But that's incorrect.
+
+99
+0:05:07.173,000 --> 0:05:1,000
+And we thought that two objects on opposite sides of the universe,
+
+100
+0:05:10.907,000 --> 0:05:12,000
+light years away from each other,
+
+101
+0:05:13.232,000 --> 0:05:16,000
+they can't possibly influence one another instantaneously.
+
+102
+0:05:17.932,000 --> 0:05:18,000
+We were wrong again.
+
+103
+0:05:20.403,000 --> 0:05:22,000
+And isn't that always the way life seems to go?
+
+104
+0:05:22.636,000 --> 0:05:25,000
+Just when you think you've got everything covered, your ducks in a row,
+
+105
+0:05:26.056,000 --> 0:05:27,000
+a bunch of physicists come along
+
+106
+0:05:27.635,000 --> 0:05:3,000
+and reveal that the fundamental laws of the universe are completely different
+
+107
+0:05:31.351,000 --> 0:05:32,000
+to what you thought?
+
+108
+0:05:32.536,000 --> 0:05:33,000
+(Laughter)
+
+109
+0:05:33.618,000 --> 0:05:34,000
+And it screws everything up.
+
+110
+0:05:34.998,000 --> 0:05:38,000
+See, in the teeny tiny subatomic realm,
+
+111
+0:05:39.548,000 --> 0:05:42,000
+at the level of electrons and protons,
+
+112
+0:05:42.584,000 --> 0:05:43,000
+the classical laws of physics,
+
+113
+0:05:44.43,000 --> 0:05:45,000
+the ones that we all know and love,
+
+114
+0:05:46.294,000 --> 0:05:47,000
+they go out the window.
+
+115
+0:05:48.023,000 --> 0:05:5,000
+And it's here that the laws of quantum mechanics kick in.
+
+116
+0:05:51.688,000 --> 0:05:52,000
+In quantum mechanics,
+
+117
+0:05:52.898,000 --> 0:05:56,000
+an electron can be spinning clockwise and anticlockwise at the same time,
+
+118
+0:05:57.4,000 --> 0:05:59,000
+and a proton can be in two places at once.
+
+119
+0:06:01.94,000 --> 0:06:03,000
+It sounds like science fiction,
+
+120
+0:06:04.087,000 --> 0:06:08,000
+but that's only because the crazy quantum nature of our universe,
+
+121
+0:06:08.306,000 --> 0:06:09,000
+it hides itself from us.
+
+122
+0:06:10.884,000 --> 0:06:13,000
+And it stayed hidden from us until the 20th century.
+
+123
+0:06:15.494,000 --> 0:06:18,000
+But now that we've seen it, the whole world is in an arms race
+
+124
+0:06:19.287,000 --> 0:06:21,000
+to try to build a quantum computer --
+
+125
+0:06:22.455,000 --> 0:06:26,000
+a computer that can harness the power of this weird and wacky quantum behavior.
+
+126
+0:06:28.375,000 --> 0:06:3,000
+These things are so revolutionary
+
+127
+0:06:30.855,000 --> 0:06:31,000
+and so powerful
+
+128
+0:06:32.645,000 --> 0:06:34,000
+that they'll make today's fastest supercomputer
+
+129
+0:06:35.022,000 --> 0:06:37,000
+look useless in comparison.
+
+130
+0:06:37.868,000 --> 0:06:4,000
+In fact, for certain problems that are of great interest to us,
+
+131
+0:06:41.633,000 --> 0:06:43,000
+today's fastest supercomputer is closer to an abacus
+
+132
+0:06:44.268,000 --> 0:06:45,000
+than to a quantum computer.
+
+133
+0:06:45.967,000 --> 0:06:48,000
+That's right, I'm talking about those little wooden things with the beads.
+
+134
+0:06:50.477,000 --> 0:06:54,000
+Quantum computers can simulate chemical and biological processes
+
+135
+0:06:54.769,000 --> 0:06:56,000
+that are far beyond the reach of our classical computers.
+
+136
+0:06:58.812,000 --> 0:07:03,000
+And as such, they promise to help us solve some of our planet's biggest problems.
+
+137
+0:07:05.492,000 --> 0:07:07,000
+They're going to help us combat global hunger;
+
+138
+0:07:09.074,000 --> 0:07:11,000
+to tackle climate change;
+
+139
+0:07:11.415,000 --> 0:07:14,000
+to find cures for diseases and pandemics for which we've so far been unsuccessful;
+
+140
+0:07:16.213,000 --> 0:07:18,000
+to create superhuman artificial intelligence;
+
+141
+0:07:20.034,000 --> 0:07:22,000
+and perhaps even more important than all of those things,
+
+142
+0:07:22.962,000 --> 0:07:25,000
+they're going to help us understand the very nature of our universe.
+
+143
+0:07:28.376,000 --> 0:07:3,000
+But with this incredible potential
+
+144
+0:07:31.788,000 --> 0:07:32,000
+comes an incredible risk.
+
+145
+0:07:34.785,000 --> 0:07:36,000
+Remember those big numbers I talked about earlier?
+
+146
+0:07:38.152,000 --> 0:07:4,000
+I'm not talking about 851.
+
+147
+0:07:40.275,000 --> 0:07:42,000
+In fact, if anyone in here has been distracted
+
+148
+0:07:42.48,000 --> 0:07:43,000
+trying to find those factors,
+
+149
+0:07:43.943,000 --> 0:07:46,000
+I'm going to put you out of your misery and tell you that it's 23 times 37.
+
+150
+0:07:47.521,000 --> 0:07:48,000
+(Laughter)
+
+151
+0:07:48.739,000 --> 0:07:5,000
+I'm talking about the much bigger number that followed it.
+
+152
+0:07:52.3,000 --> 0:07:55,000
+While today's fastest supercomputer couldn't find those factors
+
+153
+0:07:55.824,000 --> 0:07:57,000
+in the life age of the universe,
+
+154
+0:07:58.181,000 --> 0:08:,000
+a quantum computer could easily factorize numbers
+
+155
+0:08:01.085,000 --> 0:08:02,000
+way, way bigger than that one.
+
+156
+0:08:03.882,000 --> 0:08:06,000
+Quantum computers will break all of the encryption currently used
+
+157
+0:08:07.316,000 --> 0:08:08,000
+to protect you and I from hackers.
+
+158
+0:08:09.318,000 --> 0:08:1,000
+And they'll do it easily.
+
+159
+0:08:12.539,000 --> 0:08:13,000
+Let me put it this way:
+
+160
+0:08:13.896,000 --> 0:08:14,000
+if quantum computing was a spear,
+
+161
+0:08:16.666,000 --> 0:08:17,000
+then modern encryption,
+
+162
+0:08:18.225,000 --> 0:08:21,000
+the same unbreakable system that's protected us for decades,
+
+163
+0:08:21.622,000 --> 0:08:23,000
+it would be like a shield made of tissue paper.
+
+164
+0:08:25.578,000 --> 0:08:28,000
+Anyone with access to a quantum computer will have the master key
+
+165
+0:08:29.59,000 --> 0:08:31,000
+to unlock anything they like in our digital world.
+
+166
+0:08:33.293,000 --> 0:08:34,000
+They could steal money from banks
+
+167
+0:08:35.129,000 --> 0:08:36,000
+and control economies.
+
+168
+0:08:37.303,000 --> 0:08:39,000
+They could power off hospitals or launch nukes.
+
+169
+0:08:40.224,000 --> 0:08:43,000
+Or they could just sit back and watch all of us on our webcams
+
+170
+0:08:43.585,000 --> 0:08:45,000
+without any of us knowing that this is happening.
+
+171
+0:08:49.314,000 --> 0:08:52,000
+Now, the fundamental unit of information on all of the computers we're used to,
+
+172
+0:08:53.297,000 --> 0:08:54,000
+like this one,
+
+173
+0:08:54.826,000 --> 0:08:55,000
+it's called a "bit."
+
+174
+0:08:56.651,000 --> 0:08:58,000
+A single bit can be one of two states:
+
+175
+0:08:58.898,000 --> 0:09:,000
+it can be a zero or it can be a one.
+
+176
+0:09:02.157,000 --> 0:09:04,000
+When I FaceTime my mum from the other side of the world --
+
+177
+0:09:05.746,000 --> 0:09:07,000
+and she's going to kill me for having this slide --
+
+178
+0:09:08.256,000 --> 0:09:09,000
+(Laughter)
+
+179
+0:09:09.675,000 --> 0:09:12,000
+we're actually just sending each other long sequences of zeroes and ones
+
+180
+0:09:13.433,000 --> 0:09:16,000
+that bounce from computer to computer, from satellite to satellite,
+
+181
+0:09:16.659,000 --> 0:09:18,000
+transmitting our data at a rapid pace.
+
+182
+0:09:18.829,000 --> 0:09:2,000
+Bits are certainly very useful.
+
+183
+0:09:20.856,000 --> 0:09:22,000
+In fact, anything we currently do with technology
+
+184
+0:09:23.576,000 --> 0:09:25,000
+is indebted to the usefulness of bits.
+
+185
+0:09:26.84,000 --> 0:09:27,000
+But we're starting to realize
+
+186
+0:09:28.253,000 --> 0:09:32,000
+that bits are really poor at simulating complex molecules and particles.
+
+187
+0:09:33.394,000 --> 0:09:34,000
+And this is because, in some sense,
+
+188
+0:09:35.394,000 --> 0:09:38,000
+subatomic processes can be doing two or more opposing things
+
+189
+0:09:38.503,000 --> 0:09:39,000
+at the same time
+
+190
+0:09:39.715,000 --> 0:09:41,000
+as they follow these bizarre rules of quantum mechanics.
+
+191
+0:09:43.232,000 --> 0:09:44,000
+So, late last century,
+
+192
+0:09:44.8,000 --> 0:09:47,000
+some really brainy physicists had this ingenious idea:
+
+193
+0:09:48.041,000 --> 0:09:5,000
+to instead build computers that are founded
+
+194
+0:09:50.066,000 --> 0:09:52,000
+on the principles of quantum mechanics.
+
+195
+0:09:54.557,000 --> 0:09:57,000
+Now, the fundamental unit of information of a quantum computer,
+
+196
+0:09:57.8,000 --> 0:09:58,000
+it's called a "qubit."
+
+197
+0:09:59.582,000 --> 0:10:,000
+It stands for "quantum bit."
+
+198
+0:10:02.986,000 --> 0:10:05,000
+Instead of having just two states, like zero or one,
+
+199
+0:10:06.267,000 --> 0:10:08,000
+a qubit can be an infinite number of states.
+
+200
+0:10:09.849,000 --> 0:10:12,000
+And this corresponds to it being some combination of both zero and one
+
+201
+0:10:13.539,000 --> 0:10:14,000
+at the same time,
+
+202
+0:10:15.35,000 --> 0:10:17,000
+a phenomenon that we call "superposition."
+
+203
+0:10:18.569,000 --> 0:10:2,000
+And when we have two qubits in superposition,
+
+204
+0:10:21.298,000 --> 0:10:23,000
+we're actually working across all four combinations
+
+205
+0:10:23.704,000 --> 0:10:25,000
+of zero-zero, zero-one, one-zero and one-one.
+
+206
+0:10:26.94,000 --> 0:10:27,000
+With three qubits,
+
+207
+0:10:28.31,000 --> 0:10:31,000
+we're working in superposition across eight combinations,
+
+208
+0:10:31.575,000 --> 0:10:32,000
+and so on.
+
+209
+0:10:33.294,000 --> 0:10:36,000
+Each time we add a single qubit, we double the number of combinations
+
+210
+0:10:37.268,000 --> 0:10:4,000
+that we can work with in superposition
+
+211
+0:10:40.894,000 --> 0:10:41,000
+at the same time.
+
+212
+0:10:43.005,000 --> 0:10:45,000
+And so when we scale up to work with many qubits,
+
+213
+0:10:45.658,000 --> 0:10:48,000
+we can work with an exponential number of combinations
+
+214
+0:10:49.304,000 --> 0:10:5,000
+at the same time.
+
+215
+0:10:51.44,000 --> 0:10:54,000
+And this just hints at where the power of quantum computing is coming from.
+
+216
+0:10:56.964,000 --> 0:10:57,000
+Now, in modern encryption,
+
+217
+0:10:59.429,000 --> 0:11:02,000
+our secret keys, like the two factors of that larger number,
+
+218
+0:11:03.381,000 --> 0:11:05,000
+they're just long sequences of zeroes and ones.
+
+219
+0:11:06.539,000 --> 0:11:07,000
+To find them,
+
+220
+0:11:07.807,000 --> 0:11:11,000
+a classical computer must go through every single combination,
+
+221
+0:11:12.275,000 --> 0:11:13,000
+one after the other,
+
+222
+0:11:13.45,000 --> 0:11:16,000
+until it finds the one that works and breaks our encryption.
+
+223
+0:11:18.191,000 --> 0:11:19,000
+But on a quantum computer,
+
+224
+0:11:20.779,000 --> 0:11:23,000
+with enough qubits in superposition,
+
+225
+0:11:25.001,000 --> 0:11:29,000
+information can be extracted from all combinations at the same time.
+
+226
+0:11:30.912,000 --> 0:11:31,000
+In very few steps,
+
+227
+0:11:32.19,000 --> 0:11:35,000
+a quantum computer can brush aside all of the incorrect combinations,
+
+228
+0:11:36.188,000 --> 0:11:37,000
+home in on the correct one
+
+229
+0:11:37.625,000 --> 0:11:39,000
+and then unlock our treasured secrets.
+
+230
+0:11:44.215,000 --> 0:11:46,000
+Now, at the crazy quantum level,
+
+231
+0:11:47.9,000 --> 0:11:49,000
+something truly incredible is happening here.
+
+232
+0:11:52.625,000 --> 0:11:55,000
+The conventional wisdom held by many leading physicists --
+
+233
+0:11:56.323,000 --> 0:11:58,000
+and you've got to stay with me on this one --
+
+234
+0:11:58.966,000 --> 0:12:02,000
+is that each combination is actually examined by its very own quantum computer
+
+235
+0:12:03.413,000 --> 0:12:05,000
+inside its very own parallel universe.
+
+236
+0:12:07.303,000 --> 0:12:1,000
+Each of these combinations, they add up like waves in a pool of water.
+
+237
+0:12:12.085,000 --> 0:12:13,000
+The combinations that are wrong,
+
+238
+0:12:14.095,000 --> 0:12:15,000
+they cancel each other out.
+
+239
+0:12:16.097,000 --> 0:12:17,000
+And the combinations that are right,
+
+240
+0:12:17.881,000 --> 0:12:18,000
+they reinforce and amplify each other.
+
+241
+0:12:20.241,000 --> 0:12:22,000
+So at the end of the quantum computing program,
+
+242
+0:12:22.93,000 --> 0:12:24,000
+all that's left is the correct answer,
+
+243
+0:12:25.771,000 --> 0:12:27,000
+that we can then observe here in this universe.
+
+244
+0:12:29.575,000 --> 0:12:32,000
+Now, if that doesn't make complete sense to you, don't stress.
+
+245
+0:12:32.735,000 --> 0:12:33,000
+(Laughter)
+
+246
+0:12:33.807,000 --> 0:12:34,000
+You're in good company.
+
+247
+0:12:36.205,000 --> 0:12:39,000
+Niels Bohr, one of the pioneers of this field,
+
+248
+0:12:39.395,000 --> 0:12:42,000
+he once said that anyone who could contemplate quantum mechanics
+
+249
+0:12:42.426,000 --> 0:12:44,000
+without being profoundly shocked,
+
+250
+0:12:44.813,000 --> 0:12:45,000
+they haven't understood it.
+
+251
+0:12:46.293,000 --> 0:12:47,000
+(Laughter)
+
+252
+0:12:47.744,000 --> 0:12:49,000
+But you get an idea of what we're up against,
+
+253
+0:12:49.923,000 --> 0:12:51,000
+and why it's now up to us cryptographers
+
+254
+0:12:52.009,000 --> 0:12:53,000
+to really step it up.
+
+255
+0:12:54.674,000 --> 0:12:56,000
+And we have to do it fast,
+
+256
+0:12:56.787,000 --> 0:12:58,000
+because quantum computers,
+
+257
+0:12:58.843,000 --> 0:13:01,000
+they already exist in labs all over the world.
+
+258
+0:13:03.248,000 --> 0:13:04,000
+Fortunately, at this minute,
+
+259
+0:13:05.169,000 --> 0:13:07,000
+they only exist at a relatively small scale,
+
+260
+0:13:07.863,000 --> 0:13:1,000
+still too small to break our much larger cryptographic keys.
+
+261
+0:13:12.127,000 --> 0:13:13,000
+But we might not be safe for long.
+
+262
+0:13:14.968,000 --> 0:13:16,000
+Some folks believe that secret government agencies
+
+263
+0:13:17.488,000 --> 0:13:18,000
+have already built a big enough one,
+
+264
+0:13:19.425,000 --> 0:13:2,000
+and they just haven't told anyone yet.
+
+265
+0:13:21.961,000 --> 0:13:23,000
+Some pundits say they're more like 10 years off.
+
+266
+0:13:24.414,000 --> 0:13:25,000
+Some people say it's more like 30.
+
+267
+0:13:27.163,000 --> 0:13:29,000
+You might think that if quantum computers are 10 years away,
+
+268
+0:13:30.044,000 --> 0:13:33,000
+surely that's enough time for us cryptographers to figure it out
+
+269
+0:13:33.132,000 --> 0:13:34,000
+and to secure the internet in time.
+
+270
+0:13:34.85,000 --> 0:13:35,000
+But unfortunately, it's not that easy.
+
+271
+0:13:37.521,000 --> 0:13:39,000
+Even if we ignore the many years that it takes
+
+272
+0:13:39.733,000 --> 0:13:42,000
+to standardize and deploy and then roll out new encryption technology,
+
+273
+0:13:43.423,000 --> 0:13:45,000
+in some ways we may already be too late.
+
+274
+0:13:47.407,000 --> 0:13:5,000
+Smart digital criminals and government agencies
+
+275
+0:13:50.603,000 --> 0:13:54,000
+may already be storing our most sensitive encrypted data
+
+276
+0:13:54.906,000 --> 0:13:56,000
+in anticipation for the quantum future ahead.
+
+277
+0:13:59.069,000 --> 0:14:,000
+The messages of foreign leaders,
+
+278
+0:14:02.1,000 --> 0:14:03,000
+of war generals
+
+279
+0:14:04.653,000 --> 0:14:06,000
+or of individuals who question power,
+
+280
+0:14:07.936,000 --> 0:14:08,000
+they're encrypted for now.
+
+281
+0:14:10.487,000 --> 0:14:11,000
+But as soon as the day comes
+
+282
+0:14:12.112,000 --> 0:14:14,000
+that someone gets their hands on a quantum computer,
+
+283
+0:14:14.912,000 --> 0:14:17,000
+they can retroactively break anything from the past.
+
+284
+0:14:19.078,000 --> 0:14:21,000
+In certain government and financial sectors
+
+285
+0:14:21.132,000 --> 0:14:22,000
+or in military organizations,
+
+286
+0:14:22.559,000 --> 0:14:25,000
+sensitive data has got to remain classified for 25 years.
+
+287
+0:14:26.273,000 --> 0:14:29,000
+So if a quantum computer really will exist in 10 years,
+
+288
+0:14:29.477,000 --> 0:14:31,000
+then these guys are already 15 years too late
+
+289
+0:14:31.791,000 --> 0:14:32,000
+to quantum-proof their encryption.
+
+290
+0:14:34.858,000 --> 0:14:35,000
+So while many scientists around the world
+
+291
+0:14:36.858,000 --> 0:14:38,000
+are racing to try to build a quantum computer,
+
+292
+0:14:39.785,000 --> 0:14:42,000
+us cryptographers are urgently looking to reinvent encryption
+
+293
+0:14:43.259,000 --> 0:14:45,000
+to protect us long before that day comes.
+
+294
+0:14:46.718,000 --> 0:14:48,000
+We're looking for new, hard mathematical problems.
+
+295
+0:14:50.435,000 --> 0:14:53,000
+We're looking for problems that, just like factorization,
+
+296
+0:14:53.47,000 --> 0:14:56,000
+can be used on our smartphones and on our laptops today.
+
+297
+0:14:57.596,000 --> 0:15:01,000
+But unlike factorization, we need these problems to be so hard
+
+298
+0:15:01.995,000 --> 0:15:03,000
+that they're even unbreakable with a quantum computer.
+
+299
+0:15:06.366,000 --> 0:15:09,000
+In recent years, we've been digging around a much wider realm of mathematics
+
+300
+0:15:09.996,000 --> 0:15:1,000
+to look for such problems.
+
+301
+0:15:12.205,000 --> 0:15:13,000
+We've been looking at numbers and objects
+
+302
+0:15:14.2,000 --> 0:15:16,000
+that are far more exotic and far more abstract
+
+303
+0:15:16.392,000 --> 0:15:17,000
+than the ones that you and I are used to,
+
+304
+0:15:18.372,000 --> 0:15:19,000
+like the ones on our calculators.
+
+305
+0:15:19.993,000 --> 0:15:21,000
+And we believe we've found some geometric problems
+
+306
+0:15:22.397,000 --> 0:15:23,000
+that just might do the trick.
+
+307
+0:15:24.383,000 --> 0:15:27,000
+Now, unlike those two- and three-dimensional geometric problems
+
+308
+0:15:27.47,000 --> 0:15:3,000
+that we used to have to try to solve with pen and graph paper in high school,
+
+309
+0:15:31.193,000 --> 0:15:35,000
+most of these problems are defined in well over 500 dimensions.
+
+310
+0:15:36.453,000 --> 0:15:39,000
+So not only are they a little hard to depict and solve on graph paper,
+
+311
+0:15:40.233,000 --> 0:15:43,000
+but we believe they're even out of the reach of a quantum computer.
+
+312
+0:15:45.392,000 --> 0:15:46,000
+So though it's early days,
+
+313
+0:15:47.113,000 --> 0:15:51,000
+it's here that we are putting our hope as we try to secure our digital world
+
+314
+0:15:51.642,000 --> 0:15:52,000
+moving into its quantum future.
+
+315
+0:15:55.171,000 --> 0:15:56,000
+Just like all of the other scientists,
+
+316
+0:15:57.048,000 --> 0:15:59,000
+we cryptographers are tremendously excited
+
+317
+0:15:59.235,000 --> 0:16:02,000
+at the potential of living in a world alongside quantum computers.
+
+318
+0:16:04.839,000 --> 0:16:06,000
+They could be such a force for good.
+
+319
+0:16:09.508,000 --> 0:16:13,000
+But no matter what technological future we live in,
+
+320
+0:16:16.867,000 --> 0:16:2,000
+our secrets will always be a part of our humanity.
+
+321
+0:16:22.637,000 --> 0:16:24,000
+And that is worth protecting.
+
+322
+0:16:25.559,000 --> 0:16:26,000
+Thanks.
+
+323
+0:16:26.737,000 --> 0:16:29,000
+(Applause)
+

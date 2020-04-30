@@ -1,0 +1,692 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: eric vautier Relecteur: Yves DAUMAS
+
+2
+0:00:12,000 --> 0:00:17,000
+Plus d'un million de personnes sont tuées chaque année dans des catastrophes.
+
+3
+0:00:17.999,000 --> 0:00:22,000
+2,5 millions garderont des séquelles ou seront déplacées
+
+4
+0:00:23.257,000 --> 0:00:26,000
+et les communautés mettront 20 à 30 ans à s'en remettre
+
+5
+0:00:27.205,000 --> 0:00:29,000
+sans compter les milliards en pertes financières.
+
+6
+0:00:31.054,000 --> 0:00:35,000
+Si on pouvait réduire d'un jour la phase des premiers secours,
+
+7
+0:00:35.449,000 --> 0:00:38,000
+on pourrait réduire la reconstruction entière
+
+8
+0:00:39,000 --> 0:00:41,000
+d'un millier de jours, soit 3 ans.
+
+9
+0:00:41.832,000 --> 0:00:42,000
+Pourquoi cela ?
+
+10
+0:00:43.609,000 --> 0:00:45,000
+Si les premiers secours peuvent accéder, sauver des vies,
+
+11
+0:00:46.483,000 --> 0:00:48,000
+parer à un risque d'inondation,
+
+12
+0:00:49.023,000 --> 0:00:51,000
+alors d'autres équipes peuvent accéder
+
+13
+0:00:51.331,000 --> 0:00:53,000
+pour rétablir l'eau, les routes, l'électricité,
+
+14
+0:00:54.34,000 --> 0:00:57,000
+puis les équipes de construction, les agents d'assurance,
+
+15
+0:00:57.48,000 --> 0:00:59,000
+tous peuvent commencer à reconstruire les maisons,
+
+16
+0:01:00.118,000 --> 0:01:02,000
+ce qui signifie veut dire que vous pouvez restaurer l'économie,
+
+17
+0:01:03.13,000 --> 0:01:07,000
+et peut-être même l'améliorer et la rendre plus résistante au prochain désastre.
+
+18
+0:01:09.899,000 --> 0:01:1,000
+Une grande compagnie d'assurance m'a dit
+
+19
+0:01:11.815,000 --> 0:01:16,000
+que s'ils peuvent traiter le dossier d'un propriétaire un jour plus tôt,
+
+20
+0:01:16.855,000 --> 0:01:18,000
+cela améliorera de 6 mois le delai
+
+21
+0:01:18.999,000 --> 0:01:2,000
+pour réparer sa maison.
+
+22
+0:01:22.118,000 --> 0:01:24,000
+Voilà pourquoi je m'occupe de robotique de secours
+
+23
+0:01:24.471,000 --> 0:01:28,000
+parce que les robots peuvent accélérer le retour à la normale.
+
+24
+0:01:30.305,000 --> 0:01:32,000
+Vous en avez déjà vu quelques exemples.
+
+25
+0:01:32.346,000 --> 0:01:33,000
+Je veux parler des drones.
+
+26
+0:01:34.09,000 --> 0:01:35,000
+Il y en a 2 sortes :
+
+27
+0:01:35.975,000 --> 0:01:36,000
+à rotor, ou colibri,
+
+28
+0:01:37.864,000 --> 0:01:39,000
+à aile fixe, ou faucon.
+
+29
+0:01:39.958,000 --> 0:01:43,000
+Et ils sont beaucoup utilisés depuis l'ouragan Katrina, en 2005.
+
+30
+0:01:44.571,000 --> 0:01:47,000
+Je vais vous montrer comment marche ce drone colibri.
+
+31
+0:01:47.919,000 --> 0:01:5,000
+Fantastique pour les ingénieurs en structures.
+
+32
+0:01:50.999,000 --> 0:01:54,000
+Être capable de voir les dommages d'un autre angle que depuis le sol
+
+33
+0:01:55.443,000 --> 0:01:56,000
+ou sur une image satellite,
+
+34
+0:01:56.777,000 --> 0:01:59,000
+ou de n'importe quoi volant plus haut.
+
+35
+0:02:00.53,000 --> 0:02:04,000
+Mais ce n'est pas utile que pour les ingénieurs et les assureurs.
+
+36
+0:02:04.926,000 --> 0:02:06,000
+Vous avez ce drone à aile fixe, ce faucon.
+
+37
+0:02:07.417,000 --> 0:02:1,000
+Il peut être utilisé pour des études géo-spatiales.
+
+38
+0:02:10.712,000 --> 0:02:12,000
+Lorsque vous combinez les images ensemble
+
+39
+0:02:13.585,000 --> 0:02:14,000
+pour créer des reconstitutions en 3D.
+
+40
+0:02:15.434,000 --> 0:02:19,000
+Nous les avons utilisés lors des glissements de terrain à Oso,
+
+41
+0:02:19.532,000 --> 0:02:21,000
+car le problème majeur
+
+42
+0:02:21.755,000 --> 0:02:24,000
+était la compréhension géospatiale et hydrologique du désastre --
+
+43
+0:02:24.937,000 --> 0:02:25,000
+pas le sauvetage.
+
+44
+0:02:26.207,000 --> 0:02:28,000
+Les équipes de secours contrôlaient la situation
+
+45
+0:02:28.55,000 --> 0:02:29,000
+et savaient quoi faire.
+
+46
+0:02:30.052,000 --> 0:02:33,000
+Le risque principal était que la rivière et la coulée de boue emportent
+
+47
+0:02:33.946,000 --> 0:02:34,000
+et engloutissent les secours.
+
+48
+0:02:35.488,000 --> 0:02:38,000
+Et ce n'était pas risqué seulement pour les secours et les habitations,
+
+49
+0:02:39.23,000 --> 0:02:42,000
+mais aussi pour le futur de la pêche au saumon
+
+50
+0:02:42.533,000 --> 0:02:43,000
+dans l’État de Washington.
+
+51
+0:02:44.273,000 --> 0:02:46,000
+Ils avaient besoin de comprendre ce qui ce passait.
+
+52
+0:02:46.773,000 --> 0:02:48,000
+En 7 heures, ils ont pu rouler d'Arlington
+
+53
+0:02:49.406,000 --> 0:02:53,000
+jusqu'au PC de crise, puis au site, faire décoller les drones,
+
+54
+0:02:54.244,000 --> 0:02:57,000
+traiter les données, et revenir au poste de commandement d'Arlington --
+
+55
+0:02:57.999,000 --> 0:02:58,000
+sept heures.
+
+56
+0:02:59.429,000 --> 0:03:02,000
+Nous leur avons fourni en 7 heures les données qu'ils auraient mis
+
+57
+0:03:02.987,000 --> 0:03:05,000
+2 à 3 jours à obtenir autrement --
+
+58
+0:03:06.761,000 --> 0:03:07,000
+et avec une meilleure précision.
+
+59
+0:03:09.064,000 --> 0:03:1,000
+C'est un changement radical.
+
+60
+0:03:11.773,000 --> 0:03:13,000
+Et il n'y a pas que les drones.
+
+61
+0:03:13.866,000 --> 0:03:15,000
+D'accord, ils sont sexy -- mais rappelez-vous que
+
+62
+0:03:16.518,000 --> 0:03:19,000
+80% de la population mondiale vit à côté de l'eau,
+
+63
+0:03:19.878,000 --> 0:03:21,000
+donc une part essentielle de notre infrastructure
+
+64
+0:03:22.766,000 --> 0:03:25,000
+peut être sous l'eau, inaccessible, par exemple les ponts.
+
+65
+0:03:26.076,000 --> 0:03:28,000
+Et c'est pourquoi nous avons des drones sous-marins,
+
+66
+0:03:28.692,000 --> 0:03:32,000
+dont vous connaissez déjà un spécimen, SARbot, un dauphin cubique.
+
+67
+0:03:33.168,000 --> 0:03:35,000
+Il va sous l'eau et utilise un sonar.
+
+68
+0:03:35.888,000 --> 0:03:37,000
+Pourquoi les robots marins sont si importants,
+
+69
+0:03:38.245,000 --> 0:03:41,000
+et pourquoi sont-ils très très importants ?
+
+70
+0:03:41.393,000 --> 0:03:42,000
+On les oublie.
+
+71
+0:03:42.933,000 --> 0:03:44,000
+Prenez le tsunami au Japon --
+
+72
+0:03:45.359,000 --> 0:03:48,000
+650 km de côtes totalement dévastées,
+
+73
+0:03:49.349,000 --> 0:03:53,000
+deux fois l'étendue ravagée par Katrina aux États-Unis.
+
+74
+0:03:54.069,000 --> 0:03:57,000
+Il s'agit des ponts, des pipelines, des ports -- rasés.
+
+75
+0:03:57.949,000 --> 0:03:58,000
+Et si vous n'avez pas de port,
+
+76
+0:03:59.585,000 --> 0:04:02,000
+vous n'avez pas de moyen d'envoyer assez d'aide humanitaire
+
+77
+0:04:02.855,000 --> 0:04:03,000
+pour aider la population.
+
+78
+0:04:04.1,000 --> 0:04:07,000
+C'était un problème majeur lors du tremblement de terre en Haïti.
+
+79
+0:04:07.565,000 --> 0:04:09,000
+Donc nous avons besoin des robots marins.
+
+80
+0:04:09.711,000 --> 0:04:11,000
+Maintenant regardons grâce à SARbot
+
+81
+0:04:12.166,000 --> 0:04:13,000
+ce qu'ils voyaient.
+
+82
+0:04:13.661,000 --> 0:04:15,000
+Nous travaillions dans un port de pêche.
+
+83
+0:04:15.931,000 --> 0:04:2,000
+Nous avons pu ré-ouvrir ce port de pêche, en utilisant son sonar, en 4 heures.
+
+84
+0:04:21.671,000 --> 0:04:23,000
+On leur avait dit que ça allait prendre 6 mois
+
+85
+0:04:24.278,000 --> 0:04:26,000
+avant de pouvoir envoyer une équipe de plongeurs sur place,
+
+86
+0:04:27.078,000 --> 0:04:29,000
+et que ça allait prendre 2 semaines aux plongeurs.
+
+87
+0:04:29.789,000 --> 0:04:31,000
+Trop tard pour la saison automnale de pêche,
+
+88
+0:04:32.107,000 --> 0:04:36,000
+ce qui représentait le plus gros de leurs revenus, c'est comme leur Cape Cod.
+
+89
+0:04:36.357,000 --> 0:04:38,000
+Drones sous-marins, très important.
+
+90
+0:04:38.649,000 --> 0:04:41,000
+Mais vous voyez, tous les robots que je vous ai montrés sont petits,
+
+91
+0:04:41.921,000 --> 0:04:44,000
+et c'est parce qu'ils ne font pas ce que les personnes font.
+
+92
+0:04:45.722,000 --> 0:04:47,000
+Ils vont là où personne ne peut aller.
+
+93
+0:04:47.999,000 --> 0:04:49,000
+Un bel exemple en est Bujold.
+
+94
+0:04:50.999,000 --> 0:04:52,000
+Les drones terrestres sont particulièrement petits,
+
+95
+0:04:53.999,000 --> 0:04:54,000
+comme Bujold --
+
+96
+0:04:55.341,000 --> 0:04:56,000
+(Rires)
+
+97
+0:04:56.873,000 --> 0:04:57,000
+Dites bonjour à Bujold.
+
+98
+0:04:58.08,000 --> 0:05:,000
+(Rires)
+
+99
+0:05:01.606,000 --> 0:05:04,000
+Bujold fut beaucoup utilisé au World Trade Center
+
+100
+0:05:04.999,000 --> 0:05:06,000
+pour explorer les tours 1, 2 et 3.
+
+101
+0:05:07.403,000 --> 0:05:11,000
+Vous escaladez les décombres, descendez dans les cavités en profondeur.
+
+102
+0:05:12.072,000 --> 0:05:16,000
+Regardez à quoi le World Trade Center ressemblait, vu de Bujold.
+
+103
+0:05:16.655,000 --> 0:05:21,000
+C'est un désastre sur lequel ni humain ni chien ne pouvaient intervenir --
+
+104
+0:05:21.748,000 --> 0:05:23,000
+et c'est en feu.
+
+105
+0:05:23.914,000 --> 0:05:26,000
+Le seul espoir d'atteindre un survivant dans le sous-sol,
+
+106
+0:05:27.672,000 --> 0:05:29,000
+est de traverser des débris en flammes.
+
+107
+0:05:29.891,000 --> 0:05:33,000
+Il faisait si chaud que sur un des robots, les chenilles commençaient à fondre.
+
+108
+0:05:35.161,000 --> 0:05:37,000
+Les robots ne remplacent pas les gens ni les chiens,
+
+109
+0:05:37.973,000 --> 0:05:39,000
+ni les colibris, les faucons ou les dauphins.
+
+110
+0:05:40.518,000 --> 0:05:42,000
+Ils réalisent des choses nouvelles.
+
+111
+0:05:42.578,000 --> 0:05:47,000
+Ils aident les secours, les experts, de façon innovante.
+
+112
+0:05:48.291,000 --> 0:05:52,000
+Le plus gros problème n'est toutefois pas de faire des robots plus petits.
+
+113
+0:05:52.694,000 --> 0:05:54,000
+Ça ne les rend pas plus résistants à la chaleur.
+
+114
+0:05:54.999,000 --> 0:05:55,000
+Ça ne fait pas plus de capteurs.
+
+115
+0:05:56.78,000 --> 0:05:59,000
+Le plus gros problème, ce sont les données, l'informatique,
+
+116
+0:06:00.414,000 --> 0:06:04,000
+car ces gens ont besoin de la bonne donnée au bon moment.
+
+117
+0:06:04.474,000 --> 0:06:09,000
+Ne serait-ce pas fabuleux si les experts pouvaient accéder directement aux robots,
+
+118
+0:06:09.999,000 --> 0:06:11,000
+sans perdre de temps à se rendre sur site,
+
+119
+0:06:12.999,000 --> 0:06:14,000
+et utiliser les robots via Internet ?
+
+120
+0:06:15.956,000 --> 0:06:16,000
+Imaginons le cas
+
+121
+0:06:17.362,000 --> 0:06:2,000
+du déraillement d'un train de produits chimiques dans la campagne.
+
+122
+0:06:20.758,000 --> 0:06:23,000
+Quelles sont les chances pour que les experts, vos chimistes,
+
+123
+0:06:24.624,000 --> 0:06:25,000
+vos ingénieurs ferroviaires,
+
+124
+0:06:26.51,000 --> 0:06:3,000
+aient été formés sur le type de drone disponible à cet endroit ?
+
+125
+0:06:31.395,000 --> 0:06:32,000
+Probablement aucune.
+
+126
+0:06:32.952,000 --> 0:06:34,000
+Donc nous utilisons ces interfaces
+
+127
+0:06:35.366,000 --> 0:06:39,000
+pour permettre aux gens d'utiliser ces robots sans les connaître,
+
+128
+0:06:39.73,000 --> 0:06:41,000
+ou même sans savoir s'ils utilisent un robot ou pas.
+
+129
+0:06:44.252,000 --> 0:06:5,000
+Ce que les robots fournissent, ce qu'ils offrent aux experts, ce sont des données.
+
+130
+0:06:50.31,000 --> 0:06:53,000
+Le problème devient : qui reçoit quelle donnée et quand ?
+
+131
+0:06:53.914,000 --> 0:06:56,000
+Une chose à faire est d'envoyer les données à tout le monde
+
+132
+0:06:57.831,000 --> 0:06:58,000
+et les laisser les exploiter.
+
+133
+0:06:59.367,000 --> 0:07:02,000
+Mais le problème avec ça, c'est que ça sature les réseaux,
+
+134
+0:07:03.247,000 --> 0:07:06,000
+pire, ça sature les capacités d'acquisition
+
+135
+0:07:06.957,000 --> 0:07:1,000
+de chaque personne essayant de trouver LE morceau d'information
+
+136
+0:07:11.49,000 --> 0:07:14,000
+qui leur permettra de prendre la décision qui fera la différence.
+
+137
+0:07:15.999,000 --> 0:07:18,000
+Donc nous devons réfléchir à ce genre de problèmes.
+
+138
+0:07:19.117,000 --> 0:07:2,000
+Voilà pour les données.
+
+139
+0:07:20.406,000 --> 0:07:22,000
+Revenons au World Trade Center,
+
+140
+0:07:22.666,000 --> 0:07:26,000
+on a essayé de résoudre ce problème en enregistrant les données de Bujold
+
+141
+0:07:26.949,000 --> 0:07:28,000
+juste quand il était au fond des décombres,
+
+142
+0:07:29.049,000 --> 0:07:31,000
+parce que c'est ce que les secours disaient vouloir.
+
+143
+0:07:32.523,000 --> 0:07:34,000
+Ce qu'on ignorait alors,
+
+144
+0:07:34.985,000 --> 0:07:36,000
+c'est que les ingénieurs en génie civil auraient bien aimé,
+
+145
+0:07:37.817,000 --> 0:07:41,000
+qu'on enregistre aussi les poutres, les numéros de série,
+
+146
+0:07:41.999,000 --> 0:07:43,000
+les emplacements, sur le chemin dans les décombres.
+
+147
+0:07:45.193,000 --> 0:07:46,000
+Nous avons perdu des données utiles.
+
+148
+0:07:46.95,000 --> 0:07:48,000
+Donc le défi est de collecter toutes les données
+
+149
+0:07:49.237,000 --> 0:07:51,000
+et de les fournir aux bonnes personnes.
+
+150
+0:07:51.441,000 --> 0:07:53,000
+Il y a une autre raison.
+
+151
+0:07:53.542,000 --> 0:07:55,000
+Nous avons appris que certains bâtiments --
+
+152
+0:07:55.877,000 --> 0:07:58,000
+comme les écoles, les hôpitaux, les mairies --
+
+153
+0:07:59.173,000 --> 0:08:03,000
+sont inspectés à quatre reprises par différentes agences
+
+154
+0:08:03.216,000 --> 0:08:05,000
+au cours des phases d'intervention.
+
+155
+0:08:06.156,000 --> 0:08:09,000
+Donc si on a un moyen de partager les données des robots,
+
+156
+0:08:09.449,000 --> 0:08:13,000
+on peut non seulement réduire la séquence des différentes phases
+
+157
+0:08:14.323,000 --> 0:08:15,000
+pour réduire le temps de réponse,
+
+158
+0:08:16,000 --> 0:08:2,000
+mais aussi commencer à travailler en parallèle.
+
+159
+0:08:20.322,000 --> 0:08:21,000
+Tout le monde peut voir les données.
+
+160
+0:08:22.121,000 --> 0:08:23,000
+On peut donc réduire le délai.
+
+161
+0:08:23.999,000 --> 0:08:26,000
+En fait, « robotique de premiers secours » est un mauvais nom.
+
+162
+0:08:28.227,000 --> 0:08:29,000
+Il ne s'agit pas des robots.
+
+163
+0:08:30.146,000 --> 0:08:31,000
+Il s'agit des données.
+
+164
+0:08:32.433,000 --> 0:08:35,000
+(Applaudissements)
+
+165
+0:08:35.627,000 --> 0:08:37,000
+Voilà donc le défi que je vous lance :
+
+166
+0:08:37.688,000 --> 0:08:39,000
+quand vous entendrez parler d'une catastrophe,
+
+167
+0:08:40.158,000 --> 0:08:41,000
+cherchez les robots.
+
+168
+0:08:41.537,000 --> 0:08:44,000
+Ils peuvent être sous terre, ils peuvent être sous l'eau,
+
+169
+0:08:44.59,000 --> 0:08:45,000
+ils peuvent être dans le ciel,
+
+170
+0:08:46.308,000 --> 0:08:47,000
+mais ils devraient être là.
+
+171
+0:08:48.297,000 --> 0:08:49,000
+Cherchez les robots,
+
+172
+0:08:49.488,000 --> 0:08:51,000
+parce que les robots viennent nous sauver.
+
+173
+0:08:52.259,000 --> 0:08:57,000
+(Applaudissements)
+

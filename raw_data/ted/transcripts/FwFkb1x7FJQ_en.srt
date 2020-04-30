@@ -1,0 +1,1204 @@
+1
+0:00:25.64,000 --> 0:00:26,000
+In terms of invention,
+
+2
+0:00:26.88,000 --> 0:00:28,000
+I'd like to tell you the tale of one of my favorite projects.
+
+3
+0:00:29.762,000 --> 0:00:32,000
+I think it's one of the most exciting that I'm working on,
+
+4
+0:00:33.08,000 --> 0:00:34,000
+but I think it's also the simplest.
+
+5
+0:00:35.16,000 --> 0:00:39,000
+It's a project that has the potential to make a huge impact around the world.
+
+6
+0:00:39.64,000 --> 0:00:42,000
+It addresses one of the biggest health issues on the planet,
+
+7
+0:00:43.08,000 --> 0:00:46,000
+the number one cause of death in children under five.
+
+8
+0:00:46.64,000 --> 0:00:47,000
+Which is ...?
+
+9
+0:00:48.68,000 --> 0:00:51,000
+Water-borne diseases? Diarrhea? Malnutrition?
+
+10
+0:00:52.2,000 --> 0:00:53,000
+No.
+
+11
+0:00:53.88,000 --> 0:00:56,000
+It's breathing the smoke from indoor cooking fires --
+
+12
+0:00:57.52,000 --> 0:00:59,000
+acute respiratory infections caused by this.
+
+13
+0:01:01.04,000 --> 0:01:02,000
+Can you believe that?
+
+14
+0:01:02.88,000 --> 0:01:05,000
+I find this shocking and somewhat appalling.
+
+15
+0:01:06.16,000 --> 0:01:08,000
+Can't we make cleaner burning cooking fuels?
+
+16
+0:01:08.8,000 --> 0:01:09,000
+Can't we make better stoves?
+
+17
+0:01:10.76,000 --> 0:01:14,000
+How is it that this can lead to over two million deaths every year?
+
+18
+0:01:14.8,000 --> 0:01:18,000
+I know Bill Joy was talking to you about the wonders of carbon nanotubes,
+
+19
+0:01:19.16,000 --> 0:01:22,000
+so I'm going to talk to you about the wonders of carbon macro-tubes,
+
+20
+0:01:23,000 --> 0:01:24,000
+which is charcoal.
+
+21
+0:01:24.24,000 --> 0:01:25,000
+(Laughter)
+
+22
+0:01:26.24,000 --> 0:01:28,000
+So this is a picture of rural Haiti.
+
+23
+0:01:28.44,000 --> 0:01:31,000
+Haiti is now 98 percent deforested.
+
+24
+0:01:31.76,000 --> 0:01:34,000
+You'll see scenes like this all over the island.
+
+25
+0:01:34.88,000 --> 0:01:36,000
+It leads to all sorts of environmental problems
+
+26
+0:01:37.68,000 --> 0:01:41,000
+and problems that affect people throughout the nation.
+
+27
+0:01:41.96,000 --> 0:01:43,000
+A couple years ago there was severe flooding
+
+28
+0:01:44.04,000 --> 0:01:45,000
+that led to thousands of deaths --
+
+29
+0:01:45.684,000 --> 0:01:46,000
+that's directly attributable to the fact
+
+30
+0:01:47.64,000 --> 0:01:49,000
+that there are no trees on the hills to stabilize the soil.
+
+31
+0:01:50.64,000 --> 0:01:51,000
+So the rains come --
+
+32
+0:01:51.92,000 --> 0:01:53,000
+they go down the rivers and the flooding happens.
+
+33
+0:01:55.44,000 --> 0:01:58,000
+Now one of the reasons why there are so few trees is this:
+
+34
+0:01:58.92,000 --> 0:01:59,000
+people need to cook,
+
+35
+0:02:00.32,000 --> 0:02:04,000
+and they harvest wood and they make charcoal in order to do it.
+
+36
+0:02:04.44,000 --> 0:02:06,000
+It's not that people are ignorant to the environmental damage.
+
+37
+0:02:07.369,000 --> 0:02:09,000
+They know perfectly well, but they have no other choice.
+
+38
+0:02:10.013,000 --> 0:02:12,000
+Fossil fuels are not available,
+
+39
+0:02:12.04,000 --> 0:02:16,000
+and solar energy doesn't cook the way that they like their food prepared.
+
+40
+0:02:16.96,000 --> 0:02:18,000
+And so this is what they do.
+
+41
+0:02:19.12,000 --> 0:02:23,000
+You'll find families like this who go out into the forest to find a tree,
+
+42
+0:02:23.32,000 --> 0:02:25,000
+cut it down and make charcoal out of it.
+
+43
+0:02:27.44,000 --> 0:02:28,000
+So not surprisingly,
+
+44
+0:02:28.68,000 --> 0:02:32,000
+there's a lot of effort that's been done to look at alternative cooking fuels.
+
+45
+0:02:34.36,000 --> 0:02:37,000
+About four years ago, I took a team of students down to Haiti
+
+46
+0:02:37.44,000 --> 0:02:39,000
+and we worked with Peace Corps volunteers there.
+
+47
+0:02:39.88,000 --> 0:02:4,000
+This is one such volunteer
+
+48
+0:02:41.32,000 --> 0:02:44,000
+and this is a device that he had built in the village where he worked.
+
+49
+0:02:44.96,000 --> 0:02:46,000
+And the idea was that you could take waste paper;
+
+50
+0:02:47.64,000 --> 0:02:48,000
+you could compress it
+
+51
+0:02:48.88,000 --> 0:02:5,000
+and make briquettes that could be used for fuel.
+
+52
+0:02:51.56,000 --> 0:02:53,000
+But this device was very slow.
+
+53
+0:02:53.6,000 --> 0:02:56,000
+So our engineering students went to work on it
+
+54
+0:02:56.72,000 --> 0:02:58,000
+and with some very simple changes,
+
+55
+0:02:58.84,000 --> 0:03:01,000
+they were able to triple the throughput of this device.
+
+56
+0:03:01.92,000 --> 0:03:03,000
+So you could imagine they were very excited about it.
+
+57
+0:03:04.48,000 --> 0:03:07,000
+And they took the briquettes back to MIT so that they could test them.
+
+58
+0:03:09,000 --> 0:03:13,000
+And one of the things that they found was they didn't burn.
+
+59
+0:03:13.28,000 --> 0:03:15,000
+So it was a little discouraging to the students.
+
+60
+0:03:16.08,000 --> 0:03:17,000
+(Laughter)
+
+61
+0:03:17.64,000 --> 0:03:19,000
+And in fact, if you look closely,
+
+62
+0:03:20.04,000 --> 0:03:22,000
+right here you can see it says, "US Peace Corps."
+
+63
+0:03:23.64,000 --> 0:03:26,000
+As it turns out, there actually wasn't any waste paper in this village.
+
+64
+0:03:27.48,000 --> 0:03:3,000
+And while it was a good use of government paperwork
+
+65
+0:03:30.72,000 --> 0:03:32,000
+for this volunteer to bring it back with him to his village,
+
+66
+0:03:33.649,000 --> 0:03:35,000
+it was 800 kilometers away.
+
+67
+0:03:35.76,000 --> 0:03:37,000
+And so we thought perhaps there might be a better way
+
+68
+0:03:38.68,000 --> 0:03:4,000
+to come up with an alternative cooking fuel.
+
+69
+0:03:41.64,000 --> 0:03:43,000
+What we wanted to do is we wanted to make a fuel
+
+70
+0:03:43.92,000 --> 0:03:46,000
+that used something that was readily available on the local level.
+
+71
+0:03:47.28,000 --> 0:03:48,000
+You see these all over Haiti as well.
+
+72
+0:03:49.08,000 --> 0:03:5,000
+They're small-scale sugar mills.
+
+73
+0:03:50.84,000 --> 0:03:51,000
+And the waste product from them
+
+74
+0:03:52.36,000 --> 0:03:54,000
+after you extract the juice from the sugarcane
+
+75
+0:03:54.8,000 --> 0:03:55,000
+is called "bagasse."
+
+76
+0:03:56.36,000 --> 0:03:57,000
+It has no other use.
+
+77
+0:03:57.6,000 --> 0:04:,000
+It has no nutritional value, so they don't feed it to the animals.
+
+78
+0:04:00.92,000 --> 0:04:04,000
+It just sits in a pile near the sugar mill until eventually they burn it.
+
+79
+0:04:06.04,000 --> 0:04:08,000
+What we wanted to do was we wanted to find a way
+
+80
+0:04:08.36,000 --> 0:04:1,000
+to harness this waste resource and turn it into a fuel
+
+81
+0:04:11.36,000 --> 0:04:13,000
+that would be something that people could easily cook with,
+
+82
+0:04:14.36,000 --> 0:04:15,000
+something like charcoal.
+
+83
+0:04:16.6,000 --> 0:04:17,000
+So over the next couple of years,
+
+84
+0:04:18.24,000 --> 0:04:21,000
+students and I worked to develop a process.
+
+85
+0:04:21.92,000 --> 0:04:24,000
+So you start with the bagasse, and then you take a very simple kiln
+
+86
+0:04:25.76,000 --> 0:04:28,000
+that you can make out of a waste fifty five-gallon oil drum.
+
+87
+0:04:28.96,000 --> 0:04:3,000
+After some time, after setting it on fire,
+
+88
+0:04:31.28,000 --> 0:04:34,000
+you seal it to restrict the oxygen that goes into the kiln,
+
+89
+0:04:35.28,000 --> 0:04:38,000
+and then you end up with this carbonized material here.
+
+90
+0:04:39.08,000 --> 0:04:4,000
+However, you can't burn this.
+
+91
+0:04:40.68,000 --> 0:04:44,000
+It's too fine and it burns too quickly to be useful for cooking.
+
+92
+0:04:45.399,000 --> 0:04:49,000
+So we had to try to find a way to form it into useful briquettes.
+
+93
+0:04:49.68,000 --> 0:04:52,000
+And conveniently, one of my students was from Ghana,
+
+94
+0:04:53.12,000 --> 0:04:56,000
+and he remembered a dish his mom used to make for him called "kokonte,"
+
+95
+0:04:56.478,000 --> 0:04:59,000
+which is a very sticky porridge made out of the cassava root.
+
+96
+0:04:59.96,000 --> 0:05:,000
+And so what we did was we looked,
+
+97
+0:05:01.56,000 --> 0:05:04,000
+and we found that cassava is indeed grown in Haiti,
+
+98
+0:05:04.68,000 --> 0:05:06,000
+under the name of "manioc."
+
+99
+0:05:06.84,000 --> 0:05:07,000
+In fact, it's grown all over the world --
+
+100
+0:05:08.817,000 --> 0:05:11,000
+yucca, tapioca, manioc, cassava, it's all the same thing --
+
+101
+0:05:11.92,000 --> 0:05:13,000
+a very starchy root vegetable.
+
+102
+0:05:14.04,000 --> 0:05:17,000
+And you can make a very thick, sticky porridge out of it,
+
+103
+0:05:17.28,000 --> 0:05:21,000
+which you can use to bind together the charcoal briquettes.
+
+104
+0:05:21.44,000 --> 0:05:24,000
+So we did this. We went down to Haiti.
+
+105
+0:05:24.64,000 --> 0:05:26,000
+These are the graduates of the first Ecole de Charbon,
+
+106
+0:05:27.32,000 --> 0:05:28,000
+or Charcoal Institute.
+
+107
+0:05:29.04,000 --> 0:05:3,000
+And these --
+
+108
+0:05:30.28,000 --> 0:05:31,000
+(Laughter)
+
+109
+0:05:31.52,000 --> 0:05:36,000
+That's right. So I'm actually an instructor at MIT as well as CIT.
+
+110
+0:05:37.52,000 --> 0:05:39,000
+And these are the briquettes that we made.
+
+111
+0:05:41.04,000 --> 0:05:43,000
+Now I'm going to take you to a different continent.
+
+112
+0:05:44.32,000 --> 0:05:45,000
+This is India
+
+113
+0:05:45.56,000 --> 0:05:48,000
+and this is the most commonly used cooking fuel in India.
+
+114
+0:05:48.8,000 --> 0:05:49,000
+It's cow dung.
+
+115
+0:05:50.2,000 --> 0:05:54,000
+And more than in Haiti, this produces really smoky fires,
+
+116
+0:05:54.4,000 --> 0:05:56,000
+and this is where you see the health impacts
+
+117
+0:05:56.88,000 --> 0:06:,000
+of cooking with cow dung and biomass as a fuel.
+
+118
+0:06:01.6,000 --> 0:06:03,000
+Kids and women are especially affected by it,
+
+119
+0:06:03.84,000 --> 0:06:06,000
+because they're the ones who are around the cooking fires.
+
+120
+0:06:07,000 --> 0:06:08,000
+So we wanted to see
+
+121
+0:06:08.24,000 --> 0:06:11,000
+if we could introduce this charcoal-making technology there.
+
+122
+0:06:11.76,000 --> 0:06:13,000
+Well, unfortunately, they didn't have sugarcane
+
+123
+0:06:14.2,000 --> 0:06:15,000
+and they didn't have cassava,
+
+124
+0:06:15.605,000 --> 0:06:16,000
+but that didn't stop us.
+
+125
+0:06:17.4,000 --> 0:06:2,000
+What we did was we found what were the locally available sources of biomass.
+
+126
+0:06:21.24,000 --> 0:06:24,000
+And there was wheat straw and there was rice straw in this area.
+
+127
+0:06:24.64,000 --> 0:06:27,000
+And what we could use as a binder was actually small amounts of cow manure,
+
+128
+0:06:28.28,000 --> 0:06:3,000
+which they used ordinarily for their fuel.
+
+129
+0:06:31.96,000 --> 0:06:33,000
+And we did side-by-side tests,
+
+130
+0:06:34.16,000 --> 0:06:36,000
+and here you can see the charcoal briquettes
+
+131
+0:06:36.76,000 --> 0:06:37,000
+and here the cow dung.
+
+132
+0:06:38,000 --> 0:06:41,000
+And you can see that it's a lot cleaner burning of a cooking fuel.
+
+133
+0:06:41.28,000 --> 0:06:43,000
+And in fact, it heats the water a lot more quickly.
+
+134
+0:06:43.88,000 --> 0:06:45,000
+And so we were very happy, thus far.
+
+135
+0:06:46.2,000 --> 0:06:47,000
+But one of the things that we found
+
+136
+0:06:47.92,000 --> 0:06:49,000
+was when we did side-by-side comparisons with wood charcoal,
+
+137
+0:06:50.76,000 --> 0:06:51,000
+it didn't burn as long.
+
+138
+0:06:52.4,000 --> 0:06:53,000
+And the briquettes crumbled a little bit
+
+139
+0:06:54.329,000 --> 0:06:57,000
+and we lost energy as they fell apart as they were cooking.
+
+140
+0:06:57.52,000 --> 0:07:,000
+So we wanted to try to find a way to make a stronger briquette
+
+141
+0:07:00.76,000 --> 0:07:03,000
+so that we could compete with wood charcoal in the markets in Haiti.
+
+142
+0:07:05.32,000 --> 0:07:07,000
+So we went back to MIT,
+
+143
+0:07:07.36,000 --> 0:07:09,000
+we took out the Instron machine
+
+144
+0:07:09.6,000 --> 0:07:11,000
+and we figured out what sort of forces you needed
+
+145
+0:07:12.32,000 --> 0:07:14,000
+in order to compress a briquette to the level
+
+146
+0:07:14.44,000 --> 0:07:16,000
+that you actually are getting improved performance out of it?
+
+147
+0:07:17.96,000 --> 0:07:2,000
+And at the same time that we had students in the lab looking at this,
+
+148
+0:07:21.28,000 --> 0:07:27,000
+we also had community partners in Haiti working to develop the process,
+
+149
+0:07:28.24,000 --> 0:07:33,000
+to improve it and make it more accessible to people in the villages there.
+
+150
+0:07:34.16,000 --> 0:07:35,000
+And after some time,
+
+151
+0:07:35.4,000 --> 0:07:39,000
+we developed a low-cost press that allows you to produce charcoal,
+
+152
+0:07:40.24,000 --> 0:07:42,000
+which actually now burns not only --
+
+153
+0:07:43.642,000 --> 0:07:46,000
+actually, it burns longer, cleaner than wood charcoal.
+
+154
+0:07:47.4,000 --> 0:07:49,000
+So now we're in a situation where we have a product,
+
+155
+0:07:49.96,000 --> 0:07:53,000
+which is actually better than what you can buy in Haiti in the marketplace,
+
+156
+0:07:54.28,000 --> 0:07:56,000
+which is a very wonderful place to be.
+
+157
+0:07:58.96,000 --> 0:08:02,000
+In Haiti alone, about 30 million trees are cut down every year.
+
+158
+0:08:03.72,000 --> 0:08:05,000
+There's a possibility of this being implemented
+
+159
+0:08:06.24,000 --> 0:08:08,000
+and saving a good portion of those.
+
+160
+0:08:08.56,000 --> 0:08:14,000
+In addition, the revenue generated from that charcoal is 260 million dollars.
+
+161
+0:08:15,000 --> 0:08:17,000
+That's an awful lot for a country like Haiti --
+
+162
+0:08:17.56,000 --> 0:08:18,000
+with a population of eight million
+
+163
+0:08:19.44,000 --> 0:08:22,000
+and an average income of less than 400 dollars.
+
+164
+0:08:23.68,000 --> 0:08:26,000
+So this is where we're also moving ahead with our charcoal project.
+
+165
+0:08:27.56,000 --> 0:08:29,000
+And one of the things that I think is also interesting,
+
+166
+0:08:30.24,000 --> 0:08:34,000
+is I have a friend up at UC Berkeley who's been doing risk analysis.
+
+167
+0:08:34.56,000 --> 0:08:37,000
+And he's looked at the problem of the health impacts
+
+168
+0:08:37.64,000 --> 0:08:39,000
+of burning wood versus charcoal.
+
+169
+0:08:39.76,000 --> 0:08:43,000
+And he's found that worldwide, you could prevent a million deaths
+
+170
+0:08:43.88,000 --> 0:08:45,000
+switching from wood to charcoal as a cooking fuel.
+
+171
+0:08:46.88,000 --> 0:08:47,000
+That's remarkable,
+
+172
+0:08:48.12,000 --> 0:08:51,000
+but up until now, there weren't ways to do it without cutting down trees.
+
+173
+0:08:51.6,000 --> 0:08:52,000
+But now we have a way
+
+174
+0:08:52.84,000 --> 0:08:55,000
+that's using an agricultural waste material to create a cooking fuel.
+
+175
+0:08:56.96,000 --> 0:08:58,000
+One of the really exciting things, though,
+
+176
+0:08:59,000 --> 0:09:02,000
+is something that came out of the trip that I took to Ghana just last month.
+
+177
+0:09:02.596,000 --> 0:09:05,000
+And I think it's the coolest thing,
+
+178
+0:09:06.039,000 --> 0:09:08,000
+and it's even lower tech than what you just saw,
+
+179
+0:09:08.303,000 --> 0:09:1,000
+if you can imagine such a thing.
+
+180
+0:09:10.36,000 --> 0:09:11,000
+Here it is.
+
+181
+0:09:11.6,000 --> 0:09:12,000
+So what is this?
+
+182
+0:09:13.48,000 --> 0:09:15,000
+This is corncobs turned into charcoal.
+
+183
+0:09:16.08,000 --> 0:09:19,000
+And the beauty of this is that you don't need to form briquettes --
+
+184
+0:09:19.247,000 --> 0:09:2,000
+it comes ready made.
+
+185
+0:09:20.6,000 --> 0:09:22,000
+This is my $100 laptop, right here.
+
+186
+0:09:23.48,000 --> 0:09:26,000
+And actually, like Nick, I brought samples.
+
+187
+0:09:26.52,000 --> 0:09:28,000
+(Laughter)
+
+188
+0:09:28.76,000 --> 0:09:29,000
+So we can pass these around.
+
+189
+0:09:32.52,000 --> 0:09:36,000
+They're fully functional, field-tested, ready to roll out.
+
+190
+0:09:36.628,000 --> 0:09:37,000
+(Laughter)
+
+191
+0:09:40.52,000 --> 0:09:41,000
+And I think one of the things
+
+192
+0:09:42.04,000 --> 0:09:46,000
+which is also remarkable about this technology,
+
+193
+0:09:46.28,000 --> 0:09:48,000
+is that the technology transfer is so easy.
+
+194
+0:09:49.08,000 --> 0:09:51,000
+Compared to the sugarcane charcoal,
+
+195
+0:09:51.24,000 --> 0:09:53,000
+where we have to teach people how to form it into briquettes
+
+196
+0:09:54.08,000 --> 0:09:56,000
+and you have the extra step of cooking the binder,
+
+197
+0:09:56.52,000 --> 0:09:57,000
+this comes pre-briquetted.
+
+198
+0:09:58.12,000 --> 0:10:,000
+And this is about the most exciting thing in my life right now,
+
+199
+0:10:01.097,000 --> 0:10:04,000
+which is perhaps a sad commentary on my life.
+
+200
+0:10:04.32,000 --> 0:10:06,000
+(Laughter)
+
+201
+0:10:06.6,000 --> 0:10:08,000
+But once you see it, like you guys in the front row --
+
+202
+0:10:09.16,000 --> 0:10:1,000
+All right, yeah, OK.
+
+203
+0:10:10.4,000 --> 0:10:11,000
+So anyway --
+
+204
+0:10:11.64,000 --> 0:10:13,000
+(Laughter)
+
+205
+0:10:13.68,000 --> 0:10:14,000
+Here it is.
+
+206
+0:10:14.92,000 --> 0:10:16,000
+And this is, I think, a perfect example
+
+207
+0:10:17.4,000 --> 0:10:22,000
+of what Robert Wright was talking about in those non-zero-sum things.
+
+208
+0:10:22.64,000 --> 0:10:24,000
+So not only do you have health benefits,
+
+209
+0:10:25.16,000 --> 0:10:27,000
+you have environmental benefits.
+
+210
+0:10:27.32,000 --> 0:10:3,000
+But this is one of the incredibly rare situations
+
+211
+0:10:31.16,000 --> 0:10:33,000
+where you also have economic benefits.
+
+212
+0:10:33.52,000 --> 0:10:36,000
+People can make their own cooking fuel from waste products.
+
+213
+0:10:36.6,000 --> 0:10:38,000
+They can generate income from this.
+
+214
+0:10:38.64,000 --> 0:10:41,000
+They can save the money that they were going to spend on charcoal
+
+215
+0:10:41.8,000 --> 0:10:43,000
+and they can produce excess and sell it in the market
+
+216
+0:10:44.301,000 --> 0:10:45,000
+to people who aren't making their own.
+
+217
+0:10:46.28,000 --> 0:10:48,000
+It's really rare that you don't have trade-offs
+
+218
+0:10:48.6,000 --> 0:10:51,000
+between health and economics, or environment and economics.
+
+219
+0:10:51.84,000 --> 0:10:54,000
+So this is a project that I just find extremely exciting
+
+220
+0:10:55.6,000 --> 0:11:,000
+and I'm really looking forward to see where it takes us.
+
+221
+0:11:03.12,000 --> 0:11:06,000
+So when we talk about, now, the future we will create,
+
+222
+0:11:06.64,000 --> 0:11:08,000
+one of the things that I think is necessary
+
+223
+0:11:08.68,000 --> 0:11:11,000
+is to have a very clear vision of the world that we live in.
+
+224
+0:11:13.16,000 --> 0:11:15,000
+And now, I don't actually mean the world that we live in.
+
+225
+0:11:16.92,000 --> 0:11:2,000
+I mean the world where women spend two to three hours everyday
+
+226
+0:11:21.04,000 --> 0:11:23,000
+grinding grain for their families to eat.
+
+227
+0:11:24.96,000 --> 0:11:26,000
+I mean the world where advanced building materials
+
+228
+0:11:27.36,000 --> 0:11:3,000
+means cement roofing tiles that are made by hand,
+
+229
+0:11:30.8,000 --> 0:11:32,000
+and where, when you work 10 hours a day,
+
+230
+0:11:32.96,000 --> 0:11:34,000
+you're still only earning 60 dollars in a month.
+
+231
+0:11:37.32,000 --> 0:11:38,000
+I mean the world
+
+232
+0:11:38.56,000 --> 0:11:44,000
+where women and children spend 40 billion hours a year fetching water.
+
+233
+0:11:45.52,000 --> 0:11:48,000
+That's as if the entire workforce of the state of California
+
+234
+0:11:49.28,000 --> 0:11:53,000
+worked full time for a year doing nothing but fetching water.
+
+235
+0:11:53.8,000 --> 0:11:57,000
+It's a place where, for example, if this were India,
+
+236
+0:11:58.16,000 --> 0:12:,000
+in this room, only three of us would have a car.
+
+237
+0:12:01.36,000 --> 0:12:02,000
+If this were Afghanistan,
+
+238
+0:12:02.6,000 --> 0:12:05,000
+only one person in this room would know how the use the Internet.
+
+239
+0:12:06.24,000 --> 0:12:07,000
+If this were Zambia --
+
+240
+0:12:08.52,000 --> 0:12:1,000
+300 of you would be farmers,
+
+241
+0:12:11.24,000 --> 0:12:14,000
+100 of you would have AIDS or HIV.
+
+242
+0:12:14.4,000 --> 0:12:17,000
+And more than half of you would be living on less than a dollar a day.
+
+243
+0:12:19.28,000 --> 0:12:23,000
+These are the issues that we need to come up with solutions for.
+
+244
+0:12:24.04,000 --> 0:12:27,000
+These are the issues that we need to be training our engineers,
+
+245
+0:12:27.92,000 --> 0:12:3,000
+our designers, our business people, our entrepreneurs to be facing.
+
+246
+0:12:32.28,000 --> 0:12:34,000
+These are the solutions that we need to find.
+
+247
+0:12:35,000 --> 0:12:41,000
+I have a few areas that I believe are especially important that we address.
+
+248
+0:12:41.2,000 --> 0:12:43,000
+One of them is creating technologies
+
+249
+0:12:43.28,000 --> 0:12:46,000
+to promote micro-finance and micro-enterprise,
+
+250
+0:12:46.32,000 --> 0:12:48,000
+so that people who are living below the poverty line
+
+251
+0:12:49.2,000 --> 0:12:5,000
+can find a way to move out --
+
+252
+0:12:50.76,000 --> 0:12:51,000
+and that they're not doing it
+
+253
+0:12:52.165,000 --> 0:12:55,000
+using the same traditional basket making, poultry rearing, etc.
+
+254
+0:12:55.8,000 --> 0:12:57,000
+But there are new technologies and new products
+
+255
+0:12:58.015,000 --> 0:13:,000
+that they can make on a small scale.
+
+256
+0:13:00.8,000 --> 0:13:01,000
+The next thing I believe
+
+257
+0:13:02.04,000 --> 0:13:06,000
+is that we need to create technologies for poor farmers
+
+258
+0:13:06.44,000 --> 0:13:08,000
+to add value to their own crops.
+
+259
+0:13:09.6,000 --> 0:13:11,000
+And we need to rethink our development strategies,
+
+260
+0:13:12.28,000 --> 0:13:15,000
+so that we're not promoting educational campaigns
+
+261
+0:13:15.56,000 --> 0:13:17,000
+to get them to stop being farmers,
+
+262
+0:13:17.96,000 --> 0:13:19,000
+but rather to stop being poor farmers.
+
+263
+0:13:20.76,000 --> 0:13:22,000
+And we need to think about how we can do that effectively.
+
+264
+0:13:24.56,000 --> 0:13:26,000
+We need to work with the people in these communities
+
+265
+0:13:27.24,000 --> 0:13:29,000
+and give them the resources and the tools that they need
+
+266
+0:13:30.12,000 --> 0:13:31,000
+to solve their own problems.
+
+267
+0:13:31.84,000 --> 0:13:32,000
+That's the best way to do it.
+
+268
+0:13:33.245,000 --> 0:13:35,000
+We shouldn't be doing it from outside.
+
+269
+0:13:35.56,000 --> 0:13:39,000
+So we need to create this future, and we need to start doing it now.
+
+270
+0:13:40.24,000 --> 0:13:41,000
+Thank you.
+
+271
+0:13:41.48,000 --> 0:13:46,000
+(Applause)
+
+272
+0:13:46.76,000 --> 0:13:48,000
+Chris Anderson: Thank you, incredible.
+
+273
+0:13:49.32,000 --> 0:13:5,000
+Stay here.
+
+274
+0:13:51.36,000 --> 0:13:53,000
+Tell us -- just while we see if someone has a question --
+
+275
+0:13:54.28,000 --> 0:13:57,000
+just tell us about one of the other things that you've worked on.
+
+276
+0:13:57.72,000 --> 0:13:59,000
+Amy Smith: Some of the other things we're working on
+
+277
+0:14:00.24,000 --> 0:14:02,000
+are ways to do low-cost water quality testing,
+
+278
+0:14:02.441,000 --> 0:14:04,000
+so that communities can maintain their own water systems,
+
+279
+0:14:05.2,000 --> 0:14:07,000
+know when they're working, know when they treat them, etc.
+
+280
+0:14:07.939,000 --> 0:14:09,000
+We're also looking at low-cost water-treatment systems.
+
+281
+0:14:10.6,000 --> 0:14:13,000
+One of the really exciting things is looking at solar water disinfection
+
+282
+0:14:14.005,000 --> 0:14:16,000
+and improving the ability to be able to do that.
+
+283
+0:14:17.32,000 --> 0:14:2,000
+CA: What's the bottleneck preventing this stuff getting from scale?
+
+284
+0:14:21.28,000 --> 0:14:24,000
+Do you need to find entrepreneurs, or venture capitalists,
+
+285
+0:14:24.56,000 --> 0:14:28,000
+or what do you need to take what you've got and get it to scale?
+
+286
+0:14:29.44,000 --> 0:14:31,000
+AS: I think it's large numbers of people moving it forward.
+
+287
+0:14:32.234,000 --> 0:14:33,000
+It's a difficult thing --
+
+288
+0:14:33.457,000 --> 0:14:35,000
+it's a marketplace which is very fragmented
+
+289
+0:14:35.488,000 --> 0:14:37,000
+and a consumer population with no income.
+
+290
+0:14:37.72,000 --> 0:14:4,000
+So you can't use the same models that you use in the United States
+
+291
+0:14:41,000 --> 0:14:42,000
+for making things move forward.
+
+292
+0:14:42.56,000 --> 0:14:44,000
+And we're a pretty small staff,
+
+293
+0:14:44.6,000 --> 0:14:45,000
+which is me.
+
+294
+0:14:45.84,000 --> 0:14:46,000
+(Laughter)
+
+295
+0:14:47.84,000 --> 0:14:49,000
+So, you know, I do what I can with the students.
+
+296
+0:14:50.103,000 --> 0:14:52,000
+We have 30 students a year go out into the field
+
+297
+0:14:52.366,000 --> 0:14:54,000
+and try to implement this and move it forward.
+
+298
+0:14:54.84,000 --> 0:14:57,000
+The other thing is you have to do things with a long time frame,
+
+299
+0:14:58.36,000 --> 0:15:01,000
+as, you know, you can't expect to get something done in a year or two years;
+
+300
+0:15:02.32,000 --> 0:15:04,000
+you have to be looking five or 10 years ahead.
+
+301
+0:15:04.487,000 --> 0:15:07,000
+But I think with the vision to do that, we can move forward.
+

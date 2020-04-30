@@ -1,0 +1,644 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Morgane Quilfen Relecteur: Claire Ghyselen
+
+2
+0:00:12.549,000 --> 0:00:13,000
+Je suis traductrice.
+
+3
+0:00:14.514,000 --> 0:00:17,000
+Je traduis de la biologie vers la mathématiques
+
+4
+0:00:17.729,000 --> 0:00:18,000
+et vice versa.
+
+5
+0:00:19.588,000 --> 0:00:2,000
+J'écris des modèles mathématiques
+
+6
+0:00:21.402,000 --> 0:00:23,000
+qui sont des systèmes d'équations différentielles
+
+7
+0:00:24.273,000 --> 0:00:25,000
+pour décrire des mécanismes biologiques,
+
+8
+0:00:26.244,000 --> 0:00:27,000
+telles que la croissance cellulaire.
+
+9
+0:00:28.122,000 --> 0:00:29,000
+Essentiellement, ceci fonctionne ainsi.
+
+10
+0:00:30.573,000 --> 0:00:32,000
+J'identifie d'abord les éléments clés
+
+11
+0:00:33.066,000 --> 0:00:35,000
+qui pourraient induire le comportement au fil du temps
+
+12
+0:00:35.867,000 --> 0:00:36,000
+d'un mécanisme en particulier.
+
+13
+0:00:38.23,000 --> 0:00:39,000
+Puis je formule des hypothèses
+
+14
+0:00:40.145,000 --> 0:00:42,000
+quant à comment ces éléments interagissent entre eux
+
+15
+0:00:43.055,000 --> 0:00:44,000
+et avec leur environnement.
+
+16
+0:00:44.916,000 --> 0:00:45,000
+Cela peut ressembler à ceci.
+
+17
+0:00:46.712,000 --> 0:00:49,000
+Puis je traduis ces hypothèses en équations,
+
+18
+0:00:50.61,000 --> 0:00:51,000
+ce qui peut ressemble à ceci.
+
+19
+0:00:53.434,000 --> 0:00:54,000
+Finalement, j'analyse mes équations
+
+20
+0:00:55.348,000 --> 0:00:58,000
+et je traduis les résultats dans le langage de la biologie.
+
+21
+0:01:00.156,000 --> 0:01:02,000
+Un aspect clé de la modélisation mathématique
+
+22
+0:01:02.6,000 --> 0:01:03,000
+est qu'en tant que modélisateurs,
+
+23
+0:01:04.23,000 --> 0:01:06,000
+nous ne pensons pas à ce que sont les choses,
+
+24
+0:01:06.532,000 --> 0:01:07,000
+nous pensons à ce qu'elles font.
+
+25
+0:01:08.411,000 --> 0:01:1,000
+Nous pensons aux relations entre les individus,
+
+26
+0:01:10.924,000 --> 0:01:12,000
+que ce soient des cellules, des animaux ou des gens,
+
+27
+0:01:13.834,000 --> 0:01:16,000
+et comment ils interagissent entre eux et avec leur environnement.
+
+28
+0:01:17.639,000 --> 0:01:18,000
+Laissez-moi vous donner un exemple.
+
+29
+0:01:19.719,000 --> 0:01:22,000
+Qu'est-ce que les renards et les cellules immunitaires ont en commun ?
+
+30
+0:01:24.793,000 --> 0:01:25,000
+Ce sont tous deux des prédateurs,
+
+31
+0:01:26.744,000 --> 0:01:28,000
+mais les renards se nourrissent de lapins,
+
+32
+0:01:29.491,000 --> 0:01:32,000
+les cellules immunitaires d'envahisseurs telles que les cellules cancéreuses.
+
+33
+0:01:33.273,000 --> 0:01:35,000
+D'un point de vue mathématique,
+
+34
+0:01:35.642,000 --> 0:01:39,000
+un système qualitativement identique d'équations de type prédateur-proie
+
+35
+0:01:39.822,000 --> 0:01:42,000
+décrira les interactions entre les renards et les lapins
+
+36
+0:01:43.091,000 --> 0:01:45,000
+et le cancer et les cellules immunitaires.
+
+37
+0:01:45.609,000 --> 0:01:47,000
+Les systèmes de type prédateur-proie ont été étudiés
+
+38
+0:01:48.271,000 --> 0:01:49,000
+dans la littérature scientifique,
+
+39
+0:01:49.84,000 --> 0:01:51,000
+décrivant les interactions de deux populations
+
+40
+0:01:52.036,000 --> 0:01:54,000
+où la survie de l'une dépend de la consommation de l'autre.
+
+41
+0:01:55.485,000 --> 0:01:57,000
+Ces mêmes équations fournissent un cadre
+
+42
+0:01:58.129,000 --> 0:02:,000
+pour comprendre les interactions cancer-immunologie
+
+43
+0:02:00.52,000 --> 0:02:01,000
+où la proie est le cancer
+
+44
+0:02:02.329,000 --> 0:02:04,000
+et le système immunitaire le prédateur.
+
+45
+0:02:04.725,000 --> 0:02:08,000
+La proie utilise toutes sortes de ruses pour empêcher le prédateur de la tuer,
+
+46
+0:02:08.781,000 --> 0:02:09,000
+allant du camouflage
+
+47
+0:02:10.625,000 --> 0:02:11,000
+au vol de la nourriture du prédateur.
+
+48
+0:02:13.352,000 --> 0:02:15,000
+Cela peut avoir des implications très intéressantes.
+
+49
+0:02:15.938,000 --> 0:02:19,000
+Par exemple, malgré d'énormes réussites dans le domaine de l'immunothérapie,
+
+50
+0:02:20.784,000 --> 0:02:22,000
+cela a encore une efficacité limitée
+
+51
+0:02:23.269,000 --> 0:02:24,000
+quand il s'agit des tumeurs solides.
+
+52
+0:02:25.423,000 --> 0:02:27,000
+Mais d'un point de vue écologique,
+
+53
+0:02:28.006,000 --> 0:02:3,000
+le cancer et les cellules immunitaires --
+
+54
+0:02:30.12,000 --> 0:02:31,000
+la proie et le prédateur --
+
+55
+0:02:31.744,000 --> 0:02:34,000
+ont besoins de nutriments comme le glucose pour survivre.
+
+56
+0:02:35.358,000 --> 0:02:39,000
+Si le cancer bat les cellules immunitaires pour les nutriments communs
+
+57
+0:02:40.171,000 --> 0:02:41,000
+dans le micro-environnement tumoral,
+
+58
+0:02:41.988,000 --> 0:02:42,000
+alors les cellules immunitaires
+
+59
+0:02:43.511,000 --> 0:02:45,000
+ne pourront physiquement pas faire leur boulot.
+
+60
+0:02:46.291,000 --> 0:02:48,000
+Ce modèle de ressources communes au prédateur et à la proie
+
+61
+0:02:49.183,000 --> 0:02:51,000
+est une chose sur laquelle j'ai travaillé.
+
+62
+0:02:51.504,000 --> 0:02:53,000
+Il a récemment été démontré expérimentalement
+
+63
+0:02:54.252,000 --> 0:02:58,000
+que rétablir l'équilibre métabolique dans le micro-environnement tumoral --
+
+64
+0:02:58.33,000 --> 0:03:01,000
+s'assurer que les cellules immunitaires aient à manger --
+
+65
+0:03:01.885,000 --> 0:03:06,000
+peut rendre aux prédateurs leur avantage dans la lutte contre le cancer, la proie.
+
+66
+0:03:08.44,000 --> 0:03:1,000
+En résumé, cela signifie
+
+67
+0:03:10.803,000 --> 0:03:12,000
+que si vous pouvez voir le cancer comme un écosystème
+
+68
+0:03:13.782,000 --> 0:03:17,000
+où des populations hétérogènes de cellules rivalisent et coopèrent
+
+69
+0:03:18.093,000 --> 0:03:2,000
+pour de la place et des nutriments,
+
+70
+0:03:20.134,000 --> 0:03:22,000
+interagissent avec des prédateurs -- le système immunitaire --
+
+71
+0:03:23.046,000 --> 0:03:25,000
+migrent -- les métastases --
+
+72
+0:03:25.095,000 --> 0:03:27,000
+tout cela dans l'écosystème du corps humain.
+
+73
+0:03:28.221,000 --> 0:03:31,000
+Que savons-nous des écosystèmes d'après la biologie de la conservation ?
+
+74
+0:03:32.643,000 --> 0:03:34,000
+Une des meilleures façons d'anéantir une espèce
+
+75
+0:03:35.519,000 --> 0:03:37,000
+n'est pas de la prendre pour cible directe
+
+76
+0:03:37.541,000 --> 0:03:39,000
+mais de prendre pour cible son environnement.
+
+77
+0:03:40.88,000 --> 0:03:43,000
+Alors une fois que nous avons identifié les composants clés
+
+78
+0:03:43.974,000 --> 0:03:44,000
+de l'environnement tumoral,
+
+79
+0:03:45.642,000 --> 0:03:46,000
+nous pouvons proposer des hypothèses
+
+80
+0:03:47.614,000 --> 0:03:5,000
+et simuler des scénarios et des interventions thérapeutiques
+
+81
+0:03:50.932,000 --> 0:03:53,000
+de façon sûre et à prix abordable
+
+82
+0:03:54.381,000 --> 0:03:57,000
+et prendre pour cible divers composants du micro-environnement
+
+83
+0:03:57.774,000 --> 0:04:,000
+afin de tuer le cancer sans nuire à l'hôte,
+
+84
+0:04:01.794,000 --> 0:04:02,000
+tel que vous ou moi.
+
+85
+0:04:05.029,000 --> 0:04:08,000
+Si l'objectif immédiat de ma recherche
+
+86
+0:04:08.055,000 --> 0:04:1,000
+est d'avancer la recherche et l'innovation
+
+87
+0:04:10.345,000 --> 0:04:11,000
+et d'en réduire le coût,
+
+88
+0:04:12.265,000 --> 0:04:14,000
+le but réel est évidemment de sauver des vies.
+
+89
+0:04:15.278,000 --> 0:04:16,000
+C'est ce que j'essaye de faire
+
+90
+0:04:17.073,000 --> 0:04:19,000
+avec de la modélisation mathématique appliquée à la biologie
+
+91
+0:04:19.89,000 --> 0:04:21,000
+et, en particulier, au développement de médicaments.
+
+92
+0:04:22.895,000 --> 0:04:26,000
+C'est un domaine qui, jusqu'à récemment, est demeuré plutôt marginal,
+
+93
+0:04:26.975,000 --> 0:04:27,000
+mais il a évolué.
+
+94
+0:04:28.451,000 --> 0:04:31,000
+Il y a maintenant des méthodes mathématiques bien développées,
+
+95
+0:04:31.624,000 --> 0:04:32,000
+beaucoup d'outils préprogrammés,
+
+96
+0:04:33.547,000 --> 0:04:34,000
+y compris des outils gratuits,
+
+97
+0:04:35.067,000 --> 0:04:39,000
+et une puissance de calcul toujours plus importante à notre disposition.
+
+98
+0:04:40.718,000 --> 0:04:43,000
+Le pouvoir et la beauté de la modélisation mathématique
+
+99
+0:04:44.141,000 --> 0:04:46,000
+réside dans le fait qu'elle vous fait formaliser
+
+100
+0:04:46.806,000 --> 0:04:48,000
+de façon rigoureuse
+
+101
+0:04:48.917,000 --> 0:04:49,000
+ce que nous pensons savoir.
+
+102
+0:04:50.904,000 --> 0:04:51,000
+Nous faisons des hypothèses,
+
+103
+0:04:52.372,000 --> 0:04:53,000
+les traduisons en équations,
+
+104
+0:04:53.964,000 --> 0:04:54,000
+exécutons des simulations,
+
+105
+0:04:55.299,000 --> 0:04:56,000
+tout cela pour répondre à la question :
+
+106
+0:04:57.152,000 --> 0:04:59,000
+dans un monde où mes hypothèses sont vraies,
+
+107
+0:04:59.366,000 --> 0:05:,000
+qu'est-ce que je m'attends à voir ?
+
+108
+0:05:01.89,000 --> 0:05:03,000
+C'est un cadre conceptuel assez simple.
+
+109
+0:05:04,000 --> 0:05:06,000
+Il s'agit de poser les bonnes questions.
+
+110
+0:05:06.603,000 --> 0:05:08,000
+Mais il peut révéler de nombreuses opportunités
+
+111
+0:05:08.886,000 --> 0:05:1,000
+de test de nos hypothèses biologiques.
+
+112
+0:05:11.696,000 --> 0:05:13,000
+Si nos prévisions correspondent à nos observations,
+
+113
+0:05:14.32,000 --> 0:05:17,000
+génial ! Nous avons raison, nous pouvoir faire d'autres prévisions
+
+114
+0:05:17.417,000 --> 0:05:19,000
+en changeant cet aspect-ci ou cet aspect-là du modèle.
+
+115
+0:05:20.733,000 --> 0:05:23,000
+Si, cependant, nos prévisions ne correspondent pas à nos observations,
+
+116
+0:05:24.457,000 --> 0:05:26,000
+certaines de nos hypothèses sont fausses
+
+117
+0:05:27.066,000 --> 0:05:29,000
+et notre compréhension des mécanismes clés
+
+118
+0:05:29.523,000 --> 0:05:3,000
+qui sous-tendent la biologie
+
+119
+0:05:30.986,000 --> 0:05:31,000
+est encore incomplète.
+
+120
+0:05:32.829,000 --> 0:05:34,000
+Heureusement, puisque c'est un modèle,
+
+121
+0:05:35.215,000 --> 0:05:36,000
+nous contrôlons toutes les hypothèses.
+
+122
+0:05:37.128,000 --> 0:05:39,000
+Nous pouvons les passer en revue, une à une,
+
+123
+0:05:39.292,000 --> 0:05:42,000
+pour identifier laquelle ou lesquelles sont à l'origine de la divergence.
+
+124
+0:05:43.637,000 --> 0:05:46,000
+Nous pouvons remplir cette lacune de savoir nouvellement identifiée
+
+125
+0:05:47.017,000 --> 0:05:49,000
+en utilisant des approches expérimentales et théoriques.
+
+126
+0:05:50.699,000 --> 0:05:52,000
+Bien sûr, tout écosystème est extrêmement complexe
+
+127
+0:05:53.544,000 --> 0:05:56,000
+et essayer de décrire tous les parties en mouvement est très difficile
+
+128
+0:05:57.411,000 --> 0:05:58,000
+mais aussi très informatif.
+
+129
+0:05:59.518,000 --> 0:06:01,000
+Il y a aussi le problème des durées
+
+130
+0:06:01.608,000 --> 0:06:04,000
+car certains processus se réalisent sur une échelle en secondes, en minutes,
+
+131
+0:06:05.3,000 --> 0:06:06,000
+en jours, en mois ou en années.
+
+132
+0:06:07.272,000 --> 0:06:1,000
+Il n'est pas toujours possible de les séparer expérimentalement.
+
+133
+0:06:11.143,000 --> 0:06:14,000
+Certaines choses se produisent si vite ou si lentement
+
+134
+0:06:14.531,000 --> 0:06:16,000
+que nous ne sommes jamais physiquement capables de les mesurer.
+
+135
+0:06:17.491,000 --> 0:06:19,000
+Mais en tant que mathématiciens,
+
+136
+0:06:19.607,000 --> 0:06:21,000
+nous avons le pouvoir de nous concentrer
+
+137
+0:06:22.276,000 --> 0:06:25,000
+sur n'importe quel système et n'importe quelle durée
+
+138
+0:06:25.276,000 --> 0:06:27,000
+et de simuler les effets d'interventions
+
+139
+0:06:27.424,000 --> 0:06:29,000
+qui ont lieu sur n'importe quelle durée.
+
+140
+0:06:31.942,000 --> 0:06:33,000
+Bien sûr, ce n'est pas le travail d'un seul modélisateur.
+
+141
+0:06:34.9,000 --> 0:06:37,000
+Cela doit arriver en étroite collaboration avec des biologistes.
+
+142
+0:06:38.213,000 --> 0:06:41,000
+Cela requiert une capacité de traduction
+
+143
+0:06:41.241,000 --> 0:06:42,000
+des deux côtés.
+
+144
+0:06:43.55,000 --> 0:06:46,000
+Mais démarrer avec une formulation théorique d'un problème
+
+145
+0:06:47.362,000 --> 0:06:5,000
+peut révéler de nombreuses opportunités de test des hypothèses,
+
+146
+0:06:50.883,000 --> 0:06:53,000
+de simulations de scénarios et d'interventions thérapeutiques
+
+147
+0:06:54.146,000 --> 0:06:56,000
+de façon entièrement sûre.
+
+148
+0:06:56.977,000 --> 0:07:01,000
+Cela peut identifier des lacunes de savoir et des incohérences logiques
+
+149
+0:07:02.176,000 --> 0:07:04,000
+et nous guider vers ce que nous devrions continuer à explorer
+
+150
+0:07:05.065,000 --> 0:07:06,000
+et ce qui pourrait être une impasse.
+
+151
+0:07:07.632,000 --> 0:07:08,000
+En d'autres mots :
+
+152
+0:07:08.903,000 --> 0:07:11,000
+la modélisation mathématique peut nous aider à répondre à des questions
+
+153
+0:07:12.421,000 --> 0:07:14,000
+qui affectent directement la santé des gens --
+
+154
+0:07:15.942,000 --> 0:07:17,000
+la santé de chaque personne --
+
+155
+0:07:18.67,000 --> 0:07:2,000
+car la modélisation mathématique sera la clé
+
+156
+0:07:21.37,000 --> 0:07:22,000
+d'une médecine personnalisée.
+
+157
+0:07:24.112,000 --> 0:07:27,000
+Tout cela repose sur le fait de poser la bonne question
+
+158
+0:07:27.711,000 --> 0:07:29,000
+et de la traduire en la bonne équation ...
+
+159
+0:07:30.67,000 --> 0:07:31,000
+et inversement.
+
+160
+0:07:32.533,000 --> 0:07:33,000
+Merci.
+
+161
+0:07:33.708,000 --> 0:07:36,000
+(Applaudissements)
+

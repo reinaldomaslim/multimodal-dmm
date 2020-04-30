@@ -1,0 +1,468 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ajmme Kajros Revisor: Carlo Dezerega
+
+2
+0:00:25,000 --> 0:00:27,000
+Entonces, ¿dónde están los robots?
+
+3
+0:00:27,000 --> 0:00:3,000
+Nos han dicho por 40 años que ya vienen.
+
+4
+0:00:3,000 --> 0:00:33,000
+Muy pronto estarán haciendo todo por nosotros:
+
+5
+0:00:33,000 --> 0:00:38,000
+cocinarán, limpiarán, comprarán, construirán. Pero aún no están aquí.
+
+6
+0:00:38,000 --> 0:00:42,000
+Mientras tanto tenemos inmigrantes ilegales haciendo todo el trabajo,
+
+7
+0:00:42,000 --> 0:00:44,000
+pero no tenemos robots.
+
+8
+0:00:44,000 --> 0:00:48,000
+¿Qué podemos hacer al respecto? ¿Qué podemos decir?
+
+9
+0:00:48,000 --> 0:00:52,000
+Quiero compartir un poco de otra perspectiva,
+
+10
+0:00:52,000 --> 0:00:58,000
+de cómo quizás podamos ver estas cosas de forma ligeramente distinta.
+
+11
+0:00:58,000 --> 0:01:,000
+Y esta es una foto de rayos X
+
+12
+0:01:,000 --> 0:01:05,000
+de un escarabajo y un reloj suizo, del año 1988. Viendo eso,
+
+13
+0:01:05,000 --> 0:01:07,000
+lo que fue cierto entonces es cierto hoy.
+
+14
+0:01:07,000 --> 0:01:1,000
+Podemos hacer las piezas y hacerlas correctamente,
+
+15
+0:01:1,000 --> 0:01:13,000
+podemos hacer los circuitos para una capacidad de cómputo adecuada,
+
+16
+0:01:13,000 --> 0:01:16,000
+pero en la práctica no podemos unirlos para construir algo
+
+17
+0:01:16,000 --> 0:01:21,000
+que realmente funcione y sea tan adaptable como estos sistemas.
+
+18
+0:01:21,000 --> 0:01:23,000
+Así que intentemos verlo desde una perspectiva diferente.
+
+19
+0:01:23,000 --> 0:01:27,000
+Llamemos al mejor diseñador, la madre de todos los diseñadores:
+
+20
+0:01:27,000 --> 0:01:3,000
+veamos que puede hacer por nosotros la evolución.
+
+21
+0:01:3,000 --> 0:01:34,000
+Entonces mezclamos, creamos una sopa primordial
+
+22
+0:01:34,000 --> 0:01:38,000
+con montones de piezas de robots, con barras, motores, neuronas.
+
+23
+0:01:38,000 --> 0:01:42,000
+Los juntamos todos, pusimos todo eso bajo cierta clase de selección natural,
+
+24
+0:01:42,000 --> 0:01:46,000
+bajo mutación, y recompensamos la capacidad de avance.
+
+25
+0:01:46,000 --> 0:01:52,000
+Una tarea muy simple, y es interesante ver la clase de cosas que surgen de ahí.
+
+26
+0:01:52,000 --> 0:01:55,000
+Así que si observan, pueden ver un montón de máquinas diferentes
+
+27
+0:01:55,000 --> 0:01:57,000
+saliendo de esto. Todas se mueven,
+
+28
+0:01:57,000 --> 0:02:01,000
+todas ellas se arrastran a su manera y, pueden ver a la derecha
+
+29
+0:02:01,000 --> 0:02:03,000
+que efectivamente hemos fabricado un par de estas cosas,
+
+30
+0:02:03,000 --> 0:02:06,000
+y funcionan en el mundo real. No son robots muy fantásticos pero
+
+31
+0:02:06,000 --> 0:02:1,000
+evolucionaron para hacer exactamente aquello por lo que los recompensamos;
+
+32
+0:02:1,000 --> 0:02:13,000
+para moverse hacia adelante. Así que eso fue hecho en simulación
+
+33
+0:02:13,000 --> 0:02:15,000
+pero también podemos hacerlo en una máquina de verdad.
+
+34
+0:02:15,000 --> 0:02:2,000
+Aquí está un robot físico que de hecho
+
+35
+0:02:2,000 --> 0:02:23,000
+tiene una población de cerebros,
+
+36
+0:02:23,000 --> 0:02:25,000
+compitiendo o evolucionando, en la máquina.
+
+37
+0:02:25,000 --> 0:02:28,000
+Es como un espectáculo de rodeo: todos se pueden subir a la máquina
+
+38
+0:02:28,000 --> 0:02:31,000
+y son recompensados por qué tan rápido o qué tan lejos
+
+39
+0:02:31,000 --> 0:02:33,000
+pueden hacer que la máquina avance.
+
+40
+0:02:33,000 --> 0:02:35,000
+Y pueden ver que esos robots no están listos
+
+41
+0:02:35,000 --> 0:02:38,000
+aún para dominar al mundo, pero
+
+42
+0:02:38,000 --> 0:02:4,000
+aprenden gradualmente a avanzar
+
+43
+0:02:4,000 --> 0:02:43,000
+y hacen esto de forma autónoma.
+
+44
+0:02:43,000 --> 0:02:47,000
+Así que en esos dos ejemplos, básicamente tenemos
+
+45
+0:02:47,000 --> 0:02:5,000
+máquinas que aprendieron cómo caminar en una simulación
+
+46
+0:02:5,000 --> 0:02:52,000
+y también máquinas que aprendieron cómo caminar en la realidad.
+
+47
+0:02:52,000 --> 0:02:54,000
+Pero quiero mostrarles un enfoque distinto
+
+48
+0:02:54,000 --> 0:03:,000
+y es este robot de aquí, el cual tiene cuatro patas,
+
+49
+0:03:,000 --> 0:03:02,000
+tiene ocho motores, cuatro en las rodillas y cuatro en las caderas.
+
+50
+0:03:02,000 --> 0:03:05,000
+Tiene también 2 sensores de inclinación que le dicen a la máquina
+
+51
+0:03:05,000 --> 0:03:08,000
+por cuál lado se está inclinando.
+
+52
+0:03:08,000 --> 0:03:1,000
+Pero esta máquina no sabe cómo es ella misma.
+
+53
+0:03:1,000 --> 0:03:12,000
+Mirándola sabes que tiene cuatro patas
+
+54
+0:03:12,000 --> 0:03:14,000
+pero la máquina no sabe si es una serpiente, un árbol,
+
+55
+0:03:14,000 --> 0:03:17,000
+no tiene ni idea de cómo es
+
+56
+0:03:17,000 --> 0:03:19,000
+pero va a tratar de descubrirlo.
+
+57
+0:03:19,000 --> 0:03:21,000
+Al principio, hace algunos movimientos al azar
+
+58
+0:03:21,000 --> 0:03:24,000
+y entonces intenta descubrir cómo puede ser
+
+59
+0:03:24,000 --> 0:03:26,000
+y se ven un montón de cosas pasar por "sus mentes",
+
+60
+0:03:26,000 --> 0:03:3,000
+un montón de modelos de sí misma que tratan de explicar la relación
+
+61
+0:03:3,000 --> 0:03:33,000
+entre su actuación y su percepción y entonces intenta ejecutar
+
+62
+0:03:33,000 --> 0:03:37,000
+una segunda acción que genere la mayor discrepancia
+
+63
+0:03:37,000 --> 0:03:39,000
+entre las predicciones de esos modelos alternativos,
+
+64
+0:03:39,000 --> 0:03:41,000
+como un científico en un laboratorio. Entonces hace eso
+
+65
+0:03:41,000 --> 0:03:45,000
+e intenta explicarlo y depura sus modelos de sí misma.
+
+66
+0:03:45,000 --> 0:03:48,000
+Este es el último ciclo y pueden ver que prácticamente
+
+67
+0:03:48,000 --> 0:03:52,000
+ha descubierto cómo es y una vez que tiene un modelo de sí misma,
+
+68
+0:03:52,000 --> 0:03:56,000
+puede usarlo para derivar un patrón de locomoción.
+
+69
+0:03:56,000 --> 0:03:58,000
+Así que lo que ven aquí son un par de máquinas,
+
+70
+0:03:58,000 --> 0:04:,000
+un patrón de locomoción.
+
+71
+0:04:,000 --> 0:04:04,000
+Esperábamos que fuera a tener un tipo de andar maligno, arácnido,
+
+72
+0:04:04,000 --> 0:04:08,000
+pero en cambio creó esta forma de avanzar bastante patética.
+
+73
+0:04:08,000 --> 0:04:11,000
+Pero cuando miran eso tienen que recordar
+
+74
+0:04:11,000 --> 0:04:17,000
+que esta máquina no hizo ningún ensayo físico sobre cómo avanzar,
+
+75
+0:04:17,000 --> 0:04:19,000
+ni tenía un modelo de sí misma.
+
+76
+0:04:19,000 --> 0:04:22,000
+Más o menos descubrió cómo era, y cómo podía avanzar,
+
+77
+0:04:22,000 --> 0:04:26,000
+y entonces lo intentó en realidad.
+
+78
+0:04:26,000 --> 0:04:31,000
+(Aplausos)
+
+79
+0:04:31,000 --> 0:04:35,000
+Entonces, probemos una idea diferente.
+
+80
+0:04:35,000 --> 0:04:4,000
+Eso fue lo que ocurrió cuando teníamos un par de...
+
+81
+0:04:4,000 --> 0:04:44,000
+fue lo que ocurrió cuando tienes un par... OK, OK, OK,
+
+82
+0:04:44,000 --> 0:04:46,000
+(Risas)
+
+83
+0:04:46,000 --> 0:04:48,000
+no se caen bien. Entonces
+
+84
+0:04:48,000 --> 0:04:51,000
+hay un robot diferente.
+
+85
+0:04:51,000 --> 0:04:53,000
+Eso fue lo que ocurrió cuando los robots fueron
+
+86
+0:04:53,000 --> 0:04:55,000
+recompensados por hacer algo.
+
+87
+0:04:55,000 --> 0:04:58,000
+¿Qué ocurre si no los recompensas en lo absoluto, si sólo los pones ahí?
+
+88
+0:04:58,000 --> 0:05:01,000
+Tenemos estos cubos, como el diagrama muestra aquí.
+
+89
+0:05:01,000 --> 0:05:03,000
+El cubo puede girar, o ponerse de lado,
+
+90
+0:05:04,000 --> 0:05:08,000
+y dejamos mil de esos cubos en una sopa,
+
+91
+0:05:08,000 --> 0:05:1,000
+esto es en simulación, y no los recompensamos por nada,
+
+92
+0:05:1,000 --> 0:05:13,000
+sólo los dejamos dar vueltas. Le insertamos energía a esto
+
+93
+0:05:13,000 --> 0:05:16,000
+y vemos que ocurre en un par de mutaciones.
+
+94
+0:05:16,000 --> 0:05:19,000
+Al principio no pasa nada, sólo están dando de vueltas por ahí.
+
+95
+0:05:19,000 --> 0:05:23,000
+Pero muy poco después puedes ver esas cosas azules
+
+96
+0:05:23,000 --> 0:05:25,000
+a la derecha que empiezan a prevalecer.
+
+97
+0:05:25,000 --> 0:05:29,000
+Empiezan a autorreplicarse. Así que en ausencia de toda recompensa
+
+98
+0:05:29,000 --> 0:05:32,000
+la recompensa intrínseca es autorreplicación.
+
+99
+0:05:32,000 --> 0:05:33,000
+Y de hecho hemos construido un par de éstos
+
+100
+0:05:33,000 --> 0:05:37,000
+y esto es parte de un robot más grande hecho con estos cubos,
+
+101
+0:05:37,000 --> 0:05:4,000
+es una vista acelerada donde puedes ver al robot
+
+102
+0:05:4,000 --> 0:05:42,000
+ejecutando parte de su proceso de replicación.
+
+103
+0:05:42,000 --> 0:05:46,000
+Así que si estás dándole más material, cubos en este caso,
+
+104
+0:05:46,000 --> 0:05:49,000
+y más energía y puede hacer otro robot.
+
+105
+0:05:49,000 --> 0:05:52,000
+Por supuesto, es una máquina muy rudimentaria
+
+106
+0:05:52,000 --> 0:05:54,000
+pero estamos trabajando en una versión a microescala,
+
+107
+0:05:54,000 --> 0:05:57,000
+esperando que algún día los cubos sean como un polvo que puedas echar.
+
+108
+0:05:57,000 --> 0:06:02,000
+¿Qué podemos aprender? Estos robots, por supuesto,
+
+109
+0:06:02,000 --> 0:06:05,000
+no son muy útiles por sí mismos pero podrían enseñarnos algo
+
+110
+0:06:05,000 --> 0:06:08,000
+sobre cómo podemos construir mejores robots
+
+111
+0:06:08,000 --> 0:06:13,000
+y quizás cómo los humanos y animales crean modelos de sí mismos y aprenden.
+
+112
+0:06:13,000 --> 0:06:15,000
+Y una de las cosas que creo es importante
+
+113
+0:06:15,000 --> 0:06:17,000
+es que tenemos que abandonar esta idea
+
+114
+0:06:17,000 --> 0:06:19,000
+de diseñar máquinas manualmente
+
+115
+0:06:19,000 --> 0:06:22,000
+sino más bien dejarlas evolucionar y aprender, como niños,
+
+116
+0:06:22,000 --> 0:06:24,000
+y quizás esa es la forma en que lo consigamos. Gracias.
+
+117
+0:06:24,000 --> 0:06:26,000
+(Aplausos)
+

@@ -1,0 +1,968 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lidia Cámara de la Fuente Revisor: Sebastian Betti
+
+2
+0:00:12.76,000 --> 0:00:16,000
+Las afirmaciones extraordinarias requieren pruebas extraordinarias,
+
+3
+0:00:17.28,000 --> 0:00:21,000
+y es mi trabajo, mi responsabilidad, como astrónoma, recordar a la gente
+
+4
+0:00:22,000 --> 0:00:28,000
+que las hipótesis extraterrestres siempre deben ser el último recurso.
+
+5
+0:00:29.44,000 --> 0:00:31,000
+Quiero contar una historia al respecto.
+
+6
+0:00:31.6,000 --> 0:00:34,000
+Esta incluye datos de una misión de la NASA,
+
+7
+0:00:35.2,000 --> 0:00:39,000
+gente común y una de las estrellas más extraordinarios en nuestra galaxia.
+
+8
+0:00:41.8,000 --> 0:00:44,000
+Se inició en 2009 con el lanzamiento de la misión Kepler de la NASA.
+
+9
+0:00:46,000 --> 0:00:48,000
+El principal objetivo científico de Kepler
+
+10
+0:00:48.08,000 --> 0:00:5,000
+era encontrar planetas fuera de nuestro sistema solar.
+
+11
+0:00:51.08,000 --> 0:00:54,000
+Se hizo esto mirando un solo campo en el cielo,
+
+12
+0:00:54.68,000 --> 0:00:56,000
+este, con todas las pequeñas cajas.
+
+13
+0:00:57.48,000 --> 0:00:58,000
+Y en este un campo,
+
+14
+0:00:58.92,000 --> 0:01:02,000
+se supervisó el brillo de más de 150 000 estrellas
+
+15
+0:01:03.36,000 --> 0:01:05,000
+de forma continua durante cuatro años,
+
+16
+0:01:05.8,000 --> 0:01:08,000
+teniendo un punto de datos cada 30 minutos.
+
+17
+0:01:10.25,000 --> 0:01:13,000
+Buscaba aquello que los astrónomos llaman un tránsito.
+
+18
+0:01:13.52,000 --> 0:01:18,000
+Esto es cuando la órbita del planeta está alineada en nuestra línea de visión,
+
+19
+0:01:18.56,000 --> 0:01:22,000
+para que el planeta pase por delante de una estrella.
+
+20
+0:01:22.72,000 --> 0:01:26,000
+Y cuando esto sucede, bloquea un poco de luz de las estrellas,
+
+21
+0:01:27.12,000 --> 0:01:3,000
+que se puede ver como un baño en esta curva.
+
+22
+0:01:31.6,000 --> 0:01:35,000
+Y por eso el equipo de la NASA ha desarrollado equipos muy sofisticados
+
+23
+0:01:36.04,000 --> 0:01:38,000
+para buscar tránsitos de todos los datos de Kepler.
+
+24
+0:01:40.16,000 --> 0:01:43,000
+Al mismo tiempo de la primera publicación de los datos,
+
+25
+0:01:44.05,000 --> 0:01:47,000
+los astrónomos de la Universidad de Yale se preguntaban algo interesante:
+
+26
+0:01:48.24,000 --> 0:01:51,000
+¿Qué pasa si las computadoras perdieron algo?
+
+27
+0:01:52.73,000 --> 0:01:55,000
+Por eso se inició el proyecto de ciencia ciudadana llamada cazadores de planetas
+
+28
+0:01:57.76,000 --> 0:02:,000
+para incorporar a gente observando los mismos datos.
+
+29
+0:02:01.27,000 --> 0:02:05,000
+El cerebro humano tiene una capacidad asombrosa para reconocer patrones,
+
+30
+0:02:05.4,000 --> 0:02:07,000
+a veces incluso mejor que una computadora.
+
+31
+0:02:07.64,000 --> 0:02:09,000
+Sin embargo, había mucho escepticismo al respecto.
+
+32
+0:02:10.2,000 --> 0:02:13,000
+Mi colega, Debra Fischer, fundadora del proyecto Planet Hunters,
+
+33
+0:02:13.76,000 --> 0:02:14,000
+dijo que la gente entonces decía:
+
+34
+0:02:15.76,000 --> 0:02:18,000
+"Están locos. No es posible que una computadora pierda una señal.
+
+35
+0:02:19.56,000 --> 0:02:23,000
+Y así continuó el clásico juego de azar humano contra la máquina.
+
+36
+0:02:23.8,000 --> 0:02:26,000
+Y si encontramos un planeta, estaríamos encantados.
+
+37
+0:02:27,000 --> 0:02:29,000
+Cuando me uní al equipo hace cuatro años,
+
+38
+0:02:29.48,000 --> 0:02:3,000
+ya habíamos encontrado una pareja.
+
+39
+0:02:32.36,000 --> 0:02:36,000
+Y hoy, con la ayuda de más de 300 000 entusiastas de la ciencia,
+
+40
+0:02:37.04,000 --> 0:02:38,000
+hemos encontrado docenas,
+
+41
+0:02:38.84,000 --> 0:02:41,000
+y también hemos encontrado una de las estrellas más misteriosas
+
+42
+0:02:42.12,000 --> 0:02:43,000
+en nuestra galaxia.
+
+43
+0:02:45.04,000 --> 0:02:46,000
+Así que para entender esto,
+
+44
+0:02:46.52,000 --> 0:02:49,000
+les enseñaré cómo es un tránsito normal en los datos de Kepler.
+
+45
+0:02:50.68,000 --> 0:02:53,000
+En este gráfico en el lado izquierdo representa la cantidad de luz,
+
+46
+0:02:54.08,000 --> 0:02:55,000
+y en el fondo es el tiempo.
+
+47
+0:02:55.96,000 --> 0:02:58,000
+La línea blanca es la luz solo de la estrella,
+
+48
+0:02:59.04,000 --> 0:03:01,000
+lo que los astrónomos llaman una curva de luz.
+
+49
+0:03:01.44,000 --> 0:03:04,000
+Al transitar un planeta por una estrella, bloquea un poco de esta luz,
+
+50
+0:03:05.32,000 --> 0:03:1,000
+y la profundidad de este tránsito refleja el tamaño del objeto en sí.
+
+51
+0:03:10.8,000 --> 0:03:12,000
+Y así, por ejemplo, tomemos Júpiter.
+
+52
+0:03:13.27,000 --> 0:03:15,000
+Los planetas no llegan a ser mucho más grandes que Júpiter.
+
+53
+0:03:16.216,000 --> 0:03:19,000
+Júpiter hará una caída del 1 % en el brillo de una estrella.
+
+54
+0:03:19.616,000 --> 0:03:22,000
+La Tierra, por otra parte, es 11 veces más pequeña que Júpiter,
+
+55
+0:03:23.6,000 --> 0:03:25,000
+y la señal es apenas visible en los datos.
+
+56
+0:03:26.44,000 --> 0:03:28,000
+Así que de vuelta a nuestro misterio.
+
+57
+0:03:28.52,000 --> 0:03:32,000
+Hace unos años los cazadores de planetas depurando datos en busca de tránsitos,
+
+58
+0:03:33.2,000 --> 0:03:38,000
+vieron a una misteriosa señal procedente de la estrella KIC 8462852.
+
+59
+0:03:39.92,000 --> 0:03:43,000
+Las observaciones en mayo de 2009 fueron las primeras,
+
+60
+0:03:43.96,000 --> 0:03:46,000
+y empezaron a hablar de esto en los foros de discusión.
+
+61
+0:03:47.32,000 --> 0:03:49,000
+Decían que un objeto igual que Júpiter
+
+62
+0:03:49.44,000 --> 0:03:51,000
+haría una caída como esta a la luz de la estrella,
+
+63
+0:03:52.36,000 --> 0:03:55,000
+pero también se decía que era gigante.
+
+64
+0:03:55.72,000 --> 0:03:58,000
+Los tránsitos normalmente solo duran unas pocas horas,
+
+65
+0:03:58.96,000 --> 0:04:,000
+y este se prolongó durante casi una semana.
+
+66
+0:04:01.88,000 --> 0:04:04,000
+También decían que se ve asimétrica,
+
+67
+0:04:05.44,000 --> 0:04:09,000
+que significa que en vez de limpieza por inmersión en forma de U como en Júpiter,
+
+68
+0:04:09.72,000 --> 0:04:12,000
+tenía esta extraña pendiente que se puede ver en el lado izquierdo.
+
+69
+0:04:13.24,000 --> 0:04:14,000
+Esto parecía indicar
+
+70
+0:04:14.56,000 --> 0:04:17,000
+que todo lo que estaba en el camino y que bloqueaba la luz de las estrellas
+
+71
+0:04:18.226,000 --> 0:04:19,000
+no era circular como un planeta.
+
+72
+0:04:21.24,000 --> 0:04:22,000
+Surgieron unas cuantas lagunas,
+
+73
+0:04:23.176,000 --> 0:04:26,000
+pero hace un par de años, todo estaba bastante tranquilo.
+
+74
+0:04:26.4,000 --> 0:04:3,000
+Y luego, en marzo del 2011, vemos esto:
+
+75
+0:04:31.12,000 --> 0:04:35,000
+gotas de luz de la estrella caen en un 15 %,
+
+76
+0:04:35.12,000 --> 0:04:37,000
+y esto es enorme en comparación con un planeta,
+
+77
+0:04:37.496,000 --> 0:04:39,000
+que solo haría un descenso del 1 %.
+
+78
+0:04:40.48,000 --> 0:04:43,000
+Hemos descrito esta característica como algo suave y limpio.
+
+79
+0:04:44.04,000 --> 0:04:46,000
+También es asimétrica,
+
+80
+0:04:46.08,000 --> 0:04:48,000
+con una atenuación gradual que dura casi una semana,
+
+81
+0:04:48.76,000 --> 0:04:51,000
+y que luego vuelve a encajarse con normalidad en solo cuestión de días.
+
+82
+0:04:52.92,000 --> 0:04:56,000
+Y de nuevo, después de esto, no sucede gran cosa
+
+83
+0:04:57.2,000 --> 0:05:,000
+hasta febrero de 2013.
+
+84
+0:05:00.92,000 --> 0:05:02,000
+Las cosas empiezan a ser realmente de locos.
+
+85
+0:05:03.56,000 --> 0:05:07,000
+Hay un enorme complejo de caídas en la curva de luz en la que aparecen,
+
+86
+0:05:08.08,000 --> 0:05:1,000
+y duran unos 100 días,
+
+87
+0:05:10.21,000 --> 0:05:12,000
+todo el tiempo hasta el final de la misión Kepler.
+
+88
+0:05:13.28,000 --> 0:05:14,000
+Estas caídas tienen formas diversas.
+
+89
+0:05:15.21,000 --> 0:05:17,000
+Algunas son muy afiladas, y otras son anchas,
+
+90
+0:05:17.52,000 --> 0:05:19,000
+y también tienen duraciones variables.
+
+91
+0:05:19.8,000 --> 0:05:22,000
+Algunas duran solo un día o dos, otras más de una semana.
+
+92
+0:05:23.88,000 --> 0:05:26,000
+Y también hay tendencias hacia arriba y abajo en algunas de estas caídas,
+
+93
+0:05:27.48,000 --> 0:05:31,000
+como si superpusieran varios eventos independientes.
+
+94
+0:05:32.92,000 --> 0:05:38,000
+Y en este momento, esta estrella cae en su brillo más del 20 %.
+
+95
+0:05:39.16,000 --> 0:05:41,000
+Esto significa que todo lo que bloquea su luz
+
+96
+0:05:41.327,000 --> 0:05:45,000
+tiene una superficie de más de 1000 veces la superficie de nuestro planeta Tierra.
+
+97
+0:05:46.2,000 --> 0:05:48,000
+Esto es verdaderamente notable.
+
+98
+0:05:48.8,000 --> 0:05:5,000
+Y por lo que los científicos voluntarios, al ver esto,
+
+99
+0:05:51.76,000 --> 0:05:54,000
+notificaron al equipo científico que encontraron algo bastante raro
+
+100
+0:05:55.48,000 --> 0:05:57,000
+que podría valer la pena hacer un seguimiento.
+
+101
+0:05:58.43,000 --> 0:06:,000
+Y así, cuando el equipo científico lo observó,
+
+102
+0:06:00.786,000 --> 0:06:03,000
+pensamos: "Sí, es probable que haya algo malo con los datos".
+
+103
+0:06:04.165,000 --> 0:06:06,000
+Pero nos parecía muy, muy, muy difícil,
+
+104
+0:06:06.72,000 --> 0:06:08,000
+y los datos eran buenos.
+
+105
+0:06:10.68,000 --> 0:06:13,000
+Y así lo que estaba pasando tenía que ser astrofísico,
+
+106
+0:06:13.8,000 --> 0:06:16,000
+lo que significa que algo en el espacio estaba en el camino
+
+107
+0:06:17.48,000 --> 0:06:18,000
+bloqueando la luz estelar.
+
+108
+0:06:20.24,000 --> 0:06:21,000
+Y así, en este punto,
+
+109
+0:06:21.48,000 --> 0:06:23,000
+empezamos a aprender todo lo posible sobre la estrella
+
+110
+0:06:24.08,000 --> 0:06:26,000
+para poder encontrar pistas sobre lo que estaba ocurriendo.
+
+111
+0:06:27.39,000 --> 0:06:3,000
+Y los científicos ciudadanos que nos han ayudado en este descubrimiento,
+
+112
+0:06:30.92,000 --> 0:06:31,000
+se unieron a lo largo del paseo
+
+113
+0:06:32.48,000 --> 0:06:35,000
+viendo la ciencia en acción en primera persona.
+
+114
+0:06:37,000 --> 0:06:42,000
+En primer lugar, alguien dijo: ¿y si esta estrella era muy joven
+
+115
+0:06:42.48,000 --> 0:06:45,000
+y todavía tenía alrededor la nube de material de la que nace?
+
+116
+0:06:47.04,000 --> 0:06:48,000
+Y entonces otro dijo:
+
+117
+0:06:48.48,000 --> 0:06:5,000
+¿qué pasaría si la estrella tuviera planetas ya formados,
+
+118
+0:06:51.28,000 --> 0:06:53,000
+y dos de estos planetas hubieran colisionado,
+
+119
+0:06:53.52,000 --> 0:06:55,000
+similar a la formación de la Tierra-Luna.
+
+120
+0:06:56.44,000 --> 0:06:59,000
+Pues bien, estas dos teorías podrían explicar parte de los datos,
+
+121
+0:07:,000 --> 0:07:03,000
+pero las dificultades eran que la estrella no parecía ser joven,
+
+122
+0:07:03.44,000 --> 0:07:05,000
+y no había resplandor de cualquiera de los materiales
+
+123
+0:07:06.4,000 --> 0:07:08,000
+que se calentaban por la luz de la estrella,
+
+124
+0:07:08.52,000 --> 0:07:1,000
+y que se puede esperar, si la estrella era joven
+
+125
+0:07:11.4,000 --> 0:07:14,000
+o si hubo una colisión y se produjo una gran cantidad de polvo.
+
+126
+0:07:15.8,000 --> 0:07:16,000
+Y así que alguien más ha dicho,
+
+127
+0:07:17.44,000 --> 0:07:21,000
+¿Y si hay un enorme enjambre de cometas
+
+128
+0:07:22.44,000 --> 0:07:25,000
+pasando por esta estrella en una órbita muy elíptica?
+
+129
+0:07:26.12,000 --> 0:07:3,000
+Esto realmente es consistente con nuestras observaciones.
+
+130
+0:07:32,000 --> 0:07:35,000
+Pero estoy de acuerdo, parece algo artificial.
+
+131
+0:07:35.28,000 --> 0:07:38,000
+Se necesitarían cientos de cometas
+
+132
+0:07:38.6,000 --> 0:07:39,000
+para reproducir lo que observamos.
+
+133
+0:07:41.2,000 --> 0:07:42,000
+Y estos son solo los cometas
+
+134
+0:07:42.8,000 --> 0:07:44,000
+que pasan entre nosotros y la estrella.
+
+135
+0:07:45.44,000 --> 0:07:51,000
+Y así, en realidad, estamos hablando de miles a decenas de miles de cometas.
+
+136
+0:07:51.92,000 --> 0:07:54,000
+Pero de todas las malas ideas que teníamos,
+
+137
+0:07:55.4,000 --> 0:07:57,000
+esta fue la mejor.
+
+138
+0:07:57.56,000 --> 0:07:59,000
+Y así seguimos adelante y publicamos nuestros hallazgos.
+
+139
+0:08:00.52,000 --> 0:08:04,000
+Este fue uno de los artículos más difíciles que he escrito.
+
+140
+0:08:04.76,000 --> 0:08:06,000
+Se supone que los científicos deben publicar resultados,
+
+141
+0:08:07.496,000 --> 0:08:08,000
+y esta situación estaba lejos de eso.
+
+142
+0:08:09.96,000 --> 0:08:12,000
+Por eso decidimos darle un título atractivo,
+
+143
+0:08:13.12,000 --> 0:08:15,000
+y lo llamamos: "¿Dónde está el flujo?"
+
+144
+0:08:15.32,000 --> 0:08:17,000
+Voy a dejar que Uds. resuelvan el acrónimo.
+
+145
+0:08:18.16,000 --> 0:08:21,000
+(Risas)
+
+146
+0:08:22.27,000 --> 0:08:24,000
+Pero esto no es el final de la historia.
+
+147
+0:08:24.27,000 --> 0:08:26,000
+Casi al mismo tiempo que yo escribía este artículo,
+
+148
+0:08:26.716,000 --> 0:08:28,000
+me encontré con un colega mío, Jason Wright,
+
+149
+0:08:28.92,000 --> 0:08:31,000
+que también estaba escribiendo un artículo sobre datos de Kepler.
+
+150
+0:08:32.226,000 --> 0:08:35,000
+Y decía que con la extrema precisión de Kepler,
+
+151
+0:08:35.36,000 --> 0:08:39,000
+podría detectar megaestructuras alienígenas alrededor de las estrellas,
+
+152
+0:08:40.24,000 --> 0:08:41,000
+pero no fue así.
+
+153
+0:08:42.52,000 --> 0:08:45,000
+Le mostré los datos que los voluntarios científicos habían encontrado,
+
+154
+0:08:47.558,000 --> 0:08:48,000
+y me dijo:
+
+155
+0:08:48.799,000 --> 0:08:49,000
+"Tonterías, Tabby.
+
+156
+0:08:50.6,000 --> 0:08:51,000
+Ahora tengo que reescribir mi artículo".
+
+157
+0:08:54.15,000 --> 0:08:57,000
+Así que sí, las explicaciones naturales eran débiles,
+
+158
+0:08:58.2,000 --> 0:08:59,000
+y ahora teníamos curiosidad.
+
+159
+0:09:00.08,000 --> 0:09:03,000
+Así que tuvimos que encontrar una manera de descartar alienígenas.
+
+160
+0:09:03.28,000 --> 0:09:05,000
+Así que juntos, convencimos a un colega nuestro
+
+161
+0:09:06.02,000 --> 0:09:09,000
+que trabaja en SETI, la búsqueda de inteligencia extraterrestre,
+
+162
+0:09:09.44,000 --> 0:09:11,000
+que este sería un objetivo extraordinario para perseguir.
+
+163
+0:09:14.48,000 --> 0:09:16,000
+Escribimos una propuesta para observar la estrella
+
+164
+0:09:16.88,000 --> 0:09:2,000
+con el mayor radiotelescopio del mundo en el Observatorio de Green Bank.
+
+165
+0:09:21.08,000 --> 0:09:22,000
+Un par de meses más tarde,
+
+166
+0:09:22.48,000 --> 0:09:26,000
+la noticia de esta propuesta se filtró a la prensa
+
+167
+0:09:27.76,000 --> 0:09:3,000
+y ahora hay miles de artículos,
+
+168
+0:09:31.24,000 --> 0:09:34,000
+más de 10 000 artículos sobre esta estrella sola.
+
+169
+0:09:34.4,000 --> 0:09:36,000
+Y si se busca Google,
+
+170
+0:09:36.92,000 --> 0:09:37,000
+se encontrará esto.
+
+171
+0:09:39.6,000 --> 0:09:41,000
+Ahora, podrían preguntar: "Bien, Tabby, así
+
+172
+0:09:42.12,000 --> 0:09:45,000
+¿cómo se explican los alienígenas esta curva la luz?"
+
+173
+0:09:46,000 --> 0:09:51,000
+Bueno, imaginen una civilización mucho más avanzada que la nuestra.
+
+174
+0:09:51.32,000 --> 0:09:53,000
+En este caso hipotético,
+
+175
+0:09:54.68,000 --> 0:09:58,000
+esa civilización habría agotado la energía de su planeta de origen,
+
+176
+0:09:59.36,000 --> 0:10:01,000
+Entonces, ¿dónde podrían obtener más energía?
+
+177
+0:10:01.56,000 --> 0:10:04,000
+Ellos tienen una estrella madre al igual que nosotros tenemos el sol,
+
+178
+0:10:05.24,000 --> 0:10:09,000
+y si fuesen capaces de capturar más energía de esta estrella,
+
+179
+0:10:09.32,000 --> 0:10:11,000
+entonces eso resolvería sus necesidades energéticas.
+
+180
+0:10:11.86,000 --> 0:10:14,000
+Así que irían y construirían estructuras enormes.
+
+181
+0:10:15.24,000 --> 0:10:17,000
+Estos gigantes, megaestructuras
+
+182
+0:10:18.04,000 --> 0:10:21,000
+como los paneles solares descomunales, se denominan esferas de Dyson.
+
+183
+0:10:21.99,000 --> 0:10:22,000
+Esta imagen de arriba contiene
+
+184
+0:10:23.76,000 --> 0:10:26,000
+un montón de impresiones artísticas de las esferas de Dyson.
+
+185
+0:10:26.96,000 --> 0:10:31,000
+Es muy difícil ofrecer una perspectiva sobre la inmensidad de estas cosas,
+
+186
+0:10:32,000 --> 0:10:33,000
+pero se puede pensar de esta manera.
+
+187
+0:10:33.84,000 --> 0:10:36,000
+La distancia Tierra-Luna es de unos 400 000 km.
+
+188
+0:10:38.04,000 --> 0:10:41,000
+El elemento más simple en una de estas estructuras
+
+189
+0:10:41.96,000 --> 0:10:43,000
+es 100 veces ese tamaño.
+
+190
+0:10:45.4,000 --> 0:10:46,000
+Son enormes.
+
+191
+0:10:47.49,000 --> 0:10:52,000
+Ahora imaginen una de estas estructuras en movimiento alrededor de una estrella.
+
+192
+0:10:52.52,000 --> 0:10:55,000
+Se puede ver cómo se produciría anomalías en los datos
+
+193
+0:10:55.64,000 --> 0:10:58,000
+como, por ejemplo, caídas poco naturales irregulares.
+
+194
+0:10:58.88,000 --> 0:11:01,000
+Pero lo cierto es que incluso las megaestructuras exóticas
+
+195
+0:11:02.88,000 --> 0:11:04,000
+no pueden desafiar las leyes de la física.
+
+196
+0:11:05.32,000 --> 0:11:08,000
+Cualquier cosa que usa gran cantidad de energía
+
+197
+0:11:09.8,000 --> 0:11:1,000
+produce calor,
+
+198
+0:11:12.84,000 --> 0:11:13,000
+pero eso no observamos.
+
+199
+0:11:14.84,000 --> 0:11:15,000
+Pero podría ser algo tan simple
+
+200
+0:11:16.56,000 --> 0:11:19,000
+como que están irradiando en otra dirección,
+
+201
+0:11:20.04,000 --> 0:11:21,000
+no hacia la Tierra.
+
+202
+0:11:23,000 --> 0:11:25,000
+Otra idea que es una de mis favoritas
+
+203
+0:11:26.32,000 --> 0:11:29,000
+es que hemos sido testigos de una batalla en el espacio interplanetario
+
+204
+0:11:30.12,000 --> 0:11:33,000
+y de la destrucción catastrófica de un planeta.
+
+205
+0:11:34.52,000 --> 0:11:37,000
+Ahora, admito que esto produciría una gran cantidad de polvo
+
+206
+0:11:37.8,000 --> 0:11:38,000
+que no se observa.
+
+207
+0:11:39.72,000 --> 0:11:43,000
+Pero si invocamos a alienígenas en esta explicación,
+
+208
+0:11:44.08,000 --> 0:11:47,000
+entonces ¿quién puede decir que no limpiaron eficientemente todo
+
+209
+0:11:47.8,000 --> 0:11:48,000
+para reciclar?
+
+210
+0:11:49.36,000 --> 0:11:5,000
+(Risas)
+
+211
+0:11:50.4,000 --> 0:11:52,000
+Se puede ver cómo esto rápidamente capta su imaginación.
+
+212
+0:11:55.76,000 --> 0:11:56,000
+Bueno, ahí lo tienen.
+
+213
+0:11:57.04,000 --> 0:12:,000
+Estamos en una situación que podría revelarse
+
+214
+0:12:00.28,000 --> 0:12:03,000
+como un fenómeno natural que no entendemos
+
+215
+0:12:03.72,000 --> 0:12:05,000
+o una tecnología alienígena que no entendemos.
+
+216
+0:12:07.6,000 --> 0:12:12,000
+En lo personal, como científica, voy por la explicación natural.
+
+217
+0:12:13.72,000 --> 0:12:16,000
+Pero no me malinterpreten, creo que sería increíble encontrar extraterrestres.
+
+218
+0:12:18.19,000 --> 0:12:23,000
+De cualquier manera, siempre hay algo nuevo e interesante para descubrir.
+
+219
+0:12:24.04,000 --> 0:12:25,000
+Entonces, ¿qué pasa después?
+
+220
+0:12:25.92,000 --> 0:12:27,000
+Tenemos que seguir observando esta estrella
+
+221
+0:12:28.6,000 --> 0:12:3,000
+para aprender más sobre lo que pasa.
+
+222
+0:12:31.04,000 --> 0:12:33,000
+Pero los astrónomos profesionales como yo,
+
+223
+0:12:33.64,000 --> 0:12:35,000
+tenemos recursos limitados para este tipo de cosas,
+
+224
+0:12:36.48,000 --> 0:12:37,000
+y Kepler está en una misión diferente.
+
+225
+0:12:39.4,000 --> 0:12:43,000
+Y estoy feliz de decir que, una vez más,
+
+226
+0:12:43.64,000 --> 0:12:46,000
+los ciudadanos científicos han entrado y salvado el día.
+
+227
+0:12:47.88,000 --> 0:12:49,000
+En esta ocasión,
+
+228
+0:12:50.36,000 --> 0:12:52,000
+astrónomos aficionados con sus telescopios caseros
+
+229
+0:12:54.12,000 --> 0:12:57,000
+intensificaron y comenzaron a observar esta estrella nocturna
+
+230
+0:12:58.12,000 --> 0:12:59,000
+en sus propias instalaciones,
+
+231
+0:12:59.64,000 --> 0:13:01,000
+y estoy muy emocionada de ver lo que encuentran.
+
+232
+0:13:03.52,000 --> 0:13:07,000
+Me sorprende que esta estrella nunca fue detectada por las computadoras
+
+233
+0:13:07.72,000 --> 0:13:09,000
+porque simplemente no buscábamos algo así.
+
+234
+0:13:11.4,000 --> 0:13:15,000
+Y lo que es más emocionante
+
+235
+0:13:15.68,000 --> 0:13:16,000
+es que hay más datos en el futuro.
+
+236
+0:13:18.2,000 --> 0:13:19,000
+Hay nuevas misiones que están surgiendo
+
+237
+0:13:20.2,000 --> 0:13:22,000
+que están observando a millones de estrellas
+
+238
+0:13:23.84,000 --> 0:13:24,000
+por todo el cielo.
+
+239
+0:13:26.28,000 --> 0:13:31,000
+Y piensen: ¿Qué significará cuando nos topemos con otra estrella de esta manera?
+
+240
+0:13:32.52,000 --> 0:13:36,000
+Y ¿qué significa si no encontramos otra estrella de esta manera?
+
+241
+0:13:37.28,000 --> 0:13:38,000
+Gracias.
+
+242
+0:13:38.52,000 --> 0:13:44,000
+(Aplausos)
+

@@ -1,0 +1,608 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Diego Leal Revisor: Gabriela Sellart
+
+2
+0:00:12.16,000 --> 0:00:14,000
+He estado intrigada por esta pregunta
+
+3
+0:00:14.16,000 --> 0:00:17,000
+de si se podría evolucionar o desarrollar un sexto sentido.
+
+4
+0:00:17.16,000 --> 0:00:23,000
+Un sentido que nos daría un acceso fluido
+
+5
+0:00:23.16,000 --> 0:00:26,000
+y fácil a meta-información
+
+6
+0:00:26.16,000 --> 0:00:29,000
+o información que pueda existir en algún lugar
+
+7
+0:00:29.16,000 --> 0:00:32,000
+y que pueda ser relevante para ayudarnos a tomar la decisión correcta
+
+8
+0:00:32.16,000 --> 0:00:35,000
+sobre lo que sea que nos encontremos.
+
+9
+0:00:35.16,000 --> 0:00:38,000
+Y algunos de ustedes pueden argumentar,
+
+10
+0:00:38.16,000 --> 0:00:41,000
+¿acaso los teléfonos celulares actuales no hacen eso ya?
+
+11
+0:00:41.16,000 --> 0:00:43,000
+Pero yo diría que no.
+
+12
+0:00:43.16,000 --> 0:00:45,000
+Cuando conoces a alguien aquí en TED
+
+13
+0:00:45.16,000 --> 0:00:48,000
+-- y este es el lugar más importante del año para el networking, por supuesto --
+
+14
+0:00:48.16,000 --> 0:00:5,000
+no le das un apretón de manos
+
+15
+0:00:50.16,000 --> 0:00:53,000
+y luego le dices: "¿Puede esperar un momento
+
+16
+0:00:53.16,000 --> 0:00:55,000
+mientras tomo mi teléfono y lo busco en Google? "
+
+17
+0:00:55.16,000 --> 0:00:59,000
+O cuando va al supermercado
+
+18
+0:00:59.16,000 --> 0:01:01,000
+y está allí en ese enorme pasillo
+
+19
+0:01:01.16,000 --> 0:01:04,000
+con diferentes tipos de papel higiénico,
+
+20
+0:01:04.16,000 --> 0:01:08,000
+no toma su teléfono celular, abre un navegador,
+
+21
+0:01:08.16,000 --> 0:01:1,000
+y va a un sitio web para tratar de decidir
+
+22
+0:01:10.16,000 --> 0:01:13,000
+cuál de estos diferentes tipos de papel higiénico
+
+23
+0:01:13.16,000 --> 0:01:16,000
+es la compra más ecológicamente responsable que puede hacer.
+
+24
+0:01:16.16,000 --> 0:01:19,000
+Así que en realidad no tenemos fácil acceso
+
+25
+0:01:19.16,000 --> 0:01:21,000
+a toda esta información relevante,
+
+26
+0:01:21.16,000 --> 0:01:24,000
+que puede ayudarnos a optimizar las decisiones
+
+27
+0:01:24.16,000 --> 0:01:27,000
+acerca de qué hacer a continuación y qué medidas tomar.
+
+28
+0:01:27.16,000 --> 0:01:31,000
+Y así, mi grupo de investigación en el Media Lab
+
+29
+0:01:31.16,000 --> 0:01:35,000
+ha venido desarrollando una serie de inventos
+
+30
+0:01:35.16,000 --> 0:01:38,000
+para darnos acceso a esta información
+
+31
+0:01:38.16,000 --> 0:01:4,000
+de una manera, digamos, sencilla,
+
+32
+0:01:40.16,000 --> 0:01:45,000
+sin exigir que el usuario cambie su comportamiento.
+
+33
+0:01:45.16,000 --> 0:01:47,000
+Estoy aquí para develar
+
+34
+0:01:47.16,000 --> 0:01:5,000
+nuestro último esfuerzo,
+
+35
+0:01:50.16,000 --> 0:01:52,000
+el más exitoso hasta la fecha
+
+36
+0:01:52.16,000 --> 0:01:54,000
+que todavía es un trabajo en curso.
+
+37
+0:01:54.16,000 --> 0:01:57,000
+Estoy usando el dispositivo en este momento
+
+38
+0:01:57.16,000 --> 0:02:,000
+y lo hemos ensamblado más o menos
+
+39
+0:02:00.16,000 --> 0:02:03,000
+con componentes listos para ser usados --
+
+40
+0:02:03.16,000 --> 0:02:06,000
+y que cuestan, por cierto, sólo 350 dólares
+
+41
+0:02:06.16,000 --> 0:02:08,000
+en este momento.
+
+42
+0:02:08.16,000 --> 0:02:12,000
+Estoy usando una cámara, una cámara web simple,
+
+43
+0:02:12.16,000 --> 0:02:18,000
+un sistema de proyección portátil alimentado por baterías, con un pequeño espejo.
+
+44
+0:02:18.16,000 --> 0:02:22,000
+Estos componentes se comunican a mi celular en el bolsillo
+
+45
+0:02:22.16,000 --> 0:02:26,000
+que actúa como dispositivo de comunicación y computación.
+
+46
+0:02:26.16,000 --> 0:02:3,000
+Y en este video vemos a mi estudiante Pranav Mistry,
+
+47
+0:02:30.16,000 --> 0:02:33,000
+quien es realmente el genio que ha estado implementando
+
+48
+0:02:33.16,000 --> 0:02:35,000
+y diseñando todo este sistema.
+
+49
+0:02:35.16,000 --> 0:02:37,000
+Y vemos cómo este sistema
+
+50
+0:02:37.16,000 --> 0:02:41,000
+le permite dirigirse a cualquier superficie
+
+51
+0:02:41.16,000 --> 0:02:45,000
+y comenzar a utilizar sus manos para interactuar con la información
+
+52
+0:02:45.16,000 --> 0:02:47,000
+que se proyecta delante de él.
+
+53
+0:02:47.16,000 --> 0:02:51,000
+El sistema realiza un seguimiento de los cuatro dedos más significativos.
+
+54
+0:02:51.16,000 --> 0:02:55,000
+En este caso, él está usando unas pequeñas tapas de marcadores
+
+55
+0:02:55.16,000 --> 0:02:57,000
+que ustedes pueden reconocer.
+
+56
+0:02:57.16,000 --> 0:02:59,000
+Pero si quieren una versión más elegante
+
+57
+0:02:59.16,000 --> 0:03:03,000
+también pueden pintar sus uñas con colores diferentes.
+
+58
+0:03:03.16,000 --> 0:03:07,000
+Y la cámara, básicamente, sigue estos cuatro dedos
+
+59
+0:03:07.16,000 --> 0:03:1,000
+y reconoce cualquier gesto que él hace
+
+60
+0:03:10.16,000 --> 0:03:15,000
+así que puede ir, por ejemplo, a un mapa de Long Beach,
+
+61
+0:03:15.16,000 --> 0:03:17,000
+acercarlo y alejarlo, etc.
+
+62
+0:03:17.16,000 --> 0:03:2,000
+El sistema también reconoce gestos icónicos
+
+63
+0:03:20.16,000 --> 0:03:23,000
+como el gesto de tomar una foto,
+
+64
+0:03:23.16,000 --> 0:03:26,000
+y toma una foto de lo que está frente a ti.
+
+65
+0:03:26.16,000 --> 0:03:3,000
+Y luego, cuando camina de vuelta al Media Lab,
+
+66
+0:03:30.16,000 --> 0:03:32,000
+él puede acercarse a cualquier pared
+
+67
+0:03:32.16,000 --> 0:03:35,000
+y proyectar todas las imágenes que ha tomado,
+
+68
+0:03:35.16,000 --> 0:03:37,000
+navegar por ellas y organizarlas,
+
+69
+0:03:37.16,000 --> 0:03:39,000
+cambiar su tamaño, etc.,
+
+70
+0:03:39.16,000 --> 0:03:42,000
+usando, de nuevo, sólo gestos naturales.
+
+71
+0:03:42.16,000 --> 0:03:46,000
+Algunos de ustedes muy probablemente estaban aquí hace dos años
+
+72
+0:03:46.16,000 --> 0:03:51,000
+y vieron la demostración de Jeff Han
+
+73
+0:03:51.16,000 --> 0:03:54,000
+o algunos pueden pensar "Bueno, ¿esto no es parecido a lo que hace la mesa de Microsoft Surface?"
+
+74
+0:03:54.16,000 --> 0:03:59,000
+Y sí, también interactúan mediante gestos naturales,
+
+75
+0:03:59.16,000 --> 0:04:01,000
+ambas manos, etc.
+
+76
+0:04:01.16,000 --> 0:04:04,000
+Pero la diferencia aquí es que se puede utilizar cualquier superficie,
+
+77
+0:04:04.16,000 --> 0:04:07,000
+se puede caminar hacia cualquier superficie,
+
+78
+0:04:07.16,000 --> 0:04:1,000
+incluida su mano si no hay nada más disponible
+
+79
+0:04:10.16,000 --> 0:04:13,000
+e interactuar con los datos proyectados.
+
+80
+0:04:13.16,000 --> 0:04:16,000
+El dispositivo es totalmente portátil,
+
+81
+0:04:16.16,000 --> 0:04:18,000
+y puede ser ...
+
+82
+0:04:18.16,000 --> 0:04:25,000
+(Aplausos)
+
+83
+0:04:25.16,000 --> 0:04:29,000
+Así que una diferencia importante es que es totalmente móvil.
+
+84
+0:04:29.16,000 --> 0:04:33,000
+Otra diferencia aún más importante es que en la producción en masa
+
+85
+0:04:33.16,000 --> 0:04:37,000
+esto no costaría mañana más de lo que cuestan hoy los teléfonos celulares
+
+86
+0:04:37.16,000 --> 0:04:41,000
+y en realidad no requeriría un embalaje más grande --
+
+87
+0:04:41.16,000 --> 0:04:43,000
+podría verse mucho más elegante
+
+88
+0:04:43.16,000 --> 0:04:46,000
+que esta versión que estoy usando en mi cuello.
+
+89
+0:04:46.16,000 --> 0:04:52,000
+Pero más allá de dejar que algunos de ustedes vivan su fantasía
+
+90
+0:04:52.16,000 --> 0:04:56,000
+de verse tan sofisticados como Tom Cruise en "Minority Report",
+
+91
+0:04:56.16,000 --> 0:05:,000
+la razón por la que estamos realmente entusiasmados con este dispositivo
+
+92
+0:05:00.16,000 --> 0:05:06,000
+es que realmente puede actuar como uno de estos dispositivos de sexto sentido
+
+93
+0:05:06.16,000 --> 0:05:09,000
+que le da información pertinente
+
+94
+0:05:09.16,000 --> 0:05:11,000
+acerca de lo que sea que esté delante suyo.
+
+95
+0:05:11.16,000 --> 0:05:16,000
+Así que vemos aquí a Pranav entrar en el supermercado,
+
+96
+0:05:16.16,000 --> 0:05:19,000
+para comprar algunas toallas de papel.
+
+97
+0:05:19.16,000 --> 0:05:22,000
+Cuando él toma un producto el sistema puede reconocer
+
+98
+0:05:22.16,000 --> 0:05:24,000
+el producto que está sosteniendo
+
+99
+0:05:24.16,000 --> 0:05:28,000
+usando ya sea reconocimiento de imágenes o tecnología de marcado,
+
+100
+0:05:28.16,000 --> 0:05:31,000
+y darle una luz verde o una luz naranja.
+
+101
+0:05:31.16,000 --> 0:05:34,000
+Se puede solicitar información adicional.
+
+102
+0:05:34.16,000 --> 0:05:38,000
+Así que aquí esta elección
+
+103
+0:05:38.16,000 --> 0:05:42,000
+es una opción especialmente buena, dados sus criterios personales.
+
+104
+0:05:42.16,000 --> 0:05:46,000
+Algunos de ustedes podrían querer que sus toallas de papel tengan más blanqueador
+
+105
+0:05:46.16,000 --> 0:05:49,000
+en lugar de la opción más responsable desde el punto de vista ecológico.
+
+106
+0:05:49.16,000 --> 0:05:52,000
+(Risas)
+
+107
+0:05:52.16,000 --> 0:05:55,000
+Si toma un libro en la librería,
+
+108
+0:05:55.16,000 --> 0:05:57,000
+puede obtener la calificación de Amazon.
+
+109
+0:05:57.16,000 --> 0:05:59,000
+Se proyecta directamente en la portada del libro.
+
+110
+0:05:59.16,000 --> 0:06:04,000
+El libro es de Juan, nuestro orador anterior,
+
+111
+0:06:04.16,000 --> 0:06:06,000
+que tiene una gran calificación, por cierto, en Amazon.
+
+112
+0:06:06.16,000 --> 0:06:09,000
+Y así, Pranav pasa la página del libro
+
+113
+0:06:09.16,000 --> 0:06:12,000
+y puede ver información adicional sobre él --
+
+114
+0:06:12.16,000 --> 0:06:19,000
+comentarios de los lectores, tal vez alguna información de su crítico favorito, etc.
+
+115
+0:06:19.16,000 --> 0:06:21,000
+Si va a una página específica
+
+116
+0:06:21.16,000 --> 0:06:25,000
+encuentra una anotación por un experto o por un amigo nuestro
+
+117
+0:06:25.16,000 --> 0:06:27,000
+que le da un poco de información adicional
+
+118
+0:06:27.16,000 --> 0:06:3,000
+acerca de lo que sea que haya en esa página en particular.
+
+119
+0:06:30.16,000 --> 0:06:32,000
+Leer el periódico --
+
+120
+0:06:32.16,000 --> 0:06:35,000
+nunca tendría que ser obsoleto.
+
+121
+0:06:35.16,000 --> 0:06:37,000
+(Risas)
+
+122
+0:06:37.16,000 --> 0:06:41,000
+Usted puede conseguir las anotaciones de video del evento sobre el que está leyendo.
+
+123
+0:06:41.16,000 --> 0:06:45,000
+Puede obtener los últimos resultados deportivos, etc.
+
+124
+0:06:45.16,000 --> 0:06:48,000
+Este es uno un poco más controversial.
+
+125
+0:06:48.16,000 --> 0:06:49,000
+(Risas)
+
+126
+0:06:49.16,000 --> 0:06:52,000
+Mientras interactúa con alguien en TED,
+
+127
+0:06:52.16,000 --> 0:06:56,000
+tal vez podría ver una nube de palabras de las etiquetas,
+
+128
+0:06:56.16,000 --> 0:06:58,000
+las palabras que están asociadas con esa persona
+
+129
+0:06:58.16,000 --> 0:07:01,000
+en su blog y páginas web personales.
+
+130
+0:07:01.16,000 --> 0:07:06,000
+En este caso, el estudiante está interesado en cámaras, etc.
+
+131
+0:07:06.16,000 --> 0:07:08,000
+En el camino al aeropuerto,
+
+132
+0:07:08.16,000 --> 0:07:12,000
+si usted toma su tarjeta de embarque, puede decirle que su vuelo se retrasa,
+
+133
+0:07:12.16,000 --> 0:07:15,000
+que ha cambiado la puerta, etc.
+
+134
+0:07:15.16,000 --> 0:07:18,000
+Y, si lo que necesita saber es cuál es la hora actual
+
+135
+0:07:18.16,000 --> 0:07:22,000
+es tan simple como dibujar un reloj --
+
+136
+0:07:22.16,000 --> 0:07:23,000
+(Risas)
+
+137
+0:07:23.16,000 --> 0:07:24,000
+(Aplausos)
+
+138
+0:07:24.16,000 --> 0:07:26,000
+en su brazo.
+
+139
+0:07:26.16,000 --> 0:07:3,000
+De modo que es donde nos encontramos de momento
+
+140
+0:07:30.16,000 --> 0:07:34,000
+en el desarrollo de este sexto sentido,
+
+141
+0:07:34.16,000 --> 0:07:38,000
+que nos daría un acceso fluido a toda esta información pertinente
+
+142
+0:07:38.16,000 --> 0:07:41,000
+acerca de las cosas con las que nos podemos encontrar.
+
+143
+0:07:41.16,000 --> 0:07:45,000
+Mi estudiante Pranav, quien es realmente, como he dicho, el genio detrás de esto.
+
+144
+0:07:45.16,000 --> 0:08:08,000
+(Aplausos)
+
+145
+0:08:08.16,000 --> 0:08:11,000
+El merece un montón de aplausos
+
+146
+0:08:11.16,000 --> 0:08:15,000
+porque no creo que haya dormido mucho en los últimos tres meses, en realidad.
+
+147
+0:08:15.16,000 --> 0:08:18,000
+Y su novia, probablemente, tampoco está muy feliz con él.
+
+148
+0:08:18.16,000 --> 0:08:23,000
+No es perfecto todavía, es en gran medida un trabajo en progreso
+
+149
+0:08:23.16,000 --> 0:08:26,000
+Y quién sabe, tal vez en 10 años
+
+150
+0:08:26.16,000 --> 0:08:31,000
+vamos a estar aquí con el máximo implante cerebral de sexto sentido.
+
+151
+0:08:31.16,000 --> 0:08:32,000
+Gracias.
+
+152
+0:08:32.16,000 --> 0:08:36,000
+(Aplausos)
+

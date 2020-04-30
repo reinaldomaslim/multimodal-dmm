@@ -1,0 +1,1248 @@
+1
+0:00:12.76,000 --> 0:00:13,000
+This is Pleurobot.
+
+2
+0:00:15.4,000 --> 0:00:18,000
+Pleurobot is a robot that we designed to closely mimic a salamander species
+
+3
+0:00:19.04,000 --> 0:00:2,000
+called Pleurodeles waltl.
+
+4
+0:00:21.24,000 --> 0:00:23,000
+Pleurobot can walk, as you can see here,
+
+5
+0:00:23.52,000 --> 0:00:25,000
+and as you'll see later, it can also swim.
+
+6
+0:00:26.28,000 --> 0:00:28,000
+So you might ask, why did we design this robot?
+
+7
+0:00:28.96,000 --> 0:00:31,000
+And in fact, this robot has been designed as a scientific tool for neuroscience.
+
+8
+0:00:33.4,000 --> 0:00:35,000
+Indeed, we designed it together with neurobiologists
+
+9
+0:00:35.92,000 --> 0:00:36,000
+to understand how animals move,
+
+10
+0:00:37.84,000 --> 0:00:39,000
+and especially how the spinal cord controls locomotion.
+
+11
+0:00:41.56,000 --> 0:00:42,000
+But the more I work in biorobotics,
+
+12
+0:00:43.28,000 --> 0:00:45,000
+the more I'm really impressed by animal locomotion.
+
+13
+0:00:45.92,000 --> 0:00:49,000
+If you think of a dolphin swimming or a cat running or jumping around,
+
+14
+0:00:50.24,000 --> 0:00:51,000
+or even us as humans,
+
+15
+0:00:51.84,000 --> 0:00:52,000
+when you go jogging or play tennis,
+
+16
+0:00:53.68,000 --> 0:00:54,000
+we do amazing things.
+
+17
+0:00:55.88,000 --> 0:00:59,000
+And in fact, our nervous system solves a very, very complex control problem.
+
+18
+0:01:00.04,000 --> 0:01:03,000
+It has to coordinate more or less 200 muscles perfectly,
+
+19
+0:01:03.16,000 --> 0:01:06,000
+because if the coordination is bad, we fall over or we do bad locomotion.
+
+20
+0:01:07.56,000 --> 0:01:09,000
+And my goal is to understand how this works.
+
+21
+0:01:11.16,000 --> 0:01:13,000
+There are four main components behind animal locomotion.
+
+22
+0:01:14.8,000 --> 0:01:15,000
+The first component is just the body,
+
+23
+0:01:16.76,000 --> 0:01:17,000
+and in fact we should never underestimate
+
+24
+0:01:18.76,000 --> 0:01:21,000
+to what extent the biomechanics already simplify locomotion in animals.
+
+25
+0:01:22.92,000 --> 0:01:23,000
+Then you have the spinal cord,
+
+26
+0:01:24.4,000 --> 0:01:25,000
+and in the spinal cord you find reflexes,
+
+27
+0:01:26.4,000 --> 0:01:29,000
+multiple reflexes that create a sensorimotor coordination loop
+
+28
+0:01:29.88,000 --> 0:01:32,000
+between neural activity in the spinal cord and mechanical activity.
+
+29
+0:01:34,000 --> 0:01:36,000
+A third component are central pattern generators.
+
+30
+0:01:37,000 --> 0:01:4,000
+These are very interesting circuits in the spinal cord of vertebrate animals
+
+31
+0:01:40.92,000 --> 0:01:41,000
+that can generate, by themselves,
+
+32
+0:01:42.56,000 --> 0:01:44,000
+very coordinated rhythmic patterns of activity
+
+33
+0:01:45.32,000 --> 0:01:47,000
+while receiving only very simple input signals.
+
+34
+0:01:47.72,000 --> 0:01:48,000
+And these input signals
+
+35
+0:01:48.96,000 --> 0:01:51,000
+coming from descending modulation from higher parts of the brain,
+
+36
+0:01:52.04,000 --> 0:01:54,000
+like the motor cortex, the cerebellum, the basal ganglia,
+
+37
+0:01:54.76,000 --> 0:01:56,000
+will all modulate activity of the spinal cord
+
+38
+0:01:56.92,000 --> 0:01:57,000
+while we do locomotion.
+
+39
+0:01:58.4,000 --> 0:02:01,000
+But what's interesting is to what extent just a low-level component,
+
+40
+0:02:01.64,000 --> 0:02:02,000
+the spinal cord, together with the body,
+
+41
+0:02:03.6,000 --> 0:02:05,000
+already solve a big part of the locomotion problem.
+
+42
+0:02:06.08,000 --> 0:02:09,000
+You probably know it by the fact that you can cut the head off a chicken,
+
+43
+0:02:09.532,000 --> 0:02:1,000
+it can still run for a while,
+
+44
+0:02:10.937,000 --> 0:02:12,000
+showing that just the lower part, spinal cord and body,
+
+45
+0:02:13.5,000 --> 0:02:14,000
+already solve a big part of locomotion.
+
+46
+0:02:15.397,000 --> 0:02:17,000
+Now, understanding how this works is very complex,
+
+47
+0:02:17.88,000 --> 0:02:18,000
+because first of all,
+
+48
+0:02:19.2,000 --> 0:02:21,000
+recording activity in the spinal cord is very difficult.
+
+49
+0:02:21.844,000 --> 0:02:23,000
+It's much easier to implant electrodes in the motor cortex
+
+50
+0:02:24.64,000 --> 0:02:27,000
+than in the spinal cord, because it's protected by the vertebrae.
+
+51
+0:02:27.72,000 --> 0:02:28,000
+Especially in humans, very hard to do.
+
+52
+0:02:29.56,000 --> 0:02:32,000
+A second difficulty is that locomotion is really due to a very complex
+
+53
+0:02:33.36,000 --> 0:02:36,000
+and very dynamic interaction between these four components.
+
+54
+0:02:36.44,000 --> 0:02:39,000
+So it's very hard to find out what's the role of each over time.
+
+55
+0:02:40.88,000 --> 0:02:43,000
+This is where biorobots like Pleurobot and mathematical models
+
+56
+0:02:44.64,000 --> 0:02:45,000
+can really help.
+
+57
+0:02:47.48,000 --> 0:02:48,000
+So what's biorobotics?
+
+58
+0:02:48.76,000 --> 0:02:5,000
+Biorobotics is a very active field of research in robotics
+
+59
+0:02:51.52,000 --> 0:02:53,000
+where people want to take inspiration from animals
+
+60
+0:02:54,000 --> 0:02:56,000
+to make robots to go outdoors,
+
+61
+0:02:56.48,000 --> 0:02:58,000
+like service robots or search and rescue robots
+
+62
+0:02:59.16,000 --> 0:03:,000
+or field robots.
+
+63
+0:03:00.88,000 --> 0:03:02,000
+And the big goal here is to take inspiration from animals
+
+64
+0:03:03.6,000 --> 0:03:05,000
+to make robots that can handle complex terrain --
+
+65
+0:03:05.96,000 --> 0:03:06,000
+stairs, mountains, forests,
+
+66
+0:03:07.6,000 --> 0:03:09,000
+places where robots still have difficulties
+
+67
+0:03:09.64,000 --> 0:03:11,000
+and where animals can do a much better job.
+
+68
+0:03:11.72,000 --> 0:03:13,000
+The robot can be a wonderful scientific tool as well.
+
+69
+0:03:14.24,000 --> 0:03:16,000
+There are some very nice projects where robots are used,
+
+70
+0:03:16.884,000 --> 0:03:19,000
+like a scientific tool for neuroscience, for biomechanics or for hydrodynamics.
+
+71
+0:03:20.88,000 --> 0:03:22,000
+And this is exactly the purpose of Pleurobot.
+
+72
+0:03:23.6,000 --> 0:03:25,000
+So what we do in my lab is to collaborate with neurobiologists
+
+73
+0:03:26.56,000 --> 0:03:29,000
+like Jean-Marie Cabelguen, a neurobiologist in Bordeaux in France,
+
+74
+0:03:29.8,000 --> 0:03:33,000
+and we want to make spinal cord models and validate them on robots.
+
+75
+0:03:34.48,000 --> 0:03:35,000
+And here we want to start simple.
+
+76
+0:03:36.12,000 --> 0:03:37,000
+So it's good to start with simple animals
+
+77
+0:03:38.12,000 --> 0:03:4,000
+like lampreys, which are very primitive fish,
+
+78
+0:03:40.4,000 --> 0:03:42,000
+and then gradually go toward more complex locomotion,
+
+79
+0:03:42.92,000 --> 0:03:43,000
+like in salamanders,
+
+80
+0:03:44.2,000 --> 0:03:45,000
+but also in cats and in humans,
+
+81
+0:03:45.72,000 --> 0:03:46,000
+in mammals.
+
+82
+0:03:47.88,000 --> 0:03:49,000
+And here, a robot becomes an interesting tool
+
+83
+0:03:50.28,000 --> 0:03:51,000
+to validate our models.
+
+84
+0:03:52.24,000 --> 0:03:55,000
+And in fact, for me, Pleurobot is a kind of dream becoming true.
+
+85
+0:03:55.28,000 --> 0:03:58,000
+Like, more or less 20 years ago I was already working on a computer
+
+86
+0:03:58.56,000 --> 0:04:,000
+making simulations of lamprey and salamander locomotion
+
+87
+0:04:01.24,000 --> 0:04:02,000
+during my PhD.
+
+88
+0:04:02.8,000 --> 0:04:05,000
+But I always knew that my simulations were just approximations.
+
+89
+0:04:06.2,000 --> 0:04:09,000
+Like, simulating the physics in water or with mud or with complex ground,
+
+90
+0:04:10.2,000 --> 0:04:12,000
+it's very hard to simulate that properly on a computer.
+
+91
+0:04:12.88,000 --> 0:04:14,000
+Why not have a real robot and real physics?
+
+92
+0:04:15.6,000 --> 0:04:18,000
+So among all these animals, one of my favorites is the salamander.
+
+93
+0:04:18.76,000 --> 0:04:21,000
+You might ask why, and it's because as an amphibian,
+
+94
+0:04:22.24,000 --> 0:04:24,000
+it's a really key animal from an evolutionary point of view.
+
+95
+0:04:25.12,000 --> 0:04:27,000
+It makes a wonderful link between swimming,
+
+96
+0:04:27.2,000 --> 0:04:28,000
+as you find it in eels or fish,
+
+97
+0:04:29.12,000 --> 0:04:33,000
+and quadruped locomotion, as you see in mammals, in cats and humans.
+
+98
+0:04:34.16,000 --> 0:04:35,000
+And in fact, the modern salamander
+
+99
+0:04:35.84,000 --> 0:04:37,000
+is very close to the first terrestrial vertebrate,
+
+100
+0:04:38.24,000 --> 0:04:39,000
+so it's almost a living fossil,
+
+101
+0:04:39.8,000 --> 0:04:4,000
+which gives us access to our ancestor,
+
+102
+0:04:41.76,000 --> 0:04:43,000
+the ancestor to all terrestrial tetrapods.
+
+103
+0:04:45.24,000 --> 0:04:46,000
+So the salamander swims
+
+104
+0:04:46.64,000 --> 0:04:48,000
+by doing what's called an anguilliform swimming gait,
+
+105
+0:04:49.16,000 --> 0:04:52,000
+so they propagate a nice traveling wave of muscle activity from head to tail.
+
+106
+0:04:53.44,000 --> 0:04:55,000
+And if you place the salamander on the ground,
+
+107
+0:04:55.64,000 --> 0:04:57,000
+it switches to what's called a walking trot gait.
+
+108
+0:04:58,000 --> 0:05:,000
+In this case, you have nice periodic activation of the limbs
+
+109
+0:05:00.887,000 --> 0:05:01,000
+which are very nicely coordinated
+
+110
+0:05:02.52,000 --> 0:05:04,000
+with this standing wave undulation of the body,
+
+111
+0:05:05.2,000 --> 0:05:08,000
+and that's exactly the gait that you are seeing here on Pleurobot.
+
+112
+0:05:08.88,000 --> 0:05:1,000
+Now, one thing which is very surprising and fascinating in fact
+
+113
+0:05:11.88,000 --> 0:05:15,000
+is the fact that all this can be generated just by the spinal cord and the body.
+
+114
+0:05:16.04,000 --> 0:05:18,000
+So if you take a decerebrated salamander --
+
+115
+0:05:18.064,000 --> 0:05:2,000
+it's not so nice but you remove the head --
+
+116
+0:05:20.104,000 --> 0:05:22,000
+and if you electrically stimulate the spinal cord,
+
+117
+0:05:22.8,000 --> 0:05:25,000
+at low level of stimulation this will induce a walking-like gait.
+
+118
+0:05:26.08,000 --> 0:05:28,000
+If you stimulate a bit more, the gait accelerates.
+
+119
+0:05:28.56,000 --> 0:05:29,000
+And at some point, there's a threshold,
+
+120
+0:05:30.48,000 --> 0:05:32,000
+and automatically, the animal switches to swimming.
+
+121
+0:05:33.04,000 --> 0:05:34,000
+This is amazing.
+
+122
+0:05:34.44,000 --> 0:05:35,000
+Just changing the global drive,
+
+123
+0:05:35.96,000 --> 0:05:36,000
+as if you are pressing the gas pedal
+
+124
+0:05:37.72,000 --> 0:05:39,000
+of descending modulation to your spinal cord,
+
+125
+0:05:39.88,000 --> 0:05:42,000
+makes a complete switch between two very different gaits.
+
+126
+0:05:44.44,000 --> 0:05:46,000
+And in fact, the same has been observed in cats.
+
+127
+0:05:47.04,000 --> 0:05:49,000
+If you stimulate the spinal cord of a cat,
+
+128
+0:05:49.08,000 --> 0:05:51,000
+you can switch between walk, trot and gallop.
+
+129
+0:05:51.32,000 --> 0:05:53,000
+Or in birds, you can make a bird switch between walking,
+
+130
+0:05:54.08,000 --> 0:05:55,000
+at a low level of stimulation,
+
+131
+0:05:55.56,000 --> 0:05:57,000
+and flapping its wings at high-level stimulation.
+
+132
+0:05:58.4,000 --> 0:06:,000
+And this really shows that the spinal cord
+
+133
+0:06:00.44,000 --> 0:06:02,000
+is a very sophisticated locomotion controller.
+
+134
+0:06:02.88,000 --> 0:06:04,000
+So we studied salamander locomotion in more detail,
+
+135
+0:06:05.36,000 --> 0:06:08,000
+and we had in fact access to a very nice X-ray video machine
+
+136
+0:06:08.48,000 --> 0:06:11,000
+from Professor Martin Fischer in Jena University in Germany.
+
+137
+0:06:12.08,000 --> 0:06:14,000
+And thanks to that, you really have an amazing machine
+
+138
+0:06:14.68,000 --> 0:06:16,000
+to record all the bone motion in great detail.
+
+139
+0:06:17.16,000 --> 0:06:18,000
+That's what we did.
+
+140
+0:06:18.44,000 --> 0:06:21,000
+So we basically figured out which bones are important for us
+
+141
+0:06:21.64,000 --> 0:06:24,000
+and collected their motion in 3D.
+
+142
+0:06:24.68,000 --> 0:06:26,000
+And what we did is collect a whole database of motions,
+
+143
+0:06:27.4,000 --> 0:06:28,000
+both on ground and in water,
+
+144
+0:06:29.08,000 --> 0:06:31,000
+to really collect a whole database of motor behaviors
+
+145
+0:06:31.589,000 --> 0:06:32,000
+that a real animal can do.
+
+146
+0:06:32.858,000 --> 0:06:35,000
+And then our job as roboticists was to replicate that in our robot.
+
+147
+0:06:36.033,000 --> 0:06:39,000
+So we did a whole optimization process to find out the right structure,
+
+148
+0:06:39.44,000 --> 0:06:41,000
+where to place the motors, how to connect them together,
+
+149
+0:06:42.12,000 --> 0:06:44,000
+to be able to replay these motions as well as possible.
+
+150
+0:06:45.68,000 --> 0:06:47,000
+And this is how Pleurobot came to life.
+
+151
+0:06:49.2,000 --> 0:06:51,000
+So let's look at how close it is to the real animal.
+
+152
+0:06:52.96,000 --> 0:06:54,000
+So what you see here is almost a direct comparison
+
+153
+0:06:55.48,000 --> 0:06:57,000
+between the walking of the real animal and the Pleurobot.
+
+154
+0:06:58.2,000 --> 0:07:,000
+You can see that we have almost a one-to-one exact replay
+
+155
+0:07:00.96,000 --> 0:07:01,000
+of the walking gait.
+
+156
+0:07:02.24,000 --> 0:07:04,000
+If you go backwards and slowly, you see it even better.
+
+157
+0:07:07.52,000 --> 0:07:09,000
+But even better, we can do swimming.
+
+158
+0:07:09.92,000 --> 0:07:12,000
+So for that we have a dry suit that we put all over the robot --
+
+159
+0:07:12.96,000 --> 0:07:13,000
+(Laughter)
+
+160
+0:07:14.08,000 --> 0:07:17,000
+and then we can go in water and start replaying the swimming gaits.
+
+161
+0:07:17.28,000 --> 0:07:2,000
+And here, we were very happy, because this is difficult to do.
+
+162
+0:07:20.64,000 --> 0:07:22,000
+The physics of interaction are complex.
+
+163
+0:07:22.88,000 --> 0:07:24,000
+Our robot is much bigger than a small animal,
+
+164
+0:07:25.32,000 --> 0:07:28,000
+so we had to do what's called dynamic scaling of the frequencies
+
+165
+0:07:28.4,000 --> 0:07:3,000
+to make sure we had the same interaction physics.
+
+166
+0:07:30.76,000 --> 0:07:32,000
+But you see at the end, we have a very close match,
+
+167
+0:07:33.2,000 --> 0:07:34,000
+and we were very, very happy with this.
+
+168
+0:07:35.48,000 --> 0:07:37,000
+So let's go to the spinal cord.
+
+169
+0:07:37.72,000 --> 0:07:39,000
+So here what we did with Jean-Marie Cabelguen
+
+170
+0:07:40.04,000 --> 0:07:42,000
+is model the spinal cord circuits.
+
+171
+0:07:43.04,000 --> 0:07:45,000
+And what's interesting is that the salamander
+
+172
+0:07:45.2,000 --> 0:07:46,000
+has kept a very primitive circuit,
+
+173
+0:07:46.844,000 --> 0:07:48,000
+which is very similar to the one we find in the lamprey,
+
+174
+0:07:49.52,000 --> 0:07:5,000
+this primitive eel-like fish,
+
+175
+0:07:51.52,000 --> 0:07:52,000
+and it looks like during evolution,
+
+176
+0:07:53.28,000 --> 0:07:55,000
+new neural oscillators have been added to control the limbs,
+
+177
+0:07:56.24,000 --> 0:07:57,000
+to do the leg locomotion.
+
+178
+0:07:57.68,000 --> 0:07:59,000
+And we know where these neural oscillators are
+
+179
+0:07:59.88,000 --> 0:08:01,000
+but what we did was to make a mathematical model
+
+180
+0:08:02.16,000 --> 0:08:03,000
+to see how they should be coupled
+
+181
+0:08:03.8,000 --> 0:08:05,000
+to allow this transition between the two very different gaits.
+
+182
+0:08:06.76,000 --> 0:08:08,000
+And we tested that on board of a robot.
+
+183
+0:08:09.68,000 --> 0:08:1,000
+And this is how it looks.
+
+184
+0:08:18.92,000 --> 0:08:21,000
+So what you see here is a previous version of Pleurobot
+
+185
+0:08:21.96,000 --> 0:08:24,000
+that's completely controlled by our spinal cord model
+
+186
+0:08:25.08,000 --> 0:08:26,000
+programmed on board of the robot.
+
+187
+0:08:27.28,000 --> 0:08:28,000
+And the only thing we do
+
+188
+0:08:28.52,000 --> 0:08:3,000
+is send to the robot through a remote control
+
+189
+0:08:30.72,000 --> 0:08:32,000
+the two descending signals it normally should receive
+
+190
+0:08:33.24,000 --> 0:08:34,000
+from the upper part of the brain.
+
+191
+0:08:35.48,000 --> 0:08:37,000
+And what's interesting is, by playing with these signals,
+
+192
+0:08:38.2,000 --> 0:08:4,000
+we can completely control speed, heading and type of gait.
+
+193
+0:08:41.6,000 --> 0:08:42,000
+For instance,
+
+194
+0:08:42.84,000 --> 0:08:45,000
+when we stimulate at a low level, we have the walking gait,
+
+195
+0:08:46.44,000 --> 0:08:47,000
+and at some point, if we stimulate a lot,
+
+196
+0:08:48.44,000 --> 0:08:5,000
+very rapidly it switches to the swimming gait.
+
+197
+0:08:51.48,000 --> 0:08:53,000
+And finally, we can also do turning very nicely
+
+198
+0:08:53.72,000 --> 0:08:56,000
+by just stimulating more one side of the spinal cord than the other.
+
+199
+0:08:58.2,000 --> 0:08:59,000
+And I think it's really beautiful
+
+200
+0:08:59.84,000 --> 0:09:01,000
+how nature has distributed control
+
+201
+0:09:02.12,000 --> 0:09:04,000
+to really give a lot of responsibility to the spinal cord
+
+202
+0:09:05,000 --> 0:09:08,000
+so that the upper part of the brain doesn't need to worry about every muscle.
+
+203
+0:09:08.68,000 --> 0:09:1,000
+It just has to worry about this high-level modulation,
+
+204
+0:09:11.24,000 --> 0:09:14,000
+and it's really the job of the spinal cord to coordinate all the muscles.
+
+205
+0:09:14.84,000 --> 0:09:17,000
+So now let's go to cat locomotion and the importance of biomechanics.
+
+206
+0:09:19.08,000 --> 0:09:2,000
+So this is another project
+
+207
+0:09:20.36,000 --> 0:09:22,000
+where we studied cat biomechanics,
+
+208
+0:09:22.8,000 --> 0:09:25,000
+and we wanted to see how much the morphology helps locomotion.
+
+209
+0:09:26.72,000 --> 0:09:29,000
+And we found three important criteria in the properties,
+
+210
+0:09:30.36,000 --> 0:09:31,000
+basically, of the limbs.
+
+211
+0:09:32.32,000 --> 0:09:33,000
+The first one is that a cat limb
+
+212
+0:09:34.32,000 --> 0:09:36,000
+more or less looks like a pantograph-like structure.
+
+213
+0:09:37.04,000 --> 0:09:39,000
+So a pantograph is a mechanical structure
+
+214
+0:09:39.28,000 --> 0:09:42,000
+which keeps the upper segment and the lower segments always parallel.
+
+215
+0:09:43.6,000 --> 0:09:46,000
+So a simple geometrical system that kind of coordinates a bit
+
+216
+0:09:46.72,000 --> 0:09:47,000
+the internal movement of the segments.
+
+217
+0:09:48.56,000 --> 0:09:51,000
+A second property of cat limbs is that they are very lightweight.
+
+218
+0:09:51.64,000 --> 0:09:52,000
+Most of the muscles are in the trunk,
+
+219
+0:09:53.52,000 --> 0:09:55,000
+which is a good idea, because then the limbs have low inertia
+
+220
+0:09:56.44,000 --> 0:09:57,000
+and can be moved very rapidly.
+
+221
+0:09:58.24,000 --> 0:10:01,000
+The last final important property is this very elastic behavior of the cat limb,
+
+222
+0:10:02.08,000 --> 0:10:04,000
+so to handle impacts and forces.
+
+223
+0:10:04.76,000 --> 0:10:06,000
+And this is how we designed Cheetah-Cub.
+
+224
+0:10:07.12,000 --> 0:10:09,000
+So let's invite Cheetah-Cub onstage.
+
+225
+0:10:14.16,000 --> 0:10:17,000
+So this is Peter Eckert, who does his PhD on this robot,
+
+226
+0:10:17.84,000 --> 0:10:19,000
+and as you see, it's a cute little robot.
+
+227
+0:10:19.92,000 --> 0:10:2,000
+It looks a bit like a toy,
+
+228
+0:10:21.2,000 --> 0:10:23,000
+but it was really used as a scientific tool
+
+229
+0:10:23.28,000 --> 0:10:26,000
+to investigate these properties of the legs of the cat.
+
+230
+0:10:26.6,000 --> 0:10:28,000
+So you see, it's very compliant, very lightweight,
+
+231
+0:10:29.24,000 --> 0:10:3,000
+and also very elastic,
+
+232
+0:10:30.52,000 --> 0:10:32,000
+so you can easily press it down and it will not break.
+
+233
+0:10:33.32,000 --> 0:10:34,000
+It will just jump, in fact.
+
+234
+0:10:34.8,000 --> 0:10:36,000
+And this very elastic property is also very important.
+
+235
+0:10:39.16,000 --> 0:10:4,000
+And you also see a bit these properties
+
+236
+0:10:41.08,000 --> 0:10:43,000
+of these three segments of the leg as pantograph.
+
+237
+0:10:44.28,000 --> 0:10:46,000
+Now, what's interesting is that this quite dynamic gait
+
+238
+0:10:47.08,000 --> 0:10:48,000
+is obtained purely in open loop,
+
+239
+0:10:49,000 --> 0:10:52,000
+meaning no sensors, no complex feedback loops.
+
+240
+0:10:52.16,000 --> 0:10:54,000
+And that's interesting, because it means
+
+241
+0:10:54.6,000 --> 0:10:58,000
+that just the mechanics already stabilized this quite rapid gait,
+
+242
+0:10:58.64,000 --> 0:11:02,000
+and that really good mechanics already basically simplify locomotion.
+
+243
+0:11:02.84,000 --> 0:11:05,000
+To the extent that we can even disturb a bit locomotion,
+
+244
+0:11:06.16,000 --> 0:11:07,000
+as you will see in the next video,
+
+245
+0:11:07.84,000 --> 0:11:1,000
+where we can for instance do some exercise where we have the robot go down a step,
+
+246
+0:11:11.76,000 --> 0:11:12,000
+and the robot will not fall over,
+
+247
+0:11:13.4,000 --> 0:11:14,000
+which was a surprise for us.
+
+248
+0:11:15,000 --> 0:11:16,000
+This is a small perturbation.
+
+249
+0:11:16.44,000 --> 0:11:18,000
+I was expecting the robot to immediately fall over,
+
+250
+0:11:18.88,000 --> 0:11:2,000
+because there are no sensors, no fast feedback loop.
+
+251
+0:11:21.34,000 --> 0:11:23,000
+But no, just the mechanics stabilized the gait,
+
+252
+0:11:23.56,000 --> 0:11:24,000
+and the robot doesn't fall over.
+
+253
+0:11:25.16,000 --> 0:11:28,000
+Obviously, if you make the step bigger, and if you have obstacles,
+
+254
+0:11:28.32,000 --> 0:11:31,000
+you need the full control loops and reflexes and everything.
+
+255
+0:11:32,000 --> 0:11:34,000
+But what's important here is that just for small perturbation,
+
+256
+0:11:34.96,000 --> 0:11:35,000
+the mechanics are right.
+
+257
+0:11:36.48,000 --> 0:11:38,000
+And I think this is a very important message
+
+258
+0:11:38.6,000 --> 0:11:4,000
+from biomechanics and robotics to neuroscience,
+
+259
+0:11:40.815,000 --> 0:11:44,000
+saying don't underestimate to what extent the body already helps locomotion.
+
+260
+0:11:47.44,000 --> 0:11:49,000
+Now, how does this relate to human locomotion?
+
+261
+0:11:49.96,000 --> 0:11:52,000
+Clearly, human locomotion is more complex than cat and salamander locomotion,
+
+262
+0:11:54.36,000 --> 0:11:57,000
+but at the same time, the nervous system of humans is very similar
+
+263
+0:11:57.52,000 --> 0:11:58,000
+to that of other vertebrates.
+
+264
+0:11:59.12,000 --> 0:12:,000
+And especially the spinal cord
+
+265
+0:12:00.6,000 --> 0:12:02,000
+is also the key controller for locomotion in humans.
+
+266
+0:12:03.76,000 --> 0:12:05,000
+That's why, if there's a lesion of the spinal cord,
+
+267
+0:12:06.2,000 --> 0:12:07,000
+this has dramatic effects.
+
+268
+0:12:07.72,000 --> 0:12:09,000
+The person can become paraplegic or tetraplegic.
+
+269
+0:12:10.52,000 --> 0:12:12,000
+This is because the brain loses this communication
+
+270
+0:12:12.92,000 --> 0:12:13,000
+with the spinal cord.
+
+271
+0:12:14.2,000 --> 0:12:16,000
+Especially, it loses this descending modulation
+
+272
+0:12:16.44,000 --> 0:12:17,000
+to initiate and modulate locomotion.
+
+273
+0:12:19.64,000 --> 0:12:2,000
+So a big goal of neuroprosthetics
+
+274
+0:12:21.36,000 --> 0:12:23,000
+is to be able to reactivate that communication
+
+275
+0:12:23.76,000 --> 0:12:25,000
+using electrical or chemical stimulations.
+
+276
+0:12:26.84,000 --> 0:12:28,000
+And there are several teams in the world that do exactly that,
+
+277
+0:12:29.8,000 --> 0:12:3,000
+especially at EPFL.
+
+278
+0:12:31.04,000 --> 0:12:33,000
+My colleagues Grégoire Courtine and Silvestro Micera,
+
+279
+0:12:33.56,000 --> 0:12:34,000
+with whom I collaborate.
+
+280
+0:12:35.96,000 --> 0:12:38,000
+But to do this properly, it's very important to understand
+
+281
+0:12:39.08,000 --> 0:12:4,000
+how the spinal cord works,
+
+282
+0:12:40.84,000 --> 0:12:41,000
+how it interacts with the body,
+
+283
+0:12:42.56,000 --> 0:12:44,000
+and how the brain communicates with the spinal cord.
+
+284
+0:12:45.8,000 --> 0:12:47,000
+This is where the robots and models that I've presented today
+
+285
+0:12:48.72,000 --> 0:12:49,000
+will hopefully play a key role
+
+286
+0:12:50.64,000 --> 0:12:52,000
+towards these very important goals.
+
+287
+0:12:53.32,000 --> 0:12:54,000
+Thank you.
+
+288
+0:12:54.56,000 --> 0:12:58,000
+(Applause)
+
+289
+0:13:04.1,000 --> 0:13:06,000
+Bruno Giussani: Auke, I've seen in your lab other robots
+
+290
+0:13:06.76,000 --> 0:13:08,000
+that do things like swim in pollution
+
+291
+0:13:09.24,000 --> 0:13:11,000
+and measure the pollution while they swim.
+
+292
+0:13:11.72,000 --> 0:13:12,000
+But for this one,
+
+293
+0:13:12.96,000 --> 0:13:15,000
+you mentioned in your talk, like a side project,
+
+294
+0:13:17.64,000 --> 0:13:18,000
+search and rescue,
+
+295
+0:13:18.88,000 --> 0:13:2,000
+and it does have a camera on its nose.
+
+296
+0:13:21.08,000 --> 0:13:23,000
+Auke Ijspeert: Absolutely. So the robot --
+
+297
+0:13:23.6,000 --> 0:13:24,000
+We have some spin-off projects
+
+298
+0:13:25.053,000 --> 0:13:28,000
+where we would like to use the robots to do search and rescue inspection,
+
+299
+0:13:28.52,000 --> 0:13:29,000
+so this robot is now seeing you.
+
+300
+0:13:30.12,000 --> 0:13:33,000
+And the big dream is to, if you have a difficult situation
+
+301
+0:13:33.32,000 --> 0:13:36,000
+like a collapsed building or a building that is flooded,
+
+302
+0:13:36.96,000 --> 0:13:39,000
+and this is very dangerous for a rescue team or even rescue dogs,
+
+303
+0:13:40.32,000 --> 0:13:42,000
+why not send in a robot that can crawl around, swim, walk,
+
+304
+0:13:43.24,000 --> 0:13:46,000
+with a camera onboard to do inspection and identify survivors
+
+305
+0:13:46.44,000 --> 0:13:48,000
+and possibly create a communication link with the survivor.
+
+306
+0:13:49.24,000 --> 0:13:52,000
+BG: Of course, assuming the survivors don't get scared by the shape of this.
+
+307
+0:13:52.84,000 --> 0:13:55,000
+AI: Yeah, we should probably change the appearance quite a bit,
+
+308
+0:13:56.16,000 --> 0:13:58,000
+because here I guess a survivor might die of a heart attack
+
+309
+0:13:59,000 --> 0:14:01,000
+just of being worried that this would feed on you.
+
+310
+0:14:01.56,000 --> 0:14:03,000
+But by changing the appearance and it making it more robust,
+
+311
+0:14:04.44,000 --> 0:14:06,000
+I'm sure we can make a good tool out of it.
+
+312
+0:14:06.52,000 --> 0:14:08,000
+BG: Thank you very much. Thank you and your team.
+

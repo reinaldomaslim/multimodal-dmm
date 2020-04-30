@@ -1,0 +1,1004 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Leslie Gauthier Reviewer: Camille Martínez
+
+2
+0:00:12.832,000 --> 0:00:16,000
+Cybercrime is out of control.
+
+3
+0:00:18.006,000 --> 0:00:19,000
+It's everywhere.
+
+4
+0:00:19.395,000 --> 0:00:23,000
+We hear about it every single day.
+
+5
+0:00:24.591,000 --> 0:00:25,000
+This year,
+
+6
+0:00:25.829,000 --> 0:00:3,000
+over two billion records lost or stolen.
+
+7
+0:00:31.87,000 --> 0:00:36,000
+And last year, 100 million of us, mostly Americans,
+
+8
+0:00:37.529,000 --> 0:00:42,000
+lost our health insurance data to thieves -- myself included.
+
+9
+0:00:44.123,000 --> 0:00:49,000
+What's particularly concerning about this is that in most cases,
+
+10
+0:00:49.595,000 --> 0:00:54,000
+it was months before anyone even reported that these records were stolen.
+
+11
+0:00:56.984,000 --> 0:00:59,000
+So if you watch the evening news,
+
+12
+0:01:00.051,000 --> 0:01:05,000
+you would think that most of this is espionage or nation-state activity.
+
+13
+0:01:05.813,000 --> 0:01:07,000
+And, well, some of it is.
+
+14
+0:01:08.514,000 --> 0:01:12,000
+Espionage, you see, is an accepted international practice.
+
+15
+0:01:13.613,000 --> 0:01:14,000
+But in this case,
+
+16
+0:01:15.12,000 --> 0:01:2,000
+it is only a small portion of the problem that we're dealing with.
+
+17
+0:01:21.459,000 --> 0:01:24,000
+How often do we hear about a breach
+
+18
+0:01:24.818,000 --> 0:01:28,000
+followed by, "... it was the result of a sophisticated nation-state attack?"
+
+19
+0:01:30.481,000 --> 0:01:34,000
+Well, often that is companies not being willing to own up
+
+20
+0:01:35.366,000 --> 0:01:37,000
+to their own lackluster security practices.
+
+21
+0:01:38.885,000 --> 0:01:4,000
+There is also a widely held belief
+
+22
+0:01:42.175,000 --> 0:01:45,000
+that by blaming an attack on a nation-state,
+
+23
+0:01:46.05,000 --> 0:01:48,000
+you are putting regulators at bay --
+
+24
+0:01:48.755,000 --> 0:01:5,000
+at least for a period of time.
+
+25
+0:01:51.657,000 --> 0:01:55,000
+So where is all of this coming from?
+
+26
+0:01:56.817,000 --> 0:02:01,000
+The United Nations estimates that 80 percent of it
+
+27
+0:02:02.334,000 --> 0:02:07,000
+is from highly organized and ultrasophisticated criminal gangs.
+
+28
+0:02:09.074,000 --> 0:02:1,000
+To date,
+
+29
+0:02:10.817,000 --> 0:02:16,000
+this represents one of the largest illegal economies in the world,
+
+30
+0:02:17.441,000 --> 0:02:2,000
+topping out at, now get this,
+
+31
+0:02:20.585,000 --> 0:02:24,000
+445 billion dollars.
+
+32
+0:02:25.359,000 --> 0:02:27,000
+Let me put that in perspective for all of you:
+
+33
+0:02:28.295,000 --> 0:02:34,000
+445 billion dollars is larger than the GDP
+
+34
+0:02:34.423,000 --> 0:02:36,000
+of 160 nations,
+
+35
+0:02:37.113,000 --> 0:02:41,000
+including Ireland, Finland, Denmark and Portugal,
+
+36
+0:02:41.682,000 --> 0:02:42,000
+to name a few.
+
+37
+0:02:44.113,000 --> 0:02:46,000
+So how does this work?
+
+38
+0:02:46.141,000 --> 0:02:47,000
+How do these criminals operate?
+
+39
+0:02:48.521,000 --> 0:02:5,000
+Well, let me tell you a little story.
+
+40
+0:02:52.351,000 --> 0:02:53,000
+About a year ago,
+
+41
+0:02:53.569,000 --> 0:02:56,000
+our security researchers were tracking
+
+42
+0:02:56.903,000 --> 0:03:02,000
+a somewhat ordinary but sophisticated banking Trojan called the Dyre Wolf.
+
+43
+0:03:03.745,000 --> 0:03:05,000
+The Dyre Wolf would get on your computer
+
+44
+0:03:05.99,000 --> 0:03:08,000
+via you clicking on a link in a phishing email
+
+45
+0:03:09.014,000 --> 0:03:1,000
+that you probably shouldn't have.
+
+46
+0:03:10.99,000 --> 0:03:11,000
+It would then sit and wait.
+
+47
+0:03:13.575,000 --> 0:03:16,000
+It would wait until you logged into your bank account.
+
+48
+0:03:17.119,000 --> 0:03:2,000
+And when you did, the bad guys would reach in,
+
+49
+0:03:20.486,000 --> 0:03:21,000
+steal your credentials,
+
+50
+0:03:22.163,000 --> 0:03:23,000
+and then use that to steal your money.
+
+51
+0:03:24.843,000 --> 0:03:25,000
+This sounds terrible,
+
+52
+0:03:26.787,000 --> 0:03:28,000
+but the reality is, in the security industry,
+
+53
+0:03:29.604,000 --> 0:03:32,000
+this form of attack is somewhat commonplace.
+
+54
+0:03:35.822,000 --> 0:03:41,000
+However, the Dyre Wolf had two distinctly different personalities --
+
+55
+0:03:42.479,000 --> 0:03:44,000
+one for these small transactions,
+
+56
+0:03:44.844,000 --> 0:03:47,000
+but it took on an entirely different persona
+
+57
+0:03:47.908,000 --> 0:03:5,000
+if you were in the business of moving large-scale wire transfers.
+
+58
+0:03:51.747,000 --> 0:03:52,000
+Here's what would happen.
+
+59
+0:03:53.47,000 --> 0:03:55,000
+You start the process of issuing a wire transfer,
+
+60
+0:03:56.294,000 --> 0:03:59,000
+and up in your browser would pop a screen from your bank,
+
+61
+0:03:59.326,000 --> 0:04:01,000
+indicating that there's a problem with your account,
+
+62
+0:04:01.947,000 --> 0:04:04,000
+and that you need to call the bank immediately,
+
+63
+0:04:05.162,000 --> 0:04:07,000
+along with the number to the bank's fraud department.
+
+64
+0:04:08.655,000 --> 0:04:1,000
+So you pick up the phone and you call.
+
+65
+0:04:10.849,000 --> 0:04:13,000
+And after going through the normal voice prompts,
+
+66
+0:04:13.884,000 --> 0:04:15,000
+you're met with an English-speaking operator.
+
+67
+0:04:16.025,000 --> 0:04:18,000
+"Hello, Altoro Mutual Bank. How can I help you?"
+
+68
+0:04:19.853,000 --> 0:04:22,000
+And you go through the process like you do every time you call your bank,
+
+69
+0:04:23.53,000 --> 0:04:25,000
+of giving them your name and your account number,
+
+70
+0:04:26.345,000 --> 0:04:29,000
+going through the security checks to verify you are who you said you are.
+
+71
+0:04:31.629,000 --> 0:04:32,000
+Most of us may not know this,
+
+72
+0:04:33.141,000 --> 0:04:35,000
+but in many large-scale wire transfers,
+
+73
+0:04:35.394,000 --> 0:04:38,000
+it requires two people to sign off on the wire transfer,
+
+74
+0:04:38.529,000 --> 0:04:41,000
+so the operator then asks you to get the second person on the line,
+
+75
+0:04:41.752,000 --> 0:04:43,000
+and goes through the same set of verifications and checks.
+
+76
+0:04:45.78,000 --> 0:04:46,000
+Sounds normal, right?
+
+77
+0:04:47.729,000 --> 0:04:48,000
+Only one problem:
+
+78
+0:04:49.195,000 --> 0:04:5,000
+you're not talking to the bank.
+
+79
+0:04:51.044,000 --> 0:04:52,000
+You're talking to the criminals.
+
+80
+0:04:52.654,000 --> 0:04:54,000
+They had built an English-speaking help desk,
+
+81
+0:04:54.876,000 --> 0:04:56,000
+fake overlays to the banking website.
+
+82
+0:04:56.965,000 --> 0:04:59,000
+And this was so flawlessly executed
+
+83
+0:05:00.089,000 --> 0:05:02,000
+that they were moving between a half a million
+
+84
+0:05:02.256,000 --> 0:05:05,000
+and a million and a half dollars per attempt
+
+85
+0:05:05.367,000 --> 0:05:06,000
+into their criminal coffers.
+
+86
+0:05:07.96,000 --> 0:05:09,000
+These criminal organizations operate
+
+87
+0:05:10.599,000 --> 0:05:13,000
+like highly regimented, legitimate businesses.
+
+88
+0:05:14.165,000 --> 0:05:16,000
+Their employees work Monday through Friday.
+
+89
+0:05:17.129,000 --> 0:05:18,000
+They take the weekends off.
+
+90
+0:05:18.689,000 --> 0:05:19,000
+How do we know this?
+
+91
+0:05:20.096,000 --> 0:05:23,000
+We know this because our security researchers see
+
+92
+0:05:23.253,000 --> 0:05:26,000
+repeated spikes of malware on a Friday afternoon.
+
+93
+0:05:27.074,000 --> 0:05:3,000
+The bad guys, after a long weekend with the wife and kids,
+
+94
+0:05:30.313,000 --> 0:05:32,000
+come back in to see how well things went.
+
+95
+0:05:35.521,000 --> 0:05:37,000
+The Dark Web is where they spend their time.
+
+96
+0:05:39.115,000 --> 0:05:44,000
+That is a term used to describe the anonymous underbelly of the internet,
+
+97
+0:05:44.928,000 --> 0:05:46,000
+where thieves can operate with anonymity
+
+98
+0:05:47.877,000 --> 0:05:48,000
+and without detection.
+
+99
+0:05:50.029,000 --> 0:05:53,000
+Here they peddle their attack software
+
+100
+0:05:53.08,000 --> 0:05:56,000
+and share information on new attack techniques.
+
+101
+0:05:57.391,000 --> 0:05:58,000
+You can buy everything there,
+
+102
+0:05:59.265,000 --> 0:06:02,000
+from a base-level attack to a much more advanced version.
+
+103
+0:06:03.662,000 --> 0:06:05,000
+In fact, in many cases, you even see
+
+104
+0:06:05.978,000 --> 0:06:08,000
+gold, silver and bronze levels of service.
+
+105
+0:06:09.723,000 --> 0:06:1,000
+You can check references.
+
+106
+0:06:11.797,000 --> 0:06:13,000
+You can even buy attacks
+
+107
+0:06:14.381,000 --> 0:06:17,000
+that come with a money-back guarantee --
+
+108
+0:06:17.733,000 --> 0:06:18,000
+(Laughter)
+
+109
+0:06:18.802,000 --> 0:06:19,000
+if you're not successful.
+
+110
+0:06:21.751,000 --> 0:06:24,000
+Now, these environments, these marketplaces --
+
+111
+0:06:24.866,000 --> 0:06:27,000
+they look like an Amazon or an eBay.
+
+112
+0:06:28.237,000 --> 0:06:31,000
+You see products, prices, ratings and reviews.
+
+113
+0:06:32.217,000 --> 0:06:34,000
+Of course, if you're going to buy an attack,
+
+114
+0:06:34.495,000 --> 0:06:37,000
+you're going to buy from a reputable criminal with good ratings, right?
+
+115
+0:06:37.968,000 --> 0:06:38,000
+(Laughter)
+
+116
+0:06:38.996,000 --> 0:06:39,000
+This isn't any different
+
+117
+0:06:40.221,000 --> 0:06:45,000
+than checking on Yelp or TripAdvisor before going to a new restaurant.
+
+118
+0:06:46.323,000 --> 0:06:48,000
+So, here is an example.
+
+119
+0:06:48.44,000 --> 0:06:53,000
+This is an actual screenshot of a vendor selling malware.
+
+120
+0:06:53.885,000 --> 0:06:54,000
+Notice they're a vendor level four,
+
+121
+0:06:55.724,000 --> 0:06:56,000
+they have a trust level of six.
+
+122
+0:06:57.589,000 --> 0:06:59,000
+They've had 400 positive reviews in the last year,
+
+123
+0:06:59.948,000 --> 0:07:01,000
+and only two negative reviews in the last month.
+
+124
+0:07:02.892,000 --> 0:07:05,000
+We even see things like licensing terms.
+
+125
+0:07:06.582,000 --> 0:07:08,000
+Here's an example of a site you can go to
+
+126
+0:07:08.61,000 --> 0:07:09,000
+if you want to change your identity.
+
+127
+0:07:10.391,000 --> 0:07:11,000
+They will sell you a fake ID,
+
+128
+0:07:12.272,000 --> 0:07:13,000
+fake passports.
+
+129
+0:07:14.423,000 --> 0:07:19,000
+But note the legally binding terms for purchasing your fake ID.
+
+130
+0:07:20.338,000 --> 0:07:21,000
+Give me a break.
+
+131
+0:07:21.883,000 --> 0:07:23,000
+What are they going to do -- sue you if you violate them?
+
+132
+0:07:24.765,000 --> 0:07:25,000
+(Laughter)
+
+133
+0:07:27.278,000 --> 0:07:29,000
+This occurred a couple of months ago.
+
+134
+0:07:29.725,000 --> 0:07:32,000
+One of our security researchers was looking
+
+135
+0:07:33.364,000 --> 0:07:37,000
+at a new Android malware application that we had discovered.
+
+136
+0:07:38.386,000 --> 0:07:39,000
+It was called Bilal Bot.
+
+137
+0:07:41.334,000 --> 0:07:42,000
+In a blog post,
+
+138
+0:07:43.284,000 --> 0:07:49,000
+she positioned Bilal Bot as a new, inexpensive and beta alternative
+
+139
+0:07:50.69,000 --> 0:07:53,000
+to the much more advanced GM Bot
+
+140
+0:07:54.052,000 --> 0:07:56,000
+that was commonplace in the criminal underground.
+
+141
+0:07:58.478,000 --> 0:08:02,000
+This review did not sit well with the authors of Bilal Bot.
+
+142
+0:08:03.057,000 --> 0:08:05,000
+So they wrote her this very email,
+
+143
+0:08:06.848,000 --> 0:08:08,000
+pleading their case and making the argument
+
+144
+0:08:09.629,000 --> 0:08:14,000
+that they felt she had evaluated an older version.
+
+145
+0:08:16.018,000 --> 0:08:2,000
+They asked her to please update her blog with more accurate information
+
+146
+0:08:20.751,000 --> 0:08:23,000
+and even offered to do an interview
+
+147
+0:08:24.187,000 --> 0:08:26,000
+to describe to her in detail
+
+148
+0:08:26.432,000 --> 0:08:3,000
+how their attack software was now far better than the competition.
+
+149
+0:08:32.185,000 --> 0:08:33,000
+So look,
+
+150
+0:08:33.534,000 --> 0:08:36,000
+you don't have to like what they do,
+
+151
+0:08:37.422,000 --> 0:08:41,000
+but you do have to respect the entrepreneurial nature
+
+152
+0:08:42.365,000 --> 0:08:43,000
+of their endeavors.
+
+153
+0:08:43.596,000 --> 0:08:44,000
+(Laughter)
+
+154
+0:08:46.296,000 --> 0:08:49,000
+So how are we going to stop this?
+
+155
+0:08:51.534,000 --> 0:08:56,000
+It's not like we're going to be able to identify who's responsible --
+
+156
+0:08:57.122,000 --> 0:08:59,000
+remember, they operate with anonymity
+
+157
+0:09:00.108,000 --> 0:09:01,000
+and outside the reach of the law.
+
+158
+0:09:03.037,000 --> 0:09:06,000
+We're certainly not going to be able to prosecute the offenders.
+
+159
+0:09:06.976,000 --> 0:09:11,000
+I would propose that we need a completely new approach.
+
+160
+0:09:13.583,000 --> 0:09:16,000
+And that approach needs to be centered on the idea
+
+161
+0:09:17.513,000 --> 0:09:2,000
+that we need to change the economics for the bad guys.
+
+162
+0:09:22.065,000 --> 0:09:25,000
+And to give you a perspective on how this can work,
+
+163
+0:09:25.19,000 --> 0:09:29,000
+let's think of the response we see to a healthcare pandemic:
+
+164
+0:09:30.202,000 --> 0:09:33,000
+SARS, Ebola, bird flu, Zika.
+
+165
+0:09:33.856,000 --> 0:09:34,000
+What is the top priority?
+
+166
+0:09:35.801,000 --> 0:09:4,000
+It's knowing who is infected and how the disease is spreading.
+
+167
+0:09:43.835,000 --> 0:09:49,000
+Now, governments, private institutions, hospitals, physicians --
+
+168
+0:09:50.881,000 --> 0:09:53,000
+everyone responds openly and quickly.
+
+169
+0:09:55.154,000 --> 0:09:58,000
+This is a collective and altruistic effort
+
+170
+0:09:59.149,000 --> 0:10:02,000
+to stop the spread in its tracks
+
+171
+0:10:03.073,000 --> 0:10:05,000
+and to inform anyone not infected
+
+172
+0:10:05.974,000 --> 0:10:07,000
+how to protect or inoculate themselves.
+
+173
+0:10:10.72,000 --> 0:10:15,000
+Unfortunately, this is not at all what we see in response to a cyber attack.
+
+174
+0:10:17.67,000 --> 0:10:21,000
+Organizations are far more likely to keep information on that attack
+
+175
+0:10:22.145,000 --> 0:10:23,000
+to themselves.
+
+176
+0:10:24.902,000 --> 0:10:25,000
+Why?
+
+177
+0:10:26.082,000 --> 0:10:28,000
+Because they're worried about competitive advantage,
+
+178
+0:10:29.863,000 --> 0:10:3,000
+litigation
+
+179
+0:10:31.458,000 --> 0:10:32,000
+or regulation.
+
+180
+0:10:33.647,000 --> 0:10:38,000
+We need to effectively democratize threat intelligence data.
+
+181
+0:10:39.795,000 --> 0:10:44,000
+We need to get all of these organizations to open up and share
+
+182
+0:10:45.295,000 --> 0:10:48,000
+what is in their private arsenal of information.
+
+183
+0:10:50.83,000 --> 0:10:52,000
+The bad guys are moving fast;
+
+184
+0:10:53.648,000 --> 0:10:55,000
+we've got to move faster.
+
+185
+0:10:56.57,000 --> 0:10:59,000
+And the best way to do that is to open up
+
+186
+0:11:00.316,000 --> 0:11:02,000
+and share data on what's happening.
+
+187
+0:11:03.124,000 --> 0:11:07,000
+Let's think about this in the construct of security professionals.
+
+188
+0:11:07.984,000 --> 0:11:11,000
+Remember, they're programmed right into their DNA to keep secrets.
+
+189
+0:11:12.984,000 --> 0:11:15,000
+We've got to turn that thinking on its head.
+
+190
+0:11:16.032,000 --> 0:11:19,000
+We've got to get governments, private institutions
+
+191
+0:11:19.337,000 --> 0:11:2,000
+and security companies
+
+192
+0:11:20.804,000 --> 0:11:22,000
+willing to share information at speed.
+
+193
+0:11:23.559,000 --> 0:11:24,000
+And here's why:
+
+194
+0:11:25.259,000 --> 0:11:26,000
+because if you share the information,
+
+195
+0:11:27.16,000 --> 0:11:29,000
+it's equivalent to inoculation.
+
+196
+0:11:30.483,000 --> 0:11:31,000
+And if you're not sharing,
+
+197
+0:11:32.054,000 --> 0:11:34,000
+you're actually part of the problem,
+
+198
+0:11:34.179,000 --> 0:11:39,000
+because you're increasing the odds that other people could be impacted
+
+199
+0:11:39.971,000 --> 0:11:41,000
+by the same attack techniques.
+
+200
+0:11:43.806,000 --> 0:11:45,000
+But there's an even bigger benefit.
+
+201
+0:11:47.018,000 --> 0:11:51,000
+By destroying criminals' devices closer to real time,
+
+202
+0:11:51.788,000 --> 0:11:52,000
+we break their plans.
+
+203
+0:11:55.282,000 --> 0:11:58,000
+We inform the people they aim to hurt
+
+204
+0:11:58.546,000 --> 0:12:,000
+far sooner than they had ever anticipated.
+
+205
+0:12:02.34,000 --> 0:12:04,000
+We ruin their reputations,
+
+206
+0:12:04.565,000 --> 0:12:07,000
+we crush their ratings and reviews.
+
+207
+0:12:08.125,000 --> 0:12:11,000
+We make cybercrime not pay.
+
+208
+0:12:12.751,000 --> 0:12:15,000
+We change the economics for the bad guys.
+
+209
+0:12:18.135,000 --> 0:12:21,000
+But to do this, a first mover was required --
+
+210
+0:12:22.131,000 --> 0:12:26,000
+someone to change the thinking in the security industry overall.
+
+211
+0:12:27.887,000 --> 0:12:28,000
+About a year ago,
+
+212
+0:12:29.181,000 --> 0:12:31,000
+my colleagues and I had a radical idea.
+
+213
+0:12:32.444,000 --> 0:12:36,000
+What if IBM were to take our data --
+
+214
+0:12:37.807,000 --> 0:12:4,000
+we had one of the largest threat intelligence databases in the world --
+
+215
+0:12:41.819,000 --> 0:12:42,000
+and open it up?
+
+216
+0:12:43.577,000 --> 0:12:46,000
+It had information not just on what had happened in the past,
+
+217
+0:12:47.062,000 --> 0:12:49,000
+but what was happening in near-real time.
+
+218
+0:12:49.561,000 --> 0:12:52,000
+What if we were to publish it all openly on the internet?
+
+219
+0:12:54.283,000 --> 0:12:56,000
+As you can imagine, this got quite a reaction.
+
+220
+0:12:56.801,000 --> 0:12:57,000
+First came the lawyers:
+
+221
+0:12:58.189,000 --> 0:13:,000
+What are the legal implications of doing that?
+
+222
+0:13:01.205,000 --> 0:13:02,000
+Then came the business:
+
+223
+0:13:02.564,000 --> 0:13:04,000
+What are the business implications of doing that?
+
+224
+0:13:05.442,000 --> 0:13:07,000
+And this was also met with a good dose
+
+225
+0:13:07.639,000 --> 0:13:1,000
+of a lot of people just asking if we were completely crazy.
+
+226
+0:13:11.748,000 --> 0:13:14,000
+But there was one conversation that kept floating to the surface
+
+227
+0:13:15.558,000 --> 0:13:17,000
+in every dialogue that we would have:
+
+228
+0:13:18.22,000 --> 0:13:21,000
+the realization that if we didn't do this,
+
+229
+0:13:21.791,000 --> 0:13:23,000
+then we were part of the problem.
+
+230
+0:13:25.334,000 --> 0:13:27,000
+So we did something unheard of in the security industry.
+
+231
+0:13:28.865,000 --> 0:13:29,000
+We started publishing.
+
+232
+0:13:30.562,000 --> 0:13:34,000
+Over 700 terabytes of actionable threat intelligence data,
+
+233
+0:13:34.996,000 --> 0:13:37,000
+including information on real-time attacks
+
+234
+0:13:38.025,000 --> 0:13:4,000
+that can be used to stop cybercrime in its tracks.
+
+235
+0:13:41.633,000 --> 0:13:42,000
+And to date,
+
+236
+0:13:43.027,000 --> 0:13:47,000
+over 4,000 organizations are leveraging this data,
+
+237
+0:13:47.095,000 --> 0:13:48,000
+including half of the Fortune 100.
+
+238
+0:13:50.419,000 --> 0:13:54,000
+And our hope as a next step is to get all of those organizations
+
+239
+0:13:54.46,000 --> 0:13:55,000
+to join us in the fight,
+
+240
+0:13:56.445,000 --> 0:13:57,000
+and do the same thing
+
+241
+0:13:58.02,000 --> 0:14:,000
+and share their information
+
+242
+0:14:00.132,000 --> 0:14:02,000
+on when and how they're being attacked as well.
+
+243
+0:14:03.372,000 --> 0:14:06,000
+We all have the opportunity to stop it,
+
+244
+0:14:06.414,000 --> 0:14:08,000
+and we already all know how.
+
+245
+0:14:09.192,000 --> 0:14:13,000
+All we have to do is look to the response that we see
+
+246
+0:14:13.586,000 --> 0:14:14,000
+in the world of health care,
+
+247
+0:14:15.116,000 --> 0:14:16,000
+and how they respond to a pandemic.
+
+248
+0:14:17.443,000 --> 0:14:18,000
+Simply put,
+
+249
+0:14:18.846,000 --> 0:14:2,000
+we need to be open and collaborative.
+
+250
+0:14:21.696,000 --> 0:14:22,000
+Thank you.
+
+251
+0:14:22.871,000 --> 0:14:25,000
+(Applause)
+

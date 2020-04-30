@@ -1,0 +1,878 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Carlo Dezerega Revisor: Teresa Vargas
+
+2
+0:00:15.26,000 --> 0:00:19,000
+Creo que los datos realmente nos pueden hacer más humanos.
+
+3
+0:00:19.26,000 --> 0:00:22,000
+Estamos creando y guardando muchísimos datos acerca de cómo vivimos nuestras vidas
+
+4
+0:00:22.26,000 --> 0:00:24,000
+y esto nos está permitiendo contar algunas historias increíbles.
+
+5
+0:00:24.26,000 --> 0:00:27,000
+Hace poco un sagaz teórico de los medios twiteó:
+
+6
+0:00:27.26,000 --> 0:00:29,000
+"La cultura del siglo 19 fue definida por la novela,
+
+7
+0:00:29.26,000 --> 0:00:31,000
+la cultura del siglo 20 fue definida por el cine,
+
+8
+0:00:31.26,000 --> 0:00:33,000
+y la cultura del siglo 21
+
+9
+0:00:33.26,000 --> 0:00:35,000
+será definida por la interfaz."
+
+10
+0:00:35.26,000 --> 0:00:37,000
+Y creo que esto va a terminar resultando cierto.
+
+11
+0:00:37.26,000 --> 0:00:39,000
+Nuestras vidas están siendo gobernadas por los datos,
+
+12
+0:00:39.26,000 --> 0:00:41,000
+y la presentación de esos datos nos da la oportunidad
+
+13
+0:00:41.26,000 --> 0:00:43,000
+de hacer unas interfaces increíbles que cuenten grandes historias.
+
+14
+0:00:43.26,000 --> 0:00:45,000
+Así que les voy a mostrar algunos de los proyectos
+
+15
+0:00:45.26,000 --> 0:00:47,000
+en los que he estado trabajando durante los últimos dos años
+
+16
+0:00:47.26,000 --> 0:00:49,000
+que reflexionan sobre nuestras vidas y nuestros sistemas.
+
+17
+0:00:49.26,000 --> 0:00:51,000
+Este es un proyecto llamado Patrones de Vuelo.
+
+18
+0:00:51.26,000 --> 0:00:53,000
+Lo que estamos viendo es el tráfico de aviones
+
+19
+0:00:53.26,000 --> 0:00:56,000
+sobre América del Norte durante un período de 24 horas.
+
+20
+0:00:56.26,000 --> 0:00:58,000
+Como pueden ver, todo comienza a oscurecer
+
+21
+0:00:58.26,000 --> 0:01:,000
+y pueden ver a la gente yéndose a dormir.
+
+22
+0:01:00.26,000 --> 0:01:02,000
+Pueden ver después de eso en la costa oeste
+
+23
+0:01:02.26,000 --> 0:01:05,000
+a los aviones moviéndose a la costa este, los vuelos nocturnos.
+
+24
+0:01:05.26,000 --> 0:01:08,000
+Y verán a todos despertándose en la costa este,
+
+25
+0:01:08.26,000 --> 0:01:11,000
+seguidos por los vuelos europeos llegando en la esquina superior derecha.
+
+26
+0:01:11.26,000 --> 0:01:14,000
+Todo el mundo se mueve de la costa este a la costa oeste.
+
+27
+0:01:14.26,000 --> 0:01:16,000
+Pueden ver a San Francisco y a Los Ángeles
+
+28
+0:01:16.26,000 --> 0:01:19,000
+empezar a hacer sus viajes hacia Hawái, en la esquina inferior izquierda.
+
+29
+0:01:19.26,000 --> 0:01:21,000
+Creo que es una cosa decir que en cada momento
+
+30
+0:01:21.26,000 --> 0:01:24,000
+hay 140 mil aviones siendo monitoreados por el gobierno federal,
+
+31
+0:01:24.26,000 --> 0:01:27,000
+y otra cosa es ver ese sistema mientras va fluyendo de lado a lado.
+
+32
+0:01:29.26,000 --> 0:01:31,000
+Esta es una imagen del lapso de tiempo de esos mismos datos,
+
+33
+0:01:31.26,000 --> 0:01:33,000
+pero le he puesto color a cada tipo,
+
+34
+0:01:33.26,000 --> 0:01:36,000
+para que puedan ver todos los distintos aviones que están en los cielos encima de nosotros.
+
+35
+0:01:36.26,000 --> 0:01:39,000
+Y empecé a hacer estos y los puse en Google Maps
+
+36
+0:01:39.26,000 --> 0:01:41,000
+y pueden hacerles zoom y ver aeropuertos específicos
+
+37
+0:01:41.26,000 --> 0:01:43,000
+y los patrones que se están produciendo allí.
+
+38
+0:01:43.26,000 --> 0:01:46,000
+Y aquí podemos ver como el blanco representa altitudes bajas
+
+39
+0:01:46.26,000 --> 0:01:48,000
+y el azul representa altitudes superiores.
+
+40
+0:01:48.26,000 --> 0:01:5,000
+Y puedes acercarte. Aquí estamos viendo a Atlanta.
+
+41
+0:01:50.26,000 --> 0:01:52,000
+Pueden ver que este es un aeropuerto de carga muy importante,
+
+42
+0:01:52.26,000 --> 0:01:54,000
+y hay muchas cosas distintas pasando.
+
+43
+0:01:54.26,000 --> 0:01:57,000
+También se puede ir mirando la altitud
+
+44
+0:01:57.26,000 --> 0:01:59,000
+cambiándo entre modelos y fabricantes.
+
+45
+0:01:59.26,000 --> 0:02:01,000
+Vean de nuevo la diversidad.
+
+46
+0:02:01.26,000 --> 0:02:03,000
+Y pueden moverse alrededor y ver
+
+47
+0:02:03.26,000 --> 0:02:06,000
+algunos de los diferentes aeropuertos y los diferentes patrones que muestran.
+
+48
+0:02:06.26,000 --> 0:02:08,000
+Aquí nos movemos hacia arriba por la costa este.
+
+49
+0:02:08.26,000 --> 0:02:1,000
+Pueden ver un poco del caos que tienen en Nueva York
+
+50
+0:02:10.26,000 --> 0:02:12,000
+porque los controladores de tránsito aéreo
+
+51
+0:02:12.26,000 --> 0:02:16,000
+tienen que lidiar con todos esos aeropuertos importantes muy cercanos.
+
+52
+0:02:17.26,000 --> 0:02:19,000
+Y saliéndonos rápidamente vemos,
+
+53
+0:02:19.26,000 --> 0:02:22,000
+de nuevo los EE.UU.; pueden ver a Florida en la esquina derecha.
+
+54
+0:02:22.26,000 --> 0:02:24,000
+Moviéndose por la costa oeste,
+
+55
+0:02:24.26,000 --> 0:02:26,000
+pueden ver a San Francisco y a Los Ángeles;
+
+56
+0:02:26.26,000 --> 0:02:28,000
+grandes zonas de bajo tráfico
+
+57
+0:02:28.26,000 --> 0:02:3,000
+a lo largo de Nevada y Arizona.
+
+58
+0:02:30.26,000 --> 0:02:34,000
+Y nosotros estamos ahí abajo en Los Ángeles y Long Beach en el borde inferior.
+
+59
+0:02:36.26,000 --> 0:02:38,000
+También empecé a mirar diferentes parámetros,
+
+60
+0:02:38.26,000 --> 0:02:4,000
+porque pueden elegir qué quieren obtener de los datos.
+
+61
+0:02:40.26,000 --> 0:02:43,000
+Aquí estamos mirando vuelos ascendentes versus descendentes.
+
+62
+0:02:43.26,000 --> 0:02:45,000
+Y pueden ver, con el tiempo, cómo cambian los aeropuertos.
+
+63
+0:02:45.26,000 --> 0:02:47,000
+Pueden ver los ciclos de espera que se comienzan a desarrollar
+
+64
+0:02:47.26,000 --> 0:02:49,000
+en la parte inferior de la pantalla.
+
+65
+0:02:49.26,000 --> 0:02:52,000
+Y pueden ver que después de un tiempo se invierte la dirección del aeropuerto.
+
+66
+0:02:53.26,000 --> 0:02:56,000
+Y este es otro proyecto en el que trabajé con el Laboratorio de Ciudades Sensibles del MIT.
+
+67
+0:02:56.26,000 --> 0:02:58,000
+Aquí estamos visualizando las comunicaciones internacionales.
+
+68
+0:02:58.26,000 --> 0:03:,000
+Y es como Nueva York se comunica
+
+69
+0:03:00.26,000 --> 0:03:02,000
+con otras ciudades internacionales.
+
+70
+0:03:02.26,000 --> 0:03:05,000
+Y lo pusimos como un globo terráqueo en vivo en el Museo de Arte Moderna
+
+71
+0:03:05.26,000 --> 0:03:07,000
+para la exhibición de "Diseño y la Mente Elástica".
+
+72
+0:03:07.26,000 --> 0:03:09,000
+Y tenía una transmisión en vivo con 24 horas de retardo,
+
+73
+0:03:09.26,000 --> 0:03:11,000
+por lo que se podía ver la relación cambiante
+
+74
+0:03:11.26,000 --> 0:03:13,000
+y algo de información demográfica
+
+75
+0:03:13.26,000 --> 0:03:16,000
+que iba revelándose a través de los datos que enviaba AT&T.
+
+76
+0:03:16.26,000 --> 0:03:18,000
+Este es otro proyecto en el que trabajé con el Laboratorio de Ciudades Sensibles
+
+77
+0:03:18.26,000 --> 0:03:2,000
+y CurrentCity.org.
+
+78
+0:03:20.26,000 --> 0:03:23,000
+Y es la visualización de mensajes SMS enviados en la ciudad de Ámsterdam.
+
+79
+0:03:23.26,000 --> 0:03:25,000
+Así que están viendo el flujo de como
+
+80
+0:03:25.26,000 --> 0:03:27,000
+las personas envían mensajes SMS desde diferentes partes de la ciudad,
+
+81
+0:03:27.26,000 --> 0:03:3,000
+hasta que nos acercamos a la víspera de Año Nuevo, donde todos dicen: "¡Feliz Año Nuevo!" (Risas)
+
+82
+0:03:30.26,000 --> 0:03:32,000
+hasta que nos acercamos a la víspera de Año Nuevo, donde todos dicen: "¡Feliz Año Nuevo!" (Risas)
+
+83
+0:03:32.26,000 --> 0:03:34,000
+Y esta es una herramienta interactiva
+
+84
+0:03:34.26,000 --> 0:03:37,000
+donde puedes moverte y ver distintas partes de la ciudad.
+
+85
+0:03:37.26,000 --> 0:03:4,000
+Aquí estamos viendo otro evento, llamado el Día de la Reina.
+
+86
+0:03:40.26,000 --> 0:03:42,000
+Así que de nuevo, se observa este flujo variable diario
+
+87
+0:03:42.26,000 --> 0:03:45,000
+de personas que envían mensajes SMS desde diferentes partes de la ciudad.
+
+88
+0:03:45.26,000 --> 0:03:47,000
+Y luego vamos a ver a la gente empezando a congregarse en el centro de la ciudad
+
+89
+0:03:47.26,000 --> 0:03:49,000
+para celebrar la noche anterior,
+
+90
+0:03:49.26,000 --> 0:03:51,000
+lo que se ve justo aquí.
+
+91
+0:03:51.26,000 --> 0:03:53,000
+Y después se puede ver a la gente celebrando el día siguiente.
+
+92
+0:03:53.26,000 --> 0:03:56,000
+Y puedes poner pausa y retrocederlo o adelantarlo y ver las diferentes fases.
+
+93
+0:03:56.26,000 --> 0:03:58,000
+Entonces ahora cambiémonos a algo totalmente diferente.
+
+94
+0:03:58.26,000 --> 0:04:,000
+Algunos de ustedes podrán reconocer esto.
+
+95
+0:04:00.26,000 --> 0:04:03,000
+Esta es la máquina mecánica del barón Wolfgang von Kempelen que juega ajedrez.
+
+96
+0:04:03.26,000 --> 0:04:05,000
+Y es un robot increíble que juega ajedrez muy muy bien,
+
+97
+0:04:05.26,000 --> 0:04:08,000
+excepto por una cosa: en realidad no es un robot.
+
+98
+0:04:08.26,000 --> 0:04:1,000
+De hecho, hay un hombre sin piernas que se sienta en esa caja
+
+99
+0:04:10.26,000 --> 0:04:12,000
+y controla a este jugador de ajedrez.
+
+100
+0:04:12.26,000 --> 0:04:14,000
+Esa fue la inspiración para un servicio web de Amazon
+
+101
+0:04:14.26,000 --> 0:04:17,000
+llamado Mechanical Turk (o Turco Mecánico) en honor a este tipo.
+
+102
+0:04:17.26,000 --> 0:04:19,000
+Y se basa en la premisa de que hay ciertas cosas
+
+103
+0:04:19.26,000 --> 0:04:21,000
+que son fáciles para la gente, pero muy difíciles para las computadoras.
+
+104
+0:04:21.26,000 --> 0:04:23,000
+Por lo que hicieron este servicio web y dijeron:
+
+105
+0:04:23.26,000 --> 0:04:25,000
+"Cualquier programador puede escribir un programa
+
+106
+0:04:25.26,000 --> 0:04:27,000
+y tener disponibles las mentes de miles de personas."
+
+107
+0:04:27.26,000 --> 0:04:29,000
+Mi lado nerd pensó: "Wow, esto es increíble.
+
+108
+0:04:29.26,000 --> 0:04:31,000
+Tendré disponibles las mentes de miles de personas."
+
+109
+0:04:31.26,000 --> 0:04:33,000
+Y mi otro lado nerd pensó:
+
+110
+0:04:33.26,000 --> 0:04:36,000
+"Esto es horrible. Esto es demasiado extraño.
+
+111
+0:04:36.26,000 --> 0:04:38,000
+¿Qué significa esto para el futuro de la humanidad,
+
+112
+0:04:38.26,000 --> 0:04:4,000
+donde todos estaremos conectados a esta cosa gigantesca?"
+
+113
+0:04:40.26,000 --> 0:04:42,000
+Probablemente estaba siendo un poco extremo.
+
+114
+0:04:42.26,000 --> 0:04:44,000
+Pero ¿qué significa cuando no conocemos el contexto para lo que estamos haciendo,
+
+115
+0:04:44.26,000 --> 0:04:46,000
+y sólo estamos haciendo estos pequeños trabajos?
+
+116
+0:04:46.26,000 --> 0:04:48,000
+Así que creé esta herramienta de dibujo.
+
+117
+0:04:48.26,000 --> 0:04:5,000
+Le pedí a la gente que dibujara una oveja mirando hacia la izquierda.
+
+118
+0:04:50.26,000 --> 0:04:52,000
+Y les dije: "Te pagaré dos centavos por lo que me des."
+
+119
+0:04:52.26,000 --> 0:04:55,000
+Y empecé a recolectar ovejas.
+
+120
+0:04:55.26,000 --> 0:04:58,000
+Y recibí muchas, muchas ovejas diferentes.
+
+121
+0:04:59.26,000 --> 0:05:01,000
+Un montón de ovejas.
+
+122
+0:05:01.26,000 --> 0:05:03,000
+Tomé las primeras 10 mil ovejas recibidas
+
+123
+0:05:03.26,000 --> 0:05:06,000
+y las puse en un sitio web llamado TheSheepMarket.com
+
+124
+0:05:06.26,000 --> 0:05:09,000
+donde se pueden comprar colecciones de 20 ovejas.
+
+125
+0:05:09.26,000 --> 0:05:11,000
+No pueden elegir ovejas específicas,
+
+126
+0:05:11.26,000 --> 0:05:15,000
+pero pueden comprar un bloque de estampillas para tenerlas.
+
+127
+0:05:15.26,000 --> 0:05:17,000
+Y yuxtapuesto sobre esta grilla
+
+128
+0:05:17.26,000 --> 0:05:19,000
+se ve en realidad, cuando pasas sobre cada oveja,
+
+129
+0:05:19.26,000 --> 0:05:22,000
+la humanidad detrás de este proceso sumamente mecánico.
+
+130
+0:05:22.26,000 --> 0:05:24,000
+Creo que hay algo realmente interesante
+
+131
+0:05:24.26,000 --> 0:05:27,000
+al ver a la gente a medida que avanzan a través de este trabajo creativo;
+
+132
+0:05:27.26,000 --> 0:05:29,000
+algo que todos podemos comprender,
+
+133
+0:05:29.26,000 --> 0:05:32,000
+este proceso creativo de tratar de obtener algo partiendo de nada.
+
+134
+0:05:32.26,000 --> 0:05:34,000
+Creo que fue muy interesante yuxtaponer esta humanidad
+
+135
+0:05:34.26,000 --> 0:05:36,000
+con esta enorme red distribuida.
+
+136
+0:05:36.26,000 --> 0:05:39,000
+Es un poco asombroso lo que hicieron algunas personas.
+
+137
+0:05:39.26,000 --> 0:05:41,000
+Y aquí hay algunas estadísticas del proyecto.
+
+138
+0:05:41.26,000 --> 0:05:43,000
+La tasa de recepción aproximada fue de 11 ovejas por hora
+
+139
+0:05:43.26,000 --> 0:05:46,000
+lo que resultaría en un salario de 69 centavos de dólar por hora.
+
+140
+0:05:46.26,000 --> 0:05:48,000
+Hubo 662 ovejas rechazadas
+
+141
+0:05:48.26,000 --> 0:05:51,000
+que no cumplieron los criterios "ovejunos" y fueron expulsadas de la manada.
+
+142
+0:05:51.26,000 --> 0:05:53,000
+(Risas)
+
+143
+0:05:53.26,000 --> 0:05:56,000
+El tiempo tomado para producir el dibujo varió de cuatro segundos a 46 minutos.
+
+144
+0:05:56.26,000 --> 0:05:59,000
+Eso te da una idea de los diferentes grados de motivación y dedicación.
+
+145
+0:05:59.26,000 --> 0:06:02,000
+Hubieron 7.599 personas que contribuyeron al proyecto
+
+146
+0:06:02.26,000 --> 0:06:04,000
+o que al menos fueron direcciones IP únicas;
+
+147
+0:06:04.26,000 --> 0:06:06,000
+entonces fue alrededor de esa cantidad.
+
+148
+0:06:06.26,000 --> 0:06:1,000
+Pero sólo uno de ellos, de los 7.599, dijo esto:
+
+149
+0:06:10.26,000 --> 0:06:14,000
+¿Por qué? ¿Por qué haces esto? (Risas)
+
+150
+0:06:14.26,000 --> 0:06:16,000
+Lo cual me sorprendió mucho.
+
+151
+0:06:16.26,000 --> 0:06:19,000
+Esperaba que la gente se preguntara: "¿Por qué dibujé una oveja?"
+
+152
+0:06:19.26,000 --> 0:06:21,000
+Y creo que es una pregunta bastante válida.
+
+153
+0:06:21.26,000 --> 0:06:23,000
+Y hay muchas razones por las que elegí ovejas.
+
+154
+0:06:23.26,000 --> 0:06:25,000
+Las ovejas fueron los primeros animales
+
+155
+0:06:25.26,000 --> 0:06:27,000
+que fueron criados con subproductos procesados mecánicamente,
+
+156
+0:06:27.26,000 --> 0:06:29,000
+los primeros en ser selectivamente criados para características productivas,
+
+157
+0:06:29.26,000 --> 0:06:31,000
+el primer animal en ser clonado.
+
+158
+0:06:31.26,000 --> 0:06:33,000
+Obviamente, pensamos en ovejas como seguidoras.
+
+159
+0:06:33.26,000 --> 0:06:35,000
+Y está esta conexión a "Le Petit Prince" (El Principito)
+
+160
+0:06:35.26,000 --> 0:06:37,000
+donde el narrador le pide al príncipe que dibuje una oveja.
+
+161
+0:06:37.26,000 --> 0:06:39,000
+Él dibuja oveja tras oveja.
+
+162
+0:06:39.26,000 --> 0:06:41,000
+El narrador sólo queda satisfecho cuando dibuja una caja.
+
+163
+0:06:41.26,000 --> 0:06:43,000
+Y él dice: "No se trata de una representación científica de una oveja.
+
+164
+0:06:43.26,000 --> 0:06:46,000
+Se trata de tu propia interpretación y de hacer algo diferente."
+
+165
+0:06:46.26,000 --> 0:06:48,000
+Y eso me gusta.
+
+166
+0:06:48.26,000 --> 0:06:5,000
+Y este es un clip de "Tiempos modernos" de Charlie Chaplin.
+
+167
+0:06:50.26,000 --> 0:06:53,000
+Muestra a Charlie Chaplin enfrentándose a algunos de los cambios principales
+
+168
+0:06:53.26,000 --> 0:06:55,000
+de la Revolución Industrial.
+
+169
+0:06:55.26,000 --> 0:06:57,000
+En ese entonces, ya no eran fabricantes de zapatos,
+
+170
+0:06:57.26,000 --> 0:06:59,000
+sino que ahora habían personas pegando suelas en los zapatos de la gente.
+
+171
+0:06:59.26,000 --> 0:07:02,000
+Y la idea de la relación entre una persona y su trabajo cambió mucho.
+
+172
+0:07:02.26,000 --> 0:07:04,000
+Así que pensé que era un clip interesante para
+
+173
+0:07:04.26,000 --> 0:07:06,000
+dividir en 16 pedazos
+
+174
+0:07:06.26,000 --> 0:07:09,000
+y meter en el Turco Mecánico con una herramienta de dibujo.
+
+175
+0:07:09.26,000 --> 0:07:12,000
+Básicamente, esto permitió: lo que se ve en el lado izquierdo es el original,
+
+176
+0:07:12.26,000 --> 0:07:14,000
+y en el lado derecho se ve la imagen
+
+177
+0:07:14.26,000 --> 0:07:16,000
+interpretada por 16 personas
+
+178
+0:07:16.26,000 --> 0:07:18,000
+que no tienen idea de qué es lo que están haciendo.
+
+179
+0:07:18.26,000 --> 0:07:2,000
+Y esta fue la inspiración para un proyecto
+
+180
+0:07:20.26,000 --> 0:07:22,000
+en el cual trabajé con mi amigo Takashi Kawashima.
+
+181
+0:07:22.26,000 --> 0:07:24,000
+Decidimos utilizar el Turco Mecánico para su propósito original,
+
+182
+0:07:24.26,000 --> 0:07:26,000
+el cual es generar dinero.
+
+183
+0:07:26.26,000 --> 0:07:29,000
+Así que tomamos un billete de 100 dólares y lo dividimos en 10 mil trozos pequeñísimos
+
+184
+0:07:29.26,000 --> 0:07:31,000
+y los metimos al Turco Mecánico.
+
+185
+0:07:31.26,000 --> 0:07:33,000
+Le pedimos a la gente que dibujara lo que veían.
+
+186
+0:07:33.26,000 --> 0:07:35,000
+Pero aquí no hay criterios “ovejunos”.
+
+187
+0:07:35.26,000 --> 0:07:38,000
+Si la gente dibujaba una persona a rayas o una carita sonriente,
+
+188
+0:07:38.26,000 --> 0:07:4,000
+quedaba efectivamente metida en el billete.
+
+189
+0:07:40.26,000 --> 0:07:42,000
+Así que lo que vemos es en realidad una representación de cuan bien la gente hizo
+
+190
+0:07:42.26,000 --> 0:07:44,000
+lo que se le pidió que hiciera.
+
+191
+0:07:44.26,000 --> 0:07:46,000
+Así que tomamos estos billetes de cien dólares
+
+192
+0:07:46.26,000 --> 0:07:48,000
+y los pusimos en un sitio web llamado TenThousandsCents.com,
+
+193
+0:07:48.26,000 --> 0:07:51,000
+donde pueden ir y navegar por todas las distintas contribuciones.
+
+194
+0:07:51.26,000 --> 0:07:54,000
+Y también pueden cambiar billetes reales de 100 dólares por estos billetes falsos
+
+195
+0:07:54.26,000 --> 0:07:57,000
+y hacer una donación al Proyecto de Laptops de Cien Dólares,
+
+196
+0:07:57.26,000 --> 0:08:,000
+que ahora se conoce como Un Computador Por Niño.
+
+197
+0:08:00.26,000 --> 0:08:02,000
+Nuevamente, aquí se ven todos los distintos aportes.
+
+198
+0:08:02.26,000 --> 0:08:04,000
+Pueden ver que algunos hicieron hermosas versiones con punteado,
+
+199
+0:08:04.26,000 --> 0:08:06,000
+como esta acá arriba;
+
+200
+0:08:06.26,000 --> 0:08:09,000
+pasaron mucho tiempo haciendo versiones realistas.
+
+201
+0:08:09.26,000 --> 0:08:12,000
+Y otras personas que dibujaron personas a rayas o caritas sonrientes.
+
+202
+0:08:12.26,000 --> 0:08:14,000
+Aquí en el lado derecho al medio
+
+203
+0:08:14.26,000 --> 0:08:17,000
+verán que un tipo escribió: "$¡¡¡0.01!!! ¿En serio?
+
+204
+0:08:17.26,000 --> 0:08:21,000
+¿Es todo lo que me pagarán por esto?"
+
+205
+0:08:21.26,000 --> 0:08:23,000
+(Risas)
+
+206
+0:08:23.26,000 --> 0:08:25,000
+Y el último proyecto del Turco Mecánico del que les voy a hablar
+
+207
+0:08:25.26,000 --> 0:08:27,000
+se llama Bicicleta Construida para 2000.
+
+208
+0:08:27.26,000 --> 0:08:29,000
+Esta es una colaboración con mi amigo Daniel Massey.
+
+209
+0:08:29.26,000 --> 0:08:31,000
+Puede que reconozcan a estos dos tipos.
+
+210
+0:08:31.26,000 --> 0:08:34,000
+Son Max Mathews y John Kelly de los Laboratorios Bell en los años 60,
+
+211
+0:08:34.26,000 --> 0:08:36,000
+donde crearon la canción "Daisy Bell",
+
+212
+0:08:36.26,000 --> 0:08:38,000
+que fue la primera canción cantada por un computador.
+
+213
+0:08:38.26,000 --> 0:08:4,000
+Quizás puedan reconocerla de "2001: Una odisea del espacio".
+
+214
+0:08:40.26,000 --> 0:08:43,000
+Cuando HAL está muriendo al final de la película empieza a cantar esta canción,
+
+215
+0:08:43.26,000 --> 0:08:46,000
+referenciando cuando los computadores se hicieron humanos.
+
+216
+0:08:46.26,000 --> 0:08:48,000
+Así que re-sintetizamos esta canción.
+
+217
+0:08:48.26,000 --> 0:08:5,000
+Y así es como termino sonando.
+
+218
+0:08:50.26,000 --> 0:08:52,000
+Dividimos todas las notas
+
+219
+0:08:52.26,000 --> 0:08:55,000
+y también los fonemas en el canto.
+
+220
+0:08:55.26,000 --> 0:08:59,000

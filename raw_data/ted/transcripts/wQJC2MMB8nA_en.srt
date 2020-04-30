@@ -1,0 +1,1692 @@
+1
+0:00:16.01,000 --> 0:00:18,000
+So, security is two different things:
+
+2
+0:00:18.31,000 --> 0:00:2,000
+it's a feeling, and it's a reality.
+
+3
+0:00:20.86,000 --> 0:00:21,000
+And they're different.
+
+4
+0:00:22.309,000 --> 0:00:25,000
+You could feel secure even if you're not.
+
+5
+0:00:25.76,000 --> 0:00:26,000
+And you can be secure
+
+6
+0:00:27.76,000 --> 0:00:28,000
+even if you don't feel it.
+
+7
+0:00:29.634,000 --> 0:00:31,000
+Really, we have two separate concepts
+
+8
+0:00:31.775,000 --> 0:00:32,000
+mapped onto the same word.
+
+9
+0:00:33.96,000 --> 0:00:36,000
+And what I want to do in this talk is to split them apart --
+
+10
+0:00:37.61,000 --> 0:00:4,000
+figuring out when they diverge and how they converge.
+
+11
+0:00:41.711,000 --> 0:00:43,000
+And language is actually a problem here.
+
+12
+0:00:44.01,000 --> 0:00:46,000
+There aren't a lot of good words
+
+13
+0:00:46.11,000 --> 0:00:48,000
+for the concepts we're going to talk about.
+
+14
+0:00:49.295,000 --> 0:00:53,000
+So if you look at security from economic terms,
+
+15
+0:00:53.439,000 --> 0:00:54,000
+it's a trade-off.
+
+16
+0:00:55.11,000 --> 0:00:59,000
+Every time you get some security, you're always trading off something.
+
+17
+0:00:59.266,000 --> 0:01:,000
+Whether this is a personal decision --
+
+18
+0:01:01.135,000 --> 0:01:04,000
+whether you're going to install a burglar alarm in your home --
+
+19
+0:01:04.171,000 --> 0:01:05,000
+or a national decision,
+
+20
+0:01:05.352,000 --> 0:01:07,000
+where you're going to invade a foreign country --
+
+21
+0:01:07.686,000 --> 0:01:1,000
+you're going to trade off something: money or time, convenience, capabilities,
+
+22
+0:01:11.492,000 --> 0:01:13,000
+maybe fundamental liberties.
+
+23
+0:01:13.518,000 --> 0:01:16,000
+And the question to ask when you look at a security anything
+
+24
+0:01:16.816,000 --> 0:01:19,000
+is not whether this makes us safer,
+
+25
+0:01:20.222,000 --> 0:01:22,000
+but whether it's worth the trade-off.
+
+26
+0:01:22.461,000 --> 0:01:25,000
+You've heard in the past several years, the world is safer
+
+27
+0:01:25.714,000 --> 0:01:26,000
+because Saddam Hussein is not in power.
+
+28
+0:01:27.628,000 --> 0:01:29,000
+That might be true, but it's not terribly relevant.
+
+29
+0:01:30.255,000 --> 0:01:32,000
+The question is: Was it worth it?
+
+30
+0:01:33.11,000 --> 0:01:35,000
+And you can make your own decision,
+
+31
+0:01:35.593,000 --> 0:01:37,000
+and then you'll decide whether the invasion was worth it.
+
+32
+0:01:38.35,000 --> 0:01:41,000
+That's how you think about security: in terms of the trade-off.
+
+33
+0:01:41.935,000 --> 0:01:43,000
+Now, there's often no right or wrong here.
+
+34
+0:01:45.208,000 --> 0:01:48,000
+Some of us have a burglar alarm system at home and some of us don't.
+
+35
+0:01:48.54,000 --> 0:01:5,000
+And it'll depend on where we live,
+
+36
+0:01:51.295,000 --> 0:01:52,000
+whether we live alone or have a family,
+
+37
+0:01:53.245,000 --> 0:01:54,000
+how much cool stuff we have,
+
+38
+0:01:54.937,000 --> 0:01:57,000
+how much we're willing to accept the risk of theft.
+
+39
+0:01:58.943,000 --> 0:02:,000
+In politics also, there are different opinions.
+
+40
+0:02:02.459,000 --> 0:02:06,000
+A lot of times, these trade-offs are about more than just security,
+
+41
+0:02:06.918,000 --> 0:02:07,000
+and I think that's really important.
+
+42
+0:02:08.807,000 --> 0:02:11,000
+Now, people have a natural intuition about these trade-offs.
+
+43
+0:02:12.588,000 --> 0:02:13,000
+We make them every day.
+
+44
+0:02:14.807,000 --> 0:02:17,000
+Last night in my hotel room, when I decided to double-lock the door,
+
+45
+0:02:18.364,000 --> 0:02:2,000
+or you in your car when you drove here;
+
+46
+0:02:21.191,000 --> 0:02:22,000
+when we go eat lunch
+
+47
+0:02:22.693,000 --> 0:02:24,000
+and decide the food's not poison and we'll eat it.
+
+48
+0:02:25.325,000 --> 0:02:28,000
+We make these trade-offs again and again,
+
+49
+0:02:28.51,000 --> 0:02:29,000
+multiple times a day.
+
+50
+0:02:30.11,000 --> 0:02:31,000
+We often won't even notice them.
+
+51
+0:02:31.723,000 --> 0:02:33,000
+They're just part of being alive; we all do it.
+
+52
+0:02:34.373,000 --> 0:02:35,000
+Every species does it.
+
+53
+0:02:36.474,000 --> 0:02:38,000
+Imagine a rabbit in a field, eating grass.
+
+54
+0:02:39.36,000 --> 0:02:4,000
+And the rabbit sees a fox.
+
+55
+0:02:41.856,000 --> 0:02:43,000
+That rabbit will make a security trade-off:
+
+56
+0:02:43.929,000 --> 0:02:44,000
+"Should I stay, or should I flee?"
+
+57
+0:02:46.38,000 --> 0:02:47,000
+And if you think about it,
+
+58
+0:02:48.023,000 --> 0:02:5,000
+the rabbits that are good at making that trade-off
+
+59
+0:02:50.602,000 --> 0:02:51,000
+will tend to live and reproduce,
+
+60
+0:02:52.604,000 --> 0:02:54,000
+and the rabbits that are bad at it
+
+61
+0:02:54.935,000 --> 0:02:55,000
+will get eaten or starve.
+
+62
+0:02:56.958,000 --> 0:02:57,000
+So you'd think
+
+63
+0:02:59.573,000 --> 0:03:03,000
+that us, as a successful species on the planet -- you, me, everybody --
+
+64
+0:03:03.906,000 --> 0:03:05,000
+would be really good at making these trade-offs.
+
+65
+0:03:07.126,000 --> 0:03:1,000
+Yet it seems, again and again, that we're hopelessly bad at it.
+
+66
+0:03:11.768,000 --> 0:03:13,000
+And I think that's a fundamentally interesting question.
+
+67
+0:03:14.594,000 --> 0:03:15,000
+I'll give you the short answer.
+
+68
+0:03:16.491,000 --> 0:03:18,000
+The answer is, we respond to the feeling of security
+
+69
+0:03:19.166,000 --> 0:03:2,000
+and not the reality.
+
+70
+0:03:21.864,000 --> 0:03:23,000
+Now, most of the time, that works.
+
+71
+0:03:25.538,000 --> 0:03:26,000
+Most of the time,
+
+72
+0:03:27.065,000 --> 0:03:29,000
+feeling and reality are the same.
+
+73
+0:03:30.776,000 --> 0:03:33,000
+Certainly that's true for most of human prehistory.
+
+74
+0:03:35.633,000 --> 0:03:37,000
+We've developed this ability
+
+75
+0:03:38.365,000 --> 0:03:4,000
+because it makes evolutionary sense.
+
+76
+0:03:41.985,000 --> 0:03:44,000
+One way to think of it is that we're highly optimized
+
+77
+0:03:45.283,000 --> 0:03:46,000
+for risk decisions
+
+78
+0:03:47.11,000 --> 0:03:49,000
+that are endemic to living in small family groups
+
+79
+0:03:49.677,000 --> 0:03:51,000
+in the East African Highlands in 100,000 BC.
+
+80
+0:03:52.792,000 --> 0:03:54,000
+2010 New York, not so much.
+
+81
+0:03:56.879,000 --> 0:03:59,000
+Now, there are several biases in risk perception.
+
+82
+0:04:00.109,000 --> 0:04:01,000
+A lot of good experiments in this.
+
+83
+0:04:01.874,000 --> 0:04:04,000
+And you can see certain biases that come up again and again.
+
+84
+0:04:05.501,000 --> 0:04:06,000
+I'll give you four.
+
+85
+0:04:06.878,000 --> 0:04:09,000
+We tend to exaggerate spectacular and rare risks
+
+86
+0:04:10.11,000 --> 0:04:11,000
+and downplay common risks --
+
+87
+0:04:12.11,000 --> 0:04:13,000
+so, flying versus driving.
+
+88
+0:04:14.451,000 --> 0:04:17,000
+The unknown is perceived to be riskier than the familiar.
+
+89
+0:04:21.47,000 --> 0:04:22,000
+One example would be:
+
+90
+0:04:22.933,000 --> 0:04:24,000
+people fear kidnapping by strangers,
+
+91
+0:04:25.57,000 --> 0:04:28,000
+when the data supports that kidnapping by relatives is much more common.
+
+92
+0:04:29.23,000 --> 0:04:3,000
+This is for children.
+
+93
+0:04:30.828,000 --> 0:04:34,000
+Third, personified risks are perceived to be greater
+
+94
+0:04:34.892,000 --> 0:04:35,000
+than anonymous risks.
+
+95
+0:04:36.419,000 --> 0:04:38,000
+So, Bin Laden is scarier because he has a name.
+
+96
+0:04:40.182,000 --> 0:04:41,000
+And the fourth is:
+
+97
+0:04:41.569,000 --> 0:04:45,000
+people underestimate risks in situations they do control
+
+98
+0:04:46.348,000 --> 0:04:48,000
+and overestimate them in situations they don't control.
+
+99
+0:04:49.335,000 --> 0:04:52,000
+So once you take up skydiving or smoking,
+
+100
+0:04:52.743,000 --> 0:04:53,000
+you downplay the risks.
+
+101
+0:04:55.037,000 --> 0:04:58,000
+If a risk is thrust upon you -- terrorism is a good example --
+
+102
+0:04:58.114,000 --> 0:04:59,000
+you'll overplay it,
+
+103
+0:04:59.295,000 --> 0:05:01,000
+because you don't feel like it's in your control.
+
+104
+0:05:02.157,000 --> 0:05:05,000
+There are a bunch of other of these cognitive biases,
+
+105
+0:05:05.674,000 --> 0:05:07,000
+that affect our risk decisions.
+
+106
+0:05:08.832,000 --> 0:05:1,000
+There's the availability heuristic,
+
+107
+0:05:11.11,000 --> 0:05:15,000
+which basically means we estimate the probability of something
+
+108
+0:05:15.314,000 --> 0:05:18,000
+by how easy it is to bring instances of it to mind.
+
+109
+0:05:19.831,000 --> 0:05:2,000
+So you can imagine how that works.
+
+110
+0:05:21.632,000 --> 0:05:24,000
+If you hear a lot about tiger attacks, there must be a lot of tigers around.
+
+111
+0:05:25.284,000 --> 0:05:28,000
+You don't hear about lion attacks, there aren't a lot of lions around.
+
+112
+0:05:28.652,000 --> 0:05:3,000
+This works, until you invent newspapers,
+
+113
+0:05:30.973,000 --> 0:05:34,000
+because what newspapers do is repeat again and again
+
+114
+0:05:35.403,000 --> 0:05:36,000
+rare risks.
+
+115
+0:05:36.833,000 --> 0:05:38,000
+I tell people: if it's in the news, don't worry about it,
+
+116
+0:05:39.722,000 --> 0:05:43,000
+because by definition, news is something that almost never happens.
+
+117
+0:05:44.021,000 --> 0:05:45,000
+(Laughter)
+
+118
+0:05:45.814,000 --> 0:05:47,000
+When something is so common, it's no longer news.
+
+119
+0:05:48.761,000 --> 0:05:5,000
+Car crashes, domestic violence --
+
+120
+0:05:50.983,000 --> 0:05:51,000
+those are the risks you worry about.
+
+121
+0:05:53.713,000 --> 0:05:55,000
+We're also a species of storytellers.
+
+122
+0:05:55.885,000 --> 0:05:57,000
+We respond to stories more than data.
+
+123
+0:05:58.514,000 --> 0:06:,000
+And there's some basic innumeracy going on.
+
+124
+0:06:00.944,000 --> 0:06:03,000
+I mean, the joke "One, two, three, many" is kind of right.
+
+125
+0:06:04.11,000 --> 0:06:06,000
+We're really good at small numbers.
+
+126
+0:06:06.456,000 --> 0:06:08,000
+One mango, two mangoes, three mangoes,
+
+127
+0:06:08.816,000 --> 0:06:09,000
+10,000 mangoes, 100,000 mangoes --
+
+128
+0:06:10.817,000 --> 0:06:12,000
+it's still more mangoes you can eat before they rot.
+
+129
+0:06:13.818,000 --> 0:06:16,000
+So one half, one quarter, one fifth -- we're good at that.
+
+130
+0:06:17.11,000 --> 0:06:18,000
+One in a million, one in a billion --
+
+131
+0:06:19.11,000 --> 0:06:2,000
+they're both almost never.
+
+132
+0:06:21.546,000 --> 0:06:24,000
+So we have trouble with the risks that aren't very common.
+
+133
+0:06:25.76,000 --> 0:06:26,000
+And what these cognitive biases do
+
+134
+0:06:27.761,000 --> 0:06:29,000
+is they act as filters between us and reality.
+
+135
+0:06:31.284,000 --> 0:06:34,000
+And the result is that feeling and reality get out of whack,
+
+136
+0:06:35.181,000 --> 0:06:36,000
+they get different.
+
+137
+0:06:37.37,000 --> 0:06:4,000
+Now, you either have a feeling -- you feel more secure than you are,
+
+138
+0:06:41.325,000 --> 0:06:42,000
+there's a false sense of security.
+
+139
+0:06:43.034,000 --> 0:06:46,000
+Or the other way, and that's a false sense of insecurity.
+
+140
+0:06:47.015,000 --> 0:06:49,000
+I write a lot about "security theater,"
+
+141
+0:06:49.919,000 --> 0:06:51,000
+which are products that make people feel secure,
+
+142
+0:06:52.623,000 --> 0:06:53,000
+but don't actually do anything.
+
+143
+0:06:54.624,000 --> 0:06:56,000
+There's no real word for stuff that makes us secure,
+
+144
+0:06:57.205,000 --> 0:06:58,000
+but doesn't make us feel secure.
+
+145
+0:06:59.11,000 --> 0:07:01,000
+Maybe it's what the CIA is supposed to do for us.
+
+146
+0:07:03.539,000 --> 0:07:05,000
+So back to economics.
+
+147
+0:07:05.731,000 --> 0:07:08,000
+If economics, if the market, drives security,
+
+148
+0:07:09.411,000 --> 0:07:13,000
+and if people make trade-offs based on the feeling of security,
+
+149
+0:07:14.282,000 --> 0:07:18,000
+then the smart thing for companies to do for the economic incentives
+
+150
+0:07:18.986,000 --> 0:07:2,000
+is to make people feel secure.
+
+151
+0:07:21.942,000 --> 0:07:23,000
+And there are two ways to do this.
+
+152
+0:07:24.296,000 --> 0:07:26,000
+One, you can make people actually secure
+
+153
+0:07:27.11,000 --> 0:07:28,000
+and hope they notice.
+
+154
+0:07:28.597,000 --> 0:07:3,000
+Or two, you can make people just feel secure
+
+155
+0:07:31.465,000 --> 0:07:32,000
+and hope they don't notice.
+
+156
+0:07:34.401,000 --> 0:07:35,000
+Right?
+
+157
+0:07:35.8,000 --> 0:07:38,000
+So what makes people notice?
+
+158
+0:07:39.5,000 --> 0:07:4,000
+Well, a couple of things:
+
+159
+0:07:40.906,000 --> 0:07:42,000
+understanding of the security,
+
+160
+0:07:43.196,000 --> 0:07:44,000
+of the risks, the threats,
+
+161
+0:07:45.11,000 --> 0:07:46,000
+the countermeasures, how they work.
+
+162
+0:07:47.008,000 --> 0:07:49,000
+But if you know stuff, you're more likely
+
+163
+0:07:50.155,000 --> 0:07:52,000
+to have your feelings match reality.
+
+164
+0:07:53.11,000 --> 0:07:56,000
+Enough real-world examples helps.
+
+165
+0:07:56.279,000 --> 0:07:58,000
+We all know the crime rate in our neighborhood,
+
+166
+0:07:58.862,000 --> 0:08:,000
+because we live there, and we get a feeling about it
+
+167
+0:08:01.687,000 --> 0:08:02,000
+that basically matches reality.
+
+168
+0:08:05.038,000 --> 0:08:07,000
+Security theater is exposed
+
+169
+0:08:07.269,000 --> 0:08:09,000
+when it's obvious that it's not working properly.
+
+170
+0:08:11.209,000 --> 0:08:13,000
+OK. So what makes people not notice?
+
+171
+0:08:14.443,000 --> 0:08:15,000
+Well, a poor understanding.
+
+172
+0:08:16.642,000 --> 0:08:19,000
+If you don't understand the risks, you don't understand the costs,
+
+173
+0:08:19.81,000 --> 0:08:21,000
+you're likely to get the trade-off wrong,
+
+174
+0:08:21.991,000 --> 0:08:23,000
+and your feeling doesn't match reality.
+
+175
+0:08:24.503,000 --> 0:08:25,000
+Not enough examples.
+
+176
+0:08:26.879,000 --> 0:08:29,000
+There's an inherent problem with low-probability events.
+
+177
+0:08:30.919,000 --> 0:08:33,000
+If, for example, terrorism almost never happens,
+
+178
+0:08:34.756,000 --> 0:08:38,000
+it's really hard to judge the efficacy of counter-terrorist measures.
+
+179
+0:08:40.523,000 --> 0:08:43,000
+This is why you keep sacrificing virgins,
+
+180
+0:08:44.11,000 --> 0:08:46,000
+and why your unicorn defenses are working just great.
+
+181
+0:08:46.809,000 --> 0:08:48,000
+There aren't enough examples of failures.
+
+182
+0:08:51.109,000 --> 0:08:53,000
+Also, feelings that cloud the issues --
+
+183
+0:08:53.92,000 --> 0:08:57,000
+the cognitive biases I talked about earlier: fears, folk beliefs --
+
+184
+0:08:58.727,000 --> 0:09:,000
+basically, an inadequate model of reality.
+
+185
+0:09:03.403,000 --> 0:09:05,000
+So let me complicate things.
+
+186
+0:09:05.598,000 --> 0:09:06,000
+I have feeling and reality.
+
+187
+0:09:07.599,000 --> 0:09:09,000
+I want to add a third element. I want to add "model."
+
+188
+0:09:10.839,000 --> 0:09:12,000
+Feeling and model are in our head,
+
+189
+0:09:13.213,000 --> 0:09:16,000
+reality is the outside world; it doesn't change, it's real.
+
+190
+0:09:17.8,000 --> 0:09:19,000
+Feeling is based on our intuition,
+
+191
+0:09:20.038,000 --> 0:09:21,000
+model is based on reason.
+
+192
+0:09:22.383,000 --> 0:09:24,000
+That's basically the difference.
+
+193
+0:09:24.446,000 --> 0:09:25,000
+In a primitive and simple world,
+
+194
+0:09:26.447,000 --> 0:09:28,000
+there's really no reason for a model,
+
+195
+0:09:30.253,000 --> 0:09:32,000
+because feeling is close to reality.
+
+196
+0:09:32.572,000 --> 0:09:33,000
+You don't need a model.
+
+197
+0:09:34.596,000 --> 0:09:36,000
+But in a modern and complex world,
+
+198
+0:09:37.556,000 --> 0:09:4,000
+you need models to understand a lot of the risks we face.
+
+199
+0:09:42.362,000 --> 0:09:44,000
+There's no feeling about germs.
+
+200
+0:09:45.11,000 --> 0:09:47,000
+You need a model to understand them.
+
+201
+0:09:48.157,000 --> 0:09:51,000
+This model is an intelligent representation of reality.
+
+202
+0:09:52.411,000 --> 0:09:56,000
+It's, of course, limited by science, by technology.
+
+203
+0:09:58.249,000 --> 0:10:,000
+We couldn't have a germ theory of disease
+
+204
+0:10:00.599,000 --> 0:10:02,000
+before we invented the microscope to see them.
+
+205
+0:10:04.316,000 --> 0:10:06,000
+It's limited by our cognitive biases.
+
+206
+0:10:08.11,000 --> 0:10:1,000
+But it has the ability to override our feelings.
+
+207
+0:10:11.507,000 --> 0:10:14,000
+Where do we get these models? We get them from others.
+
+208
+0:10:14.635,000 --> 0:10:19,000
+We get them from religion, from culture, teachers, elders.
+
+209
+0:10:20.298,000 --> 0:10:23,000
+A couple years ago, I was in South Africa on safari.
+
+210
+0:10:23.748,000 --> 0:10:25,000
+The tracker I was with grew up in Kruger National Park.
+
+211
+0:10:26.534,000 --> 0:10:28,000
+He had some very complex models of how to survive.
+
+212
+0:10:29.8,000 --> 0:10:32,000
+And it depended on if you were attacked by a lion, leopard, rhino, or elephant --
+
+213
+0:10:33.737,000 --> 0:10:35,000
+and when you had to run away, when you couldn't run away,
+
+214
+0:10:36.495,000 --> 0:10:39,000
+when you had to climb a tree, when you could never climb a tree.
+
+215
+0:10:39.602,000 --> 0:10:4,000
+I would have died in a day.
+
+216
+0:10:42.16,000 --> 0:10:45,000
+But he was born there, and he understood how to survive.
+
+217
+0:10:46.49,000 --> 0:10:47,000
+I was born in New York City.
+
+218
+0:10:48.11,000 --> 0:10:51,000
+I could have taken him to New York, and he would have died in a day.
+
+219
+0:10:51.385,000 --> 0:10:52,000
+(Laughter)
+
+220
+0:10:52.41,000 --> 0:10:56,000
+Because we had different models based on our different experiences.
+
+221
+0:10:58.291,000 --> 0:11:,000
+Models can come from the media,
+
+222
+0:11:00.784,000 --> 0:11:01,000
+from our elected officials ...
+
+223
+0:11:03.234,000 --> 0:11:06,000
+Think of models of terrorism,
+
+224
+0:11:06.339,000 --> 0:11:08,000
+child kidnapping,
+
+225
+0:11:08.56,000 --> 0:11:1,000
+airline safety, car safety.
+
+226
+0:11:11.539,000 --> 0:11:12,000
+Models can come from industry.
+
+227
+0:11:14.348,000 --> 0:11:17,000
+The two I'm following are surveillance cameras,
+
+228
+0:11:17.59,000 --> 0:11:18,000
+ID cards,
+
+229
+0:11:19.11,000 --> 0:11:22,000
+quite a lot of our computer security models come from there.
+
+230
+0:11:22.264,000 --> 0:11:24,000
+A lot of models come from science.
+
+231
+0:11:24.515,000 --> 0:11:25,000
+Health models are a great example.
+
+232
+0:11:26.376,000 --> 0:11:29,000
+Think of cancer, bird flu, swine flu, SARS.
+
+233
+0:11:29.942,000 --> 0:11:33,000
+All of our feelings of security about those diseases
+
+234
+0:11:34.836,000 --> 0:11:38,000
+come from models given to us, really, by science filtered through the media.
+
+235
+0:11:41.038,000 --> 0:11:42,000
+So models can change.
+
+236
+0:11:43.482,000 --> 0:11:45,000
+Models are not static.
+
+237
+0:11:45.609,000 --> 0:11:48,000
+As we become more comfortable in our environments,
+
+238
+0:11:48.873,000 --> 0:11:51,000
+our model can move closer to our feelings.
+
+239
+0:11:53.965,000 --> 0:11:55,000
+So an example might be,
+
+240
+0:11:56.329,000 --> 0:11:57,000
+if you go back 100 years ago,
+
+241
+0:11:57.949,000 --> 0:12:,000
+when electricity was first becoming common,
+
+242
+0:12:01.401,000 --> 0:12:02,000
+there were a lot of fears about it.
+
+243
+0:12:03.128,000 --> 0:12:05,000
+There were people who were afraid to push doorbells,
+
+244
+0:12:05.63,000 --> 0:12:08,000
+because there was electricity in there, and that was dangerous.
+
+245
+0:12:08.659,000 --> 0:12:1,000
+For us, we're very facile around electricity.
+
+246
+0:12:11.552,000 --> 0:12:13,000
+We change light bulbs without even thinking about it.
+
+247
+0:12:14.948,000 --> 0:12:2,000
+Our model of security around electricity is something we were born into.
+
+248
+0:12:21.735,000 --> 0:12:23,000
+It hasn't changed as we were growing up.
+
+249
+0:12:24.273,000 --> 0:12:25,000
+And we're good at it.
+
+250
+0:12:27.38,000 --> 0:12:31,000
+Or think of the risks on the Internet across generations --
+
+251
+0:12:31.903,000 --> 0:12:33,000
+how your parents approach Internet security,
+
+252
+0:12:34.024,000 --> 0:12:35,000
+versus how you do,
+
+253
+0:12:35.664,000 --> 0:12:36,000
+versus how our kids will.
+
+254
+0:12:38.3,000 --> 0:12:4,000
+Models eventually fade into the background.
+
+255
+0:12:42.427,000 --> 0:12:44,000
+"Intuitive" is just another word for familiar.
+
+256
+0:12:45.887,000 --> 0:12:48,000
+So as your model is close to reality and it converges with feelings,
+
+257
+0:12:49.761,000 --> 0:12:5,000
+you often don't even know it's there.
+
+258
+0:12:53.239,000 --> 0:12:56,000
+A nice example of this came from last year and swine flu.
+
+259
+0:12:58.281,000 --> 0:13:,000
+When swine flu first appeared,
+
+260
+0:13:00.305,000 --> 0:13:02,000
+the initial news caused a lot of overreaction.
+
+261
+0:13:03.562,000 --> 0:13:04,000
+Now, it had a name,
+
+262
+0:13:05.564,000 --> 0:13:07,000
+which made it scarier than the regular flu,
+
+263
+0:13:07.638,000 --> 0:13:08,000
+even though it was more deadly.
+
+264
+0:13:09.784,000 --> 0:13:12,000
+And people thought doctors should be able to deal with it.
+
+265
+0:13:13.459,000 --> 0:13:15,000
+So there was that feeling of lack of control.
+
+266
+0:13:16.007,000 --> 0:13:19,000
+And those two things made the risk more than it was.
+
+267
+0:13:19.14,000 --> 0:13:22,000
+As the novelty wore off and the months went by,
+
+268
+0:13:22.721,000 --> 0:13:24,000
+there was some amount of tolerance; people got used to it.
+
+269
+0:13:26.355,000 --> 0:13:28,000
+There was no new data, but there was less fear.
+
+270
+0:13:29.681,000 --> 0:13:31,000
+By autumn,
+
+271
+0:13:31.879,000 --> 0:13:34,000
+people thought the doctors should have solved this already.
+
+272
+0:13:35.722,000 --> 0:13:36,000
+And there's kind of a bifurcation:
+
+273
+0:13:37.706,000 --> 0:13:42,000
+people had to choose between fear and acceptance --
+
+274
+0:13:44.512,000 --> 0:13:45,000
+actually, fear and indifference --
+
+275
+0:13:46.18,000 --> 0:13:47,000
+and they kind of chose suspicion.
+
+276
+0:13:49.11,000 --> 0:13:52,000
+And when the vaccine appeared last winter,
+
+277
+0:13:52.245,000 --> 0:13:54,000
+there were a lot of people -- a surprising number --
+
+278
+0:13:54.78,000 --> 0:13:55,000
+who refused to get it.
+
+279
+0:13:58.777,000 --> 0:14:01,000
+And it's a nice example of how people's feelings of security change,
+
+280
+0:14:02.457,000 --> 0:14:03,000
+how their model changes,
+
+281
+0:14:04.084,000 --> 0:14:05,000
+sort of wildly,
+
+282
+0:14:05.776,000 --> 0:14:07,000
+with no new information, with no new input.
+
+283
+0:14:10.327,000 --> 0:14:11,000
+This kind of thing happens a lot.
+
+284
+0:14:13.199,000 --> 0:14:14,000
+I'm going to give one more complication.
+
+285
+0:14:15.194,000 --> 0:14:17,000
+We have feeling, model, reality.
+
+286
+0:14:18.64,000 --> 0:14:2,000
+I have a very relativistic view of security.
+
+287
+0:14:21.174,000 --> 0:14:22,000
+I think it depends on the observer.
+
+288
+0:14:23.695,000 --> 0:14:28,000
+And most security decisions have a variety of people involved.
+
+289
+0:14:29.792,000 --> 0:14:35,000
+And stakeholders with specific trade-offs will try to influence the decision.
+
+290
+0:14:36.355,000 --> 0:14:37,000
+And I call that their agenda.
+
+291
+0:14:39.512,000 --> 0:14:42,000
+And you see agenda -- this is marketing, this is politics --
+
+292
+0:14:43.481,000 --> 0:14:46,000
+trying to convince you to have one model versus another,
+
+293
+0:14:46.544,000 --> 0:14:47,000
+trying to convince you to ignore a model
+
+294
+0:14:48.552,000 --> 0:14:5,000
+and trust your feelings,
+
+295
+0:14:51.248,000 --> 0:14:53,000
+marginalizing people with models you don't like.
+
+296
+0:14:54.744,000 --> 0:14:55,000
+This is not uncommon.
+
+297
+0:14:57.61,000 --> 0:15:,000
+An example, a great example, is the risk of smoking.
+
+298
+0:15:02.196,000 --> 0:15:03,000
+In the history of the past 50 years,
+
+299
+0:15:04.003,000 --> 0:15:06,000
+the smoking risk shows how a model changes,
+
+300
+0:15:06.64,000 --> 0:15:1,000
+and it also shows how an industry fights against a model it doesn't like.
+
+301
+0:15:11.983,000 --> 0:15:14,000
+Compare that to the secondhand smoke debate --
+
+302
+0:15:15.11,000 --> 0:15:16,000
+probably about 20 years behind.
+
+303
+0:15:17.982,000 --> 0:15:18,000
+Think about seat belts.
+
+304
+0:15:19.621,000 --> 0:15:21,000
+When I was a kid, no one wore a seat belt.
+
+305
+0:15:21.669,000 --> 0:15:24,000
+Nowadays, no kid will let you drive if you're not wearing a seat belt.
+
+306
+0:15:26.633,000 --> 0:15:28,000
+Compare that to the airbag debate,
+
+307
+0:15:29.11,000 --> 0:15:3,000
+probably about 30 years behind.
+
+308
+0:15:32.006,000 --> 0:15:34,000
+All examples of models changing.
+
+309
+0:15:36.855,000 --> 0:15:38,000
+What we learn is that changing models is hard.
+
+310
+0:15:40.334,000 --> 0:15:42,000
+Models are hard to dislodge.
+
+311
+0:15:42.411,000 --> 0:15:43,000
+If they equal your feelings,
+
+312
+0:15:44.11,000 --> 0:15:45,000
+you don't even know you have a model.
+
+313
+0:15:47.11,000 --> 0:15:48,000
+And there's another cognitive bias
+
+314
+0:15:49.02,000 --> 0:15:51,000
+I'll call confirmation bias,
+
+315
+0:15:51.11,000 --> 0:15:55,000
+where we tend to accept data that confirms our beliefs
+
+316
+0:15:55.495,000 --> 0:15:57,000
+and reject data that contradicts our beliefs.
+
+317
+0:15:59.49,000 --> 0:16:02,000
+So evidence against our model, we're likely to ignore,
+
+318
+0:16:03.449,000 --> 0:16:04,000
+even if it's compelling.
+
+319
+0:16:04.721,000 --> 0:16:07,000
+It has to get very compelling before we'll pay attention.
+
+320
+0:16:08.99,000 --> 0:16:1,000
+New models that extend long periods of time are hard.
+
+321
+0:16:11.611,000 --> 0:16:12,000
+Global warming is a great example.
+
+322
+0:16:13.389,000 --> 0:16:16,000
+We're terrible at models that span 80 years.
+
+323
+0:16:16.855,000 --> 0:16:18,000
+We can do "to the next harvest."
+
+324
+0:16:18.942,000 --> 0:16:2,000
+We can often do "until our kids grow up."
+
+325
+0:16:21.76,000 --> 0:16:23,000
+But "80 years," we're just not good at.
+
+326
+0:16:24.975,000 --> 0:16:26,000
+So it's a very hard model to accept.
+
+327
+0:16:27.999,000 --> 0:16:29,000
+We can have both models in our head simultaneously --
+
+328
+0:16:31.912,000 --> 0:16:37,000
+that kind of problem where we're holding both beliefs together,
+
+329
+0:16:38.884,000 --> 0:16:39,000
+the cognitive dissonance.
+
+330
+0:16:40.278,000 --> 0:16:43,000
+Eventually, the new model will replace the old model.
+
+331
+0:16:44.164,000 --> 0:16:46,000
+Strong feelings can create a model.
+
+332
+0:16:47.411,000 --> 0:16:52,000
+September 11 created a security model in a lot of people's heads.
+
+333
+0:16:52.798,000 --> 0:16:55,000
+Also, personal experiences with crime can do it,
+
+334
+0:16:56.11,000 --> 0:16:57,000
+personal health scare,
+
+335
+0:16:57.513,000 --> 0:16:58,000
+a health scare in the news.
+
+336
+0:17:00.198,000 --> 0:17:03,000
+You'll see these called "flashbulb events" by psychiatrists.
+
+337
+0:17:04.183,000 --> 0:17:06,000
+They can create a model instantaneously,
+
+338
+0:17:06.668,000 --> 0:17:07,000
+because they're very emotive.
+
+339
+0:17:09.908,000 --> 0:17:1,000
+So in the technological world,
+
+340
+0:17:11.52,000 --> 0:17:14,000
+we don't have experience to judge models.
+
+341
+0:17:15.124,000 --> 0:17:17,000
+And we rely on others. We rely on proxies.
+
+342
+0:17:18.081,000 --> 0:17:2,000
+And this works, as long as it's the correct others.
+
+343
+0:17:21.183,000 --> 0:17:23,000
+We rely on government agencies
+
+344
+0:17:23.889,000 --> 0:17:27,000
+to tell us what pharmaceuticals are safe.
+
+345
+0:17:28.317,000 --> 0:17:29,000
+I flew here yesterday.
+
+346
+0:17:30.254,000 --> 0:17:31,000
+I didn't check the airplane.
+
+347
+0:17:32.699,000 --> 0:17:34,000
+I relied on some other group
+
+348
+0:17:35.318,000 --> 0:17:37,000
+to determine whether my plane was safe to fly.
+
+349
+0:17:37.779,000 --> 0:17:4,000
+We're here, none of us fear the roof is going to collapse on us,
+
+350
+0:17:41.101,000 --> 0:17:43,000
+not because we checked,
+
+351
+0:17:43.33,000 --> 0:17:46,000
+but because we're pretty sure the building codes here are good.
+
+352
+0:17:48.442,000 --> 0:17:5,000
+It's a model we just accept
+
+353
+0:17:51.455,000 --> 0:17:52,000
+pretty much by faith.
+
+354
+0:17:53.331,000 --> 0:17:54,000
+And that's OK.
+
+355
+0:17:57.966,000 --> 0:18:02,000
+Now, what we want is people to get familiar enough with better models,
+
+356
+0:18:03.863,000 --> 0:18:05,000
+have it reflected in their feelings,
+
+357
+0:18:06.007,000 --> 0:18:09,000
+to allow them to make security trade-offs.
+
+358
+0:18:10.11,000 --> 0:18:13,000
+When these go out of whack, you have two options.
+
+359
+0:18:13.853,000 --> 0:18:17,000
+One, you can fix people's feelings, directly appeal to feelings.
+
+360
+0:18:18.11,000 --> 0:18:2,000
+It's manipulation, but it can work.
+
+361
+0:18:21.173,000 --> 0:18:23,000
+The second, more honest way
+
+362
+0:18:23.388,000 --> 0:18:24,000
+is to actually fix the model.
+
+363
+0:18:26.72,000 --> 0:18:28,000
+Change happens slowly.
+
+364
+0:18:28.845,000 --> 0:18:32,000
+The smoking debate took 40 years -- and that was an easy one.
+
+365
+0:18:35.195,000 --> 0:18:36,000
+Some of this stuff is hard.
+
+366
+0:18:37.496,000 --> 0:18:4,000
+Really, though, information seems like our best hope.
+
+367
+0:18:41.276,000 --> 0:18:42,000
+And I lied.
+
+368
+0:18:42.572,000 --> 0:18:46,000
+Remember I said feeling, model, reality; reality doesn't change?
+
+369
+0:18:46.616,000 --> 0:18:47,000
+It actually does.
+
+370
+0:18:48.015,000 --> 0:18:49,000
+We live in a technological world;
+
+371
+0:18:49.753,000 --> 0:18:51,000
+reality changes all the time.
+
+372
+0:18:52.887,000 --> 0:18:54,000
+So we might have, for the first time in our species:
+
+373
+0:18:55.888,000 --> 0:18:58,000
+feeling chases model, model chases reality, reality's moving --
+
+374
+0:18:59.095,000 --> 0:19:,000
+they might never catch up.
+
+375
+0:19:02.18,000 --> 0:19:03,000
+We don't know.
+
+376
+0:19:05.614,000 --> 0:19:06,000
+But in the long term,
+
+377
+0:19:07.241,000 --> 0:19:09,000
+both feeling and reality are important.
+
+378
+0:19:09.469,000 --> 0:19:12,000
+And I want to close with two quick stories to illustrate this.
+
+379
+0:19:12.726,000 --> 0:19:14,000
+1982 -- I don't know if people will remember this --
+
+380
+0:19:15.229,000 --> 0:19:18,000
+there was a short epidemic of Tylenol poisonings
+
+381
+0:19:18.623,000 --> 0:19:19,000
+in the United States.
+
+382
+0:19:19.843,000 --> 0:19:2,000
+It's a horrific story.
+
+383
+0:19:21.228,000 --> 0:19:23,000
+Someone took a bottle of Tylenol,
+
+384
+0:19:23.331,000 --> 0:19:26,000
+put poison in it, closed it up, put it back on the shelf,
+
+385
+0:19:26.357,000 --> 0:19:27,000
+someone else bought it and died.
+
+386
+0:19:27.939,000 --> 0:19:28,000
+This terrified people.
+
+387
+0:19:29.636,000 --> 0:19:31,000
+There were a couple of copycat attacks.
+
+388
+0:19:31.887,000 --> 0:19:33,000
+There wasn't any real risk, but people were scared.
+
+389
+0:19:34.756,000 --> 0:19:37,000
+And this is how the tamper-proof drug industry was invented.
+
+390
+0:19:38.656,000 --> 0:19:4,000
+Those tamper-proof caps? That came from this.
+
+391
+0:19:40.909,000 --> 0:19:41,000
+It's complete security theater.
+
+392
+0:19:42.504,000 --> 0:19:44,000
+As a homework assignment, think of 10 ways to get around it.
+
+393
+0:19:45.419,000 --> 0:19:46,000
+I'll give you one: a syringe.
+
+394
+0:19:47.334,000 --> 0:19:49,000
+But it made people feel better.
+
+395
+0:19:50.744,000 --> 0:19:53,000
+It made their feeling of security more match the reality.
+
+396
+0:19:55.39,000 --> 0:19:57,000
+Last story: a few years ago, a friend of mine gave birth.
+
+397
+0:19:58.348,000 --> 0:19:59,000
+I visit her in the hospital.
+
+398
+0:19:59.769,000 --> 0:20:,000
+It turns out, when a baby's born now,
+
+399
+0:20:01.716,000 --> 0:20:04,000
+they put an RFID bracelet on the baby, a corresponding one on the mother,
+
+400
+0:20:05.303,000 --> 0:20:08,000
+so if anyone other than the mother takes the baby out of the maternity ward,
+
+401
+0:20:08.947,000 --> 0:20:09,000
+an alarm goes off.
+
+402
+0:20:10.129,000 --> 0:20:11,000
+I said, "Well, that's kind of neat.
+
+403
+0:20:11.882,000 --> 0:20:14,000
+I wonder how rampant baby snatching is out of hospitals."
+
+404
+0:20:15.876,000 --> 0:20:16,000
+I go home, I look it up.
+
+405
+0:20:17.136,000 --> 0:20:18,000
+It basically never happens.
+
+406
+0:20:18.685,000 --> 0:20:19,000
+(Laughter)
+
+407
+0:20:20.553,000 --> 0:20:22,000
+But if you think about it, if you are a hospital,
+
+408
+0:20:23.42,000 --> 0:20:25,000
+and you need to take a baby away from its mother,
+
+409
+0:20:25.824,000 --> 0:20:26,000
+out of the room to run some tests,
+
+410
+0:20:27.629,000 --> 0:20:29,000
+you better have some good security theater,
+
+411
+0:20:29.703,000 --> 0:20:3,000
+or she's going to rip your arm off.
+
+412
+0:20:31.672,000 --> 0:20:32,000
+(Laughter)
+
+413
+0:20:34.161,000 --> 0:20:35,000
+So it's important for us,
+
+414
+0:20:35.902,000 --> 0:20:37,000
+those of us who design security,
+
+415
+0:20:38.061,000 --> 0:20:4,000
+who look at security policy --
+
+416
+0:20:40.946,000 --> 0:20:43,000
+or even look at public policy in ways that affect security.
+
+417
+0:20:45.006,000 --> 0:20:48,000
+It's not just reality; it's feeling and reality.
+
+418
+0:20:48.446,000 --> 0:20:49,000
+What's important
+
+419
+0:20:50.335,000 --> 0:20:51,000
+is that they be about the same.
+
+420
+0:20:51.904,000 --> 0:20:53,000
+It's important that, if our feelings match reality,
+
+421
+0:20:54.459,000 --> 0:20:55,000
+we make better security trade-offs.
+
+422
+0:20:56.711,000 --> 0:20:57,000
+Thank you.
+
+423
+0:20:57.888,000 --> 0:20:59,000
+(Applause)
+

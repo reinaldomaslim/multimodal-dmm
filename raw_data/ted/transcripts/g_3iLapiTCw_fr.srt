@@ -1,0 +1,1212 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Sylvain Herbaux Relecteur: Anna Cristiana Minoli
+
+2
+0:00:12.502,000 --> 0:00:17,000
+Frugal Digital est grosso modo un petit groupe de recherche au CID
+
+3
+0:00:17.787,000 --> 0:00:19,000
+où nous cherchons à trouver
+
+4
+0:00:19.93,000 --> 0:00:23,000
+des visions alternatives de comment créer une société numérique intégrée.
+
+5
+0:00:24.47,000 --> 0:00:25,000
+C'est notre but.
+
+6
+0:00:26.278,000 --> 0:00:28,000
+Et nous le faisons parce que nous croyons réellement
+
+7
+0:00:28.458,000 --> 0:00:31,000
+que la technologie du silicium est surtout
+
+8
+0:00:31.732,000 --> 0:00:32,000
+une culture de l'excès.
+
+9
+0:00:33.484,000 --> 0:00:35,000
+C'est la recherche du gadget le plus rapide et le plus efficace,
+
+10
+0:00:35.657,000 --> 0:00:37,000
+le plus éblouissant que vous pouvez avoir,
+
+11
+0:00:38.087,000 --> 0:00:4,000
+tandis que près des deux tiers du monde
+
+12
+0:00:40.985,000 --> 0:00:43,000
+peut à peine atteindre la base de cette technologie
+
+13
+0:00:44.669,000 --> 0:00:47,000
+même pour les besoins fondamentaux dans la vie,
+
+14
+0:00:48.252,000 --> 0:00:5,000
+y compris les services de santé, l'éducation
+
+15
+0:00:50.42,000 --> 0:00:54,000
+et tout ce genre de problématiques fondamentales.
+
+16
+0:00:54.499,000 --> 0:00:57,000
+Donc, avant de commencer, je veux parler d'une petite anecdote,
+
+17
+0:00:57.744,000 --> 0:01:01,000
+une petite histoire à propos d'un homme que j'ai rencontré une fois à Bombay.
+
+18
+0:01:01.767,000 --> 0:01:03,000
+Cet homme s’appelle Sathi Shri.
+
+19
+0:01:03.954,000 --> 0:01:05,000
+C'est une personne remarquable,
+
+20
+0:01:06.06,000 --> 0:01:08,000
+parce que c'est un petit entrepreneur.
+
+21
+0:01:08.202,000 --> 0:01:09,000
+Il dirige un petit magasin
+
+22
+0:01:09.944,000 --> 0:01:11,000
+dans une petite rue de Bombay.
+
+23
+0:01:11.947,000 --> 0:01:14,000
+Il a ce petit magasin de 10 mètres-carrés,
+
+24
+0:01:14.995,000 --> 0:01:16,000
+où beaucoup de choses se passent.
+
+25
+0:01:17.145,000 --> 0:01:18,000
+C'est incroyable, parce que je ne pouvais en croire mes yeux
+
+26
+0:01:19.05,000 --> 0:01:21,000
+quand je suis simplement tombé sur lui.
+
+27
+0:01:21.533,000 --> 0:01:23,000
+En gros, voilà ce qu'il fait : il a tous ces services
+
+28
+0:01:23.658,000 --> 0:01:25,000
+de micro paiements et réservation de billets
+
+29
+0:01:26.411,000 --> 0:01:29,000
+et toutes sortes de choses basiques que vous feriez en ligne,
+
+30
+0:01:29.744,000 --> 0:01:31,000
+il les fait hors ligne pour les gens.
+
+31
+0:01:31.933,000 --> 0:01:32,000
+et se connecte au monde numérique.
+
+32
+0:01:33.93,000 --> 0:01:34,000
+Plus important encore, il gagne sa vie
+
+33
+0:01:35.435,000 --> 0:01:37,000
+en vendant ces coupons de recharge mobile, vous savez,
+
+34
+0:01:38.028,000 --> 0:01:4,000
+pour les abonnements prépayés.
+
+35
+0:01:40.303,000 --> 0:01:43,000
+Mais alors, à l'arrière, il a ce petit coin
+
+36
+0:01:43.544,000 --> 0:01:45,000
+avec quelques-uns de ses employés
+
+37
+0:01:46.117,000 --> 0:01:48,000
+qui peuvent réparer pratiquement n'importe quoi.
+
+38
+0:01:48.701,000 --> 0:01:51,000
+N'importe quel téléphone portable, gadget que vous leurs apportez, ils peuvent le réparer.
+
+39
+0:01:51.959,000 --> 0:01:54,000
+Et c'est assez incroyable parce que j'y ai emmené mon iPhone
+
+40
+0:01:55.077,000 --> 0:01:57,000
+et il m'a demandé « Oui, vous voulez une mise à jour ? »
+
+41
+0:01:57.246,000 --> 0:01:59,000
+« Oui. » (Rires)
+
+42
+0:01:59.564,000 --> 0:02:,000
+J'étais un peu sceptique, mais ensuite, j'ai décidé
+
+43
+0:02:01.504,000 --> 0:02:05,000
+de lui donner un Nokia à la place. (Rires)
+
+44
+0:02:06.137,000 --> 0:02:11,000
+Mais ce qui m'a impressionné c'est la versatilité de l'ingénierie
+
+45
+0:02:11.352,000 --> 0:02:15,000
+et le savoir-faire qui se trouvait dans ces deux petits mètres d'espace.
+
+46
+0:02:16.304,000 --> 0:02:18,000
+Ils avaient découvert tout ce qu'il fallait savoir
+
+47
+0:02:18.895,000 --> 0:02:2,000
+pour démanteler, démonter les choses,
+
+48
+0:02:20.921,000 --> 0:02:22,000
+réécrire la circuiterie mettre à jour le logiciel,
+
+49
+0:02:23.88,000 --> 0:02:24,000
+faire tout ce que vous voulez avec le téléphone,
+
+50
+0:02:25.847,000 --> 0:02:27,000
+et ils peuvent réparer quoi que ce soit tellement vite !
+
+51
+0:02:28.416,000 --> 0:02:3,000
+Vous pouviez leur laisser un téléphone ce matin
+
+52
+0:02:30.416,000 --> 0:02:31,000
+et venir le chercher après le déjeuner,
+
+53
+0:02:32.336,000 --> 0:02:33,000
+et c'était tout à fait incroyable.
+
+54
+0:02:34.256,000 --> 0:02:35,000
+Mais ensuite, nous nous sommes demandé si c'était
+
+55
+0:02:35.827,000 --> 0:02:37,000
+un phénomène local, ou véritablement mondial ?
+
+56
+0:02:38.369,000 --> 0:02:4,000
+Et, au fil du temps, nous avons commencé à comprendre
+
+57
+0:02:40.619,000 --> 0:02:41,000
+et systématiquement analyser
+
+58
+0:02:42.338,000 --> 0:02:44,000
+ce que signifiait cet écosystème de bricolage,
+
+59
+0:02:44.454,000 --> 0:02:45,000
+parce que c'est quelque chose qui ne se passe
+
+60
+0:02:46.059,000 --> 0:02:48,000
+pas seulement dans un coin de rue à Bombay.
+
+61
+0:02:48.091,000 --> 0:02:51,000
+En fait ça se passe dans toutes les régions du pays.
+
+62
+0:02:51.205,000 --> 0:02:53,000
+ça se passe même en Afrique, comme, par exemple,
+
+63
+0:02:53.466,000 --> 0:02:55,000
+à Cape Town où nous avons fait des recherches approfondies là-dessus.
+
+64
+0:02:55.513,000 --> 0:02:58,000
+Même ici, à Doha, j'ai trouvé ce petit coin
+
+65
+0:02:58.708,000 --> 0:03:,000
+où vous pouvez faire réparer des réveils et des montres,
+
+66
+0:03:01.595,000 --> 0:03:04,000
+et il y a beaucoup de toutes petites pièces. Ce n'est pas facile.
+
+67
+0:03:04.796,000 --> 0:03:06,000
+Vous devez l'essayer par vous-même pour le croire.
+
+68
+0:03:06.909,000 --> 0:03:07,000
+Mais qu'est ce qui alimente cela ?
+
+69
+0:03:08.463,000 --> 0:03:11,000
+C'est tout cet écosystème de pièces à bas coût
+
+70
+0:03:11.971,000 --> 0:03:14,000
+et de fournitures fabriquées partout dans le monde, littéralement,
+
+71
+0:03:15.277,000 --> 0:03:18,000
+et ensuite redistribuées essentiellement pour fournir cette industrie,
+
+72
+0:03:19.043,000 --> 0:03:21,000
+et vous pouvez même acheter des pièces récupérées.
+
+73
+0:03:21.214,000 --> 0:03:23,000
+Fondamentalement, vous ne devez pas nécessairement acheter
+
+74
+0:03:23.37,000 --> 0:03:25,000
+de nouvelles pièces. Vous pouvez démonter
+
+75
+0:03:25.833,000 --> 0:03:26,000
+des ordinateurs inutilisables
+
+76
+0:03:27.14,000 --> 0:03:28,000
+et vous pouvez acheter les composants récupérés
+
+77
+0:03:28.71,000 --> 0:03:31,000
+et les choses que vous pouvez remonter dans une nouvelle configuration.
+
+78
+0:03:32.531,000 --> 0:03:35,000
+Mais qu'est-ce que nous apporte cette "nouvelle" approche ?
+
+79
+0:03:36.012,000 --> 0:03:37,000
+C'est la vraie question, parce que c'est quelque chose
+
+80
+0:03:37.932,000 --> 0:03:39,000
+qui a toujours existé, qui fait partie de chaque société
+
+81
+0:03:40.157,000 --> 0:03:42,000
+qui est privée de ressources suffisantes.
+
+82
+0:03:42.523,000 --> 0:03:43,000
+Mais il y a un paradigme intéressant.
+
+83
+0:03:44.42,000 --> 0:03:45,000
+Il y a l'artisanat traditionnel,
+
+84
+0:03:45.912,000 --> 0:03:47,000
+et puis il y a l'artisanat technologique.
+
+85
+0:03:47.915,000 --> 0:03:49,000
+Nous l'appelons l'artisanat technologique parce qu'il est émergent.
+
+86
+0:03:50.123,000 --> 0:03:52,000
+Ce n'est pas quelque chose qui est bien établi.
+
+87
+0:03:52.195,000 --> 0:03:54,000
+Ce n'est pas quelque chose d'institutionnel.
+
+88
+0:03:54.862,000 --> 0:03:55,000
+ça ne s'apprend pas dans les universités.
+
+89
+0:03:56.633,000 --> 0:03:57,000
+ça s'apprend par le bouche-à-oreille,
+
+90
+0:03:58.356,000 --> 0:03:59,000
+et c'est un système d'éducation informelle.
+
+91
+0:04:00.265,000 --> 0:04:02,000
+Donc nous nous sommes dit, « Qu'est-ce qu'on peut en tirer ?
+
+92
+0:04:03.067,000 --> 0:04:05,000
+C'est à dire, quelles sont les valeurs clés que nous pouvons en tirer ? »
+
+93
+0:04:05.801,000 --> 0:04:07,000
+Le point principal, c'est que c'est une culture de reparation locale,
+
+94
+0:04:08.146,000 --> 0:04:1,000
+ce qui est formidable, parce que cela signifie que votre produit
+
+95
+0:04:10.486,000 --> 0:04:12,000
+ou votre service n'a pas à passer par
+
+96
+0:04:12.531,000 --> 0:04:14,000
+un énorme système bureaucratique pour être réparé.
+
+97
+0:04:15.139,000 --> 0:04:18,000
+Elle permet aussi une fabrication bon marché, ce qui est fantastique,
+
+98
+0:04:18.218,000 --> 0:04:2,000
+donc cela signifie que vous pouvez faire beaucoup plus avec.
+
+99
+0:04:20.25,000 --> 0:04:22,000
+Et puis, le plus important, c'est que
+
+100
+0:04:22.564,000 --> 0:04:24,000
+ça nous donne de grandes possibilités à un bas coût.
+
+101
+0:04:24.94,000 --> 0:04:26,000
+Donc cela signifie que vous pouvez intégrer
+
+102
+0:04:27.269,000 --> 0:04:3,000
+des algorithmes assez intelligents et beaucoup d'autres
+
+103
+0:04:30.794,000 --> 0:04:33,000
+d'idées extensibles dans des dispositifs vraiment simples.
+
+104
+0:04:34.452,000 --> 0:04:38,000
+Donc, nous appelons ça une entreprise artisanale du silicium.
+
+105
+0:04:39.26,000 --> 0:04:41,000
+C'est grosso modo ce qu'était le système, ou le paradigme
+
+106
+0:04:42.206,000 --> 0:04:44,000
+d'avant la révolution industrielle qui réapparait
+
+107
+0:04:44.67,000 --> 0:04:47,000
+d'une toute nouvelle manière, dans des petites boutiques numériques
+
+108
+0:04:47.678,000 --> 0:04:5,000
+à travers la planète dans la plupart des pays en voie de développement.
+
+109
+0:04:50.759,000 --> 0:04:54,000
+Donc, nous avons un peu joué avec cette idée,
+
+110
+0:04:54.893,000 --> 0:04:55,000
+et nous nous sommes dit, « Que pouvons-nous en faire ?
+
+111
+0:04:56.571,000 --> 0:04:58,000
+Peut-on en tirer un petit produit ou un service ? »
+
+112
+0:04:59.099,000 --> 0:05:01,000
+Donc une des premières choses que nous avons faites est cet objet appelé
+
+113
+0:05:01.519,000 --> 0:05:03,000
+une plateforme multimédia. Nous l'appelons la boîte à déjeuner.
+
+114
+0:05:03.915,000 --> 0:05:05,000
+Essentiellement, un des contextes que nous avons étudié était
+
+115
+0:05:06.666,000 --> 0:05:09,000
+les écoles dans les régions très reculées de l'Inde.
+
+116
+0:05:10.153,000 --> 0:05:13,000
+Il y a donc ce concept étonnant appelé école à enseignant unique,
+
+117
+0:05:13.412,000 --> 0:05:15,000
+qui se résume à un seul enseignant multitâche
+
+118
+0:05:16.114,000 --> 0:05:18,000
+qui enseigne à ce petit milieu social impressionnant.
+
+119
+0:05:18.591,000 --> 0:05:19,000
+C'est une école informelle,
+
+120
+0:05:20.128,000 --> 0:05:22,000
+mais il s'agit vraiment d'éducation holistique.
+
+121
+0:05:22.287,000 --> 0:05:23,000
+La seule chose qu'ils n'ont pas
+
+122
+0:05:23.525,000 --> 0:05:25,000
+est l'accès aux ressources. Ils n'ont parfois même pas un manuel,
+
+123
+0:05:25.919,000 --> 0:05:27,000
+ni même un programme à proprement parler.
+
+124
+0:05:28.746,000 --> 0:05:31,000
+Alors nous nous sommes dit: « Que pouvons-nous faire pour permettre à ce professeur
+
+125
+0:05:32.25,000 --> 0:05:34,000
+de faire plus ? » Comment accéder au monde numérique ?
+
+126
+0:05:35.062,000 --> 0:05:37,000
+Au lieu d'être le seul gardien de l'information,
+
+127
+0:05:37.624,000 --> 0:05:39,000
+être un facilitateur pour toute cette masse d'information.
+
+128
+0:05:40.028,000 --> 0:05:43,000
+Donc nous nous sommes dit, « Que faut-il faire pour rendre l'enseignant plus indépendant ? »
+
+129
+0:05:43.412,000 --> 0:05:45,000
+Comment construisez-vous une passerelle numérique pour ce professeur,
+
+130
+0:05:46.067,000 --> 0:05:48,000
+et comment concevez-vous une plate-forme multimédia peu coûteuse
+
+131
+0:05:48.599,000 --> 0:05:5,000
+qui peut être construite localement et desservie localement ? »
+
+132
+0:05:51.591,000 --> 0:05:53,000
+Donc nous nous sommes promenés.
+
+133
+0:05:53.934,000 --> 0:05:55,000
+Nous avons chiné dans les marchés du coin,
+
+134
+0:05:56.224,000 --> 0:06:,000
+et nous avons essayé de comprendre, « Qu'est-ce que nous pouvons utiliser pour y arriver ? »
+
+135
+0:06:00.245,000 --> 0:06:02,000
+Ce que nous avons trouvé
+
+136
+0:06:02.772,000 --> 0:06:05,000
+c'est un petit téléphone mobile avec un petit pico-projecteur
+
+137
+0:06:05.979,000 --> 0:06:07,000
+qui revient à environ 60 dollars.
+
+138
+0:06:08.316,000 --> 0:06:1,000
+Nous avons acheté une lampe de poche avec une très grosse batterie,
+
+139
+0:06:10.772,000 --> 0:06:11,000
+et un tas de petits haut-parleurs.
+
+140
+0:06:12.562,000 --> 0:06:14,000
+Donc essentiellement, le téléphone mobile nous donne
+
+141
+0:06:14.86,000 --> 0:06:15,000
+une plateforme multimédia connectée.
+
+142
+0:06:16.784,000 --> 0:06:19,000
+Il nous permet de nous connecter et de charger des fichiers
+
+143
+0:06:20.269,000 --> 0:06:22,000
+de différents formats et de les lire.
+
+144
+0:06:22.62,000 --> 0:06:25,000
+La lampe de poche nous donne cette LED vraiment intense, brillante,
+
+145
+0:06:25.646,000 --> 0:06:27,000
+et six heures de batterie rechargeable,
+
+146
+0:06:28.637,000 --> 0:06:3,000
+et la boîte à déjeuner est une jolie petite boîte
+
+147
+0:06:30.853,000 --> 0:06:32,000
+dans laquelle vous pouvez tout mettre,
+
+148
+0:06:32.9,000 --> 0:06:33,000
+et un tas de mini haut-parleurs pour
+
+149
+0:06:34.463,000 --> 0:06:35,000
+amplifier assez largement le son.
+
+150
+0:06:35.881,000 --> 0:06:38,000
+Croyez-moi, ces petites salles de classe sont vraiment bruyantes.
+
+151
+0:06:39.42,000 --> 0:06:41,000
+Ils y a des enfants qui crient au maximum de leur voix,
+
+152
+0:06:42.013,000 --> 0:06:43,000
+et vous devez vraiment parler par-dessus ce vacarme.
+
+153
+0:06:43.673,000 --> 0:06:45,000
+Et nous l'avons apporté à ce petit commerce,
+
+154
+0:06:46.394,000 --> 0:06:48,000
+l'atelier de réparation de téléphones mobiles,
+
+155
+0:06:48.484,000 --> 0:06:49,000
+et puis la magie s'est produite.
+
+156
+0:06:49.912,000 --> 0:06:5,000
+Nous démontons tout ça,
+
+157
+0:06:51.293,000 --> 0:06:53,000
+nous le remontons autrement,
+
+158
+0:06:53.65,000 --> 0:06:55,000
+et nous faisons cette refonte du matériel,
+
+159
+0:06:55.828,000 --> 0:06:57,000
+en formant systématiquement le gars à le faire.
+
+160
+0:06:58.437,000 --> 0:07:01,000
+Et voici ce qui en sort, une petite boîte à déjeuner -- ça en a la forme.
+
+161
+0:07:01.892,000 --> 0:07:07,000
+(Applaudissements)
+
+162
+0:07:08.718,000 --> 0:07:11,000
+Et nous l'avons systématiquement mise à l'essai sur le terrain,
+
+163
+0:07:11.736,000 --> 0:07:13,000
+parce que lors des essais sur le terrain, nous avons appris des leçons importantes
+
+164
+0:07:14.104,000 --> 0:07:16,000
+et nous sommes passés par pas mal de versions.
+
+165
+0:07:16.621,000 --> 0:07:18,000
+Un des problèmes clés était la consommation de la batterie et le chargement.
+
+166
+0:07:19.316,000 --> 0:07:22,000
+La luminosité était un problème, quand vous avez trop de lumière du jour à l'extérieur.
+
+167
+0:07:23.294,000 --> 0:07:25,000
+Les toits sont souvent cassés, donc vous n'avez pas assez
+
+168
+0:07:25.846,000 --> 0:07:28,000
+d'obscurité dans la classe pour faire ces choses.
+
+169
+0:07:28.974,000 --> 0:07:3,000
+Nous avons étendu cette idée. Nous l'avons testé de nombreuses fois,
+
+170
+0:07:31.816,000 --> 0:07:33,000
+et la version suivante que nous avons sortie était une boîte
+
+171
+0:07:34.394,000 --> 0:07:36,000
+qui pouvait se recharger à l'énergie solaire,
+
+172
+0:07:36.774,000 --> 0:07:38,000
+mais plus important encore, se connecter à une batterie de voiture,
+
+173
+0:07:39.573,000 --> 0:07:41,000
+parce qu'une batterie de voiture est une source de courant omniprésente
+
+174
+0:07:42.567,000 --> 0:07:44,000
+dans des endroits où il n'y a pas assez d'électricité
+
+175
+0:07:44.774,000 --> 0:07:45,000
+ou avec des coupures fréquentes.
+
+176
+0:07:46.734,000 --> 0:07:47,000
+Et une autre chose clé que nous avons faite était
+
+177
+0:07:48.703,000 --> 0:07:5,000
+d'ajouter un port USB à la boîte, parce que nous avons réalisé
+
+178
+0:07:51.165,000 --> 0:07:54,000
+que même si il y avait le haut débit et tout le reste sur le papier,
+
+179
+0:07:54.519,000 --> 0:07:56,000
+du moins en théorie, c'était beaucoup plus efficace
+
+180
+0:07:57.094,000 --> 0:08:,000
+d'envoyer les données sur une petite clé USB par courrier.
+
+181
+0:08:00.984,000 --> 0:08:01,000
+ça peut prendre quelques jours pour arriver,
+
+182
+0:08:02.824,000 --> 0:08:04,000
+mais au moins ça arrive en haute définition
+
+183
+0:08:05.198,000 --> 0:08:07,000
+et dans une qualité fiable.
+
+184
+0:08:07.413,000 --> 0:08:09,000
+Donc nous avons fait cette boîte, et nous l'avons testée à nouveau
+
+185
+0:08:09.695,000 --> 0:08:1,000
+encore et encore, et nous passons par de nombreuses versions
+
+186
+0:08:11.23,000 --> 0:08:12,000
+pour faire ces choses.
+
+187
+0:08:12.779,000 --> 0:08:14,000
+Mais ce n'est pas limité à l'éducation seulement.
+
+188
+0:08:15.748,000 --> 0:08:16,000
+Ce genre de technique ou de métrologie
+
+189
+0:08:17.614,000 --> 0:08:19,000
+peut en fait être appliquée à d'autres domaines,
+
+190
+0:08:19.626,000 --> 0:08:2,000
+et je vais vous raconter une autre petite histoire.
+
+191
+0:08:21.534,000 --> 0:08:23,000
+à propos de ce petit appareil, appelé médi-mètre.
+
+192
+0:08:23.989,000 --> 0:08:26,000
+C'est grosso modo un petit outil de dépistage que nous avons développé.
+
+193
+0:08:27.356,000 --> 0:08:3,000
+En Inde, il y a ces gens extraordinaires,
+
+194
+0:08:30.683,000 --> 0:08:32,000
+des travailleurs de santé appelés les travailleurs ASHA.
+
+195
+0:08:32.962,000 --> 0:08:34,000
+Ce sont essentiellement les agents sur le terrain du système de santé
+
+196
+0:08:35.379,000 --> 0:08:37,000
+qui vivent dans la communauté locale et sont formés
+
+197
+0:08:37.763,000 --> 0:08:39,000
+avec des outils de base et des concepts de base des services de santé,
+
+198
+0:08:40.331,000 --> 0:08:43,000
+et le principal objectif est essentiellement d'informer les gens
+
+199
+0:08:44.093,000 --> 0:08:47,000
+sur comment mener une vie meilleure, mais aussi
+
+200
+0:08:47.626,000 --> 0:08:5,000
+d'orienter, ou de faire des recommandations
+
+201
+0:08:50.854,000 --> 0:08:52,000
+sur le type de service de santé vers lequel ils doivent aller.
+
+202
+0:08:53.528,000 --> 0:08:55,000
+Ils sont principalement un service de recommandatio pour les patients.
+
+203
+0:08:56.24,000 --> 0:08:58,000
+Mais le problème avec ça, c'est que nous avons réalisé
+
+204
+0:08:58.548,000 --> 0:09:02,000
+après un tas de recherche qu'ils sont incroyables
+
+205
+0:09:02.738,000 --> 0:09:04,000
+à orienter les gens à la clinique la plus proche
+
+206
+0:09:05.218,000 --> 0:09:07,000
+ou le centre de soins public, mais que ce qui se passe
+
+207
+0:09:08.091,000 --> 0:09:12,000
+dans ces centres de soins c'est ceci : ces files incroyablement longues
+
+208
+0:09:12.169,000 --> 0:09:14,000
+et trop de gens qui surchargent le système
+
+209
+0:09:14.979,000 --> 0:09:16,000
+tout simplement parce qu'il n'y a pas suffisamment de médecins et d'installations
+
+210
+0:09:17.545,000 --> 0:09:19,000
+pour la population concernée.
+
+211
+0:09:19.747,000 --> 0:09:21,000
+Donc tout, du rhume au cas grave de paludisme,
+
+212
+0:09:21.866,000 --> 0:09:23,000
+reçois presque le même niveau d'attention,
+
+213
+0:09:24.526,000 --> 0:09:27,000
+et il n'y a aucune priorité.
+
+214
+0:09:27.57,000 --> 0:09:29,000
+Donc nous nous sommes dit, « Allez, il y doit y avoir une meilleure façon
+
+215
+0:09:29.641,000 --> 0:09:3,000
+de le faire à coup sûr. »
+
+216
+0:09:31.442,000 --> 0:09:33,000
+Alors nous nous sommes dit: « Que pouvons-nous faire avec le travailleur ASHA
+
+217
+0:09:34.019,000 --> 0:09:37,000
+qui puisse lui permettre de devenir un filtre intéressant,
+
+218
+0:09:37.95,000 --> 0:09:39,000
+mais plus qu'un filtre, un vrai système d'orientation
+
+219
+0:09:40.465,000 --> 0:09:43,000
+qui permet l'équilibrage de la charge du réseau,
+
+220
+0:09:43.946,000 --> 0:09:46,000
+et oriente les patients vers différentes sources de services de santé
+
+221
+0:09:47.885,000 --> 0:09:5,000
+en se basant sur la gravité ou la criticité de ces situations ? »
+
+222
+0:09:51.765,000 --> 0:09:52,000
+Donc la question véritablement clé était,
+
+223
+0:09:53.746,000 --> 0:09:54,000
+comment aider cette femme.
+
+224
+0:09:55.414,000 --> 0:09:56,000
+Comment pouvons-nous lui fournir des outils simples
+
+225
+0:09:57.341,000 --> 0:09:59,000
+qui ne font pas de diagnostiques mais qui dépistent
+
+226
+0:10:00.292,000 --> 0:10:03,000
+pour qu'elle puisse au moins informer mieux les patients ?
+
+227
+0:10:04.072,000 --> 0:10:06,000
+Et cela va faire une énorme différence sur le système,
+
+228
+0:10:06.1,000 --> 0:10:1,000
+parce que le temps d'attente et la distance totale
+
+229
+0:10:11.018,000 --> 0:10:12,000
+que les gens doivent parcourir, souvent
+
+230
+0:10:12.938,000 --> 0:10:14,000
+7 à 15 kilomètres, parfois à pied,
+
+231
+0:10:15.611,000 --> 0:10:2,000
+pour obtenir un simple bilan de santé, c'est très, très mauvais
+
+232
+0:10:21.074,000 --> 0:10:23,000
+dans le sens où ça dissuade vraiment les gens
+
+233
+0:10:23.528,000 --> 0:10:25,000
+d'obtenir l'accès aux services de santé.
+
+234
+0:10:25.537,000 --> 0:10:27,000
+Donc, s’il y avait quelque chose qu'elle pouvait faire,
+
+235
+0:10:27.572,000 --> 0:10:28,000
+ce serait formidable.
+
+236
+0:10:28.681,000 --> 0:10:31,000
+Donc ce que nous avons fait, c'est transformer ce dispositif
+
+237
+0:10:31.742,000 --> 0:10:32,000
+en un dispositif médical.
+
+238
+0:10:33.559,000 --> 0:10:34,000
+Je veux faire une vraie démonstration,
+
+239
+0:10:34.835,000 --> 0:10:36,000
+parce que c'est un processus très simple.
+
+240
+0:10:37.508,000 --> 0:10:39,000
+Bruno, vous voulez nous rejoindre ? (Applaudissements)
+
+241
+0:10:39.917,000 --> 0:10:45,000
+Venez. (Applaudissements)
+
+242
+0:10:46.119,000 --> 0:10:48,000
+Donc, ce que nous allons faire, c'est
+
+243
+0:10:49.044,000 --> 0:10:51,000
+mesurer quelques paramètres de base sur vous,
+
+244
+0:10:52.016,000 --> 0:10:54,000
+notamment votre pouls et la quantité d'oxygène
+
+245
+0:10:54.871,000 --> 0:10:55,000
+dans votre sang.
+
+246
+0:10:56.744,000 --> 0:10:59,000
+Vous allez mettre votre pouce ici.
+
+247
+0:11:00.035,000 --> 0:11:01,000
+Bruno Giussani : Comme ça?
+
+248
+0:11:01.809,000 --> 0:11:02,000
+Vinay Venkatraman : Oui. C'est ça. BG: Ok.
+
+249
+0:11:03.475,000 --> 0:11:07,000
+VV : Je vais donc le faire démarrer. J'espère que ça marche.
+
+250
+0:11:07.483,000 --> 0:11:11,000
+(Bip) Il sonne même, parce qu'après tout, c'est un réveil.
+
+251
+0:11:11.833,000 --> 0:11:13,000
+Donc... (Rires)
+
+252
+0:11:13.845,000 --> 0:11:17,000
+Donc je le place sur la position de départ, puis
+
+253
+0:11:18.236,000 --> 0:11:21,000
+J'appuie sur le bouton de lecture. (Bip)
+
+254
+0:11:21.848,000 --> 0:11:26,000
+Alors il prend quelques mesures sur vous. (Bip)
+
+255
+0:11:27.329,000 --> 0:11:29,000
+Et puis le pointeur va pointer trois options différentes.
+
+256
+0:11:30.107,000 --> 0:11:33,000
+Voyons ce qui se passe ici.
+
+257
+0:11:33.382,000 --> 0:11:35,000
+(Bip) Oh Bruno, vous pouvez rentrer.
+
+258
+0:11:35.465,000 --> 0:11:38,000
+BG: Parfait. Bonne nouvelle. (Applaudissements)
+
+259
+0:11:39.301,000 --> 0:11:41,000
+VV : Donc... (Applaudissements)
+
+260
+0:11:41.646,000 --> 0:11:44,000
+Donc le truc à ce sujet, c'est que
+
+261
+0:11:44.863,000 --> 0:11:48,000
+si le pointeur, malheureusement, avait indiqué le point rouge,
+
+262
+0:11:48.968,000 --> 0:11:49,000
+nous aurions dû vous envoyer en urgence à l'hôpital.
+
+263
+0:11:50.814,000 --> 0:11:54,000
+Heureusement, pas aujourd'hui. Et s'il avait pointé le point orange
+
+264
+0:11:54.934,000 --> 0:11:56,000
+ou le jaune, ça voulait dire que vous auriez dù
+
+265
+0:11:57.763,000 --> 0:12:,000
+nécessité de plus de soins de la part du travailleur de santé.
+
+266
+0:12:00.807,000 --> 0:12:02,000
+Donc c’est un processus de dépistage en trois étapes très simples
+
+267
+0:12:03.158,000 --> 0:12:05,000
+qui pourraient modifier fondamentalement l'équation
+
+268
+0:12:05.273,000 --> 0:12:07,000
+de la façon dont la santé publique fonctionne de différentes manières.
+
+269
+0:12:08.013,000 --> 0:12:09,000
+BG: Je vous remercie pour la bonne nouvelle. VV : Oui.
+
+270
+0:12:09.91,000 --> 0:12:13,000
+(Applaudissements)
+
+271
+0:12:14.303,000 --> 0:12:17,000
+Donc, très brièvement, je vais juste vous expliquer comment c'est fabriqué,
+
+272
+0:12:17.743,000 --> 0:12:19,000
+parce que c'est la partie la plus intéressante.
+
+273
+0:12:20.033,000 --> 0:12:22,000
+Donc essentiellement, les trois choses qui sont nécessaires
+
+274
+0:12:22.727,000 --> 0:12:26,000
+pour faire cette conversion de ce truc à ce truc,
+
+275
+0:12:27.255,000 --> 0:12:31,000
+c'est une télécommande de télé
+
+276
+0:12:31.384,000 --> 0:12:33,000
+qu'aujourd'hui vous pouvez trouver dans presque chaque foyer,
+
+277
+0:12:34.295,000 --> 0:12:37,000
+quelques parties d'une souris d'ordinateur,
+
+278
+0:12:38.009,000 --> 0:12:41,000
+des choses que vous pouvez récupérer pour très peu de frais,
+
+279
+0:12:41.872,000 --> 0:12:43,000
+et quelques pièces qui doivent être préprogrammées.
+
+280
+0:12:44.783,000 --> 0:12:46,000
+Fondamentalement, c'est un microcontrôleur avec quelques
+
+281
+0:12:47.184,000 --> 0:12:49,000
+composants en plus qui peuvent être expédiés pour pas cher
+
+282
+0:12:49.979,000 --> 0:12:51,000
+à travers le monde, et voilà tout ce dont on a besoin
+
+283
+0:12:52.972,000 --> 0:12:54,000
+avec un peu de talent local
+
+284
+0:12:55.363,000 --> 0:12:57,000
+pour convertir le dispositif en quelque chose d'autre.
+
+285
+0:12:58.15,000 --> 0:13:01,000
+Nous sommes donc maintenant en train de faire des tests systématiques sur le terrain
+
+286
+0:13:01.546,000 --> 0:13:04,000
+pour déterminer si quelque chose comme ça est réellement
+
+287
+0:13:04.596,000 --> 0:13:05,000
+utile pour le travailleur de santé ASHA.
+
+288
+0:13:06.163,000 --> 0:13:09,000
+Nous faisons des tests de référence pour le comparer
+
+289
+0:13:09.707,000 --> 0:13:12,000
+à du matériel professionnel pour voir si il y a un degré
+
+290
+0:13:13.165,000 --> 0:13:15,000
+de changements dans l'efficacité, et si ça impacte réellement
+
+291
+0:13:15.487,000 --> 0:13:17,000
+sur la vie des gens. Mais plus important encore,
+
+292
+0:13:18.095,000 --> 0:13:19,000
+ce que nous essayons à l'heure actuelle,
+
+293
+0:13:19.89,000 --> 0:13:21,000
+c'est de le faire à plus grande échelle, parce qu'il y a
+
+294
+0:13:22.144,000 --> 0:13:24,000
+plus de 250 000 travailleurs ASHA sur le terrain
+
+295
+0:13:24.831,000 --> 0:13:26,000
+ces agents de terrain incroyables, et si nous pouvons
+
+296
+0:13:27.568,000 --> 0:13:3,000
+donner à au moins une fraction d'entre eux l'accès à ces objets,
+
+297
+0:13:31.128,000 --> 0:13:33,000
+ça change simplement la façon de marcher de l'économie de la santé publique,
+
+298
+0:13:34.086,000 --> 0:13:37,000
+et ça change la façon dont les systèmes fonctionnent réellement,
+
+299
+0:13:37.097,000 --> 0:13:41,000
+pas seulement à un niveau de planification systématique,
+
+300
+0:13:41.363,000 --> 0:13:44,000
+mais aussi dans ses bases même, de la base au sommet.
+
+301
+0:13:44.548,000 --> 0:13:46,000
+C'est tout, et nous espérons de le faire de façon magistrale.
+
+302
+0:13:47.349,000 --> 0:13:5,000
+Merci. (Applaudissements)
+
+303
+0:13:50.507,000 --> 0:13:58,000
+(Applaudissements)
+

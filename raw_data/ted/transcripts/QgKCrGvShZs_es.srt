@@ -1,0 +1,484 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Diego Leal Revisor: Gabriela Sellart
+
+2
+0:00:18.33,000 --> 0:00:23,000
+Como investigadores, algo que hacemos con frecuencia es usar grandes recursos
+
+3
+0:00:23.33,000 --> 0:00:26,000
+para lograr ciertas funcionalidades, o para alcanzar ciertos objetivos.
+
+4
+0:00:26.33,000 --> 0:00:28,000
+Y esto es esencial para el progreso de la ciencia,
+
+5
+0:00:28.33,000 --> 0:00:3,000
+o para la exploración de lo que es posible.
+
+6
+0:00:30.33,000 --> 0:00:32,000
+Pero así se crea, de alguna manera, una situación desafortunada
+
+7
+0:00:33.33,000 --> 0:00:35,000
+en donde una pequeña, pequeña fracción del mundo
+
+8
+0:00:35.33,000 --> 0:00:37,000
+puede participar efectivamente de esta exploración
+
+9
+0:00:37.33,000 --> 0:00:39,000
+o beneficiarse de tal tecnología.
+
+10
+0:00:39.33,000 --> 0:00:4,000
+Y algo que me motiva,
+
+11
+0:00:40.33,000 --> 0:00:42,000
+y que en realidad me entusiasma sobre mi investigación
+
+12
+0:00:42.33,000 --> 0:00:44,000
+es cuando veo oportunidades simples
+
+13
+0:00:44.33,000 --> 0:00:46,000
+de cambiar de manera drástica esa distribución,
+
+14
+0:00:46.33,000 --> 0:00:48,000
+y hacer la tecnología accesible
+
+15
+0:00:48.33,000 --> 0:00:5,000
+a un porcentaje mucho mayor de la población.
+
+16
+0:00:50.33,000 --> 0:00:51,000
+Voy a mostrarles dos videos
+
+17
+0:00:52.33,000 --> 0:00:53,000
+que han atraído mucha atención recientemente
+
+18
+0:00:53.33,000 --> 0:00:55,000
+y que pienso que encarnan esta filosofía.
+
+19
+0:00:55.33,000 --> 0:00:58,000
+Estos ejemplos hacen uso del control remoto del Nintendo Wii.
+
+20
+0:00:58.33,000 --> 0:01:,000
+Para aquellos de ustedes que no están familiarizados con este dispositivo,
+
+21
+0:01:00.33,000 --> 0:01:03,000
+es un control de juego de video de 40 dólares.
+
+22
+0:01:03.33,000 --> 0:01:06,000
+Y es promocionado principalmente por sus capacidades de detección de movimiento,
+
+23
+0:01:06.33,000 --> 0:01:09,000
+de manera que usted puede usar el control como una raqueta de tenis o un bate de beisbol.
+
+24
+0:01:09.33,000 --> 0:01:11,000
+Pero lo que me interesa mucho más
+
+25
+0:01:11.33,000 --> 0:01:13,000
+es que en la punta de cada control
+
+26
+0:01:13.33,000 --> 0:01:16,000
+hay una cámara infrarroja que tiene un desempeño relativamente alto.
+
+27
+0:01:16.33,000 --> 0:01:2,000
+Así que voy a hacer dos demostraciones de por qué esto es útil.
+
+28
+0:01:20.33,000 --> 0:01:24,000
+Aquí tengo mi computador con un proyector
+
+29
+0:01:24.33,000 --> 0:01:26,000
+y un control remoto de Wii ubicado en su parte superior.
+
+30
+0:01:26.33,000 --> 0:01:29,000
+Si, por ejemplo, usted está en una escuela
+
+31
+0:01:29.33,000 --> 0:01:31,000
+que no tiene mucho dinero, como es probablemente el caso de muchas de ellas
+
+32
+0:01:31.33,000 --> 0:01:33,000
+o si está en un ambiente laboral
+
+33
+0:01:33.33,000 --> 0:01:35,000
+y quiere un tablero/pizarra interactivo,
+
+34
+0:01:35.33,000 --> 0:01:38,000
+normalmente el costo es de dos mil a tres mil dólares.
+
+35
+0:01:38.33,000 --> 0:01:4,000
+Así que lo que voy a mostrarles es
+
+36
+0:01:40.33,000 --> 0:01:42,000
+cómo crear uno con un control remoto de Wii.
+
+37
+0:01:42.33,000 --> 0:01:45,000
+Esto requiere otra pieza de hardware
+
+38
+0:01:45.33,000 --> 0:01:47,000
+que es este lápiz infrarrojo.
+
+39
+0:01:47.33,000 --> 0:01:5,000
+Probablemente, usted puede hacerse uno por alrededor de cinco dólares
+
+40
+0:01:50.33,000 --> 0:01:51,000
+con una visita rápida a Radio Shack.
+
+41
+0:01:51.33,000 --> 0:01:54,000
+Esencialmente, tiene una batería, un botón y un LED infrarrojo,
+
+42
+0:01:54.33,000 --> 0:01:56,000
+y se enciende -- ustedes no pueden verlo --
+
+43
+0:01:56.33,000 --> 0:01:58,000
+pero se enciende cada vez que oprimo este botón.
+
+44
+0:01:58.33,000 --> 0:02:02,000
+Lo que esto significa es que si ejecuto esta pieza de software
+
+45
+0:02:02.33,000 --> 0:02:06,000
+la cámara detecta el punto infrarrojo,
+
+46
+0:02:06.33,000 --> 0:02:11,000
+de modo que puedo mapear la ubicación de los pixels de la cámara
+
+47
+0:02:11.33,000 --> 0:02:14,000
+a los pixels del proyector. Así que ahora esto es como la superficie de un tablero/pizarra.
+
+48
+0:02:14.33,000 --> 0:02:17,000
+(Aplausos)
+
+49
+0:02:17.33,000 --> 0:02:2,000
+Así, por más o menos 50 dólares de hardware, usted puede tener su propio tablero interactivo.
+
+50
+0:02:20.33,000 --> 0:02:23,000
+Esto es Adobe Photoshop.
+
+51
+0:02:23.33,000 --> 0:02:29,000
+(Aplausos)
+
+52
+0:02:29.33,000 --> 0:02:3,000
+Gracias.
+
+53
+0:02:30.33,000 --> 0:02:31,000
+(Risas)
+
+54
+0:02:31.33,000 --> 0:02:34,000
+El software que permite esto está publicado en mi sitio web
+
+55
+0:02:34.33,000 --> 0:02:36,000
+y cualquier persona puede descargarlo de manera gratuita.
+
+56
+0:02:36.33,000 --> 0:02:38,000
+En los tres meses que este proyecto ha estado abierto al público
+
+57
+0:02:38.33,000 --> 0:02:4,000
+ha sido descargado más de medio millón de veces.
+
+58
+0:02:40.33,000 --> 0:02:43,000
+Así que los profesores y estudiantes de todas partes del mundo
+
+59
+0:02:43.33,000 --> 0:02:44,000
+ya están usando esto.
+
+60
+0:02:44.33,000 --> 0:02:5,000
+(Aplausos)
+
+61
+0:02:50.33,000 --> 0:02:52,000
+Quiero decir rápidamente que, aunque esto funciona por 50 dólares,
+
+62
+0:02:52.33,000 --> 0:02:54,000
+hay algunas limitaciones en este enfoque.
+
+63
+0:02:54.33,000 --> 0:02:56,000
+Pero usted logra el 80 por ciento de la funcionalidad
+
+64
+0:02:56.33,000 --> 0:02:57,000
+por alrededor de un uno por ciento del costo.
+
+65
+0:02:57.33,000 --> 0:03:,000
+Otra cosa buena es que la cámara puede ver múltiples puntos,
+
+66
+0:03:00.33,000 --> 0:03:01,000
+así que en realidad
+
+67
+0:03:01.33,000 --> 0:03:03,000
+es también un sistema de tablero/pizarra interactivo multi-toque.
+
+68
+0:03:03.33,000 --> 0:03:06,000
+(Aplausos)
+
+69
+0:03:06.33,000 --> 0:03:08,000
+Para la segunda demostración, tengo este control remoto de Wii
+
+70
+0:03:08.33,000 --> 0:03:09,000
+que está ubicado al lado del televisor.
+
+71
+0:03:10.33,000 --> 0:03:11,000
+Está apuntando en dirección contraria a la pantalla,
+
+72
+0:03:11.33,000 --> 0:03:14,000
+en lugar de apuntar hacia ella.
+
+73
+0:03:14.33,000 --> 0:03:16,000
+Lo que resulta interesante es que,
+
+74
+0:03:16.33,000 --> 0:03:2,000
+si usted se pone, digamos, un par de gafas de seguridad,
+
+75
+0:03:20.33,000 --> 0:03:22,000
+que tienen dos puntos infrarrojos en ellas,
+
+76
+0:03:22.33,000 --> 0:03:24,000
+lo que esos dos puntos van a hacer, esencialmente,
+
+77
+0:03:24.33,000 --> 0:03:27,000
+es darle al computador una aproximación de la ubicación de su cabeza.
+
+78
+0:03:27.33,000 --> 0:03:28,000
+Esto es interesante porque
+
+79
+0:03:28.33,000 --> 0:03:31,000
+tengo una aplicación ejecutándose en el monitor del computador
+
+80
+0:03:31.33,000 --> 0:03:34,000
+que tiene una habitación 3D, con algunos blancos flotando en ella.
+
+81
+0:03:34.33,000 --> 0:03:37,000
+Y ustedes pueden ver que parece una habitación 3D
+
+82
+0:03:37.33,000 --> 0:03:4,000
+como en un videojuego, parece 3D pero,
+
+83
+0:03:40.33,000 --> 0:03:42,000
+en su mayor parte, la imagen luce bastante plana,
+
+84
+0:03:42.33,000 --> 0:03:44,000
+y atada a la superficie de la pantalla.
+
+85
+0:03:44.33,000 --> 0:03:49,000
+Ahora, si encendemos el rastreo de la cabeza,
+
+86
+0:03:49.33,000 --> 0:03:51,000
+el computador puede cambiar la imagen que está en la pantalla
+
+87
+0:03:51.33,000 --> 0:03:54,000
+y hacer que responda a los movimientos de la cabeza.
+
+88
+0:03:54.33,000 --> 0:03:56,000
+Así que volvamos a eso.
+
+89
+0:03:56.33,000 --> 0:04:,000
+(Risas)
+
+90
+0:04:00.33,000 --> 0:04:1,000
+(Aplausos)
+
+91
+0:04:10.33,000 --> 0:04:13,000
+En realidad esto ha sido un poco alarmante
+
+92
+0:04:13.33,000 --> 0:04:14,000
+para la comunidad de desarrollo de videojuegos.
+
+93
+0:04:14.33,000 --> 0:04:16,000
+(Risas)
+
+94
+0:04:16.33,000 --> 0:04:19,000
+Porque son apenas 10 dólares de hardware adicional
+
+95
+0:04:19.33,000 --> 0:04:21,000
+si usted ya tiene un Nintendo Wii.
+
+96
+0:04:21.33,000 --> 0:04:23,000
+Así que espero ver algunos juegos,
+
+97
+0:04:23.33,000 --> 0:04:26,000
+y de hecho Louis Castle, que está allí abajo,
+
+98
+0:04:26.33,000 --> 0:04:27,000
+anunció la semana pasada que Electronic Arts,
+
+99
+0:04:27.33,000 --> 0:04:31,000
+uno de los editores más grandes de videojuegos, lanzará en Mayo un juego
+
+100
+0:04:31.33,000 --> 0:04:32,000
+que tiene un "huevo de Pascua"
+
+101
+0:04:32.33,000 --> 0:04:34,000
+que soporta este tipo de rastreo de la cabeza.
+
+102
+0:04:35.33,000 --> 0:04:37,000
+Bueno -- y ese es el resultado de menos de cinco meses
+
+103
+0:04:37.33,000 --> 0:04:4,000
+desde un prototipo en mi laboratorio hasta un producto comercial.
+
+104
+0:04:40.33,000 --> 0:04:46,000
+(Aplausos)
+
+105
+0:04:46.33,000 --> 0:04:49,000
+Gracias.
+
+106
+0:04:49.33,000 --> 0:04:51,000
+Para mi, lo que resulta más interesante
+
+107
+0:04:51.33,000 --> 0:04:53,000
+que cualquiera de estos dos productos,
+
+108
+0:04:53.33,000 --> 0:04:55,000
+es cómo las personas se enteraron acerca de ellos.
+
+109
+0:04:55.33,000 --> 0:04:59,000
+Definitivamente, YouTube ha cambiado la forma, o cambiado la velocidad,
+
+110
+0:04:59.33,000 --> 0:05:,000
+en la cual un único individuo
+
+111
+0:05:00.33,000 --> 0:05:02,000
+puede difundir una idea por el mundo.
+
+112
+0:05:02.33,000 --> 0:05:05,000
+Porque, saben, yo estoy haciendo algo de investigación en mi laboratorio con una cámara de video
+
+113
+0:05:05.33,000 --> 0:05:08,000
+y en la primera semana, un millón de personas han visto este trabajo,
+
+114
+0:05:09.33,000 --> 0:05:12,000
+y literalmente en días, ingenieros, profesores y estudiantes
+
+115
+0:05:12.33,000 --> 0:05:16,000
+de todas partes del mundo, estaban publicando sus propios videos de YouTube
+
+116
+0:05:16.33,000 --> 0:05:18,000
+con ellos usando mi sistema o derivaciones de mi sistema.
+
+117
+0:05:18.33,000 --> 0:05:21,000
+Así que espero ver más de eso en el futuro,
+
+118
+0:05:21.33,000 --> 0:05:23,000
+y espero que la distribución de vídeo en línea
+
+119
+0:05:23.33,000 --> 0:05:25,000
+sea acogida por la comunidad de investigadores.
+
+120
+0:05:25.33,000 --> 0:05:26,000
+Muchas gracias.
+
+121
+0:05:26.33,000 --> 0:05:34,000
+(Aplausos)
+

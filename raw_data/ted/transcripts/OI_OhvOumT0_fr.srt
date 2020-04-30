@@ -1,0 +1,1012 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Gabriel Tallineau Relecteur: Morgane Quilfen
+
+2
+0:00:12.634,000 --> 0:00:14,000
+Nous allons parler des systèmes d'entraînement de gènes,
+
+3
+0:00:15.366,000 --> 0:00:17,000
+mais je vais commencer avec une petite histoire.
+
+4
+0:00:18.621,000 --> 0:00:21,000
+Il y a 20 ans, un biologiste du nom d'Anthony James
+
+5
+0:00:21.818,000 --> 0:00:23,000
+s'est focalisé sur l'idée de créer des moustiques
+
+6
+0:00:24.131,000 --> 0:00:26,000
+qui ne transmettraient pas le paludisme.
+
+7
+0:00:27.683,000 --> 0:00:31,000
+C'était une bonne idée, mais un échec quasi complet.
+
+8
+0:00:32.596,000 --> 0:00:34,000
+D'une part, il s'est révélé très difficile
+
+9
+0:00:35.186,000 --> 0:00:37,000
+d'obtenir des moustiques résistants au paludisme.
+
+10
+0:00:38.286,000 --> 0:00:41,000
+James a finalement réussi, il y a juste quelques années,
+
+11
+0:00:41.887,000 --> 0:00:43,000
+en ajoutant des gènes qui rendent impossible
+
+12
+0:00:43.982,000 --> 0:00:45,000
+pour le parasite du paludisme de survivre dans le moustique.
+
+13
+0:00:47.551,000 --> 0:00:48,000
+Mais cela a créé un autre problème.
+
+14
+0:00:50.043,000 --> 0:00:52,000
+Maintenant que nous avons des moustiques résistants,
+
+15
+0:00:52.909,000 --> 0:00:55,000
+comment faire pour qu'ils remplacent les moustiques porteurs ?
+
+16
+0:00:58.107,000 --> 0:00:59,000
+Plusieurs options :
+
+17
+0:00:59.604,000 --> 0:01:01,000
+le plan A consistait en concevoir
+
+18
+0:01:01.621,000 --> 0:01:04,000
+un tas de moustiques modifiés génétiquement,
+
+19
+0:01:04.712,000 --> 0:01:05,000
+les relâcher dans la nature
+
+20
+0:01:06.052,000 --> 0:01:08,000
+et espérer qu'ils transmettent leurs gènes.
+
+21
+0:01:08.543,000 --> 0:01:1,000
+Le problème était, pour que ça marche,
+
+22
+0:01:10.811,000 --> 0:01:14,000
+qu'il fallait relâcher 10 fois plus de moustiques que ceux déjà présents.
+
+23
+0:01:15.105,000 --> 0:01:17,000
+Donc dans un village avec 10 000 moustiques,
+
+24
+0:01:17.246,000 --> 0:01:19,000
+il fallait en relâcher 100 000.
+
+25
+0:01:20.229,000 --> 0:01:21,000
+Vous vous en doutez,
+
+26
+0:01:21.393,000 --> 0:01:23,000
+l'idée n'était pas très populaire chez les villageois.
+
+27
+0:01:24.161,000 --> 0:01:25,000
+(Rires)
+
+28
+0:01:26.963,000 --> 0:01:29,000
+Puis, en janvier dernier, Anthony James a reçu un courriel
+
+29
+0:01:30.611,000 --> 0:01:32,000
+d'un biologiste appelé Ethan Bier.
+
+30
+0:01:33.4,000 --> 0:01:35,000
+Il disait qu'avec son étudiant, Valentino Gantz,
+
+31
+0:01:36.243,000 --> 0:01:38,000
+ils étaient tombés sur un outil qui non seulement garantissait
+
+32
+0:01:39.181,000 --> 0:01:41,000
+le caractère héréditaire du gène voulu,
+
+33
+0:01:41.919,000 --> 0:01:43,000
+mais qu'il se répandrait extrêmement vite.
+
+34
+0:01:44.734,000 --> 0:01:46,000
+S'ils étaient dans le vrai, cela réglerait le problème
+
+35
+0:01:47.364,000 --> 0:01:49,000
+sur lequel lui et James travaillaient depuis 20 ans.
+
+36
+0:01:50.45,000 --> 0:01:54,000
+Pour tester, ils ont conçu deux moustiques portant le gène anti-paludisme
+
+37
+0:01:55.092,000 --> 0:01:57,000
+et aussi ce nouvel outil, un gène conducteur,
+
+38
+0:01:57.321,000 --> 0:01:58,000
+que j'expliquerai après.
+
+39
+0:01:59.506,000 --> 0:02:01,000
+Et ils se sont arrangés pour que tout moustique
+
+40
+0:02:01.843,000 --> 0:02:02,000
+porteur du gène anti-paludisme
+
+41
+0:02:03.775,000 --> 0:02:07,000
+aurait les yeux rouges, à la place des yeux blancs normaux.
+
+42
+0:02:08.682,000 --> 0:02:1,000
+C'était surtout par souci de facilité
+
+43
+0:02:10.716,000 --> 0:02:12,000
+pour pouvoir les différencier à vue.
+
+44
+0:02:14.192,000 --> 0:02:16,000
+Ils ont pris les moustiques anti-paludisme aux yeux rouges
+
+45
+0:02:16.903,000 --> 0:02:18,000
+et les ont mis dans une boîte avec 30 moustiques normaux,
+
+46
+0:02:19.592,000 --> 0:02:2,000
+et laissé se reproduire.
+
+47
+0:02:21.383,000 --> 0:02:24,000
+En deux générations, ils ont eu 3 800 petits-enfants.
+
+48
+0:02:26.217,000 --> 0:02:27,000
+Ce n'est pas la partie surprenante.
+
+49
+0:02:28.716,000 --> 0:02:29,000
+Voici ce qui surprend :
+
+50
+0:02:30.612,000 --> 0:02:31,000
+sachant que vous avez commencé avec
+
+51
+0:02:32.313,000 --> 0:02:34,000
+deux moustiques aux yeux rouges et 30 aux yeux blancs,
+
+52
+0:02:35.107,000 --> 0:02:38,000
+on s'attendrait à une descendance surtout à yeux blancs.
+
+53
+0:02:38.514,000 --> 0:02:41,000
+Au contraire, lorsque James a ouvert la boîte,
+
+54
+0:02:41.568,000 --> 0:02:44,000
+tous les moustiques avaient les yeux rouges.
+
+55
+0:02:45.315,000 --> 0:02:47,000
+Lorsque j'ai questionné Bier sur ce moment,
+
+56
+0:02:47.379,000 --> 0:02:5,000
+il était si excité qu'il criait littéralement au téléphone.
+
+57
+0:02:51.746,000 --> 0:02:53,000
+C'est parce qu'obtenir uniquement des yeux rouges
+
+58
+0:02:54.089,000 --> 0:02:56,000
+bafoue une loi essentielle de la biologie,
+
+59
+0:02:57.015,000 --> 0:02:58,000
+la génétique Mendélienne.
+
+60
+0:02:58.912,000 --> 0:02:59,000
+Pour faire court,
+
+61
+0:02:59.925,000 --> 0:03:02,000
+la génétique Mendélienne dit que les enfants issus d'un accouplement
+
+62
+0:03:03.109,000 --> 0:03:05,000
+reçoivent 50% de leur ADN de chaque parent.
+
+63
+0:03:05.529,000 --> 0:03:08,000
+Donc si le moustique d'origine est aa, et le nouveau est aB,
+
+64
+0:03:09.184,000 --> 0:03:1,000
+avec B le gène anti-paludisme,
+
+65
+0:03:10.964,000 --> 0:03:12,000
+les enfants peuvent avoir quatre permutations :
+
+66
+0:03:13.385,000 --> 0:03:15,000
+aa, aB, aa, Ba.
+
+67
+0:03:16.884,000 --> 0:03:18,000
+Cependant, avec le nouveau gène,
+
+68
+0:03:19.167,000 --> 0:03:2,000
+ils sont tous aB.
+
+69
+0:03:21.9,000 --> 0:03:23,000
+Biologiquement, cela ne devrait pas être possible.
+
+70
+0:03:24.482,000 --> 0:03:25,000
+Mais que s'est-il donc passé ?
+
+71
+0:03:26.509,000 --> 0:03:27,000
+D'abord, l'apparition en 2012
+
+72
+0:03:28.147,000 --> 0:03:31,000
+de l'outil de manipulation génomique appelé CRISPR.
+
+73
+0:03:32.441,000 --> 0:03:34,000
+Vous avez certainement entendu parler de CRISPR,
+
+74
+0:03:34.735,000 --> 0:03:37,000
+donc je vais juste dire que CRISPR est un outil qui permet aux chercheurs
+
+75
+0:03:38.186,000 --> 0:03:4,000
+de modifier les gènes de manière précise, facile et rapide.
+
+76
+0:03:41.533,000 --> 0:03:44,000
+Il utilise un mécanisme déjà présent dans les bactéries.
+
+77
+0:03:45.216,000 --> 0:03:47,000
+En résumé, il y a une protéine qui agit comme des ciseaux
+
+78
+0:03:47.896,000 --> 0:03:48,000
+et coupe la séquence ADN,
+
+79
+0:03:49.164,000 --> 0:03:51,000
+et une molécule d'ARN qui dirige les ciseaux
+
+80
+0:03:51.707,000 --> 0:03:52,000
+où vous voulez sur le génome.
+
+81
+0:03:53.449,000 --> 0:03:55,000
+Cela donne en résumé un traitement de texte pour gènes.
+
+82
+0:03:56.157,000 --> 0:03:58,000
+Vous pouvez enlevez tout un gène, en mettre un,
+
+83
+0:03:58.807,000 --> 0:04:,000
+ou même juste une seule lettre d'un gène.
+
+84
+0:04:01.566,000 --> 0:04:03,000
+Et vous pouvez faire ça sur n'importe quelle espèce.
+
+85
+0:04:05.238,000 --> 0:04:09,000
+Donc, souvenons-nous des deux problèmes liés aux systèmes d'entraînement de gènes.
+
+86
+0:04:09.835,000 --> 0:04:11,000
+Le premier était la difficulté de créer
+
+87
+0:04:12.169,000 --> 0:04:14,000
+un moustique résistant au paludisme.
+
+88
+0:04:14.36,000 --> 0:04:16,000
+Ce point est réglé, grâce à CRISPR.
+
+89
+0:04:17.117,000 --> 0:04:18,000
+Mais l'autre problème est logistique.
+
+90
+0:04:19.307,000 --> 0:04:21,000
+Comment propager cette caractéristique ?
+
+91
+0:04:22.126,000 --> 0:04:23,000
+C'est là que ça devient subtil.
+
+92
+0:04:24.943,000 --> 0:04:27,000
+Il y a quelques années, Kevin Esvelt, un biologiste d'Harvard,
+
+93
+0:04:28.419,000 --> 0:04:29,000
+s'est demandé ce qui se passerait
+
+94
+0:04:30.029,000 --> 0:04:33,000
+si nous faisions en sorte que CRISPR non seulement ajoute un gène,
+
+95
+0:04:33.594,000 --> 0:04:35,000
+mais aussi le système qui permet de faire le copier-coller.
+
+96
+0:04:37.233,000 --> 0:04:4,000
+En d'autres termes, et si CRISPR se reproduisait lui-même ?
+
+97
+0:04:42.145,000 --> 0:04:43,000
+Nous obtenons alors
+
+98
+0:04:43.458,000 --> 0:04:46,000
+une machine à mouvement perpétuel de modification de gènes.
+
+99
+0:04:46.458,000 --> 0:04:47,000
+Et c'est ce qui s'est passé.
+
+100
+0:04:49.037,000 --> 0:04:51,000
+Le système d'entraînement CRISPR créé par Esvelt
+
+101
+0:04:51.945,000 --> 0:04:54,000
+non seulement garantissait le caractère héréditaire d'un gène,
+
+102
+0:04:55.586,000 --> 0:04:57,000
+mais s'il est introduit dans les cellules germinales,
+
+103
+0:04:58.164,000 --> 0:05:,000
+il copiera automatiquement le nouveau gène
+
+104
+0:05:00.648,000 --> 0:05:02,000
+dans les deux chromosomes de chaque individu.
+
+105
+0:05:03.743,000 --> 0:05:05,000
+C'est comme un chercher-remplacer global,
+
+106
+0:05:06.164,000 --> 0:05:09,000
+ou, en termes scientifiques, il rend un trait hétérozygote homozygote.
+
+107
+0:05:11.993,000 --> 0:05:12,000
+Qu'est-ce que ça signifie ?
+
+108
+0:05:13.773,000 --> 0:05:14,000
+Cela signifie que nous avons un outil
+
+109
+0:05:15.74,000 --> 0:05:18,000
+très puissant, mais aussi très dangereux.
+
+110
+0:05:20.116,000 --> 0:05:23,000
+Jusqu'ici, le demi-succès des systèmes d'entraînement de gènes
+
+111
+0:05:23.563,000 --> 0:05:24,000
+était presque un soulagement.
+
+112
+0:05:25.31,000 --> 0:05:27,000
+Normalement, lorsqu'on joue avec les gènes d'un organisme,
+
+113
+0:05:28.053,000 --> 0:05:3,000
+nous le rendons moins apte à survivre.
+
+114
+0:05:30.305,000 --> 0:05:32,000
+On peut donc faire autant de mouches à fruit qu'on veut
+
+115
+0:05:33.104,000 --> 0:05:34,000
+sans inquiétude.
+
+116
+0:05:34.297,000 --> 0:05:37,000
+Si certaines s'échappent, la sélection naturelle prend le relais.
+
+117
+0:05:38.572,000 --> 0:05:41,000
+Ce qui est puissant et inquiétant avec ces systèmes,
+
+118
+0:05:41.919,000 --> 0:05:43,000
+c'est que cela ne sera plus le cas.
+
+119
+0:05:45.202,000 --> 0:05:48,000
+En considérant que la caractéristique n'est pas un handicap à la survie,
+
+120
+0:05:48.88,000 --> 0:05:49,000
+comme un moustique qui ne vole pas,
+
+121
+0:05:50.734,000 --> 0:05:53,000
+le système basé sur CRISPR propagera la modification sans limite
+
+122
+0:05:53.983,000 --> 0:05:56,000
+jusqu'à être dans chaque individu de la population.
+
+123
+0:05:59.025,000 --> 0:06:01,000
+Ce n'est pas évident de faire un système si performant,
+
+124
+0:06:01.853,000 --> 0:06:03,000
+mais James et Esvelt pensent cela possible.
+
+125
+0:06:05.193,000 --> 0:06:08,000
+La bonne nouvelle est que nous pouvons faire des choses remarquables.
+
+126
+0:06:08.443,000 --> 0:06:1,000
+En insérant un système d’entrainement de gène anti-palu
+
+127
+0:06:11.167,000 --> 0:06:13,000
+chez seulement 1% des moustiques anophèles,
+
+128
+0:06:13.201,000 --> 0:06:15,000
+l'espèce vecteur du paludisme,
+
+129
+0:06:15.215,000 --> 0:06:18,000
+tous les moustiques l'auraient en un an.
+
+130
+0:06:20.137,000 --> 0:06:22,000
+En un an, il serait possible d'éliminer le paludisme.
+
+131
+0:06:23.496,000 --> 0:06:26,000
+En réalité, il nous faudra encore quelques années pour y arriver, mais
+
+132
+0:06:27.335,000 --> 0:06:29,000
+1 000 enfants meurent chaque jour du paludisme.
+
+133
+0:06:29.837,000 --> 0:06:31,000
+Dans un an, ce chiffre pourrait être proche de zéro.
+
+134
+0:06:32.949,000 --> 0:06:35,000
+Il en va de même pour le dengue, le chikungunya, la fièvre jaune.
+
+135
+0:06:37.264,000 --> 0:06:38,000
+Et il y a mieux.
+
+136
+0:06:39.22,000 --> 0:06:41,000
+Pour se débarrasser d'une espèce invasive,
+
+137
+0:06:41.565,000 --> 0:06:43,000
+comme la carpe d'Asie dans les Grands Lacs,
+
+138
+0:06:44.415,000 --> 0:06:46,000
+il suffit de déployer un système d'entraînement de gènes
+
+139
+0:06:47.058,000 --> 0:06:49,000
+faisant que les progénitures sont toutes des mâles.
+
+140
+0:06:49.449,000 --> 0:06:52,000
+En quelques générations, plus de femelles, et plus de carpes.
+
+141
+0:06:53.716,000 --> 0:06:56,000
+En théorie, nous pourrions rétablir des centaines d'espèces locales
+
+142
+0:06:56.874,000 --> 0:06:57,000
+au bord de l'extinction.
+
+143
+0:07:00.157,000 --> 0:07:01,000
+Ça, ce sont les bonnes nouvelles.
+
+144
+0:07:02.801,000 --> 0:07:02,000
+Voilà les mauvaises.
+
+145
+0:07:05.088,000 --> 0:07:07,000
+Les systèmes d'entraînement sont si efficaces
+
+146
+0:07:07.22,000 --> 0:07:09,000
+qu'un déploiement accidentel mettrait très rapidement,
+
+147
+0:07:10.133,000 --> 0:07:12,000
+en danger toute une espèce.
+
+148
+0:07:13.008,000 --> 0:07:15,000
+Anthony James a usé de grandes précautions.
+
+149
+0:07:15.188,000 --> 0:07:17,000
+Il a conçu ses moustiques dans un laboratoire confiné
+
+150
+0:07:17.718,000 --> 0:07:19,000
+et a utilisé une espèce non-native des US
+
+151
+0:07:19.854,000 --> 0:07:2,000
+pour qu'au cas où certains s'échappent,
+
+152
+0:07:21.776,000 --> 0:07:23,000
+ils meurent sans se reproduire.
+
+153
+0:07:24.645,000 --> 0:07:27,000
+Mais il est vrai que si une dizaine de carpes modifiées
+
+154
+0:07:28.434,000 --> 0:07:32,000
+étaient accidentellement ramenées, depuis les Grands Lacs vers l'Asie,
+
+155
+0:07:32.728,000 --> 0:07:35,000
+elles pourraient effacer la population locale de carpes d'Asie.
+
+156
+0:07:37.801,000 --> 0:07:39,000
+Et dans un monde si connecté, ce n'est pas du tout impensable.
+
+157
+0:07:40.78,000 --> 0:07:42,000
+C'est même l'origine des espèces invasives.
+
+158
+0:07:43.837,000 --> 0:07:44,000
+Et on parle de poissons.
+
+159
+0:07:45.362,000 --> 0:07:47,000
+Pour les moustiques et moucherons,
+
+160
+0:07:47.828,000 --> 0:07:48,000
+il n'y a aucun moyen de les contenir.
+
+161
+0:07:49.706,000 --> 0:07:51,000
+Ils traversent constamment frontières et océans.
+
+162
+0:07:54.12,000 --> 0:07:55,000
+Mais l'autre mauvaise nouvelle
+
+163
+0:07:55.694,000 --> 0:07:59,000
+est qu'un système d'entraînement de gènes pourrait ne pas se limiter à la cible.
+
+164
+0:08:00.356,000 --> 0:08:02,000
+Ceci est dû au flux génomique, un moyen élégant
+
+165
+0:08:02.605,000 --> 0:08:04,000
+de dire que parfois des espèces proches s'accouplent.
+
+166
+0:08:05.694,000 --> 0:08:08,000
+Si cela arrivait, un gène conducteur pourrait être transmis,
+
+167
+0:08:08.702,000 --> 0:08:1,000
+comme la carpe d'Asie contaminant une autre espèce de carpes.
+
+168
+0:08:11.633,000 --> 0:08:14,000
+Ce n'est pas grave s'il s'agit de la couleur des yeux.
+
+169
+0:08:15.317,000 --> 0:08:17,000
+À vrai dire, il est possible que nous voyons prochainement
+
+170
+0:08:18.044,000 --> 0:08:2,000
+une vague de mouches à fruit très bizarres.
+
+171
+0:08:21.2,000 --> 0:08:22,000
+Mais cela pourrait être un désastre
+
+172
+0:08:22.883,000 --> 0:08:25,000
+si le gène conducteur vise à éliminer une espèce entière.
+
+173
+0:08:26.351,000 --> 0:08:29,000
+L'autre inquiétude est que la technologie pour faire cela,
+
+174
+0:08:29.949,000 --> 0:08:32,000
+pour modifier un organisme et ajouter un système d'entraînement de gène,
+
+175
+0:08:33.568,000 --> 0:08:36,000
+est quelque chose que n'importe quel laboratoire peut faire.
+
+176
+0:08:36.946,000 --> 0:08:37,000
+Une personne en licence peut le faire.
+
+177
+0:08:39.209,000 --> 0:08:42,000
+Un lycéen avec du talent et un peu d'équipement peut le faire.
+
+178
+0:08:44.526,000 --> 0:08:46,000
+Là, ça sonne terrifiant.
+
+179
+0:08:47.351,000 --> 0:08:49,000
+(Rires)
+
+180
+0:08:49.581,000 --> 0:08:51,000
+Curieusement, presque tous les scientifiques avec qui je parle
+
+181
+0:08:52.495,000 --> 0:08:55,000
+pensent que les systèmes d'entraînement ne sont ni inquiétants ni dangereux.
+
+182
+0:08:56.37,000 --> 0:08:57,000
+En partie car ils pensent que
+
+183
+0:08:57.748,000 --> 0:08:59,000
+les scientifiques seront prudents dans leur non-utilisation.
+
+184
+0:09:01.28,000 --> 0:09:02,000
+(Rires)
+
+185
+0:09:02.318,000 --> 0:09:03,000
+Jusqu'ici, c'est vrai.
+
+186
+0:09:04.072,000 --> 0:09:07,000
+Mais les systèmes d'entraînement de gènes sont aussi limités.
+
+187
+0:09:07.088,000 --> 0:09:1,000
+D'une part, ils ne marchent que pour les espèces à reproduction sexuée.
+
+188
+0:09:10.731,000 --> 0:09:13,000
+Donc ils ne peuvent être utilisés pour fabriquer des virus ou bactéries.
+
+189
+0:09:14.126,000 --> 0:09:17,000
+D'autre part, le trait ne se propage qu'à chaque génération.
+
+190
+0:09:17.37,000 --> 0:09:19,000
+Donc modifier ou éliminer une population
+
+191
+0:09:19.387,000 --> 0:09:22,000
+n'est envisageable que pour des espèces à cycle reproductif rapide,
+
+192
+0:09:22.717,000 --> 0:09:24,000
+comme les insectes et peut-être les souris ou le poisson.
+
+193
+0:09:26.288,000 --> 0:09:28,000
+Pour les éléphants ou les hommes, il faudrait des siècles
+
+194
+0:09:28.969,000 --> 0:09:31,000
+pour qu'un trait soit suffisamment répandu pour avoir un impact.
+
+195
+0:09:32.079,000 --> 0:09:37,000
+Puis, même avec CRISPR, ce n'est pas aisé de fabriquer un trait dévastateur.
+
+196
+0:09:38.079,000 --> 0:09:39,000
+Si vous voulez une drosophile
+
+197
+0:09:39.848,000 --> 0:09:41,000
+se nourrissant de fruits normaux au lieu de pourris,
+
+198
+0:09:42.467,000 --> 0:09:44,000
+avec pour objectif de saboter l'agriculture américaine.
+
+199
+0:09:45.074,000 --> 0:09:46,000
+Premièrement, il faut trouver
+
+200
+0:09:46.532,000 --> 0:09:49,000
+quels gènes contrôlent le type de fruits que la drosophile mange,
+
+201
+0:09:49.604,000 --> 0:09:51,000
+ce qui est déjà très long et fastidieux.
+
+202
+0:09:52.359,000 --> 0:09:55,000
+Après, il faut altérer ces gènes pour modifier le comportement de la mouche
+
+203
+0:09:55.893,000 --> 0:09:56,000
+pour qu'elle agisse comme voulu,
+
+204
+0:09:57.585,000 --> 0:09:59,000
+ce qui est encore plus long et compliqué.
+
+205
+0:10:00.154,000 --> 0:10:01,000
+Et cela pourrait ne pas marcher
+
+206
+0:10:01.642,000 --> 0:10:03,000
+car les gènes contrôlant le comportement sont complexes.
+
+207
+0:10:04.29,000 --> 0:10:05,000
+Un terroriste devant choisir
+
+208
+0:10:05.716,000 --> 0:10:07,000
+entre un programme de recherche épuisant
+
+209
+0:10:07.734,000 --> 0:10:1,000
+demandant des années de travail minutieux qui pourrait ne pas payer,
+
+210
+0:10:11.499,000 --> 0:10:12,000
+et faire exploser des choses,
+
+211
+0:10:13.256,000 --> 0:10:14,000
+choisira surement le second choix.
+
+212
+0:10:15.498,000 --> 0:10:17,000
+C'est d'autant plus vrai car, en théorie du moins,
+
+213
+0:10:17.862,000 --> 0:10:2,000
+ce serait très facile de créer un système d'entraînement inverse,
+
+214
+0:10:21.1,000 --> 0:10:24,000
+qui n'aurait qu'à corriger les changements faits par le premier système.
+
+215
+0:10:24.822,000 --> 0:10:26,000
+Donc si vous n'aimez pas le résultat,
+
+216
+0:10:27.14,000 --> 0:10:29,000
+il suffit de répandre un gène qui le supprimera.
+
+217
+0:10:29.997,000 --> 0:10:3,000
+Du moins en théorie.
+
+218
+0:10:33.374,000 --> 0:10:34,000
+Donc, que faire maintenant ?
+
+219
+0:10:36.604,000 --> 0:10:39,000
+Nous avons la possibilité de modifier à souhait toute une espèce.
+
+220
+0:10:41.017,000 --> 0:10:42,000
+Devrions-nous ?
+
+221
+0:10:42.552,000 --> 0:10:43,000
+Sommes-nous devenus des dieux ?
+
+222
+0:10:45.972,000 --> 0:10:46,000
+Je ne dirais pas ça.
+
+223
+0:10:48.094,000 --> 0:10:49,000
+Mais je peux dire cela :
+
+224
+0:10:50.079,000 --> 0:10:52,000
+actuellement, des gens très intelligents
+
+225
+0:10:52.227,000 --> 0:10:55,000
+débattent sur comment contrôler les systèmes d'entraînement de gènes.
+
+226
+0:10:55.627,000 --> 0:10:57,000
+En même temps, d'autres gens très intelligents
+
+227
+0:10:58.166,000 --> 0:11:,000
+travaillent à créer des sécurités,
+
+228
+0:11:00.337,000 --> 0:11:04,000
+comme des gènes conducteurs auto-régulés ou qui disparaissent après X générations.
+
+229
+0:11:04.644,000 --> 0:11:05,000
+C'est bien.
+
+230
+0:11:06.313,000 --> 0:11:08,000
+Mais cette technologie requiert une discussion.
+
+231
+0:11:09.899,000 --> 0:11:1,000
+Et vu la nature des gènes conducteurs,
+
+232
+0:11:11.819,000 --> 0:11:12,000
+la discussion doit être mondiale.
+
+233
+0:11:14.131,000 --> 0:11:17,000
+Et si le Kenya veut utiliser un gène conducteur mais pas la Tanzanie ?
+
+234
+0:11:17.428,000 --> 0:11:2,000
+Qui décide de répandre un gène conducteur pouvant voler ?
+
+235
+0:11:22.874,000 --> 0:11:23,000
+Je n'ai pas la réponse à ça.
+
+236
+0:11:25.618,000 --> 0:11:27,000
+Nous ne pouvons qu'avancer,
+
+237
+0:11:27.656,000 --> 0:11:29,000
+pesez les pour et les contre de manière honnête
+
+238
+0:11:30.588,000 --> 0:11:32,000
+et prendre nos responsabilités.
+
+239
+0:11:33.817,000 --> 0:11:36,000
+Par cela, je ne parle pas juste du choix d'utiliser un gène conducteur,
+
+240
+0:11:37.77,000 --> 0:11:39,000
+mais aussi le choix de ne pas en utiliser.
+
+241
+0:11:41.111,000 --> 0:11:44,000
+Les hommes ont tendance à penser que la bonne solution
+
+242
+0:11:44.128,000 --> 0:11:45,000
+est de préserver le statu quo.
+
+243
+0:11:46.905,000 --> 0:11:48,000
+Mais ce n'est pas toujours le cas.
+
+244
+0:11:49.711,000 --> 0:11:52,000
+Les systèmes d'entraînement de gènes comportent des risques à considérer,
+
+245
+0:11:53.266,000 --> 0:11:56,000
+mais le paludisme existe et tue 1 000 personnes par jour.
+
+246
+0:11:56.977,000 --> 0:11:59,000
+Pour se défendre, les pesticides utilisés nuisent gravement à d'autres espèces,
+
+247
+0:12:00.901,000 --> 0:12:01,000
+y compris amphibiens et oiseaux.
+
+248
+0:12:03.428,000 --> 0:12:06,000
+Donc quand vous entendrez parler de système d’entraînement de gènes,
+
+249
+0:12:06.672,000 --> 0:12:08,000
+et croyez-moi, vous allez en entendre parler,
+
+250
+0:12:08.794,000 --> 0:12:09,000
+rappelez-vous de ceci :
+
+251
+0:12:10.372,000 --> 0:12:12,000
+agir peut faire peur,
+
+252
+0:12:12.452,000 --> 0:12:14,000
+mais parfois, ne pas agir est pire.
+
+253
+0:12:16.746,000 --> 0:12:23,000
+(Applaudissements)
+

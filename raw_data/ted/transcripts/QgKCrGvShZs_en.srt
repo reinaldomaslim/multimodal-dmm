@@ -1,0 +1,448 @@
+1
+0:00:19.608,000 --> 0:00:23,000
+So, as researchers, something that we often do is use immense resources
+
+2
+0:00:23.853,000 --> 0:00:26,000
+to achieve certain capabilities, or achieve certain goals.
+
+3
+0:00:27.156,000 --> 0:00:29,000
+And this is essential to the progress of science,
+
+4
+0:00:29.715,000 --> 0:00:31,000
+or exploration of what is possible.
+
+5
+0:00:32.064,000 --> 0:00:34,000
+But it creates this unfortunate situation
+
+6
+0:00:34.096,000 --> 0:00:36,000
+where a tiny, tiny fraction of the world
+
+7
+0:00:36.136,000 --> 0:00:38,000
+can actually participate in this exploration
+
+8
+0:00:38.256,000 --> 0:00:39,000
+or can benefit from that technology.
+
+9
+0:00:40.101,000 --> 0:00:41,000
+Something that motivates me,
+
+10
+0:00:41.53,000 --> 0:00:43,000
+and gets me really excited about my research,
+
+11
+0:00:43.767,000 --> 0:00:44,000
+is when I see simple opportunities
+
+12
+0:00:45.497,000 --> 0:00:48,000
+to drastically change that distribution and make the technology accessible
+
+13
+0:00:49.321,000 --> 0:00:51,000
+to a much wider percentage of the population.
+
+14
+0:00:51.454,000 --> 0:00:54,000
+I'm going to show you two videos that have gotten a lot of attention
+
+15
+0:00:55.01,000 --> 0:00:56,000
+that I think embody this philosophy.
+
+16
+0:00:56.804,000 --> 0:00:58,000
+And they actually use the Nintendo Wii Remote.
+
+17
+0:00:59.261,000 --> 0:01:01,000
+For those of you who aren't familiar with this device,
+
+18
+0:01:01.826,000 --> 0:01:03,000
+it's a $40 video game controller.
+
+19
+0:01:04.547,000 --> 0:01:07,000
+And it's mostly advertised for its motion-sensing capabilities:
+
+20
+0:01:07.716,000 --> 0:01:09,000
+so you can swing a tennis racket, or hit a baseball bat.
+
+21
+0:01:10.382,000 --> 0:01:12,000
+But what actually interests me a lot more
+
+22
+0:01:12.764,000 --> 0:01:14,000
+is the fact that in the tip of each controller
+
+23
+0:01:14.946,000 --> 0:01:16,000
+is a relatively high-performing infrared camera.
+
+24
+0:01:17.76,000 --> 0:01:21,000
+And I'm going to show you two demos of why this is useful.
+
+25
+0:01:22.243,000 --> 0:01:24,000
+So here, I have my computer set up with the projector,
+
+26
+0:01:25.171,000 --> 0:01:27,000
+and I have a Wii Remote sitting on top of it.
+
+27
+0:01:27.552,000 --> 0:01:3,000
+And, for example, if you're in a school that doesn't have a lot money,
+
+28
+0:01:31.434,000 --> 0:01:32,000
+probably a lot of schools,
+
+29
+0:01:32.885,000 --> 0:01:35,000
+or if you're in an office environment, and you want an interactive whiteboard,
+
+30
+0:01:36.591,000 --> 0:01:38,000
+normally these cost about two to three thousand dollars.
+
+31
+0:01:39.265,000 --> 0:01:42,000
+So I'm going to show you how to create one with a Wii Remote.
+
+32
+0:01:43.397,000 --> 0:01:46,000
+Now, this requires another piece of hardware,
+
+33
+0:01:47.005,000 --> 0:01:48,000
+which is this infrared pen.
+
+34
+0:01:48.597,000 --> 0:01:5,000
+You can probably make this yourself for about five dollars
+
+35
+0:01:51.431,000 --> 0:01:52,000
+with a quick trip to the Radio Shack.
+
+36
+0:01:53.287,000 --> 0:01:55,000
+It's got a battery, a button and an infrared LED --
+
+37
+0:01:55.869,000 --> 0:01:56,000
+you guys can't see it --
+
+38
+0:01:57.051,000 --> 0:01:59,000
+but it turns on whenever I push the button.
+
+39
+0:01:59.306,000 --> 0:02:03,000
+Now, what this means is that if I run this piece of software,
+
+40
+0:02:03.868,000 --> 0:02:07,000
+the camera sees the infrared dot,
+
+41
+0:02:08.305,000 --> 0:02:12,000
+and I can register the location of the camera pixels
+
+42
+0:02:12.514,000 --> 0:02:13,000
+to the projector pixels.
+
+43
+0:02:13.681,000 --> 0:02:15,000
+And now this is like an interactive whiteboard surface.
+
+44
+0:02:16.387,000 --> 0:02:17,000
+(Applause)
+
+45
+0:02:18.133,000 --> 0:02:21,000
+So for about $50 of hardware, you can have your own whiteboard.
+
+46
+0:02:22.046,000 --> 0:02:24,000
+This is Adobe Photoshop.
+
+47
+0:02:24.253,000 --> 0:02:29,000
+(Applause)
+
+48
+0:02:29.942,000 --> 0:02:3,000
+Thank you.
+
+49
+0:02:31.022,000 --> 0:02:32,000
+(Laughter)
+
+50
+0:02:32.679,000 --> 0:02:34,000
+The software for this I've actually put on my website
+
+51
+0:02:35.314,000 --> 0:02:37,000
+and have let people download it for free.
+
+52
+0:02:37.345,000 --> 0:02:39,000
+In the three months this project has been public,
+
+53
+0:02:39.74,000 --> 0:02:41,000
+it's been downloaded over half a million times.
+
+54
+0:02:42.032,000 --> 0:02:44,000
+So teachers and students all around the world
+
+55
+0:02:44.297,000 --> 0:02:45,000
+are already using this.
+
+56
+0:02:45.667,000 --> 0:02:5,000
+(Applause)
+
+57
+0:02:51.09,000 --> 0:02:53,000
+Although it does do it for 50 dollars,
+
+58
+0:02:53.407,000 --> 0:02:55,000
+there are some limitations of this approach.
+
+59
+0:02:55.488,000 --> 0:02:58,000
+You get about 80 percent of the way there, for one percent of the cost.
+
+60
+0:02:58.914,000 --> 0:03:,000
+Another nice thing is that a camera can see multiple dots,
+
+61
+0:03:01.716,000 --> 0:03:04,000
+so this is actually a multi-touch, interactive whiteboard system as well.
+
+62
+0:03:05.203,000 --> 0:03:07,000
+(Applause)
+
+63
+0:03:07.425,000 --> 0:03:08,000
+For the second demo,
+
+64
+0:03:08.577,000 --> 0:03:1,000
+I have this Wii Remote that's actually next to the TV.
+
+65
+0:03:11.225,000 --> 0:03:15,000
+So it's pointing away from the display, rather than pointing at the display.
+
+66
+0:03:15.449,000 --> 0:03:17,000
+And why this is interesting
+
+67
+0:03:17.736,000 --> 0:03:2,000
+is that if you put on, say, a pair of safety glasses,
+
+68
+0:03:21.474,000 --> 0:03:22,000
+that have two infrared dots in them,
+
+69
+0:03:23.312,000 --> 0:03:28,000
+they are going to give the computer an approximation of your head location.
+
+70
+0:03:28.589,000 --> 0:03:29,000
+And why this is interesting
+
+71
+0:03:29.915,000 --> 0:03:32,000
+is I have this sort of application running on the computer monitor,
+
+72
+0:03:33.082,000 --> 0:03:35,000
+which has a 3D room, with some targets floating in it.
+
+73
+0:03:35.638,000 --> 0:03:37,000
+And you can see that it looks like a 3D room.
+
+74
+0:03:37.901,000 --> 0:03:4,000
+kind of like a video game, it sort of looks 3D,
+
+75
+0:03:41.272,000 --> 0:03:43,000
+but for the most part, the image looks pretty flat,
+
+76
+0:03:43.763,000 --> 0:03:44,000
+and bound to the surface of the screen.
+
+77
+0:03:45.645,000 --> 0:03:47,000
+But if we turn on head tracking --
+
+78
+0:03:51.05,000 --> 0:03:53,000
+the computer can change the image that's on the screen
+
+79
+0:03:53.859,000 --> 0:03:55,000
+and make it respond to the head movements.
+
+80
+0:03:55.899,000 --> 0:03:56,000
+So let's switch back to that.
+
+81
+0:03:57.304,000 --> 0:04:,000
+(Laughter)
+
+82
+0:04:00.33,000 --> 0:04:02,000
+(Applause)
+
+83
+0:04:10.975,000 --> 0:04:13,000
+So this has actually been a little bit startling
+
+84
+0:04:14.218,000 --> 0:04:15,000
+to the game-development community.
+
+85
+0:04:15.876,000 --> 0:04:16,000
+(Laughter)
+
+86
+0:04:17.722,000 --> 0:04:19,000
+Because this is about 10 dollars of additional hardware
+
+87
+0:04:20.602,000 --> 0:04:21,000
+if you already have a Nintendo Wii.
+
+88
+0:04:22.485,000 --> 0:04:24,000
+So I'm looking forward to seeing some games,
+
+89
+0:04:24.794,000 --> 0:04:26,000
+and actually Louis Castle, that's him down there,
+
+90
+0:04:27.313,000 --> 0:04:3,000
+last week announced that Electronic Arts, one of the largest game publishers,
+
+91
+0:04:30.976,000 --> 0:04:33,000
+is releasing a game in May that has a little Easter egg feature
+
+92
+0:04:34.001,000 --> 0:04:36,000
+for supporting this type of head tracking.
+
+93
+0:04:36.318,000 --> 0:04:37,000
+And that's from less than five months
+
+94
+0:04:38.268,000 --> 0:04:41,000
+from a prototype in my lab to a major commercial product.
+
+95
+0:04:41.418,000 --> 0:04:46,000
+(Applause)
+
+96
+0:04:46.935,000 --> 0:04:47,000
+Thank you.
+
+97
+0:04:48.188,000 --> 0:04:5,000
+(Applause)
+
+98
+0:04:50.451,000 --> 0:04:52,000
+But actually, to me, what's almost more interesting
+
+99
+0:04:52.874,000 --> 0:04:53,000
+than either of these two projects
+
+100
+0:04:54.47,000 --> 0:04:56,000
+is how people actually found out about them.
+
+101
+0:04:56.789,000 --> 0:04:59,000
+YouTube has really changed the way, or changed the speed,
+
+102
+0:05:00.353,000 --> 0:05:01,000
+in which a single individual
+
+103
+0:05:01.711,000 --> 0:05:03,000
+can actually spread an idea around the world.
+
+104
+0:05:03.962,000 --> 0:05:06,000
+I'm doing some research in my lab with a video camera,
+
+105
+0:05:06.986,000 --> 0:05:08,000
+and within the first week, a million people had seen this work,
+
+106
+0:05:09.963,000 --> 0:05:12,000
+and literally within days, engineers, teachers and students
+
+107
+0:05:13.578,000 --> 0:05:16,000
+from around the world were already posting their own YouTube videos
+
+108
+0:05:16.793,000 --> 0:05:19,000
+of them using my system or derivatives of this work.
+
+109
+0:05:20.177,000 --> 0:05:22,000
+So I hope to see more of that in the future,
+
+110
+0:05:22.741,000 --> 0:05:25,000
+and hope online video distribution to be embraced by the research community.
+
+111
+0:05:26.337,000 --> 0:05:27,000
+So thank you very much.
+
+112
+0:05:27.614,000 --> 0:05:3,000
+(Applause)
+

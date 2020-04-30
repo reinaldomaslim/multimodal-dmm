@@ -1,0 +1,1180 @@
+1
+0:00:16.41,000 --> 0:00:18,000
+My name's Seth Priebatsch. I'm the chief ninja of SCVNGR.
+
+2
+0:00:19.118,000 --> 0:00:2,000
+I'm a proud Princeton dropout.
+
+3
+0:00:20.61,000 --> 0:00:22,000
+Also proud to have relocated here to Boston,
+
+4
+0:00:22.688,000 --> 0:00:23,000
+where I actually grew up.
+
+5
+0:00:24.259,000 --> 0:00:25,000
+(Applause) Yeah, Boston.
+
+6
+0:00:26.063,000 --> 0:00:29,000
+Easy wins, I should just name the counties that we've got around here.
+
+7
+0:00:29.389,000 --> 0:00:31,000
+I'm also fairly determined to try and build
+
+8
+0:00:31.604,000 --> 0:00:32,000
+a game layer on top of the world.
+
+9
+0:00:33.217,000 --> 0:00:35,000
+This is sort of a new concept and it's really important,
+
+10
+0:00:35.901,000 --> 0:00:38,000
+because while the last decade was the decade of social,
+
+11
+0:00:39.022,000 --> 0:00:42,000
+the decade where the framework in which we connect with other people was built,
+
+12
+0:00:42.827,000 --> 0:00:46,000
+this next decade will be the decade where the game framework is built,
+
+13
+0:00:47.174,000 --> 0:00:49,000
+where the motivations we use to actually influence behavior
+
+14
+0:00:50.126,000 --> 0:00:52,000
+and the framework in which that is constructed,
+
+15
+0:00:52.365,000 --> 0:00:54,000
+is decided upon, and that's really important.
+
+16
+0:00:54.508,000 --> 0:00:56,000
+I say I want to build a game layer on top of the world,
+
+17
+0:00:57.111,000 --> 0:00:58,000
+but that's not quite true,
+
+18
+0:00:58.386,000 --> 0:01:01,000
+because it's already under construction; it's already happening.
+
+19
+0:01:01.56,000 --> 0:01:02,000
+And it looks like this right now.
+
+20
+0:01:03.444,000 --> 0:01:05,000
+It looks like the Web did back in 1997, right?
+
+21
+0:01:06.26,000 --> 0:01:07,000
+It's not very good. It's cluttered.
+
+22
+0:01:08.21,000 --> 0:01:11,000
+It's filled with lots of different things that, in short, aren't that fun.
+
+23
+0:01:12.124,000 --> 0:01:15,000
+There are credit card schemes and airline mile programs,
+
+24
+0:01:15.392,000 --> 0:01:17,000
+coupon cards and all these loyalty schemes
+
+25
+0:01:18.056,000 --> 0:01:21,000
+that actually do use game dynamics and are building the game layer --
+
+26
+0:01:21.941,000 --> 0:01:22,000
+they just suck.
+
+27
+0:01:23.26,000 --> 0:01:25,000
+They're not very well-designed.
+
+28
+0:01:25.349,000 --> 0:01:26,000
+(Laughter)
+
+29
+0:01:26.417,000 --> 0:01:27,000
+So that's unfortunate.
+
+30
+0:01:27.985,000 --> 0:01:31,000
+But luckily, as my favorite action hero, Bob the Builder, says,
+
+31
+0:01:32.167,000 --> 0:01:34,000
+"We can do better. We can build this better."
+
+32
+0:01:34.769,000 --> 0:01:37,000
+And the tools, the resources that we use to build a game layer,
+
+33
+0:01:38.26,000 --> 0:01:39,000
+are game dynamics themselves.
+
+34
+0:01:40.093,000 --> 0:01:42,000
+And so the crux of this presentation is going to go through
+
+35
+0:01:42.886,000 --> 0:01:43,000
+four really important game dynamics,
+
+36
+0:01:44.648,000 --> 0:01:46,000
+really interesting things, that, if you use consciously,
+
+37
+0:01:47.457,000 --> 0:01:49,000
+you can use to influence behavior,
+
+38
+0:01:50.26,000 --> 0:01:52,000
+both for good, for bad, for in-between.
+
+39
+0:01:52.641,000 --> 0:01:53,000
+Hopefully for good.
+
+40
+0:01:53.964,000 --> 0:01:57,000
+But this is the important stage in which that framework will get built,
+
+41
+0:01:57.988,000 --> 0:02:,000
+and so we want to all be thinking about it consciously now.
+
+42
+0:02:01.109,000 --> 0:02:03,000
+Before we jump into that, there's a question of:
+
+43
+0:02:03.39,000 --> 0:02:04,000
+Why is this important?
+
+44
+0:02:04.565,000 --> 0:02:05,000
+I'm making this claim
+
+45
+0:02:05.743,000 --> 0:02:07,000
+that there's a game layer on top of the world,
+
+46
+0:02:07.917,000 --> 0:02:09,000
+and it's very important that we build it properly.
+
+47
+0:02:10.279,000 --> 0:02:12,000
+The reason it's so important is that, in the last decade,
+
+48
+0:02:12.973,000 --> 0:02:14,000
+what we've seen has been building the social layer,
+
+49
+0:02:15.883,000 --> 0:02:17,000
+has been this framework for connections,
+
+50
+0:02:18.375,000 --> 0:02:21,000
+and construction on that layer is over, it's finished.
+
+51
+0:02:21.963,000 --> 0:02:22,000
+There's still a lot to explore,
+
+52
+0:02:23.465,000 --> 0:02:25,000
+still a lot of people trying to figure out social
+
+53
+0:02:25.78,000 --> 0:02:27,000
+and how we leverage this and how we use this,
+
+54
+0:02:27.906,000 --> 0:02:28,000
+but the framework itself is done,
+
+55
+0:02:29.713,000 --> 0:02:3,000
+and it's called Facebook.
+
+56
+0:02:32.175,000 --> 0:02:35,000
+And that's OK, right? A lot of people are very happy with Facebook.
+
+57
+0:02:35.57,000 --> 0:02:36,000
+I like it quite a lot.
+
+58
+0:02:37.183,000 --> 0:02:39,000
+They've created this thing called the Open Graph,
+
+59
+0:02:39.51,000 --> 0:02:4,000
+and they own all of our connections.
+
+60
+0:02:41.26,000 --> 0:02:42,000
+They own half a billion people.
+
+61
+0:02:42.891,000 --> 0:02:44,000
+So when you want to build on the social layer,
+
+62
+0:02:45.099,000 --> 0:02:48,000
+the framework has been decided; it is the Open Graph API.
+
+63
+0:02:48.335,000 --> 0:02:5,000
+And if you're happy with that, fantastic.
+
+64
+0:02:50.369,000 --> 0:02:52,000
+If you're not, too bad. There's nothing you can do.
+
+65
+0:02:53.547,000 --> 0:02:55,000
+And that's a real thing.
+
+66
+0:02:56.26,000 --> 0:03:,000
+I mean, we want to build frameworks in a way that makes it acceptable
+
+67
+0:03:01.26,000 --> 0:03:03,000
+and makes it productive down the road.
+
+68
+0:03:03.371,000 --> 0:03:05,000
+So, the social layer is all about these connections.
+
+69
+0:03:06.495,000 --> 0:03:08,000
+The game layer is all about influence.
+
+70
+0:03:08.931,000 --> 0:03:1,000
+It's not about adding a social fabric to the web
+
+71
+0:03:11.199,000 --> 0:03:12,000
+and connecting you to other people
+
+72
+0:03:12.85,000 --> 0:03:13,000
+everywhere you are and everywhere you go,
+
+73
+0:03:14.828,000 --> 0:03:16,000
+it's actually about using dynamics, using forces,
+
+74
+0:03:17.148,000 --> 0:03:2,000
+to influence the behavior of where you are, what you do there,
+
+75
+0:03:20.3,000 --> 0:03:21,000
+how you do it.
+
+76
+0:03:21.477,000 --> 0:03:22,000
+That's really, really powerful.
+
+77
+0:03:22.995,000 --> 0:03:24,000
+And it's going to be more important than the social layer,
+
+78
+0:03:25.751,000 --> 0:03:27,000
+and affect our lives more deeply and perhaps more invisibly.
+
+79
+0:03:28.67,000 --> 0:03:3,000
+So it's incredibly critical that at this moment,
+
+80
+0:03:31.492,000 --> 0:03:32,000
+while it's just getting constructed,
+
+81
+0:03:33.236,000 --> 0:03:35,000
+while the frameworks like Facebook or Open Graph
+
+82
+0:03:35.566,000 --> 0:03:37,000
+are being created for the game-layer equivalent,
+
+83
+0:03:37.86,000 --> 0:03:38,000
+that we think about it very consciously,
+
+84
+0:03:39.808,000 --> 0:03:41,000
+and that we do it in a way that is open, available,
+
+85
+0:03:42.22,000 --> 0:03:43,000
+and can be leveraged for good.
+
+86
+0:03:43.733,000 --> 0:03:45,000
+So that's what I want to talk about for game dynamics,
+
+87
+0:03:46.287,000 --> 0:03:47,000
+because construction has just begun,
+
+88
+0:03:48.034,000 --> 0:03:5,000
+and the more consciously we can think about this,
+
+89
+0:03:50.407,000 --> 0:03:53,000
+the better we'll be able to use it for anything we want.
+
+90
+0:03:53.495,000 --> 0:03:56,000
+So like I said, the way you go through and build on the game layer
+
+91
+0:03:56.665,000 --> 0:03:59,000
+is not with glass and steel and cement.
+
+92
+0:03:59.816,000 --> 0:04:02,000
+And the resources we use are not this two-dimensional swath of land
+
+93
+0:04:03.051,000 --> 0:04:04,000
+that we have.
+
+94
+0:04:04.231,000 --> 0:04:05,000
+The resources are mindshare,
+
+95
+0:04:05.604,000 --> 0:04:07,000
+and the tools, the raw materials, are these game dynamics.
+
+96
+0:04:08.412,000 --> 0:04:1,000
+With that, a couple game dynamics to talk about.
+
+97
+0:04:11.137,000 --> 0:04:12,000
+Back at SCVNGR, we like to joke
+
+98
+0:04:12.686,000 --> 0:04:15,000
+that with seven game dynamics, you can get anyone to do anything.
+
+99
+0:04:15.782,000 --> 0:04:16,000
+Today, I'm going to show you four,
+
+100
+0:04:17.444,000 --> 0:04:2,000
+because I hope to have a competitive advantage at the end of this, still.
+
+101
+0:04:20.946,000 --> 0:04:22,000
+(Laughter)
+
+102
+0:04:23.101,000 --> 0:04:25,000
+So the first one, it's a very simple game dynamic.
+
+103
+0:04:25.637,000 --> 0:04:26,000
+It's called the appointment dynamic.
+
+104
+0:04:27.453,000 --> 0:04:28,000
+It's a dynamic in which to succeed,
+
+105
+0:04:29.284,000 --> 0:04:31,000
+players have to do something at a predefined time,
+
+106
+0:04:31.689,000 --> 0:04:32,000
+generally at a predefined place.
+
+107
+0:04:33.395,000 --> 0:04:35,000
+And these dynamics are a little scary sometimes,
+
+108
+0:04:35.695,000 --> 0:04:37,000
+because you think, "Other people can be using forces
+
+109
+0:04:38.459,000 --> 0:04:39,000
+that will manipulate how I interact:
+
+110
+0:04:40.359,000 --> 0:04:41,000
+what I do, where I do it, when I do it."
+
+111
+0:04:42.36,000 --> 0:04:44,000
+This sort of "loss of free will" that occurs in games
+
+112
+0:04:44.872,000 --> 0:04:45,000
+can be frightening.
+
+113
+0:04:46.135,000 --> 0:04:48,000
+So with each dynamic, I'm going to give three examples:
+
+114
+0:04:48.744,000 --> 0:04:5,000
+one that shows how it's already being used in the real world,
+
+115
+0:04:51.634,000 --> 0:04:52,000
+so you can rationalize it a bit;
+
+116
+0:04:53.284,000 --> 0:04:55,000
+one that shows it in what we consider a conventional game --
+
+117
+0:04:56.126,000 --> 0:04:57,000
+I think everything is a game,
+
+118
+0:04:57.542,000 --> 0:05:,000
+but this is more what you'd think of as a game played on a board
+
+119
+0:05:00.581,000 --> 0:05:01,000
+or on a computer screen;
+
+120
+0:05:01.758,000 --> 0:05:02,000
+and one of how it can be used for good,
+
+121
+0:05:03.649,000 --> 0:05:05,000
+so you can see that these forces can be very powerful.
+
+122
+0:05:06.231,000 --> 0:05:09,000
+So the first one, the most famous appointment dynamic in the world,
+
+123
+0:05:09.438,000 --> 0:05:1,000
+is something called, "Happy Hour."
+
+124
+0:05:11.656,000 --> 0:05:13,000
+So I had just recently dropped out of Princeton
+
+125
+0:05:14.162,000 --> 0:05:16,000
+and actually ended up for the first time in a bar,
+
+126
+0:05:16.679,000 --> 0:05:18,000
+and I saw these happy hour things all over the place.
+
+127
+0:05:19.473,000 --> 0:05:22,000
+And this is simply an appointment dynamic: come here at a certain time,
+
+128
+0:05:22.901,000 --> 0:05:23,000
+get your drinks half off.
+
+129
+0:05:24.123,000 --> 0:05:27,000
+To win, all you have to do is show up at the right place at the right time.
+
+130
+0:05:27.691,000 --> 0:05:28,000
+This game dynamic is so powerful,
+
+131
+0:05:29.33,000 --> 0:05:32,000
+it doesn't just influence our behavior; it's influenced our entire culture.
+
+132
+0:05:32.914,000 --> 0:05:33,000
+That's a really scary thought,
+
+133
+0:05:34.374,000 --> 0:05:36,000
+that one game dynamic can change things so powerfully.
+
+134
+0:05:37.135,000 --> 0:05:39,000
+It also exists in more conventional game forms.
+
+135
+0:05:39.354,000 --> 0:05:41,000
+I'm sure you've all heard of Farmville by now.
+
+136
+0:05:41.529,000 --> 0:05:42,000
+If you haven't, I recommend playing it.
+
+137
+0:05:43.439,000 --> 0:05:45,000
+You won't do anything else for the rest of your day.
+
+138
+0:05:45.932,000 --> 0:05:47,000
+Farmville has more active users than Twitter.
+
+139
+0:05:48.084,000 --> 0:05:49,000
+It's incredibly powerful,
+
+140
+0:05:49.315,000 --> 0:05:52,000
+and it has this dynamic where you have to return at a certain time
+
+141
+0:05:52.456,000 --> 0:05:54,000
+to water your fake crops, or they wilt.
+
+142
+0:05:55.416,000 --> 0:05:58,000
+And this is so powerful that when they tweak their stats,
+
+143
+0:05:58.652,000 --> 0:05:59,000
+when they say your crops wilt
+
+144
+0:06:00.485,000 --> 0:06:02,000
+after eight hours, or after six hours, or after 24 hours,
+
+145
+0:06:03.26,000 --> 0:06:07,000
+it changes the life cycle of some 70 million people during the day.
+
+146
+0:06:07.851,000 --> 0:06:09,000
+They will return, like clockwork, at different times.
+
+147
+0:06:10.493,000 --> 0:06:13,000
+So if they wanted the world to end, if they wanted productivity to stop,
+
+148
+0:06:13.907,000 --> 0:06:14,000
+they could make it a 30-minute cycle,
+
+149
+0:06:15.701,000 --> 0:06:16,000
+and no one could do anything else, right?
+
+150
+0:06:17.719,000 --> 0:06:18,000
+(Laughter)
+
+151
+0:06:19.259,000 --> 0:06:2,000
+That's a little scary.
+
+152
+0:06:20.751,000 --> 0:06:22,000
+But this could also be used for good.
+
+153
+0:06:23.037,000 --> 0:06:24,000
+This local company called Vitality
+
+154
+0:06:24.839,000 --> 0:06:27,000
+has created a product to help people take their medicine on time.
+
+155
+0:06:27.998,000 --> 0:06:28,000
+That's an appointment.
+
+156
+0:06:29.175,000 --> 0:06:31,000
+It's something that people don't do very well.
+
+157
+0:06:31.374,000 --> 0:06:33,000
+They have these GlowCaps which flash and email you
+
+158
+0:06:33.794,000 --> 0:06:35,000
+and do cool things to remind you to take your medicine.
+
+159
+0:06:36.421,000 --> 0:06:38,000
+This isn't a game yet, but really should be.
+
+160
+0:06:38.591,000 --> 0:06:4,000
+You should get points for doing it on time
+
+161
+0:06:40.673,000 --> 0:06:41,000
+and lose points for not doing it on time.
+
+162
+0:06:42.663,000 --> 0:06:44,000
+They should recognize they've built an appointment dynamic,
+
+163
+0:06:45.458,000 --> 0:06:46,000
+and leverage the games.
+
+164
+0:06:46.633,000 --> 0:06:48,000
+Then you can really achieve good in some interesting ways.
+
+165
+0:06:49.424,000 --> 0:06:51,000
+We're going to jump onto the next one.
+
+166
+0:06:51.97,000 --> 0:06:52,000
+Influence and status.
+
+167
+0:06:53.259,000 --> 0:06:56,000
+This is one of the most famous game dynamics, used all over the place.
+
+168
+0:06:57.26,000 --> 0:06:59,000
+It's used in your wallets, right now.
+
+169
+0:06:59.389,000 --> 0:07:02,000
+We all want that credit card on the far left, because it's black.
+
+170
+0:07:03.26,000 --> 0:07:04,000
+And you see someone at CVS or --
+
+171
+0:07:05.125,000 --> 0:07:06,000
+not CVS -- like, Christian Dior --
+
+172
+0:07:06.816,000 --> 0:07:08,000
+(Laughter)
+
+173
+0:07:08.86,000 --> 0:07:11,000
+I don't know. I don't have a black card; I've got a debit card.
+
+174
+0:07:12.152,000 --> 0:07:13,000
+(Laughter)
+
+175
+0:07:13.961,000 --> 0:07:15,000
+So they whip it out and you see that black card, and:
+
+176
+0:07:16.588,000 --> 0:07:18,000
+"I want that because it means they're cooler than I am,
+
+177
+0:07:19.199,000 --> 0:07:2,000
+and I need that."
+
+178
+0:07:20.374,000 --> 0:07:21,000
+And this is used in games as well.
+
+179
+0:07:22.088,000 --> 0:07:25,000
+"Modern Warfare," one of the most successful selling games of all time.
+
+180
+0:07:25.485,000 --> 0:07:28,000
+I'm only a level four, but I desperately want to be a level 10,
+
+181
+0:07:28.51,000 --> 0:07:29,000
+because they've got that cool red badge,
+
+182
+0:07:30.451,000 --> 0:07:32,000
+and that means that I am somehow better than everyone else.
+
+183
+0:07:33.26,000 --> 0:07:34,000
+And that's very powerful to me.
+
+184
+0:07:34.85,000 --> 0:07:36,000
+Status is really good motivator.
+
+185
+0:07:36.983,000 --> 0:07:38,000
+It's also used in more conventional settings,
+
+186
+0:07:39.147,000 --> 0:07:4,000
+and can be used more consciously there.
+
+187
+0:07:41.052,000 --> 0:07:43,000
+School -- and remember, I made it through one year,
+
+188
+0:07:44.029,000 --> 0:07:46,000
+so I think I'm qualified to talk on school --
+
+189
+0:07:46.67,000 --> 0:07:49,000
+is a game; it's just not a terribly well-designed game.
+
+190
+0:07:49.797,000 --> 0:07:51,000
+There are levels. There are C. There are B. There's A.
+
+191
+0:07:52.355,000 --> 0:07:55,000
+There are statuses. I mean, what is valedictorian, but a status?
+
+192
+0:07:55.447,000 --> 0:07:59,000
+If we called valedictorian a "White Knight Paladin level 20,"
+
+193
+0:07:59.851,000 --> 0:08:01,000
+I think people would probably work a lot harder.
+
+194
+0:08:02.132,000 --> 0:08:04,000
+(Laughter)
+
+195
+0:08:04.156,000 --> 0:08:05,000
+(Applause)
+
+196
+0:08:05.93,000 --> 0:08:06,000
+So school is a game,
+
+197
+0:08:07.62,000 --> 0:08:1,000
+and there has been lots of experimentation on how we do this properly.
+
+198
+0:08:10.959,000 --> 0:08:11,000
+But let's use it consciously.
+
+199
+0:08:12.372,000 --> 0:08:15,000
+Why have games you can lose? Why go from an A to an F or a B to a C?
+
+200
+0:08:15.649,000 --> 0:08:16,000
+That sucks. Why not level-up?
+
+201
+0:08:17.196,000 --> 0:08:19,000
+At Princeton, they've actually experimented with this,
+
+202
+0:08:19.775,000 --> 0:08:21,000
+with quizzes where you gain experience points,
+
+203
+0:08:21.966,000 --> 0:08:22,000
+and you level up from B to an A.
+
+204
+0:08:23.721,000 --> 0:08:24,000
+And it's very powerful.
+
+205
+0:08:25.26,000 --> 0:08:27,000
+It can be used in interesting ways.
+
+206
+0:08:28.172,000 --> 0:08:3,000
+The third one I'll talk about is the progression dynamic,
+
+207
+0:08:30.91,000 --> 0:08:32,000
+where you have to make progress, move through different steps
+
+208
+0:08:33.841,000 --> 0:08:34,000
+in a very granular fashion.
+
+209
+0:08:35.523,000 --> 0:08:37,000
+This is used all over the place, including LinkedIn,
+
+210
+0:08:38.26,000 --> 0:08:4,000
+where I am an unwhole individual.
+
+211
+0:08:40.578,000 --> 0:08:43,000
+I am only 85 percent complete on LinkedIn,
+
+212
+0:08:43.882,000 --> 0:08:44,000
+and that bothers me.
+
+213
+0:08:45.26,000 --> 0:08:48,000
+And this is so deep-seated in our psyche
+
+214
+0:08:48.359,000 --> 0:08:5,000
+that when we're presented with a progress bar
+
+215
+0:08:50.506,000 --> 0:08:52,000
+and presented with easy, granular steps to take
+
+216
+0:08:53.07,000 --> 0:08:55,000
+to try and complete that progress bar, we will do it.
+
+217
+0:08:55.681,000 --> 0:08:56,000
+We will find a way to move that blue line
+
+218
+0:08:57.675,000 --> 0:08:59,000
+all the way to the right edge of the screen.
+
+219
+0:09:00.172,000 --> 0:09:02,000
+This is used in conventional games as well.
+
+220
+0:09:02.332,000 --> 0:09:04,000
+I mean, this is a Paladin level 10,
+
+221
+0:09:04.549,000 --> 0:09:05,000
+and that's a Paladin level 20.
+
+222
+0:09:06.177,000 --> 0:09:09,000
+And if you were going to fight Orcs on the fields of Mordor
+
+223
+0:09:09.766,000 --> 0:09:1,000
+against the Ra's Al Ghul,
+
+224
+0:09:11.26,000 --> 0:09:13,000
+you'd probably want to be the bigger one, right?
+
+225
+0:09:13.57,000 --> 0:09:14,000
+I would.
+
+226
+0:09:15.261,000 --> 0:09:17,000
+And so people work very hard to level-up.
+
+227
+0:09:17.796,000 --> 0:09:2,000
+"World of Warcraft" is one of the most successful games of all time.
+
+228
+0:09:21.05,000 --> 0:09:24,000
+The average player spends some six, six-and-a-half hours a day on it,
+
+229
+0:09:24.702,000 --> 0:09:27,000
+their most dedicated players -- it's like a full-time job, it's insane.
+
+230
+0:09:28.324,000 --> 0:09:3,000
+And they have these systems where you can level-up.
+
+231
+0:09:30.79,000 --> 0:09:32,000
+And that's a very powerful thing. Progression is powerful.
+
+232
+0:09:34.121,000 --> 0:09:37,000
+It can also be used in very compelling ways for good.
+
+233
+0:09:37.16,000 --> 0:09:39,000
+One of the things we work on at SCVNGR is:
+
+234
+0:09:39.206,000 --> 0:09:42,000
+How do you use games to drive traffic and business to local businesses,
+
+235
+0:09:42.638,000 --> 0:09:44,000
+to something that is very key to the economy?
+
+236
+0:09:44.808,000 --> 0:09:46,000
+And here, we have a game that people play.
+
+237
+0:09:47.126,000 --> 0:09:49,000
+They go places, do challenges, earn points.
+
+238
+0:09:49.174,000 --> 0:09:51,000
+And we've introduced a progression dynamic into it,
+
+239
+0:09:51.782,000 --> 0:09:54,000
+where, by going to the same place over and over, doing challenges,
+
+240
+0:09:54.914,000 --> 0:09:55,000
+engaging with the business,
+
+241
+0:09:56.232,000 --> 0:09:59,000
+you move a green bar from the left edge of the screen to the right,
+
+242
+0:09:59.418,000 --> 0:10:,000
+and unlock rewards.
+
+243
+0:10:00.596,000 --> 0:10:03,000
+This is powerful enough that we can see it hooks people into these dynamics,
+
+244
+0:10:04.536,000 --> 0:10:06,000
+pulls them back to the same local businesses,
+
+245
+0:10:06.658,000 --> 0:10:07,000
+creates loyalty, creates engagement,
+
+246
+0:10:08.416,000 --> 0:10:11,000
+and is able to drive meaningful revenue and fun and engagement to businesses.
+
+247
+0:10:12.367,000 --> 0:10:15,000
+These progression dynamics are powerful and can be used in the real world.
+
+248
+0:10:16.26,000 --> 0:10:19,000
+The final one I want to talk about -- and it's a great one to end on --
+
+249
+0:10:19.637,000 --> 0:10:2,000
+is this concept of communal discovery,
+
+250
+0:10:21.518,000 --> 0:10:25,000
+a dynamic in which everyone has to work together to achieve something.
+
+251
+0:10:25.8,000 --> 0:10:26,000
+Communal discovery is powerful
+
+252
+0:10:27.65,000 --> 0:10:3,000
+because it leverages the network that is society
+
+253
+0:10:30.69,000 --> 0:10:31,000
+to solve problems.
+
+254
+0:10:33.071,000 --> 0:10:36,000
+This is used in some famous consumer web stories like Digg,
+
+255
+0:10:36.873,000 --> 0:10:37,000
+which I'm sure you've all heard of.
+
+256
+0:10:38.582,000 --> 0:10:39,000
+Digg is a communal dynamic
+
+257
+0:10:40.26,000 --> 0:10:43,000
+to try to find and source the best news, the most interesting stories.
+
+258
+0:10:44.26,000 --> 0:10:46,000
+And they made this into a game, initially.
+
+259
+0:10:46.284,000 --> 0:10:49,000
+They had a leader board where, if you recommended the best stories,
+
+260
+0:10:49.472,000 --> 0:10:5,000
+you would get points.
+
+261
+0:10:50.848,000 --> 0:10:52,000
+And that really motivated people to find the best stories.
+
+262
+0:10:53.624,000 --> 0:10:55,000
+But it became so powerful, there was actually a cabal,
+
+263
+0:10:56.26,000 --> 0:10:59,000
+a group of people, the top seven on the leader board,
+
+264
+0:10:59.683,000 --> 0:11:02,000
+who would work together to make sure they maintained that position,
+
+265
+0:11:02.886,000 --> 0:11:03,000
+recommending people's stories.
+
+266
+0:11:04.355,000 --> 0:11:06,000
+The game became more powerful than the goal.
+
+267
+0:11:06.592,000 --> 0:11:09,000
+They ended up shutting down the leader board because, while it was effective,
+
+268
+0:11:10.26,000 --> 0:11:12,000
+it was so powerful that it stopped sourcing the best stories,
+
+269
+0:11:13.188,000 --> 0:11:15,000
+and started having people work to maintain leadership.
+
+270
+0:11:15.759,000 --> 0:11:16,000
+So we have to use this one carefully.
+
+271
+0:11:17.55,000 --> 0:11:19,000
+It's also used in things like McDonald's Monopoly,
+
+272
+0:11:19.929,000 --> 0:11:21,000
+where the game is not the Monopoly you're playing,
+
+273
+0:11:22.342,000 --> 0:11:25,000
+but the cottage industries that form to try and find Boardwalk.
+
+274
+0:11:25.695,000 --> 0:11:28,000
+There, they're just looking for a sticker that says "Boardwalk,"
+
+275
+0:11:28.933,000 --> 0:11:3,000
+but it can also be used to find real things.
+
+276
+0:11:31.015,000 --> 0:11:32,000
+This is the DARPA balloon challenge,
+
+277
+0:11:32.772,000 --> 0:11:35,000
+where they hid a couple balloons all across the United States and said,
+
+278
+0:11:36.137,000 --> 0:11:38,000
+"Use networks. Try and find these balloons fastest,
+
+279
+0:11:38.591,000 --> 0:11:39,000
+and the winner will get $40,000."
+
+280
+0:11:40.261,000 --> 0:11:41,000
+The winner was a group out of MIT,
+
+281
+0:11:42.132,000 --> 0:11:44,000
+where they created sort of a pyramid scheme, a network,
+
+282
+0:11:44.752,000 --> 0:11:47,000
+where the first person to recommend the location of a balloon got $2,000,
+
+283
+0:11:48.205,000 --> 0:11:5,000
+and anyone else to push that recommendation up also got a cut.
+
+284
+0:11:51.16,000 --> 0:11:53,000
+And in 12 hours, they were able to find all these balloons,
+
+285
+0:11:54.175,000 --> 0:11:55,000
+all across the country.
+
+286
+0:11:55.665,000 --> 0:11:56,000
+Really powerful dynamic.
+
+287
+0:11:57.413,000 --> 0:11:59,000
+And so, I've got about 20 seconds left,
+
+288
+0:12:00.26,000 --> 0:12:02,000
+so if I'm going to leave you with anything,
+
+289
+0:12:02.332,000 --> 0:12:03,000
+last decade was the decade of social.
+
+290
+0:12:04.138,000 --> 0:12:06,000
+This next decade is the decade of games.
+
+291
+0:12:06.26,000 --> 0:12:08,000
+We use game dynamics to build on it. We build with mindshare.
+
+292
+0:12:09.151,000 --> 0:12:1,000
+We can influence behavior.
+
+293
+0:12:10.42,000 --> 0:12:11,000
+It's very powerful. It's very exciting.
+
+294
+0:12:12.307,000 --> 0:12:15,000
+Let's all build it together, let's do it well and have fun playing.
+
+295
+0:12:15.688,000 --> 0:12:17,000
+(Applause)
+

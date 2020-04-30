@@ -1,0 +1,928 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Bob Prottas Reviewer: Nhu PHAM
+
+2
+0:00:12,000 --> 0:00:15,000
+I want to talk to you about,
+
+3
+0:00:15.561,000 --> 0:00:18,000
+or share with you, a breakthrough new approach
+
+4
+0:00:19.122,000 --> 0:00:22,000
+for managing items of inventory inside of a warehouse.
+
+5
+0:00:22.464,000 --> 0:00:24,000
+We're talking about a pick, pack and ship setting here.
+
+6
+0:00:25.022,000 --> 0:00:27,000
+So as a hint,
+
+7
+0:00:27.845,000 --> 0:00:31,000
+this solution involves hundreds of mobile robots,
+
+8
+0:00:31.998,000 --> 0:00:33,000
+sometimes thousands of mobile robots,
+
+9
+0:00:34.422,000 --> 0:00:36,000
+moving around a warehouse. And I'll get to the solution.
+
+10
+0:00:37.02,000 --> 0:00:38,000
+But for a moment, just think
+
+11
+0:00:38.24,000 --> 0:00:4,000
+about the last time that you ordered something online.
+
+12
+0:00:40.766,000 --> 0:00:42,000
+You were sitting on your couch
+
+13
+0:00:42.83,000 --> 0:00:46,000
+and you decided that you absolutely had to have this red t-shirt.
+
+14
+0:00:46.89,000 --> 0:00:48,000
+So — click! — you put it into your shopping cart.
+
+15
+0:00:49.186,000 --> 0:00:5,000
+And then you decided that green pair of pants
+
+16
+0:00:51.084,000 --> 0:00:52,000
+looks pretty good too — click!
+
+17
+0:00:52.982,000 --> 0:00:53,000
+And maybe a blue pair of shoes — click!
+
+18
+0:00:54.882,000 --> 0:00:56,000
+So at this point you've assembled your order.
+
+19
+0:00:56.932,000 --> 0:00:57,000
+You didn't stop to think for a moment that
+
+20
+0:00:58.7,000 --> 0:00:59,000
+that might not be a great outfit.
+
+21
+0:01:00.468,000 --> 0:01:01,000
+But you hit "submit order."
+
+22
+0:01:02.238,000 --> 0:01:06,000
+And two days later, this package shows up on your doorstep.
+
+23
+0:01:06.412,000 --> 0:01:08,000
+And you open the box and you're like, wow, there's my goo.
+
+24
+0:01:09.366,000 --> 0:01:11,000
+Did you ever stop to think about how those items of inventory
+
+25
+0:01:12.327,000 --> 0:01:16,000
+actually found their way inside that box in the warehouse?
+
+26
+0:01:16.54,000 --> 0:01:19,000
+So I'm here to tell you it's that guy right there.
+
+27
+0:01:20.358,000 --> 0:01:23,000
+So deep in the middle of that picture,
+
+28
+0:01:23.978,000 --> 0:01:25,000
+you see a classic pick-pack worker
+
+29
+0:01:26.493,000 --> 0:01:29,000
+in a distribution or order fulfillments setting.
+
+30
+0:01:29.718,000 --> 0:01:32,000
+Classically these pick workers will spend 60 or 70 percent of their day
+
+31
+0:01:33.6,000 --> 0:01:34,000
+wandering around the warehouse.
+
+32
+0:01:35.512,000 --> 0:01:37,000
+They'll often walk as much as 5 or 10 miles
+
+33
+0:01:38.223,000 --> 0:01:4,000
+in pursuit of those items of inventory.
+
+34
+0:01:40.884,000 --> 0:01:44,000
+Not only is this an unproductive way to fill orders,
+
+35
+0:01:45.305,000 --> 0:01:49,000
+it also turns out to be an unfulfilling way to fill orders.
+
+36
+0:01:49.362,000 --> 0:01:52,000
+So let me tell you where I first bumped into this problem.
+
+37
+0:01:52.993,000 --> 0:01:56,000
+I was out in the Bay area in '99, 2000, the dot com boom.
+
+38
+0:01:57.047,000 --> 0:02:01,000
+I worked for a fabulously spectacular flame-out called Webvan.
+
+39
+0:02:01.109,000 --> 0:02:02,000
+(Laughter)
+
+40
+0:02:02.93,000 --> 0:02:04,000
+This company raised hundreds of millions of dollars with the notion that
+
+41
+0:02:05.66,000 --> 0:02:07,000
+we will deliver grocery orders online.
+
+42
+0:02:08.442,000 --> 0:02:12,000
+And it really came down to the fact that we couldn't do it cost effectively.
+
+43
+0:02:12.615,000 --> 0:02:15,000
+Turns out e-commerce was something that was very hard and very costly.
+
+44
+0:02:16.577,000 --> 0:02:2,000
+In this particular instance we were trying to assemble 30 items of inventory
+
+45
+0:02:20.828,000 --> 0:02:23,000
+into a few totes, onto a van to deliver to the home.
+
+46
+0:02:24.8,000 --> 0:02:27,000
+And when you think about it, it was costing us 30 dollars.
+
+47
+0:02:28.6,000 --> 0:02:31,000
+Imagine, we had an 89¢ can of soup
+
+48
+0:02:31.686,000 --> 0:02:34,000
+that was costing us one dollar to pick and pack into that tote.
+
+49
+0:02:35.362,000 --> 0:02:38,000
+And that's before we actually tried to deliver it to the home.
+
+50
+0:02:38.57,000 --> 0:02:4,000
+So long story short, during my one year at Webvan,
+
+51
+0:02:41.357,000 --> 0:02:44,000
+what I realized by talking to all the material-handling providers
+
+52
+0:02:44.593,000 --> 0:02:48,000
+was that there was no solution designed specifically to solve each base picking.
+
+53
+0:02:49.231,000 --> 0:02:53,000
+Red item, green, blue, getting those three things in a box.
+
+54
+0:02:53.254,000 --> 0:02:55,000
+So we said, there's just got to be a better way to do this.
+
+55
+0:02:56.239,000 --> 0:02:58,000
+Existing material handling was set up to pump
+
+56
+0:02:58.766,000 --> 0:03:01,000
+pallets and cases of goo to retail stores.
+
+57
+0:03:02.533,000 --> 0:03:05,000
+Of course Webvan went out of business, and about a year and a half later,
+
+58
+0:03:06.33,000 --> 0:03:09,000
+I was still noodling on this problem. It was still nagging at me.
+
+59
+0:03:09.91,000 --> 0:03:1,000
+And I started thinking about it again.
+
+60
+0:03:11.778,000 --> 0:03:16,000
+And I said, let me just focus briefly on what I wanted as a pick worker,
+
+61
+0:03:16.905,000 --> 0:03:18,000
+or my vision for how it should work.
+
+62
+0:03:19.236,000 --> 0:03:2,000
+(Laughter)
+
+63
+0:03:20.65,000 --> 0:03:21,000
+I said, let's focus on the problem.
+
+64
+0:03:22.572,000 --> 0:03:25,000
+I have an order here and what I want to do is I want to put
+
+65
+0:03:26.427,000 --> 0:03:28,000
+red, green and blue in this box right here.
+
+66
+0:03:28.647,000 --> 0:03:3,000
+What I need is a system where I put out my hand and — poof! —
+
+67
+0:03:31.499,000 --> 0:03:33,000
+the product shows up and I pack it into the order,
+
+68
+0:03:34.022,000 --> 0:03:35,000
+and now we're thinking,
+
+69
+0:03:35.715,000 --> 0:03:39,000
+this would be a very operator-centric approach to solving the problem.
+
+70
+0:03:39.729,000 --> 0:03:43,000
+This is what I need. What technology is available to solve this problem?
+
+71
+0:03:43.956,000 --> 0:03:46,000
+But as you can see, orders can come and go, products can come and go.
+
+72
+0:03:47.897,000 --> 0:03:51,000
+It allows us to focus on making the pick worker the center of the problem,
+
+73
+0:03:52.58,000 --> 0:03:56,000
+and providing them the tools to make them as productive as possible.
+
+74
+0:03:57.204,000 --> 0:03:59,000
+So how did I arrive at this notion?
+
+75
+0:03:59.304,000 --> 0:04:02,000
+Well, actually it came from a brainstorming exercise,
+
+76
+0:04:02.837,000 --> 0:04:04,000
+probably a technique that many of you use,
+
+77
+0:04:05.677,000 --> 0:04:07,000
+It's this notion of testing your ideas.
+
+78
+0:04:07.833,000 --> 0:04:08,000
+Take a blank sheet, of course,
+
+79
+0:04:09.563,000 --> 0:04:13,000
+but then test your ideas at the limits — infinity, zero.
+
+80
+0:04:13.593,000 --> 0:04:16,000
+In this particular case, we challenged ourselves with the idea:
+
+81
+0:04:16.775,000 --> 0:04:18,000
+What if we had to build a distribution center in China,
+
+82
+0:04:19.751,000 --> 0:04:21,000
+where it's a very, very low-cost market?
+
+83
+0:04:22.365,000 --> 0:04:25,000
+And say, labor is cheap, land is cheap.
+
+84
+0:04:25.578,000 --> 0:04:26,000
+And we said specifically,
+
+85
+0:04:27.224,000 --> 0:04:3,000
+"What if it was zero dollars an hour for direct labor
+
+86
+0:04:30.23,000 --> 0:04:32,000
+and we could build a million- square-foot distribution center?"
+
+87
+0:04:32.946,000 --> 0:04:34,000
+So naturally that led to ideas that said,
+
+88
+0:04:35.021,000 --> 0:04:36,000
+"Let's put lots of people in the warehouse."
+
+89
+0:04:36.829,000 --> 0:04:38,000
+And I said, "Hold on, zero dollars per hour,
+
+90
+0:04:39.374,000 --> 0:04:41,000
+what I would do is 'hire'
+
+91
+0:04:42.231,000 --> 0:04:46,000
+10,000 workers to come to the warehouse every morning at 8 a.m.,
+
+92
+0:04:46.358,000 --> 0:04:49,000
+walk into the warehouse and pick up one item of inventory
+
+93
+0:04:49.477,000 --> 0:04:5,000
+and then just stand there.
+
+94
+0:04:51.21,000 --> 0:04:53,000
+So you hold Captain Crunch, you hold the Mountain Dew,
+
+95
+0:04:53.749,000 --> 0:04:54,000
+you hold the Diet Coke.
+
+96
+0:04:55.172,000 --> 0:04:57,000
+If I need it, I'll call you, otherwise just stand there.
+
+97
+0:04:57.428,000 --> 0:05:,000
+But when I need Diet Coke and I call it, you guys talk amongst yourselves.
+
+98
+0:05:00.815,000 --> 0:05:04,000
+Diet Coke walks up to the front — pick it, put it in the tote, away it goes."
+
+99
+0:05:04.936,000 --> 0:05:08,000
+Wow, what if the products could walk and talk on their own?
+
+100
+0:05:09.588,000 --> 0:05:11,000
+That's a very interesting, very powerful way
+
+101
+0:05:11.926,000 --> 0:05:13,000
+that we could potentially organize this warehouse.
+
+102
+0:05:14.52,000 --> 0:05:16,000
+So of course, labor isn't free,
+
+103
+0:05:16.868,000 --> 0:05:19,000
+on that practical versus awesome spectrum.
+
+104
+0:05:20.176,000 --> 0:05:21,000
+(Laughter)
+
+105
+0:05:21.866,000 --> 0:05:24,000
+So we said mobile shelving — We'll put them on mobile shelving.
+
+106
+0:05:24.983,000 --> 0:05:28,000
+We'll use mobile robots and we'll move the inventory around.
+
+107
+0:05:29.776,000 --> 0:05:33,000
+And so we got underway on that and then I'm sitting on my couch in 2008.
+
+108
+0:05:34.194,000 --> 0:05:37,000
+Did any of you see the Beijing Olympics, the opening ceremonies?
+
+109
+0:05:38.013,000 --> 0:05:41,000
+I about fell out of my couch when I saw this.
+
+110
+0:05:41.054,000 --> 0:05:42,000
+I'm like, that was the idea!
+
+111
+0:05:42.527,000 --> 0:05:46,000
+(Laughter and Applause)
+
+112
+0:05:47.026,000 --> 0:05:5,000
+We'll put thousands of people on the warehouse floor, the stadium floor.
+
+113
+0:05:50.917,000 --> 0:05:54,000
+But interestingly enough, this actually relates to the idea
+
+114
+0:05:54.952,000 --> 0:05:59,000
+in that these guys were creating some incredibly powerful, impressive digital art,
+
+115
+0:06:00.364,000 --> 0:06:02,000
+all without computers, I'm told,
+
+116
+0:06:02.44,000 --> 0:06:04,000
+it was all peer-to-peer coordination and communication.
+
+117
+0:06:04.886,000 --> 0:06:05,000
+You stand up, I'll squat down.
+
+118
+0:06:06.462,000 --> 0:06:07,000
+And they made some fabulous art.
+
+119
+0:06:08.107,000 --> 0:06:1,000
+It speaks to the power of emergence
+
+120
+0:06:10.795,000 --> 0:06:13,000
+in systems when you let things start to talk with each other.
+
+121
+0:06:14.763,000 --> 0:06:17,000
+So that was a little bit of the journey.
+
+122
+0:06:18.541,000 --> 0:06:22,000
+So of course, now what became the practical reality of this idea?
+
+123
+0:06:22.579,000 --> 0:06:23,000
+Here is a warehouse.
+
+124
+0:06:24.385,000 --> 0:06:27,000
+It's a pick, pack and ship center that has about 10,000 different SKUs.
+
+125
+0:06:28.161,000 --> 0:06:32,000
+We'll call them red pens, green pens, yellow Post-It Notes.
+
+126
+0:06:32.298,000 --> 0:06:35,000
+We send the little orange robots out to pick up the blue shelving pods.
+
+127
+0:06:35.677,000 --> 0:06:37,000
+And we deliver them to the side of the building.
+
+128
+0:06:37.845,000 --> 0:06:4,000
+So all the pick workers now get to stay on the perimeter.
+
+129
+0:06:40.981,000 --> 0:06:42,000
+And the game here is to pick up the shelves,
+
+130
+0:06:43.323,000 --> 0:06:46,000
+take them down the highway and deliver them straight to the pick worker.
+
+131
+0:06:46.647,000 --> 0:06:48,000
+This pick worker's life is completely different.
+
+132
+0:06:48.784,000 --> 0:06:51,000
+Rather than wandering around the warehouse, she gets to stay still
+
+133
+0:06:52.201,000 --> 0:06:53,000
+in a pick station like this
+
+134
+0:06:53.789,000 --> 0:06:56,000
+and every product in the building can now come to her.
+
+135
+0:06:57.787,000 --> 0:07:,000
+So the process is very productive.
+
+136
+0:07:01.065,000 --> 0:07:05,000
+Reach in, pick an item, scan the bar code, pack it out.
+
+137
+0:07:05.26,000 --> 0:07:06,000
+By the time you turn around,
+
+138
+0:07:06.909,000 --> 0:07:09,000
+there's another product there ready to be picked and packed.
+
+139
+0:07:09.948,000 --> 0:07:12,000
+So what we've done is take out all of the non-value added
+
+140
+0:07:12.958,000 --> 0:07:14,000
+walking, searching, wasting, waited time,
+
+141
+0:07:15.642,000 --> 0:07:19,000
+and we've developed a very high-fidelity way to pick these orders,
+
+142
+0:07:19.92,000 --> 0:07:23,000
+where you point at it with a laser, scan the UPC barcode,
+
+143
+0:07:24.084,000 --> 0:07:27,000
+and then indicate with a light which box it needs to go into.
+
+144
+0:07:27.278,000 --> 0:07:3,000
+So more productive, more accurate and, it turns out,
+
+145
+0:07:30.764,000 --> 0:07:34,000
+it's a more interesting office environment for these pick workers.
+
+146
+0:07:35.07,000 --> 0:07:37,000
+They actually complete the whole order.
+
+147
+0:07:37.507,000 --> 0:07:39,000
+So they do red, green and blue, not just a part of the order.
+
+148
+0:07:40.034,000 --> 0:07:43,000
+And they feel a little bit more in control of their environment.
+
+149
+0:07:43.648,000 --> 0:07:46,000
+So the side effects of this approach
+
+150
+0:07:46.846,000 --> 0:07:47,000
+are what really surprised us.
+
+151
+0:07:48.414,000 --> 0:07:49,000
+We knew it was going to be more productive.
+
+152
+0:07:49.992,000 --> 0:07:53,000
+But we didn't realize just how pervasive this way of thinking
+
+153
+0:07:54.062,000 --> 0:07:59,000
+extended to other functions in the warehouse.
+
+154
+0:07:59.292,000 --> 0:08:03,000
+But what effectively this approach is doing inside of the DC
+
+155
+0:08:04.124,000 --> 0:08:08,000
+is turning it into a massively parallel processing engine.
+
+156
+0:08:08.588,000 --> 0:08:1,000
+So this is again a cross-fertilization of ideas.
+
+157
+0:08:11.211,000 --> 0:08:12,000
+Here's a warehouse and we're thinking about
+
+158
+0:08:13.15,000 --> 0:08:16,000
+parallel processing supercomputer architectures.
+
+159
+0:08:16.669,000 --> 0:08:18,000
+The notion here is that you have
+
+160
+0:08:19.066,000 --> 0:08:21,000
+10 workers on the right side of the screen
+
+161
+0:08:21.863,000 --> 0:08:25,000
+that are now all independent autonomous pick workers.
+
+162
+0:08:26.111,000 --> 0:08:29,000
+If the worker in station three decides to leave and go to the bathroom,
+
+163
+0:08:30.015,000 --> 0:08:33,000
+it has no impact on the productivity of the other nine workers.
+
+164
+0:08:33.499,000 --> 0:08:37,000
+Contrast that, for a moment, with the traditional method of using a conveyor.
+
+165
+0:08:37.869,000 --> 0:08:39,000
+When one person passes the order to you,
+
+166
+0:08:39.928,000 --> 0:08:41,000
+you put something in and pass it downstream.
+
+167
+0:08:42.427,000 --> 0:08:45,000
+Everyone has to be in place for that serial process to work.
+
+168
+0:08:45.544,000 --> 0:08:48,000
+This becomes a more robust way to think about the warehouse.
+
+169
+0:08:48.721,000 --> 0:08:52,000
+And then underneath the hoods gets interesting in that we're tracking
+
+170
+0:08:53.265,000 --> 0:08:54,000
+the popularity of the products.
+
+171
+0:08:55.003,000 --> 0:08:57,000
+And we're using dynamic and adaptive algorithms
+
+172
+0:08:57.827,000 --> 0:09:01,000
+to tune the floor of the warehouse.
+
+173
+0:09:02.281,000 --> 0:09:06,000
+So what you see here potentially the week leading up to Valentine's Day.
+
+174
+0:09:07.165,000 --> 0:09:1,000
+All that pink chalky candy has moved to the front of the building
+
+175
+0:09:11.008,000 --> 0:09:14,000
+and is now being picked into a lot of orders in those pick stations.
+
+176
+0:09:14.901,000 --> 0:09:18,000
+Come in two days after Valentine's Day, and that candy, the leftover candy,
+
+177
+0:09:19.064,000 --> 0:09:21,000
+has all drifted to the back of the warehouse
+
+178
+0:09:21.337,000 --> 0:09:25,000
+and is occupying the cooler zone on the thermal map there.
+
+179
+0:09:25.63,000 --> 0:09:28,000
+One other side effect of this approach using the parallel processing
+
+180
+0:09:29.113,000 --> 0:09:31,000
+is these things can scale to ginormous.
+
+181
+0:09:32.108,000 --> 0:09:33,000
+(Laughter)
+
+182
+0:09:33.635,000 --> 0:09:35,000
+So whether you're doing two pick stations, 20 pick stations,
+
+183
+0:09:36.369,000 --> 0:09:39,000
+or 200 pick stations, the path planning algorithms
+
+184
+0:09:39.642,000 --> 0:09:41,000
+and all of the inventory algorithms just work.
+
+185
+0:09:42.185,000 --> 0:09:46,000
+In this example you see that the inventory
+
+186
+0:09:46.541,000 --> 0:09:48,000
+has now occupied all the perimeter of the building
+
+187
+0:09:48.867,000 --> 0:09:5,000
+because that's where the pick stations were.
+
+188
+0:09:51.213,000 --> 0:09:53,000
+They sorted it out for themselves.
+
+189
+0:09:53.231,000 --> 0:09:55,000
+So I'll conclude with just one final video
+
+190
+0:09:55.518,000 --> 0:09:57,000
+that shows how this comes to bear
+
+191
+0:09:58.502,000 --> 0:10:01,000
+on the pick worker's actual day in the life of.
+
+192
+0:10:02.096,000 --> 0:10:06,000
+So as we mentioned, the process is to move inventory along the highway
+
+193
+0:10:06.432,000 --> 0:10:08,000
+and then find your way into these pick stations.
+
+194
+0:10:09.084,000 --> 0:10:11,000
+And our software in the background
+
+195
+0:10:11.555,000 --> 0:10:13,000
+understands what's going on in each station,
+
+196
+0:10:14.306,000 --> 0:10:16,000
+we direct the pods across the highway
+
+197
+0:10:16.917,000 --> 0:10:18,000
+and we're attempting to get into a queuing system
+
+198
+0:10:19.631,000 --> 0:10:21,000
+to present the work to the pick worker.
+
+199
+0:10:22.515,000 --> 0:10:25,000
+What's interesting is we can even adapt the speed of the pick workers.
+
+200
+0:10:25.76,000 --> 0:10:28,000
+The faster pickers get more pods and the slower pickers get few.
+
+201
+0:10:29.686,000 --> 0:10:32,000
+But this pick worker now is literally having that experience
+
+202
+0:10:32.824,000 --> 0:10:33,000
+that we described before.
+
+203
+0:10:34.677,000 --> 0:10:36,000
+She puts out her hand. The product jumps into it.
+
+204
+0:10:37.221,000 --> 0:10:39,000
+Or she has to reach in and get it.
+
+205
+0:10:39.426,000 --> 0:10:41,000
+She scans it and she puts it in the bucket.
+
+206
+0:10:41.871,000 --> 0:10:44,000
+And all of the rest of the technology is kind of behind the scenes.
+
+207
+0:10:45.667,000 --> 0:10:48,000
+So she gets to now focus on the picking and packing portion of her job.
+
+208
+0:10:49.528,000 --> 0:10:52,000
+Never has any idle time, never has to leave her mat.
+
+209
+0:10:52.802,000 --> 0:10:56,000
+And actually we think not only a more productive
+
+210
+0:10:56.942,000 --> 0:10:59,000
+and more accurate way to fill orders.
+
+211
+0:11:00.212,000 --> 0:11:03,000
+We think it's a more fulfilling way to fill orders.
+
+212
+0:11:03.622,000 --> 0:11:06,000
+The reason we can say that, though, is that workers
+
+213
+0:11:06.83,000 --> 0:11:08,000
+in a lot of these buildings now compete
+
+214
+0:11:08.972,000 --> 0:11:11,000
+for the privilege of working in the Kiva zone that day.
+
+215
+0:11:12.154,000 --> 0:11:14,000
+And sometimes we'll catch them on testimonial videos
+
+216
+0:11:14.817,000 --> 0:11:16,000
+saying such things as,
+
+217
+0:11:16.934,000 --> 0:11:2,000
+they have more energy after the day to play with their grandchildren,
+
+218
+0:11:21.18,000 --> 0:11:25,000
+or in one case a guy said, "the Kiva zone is so stress-free
+
+219
+0:11:25.776,000 --> 0:11:28,000
+that I've actually stopped taking my blood pressure medication."
+
+220
+0:11:28.891,000 --> 0:11:29,000
+(Laughter)
+
+221
+0:11:30.725,000 --> 0:11:33,000
+That was at a pharmaceutical distributor, so they told us not to use that video.
+
+222
+0:11:34.724,000 --> 0:11:37,000
+(Laughter)
+
+223
+0:11:38.292,000 --> 0:11:41,000
+So what I wanted to leave you with today is the notion that
+
+224
+0:11:41.316,000 --> 0:11:43,000
+when you let things start to think and walk
+
+225
+0:11:44.171,000 --> 0:11:49,000
+and talk on their own, interesting processes and productivities can emerge.
+
+226
+0:11:49.462,000 --> 0:11:51,000
+And now I think next time you go to your front step
+
+227
+0:11:52.403,000 --> 0:11:54,000
+and pick up that box that you just ordered online,
+
+228
+0:11:54.914,000 --> 0:11:56,000
+you break it open and the goo is in there,
+
+229
+0:11:57.138,000 --> 0:11:59,000
+you'll have some wonderment as to whether a robot
+
+230
+0:11:59.891,000 --> 0:12:01,000
+assisted in the picking and packing of that order.
+
+231
+0:12:02.484,000 --> 0:12:03,000
+Thank you.
+
+232
+0:12:04.163,000 --> 0:12:08,000
+(Applause)
+

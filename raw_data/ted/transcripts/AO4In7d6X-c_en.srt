@@ -1,0 +1,1220 @@
+1
+0:00:19.085,000 --> 0:00:2,000
+(Laughter)
+
+2
+0:00:24.323,000 --> 0:00:25,000
+(Laughter)
+
+3
+0:00:36.71,000 --> 0:00:37,000
+That's SpotMini.
+
+4
+0:00:37.884,000 --> 0:00:38,000
+He'll be back in a little while.
+
+5
+0:00:39.526,000 --> 0:00:4,000
+I --
+
+6
+0:00:40.714,000 --> 0:00:43,000
+(Applause)
+
+7
+0:00:45.472,000 --> 0:00:46,000
+I love building robots.
+
+8
+0:00:48.419,000 --> 0:00:5,000
+And my long-term goal is to build robots
+
+9
+0:00:50.895,000 --> 0:00:52,000
+that can do what people and animals do.
+
+10
+0:00:53.964,000 --> 0:00:56,000
+And there's three things in particular
+
+11
+0:00:57.541,000 --> 0:00:58,000
+that we're interested in.
+
+12
+0:01:00.008,000 --> 0:01:03,000
+One is balance and dynamic mobility,
+
+13
+0:01:03.334,000 --> 0:01:05,000
+the second one is mobile manipulation,
+
+14
+0:01:05.988,000 --> 0:01:07,000
+and the third one is mobile perception.
+
+15
+0:01:08.944,000 --> 0:01:1,000
+So, dynamic mobility and balance --
+
+16
+0:01:11.879,000 --> 0:01:12,000
+I'm going to do a demo for you.
+
+17
+0:01:15.099,000 --> 0:01:16,000
+I'm standing here, balancing.
+
+18
+0:01:18.121,000 --> 0:01:2,000
+I can see you're not very impressed. OK, how about now?
+
+19
+0:01:20.859,000 --> 0:01:21,000
+(Laughter)
+
+20
+0:01:22.043,000 --> 0:01:23,000
+How about now?
+
+21
+0:01:23.26,000 --> 0:01:25,000
+(Applause)
+
+22
+0:01:26.049,000 --> 0:01:3,000
+Those simple capabilities mean that people can go almost anywhere on earth,
+
+23
+0:01:30.446,000 --> 0:01:31,000
+on any kind of terrain.
+
+24
+0:01:32.122,000 --> 0:01:34,000
+We want to capture that for robots.
+
+25
+0:01:35.772,000 --> 0:01:36,000
+What about manipulation?
+
+26
+0:01:37.614,000 --> 0:01:38,000
+I'm holding this clicker in my hand;
+
+27
+0:01:39.354,000 --> 0:01:4,000
+I'm not even looking at it,
+
+28
+0:01:40.67,000 --> 0:01:42,000
+and I can manipulate it without any problem.
+
+29
+0:01:43.424,000 --> 0:01:45,000
+But even more important,
+
+30
+0:01:46.088,000 --> 0:01:51,000
+I can move my body while I hold the manipulator, the clicker,
+
+31
+0:01:52.115,000 --> 0:01:54,000
+and stabilize and coordinate my body,
+
+32
+0:01:54.313,000 --> 0:01:55,000
+and I can even walk around.
+
+33
+0:01:56.367,000 --> 0:01:58,000
+And that means I can move around in the world
+
+34
+0:01:59.289,000 --> 0:02:02,000
+and expand the range of my arms and my hands
+
+35
+0:02:02.615,000 --> 0:02:04,000
+and really be able to handle almost anything.
+
+36
+0:02:04.808,000 --> 0:02:05,000
+So that's mobile manipulation.
+
+37
+0:02:07.454,000 --> 0:02:08,000
+And all of you can do this.
+
+38
+0:02:09.253,000 --> 0:02:1,000
+Third is perception.
+
+39
+0:02:11.194,000 --> 0:02:14,000
+I'm looking at a room with over 1,000 people in it,
+
+40
+0:02:14.483,000 --> 0:02:18,000
+and my amazing visual system can see every one of you --
+
+41
+0:02:19.282,000 --> 0:02:2,000
+you're all stable in space,
+
+42
+0:02:21.267,000 --> 0:02:22,000
+even when I move my head,
+
+43
+0:02:22.61,000 --> 0:02:23,000
+even when I move around.
+
+44
+0:02:24.18,000 --> 0:02:27,000
+That kind of mobile perception is really important for robots
+
+45
+0:02:27.983,000 --> 0:02:28,000
+that are going to move and act
+
+46
+0:02:29.651,000 --> 0:02:3,000
+out in the world.
+
+47
+0:02:31.865,000 --> 0:02:33,000
+I'm going to give you a little status report
+
+48
+0:02:34.167,000 --> 0:02:37,000
+on where we are in developing robots toward these ends.
+
+49
+0:02:40.338,000 --> 0:02:44,000
+The first three robots are all dynamically stabilized robots.
+
+50
+0:02:44.902,000 --> 0:02:46,000
+This one goes back a little over 10 years ago --
+
+51
+0:02:47.574,000 --> 0:02:48,000
+"BigDog."
+
+52
+0:02:48.766,000 --> 0:02:51,000
+It's got a gyroscope that helps stabilize it.
+
+53
+0:02:52.1,000 --> 0:02:55,000
+It's got sensors and a control computer.
+
+54
+0:02:55.46,000 --> 0:02:58,000
+Here's a Cheetah robot that's running with a galloping gait,
+
+55
+0:02:58.651,000 --> 0:02:59,000
+where it recycles its energy,
+
+56
+0:03:00.371,000 --> 0:03:01,000
+it bounces on the ground,
+
+57
+0:03:01.962,000 --> 0:03:02,000
+and it's computing all the time
+
+58
+0:03:03.54,000 --> 0:03:05,000
+in order to keep itself stabilized and propelled.
+
+59
+0:03:07.934,000 --> 0:03:08,000
+And here's a bigger robot
+
+60
+0:03:09.786,000 --> 0:03:11,000
+that's got such good locomotion using its legs,
+
+61
+0:03:12.515,000 --> 0:03:13,000
+that it can go in deep snow.
+
+62
+0:03:13.943,000 --> 0:03:15,000
+This is about 10 inches deep,
+
+63
+0:03:16.378,000 --> 0:03:18,000
+and it doesn't really have any trouble.
+
+64
+0:03:20.166,000 --> 0:03:22,000
+This is Spot, a new generation of robot --
+
+65
+0:03:22.819,000 --> 0:03:24,000
+just slightly older than the one that came out onstage.
+
+66
+0:03:26.258,000 --> 0:03:27,000
+And we've been asking the question --
+
+67
+0:03:28.114,000 --> 0:03:29,000
+you've all heard about drone delivery:
+
+68
+0:03:30.112,000 --> 0:03:32,000
+Can we deliver packages to your houses with drones?
+
+69
+0:03:32.759,000 --> 0:03:34,000
+Well, what about plain old legged-robot delivery?
+
+70
+0:03:35.57,000 --> 0:03:36,000
+(Laughter)
+
+71
+0:03:36.726,000 --> 0:03:39,000
+So we've been taking our robot to our employees' homes
+
+72
+0:03:40.147,000 --> 0:03:41,000
+to see whether we could get in --
+
+73
+0:03:41.754,000 --> 0:03:42,000
+(Laughter)
+
+74
+0:03:42.802,000 --> 0:03:43,000
+the various access ways.
+
+75
+0:03:44.054,000 --> 0:03:45,000
+And believe me, in the Boston area,
+
+76
+0:03:45.962,000 --> 0:03:48,000
+there's every manner of stairway twists and turns.
+
+77
+0:03:49.16,000 --> 0:03:5,000
+So it's a real challenge.
+
+78
+0:03:50.421,000 --> 0:03:52,000
+But we're doing very well, about 70 percent of the way.
+
+79
+0:03:54.479,000 --> 0:03:55,000
+And here's mobile manipulation,
+
+80
+0:03:56.068,000 --> 0:03:58,000
+where we've put an arm on the robot,
+
+81
+0:03:58.683,000 --> 0:04:,000
+and it's finding its way through the door.
+
+82
+0:04:01.742,000 --> 0:04:04,000
+Now, one of the important things about making autonomous robots
+
+83
+0:04:04.925,000 --> 0:04:07,000
+is to make them not do just exactly what you say,
+
+84
+0:04:08.169,000 --> 0:04:13,000
+but make them deal with the uncertainty of what happens in the real world.
+
+85
+0:04:14.054,000 --> 0:04:17,000
+So we have Steve there, one of the engineers,
+
+86
+0:04:17.089,000 --> 0:04:18,000
+giving the robot a hard time.
+
+87
+0:04:18.721,000 --> 0:04:19,000
+(Laughter)
+
+88
+0:04:19.777,000 --> 0:04:23,000
+And the fact that the programming still tolerates all that disturbance --
+
+89
+0:04:23.991,000 --> 0:04:24,000
+it does what it's supposed to.
+
+90
+0:04:25.512,000 --> 0:04:27,000
+Here's another example, where Eric is tugging on the robot
+
+91
+0:04:28.327,000 --> 0:04:29,000
+as it goes up the stairs.
+
+92
+0:04:29.649,000 --> 0:04:3,000
+And believe me,
+
+93
+0:04:30.825,000 --> 0:04:33,000
+getting it to do what it's supposed to do in those circumstances
+
+94
+0:04:34.121,000 --> 0:04:35,000
+is a real challenge,
+
+95
+0:04:35.486,000 --> 0:04:37,000
+but the result is something that's going to generalize
+
+96
+0:04:38.25,000 --> 0:04:41,000
+and make robots much more autonomous than they would be otherwise.
+
+97
+0:04:43.317,000 --> 0:04:45,000
+This is Atlas, a humanoid robot.
+
+98
+0:04:46.427,000 --> 0:04:49,000
+It's a third-generation humanoid that we've been building.
+
+99
+0:04:50.671,000 --> 0:04:52,000
+I'll tell you a little bit about the hardware design later.
+
+100
+0:04:53.513,000 --> 0:04:54,000
+And we've been saying:
+
+101
+0:04:54.713,000 --> 0:04:58,000
+How close to human levels of performance and speed could we get
+
+102
+0:04:59.16,000 --> 0:05:,000
+in an ordinary task,
+
+103
+0:05:00.759,000 --> 0:05:02,000
+like moving boxes around on a conveyor?
+
+104
+0:05:03.931,000 --> 0:05:08,000
+We're getting up to about two-thirds of the speed that a human operates
+
+105
+0:05:09.261,000 --> 0:05:1,000
+on average.
+
+106
+0:05:10.758,000 --> 0:05:12,000
+And this robot is using both hands, it's using its body,
+
+107
+0:05:13.711,000 --> 0:05:14,000
+it's stepping,
+
+108
+0:05:14.904,000 --> 0:05:16,000
+so it's really an example of dynamic stability,
+
+109
+0:05:17.655,000 --> 0:05:18,000
+mobile manipulation
+
+110
+0:05:19.058,000 --> 0:05:2,000
+and mobile perception.
+
+111
+0:05:22.192,000 --> 0:05:23,000
+Here --
+
+112
+0:05:23.905,000 --> 0:05:24,000
+(Laughter)
+
+113
+0:05:26.389,000 --> 0:05:27,000
+We actually have two Atlases.
+
+114
+0:05:28.483,000 --> 0:05:29,000
+(Laughter)
+
+115
+0:05:30.198,000 --> 0:05:33,000
+Now, everything doesn't go exactly the way it's supposed to.
+
+116
+0:05:33.618,000 --> 0:05:34,000
+(Laughter)
+
+117
+0:05:38.318,000 --> 0:05:39,000
+(Laughter)
+
+118
+0:05:40.536,000 --> 0:05:41,000
+(Laughter)
+
+119
+0:05:45.292,000 --> 0:05:47,000
+And here's our latest robot, called "Handle."
+
+120
+0:05:48.457,000 --> 0:05:52,000
+Handle is interesting, because it's sort of half like an animal,
+
+121
+0:05:52.599,000 --> 0:05:54,000
+and it's half something else
+
+122
+0:05:54.937,000 --> 0:05:56,000
+with these leg-like things and wheels.
+
+123
+0:05:58.141,000 --> 0:06:01,000
+It's got its arms on in kind of a funny way,
+
+124
+0:06:01.191,000 --> 0:06:03,000
+but it really does some remarkable things.
+
+125
+0:06:03.311,000 --> 0:06:06,000
+It can carry 100 pounds.
+
+126
+0:06:06.666,000 --> 0:06:08,000
+It's probably going to lift more than that,
+
+127
+0:06:08.749,000 --> 0:06:09,000
+but so far we've done 100.
+
+128
+0:06:10.551,000 --> 0:06:12,000
+It's got some pretty good rough-terrain capability,
+
+129
+0:06:13.011,000 --> 0:06:14,000
+even though it has wheels.
+
+130
+0:06:17.881,000 --> 0:06:19,000
+And Handle loves to put on a show.
+
+131
+0:06:20.686,000 --> 0:06:21,000
+(Laughter)
+
+132
+0:06:24.644,000 --> 0:06:29,000
+(Applause)
+
+133
+0:06:30.74,000 --> 0:06:32,000
+I'm going to give you a little bit of robot religion.
+
+134
+0:06:34.356,000 --> 0:06:38,000
+A lot of people think that a robot is a machine where there's a computer
+
+135
+0:06:38.709,000 --> 0:06:39,000
+that's telling it what to do,
+
+136
+0:06:40.9,000 --> 0:06:42,000
+and the computer is listening through its sensors.
+
+137
+0:06:44.349,000 --> 0:06:46,000
+But that's really only half of the story.
+
+138
+0:06:46.777,000 --> 0:06:49,000
+The real story is that the computer is on one side,
+
+139
+0:06:49.91,000 --> 0:06:5,000
+making suggestions to the robot,
+
+140
+0:06:51.878,000 --> 0:06:53,000
+and on the other side are the physics of the world.
+
+141
+0:06:54.778,000 --> 0:06:58,000
+And that physics involves gravity, friction, bouncing into things.
+
+142
+0:07:00.238,000 --> 0:07:01,000
+In order to have a successful robot,
+
+143
+0:07:02.097,000 --> 0:07:06,000
+my religion is that you have to do a holistic design,
+
+144
+0:07:06.712,000 --> 0:07:09,000
+where you're designing the software, the hardware and the behavior
+
+145
+0:07:10.289,000 --> 0:07:11,000
+all at one time,
+
+146
+0:07:11.549,000 --> 0:07:14,000
+and all these parts really intermesh and cooperate with each other.
+
+147
+0:07:15.275,000 --> 0:07:18,000
+And when you get the perfect design, you get a real harmony
+
+148
+0:07:18.406,000 --> 0:07:2,000
+between all those parts interacting with each other.
+
+149
+0:07:22.269,000 --> 0:07:24,000
+So it's half software and half hardware,
+
+150
+0:07:24.553,000 --> 0:07:25,000
+plus the behavior.
+
+151
+0:07:26.698,000 --> 0:07:29,000
+We've done some work lately on the hardware, where we tried to go --
+
+152
+0:07:30.264,000 --> 0:07:32,000
+the picture on the left is a conventional design,
+
+153
+0:07:32.765,000 --> 0:07:34,000
+where you have parts that are all bolted together,
+
+154
+0:07:35.689,000 --> 0:07:37,000
+conductors, tubes, connectors.
+
+155
+0:07:38.453,000 --> 0:07:4,000
+And on the right is a more integrated thing;
+
+156
+0:07:40.526,000 --> 0:07:42,000
+it's supposed to look like an anatomy drawing.
+
+157
+0:07:43.33,000 --> 0:07:45,000
+Using the miracle of 3-D printing,
+
+158
+0:07:45.864,000 --> 0:07:47,000
+we're starting to build parts of robots
+
+159
+0:07:48.525,000 --> 0:07:5,000
+that look a lot more like the anatomy of an animal.
+
+160
+0:07:51.446,000 --> 0:07:54,000
+So that's an upper-leg part that has hydraulic pathways --
+
+161
+0:07:54.814,000 --> 0:07:55,000
+actuators, filters --
+
+162
+0:07:56.768,000 --> 0:07:58,000
+all embedded, all printed as one piece,
+
+163
+0:07:59.172,000 --> 0:08:02,000
+and the whole structure is developed
+
+164
+0:08:02.398,000 --> 0:08:05,000
+with a knowledge of what the loads and behavior are going to be,
+
+165
+0:08:05.458,000 --> 0:08:07,000
+which is available from data recorded from robots
+
+166
+0:08:08.385,000 --> 0:08:09,000
+and simulations and things like that.
+
+167
+0:08:10.218,000 --> 0:08:12,000
+So it's a data-driven hardware design.
+
+168
+0:08:13.547,000 --> 0:08:14,000
+And using processes like that,
+
+169
+0:08:15.297,000 --> 0:08:17,000
+not only the upper leg but some other things,
+
+170
+0:08:17.565,000 --> 0:08:22,000
+we've gotten our robots to go from big, behemoth, bulky, slow, bad robots --
+
+171
+0:08:22.729,000 --> 0:08:25,000
+that one on the right, weighing almost 400 pounds --
+
+172
+0:08:26.372,000 --> 0:08:29,000
+down to the one in the middle which was just in the video,
+
+173
+0:08:29.505,000 --> 0:08:3,000
+weighs about 190 pounds,
+
+174
+0:08:31.092,000 --> 0:08:32,000
+just a little bit more than me,
+
+175
+0:08:32.813,000 --> 0:08:33,000
+and we have a new one,
+
+176
+0:08:34.323,000 --> 0:08:36,000
+which is working but I'm not going to show it to you yet,
+
+177
+0:08:37.089,000 --> 0:08:38,000
+on the left,
+
+178
+0:08:38.275,000 --> 0:08:39,000
+which weighs just 165 pounds,
+
+179
+0:08:39.943,000 --> 0:08:41,000
+with all the same strength and capabilities.
+
+180
+0:08:42.233,000 --> 0:08:44,000
+So these things are really getting better very quickly.
+
+181
+0:08:46.28,000 --> 0:08:49,000
+So it's time for Spot to come back out,
+
+182
+0:08:49.566,000 --> 0:08:52,000
+and we're going to demonstrate a little bit of mobility,
+
+183
+0:08:53.338,000 --> 0:08:54,000
+dexterity and perception.
+
+184
+0:08:55.681,000 --> 0:08:58,000
+This is Seth Davis, who's my robot wrangler today,
+
+185
+0:08:59.469,000 --> 0:09:02,000
+and he's giving Spot some general direction
+
+186
+0:09:02.533,000 --> 0:09:03,000
+by steering it around,
+
+187
+0:09:04.383,000 --> 0:09:07,000
+but all the coordination of the legs and the sensors
+
+188
+0:09:07.478,000 --> 0:09:09,000
+is done by the robot's computers on board.
+
+189
+0:09:10.543,000 --> 0:09:13,000
+The robot can walk with a number of different gaits;
+
+190
+0:09:14.013,000 --> 0:09:16,000
+it's got a gyro,
+
+191
+0:09:16.196,000 --> 0:09:17,000
+or a solid-state gyro,
+
+192
+0:09:17.557,000 --> 0:09:18,000
+an IMU on board.
+
+193
+0:09:19.442,000 --> 0:09:22,000
+Obviously, it's got a battery, and things like that.
+
+194
+0:09:23.352,000 --> 0:09:25,000
+One of the cool things about a legged robot is,
+
+195
+0:09:25.882,000 --> 0:09:26,000
+it's omnidirectional.
+
+196
+0:09:27.355,000 --> 0:09:29,000
+In addition to going forward, it can go sideways,
+
+197
+0:09:31.413,000 --> 0:09:32,000
+it can turn in place.
+
+198
+0:09:36.482,000 --> 0:09:38,000
+And this robot is a little bit of a show-off.
+
+199
+0:09:39.675,000 --> 0:09:4,000
+It loves to use its dynamic gaits,
+
+200
+0:09:41.659,000 --> 0:09:42,000
+like running --
+
+201
+0:09:42.841,000 --> 0:09:43,000
+(Laughter)
+
+202
+0:09:43.909,000 --> 0:09:44,000
+And it's got one more.
+
+203
+0:09:47.104,000 --> 0:09:48,000
+(Laughter)
+
+204
+0:09:49.858,000 --> 0:09:52,000
+Now if it were really a show-off, it would be hopping on one foot,
+
+205
+0:09:53.118,000 --> 0:09:54,000
+but, you know.
+
+206
+0:09:54.31,000 --> 0:09:58,000
+Now, Spot has a set of cameras here, stereo cameras,
+
+207
+0:09:58.377,000 --> 0:09:59,000
+and we have a feed up in the center.
+
+208
+0:10:00.591,000 --> 0:10:01,000
+It's kind of dark out in the audience,
+
+209
+0:10:02.439,000 --> 0:10:05,000
+but it's going to use those cameras in order to look at the terrain
+
+210
+0:10:05.683,000 --> 0:10:06,000
+right in front of it,
+
+211
+0:10:06.88,000 --> 0:10:08,000
+while it goes over these obstacles back here.
+
+212
+0:10:09.665,000 --> 0:10:12,000
+For this demo, Seth is steering,
+
+213
+0:10:13.002,000 --> 0:10:15,000
+but the robot's doing all its own terrain planning.
+
+214
+0:10:15.531,000 --> 0:10:16,000
+This is a terrain map,
+
+215
+0:10:17.057,000 --> 0:10:22,000
+where the data from the cameras is being developed in real time,
+
+216
+0:10:22.251,000 --> 0:10:25,000
+showing the red spots, which are where it doesn't want to step,
+
+217
+0:10:25.512,000 --> 0:10:26,000
+and the green spots are the good places.
+
+218
+0:10:27.527,000 --> 0:10:29,000
+And here it's treating them like stepping-stones.
+
+219
+0:10:3,000 --> 0:10:32,000
+So it's trying to stay up on the blocks,
+
+220
+0:10:32.779,000 --> 0:10:33,000
+and it adjusts its stride,
+
+221
+0:10:34.076,000 --> 0:10:35,000
+and there's a ton of planning
+
+222
+0:10:35.561,000 --> 0:10:37,000
+that has to go into an operation like that,
+
+223
+0:10:37.826,000 --> 0:10:39,000
+and it does all that planning in real time,
+
+224
+0:10:40.112,000 --> 0:10:42,000
+where it adjusts the steps a little bit longer
+
+225
+0:10:42.566,000 --> 0:10:43,000
+or a little bit shorter.
+
+226
+0:10:45.216,000 --> 0:10:47,000
+Now we're going to change it into a different mode,
+
+227
+0:10:47.67,000 --> 0:10:5,000
+where it's just going to treat the blocks like terrain
+
+228
+0:10:51.117,000 --> 0:10:54,000
+and decide whether to step up or down
+
+229
+0:10:54.86,000 --> 0:10:55,000
+as it goes.
+
+230
+0:10:57.085,000 --> 0:10:59,000
+So this is using dynamic balance
+
+231
+0:11:00.078,000 --> 0:11:01,000
+and mobile perception,
+
+232
+0:11:01.96,000 --> 0:11:06,000
+because it has to coordinate what it sees along with how it's moving.
+
+233
+0:11:08.988,000 --> 0:11:12,000
+The other thing Spot has is a robot arm.
+
+234
+0:11:14.337,000 --> 0:11:16,000
+Some of you may see that as a head and a neck,
+
+235
+0:11:16.851,000 --> 0:11:17,000
+but believe me, it's an arm.
+
+236
+0:11:18.46,000 --> 0:11:19,000
+Seth is driving it around.
+
+237
+0:11:20.249,000 --> 0:11:23,000
+He's actually driving the hand and the body is following.
+
+238
+0:11:24.041,000 --> 0:11:28,000
+So the two are coordinated in the way I was talking about before --
+
+239
+0:11:28.198,000 --> 0:11:29,000
+in the way people can do that.
+
+240
+0:11:30.086,000 --> 0:11:34,000
+In fact, one of the cool things Spot can do we call, "chicken-head mode,"
+
+241
+0:11:34.753,000 --> 0:11:37,000
+and it keeps its head in one place in space,
+
+242
+0:11:37.961,000 --> 0:11:38,000
+and it moves its body all around.
+
+243
+0:11:40.553,000 --> 0:11:42,000
+There's a variation of this that's called "twerking" --
+
+244
+0:11:43.179,000 --> 0:11:44,000
+(Laughter)
+
+245
+0:11:44.219,000 --> 0:11:45,000
+but we're not going to use that today.
+
+246
+0:11:46.066,000 --> 0:11:47,000
+(Laughter)
+
+247
+0:11:47.161,000 --> 0:11:5,000
+So, Spot: I'm feeling a little thirsty. Could you get me a soda?
+
+248
+0:11:51.293,000 --> 0:11:54,000
+For this demo, Seth is not doing any driving.
+
+249
+0:11:55.09,000 --> 0:11:57,000
+We have a LIDAR on the back of the robot,
+
+250
+0:11:57.227,000 --> 0:11:59,000
+and it's using these props we've put on the stage
+
+251
+0:11:59.788,000 --> 0:12:,000
+to localize itself.
+
+252
+0:12:01.205,000 --> 0:12:03,000
+It's gone over to that location.
+
+253
+0:12:03.51,000 --> 0:12:05,000
+Now it's using a camera that's in its hand
+
+254
+0:12:06.416,000 --> 0:12:07,000
+to find the cup,
+
+255
+0:12:08.853,000 --> 0:12:09,000
+picks it up --
+
+256
+0:12:10.132,000 --> 0:12:11,000
+and again, Seth's not driving.
+
+257
+0:12:13.372,000 --> 0:12:16,000
+We've planned out a path for it to go --
+
+258
+0:12:16.637,000 --> 0:12:18,000
+it looked like it was going off the path --
+
+259
+0:12:18.768,000 --> 0:12:2,000
+and now Seth's going to take over control again,
+
+260
+0:12:21.15,000 --> 0:12:24,000
+because I'm a little bit chicken about having it do this by itself.
+
+261
+0:12:24.623,000 --> 0:12:25,000
+Thank you, Spot.
+
+262
+0:12:28.231,000 --> 0:12:33,000
+(Applause)
+
+263
+0:12:34.889,000 --> 0:12:35,000
+So, Spot:
+
+264
+0:12:36.503,000 --> 0:12:39,000
+How do you feel about having just finished your TED performance?
+
+265
+0:12:41.014,000 --> 0:12:43,000
+(Laughter)
+
+266
+0:12:44.068,000 --> 0:12:45,000
+Me, too!
+
+267
+0:12:45.244,000 --> 0:12:46,000
+(Laughter)
+
+268
+0:12:46.3,000 --> 0:12:47,000
+Thank you all,
+
+269
+0:12:48.14,000 --> 0:12:5,000
+and thanks to the team at Boston Dynamics,
+
+270
+0:12:50.559,000 --> 0:12:52,000
+who did all the hard work behind this.
+
+271
+0:12:52.697,000 --> 0:12:54,000
+(Applause)
+
+272
+0:13:03.059,000 --> 0:13:05,000
+Helen Walters: Marc, come back in the middle.
+
+273
+0:13:05.246,000 --> 0:13:06,000
+Thank you so much.
+
+274
+0:13:06.424,000 --> 0:13:08,000
+Come over here, I have questions.
+
+275
+0:13:08.543,000 --> 0:13:11,000
+So, you mentioned the UPS and the package delivery.
+
+276
+0:13:11.982,000 --> 0:13:14,000
+What are the other applications that you see for your robots?
+
+277
+0:13:15.943,000 --> 0:13:17,000
+Marc Raibert: You know, I think that robots
+
+278
+0:13:17.994,000 --> 0:13:19,000
+that have the capabilities I've been talking about
+
+279
+0:13:20.424,000 --> 0:13:21,000
+are going to be incredibly useful.
+
+280
+0:13:22.108,000 --> 0:13:24,000
+About a year ago, I went to Fukushima
+
+281
+0:13:24.629,000 --> 0:13:26,000
+to see what the situation was there,
+
+282
+0:13:26.684,000 --> 0:13:27,000
+and there's just a huge need
+
+283
+0:13:28.585,000 --> 0:13:31,000
+for machines that can go into some of the dirty places
+
+284
+0:13:31.947,000 --> 0:13:32,000
+and help remediate that.
+
+285
+0:13:34.528,000 --> 0:13:38,000
+I think it won't be too long until we have robots like this in our homes,
+
+286
+0:13:39.151,000 --> 0:13:44,000
+and one of the big needs is to take care of the aging
+
+287
+0:13:44.496,000 --> 0:13:45,000
+and invalids.
+
+288
+0:13:45.886,000 --> 0:13:48,000
+I think that it won't be too long till we're using robots
+
+289
+0:13:49.899,000 --> 0:13:51,000
+to help take care of our parents,
+
+290
+0:13:52.385,000 --> 0:13:56,000
+or probably more likely, have our children help take care of us.
+
+291
+0:13:57.721,000 --> 0:13:58,000
+And there's a bunch of other things.
+
+292
+0:13:59.495,000 --> 0:14:,000
+I think the sky's the limit.
+
+293
+0:14:00.885,000 --> 0:14:02,000
+Many of the ideas we haven't thought of yet,
+
+294
+0:14:03.167,000 --> 0:14:06,000
+and people like you will help us think of new applications.
+
+295
+0:14:06.786,000 --> 0:14:07,000
+HW: So what about the dark side?
+
+296
+0:14:08.397,000 --> 0:14:09,000
+What about the military?
+
+297
+0:14:10.254,000 --> 0:14:11,000
+Are they interested?
+
+298
+0:14:12.441,000 --> 0:14:15,000
+MR: Sure, the military has been a big funder of robotics.
+
+299
+0:14:16.099,000 --> 0:14:2,000
+I don't think the military is the dark side myself,
+
+300
+0:14:20.325,000 --> 0:14:23,000
+but I think, as with all advanced technology,
+
+301
+0:14:24.22,000 --> 0:14:26,000
+it can be used for all kinds of things.
+
+302
+0:14:26.291,000 --> 0:14:27,000
+HW: Awesome. Thank you so much.
+
+303
+0:14:27.956,000 --> 0:14:28,000
+MR: OK, you're welcome.
+
+304
+0:14:29.385,000 --> 0:14:3,000
+Thank you.
+
+305
+0:14:30.561,000 --> 0:14:31,000
+(Applause)
+

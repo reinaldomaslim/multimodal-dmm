@@ -1,0 +1,1180 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Cuicani Ríos Revisor: Sebastian Betti
+
+2
+0:00:14.366,000 --> 0:00:17,000
+Les mostraré algo.
+
+3
+0:00:18.104,000 --> 0:00:22,000
+(Video) Niña: Eso es un gato sentado en una cama.
+
+4
+0:00:22.26,000 --> 0:00:26,000
+El niño está acariciando al elefante.
+
+5
+0:00:26.3,000 --> 0:00:3,000
+Esas son personas que van en un avión.
+
+6
+0:00:30.654,000 --> 0:00:32,000
+Ese es un avión grande.
+
+7
+0:00:33.464,000 --> 0:00:35,000
+Fei-Fei Li: Así describe una niña
+
+8
+0:00:35.67,000 --> 0:00:38,000
+de 3 años lo que ve en una serie de fotos.
+
+9
+0:00:39.349,000 --> 0:00:41,000
+Tal vez le falta mucho por aprender sobre este mundo,
+
+10
+0:00:42.194,000 --> 0:00:46,000
+pero ya es experta en algo importante:
+
+11
+0:00:46.743,000 --> 0:00:48,000
+entender lo que ve.
+
+12
+0:00:50.229,000 --> 0:00:54,000
+Tecnológicamente, nuestra sociedad está más avanzada que nunca.
+
+13
+0:00:54.455,000 --> 0:00:57,000
+Enviamos personas a la luna, nuestros teléfonos nos hablan
+
+14
+0:00:58.084,000 --> 0:01:02,000
+o personalizan radios para reproducir solo la música que nos gusta.
+
+15
+0:01:03.03,000 --> 0:01:07,000
+Sin embargo, nuestras máquinas y computadoras más avanzadas
+
+16
+0:01:07.085,000 --> 0:01:09,000
+aún tienen problemas en ese aspecto.
+
+17
+0:01:09.988,000 --> 0:01:12,000
+Hoy estoy aquí para darles un reporte
+
+18
+0:01:13.447,000 --> 0:01:17,000
+de nuestros últimos avances en visión artificial,
+
+19
+0:01:17.494,000 --> 0:01:21,000
+una de las tecnologías potencialmente más revolucionarias
+
+20
+0:01:21.655,000 --> 0:01:24,000
+en la ciencia de la computación.
+
+21
+0:01:24.861,000 --> 0:01:28,000
+Es cierto, hemos inventado autos que conducen solos,
+
+22
+0:01:29.412,000 --> 0:01:32,000
+pero sin una visión inteligente, realmente no pueden distinguir
+
+23
+0:01:33.265,000 --> 0:01:36,000
+entre una bolsa arrugada de papel en el camino, que puede uno pisar,
+
+24
+0:01:37.235,000 --> 0:01:4,000
+y una roca del mismo tamaño, que debemos evitar.
+
+25
+0:01:41.415,000 --> 0:01:44,000
+Hemos creado fabulosas cámaras de muchos megapíxeles,
+
+26
+0:01:44.805,000 --> 0:01:47,000
+pero aún no podemos devolverle la vista a un ciego.
+
+27
+0:01:48.42,000 --> 0:01:51,000
+Los drones pueden volar sobre grandes superficies de tierra,
+
+28
+0:01:51.665,000 --> 0:01:52,000
+pero no tienen tecnología
+
+29
+0:01:53.1,000 --> 0:01:54,000
+de visión suficiente
+
+30
+0:01:54.155,000 --> 0:01:57,000
+para ayudarnos a monitorear los cambios en los bosques tropicales.
+
+31
+0:01:57.32,000 --> 0:01:59,000
+Hay cámaras de seguridad en todas partes,
+
+32
+0:02:00.27,000 --> 0:02:05,000
+pero no nos alertan cuando un niño se está ahogando en una piscina.
+
+33
+0:02:06.167,000 --> 0:02:11,000
+Las fotos y los videos se están volviendo parte integral de la vida global.
+
+34
+0:02:11.762,000 --> 0:02:15,000
+Se generan a un ritmo mucho mayor de lo que cualquier humano,
+
+35
+0:02:15.849,000 --> 0:02:17,000
+o equipo de humanos, podría ver,
+
+36
+0:02:18.632,000 --> 0:02:21,000
+y Uds. y yo contribuimos a eso en este TED.
+
+37
+0:02:22.553,000 --> 0:02:27,000
+Aun así, nuestro software más avanzado tiene problemas para entender
+
+38
+0:02:27.785,000 --> 0:02:3,000
+y gestionar este enorme contenido.
+
+39
+0:02:31.661,000 --> 0:02:36,000
+En otras palabras, colectivamente como una sociedad,
+
+40
+0:02:36.933,000 --> 0:02:37,000
+somos muy ciegos,
+
+41
+0:02:38.679,000 --> 0:02:41,000
+porque nuestras máquinas más inteligentes aún son ciegas.
+
+42
+0:02:43.526,000 --> 0:02:45,000
+Se preguntarán: "¿Por qué es tan difícil?"
+
+43
+0:02:46.452,000 --> 0:02:48,000
+Las cámaras pueden tomar fotos como esta
+
+44
+0:02:49.145,000 --> 0:02:52,000
+convirtiendo luz en matrices numéricas bidimensionales
+
+45
+0:02:53.139,000 --> 0:02:54,000
+conocidas como pixeles,
+
+46
+0:02:54.789,000 --> 0:02:56,000
+pero estos son solo números vacíos.
+
+47
+0:02:57.04,000 --> 0:03:,000
+En sí mismos no tienen significado.
+
+48
+0:03:00.151,000 --> 0:03:04,000
+Al igual que oír no es lo mismo que escuchar,
+
+49
+0:03:04.494,000 --> 0:03:08,000
+tomar fotografías no es lo mismo que ver;
+
+50
+0:03:08.534,000 --> 0:03:11,000
+y solo viendo podemos realmente entender.
+
+51
+0:03:13.293,000 --> 0:03:19,000
+De hecho, le tomó a la Madre Naturaleza 540 millones de años de arduo trabajo
+
+52
+0:03:19.47,000 --> 0:03:2,000
+lograr esta tarea,
+
+53
+0:03:21.443,000 --> 0:03:22,000
+y mucho de ese esfuerzo
+
+54
+0:03:23.324,000 --> 0:03:28,000
+consistió en desarrollar el sistema de procesamiento visual en el cerebro,
+
+55
+0:03:28.595,000 --> 0:03:3,000
+no los ojos en sí.
+
+56
+0:03:31.242,000 --> 0:03:33,000
+La visión empieza en los ojos,
+
+57
+0:03:33.989,000 --> 0:03:36,000
+pero, en realidad, ocurre en nuestro cerebro.
+
+58
+0:03:38.287,000 --> 0:03:43,000
+Durante 15 años, empezando desde mi doctorado en Caltech
+
+59
+0:03:43.347,000 --> 0:03:45,000
+y luego al frente del laboratorio Stanford Vision Lab,
+
+60
+0:03:46.273,000 --> 0:03:5,000
+he trabajado con mis mentores, colaboradores y estudiantes
+
+61
+0:03:50.669,000 --> 0:03:52,000
+para enseñar a las computadoras a ver.
+
+62
+0:03:54.438,000 --> 0:03:55,000
+Nuestro campo de investigación se llama
+
+63
+0:03:56.388,000 --> 0:03:58,000
+"visión artificial y aprendizaje automático".
+
+64
+0:03:58.878,000 --> 0:04:,000
+Es parte del campo de la inteligencia artificial.
+
+65
+0:04:03,000 --> 0:04:08,000
+Queremos enseñar a las máquinas a ver tal como nosotros lo hacemos:
+
+66
+0:04:08.493,000 --> 0:04:13,000
+nombrar objetos, identificar personas, inferir la geometría 3D de las cosas,
+
+67
+0:04:13.88,000 --> 0:04:18,000
+entender relaciones, emociones, acciones e intenciones.
+
+68
+0:04:19.568,000 --> 0:04:25,000
+Nosotros tejemos historias completas de la gente, los lugares y las cosas
+
+69
+0:04:25.721,000 --> 0:04:27,000
+simplemente con mirarlas.
+
+70
+0:04:28.954,000 --> 0:04:33,000
+El primer paso hacia esta meta es enseñar a una computadora a ver objetos,
+
+71
+0:04:34.538,000 --> 0:04:37,000
+la unidad básica del mundo visual.
+
+72
+0:04:37.906,000 --> 0:04:41,000
+En términos más simples, imaginen este proceso
+
+73
+0:04:42.34,000 --> 0:04:44,000
+mostrando a las computadoras algunas imágenes de entrenamiento
+
+74
+0:04:45.335,000 --> 0:04:48,000
+de un objeto en particular, digamos gatos,
+
+75
+0:04:48.656,000 --> 0:04:52,000
+y diseñar un modelo que aprenda de estas imágenes.
+
+76
+0:04:53.393,000 --> 0:04:55,000
+¿Qué tan difícil puede ser esto?
+
+77
+0:04:55.437,000 --> 0:04:59,000
+A fin de cuentas, un gato es solo un conjunto de formas y colores,
+
+78
+0:04:59.489,000 --> 0:05:03,000
+y eso fue lo que hacíamos en los inicios de la modelización de objetos.
+
+79
+0:05:03.575,000 --> 0:05:05,000
+Decíamos al algoritmo de la computadora
+
+80
+0:05:05.606,000 --> 0:05:07,000
+en un lenguaje matemático
+
+81
+0:05:07.617,000 --> 0:05:09,000
+que un gato tiene cara redonda, cuerpo regordete,
+
+82
+0:05:10.54,000 --> 0:05:12,000
+dos orejas puntiagudas y cola larga,
+
+83
+0:05:12.839,000 --> 0:05:13,000
+y así quedaba bien.
+
+84
+0:05:14.859,000 --> 0:05:16,000
+Pero ¿qué me dicen de este gato?
+
+85
+0:05:16.972,000 --> 0:05:17,000
+(Risas)
+
+86
+0:05:18.063,000 --> 0:05:19,000
+Está todo retorcido.
+
+87
+0:05:19.689,000 --> 0:05:23,000
+Se debe agregar otra figura y otra perspectiva al modelo del objeto.
+
+88
+0:05:24.408,000 --> 0:05:25,000
+¿Y si los gatos están escondidos?
+
+89
+0:05:27.143,000 --> 0:05:29,000
+¿Qué tal estos gatos tontos?
+
+90
+0:05:31.112,000 --> 0:05:33,000
+Ahora entienden mi idea.
+
+91
+0:05:33.529,000 --> 0:05:36,000
+Incluso algo tan simple como una mascota
+
+92
+0:05:36.896,000 --> 0:05:4,000
+puede tener un número infinito de variaciones en el modelo del objeto,
+
+93
+0:05:41.4,000 --> 0:05:43,000
+y eso es solo un objeto.
+
+94
+0:05:44.573,000 --> 0:05:46,000
+Así que hace unos 8 años,
+
+95
+0:05:47.065,000 --> 0:05:52,000
+una observación simple y profunda cambió mi perspectiva.
+
+96
+0:05:53.425,000 --> 0:05:55,000
+Nadie le dice al niño cómo ver,
+
+97
+0:05:56.11,000 --> 0:05:58,000
+menos aún en los primeros años.
+
+98
+0:05:58.371,000 --> 0:06:03,000
+Ellos aprenden a través de ejemplos y experiencias del mundo real.
+
+99
+0:06:03.371,000 --> 0:06:05,000
+Si consideramos los ojos de un niño
+
+100
+0:06:06.111,000 --> 0:06:08,000
+como un par de cámaras biológicas,
+
+101
+0:06:08.665,000 --> 0:06:12,000
+toman una foto cada 200 milisegundos,
+
+102
+0:06:12.845,000 --> 0:06:15,000
+el tiempo promedio en que el ojo hace un movimiento.
+
+103
+0:06:15.979,000 --> 0:06:2,000
+Entonces, a los 3 años un niño ha visto cientos de millones de fotografías
+
+104
+0:06:21.529,000 --> 0:06:22,000
+del mundo real.
+
+105
+0:06:23.363,000 --> 0:06:25,000
+Esos son muchos ejemplares de entrenamiento.
+
+106
+0:06:26.383,000 --> 0:06:31,000
+Así que en lugar de enfocarnos solo en mejorar los algoritmos,
+
+107
+0:06:32.372,000 --> 0:06:37,000
+mi intención fue dotar a los algoritmos con los datos de entrenamiento
+
+108
+0:06:37.644,000 --> 0:06:4,000
+que un niño adquiere con la experiencia
+
+109
+0:06:40.963,000 --> 0:06:43,000
+tanto en cantidad como en calidad.
+
+110
+0:06:44.841,000 --> 0:06:45,000
+Al conocer esto
+
+111
+0:06:46.699,000 --> 0:06:48,000
+supimos que necesitábamos recolectar
+
+112
+0:06:49.67,000 --> 0:06:53,000
+muchas más imágenes que nunca,
+
+113
+0:06:54.129,000 --> 0:06:56,000
+tal vez miles de veces más;
+
+114
+0:06:56.706,000 --> 0:07:,000
+y junto con el profesor Kai Li en la Universidad de Princeton,
+
+115
+0:07:00.817,000 --> 0:07:04,000
+lanzamos el proyecto ImageNet en 2007.
+
+116
+0:07:05.569,000 --> 0:07:08,000
+Por suerte, no tuvimos que ponernos una cámara en la cabeza
+
+117
+0:07:09.407,000 --> 0:07:1,000
+y esperar muchos años.
+
+118
+0:07:11.171,000 --> 0:07:12,000
+Entramos a Internet,
+
+119
+0:07:12.634,000 --> 0:07:16,000
+el banco de imágenes más grande creado por la humanidad.
+
+120
+0:07:17.07,000 --> 0:07:2,000
+Descargamos casi 1000 millones de imágenes
+
+121
+0:07:20.111,000 --> 0:07:25,000
+y usamos tecnología de crowdsourcing como la plataforma Amazon Mechanical Turk
+
+122
+0:07:25.991,000 --> 0:07:27,000
+para etiquetar estas imágenes.
+
+123
+0:07:28.33,000 --> 0:07:32,000
+En su mejor momento, ImageNet fue uno de los empleadores más importantes
+
+124
+0:07:33.23,000 --> 0:07:35,000
+de trabajadores en Amazon Mechanical Turk:
+
+125
+0:07:36.226,000 --> 0:07:39,000
+Casi 50 000 trabajadores
+
+126
+0:07:40.08,000 --> 0:07:44,000
+de 167 países del mundo
+
+127
+0:07:44.12,000 --> 0:07:47,000
+nos ayudaron a limpiar, separar y etiquetar
+
+128
+0:07:48.067,000 --> 0:07:51,000
+casi 1000 millones de imágenes candidatas.
+
+129
+0:07:52.612,000 --> 0:07:54,000
+Se necesitó todo ese esfuerzo
+
+130
+0:07:55.265,000 --> 0:07:58,000
+para capturar apenas una fracción de todas las imágenes
+
+131
+0:07:59.165,000 --> 0:08:03,000
+que un niño asimila en sus primeros años de desarrollo.
+
+132
+0:08:04.148,000 --> 0:08:07,000
+Viendo en retrospectiva, esta idea de usar muchos datos
+
+133
+0:08:08.05,000 --> 0:08:12,000
+para entrenar algoritmos puede parecer obvia ahora.
+
+134
+0:08:12.6,000 --> 0:08:16,000
+Sin embargo, en 2007 no era tan evidente.
+
+135
+0:08:16.71,000 --> 0:08:19,000
+Estuvimos solos en este viaje por un buen rato.
+
+136
+0:08:20.588,000 --> 0:08:25,000
+Algunos colegas me sugerían hacer algo más útil para mi cátedra,
+
+137
+0:08:25.591,000 --> 0:08:29,000
+y con frecuencia teníamos problemas para conseguir financiamiento.
+
+138
+0:08:29.933,000 --> 0:08:31,000
+Incluso llegué a decir a mis alumnos, como broma,
+
+139
+0:08:32.418,000 --> 0:08:36,000
+que tendría que reabrir mi tintorería para financiar ImageNet.
+
+140
+0:08:36.481,000 --> 0:08:4,000
+Después de todo, así fue como financié mis años de universidad.
+
+141
+0:08:41.242,000 --> 0:08:42,000
+Seguimos adelante.
+
+142
+0:08:43.098,000 --> 0:08:46,000
+En 2009, el proyecto ImageNet juntó
+
+143
+0:08:46.813,000 --> 0:08:5,000
+una base de datos con 15 millones de imágenes
+
+144
+0:08:50.855,000 --> 0:08:54,000
+de 22 000 tipos de objetos
+
+145
+0:08:55.659,000 --> 0:08:58,000
+organizados por palabra en inglés de uso cotidiano.
+
+146
+0:08:58.98,000 --> 0:09:,000
+En cantidad y calidad,
+
+147
+0:09:01.906,000 --> 0:09:03,000
+tuvieron una escala sin precedentes.
+
+148
+0:09:04.878,000 --> 0:09:07,000
+Por ejemplo, en el caso de los gatos,
+
+149
+0:09:08.339,000 --> 0:09:1,000
+tenemos más de 62 000 gatos
+
+150
+0:09:11.148,000 --> 0:09:15,000
+con todo tipo de apariencias y poses
+
+151
+0:09:15.258,000 --> 0:09:2,000
+y todo tipo de gatos domésticos y salvajes.
+
+152
+0:09:20.481,000 --> 0:09:23,000
+Estábamos entusiasmados por haber creado ImageNet
+
+153
+0:09:23.825,000 --> 0:09:26,000
+y queríamos que todo el mundo de la investigación se beneficiara,
+
+154
+0:09:27.563,000 --> 0:09:31,000
+así que, al estilo TED, abrimos toda la base de datos
+
+155
+0:09:31.604,000 --> 0:09:34,000
+a la comunidad mundial de investigadores de forma gratuita.
+
+156
+0:09:36.636,000 --> 0:09:4,000
+(Aplausos)
+
+157
+0:09:41.416,000 --> 0:09:45,000
+Ahora que tenemos los datos para nutrir el cerebro de nuestra computadora,
+
+158
+0:09:45.954,000 --> 0:09:48,000
+estamos listos para volver a los algoritmos.
+
+159
+0:09:49.691,000 --> 0:09:54,000
+La abundancia de información aportada por ImageNet
+
+160
+0:09:54.869,000 --> 0:09:58,000
+fue el complemento perfecto para un tipo particular de algoritmos
+
+161
+0:09:59.675,000 --> 0:10:01,000
+de aprendizaje automático llamado red neuronal convolucional,
+
+162
+0:10:02.09,000 --> 0:10:07,000
+ideado por Kunihiko Fukushima, Geoff Hinton y Yann LeCun
+
+163
+0:10:07.338,000 --> 0:10:1,000
+en los años 70 y 80.
+
+164
+0:10:10.983,000 --> 0:10:15,000
+Como el cerebro que tiene miles de millones de neuronas muy bien conectadas,
+
+165
+0:10:16.602,000 --> 0:10:19,000
+la unidad operativa fundamental en una red neuronal
+
+166
+0:10:20.456,000 --> 0:10:22,000
+es un nodo con forma de neurona.
+
+167
+0:10:22.871,000 --> 0:10:24,000
+Toma datos de otros nodos
+
+168
+0:10:25.425,000 --> 0:10:27,000
+los procesa y los manda a otros nodos.
+
+169
+0:10:28.143,000 --> 0:10:32,000
+Además, estos cientos de miles o incluso millones de nodos
+
+170
+0:10:32.856,000 --> 0:10:35,000
+se organizan en capas jerárquicas,
+
+171
+0:10:36.083,000 --> 0:10:38,000
+algo parecido al cerebro.
+
+172
+0:10:38.637,000 --> 0:10:4,000
+En una red neuronal típica que usamos para entrenar
+
+173
+0:10:41.291,000 --> 0:10:43,000
+nuestro modelo de reconocimiento de objetos
+
+174
+0:10:43.945,000 --> 0:10:45,000
+hay 24 millones de nodos,
+
+175
+0:10:46.601,000 --> 0:10:49,000
+140 millones de parámetros
+
+176
+0:10:49.898,000 --> 0:10:51,000
+y 15 000 millones de conexiones.
+
+177
+0:10:52.661,000 --> 0:10:54,000
+Es un modelo enorme.
+
+178
+0:10:55.076,000 --> 0:10:58,000
+Alimentado por la información masiva de ImageNet
+
+179
+0:10:58.977,000 --> 0:11:03,000
+y las CPUs y GPUs modernas que entrenan este inmenso modelo,
+
+180
+0:11:04.41,000 --> 0:11:06,000
+la red neuronal convolucional
+
+181
+0:11:06.779,000 --> 0:11:09,000
+tuvo un éxito inesperado.
+
+182
+0:11:10.215,000 --> 0:11:12,000
+Se volvió la ingeniería ganadora
+
+183
+0:11:12.723,000 --> 0:11:17,000
+para generar nuevos y emocionantes resultados en reconocimiento de objetos.
+
+184
+0:11:18.063,000 --> 0:11:2,000
+Esta es una computadora que nos dice
+
+185
+0:11:20.873,000 --> 0:11:22,000
+que la foto tiene un gato
+
+186
+0:11:23.173,000 --> 0:11:24,000
+y dónde está el gato.
+
+187
+0:11:25.076,000 --> 0:11:27,000
+Desde luego hay más cosas aparte de los gatos
+
+188
+0:11:27.188,000 --> 0:11:29,000
+así que hay un algoritmo informático que nos dice
+
+189
+0:11:29.626,000 --> 0:11:32,000
+que hay un niño y un oso de peluche en la foto;
+
+190
+0:11:32.9,000 --> 0:11:36,000
+un perro, una persona y un papalote al fondo;
+
+191
+0:11:37.266,000 --> 0:11:4,000
+o una foto de cosas muy ocupadas
+
+192
+0:11:40.401,000 --> 0:11:44,000
+como un hombre, una patineta, un barandal, una lámpara etc.
+
+193
+0:11:45.045,000 --> 0:11:5,000
+A veces, cuando la computadora no está segura de lo que ve,
+
+194
+0:11:51.498,000 --> 0:11:53,000
+le hemos enseñado
+
+195
+0:11:53.774,000 --> 0:11:56,000
+a darnos una respuesta segura en lugar de comprometer su respuesta,
+
+196
+0:11:57.652,000 --> 0:11:59,000
+tal como lo haríamos nosotros.
+
+197
+0:12:00.463,000 --> 0:12:04,000
+Pero otras veces nuestro algoritmo informático es muy acertado al decirnos
+
+198
+0:12:05.129,000 --> 0:12:07,000
+qué son los objetos exactamente,
+
+199
+0:12:07.382,000 --> 0:12:1,000
+como la marca, modelo y año de los coches.
+
+200
+0:12:10.818,000 --> 0:12:15,000
+Aplicamos este algoritmo a millones de imágenes de Google Street View
+
+201
+0:12:16.204,000 --> 0:12:19,000
+de cientos de ciudades de Estados Unidos
+
+202
+0:12:19.339,000 --> 0:12:21,000
+y hemos aprendido algo muy interesante:
+
+203
+0:12:22.265,000 --> 0:12:25,000
+primero, confirmó nuestra idea
+
+204
+0:12:25.585,000 --> 0:12:28,000
+de que los precios de los autos se relacionan bien
+
+205
+0:12:28.875,000 --> 0:12:3,000
+con los ingresos del hogar.
+
+206
+0:12:31.22,000 --> 0:12:35,000
+Pero sorprendentemente, los precios de los autos se relacionan también
+
+207
+0:12:35.747,000 --> 0:12:37,000
+con las tasas de criminalidad en la ciudades
+
+208
+0:12:39.007,000 --> 0:12:42,000
+o los patrones de votación por código postal.
+
+209
+0:12:44.06,000 --> 0:12:46,000
+Un minuto. ¿Eso es todo?
+
+210
+0:12:46.266,000 --> 0:12:51,000
+¿Acaso la computadora ya sobrepasó las capacidades humanas?
+
+211
+0:12:51.419,000 --> 0:12:53,000
+No tan rápido.
+
+212
+0:12:53.557,000 --> 0:12:57,000
+Hasta ahora solo hemos enseñado a la computadora a ver objetos.
+
+213
+0:12:58.48,000 --> 0:13:02,000
+Es como un niño pequeño que aprende a decir palabras.
+
+214
+0:13:03.124,000 --> 0:13:05,000
+Es un logro increíble,
+
+215
+0:13:05.794,000 --> 0:13:07,000
+pero es apenas el primer paso.
+
+216
+0:13:08.254,000 --> 0:13:11,000
+Pronto daremos otro paso
+
+217
+0:13:12.016,000 --> 0:13:15,000
+y los niños empiezan a comunicarse con frases.
+
+218
+0:13:15.477,000 --> 0:13:19,000
+Así que en lugar de decir que hay un gato en la foto,
+
+219
+0:13:19.701,000 --> 0:13:24,000
+la niña ya dice que el gato está sobre la cama.
+
+220
+0:13:24.903,000 --> 0:13:29,000
+Así que para enseñar a una computadora a ver una foto y generar frases
+
+221
+0:13:30.498,000 --> 0:13:33,000
+la conjunción de mucha información y el algoritmo de aprendizaje automático
+
+222
+0:13:34.446,000 --> 0:13:36,000
+debe dar otro paso.
+
+223
+0:13:36.721,000 --> 0:13:4,000
+Ahora, la computadora tiene que aprender de fotografías
+
+224
+0:13:40.877,000 --> 0:13:42,000
+así como de frases en lenguaje natural
+
+225
+0:13:43.733,000 --> 0:13:46,000
+generado por humanos.
+
+226
+0:13:47.055,000 --> 0:13:5,000
+De la forma en que el cerebro integra visión y lenguaje,
+
+227
+0:13:50.908,000 --> 0:13:55,000
+desarrollamos un modelo que conecta partes de cosas visuales
+
+228
+0:13:56.109,000 --> 0:13:57,000
+como fragmentos visuales
+
+229
+0:13:58.013,000 --> 0:14:02,000
+con palabras y frases en oraciones.
+
+230
+0:14:02.216,000 --> 0:14:04,000
+Hace unos 4 meses
+
+231
+0:14:04.979,000 --> 0:14:06,000
+finalmente juntamos todo esto
+
+232
+0:14:07.626,000 --> 0:14:1,000
+y produjimos uno de los primeros modelos de visión artificial
+
+233
+0:14:11.41,000 --> 0:14:14,000
+que puede generar frases como las de un humano
+
+234
+0:14:15.404,000 --> 0:14:18,000
+cuando ve una foto por primera vez.
+
+235
+0:14:18.91,000 --> 0:14:22,000
+Ahora estoy lista para mostrarles lo que dice la computadora
+
+236
+0:14:23.554,000 --> 0:14:24,000
+cuando ve la fotografía
+
+237
+0:14:25.529,000 --> 0:14:28,000
+que la niña vio al inicio de esta charla.
+
+238
+0:14:31.519,000 --> 0:14:34,000
+(Video) Computadora: Un hombre está junto a un elefante.
+
+239
+0:14:36.393,000 --> 0:14:39,000
+Un avión grande está encima de una pista de aeropuerto.
+
+240
+0:14:41.057,000 --> 0:14:45,000
+FFL: Desde luego, seguimos trabajando para mejorar los algoritmos
+
+241
+0:14:45.269,000 --> 0:14:47,000
+y aún tiene mucho que aprender.
+
+242
+0:14:47.865,000 --> 0:14:49,000
+(Aplausos)
+
+243
+0:14:51.556,000 --> 0:14:54,000
+Y la computadora aún comete errores.
+
+244
+0:14:54.877,000 --> 0:14:57,000
+(Video) Computadora: Un gato recostado en la cama en una sábana.
+
+245
+0:14:58.268,000 --> 0:15:,000
+FFL: Y cuando ha visto demasiados gatos,
+
+246
+0:15:00.821,000 --> 0:15:02,000
+cree que todo lo que ve parece un gato.
+
+247
+0:15:05.317,000 --> 0:15:07,000
+(Video) Computadora: Un niño tiene un bate de béisbol.
+
+248
+0:15:08.181,000 --> 0:15:09,000
+(Risas)
+
+249
+0:15:09.946,000 --> 0:15:11,000
+FFL: O si nunca ha visto un cepillo de dientes,
+
+250
+0:15:12.578,000 --> 0:15:14,000
+lo confunde con un bate de béisbol.
+
+251
+0:15:15.5,000 --> 0:15:18,000
+(Video) Computadora: Un hombre montando un caballo junto a un edificio.
+
+252
+0:15:18.743,000 --> 0:15:2,000
+(Risas)
+
+253
+0:15:20.766,000 --> 0:15:23,000
+FFL: No le hemos enseñado arte elemental a las computadoras.
+
+254
+0:15:25.768,000 --> 0:15:27,000
+(Video) Computadora: Una cebra en un campo de hierba.
+
+255
+0:15:28.652,000 --> 0:15:31,000
+FFL: Y no ha aprendido a apreciar la belleza deslumbrante
+
+256
+0:15:32.019,000 --> 0:15:34,000
+de la naturaleza, como lo hacemos nosotros.
+
+257
+0:15:34.457,000 --> 0:15:36,000
+Así que ha sido un largo camino.
+
+258
+0:15:37.289,000 --> 0:15:41,000
+Pasar de los 0 a los 3 años fue difícil.
+
+259
+0:15:41.515,000 --> 0:15:46,000
+El verdadero reto es llegar a los 13 y mucho más todavía.
+
+260
+0:15:47.111,000 --> 0:15:51,000
+Recordemos nuevamente esta foto del niño y el pastel.
+
+261
+0:15:51.476,000 --> 0:15:55,000
+Hasta ahora, le hemos enseñado a la computadora a ver objetos
+
+262
+0:15:55.54,000 --> 0:15:59,000
+o incluso darnos una pequeña historia cuando ve la foto.
+
+263
+0:15:59.998,000 --> 0:16:02,000
+(Video) Computadora: Una persona sentada a la mesa con un pastel.
+
+264
+0:16:03.574,000 --> 0:16:05,000
+FFL: Pero hay mucho más en esta fotografía
+
+265
+0:16:06.204,000 --> 0:16:08,000
+que simplemente una persona y un pastel.
+
+266
+0:16:08.474,000 --> 0:16:12,000
+Lo que la computadora no ve es que este es un pastel especial italiano
+
+267
+0:16:12.941,000 --> 0:16:15,000
+exclusivo de Pascua.
+
+268
+0:16:16.158,000 --> 0:16:19,000
+El niño viste su camiseta favorita,
+
+269
+0:16:19.363,000 --> 0:16:22,000
+que le regaló su papá tras un viaje a Sídney,
+
+270
+0:16:23.333,000 --> 0:16:26,000
+y nosotros podemos decir qué tan feliz está
+
+271
+0:16:27.141,000 --> 0:16:3,000
+y qué pasa por su mente en ese momento.
+
+272
+0:16:31.214,000 --> 0:16:34,000
+Ese es mi hijo Leo.
+
+273
+0:16:34.339,000 --> 0:16:36,000
+En mi búsqueda de inteligencia visual,
+
+274
+0:16:36.963,000 --> 0:16:38,000
+pienso constantemente en él
+
+275
+0:16:39.354,000 --> 0:16:41,000
+y en el futuro en que va a vivir.
+
+276
+0:16:42.257,000 --> 0:16:44,000
+Cuando las máquinas puedan ver,
+
+277
+0:16:44.278,000 --> 0:16:48,000
+los médicos y enfermeras tendrán un par extra de ojos incansables
+
+278
+0:16:48.99,000 --> 0:16:52,000
+para ayudarlos a diagnosticar y cuidar de los pacientes.
+
+279
+0:16:53.082,000 --> 0:16:57,000
+Los autos andarán de forma inteligente y segura en los caminos.
+
+280
+0:16:57.465,000 --> 0:16:59,000
+Robots, y no solo humanos,
+
+281
+0:17:00.159,000 --> 0:17:04,000
+nos ayudarán a desafiar zonas de desastre para salvar heridos y atrapados.
+
+282
+0:17:05.798,000 --> 0:17:08,000
+Descubriremos nuevas especies, mejores materiales,
+
+283
+0:17:09.594,000 --> 0:17:13,000
+y exploraremos fronteras nunca vistas con ayuda de las máquinas.
+
+284
+0:17:15.113,000 --> 0:17:19,000
+Poco a poco, damos a las máquinas el don de la vista.
+
+285
+0:17:19.28,000 --> 0:17:21,000
+Primero les enseñamos a ver.
+
+286
+0:17:22.078,000 --> 0:17:24,000
+Luego ellas nos ayudarán a ver mejor.
+
+287
+0:17:24.84,000 --> 0:17:28,000
+Por primera vez, los ojos humanos no serán los únicos
+
+288
+0:17:29.006,000 --> 0:17:31,000
+que exploren nuestro mundo.
+
+289
+0:17:31.94,000 --> 0:17:34,000
+No solo usaremos máquinas por su inteligencia,
+
+290
+0:17:35.4,000 --> 0:17:41,000
+también colaboraremos con ellas de formas que ni siquiera imaginamos.
+
+291
+0:17:41.579,000 --> 0:17:43,000
+Esta es mi misión:
+
+292
+0:17:43.74,000 --> 0:17:45,000
+dar a las computadoras inteligencia visual
+
+293
+0:17:46.452,000 --> 0:17:51,000
+y crear un mejor futuro para Leo y para el mundo.
+
+294
+0:17:51.583,000 --> 0:17:52,000
+Gracias.
+
+295
+0:17:53.394,000 --> 0:17:56,000
+(Aplausos)
+

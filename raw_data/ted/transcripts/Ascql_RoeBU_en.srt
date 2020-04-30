@@ -1,0 +1,1196 @@
+1
+0:00:12.16,000 --> 0:00:17,000
+I want you to imagine that you're a student in my lab.
+
+2
+0:00:17.16,000 --> 0:00:21,000
+What I want you to do is to create a biologically inspired design.
+
+3
+0:00:21.16,000 --> 0:00:23,000
+And so here's the challenge:
+
+4
+0:00:23.16,000 --> 0:00:29,000
+I want you to help me create a fully 3D, dynamic, parameterized contact model.
+
+5
+0:00:29.16,000 --> 0:00:33,000
+The translation of that is, could you help me build a foot?
+
+6
+0:00:33.16,000 --> 0:00:35,000
+And it is a true challenge, and I do want you to help me.
+
+7
+0:00:35.16,000 --> 0:00:37,000
+Of course, in the challenge there is a prize.
+
+8
+0:00:37.16,000 --> 0:00:44,000
+It's not quite the TED Prize, but it is an exclusive t-shirt from our lab.
+
+9
+0:00:44.16,000 --> 0:00:5,000
+So please send me your ideas about how to design a foot.
+
+10
+0:00:50.16,000 --> 0:00:54,000
+Now if we want to design a foot, what do we have to do?
+
+11
+0:00:54.16,000 --> 0:00:57,000
+We have to first know what a foot is.
+
+12
+0:00:57.16,000 --> 0:01:,000
+If we go to the dictionary, it says, "It's the lower extremity of a leg
+
+13
+0:01:00.16,000 --> 0:01:02,000
+that is in direct contact with the ground in standing or walking"
+
+14
+0:01:02.16,000 --> 0:01:03,000
+That's the traditional definition.
+
+15
+0:01:03.16,000 --> 0:01:06,000
+But if you wanted to really do research, what do you have to do?
+
+16
+0:01:06.16,000 --> 0:01:09,000
+You have to go to the literature and look up what's known about feet.
+
+17
+0:01:09.16,000 --> 0:01:11,000
+So you go to the literature. (Laughter)
+
+18
+0:01:12.16,000 --> 0:01:14,000
+Maybe you're familiar with this literature.
+
+19
+0:01:14.16,000 --> 0:01:17,000
+The problem is, there are many, many feet.
+
+20
+0:01:17.16,000 --> 0:01:18,000
+How do you do this?
+
+21
+0:01:18.16,000 --> 0:01:23,000
+You need to survey all feet and extract the principles of how they work.
+
+22
+0:01:23.16,000 --> 0:01:25,000
+And I want you to help me do that in this next clip.
+
+23
+0:01:25.16,000 --> 0:01:28,000
+As you see this clip, look for principles,
+
+24
+0:01:28.16,000 --> 0:01:31,000
+and also think about experiments that you might design
+
+25
+0:01:31.16,000 --> 0:01:35,000
+in order to understand how a foot works.
+
+26
+0:01:44.16,000 --> 0:01:46,000
+See any common themes? Principles?
+
+27
+0:01:46.16,000 --> 0:01:49,000
+What would you do?
+
+28
+0:01:59.16,000 --> 0:02:01,000
+What experiments would you run?
+
+29
+0:03:31.16,000 --> 0:03:37,000
+Wow. (Applause)
+
+30
+0:03:37.16,000 --> 0:03:4,000
+Our research on the biomechanics of animal locomotion
+
+31
+0:03:40.16,000 --> 0:03:42,000
+has allowed us to make a blueprint for a foot.
+
+32
+0:03:42.16,000 --> 0:03:48,000
+It's a design inspired by nature, but it's not a copy of any specific foot you just looked at,
+
+33
+0:03:48.16,000 --> 0:03:52,000
+but it's a synthesis of the secrets of many, many feet.
+
+34
+0:03:52.16,000 --> 0:03:55,000
+Now it turns out that animals can go anywhere.
+
+35
+0:03:55.16,000 --> 0:03:57,000
+They can locomote on substrates that vary as you saw --
+
+36
+0:03:57.16,000 --> 0:04:01,000
+in the probability of contact, the movement of that surface
+
+37
+0:04:01.16,000 --> 0:04:04,000
+and the type of footholds that are present.
+
+38
+0:04:04.16,000 --> 0:04:06,000
+If you want to study how a foot works,
+
+39
+0:04:06.16,000 --> 0:04:1,000
+we're going to have to simulate those surfaces, or simulate that debris.
+
+40
+0:04:10.16,000 --> 0:04:15,000
+When we did that, here's a new experiment that we did:
+
+41
+0:04:15.16,000 --> 0:04:17,000
+we put an animal and had it run -- this grass spider --
+
+42
+0:04:17.16,000 --> 0:04:2,000
+on a surface with 99 percent of the contact area removed.
+
+43
+0:04:20.16,000 --> 0:04:22,000
+But it didn't even slow down the animal.
+
+44
+0:04:22.16,000 --> 0:04:25,000
+It's still running at the human equivalent of 300 miles per hour.
+
+45
+0:04:25.16,000 --> 0:04:28,000
+Now how could it do that? Well, look more carefully.
+
+46
+0:04:28.16,000 --> 0:04:34,000
+When we slow it down 50 times we see how the leg is hitting that simulated debris.
+
+47
+0:04:34.16,000 --> 0:04:36,000
+The leg is acting as a foot.
+
+48
+0:04:36.16,000 --> 0:04:39,000
+And in fact, the animal contacts other parts of its leg
+
+49
+0:04:39.16,000 --> 0:04:42,000
+more frequently than the traditionally defined foot.
+
+50
+0:04:42.16,000 --> 0:04:46,000
+The foot is distributed along the whole leg.
+
+51
+0:04:46.16,000 --> 0:04:5,000
+You can do another experiment where you can take a cockroach with a foot,
+
+52
+0:04:50.16,000 --> 0:04:52,000
+and you can remove its foot.
+
+53
+0:04:52.16,000 --> 0:04:56,000
+I'm passing some cockroaches around. Take a look at their feet.
+
+54
+0:04:56.16,000 --> 0:05:,000
+Without a foot, here's what it does. It doesn't even slow down.
+
+55
+0:05:00.16,000 --> 0:05:03,000
+It can run the same speed without even that segment.
+
+56
+0:05:03.16,000 --> 0:05:06,000
+No problem for the cockroach -- they can grow them back, if you care.
+
+57
+0:05:06.16,000 --> 0:05:08,000
+How do they do it?
+
+58
+0:05:08.16,000 --> 0:05:11,000
+Look carefully: this is slowed down 100 times,
+
+59
+0:05:11.16,000 --> 0:05:14,000
+and watch what it's doing with the rest of its leg.
+
+60
+0:05:14.16,000 --> 0:05:17,000
+It's acting, again, as a distributed foot --
+
+61
+0:05:17.16,000 --> 0:05:19,000
+very effective.
+
+62
+0:05:19.16,000 --> 0:05:24,000
+Now, the question we had is, how general is a distributed foot?
+
+63
+0:05:24.16,000 --> 0:05:33,000
+And the next behavior I'll show you of this animal just stunned us the first time that we saw it.
+
+64
+0:05:33.16,000 --> 0:05:38,000
+Journalists, this is off the record; it's embargoed.
+
+65
+0:05:38.16,000 --> 0:05:4,000
+Take a look at what that is!
+
+66
+0:05:40.16,000 --> 0:05:47,000
+That's a bipedal octopus that's disguised as a rolling coconut.
+
+67
+0:05:47.16,000 --> 0:05:51,000
+It was discovered by Christina Huffard
+
+68
+0:05:51.16,000 --> 0:05:54,000
+and filmed by Sea Studios, right here from Monterey.
+
+69
+0:05:56.16,000 --> 0:06:01,000
+We've also described another species of bipedal octopus.
+
+70
+0:06:01.16,000 --> 0:06:04,000
+This one disguises itself as floating algae.
+
+71
+0:06:04.16,000 --> 0:06:09,000
+It walks on two legs and it holds the other arms up in the air so that it can't be seen.
+
+72
+0:06:09.16,000 --> 0:06:1,000
+(Applause)
+
+73
+0:06:10.16,000 --> 0:06:18,000
+And look what it does with its foot to get over challenging terrain.
+
+74
+0:06:18.16,000 --> 0:06:29,000
+It uses that beautiful distributed foot to make it as if those obstacles are not even there --
+
+75
+0:06:29.16,000 --> 0:06:31,000
+truly extraordinary.
+
+76
+0:06:33.16,000 --> 0:06:37,000
+In 1951, Escher made this drawing. He thought he created an animal fantasy.
+
+77
+0:06:38.16,000 --> 0:06:4,000
+But we know that art imitates life,
+
+78
+0:06:40.16,000 --> 0:06:43,000
+and it turns out nature, three million years ago, evolved the next animal.
+
+79
+0:06:43.16,000 --> 0:06:45,000
+It's a shrimp-like animal called the stomatopod,
+
+80
+0:06:45.16,000 --> 0:06:49,000
+and here's how it moves on the beaches of Panama:
+
+81
+0:06:49.16,000 --> 0:06:53,000
+it actually rolls, and it can even roll uphill.
+
+82
+0:06:53.16,000 --> 0:07:01,000
+It's the ultimate distributed foot: its whole body in this case is acting like its foot.
+
+83
+0:07:03.16,000 --> 0:07:08,000
+So, if we want to then, to our blueprint, add the first important feature,
+
+84
+0:07:08.16,000 --> 0:07:1,000
+we want to add distributed foot contact.
+
+85
+0:07:10.16,000 --> 0:07:13,000
+Not just with the traditional foot, but also the leg,
+
+86
+0:07:13.16,000 --> 0:07:14,000
+and even of the body.
+
+87
+0:07:14.16,000 --> 0:07:18,000
+Can this help us inspire the design of novel robots?
+
+88
+0:07:18.16,000 --> 0:07:21,000
+We biologically inspired this robot, named RHex,
+
+89
+0:07:21.16,000 --> 0:07:25,000
+built by these extraordinary engineers over the last few years.
+
+90
+0:07:25.16,000 --> 0:07:28,000
+RHex's foot started off to be quite simple,
+
+91
+0:07:28.16,000 --> 0:07:33,000
+then it got tuned over time, and ultimately resulted in this half circle.
+
+92
+0:07:33.16,000 --> 0:07:35,000
+Why is that? The video will show you.
+
+93
+0:07:35.16,000 --> 0:07:42,000
+Watch where the robot, now, contacts its leg in order to deal with this very difficult terrain.
+
+94
+0:07:42.16,000 --> 0:07:48,000
+What you'll see, in fact, is that it's using that half circle leg as a distributed foot.
+
+95
+0:07:48.16,000 --> 0:07:5,000
+Watch it go over this.
+
+96
+0:07:50.16,000 --> 0:07:52,000
+You can see it here well on this debris.
+
+97
+0:07:53.16,000 --> 0:07:59,000
+Extraordinary. No sensing, all the control is built right into the tuned legs.
+
+98
+0:07:59.16,000 --> 0:08:01,000
+Really simple, but beautiful.
+
+99
+0:08:01.16,000 --> 0:08:04,000
+Now, you might have noticed something else about the animals
+
+100
+0:08:04.16,000 --> 0:08:06,000
+when they were running over the rough terrain.
+
+101
+0:08:06.16,000 --> 0:08:08,000
+And my assistant's going to help me here.
+
+102
+0:08:08.16,000 --> 0:08:12,000
+When you touched the cockroach leg -- can you get the microphone for him?
+
+103
+0:08:12.16,000 --> 0:08:15,000
+When you touched the cockroach leg, what did it feel like?
+
+104
+0:08:15.16,000 --> 0:08:17,000
+Did you notice something?
+
+105
+0:08:17.16,000 --> 0:08:18,000
+Boy: Spiny.
+
+106
+0:08:18.16,000 --> 0:08:22,000
+Robert Full: It's spiny, right? It's really spiny, isn't it? It sort of hurts.
+
+107
+0:08:22.16,000 --> 0:08:28,000
+Maybe we could give it to our curator and see if he'd be brave enough to touch the cockroach.
+
+108
+0:08:28.16,000 --> 0:08:29,000
+(Laughter)
+
+109
+0:08:29.16,000 --> 0:08:3,000
+Chris Anderson: Did you touch it?
+
+110
+0:08:30.16,000 --> 0:08:33,000
+RF: So if you look carefully at this, what you see is that they have spines
+
+111
+0:08:33.16,000 --> 0:08:36,000
+and until a few weeks ago, no one knew what they did.
+
+112
+0:08:36.16,000 --> 0:08:39,000
+They assumed that they were for protection and for sensory structures.
+
+113
+0:08:39.16,000 --> 0:08:43,000
+We found that they're for something else -- here's a segment of that spine.
+
+114
+0:08:43.16,000 --> 0:08:46,000
+They're tuned such that they easily collapse in one direction
+
+115
+0:08:46.16,000 --> 0:08:48,000
+to pull the leg out from debris,
+
+116
+0:08:48.16,000 --> 0:08:54,000
+but they're stiff in the other direction so they capture disparities in the surface.
+
+117
+0:08:54.16,000 --> 0:08:57,000
+Now crabs don't miss footholds, because they normally move on sand --
+
+118
+0:08:57.16,000 --> 0:08:58,000
+until they come to our lab.
+
+119
+0:08:59.16,000 --> 0:09:02,000
+And where they have a problem with this kind of mesh,
+
+120
+0:09:02.16,000 --> 0:09:04,000
+because they don't have spines.
+
+121
+0:09:05.16,000 --> 0:09:08,000
+The crabs are missing spines, so they have a problem in this kind of rough terrain.
+
+122
+0:09:08.16,000 --> 0:09:11,000
+But of course, we can deal with that
+
+123
+0:09:11.16,000 --> 0:09:14,000
+because we can produce artificial spines.
+
+124
+0:09:15.16,000 --> 0:09:18,000
+We can make spines that catch on simulated debris
+
+125
+0:09:18.16,000 --> 0:09:21,000
+and collapse on removal to easily pull them out.
+
+126
+0:09:21.16,000 --> 0:09:24,000
+We did that by putting these artificial spines on crabs,
+
+127
+0:09:24.16,000 --> 0:09:26,000
+as you see here, and then we tested them.
+
+128
+0:09:26.16,000 --> 0:09:3,000
+Do we really understand that principle of tuning? The answer is, yes!
+
+129
+0:09:30.16,000 --> 0:09:35,000
+This is slowed down 20-fold, and the crab just zooms across that simulated debris.
+
+130
+0:09:35.16,000 --> 0:09:37,000
+(Laughter) (Applause)
+
+131
+0:09:37.16,000 --> 0:09:39,000
+A little better than nature.
+
+132
+0:09:40.16,000 --> 0:09:43,000
+So to our blueprint, we need to add tuned spines.
+
+133
+0:09:43.16,000 --> 0:09:48,000
+Now will this help us think about the design of more effective climbing robots?
+
+134
+0:09:48.16,000 --> 0:09:53,000
+Well, here's RHex: RHex has trouble on rails -- on smooth rails, as you see here.
+
+135
+0:09:53.16,000 --> 0:09:57,000
+So why not add a spine? My colleagues did this at U. Penn.
+
+136
+0:09:57.16,000 --> 0:10:01,000
+Dan Koditschek put some steel nails -- very simple version -- on the robot,
+
+137
+0:10:01.16,000 --> 0:10:07,000
+and here's RHex, now, going over those steel -- those rails. No problem!
+
+138
+0:10:07.16,000 --> 0:10:08,000
+How does it do it?
+
+139
+0:10:08.16,000 --> 0:10:1,000
+Let's slow it down and you can see the spines in action.
+
+140
+0:10:10.16,000 --> 0:10:13,000
+Watch the leg come around, and you'll see it grab on right there.
+
+141
+0:10:13.16,000 --> 0:10:16,000
+It couldn't do that before; it would just slip and get stuck and tip over.
+
+142
+0:10:16.16,000 --> 0:10:2,000
+And watch again, right there -- successful.
+
+143
+0:10:20.16,000 --> 0:10:23,000
+Now just because we have a distributed foot and spines
+
+144
+0:10:23.16,000 --> 0:10:25,000
+doesn't mean you can climb vertical surfaces.
+
+145
+0:10:26.16,000 --> 0:10:28,000
+This is really, really difficult.
+
+146
+0:10:28.16,000 --> 0:10:3,000
+But look at this animal do it!
+
+147
+0:10:30.16,000 --> 0:10:36,000
+One of the ones I'm passing around is climbing up this vertical surface that's a smooth metal plate.
+
+148
+0:10:36.16,000 --> 0:10:38,000
+It's extraordinary how fast it can do it --
+
+149
+0:10:38.16,000 --> 0:10:42,000
+but if you slow it down, you see something that's quite extraordinary.
+
+150
+0:10:42.16,000 --> 0:10:46,000
+It's a secret. The animal effectively climbs by slipping and look --
+
+151
+0:10:46.16,000 --> 0:10:5,000
+and doing, actually, terribly, with respect to grabbing on the surface.
+
+152
+0:10:50.16,000 --> 0:10:53,000
+It looks, in fact, like it's swimming up the surface.
+
+153
+0:10:53.16,000 --> 0:10:57,000
+We can actually model that behavior better as a fluid, if you look at it.
+
+154
+0:10:57.16,000 --> 0:11:01,000
+The distributed foot, actually, is working more like a paddle.
+
+155
+0:11:01.16,000 --> 0:11:05,000
+The same is true when we looked at this lizard running on fluidized sand.
+
+156
+0:11:05.16,000 --> 0:11:07,000
+Watch its feet.
+
+157
+0:11:07.16,000 --> 0:11:09,000
+It's actually functioning as a paddle
+
+158
+0:11:09.16,000 --> 0:11:15,000
+even though it's interacting with a surface that we normally think of as a solid.
+
+159
+0:11:15.16,000 --> 0:11:2,000
+This is not different from what my former undergraduate discovered
+
+160
+0:11:20.16,000 --> 0:11:24,000
+when she figured out how lizards can run on water itself.
+
+161
+0:11:25.16,000 --> 0:11:3,000
+Can you use this to make a better robot?
+
+162
+0:11:30.16,000 --> 0:11:33,000
+Martin Buehler did -- who's now at Boston Dynamics --
+
+163
+0:11:33.16,000 --> 0:11:38,000
+he took this idea and made RHex to be Aqua RHex.
+
+164
+0:11:38.16,000 --> 0:11:4,000
+So here's RHex with paddles,
+
+165
+0:11:40.16,000 --> 0:11:45,000
+now converted into an incredibly maneuverable swimming robot.
+
+166
+0:11:46.16,000 --> 0:11:49,000
+For rough surfaces, though, animals add claws.
+
+167
+0:11:49.16,000 --> 0:11:5,000
+And you probably feel them if you grabbed it.
+
+168
+0:11:50.16,000 --> 0:11:51,000
+Did you touch it?
+
+169
+0:11:51.16,000 --> 0:11:52,000
+CA: I did.
+
+170
+0:11:52.16,000 --> 0:11:54,000
+RF: And they do really well at grabbing onto surfaces with these claws.
+
+171
+0:11:54.16,000 --> 0:12:,000
+Mark Cutkosky at Stanford University, one of my collaborators, is an extraordinary engineer
+
+172
+0:12:00.16,000 --> 0:12:03,000
+who developed this technique called Shape Deposition Manufacturing,
+
+173
+0:12:03.16,000 --> 0:12:06,000
+where he can imbed claws right into an artificial foot.
+
+174
+0:12:06.16,000 --> 0:12:11,000
+And here's the simple version of a foot for a new robot that I'll show you in a bit.
+
+175
+0:12:11.16,000 --> 0:12:14,000
+So to our blueprint, let's attach claws.
+
+176
+0:12:14.16,000 --> 0:12:17,000
+Now if we look at animals, though, to be really maneuverable in all surfaces,
+
+177
+0:12:17.16,000 --> 0:12:19,000
+the animals use hybrid mechanisms
+
+178
+0:12:19.16,000 --> 0:12:23,000
+that include claws, and spines, and hairs, and pads, and glue, and capillary adhesion
+
+179
+0:12:23.16,000 --> 0:12:24,000
+and a whole bunch of other things.
+
+180
+0:12:24.16,000 --> 0:12:26,000
+These are all from different insects.
+
+181
+0:12:26.16,000 --> 0:12:28,000
+There's an ant crawling up a vertical surface.
+
+182
+0:12:28.16,000 --> 0:12:29,000
+Let's look at that ant.
+
+183
+0:12:30.16,000 --> 0:12:35,000
+This is the foot of an ant. You see the hairs and the claws and this thing here.
+
+184
+0:12:35.16,000 --> 0:12:37,000
+This is when its foot's in the air.
+
+185
+0:12:37.16,000 --> 0:12:41,000
+Watch what happens when the foot goes onto your sandwich.
+
+186
+0:12:41.16,000 --> 0:12:43,000
+You see what happens?
+
+187
+0:12:43.16,000 --> 0:12:47,000
+That pad comes out. And that's where the glue is.
+
+188
+0:12:48.16,000 --> 0:12:51,000
+Here from underneath is an ant foot,
+
+189
+0:12:51.16,000 --> 0:12:57,000
+and when the claws don't dig in, that pad automatically comes out without the ant doing anything.
+
+190
+0:12:57.16,000 --> 0:12:58,000
+It just extrudes.
+
+191
+0:12:58.16,000 --> 0:13:03,000
+And this was a hard shot to get -- I think this is the shot of the ant foot on the superstrings.
+
+192
+0:13:03.16,000 --> 0:13:04,000
+So it's pretty tough to do.
+
+193
+0:13:04.16,000 --> 0:13:07,000
+This is what it looks like close up --
+
+194
+0:13:07.16,000 --> 0:13:09,000
+here's the ant foot, and there's the glue.
+
+195
+0:13:09.16,000 --> 0:13:13,000
+And we discovered this glue may be an interesting two-phase mixture.
+
+196
+0:13:13.16,000 --> 0:13:15,000
+It certainly helps it to hold on.
+
+197
+0:13:15.16,000 --> 0:13:19,000
+So to our blueprint, we stick on some sticky pads.
+
+198
+0:13:19.16,000 --> 0:13:23,000
+Now you might think for smooth surfaces we get inspiration here.
+
+199
+0:13:23.16,000 --> 0:13:26,000
+Now we have something better here.
+
+200
+0:13:26.16,000 --> 0:13:29,000
+The gecko's a really great example of nanotechnology in nature.
+
+201
+0:13:29.16,000 --> 0:13:31,000
+These are its feet.
+
+202
+0:13:31.16,000 --> 0:13:35,000
+They're -- almost look alien. And the secret, which they stick on with,
+
+203
+0:13:35.16,000 --> 0:13:37,000
+involves their hairy toes.
+
+204
+0:13:37.16,000 --> 0:13:41,000
+They can run up a surface at a meter per second,
+
+205
+0:13:41.16,000 --> 0:13:44,000
+take 30 steps in that one second -- you can hardly see them.
+
+206
+0:13:44.16,000 --> 0:13:47,000
+If we slow it down, they attach their feet at eight milliseconds,
+
+207
+0:13:47.16,000 --> 0:13:5,000
+and detach them in 16 milliseconds.
+
+208
+0:13:50.16,000 --> 0:13:57,000
+And when you watch how they detach it, it is bizarre.
+
+209
+0:13:57.16,000 --> 0:14:02,000
+They peel away from the surface like you'd peel away a piece of tape.
+
+210
+0:14:02.16,000 --> 0:14:05,000
+Very strange. How do they stick?
+
+211
+0:14:05.16,000 --> 0:14:08,000
+If you look at their feet, they have leaf-like structures called linalae
+
+212
+0:14:08.16,000 --> 0:14:09,000
+with millions of hairs.
+
+213
+0:14:09.16,000 --> 0:14:12,000
+And each hair has the worst case of split ends possible.
+
+214
+0:14:12.16,000 --> 0:14:15,000
+It has a hundred to a thousand split ends,
+
+215
+0:14:15.16,000 --> 0:14:18,000
+and that's the secret, because it allows intimate contact.
+
+216
+0:14:18.16,000 --> 0:14:22,000
+The gecko has a billion of these 200-nanometer-sized split ends.
+
+217
+0:14:22.16,000 --> 0:14:27,000
+And they don't stick by glue, or they don't work like Velcro, or they don't work with suction.
+
+218
+0:14:27.16,000 --> 0:14:31,000
+We discovered they work by intermolecular forces alone.
+
+219
+0:14:31.16,000 --> 0:14:35,000
+So to our blueprint, we split some hairs.
+
+220
+0:14:35.16,000 --> 0:14:38,000
+This has inspired the design of the first self-cleaning dry adhesive --
+
+221
+0:14:38.16,000 --> 0:14:4,000
+the patent issued, we're happy to say.
+
+222
+0:14:40.16,000 --> 0:14:43,000
+And here's the simplest version in nature,
+
+223
+0:14:43.16,000 --> 0:14:46,000
+and here's my collaborator Ron Fearing's attempt
+
+224
+0:14:46.16,000 --> 0:14:51,000
+at an artificial version of this dry adhesive made from polyurethane.
+
+225
+0:14:51.16,000 --> 0:14:54,000
+And here's the first attempt to have it work on some load.
+
+226
+0:14:54.16,000 --> 0:14:57,000
+There's enormous interest in this in a variety of different fields.
+
+227
+0:14:57.16,000 --> 0:15:,000
+You could think of a thousand possible uses, I'm sure.
+
+228
+0:15:00.16,000 --> 0:15:05,000
+Lots of people have, and we're excited about realizing this as a product.
+
+229
+0:15:05.16,000 --> 0:15:07,000
+We have imagined products; for example, this one:
+
+230
+0:15:08.16,000 --> 0:15:13,000
+we imagined a bio-inspired Band-Aid, where we took the glue off the Band-Aid.
+
+231
+0:15:13.16,000 --> 0:15:15,000
+We took some hairs from a molting gecko;
+
+232
+0:15:15.16,000 --> 0:15:19,000
+put three rolls of them on here, and then made this Band-Aid.
+
+233
+0:15:19.16,000 --> 0:15:21,000
+This is an undergraduate volunteer --
+
+234
+0:15:21.16,000 --> 0:15:24,000
+we have 30,000 undergraduates so we can choose among them --
+
+235
+0:15:24.16,000 --> 0:15:26,000
+that's actually just a red pen mark.
+
+236
+0:15:26.16,000 --> 0:15:28,000
+But it makes an incredible Band-Aid.
+
+237
+0:15:28.16,000 --> 0:15:36,000
+It's aerated, it can be peeled off easily, it doesn't cause any irritation, it works underwater.
+
+238
+0:15:36.16,000 --> 0:15:41,000
+I think this is an extraordinary example of how curiosity-based research --
+
+239
+0:15:41.16,000 --> 0:15:43,000
+we just wondered how they climbed up something --
+
+240
+0:15:43.16,000 --> 0:15:46,000
+can lead to things that you could never imagine.
+
+241
+0:15:46.16,000 --> 0:15:5,000
+It's just an example of why we need to support curiosity-based research.
+
+242
+0:15:50.16,000 --> 0:15:53,000
+Here you are, pulling off the Band-Aid.
+
+243
+0:15:53.16,000 --> 0:15:57,000
+So we've redefined, now, what a foot is.
+
+244
+0:15:57.16,000 --> 0:15:59,000
+The question is, can we use these secrets, then,
+
+245
+0:15:59.16,000 --> 0:16:02,000
+to inspire the design of a better foot, better than one that we see in nature?
+
+246
+0:16:02.16,000 --> 0:16:04,000
+Here's the new project:
+
+247
+0:16:04.16,000 --> 0:16:1,000
+we're trying to create the first climbing search-and-rescue robot -- no suction or magnets --
+
+248
+0:16:10.16,000 --> 0:16:13,000
+that can only move on limited kinds of surfaces.
+
+249
+0:16:13.16,000 --> 0:16:18,000
+I call the new robot RiSE, for "Robot in Scansorial Environment" -- that's a climbing environment --
+
+250
+0:16:18.16,000 --> 0:16:22,000
+and we have an extraordinary team of biologists and engineers creating this robot.
+
+251
+0:16:22.16,000 --> 0:16:24,000
+And here is RiSE.
+
+252
+0:16:26.16,000 --> 0:16:29,000
+It's six-legged and has a tail. Here it is on a fence and a tree.
+
+253
+0:16:29.16,000 --> 0:16:33,000
+And here are RiSE's first steps on an incline.
+
+254
+0:16:33.16,000 --> 0:16:36,000
+You have the audio? You can hear it go up.
+
+255
+0:16:36.16,000 --> 0:16:42,000
+And here it is coming up at you, in its first steps up a wall.
+
+256
+0:16:42.16,000 --> 0:16:47,000
+Now it's only using its simplest feet here, so this is very new.
+
+257
+0:16:47.16,000 --> 0:16:5,000
+But we think we got the dynamics right of the robot.
+
+258
+0:16:51.16,000 --> 0:16:53,000
+Mark Cutkosky, though, is taking it a step further.
+
+259
+0:16:53.16,000 --> 0:16:58,000
+He's the one able to build this shape-deposition manufactured feet and toes.
+
+260
+0:16:58.16,000 --> 0:17:02,000
+The next step is to make compliant toes,
+
+261
+0:17:02.16,000 --> 0:17:04,000
+and try to add spines and claws and set it for dry adhesives.
+
+262
+0:17:04.16,000 --> 0:17:07,000
+So the idea is to first get the toes and a foot right,
+
+263
+0:17:07.16,000 --> 0:17:1,000
+attempt to make that climb, and ultimately put it on the robot.
+
+264
+0:17:10.16,000 --> 0:17:12,000
+And that's exactly what he's done.
+
+265
+0:17:12.16,000 --> 0:17:17,000
+He's built, in fact, a climbing foot-bot inspired by nature.
+
+266
+0:17:17.16,000 --> 0:17:21,000
+And here's Cutkosky's and his amazing students' design.
+
+267
+0:17:21.16,000 --> 0:17:27,000
+So these are tuned toes -- there are six of them,
+
+268
+0:17:27.16,000 --> 0:17:36,000
+and they use the principles that I just talked about collectively for the blueprint.
+
+269
+0:17:36.16,000 --> 0:17:38,000
+So this is not using any suction, any glue,
+
+270
+0:17:38.16,000 --> 0:17:41,000
+and it will ultimately, when it's attached to the robot --
+
+271
+0:17:41.16,000 --> 0:17:44,000
+it's as biologically inspired as the animal --
+
+272
+0:17:44.16,000 --> 0:17:49,000
+hopefully be able to climb any kind of a surface.
+
+273
+0:17:49.16,000 --> 0:17:54,000
+Here you see it, next, going up the side of a building at Stanford.
+
+274
+0:17:54.16,000 --> 0:17:57,000
+It's sped up -- again, it's a foot climbing.
+
+275
+0:17:57.16,000 --> 0:17:59,000
+It's not the whole robot yet, we're working on it --
+
+276
+0:17:59.16,000 --> 0:18:,000
+now you can see how it's attaching.
+
+277
+0:18:00.16,000 --> 0:18:06,000
+These tuned structures allow the spines, friction pads and ultimately the adhesive hairs
+
+278
+0:18:06.16,000 --> 0:18:09,000
+to grab onto very challenging, difficult surfaces.
+
+279
+0:18:09.16,000 --> 0:18:13,000
+And so they were able to get this thing -- this is now sped up 20 times --
+
+280
+0:18:13.16,000 --> 0:18:17,000
+can you imagine it trying to go up and rescue somebody at that upper floor? OK?
+
+281
+0:18:17.16,000 --> 0:18:19,000
+You can visualize this now; it's not impossible.
+
+282
+0:18:19.16,000 --> 0:18:23,000
+It's a very challenging task. But more to come later.
+
+283
+0:18:23.16,000 --> 0:18:27,000
+To finish: we've gotten design secrets from nature by looking at how feet are built.
+
+284
+0:18:27.16,000 --> 0:18:3,000
+We've learned we should distribute control to smart parts.
+
+285
+0:18:30.16,000 --> 0:18:31,000
+Don't put it all in the brain,
+
+286
+0:18:31.16,000 --> 0:18:35,000
+but put some of the control in tuned feet, legs and even body.
+
+287
+0:18:35.16,000 --> 0:18:38,000
+That nature uses hybrid solutions, not a single solution, to these problems,
+
+288
+0:18:38.16,000 --> 0:18:41,000
+and they're integrated and beautifully robust.
+
+289
+0:18:41.16,000 --> 0:18:49,000
+And third, we believe strongly that we do not want to mimic nature but instead be inspired by biology,
+
+290
+0:18:49.16,000 --> 0:18:53,000
+and use these novel principles with the best engineering solutions that are out there
+
+291
+0:18:53.16,000 --> 0:18:56,000
+to make -- potentially -- something better than nature.
+
+292
+0:18:57.16,000 --> 0:18:59,000
+So there's a clear message:
+
+293
+0:18:59.16,000 --> 0:19:02,000
+whether you care about a fundamental, basic research
+
+294
+0:19:02.16,000 --> 0:19:05,000
+of really interesting, bizarre, wonderful animals,
+
+295
+0:19:05.16,000 --> 0:19:06,000
+or you want to build a search-and-rescue robot
+
+296
+0:19:06.16,000 --> 0:19:09,000
+that can help you in an earthquake, or to save someone in a fire,
+
+297
+0:19:09.16,000 --> 0:19:14,000
+or you care about medicine, we must preserve nature's designs.
+
+298
+0:19:14.16,000 --> 0:19:17,000
+Otherwise these secrets will be lost forever.
+
+299
+0:19:17.16,000 --> 0:19:18,000
+Thank you.
+

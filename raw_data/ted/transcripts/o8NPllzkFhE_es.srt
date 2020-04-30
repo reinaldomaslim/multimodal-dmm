@@ -1,0 +1,1844 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:13.46,000 --> 0:00:15,000
+Chris Anderson: Es una cosa tan curiosa.
+
+3
+0:00:15.659,000 --> 0:00:18,000
+Tu software, Linux, está en millones de computadoras,
+
+4
+0:00:18.841,000 --> 0:00:21,000
+probablemente soporta gran parte de Internet.
+
+5
+0:00:22.412,000 --> 0:00:23,000
+Y creo que hay, como,
+
+6
+0:00:24.199,000 --> 0:00:27,000
+1500 millones de dispositivos Android activos por ahí.
+
+7
+0:00:27.568,000 --> 0:00:29,000
+Tu software está en todos y cada uno de ellos.
+
+8
+0:00:30.808,000 --> 0:00:31,000
+Es un poco sorprendente.
+
+9
+0:00:31.982,000 --> 0:00:36,000
+Debes tener una sorprendente sede de software dirigiendo todo esto.
+
+10
+0:00:37.041,000 --> 0:00:4,000
+Es lo que pensé, y quedé muy sorprendido cuando vi una foto de ello.
+
+11
+0:00:40.371,000 --> 0:00:41,000
+Es decir, es esto...
+
+12
+0:00:41.595,000 --> 0:00:43,000
+esta es la sede mundial de Linux.
+
+13
+0:00:43.869,000 --> 0:00:44,000
+(Risas)
+
+14
+0:00:45.883,000 --> 0:00:49,000
+(Aplausos)
+
+15
+0:00:49.913,000 --> 0:00:51,000
+Linus Torvalds: Realmente no lo parece mucho.
+
+16
+0:00:52.223,000 --> 0:00:53,000
+Y tengo que decir,
+
+17
+0:00:53.923,000 --> 0:00:56,000
+la parte más interesante en esta imagen,
+
+18
+0:00:57.767,000 --> 0:00:58,000
+a lo que las personas reaccionan,
+
+19
+0:00:59.494,000 --> 0:01:,000
+es al escritorio de pie.
+
+20
+0:01:00.961,000 --> 0:01:02,000
+Es la parte más interesante en mi oficina
+
+21
+0:01:03.684,000 --> 0:01:04,000
+y no estoy realmente usándola más.
+
+22
+0:01:05.668,000 --> 0:01:07,000
+Creo que las dos cosas están relacionadas.
+
+23
+0:01:09.206,000 --> 0:01:11,000
+Mi forma de trabajar es...
+
+24
+0:01:13.245,000 --> 0:01:17,000
+No quiero tener estimulación externa.
+
+25
+0:01:18.17,000 --> 0:01:23,000
+Pueden ver más o menos, las paredes son de color verde claro.
+
+26
+0:01:23.461,000 --> 0:01:27,000
+Me han dicho que en las instituciones mentales que utilizan las mismas paredes.
+
+27
+0:01:27.949,000 --> 0:01:28,000
+(Risas)
+
+28
+0:01:29.02,000 --> 0:01:3,000
+Es como un color calmante,
+
+29
+0:01:30.829,000 --> 0:01:33,000
+no es algo que realmente te estimula.
+
+30
+0:01:35.064,000 --> 0:01:39,000
+Lo que no pueden ver es el equipo, solo se ve la pantalla,
+
+31
+0:01:39.513,000 --> 0:01:42,000
+pero lo más me preocupa de mi equipo es...
+
+32
+0:01:42.918,000 --> 0:01:45,000
+no tiene que ser grande y poderoso, aunque me gusta que...
+
+33
+0:01:46.277,000 --> 0:01:48,000
+lo que realmente tiene que ser es completamente silencioso.
+
+34
+0:01:49.975,000 --> 0:01:51,000
+Conozco personas que trabajan para Google
+
+35
+0:01:52.01,000 --> 0:01:55,000
+y tienen su propio pequeño centro de datos en casa,
+
+36
+0:01:55.241,000 --> 0:01:56,000
+y yo no hago eso.
+
+37
+0:01:56.417,000 --> 0:01:59,000
+Mi oficina es la oficina más aburrida que jamás puedan ver.
+
+38
+0:02:00.146,000 --> 0:02:03,000
+Y me siento allí solo en silencio.
+
+39
+0:02:04.136,000 --> 0:02:06,000
+Si el gato se acerca,
+
+40
+0:02:06.197,000 --> 0:02:07,000
+se sienta en mi regazo.
+
+41
+0:02:08.058,000 --> 0:02:1,000
+Y quiero oír el ronroneo del gato,
+
+42
+0:02:10.272,000 --> 0:02:13,000
+no el sonido de los ventiladores del equipo.
+
+43
+0:02:13.47,000 --> 0:02:14,000
+CA: Es sorprendente,
+
+44
+0:02:14.803,000 --> 0:02:16,000
+porque trabajando de esta manera,
+
+45
+0:02:17.505,000 --> 0:02:19,000
+has sido capaz de llevar este vasto imperio de tecnología
+
+46
+0:02:20.517,000 --> 0:02:21,000
+--es un imperio--
+
+47
+0:02:21.762,000 --> 0:02:24,000
+así que eso es un testamento increíble a la potencia del código abierto.
+
+48
+0:02:25.486,000 --> 0:02:29,000
+Cuéntanos cómo has llegado a entender el código abierto
+
+49
+0:02:29.686,000 --> 0:02:31,000
+y cómo lleva al desarrollo de Linux.
+
+50
+0:02:33.546,000 --> 0:02:34,000
+LT: Sigo trabajando solo.
+
+51
+0:02:35.075,000 --> 0:02:38,000
+Realmente... trabajo solo en mi casa,
+
+52
+0:02:38.666,000 --> 0:02:39,000
+a menudo en mi albornoz.
+
+53
+0:02:40.08,000 --> 0:02:42,000
+Cuando un fotógrafo aparece, me visto,
+
+54
+0:02:42.665,000 --> 0:02:43,000
+tengo la ropa puesta.
+
+55
+0:02:43.975,000 --> 0:02:44,000
+(Risas)
+
+56
+0:02:45.236,000 --> 0:02:47,000
+Así es como siempre he trabajado.
+
+57
+0:02:47.332,000 --> 0:02:49,000
+Así fue como empecé Linux, también.
+
+58
+0:02:49.364,000 --> 0:02:52,000
+No empecé Linux como un proyecto de colaboración.
+
+59
+0:02:53.037,000 --> 0:02:57,000
+Empecé como parte de una serie de muchos proyectos
+
+60
+0:02:57.939,000 --> 0:03:,000
+que había hecho en el tiempo para mí,
+
+61
+0:03:01.6,000 --> 0:03:03,000
+en parte porque necesitaba el resultado final,
+
+62
+0:03:03.846,000 --> 0:03:05,000
+pero aún más porque disfrutaba la programación.
+
+63
+0:03:06.172,000 --> 0:03:1,000
+Por lo tanto, era sobre el final del viaje,
+
+64
+0:03:10.57,000 --> 0:03:13,000
+el cual, 25 años después, todavía no hemos alcanzado.
+
+65
+0:03:13.94,000 --> 0:03:17,000
+Pero fue realmente sobre el hecho de que estaba buscando un proyecto por mi cuenta
+
+66
+0:03:17.977,000 --> 0:03:2,000
+y no había ninguna fuente abierta, en realidad, en mi radar en absoluto.
+
+67
+0:03:21.988,000 --> 0:03:23,000
+Y lo que pasó es...
+
+68
+0:03:24.668,000 --> 0:03:28,000
+el proyecto crece y se convierte en algo que uno desea mostrar a la gente.
+
+69
+0:03:30.552,000 --> 0:03:34,000
+Realmente, esto es más de un, "¡Mira lo que hice!".
+
+70
+0:03:34.693,000 --> 0:03:36,000
+Y, créanme... no era tan bueno en ese entonces.
+
+71
+0:03:38.128,000 --> 0:03:39,000
+Lo hice públicamente disponible,
+
+72
+0:03:40.026,000 --> 0:03:42,000
+y ni siquiera era código abierto entonces.
+
+73
+0:03:42.156,000 --> 0:03:47,000
+En ese momento era fuente que estaba abierta, pero no había ninguna intención
+
+74
+0:03:47.349,000 --> 0:03:52,000
+detrás de usar el tipo de metodología de código abierto que pensamos hoy
+
+75
+0:03:52.487,000 --> 0:03:53,000
+para mejorarlo.
+
+76
+0:03:53.662,000 --> 0:03:54,000
+Era más como,
+
+77
+0:03:54.837,000 --> 0:03:56,000
+"Mira, he estado trabajando en esto durante medio año,
+
+78
+0:03:58.459,000 --> 0:03:59,000
+me gustaría tener comentarios".
+
+79
+0:04:00.717,000 --> 0:04:02,000
+Y otras personas se acercaron a mí.
+
+80
+0:04:03.217,000 --> 0:04:04,000
+En la Universidad de Helsinki,
+
+81
+0:04:04.893,000 --> 0:04:07,000
+tenía un amigo que era uno de los de código abierto
+
+82
+0:04:08.632,000 --> 0:04:11,000
+--se le llamó "software libre", principalmente en aquel entonces--
+
+83
+0:04:12.312,000 --> 0:04:16,000
+y de hecho me introdujo a la idea de que, bueno,
+
+84
+0:04:16.61,000 --> 0:04:21,000
+puedes utilizar estas licencias de código abierto que han existido.
+
+85
+0:04:24.114,000 --> 0:04:26,000
+Y pensé en ello durante un tiempo.
+
+86
+0:04:26.179,000 --> 0:04:29,000
+En realidad, estaba preocupado sobre el interés comercial que llegaba.
+
+87
+0:04:29.694,000 --> 0:04:33,000
+Es una de preocupación, que creo que tiene la mayoría de los que comienzan,
+
+88
+0:04:34.192,000 --> 0:04:38,000
+es que les preocupa que alguien se aproveche de su trabajo, ¿verdad?
+
+89
+0:04:39.603,000 --> 0:04:42,000
+Yo decidí, "¿Qué demonios?".
+
+90
+0:04:43.74,000 --> 0:04:44,000
+y...
+
+91
+0:04:44.914,000 --> 0:04:45,000
+CA: Y después, en algún momento,
+
+92
+0:04:46.549,000 --> 0:04:48,000
+alguien aportó un código que pensaste,
+
+93
+0:04:48.717,000 --> 0:04:51,000
+"Esto es realmente interesante, yo no habría pensado en eso.
+
+94
+0:04:51.912,000 --> 0:04:52,000
+En realidad, podría mejorar esto".
+
+95
+0:04:53.587,000 --> 0:04:55,000
+LT: Ni siquiera comenzó con gente contribuyendo con código,
+
+96
+0:04:56.592,000 --> 0:04:58,000
+era más aportando ideas.
+
+97
+0:04:59.748,000 --> 0:05:02,000
+Y el solo hecho de que alguien eche un vistazo a tu proyecto
+
+98
+0:05:02.934,000 --> 0:05:04,000
+--y estoy seguro de que es cierto para otras cosas, también,
+
+99
+0:05:05.806,000 --> 0:05:06,000
+pero sin duda es cierto en código--
+
+100
+0:05:07.497,000 --> 0:05:1,000
+es que alguien se interese en tu código,
+
+101
+0:05:10.974,000 --> 0:05:13,000
+mire lo suficiente como para realmente darte retroalimentación
+
+102
+0:05:14.066,000 --> 0:05:15,000
+y darte ideas.
+
+103
+0:05:15.403,000 --> 0:05:16,000
+Eso fue algo muy importante para mí.
+
+104
+0:05:17.158,000 --> 0:05:2,000
+Tenía 21 años en ese momento, así que era joven,
+
+105
+0:05:20.374,000 --> 0:05:23,000
+pero ya había programado para la mitad de mi vida, básicamente.
+
+106
+0:05:24.372,000 --> 0:05:27,000
+Y cada proyecto anterior había sido completamente personal
+
+107
+0:05:28.368,000 --> 0:05:31,000
+y fue una revelación cuando la gente empezó a comentarlo,
+
+108
+0:05:31.499,000 --> 0:05:34,000
+comenzó a dar retroalimentación sobre tu código.
+
+109
+0:05:34.824,000 --> 0:05:37,000
+E incluso antes de comenzar a dar vuelta código,
+
+110
+0:05:38.33,000 --> 0:05:41,000
+que fue, creo, uno de los grandes momentos en los que he dicho,
+
+111
+0:05:41.385,000 --> 0:05:42,000
+"¡Me encanta la gente!".
+
+112
+0:05:43.282,000 --> 0:05:44,000
+No me malinterpreten...
+
+113
+0:05:44.463,000 --> 0:05:45,000
+en realidad, no tengo don de gentes.
+
+114
+0:05:46.227,000 --> 0:05:49,000
+(Risas)
+
+115
+0:05:49.5,000 --> 0:05:51,000
+Realmente no me gusta la gente...
+
+116
+0:05:52.076,000 --> 0:05:53,000
+(Risas)
+
+117
+0:05:53.12,000 --> 0:05:54,000
+Pero me encantan los computadores,
+
+118
+0:05:54.77,000 --> 0:05:56,000
+me encanta interactuar con otros por mail,
+
+119
+0:05:57.009,000 --> 0:06:,000
+debido a que esto te da ese búfer.
+
+120
+0:06:00.365,000 --> 0:06:06,000
+Pero me gusta que otras personas comenten y participen en mi proyecto.
+
+121
+0:06:06.89,000 --> 0:06:07,000
+Y se hizo mucho más.
+
+122
+0:06:09.273,000 --> 0:06:12,000
+CA: Así que ¿hubo un momento en que viste lo que se estaba construyendo
+
+123
+0:06:12.697,000 --> 0:06:13,000
+y de repente empezó a despegar,
+
+124
+0:06:14.182,000 --> 0:06:17,000
+y pensaste, "Espera un segundo, en realidad, esto podría ser algo enorme,
+
+125
+0:06:17.676,000 --> 0:06:2,000
+no solo un proyecto personal que recibe buena retroalimentación,
+
+126
+0:06:20.798,000 --> 0:06:24,000
+sino una especie de desarrollo explosivo en todo el mundo de la tecnología"?
+
+127
+0:06:25.821,000 --> 0:06:26,000
+LT: En realidad no.
+
+128
+0:06:27.004,000 --> 0:06:3,000
+Es decir, el punto para mí, realmente, no fue cuando se estaba convirtiendo enorme,
+
+129
+0:06:30.976,000 --> 0:06:32,000
+fue cuando se estaba convirtiendo en algo.
+
+130
+0:06:33.709,000 --> 0:06:36,000
+El punto grande para mí fue que no estaba solo
+
+131
+0:06:37.25,000 --> 0:06:4,000
+y que tenía 10, tal vez 100 personas involucradas...
+
+132
+0:06:40.991,000 --> 0:06:41,000
+eso fue un gran punto.
+
+133
+0:06:42.494,000 --> 0:06:45,000
+A continuación, todo lo demás fue muy gradual.
+
+134
+0:06:45.557,000 --> 0:06:49,000
+Pasar de 100 personas a un millón de personas no es una gran cosa... para mí.
+
+135
+0:06:49.81,000 --> 0:06:51,000
+Bueno, quiero decir, tal vez es si estás...
+
+136
+0:06:51.863,000 --> 0:06:51,000
+(Risas)
+
+137
+0:06:52.722,000 --> 0:06:54,000
+Si se quiere vender su resultado entonces es algo grande,
+
+138
+0:06:55.464,000 --> 0:06:56,000
+no me malinterpreten.
+
+139
+0:06:56.609,000 --> 0:06:58,000
+Pero si se está interesado en la tecnología
+
+140
+0:06:58.69,000 --> 0:06:59,000
+y se está interesado en el proyecto,
+
+141
+0:07:00.479,000 --> 0:07:02,000
+la parte grande estaba en formar comunidad.
+
+142
+0:07:02.534,000 --> 0:07:03,000
+Después la comunidad creció gradualmente.
+
+143
+0:07:04.508,000 --> 0:07:07,000
+Y no hay en realidad un único punto en el que fui como,
+
+144
+0:07:08.166,000 --> 0:07:1,000
+"Uf, ¡acaba de despegar!", porque,
+
+145
+0:07:10.366,000 --> 0:07:13,000
+quiero decir, tomó mucho tiempo, relativamente.
+
+146
+0:07:13.624,000 --> 0:07:16,000
+CA: Todos los técnicos con los que hablo en realidad te dan crédito
+
+147
+0:07:16.85,000 --> 0:07:18,000
+del masivo cambio en la forma de su trabajo.
+
+148
+0:07:19.612,000 --> 0:07:2,000
+Y no se trata solo de Linux,
+
+149
+0:07:21.259,000 --> 0:07:22,000
+es esta cosa llamada Git,
+
+150
+0:07:22.729,000 --> 0:07:26,000
+que es este sistema de gestión para el desarrollo de software.
+
+151
+0:07:26.765,000 --> 0:07:28,000
+Cuéntanos brevemente sobre eso y tu papel en eso.
+
+152
+0:07:30.481,000 --> 0:07:31,000
+LT: Uno de los temas que tuvimos,
+
+153
+0:07:32.294,000 --> 0:07:35,000
+y esto tomó un tiempo para empezar a aparecer,
+
+154
+0:07:35.37,000 --> 0:07:36,000
+es cuando uno...
+
+155
+0:07:37.708,000 --> 0:07:42,000
+Cuando creces de tener 10 personas o 100 personas trabajando en un proyecto
+
+156
+0:07:43.064,000 --> 0:07:45,000
+a tener 10 000 personas, lo que...
+
+157
+0:07:45.476,000 --> 0:07:48,000
+es decir, en este momento estamos en la situación en la que solo en el núcleo,
+
+158
+0:07:49.292,000 --> 0:07:51,000
+tenemos 1000 personas que participan en cada lanzamiento
+
+159
+0:07:52.164,000 --> 0:07:55,000
+y eso es cada dos meses, más o menos dos o tres meses.
+
+160
+0:07:56.336,000 --> 0:07:58,000
+Algunas de esas personas no hacen mucho.
+
+161
+0:07:58.781,000 --> 0:08:,000
+Hay muchas personas que hacen pequeños cambios.
+
+162
+0:08:01.388,000 --> 0:08:03,000
+Pero para mantener esto,
+
+163
+0:08:03.658,000 --> 0:08:05,000
+la escala cambia la forma en que hay que mantenerla.
+
+164
+0:08:06.571,000 --> 0:08:08,000
+Y el proceso lo hicimos muy doloroso.
+
+165
+0:08:10.713,000 --> 0:08:16,000
+Y hay proyectos completos que hacen solo mantenimiento del código fuente.
+
+166
+0:08:17.266,000 --> 0:08:2,000
+CVS es el que solía ser el más utilizado,
+
+167
+0:08:20.582,000 --> 0:08:23,000
+y yo odiaba CVS con pasión y rehusaba tocarlo
+
+168
+0:08:24.503,000 --> 0:08:27,000
+e intentaba otra cosa que era radical e interesante
+
+169
+0:08:27.59,000 --> 0:08:29,000
+y todo el mundo la odiaba.
+
+170
+0:08:31.004,000 --> 0:08:32,000
+CA: (Risas)
+
+171
+0:08:32.402,000 --> 0:08:34,000
+LT: Y estábamos en este mal lugar,
+
+172
+0:08:34.514,000 --> 0:08:36,000
+en que teníamos miles de personas que querían participar,
+
+173
+0:08:37.355,000 --> 0:08:42,000
+pero en muchos aspectos, yo era el punto de ruptura,
+
+174
+0:08:42.42,000 --> 0:08:44,000
+donde no podía escalar hasta el punto
+
+175
+0:08:44.967,000 --> 0:08:46,000
+en el que podía trabajar con miles de personas.
+
+176
+0:08:47.792,000 --> 0:08:49,000
+Así que Git es mi segundo gran proyecto,
+
+177
+0:08:50.268,000 --> 0:08:54,000
+que solo fue creado para mí, para mantener mi primer gran proyecto.
+
+178
+0:08:55.433,000 --> 0:08:57,000
+Y así es literalmente cómo trabajo.
+
+179
+0:08:57.704,000 --> 0:08:59,000
+Yo no codifico para
+
+180
+0:09:00.233,000 --> 0:09:01,000
+--bueno, hago código por diversión--
+
+181
+0:09:01.979,000 --> 0:09:03,000
+pero quiero codificar para algo significativo
+
+182
+0:09:04.384,000 --> 0:09:08,000
+por lo que cada uno de los proyectos que he hecho ha sido algo que necesitaba
+
+183
+0:09:08.455,000 --> 0:09:09,000
+y...
+
+184
+0:09:09.855,000 --> 0:09:12,000
+CA: Así que, en realidad, tanto en Linux como Git surgió de algo así
+
+185
+0:09:13.312,000 --> 0:09:15,000
+casi como una consecuencia no deseada
+
+186
+0:09:15.672,000 --> 0:09:17,000
+de tu deseo de no tener que trabajar con mucha gente.
+
+187
+0:09:18.367,000 --> 0:09:19,000
+LT: Totalmente. Sí.
+
+188
+0:09:19.542,000 --> 0:09:2,000
+(Risas)
+
+189
+0:09:20.646,000 --> 0:09:21,000
+CA: Eso es increíble. LT: Sí.
+
+190
+0:09:22.32,000 --> 0:09:23,000
+(Aplausos)
+
+191
+0:09:23.836,000 --> 0:09:26,000
+Y, sin embargo, eres el hombre que ha transformado la tecnología
+
+192
+0:09:27.251,000 --> 0:09:28,000
+no solo una sino dos veces,
+
+193
+0:09:28.592,000 --> 0:09:3,000
+y tenemos que tratar de entender por qué es así
+
+194
+0:09:31.179,000 --> 0:09:32,000
+Nos has dado algunas pistas, pero ...
+
+195
+0:09:32.973,000 --> 0:09:36,000
+Aquí hay una foto tuya de niño, con un cubo de Rubik.
+
+196
+0:09:37.572,000 --> 0:09:41,000
+Has dicho que has estado programando desde que eran como 10 u 11,
+
+197
+0:09:41.716,000 --> 0:09:42,000
+la mitad de tu vida.
+
+198
+0:09:43.105,000 --> 0:09:46,000
+¿Eras ese tipo de genio de la informática, ya sabes, súper nerdo,
+
+199
+0:09:46.945,000 --> 0:09:48,000
+eras la estrella en la escuela que podría hacer todo?
+
+200
+0:09:49.454,000 --> 0:09:5,000
+¿Cómo eras cuando eras niño?
+
+201
+0:09:52.13,000 --> 0:09:54,000
+LT: Sí, creo que yo era el nerdo prototípico.
+
+202
+0:09:54.647,000 --> 0:09:55,000
+Quiero decir, yo era...
+
+203
+0:09:57.13,000 --> 0:09:58,000
+Yo no era una persona sociable entonces.
+
+204
+0:09:59.116,000 --> 0:10:01,000
+Ese es mi hermano menor.
+
+205
+0:10:01.72,000 --> 0:10:03,000
+Yo estaba claramente más interesado en el cubo de Rubik
+
+206
+0:10:04.531,000 --> 0:10:05,000
+que mi hermano menor.
+
+207
+0:10:06.08,000 --> 0:10:07,000
+(Risas)
+
+208
+0:10:07.191,000 --> 0:10:1,000
+Mi hermana menor, que no está en la imagen,
+
+209
+0:10:10.335,000 --> 0:10:12,000
+cuando teníamos reuniones familiares
+
+210
+0:10:12.773,000 --> 0:10:15,000
+--y no es una gran familia, pero tengo, como, un par de primos--
+
+211
+0:10:16.589,000 --> 0:10:18,000
+ella me preparaba de antemano.
+
+212
+0:10:19.477,000 --> 0:10:21,000
+Como, antes de que yo entrara en la habitación diría,
+
+213
+0:10:22.067,000 --> 0:10:24,000
+"Bien. Esto y lo otro..."
+
+214
+0:10:25.925,000 --> 0:10:27,000
+Porque yo no estaba...
+
+215
+0:10:28.278,000 --> 0:10:29,000
+yo era un friki.
+
+216
+0:10:29.407,000 --> 0:10:3,000
+Yo estaba en computadoras,
+
+217
+0:10:30.793,000 --> 0:10:31,000
+Estaba en matemáticas,
+
+218
+0:10:31.89,000 --> 0:10:32,000
+Yo estaba en la física.
+
+219
+0:10:33.065,000 --> 0:10:34,000
+Yo era bueno en eso.
+
+220
+0:10:34.24,000 --> 0:10:36,000
+No creo que fuera particularmente excepcional.
+
+221
+0:10:37.554,000 --> 0:10:39,000
+Al parecer, dijo mi hermana
+
+222
+0:10:39.969,000 --> 0:10:45,000
+que mi mayor cualidad excepcional era que no abandonaba.
+
+223
+0:10:47.618,000 --> 0:10:49,000
+CA: Bien, profundicemos, porque eso es interesante.
+
+224
+0:10:50.199,000 --> 0:10:51,000
+Tú no abandonas.
+
+225
+0:10:51.397,000 --> 0:10:53,000
+No se trata de ser un geek y ser inteligente,
+
+226
+0:10:54.286,000 --> 0:10:57,000
+que trata de ser... ¿terco?
+
+227
+0:10:57.415,000 --> 0:10:58,000
+LT: Eso es ser terco.
+
+228
+0:10:58.966,000 --> 0:10:59,000
+Eso es, al igual que,
+
+229
+0:11:01.093,000 --> 0:11:03,000
+acabar de empezar algo
+
+230
+0:11:03.317,000 --> 0:11:08,000
+y no decir: "Está bien, hecho, vamos a hacer algo más...
+
+231
+0:11:08.791,000 --> 0:11:09,000
+Mira: ¡brillante!".
+
+232
+0:11:10.954,000 --> 0:11:13,000
+Y lo noto que en muchas otras partes de mi vida, también.
+
+233
+0:11:15.47,000 --> 0:11:18,000
+He vivido en Silicon Valley durante siete años.
+
+234
+0:11:18.744,000 --> 0:11:22,000
+Y trabajé para la misma empresa, en Silicon Valley,
+
+235
+0:11:22.88,000 --> 0:11:23,000
+durante todo el tiempo.
+
+236
+0:11:24.618,000 --> 0:11:25,000
+Eso es inaudito.
+
+237
+0:11:27.204,000 --> 0:11:28,000
+Así no funciona Silicon Valley.
+
+238
+0:11:28.995,000 --> 0:11:31,000
+El punto de Silicon Valley es que la gente salta entre puestos de trabajo
+
+239
+0:11:32.598,000 --> 0:11:34,000
+como mezclar todo.
+
+240
+0:11:35.249,000 --> 0:11:36,000
+Y ese no es el tipo de persona que soy.
+
+241
+0:11:37.153,000 --> 0:11:39,000
+CA: Pero durante el desarrollo de Linux en sí mismo,
+
+242
+0:11:39.748,000 --> 0:11:43,000
+esa terquedad te trajo conflictos con otras personas.
+
+243
+0:11:44.445,000 --> 0:11:45,000
+Habla de eso un poco.
+
+244
+0:11:46.123,000 --> 0:11:51,000
+¿Era esencial para mantener la especie de calidad de lo que estabas construyendo?
+
+245
+0:11:51.691,000 --> 0:11:53,000
+¿Cómo describirías lo que pasó?
+
+246
+0:11:54.392,000 --> 0:11:56,000
+LT: No sé si es esencial.
+
+247
+0:11:57.239,000 --> 0:12:,000
+Volviendo a lo de "No soy una persona sociable",
+
+248
+0:12:00.408,000 --> 0:12:01,000
+--a veces también soy--
+
+249
+0:12:04.1,000 --> 0:12:05,000
+podríamos decir,
+
+250
+0:12:05.657,000 --> 0:12:08,000
+"miope" cuando se trata de los sentimientos de otras personas,
+
+251
+0:12:09.667,000 --> 0:12:14,000
+y que a veces te hace decir cosas que perjudican a otras personas.
+
+252
+0:12:14.969,000 --> 0:12:17,000
+Y no estoy orgulloso de ello.
+
+253
+0:12:18.761,000 --> 0:12:19,000
+(Aplausos)
+
+254
+0:12:19.899,000 --> 0:12:2,000
+Pero, al mismo tiempo, es...
+
+255
+0:12:22.978,000 --> 0:12:25,000
+Hay gente que me dice que debería ser agradable.
+
+256
+0:12:26.796,000 --> 0:12:31,000
+Y luego cuando trato de explicarles que tal vez usted es agradable,
+
+257
+0:12:32.488,000 --> 0:12:34,000
+tal vez debería ser más agresivo,
+
+258
+0:12:34.766,000 --> 0:12:37,000
+ven que como yo no soy agradable.
+
+259
+0:12:38.332,000 --> 0:12:4,000
+(Risas)
+
+260
+0:12:40.466,000 --> 0:12:42,000
+Trato de decir que somos diferentes.
+
+261
+0:12:42.658,000 --> 0:12:43,000
+No soy una persona sociable;
+
+262
+0:12:44.402,000 --> 0:12:46,000
+no es algo de lo que estoy particularmente orgulloso,
+
+263
+0:12:46.978,000 --> 0:12:47,000
+pero es parte de mí.
+
+264
+0:12:48.186,000 --> 0:12:5,000
+Y una de las cosas que me gusta del código abierto
+
+265
+0:12:50.915,000 --> 0:12:55,000
+es que realmente permite que diferentes personas trabajen juntas.
+
+266
+0:12:56.731,000 --> 0:12:57,000
+No tenemos que agradarnos,
+
+267
+0:12:58.479,000 --> 0:13:,000
+y, a veces, realmente no nos agradamos.
+
+268
+0:13:00.706,000 --> 0:13:03,000
+Realmente... quiero decir, hay discusiones muy, muy calientes.
+
+269
+0:13:04.217,000 --> 0:13:06,000
+Pero se puede, de hecho, se pueden encontrar cosas que...
+
+270
+0:13:08.197,000 --> 0:13:1,000
+uno ni siquiera está de acuerdo en estar en desacuerdo,
+
+271
+0:13:10.964,000 --> 0:13:12,000
+es solo que le interesan realmente diferentes cosas.
+
+272
+0:13:13.648,000 --> 0:13:15,000
+Y volviendo al punto en el que he dicho anteriormente
+
+273
+0:13:16.575,000 --> 0:13:2,000
+que temía a las personas comerciales que se aprovechan de tu trabajo,
+
+274
+0:13:20.892,000 --> 0:13:22,000
+se vio después, y muy pronto resultó que,
+
+275
+0:13:23.395,000 --> 0:13:26,000
+aquellas personas comerciales eran gente encantadora, de verdad.
+
+276
+0:13:26.505,000 --> 0:13:29,000
+E hicieron todas las cosas que yo no estaba en absoluto interesado en hacer,
+
+277
+0:13:30.235,000 --> 0:13:32,000
+y tenían objetivos muy diferentes.
+
+278
+0:13:32.316,000 --> 0:13:37,000
+Y utilizaron el código abierto de una manera que yo no quería.
+
+279
+0:13:37.603,000 --> 0:13:39,000
+Pero debido a que era código abierto que podían hacer,
+
+280
+0:13:40.195,000 --> 0:13:42,000
+y que en realidad funcionan muy bien juntos.
+
+281
+0:13:42.245,000 --> 0:13:44,000
+De hecho, creo que funciona de la misma forma.
+
+282
+0:13:44.389,000 --> 0:13:47,000
+Es necesario tener las personas-personas, los comunicadores,
+
+283
+0:13:47.602,000 --> 0:13:48,000
+la gente cálida y amigable
+
+284
+0:13:49.053,000 --> 0:13:5,000
+a quien le gusta...
+
+285
+0:13:50.799,000 --> 0:13:51,000
+(Risas)
+
+286
+0:13:52.265,000 --> 0:13:55,000
+realmente quieren abrazarlo y traerlo a la comunidad.
+
+287
+0:13:55.339,000 --> 0:13:56,000
+Pero así no es todo el mundo.
+
+288
+0:13:56.934,000 --> 0:13:57,000
+Y ese no soy yo.
+
+289
+0:13:58.39,000 --> 0:13:59,000
+Me importa la tecnología.
+
+290
+0:13:59.611,000 --> 0:14:01,000
+Hay quienes se preocupan por la interfaz de usuario.
+
+291
+0:14:02.102,000 --> 0:14:04,000
+No puedo hacer la interfaz de usuario para salvar mi vida.
+
+292
+0:14:04.876,000 --> 0:14:07,000
+Es decir, si yo estuviera varado en una isla
+
+293
+0:14:07.915,000 --> 0:14:1,000
+y la única manera de salir de esa isla fuera una buena interfaz de usuario,
+
+294
+0:14:11.695,000 --> 0:14:11,000
+me moriría allí.
+
+295
+0:14:12.592,000 --> 0:14:13,000
+(Risas)
+
+296
+0:14:13.701,000 --> 0:14:15,000
+Así que hay diferentes tipos de personas,
+
+297
+0:14:15.864,000 --> 0:14:17,000
+y no estoy dando excusas, estoy tratando de explicar.
+
+298
+0:14:18.753,000 --> 0:14:19,000
+CA: Cuando hablamos la semana pasada,
+
+299
+0:14:20.599,000 --> 0:14:22,000
+hablaste de algún otro rasgo que tienes,
+
+300
+0:14:22.952,000 --> 0:14:23,000
+que me pareció muy interesante.
+
+301
+0:14:24.567,000 --> 0:14:25,000
+Es esta idea llamada gusto.
+
+302
+0:14:25.974,000 --> 0:14:27,000
+Solo tengo un par de imágenes aquí.
+
+303
+0:14:28.354,000 --> 0:14:32,000
+Creo que esto es un ejemplo de un no particular buen gusto en el código,
+
+304
+0:14:32.381,000 --> 0:14:34,000
+y este sabe mejor,
+
+305
+0:14:35.396,000 --> 0:14:37,000
+la cual se puede ver inmediatamente.
+
+306
+0:14:37.483,000 --> 0:14:38,000
+¿Cuál es la diferencia entre estos dos?
+
+307
+0:14:40.639,000 --> 0:14:41,000
+LT: Esto es...
+
+308
+0:14:41.845,000 --> 0:14:43,000
+¿Cuántas personas aquí realmente han codificado?
+
+309
+0:14:45.671,000 --> 0:14:46,000
+CA: Oh mi Dios.
+
+310
+0:14:47.215,000 --> 0:14:47,000
+LT: Les garantizo,
+
+311
+0:14:48.17,000 --> 0:14:49,000
+a todos los que levantaron su mano,
+
+312
+0:14:49.963,000 --> 0:14:51,000
+que han hecho lo que se llama una lista enlazada.
+
+313
+0:14:52.608,000 --> 0:14:54,000
+Y se enseña...
+
+314
+0:14:55.115,000 --> 0:14:58,000
+Este, el primero no es una muy buena aproximación de gusto,
+
+315
+0:14:58.73,000 --> 0:15:02,000
+es básicamente cómo se enseña a hacer cuando se empieza la codificación.
+
+316
+0:15:02.821,000 --> 0:15:04,000
+Y uno no tiene que entender el código.
+
+317
+0:15:04.889,000 --> 0:15:06,000
+La parte más interesante para mí
+
+318
+0:15:06.969,000 --> 0:15:08,000
+es la última sentencia "if" (si).
+
+319
+0:15:10.933,000 --> 0:15:12,000
+Debido a que lo que pasa en una lista enlazada
+
+320
+0:15:13.233,000 --> 0:15:16,000
+--esto está tratando de quitar una entrada existente de una lista--
+
+321
+0:15:16.891,000 --> 0:15:19,000
+y hay una diferencia entre si es la primera entrada
+
+322
+0:15:20.757,000 --> 0:15:21,000
+o si se trata de una entrada en el centro.
+
+323
+0:15:22.78,000 --> 0:15:23,000
+Porque si es la primera entrada,
+
+324
+0:15:24.409,000 --> 0:15:27,000
+uno tiene que cambiar el puntero a la primera entrada.
+
+325
+0:15:27.409,000 --> 0:15:27,000
+Si está en el medio,
+
+326
+0:15:28.371,000 --> 0:15:3,000
+uno tiene que cambiar el puntero de una entrada anterior.
+
+327
+0:15:31.116,000 --> 0:15:33,000
+Son dos casos completamente diferentes.
+
+328
+0:15:33.164,000 --> 0:15:34,000
+CA: Y ese es mejor.
+
+329
+0:15:34.34,000 --> 0:15:35,000
+LT: Y este es mejor.
+
+330
+0:15:35.94,000 --> 0:15:37,000
+No tiene la sentencia "if".
+
+331
+0:15:38.637,000 --> 0:15:4,000
+Y realmente no importa...
+
+332
+0:15:40.874,000 --> 0:15:43,000
+No quiero que entiendan por qué no tiene la sentencia "if",
+
+333
+0:15:44.099,000 --> 0:15:45,000
+pero quiero que entiendan
+
+334
+0:15:45.465,000 --> 0:15:47,000
+que a veces se puede ver un problema de forma diferente
+
+335
+0:15:48.114,000 --> 0:15:51,000
+y volver a escribir para que un caso especial desaparezca
+
+336
+0:15:51.492,000 --> 0:15:52,000
+y se convierta en el caso normal.
+
+337
+0:15:53.393,000 --> 0:15:54,000
+Y eso es un buen código.
+
+338
+0:15:55.328,000 --> 0:15:56,000
+Pero esto es simple código.
+
+339
+0:15:56.902,000 --> 0:15:57,000
+Esto es CS 101.
+
+340
+0:15:58.275,000 --> 0:16:01,000
+Esto no es importante... si bien, los detalles son importantes.
+
+341
+0:16:01.798,000 --> 0:16:05,000
+Para mí, el signo de la gente que realmente quiere trabajar con esto
+
+342
+0:16:05.9,000 --> 0:16:07,000
+es que tienen buen gusto, que es como...
+
+343
+0:16:09.295,000 --> 0:16:1,000
+Te envié este estúpido ejemplo
+
+344
+0:16:10.916,000 --> 0:16:12,000
+que no es relevante, porque es muy pequeño.
+
+345
+0:16:13.743,000 --> 0:16:15,000
+El buen gusto es mucho más grande que esto.
+
+346
+0:16:15.909,000 --> 0:16:19,000
+El buen gusto es ve realmente los grandes patrones
+
+347
+0:16:19.954,000 --> 0:16:23,000
+y el tipo de saber instintivamente cuál es la forma correcta de hacer las cosas.
+
+348
+0:16:24.436,000 --> 0:16:27,000
+CA: OK, así que estamos juntando las piezas aquí ahora.
+
+349
+0:16:27.736,000 --> 0:16:28,000
+Tú tienes gusto,
+
+350
+0:16:29.557,000 --> 0:16:31,000
+de una manera que es significativa para la gente de software.
+
+351
+0:16:32.514,000 --> 0:16:33,000
+Eres...
+
+352
+0:16:33.593,000 --> 0:16:34,000
+(Risas)
+
+353
+0:16:35.433,000 --> 0:16:37,000
+LT: Creo que fue significativo para algunos aquí.
+
+354
+0:16:39.967,000 --> 0:16:41,000
+CA: Eres un programador informático muy inteligente,
+
+355
+0:16:42.908,000 --> 0:16:43,000
+y eres un terco infernal.
+
+356
+0:16:45.622,000 --> 0:16:46,000
+Pero tiene que haber algo más.
+
+357
+0:16:47.232,000 --> 0:16:48,000
+Es decir, has cambiado el futuro.
+
+358
+0:16:48.839,000 --> 0:16:5,000
+Debes tener la capacidad de estas grandes visiones del futuro.
+
+359
+0:16:51.796,000 --> 0:16:52,000
+Eres un visionario, ¿verdad?
+
+360
+0:16:53.151,000 --> 0:16:55,000
+LT: Me he sentido un poco incómodo en TED
+
+361
+0:16:55.766,000 --> 0:16:57,000
+durante los últimos dos días,
+
+362
+0:16:57.77,000 --> 0:16:59,000
+porque hay una gran cantidad de visión dándose, ¿verdad?
+
+363
+0:17:00.569,000 --> 0:17:01,000
+Y no soy un visionario.
+
+364
+0:17:02.29,000 --> 0:17:04,000
+No tengo un plan a cinco años.
+
+365
+0:17:04.543,000 --> 0:17:05,000
+Soy ingeniero.
+
+366
+0:17:05.925,000 --> 0:17:06,000
+Y creo que es realmente...
+
+367
+0:17:07.209,000 --> 0:17:09,000
+Quiero decir... Estoy muy feliz con todas las personas
+
+368
+0:17:09.938,000 --> 0:17:11,000
+que andan por ahí y solo miran a las nubes
+
+369
+0:17:12.327,000 --> 0:17:14,000
+y miran las estrellas y dicen, "quiero ir allá".
+
+370
+0:17:15.202,000 --> 0:17:16,000
+Pero estoy mirando al suelo,
+
+371
+0:17:16.678,000 --> 0:17:18,000
+y quiero arreglar el bache que está justo en frente de mí
+
+372
+0:17:19.557,000 --> 0:17:2,000
+antes de que caiga en él
+
+373
+0:17:20.941,000 --> 0:17:21,000
+Este es el tipo de persona que soy.
+
+374
+0:17:22.62,000 --> 0:17:23,000
+(Aclamaciones)
+
+375
+0:17:23.719,000 --> 0:17:24,000
+(Aplausos)
+
+376
+0:17:25.055,000 --> 0:17:28,000
+CA: Hablaste la semana pasada sobre estos dos chicos.
+
+377
+0:17:29.358,000 --> 0:17:31,000
+¿Quiénes son y cómo te relacionas con ellos?
+
+378
+0:17:32.239,000 --> 0:17:35,000
+LT: Bueno, es una especie de lugar común en la tecnología,
+
+379
+0:17:35.865,000 --> 0:17:37,000
+todo el Tesla contra Edison,
+
+380
+0:17:37.896,000 --> 0:17:41,000
+donde Tesla es visto como el visionario científico y el hombre de la idea loca.
+
+381
+0:17:42.861,000 --> 0:17:44,000
+Y a la gente le encanta Tesla.
+
+382
+0:17:45.667,000 --> 0:17:47,000
+Es decir, hay personas que nombran sus empresas por él.
+
+383
+0:17:48.678,000 --> 0:17:49,000
+(Risas)
+
+384
+0:17:51.365,000 --> 0:17:53,000
+La otra persona hay es Edison,
+
+385
+0:17:54.001,000 --> 0:17:57,000
+que en realidad es a menudo vilipendiado por ser especie de peatón
+
+386
+0:17:57.532,000 --> 0:17:58,000
+y es...
+
+387
+0:17:59.477,000 --> 0:18:01,000
+Es decir, su cita más famosa es,
+
+388
+0:18:02.223,000 --> 0:18:06,000
+"El genio es un 1 % de inspiración y 99 % de transpiración".
+
+389
+0:18:07.394,000 --> 0:18:08,000
+Y estoy en el campo de Edison,
+
+390
+0:18:08.871,000 --> 0:18:1,000
+incluso si a la gente no siempre le gusta.
+
+391
+0:18:11.079,000 --> 0:18:14,000
+Porque si en realidad se comparan los dos,
+
+392
+0:18:14.122,000 --> 0:18:18,000
+Tesla tiene esa clase de mente que atrapa en estos días,
+
+393
+0:18:18.679,000 --> 0:18:19,000
+pero ¿realmente cambió el mundo?
+
+394
+0:18:21.853,000 --> 0:18:24,000
+Edison pudo no haber sido una buena persona,
+
+395
+0:18:25.259,000 --> 0:18:28,000
+que hizo un montón de cosas...
+
+396
+0:18:28.415,000 --> 0:18:3,000
+él no era quizá tan intelectual,
+
+397
+0:18:30.868,000 --> 0:18:32,000
+no era tan visionario.
+
+398
+0:18:33.119,000 --> 0:18:36,000
+Pero creo que soy más un Edison que un Tesla.
+
+399
+0:18:37.669,000 --> 0:18:39,000
+CA: Nuestro tema en TED esta semana son los sueños,
+
+400
+0:18:40.131,000 --> 0:18:41,000
+grandes, audaces sueños.
+
+401
+0:18:41.502,000 --> 0:18:42,000
+Eres realmente el antídoto para eso.
+
+402
+0:18:43.328,000 --> 0:18:45,000
+LT: Trato de apuntar hacia abajo un poco, sí.
+
+403
+0:18:45.461,000 --> 0:18:46,000
+CA: Eso es bueno.
+
+404
+0:18:46.636,000 --> 0:18:47,000
+(Risas)
+
+405
+0:18:47.74,000 --> 0:18:48,000
+Los abrazamos, los abrazamos.
+
+406
+0:18:50.826,000 --> 0:18:53,000
+Empresas como Google y muchas otras han hecho, podría decirse,
+
+407
+0:18:53.875,000 --> 0:18:55,000
+miles de millones de dólares con tu software.
+
+408
+0:18:56.049,000 --> 0:18:57,000
+¿No te molesta?
+
+409
+0:18:57.224,000 --> 0:18:58,000
+LT: No.
+
+410
+0:18:58.399,000 --> 0:19:,000
+No, no me molesta por varias razones.
+
+411
+0:19:01.057,000 --> 0:19:03,000
+Y una es, que los estoy haciéndolo bien.
+
+412
+0:19:03.091,000 --> 0:19:04,000
+Realmente estoy haciéndolo bien.
+
+413
+0:19:04.942,000 --> 0:19:05,000
+Pero la otra razón es...
+
+414
+0:19:06.55,000 --> 0:19:11,000
+Es decir, sin hacer todo el código abierto y realmente dejarlo ir,
+
+415
+0:19:11.901,000 --> 0:19:13,000
+Linux nunca habría sido lo que es.
+
+416
+0:19:14.151,000 --> 0:19:19,000
+Y ha traído experiencias que realmente no disfruto, hacerlas públicas,
+
+417
+0:19:19.271,000 --> 0:19:21,000
+pero al mismo tiempo, es una experiencia.
+
+418
+0:19:21.446,000 --> 0:19:22,000
+Créeme.
+
+419
+0:19:23.238,000 --> 0:19:28,000
+Así que hay un montón de cosas que pasan que me hacen un hombre muy feliz
+
+420
+0:19:28.405,000 --> 0:19:3,000
+y pensando que tomé las decisiones correctas.
+
+421
+0:19:30.958,000 --> 0:19:31,000
+CA: ¿Está la idea de código abierto
+
+422
+0:19:32.894,000 --> 0:19:33,000
+--creo que terminamos aquí--
+
+423
+0:19:34.554,000 --> 0:19:38,000
+está la idea del código abierto completamente realizada ahora en el mundo,
+
+424
+0:19:38.632,000 --> 0:19:41,000
+o hay algo más que se podría hacer,
+
+425
+0:19:41.674,000 --> 0:19:43,000
+hay más cosas que se podrían hacer?
+
+426
+0:19:44.738,000 --> 0:19:46,000
+LT: Tengo dos pensamientos.
+
+427
+0:19:46.996,000 --> 0:19:5,000
+Creo que una de las razones por las que el código abierto funciona tan bien
+
+428
+0:19:51.506,000 --> 0:19:53,000
+es que al final del día,
+
+429
+0:19:53.939,000 --> 0:19:56,000
+el código tiende a ser algo blanco y negro.
+
+430
+0:19:57.209,000 --> 0:20:01,000
+Hay a menudo una forma bastante buena de decidir,
+
+431
+0:20:01.39,000 --> 0:20:04,000
+esto está hecho correctamente, y esto no está bien hecho.
+
+432
+0:20:05.36,000 --> 0:20:07,000
+El código funciona o no,
+
+433
+0:20:07.762,000 --> 0:20:11,000
+lo que significa que hay menos espacio para las discusiones.
+
+434
+0:20:12.394,000 --> 0:20:15,000
+Y tenemos discusiones a pesar de esto, ¿verdad?
+
+435
+0:20:16.049,000 --> 0:20:17,000
+En muchas otras áreas...
+
+436
+0:20:17.988,000 --> 0:20:21,000
+quiero decir, la gente ha hablado de la política abierta y cosas por el estilo
+
+437
+0:20:22.569,000 --> 0:20:24,000
+y es muy difícil a veces decir
+
+438
+0:20:24.726,000 --> 0:20:27,000
+sí, pueden aplicar los mismos principios en algunas otras áreas
+
+439
+0:20:28.507,000 --> 0:20:33,000
+solo porque lo blanco y negro se torna en no solo gris,
+
+440
+0:20:33.97,000 --> 0:20:34,000
+sino en diferentes colores.
+
+441
+0:20:36.339,000 --> 0:20:4,000
+Así que, obviamente, la fuente abierta en la ciencia está reapareciendo.
+
+442
+0:20:40.729,000 --> 0:20:41,000
+La ciencia estaba allí primero.
+
+443
+0:20:42.387,000 --> 0:20:44,000
+Pero después la ciencia terminó siendo bastante cerrada,
+
+444
+0:20:45.078,000 --> 0:20:48,000
+con revistas muy caras y algunos de los que pasa.
+
+445
+0:20:48.726,000 --> 0:20:51,000
+Y de código abierto está haciendo una reaparición en la ciencia,
+
+446
+0:20:52.586,000 --> 0:20:56,000
+con cosas como arXiv y revistas abiertas.
+
+447
+0:20:59.262,000 --> 0:21:,000
+Wikipedia cambió el mundo, también.
+
+448
+0:21:01.239,000 --> 0:21:02,000
+Hay otros ejemplos,
+
+449
+0:21:02.717,000 --> 0:21:03,000
+Estoy seguro de que hay más por venir.
+
+450
+0:21:05.66,000 --> 0:21:06,000
+CA: Pero no eres un visionario,
+
+451
+0:21:07.251,000 --> 0:21:08,000
+y no depende de ti nombrarlos.
+
+452
+0:21:09.228,000 --> 0:21:1,000
+LT: No.
+
+453
+0:21:10.411,000 --> 0:21:11,000
+(Risas)
+
+454
+0:21:11.443,000 --> 0:21:13,000
+Todo depende de Uds. hacerlo, ¿verdad?
+
+455
+0:21:13.471,000 --> 0:21:14,000
+CA: Exactamente.
+
+456
+0:21:14.758,000 --> 0:21:15,000
+Linus Torvalds,
+
+457
+0:21:15.94,000 --> 0:21:17,000
+gracias por Linux, gracias a Internet,
+
+458
+0:21:18.209,000 --> 0:21:19,000
+gracias por todos los teléfonos Android.
+
+459
+0:21:20.124,000 --> 0:21:23,000
+Gracias por venir aquí a TED y revelarnos tanto de ti.
+
+460
+0:21:23.319,000 --> 0:21:24,000
+LT: Gracias.
+
+461
+0:21:24.495,000 --> 0:21:28,000
+(Aplausos)
+

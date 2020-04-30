@@ -1,0 +1,1408 @@
+1
+0:00:13.099,000 --> 0:00:14,000
+I study ants
+
+2
+0:00:14.718,000 --> 0:00:17,000
+in the desert, in the tropical forest
+
+3
+0:00:18.015,000 --> 0:00:19,000
+and in my kitchen,
+
+4
+0:00:19.543,000 --> 0:00:23,000
+and in the hills around Silicon Valley where I live.
+
+5
+0:00:23.563,000 --> 0:00:24,000
+I've recently realized that ants
+
+6
+0:00:25.239,000 --> 0:00:27,000
+are using interactions differently
+
+7
+0:00:27.517,000 --> 0:00:28,000
+in different environments,
+
+8
+0:00:29.345,000 --> 0:00:31,000
+and that got me thinking that we could learn from this
+
+9
+0:00:31.345,000 --> 0:00:32,000
+about other systems,
+
+10
+0:00:32.9,000 --> 0:00:37,000
+like brains and data networks that we engineer,
+
+11
+0:00:38.488,000 --> 0:00:4,000
+and even cancer.
+
+12
+0:00:41.334,000 --> 0:00:42,000
+So what all these systems have in common
+
+13
+0:00:43.086,000 --> 0:00:45,000
+is that there's no central control.
+
+14
+0:00:45.943,000 --> 0:00:48,000
+An ant colony consists of sterile female workers --
+
+15
+0:00:49.763,000 --> 0:00:51,000
+those are the ants you see walking around —
+
+16
+0:00:52.149,000 --> 0:00:54,000
+and then one or more reproductive females
+
+17
+0:00:54.305,000 --> 0:00:56,000
+who just lay the eggs.
+
+18
+0:00:56.408,000 --> 0:00:58,000
+They don't give any instructions.
+
+19
+0:00:58.417,000 --> 0:00:59,000
+Even though they're called queens,
+
+20
+0:01:00.401,000 --> 0:01:02,000
+they don't tell anybody what to do.
+
+21
+0:01:02.566,000 --> 0:01:05,000
+So in an ant colony, there's no one in charge,
+
+22
+0:01:05.842,000 --> 0:01:07,000
+and all systems like this without central control
+
+23
+0:01:08.62,000 --> 0:01:11,000
+are regulated using very simple interactions.
+
+24
+0:01:12.549,000 --> 0:01:14,000
+Ants interact using smell.
+
+25
+0:01:15.276,000 --> 0:01:17,000
+They smell with their antennae,
+
+26
+0:01:17.463,000 --> 0:01:19,000
+and they interact with their antennae,
+
+27
+0:01:20.224,000 --> 0:01:23,000
+so when one ant touches another with its antennae,
+
+28
+0:01:23.233,000 --> 0:01:24,000
+it can tell, for example, if the other ant
+
+29
+0:01:24.84,000 --> 0:01:25,000
+is a nestmate
+
+30
+0:01:26.474,000 --> 0:01:3,000
+and what task that other ant has been doing.
+
+31
+0:01:30.71,000 --> 0:01:33,000
+So here you see a lot of ants moving around
+
+32
+0:01:33.91,000 --> 0:01:34,000
+and interacting in a lab arena
+
+33
+0:01:35.843,000 --> 0:01:38,000
+that's connected by tubes to two other arenas.
+
+34
+0:01:39.281,000 --> 0:01:41,000
+So when one ant meets another,
+
+35
+0:01:41.785,000 --> 0:01:43,000
+it doesn't matter which ant it meets,
+
+36
+0:01:43.874,000 --> 0:01:44,000
+and they're actually not transmitting
+
+37
+0:01:45.759,000 --> 0:01:48,000
+any kind of complicated signal or message.
+
+38
+0:01:49.224,000 --> 0:01:51,000
+All that matters to the ant is the rate
+
+39
+0:01:51.335,000 --> 0:01:53,000
+at which it meets other ants.
+
+40
+0:01:54.156,000 --> 0:01:56,000
+And all of these interactions, taken together,
+
+41
+0:01:56.913,000 --> 0:01:58,000
+produce a network.
+
+42
+0:01:59.418,000 --> 0:02:01,000
+So this is the network of the ants
+
+43
+0:02:01.628,000 --> 0:02:03,000
+that you just saw moving around in the arena,
+
+44
+0:02:04.272,000 --> 0:02:07,000
+and it's this constantly shifting network
+
+45
+0:02:07.559,000 --> 0:02:09,000
+that produces the behavior of the colony,
+
+46
+0:02:10.079,000 --> 0:02:12,000
+like whether all the ants are hiding inside the nest,
+
+47
+0:02:12.96,000 --> 0:02:14,000
+or how many are going out to forage.
+
+48
+0:02:15.654,000 --> 0:02:16,000
+A brain actually works in the same way,
+
+49
+0:02:17.413,000 --> 0:02:18,000
+but what's great about ants is
+
+50
+0:02:18.913,000 --> 0:02:22,000
+that you can see the whole network as it happens.
+
+51
+0:02:23.78,000 --> 0:02:26,000
+There are more than 12,000 species of ants,
+
+52
+0:02:26.88,000 --> 0:02:28,000
+in every conceivable environment,
+
+53
+0:02:29.005,000 --> 0:02:31,000
+and they're using interactions differently
+
+54
+0:02:31.654,000 --> 0:02:33,000
+to meet different environmental challenges.
+
+55
+0:02:34.422,000 --> 0:02:36,000
+So one important environmental challenge
+
+56
+0:02:36.727,000 --> 0:02:37,000
+that every system has to deal with
+
+57
+0:02:38.597,000 --> 0:02:4,000
+is operating costs, just what it takes
+
+58
+0:02:40.68,000 --> 0:02:42,000
+to run the system.
+
+59
+0:02:42.945,000 --> 0:02:44,000
+And another environmental challenge is resources,
+
+60
+0:02:45.493,000 --> 0:02:47,000
+finding them and collecting them.
+
+61
+0:02:47.829,000 --> 0:02:49,000
+In the desert, operating costs are high
+
+62
+0:02:50.612,000 --> 0:02:51,000
+because water is scarce,
+
+63
+0:02:52.385,000 --> 0:02:54,000
+and the seed-eating ants that I study in the desert
+
+64
+0:02:54.884,000 --> 0:02:56,000
+have to spend water to get water.
+
+65
+0:02:57.784,000 --> 0:02:59,000
+So an ant outside foraging,
+
+66
+0:02:59.923,000 --> 0:03:01,000
+searching for seeds in the hot sun,
+
+67
+0:03:01.96,000 --> 0:03:03,000
+just loses water into the air.
+
+68
+0:03:03.967,000 --> 0:03:04,000
+But the colony gets its water
+
+69
+0:03:05.631,000 --> 0:03:06,000
+by metabolizing the fats out of the seeds
+
+70
+0:03:07.397,000 --> 0:03:08,000
+that they eat.
+
+71
+0:03:09.331,000 --> 0:03:12,000
+So in this environment, interactions are used
+
+72
+0:03:12.49,000 --> 0:03:13,000
+to activate foraging.
+
+73
+0:03:14.039,000 --> 0:03:16,000
+An outgoing forager doesn't go out unless
+
+74
+0:03:16.303,000 --> 0:03:18,000
+it gets enough interactions with returning foragers,
+
+75
+0:03:18.876,000 --> 0:03:19,000
+and what you see are the returning foragers
+
+76
+0:03:20.866,000 --> 0:03:21,000
+going into the tunnel, into the nest,
+
+77
+0:03:22.69,000 --> 0:03:24,000
+and meeting outgoing foragers on their way out.
+
+78
+0:03:25.326,000 --> 0:03:26,000
+This makes sense for the ant colony,
+
+79
+0:03:26.949,000 --> 0:03:28,000
+because the more food there is out there,
+
+80
+0:03:29.272,000 --> 0:03:3,000
+the more quickly the foragers find it,
+
+81
+0:03:31.123,000 --> 0:03:32,000
+the faster they come back,
+
+82
+0:03:32.359,000 --> 0:03:34,000
+and the more foragers they send out.
+
+83
+0:03:35.16,000 --> 0:03:37,000
+The system works to stay stopped,
+
+84
+0:03:37.667,000 --> 0:03:39,000
+unless something positive happens.
+
+85
+0:03:39.682,000 --> 0:03:42,000
+So interactions function to activate foragers.
+
+86
+0:03:43.563,000 --> 0:03:45,000
+And we've been studying the evolution of this system.
+
+87
+0:03:46.47,000 --> 0:03:47,000
+First of all, there's variation.
+
+88
+0:03:47.561,000 --> 0:03:49,000
+It turns out that colonies are different.
+
+89
+0:03:50.04,000 --> 0:03:52,000
+On dry days, some colonies forage less,
+
+90
+0:03:52.736,000 --> 0:03:53,000
+so colonies are different in how
+
+91
+0:03:54.241,000 --> 0:03:55,000
+they manage this trade-off
+
+92
+0:03:55.595,000 --> 0:03:58,000
+between spending water to search for seeds
+
+93
+0:03:58.763,000 --> 0:04:01,000
+and getting water back in the form of seeds.
+
+94
+0:04:02.083,000 --> 0:04:03,000
+And we're trying to understand why
+
+95
+0:04:03.802,000 --> 0:04:05,000
+some colonies forage less than others
+
+96
+0:04:05.942,000 --> 0:04:07,000
+by thinking about ants as neurons,
+
+97
+0:04:08.267,000 --> 0:04:1,000
+using models from neuroscience.
+
+98
+0:04:10.605,000 --> 0:04:12,000
+So just as a neuron adds up its stimulation
+
+99
+0:04:13.279,000 --> 0:04:15,000
+from other neurons to decide whether to fire,
+
+100
+0:04:15.285,000 --> 0:04:17,000
+an ant adds up its stimulation from other ants
+
+101
+0:04:18.17,000 --> 0:04:2,000
+to decide whether to forage.
+
+102
+0:04:20.193,000 --> 0:04:21,000
+And what we're looking for is whether there might be
+
+103
+0:04:21.83,000 --> 0:04:22,000
+small differences among colonies
+
+104
+0:04:23.822,000 --> 0:04:26,000
+in how many interactions each ant needs
+
+105
+0:04:27.136,000 --> 0:04:28,000
+before it's willing to go out and forage,
+
+106
+0:04:29.062,000 --> 0:04:32,000
+because a colony like that would forage less.
+
+107
+0:04:32.829,000 --> 0:04:35,000
+And this raises an analogous question about brains.
+
+108
+0:04:35.968,000 --> 0:04:36,000
+We talk about the brain,
+
+109
+0:04:37.38,000 --> 0:04:39,000
+but of course every brain is slightly different,
+
+110
+0:04:40.27,000 --> 0:04:41,000
+and maybe there are some individuals
+
+111
+0:04:41.649,000 --> 0:04:42,000
+or some conditions
+
+112
+0:04:42.968,000 --> 0:04:45,000
+in which the electrical properties of neurons are such
+
+113
+0:04:46.19,000 --> 0:04:49,000
+that they require more stimulus to fire,
+
+114
+0:04:50.06,000 --> 0:04:53,000
+and that would lead to differences in brain function.
+
+115
+0:04:53.786,000 --> 0:04:55,000
+So in order to ask evolutionary questions,
+
+116
+0:04:56.12,000 --> 0:04:58,000
+we need to know about reproductive success.
+
+117
+0:04:58.799,000 --> 0:05:,000
+This is a map of the study site
+
+118
+0:05:01.124,000 --> 0:05:03,000
+where I have been tracking this population
+
+119
+0:05:03.677,000 --> 0:05:06,000
+of harvester ant colonies for 28 years,
+
+120
+0:05:06.97,000 --> 0:05:08,000
+which is about as long as a colony lives.
+
+121
+0:05:09.232,000 --> 0:05:11,000
+Each symbol is a colony,
+
+122
+0:05:11.331,000 --> 0:05:14,000
+and the size of the symbol is how many offspring it had,
+
+123
+0:05:14.597,000 --> 0:05:15,000
+because we were able to use genetic variation
+
+124
+0:05:16.51,000 --> 0:05:18,000
+to match up parent and offspring colonies,
+
+125
+0:05:19.221,000 --> 0:05:22,000
+that is, to figure out which colonies
+
+126
+0:05:22.518,000 --> 0:05:23,000
+were founded by a daughter queen
+
+127
+0:05:24.443,000 --> 0:05:26,000
+produced by which parent colony.
+
+128
+0:05:26.511,000 --> 0:05:28,000
+And this was amazing for me, after all these years,
+
+129
+0:05:28.513,000 --> 0:05:31,000
+to find out, for example, that colony 154,
+
+130
+0:05:31.641,000 --> 0:05:33,000
+whom I've known well for many years,
+
+131
+0:05:33.817,000 --> 0:05:34,000
+is a great-grandmother.
+
+132
+0:05:35.636,000 --> 0:05:36,000
+Here's her daughter colony,
+
+133
+0:05:37.376,000 --> 0:05:39,000
+here's her granddaughter colony,
+
+134
+0:05:40.06,000 --> 0:05:42,000
+and these are her great-granddaughter colonies.
+
+135
+0:05:42.452,000 --> 0:05:44,000
+And by doing this, I was able to learn
+
+136
+0:05:44.477,000 --> 0:05:47,000
+that offspring colonies resemble parent colonies
+
+137
+0:05:47.76,000 --> 0:05:49,000
+in their decisions about which days are so hot
+
+138
+0:05:49.977,000 --> 0:05:5,000
+that they don't forage,
+
+139
+0:05:51.755,000 --> 0:05:52,000
+and the offspring of parent colonies
+
+140
+0:05:53.219,000 --> 0:05:55,000
+live so far from each other that the ants never meet,
+
+141
+0:05:56.125,000 --> 0:05:58,000
+so the ants of the offspring colony
+
+142
+0:05:58.414,000 --> 0:06:,000
+can't be learning this from the parent colony.
+
+143
+0:06:00.658,000 --> 0:06:01,000
+And so our next step is to look
+
+144
+0:06:02.039,000 --> 0:06:07,000
+for the genetic variation underlying this resemblance.
+
+145
+0:06:07.315,000 --> 0:06:11,000
+So then I was able to ask, okay, who's doing better?
+
+146
+0:06:11.44,000 --> 0:06:12,000
+Over the time of the study,
+
+147
+0:06:12.9,000 --> 0:06:13,000
+and especially in the past 10 years,
+
+148
+0:06:14.365,000 --> 0:06:17,000
+there's been a very severe and deepening drought
+
+149
+0:06:17.673,000 --> 0:06:19,000
+in the Southwestern U.S.,
+
+150
+0:06:19.8,000 --> 0:06:22,000
+and it turns out that the colonies that conserve water,
+
+151
+0:06:22.853,000 --> 0:06:26,000
+that stay in when it's really hot outside,
+
+152
+0:06:27.282,000 --> 0:06:29,000
+and thus sacrifice getting as much food as possible,
+
+153
+0:06:29.914,000 --> 0:06:31,000
+are the ones more likely to have offspring colonies.
+
+154
+0:06:32.859,000 --> 0:06:34,000
+So all this time, I thought that colony 154
+
+155
+0:06:35.128,000 --> 0:06:37,000
+was a loser, because on really dry days,
+
+156
+0:06:37.798,000 --> 0:06:38,000
+there'd be just this trickle of foraging,
+
+157
+0:06:39.666,000 --> 0:06:4,000
+while the other colonies were out
+
+158
+0:06:41.257,000 --> 0:06:43,000
+foraging, getting lots of food,
+
+159
+0:06:43.374,000 --> 0:06:46,000
+but in fact, colony 154 is a huge success.
+
+160
+0:06:46.394,000 --> 0:06:47,000
+She's a matriarch.
+
+161
+0:06:47.726,000 --> 0:06:5,000
+She's one of the rare great-grandmothers on the site.
+
+162
+0:06:50.778,000 --> 0:06:52,000
+To my knowledge, this is the first time
+
+163
+0:06:53.563,000 --> 0:06:54,000
+that we've been able to track
+
+164
+0:06:55.202,000 --> 0:06:58,000
+the ongoing evolution of collective behavior
+
+165
+0:06:58.203,000 --> 0:07:,000
+in a natural population of animals
+
+166
+0:07:00.32,000 --> 0:07:04,000
+and find out what's actually working best.
+
+167
+0:07:04.977,000 --> 0:07:06,000
+Now, the Internet uses an algorithm
+
+168
+0:07:07.398,000 --> 0:07:09,000
+to regulate the flow of data
+
+169
+0:07:10.251,000 --> 0:07:12,000
+that's very similar to the one
+
+170
+0:07:12.478,000 --> 0:07:14,000
+that the harvester ants are using to regulate
+
+171
+0:07:14.854,000 --> 0:07:15,000
+the flow of foragers.
+
+172
+0:07:16.395,000 --> 0:07:19,000
+And guess what we call this analogy?
+
+173
+0:07:19.761,000 --> 0:07:2,000
+The anternet is coming.
+
+174
+0:07:21.279,000 --> 0:07:22,000
+(Applause)
+
+175
+0:07:23,000 --> 0:07:26,000
+So data doesn't leave the source computer
+
+176
+0:07:26.454,000 --> 0:07:28,000
+unless it gets a signal that there's enough bandwidth
+
+177
+0:07:29.315,000 --> 0:07:31,000
+for it to travel on.
+
+178
+0:07:32.044,000 --> 0:07:33,000
+In the early days of the Internet,
+
+179
+0:07:33.485,000 --> 0:07:35,000
+when operating costs were really high
+
+180
+0:07:35.759,000 --> 0:07:38,000
+and it was really important not to lose any data,
+
+181
+0:07:38.986,000 --> 0:07:4,000
+then the system was set up for interactions
+
+182
+0:07:41.143,000 --> 0:07:44,000
+to activate the flow of data.
+
+183
+0:07:44.205,000 --> 0:07:46,000
+It's interesting that the ants are using an algorithm
+
+184
+0:07:46.59,000 --> 0:07:49,000
+that's so similar to the one that we recently invented,
+
+185
+0:07:50.486,000 --> 0:07:52,000
+but this is only one of a handful of ant algorithms
+
+186
+0:07:53.439,000 --> 0:07:54,000
+that we know about,
+
+187
+0:07:54.858,000 --> 0:07:57,000
+and ants have had 130 million years
+
+188
+0:07:58.051,000 --> 0:08:,000
+to evolve a lot of good ones,
+
+189
+0:08:00.077,000 --> 0:08:01,000
+and I think it's very likely
+
+190
+0:08:01.583,000 --> 0:08:03,000
+that some of the other 12,000 species
+
+191
+0:08:04.14,000 --> 0:08:06,000
+are going to have interesting algorithms
+
+192
+0:08:06.837,000 --> 0:08:07,000
+for data networks
+
+193
+0:08:07.861,000 --> 0:08:09,000
+that we haven't even thought of yet.
+
+194
+0:08:10.558,000 --> 0:08:13,000
+So what happens when operating costs are low?
+
+195
+0:08:13.643,000 --> 0:08:14,000
+Operating costs are low in the tropics,
+
+196
+0:08:15.43,000 --> 0:08:17,000
+because it's very humid, and it's easy for the ants
+
+197
+0:08:17.526,000 --> 0:08:19,000
+to be outside walking around.
+
+198
+0:08:20.35,000 --> 0:08:21,000
+But the ants are so abundant
+
+199
+0:08:22.003,000 --> 0:08:23,000
+and diverse in the tropics
+
+200
+0:08:23.821,000 --> 0:08:25,000
+that there's a lot of competition.
+
+201
+0:08:26.419,000 --> 0:08:27,000
+Whatever resource one species is using,
+
+202
+0:08:28.371,000 --> 0:08:31,000
+another species is likely to be using that
+
+203
+0:08:31.543,000 --> 0:08:33,000
+at the same time.
+
+204
+0:08:33.922,000 --> 0:08:35,000
+So in this environment, interactions are used
+
+205
+0:08:36.53,000 --> 0:08:37,000
+in the opposite way.
+
+206
+0:08:38.475,000 --> 0:08:39,000
+The system keeps going
+
+207
+0:08:39.87,000 --> 0:08:4,000
+unless something negative happens,
+
+208
+0:08:41.424,000 --> 0:08:43,000
+and one species that I study makes circuits
+
+209
+0:08:43.591,000 --> 0:08:45,000
+in the trees of foraging ants
+
+210
+0:08:45.75,000 --> 0:08:47,000
+going from the nest to a food source and back,
+
+211
+0:08:48.731,000 --> 0:08:49,000
+just round and round,
+
+212
+0:08:50.06,000 --> 0:08:51,000
+unless something negative happens,
+
+213
+0:08:51.502,000 --> 0:08:52,000
+like an interaction
+
+214
+0:08:53.111,000 --> 0:08:55,000
+with ants of another species.
+
+215
+0:08:55.85,000 --> 0:08:57,000
+So here's an example of ant security.
+
+216
+0:08:58.787,000 --> 0:08:59,000
+In the middle, there's an ant
+
+217
+0:09:00.645,000 --> 0:09:02,000
+plugging the nest entrance with its head
+
+218
+0:09:03.108,000 --> 0:09:05,000
+in response to interactions with another species.
+
+219
+0:09:06.101,000 --> 0:09:07,000
+Those are the little ones running around
+
+220
+0:09:07.76,000 --> 0:09:09,000
+with their abdomens up in the air.
+
+221
+0:09:10.511,000 --> 0:09:12,000
+But as soon as the threat is passed,
+
+222
+0:09:12.557,000 --> 0:09:14,000
+the entrance is open again,
+
+223
+0:09:15.312,000 --> 0:09:16,000
+and maybe there are situations
+
+224
+0:09:17.102,000 --> 0:09:18,000
+in computer security
+
+225
+0:09:18.191,000 --> 0:09:2,000
+where operating costs are low enough
+
+226
+0:09:20.397,000 --> 0:09:23,000
+that we could just block access temporarily
+
+227
+0:09:23.772,000 --> 0:09:25,000
+in response to an immediate threat,
+
+228
+0:09:25.965,000 --> 0:09:27,000
+and then open it again,
+
+229
+0:09:27.991,000 --> 0:09:28,000
+instead of trying to build
+
+230
+0:09:29.26,000 --> 0:09:32,000
+a permanent firewall or fortress.
+
+231
+0:09:33.24,000 --> 0:09:34,000
+So another environmental challenge
+
+232
+0:09:35.18,000 --> 0:09:36,000
+that all systems have to deal with
+
+233
+0:09:36.875,000 --> 0:09:41,000
+is resources, finding and collecting them.
+
+234
+0:09:42.327,000 --> 0:09:43,000
+And to do this, ants solve the problem
+
+235
+0:09:44,000 --> 0:09:45,000
+of collective search,
+
+236
+0:09:45.258,000 --> 0:09:46,000
+and this is a problem that's of great interest
+
+237
+0:09:46.834,000 --> 0:09:47,000
+right now in robotics,
+
+238
+0:09:48.318,000 --> 0:09:49,000
+because we've understood that,
+
+239
+0:09:50.05,000 --> 0:09:51,000
+rather than sending a single,
+
+240
+0:09:51.664,000 --> 0:09:54,000
+sophisticated, expensive robot out
+
+241
+0:09:55.159,000 --> 0:09:56,000
+to explore another planet
+
+242
+0:09:56.576,000 --> 0:09:58,000
+or to search a burning building,
+
+243
+0:09:59.143,000 --> 0:10:01,000
+that instead, it may be more effective
+
+244
+0:10:01.743,000 --> 0:10:05,000
+to get a group of cheaper robots
+
+245
+0:10:06.12,000 --> 0:10:08,000
+exchanging only minimal information,
+
+246
+0:10:08.665,000 --> 0:10:1,000
+and that's the way that ants do it.
+
+247
+0:10:11.464,000 --> 0:10:12,000
+So the invasive Argentine ant
+
+248
+0:10:13.229,000 --> 0:10:15,000
+makes expandable search networks.
+
+249
+0:10:15.559,000 --> 0:10:17,000
+They're good at dealing with the main problem
+
+250
+0:10:17.832,000 --> 0:10:18,000
+of collective search,
+
+251
+0:10:19.163,000 --> 0:10:21,000
+which is the trade-off between
+
+252
+0:10:21.729,000 --> 0:10:22,000
+searching very thoroughly
+
+253
+0:10:23.065,000 --> 0:10:24,000
+and covering a lot of ground.
+
+254
+0:10:25.062,000 --> 0:10:25,000
+And what they do is,
+
+255
+0:10:25.957,000 --> 0:10:27,000
+when there are many ants in a small space,
+
+256
+0:10:28.344,000 --> 0:10:3,000
+then each one can search very thoroughly
+
+257
+0:10:30.557,000 --> 0:10:31,000
+because there will be another ant nearby
+
+258
+0:10:32.181,000 --> 0:10:33,000
+searching over there,
+
+259
+0:10:33.538,000 --> 0:10:34,000
+but when there are a few ants
+
+260
+0:10:35.185,000 --> 0:10:37,000
+in a large space,
+
+261
+0:10:37.24,000 --> 0:10:39,000
+then they need to stretch out their paths
+
+262
+0:10:39.654,000 --> 0:10:4,000
+to cover more ground.
+
+263
+0:10:41.457,000 --> 0:10:43,000
+I think they use interactions to assess density,
+
+264
+0:10:44.411,000 --> 0:10:45,000
+so when they're really crowded,
+
+265
+0:10:45.64,000 --> 0:10:46,000
+they meet more often,
+
+266
+0:10:46.742,000 --> 0:10:48,000
+and they search more thoroughly.
+
+267
+0:10:49.207,000 --> 0:10:52,000
+Different ant species must use different algorithms,
+
+268
+0:10:52.607,000 --> 0:10:54,000
+because they've evolved to deal with
+
+269
+0:10:55.129,000 --> 0:10:56,000
+different resources,
+
+270
+0:10:56.8,000 --> 0:10:58,000
+and it could be really useful to know about this,
+
+271
+0:10:59.359,000 --> 0:11:,000
+and so we recently asked ants
+
+272
+0:11:01.001,000 --> 0:11:03,000
+to solve the collective search problem
+
+273
+0:11:03.451,000 --> 0:11:04,000
+in the extreme environment
+
+274
+0:11:04.819,000 --> 0:11:05,000
+of microgravity
+
+275
+0:11:06.377,000 --> 0:11:07,000
+in the International Space Station.
+
+276
+0:11:08.353,000 --> 0:11:09,000
+When I first saw this picture, I thought,
+
+277
+0:11:09.898,000 --> 0:11:11,000
+Oh no, they've mounted the habitat vertically,
+
+278
+0:11:12.755,000 --> 0:11:14,000
+but then I realized that, of course, it doesn't matter.
+
+279
+0:11:15.373,000 --> 0:11:17,000
+So the idea here is that the ants
+
+280
+0:11:18.01,000 --> 0:11:19,000
+are working so hard to hang on
+
+281
+0:11:19.98,000 --> 0:11:22,000
+to the wall or the floor or whatever you call it
+
+282
+0:11:23.037,000 --> 0:11:26,000
+that they're less likely to interact,
+
+283
+0:11:26.046,000 --> 0:11:27,000
+and so the relationship between
+
+284
+0:11:27.29,000 --> 0:11:29,000
+how crowded they are and how often they meet
+
+285
+0:11:29.41,000 --> 0:11:3,000
+would be messed up.
+
+286
+0:11:31.135,000 --> 0:11:32,000
+We're still analyzing the data.
+
+287
+0:11:32.53,000 --> 0:11:33,000
+I don't have the results yet.
+
+288
+0:11:34.494,000 --> 0:11:35,000
+But it would be interesting to know
+
+289
+0:11:36.188,000 --> 0:11:38,000
+how other species solve this problem
+
+290
+0:11:38.647,000 --> 0:11:4,000
+in different environments on Earth,
+
+291
+0:11:41.211,000 --> 0:11:42,000
+and so we're setting up a program
+
+292
+0:11:42.477,000 --> 0:11:44,000
+to encourage kids around the world
+
+293
+0:11:44.637,000 --> 0:11:46,000
+to try this experiment with different species.
+
+294
+0:11:47.173,000 --> 0:11:48,000
+It's very simple.
+
+295
+0:11:48.94,000 --> 0:11:5,000
+It can be done with cheap materials.
+
+296
+0:11:51.03,000 --> 0:11:53,000
+And that way, we could make a global map
+
+297
+0:11:53.863,000 --> 0:11:56,000
+of ant collective search algorithms.
+
+298
+0:11:57.21,000 --> 0:11:59,000
+And I think it's pretty likely that the invasive species,
+
+299
+0:11:59.693,000 --> 0:12:01,000
+the ones that come into our buildings,
+
+300
+0:12:01.842,000 --> 0:12:02,000
+are going to be really good at this,
+
+301
+0:12:03.584,000 --> 0:12:04,000
+because they're in your kitchen
+
+302
+0:12:05.432,000 --> 0:12:08,000
+because they're really good at finding food and water.
+
+303
+0:12:09.339,000 --> 0:12:12,000
+So the most familiar resource for ants
+
+304
+0:12:12.604,000 --> 0:12:13,000
+is a picnic,
+
+305
+0:12:13.919,000 --> 0:12:15,000
+and this is a clustered resource.
+
+306
+0:12:16.064,000 --> 0:12:16,000
+When there's one piece of fruit,
+
+307
+0:12:17.063,000 --> 0:12:19,000
+there's likely to be another piece of fruit nearby,
+
+308
+0:12:19.578,000 --> 0:12:22,000
+and the ants that specialize on clustered resources
+
+309
+0:12:23.01,000 --> 0:12:24,000
+use interactions for recruitment.
+
+310
+0:12:24.952,000 --> 0:12:25,000
+So when one ant meets another,
+
+311
+0:12:26.229,000 --> 0:12:27,000
+or when it meets a chemical deposited
+
+312
+0:12:27.854,000 --> 0:12:28,000
+on the ground by another,
+
+313
+0:12:29.59,000 --> 0:12:3,000
+then it changes direction to follow
+
+314
+0:12:31.423,000 --> 0:12:32,000
+in the direction of the interaction,
+
+315
+0:12:32.996,000 --> 0:12:33,000
+and that's how you get the trail of ants
+
+316
+0:12:34.973,000 --> 0:12:35,000
+sharing your picnic.
+
+317
+0:12:36.386,000 --> 0:12:37,000
+Now this is a place where I think we might be able
+
+318
+0:12:38.081,000 --> 0:12:41,000
+to learn something from ants about cancer.
+
+319
+0:12:41.822,000 --> 0:12:42,000
+I mean, first, it's obvious that we could do a lot
+
+320
+0:12:43.803,000 --> 0:12:44,000
+to prevent cancer
+
+321
+0:12:45.413,000 --> 0:12:47,000
+by not allowing people to spread around
+
+322
+0:12:47.99,000 --> 0:12:48,000
+or sell the toxins that promote
+
+323
+0:12:49.934,000 --> 0:12:51,000
+the evolution of cancer in our bodies,
+
+324
+0:12:52.714,000 --> 0:12:54,000
+but I don't think the ants can help us much with this
+
+325
+0:12:55.06,000 --> 0:12:58,000
+because ants never poison their own colonies.
+
+326
+0:12:58.418,000 --> 0:12:59,000
+But we might be able to learn something from ants
+
+327
+0:12:59.75,000 --> 0:13:,000
+about treating cancer.
+
+328
+0:13:01.513,000 --> 0:13:03,000
+There are many different kinds of cancer.
+
+329
+0:13:03.738,000 --> 0:13:05,000
+Each one originates in a particular part of the body,
+
+330
+0:13:06.716,000 --> 0:13:08,000
+and then some kinds of cancer will spread
+
+331
+0:13:09.682,000 --> 0:13:11,000
+or metastasize to particular other tissues
+
+332
+0:13:12.512,000 --> 0:13:14,000
+where they must be getting resources that they need.
+
+333
+0:13:15.392,000 --> 0:13:16,000
+So if you think from the perspective
+
+334
+0:13:17.2,000 --> 0:13:18,000
+of early metastatic cancer cells
+
+335
+0:13:19.15,000 --> 0:13:2,000
+as they're out searching around
+
+336
+0:13:20.773,000 --> 0:13:22,000
+for the resources that they need,
+
+337
+0:13:23.09,000 --> 0:13:24,000
+if those resources are clustered,
+
+338
+0:13:25.073,000 --> 0:13:28,000
+they're likely to use interactions for recruitment,
+
+339
+0:13:28.086,000 --> 0:13:31,000
+and if we can figure out how cancer cells are recruiting,
+
+340
+0:13:31.179,000 --> 0:13:33,000
+then maybe we could set traps
+
+341
+0:13:33.526,000 --> 0:13:37,000
+to catch them before they become established.
+
+342
+0:13:37.575,000 --> 0:13:4,000
+So ants are using interactions in different ways
+
+343
+0:13:40.81,000 --> 0:13:42,000
+in a huge variety of environments,
+
+344
+0:13:43.412,000 --> 0:13:44,000
+and we could learn from this
+
+345
+0:13:45.233,000 --> 0:13:46,000
+about other systems that operate
+
+346
+0:13:47.01,000 --> 0:13:49,000
+without central control.
+
+347
+0:13:49.347,000 --> 0:13:5,000
+Using only simple interactions,
+
+348
+0:13:51.326,000 --> 0:13:52,000
+ant colonies have been performing
+
+349
+0:13:53.121,000 --> 0:13:56,000
+amazing feats for more than 130 million years.
+
+350
+0:13:56.754,000 --> 0:13:58,000
+We have a lot to learn from them.
+
+351
+0:13:58.894,000 --> 0:14:,000
+Thank you.
+
+352
+0:14:01.632,000 --> 0:14:03,000
+(Applause)
+

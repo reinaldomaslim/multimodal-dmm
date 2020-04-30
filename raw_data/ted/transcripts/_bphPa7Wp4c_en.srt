@@ -1,0 +1,828 @@
+1
+0:00:12.557,000 --> 0:00:15,000
+In the space that used to house one transistor,
+
+2
+0:00:16.259,000 --> 0:00:18,000
+we can now fit one billion.
+
+3
+0:00:19.636,000 --> 0:00:22,000
+That made it so that a computer the size of an entire room
+
+4
+0:00:23.557,000 --> 0:00:25,000
+now fits in your pocket.
+
+5
+0:00:26.17,000 --> 0:00:29,000
+You might say the future is small.
+
+6
+0:00:29.611,000 --> 0:00:3,000
+As an engineer,
+
+7
+0:00:30.842,000 --> 0:00:33,000
+I'm inspired by this miniaturization revolution in computers.
+
+8
+0:00:34.851,000 --> 0:00:35,000
+As a physician,
+
+9
+0:00:36.223,000 --> 0:00:41,000
+I wonder whether we could use it to reduce the number of lives lost
+
+10
+0:00:41.97,000 --> 0:00:45,000
+due to one of the fastest-growing diseases on Earth:
+
+11
+0:00:46.101,000 --> 0:00:47,000
+cancer.
+
+12
+0:00:47.543,000 --> 0:00:48,000
+Now when I say that,
+
+13
+0:00:48.822,000 --> 0:00:51,000
+what most people hear me say is that we're working on curing cancer.
+
+14
+0:00:52.624,000 --> 0:00:53,000
+And we are.
+
+15
+0:00:53.911,000 --> 0:00:54,000
+But it turns out
+
+16
+0:00:55.086,000 --> 0:00:57,000
+that there's an incredible opportunity to save lives
+
+17
+0:00:57.911,000 --> 0:01:,000
+through the early detection and prevention of cancer.
+
+18
+0:01:01.785,000 --> 0:01:06,000
+Worldwide, over two-thirds of deaths due to cancer are fully preventable
+
+19
+0:01:07.188,000 --> 0:01:09,000
+using methods that we already have in hand today.
+
+20
+0:01:10.406,000 --> 0:01:12,000
+Things like vaccination, timely screening
+
+21
+0:01:13.329,000 --> 0:01:15,000
+and of course, stopping smoking.
+
+22
+0:01:16.316,000 --> 0:01:19,000
+But even with the best tools and technologies that we have today,
+
+23
+0:01:19.933,000 --> 0:01:21,000
+some tumors can't be detected
+
+24
+0:01:22.02,000 --> 0:01:25,000
+until 10 years after they've started growing,
+
+25
+0:01:25.714,000 --> 0:01:28,000
+when they are 50 million cancer cells strong.
+
+26
+0:01:30.178,000 --> 0:01:31,000
+What if we had better technologies
+
+27
+0:01:31.881,000 --> 0:01:34,000
+to detect some of these more deadly cancers sooner,
+
+28
+0:01:35.011,000 --> 0:01:36,000
+when they could be removed,
+
+29
+0:01:36.337,000 --> 0:01:38,000
+when they were just getting started?
+
+30
+0:01:38.562,000 --> 0:01:41,000
+Let me tell you about how miniaturization might get us there.
+
+31
+0:01:43.14,000 --> 0:01:45,000
+This is a microscope in a typical lab
+
+32
+0:01:45.452,000 --> 0:01:48,000
+that a pathologist would use for looking at a tissue specimen,
+
+33
+0:01:49.032,000 --> 0:01:51,000
+like a biopsy or a pap smear.
+
+34
+0:01:51.927,000 --> 0:01:53,000
+This $7,000 microscope
+
+35
+0:01:54.019,000 --> 0:01:57,000
+would be used by somebody with years of specialized training
+
+36
+0:01:57.299,000 --> 0:01:58,000
+to spot cancer cells.
+
+37
+0:02:00.126,000 --> 0:02:03,000
+This is an image from a colleague of mine at Rice University,
+
+38
+0:02:03.196,000 --> 0:02:04,000
+Rebecca Richards-Kortum.
+
+39
+0:02:04.798,000 --> 0:02:07,000
+What she and her team have done is miniaturize that whole microscope
+
+40
+0:02:08.649,000 --> 0:02:09,000
+into this $10 part,
+
+41
+0:02:10.648,000 --> 0:02:12,000
+and it fits on the end of an optical fiber.
+
+42
+0:02:13.923,000 --> 0:02:16,000
+Now what that means is instead of taking a sample from a patient
+
+43
+0:02:17.581,000 --> 0:02:18,000
+and sending it to the microscope,
+
+44
+0:02:19.254,000 --> 0:02:21,000
+you can bring the microscope to the patient.
+
+45
+0:02:22.26,000 --> 0:02:26,000
+And then, instead of requiring a specialist to look at the images,
+
+46
+0:02:26.643,000 --> 0:02:31,000
+you can train the computer to score normal versus cancerous cells.
+
+47
+0:02:32.084,000 --> 0:02:33,000
+Now this is important,
+
+48
+0:02:33.278,000 --> 0:02:36,000
+because what they found working in rural communities,
+
+49
+0:02:36.339,000 --> 0:02:39,000
+is that even when they have a mobile screening van
+
+50
+0:02:39.602,000 --> 0:02:41,000
+that can go out into the community and perform exams
+
+51
+0:02:42.459,000 --> 0:02:43,000
+and collect samples
+
+52
+0:02:43.888,000 --> 0:02:46,000
+and send them to the central hospital for analysis,
+
+53
+0:02:47.128,000 --> 0:02:48,000
+that days later,
+
+54
+0:02:48.496,000 --> 0:02:5,000
+women get a call with an abnormal test result
+
+55
+0:02:51.187,000 --> 0:02:52,000
+and they're asked to come in.
+
+56
+0:02:52.828,000 --> 0:02:56,000
+Fully half of them don't turn up because they can't afford the trip.
+
+57
+0:02:57.721,000 --> 0:03:,000
+With the integrated microscope and computer analysis,
+
+58
+0:03:01.169,000 --> 0:03:03,000
+Rebecca and her colleagues have been able to create a van
+
+59
+0:03:04.021,000 --> 0:03:07,000
+that has both a diagnostic setup and a treatment setup.
+
+60
+0:03:07.831,000 --> 0:03:09,000
+And what that means is that they can do a diagnosis
+
+61
+0:03:10.569,000 --> 0:03:12,000
+and perform therapy on the spot,
+
+62
+0:03:13.28,000 --> 0:03:15,000
+so no one is lost to follow up.
+
+63
+0:03:15.831,000 --> 0:03:18,000
+That's just one example of how miniaturization can save lives.
+
+64
+0:03:20.148,000 --> 0:03:21,000
+Now as engineers,
+
+65
+0:03:21.325,000 --> 0:03:23,000
+we think of this as straight-up miniaturization.
+
+66
+0:03:24.094,000 --> 0:03:26,000
+You took a big thing and you made it little.
+
+67
+0:03:26.555,000 --> 0:03:28,000
+But what I told you before about computers
+
+68
+0:03:28.83,000 --> 0:03:3,000
+was that they transformed our lives
+
+69
+0:03:31.1,000 --> 0:03:35,000
+when they became small enough for us to take them everywhere.
+
+70
+0:03:35.785,000 --> 0:03:39,000
+So what is the transformational equivalent like that in medicine?
+
+71
+0:03:40.5,000 --> 0:03:43,000
+Well, what if you had a detector
+
+72
+0:03:43.66,000 --> 0:03:47,000
+that was so small that it could circulate in your body,
+
+73
+0:03:47.946,000 --> 0:03:49,000
+find the tumor all by itself
+
+74
+0:03:50.383,000 --> 0:03:52,000
+and send a signal to the outside world?
+
+75
+0:03:53.079,000 --> 0:03:55,000
+It sounds a little bit like science fiction.
+
+76
+0:03:55.18,000 --> 0:03:58,000
+But actually, nanotechnology allows us to do just that.
+
+77
+0:03:59.415,000 --> 0:04:03,000
+Nanotechnology allows us to shrink the parts that make up the detector
+
+78
+0:04:04.32,000 --> 0:04:05,000
+from the width of a human hair,
+
+79
+0:04:06.181,000 --> 0:04:07,000
+which is 100 microns,
+
+80
+0:04:07.865,000 --> 0:04:09,000
+to a thousand times smaller,
+
+81
+0:04:10.444,000 --> 0:04:11,000
+which is 100 nanometers.
+
+82
+0:04:12.37,000 --> 0:04:14,000
+And that has profound implications.
+
+83
+0:04:15.583,000 --> 0:04:18,000
+It turns out that materials actually change their properties
+
+84
+0:04:19.25,000 --> 0:04:2,000
+at the nanoscale.
+
+85
+0:04:21.279,000 --> 0:04:23,000
+You take a common material like gold,
+
+86
+0:04:23.801,000 --> 0:04:26,000
+and you grind it into dust, into gold nanoparticles,
+
+87
+0:04:27.146,000 --> 0:04:3,000
+and it changes from looking gold to looking red.
+
+88
+0:04:31.082,000 --> 0:04:34,000
+If you take a more exotic material like cadmium selenide --
+
+89
+0:04:34.919,000 --> 0:04:36,000
+forms a big, black crystal --
+
+90
+0:04:37.117,000 --> 0:04:39,000
+if you make nanocrystals out of this material
+
+91
+0:04:39.742,000 --> 0:04:4,000
+and you put it in a liquid,
+
+92
+0:04:41.339,000 --> 0:04:42,000
+and you shine light on it,
+
+93
+0:04:43.187,000 --> 0:04:44,000
+they glow.
+
+94
+0:04:44.377,000 --> 0:04:49,000
+And they glow blue, green, yellow, orange, red,
+
+95
+0:04:50.032,000 --> 0:04:52,000
+depending only on their size.
+
+96
+0:04:52.887,000 --> 0:04:56,000
+It's wild! Can you imagine an object like that in the macro world?
+
+97
+0:04:56.914,000 --> 0:05:02,000
+It would be like all the denim jeans in your closet are all made of cotton,
+
+98
+0:05:03.509,000 --> 0:05:07,000
+but they are different colors depending only on their size.
+
+99
+0:05:08.212,000 --> 0:05:09,000
+(Laughter)
+
+100
+0:05:10.982,000 --> 0:05:11,000
+So as a physician,
+
+101
+0:05:12.53,000 --> 0:05:14,000
+what's just as interesting to me
+
+102
+0:05:14.778,000 --> 0:05:16,000
+is that it's not just the color of materials
+
+103
+0:05:17.102,000 --> 0:05:18,000
+that changes at the nanoscale;
+
+104
+0:05:19.057,000 --> 0:05:22,000
+the way they travel in your body also changes.
+
+105
+0:05:23.137,000 --> 0:05:25,000
+And this is the kind of observation that we're going to use
+
+106
+0:05:25.96,000 --> 0:05:27,000
+to make a better cancer detector.
+
+107
+0:05:28.158,000 --> 0:05:29,000
+So let me show you what I mean.
+
+108
+0:05:30.686,000 --> 0:05:32,000
+This is a blood vessel in the body.
+
+109
+0:05:32.907,000 --> 0:05:34,000
+Surrounding the blood vessel is a tumor.
+
+110
+0:05:35.683,000 --> 0:05:38,000
+We're going to inject nanoparticles into the blood vessel
+
+111
+0:05:38.748,000 --> 0:05:42,000
+and watch how they travel from the bloodstream into the tumor.
+
+112
+0:05:43.464,000 --> 0:05:47,000
+Now it turns out that the blood vessels of many tumors are leaky,
+
+113
+0:05:47.84,000 --> 0:05:51,000
+and so nanoparticles can leak out from the bloodstream into the tumor.
+
+114
+0:05:52.628,000 --> 0:05:55,000
+Whether they leak out depends on their size.
+
+115
+0:05:56.129,000 --> 0:05:57,000
+So in this image,
+
+116
+0:05:57.303,000 --> 0:06:01,000
+the smaller, hundred-nanometer, blue nanoparticles are leaking out,
+
+117
+0:06:01.698,000 --> 0:06:04,000
+and the larger, 500-nanometer, red nanoparticles
+
+118
+0:06:05.118,000 --> 0:06:06,000
+are stuck in the bloodstream.
+
+119
+0:06:06.919,000 --> 0:06:08,000
+So that means as an engineer,
+
+120
+0:06:09.046,000 --> 0:06:12,000
+depending on how big or small I make a material,
+
+121
+0:06:13.062,000 --> 0:06:16,000
+I can change where it goes in your body.
+
+122
+0:06:17.249,000 --> 0:06:21,000
+In my lab, we recently made a cancer nanodetector
+
+123
+0:06:21.915,000 --> 0:06:26,000
+that is so small that it could travel into the body and look for tumors.
+
+124
+0:06:27.477,000 --> 0:06:31,000
+We designed it to listen for tumor invasion:
+
+125
+0:06:31.593,000 --> 0:06:35,000
+the orchestra of chemical signals that tumors need to make to spread.
+
+126
+0:06:36.932,000 --> 0:06:38,000
+For a tumor to break out of the tissue that it's born in,
+
+127
+0:06:39.858,000 --> 0:06:41,000
+it has to make chemicals called enzymes
+
+128
+0:06:42.598,000 --> 0:06:44,000
+to chew through the scaffolding of tissues.
+
+129
+0:06:45.763,000 --> 0:06:49,000
+We designed these nanoparticles to be activated by these enzymes.
+
+130
+0:06:51.034,000 --> 0:06:56,000
+One enzyme can activate a thousand of these chemical reactions in an hour.
+
+131
+0:06:57.462,000 --> 0:07:,000
+Now in engineering, we call that one-to-a-thousand ratio
+
+132
+0:07:01.044,000 --> 0:07:02,000
+a form of amplification,
+
+133
+0:07:02.633,000 --> 0:07:04,000
+and it makes something ultrasensitive.
+
+134
+0:07:04.829,000 --> 0:07:07,000
+So we've made an ultrasensitive cancer detector.
+
+135
+0:07:09.22,000 --> 0:07:13,000
+OK, but how do I get this activated signal to the outside world,
+
+136
+0:07:14.144,000 --> 0:07:15,000
+where I can act on it?
+
+137
+0:07:15.906,000 --> 0:07:18,000
+For this, we're going to use one more piece of nanoscale biology,
+
+138
+0:07:19.482,000 --> 0:07:2,000
+and that has to do with the kidney.
+
+139
+0:07:21.659,000 --> 0:07:22,000
+The kidney is a filter.
+
+140
+0:07:23.996,000 --> 0:07:27,000
+Its job is to filter out the blood and put waste into the urine.
+
+141
+0:07:29.197,000 --> 0:07:31,000
+It turns out that what the kidney filters
+
+142
+0:07:31.883,000 --> 0:07:33,000
+is also dependent on size.
+
+143
+0:07:34.901,000 --> 0:07:35,000
+So in this image, what you can see
+
+144
+0:07:36.865,000 --> 0:07:39,000
+is that everything smaller than five nanometers
+
+145
+0:07:39.898,000 --> 0:07:43,000
+is going from the blood, through the kidney, into the urine,
+
+146
+0:07:44.027,000 --> 0:07:46,000
+and everything else that's bigger is retained.
+
+147
+0:07:47.176,000 --> 0:07:51,000
+OK, so if I make a 100-nanometer cancer detector,
+
+148
+0:07:52.147,000 --> 0:07:54,000
+I inject it in the bloodstream,
+
+149
+0:07:54.643,000 --> 0:07:59,000
+it can leak into the tumor where it's activated by tumor enzymes
+
+150
+0:08:00.097,000 --> 0:08:02,000
+to release a small signal
+
+151
+0:08:02.477,000 --> 0:08:05,000
+that is small enough to be filtered out of the kidney
+
+152
+0:08:05.723,000 --> 0:08:07,000
+and put into the urine,
+
+153
+0:08:07.925,000 --> 0:08:11,000
+I have a signal in the outside world that I can detect.
+
+154
+0:08:12.588,000 --> 0:08:14,000
+OK, but there's one more problem.
+
+155
+0:08:14.664,000 --> 0:08:15,000
+This is a tiny little signal,
+
+156
+0:08:16.434,000 --> 0:08:17,000
+so how do I detect it?
+
+157
+0:08:18.73,000 --> 0:08:2,000
+Well, the signal is just a molecule.
+
+158
+0:08:20.989,000 --> 0:08:22,000
+They're molecules that we designed as engineers.
+
+159
+0:08:23.68,000 --> 0:08:26,000
+They're completely synthetic, and we can design them
+
+160
+0:08:26.882,000 --> 0:08:29,000
+so they are compatible with our tool of choice.
+
+161
+0:08:30.145,000 --> 0:08:33,000
+If we want to use a really sensitive, fancy instrument
+
+162
+0:08:33.611,000 --> 0:08:34,000
+called a mass spectrometer,
+
+163
+0:08:35.599,000 --> 0:08:37,000
+then we make a molecule with a unique mass.
+
+164
+0:08:38.671,000 --> 0:08:41,000
+Or maybe we want make something that's more inexpensive and portable.
+
+165
+0:08:42.394,000 --> 0:08:45,000
+Then we make molecules that we can trap on paper,
+
+166
+0:08:46.201,000 --> 0:08:47,000
+like a pregnancy test.
+
+167
+0:08:47.929,000 --> 0:08:49,000
+In fact, there's a whole world of paper tests
+
+168
+0:08:50.579,000 --> 0:08:54,000
+that are becoming available in a field called paper diagnostics.
+
+169
+0:08:55.711,000 --> 0:08:57,000
+Alright, where are we going with this?
+
+170
+0:08:58.724,000 --> 0:08:59,000
+What I'm going to tell you next,
+
+171
+0:09:00.317,000 --> 0:09:01,000
+as a lifelong researcher,
+
+172
+0:09:02.167,000 --> 0:09:03,000
+represents a dream of mine.
+
+173
+0:09:04.396,000 --> 0:09:06,000
+I can't say that's it's a promise;
+
+174
+0:09:06.513,000 --> 0:09:07,000
+it's a dream.
+
+175
+0:09:08.029,000 --> 0:09:11,000
+But I think we all have to have dreams to keep us pushing forward,
+
+176
+0:09:11.64,000 --> 0:09:14,000
+even -- and maybe especially -- cancer researchers.
+
+177
+0:09:15.601,000 --> 0:09:18,000
+I'm going to tell you what I hope will happen with my technology,
+
+178
+0:09:19.124,000 --> 0:09:23,000
+that my team and I will put our hearts and souls
+
+179
+0:09:23.239,000 --> 0:09:24,000
+into making a reality.
+
+180
+0:09:25.289,000 --> 0:09:26,000
+OK, here goes.
+
+181
+0:09:27.011,000 --> 0:09:3,000
+I dream that one day,
+
+182
+0:09:30.39,000 --> 0:09:33,000
+instead of going into an expensive screening facility
+
+183
+0:09:33.669,000 --> 0:09:34,000
+to get a colonoscopy,
+
+184
+0:09:35.198,000 --> 0:09:36,000
+or a mammogram,
+
+185
+0:09:36.545,000 --> 0:09:37,000
+or a pap smear,
+
+186
+0:09:38.585,000 --> 0:09:39,000
+that you could get a shot,
+
+187
+0:09:40.328,000 --> 0:09:41,000
+wait an hour,
+
+188
+0:09:42.012,000 --> 0:09:44,000
+and do a urine test on a paper strip.
+
+189
+0:09:45.653,000 --> 0:09:47,000
+I imagine that this could even happen
+
+190
+0:09:48.484,000 --> 0:09:5,000
+without the need for steady electricity,
+
+191
+0:09:51.171,000 --> 0:09:53,000
+or a medical professional in the room.
+
+192
+0:09:53.799,000 --> 0:09:54,000
+Maybe they could be far away
+
+193
+0:09:55.32,000 --> 0:09:57,000
+and connected only by the image on a smartphone.
+
+194
+0:09:58.854,000 --> 0:09:59,000
+Now I know this sounds like a dream,
+
+195
+0:10:00.613,000 --> 0:10:03,000
+but in the lab we already have this working in mice,
+
+196
+0:10:03.756,000 --> 0:10:05,000
+where it works better than existing methods
+
+197
+0:10:05.859,000 --> 0:10:08,000
+for the detection of lung, colon and ovarian cancer.
+
+198
+0:10:10.603,000 --> 0:10:12,000
+And I hope that what this means
+
+199
+0:10:12.861,000 --> 0:10:17,000
+is that one day we can detect tumors in patients
+
+200
+0:10:18.061,000 --> 0:10:21,000
+sooner than 10 years after they've started growing,
+
+201
+0:10:21.378,000 --> 0:10:22,000
+in all walks of life,
+
+202
+0:10:23.387,000 --> 0:10:24,000
+all around the globe,
+
+203
+0:10:25.26,000 --> 0:10:27,000
+and that this would lead to earlier treatments,
+
+204
+0:10:28.019,000 --> 0:10:31,000
+and that we could save more lives than we can today,
+
+205
+0:10:31.641,000 --> 0:10:32,000
+with early detection.
+
+206
+0:10:33.686,000 --> 0:10:34,000
+Thank you.
+
+207
+0:10:34.892,000 --> 0:10:41,000
+(Applause)
+

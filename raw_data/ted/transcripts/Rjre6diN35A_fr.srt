@@ -1,0 +1,988 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Morgane Quilfen Relecteur: Tony Brosse
+
+2
+0:00:12.722,000 --> 0:00:15,000
+Nous devons créer un service météorologique pour l'eau.
+
+3
+0:00:16.236,000 --> 0:00:19,000
+Jusqu'à ce que, collectivement, nous exigions des comptes,
+
+4
+0:00:19.634,000 --> 0:00:21,000
+il n'y aura pas d'incitations à le financer.
+
+5
+0:00:23.805,000 --> 0:00:27,000
+Ma première intervention à une conférence, c'était à TED, il y a huit ans.
+
+6
+0:00:28.768,000 --> 0:00:29,000
+Je sortais de l'université,
+
+7
+0:00:30.08,000 --> 0:00:32,000
+j'ignorais qu'en ces quelques minutes sur scène,
+
+8
+0:00:32.958,000 --> 0:00:34,000
+je définissais les questions que l'on allait me poser
+
+9
+0:00:35.516,000 --> 0:00:36,000
+durant la décennie suivante.
+
+10
+0:00:37.599,000 --> 0:00:39,000
+Comme beaucoup de gens dans la vingtaine,
+
+11
+0:00:40.135,000 --> 0:00:42,000
+je m'attendais à résoudre les problèmes mondiaux --
+
+12
+0:00:42.635,000 --> 0:00:44,000
+plus spécifiquement, les problèmes mondiaux liés à l'eau --
+
+13
+0:00:45.427,000 --> 0:00:46,000
+avec mes technologies.
+
+14
+0:00:48.044,000 --> 0:00:49,000
+J'avais tant à apprendre.
+
+15
+0:00:50.63,000 --> 0:00:51,000
+C'était séduisant
+
+16
+0:00:52.138,000 --> 0:00:56,000
+de croire que nos plus gros problèmes de qualité de l'eau persistaient
+
+17
+0:00:56.494,000 --> 0:00:58,000
+car ils étaient si difficiles à identifier.
+
+18
+0:00:59.532,000 --> 0:01:,000
+Je supposais
+
+19
+0:01:01.223,000 --> 0:01:06,000
+que nous n'avions besoin que de capteurs plus simples, rapides et abordables.
+
+20
+0:01:07.071,000 --> 0:01:08,000
+J'avais tort.
+
+21
+0:01:09.512,000 --> 0:01:13,000
+S'il est vrai que gérer les risques de demain liés à l'eau
+
+22
+0:01:13.659,000 --> 0:01:17,000
+nécessitera de meilleures données et plus de technologie,
+
+23
+0:01:17.753,000 --> 0:01:21,000
+aujourd'hui, on utilise à peine le peu de données qu'on a sur l'eau.
+
+24
+0:01:22.814,000 --> 0:01:26,000
+Nos plus gros problèmes liés à l'eau persistent à cause de ce qu'on ne fait pas
+
+25
+0:01:27.525,000 --> 0:01:29,000
+et des problèmes qu'on ne reconnaît pas.
+
+26
+0:01:31.151,000 --> 0:01:32,000
+Il y a peu de doutes
+
+27
+0:01:32.788,000 --> 0:01:36,000
+sur ce que les données actuelles sur l'eau nous demande en tant qu'espèce :
+
+28
+0:01:37.659,000 --> 0:01:38,000
+nous devons plus économiser
+
+29
+0:01:39.467,000 --> 0:01:4,000
+et nous devons moins polluer.
+
+30
+0:01:42.364,000 --> 0:01:45,000
+Mais les données actuelles n'aideront pas à prévoir les nouveaux risques
+
+31
+0:01:46.712,000 --> 0:01:48,000
+pour les entreprises et les marchés.
+
+32
+0:01:48.948,000 --> 0:01:51,000
+Elles deviennent vite inutiles dans ce domaine.
+
+33
+0:01:52.039,000 --> 0:01:53,000
+Elles avaient plus de valeur
+
+34
+0:01:54.021,000 --> 0:01:57,000
+mais elles ne nous ont jamais indiqué avec grande précision
+
+35
+0:01:58.04,000 --> 0:01:59,000
+notre quantité d'eau
+
+36
+0:01:59.606,000 --> 0:02:,000
+ou ce qu'elle contient.
+
+37
+0:02:01.899,000 --> 0:02:03,000
+Considérons les statistiques sur l'utilisation de l'eau
+
+38
+0:02:04.846,000 --> 0:02:07,000
+de la dernière décennie pour chacune des nations du G20.
+
+39
+0:02:08.546,000 --> 0:02:1,000
+Ce que ces chiffres ne vous disent pas,
+
+40
+0:02:11.133,000 --> 0:02:16,000
+c'est qu'aucun de ces pays ne mesure directement son utilisation de l'eau.
+
+41
+0:02:16.221,000 --> 0:02:17,000
+Ce sont des estimations
+
+42
+0:02:17.529,000 --> 0:02:19,000
+et elles s'appuient sur des modèles dépassés
+
+43
+0:02:20.176,000 --> 0:02:22,000
+qui ne considèrent pas la crise climatique
+
+44
+0:02:23.034,000 --> 0:02:26,000
+ou son incidence sur l'eau.
+
+45
+0:02:28.037,000 --> 0:02:32,000
+En 2015, Chennai, la sixième plus grosse ville indienne,
+
+46
+0:02:32.103,000 --> 0:02:35,000
+a été touchée par les pires inondations qu'elle ait vues depuis un siècle.
+
+47
+0:02:37.1,000 --> 0:02:4,000
+Aujourd'hui, ses réservoirs d'eau sont presque vides.
+
+48
+0:02:40.862,000 --> 0:02:43,000
+Il a fallu trois ans pour en arriver là
+
+49
+0:02:43.888,000 --> 0:02:45,000
+avec des précipitations plus faibles que la moyenne.
+
+50
+0:02:46.327,000 --> 0:02:49,000
+C'est plus rapide que la compilation des données sur l'eau
+
+51
+0:02:49.535,000 --> 0:02:52,000
+de la majorité des nations, y compris les États-Unis.
+
+52
+0:02:53.2,000 --> 0:02:55,000
+Même s'il y avait des estimations
+
+53
+0:02:55.832,000 --> 0:02:59,000
+prédisant de graves pénuries d'eau à Chennai,
+
+54
+0:03:00.088,000 --> 0:03:03,000
+aucune d'entre elles ne pouvait nous aider à identifier exactement quand ni où
+
+55
+0:03:03.776,000 --> 0:03:04,000
+cela allait se produire.
+
+56
+0:03:05.536,000 --> 0:03:08,000
+C'est un nouveau genre de problème lié à l'eau
+
+57
+0:03:08.601,000 --> 0:03:13,000
+car le rythme de tous les aspects des changements de notre cycle de l'eau
+
+58
+0:03:13.939,000 --> 0:03:14,000
+est en train de s'accélérer.
+
+59
+0:03:15.392,000 --> 0:03:18,000
+Comme un avertissement de l'ONU de ce mois-ci l'a révélé,
+
+60
+0:03:18.741,000 --> 0:03:23,000
+nous sommes confrontés, chaque semaine, à une nouvelle urgence climatique.
+
+61
+0:03:26.089,000 --> 0:03:29,000
+Il y a de plus grandes incertitudes sur la qualité de l'eau à venir.
+
+62
+0:03:29.344,000 --> 0:03:32,000
+C'est rare dans la plupart des pays que les étendues d'eau soient testées
+
+63
+0:03:33.165,000 --> 0:03:35,000
+pour plus d'une poignée de contaminants par an.
+
+64
+0:03:36.04,000 --> 0:03:39,000
+Au lieu de tester, nous utilisons le « modèle de dilution »
+
+65
+0:03:39.225,000 --> 0:03:4,000
+pour gérer la pollution.
+
+66
+0:03:41.011,000 --> 0:03:44,000
+Imaginez que je prenne une piscine olympique,
+
+67
+0:03:44.703,000 --> 0:03:47,000
+que je la remplisse d'eau fraîche et y j'ajoute une goutte de mercure.
+
+68
+0:03:48.06,000 --> 0:03:5,000
+Cela se diluerait et représenterait un millionième de mercure,
+
+69
+0:03:50.962,000 --> 0:03:52,000
+ce qui est bien inférieur à ce que l'OMS
+
+70
+0:03:53.619,000 --> 0:03:54,000
+considère sans danger.
+
+71
+0:03:55.069,000 --> 0:03:59,000
+Mais s'il y avait une baisse imprévue de la quantité d'eau disponible --
+
+72
+0:03:59.303,000 --> 0:04:03,000
+moins d'eaux souterraines, d'écoulements, moins d'eau dans la piscine --
+
+73
+0:04:04.244,000 --> 0:04:05,000
+il y aurait moins de dilution
+
+74
+0:04:06.225,000 --> 0:04:08,000
+et les choses deviendraient plus toxiques.
+
+75
+0:04:09.049,000 --> 0:04:12,000
+Voici comment la plupart des pays gèrent la pollution.
+
+76
+0:04:12.438,000 --> 0:04:15,000
+Ils utilisent ce modèle pour leur dire quelle pollution est sans danger.
+
+77
+0:04:16.146,000 --> 0:04:18,000
+Il y a là de claires vulnérabilités
+
+78
+0:04:18.295,000 --> 0:04:2,000
+mais cela a assez bien marché avec une eau abondante
+
+79
+0:04:20.961,000 --> 0:04:22,000
+et des régimes climatiques réguliers.
+
+80
+0:04:23.751,000 --> 0:04:27,000
+Maintenant que ce n'est plus le cas, nous allons devoir investir et développer
+
+81
+0:04:27.811,000 --> 0:04:29,000
+de nouvelles stratégies de collecte de données.
+
+82
+0:04:30.161,000 --> 0:04:34,000
+Avant de faire cela, nous devons commencer à agir avec les données que nous avons.
+
+83
+0:04:34.944,000 --> 0:04:36,000
+Voici un incendie de carburéacteur.
+
+84
+0:04:37.09,000 --> 0:04:38,000
+Comme vous le savez peut-être,
+
+85
+0:04:38.95,000 --> 0:04:41,000
+les émissions du kérosène ont un rôle dans le changement climatique.
+
+86
+0:04:42.477,000 --> 0:04:45,000
+Vous ne savez peut-être pas que le département américain de la défense
+
+87
+0:04:45.965,000 --> 0:04:47,000
+est le plus gros consommateur mondial de kérosène.
+
+88
+0:04:48.772,000 --> 0:04:49,000
+Quand il consomme du kérosène,
+
+89
+0:04:50.526,000 --> 0:04:53,000
+il mandate l'utilisation d'une mousse extinctrice, comme sur cette image,
+
+90
+0:04:54.516,000 --> 0:04:57,000
+contenant des produits chimiques : les tensioactifs fluorés.
+
+91
+0:04:57.977,000 --> 0:05:,000
+Personne n'utilise cette mousse à part le département américain de la défense
+
+92
+0:05:01.658,000 --> 0:05:05,000
+et à chaque utilisation, ces tensioactifs vont jusqu'à nos réseaux d'eau.
+
+93
+0:05:06.582,000 --> 0:05:1,000
+Dans le monde, les armées utilisent cette mousse depuis les années 70.
+
+94
+0:05:11.511,000 --> 0:05:14,000
+Les tensioactifs fluorés entraînent cancers et malformations congénitales
+
+95
+0:05:15.081,000 --> 0:05:17,000
+et sont si omniprésents dans l'environnement
+
+96
+0:05:17.952,000 --> 0:05:21,000
+que nous les trouvons dans presque tous les organisme vivants que nous testons,
+
+97
+0:05:22.262,000 --> 0:05:23,000
+nous y compris.
+
+98
+0:05:25.073,000 --> 0:05:28,000
+Mais jusqu'ici, le département américain de la défense n'a pas été tenu responsable
+
+99
+0:05:29.059,000 --> 0:05:31,000
+pour la contamination aux tensioactifs fluorés
+
+100
+0:05:31.291,000 --> 0:05:32,000
+ni poursuivi.
+
+101
+0:05:32.969,000 --> 0:05:35,000
+Même s'il y a un actuellement un effort pour éliminer ces mousses extinctrices,
+
+102
+0:05:36.956,000 --> 0:05:39,000
+ils n'adoptent pas d'alternatives plus sûres ou efficaces.
+
+103
+0:05:40.493,000 --> 0:05:42,000
+Ils utilisent d'autres molécules de tensioactifs fluorés
+
+104
+0:05:43.354,000 --> 0:05:48,000
+qui pourraient avoir de pires conséquences sur la santé.
+
+105
+0:05:49.969,000 --> 0:05:53,000
+Aujourd'hui, la responsabilité du gouvernement s'érode,
+
+106
+0:05:56.544,000 --> 0:06:,000
+et le risque de responsabilité pour la pollution de l'eau disparaît.
+
+107
+0:06:02.029,000 --> 0:06:06,000
+Quel genre de motivations cela crée-t-il pour investir dans l'avenir de notre eau ?
+
+108
+0:06:07.19,000 --> 0:06:12,000
+Au cours de la dernière décennie, l'investissement initial mondial moyen
+
+109
+0:06:12.94,000 --> 0:06:14,000
+dans les entreprises des technologies de l'eau
+
+110
+0:06:15.391,000 --> 0:06:17,000
+était de moins de 30 millions de dollars par an au total.
+
+111
+0:06:18.919,000 --> 0:06:24,000
+C'est 0,12% du capital de risque mondial pour les entreprises en amorçage.
+
+112
+0:06:27.035,000 --> 0:06:31,000
+Les dépenses publiques n'augmentent pas assez vite.
+
+113
+0:06:31.629,000 --> 0:06:35,000
+Un examen plus approfondi révèle que l'eau n'est pas une priorité.
+
+114
+0:06:36.371,000 --> 0:06:41,000
+En 2014, le gouvernement américain dépensait 11 dollars par citoyen
+
+115
+0:06:41.803,000 --> 0:06:42,000
+pour l'infrastructure hydraulique,
+
+116
+0:06:43.717,000 --> 0:06:47,000
+contre 251 dollars pour l'infrastructure informatique.
+
+117
+0:06:48.478,000 --> 0:06:51,000
+Quand nous n'utilisons pas les données que nous avons,
+
+118
+0:06:51.719,000 --> 0:06:54,000
+nous n'encourageons pas l'investissement dans les nouvelles technologies,
+
+119
+0:06:55.148,000 --> 0:06:56,000
+ni plus de collectes de données
+
+120
+0:06:56.666,000 --> 0:07:01,000
+et certainement pas l'investissement pour assurer l'avenir de l'eau.
+
+121
+0:07:02.82,000 --> 0:07:03,000
+Sommes-nous condamnés ?
+
+122
+0:07:05.477,000 --> 0:07:06,000
+En partie, j'apprends toujours
+
+123
+0:07:07.212,000 --> 0:07:09,000
+comment contrebalancer la tragique destinée et l'urgence
+
+124
+0:07:09.878,000 --> 0:07:11,000
+par des choses que nous pouvons faire,
+
+125
+0:07:12.358,000 --> 0:07:14,000
+parce que Greta Thunberg et l'Extinction Rebellion
+
+126
+0:07:15.208,000 --> 0:07:17,000
+ne veulent pas de notre espoir, mais de nos actions.
+
+127
+0:07:17.664,000 --> 0:07:18,000
+Que pouvons-nous faire ?
+
+128
+0:07:19.872,000 --> 0:07:23,000
+Il est difficile d'imaginer la vie sans un service météorologique,
+
+129
+0:07:24.756,000 --> 0:07:26,000
+mais avant les prévisions météorologiques modernes,
+
+130
+0:07:27.161,000 --> 0:07:29,000
+nous n'avions pas de transport aérien commercial,
+
+131
+0:07:29.456,000 --> 0:07:32,000
+il était courant que des bateaux soient perdus en mer
+
+132
+0:07:33.112,000 --> 0:07:36,000
+et une seule tempête pouvait entraîner une pénurie alimentaire.
+
+133
+0:07:37.46,000 --> 0:07:39,000
+Avec les réseaux radiophoniques et télégraphiques,
+
+134
+0:07:39.92,000 --> 0:07:42,000
+tout ce qui était nécessaire pour résoudre ces problèmes
+
+135
+0:07:43.252,000 --> 0:07:45,000
+était de suivre le mouvement des tempêtes.
+
+136
+0:07:46.705,000 --> 0:07:5,000
+Cela a établi les fondations d'un effort mondial de collecte de données
+
+137
+0:07:51.113,000 --> 0:07:55,000
+dont dépendent aujourd'hui tous les foyers et toutes les entreprises.
+
+138
+0:07:55.987,000 --> 0:07:58,000
+C'est autant le résultat d'une collecte de données coordonnée et régulière
+
+139
+0:07:59.848,000 --> 0:08:01,000
+que le résultat
+
+140
+0:08:02.109,000 --> 0:08:05,000
+de l'établissement d'une culture qui voyait une grande valeur
+
+141
+0:08:05.179,000 --> 0:08:09,000
+dans l'évaluation ouverte et le partage de tout ce qu'elle pouvait découvrir
+
+142
+0:08:10.05,000 --> 0:08:12,000
+quant aux risques auxquels nous sommes confrontés.
+
+143
+0:08:13.108,000 --> 0:08:15,000
+Un service météorologique mondial pour l'eau
+
+144
+0:08:15.41,000 --> 0:08:17,000
+pourrait nous aider à prévoir les pénuries d'eau.
+
+145
+0:08:17.77,000 --> 0:08:19,000
+Il pourrait nous aider à mettre en place un rationnement
+
+146
+0:08:20.542,000 --> 0:08:22,000
+bien avant que les réservoirs ne s'assèchent,
+
+147
+0:08:23.942,000 --> 0:08:26,000
+à détecter une contamination avant qu'elle ne se répande,
+
+148
+0:08:27.221,000 --> 0:08:29,000
+à protéger nos chaînes d'approvisionnement,
+
+149
+0:08:29.625,000 --> 0:08:32,000
+à assurer l'approvisionnement alimentaire et peut-être le plus important,
+
+150
+0:08:33.173,000 --> 0:08:36,000
+il nous permettrait de faire une estimation précise du risque
+
+151
+0:08:36.635,000 --> 0:08:38,000
+nécessaire pour nous en prémunir.
+
+152
+0:08:40.062,000 --> 0:08:43,000
+Nous savons que nous pouvons le faire, nous l'avons fait avec la météo.
+
+153
+0:08:43.399,000 --> 0:08:45,000
+Mais cela va nécessiter des ressources.
+
+154
+0:08:46.683,000 --> 0:08:48,000
+Nous devons encourager plus d'investissement dans l'eau.
+
+155
+0:08:49.513,000 --> 0:08:51,000
+Investisseurs, investisseurs en capital-risque :
+
+156
+0:08:51.795,000 --> 0:08:54,000
+une part de vos fonds et portefeuilles devrait être dédiée à l'eau.
+
+157
+0:08:55.715,000 --> 0:08:56,000
+Rien n'a plus de valeur
+
+158
+0:08:57.283,000 --> 0:09:,000
+et les entreprises auront besoin de comprendre les risques liés à l'eau
+
+159
+0:09:01.078,000 --> 0:09:04,000
+afin de demeurer compétitives dans le monde vers lequel nous allons.
+
+160
+0:09:05.22,000 --> 0:09:07,000
+À part le capital-risque,
+
+161
+0:09:07.479,000 --> 0:09:1,000
+il y a beaucoup de programmes gouvernementaux prometteurs
+
+162
+0:09:10.782,000 --> 0:09:13,000
+qui encouragent le développement économique via des avantages fiscaux.
+
+163
+0:09:14.665,000 --> 0:09:16,000
+Une nouvelle option aux États-Unis que mon entreprise utilise :
+
+164
+0:09:17.634,000 --> 0:09:18,000
+les « zones d'opportunité ».
+
+165
+0:09:19.651,000 --> 0:09:21,000
+Ils offrent un traitement fiscal avantageux
+
+166
+0:09:21.731,000 --> 0:09:22,000
+pour l'investissement des plus-values
+
+167
+0:09:23.581,000 --> 0:09:26,000
+dans des zones déterminées en détresse et à faibles revenus.
+
+168
+0:09:26.94,000 --> 0:09:27,000
+Ce sont des zones
+
+169
+0:09:28.761,000 --> 0:09:3,000
+également confrontées à d'énormes risques liés à l'eau
+
+170
+0:09:31.399,000 --> 0:09:33,000
+donc cela établit des incitations cruciales
+
+171
+0:09:33.596,000 --> 0:09:36,000
+pour travailler avec les communautés qui ont le plus besoin d'aide.
+
+172
+0:09:36.78,000 --> 0:09:4,000
+Si vous ne cherchez pas à faire ce genre d'investissement
+
+173
+0:09:41.131,000 --> 0:09:42,000
+mais possédez du terrain,
+
+174
+0:09:42.684,000 --> 0:09:45,000
+saviez-vous que vous pouvez mettre votre terrain à profit
+
+175
+0:09:46.262,000 --> 0:09:48,000
+pour préserver de façon permanente la qualité de l'eau
+
+176
+0:09:49.201,000 --> 0:09:51,000
+avec une servitude environnementale ?
+
+177
+0:09:51.242,000 --> 0:09:54,000
+Vous pouvez donner le droit perpétuel à une fiducie foncière locale
+
+178
+0:09:54.875,000 --> 0:09:55,000
+de préserver votre terrain
+
+179
+0:09:56.432,000 --> 0:09:58,000
+et établir des objectifs de qualité de l'eau.
+
+180
+0:09:58.536,000 --> 0:09:59,000
+Si vous atteignez ces objectifs,
+
+181
+0:10:00.204,000 --> 0:10:01,000
+vous pouvez être récompensé
+
+182
+0:10:01.518,000 --> 0:10:03,000
+avec un important rabais fiscal chaque année.
+
+183
+0:10:06.435,000 --> 0:10:1,000
+Combien de zones notre communauté mondiale pourrait-elle protéger
+
+184
+0:10:10.869,000 --> 0:10:12,000
+via ces programmes et d'autres ?
+
+185
+0:10:14.435,000 --> 0:10:17,000
+Ils sont formidables car ils offrent l'accès à une vraie propriété
+
+186
+0:10:17.942,000 --> 0:10:19,000
+nécessaire pour établir les fondations
+
+187
+0:10:20.5,000 --> 0:10:22,000
+d'un service météorologique mondial pour l'eau.
+
+188
+0:10:23.02,000 --> 0:10:27,000
+Cela ne peut marcher que si nous utilisons ces programmes
+
+189
+0:10:27.199,000 --> 0:10:28,000
+pour ce pour quoi ils sont prévus
+
+190
+0:10:28.779,000 --> 0:10:31,000
+et pas comme de simples vecteurs de fraude fiscale.
+
+191
+0:10:33.072,000 --> 0:10:35,000
+Quand la servitude environnementale a été créée,
+
+192
+0:10:35.357,000 --> 0:10:38,000
+personne ne pouvait anticiper que les entreprises pollueuses
+
+193
+0:10:38.569,000 --> 0:10:4,000
+soient si ancrées dans les mouvements environnementaux.
+
+194
+0:10:41.167,000 --> 0:10:42,000
+Nous sommes habitués
+
+195
+0:10:42.716,000 --> 0:10:44,000
+à ce que les entreprises parlent de la crise environnementale
+
+196
+0:10:45.676,000 --> 0:10:47,000
+sans rien y faire.
+
+197
+0:10:49.738,000 --> 0:10:53,000
+Cela a sapé l'héritage et l'influence de ces programmes
+
+198
+0:10:54.403,000 --> 0:10:56,000
+mais les a aussi préparés à une réhabilitation.
+
+199
+0:10:57.099,000 --> 0:11:,000
+Pourquoi ne pas utiliser les servitudes environnementales comme prévu,
+
+200
+0:11:00.387,000 --> 0:11:04,000
+pour établir et atteindre des objectifs de conservation ambitieux ?
+
+201
+0:11:04.605,000 --> 0:11:08,000
+Pourquoi ne pas créer des opportunités dans des zones sans opportunités ?
+
+202
+0:11:09.456,000 --> 0:11:13,000
+Car fondamentalement, la sécurité de l'eau nécessite une responsabilisation.
+
+203
+0:11:14.444,000 --> 0:11:17,000
+La responsabilisation, ce ne sont pas des entreprises pollueuses
+
+204
+0:11:17.866,000 --> 0:11:21,000
+sponsorisant des groupes environnementaux et des musées.
+
+205
+0:11:22.026,000 --> 0:11:24,000
+C'est un conflit d'intérêts.
+
+206
+0:11:24.083,000 --> 0:11:29,000
+(Applaudissements)
+
+207
+0:11:30.126,000 --> 0:11:32,000
+La responsabilisation, c'est :
+
+208
+0:11:33.143,000 --> 0:11:37,000
+rendre trop cher l'engagement de sa responsabilité
+
+209
+0:11:37.427,000 --> 0:11:39,000
+pour que l'on continue à polluer et gaspiller notre eau.
+
+210
+0:11:40.429,000 --> 0:11:42,000
+Nous ne pouvons plus nous contenter de mots.
+
+211
+0:11:43.233,000 --> 0:11:44,000
+Il est temps d'agir.
+
+212
+0:11:44.233,000 --> 0:11:47,000
+Quel meilleur point de départ que nos plus gros pollueurs,
+
+213
+0:11:47.725,000 --> 0:11:49,000
+en particulier le département américain de la défense,
+
+214
+0:11:50.328,000 --> 0:11:52,000
+qui est financé par les contribuables.
+
+215
+0:11:52.828,000 --> 0:11:55,000
+Qui et que protégeons-nous quand les soldats américains, leurs familles
+
+216
+0:11:56.525,000 --> 0:11:59,000
+et les gens vivant à l'étranger près de bases militaires américaines
+
+217
+0:12:00.036,000 --> 0:12:02,000
+boivent tous de l'eau toxique ?
+
+218
+0:12:02.876,000 --> 0:12:05,000
+La sécurité mondiale ne peut plus être en opposition avec la protection
+
+219
+0:12:06.537,000 --> 0:12:08,000
+de notre planète ou de notre santé collective.
+
+220
+0:12:08.811,000 --> 0:12:1,000
+Notre survie en dépend.
+
+221
+0:12:11.404,000 --> 0:12:12,000
+De façon similaire,
+
+222
+0:12:13.178,000 --> 0:12:14,000
+l'agriculture dépend souvent
+
+223
+0:12:14.878,000 --> 0:12:16,000
+de subventions financées par les contribuables
+
+224
+0:12:17.078,000 --> 0:12:18,000
+et payées aux fermiers
+
+225
+0:12:18.282,000 --> 0:12:2,000
+pour assurer et stabiliser l'approvisionnement alimentaire.
+
+226
+0:12:22.039,000 --> 0:12:26,000
+Ces aides sont un point de levier crucial pour nous
+
+227
+0:12:26.441,000 --> 0:12:28,000
+car l'agriculture est responsable
+
+228
+0:12:29.195,000 --> 0:12:33,000
+de 70% de notre consommation annuelle d'eau.
+
+229
+0:12:34.061,000 --> 0:12:36,000
+Le ruissellement des engrais et des pesticides
+
+230
+0:12:36.737,000 --> 0:12:38,000
+sont les deux plus grosses sources de pollution de l'eau.
+
+231
+0:12:39.46,000 --> 0:12:42,000
+Restructurons ces subventions pour exiger une meilleure efficacité hydrique
+
+232
+0:12:43.249,000 --> 0:12:44,000
+et moins de pollution.
+
+233
+0:12:44.995,000 --> 0:12:49,000
+(Applaudissements)
+
+234
+0:12:50.74,000 --> 0:12:51,000
+Finalement :
+
+235
+0:12:52.223,000 --> 0:12:53,000
+impossible d'attendre des progrès
+
+236
+0:12:53.805,000 --> 0:12:55,000
+en n'étant pas prêts à confronter les conflits d'intérêts
+
+237
+0:12:56.621,000 --> 0:12:57,000
+qui répriment la science,
+
+238
+0:12:58.502,000 --> 0:12:59,000
+qui sapent l'innovation
+
+239
+0:13:00.474,000 --> 0:13:02,000
+et qui découragent la transparence.
+
+240
+0:13:02.956,000 --> 0:13:03,000
+Il est dans l'intérêt public
+
+241
+0:13:04.78,000 --> 0:13:07,000
+de mesurer et partager tout ce que nous apprenons et découvrons
+
+242
+0:13:08.752,000 --> 0:13:1,000
+sur les risques liés à l'eau.
+
+243
+0:13:11.881,000 --> 0:13:14,000
+La réalité n'existe pas tant qu'elle n'est pas mesurée.
+
+244
+0:13:15.475,000 --> 0:13:18,000
+La technologie ne suffit pas à la mesurer.
+
+245
+0:13:19.298,000 --> 0:13:2,000
+Il nous faut de la volonté collective.
+
+246
+0:13:21.201,000 --> 0:13:22,000
+Merci.
+
+247
+0:13:22.559,000 --> 0:13:27,000
+(Applaudissements)
+

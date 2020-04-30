@@ -1,0 +1,1672 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elisabeth Buffard Relecteur: Patrick Brault
+
+2
+0:00:15.26,000 --> 0:00:17,000
+Combien d'entre vous ont déjà eu à remplir un formulaire en ligne
+
+3
+0:00:17.26,000 --> 0:00:19,000
+dans lequel on vous demande de lire une séquence déformée de caractères telle que ceux-là ?
+
+4
+0:00:19.26,000 --> 0:00:21,000
+Combien d'entre vous ont trouvé ça vraiment, vraiment enquiquinant ?
+
+5
+0:00:21.26,000 --> 0:00:24,000
+Ok, c'est clair. Et c'est moi qui l'ai inventé.
+
+6
+0:00:24.26,000 --> 0:00:26,000
+(rires)
+
+7
+0:00:26.26,000 --> 0:00:28,000
+Enfin, j'ai participé à son invention.
+
+8
+0:00:28.26,000 --> 0:00:3,000
+Cette chose s'appelle un CAPTCHA.
+
+9
+0:00:30.26,000 --> 0:00:32,000
+Et sa raison d'être est de vérifier que vous, l'entité qui remplit le formulaire,
+
+10
+0:00:32.26,000 --> 0:00:35,000
+êtes bien un humain et pas un quelconque programme informatique,
+
+11
+0:00:35.26,000 --> 0:00:37,000
+créé pour soumettre le formulaire des millions et des millions de fois.
+
+12
+0:00:37.26,000 --> 0:00:39,000
+La raison pour laquelle ça marche est que les humains
+
+13
+0:00:39.26,000 --> 0:00:41,000
+en tous cas les humains qui ne sont pas mal voyants,
+
+14
+0:00:41.26,000 --> 0:00:43,000
+n'ont pas de problème pour lire des caractères ondulés et déformés,
+
+15
+0:00:43.26,000 --> 0:00:46,000
+alors que les programmes informatiques ne peuvent pas encore le faire aussi bien.
+
+16
+0:00:46.26,000 --> 0:00:48,000
+Par exemple, dans le cas de "Ticketmaster",
+
+17
+0:00:48.26,000 --> 0:00:5,000
+la raison pour laquelle vous devez taper ces caractères
+
+18
+0:00:50.26,000 --> 0:00:52,000
+est d'empêcher des revendeurs au marché noir d'écrire un programme
+
+19
+0:00:52.26,000 --> 0:00:54,000
+qui pourrait acheter des millions de tickets, deux par deux.
+
+20
+0:00:54.26,000 --> 0:00:56,000
+Les CAPTCHA sont utilisés partout sur Internet.
+
+21
+0:00:56.26,000 --> 0:00:58,000
+Et comme on les utilise aussi souvent,
+
+22
+0:00:58.26,000 --> 0:01:,000
+de nombreuses fois, la séquence de caractères aléatoires qui est montrée à l'utilisateur
+
+23
+0:01:00.26,000 --> 0:01:02,000
+n'est pas très heureuse.
+
+24
+0:01:02.26,000 --> 0:01:05,000
+Voici un exemple tiré de la page d'inscription de Yahoo.
+
+25
+0:01:05.26,000 --> 0:01:07,000
+Les caractères aléatoires montrés à l'utilisateur
+
+26
+0:01:07.26,000 --> 0:01:1,000
+étaient A,T,T,E,N,D,R,E (ndlt: WAIT en anglais), qui, bien sûr, forment un mot.
+
+27
+0:01:10.26,000 --> 0:01:13,000
+Mais le plus drôle c'est le message
+
+28
+0:01:13.26,000 --> 0:01:16,000
+que l'aide en ligne de Yahoo a reçu environ 20 min plus tard.
+
+29
+0:01:16.26,000 --> 0:01:19,000
+Texte : "Aidez-moi ! J'attends depuis plus de 20 min, et il ne se passe rien."
+
+30
+0:01:19.26,000 --> 0:01:23,000
+(rires)
+
+31
+0:01:23.26,000 --> 0:01:25,000
+La personne pensait devoir attendre.
+
+32
+0:01:25.26,000 --> 0:01:28,000
+Bien sûr, ce n'est pas aussi terrible que ce qui est arrivé à cette pauvre personne (texte : redémarrez).
+
+33
+0:01:28.26,000 --> 0:01:3,000
+(rires)
+
+34
+0:01:30.26,000 --> 0:01:33,000
+Nous avons lancé le projet CAPTCHA il y a plus de 10 ans, ici, à Carnegie Mellon,
+
+35
+0:01:33.26,000 --> 0:01:35,000
+et il est maintenant utilisé partout.
+
+36
+0:01:35.26,000 --> 0:01:37,000
+Laissez-moi maintenant vous parler d'un projet que nous avons lancé quelques années plus tard,
+
+37
+0:01:37.26,000 --> 0:01:4,000
+qui est, en quelque sorte, l'étape suivante du CAPTCHA.
+
+38
+0:01:40.26,000 --> 0:01:42,000
+Il s'agit du projet que nous avons appelé reCAPTCHA,
+
+39
+0:01:42.26,000 --> 0:01:44,000
+que nous avons commencé ici à Carnegie Mellon,
+
+40
+0:01:44.26,000 --> 0:01:46,000
+puis que nous avons transformé en start-up.
+
+41
+0:01:46.26,000 --> 0:01:48,000
+Et il y environ un an et demi,
+
+42
+0:01:48.26,000 --> 0:01:5,000
+Google l'a en fait rachetée.
+
+43
+0:01:50.26,000 --> 0:01:52,000
+Laissez-moi vous raconter les débuts de ce projet.
+
+44
+0:01:52.26,000 --> 0:01:55,000
+Ce projet est né du constat suivant :
+
+45
+0:01:55.26,000 --> 0:01:57,000
+il s'avère qu'approximativement 200 millions de CAPTCHA
+
+46
+0:01:57.26,000 --> 0:02:,000
+sont tapés par des gens tous les jours dans le monde.
+
+47
+0:02:00.26,000 --> 0:02:02,000
+La première fois que j'ai entendu ça, j'étais assez fier de moi.
+
+48
+0:02:02.26,000 --> 0:02:04,000
+Je me suis dit "regarde l'influence que ma recherche a eue".
+
+49
+0:02:04.26,000 --> 0:02:06,000
+Mais ensuite, j'ai commencé à me sentir mal.
+
+50
+0:02:06.26,000 --> 0:02:08,000
+En effet, à chaque fois que vous tapez un CAPTCHA,
+
+51
+0:02:08.26,000 --> 0:02:11,000
+vous perdez en gros 10 secondes de votre temps.
+
+52
+0:02:11.26,000 --> 0:02:13,000
+Et si vous multipliez ça par 200 millions,
+
+53
+0:02:13.26,000 --> 0:02:16,000
+vous vous rendez compte que l'humanité perd environ 500 000 heures chaque jours
+
+54
+0:02:16.26,000 --> 0:02:18,000
+en tapant ces ennuyeux CAPTCHA.
+
+55
+0:02:18.26,000 --> 0:02:2,000
+Alors, j'ai commencé à me sentir mal.
+
+56
+0:02:20.26,000 --> 0:02:22,000
+(rires)
+
+57
+0:02:22.26,000 --> 0:02:25,000
+Et puis j'ai commencé à me demander, bon, bien sûr, on ne peut pas simplement se débarrasser des CAPTCHA,
+
+58
+0:02:25.26,000 --> 0:02:27,000
+car la sécurité du Web en dépend un peu.
+
+59
+0:02:27.26,000 --> 0:02:3,000
+Mais alors j'ai commencé à me demander s'il y avait moyen d'utiliser cet effort
+
+60
+0:02:30.26,000 --> 0:02:32,000
+pour quelque chose de bénéfique pour l'humanité ?
+
+61
+0:02:32.26,000 --> 0:02:34,000
+Alors, voilà.
+
+62
+0:02:34.26,000 --> 0:02:36,000
+Pendant que vous tapez un CAPTCHA, pendant ces 10 secondes,
+
+63
+0:02:36.26,000 --> 0:02:38,000
+votre cerveau fait quelque chose d'incroyable.
+
+64
+0:02:38.26,000 --> 0:02:4,000
+Votre cerveau fait quelque chose que les ordinateurs ne savent pas encore faire.
+
+65
+0:02:40.26,000 --> 0:02:43,000
+Pouvons-nous alors vous amener à faire un travail utile pendant ces 10 secondes?
+
+66
+0:02:43.26,000 --> 0:02:45,000
+Autrement dit,
+
+67
+0:02:45.26,000 --> 0:02:47,000
+y a-t-il un énorme problème que nous ne sachions pas encore résoudre à l'aide d'ordinateurs,
+
+68
+0:02:47.26,000 --> 0:02:5,000
+mais que nous puissions découper en petits bouts de 10 secondes
+
+69
+0:02:50.26,000 --> 0:02:52,000
+de façon à ce que chaque fois que quelqu'un résout un CAPTCHA,
+
+70
+0:02:52.26,000 --> 0:02:54,000
+il résout un petit bout de ce problème ?
+
+71
+0:02:54.26,000 --> 0:02:56,000
+Et la réponse est "oui", et c'est ce que nous faisons maintenant.
+
+72
+0:02:56.26,000 --> 0:02:59,000
+Ce que vous ne savez peut-être pas, c'est que maintenant, quand vous tapez un CAPTCHA,
+
+73
+0:02:59.26,000 --> 0:03:01,000
+non seulement vous vous authentifiez en tant qu'humain,
+
+74
+0:03:01.26,000 --> 0:03:03,000
+mais en plus vous contribuez à la numérisation de livres.
+
+75
+0:03:03.26,000 --> 0:03:05,000
+Laissez-moi vous expliquer comment ça marche.
+
+76
+0:03:05.26,000 --> 0:03:07,000
+Il y a plein de projets dont le but est de numériser des livres.
+
+77
+0:03:07.26,000 --> 0:03:1,000
+Google en a un. Internet Archive en a un.
+
+78
+0:03:10.26,000 --> 0:03:12,000
+Amazon, maintenant avec Kindle, essaye de numériser des livres.
+
+79
+0:03:12.26,000 --> 0:03:14,000
+Voilà en gros comment ça marche :
+
+80
+0:03:14.26,000 --> 0:03:16,000
+vous prenez un vieux livre.
+
+81
+0:03:16.26,000 --> 0:03:18,000
+Vous voyez de quoi je parle, n'est-ce pas ? Genre, un livre ?
+
+82
+0:03:18.26,000 --> 0:03:2,000
+(rires)
+
+83
+0:03:20.26,000 --> 0:03:22,000
+Donc, vous prenez un livre et vous le scannez.
+
+84
+0:03:22.26,000 --> 0:03:24,000
+Scanner un livre,
+
+85
+0:03:24.26,000 --> 0:03:26,000
+c'est comme prendre une photo numérique de chaque page du livre.
+
+86
+0:03:26.26,000 --> 0:03:28,000
+Vous avez alors une image de chaque page du livre.
+
+87
+0:03:28.26,000 --> 0:03:3,000
+Une image avec du texte pour chaque page du livre.
+
+88
+0:03:30.26,000 --> 0:03:32,000
+L’étape suivante du processus
+
+89
+0:03:32.26,000 --> 0:03:35,000
+implique que l'ordinateur sache décrypter tous les mots de l'image.
+
+90
+0:03:35.26,000 --> 0:03:37,000
+On utilise une technologie appelée ROC,
+
+91
+0:03:37.26,000 --> 0:03:39,000
+pour Reconnaissance Optique de Caractères,
+
+92
+0:03:39.26,000 --> 0:03:41,000
+qui prend une image du texte
+
+93
+0:03:41.26,000 --> 0:03:43,000
+et essaie d'identifier le texte qui s'y trouve.
+
+94
+0:03:43.26,000 --> 0:03:45,000
+Le problème est que la ROC n'est pas parfaite.
+
+95
+0:03:45.26,000 --> 0:03:47,000
+Surtout avec les vieux livres,
+
+96
+0:03:47.26,000 --> 0:03:5,000
+dont l'encre est passée, et les pages jaunies,
+
+97
+0:03:50.26,000 --> 0:03:52,000
+La ROC ne reconnait pas beaucoup mots.
+
+98
+0:03:52.26,000 --> 0:03:54,000
+Par exemple, pour des trucs écrits il y a plus de 50 ans,
+
+99
+0:03:54.26,000 --> 0:03:57,000
+l'ordinateur ne reconnait pas environ 30% des mots.
+
+100
+0:03:57.26,000 --> 0:03:59,000
+Donc maintenant
+
+101
+0:03:59.26,000 --> 0:04:01,000
+nous prenons tous les mots que l'ordinateur ne reconnait pas
+
+102
+0:04:01.26,000 --> 0:04:03,000
+et des gens les lisent pour nous
+
+103
+0:04:03.26,000 --> 0:04:05,000
+quand ils tapent un CAPTCHA sur Internet.
+
+104
+0:04:05.26,000 --> 0:04:08,000
+Alors, la prochaine fois que vous tapez un CAPTCHA, ces mots que vous taperez
+
+105
+0:04:08.26,000 --> 0:04:11,000
+seront en fait des mots venant de livres en cours de numérisation
+
+106
+0:04:11.26,000 --> 0:04:13,000
+que l'ordinateur n'a pas su reconnaitre.
+
+107
+0:04:13.26,000 --> 0:04:15,000
+Et la raison pour laquelle nous avons deux mots, et non pas un seul,
+
+108
+0:04:15.26,000 --> 0:04:17,000
+est qu'un de ces mots
+
+109
+0:04:17.26,000 --> 0:04:19,000
+est un mot que le système a tiré d'un livre,
+
+110
+0:04:19.26,000 --> 0:04:22,000
+sans savoir ce que c'est, et il va vous le montrer.
+
+111
+0:04:22.26,000 --> 0:04:25,000
+Mais comme il ne connait pas la bonne réponse, il ne peut pas évaluer la vôtre.
+
+112
+0:04:25.26,000 --> 0:04:27,000
+Donc nous vous en donnons un autre,
+
+113
+0:04:27.26,000 --> 0:04:29,000
+un pour lequel le système connait la réponse.
+
+114
+0:04:29.26,000 --> 0:04:31,000
+Nous ne vous disons pas lequel est lequel, et nous vous demandons de taper les deux.
+
+115
+0:04:31.26,000 --> 0:04:33,000
+Et si vous tapez le bon mot
+
+116
+0:04:33.26,000 --> 0:04:35,000
+pour celui pour lequel le système connait déjà la réponse,
+
+117
+0:04:35.26,000 --> 0:04:37,000
+il suppose que vous êtes humain,
+
+118
+0:04:37.26,000 --> 0:04:39,000
+et il vous fait confiante pour taper l'autre mot correctement.
+
+119
+0:04:39.26,000 --> 0:04:42,000
+Et si nous répétons ce processus avec environ 10 personnes différentes,
+
+120
+0:04:42.26,000 --> 0:04:44,000
+et que toutes tombent d'accord sur le nouveau mot,
+
+121
+0:04:44.26,000 --> 0:04:46,000
+alors nous obtenons un mot de plus numérisé correctement.
+
+122
+0:04:46.26,000 --> 0:04:48,000
+Voila comment fonctionne le système.
+
+123
+0:04:48.26,000 --> 0:04:51,000
+Et en gros, depuis que nous l'avons lancé, il y a 3 ou 4 ans,
+
+124
+0:04:51.26,000 --> 0:04:53,000
+beaucoup de sites web ont commencé à passer
+
+125
+0:04:53.26,000 --> 0:04:55,000
+du vieux CAPTCHA avec lequel les gens perdaient leur temps
+
+126
+0:04:55.26,000 --> 0:04:57,000
+au nouveau CAPTCHA avec lequel les gens contribuent à numériser des livres.
+
+127
+0:04:57.26,000 --> 0:04:59,000
+Par exemple, Ticketmaster.
+
+128
+0:04:59.26,000 --> 0:05:02,000
+Alors chaque fois que vous achetez un billet sur Ticketmaster, vous contribuez à numériser un livre.
+
+129
+0:05:02.26,000 --> 0:05:04,000
+Facebook : Chaque fois que vous ajoutez quelqu'un, ou lui envoyez un poke
+
+130
+0:05:04.26,000 --> 0:05:06,000
+vous contribuez à numériser un livre.
+
+131
+0:05:06.26,000 --> 0:05:09,000
+Twitter et environ 350 000 autres sites utilisent reCAPTCHA.
+
+132
+0:05:09.26,000 --> 0:05:11,000
+Et en fait, le nombre de sites utilisant reCAPTCHA est si grand
+
+133
+0:05:11.26,000 --> 0:05:14,000
+que le nombre de mots que nous numérisons par jour est très très grand.
+
+134
+0:05:14.26,000 --> 0:05:16,000
+C'est environ 100 millions par jour,
+
+135
+0:05:16.26,000 --> 0:05:2,000
+soit l’équivalent d’à peu près 2,5 millions de livres par an.
+
+136
+0:05:20.26,000 --> 0:05:22,000
+Et tout est fait un mot après l'autre,
+
+137
+0:05:22.26,000 --> 0:05:24,000
+uniquement par des gens qui tapent des CAPTCHA sur Internet.
+
+138
+0:05:24.26,000 --> 0:05:32,000
+(applaudissements)
+
+139
+0:05:32.26,000 --> 0:05:34,000
+Bien sûr,
+
+140
+0:05:34.26,000 --> 0:05:36,000
+puisque nous faisons tellement de mots par jour,
+
+141
+0:05:36.26,000 --> 0:05:38,000
+il peut se produire de drôles de choses.
+
+142
+0:05:38.26,000 --> 0:05:4,000
+Et c'est particulièrement vrai car nous proposons aux gens
+
+143
+0:05:40.26,000 --> 0:05:42,000
+deux mots pris au hasard dans la langue anglaise, l'un à côté de l'autre.
+
+144
+0:05:42.26,000 --> 0:05:44,000
+Et donc de drôles de choses se produisent.
+
+145
+0:05:44.26,000 --> 0:05:46,000
+Par exemple, nous avons proposé ce mot.
+
+146
+0:05:46.26,000 --> 0:05:48,000
+Il s'agit du mot "Chrétiens"; il n'y a rien de mal à ça.
+
+147
+0:05:48.26,000 --> 0:05:51,000
+Mais si vous le présentez à côté d'un autre mot pris au hasard,
+
+148
+0:05:51.26,000 --> 0:05:53,000
+de mauvaises choses peuvent se produire.
+
+149
+0:05:53.26,000 --> 0:05:55,000
+Ainsi, nous avons obtenu ça. (Texte : mauvais chrétiens)
+
+150
+0:05:55.26,000 --> 0:05:58,000
+Et c'est bien pire, car il se trouve que le site web où cela s'est affiché
+
+151
+0:05:58.26,000 --> 0:06:01,000
+était en fait appelé Ambassade du Royaume de Dieu.
+
+152
+0:06:01.26,000 --> 0:06:03,000
+(rires)
+
+153
+0:06:03.26,000 --> 0:06:05,000
+Oh la gaffe !
+
+154
+0:06:05.26,000 --> 0:06:08,000
+(rires)
+
+155
+0:06:08.26,000 --> 0:06:1,000
+Voici encore un vraiment mauvais coup.
+
+156
+0:06:10.26,000 --> 0:06:12,000
+JohnEdwards.com
+
+157
+0:06:12.26,000 --> 0:06:15,000
+(Texte : Maudit libéral)
+
+158
+0:06:15.26,000 --> 0:06:17,000
+(rires)
+
+159
+0:06:17.26,000 --> 0:06:2,000
+Ainsi, nous insultons sans cesse des gens ici et là, tous les jours.
+
+160
+0:06:20.26,000 --> 0:06:22,000
+Bien sûr, nous ne nous contentons pas de les insulter.
+
+161
+0:06:22.26,000 --> 0:06:25,000
+Vous voyez, le truc c'est que, puisque nous présentons deux mots pris au hasard,
+
+162
+0:06:25.26,000 --> 0:06:27,000
+il peut se passer des choses intéressantes.
+
+163
+0:06:27.26,000 --> 0:06:29,000
+Et ça a donné lieu
+
+164
+0:06:29.26,000 --> 0:06:32,000
+à un immense mème sur Internet,
+
+165
+0:06:32.26,000 --> 0:06:34,000
+auquel des dizaines de milliers de personnes ont participé,
+
+166
+0:06:34.26,000 --> 0:06:36,000
+et qui s'appelle le CAPTCHA art.
+
+167
+0:06:36.26,000 --> 0:06:38,000
+Je suis sûr que certains d'entre en ont déjà entendu parler.
+
+168
+0:06:38.26,000 --> 0:06:4,000
+Voici comment ça marche.
+
+169
+0:06:40.26,000 --> 0:06:42,000
+Imaginez que vous soyez en train d'utiliser Internet et que vous voyiez un CAPTCHA,
+
+170
+0:06:42.26,000 --> 0:06:44,000
+que vous trouvez quelque peu bizarre,
+
+171
+0:06:44.26,000 --> 0:06:46,000
+comme ce CAPTCHA (Texte : grille-pain invisible).
+
+172
+0:06:46.26,000 --> 0:06:48,000
+Ce que vous êtes alors censé faire, c'est une capture d'écran.
+
+173
+0:06:48.26,000 --> 0:06:5,000
+Bien sûr, ensuite, vous remplissez le CAPTCHA
+
+174
+0:06:50.26,000 --> 0:06:52,000
+car vous nous aidez à numériser un livre.
+
+175
+0:06:52.26,000 --> 0:06:54,000
+Mais ensuite, d'abord vous faites une capture d'écran,
+
+176
+0:06:54.26,000 --> 0:06:56,000
+et ensuite vous dessinez quelque chose qui ait un rapport.
+
+177
+0:06:56.26,000 --> 0:06:58,000
+(rires)
+
+178
+0:06:58.26,000 --> 0:07:01,000
+Voilà comment ça marche.
+
+179
+0:07:01.26,000 --> 0:07:04,000
+Il y en a des dizaines de milliers comme ça.
+
+180
+0:07:04.26,000 --> 0:07:06,000
+Certains sont vraiment mignons. (Texte : je l'ai serré)
+
+181
+0:07:06.26,000 --> 0:07:08,000
+(rires)
+
+182
+0:07:08.26,000 --> 0:07:1,000
+D'autres sont plus drôles.
+
+183
+0:07:10.26,000 --> 0:07:13,000
+(Texte : fondateurs défoncés)
+
+184
+0:07:13.26,000 --> 0:07:16,000
+(rires)
+
+185
+0:07:16.26,000 --> 0:07:18,000
+Et certains,
+
+186
+0:07:18.26,000 --> 0:07:21,000
+comme bidule paléontologique,
+
+187
+0:07:21.26,000 --> 0:07:23,000
+font figurer Snoop Dogg.
+
+188
+0:07:23.26,000 --> 0:07:26,000
+(rires)
+
+189
+0:07:26.26,000 --> 0:07:28,000
+Bon, voilà mon nombre préféré de reCAPTCHA.
+
+190
+0:07:28.26,000 --> 0:07:31,000
+Et c'est le truc que je préfère dans tout ce projet.
+
+191
+0:07:31.26,000 --> 0:07:33,000
+C'est le nombre de personnes distinctes
+
+192
+0:07:33.26,000 --> 0:07:36,000
+qui ont contribué à numériser au moins un mot avec reCAPTCHA :
+
+193
+0:07:36.26,000 --> 0:07:38,000
+750 millions de personnes,
+
+194
+0:07:38.26,000 --> 0:07:4,000
+soit un peu plus de 10% de la population mondiale,
+
+195
+0:07:40.26,000 --> 0:07:42,000
+nous ont aidés à numériser le savoir humain.
+
+196
+0:07:42.26,000 --> 0:07:45,000
+Et c'est ce genre de nombre qui me motive à continuer mes recherches.
+
+197
+0:07:45.26,000 --> 0:07:48,000
+Et la question qui motive mes recherches est la suivante :
+
+198
+0:07:48.26,000 --> 0:07:5,000
+Si vous observez ce que l'humanité a fait à grande échelle,
+
+199
+0:07:50.26,000 --> 0:07:52,000
+ces choses vraiment grandes,
+
+200
+0:07:52.26,000 --> 0:07:55,000
+que l'humanité a faites dans l'histoire,
+
+201
+0:07:55.26,000 --> 0:07:57,000
+comme par exemple construire les pyramides d’Égypte,
+
+202
+0:07:57.26,000 --> 0:07:59,000
+ou le Canal de Panama,
+
+203
+0:07:59.26,000 --> 0:08:01,000
+ou envoyer un homme sur la lune,
+
+204
+0:08:01.26,000 --> 0:08:03,000
+elles présentent un fait curieux,
+
+205
+0:08:03.26,000 --> 0:08:05,000
+c'est qu'elles ont toute été réalisées par le même nombre de gens.
+
+206
+0:08:05.26,000 --> 0:08:08,000
+C'est étrange : elles ont toutes été réalisées par environ 100 000 personnes.
+
+207
+0:08:08.26,000 --> 0:08:11,000
+Et la raison en est que, avant Internet,
+
+208
+0:08:11.26,000 --> 0:08:13,000
+coordonner plus de 100 000 personnes,
+
+209
+0:08:13.26,000 --> 0:08:16,000
+sans parler de les payer, était impossible.
+
+210
+0:08:16.26,000 --> 0:08:18,000
+Mais maintenant, avec Internet, je viens de vous montrer un projet
+
+211
+0:08:18.26,000 --> 0:08:2,000
+dans lequel j'ai obtenu que 750 millions de personnes
+
+212
+0:08:20.26,000 --> 0:08:22,000
+nous aident à numériser le savoir humain.
+
+213
+0:08:22.26,000 --> 0:08:24,000
+Donc, la question qui motive mes recherches est,
+
+214
+0:08:24.26,000 --> 0:08:27,000
+si nous pouvons envoyer un homme sur la lune avec 100 000 personnes,
+
+215
+0:08:27.26,000 --> 0:08:29,000
+que pouvons-nous faire avec 100 millions de personnes?
+
+216
+0:08:29.26,000 --> 0:08:31,000
+En partant de cette question,
+
+217
+0:08:31.26,000 --> 0:08:33,000
+nous avons travaillé sur de nombreux projets différents.
+
+218
+0:08:33.26,000 --> 0:08:36,000
+Laissez-moi vous parler de celui qui m'enthousiasme le plus.
+
+219
+0:08:36.26,000 --> 0:08:38,000
+Nous travaillons là-dessus sans en parler trop
+
+220
+0:08:38.26,000 --> 0:08:4,000
+depuis environ un an et demi.
+
+221
+0:08:40.26,000 --> 0:08:42,000
+On ne l'a pas encore lancé. Ça s'appelle Duolingo.
+
+222
+0:08:42.26,000 --> 0:08:44,000
+Comme on ne l'a pas encore lancé, chut!
+
+223
+0:08:44.26,000 --> 0:08:46,000
+(rires)
+
+224
+0:08:46.26,000 --> 0:08:48,000
+Oui, je peux vous faire confiance pour ça.
+
+225
+0:08:48.26,000 --> 0:08:5,000
+Voici donc ce projet. Voilà comment il a commencé.
+
+226
+0:08:50.26,000 --> 0:08:52,000
+Il a commencé quand j'ai posé une question à mon étudiant en doctorat,
+
+227
+0:08:52.26,000 --> 0:08:54,000
+Severin Hacker.
+
+228
+0:08:54.26,000 --> 0:08:56,000
+Voici Severin Hacker.
+
+229
+0:08:56.26,000 --> 0:08:58,000
+Je lui ai donc posé la question.
+
+230
+0:08:58.26,000 --> 0:09:,000
+Au fait, vous m'avez bien entendu ;
+
+231
+0:09:00.26,000 --> 0:09:02,000
+son nom de famille est Hacker.
+
+232
+0:09:02.26,000 --> 0:09:04,000
+je lui ai donc posé cette question :
+
+233
+0:09:04.26,000 --> 0:09:06,000
+Comment faire pour que 100 millions de personnes
+
+234
+0:09:06.26,000 --> 0:09:09,000
+traduisent gratuitement le Web dans toutes les langues principales ?
+
+235
+0:09:09.26,000 --> 0:09:11,000
+Bon, il y a beaucoup à dire là dessus.
+
+236
+0:09:11.26,000 --> 0:09:13,000
+D'abord, traduire le Web.
+
+237
+0:09:13.26,000 --> 0:09:16,000
+Pour le moment, le Web est fractionné en de multiples langues.
+
+238
+0:09:16.26,000 --> 0:09:18,000
+Une grande partie est en anglais.
+
+239
+0:09:18.26,000 --> 0:09:2,000
+Si vous ne connaissez pas du tout l'anglais, vous ne pouvez pas y accéder.
+
+240
+0:09:20.26,000 --> 0:09:22,000
+Mais il y en a de grandes parties dans d'autres langues différentes,
+
+241
+0:09:22.26,000 --> 0:09:25,000
+et si vous ne connaissez pas ces langues, vous ne pouvez pas y accéder.
+
+242
+0:09:25.26,000 --> 0:09:28,000
+Alors j'aimerais traduire tout l'Internet, ou tout du moins la plus grande partie du Web,
+
+243
+0:09:28.26,000 --> 0:09:3,000
+dans toutes les langues principales.
+
+244
+0:09:30.26,000 --> 0:09:32,000
+C'est ce que j'aimerais faire.
+
+245
+0:09:32.26,000 --> 0:09:35,000
+Certains d'entre vous me diront, pourquoi ne pouvons-nous pas utiliser les ordinateurs pour faire cette traduction ?
+
+246
+0:09:35.26,000 --> 0:09:37,000
+Pourquoi ne pouvons-nous pas utiliser la traduction informatisée ?
+
+247
+0:09:37.26,000 --> 0:09:39,000
+De nos jours, on a commencé à traduire des phrases ici et là avec la traduction informatisée.
+
+248
+0:09:39.26,000 --> 0:09:41,000
+Pourquoi ne pouvons-nous pas l'utiliser pour traduire tout le Web ?
+
+249
+0:09:41.26,000 --> 0:09:43,000
+Et bien, le problème est que ce n'est pas encore assez bon
+
+250
+0:09:43.26,000 --> 0:09:45,000
+et que ça ne le sera pas avant les 15 à 20 prochaines années.
+
+251
+0:09:45.26,000 --> 0:09:47,000
+Il y a beaucoup d'erreurs.
+
+252
+0:09:47.26,000 --> 0:09:49,000
+Même quand il n'y a pas d'erreur,
+
+253
+0:09:49.26,000 --> 0:09:52,000
+elles sont tellement fréquentes que vous ne savez pas si vous pouvez vous y fier ou pas.
+
+254
+0:09:52.26,000 --> 0:09:54,000
+Permettez-moi de vous montrer un exemple
+
+255
+0:09:54.26,000 --> 0:09:56,000
+de traduction faite par ordinateur.
+
+256
+0:09:56.26,000 --> 0:09:58,000
+En fait, c'est un billet sur un forum.
+
+257
+0:09:58.26,000 --> 0:10:01,000
+C'est quelqu'un qui essayait de poser une question à propos de JavaScript.
+
+258
+0:10:01.26,000 --> 0:10:04,000
+Ça a été traduit du japonais à l'anglais.
+
+259
+0:10:04.26,000 --> 0:10:06,000
+Je vais vous le laisser lire.
+
+260
+0:10:06.26,000 --> 0:10:08,000
+Cette personne commence par s'excuser
+
+261
+0:10:08.26,000 --> 0:10:1,000
+pour le fait que c'est une traduction faite par ordinateur.
+
+262
+0:10:10.26,000 --> 0:10:13,000
+La phrase suivante sera le préambule à la question.
+
+263
+0:10:13.26,000 --> 0:10:15,000
+Il ne fait donc qu'expliquer quelque chose.
+
+264
+0:10:15.26,000 --> 0:10:18,000
+Souvenez-vous, c'est une question à propos de JavaScript.
+
+265
+0:10:19.26,000 --> 0:10:23,000
+(Texte : A souvent, le temps de chèvre installe une erreur est vomi.)
+
+266
+0:10:23.26,000 --> 0:10:27,000
+(rires)
+
+267
+0:10:27.26,000 --> 0:10:3,000
+Ensuite vient la première partie de la question.
+
+268
+0:10:30.26,000 --> 0:10:34,000
+(Texte : Combien de fois comme le vent, un poteau, et le dragon ? )
+
+269
+0:10:34.26,000 --> 0:10:36,000
+(rires)
+
+270
+0:10:36.26,000 --> 0:10:39,000
+Ensuite vient la partie de la question que je préfère.
+
+271
+0:10:39.26,000 --> 0:10:42,000
+(Texte : Ceci insulte aux pierres du père ? )
+
+272
+0:10:42.26,000 --> 0:10:44,000
+(rires)
+
+273
+0:10:44.26,000 --> 0:10:47,000
+Et puis vient la fin, qui est ce que je préfère dans tout ça.
+
+274
+0:10:47.26,000 --> 0:10:51,000
+(Texte : S'il vous plait excusez-vous pour votre stupidité. Il y a un beaucoup merci.)
+
+275
+0:10:51.26,000 --> 0:10:53,000
+(rires)
+
+276
+0:10:53.26,000 --> 0:10:55,000
+Bon, donc, la traduction par ordinateur, pas encore assez bonne .
+
+277
+0:10:55.26,000 --> 0:10:57,000
+Revenons à la question de départ.
+
+278
+0:10:57.26,000 --> 0:11:,000
+Nous avons donc besoin de gens pour traduire tout le Web.
+
+279
+0:11:00.26,000 --> 0:11:02,000
+Maintenant, la question suivante que vous vous posez peut-être,
+
+280
+0:11:02.26,000 --> 0:11:04,000
+c'est pourquoi ne pouvons-nous pas simplement payer des gens pour le faire ?
+
+281
+0:11:04.26,000 --> 0:11:07,000
+Nous pourrions payer des traducteurs professionnels pour traduire tout le Web.
+
+282
+0:11:07.26,000 --> 0:11:09,000
+Nous pourrions le faire.
+
+283
+0:11:09.26,000 --> 0:11:11,000
+Malheureusement, ce serait extrêmement cher.
+
+284
+0:11:11.26,000 --> 0:11:14,000
+Par exemple, traduire une minuscule fraction de tout le Web, Wikipedia,
+
+285
+0:11:14.26,000 --> 0:11:17,000
+dans une seule autre langue, l'espagnol,
+
+286
+0:11:17.26,000 --> 0:11:19,000
+Wikipedia existe en espagnol,
+
+287
+0:11:19.26,000 --> 0:11:21,000
+mais c'est très petit comparé à la taille de l'anglais.
+
+288
+0:11:21.26,000 --> 0:11:23,000
+Ça représente environ 20% de la taille de l'anglais.
+
+289
+0:11:23.26,000 --> 0:11:26,000
+Si nous voulions traduire les 80 autres pour cent en espagnol,
+
+290
+0:11:26.26,000 --> 0:11:28,000
+ça coûterait au moins 50 millions de dollars,
+
+291
+0:11:28.26,000 --> 0:11:31,000
+même en délocalisant dans le pays le plus exploité qui soit.
+
+292
+0:11:31.26,000 --> 0:11:33,000
+Ce serait donc très cher.
+
+293
+0:11:33.26,000 --> 0:11:35,000
+Alors ce que nous voulons faire, c'est trouver 100 millions de personnes
+
+294
+0:11:35.26,000 --> 0:11:37,000
+pour traduire le Web dans toutes les langues principales
+
+295
+0:11:37.26,000 --> 0:11:39,000
+gratuitement.
+
+296
+0:11:39.26,000 --> 0:11:41,000
+Et si c'est ce que vous voulez faire,
+
+297
+0:11:41.26,000 --> 0:11:43,000
+vous vous rendez très vite compte que vous allez tomber sur deux gros os,
+
+298
+0:11:43.26,000 --> 0:11:45,000
+deux gros obstacles.
+
+299
+0:11:45.26,000 --> 0:11:48,000
+Le premier c'est le manque de personnes bilingues.
+
+300
+0:11:48.26,000 --> 0:11:5,000
+Je ne sais même pas
+
+301
+0:11:50.26,000 --> 0:11:53,000
+s'il existe 100 millions de gens qui utilisent le Web
+
+302
+0:11:53.26,000 --> 0:11:55,000
+et qui sont suffisamment bilingues pour nous aider à traduire.
+
+303
+0:11:55.26,000 --> 0:11:57,000
+C'est un gros problème.
+
+304
+0:11:57.26,000 --> 0:11:59,000
+L'autre problème que vous allez rencontrer, c'est le manque de motivation.
+
+305
+0:11:59.26,000 --> 0:12:01,000
+Comment allons-nous motiver les gens
+
+306
+0:12:01.26,000 --> 0:12:03,000
+à traduire le Web gratuitement ?
+
+307
+0:12:03.26,000 --> 0:12:06,000
+Normalement, on doit payer les gens pour ça.
+
+308
+0:12:06.26,000 --> 0:12:08,000
+Alors, comment allons-nous les motiver à le faire gratuitement ?
+
+309
+0:12:08.26,000 --> 0:12:11,000
+Quand nous avons commencé à y réfléchir, nous étions bloqués par ces deux choses.
+
+310
+0:12:11.26,000 --> 0:12:13,000
+Mais ensuite nous nous sommes rendus compte qu'en fait il y a un moyen
+
+311
+0:12:13.26,000 --> 0:12:15,000
+de résoudre ces deux problèmes avec une solution unique.
+
+312
+0:12:15.26,000 --> 0:12:17,000
+Une manière de faire d'une pierre deux coups.
+
+313
+0:12:17.26,000 --> 0:12:2,000
+Il s'agit de transformer la traduction
+
+314
+0:12:20.26,000 --> 0:12:23,000
+en quelque chose que des millions de gens veulent faire,
+
+315
+0:12:23.26,000 --> 0:12:26,000
+tout en contribuant à résoudre le problème du manque de personnes bilingues :
+
+316
+0:12:26.26,000 --> 0:12:29,000
+c'est l'apprentissage des langues.
+
+317
+0:12:29.26,000 --> 0:12:31,000
+Il s'avère qu'aujourd'hui,
+
+318
+0:12:31.26,000 --> 0:12:34,000
+il y a plus de 1,2 milliard de gens qui apprennent une langue étrangère.
+
+319
+0:12:34.26,000 --> 0:12:36,000
+Les gens veulent vraiment apprendre une langue étrangère.
+
+320
+0:12:36.26,000 --> 0:12:39,000
+Et ce n'est pas seulement parce qu'on les y oblige à l'école.
+
+321
+0:12:39.26,000 --> 0:12:41,000
+Par exemple, rien qu'aux États-Unis,
+
+322
+0:12:41.26,000 --> 0:12:43,000
+il y a plus de 5 millions de gens qui ont payé au moins 500 $
+
+323
+0:12:43.26,000 --> 0:12:45,000
+des logiciels pour apprendre une nouvelle langue.
+
+324
+0:12:45.26,000 --> 0:12:47,000
+Les gens veulent donc vraiment apprendre une nouvelle langue.
+
+325
+0:12:47.26,000 --> 0:12:5,000
+Ce sur quoi nous travaillons depuis un an et demi, c'est un nouveau site web,
+
+326
+0:12:50.26,000 --> 0:12:52,000
+qui s'appelle Duolingo,
+
+327
+0:12:52.26,000 --> 0:12:55,000
+où l'idée de départ est que les gens apprennent une nouvelle langue gratuitement
+
+328
+0:12:55.26,000 --> 0:12:57,000
+tout en traduisant le Web.
+
+329
+0:12:57.26,000 --> 0:12:59,000
+Et donc en gros ils apprennent en faisant.
+
+330
+0:12:59.26,000 --> 0:13:01,000
+Voilà comment ça marche :
+
+331
+0:13:01.26,000 --> 0:13:04,000
+quand vous n'êtes que débutant, nous vous donnons des phrases très, très simples.
+
+332
+0:13:04.26,000 --> 0:13:06,000
+Il y a, bien sûr, beaucoup de phrases très simples sur le web.
+
+333
+0:13:06.26,000 --> 0:13:08,000
+Nous vous donnons des phrases très, très simples
+
+334
+0:13:08.26,000 --> 0:13:1,000
+en même temps que la signification de chaque mot.
+
+335
+0:13:10.26,000 --> 0:13:13,000
+Et en les traduisant, et en voyant comment d'autres les traduisent,
+
+336
+0:13:13.26,000 --> 0:13:15,000
+vous commencez à apprendre la langue.
+
+337
+0:13:15.26,000 --> 0:13:17,000
+Et au fur et à mesure de votre progression,
+
+338
+0:13:17.26,000 --> 0:13:19,000
+nous vous donnons des phrases de plus en plus complexes à traduire.
+
+339
+0:13:19.26,000 --> 0:13:21,000
+Mais à tout moment, vous apprenez en faisant.
+
+340
+0:13:21.26,000 --> 0:13:23,000
+Ce qui est dingue, avec cette méthode,
+
+341
+0:13:23.26,000 --> 0:13:25,000
+c'est que ça marche vraiment.
+
+342
+0:13:25.26,000 --> 0:13:27,000
+D'abord, les gens apprennent vraiment une langue.
+
+343
+0:13:27.26,000 --> 0:13:29,000
+Nous avons presque fini de le construire, et nous sommes en train de le tester.
+
+344
+0:13:29.26,000 --> 0:13:31,000
+Les gens peuvent vraiment apprendre une langue avec ça.
+
+345
+0:13:31.26,000 --> 0:13:34,000
+Et ils apprennent aussi bien qu'avec le meilleur logiciel d'apprentissage de langue.
+
+346
+0:13:34.26,000 --> 0:13:36,000
+Les gens apprennent vraiment une langue.
+
+347
+0:13:36.26,000 --> 0:13:38,000
+Et non seulement ils l'apprennent,
+
+348
+0:13:38.26,000 --> 0:13:4,000
+mais en fait c'est bien plus intéressant.
+
+349
+0:13:40.26,000 --> 0:13:43,000
+Parce que vous voyez, avec Duolingo, les gens apprennent avec du contenu authentique.
+
+350
+0:13:43.26,000 --> 0:13:45,000
+Contrairement à l'apprentissage avec les phrases préfabriquées,
+
+351
+0:13:45.26,000 --> 0:13:48,000
+les gens apprennent avec du contenu authentique, qui est intéressant par essence.
+
+352
+0:13:48.26,000 --> 0:13:5,000
+Les gens apprennent donc vraiment une langue.
+
+353
+0:13:50.26,000 --> 0:13:52,000
+Mais ce qui est peut-être plus surprenant,
+
+354
+0:13:52.26,000 --> 0:13:55,000
+c'est que les traductions que nous obtenons des gens qui utilisent ce site,
+
+355
+0:13:55.26,000 --> 0:13:57,000
+même si ce ne sont que des débutants,
+
+356
+0:13:57.26,000 --> 0:14:,000
+les traductions que nous obtenons sont aussi exactes que celles des traducteurs professionnels,
+
+357
+0:14:00.26,000 --> 0:14:02,000
+ce qui est très surprenant.
+
+358
+0:14:02.26,000 --> 0:14:04,000
+Permettez-moi de vous montrer un exemple.
+
+359
+0:14:04.26,000 --> 0:14:06,000
+Voici une phrase qui a été traduite de l'allemand à l'anglais.
+
+360
+0:14:06.26,000 --> 0:14:08,000
+L'allemand est en haut.
+
+361
+0:14:08.26,000 --> 0:14:1,000
+Au milieu, c'est la traduction anglaise
+
+362
+0:14:10.26,000 --> 0:14:12,000
+faite par un traducteur professionnel
+
+363
+0:14:12.26,000 --> 0:14:14,000
+que nous avons payé 20 cents le mot pour sa traduction.
+
+364
+0:14:14.26,000 --> 0:14:17,000
+Et en bas, la traduction des utilisateurs de Duolingo,
+
+365
+0:14:17.26,000 --> 0:14:19,000
+alors qu'aucun d'eux ne connaissait un mot d'allemand
+
+366
+0:14:19.26,000 --> 0:14:21,000
+avant de commencer à utiliser le site.
+
+367
+0:14:21.26,000 --> 0:14:23,000
+Vous voyez, c'est parfait.
+
+368
+0:14:23.26,000 --> 0:14:25,000
+Bien sûr, nous avons triché ici
+
+369
+0:14:25.26,000 --> 0:14:27,000
+pour que les traductions soient aussi bonnes que celles des professionnels.
+
+370
+0:14:27.26,000 --> 0:14:3,000
+Nous avons combiné les traductions de nombreux débutants
+
+371
+0:14:30.26,000 --> 0:14:33,000
+pour obtenir la qualité d'un seul traducteur professionnel.
+
+372
+0:14:33.26,000 --> 0:14:38,000
+Même si nous combinons les traductions,
+
+373
+0:14:38.26,000 --> 0:14:4,000
+le site peut en fait traduire assez vite.
+
+374
+0:14:40.26,000 --> 0:14:42,000
+Laissez-moi vous montrer,
+
+375
+0:14:42.26,000 --> 0:14:44,000
+voici nos estimations quant à la vitesse à laquelle nous pourrions traduire Wikipedia
+
+376
+0:14:44.26,000 --> 0:14:46,000
+d'anglais en espagnol.
+
+377
+0:14:46.26,000 --> 0:14:49,000
+Rappelez-vous, ça représente une valeur de 50 millions de dollars.
+
+378
+0:14:49.26,000 --> 0:14:51,000
+Alors si vous voulez traduire Wikipedia en espagnol,
+
+379
+0:14:51.26,000 --> 0:14:54,000
+cela peut être fait en 5 semaines, avec 100 000 utilisateurs actifs.
+
+380
+0:14:54.26,000 --> 0:14:57,000
+Et nous pourrions le faire en 80 heures avec un million d'utilisateurs actifs.
+
+381
+0:14:57.26,000 --> 0:15:,000
+Puisque tous les projets sur lesquels mon groupe a travaillé jusqu'à présent ont eu des millions d'utilisateurs,
+
+382
+0:15:00.26,000 --> 0:15:02,000
+nous espérons que nous serons en mesure de traduire
+
+383
+0:15:02.26,000 --> 0:15:04,000
+très vite avec ce projet-ci.
+
+384
+0:15:04.26,000 --> 0:15:07,000
+Ce qui m'enthousiasme le plus avec Duolingo
+
+385
+0:15:07.26,000 --> 0:15:1,000
+c'est que je pense qu'il apporte un modèle économique équitable pour l'apprentissage des langues.
+
+386
+0:15:10.26,000 --> 0:15:12,000
+Voilà ce qu'il en est :
+
+387
+0:15:12.26,000 --> 0:15:14,000
+le modèle économique actuel pour l'apprentissage des langues,
+
+388
+0:15:14.26,000 --> 0:15:16,000
+c'est que l'élève paie,
+
+389
+0:15:16.26,000 --> 0:15:18,000
+et en particulier, l'élève paie à Rosetta Stone 500 dollars.
+
+390
+0:15:18.26,000 --> 0:15:2,000
+(rires)
+
+391
+0:15:20.26,000 --> 0:15:22,000
+C'est le modèle économique actuel.
+
+392
+0:15:22.26,000 --> 0:15:24,000
+Le problème avec ce modèle économique,
+
+393
+0:15:24.26,000 --> 0:15:27,000
+c'est que 95% de la population mondiale n'a pas 500 dollars.
+
+394
+0:15:27.26,000 --> 0:15:3,000
+C'est donc extrêmement injuste envers les pauvres.
+
+395
+0:15:30.26,000 --> 0:15:32,000
+C'est totalement en faveur des riches.
+
+396
+0:15:32.26,000 --> 0:15:34,000
+Vous voyez, dans Duolingo,
+
+397
+0:15:34.26,000 --> 0:15:36,000
+lorsque vous apprenez,
+
+398
+0:15:36.26,000 --> 0:15:39,000
+en fait vous créez de la valeur, vous traduisez des trucs,
+
+399
+0:15:39.26,000 --> 0:15:42,000
+que par exemple nous pourrions facturer à quelqu'un.
+
+400
+0:15:42.26,000 --> 0:15:44,000
+C'est ainsi que nous pourrions le rentabiliser.
+
+401
+0:15:44.26,000 --> 0:15:46,000
+Puisque les gens créent de la valeur en apprenant,
+
+402
+0:15:46.26,000 --> 0:15:49,000
+ils n'ont pas à payer avec leur argent, ils paient avec leur temps.
+
+403
+0:15:49.26,000 --> 0:15:52,000
+Mais ce qui est magique ici, c'est qu'ils paient avec leur temps,
+
+404
+0:15:52.26,000 --> 0:15:54,000
+mais que c'est du temps qu'ils auraient passé de toute façon
+
+405
+0:15:54.26,000 --> 0:15:56,000
+à apprendre la langue.
+
+406
+0:15:56.26,000 --> 0:15:59,000
+Ce qui est bien avec Duolingo c'est que je crois que ça apporte un modèle économique équitable,
+
+407
+0:15:59.26,000 --> 0:16:01,000
+qui ne défavorise pas les pauvres.
+
+408
+0:16:01.26,000 --> 0:16:03,000
+Voici donc le site. Merci
+
+409
+0:16:03.26,000 --> 0:16:11,000
+(applaudissements)
+
+410
+0:16:11.26,000 --> 0:16:13,000
+Donc voici le site.
+
+411
+0:16:13.26,000 --> 0:16:15,000
+Nous n'avons pas encore fait le lancement,
+
+412
+0:16:15.26,000 --> 0:16:18,000
+mais si vous allez voir, vous pouvez vous inscrire pour participer à la version bêta privée,
+
+413
+0:16:18.26,000 --> 0:16:2,000
+qui devrait normalement commencer dans 3 ou 4 semaines.
+
+414
+0:16:20.26,000 --> 0:16:22,000
+Nous n'avons pas encore lancé Duolingo.
+
+415
+0:16:22.26,000 --> 0:16:24,000
+Au fait, c'est moi qui parle ici,
+
+416
+0:16:24.26,000 --> 0:16:27,000
+mais Duolingo est le travail d'une équipe géniale, dont voici certains.
+
+417
+0:16:27.26,000 --> 0:16:29,000
+Merci.
+
+418
+0:16:29.26,000 --> 0:16:33,000
+(applaudissements)
+

@@ -1,0 +1,356 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Jeffnie Jean Louis Relecteur: Julien Souliers
+
+2
+0:00:13.507,000 --> 0:00:14,000
+En 2003,
+
+3
+0:00:15.42,000 --> 0:00:17,000
+lorsqu'on a séquencé le génome humain,
+
+4
+0:00:18.357,000 --> 0:00:21,000
+on pensait trouver les traitements de beaucoup de maladies.
+
+5
+0:00:22.974,000 --> 0:00:24,000
+Mais on était loin de la vérité
+
+6
+0:00:26.782,000 --> 0:00:27,000
+parce qu'en plus de nos gènes,
+
+7
+0:00:28.727,000 --> 0:00:32,000
+notre environnement et façon de vivre peuvent jouer un rôle important
+
+8
+0:00:33.321,000 --> 0:00:35,000
+dans le développement de beaucoup de maladies graves
+
+9
+0:00:35.893,000 --> 0:00:38,000
+L'un des exemples est la stéatose hépatique,
+
+10
+0:00:39.497,000 --> 0:00:43,000
+qui affecte plus de 20 % de la population mondiale,
+
+11
+0:00:43.604,000 --> 0:00:46,000
+elle n'a pas de traitement et entraîne le cancer du foie
+
+12
+0:00:46.662,000 --> 0:00:47,000
+ou l'insuffisance hépatique.
+
+13
+0:00:49.517,000 --> 0:00:53,000
+Donc le séquençage de l'ADN seul ne nous donne pas assez d'informations
+
+14
+0:00:54.285,000 --> 0:00:56,000
+pour trouver des thérapeutiques efficaces
+
+15
+0:00:56.541,000 --> 0:00:59,000
+Du bon côté des choses, il y a beaucoup d'autres molécules dans notre corps.
+
+16
+0:01:00.321,000 --> 0:01:03,000
+En fait, il y a plus de 100 000 métabolites.
+
+17
+0:01:04.325,000 --> 0:01:08,000
+Les métabolites sont des molécules de taille extrêmement petite.
+
+18
+0:01:09.193,000 --> 0:01:13,000
+Les exemples connus sont le glucose, le fructose, les lipides, le cholestérol -
+
+19
+0:01:14.189,000 --> 0:01:15,000
+des termes très familiers.
+
+20
+0:01:16.273,000 --> 0:01:18,000
+Les métabolites sont impliqués dans notre métabolisme.
+
+21
+0:01:20.066,000 --> 0:01:24,000
+Ils sont situés en aval de l'ADN,
+
+22
+0:01:24.118,000 --> 0:01:29,000
+et transmettent des informations sur nos gènes ainsi que notre style de vie.
+
+23
+0:01:29.224,000 --> 0:01:34,000
+Comprendre les métabolites est essentiel pour le traitement de nombre de maladies.
+
+24
+0:01:34.897,000 --> 0:01:36,000
+J'ai toujours voulu soigner des patients.
+
+25
+0:01:37.934,000 --> 0:01:4,000
+Malgré cela, il y a 15 ans de cela, j'ai abandonné l’école de médecine,
+
+26
+0:01:41.816,000 --> 0:01:42,000
+vu que j'ai raté les mathématiques.
+
+27
+0:01:45.019,000 --> 0:01:47,000
+Peu après, j'ai fait la plus cool des découvertes :
+
+28
+0:01:48.692,000 --> 0:01:5,000
+je pouvais étudier la médecine à l'aide des maths.
+
+29
+0:01:53.026,000 --> 0:01:58,000
+Dès lors, j'ai développé des algorithmes pour analyser des données biologiques.
+
+30
+0:01:59.092,000 --> 0:02:01,000
+Cela semblait donc facile :
+
+31
+0:02:01.399,000 --> 0:02:04,000
+collecter des données de tous les métabolites de notre corps,
+
+32
+0:02:05.024,000 --> 0:02:1,000
+développer des modèles mathématiques pour décrire leur changement dans une maladie
+
+33
+0:02:10.176,000 --> 0:02:12,000
+et y intervenir afin de traiter ces maladies.
+
+34
+0:02:14.488,000 --> 0:02:17,000
+C'est là que j'ai compris pourquoi cela n'a jamais été fait avant :
+
+35
+0:02:19.23,000 --> 0:02:2,000
+c'est extrêmement difficile.
+
+36
+0:02:20.941,000 --> 0:02:21,000
+(Rires)
+
+37
+0:02:22.052,000 --> 0:02:24,000
+Il y a beaucoup de métabolites dans notre corps.
+
+38
+0:02:24.783,000 --> 0:02:26,000
+Ils sont différents les uns des autres.
+
+39
+0:02:27.307,000 --> 0:02:3,000
+On peut mesurer la masse moléculaire de certains métabolites
+
+40
+0:02:31.059,000 --> 0:02:33,000
+en se servant d'instruments de spectrométrie de masse.
+
+41
+0:02:33.676,000 --> 0:02:37,000
+Mais parce qu'il pourrait y avoir 10 molécules avec la même masse,
+
+42
+0:02:38.093,000 --> 0:02:39,000
+on ne peut pas les différencier,
+
+43
+0:02:39.924,000 --> 0:02:41,000
+et si vous voulez les identifier tous clairement,
+
+44
+0:02:42.722,000 --> 0:02:45,000
+il faut faire plus d’expériences, pouvant prendre des décennies
+
+45
+0:02:45.85,000 --> 0:02:46,000
+et coûtant des milliards de dollars.
+
+46
+0:02:48.207,000 --> 0:02:53,000
+On a donc développé une plateforme d'IA ou d'intelligence artificielle pour cela.
+
+47
+0:02:53.794,000 --> 0:02:55,000
+On a exploité la croissance des données biologiques
+
+48
+0:02:56.662,000 --> 0:03:,000
+et construit une base de données de toutes les informations sur les métabolites
+
+49
+0:03:01.11,000 --> 0:03:04,000
+et leurs interactions avec d'autres molécules.
+
+50
+0:03:04.262,000 --> 0:03:07,000
+On a combiné toutes ces données comme un méga réseau.
+
+51
+0:03:07.71,000 --> 0:03:1,000
+Ensuite, à partir des tissus ou du sang de patients,
+
+52
+0:03:11.13,000 --> 0:03:13,000
+nous mesurons la masse des métabolites
+
+53
+0:03:13.905,000 --> 0:03:16,000
+et trouvons les masses qui sont changées dans une maladie.
+
+54
+0:03:17.188,000 --> 0:03:2,000
+Mais, comme je l'ai dit plus tôt, on ne peut les différencier.
+
+55
+0:03:20.402,000 --> 0:03:25,000
+Une masse moléculaire de 180 pourrait être du glucose, du galactose ou du fructose.
+
+56
+0:03:25.561,000 --> 0:03:27,000
+Ils ont tous exactement la même masse
+
+57
+0:03:27.604,000 --> 0:03:29,000
+mais différentes fonctions dans le corps.
+
+58
+0:03:29.715,000 --> 0:03:32,000
+Notre algorithme d'IA a considéré toutes ces ambiguïtés
+
+59
+0:03:33.326,000 --> 0:03:35,000
+Il a ensuite exploité ce méga réseau
+
+60
+0:03:36.086,000 --> 0:03:4,000
+pour trouver comment ces masses métaboliques sont connectées entre elles
+
+61
+0:03:40.463,000 --> 0:03:41,000
+et aboutissent à une maladie.
+
+62
+0:03:42.445,000 --> 0:03:44,000
+Et grâce au type de connexion,
+
+63
+0:03:44.707,000 --> 0:03:48,000
+on est en mesure de déduire la masse de chaque métabolite,
+
+64
+0:03:49.054,000 --> 0:03:51,000
+par exemple, ce 180 peut être du glucose ici,
+
+65
+0:03:52.002,000 --> 0:03:54,000
+et le plus important, de découvrir
+
+66
+0:03:54.577,000 --> 0:03:57,000
+comment les changements dans le glucose et d'autres métabolites
+
+67
+0:03:57.968,000 --> 0:03:58,000
+conduisent à une maladie.
+
+68
+0:03:59.497,000 --> 0:04:01,000
+Cette compréhension novatrice des mécanismes de maladie
+
+69
+0:04:02.516,000 --> 0:04:06,000
+nous a alors permis de découvrir des traitements efficaces pour y faire face.
+
+70
+0:04:07.601,000 --> 0:04:1,000
+On a fondé une start-up pour amener cette technologie sur le marché
+
+71
+0:04:11.47,000 --> 0:04:12,000
+et impacter des vies.
+
+72
+0:04:13.722,000 --> 0:04:16,000
+Maintenant mon équipe et moi à ReviveMed cherchons à découvrir
+
+73
+0:04:17.291,000 --> 0:04:22,000
+des traitements pour des maladies graves dont les métabolites sont la source,
+
+74
+0:04:22.42,000 --> 0:04:23,000
+telle la stéatose hépatique,
+
+75
+0:04:24.341,000 --> 0:04:26,000
+parce qu'elle est causée par l'accumulation de graisses,
+
+76
+0:04:27.289,000 --> 0:04:29,000
+qui sont des types de métabolites dans le foie.
+
+77
+0:04:29.786,000 --> 0:04:32,000
+Comme je le disais plus tôt, c'est un grave fléau qui n'a aucun traitement.
+
+78
+0:04:33.75,000 --> 0:04:35,000
+Et la stéatose hépatique n'est qu'un exemple.
+
+79
+0:04:36.498,000 --> 0:04:4,000
+À l'avenir, nous allons nous attaquer à des centaines d'autres maladies
+
+80
+0:04:40.7,000 --> 0:04:41,000
+sans traitement.
+
+81
+0:04:42.217,000 --> 0:04:46,000
+Et en collectant de plus en plus de données sur les métabolites
+
+82
+0:04:46.795,000 --> 0:04:49,000
+et en comprenant comment les changements dans les métabolites
+
+83
+0:04:50.363,000 --> 0:04:52,000
+conduisent au développement de maladies,
+
+84
+0:04:52.789,000 --> 0:04:55,000
+nos algorithmes deviendront de plus en plus intelligents
+
+85
+0:04:56.302,000 --> 0:05:,000
+pour découvrir les traitements qui conviennent selon le patient.
+
+86
+0:05:00.522,000 --> 0:05:03,000
+Et nous serons plus près d'atteindre notre vision
+
+87
+0:05:04.316,000 --> 0:05:07,000
+qui est de sauver des vies avec chaque ligne de code.
+
+88
+0:05:08.203,000 --> 0:05:09,000
+Merci.
+
+89
+0:05:09.548,000 --> 0:05:12,000
+(Applaudissements)
+

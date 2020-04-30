@@ -1,0 +1,484 @@
+1
+0:00:12.579,000 --> 0:00:15,000
+I would like to demonstrate for the first time in public
+
+2
+0:00:16.048,000 --> 0:00:2,000
+that it is possible to transmit a video
+
+3
+0:00:20.143,000 --> 0:00:24,000
+from a standard off-the-shelf LED lamp
+
+4
+0:00:24.476,000 --> 0:00:29,000
+to a solar cell with a laptop acting as a receiver.
+
+5
+0:00:30.478,000 --> 0:00:32,000
+There is no Wi-Fi involved, it's just light.
+
+6
+0:00:33.093,000 --> 0:00:35,000
+And you may wonder, what's the point?
+
+7
+0:00:35.951,000 --> 0:00:36,000
+And the point is this:
+
+8
+0:00:38.399,000 --> 0:00:4,000
+There will be a massive extension of the Internet
+
+9
+0:00:41.099,000 --> 0:00:43,000
+to close the digital divide,
+
+10
+0:00:43.933,000 --> 0:00:47,000
+and also to allow for what we call "The Internet of Things" --
+
+11
+0:00:48.138,000 --> 0:00:51,000
+tens of billions of devices connected to the Internet.
+
+12
+0:00:51.328,000 --> 0:00:55,000
+In my view, such an extension of the Internet can only work
+
+13
+0:00:55.383,000 --> 0:00:57,000
+if it's almost energy-neutral.
+
+14
+0:00:58.173,000 --> 0:01:02,000
+This means we need to use existing infrastructure as much as possible.
+
+15
+0:01:03.497,000 --> 0:01:07,000
+And this is where the solar cell and the LED come in.
+
+16
+0:01:08.959,000 --> 0:01:1,000
+I demonstrated for the first time,
+
+17
+0:01:11.301,000 --> 0:01:12,000
+at TED in 2011,
+
+18
+0:01:13.29,000 --> 0:01:14,000
+Li-Fi, or Light Fidelity.
+
+19
+0:01:15.781,000 --> 0:01:2,000
+Li-Fi uses off-the-shelf LEDs to transmit data incredibly fast,
+
+20
+0:01:21.8,000 --> 0:01:23,000
+and also in a safe and secure manner.
+
+21
+0:01:25.402,000 --> 0:01:27,000
+Data is transported by the light,
+
+22
+0:01:28.307,000 --> 0:01:31,000
+encoded in subtle changes of the brightness.
+
+23
+0:01:32.39,000 --> 0:01:35,000
+If we look around, we have many LEDs around us,
+
+24
+0:01:35.978,000 --> 0:01:39,000
+so there's a rich infrastructure of Li-Fi transmitters around us.
+
+25
+0:01:41.393,000 --> 0:01:46,000
+But so far, we have been using special devices -- small photo detectors,
+
+26
+0:01:46.656,000 --> 0:01:49,000
+to receive the information encoded in the data.
+
+27
+0:01:50.94,000 --> 0:01:53,000
+I wanted to find a way to also use existing infrastructure
+
+28
+0:01:54.856,000 --> 0:01:57,000
+to receive data from our Li-Fi lights.
+
+29
+0:01:58.426,000 --> 0:02:02,000
+And this is why I have been looking into solar cells and solar panels.
+
+30
+0:02:03.016,000 --> 0:02:08,000
+A solar cell absorbs light and converts it into electrical energy.
+
+31
+0:02:08.549,000 --> 0:02:12,000
+This is why we can use a solar cell to charge our mobile phone.
+
+32
+0:02:13.559,000 --> 0:02:14,000
+But now we need to remember
+
+33
+0:02:14.989,000 --> 0:02:2,000
+that the data is encoded in subtle changes of the brightness of the LED,
+
+34
+0:02:21.244,000 --> 0:02:24,000
+so if the incoming light fluctuates,
+
+35
+0:02:24.617,000 --> 0:02:26,000
+so does the energy harvested from the solar cell.
+
+36
+0:02:28.579,000 --> 0:02:31,000
+This means we have a principal mechanism in place
+
+37
+0:02:32.112,000 --> 0:02:38,000
+to receive information from the light and by the solar cell,
+
+38
+0:02:38.246,000 --> 0:02:4,000
+because the fluctuations of the energy harvested
+
+39
+0:02:41.045,000 --> 0:02:43,000
+correspond to the data transmitted.
+
+40
+0:02:43.934,000 --> 0:02:45,000
+Of course the question is:
+
+41
+0:02:46.084,000 --> 0:02:5,000
+can we receive very fast and subtle changes of the brightness,
+
+42
+0:02:50.268,000 --> 0:02:53,000
+such as the ones transmitted by our LED lights?
+
+43
+0:02:54.641,000 --> 0:02:57,000
+And the answer to that is yes, we can.
+
+44
+0:02:58.637,000 --> 0:02:59,000
+We have shown in the lab
+
+45
+0:03:00.44,000 --> 0:03:03,000
+that we can receive up to 50 megabytes per second
+
+46
+0:03:03.946,000 --> 0:03:05,000
+from a standard, off-the-shelf solar cell.
+
+47
+0:03:06.921,000 --> 0:03:09,000
+And this is faster than most broadband connections these days.
+
+48
+0:03:11.437,000 --> 0:03:14,000
+Now let me show you in practice.
+
+49
+0:03:17.095,000 --> 0:03:21,000
+In this box is a standard, off-the-shelf LED lamp.
+
+50
+0:03:23.193,000 --> 0:03:25,000
+This is a standard, off-the-shelf solar cell;
+
+51
+0:03:25.792,000 --> 0:03:27,000
+it is connected to the laptop.
+
+52
+0:03:28.949,000 --> 0:03:3,000
+And also we have an instrument here
+
+53
+0:03:31.293,000 --> 0:03:34,000
+to visualize the energy we harvest from the solar cell.
+
+54
+0:03:35.095,000 --> 0:03:37,000
+And this instrument shows something at the moment.
+
+55
+0:03:37.917,000 --> 0:03:41,000
+This is because the solar cell already harvests light from the ambient light.
+
+56
+0:03:43.102,000 --> 0:03:45,000
+Now what I would like to do first is switch on the light,
+
+57
+0:03:45.966,000 --> 0:03:47,000
+and I'll simply, only switch on the light,
+
+58
+0:03:48.096,000 --> 0:03:5,000
+for a moment,
+
+59
+0:03:50.228,000 --> 0:03:53,000
+and what you'll notice is that the instrument jumps to the right.
+
+60
+0:03:54.904,000 --> 0:03:55,000
+So the solar cell, for a moment,
+
+61
+0:03:56.618,000 --> 0:03:59,000
+is harvesting energy from this artificial light source.
+
+62
+0:04:00.54,000 --> 0:04:03,000
+If I turn it off, we see it drops.
+
+63
+0:04:03.842,000 --> 0:04:04,000
+I turn it on ...
+
+64
+0:04:05.049,000 --> 0:04:07,000
+So we harvest energy with the solar cell.
+
+65
+0:04:08.586,000 --> 0:04:13,000
+But next I would like to activate the streaming of the video.
+
+66
+0:04:15.418,000 --> 0:04:17,000
+And I've done this by pressing this button.
+
+67
+0:04:17.766,000 --> 0:04:21,000
+So now this LED lamp here is streaming a video
+
+68
+0:04:22.513,000 --> 0:04:26,000
+by changing the brightness of the LED in a very subtle way,
+
+69
+0:04:26.669,000 --> 0:04:28,000
+and in a way that you can't recognize with your eye,
+
+70
+0:04:29.191,000 --> 0:04:32,000
+because the changes are too fast to recognize.
+
+71
+0:04:33.384,000 --> 0:04:35,000
+But in order to prove the point,
+
+72
+0:04:35.807,000 --> 0:04:38,000
+I can block the light of the solar cell.
+
+73
+0:04:40.087,000 --> 0:04:43,000
+So first you notice the energy harvesting drops
+
+74
+0:04:43.334,000 --> 0:04:44,000
+and the video stops as well.
+
+75
+0:04:45.05,000 --> 0:04:48,000
+If I remove the blockage, the video will restart.
+
+76
+0:04:49.357,000 --> 0:04:55,000
+(Applause)
+
+77
+0:04:55.61,000 --> 0:04:57,000
+And I can repeat that.
+
+78
+0:04:57.967,000 --> 0:05:02,000
+So we stop the transmission of the video and energy harvesting stops as well.
+
+79
+0:05:03.242,000 --> 0:05:07,000
+So that is to show that the solar cell acts as a receiver.
+
+80
+0:05:08.079,000 --> 0:05:13,000
+But now imagine that this LED lamp is a street light, and there's fog.
+
+81
+0:05:14.106,000 --> 0:05:16,000
+And so I want to simulate fog,
+
+82
+0:05:16.433,000 --> 0:05:18,000
+and that's why I brought a handkerchief with me.
+
+83
+0:05:19.2,000 --> 0:05:2,000
+(Laughter)
+
+84
+0:05:20.656,000 --> 0:05:23,000
+And let me put the handkerchief over the solar cell.
+
+85
+0:05:25.905,000 --> 0:05:26,000
+First you notice
+
+86
+0:05:27.557,000 --> 0:05:31,000
+the energy harvested drops, as expected,
+
+87
+0:05:31.778,000 --> 0:05:33,000
+but now the video still continues.
+
+88
+0:05:34.769,000 --> 0:05:36,000
+This means, despite the blockage,
+
+89
+0:05:37.412,000 --> 0:05:4,000
+there's sufficient light coming through the handkerchief to the solar cell,
+
+90
+0:05:41.317,000 --> 0:05:46,000
+so that the solar cell is able to decode and stream that information,
+
+91
+0:05:46.856,000 --> 0:05:48,000
+in this case, a high-definition video.
+
+92
+0:05:51.04,000 --> 0:05:56,000
+What's really important here is that a solar cell has become a receiver
+
+93
+0:05:56.627,000 --> 0:05:59,000
+for high-speed wireless signals encoded in light,
+
+94
+0:06:00.466,000 --> 0:06:04,000
+while it maintains its primary function as an energy-harvesting device.
+
+95
+0:06:05.872,000 --> 0:06:07,000
+That's why it is possible
+
+96
+0:06:08.315,000 --> 0:06:11,000
+to use existing solar cells on the roof of a hut
+
+97
+0:06:12.196,000 --> 0:06:14,000
+to act as a broadband receiver
+
+98
+0:06:14.713,000 --> 0:06:18,000
+from a laser station on a close by hill, or indeed, lamp post.
+
+99
+0:06:19.605,000 --> 0:06:22,000
+And It really doesn't matter where the beam hits the solar cell.
+
+100
+0:06:23.647,000 --> 0:06:24,000
+And the same is true
+
+101
+0:06:24.849,000 --> 0:06:27,000
+for translucent solar cells integrated into windows,
+
+102
+0:06:28.666,000 --> 0:06:31,000
+solar cells integrated into street furniture,
+
+103
+0:06:32.222,000 --> 0:06:36,000
+or indeed, solar cells integrated into these billions of devices
+
+104
+0:06:36.789,000 --> 0:06:38,000
+that will form the Internet of Things.
+
+105
+0:06:38.889,000 --> 0:06:39,000
+Because simply,
+
+106
+0:06:40.071,000 --> 0:06:42,000
+we don't want to charge these devices regularly,
+
+107
+0:06:42.586,000 --> 0:06:44,000
+or worse, replace the batteries every few months.
+
+108
+0:06:46.418,000 --> 0:06:47,000
+As I said to you,
+
+109
+0:06:48.172,000 --> 0:06:5,000
+this is the first time I've shown this in public.
+
+110
+0:06:50.514,000 --> 0:06:52,000
+It's very much a lab demonstration,
+
+111
+0:06:52.593,000 --> 0:06:53,000
+a prototype.
+
+112
+0:06:54.276,000 --> 0:06:57,000
+But my team and I are confident that we can take this to market
+
+113
+0:06:57.594,000 --> 0:06:58,000
+within the next two to three years.
+
+114
+0:07:00.251,000 --> 0:07:05,000
+And we hope we will be able to contribute to closing the digital divide,
+
+115
+0:07:05.568,000 --> 0:07:06,000
+and also contribute
+
+116
+0:07:06.79,000 --> 0:07:08,000
+to connecting all these billions of devices to the Internet.
+
+117
+0:07:10.37,000 --> 0:07:11,000
+And all of this without causing
+
+118
+0:07:11.919,000 --> 0:07:13,000
+a massive explosion of energy consumption --
+
+119
+0:07:14.395,000 --> 0:07:16,000
+because of the solar cells, quite the opposite.
+
+120
+0:07:16.641,000 --> 0:07:17,000
+Thank you.
+
+121
+0:07:17.818,000 --> 0:07:22,000
+(Applause)
+

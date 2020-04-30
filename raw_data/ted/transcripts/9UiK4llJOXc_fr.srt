@@ -1,0 +1,952 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Sandra Stewardson Relecteur: eric vautier
+
+2
+0:00:12.102,000 --> 0:00:15,000
+J'aimerais vous parler,
+
+3
+0:00:15.879,000 --> 0:00:18,000
+ou du moins partager avec vous une approche avant-gardiste
+
+4
+0:00:19.159,000 --> 0:00:22,000
+pour gérer les stocks d'un entrepôt.
+
+5
+0:00:22.761,000 --> 0:00:24,000
+On parle ici de choisir, emballer et envoyer.
+
+6
+0:00:24.959,000 --> 0:00:26,000
+En guise d'indice :
+
+7
+0:00:27.437,000 --> 0:00:31,000
+cette méthode utilise des centaines de robots mobiles
+
+8
+0:00:31.813,000 --> 0:00:33,000
+parfois même, des milliers de robots mobiles
+
+9
+0:00:33.87,000 --> 0:00:36,000
+qui circulent dans l'entrepôt. Je vous donnerai ma solution.
+
+10
+0:00:36.894,000 --> 0:00:37,000
+Mais pour instant, rappelez-vous
+
+11
+0:00:38.453,000 --> 0:00:4,000
+de la dernière fois que vous avez commandé en ligne.
+
+12
+0:00:40.99,000 --> 0:00:41,000
+Vous étiez assis sur votre canapé.
+
+13
+0:00:42.986,000 --> 0:00:45,000
+et vous avez décidé que vous aviez absolument besoin
+
+14
+0:00:46.078,000 --> 0:00:47,000
+de ce T-shirt rouge.
+
+15
+0:00:47.085,000 --> 0:00:49,000
+Alors « clic », dans le panier.
+
+16
+0:00:49.358,000 --> 0:00:51,000
+Puis, vous avez trouvé ce pantalon vert,
+
+17
+0:00:51.711,000 --> 0:00:52,000
+très joli aussi - clic !
+
+18
+0:00:53.026,000 --> 0:00:55,000
+Et une paire de chaussures bleues ? Clic !
+
+19
+0:00:55.076,000 --> 0:00:57,000
+Et voilà, votre commande est complète.
+
+20
+0:00:57.151,000 --> 0:00:58,000
+Vous n'avez pas songé un instant
+
+21
+0:00:58.809,000 --> 0:01:,000
+que ce n'est pas vraiment un bel ensemble.
+
+22
+0:01:00.819,000 --> 0:01:01,000
+Mais vous avez validé votre commande.
+
+23
+0:01:02.607,000 --> 0:01:05,000
+Et deux jours plus tard, vous recevez un colis.
+
+24
+0:01:06.158,000 --> 0:01:08,000
+Vous l'ouvrez et vous vous dites : « Wouah, voilà mes fringues. »
+
+25
+0:01:09.131,000 --> 0:01:12,000
+Vous êtes-vous jamais demandé comment votre commande
+
+26
+0:01:12.866,000 --> 0:01:15,000
+s'était retrouvée dans cette boite, dans l'entrepôt ?
+
+27
+0:01:16.034,000 --> 0:01:2,000
+Je suis ici pour vous dire que c'est ce gars-là.
+
+28
+0:01:20.271,000 --> 0:01:23,000
+En plein milieu de cette photo,
+
+29
+0:01:23.984,000 --> 0:01:25,000
+vous voyez un préparateur de commandes normal
+
+30
+0:01:26.444,000 --> 0:01:28,000
+en charge du prélèvement ou de la préparation de la commande.
+
+31
+0:01:29.302,000 --> 0:01:33,000
+Généralement, ces magasiniers passent 60 à 70% de leurs journées
+
+32
+0:01:33.753,000 --> 0:01:34,000
+à parcourir l'entrepôt.
+
+33
+0:01:35.376,000 --> 0:01:38,000
+Ils marchent souvent entre 8 et 16 km
+
+34
+0:01:38.614,000 --> 0:01:4,000
+à la recherche des articles du stock.
+
+35
+0:01:40.88,000 --> 0:01:42,000
+Ce n'est pas seulement une façon très peu efficace
+
+36
+0:01:43.835,000 --> 0:01:48,000
+mais c'est aussi une façon très peu épanouissante de préparer les commandes.
+
+37
+0:01:49.8,000 --> 0:01:52,000
+Je vais vous dire où j'ai rencontré ces problèmes la première fois.
+
+38
+0:01:53.069,000 --> 0:01:56,000
+J'étais dans la région de San Francisco, vers 1999-2000 pendant la bulle internet.
+
+39
+0:01:56.98,000 --> 0:02:,000
+Je travaillais pour une compagnie spectaculairement éphémère : Webvan.
+
+40
+0:02:01.187,000 --> 0:02:02,000
+(Rires)
+
+41
+0:02:02.81,000 --> 0:02:05,000
+Cette compagnie a obtenu des millions de dollars grâce à l'idée
+
+42
+0:02:05.83,000 --> 0:02:07,000
+qu'on livrerait les courses commandées en ligne.
+
+43
+0:02:08.305,000 --> 0:02:12,000
+Mais on s'est rendu compte que ce n'était pas rentable.
+
+44
+0:02:12.963,000 --> 0:02:15,000
+L'e-commerce s'est révélé très dur et très coûteux.
+
+45
+0:02:16.509,000 --> 0:02:2,000
+Dans ce cas particulier, on essayait d'assembler 30 articles
+
+46
+0:02:20.99,000 --> 0:02:23,000
+dans des sacs, chargés dans un fourgon pour une livraison à domicile.
+
+47
+0:02:24.443,000 --> 0:02:28,000
+Et quand on y pense, cela nous coûtait 30 dollars.
+
+48
+0:02:28.578,000 --> 0:02:31,000
+Imaginez, on avait une boîte de soupe à 89 centimes
+
+49
+0:02:31.916,000 --> 0:02:34,000
+et ça nous coûtait un dollar pour la prendre et la ranger dans ce sac.
+
+50
+0:02:35.403,000 --> 0:02:37,000
+Et ça, avant même que l'on essaye de la livrer à domicile.
+
+51
+0:02:38.367,000 --> 0:02:41,000
+Pour faire court, pendant mon année à Webvan,
+
+52
+0:02:41.398,000 --> 0:02:44,000
+j'ai réalisé en parlant à tous les fournisseurs de matériel de manutention,
+
+53
+0:02:44.964,000 --> 0:02:48,000
+qu'il n'existait aucune solution pour saisir les articles individuellement :
+
+54
+0:02:49.45,000 --> 0:02:52,000
+prendre un produit rouge, vert ou bleu et mettre ces trois-là dans une boîte.
+
+55
+0:02:53.125,000 --> 0:02:56,000
+On s'est dit qu'il devait y avoir une meilleure façon de le faire.
+
+56
+0:02:56.343,000 --> 0:02:59,000
+Les appareils de manutention existants transportaient des palettes
+
+57
+0:02:59.679,000 --> 0:03:01,000
+et des caisses de produits dans les magasins.
+
+58
+0:03:01.829,000 --> 0:03:05,000
+Webvan a bien sûr fermé boutique, et environ 18 mois après,
+
+59
+0:03:06.459,000 --> 0:03:09,000
+je réfléchissais encore à ce problème qui continuait à m'agacer,
+
+60
+0:03:09.976,000 --> 0:03:11,000
+et je m'y suis replongé à nouveau.
+
+61
+0:03:12.029,000 --> 0:03:17,000
+Regardons ce que je voulais en tant que magasinier
+
+62
+0:03:17.252,000 --> 0:03:19,000
+ou la manière dont je pensais que ça devait marcher.
+
+63
+0:03:19.731,000 --> 0:03:2,000
+(Rires)
+
+64
+0:03:20.945,000 --> 0:03:22,000
+Je me suis dit, concentrons-nous sur le problème :
+
+65
+0:03:23.285,000 --> 0:03:25,000
+j'ai une commande, et je veux mettre
+
+66
+0:03:25.772,000 --> 0:03:28,000
+les articles rouge, vert et bleu dans cette boîte.
+
+67
+0:03:28.89,000 --> 0:03:31,000
+Ce qu'il me faut, c'est un système où je tends la main et - pouf !
+
+68
+0:03:31.911,000 --> 0:03:33,000
+le produit apparaît et je le range dans la boîte.
+
+69
+0:03:34.496,000 --> 0:03:35,000
+Et là on se dit
+
+70
+0:03:35.811,000 --> 0:03:39,000
+que c'est une solution complètement centrée sur le magasinier.
+
+71
+0:03:39.847,000 --> 0:03:43,000
+Voilà ce qu'il me faut. Quelle technologie peut me le fournir ?
+
+72
+0:03:43.896,000 --> 0:03:47,000
+Mais comme vous voyez, les commandes et les produits arrivent et repartent.
+
+73
+0:03:47.903,000 --> 0:03:51,000
+Cela nous permet de mettre le magasinier au centre du problème,
+
+74
+0:03:52.721,000 --> 0:03:56,000
+et lui donner les outils pour être aussi productif que possible.
+
+75
+0:03:57.128,000 --> 0:03:59,000
+Comment suis-je arrivé à cette idée ?
+
+76
+0:03:59.464,000 --> 0:04:02,000
+C'est lors d'un exercice de brainstorm,
+
+77
+0:04:03.101,000 --> 0:04:05,000
+technique que vous utilisez probablement.
+
+78
+0:04:05.185,000 --> 0:04:07,000
+Il s'agit de tester vos idées.
+
+79
+0:04:07.751,000 --> 0:04:08,000
+Avec une feuille vierge, bien sûr,
+
+80
+0:04:09.437,000 --> 0:04:12,000
+testez vos idées jusqu'aux limites - de zéro jusqu'à l'infini.
+
+81
+0:04:13.279,000 --> 0:04:16,000
+Dans ce cas particulier, nous nous sommes demandés
+
+82
+0:04:16.912,000 --> 0:04:19,000
+comment nous ferions pour créer un centre de distribution en Chine
+
+83
+0:04:20.073,000 --> 0:04:22,000
+où les coûts de production sont très faibles,
+
+84
+0:04:22.333,000 --> 0:04:25,000
+la main d’œuvre et les terrains sont bon marché.
+
+85
+0:04:25.554,000 --> 0:04:26,000
+Et on s'est demandé précisément,
+
+86
+0:04:27.377,000 --> 0:04:29,000
+« Et si une heure de main d’œuvre coûtait zéro dollar
+
+87
+0:04:30.056,000 --> 0:04:33,000
+et on pouvait construire un gigantesque centre de distribution ? »
+
+88
+0:04:33.223,000 --> 0:04:34,000
+Donc naturellement, on s'est dit :
+
+89
+0:04:35.03,000 --> 0:04:37,000
+« Mettons plein de gens dans l'entrepôt. »
+
+90
+0:04:37.083,000 --> 0:04:39,000
+Et j'ai dit : « Attendez, zéro dollar de l'heure,
+
+91
+0:04:39.54,000 --> 0:04:41,000
+j' « embaucherais »
+
+92
+0:04:42.251,000 --> 0:04:46,000
+10 000 employés qui arriveraient à huit heures tous les matins,
+
+93
+0:04:46.41,000 --> 0:04:49,000
+entreraient dans l'entrepôt, prendraient un article chacun,
+
+94
+0:04:49.638,000 --> 0:04:5,000
+et se tiendraient simplement là.
+
+95
+0:04:51.194,000 --> 0:04:52,000
+Donc toi, tu tiens une boîte de céréales,
+
+96
+0:04:53.142,000 --> 0:04:55,000
+et toi une boisson gazeuse, du Coca Light.
+
+97
+0:04:55.25,000 --> 0:04:57,000
+Si j'en ai besoin, je t'appelle, sinon, ne bouge pas.
+
+98
+0:04:57.723,000 --> 0:05:,000
+Mais quand je demande du Coca Light, vous vous passez le mot.
+
+99
+0:05:01.047,000 --> 0:05:05,000
+Le Coca Light arrive - je le ramasse, le mets dans le sac, et le voilà parti. »
+
+100
+0:05:05.227,000 --> 0:05:09,000
+Waouh, et si les articles marchaient et parlaient tout seuls ?
+
+101
+0:05:09.519,000 --> 0:05:11,000
+Ce serait une façon très intéressante et efficace
+
+102
+0:05:11.851,000 --> 0:05:13,000
+d'organiser cet entrepôt.
+
+103
+0:05:14.326,000 --> 0:05:16,000
+Mais bien sûr, le travail n'est pas gratuit,
+
+104
+0:05:16.992,000 --> 0:05:19,000
+d'un point de vue pratique.
+
+105
+0:05:20.489,000 --> 0:05:21,000
+(Rires)
+
+106
+0:05:21.688,000 --> 0:05:24,000
+Donc on a pensé à des rayonnages mobiles - on va utiliser des rayonnages mobiles.
+
+107
+0:05:25.524,000 --> 0:05:29,000
+On utilisera des robots mobiles et nous ferons circuler le stock.
+
+108
+0:05:29.678,000 --> 0:05:33,000
+Donc on s'est lancé là-dedans et me voilà sur mon canapé en 2008.
+
+109
+0:05:34.369,000 --> 0:05:37,000
+Avez-vous regardé la cérémonie d'ouverture des Jeux Olympiques de Pékin ?
+
+110
+0:05:38.186,000 --> 0:05:41,000
+Je suis pratiquement tombé de mon canapé quand j'ai vu ceci.
+
+111
+0:05:41.192,000 --> 0:05:42,000
+J'étais là, mais c'était mon idée !
+
+112
+0:05:43.153,000 --> 0:05:47,000
+(Rires et Applaudissements)
+
+113
+0:05:47.573,000 --> 0:05:5,000
+On va placer des milliers des gens dans l'entrepôt, dans le stade.
+
+114
+0:05:50.772,000 --> 0:05:54,000
+Mais, chose intéressante, cela a vraiment un rapport avec cette idée,
+
+115
+0:05:55.239,000 --> 0:05:56,000
+dans la mesure où ces gens formaient
+
+116
+0:05:57.047,000 --> 0:06:,000
+une œuvre numérique incroyablement puissante et impressionnante,
+
+117
+0:06:00.255,000 --> 0:06:02,000
+sans assistance informatique, m'a-t-on dit.
+
+118
+0:06:02.273,000 --> 0:06:05,000
+C'était de la coordination et de la communication entre participants.
+
+119
+0:06:05.577,000 --> 0:06:06,000
+Tu te lèves, je me baisse.
+
+120
+0:06:06.827,000 --> 0:06:07,000
+Et ils ont créé une œuvre magnifique.
+
+121
+0:06:08.695,000 --> 0:06:11,000
+Cela montre l'énergie qui peut émerger des systèmes
+
+122
+0:06:12.187,000 --> 0:06:14,000
+lorsqu'on fait communiquer les choses entre elles.
+
+123
+0:06:14.576,000 --> 0:06:18,000
+Ça, c'était une partie du cheminement.
+
+124
+0:06:18.816,000 --> 0:06:21,000
+Alors maintenant, comment a-t-on mis cette idée en pratique ?
+
+125
+0:06:22.242,000 --> 0:06:23,000
+Voici un entrepôt,
+
+126
+0:06:23.473,000 --> 0:06:25,000
+un centre d'enlèvement, d'emballage et de distribution
+
+127
+0:06:26.083,000 --> 0:06:28,000
+avec environ 10 000 unités de gestion des stocks.
+
+128
+0:06:28.447,000 --> 0:06:31,000
+On va dire des stylos rouges, verts, des post-it jaunes.
+
+129
+0:06:31.516,000 --> 0:06:35,000
+On envoie les petits robots oranges chercher les rayonnages bleus.
+
+130
+0:06:36.064,000 --> 0:06:37,000
+On les fait venir d'un côté du bâtiment.
+
+131
+0:06:37.992,000 --> 0:06:39,000
+Ainsi tous les magasiniers restent sur le pourtour du stock.
+
+132
+0:06:40.802,000 --> 0:06:42,000
+L'objectif est de récupérer les étagères,
+
+133
+0:06:42.829,000 --> 0:06:45,000
+leur faire descendre l'allée et les apporter directement au magasinier.
+
+134
+0:06:46.204,000 --> 0:06:48,000
+Ça change radicalement la vie du magasinier.
+
+135
+0:06:48.99,000 --> 0:06:51,000
+Plutôt que de parcourir l'entrepôt, elle reste au même endroit,
+
+136
+0:06:52.139,000 --> 0:06:53,000
+à un poste de travail comme celui-ci,
+
+137
+0:06:53.902,000 --> 0:06:55,000
+et tous les articles dans l'entrepôt viennent à elle.
+
+138
+0:06:56.78,000 --> 0:07:,000
+Donc le processus est très productif.
+
+139
+0:07:00.983,000 --> 0:07:04,000
+Elle tend le bras, prend un article, le scanne, le met dans le colis.
+
+140
+0:07:05.322,000 --> 0:07:06,000
+Le temps qu'elle se retourne,
+
+141
+0:07:06.826,000 --> 0:07:09,000
+un autre article attend d'être prélevé et emballé.
+
+142
+0:07:10.43,000 --> 0:07:12,000
+Donc on a enlevé tout ce qui n'ajoute pas de valeur :
+
+143
+0:07:12.984,000 --> 0:07:14,000
+le temps perdu à marcher, chercher et attendre,
+
+144
+0:07:15.679,000 --> 0:07:19,000
+et on a créé une solution très fiable pour traiter ces commandes
+
+145
+0:07:20.188,000 --> 0:07:24,000
+en pointant un laser qui lit le code barre
+
+146
+0:07:24.192,000 --> 0:07:27,000
+et puis une lumière indique dans quelle boîte mettre l'article.
+
+147
+0:07:27.394,000 --> 0:07:3,000
+Donc plus productif, plus fiable, et cela se révèle être
+
+148
+0:07:30.955,000 --> 0:07:33,000
+un meilleur environnement de travail pour ces magasiniers.
+
+149
+0:07:34.683,000 --> 0:07:36,000
+Ils traitent l'intégralité de la commande.
+
+150
+0:07:37.416,000 --> 0:07:38,000
+Ils assemblent tous les articles
+
+151
+0:07:38.985,000 --> 0:07:39,000
+et pas seulement une partie.
+
+152
+0:07:40.381,000 --> 0:07:42,000
+Et ils ont l'impression de mieux contrôler leur environnement.
+
+153
+0:07:43.31,000 --> 0:07:46,000
+Mais ce sont les effets secondaires de ce procédé
+
+154
+0:07:47.099,000 --> 0:07:48,000
+qui nous ont vraiment surpris.
+
+155
+0:07:48.583,000 --> 0:07:49,000
+On savait que cela serait plus productif.
+
+156
+0:07:50.568,000 --> 0:07:53,000
+Mais on ne s'est pas rendu compte que cela aurait des implications
+
+157
+0:07:54.321,000 --> 0:07:58,000
+pour d'autres fonctions dans l'entrepôt.
+
+158
+0:07:58.675,000 --> 0:08:04,000
+Cette approche transforme vraiment le centre de distribution
+
+159
+0:08:05.175,000 --> 0:08:08,000
+en énorme machine de traitement parallèle.
+
+160
+0:08:08.873,000 --> 0:08:1,000
+C'est un brassage d'idées.
+
+161
+0:08:11.54,000 --> 0:08:12,000
+Voici un entrepôt où on met en œuvre
+
+162
+0:08:13.363,000 --> 0:08:16,000
+des architectures de traitement parallèle sur super-ordinateurs.
+
+163
+0:08:16.403,000 --> 0:08:18,000
+L'idée, c'est que l'on a ici
+
+164
+0:08:18.582,000 --> 0:08:21,000
+10 employés à droite de l'écran,
+
+165
+0:08:22.041,000 --> 0:08:26,000
+qui sont tous des magasiniers autonomes.
+
+166
+0:08:26.127,000 --> 0:08:28,000
+Si celui qui occupe le poste de travail n°3
+
+167
+0:08:28.273,000 --> 0:08:3,000
+décide d'aller aux toilettes,
+
+168
+0:08:30.274,000 --> 0:08:33,000
+cela n'a aucun impact sur la productivité des 9 autres.
+
+169
+0:08:33.456,000 --> 0:08:37,000
+Comparez cela avec la méthode traditionnelle du tapis roulant.
+
+170
+0:08:38.128,000 --> 0:08:4,000
+Quand une personne vous passe la commande,
+
+171
+0:08:40.17,000 --> 0:08:42,000
+vous rajoutez un article et faites passer au suivant.
+
+172
+0:08:42.654,000 --> 0:08:45,000
+Tout le monde doit être à sa place pour que ce processus fonctionne.
+
+173
+0:08:45.862,000 --> 0:08:48,000
+Cela devient une manière plus durable de penser un entrepôt.
+
+174
+0:08:49.065,000 --> 0:08:53,000
+Et sous le capot, c'est intéressant car nous enregistrons
+
+175
+0:08:53.4,000 --> 0:08:54,000
+la popularité des articles.
+
+176
+0:08:55.33,000 --> 0:08:57,000
+Nous utilisons des algorithmes dynamiques et adaptables
+
+177
+0:08:58.202,000 --> 0:09:01,000
+pour ajuster la disposition de l'entrepôt.
+
+178
+0:09:01.891,000 --> 0:09:06,000
+Donc ici nous avons représenté la semaine avant la Saint Valentin.
+
+179
+0:09:07.286,000 --> 0:09:11,000
+Toutes ces confiseries roses se sont déplacées d'un côté du bâtiment
+
+180
+0:09:11.391,000 --> 0:09:13,000
+pour être placées dans les commandes aux postes de travail.
+
+181
+0:09:14.388,000 --> 0:09:18,000
+Deux jours après la Saint Valentin, toutes les confiseries restantes
+
+182
+0:09:19.167,000 --> 0:09:21,000
+sont reparties au fond de l'entrepôt
+
+183
+0:09:21.379,000 --> 0:09:24,000
+et occupent une zone de couleur froide sur la carte thermique.
+
+184
+0:09:24.554,000 --> 0:09:28,000
+Un autre effet secondaire de ce traitement parallèle
+
+185
+0:09:29.296,000 --> 0:09:32,000
+est que cela peut prendre une ampleur absolument gigantesque.
+
+186
+0:09:32.653,000 --> 0:09:33,000
+(Rires)
+
+187
+0:09:33.876,000 --> 0:09:35,000
+Donc que vous ayez 2 postes de travail, 20 postes
+
+188
+0:09:36.611,000 --> 0:09:39,000
+ou 200 postes, les algorithmes qui calculent les trajectoires
+
+189
+0:09:39.886,000 --> 0:09:41,000
+et ceux qui gèrent le stock fonctionnent.
+
+190
+0:09:42.544,000 --> 0:09:46,000
+Dans cet exemple, on voit que le stock
+
+191
+0:09:46.836,000 --> 0:09:48,000
+occupe maintenant tout le pourtour du bâtiment
+
+192
+0:09:49.077,000 --> 0:09:51,000
+parce que c'est là que sont les postes de travail.
+
+193
+0:09:51.418,000 --> 0:09:52,000
+Ils ont réglé ça tout seuls.
+
+194
+0:09:53.333,000 --> 0:09:55,000
+Je conclurai donc avec une dernière vidéo
+
+195
+0:09:55.695,000 --> 0:09:57,000
+qui montre l'impact
+
+196
+0:09:58.578,000 --> 0:10:01,000
+sur la vie du magasinier au travail.
+
+197
+0:10:02.01,000 --> 0:10:06,000
+Comme on l'a dit, le processus consiste à déplacer l'inventaire dans les couloirs
+
+198
+0:10:06.53,000 --> 0:10:08,000
+pour qu'il trouve le chemin des postes de travail.
+
+199
+0:10:09.038,000 --> 0:10:11,000
+Et notre logiciel en arrière plan
+
+200
+0:10:11.202,000 --> 0:10:13,000
+sait ce qui se passe à chaque poste.
+
+201
+0:10:13.872,000 --> 0:10:16,000
+Nous indiquons aux rayonnages le chemin
+
+202
+0:10:17.264,000 --> 0:10:19,000
+et nous essayons d'organiser la file
+
+203
+0:10:19.513,000 --> 0:10:21,000
+pour apporter au magasinier son travail.
+
+204
+0:10:22.082,000 --> 0:10:25,000
+C'est intéressant, car on peut même s'adapter à la vitesse des magasiniers.
+
+205
+0:10:25.835,000 --> 0:10:29,000
+Les plus rapides accueillent plus de rayonnages, les plus lents moins.
+
+206
+0:10:29.888,000 --> 0:10:32,000
+Mais ce magasinier est littéralement en train de faire l'expérience
+
+207
+0:10:33.145,000 --> 0:10:34,000
+de ce dont nous avons parlé plus tôt.
+
+208
+0:10:34.961,000 --> 0:10:36,000
+Elle tend la main et l'article y tombe
+
+209
+0:10:37.487,000 --> 0:10:38,000
+ou bien sa main va chercher l'article.
+
+210
+0:10:39.307,000 --> 0:10:41,000
+Elle le scanne et le met dans le cageot.
+
+211
+0:10:42.012,000 --> 0:10:45,000
+Et tout le reste de la technologie est en coulisses.
+
+212
+0:10:45.856,000 --> 0:10:48,000
+Elle peut donc maintenant se concentrer sur le prélèvement et l'emballage,
+
+213
+0:10:49.326,000 --> 0:10:52,000
+n'a jamais de temps mort, ni besoin de quitter son tapis.
+
+214
+0:10:52.461,000 --> 0:10:55,000
+En fait, on pense que ce n'est pas seulement
+
+215
+0:10:56.018,000 --> 0:11:,000
+une façon plus productive et plus fiable de préparer une commande.
+
+216
+0:11:00.292,000 --> 0:11:03,000
+Nous pensons que c'est une façon plus épanouissante de la préparer.
+
+217
+0:11:03.475,000 --> 0:11:06,000
+Ce qui nous fait dire ça, c'est que les employés
+
+218
+0:11:07.007,000 --> 0:11:09,000
+dans nombre de ces entrepôts rivalisent
+
+219
+0:11:09.197,000 --> 0:11:11,000
+pour le privilège de travailler dans la zone Kiva.
+
+220
+0:11:12.101,000 --> 0:11:15,000
+Et parfois on les surprend à témoigner devant caméra,
+
+221
+0:11:15.164,000 --> 0:11:18,000
+disant qu'ils ont plus d'énergie
+
+222
+0:11:18.271,000 --> 0:11:21,000
+à la fin de la journée pour jouer avec leurs petits-enfants.
+
+223
+0:11:21.986,000 --> 0:11:25,000
+Un homme a même dit : « Il y a si peu de stress dans la zone Kiva,
+
+224
+0:11:26.246,000 --> 0:11:29,000
+que j'ai arrêté de prendre mes médicaments pour la tension. »
+
+225
+0:11:29.299,000 --> 0:11:3,000
+(Rires)
+
+226
+0:11:30.675,000 --> 0:11:32,000
+C'était chez un distributeur de produits pharmaceutiques,
+
+227
+0:11:33.414,000 --> 0:11:35,000
+alors on nous a demandé de ne pas utiliser cette vidéo.
+
+228
+0:11:36.069,000 --> 0:11:38,000
+(Rires)
+
+229
+0:11:38.795,000 --> 0:11:4,000
+Donc je voudrais terminer avec l'idée
+
+230
+0:11:41.161,000 --> 0:11:43,000
+que lorsqu'on commence à laisser les choses penser, bouger,
+
+231
+0:11:44.137,000 --> 0:11:49,000
+marcher seules, d'intéressants processus et formes de productivité peuvent émerger.
+
+232
+0:11:49.713,000 --> 0:11:52,000
+Je crois maintenant que la prochaine fois que vous irez à la porte
+
+233
+0:11:53.646,000 --> 0:11:55,000
+prendre le colis que vous avez commandé en ligne,
+
+234
+0:11:56.272,000 --> 0:11:58,000
+vous l'ouvrez et vos articles sont dedans,
+
+235
+0:11:58.633,000 --> 0:11:59,000
+vous vous demanderez si un robot
+
+236
+0:12:00.161,000 --> 0:12:02,000
+a contribué à l'élaboration de cette commande.
+
+237
+0:12:02.418,000 --> 0:12:03,000
+Merci.
+
+238
+0:12:03.711,000 --> 0:12:06,000
+(Applaudissements)
+

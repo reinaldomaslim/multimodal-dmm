@@ -1,0 +1,1052 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Camille J. Relecteur: Hélène Vernet
+
+2
+0:00:19.265,000 --> 0:00:21,000
+(Rires)
+
+3
+0:00:24.503,000 --> 0:00:25,000
+(Rires)
+
+4
+0:00:36.89,000 --> 0:00:37,000
+Voici SpotMini.
+
+5
+0:00:37.904,000 --> 0:00:38,000
+Il reviendra dans un moment.
+
+6
+0:00:39.882,000 --> 0:00:41,000
+(Applaudissements)
+
+7
+0:00:45.542,000 --> 0:00:46,000
+J'adore fabriquer des robots.
+
+8
+0:00:48.599,000 --> 0:00:5,000
+Et mon but à long terme, est de fabriquer des robots
+
+9
+0:00:51.121,000 --> 0:00:53,000
+capables de faire ce que font les humains et les animaux.
+
+10
+0:00:54.084,000 --> 0:00:56,000
+Et il y a trois choses, en particulier,
+
+11
+0:00:57.721,000 --> 0:00:58,000
+qui nous intéressent.
+
+12
+0:01:00.128,000 --> 0:01:03,000
+La première est l'équilibre et la mobilité dynamique.
+
+13
+0:01:03.374,000 --> 0:01:05,000
+La seconde est la manipulation mobile.
+
+14
+0:01:06.168,000 --> 0:01:08,000
+Et la troisième est la perception mobile.
+
+15
+0:01:09.024,000 --> 0:01:12,000
+Donc, concernant mobilité dynamique et équilibre,
+
+16
+0:01:12.059,000 --> 0:01:14,000
+laissez-moi vous faire une démonstration.
+
+17
+0:01:15.219,000 --> 0:01:17,000
+Je me tiens debout, ici, en équilibre.
+
+18
+0:01:17.269,000 --> 0:01:18,000
+(Rires)
+
+19
+0:01:18.301,000 --> 0:01:21,000
+Vous n'êtes pas vraiment impressionnés. D'accord, et maintenant ? (Rires)
+
+20
+0:01:21.901,000 --> 0:01:22,000
+Et maintenant ?
+
+21
+0:01:23.556,000 --> 0:01:24,000
+(Applaudissements)
+
+22
+0:01:26.229,000 --> 0:01:27,000
+Ces fonctions élémentaires
+
+23
+0:01:27.936,000 --> 0:01:29,000
+signifient que l'homme peut aller presque partout sur Terre
+
+24
+0:01:30.768,000 --> 0:01:31,000
+sur tout type de terrains.
+
+25
+0:01:32.318,000 --> 0:01:34,000
+Et nous voulons la même chose pour les robots.
+
+26
+0:01:35.952,000 --> 0:01:36,000
+Qu'en est-il de la manipulation ?
+
+27
+0:01:37.794,000 --> 0:01:39,000
+Je tiens en main cette télécommande, sans même la regarder,
+
+28
+0:01:40.57,000 --> 0:01:42,000
+et je peux la manipuler sans problème.
+
+29
+0:01:43.444,000 --> 0:01:45,000
+Mais, plus important encore,
+
+30
+0:01:46.138,000 --> 0:01:51,000
+je peux bouger mon corps tout en tenant la télécommande.
+
+31
+0:01:52.335,000 --> 0:01:55,000
+Je peux stabiliser et coordonner mon corps, et même marcher.
+
+32
+0:01:56.547,000 --> 0:01:58,000
+Cela signifie que je peux me déplacer dans le monde,
+
+33
+0:01:59.309,000 --> 0:02:02,000
+augmenter la portée de mes bras et de mes mains,
+
+34
+0:02:02.795,000 --> 0:02:04,000
+et pouvoir manipuler presque n'importe quoi.
+
+35
+0:02:04.854,000 --> 0:02:06,000
+C'est ça, la manipulation mobile.
+
+36
+0:02:07.534,000 --> 0:02:08,000
+Vous pouvez tous le faire.
+
+37
+0:02:09.303,000 --> 0:02:11,000
+La troisième est la perception.
+
+38
+0:02:11.374,000 --> 0:02:14,000
+Je regarde dans une salle contenant plus de 1 000 personnes
+
+39
+0:02:14.663,000 --> 0:02:18,000
+et mon incroyable système visuel peut voir chacun d'entre vous.
+
+40
+0:02:19.298,000 --> 0:02:21,000
+Vous êtes tous stationnaires dans l'espace,
+
+41
+0:02:21.333,000 --> 0:02:23,000
+même quand je bouge ma tête et quand je me déplace.
+
+42
+0:02:24.25,000 --> 0:02:26,000
+Ce type de perception mobile est très important
+
+43
+0:02:26.953,000 --> 0:02:29,000
+pour les robots destinés à bouger et à agir à l'extérieur.
+
+44
+0:02:32.045,000 --> 0:02:35,000
+Je vais vous donner un petit compte-rendu sur où nous en sommes
+
+45
+0:02:35.373,000 --> 0:02:38,000
+dans le développement de robots dans cette optique.
+
+46
+0:02:40.368,000 --> 0:02:44,000
+Les trois premiers robots sont tous des robots dynamiquement stables.
+
+47
+0:02:45.022,000 --> 0:02:47,000
+Celui-ci remonte à peu plus de dix ans,
+
+48
+0:02:47.614,000 --> 0:02:48,000
+« BigDog ».
+
+49
+0:02:48.87,000 --> 0:02:51,000
+Il possède un gyroscope qui aide à le stabiliser.
+
+50
+0:02:52.22,000 --> 0:02:55,000
+Il possède des capteurs et un ordinateur de contrôle.
+
+51
+0:02:55.64,000 --> 0:02:58,000
+Ici, c'est un robot-guépard qui court au galop.
+
+52
+0:02:58.831,000 --> 0:03:,000
+Il recycle son énergie, rebondit sur le sol.
+
+53
+0:03:02.147,000 --> 0:03:06,000
+Il fait sans arrêt des calculs pour garder l'équilibre et se propulser.
+
+54
+0:03:08.114,000 --> 0:03:09,000
+Ici, c'est un robot plus grand
+
+55
+0:03:09.966,000 --> 0:03:12,000
+dont la locomotion est si bonne qu'il peut se déplacer en neige profonde.
+
+56
+0:03:13.923,000 --> 0:03:15,000
+Là, il y a environ 25 cm de neige
+
+57
+0:03:16.346,000 --> 0:03:18,000
+et cela ne lui donne pas de réelles difficultés.
+
+58
+0:03:20.196,000 --> 0:03:22,000
+Voici Spot, une nouvelle génération de robots,
+
+59
+0:03:22.739,000 --> 0:03:25,000
+juste un peu plus vieux que celui qui est venu sur scène.
+
+60
+0:03:26.438,000 --> 0:03:27,000
+Nous nous posions la question -
+
+61
+0:03:27.97,000 --> 0:03:29,000
+vous savez, les livraisons par robot-volants,
+
+62
+0:03:30.068,000 --> 0:03:32,000
+pouvons-nous livrer des colis chez vous par robot-volant ? -
+
+63
+0:03:32.885,000 --> 0:03:35,000
+Et pourquoi pas, livrer avec un bon vieux robot-marchant ?
+
+64
+0:03:36.906,000 --> 0:03:39,000
+Donc, nous avons conduit notre robot au domicile de nos employés
+
+65
+0:03:40.327,000 --> 0:03:43,000
+pour voir si nous pouvions passer par les différents chemins d'accès.
+
+66
+0:03:44.16,000 --> 0:03:45,000
+Et croyez moi, dans la région de Boston,
+
+67
+0:03:46.072,000 --> 0:03:49,000
+il y a toutes sortes d'escaliers, de virages et de détours.
+
+68
+0:03:49.23,000 --> 0:03:51,000
+C'est un vrai défi mais nous nous débrouillons bien
+
+69
+0:03:51.609,000 --> 0:03:52,000
+sur environ 70 % des chemins.
+
+70
+0:03:54.659,000 --> 0:03:55,000
+Et voici la manipulation mobile :
+
+71
+0:03:56.253,000 --> 0:03:58,000
+nous avons mis un bras sur le robot
+
+72
+0:03:58.922,000 --> 0:04:,000
+et il trouve le moyen de passer par la porte.
+
+73
+0:04:01.922,000 --> 0:04:04,000
+Une des choses importantes dans la création de robots autonomes,
+
+74
+0:04:04.925,000 --> 0:04:07,000
+c'est de faire en sorte qu'ils fassent non seulement ce que vous dites,
+
+75
+0:04:08.349,000 --> 0:04:13,000
+mais puisse faire face aux aléas de ce qui se passe dans le monde réel.
+
+76
+0:04:14.234,000 --> 0:04:18,000
+Là c'est Steve, un des ingénieurs, en train de compliquer la tâche du robot.
+
+77
+0:04:19.797,000 --> 0:04:23,000
+Et le fait est que la programmation tolère toutes ces perturbations.
+
+78
+0:04:24.081,000 --> 0:04:25,000
+Elle suit son programme.
+
+79
+0:04:25.332,000 --> 0:04:27,000
+Voici un autre exemple, où Eric tire sur le robot
+
+80
+0:04:28.187,000 --> 0:04:29,000
+pendant qu'il monte l'escalier.
+
+81
+0:04:29.785,000 --> 0:04:33,000
+Et croyez moi, lui faire accomplir sa tâche dans de telles circonstances
+
+82
+0:04:34.081,000 --> 0:04:38,000
+est un vrai challenge, mais le résultat est quelque chose qui va se généraliser
+
+83
+0:04:38.352,000 --> 0:04:42,000
+et rendre les robots beaucoup plus autonomes qu'ils ne le seraient autrement.
+
+84
+0:04:43.497,000 --> 0:04:45,000
+Voici Atlas, un robot humanoïde.
+
+85
+0:04:46.607,000 --> 0:04:5,000
+C'est un humanoïde de troisième génération que nous fabriquons.
+
+86
+0:04:50.851,000 --> 0:04:52,000
+Je dirai un mot sur la conception matérielle plus tard.
+
+87
+0:04:53.569,000 --> 0:04:54,000
+Nous nous demandions :
+
+88
+0:04:54.849,000 --> 0:04:58,000
+« Quel niveau humain de performance et de rapidité pouvons-nous approcher
+
+89
+0:04:59.389,000 --> 0:05:03,000
+dans une tâche ordinaire comme mettre des boîtes sur un tapis-roulant ? »
+
+90
+0:05:04.111,000 --> 0:05:07,000
+Nous arrivons à environ deux tiers de la vitesse
+
+91
+0:05:07.601,000 --> 0:05:1,000
+à laquelle un homme opère en moyenne.
+
+92
+0:05:10.938,000 --> 0:05:13,000
+Ce robot utilise ses deux mains. Il utilise son corps, il marche.
+
+93
+0:05:14.757,000 --> 0:05:17,000
+Donc, c'est vraiment un exemple de stabilité dynamique,
+
+94
+0:05:17.84,000 --> 0:05:2,000
+de manipulation mobile et de perception mobile.
+
+95
+0:05:22.372,000 --> 0:05:23,000
+Ici...
+
+96
+0:05:23.775,000 --> 0:05:24,000
+(Rires)
+
+97
+0:05:26.439,000 --> 0:05:28,000
+En fait, nous avons deux Atlas.
+
+98
+0:05:28.493,000 --> 0:05:29,000
+(Rires)
+
+99
+0:05:30.308,000 --> 0:05:33,000
+Certes, tout ne se passe pas toujours exactement comme il le devrait.
+
+100
+0:05:33.628,000 --> 0:05:34,000
+(Rires)
+
+101
+0:05:38.498,000 --> 0:05:39,000
+(Rires)
+
+102
+0:05:40.716,000 --> 0:05:41,000
+(Rires)
+
+103
+0:05:45.472,000 --> 0:05:47,000
+Et voici notre dernier robot nommé Handle.
+
+104
+0:05:48.637,000 --> 0:05:52,000
+Handle est intéressant car il est mi-animal
+
+105
+0:05:52.649,000 --> 0:05:54,000
+et mi-autre chose,
+
+106
+0:05:55.087,000 --> 0:05:57,000
+avec ses sortes de jambes et ses roues.
+
+107
+0:05:58.041,000 --> 0:06:01,000
+Il a des bras, disposés d'une drôle de façon,
+
+108
+0:06:01.371,000 --> 0:06:02,000
+mais il fait des choses remarquables.
+
+109
+0:06:03.301,000 --> 0:06:06,000
+Il peut porter 45 kilos.
+
+110
+0:06:06.846,000 --> 0:06:09,000
+Il pourra probablement soulever plus mais jusqu'ici, nous sommes à 45.
+
+111
+0:06:10.565,000 --> 0:06:13,000
+Il est très bon sur les terrains difficiles, bien qu'il ait des roues.
+
+112
+0:06:18.061,000 --> 0:06:2,000
+Et Handle adore se donner en spectacle.
+
+113
+0:06:20.877,000 --> 0:06:21,000
+(Rires)
+
+114
+0:06:24.624,000 --> 0:06:26,000
+(Applaudissements)
+
+115
+0:06:30.76,000 --> 0:06:33,000
+Je vais aborder brièvement la question du credo en matière de robots.
+
+116
+0:06:34.536,000 --> 0:06:37,000
+Beaucoup pensent qu'un robot est une machine
+
+117
+0:06:37.699,000 --> 0:06:4,000
+contenant un ordinateur qui lui dit ce qu'il doit faire,
+
+118
+0:06:41.08,000 --> 0:06:44,000
+et que l'ordinateur écoute à travers ses capteurs.
+
+119
+0:06:44.449,000 --> 0:06:46,000
+Mais en fait, ce n'est qu'une moitié de l'histoire.
+
+120
+0:06:46.883,000 --> 0:06:51,000
+La réalité c'est que l’ordinateur fait, d'un côté, des suggestions au robot,
+
+121
+0:06:52.058,000 --> 0:06:54,000
+mais de l'autre, il y a la physique du monde réel,
+
+122
+0:06:54.96,000 --> 0:06:59,000
+et physique veut dire : gravité, friction, heurter des choses.
+
+123
+0:07:00.418,000 --> 0:07:01,000
+Pour avoir un robot réussi,
+
+124
+0:07:02.157,000 --> 0:07:06,000
+mon crédo est que vous devez faire une conception holistique,
+
+125
+0:07:06.892,000 --> 0:07:09,000
+dans laquelle vous créez le logiciel, l'équipement ainsi que le comportement,
+
+126
+0:07:10.505,000 --> 0:07:14,000
+en une fois, afin que tous ces composants s'imbriquent et coopèrent réellement.
+
+127
+0:07:15.455,000 --> 0:07:18,000
+Avec une conception parfaite, vous arrivez à une vraie harmonie
+
+128
+0:07:18.466,000 --> 0:07:2,000
+entre toutes ces parties interagissant entre elles.
+
+129
+0:07:22.339,000 --> 0:07:24,000
+Donc, c'est moitié logiciel et moitié équipement,
+
+130
+0:07:24.633,000 --> 0:07:25,000
+plus le comportement.
+
+131
+0:07:26.788,000 --> 0:07:29,000
+Nous avons récemment travaillé sur le matériel pour passer
+
+132
+0:07:30.134,000 --> 0:07:32,000
+de l'image de gauche qui est un design conventionnel
+
+133
+0:07:32.585,000 --> 0:07:35,000
+dans lequel vous avez des pièces boulonnées ensemble,
+
+134
+0:07:35.679,000 --> 0:07:37,000
+des conducteurs, des tubes, des connecteurs,
+
+135
+0:07:38.583,000 --> 0:07:4,000
+à l'image de droite, quelque chose de plus intégré,
+
+136
+0:07:40.992,000 --> 0:07:42,000
+censé ressembler à un dessin anatomique.
+
+137
+0:07:43.51,000 --> 0:07:45,000
+Donc, en utilisant le miracle de l'impression 3D,
+
+138
+0:07:46.044,000 --> 0:07:48,000
+nous commençons à fabriquer des pièces de robots
+
+139
+0:07:48.705,000 --> 0:07:5,000
+qui ressemblent beaucoup plus à l'anatomie d'un animal.
+
+140
+0:07:51.446,000 --> 0:07:52,000
+Ceci est une partie de jambe supérieure
+
+141
+0:07:53.304,000 --> 0:07:56,000
+qui comporte des voies hydrauliques, des vérins, des filtres,
+
+142
+0:07:56.922,000 --> 0:07:58,000
+le tout encastré, imprimé en une seule pièce.
+
+143
+0:07:59.232,000 --> 0:08:02,000
+Et toute la structure est développée
+
+144
+0:08:02.448,000 --> 0:08:04,000
+en sachant quels vont être les charges et les comportements,
+
+145
+0:08:05.378,000 --> 0:08:09,000
+d'après les données recueillies par les robots, les simulations, etc.
+
+146
+0:08:10.008,000 --> 0:08:13,000
+C'est donc une conception dirigée par les données.
+
+147
+0:08:13.727,000 --> 0:08:14,000
+En utilisant ce type de procédé,
+
+148
+0:08:15.347,000 --> 0:08:17,000
+pour le haut de jambe et aussi d'autres choses,
+
+149
+0:08:17.631,000 --> 0:08:22,000
+nous sommes passés des robots monstrueux, lourds, lents et mauvais
+
+150
+0:08:22.719,000 --> 0:08:25,000
+comme celui de droite qui pèse presque 180 kg,
+
+151
+0:08:26.552,000 --> 0:08:28,000
+à celui du milieu, qui était dans la vidéo,
+
+152
+0:08:29.512,000 --> 0:08:32,000
+qui pèse environ 86 kg, juste un peu plus que moi.
+
+153
+0:08:32.993,000 --> 0:08:35,000
+Nous en avons un nouveau en fonctionnement - que je ne vais pas montrer ici -
+
+154
+0:08:36.989,000 --> 0:08:38,000
+à gauche, qui pèse juste 75 kg,
+
+155
+0:08:39.833,000 --> 0:08:41,000
+avec la même force et les mêmes capacités.
+
+156
+0:08:42.413,000 --> 0:08:45,000
+Donc, ces choses s'améliorent vraiment très rapidement.
+
+157
+0:08:46.46,000 --> 0:08:49,000
+Il est temps que Spot revienne.
+
+158
+0:08:49.746,000 --> 0:08:54,000
+Et nous allons faire une démonstration de mobilité, dextérité et perception.
+
+159
+0:08:55.861,000 --> 0:08:58,000
+Donc, voici Seth Davis, qui est mon « dresseur » de robot aujourd'hui.
+
+160
+0:08:59.649,000 --> 0:09:03,000
+Il indique à Spot une direction générale en le pilotant,
+
+161
+0:09:04.563,000 --> 0:09:06,000
+mais toute la coordination des pattes et des capteurs
+
+162
+0:09:07.548,000 --> 0:09:09,000
+est faite par les ordinateurs situés sur le robot.
+
+163
+0:09:10.723,000 --> 0:09:13,000
+Le robot peut marcher à différentes allures.
+
+164
+0:09:14.193,000 --> 0:09:19,000
+Il est équipé d'un gyro ou gyrolaser à état solide, et d'un mesureur inertiel.
+
+165
+0:09:19.622,000 --> 0:09:22,000
+Il contient une batterie bien sûr, etc.
+
+166
+0:09:23.382,000 --> 0:09:25,000
+Un des côtés géniaux d'un robot pourvu de jambes,
+
+167
+0:09:25.682,000 --> 0:09:26,000
+c'est qu'il est omnidirectionnel.
+
+168
+0:09:27.601,000 --> 0:09:3,000
+Non seulement il se déplace en avant, mais il peut aller sur le côté.
+
+169
+0:09:31.593,000 --> 0:09:32,000
+Il peut tourner sur place...
+
+170
+0:09:36.612,000 --> 0:09:38,000
+Et ce robot est un peu frimeur.
+
+171
+0:09:39.765,000 --> 0:09:41,000
+Il aime utiliser ses allures dynamiques comme courir...
+
+172
+0:09:42.745,000 --> 0:09:43,000
+(Rires)
+
+173
+0:09:43.969,000 --> 0:09:44,000
+Et il en a une de plus.
+
+174
+0:09:47.284,000 --> 0:09:48,000
+(Rires)
+
+175
+0:09:49.878,000 --> 0:09:51,000
+Pour vraiment frimer, il devrait sauter à cloche-pied,
+
+176
+0:09:52.398,000 --> 0:09:53,000
+mais bon...
+
+177
+0:09:54.49,000 --> 0:09:57,000
+Spot a une série de caméras ici, des caméras stéréo,
+
+178
+0:09:58.307,000 --> 0:10:,000
+et nous avons un retour vidéo, là, au centre.
+
+179
+0:10:00.471,000 --> 0:10:01,000
+Il fait sombre dans le public,
+
+180
+0:10:02.159,000 --> 0:10:04,000
+mais, il va utiliser ces caméras
+
+181
+0:10:04.383,000 --> 0:10:06,000
+pour regarder le terrain juste en face de lui,
+
+182
+0:10:06.89,000 --> 0:10:08,000
+tout en se dirigeant vers ces obstacles ici, derrière.
+
+183
+0:10:09.845,000 --> 0:10:12,000
+Dans cette démo, Seth est en train de le piloter
+
+184
+0:10:13.042,000 --> 0:10:15,000
+mais le robot fait sa propre analyse du terrain.
+
+185
+0:10:15.421,000 --> 0:10:16,000
+Ceci est la carte du terrain,
+
+186
+0:10:17.237,000 --> 0:10:22,000
+où les données des caméras sont développées en temps réel,
+
+187
+0:10:22.431,000 --> 0:10:24,000
+montrant les points rouges, là où il ne faut pas marcher,
+
+188
+0:10:25.322,000 --> 0:10:27,000
+et les points verts, les bons endroits.
+
+189
+0:10:27.707,000 --> 0:10:29,000
+Ici, il les traite comme des tremplins.
+
+190
+0:10:30.18,000 --> 0:10:33,000
+Donc, il essaie de rester sur ces blocs en ajustant ses pas.
+
+191
+0:10:34.096,000 --> 0:10:37,000
+Il y a des tonnes de planifications dans une opération comme celle-ci,
+
+192
+0:10:38.007,000 --> 0:10:41,000
+et il planifie tout cela en temps réel en ajustant ses pas
+
+193
+0:10:41.398,000 --> 0:10:44,000
+pour qu'ils soient un peu plus longs ou un peu plus courts.
+
+194
+0:10:45.346,000 --> 0:10:47,000
+Nous allons maintenant changer de configuration,
+
+195
+0:10:47.59,000 --> 0:10:5,000
+et il va traiter les blocs comme un terrain,
+
+196
+0:10:50.997,000 --> 0:10:55,000
+et décider s'il doit monter ou descendre, au fur et à mesure.
+
+197
+0:10:57.265,000 --> 0:11:01,000
+C'est donc employer l'équilibre dynamique et la perception mobile,
+
+198
+0:11:02.14,000 --> 0:11:07,000
+parce qu'il doit coordonner ce qu'il voit avec ses déplacements.
+
+199
+0:11:09.168,000 --> 0:11:13,000
+Spot possède aussi autre chose : un bras robotique.
+
+200
+0:11:14.457,000 --> 0:11:16,000
+Certains voient peut-être un cou et une tête,
+
+201
+0:11:16.551,000 --> 0:11:17,000
+mais, croyez moi, c'est un bras.
+
+202
+0:11:18.54,000 --> 0:11:19,000
+Seth le dirige dans l'espace.
+
+203
+0:11:20.429,000 --> 0:11:23,000
+En fait, il est en train de conduire la main et le corps suit.
+
+204
+0:11:24.061,000 --> 0:11:26,000
+Donc, les deux sont coordonnés
+
+205
+0:11:26.568,000 --> 0:11:29,000
+de la façon dont j'ai parlé auparavant, celle dont les hommes sont capables.
+
+206
+0:11:30.266,000 --> 0:11:34,000
+En fait, Spot peut faire un truc sympa que nous appelons « mode Tête de poule ».
+
+207
+0:11:34.753,000 --> 0:11:37,000
+C'est quand il garde sa tête-main immobile en un point de l'espace
+
+208
+0:11:37.911,000 --> 0:11:39,000
+et bouge son corps dans tous les sens.
+
+209
+0:11:40.733,000 --> 0:11:42,000
+Il existe une variation de ceci appelée « Twerk »...
+
+210
+0:11:43.219,000 --> 0:11:43,000
+(Rires)
+
+211
+0:11:44.229,000 --> 0:11:46,000
+Mais on ne va pas l'utiliser aujourd'hui.
+
+212
+0:11:47.091,000 --> 0:11:5,000
+Donc Spot, j'ai un peu soif. Peux-tu m'apporter un soda ?
+
+213
+0:11:51.473,000 --> 0:11:54,000
+Dans cette démo, Seth ne pilote pas.
+
+214
+0:11:55.27,000 --> 0:11:56,000
+Il y a un LIDAR sur le dos du robot
+
+215
+0:11:57.237,000 --> 0:11:59,000
+qui utilise ces accessoires que l'on a mis sur la scène
+
+216
+0:11:59.968,000 --> 0:12:,000
+pour se localiser.
+
+217
+0:12:01.385,000 --> 0:12:03,000
+Il est parti à cet endroit.
+
+218
+0:12:03.69,000 --> 0:12:05,000
+Maintenant, il utilise une caméra qui se trouve dans sa main
+
+219
+0:12:06.526,000 --> 0:12:08,000
+pour trouver la canette,
+
+220
+0:12:09.033,000 --> 0:12:1,000
+l'attraper.
+
+221
+0:12:10.122,000 --> 0:12:12,000
+Et encore une fois, Seth ne pilote pas.
+
+222
+0:12:13.552,000 --> 0:12:16,000
+Nous avons planifié à l'avance le chemin qu'il doit prendre.
+
+223
+0:12:16.817,000 --> 0:12:18,000
+On aurait dit qu'il manquait son chemin.
+
+224
+0:12:18.918,000 --> 0:12:19,000
+Maintenant, Seth va reprendre le contrôle
+
+225
+0:12:20.856,000 --> 0:12:23,000
+parce que je suis plutôt nerveux à l'idée que le robot fasse cela tout seul.
+
+226
+0:12:24.803,000 --> 0:12:25,000
+Merci, Spot.
+
+227
+0:12:28.181,000 --> 0:12:3,000
+(Applaudissements)
+
+228
+0:12:35.069,000 --> 0:12:36,000
+Alors Spot,
+
+229
+0:12:36.473,000 --> 0:12:39,000
+que penses-tu d'avoir terminé ta prestation à TED ?
+
+230
+0:12:41.194,000 --> 0:12:43,000
+(Rires)
+
+231
+0:12:44.248,000 --> 0:12:45,000
+Moi aussi !
+
+232
+0:12:45.424,000 --> 0:12:46,000
+(Rires)
+
+233
+0:12:46.48,000 --> 0:12:47,000
+Merci à tous,
+
+234
+0:12:48.32,000 --> 0:12:52,000
+et merci à l'équipe de Boston Dynamics, qui a travaillé dur derrière tout ceci.
+
+235
+0:12:52.877,000 --> 0:12:54,000
+(Applaudissements)
+
+236
+0:13:03.239,000 --> 0:13:04,000
+Helen Walters : Marc, revenez.
+
+237
+0:13:04.796,000 --> 0:13:07,000
+Merci infiniment. Venez par ici, j'ai quelques questions.
+
+238
+0:13:08.723,000 --> 0:13:11,000
+Vous avez mentionné l'U.P.S., et la livraison de colis.
+
+239
+0:13:12.162,000 --> 0:13:15,000
+Quelles sont les autres applications que vous envisagez pour vos robots ?
+
+240
+0:13:16.123,000 --> 0:13:19,000
+Marc Raibert : Je pense que les robots qui ont les capacités dont j'ai parlé
+
+241
+0:13:19.824,000 --> 0:13:21,000
+vont devenir incroyablement utiles.
+
+242
+0:13:22.288,000 --> 0:13:26,000
+Il y a un an, je suis allé à Fukushima pour examiner la situation là-bas,
+
+243
+0:13:26.715,000 --> 0:13:28,000
+et il y a vraiment un besoin énorme
+
+244
+0:13:28.765,000 --> 0:13:31,000
+de machines capables d'aller dans quelques-uns des endroits insalubres
+
+245
+0:13:32.057,000 --> 0:13:34,000
+et aider à y remédier.
+
+246
+0:13:34.708,000 --> 0:13:36,000
+Je pense que nous ne tarderons pas
+
+247
+0:13:36.771,000 --> 0:13:38,000
+à avoir des robots comme ceux-là dans nos maisons,
+
+248
+0:13:39.331,000 --> 0:13:4,000
+et un de nos besoins majeurs,
+
+249
+0:13:41.036,000 --> 0:13:45,000
+c'est le soin aux personnes âgées et invalides.
+
+250
+0:13:46.256,000 --> 0:13:48,000
+Je pense que dans peu de temps,
+
+251
+0:13:48.829,000 --> 0:13:51,000
+nous utiliserons des robots pour aider à prendre soin de nos parents,
+
+252
+0:13:52.565,000 --> 0:13:56,000
+ou plus probablement, aider nos enfants à prendre soin de nous.
+
+253
+0:13:57.831,000 --> 0:13:59,000
+Il y a plein d'autres choses. Les possibilités sont illimitées.
+
+254
+0:14:00.805,000 --> 0:14:01,000
+Nous n'avons pas pensé à tout
+
+255
+0:14:02.697,000 --> 0:14:06,000
+et des gens comme vous nous aiderons à penser à de nouvelles applications.
+
+256
+0:14:06.762,000 --> 0:14:07,000
+H. W. : Et l'aspect négatif ?
+
+257
+0:14:08.213,000 --> 0:14:11,000
+Qu'en est-il de l'armée ? Sont-ils intéressés ?
+
+258
+0:14:12.621,000 --> 0:14:15,000
+M. R. : Certainement! L'armée a été un grand investisseur dans la robotique.
+
+259
+0:14:16.279,000 --> 0:14:19,000
+Je ne pense pas personnellement que l'armée soit l'aspect négatif.
+
+260
+0:14:20.345,000 --> 0:14:23,000
+Mais je pense que, comme toute technologie avancée,
+
+261
+0:14:24.16,000 --> 0:14:26,000
+elle peut être utilisée pour beaucoup de choses.
+
+262
+0:14:26.407,000 --> 0:14:29,000
+H. W. : Formidable, merci beaucoup. M. R. : Avec plaisir, merci.
+
+263
+0:14:29.712,000 --> 0:14:3,000
+(Applaudissements)
+

@@ -1,0 +1,988 @@
+1
+0:00:13.114,000 --> 0:00:2,000
+So over the past few centuries, microscopes have revolutionized our world.
+
+2
+0:00:21.036,000 --> 0:00:26,000
+They revealed to us a tiny world of objects, life and structures
+
+3
+0:00:26.252,000 --> 0:00:28,000
+that are too small for us to see with our naked eyes.
+
+4
+0:00:29.158,000 --> 0:00:32,000
+They are a tremendous contribution to science and technology.
+
+5
+0:00:32.177,000 --> 0:00:35,000
+Today I'd like to introduce you to a new type of microscope,
+
+6
+0:00:35.404,000 --> 0:00:37,000
+a microscope for changes.
+
+7
+0:00:37.982,000 --> 0:00:39,000
+It doesn't use optics like a regular microscope
+
+8
+0:00:40.884,000 --> 0:00:41,000
+to make small objects bigger,
+
+9
+0:00:42.881,000 --> 0:00:46,000
+but instead it uses a video camera and image processing
+
+10
+0:00:47.257,000 --> 0:00:52,000
+to reveal to us the tiniest motions and color changes in objects and people,
+
+11
+0:00:52.513,000 --> 0:00:55,000
+changes that are impossible for us to see with our naked eyes.
+
+12
+0:00:56.355,000 --> 0:01:,000
+And it lets us look at our world in a completely new way.
+
+13
+0:01:00.475,000 --> 0:01:01,000
+So what do I mean by color changes?
+
+14
+0:01:02.385,000 --> 0:01:04,000
+Our skin, for example, changes its color very slightly
+
+15
+0:01:05.217,000 --> 0:01:06,000
+when the blood flows under it.
+
+16
+0:01:07.214,000 --> 0:01:09,000
+That change is incredibly subtle,
+
+17
+0:01:09.611,000 --> 0:01:11,000
+which is why, when you look at other people,
+
+18
+0:01:11.674,000 --> 0:01:13,000
+when you look at the person sitting next to you,
+
+19
+0:01:13.925,000 --> 0:01:16,000
+you don't see their skin or their face changing color.
+
+20
+0:01:17.5,000 --> 0:01:21,000
+When we look at this video of Steve here, it appears to us like a static picture,
+
+21
+0:01:21.86,000 --> 0:01:24,000
+but once we look at this video through our new, special microscope,
+
+22
+0:01:25.72,000 --> 0:01:27,000
+suddenly we see a completely different image.
+
+23
+0:01:28.32,000 --> 0:01:31,000
+What you see here are small changes in the color of Steve's skin,
+
+24
+0:01:32.25,000 --> 0:01:36,000
+magnified 100 times so that they become visible.
+
+25
+0:01:36.686,000 --> 0:01:39,000
+We can actually see a human pulse.
+
+26
+0:01:39.953,000 --> 0:01:42,000
+We can see how fast Steve's heart is beating,
+
+27
+0:01:43.18,000 --> 0:01:48,000
+but we can also see the actual way that the blood flows in his face.
+
+28
+0:01:48.544,000 --> 0:01:5,000
+And we can do that not just to visualize the pulse,
+
+29
+0:01:51.175,000 --> 0:01:54,000
+but also to actually recover our heart rates,
+
+30
+0:01:54.646,000 --> 0:01:55,000
+and measure our heart rates.
+
+31
+0:01:56.439,000 --> 0:02:,000
+And we can do it with regular cameras and without touching the patients.
+
+32
+0:02:00.892,000 --> 0:02:05,000
+So here you see the pulse and heart rate we extracted from a neonatal baby
+
+33
+0:02:06.509,000 --> 0:02:08,000
+from a video we took with a regular DSLR camera,
+
+34
+0:02:09.39,000 --> 0:02:1,000
+and the heart rate measurement we get
+
+35
+0:02:11.206,000 --> 0:02:15,000
+is as accurate as the one you'd get with a standard monitor in a hospital.
+
+36
+0:02:16.017,000 --> 0:02:18,000
+And it doesn't even have to be a video we recorded.
+
+37
+0:02:18.659,000 --> 0:02:2,000
+We can do it essentially with other videos as well.
+
+38
+0:02:21.654,000 --> 0:02:24,000
+So I just took a short clip from "Batman Begins" here
+
+39
+0:02:25.555,000 --> 0:02:26,000
+just to show Christian Bale's pulse.
+
+40
+0:02:27.459,000 --> 0:02:28,000
+(Laughter)
+
+41
+0:02:29.281,000 --> 0:02:31,000
+And you know, presumably he's wearing makeup,
+
+42
+0:02:31.404,000 --> 0:02:32,000
+the lighting here is kind of challenging,
+
+43
+0:02:33.357,000 --> 0:02:35,000
+but still, just from the video, we're able to extract his pulse
+
+44
+0:02:36.308,000 --> 0:02:38,000
+and show it quite well.
+
+45
+0:02:38.326,000 --> 0:02:39,000
+So how do we do all that?
+
+46
+0:02:40.246,000 --> 0:02:44,000
+We basically analyze the changes in the light that are recorded
+
+47
+0:02:44.844,000 --> 0:02:46,000
+at every pixel in the video over time,
+
+48
+0:02:47.115,000 --> 0:02:48,000
+and then we crank up those changes.
+
+49
+0:02:48.913,000 --> 0:02:5,000
+We make them bigger so that we can see them.
+
+50
+0:02:51.075,000 --> 0:02:52,000
+The tricky part is that those signals,
+
+51
+0:02:52.977,000 --> 0:02:54,000
+those changes that we're after, are extremely subtle,
+
+52
+0:02:55.91,000 --> 0:02:57,000
+so we have to be very careful when you try to separate them
+
+53
+0:02:58.689,000 --> 0:03:01,000
+from noise that always exists in videos.
+
+54
+0:03:02.52,000 --> 0:03:04,000
+So we use some clever image processing techniques
+
+55
+0:03:05.515,000 --> 0:03:08,000
+to get a very accurate measurement of the color at each pixel in the video,
+
+56
+0:03:09.509,000 --> 0:03:11,000
+and then the way the color changes over time,
+
+57
+0:03:12.179,000 --> 0:03:14,000
+and then we amplify those changes.
+
+58
+0:03:14.872,000 --> 0:03:17,000
+We make them bigger to create those types of enhanced videos, or magnified videos,
+
+59
+0:03:18.852,000 --> 0:03:2,000
+that actually show us those changes.
+
+60
+0:03:21.024,000 --> 0:03:25,000
+But it turns out we can do that not just to show tiny changes in color,
+
+61
+0:03:25.262,000 --> 0:03:27,000
+but also tiny motions,
+
+62
+0:03:27.503,000 --> 0:03:3,000
+and that's because the light that gets recorded in our cameras
+
+63
+0:03:31.079,000 --> 0:03:33,000
+will change not only if the color of the object changes,
+
+64
+0:03:33.889,000 --> 0:03:35,000
+but also if the object moves.
+
+65
+0:03:36.257,000 --> 0:03:39,000
+So this is my daughter when she was about two months old.
+
+66
+0:03:39.893,000 --> 0:03:41,000
+It's a video I recorded about three years ago.
+
+67
+0:03:42.892,000 --> 0:03:45,000
+And as new parents, we all want to make sure our babies are healthy,
+
+68
+0:03:46.1,000 --> 0:03:48,000
+that they're breathing, that they're alive, of course.
+
+69
+0:03:48.642,000 --> 0:03:5,000
+So I too got one of those baby monitors
+
+70
+0:03:50.784,000 --> 0:03:52,000
+so that I could see my daughter when she was asleep.
+
+71
+0:03:53.253,000 --> 0:03:56,000
+And this is pretty much what you'll see with a standard baby monitor.
+
+72
+0:03:56.78,000 --> 0:03:59,000
+You can see the baby's sleeping, but there's not too much information there.
+
+73
+0:04:00.474,000 --> 0:04:01,000
+There's not too much we can see.
+
+74
+0:04:02.078,000 --> 0:04:04,000
+Wouldn't it be better, or more informative, or more useful,
+
+75
+0:04:04.902,000 --> 0:04:06,000
+if instead we could look at the view like this.
+
+76
+0:04:07.892,000 --> 0:04:13,000
+So here I took the motions and I magnified them 30 times,
+
+77
+0:04:14.248,000 --> 0:04:17,000
+and then I could clearly see that my daughter was indeed alive and breathing.
+
+78
+0:04:18.074,000 --> 0:04:2,000
+(Laughter)
+
+79
+0:04:20.327,000 --> 0:04:21,000
+Here is a side-by-side comparison.
+
+80
+0:04:22.249,000 --> 0:04:24,000
+So again, in the source video, in the original video,
+
+81
+0:04:24.732,000 --> 0:04:25,000
+there's not too much we can see,
+
+82
+0:04:26.368,000 --> 0:04:29,000
+but once we magnify the motions, the breathing becomes much more visible.
+
+83
+0:04:30.075,000 --> 0:04:32,000
+And it turns out, there's a lot of phenomena
+
+84
+0:04:32.145,000 --> 0:04:35,000
+we can reveal and magnify with our new motion microscope.
+
+85
+0:04:35.768,000 --> 0:04:39,000
+We can see how our veins and arteries are pulsing in our bodies.
+
+86
+0:04:40.332,000 --> 0:04:42,000
+We can see that our eyes are constantly moving
+
+87
+0:04:42.96,000 --> 0:04:43,000
+in this wobbly motion.
+
+88
+0:04:44.847,000 --> 0:04:45,000
+And that's actually my eye,
+
+89
+0:04:46.356,000 --> 0:04:49,000
+and again this video was taken right after my daughter was born,
+
+90
+0:04:49.421,000 --> 0:04:53,000
+so you can see I wasn't getting too much sleep. (Laughter)
+
+91
+0:04:53.623,000 --> 0:04:55,000
+Even when a person is sitting still,
+
+92
+0:04:56.339,000 --> 0:04:58,000
+there's a lot of information we can extract
+
+93
+0:04:58.383,000 --> 0:05:01,000
+about their breathing patterns, small facial expressions.
+
+94
+0:05:01.912,000 --> 0:05:02,000
+Maybe we could use those motions
+
+95
+0:05:03.537,000 --> 0:05:06,000
+to tell us something about our thoughts or our emotions.
+
+96
+0:05:06.691,000 --> 0:05:09,000
+We can also magnify small mechanical movements,
+
+97
+0:05:09.946,000 --> 0:05:1,000
+like vibrations in engines,
+
+98
+0:05:11.501,000 --> 0:05:14,000
+that can help engineers detect and diagnose machinery problems,
+
+99
+0:05:15.193,000 --> 0:05:19,000
+or see how our buildings and structures sway in the wind and react to forces.
+
+100
+0:05:19.931,000 --> 0:05:23,000
+Those are all things that our society knows how to measure in various ways,
+
+101
+0:05:24.512,000 --> 0:05:26,000
+but measuring those motions is one thing,
+
+102
+0:05:26.965,000 --> 0:05:28,000
+and actually seeing those motions as they happen
+
+103
+0:05:29.241,000 --> 0:05:31,000
+is a whole different thing.
+
+104
+0:05:31.795,000 --> 0:05:34,000
+And ever since we discovered this new technology,
+
+105
+0:05:34.836,000 --> 0:05:37,000
+we made our code available online so that others could use and experiment with it.
+
+106
+0:05:38.789,000 --> 0:05:39,000
+It's very simple to use.
+
+107
+0:05:40.664,000 --> 0:05:42,000
+It can work on your own videos.
+
+108
+0:05:42.708,000 --> 0:05:45,000
+Our collaborators at Quanta Research even created this nice website
+
+109
+0:05:45.901,000 --> 0:05:47,000
+where you can upload your videos and process them online,
+
+110
+0:05:48.579,000 --> 0:05:51,000
+so even if you don't have any experience in computer science or programming,
+
+111
+0:05:52.395,000 --> 0:05:54,000
+you can still very easily experiment with this new microscope.
+
+112
+0:05:55.331,000 --> 0:05:57,000
+And I'd like to show you just a couple of examples
+
+113
+0:05:57.735,000 --> 0:05:59,000
+of what others have done with it.
+
+114
+0:06:00.47,000 --> 0:06:05,000
+So this video was made by a YouTube user called Tamez85.
+
+115
+0:06:05.787,000 --> 0:06:06,000
+I don't know who that user is,
+
+116
+0:06:07.25,000 --> 0:06:09,000
+but he, or she, used our code
+
+117
+0:06:09.595,000 --> 0:06:12,000
+to magnify small belly movements during pregnancy.
+
+118
+0:06:13.31,000 --> 0:06:14,000
+It's kind of creepy.
+
+119
+0:06:14.912,000 --> 0:06:15,000
+(Laughter)
+
+120
+0:06:16.525,000 --> 0:06:2,000
+People have used it to magnify pulsing veins in their hands.
+
+121
+0:06:21.486,000 --> 0:06:24,000
+And you know it's not real science unless you use guinea pigs,
+
+122
+0:06:25.268,000 --> 0:06:28,000
+and apparently this guinea pig is called Tiffany,
+
+123
+0:06:28.658,000 --> 0:06:3,000
+and this YouTube user claims it is the first rodent on Earth
+
+124
+0:06:31.607,000 --> 0:06:33,000
+that was motion-magnified.
+
+125
+0:06:34.295,000 --> 0:06:36,000
+You can also do some art with it.
+
+126
+0:06:36.483,000 --> 0:06:39,000
+So this video was sent to me by a design student at Yale.
+
+127
+0:06:39.501,000 --> 0:06:41,000
+She wanted to see if there's any difference
+
+128
+0:06:41.638,000 --> 0:06:42,000
+in the way her classmates move.
+
+129
+0:06:43.16,000 --> 0:06:47,000
+She made them all stand still, and then magnified their motions.
+
+130
+0:06:47.369,000 --> 0:06:5,000
+It's like seeing still pictures come to life.
+
+131
+0:06:50.747,000 --> 0:06:52,000
+And the nice thing with all those examples
+
+132
+0:06:53.18,000 --> 0:06:55,000
+is that we had nothing to do with them.
+
+133
+0:06:55.476,000 --> 0:06:58,000
+We just provided this new tool, a new way to look at the world,
+
+134
+0:06:59.33,000 --> 0:07:04,000
+and then people find other interesting, new and creative ways of using it.
+
+135
+0:07:04.462,000 --> 0:07:05,000
+But we didn't stop there.
+
+136
+0:07:06.226,000 --> 0:07:09,000
+This tool not only allows us to look at the world in a new way,
+
+137
+0:07:09.477,000 --> 0:07:11,000
+it also redefines what we can do
+
+138
+0:07:11.845,000 --> 0:07:14,000
+and pushes the limits of what we can do with our cameras.
+
+139
+0:07:15.026,000 --> 0:07:17,000
+So as scientists, we started wondering,
+
+140
+0:07:17.255,000 --> 0:07:2,000
+what other types of physical phenomena produce tiny motions
+
+141
+0:07:21.04,000 --> 0:07:23,000
+that we could now use our cameras to measure?
+
+142
+0:07:23.943,000 --> 0:07:27,000
+And one such phenomenon that we focused on recently is sound.
+
+143
+0:07:27.944,000 --> 0:07:29,000
+Sound, as we all know, is basically changes
+
+144
+0:07:30.049,000 --> 0:07:32,000
+in air pressure that travel through the air.
+
+145
+0:07:32.232,000 --> 0:07:35,000
+Those pressure waves hit objects and they create small vibrations in them,
+
+146
+0:07:35.853,000 --> 0:07:37,000
+which is how we hear and how we record sound.
+
+147
+0:07:38.385,000 --> 0:07:41,000
+But it turns out that sound also produces visual motions.
+
+148
+0:07:42.053,000 --> 0:07:44,000
+Those are motions that are not visible to us
+
+149
+0:07:44.886,000 --> 0:07:47,000
+but are visible to a camera with the right processing.
+
+150
+0:07:47.887,000 --> 0:07:48,000
+So here are two examples.
+
+151
+0:07:49.46,000 --> 0:07:51,000
+This is me demonstrating my great singing skills.
+
+152
+0:07:53.064,000 --> 0:07:54,000
+(Singing)
+
+153
+0:07:54.698,000 --> 0:07:55,000
+(Laughter)
+
+154
+0:07:56.134,000 --> 0:07:58,000
+And I took a high-speed video of my throat while I was humming.
+
+155
+0:07:59.12,000 --> 0:08:,000
+Again, if you stare at that video,
+
+156
+0:08:00.884,000 --> 0:08:02,000
+there's not too much you'll be able to see,
+
+157
+0:08:02.96,000 --> 0:08:06,000
+but once we magnify the motions 100 times, we can see all the motions and ripples
+
+158
+0:08:07.292,000 --> 0:08:1,000
+in the neck that are involved in producing the sound.
+
+159
+0:08:10.566,000 --> 0:08:12,000
+That signal is there in that video.
+
+160
+0:08:13.306,000 --> 0:08:15,000
+We also know that singers can break a wine glass
+
+161
+0:08:15.976,000 --> 0:08:16,000
+if they hit the correct note.
+
+162
+0:08:17.439,000 --> 0:08:18,000
+So here, we're going to play a note
+
+163
+0:08:19.204,000 --> 0:08:21,000
+that's in the resonance frequency of that glass
+
+164
+0:08:21.73,000 --> 0:08:23,000
+through a loudspeaker that's next to it.
+
+165
+0:08:23.778,000 --> 0:08:27,000
+Once we play that note and magnify the motions 250 times,
+
+166
+0:08:28.197,000 --> 0:08:3,000
+we can very clearly see how the glass vibrates
+
+167
+0:08:30.535,000 --> 0:08:33,000
+and resonates in response to the sound.
+
+168
+0:08:34.105,000 --> 0:08:36,000
+It's not something you're used to seeing every day.
+
+169
+0:08:36.525,000 --> 0:08:39,000
+But this made us think. It gave us this crazy idea.
+
+170
+0:08:40.054,000 --> 0:08:45,000
+Can we actually invert this process and recover sound from video
+
+171
+0:08:45.662,000 --> 0:08:49,000
+by analyzing the tiny vibrations that sound waves create in objects,
+
+172
+0:08:49.697,000 --> 0:08:53,000
+and essentially convert those back into the sounds that produced them.
+
+173
+0:08:54.474,000 --> 0:08:58,000
+In this way, we can turn everyday objects into microphones.
+
+174
+0:08:58.931,000 --> 0:09:,000
+So that's exactly what we did.
+
+175
+0:09:01.163,000 --> 0:09:03,000
+So here's an empty bag of chips that was lying on a table,
+
+176
+0:09:03.979,000 --> 0:09:05,000
+and we're going to turn that bag of chips into a microphone
+
+177
+0:09:06.804,000 --> 0:09:07,000
+by filming it with a video camera
+
+178
+0:09:08.395,000 --> 0:09:11,000
+and analyzing the tiny motions that sound waves create in it.
+
+179
+0:09:11.623,000 --> 0:09:13,000
+So here's the sound that we played in the room.
+
+180
+0:09:14.419,000 --> 0:09:18,000
+(Music: "Mary Had a Little Lamb")
+
+181
+0:09:22.007,000 --> 0:09:25,000
+And this is a high-speed video we recorded of that bag of chips.
+
+182
+0:09:25.032,000 --> 0:09:26,000
+Again it's playing.
+
+183
+0:09:26.306,000 --> 0:09:29,000
+There's no chance you'll be able to see anything going on in that video
+
+184
+0:09:29.648,000 --> 0:09:3,000
+just by looking at it,
+
+185
+0:09:30.706,000 --> 0:09:32,000
+but here's the sound we were able to recover just by analyzing
+
+186
+0:09:33.69,000 --> 0:09:35,000
+the tiny motions in that video.
+
+187
+0:09:35.873,000 --> 0:09:37,000
+(Music: "Mary Had a Little Lamb")
+
+188
+0:09:52.985,000 --> 0:09:53,000
+I call it -- Thank you.
+
+189
+0:09:54.471,000 --> 0:09:59,000
+(Applause)
+
+190
+0:10:01.878,000 --> 0:10:03,000
+I call it the visual microphone.
+
+191
+0:10:04.223,000 --> 0:10:07,000
+We actually extract audio signals from video signals.
+
+192
+0:10:07.613,000 --> 0:10:1,000
+And just to give you a sense of the scale of the motions here,
+
+193
+0:10:10.799,000 --> 0:10:15,000
+a pretty loud sound will cause that bag of chips to move less than a micrometer.
+
+194
+0:10:16.135,000 --> 0:10:18,000
+That's one thousandth of a millimeter.
+
+195
+0:10:18.874,000 --> 0:10:21,000
+That's how tiny the motions are that we are now able to pull out
+
+196
+0:10:22.435,000 --> 0:10:25,000
+just by observing how light bounces off objects
+
+197
+0:10:25.678,000 --> 0:10:27,000
+and gets recorded by our cameras.
+
+198
+0:10:27.814,000 --> 0:10:3,000
+We can recover sounds from other objects, like plants.
+
+199
+0:10:31.064,000 --> 0:10:37,000
+(Music: "Mary Had a Little Lamb")
+
+200
+0:10:39.214,000 --> 0:10:4,000
+And we can recover speech as well.
+
+201
+0:10:41.211,000 --> 0:10:43,000
+So here's a person speaking in a room.
+
+202
+0:10:43.788,000 --> 0:10:47,000
+Voice: Mary had a little lamb whose fleece was white as snow,
+
+203
+0:10:47.991,000 --> 0:10:51,000
+and everywhere that Mary went, that lamb was sure to go.
+
+204
+0:10:52.221,000 --> 0:10:54,000
+Michael Rubinstein: And here's that speech again recovered
+
+205
+0:10:54.98,000 --> 0:10:57,000
+just from this video of that same bag of chips.
+
+206
+0:10:58.254,000 --> 0:11:02,000
+Voice: Mary had a little lamb whose fleece was white as snow,
+
+207
+0:11:03.085,000 --> 0:11:07,000
+and everywhere that Mary went, that lamb was sure to go.
+
+208
+0:11:07.944,000 --> 0:11:09,000
+MR: We used "Mary Had a Little Lamb"
+
+209
+0:11:10.29,000 --> 0:11:12,000
+because those are said to be the first words
+
+210
+0:11:12.413,000 --> 0:11:16,000
+that Thomas Edison spoke into his phonograph in 1877.
+
+211
+0:11:16.574,000 --> 0:11:19,000
+It was one of the first sound recording devices in history.
+
+212
+0:11:19.802,000 --> 0:11:22,000
+It basically directed the sounds onto a diaphragm
+
+213
+0:11:23.129,000 --> 0:11:27,000
+that vibrated a needle that essentially engraved the sound on tinfoil
+
+214
+0:11:27.208,000 --> 0:11:29,000
+that was wrapped around the cylinder.
+
+215
+0:11:29.483,000 --> 0:11:34,000
+Here's a demonstration of recording and replaying sound with Edison's phonograph.
+
+216
+0:11:35.426,000 --> 0:11:38,000
+(Video) Voice: Testing, testing, one two three.
+
+217
+0:11:38.446,000 --> 0:11:41,000
+Mary had a little lamb whose fleece was white as snow,
+
+218
+0:11:41.859,000 --> 0:11:44,000
+and everywhere that Mary went, the lamb was sure to go.
+
+219
+0:11:45.528,000 --> 0:11:47,000
+Testing, testing, one two three.
+
+220
+0:11:48.268,000 --> 0:11:52,000
+Mary had a little lamb whose fleece was white as snow,
+
+221
+0:11:52.424,000 --> 0:11:57,000
+and everywhere that Mary went, the lamb was sure to go.
+
+222
+0:11:57.648,000 --> 0:12:01,000
+MR: And now, 137 years later,
+
+223
+0:12:01.665,000 --> 0:12:05,000
+we're able to get sound in pretty much similar quality
+
+224
+0:12:05.752,000 --> 0:12:09,000
+but by just watching objects vibrate to sound with cameras,
+
+225
+0:12:09.831,000 --> 0:12:1,000
+and we can even do that when the camera
+
+226
+0:12:11.765,000 --> 0:12:15,000
+is 15 feet away from the object, behind soundproof glass.
+
+227
+0:12:15.999,000 --> 0:12:18,000
+So this is the sound that we were able to recover in that case.
+
+228
+0:12:19.219,000 --> 0:12:24,000
+Voice: Mary had a little lamb whose fleece was white as snow,
+
+229
+0:12:24.513,000 --> 0:12:28,000
+and everywhere that Mary went, the lamb was sure to go.
+
+230
+0:12:29.404,000 --> 0:12:32,000
+MR: And of course, surveillance is the first application that comes to mind.
+
+231
+0:12:33.034,000 --> 0:12:35,000
+(Laughter)
+
+232
+0:12:36.029,000 --> 0:12:4,000
+But it might actually be useful for other things as well.
+
+233
+0:12:40.085,000 --> 0:12:42,000
+Maybe in the future, we'll be able to use it, for example,
+
+234
+0:12:42.925,000 --> 0:12:44,000
+to recover sound across space,
+
+235
+0:12:45.177,000 --> 0:12:48,000
+because sound can't travel in space, but light can.
+
+236
+0:12:48.753,000 --> 0:12:5,000
+We've only just begun exploring
+
+237
+0:12:51.157,000 --> 0:12:54,000
+other possible uses for this new technology.
+
+238
+0:12:54.176,000 --> 0:12:56,000
+It lets us see physical processes that we know are there
+
+239
+0:12:57.008,000 --> 0:13:,000
+but that we've never been able to see with our own eyes until now.
+
+240
+0:13:00.564,000 --> 0:13:01,000
+This is our team.
+
+241
+0:13:01.768,000 --> 0:13:03,000
+Everything I showed you today is a result of a collaboration
+
+242
+0:13:04.647,000 --> 0:13:06,000
+with this great group of people you see here,
+
+243
+0:13:06.838,000 --> 0:13:09,000
+and I encourage you and welcome you to check out our website,
+
+244
+0:13:10.005,000 --> 0:13:11,000
+try it out yourself,
+
+245
+0:13:11.451,000 --> 0:13:13,000
+and join us in exploring this world of tiny motions.
+
+246
+0:13:14.423,000 --> 0:13:15,000
+Thank you.
+
+247
+0:13:16.048,000 --> 0:13:17,000
+(Applause)
+

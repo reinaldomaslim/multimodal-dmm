@@ -1,0 +1,1076 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Emilie Vandapuye Relecteur: Antoine Driot
+
+2
+0:00:13.15,000 --> 0:00:16,000
+Quand j'étais petite, j'étais, comme la plupart d'entre vous ici,
+
+3
+0:00:16.475,000 --> 0:00:18,000
+très fascinée par Star Wars,
+
+4
+0:00:19.273,000 --> 0:00:23,000
+et ce qui me fascinait le plus, c'était cette notion de « la Force »,
+
+5
+0:00:23.773,000 --> 0:00:26,000
+cette énergie qui connecte tous les gens et tous les objets
+
+6
+0:00:26.907,000 --> 0:00:29,000
+et nous permet de sentir des gens que nous ne voyons même pas.
+
+7
+0:00:30.753,000 --> 0:00:33,000
+Je me souviens que souvent le soir, j'étais chez moi
+
+8
+0:00:33.865,000 --> 0:00:36,000
+et je me concentrais pour essayer de sentir la Force,
+
+9
+0:00:38.624,000 --> 0:00:4,000
+mais je n'ai rien senti, je vous rassure.
+
+10
+0:00:41.211,000 --> 0:00:42,000
+(Rires)
+
+11
+0:00:43.092,000 --> 0:00:45,000
+Plus tard, je suis devenue scientifique.
+
+12
+0:00:45.966,000 --> 0:00:46,000
+J'ai rejoint le MIT,
+
+13
+0:00:47.809,000 --> 0:00:49,000
+et j'ai commencé à travailler sur les signaux sans fil.
+
+14
+0:00:51.184,000 --> 0:00:54,000
+Les choses du genre wifi, systèmes cellulaires,
+
+15
+0:00:54.351,000 --> 0:00:56,000
+et j'ai fait énormément de recherches dans ce domaine.
+
+16
+0:00:57.489,000 --> 0:01:01,000
+Mais cette histoire de Force n'arrêtait pas de me travailler,
+
+17
+0:01:02.102,000 --> 0:01:03,000
+et à un moment, je me suis dit :
+
+18
+0:01:04.051,000 --> 0:01:08,000
+« Attends un peu, ces signaux sans fil, ils sont comme la Force. »
+
+19
+0:01:08.667,000 --> 0:01:09,000
+Quand on y réfléchit,
+
+20
+0:01:09.781,000 --> 0:01:11,000
+les signaux sans fil se déplacent dans l'air,
+
+21
+0:01:12.6,000 --> 0:01:15,000
+ils traversent des obstacles, des murs et des occlusions,
+
+22
+0:01:16.104,000 --> 0:01:19,000
+et certains se réfléchissent sur notre corps,
+
+23
+0:01:19.165,000 --> 0:01:2,000
+car notre corps est plein d'eau,
+
+24
+0:01:21.543,000 --> 0:01:24,000
+et certaines de ces petites réflexions reviennent.
+
+25
+0:01:25.055,000 --> 0:01:31,000
+Et si j'avais un appareil qui pouvait capter ces petites réflexions,
+
+26
+0:01:32.05,000 --> 0:01:34,000
+je pourrais alors percevoir des gens que je ne vois pas.
+
+27
+0:01:36.444,000 --> 0:01:39,000
+J'ai donc commencé à travailler sur un tel appareil avec mes étudiants,
+
+28
+0:01:40.221,000 --> 0:01:43,000
+et je voudrais vous montrer quelques-uns de nos premiers résultats.
+
+29
+0:01:44.584,000 --> 0:01:46,000
+Ici, vous pouvez voir mon étudiant,
+
+30
+0:01:46.891,000 --> 0:01:47,000
+et ici, notre appareil.
+
+31
+0:01:48.892,000 --> 0:01:53,000
+On va mettre l'appareil dans l'autre pièce, derrière le mur,
+
+32
+0:01:54.526,000 --> 0:01:56,000
+et on va l'observer pendant qu'il bouge.
+
+33
+0:01:57.367,000 --> 0:02:01,000
+Le point rouge le suit grâce à des signaux sans fil.
+
+34
+0:02:02.76,000 --> 0:02:06,000
+Comme vous pouvez le voir, le point rouge suit ses mouvements de façon très précise,
+
+35
+0:02:07.568,000 --> 0:02:11,000
+et ce seulement grâce aux interactions de son corps avec les signaux sans fil.
+
+36
+0:02:13.631,000 --> 0:02:14,000
+C'est plutôt précis, non ?
+
+37
+0:02:16.662,000 --> 0:02:17,000
+Il ne porte aucun objet connecté.
+
+38
+0:02:18.599,000 --> 0:02:2,000
+(Applaudissements)
+
+39
+0:02:21.437,000 --> 0:02:22,000
+Vous devez vous demander
+
+40
+0:02:23.206,000 --> 0:02:27,000
+comment on peut détecter et suivre des gens
+
+41
+0:02:27.618,000 --> 0:02:29,000
+sans objets connectés, à travers les murs.
+
+42
+0:02:30.282,000 --> 0:02:33,000
+L'analogie la plus simple qui vient à l'esprit est le radar.
+
+43
+0:02:33.588,000 --> 0:02:35,000
+Je suis sûre que vous avez déjà vu cette image.
+
+44
+0:02:35.789,000 --> 0:02:37,000
+On émet un signal sans fil dans le ciel,
+
+45
+0:02:37.971,000 --> 0:02:39,000
+il se réfléchit sur les avions, nous revient,
+
+46
+0:02:40.963,000 --> 0:02:42,000
+et on peut alors détecter ces avions.
+
+47
+0:02:44.328,000 --> 0:02:45,000
+Mais si c'était juste un radar,
+
+48
+0:02:46.296,000 --> 0:02:48,000
+on aurait fait ça il y a 50 ans.
+
+49
+0:02:49.272,000 --> 0:02:5,000
+Mais ce n'est pas tout à fait un radar.
+
+50
+0:02:51.285,000 --> 0:02:53,000
+Il y a deux différences majeures.
+
+51
+0:02:54.229,000 --> 0:02:55,000
+La première, bien sûr,
+
+52
+0:02:56.016,000 --> 0:02:59,000
+c'est qu'on ne peut pas projeter de l'énergie sans fil sur quelqu'un.
+
+53
+0:02:59.559,000 --> 0:03:01,000
+Cette personne finirait frite, comme dans un micro-ondes.
+
+54
+0:03:02.31,000 --> 0:03:03,000
+Ne faites pas ça.
+
+55
+0:03:04.595,000 --> 0:03:09,000
+Cela signifie qu'il va falloir travailler avec des signaux très faibles,
+
+56
+0:03:09.684,000 --> 0:03:12,000
+et que votre appareil devra être très sensible.
+
+57
+0:03:14.144,000 --> 0:03:18,000
+La deuxième différence est qu'à l'inverse du ciel qui est vide,
+
+58
+0:03:18.299,000 --> 0:03:21,000
+où vous pouvez repérer un avion si vous avez de la chance...
+
+59
+0:03:21.467,000 --> 0:03:22,000
+Regardez cette pièce
+
+60
+0:03:22.833,000 --> 0:03:24,000
+et regardez le nombre d'objets et de personnes qui sont ici.
+
+61
+0:03:25.745,000 --> 0:03:28,000
+En intérieur, non seulement le signal se réfléchit sur la personne,
+
+62
+0:03:29.706,000 --> 0:03:32,000
+mais il se réfléchit aussi sur le sol, le plafond,
+
+63
+0:03:33.523,000 --> 0:03:35,000
+les personnes alentour,
+
+64
+0:03:35.749,000 --> 0:03:37,000
+et on obtient des réflexions très complexes
+
+65
+0:03:37.776,000 --> 0:03:39,000
+où le même signal se réfléchit sur moi et sur vous,
+
+66
+0:03:40.531,000 --> 0:03:42,000
+puis sur le plafond et sur le sol.
+
+67
+0:03:42.793,000 --> 0:03:45,000
+Et il faut interpréter tout ce bazar.
+
+68
+0:03:47.993,000 --> 0:03:48,000
+Mais on a eu de la chance.
+
+69
+0:03:49.866,000 --> 0:03:51,000
+On est arrivés au bon moment.
+
+70
+0:03:53.252,000 --> 0:03:54,000
+Il y a deux choses qui nous ont aidés.
+
+71
+0:03:55.148,000 --> 0:03:56,000
+La première,
+
+72
+0:03:56.606,000 --> 0:03:58,000
+c'est que les technologies radio ont beaucoup évolué,
+
+73
+0:03:59.228,000 --> 0:04:,000
+et au cours des dix dernières années,
+
+74
+0:04:01.027,000 --> 0:04:03,000
+elles sont devenues de plus en plus puissantes,
+
+75
+0:04:03.361,000 --> 0:04:06,000
+ce qui nous a permis de construire des radios très sensibles,
+
+76
+0:04:07.092,000 --> 0:04:1,000
+capables de capter des signaux électromagnétiques faibles et minuscules.
+
+77
+0:04:11.725,000 --> 0:04:13,000
+La deuxième chose, c'est le « Machine Learning ».
+
+78
+0:04:14.558,000 --> 0:04:16,000
+On parle partout de cet apprentissage automatique.
+
+79
+0:04:16.912,000 --> 0:04:17,000
+Et il y a eu une révolution récemment
+
+80
+0:04:18.827,000 --> 0:04:2,000
+dans le domaine de l'apprentissage profond
+
+81
+0:04:20.972,000 --> 0:04:23,000
+qui nous a permis de construire des modèles d'apprentissage automatique
+
+82
+0:04:24.765,000 --> 0:04:27,000
+qui peuvent comprendre et interpréter des signaux sans fil
+
+83
+0:04:28.336,000 --> 0:04:31,000
+pour savoir ce qui se passe dans un environnement.
+
+84
+0:04:31.865,000 --> 0:04:34,000
+Quand on y pense, la radio, c'est l'oreille de notre appareil,
+
+85
+0:04:35.699,000 --> 0:04:37,000
+et l'apprentissage automatique, c'est notre cerveau.
+
+86
+0:04:38.302,000 --> 0:04:41,000
+Ensemble, ils forment un appareil très puissant.
+
+87
+0:04:44.108,000 --> 0:04:49,000
+Que peut-on aussi analyser avec les signaux sans fil ?
+
+88
+0:04:50.528,000 --> 0:04:51,000
+Le sommeil.
+
+89
+0:04:51.563,000 --> 0:04:53,000
+Le sommeil est quelque chose qui me tient à cœur,
+
+90
+0:04:53.926,000 --> 0:04:55,000
+car mon sommeil, c'est une vraie catastrophe.
+
+91
+0:04:56.037,000 --> 0:04:57,000
+(Rires)
+
+92
+0:04:57.409,000 --> 0:05:,000
+Donc vous commencez à travailler sur des signaux psychologiques
+
+93
+0:05:00.662,000 --> 0:05:02,000
+pour découvrir que les vôtres sont terribles.
+
+94
+0:05:03.908,000 --> 0:05:06,000
+(Rires)
+
+95
+0:05:07.074,000 --> 0:05:09,000
+On peut voir comment on peut enregistrer le sommeil,
+
+96
+0:05:09.51,000 --> 0:05:12,000
+parce que l'appareil voit la personne quand elle marche vers son lit,
+
+97
+0:05:12.83,000 --> 0:05:14,000
+quand elle cesse de s'agiter dans son lit,
+
+98
+0:05:15.269,000 --> 0:05:16,000
+quand elle sort du lit.
+
+99
+0:05:16.948,000 --> 0:05:19,000
+Cette mesure du sommeil est ce qu'on appelle l'actigraphie.
+
+100
+0:05:20.67,000 --> 0:05:21,000
+Elle est basée sur le mouvement.
+
+101
+0:05:23.087,000 --> 0:05:26,000
+Mais on a découvert qu'on peut analyser le sommeil
+
+102
+0:05:26.405,000 --> 0:05:28,000
+à un niveau beaucoup plus important.
+
+103
+0:05:28.816,000 --> 0:05:31,000
+On peut analyser les variations des ondes cérébrales
+
+104
+0:05:32.404,000 --> 0:05:33,000
+qui se produisent durant le sommeil.
+
+105
+0:05:35.163,000 --> 0:05:37,000
+La plupart d'entre vous doivent le savoir,
+
+106
+0:05:37.18,000 --> 0:05:39,000
+quand on va se coucher, nos ondes cérébrales changent,
+
+107
+0:05:39.807,000 --> 0:05:4,000
+et on entre dans les cycles du sommeil :
+
+108
+0:05:41.757,000 --> 0:05:43,000
+l'éveil, le sommeil léger, le sommeil profond
+
+109
+0:05:44.267,000 --> 0:05:45,000
+et le sommeil paradoxal.
+
+110
+0:05:46.267,000 --> 0:05:5,000
+Ces cycles sont bien entendu associés aux troubles du sommeil,
+
+111
+0:05:50.625,000 --> 0:05:53,000
+mais ils sont aussi associés à diverses maladies.
+
+112
+0:05:53.759,000 --> 0:05:57,000
+Par exemple, on associe des perturbations du sommeil paradoxal
+
+113
+0:05:57.945,000 --> 0:05:58,000
+à la dépression.
+
+114
+0:05:59.718,000 --> 0:06:01,000
+On associe des perturbations du sommeil profond
+
+115
+0:06:02.394,000 --> 0:06:03,000
+à la maladie d'Alzheimer.
+
+116
+0:06:04.614,000 --> 0:06:06,000
+Si vous voulez une analyse de vos cycles du sommeil,
+
+117
+0:06:07.177,000 --> 0:06:09,000
+de nos jours, on vous enverra à l'hôpital,
+
+118
+0:06:09.511,000 --> 0:06:11,000
+on vous collera plein d'électrodes sur la tête
+
+119
+0:06:12.009,000 --> 0:06:13,000
+et on vous demandera de dormir comme ça.
+
+120
+0:06:13.949,000 --> 0:06:15,000
+(Rires)
+
+121
+0:06:16.027,000 --> 0:06:18,000
+Ce n'est pas vraiment une expérience agréable.
+
+122
+0:06:20.155,000 --> 0:06:22,000
+Et si je vous disais que je pouvais faire la même chose,
+
+123
+0:06:23.115,000 --> 0:06:26,000
+mais sans toutes ces électrodes collées sur votre corps ?
+
+124
+0:06:27.596,000 --> 0:06:28,000
+Voici notre appareil,
+
+125
+0:06:29.492,000 --> 0:06:31,000
+qui transmet un signal sans fil à très faible puissance,
+
+126
+0:06:32.218,000 --> 0:06:34,000
+analyse les réflexions en utilisant l'IA
+
+127
+0:06:34.414,000 --> 0:06:37,000
+et enregistre les cycles du sommeil pendant la nuit.
+
+128
+0:06:38.647,000 --> 0:06:39,000
+On peut voir, par exemple,
+
+129
+0:06:40.341,000 --> 0:06:42,000
+quand cette personne est en train de rêver.
+
+130
+0:06:44.333,000 --> 0:06:45,000
+Mais il n'y a pas que ça...
+
+131
+0:06:46.611,000 --> 0:06:49,000
+on peut aussi enregistrer votre respiration lorsque vous êtes assis,
+
+132
+0:06:49.808,000 --> 0:06:5,000
+sans même vous toucher.
+
+133
+0:06:51.359,000 --> 0:06:52,000
+Il est donc assis en train de lire,
+
+134
+0:06:53.081,000 --> 0:06:55,000
+et voici ses inspirations et ses expirations.
+
+135
+0:06:55.994,000 --> 0:06:56,000
+Il a dû aussi retenir sa respiration,
+
+136
+0:06:58.009,000 --> 0:07:,000
+et vous voyez que le signal reste à un niveau constant,
+
+137
+0:07:00.899,000 --> 0:07:01,000
+parce qu'il a expiré.
+
+138
+0:07:02.074,000 --> 0:07:03,000
+Il n'a pas inspiré.
+
+139
+0:07:05.279,000 --> 0:07:07,000
+J'aimerais faire un zoom sur le signal.
+
+140
+0:07:07.787,000 --> 0:07:09,000
+C'est le même signal qu'avant.
+
+141
+0:07:09.874,000 --> 0:07:1,000
+Voici les inspirations,
+
+142
+0:07:11.579,000 --> 0:07:12,000
+et voici les expirations.
+
+143
+0:07:13.237,000 --> 0:07:15,000
+Vous voyez ces petits pics sur le signal ?
+
+144
+0:07:15.358,000 --> 0:07:16,000
+Ça ne correspond pas à du bruit.
+
+145
+0:07:17.159,000 --> 0:07:18,000
+Ce sont les battements de son cœur.
+
+146
+0:07:19.971,000 --> 0:07:2,000
+On peut voir chaque battement.
+
+147
+0:07:23.439,000 --> 0:07:27,000
+Je voudrais m'arrêter un moment pour faire une démonstration en direct.
+
+148
+0:07:27.684,000 --> 0:07:29,000
+Zach va m'aider,
+
+149
+0:07:29.779,000 --> 0:07:33,000
+et on va utiliser l'appareil pour observer sa respiration.
+
+150
+0:07:35.272,000 --> 0:07:38,000
+Cette boîte blanche que vous voyez, c'est l'appareil,
+
+151
+0:07:39.064,000 --> 0:07:41,000
+et Zach est en train de l'allumer...
+
+152
+0:07:43.581,000 --> 0:07:45,000
+et je vois qu'il respire bien.
+
+153
+0:07:46.146,000 --> 0:07:5,000
+On va donc faire exactement ce qu'on a fait dans la vidéo.
+
+154
+0:07:50.772,000 --> 0:07:52,000
+Le signal sans fil est envoyé,
+
+155
+0:07:53.487,000 --> 0:07:54,000
+touche le corps de Zach,
+
+156
+0:07:55.161,000 --> 0:07:57,000
+puis revient vers l'appareil.
+
+157
+0:07:57.278,000 --> 0:08:,000
+On veut observer les mouvements de ses inspirations et de ses expirations.
+
+158
+0:08:00.803,000 --> 0:08:02,000
+On voit donc les inspirations, les expirations...
+
+159
+0:08:03.35,000 --> 0:08:07,000
+Vous voyez ces pics et ces creux, c'est la respiration de Zach.
+
+160
+0:08:10.191,000 --> 0:08:12,000
+Il inspire, il expire.
+
+161
+0:08:12.366,000 --> 0:08:17,000
+(Applaudissements)
+
+162
+0:08:17.992,000 --> 0:08:19,000
+Donc il peut respirer.
+
+163
+0:08:20.168,000 --> 0:08:21,000
+(Rires)
+
+164
+0:08:21.613,000 --> 0:08:23,000
+Zach, peux-tu retenir ta respiration, s'il te plaît ?
+
+165
+0:08:25.216,000 --> 0:08:27,000
+Alors maintenant, il retient sa respiration,
+
+166
+0:08:28.203,000 --> 0:08:3,000
+et vous pouvez voir que le signal reste régulier,
+
+167
+0:08:30.521,000 --> 0:08:31,000
+et voici les battements de son cœur,
+
+168
+0:08:32.237,000 --> 0:08:35,000
+qui bat, qui bat, qui bat, qui bat.
+
+169
+0:08:35.731,000 --> 0:08:36,000
+(Applaudissements)
+
+170
+0:08:36.756,000 --> 0:08:38,000
+OK, Zach, tu peux respirer maintenant.
+
+171
+0:08:38.947,000 --> 0:08:39,000
+(Rires)
+
+172
+0:08:40.86,000 --> 0:08:41,000
+On va éviter les accidents.
+
+173
+0:08:42.304,000 --> 0:08:43,000
+(Rires)
+
+174
+0:08:43.329,000 --> 0:08:44,000
+OK, merci.
+
+175
+0:08:45.756,000 --> 0:08:5,000
+(Applaudissements)
+
+176
+0:08:51.716,000 --> 0:08:53,000
+Comme vous pouvez le voir, on a cet appareil
+
+177
+0:08:54.501,000 --> 0:08:57,000
+qui peut analyser pour vous plein de signaux physiologiques,
+
+178
+0:08:58.065,000 --> 0:09:,000
+et ce qui est intéressant avec cet appareil,
+
+179
+0:09:01.049,000 --> 0:09:03,000
+c'est qu'il fait tout ça sans objets connectés,
+
+180
+0:09:03.636,000 --> 0:09:05,000
+sans qu'on ait à changer notre comportement
+
+181
+0:09:06.358,000 --> 0:09:08,000
+et sans avoir à porter ou à recharger quoi que ce soit.
+
+182
+0:09:09.739,000 --> 0:09:11,000
+Et les docteurs sont très intéressés,
+
+183
+0:09:12.731,000 --> 0:09:13,000
+car ils ont toujours besoin
+
+184
+0:09:14.172,000 --> 0:09:16,000
+d'informations supplémentaires sur leurs patients,
+
+185
+0:09:16.527,000 --> 0:09:17,000
+surtout quand ils sont chez eux.
+
+186
+0:09:18.051,000 --> 0:09:2,000
+Et c'est d'autant plus vrai avec les maladies chroniques
+
+187
+0:09:20.739,000 --> 0:09:24,000
+telles que les maladies respiratoires comme la BPCO,
+
+188
+0:09:24.918,000 --> 0:09:28,000
+ou l'insuffisance cardiaque, Alzheimer, ou même la dépression.
+
+189
+0:09:29.466,000 --> 0:09:31,000
+Toutes ces maladies chroniques sont importantes.
+
+190
+0:09:31.807,000 --> 0:09:33,000
+En fait, et peut-être que vous le savez déjà,
+
+191
+0:09:34.299,000 --> 0:09:36,000
+deux tiers des dépenses de santé aux États-Unis
+
+192
+0:09:37.203,000 --> 0:09:38,000
+proviennent des maladies chroniques.
+
+193
+0:09:39.545,000 --> 0:09:41,000
+Ce qui est intéressant avec les maladies chroniques,
+
+194
+0:09:42.1,000 --> 0:09:43,000
+c'est que lorsqu'une personne
+
+195
+0:09:43.944,000 --> 0:09:47,000
+a un problème qui la conduit à l'hôpital et aux urgences,
+
+196
+0:09:48.675,000 --> 0:09:5,000
+ce problème n'est pas apparu du jour au lendemain.
+
+197
+0:09:51.044,000 --> 0:09:53,000
+En fait, cela se produit progressivement.
+
+198
+0:09:53.147,000 --> 0:09:56,000
+Donc si on peut surveiller chez eux des patients avec des maladies chroniques,
+
+199
+0:09:56.893,000 --> 0:09:58,000
+on pourra détecter des changements dans leur respiration,
+
+200
+0:09:59.648,000 --> 0:10:,000
+pulsations, mouvements, sommeil.
+
+201
+0:10:01.178,000 --> 0:10:05,000
+On peut alors détecter des urgences avant même qu'elles n'apparaissent
+
+202
+0:10:05.384,000 --> 0:10:07,000
+et permettre aux docteurs d'intervenir plus tôt
+
+203
+0:10:07.725,000 --> 0:10:09,000
+pour éviter ainsi l'hospitalisation.
+
+204
+0:10:10.645,000 --> 0:10:14,000
+Aujourd'hui, on travaille avec plusieurs docteurs
+
+205
+0:10:14.771,000 --> 0:10:15,000
+sur différents types de maladies.
+
+206
+0:10:16.754,000 --> 0:10:17,000
+Je suis super contente,
+
+207
+0:10:17.941,000 --> 0:10:19,000
+car on a distribué cet appareil à de nombreux patients,
+
+208
+0:10:20.669,000 --> 0:10:23,000
+des patients atteints de BPCO,
+
+209
+0:10:24.025,000 --> 0:10:25,000
+une maladie respiratoire,
+
+210
+0:10:25.556,000 --> 0:10:27,000
+des patients atteints d'Alzheimer,
+
+211
+0:10:27.585,000 --> 0:10:29,000
+des patients souffrant de dépression et d'angoisse
+
+212
+0:10:29.952,000 --> 0:10:3,000
+et des gens avec la maladie de Parkinson.
+
+213
+0:10:32.768,000 --> 0:10:34,000
+On collabore donc avec les docteurs pour améliorer leur vie,
+
+214
+0:10:35.705,000 --> 0:10:36,000
+pour mieux comprendre la maladie.
+
+215
+0:10:38.718,000 --> 0:10:4,000
+Au début, je vous ai parlé
+
+216
+0:10:41.313,000 --> 0:10:46,000
+de ma passion pour Star Wars et la Force,
+
+217
+0:10:46.757,000 --> 0:10:49,000
+et d'ailleurs, je suis toujours aussi passionnée,
+
+218
+0:10:50.107,000 --> 0:10:52,000
+même à mon âge, par Star Wars,
+
+219
+0:10:52.137,000 --> 0:10:54,000
+toujours impatiente de voir le prochain film.
+
+220
+0:10:54.456,000 --> 0:10:59,000
+Mais aujourd'hui, ce qui me passionne,
+
+221
+0:10:59.749,000 --> 0:11:02,000
+c'est cette nouvelle force des signaux sans fil,
+
+222
+0:11:03.571,000 --> 0:11:05,000
+et la possibilité de transformer les soins de santé
+
+223
+0:11:05.967,000 --> 0:11:06,000
+avec cette nouvelle force.
+
+224
+0:11:07.411,000 --> 0:11:1,000
+Ma tante fait partie des patients qui ont reçu un de nos appareils.
+
+225
+0:11:10.569,000 --> 0:11:12,000
+Elle souffre d'insuffisance cardiaque,
+
+226
+0:11:12.744,000 --> 0:11:15,000
+et je suis sûre que la plupart d'entre vous ici
+
+227
+0:11:16.476,000 --> 0:11:18,000
+ont des parents, des grands-parents,
+
+228
+0:11:18.536,000 --> 0:11:2,000
+des êtres chers qui ont des maladies chroniques.
+
+229
+0:11:21.188,000 --> 0:11:23,000
+J'aimerais donc que vous imaginiez avec moi
+
+230
+0:11:24.07,000 --> 0:11:26,000
+un futur où la maison d'un malade chronique
+
+231
+0:11:26.976,000 --> 0:11:27,000
+est équipé de cet appareil,
+
+232
+0:11:28.598,000 --> 0:11:31,000
+surveillant passivement et de manière transparente
+
+233
+0:11:32.514,000 --> 0:11:36,000
+le sommeil, la respiration, la santé de ce malade chronique,
+
+234
+0:11:37.204,000 --> 0:11:39,000
+et avant même qu'une urgence se produise,
+
+235
+0:11:39.352,000 --> 0:11:42,000
+il détecterait la dégradation du signal physiologique
+
+236
+0:11:42.399,000 --> 0:11:43,000
+et alerterait le docteur,
+
+237
+0:11:43.923,000 --> 0:11:45,000
+ce qui permettrait d'éviter l'hospitalisation.
+
+238
+0:11:46.652,000 --> 0:11:49,000
+Cela pourrait transformer les soins de santé actuels,
+
+239
+0:11:49.803,000 --> 0:11:52,000
+élargir nos connaissances des maladies chroniques
+
+240
+0:11:52.827,000 --> 0:11:53,000
+et aussi sauver de nombreuses vies.
+
+241
+0:11:54.898,000 --> 0:11:55,000
+Merci.
+
+242
+0:11:56.073,000 --> 0:12:01,000
+(Applaudissements)
+
+243
+0:12:01.231,000 --> 0:12:02,000
+Dina, merci beaucoup.
+
+244
+0:12:02.762,000 --> 0:12:03,000
+Merci à toi aussi, Zach.
+
+245
+0:12:04.257,000 --> 0:12:05,000
+Je vois que tu respires bien.
+
+246
+0:12:05.652,000 --> 0:12:07,000
+Alors, Dina, c'est formidable.
+
+247
+0:12:08.373,000 --> 0:12:11,000
+Les applications positives sont incroyables.
+
+248
+0:12:11.425,000 --> 0:12:14,000
+Mais qu'en est-il du cadre éthique dans tout ça ?
+
+249
+0:12:15.444,000 --> 0:12:17,000
+Que faites-vous pour empêcher cette technologie
+
+250
+0:12:18.348,000 --> 0:12:21,000
+d'être utilisée pour d'autres applications, peut-être moins positives ?
+
+251
+0:12:22.141,000 --> 0:12:24,000
+Oui, c'est une question très importante, bien sûr.
+
+252
+0:12:24.71,000 --> 0:12:25,000
+Qu'en est-il des abus,
+
+253
+0:12:26.253,000 --> 0:12:29,000
+ou même, qu'en est-il du côté obscur de la Force ?
+
+254
+0:12:30.059,000 --> 0:12:31,000
+Oui, oui.
+
+255
+0:12:31.257,000 --> 0:12:33,000
+(Rires)
+
+256
+0:12:33.368,000 --> 0:12:36,000
+On possède des technologies
+
+257
+0:12:36.891,000 --> 0:12:4,000
+empêchant les gens d'utiliser cet appareil
+
+258
+0:12:41.192,000 --> 0:12:43,000
+pour surveiller quelqu'un sans son consentement.
+
+259
+0:12:43.57,000 --> 0:12:45,000
+Étant donné que cet appareil comprend l'espace,
+
+260
+0:12:45.847,000 --> 0:12:48,000
+il vous demandera de prouver, en faisant certains mouvements,
+
+261
+0:12:49.292,000 --> 0:12:5,000
+que vous avez accès à cet espace
+
+262
+0:12:50.881,000 --> 0:12:53,000
+et que vous êtes bien la personne qui veut être analysée par l'appareil.
+
+263
+0:12:54.395,000 --> 0:12:56,000
+Donc technologiquement parlant,
+
+264
+0:12:56.609,000 --> 0:12:59,000
+on intègre aussi une technologie permettant d'éviter les abus.
+
+265
+0:13:00.021,000 --> 0:13:03,000
+Mais je pense que c'est aussi du ressort de la loi, comme pour tout,
+
+266
+0:13:03.935,000 --> 0:13:08,000
+et j'espère qu'avec ces deux choses, on pourra contrôler tout abus.
+
+267
+0:13:09.395,000 --> 0:13:1,000
+Formidable. Merci beaucoup.
+
+268
+0:13:10.976,000 --> 0:13:11,000
+Merci.
+
+269
+0:13:12.151,000 --> 0:13:15,000
+(Applaudissements)
+

@@ -1,0 +1,624 @@
+1
+0:00:12.549,000 --> 0:00:13,000
+I am a translator.
+
+2
+0:00:14.514,000 --> 0:00:17,000
+I translate from biology into mathematics
+
+3
+0:00:17.729,000 --> 0:00:18,000
+and vice versa.
+
+4
+0:00:19.588,000 --> 0:00:2,000
+I write mathematical models
+
+5
+0:00:21.402,000 --> 0:00:23,000
+which, in my case, are systems of differential equations,
+
+6
+0:00:24.273,000 --> 0:00:25,000
+to describe biological mechanisms,
+
+7
+0:00:26.244,000 --> 0:00:27,000
+such as cell growth.
+
+8
+0:00:28.122,000 --> 0:00:29,000
+Essentially, it works like this.
+
+9
+0:00:30.573,000 --> 0:00:32,000
+First, I identify the key elements
+
+10
+0:00:33.066,000 --> 0:00:35,000
+that I believe may be driving behavior over time
+
+11
+0:00:35.867,000 --> 0:00:36,000
+of a particular mechanism.
+
+12
+0:00:38.23,000 --> 0:00:39,000
+Then, I formulate assumptions
+
+13
+0:00:40.145,000 --> 0:00:42,000
+about how these elements interact with each other
+
+14
+0:00:43.055,000 --> 0:00:44,000
+and with their environment.
+
+15
+0:00:44.916,000 --> 0:00:45,000
+It may look something like this.
+
+16
+0:00:46.712,000 --> 0:00:49,000
+Then, I translate these assumptions into equations,
+
+17
+0:00:50.61,000 --> 0:00:51,000
+which may look something like this.
+
+18
+0:00:53.434,000 --> 0:00:54,000
+Finally, I analyze my equations
+
+19
+0:00:55.348,000 --> 0:00:58,000
+and translate the results back into the language of biology.
+
+20
+0:01:00.156,000 --> 0:01:02,000
+A key aspect of mathematical modeling
+
+21
+0:01:02.6,000 --> 0:01:05,000
+is that we, as modelers, do not think about what things are;
+
+22
+0:01:06.532,000 --> 0:01:07,000
+we think about what they do.
+
+23
+0:01:08.411,000 --> 0:01:1,000
+We think about relationships between individuals,
+
+24
+0:01:10.924,000 --> 0:01:12,000
+whether they be cells, animals or people,
+
+25
+0:01:13.834,000 --> 0:01:16,000
+and how they interact with each other and with their environment.
+
+26
+0:01:17.639,000 --> 0:01:18,000
+Let me give you an example.
+
+27
+0:01:19.719,000 --> 0:01:22,000
+What do foxes and immune cells have in common?
+
+28
+0:01:24.793,000 --> 0:01:25,000
+They're both predators,
+
+29
+0:01:26.744,000 --> 0:01:28,000
+except foxes feed on rabbits,
+
+30
+0:01:29.491,000 --> 0:01:32,000
+and immune cells feed on invaders, such as cancer cells.
+
+31
+0:01:33.273,000 --> 0:01:35,000
+But from a mathematical point of view,
+
+32
+0:01:35.642,000 --> 0:01:39,000
+a qualitatively same system of predator-prey type equations
+
+33
+0:01:39.822,000 --> 0:01:42,000
+will describe interactions between foxes and rabbits
+
+34
+0:01:43.091,000 --> 0:01:44,000
+and cancer and immune cells.
+
+35
+0:01:45.609,000 --> 0:01:47,000
+Predator-prey type systems have been studied extensively
+
+36
+0:01:48.341,000 --> 0:01:49,000
+in scientific literature,
+
+37
+0:01:49.634,000 --> 0:01:51,000
+describing interactions of two populations,
+
+38
+0:01:52.036,000 --> 0:01:54,000
+where survival of one depends on consuming the other.
+
+39
+0:01:55.485,000 --> 0:01:57,000
+And these same equations provide a framework
+
+40
+0:01:58.129,000 --> 0:02:,000
+for understanding cancer-immune interactions,
+
+41
+0:02:00.464,000 --> 0:02:01,000
+where cancer is the prey,
+
+42
+0:02:02.329,000 --> 0:02:04,000
+and the immune system is the predator.
+
+43
+0:02:04.725,000 --> 0:02:08,000
+And the prey employs all sorts of tricks to prevent the predator from killing it,
+
+44
+0:02:08.781,000 --> 0:02:09,000
+ranging from camouflaging itself
+
+45
+0:02:10.625,000 --> 0:02:11,000
+to stealing the predator's food.
+
+46
+0:02:13.352,000 --> 0:02:15,000
+This can have some very interesting implications.
+
+47
+0:02:15.938,000 --> 0:02:19,000
+For example, despite enormous successes in the field of immunotherapy,
+
+48
+0:02:20.784,000 --> 0:02:22,000
+there still remains somewhat limited efficacy
+
+49
+0:02:23.269,000 --> 0:02:24,000
+when it comes solid tumors.
+
+50
+0:02:25.423,000 --> 0:02:27,000
+But if you think about it ecologically,
+
+51
+0:02:28.006,000 --> 0:02:3,000
+both cancer and immune cells --
+
+52
+0:02:30.12,000 --> 0:02:31,000
+the prey and the predator --
+
+53
+0:02:31.744,000 --> 0:02:34,000
+require nutrients such as glucose to survive.
+
+54
+0:02:35.358,000 --> 0:02:39,000
+If cancer cells outcompete the immune cells for shared nutrients
+
+55
+0:02:40.171,000 --> 0:02:41,000
+in the tumor microenvironment,
+
+56
+0:02:41.988,000 --> 0:02:44,000
+then the immune cells will physically not be able to do their job.
+
+57
+0:02:46.291,000 --> 0:02:48,000
+This predator-prey-shared resource type model
+
+58
+0:02:49.183,000 --> 0:02:51,000
+is something I've worked on in my own research.
+
+59
+0:02:51.504,000 --> 0:02:53,000
+And it was recently shown experimentally
+
+60
+0:02:54.252,000 --> 0:02:58,000
+that restoring the metabolic balance in the tumor microenvironment --
+
+61
+0:02:58.33,000 --> 0:03:01,000
+that is, making sure immune cells get their food --
+
+62
+0:03:01.885,000 --> 0:03:06,000
+can give them, the predators, back their edge in fighting cancer, the prey.
+
+63
+0:03:08.44,000 --> 0:03:1,000
+This means that if you abstract a bit,
+
+64
+0:03:10.803,000 --> 0:03:12,000
+you can think about cancer itself as an ecosystem,
+
+65
+0:03:13.782,000 --> 0:03:17,000
+where heterogeneous populations of cells compete and cooperate
+
+66
+0:03:18.093,000 --> 0:03:2,000
+for space and nutrients,
+
+67
+0:03:20.134,000 --> 0:03:22,000
+interact with predators -- the immune system --
+
+68
+0:03:22.83,000 --> 0:03:24,000
+migrate -- metastases --
+
+69
+0:03:25.095,000 --> 0:03:27,000
+all within the ecosystem of the human body.
+
+70
+0:03:28.221,000 --> 0:03:31,000
+And what do we know about most ecosystems from conservation biology?
+
+71
+0:03:32.643,000 --> 0:03:34,000
+That one of the best ways to extinguish species
+
+72
+0:03:35.519,000 --> 0:03:36,000
+is not to target them directly
+
+73
+0:03:37.495,000 --> 0:03:39,000
+but to target their environment.
+
+74
+0:03:40.88,000 --> 0:03:43,000
+And so, once we have identified the key components
+
+75
+0:03:43.974,000 --> 0:03:44,000
+of the tumor environment,
+
+76
+0:03:45.642,000 --> 0:03:46,000
+we can propose hypotheses
+
+77
+0:03:47.614,000 --> 0:03:5,000
+and simulate scenarios and therapeutic interventions
+
+78
+0:03:50.932,000 --> 0:03:53,000
+all in a completely safe and affordable way
+
+79
+0:03:54.381,000 --> 0:03:57,000
+and target different components of the microenvironment
+
+80
+0:03:57.774,000 --> 0:04:,000
+in such a way as to kill the cancer without harming the host,
+
+81
+0:04:01.794,000 --> 0:04:02,000
+such as me or you.
+
+82
+0:04:05.029,000 --> 0:04:08,000
+And so while the immediate goal of my research
+
+83
+0:04:08.055,000 --> 0:04:1,000
+is to advance research and innovation
+
+84
+0:04:10.345,000 --> 0:04:11,000
+and to reduce its cost,
+
+85
+0:04:12.265,000 --> 0:04:14,000
+the real intent, of course, is to save lives.
+
+86
+0:04:15.278,000 --> 0:04:16,000
+And that's what I try to do
+
+87
+0:04:17.073,000 --> 0:04:19,000
+through mathematical modeling applied to biology,
+
+88
+0:04:19.844,000 --> 0:04:21,000
+and in particular, to the development of drugs.
+
+89
+0:04:22.895,000 --> 0:04:26,000
+It's a field that until relatively recently has remained somewhat marginal,
+
+90
+0:04:26.975,000 --> 0:04:27,000
+but it has matured.
+
+91
+0:04:28.451,000 --> 0:04:31,000
+And there are now very well-developed mathematical methods,
+
+92
+0:04:31.624,000 --> 0:04:32,000
+a lot of preprogrammed tools,
+
+93
+0:04:33.547,000 --> 0:04:34,000
+including free ones,
+
+94
+0:04:35.067,000 --> 0:04:39,000
+and an ever-increasing amount of computational power available to us.
+
+95
+0:04:40.718,000 --> 0:04:43,000
+The power and beauty of mathematical modeling
+
+96
+0:04:44.141,000 --> 0:04:46,000
+lies in the fact that it makes you formalize,
+
+97
+0:04:46.806,000 --> 0:04:48,000
+in a very rigorous way,
+
+98
+0:04:48.917,000 --> 0:04:49,000
+what we think we know.
+
+99
+0:04:50.904,000 --> 0:04:51,000
+We make assumptions,
+
+100
+0:04:52.372,000 --> 0:04:53,000
+translate them into equations,
+
+101
+0:04:53.964,000 --> 0:04:54,000
+run simulations,
+
+102
+0:04:55.299,000 --> 0:04:56,000
+all to answer the question:
+
+103
+0:04:57.096,000 --> 0:04:59,000
+In a world where my assumptions are true,
+
+104
+0:04:59.366,000 --> 0:05:,000
+what do I expect to see?
+
+105
+0:05:01.89,000 --> 0:05:03,000
+It's a pretty simple conceptual framework.
+
+106
+0:05:04,000 --> 0:05:06,000
+It's all about asking the right questions.
+
+107
+0:05:06.603,000 --> 0:05:1,000
+But it can unleash numerous opportunities for testing biological hypotheses.
+
+108
+0:05:11.696,000 --> 0:05:13,000
+If our predictions match our observations,
+
+109
+0:05:14.32,000 --> 0:05:17,000
+great! -- we got it right, so we can make further predictions
+
+110
+0:05:17.371,000 --> 0:05:19,000
+by changing this or that aspect of the model.
+
+111
+0:05:20.733,000 --> 0:05:23,000
+If, however, our predictions do not match our observations,
+
+112
+0:05:24.457,000 --> 0:05:26,000
+that means that some of our assumptions are wrong,
+
+113
+0:05:27.066,000 --> 0:05:29,000
+and so our understanding of the key mechanisms
+
+114
+0:05:29.523,000 --> 0:05:3,000
+of underlying biology
+
+115
+0:05:30.986,000 --> 0:05:31,000
+is still incomplete.
+
+116
+0:05:32.829,000 --> 0:05:34,000
+Luckily, since this is a model,
+
+117
+0:05:35.215,000 --> 0:05:36,000
+we control all the assumptions.
+
+118
+0:05:37.128,000 --> 0:05:39,000
+So we can go through them, one by one,
+
+119
+0:05:39.292,000 --> 0:05:42,000
+identifying which one or ones are causing the discrepancy.
+
+120
+0:05:43.637,000 --> 0:05:46,000
+And then we can fill this newly identified gap in knowledge
+
+121
+0:05:47.017,000 --> 0:05:49,000
+using both experimental and theoretical approaches.
+
+122
+0:05:50.699,000 --> 0:05:52,000
+Of course, any ecosystem is extremely complex,
+
+123
+0:05:53.544,000 --> 0:05:56,000
+and trying to describe all the moving parts is not only very difficult,
+
+124
+0:05:57.411,000 --> 0:05:58,000
+but also not very informative.
+
+125
+0:05:59.518,000 --> 0:06:01,000
+There's also the issue of timescales,
+
+126
+0:06:01.608,000 --> 0:06:04,000
+because some processes take place on a scale of seconds, some minutes,
+
+127
+0:06:05.3,000 --> 0:06:06,000
+some days, months and years.
+
+128
+0:06:07.272,000 --> 0:06:1,000
+It may not always be possible to separate those out experimentally.
+
+129
+0:06:11.143,000 --> 0:06:14,000
+And some things happen so quickly or so slowly
+
+130
+0:06:14.551,000 --> 0:06:16,000
+that you may physically never be able to measure them.
+
+131
+0:06:17.295,000 --> 0:06:19,000
+But as mathematicians,
+
+132
+0:06:19.607,000 --> 0:06:24,000
+we have the power to zoom in on any subsystem in any timescale
+
+133
+0:06:25.276,000 --> 0:06:27,000
+and simulate effects of interventions
+
+134
+0:06:27.424,000 --> 0:06:29,000
+that take place in any timescale.
+
+135
+0:06:31.942,000 --> 0:06:33,000
+Of course, this isn't the work of a modeler alone.
+
+136
+0:06:34.9,000 --> 0:06:37,000
+It has to happen in close collaboration with biologists.
+
+137
+0:06:38.213,000 --> 0:06:41,000
+And it does demand some capacity of translation
+
+138
+0:06:41.241,000 --> 0:06:42,000
+on both sides.
+
+139
+0:06:43.55,000 --> 0:06:46,000
+But starting with a theoretical formulation of a problem
+
+140
+0:06:47.362,000 --> 0:06:5,000
+can unleash numerous opportunities for testing hypotheses
+
+141
+0:06:50.883,000 --> 0:06:53,000
+and simulating scenarios and therapeutic interventions,
+
+142
+0:06:54.146,000 --> 0:06:56,000
+all in a completely safe way.
+
+143
+0:06:56.977,000 --> 0:07:01,000
+It can identify gaps in knowledge and logical inconsistencies
+
+144
+0:07:02.176,000 --> 0:07:04,000
+and can help guide us as to where we should keep looking
+
+145
+0:07:05.039,000 --> 0:07:06,000
+and where there may be a dead end.
+
+146
+0:07:07.632,000 --> 0:07:08,000
+In other words:
+
+147
+0:07:08.903,000 --> 0:07:11,000
+mathematical modeling can help us answer questions
+
+148
+0:07:12.421,000 --> 0:07:14,000
+that directly affect people's health --
+
+149
+0:07:15.942,000 --> 0:07:17,000
+that affect each person's health, actually --
+
+150
+0:07:18.67,000 --> 0:07:2,000
+because mathematical modeling will be key
+
+151
+0:07:21.37,000 --> 0:07:22,000
+to propelling personalized medicine.
+
+152
+0:07:24.112,000 --> 0:07:27,000
+And it all comes down to asking the right question
+
+153
+0:07:27.711,000 --> 0:07:29,000
+and translating it to the right equation ...
+
+154
+0:07:30.67,000 --> 0:07:31,000
+and back.
+
+155
+0:07:32.533,000 --> 0:07:33,000
+Thank you.
+
+156
+0:07:33.708,000 --> 0:07:36,000
+(Applause)
+

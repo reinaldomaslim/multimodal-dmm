@@ -1,0 +1,564 @@
+1
+0:00:13.713,000 --> 0:00:14,000
+Can I get a show of hands --
+
+2
+0:00:15.103,000 --> 0:00:18,000
+how many of you in this room have been on a plane in this past year?
+
+3
+0:00:20.258,000 --> 0:00:21,000
+That's pretty good.
+
+4
+0:00:21.435,000 --> 0:00:23,000
+Well, it turns out that you share that experience
+
+5
+0:00:24.344,000 --> 0:00:26,000
+with more than three billion people every year.
+
+6
+0:00:27.203,000 --> 0:00:3,000
+And when we put so many people in all these metal tubes
+
+7
+0:00:30.364,000 --> 0:00:31,000
+that fly all over the world,
+
+8
+0:00:31.974,000 --> 0:00:33,000
+sometimes, things like this can happen
+
+9
+0:00:34.671,000 --> 0:00:35,000
+and you get a disease epidemic.
+
+10
+0:00:37.116,000 --> 0:00:38,000
+I first actually got into this topic
+
+11
+0:00:39.091,000 --> 0:00:41,000
+when I heard about the Ebola outbreak last year.
+
+12
+0:00:41.747,000 --> 0:00:42,000
+And it turns out that,
+
+13
+0:00:43.231,000 --> 0:00:45,000
+although Ebola spreads through these more range-limited,
+
+14
+0:00:46.085,000 --> 0:00:47,000
+large-droplet routes,
+
+15
+0:00:47.443,000 --> 0:00:48,000
+there's all these other sorts of diseases
+
+16
+0:00:49.445,000 --> 0:00:5,000
+that can be spread in the airplane cabin.
+
+17
+0:00:51.445,000 --> 0:00:54,000
+The worst part is, when we take a look at some of the numbers,
+
+18
+0:00:54.653,000 --> 0:00:55,000
+it's pretty scary.
+
+19
+0:00:56.09,000 --> 0:00:57,000
+So with H1N1,
+
+20
+0:00:57.874,000 --> 0:00:59,000
+there was this guy that decided to go on the plane
+
+21
+0:01:00.287,000 --> 0:01:01,000
+and in the matter of a single flight
+
+22
+0:01:02.082,000 --> 0:01:04,000
+actually spread the disease to 17 other people.
+
+23
+0:01:04.36,000 --> 0:01:06,000
+And then there was this other guy with SARS,
+
+24
+0:01:06.512,000 --> 0:01:08,000
+who managed to go on a three-hour flight
+
+25
+0:01:08.638,000 --> 0:01:1,000
+and spread the disease to 22 other people.
+
+26
+0:01:11.504,000 --> 0:01:14,000
+That's not exactly my idea of a great superpower.
+
+27
+0:01:15.658,000 --> 0:01:17,000
+When we take a look at this, what we also find
+
+28
+0:01:18.246,000 --> 0:01:2,000
+is that it's very difficult to pre-screen for these diseases.
+
+29
+0:01:21.619,000 --> 0:01:23,000
+So when someone actually goes on a plane,
+
+30
+0:01:23.734,000 --> 0:01:24,000
+they could be sick
+
+31
+0:01:24.964,000 --> 0:01:26,000
+and they could actually be in this latency period
+
+32
+0:01:27.383,000 --> 0:01:29,000
+in which they could actually have the disease
+
+33
+0:01:29.566,000 --> 0:01:3,000
+but not exhibit any symptoms,
+
+34
+0:01:31.162,000 --> 0:01:33,000
+and they could, in turn, spread the disease
+
+35
+0:01:33.377,000 --> 0:01:34,000
+to many other people in the cabin.
+
+36
+0:01:35.074,000 --> 0:01:37,000
+How that actually works is that right now
+
+37
+0:01:37.18,000 --> 0:01:39,000
+we've got air coming in from the top of the cabin
+
+38
+0:01:39.49,000 --> 0:01:41,000
+and from the side of the cabin, as you see in blue.
+
+39
+0:01:41.94,000 --> 0:01:45,000
+And then also, that air goes out through these very efficient filters
+
+40
+0:01:46.166,000 --> 0:01:5,000
+that eliminate 99.97 percent of pathogens near the outlets.
+
+41
+0:01:51.444,000 --> 0:01:52,000
+What happens right now, though,
+
+42
+0:01:52.945,000 --> 0:01:54,000
+is that we have this mixing airflow pattern.
+
+43
+0:01:55.036,000 --> 0:01:56,000
+So if someone were to actually sneeze,
+
+44
+0:01:56.892,000 --> 0:01:58,000
+that air would get swirled around multiple times
+
+45
+0:01:59.62,000 --> 0:02:02,000
+before it even has a chance to go out through the filter.
+
+46
+0:02:03.785,000 --> 0:02:06,000
+So I thought: clearly, this is a pretty serious problem.
+
+47
+0:02:07.022,000 --> 0:02:1,000
+I didn't have the money to go out and buy a plane,
+
+48
+0:02:10.779,000 --> 0:02:12,000
+so I decided to build a computer instead.
+
+49
+0:02:13.041,000 --> 0:02:16,000
+It actually turns out that with computational fluid dynamics,
+
+50
+0:02:16.337,000 --> 0:02:18,000
+what we're able to do is create these simulations
+
+51
+0:02:18.962,000 --> 0:02:19,000
+that give us higher resolutions
+
+52
+0:02:20.78,000 --> 0:02:23,000
+than actually physically going in and taking readings in the plane.
+
+53
+0:02:24.836,000 --> 0:02:27,000
+And so how, essentially, this works is you would start out
+
+54
+0:02:27.874,000 --> 0:02:28,000
+with these 2D drawings --
+
+55
+0:02:29.57,000 --> 0:02:32,000
+these are floating around in technical papers around the Internet.
+
+56
+0:02:32.722,000 --> 0:02:34,000
+I take that and then I put it into this 3D-modeling software,
+
+57
+0:02:35.639,000 --> 0:02:36,000
+really building that 3D model.
+
+58
+0:02:37.442,000 --> 0:02:41,000
+And then I divide that model that I just built into these tiny pieces,
+
+59
+0:02:41.925,000 --> 0:02:44,000
+essentially meshing it so that the computer can better understand it.
+
+60
+0:02:45.526,000 --> 0:02:48,000
+And then I tell the computer where the air goes in and out of the cabin,
+
+61
+0:02:49.271,000 --> 0:02:5,000
+throw in a bunch of physics
+
+62
+0:02:50.794,000 --> 0:02:54,000
+and basically sit there and wait until the computer calculates the simulation.
+
+63
+0:02:56.015,000 --> 0:02:59,000
+So what we get, actually, with the conventional cabin is this:
+
+64
+0:02:59.666,000 --> 0:03:01,000
+you'll notice the middle person sneezing,
+
+65
+0:03:02.767,000 --> 0:03:05,000
+and we go "Splat!" -- it goes right into people's faces.
+
+66
+0:03:06.882,000 --> 0:03:07,000
+It's pretty disgusting.
+
+67
+0:03:08.727,000 --> 0:03:1,000
+From the front, you'll notice those two passengers
+
+68
+0:03:11.099,000 --> 0:03:12,000
+sitting next to the central passenger
+
+69
+0:03:12.909,000 --> 0:03:13,000
+not exactly having a great time.
+
+70
+0:03:14.639,000 --> 0:03:16,000
+And when we take a look at that from the side,
+
+71
+0:03:16.849,000 --> 0:03:19,000
+you'll also notice those pathogens spreading across the length of the cabin.
+
+72
+0:03:22.017,000 --> 0:03:24,000
+The first thing I thought was, "This is no good."
+
+73
+0:03:24.391,000 --> 0:03:27,000
+So I actually conducted more than 32 different simulations
+
+74
+0:03:27.923,000 --> 0:03:3,000
+and ultimately, I came up with this solution right here.
+
+75
+0:03:31.312,000 --> 0:03:34,000
+This is what I call a -- patent pending -- Global Inlet Director.
+
+76
+0:03:34.852,000 --> 0:03:36,000
+With this, we're able to reduce pathogen transmission
+
+77
+0:03:37.442,000 --> 0:03:38,000
+by about 55 times,
+
+78
+0:03:39.234,000 --> 0:03:42,000
+and increase fresh-air inhalation by about 190 percent.
+
+79
+0:03:42.411,000 --> 0:03:43,000
+So how this actually works
+
+80
+0:03:44.039,000 --> 0:03:47,000
+is we would install this piece of composite material
+
+81
+0:03:47.192,000 --> 0:03:49,000
+into these existing spots that are already in the plane.
+
+82
+0:03:50.184,000 --> 0:03:52,000
+So it's very cost-effective to install
+
+83
+0:03:52.209,000 --> 0:03:53,000
+and we can do this directly overnight.
+
+84
+0:03:54.081,000 --> 0:03:57,000
+All we have to do is put a couple of screws in there and you're good to go.
+
+85
+0:03:57.653,000 --> 0:03:59,000
+And the results that we get are absolutely amazing.
+
+86
+0:04:00.536,000 --> 0:04:03,000
+Instead of having those problematic swirling airflow patterns,
+
+87
+0:04:04.096,000 --> 0:04:05,000
+we can create these walls of air
+
+88
+0:04:05.862,000 --> 0:04:07,000
+that come down in-between the passengers
+
+89
+0:04:08.056,000 --> 0:04:09,000
+to create personalized breathing zones.
+
+90
+0:04:09.978,000 --> 0:04:11,000
+So you'll notice the middle passenger here is sneezing again,
+
+91
+0:04:12.987,000 --> 0:04:14,000
+but this time, we're able to effectively push that down
+
+92
+0:04:15.724,000 --> 0:04:17,000
+to the filters for elimination.
+
+93
+0:04:18.461,000 --> 0:04:19,000
+And same thing from the side,
+
+94
+0:04:19.881,000 --> 0:04:22,000
+you'll notice we're able to directly push those pathogens down.
+
+95
+0:04:23.682,000 --> 0:04:26,000
+So if you take a look again now at the same scenario
+
+96
+0:04:27.2,000 --> 0:04:28,000
+but with this innovation installed,
+
+97
+0:04:28.913,000 --> 0:04:3,000
+you'll notice the middle passenger sneezes,
+
+98
+0:04:30.953,000 --> 0:04:33,000
+and this time, we're pushing that straight down into the outlet
+
+99
+0:04:34.05,000 --> 0:04:37,000
+before it gets a chance to infect any other people.
+
+100
+0:04:37.795,000 --> 0:04:4,000
+So you'll notice the two passengers sitting next to the middle guy
+
+101
+0:04:40.943,000 --> 0:04:42,000
+are breathing virtually no pathogens at all.
+
+102
+0:04:43.2,000 --> 0:04:45,000
+Take a look at that from the side as well,
+
+103
+0:04:45.752,000 --> 0:04:46,000
+you see a very efficient system.
+
+104
+0:04:47.331,000 --> 0:04:49,000
+And in short, with this system, we win.
+
+105
+0:04:51.255,000 --> 0:04:53,000
+When we take a look at what this means,
+
+106
+0:04:54.168,000 --> 0:04:57,000
+what we see is that this not only works if the middle passenger sneezes,
+
+107
+0:04:57.664,000 --> 0:04:59,000
+but also if the window-seat passenger sneezes
+
+108
+0:05:00.462,000 --> 0:05:02,000
+or if the aisle-seat passenger sneezes.
+
+109
+0:05:03.167,000 --> 0:05:06,000
+And so with this solution, what does this mean for the world?
+
+110
+0:05:06.278,000 --> 0:05:09,000
+Well, when we take a look at this
+
+111
+0:05:09.816,000 --> 0:05:11,000
+from the computer simulation into real life,
+
+112
+0:05:12.409,000 --> 0:05:14,000
+we can see with this 3D model that I built over here,
+
+113
+0:05:15.195,000 --> 0:05:17,000
+essentially using 3D printing,
+
+114
+0:05:17.307,000 --> 0:05:19,000
+we can see those same airflow patterns coming down,
+
+115
+0:05:20.29,000 --> 0:05:21,000
+right to the passengers.
+
+116
+0:05:22.92,000 --> 0:05:25,000
+In the past, the SARS epidemic actually cost the world
+
+117
+0:05:26.014,000 --> 0:05:27,000
+about 40 billion dollars.
+
+118
+0:05:27.967,000 --> 0:05:28,000
+And in the future,
+
+119
+0:05:29.15,000 --> 0:05:31,000
+a big disease outbreak could actually cost the world
+
+120
+0:05:31.72,000 --> 0:05:32,000
+in excess of three trillion dollars.
+
+121
+0:05:33.942,000 --> 0:05:36,000
+So before, it used to be that you had to take an airplane out of service
+
+122
+0:05:37.443,000 --> 0:05:38,000
+for one to two months,
+
+123
+0:05:39.339,000 --> 0:05:42,000
+spend tens of thousands of man hours and several million dollars
+
+124
+0:05:42.935,000 --> 0:05:43,000
+to try to change something.
+
+125
+0:05:44.282,000 --> 0:05:47,000
+But now, we're able to install something essentially overnight
+
+126
+0:05:47.817,000 --> 0:05:48,000
+and see results right away.
+
+127
+0:05:49.568,000 --> 0:05:52,000
+So it's really now a matter of taking this through to certification,
+
+128
+0:05:52.798,000 --> 0:05:53,000
+flight testing,
+
+129
+0:05:54.012,000 --> 0:05:56,000
+and going through all of these regulatory approvals processes.
+
+130
+0:05:57.028,000 --> 0:06:,000
+But it just really goes to show that sometimes the best solutions
+
+131
+0:06:00.116,000 --> 0:06:01,000
+are the simplest solutions.
+
+132
+0:06:01.935,000 --> 0:06:04,000
+And two years ago, even,
+
+133
+0:06:05.149,000 --> 0:06:06,000
+this project would not have happened,
+
+134
+0:06:06.942,000 --> 0:06:08,000
+just because the technology then wouldn't have supported it.
+
+135
+0:06:09.792,000 --> 0:06:11,000
+But now with advanced computing
+
+136
+0:06:12.285,000 --> 0:06:14,000
+and how developed our Internet is,
+
+137
+0:06:14.495,000 --> 0:06:16,000
+it's really the golden era for innovation.
+
+138
+0:06:17.158,000 --> 0:06:2,000
+And so the question I ask all of you today is: why wait?
+
+139
+0:06:20.425,000 --> 0:06:22,000
+Together, we can build the future today.
+
+140
+0:06:23.123,000 --> 0:06:24,000
+Thanks.
+
+141
+0:06:24.298,000 --> 0:06:27,000
+(Applause)
+

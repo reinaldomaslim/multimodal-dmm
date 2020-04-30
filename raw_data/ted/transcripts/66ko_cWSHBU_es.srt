@@ -1,0 +1,992 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.954,000 --> 0:00:15,000
+A mis colegas y a mí nos fascina la ciencia de los puntos móviles.
+
+3
+0:00:16.927,000 --> 0:00:17,000
+¿Qué son estos puntos?
+
+4
+0:00:18.071,000 --> 0:00:19,000
+Somos nosotros.
+
+5
+0:00:19.412,000 --> 0:00:24,000
+Nos movemos en casa, en la oficina, mientras compramos y viajamos
+
+6
+0:00:24.491,000 --> 0:00:26,000
+por nuestras ciudades y alrededor del mundo.
+
+7
+0:00:26.958,000 --> 0:00:29,000
+¿No sería genial si pudiéramos entender estos movimientos,
+
+8
+0:00:30.918,000 --> 0:00:32,000
+si pudiéramos encontrar patrones, significado y sentido en eso?
+
+9
+0:00:34.259,000 --> 0:00:36,000
+Por fortuna para nosotros, vivimos en una época
+
+10
+0:00:36.454,000 --> 0:00:4,000
+en la que somos muy buenos capturando información sobre nosotros mismos.
+
+11
+0:00:40.807,000 --> 0:00:43,000
+Sea mediante sensores, videos o aplicaciones,
+
+12
+0:00:44.494,000 --> 0:00:46,000
+podemos rastrear los movimientos con mucho detalle.
+
+13
+0:00:48.092,000 --> 0:00:53,000
+Y una de las mejores fuentes de datos sobre el movimiento
+
+14
+0:00:53.148,000 --> 0:00:54,000
+es en los deportes.
+
+15
+0:00:54.682,000 --> 0:00:59,000
+Sea baloncesto o béisbol, fútbol americano o el otro fútbol,
+
+16
+0:01:00.039,000 --> 0:01:04,000
+equipamos los estadios y jugadores para seguir sus movimientos
+
+17
+0:01:04.465,000 --> 0:01:05,000
+en cada fracción de segundo.
+
+18
+0:01:05.802,000 --> 0:01:09,000
+Así que convertimos a los atletas
+
+19
+0:01:10.208,000 --> 0:01:11,000
+--quizá lo adivinaron--
+
+20
+0:01:12.191,000 --> 0:01:13,000
+en puntos móviles.
+
+21
+0:01:13.946,000 --> 0:01:17,000
+Tenemos montañas de puntos móviles y como la mayoría de los datos en crudo
+
+22
+0:01:18.904,000 --> 0:01:2,000
+son difíciles de manejar, y no son tan interesantes.
+
+23
+0:01:21.43,000 --> 0:01:24,000
+Pero hay cosas que los entrenadores de baloncesto quieren saber.
+
+24
+0:01:25.223,000 --> 0:01:28,000
+El problema es que no pueden retener cada segundo
+
+25
+0:01:29.057,000 --> 0:01:31,000
+de cada juego, recordarlo y procesarlo.
+
+26
+0:01:31.804,000 --> 0:01:34,000
+Nadie puede hacer eso, pero una máquina sí.
+
+27
+0:01:35.661,000 --> 0:01:38,000
+El problema de la máquina es que no ve el juego con ojo de entrenador.
+
+28
+0:01:39.363,000 --> 0:01:41,000
+Al menos no podía hasta ahora.
+
+29
+0:01:42.228,000 --> 0:01:44,000
+Así que ¿qué le enseñamos a ver a la máquina?
+
+30
+0:01:45.389,000 --> 0:01:47,000
+Empezamos con cosas simples.
+
+31
+0:01:47.406,000 --> 0:01:5,000
+Le enseñamos cosas como pases, tiros y rebotes.
+
+32
+0:01:51.203,000 --> 0:01:53,000
+Cosas que cualquier fan conoce.
+
+33
+0:01:53.768,000 --> 0:01:55,000
+Y luego seguimos con cosas levemente más complicadas:
+
+34
+0:01:56.624,000 --> 0:02:,000
+Posteos, bloqueos y continuación, aislamientos.
+
+35
+0:02:01.377,000 --> 0:02:04,000
+Si no las conocen, está bien. Los jugadores aficionados quizá lo sepan.
+
+36
+0:02:05.56,000 --> 0:02:1,000
+Hemos logrado que la máquina entienda secuencias complejas
+
+37
+0:02:10.924,000 --> 0:02:13,000
+como bloqueos verticales abajo y hasta con rotaciones complejas.
+
+38
+0:02:14.107,000 --> 0:02:16,000
+Básicamente cosas que solo saben los profesionales.
+
+39
+0:02:16.771,000 --> 0:02:2,000
+Hemos enseñado a la máquina a ver con ojos de entrenador.
+
+40
+0:02:22.008,000 --> 0:02:23,000
+¿Cómo hemos podido hacerlo?
+
+41
+0:02:24.511,000 --> 0:02:27,000
+Si pidiera a un entrenador describir un bloqueo y continuación,
+
+42
+0:02:27.653,000 --> 0:02:28,000
+me daría una descripción;
+
+43
+0:02:29.317,000 --> 0:02:31,000
+y si pusiera eso en un algoritmo, sería terrible.
+
+44
+0:02:32.836,000 --> 0:02:36,000
+El bloqueo y continuación es esa danza del baloncesto entre cuatro jugadores,
+
+45
+0:02:37.328,000 --> 0:02:39,000
+dos atacantes y dos defensores.
+
+46
+0:02:39.486,000 --> 0:02:4,000
+Es más o menos así.
+
+47
+0:02:41.128,000 --> 0:02:43,000
+Hay un tipo en ataque sin la pelota,
+
+48
+0:02:43.685,000 --> 0:02:46,000
+se pone al lado del tipo que marca y que tiene la posesión de la pelota,
+
+49
+0:02:46.918,000 --> 0:02:47,000
+se queda allí,
+
+50
+0:02:48.199,000 --> 0:02:51,000
+y ambos se mueven y ocurre, cha-chan, un bloqueo y continuación.
+
+51
+0:02:51.54,000 --> 0:02:53,000
+(Risas)
+
+52
+0:02:53.779,000 --> 0:02:55,000
+Eso es un ejemplo de un algoritmo complicado.
+
+53
+0:02:56.913,000 --> 0:03:,000
+Si el jugador que se interpone, llamado bloqueador,
+
+54
+0:03:01.278,000 --> 0:03:03,000
+se acerca, pero no se detiene,
+
+55
+0:03:04.174,000 --> 0:03:05,000
+quizá no sea un bloqueo y continuación.
+
+56
+0:03:06.56,000 --> 0:03:09,000
+O si se detiene, pero no queda muy cerca,
+
+57
+0:03:10.529,000 --> 0:03:11,000
+quizá no sea un bloqueo y continuación.
+
+58
+0:03:12.642,000 --> 0:03:15,000
+O si se acerca al otro y realmente para,
+
+59
+0:03:15.903,000 --> 0:03:18,000
+pero lo hacen debajo de la cesta, quizá no sea un bloqueo y continuación.
+
+60
+0:03:19.462,000 --> 0:03:21,000
+O podría equivocarme, todos esos casos podrían ser bloqueos y continuación.
+
+61
+0:03:22.01,000 --> 0:03:26,000
+Todo depende del tiempo exacto, las distancias, los posicionamientos,
+
+62
+0:03:26.602,000 --> 0:03:27,000
+y eso lo hace difícil.
+
+63
+0:03:28.579,000 --> 0:03:32,000
+Por suerte, con el aprendizaje máquina, podemos exceder nuestra capacidad
+
+64
+0:03:33.547,000 --> 0:03:34,000
+de describir las cosas que conocemos.
+
+65
+0:03:35.47,000 --> 0:03:37,000
+¿Cómo funciona esto? Bueno, con ejemplos.
+
+66
+0:03:37.759,000 --> 0:03:39,000
+Vamos a la máquina y le decimos: "Buenos días, máquina.
+
+67
+0:03:41.077,000 --> 0:03:44,000
+Aquí hay bloqueos y continuación, y aquí otras cosas que no lo son.
+
+68
+0:03:44.55,000 --> 0:03:46,000
+Por favor, encuentra cómo establecer la diferencia".
+
+69
+0:03:47.076,000 --> 0:03:5,000
+Y la clave de todo esto es encontrar características que le permitan separar.
+
+70
+0:03:50.807,000 --> 0:03:53,000
+Si yo tuviera que enseñar la diferencia entre una manzana y una naranja,
+
+71
+0:03:54.345,000 --> 0:03:56,000
+podría decir: "¿Por qué no usar el color y la forma?"
+
+72
+0:03:56.744,000 --> 0:03:58,000
+El problema que enfrentamos es encontrar esas cosas.
+
+73
+0:03:59.501,000 --> 0:04:,000
+¿Qué características son
+
+74
+0:04:00.942,000 --> 0:04:03,000
+las que permiten a una computadora navegar el mundo de los puntos móviles?
+
+75
+0:04:04.505,000 --> 0:04:08,000
+Imaginar todas estas relaciones con ubicación relativa y absoluta,
+
+76
+0:04:09.352,000 --> 0:04:11,000
+--distancia, tiempo, velocidad--
+
+77
+0:04:11.44,000 --> 0:04:15,000
+es la clave de la ciencia de los puntos móviles, como nos gusta llamarla,
+
+78
+0:04:16.252,000 --> 0:04:18,000
+reconocimiento espacio-temporal de patrones,
+
+79
+0:04:18.472,000 --> 0:04:19,000
+en lenguaje académico.
+
+80
+0:04:19.925,000 --> 0:04:21,000
+Ante todo tenemos que hacer que suene difícil,
+
+81
+0:04:22.847,000 --> 0:04:23,000
+porque lo es.
+
+82
+0:04:24.41,000 --> 0:04:27,000
+Pero la clave para los entrenadores de la NBA no es saber
+
+83
+0:04:27.575,000 --> 0:04:28,000
+si hubo un bloqueo y continuación o no.
+
+84
+0:04:29.521,000 --> 0:04:31,000
+Ellos quieren saber cómo ocurrió.
+
+85
+0:04:31.62,000 --> 0:04:32,000
+Y ¿por qué eso es tan importante para ellos?
+
+86
+0:04:33.12,000 --> 0:04:34,000
+Aquí hay una idea importante.
+
+87
+0:04:34.631,000 --> 0:04:35,000
+Resulta que en el baloncesto moderno,
+
+88
+0:04:36.426,000 --> 0:04:38,000
+el bloqueo y continuación es quizá el juego más importante.
+
+89
+0:04:39.065,000 --> 0:04:41,000
+Y saber cómo manejarlo, y saber cómo defenderlo,
+
+90
+0:04:41.709,000 --> 0:04:43,000
+básicamente es la clave para ganar o perder casi todos los juegos.
+
+91
+0:04:44.403,000 --> 0:04:47,000
+Pero resulta que esta danza tiene muchas variantes
+
+92
+0:04:48.228,000 --> 0:04:51,000
+e identificar las variantes es lo que importa,
+
+93
+0:04:51.9,000 --> 0:04:53,000
+por eso necesitamos que esto sea muy, muy bueno.
+
+94
+0:04:55.228,000 --> 0:04:56,000
+Este es un ejemplo.
+
+95
+0:04:56.428,000 --> 0:04:58,000
+Hay dos jugadores en ataque y dos en defensa,
+
+96
+0:04:58.831,000 --> 0:05:,000
+listos para la danza del bloqueo y continuación.
+
+97
+0:05:01.223,000 --> 0:05:03,000
+El tipo con la pelota puede usar o no el bloqueo.
+
+98
+0:05:04.086,000 --> 0:05:07,000
+Su compañero puede girar a canasta o abrir para recibir el pase.
+
+99
+0:05:07.197,000 --> 0:05:1,000
+El que marca al jugador con la pelota puede avanzar o retroceder.
+
+100
+0:05:10.277,000 --> 0:05:14,000
+Su compañero puede avanzar, marcar o solo acompañar
+
+101
+0:05:14.61,000 --> 0:05:16,000
+y juntos pueden cambiar asignación defensiva o redoblar la marca.
+
+102
+0:05:17.598,000 --> 0:05:19,000
+Yo no sabía casi nada de esto cuando empecé
+
+103
+0:05:20.035,000 --> 0:05:23,000
+y sería estupendo si todos se movieran siguiendo esas flechas.
+
+104
+0:05:23.979,000 --> 0:05:26,000
+Haría mucho más fáciles nuestras vidas, pero el movimiento es muy desordenado.
+
+105
+0:05:28.047,000 --> 0:05:33,000
+Las personas se menean mucho e identificar estas variaciones
+
+106
+0:05:33.555,000 --> 0:05:34,000
+con muy alta precisión,
+
+107
+0:05:34.882,000 --> 0:05:35,000
+en precisión y en recuerdo, es difícil
+
+108
+0:05:36.774,000 --> 0:05:39,000
+y es lo que hace que un entrenador profesional crea en ti.
+
+109
+0:05:40.416,000 --> 0:05:43,000
+Aun con las dificultades de las correctas características espacio-temporales
+
+110
+0:05:43.936,000 --> 0:05:44,000
+lo hemos logrado.
+
+111
+0:05:45.318,000 --> 0:05:48,000
+Los entrenadores confían en que las máquinas pueden identificar variaciones.
+
+112
+0:05:49.478,000 --> 0:05:52,000
+Estamos en el punto en el que casi todos los contendientes
+
+113
+0:05:53.035,000 --> 0:05:54,000
+en el campeonato de la NBA este año
+
+114
+0:05:54.682,000 --> 0:05:58,000
+usan nuestro software, construido en una máquina que entiende
+
+115
+0:05:59.114,000 --> 0:06:,000
+los puntos móviles en el baloncesto.
+
+116
+0:06:01.872,000 --> 0:06:06,000
+No solo eso, hemos dado consejos que han cambiado estrategias
+
+117
+0:06:07.049,000 --> 0:06:1,000
+que han ayudado a equipos a ganar juegos muy importantes,
+
+118
+0:06:10.425,000 --> 0:06:13,000
+y es muy apasionante porque hay entrenadores que han estado en la liga
+
+119
+0:06:14.181,000 --> 0:06:17,000
+durante 30 años que desean recibir consejos de una máquina.
+
+120
+0:06:17.874,000 --> 0:06:19,000
+Y es muy apasionante, mucho más que el bloqueo y continuación.
+
+121
+0:06:20.804,000 --> 0:06:22,000
+Nuestra computadora empezó con cosas simples,
+
+122
+0:06:22.904,000 --> 0:06:24,000
+aprendió cosas cada vez más complejas
+
+123
+0:06:24.992,000 --> 0:06:25,000
+y ahora sabe cada vez más cosas.
+
+124
+0:06:26.577,000 --> 0:06:28,000
+Francamente, no entiendo gran parte de lo que hace,
+
+125
+0:06:29.436,000 --> 0:06:32,000
+y si bien no es algo tan especial ser más inteligente que yo,
+
+126
+0:06:33.175,000 --> 0:06:36,000
+nos hemos preguntado, ¿puede una máquina saber más que un entrenador?
+
+127
+0:06:36.843,000 --> 0:06:38,000
+¿Puede saber más de lo que podría saber una persona?
+
+128
+0:06:38.922,000 --> 0:06:39,000
+Y resulta que la respuesta es sí.
+
+129
+0:06:40.691,000 --> 0:06:42,000
+Los entrenadores quieren que los jugadores disparen bien.
+
+130
+0:06:43.272,000 --> 0:06:44,000
+Si estoy cerca de la cesta
+
+131
+0:06:44.947,000 --> 0:06:46,000
+y no hay nadie cerca, es un buen tiro.
+
+132
+0:06:47.137,000 --> 0:06:5,000
+Si estoy lejos, rodeado por defensores, generalmente es un mal tiro.
+
+133
+0:06:51.101,000 --> 0:06:55,000
+Pero no sabíamos cuán bueno o malo era lo "bueno" o lo "malo" cuantitativamente.
+
+134
+0:06:56.209,000 --> 0:06:57,000
+Hasta ahora.
+
+135
+0:06:57.771,000 --> 0:07:,000
+Entonces, de nuevo, con las características espacio-temporales,
+
+136
+0:07:00.853,000 --> 0:07:01,000
+analizamos cada tiro.
+
+137
+0:07:02.251,000 --> 0:07:05,000
+Podemos ver dónde está el tiro, cuál es el ángulo a la cesta,
+
+138
+0:07:05.28,000 --> 0:07:07,000
+dónde están los defensores, cuáles son sus distancias,
+
+139
+0:07:08.066,000 --> 0:07:09,000
+cuáles son los ángulos.
+
+140
+0:07:09.421,000 --> 0:07:11,000
+Para múltiples defensores, podemos ver cómo se mueve el jugador
+
+141
+0:07:12.422,000 --> 0:07:13,000
+y predecir el tipo de tiro.
+
+142
+0:07:13.879,000 --> 0:07:17,000
+Podemos ver todas sus velocidades y construir un modelo que prediga
+
+143
+0:07:17.977,000 --> 0:07:21,000
+la probabilidad de que este disparo vaya en estas circunstancias.
+
+144
+0:07:22.188,000 --> 0:07:23,000
+¿Por qué importa esto?
+
+145
+0:07:24.102,000 --> 0:07:26,000
+Podemos tomar un tiro,
+
+146
+0:07:26.929,000 --> 0:07:28,000
+que antes era una cosa y ahora se transforma en dos cosas:
+
+147
+0:07:29.633,000 --> 0:07:31,000
+la calidad del tiro y la calidad del tirador.
+
+148
+0:07:33.68,000 --> 0:07:36,000
+Este es un gráfico de burbujas porque ¿qué es TED sin ellos?
+
+149
+0:07:36.966,000 --> 0:07:37,000
+(Risas)
+
+150
+0:07:38.004,000 --> 0:07:39,000
+Esos son jugadores de la NBA.
+
+151
+0:07:39.339,000 --> 0:07:42,000
+El tamaño es el tamaño del jugador y el color es su posición.
+
+152
+0:07:42.483,000 --> 0:07:44,000
+En el eje X, tenemos la probabilidad del disparo.
+
+153
+0:07:44.639,000 --> 0:07:45,000
+Las personas de la izquierda hacen tiros difíciles,
+
+154
+0:07:46.616,000 --> 0:07:48,000
+a la derecha, hacen tiros fáciles.
+
+155
+0:07:49.194,000 --> 0:07:51,000
+En el eje Y, es la capacidad de disparo.
+
+156
+0:07:51.275,000 --> 0:07:53,000
+Las personas que disparan bien van arriba, las que disparan mal abajo.
+
+157
+0:07:53.917,000 --> 0:07:54,000
+Por ejemplo, si había un jugador
+
+158
+0:07:55.621,000 --> 0:07:57,000
+que generalmente encestaba el 47 % de los tiros,
+
+159
+0:07:57.808,000 --> 0:07:58,000
+eso es lo que se sabía antes.
+
+160
+0:07:59.345,000 --> 0:08:03,000
+Pero hoy, puedo decir que el jugador hace disparos que un jugador medio NBA
+
+161
+0:08:04.219,000 --> 0:08:05,000
+convertiría el 49 % del tiempo,
+
+162
+0:08:06.204,000 --> 0:08:07,000
+y que ellos son un 2 % peores.
+
+163
+0:08:08.266,000 --> 0:08:12,000
+Y es importante porque hay muchos con 47 % por allí.
+
+164
+0:08:13.714,000 --> 0:08:15,000
+Y por eso es muy importante saber
+
+165
+0:08:16.287,000 --> 0:08:19,000
+si el 47 % al que están evaluando pagarle USD 100 millones
+
+166
+0:08:20.267,000 --> 0:08:23,000
+es un buen tirador que hace malos tiros
+
+167
+0:08:23.346,000 --> 0:08:25,000
+o un mal tirador que hace buenos tiros.
+
+168
+0:08:27.13,000 --> 0:08:3,000
+La comprensión de máquina no cambia la forma de ver a los jugadores,
+
+169
+0:08:30.487,000 --> 0:08:31,000
+cambia la forma de ver el juego.
+
+170
+0:08:32.369,000 --> 0:08:35,000
+Hace unos años hubo un juego muy apasionante en la final de la NBA.
+
+171
+0:08:36.148,000 --> 0:08:39,000
+Miami estaba tres puntos abajo, quedaban 20 segundos.
+
+172
+0:08:39.379,000 --> 0:08:41,000
+Estaban a punto de perder el campeonato.
+
+173
+0:08:41.428,000 --> 0:08:44,000
+Un caballero de nombre LeBron James tiró de tres para empatar.
+
+174
+0:08:44.793,000 --> 0:08:45,000
+Falló.
+
+175
+0:08:46.015,000 --> 0:08:47,000
+Su compañero Chris Bosh consiguió un rebote,
+
+176
+0:08:47.876,000 --> 0:08:49,000
+hizo un pase a otro compañero llamado Ray Allen.
+
+177
+0:08:50.058,000 --> 0:08:51,000
+Clavó un triple. Fue en tiempo suplementario.
+
+178
+0:08:52.001,000 --> 0:08:54,000
+Ganaron el juego. Ganaron el campeonato.
+
+179
+0:08:54.121,000 --> 0:08:56,000
+Fue uno de los juegos de baloncesto más emocionantes.
+
+180
+0:08:57.438,000 --> 0:09:,000
+Y nuestra capacidad de conocer la probabilidad del tiro de cada jugador
+
+181
+0:09:00.891,000 --> 0:09:01,000
+a cada segundo,
+
+182
+0:09:02.103,000 --> 0:09:04,000
+y la probabilidad de conseguir un rebote a cada segundo
+
+183
+0:09:04.219,000 --> 0:09:08,000
+puede iluminar este momento como nunca antes.
+
+184
+0:09:09.618,000 --> 0:09:11,000
+Desafortunadamente, no puedo mostrarles ese video.
+
+185
+0:09:12.31,000 --> 0:09:16,000
+Pero lo hemos recreado
+
+186
+0:09:16.827,000 --> 0:09:18,000
+en nuestro juego semanal de baloncesto hace 3 semanas.
+
+187
+0:09:19.279,000 --> 0:09:21,000
+(Risas)
+
+188
+0:09:21.573,000 --> 0:09:24,000
+Y recreamos el seguimiento del que extrajimos las ideas.
+
+189
+0:09:25.809,000 --> 0:09:28,000
+Aquí estamos. Esto es Chinatown en Los Ángeles,
+
+190
+0:09:29.478,000 --> 0:09:3,000
+un parque en el que jugamos todas las semanas,
+
+191
+0:09:31.322,000 --> 0:09:33,000
+y allí estamos recreando el momento Ray Allen
+
+192
+0:09:33.607,000 --> 0:09:35,000
+y todo el seguimiento asociado.
+
+193
+0:09:36.772,000 --> 0:09:37,000
+Este es el disparo.
+
+194
+0:09:38.313,000 --> 0:09:4,000
+Les mostraré ese momento
+
+195
+0:09:40.853,000 --> 0:09:42,000
+y lo que aprendimos de ese momento.
+
+196
+0:09:43.464,000 --> 0:09:46,000
+La única diferencia es que en vez de jugadores profesionales, somos nosotros,
+
+197
+0:09:47.218,000 --> 0:09:49,000
+y en vez de un locutor profesional, soy yo.
+
+198
+0:09:50.186,000 --> 0:09:51,000
+Así que tengan paciencia conmigo.
+
+199
+0:09:53.153,000 --> 0:09:54,000
+Miami.
+
+200
+0:09:54.671,000 --> 0:09:55,000
+Tres puntos abajo.
+
+201
+0:09:56.107,000 --> 0:09:57,000
+Quedan 20 segundos.
+
+202
+0:09:59.385,000 --> 0:10:,000
+Jeff trae la pelota.
+
+203
+0:10:02.656,000 --> 0:10:03,000
+Josh la atrapa, ¡marca un triple!
+
+204
+0:10:04.631,000 --> 0:10:05,000
+[Calculando probabilidad de tiro: 33 %]
+
+205
+0:10:07.278,000 --> 0:10:08,000
+[Calidad del tiro: JOSH 33 %]
+
+206
+0:10:09.048,000 --> 0:10:1,000
+[Probabilidad de rebote: NOEL 12 %]
+
+207
+0:10:12.373,000 --> 0:10:13,000
+¡No entrará!
+
+208
+0:10:13.57,000 --> 0:10:14,000
+[Probabilidad de rebote: NOEL 37 %]
+
+209
+0:10:15.777,000 --> 0:10:16,000
+Rebote, Noel.
+
+210
+0:10:17.057,000 --> 0:10:18,000
+Vuelve a Daria.
+
+211
+0:10:18.509,000 --> 0:10:21,000
+[Calidad del tiro: DARIA 37 %]
+
+212
+0:10:22.676,000 --> 0:10:23,000
+Su triple... ¡bang!
+
+213
+0:10:24.32,000 --> 0:10:26,000
+Empate y quedan 5 segundos.
+
+214
+0:10:26.88,000 --> 0:10:27,000
+La multitud enloquece.
+
+215
+0:10:28.522,000 --> 0:10:29,000
+(Risas)
+
+216
+0:10:30.205,000 --> 0:10:31,000
+Es más o menos lo que pasó.
+
+217
+0:10:31.776,000 --> 0:10:32,000
+(Aplausos)
+
+218
+0:10:32.951,000 --> 0:10:33,000
+Más o menos.
+
+219
+0:10:34.15,000 --> 0:10:35,000
+(Aplausos)
+
+220
+0:10:36.121,000 --> 0:10:41,000
+Ese momento tenía un 9 % de probabilidad de ocurrir en la NBA;
+
+221
+0:10:41.629,000 --> 0:10:43,000
+sabemos eso y muchas otras cosas.
+
+222
+0:10:43.914,000 --> 0:10:46,000
+No les diré las veces que intentamos hasta que ocurrió.
+
+223
+0:10:47.429,000 --> 0:10:48,000
+(Risas)
+
+224
+0:10:49.2,000 --> 0:10:5,000
+Bien, ¡se los diré! Fueron cuatro.
+
+225
+0:10:51.096,000 --> 0:10:52,000
+(Risas)
+
+226
+0:10:52.121,000 --> 0:10:53,000
+Así se hace, Daria.
+
+227
+0:10:53.647,000 --> 0:10:57,000
+Pero lo importante de ese video
+
+228
+0:10:57.934,000 --> 0:11:01,000
+y las ideas obtenidas en cada segundo de un juego de la NBA, no es eso.
+
+229
+0:11:02.639,000 --> 0:11:05,000
+Es que no hay que ser un equipo profesional para seguir el movimiento.
+
+230
+0:11:07.083,000 --> 0:11:1,000
+No hay que ser jugador profesional para aprender sobre el movimiento.
+
+231
+0:11:10.764,000 --> 0:11:13,000
+De hecho, no se trata del deporte porque nos movemos por doquier.
+
+232
+0:11:15.654,000 --> 0:11:17,000
+Nos movemos en nuestras casas,
+
+233
+0:11:21.428,000 --> 0:11:22,000
+en nuestras oficinas,
+
+234
+0:11:24.238,000 --> 0:11:26,000
+mientras compramos y viajamos
+
+235
+0:11:29.318,000 --> 0:11:3,000
+por las ciudades
+
+236
+0:11:32.065,000 --> 0:11:33,000
+y alrededor del mundo.
+
+237
+0:11:35.27,000 --> 0:11:37,000
+¿Qué conoceremos? ¿Qué aprenderemos?
+
+238
+0:11:37.499,000 --> 0:11:39,000
+Quizá en vez de identificar bloqueos y continuación,
+
+239
+0:11:39.974,000 --> 0:11:41,000
+una máquina pueda identificar el momento y me avise
+
+240
+0:11:42.952,000 --> 0:11:44,000
+cuando mi hija dé el primer paso.
+
+241
+0:11:45.035,000 --> 0:11:47,000
+Algo que podría ocurrir en cualquier momento próximo.
+
+242
+0:11:47.85,000 --> 0:11:48,000
+Quizá podamos aprender a usar mejor los edificios,
+
+243
+0:11:49.822,000 --> 0:11:51,000
+planificar mejor las ciudades.
+
+244
+0:11:52.362,000 --> 0:11:56,000
+Creo que con el desarrollo de la ciencia de los puntos móviles,
+
+245
+0:11:56.559,000 --> 0:11:58,000
+nos moveremos mejor, con más inteligencia,
+
+246
+0:11:58.567,000 --> 0:12:,000
+nos moveremos hacia adelante.
+
+247
+0:12:00.887,000 --> 0:12:01,000
+Muchas gracias.
+
+248
+0:12:02.146,000 --> 0:12:06,000
+(Aplausos)
+

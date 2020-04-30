@@ -1,0 +1,700 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Ivana Korom Reviewer: Camille Martínez
+
+2
+0:00:12.937,000 --> 0:00:15,000
+Many of us here use technology in our day-to-day.
+
+3
+0:00:16.126,000 --> 0:00:19,000
+And some of us rely on technology to do our jobs.
+
+4
+0:00:19.397,000 --> 0:00:22,000
+For a while, I thought of machines and the technologies that drive them
+
+5
+0:00:23.371,000 --> 0:00:27,000
+as perfect tools that could make my work more efficient and more productive.
+
+6
+0:00:28.403,000 --> 0:00:31,000
+But with the rise of automation across so many different industries,
+
+7
+0:00:31.681,000 --> 0:00:32,000
+it led me to wonder:
+
+8
+0:00:33.077,000 --> 0:00:35,000
+If machines are starting to be able to do the work
+
+9
+0:00:35.442,000 --> 0:00:36,000
+traditionally done by humans,
+
+10
+0:00:37.133,000 --> 0:00:39,000
+what will become of the human hand?
+
+11
+0:00:40.133,000 --> 0:00:44,000
+How does our desire for perfection, precision and automation
+
+12
+0:00:44.25,000 --> 0:00:45,000
+affect our ability to be creative?
+
+13
+0:00:46.553,000 --> 0:00:5,000
+In my work as an artist and researcher, I explore AI and robotics
+
+14
+0:00:50.664,000 --> 0:00:53,000
+to develop new processes for human creativity.
+
+15
+0:00:54.077,000 --> 0:00:55,000
+For the past few years,
+
+16
+0:00:55.387,000 --> 0:00:59,000
+I've made work alongside machines, data and emerging technologies.
+
+17
+0:01:00.143,000 --> 0:01:01,000
+It's part of a lifelong fascination
+
+18
+0:01:02.028,000 --> 0:01:04,000
+about the dynamics of individuals and systems
+
+19
+0:01:04.787,000 --> 0:01:06,000
+and all the messiness that that entails.
+
+20
+0:01:07.192,000 --> 0:01:11,000
+It's how I'm exploring questions about where AI ends and we begin
+
+21
+0:01:12.024,000 --> 0:01:13,000
+and where I'm developing processes
+
+22
+0:01:13.69,000 --> 0:01:16,000
+that investigate potential sensory mixes of the future.
+
+23
+0:01:17.675,000 --> 0:01:19,000
+I think it's where philosophy and technology intersect.
+
+24
+0:01:20.992,000 --> 0:01:22,000
+Doing this work has taught me a few things.
+
+25
+0:01:23.642,000 --> 0:01:25,000
+It's taught me how embracing imperfection
+
+26
+0:01:26.49,000 --> 0:01:28,000
+can actually teach us something about ourselves.
+
+27
+0:01:29.428,000 --> 0:01:31,000
+It's taught me that exploring art
+
+28
+0:01:31.788,000 --> 0:01:33,000
+can actually help shape the technology that shapes us.
+
+29
+0:01:35.148,000 --> 0:01:38,000
+And it's taught me that combining AI and robotics
+
+30
+0:01:38.433,000 --> 0:01:41,000
+with traditional forms of creativity -- visual arts in my case --
+
+31
+0:01:41.989,000 --> 0:01:43,000
+can help us think a little bit more deeply
+
+32
+0:01:44.315,000 --> 0:01:46,000
+about what is human and what is the machine.
+
+33
+0:01:47.942,000 --> 0:01:48,000
+And it's led me to the realization
+
+34
+0:01:49.673,000 --> 0:01:52,000
+that collaboration is the key to creating the space for both
+
+35
+0:01:52.752,000 --> 0:01:53,000
+as we move forward.
+
+36
+0:01:54.387,000 --> 0:01:56,000
+It all started with a simple experiment with machines,
+
+37
+0:01:57.157,000 --> 0:01:59,000
+called "Drawing Operations Unit: Generation 1."
+
+38
+0:02:00.434,000 --> 0:02:02,000
+I call the machine "D.O.U.G." for short.
+
+39
+0:02:02.974,000 --> 0:02:03,000
+Before I built D.O.U.G,
+
+40
+0:02:04.324,000 --> 0:02:06,000
+I didn't know anything about building robots.
+
+41
+0:02:07.22,000 --> 0:02:09,000
+I took some open-source robotic arm designs,
+
+42
+0:02:10.141,000 --> 0:02:13,000
+I hacked together a system where the robot would match my gestures
+
+43
+0:02:13.506,000 --> 0:02:14,000
+and follow [them] in real time.
+
+44
+0:02:15.169,000 --> 0:02:16,000
+The premise was simple:
+
+45
+0:02:16.641,000 --> 0:02:18,000
+I would lead, and it would follow.
+
+46
+0:02:19.403,000 --> 0:02:21,000
+I would draw a line, and it would mimic my line.
+
+47
+0:02:22.363,000 --> 0:02:25,000
+So back in 2015, there we were, drawing for the first time,
+
+48
+0:02:26.085,000 --> 0:02:28,000
+in front of a small audience in New York City.
+
+49
+0:02:28.728,000 --> 0:02:3,000
+The process was pretty sparse --
+
+50
+0:02:31.307,000 --> 0:02:34,000
+no lights, no sounds, nothing to hide behind.
+
+51
+0:02:35.241,000 --> 0:02:38,000
+Just my palms sweating and the robot's new servos heating up.
+
+52
+0:02:38.95,000 --> 0:02:4,000
+(Laughs) Clearly, we were not built for this.
+
+53
+0:02:41.82,000 --> 0:02:44,000
+But something interesting happened, something I didn't anticipate.
+
+54
+0:02:45.077,000 --> 0:02:49,000
+See, D.O.U.G., in its primitive form, wasn't tracking my line perfectly.
+
+55
+0:02:49.903,000 --> 0:02:51,000
+While in the simulation that happened onscreen
+
+56
+0:02:52.26,000 --> 0:02:53,000
+it was pixel-perfect,
+
+57
+0:02:53.641,000 --> 0:02:55,000
+in physical reality, it was a different story.
+
+58
+0:02:56.196,000 --> 0:02:58,000
+It would slip and slide and punctuate and falter,
+
+59
+0:02:59.037,000 --> 0:03:01,000
+and I would be forced to respond.
+
+60
+0:03:01.525,000 --> 0:03:02,000
+There was nothing pristine about it.
+
+61
+0:03:03.327,000 --> 0:03:06,000
+And yet, somehow, the mistakes made the work more interesting.
+
+62
+0:03:06.589,000 --> 0:03:08,000
+The machine was interpreting my line but not perfectly.
+
+63
+0:03:09.367,000 --> 0:03:1,000
+And I was forced to respond.
+
+64
+0:03:10.763,000 --> 0:03:12,000
+We were adapting to each other in real time.
+
+65
+0:03:13.496,000 --> 0:03:14,000
+And seeing this taught me a few things.
+
+66
+0:03:15.457,000 --> 0:03:19,000
+It showed me that our mistakes actually made the work more interesting.
+
+67
+0:03:20.663,000 --> 0:03:24,000
+And I realized that, you know, through the imperfection of the machine,
+
+68
+0:03:24.936,000 --> 0:03:27,000
+our imperfections became what was beautiful about the interaction.
+
+69
+0:03:29.65,000 --> 0:03:32,000
+And I was excited, because it led me to the realization
+
+70
+0:03:32.761,000 --> 0:03:35,000
+that maybe part of the beauty of human and machine systems
+
+71
+0:03:36.435,000 --> 0:03:38,000
+is their shared inherent fallibility.
+
+72
+0:03:39.197,000 --> 0:03:4,000
+For the second generation of D.O.U.G.,
+
+73
+0:03:41.041,000 --> 0:03:43,000
+I knew I wanted to explore this idea.
+
+74
+0:03:43.372,000 --> 0:03:47,000
+But instead of an accident produced by pushing a robotic arm to its limits,
+
+75
+0:03:47.814,000 --> 0:03:49,000
+I wanted to design a system that would respond to my drawings
+
+76
+0:03:50.735,000 --> 0:03:51,000
+in ways that I didn't expect.
+
+77
+0:03:52.592,000 --> 0:03:55,000
+So, I used a visual algorithm to extract visual information
+
+78
+0:03:56.465,000 --> 0:03:58,000
+from decades of my digital and analog drawings.
+
+79
+0:03:59.467,000 --> 0:04:01,000
+I trained a neural net on these drawings
+
+80
+0:04:01.546,000 --> 0:04:03,000
+in order to generate recurring patterns in the work
+
+81
+0:04:04.435,000 --> 0:04:07,000
+that were then fed through custom software back into the machine.
+
+82
+0:04:07.935,000 --> 0:04:11,000
+I painstakingly collected as many of my drawings as I could find --
+
+83
+0:04:12.345,000 --> 0:04:16,000
+finished works, unfinished experiments and random sketches --
+
+84
+0:04:16.584,000 --> 0:04:17,000
+and tagged them for the AI system.
+
+85
+0:04:18.607,000 --> 0:04:21,000
+And since I'm an artist, I've been making work for over 20 years.
+
+86
+0:04:22.315,000 --> 0:04:24,000
+Collecting that many drawings took months,
+
+87
+0:04:24.363,000 --> 0:04:25,000
+it was a whole thing.
+
+88
+0:04:25.776,000 --> 0:04:27,000
+And here's the thing about training AI systems:
+
+89
+0:04:28.395,000 --> 0:04:3,000
+it's actually a lot of hard work.
+
+90
+0:04:31.022,000 --> 0:04:33,000
+A lot of work goes on behind the scenes.
+
+91
+0:04:33.237,000 --> 0:04:35,000
+But in doing the work, I realized a little bit more
+
+92
+0:04:35.942,000 --> 0:04:38,000
+about how the architecture of an AI is constructed.
+
+93
+0:04:39.387,000 --> 0:04:41,000
+And I realized it's not just made of models and classifiers
+
+94
+0:04:42.358,000 --> 0:04:43,000
+for the neural network.
+
+95
+0:04:43.704,000 --> 0:04:46,000
+But it's a fundamentally malleable and shapable system,
+
+96
+0:04:47.26,000 --> 0:04:5,000
+one in which the human hand is always present.
+
+97
+0:04:50.395,000 --> 0:04:54,000
+It's far from the omnipotent AI we've been told to believe in.
+
+98
+0:04:54.419,000 --> 0:04:56,000
+So I collected these drawings for the neural net.
+
+99
+0:04:56.958,000 --> 0:04:59,000
+And we realized something that wasn't previously possible.
+
+100
+0:05:00.911,000 --> 0:05:04,000
+My robot D.O.U.G. became a real-time interactive reflection
+
+101
+0:05:05.026,000 --> 0:05:07,000
+of the work I'd done through the course of my life.
+
+102
+0:05:07.677,000 --> 0:05:1,000
+The data was personal, but the results were powerful.
+
+103
+0:05:11.566,000 --> 0:05:12,000
+And I got really excited,
+
+104
+0:05:13.074,000 --> 0:05:17,000
+because I started thinking maybe machines don't need to be just tools,
+
+105
+0:05:17.68,000 --> 0:05:2,000
+but they can function as nonhuman collaborators.
+
+106
+0:05:21.537,000 --> 0:05:22,000
+And even more than that,
+
+107
+0:05:23.108,000 --> 0:05:25,000
+I thought maybe the future of human creativity
+
+108
+0:05:25.561,000 --> 0:05:26,000
+isn't in what it makes
+
+109
+0:05:27.109,000 --> 0:05:3,000
+but how it comes together to explore new ways of making.
+
+110
+0:05:31.101,000 --> 0:05:33,000
+So if D.O.U.G._1 was the muscle,
+
+111
+0:05:33.315,000 --> 0:05:34,000
+and D.O.U.G._2 was the brain,
+
+112
+0:05:35.101,000 --> 0:05:37,000
+then I like to think of D.O.U.G._3 as the family.
+
+113
+0:05:38.482,000 --> 0:05:42,000
+I knew I wanted to explore this idea of human-nonhuman collaboration at scale.
+
+114
+0:05:43.299,000 --> 0:05:44,000
+So over the past few months,
+
+115
+0:05:44.696,000 --> 0:05:47,000
+I worked with my team to develop 20 custom robots
+
+116
+0:05:47.855,000 --> 0:05:48,000
+that could work with me as a collective.
+
+117
+0:05:49.839,000 --> 0:05:5,000
+They would work as a group,
+
+118
+0:05:51.156,000 --> 0:05:53,000
+and together, we would collaborate with all of New York City.
+
+119
+0:05:54.069,000 --> 0:05:56,000
+I was really inspired by Stanford researcher Fei-Fei Li,
+
+120
+0:05:57.037,000 --> 0:05:59,000
+who said, "if we want to teach machines how to think,
+
+121
+0:05:59.576,000 --> 0:06:,000
+we need to first teach them how to see."
+
+122
+0:06:01.584,000 --> 0:06:03,000
+It made me think of the past decade of my life in New York,
+
+123
+0:06:04.393,000 --> 0:06:07,000
+and how I'd been all watched over by these surveillance cameras around the city.
+
+124
+0:06:08.41,000 --> 0:06:1,000
+And I thought it would be really interesting
+
+125
+0:06:10.49,000 --> 0:06:12,000
+if I could use them to teach my robots to see.
+
+126
+0:06:12.919,000 --> 0:06:13,000
+So with this project,
+
+127
+0:06:14.831,000 --> 0:06:15,000
+I thought about the gaze of the machine,
+
+128
+0:06:16.822,000 --> 0:06:19,000
+and I began to think about vision as multidimensional,
+
+129
+0:06:20.072,000 --> 0:06:21,000
+as views from somewhere.
+
+130
+0:06:22.151,000 --> 0:06:23,000
+We collected video
+
+131
+0:06:24.009,000 --> 0:06:27,000
+from publicly available camera feeds on the internet
+
+132
+0:06:27.096,000 --> 0:06:28,000
+of people walking on the sidewalks,
+
+133
+0:06:28.81,000 --> 0:06:29,000
+cars and taxis on the road,
+
+134
+0:06:30.546,000 --> 0:06:31,000
+all kinds of urban movement.
+
+135
+0:06:33.188,000 --> 0:06:35,000
+We trained a vision algorithm on those feeds
+
+136
+0:06:35.815,000 --> 0:06:37,000
+based on a technique called "optical flow,"
+
+137
+0:06:38.125,000 --> 0:06:39,000
+to analyze the collective density,
+
+138
+0:06:40.126,000 --> 0:06:43,000
+direction, dwell and velocity states of urban movement.
+
+139
+0:06:44.178,000 --> 0:06:48,000
+Our system extracted those states from the feeds as positional data
+
+140
+0:06:48.471,000 --> 0:06:51,000
+and became pads for my robotic units to draw on.
+
+141
+0:06:51.868,000 --> 0:06:53,000
+Instead of a collaboration of one-to-one,
+
+142
+0:06:54.426,000 --> 0:06:57,000
+we made a collaboration of many-to-many.
+
+143
+0:06:57.474,000 --> 0:07:,000
+By combining the vision of human and machine in the city,
+
+144
+0:07:01.085,000 --> 0:07:03,000
+we reimagined what a landscape painting could be.
+
+145
+0:07:03.903,000 --> 0:07:05,000
+Throughout all of my experiments with D.O.U.G.,
+
+146
+0:07:06.145,000 --> 0:07:08,000
+no two performances have ever been the same.
+
+147
+0:07:08.886,000 --> 0:07:09,000
+And through collaboration,
+
+148
+0:07:10.292,000 --> 0:07:12,000
+we create something that neither of us could have done alone:
+
+149
+0:07:13.18,000 --> 0:07:15,000
+we explore the boundaries of our creativity,
+
+150
+0:07:15.815,000 --> 0:07:17,000
+human and nonhuman working in parallel.
+
+151
+0:07:19.823,000 --> 0:07:21,000
+I think this is just the beginning.
+
+152
+0:07:22.569,000 --> 0:07:24,000
+This year, I've launched Scilicet,
+
+153
+0:07:24.776,000 --> 0:07:28,000
+my new lab exploring human and interhuman collaboration.
+
+154
+0:07:29.339,000 --> 0:07:31,000
+We're really interested in the feedback loop
+
+155
+0:07:31.483,000 --> 0:07:35,000
+between individual, artificial and ecological systems.
+
+156
+0:07:36.276,000 --> 0:07:38,000
+We're connecting human and machine output
+
+157
+0:07:38.569,000 --> 0:07:4,000
+to biometrics and other kinds of environmental data.
+
+158
+0:07:41.577,000 --> 0:07:45,000
+We're inviting anyone who's interested in the future of work, systems
+
+159
+0:07:45.68,000 --> 0:07:46,000
+and interhuman collaboration
+
+160
+0:07:47.299,000 --> 0:07:48,000
+to explore with us.
+
+161
+0:07:48.873,000 --> 0:07:51,000
+We know it's not just technologists that have to do this work
+
+162
+0:07:52.302,000 --> 0:07:54,000
+and that we all have a role to play.
+
+163
+0:07:54.429,000 --> 0:07:56,000
+We believe that by teaching machines
+
+164
+0:07:56.696,000 --> 0:07:58,000
+how to do the work traditionally done by humans,
+
+165
+0:07:59.45,000 --> 0:08:01,000
+we can explore and evolve our criteria
+
+166
+0:08:02.427,000 --> 0:08:04,000
+of what's made possible by the human hand.
+
+167
+0:08:04.894,000 --> 0:08:07,000
+And part of that journey is embracing the imperfections
+
+168
+0:08:08.411,000 --> 0:08:11,000
+and recognizing the fallibility of both human and machine,
+
+169
+0:08:12.125,000 --> 0:08:14,000
+in order to expand the potential of both.
+
+170
+0:08:14.919,000 --> 0:08:16,000
+Today, I'm still in pursuit of finding the beauty
+
+171
+0:08:17.244,000 --> 0:08:19,000
+in human and nonhuman creativity.
+
+172
+0:08:19.865,000 --> 0:08:21,000
+In the future, I have no idea what that will look like,
+
+173
+0:08:23.627,000 --> 0:08:25,000
+but I'm pretty curious to find out.
+
+174
+0:08:25.675,000 --> 0:08:26,000
+Thank you.
+
+175
+0:08:26.85,000 --> 0:08:27,000
+(Applause)
+

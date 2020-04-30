@@ -1,0 +1,1432 @@
+1
+0:00:12.54,000 --> 0:00:13,000
+Hi, I'm an engineer
+
+2
+0:00:13.98,000 --> 0:00:14,000
+and I make robots.
+
+3
+0:00:15.98,000 --> 0:00:18,000
+Now, of course you all know what a robot is, right?
+
+4
+0:00:19.5,000 --> 0:00:21,000
+If you don't, you'd probably go to Google,
+
+5
+0:00:21.7,000 --> 0:00:22,000
+and you'd ask Google what a robot is.
+
+6
+0:00:23.58,000 --> 0:00:24,000
+So let's do that.
+
+7
+0:00:25.46,000 --> 0:00:27,000
+We'll go to Google and this is what we get.
+
+8
+0:00:28.22,000 --> 0:00:31,000
+Now, you can see here there are lots of different types of robots,
+
+9
+0:00:31.42,000 --> 0:00:34,000
+but they're predominantly humanoid in structure.
+
+10
+0:00:35.18,000 --> 0:00:36,000
+And they look pretty conventional
+
+11
+0:00:36.86,000 --> 0:00:38,000
+because they've got plastic, they've got metal,
+
+12
+0:00:39.34,000 --> 0:00:41,000
+they've got motors and gears and so on.
+
+13
+0:00:41.66,000 --> 0:00:42,000
+Some of them look quite friendly,
+
+14
+0:00:43.3,000 --> 0:00:45,000
+and you could go up and you could hug them.
+
+15
+0:00:45.38,000 --> 0:00:46,000
+Some of them not so friendly,
+
+16
+0:00:46.82,000 --> 0:00:48,000
+they look like they're straight out of "Terminator,"
+
+17
+0:00:49.3,000 --> 0:00:51,000
+in fact they may well be straight out of "Terminator."
+
+18
+0:00:51.86,000 --> 0:00:53,000
+You can do lots of really cool things with these robots --
+
+19
+0:00:54.62,000 --> 0:00:55,000
+you can do really exciting stuff.
+
+20
+0:00:56.26,000 --> 0:00:58,000
+But I'd like to look at different kinds of robots --
+
+21
+0:00:59.22,000 --> 0:01:,000
+I want to make different kinds of robots.
+
+22
+0:01:01.22,000 --> 0:01:04,000
+And I take inspiration from the things that don't look like us,
+
+23
+0:01:04.66,000 --> 0:01:05,000
+but look like these.
+
+24
+0:01:06.5,000 --> 0:01:08,000
+So these are natural biological organisms
+
+25
+0:01:09.1,000 --> 0:01:11,000
+and they do some really cool things that we can't,
+
+26
+0:01:11.7,000 --> 0:01:13,000
+and current robots can't either.
+
+27
+0:01:14.22,000 --> 0:01:17,000
+They do all sorts of great things like moving around on the floor;
+
+28
+0:01:17.42,000 --> 0:01:19,000
+they go into our gardens and they eat our crops;
+
+29
+0:01:19.7,000 --> 0:01:2,000
+they climb trees;
+
+30
+0:01:20.98,000 --> 0:01:22,000
+they go in water, they come out of water;
+
+31
+0:01:23.22,000 --> 0:01:25,000
+they trap insects and digest them.
+
+32
+0:01:25.82,000 --> 0:01:26,000
+So they do really interesting things.
+
+33
+0:01:27.66,000 --> 0:01:3,000
+They live, they breathe, they die,
+
+34
+0:01:31.06,000 --> 0:01:32,000
+they eat things from the environment.
+
+35
+0:01:32.9,000 --> 0:01:34,000
+Our current robots don't really do that.
+
+36
+0:01:35.5,000 --> 0:01:36,000
+Now, wouldn't it be great
+
+37
+0:01:36.74,000 --> 0:01:39,000
+if you could use some of those characteristics in future robots
+
+38
+0:01:40.42,000 --> 0:01:42,000
+so that you could solve some really interesting problems?
+
+39
+0:01:43.14,000 --> 0:01:46,000
+I'm going to look at a couple of problems now in the environment
+
+40
+0:01:46.22,000 --> 0:01:48,000
+where we can use the skills and the technologies
+
+41
+0:01:48.98,000 --> 0:01:5,000
+derived from these animals
+
+42
+0:01:51.02,000 --> 0:01:52,000
+and from the plants,
+
+43
+0:01:52.58,000 --> 0:01:54,000
+and we can use them to solve those problems.
+
+44
+0:01:54.7,000 --> 0:01:56,000
+Let's have a look at two environmental problems.
+
+45
+0:01:57.78,000 --> 0:01:58,000
+They're both of our making --
+
+46
+0:01:59.22,000 --> 0:02:01,000
+this is man interacting with the environment
+
+47
+0:02:01.7,000 --> 0:02:03,000
+and doing some rather unpleasant things.
+
+48
+0:02:04.1,000 --> 0:02:07,000
+The first one is to do with the pressure of population.
+
+49
+0:02:08.26,000 --> 0:02:1,000
+Such is the pressure of population around the world
+
+50
+0:02:10.7,000 --> 0:02:14,000
+that agriculture and farming is required to produce more and more crops.
+
+51
+0:02:14.86,000 --> 0:02:15,000
+Now, to do that,
+
+52
+0:02:16.1,000 --> 0:02:18,000
+farmers put more and more chemicals onto the land.
+
+53
+0:02:18.5,000 --> 0:02:21,000
+They put on fertilizers, nitrates, pesticides --
+
+54
+0:02:21.66,000 --> 0:02:24,000
+all sorts of things that encourage the growth of the crops,
+
+55
+0:02:25.06,000 --> 0:02:27,000
+but there are some negative impacts.
+
+56
+0:02:27.22,000 --> 0:02:3,000
+One of the negative impacts is if you put lots of fertilizer on the land,
+
+57
+0:02:30.7,000 --> 0:02:32,000
+not all of it goes into the crops.
+
+58
+0:02:33.14,000 --> 0:02:35,000
+Lots of it stays in the soil,
+
+59
+0:02:35.74,000 --> 0:02:36,000
+and then when it rains,
+
+60
+0:02:37.22,000 --> 0:02:39,000
+these chemicals go into the water table.
+
+61
+0:02:39.74,000 --> 0:02:4,000
+And in the water table,
+
+62
+0:02:41.02,000 --> 0:02:44,000
+then they go into streams, into lakes, into rivers
+
+63
+0:02:44.54,000 --> 0:02:45,000
+and into the sea.
+
+64
+0:02:46.22,000 --> 0:02:48,000
+Now, if you put all of these chemicals, these nitrates,
+
+65
+0:02:48.86,000 --> 0:02:49,000
+into those kinds of environments,
+
+66
+0:02:50.5,000 --> 0:02:53,000
+there are organisms in those environments that will be affected by that --
+
+67
+0:02:54.3,000 --> 0:02:55,000
+algae, for example.
+
+68
+0:02:55.94,000 --> 0:02:57,000
+Algae loves nitrates, it loves fertilizer,
+
+69
+0:02:58.5,000 --> 0:03:,000
+so it will take in all these chemicals,
+
+70
+0:03:00.62,000 --> 0:03:02,000
+and if the conditions are right, it will mass produce.
+
+71
+0:03:03.58,000 --> 0:03:05,000
+It will produce masses and masses of new algae.
+
+72
+0:03:05.86,000 --> 0:03:06,000
+That's called a bloom.
+
+73
+0:03:07.42,000 --> 0:03:1,000
+The trouble is that when algae reproduces like this,
+
+74
+0:03:10.62,000 --> 0:03:12,000
+it starves the water of oxygen.
+
+75
+0:03:13.3,000 --> 0:03:14,000
+As soon as you do that,
+
+76
+0:03:14.58,000 --> 0:03:16,000
+the other organisms in the water can't survive.
+
+77
+0:03:17.9,000 --> 0:03:19,000
+So, what do we do?
+
+78
+0:03:19.94,000 --> 0:03:23,000
+We try to produce a robot that will eat the algae,
+
+79
+0:03:23.98,000 --> 0:03:24,000
+consume it and make it safe.
+
+80
+0:03:25.86,000 --> 0:03:26,000
+So that's the first problem.
+
+81
+0:03:27.78,000 --> 0:03:29,000
+The second problem is also of our making,
+
+82
+0:03:30.3,000 --> 0:03:31,000
+and it's to do with oil pollution.
+
+83
+0:03:32.62,000 --> 0:03:35,000
+Now, oil comes out of the engines that we use,
+
+84
+0:03:36.38,000 --> 0:03:37,000
+the boats that we use.
+
+85
+0:03:37.74,000 --> 0:03:4,000
+Sometimes tankers flush their oil tanks into the sea,
+
+86
+0:03:40.82,000 --> 0:03:42,000
+so oil is released into the sea that way.
+
+87
+0:03:43.1,000 --> 0:03:45,000
+Wouldn't it be nice if we could treat that in some way
+
+88
+0:03:45.7,000 --> 0:03:49,000
+using robots that could eat the pollution the oil fields have produced?
+
+89
+0:03:50.98,000 --> 0:03:51,000
+So that's what we do.
+
+90
+0:03:52.62,000 --> 0:03:54,000
+We make robots that will eat pollution.
+
+91
+0:03:55.7,000 --> 0:03:56,000
+To actually make the robot,
+
+92
+0:03:57.06,000 --> 0:03:59,000
+we take inspiration from two organisms.
+
+93
+0:04:00.1,000 --> 0:04:02,000
+On the right there you see the basking shark.
+
+94
+0:04:02.26,000 --> 0:04:04,000
+The basking shark is a massive shark.
+
+95
+0:04:04.82,000 --> 0:04:06,000
+It's noncarnivorous, so you can swim with it,
+
+96
+0:04:07.42,000 --> 0:04:08,000
+as you can see.
+
+97
+0:04:08.9,000 --> 0:04:09,000
+And the basking shark opens its mouth,
+
+98
+0:04:10.78,000 --> 0:04:12,000
+and it swims through the water, collecting plankton.
+
+99
+0:04:14.7,000 --> 0:04:16,000
+As it does that, it digests the food,
+
+100
+0:04:16.94,000 --> 0:04:19,000
+and then it uses that energy in its body to keep moving.
+
+101
+0:04:21.22,000 --> 0:04:22,000
+So, could we make a robot like that --
+
+102
+0:04:23.1,000 --> 0:04:25,000
+like the basking shark that chugs through the water
+
+103
+0:04:25.66,000 --> 0:04:26,000
+and eats up pollution?
+
+104
+0:04:27.98,000 --> 0:04:28,000
+Well, let's see if we can do that.
+
+105
+0:04:29.74,000 --> 0:04:32,000
+But also, we take the inspiration from other organisms.
+
+106
+0:04:32.82,000 --> 0:04:34,000
+I've got a picture here of a water boatman,
+
+107
+0:04:34.9,000 --> 0:04:35,000
+and the water boatman is really cute.
+
+108
+0:04:36.74,000 --> 0:04:37,000
+When it's swimming in the water,
+
+109
+0:04:38.34,000 --> 0:04:4,000
+it uses its paddle-like legs to push itself forward.
+
+110
+0:04:41.42,000 --> 0:04:43,000
+So we take those two organisms
+
+111
+0:04:43.46,000 --> 0:04:46,000
+and we combine them together to make a new kind of robot.
+
+112
+0:04:47.14,000 --> 0:04:5,000
+In fact, because we're using the water boatman as inspiration,
+
+113
+0:04:50.34,000 --> 0:04:52,000
+and our robot sits on top of the water,
+
+114
+0:04:53.14,000 --> 0:04:54,000
+and it rows,
+
+115
+0:04:54.42,000 --> 0:04:56,000
+we call it the "Row-bot."
+
+116
+0:04:56.66,000 --> 0:04:59,000
+So a Row-bot is a robot that rows.
+
+117
+0:05:00.54,000 --> 0:05:02,000
+OK. So what does it look like?
+
+118
+0:05:03.26,000 --> 0:05:04,000
+Here's some pictures of the Row-bot,
+
+119
+0:05:05.02,000 --> 0:05:06,000
+and you'll see,
+
+120
+0:05:06.26,000 --> 0:05:09,000
+it doesn't look anything like the robots we saw right at the beginning.
+
+121
+0:05:09.62,000 --> 0:05:11,000
+Google is wrong; robots don't look like that,
+
+122
+0:05:11.78,000 --> 0:05:12,000
+they look like this.
+
+123
+0:05:13.02,000 --> 0:05:14,000
+So I've got the Row-bot here.
+
+124
+0:05:14.82,000 --> 0:05:15,000
+I'll just hold it up for you.
+
+125
+0:05:16.26,000 --> 0:05:17,000
+It gives you a sense of the scale,
+
+126
+0:05:17.94,000 --> 0:05:19,000
+and it doesn't look anything like the others.
+
+127
+0:05:20.1,000 --> 0:05:21,000
+OK, so it's made out of plastic,
+
+128
+0:05:21.74,000 --> 0:05:23,000
+and we'll have a look now at the components
+
+129
+0:05:23.82,000 --> 0:05:24,000
+that make up the Row-bot --
+
+130
+0:05:25.16,000 --> 0:05:26,000
+what makes it really special.
+
+131
+0:05:27.58,000 --> 0:05:29,000
+The Row-bot is made up of three parts,
+
+132
+0:05:30.42,000 --> 0:05:33,000
+and those three parts are really like the parts of any organism.
+
+133
+0:05:33.74,000 --> 0:05:34,000
+It's got a brain,
+
+134
+0:05:35.42,000 --> 0:05:36,000
+it's got a body
+
+135
+0:05:36.82,000 --> 0:05:38,000
+and it's got a stomach.
+
+136
+0:05:39.14,000 --> 0:05:41,000
+It needs the stomach to create the energy.
+
+137
+0:05:41.58,000 --> 0:05:43,000
+Any Row-bot will have those three components,
+
+138
+0:05:43.82,000 --> 0:05:45,000
+and any organism will have those three components,
+
+139
+0:05:46.22,000 --> 0:05:47,000
+so let's go through them one at a time.
+
+140
+0:05:48.14,000 --> 0:05:49,000
+It has a body,
+
+141
+0:05:49.42,000 --> 0:05:5,000
+and its body is made out of plastic,
+
+142
+0:05:51.22,000 --> 0:05:53,000
+and it sits on top of the water.
+
+143
+0:05:53.46,000 --> 0:05:55,000
+And it's got flippers on the side here --
+
+144
+0:05:56.42,000 --> 0:05:57,000
+paddles that help it move,
+
+145
+0:05:57.94,000 --> 0:05:58,000
+just like the water boatman.
+
+146
+0:06:00.02,000 --> 0:06:01,000
+It's got a plastic body,
+
+147
+0:06:01.38,000 --> 0:06:03,000
+but it's got a soft rubber mouth here,
+
+148
+0:06:04.26,000 --> 0:06:05,000
+and a mouth here -- it's got two mouths.
+
+149
+0:06:06.18,000 --> 0:06:07,000
+Why does it have two mouths?
+
+150
+0:06:07.62,000 --> 0:06:08,000
+One is to let the food go in
+
+151
+0:06:09.46,000 --> 0:06:1,000
+and the other is to let the food go out.
+
+152
+0:06:11.42,000 --> 0:06:14,000
+So you can see really it's got a mouth and a derriere,
+
+153
+0:06:14.94,000 --> 0:06:15,000
+or a --
+
+154
+0:06:16.18,000 --> 0:06:17,000
+(Laughter)
+
+155
+0:06:17.22,000 --> 0:06:18,000
+something where the stuff comes out,
+
+156
+0:06:18.98,000 --> 0:06:19,000
+which is just like a real organism.
+
+157
+0:06:20.7,000 --> 0:06:22,000
+So it's starting to look like that basking shark.
+
+158
+0:06:23.54,000 --> 0:06:24,000
+So that's the body.
+
+159
+0:06:24.94,000 --> 0:06:27,000
+The second component might be the stomach.
+
+160
+0:06:28.1,000 --> 0:06:31,000
+We need to get the energy into the robot and we need to treat the pollution,
+
+161
+0:06:32.02,000 --> 0:06:33,000
+so the pollution goes in,
+
+162
+0:06:33.58,000 --> 0:06:34,000
+and it will do something.
+
+163
+0:06:35.1,000 --> 0:06:38,000
+It's got a cell in the middle here called a microbial fuel cell.
+
+164
+0:06:38.7,000 --> 0:06:4,000
+I'll put this down, and I'll lift up the fuel cell.
+
+165
+0:06:42.02,000 --> 0:06:43,000
+Here. So instead of having batteries,
+
+166
+0:06:43.9,000 --> 0:06:45,000
+instead of having a conventional power system,
+
+167
+0:06:46.1,000 --> 0:06:47,000
+it's got one of these.
+
+168
+0:06:47.38,000 --> 0:06:48,000
+This is its stomach.
+
+169
+0:06:48.66,000 --> 0:06:49,000
+And it really is a stomach
+
+170
+0:06:49.94,000 --> 0:06:52,000
+because you can put energy in this side in the form of pollution,
+
+171
+0:06:53.38,000 --> 0:06:54,000
+and it creates electricity.
+
+172
+0:06:55.06,000 --> 0:06:56,000
+So what is it?
+
+173
+0:06:56.3,000 --> 0:06:57,000
+It's called a microbial fuel cell.
+
+174
+0:06:57.98,000 --> 0:06:59,000
+It's a little bit like a chemical fuel cell,
+
+175
+0:07:00.1,000 --> 0:07:02,000
+which you might have come across in school,
+
+176
+0:07:02.14,000 --> 0:07:03,000
+or you might've seen in the news.
+
+177
+0:07:03.78,000 --> 0:07:05,000
+Chemical fuel cells take hydrogen and oxygen,
+
+178
+0:07:05.94,000 --> 0:07:07,000
+and they can combine them together and you get electricity.
+
+179
+0:07:08.78,000 --> 0:07:11,000
+That's well-established technology; it was in the Apollo space missions.
+
+180
+0:07:12.22,000 --> 0:07:13,000
+That's from 40, 50 years ago.
+
+181
+0:07:14.26,000 --> 0:07:15,000
+This is slightly newer.
+
+182
+0:07:15.54,000 --> 0:07:16,000
+This is a microbial fuel cell.
+
+183
+0:07:17.02,000 --> 0:07:18,000
+It's the same principle:
+
+184
+0:07:18.3,000 --> 0:07:19,000
+it's got oxygen on one side,
+
+185
+0:07:19.74,000 --> 0:07:21,000
+but instead of having hydrogen on the other,
+
+186
+0:07:21.86,000 --> 0:07:22,000
+it's got some soup,
+
+187
+0:07:23.18,000 --> 0:07:25,000
+and inside that soup there are living microbes.
+
+188
+0:07:26.02,000 --> 0:07:28,000
+Now, if you take some organic material --
+
+189
+0:07:28.74,000 --> 0:07:3,000
+could be some waste products, some food,
+
+190
+0:07:31.1,000 --> 0:07:32,000
+maybe a bit of your sandwich --
+
+191
+0:07:32.62,000 --> 0:07:34,000
+you put it in there, the microbes will eat that food,
+
+192
+0:07:35.46,000 --> 0:07:36,000
+and they will turn it into electricity.
+
+193
+0:07:38.22,000 --> 0:07:41,000
+Not only that, but if you select the right kind of microbes,
+
+194
+0:07:41.74,000 --> 0:07:44,000
+you can use the microbial fuel cell to treat some of the pollution.
+
+195
+0:07:46.22,000 --> 0:07:47,000
+If you choose the right microbes,
+
+196
+0:07:47.86,000 --> 0:07:49,000
+the microbes will eat the algae.
+
+197
+0:07:50.5,000 --> 0:07:52,000
+If you use other kinds of microbes,
+
+198
+0:07:52.86,000 --> 0:07:55,000
+they will eat petroleum spirits and crude oil.
+
+199
+0:07:56.78,000 --> 0:07:58,000
+So you can see how this stomach could be used
+
+200
+0:07:59.5,000 --> 0:08:02,000
+to not only treat the pollution
+
+201
+0:08:02.78,000 --> 0:08:04,000
+but also to generate electricity from the pollution.
+
+202
+0:08:06.22,000 --> 0:08:08,000
+So the robot will move through the environment,
+
+203
+0:08:09.02,000 --> 0:08:11,000
+taking food into its stomach,
+
+204
+0:08:11.14,000 --> 0:08:13,000
+digest the food, create electricity,
+
+205
+0:08:13.66,000 --> 0:08:15,000
+use that electricity to move through the environment
+
+206
+0:08:16.18,000 --> 0:08:17,000
+and keep doing this.
+
+207
+0:08:17.42,000 --> 0:08:2,000
+OK, so let's see what happens when we run the Row-bot --
+
+208
+0:08:20.98,000 --> 0:08:21,000
+when it does some rowing.
+
+209
+0:08:22.38,000 --> 0:08:23,000
+Here we've got a couple of videos,
+
+210
+0:08:24.06,000 --> 0:08:26,000
+the first thing you'll see -- hopefully you can see here
+
+211
+0:08:26.74,000 --> 0:08:27,000
+is the mouth open.
+
+212
+0:08:28.06,000 --> 0:08:31,000
+The front mouth and the bottom mouth open,
+
+213
+0:08:31.1,000 --> 0:08:32,000
+and it will stay opened enough,
+
+214
+0:08:32.66,000 --> 0:08:34,000
+then the robot will start to row forward.
+
+215
+0:08:34.7,000 --> 0:08:35,000
+It moves through the water
+
+216
+0:08:35.98,000 --> 0:08:38,000
+so that food goes in as the waste products go out.
+
+217
+0:08:39.1,000 --> 0:08:4,000
+Once it's moved enough,
+
+218
+0:08:40.38,000 --> 0:08:42,000
+it stops and then it closes the mouth --
+
+219
+0:08:43.34,000 --> 0:08:45,000
+slowly closes the mouths --
+
+220
+0:08:45.78,000 --> 0:08:46,000
+and then it will sit there,
+
+221
+0:08:47.46,000 --> 0:08:48,000
+and it will digest the food.
+
+222
+0:08:49.82,000 --> 0:08:51,000
+Of course these microbial fuel cells,
+
+223
+0:08:52.54,000 --> 0:08:53,000
+they contain microbes.
+
+224
+0:08:53.82,000 --> 0:08:54,000
+What you really want is lots of energy
+
+225
+0:08:55.7,000 --> 0:08:57,000
+coming out of those microbes as quickly as possible.
+
+226
+0:08:58.34,000 --> 0:08:59,000
+But we can't force the microbes
+
+227
+0:08:59.94,000 --> 0:09:02,000
+and they generate a small amount of electricity per second.
+
+228
+0:09:02.98,000 --> 0:09:05,000
+They generate milliwatts, or microwatts.
+
+229
+0:09:06.26,000 --> 0:09:07,000
+Let's put that into context.
+
+230
+0:09:08.14,000 --> 0:09:09,000
+Your mobile phone for example,
+
+231
+0:09:09.7,000 --> 0:09:1,000
+one of these modern ones,
+
+232
+0:09:11.1,000 --> 0:09:13,000
+if you use it, it takes about one watt.
+
+233
+0:09:13.34,000 --> 0:09:16,000
+So that's a thousand or a million times as much energy that that uses
+
+234
+0:09:17.18,000 --> 0:09:18,000
+compared to the microbial fuel cell.
+
+235
+0:09:19.82,000 --> 0:09:2,000
+How can we cope with that?
+
+236
+0:09:21.42,000 --> 0:09:23,000
+Well, when the Row-bot has done its digestion,
+
+237
+0:09:24.3,000 --> 0:09:25,000
+when it's taken the food in,
+
+238
+0:09:25.78,000 --> 0:09:28,000
+it will sit there and it will wait until it has consumed all that food.
+
+239
+0:09:29.34,000 --> 0:09:32,000
+That could take some hours, it could take some days.
+
+240
+0:09:32.58,000 --> 0:09:35,000
+A typical cycle for the Row-bot looks like this:
+
+241
+0:09:36.3,000 --> 0:09:37,000
+you open your mouth,
+
+242
+0:09:37.58,000 --> 0:09:38,000
+you move,
+
+243
+0:09:38.86,000 --> 0:09:39,000
+you close your mouth
+
+244
+0:09:40.14,000 --> 0:09:41,000
+and you sit there for a while waiting.
+
+245
+0:09:42.02,000 --> 0:09:43,000
+Once you digest your food,
+
+246
+0:09:43.42,000 --> 0:09:45,000
+then you can go about doing the same thing again.
+
+247
+0:09:46.26,000 --> 0:09:48,000
+But you know what, that looks like a real organism, doesn't it?
+
+248
+0:09:49.26,000 --> 0:09:5,000
+It looks like the kind of thing we do.
+
+249
+0:09:51.14,000 --> 0:09:53,000
+Saturday night, we go out, open our mouths,
+
+250
+0:09:53.22,000 --> 0:09:54,000
+fill our stomachs,
+
+251
+0:09:54.78,000 --> 0:09:56,000
+sit in front of the telly and digest.
+
+252
+0:09:57.74,000 --> 0:09:59,000
+When we've had enough, we do the same thing again.
+
+253
+0:10:00.14,000 --> 0:10:02,000
+OK, if we're lucky with this cycle,
+
+254
+0:10:03.02,000 --> 0:10:06,000
+at the end of the cycle we'll have enough energy left over
+
+255
+0:10:06.58,000 --> 0:10:08,000
+for us to be able to do something else.
+
+256
+0:10:08.74,000 --> 0:10:1,000
+We could send a message, for example.
+
+257
+0:10:10.78,000 --> 0:10:11,000
+We could send a message saying,
+
+258
+0:10:12.3,000 --> 0:10:14,000
+"This is how much pollution I've eaten recently,"
+
+259
+0:10:14.66,000 --> 0:10:16,000
+or, "This is the kind of stuff that I've encountered,"
+
+260
+0:10:17.26,000 --> 0:10:18,000
+or, "This is where I am."
+
+261
+0:10:19.62,000 --> 0:10:22,000
+That ability to send a message saying, "This is where I am,"
+
+262
+0:10:22.9,000 --> 0:10:23,000
+is really, really important.
+
+263
+0:10:24.86,000 --> 0:10:26,000
+If you think about the oil slicks that we saw before,
+
+264
+0:10:27.38,000 --> 0:10:28,000
+or those massive algal blooms,
+
+265
+0:10:28.86,000 --> 0:10:3,000
+what you really want to do is put your Row-bot out there,
+
+266
+0:10:31.58,000 --> 0:10:32,000
+and it eats up all of those pollutions,
+
+267
+0:10:33.58,000 --> 0:10:35,000
+and then you have to go collect them.
+
+268
+0:10:35.78,000 --> 0:10:36,000
+Why?
+
+269
+0:10:37.02,000 --> 0:10:38,000
+Because these Row-bots at the moment,
+
+270
+0:10:38.86,000 --> 0:10:39,000
+this Row-bot I've got here,
+
+271
+0:10:40.22,000 --> 0:10:41,000
+it contains motors, it contains wires,
+
+272
+0:10:42.1,000 --> 0:10:45,000
+it contains components which themselves are not biodegradable.
+
+273
+0:10:45.58,000 --> 0:10:47,000
+Current Row-bots contain things like toxic batteries.
+
+274
+0:10:48.34,000 --> 0:10:49,000
+You can't leave those in the environment,
+
+275
+0:10:50.34,000 --> 0:10:51,000
+so you need to track them,
+
+276
+0:10:51.86,000 --> 0:10:53,000
+and then when they've finished their job of work,
+
+277
+0:10:54.22,000 --> 0:10:55,000
+you need to collect them.
+
+278
+0:10:55.5,000 --> 0:10:57,000
+That limits the number of Row-bots you can use.
+
+279
+0:10:57.86,000 --> 0:10:58,000
+If, on the other hand,
+
+280
+0:10:59.14,000 --> 0:11:02,000
+you have robot a little bit like a biological organism,
+
+281
+0:11:02.3,000 --> 0:11:04,000
+when it comes to the end of its life,
+
+282
+0:11:04.42,000 --> 0:11:06,000
+it dies and it degrades to nothing.
+
+283
+0:11:06.9,000 --> 0:11:08,000
+So wouldn't it be nice if these robots,
+
+284
+0:11:09.26,000 --> 0:11:11,000
+instead of being like this, made out of plastic,
+
+285
+0:11:11.523,000 --> 0:11:12,000
+were made out of other materials,
+
+286
+0:11:13.14,000 --> 0:11:14,000
+which when you throw them out there,
+
+287
+0:11:14.9,000 --> 0:11:15,000
+they biodegrade to nothing?
+
+288
+0:11:16.26,000 --> 0:11:18,000
+That changes the way in which we use robots.
+
+289
+0:11:18.38,000 --> 0:11:21,000
+Instead of putting 10 or 100 out into the environment,
+
+290
+0:11:21.78,000 --> 0:11:22,000
+having to track them,
+
+291
+0:11:23.06,000 --> 0:11:24,000
+and then when they die,
+
+292
+0:11:24.42,000 --> 0:11:25,000
+collect them,
+
+293
+0:11:25.66,000 --> 0:11:26,000
+you could put a thousand,
+
+294
+0:11:27.38,000 --> 0:11:29,000
+a million, a billion robots into the environment.
+
+295
+0:11:30.14,000 --> 0:11:31,000
+Just spread them around.
+
+296
+0:11:31.98,000 --> 0:11:34,000
+You know that at the end of their lives, they're going to degrade to nothing.
+
+297
+0:11:35.62,000 --> 0:11:36,000
+You don't need to worry about them.
+
+298
+0:11:37.34,000 --> 0:11:39,000
+So that changes the way in which you think about robots
+
+299
+0:11:39.98,000 --> 0:11:4,000
+and the way you deploy them.
+
+300
+0:11:41.38,000 --> 0:11:42,000
+Then the question is: Can you do this?
+
+301
+0:11:43.26,000 --> 0:11:45,000
+Well, yes, we have shown that you can do this.
+
+302
+0:11:45.46,000 --> 0:11:47,000
+You can make robots which are biodegradable.
+
+303
+0:11:47.58,000 --> 0:11:49,000
+What's really interesting is you can use household materials
+
+304
+0:11:50.46,000 --> 0:11:51,000
+to make these biodegradable robots.
+
+305
+0:11:52.18,000 --> 0:11:54,000
+I'll show you some; you might be surprised.
+
+306
+0:11:54.78,000 --> 0:11:56,000
+You can make a robot out of jelly.
+
+307
+0:11:57.7,000 --> 0:11:59,000
+Instead of having a motor, which we have at the moment,
+
+308
+0:12:00.5,000 --> 0:12:02,000
+you can make things called artificial muscles.
+
+309
+0:12:02.98,000 --> 0:12:04,000
+Artificial muscles are smart materials,
+
+310
+0:12:05.3,000 --> 0:12:06,000
+you apply electricity to them,
+
+311
+0:12:06.78,000 --> 0:12:08,000
+and they contract, or they bend or they twist.
+
+312
+0:12:08.98,000 --> 0:12:1,000
+They look like real muscles.
+
+313
+0:12:11.22,000 --> 0:12:14,000
+So instead of having a motor, you have these artificial muscles.
+
+314
+0:12:14.244,000 --> 0:12:16,000
+And you can make artificial muscles out of jelly.
+
+315
+0:12:17.1,000 --> 0:12:18,000
+If you take some jelly and some salts,
+
+316
+0:12:19.06,000 --> 0:12:2,000
+and do a bit of jiggery-pokery,
+
+317
+0:12:20.66,000 --> 0:12:21,000
+you can make an artificial muscle.
+
+318
+0:12:22.46,000 --> 0:12:25,000
+We've also shown you can make the microbial fuel cell's stomach
+
+319
+0:12:26.06,000 --> 0:12:27,000
+out of paper.
+
+320
+0:12:27.5,000 --> 0:12:3,000
+So you could make the whole robot out of biodegradable materials.
+
+321
+0:12:31.3,000 --> 0:12:33,000
+You throw them out there, and they degrade to nothing.
+
+322
+0:12:35.42,000 --> 0:12:36,000
+Well, this is really, really exciting.
+
+323
+0:12:37.3,000 --> 0:12:4,000
+It's going to totally change the way in which we think about robots,
+
+324
+0:12:40.515,000 --> 0:12:42,000
+but also it allows you to be really creative
+
+325
+0:12:42.78,000 --> 0:12:45,000
+in the way in which you think about what you can do with these robots.
+
+326
+0:12:46.14,000 --> 0:12:47,000
+I'll give you an example.
+
+327
+0:12:47.42,000 --> 0:12:49,000
+If you can use jelly to make a robot --
+
+328
+0:12:50.02,000 --> 0:12:51,000
+now, we eat jelly, right?
+
+329
+0:12:51.94,000 --> 0:12:53,000
+So, why not make something like this?
+
+330
+0:12:54.46,000 --> 0:12:55,000
+A robot gummy bear.
+
+331
+0:12:56.94,000 --> 0:12:58,000
+Here, I've got some I prepared earlier.
+
+332
+0:12:59.74,000 --> 0:13:,000
+There we go. I've got a packet --
+
+333
+0:13:02.38,000 --> 0:13:03,000
+and I've got a lemon-flavored one.
+
+334
+0:13:05.42,000 --> 0:13:07,000
+I'll take this gummy bear -- he's not robotic, OK?
+
+335
+0:13:08.18,000 --> 0:13:09,000
+We have to pretend.
+
+336
+0:13:09.42,000 --> 0:13:12,000
+And what you do with one of these is you put it in your mouth --
+
+337
+0:13:12.46,000 --> 0:13:13,000
+the lemon's quite nice.
+
+338
+0:13:14.54,000 --> 0:13:16,000
+Try not to chew it too much, it's a robot, it may not like it.
+
+339
+0:13:18.66,000 --> 0:13:2,000
+And then you swallow it.
+
+340
+0:13:20.9,000 --> 0:13:21,000
+And then it goes into your stomach.
+
+341
+0:13:22.62,000 --> 0:13:25,000
+And when it's inside your stomach, it moves, it thinks, it twists, it bends,
+
+342
+0:13:26.46,000 --> 0:13:27,000
+it does something.
+
+343
+0:13:27.7,000 --> 0:13:29,000
+It could go further down into your intestines,
+
+344
+0:13:29.9,000 --> 0:13:31,000
+find out whether you've got some ulcer or cancer,
+
+345
+0:13:32.26,000 --> 0:13:34,000
+maybe do an injection, something like that.
+
+346
+0:13:34.38,000 --> 0:13:36,000
+You know that once it's done its job of work,
+
+347
+0:13:37.26,000 --> 0:13:39,000
+it could be consumed by your stomach,
+
+348
+0:13:39.5,000 --> 0:13:4,000
+or if you don't want that,
+
+349
+0:13:41.22,000 --> 0:13:42,000
+it could go straight through you,
+
+350
+0:13:42.86,000 --> 0:13:43,000
+into the toilet,
+
+351
+0:13:44.1,000 --> 0:13:46,000
+and be degraded safely in the environment.
+
+352
+0:13:46.34,000 --> 0:13:49,000
+So this changes the way, again, in which we think about robots.
+
+353
+0:13:50.54,000 --> 0:13:54,000
+So, we started off looking at robots that would eat pollution,
+
+354
+0:13:54.86,000 --> 0:13:56,000
+and then we're looking at robots which we can eat.
+
+355
+0:13:57.54,000 --> 0:13:58,000
+I hope this gives you some idea
+
+356
+0:13:59.22,000 --> 0:14:01,000
+of the kinds of things we can do with future robots.
+
+357
+0:14:03.38,000 --> 0:14:04,000
+Thank you very much for your attention.
+
+358
+0:14:05.3,000 --> 0:14:08,000
+(Applause)
+

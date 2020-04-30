@@ -1,0 +1,1032 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Máximo Hdez Revisor: teddy fres
+
+2
+0:00:23.307,000 --> 0:00:26,000
+Así que ¿qué significa para una máquina ser atlética?
+
+3
+0:00:26.491,000 --> 0:00:29,000
+Demostraremos el concepto de atletismo de la máquina
+
+4
+0:00:29.908,000 --> 0:00:3,000
+y la investigación para lograrlo
+
+5
+0:00:31.628,000 --> 0:00:33,000
+con la ayuda de estas máquinas voladoras llamadas quadricópteros,
+
+6
+0:00:34.139,000 --> 0:00:35,000
+o quads, para abreviar.
+
+7
+0:00:38.034,000 --> 0:00:4,000
+Los quads han existido durante mucho tiempo.
+
+8
+0:00:40.563,000 --> 0:00:41,000
+La razón de que sean tan populares en estos días
+
+9
+0:00:42.162,000 --> 0:00:43,000
+es porque son mecánicamente simples.
+
+10
+0:00:44.127,000 --> 0:00:46,000
+Mediante el control de las velocidades de estas cuatro hélices,
+
+11
+0:00:46.235,000 --> 0:00:49,000
+Estas máquinas pueden virar, balancearse, cabecear
+
+12
+0:00:49.283,000 --> 0:00:51,000
+y acelerar junto a su orientación común.
+
+13
+0:00:52.108,000 --> 0:00:55,000
+A bordo también hay una batería, una computadora,
+
+14
+0:00:55.179,000 --> 0:00:58,000
+varios sensores y radios inalámbricos.
+
+15
+0:00:59.133,000 --> 0:01:03,000
+Los quads son muy ágiles, pero esta agilidad tiene un precio.
+
+16
+0:01:03.762,000 --> 0:01:05,000
+Son inherentemente inestables, y necesitan alguna forma
+
+17
+0:01:06.754,000 --> 0:01:09,000
+de control automático de retroalimentación para poder volar.
+
+18
+0:01:16.259,000 --> 0:01:19,000
+Entonces, ¿cómo hizo eso?
+
+19
+0:01:19.497,000 --> 0:01:2,000
+Cámaras en el techo y una computadora portátil
+
+20
+0:01:21.315,000 --> 0:01:23,000
+sirven como un sistema de posicionamiento global interior,
+
+21
+0:01:23.891,000 --> 0:01:25,000
+que se utiliza para localizar objetos en el espacio
+
+22
+0:01:26.076,000 --> 0:01:28,000
+que tienen estos marcadores reflejantes.
+
+23
+0:01:28.603,000 --> 0:01:3,000
+Estos datos se envían a otra computadora
+
+24
+0:01:30.664,000 --> 0:01:32,000
+que está ejecutando algoritmos de estimación y control,
+
+25
+0:01:32.875,000 --> 0:01:33,000
+la cual a su vez envía comandos al quad,
+
+26
+0:01:34.761,000 --> 0:01:37,000
+que también ejecuta algoritmos de estimación y control.
+
+27
+0:01:41.62,000 --> 0:01:43,000
+La mayor parte de nuestra investigación son algoritmos.
+
+28
+0:01:44.13,000 --> 0:01:48,000
+Es la magia que da vida a estas máquinas.
+
+29
+0:01:48.291,000 --> 0:01:5,000
+Entonces, ¿cómo diseña uno los algoritmos
+
+30
+0:01:50.334,000 --> 0:01:52,000
+para crear una máquina atleta?
+
+31
+0:01:52.611,000 --> 0:01:54,000
+Utilizamos algo llamado en términos generales diseño basado en el modelo.
+
+32
+0:01:55.491,000 --> 0:01:58,000
+Primero describimos la física con un modelo matemático
+
+33
+0:01:58.645,000 --> 0:02:,000
+de cómo se comportan las máquinas.
+
+34
+0:02:00.779,000 --> 0:02:02,000
+Entonces utilizamos una rama de las matemáticas
+
+35
+0:02:03.076,000 --> 0:02:05,000
+llamada teoría de control para analizar estos modelos
+
+36
+0:02:05.907,000 --> 0:02:08,000
+y también para sintetizar algoritmos para controlarlos.
+
+37
+0:02:09.82,000 --> 0:02:12,000
+Por ejemplo, así es como podemos hacer flotar el quad.
+
+38
+0:02:12.868,000 --> 0:02:13,000
+Primero capturamos la dinámica
+
+39
+0:02:14.276,000 --> 0:02:15,000
+con un conjunto de ecuaciones diferenciales.
+
+40
+0:02:16.182,000 --> 0:02:18,000
+Entonces manipulamos estas ecuaciones con la ayuda
+
+41
+0:02:18.531,000 --> 0:02:22,000
+de la teoría de control para crear algoritmos que estabilicen al quad.
+
+42
+0:02:23.171,000 --> 0:02:25,000
+Permítanme demostrarles la fuerza de este enfoque.
+
+43
+0:02:29.198,000 --> 0:02:31,000
+Supongamos que queremos este quad no solo flote
+
+44
+0:02:31.747,000 --> 0:02:33,000
+sino que también equilibre esta barra.
+
+45
+0:02:34.529,000 --> 0:02:35,000
+Con un poco de práctica,
+
+46
+0:02:36.373,000 --> 0:02:38,000
+es bastante sencillo para un ser humano hacer esto,
+
+47
+0:02:38.764,000 --> 0:02:39,000
+Aunque tenemos la ventaja de tener
+
+48
+0:02:40.519,000 --> 0:02:41,000
+dos pies en el suelo
+
+49
+0:02:41.847,000 --> 0:02:43,000
+y usar nuestras manos que son muy versátiles.
+
+50
+0:02:44.804,000 --> 0:02:46,000
+Se hace un poco más difícil
+
+51
+0:02:47.273,000 --> 0:02:49,000
+cuando solo tengo un pie en el suelo
+
+52
+0:02:49.569,000 --> 0:02:51,000
+y cuando no utilizo mis manos.
+
+53
+0:02:52.368,000 --> 0:02:54,000
+noten que la barra tiene un marcador reflejante en la parte superior,
+
+54
+0:02:55.319,000 --> 0:02:58,000
+lo que significa que puede ubicarse en el espacio.
+
+55
+0:03:04.971,000 --> 0:03:09,000
+(Aplausos)
+
+56
+0:03:10.947,000 --> 0:03:12,000
+Noten que el quad está haciendo ajustes finos
+
+57
+0:03:13.773,000 --> 0:03:15,000
+para mantener la barra equilibrada.
+
+58
+0:03:15.968,000 --> 0:03:18,000
+¿Cómo diseñamos los algoritmos para hacer esto?
+
+59
+0:03:19.027,000 --> 0:03:21,000
+Añadimos el modelo matemático de la barra
+
+60
+0:03:21.132,000 --> 0:03:22,000
+al del quad.
+
+61
+0:03:22.651,000 --> 0:03:24,000
+Una vez que tenemos un modelo del sistema del quad y la barra juntos,
+
+62
+0:03:25.605,000 --> 0:03:29,000
+podemos utilizar la teoría de control para crear algoritmos para controlarlo.
+
+63
+0:03:30.538,000 --> 0:03:31,000
+Aquí, pueden apreciar que es estable,
+
+64
+0:03:32.126,000 --> 0:03:34,000
+e incluso si le doy unos empujoncitos,
+
+65
+0:03:34.819,000 --> 0:03:39,000
+vuelve a una posición correcta y equilibrada.
+
+66
+0:03:40.222,000 --> 0:03:41,000
+También podemos aumentar el modelo incluyendo
+
+67
+0:03:41.885,000 --> 0:03:43,000
+dónde queremos que se ubique el quad en el espacio.
+
+68
+0:03:44.326,000 --> 0:03:47,000
+Con este indicador con marcadores reflejantes,
+
+69
+0:03:47.395,000 --> 0:03:49,000
+puedo apuntar a dónde quiero que el quad se ubique en el espacio
+
+70
+0:03:49.619,000 --> 0:03:52,000
+una distancia fija lejos de mí.
+
+71
+0:04:07.763,000 --> 0:04:09,000
+La clave para estas maniobras acrobáticas son algoritmos,
+
+72
+0:04:10.665,000 --> 0:04:12,000
+diseñados con la ayuda de modelos matemáticos
+
+73
+0:04:13.091,000 --> 0:04:14,000
+y la teoría de control.
+
+74
+0:04:15.041,000 --> 0:04:17,000
+Vamos a decirle al quad que regrese aquí
+
+75
+0:04:17.255,000 --> 0:04:18,000
+y que deje caer la barra,
+
+76
+0:04:19.074,000 --> 0:04:2,000
+y a continuación demostraré la importancia
+
+77
+0:04:20.992,000 --> 0:04:22,000
+de entender los modelos físicos
+
+78
+0:04:23.111,000 --> 0:04:27,000
+y el funcionamiento del mundo físico.
+
+79
+0:04:37.462,000 --> 0:04:38,000
+Observen cómo el quad pierde altitud
+
+80
+0:04:39.232,000 --> 0:04:41,000
+cuando pongo esta copa con agua sobre él.
+
+81
+0:04:41.314,000 --> 0:04:43,000
+A diferencia de la barra, no incluí
+
+82
+0:04:44.115,000 --> 0:04:46,000
+el modelo matemático de la copa en el sistema.
+
+83
+0:04:46.699,000 --> 0:04:48,000
+De hecho, el sistema no sabe que la copa de agua está ahí.
+
+84
+0:04:49.618,000 --> 0:04:52,000
+Como antes, podría utilizar el puntero para ordenar al quad
+
+85
+0:04:52.91,000 --> 0:04:54,000
+donde quiero que esté en el espacio.
+
+86
+0:04:55.499,000 --> 0:05:04,000
+(Aplausos)
+
+87
+0:05:05.096,000 --> 0:05:07,000
+Bien, deben estarse preguntando,
+
+88
+0:05:07.206,000 --> 0:05:09,000
+¿por qué no se cae el agua de la copa?
+
+89
+0:05:09.715,000 --> 0:05:12,000
+Dos razones: la primera es que la gravedad actúa
+
+90
+0:05:12.926,000 --> 0:05:14,000
+en todos los objetos de la misma manera.
+
+91
+0:05:15.051,000 --> 0:05:17,000
+La segunda es que todas las hélices apuntan
+
+92
+0:05:17.515,000 --> 0:05:2,000
+en la misma dirección que la copa, apuntando hacia arriba.
+
+93
+0:05:20.642,000 --> 0:05:22,000
+Juntando estas dos razones, el resultado neto
+
+94
+0:05:23.019,000 --> 0:05:25,000
+es que todas las fuerzas laterales sobre el vaso son pequeñas
+
+95
+0:05:25.306,000 --> 0:05:27,000
+y están dominadas principalmente por efectos aerodinámicos,
+
+96
+0:05:28.091,000 --> 0:05:31,000
+los cuales a estas velocidades son insignificantes.
+
+97
+0:05:35.336,000 --> 0:05:37,000
+Y por eso no se necesita modelar la copa.
+
+98
+0:05:37.407,000 --> 0:05:4,000
+Naturalmente no se derrama, sin importar lo que haga el quad.
+
+99
+0:05:50.651,000 --> 0:05:57,000
+(Aplausos)
+
+100
+0:05:57.702,000 --> 0:06:01,000
+La lección aquí es que algunas tareas de alto rendimiento
+
+101
+0:06:01.718,000 --> 0:06:02,000
+son más fáciles que otras,
+
+102
+0:06:03.115,000 --> 0:06:05,000
+y el entender la física del problema
+
+103
+0:06:05.411,000 --> 0:06:07,000
+te dice cuáles son fáciles y cuáles son difíciles.
+
+104
+0:06:08.027,000 --> 0:06:1,000
+En este caso, llevar una copa de agua es fácil.
+
+105
+0:06:10.386,000 --> 0:06:13,000
+Equilibrar una barra es difícil.
+
+106
+0:06:14.171,000 --> 0:06:15,000
+Todos hemos escuchado historias de atletas
+
+107
+0:06:15.973,000 --> 0:06:17,000
+que realizan hazañas mientras están lesionados físicamente.
+
+108
+0:06:18.466,000 --> 0:06:19,000
+¿Puede también una máquina operar
+
+109
+0:06:19.985,000 --> 0:06:21,000
+con daño físico extremo?
+
+110
+0:06:22.636,000 --> 0:06:23,000
+La sabiduría popular dice que se necesitan
+
+111
+0:06:24.362,000 --> 0:06:27,000
+al menos cuatro pares de motores de hélices fijos para poder volar,
+
+112
+0:06:28.052,000 --> 0:06:3,000
+porque hay cuatro grados de libertad para controlar:
+
+113
+0:06:30.164,000 --> 0:06:33,000
+Viraje, cabeceo, balanceo y aceleración.
+
+114
+0:06:33.192,000 --> 0:06:36,000
+Los hexacopteros y los octocopteros, con seis y ocho hélices,
+
+115
+0:06:36.437,000 --> 0:06:37,000
+puede proporcionar redundancia,
+
+116
+0:06:37.92,000 --> 0:06:38,000
+pero los cuadricópteros son mucho más populares
+
+117
+0:06:39.909,000 --> 0:06:4,000
+porque tienen el número mínimo
+
+118
+0:06:41.724,000 --> 0:06:43,000
+de pares de hélice de motor fijo: cuatro.
+
+119
+0:06:44.2,000 --> 0:06:45,000
+O ¿no?
+
+120
+0:07:01.476,000 --> 0:07:03,000
+Si analizamos el modelo matemático de esta máquina
+
+121
+0:07:04.076,000 --> 0:07:06,000
+con solo dos hélices funcionales,
+
+122
+0:07:06.252,000 --> 0:07:12,000
+descubrimos que hay una forma poco convencional para volarlo.
+
+123
+0:07:19.98,000 --> 0:07:2,000
+Renunciamos a controlar el balanceo,
+
+124
+0:07:21.686,000 --> 0:07:24,000
+pero el viraje, el cabeceo y la aceleración todavía pueden ser controladas
+
+125
+0:07:24.756,000 --> 0:07:29,000
+con algoritmos que aprovechan esta configuración nueva.
+
+126
+0:07:33.668,000 --> 0:07:35,000
+Los modelos matemáticos nos dicen exactamente cuándo
+
+127
+0:07:36.1,000 --> 0:07:38,000
+y por qué esto es posible.
+
+128
+0:07:38.172,000 --> 0:07:4,000
+En este caso, este conocimiento nos permite diseñar
+
+129
+0:07:40.54,000 --> 0:07:42,000
+arquitecturas de máquinas novedosas
+
+130
+0:07:42.796,000 --> 0:07:46,000
+o diseñar algoritmos inteligentes que manejen con gracia el daño,
+
+131
+0:07:46.972,000 --> 0:07:47,000
+al igual que hacen los atletas humanos,
+
+132
+0:07:48.696,000 --> 0:07:51,000
+en el lugar de construir máquinas con redundancia.
+
+133
+0:07:52.519,000 --> 0:07:54,000
+No podemos evitar contener la respiración cuando observamos a
+
+134
+0:07:54.631,000 --> 0:07:56,000
+un clavadista lanzarse al agua,
+
+135
+0:07:57.068,000 --> 0:07:58,000
+o cuando un saltador está girando en el aire,
+
+136
+0:07:58.858,000 --> 0:07:59,000
+el suelo se acercaba rápidamente.
+
+137
+0:08:00.576,000 --> 0:08:02,000
+¿Será capaz el clavadista de realizar una entrada limpia?
+
+138
+0:08:03.144,000 --> 0:08:05,000
+¿El saltador podrá controlar su aterrizaje?
+
+139
+0:08:05.144,000 --> 0:08:06,000
+Supongamos que queremos que este quad
+
+140
+0:08:06.812,000 --> 0:08:08,000
+realice una vuelta triple y acabe
+
+141
+0:08:09.263,000 --> 0:08:11,000
+en el mismo punto en el que empezó.
+
+142
+0:08:11.532,000 --> 0:08:13,000
+Esta maniobra va a pasar tan rápido
+
+143
+0:08:13.879,000 --> 0:08:16,000
+que no alcanzamos a retroalimentar la posición para corregir el movimiento en la ejecución.
+
+144
+0:08:17.508,000 --> 0:08:19,000
+Simplemente no hay suficiente tiempo.
+
+145
+0:08:19.782,000 --> 0:08:22,000
+En vez de ello, lo que el quad puede hacer es realizar la maniobra a ciegas,
+
+146
+0:08:23.476,000 --> 0:08:25,000
+observar cómo termina la maniobra,
+
+147
+0:08:25.708,000 --> 0:08:27,000
+y luego usar esa información para modificar su comportamiento
+
+148
+0:08:28.132,000 --> 0:08:3,000
+para que la siguiente vez sea mejor.
+
+149
+0:08:30.421,000 --> 0:08:31,000
+Al igual que el clavadista y el saltador,
+
+150
+0:08:32.233,000 --> 0:08:33,000
+es solo a través de la práctica repetida
+
+151
+0:08:34.152,000 --> 0:08:35,000
+que la maniobra puede ser aprendida y ejecutada
+
+152
+0:08:36.077,000 --> 0:08:38,000
+al más alto nivel.
+
+153
+0:08:46.412,000 --> 0:08:5,000
+(Aplausos)
+
+154
+0:08:51.164,000 --> 0:08:54,000
+Golpear una bola en movimiento es una habilidad necesaria en muchos deportes.
+
+155
+0:08:54.636,000 --> 0:08:55,000
+¿Cómo podemos hacer que una máquina haga
+
+156
+0:08:56.431,000 --> 0:08:59,000
+lo que un atleta hace aparentemente sin esfuerzo?
+
+157
+0:09:15.943,000 --> 0:09:21,000
+(Aplausos)
+
+158
+0:09:22.542,000 --> 0:09:24,000
+Este quad tiene una raqueta sujeta en la parte superior
+
+159
+0:09:25.192,000 --> 0:09:28,000
+con un tamaño ideal como de una manzana, no es demasiado grande.
+
+160
+0:09:28.679,000 --> 0:09:31,000
+Los siguientes cálculos se realizan cada 20 milisegundos,
+
+161
+0:09:31.846,000 --> 0:09:32,000
+o 50 veces por segundo.
+
+162
+0:09:33.602,000 --> 0:09:35,000
+Primero suponemos a donde va la bola.
+
+163
+0:09:36.414,000 --> 0:09:38,000
+Luego calculamos cómo el quad debe golpear la bola
+
+164
+0:09:38.851,000 --> 0:09:41,000
+para que la regrese de donde fue arrojada.
+
+165
+0:09:41.95,000 --> 0:09:45,000
+En tercer lugar, está prevista una trayectoria que lleva el quad
+
+166
+0:09:46.406,000 --> 0:09:49,000
+desde su estado actual al punto de impacto con la bola.
+
+167
+0:09:49.43,000 --> 0:09:52,000
+En cuarto lugar, sólo ejecutamos 20 milisegundos de esta estrategia.
+
+168
+0:09:53.239,000 --> 0:09:55,000
+20 milisegundos después, se repite todo el proceso
+
+169
+0:09:56.046,000 --> 0:09:58,000
+hasta que el quad golpea la bola.
+
+170
+0:10:07.56,000 --> 0:10:09,000
+(Aplausos)
+
+171
+0:10:10.206,000 --> 0:10:13,000
+Las máquinas no sólo pueden realizar maniobras dinámicas por cuenta propia,
+
+172
+0:10:13.578,000 --> 0:10:14,000
+pueden hacerlo colectivamente.
+
+173
+0:10:15.441,000 --> 0:10:18,000
+Estos tres quads llevan cooperativamente una red
+
+174
+0:10:28.574,000 --> 0:10:33,000
+(Aplausos)
+
+175
+0:10:33.985,000 --> 0:10:35,000
+Realizan una maniobra extremadamente
+
+176
+0:10:36.182,000 --> 0:10:38,000
+dinámica y colectiva
+
+177
+0:10:38.35,000 --> 0:10:39,000
+para lanzar la pelota de vuelta a mí.
+
+178
+0:10:40.042,000 --> 0:10:43,000
+Observen que, en extensión completa, estos quads están verticales.
+
+179
+0:10:48.486,000 --> 0:10:49,000
+(Aplausos)
+
+180
+0:10:50.258,000 --> 0:10:52,000
+De hecho, cuando está completamente extendida,
+
+181
+0:10:52.545,000 --> 0:10:54,000
+es aproximadamente cinco veces mayor a lo que se siente al saltar del bungee
+
+182
+0:10:55.23,000 --> 0:10:59,000
+al final del lanzamiento.
+
+183
+0:11:03.009,000 --> 0:11:05,000
+Los algoritmos para hacer esto son muy similares
+
+184
+0:11:05.686,000 --> 0:11:08,000
+al de usar un solo quad para que golpee la bola hacia mí.
+
+185
+0:11:09.07,000 --> 0:11:11,000
+Los modelos matemáticos se utilizan continuamente para replanificar
+
+186
+0:11:11.934,000 --> 0:11:15,000
+una estrategia cooperativa 50 veces por segundo.
+
+187
+0:11:16.449,000 --> 0:11:17,000
+Todo lo que hemos visto hasta ahora ha sido
+
+188
+0:11:18.326,000 --> 0:11:2,000
+acerca de las máquinas y sus capacidades.
+
+189
+0:11:20.789,000 --> 0:11:23,000
+¿Qué sucede cuando juntamos este atletismo de la máquina
+
+190
+0:11:23.804,000 --> 0:11:24,000
+con la de un ser humano?
+
+191
+0:11:25.58,000 --> 0:11:28,000
+Lo que tengo delante de mí es un sensor de gestos comercial
+
+192
+0:11:29.385,000 --> 0:11:3,000
+utilizado principalmente para jugar.
+
+193
+0:11:30.694,000 --> 0:11:31,000
+Puede reconocer lo que hacen las distintas partes del cuerpo
+
+194
+0:11:32.498,000 --> 0:11:34,000
+en tiempo real.
+
+195
+0:11:34.546,000 --> 0:11:36,000
+Similarmente al puntero que utilicé antes,
+
+196
+0:11:36.662,000 --> 0:11:38,000
+podemos utilizar esto como entrada al sistema.
+
+197
+0:11:39.454,000 --> 0:11:41,000
+Ahora tenemos una forma natural de interactuar
+
+198
+0:11:41.85,000 --> 0:11:45,000
+con el atletismo en bruto de estos quads con mis gestos.
+
+199
+0:12:22.453,000 --> 0:12:26,000
+(Aplausos)
+
+200
+0:12:35.982,000 --> 0:12:39,000
+La interacción no tiene que ser virtual, puede ser física.
+
+201
+0:12:39.989,000 --> 0:12:4,000
+Tomemos como ejemplo este quad.
+
+202
+0:12:41.714,000 --> 0:12:43,000
+Trata de permanecer en un punto fijo en el espacio.
+
+203
+0:12:44.342,000 --> 0:12:47,000
+Si trato de moverlo, lucha
+
+204
+0:12:48.179,000 --> 0:12:52,000
+y se regresa a donde quiere estar.
+
+205
+0:12:52.334,000 --> 0:12:55,000
+Sin embargo, podemos cambiar este comportamiento.
+
+206
+0:12:55.373,000 --> 0:12:56,000
+Podemos utilizar modelos matemáticos
+
+207
+0:12:57.072,000 --> 0:13:,000
+para estimar la fuerza que estoy aplicando al quad.
+
+208
+0:13:00.205,000 --> 0:13:03,000
+Una vez que sabemos esta fuerza, también podemos cambiar las leyes de la física,
+
+209
+0:13:03.443,000 --> 0:13:07,000
+en cuanto al quad, por supuesto.
+
+210
+0:13:07.942,000 --> 0:13:09,000
+Aquí el quad se comporta como si estuviera
+
+211
+0:13:10.205,000 --> 0:13:14,000
+en un fluido viscoso.
+
+212
+0:13:14.57,000 --> 0:13:16,000
+Ahora tenemos una manera íntima
+
+213
+0:13:16.744,000 --> 0:13:17,000
+de interactuar con una máquina.
+
+214
+0:13:18.593,000 --> 0:13:2,000
+Voy a utilizar esta nueva funcionalidad para ubicar
+
+215
+0:13:21.099,000 --> 0:13:23,000
+Este quad con cámara a la posición apropiada
+
+216
+0:13:23.676,000 --> 0:13:26,000
+para filmar el resto de esta demostración.
+
+217
+0:13:36.222,000 --> 0:13:38,000
+Así podemos interactuar físicamente con estos quads
+
+218
+0:13:38.99,000 --> 0:13:4,000
+y podemos cambiar las leyes de la física.
+
+219
+0:13:41.393,000 --> 0:13:43,000
+Vamos a divertirnos un poco con esto.
+
+220
+0:13:43.706,000 --> 0:13:44,000
+Para lo que veremos a continuación, estos quads
+
+221
+0:13:45.41,000 --> 0:13:48,000
+inicialmente se comportarán como si estuvieran en Plutón.
+
+222
+0:13:48.906,000 --> 0:13:5,000
+Conforme pase el tiempo, se incrementará la gravedad
+
+223
+0:13:51.218,000 --> 0:13:53,000
+hasta que estemos de vuelta en el planeta Tierra,
+
+224
+0:13:53.338,000 --> 0:13:54,000
+pero les aseguro que no iremos allá.
+
+225
+0:13:55.057,000 --> 0:13:58,000
+Bueno, aquí va.
+
+226
+0:14:05.667,000 --> 0:14:08,000
+(Risas)
+
+227
+0:14:34.778,000 --> 0:14:37,000
+(Risas)
+
+228
+0:14:37.986,000 --> 0:14:4,000
+(Aplausos)
+
+229
+0:14:41.372,000 --> 0:14:42,000
+¡Fiu!
+
+230
+0:14:46.779,000 --> 0:14:47,000
+Todos están pensando ahora,
+
+231
+0:14:48.296,000 --> 0:14:49,000
+estos chicos se divierten demasiado,
+
+232
+0:14:50.271,000 --> 0:14:52,000
+y probablemente también se estén preguntando,
+
+233
+0:14:52.35,000 --> 0:14:55,000
+¿por qué exactamente están construyendo máquinas atletas?
+
+234
+0:14:56.286,000 --> 0:14:58,000
+Algunos conjeturaran que el rol del juego en el reino animal
+
+235
+0:14:58.938,000 --> 0:15:,000
+es desarrollar habilidades y capacidades.
+
+236
+0:15:01.69,000 --> 0:15:03,000
+Otros piensan que tiene más que ver con una función social,
+
+237
+0:15:03.756,000 --> 0:15:04,000
+que se utiliza para unir el grupo.
+
+238
+0:15:05.43,000 --> 0:15:08,000
+De la misma manera, utilizamos la analogía del deporte y el atletismo
+
+239
+0:15:08.963,000 --> 0:15:1,000
+para crear nuevos algoritmos para las máquinas
+
+240
+0:15:11.042,000 --> 0:15:13,000
+para llevarlas a sus límites.
+
+241
+0:15:13.189,000 --> 0:15:16,000
+¿Qué impacto tendrá la velocidad de las máquinas en nuestra forma de vida?
+
+242
+0:15:16.866,000 --> 0:15:18,000
+Como todas nuestras creaciones e innovaciones pasadas,
+
+243
+0:15:19.255,000 --> 0:15:21,000
+se pueden utilizar para mejorar la condición humana
+
+244
+0:15:22.082,000 --> 0:15:24,000
+o pueden ser mal usadas y abusadas.
+
+245
+0:15:24.583,000 --> 0:15:25,000
+Esta no es una opción técnica a la que nos enfrentamos;
+
+246
+0:15:26.506,000 --> 0:15:27,000
+es social.
+
+247
+0:15:28.261,000 --> 0:15:29,000
+Tomemos la decisión correcta,
+
+248
+0:15:29.651,000 --> 0:15:31,000
+la decisión que saca lo mejor en el futuro de las máquinas,
+
+249
+0:15:32.056,000 --> 0:15:33,000
+al igual que el atletismo en los deportes
+
+250
+0:15:33.868,000 --> 0:15:35,000
+puede sacar lo mejor de nosotros.
+
+251
+0:15:36.029,000 --> 0:15:39,000
+Permítanme presentarles a los magos detrás de la cortina verde.
+
+252
+0:15:39.479,000 --> 0:15:41,000
+Son los miembros actuales del equipo de investigación de Flying Machine Arena.
+
+253
+0:15:42.379,000 --> 0:15:46,000
+(Aplausos)
+
+254
+0:15:47.148,000 --> 0:15:5,000
+Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+255
+0:15:50.194,000 --> 0:15:52,000
+Sergei Lupashin, Mark Muller y Robin Ritz.
+
+256
+0:15:53.018,000 --> 0:15:54,000
+No les pierdan la pista, están destinados para grandes cosas.
+
+257
+0:15:54.95,000 --> 0:15:55,000
+Gracias.
+
+258
+0:15:56.128,000 --> 0:16:02,000
+(Aplausos)
+

@@ -1,0 +1,712 @@
+1
+0:00:12.811,000 --> 0:00:15,000
+We've evolved with tools, and tools have evolved with us.
+
+2
+0:00:16.388,000 --> 0:00:21,000
+Our ancestors created these hand axes 1.5 million years ago,
+
+3
+0:00:21.431,000 --> 0:00:24,000
+shaping them to not only fit the task at hand
+
+4
+0:00:24.477,000 --> 0:00:25,000
+but also their hand.
+
+5
+0:00:26.747,000 --> 0:00:27,000
+However, over the years,
+
+6
+0:00:28.351,000 --> 0:00:3,000
+tools have become more and more specialized.
+
+7
+0:00:31.293,000 --> 0:00:34,000
+These sculpting tools have evolved through their use,
+
+8
+0:00:35.154,000 --> 0:00:38,000
+and each one has a different form which matches its function.
+
+9
+0:00:38.74,000 --> 0:00:4,000
+And they leverage the dexterity of our hands
+
+10
+0:00:41.432,000 --> 0:00:44,000
+in order to manipulate things with much more precision.
+
+11
+0:00:45.338,000 --> 0:00:48,000
+But as tools have become more and more complex,
+
+12
+0:00:48.428,000 --> 0:00:51,000
+we need more complex controls to control them.
+
+13
+0:00:52.714,000 --> 0:00:56,000
+And so designers have become very adept at creating interfaces
+
+14
+0:00:57.182,000 --> 0:01:,000
+that allow you to manipulate parameters while you're attending to other things,
+
+15
+0:01:00.944,000 --> 0:01:02,000
+such as taking a photograph and changing the focus
+
+16
+0:01:03.847,000 --> 0:01:04,000
+or the aperture.
+
+17
+0:01:05.918,000 --> 0:01:09,000
+But the computer has fundamentally changed the way we think about tools
+
+18
+0:01:10.161,000 --> 0:01:12,000
+because computation is dynamic.
+
+19
+0:01:12.564,000 --> 0:01:14,000
+So it can do a million different things
+
+20
+0:01:14.739,000 --> 0:01:16,000
+and run a million different applications.
+
+21
+0:01:17.112,000 --> 0:01:2,000
+However, computers have the same static physical form
+
+22
+0:01:20.881,000 --> 0:01:21,000
+for all of these different applications
+
+23
+0:01:22.841,000 --> 0:01:24,000
+and the same static interface elements as well.
+
+24
+0:01:25.976,000 --> 0:01:27,000
+And I believe that this is fundamentally a problem,
+
+25
+0:01:28.42,000 --> 0:01:3,000
+because it doesn't really allow us to interact with our hands
+
+26
+0:01:31.44,000 --> 0:01:34,000
+and capture the rich dexterity that we have in our bodies.
+
+27
+0:01:36.026,000 --> 0:01:4,000
+And my belief is that, then, we must need new types of interfaces
+
+28
+0:01:40.586,000 --> 0:01:43,000
+that can capture these rich abilities that we have
+
+29
+0:01:44.369,000 --> 0:01:46,000
+and that can physically adapt to us
+
+30
+0:01:46.763,000 --> 0:01:48,000
+and allow us to interact in new ways.
+
+31
+0:01:49.037,000 --> 0:01:51,000
+And so that's what I've been doing at the MIT Media Lab
+
+32
+0:01:51.648,000 --> 0:01:52,000
+and now at Stanford.
+
+33
+0:01:53.901,000 --> 0:01:56,000
+So with my colleagues, Daniel Leithinger and Hiroshi Ishii,
+
+34
+0:01:57.536,000 --> 0:01:58,000
+we created inFORM,
+
+35
+0:01:58.949,000 --> 0:02:,000
+where the interface can actually come off the screen
+
+36
+0:02:01.471,000 --> 0:02:03,000
+and you can physically manipulate it.
+
+37
+0:02:03.771,000 --> 0:02:05,000
+Or you can visualize 3D information physically
+
+38
+0:02:06.538,000 --> 0:02:09,000
+and touch it and feel it to understand it in new ways.
+
+39
+0:02:15.889,000 --> 0:02:19,000
+Or you can interact through gestures and direct deformations
+
+40
+0:02:19.989,000 --> 0:02:21,000
+to sculpt digital clay.
+
+41
+0:02:26.474,000 --> 0:02:29,000
+Or interface elements can arise out of the surface
+
+42
+0:02:29.579,000 --> 0:02:3,000
+and change on demand.
+
+43
+0:02:30.975,000 --> 0:02:32,000
+And the idea is that for each individual application,
+
+44
+0:02:33.507,000 --> 0:02:36,000
+the physical form can be matched to the application.
+
+45
+0:02:37.196,000 --> 0:02:39,000
+And I believe this represents a new way
+
+46
+0:02:39.325,000 --> 0:02:4,000
+that we can interact with information,
+
+47
+0:02:41.299,000 --> 0:02:42,000
+by making it physical.
+
+48
+0:02:43.142,000 --> 0:02:45,000
+So the question is, how can we use this?
+
+49
+0:02:45.81,000 --> 0:02:48,000
+Traditionally, urban planners and architects build physical models
+
+50
+0:02:49.524,000 --> 0:02:51,000
+of cities and buildings to better understand them.
+
+51
+0:02:52.358,000 --> 0:02:56,000
+So with Tony Tang at the Media Lab, we created an interface built on inFORM
+
+52
+0:02:56.597,000 --> 0:03:,000
+to allow urban planners to design and view entire cities.
+
+53
+0:03:01.604,000 --> 0:03:05,000
+And now you can walk around it, but it's dynamic, it's physical,
+
+54
+0:03:05.885,000 --> 0:03:06,000
+and you can also interact directly.
+
+55
+0:03:07.609,000 --> 0:03:08,000
+Or you can look at different views,
+
+56
+0:03:09.371,000 --> 0:03:11,000
+such as population or traffic information,
+
+57
+0:03:12.212,000 --> 0:03:13,000
+but it's made physical.
+
+58
+0:03:14.996,000 --> 0:03:17,000
+We also believe that these dynamic shape displays can really change
+
+59
+0:03:18.83,000 --> 0:03:2,000
+the ways that we remotely collaborate with people.
+
+60
+0:03:21.814,000 --> 0:03:23,000
+So when we're working together in person,
+
+61
+0:03:24.141,000 --> 0:03:25,000
+I'm not only looking at your face
+
+62
+0:03:25.823,000 --> 0:03:28,000
+but I'm also gesturing and manipulating objects,
+
+63
+0:03:28.885,000 --> 0:03:31,000
+and that's really hard to do when you're using tools like Skype.
+
+64
+0:03:33.905,000 --> 0:03:35,000
+And so using inFORM, you can reach out from the screen
+
+65
+0:03:36.915,000 --> 0:03:38,000
+and manipulate things at a distance.
+
+66
+0:03:39.051,000 --> 0:03:42,000
+So we used the pins of the display to represent people's hands,
+
+67
+0:03:42.25,000 --> 0:03:46,000
+allowing them to actually touch and manipulate objects at a distance.
+
+68
+0:03:50.519,000 --> 0:03:54,000
+And you can also manipulate and collaborate on 3D data sets as well,
+
+69
+0:03:54.817,000 --> 0:03:57,000
+so you can gesture around them as well as manipulate them.
+
+70
+0:03:58.51,000 --> 0:04:02,000
+And that allows people to collaborate on these new types of 3D information
+
+71
+0:04:02.924,000 --> 0:04:05,000
+in a richer way than might be possible with traditional tools.
+
+72
+0:04:07.87,000 --> 0:04:09,000
+And so you can also bring in existing objects,
+
+73
+0:04:10.647,000 --> 0:04:13,000
+and those will be captured on one side and transmitted to the other.
+
+74
+0:04:13.885,000 --> 0:04:15,000
+Or you can have an object that's linked between two places,
+
+75
+0:04:16.695,000 --> 0:04:18,000
+so as I move a ball on one side,
+
+76
+0:04:18.803,000 --> 0:04:19,000
+the ball moves on the other as well.
+
+77
+0:04:22.278,000 --> 0:04:25,000
+And so we do this by capturing the remote user
+
+78
+0:04:25.405,000 --> 0:04:27,000
+using a depth-sensing camera like a Microsoft Kinect.
+
+79
+0:04:28.758,000 --> 0:04:31,000
+Now, you might be wondering how does this all work,
+
+80
+0:04:31.799,000 --> 0:04:34,000
+and essentially, what it is, is 900 linear actuators
+
+81
+0:04:35.474,000 --> 0:04:37,000
+that are connected to these mechanical linkages
+
+82
+0:04:37.784,000 --> 0:04:4,000
+that allow motion down here to be propagated in these pins above.
+
+83
+0:04:41.554,000 --> 0:04:44,000
+So it's not that complex compared to what's going on at CERN,
+
+84
+0:04:45.145,000 --> 0:04:47,000
+but it did take a long time for us to build it.
+
+85
+0:04:47.495,000 --> 0:04:49,000
+And so we started with a single motor,
+
+86
+0:04:49.774,000 --> 0:04:5,000
+a single linear actuator,
+
+87
+0:04:51.816,000 --> 0:04:54,000
+and then we had to design a custom circuit board to control them.
+
+88
+0:04:55.003,000 --> 0:04:57,000
+And then we had to make a lot of them.
+
+89
+0:04:57.079,000 --> 0:05:,000
+And so the problem with having 900 of something
+
+90
+0:05:00.717,000 --> 0:05:03,000
+is that you have to do every step 900 times.
+
+91
+0:05:03.861,000 --> 0:05:05,000
+And so that meant that we had a lot of work to do.
+
+92
+0:05:06.242,000 --> 0:05:09,000
+So we sort of set up a mini-sweatshop in the Media Lab
+
+93
+0:05:09.998,000 --> 0:05:12,000
+and brought undergrads in and convinced them to do "research" --
+
+94
+0:05:13.734,000 --> 0:05:14,000
+(Laughter)
+
+95
+0:05:14.772,000 --> 0:05:17,000
+and had late nights watching movies, eating pizza
+
+96
+0:05:17.814,000 --> 0:05:18,000
+and screwing in thousands of screws.
+
+97
+0:05:19.666,000 --> 0:05:2,000
+You know -- research.
+
+98
+0:05:20.888,000 --> 0:05:21,000
+(Laughter)
+
+99
+0:05:22.459,000 --> 0:05:25,000
+But anyway, I think that we were really excited by the things
+
+100
+0:05:25.801,000 --> 0:05:26,000
+that inFORM allowed us to do.
+
+101
+0:05:27.521,000 --> 0:05:31,000
+Increasingly, we're using mobile devices, and we interact on the go.
+
+102
+0:05:31.745,000 --> 0:05:33,000
+But mobile devices, just like computers,
+
+103
+0:05:34.448,000 --> 0:05:36,000
+are used for so many different applications.
+
+104
+0:05:36.783,000 --> 0:05:37,000
+So you use them to talk on the phone,
+
+105
+0:05:38.8,000 --> 0:05:41,000
+to surf the web, to play games, to take pictures
+
+106
+0:05:41.98,000 --> 0:05:42,000
+or even a million different things.
+
+107
+0:05:43.713,000 --> 0:05:45,000
+But again, they have the same static physical form
+
+108
+0:05:46.721,000 --> 0:05:48,000
+for each of these applications.
+
+109
+0:05:48.863,000 --> 0:05:51,000
+And so we wanted to know how can we take some of the same interactions
+
+110
+0:05:52.25,000 --> 0:05:53,000
+that we developed for inFORM
+
+111
+0:05:53.957,000 --> 0:05:54,000
+and bring them to mobile devices.
+
+112
+0:05:56.427,000 --> 0:05:59,000
+So at Stanford, we created this haptic edge display,
+
+113
+0:06:00.098,000 --> 0:06:03,000
+which is a mobile device with an array of linear actuators
+
+114
+0:06:03.299,000 --> 0:06:04,000
+that can change shape,
+
+115
+0:06:04.67,000 --> 0:06:07,000
+so you can feel in your hand where you are as you're reading a book.
+
+116
+0:06:09.058,000 --> 0:06:12,000
+Or you can feel in your pocket new types of tactile sensations
+
+117
+0:06:12.819,000 --> 0:06:13,000
+that are richer than the vibration.
+
+118
+0:06:14.645,000 --> 0:06:17,000
+Or buttons can emerge from the side that allow you to interact
+
+119
+0:06:17.904,000 --> 0:06:18,000
+where you want them to be.
+
+120
+0:06:21.334,000 --> 0:06:24,000
+Or you can play games and have actual buttons.
+
+121
+0:06:25.786,000 --> 0:06:26,000
+And so we were able to do this
+
+122
+0:06:27.326,000 --> 0:06:31,000
+by embedding 40 small, tiny linear actuators inside the device,
+
+123
+0:06:32.104,000 --> 0:06:34,000
+and that allow you not only to touch them
+
+124
+0:06:34.183,000 --> 0:06:35,000
+but also back-drive them as well.
+
+125
+0:06:36.911,000 --> 0:06:4,000
+But we've also looked at other ways to create more complex shape change.
+
+126
+0:06:41.113,000 --> 0:06:44,000
+So we've used pneumatic actuation to create a morphing device
+
+127
+0:06:44.529,000 --> 0:06:47,000
+where you can go from something that looks a lot like a phone ...
+
+128
+0:06:48.418,000 --> 0:06:5,000
+to a wristband on the go.
+
+129
+0:06:51.72,000 --> 0:06:53,000
+And so together with Ken Nakagaki at the Media Lab,
+
+130
+0:06:54.583,000 --> 0:06:56,000
+we created this new high-resolution version
+
+131
+0:06:57.161,000 --> 0:07:02,000
+that uses an array of servomotors to change from interactive wristband
+
+132
+0:07:03.135,000 --> 0:07:06,000
+to a touch-input device
+
+133
+0:07:06.287,000 --> 0:07:07,000
+to a phone.
+
+134
+0:07:07.556,000 --> 0:07:08,000
+(Laughter)
+
+135
+0:07:10.104,000 --> 0:07:12,000
+And we're also interested in looking at ways
+
+136
+0:07:12.3,000 --> 0:07:14,000
+that users can actually deform the interfaces
+
+137
+0:07:14.951,000 --> 0:07:16,000
+to shape them into the devices that they want to use.
+
+138
+0:07:17.863,000 --> 0:07:19,000
+So you can make something like a game controller,
+
+139
+0:07:20.295,000 --> 0:07:22,000
+and then the system will understand what shape it's in
+
+140
+0:07:22.949,000 --> 0:07:23,000
+and change to that mode.
+
+141
+0:07:26.052,000 --> 0:07:27,000
+So, where does this point?
+
+142
+0:07:27.648,000 --> 0:07:28,000
+How do we move forward from here?
+
+143
+0:07:29.6,000 --> 0:07:31,000
+I think, really, where we are today
+
+144
+0:07:32.219,000 --> 0:07:34,000
+is in this new age of the Internet of Things,
+
+145
+0:07:34.997,000 --> 0:07:35,000
+where we have computers everywhere --
+
+146
+0:07:36.812,000 --> 0:07:38,000
+they're in our pockets, they're in our walls,
+
+147
+0:07:38.954,000 --> 0:07:41,000
+they're in almost every device that you'll buy in the next five years.
+
+148
+0:07:42.544,000 --> 0:07:44,000
+But what if we stopped thinking about devices
+
+149
+0:07:45.449,000 --> 0:07:47,000
+and think instead about environments?
+
+150
+0:07:47.867,000 --> 0:07:49,000
+And so how can we have smart furniture
+
+151
+0:07:50.403,000 --> 0:07:53,000
+or smart rooms or smart environments
+
+152
+0:07:53.743,000 --> 0:07:56,000
+or cities that can adapt to us physically,
+
+153
+0:07:56.859,000 --> 0:08:,000
+and allow us to do new ways of collaborating with people
+
+154
+0:08:01.114,000 --> 0:08:03,000
+and doing new types of tasks?
+
+155
+0:08:03.376,000 --> 0:08:06,000
+So for the Milan Design Week, we created TRANSFORM,
+
+156
+0:08:06.784,000 --> 0:08:09,000
+which is an interactive table-scale version of these shape displays,
+
+157
+0:08:10.632,000 --> 0:08:13,000
+which can move physical objects on the surface; for example,
+
+158
+0:08:13.839,000 --> 0:08:15,000
+reminding you to take your keys.
+
+159
+0:08:16.12,000 --> 0:08:2,000
+But it can also transform to fit different ways of interacting.
+
+160
+0:08:20.626,000 --> 0:08:21,000
+So if you want to work,
+
+161
+0:08:21.967,000 --> 0:08:23,000
+then it can change to sort of set up your work system.
+
+162
+0:08:24.983,000 --> 0:08:25,000
+And so as you bring a device over,
+
+163
+0:08:26.958,000 --> 0:08:28,000
+it creates all the affordances you need
+
+164
+0:08:29.72,000 --> 0:08:33,000
+and brings other objects to help you accomplish those goals.
+
+165
+0:08:37.139,000 --> 0:08:38,000
+So, in conclusion,
+
+166
+0:08:38.724,000 --> 0:08:41,000
+I really think that we need to think about a new, fundamentally different way
+
+167
+0:08:42.747,000 --> 0:08:44,000
+of interacting with computers.
+
+168
+0:08:45.551,000 --> 0:08:47,000
+We need computers that can physically adapt to us
+
+169
+0:08:48.529,000 --> 0:08:5,000
+and adapt to the ways that we want to use them
+
+170
+0:08:51.154,000 --> 0:08:55,000
+and really harness the rich dexterity that we have of our hands,
+
+171
+0:08:55.725,000 --> 0:08:59,000
+and our ability to think spatially about information by making it physical.
+
+172
+0:09:00.663,000 --> 0:09:03,000
+But looking forward, I think we need to go beyond this, beyond devices,
+
+173
+0:09:04.683,000 --> 0:09:07,000
+to really think about new ways that we can bring people together,
+
+174
+0:09:08.1,000 --> 0:09:11,000
+and bring our information into the world,
+
+175
+0:09:11.142,000 --> 0:09:14,000
+and think about smart environments that can adapt to us physically.
+
+176
+0:09:15.119,000 --> 0:09:16,000
+So with that, I will leave you.
+
+177
+0:09:16.707,000 --> 0:09:17,000
+Thank you very much.
+
+178
+0:09:17.882,000 --> 0:09:2,000
+(Applause)
+

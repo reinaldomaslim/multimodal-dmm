@@ -1,0 +1,972 @@
+1
+0:00:15.26,000 --> 0:00:18,000
+The idea behind the Stuxnet computer worm
+
+2
+0:00:18.26,000 --> 0:00:2,000
+is actually quite simple.
+
+3
+0:00:20.26,000 --> 0:00:23,000
+We don't want Iran to get the bomb.
+
+4
+0:00:23.26,000 --> 0:00:26,000
+Their major asset for developing nuclear weapons
+
+5
+0:00:26.26,000 --> 0:00:3,000
+is the Natanz uranium enrichment facility.
+
+6
+0:00:30.26,000 --> 0:00:32,000
+The gray boxes that you see,
+
+7
+0:00:32.26,000 --> 0:00:35,000
+these are real-time control systems.
+
+8
+0:00:35.26,000 --> 0:00:38,000
+Now if we manage to compromise these systems
+
+9
+0:00:38.26,000 --> 0:00:41,000
+that control drive speeds and valves,
+
+10
+0:00:41.26,000 --> 0:00:44,000
+we can actually cause a lot of problems
+
+11
+0:00:44.26,000 --> 0:00:46,000
+with the centrifuge.
+
+12
+0:00:46.26,000 --> 0:00:48,000
+The gray boxes don't run Windows software;
+
+13
+0:00:48.26,000 --> 0:00:51,000
+they are a completely different technology.
+
+14
+0:00:51.26,000 --> 0:00:53,000
+But if we manage
+
+15
+0:00:53.26,000 --> 0:00:56,000
+to place a good Windows virus
+
+16
+0:00:56.26,000 --> 0:00:58,000
+on a notebook
+
+17
+0:00:58.26,000 --> 0:01:,000
+that is used by a maintenance engineer
+
+18
+0:01:00.26,000 --> 0:01:03,000
+to configure this gray box,
+
+19
+0:01:03.26,000 --> 0:01:05,000
+then we are in business.
+
+20
+0:01:05.26,000 --> 0:01:08,000
+And this is the plot behind Stuxnet.
+
+21
+0:01:08.26,000 --> 0:01:13,000
+So we start with a Windows dropper.
+
+22
+0:01:13.26,000 --> 0:01:16,000
+The payload goes onto the gray box,
+
+23
+0:01:16.26,000 --> 0:01:18,000
+damages the centrifuge,
+
+24
+0:01:18.26,000 --> 0:01:2,000
+and the Iranian nuclear program is delayed --
+
+25
+0:01:20.26,000 --> 0:01:22,000
+mission accomplished.
+
+26
+0:01:22.26,000 --> 0:01:24,000
+That's easy, huh?
+
+27
+0:01:24.26,000 --> 0:01:27,000
+I want to tell you how we found that out.
+
+28
+0:01:27.26,000 --> 0:01:3,000
+When we started our research on Stuxnet six months ago,
+
+29
+0:01:30.26,000 --> 0:01:33,000
+it was completely unknown what the purpose of this thing was.
+
+30
+0:01:33.26,000 --> 0:01:35,000
+The only thing that was known
+
+31
+0:01:35.26,000 --> 0:01:38,000
+is it's very, very complex on the Windows part, the dropper part,
+
+32
+0:01:38.26,000 --> 0:01:41,000
+used multiple zero-day vulnerabilities.
+
+33
+0:01:41.26,000 --> 0:01:44,000
+And it seemed to want to do something
+
+34
+0:01:44.26,000 --> 0:01:46,000
+with these gray boxes, these real-time control systems.
+
+35
+0:01:46.26,000 --> 0:01:48,000
+So that got our attention,
+
+36
+0:01:48.26,000 --> 0:01:5,000
+and we started a lab project
+
+37
+0:01:50.26,000 --> 0:01:54,000
+where we infected our environment with Stuxnet
+
+38
+0:01:54.26,000 --> 0:01:56,000
+and checked this thing out.
+
+39
+0:01:56.26,000 --> 0:01:59,000
+And then some very funny things happened.
+
+40
+0:01:59.26,000 --> 0:02:02,000
+Stuxnet behaved like a lab rat
+
+41
+0:02:02.26,000 --> 0:02:05,000
+that didn't like our cheese --
+
+42
+0:02:05.26,000 --> 0:02:07,000
+sniffed, but didn't want to eat.
+
+43
+0:02:07.26,000 --> 0:02:09,000
+Didn't make sense to me.
+
+44
+0:02:09.26,000 --> 0:02:12,000
+And after we experimented with different flavors of cheese,
+
+45
+0:02:12.26,000 --> 0:02:16,000
+I realized, well, this is a directed attack.
+
+46
+0:02:16.26,000 --> 0:02:18,000
+It's completely directed.
+
+47
+0:02:18.26,000 --> 0:02:2,000
+The dropper is prowling actively
+
+48
+0:02:20.26,000 --> 0:02:22,000
+on the gray box
+
+49
+0:02:22.26,000 --> 0:02:25,000
+if a specific configuration is found,
+
+50
+0:02:25.26,000 --> 0:02:29,000
+and even if the actual program code that it's trying to infect
+
+51
+0:02:29.26,000 --> 0:02:31,000
+is actually running on that target.
+
+52
+0:02:31.26,000 --> 0:02:34,000
+And if not, Stuxnet does nothing.
+
+53
+0:02:34.26,000 --> 0:02:36,000
+So that really got my attention,
+
+54
+0:02:36.26,000 --> 0:02:38,000
+and we started to work on this
+
+55
+0:02:38.26,000 --> 0:02:4,000
+nearly around the clock,
+
+56
+0:02:40.26,000 --> 0:02:43,000
+because I thought, "Well, we don't know what the target is.
+
+57
+0:02:43.26,000 --> 0:02:45,000
+It could be, let's say for example,
+
+58
+0:02:45.26,000 --> 0:02:47,000
+a U.S. power plant,
+
+59
+0:02:47.26,000 --> 0:02:49,000
+or a chemical plant in Germany.
+
+60
+0:02:49.26,000 --> 0:02:52,000
+So we better find out what the target is soon."
+
+61
+0:02:52.26,000 --> 0:02:54,000
+So we extracted and decompiled
+
+62
+0:02:54.26,000 --> 0:02:56,000
+the attack code,
+
+63
+0:02:56.26,000 --> 0:02:59,000
+and we discovered that it's structured in two digital bombs --
+
+64
+0:02:59.26,000 --> 0:03:02,000
+a smaller one and a bigger one.
+
+65
+0:03:02.26,000 --> 0:03:06,000
+And we also saw that they are very professionally engineered
+
+66
+0:03:06.26,000 --> 0:03:1,000
+by people who obviously had all insider information.
+
+67
+0:03:10.26,000 --> 0:03:12,000
+They knew all the bits and bites
+
+68
+0:03:12.26,000 --> 0:03:14,000
+that they had to attack.
+
+69
+0:03:14.26,000 --> 0:03:17,000
+They probably even know the shoe size of the operator.
+
+70
+0:03:17.26,000 --> 0:03:19,000
+So they know everything.
+
+71
+0:03:19.26,000 --> 0:03:22,000
+And if you have heard that the dropper of Stuxnet
+
+72
+0:03:22.26,000 --> 0:03:24,000
+is complex and high-tech,
+
+73
+0:03:24.26,000 --> 0:03:26,000
+let me tell you this:
+
+74
+0:03:26.26,000 --> 0:03:28,000
+the payload is rocket science.
+
+75
+0:03:28.26,000 --> 0:03:3,000
+It's way above everything
+
+76
+0:03:30.26,000 --> 0:03:33,000
+that we have ever seen before.
+
+77
+0:03:33.26,000 --> 0:03:36,000
+Here you see a sample of this actual attack code.
+
+78
+0:03:36.26,000 --> 0:03:38,000
+We are talking about --
+
+79
+0:03:38.26,000 --> 0:03:41,000
+around about 15,000 lines of code.
+
+80
+0:03:41.26,000 --> 0:03:44,000
+Looks pretty much like old-style assembly language.
+
+81
+0:03:44.26,000 --> 0:03:46,000
+And I want to tell you how we were able
+
+82
+0:03:46.26,000 --> 0:03:48,000
+to make sense out of this code.
+
+83
+0:03:48.26,000 --> 0:03:51,000
+So what we were looking for is, first of all, system function calls,
+
+84
+0:03:51.26,000 --> 0:03:53,000
+because we know what they do.
+
+85
+0:03:53.26,000 --> 0:03:57,000
+And then we were looking for timers and data structures
+
+86
+0:03:57.26,000 --> 0:03:59,000
+and trying to relate them to the real world --
+
+87
+0:03:59.26,000 --> 0:04:01,000
+to potential real world targets.
+
+88
+0:04:01.26,000 --> 0:04:04,000
+So we do need target theories
+
+89
+0:04:04.26,000 --> 0:04:07,000
+that we can prove or disprove.
+
+90
+0:04:07.26,000 --> 0:04:09,000
+In order to get target theories,
+
+91
+0:04:09.26,000 --> 0:04:11,000
+we remember
+
+92
+0:04:11.26,000 --> 0:04:13,000
+that it's definitely hardcore sabotage,
+
+93
+0:04:13.26,000 --> 0:04:15,000
+it must be a high-value target
+
+94
+0:04:15.26,000 --> 0:04:18,000
+and it is most likely located in Iran,
+
+95
+0:04:18.26,000 --> 0:04:22,000
+because that's where most of the infections had been reported.
+
+96
+0:04:22.26,000 --> 0:04:25,000
+Now you don't find several thousand targets in that area.
+
+97
+0:04:25.26,000 --> 0:04:27,000
+It basically boils down
+
+98
+0:04:27.26,000 --> 0:04:29,000
+to the Bushehr nuclear power plant
+
+99
+0:04:29.26,000 --> 0:04:31,000
+and to the Natanz fuel enrichment plant.
+
+100
+0:04:31.26,000 --> 0:04:33,000
+So I told my assistant,
+
+101
+0:04:33.26,000 --> 0:04:36,000
+"Get me a list of all centrifuge and power plant experts from our client base."
+
+102
+0:04:36.26,000 --> 0:04:38,000
+And I phoned them up and picked their brain
+
+103
+0:04:38.26,000 --> 0:04:4,000
+in an effort to match their expertise
+
+104
+0:04:40.26,000 --> 0:04:43,000
+with what we found in code and data.
+
+105
+0:04:43.26,000 --> 0:04:45,000
+And that worked pretty well.
+
+106
+0:04:45.26,000 --> 0:04:47,000
+So we were able to associate
+
+107
+0:04:47.26,000 --> 0:04:49,000
+the small digital warhead
+
+108
+0:04:49.26,000 --> 0:04:51,000
+with the rotor control.
+
+109
+0:04:51.26,000 --> 0:04:54,000
+The rotor is that moving part within the centrifuge,
+
+110
+0:04:54.26,000 --> 0:04:56,000
+that black object that you see.
+
+111
+0:04:56.26,000 --> 0:04:59,000
+And if you manipulate the speed of this rotor,
+
+112
+0:04:59.26,000 --> 0:05:01,000
+you are actually able to crack the rotor
+
+113
+0:05:01.26,000 --> 0:05:05,000
+and eventually even have the centrifuge explode.
+
+114
+0:05:05.26,000 --> 0:05:07,000
+What we also saw
+
+115
+0:05:07.26,000 --> 0:05:09,000
+is that the goal of the attack
+
+116
+0:05:09.26,000 --> 0:05:12,000
+was really to do it slowly and creepy --
+
+117
+0:05:12.26,000 --> 0:05:14,000
+obviously in an effort
+
+118
+0:05:14.26,000 --> 0:05:17,000
+to drive maintenance engineers crazy,
+
+119
+0:05:17.26,000 --> 0:05:2,000
+that they would not be able to figure this out quickly.
+
+120
+0:05:20.26,000 --> 0:05:23,000
+The big digital warhead -- we had a shot at this
+
+121
+0:05:23.26,000 --> 0:05:25,000
+by looking very closely
+
+122
+0:05:25.26,000 --> 0:05:27,000
+at data and data structures.
+
+123
+0:05:27.26,000 --> 0:05:29,000
+So for example, the number 164
+
+124
+0:05:29.26,000 --> 0:05:31,000
+really stands out in that code;
+
+125
+0:05:31.26,000 --> 0:05:33,000
+you can't overlook it.
+
+126
+0:05:33.26,000 --> 0:05:35,000
+I started to research scientific literature
+
+127
+0:05:35.26,000 --> 0:05:37,000
+on how these centrifuges
+
+128
+0:05:37.26,000 --> 0:05:39,000
+are actually built in Natanz
+
+129
+0:05:39.26,000 --> 0:05:41,000
+and found they are structured
+
+130
+0:05:41.26,000 --> 0:05:43,000
+in what is called a cascade,
+
+131
+0:05:43.26,000 --> 0:05:47,000
+and each cascade holds 164 centrifuges.
+
+132
+0:05:47.26,000 --> 0:05:49,000
+So that made sense, that was a match.
+
+133
+0:05:49.26,000 --> 0:05:51,000
+And it even got better.
+
+134
+0:05:51.26,000 --> 0:05:53,000
+These centrifuges in Iran
+
+135
+0:05:53.26,000 --> 0:05:57,000
+are subdivided into 15, what is called, stages.
+
+136
+0:05:57.26,000 --> 0:05:59,000
+And guess what we found in the attack code?
+
+137
+0:05:59.26,000 --> 0:06:01,000
+An almost identical structure.
+
+138
+0:06:01.26,000 --> 0:06:04,000
+So again, that was a real good match.
+
+139
+0:06:04.26,000 --> 0:06:07,000
+And this gave us very high confidence for what we were looking at.
+
+140
+0:06:07.26,000 --> 0:06:1,000
+Now don't get me wrong here, it didn't go like this.
+
+141
+0:06:10.26,000 --> 0:06:13,000
+These results have been obtained
+
+142
+0:06:13.26,000 --> 0:06:16,000
+over several weeks of really hard labor.
+
+143
+0:06:16.26,000 --> 0:06:19,000
+And we often went into just a dead end
+
+144
+0:06:19.26,000 --> 0:06:21,000
+and had to recover.
+
+145
+0:06:21.26,000 --> 0:06:23,000
+Anyway, so we figured out
+
+146
+0:06:23.26,000 --> 0:06:25,000
+that both digital warheads
+
+147
+0:06:25.26,000 --> 0:06:27,000
+were actually aiming at one and the same target,
+
+148
+0:06:27.26,000 --> 0:06:29,000
+but from different angles.
+
+149
+0:06:29.26,000 --> 0:06:32,000
+The small warhead is taking one cascade,
+
+150
+0:06:32.26,000 --> 0:06:35,000
+and spinning up the rotors and slowing them down,
+
+151
+0:06:35.26,000 --> 0:06:37,000
+and the big warhead
+
+152
+0:06:37.26,000 --> 0:06:39,000
+is talking to six cascades
+
+153
+0:06:39.26,000 --> 0:06:41,000
+and manipulating valves.
+
+154
+0:06:41.26,000 --> 0:06:43,000
+So in all, we are very confident
+
+155
+0:06:43.26,000 --> 0:06:45,000
+that we have actually determined what the target is.
+
+156
+0:06:45.26,000 --> 0:06:48,000
+It is Natanz, and it is only Natanz.
+
+157
+0:06:48.26,000 --> 0:06:5,000
+So we don't have to worry
+
+158
+0:06:50.26,000 --> 0:06:52,000
+that other targets
+
+159
+0:06:52.26,000 --> 0:06:54,000
+might be hit by Stuxnet.
+
+160
+0:06:54.26,000 --> 0:06:57,000
+Here's some very cool stuff that we saw --
+
+161
+0:06:57.26,000 --> 0:06:59,000
+really knocked my socks off.
+
+162
+0:06:59.26,000 --> 0:07:01,000
+Down there is the gray box,
+
+163
+0:07:01.26,000 --> 0:07:04,000
+and on the top you see the centrifuges.
+
+164
+0:07:04.26,000 --> 0:07:06,000
+Now what this thing does
+
+165
+0:07:06.26,000 --> 0:07:09,000
+is it intercepts the input values from sensors --
+
+166
+0:07:09.26,000 --> 0:07:11,000
+so for example, from pressure sensors
+
+167
+0:07:11.26,000 --> 0:07:13,000
+and vibration sensors --
+
+168
+0:07:13.26,000 --> 0:07:16,000
+and it provides legitimate program code,
+
+169
+0:07:16.26,000 --> 0:07:18,000
+which is still running during the attack,
+
+170
+0:07:18.26,000 --> 0:07:2,000
+with fake input data.
+
+171
+0:07:20.26,000 --> 0:07:22,000
+And as a matter of fact, this fake input data
+
+172
+0:07:22.26,000 --> 0:07:25,000
+is actually prerecorded by Stuxnet.
+
+173
+0:07:25.26,000 --> 0:07:27,000
+So it's just like from the Hollywood movies
+
+174
+0:07:27.26,000 --> 0:07:29,000
+where during the heist,
+
+175
+0:07:29.26,000 --> 0:07:32,000
+the observation camera is fed with prerecorded video.
+
+176
+0:07:32.26,000 --> 0:07:34,000
+That's cool, huh?
+
+177
+0:07:35.26,000 --> 0:07:37,000
+The idea here is obviously
+
+178
+0:07:37.26,000 --> 0:07:4,000
+not only to fool the operators in the control room.
+
+179
+0:07:40.26,000 --> 0:07:44,000
+It actually is much more dangerous and aggressive.
+
+180
+0:07:44.26,000 --> 0:07:46,000
+The idea
+
+181
+0:07:46.26,000 --> 0:07:49,000
+is to circumvent a digital safety system.
+
+182
+0:07:50.26,000 --> 0:07:52,000
+We need digital safety systems
+
+183
+0:07:52.26,000 --> 0:07:55,000
+where a human operator could not act quick enough.
+
+184
+0:07:55.26,000 --> 0:07:57,000
+So for example, in a power plant,
+
+185
+0:07:57.26,000 --> 0:08:,000
+when your big steam turbine gets too over speed,
+
+186
+0:08:00.26,000 --> 0:08:03,000
+you must open relief valves within a millisecond.
+
+187
+0:08:03.26,000 --> 0:08:06,000
+Obviously, this cannot be done by a human operator.
+
+188
+0:08:06.26,000 --> 0:08:08,000
+So this is where we need digital safety systems.
+
+189
+0:08:08.26,000 --> 0:08:1,000
+And when they are compromised,
+
+190
+0:08:10.26,000 --> 0:08:13,000
+then real bad things can happen.
+
+191
+0:08:13.26,000 --> 0:08:15,000
+Your plant can blow up.
+
+192
+0:08:15.26,000 --> 0:08:18,000
+And neither your operators nor your safety system will notice it.
+
+193
+0:08:18.26,000 --> 0:08:2,000
+That's scary.
+
+194
+0:08:20.26,000 --> 0:08:22,000
+But it gets worse.
+
+195
+0:08:22.26,000 --> 0:08:25,000
+And this is very important, what I'm going to say.
+
+196
+0:08:25.26,000 --> 0:08:27,000
+Think about this:
+
+197
+0:08:27.26,000 --> 0:08:3,000
+this attack is generic.
+
+198
+0:08:30.26,000 --> 0:08:34,000
+It doesn't have anything to do, in specifics,
+
+199
+0:08:34.26,000 --> 0:08:36,000
+with centrifuges,
+
+200
+0:08:36.26,000 --> 0:08:39,000
+with uranium enrichment.
+
+201
+0:08:39.26,000 --> 0:08:42,000
+So it would work as well, for example,
+
+202
+0:08:42.26,000 --> 0:08:44,000
+in a power plant
+
+203
+0:08:44.26,000 --> 0:08:47,000
+or in an automobile factory.
+
+204
+0:08:47.26,000 --> 0:08:49,000
+It is generic.
+
+205
+0:08:49.26,000 --> 0:08:51,000
+And you don't have -- as an attacker --
+
+206
+0:08:51.26,000 --> 0:08:54,000
+you don't have to deliver this payload
+
+207
+0:08:54.26,000 --> 0:08:56,000
+by a USB stick,
+
+208
+0:08:56.26,000 --> 0:08:58,000
+as we saw it in the case of Stuxnet.
+
+209
+0:08:58.26,000 --> 0:09:01,000
+You could also use conventional worm technology for spreading.
+
+210
+0:09:01.26,000 --> 0:09:04,000
+Just spread it as wide as possible.
+
+211
+0:09:04.26,000 --> 0:09:06,000
+And if you do that,
+
+212
+0:09:06.26,000 --> 0:09:08,000
+what you end up with
+
+213
+0:09:08.26,000 --> 0:09:13,000
+is a cyber weapon of mass destruction.
+
+214
+0:09:14.26,000 --> 0:09:16,000
+That's the consequence
+
+215
+0:09:16.26,000 --> 0:09:19,000
+that we have to face.
+
+216
+0:09:19.26,000 --> 0:09:22,000
+So unfortunately,
+
+217
+0:09:22.26,000 --> 0:09:25,000
+the biggest number of targets for such attacks
+
+218
+0:09:25.26,000 --> 0:09:27,000
+are not in the Middle East.
+
+219
+0:09:27.26,000 --> 0:09:3,000
+They're in the United States and Europe and in Japan.
+
+220
+0:09:30.26,000 --> 0:09:32,000
+So all of the green areas,
+
+221
+0:09:32.26,000 --> 0:09:35,000
+these are your target-rich environments.
+
+222
+0:09:35.26,000 --> 0:09:38,000
+We have to face the consequences,
+
+223
+0:09:38.26,000 --> 0:09:41,000
+and we better start to prepare right now.
+
+224
+0:09:41.26,000 --> 0:09:43,000
+Thanks.
+
+225
+0:09:43.26,000 --> 0:09:49,000
+(Applause)
+
+226
+0:09:49.26,000 --> 0:09:51,000
+Chris Anderson: I've got a question.
+
+227
+0:09:53.26,000 --> 0:09:55,000
+Ralph, it's been quite widely reported
+
+228
+0:09:55.26,000 --> 0:09:57,000
+that people assume that Mossad
+
+229
+0:09:57.26,000 --> 0:09:59,000
+is the main entity behind this.
+
+230
+0:09:59.26,000 --> 0:10:02,000
+Is that your opinion?
+
+231
+0:10:02.26,000 --> 0:10:04,000
+Ralph Langner: Okay, you really want to hear that?
+
+232
+0:10:04.26,000 --> 0:10:06,000
+Yeah. Okay.
+
+233
+0:10:06.26,000 --> 0:10:09,000
+My opinion is that the Mossad is involved,
+
+234
+0:10:09.26,000 --> 0:10:12,000
+but that the leading force is not Israel.
+
+235
+0:10:12.26,000 --> 0:10:14,000
+So the leading force behind that
+
+236
+0:10:14.26,000 --> 0:10:17,000
+is the cyber superpower.
+
+237
+0:10:17.26,000 --> 0:10:19,000
+There is only one,
+
+238
+0:10:19.26,000 --> 0:10:21,000
+and that's the United States --
+
+239
+0:10:21.26,000 --> 0:10:23,000
+fortunately, fortunately.
+
+240
+0:10:23.26,000 --> 0:10:25,000
+Because otherwise,
+
+241
+0:10:25.26,000 --> 0:10:28,000
+our problems would even be bigger.
+
+242
+0:10:28.26,000 --> 0:10:32,000
+CA: Thank you for scaring the living daylights out of us. Thank you, Ralph.
+
+243
+0:10:32.26,000 --> 0:10:34,000
+(Applause)
+

@@ -1,0 +1,816 @@
+1
+0:00:12.562,000 --> 0:00:15,000
+Eric Berlow: I'm an ecologist, and Sean's a physicist,
+
+2
+0:00:15.623,000 --> 0:00:17,000
+and we both study complex networks.
+
+3
+0:00:17.731,000 --> 0:00:18,000
+And we met a couple years ago when we discovered
+
+4
+0:00:19.566,000 --> 0:00:21,000
+that we had both given a short TED Talk
+
+5
+0:00:21.566,000 --> 0:00:23,000
+about the ecology of war,
+
+6
+0:00:23.869,000 --> 0:00:24,000
+and we realized that we were connected
+
+7
+0:00:25.316,000 --> 0:00:27,000
+by the ideas we shared before we ever met.
+
+8
+0:00:28.134,000 --> 0:00:29,000
+And then we thought, you know, there are thousands
+
+9
+0:00:29.69,000 --> 0:00:31,000
+of other talks out there, especially TEDx Talks,
+
+10
+0:00:31.804,000 --> 0:00:33,000
+that are popping up all over the world.
+
+11
+0:00:34.015,000 --> 0:00:34,000
+How are they connected,
+
+12
+0:00:34.938,000 --> 0:00:36,000
+and what does that global conversation look like?
+
+13
+0:00:36.948,000 --> 0:00:38,000
+So Sean's going to tell you a little bit about how we did that.
+
+14
+0:00:39.758,000 --> 0:00:42,000
+Sean Gourley: Exactly. So we took 24,000 TEDx Talks
+
+15
+0:00:43.525,000 --> 0:00:46,000
+from around the world, 147 different countries,
+
+16
+0:00:46.571,000 --> 0:00:48,000
+and we took these talks and we wanted to find
+
+17
+0:00:48.694,000 --> 0:00:5,000
+the mathematical structures that underly
+
+18
+0:00:50.734,000 --> 0:00:51,000
+the ideas behind them.
+
+19
+0:00:52.456,000 --> 0:00:53,000
+And we wanted to do that so we could see how
+
+20
+0:00:53.826,000 --> 0:00:55,000
+they connected with each other.
+
+21
+0:00:55.879,000 --> 0:00:56,000
+And so, of course, if you're going to do this kind of stuff,
+
+22
+0:00:57.555,000 --> 0:00:57,000
+you need a lot of data.
+
+23
+0:00:58.511,000 --> 0:01:01,000
+So the data that you've got is a great thing called YouTube,
+
+24
+0:01:02.197,000 --> 0:01:03,000
+and we can go down and basically pull
+
+25
+0:01:03.965,000 --> 0:01:05,000
+all the open information from YouTube,
+
+26
+0:01:06.232,000 --> 0:01:08,000
+all the comments, all the views, who's watching it,
+
+27
+0:01:08.581,000 --> 0:01:1,000
+where are they watching it, what are they saying in the comments.
+
+28
+0:01:11.36,000 --> 0:01:14,000
+But we can also pull up, using speech-to-text translation,
+
+29
+0:01:14.652,000 --> 0:01:16,000
+we can pull the entire transcript,
+
+30
+0:01:16.78,000 --> 0:01:18,000
+and that works even for people with kind of funny accents like myself.
+
+31
+0:01:19.46,000 --> 0:01:21,000
+So we can take their transcript
+
+32
+0:01:21.566,000 --> 0:01:23,000
+and actually do some pretty cool things.
+
+33
+0:01:23.664,000 --> 0:01:25,000
+We can take natural language processing algorithms
+
+34
+0:01:25.824,000 --> 0:01:27,000
+to kind of read through with a computer, line by line,
+
+35
+0:01:28.453,000 --> 0:01:3,000
+extracting key concepts from this.
+
+36
+0:01:30.812,000 --> 0:01:32,000
+And we take those key concepts and they sort of form
+
+37
+0:01:33.337,000 --> 0:01:36,000
+this mathematical structure of an idea.
+
+38
+0:01:36.902,000 --> 0:01:37,000
+And we call that the meme-ome.
+
+39
+0:01:38.659,000 --> 0:01:4,000
+And the meme-ome, you know, quite simply,
+
+40
+0:01:40.81,000 --> 0:01:42,000
+is the mathematics that underlies an idea,
+
+41
+0:01:43.236,000 --> 0:01:44,000
+and we can do some pretty interesting analysis with it,
+
+42
+0:01:45.168,000 --> 0:01:46,000
+which I want to share with you now.
+
+43
+0:01:47.149,000 --> 0:01:49,000
+So each idea has its own meme-ome,
+
+44
+0:01:49.339,000 --> 0:01:5,000
+and each idea is unique with that,
+
+45
+0:01:51.29,000 --> 0:01:53,000
+but of course, ideas, they borrow from each other,
+
+46
+0:01:53.778,000 --> 0:01:54,000
+they kind of steal sometimes,
+
+47
+0:01:54.962,000 --> 0:01:55,000
+and they certainly build on each other,
+
+48
+0:01:56.789,000 --> 0:01:57,000
+and we can go through mathematically
+
+49
+0:01:58.405,000 --> 0:01:59,000
+and take the meme-ome from one talk
+
+50
+0:02:00.245,000 --> 0:02:02,000
+and compare it to the meme-ome from every other talk,
+
+51
+0:02:02.699,000 --> 0:02:03,000
+and if there's a similarity between the two of them,
+
+52
+0:02:04.672,000 --> 0:02:07,000
+we can create a link and represent that as a graph,
+
+53
+0:02:07.922,000 --> 0:02:09,000
+just like Eric and I are connected.
+
+54
+0:02:10.316,000 --> 0:02:11,000
+So that's theory, that's great.
+
+55
+0:02:11.71,000 --> 0:02:13,000
+Let's see how it works in actual practice.
+
+56
+0:02:14.236,000 --> 0:02:16,000
+So what we've got here now is the global footprint
+
+57
+0:02:17.024,000 --> 0:02:19,000
+of all the TEDx Talks over the last four years
+
+58
+0:02:19.317,000 --> 0:02:2,000
+exploding out around the world
+
+59
+0:02:20.867,000 --> 0:02:23,000
+from New York all the way down to little old New Zealand in the corner.
+
+60
+0:02:24.196,000 --> 0:02:27,000
+And what we did on this is we analyzed the top 25 percent of these,
+
+61
+0:02:28.031,000 --> 0:02:3,000
+and we started to see where the connections occurred,
+
+62
+0:02:30.565,000 --> 0:02:31,000
+where they connected with each other.
+
+63
+0:02:32.102,000 --> 0:02:33,000
+Cameron Russell talking about image and beauty
+
+64
+0:02:33.976,000 --> 0:02:34,000
+connected over into Europe.
+
+65
+0:02:35.551,000 --> 0:02:37,000
+We've got a bigger conversation about Israel and Palestine
+
+66
+0:02:37.963,000 --> 0:02:39,000
+radiating outwards from the Middle East.
+
+67
+0:02:40.218,000 --> 0:02:41,000
+And we've got something a little broader
+
+68
+0:02:41.516,000 --> 0:02:43,000
+like big data with a truly global footprint
+
+69
+0:02:43.672,000 --> 0:02:45,000
+reminiscent of a conversation
+
+70
+0:02:45.851,000 --> 0:02:47,000
+that is happening everywhere.
+
+71
+0:02:47.867,000 --> 0:02:49,000
+So from this, we kind of run up against the limits
+
+72
+0:02:50.04,000 --> 0:02:52,000
+of what we can actually do with a geographic projection,
+
+73
+0:02:52.57,000 --> 0:02:54,000
+but luckily, computer technology allows us to go out
+
+74
+0:02:54.622,000 --> 0:02:55,000
+into multidimensional space.
+
+75
+0:02:56.168,000 --> 0:02:57,000
+So we can take in our network projection
+
+76
+0:02:58.043,000 --> 0:02:59,000
+and apply a physics engine to this,
+
+77
+0:02:59.793,000 --> 0:03:,000
+and the similar talks kind of smash together,
+
+78
+0:03:01.678,000 --> 0:03:03,000
+and the different ones fly apart,
+
+79
+0:03:03.682,000 --> 0:03:05,000
+and what we're left with is something quite beautiful.
+
+80
+0:03:05.754,000 --> 0:03:07,000
+EB: So I want to just point out here that every node is a talk,
+
+81
+0:03:08.711,000 --> 0:03:1,000
+they're linked if they share similar ideas,
+
+82
+0:03:11.3,000 --> 0:03:13,000
+and that comes from a machine reading
+
+83
+0:03:13.384,000 --> 0:03:15,000
+of entire talk transcripts,
+
+84
+0:03:15.451,000 --> 0:03:17,000
+and then all these topics that pop out,
+
+85
+0:03:17.682,000 --> 0:03:18,000
+they're not from tags and keywords.
+
+86
+0:03:19.472,000 --> 0:03:2,000
+They come from the network structure
+
+87
+0:03:21.197,000 --> 0:03:23,000
+of interconnected ideas. Keep going.
+
+88
+0:03:23.365,000 --> 0:03:25,000
+SG: Absolutely. So I got a little quick on that,
+
+89
+0:03:25.387,000 --> 0:03:26,000
+but he's going to slow me down.
+
+90
+0:03:26.862,000 --> 0:03:28,000
+We've got education connected to storytelling
+
+91
+0:03:28.896,000 --> 0:03:29,000
+triangulated next to social media.
+
+92
+0:03:30.539,000 --> 0:03:32,000
+You've got, of course, the human brain right next to healthcare,
+
+93
+0:03:33.014,000 --> 0:03:34,000
+which you might expect,
+
+94
+0:03:34.4,000 --> 0:03:36,000
+but also you've got video games, which is sort of adjacent,
+
+95
+0:03:36.795,000 --> 0:03:38,000
+as those two spaces interface with each other.
+
+96
+0:03:39.535,000 --> 0:03:4,000
+But I want to take you into one cluster
+
+97
+0:03:41.07,000 --> 0:03:43,000
+that's particularly important to me, and that's the environment.
+
+98
+0:03:43.938,000 --> 0:03:44,000
+And I want to kind of zoom in on that
+
+99
+0:03:45.431,000 --> 0:03:47,000
+and see if we can get a little more resolution.
+
+100
+0:03:47.794,000 --> 0:03:49,000
+So as we go in here, what we start to see,
+
+101
+0:03:50.141,000 --> 0:03:51,000
+apply the physics engine again,
+
+102
+0:03:51.645,000 --> 0:03:52,000
+we see what's one conversation
+
+103
+0:03:53.321,000 --> 0:03:55,000
+is actually composed of many smaller ones.
+
+104
+0:03:55.881,000 --> 0:03:56,000
+The structure starts to emerge
+
+105
+0:03:57.81,000 --> 0:03:59,000
+where we see a kind of fractal behavior
+
+106
+0:03:59.88,000 --> 0:04:,000
+of the words and the language that we use
+
+107
+0:04:01.499,000 --> 0:04:02,000
+to describe the things that are important to us
+
+108
+0:04:03.201,000 --> 0:04:04,000
+all around this world.
+
+109
+0:04:04.634,000 --> 0:04:06,000
+So you've got food economy and local food at the top,
+
+110
+0:04:06.966,000 --> 0:04:08,000
+you've got greenhouse gases, solar and nuclear waste.
+
+111
+0:04:09.685,000 --> 0:04:11,000
+What you're getting is a range of smaller conversations,
+
+112
+0:04:12.316,000 --> 0:04:14,000
+each connected to each other through the ideas
+
+113
+0:04:14.617,000 --> 0:04:15,000
+and the language they share,
+
+114
+0:04:15.918,000 --> 0:04:17,000
+creating a broader concept of the environment.
+
+115
+0:04:18.368,000 --> 0:04:19,000
+And of course, from here, we can go
+
+116
+0:04:19.9,000 --> 0:04:22,000
+and zoom in and see, well, what are young people looking at?
+
+117
+0:04:23.434,000 --> 0:04:25,000
+And they're looking at energy technology and nuclear fusion.
+
+118
+0:04:25.779,000 --> 0:04:26,000
+This is their kind of resonance
+
+119
+0:04:27.453,000 --> 0:04:29,000
+for the conversation around the environment.
+
+120
+0:04:29.859,000 --> 0:04:3,000
+If we split along gender lines,
+
+121
+0:04:31.758,000 --> 0:04:32,000
+we can see females resonating heavily
+
+122
+0:04:33.745,000 --> 0:04:36,000
+with food economy, but also out there in hope and optimism.
+
+123
+0:04:37.39,000 --> 0:04:39,000
+And so there's a lot of exciting stuff we can do here,
+
+124
+0:04:39.872,000 --> 0:04:4,000
+and I'll throw to Eric for the next part.
+
+125
+0:04:41.634,000 --> 0:04:42,000
+EB: Yeah, I mean, just to point out here,
+
+126
+0:04:43.236,000 --> 0:04:44,000
+you cannot get this kind of perspective
+
+127
+0:04:44.774,000 --> 0:04:47,000
+from a simple tag search on YouTube.
+
+128
+0:04:48.134,000 --> 0:04:52,000
+Let's now zoom back out to the entire global conversation
+
+129
+0:04:52.322,000 --> 0:04:54,000
+out of environment, and look at all the talks together.
+
+130
+0:04:54.856,000 --> 0:04:56,000
+Now often, when we're faced with this amount of content,
+
+131
+0:04:57.783,000 --> 0:04:59,000
+we do a couple of things to simplify it.
+
+132
+0:05:00.214,000 --> 0:05:01,000
+We might just say, well,
+
+133
+0:05:01.528,000 --> 0:05:03,000
+what are the most popular talks out there?
+
+134
+0:05:04.357,000 --> 0:05:05,000
+And a few rise to the surface.
+
+135
+0:05:05.754,000 --> 0:05:06,000
+There's a talk about gratitude.
+
+136
+0:05:07.582,000 --> 0:05:1,000
+There's another one about personal health and nutrition.
+
+137
+0:05:10.926,000 --> 0:05:12,000
+And of course, there's got to be one about porn, right?
+
+138
+0:05:13.855,000 --> 0:05:16,000
+And so then we might say, well, gratitude, that was last year.
+
+139
+0:05:17.089,000 --> 0:05:19,000
+What's trending now? What's the popular talk now?
+
+140
+0:05:19.611,000 --> 0:05:22,000
+And we can see that the new, emerging, top trending topic
+
+141
+0:05:22.932,000 --> 0:05:24,000
+is about digital privacy.
+
+142
+0:05:25.598,000 --> 0:05:26,000
+So this is great. It simplifies things.
+
+143
+0:05:27.291,000 --> 0:05:28,000
+But there's so much creative content
+
+144
+0:05:29.118,000 --> 0:05:3,000
+that's just buried at the bottom.
+
+145
+0:05:31.039,000 --> 0:05:34,000
+And I hate that. How do we bubble stuff up to the surface
+
+146
+0:05:34.357,000 --> 0:05:36,000
+that's maybe really creative and interesting?
+
+147
+0:05:36.815,000 --> 0:05:38,000
+Well, we can go back to the network structure of ideas
+
+148
+0:05:39.746,000 --> 0:05:4,000
+to do that.
+
+149
+0:05:41.176,000 --> 0:05:43,000
+Remember, it's that network structure
+
+150
+0:05:43.29,000 --> 0:05:45,000
+that is creating these emergent topics,
+
+151
+0:05:45.558,000 --> 0:05:46,000
+and let's say we could take two of them,
+
+152
+0:05:47.073,000 --> 0:05:5,000
+like cities and genetics, and say, well, are there any talks
+
+153
+0:05:50.12,000 --> 0:05:52,000
+that creatively bridge these two really different disciplines.
+
+154
+0:05:52.689,000 --> 0:05:54,000
+And that's -- Essentially, this kind of creative remix
+
+155
+0:05:54.964,000 --> 0:05:55,000
+is one of the hallmarks of innovation.
+
+156
+0:05:56.804,000 --> 0:05:57,000
+Well here's one by Jessica Green
+
+157
+0:05:58.41,000 --> 0:06:,000
+about the microbial ecology of buildings.
+
+158
+0:06:00.789,000 --> 0:06:02,000
+It's literally defining a new field.
+
+159
+0:06:02.799,000 --> 0:06:04,000
+And we could go back to those topics and say, well,
+
+160
+0:06:04.902,000 --> 0:06:06,000
+what talks are central to those conversations?
+
+161
+0:06:07.67,000 --> 0:06:08,000
+In the cities cluster, one of the most central
+
+162
+0:06:09.36,000 --> 0:06:12,000
+was one by Mitch Joachim about ecological cities,
+
+163
+0:06:13.312,000 --> 0:06:14,000
+and in the genetics cluster,
+
+164
+0:06:15.032,000 --> 0:06:18,000
+we have a talk about synthetic biology by Craig Venter.
+
+165
+0:06:18.225,000 --> 0:06:21,000
+These are talks that are linking many talks within their discipline.
+
+166
+0:06:21.578,000 --> 0:06:22,000
+We could go the other direction and say, well,
+
+167
+0:06:23.421,000 --> 0:06:25,000
+what are talks that are broadly synthesizing
+
+168
+0:06:25.693,000 --> 0:06:26,000
+a lot of different kinds of fields.
+
+169
+0:06:27.141,000 --> 0:06:29,000
+We used a measure of ecological diversity to get this.
+
+170
+0:06:29.674,000 --> 0:06:31,000
+Like, a talk by Steven Pinker on the history of violence,
+
+171
+0:06:32.41,000 --> 0:06:33,000
+very synthetic.
+
+172
+0:06:33.59,000 --> 0:06:35,000
+And then, of course, there are talks that are so unique
+
+173
+0:06:35.668,000 --> 0:06:38,000
+they're kind of out in the stratosphere, in their own special place,
+
+174
+0:06:38.758,000 --> 0:06:4,000
+and we call that the Colleen Flanagan index.
+
+175
+0:06:41.272,000 --> 0:06:44,000
+And if you don't know Colleen, she's an artist,
+
+176
+0:06:44.306,000 --> 0:06:45,000
+and I asked her, "Well, what's it like out there
+
+177
+0:06:45.849,000 --> 0:06:46,000
+in the stratosphere of our idea space?"
+
+178
+0:06:47.521,000 --> 0:06:5,000
+And apparently it smells like bacon.
+
+179
+0:06:50.776,000 --> 0:06:51,000
+I wouldn't know.
+
+180
+0:06:52.567,000 --> 0:06:54,000
+So we're using these network motifs
+
+181
+0:06:54.815,000 --> 0:06:55,000
+to find talks that are unique,
+
+182
+0:06:56.001,000 --> 0:06:58,000
+ones that are creatively synthesizing a lot of different fields,
+
+183
+0:06:58.711,000 --> 0:06:59,000
+ones that are central to their topic,
+
+184
+0:07:00.37,000 --> 0:07:03,000
+and ones that are really creatively bridging disparate fields.
+
+185
+0:07:03.744,000 --> 0:07:05,000
+Okay? We never would have found those with our obsession
+
+186
+0:07:05.846,000 --> 0:07:07,000
+with what's trending now.
+
+187
+0:07:08.159,000 --> 0:07:1,000
+And all of this comes from the architecture of complexity,
+
+188
+0:07:11.045,000 --> 0:07:13,000
+or the patterns of how things are connected.
+
+189
+0:07:14.005,000 --> 0:07:15,000
+SG: So that's exactly right.
+
+190
+0:07:15.63,000 --> 0:07:17,000
+We've got ourselves in a world
+
+191
+0:07:18.109,000 --> 0:07:2,000
+that's massively complex,
+
+192
+0:07:20.153,000 --> 0:07:22,000
+and we've been using algorithms to kind of filter it down
+
+193
+0:07:23.02,000 --> 0:07:24,000
+so we can navigate through it.
+
+194
+0:07:24.806,000 --> 0:07:26,000
+And those algorithms, whilst being kind of useful,
+
+195
+0:07:27.144,000 --> 0:07:3,000
+are also very, very narrow, and we can do better than that,
+
+196
+0:07:30.62,000 --> 0:07:32,000
+because we can realize that their complexity is not random.
+
+197
+0:07:33.186,000 --> 0:07:34,000
+It has mathematical structure,
+
+198
+0:07:35.14,000 --> 0:07:36,000
+and we can use that mathematical structure
+
+199
+0:07:36.943,000 --> 0:07:38,000
+to go and explore things like the world of ideas
+
+200
+0:07:39.157,000 --> 0:07:42,000
+to see what's being said, to see what's not being said,
+
+201
+0:07:42.157,000 --> 0:07:43,000
+and to be a little bit more human
+
+202
+0:07:43.564,000 --> 0:07:44,000
+and, hopefully, a little smarter.
+
+203
+0:07:45.431,000 --> 0:07:45,000
+Thank you.
+
+204
+0:07:46.397,000 --> 0:07:5,000
+(Applause)
+

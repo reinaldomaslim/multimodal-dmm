@@ -1,0 +1,324 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Anna Cristiana Minoli Relecteur: eric vautier
+
+2
+0:00:16.26,000 --> 0:00:19,000
+Laissez-moi vous présenter Rezero.
+
+3
+0:00:19.26,000 --> 0:00:21,000
+Ce petit ami a été développé
+
+4
+0:00:21.26,000 --> 0:00:23,000
+par un groupe de 10 étudiants
+
+5
+0:00:23.26,000 --> 0:00:25,000
+du Laboratoire des Systèmes Autonomes
+
+6
+0:00:25.26,000 --> 0:00:27,000
+à l'École polytechnique fédérale de Zurich.
+
+7
+0:00:27.26,000 --> 0:00:29,000
+Notre robot appartient à une famille de robots
+
+8
+0:00:29.26,000 --> 0:00:31,000
+qui s’appelle Ballbots.
+
+9
+0:00:31.26,000 --> 0:00:33,000
+A la place des roues, un Ballbot se tient en équilibre
+
+10
+0:00:33.26,000 --> 0:00:35,000
+et se déplace sur une boule.
+
+11
+0:00:35.26,000 --> 0:00:37,000
+La principale caractéristique de ce système
+
+12
+0:00:37.26,000 --> 0:00:4,000
+est qu'il y a qu'un seul point de contact avec le sol.
+
+13
+0:00:40.26,000 --> 0:00:42,000
+Cela signifie que le robot
+
+14
+0:00:42.26,000 --> 0:00:44,000
+est en soi instable.
+
+15
+0:00:44.26,000 --> 0:00:46,000
+C’est un peu comme si je devais me tenir
+
+16
+0:00:46.26,000 --> 0:00:47,000
+sur un pied.
+
+17
+0:00:47.26,000 --> 0:00:49,000
+Vous pourriez vous demander, quelle est l’utilité
+
+18
+0:00:49.26,000 --> 0:00:51,000
+d’un robot instable ?
+
+19
+0:00:51.26,000 --> 0:00:53,000
+Nous allons vous l’expliquer tout de suite.
+
+20
+0:00:53.26,000 --> 0:00:55,000
+Avant tout, laissez-moi vous expliquer comment Rezero
+
+21
+0:00:55.26,000 --> 0:00:57,000
+se tient en fait en équilibre.
+
+22
+0:00:57.26,000 --> 0:00:59,000
+Rezero se tient en équilibre en mesurant
+
+23
+0:00:59.26,000 --> 0:01:02,000
+constamment son inclinaison avec un détecteur.
+
+24
+0:01:02.26,000 --> 0:01:05,000
+Ensuite il se contrebalance et évite de basculer
+
+25
+0:01:05.26,000 --> 0:01:07,000
+en utilisant ses moteurs de façon appropriée.
+
+26
+0:01:07.26,000 --> 0:01:09,000
+Ça se produit 160 fois par seconde,
+
+27
+0:01:09.26,000 --> 0:01:11,000
+et si quelque chose ne marche pas dans le processus,
+
+28
+0:01:11.26,000 --> 0:01:14,000
+Rezero tombe immédiatement par terre.
+
+29
+0:01:14.26,000 --> 0:01:16,000
+Pour se déplacer et se tenir en équilibre,
+
+30
+0:01:16.26,000 --> 0:01:18,000
+Rezero doit tourner la boule.
+
+31
+0:01:18.26,000 --> 0:01:2,000
+La boule est actionnée par trois roues spéciales
+
+32
+0:01:20.26,000 --> 0:01:23,000
+qui permettent à Rezero de se déplacer dans n’importe quelle direction
+
+33
+0:01:23.26,000 --> 0:01:25,000
+et se déplacer également sur son axe
+
+34
+0:01:25.26,000 --> 0:01:29,000
+en même temps.
+
+35
+0:01:29.26,000 --> 0:01:31,000
+A cause de son instabilité, Rezero est toujours
+
+36
+0:01:31.26,000 --> 0:01:33,000
+en mouvement. Voici le secret.
+
+37
+0:01:33.26,000 --> 0:01:36,000
+C'est précisément cette instabilité qui permet
+
+38
+0:01:36.26,000 --> 0:01:38,000
+au robot de se déplacer de manière très dynamique.
+
+39
+0:01:38.26,000 --> 0:01:4,000
+Jouons un peu.
+
+40
+0:01:40.26,000 --> 0:01:42,000
+Vous vous êtes peut-être demandé ce qui se passerait
+
+41
+0:01:42.26,000 --> 0:01:45,000
+si je poussais un peu le robot.
+
+42
+0:01:47.26,000 --> 0:01:49,000
+Dans ce mode, il essaye de maintenir
+
+43
+0:01:49.26,000 --> 0:01:52,000
+sa position.
+
+44
+0:01:52.26,000 --> 0:01:55,000
+Pour la prochaine démo, j’aimerais vous présenter
+
+45
+0:01:55.26,000 --> 0:01:58,000
+mes collègues Michael, à l’ordinateur,
+
+46
+0:01:58.26,000 --> 0:02:01,000
+et Thomas qui me donne un coup de main sur scène.
+
+47
+0:02:02.26,000 --> 0:02:04,000
+Dans le mode suivant, Rezero est passif,
+
+48
+0:02:04.26,000 --> 0:02:07,000
+et nous pouvons le déplacer.
+
+49
+0:02:08.26,000 --> 0:02:1,000
+Presque sans aucune force je peux contrôler
+
+50
+0:02:10.26,000 --> 0:02:13,000
+sa position et sa vitesse.
+
+51
+0:02:16.26,000 --> 0:02:19,000
+Je peux même le faire tourner.
+
+52
+0:02:30.26,000 --> 0:02:32,000
+Dans le mode suivant, nous pouvons le faire
+
+53
+0:02:32.26,000 --> 0:02:35,000
+suivre une personne.
+
+54
+0:02:35.26,000 --> 0:02:38,000
+Là il maintient une distance constante avec Thomas.
+
+55
+0:02:42.26,000 --> 0:02:44,000
+Ça marche avec un détecteur laser
+
+56
+0:02:44.26,000 --> 0:02:46,000
+monté au sommet de Rezero.
+
+57
+0:02:50.26,000 --> 0:02:52,000
+Avec la même méthode, nous pouvons aussi
+
+58
+0:02:52.26,000 --> 0:02:55,000
+le faire tourner autour d’une personne.
+
+59
+0:02:57.26,000 --> 0:03:01,000
+Nous appelons cela le mode orbitant.
+
+60
+0:03:10.26,000 --> 0:03:12,000
+Très bien, merci, Thomas.
+
+61
+0:03:12.26,000 --> 0:03:16,000
+(Applaudissements)
+
+62
+0:03:16.26,000 --> 0:03:19,000
+Quelle est l’utilité de cette technologie ?
+
+63
+0:03:22.26,000 --> 0:03:24,000
+Pour l’instant, c’est une expérience mais laissez-moi
+
+64
+0:03:24.26,000 --> 0:03:27,000
+vous montrer quelques applications futures possibles.
+
+65
+0:03:28.26,000 --> 0:03:3,000
+Rezero pourrait être utilisé dans des expositions ou des parcs.
+
+66
+0:03:30.26,000 --> 0:03:32,000
+Avec un écran il pourrait informer les personnes
+
+67
+0:03:32.26,000 --> 0:03:35,000
+ou les faire visiter de manière amusante et divertissante.
+
+68
+0:03:35.26,000 --> 0:03:37,000
+Dans un hôpital, cet appareil pourrait être utilisé
+
+69
+0:03:37.26,000 --> 0:03:39,000
+pour transporter les équipements médicaux.
+
+70
+0:03:39.26,000 --> 0:03:41,000
+Grâce au système Ballbot, il a un faible
+
+71
+0:03:41.26,000 --> 0:03:44,000
+encombrement et se déplace facilement.
+
+72
+0:03:44.26,000 --> 0:03:46,000
+Et bien sûr, qui ne souhaiterait pas
+
+73
+0:03:46.26,000 --> 0:03:49,000
+faire un tour sur un de ces appareils.
+
+74
+0:03:49.26,000 --> 0:03:51,000
+Ce sont des applications plus pratiques.
+
+75
+0:03:51.26,000 --> 0:03:53,000
+Mais il y a aussi une certaine beauté
+
+76
+0:03:53.26,000 --> 0:03:55,000
+dans cette technologie.
+
+77
+0:03:55.26,000 --> 0:04:04,000
+(Musique)
+
+78
+0:04:58.26,000 --> 0:04:59,000
+(Applaudissements)
+
+79
+0:04:59.26,000 --> 0:05:01,000
+(Merci)
+
+80
+0:05:01.26,000 --> 0:05:05,000
+(Applaudissements)
+
+81
+0:05:05.26,000 --> 0:05:07,000
+Merci.
+

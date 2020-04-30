@@ -1,0 +1,556 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Florencia Bracamonte Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.937,000 --> 0:00:13,000
+En el futuro,
+
+3
+0:00:14.136,000 --> 0:00:17,000
+los vehículos autónomos serán más seguros y confiables que las personas.
+
+4
+0:00:18.175,000 --> 0:00:21,000
+Pero para esto, requerimos tecnologías que permitan a los vehículos responder
+
+5
+0:00:22.018,000 --> 0:00:23,000
+más rápido que las personas.
+
+6
+0:00:23.466,000 --> 0:00:26,000
+Necesitamos algoritmos capaces de conducir mejor que las personas,
+
+7
+0:00:27.204,000 --> 0:00:31,000
+y cámaras capaces de ver más que el ojo humano.
+
+8
+0:00:32.061,000 --> 0:00:36,000
+Por ejemplo, imaginen que un vehículo autónomo está por dar un giro a ciegas
+
+9
+0:00:36.655,000 --> 0:00:37,000
+y otro automóvil se aproxima
+
+10
+0:00:38.393,000 --> 0:00:4,000
+o quizá un niño está a punto de cruzar la calle.
+
+11
+0:00:41.458,000 --> 0:00:44,000
+Por suerte, nuestro auto del futuro tendrá este superpoder:
+
+12
+0:00:45.046,000 --> 0:00:49,000
+una cámara capaz de ver detrás de las esquinas y detectar posibles peligros.
+
+13
+0:00:49.876,000 --> 0:00:51,000
+Los últimos años he trabajado como doctorando
+
+14
+0:00:52.039,000 --> 0:00:54,000
+en el laboratorio de imágenes computacionales de Standford
+
+15
+0:00:54.77,000 --> 0:00:56,000
+en una cámara que puede hacer exactamente eso:
+
+16
+0:00:57.058,000 --> 0:01:,000
+escanear objetos detrás de las esquinas
+
+17
+0:01:00.48,000 --> 0:01:02,000
+o que no están al alcance directo de la vista.
+
+18
+0:01:03.276,000 --> 0:01:06,000
+Déjenme mostrarles lo que nuestra cámara puede ver.
+
+19
+0:01:06.752,000 --> 0:01:08,000
+En este experimento realizado en el exterior,
+
+20
+0:01:09.339,000 --> 0:01:12,000
+nuestro sistema de cámaras escanea el lateral del edificio con un láser,
+
+21
+0:01:13.173,000 --> 0:01:14,000
+y la escena que queremos capturar
+
+22
+0:01:15.157,000 --> 0:01:17,000
+está oculta al doblar la esquina, detrás de esta cortina.
+
+23
+0:01:18.141,000 --> 0:01:21,000
+Así que nuestra cámara no puede verla de forma directa.
+
+24
+0:01:21.561,000 --> 0:01:22,000
+Aun así, de algún modo,
+
+25
+0:01:22.753,000 --> 0:01:26,000
+nuestra cámara puede capturar la geometría 3D de la escena.
+
+26
+0:01:27.704,000 --> 0:01:28,000
+¿Cómo lo conseguimos?
+
+27
+0:01:29.498,000 --> 0:01:31,000
+La magia sucede aquí, en este sistema de cámaras.
+
+28
+0:01:32.244,000 --> 0:01:35,000
+Pueden considerarla como una cámara de gran velocidad,
+
+29
+0:01:35.593,000 --> 0:01:38,000
+una que funciona no a 1000 cuadros por segundo,
+
+30
+0:01:39.087,000 --> 0:01:41,000
+ni siquiera a un millón de cuadros por segundo,
+
+31
+0:01:41.856,000 --> 0:01:43,000
+sino a un billón de cuadros por segundo.
+
+32
+0:01:45.023,000 --> 0:01:49,000
+Funciona tan rápido, que hasta puede capturar el movimiento de la luz.
+
+33
+0:01:50.652,000 --> 0:01:53,000
+Y para darles un ejemplo de lo muy rápido que viaja la luz,
+
+34
+0:01:54.319,000 --> 0:01:58,000
+comparémosla con la velocidad de un superhéroe de historietas
+
+35
+0:01:58.518,000 --> 0:02:01,000
+capaz de correr tres veces más rápido que la velocidad del sonido.
+
+36
+0:02:02.201,000 --> 0:02:06,000
+Un rayo de luz demora unas 3300 millonésimas de segundo,
+
+37
+0:02:06.424,000 --> 0:02:07,000
+o 3.3 nanosegundos,
+
+38
+0:02:08.321,000 --> 0:02:1,000
+en recorrer la distancia de un metro.
+
+39
+0:02:10.474,000 --> 0:02:11,000
+Al mismo tiempo,
+
+40
+0:02:12.433,000 --> 0:02:15,000
+nuestro superhéroe se ha movido menos de 1 mm.
+
+41
+0:02:16.633,000 --> 0:02:17,000
+Eso es bastante rápido.
+
+42
+0:02:18.306,000 --> 0:02:2,000
+Pero tenemos que imaginarnos algo mucho más rápido
+
+43
+0:02:20.74,000 --> 0:02:22,000
+si pretendemos capturar la luz en movimiento
+
+44
+0:02:22.813,000 --> 0:02:23,000
+a escalas por debajo del cm.
+
+45
+0:02:24.784,000 --> 0:02:26,000
+Nuestro sistema de cámaras puede capturar fotones
+
+46
+0:02:27.305,000 --> 0:02:3,000
+en periodos de tiempo de apenas 50 billonésimas de segundo,
+
+47
+0:02:30.845,000 --> 0:02:31,000
+o 50 picosegundos.
+
+48
+0:02:33.821,000 --> 0:02:35,000
+Así que tomamos esta cámara ultrarápida
+
+49
+0:02:36.347,000 --> 0:02:39,000
+y la combinamos con un láser que emite pulsos cortos de luz.
+
+50
+0:02:40.553,000 --> 0:02:42,000
+Cada pulso viaja hacia esta pared visible
+
+51
+0:02:43.068,000 --> 0:02:45,000
+y un poco de luz se dispersa hacia nuestra cámara,
+
+52
+0:02:45.433,000 --> 0:02:48,000
+pero la pared también dispersa la luz hacia el otro lado de la esquina,
+
+53
+0:02:48.773,000 --> 0:02:49,000
+hacia el objeto oculto y de regreso.
+
+54
+0:02:51.363,000 --> 0:02:53,000
+Repetimos esto varias veces
+
+55
+0:02:53.625,000 --> 0:02:55,000
+para capturar el tiempo de llegada de muchos fotones
+
+56
+0:02:56.189,000 --> 0:02:58,000
+desde diferentes puntos de la pared.
+
+57
+0:02:58.3,000 --> 0:02:59,000
+Tras capturar estas medidas,
+
+58
+0:03:00.3,000 --> 0:03:03,000
+podemos crear un video de la pared de un billón de cuadros por segundo.
+
+59
+0:03:04.371,000 --> 0:03:07,000
+Si bien esta pared nos parece corriente,
+
+60
+0:03:07.403,000 --> 0:03:11,000
+a un billón de cuadros por segundo, podemos ver algo increíble.
+
+61
+0:03:12.275,000 --> 0:03:14,000
+Podemos ver las ondas de luz
+
+62
+0:03:14.856,000 --> 0:03:17,000
+que se dispersan y regresan desde la escena oculta y chocan contra la pared.
+
+63
+0:03:19.063,000 --> 0:03:21,000
+Cada una de estas ondas transporta información
+
+64
+0:03:22.039,000 --> 0:03:24,000
+sobre el objeto oculto que la envió.
+
+65
+0:03:24.341,000 --> 0:03:25,000
+Podemos tomar estas medidas
+
+66
+0:03:26.046,000 --> 0:03:28,000
+y pasarlas por un algoritmo de reconstrucción
+
+67
+0:03:28.569,000 --> 0:03:31,000
+para recuperar de esta manera la geometría 3D de la escena oculta.
+
+68
+0:03:33.379,000 --> 0:03:36,000
+Quiero mostrarles un ejemplo más de una escena de interior que capturamos,
+
+69
+0:03:37.213,000 --> 0:03:39,000
+esta vez con varios objetos diferentes ocultos.
+
+70
+0:03:40.177,000 --> 0:03:42,000
+Estos objetos tienen apariencias muy distintas,
+
+71
+0:03:42.408,000 --> 0:03:44,000
+así que reflejan la luz de forma diferente.
+
+72
+0:03:44.465,000 --> 0:03:47,000
+Por ejemplo, esta estatua brillante de dragón refleja la luz diferente
+
+73
+0:03:48.133,000 --> 0:03:52,000
+que la bola de disco y que la estatua blanca del discóbolo.
+
+74
+0:03:52.998,000 --> 0:03:55,000
+Hasta podemos ver las diferencias en la luz que se refleja
+
+75
+0:03:56.441,000 --> 0:04:02,000
+al visualizarla como este volumen 3D, donde hemos apilado los cuadros del video.
+
+76
+0:04:02.64,000 --> 0:04:06,000
+Aquí el tiempo se representa como la profundidad de este cubo.
+
+77
+0:04:07.914,000 --> 0:04:1,000
+Estos puntos brillantes que ven son el reflejo de la luz
+
+78
+0:04:11.129,000 --> 0:04:13,000
+desde cada una de las caras de la bola de disco
+
+79
+0:04:13.699,000 --> 0:04:15,000
+que se dispersan por la pared con el tiempo.
+
+80
+0:04:16.422,000 --> 0:04:19,000
+Las vetas brillantes de luz que ven llegar más rápido
+
+81
+0:04:19.982,000 --> 0:04:22,000
+provienen de la estatua brillante de dragón, pues es lo más cercano a la pared,
+
+82
+0:04:23.966,000 --> 0:04:26,000
+y las otras vetas de luz provienen de reflejos de luz del estante de libros
+
+83
+0:04:27.791,000 --> 0:04:28,000
+y de la estatua.
+
+84
+0:04:29.727,000 --> 0:04:32,000
+Ahora bien, podemos también visualizar estas medidas cuadro por cuadro,
+
+85
+0:04:33.638,000 --> 0:04:34,000
+como un video,
+
+86
+0:04:34.854,000 --> 0:04:35,000
+para así ver la luz dispersa.
+
+87
+0:04:37.461,000 --> 0:04:4,000
+De nuevo, aquí vemos primero los reflejos de la luz del dragón,
+
+88
+0:04:41.104,000 --> 0:04:42,000
+lo más cercano a la pared,
+
+89
+0:04:42.374,000 --> 0:04:45,000
+luego los puntos brillantes de la bola de disco
+
+90
+0:04:45.787,000 --> 0:04:47,000
+y otros reflejos provenientes del estante.
+
+91
+0:04:48.53,000 --> 0:04:52,000
+Finalmente, vemos las ondas de luz que refleja la estatua.
+
+92
+0:04:53.84,000 --> 0:04:55,000
+Estas ondas de luz que iluminan la pared
+
+93
+0:04:56.657,000 --> 0:05:,000
+son como fuegos artificiales que duran apenas billonésimas de segundo.
+
+94
+0:05:05.649,000 --> 0:05:08,000
+Si bien estos objetos reflejan la luz de diversas formas,
+
+95
+0:05:08.919,000 --> 0:05:1,000
+Aun así, es posible reconstruir sus formas.
+
+96
+0:05:11.577,000 --> 0:05:14,000
+Esto es lo que pueden ver detrás de la esquina.
+
+97
+0:05:15.547,000 --> 0:05:18,000
+Quiero mostrarles un ejemplo más que tiene una pequeña variante.
+
+98
+0:05:19,000 --> 0:05:22,000
+En este video, me ven con un traje reflectivo
+
+99
+0:05:22.404,000 --> 0:05:24,000
+y nuestro sistema de cámaras escanea la pared
+
+100
+0:05:24.609,000 --> 0:05:26,000
+a un ritmo de cuatro veces por segundo.
+
+101
+0:05:27.173,000 --> 0:05:28,000
+El traje es reflectivo
+
+102
+0:05:28.411,000 --> 0:05:3,000
+así que podemos capturar los fotones necesarios
+
+103
+0:05:31.093,000 --> 0:05:34,000
+para determinar dónde estoy y qué estoy haciendo
+
+104
+0:05:34.665,000 --> 0:05:36,000
+sin que la cámara me enfoque de forma directa.
+
+105
+0:05:37.586,000 --> 0:05:41,000
+Al capturar los fotones que se dispersan desde la pared hacia mi traje,
+
+106
+0:05:42.105,000 --> 0:05:44,000
+de regreso a la pared y nuevamente hacia la cámara,
+
+107
+0:05:44.517,000 --> 0:05:47,000
+podemos capturar este video "indirecto" en tiempo real.
+
+108
+0:05:48.954,000 --> 0:05:51,000
+Creemos que este tipo de escaneo no lineal
+
+109
+0:05:52.184,000 --> 0:05:55,000
+puede ser útil en distintas aplicaciones: en los vehículos autónomos
+
+110
+0:05:55.934,000 --> 0:05:57,000
+pero también en las bioimágenes,
+
+111
+0:05:58.053,000 --> 0:06:01,000
+donde necesitamos ver el interior de las estructuras diminutas del cuerpo.
+
+112
+0:06:01.974,000 --> 0:06:04,000
+Quizá podríamos equipar con sistemas de cámaras similares a los robots
+
+113
+0:06:05.499,000 --> 0:06:07,000
+que enviamos a explorar otros planetas.
+
+114
+0:06:08.789,000 --> 0:06:1,000
+Tal vez ya escucharon sobre cómo mirar detrás de las esquinas,
+
+115
+0:06:11.735,000 --> 0:06:14,000
+pero lo que les mostré hoy habría sido imposible hace dos años.
+
+116
+0:06:15.181,000 --> 0:06:19,000
+Por ejemplo, podemos escanear enormes escenas ocultas en el exterior
+
+117
+0:06:19.292,000 --> 0:06:2,000
+en tiempo real,
+
+118
+0:06:21.165,000 --> 0:06:25,000
+y hemos avanzado bastante en conseguir que esta tecnología
+
+119
+0:06:25.386,000 --> 0:06:27,000
+pueda efectivamente detectar un automóvil en el futuro.
+
+120
+0:06:28.156,000 --> 0:06:3,000
+Pero por supuesto, aún hay desafíos que superar.
+
+121
+0:06:30.76,000 --> 0:06:34,000
+Por ejemplo, ¿podemos escanear escenas ocultas a larga distancia,
+
+122
+0:06:34.847,000 --> 0:06:36,000
+en cuyo caso se recolectan muy pocos fotones,
+
+123
+0:06:38.014,000 --> 0:06:41,000
+con láseres que usen poca energía y sean seguros para la vista?
+
+124
+0:06:41.641,000 --> 0:06:43,000
+¿Podemos crear imágenes a partir de los fotones
+
+125
+0:06:44,000 --> 0:06:48,000
+que se han dispersado muchas más veces que un único rebote detrás de la esquina?
+
+126
+0:06:48.68,000 --> 0:06:52,000
+¿Podemos tomar nuestro prototipo que es, pues, actualmente muy grande
+
+127
+0:06:53.347,000 --> 0:06:56,000
+y reducir su tamaño a algo que sea útil para las bioimágenes,
+
+128
+0:06:57.134,000 --> 0:07:,000
+o para un tipo de sistema mejorado de seguridad para el hogar?
+
+129
+0:07:00.244,000 --> 0:07:05,000
+¿Podemos darle a esta nueva modalidad de escaneo de imágenes otras aplicaciones?
+
+130
+0:07:05.78,000 --> 0:07:06,000
+Es una tecnología nueva emocionante
+
+131
+0:07:07.693,000 --> 0:07:1,000
+y podría haber otras aplicaciones que no hemos ni imaginado aún.
+
+132
+0:07:11.603,000 --> 0:07:13,000
+Así que... un futuro en el que haya vehículos autónomos
+
+133
+0:07:14.412,000 --> 0:07:17,000
+puede ahora parecernos distante, pero estamos desarrollando las tecnologías
+
+134
+0:07:18.288,000 --> 0:07:21,000
+que podrían hacer que los autos sean más seguros e inteligentes.
+
+135
+0:07:21.698,000 --> 0:07:23,000
+Con el acelerado ritmo de los descubrimientos científicos
+
+136
+0:07:24.384,000 --> 0:07:25,000
+y las innovaciones,
+
+137
+0:07:25.424,000 --> 0:07:27,000
+nunca se sabe qué nuevas y emocionantes aplicaciones
+
+138
+0:07:28.095,000 --> 0:07:3,000
+podríamos encontrar tras doblar la esquina.
+
+139
+0:07:30.81,000 --> 0:07:32,000
+(Aplausos)
+

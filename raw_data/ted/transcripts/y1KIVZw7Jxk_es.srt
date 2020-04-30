@@ -1,0 +1,1456 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.835,000 --> 0:00:14,000
+Mark Twain resumió lo que considero es
+
+3
+0:00:14.99,000 --> 0:00:17,000
+uno de los problemas fundamentales de la ciencia cognitiva
+
+4
+0:00:18.11,000 --> 0:00:19,000
+con un solo chiste.
+
+5
+0:00:20.41,000 --> 0:00:23,000
+Dijo: "Hay algo fascinante en la ciencia.
+
+6
+0:00:23.492,000 --> 0:00:26,000
+Uno obtiene enormes retornos en conjeturas
+
+7
+0:00:26.72,000 --> 0:00:29,000
+con muy poca inversión en hechos".
+
+8
+0:00:29.924,000 --> 0:00:3,000
+(Risas)
+
+9
+0:00:32.199,000 --> 0:00:34,000
+Twain lo decía en broma, claro, pero tiene razón:
+
+10
+0:00:34.803,000 --> 0:00:36,000
+Hay algo fascinante en la ciencia.
+
+11
+0:00:37.679,000 --> 0:00:41,000
+A partir de unos pocos huesos, inferimos la existencia de dinosaurios.
+
+12
+0:00:42.91,000 --> 0:00:45,000
+A partir de las líneas espectrales, la composición de las nebulosas.
+
+13
+0:00:47.471,000 --> 0:00:49,000
+A partir de moscas de la fruta,
+
+14
+0:00:50.409,000 --> 0:00:52,000
+los mecanismos de la herencia,
+
+15
+0:00:53.352,000 --> 0:00:57,000
+y a partir de imágenes reconstruidas de sangre que fluye a través del cerebro,
+
+16
+0:00:57.601,000 --> 0:01:01,000
+o en mi caso, desde el comportamiento de los niños muy pequeños,
+
+17
+0:01:02.309,000 --> 0:01:04,000
+tratamos de decir algo sobre los mecanismos fundamentales
+
+18
+0:01:05.137,000 --> 0:01:06,000
+de la cognición humana.
+
+19
+0:01:07.502,000 --> 0:01:08,000
+En particular, en mi laboratorio en el
+
+20
+0:01:09.475,000 --> 0:01:12,000
+Departamento de Cerebro y Ciencias Cognitivas del MIT,
+
+21
+0:01:12.475,000 --> 0:01:15,000
+he pasado los últimos diez años tratando de entender el misterio
+
+22
+0:01:16.129,000 --> 0:01:19,000
+de cómo los niños aprenden mucho rápidamente a partir de tan poco.
+
+23
+0:01:20.666,000 --> 0:01:22,000
+Porque resulta que lo fascinante de la ciencia
+
+24
+0:01:23.644,000 --> 0:01:26,000
+es también una cosa fascinante en los niños,
+
+25
+0:01:27.173,000 --> 0:01:29,000
+que, para ponerlo en términos de Mark Twain, pero más suave
+
+26
+0:01:29.98,000 --> 0:01:33,000
+es precisamente su capacidad para dibujar ricas inferencias abstractas
+
+27
+0:01:34.404,000 --> 0:01:38,000
+rápidamente y con precisión a partir de datos dispersos, confusos.
+
+28
+0:01:40.355,000 --> 0:01:42,000
+Daré solo dos ejemplos hoy.
+
+29
+0:01:42.753,000 --> 0:01:44,000
+Uno es sobre un problema de generalización,
+
+30
+0:01:45.04,000 --> 0:01:47,000
+y el otro sobre un problema de razonamiento causal.
+
+31
+0:01:47.89,000 --> 0:01:49,000
+Y aunque hablaré del trabajo en mi laboratorio,
+
+32
+0:01:50.415,000 --> 0:01:53,000
+este trabajo se inspira y está en deuda con un campo.
+
+33
+0:01:53.875,000 --> 0:01:57,000
+Se lo agradezco a los mentores, colegas y colaboradores de todo el mundo.
+
+34
+0:01:59.308,000 --> 0:02:01,000
+Permítanme comenzar con el problema de la generalización.
+
+35
+0:02:02.652,000 --> 0:02:04,000
+Generalizar a partir de pequeñas muestras de datos
+
+36
+0:02:04.765,000 --> 0:02:06,000
+es el pan de cada día de la ciencia.
+
+37
+0:02:06.785,000 --> 0:02:08,000
+Entrevistamos a una pequeña fracción del electorado
+
+38
+0:02:09.339,000 --> 0:02:11,000
+y podemos predecir el resultado de las elecciones nacionales.
+
+39
+0:02:12.26,000 --> 0:02:15,000
+Vemos un puñado de pacientes responder al tratamiento en un ensayo clínico,
+
+40
+0:02:16.165,000 --> 0:02:19,000
+y lanzamos los fármacos a un mercado nacional.
+
+41
+0:02:19.23,000 --> 0:02:23,000
+Pero esto solo funciona si la muestra se extrae al azar de la población.
+
+42
+0:02:23.595,000 --> 0:02:25,000
+Si la muestra es seleccionada de alguna manera
+
+43
+0:02:26.33,000 --> 0:02:28,000
+--por ejemplo, un sondeo a solo votantes urbanos,
+
+44
+0:02:28.715,000 --> 0:02:32,000
+o, en un ensayo clínico de tratamientos para enfermedades del corazón,
+
+45
+0:02:32.79,000 --> 0:02:33,000
+solo incluimos hombres--
+
+46
+0:02:34.671,000 --> 0:02:37,000
+los resultados no pueden generalizarse a la población en general.
+
+47
+0:02:38.479,000 --> 0:02:41,000
+Los científicos se preocupan si la evidencia es tomada o no al azar,
+
+48
+0:02:41.726,000 --> 0:02:43,000
+pero ¿qué tiene esto que ver con los bebés?
+
+49
+0:02:44.588,000 --> 0:02:46,000
+Los bebés tienen que generalizar a partir de
+
+50
+0:02:46.792,000 --> 0:02:48,000
+pequeñas muestras de datos todo el tiempo.
+
+51
+0:02:49.206,000 --> 0:02:52,000
+Ellos ven un par de patos de goma y aprenden que flotan,
+
+52
+0:02:52.364,000 --> 0:02:55,000
+o un par de pelotas y aprenden que rebotan.
+
+53
+0:02:55.939,000 --> 0:02:57,000
+Y desarrollan expectativas sobre patos y pelotas
+
+54
+0:02:58.89,000 --> 0:03:,000
+que van a extender a los patos de goma y a las pelotas
+
+55
+0:03:01.606,000 --> 0:03:02,000
+por el resto de sus vidas.
+
+56
+0:03:03.485,000 --> 0:03:06,000
+El tipo de generalizaciones que los bebés tienen que hacer sobre patos y bolas
+
+57
+0:03:07.224,000 --> 0:03:09,000
+tienen que hacerlas con casi todo:
+
+58
+0:03:09.313,000 --> 0:03:12,000
+zapatos y barcos y cera y coles y reyes.
+
+59
+0:03:14.2,000 --> 0:03:16,000
+¿A los bebés les importa si las pocas pruebas que ven,
+
+60
+0:03:17.161,000 --> 0:03:2,000
+representan una población más grande?
+
+61
+0:03:21.763,000 --> 0:03:22,000
+Vamos a ver.
+
+62
+0:03:23.663,000 --> 0:03:24,000
+Les mostraré dos películas,
+
+63
+0:03:25.386,000 --> 0:03:27,000
+una de cada una de las dos condiciones de un experimento,
+
+64
+0:03:28.134,000 --> 0:03:3,000
+y como son solo dos películas,
+
+65
+0:03:30.286,000 --> 0:03:32,000
+verán solo dos bebés,
+
+66
+0:03:32.422,000 --> 0:03:35,000
+y los dos bebés difieren entre sí en innumerables maneras.
+
+67
+0:03:36.369,000 --> 0:03:39,000
+Pero estos bebés, por supuesto, son parte de grupos de bebés,
+
+68
+0:03:39.42,000 --> 0:03:4,000
+y las diferencias que verán
+
+69
+0:03:41.315,000 --> 0:03:44,000
+representan diferencias del grupo promedio
+
+70
+0:03:44.426,000 --> 0:03:46,000
+en el comportamiento según las condiciones.
+
+71
+0:03:47.16,000 --> 0:03:49,000
+En cada película, verán a un bebé haciendo
+
+72
+0:03:49.743,000 --> 0:03:52,000
+exactamente lo que cabría esperar que haga un bebé,
+
+73
+0:03:53.203,000 --> 0:03:57,000
+y difícilmente podemos hacer a los bebés más mágicos de lo que ya son.
+
+74
+0:03:58.09,000 --> 0:04:,000
+Pero a para mi mente lo mágico,
+
+75
+0:04:00.1,000 --> 0:04:02,000
+y a lo que quiero que presten atención,
+
+76
+0:04:02.189,000 --> 0:04:05,000
+es al contraste entre estas dos condiciones,
+
+77
+0:04:05.3,000 --> 0:04:08,000
+porque lo único en que se diferencian estas dos películas
+
+78
+0:04:08.829,000 --> 0:04:11,000
+es la evidencia estadística que los bebés observarán.
+
+79
+0:04:13.425,000 --> 0:04:16,000
+Les mostraremos una caja de bolas de color azul y amarillo,
+
+80
+0:04:16.608,000 --> 0:04:2,000
+y mi entonces estudiante de posgrado, ahora colega en Stanford, Hyowon Gweon,
+
+81
+0:04:21.228,000 --> 0:04:24,000
+sacará tres bolas de color azul en fila de esta caja,
+
+82
+0:04:24.305,000 --> 0:04:27,000
+y al sacar esas bolas fuera, las apretará,
+
+83
+0:04:27.428,000 --> 0:04:29,000
+y las bolas chirriarán.
+
+84
+0:04:29.541,000 --> 0:04:31,000
+Y si fueran el bebé, sería como una TED Talk.
+
+85
+0:04:32.303,000 --> 0:04:33,000
+No hay nada mejor que eso.
+
+86
+0:04:34.208,000 --> 0:04:36,000
+(Risas)
+
+87
+0:04:38.968,000 --> 0:04:41,000
+Pero el punto importante es que es muy fácil sacar tres bolas azules en fila
+
+88
+0:04:42.627,000 --> 0:04:44,000
+de una caja de pelotas en su mayoría azules.
+
+89
+0:04:44.932,000 --> 0:04:46,000
+Podrían hacerlo con los ojos cerrados.
+
+90
+0:04:46.992,000 --> 0:04:48,000
+Es posible una muestra aleatoria de esta población.
+
+91
+0:04:49.988,000 --> 0:04:52,000
+Y si se pueden sacar de la caja al azar y sacar cosas que chirrían,
+
+92
+0:04:53.72,000 --> 0:04:55,000
+entonces tal vez todo en la caja chirría.
+
+93
+0:04:56.559,000 --> 0:04:59,000
+Tal vez los bebés deben esperar que esas bolas amarillas chirríen también.
+
+94
+0:05:00.209,000 --> 0:05:02,000
+Las bolas amarillas tienen palos divertidos al final,
+
+95
+0:05:02.728,000 --> 0:05:04,000
+así los bebés podrían hacer otras cosas con ellas si quisieran.
+
+96
+0:05:05.585,000 --> 0:05:06,000
+Podrían sacudirlas o golpear a ellas.
+
+97
+0:05:07.416,000 --> 0:05:09,000
+Pero vamos a ver lo que hace el bebé.
+
+98
+0:05:12.548,000 --> 0:05:15,000
+(Video) Hyowon Gweon: ¿Ves esto? (Bola chirría)
+
+99
+0:05:16.531,000 --> 0:05:19,000
+¿Viste eso? (Bola chirría)
+
+100
+0:05:20.036,000 --> 0:05:23,000
+Genial.
+
+101
+0:05:24.706,000 --> 0:05:25,000
+¿Ves este?
+
+102
+0:05:26.656,000 --> 0:05:27,000
+(Bola chirría)
+
+103
+0:05:28.537,000 --> 0:05:3,000
+Guauu.
+
+104
+0:05:33.854,000 --> 0:05:35,000
+Laura Schulz: Lo dije. (Risas)
+
+105
+0:05:35.967,000 --> 0:05:39,000
+(Video) HG: ¿Ves este? (Bola chirría)
+
+106
+0:05:39.998,000 --> 0:05:43,000
+Clara, este es para ti. Puedes jugar.
+
+107
+0:05:51.854,000 --> 0:05:55,000
+(Risas)
+
+108
+0:05:56.219,000 --> 0:05:58,000
+LS: No tengo ni siquiera que hablar, ¿verdad?
+
+109
+0:05:59.214,000 --> 0:06:01,000
+Está bien, es bueno que los bebés generalicen propiedades
+
+110
+0:06:02.113,000 --> 0:06:03,000
+de bolas azules a amarillas,
+
+111
+0:06:03.641,000 --> 0:06:06,000
+y es impresionante que pueden aprender de nosotros imitando,
+
+112
+0:06:06.737,000 --> 0:06:09,000
+pero ido aprendiendo esas cosas de los bebés durante mucho tiempo.
+
+113
+0:06:10.406,000 --> 0:06:11,000
+La pregunta realmente interesante
+
+114
+0:06:12.217,000 --> 0:06:14,000
+es qué sucede cuando les mostramos a los bebés lo mismo,
+
+115
+0:06:15.069,000 --> 0:06:18,000
+y sabemos que es lo mismo, porque tenemos un compartimiento secreto
+
+116
+0:06:18.68,000 --> 0:06:2,000
+y que en realidad tomamos las bolas de allí,
+
+117
+0:06:20.79,000 --> 0:06:23,000
+pero esta vez, lo único que cambiamos es la población aparente
+
+118
+0:06:24.268,000 --> 0:06:26,000
+de la que se extrae la evidencia.
+
+119
+0:06:27.17,000 --> 0:06:3,000
+Esta vez, mostraremos a los bebés tres bolas azules
+
+120
+0:06:30.723,000 --> 0:06:33,000
+sacadas de una caja de pelotas en su mayoría de color amarillo,
+
+121
+0:06:34.107,000 --> 0:06:35,000
+¿y adivinen qué?
+
+122
+0:06:35.429,000 --> 0:06:37,000
+Seguramente no sacarán al azar tres bolas azules en fila
+
+123
+0:06:38.269,000 --> 0:06:4,000
+de una caja de pelotas en su mayoría amarillas.
+
+124
+0:06:40.753,000 --> 0:06:43,000
+Eso no es plausible en muestreos aleatorios.
+
+125
+0:06:44.5,000 --> 0:06:49,000
+Esa evidencia sugiere que tal vez Hyowon tomaba deliberadamente las bolas azules.
+
+126
+0:06:49.623,000 --> 0:06:51,000
+Tal vez hay algo especial con las bolas azules.
+
+127
+0:06:52.846,000 --> 0:06:54,000
+Tal vez solo las bolas azules chirrían.
+
+128
+0:06:55.822,000 --> 0:06:56,000
+Vamos a ver lo que hace el bebé.
+
+129
+0:06:57.717,000 --> 0:06:59,000
+(Video) HG: ¿Ves esto? (Bola chirría)
+
+130
+0:07:02.851,000 --> 0:07:04,000
+¿Ves este juguete? (Bola chirría)
+
+131
+0:07:05.496,000 --> 0:07:1,000
+Oh, eso fue genial. ¿Ves? (Bola chirría)
+
+132
+0:07:10.976,000 --> 0:07:14,000
+Este es para que juegues. Puedes jugar.
+
+133
+0:07:18.074,000 --> 0:07:24,000
+(Hace ruidos) (Risas)
+
+134
+0:07:26.901,000 --> 0:07:28,000
+LS: Acaban de ver dos bebés de 15 meses de edad
+
+135
+0:07:29.649,000 --> 0:07:3,000
+hacer cosas completamente diferentes
+
+136
+0:07:31.591,000 --> 0:07:34,000
+basados solo en la probabilidad de la muestra que observaron.
+
+137
+0:07:35.19,000 --> 0:07:37,000
+Les enseñaré los resultados experimentales.
+
+138
+0:07:37.511,000 --> 0:07:39,000
+En el eje vertical, verán el porcentaje de bebés
+
+139
+0:07:40.275,000 --> 0:07:42,000
+que apretaron la pelota en cada condición,
+
+140
+0:07:42.805,000 --> 0:07:45,000
+y como verán, los bebés son mucho más propensos a generalizar las pruebas
+
+141
+0:07:46.52,000 --> 0:07:49,000
+cuando es plausiblemente representativa de la población
+
+142
+0:07:49.655,000 --> 0:07:52,000
+que cuando la evidencia es claramente escogida.
+
+143
+0:07:53.393,000 --> 0:07:55,000
+Y esto lleva a una predicción extraña:
+
+144
+0:07:55.808,000 --> 0:07:59,000
+Supongamos que sacamos solo una bola azul de una caja con mayoría amarilla.
+
+145
+0:08:00.896,000 --> 0:08:03,000
+Probablemente no sacarán tres azules en fila al azar de una caja de amarillas,
+
+146
+0:08:04.765,000 --> 0:08:06,000
+pero se podría solo una bola azul al azar.
+
+147
+0:08:07.22,000 --> 0:08:08,000
+Esa no es una muestra improbable.
+
+148
+0:08:09.19,000 --> 0:08:11,000
+Y si pudieran tomar una al azar de una caja
+
+149
+0:08:11.414,000 --> 0:08:14,000
+y sacar algo que chirría, tal vez todo en la caja chirriaría.
+
+150
+0:08:15.875,000 --> 0:08:19,000
+Así que a pesar de que los bebés verán mucha menos evidencia de chirridos,
+
+151
+0:08:20.32,000 --> 0:08:22,000
+y tienen muchas menos acciones para imitar
+
+152
+0:08:22.562,000 --> 0:08:25,000
+en esta condición de una bola que es la que van a ver,
+
+153
+0:08:25.905,000 --> 0:08:28,000
+predijimos que los bebés sí la exprimirían más,
+
+154
+0:08:29.797,000 --> 0:08:31,000
+y eso es exactamente lo que encontramos.
+
+155
+0:08:32.691,000 --> 0:08:36,000
+Los bebés de 15 meses de edad, en este sentido, al igual que los científicos,
+
+156
+0:08:37.102,000 --> 0:08:4,000
+tienen cuidado de si la evidencia es de una muestra al azar o no,
+
+157
+0:08:40.19,000 --> 0:08:43,000
+y utilizan esto para desarrollar expectativas sobre el mundo:
+
+158
+0:08:43.697,000 --> 0:08:45,000
+que chirría y que no,
+
+159
+0:08:45.879,000 --> 0:08:48,000
+qué explorar y qué ignorar.
+
+160
+0:08:50.384,000 --> 0:08:52,000
+Les mostraré otro ejemplo,
+
+161
+0:08:52.45,000 --> 0:08:54,000
+sobre un problema de razonamiento causal.
+
+162
+0:08:55.179,000 --> 0:08:57,000
+Comienza con un problema confuso de evidencia
+
+163
+0:08:57.619,000 --> 0:08:58,000
+que todos tenemos,
+
+164
+0:08:59.291,000 --> 0:09:01,000
+que es que somos parte del mundo.
+
+165
+0:09:01.311,000 --> 0:09:04,000
+Puede no parecer un problema, pero como la mayoría de los problemas,
+
+166
+0:09:04.747,000 --> 0:09:06,000
+es solo un problema cuando las cosas van mal.
+
+167
+0:09:07.464,000 --> 0:09:08,000
+Tomen este bebé, por ejemplo.
+
+168
+0:09:09.275,000 --> 0:09:1,000
+Las cosas van mal para él.
+
+169
+0:09:10.98,000 --> 0:09:12,000
+Le gustaría jugar con este juguete, y no puede.
+
+170
+0:09:13.251,000 --> 0:09:15,000
+Les mostraré unos pocos segundos del clip.
+
+171
+0:09:21.34,000 --> 0:09:22,000
+Hay dos grandes posibilidades:
+
+172
+0:09:23.26,000 --> 0:09:25,000
+Tal vez él está haciendo algo mal,
+
+173
+0:09:25.894,000 --> 0:09:29,000
+o tal vez hay algo mal con el juguete.
+
+174
+0:09:30.11,000 --> 0:09:32,000
+Así que en el siguiente experimento,
+
+175
+0:09:32.221,000 --> 0:09:35,000
+daremos a los bebés solo unos pocos datos estadísticos
+
+176
+0:09:35.518,000 --> 0:09:37,000
+para apoyar una hipótesis sobre la otra,
+
+177
+0:09:38.1,000 --> 0:09:41,000
+y veremos si pueden usarlos para tomar decisiones diferentes
+
+178
+0:09:41.555,000 --> 0:09:42,000
+acerca de qué hacer.
+
+179
+0:09:43.389,000 --> 0:09:45,000
+Aquí está la configuración.
+
+180
+0:09:46.071,000 --> 0:09:49,000
+Hyowon intentará que el juguete funcione y tenga éxito.
+
+181
+0:09:49.101,000 --> 0:09:52,000
+Yo a continuación lo intentaré dos veces y fallaré en ambas,
+
+182
+0:09:52.421,000 --> 0:09:55,000
+y luego Hyowon lo intentará de nuevo y tendrá éxito,
+
+183
+0:09:55.533,000 --> 0:09:58,000
+lo que resume casi mi relación con mis estudiantes de posgrado
+
+184
+0:09:58.705,000 --> 0:10:,000
+en tecnología en todos los ámbitos.
+
+185
+0:10:02.03,000 --> 0:10:05,000
+Pero el punto importante aquí es que proporciona algo de evidencia
+
+186
+0:10:05.322,000 --> 0:10:08,000
+que el problema no es con el juguete, que es con la persona.
+
+187
+0:10:08.99,000 --> 0:10:1,000
+Algunos pueden hacer funcionar este juguete,
+
+188
+0:10:11.34,000 --> 0:10:11,000
+y otros no pueden.
+
+189
+0:10:12.799,000 --> 0:10:15,000
+Cuando el bebé recibe el juguete, optará por una alternativa.
+
+190
+0:10:16.212,000 --> 0:10:18,000
+Su mamá está ahí,
+
+191
+0:10:18.4,000 --> 0:10:21,000
+para que pueda continuar y cambiar a la persona,
+
+192
+0:10:21.715,000 --> 0:10:24,000
+pero también habrá otro juguete al final de esa tela,
+
+193
+0:10:24.873,000 --> 0:10:27,000
+y él puede tirar de la tela hacia él y cambiar el juguete.
+
+194
+0:10:28.425,000 --> 0:10:3,000
+Así que veamos qué hace el bebé.
+
+195
+0:10:30.515,000 --> 0:10:34,000
+(Video) HG: Dos, tres. ¡Adelante! (Música)
+
+196
+0:10:34.698,000 --> 0:10:37,000
+LS: Uno, dos, tres, ¡ya!
+
+197
+0:10:37.829,000 --> 0:10:44,000
+Arthur, voy a intentarlo de nuevo. Uno, dos, tres, ¡ya!
+
+198
+0:10:45.677,000 --> 0:10:47,000
+YG: Arthur, déjame intentarlo de nuevo, ¿de acuerdo?
+
+199
+0:10:48.277,000 --> 0:10:52,000
+Uno, dos, tres, ¡ya! (Música)
+
+200
+0:10:53.583,000 --> 0:10:54,000
+Mira eso. ¿Recuerdas estos juguetes?
+
+201
+0:10:55.466,000 --> 0:10:58,000
+¿Ves estos juguetes? Sí, voy a poner este aquí,
+
+202
+0:10:58.73,000 --> 0:11:,000
+y te voy a dar este.
+
+203
+0:11:00.792,000 --> 0:11:02,000
+Puede jugar.
+
+204
+0:11:23.213,000 --> 0:11:27,000
+BT: Bueno, Laura, pero, por supuesto, los bebés aman a sus mamás.
+
+205
+0:11:27.95,000 --> 0:11:29,000
+Claro, los bebés dan juguetes a sus mamás
+
+206
+0:11:30.132,000 --> 0:11:32,000
+cuando no pueden hacer que funcionen.
+
+207
+0:11:32.162,000 --> 0:11:35,000
+De nuevo, la pregunta realmente importante es qué sucede cuando cambiamos
+
+208
+0:11:35.755,000 --> 0:11:38,000
+los datos estadísticos ligeramente.
+
+209
+0:11:38.909,000 --> 0:11:42,000
+Esta vez, los bebés verán el juguete funcionar y fallar en el mismo orden,
+
+210
+0:11:42.996,000 --> 0:11:44,000
+pero cambiamos la distribución de las pruebas.
+
+211
+0:11:45.411,000 --> 0:11:49,000
+Esta vez, Hyowon tendrá éxito una vez y fallará otra, y yo también
+
+212
+0:11:49.822,000 --> 0:11:54,000
+Y esto sugiere que no importa quién usa el juguete, el juguete falla.
+
+213
+0:11:55.459,000 --> 0:11:56,000
+No funciona todo el tiempo.
+
+214
+0:11:57.345,000 --> 0:11:58,000
+Una vez más, el bebé tendrá una elección.
+
+215
+0:11:59.31,000 --> 0:12:02,000
+Su mamá está justo al lado, para que ella pueda cambiar a la persona,
+
+216
+0:12:02.706,000 --> 0:12:05,000
+y habrá otro juguete al final de la tela.
+
+217
+0:12:05.91,000 --> 0:12:06,000
+Vamos a ver lo que hace.
+
+218
+0:12:07.288,000 --> 0:12:11,000
+(Video) HG: Dos, tres, ¡ya! (Música)
+
+219
+0:12:11.636,000 --> 0:12:15,000
+Déjame intentarlo una vez más. Uno, dos, tres, ¡ya!
+
+220
+0:12:17.46,000 --> 0:12:18,000
+Hmm.
+
+221
+0:12:19.95,000 --> 0:12:21,000
+LS: Déjame intentar, Clara.
+
+222
+0:12:22.642,000 --> 0:12:25,000
+Uno, dos, tres, ¡ya!
+
+223
+0:12:27.265,000 --> 0:12:28,000
+Hmm, déjame intentarlo de nuevo.
+
+224
+0:12:29.2,000 --> 0:12:34,000
+Uno, dos, tres, ¡ya! (Música)
+
+225
+0:12:35.009,000 --> 0:12:37,000
+HG: Voy a poner este por aquí,
+
+226
+0:12:37.242,000 --> 0:12:39,000
+y te voy a dar éste.
+
+227
+0:12:39.243,000 --> 0:12:42,000
+Puedes usarlo y jugar.
+
+228
+0:12:58.376,000 --> 0:13:02,000
+(Aplausos)
+
+229
+0:13:04.993,000 --> 0:13:06,000
+LS: Les mostrará los resultados experimentales.
+
+230
+0:13:07.385,000 --> 0:13:09,000
+En el eje vertical, verán la distribución
+
+231
+0:13:09.86,000 --> 0:13:11,000
+de opciones de los niños en cada condición,
+
+232
+0:13:12.437,000 --> 0:13:16,000
+y verán que la distribución de las opciones de los niños
+
+233
+0:13:16.988,000 --> 0:13:18,000
+dependen de los ensayos que observan.
+
+234
+0:13:19.775,000 --> 0:13:2,000
+Así, en el segundo año de vida,
+
+235
+0:13:21.632,000 --> 0:13:23,000
+los bebés pueden usar algo de los datos estadísticos
+
+236
+0:13:24.209,000 --> 0:13:27,000
+para decidir entre dos estrategias fundamentalmente diferentes
+
+237
+0:13:27.576,000 --> 0:13:28,000
+para actuar en el mundo:
+
+238
+0:13:29.457,000 --> 0:13:31,000
+pedir ayuda y explorar.
+
+239
+0:13:33.7,000 --> 0:13:36,000
+Acabo de mostrarles dos experimentos de laboratorio
+
+240
+0:13:37.134,000 --> 0:13:4,000
+de literalmente cientos en el campo que llegan a resultados similares,
+
+241
+0:13:40.825,000 --> 0:13:42,000
+debido a que el punto realmente crítico es
+
+242
+0:13:43.217,000 --> 0:13:48,000
+que la capacidad de los niños para hacer inferencias a partir de datos escasos
+
+243
+0:13:48.325,000 --> 0:13:53,000
+subyace a todo el aprendizaje cultural específico de la especie.
+
+244
+0:13:53.666,000 --> 0:13:57,000
+Los niños aprenden nuevas herramientas a partir de solo algunos ejemplos.
+
+245
+0:13:58.263,000 --> 0:14:02,000
+Aprenden nuevas relaciones causales a partir de solo algunos ejemplos.
+
+246
+0:14:03.928,000 --> 0:14:07,000
+Incluso aprenden nuevas palabras, en este caso en el lenguaje de señas americano.
+
+247
+0:14:08.799,000 --> 0:14:1,000
+Quiero cerrar con solo dos puntos.
+
+248
+0:14:12.05,000 --> 0:14:15,000
+Si han seguido mi mundo, el campo de las ciencias cerebrales y cognitivas,
+
+249
+0:14:15.738,000 --> 0:14:16,000
+en los últimos años,
+
+250
+0:14:17.665,000 --> 0:14:19,000
+tres grandes ideas habrán llamado su atención.
+
+251
+0:14:20.08,000 --> 0:14:23,000
+La primera es que esta es la era del cerebro.
+
+252
+0:14:23.516,000 --> 0:14:26,000
+Y, en efecto, ha habido descubrimientos asombrosos en neurociencia:
+
+253
+0:14:27.185,000 --> 0:14:3,000
+localización de regiones funcionalmente especializados de la corteza,
+
+254
+0:14:30.621,000 --> 0:14:32,000
+logrando cerebros de ratón transparentes,
+
+255
+0:14:33.222,000 --> 0:14:36,000
+la activación de las neuronas con la luz.
+
+256
+0:14:36.998,000 --> 0:14:37,000
+Una segunda gran idea
+
+257
+0:14:38.994,000 --> 0:14:42,000
+es que esta es la era de los grandes datos y el aprendizaje automático,
+
+258
+0:14:43.098,000 --> 0:14:46,000
+y las máquinas que aprenden prometen revolucionar nuestra comprensión
+
+259
+0:14:46.392,000 --> 0:14:5,000
+de todo, desde las redes sociales a la epidemiología.
+
+260
+0:14:50.906,000 --> 0:14:52,000
+Tal vez, al afrontar problemas de la escena comprensión
+
+261
+0:14:53.599,000 --> 0:14:54,000
+y el procesamiento del lenguaje natural,
+
+262
+0:14:55.592,000 --> 0:14:58,000
+nos diga algo sobre la cognición humana.
+
+263
+0:14:59.756,000 --> 0:15:,000
+Y la gran idea final que habrán oído
+
+264
+0:15:01.693,000 --> 0:15:04,000
+es que tal vez es una buena idea que vamos a saber tanto de cerebros
+
+265
+0:15:05.08,000 --> 0:15:06,000
+y tener tanto acceso a grandes datos,
+
+266
+0:15:06.997,000 --> 0:15:08,000
+porque dejaremos a nuestros propios dispositivos,
+
+267
+0:15:09.504,000 --> 0:15:12,000
+los seres humanos son falibles, tomamos atajos,
+
+268
+0:15:13.335,000 --> 0:15:16,000
+erramos, cometemos errores,
+
+269
+0:15:16.772,000 --> 0:15:19,000
+estamos sesgados, y en innumerables formas,
+
+270
+0:15:20.456,000 --> 0:15:22,000
+obtenemos el mundo equivocado.
+
+271
+0:15:24.843,000 --> 0:15:26,000
+Creo que estas son todas historias importantes,
+
+272
+0:15:27.792,000 --> 0:15:3,000
+y tienen mucho que decirnos acerca de lo que significa ser humano,
+
+273
+0:15:31.577,000 --> 0:15:34,000
+pero tengan en cuenta que hoy les conté una historia muy diferente.
+
+274
+0:15:35.966,000 --> 0:15:38,000
+Es una historia acerca de la mente y no del cerebro,
+
+275
+0:15:39.773,000 --> 0:15:42,000
+y, en particular, es una historia sobre los tipos de cálculos
+
+276
+0:15:42.779,000 --> 0:15:44,000
+que las mentes humanas pueden realizar de forma única,
+
+277
+0:15:45.369,000 --> 0:15:48,000
+que implican, ricos conocimientos estructurados y capacidad de aprender
+
+278
+0:15:49.313,000 --> 0:15:54,000
+desde pequeñas cantidades de datos, la evidencia de unos pocos ejemplos.
+
+279
+0:15:56.301,000 --> 0:16:,000
+Y fundamentalmente, es una historia sobre cómo iniciar a los niños muy pequeños
+
+280
+0:16:00.6,000 --> 0:16:04,000
+y continuar hasta el final a los más grandes logros
+
+281
+0:16:04.78,000 --> 0:16:07,000
+de nuestra cultura,
+
+282
+0:16:08.623,000 --> 0:16:09,000
+tenemos al mundo bien.
+
+283
+0:16:12.433,000 --> 0:16:17,000
+La mente humana no solo aprende de pequeñas cantidades de datos.
+
+284
+0:16:18.285,000 --> 0:16:2,000
+Las mentes humanas piensan nuevas ideas.
+
+285
+0:16:20.746,000 --> 0:16:23,000
+Las mentes humanas generan investigación y descubrimiento,
+
+286
+0:16:23.787,000 --> 0:16:28,000
+y las mentes humanas producen arte y literatura y poesía y teatro,
+
+287
+0:16:29.07,000 --> 0:16:32,000
+y las mentes humanas cuidan de otros seres humanos:
+
+288
+0:16:32.83,000 --> 0:16:35,000
+nuestros mayores, nuestros jóvenes, nuestros enfermos.
+
+289
+0:16:36.517,000 --> 0:16:38,000
+Incluso nos sana.
+
+290
+0:16:39.564,000 --> 0:16:42,000
+En los próximos años, veremos las innovaciones tecnológicas
+
+291
+0:16:42.667,000 --> 0:16:45,000
+incluso más allá de lo que yo pueda imaginar,
+
+292
+0:16:46.464,000 --> 0:16:48,000
+pero es muy poco probable
+
+293
+0:16:48.614,000 --> 0:16:53,000
+ver cualquier cosa, incluso aproximarse a la potencia de cálculo de un niño humano
+
+294
+0:16:54.323,000 --> 0:16:58,000
+en mi vida o en la suya.
+
+295
+0:16:58.621,000 --> 0:17:03,000
+Si invertimos en estos más poderosos alumnos y en su desarrollo,
+
+296
+0:17:03.668,000 --> 0:17:05,000
+en los bebés y niños
+
+297
+0:17:06.585,000 --> 0:17:07,000
+y madres y padres
+
+298
+0:17:08.411,000 --> 0:17:1,000
+y cuidadores y maestros
+
+299
+0:17:11.11,000 --> 0:17:15,000
+en la forma en que invertimos en nuestras otras formas más poderosas y elegantes
+
+300
+0:17:15.28,000 --> 0:17:18,000
+de tecnología, ingeniería y diseño,
+
+301
+0:17:18.498,000 --> 0:17:2,000
+no vamos simplemente a estar soñando con un futuro mejor,
+
+302
+0:17:21.436,000 --> 0:17:23,000
+estaremos planeando para uno.
+
+303
+0:17:23.564,000 --> 0:17:25,000
+Muchas gracias.
+
+304
+0:17:25.909,000 --> 0:17:28,000
+(Aplausos)
+
+305
+0:17:29.81,000 --> 0:17:33,000
+Chris Anderson: Laura, gracias. En realidad tengo una pregunta.
+
+306
+0:17:34.236,000 --> 0:17:36,000
+En primer lugar, la investigación es una locura.
+
+307
+0:17:36.595,000 --> 0:17:39,000
+Quiero decir, ¿quién diseñaría un experimento como ese? (Risas)
+
+308
+0:17:41.15,000 --> 0:17:42,000
+Los he visto un par de veces,
+
+309
+0:17:42.94,000 --> 0:17:45,000
+y todavía honestamente no creo que realmente esté pasando,
+
+310
+0:17:46.162,000 --> 0:17:49,000
+pero otras personas han hecho experimentos similares; revisen.
+
+311
+0:17:49.32,000 --> 0:17:5,000
+Los bebés son realmente genios.
+
+312
+0:17:50.953,000 --> 0:17:53,000
+LS: Se ven realmente impresionantes en nuestros experimentos,
+
+313
+0:17:53.96,000 --> 0:17:55,000
+pero piensa en cómo se ven en la vida real, ¿verdad?
+
+314
+0:17:56.612,000 --> 0:17:57,000
+Empiezan como un bebé.
+
+315
+0:17:57.762,000 --> 0:17:59,000
+18 meses más tarde, hablan contigo,
+
+316
+0:17:59.769,000 --> 0:18:02,000
+y las primeras palabras no son solo cosas como pelotas y patos,
+
+317
+0:18:02.81,000 --> 0:18:04,000
+son cosas como "se acabó", que se refieren a desaparición,
+
+318
+0:18:05.691,000 --> 0:18:07,000
+o "uh-oh", para acciones intencionales.
+
+319
+0:18:07.974,000 --> 0:18:08,000
+Tiene que ser tan poderoso.
+
+320
+0:18:09.536,000 --> 0:18:11,000
+Tiene que ser mucho más poderoso que cualquier otra cosa.
+
+321
+0:18:12.311,000 --> 0:18:13,000
+Están averiguando el mundo entero.
+
+322
+0:18:14.285,000 --> 0:18:17,000
+Un niño de 4 años, puede hablarte de casi cualquier cosa.
+
+323
+0:18:17.429,000 --> 0:18:18,000
+(Aplausos)
+
+324
+0:18:19.03,000 --> 0:18:22,000
+CA: ¿Y te he entendido bien, el otro punto clave que estás haciendo es,
+
+325
+0:18:22.444,000 --> 0:18:24,000
+que hemos pasado estos años donde hay todas estas charlas
+
+326
+0:18:25.198,000 --> 0:18:26,000
+de lo rara y loca que es nuestra mente,
+
+327
+0:18:27.13,000 --> 0:18:29,000
+la economía del comportamiento y las teorías subyacentes
+
+328
+0:18:29.997,000 --> 0:18:3,000
+de que no somos agentes racionales.
+
+329
+0:18:31.6,000 --> 0:18:35,000
+Realmente dices que la historia más grande es lo extraordinario,
+
+330
+0:18:35.816,000 --> 0:18:39,000
+y que en realidad es el genio que es poco apreciado.
+
+331
+0:18:40.76,000 --> 0:18:42,000
+LS: Una de mis citas favoritas de psicología
+
+332
+0:18:42.83,000 --> 0:18:44,000
+proviene del psicólogo social Solomon Asch, quien dijo
+
+333
+0:18:45.12,000 --> 0:18:47,000
+que la tarea fundamental de la psicología es quitar
+
+334
+0:18:47.927,000 --> 0:18:49,000
+el velo de la autoevidencia de las cosas.
+
+335
+0:18:50.553,000 --> 0:18:54,000
+Hay órdenes de magnitud, más decisiones que tomar cada día
+
+336
+0:18:55.104,000 --> 0:18:56,000
+que logran un buen mundo.
+
+337
+0:18:56.451,000 --> 0:18:58,000
+Sabes de los objetos y sus propiedades.
+
+338
+0:18:58.583,000 --> 0:19:01,000
+Los conoces cuando están ocultos. Los conoces en la oscuridad.
+
+339
+0:19:01.612,000 --> 0:19:02,000
+Puedes caminar por salas.
+
+340
+0:19:02.92,000 --> 0:19:05,000
+Puedes averiguar qué están pensando otros. Puedes hablar con ellos.
+
+341
+0:19:06.452,000 --> 0:19:08,000
+Navegas por el espacio. Sabes sobre números.
+
+342
+0:19:08.682,000 --> 0:19:11,000
+Sabes las relaciones causales. Y sobre el razonamiento moral.
+
+343
+0:19:11.704,000 --> 0:19:13,000
+Lo haces sin esfuerzo, así que no lo ves,
+
+344
+0:19:14.06,000 --> 0:19:16,000
+pero así es como conseguimos un buen mundo, y es un notable
+
+345
+0:19:16.972,000 --> 0:19:18,000
+y logros muy difíciles de entender.
+
+346
+0:19:19.29,000 --> 0:19:21,000
+CA: Sospecho que hay gente en la audiencia que tiene
+
+347
+0:19:21.918,000 --> 0:19:23,000
+la visión de la aceleración tecnológica
+
+348
+0:19:24.156,000 --> 0:19:26,000
+que podría controvertir tu afirmación de que en nuestras vidas
+
+349
+0:19:27.114,000 --> 0:19:3,000
+una computadora no hará lo que un niño de tres años puede hacer,
+
+350
+0:19:30.212,000 --> 0:19:32,000
+pero lo que está claro es que en cualquier escenario,
+
+351
+0:19:32.98,000 --> 0:19:35,000
+nuestras máquinas tienen mucho que aprender de nuestros niños.
+
+352
+0:19:38.23,000 --> 0:19:41,000
+LS: Creo que sí. Habrá máquinas de aprendizaje automático.
+
+353
+0:19:41.446,000 --> 0:19:45,000
+Quiero decir, nunca debe apostar en contra de los bebés o los chimpancés
+
+354
+0:19:45.649,000 --> 0:19:48,000
+o la tecnología como una cuestión de práctica,
+
+355
+0:19:49.294,000 --> 0:19:53,000
+pero no se trata solo de una diferencia en la cantidad,
+
+356
+0:19:53.822,000 --> 0:19:54,000
+es una diferencia en cualidad.
+
+357
+0:19:55.586,000 --> 0:19:57,000
+Tenemos computadoras muy potentes,
+
+358
+0:19:57.746,000 --> 0:19:59,000
+y las hacen hacer cosas muy sofisticadas,
+
+359
+0:20:00.137,000 --> 0:20:03,000
+a menudo con muy grandes cantidades de datos.
+
+360
+0:20:03.341,000 --> 0:20:05,000
+Las mentes humanas hacen, creo, algo muy distinto,
+
+361
+0:20:05.948,000 --> 0:20:08,000
+y creo que es la naturaleza estructurada y jerárquica del conocimiento humano
+
+362
+0:20:09.843,000 --> 0:20:11,000
+lo que sigue siendo un verdadero desafío.
+
+363
+0:20:11.875,000 --> 0:20:14,000
+CA: Laura Schulz, maravilloso alimento para la reflexión. Muchas gracias.
+
+364
+0:20:15.449,000 --> 0:20:17,000
+LS: Gracias. (Aplausos)
+

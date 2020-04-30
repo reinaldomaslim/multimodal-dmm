@@ -1,0 +1,1044 @@
+1
+0:00:16.331,000 --> 0:00:17,000
+Ladies and gentlemen,
+
+2
+0:00:17.507,000 --> 0:00:19,000
+I present to you the human genome.
+
+3
+0:00:19.658,000 --> 0:00:22,000
+(Applause)
+
+4
+0:00:23.561,000 --> 0:00:26,000
+Chromosome one -- top left, bottom right -- are the sex chromosomes.
+
+5
+0:00:27.518,000 --> 0:00:29,000
+Women have two copies of that big X chromosome;
+
+6
+0:00:30.27,000 --> 0:00:33,000
+men have the X and, of course, that small copy of the Y.
+
+7
+0:00:33.459,000 --> 0:00:36,000
+Sorry boys, but it's just a tiny little thing that makes you different.
+
+8
+0:00:37.174,000 --> 0:00:39,000
+So if you zoom in on this genome,
+
+9
+0:00:40.19,000 --> 0:00:43,000
+then what you see, of course, is this double-helix structure --
+
+10
+0:00:43.832,000 --> 0:00:46,000
+the code of life spelled out with these four biochemical letters,
+
+11
+0:00:46.99,000 --> 0:00:48,000
+or we call them bases: A, C, G and T.
+
+12
+0:00:49.26,000 --> 0:00:51,000
+How many are there in the human genome? Three billion.
+
+13
+0:00:51.856,000 --> 0:00:52,000
+Is that a big number?
+
+14
+0:00:53.06,000 --> 0:00:55,000
+Well, everybody can throw around big numbers.
+
+15
+0:00:55.303,000 --> 0:00:57,000
+But in fact, if I were to place one base
+
+16
+0:00:57.427,000 --> 0:01:,000
+on each pixel of this 1280x800-resolution screen,
+
+17
+0:01:01.214,000 --> 0:01:04,000
+we would need 3,000 screens to take a look at the genome.
+
+18
+0:01:04.517,000 --> 0:01:05,000
+So it's really quite big.
+
+19
+0:01:05.749,000 --> 0:01:06,000
+And perhaps because of its size,
+
+20
+0:01:07.668,000 --> 0:01:09,000
+a group of people -- all, by the way, with Y chromosomes --
+
+21
+0:01:10.543,000 --> 0:01:12,000
+decided they would want to sequence it.
+
+22
+0:01:12.577,000 --> 0:01:14,000
+(Laughter)
+
+23
+0:01:14.616,000 --> 0:01:17,000
+And so 15 years, actually, and about four billion dollars later,
+
+24
+0:01:17.897,000 --> 0:01:18,000
+the genome was sequenced and published.
+
+25
+0:01:19.796,000 --> 0:01:22,000
+In 2003, the final version was published, and they keep working on it.
+
+26
+0:01:23.14,000 --> 0:01:24,000
+That was all done on a machine like this.
+
+27
+0:01:25.153,000 --> 0:01:28,000
+It costs about a dollar for each base -- a very slow way of doing it.
+
+28
+0:01:28.494,000 --> 0:01:29,000
+Well, folks, I'm here to tell you
+
+29
+0:01:30.113,000 --> 0:01:32,000
+that the world has completely changed,
+
+30
+0:01:32.228,000 --> 0:01:33,000
+and none of you know about it.
+
+31
+0:01:34.062,000 --> 0:01:36,000
+So now what we do is take a genome,
+
+32
+0:01:36.775,000 --> 0:01:37,000
+we make maybe 50 copies of it,
+
+33
+0:01:38.338,000 --> 0:01:41,000
+we cut all those copies up into little 50-base reads,
+
+34
+0:01:41.382,000 --> 0:01:43,000
+and then we sequence them, massively parallel.
+
+35
+0:01:43.747,000 --> 0:01:46,000
+Then we bring that into software and reassemble it,
+
+36
+0:01:46.858,000 --> 0:01:47,000
+and tell you what the story is.
+
+37
+0:01:48.452,000 --> 0:01:5,000
+So to give you a picture of what this looks like,
+
+38
+0:01:50.791,000 --> 0:01:52,000
+the Human Genome Project: 3 gigabases, right?
+
+39
+0:01:53.298,000 --> 0:01:57,000
+One run on one of these modern machines: 200 gigabases in a week.
+
+40
+0:01:57.974,000 --> 0:01:59,000
+And that 200 is going to change to 600 this summer,
+
+41
+0:02:00.511,000 --> 0:02:02,000
+and there's no sign of this pace slowing.
+
+42
+0:02:03.069,000 --> 0:02:06,000
+The price of a base, to sequence a base,
+
+43
+0:02:06.678,000 --> 0:02:08,000
+has fallen 100 million times.
+
+44
+0:02:09.455,000 --> 0:02:12,000
+That's the equivalent of you filling up your car with gas in 1998,
+
+45
+0:02:13.255,000 --> 0:02:14,000
+waiting until 2011,
+
+46
+0:02:14.508,000 --> 0:02:16,000
+and now you can drive to Jupiter and back twice.
+
+47
+0:02:16.945,000 --> 0:02:2,000
+(Laughter)
+
+48
+0:02:21.709,000 --> 0:02:22,000
+World population,
+
+49
+0:02:24.121,000 --> 0:02:25,000
+PC placements,
+
+50
+0:02:25.971,000 --> 0:02:27,000
+the archive of all of medical literature,
+
+51
+0:02:28.757,000 --> 0:02:29,000
+Moore's law,
+
+52
+0:02:30.479,000 --> 0:02:31,000
+the old way of sequencing,
+
+53
+0:02:32.332,000 --> 0:02:33,000
+and here's all the new stuff.
+
+54
+0:02:34.113,000 --> 0:02:35,000
+Guys, this is a long scale;
+
+55
+0:02:35.478,000 --> 0:02:37,000
+you don't typically see lines that go up like that.
+
+56
+0:02:38.702,000 --> 0:02:41,000
+So the worldwide capacity to sequence human genomes
+
+57
+0:02:42.184,000 --> 0:02:45,000
+is something like 50,000 to 100,000 human genomes this year.
+
+58
+0:02:45.377,000 --> 0:02:47,000
+We know this based on the machines that are being placed.
+
+59
+0:02:48.104,000 --> 0:02:5,000
+This is expected to double, triple or maybe quadruple
+
+60
+0:02:50.645,000 --> 0:02:52,000
+year over year for the foreseeable future.
+
+61
+0:02:52.879,000 --> 0:02:53,000
+In fact, there's one lab in particular
+
+62
+0:02:54.888,000 --> 0:02:56,000
+that represents 20 percent of all that capacity:
+
+63
+0:02:57.848,000 --> 0:02:59,000
+It's called the Beijing Genomics Institute.
+
+64
+0:03:00.666,000 --> 0:03:03,000
+The Chinese are absolutely winning this race to the new Moon, by the way.
+
+65
+0:03:04.395,000 --> 0:03:05,000
+What does this mean for medicine?
+
+66
+0:03:06.72,000 --> 0:03:08,000
+So a woman, age 37,
+
+67
+0:03:09.468,000 --> 0:03:12,000
+presents with stage 2 estrogen receptor-positive breast cancer.
+
+68
+0:03:12.706,000 --> 0:03:15,000
+She is treated with surgery, chemotherapy and radiation.
+
+69
+0:03:15.897,000 --> 0:03:16,000
+She goes home.
+
+70
+0:03:17.105,000 --> 0:03:18,000
+Two years later,
+
+71
+0:03:18.28,000 --> 0:03:21,000
+she comes back with stage 3C ovarian cancer, unfortunately;
+
+72
+0:03:21.478,000 --> 0:03:23,000
+treated again with surgery and chemotherapy.
+
+73
+0:03:23.939,000 --> 0:03:25,000
+She comes back three years later at age 42
+
+74
+0:03:26.217,000 --> 0:03:28,000
+with more ovarian cancer, more chemotherapy.
+
+75
+0:03:28.598,000 --> 0:03:29,000
+Six months later,
+
+76
+0:03:30.091,000 --> 0:03:33,000
+she comes back with acute myeloid leukemia.
+
+77
+0:03:34.819,000 --> 0:03:37,000
+She goes into respiratory failure and dies eight days later.
+
+78
+0:03:37.849,000 --> 0:03:39,000
+So first: the way in which this woman was treated,
+
+79
+0:03:40.231,000 --> 0:03:43,000
+in as little as 10 years, will look like bloodletting.
+
+80
+0:03:43.698,000 --> 0:03:45,000
+And it's because of people like my colleague, Rick Wilson,
+
+81
+0:03:46.547,000 --> 0:03:48,000
+at the Genome Institute at Washington University,
+
+82
+0:03:48.91,000 --> 0:03:5,000
+who decided to take a look at this woman postmortem.
+
+83
+0:03:51.393,000 --> 0:03:53,000
+And he took skin cells, healthy skin
+
+84
+0:03:53.9,000 --> 0:03:54,000
+and cancerous bone marrow,
+
+85
+0:03:55.862,000 --> 0:03:57,000
+and sequenced the whole genomes of both of them
+
+86
+0:03:58.172,000 --> 0:04:,000
+in a couple of weeks, no big deal.
+
+87
+0:04:00.26,000 --> 0:04:02,000
+Then he compared those two genomes in software,
+
+88
+0:04:02.485,000 --> 0:04:03,000
+and what he found, among other things,
+
+89
+0:04:04.334,000 --> 0:04:08,000
+was a deletion -- a 2,000-base deletion across three billion bases
+
+90
+0:04:08.971,000 --> 0:04:1,000
+in a particular gene called TP53.
+
+91
+0:04:11.154,000 --> 0:04:13,000
+If you have this deleterious mutation in this gene,
+
+92
+0:04:13.59,000 --> 0:04:15,000
+you're 90 percent likely to get cancer in your life.
+
+93
+0:04:16.336,000 --> 0:04:18,000
+So unfortunately, this doesn't help this woman,
+
+94
+0:04:18.584,000 --> 0:04:2,000
+but it does have severe -- profound, if you will --
+
+95
+0:04:21.26,000 --> 0:04:23,000
+implications to her family.
+
+96
+0:04:24.061,000 --> 0:04:25,000
+I mean, if they have the same mutation,
+
+97
+0:04:25.968,000 --> 0:04:27,000
+and they get this genetic test and they understand it,
+
+98
+0:04:28.537,000 --> 0:04:3,000
+then they can get regular screens and can catch cancer early,
+
+99
+0:04:31.442,000 --> 0:04:33,000
+and potentially live a significantly longer life.
+
+100
+0:04:33.786,000 --> 0:04:34,000
+Let me introduce you to the Beery twins,
+
+101
+0:04:35.74,000 --> 0:04:37,000
+diagnosed with cerebral palsy at the age of two.
+
+102
+0:04:38.096,000 --> 0:04:4,000
+Their mom is a very brave woman who didn't believe it;
+
+103
+0:04:40.668,000 --> 0:04:41,000
+the symptoms weren't matching up.
+
+104
+0:04:42.295,000 --> 0:04:45,000
+And through some heroic efforts and a lot of Internet searching,
+
+105
+0:04:45.327,000 --> 0:04:47,000
+she was able to convince the medical community
+
+106
+0:04:47.522,000 --> 0:04:48,000
+that, in fact, they had something else.
+
+107
+0:04:49.442,000 --> 0:04:51,000
+They had dopa-responsive dystonia.
+
+108
+0:04:51.632,000 --> 0:04:52,000
+And so they were given L-Dopa,
+
+109
+0:04:53.635,000 --> 0:04:55,000
+and their symptoms did improve,
+
+110
+0:04:55.976,000 --> 0:04:56,000
+but they weren't totally asymptomatic.
+
+111
+0:04:57.843,000 --> 0:04:58,000
+Significant problems remained.
+
+112
+0:04:59.334,000 --> 0:05:02,000
+Turns out the gentleman in this picture is a guy named Joe Beery,
+
+113
+0:05:02.527,000 --> 0:05:03,000
+who was lucky enough to be the CIO
+
+114
+0:05:04.194,000 --> 0:05:06,000
+of a company called Life Technologies.
+
+115
+0:05:06.339,000 --> 0:05:07,000
+They're one of two companies
+
+116
+0:05:07.705,000 --> 0:05:1,000
+that makes these massive whole-genome sequencing tools.
+
+117
+0:05:10.879,000 --> 0:05:13,000
+And so he got his kids sequenced.
+
+118
+0:05:13.916,000 --> 0:05:16,000
+What they found was a series of mutations in a gene called SPR,
+
+119
+0:05:17.018,000 --> 0:05:2,000
+which is responsible for producing serotonin, among other things.
+
+120
+0:05:20.439,000 --> 0:05:23,000
+So on top of L-Dopa, they gave these kids a serotonin precursor drug,
+
+121
+0:05:23.952,000 --> 0:05:24,000
+and they're effectively normal now.
+
+122
+0:05:25.698,000 --> 0:05:28,000
+Guys, this would never have happened without whole-genome sequencing.
+
+123
+0:05:29.013,000 --> 0:05:31,000
+At the time -- this was a few years ago -- it cost $100,000.
+
+124
+0:05:31.877,000 --> 0:05:32,000
+Today it's $10,000, next year, $1,000,
+
+125
+0:05:33.728,000 --> 0:05:35,000
+the year after, $100, give or take a year.
+
+126
+0:05:35.781,000 --> 0:05:36,000
+That's how fast this is moving.
+
+127
+0:05:37.305,000 --> 0:05:38,000
+So here's little Nick --
+
+128
+0:05:39.186,000 --> 0:05:4,000
+likes Batman and squirt guns.
+
+129
+0:05:40.926,000 --> 0:05:43,000
+And it turns out Nick shows up at the children's hospital
+
+130
+0:05:44.645,000 --> 0:05:46,000
+with this distended belly, like a famine victim.
+
+131
+0:05:46.931,000 --> 0:05:48,000
+And it's not that he's not eating; it's that when he eats,
+
+132
+0:05:49.791,000 --> 0:05:52,000
+his intestine basically opens up and feces spill out into his gut.
+
+133
+0:05:53.226,000 --> 0:05:54,000
+So a hundred surgeries later,
+
+134
+0:05:54.885,000 --> 0:05:57,000
+he looks at his mom and says, "Mom, please pray for me.
+
+135
+0:05:58.584,000 --> 0:05:59,000
+I'm in so much pain."
+
+136
+0:06:00.408,000 --> 0:06:03,000
+His pediatrician happens to have a background in clinical genetics
+
+137
+0:06:03.547,000 --> 0:06:04,000
+and he has no idea what's going on,
+
+138
+0:06:05.26,000 --> 0:06:07,000
+but he says, "Let's get this kid's genome sequenced."
+
+139
+0:06:07.827,000 --> 0:06:09,000
+And what they find is a single-point mutation
+
+140
+0:06:09.991,000 --> 0:06:11,000
+in a gene responsible for controlling programmed cell death.
+
+141
+0:06:12.864,000 --> 0:06:15,000
+So the theory is that he's having some immunological reaction
+
+142
+0:06:15.966,000 --> 0:06:17,000
+to what's going on -- to the food, essentially.
+
+143
+0:06:18.405,000 --> 0:06:21,000
+And that's a natural reaction, which causes some programmed cell death,
+
+144
+0:06:21.799,000 --> 0:06:23,000
+but the gene that regulates that down is broken.
+
+145
+0:06:24.093,000 --> 0:06:26,000
+And so this informs, among other things, of course,
+
+146
+0:06:26.535,000 --> 0:06:28,000
+a treatment for bone marrow transplant, which he undertakes.
+
+147
+0:06:29.53,000 --> 0:06:31,000
+And after nine months of grueling recovery,
+
+148
+0:06:31.574,000 --> 0:06:32,000
+he's now eating steak with A1 sauce.
+
+149
+0:06:33.503,000 --> 0:06:34,000
+(Laughter)
+
+150
+0:06:34.624,000 --> 0:06:38,000
+The prospect of using the genome as a universal diagnostic
+
+151
+0:06:38.747,000 --> 0:06:39,000
+is upon us today.
+
+152
+0:06:41.462,000 --> 0:06:42,000
+Today. It's here.
+
+153
+0:06:43.025,000 --> 0:06:44,000
+And what it means for all of us
+
+154
+0:06:44.541,000 --> 0:06:47,000
+is that everybody in this room could live an extra 5, 10, 20 years,
+
+155
+0:06:47.852,000 --> 0:06:48,000
+just because of this one thing.
+
+156
+0:06:49.543,000 --> 0:06:51,000
+Which is a fantastic story,
+
+157
+0:06:51.63,000 --> 0:06:53,000
+unless you think about humanity's footprint on the planet,
+
+158
+0:06:54.532,000 --> 0:06:56,000
+and our ability to keep up food production.
+
+159
+0:06:57.031,000 --> 0:06:58,000
+So it turns out
+
+160
+0:06:58.627,000 --> 0:07:01,000
+that the very same technology is also being used to grow new lines
+
+161
+0:07:02.592,000 --> 0:07:05,000
+of corn, wheat, soybean and other crops
+
+162
+0:07:05.745,000 --> 0:07:07,000
+that are highly tolerant of drought, of flood,
+
+163
+0:07:07.944,000 --> 0:07:08,000
+of pests and pesticides.
+
+164
+0:07:09.491,000 --> 0:07:1,000
+Now, look --
+
+165
+0:07:11.184,000 --> 0:07:13,000
+as long as we continue to increase the population,
+
+166
+0:07:13.582,000 --> 0:07:16,000
+we'll have to continue to grow and eat genetically modified foods.
+
+167
+0:07:16.785,000 --> 0:07:18,000
+And that's the only position I'll take today.
+
+168
+0:07:18.96,000 --> 0:07:19,000
+Unless there's anybody in the audience
+
+169
+0:07:20.802,000 --> 0:07:22,000
+who'd like to volunteer to stop eating?
+
+170
+0:07:23.047,000 --> 0:07:24,000
+None, not one.
+
+171
+0:07:24.961,000 --> 0:07:25,000
+This is a typewriter,
+
+172
+0:07:26.696,000 --> 0:07:28,000
+a staple of every desktop for decades.
+
+173
+0:07:29.339,000 --> 0:07:32,000
+And, in fact, the typewriter was essentially deleted by this thing.
+
+174
+0:07:33.503,000 --> 0:07:36,000
+And then more general versions of word processors came about.
+
+175
+0:07:36.792,000 --> 0:07:38,000
+But ultimately, it was a disruption on top of a disruption.
+
+176
+0:07:39.595,000 --> 0:07:41,000
+It was Bob Metcalfe inventing the Ethernet,
+
+177
+0:07:41.687,000 --> 0:07:42,000
+and the connection of all these computers
+
+178
+0:07:43.68,000 --> 0:07:44,000
+that fundamentally changed everything.
+
+179
+0:07:45.554,000 --> 0:07:47,000
+Suddenly we had Netscape, we had Yahoo.
+
+180
+0:07:48.379,000 --> 0:07:5,000
+And we had, indeed, the entire dot-com bubble.
+
+181
+0:07:51.948,000 --> 0:07:52,000
+(Laughter)
+
+182
+0:07:54.78,000 --> 0:07:55,000
+Not to worry though,
+
+183
+0:07:56.027,000 --> 0:07:58,000
+that was quickly rescued by the iPod, Facebook
+
+184
+0:07:58.626,000 --> 0:08:,000
+and, indeed, Angry Birds.
+
+185
+0:08:00.753,000 --> 0:08:01,000
+(Laughter)
+
+186
+0:08:03.125,000 --> 0:08:05,000
+Look, this is where we are today.
+
+187
+0:08:05.675,000 --> 0:08:07,000
+This is the genomic revolution today. This is where we are.
+
+188
+0:08:08.489,000 --> 0:08:09,000
+What I'd like you to consider is:
+
+189
+0:08:10.093,000 --> 0:08:11,000
+What does it mean
+
+190
+0:08:11.522,000 --> 0:08:14,000
+when these dots don't represent the individual bases of your genome,
+
+191
+0:08:14.903,000 --> 0:08:16,000
+but they connect to genomes all across the planet?
+
+192
+0:08:17.778,000 --> 0:08:2,000
+I just recently had to buy life insurance, and I was required to answer:
+
+193
+0:08:21.39,000 --> 0:08:23,000
+A. I have never had a genetic test;
+
+194
+0:08:23.545,000 --> 0:08:24,000
+B. I've had one, here you go;
+
+195
+0:08:25.052,000 --> 0:08:26,000
+or C. I've had one and I'm not telling.
+
+196
+0:08:27.021,000 --> 0:08:28,000
+Thankfully, I was able to answer A,
+
+197
+0:08:28.761,000 --> 0:08:31,000
+and I say that honestly, in case my life insurance agent is listening.
+
+198
+0:08:32.333,000 --> 0:08:34,000
+But what would have happened if I had said C?
+
+199
+0:08:34.756,000 --> 0:08:36,000
+Consumer applications for genomics will flourish.
+
+200
+0:08:37.181,000 --> 0:08:39,000
+Do you want to see if you're genetically compatible
+
+201
+0:08:39.654,000 --> 0:08:4,000
+with your girlfriend?
+
+202
+0:08:40.908,000 --> 0:08:42,000
+DNA sequencing on your iPhone? There's an app for that.
+
+203
+0:08:43.895,000 --> 0:08:44,000
+(Laughter)
+
+204
+0:08:45.705,000 --> 0:08:47,000
+Personalized genomic massage, anyone?
+
+205
+0:08:49.038,000 --> 0:08:53,000
+There's already a lab today that tests for allele 334 of the AVPR1 gene,
+
+206
+0:08:53.629,000 --> 0:08:54,000
+the so-called cheating gene.
+
+207
+0:08:55.037,000 --> 0:08:57,000
+(Laughter)
+
+208
+0:08:57.076,000 --> 0:08:59,000
+So anybody who's here today with your significant other,
+
+209
+0:08:59.727,000 --> 0:09:01,000
+just turn over to them, swab their mouth, send it to the lab
+
+210
+0:09:02.618,000 --> 0:09:03,000
+and you'll know for sure.
+
+211
+0:09:03.911,000 --> 0:09:04,000
+(Laughter)
+
+212
+0:09:05.046,000 --> 0:09:06,000
+Do you really want to elect a president
+
+213
+0:09:07.012,000 --> 0:09:09,000
+whose genome suggests cardiomyopathy?
+
+214
+0:09:09.298,000 --> 0:09:1,000
+Think of it -- it's 2016,
+
+215
+0:09:11.182,000 --> 0:09:12,000
+and the leading candidate releases
+
+216
+0:09:12.912,000 --> 0:09:14,000
+not only her four years of back-tax returns,
+
+217
+0:09:15.018,000 --> 0:09:16,000
+but also her personal genome.
+
+218
+0:09:16.495,000 --> 0:09:17,000
+And it looks really good.
+
+219
+0:09:17.729,000 --> 0:09:19,000
+Then she challenges all her competitors to do the same.
+
+220
+0:09:20.349,000 --> 0:09:21,000
+Do you think that's not going to happen?
+
+221
+0:09:22.308,000 --> 0:09:24,000
+Do you think it would have helped John McCain?
+
+222
+0:09:24.566,000 --> 0:09:25,000
+(Laughter)
+
+223
+0:09:26.383,000 --> 0:09:29,000
+How many people in the audience have the last name Resnick, like me?
+
+224
+0:09:29.625,000 --> 0:09:3,000
+Raise your hand.
+
+225
+0:09:30.807,000 --> 0:09:31,000
+Anybody? Nobody.
+
+226
+0:09:32.435,000 --> 0:09:33,000
+Typically, there's one or two.
+
+227
+0:09:33.904,000 --> 0:09:35,000
+So my father's father was one of 10 Resnick brothers.
+
+228
+0:09:36.481,000 --> 0:09:4,000
+They all hated each other, and all moved to different parts of the planet.
+
+229
+0:09:40.59,000 --> 0:09:42,000
+So it's likely I'm related to every Resnick that I ever meet,
+
+230
+0:09:43.533,000 --> 0:09:44,000
+but I don't know.
+
+231
+0:09:44.708,000 --> 0:09:47,000
+So imagine if my genome were De-identified, sitting in software,
+
+232
+0:09:47.769,000 --> 0:09:49,000
+And a third cousin's genome was also sitting there,
+
+233
+0:09:50.177,000 --> 0:09:52,000
+and there was software that could compare the two
+
+234
+0:09:52.502,000 --> 0:09:53,000
+and make these associations.
+
+235
+0:09:53.883,000 --> 0:09:56,000
+Not hard to imagine. My company has software that does this right now.
+
+236
+0:09:57.215,000 --> 0:09:58,000
+Imagine one more thing,
+
+237
+0:09:58.407,000 --> 0:10:01,000
+that that software is able to ask both parties for mutual consent:
+
+238
+0:10:01.666,000 --> 0:10:03,000
+"Would you be willing to meet your third cousin?"
+
+239
+0:10:04.015,000 --> 0:10:05,000
+And if we both say yes -- voilà!
+
+240
+0:10:05.689,000 --> 0:10:06,000
+Welcome to Chromosomally LinkedIn.
+
+241
+0:10:07.49,000 --> 0:10:1,000
+(Laughter)
+
+242
+0:10:11.808,000 --> 0:10:12,000
+Now this is probably a good thing, right?
+
+243
+0:10:13.825,000 --> 0:10:14,000
+Bigger clan gatherings and so on.
+
+244
+0:10:15.437,000 --> 0:10:16,000
+But maybe it's a bad thing as well.
+
+245
+0:10:17.162,000 --> 0:10:19,000
+How many fathers in the room? Raise your hands.
+
+246
+0:10:19.467,000 --> 0:10:22,000
+OK, so experts think that one to three percent of you
+
+247
+0:10:22.819,000 --> 0:10:24,000
+are not actually the father of your child.
+
+248
+0:10:24.946,000 --> 0:10:25,000
+(Laughter)
+
+249
+0:10:26.724,000 --> 0:10:27,000
+Look --
+
+250
+0:10:27.924,000 --> 0:10:3,000
+(Laughter)
+
+251
+0:10:32.871,000 --> 0:10:34,000
+These genomes, these 23 chromosomes,
+
+252
+0:10:35.26,000 --> 0:10:38,000
+they don't in any way represent the quality of our relationships
+
+253
+0:10:38.649,000 --> 0:10:4,000
+or the nature of our society -- at least not yet.
+
+254
+0:10:41.366,000 --> 0:10:42,000
+And like any new technology,
+
+255
+0:10:43.185,000 --> 0:10:44,000
+it's really in humanity's hands
+
+256
+0:10:44.998,000 --> 0:10:46,000
+to wield it for the betterment of mankind
+
+257
+0:10:47.22,000 --> 0:10:48,000
+or not.
+
+258
+0:10:48.395,000 --> 0:10:5,000
+And so I urge you all to wake up and to tune in
+
+259
+0:10:50.642,000 --> 0:10:53,000
+and to influence the genomic revolution that's happening all around you.
+
+260
+0:10:54.062,000 --> 0:10:55,000
+Thank you.
+
+261
+0:10:55.237,000 --> 0:10:57,000
+(Applause)
+

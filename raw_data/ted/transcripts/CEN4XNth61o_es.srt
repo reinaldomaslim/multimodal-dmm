@@ -1,0 +1,1464 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:15.536,000 --> 0:00:16,000
+Hoy quiero hablarles de algo:
+
+3
+0:00:17.481,000 --> 0:00:2,000
+el mundo de la programación de código abierto puede enseñar democracia,
+
+4
+0:00:20.496,000 --> 0:00:21,000
+pero antes, un pequeño preámbulo.
+
+5
+0:00:22.131,000 --> 0:00:23,000
+Empecemos aquí.
+
+6
+0:00:23.951,000 --> 0:00:26,000
+Esta es Martha Payne, escocesa, de 9 años
+
+7
+0:00:27.346,000 --> 0:00:29,000
+y vive en el Consejo de Argyll y Bute.
+
+8
+0:00:29.367,000 --> 0:00:31,000
+Hace un par de meses, Payne abrió un blog de comida
+
+9
+0:00:32.06,000 --> 0:00:34,000
+llamado NeverSeconds; llevaba su cámara
+
+10
+0:00:34.933,000 --> 0:00:36,000
+todos los días para documentar
+
+11
+0:00:37.213,000 --> 0:00:39,000
+sus almuerzos escolares.
+
+12
+0:00:39.227,000 --> 0:00:4,000
+¿Pueden ver la verdura? (Risas)
+
+13
+0:00:41.116,000 --> 0:00:44,000
+Y, como ocurre a veces,
+
+14
+0:00:44.87,000 --> 0:00:46,000
+este blog primero recibió decenas de lectores,
+
+15
+0:00:47.46,000 --> 0:00:48,000
+después cientos de lectores
+
+16
+0:00:49.14,000 --> 0:00:51,000
+y luego miles, personas que ingresaban
+
+17
+0:00:51.726,000 --> 0:00:52,000
+para ver su calificación de almuerzos,
+
+18
+0:00:53.394,000 --> 0:00:54,000
+que incluye mi categoría favorita:
+
+19
+0:00:54.919,000 --> 0:00:57,000
+"Pelos en los alimentos". (Risas)
+
+20
+0:00:58.511,000 --> 0:01:01,000
+Este día no hubo cabellos. Eso es bueno.
+
+21
+0:01:01.982,000 --> 0:01:04,000
+Pero ayer hizo dos semanas que ella publicó
+
+22
+0:01:05.176,000 --> 0:01:06,000
+una nota que decía: "Adiós".
+
+23
+0:01:07.087,000 --> 0:01:1,000
+Decía: "Siento mucho decirte esto pero
+
+24
+0:01:10.301,000 --> 0:01:12,000
+el director hoy me sacó de la clase y dijo
+
+25
+0:01:13.045,000 --> 0:01:15,000
+que ya no puedo sacar fotos en el comedor.
+
+26
+0:01:16.041,000 --> 0:01:17,000
+Realmente me gustaba hacerlo.
+
+27
+0:01:17.767,000 --> 0:01:2,000
+Gracias por leer. Adiós".
+
+28
+0:01:20.997,000 --> 0:01:25,000
+Pueden imaginar lo que ocurrió después, ¿no? (Risas)
+
+29
+0:01:26.175,000 --> 0:01:31,000
+La indignación fue tan repentina, tan numerosa, tan unánime,
+
+30
+0:01:32.093,000 --> 0:01:34,000
+que el Consejo de Argyll y Bute dio marcha atrás
+
+31
+0:01:35.039,000 --> 0:01:36,000
+el mismo día y dijo: "Nunca
+
+32
+0:01:36.325,000 --> 0:01:38,000
+censuraríamos a una niña de 9 años". (Risas)
+
+33
+0:01:38.491,000 --> 0:01:4,000
+Salvo, claro, esta mañana. (Risas)
+
+34
+0:01:40.968,000 --> 0:01:44,000
+Y esto trae a colación la pregunta:
+
+35
+0:01:45.381,000 --> 0:01:47,000
+¿qué les hizo pensar que podían salirse
+
+36
+0:01:47.595,000 --> 0:01:49,000
+con la suya? (Risas)
+
+37
+0:01:49.645,000 --> 0:01:53,000
+Y la respuesta es: la historia humana hasta ahora.
+
+38
+0:01:54.362,000 --> 0:01:57,000
+(Risas) Entonces,
+
+39
+0:01:57.91,000 --> 0:02:,000
+¿qué ocurre cuando un medio de repente pone
+
+40
+0:02:01.835,000 --> 0:02:04,000
+en circulación un montón de ideas nuevas?
+
+41
+0:02:05.539,000 --> 0:02:07,000
+Pero esta no es una cuestión contemporánea.
+
+42
+0:02:07.644,000 --> 0:02:09,000
+Es algo que hemos enfrentado varias veces
+
+43
+0:02:09.644,000 --> 0:02:1,000
+en los últimos siglos.
+
+44
+0:02:11,000 --> 0:02:12,000
+Cuando surgió el telégrafo estaba claro
+
+45
+0:02:12.985,000 --> 0:02:14,000
+que iba a globalizar el mundo de las noticias.
+
+46
+0:02:15.203,000 --> 0:02:16,000
+Y esto, ¿a qué llevaría?
+
+47
+0:02:16.692,000 --> 0:02:19,000
+Bueno, obviamente, llevaría a la paz mundial.
+
+48
+0:02:20.256,000 --> 0:02:22,000
+La televisión, un medio que nos permitió no sólo oír
+
+49
+0:02:23.066,000 --> 0:02:25,000
+sino ver, literalmente ver, qué estaba ocurriendo
+
+50
+0:02:25.833,000 --> 0:02:27,000
+en otras partes del mundo, ¿eso a qué conllevaría?
+
+51
+0:02:28.15,000 --> 0:02:3,000
+A la paz mundial. (Risas)
+
+52
+0:02:30.39,000 --> 0:02:3,000
+¿El teléfono?
+
+53
+0:02:31.347,000 --> 0:02:33,000
+Adivinaron: a la paz mundial.
+
+54
+0:02:33.942,000 --> 0:02:37,000
+Siento decirlo, pero no trajo la paz mundial. Todavía no.
+
+55
+0:02:38.916,000 --> 0:02:4,000
+Incluso la imprenta, incluso la imprenta
+
+56
+0:02:41.395,000 --> 0:02:44,000
+se suponía que era una herramienta que impondría
+
+57
+0:02:44.524,000 --> 0:02:47,000
+la hegemonía intelectual católica en toda Europa.
+
+58
+0:02:48.177,000 --> 0:02:5,000
+En cambio, trajo "Las 95 tesis" de Martín Lutero,
+
+59
+0:02:50.661,000 --> 0:02:52,000
+la Reforma Protestante y, ya saben,
+
+60
+0:02:52.681,000 --> 0:02:54,000
+la Guerra de los Treinta Años. De acuerdo,
+
+61
+0:02:55.039,000 --> 0:02:59,000
+pero en lo que todas estas predicciones de paz acertaron
+
+62
+0:02:59.27,000 --> 0:03:01,000
+es que cuando, de repente, empiezan a circular
+
+63
+0:03:01.801,000 --> 0:03:03,000
+muchas ideas nuevas, eso cambia la sociedad.
+
+64
+0:03:04.727,000 --> 0:03:07,000
+Se equivocaron en lo que ocurriría después.
+
+65
+0:03:08.259,000 --> 0:03:1,000
+Cuanto más ideas hay en circulación,
+
+66
+0:03:10.808,000 --> 0:03:14,000
+hay más ideas con las que no estar de acuerdo a nivel individual.
+
+67
+0:03:15.516,000 --> 0:03:19,000
+Más medios siempre significa más discusiones.
+
+68
+0:03:20.289,000 --> 0:03:22,000
+Eso es lo que ocurre cuando se expande el espacio de medios.
+
+69
+0:03:23.209,000 --> 0:03:25,000
+Sin embargo, si nos retrotraemos a la imprenta
+
+70
+0:03:26.112,000 --> 0:03:29,000
+en los primeros años, nos gusta lo que pasó.
+
+71
+0:03:29.491,000 --> 0:03:32,000
+Somos una sociedad proimprenta.
+
+72
+0:03:32.735,000 --> 0:03:33,000
+Entonces, ¿cómo conciliar esas dos cosas?
+
+73
+0:03:34.705,000 --> 0:03:36,000
+nos lleva a discusiones, pero ¿nos parece algo bueno?
+
+74
+0:03:37.461,000 --> 0:03:39,000
+Creo que la respuesta está en este tipo de cosas.
+
+75
+0:03:40.06,000 --> 0:03:43,000
+Esta es la portada de "Philosophical Transactions",
+
+76
+0:03:43.345,000 --> 0:03:45,000
+la primera revista científica publicada en inglés
+
+77
+0:03:45.967,000 --> 0:03:46,000
+a mediados del siglo XVII,
+
+78
+0:03:47.849,000 --> 0:03:48,000
+creada por un grupo de personas que
+
+79
+0:03:49.676,000 --> 0:03:5,000
+se autodenominaba "El Colegio Invisible",
+
+80
+0:03:51.313,000 --> 0:03:53,000
+un grupo de filósofos de la naturaleza que sólo más tarde
+
+81
+0:03:53.517,000 --> 0:03:55,000
+se autodenominarían científicos,
+
+82
+0:03:56.122,000 --> 0:03:59,000
+que querían mejorar la forma en que
+
+83
+0:03:59.666,000 --> 0:04:01,000
+los filósofos naturales discutían
+
+84
+0:04:02.323,000 --> 0:04:03,000
+y para eso tenían que hacer dos cosas.
+
+85
+0:04:04.313,000 --> 0:04:06,000
+Necesitaban apertura. Tenían que crear una norma
+
+86
+0:04:06.797,000 --> 0:04:07,000
+que dijera, cuando uno hace un experimento
+
+87
+0:04:08.656,000 --> 0:04:1,000
+tiene que publicar no sólo sus afirmaciones,
+
+88
+0:04:11.341,000 --> 0:04:12,000
+sino cómo hizo uno el experimento.
+
+89
+0:04:12.767,000 --> 0:04:14,000
+Si no nos dices cómo lo hiciste, no te creeremos.
+
+90
+0:04:15.564,000 --> 0:04:17,000
+Lo otro que necesitaban era velocidad.
+
+91
+0:04:17.924,000 --> 0:04:19,000
+Tenían que sincronizar rápidamente con
+
+92
+0:04:20.229,000 --> 0:04:22,000
+lo que sabían otros filósofos naturales. De otro modo,
+
+93
+0:04:22.683,000 --> 0:04:24,000
+no se podrían mantener las discusiones apropiadas.
+
+94
+0:04:25.54,000 --> 0:04:27,000
+Claramente, la imprenta era el medio correcto para esto,
+
+95
+0:04:28.49,000 --> 0:04:3,000
+pero el libro era la herramienta incorrecta. Era demasiado lento.
+
+96
+0:04:31.076,000 --> 0:04:33,000
+Fue así que inventaron la revista científica
+
+97
+0:04:33.938,000 --> 0:04:35,000
+como una forma de sincronizar la discusión
+
+98
+0:04:36.724,000 --> 0:04:38,000
+en la comunidad de científicos naturales.
+
+99
+0:04:39.278,000 --> 0:04:42,000
+La revolución científica no fue producto de la imprenta.
+
+100
+0:04:42.776,000 --> 0:04:44,000
+Fue producto de los científicos
+
+101
+0:04:44.922,000 --> 0:04:45,000
+pero no se habría creado de no haber contado
+
+102
+0:04:46.781,000 --> 0:04:48,000
+con la herramienta de la imprenta.
+
+103
+0:04:48.951,000 --> 0:04:5,000
+Y, ¿qué hay de nosotros, de nuestra generación
+
+104
+0:04:51.191,000 --> 0:04:53,000
+y de nuestra revolución mediática, Internet?
+
+105
+0:04:53.194,000 --> 0:04:57,000
+Bueno, ¿predicciones de paz? Verifiquen. (Risas)
+
+106
+0:04:57.313,000 --> 0:05:05,000
+¿Más discusión? Premio de oro para esa.
+
+107
+0:05:05.896,000 --> 0:05:06,000
+(Risas)
+
+108
+0:05:07.207,000 --> 0:05:11,000
+Digo, YouTube es una mina de oro. (Risas)
+
+109
+0:05:11.554,000 --> 0:05:15,000
+¿Mejor discusión? Esa es la cuestión.
+
+110
+0:05:15.649,000 --> 0:05:17,000
+Por eso estudio medios sociales, es decir,
+
+111
+0:05:17.693,000 --> 0:05:19,000
+en una primera aproximación, veo a la gente discutir.
+
+112
+0:05:20.304,000 --> 0:05:24,000
+Y si tuviera que elegir un grupo que creo es
+
+113
+0:05:24.411,000 --> 0:05:27,000
+nuestro Colegio Invisible, es el grupo humano de nuestra generación
+
+114
+0:05:28.204,000 --> 0:05:31,000
+que trata de tomar estas herramientas y plasmarlas en servicio
+
+115
+0:05:31.363,000 --> 0:05:33,000
+no en busca de más, sino de mejores discusiones,
+
+116
+0:05:34.144,000 --> 0:05:36,000
+me quedaría con los programadores de código abierto.
+
+117
+0:05:36.539,000 --> 0:05:38,000
+La programación es una relación tripartita
+
+118
+0:05:38.801,000 --> 0:05:4,000
+entre un programador, algo de código
+
+119
+0:05:41.085,000 --> 0:05:43,000
+y la computadora que lo ejecuta; pero las computadoras
+
+120
+0:05:43.699,000 --> 0:05:47,000
+son célebres por interpretar instrucciones de forma inflexible.
+
+121
+0:05:48.401,000 --> 0:05:52,000
+Es extremadamente difícil escribir un conjunto
+
+122
+0:05:52.424,000 --> 0:05:55,000
+de instrucciones que la computadora sepa ejecutar
+
+123
+0:05:55.462,000 --> 0:05:56,000
+y eso si interviene una sola persona.
+
+124
+0:05:57.328,000 --> 0:05:59,000
+En cuanto pones a más de una persona a programar,
+
+125
+0:05:59.427,000 --> 0:06:02,000
+es muy fácil que cualquiera sobrescriba
+
+126
+0:06:02.511,000 --> 0:06:04,000
+el trabajo del otro si trabajan en el mismo archivo,
+
+127
+0:06:05.172,000 --> 0:06:07,000
+o que envíen instrucciones incompatibles
+
+128
+0:06:07.354,000 --> 0:06:09,000
+que simplemente provoquen un colapso
+
+129
+0:06:09.795,000 --> 0:06:11,000
+y este problema se acrecienta
+
+130
+0:06:12.754,000 --> 0:06:14,000
+conforme intervienen más programadores.
+
+131
+0:06:15.523,000 --> 0:06:18,000
+En una primera aproximación, el problema de gestionar
+
+132
+0:06:18.87,000 --> 0:06:2,000
+un gran proyecto de software consiste
+
+133
+0:06:21.596,000 --> 0:06:24,000
+en mantener bajo control este caos social.
+
+134
+0:06:25.252,000 --> 0:06:27,000
+Ahora, durante décadas ha existido una solución canónica
+
+135
+0:06:27.727,000 --> 0:06:28,000
+a este problema, que implica usar algo llamado
+
+136
+0:06:29.381,000 --> 0:06:3,000
+"sistema de control de versiones".
+
+137
+0:06:31.361,000 --> 0:06:33,000
+Y un sistema de control de versiones hace justamente eso.
+
+138
+0:06:33.57,000 --> 0:06:36,000
+Proporciona una copia canónica del software
+
+139
+0:06:36.964,000 --> 0:06:37,000
+de un servidor de algún lado.
+
+140
+0:06:38.516,000 --> 0:06:4,000
+Los únicos programadores que pueden modificarlo
+
+141
+0:06:41.422,000 --> 0:06:44,000
+son aquellos con permisos específicos para acceder al mismo,
+
+142
+0:06:44.953,000 --> 0:06:47,000
+y sólo pueden acceder a la subsección de código
+
+143
+0:06:48.72,000 --> 0:06:5,000
+sobre la que tienen permisos de edición.
+
+144
+0:06:51.15,000 --> 0:06:54,000
+Y al graficar diagramas de sistemas de control de versiones,
+
+145
+0:06:54.335,000 --> 0:06:56,000
+los diagramas siempre tienen un aspecto como éste.
+
+146
+0:06:56.7,000 --> 0:06:58,000
+Correcto. Parecen organigramas.
+
+147
+0:06:59.578,000 --> 0:07:,000
+Y no hay que esforzarse mucho
+
+148
+0:07:00.985,000 --> 0:07:03,000
+para ver las ramificaciones políticas de un sistema como este.
+
+149
+0:07:04.45,000 --> 0:07:08,000
+Es feudalismo: un propietario, muchos obreros.
+
+150
+0:07:08.926,000 --> 0:07:11,000
+Está bien para la industria del software comercial.
+
+151
+0:07:12.25,000 --> 0:07:17,000
+Es el Office de Microsoft. Es el Photoshop de Adobe.
+
+152
+0:07:17.64,000 --> 0:07:19,000
+La empresa es propietaria del software.
+
+153
+0:07:20.472,000 --> 0:07:22,000
+Los programadores van y vienen.
+
+154
+0:07:22.786,000 --> 0:07:25,000
+Pero hubo un programador que decidió
+
+155
+0:07:26.159,000 --> 0:07:28,000
+que esta no era forma de trabajar.
+
+156
+0:07:29.147,000 --> 0:07:3,000
+Se trata de Linus Torvalds.
+
+157
+0:07:30.409,000 --> 0:07:32,000
+Torvalds es el programador de código abierto más famoso;
+
+158
+0:07:32.561,000 --> 0:07:37,000
+creó Linux, obviamente, y observó la manera en la que
+
+159
+0:07:37.862,000 --> 0:07:4,000
+el movimiento de código abierto había abordado el problema.
+
+160
+0:07:41.374,000 --> 0:07:45,000
+El software de código abierto, la promesa central de la licencia de código abierto,
+
+161
+0:07:45.998,000 --> 0:07:48,000
+es que todos deberían tener acceso al código fuente
+
+162
+0:07:49.744,000 --> 0:07:52,000
+todo el tiempo, pero claro, esto crea
+
+163
+0:07:52.997,000 --> 0:07:55,000
+la amenaza del caos que hay que evitar
+
+164
+0:07:56.304,000 --> 0:07:57,000
+para conseguir que algo funcione.
+
+165
+0:07:57.882,000 --> 0:07:59,000
+La mayoría de los proyectos de código abierto asomaron la nariz
+
+166
+0:08:00.364,000 --> 0:08:02,000
+y adoptaron el sistema de gestión feudal.
+
+167
+0:08:03.044,000 --> 0:08:05,000
+Pero Torvalds dijo: "No, no lo haré".
+
+168
+0:08:05.552,000 --> 0:08:08,000
+Su punto de vista sobre este tema fue muy claro.
+
+169
+0:08:09.117,000 --> 0:08:11,000
+Cuando uno adopta una herramienta, también adopta
+
+170
+0:08:11.65,000 --> 0:08:14,000
+la filosofía de gestión que conlleva esa herramienta
+
+171
+0:08:15.239,000 --> 0:08:18,000
+y él no adoptaría algo que no funcionara
+
+172
+0:08:18.375,000 --> 0:08:2,000
+a la manera de la comunidad de Linux.
+
+173
+0:08:20.684,000 --> 0:08:22,000
+Y para darles una idea de lo enorme
+
+174
+0:08:23.216,000 --> 0:08:26,000
+que era una decisión así, este es el mapa
+
+175
+0:08:26.884,000 --> 0:08:29,000
+de las dependencias internas de Linux
+
+176
+0:08:30.373,000 --> 0:08:32,000
+dentro del sistema operativo Linux, qué subpartes
+
+177
+0:08:32.98,000 --> 0:08:36,000
+del programa dependen de otras subpartes para funcionar.
+
+178
+0:08:37.425,000 --> 0:08:4,000
+Es un proceso sumamente complicado.
+
+179
+0:08:41.003,000 --> 0:08:43,000
+Es un programa sumamente complicado
+
+180
+0:08:43.795,000 --> 0:08:45,000
+y sin embargo, durante años, Torvalds lo dirigió
+
+181
+0:08:46.46,000 --> 0:08:49,000
+no con herramientas automatizadas, sino desde su correo.
+
+182
+0:08:50.364,000 --> 0:08:52,000
+Las personas literalmente le enviaban los cambios
+
+183
+0:08:52.837,000 --> 0:08:56,000
+que habían acordado, y él los combinaba a mano.
+
+184
+0:08:56.956,000 --> 0:09:,000
+Y luego, 15 años después, al mirar Linux y analizar
+
+185
+0:09:01.702,000 --> 0:09:03,000
+el trabajo de la comunidad dijo: "Creo que sé
+
+186
+0:09:04.512,000 --> 0:09:08,000
+cómo escribir un sistema de control de versiones para personas libres".
+
+187
+0:09:08.679,000 --> 0:09:13,000
+Y lo llamó "Git". Git es un control de versiones distribuido.
+
+188
+0:09:14.574,000 --> 0:09:17,000
+Tiene dos grandes diferencias
+
+189
+0:09:17.598,000 --> 0:09:19,000
+con los sistemas tradicionales de control de versiones.
+
+190
+0:09:19.661,000 --> 0:09:22,000
+La primera es que hace honor a la promesa filosófica
+
+191
+0:09:22.808,000 --> 0:09:25,000
+del código abierto. Todo el que trabaja en un proyecto
+
+192
+0:09:26.094,000 --> 0:09:29,000
+tiene acceso a todo el código fuente, todo el tiempo.
+
+193
+0:09:29.765,000 --> 0:09:31,000
+Y al graficar el flujo de trabajo de Git
+
+194
+0:09:32.439,000 --> 0:09:34,000
+se usan gráficos que tienen este aspecto.
+
+195
+0:09:35.376,000 --> 0:09:37,000
+Y no hay que entender el significado de los círculos,
+
+196
+0:09:37.694,000 --> 0:09:4,000
+las cajas y las flechas para ver que ésta es una forma mucho más
+
+197
+0:09:41.373,000 --> 0:09:44,000
+complicada de trabajar que la provista
+
+198
+0:09:44.468,000 --> 0:09:46,000
+por los sistemas comunes de control de versiones.
+
+199
+0:09:47.189,000 --> 0:09:51,000
+Pero esto es también lo que trae nuevamente el caos,
+
+200
+0:09:51.498,000 --> 0:09:54,000
+y esta es la segunda gran innovación de Git.
+
+201
+0:09:54.548,000 --> 0:09:57,000
+Esta es una captura de pantalla de GitHub, el principal servicio de alojamiento de Git,
+
+202
+0:09:58.544,000 --> 0:10:01,000
+y cada vez que un programador usa Git
+
+203
+0:10:01.894,000 --> 0:10:04,000
+para hacer cualquier tipo de cambio,
+
+204
+0:10:05.055,000 --> 0:10:08,000
+para crear un nuevo archivo o modificar uno existente,
+
+205
+0:10:08.364,000 --> 0:10:12,000
+para combinar dos archivos, Git crea esta firma.
+
+206
+0:10:13.038,000 --> 0:10:16,000
+Esta larga cadena de números y letras de aquí
+
+207
+0:10:16.181,000 --> 0:10:21,000
+es un identificador único asociado a cada cambio,
+
+208
+0:10:21.256,000 --> 0:10:23,000
+pero sin una coordinación central.
+
+209
+0:10:24.113,000 --> 0:10:28,000
+Cada sistema Git genera este número de la misma manera,
+
+210
+0:10:28.602,000 --> 0:10:31,000
+lo que significa que es una firma infalsificable asociada
+
+211
+0:10:31.944,000 --> 0:10:34,000
+directamente a un cambio particular.
+
+212
+0:10:35.094,000 --> 0:10:36,000
+Esto tiene el siguiente efecto:
+
+213
+0:10:37.03,000 --> 0:10:4,000
+un programador en Edimburgo y uno en Entebbe
+
+214
+0:10:40.708,000 --> 0:10:43,000
+pueden ambos tomar una copia del mismo software.
+
+215
+0:10:44.41,000 --> 0:10:47,000
+Cada uno puede hacer cambios y combinarlos
+
+216
+0:10:48.236,000 --> 0:10:5,000
+después de eso, incluso desconociendo
+
+217
+0:10:51.171,000 --> 0:10:53,000
+de antemano la existencia el uno del otro.
+
+218
+0:10:54.13,000 --> 0:10:57,000
+Esto es cooperación sin coordinación.
+
+219
+0:10:57.629,000 --> 0:10:59,000
+Este es el gran cambio.
+
+220
+0:11:00.565,000 --> 0:11:05,000
+Pero no les cuento todo esto para convencerlos de que es genial
+
+221
+0:11:05.775,000 --> 0:11:08,000
+que los programadores de código abierto tengan una herramienta
+
+222
+0:11:09.472,000 --> 0:11:12,000
+que respalde su filosofía de trabajo,
+
+223
+0:11:12.565,000 --> 0:11:14,000
+aunque creo que es genial.
+
+224
+0:11:14.669,000 --> 0:11:16,000
+Les cuento todo esto por lo que creo que significa
+
+225
+0:11:17.437,000 --> 0:11:19,000
+en materia de unión de comunidades.
+
+226
+0:11:19.631,000 --> 0:11:25,000
+En cuanto Git permitió la cooperación sin coordinación,
+
+227
+0:11:25.95,000 --> 0:11:27,000
+se empezaron a ver formas comunitarias
+
+228
+0:11:28.89,000 --> 0:11:32,000
+enormemente grandes y complejas.
+
+229
+0:11:33.142,000 --> 0:11:35,000
+Este es un gráfico de la comunidad de Ruby.
+
+230
+0:11:35.421,000 --> 0:11:36,000
+Es un lenguaje de programación de código abierto
+
+231
+0:11:36.95,000 --> 0:11:38,000
+y todas las conexiones interpersonales
+
+232
+0:11:39.948,000 --> 0:11:41,000
+—este ya no es un gráfico del software, sino de personas—
+
+233
+0:11:42.347,000 --> 0:11:44,000
+todas las interconexiones entre personas
+
+234
+0:11:44.449,000 --> 0:11:46,000
+que trabajan en ese proyecto...
+
+235
+0:11:46.792,000 --> 0:11:48,000
+no parece un organigrama.
+
+236
+0:11:49.782,000 --> 0:11:52,000
+Parece un "desorganigrama" y no obstante
+
+237
+0:11:53.202,000 --> 0:11:55,000
+en esta comunidad, usando estas herramientas,
+
+238
+0:11:55.81,000 --> 0:11:57,000
+ahora pueden crear algo juntos.
+
+239
+0:11:58.096,000 --> 0:12:02,000
+Hay dos grandes razones para pensar que
+
+240
+0:12:02.461,000 --> 0:12:06,000
+este tipo de técnica puede aplicarse
+
+241
+0:12:06.634,000 --> 0:12:1,000
+a las democracias en general y en particular a la ley.
+
+242
+0:12:11.167,000 --> 0:12:12,000
+De hecho, si uno afirma
+
+243
+0:12:13.025,000 --> 0:12:15,000
+que algo de Internet será bueno
+
+244
+0:12:15.983,000 --> 0:12:17,000
+para la democracia, a menudo obtiene esta reacción.
+
+245
+0:12:18.424,000 --> 0:12:23,000
+(Música) (Risas)
+
+246
+0:12:24.348,000 --> 0:12:26,000
+¿Estás hablando del video
+
+247
+0:12:26.874,000 --> 0:12:28,000
+de los gatos que cantan? ¿Eso es lo que crees
+
+248
+0:12:29.285,000 --> 0:12:31,000
+que será bueno para la sociedad?
+
+249
+0:12:31.914,000 --> 0:12:33,000
+A lo que respondo que el quid
+
+250
+0:12:34.049,000 --> 0:12:37,000
+de los gatos que cantan es que siempre ocurre.
+
+251
+0:12:37.41,000 --> 0:12:38,000
+Y no sólo quiero decir que ocurre con Internet,
+
+252
+0:12:39.143,000 --> 0:12:41,000
+me refiero a que siempre ocurre con los medios, punto.
+
+253
+0:12:41.723,000 --> 0:12:43,000
+No pasó mucho tiempo luego del auge
+
+254
+0:12:43.763,000 --> 0:12:45,000
+de la imprenta comercial hasta que alguien
+
+255
+0:12:46.439,000 --> 0:12:49,000
+se dio cuenta de que las novelas eróticas eran una buena idea. (Risas)
+
+256
+0:12:49.752,000 --> 0:12:52,000
+No hizo falta un incentivo económico para vender libros;
+
+257
+0:12:52.794,000 --> 0:12:55,000
+mucho antes alguien dijo: "¿Sabes lo que apuesto?
+
+258
+0:12:55.815,000 --> 0:12:57,000
+que la gente comprará". (Risas)
+
+259
+0:12:57.983,000 --> 0:13:,000
+Hicieron falta otros 150 años para que la gente
+
+260
+0:13:01.533,000 --> 0:13:07,000
+pensara en la revista científica, ¿sí? (Risas) (Aplausos)
+
+261
+0:13:08.293,000 --> 0:13:11,000
+El aprovechamiento que el Colegio Invisible
+
+262
+0:13:11.331,000 --> 0:13:13,000
+hizo de la imprenta para crear la revista científica
+
+263
+0:13:13.716,000 --> 0:13:15,000
+fue extraordinariamente importante, pero no ocurrió a lo grande,
+
+264
+0:13:16.627,000 --> 0:13:18,000
+tampoco ocurrió en forma rápida.
+
+265
+0:13:19.386,000 --> 0:13:22,000
+Para ver desde dónde viene el cambio
+
+266
+0:13:22.684,000 --> 0:13:24,000
+hay que mirar en los márgenes.
+
+267
+0:13:24.7,000 --> 0:13:29,000
+La ley también tiene una relación de dependencia.
+
+268
+0:13:30.164,000 --> 0:13:33,000
+Este es un gráfico del Código Fiscal de EE.UU.,
+
+269
+0:13:33.573,000 --> 0:13:36,000
+y la dependencia de una ley de otras leyes
+
+270
+0:13:36.653,000 --> 0:13:38,000
+para el efecto conjunto.
+
+271
+0:13:39.051,000 --> 0:13:42,000
+Allí está como sitio para la gestión de código fuente.
+
+272
+0:13:42.483,000 --> 0:13:43,000
+Pero también está el hecho de que la ley es otro lugar
+
+273
+0:13:44.385,000 --> 0:13:46,000
+donde circulan muchas opiniones,
+
+274
+0:13:46.659,000 --> 0:13:49,000
+pero tienen que resolverse en una copia canónica.
+
+275
+0:13:50.167,000 --> 0:13:52,000
+Y si vamos a GitHub y miramos los alrededores
+
+276
+0:13:52.744,000 --> 0:13:54,000
+hay millones y millones de proyectos,
+
+277
+0:13:54.813,000 --> 0:13:55,000
+casi todos de código fuente,
+
+278
+0:13:56.167,000 --> 0:13:58,000
+pero si miramos en los bordes, se puede ver a la gente
+
+279
+0:13:58.852,000 --> 0:14:,000
+que experimenta con las ramificaciones políticas
+
+280
+0:14:01.061,000 --> 0:14:02,000
+de un sistema como ese.
+
+281
+0:14:02.674,000 --> 0:14:03,000
+Alguien puso todos los cables filtrados
+
+282
+0:14:04.484,000 --> 0:14:06,000
+del Departamento de Estado, junto con el software usado
+
+283
+0:14:06.749,000 --> 0:14:09,000
+para interpretarlos; eso incluye mi uso favorito
+
+284
+0:14:09.938,000 --> 0:14:11,000
+de las filtraciones: una herramienta para detectar
+
+285
+0:14:12.309,000 --> 0:14:15,000
+haikus naturales en la prosa del Departamento de Estado.
+
+286
+0:14:15.324,000 --> 0:14:2,000
+(Risas)
+
+287
+0:14:21.22,000 --> 0:14:24,000
+Correcto. (Risas)
+
+288
+0:14:24.292,000 --> 0:14:26,000
+El Senado de Nueva York puso algo llamado
+
+289
+0:14:27.091,000 --> 0:14:29,000
+Open Legislation, también alojado en GitHub,
+
+290
+0:14:29.498,000 --> 0:14:31,000
+nuevamente, debido a razones de actualización y fluidez.
+
+291
+0:14:31.884,000 --> 0:14:33,000
+Se puede ir, seleccionar un senador y luego ver
+
+292
+0:14:34.55,000 --> 0:14:36,000
+los proyectos de ley que patrocinó.
+
+293
+0:14:36.585,000 --> 0:14:39,000
+Alguien con seudónimo Divegeek subió el código de Utah,
+
+294
+0:14:40.217,000 --> 0:14:42,000
+las leyes del estado de Utah, y lo subieron allí
+
+295
+0:14:42.982,000 --> 0:14:43,000
+no sólo para distribuir el código,
+
+296
+0:14:44.431,000 --> 0:14:47,000
+sino con la posibilidad muy interesante de que esto pueda
+
+297
+0:14:47.629,000 --> 0:14:51,000
+usarse para favorecer el desarrollo de la legislación.
+
+298
+0:14:52.184,000 --> 0:14:55,000
+Alguien subió una herramienta durante el debate de derechos de autor
+
+299
+0:14:56.023,000 --> 0:15:,000
+el año pasado en el Senado, que decía: "Es extraño que Hollywood
+
+300
+0:15:00.209,000 --> 0:15:03,000
+tenga más acceso a los legisladores canadienses
+
+301
+0:15:03.333,000 --> 0:15:06,000
+que los ciudadanos canadienses. ¿Por qué no usar GitHub
+
+302
+0:15:07.149,000 --> 0:15:11,000
+para mostrarles cómo sería un proyecto de ley ciudadano?"
+
+303
+0:15:11.625,000 --> 0:15:14,000
+Esta es una captura de pantalla muy evocadora.
+
+304
+0:15:15.377,000 --> 0:15:17,000
+Esto se llama "diff", esto de la derecha.
+
+305
+0:15:18.355,000 --> 0:15:2,000
+Muestra, en un texto editado por muchas personas,
+
+306
+0:15:21.325,000 --> 0:15:23,000
+cuándo se hizo un cambio, quién lo hizo
+
+307
+0:15:23.526,000 --> 0:15:24,000
+y cuál es el cambio.
+
+308
+0:15:24.529,000 --> 0:15:25,000
+Lo que está en rojo es lo que se borró.
+
+309
+0:15:25.984,000 --> 0:15:27,000
+Lo que está en verde es lo que se añadió.
+
+310
+0:15:28.676,000 --> 0:15:3,000
+Los programadores dan esto por sentado.
+
+311
+0:15:31.458,000 --> 0:15:33,000
+Ninguna democracia del mundo ofrece esta posibilidad
+
+312
+0:15:34.383,000 --> 0:15:37,000
+a sus ciudadanos para la legislación o para los presupuestos,
+
+313
+0:15:38.198,000 --> 0:15:4,000
+a pesar de ser cosas hechas
+
+314
+0:15:40.728,000 --> 0:15:43,000
+con nuestro consentimiento y nuestro dinero.
+
+315
+0:15:43.867,000 --> 0:15:46,000
+Me encantaría decirles que el hecho
+
+316
+0:15:47.105,000 --> 0:15:5,000
+de que los programadores de código abierto hayan elaborado
+
+317
+0:15:50.277,000 --> 0:15:53,000
+un método colaborativo a gran escala, distribuido,
+
+318
+0:15:53.948,000 --> 0:15:56,000
+económico, en sintonía con los ideales democráticos, me encantaría
+
+319
+0:15:57.413,000 --> 0:15:59,000
+decirles que dado que existen esas herramientas,
+
+320
+0:15:59.584,000 --> 0:16:03,000
+la innovación es inevitable. Pero no lo es.
+
+321
+0:16:03.915,000 --> 0:16:05,000
+Parte del problema, por supuesto, es sólo falta de información.
+
+322
+0:16:06.908,000 --> 0:16:07,000
+Alguien publicó una pregunta en Quora:
+
+323
+0:16:08.811,000 --> 0:16:1,000
+"¿Por qué los legisladores no usan
+
+324
+0:16:10.903,000 --> 0:16:11,000
+control de versiones distribuido?"
+
+325
+0:16:12.31,000 --> 0:16:15,000
+Esta es la respuesta gráfica. (Risas)
+
+326
+0:16:15.931,000 --> 0:16:17,000
+(Risas) (Aplausos)
+
+327
+0:16:18.022,000 --> 0:16:23,000
+De hecho, eso es parte del problema, pero sólo parte.
+
+328
+0:16:23.044,000 --> 0:16:26,000
+El problema más grande, claro, es el poder.
+
+329
+0:16:26.221,000 --> 0:16:29,000
+Las personas que experimentan la participación no tienen
+
+330
+0:16:29.391,000 --> 0:16:31,000
+poder legislativo, y las personas que tienen poder
+
+331
+0:16:31.96,000 --> 0:16:34,000
+legislativo no experimentan la participación.
+
+332
+0:16:35.923,000 --> 0:16:36,000
+Están experimentando la apertura.
+
+333
+0:16:37.468,000 --> 0:16:38,000
+No hay democracia que se precie que no tenga
+
+334
+0:16:39.328,000 --> 0:16:41,000
+una medida de transparencia, pero la transparencia es la apertura
+
+335
+0:16:42.256,000 --> 0:16:45,000
+en una sola dirección, y otorgar un tablero
+
+336
+0:16:46.161,000 --> 0:16:49,000
+sin volante nunca ha sido una promesa troncal
+
+337
+0:16:49.331,000 --> 0:16:52,000
+de una democracia a sus ciudadanos.
+
+338
+0:16:52.742,000 --> 0:16:54,000
+Piénsenlo.
+
+339
+0:16:55.092,000 --> 0:16:57,000
+Lo que llevó las opiniones de Martha Payne
+
+340
+0:16:57.678,000 --> 0:17:,000
+al público fue una pieza de tecnología,
+
+341
+0:17:01.369,000 --> 0:17:04,000
+pero lo que las mantenía era la voluntad política.
+
+342
+0:17:05.003,000 --> 0:17:07,000
+Fue la expectativa de los ciudadanos
+
+343
+0:17:07.277,000 --> 0:17:1,000
+de que ella no fuera censurada.
+
+344
+0:17:10.812,000 --> 0:17:15,000
+Ese es el estado actual de estas herramientas colaborativas.
+
+345
+0:17:16.14,000 --> 0:17:2,000
+Las tenemos. Las hemos visto. Funcionan.
+
+346
+0:17:20.147,000 --> 0:17:21,000
+¿Podemos usarlas?
+
+347
+0:17:21.198,000 --> 0:17:26,000
+¿Podemos aplicar las técnicas que funcionaron aquí, allí?
+
+348
+0:17:26.324,000 --> 0:17:29,000
+T.S. Eliot dijo una vez: "Una de las cosas más trascendentales
+
+349
+0:17:30.041,000 --> 0:17:32,000
+que le puede ocurrir a una cultura
+
+350
+0:17:32.121,000 --> 0:17:35,000
+es adquirir una nueva forma de prosa".
+
+351
+0:17:35.764,000 --> 0:17:37,000
+Creo que eso está mal, pero... (Risas)
+
+352
+0:17:38.012,000 --> 0:17:41,000
+Creo que está bien para discutir. ¿Cierto?
+
+353
+0:17:41.671,000 --> 0:17:44,000
+Algo trascendental que puede ocurrirle a una cultura
+
+354
+0:17:45.026,000 --> 0:17:47,000
+es adquirir un nuevo estilo de discusión:
+
+355
+0:17:47.84,000 --> 0:17:53,000
+juicio por jurado, voto, revisión por pares, ahora esto. ¿Bien?
+
+356
+0:17:54.556,000 --> 0:17:57,000
+En nuestra vida, se ha inventado una nueva forma de discusión;
+
+357
+0:17:57.625,000 --> 0:17:58,000
+en la última década, de hecho.
+
+358
+0:17:59.512,000 --> 0:18:03,000
+Es en grande, distribuida, económica
+
+359
+0:18:03.565,000 --> 0:18:06,000
+y compatible con los ideales democráticos.
+
+360
+0:18:06.864,000 --> 0:18:07,000
+La pregunta ahora es, ¿dejaremos que los programadores
+
+361
+0:18:08.85,000 --> 0:18:09,000
+se la guarden para sí mismos?
+
+362
+0:18:10.376,000 --> 0:18:12,000
+¿O trataremos de tomarla para ponerla al servicio
+
+363
+0:18:12.425,000 --> 0:18:14,000
+de la sociedad en general?
+
+364
+0:18:14.577,000 --> 0:18:16,000
+Gracias por escuchar. (Aplausos)
+
+365
+0:18:17.177,000 --> 0:18:21,000
+(Aplausos)
+
+366
+0:18:21.315,000 --> 0:18:26,000
+Gracias. Gracias. (Aplausos)
+
