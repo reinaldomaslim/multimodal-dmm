@@ -1,0 +1,412 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ana María Pérez Revisor: Ciro Gomez
+
+2
+0:00:13.344,000 --> 0:00:17,000
+(Ruidos acuáticos)
+
+3
+0:00:20.811,000 --> 0:00:21,000
+Este video fue filmado
+
+4
+0:00:22.714,000 --> 0:00:24,000
+en el laboratorio submarino Aquarius
+
+5
+0:00:25.146,000 --> 0:00:26,000
+que se encuentra a 6,4 km de la costa de Cayo Largo,
+
+6
+0:00:26.999,000 --> 0:00:28,000
+a unos 18 metros bajo la superficie.
+
+7
+0:00:29.577,000 --> 0:00:3,000
+La NASA usa este ambiente extremo
+
+8
+0:00:31.301,000 --> 0:00:33,000
+para entrenar astronautas y buzos,
+
+9
+0:00:33.725,000 --> 0:00:36,000
+y el año pasado fuimos invitados a participar.
+
+10
+0:00:37.087,000 --> 0:00:39,000
+Toda la secuencia fue filmada por nuestro robot abierto,
+
+11
+0:00:39.971,000 --> 0:00:43,000
+un robot que construimos en nuestro garaje;
+
+12
+0:00:44.458,000 --> 0:00:47,000
+un vehículo a control remoto,
+
+13
+0:00:48.026,000 --> 0:00:49,000
+que en nuestro caso significa que nuestro pequeño robot
+
+14
+0:00:49.553,000 --> 0:00:51,000
+envía video en directo
+
+15
+0:00:51.817,000 --> 0:00:52,000
+a través de este conector ultradelgado
+
+16
+0:00:53.735,000 --> 0:00:55,000
+a la computadora en la superficie.
+
+17
+0:00:56.163,000 --> 0:00:57,000
+Es de código abierto, lo que significa que nosotros publicamos
+
+18
+0:00:58.141,000 --> 0:01:,000
+y compartimos todos nuestros archivos
+
+19
+0:01:00.186,000 --> 0:01:01,000
+y todo nuestro código en línea,
+
+20
+0:01:01.694,000 --> 0:01:03,000
+lo que permite a cualquiera modificar,
+
+21
+0:01:03.728,000 --> 0:01:05,000
+mejorar o cambiar el diseño.
+
+22
+0:01:06.077,000 --> 0:01:08,000
+Está construido en su mayoría con piezas en serie
+
+23
+0:01:08.38,000 --> 0:01:09,000
+y es 1000 veces más barato
+
+24
+0:01:10.215,000 --> 0:01:11,000
+que los robots que usó James Cameron
+
+25
+0:01:12.094,000 --> 0:01:15,000
+para explorar el Titanic.
+
+26
+0:01:15.699,000 --> 0:01:17,000
+No son algo nuevo.
+
+27
+0:01:17.909,000 --> 0:01:18,000
+Existen desde hace décadas.
+
+28
+0:01:19.617,000 --> 0:01:22,000
+Los científicos usan robots teledirigidos para explorar océanos.
+
+29
+0:01:22.653,000 --> 0:01:24,000
+Las compañías de petróleo y de gas los usan para exploración
+
+30
+0:01:25.472,000 --> 0:01:26,000
+y construcción.
+
+31
+0:01:27.019,000 --> 0:01:29,000
+El nuestro, no es único.
+
+32
+0:01:29.781,000 --> 0:01:31,000
+Lo que lo hace realmente único es la forma en que lo hicimos.
+
+33
+0:01:32.655,000 --> 0:01:34,000
+Quiero contarles brevemente cómo comenzó este proyecto.
+
+34
+0:01:35.636,000 --> 0:01:37,000
+Hace unos años, mi amigo Eric y yo
+
+35
+0:01:37.907,000 --> 0:01:39,000
+decidimos explorar esta cueva submarina
+
+36
+0:01:40.107,000 --> 0:01:41,000
+en las estribaciones de las Sierras.
+
+37
+0:01:41.965,000 --> 0:01:42,000
+Habíamos oído la historia del oro perdido
+
+38
+0:01:43.868,000 --> 0:01:45,000
+de un robo ocurrido en la fiebre del oro, y queríamos ir hasta allí.
+
+39
+0:01:46.386,000 --> 0:01:47,000
+Desgraciadamente, no teníamos dinero
+
+40
+0:01:48.044,000 --> 0:01:49,000
+ni herramientas para hacerlo.
+
+41
+0:01:49.867,000 --> 0:01:52,000
+Eric había hecho un diseño inicial para un robot,
+
+42
+0:01:53.067,000 --> 0:01:55,000
+pero no teníamos el cuadro completo de la situación,
+
+43
+0:01:55.84,000 --> 0:01:57,000
+así que hicimos lo que haría cualquiera en nuestra situación:
+
+44
+0:01:58.052,000 --> 0:02:,000
+pedimos ayuda en Internet.
+
+45
+0:02:00.09,000 --> 0:02:02,000
+En concreto, creamos este sitio web,
+
+46
+0:02:02.622,000 --> 0:02:04,000
+OpenROV.com, donde compartimos nuestras intenciones y planes.
+
+47
+0:02:05.517,000 --> 0:02:07,000
+Durante los primeros meses, solo Eric y yo
+
+48
+0:02:07.907,000 --> 0:02:09,000
+discutíamos en los foros,
+
+49
+0:02:10.437,000 --> 0:02:12,000
+pero pronto empezamos a recibir comentarios
+
+50
+0:02:12.525,000 --> 0:02:13,000
+de fabricantes y aficionados,
+
+51
+0:02:14.368,000 --> 0:02:15,000
+y luego de ingenieros oceánicos profesionales
+
+52
+0:02:16.362,000 --> 0:02:19,000
+que nos hacían sugerencias sobre qué teníamos que hacer.
+
+53
+0:02:19.894,000 --> 0:02:2,000
+Continuamos trabajando. Aprendimos muchas cosas.
+
+54
+0:02:21.658,000 --> 0:02:23,000
+Seguimos construyendo prototipos y, al final,
+
+55
+0:02:23.683,000 --> 0:02:25,000
+decidimos ir a la cueva. Estábamos listos.
+
+56
+0:02:26.402,000 --> 0:02:29,000
+En ese momento, nuestra pequeña expedición era noticia
+
+57
+0:02:29.842,000 --> 0:02:31,000
+y la cubrió The New York Times.
+
+58
+0:02:31.863,000 --> 0:02:32,000
+En pocas palabras, quedamos abrumados
+
+59
+0:02:33.675,000 --> 0:02:34,000
+por el interés de la gente que quería un kit
+
+60
+0:02:35.458,000 --> 0:02:37,000
+para construir su propio robot.
+
+61
+0:02:37.979,000 --> 0:02:4,000
+Decidimos publicar el proyecto en Kickstarter,
+
+62
+0:02:41.268,000 --> 0:02:42,000
+y al hacerlo,
+
+63
+0:02:42.5,000 --> 0:02:44,000
+llegamos a nuestra meta financiera en un par de horas,
+
+64
+0:02:44.575,000 --> 0:02:47,000
+y, de repente, teníamos el dinero para construir estos kits.
+
+65
+0:02:47.78,000 --> 0:02:49,000
+Pero luego tuvimos que aprender a hacerlos.
+
+66
+0:02:49.975,000 --> 0:02:51,000
+Es decir, tuvimos que aprender a fabricar pequeños lotes.
+
+67
+0:02:52.14,000 --> 0:02:55,000
+Rápidamente nos dimos cuenta de que el garaje
+
+68
+0:02:55.4,000 --> 0:02:57,000
+no era lo suficientemente grande para acomodar nuestro creciente negocio.
+
+69
+0:02:58.079,000 --> 0:03:,000
+Pero lo logramos. Hicimos todos los kits,
+
+70
+0:03:00.235,000 --> 0:03:02,000
+gracias en gran parte a TechShop, que fue de gran ayuda,
+
+71
+0:03:02.942,000 --> 0:03:04,000
+y enviamos los kits por todo el mundo
+
+72
+0:03:05.927,000 --> 0:03:06,000
+justo antes de la Navidad pasada,
+
+73
+0:03:07.756,000 --> 0:03:08,000
+es decir, hace apenas unos meses.
+
+74
+0:03:09.538,000 --> 0:03:1,000
+Pero ya estamos empezando a recibir videos
+
+75
+0:03:11.446,000 --> 0:03:12,000
+y fotos de todo el mundo,
+
+76
+0:03:13.044,000 --> 0:03:16,000
+incluyendo esta imagen tomada bajo el hielo en la Antártida.
+
+77
+0:03:16.074,000 --> 0:03:19,000
+También aprendimos que los pingüinos aman los robots.
+
+78
+0:03:19.474,000 --> 0:03:21,000
+(Risas)
+
+79
+0:03:21.487,000 --> 0:03:24,000
+Seguimos subiendo todos los diseños en Internet
+
+80
+0:03:24.655,000 --> 0:03:26,000
+para animar a la gente a construirse uno.
+
+81
+0:03:26.773,000 --> 0:03:28,000
+Solo así podíamos hacerlo.
+
+82
+0:03:29.176,000 --> 0:03:3,000
+Al ser de código abierto, hemos creado
+
+83
+0:03:30.835,000 --> 0:03:32,000
+esta red distribuida de investigación y desarrollo,
+
+84
+0:03:33.099,000 --> 0:03:36,000
+y estamos creciendo más rápido que cualquier otra entidad de capital riesgo.
+
+85
+0:03:36.895,000 --> 0:03:39,000
+Pero el robot en sí es solo la mitad de la historia.
+
+86
+0:03:40.1,000 --> 0:03:42,000
+El verdadero potencial, el potencial a largo plazo,
+
+87
+0:03:42.596,000 --> 0:03:44,000
+está en esta comunidad de exploradores "hogareños" del océano,
+
+88
+0:03:45.273,000 --> 0:03:47,000
+que está surgiendo en todo el mundo.
+
+89
+0:03:47.669,000 --> 0:03:48,000
+¿Qué podemos descubrir
+
+90
+0:03:49.203,000 --> 0:03:5,000
+con miles de estos dispositivos
+
+91
+0:03:51.107,000 --> 0:03:53,000
+deambulando por los mares?
+
+92
+0:03:53.153,000 --> 0:03:55,000
+Probablemente se estén preguntando: ¿Y la cueva?
+
+93
+0:03:55.429,000 --> 0:03:56,000
+¿Encontraron el oro?
+
+94
+0:03:57.255,000 --> 0:03:58,000
+Bueno, no encontramos oro,
+
+95
+0:03:58.807,000 --> 0:04:01,000
+pero lo que encontramos fue mucho más valioso:
+
+96
+0:04:02.036,000 --> 0:04:04,000
+la visión de un futuro potencial
+
+97
+0:04:04.508,000 --> 0:04:05,000
+para la exploración del océano.
+
+98
+0:04:06.183,000 --> 0:04:08,000
+No es algo reservado a los James Cameron del mundo,
+
+99
+0:04:09.093,000 --> 0:04:11,000
+sino algo en lo que todos podemos participar.
+
+100
+0:04:11.688,000 --> 0:04:12,000
+Es un mundo submarino
+
+101
+0:04:13.021,000 --> 0:04:15,000
+que exploramos juntos.
+
+102
+0:04:15.532,000 --> 0:04:17,000
+Gracias.
+
+103
+0:04:17.707,000 --> 0:04:21,000
+(Aplausos)
+

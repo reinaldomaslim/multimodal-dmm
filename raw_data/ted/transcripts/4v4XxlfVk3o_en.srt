@@ -1,0 +1,874 @@
+1
+0:00:15.26,000 --> 0:00:19,000
+So I think data can actually make us more human.
+
+2
+0:00:19.26,000 --> 0:00:22,000
+We're collecting and creating all kinds of data about how we're living our lives,
+
+3
+0:00:22.26,000 --> 0:00:24,000
+and it's enabling us to tell some amazing stories.
+
+4
+0:00:24.26,000 --> 0:00:27,000
+Recently, a wise media theorist Tweeted,
+
+5
+0:00:27.26,000 --> 0:00:29,000
+"The 19th century culture was defined by the novel,
+
+6
+0:00:29.26,000 --> 0:00:31,000
+the 20th century culture was defined by the cinema,
+
+7
+0:00:31.26,000 --> 0:00:33,000
+and the culture of the 21st century
+
+8
+0:00:33.26,000 --> 0:00:35,000
+will be defined by the interface."
+
+9
+0:00:35.26,000 --> 0:00:37,000
+And I believe this is going to prove true.
+
+10
+0:00:37.26,000 --> 0:00:39,000
+Our lives are being driven by data,
+
+11
+0:00:39.26,000 --> 0:00:41,000
+and the presentation of that data is an opportunity
+
+12
+0:00:41.26,000 --> 0:00:43,000
+for us to make some amazing interfaces that tell great stories.
+
+13
+0:00:43.26,000 --> 0:00:45,000
+So I'm going to show you a few of the projects
+
+14
+0:00:45.26,000 --> 0:00:47,000
+that I've been working on over the last couple years
+
+15
+0:00:47.26,000 --> 0:00:49,000
+that reflect on our lives and our systems.
+
+16
+0:00:49.26,000 --> 0:00:51,000
+This is a project called Flight Patterns.
+
+17
+0:00:51.26,000 --> 0:00:53,000
+What you're looking at is airplane traffic
+
+18
+0:00:53.26,000 --> 0:00:56,000
+over North America for a 24-hour period.
+
+19
+0:00:56.26,000 --> 0:00:58,000
+As you see, everything starts to fade to black,
+
+20
+0:00:58.26,000 --> 0:01:,000
+and you see people going to sleep.
+
+21
+0:01:00.26,000 --> 0:01:02,000
+Followed by that, you see on the West coast
+
+22
+0:01:02.26,000 --> 0:01:05,000
+planes moving across, the red-eye flights to the East coast.
+
+23
+0:01:05.26,000 --> 0:01:08,000
+And you'll see everybody waking up on the East coast,
+
+24
+0:01:08.26,000 --> 0:01:11,000
+followed by European flights coming in the upper right-hand corner.
+
+25
+0:01:11.26,000 --> 0:01:14,000
+Everybody's moving from the East coast to the West coast.
+
+26
+0:01:14.26,000 --> 0:01:16,000
+You see San Francisco and Los Angeles
+
+27
+0:01:16.26,000 --> 0:01:19,000
+start to make their journeys down to Hawaii in the lower left-hand corner.
+
+28
+0:01:19.26,000 --> 0:01:21,000
+I think it's one thing to say there's 140,000 planes
+
+29
+0:01:21.26,000 --> 0:01:24,000
+being monitored by the federal government at any one time,
+
+30
+0:01:24.26,000 --> 0:01:27,000
+and it's another thing to see that system as it ebbs and flows.
+
+31
+0:01:29.26,000 --> 0:01:31,000
+This is a time-lapse image of that exact same data,
+
+32
+0:01:31.26,000 --> 0:01:33,000
+but I've color-coded it by type,
+
+33
+0:01:33.26,000 --> 0:01:36,000
+so you can see the diversity of aircraft that are in the skies above us.
+
+34
+0:01:36.26,000 --> 0:01:39,000
+And I started making these, and I put them into Google Maps
+
+35
+0:01:39.26,000 --> 0:01:41,000
+and allow you to zoom in and see individual airports
+
+36
+0:01:41.26,000 --> 0:01:43,000
+and the patterns that are occurring there.
+
+37
+0:01:43.26,000 --> 0:01:46,000
+So here we can see the white represents low altitudes,
+
+38
+0:01:46.26,000 --> 0:01:48,000
+and the blue are higher altitudes.
+
+39
+0:01:48.26,000 --> 0:01:5,000
+And you can zoom in. This is taking a look at Atlanta.
+
+40
+0:01:50.26,000 --> 0:01:52,000
+You can see this is a major shipping airport,
+
+41
+0:01:52.26,000 --> 0:01:54,000
+and there's all kinds of activity there.
+
+42
+0:01:54.26,000 --> 0:01:57,000
+You can also toggle between altitude
+
+43
+0:01:57.26,000 --> 0:01:59,000
+for model and manufacturer.
+
+44
+0:01:59.26,000 --> 0:02:01,000
+See again, the diversity.
+
+45
+0:02:01.26,000 --> 0:02:03,000
+And you can scroll around and see
+
+46
+0:02:03.26,000 --> 0:02:06,000
+some of the different airports and the different patterns that they have.
+
+47
+0:02:06.26,000 --> 0:02:08,000
+This is scrolling up the East coast.
+
+48
+0:02:08.26,000 --> 0:02:1,000
+You can see some of the chaos that's happening in New York
+
+49
+0:02:10.26,000 --> 0:02:12,000
+with the air traffic controllers
+
+50
+0:02:12.26,000 --> 0:02:16,000
+having to deal with all those major airports next to each other.
+
+51
+0:02:17.26,000 --> 0:02:19,000
+So zooming back out real quick,
+
+52
+0:02:19.26,000 --> 0:02:22,000
+we see, again, the U.S. -- you get Florida down in the right-hand corner.
+
+53
+0:02:22.26,000 --> 0:02:24,000
+Moving across to the West coast,
+
+54
+0:02:24.26,000 --> 0:02:26,000
+you see San Francisco and Los Angeles --
+
+55
+0:02:26.26,000 --> 0:02:28,000
+big low-traffic zones
+
+56
+0:02:28.26,000 --> 0:02:3,000
+across Nevada and Arizona.
+
+57
+0:02:30.26,000 --> 0:02:34,000
+And that's us down there in L.A. and Long Beach on the bottom.
+
+58
+0:02:36.26,000 --> 0:02:38,000
+I started taking a look as well at different perimeters,
+
+59
+0:02:38.26,000 --> 0:02:4,000
+because you can choose what you want to pull out from the data.
+
+60
+0:02:40.26,000 --> 0:02:43,000
+This is looking at ascending versus descending flights.
+
+61
+0:02:43.26,000 --> 0:02:45,000
+And you can see, over time, the ways the airports change.
+
+62
+0:02:45.26,000 --> 0:02:47,000
+You see the holding patterns that start to develop
+
+63
+0:02:47.26,000 --> 0:02:49,000
+in the bottom of the screen.
+
+64
+0:02:49.26,000 --> 0:02:52,000
+And you can see, eventually the airport actually flips directions.
+
+65
+0:02:53.26,000 --> 0:02:56,000
+So this is another project that I worked on with the Sensible Cities Lab at MIT.
+
+66
+0:02:56.26,000 --> 0:02:58,000
+This is visualizing international communications.
+
+67
+0:02:58.26,000 --> 0:03:,000
+So it's how New York communicates
+
+68
+0:03:00.26,000 --> 0:03:02,000
+with other international cities.
+
+69
+0:03:02.26,000 --> 0:03:05,000
+And we set this up as a live globe in the Museum of Modern Art in New York
+
+70
+0:03:05.26,000 --> 0:03:07,000
+for the Design the Elastic Mind exhibition.
+
+71
+0:03:07.26,000 --> 0:03:09,000
+And it had a live feed with a 24-hour offset,
+
+72
+0:03:09.26,000 --> 0:03:11,000
+so you could see the changing relationship
+
+73
+0:03:11.26,000 --> 0:03:13,000
+and some demographic info
+
+74
+0:03:13.26,000 --> 0:03:16,000
+coming through AT&T's data and revealing itself.
+
+75
+0:03:16.26,000 --> 0:03:18,000
+This is another project I worked on with Sensible Cities Lab
+
+76
+0:03:18.26,000 --> 0:03:2,000
+and CurrentCity.org.
+
+77
+0:03:20.26,000 --> 0:03:23,000
+And it's visualizing SMS messages being sent in the city of Amsterdam.
+
+78
+0:03:23.26,000 --> 0:03:25,000
+So you're seeing the daily ebb and flow
+
+79
+0:03:25.26,000 --> 0:03:27,000
+of people sending SMS messages from different parts of the city,
+
+80
+0:03:27.26,000 --> 0:03:3,000
+until we approach New Year's Eve, where everybody says, "Happy New Year!"
+
+81
+0:03:30.26,000 --> 0:03:32,000
+(Laughter)
+
+82
+0:03:32.26,000 --> 0:03:34,000
+So this is an interactive tool
+
+83
+0:03:34.26,000 --> 0:03:37,000
+that you can move around and see different parts of the city.
+
+84
+0:03:37.26,000 --> 0:03:4,000
+This is looking at another event. This is called Queen's Day.
+
+85
+0:03:40.26,000 --> 0:03:42,000
+So again, you get this daily ebb and flow
+
+86
+0:03:42.26,000 --> 0:03:45,000
+of people sending SMS messages from different parts of the city.
+
+87
+0:03:45.26,000 --> 0:03:47,000
+And then you're going to see people start to gather in the center of the city
+
+88
+0:03:47.26,000 --> 0:03:49,000
+to celebrate the night before,
+
+89
+0:03:49.26,000 --> 0:03:51,000
+which happens right here.
+
+90
+0:03:51.26,000 --> 0:03:53,000
+And then you can see people celebrating the next day.
+
+91
+0:03:53.26,000 --> 0:03:56,000
+And you can pause it and step back and forth and see different phases.
+
+92
+0:03:56.26,000 --> 0:03:58,000
+So now on to something completely different.
+
+93
+0:03:58.26,000 --> 0:04:,000
+Some of you may recognize this.
+
+94
+0:04:00.26,000 --> 0:04:03,000
+This is Baron Wolfgang von Kempelen's mechanical chess playing machine.
+
+95
+0:04:03.26,000 --> 0:04:05,000
+And it's this amazing robot that plays chess extremely well,
+
+96
+0:04:05.26,000 --> 0:04:08,000
+except for one thing: it's not a robot at all.
+
+97
+0:04:08.26,000 --> 0:04:1,000
+There's actually a legless man that sits in that box
+
+98
+0:04:10.26,000 --> 0:04:12,000
+and controls this chess player.
+
+99
+0:04:12.26,000 --> 0:04:14,000
+This was the inspiration for a web service by Amazon
+
+100
+0:04:14.26,000 --> 0:04:17,000
+called the Mechanical Turk -- named after this guy.
+
+101
+0:04:17.26,000 --> 0:04:19,000
+And it's based on the premise that there are certain things
+
+102
+0:04:19.26,000 --> 0:04:21,000
+that are easy for people, but really difficult for computers.
+
+103
+0:04:21.26,000 --> 0:04:23,000
+So they made this web service and said,
+
+104
+0:04:23.26,000 --> 0:04:25,000
+"Any programmer can write a piece of software
+
+105
+0:04:25.26,000 --> 0:04:27,000
+and tap into the minds of thousands of people."
+
+106
+0:04:27.26,000 --> 0:04:29,000
+The nerdy side of me thought, "Wow, this is amazing.
+
+107
+0:04:29.26,000 --> 0:04:31,000
+I can tap into thousands of people's minds."
+
+108
+0:04:31.26,000 --> 0:04:33,000
+And the other nerdy side of me thought,
+
+109
+0:04:33.26,000 --> 0:04:36,000
+"This is horrible. This is completely bizarre.
+
+110
+0:04:36.26,000 --> 0:04:38,000
+What does this mean for the future of mankind,
+
+111
+0:04:38.26,000 --> 0:04:4,000
+where we're all plugged into this borg?"
+
+112
+0:04:40.26,000 --> 0:04:42,000
+I was probably being a little extreme.
+
+113
+0:04:42.26,000 --> 0:04:44,000
+But what does this mean when we have no context for what it is that we're working on,
+
+114
+0:04:44.26,000 --> 0:04:46,000
+and we're just doing these little labors?
+
+115
+0:04:46.26,000 --> 0:04:48,000
+So I created this drawing tool.
+
+116
+0:04:48.26,000 --> 0:04:5,000
+I asked people to draw a sheep facing to the left.
+
+117
+0:04:50.26,000 --> 0:04:52,000
+And I said, "I'll pay you two cents for your contribution."
+
+118
+0:04:52.26,000 --> 0:04:55,000
+And I started collecting sheep.
+
+119
+0:04:55.26,000 --> 0:04:58,000
+And I collected a lot, a lot of different sheep.
+
+120
+0:04:59.26,000 --> 0:05:01,000
+Lots of sheep.
+
+121
+0:05:01.26,000 --> 0:05:03,000
+I took the first 10,000 sheep that I collected,
+
+122
+0:05:03.26,000 --> 0:05:06,000
+and I put them on a website called TheSheepMarket.com
+
+123
+0:05:06.26,000 --> 0:05:09,000
+where you can actually buy collections of 20 sheep.
+
+124
+0:05:09.26,000 --> 0:05:11,000
+You can't pick individual sheep,
+
+125
+0:05:11.26,000 --> 0:05:15,000
+but you can buy a single plate block of stamps as a commodity.
+
+126
+0:05:15.26,000 --> 0:05:17,000
+And juxtaposed against this grid,
+
+127
+0:05:17.26,000 --> 0:05:19,000
+you see actually, by rolling over each individual one,
+
+128
+0:05:19.26,000 --> 0:05:22,000
+the humanity behind this hugely mechanical process.
+
+129
+0:05:22.26,000 --> 0:05:24,000
+I think there's something really interesting
+
+130
+0:05:24.26,000 --> 0:05:27,000
+to watching people as they go through this creative toil --
+
+131
+0:05:27.26,000 --> 0:05:29,000
+something we can all relate to,
+
+132
+0:05:29.26,000 --> 0:05:32,000
+this creative process of trying to come up with something from nothing.
+
+133
+0:05:32.26,000 --> 0:05:34,000
+I think it was really interesting to juxtapose this humanity
+
+134
+0:05:34.26,000 --> 0:05:36,000
+versus this massive distributed grid.
+
+135
+0:05:36.26,000 --> 0:05:39,000
+Kind of amazing what some people did.
+
+136
+0:05:39.26,000 --> 0:05:41,000
+So here's a few statistics from the project.
+
+137
+0:05:41.26,000 --> 0:05:43,000
+Approximate collection rate of 11 sheep per hour,
+
+138
+0:05:43.26,000 --> 0:05:46,000
+which would make a working wage of 69 cents per hour.
+
+139
+0:05:46.26,000 --> 0:05:48,000
+There were 662 rejected sheep
+
+140
+0:05:48.26,000 --> 0:05:51,000
+that didn't meet "sheep-like" criteria and were thrown out of the flock.
+
+141
+0:05:51.26,000 --> 0:05:53,000
+(Laughter)
+
+142
+0:05:53.26,000 --> 0:05:56,000
+The amount of time spent drawing ranged from four seconds to 46 minutes.
+
+143
+0:05:56.26,000 --> 0:05:59,000
+That gives you an idea of the different types of motivations and dedication.
+
+144
+0:05:59.26,000 --> 0:06:02,000
+And there were 7,599 people that contributed to the project,
+
+145
+0:06:02.26,000 --> 0:06:04,000
+or were unique IP addresses --
+
+146
+0:06:04.26,000 --> 0:06:06,000
+so about how many people contributed.
+
+147
+0:06:06.26,000 --> 0:06:1,000
+But only one of them out of the 7,599 said this.
+
+148
+0:06:10.26,000 --> 0:06:14,000
+(Laughter)
+
+149
+0:06:14.26,000 --> 0:06:16,000
+Which I was pretty surprised by.
+
+150
+0:06:16.26,000 --> 0:06:19,000
+I expected people to be wondering, "Why did I draw a sheep?"
+
+151
+0:06:19.26,000 --> 0:06:21,000
+And I think it's a pretty valid question.
+
+152
+0:06:21.26,000 --> 0:06:23,000
+And there's a lot of reasons why I chose sheep.
+
+153
+0:06:23.26,000 --> 0:06:25,000
+Sheep were the first animal
+
+154
+0:06:25.26,000 --> 0:06:27,000
+to be raised from mechanically processed byproducts,
+
+155
+0:06:27.26,000 --> 0:06:29,000
+the first to be selectively bred for production traits,
+
+156
+0:06:29.26,000 --> 0:06:31,000
+the first animal to be cloned.
+
+157
+0:06:31.26,000 --> 0:06:33,000
+Obviously, we think of sheep as followers.
+
+158
+0:06:33.26,000 --> 0:06:35,000
+And there's this reference to "Le Petit Prince"
+
+159
+0:06:35.26,000 --> 0:06:37,000
+where the narrator asks the prince to draw a sheep.
+
+160
+0:06:37.26,000 --> 0:06:39,000
+He draws sheep after sheep.
+
+161
+0:06:39.26,000 --> 0:06:41,000
+The narrator's only appeased when he draws a box.
+
+162
+0:06:41.26,000 --> 0:06:43,000
+And he says, "It's not about a scientific rendering of a sheep.
+
+163
+0:06:43.26,000 --> 0:06:46,000
+It's about your own interpretation and doing something different."
+
+164
+0:06:46.26,000 --> 0:06:48,000
+And I like that.
+
+165
+0:06:48.26,000 --> 0:06:5,000
+So this is a clip from Charlie Chaplin's "Modern Times."
+
+166
+0:06:50.26,000 --> 0:06:53,000
+It's showing Charlie Chaplin dealing with some of the major changes
+
+167
+0:06:53.26,000 --> 0:06:55,000
+during the Industrial Revolution.
+
+168
+0:06:55.26,000 --> 0:06:57,000
+So there were no longer shoe makers,
+
+169
+0:06:57.26,000 --> 0:06:59,000
+but now there are people slapping soles on people's shoes.
+
+170
+0:06:59.26,000 --> 0:07:02,000
+And the whole idea of one's relationship to their work changed a lot.
+
+171
+0:07:02.26,000 --> 0:07:04,000
+So I thought this was an interesting clip
+
+172
+0:07:04.26,000 --> 0:07:06,000
+to divide into 16 pieces
+
+173
+0:07:06.26,000 --> 0:07:09,000
+and feed into the Mechanical Turk with a drawing tool.
+
+174
+0:07:09.26,000 --> 0:07:12,000
+This basically allowed -- what you see on the left side is the original frame,
+
+175
+0:07:12.26,000 --> 0:07:14,000
+and on the right side you see that frame
+
+176
+0:07:14.26,000 --> 0:07:16,000
+as interpreted by 16 people
+
+177
+0:07:16.26,000 --> 0:07:18,000
+who have no idea what it is they're doing.
+
+178
+0:07:18.26,000 --> 0:07:2,000
+And this was the inspiration for a project
+
+179
+0:07:20.26,000 --> 0:07:22,000
+that I worked on with my friend Takashi Kawashima.
+
+180
+0:07:22.26,000 --> 0:07:24,000
+We decided to use the Mechanical Turk for exactly what it was meant for,
+
+181
+0:07:24.26,000 --> 0:07:26,000
+which is making money.
+
+182
+0:07:26.26,000 --> 0:07:29,000
+So we took a hundred dollar bill and divided it into 10,000 teeny pieces,
+
+183
+0:07:29.26,000 --> 0:07:31,000
+and we fed those into the Mechanical Turk.
+
+184
+0:07:31.26,000 --> 0:07:33,000
+We asked people to draw what it was that they saw.
+
+185
+0:07:33.26,000 --> 0:07:35,000
+But here there was no sheep-like criteria.
+
+186
+0:07:35.26,000 --> 0:07:38,000
+People, if they drew a stick figure or a smiley face,
+
+187
+0:07:38.26,000 --> 0:07:4,000
+it actually made it into the bill.
+
+188
+0:07:40.26,000 --> 0:07:42,000
+So what you see is actually a representation of how well people did
+
+189
+0:07:42.26,000 --> 0:07:44,000
+what it was they were asked to do.
+
+190
+0:07:44.26,000 --> 0:07:46,000
+So we took these hundred dollar bills,
+
+191
+0:07:46.26,000 --> 0:07:48,000
+and we put them on a website called TenThousandsCents.com,
+
+192
+0:07:48.26,000 --> 0:07:51,000
+where you can browse through and see all the individual contributions.
+
+193
+0:07:51.26,000 --> 0:07:54,000
+And you can also trade real hundred-dollar bills for fake hundred-dollar bills
+
+194
+0:07:54.26,000 --> 0:07:57,000
+and make a donation to the Hundred Dollar Laptop Project,
+
+195
+0:07:57.26,000 --> 0:08:,000
+which is now known as One Laptop Per Child.
+
+196
+0:08:00.26,000 --> 0:08:02,000
+This is again showing all the different contributions.
+
+197
+0:08:02.26,000 --> 0:08:04,000
+You see some people did beautiful stipple renderings,
+
+198
+0:08:04.26,000 --> 0:08:06,000
+like this one on top --
+
+199
+0:08:06.26,000 --> 0:08:09,000
+spent a long time making realistic versions.
+
+200
+0:08:09.26,000 --> 0:08:12,000
+And other people would draw stick figures or smiley faces.
+
+201
+0:08:12.26,000 --> 0:08:14,000
+Here on the right-hand side in the middle
+
+202
+0:08:14.26,000 --> 0:08:17,000
+you see this one guy writing, "$0.01!!! Really?"
+
+203
+0:08:17.26,000 --> 0:08:21,000
+That's all I'm getting paid for this?
+
+204
+0:08:21.26,000 --> 0:08:23,000
+(Laughter)
+
+205
+0:08:23.26,000 --> 0:08:25,000
+So the last Mechanical Turk project I'm going to talk to you about
+
+206
+0:08:25.26,000 --> 0:08:27,000
+is called Bicycle Built for 2000.
+
+207
+0:08:27.26,000 --> 0:08:29,000
+This is a collaboration with my friend Daniel Massey.
+
+208
+0:08:29.26,000 --> 0:08:31,000
+You may recognize these two guys.
+
+209
+0:08:31.26,000 --> 0:08:34,000
+This is Max Mathews and John Kelly from Bell Labs in the '60s,
+
+210
+0:08:34.26,000 --> 0:08:36,000
+where they created the song "Daisy Bell,"
+
+211
+0:08:36.26,000 --> 0:08:38,000
+which was the world's first singing computer.
+
+212
+0:08:38.26,000 --> 0:08:4,000
+You may recognize it from "2001: A Space Odyssey."
+
+213
+0:08:40.26,000 --> 0:08:43,000
+When HAL's dying at the end of the film he starts singing this song,
+
+214
+0:08:43.26,000 --> 0:08:46,000
+as a reference to when computers became human.
+
+215
+0:08:46.26,000 --> 0:08:48,000
+So we resynthesized this song.
+
+216
+0:08:48.26,000 --> 0:08:5,000
+This is what that sounded like.
+
+217
+0:08:50.26,000 --> 0:08:52,000
+We broke down all the individual notes
+
+218
+0:08:52.26,000 --> 0:08:55,000
+in the singing as well as the phonemes in the singing.
+
+219
+0:08:55.26,000 --> 0:08:59,000

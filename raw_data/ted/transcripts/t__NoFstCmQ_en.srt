@@ -1,0 +1,996 @@
+1
+0:00:12.972,000 --> 0:00:17,000
+Paul Krugman, the Nobel Prize [winner] in economics, once wrote:
+
+2
+0:00:18.929,000 --> 0:00:23,000
+"Productivity is not everything, but in the long run,
+
+3
+0:00:24.349,000 --> 0:00:26,000
+it is almost everything."
+
+4
+0:00:28.062,000 --> 0:00:29,000
+So this is serious.
+
+5
+0:00:30.214,000 --> 0:00:34,000
+There are not that many things on earth that are "almost everything."
+
+6
+0:00:36.138,000 --> 0:00:42,000
+Productivity is the principal driver of the prosperity of a society.
+
+7
+0:00:43.56,000 --> 0:00:44,000
+So we have a problem.
+
+8
+0:00:45.837,000 --> 0:00:47,000
+In the largest European economies,
+
+9
+0:00:48.63,000 --> 0:00:51,000
+productivity used to grow five percent per annum
+
+10
+0:00:51.804,000 --> 0:00:54,000
+in the '50s, '60s, early '70s.
+
+11
+0:00:54.943,000 --> 0:00:58,000
+From '73 to '83: three percent per annum.
+
+12
+0:00:58.995,000 --> 0:01:01,000
+From '83 to '95: two percent per annum.
+
+13
+0:01:02.308,000 --> 0:01:06,000
+Since 1995: less than one percent per annum.
+
+14
+0:01:07.042,000 --> 0:01:09,000
+The same profile in Japan.
+
+15
+0:01:10.115,000 --> 0:01:12,000
+The same profile in the US,
+
+16
+0:01:13.009,000 --> 0:01:18,000
+despite a momentary rebound 15 years ago,
+
+17
+0:01:18.366,000 --> 0:01:21,000
+and despite all the technological innovations
+
+18
+0:01:21.754,000 --> 0:01:23,000
+around us: the Internet, the information,
+
+19
+0:01:24.357,000 --> 0:01:27,000
+the new information and communication technologies.
+
+20
+0:01:28.155,000 --> 0:01:32,000
+When productivity grows three percent per annum,
+
+21
+0:01:32.758,000 --> 0:01:35,000
+you double the standard of living every generation.
+
+22
+0:01:37.169,000 --> 0:01:42,000
+Every generation is twice as well-off as its parents'.
+
+23
+0:01:42.686,000 --> 0:01:45,000
+When it grows one percent per annum,
+
+24
+0:01:46.036,000 --> 0:01:49,000
+it takes three generations to double the standard of living.
+
+25
+0:01:49.687,000 --> 0:01:54,000
+And in this process, many people will be less well-off than their parents.
+
+26
+0:01:55.505,000 --> 0:01:57,000
+They will have less of everything:
+
+27
+0:01:58.043,000 --> 0:02:01,000
+smaller roofs, or perhaps no roof at all,
+
+28
+0:02:02.645,000 --> 0:02:08,000
+less access to education, to vitamins, to antibiotics, to vaccination --
+
+29
+0:02:09.068,000 --> 0:02:1,000
+to everything.
+
+30
+0:02:11.502,000 --> 0:02:16,000
+Think of all the problems that we're facing at the moment.
+
+31
+0:02:18.347,000 --> 0:02:19,000
+All.
+
+32
+0:02:20.692,000 --> 0:02:24,000
+Chances are that they are rooted in the productivity crisis.
+
+33
+0:02:27.226,000 --> 0:02:28,000
+Why this crisis?
+
+34
+0:02:30.438,000 --> 0:02:35,000
+Because the basic tenets about efficiency --
+
+35
+0:02:35.937,000 --> 0:02:39,000
+effectiveness in organizations, in management --
+
+36
+0:02:40.772,000 --> 0:02:44,000
+have become counterproductive for human efforts.
+
+37
+0:02:45.539,000 --> 0:02:49,000
+Everywhere in public services -- in companies, in the way we work,
+
+38
+0:02:49.729,000 --> 0:02:53,000
+the way we innovate, invest -- try to learn to work better.
+
+39
+0:02:54.954,000 --> 0:02:58,000
+Take the holy trinity of efficiency:
+
+40
+0:03:00.805,000 --> 0:03:05,000
+clarity, measurement, accountability.
+
+41
+0:03:07.87,000 --> 0:03:09,000
+They make human efforts derail.
+
+42
+0:03:11.65,000 --> 0:03:15,000
+There are two ways to look at it, to prove it.
+
+43
+0:03:15.746,000 --> 0:03:17,000
+One, the one I prefer,
+
+44
+0:03:18.436,000 --> 0:03:23,000
+is rigorous, elegant, nice -- math.
+
+45
+0:03:24.593,000 --> 0:03:27,000
+But the full math version takes a little while,
+
+46
+0:03:27.88,000 --> 0:03:28,000
+so there is another one.
+
+47
+0:03:29.699,000 --> 0:03:31,000
+It is to look at a relay race.
+
+48
+0:03:32.697,000 --> 0:03:33,000
+This is what we will do today.
+
+49
+0:03:34.389,000 --> 0:03:4,000
+It's a bit more animated, more visual and also faster -- it's a race.
+
+50
+0:03:41.572,000 --> 0:03:42,000
+Hopefully, it's faster.
+
+51
+0:03:42.89,000 --> 0:03:43,000
+(Laughter)
+
+52
+0:03:44.278,000 --> 0:03:48,000
+World championship final -- women.
+
+53
+0:03:49.26,000 --> 0:03:51,000
+Eight teams in the final.
+
+54
+0:03:51.395,000 --> 0:03:53,000
+The fastest team is the US team.
+
+55
+0:03:55.129,000 --> 0:03:57,000
+They have the fastest women on earth.
+
+56
+0:03:58.153,000 --> 0:04:,000
+They are the favorite team to win.
+
+57
+0:04:00.952,000 --> 0:04:04,000
+Notably, if you compare them to an average team,
+
+58
+0:04:05.166,000 --> 0:04:06,000
+say, the French team,
+
+59
+0:04:06.564,000 --> 0:04:07,000
+(Laughter)
+
+60
+0:04:08.175,000 --> 0:04:13,000
+based on their best performances in the 100-meter race,
+
+61
+0:04:13.394,000 --> 0:04:18,000
+if you add the individual times of the US runners,
+
+62
+0:04:19.187,000 --> 0:04:25,000
+they arrive at the finish line 3.2 meters ahead of the French team.
+
+63
+0:04:26.438,000 --> 0:04:29,000
+And this year, the US team is in great shape.
+
+64
+0:04:30.034,000 --> 0:04:32,000
+Based on their best performance this year,
+
+65
+0:04:32.444,000 --> 0:04:36,000
+they arrive 6.4 meters ahead of the French team,
+
+66
+0:04:37.373,000 --> 0:04:38,000
+based on the data.
+
+67
+0:04:39.274,000 --> 0:04:4,000
+We are going to look at the race.
+
+68
+0:04:40.877,000 --> 0:04:42,000
+At some point you will see, towards the end,
+
+69
+0:04:43.324,000 --> 0:04:49,000
+that Torri Edwards, the fourth US runner, is ahead.
+
+70
+0:04:49.654,000 --> 0:04:55,000
+Not surprising -- this year she got the gold medal in the 100-meter race.
+
+71
+0:04:56.167,000 --> 0:05:,000
+And by the way, Chryste Gaines, the second runner in the US team,
+
+72
+0:05:01.133,000 --> 0:05:03,000
+is the fastest woman on earth.
+
+73
+0:05:03.794,000 --> 0:05:08,000
+So, there are 3.5 billion women on earth.
+
+74
+0:05:09.89,000 --> 0:05:12,000
+Where are the two fastest? On the US team.
+
+75
+0:05:13.087,000 --> 0:05:16,000
+And the two other runners on the US team are not bad, either.
+
+76
+0:05:16.384,000 --> 0:05:17,000
+(Laughter)
+
+77
+0:05:18.124,000 --> 0:05:22,000
+So clearly, the US team has won the war for talent.
+
+78
+0:05:24.391,000 --> 0:05:27,000
+But behind, the average team is trying to catch up.
+
+79
+0:05:28.396,000 --> 0:05:29,000
+Let's watch the race.
+
+80
+0:05:30.3,000 --> 0:05:35,000
+(Video: French sportscasters narrate race)
+
+81
+0:06:18.886,000 --> 0:06:2,000
+(Video: Race narration ends)
+
+82
+0:06:22.112,000 --> 0:06:23,000
+Yves Morieux: So what happened?
+
+83
+0:06:23.631,000 --> 0:06:27,000
+The fastest team did not win; the slower one did.
+
+84
+0:06:28.809,000 --> 0:06:29,000
+By the way, I hope you appreciate
+
+85
+0:06:30.77,000 --> 0:06:35,000
+the deep historical research I did to make the French look good.
+
+86
+0:06:36.72,000 --> 0:06:38,000
+(Laughter)
+
+87
+0:06:41.485,000 --> 0:06:45,000
+But let's not exaggerate -- it's not archeology, either.
+
+88
+0:06:45.928,000 --> 0:06:46,000
+(Laughter)
+
+89
+0:06:47.933,000 --> 0:06:48,000
+But why?
+
+90
+0:06:49.123,000 --> 0:06:5,000
+Because of cooperation.
+
+91
+0:06:50.687,000 --> 0:06:51,000
+When you hear this sentence:
+
+92
+0:06:52.545,000 --> 0:06:56,000
+"Thanks to cooperation, the whole is worth more than the sum of the parts."
+
+93
+0:06:57.707,000 --> 0:07:,000
+This is not poetry; this is not philosophy.
+
+94
+0:07:01.046,000 --> 0:07:02,000
+This is math.
+
+95
+0:07:03.196,000 --> 0:07:06,000
+Those who carry the baton are slower,
+
+96
+0:07:06.5,000 --> 0:07:07,000
+but their baton is faster.
+
+97
+0:07:08.848,000 --> 0:07:09,000
+Miracle of cooperation:
+
+98
+0:07:11.057,000 --> 0:07:16,000
+it multiplies energy, intelligence in human efforts.
+
+99
+0:07:16.361,000 --> 0:07:18,000
+It is the essence of human efforts:
+
+100
+0:07:19.36,000 --> 0:07:24,000
+how we work together, how each effort contributes to the efforts of others.
+
+101
+0:07:26.017,000 --> 0:07:29,000
+With cooperation, we can do more with less.
+
+102
+0:07:29.788,000 --> 0:07:34,000
+Now, what happens to cooperation when the holy grail --
+
+103
+0:07:35.36,000 --> 0:07:37,000
+the holy trinity, even --
+
+104
+0:07:37.822,000 --> 0:07:43,000
+of clarity, measurement, accountability --
+
+105
+0:07:44.067,000 --> 0:07:45,000
+appears?
+
+106
+0:07:46.952,000 --> 0:07:47,000
+Clarity.
+
+107
+0:07:48.128,000 --> 0:07:52,000
+Management reports are full of complaints about the lack of clarity.
+
+108
+0:07:53.424,000 --> 0:07:56,000
+Compliance audits, consultants' diagnostics.
+
+109
+0:07:58.49,000 --> 0:08:02,000
+We need more clarity, we need to clarify the roles, the processes.
+
+110
+0:08:04.092,000 --> 0:08:08,000
+It is as though the runners on the team were saying,
+
+111
+0:08:08.132,000 --> 0:08:13,000
+"Let's be clear -- where does my role really start and end?
+
+112
+0:08:14.938,000 --> 0:08:18,000
+Am I supposed to run for 95 meters, 96, 97...?"
+
+113
+0:08:19.794,000 --> 0:08:2,000
+It's important, let's be clear.
+
+114
+0:08:22.885,000 --> 0:08:25,000
+If you say 97, after 97 meters,
+
+115
+0:08:25.915,000 --> 0:08:28,000
+people will drop the baton, whether there is someone to take it or not.
+
+116
+0:08:31.145,000 --> 0:08:32,000
+Accountability.
+
+117
+0:08:33.084,000 --> 0:08:36,000
+We are constantly trying to put accountability
+
+118
+0:08:36.558,000 --> 0:08:37,000
+in someone's hands.
+
+119
+0:08:38.559,000 --> 0:08:4,000
+Who is accountable for this process?
+
+120
+0:08:41.156,000 --> 0:08:44,000
+We need somebody accountable for this process.
+
+121
+0:08:44.634,000 --> 0:08:48,000
+So in the relay race, since passing the baton is so important,
+
+122
+0:08:49.119,000 --> 0:08:52,000
+then we need somebody clearly accountable for passing the baton.
+
+123
+0:08:53.786,000 --> 0:08:55,000
+So between each runner,
+
+124
+0:08:55.989,000 --> 0:08:59,000
+now we will have a new dedicated athlete,
+
+125
+0:09:00.737,000 --> 0:09:04,000
+clearly dedicated to taking the baton from one runner,
+
+126
+0:09:05.306,000 --> 0:09:07,000
+and passing it to the next runner.
+
+127
+0:09:08.284,000 --> 0:09:1,000
+And we will have at least two like that.
+
+128
+0:09:12.381,000 --> 0:09:18,000
+Well, will we, in that case, win the race?
+
+129
+0:09:19.903,000 --> 0:09:21,000
+That I don't know, but for sure,
+
+130
+0:09:21.928,000 --> 0:09:24,000
+we would have a clear interface,
+
+131
+0:09:25.222,000 --> 0:09:27,000
+a clear line of accountability.
+
+132
+0:09:27.89,000 --> 0:09:28,000
+We will know who to blame.
+
+133
+0:09:30.834,000 --> 0:09:32,000
+But we'll never win the race.
+
+134
+0:09:33.099,000 --> 0:09:37,000
+If you think about it, we pay more attention
+
+135
+0:09:38.11,000 --> 0:09:42,000
+to knowing who to blame in case we fail,
+
+136
+0:09:42.289,000 --> 0:09:45,000
+than to creating the conditions to succeed.
+
+137
+0:09:47.384,000 --> 0:09:5,000
+All the human intelligence put in organization design --
+
+138
+0:09:50.771,000 --> 0:09:52,000
+urban structures, processing systems --
+
+139
+0:09:53.58,000 --> 0:09:54,000
+what is the real goal?
+
+140
+0:09:56.347,000 --> 0:09:58,000
+To have somebody guilty in case they fail.
+
+141
+0:10:00.499,000 --> 0:10:04,000
+We are creating organizations able to fail,
+
+142
+0:10:05.41,000 --> 0:10:07,000
+but in a compliant way,
+
+143
+0:10:08.411,000 --> 0:10:11,000
+with somebody clearly accountable when we fail.
+
+144
+0:10:11.877,000 --> 0:10:14,000
+And we are quite effective at that -- failing.
+
+145
+0:10:16.892,000 --> 0:10:17,000
+Measurement.
+
+146
+0:10:18.674,000 --> 0:10:19,000
+What gets measured gets done.
+
+147
+0:10:20.126,000 --> 0:10:24,000
+Look, to pass the baton, you have to do it at the right time,
+
+148
+0:10:24.541,000 --> 0:10:26,000
+in the right hand, at the right speed.
+
+149
+0:10:27.457,000 --> 0:10:29,000
+But to do that, you have to put energy in your arm.
+
+150
+0:10:30.04,000 --> 0:10:32,000
+This energy that is in your arm will not be in your legs.
+
+151
+0:10:33.491,000 --> 0:10:35,000
+It will come at the expense of your measurable speed.
+
+152
+0:10:37.367,000 --> 0:10:4,000
+You have to shout early enough to the next runner
+
+153
+0:10:40.844,000 --> 0:10:43,000
+when you will pass the baton, to signal that you are arriving,
+
+154
+0:10:44.179,000 --> 0:10:47,000
+so that the next runner can prepare, can anticipate.
+
+155
+0:10:47.408,000 --> 0:10:49,000
+And you have to shout loud.
+
+156
+0:10:50.182,000 --> 0:10:53,000
+But the blood, the energy that will be in your throat
+
+157
+0:10:54.179,000 --> 0:10:55,000
+will not be in your legs.
+
+158
+0:10:55.603,000 --> 0:10:58,000
+Because you know, there are eight people shouting at the same time.
+
+159
+0:10:59.383,000 --> 0:11:01,000
+So you have to recognize the voice of your colleague.
+
+160
+0:11:02.372,000 --> 0:11:03,000
+You cannot say, "Is it you?"
+
+161
+0:11:04.57,000 --> 0:11:05,000
+Too late!
+
+162
+0:11:05.748,000 --> 0:11:06,000
+(Laughter)
+
+163
+0:11:06.978,000 --> 0:11:1,000
+Now, let's look at the race in slow motion,
+
+164
+0:11:11.978,000 --> 0:11:13,000
+and concentrate on the third runner.
+
+165
+0:11:14.55,000 --> 0:11:18,000
+Look at where she allocates her efforts,
+
+166
+0:11:18.997,000 --> 0:11:2,000
+her energy, her attention.
+
+167
+0:11:22.878,000 --> 0:11:25,000
+Not all in her legs -- that would be great for her own speed --
+
+168
+0:11:26.046,000 --> 0:11:29,000
+but in also in her throat, arm, eye, brain.
+
+169
+0:11:29.56,000 --> 0:11:31,000
+That makes a difference in whose legs?
+
+170
+0:11:32.314,000 --> 0:11:34,000
+In the legs of the next runner.
+
+171
+0:11:34.728,000 --> 0:11:36,000
+But when the next runner runs super-fast,
+
+172
+0:11:37.586,000 --> 0:11:39,000
+is it because she made a super effort,
+
+173
+0:11:39.738,000 --> 0:11:42,000
+or because of the way the third runner passed the baton?
+
+174
+0:11:43.403,000 --> 0:11:46,000
+There is no metric on earth that will give us the answer.
+
+175
+0:11:48.31,000 --> 0:11:52,000
+And if we reward people on the basis of their measurable performance,
+
+176
+0:11:52.845,000 --> 0:11:55,000
+they will put their energy, their attention, their blood
+
+177
+0:11:55.923,000 --> 0:11:57,000
+in what can get measured -- in their legs.
+
+178
+0:11:58.581,000 --> 0:12:,000
+And the baton will fall and slow down.
+
+179
+0:12:01.534,000 --> 0:12:03,000
+To cooperate is not a super effort,
+
+180
+0:12:04.13,000 --> 0:12:06,000
+it is how you allocate your effort.
+
+181
+0:12:07.28,000 --> 0:12:08,000
+It is to take a risk,
+
+182
+0:12:09.144,000 --> 0:12:13,000
+because you sacrifice the ultimate protection
+
+183
+0:12:13.398,000 --> 0:12:18,000
+granted by objectively measurable individual performance.
+
+184
+0:12:20.516,000 --> 0:12:23,000
+It is to make a super difference in the performance of others,
+
+185
+0:12:24.417,000 --> 0:12:25,000
+with whom we are compared.
+
+186
+0:12:26.757,000 --> 0:12:28,000
+It takes being stupid to cooperate, then.
+
+187
+0:12:29.551,000 --> 0:12:31,000
+And people are not stupid; they don't cooperate.
+
+188
+0:12:32.738,000 --> 0:12:37,000
+You know, clarity, accountability, measurement were OK
+
+189
+0:12:37.902,000 --> 0:12:39,000
+when the world was simpler.
+
+190
+0:12:40.929,000 --> 0:12:43,000
+But business has become much more complex.
+
+191
+0:12:43.977,000 --> 0:12:45,000
+With my teams, we have measured
+
+192
+0:12:46.032,000 --> 0:12:49,000
+the evolution of complexity in business.
+
+193
+0:12:49.08,000 --> 0:12:54,000
+It is much more demanding today to attract and retain customers,
+
+194
+0:12:54.707,000 --> 0:12:57,000
+to build advantage on a global scale,
+
+195
+0:12:58.042,000 --> 0:12:59,000
+to create value.
+
+196
+0:13:00.691,000 --> 0:13:02,000
+And the more business gets complex,
+
+197
+0:13:03.472,000 --> 0:13:08,000
+the more, in the name of clarity, accountability, measurement
+
+198
+0:13:08.797,000 --> 0:13:11,000
+we multiply structures, processes, systems.
+
+199
+0:13:13.083,000 --> 0:13:17,000
+You know, this drive for clarity and accountability triggers
+
+200
+0:13:17.916,000 --> 0:13:22,000
+a counterproductive multiplication of interfaces, middle offices,
+
+201
+0:13:23.295,000 --> 0:13:28,000
+coordinators that do not only mobilize people and resources,
+
+202
+0:13:28.356,000 --> 0:13:3,000
+but that also add obstacles.
+
+203
+0:13:31.276,000 --> 0:13:35,000
+And the more complicated the organization,
+
+204
+0:13:35.87,000 --> 0:13:38,000
+the more difficult it is to understand what is really happening.
+
+205
+0:13:39.547,000 --> 0:13:44,000
+So we need summaries, proxies, reports,
+
+206
+0:13:44.991,000 --> 0:13:47,000
+key performance indicators, metrics.
+
+207
+0:13:48.315,000 --> 0:13:52,000
+So people put their energy in what can get measured,
+
+208
+0:13:53.051,000 --> 0:13:55,000
+at the expense of cooperation.
+
+209
+0:13:55.17,000 --> 0:13:57,000
+And as performance deteriorates,
+
+210
+0:13:57.726,000 --> 0:14:,000
+we add even more structure, process, systems.
+
+211
+0:14:00.879,000 --> 0:14:02,000
+People spend their time in meetings,
+
+212
+0:14:03.735,000 --> 0:14:07,000
+writing reports they have to do, undo and redo.
+
+213
+0:14:08.289,000 --> 0:14:11,000
+Based on our analysis, teams in these organizations
+
+214
+0:14:11.735,000 --> 0:14:17,000
+spend between 40 and 80 percent of their time wasting their time,
+
+215
+0:14:17.93,000 --> 0:14:2,000
+but working harder and harder, longer and longer,
+
+216
+0:14:21.947,000 --> 0:14:23,000
+on less and less value-adding activities.
+
+217
+0:14:26.242,000 --> 0:14:28,000
+This is what is killing productivity,
+
+218
+0:14:28.576,000 --> 0:14:3,000
+what makes people suffer at work.
+
+219
+0:14:31.226,000 --> 0:14:35,000
+Our organizations are wasting human intelligence.
+
+220
+0:14:35.787,000 --> 0:14:38,000
+They have turned against human efforts.
+
+221
+0:14:40.673,000 --> 0:14:42,000
+When people don't cooperate,
+
+222
+0:14:43.587,000 --> 0:14:47,000
+don't blame their mindsets, their mentalities, their personality --
+
+223
+0:14:48.006,000 --> 0:14:5,000
+look at the work situations.
+
+224
+0:14:51.125,000 --> 0:14:55,000
+Is it really in their personal interest to cooperate or not,
+
+225
+0:14:55.398,000 --> 0:14:58,000
+if, when they cooperate, they are individually worse off?
+
+226
+0:14:59.914,000 --> 0:15:,000
+Why would they cooperate?
+
+227
+0:15:01.922,000 --> 0:15:04,000
+When we blame personalities
+
+228
+0:15:05.538,000 --> 0:15:11,000
+instead of the clarity, the accountability, the measurement,
+
+229
+0:15:11.72,000 --> 0:15:14,000
+we add injustice to ineffectiveness.
+
+230
+0:15:17.654,000 --> 0:15:18,000
+We need to create organizations
+
+231
+0:15:19.591,000 --> 0:15:23,000
+in which it becomes individually useful for people to cooperate.
+
+232
+0:15:24.807,000 --> 0:15:28,000
+Remove the interfaces, the middle offices --
+
+233
+0:15:29.626,000 --> 0:15:32,000
+all these complicated coordination structures.
+
+234
+0:15:33.573,000 --> 0:15:37,000
+Don't look for clarity; go for fuzziness.
+
+235
+0:15:37.977,000 --> 0:15:39,000
+Fuzziness overlaps.
+
+236
+0:15:41.244,000 --> 0:15:45,000
+Remove most of the quantitative metrics to assess performance.
+
+237
+0:15:46.2,000 --> 0:15:47,000
+Speed the "what."
+
+238
+0:15:48.414,000 --> 0:15:5,000
+Look at cooperation, the "how."
+
+239
+0:15:51.255,000 --> 0:15:52,000
+How did you pass the baton?
+
+240
+0:15:52.88,000 --> 0:15:55,000
+Did you throw it, or did you pass it effectively?
+
+241
+0:15:58.569,000 --> 0:16:04,000
+Am I putting my energy in what can get measured --
+
+242
+0:16:04.651,000 --> 0:16:08,000
+my legs, my speed -- or in passing the baton?
+
+243
+0:16:08.81,000 --> 0:16:12,000
+You, as leaders, as managers,
+
+244
+0:16:13.177,000 --> 0:16:18,000
+are you making it individually useful for people to cooperate?
+
+245
+0:16:20.205,000 --> 0:16:23,000
+The future of our organizations,
+
+246
+0:16:23.367,000 --> 0:16:26,000
+our companies, our societies
+
+247
+0:16:27.184,000 --> 0:16:32,000
+hinges on your answer to these questions.
+
+248
+0:16:33.035,000 --> 0:16:34,000
+Thank you.
+
+249
+0:16:34.24,000 --> 0:16:37,000
+(Applause)
+

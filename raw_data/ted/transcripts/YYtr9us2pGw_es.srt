@@ -1,0 +1,276 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Andrea Valencia Revisor: Daniel Garcia
+
+2
+0:00:19.33,000 --> 0:00:21,000
+En 1952, Buckminster Fuller
+
+3
+0:00:21.33,000 --> 0:00:25,000
+presentó una propuesta particularmente audaz para el Geoscope.
+
+4
+0:00:25.33,000 --> 0:00:28,000
+Era una esfera geodesica de 200 pies de diámetro
+
+5
+0:00:28.33,000 --> 0:00:33,000
+que estaría suspendida sobre el Río Este en la ciudad de Nueva York, a la vista de las Naciones Unidas.
+
+6
+0:00:33.33,000 --> 0:00:39,000
+Era una gran idea, por supuesto, y era una que él sentía que verdaderamente podía informar
+
+7
+0:00:39.33,000 --> 0:00:43,000
+y profundamente afectar la toma de decisiones de este organismo
+
+8
+0:00:43.33,000 --> 0:00:47,000
+a través de animaciones de información global, tendencias
+
+9
+0:00:47.33,000 --> 0:00:51,000
+y otro tipo de información relacionada con el mundo, en esta esfera.
+
+10
+0:00:51.33,000 --> 0:00:54,000
+Y hoy, 45 años después,
+
+11
+0:00:54.33,000 --> 0:00:57,000
+está claro que no necesitamos más este tipo de claridad ni de pespectiva,
+
+12
+0:00:57.33,000 --> 0:01:,000
+pero lo que sí tenemos es una tecnología que se ha perfeccionado.
+
+13
+0:01:00.33,000 --> 0:01:03,000
+Hoy en día, no necesitamos un millón de focos para crear una pantalla esférica.
+
+14
+0:01:03.33,000 --> 0:01:05,000
+Podemos utilizar LEDs.
+
+15
+0:01:05.33,000 --> 0:01:1,000
+Los LEDs son más pequeños, baratos, durables y eficientes.
+
+16
+0:01:10.33,000 --> 0:01:12,000
+Y lo más importante para esto, son más rápidos.
+
+17
+0:01:12.33,000 --> 0:01:16,000
+Y esta velocidad, combinada con los micro controladores de alto rendimiento de hoy en día
+
+18
+0:01:16.33,000 --> 0:01:19,000
+nos permiten simular, en esta pieza,
+
+19
+0:01:19.33,000 --> 0:01:23,000
+más de 17,000 LEDs --utilizando sólo 64.
+
+20
+0:01:24.33,000 --> 0:01:28,000
+Y la manera en que esto sucede es a través del fenómeno de la persistencia de la visión.
+
+21
+0:01:28.33,000 --> 0:01:32,000
+Pero este anillo rota aproximadamente a 1,700 rpm --es decir, 28 veces por segundo.
+
+22
+0:01:33.33,000 --> 0:01:36,000
+La velocidad del ecuador es de alrededor de 60 millas por hora.
+
+23
+0:01:36.33,000 --> 0:01:38,000
+Existen cuatro micro controladores internos
+
+24
+0:01:38.33,000 --> 0:01:41,000
+que, cada vez que este anillo lo rota,
+
+25
+0:01:41.33,000 --> 0:01:43,000
+mientras pasa por la parte trasera del visualizador,
+
+26
+0:01:43.33,000 --> 0:01:45,000
+detecta una señal de ubicación
+
+27
+0:01:45.33,000 --> 0:01:47,000
+y de ahí, los micro controladores internos
+
+28
+0:01:47.33,000 --> 0:01:52,000
+pueden extrapolar la posición del anillo en todos los puntos de la revolución
+
+29
+0:01:52.33,000 --> 0:01:55,000
+y mostrar arbitrariamente imágenes y animaciones.
+
+30
+0:01:55.33,000 --> 0:01:58,000
+Pero en realidad esto es sólo el comienzo.
+
+31
+0:01:58.33,000 --> 0:02:01,000
+Además de versiones de mayor resolución de visualización,
+
+32
+0:02:01.33,000 --> 0:02:04,000
+mi padre y yo estamos trabajando en un nuevo diseño con patente pendiente
+
+33
+0:02:04.33,000 --> 0:02:07,000
+para una pantalla completamente volumétrica usando el mismo fenómeno.
+
+34
+0:02:07.33,000 --> 0:02:1,000
+Ésto lo logra al hacer rotar los LEDs alrededor de dos ejes.
+
+35
+0:02:10.33,000 --> 0:02:13,000
+Así que, como puede ver aquí, este es un tablero de circuito de 11 pulgadas de diámetro.
+
+36
+0:02:13.33,000 --> 0:02:15,000
+Estos bloques representan los LEDs.
+
+37
+0:02:15.33,000 --> 0:02:19,000
+Y así puede ver que, mientras este disco rota alrededor de este eje,
+
+38
+0:02:19.33,000 --> 0:02:22,000
+creará un disco de luz que podemos controlar.
+
+39
+0:02:22.33,000 --> 0:02:24,000
+Eso no es nada nuevo, eso es un reloj de hélice.
+
+40
+0:02:24.33,000 --> 0:02:27,000
+Esos son los rines que puede comprar para su coche.
+
+41
+0:02:27.33,000 --> 0:02:32,000
+Pero lo que sí es nuevo, es que al rotar este disco alrededor de este eje,
+
+42
+0:02:32.33,000 --> 0:02:35,000
+ahora el disco de luz en realidad se convierte en una esfera de luz.
+
+43
+0:02:35.33,000 --> 0:02:37,000
+Y por lo tanto, podemos controlar esto con los micro controladores
+
+44
+0:02:37.33,000 --> 0:02:43,000
+y crear una pantalla tridimensional completamente volumétrica con sólo 256 LEDs.
+
+45
+0:02:43.33,000 --> 0:02:45,000
+Actualmente esta pieza está en proceso --
+
+46
+0:02:45.33,000 --> 0:02:5,000
+saldrá en Mayo, pero lo que hemos hecho es crear una pequeña demostración,
+
+47
+0:02:50.33,000 --> 0:02:54,000
+sólo para mostrar la traducción geométrica de puntos en una esfera.
+
+48
+0:02:54.33,000 --> 0:02:56,000
+Tengo para mostrarles un video corto,
+
+49
+0:02:56.33,000 --> 0:03:,000
+pero tengan en cuenta que esto es sin control electrónico,
+
+50
+0:03:00.33,000 --> 0:03:02,000
+y que además funciona con sólo cuatro LEDs.
+
+51
+0:03:02.33,000 --> 0:03:05,000
+Esto es en realidad sólo el 1.5% de lo que será la pantalla terminada en Mayo.
+
+52
+0:03:05.33,000 --> 0:03:07,000
+Así que, echen un vistazo.
+
+53
+0:03:09.33,000 --> 0:03:13,000
+Y aquí puede ver que solamente está rotando alrededor del eje vertical, creando círculos.
+
+54
+0:03:17.33,000 --> 0:03:19,000
+Y después, mientras los otros ejes se integran
+
+55
+0:03:19.33,000 --> 0:03:21,000
+aquéllos se disipan en un volumen.
+
+56
+0:03:21.33,000 --> 0:03:23,000
+Y la velocidad del disparador de la cámara
+
+57
+0:03:23.33,000 --> 0:03:26,000
+en realidad lo hace ligeramente menos efectivo en este caso.
+
+58
+0:03:26.33,000 --> 0:03:28,000
+Pero esta pieza saldrá en Mayo.
+
+59
+0:03:28.33,000 --> 0:03:31,000
+Se mostrará en el Interactive Telecommunications Spring Show
+
+60
+0:03:31.33,000 --> 0:03:33,000
+en Greenwich Village en Nueva York --estará abierto al público,
+
+61
+0:03:33.33,000 --> 0:03:37,000
+por supuesto los invito a todos a asistir --es un espectáculo fantástico.
+
+62
+0:03:37.33,000 --> 0:03:41,000
+Hay cientos de estudiantes innovadores con proyectos fantásticos.
+
+63
+0:03:41.33,000 --> 0:03:43,000
+Esta pieza, en realidad, se mostrará
+
+64
+0:03:43.33,000 --> 0:03:45,000
+abajo en el Sierra Simulcast Lounge
+
+65
+0:03:45.33,000 --> 0:03:47,000
+en los descansos que haya desde ahora y hasta el fin del espectáculo.
+
+66
+0:03:47.33,000 --> 0:03:49,000
+Así que me encantaría hablar con todos ustedes, e invitarlos
+
+67
+0:03:49.33,000 --> 0:03:51,000
+a que vengan y vean el proyecto más de cerca.
+
+68
+0:03:51.33,000 --> 0:03:53,000
+Es un honor estar aquí, muchas gracias.
+
+69
+0:03:53.33,000 --> 0:03:54,000
+(Aplausos)
+

@@ -1,0 +1,1168 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Christian Mondorf Relecteur: eric vautier
+
+2
+0:00:25,000 --> 0:00:29,000
+J'ai été au MIT pendant 44 ans. J'ai participé au premier TED.
+
+3
+0:00:29,000 --> 0:00:32,000
+Une seule autre personne ici, d'après moi, a fait cela.
+
+4
+0:00:32,000 --> 0:00:36,000
+A toutes les autres conférences TED -- et je suis allé à toutes, sous la direction de Ricky --
+
+5
+0:00:36,000 --> 0:00:39,000
+j'ai parlé de ce que faisait le Media Lab,
+
+6
+0:00:39,000 --> 0:00:41,000
+qui aujourd'hui compte presque 500 personnes.
+
+7
+0:00:41,000 --> 0:00:46,000
+Si vous lisez la presse, on y disait la semaine dernière que j'ai quitté le Media Lab.
+
+8
+0:00:46,000 --> 0:00:5,000
+Je ne l'ai pas quitté, j'ai démissionné du poste de président --
+
+9
+0:00:5,000 --> 0:00:55,000
+qui était un titre un peu ridicule, mais quelqu'un d'autre l'a depuis endossé,
+
+10
+0:00:55,000 --> 0:00:57,000
+et l'une des choses que vous pouvez faire en tant que professeur,
+
+11
+0:00:57,000 --> 0:00:59,000
+est de rester professeur.
+
+12
+0:00:59,000 --> 0:01:03,000
+Maintenant, et pour le reste de mes jours, je vais me consacrer au projet "One Laptop Per Child" (OLPC),
+
+13
+0:01:03,000 --> 0:01:06,000
+ce que je fais plus ou moins depuis un an et demi, de toute façon.
+
+14
+0:01:06,000 --> 0:01:08,000
+Je vais donc vous parler de cela,
+
+15
+0:01:08,000 --> 0:01:11,000
+utiliser mes 18 minutes pour vous dire pourquoi je fais ça,
+
+16
+0:01:11,000 --> 0:01:14,000
+comment nous nous y prenons, et ce que nous faisons.
+
+17
+0:01:14,000 --> 0:01:17,000
+A un moment je vais même faire circuler parmi vous
+
+18
+0:01:17,000 --> 0:01:2,000
+ce à quoi le portable à 100 dollars ressemblera peut-être.
+
+19
+0:01:21,000 --> 0:01:26,000
+Chris m'a demandé d'aborder quelques-unes des grandes questions,
+
+20
+0:01:26,000 --> 0:01:32,000
+j'ai donc imaginé commencer avec les trois qui m'ont poussé à faire ce projet.
+
+21
+0:01:32,000 --> 0:01:34,000
+La première est assez évidente.
+
+22
+0:01:34,000 --> 0:01:37,000
+C'est incroyable quand vous rencontrez un chef d'État, et que vous lui demandez,
+
+23
+0:01:37,000 --> 0:01:4,000
+"Quelle est votre ressource naturelle la plus précieuse?"
+
+24
+0:01:4,000 --> 0:01:43,000
+Sa première réponse ne sera pas "les enfants",
+
+25
+0:01:43,000 --> 0:01:47,000
+mais dès que vous le dites, ils sont plutôt rapidement d'accord avec vous.
+
+26
+0:01:47,000 --> 0:01:49,000
+Cela n'est donc pas très difficile.
+
+27
+0:01:51,000 --> 0:01:56,000
+Tout le monde est d'accord pour dire que quelles que soient les solutions aux grands problèmes,
+
+28
+0:01:56,000 --> 0:02:01,000
+elles incluent l'éducation, parfois uniquement l'éducation,
+
+29
+0:02:01,000 --> 0:02:05,000
+et qu'elles ne peuvent jamais être sans une composante éducative
+
+30
+0:02:05,000 --> 0:02:07,000
+C'est très certainement une partie de ma motivation.
+
+31
+0:02:07,000 --> 0:02:09,000
+La troisième raison est un peu moins évidente.
+
+32
+0:02:09,000 --> 0:02:14,000
+Chacun d'entre nous ici présent a appris à marcher, à parler,
+
+33
+0:02:14,000 --> 0:02:18,000
+non pas en recevant un enseignement sur la parole ou la marche
+
+34
+0:02:18,000 --> 0:02:2,000
+mais en interagissant avec le monde,
+
+35
+0:02:2,000 --> 0:02:25,000
+en obtenant certains résultats en retour de notre capacité à pouvoir demander quelque chose,
+
+36
+0:02:25,000 --> 0:02:27,000
+ou en étant capable de nous lever et de l'atteindre.
+
+37
+0:02:27,000 --> 0:02:31,000
+Alors que vers l'âge de six ans, on nous dit d'arrêter d'apprendre ainsi,
+
+38
+0:02:31,000 --> 0:02:34,000
+et on nous dit que tout savoir désormais viendra par l'enseignement,
+
+39
+0:02:34,000 --> 0:02:38,000
+que ce soit par quelqu'un debout, comme moi actuellement, ou un livre ou quelque chose de semblable.
+
+40
+0:02:38,000 --> 0:02:4,000
+Mais c'est toujours par l'enseignement.
+
+41
+0:02:4,000 --> 0:02:46,000
+L'un des apports des ordinateurs à l'enseignement
+
+42
+0:02:46,000 --> 0:02:49,000
+est qu'il comprend dorénavant une nouvelle forme d'apprentissage
+
+43
+0:02:49,000 --> 0:02:52,000
+qui ressemble plus à ceui qui nous a permis d'apprendre à marcher ou parler,
+
+44
+0:02:52,000 --> 0:02:58,000
+en ce que ce processus est piloté par la personne même qui apprend.
+
+45
+0:02:58,000 --> 0:03:01,000
+Alors avec tous ces principes --
+
+46
+0:03:01,000 --> 0:03:04,000
+quelques-uns d'entre vous connaissent peut-être Seymour Papert,
+
+47
+0:03:04,000 --> 0:03:07,000
+en 1982, lorsque nous travaillions au Sénégal.
+
+48
+0:03:07,000 --> 0:03:12,000
+Certaines personnes croient que le projet n'a démarré que l'année dernière,
+
+49
+0:03:12,000 --> 0:03:15,000
+ou il y a deux ans, ou que ça nous a pris tout d'un coup.
+
+50
+0:03:15,000 --> 0:03:2,000
+En fait, ce projet remonte à très loin, en fait aux années 60.
+
+51
+0:03:2,000 --> 0:03:22,000
+Ici nous sommes dans les années 80.
+
+52
+0:03:22,000 --> 0:03:25,000
+Steve Jobs nous avait donné quelques ordinateurs portables, nous étions au Sénégal.
+
+53
+0:03:26,000 --> 0:03:33,000
+Ce projet n'a pas grandi mais au moins avait apporté des ordinateurs à des pays en voie de développement,
+
+54
+0:03:33,000 --> 0:03:35,000
+et nous avions rapidement constaté que ces enfants --
+
+55
+0:03:35,000 --> 0:03:37,000
+même s'ils ne parlaient pas Anglais,
+
+56
+0:03:37,000 --> 0:03:4,000
+l'alphabet latin était à peine leur langue,
+
+57
+0:03:4,000 --> 0:03:42,000
+mais ils étaient comme des poissons dans l'eau;
+
+58
+0:03:42,000 --> 0:03:44,000
+ils pouvaient jouer sur ceux-ci comme sur des pianos.
+
+59
+0:03:46,000 --> 0:03:51,000
+Un peu plus récemment, je me suis impliqué personnellement.
+
+60
+0:03:51,000 --> 0:03:54,000
+J'ai deux anecdotes -- l'une au Cambodge,
+
+61
+0:03:54,000 --> 0:03:59,000
+dans un village qui n'a pas d'électricité, pas d'eau, pas de télé, pas de téléphone,
+
+62
+0:03:59,000 --> 0:04:02,000
+mais qui a maintenant un accès internet haut débit.
+
+63
+0:04:02,000 --> 0:04:04,000
+Pour ces enfants, leur premier mot en anglais est "Google,"
+
+64
+0:04:04,000 --> 0:04:09,000
+ils ne connaissent que Skype. Ils n'ont jamais entendu parler du téléphone.
+
+65
+0:04:09,000 --> 0:04:11,000
+Ils ne se servent que de Skype.
+
+66
+0:04:11,000 --> 0:04:15,000
+Ils rentrent chez eux le soir; ils ont une connexion haut débit
+
+67
+0:04:15,000 --> 0:04:17,000
+dans une hutte sans électricité.
+
+68
+0:04:17,000 --> 0:04:19,000
+Les parents adorent, parce que quand ils ouvrent leurs ordinateurs portables,
+
+69
+0:04:19,000 --> 0:04:21,000
+ils obtiennent la source lumineuse la plus puissante de la maison.
+
+70
+0:04:22,000 --> 0:04:25,000
+Voici un cas où les métaphores et la réalité se confondent --
+
+71
+0:04:26,000 --> 0:04:28,000
+ceci est l'école.
+
+72
+0:04:29,000 --> 0:04:34,000
+En parallèle, Seymour Papert a convaincu le gouverneur du Maine
+
+73
+0:04:34,000 --> 0:04:38,000
+de légiférer sur l'OLPC en 2002.
+
+74
+0:04:39,000 --> 0:04:44,000
+À l'époque, je pense qu'il aurait été juste de dire que 80% des profs étaient --
+
+75
+0:04:44,000 --> 0:04:46,000
+-- disons, réticents.
+
+76
+0:04:46,000 --> 0:04:48,000
+En fait, ils étaient contre.
+
+77
+0:04:48,000 --> 0:04:5,000
+Ils auraient préféré voir l'argent utilisé
+
+78
+0:04:5,000 --> 0:04:53,000
+pour payer des augmentations de salaire, plus d'écoles, quoi que ce soit.
+
+79
+0:04:53,000 --> 0:04:57,000
+Maintenant, trois ans et demi plus tard, devinez ce qui s'est passé?
+
+80
+0:04:57,000 --> 0:04:59,000
+Ils constatent cinq choses.
+
+81
+0:04:59,000 --> 0:05:05,000
+Une quasi disparition de l'absentéisme, la participation aux réunions parent-professeurs --
+
+82
+0:05:05,000 --> 0:05:07,000
+auxquelles personne n'allait, et auxquelles presque tout le monde assiste à présent --
+
+83
+0:05:07,000 --> 0:05:12,000
+une baisse des problèmes de discipline, une hausse de la participation des élèves.
+
+84
+0:05:12,000 --> 0:05:14,000
+Les profs disent maintenant qu'il est amusant d'enseigner;
+
+85
+0:05:14,000 --> 0:05:17,000
+les enfants sont attentifs. Ils ont des ordinateurs portables.
+
+86
+0:05:17,000 --> 0:05:19,000
+La cinquième, celle qui m'intéresse le plus,
+
+87
+0:05:19,000 --> 0:05:23,000
+est que les serveurs doivent parfois être éteints la nuit
+
+88
+0:05:23,000 --> 0:05:25,000
+parce que les enseignants reçoivent trop de mails
+
+89
+0:05:25,000 --> 0:05:27,000
+d'élèves qui posent des questions.
+
+90
+0:05:27,000 --> 0:05:31,000
+Quand vous voyez ce genre de choses, il est clair que nous n'avons plus à tester.
+
+91
+0:05:31,000 --> 0:05:34,000
+Les jours des projets pilotes sont révolus, lorsque les gens disaient,
+
+92
+0:05:34,000 --> 0:05:38,000
+"Bien, nous en voulons trois ou quatre mille dans notre pays pour voir comment ça marche."
+
+93
+0:05:38,000 --> 0:05:41,000
+Cassez-vous. Retournez dans la queue, quelqu'un le fera à votre place,
+
+94
+0:05:41,000 --> 0:05:45,000
+et vous pourrez aussi nous rejoindre quand vous aurez compris que ça marche.
+
+95
+0:05:45,000 --> 0:05:48,000
+C'est ce que nous faisons à présent.
+
+96
+0:05:48,000 --> 0:05:5,000
+(Rires) (Applaudissements)
+
+97
+0:05:5,000 --> 0:05:54,000
+Ainsi, OLPC a été créé il y a un an et demi.
+
+98
+0:05:54,000 --> 0:05:59,000
+C'est une association à but non-lucratif; elle a réuni à peu près 20 millions de dollars
+
+99
+0:05:59,000 --> 0:06:05,000
+pour concevoir la fabrication de cet appareil, et pour le produire par la suite.
+
+100
+0:06:05,000 --> 0:06:08,000
+Le volume est très important.
+
+101
+0:06:08,000 --> 0:06:14,000
+Pas parce que cela permet d'acheter des composants à plus bas prix, OK?
+
+102
+0:06:14,000 --> 0:06:17,000
+Mais parce que vous pouvez aller voir un fabricant --
+
+103
+0:06:17,000 --> 0:06:19,000
+que je ne nommerais pas --
+
+104
+0:06:19,000 --> 0:06:26,000
+nous voulions un petit écran, sans besoin d'un parfait rendu des couleurs,
+
+105
+0:06:26,000 --> 0:06:31,000
+un pixel ou deux pouvaient manquer, il n'avait pas besoin d'être aussi lumineux.
+
+106
+0:06:31,000 --> 0:06:34,000
+Le fabricant en question a dit: "Eh bien, vous savez,
+
+107
+0:06:34,000 --> 0:06:36,000
+cela ne nous intéresse pas. Ce qui nous intéresse, c'est la salle de séjour.
+
+108
+0:06:36,000 --> 0:06:38,000
+Ce qui nous intéresse, c'est un parfait rendu des couleurs.
+
+109
+0:06:38,000 --> 0:06:41,000
+de grands écrans, des écrans lumineux.
+
+110
+0:06:41,000 --> 0:06:44,000
+Vous ne collez avec notre stratégie."
+
+111
+0:06:44,000 --> 0:06:46,000
+Je leur ai dit: "Eh bien, c'est dommage,
+
+112
+0:06:46,000 --> 0:06:48,000
+parce que nous avons besoin 100 millions d'unités par an."
+
+113
+0:06:48,000 --> 0:06:54,000
+Ils ont dit alors, "Ah, bien, nous pourrions nous inclure dans votre stratégie."
+
+114
+0:06:54,000 --> 0:06:56,000
+Voilà pourquoi le volume est important.
+
+115
+0:06:56,000 --> 0:07:02,000
+Voilà pourquoi nous n'allons pas nous lancer sans envisager cinq ou dix millions d'appareils pour la première série.
+
+116
+0:07:02,000 --> 0:07:05,000
+L'idée est de débuter avec un volume suffisant
+
+117
+0:07:05,000 --> 0:07:08,000
+pour que le volume lui-même même réduise le coût,
+
+118
+0:07:08,000 --> 0:07:11,000
+et c'est pourquoi j'ai inscrit sept à dix millions ici.
+
+119
+0:07:11,000 --> 0:07:15,000
+Nous faisons cela sans équipe de vente ni de marketing.
+
+120
+0:07:15,000 --> 0:07:18,000
+En fait, l'équipe de vente et de marketing, c'est moi.
+
+121
+0:07:18,000 --> 0:07:24,000
+Nous y arriverons en nous allant dans sept grands pays, en obtenant leur accord et en lançant le projet.
+
+122
+0:07:24,000 --> 0:07:27,000
+Ensuite, d'autres pourront suivre.
+
+123
+0:07:27,000 --> 0:07:3,000
+Nous avons des partenaires; il n'est pas difficile de deviner que Google est l'un d'eux,
+
+124
+0:07:3,000 --> 0:07:33,000
+et les autres attendent toujours de voir ce qui se passe.
+
+125
+0:07:33,000 --> 0:07:37,000
+La presse s'intéresse beaucoup à nous.
+
+126
+0:07:37,000 --> 0:07:42,000
+Nous avons présenté cette fameuse "Machine Verte" avec Kofi Annan
+
+127
+0:07:42,000 --> 0:07:47,000
+en Novembre au Sommet Mondial qui se tenait en Tunisie.
+
+128
+0:07:47,000 --> 0:07:53,000
+Maintenant, quand les gens regardent ceci, ils disent, "ah, c'est un projet d'ordinateur portable".
+
+129
+0:07:53,000 --> 0:07:57,000
+Eh bien, non, ce n'est pas un projet d'ordinateur portable. C'est un projet éducatif.
+
+130
+0:07:57,000 --> 0:08:,000
+Ce qui est amusant -- et je suis très concentré sur ce point --
+
+131
+0:08:,000 --> 0:08:04,000
+je dis aux gens que j'étais auparavant une ampoule, que je suis à présent un laser.
+
+132
+0:08:04,000 --> 0:08:08,000
+Je vais bientôt réussir à faire construire cette chose,
+
+133
+0:08:08,000 --> 0:08:1,000
+et en fait ce n'est pas si difficile que ça.
+
+134
+0:08:1,000 --> 0:08:12,000
+Parce que la logique économique de l'ordinateur portable est la suivante:
+
+135
+0:08:12,000 --> 0:08:16,000
+J'ai écrit 50% ici; en fait c'est plutôt 60,
+
+136
+0:08:16,000 --> 0:08:21,000
+Le commercial, le marketing, la distribution et la marge représentent 60% du coût d'un ordinateur portable.
+
+137
+0:08:21,000 --> 0:08:23,000
+Nous n'avons aucune de ces choses.
+
+138
+0:08:23,000 --> 0:08:26,000
+Rien de cela ne figure dans nos coûts.
+
+139
+0:08:26,000 --> 0:08:31,000
+Parce que, tout d'abord, nous vendons à prix coûtant, puis le gouvernement le distribue.
+
+140
+0:08:31,000 --> 0:08:35,000
+L'appareil est distribué dans les écoles comme un livre d'école.
+
+141
+0:08:35,000 --> 0:08:39,000
+Donc, cette partie de l'équation disparaît, et ensuite vous avez l'écran et tout le reste.
+
+142
+0:08:39,000 --> 0:08:44,000
+L'écran de votre portable coûte, approximativement,
+
+143
+0:08:44,000 --> 0:08:48,000
+10$ par pouce sur la diagonale.
+
+144
+0:08:48,000 --> 0:08:5,000
+Vous pouvez le réduire à huit, même à sept,
+
+145
+0:08:5,000 --> 0:08:53,000
+mais il ne va pas tomber à deux, ou à un et demi,
+
+146
+0:08:53,000 --> 0:08:56,000
+à moins de faire quelque chose de très malin.
+
+147
+0:08:56,000 --> 0:09:01,000
+Le reste -- cette petite boîte marron -- c'est assez fascinant,
+
+148
+0:09:01,000 --> 0:09:06,000
+parce que le reste de votre ordinateur est dévoué à lui-même.
+
+149
+0:09:06,000 --> 0:09:1,000
+C'est un peu comme un obèse qui se voit obligé d'utiliser la plupart de
+
+150
+0:09:1,000 --> 0:09:14,000
+son énergie pour déplacer son poids.
+
+151
+0:09:14,000 --> 0:09:18,000
+Nous avons une situation aujourd'hui qui est incroyable.
+
+152
+0:09:18,000 --> 0:09:22,000
+D'accord, j'utilise des ordinateurs portables depuis leur apparition.
+
+153
+0:09:22,000 --> 0:09:3,000
+Et mon ordinateur portable est plus lent, moins fiable et moins agréable qu'il ne le fut jamais.
+
+154
+0:09:3,000 --> 0:09:32,000
+Cette année, c'est encore pire.
+
+155
+0:09:32,000 --> 0:09:37,000
+Maintenant les gens applaudissent, parfois il y a même qui se lèvent pour ovationner et je leur dis,
+
+156
+0:09:37,000 --> 0:09:42,000
+"qu'est-ce qui vous arrive? Pourquoi sommes-nous assis ici?"
+
+157
+0:09:42,000 --> 0:09:46,000
+Quelqu'un que je ne nommerais pas a dit récemment que notre ordinateur était un gadget.
+
+158
+0:09:46,000 --> 0:09:5,000
+Je lui ai répondu, bon Dieu, notre ordinateur portable va faire un malheur.
+
+159
+0:09:5,000 --> 0:09:55,000
+Quand vous l'ouvrez, il fera "bing" et sera allumé.
+
+160
+0:09:55,000 --> 0:10:02,000
+Ce sera comme en 1985, lorsque vous avez acheté un Apple Macintosh 512.
+
+161
+0:10:02,000 --> 0:10:04,000
+Il marchait très bien.
+
+162
+0:10:04,000 --> 0:10:07,000
+Depuis, nous n'avons fait que régresser.
+
+163
+0:10:07,000 --> 0:10:11,000
+Alors ça, tout le monde me demande ce que c'est.
+
+164
+0:10:11,000 --> 0:10:13,000
+C'est ça.
+
+165
+0:10:13,000 --> 0:10:19,000
+Il y a ici deux éléments remarquables : le réseau maillé :
+
+166
+0:10:19,000 --> 0:10:22,000
+lorsque les enfants ouvriront leurs ordinateurs portables, ils seront tous en réseau,
+
+167
+0:10:22,000 --> 0:10:25,000
+et n'auront besoin que d'un ou deux points de connexion.
+
+168
+0:10:25,000 --> 0:10:28,000
+Vous pouvez mettre un réseau à deux megabits pour quelques milliers d'enfants.
+
+169
+0:10:28,000 --> 0:10:32,000
+Alors vous pouvez vraiment faire entrer ça dans un village,
+
+170
+0:10:32,000 --> 0:10:34,000
+et les villages se connecteront eux-mêmes,
+
+171
+0:10:34,000 --> 0:10:37,000
+et vous pouvez faire marcher cela plutôt bien.
+
+172
+0:10:37,000 --> 0:10:43,000
+L'écran à deux éclairages -- l'idée est d'en avoir un écran qui marche aussi dehors --
+
+173
+0:10:43,000 --> 0:10:47,000
+n'est-ce pas amusant d'utiliser un téléphone portable sous le soleil?
+
+174
+0:10:47,000 --> 0:10:49,000
+Eh bien, vous ne voyez rien.
+
+175
+0:10:49,000 --> 0:10:54,000
+L'une des raisons est que le rétro-éclairage est tout le temps activé,
+
+176
+0:10:54,000 --> 0:10:55,000
+sur la plupart des téléphones portables.
+
+177
+0:10:55,000 --> 0:10:59,000
+Nous en avons fait un qui sera allumé à la fois par devant et par derrière.
+
+178
+0:10:59,000 --> 0:11:04,000
+Nous devons décider si le choix se fait via un interrupteur manuel ou par programme.
+
+179
+0:11:04,000 --> 0:11:07,000
+Mais quand c'est rétro-éclairé, c'est en couleur,
+
+180
+0:11:07,000 --> 0:11:1,000
+quand c'est par devant, c'est en noir et blanc avec une résolution trois fois supérieure.
+
+181
+0:11:1,000 --> 0:11:14,000
+Est-ce que tout a bien fonctionné? Non.
+
+182
+0:11:14,000 --> 0:11:19,000
+C'est pourquoi pas mal de nos équipes habitent plus ou moins à Taïwan.
+
+183
+0:11:19,000 --> 0:11:23,000
+Dans un mois environ, nous saurons si ceci marche ou pas.
+
+184
+0:11:23,000 --> 0:11:27,000
+Probablement, ce qui est le plus important
+
+185
+0:11:27,000 --> 0:11:3,000
+est que les enfants soient capables d'entretenir l'appareil eux-mêmes.
+
+186
+0:11:3,000 --> 0:11:33,000
+Ceci est à nouveau quelque chose que les gens ont du mal à croire,
+
+187
+0:11:33,000 --> 0:11:35,000
+mais c'est bien vrai.
+
+188
+0:11:36,000 --> 0:11:41,000
+C'est la machine que nous avons montrée à Tunis,
+
+189
+0:11:41,000 --> 0:11:45,000
+et c'est la direction que nous voulons suivre.
+
+190
+0:11:45,000 --> 0:11:48,000
+C'est quelque chose que nous ne croyions pas possible.
+
+191
+0:11:48,000 --> 0:11:5,000
+Maintenant, je vais faire passer ceci.
+
+192
+0:11:51,000 --> 0:11:53,000
+Ce n'est pas un simple concept.
+
+193
+0:11:53,000 --> 0:11:59,000
+C'est une concrétisation de génie mécanique que vous pouvez essayer.
+
+194
+0:11:59,000 --> 0:12:01,000
+Il est clair que ce n'est qu'une maquette.
+
+195
+0:12:01,000 --> 0:12:03,000
+Celui qui marche est au MIT.
+
+196
+0:12:03,000 --> 0:12:07,000
+Je vais le passer à ce beau jeune homme.
+
+197
+0:12:07,000 --> 0:12:12,000
+Au moins comme ça vous pouvez décider s'il va à gauche --
+
+198
+0:12:12,000 --> 0:12:16,000
+oh, diffusion simultanée. Désolé! J'ai oublié. OK, où que soit la caméra --
+
+199
+0:12:16,000 --> 0:12:18,000
+OK, bonne remarque. Merci, Chris.
+
+200
+0:12:19,000 --> 0:12:22,000
+L'idée était que ce ne serait pas seulement un ordinateur portable,
+
+201
+0:12:22,000 --> 0:12:26,000
+mais qu'il pouvait se transformer en livre électronique.
+
+202
+0:12:26,000 --> 0:12:28,000
+Donc c'est une espèce de livre électronique.
+
+203
+0:12:28,000 --> 0:12:3,000
+C'est comme ça que vous pouvez aller dehors, c'est en noir et blanc.
+
+204
+0:12:3,000 --> 0:12:36,000
+Les boutons de jeux ne sont pas là, mais ce sera aussi une console de jeux, une machine pour lire.
+
+205
+0:12:36,000 --> 0:12:38,000
+Mis comme ça c'est un appareil télé.
+
+206
+0:12:38,000 --> 0:12:43,000
+Etc, etc. -- est-ce que ça suffit comme ça pour la diffusion simultanée? D'accord, désolé.
+
+207
+0:12:44,000 --> 0:12:48,000
+Je vais laisser Jim décider où l'envoyer ensuite. OK
+
+208
+0:12:48,000 --> 0:12:51,000
+Sept pays. (Rires)
+
+209
+0:12:51,000 --> 0:12:55,000
+Je dis peut-être pour le Massachusetts, parce qu'ils doivent faire un appel d'offres.
+
+210
+0:12:55,000 --> 0:12:58,000
+C'est la loi, vous devez faire un appel d'offres, et tout ce qui s'ensuit.
+
+211
+0:12:58,000 --> 0:13:,000
+Alors je ne devrais pas vraiment les citer.
+
+212
+0:13:,000 --> 0:13:04,000
+Dans les autres cas, ils ne sont pas obligés de le faire. Ils ont juste à décider.
+
+213
+0:13:04,000 --> 0:13:06,000
+C'est le gouvernement fédéral à chaque fois.
+
+214
+0:13:06,000 --> 0:13:08,000
+C'est un peu stressant, parce que beaucoup de gens disent,
+
+215
+0:13:08,000 --> 0:13:1,000
+"Bon, faisons cela au niveau de l'état."
+
+216
+0:13:1,000 --> 0:13:15,000
+Parce que, bien sûr, les états sont plus flexibles que les autorités fédérales, à cause de leur taille.
+
+217
+0:13:15,000 --> 0:13:17,000
+Et nous comptons.
+
+218
+0:13:17,000 --> 0:13:19,000
+En fait nous avons vraiment affaire au gouvernement fédéral;
+
+219
+0:13:19,000 --> 0:13:22,000
+nous avons affaire aux ministères de l'éducation.
+
+220
+0:13:22,000 --> 0:13:24,000
+Si vous regardez les gouvernements autour du monde,
+
+221
+0:13:24,000 --> 0:13:28,000
+les ministères de l'éducation ont tendance à être les plus conservateurs,
+
+222
+0:13:28,000 --> 0:13:32,000
+même ceux qui ont un grand nombre de fonctionnaires.
+
+223
+0:13:32,000 --> 0:13:34,000
+Tout le monde croit savoir éduquer,
+
+224
+0:13:34,000 --> 0:13:37,000
+et il y a beaucoup de culture là-dedans aussi.
+
+225
+0:13:37,000 --> 0:13:41,000
+C'est très difficile. C'est certainement la voie la plus ardue.
+
+226
+0:13:41,000 --> 0:13:45,000
+Si vous regardez les pays, ils sont assez distribués, en termes géo-culturels.
+
+227
+0:13:46,000 --> 0:13:48,000
+Sont-ils tous d'accord? Non, pas tout à fait;
+
+228
+0:13:48,000 --> 0:13:53,000
+probablement la Thaïlande, le Brésil et le Nigeria sont les plus actifs,
+
+229
+0:13:53,000 --> 0:13:54,000
+et la plupart sont d'accord.
+
+230
+0:13:54,000 --> 0:13:57,000
+Nous ne signons intentionnellement avec personne
+
+231
+0:13:57,000 --> 0:13:59,000
+avant d'avoir des appareils qui marchent.
+
+232
+0:13:59,000 --> 0:14:04,000
+Comme je visite chacun de ces pays au moins tous les trois mois,
+
+233
+0:14:04,000 --> 0:14:07,000
+je fais le tour du monde toutes les trois semaines.
+
+234
+0:14:07,000 --> 0:14:09,000
+Voici en gros le planning,
+
+235
+0:14:09,000 --> 0:14:15,000
+j'ai mis en bas que peut-être nous en offrirons à TED dans deux ans.
+
+236
+0:14:15,000 --> 0:14:19,000
+Tout le monde dit, un ordinateur portable à 100$, vous ne pouvez pas le faire.
+
+237
+0:14:19,000 --> 0:14:21,000
+Eh bien, croyez-le, nous ne le faisons pas.
+
+238
+0:14:21,000 --> 0:14:26,000
+Nous allons commencer à 135 au début, et ensuite descendre.
+
+239
+0:14:26,000 --> 0:14:28,000
+Et c'est très important,
+
+240
+0:14:28,000 --> 0:14:32,000
+il y a tant de choses qui sont lancées à un certain prix qui ensuite augmente.
+
+241
+0:14:32,000 --> 0:14:36,000
+C'est un début à perte, et dès que ça décolle,
+
+242
+0:14:36,000 --> 0:14:4,000
+c'est trop cher, ou bien ne peut pas être fait en quantité.
+
+243
+0:14:4,000 --> 0:14:43,000
+Alors nous visons 50$ pour 2010.
+
+244
+0:14:43,000 --> 0:14:47,000
+Le marché gris est un grand problème. Et une des façons -- une seule --
+
+245
+0:14:47,000 --> 0:14:51,000
+une des façons d'aider en ce qui concerne le marché gris
+
+246
+0:14:51,000 --> 0:14:54,000
+est de faire quelque chose d'unique.
+
+247
+0:14:54,000 --> 0:14:57,000
+C'est un peu comme les voitures --
+
+248
+0:14:57,000 --> 0:15:02,000
+des milliers de voitures sont volées tous les jours aux États-Unis;
+
+249
+0:15:02,000 --> 0:15:07,000
+mais pas une seule voiture de facteur. Et pourquoi?
+
+250
+0:15:07,000 --> 0:15:09,000
+Parce qu'il n'y a pas de marché pour les voitures de facteur.
+
+251
+0:15:09,000 --> 0:15:11,000
+Elles ressemblent à des voitures de facteur.
+
+252
+0:15:11,000 --> 0:15:13,000
+Vous pouvez les peindre; vous pouvez faire tout ce que vous voulez.
+
+253
+0:15:13,000 --> 0:15:17,000
+Je viens de l'apprendre: en Afrique du Sud, personne ne vole les Volvos blanches.
+
+254
+0:15:17,000 --> 0:15:19,000
+Aucune. Jamais. Zéro.
+
+255
+0:15:19,000 --> 0:15:23,000
+Alors, nous voulons que ce soit comme une Volvo blanche.
+
+256
+0:15:24,000 --> 0:15:28,000
+Chaque gouvernement a un groupe de travail. Ceci est peut-être moins intéressant,
+
+257
+0:15:28,000 --> 0:15:33,000
+mais nous essayons de faire travailler les gouvernements ensemble, et ce n'est pas facile.
+
+258
+0:15:33,000 --> 0:15:39,000
+Les aspects économiques nous font commencer par les gouvernements fédéraux,
+
+259
+0:15:39,000 --> 0:15:42,000
+pour ensuite passer à autre --
+
+260
+0:15:45,000 --> 0:15:48,000
+-- que ce soit un financement enfant par enfant,
+
+261
+0:15:48,000 --> 0:15:52,000
+pour qu'un enfant dans ce pays en achète un pour un enfant dans un pays en voie de développement,
+
+262
+0:15:52,000 --> 0:15:56,000
+peut-être du même sexe et même age.
+
+263
+0:15:56,000 --> 0:16:,000
+Un oncle en donne un à une nièce ou un neveu pour son anniversaire.
+
+264
+0:16:,000 --> 0:16:03,000
+Je veux dire, toutes sortes de choses vont arriver.
+
+265
+0:16:03,000 --> 0:16:05,000
+Et ce sera très très intéressant à voir.
+
+266
+0:16:05,000 --> 0:16:09,000
+Et tout le monde dit -- je dis -- c'est un projet éducatif;
+
+267
+0:16:09,000 --> 0:16:11,000
+donnons-nous les logiciels?
+
+268
+0:16:11,000 --> 0:16:15,000
+La réponse est, le système comprend bien entendu des logiciels,
+
+269
+0:16:15,000 --> 0:16:18,000
+mais non, nous ne fournissons pas le contenu éducatif.
+
+270
+0:16:18,000 --> 0:16:22,000
+Cela se fera vraiment dans chaque pays.
+
+271
+0:16:22,000 --> 0:16:24,000
+Mais nous sommes des constructionnistes.
+
+272
+0:16:24,000 --> 0:16:27,000
+Nous croyons à l'apprentissage à travers la pratique,
+
+273
+0:16:27,000 --> 0:16:31,000
+et tout depuis Logo, qui commença en 1968,
+
+274
+0:16:31,000 --> 0:16:35,000
+jusqu'à des applications plus modernes comme Scratch, si vous la connaissez,
+
+275
+0:16:35,000 --> 0:16:37,000
+sont tout à fait dans cette idée.
+
+276
+0:16:37,000 --> 0:16:39,000
+Et c'est le lancement prévu.
+
+277
+0:16:4,000 --> 0:16:45,000
+Rêvons-nous? Est-ce réaliste? En fait, c'est la réalité.
+
+278
+0:16:45,000 --> 0:16:5,000
+La seule critique, et les gens n'aiment pas critiquer ceci,
+
+279
+0:16:5,000 --> 0:16:54,000
+parce que c'est un effort humanitaire, un effort sans but lucratif,
+
+280
+0:16:54,000 --> 0:16:58,000
+et le critiquer est un peu stupide, en fait. (Rires)
+
+281
+0:16:59,000 --> 0:17:05,000
+Mais la seule chose que les gens pourraient critiquer est,
+
+282
+0:17:05,000 --> 0:17:09,000
+"super idée, mais ces gens-là n'y arriveront pas."
+
+283
+0:17:09,000 --> 0:17:14,000
+Cela peut vouloir dire vous, profs etc, vous ne pouvez pas faire cela,
+
+284
+0:17:14,000 --> 0:17:16,000
+ou bien, ce n'est simplement pas possible.
+
+285
+0:17:16,000 --> 0:17:21,000
+Eh bien, le 12 Décembre, une entreprise nommée Quanta a accepté de le construire,
+
+286
+0:17:21,000 --> 0:17:27,000
+et comme ils font un tiers des ordinateurs portables sur terre aujourd'hui,
+
+287
+0:17:27,000 --> 0:17:29,000
+la question n'est plus posée.
+
+288
+0:17:29,000 --> 0:17:33,000
+Alors, la question n'est plus de savoir si ce sera fait, mais quand.
+
+289
+0:17:33,000 --> 0:17:37,000
+Et si ça coûte 138 dollars, qu'est-ce que ça peut bien faire?
+
+290
+0:17:37,000 --> 0:17:39,000
+Et si ça prend six mois de retard, qu'est-ce que ça peut bien faire?
+
+291
+0:17:4,000 --> 0:17:42,000
+C'est quand même pas mal. Merci.
+
+292
+0:17:42,000 --> 0:17:45,000
+(Applaudissements)
+

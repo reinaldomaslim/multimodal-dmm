@@ -1,0 +1,696 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Morton Bast
+
+2
+0:00:16.395,000 --> 0:00:17,000
+Everyone is both a learner
+
+3
+0:00:18.371,000 --> 0:00:19,000
+and a teacher.
+
+4
+0:00:19.883,000 --> 0:00:21,000
+This is me being inspired
+
+5
+0:00:22.339,000 --> 0:00:23,000
+by my first tutor,
+
+6
+0:00:23.53,000 --> 0:00:23,000
+my mom,
+
+7
+0:00:24.475,000 --> 0:00:26,000
+and this is me teaching
+
+8
+0:00:27.098,000 --> 0:00:28,000
+Introduction to Artificial Intelligence
+
+9
+0:00:29.051,000 --> 0:00:3,000
+to 200 students
+
+10
+0:00:30.291,000 --> 0:00:31,000
+at Stanford University.
+
+11
+0:00:31.563,000 --> 0:00:32,000
+Now the students and I
+
+12
+0:00:33.019,000 --> 0:00:34,000
+enjoyed the class,
+
+13
+0:00:34.195,000 --> 0:00:35,000
+but it occurred to me
+
+14
+0:00:35.611,000 --> 0:00:36,000
+that while the subject matter
+
+15
+0:00:37.322,000 --> 0:00:38,000
+of the class is advanced
+
+16
+0:00:38.611,000 --> 0:00:38,000
+and modern,
+
+17
+0:00:39.299,000 --> 0:00:41,000
+the teaching technology isn't.
+
+18
+0:00:41.618,000 --> 0:00:43,000
+In fact, I use basically
+
+19
+0:00:43.954,000 --> 0:00:45,000
+the same technology as
+
+20
+0:00:46.324,000 --> 0:00:48,000
+this 14th-century classroom.
+
+21
+0:00:48.954,000 --> 0:00:5,000
+Note the textbook,
+
+22
+0:00:51.754,000 --> 0:00:53,000
+the sage on the stage,
+
+23
+0:00:54.698,000 --> 0:00:55,000
+and the sleeping guy
+
+24
+0:00:56.597,000 --> 0:00:56,000
+in the back. (Laughter)
+
+25
+0:00:57.498,000 --> 0:00:59,000
+Just like today.
+
+26
+0:01:00.435,000 --> 0:01:03,000
+So my co-teacher,
+
+27
+0:01:03.546,000 --> 0:01:04,000
+Sebastian Thrun, and I thought,
+
+28
+0:01:05.186,000 --> 0:01:06,000
+there must be a better way.
+
+29
+0:01:06.96,000 --> 0:01:07,000
+We challenged ourselves
+
+30
+0:01:08.614,000 --> 0:01:09,000
+to create an online class
+
+31
+0:01:09.905,000 --> 0:01:1,000
+that would be equal or better
+
+32
+0:01:11.536,000 --> 0:01:13,000
+in quality to our Stanford class,
+
+33
+0:01:13.872,000 --> 0:01:15,000
+but to bring it to anyone
+
+34
+0:01:16.082,000 --> 0:01:17,000
+in the world for free.
+
+35
+0:01:17.712,000 --> 0:01:19,000
+We announced the class on July 29th,
+
+36
+0:01:20.28,000 --> 0:01:23,000
+and within two weeks, 50,000 people
+
+37
+0:01:23.489,000 --> 0:01:24,000
+had signed up for it.
+
+38
+0:01:24.896,000 --> 0:01:27,000
+And that grew to 160,000 students
+
+39
+0:01:28.001,000 --> 0:01:3,000
+from 209 countries.
+
+40
+0:01:30.065,000 --> 0:01:31,000
+We were thrilled to have
+
+41
+0:01:31.873,000 --> 0:01:32,000
+that kind of audience,
+
+42
+0:01:32.994,000 --> 0:01:34,000
+and just a bit terrified that we
+
+43
+0:01:35.633,000 --> 0:01:37,000
+hadn't finished preparing the class yet. (Laughter)
+
+44
+0:01:37.944,000 --> 0:01:38,000
+So we got to work.
+
+45
+0:01:39.556,000 --> 0:01:4,000
+We studied what others had done,
+
+46
+0:01:41.192,000 --> 0:01:43,000
+what we could copy and what we could change.
+
+47
+0:01:43.515,000 --> 0:01:45,000
+Benjamin Bloom had showed
+
+48
+0:01:46.176,000 --> 0:01:47,000
+that one-on-one tutoring works best,
+
+49
+0:01:47.985,000 --> 0:01:49,000
+so that's what we tried to emulate,
+
+50
+0:01:50.113,000 --> 0:01:51,000
+like with me and my mom,
+
+51
+0:01:51.553,000 --> 0:01:52,000
+even though we knew
+
+52
+0:01:53.058,000 --> 0:01:54,000
+it would be one-on-thousands.
+
+53
+0:01:54.976,000 --> 0:01:56,000
+Here, an overhead video camera
+
+54
+0:01:57.177,000 --> 0:01:58,000
+is recording me as I'm talking
+
+55
+0:01:59.009,000 --> 0:02:,000
+and drawing on a piece of paper.
+
+56
+0:02:00.688,000 --> 0:02:02,000
+A student said, "This class felt
+
+57
+0:02:03.097,000 --> 0:02:04,000
+like sitting in a bar
+
+58
+0:02:04.249,000 --> 0:02:05,000
+with a really smart friend
+
+59
+0:02:05.728,000 --> 0:02:06,000
+who's explaining something
+
+60
+0:02:06.932,000 --> 0:02:08,000
+you haven't grasped, but are about to."
+
+61
+0:02:09.233,000 --> 0:02:11,000
+And that's exactly what we were aiming for.
+
+62
+0:02:11.349,000 --> 0:02:13,000
+Now, from Khan Academy, we saw
+
+63
+0:02:14.137,000 --> 0:02:15,000
+that short 10-minute videos
+
+64
+0:02:15.961,000 --> 0:02:16,000
+worked much better than trying
+
+65
+0:02:17.737,000 --> 0:02:19,000
+to record an hour-long lecture
+
+66
+0:02:19.808,000 --> 0:02:21,000
+and put it on the small-format screen.
+
+67
+0:02:22.225,000 --> 0:02:24,000
+We decided to go even shorter
+
+68
+0:02:24.417,000 --> 0:02:25,000
+and more interactive.
+
+69
+0:02:26.065,000 --> 0:02:28,000
+Our typical video is two minutes,
+
+70
+0:02:28.312,000 --> 0:02:29,000
+sometimes shorter, never more
+
+71
+0:02:30.064,000 --> 0:02:32,000
+than six, and then we pause for
+
+72
+0:02:32.753,000 --> 0:02:33,000
+a quiz question, to make it
+
+73
+0:02:34.12,000 --> 0:02:35,000
+feel like one-on-one tutoring.
+
+74
+0:02:35.998,000 --> 0:02:37,000
+Here, I'm explaining how a computer uses
+
+75
+0:02:38.4,000 --> 0:02:39,000
+the grammar of English
+
+76
+0:02:39.648,000 --> 0:02:41,000
+to parse sentences, and here,
+
+77
+0:02:41.825,000 --> 0:02:43,000
+there's a pause and the student
+
+78
+0:02:43.889,000 --> 0:02:45,000
+has to reflect, understand what's going on
+
+79
+0:02:46.126,000 --> 0:02:47,000
+and check the right boxes
+
+80
+0:02:47.766,000 --> 0:02:48,000
+before they can continue.
+
+81
+0:02:49.183,000 --> 0:02:51,000
+Students learn best when
+
+82
+0:02:51.631,000 --> 0:02:52,000
+they're actively practicing.
+
+83
+0:02:52.879,000 --> 0:02:54,000
+We wanted to engage them, to have them grapple
+
+84
+0:02:55.175,000 --> 0:02:57,000
+with ambiguity and guide them to synthesize
+
+85
+0:02:58.143,000 --> 0:02:59,000
+the key ideas themselves.
+
+86
+0:02:59.808,000 --> 0:03:,000
+We mostly avoid questions
+
+87
+0:03:01.52,000 --> 0:03:02,000
+like, "Here's a formula, now
+
+88
+0:03:03.231,000 --> 0:03:04,000
+tell me the value of Y
+
+89
+0:03:04.306,000 --> 0:03:05,000
+when X is equal to two."
+
+90
+0:03:05.518,000 --> 0:03:06,000
+We preferred open-ended questions.
+
+91
+0:03:07.335,000 --> 0:03:1,000
+One student wrote, "Now I'm seeing
+
+92
+0:03:10.513,000 --> 0:03:11,000
+Bayes networks and examples of
+
+93
+0:03:12.375,000 --> 0:03:13,000
+game theory everywhere I look."
+
+94
+0:03:13.943,000 --> 0:03:14,000
+And I like that kind of response.
+
+95
+0:03:15.681,000 --> 0:03:16,000
+That's just what we were going for.
+
+96
+0:03:17.487,000 --> 0:03:19,000
+We didn't want students to memorize the formulas;
+
+97
+0:03:19.681,000 --> 0:03:2,000
+we wanted to change the way
+
+98
+0:03:20.871,000 --> 0:03:21,000
+they looked at the world.
+
+99
+0:03:21.961,000 --> 0:03:22,000
+And we succeeded.
+
+100
+0:03:23.287,000 --> 0:03:25,000
+Or, I should say, the students succeeded.
+
+101
+0:03:25.687,000 --> 0:03:26,000
+And it's a little bit ironic
+
+102
+0:03:27.606,000 --> 0:03:29,000
+that we set about to disrupt traditional education,
+
+103
+0:03:30.519,000 --> 0:03:32,000
+and in doing so, we ended up
+
+104
+0:03:32.535,000 --> 0:03:33,000
+making our online class
+
+105
+0:03:34.119,000 --> 0:03:36,000
+much more like a traditional college class
+
+106
+0:03:36.446,000 --> 0:03:37,000
+than other online classes.
+
+107
+0:03:38.287,000 --> 0:03:41,000
+Most online classes, the videos are always available.
+
+108
+0:03:41.502,000 --> 0:03:42,000
+You can watch them any time you want.
+
+109
+0:03:43.319,000 --> 0:03:45,000
+But if you can do it any time,
+
+110
+0:03:45.606,000 --> 0:03:46,000
+that means you can do it tomorrow,
+
+111
+0:03:47.111,000 --> 0:03:48,000
+and if you can do it tomorrow,
+
+112
+0:03:48.519,000 --> 0:03:5,000
+well, you may not ever
+
+113
+0:03:50.681,000 --> 0:03:51,000
+get around to it. (Laughter)
+
+114
+0:03:52.439,000 --> 0:03:54,000
+So we brought back the innovation
+
+115
+0:03:54.631,000 --> 0:03:56,000
+of having due dates. (Laughter)
+
+116
+0:03:56.718,000 --> 0:03:57,000
+You could watch the videos
+
+117
+0:03:58.03,000 --> 0:03:59,000
+any time you wanted during the week,
+
+118
+0:03:59.942,000 --> 0:04:,000
+but at the end of the week,
+
+119
+0:04:01.097,000 --> 0:04:02,000
+you had to get the homework done.
+
+120
+0:04:02.814,000 --> 0:04:03,000
+This motivated the students to keep going, and it also
+
+121
+0:04:04.727,000 --> 0:04:06,000
+meant that everybody was working
+
+122
+0:04:07.583,000 --> 0:04:08,000
+on the same thing at the same time,
+
+123
+0:04:09.101,000 --> 0:04:1,000
+so if you went into a discussion forum,
+
+124
+0:04:10.598,000 --> 0:04:12,000
+you could get an answer from a peer within minutes.
+
+125
+0:04:13.302,000 --> 0:04:15,000
+Now, I'll show you some of the forums, most of which
+
+126
+0:04:16.241,000 --> 0:04:18,000
+were self-organized by the students themselves.
+
+127
+0:04:19.007,000 --> 0:04:22,000
+From Daphne Koller and Andrew Ng, we learned
+
+128
+0:04:22.231,000 --> 0:04:23,000
+the concept of "flipping" the classroom.
+
+129
+0:04:24.227,000 --> 0:04:25,000
+Students watched the videos
+
+130
+0:04:25.522,000 --> 0:04:26,000
+on their own, and then they
+
+131
+0:04:27.11,000 --> 0:04:28,000
+come together to discuss them.
+
+132
+0:04:28.82,000 --> 0:04:31,000
+From Eric Mazur, I learned about peer instruction,
+
+133
+0:04:31.977,000 --> 0:04:33,000
+that peers can be the best teachers,
+
+134
+0:04:34.601,000 --> 0:04:35,000
+because they're the ones
+
+135
+0:04:36.033,000 --> 0:04:38,000
+that remember what it's like to not understand.
+
+136
+0:04:38.881,000 --> 0:04:4,000
+Sebastian and I have forgotten some of that.
+
+137
+0:04:41.562,000 --> 0:04:43,000
+Of course, we couldn't have
+
+138
+0:04:43.961,000 --> 0:04:44,000
+a classroom discussion with
+
+139
+0:04:45.593,000 --> 0:04:46,000
+tens of thousands of students,
+
+140
+0:04:47.139,000 --> 0:04:5,000
+so we encouraged and nurtured these online forums.
+
+141
+0:04:50.625,000 --> 0:04:53,000
+And finally, from Teach For America,
+
+142
+0:04:53.673,000 --> 0:04:54,000
+I learned that a class is not
+
+143
+0:04:55.154,000 --> 0:04:56,000
+primarily about information.
+
+144
+0:04:56.65,000 --> 0:04:58,000
+More important is motivation and determination.
+
+145
+0:04:59.481,000 --> 0:05:,000
+It was crucial that the students see
+
+146
+0:05:01.321,000 --> 0:05:02,000
+that we're working hard for them and
+
+147
+0:05:03.121,000 --> 0:05:04,000
+they're all supporting each other.
+
+148
+0:05:04.53,000 --> 0:05:06,000
+Now, the class ran 10 weeks,
+
+149
+0:05:07.498,000 --> 0:05:1,000
+and in the end, about half of the 160,000 students watched
+
+150
+0:05:11.409,000 --> 0:05:12,000
+at least one video each week,
+
+151
+0:05:12.972,000 --> 0:05:14,000
+and over 20,000 finished all the homework,
+
+152
+0:05:15.665,000 --> 0:05:16,000
+putting in 50 to 100 hours.
+
+153
+0:05:17.329,000 --> 0:05:18,000
+They got this statement of accomplishment.
+
+154
+0:05:18.882,000 --> 0:05:2,000
+So what have we learned?
+
+155
+0:05:21.001,000 --> 0:05:23,000
+Well, we tried some old ideas
+
+156
+0:05:23.817,000 --> 0:05:24,000
+and some new and put them together,
+
+157
+0:05:25.474,000 --> 0:05:27,000
+but there are more ideas to try.
+
+158
+0:05:27.556,000 --> 0:05:28,000
+Sebastian's teaching another class now.
+
+159
+0:05:29.37,000 --> 0:05:3,000
+I'll do one in the fall.
+
+160
+0:05:30.738,000 --> 0:05:33,000
+Stanford Coursera, Udacity, MITx
+
+161
+0:05:34.498,000 --> 0:05:36,000
+and others have more classes coming.
+
+162
+0:05:36.769,000 --> 0:05:37,000
+It's a really exciting time.
+
+163
+0:05:38.257,000 --> 0:05:39,000
+But to me, the most exciting
+
+164
+0:05:39.729,000 --> 0:05:41,000
+part of it is the data that we're gathering.
+
+165
+0:05:42.705,000 --> 0:05:44,000
+We're gathering thousands
+
+166
+0:05:45.401,000 --> 0:05:46,000
+of interactions per student per class,
+
+167
+0:05:47.057,000 --> 0:05:49,000
+billions of interactions altogether,
+
+168
+0:05:49.265,000 --> 0:05:51,000
+and now we can start analyzing that,
+
+169
+0:05:51.769,000 --> 0:05:52,000
+and when we learn from that,
+
+170
+0:05:53.233,000 --> 0:05:54,000
+do experimentations,
+
+171
+0:05:54.474,000 --> 0:05:56,000
+that's when the real revolution will come.
+
+172
+0:05:56.714,000 --> 0:05:58,000
+And you'll be able to see the results from
+
+173
+0:05:59.49,000 --> 0:06:01,000
+a new generation of amazing students.
+
+174
+0:06:01.753,000 --> 0:06:03,000
+(Applause)
+

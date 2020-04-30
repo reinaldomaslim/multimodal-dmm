@@ -1,0 +1,1392 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Nicolas Cynober Relecteur: Loic Prot
+
+2
+0:00:18.33,000 --> 0:00:2,000
+Le temps passe vite.
+
+3
+0:00:20.33,000 --> 0:00:22,000
+Il y a maintenant presque 20 ans,
+
+4
+0:00:22.33,000 --> 0:00:26,000
+j'ai voulu restructurer la manière dont nous utilisons l'information,
+
+5
+0:00:26.33,000 --> 0:00:29,000
+la manière dont nous travaillons ensemble -- et j'ai donc inventé la Toile, le World Wide Web.
+
+6
+0:00:29.33,000 --> 0:00:32,000
+Et maintenant, 20 ans après, ici à TED,
+
+7
+0:00:32.33,000 --> 0:00:36,000
+je vous demande votre aide pour une nouvelle restructuration.
+
+8
+0:00:37.33,000 --> 0:00:41,000
+Retournons en 1989:
+
+9
+0:00:41.33,000 --> 0:00:44,000
+j'avais écrit à l'époque un mémo sur la mise en place d'un système d'hypertexte public.
+
+10
+0:00:44.33,000 --> 0:00:47,000
+Ça n'avait pas intéressé grand-monde à l'époque.
+
+11
+0:00:47.33,000 --> 0:00:51,000
+Mais 18 mois plus tard -- vous savez, les innovations se produisent comme ça --
+
+12
+0:00:51.33,000 --> 0:00:55,000
+18 mois plus tard, mon patron m'a autorisé à y passer du temps,
+
+13
+0:00:55.33,000 --> 0:00:57,000
+comme un genre de projet expérimental,
+
+14
+0:00:57.33,000 --> 0:00:59,000
+pour tester un nouvel ordinateur que nous avions obtenu.
+
+15
+0:00:59.33,000 --> 0:01:02,000
+Et il me donna donc le temps de le coder.
+
+16
+0:01:02.33,000 --> 0:01:07,000
+Et j'ai donc écrit ce que devait être le langage HTML,
+
+17
+0:01:07.33,000 --> 0:01:1,000
+le procotole hypertexte -- HTTP --
+
+18
+0:01:10.33,000 --> 0:01:13,000
+l'idée des liens URL, ces choses
+
+19
+0:01:13.33,000 --> 0:01:15,000
+qui commence par "HTTP".
+
+20
+0:01:15.33,000 --> 0:01:17,000
+J'ai écrit le code et je l'ai publié.
+
+21
+0:01:17.33,000 --> 0:01:19,000
+Pourquoi j'ai fait ça ?
+
+22
+0:01:19.33,000 --> 0:01:21,000
+Et bien parce que j'étais dans un état de frustration.
+
+23
+0:01:21.33,000 --> 0:01:25,000
+J'étais frustré -- Je travaillais comme ingénieur logiciel
+
+24
+0:01:25.33,000 --> 0:01:27,000
+dans cet immense et exitant laboratoire de recherche,
+
+25
+0:01:27.33,000 --> 0:01:29,000
+où beaucoup de gens venait travailler de partout dans le monde.
+
+26
+0:01:29.33,000 --> 0:01:32,000
+Ils apportaient chacun des ordinateurs différents.
+
+27
+0:01:32.33,000 --> 0:01:35,000
+Ils utilisaient aussi des formats de données différents.
+
+28
+0:01:35.33,000 --> 0:01:37,000
+Toute une palette de systèmes de documentation différents.
+
+29
+0:01:37.33,000 --> 0:01:4,000
+Donc, avec toute cette diversité,
+
+30
+0:01:40.33,000 --> 0:01:42,000
+si je voulais y créer quelque chose
+
+31
+0:01:42.33,000 --> 0:01:44,000
+en prenant un morceau à droite, un morceau à gauche,
+
+32
+0:01:44.33,000 --> 0:01:48,000
+je devais à chaque fois me connecter à une nouvelle machine,
+
+33
+0:01:48.33,000 --> 0:01:5,000
+je devais apprendre à utiliser un nouveau logiciel,
+
+34
+0:01:50.33,000 --> 0:01:55,000
+et l'information que je voulais était dans un nouveau format de données.
+
+35
+0:01:55.33,000 --> 0:01:57,000
+Et ils étaient tous incompatibles.
+
+36
+0:01:57.33,000 --> 0:01:59,000
+C'était donc très frustrant.
+
+37
+0:01:59.33,000 --> 0:02:01,000
+Cette frustration provenait de tout ce potentiel enfermé.
+
+38
+0:02:01.33,000 --> 0:02:04,000
+En fait sur tous ces disques, il y avait des documents.
+
+39
+0:02:04.33,000 --> 0:02:07,000
+Donc si on pouvait tous les intégrer
+
+40
+0:02:07.33,000 --> 0:02:12,000
+dans un hypothétique grand système de documentation virtuel,
+
+41
+0:02:12.33,000 --> 0:02:14,000
+c'est à dire sur internet,
+
+42
+0:02:14.33,000 --> 0:02:16,000
+alors la vie serait beaucoup plus simple.
+
+43
+0:02:16.33,000 --> 0:02:2,000
+Et quand vous avez une idée comme ça, elle s'accroche vous,
+
+44
+0:02:20.33,000 --> 0:02:22,000
+et même si les gens n'ont pas lu votre mémo --
+
+45
+0:02:22.33,000 --> 0:02:25,000
+En fait il l'a lu, on a retrouvé sa copie après sa mort.
+
+46
+0:02:25.33,000 --> 0:02:28,000
+Il avait écrit "vague mais intéressant" au crayon dans un coin.
+
+47
+0:02:28.33,000 --> 0:02:3,000
+(Rires)
+
+48
+0:02:30.33,000 --> 0:02:34,000
+Mais d'une façon générale il était très difficile
+
+49
+0:02:34.33,000 --> 0:02:36,000
+d'expliquer ce qu'était le web.
+
+50
+0:02:36.33,000 --> 0:02:38,000
+Il est difficile d'expliquer aujourd'hui combien c'était difficile à expliquer à ce moment-là.
+
+51
+0:02:38.33,000 --> 0:02:41,000
+Mais quand TED a été crée il n'y avait pas de web,
+
+52
+0:02:41.33,000 --> 0:02:44,000
+des mots comme "cliquer" n'avait pas le même sens.
+
+53
+0:02:44.33,000 --> 0:02:46,000
+Je pouvais montrer un bout d'hypertexte,
+
+54
+0:02:46.33,000 --> 0:02:48,000
+une page avec des liens,
+
+55
+0:02:48.33,000 --> 0:02:52,000
+on peut cliquer dessus, et hop, on se retrouve sur une autre page hypertexte.
+
+56
+0:02:52.33,000 --> 0:02:54,000
+Pas vraiment impressionant.
+
+57
+0:02:54.33,000 --> 0:02:57,000
+On avait déjà vu ça. On avait vu des liens hypertextes sur des CDROM.
+
+58
+0:02:57.33,000 --> 0:03:,000
+Ce qui était difficile était de les faire imaginer...
+
+59
+0:03:00.33,000 --> 0:03:04,000
+Alors imaginez que ce lien peut vous emmener
+
+60
+0:03:04.33,000 --> 0:03:06,000
+sur n'importe quel document que vous puissiez imaginer.
+
+61
+0:03:07.33,000 --> 0:03:11,000
+C'est une barrière qui est très difficile à franchir pour certaines personnes.
+
+62
+0:03:11.33,000 --> 0:03:13,000
+Et bien quelques personnes ont réussi.
+
+63
+0:03:13.33,000 --> 0:03:16,000
+Alors oui. C'était difficile à expliquer mais il existait un mouvement de fond.
+
+64
+0:03:17.33,000 --> 0:03:21,000
+Et c'est ça qui aura été le plus sympa.
+
+65
+0:03:21.33,000 --> 0:03:23,000
+C'est ça qui aura été le plus existant.
+
+66
+0:03:23.33,000 --> 0:03:25,000
+Pas la technologie, pas ce que les gens ont fait avec,
+
+67
+0:03:25.33,000 --> 0:03:27,000
+Mais vraiment la communauté, l'esprit de tous ces gens
+
+68
+0:03:27.33,000 --> 0:03:29,000
+qui se réunissaient, s'envoyaient des emails.
+
+69
+0:03:29.33,000 --> 0:03:31,000
+C'était comme ça à cette époque.
+
+70
+0:03:31.33,000 --> 0:03:34,000
+Et vous savez quoi... C'est marrant... Mais d'une certaine manière, c'est comme cela à nouveau.
+
+71
+0:03:34.33,000 --> 0:03:36,000
+Je demandais à tout le monde plus ou moins de mettre ses documents en ligne.
+
+72
+0:03:36.33,000 --> 0:03:39,000
+"Pourriez-vous mettre vos documents sur ce web-machin?"
+
+73
+0:03:39.33,000 --> 0:03:42,000
+Et... vous l'avez fait.
+
+74
+0:03:42.33,000 --> 0:03:43,000
+Merci.
+
+75
+0:03:43.33,000 --> 0:03:45,000
+Ça a été sympa non?
+
+76
+0:03:45.33,000 --> 0:03:47,000
+C'était vraiment intéressant,
+
+77
+0:03:47.33,000 --> 0:03:49,000
+car on s'est aperçu que ce qui se passait sur le web
+
+78
+0:03:49.33,000 --> 0:03:51,000
+nous dépassait réellement.
+
+79
+0:03:51.33,000 --> 0:03:53,000
+Il s'est passé bien plus de choses que ce que nous avions imaginé
+
+80
+0:03:53.33,000 --> 0:03:55,000
+lorsque nous avions créé
+
+81
+0:03:55.33,000 --> 0:03:57,000
+le premier site web.
+
+82
+0:03:57.33,000 --> 0:04:,000
+Maintenant, je veux que vous mettiez vos données sur le web !
+
+83
+0:04:00.33,000 --> 0:04:04,000
+Ce qui se passe c'est qu'il reste encore un énorme potentiel inexploité.
+
+84
+0:04:04.33,000 --> 0:04:06,000
+Il y a toujours une énorme frustration.
+
+85
+0:04:06.33,000 --> 0:04:1,000
+Car nous n'avons pas de données sur le web en tant que données.
+
+86
+0:04:10.33,000 --> 0:04:12,000
+Qu'est ce que ça veut dire? Quelle est la différence entre document, données...
+
+87
+0:04:12.33,000 --> 0:04:15,000
+Et bien les documents vous les lisez, ok?
+
+88
+0:04:15.33,000 --> 0:04:18,000
+En gros vous pouvez les lire, suivre les liens, mais c'est tout.
+
+89
+0:04:18.33,000 --> 0:04:2,000
+Avec les données vous pouvez faire plein de trucs sur un ordinateur.
+
+90
+0:04:20.33,000 --> 0:04:26,000
+Qui a ici vu la présentation de Hans Rosling ?
+
+91
+0:04:26.33,000 --> 0:04:3,000
+Cool. Plein de personnes l'on vu.
+
+92
+0:04:30.33,000 --> 0:04:32,000
+C'est l'une des meilleurs présentation de TED.
+
+93
+0:04:32.33,000 --> 0:04:34,000
+Hans a fait cette présentation
+
+94
+0:04:34.33,000 --> 0:04:39,000
+dans laquelle il montre dans différents pays, dans différentes couleurs,
+
+95
+0:04:39.33,000 --> 0:04:42,000
+le niveau de revenus sur un axe
+
+96
+0:04:42.33,000 --> 0:04:45,000
+avec les taux de natalité sur un autre, et le tout animé à travers le temps.
+
+97
+0:04:45.33,000 --> 0:04:49,000
+Il a donc récupéré ces données et en a fait une présentation
+
+98
+0:04:49.33,000 --> 0:04:52,000
+qui démonte les idées préconçues qu'ont les gens
+
+99
+0:04:52.33,000 --> 0:04:56,000
+sur l'économie des pays émergents.
+
+100
+0:04:56.33,000 --> 0:04:58,000
+Il a utilisé un slide de ce type.
+
+101
+0:04:58.33,000 --> 0:05:,000
+Derrière cette présentation il avait plein de données.
+
+102
+0:05:00.33,000 --> 0:05:03,000
+Les données c'est terne, carré, ennuyeux...
+
+103
+0:05:03.33,000 --> 0:05:05,000
+C'est l'image que nous en avons, n'est-ce pas ?
+
+104
+0:05:05.33,000 --> 0:05:08,000
+Car les données ne peuvent pas être utilisées naturellement tel quel.
+
+105
+0:05:08.33,000 --> 0:05:12,000
+Mais en réalité les données influencent en grande partie nos vies.
+
+106
+0:05:12.33,000 --> 0:05:15,000
+Cela arrive quand quelqu'un prend ces données et crée quelque chose avec.
+
+107
+0:05:15.33,000 --> 0:05:17,000
+Dans notre cas, Hans a rassemblé toutes les données,
+
+108
+0:05:17.33,000 --> 0:05:22,000
+il les a trouvé auprès des Nations-Unies, sur des sites webs.
+
+109
+0:05:22.33,000 --> 0:05:24,000
+Il les a rassemblées,
+
+110
+0:05:24.33,000 --> 0:05:27,000
+les a combinées pour donner quelque chose de plus intéressant
+
+111
+0:05:27.33,000 --> 0:05:32,000
+et alors il les a insérées dans son logiciel,
+
+112
+0:05:32.33,000 --> 0:05:34,000
+créé je crois par son fils,
+
+113
+0:05:34.33,000 --> 0:05:37,000
+pour donner cette merveilleuse présentation.
+
+114
+0:05:37.33,000 --> 0:05:39,000
+Et Hans a mis en avant le fait
+
+115
+0:05:39.33,000 --> 0:05:43,000
+qu'il était très important d'avoir beaucoup de données.
+
+116
+0:05:43.33,000 --> 0:05:46,000
+Et je suis heureux de l'avoir vu hier
+
+117
+0:05:46.33,000 --> 0:05:5,000
+demandant encore avec insistance plus de données.
+
+118
+0:05:50.33,000 --> 0:05:52,000
+Et maintenant je voudrais que vous vous imaginiez,
+
+119
+0:05:52.33,000 --> 0:05:56,000
+pas seulement 2 morceaux de données connectés, ou même 6,
+
+120
+0:05:56.33,000 --> 0:06:01,000
+mais un monde où tout le monde aurait mis ses données sur le web.
+
+121
+0:06:01.33,000 --> 0:06:03,000
+Virtuellement tout ce que vous pouvez imaginer serait sur le web.
+
+122
+0:06:03.33,000 --> 0:06:05,000
+Et j'ai appelé cela "Linked Data" ("données liées")
+
+123
+0:06:05.33,000 --> 0:06:07,000
+La technologie s'appelle "Linked Data" et elle est extrêmement simple.
+
+124
+0:06:07.33,000 --> 0:06:11,000
+Si vous voulez mettre quelque chose sur le web, il y a 3 règles.
+
+125
+0:06:11.33,000 --> 0:06:14,000
+La première chose est que nous utilisons toujours les adresses HTTP --
+
+126
+0:06:14.33,000 --> 0:06:16,000
+ces trucs qui commencent par http: --
+
+127
+0:06:16.33,000 --> 0:06:2,000
+Mais plus uniquement pour les documents,
+
+128
+0:06:20.33,000 --> 0:06:22,000
+on va les utiliser pour décrire les documents.
+
+129
+0:06:22.33,000 --> 0:06:24,000
+On va les utiliser pour des personnes, on va les utiliser pour des lieux,
+
+130
+0:06:24.33,000 --> 0:06:28,000
+on va les utiliser pour vos produits, pour des événements.
+
+131
+0:06:28.33,000 --> 0:06:32,000
+N'importe quel concept aura un nom commençant par http.
+
+132
+0:06:32.33,000 --> 0:06:37,000
+Deuxième règle: Si j'utilise une de ces adresses HTTP
+
+133
+0:06:37.33,000 --> 0:06:39,000
+le web va me renvoyer des informations,
+
+134
+0:06:39.33,000 --> 0:06:41,000
+en utilisant le protocole HTTP,
+
+135
+0:06:41.33,000 --> 0:06:44,000
+des données dans un format standard
+
+136
+0:06:44.33,000 --> 0:06:49,000
+Et ce sont des données utiles que quelqu'un aimerait connaitre,
+
+137
+0:06:49.33,000 --> 0:06:51,000
+à propos de cette chose: si c'est un événement,
+
+138
+0:06:51.33,000 --> 0:06:53,000
+qui s'y rend ? Si c'est un personne,
+
+139
+0:06:53.33,000 --> 0:06:55,000
+où est-elle née ? Ce genre de choses.
+
+140
+0:06:55.33,000 --> 0:06:57,000
+Donc la deuxième règle est qu'on me renvoie des informations importantes.
+
+141
+0:06:57.33,000 --> 0:07:01,000
+La troisième règle est que quand je récupère ces informations,
+
+142
+0:07:01.33,000 --> 0:07:04,000
+ce ne sera pas uniquement le poids ou la taille ou le lieu de naissance de cette personne,
+
+143
+0:07:04.33,000 --> 0:07:06,000
+on me fournira également des relations.
+
+144
+0:07:06.33,000 --> 0:07:08,000
+Les données sont des relations.
+
+145
+0:07:08.33,000 --> 0:07:1,000
+C'est ce qui est intéressant, les données sont des relations.
+
+146
+0:07:10.33,000 --> 0:07:14,000
+Vous avez cette personne née à Berlin, Berlin est en Allemagne.
+
+147
+0:07:14.33,000 --> 0:07:17,000
+Dès lors qu'il y a une relation,
+
+148
+0:07:17.33,000 --> 0:07:2,000
+l'élément lié est nommé
+
+149
+0:07:20.33,000 --> 0:07:24,000
+avec un nom commençant par http.
+
+150
+0:07:24.33,000 --> 0:07:26,000
+Et à partir de son nom HTTP je peux accéder à cette ressource.
+
+151
+0:07:26.33,000 --> 0:07:29,000
+Je peux accéder à cette personne, ensuite je peux accéder à la ville ou elle est née,
+
+152
+0:07:29.33,000 --> 0:07:32,000
+à sa région, à sa ville,
+
+153
+0:07:32.33,000 --> 0:07:35,000
+à la population de sa ville,
+
+154
+0:07:35.33,000 --> 0:07:37,000
+et ainsi de suite... Je peux parcourir toutes ces choses.
+
+155
+0:07:37.33,000 --> 0:07:39,000
+Et voilà.
+
+156
+0:07:39.33,000 --> 0:07:41,000
+C'est ça, "Linked Data".
+
+157
+0:07:41.33,000 --> 0:07:44,000
+Il y a quelques années j'ai écrit un article intitulé Linked Data,
+
+158
+0:07:44.33,000 --> 0:07:48,000
+et peu de temps après les choses ont commencé à bouger.
+
+159
+0:07:48.33,000 --> 0:07:52,000
+Nous avons eu de plus en plus de ces boites
+
+160
+0:07:52.33,000 --> 0:07:54,000
+que Hans décrivait,
+
+161
+0:07:54.33,000 --> 0:07:56,000
+et nous avons vu de plus en plus de choses éclore.
+
+162
+0:07:56.33,000 --> 0:07:59,000
+Ce ne sont pas que des plantes.
+
+163
+0:07:59.33,000 --> 0:08:01,000
+Ce n'est pas seulement une racine qui fait vivre une plante.
+
+164
+0:08:01.33,000 --> 0:08:04,000
+Pour chacune de ces plantes, peu importe sa nature,
+
+165
+0:08:04.33,000 --> 0:08:07,000
+une présentation, une analyse, quelqu'un cherchant des tendances dans les données,
+
+166
+0:08:07.33,000 --> 0:08:1,000
+peut interroger toutes ces données.
+
+167
+0:08:10.33,000 --> 0:08:12,000
+et toutes ces données sont connectées.
+
+168
+0:08:12.33,000 --> 0:08:14,000
+La chose vraiment important sur les données, c'est que
+
+169
+0:08:14.33,000 --> 0:08:16,000
+plus vous avez de données connectés, plus elles deviennent puissant.
+
+170
+0:08:16.33,000 --> 0:08:18,000
+Linked Data est donc apparu,
+
+171
+0:08:18.33,000 --> 0:08:2,000
+le concept, le mème a été essaimé.
+
+172
+0:08:20.33,000 --> 0:08:24,000
+et quelques temps après, Chris Spitzer, de l'Université Libre de Berlin,
+
+173
+0:08:24.33,000 --> 0:08:26,000
+qui fut l'un des premiers à publier des données interessantes,
+
+174
+0:08:26.33,000 --> 0:08:28,000
+remarqua que Wikipédia,
+
+175
+0:08:28.33,000 --> 0:08:31,000
+cette fameuse encyclopédie en ligne,
+
+176
+0:08:31.33,000 --> 0:08:33,000
+qui contient plein de documents intéressants,
+
+177
+0:08:33.33,000 --> 0:08:37,000
+possédait parfois des encadrés, des sortes de boites d'information.
+
+178
+0:08:37.33,000 --> 0:08:4,000
+Et que dans ces boites d'information, il y a des données.
+
+179
+0:08:40.33,000 --> 0:08:44,000
+Il a écrit un programme pour extraire ces données de wikipedia
+
+180
+0:08:44.33,000 --> 0:08:46,000
+et les stocker au format Linked Data sur le web.
+
+181
+0:08:46.33,000 --> 0:08:49,000
+Il a appelé son site DBpedia.
+
+182
+0:08:49.33,000 --> 0:08:53,000
+DBpedia est représenté au milieu de cette slide par le rond bleu.
+
+183
+0:08:53.33,000 --> 0:08:55,000
+et si vous continuez à faire des recherches sur Berlin,
+
+184
+0:08:55.33,000 --> 0:08:57,000
+vous vous apercevez qu'il y a d'autres zones de données
+
+185
+0:08:57.33,000 --> 0:09:,000
+sur Berlin, et elles sont toutes connectées entre elles.
+
+186
+0:09:00.33,000 --> 0:09:03,000
+Donc si vous récupérez quelque chose de DBpedia sur Berlin,
+
+187
+0:09:03.33,000 --> 0:09:05,000
+vous vous retrouvez à récupérer les autres données en même temps.
+
+188
+0:09:05.33,000 --> 0:09:08,000
+La chose incroyable est que cela commença à grossir.
+
+189
+0:09:08.33,000 --> 0:09:1,000
+C'est à nouveau un mouvement de fond.
+
+190
+0:09:10.33,000 --> 0:09:13,000
+Maintenant examinons ces données.
+
+191
+0:09:13.33,000 --> 0:09:16,000
+Les données apparaissent sous différentes formes.
+
+192
+0:09:16.33,000 --> 0:09:19,000
+Pensez à la diversité du web. C'est un élément primordial pour le web,
+
+193
+0:09:19.33,000 --> 0:09:22,000
+de pouvoir y ajouter n'importe quel type d'information.
+
+194
+0:09:22.33,000 --> 0:09:24,000
+Il en va de même avec les données. Il existe plein de types de données.
+
+195
+0:09:25.33,000 --> 0:09:29,000
+Il y a les données gouvernementales, des données d'entreprises, qui sont vraiment essentielles,
+
+196
+0:09:29.33,000 --> 0:09:32,000
+les données scientifiques, les données personnelles,
+
+197
+0:09:32.33,000 --> 0:09:34,000
+les données météorologiques, les données concernant les événements,
+
+198
+0:09:34.33,000 --> 0:09:38,000
+les données des discussions, les informations, toutes sortes de données.
+
+199
+0:09:38.33,000 --> 0:09:41,000
+Je vais en mentionner quelques unes
+
+200
+0:09:41.33,000 --> 0:09:43,000
+pour que vous ayez une idée de leur diversité,
+
+201
+0:09:43.33,000 --> 0:09:47,000
+et ainsi vous rendre compte de leur potentiel.
+
+202
+0:09:47.33,000 --> 0:09:49,000
+Commençons par les données gouvernementales.
+
+203
+0:09:49.33,000 --> 0:09:51,000
+Barak Obama a dit dans un de ses discours que
+
+204
+0:09:51.33,000 --> 0:09:56,000
+les données du gouvernement américain seront disponibles sur internet
+
+205
+0:09:56.33,000 --> 0:09:58,000
+dans des formats accessibles.
+
+206
+0:09:58.33,000 --> 0:10:,000
+Et j'espère qu'ils utiliseront le format "Linked Data".
+
+207
+0:10:00.33,000 --> 0:10:02,000
+C'est important. Pourquoi est-ce important?
+
+208
+0:10:02.33,000 --> 0:10:05,000
+Pas seulement pour la transparence. Bien sûr la transparence est importante.
+
+209
+0:10:05.33,000 --> 0:10:08,000
+Mais ces données proviennent de tous les départements gouvernementaux.
+
+210
+0:10:08.33,000 --> 0:10:13,000
+Alors pensez comment ces données montrent comment nous vivons en amérique.
+
+211
+0:10:13.33,000 --> 0:10:15,000
+C'est très utile, ça a de la valeur,
+
+212
+0:10:15.33,000 --> 0:10:17,000
+je peux l'utiliser pour ma société,
+
+213
+0:10:17.33,000 --> 0:10:19,000
+En tant qu'enfant, je peux l'utiliser pour faire mes devoirs.
+
+214
+0:10:19.33,000 --> 0:10:22,000
+Ce que je dis ici, c'est qu'on peut rendre la gestion du monde meilleure,
+
+215
+0:10:22.33,000 --> 0:10:24,000
+en rendant ces données disponibles.
+
+216
+0:10:24.33,000 --> 0:10:28,000
+En fait, si vous êtes décideur, et vous entendez parler
+
+217
+0:10:28.33,000 --> 0:10:3,000
+de données gouvernementales particulières,
+
+218
+0:10:30.33,000 --> 0:10:33,000
+vous verrez que ces gens ont souvent tendance à les garder pour eux.
+
+219
+0:10:33.33,000 --> 0:10:36,000
+Hans appelle ça le serrage de base de données.
+
+220
+0:10:36.33,000 --> 0:10:38,000
+Vous serrez votre base de données. Vous ne la laissez pas partir
+
+221
+0:10:38.33,000 --> 0:10:4,000
+tant que vous n'en avez pas fait un joli site web.
+
+222
+0:10:40.33,000 --> 0:10:42,000
+Ce que je suggère, c'est qu'avant de ...
+
+223
+0:10:42.33,000 --> 0:10:44,000
+... Oui, faites un joli site !
+
+224
+0:10:44.33,000 --> 0:10:46,000
+Je ne peux pas vous empêcher de faire un joli site.
+
+225
+0:10:46.33,000 --> 0:10:49,000
+Faites-en donc un joli site. Mais avant cela,
+
+226
+0:10:49.33,000 --> 0:10:52,000
+donnez-nous accès aux données non altérées.
+
+227
+0:10:52.33,000 --> 0:10:54,000
+On veut des données.
+
+228
+0:10:54.33,000 --> 0:10:56,000
+On veut des données non altérées.
+
+229
+0:10:56.33,000 --> 0:10:59,000
+Il faut que nous demandions des données brutes maintenant.
+
+230
+0:10:59.33,000 --> 0:11:01,000
+Et je vais vous demander de vous entrainer.
+
+231
+0:11:01.33,000 --> 0:11:02,000
+Pouvez vous dire "Raw" ?
+
+232
+0:11:02.33,000 --> 0:11:03,000
+Audience: Raw!
+
+233
+0:11:03.33,000 --> 0:11:04,000
+Pouvez vous dire "Data" ?
+
+234
+0:11:04.33,000 --> 0:11:05,000
+Audience: Data!
+
+235
+0:11:05.33,000 --> 0:11:06,000
+Pouvez vous dire "Now" ?
+
+236
+0:11:06.33,000 --> 0:11:07,000
+Audience: Now!
+
+237
+0:11:07.33,000 --> 0:11:09,000
+Raw Data Now ! (Des Données Brutes Maintenant !)
+
+238
+0:11:09.33,000 --> 0:11:11,000
+Audience: Raw Data Now !
+
+239
+0:11:11.33,000 --> 0:11:15,000
+Pratiquez-le, c'est important. Car vous n'imaginez pas les excuses
+
+240
+0:11:15.33,000 --> 0:11:17,000
+que trouvent les gens pour retenir leurs données
+
+241
+0:11:17.33,000 --> 0:11:21,000
+pour vous empêcher d'y accéder, alors même que vous les avez payées avec vos impôts.
+
+242
+0:11:21.33,000 --> 0:11:23,000
+Et ce n'est pas qu'en Amérique. C'est la même chose partout dans le monde.
+
+243
+0:11:23.33,000 --> 0:11:26,000
+Et ce n'est pas uniquement les gouvernements. Les entreprises également.
+
+244
+0:11:26.33,000 --> 0:11:29,000
+Je vais juste vous faire part de quelques idées sur les données...
+
+245
+0:11:29.33,000 --> 0:11:34,000
+Nous sommes ici à TED, et nous sommes particulièrement conscient
+
+246
+0:11:34.33,000 --> 0:11:39,000
+des immenses challenges que l'humanité doit relever.
+
+247
+0:11:39.33,000 --> 0:11:42,000
+Eliminer le cancer. Comprendre le cerveau pour traiter l'Alzheimer.
+
+248
+0:11:42.33,000 --> 0:11:45,000
+Comprendre l'économie, la rendre plus stable.
+
+249
+0:11:45.33,000 --> 0:11:47,000
+Comprendre comment le monde fonctionne.
+
+250
+0:11:47.33,000 --> 0:11:49,000
+Ceux qui vont résoudre ces problèmes sont des scientifiques,
+
+251
+0:11:49.33,000 --> 0:11:51,000
+ils ont des tonnes d'idées dans leur tête,
+
+252
+0:11:51.33,000 --> 0:11:54,000
+ils essayent de les communiquer à travers le web.
+
+253
+0:11:54.33,000 --> 0:11:57,000
+Mais beaucoup de connaissances de la race humaine
+
+254
+0:11:57.33,000 --> 0:12:,000
+se trouvent actuellement dans des bases de données
+
+255
+0:12:00.33,000 --> 0:12:03,000
+qui ne sont pas actuellement partagées.
+
+256
+0:12:03.33,000 --> 0:12:06,000
+En fait si vous prenez juste un domaine
+
+257
+0:12:06.33,000 --> 0:12:08,000
+comme Alzheimer, la recherche de médicaments par exemple,
+
+258
+0:12:08.33,000 --> 0:12:11,000
+vous vous apercevez qu'il y a beaucoup de "Linked Data" qui apparaissent
+
+259
+0:12:11.33,000 --> 0:12:13,000
+car les scientifiques de ce domaine se sont aperçu
+
+260
+0:12:13.33,000 --> 0:12:16,000
+que c'était une bonne manière de sortir de leurs silos.
+
+261
+0:12:16.33,000 --> 0:12:2,000
+Il y avait des données sur le génome dans cette base de données,
+
+262
+0:12:20.33,000 --> 0:12:23,000
+dans ce bâtiment, et il y avait des données sur les protéines dans une autre...
+
+263
+0:12:23.33,000 --> 0:12:26,000
+Et maintenant ils les ont réunies comme "Linked Data"
+
+264
+0:12:26.33,000 --> 0:12:29,000
+et maintenant ils peuvent poser des questions que vous ne vous poseriez pas,
+
+265
+0:12:29.33,000 --> 0:12:31,000
+moi non plus, mais eux oui...
+
+266
+0:12:31.33,000 --> 0:12:33,000
+Quelles protéines sont utilisées dans la transduction des signaux
+
+267
+0:12:33.33,000 --> 0:12:35,000
+et qui sont en rapport avec les neurones pyramidaux?
+
+268
+0:12:35.33,000 --> 0:12:38,000
+Et bien vous prenez cette question, vous la mettez dans Google,
+
+269
+0:12:38.33,000 --> 0:12:41,000
+Bien-sûr il n'y a pas de page sur web qui répond à cette question,
+
+270
+0:12:41.33,000 --> 0:12:43,000
+car personne ne se l'est déjà posée.
+
+271
+0:12:43.33,000 --> 0:12:45,000
+Vous récupérez 223,000 réponses,
+
+272
+0:12:45.33,000 --> 0:12:47,000
+mais aucun résultat utilisable !
+
+273
+0:12:47.33,000 --> 0:12:5,000
+Vous interrogez les données cumulées du "Linked Data":
+
+274
+0:12:50.33,000 --> 0:12:54,000
+32 réponses, et chacune d'elle est une protéine
+
+275
+0:12:54.33,000 --> 0:12:56,000
+qui a cette propriété.
+
+276
+0:12:56.33,000 --> 0:12:59,000
+Et vous voyez la puissance de pouvoir poser ces questions pour un scientifique.
+
+277
+0:12:59.33,000 --> 0:13:01,000
+Des questions qui créent des ponts entre différentes disciplines.
+
+278
+0:13:01.33,000 --> 0:13:04,000
+C'est un changement radical.
+
+279
+0:13:04.33,000 --> 0:13:06,000
+C'est vraiment très important.
+
+280
+0:13:06.33,000 --> 0:13:08,000
+Et les scientifiques l'ont très bien compris.
+
+281
+0:13:08.33,000 --> 0:13:13,000
+Les données que d'autres scientifiques ont collectées sont enfermées
+
+282
+0:13:13.33,000 --> 0:13:16,000
+et nous devons les délivrer pour pouvoir nous atteler à ces grands problèmes.
+
+283
+0:13:16.33,000 --> 0:13:2,000
+Si je continue, vous allez vous dire que toutes les données proviennent des grosses institutions
+
+284
+0:13:20.33,000 --> 0:13:23,000
+et que cela n'a rien à voir avec vous.
+
+285
+0:13:23.33,000 --> 0:13:25,000
+Et bien cela est faux.
+
+286
+0:13:25.33,000 --> 0:13:27,000
+Les données parlent de nos vies.
+
+287
+0:13:27.33,000 --> 0:13:3,000
+Vous vous connectez sur votre réseau social favori.
+
+288
+0:13:30.33,000 --> 0:13:32,000
+Vous selectionnez un ami,
+
+289
+0:13:32.33,000 --> 0:13:35,000
+et hop, une relation, une donnée.
+
+290
+0:13:35.33,000 --> 0:13:38,000
+Vous dites: cette photo représente cette personne, hop, une donnée.
+
+291
+0:13:38.33,000 --> 0:13:41,000
+Données, données, données.
+
+292
+0:13:41.33,000 --> 0:13:43,000
+A chaque fois que vous faite quelque chose dans un réseau social,
+
+293
+0:13:43.33,000 --> 0:13:47,000
+le site crée des données et les utilise, les retravaille,
+
+294
+0:13:47.33,000 --> 0:13:51,000
+et rend la vie des autres utilisateurs du site plus intéressante.
+
+295
+0:13:51.33,000 --> 0:13:53,000
+Mais si vous allez dans un autre réseau social,
+
+296
+0:13:53.33,000 --> 0:13:56,000
+disons spécialisé dans les voyages,
+
+297
+0:13:56.33,000 --> 0:13:59,000
+et que vous voulez envoyer une photo à toutes les personnes de ce groupe,
+
+298
+0:13:59.33,000 --> 0:14:01,000
+vous ne pourrez pas passer les murs.
+
+299
+0:14:01.33,000 --> 0:14:03,000
+"The Economist" a écrit un article sur le sujet, de nombreux blogueurs en ont parlé.
+
+300
+0:14:03.33,000 --> 0:14:04,000
+C'est une énorme frustration
+
+301
+0:14:04.33,000 --> 0:14:06,000
+de ne pas pouvoir détruire les silos et apporter de l'interopérabilité
+
+302
+0:14:06.33,000 --> 0:14:08,000
+entre les réseaux sociaux.
+
+303
+0:14:08.33,000 --> 0:14:1,000
+Nous devons faire ça avec le "Linked Data".
+
+304
+0:14:10.33,000 --> 0:14:13,000
+Un dernier type de données, et peut-être le plus excitant.
+
+305
+0:14:13.33,000 --> 0:14:16,000
+Pour venir ici, j'ai utilisé OpenStreetMap.
+
+306
+0:14:16.33,000 --> 0:14:18,000
+OpenStreetMap est une carte mais aussi un wiki.
+
+307
+0:14:18.33,000 --> 0:14:21,000
+Zoomez, ce truc carré est un théatre, où nous nous trouvons actuellement,
+
+308
+0:14:21.33,000 --> 0:14:23,000
+le théatre Terrace. Il n'y avait pas de nom dessus.
+
+309
+0:14:23.33,000 --> 0:14:25,000
+Alors je suis allé dans le mode édition, j'ai sélectionné le théatre,
+
+310
+0:14:25.33,000 --> 0:14:3,000
+j'ai pu rajouter en bas le nom, puis sauvegarder,
+
+311
+0:14:30.33,000 --> 0:14:33,000
+et maintenant si vous allez sur openstreetmap.org,
+
+312
+0:14:33.33,000 --> 0:14:36,000
+retrouvez cet endroit, vous verrez que le théatre Terrace a maintenant un nom.
+
+313
+0:14:36.33,000 --> 0:14:38,000
+J'ai fait ça. Moi !
+
+314
+0:14:38.33,000 --> 0:14:4,000
+J'ai fait ça sur la carte. Je viens de faire ça.
+
+315
+0:14:40.33,000 --> 0:14:42,000
+Et vous savez quoi.
+
+316
+0:14:42.33,000 --> 0:14:45,000
+Street Map n'est constitué que de personnes ayant rajouté leur petite touche.
+
+317
+0:14:45.33,000 --> 0:14:48,000
+Et cela crée une ressource incroyable
+
+318
+0:14:48.33,000 --> 0:14:51,000
+car chacun apporte sa ressource.
+
+319
+0:14:51.33,000 --> 0:14:54,000
+"Linked Data" c'est exactement ça.
+
+320
+0:14:54.33,000 --> 0:14:57,000
+Ce sont des gens qui produisent peu,
+
+321
+0:14:57.33,000 --> 0:15:,000
+mais dont le peu est connecté avec tout le reste.
+
+322
+0:15:00.33,000 --> 0:15:03,000
+Voilà comment le "Linked Data" fonctionne.
+
+323
+0:15:03.33,000 --> 0:15:07,000
+Vous faites votre part, et tout les autres aussi.
+
+324
+0:15:07.33,000 --> 0:15:11,000
+Vous n'avez peut-être pas beaucoup de données vous-même,
+
+325
+0:15:11.33,000 --> 0:15:14,000
+mais vous pouvez en demander.
+
+326
+0:15:14.33,000 --> 0:15:16,000
+On vient de s'y entrainer.
+
+327
+0:15:16.33,000 --> 0:15:2,000
+Voilà. "Linked Data" est énorme.
+
+328
+0:15:20.33,000 --> 0:15:23,000
+Je viens de vous en expliquer une petite partie.
+
+329
+0:15:23.33,000 --> 0:15:25,000
+Il y a des données dans tout les aspects de nos vies,
+
+330
+0:15:25.33,000 --> 0:15:28,000
+dans tout les aspects du travail et des loisirs.
+
+331
+0:15:28.33,000 --> 0:15:31,000
+Et l'important n'est pas uniquement le nombre de sources des données,
+
+332
+0:15:31.33,000 --> 0:15:34,000
+c'est de pouvoir toutes les relier.
+
+333
+0:15:34.33,000 --> 0:15:37,000
+Et quand vous connectez les données,
+
+334
+0:15:37.33,000 --> 0:15:4,000
+vous obtenez une puissance qui n'existe pas avec le web des documents.
+
+335
+0:15:40.33,000 --> 0:15:44,000
+Vous en obtenez un pouvoir énorme.
+
+336
+0:15:44.33,000 --> 0:15:47,000
+Nous arrivons à une étape
+
+337
+0:15:47.33,000 --> 0:15:51,000
+où tous ceux qui pensent que c'est une bonne idée doivent agir.
+
+338
+0:15:51.33,000 --> 0:15:54,000
+Et il y a beaucoup de personnes à TED qui font des choses
+
+339
+0:15:54.33,000 --> 0:15:56,000
+même s'il n'y a pas un retour immédiat sur investissement,
+
+340
+0:15:56.33,000 --> 0:15:59,000
+car cela payera uniquement lorsque beaucoup de personnes l'auront fait.
+
+341
+0:15:59.33,000 --> 0:16:03,000
+Ils le feront car c'est le genre de personnes qui font des choses
+
+342
+0:16:03.33,000 --> 0:16:06,000
+qu'ils seraient bon que tout le monde fasse.
+
+343
+0:16:06.33,000 --> 0:16:08,000
+Cela s'appelle "Linked Data".
+
+344
+0:16:08.33,000 --> 0:16:1,000
+Je veux que vous le fassiez,
+
+345
+0:16:10.33,000 --> 0:16:12,000
+je veux que vous le demandiez,
+
+346
+0:16:12.33,000 --> 0:16:14,000
+et je pense que cette idée mérite d'être partagée.
+
+347
+0:16:14.33,000 --> 0:16:15,000
+Merci.
+
+348
+0:16:15.33,000 --> 0:16:18,000
+(Applaudissements)
+

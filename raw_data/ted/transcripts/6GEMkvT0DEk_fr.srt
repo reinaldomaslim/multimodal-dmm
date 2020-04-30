@@ -1,0 +1,360 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Timothée Parrique Relecteur: eric vautier
+
+2
+0:00:15.26,000 --> 0:00:18,000
+Salut, je m'appelle Marcin --
+
+3
+0:00:18.26,000 --> 0:00:2,000
+fermier, ingénieur.
+
+4
+0:00:20.26,000 --> 0:00:23,000
+Je suis né en Pologne, je vis désormais aux États-Unis.
+
+5
+0:00:23.26,000 --> 0:00:26,000
+J'ai lancé un groupe intitulé "Open Source Ecology" ("Écologie en Accès Libre")
+
+6
+0:00:26.26,000 --> 0:00:28,000
+Nous avons identifié les 50 machines les plus importantes
+
+7
+0:00:28.26,000 --> 0:00:31,000
+qui, selon nous, permettent à la vie moderne d'exister --
+
+8
+0:00:31.26,000 --> 0:00:33,000
+depuis les tracteurs et
+
+9
+0:00:33.26,000 --> 0:00:35,000
+les fours à pain aux graveuses de circuits imprimés.
+
+10
+0:00:35.26,000 --> 0:00:37,000
+Nous avons essayé de créer
+
+11
+0:00:37.26,000 --> 0:00:4,000
+une version accessible, FLVM, une version "faites-le vous-même"
+
+12
+0:00:40.26,000 --> 0:00:42,000
+que n'importe qui pourrait construire et entretenir
+
+13
+0:00:42.26,000 --> 0:00:44,000
+en ne supportant qu'une partie du coût.
+
+14
+0:00:44.26,000 --> 0:00:46,000
+Nous appelons cela le Kit de Construction du Village Global.
+
+15
+0:00:46.26,000 --> 0:00:48,000
+Laissez-moi vous raconter une histoire.
+
+16
+0:00:48.26,000 --> 0:00:5,000
+J'ai fini à trente ans
+
+17
+0:00:50.26,000 --> 0:00:52,000
+avec un doctorat en fusion énergétique,
+
+18
+0:00:52.26,000 --> 0:00:55,000
+et j'ai découvert que j'étais inutile.
+
+19
+0:00:55.26,000 --> 0:00:57,000
+Je n'avais aucune compétence pratique.
+
+20
+0:00:57.26,000 --> 0:00:59,000
+Le monde m'a offert des options,
+
+21
+0:00:59.26,000 --> 0:01:01,000
+et je les ai prises.
+
+22
+0:01:01.26,000 --> 0:01:03,000
+On pourrait appeler cela un style de vie consumériste.
+
+23
+0:01:03.26,000 --> 0:01:06,000
+J'ai créé une ferme dans le Missouri
+
+24
+0:01:06.26,000 --> 0:01:09,000
+et appris les choses en rapport avec l'économie de la ferme.
+
+25
+0:01:09.26,000 --> 0:01:12,000
+J'ai acheté un tracteur -- qui cessa de fonctionner.
+
+26
+0:01:12.26,000 --> 0:01:14,000
+J'ai payé pour qu'on me le répare --
+
+27
+0:01:14.26,000 --> 0:01:16,000
+et puis il cessa à nouveau de fonctionner.
+
+28
+0:01:16.26,000 --> 0:01:18,000
+Alors peu de temps après
+
+29
+0:01:18.26,000 --> 0:01:2,000
+j'étais moi aussi financièrement incapable de fonctionner.
+
+30
+0:01:20.26,000 --> 0:01:22,000
+J'ai réalisé
+
+31
+0:01:22.26,000 --> 0:01:25,000
+que les outils bon marché, vraiment appropriés, dont j'avais besoin
+
+32
+0:01:25.26,000 --> 0:01:28,000
+pour établir une ferme durable
+
+33
+0:01:28.26,000 --> 0:01:3,000
+n'existaient tout simplement pas encore.
+
+34
+0:01:30.26,000 --> 0:01:33,000
+J'avais besoin d'outils robustes, modulaires,
+
+35
+0:01:33.26,000 --> 0:01:35,000
+hautement efficaces et optimisés,
+
+36
+0:01:35.26,000 --> 0:01:37,000
+peu chers,
+
+37
+0:01:37.26,000 --> 0:01:4,000
+fabriqués à partir de matériaux locaux et recyclés qui dureraient toute une vie,
+
+38
+0:01:40.26,000 --> 0:01:42,000
+non conçus pour l'obsolescence.
+
+39
+0:01:42.26,000 --> 0:01:45,000
+Je me suis rendu compte que j'allais devoir les construire moi-même.
+
+40
+0:01:45.26,000 --> 0:01:48,000
+Et c'est ce que j'ai fait.
+
+41
+0:01:48.26,000 --> 0:01:51,000
+Je les ai ensuite testés.
+
+42
+0:01:51.26,000 --> 0:01:54,000
+Et je me suis rendu compte que la productivité industrielle
+
+43
+0:01:54.26,000 --> 0:01:57,000
+peut être atteinte sur de petites échelles.
+
+44
+0:01:57.26,000 --> 0:02:,000
+Alors j'ai publié les plans en 3D,
+
+45
+0:02:00.26,000 --> 0:02:02,000
+les schémas,
+
+46
+0:02:02.26,000 --> 0:02:05,000
+les vidéos d'explication et les budgets
+
+47
+0:02:05.26,000 --> 0:02:07,000
+sur un wiki.
+
+48
+0:02:07.26,000 --> 0:02:09,000
+Des participants du monde entier
+
+49
+0:02:09.26,000 --> 0:02:12,000
+sont apparus, réalisant des prototypes de nouvelles machines
+
+50
+0:02:12.26,000 --> 0:02:14,000
+à l'occasion de visites de projet dédiées.
+
+51
+0:02:14.26,000 --> 0:02:17,000
+Jusque-là, nous avons prototypé 8 des 50 machines.
+
+52
+0:02:17.26,000 --> 0:02:19,000
+Le projet
+
+53
+0:02:19.26,000 --> 0:02:22,000
+commence à grandir de façon autonome.
+
+54
+0:02:22.26,000 --> 0:02:24,000
+Nous savons que l'accès libre a réussi
+
+55
+0:02:24.26,000 --> 0:02:27,000
+avec les outils de gestion de la connaissance et de la créativité.
+
+56
+0:02:27.26,000 --> 0:02:3,000
+Le même phénomène est en train de se produire avec le matériel.
+
+57
+0:02:30.26,000 --> 0:02:32,000
+Nous nous concentrons sur le matériel
+
+58
+0:02:32.26,000 --> 0:02:35,000
+parce que c'est lui qui peut changer la vie des gens
+
+59
+0:02:35.26,000 --> 0:02:38,000
+de manière réellement tangible.
+
+60
+0:02:38.26,000 --> 0:02:41,000
+Si on peut baisser les barrières autour de l'agriculture, de la construction, de la production,
+
+61
+0:02:41.26,000 --> 0:02:44,000
+nous libèrerons une quantité énorme de potentiel humain.
+
+62
+0:02:44.26,000 --> 0:02:47,000
+Cela ne vise pas seulement les pays en développement.
+
+63
+0:02:47.26,000 --> 0:02:49,000
+Nos outils sont conçus
+
+64
+0:02:49.26,000 --> 0:02:52,000
+pour le fermier, l'ouvrier, l'entrepreneur ou le producteur des États-Unis.
+
+65
+0:02:52.26,000 --> 0:02:54,000
+Nous avons vu beaucoup d'intérêt chez ces gens-là,
+
+66
+0:02:54.26,000 --> 0:02:56,000
+qui peuvent maintenant lancer une société de construction,
+
+67
+0:02:56.26,000 --> 0:02:58,000
+de fabrication de pièces détachées,
+
+68
+0:02:58.26,000 --> 0:03:,000
+d'agriculture bio
+
+69
+0:03:00.26,000 --> 0:03:03,000
+ou simplement revendre de l'électricité.
+
+70
+0:03:04.26,000 --> 0:03:06,000
+Notre but est de devenir un répertoire en ligne de plans
+
+71
+0:03:06.26,000 --> 0:03:08,000
+si clairs, si complets,
+
+72
+0:03:08.26,000 --> 0:03:1,000
+qu'un simple DVD
+
+73
+0:03:10.26,000 --> 0:03:13,000
+peut servir de kit de démarrage.
+
+74
+0:03:16.26,000 --> 0:03:19,000
+J'ai planté une centaine d'arbres en une journée.
+
+75
+0:03:19.26,000 --> 0:03:22,000
+J'ai compacté 5000 briques en une journée
+
+76
+0:03:22.26,000 --> 0:03:26,000
+en utilisant la terre sous mes pieds
+
+77
+0:03:26.26,000 --> 0:03:29,000
+et j'ai construit un tracteur en six jours.
+
+78
+0:03:29.26,000 --> 0:03:32,000
+De ce que j'ai vu, ce n'est que le commencement.
+
+79
+0:03:32.26,000 --> 0:03:35,000
+Si cette idée est vraiment solide,
+
+80
+0:03:35.26,000 --> 0:03:38,000
+alors les implications sont considérables.
+
+81
+0:03:38.26,000 --> 0:03:41,000
+Une meilleure distribution des moyens de production,
+
+82
+0:03:41.26,000 --> 0:03:44,000
+une chaîne logistique respectueuse de l'environnement,
+
+83
+0:03:44.26,000 --> 0:03:48,000
+et une nouvelle culture du "faites-le vous-même"
+
+84
+0:03:48.26,000 --> 0:03:5,000
+pourrait espérer venir à bout
+
+85
+0:03:50.26,000 --> 0:03:53,000
+d'une rareté artificielle.
+
+86
+0:03:53.26,000 --> 0:03:55,000
+Nous explorons les limites
+
+87
+0:03:55.26,000 --> 0:03:58,000
+de ce que nous pourrions faire pour rendre le monde meilleur
+
+88
+0:03:58.26,000 --> 0:04:,000
+avec des technologies physiques en accès libre.
+
+89
+0:04:00.26,000 --> 0:04:02,000
+Merci.
+
+90
+0:04:02.26,000 --> 0:04:04,000
+(Applaudissements)
+

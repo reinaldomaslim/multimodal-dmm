@@ -1,0 +1,1128 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: py carre Relecteur: Morgane Quilfen
+
+2
+0:00:12.704,000 --> 0:00:14,000
+Aujourd'hui, je vais vous parler de statistiques.
+
+3
+0:00:15.491,000 --> 0:00:18,000
+Si cela vous rend tout de suite méfiant, c'est bien,
+
+4
+0:00:18.653,000 --> 0:00:2,000
+ça ne fait pas de vous une sorte de fou conspirationniste,
+
+5
+0:00:21.536,000 --> 0:00:22,000
+mais quelqu'un de sceptique.
+
+6
+0:00:22.922,000 --> 0:00:25,000
+Et en matière de chiffres, surtout maintenant, vous devriez être sceptique.
+
+7
+0:00:26.766,000 --> 0:00:28,000
+Mais vous devez aussi pouvoir distinguer les chiffres fiables
+
+8
+0:00:29.751,000 --> 0:00:3,000
+et ceux qui ne le sont pas.
+
+9
+0:00:31.041,000 --> 0:00:34,000
+Donc, je veux essayer de vous donner quelques outils pour le faire.
+
+10
+0:00:34.215,000 --> 0:00:35,000
+Mais avant de commencer,
+
+11
+0:00:35.408,000 --> 0:00:37,000
+je veux préciser les chiffres dont je parle ici.
+
+12
+0:00:38.271,000 --> 0:00:39,000
+Pas d'affirmations comme :
+
+13
+0:00:39.93,000 --> 0:00:41,000
+« 90% des femmes conseillent cette crème anti-âge ».
+
+14
+0:00:42.403,000 --> 0:00:44,000
+On est nombreux à lever les yeux au ciel avec ces chiffres.
+
+15
+0:00:45.399,000 --> 0:00:48,000
+La nouveauté, c'est que les gens doutent de statistiques comme :
+
+16
+0:00:48.403,000 --> 0:00:5,000
+« Le taux de chômage américain est de 5% ».
+
+17
+0:00:50.445,000 --> 0:00:53,000
+Cette affirmation est différente, elle ne vient pas d'une société privée,
+
+18
+0:00:53.985,000 --> 0:00:54,000
+elle vient du gouvernement.
+
+19
+0:00:55.397,000 --> 0:00:58,000
+4 Américains sur 10 ne font pas confiance aux données économiques
+
+20
+0:00:58.757,000 --> 0:00:59,000
+fournies par le gouvernement.
+
+21
+0:01:00.274,000 --> 0:01:02,000
+Pour les partisans du président Trump, c'est même plus,
+
+22
+0:01:02.885,000 --> 0:01:03,000
+ils sont à peu près 7 sur 10.
+
+23
+0:01:04.526,000 --> 0:01:05,000
+Je n'ai pas besoin de vous le dire,
+
+24
+0:01:06.354,000 --> 0:01:09,000
+il y a de nombreuses divisions dans notre société actuelle
+
+25
+0:01:09.389,000 --> 0:01:1,000
+et elles commencent à prendre sens
+
+26
+0:01:11.238,000 --> 0:01:14,000
+quand on comprend les rapports des gens à ces données gouvernementales.
+
+27
+0:01:14.949,000 --> 0:01:17,000
+D'un côté, il y a ceux qui disent qu'elles sont essentielles
+
+28
+0:01:18.309,000 --> 0:01:2,000
+pour appréhender la société dans son ensemble,
+
+29
+0:01:20.963,000 --> 0:01:22,000
+pour dépasser les anecdotes émouvantes
+
+30
+0:01:23.151,000 --> 0:01:25,000
+et mesurer le progrès de façon subjective.
+
+31
+0:01:25.585,000 --> 0:01:26,000
+Et il y a les autres
+
+32
+0:01:27.076,000 --> 0:01:29,000
+qui disent ces statistiques élitistes,
+
+33
+0:01:29.256,000 --> 0:01:3,000
+peut-être trafiquées ;
+
+34
+0:01:30.488,000 --> 0:01:32,000
+elles n'ont pas de sens et ne montrent pas vraiment
+
+35
+0:01:32.906,000 --> 0:01:34,000
+ce qui arrive dans la vie quotidienne des gens.
+
+36
+0:01:35.226,000 --> 0:01:38,000
+Il semblerait que ce second groupe gagne dans le débat aujourd'hui.
+
+37
+0:01:38.737,000 --> 0:01:4,000
+Nous vivons entourés de faits alternatifs,
+
+38
+0:01:40.869,000 --> 0:01:42,000
+où l'on ne trouve pas dans les chiffres un terrain d'entente,
+
+39
+0:01:43.828,000 --> 0:01:44,000
+ce point de départ du débat.
+
+40
+0:01:45.488,000 --> 0:01:46,000
+C'est un problème.
+
+41
+0:01:46.798,000 --> 0:01:48,000
+Il y a de vrais mouvements aux États-Unis
+
+42
+0:01:48.889,000 --> 0:01:5,000
+pour se passer entièrement des statistiques gouvernementales.
+
+43
+0:01:51.774,000 --> 0:01:54,000
+Une loi est présentée au Congrès sur la mesure des inégalités raciales.
+
+44
+0:01:55.185,000 --> 0:01:57,000
+Pour le projet de loi, l'argent public ne saurait servir
+
+45
+0:01:58.01,000 --> 0:01:59,000
+à collecter des données sur ce sujet.
+
+46
+0:01:59.936,000 --> 0:02:,000
+C'est une véritable catastrophe.
+
+47
+0:02:01.845,000 --> 0:02:02,000
+Si nous n'avons pas ces données,
+
+48
+0:02:03.617,000 --> 0:02:04,000
+comment observer la discrimination
+
+49
+0:02:05.419,000 --> 0:02:06,000
+et a fortiori la réduire ?
+
+50
+0:02:06.721,000 --> 0:02:07,000
+En d'autres mots :
+
+51
+0:02:07.933,000 --> 0:02:09,000
+comment créer des politiques équitables
+
+52
+0:02:10.016,000 --> 0:02:12,000
+sans mesurer les niveaux d'injustice actuels ?
+
+53
+0:02:12.811,000 --> 0:02:13,000
+Ce n'est pas que la discrimination,
+
+54
+0:02:14.629,000 --> 0:02:15,000
+ça touche tout -- pensez-y.
+
+55
+0:02:16.323,000 --> 0:02:17,000
+Comment légiférer sur la santé
+
+56
+0:02:18.037,000 --> 0:02:2,000
+sans données précises sur la santé, la pauvreté ?
+
+57
+0:02:20.332,000 --> 0:02:22,000
+Comment mener un débat sur l'immigration
+
+58
+0:02:22.554,000 --> 0:02:23,000
+sans s'accorder au moins
+
+59
+0:02:23.828,000 --> 0:02:25,000
+sur le nombre de gens entrant et sortant du pays ?
+
+60
+0:02:26.495,000 --> 0:02:29,000
+Les statistiques viennent de l'État ; c'est leur étymologie.
+
+61
+0:02:29.577,000 --> 0:02:31,000
+Le but en était de mieux mesurer la population
+
+62
+0:02:31.758,000 --> 0:02:32,000
+pour mieux la servir.
+
+63
+0:02:33.139,000 --> 0:02:34,000
+Il nous faut ces chiffres publics,
+
+64
+0:02:34.888,000 --> 0:02:36,000
+il nous faut aussi dépasser leur acceptation aveugle
+
+65
+0:02:37.559,000 --> 0:02:38,000
+ou leur rejet aveugle.
+
+66
+0:02:38.851,000 --> 0:02:4,000
+Nous devons apprendre à détecter les mauvaises statistiques.
+
+67
+0:02:41.872,000 --> 0:02:42,000
+J'ai appris cela
+
+68
+0:02:43.424,000 --> 0:02:45,000
+en travaillant dans un service statistique
+
+69
+0:02:45.614,000 --> 0:02:46,000
+des Nations-Unies.
+
+70
+0:02:47.281,000 --> 0:02:5,000
+Notre boulot : savoir combien d'Irakiens avaient dû fuir leurs domiciles
+
+71
+0:02:50.717,000 --> 0:02:51,000
+du fait de la guerre,
+
+72
+0:02:51.893,000 --> 0:02:52,000
+connaître leurs besoins.
+
+73
+0:02:53.075,000 --> 0:02:56,000
+C'était un travail important, mais aussi incroyablement difficile.
+
+74
+0:02:56.277,000 --> 0:02:58,000
+Chaque jour, nous prenions des décisions
+
+75
+0:02:58.319,000 --> 0:03:,000
+affectant la précision de nos chiffres --
+
+76
+0:03:00.5,000 --> 0:03:02,000
+des décisions comme les régions du pays où nous rendre,
+
+77
+0:03:03.268,000 --> 0:03:04,000
+nos interlocuteurs,
+
+78
+0:03:04.448,000 --> 0:03:05,000
+les questions à poser.
+
+79
+0:03:06.04,000 --> 0:03:08,000
+J'ai commencé à être vraiment déçue par notre travail
+
+80
+0:03:08.744,000 --> 0:03:1,000
+parce que nous faisions un vraiment bon boulot,
+
+81
+0:03:11.286,000 --> 0:03:14,000
+mais les seules personnes pouvant nous le dire étaient les Irakiens.
+
+82
+0:03:14.588,000 --> 0:03:17,000
+Ils trouvaient rarement nos analyses, les critiquaient encore moins.
+
+83
+0:03:18.152,000 --> 0:03:19,000
+Je me sentais donc vraiment convaincue
+
+84
+0:03:20.007,000 --> 0:03:22,000
+qu'un moyen de rendre ces chiffres plus fiables
+
+85
+0:03:22.342,000 --> 0:03:25,000
+est de permettre au plus grand nombre possible de les critiquer.
+
+86
+0:03:25.419,000 --> 0:03:26,000
+Journaliste de données,
+
+87
+0:03:26.877,000 --> 0:03:29,000
+mon travail consiste à trouver ces données et à les partager avec le public.
+
+88
+0:03:30.805,000 --> 0:03:33,000
+Tout le monde peut le faire, sans être un geek ou un binoclard.
+
+89
+0:03:34.002,000 --> 0:03:36,000
+Ignorez ces mots : ils sont utilisés par des gens
+
+90
+0:03:36.381,000 --> 0:03:38,000
+tentant de dire leur intelligence en prétendant être humbles.
+
+91
+0:03:39.243,000 --> 0:03:4,000
+Tout le monde peut le faire.
+
+92
+0:03:40.84,000 --> 0:03:42,000
+Je vais vous présenter trois questions
+
+93
+0:03:42.931,000 --> 0:03:45,000
+qui vont vous aider à repérer quelques mauvaises statistiques.
+
+94
+0:03:45.96,000 --> 0:03:48,000
+Donc, la question numéro un est : pouvez-vous voir une incertitude ?
+
+95
+0:03:49.491,000 --> 0:03:52,000
+Une des choses ayant vraiment modifié la relation des gens aux nombres,
+
+96
+0:03:52.879,000 --> 0:03:53,000
+leur confiance dans les médias,
+
+97
+0:03:54.544,000 --> 0:03:56,000
+a été l'utilisation des sondages politiques.
+
+98
+0:03:56.826,000 --> 0:03:58,000
+J'ai des problèmes avec les sondages politiques
+
+99
+0:03:59.388,000 --> 0:04:02,000
+parce que le rôle des journalistes est de rapporter des faits,
+
+100
+0:04:02.788,000 --> 0:04:03,000
+pas d'essayer de les prédire,
+
+101
+0:04:04.365,000 --> 0:04:06,000
+surtout quand ces prédictions peuvent endommager la démocratie
+
+102
+0:04:07.385,000 --> 0:04:09,000
+en disant : ne vous embêtez pas à voter pour ce type,
+
+103
+0:04:10.141,000 --> 0:04:11,000
+il n'a aucune chance.
+
+104
+0:04:11.37,000 --> 0:04:14,000
+Laissons ce point pour l'instant, parlons de la justesse de cette activité.
+
+105
+0:04:15.048,000 --> 0:04:19,000
+En se basant sur les élections nationales au Royaume Uni, en Italie, en Israël
+
+106
+0:04:19.68,000 --> 0:04:21,000
+et bien sûr, les récentes présidentielles américaines,
+
+107
+0:04:22.468,000 --> 0:04:24,000
+prévoir les résultats par des sondages
+
+108
+0:04:24.629,000 --> 0:04:27,000
+est aussi utile que d'interroger la lune pour prédire les admissions à l'hôpital.
+
+109
+0:04:28.465,000 --> 0:04:32,000
+Sérieusement, j'ai utilisé les données d'une étude universitaire pour faire ça.
+
+110
+0:04:32.689,000 --> 0:04:35,000
+Les sondages sont devenus si inexacts pour de nombreuses raisons.
+
+111
+0:04:36.44,000 --> 0:04:37,000
+Nos sociétés sont devenues diverses,
+
+112
+0:04:38.434,000 --> 0:04:41,000
+cela rend difficile pour les sondeurs d'obtenir d'un échantillon représentatif
+
+113
+0:04:42.279,000 --> 0:04:43,000
+de la population.
+
+114
+0:04:43.93,000 --> 0:04:46,000
+Les gens sont vraiment réticents à répondre aux sondeurs
+
+115
+0:04:46.96,000 --> 0:04:48,000
+et fait choquant : ils peuvent mentir.
+
+116
+0:04:49.26,000 --> 0:04:51,000
+Mais vous ne le sauriez pas forcément en suivant les médias.
+
+117
+0:04:52.095,000 --> 0:04:54,000
+D'une part, la probabilité d'une victoire de Clinton
+
+118
+0:04:54.88,000 --> 0:04:56,000
+a été présentée à la décimale près.
+
+119
+0:04:57.695,000 --> 0:04:59,000
+On n'utilise pas les décimales pour les températures.
+
+120
+0:05:00.34,000 --> 0:05:04,000
+Comment prédire le comportement de 230 millions d'électeurs dans ce pays
+
+121
+0:05:04.592,000 --> 0:05:05,000
+avec cette précision ?
+
+122
+0:05:06.445,000 --> 0:05:08,000
+Et il y avait aussi ces beaux graphiques.
+
+123
+0:05:08.471,000 --> 0:05:11,000
+Beaucoup de visualisations des données surestiment la certitude et ça marche --
+
+124
+0:05:12.468,000 --> 0:05:14,000
+ces graphiques peuvent engourdir notre esprit critique.
+
+125
+0:05:15.112,000 --> 0:05:17,000
+En entendant un chiffre, vous devez être sceptique.
+
+126
+0:05:17.694,000 --> 0:05:18,000
+Traduit dans un graphique,
+
+127
+0:05:19.353,000 --> 0:05:21,000
+il semble être une science objective
+
+128
+0:05:21.506,000 --> 0:05:22,000
+et il ne l'est pas.
+
+129
+0:05:22.779,000 --> 0:05:25,000
+Je cherchais des moyens pour mieux communiquer ça aux gens,
+
+130
+0:05:25.906,000 --> 0:05:27,000
+leur montrer l'incertitude des chiffres.
+
+131
+0:05:28.434,000 --> 0:05:3,000
+J'ai commencé par prendre de vraies données,
+
+132
+0:05:30.704,000 --> 0:05:32,000
+à les transcrire en graphiques dessinés à la main,
+
+133
+0:05:33.38,000 --> 0:05:35,000
+pour que les gens voient l'imprécision des données ;
+
+134
+0:05:36.076,000 --> 0:05:37,000
+pour qu'ils voient qu'un humain a fait ça,
+
+135
+0:05:38.096,000 --> 0:05:39,000
+qu'il a trouvé et présenté des données.
+
+136
+0:05:40.092,000 --> 0:05:42,000
+Par exemple, plutôt que de trouver la probabilité
+
+137
+0:05:42.788,000 --> 0:05:44,000
+d'attraper la grippe pour chaque mois donné,
+
+138
+0:05:44.938,000 --> 0:05:46,000
+vous voyiez la distribution des saisons de la grippe.
+
+139
+0:05:47.754,000 --> 0:05:48,000
+C'est --
+
+140
+0:05:48.945,000 --> 0:05:49,000
+(Rires)
+
+141
+0:05:49.987,000 --> 0:05:5,000
+à ne pas présenter en février.
+
+142
+0:05:51.497,000 --> 0:05:53,000
+C'est aussi une présentation plus responsable,
+
+143
+0:05:53.976,000 --> 0:05:55,000
+parce que si l'on montrait les probabilités exactes,
+
+144
+0:05:56.455,000 --> 0:05:59,000
+cela encouragerait peut-être les gens à se vacciner au mauvais moment.
+
+145
+0:06:00.983,000 --> 0:06:01,000
+Le but de ces lignes tremblantes
+
+146
+0:06:02.7,000 --> 0:06:04,000
+est que les gens se souviennent de ces imprécisions,
+
+147
+0:06:05.635,000 --> 0:06:08,000
+mais aussi qu'ils ne retiennent pas un chiffre spécifique,
+
+148
+0:06:08.886,000 --> 0:06:09,000
+qu'ils retiennent les faits importants.
+
+149
+0:06:10.776,000 --> 0:06:14,000
+Que l'injustice et les inégalités marquent fortement notre vie.
+
+150
+0:06:14.824,000 --> 0:06:18,000
+Des faits comme l'espérance de vie réduite des Afro-Américains et des Indiens
+
+151
+0:06:19.037,000 --> 0:06:2,000
+par rapport aux autres races
+
+152
+0:06:20.461,000 --> 0:06:22,000
+et que ce n'est pas près de changer.
+
+153
+0:06:22.623,000 --> 0:06:25,000
+Qu'aux États-Unis les prisonniers peuvent être dans des cellules de confinement
+
+154
+0:06:26.548,000 --> 0:06:29,000
+plus petites que la taille moyenne d'un emplacement de parking.
+
+155
+0:06:30.355,000 --> 0:06:33,000
+Le but de ces visualisations est aussi de rappeler aux gens
+
+156
+0:06:33.714,000 --> 0:06:35,000
+quelques principes statistiques importants,
+
+157
+0:06:36.088,000 --> 0:06:37,000
+des concepts comme les moyennes.
+
+158
+0:06:37.748,000 --> 0:06:38,000
+Disons que vous entendiez :
+
+159
+0:06:39.44,000 --> 0:06:43,000
+« La piscine moyenne aux États-Unis contient 6,23 accidents fécaux. »
+
+160
+0:06:43.898,000 --> 0:06:45,000
+Ça ne veut pas dire que chaque piscine dans le pays
+
+161
+0:06:46.719,000 --> 0:06:48,000
+contient exactement 6,23 crottes.
+
+162
+0:06:48.937,000 --> 0:06:49,000
+Donc, pour le montrer,
+
+163
+0:06:50.378,000 --> 0:06:52,000
+je suis revenue aux données originales, fournies par le CDC,
+
+164
+0:06:53.243,000 --> 0:06:55,000
+qui a étudié 47 piscines.
+
+165
+0:06:55.332,000 --> 0:06:57,000
+J'ai passé une soirée à redistribuer les crottes.
+
+166
+0:06:57.747,000 --> 0:06:59,000
+que vous voyiez combien les moyennes sont trompeuses.
+
+167
+0:07:00.453,000 --> 0:07:01,000
+(Rires)
+
+168
+0:07:01.759,000 --> 0:07:04,000
+Bien, donc la seconde question que vous devez vous poser
+
+169
+0:07:05.684,000 --> 0:07:06,000
+pour les mauvais chiffres :
+
+170
+0:07:07.209,000 --> 0:07:08,000
+puis-je me retrouver dans ces données ?
+
+171
+0:07:09.2,000 --> 0:07:11,000
+Cette question est aussi en relation avec les moyennes,
+
+172
+0:07:12.137,000 --> 0:07:14,000
+la frustration des gens face à ces statistiques nationales
+
+173
+0:07:14.872,000 --> 0:07:15,000
+vient en partie du fait
+
+174
+0:07:16.285,000 --> 0:07:19,000
+qu'elles ne disent pas vraiment qui gagne et qui perd
+
+175
+0:07:19.582,000 --> 0:07:2,000
+avec ces politiques.
+
+176
+0:07:20.762,000 --> 0:07:23,000
+Il est facile de comprendre pourquoi les moyennes les frustrent
+
+177
+0:07:24.104,000 --> 0:07:26,000
+si elles ne collent pas à leur expérience personnelle.
+
+178
+0:07:26.807,000 --> 0:07:29,000
+Je voulais montrer comment les données sont liées à leur vie.
+
+179
+0:07:30.094,000 --> 0:07:32,000
+J'ai commencé cette chronique « Chère Mona, »
+
+180
+0:07:32.364,000 --> 0:07:34,000
+dans laquelle ils me posent des questions, des craintes
+
+181
+0:07:35.114,000 --> 0:07:36,000
+et je réponds avec des données.
+
+182
+0:07:36.922,000 --> 0:07:37,000
+On me demande tout :
+
+183
+0:07:38.146,000 --> 0:07:41,000
+« Est-il normal de dormir dans un lit séparé de ma femme ? »,
+
+184
+0:07:41.431,000 --> 0:07:42,000
+« Regrette-t-on les tatouages ? »,
+
+185
+0:07:43.062,000 --> 0:07:45,000
+« Qu'est-ce que mourir de cause naturelle ? »
+
+186
+0:07:45.234,000 --> 0:07:47,000
+Toutes ces questions sont bonnes, parce qu'elles font penser
+
+187
+0:07:48.224,000 --> 0:07:5,000
+au moyen de trouver et communiquer ces chiffres.
+
+188
+0:07:50.584,000 --> 0:07:52,000
+Pour « Quel volume d'urine fait beaucoup d'urine ? »
+
+189
+0:07:53.111,000 --> 0:07:55,000
+une question que l'on m'a posée,
+
+190
+0:07:55.593,000 --> 0:07:57,000
+vous voulez vraiment être sûr que la visualisation ait du sens
+
+191
+0:07:58.597,000 --> 0:07:59,000
+pour le plus grand nombre de gens.
+
+192
+0:08:00.368,000 --> 0:08:01,000
+Ces chiffres sont disponibles.
+
+193
+0:08:01.967,000 --> 0:08:04,000
+Ils sont parfois enterrés dans les annexes d'une étude universitaire.
+
+194
+0:08:05.498,000 --> 0:08:06,000
+Et ne sont pas impénétrables ;
+
+195
+0:08:07.361,000 --> 0:08:09,000
+pour vraiment tester ces chiffres sur les volumes d'urine,
+
+196
+0:08:10.36,000 --> 0:08:12,000
+vous prenez une bouteille et essayez vous-même.
+
+197
+0:08:12.641,000 --> 0:08:13,000
+(Rires)
+
+198
+0:08:13.673,000 --> 0:08:14,000
+Le but n'est pas nécessairement
+
+199
+0:08:15.391,000 --> 0:08:17,000
+que chaque groupe de données ait un lien précis avec vous.
+
+200
+0:08:18.292,000 --> 0:08:2,000
+Je m'intéresse au nombre de femmes verbalisées en France
+
+201
+0:08:21.196,000 --> 0:08:22,000
+pour le port du voile, ou du niqab,
+
+202
+0:08:23.179,000 --> 0:08:25,000
+même sans vivre en France, sans porter de voile.
+
+203
+0:08:25.821,000 --> 0:08:28,000
+En déterminant sa place, le but est d'avoir le plus de contexte possible.
+
+204
+0:08:29.68,000 --> 0:08:31,000
+C'est de s'éloigner d'un point de données,
+
+205
+0:08:31.895,000 --> 0:08:33,000
+comme le taux de chômage de 5%,
+
+206
+0:08:34.023,000 --> 0:08:35,000
+de voir son évolution dans le temps
+
+207
+0:08:35.804,000 --> 0:08:37,000
+ou de voir son évolution selon les niveaux d'études --
+
+208
+0:08:38.478,000 --> 0:08:41,000
+ce pourquoi on a toujours insisté pour que vous alliez à la fac--
+
+209
+0:08:41.606,000 --> 0:08:43,000
+ou de voir comment il varie avec le genre.
+
+210
+0:08:43.662,000 --> 0:08:45,000
+Le taux de chômage des hommes est plus élevé
+
+211
+0:08:45.813,000 --> 0:08:46,000
+que celui des femmes.
+
+212
+0:08:47.537,000 --> 0:08:49,000
+Jusqu'au début des années 80, c'était le contraire.
+
+213
+0:08:50.256,000 --> 0:08:52,000
+C'est un des plus grands changements
+
+214
+0:08:52.397,000 --> 0:08:53,000
+dans la société américaine,
+
+215
+0:08:54.141,000 --> 0:08:57,000
+elle est dans ce graphique, une fois que vous dépassez les moyennes.
+
+216
+0:08:57.441,000 --> 0:08:58,000
+Les axes sont tout ;
+
+217
+0:08:58.63,000 --> 0:09:,000
+en changeant l'échelle, vous pouvez changer le sens.
+
+218
+0:09:01.323,000 --> 0:09:04,000
+La troisième et dernière question à laquelle je veux que vous pensiez
+
+219
+0:09:04.727,000 --> 0:09:05,000
+en regardant des statistiques est :
+
+220
+0:09:06.57,000 --> 0:09:07,000
+comment sont collectées les données ?
+
+221
+0:09:09.487,000 --> 0:09:11,000
+Jusqu'ici, je n'ai parlé que de leur communication,
+
+222
+0:09:12.45,000 --> 0:09:14,000
+la question de la collecte est aussi importante.
+
+223
+0:09:14.756,000 --> 0:09:15,000
+Je sais que c'est dur,
+
+224
+0:09:15.941,000 --> 0:09:18,000
+les méthodologies peuvent être opaques et vraiment ennuyeuses,
+
+225
+0:09:19.046,000 --> 0:09:21,000
+mais il y a quelques étapes simples que vous pouvez suivre.
+
+226
+0:09:21.943,000 --> 0:09:22,000
+J'utiliserai ici un dernier exemple.
+
+227
+0:09:24.129,000 --> 0:09:27,000
+Un sondage a trouvé que 41% des musulmans de ce pays soutiennent le djihad,
+
+228
+0:09:28.04,000 --> 0:09:29,000
+ce qui est assez effrayant
+
+229
+0:09:29.589,000 --> 0:09:31,000
+et il a été repris partout en 2015.
+
+230
+0:09:32.255,000 --> 0:09:34,000
+Quand je veux vérifier un tel chiffre,
+
+231
+0:09:34.894,000 --> 0:09:36,000
+je commence par trouver le questionnaire original.
+
+232
+0:09:37.419,000 --> 0:09:39,000
+Il se trouve que les journalistes ayant présenté ce chiffre
+
+233
+0:09:40.369,000 --> 0:09:42,000
+ont ignoré un item en aval dans le questionnaire
+
+234
+0:09:42.624,000 --> 0:09:44,000
+demandant aux sondés leur définition du « djihad ».
+
+235
+0:09:45.02,000 --> 0:09:46,000
+La majorité parmi eux l'a défini comme :
+
+236
+0:09:46.999,000 --> 0:09:49,000
+« La lutte pacifique personnelle des musulmans pour être plus religieux. »
+
+237
+0:09:50.965,000 --> 0:09:54,000
+Seuls 16% ont parlé d' « une guerre sainte violente contre les incroyants ».
+
+238
+0:09:55.183,000 --> 0:09:57,000
+C'est le point vraiment important :
+
+239
+0:09:57.637,000 --> 0:09:59,000
+avec ces chiffres, il est très possible
+
+240
+0:09:59.816,000 --> 0:10:02,000
+qu'aucun sondé l'ayant défini comme une guerre sainte violente
+
+241
+0:10:02.945,000 --> 0:10:03,000
+ait aussi dit l'encourager.
+
+242
+0:10:04.301,000 --> 0:10:06,000
+Ces deux groupes peuvent être différents.
+
+243
+0:10:06.942,000 --> 0:10:08,000
+Il est bon de se demander comment l'étude a été menée.
+
+244
+0:10:09.603,000 --> 0:10:1,000
+C'est un sondage à consentement préalable,
+
+245
+0:10:11.625,000 --> 0:10:14,000
+ce qui veut dire que chacun pouvait le trouver sur Internet, y répondre.
+
+246
+0:10:15.051,000 --> 0:10:18,000
+On ne peut pas savoir si les sondés s'identifient comme musulmans.
+
+247
+0:10:18.414,000 --> 0:10:2,000
+Finalement, il y a eu 600 répondants pour ce sondage.
+
+248
+0:10:21.05,000 --> 0:10:23,000
+Il y a près de 3 millions de musulmans dans ce pays,
+
+249
+0:10:23.728,000 --> 0:10:24,000
+selon le Pew Research Center.
+
+250
+0:10:25.359,000 --> 0:10:27,000
+Ce sondage parlait d'à peu près un musulman sur 5 000
+
+251
+0:10:28.376,000 --> 0:10:29,000
+dans ce pays.
+
+252
+0:10:29.488,000 --> 0:10:3,000
+C'est l'une des raisons pour lesquelles
+
+253
+0:10:31.344,000 --> 0:10:34,000
+les statistiques publiques sont souvent meilleures que les privées.
+
+254
+0:10:34.489,000 --> 0:10:37,000
+Un sondage peut interroger quelques centaines ou mille personnes
+
+255
+0:10:37.554,000 --> 0:10:4,000
+ou si vous êtes Loréal, tentant de vendre des produits de beauté,
+
+256
+0:10:40.63,000 --> 0:10:42,000
+vous prenez 48 femmes pour affirmer que ça marche.
+
+257
+0:10:43.071,000 --> 0:10:44,000
+(Rires)
+
+258
+0:10:44.121,000 --> 0:10:47,000
+Les entreprises privées n'ont pas intérêt à obtenir des chiffres fiables,
+
+259
+0:10:47.701,000 --> 0:10:48,000
+il leur faut des bons chiffres.
+
+260
+0:10:49.48,000 --> 0:10:51,000
+Les statisticiens publics sont différents.
+
+261
+0:10:51.524,000 --> 0:10:53,000
+En théorie au moins, ils sont totalement impartiaux,
+
+262
+0:10:53.995,000 --> 0:10:56,000
+ne fût-ce parce qu'ils font leur boulot indépendamment du pouvoir.
+
+263
+0:10:57.52,000 --> 0:10:58,000
+Ils sont fonctionnaires.
+
+264
+0:10:58.706,000 --> 0:10:59,000
+Pour bien faire leur travail,
+
+265
+0:11:00.694,000 --> 0:11:02,000
+ils n'interrogent pas 200 personnes.
+
+266
+0:11:03.081,000 --> 0:11:05,000
+Ces chiffres de l'emploi que j'utilise
+
+267
+0:11:05.423,000 --> 0:11:07,000
+viennent du Bureau of Labors Statistics,
+
+268
+0:11:07.451,000 --> 0:11:08,000
+et pour leurs estimations,
+
+269
+0:11:08.81,000 --> 0:11:11,000
+ils interrogent plus de 140 000 entreprises dans le pays.
+
+270
+0:11:12.323,000 --> 0:11:13,000
+Je le sais, c'est frustrant.
+
+271
+0:11:14.072,000 --> 0:11:17,000
+Pour tester une statistique fournie par une entreprise privée,
+
+272
+0:11:17.211,000 --> 0:11:2,000
+vous pouvez acheter la crème, pour vous et quelques amies, la tester,
+
+273
+0:11:20.596,000 --> 0:11:22,000
+si ça ne va pas, vous saurez : les chiffres sont faux.
+
+274
+0:11:23.211,000 --> 0:11:25,000
+Comment douter des statistiques publiques ?
+
+275
+0:11:25.381,000 --> 0:11:26,000
+En continuant à tout vérifier,
+
+276
+0:11:27.035,000 --> 0:11:28,000
+à interroger la collecte des données,
+
+277
+0:11:28.972,000 --> 0:11:31,000
+à voir si tout ce dont vous avez besoin est bien dans le graphique.
+
+278
+0:11:32.157,000 --> 0:11:34,000
+Mais n'oubliez pas les chiffres, parce que si vous le faites,
+
+279
+0:11:35.11,000 --> 0:11:37,000
+nos décisions politiques seront prises dans le noir,
+
+280
+0:11:37.573,000 --> 0:11:39,000
+avec les seuls intérêts privés comme guides.
+
+281
+0:11:39.859,000 --> 0:11:4,000
+Merci.
+
+282
+0:11:41.049,000 --> 0:11:43,000
+(Applaudissements)
+

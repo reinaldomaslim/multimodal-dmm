@@ -1,0 +1,242 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Mohand Habchi Relecteur: Elisabeth Buffard
+
+2
+0:00:13.344,000 --> 0:00:17,000
+(Son aquatique)
+
+3
+0:00:20.811,000 --> 0:00:21,000
+Cette vidéo a été prise
+
+4
+0:00:22.714,000 --> 0:00:24,000
+au laboratoire sous-marin Aquarius,
+
+5
+0:00:25.146,000 --> 0:00:26,000
+situé à 6,4 Km au large de la côte de Key Largo
+
+6
+0:00:26.999,000 --> 0:00:28,000
+et immergé à environ 18,3 m de profondeur.
+
+7
+0:00:29.577,000 --> 0:00:3,000
+La NASA utilise cet environnement extrême
+
+8
+0:00:31.301,000 --> 0:00:33,000
+pour former des astronautes et des océanautes.
+
+9
+0:00:33.725,000 --> 0:00:36,000
+Et l'année dernière, ils nous ont invités pour la balade.
+
+10
+0:00:37.087,000 --> 0:00:39,000
+Toutes les images ont été prises par notre VST,
+
+11
+0:00:39.971,000 --> 0:00:43,000
+qui est un robot que nous avons construit dans notre garage.
+
+12
+0:00:44.458,000 --> 0:00:47,000
+VST signifie Véhicule Sous-marin Télécommandé,
+
+13
+0:00:48.026,000 --> 0:00:49,000
+ce qui dans notre cas signifie que notre petit robot
+
+14
+0:00:49.553,000 --> 0:00:51,000
+envoie une vidéo en direct
+
+15
+0:00:51.817,000 --> 0:00:52,000
+à travers cette attache ultra-mince
+
+16
+0:00:53.735,000 --> 0:00:55,000
+à l'ordinateur situé au dessus.
+
+17
+0:00:56.163,000 --> 0:00:57,000
+C'est open source, ce qui signifie que nous publions
+
+18
+0:00:58.141,000 --> 0:01:,000
+et partageons l'ensemble de nos fichiers de conception
+
+19
+0:01:00.186,000 --> 0:01:01,000
+et l'ensemble de notre code en ligne,
+
+20
+0:01:01.694,000 --> 0:01:03,000
+ce qui permet à quiconque de pouvoir le modifier,
+
+21
+0:01:03.728,000 --> 0:01:05,000
+l'améliorer ou de pouvoir modifier la conception.
+
+22
+0:01:06.077,000 --> 0:01:08,000
+Il est quasiment construit à partir de pièces de série
+
+23
+0:01:08.38,000 --> 0:01:09,000
+et coûte 1000 fois moins cher
+
+24
+0:01:10.215,000 --> 0:01:11,000
+que les VSTs que James Cameron a utilisé
+
+25
+0:01:12.094,000 --> 0:01:15,000
+pour explorer le Titanic.
+
+26
+0:01:15.699,000 --> 0:01:17,000
+Les VSTs ne sont pas nouveaux.
+
+27
+0:01:17.909,000 --> 0:01:18,000
+Ils existent depuis des décennies.
+
+28
+0:01:19.617,000 --> 0:01:22,000
+Les scientifiques utilisent les VSTs pour explorer les océans.
+
+29
+0:01:22.653,000 --> 0:01:24,000
+Les compagnies pétrolières et gazières les utilisent pour l'exploration
+
+30
+0:01:25.472,000 --> 0:01:26,000
+et la construction.
+
+31
+0:01:27.019,000 --> 0:01:29,000
+Ce que nous avons construit n'est pas unique.
+
+32
+0:01:29.781,000 --> 0:01:31,000
+C'est la manière dont nous l'avons construit qui l'est.
+
+33
+0:01:32.655,000 --> 0:01:34,000
+J'aimerais donc vous raconter comment tout ça a commencé.
+
+34
+0:01:35.636,000 --> 0:01:37,000
+Il y a quelques années de ça, mon ami Eric et moi
+
+35
+0:01:37.907,000 --> 0:01:39,000
+avons décidé d’explorer cette grotte sous-marine
+
+36
+0:01:40.107,000 --> 0:01:41,000
+dans les contreforts de la Sierra Nevada.
+
+37
+0:01:41.965,000 --> 0:01:42,000
+Nous avions entendu parler de cette histoire d'or perdu
+
+38
+0:01:43.868,000 --> 0:01:45,000
+de l'époque de la ruée vers l'or, et nous voulions aller là-haut.
+
+39
+0:01:46.386,000 --> 0:01:47,000
+Malheureusement, nous n'avions pas d'argent,
+
+40
+0:01:48.044,000 --> 0:01:49,000
+et nous n'avions aucun outil pour le faire.
+
+41
+0:01:49.867,000 --> 0:01:52,000
+Eric avait une idée de départ de la conception d'un robot
+
+42
+0:01:53.067,000 --> 0:01:55,000
+mais nous en ignorions les détails.
+
+43
+0:01:55.84,000 --> 0:01:57,000
+Donc nous avons fait ce que n'importe qui ferait dans notre situation :
+
+44
+0:01:58.052,000 --> 0:02:,000
+nous avons demandé l'aide d'internet.
+
+45
+0:02:00.09,000 --> 0:02:02,000
+Plus précisément, nous avons créé le site suivant,
+
+46
+0:02:02.622,000 --> 0:02:04,000
+openROV.com, et y avons partagé nos intentions et nos plans.
+
+47
+0:02:05.517,000 --> 0:02:07,000
+Les premiers mois, seul Eric et moi
+
+48
+0:02:07.907,000 --> 0:02:09,000
+alimentions les fils de discussions des forums.
+
+49
+0:02:10.437,000 --> 0:02:12,000
+Mais très vite, nous avons commencé à recevoir la contribution
+
+50
+0:02:12.525,000 --> 0:02:13,000
+de fabricants, d'amateurs,
+
+51
+0:02:14.368,000 --> 0:02:15,000
+et par la suite celle d'ingénieurs océaniques professionnels
+
+52
+0:02:16.362,000 --> 0:02:19,000
+qui avait quelques suggestions sur ce que nous devrions faire.
+
+53
+0:02:19.894,000 --> 0:02:2,000
+Nous avons continué à travailler dessus. Nous avons beaucoup appris.
+
+54
+0:02:21.658,000 --> 0:02:23,000
+Nous avons continué le prototypage, et finalement,
+
+55
+0:02:23.683,000 --> 0:02:25,000
+nous avons décidé que nous voulions aller à la grotte. Nous étions prêts.
+
+56
+0:02:26.402,000 --> 0:02:29,000
+À cette époque, notre petite expédition a commencé à faire parler d'elle
+
+57
+0:02:29.842,000 --> 0:02:31,000
+et elle a été rapportée dans le New York Times.
+
+58
+0:02:31.863,000 --> 0:02:32,000
+Nous étions simplement dépassés
+
+59
+0:02:33.675,000 --> 0:02:34,000
+par l'intérêt des gens qui voulaient un kit
+
+60
+0:02:35.458,000 --> 0:02:37,000
+pour pouvoir construire ce VST eux-mêmes.
+
+61
+0:02:37.979,000 --> 0:02:4,000

@@ -1,0 +1,740 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Guillaume Rouy Relecteur: Claire Ghyselen
+
+2
+0:00:12.917,000 --> 0:00:13,000
+Jouons ensemble.
+
+3
+0:00:14.695,000 --> 0:00:16,000
+Imaginez que vous êtes à Las Vegas
+
+4
+0:00:17.575,000 --> 0:00:18,000
+dans un casino.
+
+5
+0:00:18.97,000 --> 0:00:22,000
+Vous décidez de jouer à un jeu, sur un ordinateur du casino,
+
+6
+0:00:23.14,000 --> 0:00:25,000
+tout comme vous pourriez jouer au solitaire ou aux échecs.
+
+7
+0:00:26.49,000 --> 0:00:29,000
+L'ordinateur peut faire ses mouvements dans le jeu comme un joueur humain.
+
+8
+0:00:30.438,000 --> 0:00:31,000
+Ceci est un jeu de jetons.
+
+9
+0:00:32.732,000 --> 0:00:35,000
+On commence avec un jeton, côté face vers le haut,
+
+10
+0:00:35.811,000 --> 0:00:36,000
+et l'ordinateur joue en premier.
+
+11
+0:00:37.636,000 --> 0:00:39,000
+Il peut choisir, ou non, de tirer à pile ou face
+
+12
+0:00:40.516,000 --> 0:00:42,000
+mais vous ne pouvez pas connaître le résultat.
+
+13
+0:00:43.144,000 --> 0:00:44,000
+Maintenant, c'est à votre tour.
+
+14
+0:00:44.885,000 --> 0:00:46,000
+Vous pouvez aussi choisir de tirer à pile ou face, ou non,
+
+15
+0:00:47.728,000 --> 0:00:5,000
+et votre tour n'est pas révélé à votre adversaire, l'ordinateur.
+
+16
+0:00:51.737,000 --> 0:00:54,000
+Ensuite, l'ordinateur joue de nouveau et peut tirer à pile ou face, ou non.
+
+17
+0:00:55.76,000 --> 0:00:57,000
+Et après ces trois tours,
+
+18
+0:00:58.475,000 --> 0:00:59,000
+le jeton est dévoilé,
+
+19
+0:01:00.428,000 --> 0:01:02,000
+et si c'est face, l'ordinateur gagne,
+
+20
+0:01:03.26,000 --> 0:01:04,000
+si c'est pile, vous gagnez.
+
+21
+0:01:06.21,000 --> 0:01:07,000
+C'est donc un jeu plutôt simple
+
+22
+0:01:07.947,000 --> 0:01:1,000
+et si chacun joue honnêtement et que le jeton n'est pas truqué,
+
+23
+0:01:11.364,000 --> 0:01:14,000
+vous avez 50% de chances de gagner à ce jeu.
+
+24
+0:01:15.15,000 --> 0:01:17,000
+Pour confirmer ceci,
+
+25
+0:01:17.448,000 --> 0:01:2,000
+j'ai demandé à mes étudiants d'y jouer sur nos ordinateurs.
+
+26
+0:01:20.607,000 --> 0:01:21,000
+Après de très nombreux essais,
+
+27
+0:01:22.615,000 --> 0:01:26,000
+leur taux de victoire a fini par se rapprocher de 50%,
+
+28
+0:01:26.679,000 --> 0:01:27,000
+comme prévu.
+
+29
+0:01:28.354,000 --> 0:01:3,000
+Cela semble ennuyeux, comme jeu, non ?
+
+30
+0:01:30.414,000 --> 0:01:33,000
+Mais si l'on pouvait y jouer sur un ordinateur quantique ?
+
+31
+0:01:34.665,000 --> 0:01:37,000
+Les casinos de Las Vegas n'ont pas encore d'ordinateurs quantiques,
+
+32
+0:01:37.835,000 --> 0:01:38,000
+à ma connaissance,
+
+33
+0:01:39.534,000 --> 0:01:42,000
+mais IBM a construit un ordinateur quantique opérant.
+
+34
+0:01:42.994,000 --> 0:01:43,000
+Le voici.
+
+35
+0:01:44.525,000 --> 0:01:46,000
+Mais qu'est-ce qu'un ordinateur quantique ?
+
+36
+0:01:46.549,000 --> 0:01:48,000
+En fait, la physique quantique décrit
+
+37
+0:01:49.367,000 --> 0:01:52,000
+le comportement des atomes et des particules fondamentales,
+
+38
+0:01:53.161,000 --> 0:01:55,000
+comme les électrons et les photons.
+
+39
+0:01:55.668,000 --> 0:01:56,000
+Un ordinateur quantique fonctionne
+
+40
+0:01:57.416,000 --> 0:01:59,000
+en contrôlant le comportement de ces particules,
+
+41
+0:02:00.047,000 --> 0:02:03,000
+mais d'une manière totalement différente de nos ordinateurs habituels.
+
+42
+0:02:04.279,000 --> 0:02:07,000
+Un ordinateur quantique n'est donc pas uniquement une version plus puissante
+
+43
+0:02:08.199,000 --> 0:02:1,000
+de nos ordinateurs actuels,
+
+44
+0:02:10.328,000 --> 0:02:14,000
+de la même manière que l'ampoule n'est pas une bougie plus puissante.
+
+45
+0:02:14.359,000 --> 0:02:18,000
+On ne peut pas construire une ampoule en fabriquant de meilleures bougies.
+
+46
+0:02:19.048,000 --> 0:02:21,000
+L'ampoule est une technologie différente,
+
+47
+0:02:21.287,000 --> 0:02:23,000
+basée sur des connaissances scientifiques plus avancées.
+
+48
+0:02:23.965,000 --> 0:02:26,000
+De la même façon, un ordinateur quantique est un nouveau type d'instrument,
+
+49
+0:02:27.726,000 --> 0:02:29,000
+fondé sur la science de la physique quantique
+
+50
+0:02:30.499,000 --> 0:02:33,000
+et de la même manière que l'ampoule a transformé la société,
+
+51
+0:02:33.673,000 --> 0:02:35,000
+les ordinateurs quantiques ont le potentiel d'influencer
+
+52
+0:02:36.357,000 --> 0:02:37,000
+beaucoup d'aspects de notre vie,
+
+53
+0:02:38.258,000 --> 0:02:41,000
+y compris notre sécurité, nos services de santé et même l'Internet.
+
+54
+0:02:42.837,000 --> 0:02:46,000
+Des entreprises du monde entier cherchent à construire ces appareils
+
+55
+0:02:47.162,000 --> 0:02:49,000
+et pour comprendre leur engouement,
+
+56
+0:02:49.521,000 --> 0:02:51,000
+jouons à notre jeu sur un ordinateur quantique.
+
+57
+0:02:52.862,000 --> 0:02:56,000
+Je peux donc me connecter à l'ordinateur quantique d'IBM d'ici,
+
+58
+0:02:57.659,000 --> 0:02:59,000
+ce qui signifie que je peux jouer au jeu à distance
+
+59
+0:03:00.158,000 --> 0:03:01,000
+et par conséquent, vous aussi.
+
+60
+0:03:02.151,000 --> 0:03:07,000
+Pour réaliser cela, vous vous souvenez peut-être d'un courriel de TED
+
+61
+0:03:07.597,000 --> 0:03:1,000
+qui vous demandait si vous choisiriez de tirer à pile ou face, ou non,
+
+62
+0:03:11.346,000 --> 0:03:12,000
+si vous jouiez au jeu.
+
+63
+0:03:13.065,000 --> 0:03:17,000
+En réalité, nous vous avons demandé de choisir entre un cercle et un carré.
+
+64
+0:03:17.957,000 --> 0:03:2,000
+Vous ne le saviez pas, mais le cercle signifiait « tirer à pile ou face »
+
+65
+0:03:21.823,000 --> 0:03:23,000
+et le carré signifiait « ne pas lancer le jeton ».
+
+66
+0:03:24.723,000 --> 0:03:26,000
+Nous avons reçu 372 réponses.
+
+67
+0:03:27.588,000 --> 0:03:28,000
+Merci.
+
+68
+0:03:28.802,000 --> 0:03:32,000
+Cela signifie que nous pouvons jouer 372 parties contre l'ordinateur quantique
+
+69
+0:03:33.294,000 --> 0:03:34,000
+en utilisant vos décisions.
+
+70
+0:03:34.946,000 --> 0:03:36,000
+Et c'est un jeu plutôt rapide,
+
+71
+0:03:37.215,000 --> 0:03:39,000
+donc voici les résultats.
+
+72
+0:03:40.231,000 --> 0:03:42,000
+Malheureusement, vous n'avez pas brillé.
+
+73
+0:03:42.561,000 --> 0:03:44,000
+(Rires)
+
+74
+0:03:44.658,000 --> 0:03:47,000
+L'ordinateur quantique a gagné presque toutes les parties.
+
+75
+0:03:48.159,000 --> 0:03:51,000
+Il en a perdu quelques-unes à cause d'erreurs internes.
+
+76
+0:03:51.905,000 --> 0:03:52,000
+(Rires)
+
+77
+0:03:53.891,000 --> 0:03:56,000
+Alors comment a-t-il obtenu cette superbe série de victoires ?
+
+78
+0:03:58.224,000 --> 0:04:,000
+On dirait de la magie ou de la triche,
+
+79
+0:04:00.741,000 --> 0:04:03,000
+mais en fait, ce n'est rien que la physique quantique en action.
+
+80
+0:04:03.789,000 --> 0:04:04,000
+Voici comment cela fonctionne.
+
+81
+0:04:05.38,000 --> 0:04:1,000
+Un ordinateur habituel modélise le pile ou face sur un jeton par un bit,
+
+82
+0:04:10.856,000 --> 0:04:11,000
+soit un 0, soit un 1,
+
+83
+0:04:12.535,000 --> 0:04:15,000
+ou par un interrupteur on/off dans la puce de l'ordinateur.
+
+84
+0:04:16.439,000 --> 0:04:18,000
+Un ordinateur quantique est complètement différent.
+
+85
+0:04:19.25,000 --> 0:04:23,000
+Un bit quantique possède une identité plus fluide, non binaire.
+
+86
+0:04:24.511,000 --> 0:04:29,000
+Il peut être une superposition ou une combinaison de 0 et de 1,
+
+87
+0:04:30.377,000 --> 0:04:34,000
+avec une probabilité de valoir 0 et une probabilité de valoir 1.
+
+88
+0:04:35.545,000 --> 0:04:37,000
+En d'autres termes, son identité appartient à un spectre.
+
+89
+0:04:38.79,000 --> 0:04:41,000
+Par exemple, il pourrait avoir 70% de chances de valoir 0
+
+90
+0:04:42.617,000 --> 0:04:44,000
+et 30% de chances de valoir 1,
+
+91
+0:04:44.977,000 --> 0:04:48,000
+ou 80-20, ou 60-40.
+
+92
+0:04:49.016,000 --> 0:04:51,000
+Les possibilités sont innombrables.
+
+93
+0:04:51.653,000 --> 0:04:52,000
+L'idée fondamentale ici
+
+94
+0:04:53.043,000 --> 0:04:57,000
+est qu'il faut abandonner les valeurs précises que sont 0 et 1
+
+95
+0:04:57.287,000 --> 0:04:58,000
+et autoriser une incertitude.
+
+96
+0:04:59.737,000 --> 0:05:,000
+Durant la partie,
+
+97
+0:05:01.412,000 --> 0:05:05,000
+l'ordinateur quantique crée cette combinaison fluide de pile ou face,
+
+98
+0:05:06.183,000 --> 0:05:07,000
+de 0 et de 1,
+
+99
+0:05:07.358,000 --> 0:05:09,000
+de manière à ce que, quoi que le joueur fasse,
+
+100
+0:05:09.65,000 --> 0:05:1,000
+jeton lancé ou non,
+
+101
+0:05:10.862,000 --> 0:05:12,000
+la superposition demeure intacte.
+
+102
+0:05:13.83,000 --> 0:05:16,000
+C'est un peu comme remuer un mélange de deux fluides.
+
+103
+0:05:17.714,000 --> 0:05:21,000
+Que vous remuiez ou non, les fluides restent dans le mélange,
+
+104
+0:05:22.123,000 --> 0:05:24,000
+mais lors de son deuxième tour,
+
+105
+0:05:24.568,000 --> 0:05:27,000
+l'ordinateur peut rétablir le 0 ou le 1,
+
+106
+0:05:28.532,000 --> 0:05:31,000
+en rétablissant parfaitement le côté face, pour que vous perdiez à chaque fois.
+
+107
+0:05:32.294,000 --> 0:05:33,000
+(Rires)
+
+108
+0:05:34.267,000 --> 0:05:37,000
+Si vous pensez que tout cela est étrange, vous avez absolument raison.
+
+109
+0:05:38.608,000 --> 0:05:42,000
+Les jetons normaux n'existent pas comme combinaisons de pile ou face.
+
+110
+0:05:43.056,000 --> 0:05:47,000
+Nous ne vivons pas cette réalité quantique fluide
+
+111
+0:05:47.284,000 --> 0:05:48,000
+au quotidien.
+
+112
+0:05:49.247,000 --> 0:05:51,000
+Donc si le quantique vous embrouille,
+
+113
+0:05:51.525,000 --> 0:05:53,000
+ne vous inquiétez pas, c'est que vous comprenez.
+
+114
+0:05:53.801,000 --> 0:05:55,000
+(Rires)
+
+115
+0:05:56.643,000 --> 0:06:,000
+Néanmoins, même si l'on ne vit pas l'étrangeté quantique,
+
+116
+0:06:00.923,000 --> 0:06:03,000
+nous pouvons en observer les effets réels.
+
+117
+0:06:04.105,000 --> 0:06:05,000
+Vous avez vu les statistiques.
+
+118
+0:06:06.529,000 --> 0:06:07,000
+L'ordinateur quantique a gagné
+
+119
+0:06:08.014,000 --> 0:06:12,000
+car il a exploité la superposition et l'incertitude.
+
+120
+0:06:12.826,000 --> 0:06:14,000
+Et ces propriétés quantiques sont puissantes,
+
+121
+0:06:15.206,000 --> 0:06:17,000
+non seulement pour gagner aux jeux de jetons,
+
+122
+0:06:17.508,000 --> 0:06:2,000
+mais également pour construire les technologies quantiques futures.
+
+123
+0:06:21.15,000 --> 0:06:24,000
+Je vais vous donner trois exemples d'applications potentielles
+
+124
+0:06:24.69,000 --> 0:06:25,000
+qui pourraient bouleverser nos vies.
+
+125
+0:06:27.147,000 --> 0:06:32,000
+Tout d'abord, l'incertitude quantique pourrait servir à créer des clefs privées
+
+126
+0:06:32.472,000 --> 0:06:35,000
+pour chiffrer des messages envoyés d'un endroit à un autre
+
+127
+0:06:36.286,000 --> 0:06:41,000
+sans que les hackers puissent parfaitement copier la clef en secret,
+
+128
+0:06:41.439,000 --> 0:06:42,000
+à cause de l'incertitude quantique.
+
+129
+0:06:43.809,000 --> 0:06:46,000
+Ils auraient à briser les lois de la physique quantique
+
+130
+0:06:47.619,000 --> 0:06:48,000
+pour pirater la clef.
+
+131
+0:06:49.531,000 --> 0:06:53,000
+Ce type de chiffrement indéchiffrable est déjà testé par des banques
+
+132
+0:06:54.429,000 --> 0:06:56,000
+et d'autres institutions du monde entier.
+
+133
+0:06:57.357,000 --> 0:07:02,000
+De nos jours, plus de 17 milliards d'appareils sont connectés dans le monde.
+
+134
+0:07:03.619,000 --> 0:07:06,000
+Imaginez l'impact que ce chiffrage pourrait avoir plus tard.
+
+135
+0:07:08.171,000 --> 0:07:13,000
+Deuxièmement, les technologies quantiques pourraient aussi transformer la médecine.
+
+136
+0:07:14.427,000 --> 0:07:19,000
+Par exemple, la conception et l'analyse de molécules pour créer des médicaments
+
+137
+0:07:19.752,000 --> 0:07:21,000
+est un réel défi de nos jours
+
+138
+0:07:22.171,000 --> 0:07:26,000
+car décrire exactement et calculer
+
+139
+0:07:27.147,000 --> 0:07:31,000
+toutes les propriétés quantiques de tous les atomes d'une molécule
+
+140
+0:07:31.273,000 --> 0:07:34,000
+est une tâche informatiquement difficile, même pour nos superordinateurs.
+
+141
+0:07:35.42,000 --> 0:07:37,000
+Mais un ordinateur quantique pourrait mieux faire,
+
+142
+0:07:37.786,000 --> 0:07:4,000
+car il opère grâce aux mêmes propriétés quantiques
+
+143
+0:07:40.988,000 --> 0:07:42,000
+que celles de la molécule qu'il modélise.
+
+144
+0:07:43.564,000 --> 0:07:47,000
+A l'avenir, les modélisations quantiques à grande échelle de médicaments
+
+145
+0:07:48.365,000 --> 0:07:51,000
+pourraient aboutir à des traitements de maladies comme Alzheimer,
+
+146
+0:07:51.675,000 --> 0:07:53,000
+qui affecte des milliers de vies.
+
+147
+0:07:54.355,000 --> 0:07:57,000
+Et troisièmement, mon application quantique favorite
+
+148
+0:07:57.416,000 --> 0:08:01,000
+est la téléportation d'information d'un endroit à un autre
+
+149
+0:08:02.099,000 --> 0:08:05,000
+sans la transmettre physiquement.
+
+150
+0:08:05.847,000 --> 0:08:08,000
+Cela ressemble à de la science-fiction mais c'est possible,
+
+151
+0:08:09.3,000 --> 0:08:12,000
+car les identités fluides des particules quantiques
+
+152
+0:08:13.043,000 --> 0:08:16,000
+peuvent être enchevêtrées à travers l'espace-temps
+
+153
+0:08:16.425,000 --> 0:08:19,000
+de manière à ce qu'en changeant quelque chose sur une particule,
+
+154
+0:08:20.029,000 --> 0:08:21,000
+cela ait un impact sur l'autre
+
+155
+0:08:21.539,000 --> 0:08:23,000
+et cela ouvre la voie à la téléportation.
+
+156
+0:08:25.039,000 --> 0:08:27,000
+Cela a déjà été montré dans des labos de recherche
+
+157
+0:08:27.672,000 --> 0:08:29,000
+et pourrait faire partie d'un futur Internet quantique.
+
+158
+0:08:31.219,000 --> 0:08:34,000
+Nous n'avons pas encore de tel réseau
+
+159
+0:08:34.59,000 --> 0:08:36,000
+mais mon équipe travaille sur ces possibilités
+
+160
+0:08:37.518,000 --> 0:08:4,000
+en simulant un réseau quantique sur un ordinateur quantique.
+
+161
+0:08:42.052,000 --> 0:08:45,000
+Nous avons donc conçu et implémenté quelques nouveaux protocoles intéressants
+
+162
+0:08:46.074,000 --> 0:08:51,000
+comme la téléportation parmi différents utilisateurs du réseau,
+
+163
+0:08:51.78,000 --> 0:08:53,000
+une transmission de données efficace
+
+164
+0:08:54.026,000 --> 0:08:55,000
+et même un vote sécurisé.
+
+165
+0:08:56.502,000 --> 0:08:58,000
+Je m'amuse beaucoup en tant que physicienne du quantique.
+
+166
+0:08:59.405,000 --> 0:09:,000
+Je vous le recommande.
+
+167
+0:09:00.922,000 --> 0:09:01,000
+(Rires)
+
+168
+0:09:02.804,000 --> 0:09:05,000
+Nous sommes les explorateurs d'un pays des merveilles quantique.
+
+169
+0:09:05.865,000 --> 0:09:07,000
+Qui sait quelles applications nous découvrirons à l'avenir.
+
+170
+0:09:09.222,000 --> 0:09:11,000
+Nous devons avancer prudemment et de manière responsable
+
+171
+0:09:12.071,000 --> 0:09:13,000
+en construisant notre avenir quantique.
+
+172
+0:09:14.809,000 --> 0:09:15,000
+Et pour moi, personnellement,
+
+173
+0:09:16.631,000 --> 0:09:21,000
+la physique quantique n'est pas un outil pour fabriquer des ordinateurs quantiques.
+
+174
+0:09:22.124,000 --> 0:09:27,000
+Je vois ces ordinateurs comme une façon de sonder les mystères de la nature
+
+175
+0:09:27.282,000 --> 0:09:3,000
+et d'en révéler plus sur ce monde caché au-delà de ce que l'on vit.
+
+176
+0:09:31.218,000 --> 0:09:33,000
+Il est stupéfiant que nous, humains,
+
+177
+0:09:33.344,000 --> 0:09:35,000
+avec notre accès à l'univers relativement limité,
+
+178
+0:09:36.36,000 --> 0:09:38,000
+puissions tout de même voir au-delà de nos horizons
+
+179
+0:09:39.018,000 --> 0:09:41,000
+seulement grâce à notre imagination et notre ingéniosité.
+
+180
+0:09:42.211,000 --> 0:09:44,000
+Et l'univers nous récompense
+
+181
+0:09:44.552,000 --> 0:09:47,000
+en nous montrant à quel point il est intéressant et surprenant.
+
+182
+0:09:49.171,000 --> 0:09:52,000
+L'avenir est fondamentalement incertain,
+
+183
+0:09:52.571,000 --> 0:09:55,000
+et cela, à mes yeux, est certainement passionnant.
+
+184
+0:09:56.344,000 --> 0:09:57,000
+Merci.
+
+185
+0:09:57.519,000 --> 0:10:03,000
+(Applaudissements)
+

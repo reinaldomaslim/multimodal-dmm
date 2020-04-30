@@ -1,0 +1,532 @@
+1
+0:00:13.458,000 --> 0:00:16,000
+For the past 15 years I've been trying to change your mind.
+
+2
+0:00:17.917,000 --> 0:00:2,000
+In my work I harness pop culture and emerging technology
+
+3
+0:00:21.792,000 --> 0:00:22,000
+to shift cultural norms.
+
+4
+0:00:23.833,000 --> 0:00:26,000
+I've made video games to promote human rights,
+
+5
+0:00:27.542,000 --> 0:00:32,000
+I've made animations to raise awareness about unfair immigration laws
+
+6
+0:00:32.625,000 --> 0:00:36,000
+and I've even made location-based augmented reality apps
+
+7
+0:00:36.875,000 --> 0:00:38,000
+to change perceptions around homelessness
+
+8
+0:00:39.542,000 --> 0:00:4,000
+well before Pokémon Go.
+
+9
+0:00:41.5,000 --> 0:00:42,000
+(Laughter)
+
+10
+0:00:42.875,000 --> 0:00:46,000
+But then I began to wonder whether a game or an app
+
+11
+0:00:46.917,000 --> 0:00:48,000
+can really change attitudes and behaviors,
+
+12
+0:00:49.417,000 --> 0:00:52,000
+and if so, can I measure that change?
+
+13
+0:00:52.458,000 --> 0:00:54,000
+What's the science behind that process?
+
+14
+0:00:55.458,000 --> 0:00:58,000
+So I shifted my focus from making media and technology
+
+15
+0:00:59.208,000 --> 0:01:02,000
+to measuring their neurobiological effects.
+
+16
+0:01:03.458,000 --> 0:01:04,000
+Here's what I discovered.
+
+17
+0:01:05.333,000 --> 0:01:08,000
+The web, mobile devices, virtual and augmented reality
+
+18
+0:01:09.25,000 --> 0:01:11,000
+were rescripting our nervous systems.
+
+19
+0:01:11.958,000 --> 0:01:13,000
+And they were literally changing the structure of our brain.
+
+20
+0:01:15.875,000 --> 0:01:19,000
+The very technologies I had been using to positively influence hearts and minds
+
+21
+0:01:20.875,000 --> 0:01:24,000
+were actually eroding functions in the brain necessary for empathy
+
+22
+0:01:25.292,000 --> 0:01:26,000
+and decision-making.
+
+23
+0:01:27.167,000 --> 0:01:31,000
+In fact, our dependence upon the web and mobile devices
+
+24
+0:01:31.333,000 --> 0:01:35,000
+might be taking over our cognitive and affective faculties,
+
+25
+0:01:35.458,000 --> 0:01:38,000
+rendering us socially and emotionally incompetent,
+
+26
+0:01:39.042,000 --> 0:01:42,000
+and I felt complicit in this dehumanization.
+
+27
+0:01:43.292,000 --> 0:01:47,000
+I realized that before I could continue making media about social issues,
+
+28
+0:01:47.958,000 --> 0:01:51,000
+I needed to reverse engineer the harmful effects of technology.
+
+29
+0:01:52.917,000 --> 0:01:54,000
+To tackle this I asked myself,
+
+30
+0:01:55.708,000 --> 0:01:58,000
+"How can I translate the mechanisms of empathy,
+
+31
+0:01:59.125,000 --> 0:02:02,000
+the cognitive, affective and motivational aspects,
+
+32
+0:02:02.792,000 --> 0:02:05,000
+into an engine that simulates the narrative ingredients
+
+33
+0:02:06.042,000 --> 0:02:07,000
+that move us to act?"
+
+34
+0:02:08.583,000 --> 0:02:11,000
+To answer this, I had to build a machine.
+
+35
+0:02:12.542,000 --> 0:02:13,000
+(Laughter)
+
+36
+0:02:14.292,000 --> 0:02:16,000
+I've been developing an open-source biometric lab,
+
+37
+0:02:17.208,000 --> 0:02:2,000
+an AI system which I call the Limbic Lab.
+
+38
+0:02:20.708,000 --> 0:02:21,000
+The lab not only captures
+
+39
+0:02:22.167,000 --> 0:02:26,000
+the brain and body's unconscious response to media and technology
+
+40
+0:02:26.417,000 --> 0:02:28,000
+but also uses machine learning to adapt content
+
+41
+0:02:29.417,000 --> 0:02:31,000
+based on these biological responses.
+
+42
+0:02:32.667,000 --> 0:02:35,000
+My goal is to find out what combination of narrative ingredients
+
+43
+0:02:36.208,000 --> 0:02:38,000
+are the most appealing and galvanizing
+
+44
+0:02:38.375,000 --> 0:02:39,000
+to specific target audiences
+
+45
+0:02:40.208,000 --> 0:02:45,000
+to enable social justice, cultural and educational organizations
+
+46
+0:02:45.25,000 --> 0:02:47,000
+to create more effective media.
+
+47
+0:02:47.917,000 --> 0:02:49,000
+The Limbic Lab consists of two components:
+
+48
+0:02:50.792,000 --> 0:02:52,000
+a narrative engine and a media machine.
+
+49
+0:02:54.375,000 --> 0:02:58,000
+While a subject is viewing or interacting with media content,
+
+50
+0:02:58.625,000 --> 0:03:02,000
+the narrative engine takes in and syncs real-time data from brain waves,
+
+51
+0:03:02.833,000 --> 0:03:05,000
+biophysical data like heart rate, blood flow, body temperature
+
+52
+0:03:06.417,000 --> 0:03:07,000
+and muscle contraction,
+
+53
+0:03:08.125,000 --> 0:03:1,000
+as well as eye-tracking and facial expressions.
+
+54
+0:03:12.083,000 --> 0:03:15,000
+Data is captured at key places where critical plot points,
+
+55
+0:03:15.833,000 --> 0:03:18,000
+character interaction or unusual camera angles occur.
+
+56
+0:03:20.292,000 --> 0:03:22,000
+Like the final scene in "Game of Thrones, Red Wedding,"
+
+57
+0:03:23.042,000 --> 0:03:25,000
+when shockingly,
+
+58
+0:03:25.375,000 --> 0:03:26,000
+everybody dies.
+
+59
+0:03:26.958,000 --> 0:03:27,000
+(Laughter)
+
+60
+0:03:29.042,000 --> 0:03:32,000
+Survey data on that person's political beliefs,
+
+61
+0:03:32.25,000 --> 0:03:35,000
+along with their psychographic and demographic data,
+
+62
+0:03:35.417,000 --> 0:03:36,000
+are integrated into the system
+
+63
+0:03:37.208,000 --> 0:03:39,000
+to gain a deeper understanding of the individual.
+
+64
+0:03:40.833,000 --> 0:03:41,000
+Let me give you an example.
+
+65
+0:03:43.708,000 --> 0:03:47,000
+Matching people's TV preferences with their views on social justice issues
+
+66
+0:03:48.583,000 --> 0:03:52,000
+reveals that Americans who rank immigration among their top three concerns
+
+67
+0:03:52.875,000 --> 0:03:54,000
+are more likely to be fans of "The Walking Dead,"
+
+68
+0:03:56.958,000 --> 0:03:58,000
+and they often watch for the adrenaline boost,
+
+69
+0:03:59.792,000 --> 0:04:,000
+which is measurable.
+
+70
+0:04:01.792,000 --> 0:04:04,000
+A person's biological signature and their survey response
+
+71
+0:04:05.75,000 --> 0:04:09,000
+combines into a database to create their unique media imprint.
+
+72
+0:04:10.625,000 --> 0:04:14,000
+Then our predictive model finds patterns between media imprints
+
+73
+0:04:14.917,000 --> 0:04:15,000
+and tells me which narrative ingredients
+
+74
+0:04:16.917,000 --> 0:04:19,000
+are more likely to lead to engagement in altruistic behavior
+
+75
+0:04:20.708,000 --> 0:04:22,000
+rather than distress and apathy.
+
+76
+0:04:23.417,000 --> 0:04:25,000
+The more imprints added to the database
+
+77
+0:04:25.625,000 --> 0:04:28,000
+across mediums from episodic television to games,
+
+78
+0:04:28.875,000 --> 0:04:3,000
+the better the predictive models become.
+
+79
+0:04:32.417,000 --> 0:04:35,000
+In short, I am mapping the first media genome.
+
+80
+0:04:36.292,000 --> 0:04:39,000
+(Applause and cheers)
+
+81
+0:04:44.083,000 --> 0:04:47,000
+Whereas the human genome identifies all genes involved
+
+82
+0:04:47.292,000 --> 0:04:48,000
+in sequencing human DNA,
+
+83
+0:04:49.917,000 --> 0:04:52,000
+the growing database of media imprints will eventually allow me
+
+84
+0:04:53.167,000 --> 0:04:57,000
+to determine the media DNA for a specific person.
+
+85
+0:04:58.25,000 --> 0:05:,000
+Already the Limbic Lab's narrative engine
+
+86
+0:05:02.333,000 --> 0:05:04,000
+helps content creators refine their storytelling,
+
+87
+0:05:04.958,000 --> 0:05:08,000
+so that it resonates with their target audiences on an individual level.
+
+88
+0:05:11.042,000 --> 0:05:13,000
+The Limbic Lab's other component,
+
+89
+0:05:13.25,000 --> 0:05:14,000
+the media machine,
+
+90
+0:05:15.25,000 --> 0:05:19,000
+will assess how media elicits an emotional and physiological response,
+
+91
+0:05:19.75,000 --> 0:05:21,000
+then pulls scenes from a content library
+
+92
+0:05:22.208,000 --> 0:05:24,000
+targeted to person-specific media DNA.
+
+93
+0:05:26.042,000 --> 0:05:29,000
+Applying artificial intelligence to biometric data
+
+94
+0:05:29.958,000 --> 0:05:31,000
+creates a truly personalized experience.
+
+95
+0:05:32.708,000 --> 0:05:37,000
+One that adapts content based on real-time unconscious responses.
+
+96
+0:05:38.625,000 --> 0:05:44,000
+Imagine if nonprofits and media makers were able to measure how audiences feel
+
+97
+0:05:44.708,000 --> 0:05:45,000
+as they experience it
+
+98
+0:05:46.583,000 --> 0:05:48,000
+and alter content on the fly.
+
+99
+0:05:49,000 --> 0:05:52,000
+I believe this is the future of media.
+
+100
+0:05:53.333,000 --> 0:05:55,000
+To date, most media and social-change strategies
+
+101
+0:05:55.958,000 --> 0:05:57,000
+have attempted to appeal to mass audiences,
+
+102
+0:05:58.833,000 --> 0:06:01,000
+but the future is media customized for each person.
+
+103
+0:06:03.458,000 --> 0:06:05,000
+As real-time measurement of media consumption
+
+104
+0:06:06.167,000 --> 0:06:08,000
+and automated media production becomes the norm,
+
+105
+0:06:09.042,000 --> 0:06:13,000
+we will soon be consuming media tailored directly to our cravings
+
+106
+0:06:13.125,000 --> 0:06:17,000
+using a blend of psychographics, biometrics and AI.
+
+107
+0:06:18.25,000 --> 0:06:21,000
+It's like personalized medicine based on our DNA.
+
+108
+0:06:21.833,000 --> 0:06:23,000
+I call it "biomedia."
+
+109
+0:06:25.042,000 --> 0:06:28,000
+I am currently testing the Limbic Lab in a pilot study
+
+110
+0:06:28.333,000 --> 0:06:3,000
+with the Norman Lear Center,
+
+111
+0:06:30.375,000 --> 0:06:33,000
+which looks at the top 50 episodic television shows.
+
+112
+0:06:34.125,000 --> 0:06:37,000
+But I am grappling with an ethical dilemma.
+
+113
+0:06:37.167,000 --> 0:06:4,000
+If I design a tool that can be turned into a weapon,
+
+114
+0:06:41.042,000 --> 0:06:42,000
+should I build it?
+
+115
+0:06:43.75,000 --> 0:06:46,000
+By open-sourcing the lab to encourage access and inclusivity,
+
+116
+0:06:47.417,000 --> 0:06:5,000
+I also run the risk of enabling powerful governments
+
+117
+0:06:50.875,000 --> 0:06:52,000
+and profit-driven companies to appropriate the platform
+
+118
+0:06:53.833,000 --> 0:06:57,000
+for fake news, marketing or other forms of mass persuasion.
+
+119
+0:06:59.375,000 --> 0:07:02,000
+For me, therefore, it is critical to make my research
+
+120
+0:07:02.75,000 --> 0:07:05,000
+as transparent to lay audiences as GMO labels.
+
+121
+0:07:07.333,000 --> 0:07:09,000
+However, this is not enough.
+
+122
+0:07:11.208,000 --> 0:07:12,000
+As creative technologists,
+
+123
+0:07:12.875,000 --> 0:07:14,000
+we have a responsibility
+
+124
+0:07:15.125,000 --> 0:07:19,000
+not only to reflect upon how present technology shapes our cultural values
+
+125
+0:07:19.917,000 --> 0:07:21,000
+and social behavior,
+
+126
+0:07:21.958,000 --> 0:07:25,000
+but also to actively challenge the trajectory of future technology.
+
+127
+0:07:26.917,000 --> 0:07:3,000
+It is my hope that we make an ethical commitment
+
+128
+0:07:31,000 --> 0:07:33,000
+to harvesting the body's intelligence
+
+129
+0:07:33.375,000 --> 0:07:36,000
+for the creation of authentic and just stories
+
+130
+0:07:36.833,000 --> 0:07:38,000
+that transform media and technology
+
+131
+0:07:39.25,000 --> 0:07:42,000
+from harmful weapons into narrative medicine.
+
+132
+0:07:42.75,000 --> 0:07:43,000
+Thank you.
+
+133
+0:07:44.042,000 --> 0:07:46,000
+(Applause and cheers)
+

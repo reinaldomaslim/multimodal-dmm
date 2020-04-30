@@ -1,0 +1,548 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Morgane Quilfen Relecteur: Claire Ghyselen
+
+2
+0:00:12.203,000 --> 0:00:13,000
+Greg Gage : Lire dans les esprits.
+
+3
+0:00:13.872,000 --> 0:00:16,000
+Vous l'avez vu dans la SF : des machines pouvant lire nos pensées.
+
+4
+0:00:16.967,000 --> 0:00:17,000
+Il y a actuellement des appareils
+
+5
+0:00:18.789,000 --> 0:00:2,000
+pouvant lire l'activité électrique de notre cerveau.
+
+6
+0:00:21.337,000 --> 0:00:22,000
+Cela s'appelle l'EEG.
+
+7
+0:00:23.695,000 --> 0:00:25,000
+Y a-t-il des informations dans ces ondes cérébrales ?
+
+8
+0:00:26.548,000 --> 0:00:28,000
+Pourrions-nous entraîner un ordinateur à lire nos pensées ?
+
+9
+0:00:29.385,000 --> 0:00:31,000
+Mon pote Nathan a travaillé à décoder l'EEG
+
+10
+0:00:32.289,000 --> 0:00:34,000
+pour élaborer une machine qui lise les pensées.
+
+11
+0:00:34.483,000 --> 0:00:35,000
+[De la neuroscience à faire soi-même]
+
+12
+0:00:36.939,000 --> 0:00:37,000
+Voici comment l'EEG fonctionne.
+
+13
+0:00:38.524,000 --> 0:00:39,000
+Dans votre tête, il y a un cerveau
+
+14
+0:00:40.392,000 --> 0:00:42,000
+et ce cerveau est formé de milliards de neurones.
+
+15
+0:00:42.974,000 --> 0:00:45,000
+Chacun de ces neurones envoie un message électrique à un autre.
+
+16
+0:00:46.005,000 --> 0:00:48,000
+Ces petits messages peuvent se combiner en une onde électrique
+
+17
+0:00:48.933,000 --> 0:00:49,000
+détectable sur un moniteur.
+
+18
+0:00:50.437,000 --> 0:00:52,000
+Traditionnellement, l'EEG nous dit des choses à grande échelle
+
+19
+0:00:53.375,000 --> 0:00:55,000
+comme si vous dormez ou si vous êtes éveillé.
+
+20
+0:00:55.559,000 --> 0:00:56,000
+Peut-il nous dire autre chose ?
+
+21
+0:00:57.177,000 --> 0:00:58,000
+Peut-il lire nos pensées ?
+
+22
+0:00:58.903,000 --> 0:00:59,000
+Nous allons tester cela
+
+23
+0:01:00.146,000 --> 0:01:02,000
+et nous n'allons pas commencer par des pensées complexes.
+
+24
+0:01:02.833,000 --> 0:01:03,000
+Nous allons faire une chose très simple.
+
+25
+0:01:04.794,000 --> 0:01:07,000
+Pouvons interpréter ce que quelqu'un voit avec ces ondes cérébrales ?
+
+26
+0:01:08.047,000 --> 0:01:11,000
+Nathan va commencer par placer les électrodes sur la tête de Christy.
+
+27
+0:01:11.295,000 --> 0:01:12,000
+Nathan : Ma vie est enchevêtrée.
+
+28
+0:01:12.862,000 --> 0:01:12,000
+(Rires)
+
+29
+0:01:14.152,000 --> 0:01:16,000
+GG : Puis il va lui montrer quelques images
+
+30
+0:01:16.76,000 --> 0:01:17,000
+de quatre catégories différentes.
+
+31
+0:01:18.355,000 --> 0:01:2,000
+Nathan : Visage, maison, paysage et images bizarres.
+
+32
+0:01:20.983,000 --> 0:01:22,000
+GG : En montrant des centaines de ces images à Christy,
+
+33
+0:01:23.575,000 --> 0:01:26,000
+nous enregistrons les ondes électriques sur l'ordinateur de Nathan.
+
+34
+0:01:27.072,000 --> 0:01:3,000
+Nous voulons essayer de détecter une information visuelle sur les photos
+
+35
+0:01:30.562,000 --> 0:01:31,000
+dans les ondes cérébrales.
+
+36
+0:01:31.858,000 --> 0:01:32,000
+Quand nous aurons fini,
+
+37
+0:01:33.079,000 --> 0:01:36,000
+nous verrons si l'EEG peut nous dire quel genre d'image Christy regarde
+
+38
+0:01:36.835,000 --> 0:01:39,000
+et si oui, chaque catégorie devrait entraîner un signal cérébral différent.
+
+39
+0:01:40.443,000 --> 0:01:42,000
+Nous avons collecté les données brutes de l'EEG
+
+40
+0:01:43.095,000 --> 0:01:44,000
+et voici ce que nous avons obtenu.
+
+41
+0:01:45.389,000 --> 0:01:47,000
+Tout cela est confus, organisons cela par image.
+
+42
+0:01:48.826,000 --> 0:01:5,000
+Toujours un peu trop embrouillé pour voir des différences
+
+43
+0:01:51.506,000 --> 0:01:54,000
+mais si nous faisons la moyenne de l'EEG sur les types d'images
+
+44
+0:01:54.57,000 --> 0:01:56,000
+en les alignant à la première apparition de l'image,
+
+45
+0:01:57.03,000 --> 0:01:58,000
+nous pouvons ôter ce bruit
+
+46
+0:01:58.671,000 --> 0:02:,000
+et vite, nous pouvons voir des tendances dominantes
+
+47
+0:02:01.069,000 --> 0:02:02,000
+émerger pour chaque catégorie.
+
+48
+0:02:02.617,000 --> 0:02:04,000
+Les signaux semblent tous similaires.
+
+49
+0:02:04.797,000 --> 0:02:05,000
+Regardons-y de plus près.
+
+50
+0:02:06.036,000 --> 0:02:08,000
+Environ 100 millisecondes après l'apparition de l'image,
+
+51
+0:02:08.665,000 --> 0:02:1,000
+nous voyons un pic positif dans les quatre cas
+
+52
+0:02:11.237,000 --> 0:02:12,000
+que nous appelons le P100
+
+53
+0:02:12.808,000 --> 0:02:14,000
+et nous pensons que c'est ce qui arrive dans votre cerveau
+
+54
+0:02:15.519,000 --> 0:02:16,000
+quand vous reconnaissez un objet.
+
+55
+0:02:17.149,000 --> 0:02:2,000
+Regardez ce signal pour le visage : il semble différent des autres.
+
+56
+0:02:20.994,000 --> 0:02:22,000
+Il y a une chute négative environ 170 millisecondes
+
+57
+0:02:23.908,000 --> 0:02:24,000
+après l'apparition de l'image.
+
+58
+0:02:25.472,000 --> 0:02:26,000
+Que se passe-t-il là ?
+
+59
+0:02:27.246,000 --> 0:02:28,000
+La recherche montre que notre cerveau
+
+60
+0:02:29.028,000 --> 0:02:32,000
+a beaucoup de neurones dédiés à la reconnaissance des visages humains
+
+61
+0:02:32.273,000 --> 0:02:33,000
+donc ce pic N170 pourrait être
+
+62
+0:02:33.711,000 --> 0:02:36,000
+tous ces neurones s'activant en même temps au même endroit
+
+63
+0:02:36.87,000 --> 0:02:37,000
+et nous le détectons via l'EEG.
+
+64
+0:02:39.083,000 --> 0:02:4,000
+Il y a deux choses à retenir.
+
+65
+0:02:40.927,000 --> 0:02:42,000
+Un : nos yeux ne peuvent pas détecter les différences de motifs
+
+66
+0:02:43.912,000 --> 0:02:45,000
+sans faire la moyenne et éliminer le bruit.
+
+67
+0:02:45.921,000 --> 0:02:46,000
+Deux : même après avoir éliminé le bruit,
+
+68
+0:02:47.892,000 --> 0:02:5,000
+nos yeux ne peuvent détecter que les signaux associés à des visages.
+
+69
+0:02:51.077,000 --> 0:02:53,000
+On se tourne alors vers l'apprentissage automatique.
+
+70
+0:02:53.509,000 --> 0:02:54,000
+Nos yeux ne sont pas bons
+
+71
+0:02:54.709,000 --> 0:02:56,000
+pour déceler des tendances dans des données indémêlables,
+
+72
+0:02:57.379,000 --> 0:03:,000
+mais les algorithmes d'apprentissage automatique sont faits pour.
+
+73
+0:03:00.429,000 --> 0:03:02,000
+Pourrions-nous prendre beaucoup d'images et de données,
+
+74
+0:03:03.404,000 --> 0:03:04,000
+les introduire et entraîner un ordinateur
+
+75
+0:03:05.368,000 --> 0:03:08,000
+pour qu'il puisse interpréter ce que Christy regarde en temps réel ?
+
+76
+0:03:09.088,000 --> 0:03:13,000
+Nous essayons de coder les informations issues de son EEG
+
+77
+0:03:13.229,000 --> 0:03:14,000
+en temps réel
+
+78
+0:03:14.428,000 --> 0:03:16,000
+et de prédire ce que ses yeux regardent.
+
+79
+0:03:16.913,000 --> 0:03:17,000
+Si cela fonctionne, nous devrions voir
+
+80
+0:03:18.734,000 --> 0:03:2,000
+qu'à chaque fois qu'elle a une photo de paysage,
+
+81
+0:03:21.069,000 --> 0:03:23,000
+cela indiquerait que c'est un paysage.
+
+82
+0:03:23.379,000 --> 0:03:24,000
+Un visage -- cela indiquerait « visage »,
+
+83
+0:03:25.36,000 --> 0:03:28,000
+mais cela ne fonctionne pas ainsi, comme nous le découvrons.
+
+84
+0:03:33.385,000 --> 0:03:36,000
+(Rires)
+
+85
+0:03:36.957,000 --> 0:03:37,000
+D'accord.
+
+86
+0:03:38.132,000 --> 0:03:41,000
+Réalisateur : Que se passe-t-il ? GG : Il nous faut changer de métier.
+
+87
+0:03:41.538,000 --> 0:03:42,000
+(Rires)
+
+88
+0:03:42.632,000 --> 0:03:44,000
+C'était un échec cuisant.
+
+89
+0:03:45.1,000 --> 0:03:48,000
+Mais restons curieux : jusqu'où cette technologie peut-elle aller ?
+
+90
+0:03:48.336,000 --> 0:03:49,000
+Nous avons reconsidéré ce qui était fait.
+
+91
+0:03:50.29,000 --> 0:03:52,000
+Les données arrivaient très vite sur notre ordinateur,
+
+92
+0:03:53.167,000 --> 0:03:55,000
+sans savoir quand l'image était apparue,
+
+93
+0:03:55.432,000 --> 0:03:57,000
+et c'est l'équivalent de la lecture d'une très longue phrase
+
+94
+0:03:58.332,000 --> 0:03:59,000
+sans espace entre les mots.
+
+95
+0:03:59.961,000 --> 0:04:,000
+Ce serait difficile à lire,
+
+96
+0:04:01.423,000 --> 0:04:04,000
+mais une fois les espaces ajoutés, les mots apparaissent
+
+97
+0:04:05.16,000 --> 0:04:07,000
+et cela devient bien plus compréhensible.
+
+98
+0:04:07.228,000 --> 0:04:08,000
+Et si nous trichions un peu ?
+
+99
+0:04:09.099,000 --> 0:04:12,000
+Avec un capteur, nous pouvons dire à l'ordinateur quand l'image apparaît.
+
+100
+0:04:12.66,000 --> 0:04:15,000
+Ainsi, l'onde cérébrale n'est plus un flux continu d'informations
+
+101
+0:04:16.286,000 --> 0:04:18,000
+et devient des paquets individuels emplis de sens.
+
+102
+0:04:19.021,000 --> 0:04:21,000
+Nous allons tricher un peu plus
+
+103
+0:04:21.413,000 --> 0:04:22,000
+en nous limitant à deux catégories.
+
+104
+0:04:23.249,000 --> 0:04:25,000
+Voyons si nous pouvons lire un esprit en temps réel.
+
+105
+0:04:25.736,000 --> 0:04:26,000
+Durant cette expérience,
+
+106
+0:04:26.915,000 --> 0:04:3,000
+nous allons restreindre cela un peu pour savoir quand l'image apparaît
+
+107
+0:04:31.312,000 --> 0:04:34,000
+et nous allons limiter les catégories à un visage ou un paysage.
+
+108
+0:04:35.097,000 --> 0:04:36,000
+Nathan : Visage. Correct.
+
+109
+0:04:37.78,000 --> 0:04:38,000
+Paysage. Correct.
+
+110
+0:04:40.251,000 --> 0:04:42,000
+GG : A chaque fois qu'une image apparaît,
+
+111
+0:04:42.648,000 --> 0:04:44,000
+nous prenons une photo à l'apparition de l'image
+
+112
+0:04:44.938,000 --> 0:04:45,000
+et nous décodons l'EEG.
+
+113
+0:04:46.657,000 --> 0:04:47,000
+Le résultat est correct.
+
+114
+0:04:47.937,000 --> 0:04:48,000
+Nathan : Oui. Visage. Correct.
+
+115
+0:04:49.54,000 --> 0:04:51,000
+GG : Il y a des informations dans le signal EEG, cool.
+
+116
+0:04:52.423,000 --> 0:04:54,000
+Nous devions juste l'aligner à l'apparition de l'image.
+
+117
+0:04:55.307,000 --> 0:04:56,000
+Nathan : Paysage. Correct.
+
+118
+0:04:59.344,000 --> 0:05:,000
+Visage. Oui.
+
+119
+0:05:00.518,000 --> 0:05:02,000
+GG : Cela signifie qu'il y a là des informations
+
+120
+0:05:02.83,000 --> 0:05:04,000
+donc si nous savons à quel moment l'image est apparue,
+
+121
+0:05:05.767,000 --> 0:05:06,000
+nous pouvons déterminer le type d'image
+
+122
+0:05:07.79,000 --> 0:05:12,000
+possiblement, au moins avec la moyenne, en regardant les potentiels évoqués.
+
+123
+0:05:12.91,000 --> 0:05:13,000
+Nathan : Exactement.
+
+124
+0:05:14.259,000 --> 0:05:17,000
+GG : Si vous m'aviez dit au début de ce projet que cela était possible,
+
+125
+0:05:17.804,000 --> 0:05:18,000
+je n'y aurais pas cru.
+
+126
+0:05:19.079,000 --> 0:05:21,000
+Je ne pensais pas que nous le pouvions.
+
+127
+0:05:21.103,000 --> 0:05:23,000
+Notre lecture des pensées a-t-elle fonctionné ?
+
+128
+0:05:23.333,000 --> 0:05:24,000
+Oui, mais nous avons dû tricher.
+
+129
+0:05:25.192,000 --> 0:05:27,000
+Vous pouvez trouver des choses intéressantes dans l'EEG,
+
+130
+0:05:28.121,000 --> 0:05:3,000
+comme le fait que vous regardiez un visage,
+
+131
+0:05:30.435,000 --> 0:05:32,000
+mais cela a de nombreuses limites.
+
+132
+0:05:32.616,000 --> 0:05:35,000
+Peut-être qu'il y aura de gros progrès en apprentissage automatique
+
+133
+0:05:35.756,000 --> 0:05:38,000
+et qu'un jour nous pourrons décoder ce qu'il se passe dans vos pensées.
+
+134
+0:05:39.09,000 --> 0:05:4,000
+Pour l'instant, la prochaine fois
+
+135
+0:05:40.731,000 --> 0:05:42,000
+qu'une entreprise dit capter vos ondes cérébrales
+
+136
+0:05:43.101,000 --> 0:05:44,000
+pour contrôler des appareils,
+
+137
+0:05:44.875,000 --> 0:05:47,000
+c'est votre droit, c'est votre devoir, d'être sceptique.
+

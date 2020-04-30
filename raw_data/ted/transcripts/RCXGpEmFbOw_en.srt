@@ -1,0 +1,592 @@
+1
+0:00:12.92,000 --> 0:00:13,000
+What started as a platform for hobbyists
+
+2
+0:00:14.92,000 --> 0:00:16,000
+is poised to become a multibillion-dollar industry.
+
+3
+0:00:17.88,000 --> 0:00:21,000
+Inspection, environmental monitoring, photography and film and journalism:
+
+4
+0:00:21.96,000 --> 0:00:24,000
+these are some of the potential applications for commercial drones,
+
+5
+0:00:25.16,000 --> 0:00:27,000
+and their enablers are the capabilities being developed
+
+6
+0:00:27.8,000 --> 0:00:28,000
+at research facilities around the world.
+
+7
+0:00:29.76,000 --> 0:00:31,000
+For example, before aerial package delivery
+
+8
+0:00:32.4,000 --> 0:00:33,000
+entered our social consciousness,
+
+9
+0:00:34.24,000 --> 0:00:37,000
+an autonomous fleet of flying machines built a six-meter-tall tower
+
+10
+0:00:38.24,000 --> 0:00:39,000
+composed of 1,500 bricks
+
+11
+0:00:40.2,000 --> 0:00:42,000
+in front of a live audience at the FRAC Centre in France,
+
+12
+0:00:43.16,000 --> 0:00:45,000
+and several years ago, they started to fly with ropes.
+
+13
+0:00:45.76,000 --> 0:00:46,000
+By tethering flying machines,
+
+14
+0:00:47.2,000 --> 0:00:5,000
+they can achieve high speeds and accelerations in very tight spaces.
+
+15
+0:00:51,000 --> 0:00:54,000
+They can also autonomously build tensile structures.
+
+16
+0:00:54.12,000 --> 0:00:56,000
+Skills learned include how to carry loads,
+
+17
+0:00:56.56,000 --> 0:00:57,000
+how to cope with disturbances,
+
+18
+0:00:58.04,000 --> 0:01:01,000
+and in general, how to interact with the physical world.
+
+19
+0:01:01.16,000 --> 0:01:04,000
+Today we want to show you some new projects that we've been working on.
+
+20
+0:01:04.52,000 --> 0:01:06,000
+Their aim is to push the boundary of what can be achieved
+
+21
+0:01:07.48,000 --> 0:01:08,000
+with autonomous flight.
+
+22
+0:01:09.04,000 --> 0:01:11,000
+Now, for a system to function autonomously,
+
+23
+0:01:11.52,000 --> 0:01:15,000
+it must collectively know the location of its mobile objects in space.
+
+24
+0:01:16,000 --> 0:01:17,000
+Back at our lab at ETH Zurich,
+
+25
+0:01:17.92,000 --> 0:01:19,000
+we often use external cameras to locate objects,
+
+26
+0:01:20.8,000 --> 0:01:21,000
+which then allows us to focus our efforts
+
+27
+0:01:22.8,000 --> 0:01:24,000
+on the rapid development of highly dynamic tasks.
+
+28
+0:01:25.48,000 --> 0:01:27,000
+For the demos you will see today, however,
+
+29
+0:01:27.56,000 --> 0:01:3,000
+we will use new localization technology developed by Verity Studios,
+
+30
+0:01:30.88,000 --> 0:01:31,000
+a spin-off from our lab.
+
+31
+0:01:32.52,000 --> 0:01:33,000
+There are no external cameras.
+
+32
+0:01:34.16,000 --> 0:01:39,000
+Each flying machine uses onboard sensors to determine its location in space
+
+33
+0:01:39.24,000 --> 0:01:42,000
+and onboard computation to determine what its actions should be.
+
+34
+0:01:43.28,000 --> 0:01:45,000
+The only external commands are high-level ones
+
+35
+0:01:45.48,000 --> 0:01:46,000
+such as "take off" and "land."
+
+36
+0:02:10.56,000 --> 0:02:11,000
+This is a so-called tail-sitter.
+
+37
+0:02:12.48,000 --> 0:02:15,000
+It's an aircraft that tries to have its cake and eat it.
+
+38
+0:02:15.96,000 --> 0:02:18,000
+Like other fixed-wing aircraft, it is efficient in forward flight,
+
+39
+0:02:19.24,000 --> 0:02:22,000
+much more so than helicopters and variations thereof.
+
+40
+0:02:22.479,000 --> 0:02:24,000
+Unlike most other fixed-wing aircraft, however,
+
+41
+0:02:24.92,000 --> 0:02:25,000
+it is capable of hovering,
+
+42
+0:02:26.44,000 --> 0:02:29,000
+which has huge advantages for takeoff, landing
+
+43
+0:02:29.6,000 --> 0:02:3,000
+and general versatility.
+
+44
+0:02:31.48,000 --> 0:02:33,000
+There is no free lunch, unfortunately.
+
+45
+0:02:33.6,000 --> 0:02:34,000
+One of the limitations with tail-sitters
+
+46
+0:02:35.56,000 --> 0:02:37,000
+is that they're susceptible to disturbances such as wind gusts.
+
+47
+0:02:38.56,000 --> 0:02:4,000
+We're developing new control architectures and algorithms
+
+48
+0:02:41.28,000 --> 0:02:42,000
+that address this limitation.
+
+49
+0:02:50.56,000 --> 0:02:52,000
+The idea is for the aircraft to recover
+
+50
+0:02:52.84,000 --> 0:02:54,000
+no matter what state it finds itself in,
+
+51
+0:03:03.4,000 --> 0:03:05,000
+and through practice, improve its performance over time.
+
+52
+0:03:15.6,000 --> 0:03:19,000
+(Applause)
+
+53
+0:03:22,000 --> 0:03:23,000
+OK.
+
+54
+0:03:33.48,000 --> 0:03:34,000
+When doing research,
+
+55
+0:03:34.72,000 --> 0:03:36,000
+we often ask ourselves fundamental abstract questions
+
+56
+0:03:37.72,000 --> 0:03:39,000
+that try to get at the heart of a matter.
+
+57
+0:03:41.24,000 --> 0:03:43,000
+For example, one such question would be,
+
+58
+0:03:43.48,000 --> 0:03:47,000
+what is the minimum number of moving parts needed for controlled flight?
+
+59
+0:03:47.52,000 --> 0:03:48,000
+Now, there are practical reasons
+
+60
+0:03:49.12,000 --> 0:03:51,000
+why you may want to know the answer to such a question.
+
+61
+0:03:51.76,000 --> 0:03:52,000
+Helicopters, for example,
+
+62
+0:03:53.04,000 --> 0:03:56,000
+are affectionately known as machines with a thousand moving parts
+
+63
+0:03:56.92,000 --> 0:03:58,000
+all conspiring to do you bodily harm.
+
+64
+0:04:00.64,000 --> 0:04:01,000
+It turns out that decades ago,
+
+65
+0:04:02.52,000 --> 0:04:05,000
+skilled pilots were able to fly remote-controlled aircraft
+
+66
+0:04:05.72,000 --> 0:04:06,000
+that had only two moving parts:
+
+67
+0:04:07.64,000 --> 0:04:08,000
+a propeller and a tail rudder.
+
+68
+0:04:1,000 --> 0:04:13,000
+We recently discovered that it could be done with just one.
+
+69
+0:04:13.6,000 --> 0:04:14,000
+This is the monospinner,
+
+70
+0:04:14.88,000 --> 0:04:17,000
+the world's mechanically simplest controllable flying machine,
+
+71
+0:04:18.16,000 --> 0:04:19,000
+invented just a few months ago.
+
+72
+0:04:19.96,000 --> 0:04:22,000
+It has only one moving part, a propeller.
+
+73
+0:04:23.12,000 --> 0:04:26,000
+It has no flaps, no hinges, no ailerons,
+
+74
+0:04:26.72,000 --> 0:04:28,000
+no other actuators, no other control surfaces,
+
+75
+0:04:29.279,000 --> 0:04:3,000
+just a simple propeller.
+
+76
+0:04:31.32,000 --> 0:04:33,000
+Even though it's mechanically simple,
+
+77
+0:04:33.399,000 --> 0:04:35,000
+there's a lot going on in its little electronic brain
+
+78
+0:04:35.92,000 --> 0:04:39,000
+to allow it to fly in a stable fashion and to move anywhere it wants in space.
+
+79
+0:04:40.16,000 --> 0:04:41,000
+Even so, it doesn't yet have
+
+80
+0:04:41.64,000 --> 0:04:43,000
+the sophisticated algorithms of the tail-sitter,
+
+81
+0:04:44,000 --> 0:04:46,000
+which means that in order to get it to fly,
+
+82
+0:04:46.024,000 --> 0:04:47,000
+I have to throw it just right.
+
+83
+0:04:48.8,000 --> 0:04:52,000
+And because the probability of me throwing it just right is very low,
+
+84
+0:04:52.84,000 --> 0:04:53,000
+given everybody watching me,
+
+85
+0:04:54.76,000 --> 0:04:55,000
+what we're going to do instead
+
+86
+0:04:56.24,000 --> 0:04:58,000
+is show you a video that we shot last night.
+
+87
+0:04:58.44,000 --> 0:04:59,000
+(Laughter)
+
+88
+0:05:10.32,000 --> 0:05:13,000
+(Applause)
+
+89
+0:05:23.08,000 --> 0:05:26,000
+If the monospinner is an exercise in frugality,
+
+90
+0:05:26.84,000 --> 0:05:29,000
+this machine here, the omnicopter, with its eight propellers,
+
+91
+0:05:30.32,000 --> 0:05:32,000
+is an exercise in excess.
+
+92
+0:05:32.92,000 --> 0:05:34,000
+What can you do with all this surplus?
+
+93
+0:05:35.08,000 --> 0:05:37,000
+The thing to notice is that it is highly symmetric.
+
+94
+0:05:37.92,000 --> 0:05:39,000
+As a result, it is ambivalent to orientation.
+
+95
+0:05:40.8,000 --> 0:05:42,000
+This gives it an extraordinary capability.
+
+96
+0:05:43.52,000 --> 0:05:45,000
+It can move anywhere it wants in space
+
+97
+0:05:45.76,000 --> 0:05:47,000
+irrespective of where it is facing
+
+98
+0:05:48.52,000 --> 0:05:49,000
+and even of how it is rotating.
+
+99
+0:05:51.04,000 --> 0:05:52,000
+It has its own complexities,
+
+100
+0:05:52.44,000 --> 0:05:54,000
+mainly having to do with the interacting flows
+
+101
+0:05:55.12,000 --> 0:05:56,000
+from its eight propellers.
+
+102
+0:05:56.68,000 --> 0:05:59,000
+Some of this can be modeled, while the rest can be learned on the fly.
+
+103
+0:06:00.56,000 --> 0:06:01,000
+Let's take a look.
+
+104
+0:06:44.76,000 --> 0:06:47,000
+(Applause)
+
+105
+0:06:52.72,000 --> 0:06:54,000
+If flying machines are going to enter part of our daily lives,
+
+106
+0:06:55.649,000 --> 0:06:57,000
+they will need to become extremely safe and reliable.
+
+107
+0:06:58.76,000 --> 0:06:59,000
+This machine over here
+
+108
+0:07:00.16,000 --> 0:07:03,000
+is actually two separate two-propeller flying machines.
+
+109
+0:07:03.32,000 --> 0:07:04,000
+This one wants to spin clockwise.
+
+110
+0:07:05.08,000 --> 0:07:07,000
+This other one wants to spin counterclockwise.
+
+111
+0:07:07.6,000 --> 0:07:08,000
+When you put them together,
+
+112
+0:07:08.96,000 --> 0:07:1,000
+they behave like one high-performance quadrocopter.
+
+113
+0:07:23.64,000 --> 0:07:24,000
+If anything goes wrong, however --
+
+114
+0:07:25.32,000 --> 0:07:29,000
+a motor fails, a propeller fails, electronics, even a battery pack --
+
+115
+0:07:29.8,000 --> 0:07:32,000
+the machine can still fly, albeit in a degraded fashion.
+
+116
+0:07:33.16,000 --> 0:07:36,000
+We're going to demonstrate this to you now by disabling one of its halves.
+
+117
+0:07:56.24,000 --> 0:07:59,000
+(Applause)
+
+118
+0:08:03.32,000 --> 0:08:04,000
+This last demonstration
+
+119
+0:08:04.68,000 --> 0:08:06,000
+is an exploration of synthetic swarms.
+
+120
+0:08:07.56,000 --> 0:08:09,000
+The large number of autonomous, coordinated entities
+
+121
+0:08:10.56,000 --> 0:08:12,000
+offers a new palette for aesthetic expression.
+
+122
+0:08:13.32,000 --> 0:08:15,000
+We've taken commercially available micro quadcopters,
+
+123
+0:08:16.32,000 --> 0:08:18,000
+each weighing less than a slice of bread, by the way,
+
+124
+0:08:18.84,000 --> 0:08:2,000
+and outfitted them with our localization technology
+
+125
+0:08:21.28,000 --> 0:08:22,000
+and custom algorithms.
+
+126
+0:08:22.88,000 --> 0:08:24,000
+Because each unit knows where it is in space
+
+127
+0:08:25,000 --> 0:08:26,000
+and is self-controlled,
+
+128
+0:08:26.4,000 --> 0:08:28,000
+there is really no limit to their number.
+
+129
+0:08:55.84,000 --> 0:08:58,000
+(Applause)
+
+130
+0:09:19.36,000 --> 0:09:23,000
+(Applause)
+
+131
+0:10:18.04,000 --> 0:10:21,000
+(Applause)
+
+132
+0:10:35.96,000 --> 0:10:38,000
+Hopefully, these demonstrations will motivate you to dream up
+
+133
+0:10:39.08,000 --> 0:10:41,000
+new revolutionary roles for flying machines.
+
+134
+0:10:42.56,000 --> 0:10:44,000
+That ultrasafe one over there for example
+
+135
+0:10:44.68,000 --> 0:10:47,000
+has aspirations to become a flying lampshade on Broadway.
+
+136
+0:10:47.72,000 --> 0:10:49,000
+(Laughter)
+
+137
+0:10:49.8,000 --> 0:10:51,000
+The reality is that it is difficult to predict
+
+138
+0:10:52,000 --> 0:10:53,000
+the impact of nascent technology.
+
+139
+0:10:54.12,000 --> 0:10:58,000
+And for folks like us, the real reward is the journey and the act of creation.
+
+140
+0:10:59,000 --> 0:11:,000
+It's a continual reminder
+
+141
+0:11:00.44,000 --> 0:11:02,000
+of how wonderful and magical the universe we live in is,
+
+142
+0:11:03.84,000 --> 0:11:05,000
+that it allows creative, clever creatures
+
+143
+0:11:06.8,000 --> 0:11:08,000
+to sculpt it in such spectacular ways.
+
+144
+0:11:09.8,000 --> 0:11:1,000
+The fact that this technology
+
+145
+0:11:11.6,000 --> 0:11:14,000
+has such huge commercial and economic potential
+
+146
+0:11:15.04,000 --> 0:11:16,000
+is just icing on the cake.
+
+147
+0:11:16.48,000 --> 0:11:17,000
+Thank you.
+
+148
+0:11:17.72,000 --> 0:11:2,000
+(Applause)
+

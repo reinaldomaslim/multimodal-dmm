@@ -1,0 +1,1288 @@
+1
+0:00:12.779,000 --> 0:00:15,000
+What do you think of when I say the word "design"?
+
+2
+0:00:16.5,000 --> 0:00:18,000
+You probably think of things like this,
+
+3
+0:00:18.82,000 --> 0:00:21,000
+finely crafted objects that you can hold in your hand,
+
+4
+0:00:22.331,000 --> 0:00:24,000
+or maybe logos and posters and maps
+
+5
+0:00:25.26,000 --> 0:00:26,000
+that visually explain things,
+
+6
+0:00:27.181,000 --> 0:00:3,000
+classic icons of timeless design.
+
+7
+0:00:30.339,000 --> 0:00:32,000
+But I'm not here to talk about that kind of design.
+
+8
+0:00:33.22,000 --> 0:00:34,000
+I want to talk about the kind
+
+9
+0:00:34.375,000 --> 0:00:36,000
+that you probably use every day
+
+10
+0:00:36.404,000 --> 0:00:37,000
+and may not give much thought to,
+
+11
+0:00:38.165,000 --> 0:00:4,000
+designs that change all the time
+
+12
+0:00:40.276,000 --> 0:00:42,000
+and that live inside your pocket.
+
+13
+0:00:42.533,000 --> 0:00:44,000
+I'm talking about the design
+
+14
+0:00:44.596,000 --> 0:00:46,000
+of digital experiences
+
+15
+0:00:46.651,000 --> 0:00:48,000
+and specifically the design of systems
+
+16
+0:00:49.387,000 --> 0:00:5,000
+that are so big that their scale
+
+17
+0:00:51.02,000 --> 0:00:53,000
+can be hard to comprehend.
+
+18
+0:00:53.111,000 --> 0:00:55,000
+Consider the fact that Google processes
+
+19
+0:00:55.372,000 --> 0:00:58,000
+over one billion search queries every day,
+
+20
+0:00:59.157,000 --> 0:01:01,000
+that every minute, over 100 hours
+
+21
+0:01:01.325,000 --> 0:01:03,000
+of footage are uploaded to YouTube.
+
+22
+0:01:03.525,000 --> 0:01:04,000
+That's more in a single day
+
+23
+0:01:05.292,000 --> 0:01:07,000
+than all three major U.S. networks broadcast
+
+24
+0:01:08.042,000 --> 0:01:11,000
+in the last five years combined.
+
+25
+0:01:11.317,000 --> 0:01:13,000
+And Facebook transmitting the photos,
+
+26
+0:01:13.621,000 --> 0:01:14,000
+messages and stories
+
+27
+0:01:14.817,000 --> 0:01:17,000
+of over 1.23 billion people.
+
+28
+0:01:17.989,000 --> 0:01:19,000
+That's almost half of the Internet population,
+
+29
+0:01:20.733,000 --> 0:01:22,000
+and a sixth of humanity.
+
+30
+0:01:23.405,000 --> 0:01:24,000
+These are some of the products
+
+31
+0:01:24.419,000 --> 0:01:26,000
+that I've helped design over the course of my career,
+
+32
+0:01:27.173,000 --> 0:01:29,000
+and their scale is so massive
+
+33
+0:01:29.293,000 --> 0:01:3,000
+that they've produced unprecedented
+
+34
+0:01:31.181,000 --> 0:01:32,000
+design challenges.
+
+35
+0:01:33.027,000 --> 0:01:35,000
+But what is really hard
+
+36
+0:01:35.389,000 --> 0:01:37,000
+about designing at scale is this:
+
+37
+0:01:38.12,000 --> 0:01:39,000
+It's hard in part because
+
+38
+0:01:39.956,000 --> 0:01:41,000
+it requires a combination of two things,
+
+39
+0:01:42.861,000 --> 0:01:44,000
+audacity and humility —
+
+40
+0:01:45.638,000 --> 0:01:48,000
+audacity to believe that the thing that you're making
+
+41
+0:01:49.482,000 --> 0:01:52,000
+is something that the entire world wants and needs,
+
+42
+0:01:52.778,000 --> 0:01:55,000
+and humility to understand that as a designer,
+
+43
+0:01:55.874,000 --> 0:01:57,000
+it's not about you or your portfolio,
+
+44
+0:01:58.314,000 --> 0:02:,000
+it's about the people that you're designing for,
+
+45
+0:02:00.906,000 --> 0:02:01,000
+and how your work just might help them
+
+46
+0:02:02.802,000 --> 0:02:03,000
+live better lives.
+
+47
+0:02:04.406,000 --> 0:02:06,000
+Now, unfortunately, there's no school
+
+48
+0:02:07.027,000 --> 0:02:11,000
+that offers the course Designing for Humanity 101.
+
+49
+0:02:11.12,000 --> 0:02:12,000
+I and the other designers
+
+50
+0:02:12.692,000 --> 0:02:13,000
+who work on these kinds of products
+
+51
+0:02:14.436,000 --> 0:02:17,000
+have had to invent it as we go along,
+
+52
+0:02:17.788,000 --> 0:02:18,000
+and we are teaching ourselves
+
+53
+0:02:19.405,000 --> 0:02:2,000
+the emerging best practices
+
+54
+0:02:21.273,000 --> 0:02:22,000
+of designing at scale,
+
+55
+0:02:23.253,000 --> 0:02:24,000
+and today I'd like share some of the things
+
+56
+0:02:25.205,000 --> 0:02:27,000
+that we've learned over the years.
+
+57
+0:02:27.285,000 --> 0:02:28,000
+Now, the first thing that you need to know
+
+58
+0:02:28.516,000 --> 0:02:29,000
+about designing at scale
+
+59
+0:02:29.646,000 --> 0:02:31,000
+is that the little things really matter.
+
+60
+0:02:32.62,000 --> 0:02:33,000
+Here's a really good example of how
+
+61
+0:02:34.557,000 --> 0:02:37,000
+a very tiny design element can make a big impact.
+
+62
+0:02:38.06,000 --> 0:02:41,000
+The team at Facebook that manages
+
+63
+0:02:41.14,000 --> 0:02:43,000
+the Facebook "Like" button
+
+64
+0:02:43.248,000 --> 0:02:45,000
+decided that it needed to be redesigned.
+
+65
+0:02:45.72,000 --> 0:02:47,000
+The button had kind of gotten out of sync
+
+66
+0:02:48.147,000 --> 0:02:49,000
+with the evolution of our brand
+
+67
+0:02:49.596,000 --> 0:02:5,000
+and it needed to be modernized.
+
+68
+0:02:51.384,000 --> 0:02:52,000
+Now you might think, well, it's a tiny little button,
+
+69
+0:02:53.252,000 --> 0:02:54,000
+it probably is a pretty straightforward,
+
+70
+0:02:55.245,000 --> 0:02:58,000
+easy design assignment, but it wasn't.
+
+71
+0:02:58.26,000 --> 0:03:,000
+Turns out, there were all kinds of constraints
+
+72
+0:03:00.381,000 --> 0:03:01,000
+for the design of this button.
+
+73
+0:03:02.19,000 --> 0:03:05,000
+You had to work within specific height and width parameters.
+
+74
+0:03:05.645,000 --> 0:03:07,000
+You had to be careful to make it work
+
+75
+0:03:07.94,000 --> 0:03:08,000
+in a bunch of different languages,
+
+76
+0:03:09.701,000 --> 0:03:12,000
+and be careful about using fancy gradients or borders
+
+77
+0:03:12.756,000 --> 0:03:14,000
+because it has to degrade gracefully
+
+78
+0:03:14.9,000 --> 0:03:15,000
+in old web browsers.
+
+79
+0:03:16.653,000 --> 0:03:18,000
+The truth is, designing this tiny little button
+
+80
+0:03:19.325,000 --> 0:03:21,000
+was a huge pain in the butt.
+
+81
+0:03:21.508,000 --> 0:03:23,000
+Now, this is the new version of the button,
+
+82
+0:03:23.56,000 --> 0:03:25,000
+and the designer who led this project estimates
+
+83
+0:03:26.074,000 --> 0:03:29,000
+that he spent over 280 hours
+
+84
+0:03:29.588,000 --> 0:03:32,000
+redesigning this button over the course of months.
+
+85
+0:03:33.238,000 --> 0:03:35,000
+Now, why would we spend so much time
+
+86
+0:03:35.582,000 --> 0:03:37,000
+on something so small?
+
+87
+0:03:37.886,000 --> 0:03:38,000
+It's because when you're designing at scale,
+
+88
+0:03:39.502,000 --> 0:03:42,000
+there's no such thing as a small detail.
+
+89
+0:03:42.631,000 --> 0:03:43,000
+This innocent little button
+
+90
+0:03:44.147,000 --> 0:03:47,000
+is seen on average 22 billion times a day
+
+91
+0:03:48.102,000 --> 0:03:51,000
+and on over 7.5 million websites.
+
+92
+0:03:51.602,000 --> 0:03:55,000
+It's one of the single most viewed design elements ever created.
+
+93
+0:03:55.686,000 --> 0:03:57,000
+Now that's a lot of pressure for a little button
+
+94
+0:03:58.19,000 --> 0:03:59,000
+and the designer behind it,
+
+95
+0:03:59.91,000 --> 0:04:,000
+but with these kinds of products,
+
+96
+0:04:01.438,000 --> 0:04:03,000
+you need to get even the tiny things right.
+
+97
+0:04:04.174,000 --> 0:04:06,000
+Now, the next thing that you need to understand
+
+98
+0:04:06.71,000 --> 0:04:08,000
+is how to design with data.
+
+99
+0:04:09.198,000 --> 0:04:1,000
+Now, when you're working on products like this,
+
+100
+0:04:10.87,000 --> 0:04:12,000
+you have incredible amounts of information
+
+101
+0:04:13.615,000 --> 0:04:15,000
+about how people are using your product
+
+102
+0:04:15.703,000 --> 0:04:16,000
+that you can then use to influence
+
+103
+0:04:17.358,000 --> 0:04:18,000
+your design decisions,
+
+104
+0:04:18.942,000 --> 0:04:2,000
+but it's not just as simple as following the numbers.
+
+105
+0:04:21.694,000 --> 0:04:22,000
+Let me give you an example
+
+106
+0:04:22.945,000 --> 0:04:24,000
+so that you can understand what I mean.
+
+107
+0:04:25.11,000 --> 0:04:27,000
+Facebook has had a tool for a long time
+
+108
+0:04:27.267,000 --> 0:04:29,000
+that allowed people to report photos
+
+109
+0:04:29.58,000 --> 0:04:31,000
+that may be in violation of our community standards,
+
+110
+0:04:32.442,000 --> 0:04:34,000
+things like spam and abuse.
+
+111
+0:04:34.862,000 --> 0:04:36,000
+And there were a ton of photos reported,
+
+112
+0:04:36.87,000 --> 0:04:37,000
+but as it turns out,
+
+113
+0:04:38.506,000 --> 0:04:39,000
+only a small percentage were actually
+
+114
+0:04:40.402,000 --> 0:04:42,000
+in violation of those community standards.
+
+115
+0:04:43.32,000 --> 0:04:45,000
+Most of them were just your typical party photo.
+
+116
+0:04:45.83,000 --> 0:04:47,000
+Now, to give you a specific hypothetical example,
+
+117
+0:04:48.738,000 --> 0:04:5,000
+let's say my friend Laura hypothetically
+
+118
+0:04:51.234,000 --> 0:04:52,000
+uploads a picture of me
+
+119
+0:04:52.892,000 --> 0:04:54,000
+from a drunken night of karaoke.
+
+120
+0:04:55.88,000 --> 0:04:58,000
+This is purely hypothetical, I can assure you.
+
+121
+0:04:59.146,000 --> 0:05:,000
+(Laughter)
+
+122
+0:05:00.641,000 --> 0:05:01,000
+Now, incidentally,
+
+123
+0:05:02.41,000 --> 0:05:03,000
+you know how some people are kind of worried
+
+124
+0:05:03.7,000 --> 0:05:04,000
+that their boss or employee
+
+125
+0:05:05.343,000 --> 0:05:07,000
+is going to discover embarrassing photos of them
+
+126
+0:05:07.35,000 --> 0:05:08,000
+on Facebook?
+
+127
+0:05:08.89,000 --> 0:05:09,000
+Do you know how hard that is to avoid
+
+128
+0:05:10.826,000 --> 0:05:13,000
+when you actually work at Facebook?
+
+129
+0:05:14.08,000 --> 0:05:16,000
+So anyway, there are lots of these photos
+
+130
+0:05:16.366,000 --> 0:05:19,000
+being erroneously reported as spam and abuse,
+
+131
+0:05:19.8,000 --> 0:05:21,000
+and one of the engineers on the team had a hunch.
+
+132
+0:05:22.249,000 --> 0:05:24,000
+He really thought there was something else going on
+
+133
+0:05:24.376,000 --> 0:05:25,000
+and he was right,
+
+134
+0:05:25.532,000 --> 0:05:27,000
+because when he looked through a bunch of the cases,
+
+135
+0:05:27.856,000 --> 0:05:28,000
+he found that most of them
+
+136
+0:05:29.456,000 --> 0:05:3,000
+were from people who were requesting
+
+137
+0:05:31.331,000 --> 0:05:33,000
+the takedown of a photo of themselves.
+
+138
+0:05:34.153,000 --> 0:05:36,000
+Now this was a scenario that the team
+
+139
+0:05:36.193,000 --> 0:05:38,000
+never even took into account before.
+
+140
+0:05:38.56,000 --> 0:05:39,000
+So they added a new feature
+
+141
+0:05:40.369,000 --> 0:05:42,000
+that allowed people to message their friend
+
+142
+0:05:42.513,000 --> 0:05:44,000
+to ask them to take the photo down.
+
+143
+0:05:44.785,000 --> 0:05:45,000
+But it didn't work.
+
+144
+0:05:46.244,000 --> 0:05:47,000
+Only 20 percent of people
+
+145
+0:05:47.495,000 --> 0:05:49,000
+sent the message to their friend.
+
+146
+0:05:49.713,000 --> 0:05:51,000
+So the team went back at it.
+
+147
+0:05:51.964,000 --> 0:05:54,000
+They consulted with experts in conflict resolution.
+
+148
+0:05:55.155,000 --> 0:05:58,000
+They even studied the universal principles
+
+149
+0:05:58.217,000 --> 0:05:59,000
+of polite language,
+
+150
+0:05:59.704,000 --> 0:06:,000
+which I didn't even actually know existed
+
+151
+0:06:01.239,000 --> 0:06:02,000
+until this research happened.
+
+152
+0:06:03.176,000 --> 0:06:05,000
+And they found something really interesting.
+
+153
+0:06:05.705,000 --> 0:06:07,000
+They had to go beyond just helping people
+
+154
+0:06:07.888,000 --> 0:06:08,000
+ask their friend to take the photo down.
+
+155
+0:06:09.8,000 --> 0:06:11,000
+They had to help people express to their friend
+
+156
+0:06:12.529,000 --> 0:06:14,000
+how the photo made them feel.
+
+157
+0:06:14.96,000 --> 0:06:16,000
+Here's how the experience works today.
+
+158
+0:06:17.158,000 --> 0:06:2,000
+So I find this hypothetical photo of myself,
+
+159
+0:06:20.385,000 --> 0:06:22,000
+and it's not spam, it's not abuse,
+
+160
+0:06:23.014,000 --> 0:06:25,000
+but I really wish it weren't on the site.
+
+161
+0:06:25.537,000 --> 0:06:28,000
+So I report it and I say,
+
+162
+0:06:28.761,000 --> 0:06:3,000
+"I'm in this photo and I don't like it,"
+
+163
+0:06:30.801,000 --> 0:06:33,000
+and then we dig deeper.
+
+164
+0:06:34.063,000 --> 0:06:36,000
+Why don't you like this photo of yourself?
+
+165
+0:06:36.569,000 --> 0:06:38,000
+And I select "It's embarrassing."
+
+166
+0:06:39.416,000 --> 0:06:42,000
+And then I'm encouraged to message my friend,
+
+167
+0:06:42.742,000 --> 0:06:43,000
+but here's the critical difference.
+
+168
+0:06:44.601,000 --> 0:06:47,000
+I'm provided specific suggested language
+
+169
+0:06:48.233,000 --> 0:06:5,000
+that helps me communicate to Laura
+
+170
+0:06:50.569,000 --> 0:06:51,000
+how the photo makes me feel.
+
+171
+0:06:52.504,000 --> 0:06:55,000
+Now the team found that this relatively small change
+
+172
+0:06:55.545,000 --> 0:06:56,000
+had a huge impact.
+
+173
+0:06:57.224,000 --> 0:06:59,000
+Before, only 20 percent of people
+
+174
+0:06:59.624,000 --> 0:07:,000
+were sending the message,
+
+175
+0:07:00.795,000 --> 0:07:02,000
+and now 60 percent were,
+
+176
+0:07:02.84,000 --> 0:07:03,000
+and surveys showed that people
+
+177
+0:07:04.474,000 --> 0:07:05,000
+on both sides of the conversation
+
+178
+0:07:06.402,000 --> 0:07:07,000
+felt better as a result.
+
+179
+0:07:08.042,000 --> 0:07:09,000
+That same survey showed
+
+180
+0:07:09.697,000 --> 0:07:11,000
+that 90 percent of your friends
+
+181
+0:07:12.05,000 --> 0:07:14,000
+want to know if they've done something to upset you.
+
+182
+0:07:14.788,000 --> 0:07:16,000
+Now I don't know who the other 10 percent are,
+
+183
+0:07:16.885,000 --> 0:07:17,000
+but maybe that's where our "Unfriend" feature
+
+184
+0:07:18.659,000 --> 0:07:19,000
+can come in handy.
+
+185
+0:07:20.22,000 --> 0:07:21,000
+So as you can see,
+
+186
+0:07:21.994,000 --> 0:07:23,000
+these decisions are highly nuanced.
+
+187
+0:07:24.602,000 --> 0:07:25,000
+Of course we use a lot of data
+
+188
+0:07:26.571,000 --> 0:07:27,000
+to inform our decisions,
+
+189
+0:07:27.882,000 --> 0:07:3,000
+but we also rely very heavily on iteration,
+
+190
+0:07:31.325,000 --> 0:07:35,000
+research, testing, intuition, human empathy.
+
+191
+0:07:35.449,000 --> 0:07:36,000
+It's both art and science.
+
+192
+0:07:37.295,000 --> 0:07:39,000
+Now, sometimes the designers who work on these products
+
+193
+0:07:39.861,000 --> 0:07:4,000
+are called "data-driven,"
+
+194
+0:07:41.549,000 --> 0:07:43,000
+which is a term that totally drives us bonkers.
+
+195
+0:07:44.29,000 --> 0:07:46,000
+The fact is, it would be irresponsible of us
+
+196
+0:07:47.189,000 --> 0:07:49,000
+not to rigorously test our designs
+
+197
+0:07:49.741,000 --> 0:07:51,000
+when so many people are counting on us
+
+198
+0:07:51.827,000 --> 0:07:52,000
+to get it right,
+
+199
+0:07:53.02,000 --> 0:07:55,000
+but data analytics
+
+200
+0:07:55.34,000 --> 0:07:58,000
+will never be a substitute for design intuition.
+
+201
+0:07:58.442,000 --> 0:08:01,000
+Data can help you make a good design great,
+
+202
+0:08:01.61,000 --> 0:08:04,000
+but it will never made a bad design good.
+
+203
+0:08:05.234,000 --> 0:08:08,000
+The next thing that you need to understand as a principle
+
+204
+0:08:08.346,000 --> 0:08:09,000
+is that when you introduce change,
+
+205
+0:08:09.893,000 --> 0:08:11,000
+you need to do it extraordinarily carefully.
+
+206
+0:08:12.499,000 --> 0:08:13,000
+Now I often have joked that
+
+207
+0:08:14.166,000 --> 0:08:16,000
+I spend almost as much time
+
+208
+0:08:16.404,000 --> 0:08:17,000
+designing the introduction of change
+
+209
+0:08:18.218,000 --> 0:08:2,000
+as I do the change itself,
+
+210
+0:08:20.418,000 --> 0:08:22,000
+and I'm sure that we can all relate to that
+
+211
+0:08:22.714,000 --> 0:08:24,000
+when something that we use a lot changes
+
+212
+0:08:24.754,000 --> 0:08:26,000
+and then we have to adjust.
+
+213
+0:08:26.986,000 --> 0:08:28,000
+The fact is, people can become
+
+214
+0:08:29.19,000 --> 0:08:31,000
+very efficient at using bad design,
+
+215
+0:08:32.13,000 --> 0:08:34,000
+and so even if the change is good for them in the long run,
+
+216
+0:08:34.802,000 --> 0:08:37,000
+it's still incredibly frustrating when it happens,
+
+217
+0:08:37.859,000 --> 0:08:38,000
+and this is particularly true
+
+218
+0:08:39.666,000 --> 0:08:41,000
+with user-generated content platforms,
+
+219
+0:08:42.362,000 --> 0:08:45,000
+because people can rightfully claim a sense of ownership.
+
+220
+0:08:45.803,000 --> 0:08:48,000
+It is, after all, their content.
+
+221
+0:08:49.406,000 --> 0:08:51,000
+Now, years ago, when I was working at YouTube,
+
+222
+0:08:51.773,000 --> 0:08:53,000
+we were looking for ways to
+
+223
+0:08:53.968,000 --> 0:08:55,000
+encourage more people to rate videos,
+
+224
+0:08:56.244,000 --> 0:08:58,000
+and it was interesting because when we looked into the data,
+
+225
+0:08:58.97,000 --> 0:09:01,000
+we found that almost everyone was exclusively using
+
+226
+0:09:02.429,000 --> 0:09:03,000
+the highest five-star rating,
+
+227
+0:09:04.396,000 --> 0:09:05,000
+a handful of people were using
+
+228
+0:09:05.98,000 --> 0:09:06,000
+the lowest one-star,
+
+229
+0:09:07.656,000 --> 0:09:08,000
+and virtually no one
+
+230
+0:09:09.075,000 --> 0:09:11,000
+was using two, three or four stars.
+
+231
+0:09:11.405,000 --> 0:09:12,000
+So we decided to simplify
+
+232
+0:09:13.3,000 --> 0:09:16,000
+into an up-down kind of voting binary model.
+
+233
+0:09:16.624,000 --> 0:09:18,000
+It's going to be much easier for people to engage with.
+
+234
+0:09:19.62,000 --> 0:09:21,000
+But people were very attached
+
+235
+0:09:22.172,000 --> 0:09:23,000
+to the five-star rating system.
+
+236
+0:09:23.965,000 --> 0:09:25,000
+Video creators really loved their ratings.
+
+237
+0:09:26.396,000 --> 0:09:27,000
+Millions and millions of people
+
+238
+0:09:27.618,000 --> 0:09:29,000
+were accustomed to the old design.
+
+239
+0:09:29.781,000 --> 0:09:3,000
+So in order to help people
+
+240
+0:09:31.716,000 --> 0:09:32,000
+prepare themselves for change
+
+241
+0:09:33.42,000 --> 0:09:35,000
+and acclimate to the new design more quickly,
+
+242
+0:09:35.653,000 --> 0:09:37,000
+we actually published the data graph
+
+243
+0:09:38.116,000 --> 0:09:39,000
+sharing with the community
+
+244
+0:09:39.836,000 --> 0:09:41,000
+the rationale for what we were going to do,
+
+245
+0:09:41.984,000 --> 0:09:43,000
+and it even engaged the larger industry
+
+246
+0:09:44.605,000 --> 0:09:45,000
+in a conversation, which resulted in
+
+247
+0:09:46.07,000 --> 0:09:49,000
+my favorite TechCrunch headline of all time:
+
+248
+0:09:49.148,000 --> 0:09:52,000
+"YouTube Comes to a 5-Star Realization:
+
+249
+0:09:52.612,000 --> 0:09:55,000
+Its Ratings Are Useless."
+
+250
+0:09:55.64,000 --> 0:09:57,000
+Now, it's impossible to completely avoid
+
+251
+0:09:58.295,000 --> 0:10:,000
+change aversion when you're making changes
+
+252
+0:10:00.795,000 --> 0:10:02,000
+to products that so many people use.
+
+253
+0:10:02.923,000 --> 0:10:03,000
+Even though we tried to do all the right things,
+
+254
+0:10:04.53,000 --> 0:10:06,000
+we still received our customary flood
+
+255
+0:10:06.763,000 --> 0:10:08,000
+of video protests and angry emails
+
+256
+0:10:09.387,000 --> 0:10:13,000
+and even a package that had to be scanned by security,
+
+257
+0:10:13.635,000 --> 0:10:14,000
+but we have to remember
+
+258
+0:10:15.595,000 --> 0:10:17,000
+people care intensely about this stuff,
+
+259
+0:10:18.435,000 --> 0:10:2,000
+and it's because these products, this work,
+
+260
+0:10:21.373,000 --> 0:10:23,000
+really, really matters to them.
+
+261
+0:10:23.593,000 --> 0:10:26,000
+Now, we know that we have to be careful
+
+262
+0:10:26.9,000 --> 0:10:27,000
+about paying attention to the details,
+
+263
+0:10:28.89,000 --> 0:10:3,000
+we have to be cognizant about how we use data
+
+264
+0:10:31.363,000 --> 0:10:32,000
+in our design process,
+
+265
+0:10:33.035,000 --> 0:10:34,000
+and we have to introduce change
+
+266
+0:10:34.84,000 --> 0:10:35,000
+very, very carefully.
+
+267
+0:10:36.531,000 --> 0:10:38,000
+Now, these things are all really useful.
+
+268
+0:10:38.627,000 --> 0:10:41,000
+They're good best practices for designing at scale.
+
+269
+0:10:41.739,000 --> 0:10:42,000
+But they don't mean anything
+
+270
+0:10:43.531,000 --> 0:10:44,000
+if you don't understand something
+
+271
+0:10:45.203,000 --> 0:10:46,000
+much more fundamental.
+
+272
+0:10:46.865,000 --> 0:10:5,000
+You have to understand who you are designing for.
+
+273
+0:10:51.626,000 --> 0:10:52,000
+Now, when you set a goal to design
+
+274
+0:10:53.363,000 --> 0:10:54,000
+for the entire human race,
+
+275
+0:10:55.229,000 --> 0:10:58,000
+and you start to engage in that goal in earnest,
+
+276
+0:10:58.283,000 --> 0:11:,000
+at some point you run into the walls
+
+277
+0:11:00.707,000 --> 0:11:02,000
+of the bubble that you're living in.
+
+278
+0:11:02.755,000 --> 0:11:04,000
+Now, in San Francisco, we get a little miffed
+
+279
+0:11:05.395,000 --> 0:11:06,000
+when we hit a dead cell zone
+
+280
+0:11:06.979,000 --> 0:11:07,000
+because we can't use our phones to navigate
+
+281
+0:11:08.628,000 --> 0:11:1,000
+to the new hipster coffee shop.
+
+282
+0:11:11.123,000 --> 0:11:14,000
+But what if you had to drive four hours
+
+283
+0:11:14.277,000 --> 0:11:15,000
+to charge your phone
+
+284
+0:11:15.613,000 --> 0:11:18,000
+because you had no reliable source of electricity?
+
+285
+0:11:18.854,000 --> 0:11:21,000
+What if you had no access to public libraries?
+
+286
+0:11:22.309,000 --> 0:11:24,000
+What if your country had no free press?
+
+287
+0:11:25.133,000 --> 0:11:28,000
+What would these products start to mean to you?
+
+288
+0:11:28.873,000 --> 0:11:3,000
+This is what Google, YouTube and Facebook
+
+289
+0:11:31.617,000 --> 0:11:32,000
+look like to most of the world,
+
+290
+0:11:33.336,000 --> 0:11:34,000
+and it's what they'll look like
+
+291
+0:11:34.394,000 --> 0:11:36,000
+to most of the next five billion people
+
+292
+0:11:36.496,000 --> 0:11:37,000
+to come online.
+
+293
+0:11:38.056,000 --> 0:11:4,000
+Designing for low-end cell phones
+
+294
+0:11:40.322,000 --> 0:11:42,000
+is not glamorous design work,
+
+295
+0:11:42.689,000 --> 0:11:43,000
+but if you want to design for the whole world,
+
+296
+0:11:44.601,000 --> 0:11:46,000
+you have to design for where people are,
+
+297
+0:11:46.712,000 --> 0:11:47,000
+and not where you are.
+
+298
+0:11:48.465,000 --> 0:11:51,000
+So how do we keep this big, big picture in mind?
+
+299
+0:11:51.632,000 --> 0:11:54,000
+We try to travel outside of our bubble to see, hear
+
+300
+0:11:54.716,000 --> 0:11:56,000
+and understand the people we're designing for.
+
+301
+0:11:57.291,000 --> 0:11:59,000
+We use our products in non-English languages
+
+302
+0:11:59.667,000 --> 0:12:01,000
+to make sure that they work just as well.
+
+303
+0:12:01.82,000 --> 0:12:04,000
+And we try to use one of these phones from time to time
+
+304
+0:12:04.955,000 --> 0:12:06,000
+to keep in touch with their reality.
+
+305
+0:12:07.891,000 --> 0:12:11,000
+So what does it mean to design at a global scale?
+
+306
+0:12:12.168,000 --> 0:12:15,000
+It means difficult and sometimes exasperating work
+
+307
+0:12:15.582,000 --> 0:12:18,000
+to try to improve and evolve products.
+
+308
+0:12:19.554,000 --> 0:12:22,000
+Finding the audacity and the humility to do right by them
+
+309
+0:12:22.747,000 --> 0:12:23,000
+can be pretty exhausting,
+
+310
+0:12:24.11,000 --> 0:12:25,000
+and the humility part,
+
+311
+0:12:25.622,000 --> 0:12:27,000
+it's a little tough on the design ego.
+
+312
+0:12:27.826,000 --> 0:12:29,000
+Because these products are always changing,
+
+313
+0:12:30.298,000 --> 0:12:32,000
+everything that I've designed in my career
+
+314
+0:12:32.81,000 --> 0:12:33,000
+is pretty much gone,
+
+315
+0:12:34.106,000 --> 0:12:37,000
+and everything that I will design will fade away.
+
+316
+0:12:37.386,000 --> 0:12:38,000
+But here's what remains:
+
+317
+0:12:39.162,000 --> 0:12:4,000
+the never-ending thrill
+
+318
+0:12:41.114,000 --> 0:12:43,000
+of being a part of something that is so big,
+
+319
+0:12:43.962,000 --> 0:12:45,000
+you can hardly get your head around it,
+
+320
+0:12:46.695,000 --> 0:12:48,000
+and the promise that it just might change the world.
+
+321
+0:12:49.592,000 --> 0:12:51,000
+Thank you.
+
+322
+0:12:51.99,000 --> 0:12:53,000
+(Applause)
+

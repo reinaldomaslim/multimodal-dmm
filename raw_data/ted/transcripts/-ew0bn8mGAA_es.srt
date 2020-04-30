@@ -1,0 +1,1452 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Héctor Gálvez Revisor: Israel Sánchez
+
+2
+0:00:15.26,000 --> 0:00:18,000
+El problema del que les quiero hablar
+
+3
+0:00:18.26,000 --> 0:00:2,000
+es realmente el problema de
+
+4
+0:00:20.26,000 --> 0:00:24,000
+cómo proveer servicios médicos
+
+5
+0:00:24.26,000 --> 0:00:28,000
+en un mundo donde el costo lo es todo.
+
+6
+0:00:28.26,000 --> 0:00:3,000
+¿Cómo se logra esto?
+
+7
+0:00:30.26,000 --> 0:00:32,000
+Y el paradigma básico que queremos sugerirles,
+
+8
+0:00:32.26,000 --> 0:00:34,000
+que yo quiero sugerirles,
+
+9
+0:00:34.26,000 --> 0:00:36,000
+es uno en el que se dice que para poder
+
+10
+0:00:36.26,000 --> 0:00:4,000
+tratar enfermedades, primero deben saber con qué están lidiando
+
+11
+0:00:40.26,000 --> 0:00:42,000
+- eso es el diagnóstico - y después deben hacer algo al respecto.
+
+12
+0:00:42.26,000 --> 0:00:45,000
+Entonces, el programa en el que estamos involucrados es algo que llamamos
+
+13
+0:00:45.26,000 --> 0:00:49,000
+diagnósticos para todos o diagnósticos de costo cero
+
+14
+0:00:49.26,000 --> 0:00:52,000
+¿Cómo pueden proveer información médicamente relevante
+
+15
+0:00:52.26,000 --> 0:00:56,000
+a un costo lo más cercano posible a cero?¿Cómo lo logran?
+
+16
+0:00:56.26,000 --> 0:00:58,000
+Déjenme darles sólo dos ejemplos.
+
+17
+0:00:58.26,000 --> 0:01:02,000
+Los rigores de la medicina militar
+
+18
+0:01:02.26,000 --> 0:01:04,000
+no son tan diferentes a la del tercer mundo,
+
+19
+0:01:04.26,000 --> 0:01:07,000
+recursos pobres, un ambiente riguroso,
+
+20
+0:01:07.26,000 --> 0:01:11,000
+una serie de problemas de bajo peso y ese tipo de situaciones.
+
+21
+0:01:11.26,000 --> 0:01:14,000
+Y tampoco son muy distintas a la asistencia médica a domicilio
+
+22
+0:01:14.26,000 --> 0:01:17,000
+y el mundo del sistema de diagnóstico.
+
+23
+0:01:17.26,000 --> 0:01:2,000
+Entonces, la tecnología de la que les quiero hablar
+
+24
+0:01:20.26,000 --> 0:01:23,000
+es para el tercer mundo, para el mundo en vías de desarrollo,
+
+25
+0:01:23.26,000 --> 0:01:25,000
+pero tiene, yo creo, una aplicación mucho más amplia,
+
+26
+0:01:25.26,000 --> 0:01:3,000
+porque la información es muy importante en el sistema de salud.
+
+27
+0:01:30.26,000 --> 0:01:32,000
+Entonces, aquí pueden ver dos ejemplos.
+
+28
+0:01:32.26,000 --> 0:01:37,000
+Uno es un laboratorio que en realidad es de alto nivel en África.
+
+29
+0:01:37.26,000 --> 0:01:39,000
+El segundo es básicamente un emprendedor
+
+30
+0:01:39.26,000 --> 0:01:43,000
+que está instalado y haciendo quién sabe qué en una mesa en un mercado.
+
+31
+0:01:43.26,000 --> 0:01:46,000
+No sé qué tipo de servicios de salud se proporcionan ahí.
+
+32
+0:01:46.26,000 --> 0:01:51,000
+Pero no es lo que probablemente sería lo más eficiente.
+
+33
+0:01:51.26,000 --> 0:01:54,000
+¿Cuál es nuestro enfoque?
+
+34
+0:01:54.26,000 --> 0:01:57,000
+Y la manera en la que uno típicamente enfoca
+
+35
+0:01:57.26,000 --> 0:02:,000
+el problema de reducir costos,
+
+36
+0:02:00.26,000 --> 0:02:03,000
+empezando desde la perspectiva de los Estados Unidos,
+
+37
+0:02:03.26,000 --> 0:02:05,000
+es tomar nuestra solución,
+
+38
+0:02:05.26,000 --> 0:02:07,000
+y después tratar de reducir costos.
+
+39
+0:02:07.26,000 --> 0:02:09,000
+No importa cómo hagan eso,
+
+40
+0:02:09.26,000 --> 0:02:11,000
+no van a empezar con un instrumento de 100.000 dólares
+
+41
+0:02:11.26,000 --> 0:02:14,000
+y bajarlo a costo nulo. No va a funcionar.
+
+42
+0:02:14.26,000 --> 0:02:17,000
+Así que el enfoque que nosotros tomamos fue al revés.
+
+43
+0:02:17.26,000 --> 0:02:19,000
+Nos preguntamos, "¿cuál es material más barato
+
+44
+0:02:19.26,000 --> 0:02:22,000
+con el que se podría hacer un sistema de diagnóstico,
+
+45
+0:02:22.26,000 --> 0:02:24,000
+y obtener información útil,
+
+46
+0:02:24.26,000 --> 0:02:27,000
+además de función?" Y lo que escogímos fue el papel.
+
+47
+0:02:27.26,000 --> 0:02:3,000
+Lo que ven aquí es un prototipo de dispositivo.
+
+48
+0:02:30.26,000 --> 0:02:32,000
+Mide alrededor de un centímetro de lado.
+
+49
+0:02:32.26,000 --> 0:02:34,000
+Es más o menos del tamaño de una uña.
+
+50
+0:02:34.26,000 --> 0:02:36,000
+Y las líneas alrededor de los bordes son
+
+51
+0:02:36.26,000 --> 0:02:38,000
+un polímero.
+
+52
+0:02:38.26,000 --> 0:02:42,000
+Está hecho de papel, y el papel absorbe fluidos.
+
+53
+0:02:42.26,000 --> 0:02:46,000
+Como saben, papel, tela, derramen vino sobre un mantel de tela
+
+54
+0:02:46.26,000 --> 0:02:49,000
+y el vino se propaga por todos lados.
+
+55
+0:02:49.26,000 --> 0:02:51,000
+Si lo ponen en su camisa, arruina la camisa.
+
+56
+0:02:51.26,000 --> 0:02:54,000
+Eso es lo que hace una superficie hidrofílica.
+
+57
+0:02:54.26,000 --> 0:02:56,000
+Entonces, en este dispositivo la idea es que sumergen
+
+58
+0:02:56.26,000 --> 0:02:58,000
+la parte inferior en una gota de,
+
+59
+0:02:58.26,000 --> 0:03:,000
+en este caso, orina.
+
+60
+0:03:00.26,000 --> 0:03:04,000
+Y el fluido se propaga hasta alcanzar los compartimientos superiores.
+
+61
+0:03:04.26,000 --> 0:03:08,000
+El color café indica la cantidad de glucosa en la orina.
+
+62
+0:03:08.26,000 --> 0:03:11,000
+El color azul indica la cantidad de proteína en la orina.
+
+63
+0:03:11.26,000 --> 0:03:13,000
+Y la combinación de estas dos,
+
+64
+0:03:13.26,000 --> 0:03:15,000
+es una oportunidad de primera para obtener
+
+65
+0:03:15.26,000 --> 0:03:18,000
+las cosas útiles que quieren.
+
+66
+0:03:18.26,000 --> 0:03:21,000
+Entonces, este es un ejemplo de un dispositivo hecho a partir de una sencilla pieza de papel.
+
+67
+0:03:21.26,000 --> 0:03:24,000
+Ahora, ¿cuán sencilla pueden hacer la producción?
+
+68
+0:03:24.26,000 --> 0:03:26,000
+¿Por qué escogimos el papel?
+
+69
+0:03:26.26,000 --> 0:03:29,000
+Ahí ven un ejemplo del mismo dispositivo, en un dedo
+
+70
+0:03:29.26,000 --> 0:03:31,000
+mostrándoles básicamente su apariencia.
+
+71
+0:03:31.26,000 --> 0:03:34,000
+Una razón por la cual usamos papel es porque está en todos lados.
+
+72
+0:03:34.26,000 --> 0:03:36,000
+Hemos hecho este tipo de dispositivos usando
+
+73
+0:03:36.26,000 --> 0:03:39,000
+servilletas y papel higiénico
+
+74
+0:03:39.26,000 --> 0:03:41,000
+y mapas y todo tipo de cosas.
+
+75
+0:03:41.26,000 --> 0:03:44,000
+Entonces, la capacidad de producción está ahí.
+
+76
+0:03:44.26,000 --> 0:03:46,000
+Lo segundo es, pueden poner muchas, muchas
+
+77
+0:03:46.26,000 --> 0:03:48,000
+pruebas en un espacio muy pequeño.
+
+78
+0:03:48.26,000 --> 0:03:5,000
+En un momento les mostraré que ese montón de papel ahí
+
+79
+0:03:50.26,000 --> 0:03:52,000
+podría contener alrededor de
+
+80
+0:03:52.26,000 --> 0:03:55,000
+100.000 pruebas, o algo alrededor de ese valor.
+
+81
+0:03:55.26,000 --> 0:03:58,000
+Y finalmente, un aspecto en el que no se piensa tanto
+
+82
+0:03:58.26,000 --> 0:04:01,000
+en la medicina del primer mundo,
+
+83
+0:04:01.26,000 --> 0:04:03,000
+es que elimina el uso de objetos afilados.
+
+84
+0:04:03.26,000 --> 0:04:06,000
+Y objetos afilados significa agujas, instrumental punzante.
+
+85
+0:04:06.26,000 --> 0:04:08,000
+Si le han tomado una muestra de sangre a alguien
+
+86
+0:04:08.26,000 --> 0:04:11,000
+no quieren cometer un error y pincharse con ellos.
+
+87
+0:04:11.26,000 --> 0:04:13,000
+no quieren cometer un error y pincharse con ellos.
+
+88
+0:04:13.26,000 --> 0:04:15,000
+Simplemente, no quieren hacer eso.
+
+89
+0:04:15.26,000 --> 0:04:17,000
+Entonces, ¿cómo deshacerse de ello? Es un problema en todos lados.
+
+90
+0:04:17.26,000 --> 0:04:19,000
+Y aquí sencillamente lo queman.
+
+91
+0:04:19.26,000 --> 0:04:21,000
+Entonces, es como una aproximación práctica
+
+92
+0:04:21.26,000 --> 0:04:24,000
+para comenzar a trabajar.
+
+93
+0:04:24.26,000 --> 0:04:27,000
+Ahora, seguramente pensarán, si el papel es una buena idea,
+
+94
+0:04:27.26,000 --> 0:04:29,000
+seguramente otras personas ya habían pensado en eso.
+
+95
+0:04:29.26,000 --> 0:04:32,000
+Y la respuesta es, obviamente, sí.
+
+96
+0:04:32.26,000 --> 0:04:34,000
+Esa mitad de ustedes, aproximadamente,
+
+97
+0:04:34.26,000 --> 0:04:36,000
+que son mujeres,
+
+98
+0:04:36.26,000 --> 0:04:38,000
+en algún punto se habrán hecho una prueba de embarazo.
+
+99
+0:04:38.26,000 --> 0:04:41,000
+Y la más común de este tipo de pruebas
+
+100
+0:04:41.26,000 --> 0:04:44,000
+es un dispositivo que se parece a lo que ven a su izquierda.
+
+101
+0:04:44.26,000 --> 0:04:46,000
+Es algo llamado un inmunoensayo de flujo lateral.
+
+102
+0:04:46.26,000 --> 0:04:48,000
+Y en esa prueba en particular
+
+103
+0:04:48.26,000 --> 0:04:5,000
+la orina puede o no contener
+
+104
+0:04:50.26,000 --> 0:04:53,000
+una hormona llamada HCG y puede o no
+
+105
+0:04:53.26,000 --> 0:04:55,000
+fluir a través de un pedazo de papel.
+
+106
+0:04:55.26,000 --> 0:04:59,000
+Y hay dos barras. Una barra indica que la prueba funciona.
+
+107
+0:04:59.26,000 --> 0:05:02,000
+Y si la segunda barra aparece, están embarazadas.
+
+108
+0:05:02.26,000 --> 0:05:05,000
+Esta es una prueba estupenda en un mundo binario.
+
+109
+0:05:05.26,000 --> 0:05:07,000
+Y lo bonito del embarazo
+
+110
+0:05:07.26,000 --> 0:05:09,000
+es que, o están embarazadas, o no lo están.
+
+111
+0:05:09.26,000 --> 0:05:11,000
+No están parcialmente embarazadas o pensando en embarazarse
+
+112
+0:05:11.26,000 --> 0:05:13,000
+o algo de ese estilo.
+
+113
+0:05:13.26,000 --> 0:05:15,000
+Así que funciona muy bien aquí.
+
+114
+0:05:15.26,000 --> 0:05:18,000
+Pero no funciona muy bien cuando se requiere de información más cuantitativa.
+
+115
+0:05:18.26,000 --> 0:05:2,000
+También hay tiras reactivas.
+
+116
+0:05:20.26,000 --> 0:05:22,000
+Pero si observan las tiras reactivas, son para
+
+117
+0:05:22.26,000 --> 0:05:24,000
+otro tipo de análisis de orina.
+
+118
+0:05:24.26,000 --> 0:05:27,000
+Y hay una gran cantidad de colores y cosas así.
+
+119
+0:05:27.26,000 --> 0:05:3,000
+¿Qué hacer en una situación difícil como esta?
+
+120
+0:05:30.26,000 --> 0:05:35,000
+Entonces, el enfoque con el que empezamos, es preguntarnos,
+
+121
+0:05:35.26,000 --> 0:05:39,000
+¿es realmente práctico hacer cosas de este tipo?
+
+122
+0:05:39.26,000 --> 0:05:43,000
+Y el problema ahora, y de una manera completamente ingenieril, está resuelto.
+
+123
+0:05:43.26,000 --> 0:05:47,000
+El procedimiento que tenemos es sencillamente comenzar con papel.
+
+124
+0:05:47.26,000 --> 0:05:5,000
+Lo hacen pasar por un nuevo tipo de impresora conocida como impresora de cera.
+
+125
+0:05:50.26,000 --> 0:05:53,000
+La impresora de cera hace algo parecido a imprimir.
+
+126
+0:05:53.26,000 --> 0:05:56,000
+Es imprimir. La encienden, la calientan un poco.
+
+127
+0:05:56.26,000 --> 0:05:59,000
+La cera se imprime de forma que se absorbe en el papel.
+
+128
+0:05:59.26,000 --> 0:06:01,000
+Y terminan con el dispositivo que quieren.
+
+129
+0:06:01.26,000 --> 0:06:05,000
+Las impresoras cuestan 800 dólares ahora.
+
+130
+0:06:05.26,000 --> 0:06:08,000
+Y harán, si estimamos que las tienen trabajando 24 horas al día,
+
+131
+0:06:08.26,000 --> 0:06:11,000
+harían aproximadamente 10 millones de pruebas al año.
+
+132
+0:06:11.26,000 --> 0:06:14,000
+Entonces, es un problema resuelto. Ese problema en particular está resuelto.
+
+133
+0:06:14.26,000 --> 0:06:16,000
+Y ahí está un ejemplo del tipo de resultado que verían.
+
+134
+0:06:16.26,000 --> 0:06:19,000
+Eso es en un papel de 8 por 12 (pulgadas).
+
+135
+0:06:19.26,000 --> 0:06:21,000
+Se tarda 2 segundos en hacer.
+
+136
+0:06:21.26,000 --> 0:06:23,000
+Así que considero que eso ya está resuelto.
+
+137
+0:06:23.26,000 --> 0:06:25,000
+Existe un aspecto muy importante aquí,
+
+138
+0:06:25.26,000 --> 0:06:28,000
+y es que al tratarse de una impresora,
+
+139
+0:06:28.26,000 --> 0:06:31,000
+una impresora a color; imprime colores. Eso es lo que hacen las impresoras a color.
+
+140
+0:06:31.26,000 --> 0:06:35,000
+Les enseñaré en un momento que eso en realidad resulta muy útil.
+
+141
+0:06:35.26,000 --> 0:06:38,000
+Ahora, la siguiente cuestión que querrán preguntar
+
+142
+0:06:38.26,000 --> 0:06:41,000
+es ¿qué quieren medir?¿Qué les gustaría analizar?
+
+143
+0:06:41.26,000 --> 0:06:44,000
+Y lo que más les gustaría analizar
+
+144
+0:06:44.26,000 --> 0:06:46,000
+- aún estamos bastante lejos de lograrlo -
+
+145
+0:06:46.26,000 --> 0:06:5,000
+es lo que se conoce como "fiebre de origen no diagnosticado”.
+
+146
+0:06:50.26,000 --> 0:06:52,000
+Alguien llega a la clínica
+
+147
+0:06:52.26,000 --> 0:06:54,000
+tienen fiebre, se sienten mal, ¿qué tienen?
+
+148
+0:06:54.26,000 --> 0:06:56,000
+¿Tienen tuberculosis?¿Tienen SIDA?
+
+149
+0:06:56.26,000 --> 0:06:58,000
+¿Tienen una gripe común?
+
+150
+0:06:58.26,000 --> 0:07:,000
+El problema de la triada. Es un problema difícil
+
+151
+0:07:00.26,000 --> 0:07:02,000
+por razones que no discutiré.
+
+152
+0:07:02.26,000 --> 0:07:05,000
+Existen una gran cantidad de enfermedades que deberíamos poder distinguir.
+
+153
+0:07:05.26,000 --> 0:07:07,000
+Pero además hay otras enfermedades,
+
+154
+0:07:07.26,000 --> 0:07:09,000
+SIDA, hepatitis, malaria,
+
+155
+0:07:09.26,000 --> 0:07:11,000
+tuberculósis y otras.
+
+156
+0:07:11.26,000 --> 0:07:15,000
+Y otras cuestiones más simples, como la elección de un tratamiento.
+
+157
+0:07:15.26,000 --> 0:07:18,000
+Incluso eso es más complicado de lo que creen.
+
+158
+0:07:18.26,000 --> 0:07:22,000
+Un amigo mío trabaja en psiquiatría transcultural.
+
+159
+0:07:22.26,000 --> 0:07:24,000
+Y le interesa la pregunta de
+
+160
+0:07:24.26,000 --> 0:07:27,000
+por qué las personas toman o dejan de tomar sus medicinas.
+
+161
+0:07:27.26,000 --> 0:07:29,000
+Así, Dapsona, o algo parecido,
+
+162
+0:07:29.26,000 --> 0:07:31,000
+se tiene que tomar por un tiempo.
+
+163
+0:07:31.26,000 --> 0:07:34,000
+Existe la historia maravillosa de que están hablando con un campesino en India
+
+164
+0:07:34.26,000 --> 0:07:36,000
+y le dicen "¿Ya se tomó su Dapsona?". "Sí".
+
+165
+0:07:36.26,000 --> 0:07:39,000
+"¿Se la ha tomado a diario?". "Sí".
+
+166
+0:07:39.26,000 --> 0:07:41,000
+"¿Se la ha tomado por un mes?". "Sí".
+
+167
+0:07:41.26,000 --> 0:07:43,000
+Lo que el hombre realmente quería decir
+
+168
+0:07:43.26,000 --> 0:07:45,000
+es que le había dado una dosis de 30 días de Dapsona
+
+169
+0:07:45.26,000 --> 0:07:47,000
+a su perro esa mañana.
+
+170
+0:07:47.26,000 --> 0:07:48,000
+(Risas)
+
+171
+0:07:48.26,000 --> 0:07:5,000
+Y estaba diciendo la verdad. Porque
+
+172
+0:07:50.26,000 --> 0:07:52,000
+en una cultura diferente,
+
+173
+0:07:52.26,000 --> 0:07:54,000
+el perro es un sustituto de "tú",
+
+174
+0:07:54.26,000 --> 0:07:57,000
+ya saben, "hoy", "este mes", "desde la temporada de lluvias",
+
+175
+0:07:57.26,000 --> 0:08:,000
+existen muchas oportunidades para malentendidos.
+
+176
+0:08:00.26,000 --> 0:08:02,000
+Entonces, es un problema
+
+177
+0:08:02.26,000 --> 0:08:04,000
+en algunos casos el averiguar
+
+178
+0:08:04.26,000 --> 0:08:07,000
+cómo lidiar con asuntos que pueden parecer poco interesantes,
+
+179
+0:08:07.26,000 --> 0:08:1,000
+como la conformidad.
+
+180
+0:08:10.26,000 --> 0:08:14,000
+Ahora, miren cómo se ve una prueba típica.
+
+181
+0:08:14.26,000 --> 0:08:16,000
+Pinchan un dedo, obtienen sangre,
+
+182
+0:08:16.26,000 --> 0:08:18,000
+aproximadamente 50 microlitros.
+
+183
+0:08:18.26,000 --> 0:08:2,000
+Eso es todo lo que obtendrán.
+
+184
+0:08:20.26,000 --> 0:08:24,000
+Porque no pueden usar los sistemas habituales.
+
+185
+0:08:24.26,000 --> 0:08:26,000
+No pueden manipularla muy bien,
+
+186
+0:08:26.26,000 --> 0:08:28,000
+aunque les mostraré algo al respecto en un momento.
+
+187
+0:08:28.26,000 --> 0:08:31,000
+Entonces, toman la gota de sangre, sin manipularla más.
+
+188
+0:08:31.26,000 --> 0:08:33,000
+La ponen en un pequeño dispositivo.
+
+189
+0:08:33.26,000 --> 0:08:37,000
+El dispositivo filtra las células y deja pasar el suero,
+
+190
+0:08:37.26,000 --> 0:08:39,000
+y obtienen una serie de colores
+
+191
+0:08:39.26,000 --> 0:08:41,000
+ahí en la parte de abajo.
+
+192
+0:08:41.26,000 --> 0:08:45,000
+Y los colores indican enfermedad o normalidad.
+
+193
+0:08:45.26,000 --> 0:08:47,000
+Pero incluso eso es complicado.
+
+194
+0:08:47.26,000 --> 0:08:51,000
+Porque para ustedes, para mi, los colores podrían indicar normalidad.
+
+195
+0:08:51.26,000 --> 0:08:53,000
+Pero, después de todo, todos estamos sufriendo de
+
+196
+0:08:53.26,000 --> 0:08:56,000
+un probable exceso de educación.
+
+197
+0:08:56.26,000 --> 0:08:58,000
+¿Qué hacer con algo que requiere
+
+198
+0:08:58.26,000 --> 0:09:,000
+un análisis cuantitativo?
+
+199
+0:09:00.26,000 --> 0:09:03,000
+Entonces, la solución que nosotros y muchas otras personas
+
+200
+0:09:03.26,000 --> 0:09:05,000
+estamos considerando,
+
+201
+0:09:05.26,000 --> 0:09:07,000
+y en este punto existe una expansión dramática,
+
+202
+0:09:07.26,000 --> 0:09:1,000
+y estos días se ha convertido en la solución universal para todo,
+
+203
+0:09:10.26,000 --> 0:09:13,000
+es el teléfono celular. En este caso en particular, un teléfono con cámara.
+
+204
+0:09:13.26,000 --> 0:09:18,000
+Están en todas partes, seis millones al mes, en India.
+
+205
+0:09:18.26,000 --> 0:09:21,000
+Y la idea es que lo que uno hace,
+
+206
+0:09:21.26,000 --> 0:09:23,000
+es tomar el dispositivo.
+
+207
+0:09:23.26,000 --> 0:09:26,000
+Lo sumergen. Esperan a que se revele el color.
+
+208
+0:09:26.26,000 --> 0:09:29,000
+Le toman una foto. La foto se envía al laboratorio central.
+
+209
+0:09:29.26,000 --> 0:09:31,000
+No necesitas enviar un médico.
+
+210
+0:09:31.26,000 --> 0:09:34,000
+Mandas a alguien que pueda tomar la muestra.
+
+211
+0:09:34.26,000 --> 0:09:37,000
+Y en la clínica ya sea un doctor, o idealmente una computadora
+
+212
+0:09:37.26,000 --> 0:09:39,000
+en este caso, hace el análisis.
+
+213
+0:09:39.26,000 --> 0:09:41,000
+Resulta funcionar bastante bien, sobre todo cuando
+
+214
+0:09:41.26,000 --> 0:09:43,000
+tu impresora a color ha imprimido las barras de colores
+
+215
+0:09:43.26,000 --> 0:09:45,000
+que indican cómo funcionan las cosas.
+
+216
+0:09:45.26,000 --> 0:09:48,000
+Entonces, mi visión del trabajador del sector salud del futuro
+
+217
+0:09:48.26,000 --> 0:09:5,000
+no es un médico,
+
+218
+0:09:50.26,000 --> 0:09:53,000
+sino un joven de 18 años, que de otro modo podría estar desempleado
+
+219
+0:09:53.26,000 --> 0:09:55,000
+pero que tiene dos cosas: tiene una mochila llena de estas pruebas,
+
+220
+0:09:55.26,000 --> 0:09:58,000
+y una lanceta con la cual puede tomar una muestra de sangre ocasionalmente,
+
+221
+0:09:58.26,000 --> 0:10:,000
+y un rifle AK47.
+
+222
+0:10:00.26,000 --> 0:10:05,000
+Y esas son las cosas que le permiten sobrevivir día a día.
+
+223
+0:10:05.26,000 --> 0:10:07,000
+Y existe otra conexión muy interesante aquí.
+
+224
+0:10:07.26,000 --> 0:10:09,000
+Y es que lo que uno quiere hacer
+
+225
+0:10:09.26,000 --> 0:10:12,000
+es comunicar la información útil
+
+226
+0:10:12.26,000 --> 0:10:16,000
+a través de un sistema de teléfonos que por lo general es terrible.
+
+227
+0:10:16.26,000 --> 0:10:19,000
+Y resulta que hay una gran cantidad de información
+
+228
+0:10:19.26,000 --> 0:10:22,000
+ya disponible sobre el tema, que es el problema del explorador que se envió a Marte.
+
+229
+0:10:22.26,000 --> 0:10:26,000
+¿Cómo se puede obtener una vista precisa del color en Marte,
+
+230
+0:10:26.26,000 --> 0:10:3,000
+si se tiene un ancho de banda terrible para lograrlo?
+
+231
+0:10:30.26,000 --> 0:10:32,000
+Y la respuesta no es complicada
+
+232
+0:10:32.26,000 --> 0:10:34,000
+pero es algo que no quiero discutir en esta ocasión,
+
+233
+0:10:34.26,000 --> 0:10:37,000
+excepto para decir que los sistemas de comunicación
+
+234
+0:10:37.26,000 --> 0:10:39,000
+para hacer esto han sido muy bien estudiados.
+
+235
+0:10:39.26,000 --> 0:10:42,000
+También, un hecho que tal vez no conozcan
+
+236
+0:10:42.26,000 --> 0:10:45,000
+es que la capacidad de computación de este dispositivo
+
+237
+0:10:45.26,000 --> 0:10:47,000
+no es tan diferente de la capacidad de computación
+
+238
+0:10:47.26,000 --> 0:10:49,000
+de su computadora de escritorio.
+
+239
+0:10:49.26,000 --> 0:10:52,000
+Este es un dispositivo fantástico que apenas empieza a ser aprovechado.
+
+240
+0:10:52.26,000 --> 0:10:56,000
+Y no sé si la idea de una computadora por niño
+
+241
+0:10:56.26,000 --> 0:10:59,000
+tiene sentido. Ésta es la computadora del futuro.
+
+242
+0:10:59.26,000 --> 0:11:04,000
+Porque esta pantalla ya esta ahí y además son ubicuos.
+
+243
+0:11:04.26,000 --> 0:11:06,000
+Muy bien, ahora déjenme mostrarles algo acerca de dispositivos más avanzados.
+
+244
+0:11:06.26,000 --> 0:11:09,000
+Y comenzaremos por proponer un pequeño problema.
+
+245
+0:11:09.26,000 --> 0:11:12,000
+Lo que ven aquí es otro dispositivo de un centímetro de tamaño.
+
+246
+0:11:12.26,000 --> 0:11:16,000
+Y los colores diferentes son distintas tintas de color.
+
+247
+0:11:16.26,000 --> 0:11:18,000
+Y se nota algo que les podría parecer
+
+248
+0:11:18.26,000 --> 0:11:2,000
+interesante,
+
+249
+0:11:20.26,000 --> 0:11:23,000
+y es que el amarillo parece desaparecer,
+
+250
+0:11:23.26,000 --> 0:11:26,000
+atravesar el azul, y luego pasar por el rojo.
+
+251
+0:11:26.26,000 --> 0:11:29,000
+¿Cómo sucede eso?¿Cómo haces que algo fluya a través de algo?
+
+252
+0:11:29.26,000 --> 0:11:31,000
+Y desde luego la respuesta es: "no lo haces"
+
+253
+0:11:31.26,000 --> 0:11:33,000
+Lo haces pasar por debajo o por encima.
+
+254
+0:11:33.26,000 --> 0:11:35,000
+Pero ahora la pregunta es, ¿cómo lo haces fluir
+
+255
+0:11:35.26,000 --> 0:11:38,000
+por debajo y por encima en un pedazo de papel?
+
+256
+0:11:38.26,000 --> 0:11:41,000
+Y la respuesta es que lo que haces,
+
+257
+0:11:41.26,000 --> 0:11:44,000
+y los detalles no son tan importantes aquí,
+
+258
+0:11:44.26,000 --> 0:11:46,000
+es algo más elaborado.
+
+259
+0:11:46.26,000 --> 0:11:48,000
+Tomas varias capas de papel,
+
+260
+0:11:48.26,000 --> 0:11:51,000
+cada una conteniendo su propio sistema de fluidos,
+
+261
+0:11:51.26,000 --> 0:11:53,000
+y las separas con pedazos de,
+
+262
+0:11:53.26,000 --> 0:11:56,000
+literalmente, cinta adhesiva de doble lado,
+
+263
+0:11:56.26,000 --> 0:11:59,000
+de las que se usan para pegar alfombras al piso.
+
+264
+0:11:59.26,000 --> 0:12:02,000
+Y el fluido pasará de una capa a la siguiente.
+
+265
+0:12:02.26,000 --> 0:12:05,000
+Se distribuirá, pasará por más hoyos,
+
+266
+0:12:05.26,000 --> 0:12:07,000
+se distribuirá.
+
+267
+0:12:07.26,000 --> 0:12:1,000
+Y lo que ven ahí en la parte inferior derecha
+
+268
+0:12:10.26,000 --> 0:12:12,000
+es una muestra en la que una muestra individual
+
+269
+0:12:12.26,000 --> 0:12:15,000
+de sangre se ha colocado en la parte superior
+
+270
+0:12:15.26,000 --> 0:12:18,000
+y ha atravesado y se ha distribuido
+
+271
+0:12:18.26,000 --> 0:12:21,000
+en estos 16 hoyos de la parte de abajo,
+
+272
+0:12:21.26,000 --> 0:12:23,000
+en un pedazo de papel, que básicamente se ve como un chip,
+
+273
+0:12:23.26,000 --> 0:12:26,000
+con un grosor de dos pedazos de papel.
+
+274
+0:12:26.26,000 --> 0:12:28,000
+Y en este caso en particular lo que nos interesaba
+
+275
+0:12:28.26,000 --> 0:12:3,000
+era la capacidad de reproducir eso.
+
+276
+0:12:30.26,000 --> 0:12:32,000
+Pero esta es, en principio, la manera en la que se resuelve
+
+277
+0:12:32.26,000 --> 0:12:34,000
+el problema de la "fiebre de origen no explicado".
+
+278
+0:12:34.26,000 --> 0:12:36,000
+Porque cada uno de esos puntos luego se convierte
+
+279
+0:12:36.26,000 --> 0:12:39,000
+en una prueba para un determinado juego de marcadores
+
+280
+0:12:39.26,000 --> 0:12:41,000
+de enfermedades.
+
+281
+0:12:41.26,000 --> 0:12:43,000
+Y esto funcionará en su debido tiempo.
+
+282
+0:12:43.26,000 --> 0:12:46,000
+Y aquí hay un ejemplo de un dispositivo un poco más complicado.
+
+283
+0:12:46.26,000 --> 0:12:48,000
+Ahí esta el chip.
+
+284
+0:12:48.26,000 --> 0:12:5,000
+Sumergen una esquina. El fluido llega al centro.
+
+285
+0:12:50.26,000 --> 0:12:53,000
+Y se distribuye en estos
+
+286
+0:12:53.26,000 --> 0:12:55,000
+pozos u hoyos, y cambia de color.
+
+287
+0:12:55.26,000 --> 0:12:58,000
+Y todo está hecho con papel y cinta adhesiva.
+
+288
+0:12:58.26,000 --> 0:13:,000
+Entonces, creo que es lo más barato
+
+289
+0:13:00.26,000 --> 0:13:04,000
+que podremos llegar a hacer este tipo de cosas.
+
+290
+0:13:04.26,000 --> 0:13:07,000
+Ahora, me queda una última, bueno dos pequeñas historias
+
+291
+0:13:07.26,000 --> 0:13:1,000
+por contarles, para terminar este asunto.
+
+292
+0:13:10.26,000 --> 0:13:13,000
+Ésta es una de ellas. Una de las cosas que uno debe hacer
+
+293
+0:13:13.26,000 --> 0:13:16,000
+ocasionalmente es separar células de la sangre del suero.
+
+294
+0:13:16.26,000 --> 0:13:19,000
+Y la pregunta era,
+
+295
+0:13:19.26,000 --> 0:13:21,000
+aquí lo hacemos tomando una muestra.
+
+296
+0:13:21.26,000 --> 0:13:24,000
+Poniéndola en una centrífuga.
+
+297
+0:13:24.26,000 --> 0:13:28,000
+La centrifugamos y descartamos las células sanguíneas. Genial.
+
+298
+0:13:28.26,000 --> 0:13:3,000
+¿Qué pasa si no tienen electricidad,
+
+299
+0:13:30.26,000 --> 0:13:32,000
+ni una centrífuga, ni nada?
+
+300
+0:13:32.26,000 --> 0:13:35,000
+Y pensamos por un tiempo cómo se podría lograr esto.
+
+301
+0:13:35.26,000 --> 0:13:37,000
+Y, de hecho, la manera en la que se hace, es lo que les muestro aquí.
+
+302
+0:13:37.26,000 --> 0:13:39,000
+Obtienen un batidor de huevos,
+
+303
+0:13:39.26,000 --> 0:13:42,000
+que se puede encontrar en cualquier sitio. Y le quitan una aspa.
+
+304
+0:13:42.26,000 --> 0:13:44,000
+Y luego toman unos tubos,
+
+305
+0:13:44.26,000 --> 0:13:46,000
+los pegan al aspa que queda, los llenan de sangre y lo hacen girar.
+
+306
+0:13:46.26,000 --> 0:13:48,000
+Alguien se sienta ahí y lo hace girar.
+
+307
+0:13:48.26,000 --> 0:13:5,000
+Y funciona muy muy bien.
+
+308
+0:13:50.26,000 --> 0:13:52,000
+Y dijimos que estudiamos la física de los batidores de huevos,
+
+309
+0:13:52.26,000 --> 0:13:55,000
+y de los tubos autoalineados y todas esas cosas,
+
+310
+0:13:55.26,000 --> 0:13:57,000
+y lo enviar a una revista científica.
+
+311
+0:13:57.26,000 --> 0:13:59,000
+Y estamos muy orgullosos de esto, sobre todo del título
+
+312
+0:13:59.26,000 --> 0:14:01,000
+que era "Batidor de huevos como centrífuga".
+
+313
+0:14:01.26,000 --> 0:14:02,000
+(Risas)
+
+314
+0:14:02.26,000 --> 0:14:05,000
+Lo enviamos y regresó por correo.
+
+315
+0:14:05.26,000 --> 0:14:07,000
+Llamé al editor y le dije,
+
+316
+0:14:07.26,000 --> 0:14:09,000
+"¿Qué sucede?¿Cómo es posible?"
+
+317
+0:14:09.26,000 --> 0:14:12,000
+Y el editor dijo, con gran desdén,
+
+318
+0:14:12.26,000 --> 0:14:14,000
+"Leí esto.
+
+319
+0:14:14.26,000 --> 0:14:16,000
+Y no lo vamos a publicar, porque nosotros sólo
+
+320
+0:14:16.26,000 --> 0:14:18,000
+publicamos ciencia."
+
+321
+0:14:18.26,000 --> 0:14:2,000
+Y esto es un asunto importante
+
+322
+0:14:20.26,000 --> 0:14:22,000
+porque significa que tenemos que,
+
+323
+0:14:22.26,000 --> 0:14:24,000
+como sociedad,
+
+324
+0:14:24.26,000 --> 0:14:26,000
+reflexionar sobre lo que valoramos.
+
+325
+0:14:26.26,000 --> 0:14:28,000
+Y si son sólo artículos científicos y tratados sobre física,
+
+326
+0:14:28.26,000 --> 0:14:31,000
+entonces tenemos un problema.
+
+327
+0:14:31.26,000 --> 0:14:34,000
+Y aquí hay otro ejemplo de algo que es --
+
+328
+0:14:34.26,000 --> 0:14:36,000
+Esto es un pequeño espectrofotómetro.
+
+329
+0:14:36.26,000 --> 0:14:39,000
+Mide la absorción de luz en una muestra.
+
+330
+0:14:39.26,000 --> 0:14:42,000
+Y lo ingenioso de esto es que tienes una fuente de luz que parpadea
+
+331
+0:14:42.26,000 --> 0:14:44,000
+a unos 1.000 hertzios
+
+332
+0:14:44.26,000 --> 0:14:48,000
+Otra fuente de luz que detecta luz a 1.000 hertzios.
+
+333
+0:14:48.26,000 --> 0:14:51,000
+Así que pueden emplear este sistema en plena luz del día.
+
+334
+0:14:51.26,000 --> 0:14:53,000
+Y funciona de manera equivalente
+
+335
+0:14:53.26,000 --> 0:14:56,000
+a un sistema que cuesta alrededor de
+
+336
+0:14:56.26,000 --> 0:14:58,000
+100.000 dólares.
+
+337
+0:14:58.26,000 --> 0:15:01,000
+Esto cuesta 50 dólares. Y probablemente lo podemos hacer por 50 centavos,
+
+338
+0:15:01.26,000 --> 0:15:03,000
+si nos centramos en ello.
+
+339
+0:15:03.26,000 --> 0:15:05,000
+¿Y por qué nadie lo hace? La respuesta es,
+
+340
+0:15:05.26,000 --> 0:15:09,000
+"¿cómo se pueden generar ganancias en un sistema capitalista haciendo eso?".
+
+341
+0:15:09.26,000 --> 0:15:12,000
+Es un problema interesante.
+
+342
+0:15:12.26,000 --> 0:15:14,000
+Así que, déjenme terminar diciéndo,
+
+343
+0:15:14.26,000 --> 0:15:18,000
+que pensamos en esto como si fuera un problema ingenieril.
+
+344
+0:15:18.26,000 --> 0:15:24,000
+Y nos hemos preguntado, ¿cuál es la idea científica unificadora aquí?
+
+345
+0:15:24.26,000 --> 0:15:25,000
+Y hemos decidido que deberíamos pensar en ello
+
+346
+0:15:25.26,000 --> 0:15:27,000
+no tanto en términos de costo,
+
+347
+0:15:27.26,000 --> 0:15:29,000
+sino en términos de simplicidad.
+
+348
+0:15:29.26,000 --> 0:15:31,000
+Simplicidad es una palabra genial. Y deben de reflexionar
+
+349
+0:15:31.26,000 --> 0:15:33,000
+sobre qué significa simplicidad.
+
+350
+0:15:33.26,000 --> 0:15:37,000
+Yo sé lo que es, pero en realidad no sé lo que significa.
+
+351
+0:15:37.26,000 --> 0:15:39,000
+Así que estaba realmente tan interesado en esto como para juntar
+
+352
+0:15:39.26,000 --> 0:15:43,000
+a varios grupos de personas.
+
+353
+0:15:43.26,000 --> 0:15:46,000
+Y los últimos en involucrarse fueron un par de personas del MIT (Instituto de Tecnología de Massachusetts),
+
+354
+0:15:46.26,000 --> 0:15:48,000
+siendo uno de ellos un joven excepcionalmente brillante
+
+355
+0:15:48.26,000 --> 0:15:5,000
+y una de las pocas personas que identificaría como
+
+356
+0:15:50.26,000 --> 0:15:52,000
+un auténtico genio.
+
+357
+0:15:52.26,000 --> 0:15:56,000
+Batallamos durante un día entero pensando sobre la simplicidad.
+
+358
+0:15:56.26,000 --> 0:15:58,000
+Y les quiero dar el resultado de este
+
+359
+0:15:58.26,000 --> 0:16:01,000
+profundo pensamiento científico.
+
+360
+0:16:01.26,000 --> 0:16:04,000
+(Risas) (¿Qué es simplicidad? “Es aquello imposible de jo..r”)
+
+361
+0:16:04.26,000 --> 0:16:07,000
+Así que, de alguna forma, lo barato sale caro.
+
+362
+0:16:07.26,000 --> 0:16:09,000
+Muchas gracias.
+
+363
+0:16:09.26,000 --> 0:16:1,000
+(Risas)
+

@@ -1,0 +1,1196 @@
+1
+0:00:13.373,000 --> 0:00:16,000
+Most of us think of motion as a very visual thing.
+
+2
+0:00:17.889,000 --> 0:00:22,000
+If I walk across this stage or gesture with my hands while I speak,
+
+3
+0:00:22.977,000 --> 0:00:24,000
+that motion is something that you can see.
+
+4
+0:00:26.255,000 --> 0:00:31,000
+But there's a world of important motion that's too subtle for the human eye,
+
+5
+0:00:31.737,000 --> 0:00:33,000
+and over the past few years,
+
+6
+0:00:33.778,000 --> 0:00:34,000
+we've started to find that cameras
+
+7
+0:00:35.775,000 --> 0:00:38,000
+can often see this motion even when humans can't.
+
+8
+0:00:40.305,000 --> 0:00:41,000
+So let me show you what I mean.
+
+9
+0:00:42.717,000 --> 0:00:45,000
+On the left here, you see video of a person's wrist,
+
+10
+0:00:46.339,000 --> 0:00:49,000
+and on the right, you see video of a sleeping infant,
+
+11
+0:00:49.486,000 --> 0:00:52,000
+but if I didn't tell you that these were videos,
+
+12
+0:00:52.632,000 --> 0:00:55,000
+you might assume that you were looking at two regular images,
+
+13
+0:00:56.393,000 --> 0:00:57,000
+because in both cases,
+
+14
+0:00:58.065,000 --> 0:01:01,000
+these videos appear to be almost completely still.
+
+15
+0:01:02.175,000 --> 0:01:05,000
+But there's actually a lot of subtle motion going on here,
+
+16
+0:01:06.06,000 --> 0:01:08,000
+and if you were to touch the wrist on the left,
+
+17
+0:01:08.452,000 --> 0:01:09,000
+you would feel a pulse,
+
+18
+0:01:10.448,000 --> 0:01:12,000
+and if you were to hold the infant on the right,
+
+19
+0:01:12.933,000 --> 0:01:14,000
+you would feel the rise and fall of her chest
+
+20
+0:01:15.324,000 --> 0:01:16,000
+as she took each breath.
+
+21
+0:01:17.762,000 --> 0:01:2,000
+And these motions carry a lot of significance,
+
+22
+0:01:21.338,000 --> 0:01:24,000
+but they're usually too subtle for us to see,
+
+23
+0:01:24.681,000 --> 0:01:26,000
+so instead, we have to observe them
+
+24
+0:01:26.957,000 --> 0:01:28,000
+through direct contact, through touch.
+
+25
+0:01:30.997,000 --> 0:01:31,000
+But a few years ago,
+
+26
+0:01:32.262,000 --> 0:01:36,000
+my colleagues at MIT developed what they call a motion microscope,
+
+27
+0:01:36.667,000 --> 0:01:4,000
+which is software that finds these subtle motions in video
+
+28
+0:01:41.051,000 --> 0:01:44,000
+and amplifies them so that they become large enough for us to see.
+
+29
+0:01:45.416,000 --> 0:01:48,000
+And so, if we use their software on the left video,
+
+30
+0:01:48.899,000 --> 0:01:51,000
+it lets us see the pulse in this wrist,
+
+31
+0:01:52.149,000 --> 0:01:53,000
+and if we were to count that pulse,
+
+32
+0:01:53.844,000 --> 0:01:55,000
+we could even figure out this person's heart rate.
+
+33
+0:01:57.095,000 --> 0:02:,000
+And if we used the same software on the right video,
+
+34
+0:02:00.16,000 --> 0:02:03,000
+it lets us see each breath that this infant takes,
+
+35
+0:02:03.387,000 --> 0:02:07,000
+and we can use this as a contact-free way to monitor her breathing.
+
+36
+0:02:08.884,000 --> 0:02:13,000
+And so this technology is really powerful because it takes these phenomena
+
+37
+0:02:14.232,000 --> 0:02:16,000
+that we normally have to experience through touch
+
+38
+0:02:16.599,000 --> 0:02:18,000
+and it lets us capture them visually and non-invasively.
+
+39
+0:02:21.104,000 --> 0:02:25,000
+So a couple years ago, I started working with the folks that created that software,
+
+40
+0:02:25.515,000 --> 0:02:28,000
+and we decided to pursue a crazy idea.
+
+41
+0:02:28.882,000 --> 0:02:3,000
+We thought, it's cool that we can use software
+
+42
+0:02:31.575,000 --> 0:02:34,000
+to visualize tiny motions like this,
+
+43
+0:02:34.71,000 --> 0:02:38,000
+and you can almost think of it as a way to extend our sense of touch.
+
+44
+0:02:39.168,000 --> 0:02:43,000
+But what if we could do the same thing with our ability to hear?
+
+45
+0:02:44.508,000 --> 0:02:48,000
+What if we could use video to capture the vibrations of sound,
+
+46
+0:02:49.173,000 --> 0:02:51,000
+which are just another kind of motion,
+
+47
+0:02:52,000 --> 0:02:55,000
+and turn everything that we see into a microphone?
+
+48
+0:02:56.236,000 --> 0:02:57,000
+Now, this is a bit of a strange idea,
+
+49
+0:02:58.207,000 --> 0:03:,000
+so let me try to put it in perspective for you.
+
+50
+0:03:01.523,000 --> 0:03:04,000
+Traditional microphones work by converting the motion
+
+51
+0:03:05.011,000 --> 0:03:08,000
+of an internal diaphragm into an electrical signal,
+
+52
+0:03:08.61,000 --> 0:03:12,000
+and that diaphragm is designed to move readily with sound
+
+53
+0:03:12.928,000 --> 0:03:16,000
+so that its motion can be recorded and interpreted as audio.
+
+54
+0:03:17.735,000 --> 0:03:2,000
+But sound causes all objects to vibrate.
+
+55
+0:03:21.403,000 --> 0:03:26,000
+Those vibrations are just usually too subtle and too fast for us to see.
+
+56
+0:03:26.883,000 --> 0:03:29,000
+So what if we record them with a high-speed camera
+
+57
+0:03:30.621,000 --> 0:03:33,000
+and then use software to extract tiny motions
+
+58
+0:03:34.197,000 --> 0:03:36,000
+from our high-speed video,
+
+59
+0:03:36.287,000 --> 0:03:4,000
+and analyze those motions to figure out what sounds created them?
+
+60
+0:03:41.859,000 --> 0:03:46,000
+This would let us turn visible objects into visual microphones from a distance.
+
+61
+0:03:49.08,000 --> 0:03:51,000
+And so we tried this out,
+
+62
+0:03:51.263,000 --> 0:03:52,000
+and here's one of our experiments,
+
+63
+0:03:53.19,000 --> 0:03:55,000
+where we took this potted plant that you see on the right
+
+64
+0:03:56.139,000 --> 0:03:58,000
+and we filmed it with a high-speed camera
+
+65
+0:03:58.577,000 --> 0:04:01,000
+while a nearby loudspeaker played this sound.
+
+66
+0:04:02.275,000 --> 0:04:1,000
+(Music: "Mary Had a Little Lamb")
+
+67
+0:04:11.82,000 --> 0:04:13,000
+And so here's the video that we recorded,
+
+68
+0:04:14.644,000 --> 0:04:17,000
+and we recorded it at thousands of frames per second,
+
+69
+0:04:18.568,000 --> 0:04:2,000
+but even if you look very closely,
+
+70
+0:04:20.89,000 --> 0:04:21,000
+all you'll see are some leaves
+
+71
+0:04:22.841,000 --> 0:04:25,000
+that are pretty much just sitting there doing nothing,
+
+72
+0:04:25.906,000 --> 0:04:29,000
+because our sound only moved those leaves by about a micrometer.
+
+73
+0:04:31.103,000 --> 0:04:35,000
+That's one ten-thousandth of a centimeter,
+
+74
+0:04:35.379,000 --> 0:04:39,000
+which spans somewhere between a hundredth and a thousandth
+
+75
+0:04:39.535,000 --> 0:04:41,000
+of a pixel in this image.
+
+76
+0:04:41.881,000 --> 0:04:43,000
+So you can squint all you want,
+
+77
+0:04:44.768,000 --> 0:04:47,000
+but motion that small is pretty much perceptually invisible.
+
+78
+0:04:49.667,000 --> 0:04:53,000
+But it turns out that something can be perceptually invisible
+
+79
+0:04:53.824,000 --> 0:04:55,000
+and still be numerically significant,
+
+80
+0:04:56.633,000 --> 0:04:58,000
+because with the right algorithms,
+
+81
+0:04:58.635,000 --> 0:05:01,000
+we can take this silent, seemingly still video
+
+82
+0:05:02.322,000 --> 0:05:03,000
+and we can recover this sound.
+
+83
+0:05:04.69,000 --> 0:05:11,000
+(Music: "Mary Had a Little Lamb")
+
+84
+0:05:12.074,000 --> 0:05:17,000
+(Applause)
+
+85
+0:05:22.058,000 --> 0:05:23,000
+So how is this possible?
+
+86
+0:05:23.997,000 --> 0:05:27,000
+How can we get so much information out of so little motion?
+
+87
+0:05:28.341,000 --> 0:05:33,000
+Well, let's say that those leaves move by just a single micrometer,
+
+88
+0:05:33.702,000 --> 0:05:37,000
+and let's say that that shifts our image by just a thousandth of a pixel.
+
+89
+0:05:39.269,000 --> 0:05:41,000
+That may not seem like much,
+
+90
+0:05:41.841,000 --> 0:05:42,000
+but a single frame of video
+
+91
+0:05:43.837,000 --> 0:05:46,000
+may have hundreds of thousands of pixels in it,
+
+92
+0:05:47.094,000 --> 0:05:5,000
+and so if we combine all of the tiny motions that we see
+
+93
+0:05:50.548,000 --> 0:05:52,000
+from across that entire image,
+
+94
+0:05:52.846,000 --> 0:05:54,000
+then suddenly a thousandth of a pixel
+
+95
+0:05:55.469,000 --> 0:05:57,000
+can start to add up to something pretty significant.
+
+96
+0:05:58.87,000 --> 0:06:01,000
+On a personal note, we were pretty psyched when we figured this out.
+
+97
+0:06:02.505,000 --> 0:06:04,000
+(Laughter)
+
+98
+0:06:04.825,000 --> 0:06:07,000
+But even with the right algorithm,
+
+99
+0:06:08.078,000 --> 0:06:11,000
+we were still missing a pretty important piece of the puzzle.
+
+100
+0:06:11.695,000 --> 0:06:14,000
+You see, there are a lot of factors that affect when and how well
+
+101
+0:06:15.299,000 --> 0:06:16,000
+this technique will work.
+
+102
+0:06:17.296,000 --> 0:06:2,000
+There's the object and how far away it is;
+
+103
+0:06:20.5,000 --> 0:06:22,000
+there's the camera and the lens that you use;
+
+104
+0:06:22.894,000 --> 0:06:26,000
+how much light is shining on the object and how loud your sound is.
+
+105
+0:06:27.945,000 --> 0:06:3,000
+And even with the right algorithm,
+
+106
+0:06:31.32,000 --> 0:06:34,000
+we had to be very careful with our early experiments,
+
+107
+0:06:34.71,000 --> 0:06:36,000
+because if we got any of these factors wrong,
+
+108
+0:06:37.102,000 --> 0:06:39,000
+there was no way to tell what the problem was.
+
+109
+0:06:39.47,000 --> 0:06:41,000
+We would just get noise back.
+
+110
+0:06:42.117,000 --> 0:06:45,000
+And so a lot of our early experiments looked like this.
+
+111
+0:06:45.437,000 --> 0:06:47,000
+And so here I am,
+
+112
+0:06:47.643,000 --> 0:06:51,000
+and on the bottom left, you can kind of see our high-speed camera,
+
+113
+0:06:51.683,000 --> 0:06:53,000
+which is pointed at a bag of chips,
+
+114
+0:06:53.866,000 --> 0:06:55,000
+and the whole thing is lit by these bright lamps.
+
+115
+0:06:56.815,000 --> 0:07:,000
+And like I said, we had to be very careful in these early experiments,
+
+116
+0:07:01.18,000 --> 0:07:03,000
+so this is how it went down.
+
+117
+0:07:03.688,000 --> 0:07:06,000
+(Video) Abe Davis: Three, two, one, go.
+
+118
+0:07:07.449,000 --> 0:07:12,000
+Mary had a little lamb! Little lamb! Little lamb!
+
+119
+0:07:12.836,000 --> 0:07:16,000
+(Laughter)
+
+120
+0:07:17.336,000 --> 0:07:19,000
+AD: So this experiment looks completely ridiculous.
+
+121
+0:07:20.15,000 --> 0:07:21,000
+(Laughter)
+
+122
+0:07:21.938,000 --> 0:07:23,000
+I mean, I'm screaming at a bag of chips --
+
+123
+0:07:24.283,000 --> 0:07:25,000
+(Laughter) --
+
+124
+0:07:25.834,000 --> 0:07:27,000
+and we're blasting it with so much light,
+
+125
+0:07:27.951,000 --> 0:07:31,000
+we literally melted the first bag we tried this on. (Laughter)
+
+126
+0:07:32.525,000 --> 0:07:35,000
+But ridiculous as this experiment looks,
+
+127
+0:07:35.799,000 --> 0:07:36,000
+it was actually really important,
+
+128
+0:07:37.587,000 --> 0:07:39,000
+because we were able to recover this sound.
+
+129
+0:07:40.513,000 --> 0:07:44,000
+(Audio) Mary had a little lamb! Little lamb! Little lamb!
+
+130
+0:07:45.225,000 --> 0:07:49,000
+(Applause)
+
+131
+0:07:49.313,000 --> 0:07:5,000
+AD: And this was really significant,
+
+132
+0:07:51.194,000 --> 0:07:55,000
+because it was the first time we recovered intelligible human speech
+
+133
+0:07:55.424,000 --> 0:07:57,000
+from silent video of an object.
+
+134
+0:07:57.765,000 --> 0:07:59,000
+And so it gave us this point of reference,
+
+135
+0:08:00.156,000 --> 0:08:03,000
+and gradually we could start to modify the experiment,
+
+136
+0:08:04.106,000 --> 0:08:07,000
+using different objects or moving the object further away,
+
+137
+0:08:07.911,000 --> 0:08:09,000
+using less light or quieter sounds.
+
+138
+0:08:11.887,000 --> 0:08:13,000
+And we analyzed all of these experiments
+
+139
+0:08:14.761,000 --> 0:08:17,000
+until we really understood the limits of our technique,
+
+140
+0:08:18.383,000 --> 0:08:19,000
+because once we understood those limits,
+
+141
+0:08:20.333,000 --> 0:08:22,000
+we could figure out how to push them.
+
+142
+0:08:22.679,000 --> 0:08:25,000
+And that led to experiments like this one,
+
+143
+0:08:25.86,000 --> 0:08:27,000
+where again, I'm going to speak to a bag of chips,
+
+144
+0:08:28.599,000 --> 0:08:32,000
+but this time we've moved our camera about 15 feet away,
+
+145
+0:08:33.429,000 --> 0:08:35,000
+outside, behind a soundproof window,
+
+146
+0:08:36.262,000 --> 0:08:38,000
+and the whole thing is lit by only natural sunlight.
+
+147
+0:08:40.529,000 --> 0:08:42,000
+And so here's the video that we captured.
+
+148
+0:08:44.45,000 --> 0:08:48,000
+And this is what things sounded like from inside, next to the bag of chips.
+
+149
+0:08:49.009,000 --> 0:08:54,000
+(Audio) Mary had a little lamb whose fleece was white as snow,
+
+150
+0:08:54.047,000 --> 0:08:59,000
+and everywhere that Mary went, that lamb was sure to go.
+
+151
+0:08:59.666,000 --> 0:09:03,000
+AD: And here's what we were able to recover from our silent video
+
+152
+0:09:03.683,000 --> 0:09:05,000
+captured outside behind that window.
+
+153
+0:09:06.028,000 --> 0:09:1,000
+(Audio) Mary had a little lamb whose fleece was white as snow,
+
+154
+0:09:10.463,000 --> 0:09:15,000
+and everywhere that Mary went, that lamb was sure to go.
+
+155
+0:09:15.92,000 --> 0:09:21,000
+(Applause)
+
+156
+0:09:22.421,000 --> 0:09:25,000
+AD: And there are other ways that we can push these limits as well.
+
+157
+0:09:25.963,000 --> 0:09:26,000
+So here's a quieter experiment
+
+158
+0:09:27.761,000 --> 0:09:31,000
+where we filmed some earphones plugged into a laptop computer,
+
+159
+0:09:31.871,000 --> 0:09:35,000
+and in this case, our goal was to recover the music that was playing on that laptop
+
+160
+0:09:35.981,000 --> 0:09:37,000
+from just silent video
+
+161
+0:09:38.28,000 --> 0:09:4,000
+of these two little plastic earphones,
+
+162
+0:09:40.787,000 --> 0:09:42,000
+and we were able to do this so well
+
+163
+0:09:42.97,000 --> 0:09:44,000
+that I could even Shazam our results.
+
+164
+0:09:45.431,000 --> 0:09:47,000
+(Laughter)
+
+165
+0:09:49.191,000 --> 0:09:59,000
+(Music: "Under Pressure" by Queen)
+
+166
+0:10:01.615,000 --> 0:10:05,000
+(Applause)
+
+167
+0:10:06.584,000 --> 0:10:1,000
+And we can also push things by changing the hardware that we use.
+
+168
+0:10:11.135,000 --> 0:10:13,000
+Because the experiments I've shown you so far
+
+169
+0:10:13.596,000 --> 0:10:15,000
+were done with a camera, a high-speed camera,
+
+170
+0:10:15.918,000 --> 0:10:17,000
+that can record video about a 100 times faster
+
+171
+0:10:18.797,000 --> 0:10:19,000
+than most cell phones,
+
+172
+0:10:20.724,000 --> 0:10:22,000
+but we've also found a way to use this technique
+
+173
+0:10:23.533,000 --> 0:10:25,000
+with more regular cameras,
+
+174
+0:10:25.763,000 --> 0:10:29,000
+and we do that by taking advantage of what's called a rolling shutter.
+
+175
+0:10:29.832,000 --> 0:10:33,000
+You see, most cameras record images one row at a time,
+
+176
+0:10:34.63,000 --> 0:10:39,000
+and so if an object moves during the recording of a single image,
+
+177
+0:10:40.344,000 --> 0:10:42,000
+there's a slight time delay between each row,
+
+178
+0:10:43.061,000 --> 0:10:46,000
+and this causes slight artifacts
+
+179
+0:10:46.218,000 --> 0:10:49,000
+that get coded into each frame of a video.
+
+180
+0:10:49.701,000 --> 0:10:52,000
+And so what we found is that by analyzing these artifacts,
+
+181
+0:10:53.507,000 --> 0:10:57,000
+we can actually recover sound using a modified version of our algorithm.
+
+182
+0:10:58.122,000 --> 0:10:59,000
+So here's an experiment we did
+
+183
+0:11:00.034,000 --> 0:11:01,000
+where we filmed a bag of candy
+
+184
+0:11:01.729,000 --> 0:11:02,000
+while a nearby loudspeaker played
+
+185
+0:11:03.47,000 --> 0:11:05,000
+the same "Mary Had a Little Lamb" music from before,
+
+186
+0:11:06.442,000 --> 0:11:1,000
+but this time, we used just a regular store-bought camera,
+
+187
+0:11:10.645,000 --> 0:11:13,000
+and so in a second, I'll play for you the sound that we recovered,
+
+188
+0:11:13.819,000 --> 0:11:15,000
+and it's going to sound distorted this time,
+
+189
+0:11:15.869,000 --> 0:11:17,000
+but listen and see if you can still recognize the music.
+
+190
+0:11:19.723,000 --> 0:11:25,000
+(Audio: "Mary Had a Little Lamb")
+
+191
+0:11:37.527,000 --> 0:11:4,000
+And so, again, that sounds distorted,
+
+192
+0:11:40.992,000 --> 0:11:44,000
+but what's really amazing here is that we were able to do this
+
+193
+0:11:45.378,000 --> 0:11:47,000
+with something that you could literally run out
+
+194
+0:11:48.004,000 --> 0:11:49,000
+and pick up at a Best Buy.
+
+195
+0:11:51.122,000 --> 0:11:52,000
+So at this point,
+
+196
+0:11:52.485,000 --> 0:11:53,000
+a lot of people see this work,
+
+197
+0:11:54.459,000 --> 0:11:57,000
+and they immediately think about surveillance.
+
+198
+0:11:57.872,000 --> 0:11:59,000
+And to be fair,
+
+199
+0:12:00.287,000 --> 0:12:04,000
+it's not hard to imagine how you might use this technology to spy on someone.
+
+200
+0:12:04.42,000 --> 0:12:07,000
+But keep in mind that there's already a lot of very mature technology
+
+201
+0:12:08.367,000 --> 0:12:09,000
+out there for surveillance.
+
+202
+0:12:09.946,000 --> 0:12:11,000
+In fact, people have been using lasers
+
+203
+0:12:12.036,000 --> 0:12:14,000
+to eavesdrop on objects from a distance for decades.
+
+204
+0:12:15.978,000 --> 0:12:17,000
+But what's really new here,
+
+205
+0:12:18.003,000 --> 0:12:19,000
+what's really different,
+
+206
+0:12:19.443,000 --> 0:12:23,000
+is that now we have a way to picture the vibrations of an object,
+
+207
+0:12:23.738,000 --> 0:12:26,000
+which gives us a new lens through which to look at the world,
+
+208
+0:12:27.151,000 --> 0:12:28,000
+and we can use that lens
+
+209
+0:12:28.661,000 --> 0:12:32,000
+to learn not just about forces like sound that cause an object to vibrate,
+
+210
+0:12:33.56,000 --> 0:12:35,000
+but also about the object itself.
+
+211
+0:12:36.975,000 --> 0:12:37,000
+And so I want to take a step back
+
+212
+0:12:38.668,000 --> 0:12:42,000
+and think about how that might change the ways that we use video,
+
+213
+0:12:42.917,000 --> 0:12:45,000
+because we usually use video to look at things,
+
+214
+0:12:46.47,000 --> 0:12:48,000
+and I've just shown you how we can use it
+
+215
+0:12:48.792,000 --> 0:12:49,000
+to listen to things.
+
+216
+0:12:50.649,000 --> 0:12:53,000
+But there's another important way that we learn about the world:
+
+217
+0:12:54.62,000 --> 0:12:56,000
+that's by interacting with it.
+
+218
+0:12:56.895,000 --> 0:12:59,000
+We push and pull and poke and prod things.
+
+219
+0:13:00.006,000 --> 0:13:03,000
+We shake things and see what happens.
+
+220
+0:13:03.187,000 --> 0:13:07,000
+And that's something that video still won't let us do,
+
+221
+0:13:07.46,000 --> 0:13:09,000
+at least not traditionally.
+
+222
+0:13:09.596,000 --> 0:13:1,000
+So I want to show you some new work,
+
+223
+0:13:11.546,000 --> 0:13:13,000
+and this is based on an idea I had just a few months ago,
+
+224
+0:13:14.213,000 --> 0:13:17,000
+so this is actually the first time I've shown it to a public audience.
+
+225
+0:13:17.514,000 --> 0:13:22,000
+And the basic idea is that we're going to use the vibrations in a video
+
+226
+0:13:22.877,000 --> 0:13:26,000
+to capture objects in a way that will let us interact with them
+
+227
+0:13:27.358,000 --> 0:13:28,000
+and see how they react to us.
+
+228
+0:13:31.12,000 --> 0:13:32,000
+So here's an object,
+
+229
+0:13:32.884,000 --> 0:13:35,000
+and in this case, it's a wire figure in the shape of a human,
+
+230
+0:13:36.716,000 --> 0:13:39,000
+and we're going to film that object with just a regular camera.
+
+231
+0:13:39.804,000 --> 0:13:41,000
+So there's nothing special about this camera.
+
+232
+0:13:41.928,000 --> 0:13:43,000
+In fact, I've actually done this with my cell phone before.
+
+233
+0:13:44.889,000 --> 0:13:46,000
+But we do want to see the object vibrate,
+
+234
+0:13:47.141,000 --> 0:13:48,000
+so to make that happen,
+
+235
+0:13:48.274,000 --> 0:13:51,000
+we're just going to bang a little bit on the surface where it's resting
+
+236
+0:13:51.62,000 --> 0:13:53,000
+while we record this video.
+
+237
+0:13:59.398,000 --> 0:14:02,000
+So that's it: just five seconds of regular video,
+
+238
+0:14:03.069,000 --> 0:14:05,000
+while we bang on this surface,
+
+239
+0:14:05.205,000 --> 0:14:08,000
+and we're going to use the vibrations in that video
+
+240
+0:14:08.718,000 --> 0:14:12,000
+to learn about the structural and material properties of our object,
+
+241
+0:14:13.262,000 --> 0:14:17,000
+and we're going to use that information to create something new and interactive.
+
+242
+0:14:24.866,000 --> 0:14:26,000
+And so here's what we've created.
+
+243
+0:14:27.519,000 --> 0:14:29,000
+And it looks like a regular image,
+
+244
+0:14:29.748,000 --> 0:14:32,000
+but this isn't an image, and it's not a video,
+
+245
+0:14:32.859,000 --> 0:14:34,000
+because now I can take my mouse
+
+246
+0:14:35.227,000 --> 0:14:37,000
+and I can start interacting with the object.
+
+247
+0:14:44.936,000 --> 0:14:46,000
+And so what you see here
+
+248
+0:14:47.389,000 --> 0:14:49,000
+is a simulation of how this object
+
+249
+0:14:49.615,000 --> 0:14:53,000
+would respond to new forces that we've never seen before,
+
+250
+0:14:54.073,000 --> 0:14:57,000
+and we created it from just five seconds of regular video.
+
+251
+0:14:59.249,000 --> 0:15:03,000
+(Applause)
+
+252
+0:15:09.421,000 --> 0:15:12,000
+And so this is a really powerful way to look at the world,
+
+253
+0:15:12.648,000 --> 0:15:14,000
+because it lets us predict how objects will respond
+
+254
+0:15:15.62,000 --> 0:15:16,000
+to new situations,
+
+255
+0:15:17.443,000 --> 0:15:2,000
+and you could imagine, for instance, looking at an old bridge
+
+256
+0:15:20.916,000 --> 0:15:23,000
+and wondering what would happen, how would that bridge hold up
+
+257
+0:15:24.443,000 --> 0:15:26,000
+if I were to drive my car across it.
+
+258
+0:15:27.276,000 --> 0:15:29,000
+And that's a question that you probably want to answer
+
+259
+0:15:30.05,000 --> 0:15:32,000
+before you start driving across that bridge.
+
+260
+0:15:33.988,000 --> 0:15:36,000
+And of course, there are going to be limitations to this technique,
+
+261
+0:15:37.26,000 --> 0:15:39,000
+just like there were with the visual microphone,
+
+262
+0:15:39.722,000 --> 0:15:42,000
+but we found that it works in a lot of situations
+
+263
+0:15:42.903,000 --> 0:15:43,000
+that you might not expect,
+
+264
+0:15:44.778,000 --> 0:15:46,000
+especially if you give it longer videos.
+
+265
+0:15:47.546,000 --> 0:15:49,000
+So for example, here's a video that I captured
+
+266
+0:15:50.054,000 --> 0:15:52,000
+of a bush outside of my apartment,
+
+267
+0:15:52.353,000 --> 0:15:55,000
+and I didn't do anything to this bush,
+
+268
+0:15:55.441,000 --> 0:15:57,000
+but by capturing a minute-long video,
+
+269
+0:15:58.146,000 --> 0:16:01,000
+a gentle breeze caused enough vibrations
+
+270
+0:16:01.524,000 --> 0:16:04,000
+that we could learn enough about this bush to create this simulation.
+
+271
+0:16:07.27,000 --> 0:16:13,000
+(Applause)
+
+272
+0:16:13.412,000 --> 0:16:15,000
+And so you could imagine giving this to a film director,
+
+273
+0:16:16.384,000 --> 0:16:17,000
+and letting him control, say,
+
+274
+0:16:18.103,000 --> 0:16:22,000
+the strength and direction of wind in a shot after it's been recorded.
+
+275
+0:16:24.81,000 --> 0:16:28,000
+Or, in this case, we pointed our camera at a hanging curtain,
+
+276
+0:16:29.345,000 --> 0:16:33,000
+and you can't even see any motion in this video,
+
+277
+0:16:33.474,000 --> 0:16:35,000
+but by recording a two-minute-long video,
+
+278
+0:16:36.399,000 --> 0:16:38,000
+natural air currents in this room
+
+279
+0:16:38.837,000 --> 0:16:42,000
+created enough subtle, imperceptible motions and vibrations
+
+280
+0:16:43.249,000 --> 0:16:45,000
+that we could learn enough to create this simulation.
+
+281
+0:16:48.243,000 --> 0:16:5,000
+And ironically,
+
+282
+0:16:50.609,000 --> 0:16:53,000
+we're kind of used to having this kind of interactivity
+
+283
+0:16:53.697,000 --> 0:16:55,000
+when it comes to virtual objects,
+
+284
+0:16:56.344,000 --> 0:16:59,000
+when it comes to video games and 3D models,
+
+285
+0:16:59.641,000 --> 0:17:03,000
+but to be able to capture this information from real objects in the real world
+
+286
+0:17:04.045,000 --> 0:17:06,000
+using just simple, regular video,
+
+287
+0:17:06.862,000 --> 0:17:08,000
+is something new that has a lot of potential.
+
+288
+0:17:10.41,000 --> 0:17:14,000
+So here are the amazing people who worked with me on these projects.
+
+289
+0:17:16.057,000 --> 0:17:21,000
+(Applause)
+
+290
+0:17:24.819,000 --> 0:17:27,000
+And what I've shown you today is only the beginning.
+
+291
+0:17:27.876,000 --> 0:17:29,000
+We've just started to scratch the surface
+
+292
+0:17:29.989,000 --> 0:17:31,000
+of what you can do with this kind of imaging,
+
+293
+0:17:32.961,000 --> 0:17:34,000
+because it gives us a new way
+
+294
+0:17:35.342,000 --> 0:17:39,000
+to capture our surroundings with common, accessible technology.
+
+295
+0:17:40.066,000 --> 0:17:41,000
+And so looking to the future,
+
+296
+0:17:41.995,000 --> 0:17:43,000
+it's going to be really exciting to explore
+
+297
+0:17:44.032,000 --> 0:17:45,000
+what this can tell us about the world.
+
+298
+0:17:46.381,000 --> 0:17:47,000
+Thank you.
+
+299
+0:17:47.61,000 --> 0:17:53,000
+(Applause)
+

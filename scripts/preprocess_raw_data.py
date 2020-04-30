@@ -77,6 +77,7 @@ def align_tokens(tokens):
     for key in tokens.keys(): aligned_tokens[key] = []
 
     groupings, max_val = chop_tokens(tokens)
+    print(groupings)
     for i in range(max_val):
         invalid = False
         sentences = []
@@ -121,7 +122,6 @@ def get_sec(time_str):
     return int(sec*1000)
 
 
-
 if __name__ == '__main__':
 
     modalities = ['en', 'es']
@@ -138,12 +138,16 @@ if __name__ == '__main__':
     for modal in modalities:
         nlp[modal] = spacy.load(modal)
 
+    file_count = 0
     with open(path_file) as f:
         for line in f:
             try:
+                file_count += 1
                 vid_name = line.rstrip()
-                output_csv = destination + vid_name +'_'+modalities[0]+'_'+modalities[1]+'.csv'
-                if os.path.exists(output_csv): continue
+                dst =  destination + modalities[0]+'_'+modalities[1]+'_{:05d}.csv'.format(file_count)
+                    
+                if os.path.exists(dst): continue
+
                 print(vid_name)
 
                 tokens = {}
@@ -180,7 +184,9 @@ if __name__ == '__main__':
                 for key in aligned_tokens.keys():
                     aligned_tokens[key] = pd.DataFrame(aligned_tokens[key])
                 df = pd.concat(aligned_tokens, axis=1)
-                df.to_csv(output_csv)     
+                val = df.to_numpy()
+                df = pd.DataFrame(val)
+                df.to_csv(dst)     
                 print(df)
             except:
                 continue

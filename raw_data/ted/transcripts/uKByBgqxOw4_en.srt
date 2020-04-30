@@ -1,0 +1,1328 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Thu-Huong Ha
+
+2
+0:00:12.562,000 --> 0:00:14,000
+I'm going to talk about the strategizing brain.
+
+3
+0:00:14.815,000 --> 0:00:16,000
+We're going to use an unusual combination of tools
+
+4
+0:00:17.053,000 --> 0:00:19,000
+from game theory and neuroscience
+
+5
+0:00:19.066,000 --> 0:00:21,000
+to understand how people interact socially when value is on the line.
+
+6
+0:00:22.033,000 --> 0:00:25,000
+So game theory is a branch of, originally, applied mathematics,
+
+7
+0:00:26.004,000 --> 0:00:28,000
+used mostly in economics and political science, a little bit in biology,
+
+8
+0:00:28.99,000 --> 0:00:31,000
+that gives us a mathematical taxonomy of social life
+
+9
+0:00:32.279,000 --> 0:00:34,000
+and it predicts what people are likely to do
+
+10
+0:00:34.41,000 --> 0:00:35,000
+and believe others will do
+
+11
+0:00:35.604,000 --> 0:00:38,000
+in cases where everyone's actions affect everyone else.
+
+12
+0:00:38.994,000 --> 0:00:41,000
+That's a lot of things: competition, cooperation, bargaining,
+
+13
+0:00:42.472,000 --> 0:00:45,000
+games like hide-and-seek, and poker.
+
+14
+0:00:45.763,000 --> 0:00:47,000
+Here's a simple game to get us started.
+
+15
+0:00:48.002,000 --> 0:00:5,000
+Everyone chooses a number from zero to 100,
+
+16
+0:00:50.164,000 --> 0:00:52,000
+we're going to compute the average of those numbers,
+
+17
+0:00:52.61,000 --> 0:00:56,000
+and whoever's closest to two-thirds of the average wins a fixed prize.
+
+18
+0:00:56.804,000 --> 0:00:58,000
+So you want to be a little bit below the average number,
+
+19
+0:00:59.073,000 --> 0:01:01,000
+but not too far below, and everyone else wants to be
+
+20
+0:01:01.309,000 --> 0:01:02,000
+a little bit below the average number as well.
+
+21
+0:01:03.254,000 --> 0:01:05,000
+Think about what you might pick.
+
+22
+0:01:05.833,000 --> 0:01:08,000
+As you're thinking, this is a toy model of something like
+
+23
+0:01:09.104,000 --> 0:01:11,000
+selling in the stock market during a rising market. Right?
+
+24
+0:01:11.916,000 --> 0:01:13,000
+You don't want to sell too early, because you miss out on profits,
+
+25
+0:01:14.141,000 --> 0:01:16,000
+but you don't want to wait too late
+
+26
+0:01:16.321,000 --> 0:01:18,000
+to when everyone else sells, triggering a crash.
+
+27
+0:01:18.722,000 --> 0:01:2,000
+You want to be a little bit ahead of the competition, but not too far ahead.
+
+28
+0:01:21.601,000 --> 0:01:24,000
+Okay, here's two theories about how people might think about this,
+
+29
+0:01:25.214,000 --> 0:01:26,000
+and then we'll see some data.
+
+30
+0:01:26.61,000 --> 0:01:28,000
+Some of these will sound familiar because you probably are
+
+31
+0:01:28.801,000 --> 0:01:31,000
+thinking that way. I'm using my brain theory to see.
+
+32
+0:01:32.6,000 --> 0:01:35,000
+A lot of people say, "I really don't know what people are going to pick,
+
+33
+0:01:35.71,000 --> 0:01:36,000
+so I think the average will be 50."
+
+34
+0:01:37.383,000 --> 0:01:38,000
+They're not being really strategic at all.
+
+35
+0:01:39.294,000 --> 0:01:42,000
+"And I'll pick two-thirds of 50. That's 33." That's a start.
+
+36
+0:01:42.646,000 --> 0:01:43,000
+Other people who are a little more sophisticated,
+
+37
+0:01:44.538,000 --> 0:01:45,000
+using more working memory,
+
+38
+0:01:46.014,000 --> 0:01:49,000
+say, "I think people will pick 33 because they're going to pick a response to 50,
+
+39
+0:01:49.918,000 --> 0:01:51,000
+and so I'll pick 22, which is two-thirds of 33."
+
+40
+0:01:52.886,000 --> 0:01:54,000
+They're doing one extra step of thinking, two steps.
+
+41
+0:01:55.365,000 --> 0:01:57,000
+That's better. And of course, in principle,
+
+42
+0:01:57.982,000 --> 0:01:58,000
+you could do three, four or more,
+
+43
+0:01:59.809,000 --> 0:02:,000
+but it starts to get very difficult.
+
+44
+0:02:01.678,000 --> 0:02:03,000
+Just like in language and other domains, we know that it's hard for people to parse
+
+45
+0:02:04.27,000 --> 0:02:07,000
+very complex sentences with a kind of recursive structure.
+
+46
+0:02:07.904,000 --> 0:02:08,000
+This is called a cognitive hierarchy theory, by the way.
+
+47
+0:02:09.638,000 --> 0:02:11,000
+It's something that I've worked on and a few other people,
+
+48
+0:02:12.194,000 --> 0:02:14,000
+and it indicates a kind of hierarchy along with
+
+49
+0:02:14.414,000 --> 0:02:16,000
+some assumptions about how many people stop at different steps
+
+50
+0:02:16.668,000 --> 0:02:17,000
+and how the steps of thinking are affected
+
+51
+0:02:18.552,000 --> 0:02:21,000
+by lots of interesting variables and variant people, as we'll see in a minute.
+
+52
+0:02:22.248,000 --> 0:02:25,000
+A very different theory, a much more popular one, and an older one,
+
+53
+0:02:25.634,000 --> 0:02:28,000
+due largely to John Nash of "A Beautiful Mind" fame,
+
+54
+0:02:29.174,000 --> 0:02:31,000
+is what's called equilibrium analysis.
+
+55
+0:02:31.414,000 --> 0:02:33,000
+So if you've ever taken a game theory course at any level,
+
+56
+0:02:33.868,000 --> 0:02:34,000
+you will have learned a little bit about this.
+
+57
+0:02:35.581,000 --> 0:02:37,000
+An equilibrium is a mathematical state in which everybody
+
+58
+0:02:38.436,000 --> 0:02:4,000
+has figured out exactly what everyone else will do.
+
+59
+0:02:40.885,000 --> 0:02:42,000
+It is a very useful concept, but behaviorally,
+
+60
+0:02:42.892,000 --> 0:02:44,000
+it may not exactly explain what people do
+
+61
+0:02:44.895,000 --> 0:02:46,000
+the first time they play these types of economic games
+
+62
+0:02:47.63,000 --> 0:02:49,000
+or in situations in the outside world.
+
+63
+0:02:49.963,000 --> 0:02:51,000
+In this case, the equilibrium makes a very bold prediction,
+
+64
+0:02:52.301,000 --> 0:02:54,000
+which is everyone wants to be below everyone else,
+
+65
+0:02:55.161,000 --> 0:02:57,000
+therefore they'll play zero.
+
+66
+0:02:57.452,000 --> 0:03:,000
+Let's see what happens. This experiment's been done many, many times.
+
+67
+0:03:00.461,000 --> 0:03:01,000
+Some of the earliest ones were done in the '90s
+
+68
+0:03:02.344,000 --> 0:03:04,000
+by me and Rosemarie Nagel and others.
+
+69
+0:03:04.989,000 --> 0:03:06,000
+This is a beautiful data set of 9,000 people who wrote in
+
+70
+0:03:07.974,000 --> 0:03:09,000
+to three newspapers and magazines that had a contest.
+
+71
+0:03:10.854,000 --> 0:03:11,000
+The contest said, send in your numbers
+
+72
+0:03:12.668,000 --> 0:03:15,000
+and whoever is close to two-thirds of the average will win a big prize.
+
+73
+0:03:15.823,000 --> 0:03:18,000
+And as you can see, there's so much data here, you can see the spikes very visibly.
+
+74
+0:03:18.911,000 --> 0:03:21,000
+There's a spike at 33. Those are people doing one step.
+
+75
+0:03:22.292,000 --> 0:03:24,000
+There is another spike visible at 22.
+
+76
+0:03:24.789,000 --> 0:03:26,000
+And notice, by the way, that most people pick numbers right around there.
+
+77
+0:03:27.081,000 --> 0:03:29,000
+They don't necessarily pick exactly 33 and 22.
+
+78
+0:03:29.591,000 --> 0:03:31,000
+There's something a little bit noisy around it.
+
+79
+0:03:31.647,000 --> 0:03:32,000
+But you can see those spikes, and they're there.
+
+80
+0:03:33.125,000 --> 0:03:34,000
+There's another group of people who seem to have
+
+81
+0:03:34.835,000 --> 0:03:36,000
+a firm grip on equilibrium analysis,
+
+82
+0:03:36.91,000 --> 0:03:38,000
+because they're picking zero or one.
+
+83
+0:03:39.305,000 --> 0:03:41,000
+But they lose, right?
+
+84
+0:03:41.394,000 --> 0:03:44,000
+Because picking a number that low is actually a bad choice
+
+85
+0:03:44.586,000 --> 0:03:46,000
+if other people aren't doing equilibrium analysis as well.
+
+86
+0:03:47.406,000 --> 0:03:49,000
+So they're smart, but poor.
+
+87
+0:03:49.518,000 --> 0:03:51,000
+(Laughter)
+
+88
+0:03:51.606,000 --> 0:03:52,000
+Where are these things happening in the brain?
+
+89
+0:03:53.575,000 --> 0:03:56,000
+One study by Coricelli and Nagel gives a really sharp, interesting answer.
+
+90
+0:03:57.45,000 --> 0:03:58,000
+So they had people play this game
+
+91
+0:03:58.958,000 --> 0:04:,000
+while they were being scanned in an fMRI,
+
+92
+0:04:01.175,000 --> 0:04:03,000
+and two conditions: in some trials,
+
+93
+0:04:03.446,000 --> 0:04:04,000
+they're told you're playing another person
+
+94
+0:04:04.961,000 --> 0:04:05,000
+who's playing right now and we're going to match up
+
+95
+0:04:06.549,000 --> 0:04:08,000
+your behavior at the end and pay you if you win.
+
+96
+0:04:08.753,000 --> 0:04:09,000
+In the other trials, they're told, you're playing a computer.
+
+97
+0:04:10.731,000 --> 0:04:11,000
+They're just choosing randomly.
+
+98
+0:04:12.365,000 --> 0:04:14,000
+So what you see here is a subtraction
+
+99
+0:04:14.442,000 --> 0:04:16,000
+of areas in which there's more brain activity
+
+100
+0:04:17.192,000 --> 0:04:19,000
+when you're playing people compared to playing the computer.
+
+101
+0:04:20.168,000 --> 0:04:21,000
+And you see activity in some regions we've seen today,
+
+102
+0:04:22.159,000 --> 0:04:25,000
+medial prefrontal cortex, dorsomedial, however, up here,
+
+103
+0:04:25.396,000 --> 0:04:26,000
+ventromedial prefrontal cortex,
+
+104
+0:04:27.247,000 --> 0:04:28,000
+anterior cingulate, an area that's involved
+
+105
+0:04:28.601,000 --> 0:04:31,000
+in lots of types of conflict resolution, like if you're playing "Simon Says,"
+
+106
+0:04:32.238,000 --> 0:04:35,000
+and also the right and left temporoparietal junction.
+
+107
+0:04:36.052,000 --> 0:04:38,000
+And these are all areas which are fairly reliably known
+
+108
+0:04:38.518,000 --> 0:04:4,000
+to be part of what's called a "theory of mind" circuit,
+
+109
+0:04:40.839,000 --> 0:04:41,000
+or "mentalizing circuit."
+
+110
+0:04:42.74,000 --> 0:04:45,000
+That is, it's a circuit that's used to imagine what other people might do.
+
+111
+0:04:46.118,000 --> 0:04:48,000
+So these were some of the first studies to see this
+
+112
+0:04:48.358,000 --> 0:04:5,000
+tied in to game theory.
+
+113
+0:04:50.391,000 --> 0:04:52,000
+What happens with these one- and two-step types?
+
+114
+0:04:52.631,000 --> 0:04:54,000
+So we classify people by what they picked,
+
+115
+0:04:54.702,000 --> 0:04:55,000
+and then we look at the difference between
+
+116
+0:04:56.369,000 --> 0:04:57,000
+playing humans versus playing computers,
+
+117
+0:04:58.344,000 --> 0:04:59,000
+which brain areas are differentially active.
+
+118
+0:05:00.235,000 --> 0:05:01,000
+On the top you see the one-step players.
+
+119
+0:05:01.987,000 --> 0:05:02,000
+There's almost no difference.
+
+120
+0:05:03.507,000 --> 0:05:05,000
+The reason is, they're treating other people like a computer, and the brain is too.
+
+121
+0:05:06.447,000 --> 0:05:1,000
+The bottom players, you see all the activity in dorsomedial PFC.
+
+122
+0:05:10.588,000 --> 0:05:12,000
+So we know that those two-step players are doing something differently.
+
+123
+0:05:12.639,000 --> 0:05:15,000
+Now if you were to step back and say, "What can we do with this information?"
+
+124
+0:05:15.735,000 --> 0:05:16,000
+you might be able to look at brain activity and say,
+
+125
+0:05:17.556,000 --> 0:05:18,000
+"This person's going to be a good poker player,"
+
+126
+0:05:19.055,000 --> 0:05:2,000
+or, "This person's socially naive,"
+
+127
+0:05:20.984,000 --> 0:05:21,000
+and we might also be able to study things
+
+128
+0:05:22.262,000 --> 0:05:23,000
+like development of adolescent brains
+
+129
+0:05:23.86,000 --> 0:05:26,000
+once we have an idea of where this circuitry exists.
+
+130
+0:05:27.214,000 --> 0:05:29,000
+Okay. Get ready.
+
+131
+0:05:29.826,000 --> 0:05:31,000
+I'm saving you some brain activity,
+
+132
+0:05:31.949,000 --> 0:05:33,000
+because you don't need to use your hair detector cells.
+
+133
+0:05:34.759,000 --> 0:05:36,000
+You should use those cells to think carefully about this game.
+
+134
+0:05:37.647,000 --> 0:05:38,000
+This is a bargaining game.
+
+135
+0:05:39.582,000 --> 0:05:41,000
+Two players who are being scanned using EEG electrodes
+
+136
+0:05:42.138,000 --> 0:05:44,000
+are going to bargain over one to six dollars.
+
+137
+0:05:45.015,000 --> 0:05:47,000
+If they can do it in 10 seconds, they're going to actually earn that money.
+
+138
+0:05:47.679,000 --> 0:05:5,000
+If 10 seconds goes by and they haven't made a deal, they get nothing.
+
+139
+0:05:50.719,000 --> 0:05:51,000
+That's kind of a mistake together.
+
+140
+0:05:52.402,000 --> 0:05:54,000
+The twist is that one player, on the left,
+
+141
+0:05:55.219,000 --> 0:05:57,000
+is informed about how much on each trial there is.
+
+142
+0:05:57.907,000 --> 0:05:59,000
+They play lots of trials with different amounts each time.
+
+143
+0:06:00.139,000 --> 0:06:02,000
+In this case, they know there's four dollars.
+
+144
+0:06:02.38,000 --> 0:06:03,000
+The uninformed player doesn't know,
+
+145
+0:06:04.257,000 --> 0:06:06,000
+but they know that the informed player knows.
+
+146
+0:06:06.311,000 --> 0:06:08,000
+So the uninformed player's challenge is to say,
+
+147
+0:06:08.37,000 --> 0:06:09,000
+"Is this guy really being fair
+
+148
+0:06:09.84,000 --> 0:06:1,000
+or are they giving me a very low offer
+
+149
+0:06:11.694,000 --> 0:06:14,000
+in order to get me to think that there's only one or two dollars available to split?"
+
+150
+0:06:14.772,000 --> 0:06:17,000
+in which case they might reject it and not come to a deal.
+
+151
+0:06:17.926,000 --> 0:06:19,000
+So there's some tension here between trying to get the most money
+
+152
+0:06:20.876,000 --> 0:06:22,000
+but trying to goad the other player into giving you more.
+
+153
+0:06:23.449,000 --> 0:06:25,000
+And the way they bargain is to point on a number line
+
+154
+0:06:25.779,000 --> 0:06:26,000
+that goes from zero to six dollars,
+
+155
+0:06:27.585,000 --> 0:06:29,000
+and they're bargaining over how much the uninformed player gets,
+
+156
+0:06:30.563,000 --> 0:06:31,000
+and the informed player's going to get the rest.
+
+157
+0:06:32.148,000 --> 0:06:34,000
+So this is like a management-labor negotiation
+
+158
+0:06:34.723,000 --> 0:06:36,000
+in which the workers don't know how much profits
+
+159
+0:06:37.456,000 --> 0:06:39,000
+the privately held company has, right,
+
+160
+0:06:40.123,000 --> 0:06:42,000
+and they want to maybe hold out for more money,
+
+161
+0:06:42.491,000 --> 0:06:43,000
+but the company might want to create the impression
+
+162
+0:06:44.327,000 --> 0:06:46,000
+that there's very little to split: "I'm giving you the most that I can."
+
+163
+0:06:47.259,000 --> 0:06:51,000
+First some behavior. So a bunch of the subject pairs, they play face to face.
+
+164
+0:06:51.49,000 --> 0:06:52,000
+We have some other data where they play across computers.
+
+165
+0:06:53.326,000 --> 0:06:54,000
+That's an interesting difference, as you might imagine.
+
+166
+0:06:55.064,000 --> 0:06:57,000
+But a bunch of the face-to-face pairs
+
+167
+0:06:57.266,000 --> 0:07:,000
+agree to divide the money evenly every single time.
+
+168
+0:07:00.959,000 --> 0:07:02,000
+Boring. It's just not interesting neurally.
+
+169
+0:07:03.865,000 --> 0:07:05,000
+It's good for them. They make a lot of money.
+
+170
+0:07:06.379,000 --> 0:07:08,000
+But we're interested in, can we say something about
+
+171
+0:07:09.051,000 --> 0:07:11,000
+when disagreements occur versus don't occur?
+
+172
+0:07:11.587,000 --> 0:07:13,000
+So this is the other group of subjects who often disagree.
+
+173
+0:07:13.944,000 --> 0:07:15,000
+So they have a chance of -- they bicker and disagree
+
+174
+0:07:16.712,000 --> 0:07:17,000
+and end up with less money.
+
+175
+0:07:18.019,000 --> 0:07:21,000
+They might be eligible to be on "Real Housewives," the TV show.
+
+176
+0:07:21.936,000 --> 0:07:22,000
+You see on the left,
+
+177
+0:07:23.872,000 --> 0:07:25,000
+when the amount to divide is one, two or three dollars,
+
+178
+0:07:26.536,000 --> 0:07:27,000
+they disagree about half the time,
+
+179
+0:07:28.184,000 --> 0:07:3,000
+and when the amount is four, five, six, they agree quite often.
+
+180
+0:07:30.376,000 --> 0:07:31,000
+This turns out to be something that's predicted
+
+181
+0:07:32.25,000 --> 0:07:34,000
+by a very complicated type of game theory
+
+182
+0:07:34.454,000 --> 0:07:36,000
+you should come to graduate school at CalTech and learn about.
+
+183
+0:07:37.263,000 --> 0:07:39,000
+It's a little too complicated to explain right now,
+
+184
+0:07:39.435,000 --> 0:07:42,000
+but the theory tells you that this shape kind of should occur.
+
+185
+0:07:42.851,000 --> 0:07:44,000
+Your intuition might tell you that too.
+
+186
+0:07:45.067,000 --> 0:07:47,000
+Now I'm going to show you the results from the EEG recording.
+
+187
+0:07:47.307,000 --> 0:07:49,000
+Very complicated. The right brain schematic
+
+188
+0:07:49.66,000 --> 0:07:51,000
+is the uninformed person, and the left is the informed.
+
+189
+0:07:52.523,000 --> 0:07:54,000
+Remember that we scanned both brains at the same time,
+
+190
+0:07:55.323,000 --> 0:07:57,000
+so we can ask about time-synced activity
+
+191
+0:07:57.715,000 --> 0:08:,000
+in similar or different areas simultaneously,
+
+192
+0:08:00.939,000 --> 0:08:02,000
+just like if you wanted to study a conversation
+
+193
+0:08:03.203,000 --> 0:08:04,000
+and you were scanning two people talking to each other
+
+194
+0:08:05.139,000 --> 0:08:07,000
+and you'd expect common activity in language regions
+
+195
+0:08:07.499,000 --> 0:08:09,000
+when they're actually kind of listening and communicating.
+
+196
+0:08:09.884,000 --> 0:08:12,000
+So the arrows connect regions that are active at the same time,
+
+197
+0:08:13.811,000 --> 0:08:15,000
+and the direction of the arrows flows
+
+198
+0:08:15.851,000 --> 0:08:17,000
+from the region that's active first in time,
+
+199
+0:08:18.331,000 --> 0:08:21,000
+and the arrowhead goes to the region that's active later.
+
+200
+0:08:21.899,000 --> 0:08:23,000
+So in this case, if you look carefully,
+
+201
+0:08:24.115,000 --> 0:08:25,000
+most of the arrows flow from right to left.
+
+202
+0:08:25.972,000 --> 0:08:28,000
+That is, it looks as if the uninformed brain activity
+
+203
+0:08:29.252,000 --> 0:08:3,000
+is happening first,
+
+204
+0:08:31.211,000 --> 0:08:34,000
+and then it's followed by activity in the informed brain.
+
+205
+0:08:34.726,000 --> 0:08:37,000
+And by the way, these were trials where their deals were made.
+
+206
+0:08:38.418,000 --> 0:08:39,000
+This is from the first two seconds.
+
+207
+0:08:40.198,000 --> 0:08:41,000
+We haven't finished analyzing this data,
+
+208
+0:08:42.178,000 --> 0:08:43,000
+so we're still peeking in, but the hope is
+
+209
+0:08:44.078,000 --> 0:08:46,000
+that we can say something in the first couple of seconds
+
+210
+0:08:46.642,000 --> 0:08:47,000
+about whether they'll make a deal or not,
+
+211
+0:08:48.365,000 --> 0:08:5,000
+which could be very useful in thinking about avoiding litigation
+
+212
+0:08:50.408,000 --> 0:08:51,000
+and ugly divorces and things like that.
+
+213
+0:08:52.336,000 --> 0:08:54,000
+Those are all cases in which a lot of value is lost
+
+214
+0:08:55.219,000 --> 0:08:57,000
+by delay and strikes.
+
+215
+0:08:58.195,000 --> 0:09:,000
+Here's the case where the disagreements occur.
+
+216
+0:09:00.225,000 --> 0:09:02,000
+You can see it looks different than the one before.
+
+217
+0:09:02.398,000 --> 0:09:04,000
+There's a lot more arrows.
+
+218
+0:09:04.647,000 --> 0:09:05,000
+That means that the brains are synced up
+
+219
+0:09:06.158,000 --> 0:09:08,000
+more closely in terms of simultaneous activity,
+
+220
+0:09:08.71,000 --> 0:09:1,000
+and the arrows flow clearly from left to right.
+
+221
+0:09:10.72,000 --> 0:09:12,000
+That is, the informed brain seems to be deciding,
+
+222
+0:09:12.962,000 --> 0:09:14,000
+"We're probably not going to make a deal here."
+
+223
+0:09:15.25,000 --> 0:09:18,000
+And then later there's activity in the uninformed brain.
+
+224
+0:09:18.475,000 --> 0:09:2,000
+Next I'm going to introduce you to some relatives.
+
+225
+0:09:20.978,000 --> 0:09:22,000
+They're hairy, smelly, fast and strong.
+
+226
+0:09:23.239,000 --> 0:09:26,000
+You might be thinking back to your last Thanksgiving.
+
+227
+0:09:26.429,000 --> 0:09:28,000
+Maybe if you had a chimpanzee with you.
+
+228
+0:09:29.122,000 --> 0:09:32,000
+Charles Darwin and I and you broke off from the family tree
+
+229
+0:09:32.583,000 --> 0:09:34,000
+from chimpanzees about five million years ago.
+
+230
+0:09:34.842,000 --> 0:09:35,000
+They're still our closest genetic kin.
+
+231
+0:09:36.81,000 --> 0:09:37,000
+We share 98.8 percent of the genes.
+
+232
+0:09:38.547,000 --> 0:09:4,000
+We share more genes with them than zebras do with horses.
+
+233
+0:09:41.347,000 --> 0:09:42,000
+And we're also their closest cousin.
+
+234
+0:09:43.064,000 --> 0:09:46,000
+They have more genetic relation to us than to gorillas.
+
+235
+0:09:46.066,000 --> 0:09:48,000
+So how humans and chimpanzees behave differently
+
+236
+0:09:48.594,000 --> 0:09:5,000
+might tell us a lot about brain evolution.
+
+237
+0:09:51.049,000 --> 0:09:53,000
+So this is an amazing memory test
+
+238
+0:09:53.65,000 --> 0:09:55,000
+from Nagoya, Japan, Primate Research Institute,
+
+239
+0:09:56.466,000 --> 0:09:57,000
+where they've done a lot of this research.
+
+240
+0:09:58.244,000 --> 0:10:,000
+This goes back quite a ways. They're interested in working memory.
+
+241
+0:10:00.584,000 --> 0:10:01,000
+The chimp is going to see, watch carefully,
+
+242
+0:10:02.356,000 --> 0:10:04,000
+they're going to see 200 milliseconds' exposure
+
+243
+0:10:04.558,000 --> 0:10:05,000
+— that's fast, that's eight movie frames —
+
+244
+0:10:06.552,000 --> 0:10:07,000
+of numbers one, two, three, four, five.
+
+245
+0:10:08.503,000 --> 0:10:09,000
+Then they disappear and they're replaced by squares,
+
+246
+0:10:10.501,000 --> 0:10:11,000
+and they have to press the squares
+
+247
+0:10:12.256,000 --> 0:10:14,000
+that correspond to the numbers from low to high
+
+248
+0:10:14.577,000 --> 0:10:15,000
+to get an apple reward.
+
+249
+0:10:15.916,000 --> 0:10:19,000
+Let's see how they can do it.
+
+250
+0:10:28.391,000 --> 0:10:29,000
+This is a young chimp. The young ones
+
+251
+0:10:29.884,000 --> 0:10:31,000
+are better than the old ones, just like humans.
+
+252
+0:10:32.667,000 --> 0:10:33,000
+And they're highly experienced, so they've done this
+
+253
+0:10:34.259,000 --> 0:10:35,000
+thousands and thousands of time.
+
+254
+0:10:35.691,000 --> 0:10:37,000
+Obviously there's a big training effect, as you can imagine.
+
+255
+0:10:39.928,000 --> 0:10:4,000
+(Laughter)
+
+256
+0:10:41.272,000 --> 0:10:42,000
+You can see they're very blasé and kind of effortless.
+
+257
+0:10:43.207,000 --> 0:10:46,000
+Not only can they do it very well, they do it in a sort of lazy way.
+
+258
+0:10:47.135,000 --> 0:10:5,000
+Right? Who thinks you could beat the chimps?
+
+259
+0:10:50.57,000 --> 0:10:51,000
+Wrong. (Laughter)
+
+260
+0:10:52.166,000 --> 0:10:54,000
+We can try. We'll try. Maybe we'll try.
+
+261
+0:10:54.604,000 --> 0:10:56,000
+Okay, so the next part of this study
+
+262
+0:10:57.194,000 --> 0:10:58,000
+I'm going to go quickly through
+
+263
+0:10:58.79,000 --> 0:11:,000
+is based on an idea of Tetsuro Matsuzawa.
+
+264
+0:11:01.482,000 --> 0:11:04,000
+He had a bold idea that -- what he called the cognitive trade-off hypothesis.
+
+265
+0:11:04.511,000 --> 0:11:05,000
+We know chimps are faster and stronger.
+
+266
+0:11:05.803,000 --> 0:11:06,000
+They're also very obsessed with status.
+
+267
+0:11:07.483,000 --> 0:11:09,000
+His thought was, maybe they've preserved brain activities
+
+268
+0:11:10.439,000 --> 0:11:12,000
+and they practice them in development
+
+269
+0:11:12.607,000 --> 0:11:13,000
+that are really, really important to them
+
+270
+0:11:14.458,000 --> 0:11:16,000
+to negotiate status and to win,
+
+271
+0:11:16.668,000 --> 0:11:18,000
+which is something like strategic thinking during competition.
+
+272
+0:11:19.666,000 --> 0:11:2,000
+So we're going to check that out
+
+273
+0:11:21.246,000 --> 0:11:23,000
+by having the chimps actually play a game
+
+274
+0:11:23.676,000 --> 0:11:25,000
+by touching two touch screens.
+
+275
+0:11:26.314,000 --> 0:11:28,000
+The chimps are actually interacting with each other through the computers.
+
+276
+0:11:28.754,000 --> 0:11:29,000
+They're going to press left or right.
+
+277
+0:11:30.362,000 --> 0:11:32,000
+One chimp is called a matcher.
+
+278
+0:11:32.475,000 --> 0:11:33,000
+They win if they press left, left,
+
+279
+0:11:34.458,000 --> 0:11:37,000
+like a seeker finding someone in hide-and-seek, or right, right.
+
+280
+0:11:37.627,000 --> 0:11:38,000
+The mismatcher wants to mismatch.
+
+281
+0:11:38.855,000 --> 0:11:41,000
+They want to press the opposite screen of the chimp.
+
+282
+0:11:41.931,000 --> 0:11:43,000
+And the rewards are apple cube rewards.
+
+283
+0:11:44.475,000 --> 0:11:46,000
+So here's how game theorists look at these data.
+
+284
+0:11:47.003,000 --> 0:11:48,000
+This is a graph of the percentage of times
+
+285
+0:11:48.617,000 --> 0:11:5,000
+the matcher picked right on the x-axis,
+
+286
+0:11:51.235,000 --> 0:11:52,000
+and the percentage of times they predicted right
+
+287
+0:11:52.751,000 --> 0:11:54,000
+by the mismatcher on the y-axis.
+
+288
+0:11:55.619,000 --> 0:11:58,000
+So a point here is the behavior by a pair of players,
+
+289
+0:11:58.819,000 --> 0:12:,000
+one trying to match, one trying to mismatch.
+
+290
+0:12:01.035,000 --> 0:12:04,000
+The NE square in the middle -- actually NE, CH and QRE --
+
+291
+0:12:04.315,000 --> 0:12:06,000
+those are three different theories of Nash equilibrium, and others,
+
+292
+0:12:06.771,000 --> 0:12:08,000
+tells you what the theory predicts,
+
+293
+0:12:09.195,000 --> 0:12:11,000
+which is that they should match 50-50,
+
+294
+0:12:11.467,000 --> 0:12:13,000
+because if you play left too much, for example,
+
+295
+0:12:13.635,000 --> 0:12:15,000
+I can exploit that if I'm the mismatcher by then playing right.
+
+296
+0:12:16.351,000 --> 0:12:18,000
+And as you can see, the chimps, each chimp is one triangle,
+
+297
+0:12:19.115,000 --> 0:12:22,000
+are circled around, hovering around that prediction.
+
+298
+0:12:22.962,000 --> 0:12:23,000
+Now we move the payoffs.
+
+299
+0:12:24.736,000 --> 0:12:27,000
+We're actually going to make the left, left payoff for the matcher a little bit higher.
+
+300
+0:12:28.179,000 --> 0:12:29,000
+Now they get three apple cubes.
+
+301
+0:12:29.699,000 --> 0:12:31,000
+Game theoretically, that should actually make the mismatcher's behavior shift,
+
+302
+0:12:32.499,000 --> 0:12:33,000
+because what happens is, the mismatcher will think,
+
+303
+0:12:34.089,000 --> 0:12:35,000
+oh, this guy's going to go for the big reward,
+
+304
+0:12:35.899,000 --> 0:12:38,000
+and so I'm going to go to the right, make sure he doesn't get it.
+
+305
+0:12:38.964,000 --> 0:12:39,000
+And as you can see, their behavior moves up
+
+306
+0:12:40.629,000 --> 0:12:43,000
+in the direction of this change in the Nash equilibrium.
+
+307
+0:12:44.077,000 --> 0:12:46,000
+Finally, we changed the payoffs one more time.
+
+308
+0:12:46.391,000 --> 0:12:47,000
+Now it's four apple cubes,
+
+309
+0:12:47.583,000 --> 0:12:49,000
+and their behavior again moves towards the Nash equilibrium.
+
+310
+0:12:49.755,000 --> 0:12:51,000
+It's sprinkled around, but if you average the chimps out,
+
+311
+0:12:51.79,000 --> 0:12:53,000
+they're really, really close, within .01.
+
+312
+0:12:53.98,000 --> 0:12:56,000
+They're actually closer than any species we've observed.
+
+313
+0:12:57.179,000 --> 0:13:,000
+What about humans? You think you're smarter than a chimpanzee?
+
+314
+0:13:00.372,000 --> 0:13:03,000
+Here's two human groups in green and blue.
+
+315
+0:13:03.939,000 --> 0:13:06,000
+They're closer to 50-50. They're not responding to payoffs as closely,
+
+316
+0:13:07.683,000 --> 0:13:08,000
+and also if you study their learning in the game,
+
+317
+0:13:09.133,000 --> 0:13:1,000
+they aren't as sensitive to previous rewards.
+
+318
+0:13:11.118,000 --> 0:13:12,000
+The chimps are playing better than the humans,
+
+319
+0:13:12.482,000 --> 0:13:14,000
+better in the sense of adhering to game theory.
+
+320
+0:13:14.905,000 --> 0:13:15,000
+And these are two different groups of humans
+
+321
+0:13:16.324,000 --> 0:13:19,000
+from Japan and Africa. They replicate quite nicely.
+
+322
+0:13:19.52,000 --> 0:13:22,000
+None of them are close to where the chimps are.
+
+323
+0:13:22.755,000 --> 0:13:23,000
+So here are some things we learned today.
+
+324
+0:13:24.51,000 --> 0:13:25,000
+People seem to do a limited amount of strategic thinking
+
+325
+0:13:26.448,000 --> 0:13:27,000
+using theory of mind.
+
+326
+0:13:28.259,000 --> 0:13:29,000
+We have some preliminary evidence from bargaining
+
+327
+0:13:30.176,000 --> 0:13:32,000
+that early warning signs in the brain might be used to predict
+
+328
+0:13:32.668,000 --> 0:13:34,000
+whether there will be a bad disagreement that costs money,
+
+329
+0:13:34.894,000 --> 0:13:35,000
+and chimps are better competitors than humans,
+
+330
+0:13:36.734,000 --> 0:13:38,000
+as judged by game theory.
+
+331
+0:13:39.198,000 --> 0:13:4,000
+Thank you.
+
+332
+0:13:41.055,000 --> 0:13:44,000
+(Applause)
+

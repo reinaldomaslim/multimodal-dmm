@@ -1,0 +1,840 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Claire Ghyselen Relecteur: Morgane Quilfen
+
+2
+0:00:12.76,000 --> 0:00:15,000
+Combien d'entre vous utilisent une feuille de calcul électronique,
+
+3
+0:00:15.975,000 --> 0:00:17,000
+comme Microsoft Excel ?
+
+4
+0:00:18.25,000 --> 0:00:19,000
+Très bien.
+
+5
+0:00:19.52,000 --> 0:00:23,000
+Combien d'entre vous ont géré leur affaire avec une telle feuille, mais manuscrite,
+
+6
+0:00:24.096,000 --> 0:00:27,000
+comme mon père l'a fait dans son imprimerie de Philadelphie ?
+
+7
+0:00:28.16,000 --> 0:00:29,000
+Vous êtes beaucoup moins.
+
+8
+0:00:29.92,000 --> 0:00:32,000
+C'est pourtant ainsi que l'on a fait pendant des centaines d'années.
+
+9
+0:00:33.48,000 --> 0:00:36,000
+Début 1978, j'ai commencé à développer une idée
+
+10
+0:00:36.52,000 --> 0:00:38,000
+qui a abouti à VisiCalc.
+
+11
+0:00:39.48,000 --> 0:00:4,000
+Et l'année suivante,
+
+12
+0:00:41.16,000 --> 0:00:44,000
+il tournait sur une nouvelle machine, appelée Apple II.
+
+13
+0:00:45.24,000 --> 0:00:49,000
+6 ans plus tard, on savait que les choses avaient vraiment évolué
+
+14
+0:00:49.32,000 --> 0:00:51,000
+quand un éditorial du Wall Street Journal
+
+15
+0:00:51.52,000 --> 0:00:54,000
+assumait que tout le monde connaissait VisiCalc, voire l'utilisait.
+
+16
+0:00:55.76,000 --> 0:00:57,000
+En 1990, Steve Jobs a dit ceci :
+
+17
+0:00:59.16,000 --> 0:01:02,000
+« Les spreadsheets ont propulsé l'industrie dans le futur.
+
+18
+0:01:02.88,000 --> 0:01:05,000
+VisiCalc a contribué au succès d'Apple bien davantage que toute autre chose. »
+
+19
+0:01:07.44,000 --> 0:01:08,000
+Personnellement parlant,
+
+20
+0:01:09.6,000 --> 0:01:12,000
+Steve m'a dit : « Si VisiCalc avait été écrit pour un autre ordinateur,
+
+21
+0:01:12.976,000 --> 0:01:14,000
+on interviewerait quelqu'un d'autre. »
+
+22
+0:01:15.37,000 --> 0:01:21,000
+VisiCalc a donc largement contribué à amener les ordinateurs dans les bureaux.
+
+23
+0:01:21.736,000 --> 0:01:22,000
+Comment est-ce arrivé ?
+
+24
+0:01:23.68,000 --> 0:01:24,000
+Qu'est ce qui a fait que j'ai créé
+
+25
+0:01:25.37,000 --> 0:01:27,000
+ces feuilles de calcul telles qu'elles sont ?
+
+26
+0:01:27.92,000 --> 0:01:32,000
+J'ai commencé à programmer en 1966, quand j'avais 15 ans,
+
+27
+0:01:33.28,000 --> 0:01:35,000
+peu après cette photo.
+
+28
+0:01:36.2,000 --> 0:01:38,000
+Peu d'étudiants avaient accès à des ordinateurs à l'époque.
+
+29
+0:01:39.56,000 --> 0:01:42,000
+Mais grâce à la chance et beaucoup de persévérance,
+
+30
+0:01:43.056,000 --> 0:01:46,000
+je parvenais à mettre les mains sur des machines, en ville.
+
+31
+0:01:46.216,000 --> 0:01:5,000
+Après des nuits dans la boue de Woodstock, je suis allé au MIT
+
+32
+0:01:51.52,000 --> 0:01:54,000
+et j'ai travaillé sur Multics pour gagner ma vie.
+
+33
+0:01:55.32,000 --> 0:02:,000
+Multics était un système de temps partagé interactif.
+
+34
+0:02:00.336,000 --> 0:02:03,000
+Si vous connaissez les systèmes d'exploitation Linux et Unix,
+
+35
+0:02:03.51,000 --> 0:02:04,000
+ils proviennent de Multics.
+
+36
+0:02:05.32,000 --> 0:02:07,000
+J'ai travaillé sur des versions Multics
+
+37
+0:02:07.64,000 --> 0:02:1,000
+de ce que nous connaissons comme le langage informatique interprété,
+
+38
+0:02:11.48,000 --> 0:02:13,000
+utilisé par des non informaticiens,
+
+39
+0:02:13.96,000 --> 0:02:16,000
+pour réaliser leurs calculs assis devant un terminal informatique.
+
+40
+0:02:17.56,000 --> 0:02:19,000
+Mon diplôme du MIT en main,
+
+41
+0:02:19.84,000 --> 0:02:21,000
+je suis parti travailler pour Digital Equipment Corporation.
+
+42
+0:02:23.32,000 --> 0:02:26,000
+Chez DEC, j'ai travaillé sur un logiciel
+
+43
+0:02:26.52,000 --> 0:02:28,000
+pour la nouvelle ère de composition informatique.
+
+44
+0:02:29.8,000 --> 0:02:33,000
+J'ai aidé les journaux à remplacer les machines à écrire des journalistes
+
+45
+0:02:34.16,000 --> 0:02:35,000
+par des ordinateurs.
+
+46
+0:02:35.88,000 --> 0:02:36,000
+J'écrivais des logiciels
+
+47
+0:02:37.12,000 --> 0:02:4,000
+et ensuite, j'allais sur le terrain, dans des endroits comme Kansas City Star,
+
+48
+0:02:40.816,000 --> 0:02:42,000
+pour y former les utilisateurs et avoir des retours.
+
+49
+0:02:43.562,000 --> 0:02:44,000
+C'était la vie réelle,
+
+50
+0:02:45.16,000 --> 0:02:48,000
+très différente de mon expérience au labo du MIT.
+
+51
+0:02:49.88,000 --> 0:02:51,000
+Ensuite, je suis devenu chef du projet
+
+52
+0:02:52.52,000 --> 0:02:56,000
+de ce qui fut le premier traitement de texte de DEC.
+
+53
+0:02:57.72,000 --> 0:03:02,000
+Comme pour la composition, l'important était de créer une interface
+
+54
+0:03:03.24,000 --> 0:03:07,000
+naturelle et efficace pour des utilisateurs non informaticiens.
+
+55
+0:03:08.36,000 --> 0:03:11,000
+J'ai quitté DEC pour travailler dans une petite entreprise
+
+56
+0:03:12.36,000 --> 0:03:18,000
+qui fabriquait des caisses enregistreuses électroniques pour les fast-food.
+
+57
+0:03:19.36,000 --> 0:03:22,000
+J'avais cependant toujours voulu créer une boîte avec mon ami Bod Frankston,
+
+58
+0:03:23.08,000 --> 0:03:25,000
+que je connaissais depuis Multics du MIT.
+
+59
+0:03:25.48,000 --> 0:03:28,000
+Alors, je me suis décidé à retourner sur les bancs d'école de gestion.
+
+60
+0:03:29.2,000 --> 0:03:31,000
+Fin 1977,
+
+61
+0:03:32,000 --> 0:03:35,000
+j'ai commencé un programme MBA à Harvard Business School.
+
+62
+0:03:35.84,000 --> 0:03:37,000
+Je faisais partie du petit pourcentage d'étudiants
+
+63
+0:03:38.36,000 --> 0:03:4,000
+avec une formation en programmation informatique.
+
+64
+0:03:42.08,000 --> 0:03:45,000
+Voici une photo de moi dans l'annuaire, assis au premier rang.
+
+65
+0:03:45.28,000 --> 0:03:46,000
+(Rires)
+
+66
+0:03:46.32,000 --> 0:03:48,000
+A Harvard, l'apprentissage est fondé sur des cas.
+
+67
+0:03:48.96,000 --> 0:03:49,000
+On en faisait trois par jour.
+
+68
+0:03:50.92,000 --> 0:03:55,000
+Il s'agit d'une douzaine de pages sur une situation précise d'affaires.
+
+69
+0:03:57.6,000 --> 0:04:01,000
+Il y a des tableaux, avec des mots et des nombres
+
+70
+0:04:02.2,000 --> 0:04:05,000
+disposés d'une certaine manière pour expliciter la situation.
+
+71
+0:04:05.84,000 --> 0:04:06,000
+Ils sont tous légèrement différents.
+
+72
+0:04:07.8,000 --> 0:04:08,000
+Voici mon devoir.
+
+73
+0:04:09.04,000 --> 0:04:12,000
+Des chiffres, des mots, mis en page pour créer du sens.
+
+74
+0:04:12.24,000 --> 0:04:16,000
+Des tonnes de calculs, nos calculettes n'étaient jamais loin.
+
+75
+0:04:16.72,000 --> 0:04:17,000
+Voici ma calculette, d'ailleurs.
+
+76
+0:04:20.2,000 --> 0:04:22,000
+Pour Halloween, je me suis déguisé en calculette.
+
+77
+0:04:23,000 --> 0:04:24,000
+(Rires)
+
+78
+0:04:25.785,000 --> 0:04:28,000
+Au début de chaque classe, le professeur appelait quelqu'un
+
+79
+0:04:29,000 --> 0:04:3,000
+pour présenter le cas.
+
+80
+0:04:31.079,000 --> 0:04:33,000
+Cette personne expliquait ce qu'il se passait
+
+81
+0:04:33.88,000 --> 0:04:36,000
+et dictait des informations que le professeur transcrivait
+
+82
+0:04:37.64,000 --> 0:04:39,000
+sur les nombreux tableaux noirs de la classe.
+
+83
+0:04:40.569,000 --> 0:04:41,000
+Ensuite nous en discutions.
+
+84
+0:04:42.12,000 --> 0:04:46,000
+Une des choses vraiment frustrantes quand on faisait ces devoirs,
+
+85
+0:04:46.51,000 --> 0:04:49,000
+était d'arriver le matin en classe pour découvrir une erreur de calcul,
+
+86
+0:04:49.836,000 --> 0:04:51,000
+qui faussait tous les autres chiffres.
+
+87
+0:04:52.2,000 --> 0:04:53,000
+Impossible de participer au débat.
+
+88
+0:04:53.976,000 --> 0:04:55,000
+Alors que nous étions notés sur notre participation.
+
+89
+0:04:57.32,000 --> 0:05:01,000
+Bref, parmi mes 87 collègues de classe, j'ai souvent eu le temps de rêver.
+
+90
+0:05:03.28,000 --> 0:05:06,000
+A l'époque la plupart des programmeurs travaillaient sur un ordinateur central,
+
+91
+0:05:07.16,000 --> 0:05:13,000
+construisant des systèmes d'inventaire, de fiches de paie ou de facturation.
+
+92
+0:05:13.52,000 --> 0:05:15,000
+J'avais bossé sur des traitements de texte interactifs
+
+93
+0:05:16.066,000 --> 0:05:18,000
+et de la programmation personnelle.
+
+94
+0:05:18.16,000 --> 0:05:22,000
+Au lieu de penser à tirer des impressions ou à des cartes perforées,
+
+95
+0:05:22.88,000 --> 0:05:24,000
+j'imaginais un tableau magique
+
+96
+0:05:25.68,000 --> 0:05:28,000
+qui, quand on effaçait un chiffre et le remplaçait par un autre,
+
+97
+0:05:29.08,000 --> 0:05:31,000
+ferait percoler ce changement partout automatiquement,
+
+98
+0:05:31.96,000 --> 0:05:32,000
+un traitement de texte des chiffres.
+
+99
+0:05:34.6,000 --> 0:05:38,000
+J'imaginais que ma calculette était équipée d'une souris
+
+100
+0:05:39.24,000 --> 0:05:41,000
+et d'un rétro-projecteur, comme un avion de combat.
+
+101
+0:05:42.72,000 --> 0:05:46,000
+Je pourrais alors encoder des chiffres, les entourer, pousser sur le bouton somme.
+
+102
+0:05:46.88,000 --> 0:05:49,000
+Je pourrais, au milieu d'une négociation, obtenir la réponse recherchée.
+
+103
+0:05:50.64,000 --> 0:05:53,000
+Il ne me restait plus qu'à concrétiser mon rêve.
+
+104
+0:05:54.64,000 --> 0:05:56,000
+Mon père m'avait appris à faire du prototypage.
+
+105
+0:05:57.56,000 --> 0:05:58,000
+Il m'avait montré des maquettes
+
+106
+0:05:59.2,000 --> 0:06:02,000
+qu'il créait pour visualiser la mise en page
+
+107
+0:06:02.56,000 --> 0:06:04,000
+des éléments de brochures qu'il devait imprimer.
+
+108
+0:06:05.12,000 --> 0:06:07,000
+Il utilisait les maquettes pour les montrer à ses clients
+
+109
+0:06:08.08,000 --> 0:06:11,000
+et obtenir leurs retours avant d'envoyer le bon à tirer.
+
+110
+0:06:12.44,000 --> 0:06:17,000
+En créant des versions simplifiées de ce qu'on souhaite créer,
+
+111
+0:06:17.56,000 --> 0:06:2,000
+on découvre obligatoirement des problèmes cruciaux.
+
+112
+0:06:20.72,000 --> 0:06:24,000
+Ce qui permet de leur trouver des solutions moins coûteuses.
+
+113
+0:06:25.72,000 --> 0:06:27,000
+J'ai donc décidé de créer un prototype.
+
+114
+0:06:28.76,000 --> 0:06:32,000
+Je me suis assis devant un terminal du système de temps partagé de Harvard
+
+115
+0:06:33.36,000 --> 0:06:34,000
+et je me suis mis au travail.
+
+116
+0:06:34.88,000 --> 0:06:37,000
+Un de mes premiers problèmes fut celui-ci :
+
+117
+0:06:38.16,000 --> 0:06:4,000
+Comment représenter des valeurs dans les formules ?
+
+118
+0:06:41.28,000 --> 0:06:42,000
+Je vais vous expliquer.
+
+119
+0:06:44,000 --> 0:06:46,000
+Je pensais ainsi : je pointe un endroit,
+
+120
+0:06:46.2,000 --> 0:06:49,000
+j'y écris quelques mots, et j'écris autre chose ailleurs,
+
+121
+0:06:49.296,000 --> 0:06:52,000
+j'ajoute un nombre et un nombre ailleurs, je pointe un endroit pour la réponse,
+
+122
+0:06:53.25,000 --> 0:06:56,000
+je pointe sur le premier, ensuite sur le moins, je pointe le second
+
+123
+0:06:56.48,000 --> 0:06:57,000
+et j'obtiens le résultat.
+
+124
+0:06:58.36,000 --> 0:07:01,000
+Voici mon problème : Que faut-il écrire dans la formule ?
+
+125
+0:07:01.8,000 --> 0:07:03,000
+Ça devait être compréhensible par l'ordinateur.
+
+126
+0:07:04.444,000 --> 0:07:05,000
+En lisant la formule,
+
+127
+0:07:06.16,000 --> 0:07:09,000
+il fallait savoir quels étaient ses référents sur l'écran.
+
+128
+0:07:09.84,000 --> 0:07:11,000
+Ma première idée fut d'organiser ça comme un programmeur.
+
+129
+0:07:12.76,000 --> 0:07:13,000
+Au moment de pointer un endroit,
+
+130
+0:07:14.689,000 --> 0:07:16,000
+l'ordinateur nous demande de taper un nom unique.
+
+131
+0:07:18.76,000 --> 0:07:21,000
+C'est clair que ce système allait vite devenir trop fastidieux.
+
+132
+0:07:22.56,000 --> 0:07:25,000
+Il fallait que l'ordinateur crée un nom automatiquement et l'assigne.
+
+133
+0:07:26.6,000 --> 0:07:3,000
+Ensuite, je me suis proposé de les nommer selon leur ordre d'écriture.
+
+134
+0:07:31.48,000 --> 0:07:33,000
+J'ai essayé ça. Valeur 1, valeur 2.
+
+135
+0:07:34,000 --> 0:07:36,000
+Je me suis aperçu qu'avec quelques valeurs supplémentaires,
+
+136
+0:07:36.786,000 --> 0:07:38,000
+j'allais oublier quels étaient les référents.
+
+137
+0:07:39.32,000 --> 0:07:44,000
+Alors j'ai pensé que, au lieu de pouvoir positionner ses valeurs n'importe où,
+
+138
+0:07:44.64,000 --> 0:07:46,000
+je pourrais délimiter un maillage.
+
+139
+0:07:46.72,000 --> 0:07:48,000
+Dans ce cas, on pointe une cellule
+
+140
+0:07:48.96,000 --> 0:07:51,000
+et l'ordinateur lui assigne comme nom sa ligne et sa colonne.
+
+141
+0:07:52.64,000 --> 0:07:58,000
+Et si je fais apparaître l'alphabet en abscisse et des chiffres en ordonnée,
+
+142
+0:07:58.84,000 --> 0:08:,000
+quand vous visualisez B7 dans une formule,
+
+143
+0:08:01.76,000 --> 0:08:03,000
+vous savez précisément sa localisation sur l'écran.
+
+144
+0:08:04.64,000 --> 0:08:08,000
+Si vous devez taper une formule, vous savez comment faire.
+
+145
+0:08:09.44,000 --> 0:08:12,000
+Délimiter un maillage m'a aidé à résoudre mon problème.
+
+146
+0:08:13.2,000 --> 0:08:18,000
+Ça ouvrait aussi de nouvelles capacités, comme la sélection de plusieurs cellules.
+
+147
+0:08:19.36,000 --> 0:08:2,000
+Mais ce n'est pas trop contraignant
+
+148
+0:08:21.056,000 --> 0:08:25,000
+car on peut taper n'importe quelle valeur ou formule, dans toutes les cellules.
+
+149
+0:08:26.12,000 --> 0:08:29,000
+On fait toujours ainsi aujourd'hui, 40 ans plus tard.
+
+150
+0:08:31.109,000 --> 0:08:34,000
+Avec mon ami Bob, nous avons décidé de construire ce produit ensemble.
+
+151
+0:08:34.8,000 --> 0:08:38,000
+J'ai aussi travaillé pour comprendre comment le programme devait se comporter.
+
+152
+0:08:39.24,000 --> 0:08:42,000
+J'ai développé une carte de référence à titre de documentation.
+
+153
+0:08:42.52,000 --> 0:08:46,000
+Ça m'a permis de vérifier que l'interface que je développais
+
+154
+0:08:47.32,000 --> 0:08:5,000
+pouvait être expliquée de manière concise et claire à des gens normaux.
+
+155
+0:08:51.52,000 --> 0:08:56,000
+Bob a travaillé dans le grenier de son appartement, à Arlington.
+
+156
+0:08:56.96,000 --> 0:08:57,000
+En voici une photo.
+
+157
+0:09:00.24,000 --> 0:09:02,000
+Bob a acquis du temps sur le Multics du MIT,
+
+158
+0:09:03.04,000 --> 0:09:05,000
+pour écrire les codes, sur un terminal comme celui-ci.
+
+159
+0:09:06.4,000 --> 0:09:09,000
+Il téléchargeait des versions tests sur un Apple II emprunté,
+
+160
+0:09:09.92,000 --> 0:09:12,000
+via une ligne téléphonique, avec un coupleur acoustique,
+
+161
+0:09:13.2,000 --> 0:09:14,000
+et ensuite il testait.
+
+162
+0:09:14.92,000 --> 0:09:18,000
+Pour un de mes tests, j'ai utilisé le cas du Pepsi Challenge.
+
+163
+0:09:20.72,000 --> 0:09:23,000
+On ne pouvait pas encore imprimer, je prenais donc note de tout.
+
+164
+0:09:24.48,000 --> 0:09:26,000
+On ne pouvait pas sauvegarder. A chaque crash,
+
+165
+0:09:26.996,000 --> 0:09:29,000
+je devais retaper toutes les formules.
+
+166
+0:09:30.24,000 --> 0:09:33,000
+Le lendemain, j'ai levé la main au cours. On m'a désigné et j'ai présenté le cas.
+
+167
+0:09:34.24,000 --> 0:09:37,000
+J'avais préparé une projection sur 5 ans avec pleins de scénarios.
+
+168
+0:09:37.84,000 --> 0:09:4,000
+Je les ai complètement bluffés. VisiCalc était déjà utile.
+
+169
+0:09:42.16,000 --> 0:09:44,000
+Le professeur m'a demandé comment j'avais fait.
+
+170
+0:09:45.469,000 --> 0:09:47,000
+Je ne voulais pas lui dévoiler notre programme secret.
+
+171
+0:09:48.16,000 --> 0:09:49,000
+(Rires)
+
+172
+0:09:50.2,000 --> 0:09:53,000
+Je lui ai dit que j'avais additionné ça à ça, et multiplié par ça et retiré ça.
+
+173
+0:09:54.206,000 --> 0:09:56,000
+Il a demandé pourquoi je n'avais pas utilisé les ratios.
+
+174
+0:09:56.846,000 --> 0:09:58,000
+J'ai dit : « Ha ! Ça n'aurait pas été aussi exact. »
+
+175
+0:09:59.536,000 --> 0:10:01,000
+Je n'ai pas dit qu'on ne pouvait pas encore diviser.
+
+176
+0:10:01.966,000 --> 0:10:02,000
+(Rires)
+
+177
+0:10:05.08,000 --> 0:10:08,000
+Finalement, nous avons peaufiné VisiCalc suffisamment
+
+178
+0:10:08.96,000 --> 0:10:09,000
+pour le présenter au public.
+
+179
+0:10:11.44,000 --> 0:10:13,000
+Mon père a imprimé un modèle de carte de référence
+
+180
+0:10:13.836,000 --> 0:10:15,000
+à utiliser pour notre marketing.
+
+181
+0:10:16.3,000 --> 0:10:21,000
+En juin 1979, notre éditeur a annoncé VisiCalc publiquement,
+
+182
+0:10:22.08,000 --> 0:10:26,000
+dans un petit stand à la National Computer Conference à New York.
+
+183
+0:10:26.8,000 --> 0:10:3,000
+Le New York Times a écrit un article très drôle sur la conférence.
+
+184
+0:10:31.48,000 --> 0:10:33,000
+« Les machines réalisent une espèce de rite religieux...
+
+185
+0:10:34.176,000 --> 0:10:35,000
+Les croyants se rassemblent,
+
+186
+0:10:35.561,000 --> 0:10:38,000
+les peintres dans la salle du Colisée ajoutent un nom au panthéon,
+
+187
+0:10:38.971,000 --> 0:10:4,000
+en lettre jaunes et noires : « VISICALC ».
+
+188
+0:10:41.68,000 --> 0:10:42,000
+Hip Hip Hip Hourrah à VISICALC ! »
+
+189
+0:10:43.52,000 --> 0:10:46,000
+(Soupir) Le New York Times : « Hip Hip Hip Hourrah à VISICALC ! »
+
+190
+0:10:47.12,000 --> 0:10:48,000
+(Rires)
+
+191
+0:10:48.64,000 --> 0:10:52,000
+Ce fut la dernière mention des feuilles de calcul électroniques
+
+192
+0:10:52.92,000 --> 0:10:55,000
+dans la presse d'affaires populaire pendant 2 ans.
+
+193
+0:10:56.84,000 --> 0:10:58,000
+Presque personne n'avait compris.
+
+194
+0:10:59,000 --> 0:11:,000
+Mais pas tous.
+
+195
+0:11:00.92,000 --> 0:11:04,000
+En octobre 1979, on a livré VisiCalc.
+
+196
+0:11:05.88,000 --> 0:11:07,000
+Il se vendait dans un emballage comme celui-ci.
+
+197
+0:11:08.72,000 --> 0:11:1,000
+Et sur un Apple II, ça donnait ceci.
+
+198
+0:11:12,000 --> 0:11:14,000
+La suite, comme on dit, fait partie de l'histoire.
+
+199
+0:11:14.36,000 --> 0:11:16,000
+Il y a tant d'autres choses à narrer,
+
+200
+0:11:16.48,000 --> 0:11:18,000
+mais ce sera pour un autre jour.
+
+201
+0:11:18.56,000 --> 0:11:2,000
+Une seule chose à ajouter : Harvard se souvient.
+
+202
+0:11:21.4,000 --> 0:11:22,000
+Voici ma classe.
+
+203
+0:11:23.24,000 --> 0:11:26,000
+Ils ont posé une plaque commémorative.
+
+204
+0:11:27.64,000 --> 0:11:29,000
+(Applaudissements)
+
+205
+0:11:36.4,000 --> 0:11:38,000
+Elle est aussi un rappel pour tous,
+
+206
+0:11:39.36,000 --> 0:11:44,000
+que nous devons utiliser nos cursus nos compétences et nos envies uniques
+
+207
+0:11:44.88,000 --> 0:11:49,000
+pour construire des prototypes pour découvrir et résoudre les problèmes
+
+208
+0:11:50.16,000 --> 0:11:52,000
+et, grâce à cela, changer le monde.
+
+209
+0:11:53.04,000 --> 0:11:54,000
+Merci.
+
+210
+0:11:54.28,000 --> 0:11:55,000
+(Applaudissements)
+

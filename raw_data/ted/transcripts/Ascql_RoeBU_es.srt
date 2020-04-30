@@ -1,0 +1,1200 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Carlos Zelayeta
+
+2
+0:00:12.16,000 --> 0:00:17,000
+Quiero que imaginen que son estudiantes de mi laboratorio.
+
+3
+0:00:17.16,000 --> 0:00:21,000
+Quiero que creen un diseño inspirado en biología.
+
+4
+0:00:21.16,000 --> 0:00:23,000
+Entonces este es el desafío:
+
+5
+0:00:23.16,000 --> 0:00:29,000
+Quiero que me ayuden a crear un modelo de contacto totalmente 3D, dinámico y parametrizado.
+
+6
+0:00:29.16,000 --> 0:00:33,000
+Traducido sería: ¿me ayudarían a contruir un pie?
+
+7
+0:00:33.16,000 --> 0:00:35,000
+Es que es un verdadero reto y realmente quiero que me ayuden
+
+8
+0:00:35.16,000 --> 0:00:37,000
+Claro, en el reto hay un premio.
+
+9
+0:00:37.16,000 --> 0:00:44,000
+No será el TED Prize pero es una camiseta exclusiva de nuestro laboratorio.
+
+10
+0:00:44.16,000 --> 0:00:5,000
+Así que mándenme sus ideas sobre cómo diseñar un pie.
+
+11
+0:00:50.16,000 --> 0:00:54,000
+Ahora, si queremos diseñar un pie, ¿qué tenemos que hacer?
+
+12
+0:00:54.16,000 --> 0:00:57,000
+Primero tenemos que saber qué es un pie.
+
+13
+0:00:57.16,000 --> 0:01:,000
+Si vamos al diccionario, dice: "Es la extremidad inferior de una pierna
+
+14
+0:01:00.16,000 --> 0:01:02,000
+que está en contacto directo con el suelo cuando se está de pie o caminando"
+
+15
+0:01:02.16,000 --> 0:01:03,000
+Esa es la definición tradicional.
+
+16
+0:01:03.16,000 --> 0:01:06,000
+Pero si deseamos realmente investigar, ¿qué tenemos que hacer?
+
+17
+0:01:06.16,000 --> 0:01:09,000
+Hay que ir a la literatura y ver qué se sabe sobre el pie.
+
+18
+0:01:09.16,000 --> 0:01:11,000
+Así que vamos a la literatura. (Risas)
+
+19
+0:01:12.16,000 --> 0:01:14,000
+Quizá estén familiarizados con esta literatura.
+
+20
+0:01:14.16,000 --> 0:01:17,000
+El problema es que hay muchos, muchos pies.
+
+21
+0:01:17.16,000 --> 0:01:18,000
+¿Cómo se hace?
+
+22
+0:01:18.16,000 --> 0:01:23,000
+Hay que inspeccionar todos los pies y extraer principios de cómo funcionan.
+
+23
+0:01:23.16,000 --> 0:01:25,000
+Y quiero que me ayuden a hacer eso en el siguiente video.
+
+24
+0:01:25.16,000 --> 0:01:28,000
+Mientras ven este video busquen los principios
+
+25
+0:01:28.16,000 --> 0:01:31,000
+y piensen también en los experimentos que podrían diseñar
+
+26
+0:01:31.16,000 --> 0:01:35,000
+para entender cómo funciona un pie.
+
+27
+0:01:44.16,000 --> 0:01:46,000
+¿Ven algunos temas comunes? ¿Principios?
+
+28
+0:01:46.16,000 --> 0:01:49,000
+¿Qué harían?
+
+29
+0:01:59.16,000 --> 0:02:01,000
+¿Qué experimentos realizarían?
+
+30
+0:03:31.16,000 --> 0:03:37,000
+¡Guau! (Aplausos)
+
+31
+0:03:37.16,000 --> 0:03:4,000
+Nuestra investigación de la biomecánica de la locomoción animal
+
+32
+0:03:40.16,000 --> 0:03:42,000
+nos ha permitido hacer un plano del pie.
+
+33
+0:03:42.16,000 --> 0:03:48,000
+Es un diseño inspirado en la Naturaleza pero no es copia de un pie específico que uno vio
+
+34
+0:03:48.16,000 --> 0:03:52,000
+sino una síntesis de los secretos de muchos, muchos pies.
+
+35
+0:03:52.16,000 --> 0:03:55,000
+Ahora resulta que los animales pueden ir donde sea.
+
+36
+0:03:55.16,000 --> 0:03:57,000
+Pueden desplazarse en superficies que, como vieron, varían en
+
+37
+0:03:57.16,000 --> 0:04:01,000
+la probabilidad de contacto, el movimiento de esa superficie
+
+38
+0:04:01.16,000 --> 0:04:04,000
+y el punto de apoyo de los pies que están presentes.
+
+39
+0:04:04.16,000 --> 0:04:06,000
+Si se quiere estudiar cómo funcionan los pies
+
+40
+0:04:06.16,000 --> 0:04:1,000
+vamos a tener que simular esas superficies, o simular esas piedras.
+
+41
+0:04:10.16,000 --> 0:04:15,000
+Luego de eso hicimos un experimento:
+
+42
+0:04:15.16,000 --> 0:04:17,000
+pusimos un animal y lo hicimos correr, a esta araña de pasto,
+
+43
+0:04:17.16,000 --> 0:04:2,000
+en una superficie con el 99% del área de contacto retirada.
+
+44
+0:04:20.16,000 --> 0:04:22,000
+Pero ni siquiera eso redujo su velocidad.
+
+45
+0:04:22.16,000 --> 0:04:25,000
+Aun esta corriendo al equivalente humano de 480 km por hora.
+
+46
+0:04:25.16,000 --> 0:04:28,000
+Ahora, ¿cómo pudo hacerlo? Bien, miremos más detenidamente.
+
+47
+0:04:28.16,000 --> 0:04:34,000
+Cuando reducimos la velocidad 50 veces vemos cómo la pata está golpeando ese escombro simulado.
+
+48
+0:04:34.16,000 --> 0:04:36,000
+La pata actúa como pie.
+
+49
+0:04:36.16,000 --> 0:04:39,000
+Y, de hecho, el animal hace contacto con otras partes de su pata
+
+50
+0:04:39.16,000 --> 0:04:42,000
+más seguido que con el pie definido tradicionalmente.
+
+51
+0:04:42.16,000 --> 0:04:46,000
+El pie está distribuído en toda la pata.
+
+52
+0:04:46.16,000 --> 0:04:5,000
+Pueden hacer otro experimento donde se toma una cucaracha con un pie
+
+53
+0:04:50.16,000 --> 0:04:52,000
+y se le quita el pie.
+
+54
+0:04:52.16,000 --> 0:04:56,000
+Estoy pasando algunas cucarachas en el auditorio. Miren sus pies.
+
+55
+0:04:56.16,000 --> 0:05:,000
+Sin un pie esto es lo que hace. Ni siquiera se desacelera.
+
+56
+0:05:00.16,000 --> 0:05:03,000
+Puede correr a la misma velocidad sin siquiera esa parte.
+
+57
+0:05:03.16,000 --> 0:05:06,000
+No es problema para la cucaracha; pueden regenerarlas, si les preocupa.
+
+58
+0:05:06.16,000 --> 0:05:08,000
+¿Cómo lo hacen?
+
+59
+0:05:08.16,000 --> 0:05:11,000
+Miren detenidamente: 100 veces más lento
+
+60
+0:05:11.16,000 --> 0:05:14,000
+miren qué hace con el resto de sus patas.
+
+61
+0:05:14.16,000 --> 0:05:17,000
+Actúa, nuevamente, como un pie distribuido.
+
+62
+0:05:17.16,000 --> 0:05:19,000
+Muy eficaz.
+
+63
+0:05:19.16,000 --> 0:05:24,000
+Ahora, la pregunta que nos hicimos es ¿cuán general es un pie distribuido?
+
+64
+0:05:24.16,000 --> 0:05:33,000
+El próximo comportamiento que les mostraré de este animal nos sorprendió la primera vez que lo vimos.
+
+65
+0:05:33.16,000 --> 0:05:38,000
+Periodistas, esto es confidencial
+
+66
+0:05:38.16,000 --> 0:05:4,000
+¡miren qué es!
+
+67
+0:05:40.16,000 --> 0:05:47,000
+Es un pulpo bípedo disfrazado de coco rodante.
+
+68
+0:05:47.16,000 --> 0:05:51,000
+Fue descubierto por Christina Huffard
+
+69
+0:05:51.16,000 --> 0:05:54,000
+y filmado por Sea Studios, aquí en Monterrey.
+
+70
+0:05:56.16,000 --> 0:06:01,000
+También describimos otras especies de pulpos bípedos.
+
+71
+0:06:01.16,000 --> 0:06:04,000
+Este se disfraza de alga flotante.
+
+72
+0:06:04.16,000 --> 0:06:09,000
+Camina en dos patas y deja las otras en el aire para que no se vean.
+
+73
+0:06:09.16,000 --> 0:06:1,000
+(Aplausos)
+
+74
+0:06:10.16,000 --> 0:06:18,000
+Y miren lo que hace con su pie para reponerse de terrenos complicados.
+
+75
+0:06:18.16,000 --> 0:06:29,000
+Usa su pie distribuido para hacer como que esos obstáculos no estuvieran allí.
+
+76
+0:06:29.16,000 --> 0:06:31,000
+Realmente extraordinario.
+
+77
+0:06:33.16,000 --> 0:06:37,000
+En 1951 Escher hizo este dibujo. Pensaba que creaba una fantasía animal.
+
+78
+0:06:38.16,000 --> 0:06:4,000
+Pero sabemos que el arte imita la vida
+
+79
+0:06:40.16,000 --> 0:06:43,000
+y se vuelve naturaleza, hace tres millones de años, evolucionó el siguiente animal.
+
+80
+0:06:43.16,000 --> 0:06:45,000
+Es un animal tipo camarón llamado estomatópodo
+
+81
+0:06:45.16,000 --> 0:06:49,000
+y así es como se mueve en las playas de Panamá:
+
+82
+0:06:49.16,000 --> 0:06:53,000
+en verdad rueda, y hasta puede hacerlo cuesta arriba.
+
+83
+0:06:53.16,000 --> 0:07:01,000
+Es el pie distribuido definitivo; todo su cuerpo en este caso hace las veces de pie.
+
+84
+0:07:03.16,000 --> 0:07:08,000
+Así, si queremos agregarle a nuestro diseño la primera característica importante
+
+85
+0:07:08.16,000 --> 0:07:1,000
+queremos agregarle contacto de pie distribuido.
+
+86
+0:07:10.16,000 --> 0:07:13,000
+No sólo con el pie tradicional sino también a la pata
+
+87
+0:07:13.16,000 --> 0:07:14,000
+y a todo el cuerpo.
+
+88
+0:07:14.16,000 --> 0:07:18,000
+¿Puede esto inspirar el diseño de nuevos robots?
+
+89
+0:07:18.16,000 --> 0:07:21,000
+Nos inpiró, biológicamente, este robot llamado RHex
+
+90
+0:07:21.16,000 --> 0:07:25,000
+construido por esos ingenieros extraordinarios en los últimos años.
+
+91
+0:07:25.16,000 --> 0:07:28,000
+El pie del RHex comenzó como algo muy simple
+
+92
+0:07:28.16,000 --> 0:07:33,000
+luego se fue refinando con el tiempo y finalmente terminó en este semicírculo.
+
+93
+0:07:33.16,000 --> 0:07:35,000
+¿Por qué? Lo verán en el video.
+
+94
+0:07:35.16,000 --> 0:07:42,000
+Miren dónde hace contacto el robot con su pata para sortear este terreno difícil.
+
+95
+0:07:42.16,000 --> 0:07:48,000
+Van a ver que, de hecho, está usando esa pata semicircular como pie distribuido.
+
+96
+0:07:48.16,000 --> 0:07:5,000
+Mírenlo en movimiento.
+
+97
+0:07:50.16,000 --> 0:07:52,000
+Pueden verlo bien en estos escombros.
+
+98
+0:07:53.16,000 --> 0:07:59,000
+Extraordinario. Sin sentido, todo el control está en las patas adaptadas
+
+99
+0:07:59.16,000 --> 0:08:01,000
+Realmente simple pero hermoso.
+
+100
+0:08:01.16,000 --> 0:08:04,000
+Ahora, habrán notado algo más en los animales
+
+101
+0:08:04.16,000 --> 0:08:06,000
+cuando corrían por el terreno desparejo.
+
+102
+0:08:06.16,000 --> 0:08:08,000
+Mi asistente me va a ayudar con esto.
+
+103
+0:08:08.16,000 --> 0:08:12,000
+Cuando tocaste la pata de la cucaracha. ¿pueden ponerle el micróono?
+
+104
+0:08:12.16,000 --> 0:08:15,000
+Cuando tocaste la pata de la cucaracha, ¿qué sentiste?
+
+105
+0:08:15.16,000 --> 0:08:17,000
+¿Notaste algo?
+
+106
+0:08:17.16,000 --> 0:08:18,000
+Niño: espinoso.
+
+107
+0:08:18.16,000 --> 0:08:22,000
+Robert Full: Es espinoso, ¿verdad? Es muy espinoso, ¿cierto? Como que duele.
+
+108
+0:08:22.16,000 --> 0:08:28,000
+Tal vez podríamos dársela a nuestro curador y ver si es tan valiente como para tocar la cucaracha.
+
+109
+0:08:28.16,000 --> 0:08:29,000
+(Risas)
+
+110
+0:08:29.16,000 --> 0:08:3,000
+Chris Anderson: ¿La tocaste?
+
+111
+0:08:30.16,000 --> 0:08:33,000
+RF: Entonces si la miran con atención se ve que tienen espinas
+
+112
+0:08:33.16,000 --> 0:08:36,000
+y hasta hace pocas semanas nadie sabía qué hacían.
+
+113
+0:08:36.16,000 --> 0:08:39,000
+Se suponía que eran para protección, estructuras sensoriales.
+
+114
+0:08:39.16,000 --> 0:08:43,000
+Hallamos que siven para algo más; aquí hay un fragmento de esa espina.
+
+115
+0:08:43.16,000 --> 0:08:46,000
+Están dispuestas de manera que fácilmente caen en una dirección
+
+116
+0:08:46.16,000 --> 0:08:48,000
+para alejar la pata de los escombros
+
+117
+0:08:48.16,000 --> 0:08:54,000
+pero queda rígida en la otra dirección para capturar salientes en la superficie.
+
+118
+0:08:54.16,000 --> 0:08:57,000
+Los cangrejos no necesitan puntos de apoyo porque normalmente se mueven en la arena
+
+119
+0:08:57.16,000 --> 0:08:58,000
+hasta que van a nuesto laboratorio.
+
+120
+0:08:59.16,000 --> 0:09:02,000
+Y tienen problemas con esta clase de malla
+
+121
+0:09:02.16,000 --> 0:09:04,000
+porque no tienen espinas.
+
+122
+0:09:05.16,000 --> 0:09:08,000
+A los cangrejos les faltan espinas por eso tienen problemas en estos terrenos desparejos.
+
+123
+0:09:08.16,000 --> 0:09:11,000
+pero por supuesto que podemos resolver eso
+
+124
+0:09:11.16,000 --> 0:09:14,000
+porque podemos producir espinas artificiales.
+
+125
+0:09:15.16,000 --> 0:09:18,000
+Podemos hacer espinas que se adhieran a escombros simulados
+
+126
+0:09:18.16,000 --> 0:09:21,000
+y caigan ante la remoción para retirarlas fácilmente.
+
+127
+0:09:21.16,000 --> 0:09:24,000
+Lo hicimos poniendo estas espinas artificiales a cangrejos
+
+128
+0:09:24.16,000 --> 0:09:26,000
+como ven aquí y luego las probamos.
+
+129
+0:09:26.16,000 --> 0:09:3,000
+¿Entendemos realmente ese principio de adaptación? La respuesta es: ¡sí!
+
+130
+0:09:30.16,000 --> 0:09:35,000
+Esto está 20 veces más lento y el cangrejo sale zumbando por los escombros simulados.
+
+131
+0:09:35.16,000 --> 0:09:37,000
+(Risas) (Aplausos)
+
+132
+0:09:37.16,000 --> 0:09:39,000
+Un poquito mejor que la Naturaleza.
+
+133
+0:09:40.16,000 --> 0:09:43,000
+Así, para nuestro diseño, necesitamos agregar espinas adaptadas.
+
+134
+0:09:43.16,000 --> 0:09:48,000
+Ahora, ¿nos ayudará esto a pensar el diseño de robots escaladores más efectivos?
+
+135
+0:09:48.16,000 --> 0:09:53,000
+Bien, este es RHex (RHex tiene problemas sobre rieles) sobre rieles lisos, como ven.
+
+136
+0:09:53.16,000 --> 0:09:57,000
+Entonces, ¿por qué no agregar espinas? Mis colegas lo hicieron en la Universidad de Pensilvania.
+
+137
+0:09:57.16,000 --> 0:10:01,000
+Dan Koditschek le puso uñas de acero (una versión muy simple) al robot
+
+138
+0:10:01.16,000 --> 0:10:07,000
+y aquí tenemos al RHex yendo por esos rieles de acero... ¡sin problemas!
+
+139
+0:10:07.16,000 --> 0:10:08,000
+¿Cómo lo hace?
+
+140
+0:10:08.16,000 --> 0:10:1,000
+Mirémoslo más lentamente para ver las espinas en acción.
+
+141
+0:10:10.16,000 --> 0:10:13,000
+Miren pasar la pata y la verán adherirse justo allí.
+
+142
+0:10:13.16,000 --> 0:10:16,000
+No podía hacerlo antes, se habría resbalado, atascado y caído.
+
+143
+0:10:16.16,000 --> 0:10:2,000
+Y miren de nuevo, justo allí... éxito.
+
+144
+0:10:20.16,000 --> 0:10:23,000
+Ahora bien, por sólo tener pies y espinas distribuidos
+
+145
+0:10:23.16,000 --> 0:10:25,000
+no significa que se pueda escalar superficies verticales.
+
+146
+0:10:26.16,000 --> 0:10:28,000
+Esto es realmente muy difícil.
+
+147
+0:10:28.16,000 --> 0:10:3,000
+¡Pero miren como lo hace este animal!
+
+148
+0:10:30.16,000 --> 0:10:36,000
+Uno de los que voy pasando está escalando esta superficie vertical que es una placa de metal lisa.
+
+149
+0:10:36.16,000 --> 0:10:38,000
+Es extraordinario lo rápido que puede hacerlo
+
+150
+0:10:38.16,000 --> 0:10:42,000
+pero en cámara lenta puede verse algo muy extraordinario.
+
+151
+0:10:42.16,000 --> 0:10:46,000
+Es un secreto. El animal efectivamente escala resbalando y miren
+
+152
+0:10:46.16,000 --> 0:10:5,000
+lo hace realmente mal respecto de la adhesión a la superficie
+
+153
+0:10:50.16,000 --> 0:10:53,000
+Parece, de hecho, que nada contracorriente la superficie.
+
+154
+0:10:53.16,000 --> 0:10:57,000
+Podemos modelar ese comportamiento mejor como fluído, si lo miran.
+
+155
+0:10:57.16,000 --> 0:11:01,000
+El pie distribuido, en realidad, funciona más como un remo.
+
+156
+0:11:01.16,000 --> 0:11:05,000
+Lo mismo vale si miramos esta lagartija que corre en un lecho fluidizado.
+
+157
+0:11:05.16,000 --> 0:11:07,000
+Miren sus pies.
+
+158
+0:11:07.16,000 --> 0:11:09,000
+En realidad funcionan como remos
+
+159
+0:11:09.16,000 --> 0:11:15,000
+si bien está interactuando con una superficie que normalmente pensamos como sólida.
+
+160
+0:11:15.16,000 --> 0:11:2,000
+Esto no difiere de lo que mi antigua estudiante de licenciatura descubrió
+
+161
+0:11:20.16,000 --> 0:11:24,000
+cuando ella imaginaba cómo pueden correr las lagartijas en el agua.
+
+162
+0:11:25.16,000 --> 0:11:3,000
+¿Puede usarse esto para construir mejores robots?
+
+163
+0:11:30.16,000 --> 0:11:33,000
+Martin Buehler hizo (está en Boston Dynamics ahora)
+
+164
+0:11:33.16,000 --> 0:11:38,000
+tomó esta idea e hizo de RHex un Aqua RHex.
+
+165
+0:11:38.16,000 --> 0:11:4,000
+Así tenemos un RHex con remos
+
+166
+0:11:40.16,000 --> 0:11:45,000
+ahora convertido en un robot nadador increíblemente versátil.
+
+167
+0:11:46.16,000 --> 0:11:49,000
+En superficies irregulares, animales con garras.
+
+168
+0:11:49.16,000 --> 0:11:5,000
+Y seguro las sienten si los tocan.
+
+169
+0:11:50.16,000 --> 0:11:51,000
+¿Las tocaron?
+
+170
+0:11:51.16,000 --> 0:11:52,000
+CA: Yo lo hice.
+
+171
+0:11:52.16,000 --> 0:11:54,000
+RF: Y se adhieren muy bien a las superficies con estas garras.
+
+172
+0:11:54.16,000 --> 0:12:,000
+Mark Cutkosky de la Universidad de Stanford, colaborador mío, es un ingeniero fuera de serie
+
+173
+0:12:00.16,000 --> 0:12:03,000
+que desarrolló esta técnica llamada Fabricación por Deposición de Forma
+
+174
+0:12:03.16,000 --> 0:12:06,000
+que le permite incrustar garras en un pie artificial.
+
+175
+0:12:06.16,000 --> 0:12:11,000
+Y aquí está una versión de un pie para un nuevo robot que les mostraré en un momento.
+
+176
+0:12:11.16,000 --> 0:12:14,000
+Así, para nuestro diseño, agreguemos garras.
+
+177
+0:12:14.16,000 --> 0:12:17,000
+Si miramos a los animales, para ser realmente versátil en todas las superficies,
+
+178
+0:12:17.16,000 --> 0:12:19,000
+los animales usan mecanismos híbridos
+
+179
+0:12:19.16,000 --> 0:12:23,000
+como son garras, espinas, pelos, almohadillas, pegamento, adhesión capilar
+
+180
+0:12:23.16,000 --> 0:12:24,000
+y un montón de otras cosas.
+
+181
+0:12:24.16,000 --> 0:12:26,000
+Estas son todas de diferentes insectos.
+
+182
+0:12:26.16,000 --> 0:12:28,000
+Hay una hormiga arrastrándose por una superficie vertical.
+
+183
+0:12:28.16,000 --> 0:12:29,000
+Miremos esa hormiga.
+
+184
+0:12:30.16,000 --> 0:12:35,000
+Este es el pie de una hormiga. Ven pelos, garras y esto de aquí.
+
+185
+0:12:35.16,000 --> 0:12:37,000
+Esto es cuando su pie está en el aire.
+
+186
+0:12:37.16,000 --> 0:12:41,000
+Miren lo que sucede cuando el pie entra en un sandwich.
+
+187
+0:12:41.16,000 --> 0:12:43,000
+¿Ven lo que sucede?
+
+188
+0:12:43.16,000 --> 0:12:47,000
+Aparece esa almohadilla, donde está el pegamento.
+
+189
+0:12:48.16,000 --> 0:12:51,000
+Aquí está un pie de hormiga visto desde abajo
+
+190
+0:12:51.16,000 --> 0:12:57,000
+y cuando las garras no se clavan aparece la almohadilla sin que la hormiga haga nada.
+
+191
+0:12:57.16,000 --> 0:12:58,000
+Simplmente sale.
+
+192
+0:12:58.16,000 --> 0:13:03,000
+Y esta toma fue muy difícil... pienso que esta es la toma de la hormiga en las supercuerdas.
+
+193
+0:13:03.16,000 --> 0:13:04,000
+Por eso es bastante difícil de hacer.
+
+194
+0:13:04.16,000 --> 0:13:07,000
+Así se ve de cerca
+
+195
+0:13:07.16,000 --> 0:13:09,000
+este es el pie de la hormiga y ese el pegamento.
+
+196
+0:13:09.16,000 --> 0:13:13,000
+Y descubrimos que este pegamento podría ser una mezcla interesante de 2 fases.
+
+197
+0:13:13.16,000 --> 0:13:15,000
+Desde luego que ayuda a sostener.
+
+198
+0:13:15.16,000 --> 0:13:19,000
+Así, para nuestro diseño, peguemos algunas almohadillas adherentes.
+
+199
+0:13:19.16,000 --> 0:13:23,000
+Podrían pensar que para superficies lisas nos inspiramos en esto.
+
+200
+0:13:23.16,000 --> 0:13:26,000
+Ahora tenemos algo mejor aquí.
+
+201
+0:13:26.16,000 --> 0:13:29,000
+La salamandra es un gran ejemplo de nanotecnología en la Naturaleza.
+
+202
+0:13:29.16,000 --> 0:13:31,000
+Estos son sus pies.
+
+203
+0:13:31.16,000 --> 0:13:35,000
+Son... casi parece un alien. Y el secreto que le permite adherirse
+
+204
+0:13:35.16,000 --> 0:13:37,000
+involucra sus dedos peludos.
+
+205
+0:13:37.16,000 --> 0:13:41,000
+Pueden recorrer una superficie a un metro por segundo
+
+206
+0:13:41.16,000 --> 0:13:44,000
+30 pasos en ese segundo... casi no se puede ver.
+
+207
+0:13:44.16,000 --> 0:13:47,000
+En cámara lenta, apoyan el pie en ocho milisegundos
+
+208
+0:13:47.16,000 --> 0:13:5,000
+y lo levantan en 16 milisegundos.
+
+209
+0:13:50.16,000 --> 0:13:57,000
+Y cuando miran como lo levantan, es raro.
+
+210
+0:13:57.16,000 --> 0:14:02,000
+Lo despegan de la superficie como si despegaran una cinta adhesiva.
+
+211
+0:14:02.16,000 --> 0:14:05,000
+Muy extraño. ¿Cómo se pegan?
+
+212
+0:14:05.16,000 --> 0:14:08,000
+Si miran sus pies, tienen estructuras con forma de hoja llamadas linalae
+
+213
+0:14:08.16,000 --> 0:14:09,000
+con millones de pelos.
+
+214
+0:14:09.16,000 --> 0:14:12,000
+Y cada pelo tiene el peor caso posible de puntas rotas.
+
+215
+0:14:12.16,000 --> 0:14:15,000
+Tiene de cien a mil puntas rotas
+
+216
+0:14:15.16,000 --> 0:14:18,000
+y ese es el secreto porque permite contacto íntimo.
+
+217
+0:14:18.16,000 --> 0:14:22,000
+La salamandra tiene mil millones de estas puntas rotas de 200 nanómetros.
+
+218
+0:14:22.16,000 --> 0:14:27,000
+Y no se pegan con pegamento, ni funcionan como el velcro, ni funcionan con succión.
+
+219
+0:14:27.16,000 --> 0:14:31,000
+Descubrimos que funcionan sólo por fuerzas intermoleculares.
+
+220
+0:14:31.16,000 --> 0:14:35,000
+Así, para nuestro diseño, partimos algunos pelos.
+
+221
+0:14:35.16,000 --> 0:14:38,000
+Esto ha inspirado el diseño del primer adhesivo seco autolimpiante
+
+222
+0:14:38.16,000 --> 0:14:4,000
+patentado, nos complace decirlo.
+
+223
+0:14:40.16,000 --> 0:14:43,000
+Y aquí está la versión más simple en la Naturaleza
+
+224
+0:14:43.16,000 --> 0:14:46,000
+y aquí el intento de mi colaborador Ron Fearing
+
+225
+0:14:46.16,000 --> 0:14:51,000
+en una versión artificial de este adhesivo seco hecho de poliuretano.
+
+226
+0:14:51.16,000 --> 0:14:54,000
+Y aquí el primer intento de hacerlo funcionar con algo de carga.
+
+227
+0:14:54.16,000 --> 0:14:57,000
+Hay un enorme interés en esto en muchas campos diferentes.
+
+228
+0:14:57.16,000 --> 0:15:,000
+Pueden imaginar mil usos posibles, estoy seguro.
+
+229
+0:15:00.16,000 --> 0:15:05,000
+Mucha gente lo hace y estamos entusiasmados de ver esto como un producto.
+
+230
+0:15:05.16,000 --> 0:15:07,000
+Hemos imaginado productos, por ejemplo, éste:
+
+231
+0:15:08.16,000 --> 0:15:13,000
+imaginamos un apósito bio-inspirado, donde quitamos el pegamento del apósito.
+
+232
+0:15:13.16,000 --> 0:15:15,000
+Tomamos algunos pelos de una salamandra;
+
+233
+0:15:15.16,000 --> 0:15:19,000
+pusimos tres ovillos de pelos y luego hicimos este apósito adhesivo.
+
+234
+0:15:19.16,000 --> 0:15:21,000
+Esta es una estudiante voluntaria
+
+235
+0:15:21.16,000 --> 0:15:24,000
+tenemos 30.000 estudiantes así que podemos elegir
+
+236
+0:15:24.16,000 --> 0:15:26,000
+ese es en realidad sólo un marcador rojo.
+
+237
+0:15:26.16,000 --> 0:15:28,000
+Pero es un apósito adhesivo increíble.
+
+238
+0:15:28.16,000 --> 0:15:36,000
+Es aireado, se despega fácilmente, no provoca irritación, funciona bajo el agua.
+
+239
+0:15:36.16,000 --> 0:15:41,000
+Pienso que este es un muy buen ejemplo de cómo la investigación por curiosidad
+
+240
+0:15:41.16,000 --> 0:15:43,000
+(simplemente nos preguntábamos cómo escalaban algo)
+
+241
+0:15:43.16,000 --> 0:15:46,000
+puede llevar a cosas que nunca hubiéramos imaginado.
+
+242
+0:15:46.16,000 --> 0:15:5,000
+Es sólo un ejemplo de por qué tenemos que apoyar la investigación por curiosidad.
+
+243
+0:15:50.16,000 --> 0:15:53,000
+Aquí lo tienen, quitando el apósito adhesivo.
+
+244
+0:15:53.16,000 --> 0:15:57,000
+Así hemos redefinido lo que es un pie.
+
+245
+0:15:57.16,000 --> 0:15:59,000
+La pregunta es si, entonces, podemos usar estos secretos
+
+246
+0:15:59.16,000 --> 0:16:02,000
+para inspirar el diseño de un mejor pie, mejor que el que vemos en la Naturaleza.
+
+247
+0:16:02.16,000 --> 0:16:04,000
+Este es el nuevo proyecto:
+
+248
+0:16:04.16,000 --> 0:16:1,000
+estamos intentando crear el primer robot trepador de búsqueda y rescate (sin succión o imanes)
+
+249
+0:16:10.16,000 --> 0:16:13,000
+que puede moverse sólo en unas pocas superficies.
+
+250
+0:16:13.16,000 --> 0:16:18,000
+Llamo al nuevo robot RiSE, por Robot en Entorno Escansorial (ReEE), que es un entorno empinado
+
+251
+0:16:18.16,000 --> 0:16:22,000
+y tenemos un equipo extraordinario de biólogos e ingenieros creando este robot.
+
+252
+0:16:22.16,000 --> 0:16:24,000
+Y aquí está el ReEE.
+
+253
+0:16:26.16,000 --> 0:16:29,000
+Tiene seis patas y cola. Aquí está en una cerca y un árbol.
+
+254
+0:16:29.16,000 --> 0:16:33,000
+Y aquí los primeros pasos del ReEE en una pendiente.
+
+255
+0:16:33.16,000 --> 0:16:36,000
+¿Tienen el audio? Pueden oirlo subir.
+
+256
+0:16:36.16,000 --> 0:16:42,000
+Y aquí viene hacia ustedes, en su primeros pasos pared arriba.
+
+257
+0:16:42.16,000 --> 0:16:47,000
+Ahora está usando sólo sus pies más simples, así que esto es muy nuevo.
+
+258
+0:16:47.16,000 --> 0:16:5,000
+Pero pensamos que entendimos la dinámica del robot.
+
+259
+0:16:51.16,000 --> 0:16:53,000
+Mark Cutkosky está yendo un paso más allá.
+
+260
+0:16:53.16,000 --> 0:16:58,000
+Es la persona capaz de constuir estos pies y dedos fabricados por deposición de forma.
+
+261
+0:16:58.16,000 --> 0:17:02,000
+El próximo paso es hacer dedos acordes
+
+262
+0:17:02.16,000 --> 0:17:04,000
+e intentar agregar espinas, garras y disponerlos en adhesivos secos.
+
+263
+0:17:04.16,000 --> 0:17:07,000
+Así, la idea es primero conseguir los dedos y un pie
+
+264
+0:17:07.16,000 --> 0:17:1,000
+intentar que trepe y finalmente colocarlo en el robot.
+
+265
+0:17:10.16,000 --> 0:17:12,000
+Y eso es exactamente lo que él ha hecho.
+
+266
+0:17:12.16,000 --> 0:17:17,000
+Construyó, de hecho, un pie-bot escalador inspirado por la Naturaleza.
+
+267
+0:17:17.16,000 --> 0:17:21,000
+Y aquí está el diseño de Cutkosky y de sus asombrosos estudiantes.
+
+268
+0:17:21.16,000 --> 0:17:27,000
+Y estos son dedos adaptados, hay seis de ellos
+
+269
+0:17:27.16,000 --> 0:17:36,000
+y usan los principios de los que les hablé, colectivamente para el diseño.
+
+270
+0:17:36.16,000 --> 0:17:38,000
+Entonces esto no usa succión ni pegamento
+
+271
+0:17:38.16,000 --> 0:17:41,000
+y finalmente, cuando esté anexado al robot,
+
+272
+0:17:41.16,000 --> 0:17:44,000
+(está tan inspirado en biología como el animal)
+
+273
+0:17:44.16,000 --> 0:17:49,000
+con suerte será capaz de escalar todo tipo de superficie.
+
+274
+0:17:49.16,000 --> 0:17:54,000
+Aquí lo ven, a continuación, subiendo un lado del edificio en Stanford.
+
+275
+0:17:54.16,000 --> 0:17:57,000
+Está acelerado, de nuevo, es un pie escalando.
+
+276
+0:17:57.16,000 --> 0:17:59,000
+Todavía no es el robot completo, estamos trabajando en eso
+
+277
+0:17:59.16,000 --> 0:18:,000
+ahora pueden ver cómo se agarra.
+
+278
+0:18:00.16,000 --> 0:18:06,000
+Estas estructuras adaptadas permiten a las espinas, las almohadillas de fricción y pelos adhesivos
+
+279
+0:18:06.16,000 --> 0:18:09,000
+adherirse a superficies muy desafiantes y difíciles.
+
+280
+0:18:09.16,000 --> 0:18:13,000
+Y así fueron capaces de obtener esto, esto está acelerado 20 veces,
+
+281
+0:18:13.16,000 --> 0:18:17,000
+¿pueden imaginarlo intentando subir a rescatar a alguien en el piso superior? ¿bien?
+
+282
+0:18:17.16,000 --> 0:18:19,000
+Pueden visualizarlo ahora, no es imposible.
+
+283
+0:18:19.16,000 --> 0:18:23,000
+Es una tarea que supone un gran reto, pero hay mucho por venir.
+
+284
+0:18:23.16,000 --> 0:18:27,000
+Para terminar: obtuvimos secretos de la Naturaleza mirando cómo están hechos los pies.
+
+285
+0:18:27.16,000 --> 0:18:3,000
+Hemos aprendido que deberíamos distribuir el control a partes inteligentes.
+
+286
+0:18:30.16,000 --> 0:18:31,000
+No poner todo en el cerebro
+
+287
+0:18:31.16,000 --> 0:18:35,000
+sino poner algo de control en pies adaptados, en patas e incluso en el cuerpo.
+
+288
+0:18:35.16,000 --> 0:18:38,000
+Que la Naturaleza usa soluciones híbridas, no una solución simple, para estos problemas;
+
+289
+0:18:38.16,000 --> 0:18:41,000
+están integrados y son bellamente robustos.
+
+290
+0:18:41.16,000 --> 0:18:49,000
+Y tercero, creemos firmemente que no deseamos imitar la Naturaleza sino inspirarnos en la biología
+
+291
+0:18:49.16,000 --> 0:18:53,000
+y usar estos principios originales con las mejores soluciones de ingeniería existentes
+
+292
+0:18:53.16,000 --> 0:18:56,000
+para hacer, potencialmente, algo mejor que la Naturaleza.
+
+293
+0:18:57.16,000 --> 0:18:59,000
+Entonces, hay un mensaje claro:
+
+294
+0:18:59.16,000 --> 0:19:02,000
+tanto si uno se preocupa por la investigación fundamental básica
+
+295
+0:19:02.16,000 --> 0:19:05,000
+de animales realmente interesantes, raros y maravillosos
+
+296
+0:19:05.16,000 --> 0:19:06,000
+como si se desea construir un robot de búsqueda y rescate
+
+297
+0:19:06.16,000 --> 0:19:09,000
+que pueda ayudar en terremotos, o salvar a alguien de un incendio
+
+298
+0:19:09.16,000 --> 0:19:14,000
+o si uno se interesa por la medicina, debemos preservar los diseños de la Naturaleza.
+
+299
+0:19:14.16,000 --> 0:19:17,000
+De otro modo estos secretos se perderán para siempre.
+
+300
+0:19:17.16,000 --> 0:19:18,000
+Gracias.
+

@@ -1,0 +1,864 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Denise RQ
+
+2
+0:00:12.876,000 --> 0:00:13,000
+Tengo una pregunta.
+
+3
+0:00:15.422,000 --> 0:00:16,000
+¿Puede una máquina escribir poesía?
+
+4
+0:00:18.959,000 --> 0:00:2,000
+Es una pregunta provocativa.
+
+5
+0:00:21.715,000 --> 0:00:22,000
+Lo pensamos un minuto,
+
+6
+0:00:23.457,000 --> 0:00:25,000
+y de repente surgen muchas otras preguntas como:
+
+7
+0:00:26.769,000 --> 0:00:27,000
+¿Qué es una máquina?
+
+8
+0:00:28.71,000 --> 0:00:29,000
+¿Qué es la poesía?
+
+9
+0:00:30.707,000 --> 0:00:31,000
+¿Qué es la creatividad?
+
+10
+0:00:33.65,000 --> 0:00:34,000
+Pero estas son preguntas
+
+11
+0:00:34.846,000 --> 0:00:37,000
+que tratamos de responder durante toda la vida
+
+12
+0:00:37.94,000 --> 0:00:39,000
+no solo durante una charla TED.
+
+13
+0:00:40.188,000 --> 0:00:42,000
+Por eso lo intentaremos desde otro enfoque.
+
+14
+0:00:42.657,000 --> 0:00:44,000
+Aquí tenemos dos poemas.
+
+15
+0:00:45.839,000 --> 0:00:47,000
+Uno escrito por un humano,
+
+16
+0:00:48.139,000 --> 0:00:5,000
+y el otro por una máquina.
+
+17
+0:00:50.754,000 --> 0:00:52,000
+Les pediré que me digan cuál es cuál.
+
+18
+0:00:53.858,000 --> 0:00:54,000
+Veamos:
+
+19
+0:00:55.038,000 --> 0:00:58,000
+Poema 1: Mosquita / tu juego estival / mi mano vil / arrasó cual vendaval.
+
+20
+0:00:58.628,000 --> 0:01:01,000
+¿No tenemos tú y yo / la misma identidad / tu arte no tiene / una misma humanidad?
+
+21
+0:01:02.536,000 --> 0:01:05,000
+Poema 2: Nos sentimos / Activistas Durante toda la vida / Amanecer
+
+22
+0:01:05.828,000 --> 0:01:08,000
+Paramos a ver, papa que odiamos el / no toda la noche para comenzar una /
+
+23
+0:01:09.44,000 --> 0:01:1,000
+por lo demás genial (...)
+
+24
+0:01:11.14,000 --> 0:01:12,000
+Muy bien, tiempo.
+
+25
+0:01:12.239,000 --> 0:01:15,000
+Levanten la mano si piensan que el Poema 1 fue escrito por un humano.
+
+26
+0:01:17.547,000 --> 0:01:18,000
+Bien, la mayoría.
+
+27
+0:01:19.061,000 --> 0:01:22,000
+Levanten la mano si piensan que el Poema 2 fue escrito por un humano.
+
+28
+0:01:23.172,000 --> 0:01:24,000
+Muy valiente de su parte,
+
+29
+0:01:24.855,000 --> 0:01:28,000
+porque el primer poema fue escrito por el poeta William Blake.
+
+30
+0:01:29.784,000 --> 0:01:31,000
+El segundo fue escrito por un algoritmo
+
+31
+0:01:32.757,000 --> 0:01:35,000
+que tomó las palabras de mi Facebook un día
+
+32
+0:01:36.473,000 --> 0:01:38,000
+y las organizó con un programa,
+
+33
+0:01:39.26,000 --> 0:01:42,000
+siguiendo los métodos que describiré en unos momentos.
+
+34
+0:01:43.218,000 --> 0:01:45,000
+Hagamos otra prueba.
+
+35
+0:01:46.138,000 --> 0:01:48,000
+De nuevo, no tendrán mucho tiempo para leer esto,
+
+36
+0:01:48.515,000 --> 0:01:49,000
+confíen en su instinto.
+
+37
+0:01:50.151,000 --> 0:01:54,000
+Poema 1: Ruge un león y ladra un perro. Es interesante / y fascinante /
+
+38
+0:01:54.22,000 --> 0:01:58,000
+que un ave vuele y no / ruja ni ladre. Sueño historias apasionantes de animales
+
+39
+0:01:58.547,000 --> 0:02:02,000
+y las cantaré a todas ellas si no estoy cansado ni agotado.
+
+40
+0:02:02.631,000 --> 0:02:05,000
+Poema 2: ¡Oh, canguros, lentejuelas, chocolate, refrescos! / ¡Hermosos!
+
+41
+0:02:06.626,000 --> 0:02:1,000
+Perlas, / armónicas, azufaifa, ¡aspirinas! / Las cosas siempre mencionadas (...)
+
+42
+0:02:11.022,000 --> 0:02:12,000
+Muy bien, tiempo.
+
+43
+0:02:12.204,000 --> 0:02:15,000
+Si piensan que el primer poema fue escrito por un humano,
+
+44
+0:02:15.365,000 --> 0:02:16,000
+levanten la mano.
+
+45
+0:02:17.687,000 --> 0:02:18,000
+Bien.
+
+46
+0:02:18.865,000 --> 0:02:2,000
+Y si piensan que el segundo poema fue escrito por un humano,
+
+47
+0:02:21.774,000 --> 0:02:22,000
+levanten la mano.
+
+48
+0:02:23.779,000 --> 0:02:26,000
+Tenemos, más o menos, opiniones divididas.
+
+49
+0:02:28.157,000 --> 0:02:29,000
+Fue mucho más difícil.
+
+50
+0:02:29.617,000 --> 0:02:3,000
+La respuesta:
+
+51
+0:02:31.334,000 --> 0:02:34,000
+El primer poema fue generado por un algoritmo llamado Racter,
+
+52
+0:02:34.86,000 --> 0:02:37,000
+creado en la década de 1970,
+
+53
+0:02:37.876,000 --> 0:02:4,000
+y el segundo poema fue escrito por un tipo llamado Frank O'Hara,
+
+54
+0:02:41.099,000 --> 0:02:43,000
+que da la casualidad que es uno de mis poetas favoritos.
+
+55
+0:02:44.631,000 --> 0:02:47,000
+(Risas)
+
+56
+0:02:48.042,000 --> 0:02:51,000
+Lo que acabamos de hacer es una prueba de Turing de poesía.
+
+57
+0:02:52.018,000 --> 0:02:56,000
+Alan Turing fue el primero en proponer este test en 1950,
+
+58
+0:02:56.589,000 --> 0:02:57,000
+para responder la pregunta:
+
+59
+0:02:58.177,000 --> 0:02:59,000
+¿Pueden pensar las máquinas?
+
+60
+0:03:00.25,000 --> 0:03:03,000
+Alan Turing creía que si una máquina podía mantener una conversación
+
+61
+0:03:03.555,000 --> 0:03:05,000
+basada en un material escrito con un humano,
+
+62
+0:03:06.141,000 --> 0:03:06,000
+con un dominio tal
+
+63
+0:03:07.141,000 --> 0:03:08,000
+que el humano no pudiera discernir
+
+64
+0:03:08.935,000 --> 0:03:1,000
+si estaba hablando con una máquina o un humano,
+
+65
+0:03:11.925,000 --> 0:03:13,000
+se podría decir entonces que la máquina tiene inteligencia.
+
+66
+0:03:15.25,000 --> 0:03:18,000
+Por eso en 2013, mi amigo Benjamin Laird y yo,
+
+67
+0:03:18.589,000 --> 0:03:2,000
+creamos la prueba de Turing para poesía en línea.
+
+68
+0:03:21.584,000 --> 0:03:22,000
+Se llama "Bot or not",
+
+69
+0:03:22.902,000 --> 0:03:24,000
+y cualquiera puede acceder e intentar pasarla.
+
+70
+0:03:25.296,000 --> 0:03:27,000
+Pero, básicamente, es el juego que jugamos.
+
+71
+0:03:27.381,000 --> 0:03:28,000
+Se muestran dos poemas,
+
+72
+0:03:28.667,000 --> 0:03:31,000
+y sin que uno sepa cual fue escrito por un humano o por una máquina,
+
+73
+0:03:31.945,000 --> 0:03:32,000
+tiene que adivinar.
+
+74
+0:03:33.039,000 --> 0:03:36,000
+Miles y miles de personas han hecho la prueba en línea,
+
+75
+0:03:36.254,000 --> 0:03:37,000
+así que tenemos resultados.
+
+76
+0:03:37.727,000 --> 0:03:38,000
+¿Cuáles son los resultados?
+
+77
+0:03:39.704,000 --> 0:03:42,000
+Bueno, Turing decía que si una máquina pudiera hacer creer a un humano
+
+78
+0:03:43.126,000 --> 0:03:45,000
+que es un otro ser humano un 30 % de las veces
+
+79
+0:03:45.65,000 --> 0:03:47,000
+pasaba la prueba de inteligencia de Turing.
+
+80
+0:03:48.625,000 --> 0:03:5,000
+Tenemos poemas en la base de "Bot or not"
+
+81
+0:03:51.087,000 --> 0:03:53,000
+que han hecho pensar a un 65 % de los lectores humanos
+
+82
+0:03:54.09,000 --> 0:03:55,000
+que fueron escritos por un humano.
+
+83
+0:03:55.959,000 --> 0:03:57,000
+Creo que tenemos una respuesta a nuestra pregunta.
+
+84
+0:03:59.546,000 --> 0:04:01,000
+Según la lógica de la prueba de Turing,
+
+85
+0:04:01.918,000 --> 0:04:02,000
+¿puede una máquina escribir poesía?
+
+86
+0:04:03.87,000 --> 0:04:05,000
+Bueno, sí, categóricamente.
+
+87
+0:04:07.782,000 --> 0:04:09,000
+Pero si se sienten un poco incómodos
+
+88
+0:04:10.152,000 --> 0:04:11,000
+con la respuesta, está bien.
+
+89
+0:04:12.103,000 --> 0:04:15,000
+Si su respuesta es emocional, está bien
+
+90
+0:04:15.529,000 --> 0:04:17,000
+porque no es el fin de la historia.
+
+91
+0:04:18.594,000 --> 0:04:2,000
+Hagamos una tercera y última prueba.
+
+92
+0:04:22,000 --> 0:04:23,000
+De nuevo, tendrán que leer y decirme
+
+93
+0:04:23.774,000 --> 0:04:25,000
+qué poema piensan que fue escrito por un humano.
+
+94
+0:04:26.123,000 --> 0:04:29,000
+Poema 1: Banderas rojas, la razón de hermosas banderas. / Y el blasón.
+
+95
+0:04:29.449,000 --> 0:04:33,000
+Blasones de banderas / Y materiales. / Razones para lucir materiales. (...)
+
+96
+0:04:33.793,000 --> 0:04:36,000
+Poema 2: Un ciervo herido salta más alto, / He oído al narciso. /
+
+97
+0:04:37.736,000 --> 0:04:4,000
+He oído la bandera hoy / He oído al cazador decir; /
+
+98
+0:04:41.206,000 --> 0:04:44,000
+No es más que el éxtasis de la muerte / Y luego es casi irrefrenable. (...)
+
+99
+0:04:44.932,000 --> 0:04:45,000
+Muy bien, tiempo.
+
+100
+0:04:46.555,000 --> 0:04:49,000
+Levanten la mano si piensan que el Poema 1 fue escrito por un humano.
+
+101
+0:04:51.733,000 --> 0:04:54,000
+Levanten la mano si piensan que el Poema 2 fue escrito por un humano.
+
+102
+0:04:55.035,000 --> 0:04:57,000
+Guau, son muchos más.
+
+103
+0:04:58.327,000 --> 0:05:,000
+Les sorprenderá saber que el Poema 1
+
+104
+0:05:01.334,000 --> 0:05:05,000
+fue escrito por la mismísima Gertrude Stein.
+
+105
+0:05:06.083,000 --> 0:05:11,000
+Y el Poema 2 fue generado por un algoritmo llamado RKCP.
+
+106
+0:05:11.162,000 --> 0:05:14,000
+Pero antes de continuar describiré, simple y rápidamente,
+
+107
+0:05:14.505,000 --> 0:05:15,000
+cómo funciona RKCP.
+
+108
+0:05:16.876,000 --> 0:05:19,000
+El RKCP es un algoritmo diseñado por Ray Kurzweil,
+
+109
+0:05:20.747,000 --> 0:05:22,000
+un director de ingeniería de Google
+
+110
+0:05:22.993,000 --> 0:05:24,000
+que cree firmemente en la inteligencia artificial.
+
+111
+0:05:25.822,000 --> 0:05:28,000
+Se le proporciona a RKCP un texto fuente,
+
+112
+0:05:29.837,000 --> 0:05:33,000
+El RKCP analiza el texto para detectar cómo se usa el lenguaje,
+
+113
+0:05:34.33,000 --> 0:05:35,000
+y luego vuelve a generar el lenguaje
+
+114
+0:05:36.302,000 --> 0:05:38,000
+que emula al primer texto.
+
+115
+0:05:38.854,000 --> 0:05:4,000
+El poema que vimos antes,
+
+116
+0:05:40.991,000 --> 0:05:42,000
+el Poema 2, el que todos pensaron que era humano,
+
+117
+0:05:43.64,000 --> 0:05:44,000
+fue creado a base de muchos poemas
+
+118
+0:05:45.29,000 --> 0:05:46,000
+escritos por la poetisa Emily Dickinson;
+
+119
+0:05:47.273,000 --> 0:05:5,000
+analizó la forma en que ella usaba el lenguaje, aprendió el modelo,
+
+120
+0:05:50.732,000 --> 0:05:54,000
+y luego volvió a generar un modelo siguiendo la misma estructura.
+
+121
+0:05:56.732,000 --> 0:05:58,000
+Pero lo importante a saber de RKCP
+
+122
+0:05:58.934,000 --> 0:06:,000
+es que no conoce el significado de las palabras que usa.
+
+123
+0:06:02.359,000 --> 0:06:04,000
+El lenguaje es solo materia prima,
+
+124
+0:06:04.659,000 --> 0:06:06,000
+podría ser chino, podría ser sueco,
+
+125
+0:06:06.843,000 --> 0:06:1,000
+podría ser todo lo escrito en su muro de Facebook a lo largo del día.
+
+126
+0:06:11.046,000 --> 0:06:13,000
+Un idioma no es más que materia prima para la machina.
+
+127
+0:06:13.668,000 --> 0:06:15,000
+Y, no obstante, es capaz de crear un poema
+
+128
+0:06:16.101,000 --> 0:06:19,000
+que parece más humano que el poema de Gertrude Stein,
+
+129
+0:06:19.452,000 --> 0:06:21,000
+y Gertrude Stein es un ser humano.
+
+130
+0:06:22.846,000 --> 0:06:26,000
+Aquí hemos hecho, más o menos, una prueba de Turing inversa.
+
+131
+0:06:27.94,000 --> 0:06:32,000
+Gertrude Stein, humana, puede escribir un poema
+
+132
+0:06:33.143,000 --> 0:06:36,000
+que lleva a pensar a la mayoría de los jueces humanos
+
+133
+0:06:36.905,000 --> 0:06:37,000
+que fue escrito por una máquina.
+
+134
+0:06:39.176,000 --> 0:06:43,000
+Por lo tanto, según la lógica de la prueba de Turing inversa,
+
+135
+0:06:43.341,000 --> 0:06:44,000
+Gertrude Stein es una máquina.
+
+136
+0:06:45.281,000 --> 0:06:46,000
+(Risas)
+
+137
+0:06:47.358,000 --> 0:06:48,000
+¿Están confundidos?
+
+138
+0:06:49.193,000 --> 0:06:5,000
+Pienso que es normal.
+
+139
+0:06:51.546,000 --> 0:06:55,000
+Hasta ahora tuvimos humanos que escribían como humanos,
+
+140
+0:06:55.686,000 --> 0:06:58,000
+tenemos máquinas que escriben como máquinas,
+
+141
+0:06:58.821,000 --> 0:07:01,000
+tenemos máquinas que escriben como humanos,
+
+142
+0:07:01.9,000 --> 0:07:04,000
+pero también tenemos, quizá lo que más confunde,
+
+143
+0:07:05.556,000 --> 0:07:07,000
+humanos que escriben como máquinas.
+
+144
+0:07:08.938,000 --> 0:07:09,000
+¿Qué aprendemos de todo esto?
+
+145
+0:07:11.611,000 --> 0:07:15,000
+¿Que William Blake en cierta forma es más humano que Gertrude Stein?
+
+146
+0:07:16.065,000 --> 0:07:19,000
+¿O que Gertrude Stein es más autómata que William Blake?
+
+147
+0:07:19.135,000 --> 0:07:2,000
+(Risas)
+
+148
+0:07:20.711,000 --> 0:07:22,000
+Son preguntas que me he hago
+
+149
+0:07:23.058,000 --> 0:07:24,000
+desde hace dos años
+
+150
+0:07:24.547,000 --> 0:07:26,000
+y no tengo respuestas.
+
+151
+0:07:26.88,000 --> 0:07:28,000
+Pero tengo un montón de ideas
+
+152
+0:07:29.234,000 --> 0:07:31,000
+sobre nuestra relación con la tecnología.
+
+153
+0:07:32.999,000 --> 0:07:35,000
+Mi primera idea es que, por alguna razón,
+
+154
+0:07:36.632,000 --> 0:07:39,000
+asociamos la poesía con el ser humano.
+
+155
+0:07:40.197,000 --> 0:07:43,000
+Por eso cuando nos preguntamos: "¿Puede una máquina escribir poesía?"
+
+156
+0:07:43.936,000 --> 0:07:44,000
+también preguntamos:
+
+157
+0:07:45.153,000 --> 0:07:46,000
+"¿Qué significa ser humanos
+
+158
+0:07:46.975,000 --> 0:07:49,000
+y cómo circunscribimos esta categoría?
+
+159
+0:07:50.171,000 --> 0:07:53,000
+¿Cómo decidimos quién o qué puede pertenecer a esta categoría?"
+
+160
+0:07:54.376,000 --> 0:07:56,000
+Creo que es esencialmente una cuestión filosófica,
+
+161
+0:07:57.231,000 --> 0:07:59,000
+que no podemos solucionar con una prueba binaria,
+
+162
+0:08:00.004,000 --> 0:08:01,000
+como la prueba de Turing.
+
+163
+0:08:01.805,000 --> 0:08:04,000
+Creo que Alan Turing también entendió esto,
+
+164
+0:08:04.874,000 --> 0:08:07,000
+y que cuando ideó su prueba allá por los años 50,
+
+165
+0:08:08.203,000 --> 0:08:1,000
+lo pensó como una provocación filosófica.
+
+166
+0:08:13.124,000 --> 0:08:18,000
+Mi segunda idea es que, si aplicamos la prueba de Turing a la poesía,
+
+167
+0:08:18.689,000 --> 0:08:21,000
+en realidad no probamos la capacidad de las máquinas
+
+168
+0:08:22.173,000 --> 0:08:25,000
+porque los algoritmos generadores de poesía son bastante simples
+
+169
+0:08:25.486,000 --> 0:08:29,000
+y han existido, más o menos, desde los años 50.
+
+170
+0:08:31.055,000 --> 0:08:34,000
+En cambio, lo que hacemos con la prueba de Turing en la poesía
+
+171
+0:08:34.197,000 --> 0:08:38,000
+es recolectar opiniones sobre el significado de lo humano.
+
+172
+0:08:40.313,000 --> 0:08:42,000
+Yo descubrí que,
+
+173
+0:08:43.066,000 --> 0:08:45,000
+lo hemos visto hoy más temprano,
+
+174
+0:08:46.062,000 --> 0:08:48,000
+decíamos que William Blake es más humano
+
+175
+0:08:48.563,000 --> 0:08:49,000
+que Gertrude Stein.
+
+176
+0:08:50.153,000 --> 0:08:52,000
+Claro, esto no significa que William Blake
+
+177
+0:08:52.639,000 --> 0:08:53,000
+sea en realidad más humano
+
+178
+0:08:54.491,000 --> 0:08:56,000
+ni que Gertrude Stein sea más autómata.
+
+179
+0:08:57.533,000 --> 0:09:01,000
+Significa simplemente que la categoría de lo humano es inestable.
+
+180
+0:09:03.45,000 --> 0:09:05,000
+Esto me ha llevado a comprender
+
+181
+0:09:05.548,000 --> 0:09:07,000
+que lo humano no es un hecho rígido, frío.
+
+182
+0:09:08.832,000 --> 0:09:11,000
+Más bien, es algo construido con opiniones
+
+183
+0:09:11.988,000 --> 0:09:13,000
+y algo que cambia con el tiempo.
+
+184
+0:09:16.671,000 --> 0:09:21,000
+Y mi última idea es que la máquina funciona más o menos como un espejo
+
+185
+0:09:22.37,000 --> 0:09:26,000
+que refleja cualquier idea humana que le mostramos.
+
+186
+0:09:26.958,000 --> 0:09:27,000
+Le mostramos a Emily Dickinson
+
+187
+0:09:28.866,000 --> 0:09:3,000
+y nos devuelve Emily Dickinson.
+
+188
+0:09:31.768,000 --> 0:09:32,000
+Le mostramos a William Blake
+
+189
+0:09:33.626,000 --> 0:09:35,000
+y eso es lo que emula.
+
+190
+0:09:35.935,000 --> 0:09:36,000
+Le mostramos a Gertrude Stein
+
+191
+0:09:37.798,000 --> 0:09:39,000
+y crea en base al estilo de Gertrude Stein.
+
+192
+0:09:41.083,000 --> 0:09:43,000
+Más que cualquier otra tecnología,
+
+193
+0:09:43.475,000 --> 0:09:48,000
+la máquina es un espejo que refleja una idea del humano que le mostramos.
+
+194
+0:09:50.061,000 --> 0:09:53,000
+Estoy seguro de que muchos de Uds. habrán oído mucho recientemente
+
+195
+0:09:53.338,000 --> 0:09:54,000
+sobre la inteligencia artificial.
+
+196
+0:09:56.694,000 --> 0:09:58,000
+Y el centro de la conversación
+
+197
+0:10:00.292,000 --> 0:10:01,000
+es si podemos crearla.
+
+198
+0:10:02.383,000 --> 0:10:05,000
+¿Podemos crear una máquina inteligente?
+
+199
+0:10:05.542,000 --> 0:10:07,000
+¿Podemos crear una máquina creativa?
+
+200
+0:10:08.329,000 --> 0:10:1,000
+Parece que nos preguntamos sin cesar:
+
+201
+0:10:10.466,000 --> 0:10:12,000
+¿Podemos crear una máquina semejante a un humano?
+
+202
+0:10:13.961,000 --> 0:10:14,000
+Pero hasta ahora hemos visto
+
+203
+0:10:15.541,000 --> 0:10:18,000
+que lo humano no es un hecho científico,
+
+204
+0:10:18.653,000 --> 0:10:21,000
+sino una idea armoniosa y siempre cambiante
+
+205
+0:10:22.207,000 --> 0:10:24,000
+que cambia con el tiempo.
+
+206
+0:10:24.762,000 --> 0:10:27,000
+Cuando empecemos a debatir las ideas
+
+207
+0:10:27.938,000 --> 0:10:29,000
+de una inteligencia artificial en el futuro,
+
+208
+0:10:30.348,000 --> 0:10:31,000
+no solo deberíamos preguntarnos:
+
+209
+0:10:32.277,000 --> 0:10:33,000
+"¿Podemos construirla?"
+
+210
+0:10:33.669,000 --> 0:10:34,000
+También deberíamos preguntarnos:
+
+211
+0:10:35.587,000 --> 0:10:38,000
+"¿Qué idea de lo humano desearíamos ver reflejada en nosotros?"
+
+212
+0:10:39.82,000 --> 0:10:41,000
+Esta es una idea esencialmente filosófica
+
+213
+0:10:42.537,000 --> 0:10:44,000
+que no puede responderse solo con software,
+
+214
+0:10:45.558,000 --> 0:10:49,000
+sino que requiere un momento de reflexión existencial de la especie.
+
+215
+0:10:51.04,000 --> 0:10:52,000
+Gracias.
+
+216
+0:10:52.217,000 --> 0:10:53,000
+(Aplausos)
+

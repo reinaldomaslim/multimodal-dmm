@@ -1,0 +1,504 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Silvina Katz Revisor: Ciro Gomez
+
+2
+0:00:12.706,000 --> 0:00:13,000
+¿Recuerdan su primer beso?
+
+3
+0:00:15.548,000 --> 0:00:17,000
+¿O cuando se quemaron el paladar
+
+4
+0:00:17.785,000 --> 0:00:18,000
+con una rebanada de pizza caliente?
+
+5
+0:00:19.532,000 --> 0:00:21,000
+¿Y de haber jugado a la mancha o al gato y el ratón de pequeños?
+
+6
+0:00:22.863,000 --> 0:00:25,000
+En esas situaciones usamos el tacto para entender qué pasa.
+
+7
+0:00:26.974,000 --> 0:00:27,000
+Y es la base del diseño háptico.
+
+8
+0:00:29.434,000 --> 0:00:31,000
+"Háptico" implica una relación con el sentido del tacto.
+
+9
+0:00:32.252,000 --> 0:00:34,000
+Cosa que todos usamos toda nuestra vida.
+
+10
+0:00:35.791,000 --> 0:00:37,000
+Una vez, una amiga, al verme trabajar en la computadora,
+
+11
+0:00:38.614,000 --> 0:00:4,000
+y verme encorvado sobre el teclado, se me acercó por detrás.
+
+12
+0:00:41.617,000 --> 0:00:43,000
+Puso el pulgar izquierdo a la izquierda de mi zona lumbar,
+
+13
+0:00:44.537,000 --> 0:00:47,000
+y luego su índice derecho adelante de mi hombro derecho.
+
+14
+0:00:48.315,000 --> 0:00:49,000
+Instintivamente, me senté derecho.
+
+15
+0:00:50.179,000 --> 0:00:52,000
+Con un gesto rápido y delicado,
+
+16
+0:00:52.395,000 --> 0:00:54,000
+ella me había comunicado cómo mejorar mi postura.
+
+17
+0:00:55.561,000 --> 0:00:57,000
+El documento en que trabajaba en ese preciso momento
+
+18
+0:00:58.07,000 --> 0:01:01,000
+se basaba en desarrollar nuevas formas de enseñar movimiento utilizando tecnología.
+
+19
+0:01:01.996,000 --> 0:01:04,000
+Quería crear un traje que pudiera enseñarle kung fu a una persona.
+
+20
+0:01:05.434,000 --> 0:01:06,000
+(Risas)
+
+21
+0:01:07.26,000 --> 0:01:09,000
+Pero no sabía cómo comunicar movimientos
+
+22
+0:01:09.403,000 --> 0:01:1,000
+sin un instructor en la sala.
+
+23
+0:01:12.187,000 --> 0:01:15,000
+Y en ese momento, me quedó muy claro: el tacto.
+
+24
+0:01:16.657,000 --> 0:01:19,000
+Si pusiera motores vibratorios donde ella había puesto cada uno de sus dedos,
+
+25
+0:01:20.296,000 --> 0:01:24,000
+apareados a datos de captura de movimientos de mi postura actual y óptima,
+
+26
+0:01:24.57,000 --> 0:01:25,000
+podría simular esa experiencia
+
+27
+0:01:26.497,000 --> 0:01:28,000
+sin necesitar que un instructor estuviera conmigo.
+
+28
+0:01:29.211,000 --> 0:01:32,000
+Pero me faltaba una parte importante del rompecabezas.
+
+29
+0:01:32.727,000 --> 0:01:35,000
+Si quiero que levantes la mano unos cinco centímetros
+
+30
+0:01:36.01,000 --> 0:01:37,000
+utilizando vibración,
+
+31
+0:01:37.361,000 --> 0:01:38,000
+¿cómo te digo que lo hagas?
+
+32
+0:01:40.237,000 --> 0:01:43,000
+¿Te pongo un motor arriba de la muñeca, para que puedas levantarla?
+
+33
+0:01:43.539,000 --> 0:01:45,000
+¿O pongo uno abajo de tu muñeca,
+
+34
+0:01:45.658,000 --> 0:01:47,000
+para que sientas como si te estuviera empujando?
+
+35
+0:01:47.976,000 --> 0:01:48,000
+No teníamos ninguna solución
+
+36
+0:01:49.546,000 --> 0:01:51,000
+porque no existía un lenguaje háptico comúnmente acordado
+
+37
+0:01:52.245,000 --> 0:01:53,000
+para poder comunicar información.
+
+38
+0:01:54.188,000 --> 0:01:57,000
+Así que mis cofundadores y yo nos propusimos crear ese lenguaje.
+
+39
+0:01:57.987,000 --> 0:02:,000
+Y el primer dispositivo que construimos no fue un traje de kung fu.
+
+40
+0:02:01.178,000 --> 0:02:02,000
+(Risas)
+
+41
+0:02:02.408,000 --> 0:02:04,000
+No obstante, fue aún más impresionante
+
+42
+0:02:04.792,000 --> 0:02:06,000
+por su simplicidad y utilidad.
+
+43
+0:02:07.394,000 --> 0:02:09,000
+Comenzamos con el caso de uso de la navegación,
+
+44
+0:02:09.823,000 --> 0:02:11,000
+que es una forma simplificada de movimiento.
+
+45
+0:02:12.687,000 --> 0:02:13,000
+Después creamos Wayband,
+
+46
+0:02:15.561,000 --> 0:02:18,000
+un dispositivo ponible que podía orientar a un usuario hacia un destino,
+
+47
+0:02:19.414,000 --> 0:02:2,000
+mediante señales vibratorias.
+
+48
+0:02:22.235,000 --> 0:02:24,000
+Les pedimos a unas personas que se dieran vuelta
+
+49
+0:02:25.054,000 --> 0:02:28,000
+y que se detuvieran cuando creyeran estar de frente.
+
+50
+0:02:29.061,000 --> 0:02:31,000
+Informalmente, lo probamos con cientos de personas,
+
+51
+0:02:31.474,000 --> 0:02:33,000
+y la mayoría podía resolverlo en unos 15 segundos.
+
+52
+0:02:34.441,000 --> 0:02:35,000
+Era así de intuitivo.
+
+53
+0:02:36.847,000 --> 0:02:39,000
+Inicialmente, solo queríamos que la gente dejara sus teléfonos
+
+54
+0:02:39.953,000 --> 0:02:4,000
+y volviera al mundo real.
+
+55
+0:02:41.776,000 --> 0:02:42,000
+Pero cuanto más experimentamos,
+
+56
+0:02:43.76,000 --> 0:02:47,000
+nos dimos más cuenta de que los que más se beneficiaban por nuestro trabajo
+
+57
+0:02:47.951,000 --> 0:02:49,000
+eran personas con poca o nada de vista.
+
+58
+0:02:51.387,000 --> 0:02:54,000
+Cuando contactamos por primera vez a un grupo para ciegos, nos dijeron:
+
+59
+0:02:54.722,000 --> 0:02:56,000
+"No construyan un dispositivo para ciegos.
+
+60
+0:02:57.072,000 --> 0:02:58,000
+Construyan un dispositivo para todos,
+
+61
+0:02:58.97,000 --> 0:03:,000
+pero optimizado para el uso por ciegos".
+
+62
+0:03:01.505,000 --> 0:03:04,000
+Los principios que rigen nuestra empresa WearWorks son:
+
+63
+0:03:06.792,000 --> 0:03:07,000
+hacer cosas fantásticas,
+
+64
+0:03:08.49,000 --> 0:03:1,000
+crear el mayor impacto posible en nuestras vidas
+
+65
+0:03:11.442,000 --> 0:03:14,000
+y reimaginar todo un mundo diseñado para el tacto.
+
+66
+0:03:15.62,000 --> 0:03:17,000
+Y el 5 de noviembre de 2017,
+
+67
+0:03:19.446,000 --> 0:03:21,000
+Wayband ayudó a una persona ciega
+
+68
+0:03:22.382,000 --> 0:03:24,000
+a correr los primeros 25 km de la maratón de Nueva York
+
+69
+0:03:25.188,000 --> 0:03:26,000
+sin ninguna ayuda vidente.
+
+70
+0:03:27.165,000 --> 0:03:33,000
+(Aplausos)
+
+71
+0:03:35.744,000 --> 0:03:38,000
+Pero una fuerte lluvia impidió terminar la carrera,
+
+72
+0:03:38.785,000 --> 0:03:39,000
+pero eso no importó.
+
+73
+0:03:39.999,000 --> 0:03:4,000
+(Risas)
+
+74
+0:03:41.03,000 --> 0:03:42,000
+Habíamos demostrado que era posible
+
+75
+0:03:42.714,000 --> 0:03:45,000
+navegar una ruta compleja usando solo el tacto.
+
+76
+0:03:45.847,000 --> 0:03:46,000
+¿Por qué el tacto?
+
+77
+0:03:47.903,000 --> 0:03:48,000
+La piel tiene una sensibilidad innata
+
+78
+0:03:49.714,000 --> 0:03:52,000
+similar a la capacidad de los ojos de poder reconocer millones de colores
+
+79
+0:03:53.135,000 --> 0:03:56,000
+o la capacidad de los oídos de poder reconocer tonos complejos.
+
+80
+0:03:56.387,000 --> 0:03:57,000
+Sin embargo, como canal de comunicación,
+
+81
+0:03:58.364,000 --> 0:04:01,000
+fue relegado en general a notificaciones tipo código Morse de los celulares.
+
+82
+0:04:01.952,000 --> 0:04:03,000
+Si de repente recibieran un beso o un puñetazo,
+
+83
+0:04:04.792,000 --> 0:04:06,000
+su reacción sería instintiva e inmediata.
+
+84
+0:04:08.378,000 --> 0:04:1,000
+Mientras tanto, su cerebro trataría ponerse al día
+
+85
+0:04:11.397,000 --> 0:04:13,000
+para entender los detalles de lo que acaba de ocurrir.
+
+86
+0:04:13.94,000 --> 0:04:16,000
+Y comparado con los instintos, el pensamiento consciente es más lento.
+
+87
+0:04:17.706,000 --> 0:04:18,000
+Pero es como un rayo
+
+88
+0:04:18.993,000 --> 0:04:2,000
+en comparación con el ritmo de la adquisición del lenguaje.
+
+89
+0:04:22.008,000 --> 0:04:24,000
+Pasé una cantidad considerable de tiempo
+
+90
+0:04:24.395,000 --> 0:04:29,000
+aprendiendo español, japonés, alemán y actualmente sueco,
+
+91
+0:04:30.125,000 --> 0:04:31,000
+con diversos grados de fracaso.
+
+92
+0:04:31.856,000 --> 0:04:33,000
+(Risas)
+
+93
+0:04:35.482,000 --> 0:04:39,000
+Pero entre esas fallas encontré núcleos de cómo se organizan los varios idiomas.
+
+94
+0:04:39.659,000 --> 0:04:4,000
+Eso le dio a nuestro equipo una visión
+
+95
+0:04:41.486,000 --> 0:04:44,000
+de cómo utilizar el orden lingüístico de los idiomas bien establecidos
+
+96
+0:04:45.152,000 --> 0:04:48,000
+como inspiración para un lenguaje háptico completamente nuevo,
+
+97
+0:04:48.538,000 --> 0:04:49,000
+uno basado solamente en el tacto.
+
+98
+0:04:50.95,000 --> 0:04:53,000
+También nos mostró cuando la mecánica del lenguaje no era la mejor manera
+
+99
+0:04:54.543,000 --> 0:04:55,000
+de entregar información.
+
+100
+0:04:56.823,000 --> 0:04:59,000
+Así mismo, una sonrisa es una sonrisa en todas las culturas,
+
+101
+0:05:00.339,000 --> 0:05:02,000
+¿Y si hubiera algún mecanismo subyacente del tacto
+
+102
+0:05:02.8,000 --> 0:05:04,000
+que trascendiera las fronteras lingüísticas y culturales?
+
+103
+0:05:06.235,000 --> 0:05:07,000
+Un lenguaje universal, si se quiere.
+
+104
+0:05:08.646,000 --> 0:05:12,000
+Como saben, podría darles zumbidos
+
+105
+0:05:13.092,000 --> 0:05:14,000
+y eventualmente aprenderían
+
+106
+0:05:14.567,000 --> 0:05:16,000
+que esa vibración particular significa "detenerse".
+
+107
+0:05:17.123,000 --> 0:05:2,000
+Pero como diseñadores hápticos, nos desafiamos a nosotros mismos.
+
+108
+0:05:21.045,000 --> 0:05:23,000
+¿Cómo sería diseñar "detenerse?".
+
+109
+0:05:24.299,000 --> 0:05:25,000
+Bueno, según el contexto,
+
+110
+0:05:25.562,000 --> 0:05:27,000
+la mayoría hemos tenido la experiencia de estar en un vehículo
+
+111
+0:05:28.466,000 --> 0:05:31,000
+y de que ese vehículo se parara de pronto así como la reacción de nuestro cuerpo.
+
+112
+0:05:32.545,000 --> 0:05:33,000
+Así que, si quisiera que se detuvieran,
+
+113
+0:05:34.404,000 --> 0:05:35,000
+podría enviarles un patrón de vibración.
+
+114
+0:05:36.339,000 --> 0:05:38,000
+O, podría diseñar una experiencia háptica
+
+115
+0:05:39.123,000 --> 0:05:42,000
+que hiciera que parar sea lo correcto.
+
+116
+0:05:43.496,000 --> 0:05:46,000
+Hace falta más que una asignación de señales hápticas para entender el sentido.
+
+117
+0:05:47.704,000 --> 0:05:48,000
+Se necesita una profunda empatía.
+
+118
+0:05:49.95,000 --> 0:05:53,000
+También hace falta poder destilar experiencia humana en algo significativo
+
+119
+0:05:54.744,000 --> 0:05:57,000
+y luego en gestos y productos hápticos.
+
+120
+0:05:59.133,000 --> 0:06:01,000
+El diseño háptico va a ampliar la capacidad humana
+
+121
+0:06:01.918,000 --> 0:06:03,000
+de sentir y responder a nuestros entornos,
+
+122
+0:06:04.117,000 --> 0:06:05,000
+tanto físicos como virtuales.
+
+123
+0:06:06.292,000 --> 0:06:08,000
+Hay una nueva frontera: el tacto.
+
+124
+0:06:09.545,000 --> 0:06:12,000
+Y tiene el poder de cambiar la forma en que todos vemos el mundo que nos rodea.
+
+125
+0:06:13.325,000 --> 0:06:14,000
+Gracias.
+
+126
+0:06:14.531,000 --> 0:06:19,000
+(Aplausos)
+

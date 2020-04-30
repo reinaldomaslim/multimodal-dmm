@@ -1,0 +1,996 @@
+1
+0:00:16.069,000 --> 0:00:17,000
+I'm going to talk to you today
+
+2
+0:00:17.554,000 --> 0:00:2,000
+about the design of medical technology for low-resource settings.
+
+3
+0:00:21.061,000 --> 0:00:23,000
+I study health systems in these countries.
+
+4
+0:00:23.438,000 --> 0:00:24,000
+And one of the major gaps in care,
+
+5
+0:00:25.377,000 --> 0:00:26,000
+almost across the board,
+
+6
+0:00:27.06,000 --> 0:00:29,000
+is access to safe surgery.
+
+7
+0:00:29.251,000 --> 0:00:31,000
+Now one of the major bottlenecks that we've found
+
+8
+0:00:31.934,000 --> 0:00:34,000
+that's sort of preventing both the access in the first place,
+
+9
+0:00:35.193,000 --> 0:00:38,000
+and the safety of those surgeries that do happen, is anesthesia.
+
+10
+0:00:39.106,000 --> 0:00:41,000
+And actually, it's the model that we expect to work
+
+11
+0:00:41.522,000 --> 0:00:43,000
+for delivering anesthesia in these environments.
+
+12
+0:00:44.88,000 --> 0:00:47,000
+Here, we have a scene that you would find in any operating room across the US,
+
+13
+0:00:48.757,000 --> 0:00:49,000
+or any other developed country.
+
+14
+0:00:50.258,000 --> 0:00:51,000
+In the background there
+
+15
+0:00:51.469,000 --> 0:00:53,000
+is a very sophisticated anesthesia machine.
+
+16
+0:00:54.064,000 --> 0:00:57,000
+And this machine is able to enable surgery and save lives
+
+17
+0:00:57.937,000 --> 0:01:,000
+because it was designed with this environment in mind.
+
+18
+0:01:01.589,000 --> 0:01:03,000
+In order to operate, this machine needs a number of things
+
+19
+0:01:04.545,000 --> 0:01:05,000
+that this hospital has to offer.
+
+20
+0:01:06.469,000 --> 0:01:09,000
+It needs an extremely well-trained anesthesiologist
+
+21
+0:01:09.861,000 --> 0:01:11,000
+with years of training with complex machines
+
+22
+0:01:12.336,000 --> 0:01:14,000
+to help her monitor the flows of the gas
+
+23
+0:01:14.781,000 --> 0:01:16,000
+and keep her patients safe and anesthetized
+
+24
+0:01:17.368,000 --> 0:01:18,000
+throughout the surgery.
+
+25
+0:01:18.843,000 --> 0:01:2,000
+It's a delicate machine running on computer algorithms,
+
+26
+0:01:21.634,000 --> 0:01:24,000
+and it needs special care, TLC, to keep it up and running,
+
+27
+0:01:24.876,000 --> 0:01:25,000
+and it's going to break pretty easily.
+
+28
+0:01:26.758,000 --> 0:01:28,000
+And when it does, it needs a team of biomedical engineers
+
+29
+0:01:29.694,000 --> 0:01:32,000
+who understand its complexities, can fix it, can source the parts
+
+30
+0:01:33.027,000 --> 0:01:35,000
+and keep it saving lives.
+
+31
+0:01:35.948,000 --> 0:01:36,000
+It's a pretty expensive machine.
+
+32
+0:01:37.506,000 --> 0:01:39,000
+It needs a hospital whose budget can allow it
+
+33
+0:01:40.171,000 --> 0:01:44,000
+to support one machine costing upwards of 50 or $100,000.
+
+34
+0:01:45.556,000 --> 0:01:46,000
+And perhaps most obviously,
+
+35
+0:01:47.479,000 --> 0:01:48,000
+but also most importantly --
+
+36
+0:01:49.017,000 --> 0:01:51,000
+and the path to concepts that we've heard about
+
+37
+0:01:51.877,000 --> 0:01:52,000
+kind of illustrates this --
+
+38
+0:01:53.187,000 --> 0:01:58,000
+it needs infrastructure that can supply an uninterrupted source of electricity,
+
+39
+0:01:58.357,000 --> 0:02:01,000
+of compressed oxygen, and other medical supplies
+
+40
+0:02:01.393,000 --> 0:02:05,000
+that are so critical to the functioning of this machine.
+
+41
+0:02:05.695,000 --> 0:02:08,000
+In other words, this machine requires a lot of stuff
+
+42
+0:02:09.018,000 --> 0:02:1,000
+that this hospital cannot offer.
+
+43
+0:02:11.592,000 --> 0:02:14,000
+This is the electrical supply for a hospital in rural Malawi.
+
+44
+0:02:15.413,000 --> 0:02:16,000
+In this hospital,
+
+45
+0:02:16.598,000 --> 0:02:18,000
+there is one person qualified to deliver anesthesia,
+
+46
+0:02:19.293,000 --> 0:02:2,000
+and she's qualified
+
+47
+0:02:20.469,000 --> 0:02:24,000
+because she has 12, maybe 18 months of training in anesthesia.
+
+48
+0:02:25.069,000 --> 0:02:27,000
+In the hospital and in the entire region
+
+49
+0:02:27.34,000 --> 0:02:29,000
+there's not a single biomedical engineer.
+
+50
+0:02:29.371,000 --> 0:02:3,000
+So when this machine breaks,
+
+51
+0:02:30.964,000 --> 0:02:32,000
+the machines that they have to work with break,
+
+52
+0:02:33.197,000 --> 0:02:34,000
+they've got to try and figure it out,
+
+53
+0:02:34.99,000 --> 0:02:36,000
+but most of the time, that's the end of the road.
+
+54
+0:02:37.306,000 --> 0:02:39,000
+Those machines go the proverbial junkyard.
+
+55
+0:02:39.547,000 --> 0:02:41,000
+And the price tag of the machine that I mentioned
+
+56
+0:02:41.9,000 --> 0:02:43,000
+could represent maybe a quarter or a third
+
+57
+0:02:43.985,000 --> 0:02:45,000
+of the annual operating budget for this hospital.
+
+58
+0:02:47.84,000 --> 0:02:5,000
+And finally, I think you can see that infrastructure is not very strong.
+
+59
+0:02:51.248,000 --> 0:02:53,000
+This hospital is connected to a very weak power grid,
+
+60
+0:02:53.946,000 --> 0:02:54,000
+one that goes down frequently.
+
+61
+0:02:55.752,000 --> 0:02:57,000
+So it runs frequently, the entire hospital,
+
+62
+0:02:58.322,000 --> 0:02:59,000
+just on a generator.
+
+63
+0:02:59.769,000 --> 0:03:01,000
+And you can imagine, the generator breaks down
+
+64
+0:03:01.949,000 --> 0:03:02,000
+or runs out of fuel.
+
+65
+0:03:03.621,000 --> 0:03:05,000
+And the World Bank sees this
+
+66
+0:03:05.672,000 --> 0:03:08,000
+and estimates that a hospital in this setting in a low-income country
+
+67
+0:03:09.227,000 --> 0:03:12,000
+can expect up to 18 power outages per month.
+
+68
+0:03:13.918,000 --> 0:03:16,000
+Similarly, compressed oxygen and other medical supplies
+
+69
+0:03:17.135,000 --> 0:03:18,000
+are really a luxury,
+
+70
+0:03:18.341,000 --> 0:03:21,000
+and can often be out of stock for months or even a year.
+
+71
+0:03:21.647,000 --> 0:03:24,000
+So it seems crazy, but the model that we have right now
+
+72
+0:03:24.835,000 --> 0:03:26,000
+is taking those machines that were designed
+
+73
+0:03:27.064,000 --> 0:03:29,000
+for that first environment that I showed you
+
+74
+0:03:29.371,000 --> 0:03:32,000
+and donating or selling them to hospitals in this environment.
+
+75
+0:03:34.121,000 --> 0:03:35,000
+It's not just inappropriate,
+
+76
+0:03:35.721,000 --> 0:03:37,000
+it becomes really unsafe.
+
+77
+0:03:38.776,000 --> 0:03:39,000
+One of our partners at Johns Hopkins
+
+78
+0:03:40.722,000 --> 0:03:44,000
+was observing surgeries in Sierra Leone about a year ago.
+
+79
+0:03:45.485,000 --> 0:03:48,000
+And the first surgery of the day happened to be an obstetrical case.
+
+80
+0:03:48.842,000 --> 0:03:5,000
+A woman came in, she needed an emergency C-section
+
+81
+0:03:51.849,000 --> 0:03:53,000
+to save her life and the life of her baby.
+
+82
+0:03:55.065,000 --> 0:03:56,000
+And everything began pretty auspiciously.
+
+83
+0:03:57.043,000 --> 0:03:59,000
+The surgeon was on call and scrubbed in.
+
+84
+0:03:59.32,000 --> 0:04:,000
+The nurse was there.
+
+85
+0:04:00.632,000 --> 0:04:02,000
+She was able to anesthetize her quickly, and it was important
+
+86
+0:04:03.517,000 --> 0:04:05,000
+because of the emergency nature of the situation.
+
+87
+0:04:05.877,000 --> 0:04:06,000
+And everything began well
+
+88
+0:04:07.618,000 --> 0:04:09,000
+until the power went out.
+
+89
+0:04:11.033,000 --> 0:04:12,000
+And now in the middle of this surgery,
+
+90
+0:04:12.881,000 --> 0:04:15,000
+the surgeon is racing against the clock to finish his case,
+
+91
+0:04:15.974,000 --> 0:04:17,000
+which he can do -- he's got a headlamp.
+
+92
+0:04:18.35,000 --> 0:04:22,000
+But the nurse is literally running around a darkened operating theater
+
+93
+0:04:22.435,000 --> 0:04:24,000
+trying to find anything she can use to anesthetize her patient,
+
+94
+0:04:25.414,000 --> 0:04:26,000
+to keep her patient asleep.
+
+95
+0:04:27.127,000 --> 0:04:29,000
+Because her machine doesn't work when there's no power.
+
+96
+0:04:30.697,000 --> 0:04:33,000
+This routine surgery that many of you have probably experienced,
+
+97
+0:04:33.775,000 --> 0:04:37,000
+and others are probably the product of, has now become a tragedy.
+
+98
+0:04:38.915,000 --> 0:04:4,000
+And what's so frustrating is this is not a singular event;
+
+99
+0:04:41.675,000 --> 0:04:43,000
+this happens across the developing world.
+
+100
+0:04:44.198,000 --> 0:04:46,000
+35 million surgeries are attempted every year
+
+101
+0:04:47.175,000 --> 0:04:48,000
+without safe anesthesia.
+
+102
+0:04:49.47,000 --> 0:04:51,000
+My colleague, Dr. Paul Fenton, was living this reality.
+
+103
+0:04:52.406,000 --> 0:04:53,000
+He was the chief of anesthesiology
+
+104
+0:04:54.26,000 --> 0:04:56,000
+in a hospital in Malawi, a teaching hospital.
+
+105
+0:04:57.288,000 --> 0:04:58,000
+He went to work every day
+
+106
+0:04:58.806,000 --> 0:04:59,000
+in an operating theater like this one,
+
+107
+0:05:00.798,000 --> 0:05:03,000
+trying to deliver anesthesia and teach others how to do so
+
+108
+0:05:03.961,000 --> 0:05:04,000
+using that same equipment
+
+109
+0:05:05.26,000 --> 0:05:09,000
+that became so unreliable, and frankly unsafe, in his hospital.
+
+110
+0:05:10.299,000 --> 0:05:11,000
+And after umpteen surgeries
+
+111
+0:05:12.103,000 --> 0:05:14,000
+and, you can imagine, really unspeakable tragedy,
+
+112
+0:05:14.695,000 --> 0:05:16,000
+he just said, "That's it. I'm done. That's enough.
+
+113
+0:05:17.061,000 --> 0:05:19,000
+There has to be something better."
+
+114
+0:05:19.489,000 --> 0:05:2,000
+He took a walk down the hall
+
+115
+0:05:21.06,000 --> 0:05:24,000
+to where they threw all those machines that had just crapped out on them,
+
+116
+0:05:24.515,000 --> 0:05:25,000
+I think that's the scientific term,
+
+117
+0:05:26.216,000 --> 0:05:27,000
+and he started tinkering.
+
+118
+0:05:27.582,000 --> 0:05:29,000
+He took one part from here and another from there,
+
+119
+0:05:29.959,000 --> 0:05:31,000
+and he tried to come up with a machine that would work
+
+120
+0:05:32.565,000 --> 0:05:33,000
+in the reality that he was facing.
+
+121
+0:05:34.217,000 --> 0:05:35,000
+And what he came up with:
+
+122
+0:05:35.455,000 --> 0:05:36,000
+was this guy.
+
+123
+0:05:36.802,000 --> 0:05:39,000
+The prototype for the Universal Anesthesia Machine --
+
+124
+0:05:40.363,000 --> 0:05:43,000
+a machine that would work and anesthetize his patients
+
+125
+0:05:43.684,000 --> 0:05:46,000
+no matter the circumstances that his hospital had to offer.
+
+126
+0:05:47.779,000 --> 0:05:48,000
+Here it is, back at home
+
+127
+0:05:49.284,000 --> 0:05:52,000
+at that same hospital, developed a little further, 12 years later,
+
+128
+0:05:52.737,000 --> 0:05:55,000
+working on patients from pediatrics to geriatrics.
+
+129
+0:05:56.397,000 --> 0:05:58,000
+Let me show you a little bit about how this machine works.
+
+130
+0:05:59.191,000 --> 0:06:,000
+Voila!
+
+131
+0:06:01.712,000 --> 0:06:02,000
+Here she is.
+
+132
+0:06:02.943,000 --> 0:06:03,000
+When you have electricity,
+
+133
+0:06:04.211,000 --> 0:06:07,000
+everything in this machine begins in the base.
+
+134
+0:06:07.253,000 --> 0:06:09,000
+There's a built-in oxygen concentrator down there.
+
+135
+0:06:09.874,000 --> 0:06:12,000
+Now you've heard me mention oxygen a few times at this point.
+
+136
+0:06:13.027,000 --> 0:06:16,000
+Essentially, to deliver anesthesia, you want as pure oxygen as possible,
+
+137
+0:06:16.839,000 --> 0:06:19,000
+because eventually you're going to dilute it, essentially, with the gas.
+
+138
+0:06:20.286,000 --> 0:06:22,000
+And the mixture that the patient inhales
+
+139
+0:06:22.746,000 --> 0:06:24,000
+needs to be at least a certain percentage oxygen
+
+140
+0:06:25.081,000 --> 0:06:26,000
+or else it can become dangerous.
+
+141
+0:06:26.791,000 --> 0:06:27,000
+But so in here when there's electricity,
+
+142
+0:06:28.733,000 --> 0:06:3,000
+the oxygen concentrator takes in room air.
+
+143
+0:06:31.632,000 --> 0:06:34,000
+Now we know room air is gloriously free,
+
+144
+0:06:34.935,000 --> 0:06:35,000
+it is abundant,
+
+145
+0:06:36.26,000 --> 0:06:37,000
+and it's already 21 percent oxygen.
+
+146
+0:06:38.696,000 --> 0:06:41,000
+So all this concentrator does is take that room air in, filter it
+
+147
+0:06:42.397,000 --> 0:06:45,000
+and send 95 percent pure oxygen up and across here,
+
+148
+0:06:46.241,000 --> 0:06:48,000
+where it mixes with the anesthetic agent.
+
+149
+0:06:49.003,000 --> 0:06:52,000
+Now before that mixture hits the patient's lungs,
+
+150
+0:06:52.651,000 --> 0:06:54,000
+it's going to pass by here -- you can't see it,
+
+151
+0:06:54.889,000 --> 0:06:55,000
+but there's an oxygen sensor here --
+
+152
+0:06:56.695,000 --> 0:07:,000
+that's going to read out on this screen the percentage of oxygen being delivered.
+
+153
+0:07:01.544,000 --> 0:07:02,000
+Now if you don't have power,
+
+154
+0:07:03.542,000 --> 0:07:06,000
+or, God forbid, the power cuts out in the middle of a surgery,
+
+155
+0:07:07.172,000 --> 0:07:09,000
+this machine transitions automatically,
+
+156
+0:07:09.54,000 --> 0:07:1,000
+without even having to touch it,
+
+157
+0:07:11.313,000 --> 0:07:13,000
+to drawing in room air from this inlet.
+
+158
+0:07:14.065,000 --> 0:07:15,000
+Everything else is the same.
+
+159
+0:07:15.425,000 --> 0:07:16,000
+The only difference is that now
+
+160
+0:07:17.045,000 --> 0:07:2,000
+you're only working with 21 percent oxygen.
+
+161
+0:07:20.666,000 --> 0:07:22,000
+Now that used to be a dangerous guessing game,
+
+162
+0:07:23.511,000 --> 0:07:25,000
+because you only knew if you gave too little oxygen
+
+163
+0:07:25.921,000 --> 0:07:26,000
+once something bad happened.
+
+164
+0:07:27.321,000 --> 0:07:29,000
+But we've put a long-life battery backup on here.
+
+165
+0:07:30.058,000 --> 0:07:32,000
+This is the only part that's battery backed up.
+
+166
+0:07:32.276,000 --> 0:07:35,000
+But this gives control to the provider, whether there's power or not,
+
+167
+0:07:35.705,000 --> 0:07:36,000
+because they can adjust the flows
+
+168
+0:07:37.322,000 --> 0:07:4,000
+based on the percentage of oxygen they see that they're giving the patient.
+
+169
+0:07:41.314,000 --> 0:07:44,000
+In both cases, whether you have power or not,
+
+170
+0:07:44.683,000 --> 0:07:46,000
+sometimes the patient needs help breathing.
+
+171
+0:07:46.747,000 --> 0:07:49,000
+It's just a reality of anesthesia, the lungs can be paralyzed.
+
+172
+0:07:49.972,000 --> 0:07:51,000
+And so we've just added this manual bellows.
+
+173
+0:07:52.08,000 --> 0:07:54,000
+We've seen surgeries for three or four hours
+
+174
+0:07:55.095,000 --> 0:07:56,000
+to ventilate the patient on this.
+
+175
+0:07:57.684,000 --> 0:07:59,000
+So it's a straightforward machine.
+
+176
+0:08:00.696,000 --> 0:08:02,000
+I shudder to say simple; it's straightforward.
+
+177
+0:08:04.196,000 --> 0:08:05,000
+And it's by design.
+
+178
+0:08:06.121,000 --> 0:08:11,000
+You do not need to be a highly trained, specialized anesthesiologist
+
+179
+0:08:11.345,000 --> 0:08:12,000
+to use this machine,
+
+180
+0:08:12.54,000 --> 0:08:14,000
+which is good because, in these rural district hospitals,
+
+181
+0:08:15.316,000 --> 0:08:17,000
+you're not going to get that level of training.
+
+182
+0:08:17.935,000 --> 0:08:2,000
+It's also designed for the environment that it will be used in.
+
+183
+0:08:21.087,000 --> 0:08:22,000
+This is an incredibly rugged machine.
+
+184
+0:08:22.888,000 --> 0:08:25,000
+It has to stand up to the heat and the wear and tear
+
+185
+0:08:26.367,000 --> 0:08:29,000
+that happens in hospitals in these rural districts.
+
+186
+0:08:29.509,000 --> 0:08:31,000
+And so it's not going to break very easily,
+
+187
+0:08:31.928,000 --> 0:08:34,000
+but if it does, virtually every piece in this machine
+
+188
+0:08:35.226,000 --> 0:08:37,000
+can be swapped out and replaced
+
+189
+0:08:37.26,000 --> 0:08:38,000
+with a hex wrench and a screwdriver.
+
+190
+0:08:41.01,000 --> 0:08:43,000
+And finally, it's affordable.
+
+191
+0:08:43.294,000 --> 0:08:46,000
+This machine comes in at an eighth of the cost
+
+192
+0:08:46.971,000 --> 0:08:49,000
+of the conventional machine that I showed you earlier.
+
+193
+0:08:50.073,000 --> 0:08:54,000
+So in other words, what we have here is a machine that can enable surgery
+
+194
+0:08:54.585,000 --> 0:08:55,000
+and save lives,
+
+195
+0:08:55.781,000 --> 0:08:57,000
+because it was designed for its environment,
+
+196
+0:08:58.795,000 --> 0:09:,000
+just like the first machine I showed you.
+
+197
+0:09:01.237,000 --> 0:09:03,000
+But we're not content to stop there.
+
+198
+0:09:03.265,000 --> 0:09:04,000
+Is it working?
+
+199
+0:09:04.464,000 --> 0:09:06,000
+Is this the design that's going to work in place?
+
+200
+0:09:07.07,000 --> 0:09:08,000
+Well, we've seen good results so far.
+
+201
+0:09:08.861,000 --> 0:09:11,000
+This is in 13 hospitals in four countries,
+
+202
+0:09:12.27,000 --> 0:09:15,000
+and since 2010, we've done well over 2,000 surgeries
+
+203
+0:09:16.227,000 --> 0:09:18,000
+with no clinically adverse events.
+
+204
+0:09:18.8,000 --> 0:09:19,000
+So we're thrilled.
+
+205
+0:09:19.991,000 --> 0:09:23,000
+This really seems like a cost-effective, scalable solution
+
+206
+0:09:24.437,000 --> 0:09:26,000
+to a problem that's really pervasive.
+
+207
+0:09:26.958,000 --> 0:09:27,000
+But we still want to be sure
+
+208
+0:09:28.582,000 --> 0:09:3,000
+that this is the most effective and safe device
+
+209
+0:09:31.023,000 --> 0:09:33,000
+that we can be putting into hospitals.
+
+210
+0:09:33.104,000 --> 0:09:35,000
+So to do that, we've launched a number of partnerships
+
+211
+0:09:35.652,000 --> 0:09:36,000
+with NGOs and universities,
+
+212
+0:09:37.162,000 --> 0:09:39,000
+to gather data on the user interface,
+
+213
+0:09:39.835,000 --> 0:09:41,000
+on the types of surgeries it's appropriate for,
+
+214
+0:09:42.051,000 --> 0:09:44,000
+and ways we can enhance the device itself.
+
+215
+0:09:44.462,000 --> 0:09:46,000
+One of those partnerships is with Johns Hopkins
+
+216
+0:09:47.14,000 --> 0:09:48,000
+just here in Baltimore.
+
+217
+0:09:48.537,000 --> 0:09:52,000
+They have a really cool anesthesia simulation lab out in Baltimore.
+
+218
+0:09:52.839,000 --> 0:09:53,000
+So we're taking this machine
+
+219
+0:09:54.744,000 --> 0:09:57,000
+and recreating some of the operating theater crises
+
+220
+0:09:58.342,000 --> 0:09:59,000
+that this machine might face
+
+221
+0:09:59.873,000 --> 0:10:01,000
+in one of the hospitals that it's intended for,
+
+222
+0:10:02.26,000 --> 0:10:04,000
+and in a contained, safe environment,
+
+223
+0:10:04.408,000 --> 0:10:05,000
+evaluating its effectiveness.
+
+224
+0:10:06.607,000 --> 0:10:09,000
+We're then able to compare the results from that study
+
+225
+0:10:10.263,000 --> 0:10:11,000
+with real-world experience,
+
+226
+0:10:11.707,000 --> 0:10:13,000
+because we're putting two of these in hospitals
+
+227
+0:10:13.928,000 --> 0:10:15,000
+that Johns Hopkins works with in Sierra Leone,
+
+228
+0:10:16.103,000 --> 0:10:19,000
+including the hospital where that emergency C-section happened.
+
+229
+0:10:20.645,000 --> 0:10:23,000
+So I've talked a lot about anesthesia, and I tend to do that.
+
+230
+0:10:23.797,000 --> 0:10:27,000
+I think it is incredibly fascinating and an important component of health.
+
+231
+0:10:27.913,000 --> 0:10:29,000
+And it really seems peripheral, we never think about it,
+
+232
+0:10:30.568,000 --> 0:10:32,000
+until we don't have access to it,
+
+233
+0:10:32.796,000 --> 0:10:33,000
+and then it becomes a gatekeeper.
+
+234
+0:10:34.782,000 --> 0:10:35,000
+Who gets surgery and who doesn't?
+
+235
+0:10:37.084,000 --> 0:10:39,000
+Who gets safe surgery and who doesn't?
+
+236
+0:10:40.476,000 --> 0:10:42,000
+But you know, it's just one of so many ways
+
+237
+0:10:42.963,000 --> 0:10:45,000
+that design, appropriate design,
+
+238
+0:10:46.094,000 --> 0:10:47,000
+can have an impact on health outcomes.
+
+239
+0:10:48.578,000 --> 0:10:5,000
+If more people in the health-delivery space
+
+240
+0:10:50.721,000 --> 0:10:53,000
+really working on some of these challenges in low-income countries
+
+241
+0:10:54.314,000 --> 0:10:57,000
+could start their design process, their solution search,
+
+242
+0:10:57.991,000 --> 0:10:58,000
+from outside of that proverbial box
+
+243
+0:10:59.953,000 --> 0:11:,000
+and inside of the hospital --
+
+244
+0:11:01.915,000 --> 0:11:02,000
+In other words, if we could design
+
+245
+0:11:03.77,000 --> 0:11:06,000
+for the environment that exists in so many parts of the world,
+
+246
+0:11:06.985,000 --> 0:11:08,000
+rather than the one that we wished existed --
+
+247
+0:11:09.418,000 --> 0:11:11,000
+we might just save a lot of lives.
+
+248
+0:11:12.047,000 --> 0:11:13,000
+Thank you very much.
+
+249
+0:11:13.539,000 --> 0:11:17,000
+(Applause)
+

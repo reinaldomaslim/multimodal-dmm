@@ -1,0 +1,1476 @@
+1
+0:00:12.16,000 --> 0:00:15,000
+How can we investigate
+
+2
+0:00:15.16,000 --> 0:00:2,000
+this flora of viruses that surround us, and aid medicine?
+
+3
+0:00:20.16,000 --> 0:00:24,000
+How can we turn our cumulative knowledge of virology
+
+4
+0:00:24.16,000 --> 0:00:28,000
+into a simple, hand-held, single diagnostic assay?
+
+5
+0:00:28.16,000 --> 0:00:31,000
+I want to turn everything we know right now about detecting viruses
+
+6
+0:00:31.16,000 --> 0:00:33,000
+and the spectrum of viruses that are out there
+
+7
+0:00:33.16,000 --> 0:00:36,000
+into, let's say, a small chip.
+
+8
+0:00:36.16,000 --> 0:00:38,000
+When we started thinking about this project --
+
+9
+0:00:38.16,000 --> 0:00:41,000
+how we would make a single diagnostic assay
+
+10
+0:00:41.16,000 --> 0:00:44,000
+to screen for all pathogens simultaneously --
+
+11
+0:00:44.16,000 --> 0:00:46,000
+well, there's some problems with this idea.
+
+12
+0:00:46.16,000 --> 0:00:5,000
+First of all, viruses are pretty complex,
+
+13
+0:00:50.16,000 --> 0:00:54,000
+but they're also evolving very fast.
+
+14
+0:00:54.16,000 --> 0:00:55,000
+This is a picornavirus.
+
+15
+0:00:55.16,000 --> 0:00:57,000
+Picornaviruses -- these are things that include
+
+16
+0:00:57.16,000 --> 0:01:,000
+the common cold and polio, things like this.
+
+17
+0:01:00.16,000 --> 0:01:02,000
+You're looking at the outside shell of the virus,
+
+18
+0:01:02.16,000 --> 0:01:05,000
+and the yellow color here are those parts of the virus
+
+19
+0:01:05.16,000 --> 0:01:07,000
+that are evolving very, very fast,
+
+20
+0:01:07.16,000 --> 0:01:09,000
+and the blue parts are not evolving very fast.
+
+21
+0:01:09.16,000 --> 0:01:12,000
+When people think about making pan-viral detection reagents,
+
+22
+0:01:12.16,000 --> 0:01:16,000
+usually it's the fast-evolving problem that's an issue,
+
+23
+0:01:16.16,000 --> 0:01:18,000
+because how can we detect things if they're always changing?
+
+24
+0:01:18.16,000 --> 0:01:2,000
+But evolution is a balance:
+
+25
+0:01:20.16,000 --> 0:01:24,000
+where you have fast change, you also have ultra-conservation --
+
+26
+0:01:24.16,000 --> 0:01:26,000
+things that almost never change.
+
+27
+0:01:26.16,000 --> 0:01:29,000
+And so we looked into this a little more carefully,
+
+28
+0:01:29.16,000 --> 0:01:3,000
+and I'm going to show you data now.
+
+29
+0:01:30.16,000 --> 0:01:33,000
+This is just some stuff you can do on the computer from the desktop.
+
+30
+0:01:33.16,000 --> 0:01:35,000
+I took a bunch of these small picornaviruses,
+
+31
+0:01:35.16,000 --> 0:01:37,000
+like the common cold, like polio and so on,
+
+32
+0:01:37.16,000 --> 0:01:41,000
+and I just broke them down into small segments.
+
+33
+0:01:41.16,000 --> 0:01:44,000
+And so took this first example, which is called coxsackievirus,
+
+34
+0:01:44.16,000 --> 0:01:46,000
+and just break it into small windows.
+
+35
+0:01:46.16,000 --> 0:01:48,000
+And I'm coloring these small windows blue
+
+36
+0:01:48.16,000 --> 0:01:53,000
+if another virus shares an identical sequence in its genome
+
+37
+0:01:53.16,000 --> 0:01:54,000
+to that virus.
+
+38
+0:01:54.16,000 --> 0:01:56,000
+These sequences right up here --
+
+39
+0:01:56.16,000 --> 0:01:58,000
+which don't even code for protein, by the way --
+
+40
+0:01:58.16,000 --> 0:02:01,000
+are almost absolutely identical across all of these,
+
+41
+0:02:01.16,000 --> 0:02:05,000
+so I could use this sequence as a marker
+
+42
+0:02:05.16,000 --> 0:02:07,000
+to detect a wide spectrum of viruses,
+
+43
+0:02:07.16,000 --> 0:02:1,000
+without having to make something individual.
+
+44
+0:02:10.16,000 --> 0:02:12,000
+Now, over here there's great diversity:
+
+45
+0:02:12.16,000 --> 0:02:14,000
+that's where things are evolving fast.
+
+46
+0:02:14.16,000 --> 0:02:18,000
+Down here you can see slower evolution: less diversity.
+
+47
+0:02:18.16,000 --> 0:02:2,000
+Now, by the time we get out here to, let's say,
+
+48
+0:02:20.16,000 --> 0:02:22,000
+acute bee paralysis virus --
+
+49
+0:02:22.16,000 --> 0:02:24,000
+probably a bad one to have if you're a bee ---
+
+50
+0:02:24.16,000 --> 0:02:29,000
+this virus shares almost no similarity to coxsackievirus,
+
+51
+0:02:29.16,000 --> 0:02:33,000
+but I can guarantee you that the sequences that are most conserved
+
+52
+0:02:33.16,000 --> 0:02:35,000
+among these viruses on the right-hand of the screen
+
+53
+0:02:35.16,000 --> 0:02:38,000
+are in identical regions right up here.
+
+54
+0:02:38.16,000 --> 0:02:41,000
+And so we can encapsulate these regions of ultra-conservation
+
+55
+0:02:41.16,000 --> 0:02:44,000
+through evolution -- how these viruses evolved --
+
+56
+0:02:44.16,000 --> 0:02:47,000
+by just choosing DNA elements or RNA elements
+
+57
+0:02:47.16,000 --> 0:02:51,000
+in these regions to represent on our chip as detection reagents.
+
+58
+0:02:51.16,000 --> 0:02:54,000
+OK, so that's what we did, but how are we going to do that?
+
+59
+0:02:54.16,000 --> 0:02:56,000
+Well, for a long time, since I was in graduate school,
+
+60
+0:02:56.16,000 --> 0:02:59,000
+I've been messing around making DNA chips --
+
+61
+0:02:59.16,000 --> 0:03:01,000
+that is, printing DNA on glass.
+
+62
+0:03:01.16,000 --> 0:03:02,000
+And that's what you see here:
+
+63
+0:03:02.16,000 --> 0:03:05,000
+These little salt spots are just DNA tacked onto glass,
+
+64
+0:03:05.16,000 --> 0:03:08,000
+and so I can put thousands of these on our glass chip
+
+65
+0:03:08.16,000 --> 0:03:1,000
+and use them as a detection reagent.
+
+66
+0:03:10.16,000 --> 0:03:12,000
+We took our chip over to Hewlett-Packard
+
+67
+0:03:12.16,000 --> 0:03:14,000
+and used their atomic force microscope on one of these spots,
+
+68
+0:03:14.16,000 --> 0:03:16,000
+and this is what you see:
+
+69
+0:03:16.16,000 --> 0:03:19,000
+you can actually see the strands of DNA lying flat on the glass here.
+
+70
+0:03:19.16,000 --> 0:03:22,000
+So, what we're doing is just printing DNA on glass --
+
+71
+0:03:22.16,000 --> 0:03:26,000
+little flat things -- and these are going to be markers for pathogens.
+
+72
+0:03:26.16,000 --> 0:03:29,000
+OK, I make little robots in lab to make these chips,
+
+73
+0:03:29.16,000 --> 0:03:32,000
+and I'm really big on disseminating technology.
+
+74
+0:03:32.16,000 --> 0:03:35,000
+If you've got enough money to buy just a Camry,
+
+75
+0:03:35.16,000 --> 0:03:37,000
+you can build one of these too,
+
+76
+0:03:37.16,000 --> 0:03:41,000
+and so we put a deep how-to guide on the Web, totally free,
+
+77
+0:03:41.16,000 --> 0:03:43,000
+with basically order-off-the-shelf parts.
+
+78
+0:03:43.16,000 --> 0:03:46,000
+You can build a DNA array machine in your garage.
+
+79
+0:03:46.16,000 --> 0:03:49,000
+Here's the section on the all-important emergency stop switch.
+
+80
+0:03:49.16,000 --> 0:03:51,000
+(Laughter)
+
+81
+0:03:51.16,000 --> 0:03:54,000
+Every important machine's got to have a big red button.
+
+82
+0:03:54.16,000 --> 0:03:56,000
+But really, it's pretty robust.
+
+83
+0:03:56.16,000 --> 0:03:59,000
+You can actually be making DNA chips in your garage
+
+84
+0:03:59.16,000 --> 0:04:03,000
+and decoding some genetic programs pretty rapidly. It's a lot of fun.
+
+85
+0:04:03.16,000 --> 0:04:04,000
+(Laughter)
+
+86
+0:04:04.16,000 --> 0:04:08,000
+And so what we did -- and this is a really cool project --
+
+87
+0:04:08.16,000 --> 0:04:1,000
+we just started by making a respiratory virus chip.
+
+88
+0:04:10.16,000 --> 0:04:12,000
+I talked about that --
+
+89
+0:04:12.16,000 --> 0:04:14,000
+you know, that situation where you go into the clinic
+
+90
+0:04:14.16,000 --> 0:04:16,000
+and you don't get diagnosed?
+
+91
+0:04:16.16,000 --> 0:04:18,000
+Well, we just put basically all the human respiratory viruses
+
+92
+0:04:18.16,000 --> 0:04:21,000
+on one chip, and we threw in herpes virus for good measure --
+
+93
+0:04:21.16,000 --> 0:04:22,000
+I mean, why not?
+
+94
+0:04:22.16,000 --> 0:04:24,000
+The first thing you do as a scientist is,
+
+95
+0:04:24.16,000 --> 0:04:25,000
+you make sure stuff works.
+
+96
+0:04:25.16,000 --> 0:04:28,000
+And so what we did is, we take tissue culture cells
+
+97
+0:04:28.16,000 --> 0:04:3,000
+and infect them with various viruses,
+
+98
+0:04:30.16,000 --> 0:04:34,000
+and we take the stuff and fluorescently label the nucleic acid,
+
+99
+0:04:34.16,000 --> 0:04:37,000
+the genetic material that comes out of these tissue culture cells --
+
+100
+0:04:37.16,000 --> 0:04:41,000
+mostly viral stuff -- and stick it on the array to see where it sticks.
+
+101
+0:04:41.16,000 --> 0:04:43,000
+Now, if the DNA sequences match, they'll stick together,
+
+102
+0:04:43.16,000 --> 0:04:45,000
+and so we can look at spots.
+
+103
+0:04:45.16,000 --> 0:04:47,000
+And if spots light up, we know there's a certain virus in there.
+
+104
+0:04:47.16,000 --> 0:04:49,000
+That's what one of these chips really looks like,
+
+105
+0:04:49.16,000 --> 0:04:52,000
+and these red spots are, in fact, signals coming from the virus.
+
+106
+0:04:52.16,000 --> 0:04:55,000
+And each spot represents a different family of virus
+
+107
+0:04:55.16,000 --> 0:04:56,000
+or species of virus.
+
+108
+0:04:56.16,000 --> 0:04:58,000
+And so, that's a hard way to look at things,
+
+109
+0:04:58.16,000 --> 0:05:,000
+so I'm just going to encode things as a little barcode,
+
+110
+0:05:00.16,000 --> 0:05:04,000
+grouped by family, so you can see the results in a very intuitive way.
+
+111
+0:05:04.16,000 --> 0:05:06,000
+What we did is, we took tissue culture cells
+
+112
+0:05:06.16,000 --> 0:05:08,000
+and infected them with adenovirus,
+
+113
+0:05:08.16,000 --> 0:05:12,000
+and you can see this little yellow barcode next to adenovirus.
+
+114
+0:05:12.16,000 --> 0:05:15,000
+And, likewise, we infected them with parainfluenza-3 --
+
+115
+0:05:15.16,000 --> 0:05:17,000
+that's a paramyxovirus -- and you see a little barcode here.
+
+116
+0:05:17.16,000 --> 0:05:2,000
+And then we did respiratory syncytial virus.
+
+117
+0:05:20.16,000 --> 0:05:22,000
+That's the scourge of daycare centers everywhere --
+
+118
+0:05:22.16,000 --> 0:05:24,000
+it's like boogeremia, basically.
+
+119
+0:05:24.16,000 --> 0:05:25,000
+(Laughter)
+
+120
+0:05:25.16,000 --> 0:05:29,000
+You can see that this barcode is the same family,
+
+121
+0:05:29.16,000 --> 0:05:31,000
+but it's distinct from parainfluenza-3,
+
+122
+0:05:31.16,000 --> 0:05:33,000
+which gives you a very bad cold.
+
+123
+0:05:33.16,000 --> 0:05:36,000
+And so we're getting unique signatures, a fingerprint for each virus.
+
+124
+0:05:36.16,000 --> 0:05:39,000
+Polio and rhino: they're in the same family, very close to each other.
+
+125
+0:05:39.16,000 --> 0:05:41,000
+Rhino's the common cold, and you all know what polio is,
+
+126
+0:05:41.16,000 --> 0:05:44,000
+and you can see that these signatures are distinct.
+
+127
+0:05:44.16,000 --> 0:05:47,000
+And Kaposi's sarcoma-associated herpes virus
+
+128
+0:05:47.16,000 --> 0:05:49,000
+gives a nice signature down here.
+
+129
+0:05:49.16,000 --> 0:05:51,000
+And so it is not any one stripe or something
+
+130
+0:05:51.16,000 --> 0:05:53,000
+that tells me I have a virus of a particular type here;
+
+131
+0:05:53.16,000 --> 0:05:57,000
+it's the barcode that in bulk represents the whole thing.
+
+132
+0:05:57.16,000 --> 0:05:59,000
+All right, I can see a rhinovirus --
+
+133
+0:05:59.16,000 --> 0:06:01,000
+and here's the blow-up of the rhinovirus's little barcode --
+
+134
+0:06:01.16,000 --> 0:06:03,000
+but what about different rhinoviruses?
+
+135
+0:06:03.16,000 --> 0:06:05,000
+How do I know which rhinovirus I have?
+
+136
+0:06:05.16,000 --> 0:06:08,000
+There're 102 known variants of the common cold,
+
+137
+0:06:08.16,000 --> 0:06:11,000
+and there're only 102 because people got bored collecting them:
+
+138
+0:06:11.16,000 --> 0:06:13,000
+there are just new ones every year.
+
+139
+0:06:13.16,000 --> 0:06:15,000
+And so, here are four different rhinoviruses,
+
+140
+0:06:15.16,000 --> 0:06:17,000
+and you can see, even with your eye,
+
+141
+0:06:17.16,000 --> 0:06:19,000
+without any fancy computer pattern-matching
+
+142
+0:06:19.16,000 --> 0:06:21,000
+recognition software algorithms,
+
+143
+0:06:21.16,000 --> 0:06:24,000
+that you can distinguish each one of these barcodes from each other.
+
+144
+0:06:24.16,000 --> 0:06:26,000
+Now, this is kind of a cheap shot,
+
+145
+0:06:26.16,000 --> 0:06:29,000
+because I know what the genetic sequence of all these rhinoviruses is,
+
+146
+0:06:29.16,000 --> 0:06:3,000
+and I in fact designed the chip
+
+147
+0:06:30.16,000 --> 0:06:32,000
+expressly to be able to tell them apart,
+
+148
+0:06:32.16,000 --> 0:06:36,000
+but what about rhinoviruses that have never seen a genetic sequencer?
+
+149
+0:06:36.16,000 --> 0:06:38,000
+We don't know what the sequence is; just pull them out of the field.
+
+150
+0:06:38.16,000 --> 0:06:4,000
+So, here are four rhinoviruses
+
+151
+0:06:40.16,000 --> 0:06:42,000
+we never knew anything about --
+
+152
+0:06:42.16,000 --> 0:06:45,000
+no one's ever sequenced them -- and you can also see
+
+153
+0:06:45.16,000 --> 0:06:47,000
+that you get unique and distinguishable patterns.
+
+154
+0:06:47.16,000 --> 0:06:5,000
+You can imagine building up some library, whether real or virtual,
+
+155
+0:06:50.16,000 --> 0:06:52,000
+of fingerprints of essentially every virus.
+
+156
+0:06:52.16,000 --> 0:06:55,000
+But that's, again, shooting fish in a barrel, you know, right?
+
+157
+0:06:55.16,000 --> 0:06:57,000
+You have tissue culture cells. There are a ton of viruses.
+
+158
+0:06:57.16,000 --> 0:06:59,000
+What about real people?
+
+159
+0:06:59.16,000 --> 0:07:01,000
+You can't control real people, as you probably know.
+
+160
+0:07:01.16,000 --> 0:07:05,000
+You have no idea what someone's going to cough into a cup,
+
+161
+0:07:05.16,000 --> 0:07:08,000
+and it's probably really complex, right?
+
+162
+0:07:08.16,000 --> 0:07:11,000
+It could have lots of bacteria, it could have more than one virus,
+
+163
+0:07:11.16,000 --> 0:07:13,000
+and it certainly has host genetic material.
+
+164
+0:07:13.16,000 --> 0:07:14,000
+So how do we deal with this?
+
+165
+0:07:14.16,000 --> 0:07:16,000
+And how do we do the positive control here?
+
+166
+0:07:16.16,000 --> 0:07:18,000
+Well, it's pretty simple.
+
+167
+0:07:18.16,000 --> 0:07:2,000
+That's me, getting a nasal lavage.
+
+168
+0:07:20.16,000 --> 0:07:25,000
+And the idea is, let's experimentally inoculate people with virus.
+
+169
+0:07:25.16,000 --> 0:07:3,000
+This is all IRB-approved, by the way; they got paid.
+
+170
+0:07:30.16,000 --> 0:07:33,000
+And basically we experimentally inoculate people
+
+171
+0:07:33.16,000 --> 0:07:34,000
+with the common cold virus.
+
+172
+0:07:34.16,000 --> 0:07:36,000
+Or, even better, let's just take people
+
+173
+0:07:36.16,000 --> 0:07:37,000
+right out of the emergency room --
+
+174
+0:07:37.16,000 --> 0:07:41,000
+undefined, community-acquired respiratory tract infections.
+
+175
+0:07:41.16,000 --> 0:07:43,000
+You have no idea what walks in through the door.
+
+176
+0:07:43.16,000 --> 0:07:46,000
+So, let's start off with the positive control first,
+
+177
+0:07:46.16,000 --> 0:07:48,000
+where we know the person was healthy.
+
+178
+0:07:48.16,000 --> 0:07:5,000
+They got a shot of virus up the nose,
+
+179
+0:07:50.16,000 --> 0:07:51,000
+let's see what happens.
+
+180
+0:07:51.16,000 --> 0:07:53,000
+Day zero: nothing happening.
+
+181
+0:07:53.16,000 --> 0:07:55,000
+They're healthy; they're clean -- it's amazing.
+
+182
+0:07:55.16,000 --> 0:07:57,000
+Actually, we thought the nasal tract might be full of viruses
+
+183
+0:07:57.16,000 --> 0:07:58,000
+even when you're walking around healthy.
+
+184
+0:07:58.16,000 --> 0:08:,000
+It's pretty clean. If you're healthy, you're pretty healthy.
+
+185
+0:08:00.16,000 --> 0:08:04,000
+Day two: we get a very robust rhinovirus pattern,
+
+186
+0:08:04.16,000 --> 0:08:06,000
+and it's very similar to what we get in the lab
+
+187
+0:08:06.16,000 --> 0:08:07,000
+doing our tissue culture experiment.
+
+188
+0:08:07.16,000 --> 0:08:1,000
+So that's great, but again, cheap shot, right?
+
+189
+0:08:10.16,000 --> 0:08:12,000
+We put a ton of virus up this guy's nose. So --
+
+190
+0:08:12.16,000 --> 0:08:13,000
+(Laughter)
+
+191
+0:08:13.16,000 --> 0:08:17,000
+-- I mean, we wanted it to work. He really had a cold.
+
+192
+0:08:17.16,000 --> 0:08:21,000
+So, how about the people who walk in off the street?
+
+193
+0:08:21.16,000 --> 0:08:23,000
+Here are two individuals represented by their anonymous ID codes.
+
+194
+0:08:23.16,000 --> 0:08:27,000
+They both have rhinoviruses; we've never seen this pattern in lab.
+
+195
+0:08:27.16,000 --> 0:08:29,000
+We sequenced part of their viruses;
+
+196
+0:08:29.16,000 --> 0:08:32,000
+they're new rhinoviruses no one's actually even seen.
+
+197
+0:08:32.16,000 --> 0:08:34,000
+Remember, our evolutionary-conserved sequences
+
+198
+0:08:34.16,000 --> 0:08:36,000
+we're using on this array allow us to detect
+
+199
+0:08:36.16,000 --> 0:08:38,000
+even novel or uncharacterized viruses,
+
+200
+0:08:38.16,000 --> 0:08:42,000
+because we pick what is conserved throughout evolution.
+
+201
+0:08:42.16,000 --> 0:08:45,000
+Here's another guy. You can play the diagnosis game yourself here.
+
+202
+0:08:45.16,000 --> 0:08:47,000
+These different blocks represent
+
+203
+0:08:47.16,000 --> 0:08:49,000
+the different viruses in this paramyxovirus family,
+
+204
+0:08:49.16,000 --> 0:08:5,000
+so you can kind of go down the blocks
+
+205
+0:08:50.16,000 --> 0:08:52,000
+and see where the signal is.
+
+206
+0:08:52.16,000 --> 0:08:55,000
+Well, doesn't have canine distemper; that's probably good.
+
+207
+0:08:55.16,000 --> 0:08:57,000
+(Laughter)
+
+208
+0:08:57.16,000 --> 0:08:59,000
+But by the time you get to block nine,
+
+209
+0:08:59.16,000 --> 0:09:01,000
+you see that respiratory syncytial virus.
+
+210
+0:09:01.16,000 --> 0:09:04,000
+Maybe they have kids. And then you can see, also,
+
+211
+0:09:04.16,000 --> 0:09:06,000
+the family member that's related: RSVB is showing up here.
+
+212
+0:09:06.16,000 --> 0:09:07,000
+So, that's great.
+
+213
+0:09:07.16,000 --> 0:09:1,000
+Here's another individual, sampled on two separate days --
+
+214
+0:09:10.16,000 --> 0:09:12,000
+repeat visits to the clinic.
+
+215
+0:09:12.16,000 --> 0:09:15,000
+This individual has parainfluenza-1,
+
+216
+0:09:15.16,000 --> 0:09:17,000
+and you can see that there's a little stripe over here
+
+217
+0:09:17.16,000 --> 0:09:2,000
+for Sendai virus: that's mouse parainfluenza.
+
+218
+0:09:20.16,000 --> 0:09:24,000
+The genetic relationships are very close there. That's a lot of fun.
+
+219
+0:09:24.16,000 --> 0:09:25,000
+So, we built out the chip.
+
+220
+0:09:25.16,000 --> 0:09:29,000
+We made a chip that has every known virus ever discovered on it.
+
+221
+0:09:29.16,000 --> 0:09:32,000
+Why not? Every plant virus, every insect virus, every marine virus.
+
+222
+0:09:32.16,000 --> 0:09:34,000
+Everything that we could get out of GenBank --
+
+223
+0:09:34.16,000 --> 0:09:36,000
+that is, the national repository of sequences.
+
+224
+0:09:36.16,000 --> 0:09:39,000
+Now we're using this chip. And what are we using it for?
+
+225
+0:09:39.16,000 --> 0:09:41,000
+Well, first of all, when you have a big chip like this,
+
+226
+0:09:41.16,000 --> 0:09:43,000
+you need a little bit more informatics,
+
+227
+0:09:43.16,000 --> 0:09:45,000
+so we designed the system to do automatic diagnosis.
+
+228
+0:09:45.16,000 --> 0:09:48,000
+And the idea is that we simply have virtual patterns,
+
+229
+0:09:48.16,000 --> 0:09:5,000
+because we're never going to get samples of every virus --
+
+230
+0:09:50.16,000 --> 0:09:53,000
+it would be virtually impossible. But we can get virtual patterns,
+
+231
+0:09:53.16,000 --> 0:09:55,000
+and compare them to our observed result --
+
+232
+0:09:55.16,000 --> 0:09:59,000
+which is a very complex mixture -- and come up with some sort of score
+
+233
+0:09:59.16,000 --> 0:10:02,000
+of how likely it is this is a rhinovirus or something.
+
+234
+0:10:02.16,000 --> 0:10:04,000
+And this is what this looks like.
+
+235
+0:10:04.16,000 --> 0:10:06,000
+If, for example, you used a cell culture
+
+236
+0:10:06.16,000 --> 0:10:08,000
+that's chronically infected with papilloma,
+
+237
+0:10:08.16,000 --> 0:10:1,000
+you get a little computer readout here,
+
+238
+0:10:10.16,000 --> 0:10:14,000
+and our algorithm says it's probably papilloma type 18.
+
+239
+0:10:14.16,000 --> 0:10:16,000
+And that is, in fact, what these particular cell cultures
+
+240
+0:10:16.16,000 --> 0:10:18,000
+are chronically infected with.
+
+241
+0:10:18.16,000 --> 0:10:2,000
+So let's do something a little bit harder.
+
+242
+0:10:20.16,000 --> 0:10:21,000
+We put the beeper in the clinic.
+
+243
+0:10:21.16,000 --> 0:10:24,000
+When somebody shows up, and the hospital doesn't know what to do
+
+244
+0:10:24.16,000 --> 0:10:26,000
+because they can't diagnose it, they call us.
+
+245
+0:10:26.16,000 --> 0:10:28,000
+That's the idea, and we're setting this up in the Bay Area.
+
+246
+0:10:28.16,000 --> 0:10:3,000
+And so, this case report happened three weeks ago.
+
+247
+0:10:30.16,000 --> 0:10:33,000
+We have a 28-year-old healthy woman, no travel history,
+
+248
+0:10:33.16,000 --> 0:10:36,000
+[unclear], doesn't smoke, doesn't drink.
+
+249
+0:10:36.16,000 --> 0:10:4,000
+10-day history of fevers, night sweats, bloody sputum --
+
+250
+0:10:40.16,000 --> 0:10:42,000
+she's coughing up blood -- muscle pain.
+
+251
+0:10:42.16,000 --> 0:10:46,000
+She went to the clinic, and they gave her antibiotics
+
+252
+0:10:46.16,000 --> 0:10:47,000
+and then sent her home.
+
+253
+0:10:47.16,000 --> 0:10:51,000
+She came back after ten days of fever, right? Still has the fever,
+
+254
+0:10:51.16,000 --> 0:10:54,000
+and she's hypoxic -- she doesn't have much oxygen in her lungs.
+
+255
+0:10:54.16,000 --> 0:10:55,000
+They did a CT scan.
+
+256
+0:10:55.16,000 --> 0:10:59,000
+A normal lung is all sort of dark and black here.
+
+257
+0:10:59.16,000 --> 0:11:01,000
+All this white stuff -- it's not good.
+
+258
+0:11:01.16,000 --> 0:11:04,000
+This sort of tree and bud formation indicates there's inflammation;
+
+259
+0:11:04.16,000 --> 0:11:06,000
+there's likely to be infection.
+
+260
+0:11:06.16,000 --> 0:11:09,000
+OK. So, the patient was treated then
+
+261
+0:11:09.16,000 --> 0:11:13,000
+with a third-generation cephalosporin antibiotic and doxycycline,
+
+262
+0:11:13.16,000 --> 0:11:17,000
+and on day three, it didn't help: she had progressed to acute failure.
+
+263
+0:11:17.16,000 --> 0:11:2,000
+They had to intubate her, so they put a tube down her throat
+
+264
+0:11:20.16,000 --> 0:11:21,000
+and they began to mechanically ventilate her.
+
+265
+0:11:21.16,000 --> 0:11:23,000
+She could no longer breathe for herself.
+
+266
+0:11:23.16,000 --> 0:11:25,000
+What to do next? Don't know.
+
+267
+0:11:25.16,000 --> 0:11:28,000
+Switch antibiotics: so they switched to another antibiotic,
+
+268
+0:11:28.16,000 --> 0:11:3,000
+Tamiflu.
+
+269
+0:11:30.16,000 --> 0:11:32,000
+It's not clear why they thought she had the flu,
+
+270
+0:11:32.16,000 --> 0:11:34,000
+but they switched to Tamiflu.
+
+271
+0:11:34.16,000 --> 0:11:36,000
+And on day six, they basically threw in the towel.
+
+272
+0:11:36.16,000 --> 0:11:4,000
+You do an open lung biopsy when you've got no other options.
+
+273
+0:11:40.16,000 --> 0:11:42,000
+There's an eight percent mortality rate with just doing this procedure,
+
+274
+0:11:42.16,000 --> 0:11:45,000
+and so basically -- and what do they learn from it?
+
+275
+0:11:45.16,000 --> 0:11:47,000
+You're looking at her open lung biopsy.
+
+276
+0:11:47.16,000 --> 0:11:49,000
+And I'm no pathologist, but you can't tell much from this.
+
+277
+0:11:49.16,000 --> 0:11:52,000
+All you can tell is, there's a lot of swelling: bronchiolitis.
+
+278
+0:11:52.16,000 --> 0:11:55,000
+It was "unrevealing": that's the pathologist's report.
+
+279
+0:11:55.16,000 --> 0:11:58,000
+And so, what did they test her for?
+
+280
+0:11:58.16,000 --> 0:11:59,000
+They have their own tests, of course,
+
+281
+0:11:59.16,000 --> 0:12:02,000
+and so they tested her for over 70 different assays,
+
+282
+0:12:02.16,000 --> 0:12:05,000
+for every sort of bacteria and fungus and viral assay
+
+283
+0:12:05.16,000 --> 0:12:07,000
+you can buy off the shelf:
+
+284
+0:12:07.16,000 --> 0:12:1,000
+SARS, metapneumovirus, HIV, RSV -- all these.
+
+285
+0:12:10.16,000 --> 0:12:14,000
+Everything came back negative, over 100,000 dollars worth of tests.
+
+286
+0:12:14.16,000 --> 0:12:17,000
+I mean, they went to the max for this woman.
+
+287
+0:12:17.16,000 --> 0:12:2,000
+And basically on hospital day eight, that's when they called us.
+
+288
+0:12:20.16,000 --> 0:12:22,000
+They gave us endotracheal aspirate --
+
+289
+0:12:22.16,000 --> 0:12:24,000
+you know, a little fluid from the throat,
+
+290
+0:12:24.16,000 --> 0:12:26,000
+from this tube that they got down there -- and they gave us this.
+
+291
+0:12:26.16,000 --> 0:12:31,000
+We put it on the chip; what do we see? Well, we saw parainfluenza-4.
+
+292
+0:12:31.16,000 --> 0:12:33,000
+Well, what the hell's parainfluenza-4?
+
+293
+0:12:33.16,000 --> 0:12:36,000
+No one tests for parainfluenza-4. No one cares about it.
+
+294
+0:12:36.16,000 --> 0:12:39,000
+In fact, it's not even really sequenced that much.
+
+295
+0:12:39.16,000 --> 0:12:41,000
+There's just a little bit of it sequenced.
+
+296
+0:12:41.16,000 --> 0:12:43,000
+There's almost no epidemiology or studies on it.
+
+297
+0:12:43.16,000 --> 0:12:45,000
+No one would even consider it,
+
+298
+0:12:45.16,000 --> 0:12:48,000
+because no one had a clue that it could cause respiratory failure.
+
+299
+0:12:48.16,000 --> 0:12:51,000
+And why is that? Just lore. There's no data --
+
+300
+0:12:51.16,000 --> 0:12:55,000
+no data to support whether it causes severe or mild disease.
+
+301
+0:12:55.16,000 --> 0:12:58,000
+Clearly, we have a case of a healthy person that's going down.
+
+302
+0:12:58.16,000 --> 0:13:01,000
+OK, that's one case report.
+
+303
+0:13:01.16,000 --> 0:13:03,000
+I'm going to tell you one last thing in the last two minutes
+
+304
+0:13:03.16,000 --> 0:13:06,000
+that's unpublished -- it's going to come out tomorrow --
+
+305
+0:13:06.16,000 --> 0:13:09,000
+and it's an interesting case of how you might use this chip
+
+306
+0:13:09.16,000 --> 0:13:11,000
+to find something new and open a new door.
+
+307
+0:13:11.16,000 --> 0:13:15,000
+Prostate cancer. I don't need to give you many statistics
+
+308
+0:13:15.16,000 --> 0:13:18,000
+about prostate cancer. Most of you already know it:
+
+309
+0:13:18.16,000 --> 0:13:2,000
+third leading cause of cancer deaths in the U.S.
+
+310
+0:13:20.16,000 --> 0:13:22,000
+Lots of risk factors,
+
+311
+0:13:22.16,000 --> 0:13:26,000
+but there is a genetic predisposition to prostate cancer.
+
+312
+0:13:26.16,000 --> 0:13:28,000
+For maybe about 10 percent of prostate cancer,
+
+313
+0:13:28.16,000 --> 0:13:3,000
+there are folks that are predisposed to it.
+
+314
+0:13:30.16,000 --> 0:13:34,000
+And the first gene that was mapped in association studies
+
+315
+0:13:34.16,000 --> 0:13:38,000
+for this, early-onset prostate cancer, was this gene called RNASEL.
+
+316
+0:13:38.16,000 --> 0:13:41,000
+What is that? It's an antiviral defense enzyme.
+
+317
+0:13:41.16,000 --> 0:13:43,000
+So, we're sitting around and thinking,
+
+318
+0:13:43.16,000 --> 0:13:45,000
+"Why would men who have the mutation --
+
+319
+0:13:45.16,000 --> 0:13:5,000
+a defect in an antiviral defense system -- get prostate cancer?
+
+320
+0:13:50.16,000 --> 0:13:53,000
+It doesn't make sense -- unless, maybe, there's a virus?"
+
+321
+0:13:53.16,000 --> 0:13:59,000
+So, we put tumors --- and now we have over 100 tumors -- on our array.
+
+322
+0:13:59.16,000 --> 0:14:02,000
+And we know who's got defects in RNASEL and who doesn't.
+
+323
+0:14:02.16,000 --> 0:14:05,000
+And I'm showing you the signal from the chip here,
+
+324
+0:14:05.16,000 --> 0:14:09,000
+and I'm showing you for the block of retroviral oligos.
+
+325
+0:14:09.16,000 --> 0:14:11,000
+And what I'm telling you here from the signal, is
+
+326
+0:14:11.16,000 --> 0:14:15,000
+that men who have a mutation in this antiviral defense enzyme,
+
+327
+0:14:15.16,000 --> 0:14:19,000
+and have a tumor, often have -- 40 percent of the time --
+
+328
+0:14:19.16,000 --> 0:14:23,000
+a signature which reveals a new retrovirus.
+
+329
+0:14:23.16,000 --> 0:14:26,000
+OK, that's pretty wild. What is it?
+
+330
+0:14:26.16,000 --> 0:14:27,000
+So, we clone the whole virus.
+
+331
+0:14:27.16,000 --> 0:14:31,000
+First of all, I'll tell you that a little automated prediction told us
+
+332
+0:14:31.16,000 --> 0:14:33,000
+it was very similar to a mouse virus.
+
+333
+0:14:33.16,000 --> 0:14:34,000
+But that doesn't tell us too much,
+
+334
+0:14:34.16,000 --> 0:14:36,000
+so we actually clone the whole thing.
+
+335
+0:14:36.16,000 --> 0:14:38,000
+And the viral genome I'm showing you right here?
+
+336
+0:14:38.16,000 --> 0:14:41,000
+It's a classic gamma retrovirus, but it's totally new;
+
+337
+0:14:41.16,000 --> 0:14:42,000
+no one's ever seen it before.
+
+338
+0:14:42.16,000 --> 0:14:45,000
+Its closest relative is, in fact, from mice,
+
+339
+0:14:45.16,000 --> 0:14:49,000
+and so we would call this a xenotropic retrovirus,
+
+340
+0:14:49.16,000 --> 0:14:52,000
+because it's infecting a species other than mice.
+
+341
+0:14:52.16,000 --> 0:14:54,000
+And this is a little phylogenetic tree
+
+342
+0:14:54.16,000 --> 0:14:56,000
+to see how it's related to other viruses.
+
+343
+0:14:56.16,000 --> 0:14:59,000
+We've done it for many patients now,
+
+344
+0:14:59.16,000 --> 0:15:02,000
+and we can say that they're all independent infections.
+
+345
+0:15:02.16,000 --> 0:15:03,000
+They all have the same virus,
+
+346
+0:15:03.16,000 --> 0:15:06,000
+but they're different enough that there's reason to believe
+
+347
+0:15:06.16,000 --> 0:15:08,000
+that they've been independently acquired.
+
+348
+0:15:08.16,000 --> 0:15:1,000
+Is it really in the tissue? And I'll end up with this: yes.
+
+349
+0:15:10.16,000 --> 0:15:13,000
+We take slices of these biopsies of tumor tissue
+
+350
+0:15:13.16,000 --> 0:15:15,000
+and use material to actually locate the virus,
+
+351
+0:15:15.16,000 --> 0:15:19,000
+and we find cells here with viral particles in them.
+
+352
+0:15:19.16,000 --> 0:15:21,000
+These guys really do have this virus.
+
+353
+0:15:21.16,000 --> 0:15:23,000
+Does this virus cause prostate cancer?
+
+354
+0:15:23.16,000 --> 0:15:27,000
+Nothing I'm saying here implies causality. I don't know.
+
+355
+0:15:27.16,000 --> 0:15:29,000
+Is it a link to oncogenesis? I don't know.
+
+356
+0:15:29.16,000 --> 0:15:33,000
+Is it the case that these guys are just more susceptible to viruses?
+
+357
+0:15:33.16,000 --> 0:15:36,000
+Could be. And it might have nothing to do with cancer.
+
+358
+0:15:36.16,000 --> 0:15:37,000
+But now it's a door.
+
+359
+0:15:37.16,000 --> 0:15:4,000
+We have a strong association between the presence of this virus
+
+360
+0:15:40.16,000 --> 0:15:43,000
+and a genetic mutation that's been linked to cancer.
+
+361
+0:15:43.16,000 --> 0:15:44,000
+That's where we're at.
+
+362
+0:15:44.16,000 --> 0:15:48,000
+So, it opens up more questions than it answers, I'm afraid,
+
+363
+0:15:48.16,000 --> 0:15:5,000
+but that's what, you know, science is really good at.
+
+364
+0:15:50.16,000 --> 0:15:52,000
+This was all done by folks in the lab --
+
+365
+0:15:52.16,000 --> 0:15:53,000
+I cannot take credit for most of this.
+
+366
+0:15:53.16,000 --> 0:15:54,000
+This is a collaboration between myself and Don.
+
+367
+0:15:54.16,000 --> 0:15:57,000
+This is the guy who started the project in my lab,
+
+368
+0:15:57.16,000 --> 0:15:59,000
+and this is the guy who's been doing prostate stuff.
+
+369
+0:15:59.16,000 --> 0:16:02,000
+Thank you very much. (Applause)
+

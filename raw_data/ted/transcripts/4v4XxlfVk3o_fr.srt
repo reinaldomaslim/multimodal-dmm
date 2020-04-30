@@ -1,0 +1,878 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Karine AUBRY Relecteur: Timothée Parrique
+
+2
+0:00:15.26,000 --> 0:00:19,000
+Moi je pense que les données peuvent en fait nous rendre plus humains.
+
+3
+0:00:19.26,000 --> 0:00:22,000
+Nous récoltons et créons toutes sortes de données sur notre environnement de vie,
+
+4
+0:00:22.26,000 --> 0:00:24,000
+et cela nous permet de raconter des histoires étonnantes.
+
+5
+0:00:24.26,000 --> 0:00:27,000
+Récemment, un sage théoricien des medias a tweeté,
+
+6
+0:00:27.26,000 --> 0:00:29,000
+"La culture du 19ème siècle était définie par le roman,
+
+7
+0:00:29.26,000 --> 0:00:31,000
+la culture du 20ème siècle était définie par le cinéma,
+
+8
+0:00:31.26,000 --> 0:00:33,000
+et la culture du 21ème siècle
+
+9
+0:00:33.26,000 --> 0:00:35,000
+sera définie par l'interface."
+
+10
+0:00:35.26,000 --> 0:00:37,000
+Et je crois que cela va se vérifier.
+
+11
+0:00:37.26,000 --> 0:00:39,000
+Nos vies sont pilotées par les données,
+
+12
+0:00:39.26,000 --> 0:00:41,000
+et la présentation des ces données est pour nous une opportunité
+
+13
+0:00:41.26,000 --> 0:00:43,000
+de créer des interfaces étonnantes qui racontent de grandes histoires.
+
+14
+0:00:43.26,000 --> 0:00:45,000
+Je vais donc vous montrer quelques-uns des projets
+
+15
+0:00:45.26,000 --> 0:00:47,000
+sur lesquels j'ai travaillé ces deux dernières années
+
+16
+0:00:47.26,000 --> 0:00:49,000
+et qui reflètent nos vies et nos systèmes.
+
+17
+0:00:49.26,000 --> 0:00:51,000
+Voici un projet nommé Flight Patterns.
+
+18
+0:00:51.26,000 --> 0:00:53,000
+Ce que vous voyez là est le trafic aérien
+
+19
+0:00:53.26,000 --> 0:00:56,000
+au-dessus de l'Amérique du Nord pendant 24h.
+
+20
+0:00:56.26,000 --> 0:00:58,000
+Comme vous voyez, tout se fond jusqu'à devenir noir,
+
+21
+0:00:58.26,000 --> 0:01:,000
+et vous voyez les gens s'endormir.
+
+22
+0:01:00.26,000 --> 0:01:02,000
+Après ça, vous voyez sur la côte Ouest
+
+23
+0:01:02.26,000 --> 0:01:05,000
+des avions qui traversent, les vols à l'oeil rouge vers la côte Est.
+
+24
+0:01:05.26,000 --> 0:01:08,000
+Et vous allez voir tout le monde s'éveiller sur la côte Est,
+
+25
+0:01:08.26,000 --> 0:01:11,000
+suivis par les vols européens qui arrivent dans le coin en haut à droite.
+
+26
+0:01:11.26,000 --> 0:01:14,000
+Tout le monde migre de la côte Est à la côte Ouest.
+
+27
+0:01:14.26,000 --> 0:01:16,000
+Vous voyez San Francisco et Los Angeles
+
+28
+0:01:16.26,000 --> 0:01:19,000
+commencer leur voyage vers Hawaii dans le coin en bas à gauche.
+
+29
+0:01:19.26,000 --> 0:01:21,000
+Je pense que c'est une chose de dire qu'il y a 140 000 avions
+
+30
+0:01:21.26,000 --> 0:01:24,000
+suivis par le gouvernement fédéral à un instant donné,
+
+31
+0:01:24.26,000 --> 0:01:27,000
+et c'est une autre chose de voir ce système dans son flux et reflux.
+
+32
+0:01:29.26,000 --> 0:01:31,000
+C'est une prise de vue accélérée de l'exacte même donnée,
+
+33
+0:01:31.26,000 --> 0:01:33,000
+mais je l'ai codée en couleur par type,
+
+34
+0:01:33.26,000 --> 0:01:36,000
+pour que l'on puisse voir la diversité des avions dans le ciel au-dessus de nos têtes.
+
+35
+0:01:36.26,000 --> 0:01:39,000
+Et j'ai commencé à faire ces vues et je les ai intégrées à Google Maps
+
+36
+0:01:39.26,000 --> 0:01:41,000
+vous pouvez zoomer et voir chaque aéroport
+
+37
+0:01:41.26,000 --> 0:01:43,000
+et les motifs qui se dessinent.
+
+38
+0:01:43.26,000 --> 0:01:46,000
+Ici nous voyons que le blanc représente les basses altitudes,
+
+39
+0:01:46.26,000 --> 0:01:48,000
+et le bleu ce sont les altitudes plus élevées.
+
+40
+0:01:48.26,000 --> 0:01:5,000
+Et vous pouvez zoomer. Là, c'est une vue d'Atlanta.
+
+41
+0:01:50.26,000 --> 0:01:52,000
+Vous pouvez voir ici un important aéroport de fret,
+
+42
+0:01:52.26,000 --> 0:01:54,000
+et il y a toutes sortes d'activités là-bas.
+
+43
+0:01:54.26,000 --> 0:01:57,000
+Vous pouvez aussi basculer d'une altitude à l'autre
+
+44
+0:01:57.26,000 --> 0:01:59,000
+par modèle et fabricant.
+
+45
+0:01:59.26,000 --> 0:02:01,000
+Voyez, encore, la diversité.
+
+46
+0:02:01.26,000 --> 0:02:03,000
+Et vous pouvez faire défiler l'ensemble et voir
+
+47
+0:02:03.26,000 --> 0:02:06,000
+quelques-uns des différents aéroports et leurs différents motifs.
+
+48
+0:02:06.26,000 --> 0:02:08,000
+Voilà une vue en remontant la côte Est.
+
+49
+0:02:08.26,000 --> 0:02:1,000
+Vous voyez un peu du chaos qui anime New York
+
+50
+0:02:10.26,000 --> 0:02:12,000
+avec les contrôleurs aériens
+
+51
+0:02:12.26,000 --> 0:02:16,000
+qui doivent gérer tous ces aéroports majeurs proches les uns des autres.
+
+52
+0:02:17.26,000 --> 0:02:19,000
+En dézoomant très vite
+
+53
+0:02:19.26,000 --> 0:02:22,000
+nous voyons, à nouveau, les Etats-Unis -- vous avez la Floride en bas à droite.
+
+54
+0:02:22.26,000 --> 0:02:24,000
+En se déplaçant jusqu'à la côte Ouest,
+
+55
+0:02:24.26,000 --> 0:02:26,000
+vous voyez San Francisco et Los Angeles --
+
+56
+0:02:26.26,000 --> 0:02:28,000
+de grandes zones à faible trafic
+
+57
+0:02:28.26,000 --> 0:02:3,000
+le long du Nevada et de l'Arizona.
+
+58
+0:02:30.26,000 --> 0:02:34,000
+Et nous voici là, à Los Angeles et Long Beach en bas.
+
+59
+0:02:36.26,000 --> 0:02:38,000
+J'ai aussi commencé jeter un oeil aux différents paramètres,
+
+60
+0:02:38.26,000 --> 0:02:4,000
+car on peut choisir ce que l'on veut extraire des données.
+
+61
+0:02:40.26,000 --> 0:02:43,000
+Voilà une vue comparant les vols ascendants et descendants.
+
+62
+0:02:43.26,000 --> 0:02:45,000
+Et vous voyez, dans le temps, comment les aéroports changent.
+
+63
+0:02:45.26,000 --> 0:02:47,000
+Vous voyez les motifs persistants qui commencent à se développer
+
+64
+0:02:47.26,000 --> 0:02:49,000
+en bas de l'écran.
+
+65
+0:02:49.26,000 --> 0:02:52,000
+Et vous voyez finalement l'aéroport qui change vraiment de directions.
+
+66
+0:02:53.26,000 --> 0:02:56,000
+Voilà un autre projet sur lequel j'ai travaillé avec le Sensible Cities Lab du MIT.
+
+67
+0:02:56.26,000 --> 0:02:58,000
+Voilà une vue des communications internationales.
+
+68
+0:02:58.26,000 --> 0:03:,000
+Et voilà comment New York communique
+
+69
+0:03:00.26,000 --> 0:03:02,000
+avec d'autres villes internationales.
+
+70
+0:03:02.26,000 --> 0:03:05,000
+Et nous avons mis cela en place comme un globe en live au Musée d'Art Moderne de New York
+
+71
+0:03:05.26,000 --> 0:03:07,000
+à l'occasion de l'exposition Design The Elastic Mind.
+
+72
+0:03:07.26,000 --> 0:03:09,000
+Et il a été alimenté par un flux pendant 24h,
+
+73
+0:03:09.26,000 --> 0:03:11,000
+donc on pouvait voir la relation évoluer,
+
+74
+0:03:11.26,000 --> 0:03:13,000
+et des infos démographiques
+
+75
+0:03:13.26,000 --> 0:03:16,000
+qui provenaient des données AT&T et se révélaient.
+
+76
+0:03:16.26,000 --> 0:03:18,000
+Voici un autre projet sur lequel j'ai travaillé avec le Sensible Cities Lab
+
+77
+0:03:18.26,000 --> 0:03:2,000
+et CurrentCity.org.
+
+78
+0:03:20.26,000 --> 0:03:23,000
+Et cela montre des SMS envoyés dans la ville d'Amsterdam.
+
+79
+0:03:23.26,000 --> 0:03:25,000
+Vous voyez le flux et reflux quotidien
+
+80
+0:03:25.26,000 --> 0:03:27,000
+des gens qui envoient des SMS des différentes parties de la ville
+
+81
+0:03:27.26,000 --> 0:03:3,000
+jusqu'à l'approche du Nouvel An où tout le monde dit "Bonne année !"
+
+82
+0:03:30.26,000 --> 0:03:32,000
+(Rires)
+
+83
+0:03:32.26,000 --> 0:03:34,000
+Donc c'est un outil interactif
+
+84
+0:03:34.26,000 --> 0:03:37,000
+que vous pouvez déplacer partout, pour voir différentes parties de la ville.
+
+85
+0:03:37.26,000 --> 0:03:4,000
+Ici nous observons un autre événement. On l'appelle le Jour de la Reine.
+
+86
+0:03:40.26,000 --> 0:03:42,000
+Là encore, vous avez ce flux et reflux quotidien
+
+87
+0:03:42.26,000 --> 0:03:45,000
+des gens qui envoient des SMS des différentes parties de la ville.
+
+88
+0:03:45.26,000 --> 0:03:47,000
+Et vous allez voir des gens se rassembler dans le centre-ville
+
+89
+0:03:47.26,000 --> 0:03:49,000
+pour faire la fête la veille
+
+90
+0:03:49.26,000 --> 0:03:51,000
+comme ça se passe juste là.
+
+91
+0:03:51.26,000 --> 0:03:53,000
+Ensuite vous voyez les gens faire la fête le lendemain.
+
+92
+0:03:53.26,000 --> 0:03:56,000
+Et vous pouvez faire pause et avancer et reculer pour voir différentes phases.
+
+93
+0:03:56.26,000 --> 0:03:58,000
+Passons maintenant à quelque chose de totalement différent.
+
+94
+0:03:58.26,000 --> 0:04:,000
+Certains d'entre vous connaissent peut-être.
+
+95
+0:04:00.26,000 --> 0:04:03,000
+Voici la machine à jouer aux échecs du baron Wolfgang von Kempelen.
+
+96
+0:04:03.26,000 --> 0:04:05,000
+C'est un robot étonnant qui joue très bien aux échecs,
+
+97
+0:04:05.26,000 --> 0:04:08,000
+sauf pour un détail : ce n'est pas du tout un robot.
+
+98
+0:04:08.26,000 --> 0:04:1,000
+C'est en fait un homme sans jambes qui est assis dans cette boite
+
+99
+0:04:10.26,000 --> 0:04:12,000
+et contrôle ce joueur d'échecs.
+
+100
+0:04:12.26,000 --> 0:04:14,000
+Cela a inspiré un web service d'Amazon
+
+101
+0:04:14.26,000 --> 0:04:17,000
+appelé le Turc Mécanique -- d'après le nom de ce type.
+
+102
+0:04:17.26,000 --> 0:04:19,000
+Et c'est basé sur le postulat que certaines choses
+
+103
+0:04:19.26,000 --> 0:04:21,000
+sont faciles pour les gens, mais vraiment compliquées pour les ordinateurs.
+
+104
+0:04:21.26,000 --> 0:04:23,000
+Alors ils ont fait ce web service et dit
+
+105
+0:04:23.26,000 --> 0:04:25,000
+"N'importe quel programmeur peut écrire un bout de code
+
+106
+0:04:25.26,000 --> 0:04:27,000
+et puiser dans les esprits de milliers de gens."
+
+107
+0:04:27.26,000 --> 0:04:29,000
+Mon côté nerd a pensé "Wahou, c'est fou.
+
+108
+0:04:29.26,000 --> 0:04:31,000
+Je peux puiser dans les esprits de milliers de gens."
+
+109
+0:04:31.26,000 --> 0:04:33,000
+Et mon autre côté nerd a pensé
+
+110
+0:04:33.26,000 --> 0:04:36,000
+"C'est horrible. C'est totalement bizarre.
+
+111
+0:04:36.26,000 --> 0:04:38,000
+Qu'est-ce que ça implique pour le futur de l'humanité,
+
+112
+0:04:38.26,000 --> 0:04:4,000
+que nous sommes tous branchés à ce borg ?"
+
+113
+0:04:40.26,000 --> 0:04:42,000
+J'étais sans doute un peu extrême.
+
+114
+0:04:42.26,000 --> 0:04:44,000
+Mais qu'est-ce que ça veut dire quand nous n'avons pas le contexte pour ce sur quoi nous travaillons
+
+115
+0:04:44.26,000 --> 0:04:46,000
+et nous faisons juste ces petites tâches.
+
+116
+0:04:46.26,000 --> 0:04:48,000
+Alors j'ai créé cet outil pour dessiner.
+
+117
+0:04:48.26,000 --> 0:04:5,000
+J'ai demandé aux gens de dessiner un mouton qui regarde à gauche.
+
+118
+0:04:50.26,000 --> 0:04:52,000
+Et j'ai dit "Je vous payerai 2 cents pour votre contribution."
+
+119
+0:04:52.26,000 --> 0:04:55,000
+Et j'ai commencé à collectionner les moutons.
+
+120
+0:04:55.26,000 --> 0:04:58,000
+J'ai réuni beaucoup, beaucoup de moutons différents.
+
+121
+0:04:59.26,000 --> 0:05:01,000
+Des tas de moutons.
+
+122
+0:05:01.26,000 --> 0:05:03,000
+J'ai pris les premiers 10 000 moutons que j'avais réunis,
+
+123
+0:05:03.26,000 --> 0:05:06,000
+et je les ai mis sur un site appelé TheSheepMarket.com
+
+124
+0:05:06.26,000 --> 0:05:09,000
+où vous pouvez en fait acheter des collections de 20 moutons.
+
+125
+0:05:09.26,000 --> 0:05:11,000
+Vous ne pouvez pas choisir un mouton à l'unité
+
+126
+0:05:11.26,000 --> 0:05:15,000
+mais vous pouvez acheter un block de vignettes comme matière première.
+
+127
+0:05:15.26,000 --> 0:05:17,000
+Et juxtaposée à la grille
+
+128
+0:05:17.26,000 --> 0:05:19,000
+vous pouvez vous en passant la souris sur chaque mouton,
+
+129
+0:05:19.26,000 --> 0:05:22,000
+l'humanité derrière cet immense processus mécanique.
+
+130
+0:05:22.26,000 --> 0:05:24,000
+Je pense qu'il y a quelque chose de vraiment intéressant
+
+131
+0:05:24.26,000 --> 0:05:27,000
+à regarder les gens passer par ce labeur créatif --
+
+132
+0:05:27.26,000 --> 0:05:29,000
+quelque chose qui nous parle à tous,
+
+133
+0:05:29.26,000 --> 0:05:32,000
+ce processus créatif d'essayer d'inventer quelque chose à partir de rien.
+
+134
+0:05:32.26,000 --> 0:05:34,000
+Je trouve que c'était vraiment intéressant de mettre en regard cette humanité
+
+135
+0:05:34.26,000 --> 0:05:36,000
+avec cette grille massive et disséminée.
+
+136
+0:05:36.26,000 --> 0:05:39,000
+C'est assez étonnant ce que certaines personnes ont fait.
+
+137
+0:05:39.26,000 --> 0:05:41,000
+Voici quelques statistiques sur le projet.
+
+138
+0:05:41.26,000 --> 0:05:43,000
+Un taux d'ajout de 11 moutons par jour
+
+139
+0:05:43.26,000 --> 0:05:46,000
+ce que représente un salaire de 69 cents par heure.
+
+140
+0:05:46.26,000 --> 0:05:48,000
+662 moutons ont été rejetés
+
+141
+0:05:48.26,000 --> 0:05:51,000
+car ils n'entraient pas dans les critères et on les a sortis du troupeau.
+
+142
+0:05:51.26,000 --> 0:05:53,000
+(Rires)
+
+143
+0:05:53.26,000 --> 0:05:56,000
+Le temps passé à dessiner allait de 4 secondes à 46 minutes.
+
+144
+0:05:56.26,000 --> 0:05:59,000
+Cela vous donne une idée des différents types de motivations et d'engagement.
+
+145
+0:05:59.26,000 --> 0:06:02,000
+Et il y a eu 7 599 contributeurs au projet,
+
+146
+0:06:02.26,000 --> 0:06:04,000
+en tout cas qui avaient une adresse IP unique --
+
+147
+0:06:04.26,000 --> 0:06:06,000
+ça représente à peu près le nombre de personnes qui ont contribué.
+
+148
+0:06:06.26,000 --> 0:06:1,000
+Mais un seul de ces 7 599 personnes a dit ceci.
+
+149
+0:06:10.26,000 --> 0:06:14,000
+(Rires)
+
+150
+0:06:14.26,000 --> 0:06:16,000
+Ce qui m'a plutôt surpris.
+
+151
+0:06:16.26,000 --> 0:06:19,000
+Je m'attendais à ce que les gens se demandent "Pourquoi j'ai choisi un mouton?"
+
+152
+0:06:19.26,000 --> 0:06:21,000
+Et je trouve que c'est une question plutôt pertinente.
+
+153
+0:06:21.26,000 --> 0:06:23,000
+Et il y a beaucoup de raisons pour lesquelles j'ai choisi un mouton.
+
+154
+0:06:23.26,000 --> 0:06:25,000
+Le mouton a été le premier animal
+
+155
+0:06:25.26,000 --> 0:06:27,000
+qui a été élevé avec des produits dérivés produits mécaniquement,
+
+156
+0:06:27.26,000 --> 0:06:29,000
+le premier qui a été sélectionné pour ses caractéristiques de reproduction,
+
+157
+0:06:29.26,000 --> 0:06:31,000
+le premier qui a été cloné.
+
+158
+0:06:31.26,000 --> 0:06:33,000
+Manifestement nous voyons les moutons comme des suiveurs.
+
+159
+0:06:33.26,000 --> 0:06:35,000
+Ensuite il y a la référence au "Petit Prince"
+
+160
+0:06:35.26,000 --> 0:06:37,000
+où le narrateur demande au prince de dessiner un mouton.
+
+161
+0:06:37.26,000 --> 0:06:39,000
+Il dessine un mouton après l'autre.
+
+162
+0:06:39.26,000 --> 0:06:41,000
+Le narrateur ne s'apaise que quand il dessine une boite.
+
+163
+0:06:41.26,000 --> 0:06:43,000
+Et il dit "Tu n'as pas besoin de dessiner un mouton scientifiquement exact.
+
+164
+0:06:43.26,000 --> 0:06:46,000
+Ce qui compte c'est ton interprétation et faire quelque chose de différent."
+
+165
+0:06:46.26,000 --> 0:06:48,000
+Et j'aime ça.
+
+166
+0:06:48.26,000 --> 0:06:5,000
+Voici un extrait des Temps Modernes de Charlie Chaplin.
+
+167
+0:06:50.26,000 --> 0:06:53,000
+Cela montre Charlie Chaplin aux prises avec quelques changements majeurs
+
+168
+0:06:53.26,000 --> 0:06:55,000
+pendant la révolution industrielle.
+
+169
+0:06:55.26,000 --> 0:06:57,000
+Il n'y avait plus de fabricants de chaussures,
+
+170
+0:06:57.26,000 --> 0:06:59,000
+mais il y avait des gens qui flanquaient des semelles sur les chaussures.
+
+171
+0:06:59.26,000 --> 0:07:02,000
+Et l'idée globale de la relation de chacun à son travail, avait beaucoup changé.
+
+172
+0:07:02.26,000 --> 0:07:04,000
+Alors j'ai pensé que c'était une vidéo intéressante
+
+173
+0:07:04.26,000 --> 0:07:06,000
+qu'on pouvait découper en 16 morceaux
+
+174
+0:07:06.26,000 --> 0:07:09,000
+et je les ai injectés dans le Turc mécanique avec un outil de dessin.
+
+175
+0:07:09.26,000 --> 0:07:12,000
+Cela a permis en fait -- ce que vous voyez à gauche est l'image originale,
+
+176
+0:07:12.26,000 --> 0:07:14,000
+et à droite vous voyez cette image
+
+177
+0:07:14.26,000 --> 0:07:16,000
+interprétée par 16 personnes
+
+178
+0:07:16.26,000 --> 0:07:18,000
+qui n'avaient aucune idée de ce qu'ils étaient en train de faire.
+
+179
+0:07:18.26,000 --> 0:07:2,000
+Et ça a été l'inspiration pour un projet
+
+180
+0:07:20.26,000 --> 0:07:22,000
+sur lequel j'ai travaillé avec mon ami Takashi Kawashima.
+
+181
+0:07:22.26,000 --> 0:07:24,000
+Nous avons décidé d'utiliser le Turc mécanique pour sa raison d'être précise,
+
+182
+0:07:24.26,000 --> 0:07:26,000
+qui était de rapporter de l'argent.
+
+183
+0:07:26.26,000 --> 0:07:29,000
+Alors nous avons pris une centaine de dollars et les avons divisé en 10 000 morceaux minuscules
+
+184
+0:07:29.26,000 --> 0:07:31,000
+et nous les avons placés dans le Turc Mécanique.
+
+185
+0:07:31.26,000 --> 0:07:33,000
+Nous avons demandé aux gens dire ce qu'ils voyaient.
+
+186
+0:07:33.26,000 --> 0:07:35,000
+Mais là il n'y avait pas de critère de "mouton ressemblant".
+
+187
+0:07:35.26,000 --> 0:07:38,000
+Les gens, s'ils tiraient un personnage en bâtons ou un smiley,
+
+188
+0:07:38.26,000 --> 0:07:4,000
+ça entrait dans le billet.
+
+189
+0:07:40.26,000 --> 0:07:42,000
+Donc ce que vous voyez est vraiment une représentation de la manière dont
+
+190
+0:07:42.26,000 --> 0:07:44,000
+les gens ont bien fait ce qui leur était demandé.
+
+191
+0:07:44.26,000 --> 0:07:46,000
+Nous avons donc pris ces cent billets d'un dollar,
+
+192
+0:07:46.26,000 --> 0:07:48,000
+et nous les avons mis sur un site appelé TenThousandsCents.com,
+
+193
+0:07:48.26,000 --> 0:07:51,000
+où vous pouvez passer en revue toutes les contributions individuelles.
+
+194
+0:07:51.26,000 --> 0:07:54,000
+Et vous pouvez aussi échanger des vrais billets de cent dollars contre des faux billets de cent dollars
+
+195
+0:07:54.26,000 --> 0:07:57,000
+et faire un don au projet Hundred Dollar Laptop,
+
+196
+0:07:57.26,000 --> 0:08:,000
+qui est aussi connu désormais sous le nom Un Laptop par enfant.
+
+197
+0:08:00.26,000 --> 0:08:02,000
+Voilà encore toutes les différentes contributions.
+
+198
+0:08:02.26,000 --> 0:08:04,000
+Vous voyez que certains ont fait de très beaux rendus pointillés
+
+199
+0:08:04.26,000 --> 0:08:06,000
+comme celui-ci en haut --
+
+200
+0:08:06.26,000 --> 0:08:09,000
+ils ont passé du temps à faire des versions réalistes.
+
+201
+0:08:09.26,000 --> 0:08:12,000
+Et d'autres ont dessiné des personnages en bâtons ou des smileys.
+
+202
+0:08:12.26,000 --> 0:08:14,000
+Ici à droite au milieu
+
+203
+0:08:14.26,000 --> 0:08:17,000
+vous voyez le type qui écrit "$0.01!!! Really?"
+
+204
+0:08:17.26,000 --> 0:08:21,000
+C'est tout ce que vous me donnez pour ça ?
+
+205
+0:08:21.26,000 --> 0:08:23,000
+(Rires)
+
+206
+0:08:23.26,000 --> 0:08:25,000
+Bon, le dernier projet Turc mécanique dont je vais vous parler
+
+207
+0:08:25.26,000 --> 0:08:27,000
+porte le nom de Bicyclette construite pour 2000.
+
+208
+0:08:27.26,000 --> 0:08:29,000
+C'est une collaboration avec mon ami Daniel Massey.
+
+209
+0:08:29.26,000 --> 0:08:31,000
+Vous reconnaîtrez peut-être ces deux types.
+
+210
+0:08:31.26,000 --> 0:08:34,000
+Ce sont Max Mathews et John Kelly du Bell Labs dans les années 60
+
+211
+0:08:34.26,000 --> 0:08:36,000
+où ils ont créé la chanson "Daisy Bell",
+
+212
+0:08:36.26,000 --> 0:08:38,000
+qui a été le premier ordinateur chantant au monde.
+
+213
+0:08:38.26,000 --> 0:08:4,000
+Vous reconnaîtrez peut-être dans "2001 : l'Odyssée de l'espace"
+
+214
+0:08:40.26,000 --> 0:08:43,000
+quand HAL est en train de mourir à la fin et commence à chanter cette chanson
+
+215
+0:08:43.26,000 --> 0:08:46,000
+comme une référence au moment où les ordinateurs sont devenus humains.
+
+216
+0:08:46.26,000 --> 0:08:48,000
+Donc nous avons reproduit cette chanson.
+
+217
+0:08:48.26,000 --> 0:08:5,000
+Voilà à quoi ça ressemblait.
+
+218
+0:08:50.26,000 --> 0:08:52,000
+Nous avons décomposé toutes les notes
+
+219
+0:08:52.26,000 --> 0:08:55,000
+et les phonèmes dans la chanson.
+
+220
+0:08:55.26,000 --> 0:08:59,000

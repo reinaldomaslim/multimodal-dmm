@@ -1,0 +1,1108 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Silvina Katz Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.975,000 --> 0:00:13,000
+Hay algoritmos por todos lados.
+
+3
+0:00:16.111,000 --> 0:00:19,000
+Ordenan y separan a los ganadores de los perdedores.
+
+4
+0:00:20.019,000 --> 0:00:22,000
+Los ganadores consiguen el trabajo
+
+5
+0:00:22.307,000 --> 0:00:23,000
+o buenas condiciones de crédito.
+
+6
+0:00:24.074,000 --> 0:00:26,000
+A los perdedores ni siquiera se les invita a una entrevista
+
+7
+0:00:27.59,000 --> 0:00:28,000
+o tienen que pagar más por el seguro.
+
+8
+0:00:30.197,000 --> 0:00:33,000
+Se nos califica mediante fórmulas secretas que no entendemos
+
+9
+0:00:34.675,000 --> 0:00:37,000
+y a las que no se puede apelar.
+
+10
+0:00:39.24,000 --> 0:00:4,000
+Eso plantea una pregunta:
+
+11
+0:00:40.56,000 --> 0:00:42,000
+¿Qué pasa si los algoritmos se equivocan?
+
+12
+0:00:45.1,000 --> 0:00:47,000
+Un algoritmo necesita dos cosas:
+
+13
+0:00:47.164,000 --> 0:00:48,000
+datos ocurridos en el pasado
+
+14
+0:00:49.169,000 --> 0:00:5,000
+y una definición del éxito;
+
+15
+0:00:50.754,000 --> 0:00:52,000
+esto es, lo que uno quiere y lo que desea.
+
+16
+0:00:53.235,000 --> 0:00:58,000
+Los algoritmos se entrenan mirando, descubriendo.
+
+17
+0:00:58.296,000 --> 0:01:01,000
+El algoritmo calcula a qué se asocia el éxito,
+
+18
+0:01:01.739,000 --> 0:01:03,000
+qué situaciones llevan al éxito.
+
+19
+0:01:04.881,000 --> 0:01:05,000
+En general todos usamos algoritmos
+
+20
+0:01:06.667,000 --> 0:01:08,000
+pero no los formalizamos mediante un código escrito.
+
+21
+0:01:09.409,000 --> 0:01:1,000
+Les doy un ejemplo.
+
+22
+0:01:10.781,000 --> 0:01:13,000
+Yo uso un algoritmo todos los días para preparar la comida en casa.
+
+23
+0:01:14.121,000 --> 0:01:15,000
+Los datos que uso
+
+24
+0:01:16.394,000 --> 0:01:17,000
+son los ingredientes de la cocina,
+
+25
+0:01:18.077,000 --> 0:01:19,000
+el tiempo que tengo
+
+26
+0:01:19.628,000 --> 0:01:2,000
+y lo ambiciosa que estoy.
+
+27
+0:01:20.885,000 --> 0:01:21,000
+Y así organizo los datos.
+
+28
+0:01:22.618,000 --> 0:01:26,000
+No incluyo esos paquetitos de fideos como comida.
+
+29
+0:01:26.893,000 --> 0:01:27,000
+(Risas)
+
+30
+0:01:28.786,000 --> 0:01:29,000
+Mi definición del éxito es:
+
+31
+0:01:30.655,000 --> 0:01:32,000
+la comida tiene éxito, si mis hijos comen verdura.
+
+32
+0:01:34.181,000 --> 0:01:36,000
+Lo que sería muy distinto, si mi hijito tuviera el control.
+
+33
+0:01:37.059,000 --> 0:01:39,000
+Para él el éxito es comer mucha Nutella.
+
+34
+0:01:41.179,000 --> 0:01:43,000
+Pero yo soy quien elige el éxito.
+
+35
+0:01:43.429,000 --> 0:01:45,000
+Estoy al mando. Mi opinión cuenta.
+
+36
+0:01:46.16,000 --> 0:01:48,000
+Esa es la primera regla de los algoritmos.
+
+37
+0:01:48.859,000 --> 0:01:51,000
+Los algoritmos son opiniones que se embeben en código.
+
+38
+0:01:53.562,000 --> 0:01:56,000
+Es muy diferente a cómo la gente se imagina los algoritmos.
+
+39
+0:01:57.249,000 --> 0:02:01,000
+Se creen que los algoritmos son objetivos, verdaderos y científicos.
+
+40
+0:02:02.387,000 --> 0:02:03,000
+Ese en un truco del marketing.
+
+41
+0:02:05.269,000 --> 0:02:07,000
+Tambien es un truco del marketing
+
+42
+0:02:07.418,000 --> 0:02:1,000
+la intimidación con algoritmos,
+
+43
+0:02:10.596,000 --> 0:02:13,000
+que nos hacer confiar y temer los algoritmos
+
+44
+0:02:14.281,000 --> 0:02:16,000
+porque confiamos y tememos las matemáticas.
+
+45
+0:02:17.567,000 --> 0:02:21,000
+Muchas cosas pueden salir mal si confiamos a ciegas en datos masivos.
+
+46
+0:02:23.684,000 --> 0:02:26,000
+Esta es Kiri Soares. Es la directora de una escuela de Brooklyn.
+
+47
+0:02:27.081,000 --> 0:02:29,000
+En 2011 me contó que sus maestros se clasificaban
+
+48
+0:02:29.551,000 --> 0:02:31,000
+mediante un algoritmo complejo y secreto
+
+49
+0:02:32.392,000 --> 0:02:33,000
+llamado "modelo del valor añadido".
+
+50
+0:02:34.505,000 --> 0:02:37,000
+Le dije, "Intente saber cuál es la fórmula, muéstremela.
+
+51
+0:02:37.621,000 --> 0:02:38,000
+Se la voy a explicar".
+
+52
+0:02:39.186,000 --> 0:02:41,000
+Me respondió, "Trate de conseguir la fórmula,
+
+53
+0:02:41.351,000 --> 0:02:43,000
+pero un conocido del Departamento de Educación me dijo
+
+54
+0:02:44.147,000 --> 0:02:46,000
+que era matemática y que no la entendería".
+
+55
+0:02:47.266,000 --> 0:02:48,000
+Esto se pone peor.
+
+56
+0:02:48.628,000 --> 0:02:51,000
+El New York Post la solicitó bajo la Ley de Libertad a la Información.
+
+57
+0:02:52.182,000 --> 0:02:54,000
+Obtuvo los nombres de los maestros y su puntuación
+
+58
+0:02:55.165,000 --> 0:02:57,000
+y los publicó como un acto para avergonzar a los maestros.
+
+59
+0:02:59.084,000 --> 0:03:02,000
+Cuando intenté conseguir las fórmulas en código base, usando el mismo mecanismo,
+
+60
+0:03:02.968,000 --> 0:03:04,000
+me dijeron que no se podía.
+
+61
+0:03:05.141,000 --> 0:03:06,000
+Me lo negaron.
+
+62
+0:03:06.401,000 --> 0:03:07,000
+Más tarde descubrí
+
+63
+0:03:07.599,000 --> 0:03:09,000
+que nadie tenía derecho a la fórmula en Nueva York.
+
+64
+0:03:10.489,000 --> 0:03:11,000
+Nadie lo podía entender.
+
+65
+0:03:13.929,000 --> 0:03:16,000
+Entonces apareció un tipo muy inteligente, Gary Rubenstein.
+
+66
+0:03:17.177,000 --> 0:03:2,000
+Localizó a 665 maestros por los datos del New York Post
+
+67
+0:03:20.822,000 --> 0:03:21,000
+que tenían dos puntuaciones.
+
+68
+0:03:22.712,000 --> 0:03:23,000
+Eso podía ocurrir si enseñaban
+
+69
+0:03:24.617,000 --> 0:03:26,000
+matemática en 7º y 8º grado.
+
+70
+0:03:27.08,000 --> 0:03:28,000
+Decidió hacer un gráfico.
+
+71
+0:03:28.642,000 --> 0:03:3,000
+Donde cada punto representa a un maestro.
+
+72
+0:03:31.104,000 --> 0:03:33,000
+(Risas)
+
+73
+0:03:33.507,000 --> 0:03:34,000
+Y eso ¿qué es?
+
+74
+0:03:35.052,000 --> 0:03:36,000
+(Risas)
+
+75
+0:03:36.353,000 --> 0:03:39,000
+Eso no debiera haberse usado nunca para evaluar a una persona.
+
+76
+0:03:39.823,000 --> 0:03:4,000
+Es casi un generador de números al azar.
+
+77
+0:03:41.773,000 --> 0:03:43,000
+(Aplausos)
+
+78
+0:03:44.743,000 --> 0:03:45,000
+Pero lo fue.
+
+79
+0:03:45.929,000 --> 0:03:46,000
+Esta es Sarah Wysocki.
+
+80
+0:03:47.129,000 --> 0:03:49,000
+La echaron junto a otros 205 maestros
+
+81
+0:03:49.328,000 --> 0:03:51,000
+de una escuela en Washington DC,
+
+82
+0:03:52.014,000 --> 0:03:54,000
+a pesar de tener muy buena recomendación de la directora
+
+83
+0:03:54.947,000 --> 0:03:55,000
+y de los padres de sus alumnos.
+
+84
+0:03:57.02,000 --> 0:03:59,000
+Me imagino lo que estarán pensando,
+
+85
+0:03:59.122,000 --> 0:04:01,000
+especialmente los cientificos de datos, los expertos en IA
+
+86
+0:04:01.957,000 --> 0:04:05,000
+Pensarán "Nosotros nunca produciríamos un algoritmo tan inconsistente."
+
+87
+0:04:06.853,000 --> 0:04:07,000
+Pero los algoritmos a veces fallan,
+
+88
+0:04:08.56,000 --> 0:04:12,000
+y tambien provocar mucha destrucción sin querer.
+
+89
+0:04:14.531,000 --> 0:04:16,000
+Y mientras un avión mal diseñado
+
+90
+0:04:16.934,000 --> 0:04:18,000
+se estrella y todos lo ven,
+
+91
+0:04:18.959,000 --> 0:04:19,000
+un algoritmo mal diseñado
+
+92
+0:04:22.245,000 --> 0:04:25,000
+puede funcionar mucho tiempo provocando un desastre silenciosamente.
+
+93
+0:04:27.748,000 --> 0:04:28,000
+Este es Roger Ailes.
+
+94
+0:04:29.342,000 --> 0:04:31,000
+(Risas)
+
+95
+0:04:32.524,000 --> 0:04:34,000
+Fundador de Fox News en el 1996.
+
+96
+0:04:35.436,000 --> 0:04:37,000
+Mas de 20 mujeres se quejaron de acoso sexual.
+
+97
+0:04:38.041,000 --> 0:04:41,000
+Dijeron que no pudieron tener éxito en Fox News.
+
+98
+0:04:41.3,000 --> 0:04:43,000
+Lo echaron el año pasado, pero hemos visto que hace poco
+
+99
+0:04:44.03,000 --> 0:04:46,000
+los problemas han continuado.
+
+100
+0:04:47.654,000 --> 0:04:48,000
+Esto plantea una pregunta:
+
+101
+0:04:49.078,000 --> 0:04:51,000
+¿Qué debe hacer Fox News para cambiar?
+
+102
+0:04:53.245,000 --> 0:04:55,000
+Y si substituyeran su mecanismo de contratación
+
+103
+0:04:55.52,000 --> 0:04:57,000
+con un algoritmo de auto- aprendizaje automatizado?
+
+104
+0:04:57.988,000 --> 0:04:58,000
+¿Suena bien?
+
+105
+0:04:59.607,000 --> 0:05:,000
+Piénsenlo,
+
+106
+0:05:00.931,000 --> 0:05:02,000
+Los datos, ¿qué datos serían?
+
+107
+0:05:03.06,000 --> 0:05:07,000
+Una eleccion razonable serian las últimas 21 solicitudes recibidas por Fox News
+
+108
+0:05:08.031,000 --> 0:05:09,000
+Razonable.
+
+109
+0:05:09.557,000 --> 0:05:1,000
+Y ¿cuál sería la definición del éxito?
+
+110
+0:05:11.921,000 --> 0:05:12,000
+Algo razonable sería
+
+111
+0:05:13.109,000 --> 0:05:14,000
+preguntar, quién es exitoso en Fox News.
+
+112
+0:05:15.071,000 --> 0:05:18,000
+Me imagino que alguien que hubiera estado alli unos 4 años
+
+113
+0:05:18.675,000 --> 0:05:2,000
+y subido de puesto por lo menosuna vez.
+
+114
+0:05:20.816,000 --> 0:05:21,000
+¿Suena razonable?
+
+115
+0:05:22.401,000 --> 0:05:24,000
+Y así se adiestraría el algoritmo.
+
+116
+0:05:24.779,000 --> 0:05:27,000
+Se adiestraría para buscar a gente que logra el éxito.
+
+117
+0:05:29.219,000 --> 0:05:33,000
+Y qué solicitudes antiguas llegaron al éxito
+
+118
+0:05:33.561,000 --> 0:05:34,000
+según esa definición.
+
+119
+0:05:36.2,000 --> 0:05:37,000
+Ahora piensen que ocurriría
+
+120
+0:05:37.999,000 --> 0:05:39,000
+si lo usáramos con los candidatos de hoy.
+
+121
+0:05:41.119,000 --> 0:05:42,000
+Filtraría a las mujeres
+
+122
+0:05:43.663,000 --> 0:05:46,000
+ya que no parecen ser personas que hayan tenido éxito en el pasado.
+
+123
+0:05:51.752,000 --> 0:05:53,000
+Los algoritmos no son justos
+
+124
+0:05:54.313,000 --> 0:05:56,000
+si uno usa algoritmos a ciegas.
+
+125
+0:05:57.031,000 --> 0:05:58,000
+No son justos.
+
+126
+0:05:58.537,000 --> 0:06:,000
+Repiten prácticas anteriores,
+
+127
+0:06:00.689,000 --> 0:06:01,000
+nuestros patrones.
+
+128
+0:06:01.896,000 --> 0:06:02,000
+Automatizan al status quo.
+
+129
+0:06:04.718,000 --> 0:06:06,000
+Sería genial en un mundo perfecto,
+
+130
+0:06:07.905,000 --> 0:06:08,000
+pero no lo tenemos.
+
+131
+0:06:09.241,000 --> 0:06:13,000
+Y aclaro que la mayoria de las empresas no estan involucradas en litigios,
+
+132
+0:06:14.446,000 --> 0:06:16,000
+pero los cientificos de datos de esas empresas
+
+133
+0:06:17.058,000 --> 0:06:19,000
+emplean esos datos
+
+134
+0:06:19.271,000 --> 0:06:21,000
+para lograr la precisión.
+
+135
+0:06:22.273,000 --> 0:06:23,000
+Piensen qué significa esto.
+
+136
+0:06:23.678,000 --> 0:06:27,000
+Porque todos tenemos prejuicios, y así podríamos codificar sexismo
+
+137
+0:06:27.729,000 --> 0:06:28,000
+u otro tipo de fanatismo.
+
+138
+0:06:31.488,000 --> 0:06:32,000
+Un experimento de pensamiento,
+
+139
+0:06:33.129,000 --> 0:06:34,000
+porque me gusta,
+
+140
+0:06:35.574,000 --> 0:06:37,000
+una sociedad totalmente segregada.
+
+141
+0:06:40.247,000 --> 0:06:43,000
+segregada racialmente, todas las ciudades y los barrios
+
+142
+0:06:43.599,000 --> 0:06:46,000
+y donde enviamos a la policia solo a barrios minoritarios
+
+143
+0:06:46.66,000 --> 0:06:47,000
+para detectar delitos.
+
+144
+0:06:48.451,000 --> 0:06:5,000
+Los arrestos serían sesgados.
+
+145
+0:06:51.851,000 --> 0:06:53,000
+Y, además, elegimos a los cientificos de datos
+
+146
+0:06:54.45,000 --> 0:06:58,000
+y pagamos por los datos para predecir dónde ocurrirán los próximos delitos.
+
+147
+0:06:59.275,000 --> 0:07:,000
+El barrio de una minoría.
+
+148
+0:07:01.285,000 --> 0:07:04,000
+O a predecir quien será el próximo criminal.
+
+149
+0:07:04.888,000 --> 0:07:05,000
+Una minoría.
+
+150
+0:07:07.949,000 --> 0:07:1,000
+Los cientificos de datos se jactarían de su grandeza y de la precisión
+
+151
+0:07:11.514,000 --> 0:07:12,000
+de su modelo,
+
+152
+0:07:12.835,000 --> 0:07:13,000
+y tendrían razón.
+
+153
+0:07:15.951,000 --> 0:07:19,000
+La realidad no es tan drástica, pero tenemos grandes segregaciones
+
+154
+0:07:20.59,000 --> 0:07:21,000
+en muchas ciudades
+
+155
+0:07:21.901,000 --> 0:07:22,000
+y tenemos muchas pruebas
+
+156
+0:07:23.818,000 --> 0:07:25,000
+de datos políticos y legislativos sesgados.
+
+157
+0:07:27.632,000 --> 0:07:29,000
+Y podemos predecir puntos calientes,
+
+158
+0:07:30.471,000 --> 0:07:31,000
+lugares donde podrá ocurrir un delito
+
+159
+0:07:32.401,000 --> 0:07:35,000
+Y así predecir un crimen individual
+
+160
+0:07:36.291,000 --> 0:07:37,000
+y la criminalidad de los individuos.
+
+161
+0:07:38.972,000 --> 0:07:41,000
+El organismo de noticias ProPublica lo estudió hace poco.
+
+162
+0:07:42.959,000 --> 0:07:44,000
+un algoritmo de "riesgo recidivista"
+
+163
+0:07:45.007,000 --> 0:07:46,000
+según los llaman
+
+164
+0:07:46.194,000 --> 0:07:49,000
+usado en Florida al hacer sentencias judiciales.
+
+165
+0:07:50.411,000 --> 0:07:53,000
+Bernardo, a la izquierda, un hombre negro sacó una puntuación de 10 de 10.
+
+166
+0:07:55.179,000 --> 0:07:57,000
+Dylan, a la derecha, 3 de 10.
+
+167
+0:07:57.21,000 --> 0:07:59,000
+10 de 10, alto riesgo 3 de 10, bajo riesgo.
+
+168
+0:08:00.598,000 --> 0:08:02,000
+Los sentenciaron por tener drogas.
+
+169
+0:08:03.007,000 --> 0:08:04,000
+Ambos con antecedentes penales
+
+170
+0:08:04.551,000 --> 0:08:06,000
+pero Dylan habia cometido un delito
+
+171
+0:08:07.015,000 --> 0:08:08,000
+Bernard, no.
+
+172
+0:08:09.818,000 --> 0:08:12,000
+Esto importa porque a mayor puntuación
+
+173
+0:08:12.908,000 --> 0:08:15,000
+mayor probabilidad de una sentencia más larga.
+
+174
+0:08:18.294,000 --> 0:08:19,000
+¿Que sucede?
+
+175
+0:08:20.526,000 --> 0:08:21,000
+Lavado de datos.
+
+176
+0:08:22.93,000 --> 0:08:26,000
+El proceso que se usa para ocultar verdades feas
+
+177
+0:08:27.381,000 --> 0:08:28,000
+dentro de una caja negra de algoritmos
+
+178
+0:08:29.226,000 --> 0:08:3,000
+y llamarlos objetivos;
+
+179
+0:08:31.32,000 --> 0:08:32,000
+llamándolos meritocráticos
+
+180
+0:08:35.118,000 --> 0:08:37,000
+cuando son secretos, importantes y destructivos
+
+181
+0:08:37.527,000 --> 0:08:39,000
+Les puse un nombre a estos algoritmos:
+
+182
+0:08:40.038,000 --> 0:08:41,000
+"armas matemáticas de destrucción"
+
+183
+0:08:42.061,000 --> 0:08:43,000
+(Risas)
+
+184
+0:08:43.649,000 --> 0:08:46,000
+(Aplausos)
+
+185
+0:08:46.727,000 --> 0:08:48,000
+Estan en todos sitios
+
+186
+0:08:49.695,000 --> 0:08:52,000
+Son empresas privadas que construyen algoritmos privados
+
+187
+0:08:53.442,000 --> 0:08:54,000
+para fines privados.
+
+188
+0:08:55.214,000 --> 0:08:58,000
+Incluso los mencionados de los maestros y la policía pública
+
+189
+0:08:58.452,000 --> 0:08:59,000
+fueron diseñados por empresas privadas
+
+190
+0:09:00.345,000 --> 0:09:02,000
+y vendidos a instituciones gubernamentales.
+
+191
+0:09:02.6,000 --> 0:09:03,000
+Lo llaman su "salsa secreta"
+
+192
+0:09:04.497,000 --> 0:09:06,000
+por eso no nos pueden hablar de ello.
+
+193
+0:09:06.649,000 --> 0:09:08,000
+Es un poder privado
+
+194
+0:09:09.924,000 --> 0:09:13,000
+que saca provecho por su autoridad inescrutable.
+
+195
+0:09:17.114,000 --> 0:09:19,000
+Entonces uno ha de pensar, ya que todo esto es privado
+
+196
+0:09:20.072,000 --> 0:09:21,000
+y hay competición,
+
+197
+0:09:21.254,000 --> 0:09:23,000
+tal vez un mercado libre podrá solucionarlo
+
+198
+0:09:23.584,000 --> 0:09:24,000
+Pero no.
+
+199
+0:09:24.857,000 --> 0:09:27,000
+Se puede ganar mucho dinero con la injusticia.
+
+200
+0:09:29.127,000 --> 0:09:32,000
+Tampoco somos agentes económicos racionales.
+
+201
+0:09:33.031,000 --> 0:09:34,000
+Todos tenemos prejuicios
+
+202
+0:09:34.96,000 --> 0:09:37,000
+Somos racistas y fanáticos de una forma que no quisiéramos,
+
+203
+0:09:38.361,000 --> 0:09:4,000
+de maneras que desconocemos.
+
+204
+0:09:41.352,000 --> 0:09:44,000
+Lo sabemos al sumarlo
+
+205
+0:09:44.457,000 --> 0:09:47,000
+porque los sociólogos lo han demostrado consistentemente
+
+206
+0:09:47.701,000 --> 0:09:48,000
+con experimentos que construyeron
+
+207
+0:09:49.27,000 --> 0:09:51,000
+donde mandan una cantidad de solicitudes de empleo
+
+208
+0:09:51.682,000 --> 0:09:54,000
+de personas de calificaciones iguales pero algunas con apellidos blancos
+
+209
+0:09:55.123,000 --> 0:09:56,000
+y otras con apellidos negros,
+
+210
+0:09:56.543,000 --> 0:09:58,000
+y los resultados siempre los decepcionan, siempre.
+
+211
+0:09:59.51,000 --> 0:10:,000
+Nosotros somos los prejuiciosos
+
+212
+0:10:01.305,000 --> 0:10:04,000
+que inyectamos prejuicios a nuestros algoritmos
+
+213
+0:10:04.758,000 --> 0:10:05,000
+al elegir qué datos recoger,
+
+214
+0:10:06.594,000 --> 0:10:08,000
+así como yo elegí no pensar en los fideos--
+
+215
+0:10:09.361,000 --> 0:10:1,000
+Y decidi que no era importante.
+
+216
+0:10:11.01,000 --> 0:10:16,000
+Pero tenerle confianza a los datos basados en prácticas pasadas
+
+217
+0:10:16.718,000 --> 0:10:18,000
+y eligiendo la definición del éxito,
+
+218
+0:10:18.756,000 --> 0:10:21,000
+¿cómo pretendemos que los algoritmos emerjan intactos?
+
+219
+0:10:22.763,000 --> 0:10:24,000
+No podemos. Tenemos que verificarlos.
+
+220
+0:10:26.165,000 --> 0:10:27,000
+Hay que revisarlos por equidad.
+
+221
+0:10:27.898,000 --> 0:10:29,000
+Y las buenas noticias son
+
+222
+0:10:30.633,000 --> 0:10:33,000
+que los algoritmos pueden ser interrogados,
+
+223
+0:10:34.009,000 --> 0:10:36,000
+y nos dirán la verdad todas las veces.
+
+224
+0:10:36.067,000 --> 0:10:38,000
+Y los podemos arreglar. Y mejorarlos.
+
+225
+0:10:38.584,000 --> 0:10:4,000
+Lo explico. Esto se llama revisión del algoritmo,
+
+226
+0:10:40.983,000 --> 0:10:41,000
+lo explico.
+
+227
+0:10:42.686,000 --> 0:10:44,000
+Primero, verificación de integridad de datos.
+
+228
+0:10:46.132,000 --> 0:10:48,000
+por el riesgo recidivista.
+
+229
+0:10:49.582,000 --> 0:10:52,000
+La verificación de la integridad de datos implicaría una conciliación
+
+230
+0:10:53.179,000 --> 0:10:56,000
+que en EE. UU. los blancos y los negros fuman marihuana
+
+231
+0:10:56.729,000 --> 0:10:58,000
+pero a los negros es mas fácil que los arresten
+
+232
+0:10:59.238,000 --> 0:11:02,000
+más probablemente cuatro o cinco veces más dependiendo de la zona.
+
+233
+0:11:03.317,000 --> 0:11:05,000
+Y ¿cómo son los prejuicios en otras categorías criminales,
+
+234
+0:11:06.167,000 --> 0:11:07,000
+y cómo lo justificamos?
+
+235
+0:11:08.162,000 --> 0:11:11,000
+Segundo, debemos pensar en la definición del éxito,
+
+236
+0:11:11.225,000 --> 0:11:12,000
+revisarla.
+
+237
+0:11:12.63,000 --> 0:11:14,000
+¿Recuerdan el algoritmo de la contratación?
+
+238
+0:11:15.406,000 --> 0:11:18,000
+alguien que se queda cuatro años y asciende de cargo una vez?
+
+239
+0:11:18.595,000 --> 0:11:19,000
+Ese es el empleado exitoso,
+
+240
+0:11:20.388,000 --> 0:11:23,000
+pero tambien es el empleado apoyado por la cultura.
+
+241
+0:11:24.089,000 --> 0:11:25,000
+Esto puede ser bastante injusto.
+
+242
+0:11:26.039,000 --> 0:11:28,000
+Tenemos que separar dos cosas.
+
+243
+0:11:28.128,000 --> 0:11:3,000
+Mirar a la audicion de una orquesta de ciegos
+
+244
+0:11:30.578,000 --> 0:11:31,000
+por ejemplo.
+
+245
+0:11:31.798,000 --> 0:11:33,000
+Los que dan la audición están detrás de la partitura.
+
+246
+0:11:34.946,000 --> 0:11:35,000
+Lo que quiero que piensen
+
+247
+0:11:36.901,000 --> 0:11:39,000
+es que la gente que escucha decide lo que es importante
+
+248
+0:11:40.342,000 --> 0:11:42,000
+y lo que no lo es,
+
+249
+0:11:42.395,000 --> 0:11:44,000
+sin que eso nos distraiga.
+
+250
+0:11:44.961,000 --> 0:11:46,000
+Cuando empezaron las audiciones de orquesta de ciegos
+
+251
+0:11:47.734,000 --> 0:11:5,000
+la cantidad de mujeres aumentó un factor de cinco veces.
+
+252
+0:11:52.253,000 --> 0:11:54,000
+Tambien hay que pensar en la precisión
+
+253
+0:11:55.233,000 --> 0:11:58,000
+y así el modelo del valor añadido fallaría.
+
+254
+0:11:59.578,000 --> 0:12:01,000
+Por supuesto ningún algoritmo es perfecto,
+
+255
+0:12:02.62,000 --> 0:12:05,000
+asi que hay que considerar los errores de cada algoritmo.
+
+256
+0:12:06.836,000 --> 0:12:1,000
+¿Qué frecuencia tienen los errores y con quiénes falla?
+
+257
+0:12:11.85,000 --> 0:12:12,000
+Y ¿cuál es el costo de dicha falla?
+
+258
+0:12:14.434,000 --> 0:12:16,000
+Y por último, tenemos que considerar
+
+259
+0:12:17.973,000 --> 0:12:19,000
+los efectos a largo plazo de los algoritmos,
+
+260
+0:12:20.866,000 --> 0:12:22,000
+los bucles de retroalimentación que engendran.
+
+261
+0:12:23.586,000 --> 0:12:24,000
+Eso suena a abstracto.
+
+262
+0:12:24.846,000 --> 0:12:27,000
+Pero imagínese si los ingenieros de Facebook lo hubieran considerado
+
+263
+0:12:28.27,000 --> 0:12:32,000
+antes de mostrarnos cosas publicadas por nuestros amigos.
+
+264
+0:12:33.761,000 --> 0:12:36,000
+Tengo dos mensajes, uno para los científicos de datos.
+
+265
+0:12:37.45,000 --> 0:12:4,000
+Cientificos de datos: no debemos ser los árbitros de la verdad.
+
+266
+0:12:41.52,000 --> 0:12:44,000
+Debemos ser tradutores de las discusiones éticas que ocurren
+
+267
+0:12:45.327,000 --> 0:12:46,000
+en toda la sociedad.
+
+268
+0:12:47.579,000 --> 0:12:49,000
+(Aplausos)
+
+269
+0:12:49.736,000 --> 0:12:5,000
+Y para el resto de Uds.
+
+270
+0:12:52.011,000 --> 0:12:53,000
+los que no son científicos de datos:
+
+271
+0:12:53.747,000 --> 0:12:54,000
+esta no es un examen de matemáticas.
+
+272
+0:12:55.632,000 --> 0:12:56,000
+Es una lucha politica.
+
+273
+0:12:58.587,000 --> 0:13:01,000
+Tenemos que exigir responsabilidad a los lores de los algoritmos.
+
+274
+0:13:04.118,000 --> 0:13:05,000
+(Aplausos)
+
+275
+0:13:05.641,000 --> 0:13:09,000
+La era de la fe ciega en los datos masivos debe terminar.
+
+276
+0:13:09.89,000 --> 0:13:1,000
+Muchas gracias.
+
+277
+0:13:11.081,000 --> 0:13:17,000
+(Aplauso)
+

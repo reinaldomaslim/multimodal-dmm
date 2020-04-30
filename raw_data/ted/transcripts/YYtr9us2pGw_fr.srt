@@ -1,0 +1,270 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elisabeth Buffard Relecteur: JJ CASABONGA
+
+2
+0:00:19.33,000 --> 0:00:21,000
+En 1952, Buckminster Fuller
+
+3
+0:00:21.33,000 --> 0:00:25,000
+a présenté une proposition particulièrement audacieuse pour le Geoscope.
+
+4
+0:00:25.33,000 --> 0:00:28,000
+Il s'agissait d'une sphère géodésique d'un diamètre de 200 pieds (61 mètres)
+
+5
+0:00:28.33,000 --> 0:00:33,000
+destinée à être suspendue au-dessus de l'East River à New York City, bien à la vue de l'Organisation des Nations Unies.
+
+6
+0:00:33.33,000 --> 0:00:39,000
+C'était une grande idée, bien sûr, et il pensait vraiment qu'il pourrait ainsi vraiment informer
+
+7
+0:00:39.33,000 --> 0:00:43,000
+et profondément affecter les prises de décision de cet organisme
+
+8
+0:00:43.33,000 --> 0:00:47,000
+avec des animations de données mondiales, des tendances
+
+9
+0:00:47.33,000 --> 0:00:51,000
+et d'autres informations concernant le monde, sur cette sphère.
+
+10
+0:00:51.33,000 --> 0:00:54,000
+Et aujourd'hui, 45 ans plus tard,
+
+11
+0:00:54.33,000 --> 0:00:57,000
+il est clair que nous n'avons pas moins besoin de ce genre de clarté et de perspective,
+
+12
+0:00:57.33,000 --> 0:01:,000
+mais par contre ce que nous avons, c'est une technologie améliorée.
+
+13
+0:01:00.33,000 --> 0:01:03,000
+Aujourd'hui, nous n'avons pas besoin d'un million d'ampoules pour créer un écran sphérique.
+
+14
+0:01:03.33,000 --> 0:01:05,000
+Nous pouvons utiliser les LEDs.
+
+15
+0:01:05.33,000 --> 0:01:1,000
+Les LEDs sont plus petites, elles ont moins chères, elles durent plus longtemps, elles ont plus efficaces
+
+16
+0:01:10.33,000 --> 0:01:12,000
+Et ce qui importe le plus pour cette invention, elles sont plus rapides.
+
+17
+0:01:12.33,000 --> 0:01:16,000
+Et cette vitesse, combinée avec les micro-contrôleurs à haute performance d'aujourd'hui
+
+18
+0:01:16.33,000 --> 0:01:19,000
+nous a permis de simuler, dans cette invention,
+
+19
+0:01:19.33,000 --> 0:01:23,000
+plus de 17 000 LED -- en en utilisant seulement 64.
+
+20
+0:01:24.33,000 --> 0:01:28,000
+Et l'effet est produit grâce au phénomène de la persistance rétinienne.
+
+21
+0:01:28.33,000 --> 0:01:32,000
+Mais, alors que cet anneau tourne à 1700 tours / minute environ - soit 28 fois par seconde.
+
+22
+0:01:33.33,000 --> 0:01:36,000
+La vitesse à l'équateur est en fait environ 96 kilomètres / heure.
+
+23
+0:01:36.33,000 --> 0:01:38,000
+Il y a quatre micro-contrôleurs embarqués
+
+24
+0:01:38.33,000 --> 0:01:41,000
+qui, chaque fois que cet anneau tourne
+
+25
+0:01:41.33,000 --> 0:01:43,000
+et qu'il passe devant la partie arrière de l'affichage,
+
+26
+0:01:43.33,000 --> 0:01:45,000
+et il reçoit un signal de position
+
+27
+0:01:45.33,000 --> 0:01:47,000
+à partir duquel les micro-contrôleurs embarqués
+
+28
+0:01:47.33,000 --> 0:01:52,000
+peuvent extrapoler la position de l'anneau à tous les points de la révolution
+
+29
+0:01:52.33,000 --> 0:01:55,000
+et afficher des images bitmap et des animations arbitraires.
+
+30
+0:01:55.33,000 --> 0:01:58,000
+Mais ce n'est que le début.
+
+31
+0:01:58.33,000 --> 0:02:01,000
+En plus des versions de résolution plus élevées de cet affichage,
+
+32
+0:02:01.33,000 --> 0:02:04,000
+mon père et moi-même travaillons sur une nouvelle conception en instance de brevet
+
+33
+0:02:04.33,000 --> 0:02:07,000
+pour un affichage complètement volumétrique utilisant le même phénomène.
+
+34
+0:02:07.33,000 --> 0:02:1,000
+On arrive à ce résultat par une rotation des LEDs autour de deux axes.
+
+35
+0:02:10.33,000 --> 0:02:13,000
+Donc, comme vous pouvez le voir ici, il s'agit d'un circuit imprimé de 11-pouces (28 centimètres) de diamètre.
+
+36
+0:02:13.33,000 --> 0:02:15,000
+Ces blocs représentent des LEDs.
+
+37
+0:02:15.33,000 --> 0:02:19,000
+Et donc vous verriez alors que ce disque est en rotation sur cet axe,
+
+38
+0:02:19.33,000 --> 0:02:22,000
+il va créer un disque de lumière que nous pouvons contrôler.
+
+39
+0:02:22.33,000 --> 0:02:24,000
+Ce n'est rien de nouveau, c'est comme une horloge à hélice.
+
+40
+0:02:24.33,000 --> 0:02:27,000
+C'est comme les jantes que vous pouvez acheter pour votre voiture.
+
+41
+0:02:27.33,000 --> 0:02:32,000
+Mais ce qui est nouveau, c'est que lorsque nous faisons tourner ce disque sur cet axe,
+
+42
+0:02:32.33,000 --> 0:02:35,000
+alors ce disque de lumière devient en fait une sphère de lumière.
+
+43
+0:02:35.33,000 --> 0:02:37,000
+Et ainsi nous pouvons contrôler cela par des micro-contrôleurs
+
+44
+0:02:37.33,000 --> 0:02:43,000
+et créer un affichage volumétrique, en trois dimensions, avec seulement 256 LEDs.
+
+45
+0:02:43.33,000 --> 0:02:45,000
+Maintenant, cet appareil est actuellement en cours de fabrication --
+
+46
+0:02:45.33,000 --> 0:02:5,000
+la sortie est prévue pour Mai, mais ce que nous avons fait c'est que nous avons mis en place une petite démo,
+
+47
+0:02:50.33,000 --> 0:02:54,000
+juste pour montrer la traduction géométrique de points en une sphère.
+
+48
+0:02:54.33,000 --> 0:02:56,000
+J'ai une petite vidéo à vous montrer,
+
+49
+0:02:56.33,000 --> 0:03:,000
+mais gardez à l'esprit qu'il n'y a pas ici de contrôle électronique,
+
+50
+0:03:00.33,000 --> 0:03:02,000
+et aussi qu'il y a seulement quatre LEDs.
+
+51
+0:03:02.33,000 --> 0:03:05,000
+C'est en fait seulement environ 1,5 % de ce que sera l'affichage final en Mai.
+
+52
+0:03:05.33,000 --> 0:03:07,000
+Alors, jetez un coup d'oeil.
+
+53
+0:03:09.33,000 --> 0:03:13,000
+Et ici, vous pouvez le voir, elle tourne autour de l'axe vertical seulement, en créant des cercles.
+
+54
+0:03:17.33,000 --> 0:03:19,000
+Et puis, alors que l'autre axe entre en fonction,
+
+55
+0:03:19.33,000 --> 0:03:21,000
+elles se fondent vraiment en un seul volume.
+
+56
+0:03:21.33,000 --> 0:03:23,000
+Et la vitesse d'obturation de la caméra
+
+57
+0:03:23.33,000 --> 0:03:26,000
+rend l'effet un peu moins évident dans ce cas précis.
+
+58
+0:03:26.33,000 --> 0:03:28,000
+Cet appareil sortira en Mai.
+
+59
+0:03:28.33,000 --> 0:03:31,000
+Il sera exposé au Salon de Printemps des Télécommunications Interactives
+
+60
+0:03:31.33,000 --> 0:03:33,000
+de Greenwich Village à New York - c'est ouvert au public,
+
+61
+0:03:33.33,000 --> 0:03:37,000
+et nous vous invitons tous à venir y assister - c'est un salon fantastique.
+
+62
+0:03:37.33,000 --> 0:03:41,000
+Il y a des centaines d'étudiants innovateurs avec de magnifiques projets.
+
+63
+0:03:41.33,000 --> 0:03:43,000
+Ce dispositif en fait sera exposé
+
+64
+0:03:43.33,000 --> 0:03:45,000
+dans l'espace Sierra Simulcast
+
+65
+0:03:45.33,000 --> 0:03:47,000
+pendant les pauses entre maintenant et la fin de la séance.
+
+66
+0:03:47.33,000 --> 0:03:49,000
+J'aimerais donc vous parler à tous, et vous inviter
+
+67
+0:03:49.33,000 --> 0:03:51,000
+à venir regarder de plus près.
+
+68
+0:03:51.33,000 --> 0:03:53,000

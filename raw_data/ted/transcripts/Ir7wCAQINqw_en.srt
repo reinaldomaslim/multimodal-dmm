@@ -1,0 +1,576 @@
+1
+0:00:,000 --> 0:00:07,000
+Transcriber: Ivana Korom Reviewer: Krystian Aparta
+
+2
+0:00:12.937,000 --> 0:00:13,000
+In the future,
+
+3
+0:00:14.136,000 --> 0:00:17,000
+self-driving cars will be safer and more reliable than humans.
+
+4
+0:00:18.175,000 --> 0:00:19,000
+But for this to happen,
+
+5
+0:00:19.421,000 --> 0:00:21,000
+we need technologies that allow cars to respond
+
+6
+0:00:22.175,000 --> 0:00:23,000
+faster than humans,
+
+7
+0:00:23.466,000 --> 0:00:26,000
+we need algorithms that can drive better than humans
+
+8
+0:00:27.204,000 --> 0:00:31,000
+and we need cameras that can see more than humans can see.
+
+9
+0:00:32.061,000 --> 0:00:36,000
+For example, imagine a self-driving car is about to make a blind turn,
+
+10
+0:00:36.815,000 --> 0:00:37,000
+and there's an oncoming car
+
+11
+0:00:38.173,000 --> 0:00:4,000
+or perhaps there's a child about to run into the street.
+
+12
+0:00:41.458,000 --> 0:00:44,000
+Fortunately, our future car will have this superpower,
+
+13
+0:00:45.046,000 --> 0:00:49,000
+a camera that can see around corners to detect these potential hazards.
+
+14
+0:00:49.876,000 --> 0:00:51,000
+For the past few years as a PhD student
+
+15
+0:00:51.979,000 --> 0:00:53,000
+in the Stanford Computational Imaging Lab,
+
+16
+0:00:54.28,000 --> 0:00:56,000
+I've been working on a camera that can do just this --
+
+17
+0:00:57.058,000 --> 0:01:,000
+a camera that can image objects hidden around corners
+
+18
+0:01:00.48,000 --> 0:01:02,000
+or blocked from direct line of sight.
+
+19
+0:01:03.276,000 --> 0:01:06,000
+So let me give you an example of what our camera can see.
+
+20
+0:01:06.752,000 --> 0:01:08,000
+This is an outdoor experiment we conducted
+
+21
+0:01:09.339,000 --> 0:01:12,000
+where our camera system is scanning the side of this building with a laser,
+
+22
+0:01:13.173,000 --> 0:01:14,000
+and the scene that we want to capture
+
+23
+0:01:15.157,000 --> 0:01:17,000
+is hidden around the corner behind this curtain.
+
+24
+0:01:18.141,000 --> 0:01:2,000
+So our camera system can't actually see it directly.
+
+25
+0:01:21.561,000 --> 0:01:22,000
+And yet, somehow,
+
+26
+0:01:22.753,000 --> 0:01:26,000
+our camera can still capture the 3D geometry of this scene.
+
+27
+0:01:27.704,000 --> 0:01:28,000
+So how do we do this?
+
+28
+0:01:29.498,000 --> 0:01:31,000
+The magic happens here in this camera system.
+
+29
+0:01:32.244,000 --> 0:01:35,000
+You can think of this as a type of high-speed camera.
+
+30
+0:01:35.593,000 --> 0:01:38,000
+Not one that operates at 1,000 frames per second,
+
+31
+0:01:39.087,000 --> 0:01:41,000
+or even a million frames per second,
+
+32
+0:01:41.856,000 --> 0:01:43,000
+but a trillion frames per second.
+
+33
+0:01:45.023,000 --> 0:01:49,000
+So fast that it can actually capture the movement of light itself.
+
+34
+0:01:50.652,000 --> 0:01:53,000
+And to give you an example of just how fast light travels,
+
+35
+0:01:54.319,000 --> 0:01:58,000
+let's compare it to the speed of a fast-running comic book superhero
+
+36
+0:01:58.628,000 --> 0:02:,000
+who can move at up to three times the speed of sound.
+
+37
+0:02:02.201,000 --> 0:02:06,000
+It takes a pulse of light about 3.3 billionths of a second,
+
+38
+0:02:06.424,000 --> 0:02:07,000
+or 3.3 nanoseconds,
+
+39
+0:02:08.321,000 --> 0:02:1,000
+to travel the distance of a meter.
+
+40
+0:02:10.474,000 --> 0:02:11,000
+Well, in that same time,
+
+41
+0:02:12.433,000 --> 0:02:15,000
+our superhero has moved less than the width of a human hair.
+
+42
+0:02:16.633,000 --> 0:02:17,000
+That's pretty fast.
+
+43
+0:02:18.306,000 --> 0:02:2,000
+But actually, we need to image much faster
+
+44
+0:02:20.784,000 --> 0:02:23,000
+if we want to capture light moving at subcentimeter scales.
+
+45
+0:02:24.784,000 --> 0:02:26,000
+So our camera system can capture photons
+
+46
+0:02:27.305,000 --> 0:02:3,000
+at time frames of just 50 trillionths of a second,
+
+47
+0:02:30.845,000 --> 0:02:31,000
+or 50 picoseconds.
+
+48
+0:02:33.821,000 --> 0:02:35,000
+So we take this ultra-high-speed camera
+
+49
+0:02:36.347,000 --> 0:02:39,000
+and we pair it with a laser that sends out short pulses of light.
+
+50
+0:02:40.553,000 --> 0:02:42,000
+Each pulse travels to this visible wall
+
+51
+0:02:43.212,000 --> 0:02:45,000
+and some light scatters back to our camera,
+
+52
+0:02:45.363,000 --> 0:02:48,000
+but we also use the wall to scatter light around the corner
+
+53
+0:02:48.603,000 --> 0:02:49,000
+to the hidden object and back.
+
+54
+0:02:51.363,000 --> 0:02:53,000
+We repeat this measurement many times
+
+55
+0:02:53.625,000 --> 0:02:55,000
+to capture the arrival times of many photons
+
+56
+0:02:56.189,000 --> 0:02:58,000
+from different locations on the wall.
+
+57
+0:02:58.3,000 --> 0:03:,000
+And after we capture these measurements, we can create
+
+58
+0:03:01.18,000 --> 0:03:03,000
+a trillion-frame-per-second video of the wall.
+
+59
+0:03:04.371,000 --> 0:03:07,000
+While this wall may look ordinary to our own eyes,
+
+60
+0:03:07.403,000 --> 0:03:11,000
+at a trillion frames per second, we can see something truly incredible.
+
+61
+0:03:12.275,000 --> 0:03:16,000
+We can actually see waves of light scattered back from the hidden scene
+
+62
+0:03:16.666,000 --> 0:03:18,000
+and splashing against the wall.
+
+63
+0:03:19.063,000 --> 0:03:21,000
+And each of these waves carries information
+
+64
+0:03:22.039,000 --> 0:03:24,000
+about the hidden object that sent it.
+
+65
+0:03:24.341,000 --> 0:03:25,000
+So we can take these measurements
+
+66
+0:03:26.046,000 --> 0:03:28,000
+and pass them into a reconstruction algorithm
+
+67
+0:03:28.569,000 --> 0:03:31,000
+to then recover the 3D geometry of this hidden scene.
+
+68
+0:03:33.379,000 --> 0:03:36,000
+Now I want to show you one more example of an indoor scene that we captured,
+
+69
+0:03:37.213,000 --> 0:03:4,000
+this time with a variety of different hidden objects.
+
+70
+0:03:40.347,000 --> 0:03:42,000
+And these objects have different appearances,
+
+71
+0:03:42.498,000 --> 0:03:43,000
+so they reflect light differently.
+
+72
+0:03:44.355,000 --> 0:03:47,000
+For example, this glossy dragon statue reflects light differently
+
+73
+0:03:48.133,000 --> 0:03:49,000
+than the mirror disco ball
+
+74
+0:03:49.934,000 --> 0:03:51,000
+or the white discus thrower statue.
+
+75
+0:03:52.998,000 --> 0:03:55,000
+And we can actually see the differences in the reflected light
+
+76
+0:03:56.441,000 --> 0:03:58,000
+by visualizing it as this 3D volume,
+
+77
+0:03:59.306,000 --> 0:04:02,000
+where we've just taken the video frames and stacked them together.
+
+78
+0:04:02.64,000 --> 0:04:06,000
+And time here is represented as the depth dimension of this cube.
+
+79
+0:04:07.914,000 --> 0:04:1,000
+These bright dots that you see are reflections of light
+
+80
+0:04:11.129,000 --> 0:04:13,000
+from each of the mirrored facets of the disco ball,
+
+81
+0:04:13.699,000 --> 0:04:15,000
+scattering against the wall over time.
+
+82
+0:04:16.422,000 --> 0:04:19,000
+The bright streaks of light that you see arriving soonest in time
+
+83
+0:04:19.982,000 --> 0:04:22,000
+are from the glossy dragon statue that's closest to the wall,
+
+84
+0:04:23.966,000 --> 0:04:26,000
+and the other streaks of light come from reflections of light from the bookcase
+
+85
+0:04:27.791,000 --> 0:04:28,000
+and from the statue.
+
+86
+0:04:29.727,000 --> 0:04:32,000
+Now, we can also visualize these measurements frame by frame,
+
+87
+0:04:33.638,000 --> 0:04:34,000
+as a video,
+
+88
+0:04:34.854,000 --> 0:04:35,000
+to directly see the scattered light.
+
+89
+0:04:37.461,000 --> 0:04:4,000
+And again, here we see, first, reflections of light from the dragon,
+
+90
+0:04:41.104,000 --> 0:04:42,000
+closest to the wall,
+
+91
+0:04:42.374,000 --> 0:04:45,000
+followed by bright dots from the disco ball
+
+92
+0:04:45.787,000 --> 0:04:47,000
+and other reflections from the bookcase.
+
+93
+0:04:48.53,000 --> 0:04:52,000
+And finally, we see the reflected waves of light from the statue.
+
+94
+0:04:53.84,000 --> 0:04:55,000
+These waves of light illuminating the wall
+
+95
+0:04:56.657,000 --> 0:05:,000
+are like fireworks that last for just trillionths of a second.
+
+96
+0:05:05.649,000 --> 0:05:08,000
+And even though these objects reflect light differently,
+
+97
+0:05:08.919,000 --> 0:05:1,000
+we can still reconstruct their shapes.
+
+98
+0:05:11.577,000 --> 0:05:13,000
+And this is what you can see from around the corner.
+
+99
+0:05:15.547,000 --> 0:05:18,000
+Now, I want to show you one more example that's slightly different.
+
+100
+0:05:19,000 --> 0:05:22,000
+In this video, you see me dressed in this reflective suit
+
+101
+0:05:22.404,000 --> 0:05:26,000
+and our camera system is scanning the wall at a rate of four times every second.
+
+102
+0:05:27.173,000 --> 0:05:28,000
+The suit is reflective,
+
+103
+0:05:28.411,000 --> 0:05:3,000
+so we can actually capture enough photons
+
+104
+0:05:31.093,000 --> 0:05:34,000
+that we can see where I am and what I'm doing,
+
+105
+0:05:34.665,000 --> 0:05:36,000
+without the camera actually directly imaging me.
+
+106
+0:05:37.586,000 --> 0:05:41,000
+By capturing photons that scatter from the wall to my tracksuit,
+
+107
+0:05:42.149,000 --> 0:05:44,000
+back to the wall and back to the camera,
+
+108
+0:05:44.307,000 --> 0:05:47,000
+we can capture this indirect video in real time.
+
+109
+0:05:48.954,000 --> 0:05:51,000
+And we think that this type of practical non-line-of-sight imaging
+
+110
+0:05:52.184,000 --> 0:05:55,000
+could be useful for applications including for self-driving cars,
+
+111
+0:05:55.934,000 --> 0:05:57,000
+but also for biomedical imaging,
+
+112
+0:05:58.053,000 --> 0:06:01,000
+where we need to see into the tiny structures of the body.
+
+113
+0:06:01.974,000 --> 0:06:04,000
+And perhaps we could also put similar camera systems on the robots
+
+114
+0:06:05.499,000 --> 0:06:07,000
+that we send to explore other planets.
+
+115
+0:06:08.839,000 --> 0:06:1,000
+Now you may have heard about seeing around corners before,
+
+116
+0:06:11.625,000 --> 0:06:13,000
+but what I showed you today would have been impossible
+
+117
+0:06:14.223,000 --> 0:06:15,000
+just two years ago.
+
+118
+0:06:15.411,000 --> 0:06:18,000
+For example, we can now image large, room-sized hidden scenes outdoors
+
+119
+0:06:19.292,000 --> 0:06:2,000
+and at real-time rates,
+
+120
+0:06:21.165,000 --> 0:06:25,000
+and we've made significant advancements towards making this a practical technology
+
+121
+0:06:25.546,000 --> 0:06:27,000
+that you could actually see on a car someday.
+
+122
+0:06:28.156,000 --> 0:06:3,000
+But of course, there's still challenges remaining.
+
+123
+0:06:30.76,000 --> 0:06:34,000
+For example, can we image hidden scenes at long distances
+
+124
+0:06:34.847,000 --> 0:06:37,000
+where we're collecting very, very few photons,
+
+125
+0:06:38.014,000 --> 0:06:41,000
+with lasers that are low-power and that are eye-safe.
+
+126
+0:06:41.641,000 --> 0:06:43,000
+Or can we create images from photons
+
+127
+0:06:44,000 --> 0:06:46,000
+that have scattered around many more times
+
+128
+0:06:46.053,000 --> 0:06:48,000
+than just a single bounce around the corner?
+
+129
+0:06:48.68,000 --> 0:06:52,000
+Can we take our prototype system that's, well, currently large and bulky,
+
+130
+0:06:53.347,000 --> 0:06:55,000
+and miniaturize it into something that could be useful
+
+131
+0:06:55.911,000 --> 0:06:56,000
+for biomedical imaging
+
+132
+0:06:57.134,000 --> 0:07:,000
+or perhaps a sort of improved home-security system,
+
+133
+0:07:00.244,000 --> 0:07:05,000
+or can we take this new imaging modality and use it for other applications?
+
+134
+0:07:05.78,000 --> 0:07:06,000
+I think it's an exciting new technology
+
+135
+0:07:07.693,000 --> 0:07:09,000
+and there could be other things that we haven't thought of yet
+
+136
+0:07:10.645,000 --> 0:07:11,000
+to use it for.
+
+137
+0:07:11.843,000 --> 0:07:13,000
+And so, well, a future with self-driving cars
+
+138
+0:07:14.412,000 --> 0:07:16,000
+may seem distant to us now --
+
+139
+0:07:16.602,000 --> 0:07:17,000
+we're already developing the technologies
+
+140
+0:07:18.603,000 --> 0:07:2,000
+that could make cars safer and more intelligent.
+
+141
+0:07:21.698,000 --> 0:07:24,000
+And with the rapid pace of scientific discovery and innovation,
+
+142
+0:07:25.024,000 --> 0:07:28,000
+you never know what new and exciting capabilities
+
+143
+0:07:28.095,000 --> 0:07:3,000
+could be just around the corner.
+
+144
+0:07:30.81,000 --> 0:07:32,000
+(Applause)
+

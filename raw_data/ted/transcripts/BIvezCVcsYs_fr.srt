@@ -1,0 +1,1096 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Younes Amraoui Relecteur: Claire Ghyselen
+
+2
+0:00:13.256,000 --> 0:00:14,000
+Dans le film « Interstellar »,
+
+3
+0:00:15.14,000 --> 0:00:18,000
+nous voyons de très près un trou noir supermassif.
+
+4
+0:00:18.491,000 --> 0:00:2,000
+Sur un fond de gaz vif,
+
+5
+0:00:20.634,000 --> 0:00:22,000
+la force gravitationnelle massive du trou noir
+
+6
+0:00:22.812,000 --> 0:00:23,000
+courbe la lumière en un cercle.
+
+7
+0:00:24.305,000 --> 0:00:26,000
+Ce n'est cependant pas une vraie photo,
+
+8
+0:00:26.368,000 --> 0:00:27,000
+mais un rendu graphique par ordinateur —
+
+9
+0:00:28.224,000 --> 0:00:31,000
+une interprétation artistique d'un trou noir.
+
+10
+0:00:32.221,000 --> 0:00:33,000
+Il y a 100 ans,
+
+11
+0:00:33.411,000 --> 0:00:36,000
+Albert Einstein a publié sa théorie de la relativité générale.
+
+12
+0:00:37.036,000 --> 0:00:38,000
+Au cours des années suivantes,
+
+13
+0:00:38.475,000 --> 0:00:41,000
+beaucoup de preuves qui appuient cette théorie ont été fournies.
+
+14
+0:00:41.496,000 --> 0:00:44,000
+Mais les trous noirs, un élément prédit dans cette théorie,
+
+15
+0:00:44.604,000 --> 0:00:46,000
+n'ont toujours pas été observés directement.
+
+16
+0:00:46.978,000 --> 0:00:49,000
+Même si nous avons une idée de ce à quoi un trou noir ressemble,
+
+17
+0:00:50.208,000 --> 0:00:52,000
+nous n'en avons jamais photographié.
+
+18
+0:00:53.011,000 --> 0:00:57,000
+Toutefois, vous serez surpris d'apprendre que ça pourrait bientôt changer.
+
+19
+0:00:57.314,000 --> 0:01:01,000
+Nous verrons peut-être la première photo d'un trou noir d'ici quelques années.
+
+20
+0:01:01.502,000 --> 0:01:04,000
+Prendre cette première photo dépendra d'une équipe scientifique internationale,
+
+21
+0:01:05.34,000 --> 0:01:06,000
+d'un télescope de la taille de la Terre,
+
+22
+0:01:07.287,000 --> 0:01:09,000
+et d'un algorithme qui assemble l'image finale.
+
+23
+0:01:09.931,000 --> 0:01:12,000
+Bien que je ne puisse pas vous montrer une vraie image d'un trou noir,
+
+24
+0:01:13.483,000 --> 0:01:15,000
+j'aimerais vous esquisser un aperçu de l'effort nécessaire
+
+25
+0:01:16.418,000 --> 0:01:17,000
+pour prendre cette photo.
+
+26
+0:01:19.297,000 --> 0:01:2,000
+Je m'appelle Katie Bouman,
+
+27
+0:01:20.758,000 --> 0:01:22,000
+et je suis doctorante au MIT.
+
+28
+0:01:23.324,000 --> 0:01:25,000
+Je fais de la recherche dans un labo informatique
+
+29
+0:01:25.651,000 --> 0:01:28,000
+dédié à l'interprétation d'images et vidéos par les ordinateurs.
+
+30
+0:01:28.721,000 --> 0:01:3,000
+Bien que je ne sois pas une astronome,
+
+31
+0:01:30.907,000 --> 0:01:31,000
+j'aimerais vous montrer
+
+32
+0:01:32.026,000 --> 0:01:35,000
+comment j'ai pu contribuer à ce projet fascinant.
+
+33
+0:01:35.143,000 --> 0:01:37,000
+Si vous vous éloignez des vives lumières de la ville,
+
+34
+0:01:37.974,000 --> 0:01:39,000
+vous aurez peut-être la chance de voir une vue spectaculaire
+
+35
+0:01:40.784,000 --> 0:01:41,000
+de la Voie Lactée.
+
+36
+0:01:41.975,000 --> 0:01:43,000
+Si vous pouviez zoomer sur les millions d'étoiles,
+
+37
+0:01:44.461,000 --> 0:01:47,000
+26 000 années-lumière vers le cœur de la spirale de la Voie Lactée,
+
+38
+0:01:48.24,000 --> 0:01:51,000
+nous atteindrions un amas d'étoiles au centre.
+
+39
+0:01:51.741,000 --> 0:01:54,000
+Scrutant au-delà de la poussière galactique avec des télescopes infrarouges,
+
+40
+0:01:55.267,000 --> 0:01:58,000
+les astronomes observent ces étoiles depuis plus de 16 ans.
+
+41
+0:01:58.906,000 --> 0:02:01,000
+Mais c'est ce qu'ils ne voient pas qui est le plus spectaculaire.
+
+42
+0:02:02.519,000 --> 0:02:05,000
+Ces étoiles ont l'air de graviter autour d'un objet invisible.
+
+43
+0:02:05.609,000 --> 0:02:07,000
+En suivant les parcours de ces étoiles,
+
+44
+0:02:07.956,000 --> 0:02:08,000
+les astronomes ont conclu
+
+45
+0:02:09.25,000 --> 0:02:12,000
+que la seule chose suffisamment petite et lourde pour causer ce mouvement
+
+46
+0:02:12.719,000 --> 0:02:13,000
+est un trou noir supermassif —
+
+47
+0:02:14.419,000 --> 0:02:18,000
+un objet si dense qu'il aspire tout ce qui s'aventure trop près —
+
+48
+0:02:18.621,000 --> 0:02:19,000
+même la lumière.
+
+49
+0:02:20.139,000 --> 0:02:23,000
+Que se passe-t-il si nous nous approchons encore plus près ?
+
+50
+0:02:23.224,000 --> 0:02:27,000
+Est-ce possible de voir quelque chose qui, par définition, est impossible à voir ?
+
+51
+0:02:28.539,000 --> 0:02:31,000
+Il s'avère que si nous faisions un zoom des ondes radio,
+
+52
+0:02:31.783,000 --> 0:02:32,000
+nous devrions voir un cercle de lumière
+
+53
+0:02:33.665,000 --> 0:02:35,000
+causé par une lentille gravitationnelle du plasma chaud
+
+54
+0:02:36.304,000 --> 0:02:37,000
+se déplaçant autour du trou noir.
+
+55
+0:02:37.887,000 --> 0:02:38,000
+En d'autres mots,
+
+56
+0:02:38.985,000 --> 0:02:41,000
+le trou noir jette une ombre sur ce fond de matière lumineuse,
+
+57
+0:02:42.18,000 --> 0:02:43,000
+creusant une sphère d'obscurité.
+
+58
+0:02:44.046,000 --> 0:02:47,000
+Ce cercle lumineux révèle l'horizon des événements du trou noir,
+
+59
+0:02:47.409,000 --> 0:02:49,000
+où la force gravitationnelle devient si puissante
+
+60
+0:02:49.809,000 --> 0:02:51,000
+que même la lumière ne peut pas s'en échapper.
+
+61
+0:02:51.959,000 --> 0:02:54,000
+Les équations d'Einstein prédisent la taille et la forme de ce cercle.
+
+62
+0:02:55.254,000 --> 0:02:57,000
+En prendre la photo serait génial,
+
+63
+0:02:57.518,000 --> 0:02:59,000
+et pourrait aussi aider à vérifier la teneur de ces équations
+
+64
+0:03:00.426,000 --> 0:03:02,000
+dans les conditions extrêmes autour du trou noir.
+
+65
+0:03:02.756,000 --> 0:03:04,000
+Toutefois, ce trou noir est si loin de nous
+
+66
+0:03:05.312,000 --> 0:03:08,000
+que depuis la Terre, ce cercle apparaît incroyablement petit —
+
+67
+0:03:08.434,000 --> 0:03:11,000
+de la même taille qu'une orange sur la surface de la Lune.
+
+68
+0:03:12.578,000 --> 0:03:14,000
+Sa distance rend sa prise en photo extrêmement difficile.
+
+69
+0:03:16.465,000 --> 0:03:17,000
+Pourquoi ça ?
+
+70
+0:03:18.332,000 --> 0:03:21,000
+Tout cela ne dépend que d'une simple équation.
+
+71
+0:03:21.544,000 --> 0:03:23,000
+En raison d'un phénomène appelé la diffraction,
+
+72
+0:03:23.96,000 --> 0:03:24,000
+il existe des limites fondamentales
+
+73
+0:03:25.635,000 --> 0:03:27,000
+aux plus petits objets que nous sommes en mesure de voir.
+
+74
+0:03:28.613,000 --> 0:03:31,000
+L'équation principale dit qu'afin de voir de plus en plus petit,
+
+75
+0:03:32.281,000 --> 0:03:34,000
+nous devons fabriquer un télescope de plus en plus grand.
+
+76
+0:03:34.958,000 --> 0:03:37,000
+Mais même avec les télescopes optiques les plus puissants sur Terre,
+
+77
+0:03:38.165,000 --> 0:03:4,000
+nous sommes encore si loin de la résolution nécessaire
+
+78
+0:03:40.738,000 --> 0:03:41,000
+afin d'imager la surface de la Lune.
+
+79
+0:03:42.69,000 --> 0:03:45,000
+Voici l'une des images à plus haute résolution qui a été prise
+
+80
+0:03:46.205,000 --> 0:03:47,000
+de la Lune à partir de la Terre.
+
+81
+0:03:47.752,000 --> 0:03:49,000
+Elle contient à peu près 13 000 pixels,
+
+82
+0:03:50.317,000 --> 0:03:54,000
+et pourtant, chaque pixel contiendrait plus d'un million et demi d'oranges.
+
+83
+0:03:55.216,000 --> 0:03:57,000
+Quelle taille notre télescope devrait-il avoir
+
+84
+0:03:57.358,000 --> 0:03:59,000
+pour voir une orange sur la surface de la Lune,
+
+85
+0:04:00.001,000 --> 0:04:02,000
+et par extension, notre trou noir ?
+
+86
+0:04:02.239,000 --> 0:04:03,000
+Il s'avère qu'en faisant des calculs,
+
+87
+0:04:04.199,000 --> 0:04:07,000
+on peut déterminer qu'un télescope de la taille de la Terre entière
+
+88
+0:04:07.389,000 --> 0:04:08,000
+serait nécessaire.
+
+89
+0:04:08.654,000 --> 0:04:09,000
+(Rires)
+
+90
+0:04:09.678,000 --> 0:04:11,000
+Si nous pouvions construire un tel télescope,
+
+91
+0:04:11.775,000 --> 0:04:13,000
+nous pourrions commencer à distinguer ce cercle de lumière
+
+92
+0:04:14.77,000 --> 0:04:16,000
+indiquant l'horizon des événements du trou noir.
+
+93
+0:04:17.013,000 --> 0:04:19,000
+Tous les détails que nous voyons dans un rendu par ordinateur
+
+94
+0:04:19.943,000 --> 0:04:2,000
+ne seront pas visibles,
+
+95
+0:04:21.473,000 --> 0:04:23,000
+mais nous pourrions avoir notre premier aperçu
+
+96
+0:04:23.796,000 --> 0:04:25,000
+de l'environnement immédiat d'un trou noir.
+
+97
+0:04:26.283,000 --> 0:04:27,000
+Mais comme vous pouvez l'imaginer,
+
+98
+0:04:27.944,000 --> 0:04:3,000
+la construction d'un télescope de la taille de la Terre est impossible.
+
+99
+0:04:31.592,000 --> 0:04:32,000
+Pour citer Mick Jagger :
+
+100
+0:04:33.503,000 --> 0:04:34,000
+« On n'a pas toujours ce qu'on veux,
+
+101
+0:04:35.318,000 --> 0:04:37,000
+mais si on essaie, on peut s'apercevoir
+
+102
+0:04:37.325,000 --> 0:04:38,000
+qu'on a reçu ce dont on a besoin. »
+
+103
+0:04:38.99,000 --> 0:04:4,000
+En connectant les télescopes du monde entier,
+
+104
+0:04:41.256,000 --> 0:04:44,000
+une collaboration internationale appelée l'Event Horizon Telescope
+
+105
+0:04:44.614,000 --> 0:04:47,000
+est en train de créer un télescope informatique de la taille de la Terre
+
+106
+0:04:48.013,000 --> 0:04:49,000
+capable d'élucider la structure
+
+107
+0:04:49.488,000 --> 0:04:51,000
+à l'échelle de l'horizon des événements d'un trou noir.
+
+108
+0:04:52.067,000 --> 0:04:55,000
+Il est prévu que ce réseau prenne la toute première photo
+
+109
+0:04:55.146,000 --> 0:04:56,000
+d'un trou noir l'an prochain.
+
+110
+0:04:56.985,000 --> 0:04:59,000
+Chaque télescope dans ce réseau mondial travaille ensemble.
+
+111
+0:05:00.347,000 --> 0:05:02,000
+Liés par la précision des horloges atomiques,
+
+112
+0:05:03.059,000 --> 0:05:06,000
+des équipes de chercheurs figent la lumière de chaque point de vue
+
+113
+0:05:06.156,000 --> 0:05:08,000
+en collectant des milliers de téraoctets d'informations.
+
+114
+0:05:08.786,000 --> 0:05:12,000
+Cette information est alors traitée ici, dans un laboratoire du Massachusetts.
+
+115
+0:05:13.791,000 --> 0:05:14,000
+Alors comment ça marche ?
+
+116
+0:05:15.585,000 --> 0:05:18,000
+Si nous voulons apercevoir le trou noir au centre de notre galaxie,
+
+117
+0:05:19.036,000 --> 0:05:21,000
+nous devons construire un télescope impossiblement grand.
+
+118
+0:05:22.018,000 --> 0:05:24,000
+Prétendons un instant que nous pouvons construire
+
+119
+0:05:24.32,000 --> 0:05:25,000
+un télescope de la taille de la Terre.
+
+120
+0:05:26.164,000 --> 0:05:28,000
+Ce serait un peu comme transformer la Terre
+
+121
+0:05:28.643,000 --> 0:05:29,000
+en une boule disco géante.
+
+122
+0:05:30.414,000 --> 0:05:32,000
+Chaque miroir collecterait la lumière
+
+123
+0:05:32.614,000 --> 0:05:34,000
+que nous assemblerions ensuite pour fabriquer une image.
+
+124
+0:05:35.271,000 --> 0:05:37,000
+Prétendons que nous retirons la plupart de ces miroirs
+
+125
+0:05:37.944,000 --> 0:05:38,000
+afin qu'il n'en reste que quelques-uns.
+
+126
+0:05:39.94,000 --> 0:05:41,000
+Nous pourrions toujours essayer d'assembler cette information
+
+127
+0:05:42.841,000 --> 0:05:43,000
+mais maintenant, il y a beaucoup de trous.
+
+128
+0:05:44.858,000 --> 0:05:48,000
+Ces miroirs restants représentent les endroits où nous avons des télescopes.
+
+129
+0:05:49.255,000 --> 0:05:53,000
+C'est un nombre de mesures vraiment petit pour pouvoir en faire une photo.
+
+130
+0:05:53.358,000 --> 0:05:56,000
+Bien que nous ne collections la lumière qu'en certains endroits,
+
+131
+0:05:57.22,000 --> 0:06:,000
+la Terre tourne et nous pouvons obtenir d'autres nouvelles mesures.
+
+132
+0:06:00.667,000 --> 0:06:03,000
+En d'autres mots, quand la boule disco tourne, ces miroirs changent de place
+
+133
+0:06:04.51,000 --> 0:06:06,000
+et nous pouvons observer différentes parties de l'image.
+
+134
+0:06:07.433,000 --> 0:06:11,000
+Des algorithmes de traitement d'image comblent les lacunes de la boule disco
+
+135
+0:06:11.475,000 --> 0:06:14,000
+afin de reconstruire l'image sous-jacente du trou noir.
+
+136
+0:06:14.532,000 --> 0:06:16,000
+Si nous avions des télescopes partout dans le monde —
+
+137
+0:06:17.192,000 --> 0:06:18,000
+ou bien la boule disco dans sa totalité —
+
+138
+0:06:19.133,000 --> 0:06:2,000
+cette recherche serait futile.
+
+139
+0:06:20.597,000 --> 0:06:23,000
+Mais nous n'obtenons que quelques échantillons, et pour cette raison,
+
+140
+0:06:23.847,000 --> 0:06:25,000
+il existe un nombre infini d'images possibles
+
+141
+0:06:26.223,000 --> 0:06:28,000
+tout à fait cohérentes avec les mesures du télescope.
+
+142
+0:06:29.211,000 --> 0:06:32,000
+Cependant, ces images ne sont pas toutes égales.
+
+143
+0:06:32.669,000 --> 0:06:36,000
+Certaines ressemblent plus à l'idée que nous avons des images que d'autres.
+
+144
+0:06:37.151,000 --> 0:06:39,000
+En aidant à prendre la première photo d'un trou noir,
+
+145
+0:06:39.647,000 --> 0:06:42,000
+mon rôle est de créer des algorithmes qui trouvent l'image la plus raisonnable
+
+146
+0:06:43.329,000 --> 0:06:45,000
+qui corresponde aussi aux mesures du télescope.
+
+147
+0:06:46.547,000 --> 0:06:49,000
+Tout comme un portraitiste judiciaire utilise des descriptions limitées
+
+148
+0:06:50.513,000 --> 0:06:53,000
+pour composer une image à l'aide de son savoir en structure faciale,
+
+149
+0:06:54.051,000 --> 0:06:57,000
+mes algorithmes utilisent notre information télescopique limitée
+
+150
+0:06:57.39,000 --> 0:07:01,000
+pour nous guider vers une image qui ressemble à ce qu'il y a dans l'univers.
+
+151
+0:07:01.736,000 --> 0:07:04,000
+À l'aide de ces algorithmes, nous pouvons assembler des images
+
+152
+0:07:05.387,000 --> 0:07:07,000
+à partir de cette information bruyante et rare.
+
+153
+0:07:07.615,000 --> 0:07:11,000
+Voici un exemple d'une reconstruction faite avec de l'information simulée
+
+154
+0:07:12.144,000 --> 0:07:14,000
+quand nous prétendons diriger nos télescopes
+
+155
+0:07:14.197,000 --> 0:07:16,000
+vers le trou noir au centre de notre galaxie.
+
+156
+0:07:16.734,000 --> 0:07:2,000
+Bien que ce ne soit qu'une simulation, une telle reconstruction donne l'espoir
+
+157
+0:07:21.189,000 --> 0:07:24,000
+qu'il sera bientôt possible de prendre la première vraie image d'un trou noir
+
+158
+0:07:24.812,000 --> 0:07:27,000
+à partir de laquelle nous pourrons déterminer son diamètre.
+
+159
+0:07:27.985,000 --> 0:07:3,000
+Bien que j'adorerais continuer à parler des détails de l'algorithme,
+
+160
+0:07:31.197,000 --> 0:07:33,000
+heureusement pour vous, je n'ai pas le temps.
+
+161
+0:07:33.359,000 --> 0:07:35,000
+J'aimerais quand même vous donner une idée
+
+162
+0:07:35.36,000 --> 0:07:37,000
+comment nous déterminons à quoi notre univers ressemble
+
+163
+0:07:37.932,000 --> 0:07:41,000
+et comment nous utilisons ça pour reconstruire et vérifier nos résultats.
+
+164
+0:07:42.2,000 --> 0:07:44,000
+Comme il existe un nombre infini d'images possibles
+
+165
+0:07:44.696,000 --> 0:07:46,000
+qui explique parfaitement les mesures des télescopes,
+
+166
+0:07:47.181,000 --> 0:07:49,000
+nous devons choisir entre elles en quelque sorte.
+
+167
+0:07:49.714,000 --> 0:07:5,000
+Ce choix est fait en classant les images
+
+168
+0:07:51.632,000 --> 0:07:53,000
+suivant la probabilité qu'elles soient l'image du trou noir,
+
+169
+0:07:54.464,000 --> 0:07:56,000
+puis en choisissant celle qui semble la plus probable.
+
+170
+0:07:56.99,000 --> 0:07:58,000
+Qu'est-ce que je veux dire exactement ?
+
+171
+0:07:59.682,000 --> 0:08:01,000
+Disons que nous essayons de créer un modèle
+
+172
+0:08:01.69,000 --> 0:08:04,000
+qui nous donne la probabilité d'apparition d'une image sur Facebook.
+
+173
+0:08:04.891,000 --> 0:08:05,000
+Nous voudrions que le modèle dise
+
+174
+0:08:06.616,000 --> 0:08:09,000
+qu'il est peu probable que quelqu'un poste cette image confuse à gauche,
+
+175
+0:08:10.197,000 --> 0:08:12,000
+et plutôt probable que quelqu'un poste un selfie,
+
+176
+0:08:12.64,000 --> 0:08:13,000
+comme celle de droite.
+
+177
+0:08:13.998,000 --> 0:08:14,000
+L'image du milieu est floue,
+
+178
+0:08:15.661,000 --> 0:08:17,000
+et bien qu'il soit plus probable de la voir sur Facebook
+
+179
+0:08:18.3,000 --> 0:08:19,000
+comparée à l'image brouillée,
+
+180
+0:08:19.76,000 --> 0:08:21,000
+il est peu probable que nous la voyions comparée au selfie.
+
+181
+0:08:22.692,000 --> 0:08:24,000
+Mais quand il s'agit des images du trou noir,
+
+182
+0:08:24.982,000 --> 0:08:27,000
+nous faisons face à un vrai dilemme : nous n'avons jamais vu de trou noir.
+
+183
+0:08:28.604,000 --> 0:08:3,000
+A quoi doit ressembler une image d'un trou noir
+
+184
+0:08:30.847,000 --> 0:08:32,000
+et que devrions-nous supposer de la structure de ceux-ci ?
+
+185
+0:08:33.785,000 --> 0:08:35,000
+Nous pourrions utiliser des images de simulations précédentes,
+
+186
+0:08:36.697,000 --> 0:08:38,000
+comme celle du trou noir d'« Interstellar »,
+
+187
+0:08:39.019,000 --> 0:08:41,000
+ce qui pourrait causer de sérieux problèmes.
+
+188
+0:08:41.981,000 --> 0:08:44,000
+Que se passerait-il si les théories d'Einstein s'avéraient fausses ?
+
+189
+0:08:45.385,000 --> 0:08:48,000
+Nous voudrions quand même reconstruire une image fidèle de ce qui se passe.
+
+190
+0:08:49.37,000 --> 0:08:52,000
+Si nos algorithmes s'appuient trop sur les équations d'Einstein,
+
+191
+0:08:52.765,000 --> 0:08:54,000
+nous ne finirons que par voir ce que nous espérons voir.
+
+192
+0:08:55.544,000 --> 0:08:57,000
+Nous voulons laisser la porte ouverte
+
+193
+0:08:57.844,000 --> 0:08:59,000
+à la présence d'un éléphant géant au centre de notre galaxie.
+
+194
+0:09:00.791,000 --> 0:09:01,000
+(Rires)
+
+195
+0:09:01.872,000 --> 0:09:03,000
+Des types différents d'images ont des traits très particuliers.
+
+196
+0:09:04.861,000 --> 0:09:07,000
+On peut facilement faire la différence entre les images simulées d'un trou noir
+
+197
+0:09:08.569,000 --> 0:09:1,000
+et celles que nous prenons tous les jours sur Terre.
+
+198
+0:09:10.993,000 --> 0:09:12,000
+Il nous faut une façon de dire à nos algorithmes
+
+199
+0:09:13.253,000 --> 0:09:14,000
+à quoi les images ressemblent
+
+200
+0:09:14.661,000 --> 0:09:17,000
+sans trop imposer un type de caractéristique d'image.
+
+201
+0:09:17.694,000 --> 0:09:18,000
+Nous pourrions contourner ce problème
+
+202
+0:09:19.602,000 --> 0:09:22,000
+en imposant les caractéristiques de différents types d'images
+
+203
+0:09:22.688,000 --> 0:09:26,000
+et voir comment ces genres d'images influencent nos reconstructions.
+
+204
+0:09:27.532,000 --> 0:09:3,000
+Si tous les types d'images produisent une image très similaire,
+
+205
+0:09:31.023,000 --> 0:09:33,000
+nous pouvons donc gagner confiance sur le fait
+
+206
+0:09:33.19,000 --> 0:09:37,000
+que nos hypothèses ne biaisent pas tellement la photo.
+
+207
+0:09:37.325,000 --> 0:09:39,000
+C'est un peu comme donner la même description
+
+208
+0:09:40.339,000 --> 0:09:42,000
+à trois dessinateurs autour du monde.
+
+209
+0:09:43.359,000 --> 0:09:45,000
+S'ils produisent un visage très similaire,
+
+210
+0:09:46.243,000 --> 0:09:47,000
+nous pouvons alors être certains
+
+211
+0:09:48.06,000 --> 0:09:51,000
+qu'ils n'imposent pas leur propre subjectivité culturelle aux dessins.
+
+212
+0:09:51.7,000 --> 0:09:54,000
+Un moyen pour imposer des caractéristiques d'image différentes
+
+213
+0:09:55.039,000 --> 0:09:57,000
+est d'utiliser des morceaux d'images existantes.
+
+214
+0:09:58.034,000 --> 0:10:,000
+Nous prenons une grande collection d'images,
+
+215
+0:10:00.218,000 --> 0:10:02,000
+et nous les découpons en petits morceaux.
+
+216
+0:10:02.96,000 --> 0:10:06,000
+Nous pouvons alors traiter chaque morceau comme les pièces d'un puzzle.
+
+217
+0:10:07.269,000 --> 0:10:11,000
+Nous utilisons ces pièces de puzzle pour assembler une image
+
+218
+0:10:11.547,000 --> 0:10:13,000
+qui correspond aussi avec les mesures des télescopes.
+
+219
+0:10:14.86,000 --> 0:10:17,000
+Différents types d'images ont des lots propres de pièces de puzzle.
+
+220
+0:10:18.627,000 --> 0:10:2,000
+Ce qui se produit quand on prend les mêmes données
+
+221
+0:10:21.457,000 --> 0:10:25,000
+mais qu'on utilise différents lots de pièces pour reconstruire l'image ?
+
+222
+0:10:25.611,000 --> 0:10:29,000
+Commençons par des pièces de puzzle d'image de simulation du trou noir.
+
+223
+0:10:30.401,000 --> 0:10:31,000
+OK. Cela semble raisonnable.
+
+224
+0:10:32.016,000 --> 0:10:34,000
+Ceci ressemble à ce qu'on attend d'un trou noir.
+
+225
+0:10:34.734,000 --> 0:10:35,000
+Mais ne l'avons-nous pas obtenu
+
+226
+0:10:36.227,000 --> 0:10:39,000
+car nous avons nourri la machine de petits morceaux de notre simulation ?
+
+227
+0:10:39.675,000 --> 0:10:4,000
+Essayons un autre lot de puzzle
+
+228
+0:10:41.193,000 --> 0:10:43,000
+à partir des objets astronomiques, non du trou noir.
+
+229
+0:10:44.734,000 --> 0:10:46,000
+D'accord, on obtient une image similaire.
+
+230
+0:10:46.86,000 --> 0:10:48,000
+Ensuite, testons les pièces d'images quotidiennes
+
+231
+0:10:49.166,000 --> 0:10:51,000
+comme les images que vous prenez avec votre appareil photo.
+
+232
+0:10:53.132,000 --> 0:10:55,000
+Génial, nous voyons la même image.
+
+233
+0:10:55.271,000 --> 0:10:58,000
+Quand on obtient la même image avec tous les différents lots de puzzle,
+
+234
+0:10:58.661,000 --> 0:11:,000
+alors on peut commencer à être plus sûr
+
+235
+0:11:00.731,000 --> 0:11:01,000
+que nos hypothèses d'image
+
+236
+0:11:02.721,000 --> 0:11:04,000
+ne biaisent pas trop l'image finale obtenue.
+
+237
+0:11:05.666,000 --> 0:11:08,000
+On peut aussi prendre les mêmes lots de pièces de puzzle,
+
+238
+0:11:08.943,000 --> 0:11:1,000
+tel que ceux dérivés d'images quotidiennes,
+
+239
+0:11:11.432,000 --> 0:11:14,000
+et les utiliser pour reconstruire beaucoup de différents types d'image source.
+
+240
+0:11:15.102,000 --> 0:11:16,000
+Ainsi dans nos simulations,
+
+241
+0:11:16.401,000 --> 0:11:19,000
+nous prétendons qu'un trou noir ressemble à des objets non-trou noir,
+
+242
+0:11:20.174,000 --> 0:11:23,000
+ou à nos images quotidiennes comme l'éléphant au cœur de notre galaxie.
+
+243
+0:11:24.047,000 --> 0:11:26,000
+Quand le résultat de nos algorithmes, en bas,
+
+244
+0:11:26.289,000 --> 0:11:29,000
+ressemble à l'image témoin de la simulation en haut,
+
+245
+0:11:29.359,000 --> 0:11:32,000
+nos algorithmes commencent à nous convaincre.
+
+246
+0:11:32.729,000 --> 0:11:35,000
+Je tiens vraiment à souligner ici que tous ces images ont été créées
+
+247
+0:11:36.586,000 --> 0:11:38,000
+en accolant des petits morceaux de photos quotidiennes,
+
+248
+0:11:39.538,000 --> 0:11:41,000
+comme celles que vous auriez pu prendre.
+
+249
+0:11:41.777,000 --> 0:11:44,000
+Donc une image d'un trou noir qu'on a jamais vu précédemment
+
+250
+0:11:45.077,000 --> 0:11:48,000
+peut être finalement être créée par l'assemblage de photos quotidiennes
+
+251
+0:11:49.02,000 --> 0:11:51,000
+de personnes, de bâtiments, d'arbres, de chats et de chiens.
+
+252
+0:11:51.895,000 --> 0:11:53,000
+Imaginer de telles idées nous permet
+
+253
+0:11:54.482,000 --> 0:11:56,000
+de prendre nos tout premières photos d'un trou noir,
+
+254
+0:11:57.125,000 --> 0:11:59,000
+et avec optimisme de vérifier ces théories célèbres
+
+255
+0:11:59.572,000 --> 0:12:01,000
+sur lesquelles les scientifiques se basent tous les jours.
+
+256
+0:12:02.303,000 --> 0:12:04,000
+Mais bien sûr, la concrétisation d'idées pareilles
+
+257
+0:12:04.673,000 --> 0:12:07,000
+n'aurait pas été possible sans l'équipe incroyable de chercheurs
+
+258
+0:12:07.995,000 --> 0:12:08,000
+avec qui j'ai le privilège de travailler.
+
+259
+0:12:09.952,000 --> 0:12:1,000
+Cela m'étonne encore
+
+260
+0:12:11.117,000 --> 0:12:14,000
+qu'en dépit de mes lacunes en astrophysique,
+
+261
+0:12:14.468,000 --> 0:12:16,000
+ce qu'on a pu accomplir grâce à cette collaboration unique
+
+262
+0:12:17.187,000 --> 0:12:19,000
+puisse mener aux premières photos d'un trou noir.
+
+263
+0:12:19.918,000 --> 0:12:21,000
+Les grand projets comme l'Event Télescope Horizon
+
+264
+0:12:22.64,000 --> 0:12:24,000
+réussissent grâce à toutes l'expertise interdisciplinaire
+
+265
+0:12:25.454,000 --> 0:12:27,000
+que différentes personnes apportent.
+
+266
+0:12:27.514,000 --> 0:12:28,000
+On est un creuset d’astronomes,
+
+267
+0:12:29.038,000 --> 0:12:31,000
+de physiciens, de mathématiciens et d'ingénieurs.
+
+268
+0:12:31.334,000 --> 0:12:33,000
+C'est ce qui rendra bientôt possible
+
+269
+0:12:33.856,000 --> 0:12:35,000
+la réalisation d'une chose que l'on pensait impossible.
+
+270
+0:12:36.733,000 --> 0:12:38,000
+J'aimerais vous encourager à lever la main
+
+271
+0:12:38.989,000 --> 0:12:4,000
+et aider à repousser les limites de la science,
+
+272
+0:12:41.185,000 --> 0:12:44,000
+même si cela peut vous sembler aussi mystérieux qu'un trou noir.
+
+273
+0:12:45.058,000 --> 0:12:46,000
+Merci.
+
+274
+0:12:46.256,000 --> 0:12:48,000
+(Applaudissements)
+

@@ -1,0 +1,776 @@
+1
+0:00:12.949,000 --> 0:00:13,000
+I'm thrilled to be here tonight
+
+2
+0:00:14.773,000 --> 0:00:16,000
+to share with you something we've been working on
+
+3
+0:00:17.152,000 --> 0:00:19,000
+for over two years,
+
+4
+0:00:19.242,000 --> 0:00:21,000
+and it's in the area of additive manufacturing,
+
+5
+0:00:21.796,000 --> 0:00:23,000
+also known as 3D printing.
+
+6
+0:00:24.513,000 --> 0:00:25,000
+You see this object here.
+
+7
+0:00:26.231,000 --> 0:00:29,000
+It looks fairly simple, but it's quite complex at the same time.
+
+8
+0:00:30.549,000 --> 0:00:33,000
+It's a set of concentric geodesic structures
+
+9
+0:00:33.8,000 --> 0:00:35,000
+with linkages between each one.
+
+10
+0:00:36.795,000 --> 0:00:42,000
+In its context, it is not manufacturable by traditional manufacturing techniques.
+
+11
+0:00:43.343,000 --> 0:00:46,000
+It has a symmetry such that you can't injection mold it.
+
+12
+0:00:47.29,000 --> 0:00:5,000
+You can't even manufacture it through milling.
+
+13
+0:00:51.47,000 --> 0:00:53,000
+This is a job for a 3D printer,
+
+14
+0:00:54.117,000 --> 0:00:58,000
+but most 3D printers would take between three and 10 hours to fabricate it,
+
+15
+0:00:58.598,000 --> 0:01:02,000
+and we're going to take the risk tonight to try to fabricate it onstage
+
+16
+0:01:02.824,000 --> 0:01:04,000
+during this 10-minute talk.
+
+17
+0:01:05.401,000 --> 0:01:07,000
+Wish us luck.
+
+18
+0:01:08.35,000 --> 0:01:11,000
+Now, 3D printing is actually a misnomer.
+
+19
+0:01:11.624,000 --> 0:01:14,000
+It's actually 2D printing over and over again,
+
+20
+0:01:15.919,000 --> 0:01:18,000
+and it in fact uses the technologies associated with 2D printing.
+
+21
+0:01:20.401,000 --> 0:01:24,000
+Think about inkjet printing where you lay down ink on a page to make letters,
+
+22
+0:01:25.36,000 --> 0:01:29,000
+and then do that over and over again to build up a three-dimensional object.
+
+23
+0:01:30.346,000 --> 0:01:32,000
+In microelectronics, they use something
+
+24
+0:01:32.417,000 --> 0:01:34,000
+called lithography to do the same sort of thing,
+
+25
+0:01:34.737,000 --> 0:01:36,000
+to make the transistors and integrated circuits
+
+26
+0:01:36.945,000 --> 0:01:38,000
+and build up a structure several times.
+
+27
+0:01:38.997,000 --> 0:01:4,000
+These are all 2D printing technologies.
+
+28
+0:01:42.099,000 --> 0:01:45,000
+Now, I'm a chemist, a material scientist too,
+
+29
+0:01:45.987,000 --> 0:01:47,000
+and my co-inventors are also material scientists,
+
+30
+0:01:48.711,000 --> 0:01:5,000
+one a chemist, one a physicist,
+
+31
+0:01:51.01,000 --> 0:01:53,000
+and we began to be interested in 3D printing.
+
+32
+0:01:53.936,000 --> 0:01:58,000
+And very often, as you know, new ideas are often simple connections
+
+33
+0:01:59.531,000 --> 0:02:02,000
+between people with different experiences in different communities,
+
+34
+0:02:03.274,000 --> 0:02:04,000
+and that's our story.
+
+35
+0:02:05.591,000 --> 0:02:07,000
+Now, we were inspired
+
+36
+0:02:08.122,000 --> 0:02:12,000
+by the "Terminator 2" scene for T-1000,
+
+37
+0:02:12.893,000 --> 0:02:16,000
+and we thought, why couldn't a 3D printer operate in this fashion,
+
+38
+0:02:18.426,000 --> 0:02:21,000
+where you have an object arise out of a puddle
+
+39
+0:02:23.052,000 --> 0:02:25,000
+in essentially real time
+
+40
+0:02:25.52,000 --> 0:02:27,000
+with essentially no waste
+
+41
+0:02:27.749,000 --> 0:02:29,000
+to make a great object?
+
+42
+0:02:30.071,000 --> 0:02:31,000
+Okay, just like the movies.
+
+43
+0:02:31.488,000 --> 0:02:34,000
+And could we be inspired by Hollywood
+
+44
+0:02:34.877,000 --> 0:02:37,000
+and come up with ways to actually try to get this to work?
+
+45
+0:02:38.384,000 --> 0:02:4,000
+And that was our challenge.
+
+46
+0:02:40.45,000 --> 0:02:43,000
+And our approach would be, if we could do this,
+
+47
+0:02:43.817,000 --> 0:02:46,000
+then we could fundamentally address the three issues holding back 3D printing
+
+48
+0:02:47.671,000 --> 0:02:49,000
+from being a manufacturing process.
+
+49
+0:02:50.086,000 --> 0:02:52,000
+One, 3D printing takes forever.
+
+50
+0:02:52.617,000 --> 0:02:57,000
+There are mushrooms that grow faster than 3D printed parts. (Laughter)
+
+51
+0:02:59.281,000 --> 0:03:01,000
+The layer by layer process
+
+52
+0:03:01.417,000 --> 0:03:03,000
+leads to defects in mechanical properties,
+
+53
+0:03:04.319,000 --> 0:03:07,000
+and if we could grow continuously, we could eliminate those defects.
+
+54
+0:03:08.266,000 --> 0:03:13,000
+And in fact, if we could grow really fast, we could also start using materials
+
+55
+0:03:13.398,000 --> 0:03:17,000
+that are self-curing, and we could have amazing properties.
+
+56
+0:03:18.042,000 --> 0:03:22,000
+So if we could pull this off, imitate Hollywood,
+
+57
+0:03:22.151,000 --> 0:03:24,000
+we could in fact address 3D manufacturing.
+
+58
+0:03:26.702,000 --> 0:03:29,000
+Our approach is to use some standard knowledge
+
+59
+0:03:29.953,000 --> 0:03:31,000
+in polymer chemistry
+
+60
+0:03:32.553,000 --> 0:03:38,000
+to harness light and oxygen to grow parts continuously.
+
+61
+0:03:39.152,000 --> 0:03:41,000
+Light and oxygen work in different ways.
+
+62
+0:03:42.099,000 --> 0:03:45,000
+Light can take a resin and convert it to a solid,
+
+63
+0:03:45.141,000 --> 0:03:47,000
+can convert a liquid to a solid.
+
+64
+0:03:47.295,000 --> 0:03:5,000
+Oxygen inhibits that process.
+
+65
+0:03:50.829,000 --> 0:03:53,000
+So light and oxygen are polar opposites from one another
+
+66
+0:03:54.08,000 --> 0:03:56,000
+from a chemical point of view,
+
+67
+0:03:56.588,000 --> 0:03:59,000
+and if we can control spatially the light and oxygen,
+
+68
+0:04:00.001,000 --> 0:04:01,000
+we could control this process.
+
+69
+0:04:02.288,000 --> 0:04:05,000
+And we refer to this as CLIP. [Continuous Liquid Interface Production.]
+
+70
+0:04:05.739,000 --> 0:04:06,000
+It has three functional components.
+
+71
+0:04:08.465,000 --> 0:04:11,000
+One, it has a reservoir that holds the puddle,
+
+72
+0:04:12.326,000 --> 0:04:13,000
+just like the T-1000.
+
+73
+0:04:14.205,000 --> 0:04:16,000
+At the bottom of the reservoir is a special window.
+
+74
+0:04:16.621,000 --> 0:04:17,000
+I'll come back to that.
+
+75
+0:04:18.112,000 --> 0:04:21,000
+In addition, it has a stage that will lower into the puddle
+
+76
+0:04:21.892,000 --> 0:04:23,000
+and pull the object out of the liquid.
+
+77
+0:04:24.481,000 --> 0:04:27,000
+The third component is a digital light projection system
+
+78
+0:04:28.285,000 --> 0:04:3,000
+underneath the reservoir,
+
+79
+0:04:30.305,000 --> 0:04:33,000
+illuminating with light in the ultraviolet region.
+
+80
+0:04:34.048,000 --> 0:04:37,000
+Now, the key is that this window in the bottom of this reservoir,
+
+81
+0:04:37.271,000 --> 0:04:39,000
+it's a composite, it's a very special window.
+
+82
+0:04:40.15,000 --> 0:04:43,000
+It's not only transparent to light but it's permeable to oxygen.
+
+83
+0:04:43.796,000 --> 0:04:45,000
+It's got characteristics like a contact lens.
+
+84
+0:04:47.435,000 --> 0:04:49,000
+So we can see how the process works.
+
+85
+0:04:49.716,000 --> 0:04:52,000
+You can start to see that as you lower a stage in there,
+
+86
+0:04:53.13,000 --> 0:04:57,000
+in a traditional process, with an oxygen-impermeable window,
+
+87
+0:04:57.309,000 --> 0:04:58,000
+you make a two-dimensional pattern
+
+88
+0:05:00.008,000 --> 0:05:03,000
+and you end up gluing that onto the window with a traditional window,
+
+89
+0:05:03.37,000 --> 0:05:06,000
+and so in order to introduce the next layer, you have to separate it,
+
+90
+0:05:06.922,000 --> 0:05:09,000
+introduce new resin, reposition it,
+
+91
+0:05:10.451,000 --> 0:05:12,000
+and do this process over and over again.
+
+92
+0:05:13.4,000 --> 0:05:14,000
+But with our very special window,
+
+93
+0:05:15.234,000 --> 0:05:18,000
+what we're able to do is, with oxygen coming through the bottom
+
+94
+0:05:18.563,000 --> 0:05:19,000
+as light hits it,
+
+95
+0:05:21.256,000 --> 0:05:23,000
+that oxygen inhibits the reaction,
+
+96
+0:05:23.926,000 --> 0:05:25,000
+and we form a dead zone.
+
+97
+0:05:26.55,000 --> 0:05:3,000
+This dead zone is on the order of tens of microns thick,
+
+98
+0:05:30.869,000 --> 0:05:33,000
+so that's two or three diameters of a red blood cell,
+
+99
+0:05:34.096,000 --> 0:05:36,000
+right at the window interface that remains a liquid,
+
+100
+0:05:36.627,000 --> 0:05:37,000
+and we pull this object up,
+
+101
+0:05:38.577,000 --> 0:05:4,000
+and as we talked about in a Science paper,
+
+102
+0:05:40.969,000 --> 0:05:44,000
+as we change the oxygen content, we can change the dead zone thickness.
+
+103
+0:05:45.682,000 --> 0:05:48,000
+And so we have a number of key variables that we control: oxygen content,
+
+104
+0:05:49.374,000 --> 0:05:52,000
+the light, the light intensity, the dose to cure,
+
+105
+0:05:52.439,000 --> 0:05:53,000
+the viscosity, the geometry,
+
+106
+0:05:54.401,000 --> 0:05:57,000
+and we use very sophisticated software to control this process.
+
+107
+0:05:58.697,000 --> 0:06:,000
+The result is pretty staggering.
+
+108
+0:06:01.46,000 --> 0:06:04,000
+It's 25 to 100 times faster than traditional 3D printers,
+
+109
+0:06:06.336,000 --> 0:06:07,000
+which is game-changing.
+
+110
+0:06:08.17,000 --> 0:06:12,000
+In addition, as our ability to deliver liquid to that interface,
+
+111
+0:06:12.506,000 --> 0:06:15,000
+we can go 1,000 times faster I believe,
+
+112
+0:06:16.246,000 --> 0:06:19,000
+and that in fact opens up the opportunity for generating a lot of heat,
+
+113
+0:06:19.803,000 --> 0:06:23,000
+and as a chemical engineer, I get very excited at heat transfer
+
+114
+0:06:23.866,000 --> 0:06:27,000
+and the idea that we might one day have water-cooled 3D printers,
+
+115
+0:06:28.045,000 --> 0:06:3,000
+because they're going so fast.
+
+116
+0:06:30.437,000 --> 0:06:34,000
+In addition, because we're growing things, we eliminate the layers,
+
+117
+0:06:34.5,000 --> 0:06:35,000
+and the parts are monolithic.
+
+118
+0:06:36.474,000 --> 0:06:38,000
+You don't see the surface structure.
+
+119
+0:06:38.564,000 --> 0:06:4,000
+You have molecularly smooth surfaces.
+
+120
+0:06:41.057,000 --> 0:06:45,000
+And the mechanical properties of most parts made in a 3D printer
+
+121
+0:06:45.297,000 --> 0:06:49,000
+are notorious for having properties that depend on the orientation
+
+122
+0:06:49.593,000 --> 0:06:52,000
+with which how you printed it, because of the layer-like structure.
+
+123
+0:06:53.354,000 --> 0:06:55,000
+But when you grow objects like this,
+
+124
+0:06:55.699,000 --> 0:06:58,000
+the properties are invariant with the print direction.
+
+125
+0:06:59.368,000 --> 0:07:01,000
+These look like injection-molded parts,
+
+126
+0:07:02.317,000 --> 0:07:05,000
+which is very different than traditional 3D manufacturing.
+
+127
+0:07:05.729,000 --> 0:07:08,000
+In addition, we're able to throw
+
+128
+0:07:09.259,000 --> 0:07:12,000
+the entire polymer chemistry textbook at this,
+
+129
+0:07:12.835,000 --> 0:07:15,000
+and we're able to design chemistries that can give rise to the properties
+
+130
+0:07:16.826,000 --> 0:07:19,000
+you really want in a 3D-printed object.
+
+131
+0:07:19.868,000 --> 0:07:2,000
+(Applause)
+
+132
+0:07:21.205,000 --> 0:07:24,000
+There it is. That's great.
+
+133
+0:07:26.049,000 --> 0:07:29,000
+You always take the risk that something like this won't work onstage, right?
+
+134
+0:07:30.177,000 --> 0:07:32,000
+But we can have materials with great mechanical properties.
+
+135
+0:07:33.056,000 --> 0:07:35,000
+For the first time, we can have elastomers
+
+136
+0:07:35.494,000 --> 0:07:37,000
+that are high elasticity or high dampening.
+
+137
+0:07:37.955,000 --> 0:07:4,000
+Think about vibration control or great sneakers, for example.
+
+138
+0:07:41.368,000 --> 0:07:43,000
+We can make materials that have incredible strength,
+
+139
+0:07:44.828,000 --> 0:07:47,000
+high strength-to-weight ratio, really strong materials,
+
+140
+0:07:48.404,000 --> 0:07:5,000
+really great elastomers,
+
+141
+0:07:50.517,000 --> 0:07:52,000
+so throw that in the audience there.
+
+142
+0:07:53.242,000 --> 0:07:55,000
+So great material properties.
+
+143
+0:07:55.878,000 --> 0:07:58,000
+And so the opportunity now, if you actually make a part
+
+144
+0:07:59.293,000 --> 0:08:02,000
+that has the properties to be a final part,
+
+145
+0:08:02.973,000 --> 0:08:05,000
+and you do it in game-changing speeds,
+
+146
+0:08:06.073,000 --> 0:08:08,000
+you can actually transform manufacturing.
+
+147
+0:08:08.86,000 --> 0:08:1,000
+Right now, in manufacturing, what happens is,
+
+148
+0:08:11.716,000 --> 0:08:13,000
+the so-called digital thread in digital manufacturing.
+
+149
+0:08:14.678,000 --> 0:08:19,000
+We go from a CAD drawing, a design, to a prototype to manufacturing.
+
+150
+0:08:19.717,000 --> 0:08:21,000
+Often, the digital thread is broken right at prototype,
+
+151
+0:08:22.44,000 --> 0:08:24,000
+because you can't go all the way to manufacturing
+
+152
+0:08:24.872,000 --> 0:08:27,000
+because most parts don't have the properties to be a final part.
+
+153
+0:08:28.587,000 --> 0:08:3,000
+We now can connect the digital thread
+
+154
+0:08:30.978,000 --> 0:08:34,000
+all the way from design to prototyping to manufacturing,
+
+155
+0:08:35.227,000 --> 0:08:37,000
+and that opportunity really opens up all sorts of things,
+
+156
+0:08:38.176,000 --> 0:08:42,000
+from better fuel-efficient cars dealing with great lattice properties
+
+157
+0:08:43.129,000 --> 0:08:44,000
+with high strength-to-weight ratio,
+
+158
+0:08:45.08,000 --> 0:08:48,000
+new turbine blades, all sorts of wonderful things.
+
+159
+0:08:49.468,000 --> 0:08:54,000
+Think about if you need a stent in an emergency situation,
+
+160
+0:08:54.623,000 --> 0:08:57,000
+instead of the doctor pulling off a stent out of the shelf
+
+161
+0:08:58.593,000 --> 0:09:,000
+that was just standard sizes,
+
+162
+0:09:00.822,000 --> 0:09:04,000
+having a stent that's designed for you, for your own anatomy
+
+163
+0:09:04.978,000 --> 0:09:05,000
+with your own tributaries,
+
+164
+0:09:06.789,000 --> 0:09:09,000
+printed in an emergency situation in real time out of the properties
+
+165
+0:09:10.038,000 --> 0:09:13,000
+such that the stent could go away after 18 months: really-game changing.
+
+166
+0:09:13.477,000 --> 0:09:17,000
+Or digital dentistry, and making these kinds of structures
+
+167
+0:09:17.633,000 --> 0:09:2,000
+even while you're in the dentist chair.
+
+168
+0:09:20.814,000 --> 0:09:22,000
+And look at the structures that my students are making
+
+169
+0:09:23.53,000 --> 0:09:24,000
+at the University of North Carolina.
+
+170
+0:09:25.504,000 --> 0:09:27,000
+These are amazing microscale structures.
+
+171
+0:09:28.313,000 --> 0:09:3,000
+You know, the world is really good at nano-fabrication.
+
+172
+0:09:31.309,000 --> 0:09:35,000
+Moore's Law has driven things from 10 microns and below.
+
+173
+0:09:35.599,000 --> 0:09:36,000
+We're really good at that,
+
+174
+0:09:37.201,000 --> 0:09:41,000
+but it's actually very hard to make things from 10 microns to 1,000 microns,
+
+175
+0:09:41.241,000 --> 0:09:43,000
+the mesoscale.
+
+176
+0:09:43.261,000 --> 0:09:45,000
+And subtractive techniques from the silicon industry
+
+177
+0:09:46.094,000 --> 0:09:47,000
+can't do that very well.
+
+178
+0:09:47.51,000 --> 0:09:48,000
+They can't etch wafers that well.
+
+179
+0:09:49.159,000 --> 0:09:5,000
+But this process is so gentle,
+
+180
+0:09:51.109,000 --> 0:09:53,000
+we can grow these objects up from the bottom
+
+181
+0:09:53.594,000 --> 0:09:54,000
+using additive manufacturing
+
+182
+0:09:55.59,000 --> 0:09:57,000
+and make amazing things in tens of seconds,
+
+183
+0:09:57.843,000 --> 0:09:59,000
+opening up new sensor technologies,
+
+184
+0:09:59.932,000 --> 0:10:01,000
+new drug delivery techniques,
+
+185
+0:10:02.417,000 --> 0:10:05,000
+new lab-on-a-chip applications, really game-changing stuff.
+
+186
+0:10:07.149,000 --> 0:10:11,000
+So the opportunity of making a part in real time
+
+187
+0:10:11.983,000 --> 0:10:13,000
+that has the properties to be a final part
+
+188
+0:10:14.816,000 --> 0:10:16,000
+really opens up 3D manufacturing,
+
+189
+0:10:17.792,000 --> 0:10:2,000
+and for us, this is very exciting, because this really is owning
+
+190
+0:10:20.992,000 --> 0:10:26,000
+the intersection between hardware, software and molecular science,
+
+191
+0:10:27.589,000 --> 0:10:31,000
+and I can't wait to see what designers and engineers around the world
+
+192
+0:10:31.755,000 --> 0:10:33,000
+are going to be able to do with this great tool.
+
+193
+0:10:34.499,000 --> 0:10:36,000
+Thanks for listening.
+
+194
+0:10:36.618,000 --> 0:10:41,000
+(Applause)
+

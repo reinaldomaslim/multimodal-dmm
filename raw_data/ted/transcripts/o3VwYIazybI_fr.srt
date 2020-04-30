@@ -1,0 +1,844 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Nicolas Abgrall Relecteur: Zeineb Trabelsi
+
+2
+0:00:12.556,000 --> 0:00:15,000
+Nos émotions influencent tous les aspects de notre vie,
+
+3
+0:00:15.943,000 --> 0:00:16,000
+de notre santé et notre façon d'apprendre
+
+4
+0:00:16.943,000 --> 0:00:18,000
+à la manière dont nous faisons des affaires,
+
+5
+0:00:19.179,000 --> 0:00:21,000
+et prenons des décisions, petites ou grandes.
+
+6
+0:00:22.672,000 --> 0:00:25,000
+Elles influencent aussi la manière dont nous interagissons ensemble.
+
+7
+0:00:27.132,000 --> 0:00:3,000
+Nous avons évolué pour vivre dans un monde qui ressemble à ça,
+
+8
+0:00:31.108,000 --> 0:00:35,000
+mais nous vivons nos vies de plus en plus plutôt comme ceci --
+
+9
+0:00:35.807,000 --> 0:00:37,000
+c'est le message que ma fille m'a envoyé hier soir --
+
+10
+0:00:38.561,000 --> 0:00:4,000
+dans un monde dépourvu d'émotion.
+
+11
+0:00:41.301,000 --> 0:00:42,000
+Ma mission est de changer tout ça.
+
+12
+0:00:43.252,000 --> 0:00:47,000
+Je veux ramener l'expression de nos émotions dans nos expériences numériques.
+
+13
+0:00:48.223,000 --> 0:00:51,000
+J'ai commencé de travailler dans cette direction il y a 15 ans.
+
+14
+0:00:51.3,000 --> 0:00:53,000
+J'étais informaticienne en Égypte,
+
+15
+0:00:53.366,000 --> 0:00:57,000
+et venais juste d'être acceptée dans un programme de thèse à Cambridge.
+
+16
+0:00:57.711,000 --> 0:00:59,000
+Alors j'ai fait quelque chose d'assez inhabituel
+
+17
+0:00:59.984,000 --> 0:01:03,000
+pour une jeune musulmane égyptienne et tout juste mariée :
+
+18
+0:01:05.599,000 --> 0:01:07,000
+avec le soutien de mon mari qui devait rester en Égypte,
+
+19
+0:01:08.598,000 --> 0:01:11,000
+j'ai fait mes bagages et suis partie pour l'Angleterre.
+
+20
+0:01:11.616,000 --> 0:01:14,000
+A Cambridge, à des milliers de kilomètres de chez moi,
+
+21
+0:01:14.844,000 --> 0:01:17,000
+j'ai réalisé que je passais plus d'heures sur mon ordinateur
+
+22
+0:01:18.257,000 --> 0:01:2,000
+qu'avec n'importe quel humain.
+
+23
+0:01:20.486,000 --> 0:01:24,000
+Pourtant, malgré cette intimité, il n'avait absolument aucune idée
+
+24
+0:01:25.339,000 --> 0:01:28,000
+de ce que je ressentais. Il ne savait pas si j'étais heureuse,
+
+25
+0:01:28.55,000 --> 0:01:3,000
+si j'avais eu une mauvaise journée, si j'étais stressée
+
+26
+0:01:31.538,000 --> 0:01:33,000
+ou confuse et ça devenait vraiment frustrant.
+
+27
+0:01:35.6,000 --> 0:01:37,000
+Le pire, c'était que lorsque je communiquais en ligne
+
+28
+0:01:38.031,000 --> 0:01:41,000
+avec ma famille à la maison,
+
+29
+0:01:41.031,000 --> 0:01:44,000
+j'avais l'impression que toutes mes émotions disparaissaient
+
+30
+0:01:44.703,000 --> 0:01:49,000
+dans cet espace virtuel. J'avais le mal du pays, je me sentais seule
+
+31
+0:01:49.858,000 --> 0:01:52,000
+et me mettais même à pleurer certains jours.
+
+32
+0:01:53.026,000 --> 0:01:56,000
+Mais tout ce que j'avais pour partager ces émotions, c'était ça. (Rires)
+
+33
+0:01:56.806,000 --> 0:02:,000
+La technologie moderne a beaucoup de Q.I. mais aucun Q.E.: c'est-à-dire
+
+34
+0:02:01.78,000 --> 0:02:04,000
+beaucoup d'intelligence cognitive mais pas émotionnelle.
+
+35
+0:02:04.956,000 --> 0:02:06,000
+Je me suis alors demandée
+
+36
+0:02:07.153,000 --> 0:02:1,000
+ce que ça changerait si notre technologie pouvait percevoir nos émotions ?
+
+37
+0:02:10.777,000 --> 0:02:14,000
+Que se passerait-il si nos appareils pouvaient les percevoir et réagir
+
+38
+0:02:14.853,000 --> 0:02:17,000
+en fonction, exactement comme un ami le ferait ?
+
+39
+0:02:18.666,000 --> 0:02:21,000
+Ces questions nous ont menés, mon équipe et moi
+
+40
+0:02:22.23,000 --> 0:02:26,000
+à développer des technologies qui peuvent lire et réagir à nos émotions,
+
+41
+0:02:26.607,000 --> 0:02:29,000
+à partir du visage humain.
+
+42
+0:02:30.577,000 --> 0:02:33,000
+Il se trouve que le visage est un des moyens d'expression
+
+43
+0:02:33.75,000 --> 0:02:37,000
+les plus puissants que nous utilisons pour communiquer notre état social
+
+44
+0:02:37.766,000 --> 0:02:4,000
+ou émotionnel, tout de la joie, la surprise,
+
+45
+0:02:40.776,000 --> 0:02:44,000
+la compassion à la curiosité.
+
+46
+0:02:44.979,000 --> 0:02:48,000
+En science des émotions, chacun des mouvements du visage est appelé action.
+
+47
+0:02:49.907,000 --> 0:02:51,000
+Par exemple, action numéro 12
+
+48
+0:02:52.522,000 --> 0:02:54,000
+n'est pas le nom du dernier succès hollywoodien,
+
+49
+0:02:54.87,000 --> 0:02:57,000
+mais l'action de tirer le coin des lèvres, autrement dit de sourire.
+
+50
+0:02:58.312,000 --> 0:03:,000
+Essayez ! Faisons tous nos plus beaux sourires !
+
+51
+0:03:01.24,000 --> 0:03:03,000
+Autre exemple, action numéro 4, le froncement de sourcils.
+
+52
+0:03:03.954,000 --> 0:03:05,000
+C'est lorsque vous plissez les sourcils
+
+53
+0:03:06.192,000 --> 0:03:08,000
+ensemble et créez toutes ces rides et textures.
+
+54
+0:03:08.459,000 --> 0:03:11,000
+On ne les aime pas mais c'est un très bon indicateur d'émotion négative.
+
+55
+0:03:12.244,000 --> 0:03:14,000
+Nous avons environ 45 de ces actions
+
+56
+0:03:14.96,000 --> 0:03:17,000
+que nous combinons pour exprimer des centaines d'émotions.
+
+57
+0:03:18.35,000 --> 0:03:21,000
+Enseigner à un ordinateur comment reconnaître ces expressions faciales
+
+58
+0:03:21.831,000 --> 0:03:24,000
+est difficile parce qu'elles peuvent être rapides, sont subtiles,
+
+59
+0:03:24.913,000 --> 0:03:26,000
+et peuvent former beaucoup de combinaisons différentes.
+
+60
+0:03:27.777,000 --> 0:03:3,000
+Prenez par exemple, un sourire normal ou un sourire narquois.
+
+61
+0:03:31.515,000 --> 0:03:34,000
+Ils sont en soi assez similaires, mais ont une signification bien différente.
+
+62
+0:03:35.268,000 --> 0:03:36,000
+(Rires)
+
+63
+0:03:36.866,000 --> 0:03:38,000
+Le sourire normal est positif,
+
+64
+0:03:39.45,000 --> 0:03:4,000
+le sourire narquois souvent négatif.
+
+65
+0:03:41.26,000 --> 0:03:44,000
+Un sourire narquois peut même vous rendre célèbre parfois !
+
+66
+0:03:45.136,000 --> 0:03:47,000
+Mais plus sérieusement, il est très important
+
+67
+0:03:47.96,000 --> 0:03:49,000
+que l'ordinateur puisse différencier ces deux expressions.
+
+68
+0:03:50.815,000 --> 0:03:51,000
+Alors comment y arrive-t-on ?
+
+69
+0:03:52.627,000 --> 0:03:53,000
+On donne à nos algorithmes
+
+70
+0:03:54.414,000 --> 0:03:58,000
+des dizaines de milliers d'exemples spécifiques de personnes
+
+71
+0:03:58.524,000 --> 0:04:01,000
+en train de sourire, d'origines, âge, sexe différents
+
+72
+0:04:01.589,000 --> 0:04:03,000
+et on fait la même chose pour des sourires narquois.
+
+73
+0:04:04.16,000 --> 0:04:06,000
+Ensuite par un processus d'apprentissage,
+
+74
+0:04:06.174,000 --> 0:04:08,000
+l'algorithme assimile toutes ces textures, ces rides
+
+75
+0:04:08.81,000 --> 0:04:1,000
+et mouvements de notre visage,
+
+76
+0:04:11.39,000 --> 0:04:14,000
+apprend les caractéristiques générales d'un sourire,
+
+77
+0:04:14.592,000 --> 0:04:17,000
+et en associe de plus spécifiques aux sourires narquois.
+
+78
+0:04:17.773,000 --> 0:04:19,000
+Ainsi au prochain visage qu'il voit,
+
+79
+0:04:20.141,000 --> 0:04:22,000
+l'algorithme peut essentiellement
+
+80
+0:04:22.44,000 --> 0:04:25,000
+reconnaître les caractéristiques d'un sourire et dire :
+
+81
+0:04:25.473,000 --> 0:04:29,000
+« ha ! je reconnais cette expression, c'est un sourire. »
+
+82
+0:04:30.011,000 --> 0:04:33,000
+Le meilleur moyen d'illustrer comment cette technologie fonctionne
+
+83
+0:04:33.181,000 --> 0:04:35,000
+est une démonstration en direct
+
+84
+0:04:35.317,000 --> 0:04:38,000
+alors j'aurais besoin d'un volontaire, de préférence quelqu'un avec un visage.
+
+85
+0:04:39.23,000 --> 0:04:41,000
+(Rires)
+
+86
+0:04:41.564,000 --> 0:04:43,000
+Cloe sera notre volontaire aujourd'hui.
+
+87
+0:04:45.325,000 --> 0:04:49,000
+Au cours des 5 dernières années, notre groupe de recherche au MIT
+
+88
+0:04:49.533,000 --> 0:04:5,000
+est devenu une entreprise,
+
+89
+0:04:50.939,000 --> 0:04:53,000
+dans laquelle mon équipe a travaillé dur pour que cette technologie marche,
+
+90
+0:04:54.601,000 --> 0:04:56,000
+dans la vie de tous les jours, comme on dit.
+
+91
+0:04:56.7,000 --> 0:04:58,000
+Nous l'avons aussi optimisée pour qu'elle fonctionne
+
+92
+0:04:59.21,000 --> 0:05:02,000
+sur n'importe quel appareil pourvu d'une caméra, comme cet iPad.
+
+93
+0:05:02.53,000 --> 0:05:04,000
+Mais essayons plutôt.
+
+94
+0:05:06.756,000 --> 0:05:09,000
+Comme vous le voyez, l'algorithme trouve essentiellement le visage de Cloe
+
+95
+0:05:10.68,000 --> 0:05:11,000
+dans cette zone encadrée blanche,
+
+96
+0:05:12.372,000 --> 0:05:14,000
+et décèle les mouvements des points principaux
+
+97
+0:05:14.943,000 --> 0:05:16,000
+tels que ses sourcils, ses yeux, sa bouche et son nez.
+
+98
+0:05:17.799,000 --> 0:05:19,000
+La question est alors de savoir s'il peut reconnaître ses expressions.
+
+99
+0:05:20.786,000 --> 0:05:21,000
+Essayons donc de le tester.
+
+100
+0:05:22.457,000 --> 0:05:26,000
+Tout d'abord, montrez moi un visage impassible. Oui, parfait ! (Rires)
+
+101
+0:05:26.643,000 --> 0:05:28,000
+Et maintenant un sourire franc, en voilà un beau, parfait.
+
+102
+0:05:29.406,000 --> 0:05:31,000
+Vous voyez, l'indicateur vert monte quand elle sourit.
+
+103
+0:05:32.066,000 --> 0:05:33,000
+C'était un beau sourire ça.
+
+104
+0:05:33.418,000 --> 0:05:35,000
+Pouvez-vous faire un sourire plus subtil pour voir ?
+
+105
+0:05:35.891,000 --> 0:05:36,000
+Oui, le programme le reconnaît aussi.
+
+106
+0:05:37.782,000 --> 0:05:39,000
+On a travaillé dur pour que ça marche.
+
+107
+0:05:39.897,000 --> 0:05:42,000
+Là, les sourcils relevés déclenchent l'indicateur de surprise.
+
+108
+0:05:43.439,000 --> 0:05:47,000
+Le sillon des sourcils, lui, est l'indicateur de confusion.
+
+109
+0:05:47.688,000 --> 0:05:51,000
+Froncez les sourcils. Oui, parfait.
+
+110
+0:05:51.695,000 --> 0:05:54,000
+Tout ça vous montre différentes actions, il y en a beaucoup d'autres.
+
+111
+0:05:55.188,000 --> 0:05:57,000
+C'est juste une démonstration épurée.
+
+112
+0:05:57.22,000 --> 0:06:,000
+Chaque action reconnue est une point de donnée émotionnelle
+
+113
+0:06:00.368,000 --> 0:06:03,000
+et l'ensemble de ces données peut décrire différentes émotions.
+
+114
+0:06:03.707,000 --> 0:06:07,000
+Sur la droite ici regardez comme vous êtes heureuse.
+
+115
+0:06:07.73,000 --> 0:06:08,000
+L'indicateur de joie se déclenche.
+
+116
+0:06:09.444,000 --> 0:06:1,000
+Maintenant exprimez le dégoût.
+
+117
+0:06:11.371,000 --> 0:06:14,000
+Souvenez-vous du départ de Zayn de One Direction.
+
+118
+0:06:14.903,000 --> 0:06:15,000
+(Rires)
+
+119
+0:06:16.223,000 --> 0:06:21,000
+Voilà, le nez se ride. Super.
+
+120
+0:06:21.495,000 --> 0:06:24,000
+La capacité est en fait assez négative, vous deviez vraiment être fan !
+
+121
+0:06:25.226,000 --> 0:06:27,000
+Cette jauge montre si l'expérience est positive ou négative,
+
+122
+0:06:28.096,000 --> 0:06:3,000
+la jauge d'engagement montre le niveau d'expression.
+
+123
+0:06:30.712,000 --> 0:06:33,000
+Imaginez que Cloe ait accès direct à ce flux d'émotions en temps réel,
+
+124
+0:06:34.126,000 --> 0:06:36,000
+elle pourrait alors le partager avec qui elle voudrait.
+
+125
+0:06:36.935,000 --> 0:06:38,000
+Merci.
+
+126
+0:06:39.078,000 --> 0:06:44,000
+(Applaudissements)
+
+127
+0:06:45.749,000 --> 0:06:5,000
+Jusqu'à présent nous avons accumulé 12 milliards de ces données émotionnelles.
+
+128
+0:06:51.019,000 --> 0:06:53,000
+C'est la plus grande base de données de ce type au monde,
+
+129
+0:06:53.73,000 --> 0:06:56,000
+construite à partir de 2,9 millions de vidéos de visages de personnes
+
+130
+0:06:57.023,000 --> 0:06:59,000
+qui acceptent de partager leurs émotions avec nous
+
+131
+0:06:59.493,000 --> 0:07:01,000
+et provenant de 75 pays différents.
+
+132
+0:07:02.398,000 --> 0:07:03,000
+Et ça continue tous les jours.
+
+133
+0:07:04.603,000 --> 0:07:06,000
+Ça me fascine totalement que l'on puisse
+
+134
+0:07:06.67,000 --> 0:07:09,000
+à présent quantifier quelque chose d'aussi personnel que nos émotions,
+
+135
+0:07:09.965,000 --> 0:07:11,000
+et qu'on le fasse à cette échelle.
+
+136
+0:07:12.1,000 --> 0:07:14,000
+Qu'a-t-on appris de tout ça jusqu'à présent ?
+
+137
+0:07:15.057,000 --> 0:07:17,000
+En ce qui concerne le genre :
+
+138
+0:07:17.388,000 --> 0:07:2,000
+nos données confirment ce dont vous vous doutiez probablement,
+
+139
+0:07:20.504,000 --> 0:07:22,000
+les femmes sont plus expressives que les hommes.
+
+140
+0:07:22.891,000 --> 0:07:24,000
+Non seulement elles sourient plus, mais aussi plus longtemps,
+
+141
+0:07:25.814,000 --> 0:07:27,000
+et on peut maintenant vraiment quantifier ce à quoi
+
+142
+0:07:28.298,000 --> 0:07:3,000
+les hommes et les femmes réagissent différemment.
+
+143
+0:07:30.664,000 --> 0:07:32,000
+Pour l'influence culturelle : aux États-Unis
+
+144
+0:07:32.904,000 --> 0:07:35,000
+si les femmes sont 40% plus expressives que les hommes, curieusement,
+
+145
+0:07:36.228,000 --> 0:07:39,000
+on ne voit aucune différence à ce niveau-là au Royaume Uni.
+
+146
+0:07:39.753,000 --> 0:07:41,000
+(Rires)
+
+147
+0:07:43.296,000 --> 0:07:47,000
+Pour l'âge : les personnes de 50 ans et plus
+
+148
+0:07:47.323,000 --> 0:07:5,000
+sont 25% plus émotives que les personnes plus jeunes.
+
+149
+0:07:51.489,000 --> 0:07:55,000
+Les femmes dans leur vingtaine sourient beaucoup plus que les hommes du même âge,
+
+150
+0:07:55.751,000 --> 0:07:58,000
+peut-être par nécessité pour faire des rencontres.
+
+151
+0:07:59.32,000 --> 0:08:01,000
+Mais ce qui nous a surpris le plus dans toutes ces données,
+
+152
+0:08:02.207,000 --> 0:08:04,000
+c'est que nous sommes en fait constamment expressifs,
+
+153
+0:08:05.14,000 --> 0:08:08,000
+mais lorsque nous sommes assis tout seuls en face de nos écrans,
+
+154
+0:08:08.243,000 --> 0:08:11,000
+et pas seulement à regarder des vidéos de chats sur Facebook.
+
+155
+0:08:12.217,000 --> 0:08:14,000
+Nous sommes expressifs quand on écrit un mail, un texto,
+
+156
+0:08:15.027,000 --> 0:08:17,000
+quand on achète en ligne et même quand on paie nos impôts.
+
+157
+0:08:17.837,000 --> 0:08:19,000
+Pour quoi utilise-t-on ces données aujourd'hui ?
+
+158
+0:08:20.199,000 --> 0:08:23,000
+Ça va de comprendre comment nous interagissons avec les médias,
+
+159
+0:08:23.282,000 --> 0:08:25,000
+les phénomènes viraux, les dynamiques de vote,
+
+160
+0:08:25.506,000 --> 0:08:28,000
+à doter nos technologies de capacités émotionnelles,
+
+161
+0:08:28.886,000 --> 0:08:31,000
+et j'aimerais partager avec vous quelques exemples qui me tiennent à cœur.
+
+162
+0:08:33.197,000 --> 0:08:36,000
+Des lunettes à lecture émotionnelle peuvent aider les malvoyants
+
+163
+0:08:36.265,000 --> 0:08:39,000
+à décrypter les expressions sur le visage des autres,
+
+164
+0:08:39.493,000 --> 0:08:43,000
+et peuvent aider les personnes atteintes d'autisme à interpréter les émotions,
+
+165
+0:08:43.68,000 --> 0:08:45,000
+ce qu'elles ont beaucoup de mal à faire.
+
+166
+0:08:47.568,000 --> 0:08:5,000
+Pour l'éducation, imaginez que les applications d'apprentissage
+
+167
+0:08:50.777,000 --> 0:08:52,000
+perçoivent votre confusion et ralentissent,
+
+168
+0:08:53.587,000 --> 0:08:55,000
+qu'elles perçoivent votre ennui et accélèrent
+
+169
+0:08:55.744,000 --> 0:08:58,000
+tout comme un bon enseignant le ferait dans la salle de classe.
+
+170
+0:08:59.043,000 --> 0:09:01,000
+Imaginez que votre montre puisse déceler votre humeur,
+
+171
+0:09:01.644,000 --> 0:09:03,000
+ou que votre voiture puisse percevoir votre fatigue,
+
+172
+0:09:04.267,000 --> 0:09:07,000
+ou peut-être que votre frigo puisse sentir que vous êtes stressé
+
+173
+0:09:07.455,000 --> 0:09:1,000
+et se verrouiller pour empêcher toute frénésie alimentaire. (Rires)
+
+174
+0:09:11.091,000 --> 0:09:15,000
+J'apprécierais ça, oui.
+
+175
+0:09:15.668,000 --> 0:09:16,000
+Que se serait-il passé si à Cambridge
+
+176
+0:09:17.595,000 --> 0:09:19,000
+j'avais eu accès à ces données émotionnelles
+
+177
+0:09:19.908,000 --> 0:09:22,000
+pour les partager tout naturellement avec ma famille à la maison
+
+178
+0:09:23.437,000 --> 0:09:26,000
+comme si nous avions tous été dans la même pièce ?
+
+179
+0:09:27.408,000 --> 0:09:3,000
+Je pense que d'ici cinq ans,
+
+180
+0:09:30.55,000 --> 0:09:32,000
+tous nos appareils auront une puce émotionnelle,
+
+181
+0:09:32.887,000 --> 0:09:34,000
+et on ne se souviendra même plus du temps où,
+
+182
+0:09:35.151,000 --> 0:09:37,000
+quand on fronçait les sourcils devant l'un d'eux,
+
+183
+0:09:38.041,000 --> 0:09:41,000
+il ne nous retournait pas un, « hmm, ça ne t'a pas plu, hein ? »
+
+184
+0:09:41.2,000 --> 0:09:42,000
+Notre plus grand défit est qu'il existe
+
+185
+0:09:42.2,000 --> 0:09:44,000
+tellement d'applications à cette technologie.
+
+186
+0:09:44.961,000 --> 0:09:45,000
+Mon équipe et moi nous rendons bien compte que
+
+187
+0:09:45.961,000 --> 0:09:46,000
+nous ne pouvons pas tout faire nous-même
+
+188
+0:09:47.864,000 --> 0:09:49,000
+et avons donc rendu cette technologie publique
+
+189
+0:09:50.65,000 --> 0:09:52,000
+pour que d'autres puissent la développer et être créatifs.
+
+190
+0:09:53.474,000 --> 0:09:57,000
+Nous sommes conscients des risques potentiels
+
+191
+0:09:57.56,000 --> 0:09:59,000
+et des possibilités d'abus,
+
+192
+0:09:59.627,000 --> 0:10:01,000
+mais personnellement, après avoir passé des années à faire ça,
+
+193
+0:10:02.576,000 --> 0:10:04,000
+je pense que les bénéfices que l'humanité peut recevoir
+
+194
+0:10:05.548,000 --> 0:10:07,000
+d'une technologie émotionnellement intelligente
+
+195
+0:10:07.823,000 --> 0:10:1,000
+dépassent de loin les risques potentiels de mauvais usage.
+
+196
+0:10:11.399,000 --> 0:10:13,000
+Je vous invite tous à prendre part à la discussion.
+
+197
+0:10:13.93,000 --> 0:10:15,000
+Plus de gens seront au courant de cette technologie,
+
+198
+0:10:16.484,000 --> 0:10:19,000
+mieux on pourra en définir ensemble les termes d'usage.
+
+199
+0:10:21.081,000 --> 0:10:25,000
+Alors que de plus en plus de notre vie passe au digital, nous nous lançons
+
+200
+0:10:25.655,000 --> 0:10:28,000
+dans une lutte perdue d'avance pour restreindre notre usage d'appareils
+
+201
+0:10:29.153,000 --> 0:10:32,000
+et reconquérir nos émotions. Ce que j'essaie
+
+202
+0:10:32.632,000 --> 0:10:35,000
+de faire au contraire est d'amener nos émotions dans notre technologie
+
+203
+0:10:36.536,000 --> 0:10:38,000
+et la rendre ainsi plus réactive.
+
+204
+0:10:38.765,000 --> 0:10:41,000
+Je veux que ces appareils qui nous séparaient les uns des autres,
+
+205
+0:10:42.025,000 --> 0:10:44,000
+finalement nous rapprochent.
+
+206
+0:10:44.347,000 --> 0:10:48,000
+En rendant notre technologie plus humaine, nous avons également l'opportunité
+
+207
+0:10:48.485,000 --> 0:10:51,000
+de revoir la façon dont nous interagissons avec les machines,
+
+208
+0:10:51.782,000 --> 0:10:55,000
+et par là-même la façon dont nous, humains,
+
+209
+0:10:56.263,000 --> 0:10:57,000
+interagissons ensemble.
+
+210
+0:10:58.167,000 --> 0:10:58,000
+Merci.
+
+211
+0:10:59.097,000 --> 0:11:03,000
+(Applaudissements)
+

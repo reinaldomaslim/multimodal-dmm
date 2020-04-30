@@ -1,0 +1,992 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Emma Gon
+
+2
+0:00:13.114,000 --> 0:00:2,000
+En los últimos siglos, los microscopios han revolucionado nuestro mundo.
+
+3
+0:00:21.036,000 --> 0:00:26,000
+Nos han revelado un diminuto mundo de objetos, vidas y estructuras,
+
+4
+0:00:26.252,000 --> 0:00:28,000
+que son muy pequeños para verlos a simple vista.
+
+5
+0:00:29.158,000 --> 0:00:32,000
+Una enorme contribución a la ciencia y la tecnología.
+
+6
+0:00:32.177,000 --> 0:00:35,000
+Hoy quisiera presentarles un nuevo tipo de microscopio,
+
+7
+0:00:35.404,000 --> 0:00:37,000
+un microscopio de cambios.
+
+8
+0:00:37.982,000 --> 0:00:39,000
+No usa la óptica de un microscopio ordinario
+
+9
+0:00:40.884,000 --> 0:00:41,000
+para agrandar objetos pequeños,
+
+10
+0:00:42.881,000 --> 0:00:46,000
+sino una cámara de video y procesamiento de imágenes
+
+11
+0:00:47.257,000 --> 0:00:52,000
+para revelar cambios de color y diminutos movimientos en personas y objetos,
+
+12
+0:00:52.513,000 --> 0:00:55,000
+cambios que serían imposibles de ver a simpe vista.
+
+13
+0:00:56.355,000 --> 0:00:59,000
+Nos permite ver nuestro mundo de una forma completamente nueva.
+
+14
+0:01:00.475,000 --> 0:01:01,000
+¿Qué quiero decir con cambios de color?
+
+15
+0:01:02.385,000 --> 0:01:04,000
+Nuestra piel, por ejemplo, cambia de color muy ligeramente,
+
+16
+0:01:05.217,000 --> 0:01:06,000
+cuando la sangre fluye por ella.
+
+17
+0:01:07.214,000 --> 0:01:09,000
+Ese cambio es increíblemente sutil,
+
+18
+0:01:09.611,000 --> 0:01:11,000
+por eso cuando ven a los demás,
+
+19
+0:01:11.674,000 --> 0:01:13,000
+cuando ven a la persona sentada junto a Uds.
+
+20
+0:01:13.925,000 --> 0:01:16,000
+no ven que su piel o su cara cambie de color.
+
+21
+0:01:17.5,000 --> 0:01:21,000
+Cuando vemos este video de Steve, nos parece una imagen estática.
+
+22
+0:01:21.86,000 --> 0:01:24,000
+Pero cuando lo vemos mediante nuestro nuevo microscopio especial
+
+23
+0:01:25.65,000 --> 0:01:27,000
+repentinamente vemos una imagen completamente diferente.
+
+24
+0:01:28.32,000 --> 0:01:31,000
+Lo que ven aquí son los leves cambios de color de la piel de Steve,
+
+25
+0:01:32.25,000 --> 0:01:36,000
+magnificados 100 veces para hacerlos visibles.
+
+26
+0:01:36.686,000 --> 0:01:39,000
+De hecho vemos el pulso humano.
+
+27
+0:01:39.953,000 --> 0:01:42,000
+Podemos ver la frecuencia del pulso de Steve,
+
+28
+0:01:43.18,000 --> 0:01:48,000
+y también cómo fluye la sangre en su cara.
+
+29
+0:01:48.544,000 --> 0:01:5,000
+Podemos hacer eso no solo para ver el pulso
+
+30
+0:01:51.175,000 --> 0:01:54,000
+sino para recuperar el ritmo cardiaco
+
+31
+0:01:54.646,000 --> 0:01:55,000
+y medirlo.
+
+32
+0:01:56.439,000 --> 0:02:,000
+Y lo podemos hacer con cámaras comunes sin tocar a los pacientes.
+
+33
+0:02:00.892,000 --> 0:02:05,000
+Aquí vemos el pulso y ritmo cardiaco de un bebé recién nacido
+
+34
+0:02:06.439,000 --> 0:02:08,000
+a partir de un video que tomamos con una cámara DSLR común
+
+35
+0:02:09.38,000 --> 0:02:11,000
+y la medición que obtuvimos del ritmo cardiaco
+
+36
+0:02:11.566,000 --> 0:02:15,000
+es tan precisa como la que se obtiene de un monitor estándar de hospital
+
+37
+0:02:15.887,000 --> 0:02:17,000
+y ni siquiera tiene que ser un video grabado por nosotros.
+
+38
+0:02:18.659,000 --> 0:02:2,000
+En esencia podemos hacerlo con otros videos también.
+
+39
+0:02:21.654,000 --> 0:02:24,000
+Tomé una secuencia de "Batman inicia"
+
+40
+0:02:25.555,000 --> 0:02:27,000
+solo para mostrar el pulso de Christian Bale.
+
+41
+0:02:27.719,000 --> 0:02:28,000
+(Risas)
+
+42
+0:02:29.281,000 --> 0:02:31,000
+Es de suponer que tiene maquillaje,
+
+43
+0:02:31.404,000 --> 0:02:32,000
+la luz aquí lo dificulta;
+
+44
+0:02:33.357,000 --> 0:02:35,000
+aun así, del video, pudimos extraer su pulso
+
+45
+0:02:36.308,000 --> 0:02:38,000
+y se muestra bastante bien.
+
+46
+0:02:38.326,000 --> 0:02:39,000
+¿Cómo lo hacemos?
+
+47
+0:02:40.246,000 --> 0:02:44,000
+Analizamos los cambios de luz que se registran
+
+48
+0:02:44.844,000 --> 0:02:46,000
+en cada pixel del video en el tiempo
+
+49
+0:02:47.115,000 --> 0:02:48,000
+y luego empalmamos esos cambios.
+
+50
+0:02:48.913,000 --> 0:02:5,000
+Los magnificamos para poder verlos.
+
+51
+0:02:51.075,000 --> 0:02:52,000
+El truco es que esas señales,
+
+52
+0:02:52.977,000 --> 0:02:54,000
+esos cambios que buscamos son en extremo sutiles,
+
+53
+0:02:55.91,000 --> 0:02:57,000
+por eso debemos ser cuidadosos al separarlos.
+
+54
+0:02:58.689,000 --> 0:03:01,000
+del ruido que siempre hay en los videos.
+
+55
+0:03:02.52,000 --> 0:03:04,000
+Así que usamos técnicas de procesamiento ingeniosas
+
+56
+0:03:05.515,000 --> 0:03:08,000
+para obtener mediciones precisas del color de cada pixel en el video
+
+57
+0:03:09.509,000 --> 0:03:11,000
+y la forma como cambia el color con el tiempo
+
+58
+0:03:12.179,000 --> 0:03:14,000
+para luego amplificar esos cambios.
+
+59
+0:03:14.872,000 --> 0:03:17,000
+Los agrandamos para crear videos realzados o magnificados,
+
+60
+0:03:18.852,000 --> 0:03:2,000
+que en efecto nos muestran esos cambios.
+
+61
+0:03:21.024,000 --> 0:03:25,000
+Pero resulta que podemos hacer eso no solo para cambios leves de color,
+
+62
+0:03:25.262,000 --> 0:03:27,000
+sino también para movimientos leves,
+
+63
+0:03:27.503,000 --> 0:03:3,000
+y eso se debe a que la luz grabada por nuestras cámaras,
+
+64
+0:03:31.079,000 --> 0:03:33,000
+cambiará no solo si el color del objeto cambia,
+
+65
+0:03:33.889,000 --> 0:03:35,000
+sino también cuando el objeto se mueve.
+
+66
+0:03:36.257,000 --> 0:03:39,000
+Esta es mi hija cuando tenía dos meses de edad.
+
+67
+0:03:39.893,000 --> 0:03:41,000
+Es un video que grabé hace tres años.
+
+68
+0:03:42.892,000 --> 0:03:45,000
+Como todo padre primerizo, queremos saber que nuestros bebés están bien,
+
+69
+0:03:46.32,000 --> 0:03:48,000
+que están respirando y que están vivos, claro.
+
+70
+0:03:48.642,000 --> 0:03:5,000
+Así que también teníamos uno de esos monitores de bebé
+
+71
+0:03:51.224,000 --> 0:03:53,000
+para poder ver a mi hija cuando dormía.
+
+72
+0:03:53.253,000 --> 0:03:56,000
+Y esto es lo que verían con un monitor de bebé estándar.
+
+73
+0:03:56.78,000 --> 0:03:59,000
+Pueden ver al bebé durmiendo, pero no hay mucha más información.
+
+74
+0:04:00.474,000 --> 0:04:01,000
+No hay mucho que podamos ver.
+
+75
+0:04:02.078,000 --> 0:04:04,000
+¿No sería mejor o más útil o más informativo
+
+76
+0:04:04.902,000 --> 0:04:06,000
+si en cambio pudiéramos ver esto?
+
+77
+0:04:07.892,000 --> 0:04:13,000
+Grabé estos movimientos y los magnifiqué 30 veces.
+
+78
+0:04:14.248,000 --> 0:04:17,000
+Y puedo ver claramente que mi hija en efecto está viva y respirando.
+
+79
+0:04:18.074,000 --> 0:04:2,000
+(Risas)
+
+80
+0:04:20.327,000 --> 0:04:21,000
+Aquí tienen una comparación en paralelo
+
+81
+0:04:22.249,000 --> 0:04:24,000
+del video fuente, el video original,
+
+82
+0:04:24.732,000 --> 0:04:25,000
+en el que no podemos ver mucho;
+
+83
+0:04:26.368,000 --> 0:04:29,000
+pero una vez magnificados, la respiración se hace más visible.
+
+84
+0:04:30.075,000 --> 0:04:32,000
+Y resulta que hay muchos fenómenos
+
+85
+0:04:32.145,000 --> 0:04:35,000
+que podemos revelar y magnificar con nuestro microscopio de movimiento.
+
+86
+0:04:35.768,000 --> 0:04:39,000
+Podemos ver cómo pulsan nuestras venas y arterias del cuerpo,
+
+87
+0:04:40.332,000 --> 0:04:42,000
+que nuestros ojos están en movimiento constante
+
+88
+0:04:42.96,000 --> 0:04:43,000
+en este movimiento tembloroso.
+
+89
+0:04:44.847,000 --> 0:04:45,000
+Y ese es de hecho mi ojo
+
+90
+0:04:46.356,000 --> 0:04:49,000
+y este video fue tomado justo después de que nació mi hija;
+
+91
+0:04:49.421,000 --> 0:04:53,000
+pueden ver que no había dormido mucho. (Risas)
+
+92
+0:04:53.623,000 --> 0:04:55,000
+Incluso si una persona está quieta,
+
+93
+0:04:56.339,000 --> 0:04:58,000
+hay mucha información que podemos extraer
+
+94
+0:04:58.383,000 --> 0:05:01,000
+sobre sus patrones de respiración, leves expresiones faciales.
+
+95
+0:05:01.912,000 --> 0:05:02,000
+Quizá pudiéramos usar esos movimientos
+
+96
+0:05:03.727,000 --> 0:05:05,000
+para que nos digan algo de nuestros pensamientos y emociones.
+
+97
+0:05:06.691,000 --> 0:05:09,000
+También podemos magnificar movimientos mecánicos diminutos
+
+98
+0:05:09.946,000 --> 0:05:1,000
+como las vibraciones en máquinas
+
+99
+0:05:11.501,000 --> 0:05:14,000
+que pueden servir para detectar problemas mecánicos
+
+100
+0:05:15.193,000 --> 0:05:19,000
+o ver cómo edificios y estructuras reaccionan con el viento o fuerzas.
+
+101
+0:05:19.931,000 --> 0:05:23,000
+Todas ellas son mediciones que hacemos de varias formas,
+
+102
+0:05:24.512,000 --> 0:05:26,000
+pero medir esos movimientos es una cosa
+
+103
+0:05:26.965,000 --> 0:05:28,000
+y en efecto verlos cuando ocurren
+
+104
+0:05:29.241,000 --> 0:05:31,000
+es algo totalmente diferente.
+
+105
+0:05:31.715,000 --> 0:05:34,000
+Desde que descubrimos esta nueva tecnología,
+
+106
+0:05:34.776,000 --> 0:05:37,000
+pusimos nuestro código en línea para que otros puedan usarlo y experimentar con él.
+
+107
+0:05:38.729,000 --> 0:05:39,000
+Es muy sencilla de usar.
+
+108
+0:05:40.664,000 --> 0:05:41,000
+Puede funcionar con sus propios videos.
+
+109
+0:05:42.658,000 --> 0:05:44,000
+Nuestros colaboradores en Quantum Research incluso crearon
+
+110
+0:05:45.441,000 --> 0:05:48,000
+un sitio web donde pueden subir sus videos y procesarlos en línea.
+
+111
+0:05:48.579,000 --> 0:05:51,000
+Así, aunque no tengan experiencia en programación,
+
+112
+0:05:52.395,000 --> 0:05:54,000
+pueden fácilmente experimentar con este nuevo microscopio.
+
+113
+0:05:55.331,000 --> 0:05:57,000
+Quisiera mostrarles un par de ejemplos
+
+114
+0:05:57.735,000 --> 0:05:59,000
+de lo que otros han hecho con él.
+
+115
+0:06:00.47,000 --> 0:06:05,000
+Este video lo hizo para YouTube, el usuario Tamez85,
+
+116
+0:06:05.787,000 --> 0:06:06,000
+a quien no conozco,
+
+117
+0:06:07.25,000 --> 0:06:09,000
+pero él o ella usó nuestro código
+
+118
+0:06:09.595,000 --> 0:06:12,000
+para magnificar los leves movimientos del vientre durante el embarazo.
+
+119
+0:06:13.31,000 --> 0:06:14,000
+Es un poco escalofriante.
+
+120
+0:06:14.912,000 --> 0:06:15,000
+(Risas)
+
+121
+0:06:16.525,000 --> 0:06:2,000
+La gente lo ha usado para magnificar las venas de sus manos.
+
+122
+0:06:21.486,000 --> 0:06:24,000
+No es ciencia real a menos de que usen conejillos de indias
+
+123
+0:06:25.268,000 --> 0:06:28,000
+y aparentemente este conejillo de indias se llama Tiffany.
+
+124
+0:06:28.658,000 --> 0:06:3,000
+Y este usuario de YouTube afirma que es el primer roedor
+
+125
+0:06:31.607,000 --> 0:06:33,000
+del planeta cuyo movimiento ha sido magnificado.
+
+126
+0:06:34.295,000 --> 0:06:36,000
+También pueden hacer arte.
+
+127
+0:06:36.483,000 --> 0:06:39,000
+Este video me lo envió una estudiante de diseño de Yale.
+
+128
+0:06:39.501,000 --> 0:06:4,000
+Quiso ver si había diferencias
+
+129
+0:06:40.938,000 --> 0:06:42,000
+en los movimientos de sus compañeros de clase.
+
+130
+0:06:43.16,000 --> 0:06:47,000
+Les pidió que estuvieran quietos y luego magnificó sus movimientos.
+
+131
+0:06:47.369,000 --> 0:06:5,000
+Es como ver fotos fijas que toman vida.
+
+132
+0:06:50.747,000 --> 0:06:52,000
+Lo agradable de todos estos ejemplos
+
+133
+0:06:53.18,000 --> 0:06:55,000
+es que no tenemos nada que ver con ellos.
+
+134
+0:06:55.476,000 --> 0:06:58,000
+Solo ofrecimos una nueva herramienta, una forma nueva de ver el mundo
+
+135
+0:06:59.33,000 --> 0:07:04,000
+y la gente encuentra formas nuevas, creativas e interesantes de usarla.
+
+136
+0:07:04.462,000 --> 0:07:05,000
+Pero no nos quedamos ahí.
+
+137
+0:07:06.226,000 --> 0:07:09,000
+Esta herramienta no solo nos permite ver el mundo de una nueva manera,
+
+138
+0:07:09.527,000 --> 0:07:11,000
+también redefine lo que podemos hacer
+
+139
+0:07:11.845,000 --> 0:07:14,000
+y reduce los límites de lo que podemos hacer con nuestras cámaras.
+
+140
+0:07:15.026,000 --> 0:07:17,000
+Como científicos nos empezamos a preguntar,
+
+141
+0:07:17.255,000 --> 0:07:2,000
+¿qué otros fenómenos físicos producen movimientos diminutos
+
+142
+0:07:21.04,000 --> 0:07:23,000
+que podamos ahora medir con nuestras cámaras?
+
+143
+0:07:23.943,000 --> 0:07:27,000
+Uno de esos fenómenos al que nos enfocamos es el sonido.
+
+144
+0:07:27.944,000 --> 0:07:28,000
+El sonido, como sabemos, es en esencia
+
+145
+0:07:29.779,000 --> 0:07:31,000
+cambios en la presión de aire que viaja por el aire.
+
+146
+0:07:32.282,000 --> 0:07:35,000
+Esas ondas de presión golpean objetos y crean diminutas vibraciones
+
+147
+0:07:35.853,000 --> 0:07:37,000
+que es como escuchamos y grabamos el sonido.
+
+148
+0:07:38.385,000 --> 0:07:41,000
+Pero resulta que el sonido también produce movimientos visuales
+
+149
+0:07:42.053,000 --> 0:07:44,000
+que no son visibles para nosotros,
+
+150
+0:07:44.886,000 --> 0:07:47,000
+pero sí para una cámara con el procesamiento correcto.
+
+151
+0:07:47.887,000 --> 0:07:48,000
+He aquí dos ejemplos.
+
+152
+0:07:49.46,000 --> 0:07:51,000
+Aquí estoy demostrando mis aptitudes de canto.
+
+153
+0:07:53.064,000 --> 0:07:54,000
+(Canta)
+
+154
+0:07:54.698,000 --> 0:07:55,000
+(Risas)
+
+155
+0:07:56.114,000 --> 0:07:59,000
+Tomé un video en alta velocidad de mi garganta mientras tarareaba.
+
+156
+0:07:59.28,000 --> 0:08:,000
+Y si miran fijamente el video
+
+157
+0:08:00.884,000 --> 0:08:02,000
+no hay mucho que puedan ver,
+
+158
+0:08:02.96,000 --> 0:08:06,000
+pero al magnificarlo 100 veces, vemos los movimientos
+
+159
+0:08:07.292,000 --> 0:08:1,000
+y ondulaciones involucrados del cuello al producir sonido.
+
+160
+0:08:10.566,000 --> 0:08:12,000
+Esa señal está ahí en el video.
+
+161
+0:08:13.236,000 --> 0:08:16,000
+También sabemos que los cantantes pueden romper una copa de vino,
+
+162
+0:08:16.326,000 --> 0:08:17,000
+si dan la nota correcta.
+
+163
+0:08:17.469,000 --> 0:08:18,000
+Aquí tocaremos una nota
+
+164
+0:08:19.204,000 --> 0:08:21,000
+en la frecuencia de resonancia de esta copa
+
+165
+0:08:21.73,000 --> 0:08:23,000
+con un parlante a un lado.
+
+166
+0:08:23.778,000 --> 0:08:27,000
+Tocamos la nota y magnificamos el movimiento 250 veces.
+
+167
+0:08:28.197,000 --> 0:08:3,000
+Podemos ver claramente cómo vibra la copa
+
+168
+0:08:30.535,000 --> 0:08:33,000
+y resuena en respuesta al sonido.
+
+169
+0:08:34.105,000 --> 0:08:36,000
+No es algo que se suela ver a diario.
+
+170
+0:08:36.525,000 --> 0:08:39,000
+Pero esto nos hizo reflexionar en una idea loca.
+
+171
+0:08:40.054,000 --> 0:08:45,000
+¿Podemos invertir este proceso y recuperar sonido del video
+
+172
+0:08:45.662,000 --> 0:08:49,000
+analizando las diminutas vibraciones que las ondas sonoras crean en objetos
+
+173
+0:08:49.697,000 --> 0:08:53,000
+y convertirlos de vuelta en los sonidos que los produjeron?
+
+174
+0:08:54.474,000 --> 0:08:58,000
+De esta forma podemos convertir objetos cotidianos en micrófonos.
+
+175
+0:08:58.931,000 --> 0:09:,000
+Y eso hicimos exactamente.
+
+176
+0:09:01.163,000 --> 0:09:03,000
+Esta es una bolsa vacía de papas sobre una mesa
+
+177
+0:09:03.979,000 --> 0:09:05,000
+y convertiremos esta bolsa de papas en un micrófono
+
+178
+0:09:06.774,000 --> 0:09:07,000
+filmándola con una cámara de video
+
+179
+0:09:08.395,000 --> 0:09:11,000
+y analizando los leves movimientos que las ondas sonoras hacen.
+
+180
+0:09:11.623,000 --> 0:09:13,000
+Este es el sonido que tocamos.
+
+181
+0:09:14.419,000 --> 0:09:2,000
+(Música: "María tenía un corderito")
+
+182
+0:09:22.157,000 --> 0:09:25,000
+Este es un video a alta velocidad grabado de esa bolsa de papas.
+
+183
+0:09:25.212,000 --> 0:09:26,000
+Otra vez, está tocando.
+
+184
+0:09:26.306,000 --> 0:09:29,000
+No hay forma de que puedan ver que suceda algo en ese video
+
+185
+0:09:29.648,000 --> 0:09:3,000
+con solo mirarlo,
+
+186
+0:09:30.706,000 --> 0:09:32,000
+pero este es el sonido que pudimos recuperar analizando
+
+187
+0:09:33.69,000 --> 0:09:35,000
+los leves movimientos del video.
+
+188
+0:09:35.873,000 --> 0:09:37,000
+(Música: "María tenía un corderito")
+
+189
+0:09:52.985,000 --> 0:09:53,000
+Le llamo... gracias.
+
+190
+0:09:54.471,000 --> 0:09:59,000
+(Aplausos)
+
+191
+0:10:01.878,000 --> 0:10:03,000
+Le llamo el micrófono visual.
+
+192
+0:10:04.223,000 --> 0:10:07,000
+De hecho extraemos señales de audio de las señales de video.
+
+193
+0:10:07.613,000 --> 0:10:1,000
+Solo para darles un sentido de la escala del movimiento,
+
+194
+0:10:10.799,000 --> 0:10:15,000
+un sonido fuerte hará que esa bolsa de papas se mueva menos de un micrómetro,
+
+195
+0:10:16.135,000 --> 0:10:18,000
+esto es una milésima de un milímetro.
+
+196
+0:10:18.874,000 --> 0:10:21,000
+Así de pequeños son los movimientos que ahora podemos sacar
+
+197
+0:10:22.435,000 --> 0:10:25,000
+con tan solo observar los rebotes de luz en los objetos
+
+198
+0:10:25.678,000 --> 0:10:27,000
+que grabamos con nuestras cámaras.
+
+199
+0:10:27.814,000 --> 0:10:3,000
+Podemos recuperar sonidos de otros objetos como plantas.
+
+200
+0:10:31.064,000 --> 0:10:37,000
+(Música: "María tenía un corderito")
+
+201
+0:10:39.214,000 --> 0:10:4,000
+Lo mismo que el habla.
+
+202
+0:10:41.211,000 --> 0:10:43,000
+Esta es una persona hablando.
+
+203
+0:10:43.788,000 --> 0:10:47,000
+Voz: María tenía un corderito cuya lana era blanca como la nieve
+
+204
+0:10:47.991,000 --> 0:10:51,000
+y adonde fuera María, el corderito seguro la seguía.
+
+205
+0:10:52.221,000 --> 0:10:54,000
+Michael Rubinstein: Y aquí tienen esa alocución recuperada
+
+206
+0:10:54.98,000 --> 0:10:57,000
+de este video con la misma bolsa de papas.
+
+207
+0:10:58.254,000 --> 0:11:02,000
+Voz: María tenía un corderito, cuya lana era blanca como la nieve
+
+208
+0:11:03.085,000 --> 0:11:07,000
+y adonde fuera María, el corderito seguro la seguía.
+
+209
+0:11:07.944,000 --> 0:11:09,000
+MR: Usamos "María tenía un corderito",
+
+210
+0:11:10.29,000 --> 0:11:12,000
+porque se dice que esas fueron las primeras palabras
+
+211
+0:11:12.763,000 --> 0:11:15,000
+que Tomás Edison dijo con su fonógrafo en 1877.
+
+212
+0:11:16.414,000 --> 0:11:19,000
+Uno de los primeros dispositivos de grabación de sonido de la historia.
+
+213
+0:11:19.792,000 --> 0:11:22,000
+Básicamente dirige el sonido a un diafragma,
+
+214
+0:11:23.129,000 --> 0:11:27,000
+que hace vibrar una aguja que graba el sonido en papel estaño
+
+215
+0:11:27.208,000 --> 0:11:29,000
+enrollado en un cilindro.
+
+216
+0:11:29.483,000 --> 0:11:34,000
+Esta es una demostración de grabación y reproducción del fonógrafo de Edison.
+
+217
+0:11:35.426,000 --> 0:11:38,000
+(Video) Voz: Probando, probando, uno, dos tres.
+
+218
+0:11:38.446,000 --> 0:11:41,000
+María tenía un corderito cuya lana era blanca como la nieve
+
+219
+0:11:41.859,000 --> 0:11:44,000
+y adonde fuera María, el corderito seguro la seguía.
+
+220
+0:11:45.528,000 --> 0:11:47,000
+Probando, probando, uno, dos tres.
+
+221
+0:11:48.268,000 --> 0:11:52,000
+María tenía un corderito cuya lana era blanca como la nieve
+
+222
+0:11:52.424,000 --> 0:11:57,000
+y adonde fuera María, el corderito seguro la seguía.
+
+223
+0:11:57.648,000 --> 0:12:01,000
+MR: Y ahora, 137 años después,
+
+224
+0:12:01.665,000 --> 0:12:05,000
+podemos obtener sonido con una calidad bastante similar
+
+225
+0:12:05.752,000 --> 0:12:09,000
+tan solo mirando objetos que vibran con el sonido usando cámaras
+
+226
+0:12:09.831,000 --> 0:12:1,000
+e incluso podemos hacerlo con la cámara
+
+227
+0:12:11.765,000 --> 0:12:15,000
+a casi 5 metros del objeto detrás de un vidrio insonorizado.
+
+228
+0:12:15.999,000 --> 0:12:18,000
+Este es el sonido que pudimos recuperar en este caso.
+
+229
+0:12:19.219,000 --> 0:12:24,000
+Voz: María tenía un corderito cuya lana era blanca como la nieve
+
+230
+0:12:24.513,000 --> 0:12:28,000
+y adonde fuera María, el corderito seguro la seguía.
+
+231
+0:12:29.404,000 --> 0:12:32,000
+MR: Claro está que la vigilancia es la primera aplicación que imaginamos.
+
+232
+0:12:33.034,000 --> 0:12:35,000
+(Risas)
+
+233
+0:12:36.029,000 --> 0:12:4,000
+Pero quizá también sería útil para otras cosas.
+
+234
+0:12:40.085,000 --> 0:12:42,000
+Quizá en el futuro, podamos usarlo por ejemplo,
+
+235
+0:12:42.925,000 --> 0:12:44,000
+para recuperar sonido del espacio
+
+236
+0:12:45.177,000 --> 0:12:48,000
+porque el sonido no puede viajar en el espacio, pero sí la luz.
+
+237
+0:12:48.753,000 --> 0:12:5,000
+Apenas estamos explorando
+
+238
+0:12:51.157,000 --> 0:12:54,000
+otros posibles usos para esta nueva tecnología.
+
+239
+0:12:54.176,000 --> 0:12:56,000
+Nos permite ver procesos físicos que conocemos,
+
+240
+0:12:57.008,000 --> 0:13:,000
+pero que nunca hemos podido verlos con nuestros propios ojos hasta ahora.
+
+241
+0:13:00.974,000 --> 0:13:01,000
+Este es nuestro equipo.
+
+242
+0:13:02.068,000 --> 0:13:04,000
+Todo lo mostrado hoy es resultado de una colaboración
+
+243
+0:13:04.647,000 --> 0:13:06,000
+con este grandioso equipo de gente que ven aquí.
+
+244
+0:13:06.838,000 --> 0:13:09,000
+Son bienvenidos a visitar nuestro sitio web
+
+245
+0:13:10.005,000 --> 0:13:11,000
+para que los prueben Uds. mismos
+
+246
+0:13:11.561,000 --> 0:13:13,000
+y exploren con nosotros este mundo de movimientos diminutos.
+
+247
+0:13:14.423,000 --> 0:13:15,000
+Gracias.
+
+248
+0:13:16.048,000 --> 0:13:17,000
+(Aplausos)
+

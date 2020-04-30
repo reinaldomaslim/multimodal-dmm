@@ -1,0 +1,456 @@
+1
+0:00:12.913,000 --> 0:00:15,000
+About two and a half years ago, I watched this movie called "Her."
+
+2
+0:00:16.365,000 --> 0:00:21,000
+And it features Samantha, a superintelligent form of AI
+
+3
+0:00:21.516,000 --> 0:00:22,000
+that cannot take physical form.
+
+4
+0:00:23.858,000 --> 0:00:25,000
+And because she can't appear in photographs,
+
+5
+0:00:26.112,000 --> 0:00:28,000
+Samantha decides to write a piece of music
+
+6
+0:00:28.152,000 --> 0:00:31,000
+that will capture a moment of her life just like a photograph would.
+
+7
+0:00:32.953,000 --> 0:00:36,000
+As a musician and an engineer, and someone raised in a family of artists,
+
+8
+0:00:37.385,000 --> 0:00:41,000
+I thought that this idea of musical photographs was really powerful.
+
+9
+0:00:41.955,000 --> 0:00:43,000
+And I decided to create an AI composer.
+
+10
+0:00:44.847,000 --> 0:00:47,000
+Her name is AIVA, and she's an artificial intelligence
+
+11
+0:00:48.359,000 --> 0:00:5,000
+that has learned the art of music composition
+
+12
+0:00:50.776,000 --> 0:00:52,000
+by reading over 30,000 scores of history's greatest.
+
+13
+0:00:54.165,000 --> 0:00:56,000
+So here's what one score looks like to the algorithm
+
+14
+0:00:56.645,000 --> 0:00:58,000
+in a matrix-like representation.
+
+15
+0:00:58.871,000 --> 0:01:,000
+And here's what 30,000 scores,
+
+16
+0:01:01.141,000 --> 0:01:03,000
+written by the likes of Mozart and Beethoven,
+
+17
+0:01:03.261,000 --> 0:01:05,000
+look like in a single frame.
+
+18
+0:01:07.609,000 --> 0:01:11,000
+So, using deep neural networks, AIVA looks for patterns in the scores.
+
+19
+0:01:12.26,000 --> 0:01:15,000
+And from a couple of bars of existing music,
+
+20
+0:01:15.847,000 --> 0:01:18,000
+it actually tries to infer what notes should come next in those tracks.
+
+21
+0:01:19.887,000 --> 0:01:21,000
+And once AIVA gets good at those predictions,
+
+22
+0:01:22.409,000 --> 0:01:25,000
+it can actually build a set of mathematical rules
+
+23
+0:01:26.046,000 --> 0:01:27,000
+for that style of music
+
+24
+0:01:27.236,000 --> 0:01:29,000
+in order to create its own original compositions.
+
+25
+0:01:30.49,000 --> 0:01:33,000
+And in a way, this is kind of how we, humans, compose music, too.
+
+26
+0:01:34.561,000 --> 0:01:35,000
+It's a trial-and-error process,
+
+27
+0:01:36.077,000 --> 0:01:39,000
+during which we may not get the right notes all the time.
+
+28
+0:01:39.109,000 --> 0:01:4,000
+But we can correct ourselves,
+
+29
+0:01:40.522,000 --> 0:01:43,000
+either with our musical ear or our musical knowledge.
+
+30
+0:01:45.495,000 --> 0:01:49,000
+But for AIVA, this process is taken from years and years of learning,
+
+31
+0:01:49.662,000 --> 0:01:52,000
+decades of learning as an artist, as a musician and a composer,
+
+32
+0:01:52.948,000 --> 0:01:53,000
+down to a couple of hours.
+
+33
+0:01:55.03,000 --> 0:01:57,000
+But music is also a supersubjective art.
+
+34
+0:01:57.934,000 --> 0:01:58,000
+And we needed to teach AIVA
+
+35
+0:01:59.522,000 --> 0:02:01,000
+how to compose the right music for the right person,
+
+36
+0:02:01.991,000 --> 0:02:03,000
+because people have different preferences.
+
+37
+0:02:04.156,000 --> 0:02:08,000
+And to do that, we show to the algorithm over 30 different category labels
+
+38
+0:02:08.37,000 --> 0:02:09,000
+for each score in our database.
+
+39
+0:02:10.339,000 --> 0:02:12,000
+So those category labels are like mood
+
+40
+0:02:12.879,000 --> 0:02:14,000
+or note density or composer style of a piece
+
+41
+0:02:15.823,000 --> 0:02:17,000
+or the epoch during which it was written.
+
+42
+0:02:18.371,000 --> 0:02:19,000
+And by seeing all this data,
+
+43
+0:02:20.33,000 --> 0:02:23,000
+AIVA can actually respond to very precise requirements.
+
+44
+0:02:23.966,000 --> 0:02:26,000
+Like the ones, for example, we had for a project recently,
+
+45
+0:02:27.093,000 --> 0:02:3,000
+where we were commissioned to create a piece
+
+46
+0:02:30.152,000 --> 0:02:33,000
+that would be reminiscent of a science-fiction film soundtrack.
+
+47
+0:02:33.839,000 --> 0:02:37,000
+And the piece that was created is called "Among the Stars"
+
+48
+0:02:38.363,000 --> 0:02:41,000
+and it was recorded with CMG Orchestra in Hollywood,
+
+49
+0:02:41.704,000 --> 0:02:42,000
+under great conductor John Beal,
+
+50
+0:02:43.442,000 --> 0:02:46,000
+and this is what they recorded, made by AIVA.
+
+51
+0:02:47.657,000 --> 0:02:54,000
+(Music)
+
+52
+0:03:30.196,000 --> 0:03:32,000
+(Music ends)
+
+53
+0:03:34.719,000 --> 0:03:35,000
+What do you think?
+
+54
+0:03:35.95,000 --> 0:03:39,000
+(Applause)
+
+55
+0:03:40.354,000 --> 0:03:41,000
+Thank you.
+
+56
+0:03:42.001,000 --> 0:03:46,000
+So, as you've seen, AI can create beautiful pieces of music,
+
+57
+0:03:46.08,000 --> 0:03:47,000
+and the best part of it
+
+58
+0:03:47.907,000 --> 0:03:49,000
+is that humans can actually bring them to life.
+
+59
+0:03:51.506,000 --> 0:03:52,000
+And it's not the first time in history
+
+60
+0:03:53.368,000 --> 0:03:56,000
+that technology has augmented human creativity.
+
+61
+0:03:56.736,000 --> 0:03:59,000
+Live music was almost always used in silent films
+
+62
+0:03:59.832,000 --> 0:04:,000
+to augment the experience.
+
+63
+0:04:01.522,000 --> 0:04:04,000
+But the problem with live music is that it didn't scale.
+
+64
+0:04:04.728,000 --> 0:04:07,000
+It's really hard to cram a full symphony into a small theater,
+
+65
+0:04:08.181,000 --> 0:04:1,000
+and it's really hard to do that for every theater in the world.
+
+66
+0:04:11.196,000 --> 0:04:13,000
+So when music recording was actually invented,
+
+67
+0:04:14.069,000 --> 0:04:16,000
+it allowed content creators, like film creators,
+
+68
+0:04:16.442,000 --> 0:04:18,000
+to have prerecorded and original music
+
+69
+0:04:19.252,000 --> 0:04:21,000
+tailored to each and every frame of their stories.
+
+70
+0:04:22.149,000 --> 0:04:24,000
+And that was really an enhancer of creativity.
+
+71
+0:04:26.617,000 --> 0:04:29,000
+Two and a half years ago, when I watched this movie "Her,"
+
+72
+0:04:29.927,000 --> 0:04:31,000
+I thought to myself that personalized music
+
+73
+0:04:32.858,000 --> 0:04:36,000
+would be the next single biggest change in how we consume and create music.
+
+74
+0:04:38.187,000 --> 0:04:42,000
+Because nowadays, we have interactive content, like video games,
+
+75
+0:04:42.433,000 --> 0:04:45,000
+that have hundreds of hours of interactive game plays,
+
+76
+0:04:45.472,000 --> 0:04:47,000
+but only two hours of music, on average.
+
+77
+0:04:47.609,000 --> 0:04:49,000
+And it means that the music loops and loops and loops
+
+78
+0:04:50.125,000 --> 0:04:52,000
+over and over again, and it's not very immersive.
+
+79
+0:04:52.467,000 --> 0:04:55,000
+So what we're working on is to make sure that AI can compose
+
+80
+0:04:56.442,000 --> 0:04:58,000
+hundreds of hours of personalized music
+
+81
+0:04:58.768,000 --> 0:05:01,000
+for those use cases where human creativity doesn't scale.
+
+82
+0:05:03.363,000 --> 0:05:05,000
+And we don't just want to do that for games.
+
+83
+0:05:06.657,000 --> 0:05:1,000
+Beethoven actually wrote a piece for his beloved, called "Für Elise,"
+
+84
+0:05:11.109,000 --> 0:05:14,000
+and imagine if we could bring back Beethoven to life.
+
+85
+0:05:14.784,000 --> 0:05:19,000
+And if he was sitting next to you, composing a music for your personality
+
+86
+0:05:20.038,000 --> 0:05:21,000
+and your life story.
+
+87
+0:05:22.632,000 --> 0:05:24,000
+Or imagine if someone like Martin Luther King, for example,
+
+88
+0:05:25.435,000 --> 0:05:27,000
+had a personalized AI composer.
+
+89
+0:05:27.498,000 --> 0:05:28,000
+Maybe then we would remember
+
+90
+0:05:28.895,000 --> 0:05:3,000
+"I Have a Dream" not only as a great speech,
+
+91
+0:05:30.975,000 --> 0:05:32,000
+but also as a great piece of music, part of our history,
+
+92
+0:05:33.625,000 --> 0:05:35,000
+and capturing Dr. King's ideals.
+
+93
+0:05:36.069,000 --> 0:05:37,000
+And this is our vision at AIVA:
+
+94
+0:05:37.982,000 --> 0:05:39,000
+to personalize music so that each and every one of you
+
+95
+0:05:40.584,000 --> 0:05:41,000
+and every individual in the world
+
+96
+0:05:42.257,000 --> 0:05:45,000
+can have access to a personalized live soundtrack,
+
+97
+0:05:45.355,000 --> 0:05:47,000
+based on their story and their personality.
+
+98
+0:05:49.915,000 --> 0:05:53,000
+So this moment here together at TED is now part of our life story.
+
+99
+0:05:54.018,000 --> 0:05:58,000
+So it only felt fitting that AIVA would compose music for this moment.
+
+100
+0:05:58.674,000 --> 0:06:,000
+And that's exactly what we did.
+
+101
+0:06:01.436,000 --> 0:06:06,000
+So my team and I worked on biasing AIVA on the style of the TED jingle,
+
+102
+0:06:06.482,000 --> 0:06:09,000
+and on music that makes us feel a sense of awe and wonder.
+
+103
+0:06:09.95,000 --> 0:06:12,000
+And the result is called "The Age of Amazement."
+
+104
+0:06:13.887,000 --> 0:06:15,000
+Didn't take an AI to figure that one out.
+
+105
+0:06:16.307,000 --> 0:06:17,000
+(Laughter)
+
+106
+0:06:18.152,000 --> 0:06:2,000
+And I couldn't be more proud to show it to you,
+
+107
+0:06:20.578,000 --> 0:06:22,000
+so if you can, close your eyes and enjoy the music.
+
+108
+0:06:23.03,000 --> 0:06:24,000
+Thank you very much.
+
+109
+0:06:25.537,000 --> 0:06:29,000
+(Music)
+
+110
+0:06:35.176,000 --> 0:06:37,000
+[The Age of Amazement Composed by AIVA]
+
+111
+0:08:19.649,000 --> 0:08:2,000
+(Music ends)
+
+112
+0:08:20.824,000 --> 0:08:21,000
+This was for all of you.
+
+113
+0:08:22.221,000 --> 0:08:23,000
+Thank you.
+
+114
+0:08:23.411,000 --> 0:08:27,000
+(Applause)
+

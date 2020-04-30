@@ -1,0 +1,1040 @@
+1
+0:00:,000 --> 0:00:07,000
+Translator: Joseph Geni Reviewer: Morton Bast
+
+2
+0:00:15.863,000 --> 0:00:18,000
+So, this book that I have in my hand
+
+3
+0:00:18.929,000 --> 0:00:21,000
+is a directory of everybody who had an email address
+
+4
+0:00:22.863,000 --> 0:00:25,000
+in 1982. (Laughter)
+
+5
+0:00:26.382,000 --> 0:00:29,000
+Actually, it's deceptively large.
+
+6
+0:00:30.067,000 --> 0:00:33,000
+There's actually only about 20 people on each page,
+
+7
+0:00:33.504,000 --> 0:00:34,000
+because we have the name, address
+
+8
+0:00:35.394,000 --> 0:00:38,000
+and telephone number of every single person.
+
+9
+0:00:38.487,000 --> 0:00:4,000
+And, in fact, everybody's listed twice,
+
+10
+0:00:40.67,000 --> 0:00:44,000
+because it's sorted once by name and once by email address.
+
+11
+0:00:45.228,000 --> 0:00:47,000
+Obviously a very small community.
+
+12
+0:00:48.129,000 --> 0:00:51,000
+There were only two other Dannys on the Internet then.
+
+13
+0:00:51.56,000 --> 0:00:52,000
+I knew them both.
+
+14
+0:00:53.16,000 --> 0:00:54,000
+We didn't all know each other,
+
+15
+0:00:54.916,000 --> 0:00:57,000
+but we all kind of trusted each other,
+
+16
+0:00:58.029,000 --> 0:01:01,000
+and that basic feeling of trust
+
+17
+0:01:01.827,000 --> 0:01:03,000
+permeated the whole network,
+
+18
+0:01:04.414,000 --> 0:01:06,000
+and there was a real sense that
+
+19
+0:01:06.771,000 --> 0:01:09,000
+we could depend on each other to do things.
+
+20
+0:01:09.777,000 --> 0:01:12,000
+So just to give you an idea of the level of trust in this community,
+
+21
+0:01:13.352,000 --> 0:01:14,000
+let me tell you what it was like
+
+22
+0:01:14.977,000 --> 0:01:18,000
+to register a domain name in the early days.
+
+23
+0:01:19.082,000 --> 0:01:21,000
+Now, it just so happened that I got to register
+
+24
+0:01:21.712,000 --> 0:01:23,000
+the third domain name on the Internet.
+
+25
+0:01:24.172,000 --> 0:01:25,000
+So I could have anything I wanted
+
+26
+0:01:25.82,000 --> 0:01:29,000
+other than bbn.com and symbolics.com.
+
+27
+0:01:30.265,000 --> 0:01:33,000
+So I picked think.com, but then I thought,
+
+28
+0:01:33.679,000 --> 0:01:35,000
+you know, there's a lot of really interesting names out there.
+
+29
+0:01:36.665,000 --> 0:01:4,000
+Maybe I should register a few extras just in case.
+
+30
+0:01:40.874,000 --> 0:01:43,000
+And then I thought, "Nah, that wouldn't be very nice."
+
+31
+0:01:44.158,000 --> 0:01:49,000
+(Laughter)
+
+32
+0:01:49.853,000 --> 0:01:52,000
+That attitude of only taking what you need
+
+33
+0:01:53.482,000 --> 0:01:57,000
+was really what everybody had on the network in those days,
+
+34
+0:01:57.526,000 --> 0:02:,000
+and in fact, it wasn't just the people on the network,
+
+35
+0:02:00.823,000 --> 0:02:02,000
+but it was actually kind of built into the protocols
+
+36
+0:02:03.543,000 --> 0:02:04,000
+of the Internet itself.
+
+37
+0:02:05.487,000 --> 0:02:08,000
+So the basic idea of I.P., or Internet protocol,
+
+38
+0:02:09.346,000 --> 0:02:12,000
+and the way that the -- the routing algorithm that used it,
+
+39
+0:02:13.075,000 --> 0:02:17,000
+were fundamentally "from each according to their ability,
+
+40
+0:02:17.204,000 --> 0:02:19,000
+to each according to their need."
+
+41
+0:02:19.322,000 --> 0:02:22,000
+And so, if you had some extra bandwidth,
+
+42
+0:02:22.335,000 --> 0:02:23,000
+you'd deliver a message for someone.
+
+43
+0:02:23.778,000 --> 0:02:25,000
+If they had some extra bandwidth, they would deliver a message for you.
+
+44
+0:02:26.771,000 --> 0:02:28,000
+You'd kind of depend on people to do that,
+
+45
+0:02:28.785,000 --> 0:02:3,000
+and that was the building block.
+
+46
+0:02:31.449,000 --> 0:02:33,000
+It was actually interesting that such a communist principle
+
+47
+0:02:34.076,000 --> 0:02:36,000
+was the basis of a system developed during the Cold War
+
+48
+0:02:36.512,000 --> 0:02:38,000
+by the Defense Department,
+
+49
+0:02:38.943,000 --> 0:02:41,000
+but it obviously worked really well,
+
+50
+0:02:42.013,000 --> 0:02:45,000
+and we all saw what happened with the Internet.
+
+51
+0:02:45.456,000 --> 0:02:47,000
+It was incredibly successful.
+
+52
+0:02:47.728,000 --> 0:02:5,000
+In fact, it was so successful that there's no way
+
+53
+0:02:51.025,000 --> 0:02:54,000
+that these days you could make a book like this.
+
+54
+0:02:54.613,000 --> 0:03:,000
+My rough calculation is it would be about 25 miles thick.
+
+55
+0:03:00.779,000 --> 0:03:01,000
+But, of course, you couldn't do it,
+
+56
+0:03:01.953,000 --> 0:03:02,000
+because we don't know the names of all the people
+
+57
+0:03:03.743,000 --> 0:03:06,000
+with Internet or email addresses,
+
+58
+0:03:06.817,000 --> 0:03:07,000
+and even if we did know their names,
+
+59
+0:03:08.349,000 --> 0:03:1,000
+I'm pretty sure that they would not want their name,
+
+60
+0:03:10.782,000 --> 0:03:14,000
+address and telephone number published to everyone.
+
+61
+0:03:15.078,000 --> 0:03:18,000
+So the fact is that there's a lot of bad guys on the Internet these days,
+
+62
+0:03:18.78,000 --> 0:03:22,000
+and so we dealt with that by making
+
+63
+0:03:22.951,000 --> 0:03:23,000
+walled communities,
+
+64
+0:03:24.85,000 --> 0:03:28,000
+secure subnetworks, VPNs,
+
+65
+0:03:29.587,000 --> 0:03:3,000
+little things that aren't really the Internet
+
+66
+0:03:31.183,000 --> 0:03:32,000
+but are made out of the same building blocks,
+
+67
+0:03:33.154,000 --> 0:03:35,000
+but we're still basically building it out of those
+
+68
+0:03:35.394,000 --> 0:03:39,000
+same building blocks with those same assumptions of trust.
+
+69
+0:03:39.661,000 --> 0:03:41,000
+And that means that it's vulnerable
+
+70
+0:03:42.383,000 --> 0:03:44,000
+to certain kinds of mistakes that can happen,
+
+71
+0:03:44.779,000 --> 0:03:45,000
+or certain kinds of deliberate attacks,
+
+72
+0:03:46.64,000 --> 0:03:49,000
+but even the mistakes can be bad.
+
+73
+0:03:49.745,000 --> 0:03:51,000
+So, for instance,
+
+74
+0:03:52.694,000 --> 0:03:53,000
+in all of Asia recently,
+
+75
+0:03:54.647,000 --> 0:03:57,000
+it was impossible to get YouTube for a little while
+
+76
+0:03:58.08,000 --> 0:04:,000
+because Pakistan made some mistakes
+
+77
+0:04:00.36,000 --> 0:04:03,000
+in how it was censoring YouTube in its internal network.
+
+78
+0:04:04.095,000 --> 0:04:07,000
+They didn't intend to screw up Asia, but they did
+
+79
+0:04:07.189,000 --> 0:04:09,000
+because of the way that the protocols work.
+
+80
+0:04:10.093,000 --> 0:04:13,000
+Another example that may have affected many of you in this audience is,
+
+81
+0:04:13.317,000 --> 0:04:15,000
+you may remember a couple of years ago,
+
+82
+0:04:15.908,000 --> 0:04:17,000
+all the planes west of the Mississippi were grounded
+
+83
+0:04:18.721,000 --> 0:04:2,000
+because a single routing card in Salt Lake City
+
+84
+0:04:21.613,000 --> 0:04:23,000
+had a bug in it.
+
+85
+0:04:23.975,000 --> 0:04:25,000
+Now, you don't really think
+
+86
+0:04:26.248,000 --> 0:04:29,000
+that our airplane system depends on the Internet,
+
+87
+0:04:29.274,000 --> 0:04:3,000
+and in some sense it doesn't.
+
+88
+0:04:30.28,000 --> 0:04:31,000
+I'll come back to that later.
+
+89
+0:04:31.896,000 --> 0:04:33,000
+But the fact is that people couldn't take off
+
+90
+0:04:34.146,000 --> 0:04:36,000
+because something was going wrong on the Internet,
+
+91
+0:04:36.421,000 --> 0:04:38,000
+and the router card was down.
+
+92
+0:04:38.996,000 --> 0:04:41,000
+And so, there are many of those things that start to happen.
+
+93
+0:04:42.775,000 --> 0:04:45,000
+Now, there was an interesting thing that happened last April.
+
+94
+0:04:45.914,000 --> 0:04:46,000
+All of a sudden,
+
+95
+0:04:47.44,000 --> 0:04:5,000
+a very large percentage of the traffic on the whole Internet,
+
+96
+0:04:50.772,000 --> 0:04:54,000
+including a lot of the traffic between U.S. military installations,
+
+97
+0:04:54.903,000 --> 0:04:56,000
+started getting re-routed through China.
+
+98
+0:04:57.671,000 --> 0:04:59,000
+So for a few hours, it all passed through China.
+
+99
+0:05:00.393,000 --> 0:05:04,000
+Now, China Telecom says it was just an honest mistake,
+
+100
+0:05:04.967,000 --> 0:05:07,000
+and it is actually possible that it was, the way things work,
+
+101
+0:05:08.824,000 --> 0:05:1,000
+but certainly somebody could make
+
+102
+0:05:10.859,000 --> 0:05:13,000
+a dishonest mistake of that sort if they wanted to,
+
+103
+0:05:14.132,000 --> 0:05:17,000
+and it shows you how vulnerable the system is even to mistakes.
+
+104
+0:05:17.49,000 --> 0:05:21,000
+Imagine how vulnerable the system is to deliberate attacks.
+
+105
+0:05:22.411,000 --> 0:05:25,000
+So if somebody really wanted to attack the United States
+
+106
+0:05:25.809,000 --> 0:05:27,000
+or Western civilization these days,
+
+107
+0:05:27.901,000 --> 0:05:29,000
+they're not going to do it with tanks.
+
+108
+0:05:30.09,000 --> 0:05:32,000
+That will not succeed.
+
+109
+0:05:32.503,000 --> 0:05:34,000
+What they'll probably do is something
+
+110
+0:05:34.506,000 --> 0:05:37,000
+very much like the attack that happened
+
+111
+0:05:37.797,000 --> 0:05:39,000
+on the Iranian nuclear facility.
+
+112
+0:05:40.504,000 --> 0:05:42,000
+Nobody has claimed credit for that.
+
+113
+0:05:42.778,000 --> 0:05:45,000
+There was basically a factory of industrial machines.
+
+114
+0:05:46.285,000 --> 0:05:48,000
+It didn't think of itself as being on the Internet.
+
+115
+0:05:48.862,000 --> 0:05:5,000
+It thought of itself as being disconnected from the Internet,
+
+116
+0:05:51.449,000 --> 0:05:52,000
+but it was possible for somebody to smuggle
+
+117
+0:05:53.396,000 --> 0:05:55,000
+a USB drive in there, or something like that,
+
+118
+0:05:55.928,000 --> 0:05:58,000
+and software got in there that causes the centrifuges,
+
+119
+0:05:59.324,000 --> 0:06:01,000
+in that case, to actually destroy themselves.
+
+120
+0:06:02.317,000 --> 0:06:04,000
+Now that same kind of software could destroy an oil refinery
+
+121
+0:06:04.983,000 --> 0:06:08,000
+or a pharmaceutical factory or a semiconductor plant.
+
+122
+0:06:09.405,000 --> 0:06:12,000
+And so there's a lot of -- I'm sure you've read a lot in papers,
+
+123
+0:06:12.671,000 --> 0:06:14,000
+about worries about cyberattacks
+
+124
+0:06:14.862,000 --> 0:06:16,000
+and defenses against those.
+
+125
+0:06:17.472,000 --> 0:06:18,000
+But the fact is, people are mostly focused on
+
+126
+0:06:19.452,000 --> 0:06:21,000
+defending the computers on the Internet,
+
+127
+0:06:21.735,000 --> 0:06:23,000
+and there's been surprisingly little attention
+
+128
+0:06:24.121,000 --> 0:06:28,000
+to defending the Internet itself as a communications medium.
+
+129
+0:06:28.486,000 --> 0:06:29,000
+And I think we probably do need to pay
+
+130
+0:06:30.349,000 --> 0:06:33,000
+some more attention to that, because it's actually kind of fragile.
+
+131
+0:06:33.437,000 --> 0:06:35,000
+So actually, in the early days,
+
+132
+0:06:36.364,000 --> 0:06:37,000
+back when it was the ARPANET,
+
+133
+0:06:38.088,000 --> 0:06:41,000
+there were actually times -- there was a particular time it failed completely
+
+134
+0:06:41.677,000 --> 0:06:44,000
+because one single message processor
+
+135
+0:06:44.962,000 --> 0:06:46,000
+actually got a bug in it.
+
+136
+0:06:47.438,000 --> 0:06:49,000
+And the way the Internet works is
+
+137
+0:06:49.71,000 --> 0:06:52,000
+the routers are basically exchanging information
+
+138
+0:06:53.277,000 --> 0:06:55,000
+about how they can get messages to places,
+
+139
+0:06:55.867,000 --> 0:06:58,000
+and this one processor, because of a broken card,
+
+140
+0:06:59.765,000 --> 0:07:01,000
+decided it could actually get a message
+
+141
+0:07:01.774,000 --> 0:07:03,000
+to some place in negative time.
+
+142
+0:07:04.462,000 --> 0:07:07,000
+So, in other words, it claimed it could deliver a message before you sent it.
+
+143
+0:07:08.445,000 --> 0:07:11,000
+So of course, the fastest way to get a message anywhere
+
+144
+0:07:11.595,000 --> 0:07:12,000
+was to send it to this guy,
+
+145
+0:07:13.471,000 --> 0:07:16,000
+who would send it back in time and get it there super early,
+
+146
+0:07:17.018,000 --> 0:07:19,000
+so every message in the Internet
+
+147
+0:07:19.874,000 --> 0:07:22,000
+started getting switched through this one node,
+
+148
+0:07:23.116,000 --> 0:07:24,000
+and of course that clogged everything up.
+
+149
+0:07:24.632,000 --> 0:07:26,000
+Everything started breaking.
+
+150
+0:07:26.787,000 --> 0:07:28,000
+The interesting thing was, though,
+
+151
+0:07:28.827,000 --> 0:07:29,000
+that the sysadmins were able to fix it,
+
+152
+0:07:30.667,000 --> 0:07:34,000
+but they had to basically turn every single thing on the Internet off.
+
+153
+0:07:35.449,000 --> 0:07:36,000
+Now, of course you couldn't do that today.
+
+154
+0:07:36.847,000 --> 0:07:38,000
+I mean, everything off, it's like
+
+155
+0:07:39.241,000 --> 0:07:41,000
+the service call you get from the cable company,
+
+156
+0:07:41.473,000 --> 0:07:44,000
+except for the whole world.
+
+157
+0:07:45.234,000 --> 0:07:47,000
+Now, in fact, they couldn't do it for a lot of reasons today.
+
+158
+0:07:47.293,000 --> 0:07:49,000
+One of the reasons is a lot of their telephones
+
+159
+0:07:49.915,000 --> 0:07:51,000
+use IP protocol and use things like Skype and so on
+
+160
+0:07:52.884,000 --> 0:07:54,000
+that go through the Internet right now,
+
+161
+0:07:54.953,000 --> 0:07:57,000
+and so in fact we're becoming dependent on it
+
+162
+0:07:58.235,000 --> 0:07:59,000
+for more and more different things,
+
+163
+0:08:00.027,000 --> 0:08:02,000
+like when you take off from LAX,
+
+164
+0:08:02.965,000 --> 0:08:03,000
+you're really not thinking you're using the Internet.
+
+165
+0:08:04.846,000 --> 0:08:08,000
+When you pump gas, you really don't think you're using the Internet.
+
+166
+0:08:08.962,000 --> 0:08:1,000
+What's happening increasingly, though, is these systems
+
+167
+0:08:11.087,000 --> 0:08:12,000
+are beginning to use the Internet.
+
+168
+0:08:12.954,000 --> 0:08:15,000
+Most of them aren't based on the Internet yet,
+
+169
+0:08:16.004,000 --> 0:08:18,000
+but they're starting to use the Internet for service functions,
+
+170
+0:08:18.54,000 --> 0:08:19,000
+for administrative functions,
+
+171
+0:08:20.445,000 --> 0:08:23,000
+and so if you take something like the cell phone system,
+
+172
+0:08:23.508,000 --> 0:08:27,000
+which is still relatively independent of the Internet for the most part,
+
+173
+0:08:27.828,000 --> 0:08:29,000
+Internet pieces are beginning to sneak into it
+
+174
+0:08:30.787,000 --> 0:08:33,000
+in terms of some of the control and administrative functions,
+
+175
+0:08:34.591,000 --> 0:08:36,000
+and it's so tempting to use these same building blocks
+
+176
+0:08:36.921,000 --> 0:08:38,000
+because they work so well, they're cheap,
+
+177
+0:08:39.185,000 --> 0:08:4,000
+they're repeated, and so on.
+
+178
+0:08:40.285,000 --> 0:08:42,000
+So all of our systems, more and more,
+
+179
+0:08:43.057,000 --> 0:08:44,000
+are starting to use the same technology
+
+180
+0:08:44.837,000 --> 0:08:46,000
+and starting to depend on this technology.
+
+181
+0:08:46.904,000 --> 0:08:48,000
+And so even a modern rocket ship these days
+
+182
+0:08:49.329,000 --> 0:08:51,000
+actually uses Internet protocol to talk
+
+183
+0:08:52.055,000 --> 0:08:53,000
+from one end of the rocket ship to the other.
+
+184
+0:08:53.871,000 --> 0:08:56,000
+That's crazy. It was never designed to do things like that.
+
+185
+0:08:57.057,000 --> 0:09:,000
+So we've built this system
+
+186
+0:09:00.174,000 --> 0:09:03,000
+where we understand all the parts of it,
+
+187
+0:09:03.284,000 --> 0:09:06,000
+but we're using it in a very, very different way than we expected to use it,
+
+188
+0:09:06.982,000 --> 0:09:08,000
+and it's gotten a very, very different scale
+
+189
+0:09:09.421,000 --> 0:09:11,000
+than it was designed for.
+
+190
+0:09:11.592,000 --> 0:09:13,000
+And in fact, nobody really exactly understands
+
+191
+0:09:14.268,000 --> 0:09:16,000
+all the things it's being used for right now.
+
+192
+0:09:16.531,000 --> 0:09:18,000
+It's turning into one of these big emergent systems
+
+193
+0:09:19.034,000 --> 0:09:22,000
+like the financial system, where we've designed all the parts
+
+194
+0:09:22.515,000 --> 0:09:24,000
+but nobody really exactly understands
+
+195
+0:09:25.121,000 --> 0:09:28,000
+how it operates and all the little details of it
+
+196
+0:09:28.348,000 --> 0:09:3,000
+and what kinds of emergent behaviors it can have.
+
+197
+0:09:31.067,000 --> 0:09:34,000
+And so if you hear an expert talking about the Internet
+
+198
+0:09:34.2,000 --> 0:09:36,000
+and saying it can do this, or it does do this, or it will do that,
+
+199
+0:09:36.895,000 --> 0:09:38,000
+you should treat it with the same skepticism
+
+200
+0:09:39.356,000 --> 0:09:43,000
+that you might treat the comments of an economist about the economy
+
+201
+0:09:43.771,000 --> 0:09:45,000
+or a weatherman about the weather, or something like that.
+
+202
+0:09:46.038,000 --> 0:09:48,000
+They have an informed opinion,
+
+203
+0:09:48.686,000 --> 0:09:5,000
+but it's changing so quickly that even the experts
+
+204
+0:09:51.227,000 --> 0:09:52,000
+don't know exactly what's going on.
+
+205
+0:09:53.045,000 --> 0:09:55,000
+So if you see one of these maps of the Internet,
+
+206
+0:09:55.737,000 --> 0:09:56,000
+it's just somebody's guess.
+
+207
+0:09:57.403,000 --> 0:09:59,000
+Nobody really knows what the Internet is right now
+
+208
+0:09:59.601,000 --> 0:10:01,000
+because it's different than it was an hour ago.
+
+209
+0:10:02.342,000 --> 0:10:04,000
+It's constantly changing. It's constantly reconfiguring.
+
+210
+0:10:05.143,000 --> 0:10:06,000
+And the problem with it is,
+
+211
+0:10:06.657,000 --> 0:10:09,000
+I think we are setting ourselves up for a kind of disaster
+
+212
+0:10:09.998,000 --> 0:10:11,000
+like the disaster we had in the financial system,
+
+213
+0:10:12.793,000 --> 0:10:17,000
+where we take a system that's basically built on trust,
+
+214
+0:10:18.137,000 --> 0:10:2,000
+was basically built for a smaller-scale system,
+
+215
+0:10:20.758,000 --> 0:10:22,000
+and we've kind of expanded it way beyond the limits
+
+216
+0:10:23.667,000 --> 0:10:24,000
+of how it was meant to operate.
+
+217
+0:10:25.663,000 --> 0:10:28,000
+And so right now, I think it's literally true
+
+218
+0:10:28.931,000 --> 0:10:31,000
+that we don't know what the consequences
+
+219
+0:10:32.436,000 --> 0:10:34,000
+of an effective denial-of-service attack
+
+220
+0:10:34.87,000 --> 0:10:35,000
+on the Internet would be,
+
+221
+0:10:36.643,000 --> 0:10:37,000
+and whatever it would be is going to be worse next year,
+
+222
+0:10:38.517,000 --> 0:10:39,000
+and worse next year, and so on.
+
+223
+0:10:39.925,000 --> 0:10:41,000
+But so what we need is a plan B.
+
+224
+0:10:42.474,000 --> 0:10:43,000
+There is no plan B right now.
+
+225
+0:10:44.106,000 --> 0:10:47,000
+There's no clear backup system that we've very carefully kept
+
+226
+0:10:47.609,000 --> 0:10:48,000
+to be independent of the Internet,
+
+227
+0:10:49.555,000 --> 0:10:52,000
+made out of completely different sets of building blocks.
+
+228
+0:10:52.621,000 --> 0:10:55,000
+So what we need is something that doesn't necessarily
+
+229
+0:10:55.634,000 --> 0:10:57,000
+have to have the performance of the Internet,
+
+230
+0:10:58.368,000 --> 0:10:59,000
+but the police department has to be able
+
+231
+0:10:59.885,000 --> 0:11:01,000
+to call up the fire department even without the Internet,
+
+232
+0:11:02.408,000 --> 0:11:04,000
+or the hospitals have to order fuel oil.
+
+233
+0:11:04.973,000 --> 0:11:08,000
+This doesn't need to be a multi-billion-dollar government project.
+
+234
+0:11:09.587,000 --> 0:11:11,000
+It's actually relatively simple to do, technically,
+
+235
+0:11:12.335,000 --> 0:11:15,000
+because it can use existing fibers that are in the ground,
+
+236
+0:11:16.137,000 --> 0:11:17,000
+existing wireless infrastructure.
+
+237
+0:11:18.096,000 --> 0:11:2,000
+It's basically a matter of deciding to do it.
+
+238
+0:11:20.861,000 --> 0:11:22,000
+But people won't decide to do it
+
+239
+0:11:23.345,000 --> 0:11:25,000
+until they recognize the need for it,
+
+240
+0:11:25.724,000 --> 0:11:26,000
+and that's the problem that we have right now.
+
+241
+0:11:27.222,000 --> 0:11:29,000
+So there's been plenty of people,
+
+242
+0:11:30.005,000 --> 0:11:33,000
+plenty of us have been quietly arguing
+
+243
+0:11:33.049,000 --> 0:11:35,000
+that we should have this independent system for years,
+
+244
+0:11:35.967,000 --> 0:11:38,000
+but it's very hard to get people focused on plan B
+
+245
+0:11:38.976,000 --> 0:11:41,000
+when plan A seems to be working so well.
+
+246
+0:11:42.65,000 --> 0:11:45,000
+So I think that, if people understand
+
+247
+0:11:46.079,000 --> 0:11:49,000
+how much we're starting to depend on the Internet,
+
+248
+0:11:49.133,000 --> 0:11:5,000
+and how vulnerable it is,
+
+249
+0:11:51.11,000 --> 0:11:53,000
+we could get focused on
+
+250
+0:11:53.216,000 --> 0:11:56,000
+just wanting this other system to exist,
+
+251
+0:11:56.24,000 --> 0:11:59,000
+and I think if enough people say, "Yeah, I would like to use it,
+
+252
+0:11:59.317,000 --> 0:12:02,000
+I'd like to have such a system," then it will get built.
+
+253
+0:12:02.327,000 --> 0:12:03,000
+It's not that hard a problem.
+
+254
+0:12:03.75,000 --> 0:12:06,000
+It could definitely be done by people in this room.
+
+255
+0:12:06.985,000 --> 0:12:1,000
+And so I think that this is actually,
+
+256
+0:12:11.344,000 --> 0:12:14,000
+of all the problems you're going to hear about at the conference,
+
+257
+0:12:14.523,000 --> 0:12:16,000
+this is probably one of the very easiest to fix.
+
+258
+0:12:17.201,000 --> 0:12:19,000
+So I'm happy to get a chance to tell you about it.
+
+259
+0:12:19.968,000 --> 0:12:21,000
+Thank you very much.
+
+260
+0:12:22.579,000 --> 0:12:25,000
+(Applause)
+

@@ -1,0 +1,1084 @@
+1
+0:00:13.388,000 --> 0:00:16,000
+Alright, let me tell you about building synthetic cells
+
+2
+0:00:16.587,000 --> 0:00:17,000
+and printing life.
+
+3
+0:00:18.556,000 --> 0:00:2,000
+But first, let me tell you a quick story.
+
+4
+0:00:21.063,000 --> 0:00:23,000
+On March 31, 2013,
+
+5
+0:00:23.593,000 --> 0:00:27,000
+my team and I received an email from an international health organization,
+
+6
+0:00:27.8,000 --> 0:00:29,000
+alerting us that two men died in China
+
+7
+0:00:30.657,000 --> 0:00:33,000
+shortly after contracting the H7N9 bird flu.
+
+8
+0:00:34.149,000 --> 0:00:35,000
+There were fears of a global pandemic
+
+9
+0:00:36.03,000 --> 0:00:39,000
+as the virus started rapidly moving across China.
+
+10
+0:00:40.004,000 --> 0:00:42,000
+Although methods existed to produce a flu vaccine
+
+11
+0:00:42.81,000 --> 0:00:43,000
+and stop the disease from spreading,
+
+12
+0:00:44.806,000 --> 0:00:47,000
+at best, it would not be available for at least six months.
+
+13
+0:00:49.474,000 --> 0:00:53,000
+This is because a slow, antiquated flu vaccine manufacturing process
+
+14
+0:00:54.228,000 --> 0:00:57,000
+developed over 70 years ago was the only option.
+
+15
+0:00:59.14,000 --> 0:01:02,000
+The virus would need to be isolated from infected patients,
+
+16
+0:01:02.616,000 --> 0:01:04,000
+packaged up and then sent to a facility
+
+17
+0:01:04.934,000 --> 0:01:08,000
+where scientists would inject the virus into chicken eggs,
+
+18
+0:01:08.974,000 --> 0:01:1,000
+and incubate those chicken eggs for several weeks
+
+19
+0:01:11.569,000 --> 0:01:14,000
+in order to prepare the virus for the start of a multistep,
+
+20
+0:01:15.315,000 --> 0:01:18,000
+multimonth flu vaccine manufacturing process.
+
+21
+0:01:19.363,000 --> 0:01:2,000
+My team and I received this email
+
+22
+0:01:21.381,000 --> 0:01:24,000
+because we had just invented a biological printer,
+
+23
+0:01:25.291,000 --> 0:01:27,000
+which would allow for the flu vaccine instructions
+
+24
+0:01:27.736,000 --> 0:01:3,000
+to be instantly downloaded from the internet and printed.
+
+25
+0:01:31.633,000 --> 0:01:34,000
+Drastically speeding up the way in which flu vaccines are made,
+
+26
+0:01:34.943,000 --> 0:01:36,000
+and potentially saving thousands of lives.
+
+27
+0:01:38.776,000 --> 0:01:42,000
+The biological printer leverages our ability to read and write DNA
+
+28
+0:01:43.774,000 --> 0:01:44,000
+and starts to bring into focus
+
+29
+0:01:45.768,000 --> 0:01:48,000
+what we like to call biological teleportation.
+
+30
+0:01:49.704,000 --> 0:01:53,000
+I am a biologist and an engineer who builds stuff out of DNA.
+
+31
+0:01:54.577,000 --> 0:01:56,000
+Believe it or not, one of my favorite things to do
+
+32
+0:01:56.95,000 --> 0:01:58,000
+is to take DNA apart and put it back together
+
+33
+0:01:59.351,000 --> 0:02:01,000
+so that I can understand better how it works.
+
+34
+0:02:02.442,000 --> 0:02:06,000
+I can edit and program DNA to do things, just like coders programing a computer.
+
+35
+0:02:07.797,000 --> 0:02:08,000
+But my apps are different.
+
+36
+0:02:09.622,000 --> 0:02:1,000
+They create life.
+
+37
+0:02:10.892,000 --> 0:02:14,000
+Self-replicating living cells and things like vaccines and therapeutics
+
+38
+0:02:15.188,000 --> 0:02:18,000
+that work in ways that were previously impossible.
+
+39
+0:02:19.141,000 --> 0:02:22,000
+Here's National Medal of Science recipient Craig Venter
+
+40
+0:02:22.466,000 --> 0:02:24,000
+and Nobel laureate Ham Smith.
+
+41
+0:02:25.038,000 --> 0:02:27,000
+These two guys shared a similar vision.
+
+42
+0:02:27.371,000 --> 0:02:31,000
+That vision was, because all of the functions and characteristics
+
+43
+0:02:31.792,000 --> 0:02:35,000
+of all biological entities, including viruses and living cells,
+
+44
+0:02:35.973,000 --> 0:02:37,000
+are written into the code of DNA,
+
+45
+0:02:38.427,000 --> 0:02:41,000
+if one can read and write that code of DNA,
+
+46
+0:02:41.847,000 --> 0:02:44,000
+then they can be reconstructed in a distant location.
+
+47
+0:02:46.043,000 --> 0:02:49,000
+This is what we mean by biological teleportation.
+
+48
+0:02:50.21,000 --> 0:02:51,000
+To prove out this vision,
+
+49
+0:02:51.576,000 --> 0:02:53,000
+Craig and Ham set a goal of creating, for the first time,
+
+50
+0:02:54.593,000 --> 0:02:57,000
+a synthetic cell, starting from DNA code in the computer.
+
+51
+0:02:58.284,000 --> 0:03:02,000
+I mean, come on, as a scientist looking for a job,
+
+52
+0:03:03.165,000 --> 0:03:06,000
+doing cutting-edge research, it doesn't get any better than this.
+
+53
+0:03:06.252,000 --> 0:03:07,000
+(Laughter)
+
+54
+0:03:08.035,000 --> 0:03:12,000
+OK, a genome is a complete set of DNA within an organism.
+
+55
+0:03:13.138,000 --> 0:03:15,000
+Following the Human Genome Project in 2003,
+
+56
+0:03:15.871,000 --> 0:03:17,000
+which was an international effort to identify
+
+57
+0:03:18.094,000 --> 0:03:21,000
+the complete genetic blueprint of a human being,
+
+58
+0:03:21.276,000 --> 0:03:23,000
+a genomics revolution happened.
+
+59
+0:03:23.553,000 --> 0:03:26,000
+Scientists started mastering the techniques for reading DNA.
+
+60
+0:03:27.269,000 --> 0:03:3,000
+In order to determine the order of the As, Cs, Ts and Gs
+
+61
+0:03:30.587,000 --> 0:03:31,000
+within an organism.
+
+62
+0:03:32.475,000 --> 0:03:33,000
+But my job was far different.
+
+63
+0:03:34.412,000 --> 0:03:37,000
+I needed to master the techniques for writing DNA.
+
+64
+0:03:37.442,000 --> 0:03:38,000
+Like an author of a book,
+
+65
+0:03:38.736,000 --> 0:03:4,000
+this started out as writing short sentences,
+
+66
+0:03:40.942,000 --> 0:03:42,000
+or sequences of DNA code,
+
+67
+0:03:43.069,000 --> 0:03:45,000
+but this soon turned into writing paragraphs
+
+68
+0:03:45.371,000 --> 0:03:47,000
+and then full-on novels of DNA code,
+
+69
+0:03:47.76,000 --> 0:03:51,000
+to make important biological instructions for proteins and living cells.
+
+70
+0:03:52.466,000 --> 0:03:55,000
+Living cells are nature's most efficient machines at making new products,
+
+71
+0:03:55.99,000 --> 0:03:56,000
+accounting for the production
+
+72
+0:03:57.673,000 --> 0:04:,000
+of 25 percent of the total pharmaceutical market,
+
+73
+0:04:01.268,000 --> 0:04:02,000
+which is billions of dollars.
+
+74
+0:04:03.823,000 --> 0:04:06,000
+We knew that writing DNA would drive this bioeconomy even more,
+
+75
+0:04:07.728,000 --> 0:04:1,000
+once cells could be programmed just like computers.
+
+76
+0:04:11.339,000 --> 0:04:15,000
+We also knew that writing DNA would enable biological teleportation ...
+
+77
+0:04:17.186,000 --> 0:04:19,000
+the printing of defined, biological material,
+
+78
+0:04:20.118,000 --> 0:04:21,000
+starting from DNA code.
+
+79
+0:04:22.575,000 --> 0:04:24,000
+As a step toward bringing these promises to fruition,
+
+80
+0:04:25.561,000 --> 0:04:27,000
+our team set out to create, for the first time,
+
+81
+0:04:28.307,000 --> 0:04:3,000
+a synthetic bacterial cell,
+
+82
+0:04:30.569,000 --> 0:04:32,000
+starting from DNA code in the computer.
+
+83
+0:04:33.918,000 --> 0:04:35,000
+Synthetic DNA is a commodity.
+
+84
+0:04:36.069,000 --> 0:04:39,000
+You can order very short pieces of DNA from a number of companies,
+
+85
+0:04:39.704,000 --> 0:04:42,000
+and they will start from these four bottles of chemicals that make up DNA,
+
+86
+0:04:43.395,000 --> 0:04:44,000
+G, A, T and C,
+
+87
+0:04:44.864,000 --> 0:04:47,000
+and they will build those very short pieces of DNA for you.
+
+88
+0:04:48.986,000 --> 0:04:49,000
+Over the past 15 years or so,
+
+89
+0:04:50.843,000 --> 0:04:52,000
+my teams have been developing the technology
+
+90
+0:04:53.19,000 --> 0:04:55,000
+for stitching together those short pieces of DNA
+
+91
+0:04:55.97,000 --> 0:04:57,000
+into complete bacterial genomes.
+
+92
+0:04:58.871,000 --> 0:05:02,000
+The largest genome that we constructed contained over one million letters.
+
+93
+0:05:03.942,000 --> 0:05:05,000
+Which is more than twice the size of your average novel,
+
+94
+0:05:06.626,000 --> 0:05:09,000
+and we had to put every single one of those letters in the correct order,
+
+95
+0:05:10.093,000 --> 0:05:11,000
+without a single typo.
+
+96
+0:05:11.386,000 --> 0:05:15,000
+We were able to accomplish this by developing a procedure
+
+97
+0:05:15.703,000 --> 0:05:2,000
+that I tried to call the "one-step isothermal in vitro recombination method."
+
+98
+0:05:20.774,000 --> 0:05:22,000
+(Laughter)
+
+99
+0:05:22.887,000 --> 0:05:26,000
+But, surprisingly, the science community didn't like this technically accurate name
+
+100
+0:05:27.903,000 --> 0:05:29,000
+and decided to call it Gibson Assembly.
+
+101
+0:05:31.625,000 --> 0:05:33,000
+Gibson Assembly is now the gold standard tool,
+
+102
+0:05:34.506,000 --> 0:05:36,000
+used in laboratories around the world
+
+103
+0:05:36.998,000 --> 0:05:38,000
+for building short and long pieces of DNA.
+
+104
+0:05:40.236,000 --> 0:05:45,000
+(Applause)
+
+105
+0:05:45.593,000 --> 0:05:48,000
+Once we chemically synthesized the complete bacterial genome,
+
+106
+0:05:48.942,000 --> 0:05:5,000
+our next challenge was to find a way
+
+107
+0:05:51.276,000 --> 0:05:54,000
+to convert it into a free-living, self-replicating cell.
+
+108
+0:05:55.427,000 --> 0:05:58,000
+Our approach was to think of the genome as the operating system of the cell,
+
+109
+0:05:59.276,000 --> 0:06:03,000
+with the cell containing the hardware necessary to boot up the genome.
+
+110
+0:06:04.553,000 --> 0:06:05,000
+Through a lot of trial and error,
+
+111
+0:06:06.196,000 --> 0:06:09,000
+we developed a procedure where we could reprogram cells
+
+112
+0:06:09.355,000 --> 0:06:12,000
+and even convert one bacterial species into another,
+
+113
+0:06:12.728,000 --> 0:06:15,000
+by replacing the genome of one cell with that of another.
+
+114
+0:06:17.363,000 --> 0:06:21,000
+This genome transplantation technology then paved the way
+
+115
+0:06:21.451,000 --> 0:06:24,000
+for the booting-up of genomes written by scientists
+
+116
+0:06:24.704,000 --> 0:06:25,000
+and not by Mother Nature.
+
+117
+0:06:26.768,000 --> 0:06:28,000
+In 2010, all of the technologies
+
+118
+0:06:29.411,000 --> 0:06:31,000
+that we had been developing for reading and writing DNA
+
+119
+0:06:32.22,000 --> 0:06:34,000
+all came together when we announced the creation
+
+120
+0:06:35.165,000 --> 0:06:37,000
+of the first synthetic cell,
+
+121
+0:06:37.403,000 --> 0:06:39,000
+which of course, we called Synthia.
+
+122
+0:06:39.585,000 --> 0:06:41,000
+(Laughter)
+
+123
+0:06:41.61,000 --> 0:06:45,000
+Ever since the first bacterial genome was sequenced, back in 1995,
+
+124
+0:06:46.214,000 --> 0:06:49,000
+thousands more whole bacterial genomes have been sequenced and stored
+
+125
+0:06:49.697,000 --> 0:06:5,000
+in computer databases.
+
+126
+0:06:51.601,000 --> 0:06:53,000
+Our synthetic cell work was the proof of concept
+
+127
+0:06:54.012,000 --> 0:06:56,000
+that we could reverse this process:
+
+128
+0:06:56.046,000 --> 0:06:59,000
+pull a complete bacterial genome sequence out of the computer
+
+129
+0:06:59.665,000 --> 0:07:03,000
+and convert that information into a free-living, self-replicating cell,
+
+130
+0:07:04.45,000 --> 0:07:08,000
+with all of the expected characteristics of the species that we constructed.
+
+131
+0:07:10.409,000 --> 0:07:12,000
+Now I can understand why there may be concerns
+
+132
+0:07:12.982,000 --> 0:07:15,000
+about the safety of this level of genetic manipulation.
+
+133
+0:07:16.918,000 --> 0:07:2,000
+While the technology has the potential for great societal benefit,
+
+134
+0:07:21.093,000 --> 0:07:23,000
+it also has the potential for doing harm.
+
+135
+0:07:24.355,000 --> 0:07:28,000
+With this in mind, even before carrying out the very first experiment,
+
+136
+0:07:28.442,000 --> 0:07:3,000
+our team started to work with the public and the government
+
+137
+0:07:31.331,000 --> 0:07:33,000
+to find solutions together
+
+138
+0:07:33.958,000 --> 0:07:36,000
+to responsibly develop and regulate this new technology.
+
+139
+0:07:38.331,000 --> 0:07:41,000
+One of the outcomes from those discussions was to screen every customer
+
+140
+0:07:42.157,000 --> 0:07:44,000
+and every customer's DNA synthesis orders,
+
+141
+0:07:44.776,000 --> 0:07:48,000
+to make sure that pathogens or toxins are not being made by bad guys,
+
+142
+0:07:49.696,000 --> 0:07:5,000
+or accidentally by scientists.
+
+143
+0:07:52.974,000 --> 0:07:55,000
+All suspicious orders are reported to the FBI
+
+144
+0:07:56.386,000 --> 0:07:58,000
+and other relevant law-enforcement agencies.
+
+145
+0:08:00.641,000 --> 0:08:04,000
+Synthetic cell technologies will power the next industrial revolution
+
+146
+0:08:04.935,000 --> 0:08:06,000
+and transform industries and economies
+
+147
+0:08:07.823,000 --> 0:08:1,000
+in ways that address global sustainability challenges.
+
+148
+0:08:12.006,000 --> 0:08:14,000
+The possibilities are endless.
+
+149
+0:08:14.236,000 --> 0:08:15,000
+I mean, you can think of clothes
+
+150
+0:08:15.848,000 --> 0:08:18,000
+constructed form renewable biobased sources,
+
+151
+0:08:19.569,000 --> 0:08:22,000
+cars running on biofuel from engineered microbes,
+
+152
+0:08:23.244,000 --> 0:08:26,000
+plastics made from biodegradable polymers
+
+153
+0:08:26.847,000 --> 0:08:29,000
+and customized therapies, printed at a patient's bedside.
+
+154
+0:08:31.196,000 --> 0:08:33,000
+The massive efforts to create synthetic cells
+
+155
+0:08:33.807,000 --> 0:08:35,000
+have made us world leaders at writing DNA.
+
+156
+0:08:37.149,000 --> 0:08:4,000
+Throughout the process, we found ways to write DNA faster,
+
+157
+0:08:40.895,000 --> 0:08:42,000
+more accurately and more reliably.
+
+158
+0:08:43.688,000 --> 0:08:45,000
+Because of the robustness of these technologies,
+
+159
+0:08:46.006,000 --> 0:08:49,000
+we found that we could readily automate the processes
+
+160
+0:08:49.03,000 --> 0:08:52,000
+and move the laboratory workflows out of the scientist's hands
+
+161
+0:08:52.72,000 --> 0:08:53,000
+and onto a machine.
+
+162
+0:08:55.004,000 --> 0:08:58,000
+In 2013, we built the first DNA printer.
+
+163
+0:08:58.631,000 --> 0:09:,000
+We call it the BioXp.
+
+164
+0:09:00.964,000 --> 0:09:03,000
+And it has been absolutely essential in writing DNA
+
+165
+0:09:04.184,000 --> 0:09:05,000
+across a number of applications
+
+166
+0:09:05.823,000 --> 0:09:08,000
+my team and researchers around the world are working on.
+
+167
+0:09:10.077,000 --> 0:09:12,000
+It was shortly after we built the BioXp
+
+168
+0:09:12.118,000 --> 0:09:16,000
+that we received that email about the H7N9 bird flu scare in China.
+
+169
+0:09:17.498,000 --> 0:09:2,000
+A team of Chinese scientists had already isolated the virus,
+
+170
+0:09:20.943,000 --> 0:09:23,000
+sequenced its DNA and uploaded the DNA sequence to the internet.
+
+171
+0:09:25.616,000 --> 0:09:28,000
+At the request of the US government, we downloaded the DNA sequence
+
+172
+0:09:29.155,000 --> 0:09:32,000
+and in less than 12 hours, we printed it on the BioXp.
+
+173
+0:09:33.529,000 --> 0:09:34,000
+Our collaborators at Novartis
+
+174
+0:09:35.131,000 --> 0:09:39,000
+then quickly started turning that synthetic DNA into a flu vaccine.
+
+175
+0:09:39.497,000 --> 0:09:43,000
+Meanwhile, the CDC, using technology dating back to the 1940s,
+
+176
+0:09:44.051,000 --> 0:09:46,000
+was still waiting for the virus to arrive from China
+
+177
+0:09:47.005,000 --> 0:09:49,000
+so that they could begin their egg-based approach.
+
+178
+0:09:50.234,000 --> 0:09:53,000
+For the first time, we had a flu vaccine developed ahead of time
+
+179
+0:09:53.807,000 --> 0:09:55,000
+for a new and potentially dangerous strain,
+
+180
+0:09:56.3,000 --> 0:09:58,000
+and the US government ordered a stockpile.
+
+181
+0:09:58.965,000 --> 0:10:03,000
+(Applause)
+
+182
+0:10:04.617,000 --> 0:10:06,000
+This was when I began to appreciate, more than ever,
+
+183
+0:10:07.109,000 --> 0:10:09,000
+the power of biological teleportation.
+
+184
+0:10:09.887,000 --> 0:10:1,000
+(Laughter)
+
+185
+0:10:11.061,000 --> 0:10:13,000
+Naturally, with this in mind,
+
+186
+0:10:13.173,000 --> 0:10:15,000
+we started to build a biological teleporter.
+
+187
+0:10:16.402,000 --> 0:10:18,000
+We call it the DBC.
+
+188
+0:10:18.615,000 --> 0:10:21,000
+That's short for digital-to-biological converter.
+
+189
+0:10:22.267,000 --> 0:10:23,000
+Unlike the BioXp,
+
+190
+0:10:23.625,000 --> 0:10:26,000
+which starts from pre-manufactured short pieces of DNA,
+
+191
+0:10:26.728,000 --> 0:10:29,000
+the DBC starts from digitized DNA code
+
+192
+0:10:29.855,000 --> 0:10:32,000
+and converts that DNA code into biological entities,
+
+193
+0:10:32.934,000 --> 0:10:35,000
+such as DNA, RNA, proteins or even viruses.
+
+194
+0:10:37.188,000 --> 0:10:39,000
+You can think of the BioXp as a DVD player,
+
+195
+0:10:40.085,000 --> 0:10:43,000
+requiring a physical DVD to be inserted,
+
+196
+0:10:43.157,000 --> 0:10:45,000
+whereas the DBC is Netflix.
+
+197
+0:10:47.974,000 --> 0:10:48,000
+To build the DBC,
+
+198
+0:10:49.23,000 --> 0:10:53,000
+my team of scientists worked with software and instrumentation engineers
+
+199
+0:10:54.103,000 --> 0:10:56,000
+to collapse multiple laboratory workflows,
+
+200
+0:10:56.895,000 --> 0:10:57,000
+all in a single box.
+
+201
+0:10:58.696,000 --> 0:11:01,000
+This included software algorithms to predict what DNA to build,
+
+202
+0:11:02.601,000 --> 0:11:06,000
+chemistry to link the G, A, T and C building blocks of DNA into short pieces,
+
+203
+0:11:07.077,000 --> 0:11:11,000
+Gibson Assembly to stitch together those short pieces into much longer ones,
+
+204
+0:11:11.379,000 --> 0:11:14,000
+and biology to convert the DNA into other biological entities,
+
+205
+0:11:14.962,000 --> 0:11:15,000
+such as proteins.
+
+206
+0:11:17.089,000 --> 0:11:18,000
+This is the prototype.
+
+207
+0:11:18.74,000 --> 0:11:2,000
+Although it wasn't pretty, it was effective.
+
+208
+0:11:20.954,000 --> 0:11:22,000
+It made therapeutic drugs and vaccines.
+
+209
+0:11:23.271,000 --> 0:11:26,000
+And laboratory workflows that once took weeks or months
+
+210
+0:11:27.069,000 --> 0:11:3,000
+could now be carried out in just one to two days.
+
+211
+0:11:30.641,000 --> 0:11:32,000
+And that's all without any human intervention
+
+212
+0:11:33.252,000 --> 0:11:35,000
+and simply activated by the receipt of an email
+
+213
+0:11:35.867,000 --> 0:11:37,000
+which could be sent from anywhere in the world.
+
+214
+0:11:39.069,000 --> 0:11:42,000
+We like to compare the DBC to fax machines.
+
+215
+0:11:43.016,000 --> 0:11:46,000
+But whereas fax machines received images and documents,
+
+216
+0:11:46.405,000 --> 0:11:48,000
+the DBC receives biological materials.
+
+217
+0:11:50.024,000 --> 0:11:52,000
+Now, consider how fax machines have evolved.
+
+218
+0:11:53.553,000 --> 0:11:56,000
+The prototype of the 1840s is unrecognizable,
+
+219
+0:11:56.76,000 --> 0:11:58,000
+compared with the fax machines of today.
+
+220
+0:11:59.958,000 --> 0:12:02,000
+In the 1980s, most people still didn't know what a fax machine was,
+
+221
+0:12:03.792,000 --> 0:12:04,000
+and if they did,
+
+222
+0:12:05.212,000 --> 0:12:07,000
+it was difficult for them to grasp the concept
+
+223
+0:12:07.595,000 --> 0:12:1,000
+of instantly reproducing an image on the other side of the world.
+
+224
+0:12:11.672,000 --> 0:12:13,000
+But nowadays, everything that a fax machine does
+
+225
+0:12:13.99,000 --> 0:12:14,000
+is integrated on our smart phones,
+
+226
+0:12:15.689,000 --> 0:12:19,000
+and of course, we take this rapid exchange of digital information for granted.
+
+227
+0:12:20.831,000 --> 0:12:22,000
+Here's what our DBC looks like today.
+
+228
+0:12:23.307,000 --> 0:12:27,000
+We imagine the DBC evolving in similar ways as fax machines have.
+
+229
+0:12:28.212,000 --> 0:12:3,000
+We're working to reduce the size of the instrument,
+
+230
+0:12:30.863,000 --> 0:12:32,000
+and we're working to make the underlying technology
+
+231
+0:12:33.506,000 --> 0:12:36,000
+more reliable, cheaper, faster and more accurate.
+
+232
+0:12:38.061,000 --> 0:12:41,000
+Accuracy is extremely important when synthesizing DNA,
+
+233
+0:12:41.847,000 --> 0:12:43,000
+because a single change to a DNA letter
+
+234
+0:12:43.887,000 --> 0:12:46,000
+could mean the difference between a medicine working or not
+
+235
+0:12:46.935,000 --> 0:12:48,000
+or synthetic cell being alive or dead.
+
+236
+0:12:50.292,000 --> 0:12:53,000
+The DBC will be useful for the distributed manufacturing
+
+237
+0:12:53.776,000 --> 0:12:55,000
+of medicine starting from DNA.
+
+238
+0:12:56.649,000 --> 0:12:58,000
+Every hospital in the world could use a DBC
+
+239
+0:12:59.436,000 --> 0:13:02,000
+for printing personalized medicines for a patient at their bedside.
+
+240
+0:13:03.846,000 --> 0:13:08,000
+I can even imagine a day when it's routine for people to have a DBC
+
+241
+0:13:08.88,000 --> 0:13:1,000
+to connect to their home computer or smart phone
+
+242
+0:13:11.173,000 --> 0:13:13,000
+as a means to download their prescriptions,
+
+243
+0:13:13.212,000 --> 0:13:15,000
+such as insulin or antibody therapies.
+
+244
+0:13:15.355,000 --> 0:13:19,000
+The DBC will also be valuable when placed in strategic areas around the world,
+
+245
+0:13:19.832,000 --> 0:13:21,000
+for rapid response to disease outbreaks.
+
+246
+0:13:22.879,000 --> 0:13:25,000
+For example, the CDC in Atlanta, Georgia
+
+247
+0:13:26.006,000 --> 0:13:3,000
+could send flu vaccine instructions to a DBC on the other side of the world,
+
+248
+0:13:30.823,000 --> 0:13:33,000
+where the flu vaccine is manufactured right on the front lines.
+
+249
+0:13:35.085,000 --> 0:13:4,000
+That flu vaccine could even be specifically tailored to the flu strain
+
+250
+0:13:40.339,000 --> 0:13:43,000
+that's circulating in that local area.
+
+251
+0:13:43.585,000 --> 0:13:45,000
+Sending vaccines around in a digital file,
+
+252
+0:13:46.101,000 --> 0:13:49,000
+rather than stockpiling those same vaccines and shipping them out,
+
+253
+0:13:49.942,000 --> 0:13:51,000
+promises to save thousands of lives.
+
+254
+0:13:53.212,000 --> 0:13:57,000
+Of course, the applications go as far as the imagination goes.
+
+255
+0:13:58.164,000 --> 0:14:01,000
+It's not hard to imagine placing a DBC on another planet.
+
+256
+0:14:03.315,000 --> 0:14:08,000
+Scientists on Earth could then send the digital instructions to that DBC
+
+257
+0:14:08.443,000 --> 0:14:12,000
+to make new medicines or to make synthetic organisms
+
+258
+0:14:12.474,000 --> 0:14:15,000
+that produce oxygen, food, fuel or building materials,
+
+259
+0:14:16.165,000 --> 0:14:19,000
+as a means for making the planet more habitable for humans.
+
+260
+0:14:20.002,000 --> 0:14:24,000
+(Applause)
+
+261
+0:14:24.466,000 --> 0:14:27,000
+With digital information traveling at the speed of light,
+
+262
+0:14:27.831,000 --> 0:14:29,000
+it would only take minutes to send those digital instructions
+
+263
+0:14:30.752,000 --> 0:14:31,000
+from Earth to Mars,
+
+264
+0:14:31.966,000 --> 0:14:34,000
+but it would take months to physically deliver those same samples
+
+265
+0:14:35.839,000 --> 0:14:36,000
+on a spacecraft.
+
+266
+0:14:37.821,000 --> 0:14:41,000
+But for now, I would be satisfied beaming new medicines across the globe,
+
+267
+0:14:42.448,000 --> 0:14:44,000
+fully automated and on demand,
+
+268
+0:14:44.662,000 --> 0:14:47,000
+saving lives from emerging infectious diseases
+
+269
+0:14:48.284,000 --> 0:14:52,000
+and printing personalized cancer medicines for those who don't have time to wait.
+
+270
+0:14:53.06,000 --> 0:14:54,000
+Thank you.
+
+271
+0:14:54.259,000 --> 0:15:01,000
+(Applause)
+

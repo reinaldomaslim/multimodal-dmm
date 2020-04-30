@@ -1,0 +1,628 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Pierre-Louis Bernard Relecteur: Elisabeth Buffard
+
+2
+0:00:12.336,000 --> 0:00:14,000
+Les courses automobiles sont une drôle d'affaire
+
+3
+0:00:14.593,000 --> 0:00:16,000
+Nous fabriquons une nouvelle voiture tous les ans
+
+4
+0:00:16.91,000 --> 0:00:18,000
+et puis nous passons le reste de la saison
+
+5
+0:00:19.098,000 --> 0:00:21,000
+à essayer de comprendre ce que nous avons construit
+
+6
+0:00:21.874,000 --> 0:00:24,000
+pour l'améliorer, pour le rendre plus rapide.
+
+7
+0:00:25.095,000 --> 0:00:28,000
+Et puis l'année suivante, on recommence.
+
+8
+0:00:28.37,000 --> 0:00:32,000
+La voiture que vous voyez en face de vous est assez compliquée.
+
+9
+0:00:32.608,000 --> 0:00:35,000
+Le châssis est composé d'environ 11 000 composants,
+
+10
+0:00:36.227,000 --> 0:00:38,000
+le moteur de 6 000 autres,
+
+11
+0:00:38.695,000 --> 0:00:41,000
+l'électronique, d'environ 8 500.
+
+12
+0:00:41.788,000 --> 0:00:45,000
+Donc, il y a environ 25 000 trucs là-dedans qui peuvent mal tourner.
+
+13
+0:00:46.189,000 --> 0:00:5,000
+Les courses automobiles reposent largement sur le souci du détail.
+
+14
+0:00:51.015,000 --> 0:00:54,000
+L'autre chose avec la formule 1 en particulier
+
+15
+0:00:54.278,000 --> 0:00:56,000
+est que nous sommes toujours en train de changer la voiture.
+
+16
+0:00:56.402,000 --> 0:00:58,000
+Nous essayons toujours de la rendre plus rapide.
+
+17
+0:00:58.682,000 --> 0:01:,000
+Donc toutes les deux semaines, nous créons
+
+18
+0:01:01.666,000 --> 0:01:05,000
+environ 5 000 nouveaux composants à adapter sur la voiture.
+
+19
+0:01:05.866,000 --> 0:01:07,000
+5 à 10% de la voiture de course
+
+20
+0:01:08.044,000 --> 0:01:11,000
+sont différents toutes les deux semaines de l'année.
+
+21
+0:01:11.796,000 --> 0:01:13,000
+Alors, comment on fait ça ?
+
+22
+0:01:14.105,000 --> 0:01:17,000
+Eh bien, on commence par la voiture.
+
+23
+0:01:17.849,000 --> 0:01:2,000
+On a de nombreux capteurs sur la voiture pour mesurer les choses.
+
+24
+0:01:21.84,000 --> 0:01:22,000
+Sur la voiture de course devant vous ici
+
+25
+0:01:23.722,000 --> 0:01:26,000
+il y a environ 120 capteurs quand elle est en course
+
+26
+0:01:26.881,000 --> 0:01:29,000
+Ils mesurent toutes sortes de choses sur la voiture.
+
+27
+0:01:30.533,000 --> 0:01:32,000
+Les données sont enregistrées. Nous rentrons autour de
+
+28
+0:01:32.585,000 --> 0:01:35,000
+500 différents paramètres dans les systèmes de données,
+
+29
+0:01:36.289,000 --> 0:01:39,000
+environ 13 000 événements et paramètres de santé
+
+30
+0:01:39.954,000 --> 0:01:43,000
+pour dire quels trucs ne fonctionnent pas comme ils le devraient,
+
+31
+0:01:44.519,000 --> 0:01:46,000
+et nous renvoyons ces données au garage
+
+32
+0:01:47.344,000 --> 0:01:51,000
+par télémétrie à raison de 2 à 4 mégabits par seconde.
+
+33
+0:01:52.323,000 --> 0:01:55,000
+Ainsi, lors d'une course de deux heures, chaque voiture enverra.
+
+34
+0:01:55.45,000 --> 0:01:57,000
+750 millions de chiffres.
+
+35
+0:01:57.725,000 --> 0:02:,000
+C'est deux fois plus de chiffres que de mots que chacun de nous
+
+36
+0:02:00.868,000 --> 0:02:01,000
+utilisera dans sa vie.
+
+37
+0:02:02.499,000 --> 0:02:04,000
+C'est une quantité de données énorme.
+
+38
+0:02:05.117,000 --> 0:02:07,000
+Mais avoir des données et les mesurer ne suffit pas.
+
+39
+0:02:07.762,000 --> 0:02:09,000
+Vous devez être en mesure d'en faire quelque chose.
+
+40
+0:02:09.92,000 --> 0:02:11,000
+Nous avons donc investi beaucoup de temps et d'efforts
+
+41
+0:02:12.314,000 --> 0:02:13,000
+pour transformer les données en histoires
+
+42
+0:02:14.183,000 --> 0:02:17,000
+pour pouvoir dire, quel est l'état du moteur
+
+43
+0:02:17.288,000 --> 0:02:19,000
+comment les pneus se dégradent,
+
+44
+0:02:19.56,000 --> 0:02:22,000
+quelle est la situation de la consommation de carburant.
+
+45
+0:02:23.308,000 --> 0:02:25,000
+Tout ça, c'est prendre des données
+
+46
+0:02:26.096,000 --> 0:02:29,000
+et les transformer en connaissances à partir desquelles nous pouvons agir.
+
+47
+0:02:29.898,000 --> 0:02:31,000
+Bon, jetons un œil à quelques données.
+
+48
+0:02:32.536,000 --> 0:02:34,000
+Choisissons quelques données
+
+49
+0:02:34.566,000 --> 0:02:37,000
+d'un autre patient âgé de trois mois.
+
+50
+0:02:37.645,000 --> 0:02:41,000
+Il s'agit d'un enfant, et ce que vous voyez ici, ce sont des données réelles,
+
+51
+0:02:41.816,000 --> 0:02:42,000
+et complètement à droite,
+
+52
+0:02:43.793,000 --> 0:02:45,000
+où tout commence à devenir un peu catastrophique,
+
+53
+0:02:46.38,000 --> 0:02:49,000
+c'est le patient en plein arrêt cardiaque.
+
+54
+0:02:49.964,000 --> 0:02:52,000
+C'était considéré comme un événement imprévisible.
+
+55
+0:02:53.196,000 --> 0:02:56,000
+Il s'agissait d'une crise cardiaque que personne ne pouvait voir venir.
+
+56
+0:02:56.985,000 --> 0:02:58,000
+Mais quand on regarde les informations ici,
+
+57
+0:02:59.535,000 --> 0:03:01,000
+on peut voir que les choses commencent à devenir
+
+58
+0:03:01.884,000 --> 0:03:05,000
+un peu floue environ cinq minutes avant l'arrêt cardiaque.
+
+59
+0:03:05.913,000 --> 0:03:07,000
+On peut voir des petits changements
+
+60
+0:03:07.95,000 --> 0:03:09,000
+dans des choses comme la fréquence cardiaque qui bouge.
+
+61
+0:03:10.333,000 --> 0:03:12,000
+Toutes ces choses-là n'étaient pas détectées par des seuils normaux
+
+62
+0:03:12.819,000 --> 0:03:14,000
+qui était appliqués aux données.
+
+63
+0:03:15.227,000 --> 0:03:18,000
+La question est : pourquoi ne pouvait-on pas le voir ?
+
+64
+0:03:18.37,000 --> 0:03:2,000
+Était-ce un événement prévisible ?
+
+65
+0:03:20.951,000 --> 0:03:23,000
+Peut-on se pencher un peu plus sur les modèles dans les données
+
+66
+0:03:23.961,000 --> 0:03:26,000
+pour pouvoir améliorer les choses ?
+
+67
+0:03:27.341,000 --> 0:03:29,000
+Il s'agit d'un enfant,
+
+68
+0:03:29.991,000 --> 0:03:32,000
+du même âge que la voiture de course sur la piste,
+
+69
+0:03:33.223,000 --> 0:03:34,000
+3 mois.
+
+70
+0:03:34.853,000 --> 0:03:36,000
+C'est un patient qui a un problème cardiaque.
+
+71
+0:03:37.458,000 --> 0:03:4,000
+Quand vous regardez certaines des données sur l'écran ci-dessus,
+
+72
+0:03:40.926,000 --> 0:03:44,000
+des choses comme la fréquence cardiaque, le pouls, l'oxygène, la respiration,
+
+73
+0:03:45.828,000 --> 0:03:48,000
+elles sont toutes inhabituelles pour un enfant normal,
+
+74
+0:03:48.904,000 --> 0:03:5,000
+mais elles sont tout à fait normales pour cet enfant ici,
+
+75
+0:03:51.546,000 --> 0:03:55,000
+et l'un des défis dans les soins de santé est donc
+
+76
+0:03:55.684,000 --> 0:03:57,000
+de savoir comment je peux examiner le patient en face de moi,
+
+77
+0:03:58.535,000 --> 0:04:01,000
+trouver quelque chose qui lui est spécifique,
+
+78
+0:04:01.582,000 --> 0:04:03,000
+et pouvoir détecter le moment où les choses commencent à changer,
+
+79
+0:04:04.37,000 --> 0:04:06,000
+où les choses commencent à se détériorer.
+
+80
+0:04:06.469,000 --> 0:04:09,000
+Parce que comme une voiture de course, tous les patients,
+
+81
+0:04:09.519,000 --> 0:04:11,000
+lorsque les choses commencent à aller mal, on a peu de temps
+
+82
+0:04:12.495,000 --> 0:04:13,000
+pour faire la différence.
+
+83
+0:04:14.326,000 --> 0:04:16,000
+Donc ce que nous avons pris un système de données
+
+84
+0:04:17.08,000 --> 0:04:2,000
+que nous utilisons toutes les deux semaines par an en formule 1
+
+85
+0:04:20.211,000 --> 0:04:23,000
+et nous l'avons installé sur les ordinateurs de l'hôpital
+
+86
+0:04:23.213,000 --> 0:04:25,000
+à l'hôpital pour enfants de Birmingham.
+
+87
+0:04:25.503,000 --> 0:04:27,000
+Nous avons diffusé des données provenant des instruments de chevet
+
+88
+0:04:27.942,000 --> 0:04:29,000
+dans leurs soins pédiatriques intensifs
+
+89
+0:04:30.499,000 --> 0:04:33,000
+pour que nous puissions à la fois voir les données en temps réel
+
+90
+0:04:33.955,000 --> 0:04:35,000
+et, plus important encore, stocker les données
+
+91
+0:04:36.826,000 --> 0:04:39,000
+afin que nous puissions commencer à apprendre d'elles.
+
+92
+0:04:39.883,000 --> 0:04:43,000
+Et puis, nous avons lancé une application sur le tout
+
+93
+0:04:44.267,000 --> 0:04:47,000
+qui nous permettrait de cerner les tendances dans les données
+
+94
+0:04:47.537,000 --> 0:04:49,000
+en temps réel afin que nous puissions voir ce qui se passait,
+
+95
+0:04:50.493,000 --> 0:04:53,000
+pour que nous puissions déterminer quand les choses ont commencé à changer.
+
+96
+0:04:54.206,000 --> 0:04:57,000
+Dans la course automobile, nous sommes tous un peu ambitieux,
+
+97
+0:04:58.069,000 --> 0:05:,000
+audacieux, un peu arrogant parfois.
+
+98
+0:05:00.618,000 --> 0:05:03,000
+Nous avons donc décidé de nous occuper aussi des enfants
+
+99
+0:05:04.016,000 --> 0:05:06,000
+lorsqu'ils sont transportés aux soins intensifs.
+
+100
+0:05:06.973,000 --> 0:05:08,000
+Pourquoi devrions-nous attendre qu'ils soient arrivés à l'hôpital
+
+101
+0:05:09.127,000 --> 0:05:1,000
+avant de commencer à regarder ?
+
+102
+0:05:11.121,000 --> 0:05:13,000
+Et donc nous avons installé un lien en temps réel
+
+103
+0:05:14.118,000 --> 0:05:16,000
+entre l'ambulance et l'hôpital,
+
+104
+0:05:16.954,000 --> 0:05:19,000
+en utilisant simplement une téléphonie 3G pour envoyer ces données
+
+105
+0:05:20.73,000 --> 0:05:22,000
+afin que l'ambulance devienne un lit d'appoint
+
+106
+0:05:23.217,000 --> 0:05:26,000
+en soins intensifs.
+
+107
+0:05:26.353,000 --> 0:05:29,000
+Et puis nous avons commencé à analyser les données.
+
+108
+0:05:30.055,000 --> 0:05:32,000
+Les lignes ondulées en haut, toutes les couleurs,
+
+109
+0:05:32.976,000 --> 0:05:35,000
+il s'agit du type normal de données que vous verriez sur un moniteur :
+
+110
+0:05:36.17,000 --> 0:05:39,000
+le rythme cardiaque, le pouls, l'oxygène dans le sang,
+
+111
+0:05:39.942,000 --> 0:05:41,000
+et la respiration.
+
+112
+0:05:42.577,000 --> 0:05:44,000
+Les lignes sur le fond, le bleu et le rouge,
+
+113
+0:05:45.33,000 --> 0:05:46,000
+sont les plus intéressantes.
+
+114
+0:05:46.69,000 --> 0:05:49,000
+La ligne rouge montre une version automatisée
+
+115
+0:05:49.899,000 --> 0:05:5,000
+de la note d'avertissement précoce
+
+116
+0:05:51.496,000 --> 0:05:53,000
+que l'hôpital des enfants de Birmingham utilisait déjà.
+
+117
+0:05:53.983,000 --> 0:05:55,000
+Ils l'utilisent depuis 2008,
+
+118
+0:05:56.321,000 --> 0:05:58,000
+et ont déjà stoppé des arrêts cardiaques
+
+119
+0:05:58.577,000 --> 0:06:,000
+et des cas de détresse au sein de l'hôpital.
+
+120
+0:06:01.334,000 --> 0:06:03,000
+La ligne bleue est une indication
+
+121
+0:06:03.766,000 --> 0:06:05,000
+du moment où les tendances commencent à changer,
+
+122
+0:06:06.266,000 --> 0:06:08,000
+et immédiatement, avant même que nous ayons commencé
+
+123
+0:06:08.575,000 --> 0:06:09,000
+à y trouver une interprétation clinique,
+
+124
+0:06:10.283,000 --> 0:06:12,000
+nous pouvons voir que les données nous parlent
+
+125
+0:06:13.153,000 --> 0:06:16,000
+Elles nous disent que quelque chose va mal.
+
+126
+0:06:16.689,000 --> 0:06:19,000
+La graphe avec les taches rouges et verts
+
+127
+0:06:20.505,000 --> 0:06:22,000
+trace différents composants
+
+128
+0:06:23.31,000 --> 0:06:25,000
+en fonction des données en les comparant les unes aux les autres.
+
+129
+0:06:25.857,000 --> 0:06:28,000
+Le vert, c'est nous en train d'apprendre ce qui est normal pour cet enfant.
+
+130
+0:06:29.697,000 --> 0:06:31,000
+Nous l'appelons le nuage de la normalité.
+
+131
+0:06:32.307,000 --> 0:06:34,000
+Et quand les choses commencent à changer,
+
+132
+0:06:34.548,000 --> 0:06:36,000
+quand les conditions commencent à se détériorer,
+
+133
+0:06:37.112,000 --> 0:06:39,000
+nous entrons dans la ligne rouge.
+
+134
+0:06:39.35,000 --> 0:06:4,000
+Ici, il n'y a pas de science de fusée.
+
+135
+0:06:41.007,000 --> 0:06:45,000
+Ça affiche les données qui existent déjà d'une manière différente,
+
+136
+0:06:45.12,000 --> 0:06:48,000
+pour les amplifier, pour offrir des repères pour les médecins,
+
+137
+0:06:48.511,000 --> 0:06:5,000
+les infirmières, pour qu'ils puissent voir ce qui se passe.
+
+138
+0:06:51.249,000 --> 0:06:54,000
+De la même manière qu'un bon pilote
+
+139
+0:06:54.379,000 --> 0:06:58,000
+s'appuie sur des indices pour décider du moment pour freiner,
+
+140
+0:06:58.423,000 --> 0:06:59,000
+quand tourner dans un virage,
+
+141
+0:06:59.899,000 --> 0:07:01,000
+nous devons aider nos médecins et nos infirmières
+
+142
+0:07:02.817,000 --> 0:07:05,000
+pour voir quand les choses commencent à aller mal.
+
+143
+0:07:06.437,000 --> 0:07:08,000
+Pour conclure, nous avons un programme très ambitieux.
+
+144
+0:07:09.383,000 --> 0:07:13,000
+Nous pensons que la course est là pour faire les choses différemment.
+
+145
+0:07:14.119,000 --> 0:07:16,000
+Nous pensons grand. C'est la bonne chose à faire.
+
+146
+0:07:17.023,000 --> 0:07:2,000
+Nous avons une approche qui, si elle réussit,
+
+147
+0:07:20.435,000 --> 0:07:22,000
+n' a aucune raison de rester au sein d'un hôpital.
+
+148
+0:07:22.966,000 --> 0:07:23,000
+Il peut aller au-delà des murs.
+
+149
+0:07:24.807,000 --> 0:07:26,000
+Avec une connectivité sans fil, de nos jours,
+
+150
+0:07:26.878,000 --> 0:07:29,000
+il n'y a aucune raison pour que les patients, les médecins et les infirmières
+
+151
+0:07:30.322,000 --> 0:07:32,000
+doivent toujours être au même endroit
+
+152
+0:07:32.493,000 --> 0:07:33,000
+en même temps.
+
+153
+0:07:34.486,000 --> 0:07:37,000
+Et pendant ce temps, nous reprenons notre petit bébé de trois mois,
+
+154
+0:07:38.481,000 --> 0:07:41,000
+continuons de le garder en piste, le protéger,
+
+155
+0:07:42.238,000 --> 0:07:44,000
+et le rendant plus rapide et meilleur.
+
+156
+0:07:44.571,000 --> 0:07:45,000
+Merci beaucoup.
+
+157
+0:07:45.976,000 --> 0:07:49,000
+(Applaudissements)
+

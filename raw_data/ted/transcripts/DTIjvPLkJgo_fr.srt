@@ -1,0 +1,828 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Aissa HAMMARI Relecteur: Jules Daunay
+
+2
+0:00:13.944,000 --> 0:00:16,000
+Comme je suis roboticienne, on me pose beaucoup de questions.
+
+3
+0:00:17.689,000 --> 0:00:19,000
+« Quand vont-ils me servir le petit déjeuner ? »
+
+4
+0:00:21.049,000 --> 0:00:25,000
+Alors, j'ai imaginé que l'avenir de la robotique nous ressemblerait plus.
+
+5
+0:00:27.984,000 --> 0:00:28,000
+J'ai pensé qu'il me ressemblerait,
+
+6
+0:00:29.828,000 --> 0:00:32,000
+j'ai donc construit des yeux, pour simuler les miens.
+
+7
+0:00:34.813,000 --> 0:00:39,000
+J'ai construit des doigts suffisamment habiles pour m'envoyer...
+
+8
+0:00:39.893,000 --> 0:00:4,000
+des balles de base-ball.
+
+9
+0:00:43.837,000 --> 0:00:45,000
+Des robots standard comme celui-ci
+
+10
+0:00:45.878,000 --> 0:00:48,000
+sont construits et deviennent fonctionnels
+
+11
+0:00:49.078,000 --> 0:00:52,000
+grâce à un nombre fixe d'articulations et de mécanismes.
+
+12
+0:00:52.78,000 --> 0:00:56,000
+Ce qui signifie que leurs fonctionnalités et leur forme sont déjà fixées
+
+13
+0:00:57.139,000 --> 0:00:58,000
+au moment de leur conception.
+
+14
+0:00:59.49,000 --> 0:01:01,000
+Alors, même si ce bras a un très bon lancer –
+
+15
+0:01:02.381,000 --> 0:01:04,000
+il a même touché le trépied au final –
+
+16
+0:01:06.015,000 --> 0:01:09,000
+il n'est pas conçu pour vous préparer un petit déjeuner.
+
+17
+0:01:09.202,000 --> 0:01:12,000
+Il n'est pas très adapté pour préparer les œufs brouillés.
+
+18
+0:01:12.863,000 --> 0:01:16,000
+C'est alors que j'ai eu une nouvelle vision des robots du futur :
+
+19
+0:01:18.101,000 --> 0:01:19,000
+les Transformers.
+
+20
+0:01:20.989,000 --> 0:01:22,000
+Ils conduisent, ils courent, ils volent,
+
+21
+0:01:23.56,000 --> 0:01:27,000
+tout dépend de la tâche à accomplir et du nouveau contexte en perpétuelle évolution.
+
+22
+0:01:29.267,000 --> 0:01:3,000
+Pour en faire une réalité,
+
+23
+0:01:31.072,000 --> 0:01:34,000
+il faut repenser à comment les robots sont conçus.
+
+24
+0:01:35.448,000 --> 0:01:39,000
+Imaginons un module robotique en forme de polygone
+
+25
+0:01:39.486,000 --> 0:01:41,000
+et utilisons cette forme simple
+
+26
+0:01:41.589,000 --> 0:01:44,000
+pour reconstituer plein de formes différentes
+
+27
+0:01:44.651,000 --> 0:01:48,000
+et créer un nouveau genre de robot pour des tâches variées.
+
+28
+0:01:49.528,000 --> 0:01:52,000
+En infographie, ce n'est pas nouveau –
+
+29
+0:01:53.255,000 --> 0:01:56,000
+cela existe depuis un moment, la plupart des films sont faits ainsi.
+
+30
+0:01:56.71,000 --> 0:01:59,000
+Mais, si vous essayez de construire un robot qui bouge physiquement,
+
+31
+0:02:00.604,000 --> 0:02:02,000
+c'est une tout autre histoire,
+
+32
+0:02:02.691,000 --> 0:02:04,000
+un paradigme totalement nouveau.
+
+33
+0:02:06.307,000 --> 0:02:07,000
+Pourtant, vous l'avez tous fait.
+
+34
+0:02:09.434,000 --> 0:02:14,000
+Qui n'a pas créé un avion, un bateau ou une grue en papier ?
+
+35
+0:02:15.893,000 --> 0:02:18,000
+L'origami est un mode d'expression polyvalent pour les designers.
+
+36
+0:02:19.761,000 --> 0:02:23,000
+D'une feuille de papier, on peut créer plein de formes différentes
+
+37
+0:02:23.861,000 --> 0:02:26,000
+et si vous n'aimez pas le résultat, il suffit de déplier et plier à nouveau.
+
+38
+0:02:27.947,000 --> 0:02:33,000
+Chaque forme en 3D peut être réalisée à partir de surfaces 2D en les pliant,
+
+39
+0:02:33.987,000 --> 0:02:35,000
+c'est démontré mathématiquement.
+
+40
+0:02:38.555,000 --> 0:02:42,000
+Et imaginez que vous ayez une feuille intelligente,
+
+41
+0:02:42.987,000 --> 0:02:45,000
+capable de se plier elle-même dans n'importe quelle forme,
+
+42
+0:02:46.57,000 --> 0:02:47,000
+à tout moment.
+
+43
+0:02:48.322,000 --> 0:02:5,000
+C'est sur quoi j'ai travaillé.
+
+44
+0:02:50.6,000 --> 0:02:53,000
+J'appelle cet origami robotique
+
+45
+0:02:53.806,000 --> 0:02:54,000
+un « robogami ».
+
+46
+0:02:57.387,000 --> 0:03:,000
+Voici la première transformation de notre robogami
+
+47
+0:03:00.931,000 --> 0:03:03,000
+que j'ai réalisée il y a une dizaine d'années.
+
+48
+0:03:04.264,000 --> 0:03:05,000
+D'une feuille plate, le robot
+
+49
+0:03:06.055,000 --> 0:03:08,000
+se transforme en pyramide, à nouveau en feuille plate,
+
+50
+0:03:09.026,000 --> 0:03:11,000
+puis en navette spatiale.
+
+51
+0:03:12.822,000 --> 0:03:13,000
+C'est plutôt mignon.
+
+52
+0:03:14.789,000 --> 0:03:2,000
+10 ans plus tard, avec mon groupe de chercheurs ninja en origami robotique –
+
+53
+0:03:21.683,000 --> 0:03:22,000
+nous sommes maintenant presque 22 –
+
+54
+0:03:24.332,000 --> 0:03:27,000
+nous avons une nouvelle génération de robogamis.
+
+55
+0:03:27.764,000 --> 0:03:3,000
+Ils sont un peu plus efficaces et ils font plus de choses.
+
+56
+0:03:32.105,000 --> 0:03:35,000
+La nouvelle génération de robogamis a un but.
+
+57
+0:03:35.428,000 --> 0:03:4,000
+Par exemple, celui-ci évolue en autonomie sur différents terrains.
+
+58
+0:03:40.651,000 --> 0:03:43,000
+Sur un terrain sec et plat, il rampe.
+
+59
+0:03:46.256,000 --> 0:03:48,000
+Et s'il rencontre soudain un terrain accidenté,
+
+60
+0:03:48.759,000 --> 0:03:49,000
+il commence à rouler.
+
+61
+0:03:50.02,000 --> 0:03:52,000
+Il le fait – c'est le même robot –
+
+62
+0:03:52.496,000 --> 0:03:55,000
+selon le terrain qu'il rencontre,
+
+63
+0:03:55.543,000 --> 0:03:59,000
+il active une séquence différente de mécanismes embarqués.
+
+64
+0:04:02.459,000 --> 0:04:05,000
+Dès qu'il rencontre un obstacle, il saute par-dessus.
+
+65
+0:04:07.485,000 --> 0:04:1,000
+Il le fait en stockant de l'énergie dans chacune de ses jambes,
+
+66
+0:04:10.885,000 --> 0:04:13,000
+en la libérant et en se catapultant comme un lance-pierres.
+
+67
+0:04:14.785,000 --> 0:04:15,000
+Et il fait même de la gymnastique.
+
+68
+0:04:17.688,000 --> 0:04:18,000
+Ouais.
+
+69
+0:04:18.883,000 --> 0:04:19,000
+(Rires)
+
+70
+0:04:20.828,000 --> 0:04:24,000
+Je viens de vous montrer ce qu'un seul robogami peut faire.
+
+71
+0:04:25.029,000 --> 0:04:27,000
+Imaginez ce qu'ils peuvent faire en groupe.
+
+72
+0:04:27.838,000 --> 0:04:3,000
+Ils peuvent unir leurs forces pour s'atteler à des tâches plus complexes.
+
+73
+0:04:31.884,000 --> 0:04:34,000
+Chaque module, actif ou passif,
+
+74
+0:04:35.07,000 --> 0:04:38,000
+peut être assemblé pour créer des formes différentes.
+
+75
+0:04:38.661,000 --> 0:04:4,000
+En plus de cela, en contrôlant le pliage des articulations,
+
+76
+0:04:41.434,000 --> 0:04:45,000
+nous sommes capables de créer et d'aborder différentes tâches.
+
+77
+0:04:46.006,000 --> 0:04:49,000
+Les formes créent de nouvelles possibilités de tâches.
+
+78
+0:04:49.736,000 --> 0:04:52,000
+Et ici, c'est l'assemblage qui est le plus important.
+
+79
+0:04:54.192,000 --> 0:04:58,000
+Ils ont besoin de se retrouver tout seuls dans un espace différent,
+
+80
+0:04:58.4,000 --> 0:05:02,000
+de s'attacher et se détacher, selon le contexte et la tâche à effectuer.
+
+81
+0:05:03.616,000 --> 0:05:05,000
+Désormais, on le peut faire.
+
+82
+0:05:06.152,000 --> 0:05:07,000
+Alors, quelle est l'étape suivante ?
+
+83
+0:05:07.879,000 --> 0:05:08,000
+Notre imagination.
+
+84
+0:05:09.424,000 --> 0:05:11,000
+Voici une simulation de ce que vous pouvez réaliser
+
+85
+0:05:12.129,000 --> 0:05:13,000
+avec ce type de module.
+
+86
+0:05:13.81,000 --> 0:05:16,000
+Nous avons décidé de construire un robot rampant à quatre pattes
+
+87
+0:05:18.87,000 --> 0:05:21,000
+qui se transforme en petit chien et se déplace par petits trots.
+
+88
+0:05:22.073,000 --> 0:05:25,000
+A partir du même module, nous pouvons en faire autre chose :
+
+89
+0:05:25.931,000 --> 0:05:28,000
+un bras manipulateur, une tâche typique pour un robot.
+
+90
+0:05:29.373,000 --> 0:05:31,000
+Grâce au bras manipulateur, il peut ramasser un objet.
+
+91
+0:05:32.096,000 --> 0:05:36,000
+Bien sûr, on peut ajouter plus de modules afin d'allonger les jambes du robot
+
+92
+0:05:36.164,000 --> 0:05:39,000
+pour qu'il appréhende ou ramasse des objets plus gros ou plus petits,
+
+93
+0:05:39.911,000 --> 0:05:4,000
+ou même lui ajouter un troisième bras.
+
+94
+0:05:43.545,000 --> 0:05:47,000
+Pour les robogamis, il n'y a ni forme ni tâche fixe.
+
+95
+0:05:48.628,000 --> 0:05:52,000
+Ils peuvent se transformer en tout, partout et à tout moment.
+
+96
+0:05:54.408,000 --> 0:05:56,000
+Alors, comment les fabrique-t-on ?
+
+97
+0:05:57.108,000 --> 0:06:02,000
+Le plus grand défi technique du robogami est de le garder très fin,
+
+98
+0:06:02.449,000 --> 0:06:03,000
+flexible,
+
+99
+0:06:03.624,000 --> 0:06:05,000
+mais toujours fonctionnel.
+
+100
+0:06:06.562,000 --> 0:06:09,000
+Il est composé de plusieurs couches de circuits, de moteurs,
+
+101
+0:06:10.398,000 --> 0:06:12,000
+de microcontrôleurs et de capteurs,
+
+102
+0:06:12.84,000 --> 0:06:13,000
+tous réunis en un ensemble.
+
+103
+0:06:14.718,000 --> 0:06:17,000
+Quand on contrôle chaque pliage d'articulation,
+
+104
+0:06:18.063,000 --> 0:06:21,000
+on peut réaliser des mouvements doux comme celui-ci
+
+105
+0:06:21.613,000 --> 0:06:22,000
+sur commande.
+
+106
+0:06:26.013,000 --> 0:06:3,000
+Au lieu d’être un robot conçu pour une seul tâche,
+
+107
+0:06:30.896,000 --> 0:06:33,000
+les robogamis sont optimisés pour effectuer des opérations multitâches.
+
+108
+0:06:35.366,000 --> 0:06:36,000
+Et c'est très important
+
+109
+0:06:37.147,000 --> 0:06:4,000
+dans les environnements complexes et uniques sur Terre
+
+110
+0:06:41.002,000 --> 0:06:43,000
+comme dans l'espace.
+
+111
+0:06:45.782,000 --> 0:06:48,000
+L'espace est un environnement parfait pour les robogamis.
+
+112
+0:06:49.673,000 --> 0:06:53,000
+On ne peut pas s'y permettre d'avoir un robot pour chaque tâche.
+
+113
+0:06:54.966,000 --> 0:06:57,000
+Qui sait ce que nous allons trouver à faire dans l'espace ?
+
+114
+0:06:58.306,000 --> 0:07:06,000
+Il nous faut une seule base robotique transformable et multi-tâches.
+
+115
+0:07:07.188,000 --> 0:07:12,000
+Il nous faut un ensemble de modules de robogamis fins
+
+116
+0:07:12.324,000 --> 0:07:16,000
+et transformables pour effectuer des tâches variées.
+
+117
+0:07:18.322,000 --> 0:07:21,000
+Et je ne suis pas la seule à le dire
+
+118
+0:07:21.526,000 --> 0:07:24,000
+car l'Agence spatiale européenne et le Bureau spatial suisse
+
+119
+0:07:24.622,000 --> 0:07:26,000
+soutiennent exactement la même idée.
+
+120
+0:07:27.562,000 --> 0:07:32,000
+Vous voyez ici quelques images de transformations des robogamis,
+
+121
+0:07:32.631,000 --> 0:07:35,000
+qui explorent une terre étrangère au-dessus du sol, en surface,
+
+122
+0:07:36.433,000 --> 0:07:37,000
+et qui creusent la surface.
+
+123
+0:07:39.117,000 --> 0:07:41,000
+Ils ne font pas qu'explorer.
+
+124
+0:07:41.22,000 --> 0:07:43,000
+Les astronautes ont besoin d'une aide supplémentaire,
+
+125
+0:07:43.832,000 --> 0:07:46,000
+car impossible d'emporter des stagiaires là-haut.
+
+126
+0:07:46.896,000 --> 0:07:46,000
+(Rires)
+
+127
+0:07:48.357,000 --> 0:07:5,000
+Ils doivent effectuer chaque tâche fastidieuse.
+
+128
+0:07:51.262,000 --> 0:07:52,000
+Elles sont parfois simples,
+
+129
+0:07:52.57,000 --> 0:07:53,000
+mais très interactives.
+
+130
+0:07:54.762,000 --> 0:07:57,000
+Il y a besoin de robots pour faciliter leurs expériences,
+
+131
+0:07:58.198,000 --> 0:08:,000
+en les aidant avec la communication,
+
+132
+0:08:00.533,000 --> 0:08:05,000
+en se positionnant à la surface comme troisième bras pour manipuler les outils.
+
+133
+0:08:07.245,000 --> 0:08:1,000
+Mais comment contrôler les robogamis, par exemple,
+
+134
+0:08:10.322,000 --> 0:08:11,000
+en dehors de la station spatiale ?
+
+135
+0:08:11.979,000 --> 0:08:15,000
+Voici un robogami qui tient des débris spatiaux.
+
+136
+0:08:16,000 --> 0:08:19,000
+Vous pouvez voir ce qu'ils voient et ainsi les contrôler,
+
+137
+0:08:19.704,000 --> 0:08:23,000
+mais ce serait mieux que la sensation du toucher
+
+138
+0:08:24.154,000 --> 0:08:27,000
+soit directement transmise vers les mains des astronautes.
+
+139
+0:08:28.218,000 --> 0:08:3,000
+Vous avez besoin d'un appareil haptique,
+
+140
+0:08:30.701,000 --> 0:08:33,000
+une interface haptique qui recrée la sensation du toucher.
+
+141
+0:08:35.051,000 --> 0:08:37,000
+Et en utilisant des robogamis, nous pouvons le faire.
+
+142
+0:08:39.276,000 --> 0:08:43,000
+Voici l'interface haptique la plus petite au monde :
+
+143
+0:08:44.316,000 --> 0:08:49,000
+elle peut recréer la sensation du toucher juste sous vos doigts.
+
+144
+0:08:50.104,000 --> 0:08:52,000
+Nous pouvons ainsi déplacer le robogami
+
+145
+0:08:52.705,000 --> 0:08:56,000
+par des mouvements microscopiques et macroscopiques.
+
+146
+0:08:57.812,000 --> 0:09:,000
+Et ce faisant, vous pourrez non seulement ressentir
+
+147
+0:09:01.466,000 --> 0:09:02,000
+la taille de l'objet,
+
+148
+0:09:03.229,000 --> 0:09:05,000
+sa forme et ses lignes,
+
+149
+0:09:06.139,000 --> 0:09:09,000
+mais aussi sa rigidité et sa texture.
+
+150
+0:09:11.019,000 --> 0:09:14,000
+Cette interface est située juste sous le pouce d'Alex,
+
+151
+0:09:15.032,000 --> 0:09:19,000
+et s'il l'utilise avec un casque de réalité virtuelle et des manettes,
+
+152
+0:09:19.868,000 --> 0:09:22,000
+alors la réalité virtuelle n'a plus rien de virtuel.
+
+153
+0:09:23.521,000 --> 0:09:25,000
+Elle devient une réalité tangible.
+
+154
+0:09:28.529,000 --> 0:09:31,000
+Les boules bleue, rouge et noire qu'il regarde
+
+155
+0:09:32.24,000 --> 0:09:34,000
+ne sont plus seulement différenciées par la couleur.
+
+156
+0:09:34.71,000 --> 0:09:39,000
+La bleue est désormais en caoutchouc, la rouge en mousse, la noire de billard.
+
+157
+0:09:40.642,000 --> 0:09:41,000
+C'est aujourd'hui possible.
+
+158
+0:09:43.263,000 --> 0:09:44,000
+Laissez-moi vous montrer.
+
+159
+0:09:46.15,000 --> 0:09:5,000
+C'est vraiment la première fois qu'on le montre en direct
+
+160
+0:09:50.343,000 --> 0:09:52,000
+devant un public, un public nombreux,
+
+161
+0:09:53.213,000 --> 0:09:54,000
+alors espérons que cela fonctionne.
+
+162
+0:09:55.668,000 --> 0:09:59,000
+Vous avez ici une image d'un atlas d'anatomie
+
+163
+0:09:59.993,000 --> 0:10:01,000
+et l'interface haptique du robogami.
+
+164
+0:10:02.81,000 --> 0:10:04,000
+Comme tous les autres robots reconfigurables,
+
+165
+0:10:05.379,000 --> 0:10:06,000
+il est multi-tâche.
+
+166
+0:10:06.578,000 --> 0:10:08,000
+Il va non seulement servir de souris,
+
+167
+0:10:08.625,000 --> 0:10:1,000
+mais aussi d'interface haptique.
+
+168
+0:10:11.381,000 --> 0:10:14,000
+Alors, par exemple, nous avons un fond blanc vide.
+
+169
+0:10:15.179,000 --> 0:10:17,000
+C'est-à-dire qu'il n'y a pas de sensation,
+
+170
+0:10:17.255,000 --> 0:10:2,000
+afin d'avoir une interface très flexible.
+
+171
+0:10:21.222,000 --> 0:10:24,000
+Maintenant, je l'utilise comme une souris pour s'approcher de la peau,
+
+172
+0:10:24.528,000 --> 0:10:25,000
+du bras musclé
+
+173
+0:10:25.815,000 --> 0:10:27,000
+pour sentir les biceps,
+
+174
+0:10:27.855,000 --> 0:10:28,000
+ou les épaules.
+
+175
+0:10:29.347,000 --> 0:10:32,000
+Vous voyez maintenant à quel point il devient rigide.
+
+176
+0:10:32.401,000 --> 0:10:33,000
+Explorons un peu plus.
+
+177
+0:10:33.796,000 --> 0:10:35,000
+Approchons-nous de la cage thoracique.
+
+178
+0:10:36.73,000 --> 0:10:38,000
+Dès que je remonte la cage thoracique
+
+179
+0:10:39.316,000 --> 0:10:41,000
+et que je passe entre les muscles intercostaux,
+
+180
+0:10:41.505,000 --> 0:10:42,000
+qui sont plus tendres et plus durs,
+
+181
+0:10:43.198,000 --> 0:10:45,000
+je peux sentir la différence de raideur.
+
+182
+0:10:45.458,000 --> 0:10:46,000
+Croyez-moi sur parole.
+
+183
+0:10:46.808,000 --> 0:10:5,000
+Il est maintenant beaucoup plus rigide et renvoie plus de résistance
+
+184
+0:10:51.035,000 --> 0:10:52,000
+vers le bout de mes doigts.
+
+185
+0:10:53.822,000 --> 0:10:56,000
+Je vous ai fait une démonstration pour des surfaces immobiles.
+
+186
+0:10:57.824,000 --> 0:11:,000
+Et si je devais m'approcher d'un organe en mouvement,
+
+187
+0:11:01.401,000 --> 0:11:03,000
+par exemple, d'un cœur qui bat ?
+
+188
+0:11:03.492,000 --> 0:11:04,000
+Que ressentirais-je ?
+
+189
+0:11:11.573,000 --> 0:11:17,000
+(Applaudissements)
+
+190
+0:11:19.158,000 --> 0:11:21,000
+Ce cœur qui bat, c'est peut-être le vôtre.
+
+191
+0:11:22.01,000 --> 0:11:25,000
+Cette interface peut se trouver à l'intérieur de votre poche
+
+192
+0:11:25.644,000 --> 0:11:26,000
+quand vous achetez en ligne.
+
+193
+0:11:28.361,000 --> 0:11:31,000
+Vous pourrez sentir la texture du pull que vous voulez acheter,
+
+194
+0:11:32.22,000 --> 0:11:33,000
+comme il est doux,
+
+195
+0:11:33.42,000 --> 0:11:35,000
+si c'est vraiment du cachemire ou non,
+
+196
+0:11:36.28,000 --> 0:11:38,000
+ou celle du bagel que vous pensez acheter,
+
+197
+0:11:38.36,000 --> 0:11:41,000
+comme il est dur ou croustillant.
+
+198
+0:11:42.229,000 --> 0:11:43,000
+C'est maintenant possible.
+
+199
+0:11:46.774,000 --> 0:11:51,000
+La technologie robotique évolue pour devenir plus personnalisée et adaptable,
+
+200
+0:11:52.61,000 --> 0:11:55,000
+afin de s’adapter à nos besoins de tous les jours.
+
+201
+0:11:56.457,000 --> 0:11:59,000
+Cette espèce unique de robots reconfigurables
+
+202
+0:12:00.106,000 --> 0:12:05,000
+est le point de départ pour créer l'interface invisible et intuitive
+
+203
+0:12:06.108,000 --> 0:12:08,000
+qui répondra à nos besoins précis.
+
+204
+0:12:10.169,000 --> 0:12:14,000
+Ces robots ne ressembleront plus aux personnages de cinéma.
+
+205
+0:12:14.843,000 --> 0:12:17,000
+A la place, ils seront ce que vous voulez qu'ils soient.
+
+206
+0:12:19.223,000 --> 0:12:2,000
+Je vous remercie.
+
+207
+0:12:20.453,000 --> 0:12:23,000
+(Applaudissements)
+

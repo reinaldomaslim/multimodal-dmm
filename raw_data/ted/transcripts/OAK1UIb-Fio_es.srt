@@ -1,0 +1,1864 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lidia Cámara de la Fuente Revisor: Ciro Gomez
+
+2
+0:00:12.103,000 --> 0:00:14,000
+Esta es una obra de teatro llamada "Ventas/Compras/Citas".
+
+3
+0:00:14.972,000 --> 0:00:16,000
+Es mi primera desde "Puente y Túnel", que hice en Broadway,
+
+4
+0:00:17.963,000 --> 0:00:2,000
+y de esta, --gracias--
+
+5
+0:00:21.333,000 --> 0:00:25,000
+he hecho un extracto solo para Uds. Así que allá vamos.
+
+6
+0:00:29.763,000 --> 0:00:32,000
+Bien. Clase. Asegurémonos muy bien de que
+
+7
+0:00:32.901,000 --> 0:00:36,000
+todos los dispositivos electrónicos estén apagados antes de empezar.
+
+8
+0:00:38.268,000 --> 0:00:43,000
+Así que, clase, espero que puedan reconocer lo que acaban de oírme decir.
+
+9
+0:00:43.985,000 --> 0:00:46,000
+Muy bien, el anuncio del teléfono celular.
+
+10
+0:00:47.199,000 --> 0:00:51,000
+¿Sí? Esto también se conoce como teléfono móvil.
+
+11
+0:00:51.378,000 --> 0:00:53,000
+Así recordarán, que la gente de esa época
+
+12
+0:00:53.607,000 --> 0:00:57,000
+tenía un dispositivo electrónico externo.
+
+13
+0:00:58.483,000 --> 0:00:59,000
+Algo como esto,
+
+14
+0:01:00.434,000 --> 0:01:02,000
+y todos ellos tenían uno de estos siempre con ellos,
+
+15
+0:01:03.37,000 --> 0:01:06,000
+y entre sus mayores temores era la pura mortificación
+
+16
+0:01:06.749,000 --> 0:01:09,000
+de que uno de esos pudiera sonar en algún momento inoportuno.
+
+17
+0:01:10.139,000 --> 0:01:12,000
+¿Sí? Para Uds., algo de "trivia" sobre esa era
+
+18
+0:01:12.54,000 --> 0:01:14,000
+(Risas)
+
+19
+0:01:15.1,000 --> 0:01:17,000
+Así que el formato de la clase de hoy es
+
+20
+0:01:17.851,000 --> 0:01:2,000
+mostrar múltiples módulos BERT
+
+21
+0:01:21.793,000 --> 0:01:23,000
+de ese período de la historia,
+
+22
+0:01:24.163,000 --> 0:01:26,000
+comenzando aproximadamente en el 2016.
+
+23
+0:01:26.973,000 --> 0:01:3,000
+Y recuerden, este fue el primer año del programa BERT.
+
+24
+0:01:31.32,000 --> 0:01:33,000
+Tenemos un buen número para mirar.
+
+25
+0:01:33.69,000 --> 0:01:37,000
+Tengan en cuenta, voy a encarnar varios cuerpos diferentes,
+
+26
+0:01:37.697,000 --> 0:01:38,000
+diferentes edades,
+
+27
+0:01:39.815,000 --> 0:01:42,000
+también lo que se llamó razas o grupos étnicos,
+
+28
+0:01:43.403,000 --> 0:01:45,000
+como recordarán de la Unidad 1.
+
+29
+0:01:45.493,000 --> 0:01:48,000
+Y --(Risas)-- a través de la serie continua de género,
+
+30
+0:01:48.813,000 --> 0:01:5,000
+voy a encarnar varones también.
+
+31
+0:01:51.321,000 --> 0:01:52,000
+Era bastante binario entonces.
+
+32
+0:01:52.991,000 --> 0:01:53,000
+(Risas)
+
+33
+0:01:54.55,000 --> 0:01:56,000
+También, no se olviden, de leer el módulo del libro para
+
+34
+0:01:57.547,000 --> 0:01:59,000
+el enfoque de la próxima semana sobre el género.
+
+35
+0:01:59.842,000 --> 0:02:03,000
+Sé que algunos han solicitado el libro en forma de píldora.
+
+36
+0:02:03.885,000 --> 0:02:07,000
+Sé que la gente todavía cree que ingerir es mejor para la retención,
+
+37
+0:02:08.201,000 --> 0:02:1,000
+pero ya que estamos tratando de experimentar
+
+38
+0:02:10.922,000 --> 0:02:12,000
+lo que hicieron nuestros antepasados,
+
+39
+0:02:13.7,000 --> 0:02:18,000
+por favor, hagámoslo solo desde la lectura ocular real, ¿de acuerdo?
+
+40
+0:02:19.207,000 --> 0:02:24,000
+Y ¿cuántas personas han activado sus derivaciones emocionales?
+
+41
+0:02:24.222,000 --> 0:02:26,000
+Por favor, desactívenlas, ¿sí?
+
+42
+0:02:26.916,000 --> 0:02:3,000
+Sé que es difícil, pero quiero que puedan sentir toda la gama
+
+43
+0:02:31.861,000 --> 0:02:32,000
+emocional natural, ¿de acuerdo?
+
+44
+0:02:33.719,000 --> 0:02:35,000
+Es esencial para esta parte del programa de estudios.
+
+45
+0:02:37.888,000 --> 0:02:38,000
+Sí, ¿Macy?
+
+46
+0:02:39.756,000 --> 0:02:42,000
+Está bien. Entiendo. Si no estás dispuesta...
+
+47
+0:02:43.627,000 --> 0:02:45,000
+Está bien, podemos discutirlo después de clase.
+
+48
+0:02:45.996,000 --> 0:02:47,000
+Muy bien, hablaremos de tus preocupaciones.
+
+49
+0:02:48.429,000 --> 0:02:52,000
+Solo relájate. Nadie murió o se fue al compostaje.
+
+50
+0:02:52.549,000 --> 0:02:55,000
+Está bien. Después de clase. ¿Sí? Después de clase.
+
+51
+0:02:56.863,000 --> 0:02:58,000
+Vamos a empezar, está bien.
+
+52
+0:02:59.144,000 --> 0:03:05,000
+Este primer tema identificado como ama de casa de clase media.
+
+53
+0:03:05.552,000 --> 0:03:07,000
+Recuerden, en estos primeros módulos
+
+54
+0:03:07.851,000 --> 0:03:11,000
+las identidades completas de estas personas estaban protegidas,
+
+55
+0:03:11.984,000 --> 0:03:14,000
+y esto les permitió hablar más libremente sobre nuestro tema,
+
+56
+0:03:15.2,000 --> 0:03:18,000
+lo que para muchos de ellos era tabú.
+
+57
+0:03:20.11,000 --> 0:03:23,000
+Bien, cariño, ahora, Estoy lista cuando quieras.
+
+58
+0:03:23.732,000 --> 0:03:26,000
+No, cariño, dije: que estoy lista cuando quieras.
+
+59
+0:03:28.06,000 --> 0:03:29,000
+Me estoy congelando.
+
+60
+0:03:30.061,000 --> 0:03:33,000
+Se está como en un frigorífico en este estudio de grabación.
+
+61
+0:03:33.206,000 --> 0:03:35,000
+Debería haber traído una manta.
+
+62
+0:03:35.806,000 --> 0:03:38,000
+Toda esta tecnología de fantasía, pero no se dan el lujo de la calefacción.
+
+63
+0:03:40.375,000 --> 0:03:43,000
+¿Qué dices? ¡No puedo oírte!
+
+64
+0:03:43.678,000 --> 0:03:45,000
+¡No puedo oír a través del cristal, cariño!
+
+65
+0:03:46.557,000 --> 0:03:48,000
+Estás en mi oído.
+
+66
+0:03:49.32,000 --> 0:03:51,000
+¿Puedes oírme?
+
+67
+0:03:51.92,000 --> 0:03:52,000
+Durante todo el tiempo.
+
+68
+0:03:53.778,000 --> 0:03:56,000
+Oh, sí, tengo un poco de frío.
+
+69
+0:03:57.98,000 --> 0:04:02,000
+Sí, ¡oh!, el frío es para las máquinas, la nueva tecnología. Bueno.
+
+70
+0:04:03.553,000 --> 0:04:05,000
+Sí, ahora me recuerdan una vez más, que me están
+
+71
+0:04:06.459,000 --> 0:04:08,000
+grabando no solo la voz sino mis sentimientos
+
+72
+0:04:09.304,000 --> 0:04:11,000
+y mis recuerdos, ¿cierto?
+
+73
+0:04:12.414,000 --> 0:04:14,000
+Sí, BERT, sí, he leído sobre él.
+
+74
+0:04:14.433,000 --> 0:04:17,000
+Tecnología Bioempática de Resonancia.
+
+75
+0:04:17.484,000 --> 0:04:22,000
+Cierto, cierto, ¿así la gente podrá vivir mi experiencia
+
+76
+0:04:22.641,000 --> 0:04:23,000
+y mi memoria? Bueno.
+
+77
+0:04:24.543,000 --> 0:04:25,000
+No, bien, estoy lista.
+
+78
+0:04:25.958,000 --> 0:04:29,000
+Solo pensé que me harías una prueba para ver cómo ando de mi memoria.
+
+79
+0:04:30.055,000 --> 0:04:33,000
+Iba a decirte que tengo malas noticias, es demasiado tarde.
+
+80
+0:04:34.847,000 --> 0:04:36,000
+No, no, adelante, cariño.
+
+81
+0:04:37.648,000 --> 0:04:39,000
+Oh, ¿esa es la primera pregunta?
+
+82
+0:04:39.984,000 --> 0:04:42,000
+¿Qué pienso de la prostitución?
+
+83
+0:04:43.258,000 --> 0:04:46,000
+¿Me estás solicitando, joven?
+
+84
+0:04:47.483,000 --> 0:04:49,000
+He oído hablar de romances de mayo a diciembre,
+
+85
+0:04:49.785,000 --> 0:04:51,000
+pero dime ¿tienes unos 20 años de edad?
+
+86
+0:04:53.102,000 --> 0:04:54,000
+¿18? ¿18 años?
+
+87
+0:04:54.844,000 --> 0:04:59,000
+Creo que tengo caramelos en el bolso de más de 18 años.
+
+88
+0:05:00.463,000 --> 0:05:01,000
+(Risas)
+
+89
+0:05:04.281,000 --> 0:05:08,000
+Te tomo el pelo, cariño. Sí, me siento cómoda con cualquier pregunta.
+
+90
+0:05:09.94,000 --> 0:05:13,000
+Así que sobre la prostitución, trabajadora sexual, trabajadora sexual.
+
+91
+0:05:15.951,000 --> 0:05:18,000
+No, solo que entonces, lo llamaban prostitución, no trabajo sexual.
+
+92
+0:05:19.92,000 --> 0:05:21,000
+Oh, ¿porque incluye pornografía también?
+
+93
+0:05:22.666,000 --> 0:05:23,000
+Está bien.
+
+94
+0:05:24.477,000 --> 0:05:26,000
+No, bueno, supongo que cuando era niña,
+
+95
+0:05:26.659,000 --> 0:05:28,000
+no teníamos realmente un nombre para eso.
+
+96
+0:05:29.167,000 --> 0:05:34,000
+Habríamos dicho revistas sucias, supongo, o películas sucias.
+
+97
+0:05:34.902,000 --> 0:05:36,000
+Bueno, no es como lo de Internet.
+
+98
+0:05:38.13,000 --> 0:05:41,000
+No, bueno, no me importa compartir.
+
+99
+0:05:41.636,000 --> 0:05:45,000
+Mi marido y yo, éramos una pareja muy romántica.
+
+100
+0:05:47.898,000 --> 0:05:49,000
+Mucha ternura, ya entiendes.
+
+101
+0:05:51.794,000 --> 0:05:54,000
+Bueno, a medida que envejecía, en un momento pensé que a mi marido
+
+102
+0:05:55.164,000 --> 0:05:59,000
+le podrían ayudar las píldoras que pueden tomar los hombres,
+
+103
+0:06:01.317,000 --> 0:06:04,000
+pero él no estaba interesado en eso,
+
+104
+0:06:04.413,000 --> 0:06:1,000
+así que pensé, ¿quizá viendo una película para adultos en Internet?
+
+105
+0:06:10.474,000 --> 0:06:13,000
+Solo en busca de inspiración, ya me entiendes.
+
+106
+0:06:13.908,000 --> 0:06:17,000
+En aquel entonces, ninguno de los dos éramos muy buenos con la computadora,
+
+107
+0:06:18.906,000 --> 0:06:2,000
+por lo general, si necesitábamos ayuda con Internet,
+
+108
+0:06:21.619,000 --> 0:06:25,000
+llamábamos a nuestros hijos o nuestros nietos.
+
+109
+0:06:26.597,000 --> 0:06:29,000
+Pero obviamente, en este caso, esa no era una opción,
+
+110
+0:06:30.163,000 --> 0:06:35,000
+así que pensé, echaré una mirada sola, solo para ver.
+
+111
+0:06:35.588,000 --> 0:06:37,000
+¿Qué tan difícil podía ser?
+
+112
+0:06:38.127,000 --> 0:06:41,000
+Uno busca ciertas palabras clave y ves...
+
+113
+0:06:41.76,000 --> 0:06:43,000
+Oh, guau, ya está, joven.
+
+114
+0:06:43.955,000 --> 0:06:45,000
+No te puedes imaginar lo que vi.
+
+115
+0:06:46.672,000 --> 0:06:5,000
+Bueno, primero que nada, solo intentaba encontrar parejas,
+
+116
+0:06:51.618,000 --> 0:06:53,000
+parejas normales que hacen el amor.
+
+117
+0:06:55.303,000 --> 0:06:59,000
+Pero ¿esto?, muchas personas juntas al mismo tiempo.
+
+118
+0:06:59.791,000 --> 0:07:02,000
+No se podía decir qué parte pertenecía a qué cuerpo.
+
+119
+0:07:03.599,000 --> 0:07:05,000
+¿Cómo llegaron las cámaras a
+
+120
+0:07:05.664,000 --> 0:07:07,000
+capturar todo esto? No podría decirte.
+
+121
+0:07:07.778,000 --> 0:07:11,000
+Pero la única cosa que no captaban era hacer el amor.
+
+122
+0:07:14.658,000 --> 0:07:18,000
+Había un montón de actividad de algo,
+
+123
+0:07:19.388,000 --> 0:07:23,000
+pero se sacó solo esa parte del amor de ello, ya sabes, la diversión.
+
+124
+0:07:23.497,000 --> 0:07:26,000
+Todo era muy extremo, ¿sabes?
+
+125
+0:07:27.421,000 --> 0:07:29,000
+Como tú dirías de los deportes extremos.
+
+126
+0:07:31.149,000 --> 0:07:34,000
+Mucha esfuerzo,
+
+127
+0:07:34.778,000 --> 0:07:37,000
+pero nunca ternura.
+
+128
+0:07:37.8,000 --> 0:07:4,000
+Así que de todos modos, no hace falta decir
+
+129
+0:07:40.923,000 --> 0:07:43,000
+que fueron USD 19,95 nunca más lo visitaré de nuevo,
+
+130
+0:07:44.116,000 --> 0:07:46,000
+pero solo apareció en la tarjeta de crédito
+
+131
+0:07:46.739,000 --> 0:07:48,000
+como "servicios de entretenimiento".
+
+132
+0:07:48.945,000 --> 0:07:5,000
+Mi marido nunca fue el más sabio,
+
+133
+0:07:51.732,000 --> 0:07:53,000
+y después de todo eso,
+
+134
+0:07:55.133,000 --> 0:07:57,000
+bien, se podría decir que cambió.
+
+135
+0:07:57.572,000 --> 0:08:,000
+No necesitaba la inspiración adicional después de todo.
+
+136
+0:08:03.152,000 --> 0:08:06,000
+Bien. A por el siguiente tema; es una mujer joven --(Aplausos)--
+
+137
+0:08:07.924,000 --> 0:08:1,000
+tema siguiente, clase, es una joven llamada Bella,
+
+138
+0:08:10.957,000 --> 0:08:13,000
+estudiante universitaria entrevistada en 2016
+
+139
+0:08:14.904,000 --> 0:08:17,000
+durante una clase llamada "Introducción al porno feminista"
+
+140
+0:08:18.828,000 --> 0:08:2,000
+como parte de sus estudios sobre trabajo sexual
+
+141
+0:08:21.219,000 --> 0:08:23,000
+en una universidad en el área de la bahía.
+
+142
+0:08:23.317,000 --> 0:08:26,000
+(Risas)
+
+143
+0:08:26.672,000 --> 0:08:28,000
+Sí, solo quiero, como, que me den una grabación,
+
+144
+0:08:29.439,000 --> 0:08:31,000
+me están grabando,
+
+145
+0:08:31.808,000 --> 0:08:33,000
+como una grabación meta, o lo que sea.
+
+146
+0:08:34.887,000 --> 0:08:37,000
+Es toda esta experiencia, es solo, como decirlo, realmente increíble,
+
+147
+0:08:38.611,000 --> 0:08:41,000
+Y me gustaría capturarlo para mi Instagram y mi Tumblr.
+
+148
+0:08:42.131,000 --> 0:08:44,000
+Para decir, así, "Hola chicos, soy Bella,
+
+149
+0:08:45.126,000 --> 0:08:48,000
+y estoy entrevistada en este momento,
+
+150
+0:08:49.722,000 --> 0:08:54,000
+con esta increíble Tecnología de Bioempática de Resonancia".
+
+151
+0:08:55.505,000 --> 0:08:57,000
+Que es, en el fondo donde
+
+152
+0:08:58.458,000 --> 0:09:01,000
+están grabando, como se puede ver
+
+153
+0:09:01.78,000 --> 0:09:02,000
+estos, lo que sea, electrodos,
+
+154
+0:09:03.702,000 --> 0:09:08,000
+la formación, como, neuropéptidos en mi hipocampo, o lo que sea.
+
+155
+0:09:10.16,000 --> 0:09:12,000
+Ellos más tarde reconstituirán
+
+156
+0:09:12.92,000 --> 0:09:17,000
+mi propia memoria real, como experiencias reales,
+
+157
+0:09:19.54,000 --> 0:09:21,000
+Para que otras personas puedan, realmente
+
+158
+0:09:21.614,000 --> 0:09:23,000
+sentir lo que siento en este momento.
+
+159
+0:09:24.32,000 --> 0:09:26,000
+Está bien. Bueno.
+
+160
+0:09:26.572,000 --> 0:09:31,000
+Así, hola, BERT persona del futuro que me estás experimentando.
+
+161
+0:09:32.75,000 --> 0:09:35,000
+Esto es lo que se siente siendo una estudiante universitaria de primer año,
+
+162
+0:09:36.557,000 --> 0:09:41,000
+y también el dolor de cabeza que estás experimentando a través mío
+
+163
+0:09:41.781,000 --> 0:09:47,000
+es el, como, el efecto residual de los 'shots' de gelatina que me comí anoche
+
+164
+0:09:48.2,000 --> 0:09:5,000
+en la fiesta feminista quincenal
+
+165
+0:09:51.115,000 --> 0:09:54,000
+donde soy coanfitriona los miércoles.
+
+166
+0:09:54.157,000 --> 0:09:57,000
+Se llama "No seas Polo-emica" --(Risas)--
+
+167
+0:09:57.779,000 --> 0:10:,000
+y está en Beekman Hall,
+
+168
+0:10:02.072,000 --> 0:10:04,000
+y, ¿qué más?,
+
+169
+0:10:04.25,000 --> 0:10:08,000
+también hay gelatina disponible para veganos,
+
+170
+0:10:08.297,000 --> 0:10:16,000
+y, oh, bueno, sí, totalmente, sí, también hay que centrarse en tus preguntas.
+
+171
+0:10:17.98,000 --> 0:10:21,000
+Así que para el informe, hago estudios del trabajo sexual
+
+172
+0:10:22.182,000 --> 0:10:24,000
+minorizado en los medios sociales
+
+173
+0:10:24.457,000 --> 0:10:26,000
+con una concentración de memes notables en YouTube.
+
+174
+0:10:27.151,000 --> 0:10:29,000
+(Risas)
+
+175
+0:10:30.239,000 --> 0:10:33,000
+Sí, bueno, por supuesto, cómo me considero,
+
+176
+0:10:33.49,000 --> 0:10:35,000
+obviamente, feminista.
+
+177
+0:10:35.579,000 --> 0:10:39,000
+Fui denominada por Bella Abzug, quién era, como, la famosa
+
+178
+0:10:40.571,000 --> 0:10:42,000
+feminista de la historia,
+
+179
+0:10:42.986,000 --> 0:10:45,000
+y, al igual, también siento que es, como,
+
+180
+0:10:46.048,000 --> 0:10:49,000
+importante, como, representar a las mujeres
+
+181
+0:10:49.255,000 --> 0:10:52,000
+que son, como, feministas positivas al sexo.
+
+182
+0:10:54.224,000 --> 0:10:56,000
+¿Qué es el sexo negativo?
+
+183
+0:10:56.941,000 --> 0:11:,000
+Bueno, supongo que me gustaría preguntar, ¿qué te parece
+
+184
+0:11:01.399,000 --> 0:11:04,000
+que es el sexo negativo? (Risas)
+
+185
+0:11:04.417,000 --> 0:11:06,000
+Sí, porque, al igual que, los términos que utilizamos
+
+186
+0:11:06.984,000 --> 0:11:08,000
+son tan importantes, como,
+
+187
+0:11:09.314,000 --> 0:11:12,000
+lo de llamarlo trabajo sexual porque ayuda a la gente
+
+188
+0:11:12.911,000 --> 0:11:15,000
+a entender que es un trabajo,
+
+189
+0:11:16.352,000 --> 0:11:2,000
+y, tal y como hay proveedores de salud
+
+190
+0:11:21.228,000 --> 0:11:23,000
+y, al igual que proveedores de seguros,
+
+191
+0:11:23.712,000 --> 0:11:26,000
+igual, pensamos en estos trabajadores como
+
+192
+0:11:26.765,000 --> 0:11:28,000
+proveedores de servicios sexuales.
+
+193
+0:11:30.511,000 --> 0:11:33,000
+Sí, yo no pienso en mí misma como, proveedora directa
+
+194
+0:11:34.184,000 --> 0:11:38,000
+de servicios de atención al sexo per se siendo un requisito
+
+195
+0:11:38.433,000 --> 0:11:4,000
+para mí ser activista.
+
+196
+0:11:40.894,000 --> 0:11:43,000
+Apoyo el derecho a otras mujeres a elegir voluntariamente
+
+197
+0:11:44.563,000 --> 0:11:46,000
+lo que les gusta.
+
+198
+0:11:46.676,000 --> 0:11:48,000
+Sí, pero, al igual que, me veo a mí misma en el futuro
+
+199
+0:11:49.509,000 --> 0:11:52,000
+como, probablemente, protectora de los trabajadores sexuales
+
+200
+0:11:53.247,000 --> 0:11:56,000
+de sus libertades y derechos legales.
+
+201
+0:11:56.288,000 --> 0:11:59,000
+Sí, así, básicamente, estoy pensando en ser abogada.
+
+202
+0:12:02.133,000 --> 0:12:03,000
+Bien, clase. (Risas) (Aplausos)
+
+203
+0:12:03.835,000 --> 0:12:07,000
+Así que estos próximos dos módulos también son de 2016.
+
+204
+0:12:07.921,000 --> 0:12:1,000
+Uno de los sujetos es una irlandesa con una notable
+
+205
+0:12:11.915,000 --> 0:12:13,000
+relación con este tema.
+
+206
+0:12:14.847,000 --> 0:12:17,000
+Pero primero será una mujer antillana,
+
+207
+0:12:18.509,000 --> 0:12:2,000
+una autodenominada escolta
+
+208
+0:12:20.831,000 --> 0:12:25,000
+grabada en el desfile de los trabajadores del sexo a favor de sus derechos.
+
+209
+0:12:26.241,000 --> 0:12:3,000
+La entrevistaron mientras desfilaba disfrazada tocando ritmos de carnaval
+
+210
+0:12:30.792,000 --> 0:12:32,000
+y muy poco más.
+
+211
+0:12:36.295,000 --> 0:12:38,000
+Bien, ¿quieres que empiece a hablar ahora?
+
+212
+0:12:38.379,000 --> 0:12:41,000
+Sí, te dije, puedes poner esos cables donde quieras,
+
+213
+0:12:41.509,000 --> 0:12:44,000
+siempre que no se interponga en el camino.
+
+214
+0:12:45.164,000 --> 0:12:49,000
+Sí, no, pero, dime otra vez el nombre ¿BERT? ¿BERT?
+
+215
+0:12:50.069,000 --> 0:12:53,000
+Sí, te decía, que creo que en todo ese tiempo
+
+216
+0:12:53.108,000 --> 0:12:54,000
+tuve al menos un cliente con ese nombre,
+
+217
+0:12:55.104,000 --> 0:12:56,000
+así, esta no será mi primera vez
+
+218
+0:12:56.797,000 --> 0:12:58,000
+que tuve a BERT encima.
+
+219
+0:13:03.905,000 --> 0:13:04,000
+Oh, lo siento,
+
+220
+0:13:05.218,000 --> 0:13:06,000
+pero debes entrar en la onda
+
+221
+0:13:06.906,000 --> 0:13:07,000
+si vas a entrevistarme.
+
+222
+0:13:08.67,000 --> 0:13:09,000
+¿Bien? Puedes decirlo.
+
+223
+0:13:09.786,000 --> 0:13:12,000
+¡Sin justicia no hay ni pizca! [Juego de palabras "peace" - paz-, "piece" - pizca]
+
+224
+0:13:13.154,000 --> 0:13:16,000
+¿Pero ves la señal? ¿lo entiendes? P-I-E-C-E [pizca / paz).
+
+225
+0:13:16.207,000 --> 0:13:18,000
+Sin justicia no hay ni un pizca nuestra.
+
+226
+0:13:18.878,000 --> 0:13:19,000
+¿Entiendes?
+
+227
+0:13:20.79,000 --> 0:13:22,000
+Sí, lo que te decía
+
+228
+0:13:23.244,000 --> 0:13:25,000
+es que cuando llegué a este país
+
+229
+0:13:25.355,000 --> 0:13:27,000
+trabajé en todo empleo que pude encontrar.
+
+230
+0:13:27.609,000 --> 0:13:29,000
+Fui niñera, asistente del cuidado doméstico
+
+231
+0:13:29.932,000 --> 0:13:31,000
+para diferentes personas viejas.
+
+232
+0:13:32.299,000 --> 0:13:36,000
+Y me dije, niña, si tienes que tocar el trasero de otro hombre blanco,
+
+233
+0:13:36.422,000 --> 0:13:38,000
+podrías obtener mucho mejor pago que haciendo esto,
+
+234
+0:13:39.381,000 --> 0:13:4,000
+¿entiendes?
+
+235
+0:13:41.285,000 --> 0:13:44,000
+Uff, ¿sabes lo difícil que es ser trabajadora doméstica?
+
+236
+0:13:44.98,000 --> 0:13:45,000
+Algunos de esos hombres son pesados.
+
+237
+0:13:46.729,000 --> 0:13:48,000
+tienes que levantarlos y darles la vuelta.
+
+238
+0:13:49.528,000 --> 0:13:53,000
+Ahora dejo que me levanten y me den la vuelta, ¿entiendes?
+
+239
+0:13:53.876,000 --> 0:13:54,000
+Una tiene que tener sentido del
+
+240
+0:13:55.732,000 --> 0:13:56,000
+humor al respecto, es lo que pienso.
+
+241
+0:13:57.479,000 --> 0:13:58,000
+No, pero mira, escucha,
+
+242
+0:13:59.349,000 --> 0:14:02,000
+encuentra a alguien que no odie algo de su trabajo.
+
+243
+0:14:02.569,000 --> 0:14:04,000
+Quiero decir, hay muchas cosas sobre este trabajo que odio,
+
+244
+0:14:05.392,000 --> 0:14:06,000
+pero el dinero no es una de ellas,
+
+245
+0:14:07.072,000 --> 0:14:09,000
+y te diré, siempre y cuando esta sea la mejor posibilidad
+
+246
+0:14:09.891,000 --> 0:14:1,000
+para mí de ganar dinero real,
+
+247
+0:14:11.655,000 --> 0:14:15,000
+seré la jamaiquina no falsa, si eso es lo que quieren llamarme.
+
+248
+0:14:15.811,000 --> 0:14:18,000
+No, no soy de Jamaica. Es así como me comercializan.
+
+249
+0:14:19.318,000 --> 0:14:22,000
+Mi familia es de Trinidad y las Islas Vírgenes.
+
+250
+0:14:23.495,000 --> 0:14:25,000
+No saben lo que hago, pero ¿sabes qué?
+
+251
+0:14:25.711,000 --> 0:14:28,000
+Mis hijos saben que las cuotas escolares se pagan,
+
+252
+0:14:28.977,000 --> 0:14:3,000
+tienen sus libros y su computadora,
+
+253
+0:14:31.484,000 --> 0:14:33,000
+y de esta manera, sé que tienen una oportunidad.
+
+254
+0:14:34.456,000 --> 0:14:36,000
+No diré que lo que hago, es fácil.
+
+255
+0:14:37.266,000 --> 0:14:4,000
+No diré que me siento, ¿Qué es eso que dijiste?, ¿liberada?
+
+256
+0:14:42.128,000 --> 0:14:44,000
+Pero me siento bien pagada.
+
+257
+0:14:46.12,000 --> 0:14:49,000
+Bien. (Aplausos)
+
+258
+0:14:50.872,000 --> 0:14:52,000
+Gracias, precioso, y solo la taza de té, amor,
+
+259
+0:14:53.496,000 --> 0:14:54,000
+y solo un chorrito de whisky.
+
+260
+0:14:55.47,000 --> 0:14:59,000
+Es perfecto, eso es grandioso. Una gota más. Un chorrito. Perfecto.
+
+261
+0:15:00.2,000 --> 0:15:03,000
+¿Cuál era su nombre? ¿Peter? Bien, Peter.
+
+262
+0:15:03.55,000 --> 0:15:06,000
+Bien. Así que, la parte única en mí,
+
+263
+0:15:06.708,000 --> 0:15:08,000
+es que terminé
+
+264
+0:15:10.681,000 --> 0:15:13,000
+primero en el convento, y luego en el prostíbulo. Es correcto.
+
+265
+0:15:14.55,000 --> 0:15:15,000
+(Risas)
+
+266
+0:15:16.16,000 --> 0:15:19,000
+Así que una mujer en la universidad en Dublín, escribió sobre mí.
+
+267
+0:15:20.12,000 --> 0:15:25,000
+Dijo, Maureen Fitzroy es la encarnación viviente de la dicotomía puta virgen.
+
+268
+0:15:25.82,000 --> 0:15:26,000
+Bien. (Risas)
+
+269
+0:15:27.341,000 --> 0:15:3,000
+¿No suena como algo para ir al hospital?
+
+270
+0:15:30.359,000 --> 0:15:31,000
+Tengo esta terrible dicotomía.
+
+271
+0:15:32.248,000 --> 0:15:33,000
+¿No es así?
+
+272
+0:15:33.781,000 --> 0:15:36,000
+Bueno, para mí, sin embargo, fue de niña que empezó conmigo papá.
+
+273
+0:15:37.119,000 --> 0:15:4,000
+Quiero decir, la mitad del tiempo, cuando nos hablaba era para
+
+274
+0:15:40.394,000 --> 0:15:42,000
+decirnos que éramos unos idiotas inútiles
+
+275
+0:15:42.51,000 --> 0:15:44,000
+podridos, sin moral, y todo ese tipo de cosas.
+
+276
+0:15:44.856,000 --> 0:15:47,000
+Y de verdad, no me hago a mí misma ningún favor.
+
+277
+0:15:48.177,000 --> 0:15:5,000
+Para cuando tenía 16 años,
+
+278
+0:15:50.406,000 --> 0:15:52,000
+había empezado a salir con este chico mayor,
+
+279
+0:15:53.285,000 --> 0:15:56,000
+y quería que fuera nuestro pequeño secreto,
+
+280
+0:15:56.837,000 --> 0:15:58,000
+y lo hice aunque me dijeron que no lo hiciera
+
+281
+0:15:59.345,000 --> 0:16:05,000
+y cuando lo supo mi papá, me enviaron inmediatamente al convento.
+
+282
+0:16:06.752,000 --> 0:16:09,000
+Pues no, ese hombre mayor, siguió encontrándome en el convento.
+
+283
+0:16:10.87,000 --> 0:16:11,000
+Sí, me dejaba notas
+
+284
+0:16:12.416,000 --> 0:16:15,000
+metidas en los agujeros del ladrillo en la parte de atrás de la tienda
+
+285
+0:16:15.791,000 --> 0:16:17,000
+para que pudiéramos encontrarnos.
+
+286
+0:16:17.958,000 --> 0:16:19,000
+Y él me decía que iba a dejar a su esposa,
+
+287
+0:16:20.915,000 --> 0:16:24,000
+y yo le creía, hasta que me quedé embarazada.
+
+288
+0:16:25.141,000 --> 0:16:3,000
+Yo, le dejé una nota en nuestro lugar especial allí,
+
+289
+0:16:30.458,000 --> 0:16:33,000
+y nunca más oí hablar de él.
+
+290
+0:16:33.477,000 --> 0:16:38,000
+No. Lo di en adopción para que tuviera una vida digna,
+
+291
+0:16:39.07,000 --> 0:16:41,000
+y luego no me dejaron entrar de nuevo en el convento.
+
+292
+0:16:42.305,000 --> 0:16:46,000
+No, mi única hermana Virginia me dio cinco libras para el bus a Dublín,
+
+293
+0:16:46.383,000 --> 0:16:48,000
+y así es como terminé aquí.
+
+294
+0:16:48.991,000 --> 0:16:52,000
+Bueno, sorpresa, sorpresa, me enamoré de otro chico mucho mayor que yo,
+
+295
+0:16:53.12,000 --> 0:16:58,000
+y me decía a mí misma que era feliz porque él no bebía.
+
+296
+0:16:59.349,000 --> 0:17:01,000
+Me casé con un bastardo.
+
+297
+0:17:02.502,000 --> 0:17:05,000
+No bebía, pero tenía solo el problema de la heroína ¿no es así?
+
+298
+0:17:06.184,000 --> 0:17:09,000
+Y... Eso es correcto, y antes de darme cuenta,
+
+299
+0:17:09.279,000 --> 0:17:12,000
+él fue quien me embarcó en la prostitución, mi propio marido.
+
+300
+0:17:13.703,000 --> 0:17:15,000
+Tenía que mantenernos a nosotros dos.
+
+301
+0:17:15.771,000 --> 0:17:16,000
+Tenía 18 años.
+
+302
+0:17:18.144,000 --> 0:17:21,000
+Bueno, no era Pretty Woman, te lo puedo decir.
+
+303
+0:17:22.509,000 --> 0:17:23,000
+Si Julia Roberts,
+
+304
+0:17:25.216,000 --> 0:17:27,000
+alguna vez hubiera tenido que dormir con un
+
+305
+0:17:27.312,000 --> 0:17:29,000
+hombre que pusiera unas libras en su bolsillo,
+
+306
+0:17:29.569,000 --> 0:17:31,000
+no creo que ella jamás habría hecho esa película.
+
+307
+0:17:32.109,000 --> 0:17:34,000
+Bueno, para su registro,
+
+308
+0:17:34.339,000 --> 0:17:37,000
+mi opinión sobre la legalización, estoy en contra.
+
+309
+0:17:38.619,000 --> 0:17:4,000
+No me importa lo que dicen estas jóvenes.
+
+310
+0:17:40.864,000 --> 0:17:43,000
+Viviendo así, uno acaba perdiendo,
+
+311
+0:17:43.975,000 --> 0:17:45,000
+y, ya sabes, tengo 63 años.
+
+312
+0:17:46.483,000 --> 0:17:48,000
+Todavía estoy intentando encontrar quién soy.
+
+313
+0:17:49.503,000 --> 0:17:52,000
+Ya sabes, nunca fui esposa o monja,
+
+314
+0:17:53.24,000 --> 0:17:56,000
+o prostituta, incluso, de verdad, no de verdad.
+
+315
+0:17:56.56,000 --> 0:17:59,000
+Nadie preguntó quién quería ser.
+
+316
+0:17:59.648,000 --> 0:18:,000
+Simplemente me dijeron hazlo.
+
+317
+0:18:01.482,000 --> 0:18:02,000
+Y si se legaliza, entonces una dice
+
+318
+0:18:03.333,000 --> 0:18:04,000
+realmente a estas chicas
+
+319
+0:18:05.309,000 --> 0:18:07,000
+"Vengan y piérdanse para ganarse la vida",
+
+320
+0:18:07.364,000 --> 0:18:09,000
+y muchas de ellas, harán lo que les digan.
+
+321
+0:18:10.612,000 --> 0:18:15,000
+De acuerdo, cuatro perspectivas de cuatro (Aplausos)
+
+322
+0:18:15.669,000 --> 0:18:17,000
+de cuatro voces muy diferentes ¿verdad?
+
+323
+0:18:17.829,000 --> 0:18:21,000
+Una mujer diciendo que el sexo es algo natural pero la industria del sexo
+
+324
+0:18:22.546,000 --> 0:18:24,000
+parece mecanizar o industrializarlo.
+
+325
+0:18:24.794,000 --> 0:18:28,000
+La segunda mujer considera el trabajo sexual empoderante,
+
+326
+0:18:29.162,000 --> 0:18:32,000
+liberal y feminista, aunque ella misma, en particular,
+
+327
+0:18:32.991,000 --> 0:18:34,000
+no parecía dispuesta a ejercerlo.
+
+328
+0:18:35.568,000 --> 0:18:39,000
+La tercera mujer, era en realidad una llamada trabajadora sexual,
+
+329
+0:18:39.995,000 --> 0:18:42,000
+no estaba de acuerdo que fuera liberador pero desea su derecho
+
+330
+0:18:43.34,000 --> 0:18:44,000
+para su empoderamiento económico.
+
+331
+0:18:44.94,000 --> 0:18:47,000
+Luego escuchamos a la cuarta mujer diciendo no solo que la prostitución en sí
+
+332
+0:18:48.552,000 --> 0:18:5,000
+sino los roles prohibidos a las mujeres, en general,
+
+333
+0:18:51.088,000 --> 0:18:54,000
+le impidieron siempre descubrir quién era ella, ¿no?
+
+334
+0:18:54.218,000 --> 0:18:56,000
+Otro hecho que la mayoría de la gente no sabía
+
+335
+0:18:56.395,000 --> 0:18:59,000
+era que el promedio de edad de una niña en riesgo
+
+336
+0:18:59.436,000 --> 0:19:01,000
+de ser introducida a la industria del sexo
+
+337
+0:19:02.08,000 --> 0:19:04,000
+y era de 12 o 13.
+
+338
+0:19:04.11,000 --> 0:19:07,000
+Tengan en cuenta que la edad cuando todas las niñas en la sociedad
+
+339
+0:19:07.286,000 --> 0:19:1,000
+estaban expuestas a imágenes sexualizadas de mujeres
+
+340
+0:19:10.791,000 --> 0:19:12,000
+era un poco más temprano, ¿no?
+
+341
+0:19:13.345,000 --> 0:19:17,000
+Esta era una muñeca llamada Barbie, ¿verdad?
+
+342
+0:19:17.865,000 --> 0:19:18,000
+Primero pensé que era una herramienta
+
+343
+0:19:19.799,000 --> 0:19:21,000
+educativa para prevenir la anorexia, (Risas)
+
+344
+0:19:22.842,000 --> 0:19:25,000
+pero en realidad era considerada por muchos
+
+345
+0:19:26.209,000 --> 0:19:3,000
+como un símbolo de la feminidad sana,
+
+346
+0:19:30.272,000 --> 0:19:33,000
+y a menudo las jóvenes comenzaron lo que se llamaba dieta.
+
+347
+0:19:33.615,000 --> 0:19:37,000
+¿Recuerdan esto? Es restringir la ingesta de alimentos a propósito
+
+348
+0:19:37.854,000 --> 0:19:38,000
+a la edad de seis años,
+
+349
+0:19:39.234,000 --> 0:19:41,000
+y definirse basándose en el atractivo
+
+350
+0:19:42.061,000 --> 0:19:43,000
+alrededor de esa misma edad ¿Sí?
+
+351
+0:19:43.901,000 --> 0:19:44,000
+¿Sí?
+
+352
+0:19:45.712,000 --> 0:19:47,000
+Cierto, Bradley, bien, excelente punto.
+
+353
+0:19:47.756,000 --> 0:19:49,000
+Así que había un mercado lucrativo
+
+354
+0:19:50.171,000 --> 0:19:52,000
+en esa sociedad, convencer a todas las personas
+
+355
+0:19:52.585,000 --> 0:19:55,000
+de que debían tener una manera determinada incluso a tener una vida sexual, ¿no?
+
+356
+0:19:56.463,000 --> 0:20:01,000
+Pero sobre todo, se esperaba de las niñas, que fueran "sexys",
+
+357
+0:20:01.618,000 --> 0:20:04,000
+evitando ser percibidas como "putas" por ser sexuales. ¿Verdad?
+
+358
+0:20:04.97,000 --> 0:20:06,000
+Así que esa muestra de la vergüenza que hemos oído.
+
+359
+0:20:07.477,000 --> 0:20:08,000
+Sí.
+
+360
+0:20:08.839,000 --> 0:20:09,000
+Valerie, ¿sí? Bueno, muy bueno.
+
+361
+0:20:10.696,000 --> 0:20:12,000
+Por supuesto, los hombres tenían sexo, así,
+
+362
+0:20:13.506,000 --> 0:20:15,000
+pero ¿recordarán de las lecturas,
+
+363
+0:20:15.944,000 --> 0:20:16,000
+como se llamaban a los putos?
+
+364
+0:20:18.675,000 --> 0:20:19,000
+Muy bien, se les llamaban hombres.
+
+365
+0:20:20.541,000 --> 0:20:22,000
+(Risas) (Aplausos)
+
+366
+0:20:22.747,000 --> 0:20:27,000
+Así que no es fácil vivir en un mundo así, ¿verdad?
+
+367
+0:20:28.459,000 --> 0:20:3,000
+Aunque no todo son malas noticias.
+
+368
+0:20:30.711,000 --> 0:20:33,000
+La mayoría de las mujeres en la década de 2000 se consideraban con poder,
+
+369
+0:20:34.217,000 --> 0:20:35,000
+y los hombres en general, sentían que
+
+370
+0:20:36.069,000 --> 0:20:38,000
+estaban también evolucionando en esta área,
+
+371
+0:20:38.08,000 --> 0:20:41,000
+y, de hecho, la mayoría de la gente era consciente de los problemas
+
+372
+0:20:41.3,000 --> 0:20:42,000
+como la trata de personas, por ejemplo,
+
+373
+0:20:43.235,000 --> 0:20:45,000
+pero lo veían como bastante separado
+
+374
+0:20:45.636,000 --> 0:20:47,000
+del entretenimiento más recreativo para adultos.
+
+375
+0:20:48.427,000 --> 0:20:51,000
+Y así muy brevemente, clase, no tenemos mucho tiempo,
+
+376
+0:20:51.85,000 --> 0:20:53,000
+escucharemos muy brevemente a un hombre
+
+377
+0:20:54.065,000 --> 0:20:55,000
+sobre nuestro tema de esa época.
+
+378
+0:20:55.839,000 --> 0:21:,000
+Lo entrevistaron sobre el tema en la noche de su despedida de soltero.
+
+379
+0:21:03.426,000 --> 0:21:06,000
+Amigos, ¿pueden? Ya está bien. ¿pueden simplemente estar callados?
+
+380
+0:21:06.979,000 --> 0:21:08,000
+Estoy tratando de hablar con BERT ahora.
+
+381
+0:21:09.185,000 --> 0:21:1,000
+Oh, ¿su nombre no es BERT?.
+
+382
+0:21:11.298,000 --> 0:21:13,000
+BERT es el nombre de la, oh, está bien.
+
+383
+0:21:13.573,000 --> 0:21:16,000
+No, no, no, totalmente bien. En general estoy sobrio,
+
+384
+0:21:16.638,000 --> 0:21:18,000
+así que quiero ser útil.
+
+385
+0:21:20.073,000 --> 0:21:23,000
+Sí, y estoy totalmente por creer en causas, sí, como, todas esas cosas.
+
+386
+0:21:23.892,000 --> 0:21:24,000
+(Risas)
+
+387
+0:21:25.332,000 --> 0:21:27,000
+Y, de hecho, llevo zapatos Toms ahora.
+
+388
+0:21:28.954,000 --> 0:21:31,000
+Sí, Toms, los zapatos...,
+
+389
+0:21:32.56,000 --> 0:21:35,000
+uno compra un par y luego un niño en África tiene agua potable.
+
+390
+0:21:36.857,000 --> 0:21:37,000
+Sí. Totalmente.
+
+391
+0:21:38.394,000 --> 0:21:4,000
+Pero ¿cuál era la pregunta? Lo siento.
+
+392
+0:21:41.181,000 --> 0:21:45,000
+Por supuesto, creo en los derechos de las mujeres. Me caso con una mujer.
+
+393
+0:21:45.889,000 --> 0:21:47,000
+(Risas)
+
+394
+0:21:48.389,000 --> 0:21:49,000
+No, quiero decir, solo porque
+
+395
+0:21:50.241,000 --> 0:21:51,000
+esté en un club de estriptís
+
+396
+0:21:52.018,000 --> 0:21:55,000
+no significa que sea sexista o lo que sea.
+
+397
+0:21:55.042,000 --> 0:21:59,000
+Mi prometida es muy increíble, es una chica totalmente fuerte, una mujer,
+
+398
+0:21:59.224,000 --> 0:22:01,000
+una mujer inteligente en todo.
+
+399
+0:22:01.679,000 --> 0:22:03,000
+Sí, ella sabe que estoy aquí. Ella está quizá
+
+400
+0:22:03.827,000 --> 0:22:04,000
+en un club de estriptís ahora,
+
+401
+0:22:05.518,000 --> 0:22:06,000
+igual, como diversión, igual que yo.
+
+402
+0:22:07.51,000 --> 0:22:09,000
+A mi padrino de boda le dije que podía sorprenderme,
+
+403
+0:22:10.102,000 --> 0:22:11,000
+y pensó que sería divertido,
+
+404
+0:22:11.697,000 --> 0:22:13,000
+pero esto no es algo...
+
+405
+0:22:14.35,000 --> 0:22:16,000
+Sí, fuimos todos a la escuela juntos.
+
+406
+0:22:17.06,000 --> 0:22:18,000
+Wharton.
+
+407
+0:22:18.54,000 --> 0:22:19,000
+(Risas)
+
+408
+0:22:19.724,000 --> 0:22:21,000
+Sí, así, amigos, ¿pueden...
+
+409
+0:22:21.991,000 --> 0:22:23,000
+Está bien, pero es mi despedida de soltero,
+
+410
+0:22:24.017,000 --> 0:22:27,000
+y puedo pasármela en el estacionamiento con Anderson Cooper si quiero.
+
+411
+0:22:27.595,000 --> 0:22:29,000
+Está bien, ahora allí.
+
+412
+0:22:31.076,000 --> 0:22:33,000
+Está bien, está bien... lo de Anderson.
+
+413
+0:22:33.214,000 --> 0:22:36,000
+En primer lugar hacer un estriptís
+
+414
+0:22:37.111,000 --> 0:22:39,000
+pero luego, todo lo otro de lo que hablas,
+
+415
+0:22:39.895,000 --> 0:22:42,000
+prostitución y todas esas cosas, eso no es lo mismo, en absoluto.
+
+416
+0:22:43.403,000 --> 0:22:46,000
+¿Sabes? Igual se sigue llamando industria del sexo o lo que sea,
+
+417
+0:22:46.659,000 --> 0:22:49,000
+es como si la chica quiere ser bailarina exótica
+
+418
+0:22:50.605,000 --> 0:22:53,000
+y tiene 18, es su derecho.
+
+419
+0:22:55.092,000 --> 0:22:58,000
+Espera, entiendo lo que dices, pero siento como si la gente,
+
+420
+0:22:58.34,000 --> 0:22:59,000
+quiere que parezcamos
+
+421
+0:23:00.073,000 --> 0:23:01,000
+todos los hombres como depredadores,
+
+422
+0:23:01.976,000 --> 0:23:04,000
+que haríamos automáticamente lo de ir a una prostituta, o lo que sea.
+
+423
+0:23:05.474,000 --> 0:23:08,000
+Incluso, como, cuando me comprometí, ya sabes, como cuando me uní a mi hermandad.
+
+424
+0:23:10.35,000 --> 0:23:12,000
+Mis hermanos, a los que estoy cerca, ellos, todos son como yo.
+
+425
+0:23:13.337,000 --> 0:23:16,000
+Somos gente normal, pero, existe ese mito de que
+
+426
+0:23:17.29,000 --> 0:23:19,000
+hay ese hombre que es un estúpido y
+
+427
+0:23:19.655,000 --> 0:23:21,000
+colegas antes que las novias o lo que sea.
+
+428
+0:23:21.828,000 --> 0:23:25,000
+Pero, de hecho, colegas antes que las novias no significa, como lo que suena.
+
+429
+0:23:26.343,000 --> 0:23:28,000
+En realidad, es como una forma de bromear
+
+430
+0:23:28.366,000 --> 0:23:3,000
+para decir que uno se preocupa por sus colegas
+
+431
+0:23:30.64,000 --> 0:23:31,000
+y los antepone.
+
+432
+0:23:32.976,000 --> 0:23:34,000
+Sí, tampoco se puede culpar a los medios de comunicación.
+
+433
+0:23:35.726,000 --> 0:23:37,000
+Quiero decir, como, si miras "Resacón 2"
+
+434
+0:23:38.11,000 --> 0:23:4,000
+y piensas que es un manual de instrucciones
+
+435
+0:23:40.264,000 --> 0:23:42,000
+para la vida, entonces no sé qué decirte.
+
+436
+0:23:42.8,000 --> 0:23:44,000
+¿Sabes? Uno no mira "El caso Bourne"
+
+437
+0:23:44.862,000 --> 0:23:48,000
+y luego maneja su auto sobre una góndola en Venecia. (Risas)
+
+438
+0:23:49.736,000 --> 0:23:51,000
+Bueno, sí, está bien, si eres un niño o lo que sea,
+
+439
+0:23:52.672,000 --> 0:23:54,000
+por supuesto que es diferente, pero...
+
+440
+0:23:54.876,000 --> 0:23:57,000
+Sí, está bien, me acuerdo de eso.
+
+441
+0:23:59.38,000 --> 0:24:02,000
+Yo estaba en la casa de este chico una vez jugando a GTA,
+
+442
+0:24:02.88,000 --> 0:24:03,000
+al videojuego Grand Theft Auto.
+
+443
+0:24:05.417,000 --> 0:24:07,000
+Amigo, ¿eres de Canadá? (Risas)
+
+444
+0:24:09.593,000 --> 0:24:12,000
+Lo que sea, estaba jugando al Grand Theft Auto,
+
+445
+0:24:12.986,000 --> 0:24:15,000
+Tú eres este chico, como, este chico camina o lo que sea,
+
+446
+0:24:16.16,000 --> 0:24:18,000
+y básicamente cuantos más policías matas,
+
+447
+0:24:19.092,000 --> 0:24:21,000
+más puntos consigues, y cosas por el estilo.
+
+448
+0:24:21.763,000 --> 0:24:23,000
+Pero también, uno encuentra prostitutas
+
+449
+0:24:24.601,000 --> 0:24:27,000
+y, obviamente, se pueden hacer cosas sexuales con ellas,
+
+450
+0:24:27.798,000 --> 0:24:3,000
+pero se puede matarlas y recuperar el dinero.
+
+451
+0:24:32.525,000 --> 0:24:34,000
+Sí, este chico, me acuerdo que atropelló
+
+452
+0:24:34.538,000 --> 0:24:35,000
+a un par, un par de veces con su auto
+
+453
+0:24:36.466,000 --> 0:24:38,000
+y consiguió todos estos puntos.
+
+454
+0:24:39.32,000 --> 0:24:41,000
+Éramos unos 10, creo.
+
+455
+0:24:43.685,000 --> 0:24:45,000
+Me sentí bastante mal, en realidad.
+
+456
+0:24:46.827,000 --> 0:24:51,000
+No, no creo que dije nada. Terminé de jugar y me fui a casa.
+
+457
+0:24:52.595,000 --> 0:24:55,000
+Bien, clase, se ve que por aquel entonces había hombres que tenían algo más que
+
+458
+0:24:56.31,000 --> 0:24:58,000
+una relación pasajera con este tema. (Risas)
+
+459
+0:24:59.955,000 --> 0:25:01,000
+El siguiente tema se describe a sí mismo
+
+460
+0:25:02.331,000 --> 0:25:04,000
+como un proxeneta reformado y con remordimientos
+
+461
+0:25:04.88,000 --> 0:25:05,000
+se vuelve orador motivacional,
+
+462
+0:25:06.526,000 --> 0:25:08,000
+mentor y terapeuta.
+
+463
+0:25:08.604,000 --> 0:25:12,000
+Pero si quieren saber más de él, Uds. tendrán que venir a la obra de teatro.
+
+464
+0:25:12.834,000 --> 0:25:16,000
+Muchas gracias, qué hermosa audiencia la de TED.
+
+465
+0:25:16.92,000 --> 0:25:18,000
+Les veré en "Ventas / Compras / Citas".
+
+466
+0:25:19.046,000 --> 0:25:24,000
+(Aplausos)
+

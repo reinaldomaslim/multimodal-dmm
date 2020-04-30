@@ -1,0 +1,864 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elisabeth Buffard Relecteur: Carlo Floris
+
+2
+0:00:15.73,000 --> 0:00:17,000
+En tant qu'architecte, je me demande souvent,
+
+3
+0:00:18.179,000 --> 0:00:2,000
+quelle est l'origine des formes que nous concevons ?
+
+4
+0:00:21.019,000 --> 0:00:23,000
+Quel genre de formes pourrions-nous concevoir
+
+5
+0:00:23.924,000 --> 0:00:25,000
+si on arrêtait de travailler avec des références ?
+
+6
+0:00:26.747,000 --> 0:00:29,000
+Si on n'avait aucun préjugé, si on n'avait aucune idée préconçue,
+
+7
+0:00:30.132,000 --> 0:00:32,000
+quel genre de formes pourrions-nous concevoir
+
+8
+0:00:32.339,000 --> 0:00:33,000
+si nous pouvions nous libérer
+
+9
+0:00:33.939,000 --> 0:00:35,000
+de notre expérience ?
+
+10
+0:00:36.075,000 --> 0:00:4,000
+Si nous pouvions nous libérer de notre éducation ?
+
+11
+0:00:40.809,000 --> 0:00:43,000
+A quoi ressembleraient ces formes inédites ?
+
+12
+0:00:43.836,000 --> 0:00:46,000
+Est-ce qu'elles nous surprendraient ? Est-ce qu'elles nous intrigueraient ?
+
+13
+0:00:47.547,000 --> 0:00:49,000
+Est-ce qu'elles nous raviraient ?
+
+14
+0:00:49.962,000 --> 0:00:52,000
+Si oui, alors comment pouvons-nous créer quelque chose qui soit vraiment nouveau ?
+
+15
+0:00:53.883,000 --> 0:00:55,000
+Je propose que nous nous tournions vers la nature.
+
+16
+0:00:56.275,000 --> 0:01:,000
+On a appelé la nature "le plus grand architecte des formes".
+
+17
+0:01:00.539,000 --> 0:01:03,000
+Et je ne dis pas que nous devrions copier la nature,
+
+18
+0:01:04.127,000 --> 0:01:06,000
+jJe ne dis pas que nous devrions imiter la biologie,
+
+19
+0:01:06.507,000 --> 0:01:09,000
+au lieu de ça, je propose que nous puissions emprunter les processus de la nature.
+
+20
+0:01:09.955,000 --> 0:01:13,000
+Nous pouvons les abstraire et créer quelque chose de nouveau.
+
+21
+0:01:14.409,000 --> 0:01:17,000
+Le processus principal de création de la nature, la morphogenèse,
+
+22
+0:01:18.287,000 --> 0:01:21,000
+est la division d'une cellule en deux cellules.
+
+23
+0:01:22.116,000 --> 0:01:24,000
+Et ces cellules peuvent être soit identiques,
+
+24
+0:01:24.173,000 --> 0:01:26,000
+ou elles peuvent être distinctes les unes des autres
+
+25
+0:01:26.348,000 --> 0:01:28,000
+par le biais de la division cellulaire asymétrique.
+
+26
+0:01:28.412,000 --> 0:01:31,000
+Si nous faisons une abstraction de ce processus et le simplifiions autant que possible,
+
+27
+0:01:32.211,000 --> 0:01:34,000
+alors nous pouvons commencer avec une seule feuille de papier,
+
+28
+0:01:34.444,000 --> 0:01:36,000
+une surface et nous pourrions faire une pliure
+
+29
+0:01:36.94,000 --> 0:01:38,000
+et diviser la surface en deux surfaces.
+
+30
+0:01:39.876,000 --> 0:01:41,000
+Nous sommes libres de choisir où nous plions.
+
+31
+0:01:42.139,000 --> 0:01:46,000
+Et, ce faisant, nous pouvons distinguer les surfaces.
+
+32
+0:01:47.049,000 --> 0:01:48,000
+Grâce à ce processus très simple,
+
+33
+0:01:48.943,000 --> 0:01:51,000
+nous pouvons créer une étonnante variété de formes.
+
+34
+0:01:52.555,000 --> 0:01:54,000
+Maintenant, nous pouvons prendre cette forme et utiliser le même processus
+
+35
+0:01:55.28,000 --> 0:01:56,000
+pour générer des structures tridimensionnelles,
+
+36
+0:01:57.272,000 --> 0:01:59,000
+mais plutôt que de plier les choses à la main,
+
+37
+0:01:59.68,000 --> 0:02:01,000
+nous amenons la structure dans l'ordinateur,
+
+38
+0:02:02.265,000 --> 0:02:04,000
+et la codons sous forme d'algorithme.
+
+39
+0:02:05.24,000 --> 0:02:08,000
+Et, ce faisant, nous pouvons soudain plier n'importe quoi.
+
+40
+0:02:08.248,000 --> 0:02:1,000
+Nous pouvons plier un millions de fois plus vite,
+
+41
+0:02:10.407,000 --> 0:02:13,000
+nous pouvons plier des centaines et des centaines de variantes.
+
+42
+0:02:13.568,000 --> 0:02:15,000
+Et comme nous essayons de faire quelque chose en trois dimensions,
+
+43
+0:02:16.048,000 --> 0:02:19,000
+nous commençons non pas avec une surface unique, mais avec un volume.
+
+44
+0:02:19.264,000 --> 0:02:2,000
+Un volume simple, le cube.
+
+45
+0:02:20.617,000 --> 0:02:21,000
+Si nous prenons ses surfaces et les plions
+
+46
+0:02:22.337,000 --> 0:02:24,000
+encore et encore et encore et encore,
+
+47
+0:02:24.393,000 --> 0:02:26,000
+puis après 16 itérations, 16 étapes,
+
+48
+0:02:27.256,000 --> 0:02:3,000
+nous nous retrouvons avec 400 000 surfaces et une forme qui ressemble,
+
+49
+0:02:31.105,000 --> 0:02:33,000
+par exemple, à ça.
+
+50
+0:02:33.64,000 --> 0:02:35,000
+Et si nous changeons l'endroit où nous faisons les pliures,
+
+51
+0:02:36.352,000 --> 0:02:37,000
+si nous modifions le ratio de pliage,
+
+52
+0:02:37.993,000 --> 0:02:4,000
+alors ce cube se transforme en celui-ci.
+
+53
+0:02:41.416,000 --> 0:02:45,000
+Nous pouvons changer le ratio de pliage pour produire cette forme-ci,
+
+54
+0:02:45.555,000 --> 0:02:46,000
+ou cette forme-là.
+
+55
+0:02:47.382,000 --> 0:02:48,000
+Nous exerçons un contrôle sur la forme
+
+56
+0:02:49.005,000 --> 0:02:52,000
+en spécifiant la position de l'endroit où nous faisons de la pliure,
+
+57
+0:02:52.509,000 --> 0:02:56,000
+mais essentiellement, vous voyez un cube plié.
+
+58
+0:02:57.215,000 --> 0:02:58,000
+Et nous pouvons jouer avec ça.
+
+59
+0:02:58.279,000 --> 0:03:,000
+Nous pouvons appliquer différents ratios à différentes parties
+
+60
+0:03:00.895,000 --> 0:03:02,000
+de la forme pour créer des conditions locales.
+
+61
+0:03:03.64,000 --> 0:03:04,000
+Nous pouvons commencer à sculpter la forme.
+
+62
+0:03:05.583,000 --> 0:03:07,000
+Et parce que nous faisons le pliage sur l'ordinateur,
+
+63
+0:03:08.471,000 --> 0:03:11,000
+nous sommes complètement libres de toute contrainte physique.
+
+64
+0:03:12.167,000 --> 0:03:14,000
+Ça signifie que les surfaces peuvent se croisent
+
+65
+0:03:15.118,000 --> 0:03:16,000
+ils peuvent devenir incroyablement petits.
+
+66
+0:03:16.607,000 --> 0:03:19,000
+Nous pouvons faire des pliures que nous ne pourrions pas faire autrement.
+
+67
+0:03:20.208,000 --> 0:03:21,000
+Les surfaces peuvent devenir poreuses.
+
+68
+0:03:22.086,000 --> 0:03:24,000
+Elles peuvent s'étirer. Elles peuvent déchirer.
+
+69
+0:03:24.815,000 --> 0:03:28,000
+Et tout cela expose la portée des formes que nous pouvons produire.
+
+70
+0:03:29.45,000 --> 0:03:31,000
+Mais dans chaque cas, je n'ai pas conçu la forme.
+
+71
+0:03:32.2,000 --> 0:03:36,000
+J'ai conçu le processus qui a généré la forme.
+
+72
+0:03:36.801,000 --> 0:03:4,000
+En général, si nous faisons un petit changement dans le ratio de pliage,
+
+73
+0:03:41.289,000 --> 0:03:42,000
+et c'est ce que vous avez vu ici,
+
+74
+0:03:42.884,000 --> 0:03:45,000
+alors la forme change proportionnellement.
+
+75
+0:03:46.657,000 --> 0:03:48,000
+Mais c'est seulement la moitié de l'histoire,
+
+76
+0:03:48.913,000 --> 0:03:52,000
+99,9 % des ratios de piage produisent non pas ceci,
+
+77
+0:03:53.236,000 --> 0:03:57,000
+mais cela, l'équivalent géométrique du bruit.
+
+78
+0:03:58.132,000 --> 0:04:,000
+Les formes que j'ai montrées avant ont été effectivement produites
+
+79
+0:04:00.252,000 --> 0:04:01,000
+grâce à très longs tâtonnements.
+
+80
+0:04:01.9,000 --> 0:04:04,000
+J'ai trouvé qu'une manière beaucoup plus efficace de créer des formes,
+
+81
+0:04:05.116,000 --> 0:04:08,000
+consiste à utiliser les informations déjà contenues dans les formes.
+
+82
+0:04:09.004,000 --> 0:04:11,000
+Une forme très simple telle que celle-ci contient en fait
+
+83
+0:04:11.659,000 --> 0:04:14,000
+beaucoup d'informations qui peuvent être invisibles à l'œil humain.
+
+84
+0:04:15.251,000 --> 0:04:17,000
+Ainsi, par exemple, nous pouvons tracer la longueur des bords.
+
+85
+0:04:17.732,000 --> 0:04:2,000
+Les surfaces blanches ont des bords longs, les noires en ont des courts.
+
+86
+0:04:21.068,000 --> 0:04:24,000
+Nous pouvons tracer la planéité des surfaces, leur courbure,
+
+87
+0:04:24.645,000 --> 0:04:28,000
+leur radialité, toutes les informations qui peuvent ne pas être
+
+88
+0:04:28.732,000 --> 0:04:29,000
+instantanément visible pour vous,
+
+89
+0:04:30.679,000 --> 0:04:32,000
+mais que nous pouvons faire ressortir, que nous pouvons formuler,
+
+90
+0:04:33.104,000 --> 0:04:36,000
+et que nous pouvons utiliser pour contrôler le pliage.
+
+91
+0:04:36.48,000 --> 0:04:37,000
+Maintenant je ne spécifie plus
+
+92
+0:04:38.439,000 --> 0:04:4,000
+de ratio pour le pliage,
+
+93
+0:04:40.615,000 --> 0:04:42,000
+mais j'établis plutôt une règle,
+
+94
+0:04:43.167,000 --> 0:04:45,000
+j'établis un lien entre la propriété d'une surface
+
+95
+0:04:45.603,000 --> 0:04:47,000
+et comment cette surface est pliée.
+
+96
+0:04:48.576,000 --> 0:04:5,000
+Et parce que j'ai conçu le processus et non la forme,
+
+97
+0:04:51.527,000 --> 0:04:53,000
+je peux faire tourner le processus encore et encore et encore
+
+98
+0:04:53.849,000 --> 0:04:55,000
+pour produire une famille entière de formes.
+
+99
+0:05:08.645,000 --> 0:05:12,000
+Ces formes semblent complexes, mais le processus est très minime.
+
+100
+0:05:13.088,000 --> 0:05:14,000
+Il y a une entrée simple,
+
+101
+0:05:14.217,000 --> 0:05:15,000
+je commence toujours par un cube,
+
+102
+0:05:16.169,000 --> 0:05:19,000
+et c'est une opération très simple, c'est faire une pliure,
+
+103
+0:05:19.745,000 --> 0:05:22,000
+et le refaire encore et encore.
+
+104
+0:05:23.697,000 --> 0:05:25,000
+Appliquons ce processus à l'architecture.
+
+105
+0:05:25.977,000 --> 0:05:26,000
+Comment ? Et à quelle échelle ?
+
+106
+0:05:27.577,000 --> 0:05:28,000
+J'ai choisi de concevoir une colonne.
+
+107
+0:05:29.305,000 --> 0:05:32,000
+Les colonnes sont des archétypes architecturaux.
+
+108
+0:05:32.681,000 --> 0:05:35,000
+Elles ont été utilisées tout au long de l'histoire pour exprimer les idéaux
+
+109
+0:05:35.748,000 --> 0:05:4,000
+de beauté, de technologie.
+
+110
+0:05:40.823,000 --> 0:05:41,000
+Ce qui me posait problème, c'était comment exprimer
+
+111
+0:05:42.745,000 --> 0:05:45,000
+ce nouvel ordre algorithmique dans une colonne.
+
+112
+0:05:46.041,000 --> 0:05:48,000
+J'ai commencé avec quatre cylindres.
+
+113
+0:05:49.025,000 --> 0:05:52,000
+Après de nombreuses expérimentations, ces cylindres
+
+114
+0:05:52.801,000 --> 0:05:55,000
+ont fii par aboutir à ceci.
+
+115
+0:05:55.936,000 --> 0:05:59,000
+Ces colonnes ont des informations à de très nombreuses échelles.
+
+116
+0:06:00.552,000 --> 0:06:02,000
+Nous pouvons commencer à zoomer dessus.
+
+117
+0:06:03.07,000 --> 0:06:06,000
+Plus on s'approche, plus on découvre de nouvelles caractéristiques.
+
+118
+0:06:06.625,000 --> 0:06:09,000
+Certaines formations sont presque au seuil de visibilité humaine.
+
+119
+0:06:10.297,000 --> 0:06:11,000
+Et contrairement à l'architecture traditionnelle,
+
+120
+0:06:12.249,000 --> 0:06:14,000
+c'est un processus unique qui crée à la fois la forme globale
+
+121
+0:06:15.033,000 --> 0:06:2,000
+et les détails microscopiques de la surface.
+
+122
+0:06:20.378,000 --> 0:06:22,000
+On ne peut pas dessiner ces formes.
+
+123
+0:06:23.069,000 --> 0:06:26,000
+Un architecte qui voudrait les dessiner avec un stylo et un papier
+
+124
+0:06:26.445,000 --> 0:06:27,000
+mettrait probablement des mois,
+
+125
+0:06:28.237,000 --> 0:06:3,000
+voire un an pour dessiner toutes les sections,
+
+126
+0:06:30.621,000 --> 0:06:32,000
+toutes les élévations, on ne peut créer quelque chose comme ça
+
+127
+0:06:32.925,000 --> 0:06:34,000
+qu'avec un algorithme.
+
+128
+0:06:35.061,000 --> 0:06:37,000
+La question la plus intéressante, peut-être, est :
+
+129
+0:06:37.093,000 --> 0:06:39,000
+ces formes sont-elles imaginables ?
+
+130
+0:06:39.722,000 --> 0:06:41,000
+Habituellement, un architecte peut envisager d'une certaine manière l'état final
+
+131
+0:06:42.357,000 --> 0:06:43,000
+de ce qu'il conçoit.
+
+132
+0:06:44.221,000 --> 0:06:46,000
+Dans ce cas, le processus est déterministe.
+
+133
+0:06:47.046,000 --> 0:06:49,000
+Il ne laisse aucune place au hasard,
+
+134
+0:06:49.405,000 --> 0:06:51,000
+mais il n'est pas entièrement prévisible.
+
+135
+0:06:51.412,000 --> 0:06:52,000
+Il y a trop de surfaces,
+
+136
+0:06:52.988,000 --> 0:06:55,000
+il y a trop de détails, on ne peut pas voir l'état final.
+
+137
+0:06:56.598,000 --> 0:06:59,000
+Ceci conduit donc à un nouveau rôle pour l'architecte.
+
+138
+0:06:59.812,000 --> 0:07:02,000
+Il lui faut une nouvelle méthode pour explorer toutes les possibilités
+
+139
+0:07:03.423,000 --> 0:07:04,000
+qui s'offrent à lui.
+
+140
+0:07:05.199,000 --> 0:07:08,000
+D'une part, on peut concevoir de nombreuses variantes de forme,
+
+141
+0:07:08.431,000 --> 0:07:1,000
+en parallèle et on peut les cultiver.
+
+142
+0:07:10.645,000 --> 0:07:12,000
+Et pour revenir à l'analogie avec la nature,
+
+143
+0:07:12.893,000 --> 0:07:14,000
+on peut commencer à penser en termes de populations,
+
+144
+0:07:15.389,000 --> 0:07:18,000
+on peut parler de permutations, de générations,
+
+145
+0:07:18.917,000 --> 0:07:22,000
+de croisement et de reproduction pour aboutir à une conception.
+
+146
+0:07:23.78,000 --> 0:07:25,000
+Et l'architecte est vraiment, il se retrouve dans le rôle
+
+147
+0:07:26.165,000 --> 0:07:29,000
+d'un chef d'orchestre de tous ces processus.
+
+148
+0:07:29.597,000 --> 0:07:31,000
+Mais assez de théorie.
+
+149
+0:07:31.941,000 --> 0:07:33,000
+À un moment donné, je voulais simplement sauter à l'intérieur
+
+150
+0:07:34.468,000 --> 0:07:37,000
+cette image, pour ainsi dire, alors j'ai acheté
+
+151
+0:07:38.297,000 --> 0:07:4,000
+ces lunettes 3D rouge et bleu, je me suis approché très près de l'écran,
+
+152
+0:07:41.233,000 --> 0:07:43,000
+mais ce n'était encore pas comme
+
+153
+0:07:43.305,000 --> 0:07:45,000
+de pouvoir marcher et toucher les choses.
+
+154
+0:07:45.657,000 --> 0:07:46,000
+Donc, il n'y n'avait qu'une seule possibilité,
+
+155
+0:07:47.56,000 --> 0:07:5,000
+sortir la colonne de l'ordinateur.
+
+156
+0:07:50.657,000 --> 0:07:52,000
+On a beaucoup parlé d'impression 3D.
+
+157
+0:07:53.577,000 --> 0:07:55,000
+Pour moi, ou mon objectif en ce moment,
+
+158
+0:07:56.536,000 --> 0:07:59,000
+il y a encore trop de compromis défavorable
+
+159
+0:07:59.618,000 --> 0:08:05,000
+entre l'échelle, d'une part et la résolution et la vitesse, de l'autre.
+
+160
+0:08:06.401,000 --> 0:08:08,000
+Nous avons donc décidé de prendre plutôt la colonne,
+
+161
+0:08:08.658,000 --> 0:08:1,000
+et nous avons décidé d'en construire un modèle en couches,
+
+162
+0:08:11.097,000 --> 0:08:15,000
+fait de très nombreuses tranches, finement empilées les unes sur les uns les autres.
+
+163
+0:08:15.225,000 --> 0:08:16,000
+Ce que vous voyez ici est une radiographie
+
+164
+0:08:17.122,000 --> 0:08:19,000
+de la colonne que vous venez de voir, vue d'en haut.
+
+165
+0:08:19.897,000 --> 0:08:21,000
+À mon insu, à l'époque,
+
+166
+0:08:21.897,000 --> 0:08:23,000
+parce que nous n'avions vu que l'extérieur,
+
+167
+0:08:24.273,000 --> 0:08:26,000
+les surfaces continuaient à se replier
+
+168
+0:08:26.433,000 --> 0:08:28,000
+à croitre à l'intérieur de la colonne,
+
+169
+0:08:28.697,000 --> 0:08:3,000
+ce qui était une découverte tout à fait surprenante.
+
+170
+0:08:31.243,000 --> 0:08:34,000
+De cette forme, nous avons calculé une ligne de découpe,
+
+171
+0:08:34.857,000 --> 0:08:37,000
+et puis nous avons donné cette ligne de découpe à un découpeur laser
+
+172
+0:08:37.881,000 --> 0:08:4,000
+pour produire, et vous en avez vu un segment ici,
+
+173
+0:08:41.695,000 --> 0:08:45,000
+de très nombreuses tranches minces, découpées individuellement, les unes sur les autres.
+
+174
+0:08:48.74,000 --> 0:08:5,000
+Et voici une photo maintenant, ce n'est pas un rendu,
+
+175
+0:08:51.553,000 --> 0:08:52,000
+et la colonne que nous avons obtenue au final,
+
+176
+0:08:53.353,000 --> 0:08:56,000
+après beaucoup de travail, qui a fini par ressembler remarquablement à celle
+
+177
+0:08:56.4,000 --> 0:08:59,000
+que nous avions conçu dans l'ordinateur.
+
+178
+0:09:00.11,000 --> 0:09:02,000
+Presque tous les détails, la quasi-totalité de la
+
+179
+0:09:02.231,000 --> 0:09:05,000
+subtilités de surfaces a été préservée.
+
+180
+0:09:07.886,000 --> 0:09:09,000
+Mais ce fut un travail énorme.
+
+181
+0:09:10.232,000 --> 0:09:12,000
+Il y a encore une énorme déconnexion en ce moment
+
+182
+0:09:12.633,000 --> 0:09:14,000
+entre le virtuel et le physique.
+
+183
+0:09:15.393,000 --> 0:09:17,000
+Il m'a fallu plusieurs mois pour la conception de la colonne,
+
+184
+0:09:17.519,000 --> 0:09:19,000
+mais en fin de compte il faut à l'ordinateur environ 30 secondes
+
+185
+0:09:20.237,000 --> 0:09:22,000
+pour calculer toutes les 16 millions de faces.
+
+186
+0:09:23.085,000 --> 0:09:24,000
+Le modèle physique, d'autre part,
+
+187
+0:09:25.046,000 --> 0:09:29,000
+est composé de 2 700 couches, un millimètre d'épaisseur,
+
+188
+0:09:29.254,000 --> 0:09:33,000
+il pèse 700 kg, il est faite de feuilles qui peuvent couvrir
+
+189
+0:09:33.401,000 --> 0:09:35,000
+la totalité de cet auditorium.
+
+190
+0:09:35.539,000 --> 0:09:37,000
+Et le chemin de découpe que le laser a suivi
+
+191
+0:09:37.627,000 --> 0:09:42,000
+va d'ici à l'aéroport et retour.
+
+192
+0:09:42.744,000 --> 0:09:43,000
+Mais c'est de plus en plus possible.
+
+193
+0:09:44.493,000 --> 0:09:46,000
+Les machines sont de plus en plus rapides, elles sont de moins en moins chères,
+
+194
+0:09:47.104,000 --> 0:09:49,000
+et il y a certains des développements technologiques prometteurs
+
+195
+0:09:49.864,000 --> 0:09:5,000
+en vue.
+
+196
+0:09:51.647,000 --> 0:09:54,000
+Ce sont des images de la Biennale de Gwangju.
+
+197
+0:09:54.719,000 --> 0:09:57,000
+Et dans ce cas, j'ai utilisé du plastique ABS pour produire les colonnes,
+
+198
+0:09:58.243,000 --> 0:09:59,000
+nous avons utilisé une machine plus grande, plus rapide,
+
+199
+0:10:00.097,000 --> 0:10:03,000
+et elles ont un noyau d'acier à l'intérieur, elles sont donc structurelles,
+
+200
+0:10:03.154,000 --> 0:10:05,000
+elles peuvent supporter des charges pour une fois.
+
+201
+0:10:06.13,000 --> 0:10:08,000
+Chaque colonne est en fait un hybride de deux colonnes.
+
+202
+0:10:08.145,000 --> 0:10:11,000
+Vous pouvez voir une colonne différente dans le miroir,
+
+203
+0:10:11.554,000 --> 0:10:13,000
+s'il y a un miroir derrière la colonne
+
+204
+0:10:13.604,000 --> 0:10:16,000
+qui crée une sorte d'une illusion d'optique.
+
+205
+0:10:16.691,000 --> 0:10:17,000
+Alors où cela nous mène-t-il ?
+
+206
+0:10:18.522,000 --> 0:10:22,000
+Je pense que ce projet nous donne un aperçu des objets inédits qui nous attendent
+
+207
+0:10:22.99,000 --> 0:10:25,000
+si nous, les architectes commençons à réfléchir à la conception non pas de l'objet,
+
+208
+0:10:26.873,000 --> 0:10:29,000
+mais d'un processus pour générer des objets.
+
+209
+0:10:30.266,000 --> 0:10:33,000
+J'ai montré un processus simple inspiré par la nature ;
+
+210
+0:10:33.539,000 --> 0:10:35,000
+il y en a d'innombrables autres.
+
+211
+0:10:36.387,000 --> 0:10:39,000
+En bref, nous n'avons aucune contrainte.
+
+212
+0:10:39.834,000 --> 0:10:42,000
+Au lieu de cela, nous avons des processus entre nos mains dès maintenant
+
+213
+0:10:43.404,000 --> 0:10:47,000
+qui nous permettent de créer des structures à toutes les échelles
+
+214
+0:10:47.985,000 --> 0:10:5,000
+que nous ne pouvions même pas imaginer.
+
+215
+0:10:51.017,000 --> 0:10:55,000
+Et, si je peux ajouter, à un moment donné nous les construirons.
+
+216
+0:10:55.836,000 --> 0:11:01,000
+Merci. (Applaudissements)
+

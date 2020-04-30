@@ -1,0 +1,748 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Analia Padin Revisor: Paula Motter
+
+2
+0:00:13.531,000 --> 0:00:14,000
+Entonces, los robots...
+
+3
+0:00:15.392,000 --> 0:00:16,000
+Los robots pueden programarse
+
+4
+0:00:16.83,000 --> 0:00:19,000
+para hacer lo mismo millones de veces con un margen de error mínimo,
+
+5
+0:00:20.545,000 --> 0:00:22,000
+lo que para nosotros es muy difícil, ¿verdad?
+
+6
+0:00:23.083,000 --> 0:00:26,000
+Verlos trabajar puede ser realmente impresionante.
+
+7
+0:00:26.268,000 --> 0:00:27,000
+Mírenlos.
+
+8
+0:00:27.548,000 --> 0:00:28,000
+Me pasaría horas mirándolos.
+
+9
+0:00:30.108,000 --> 0:00:31,000
+¿No?
+
+10
+0:00:32.111,000 --> 0:00:33,000
+Lo que no es tan impresionante
+
+11
+0:00:33.662,000 --> 0:00:35,000
+es que, fuera de la fábrica,
+
+12
+0:00:36.619,000 --> 0:00:4,000
+donde el entorno no es del todo conocido y no está totalmente calibrado,
+
+13
+0:00:41.023,000 --> 0:00:45,000
+hasta una tarea simple que no requiere mucha precisión
+
+14
+0:00:45.325,000 --> 0:00:46,000
+puede resultar en esto.
+
+15
+0:00:46.96,000 --> 0:00:48,000
+A ver, abrir una puerta no requiere mucha precisión.
+
+16
+0:00:49.713,000 --> 0:00:5,000
+(Risas)
+
+17
+0:00:50.767,000 --> 0:00:52,000
+O, por un pequeño error de medida,
+
+18
+0:00:53.245,000 --> 0:00:54,000
+no llega a la válvula y ya está.
+
+19
+0:00:55.095,000 --> 0:00:56,000
+(Risas)
+
+20
+0:00:56.389,000 --> 0:00:58,000
+La mayoría de las veces no hay forma de corregir.
+
+21
+0:00:59.561,000 --> 0:01:,000
+¿Por qué pasa esto?
+
+22
+0:01:01.26,000 --> 0:01:02,000
+Bueno, desde hace muchos años
+
+23
+0:01:03.158,000 --> 0:01:06,000
+el diseño de robots hace hincapié en la velocidad y la precisión,
+
+24
+0:01:06.482,000 --> 0:01:08,000
+dando como resultado una arquitectura muy específica.
+
+25
+0:01:09.473,000 --> 0:01:12,000
+Un brazo robótico es un conjunto muy bien definido de elementos rígidos
+
+26
+0:01:13.426,000 --> 0:01:16,000
+y de motores llamados "actuadores", que hacen mover las articulaciones.
+
+27
+0:01:17.303,000 --> 0:01:2,000
+Esta estructura requiere una medición precisa del entorno,
+
+28
+0:01:20.865,000 --> 0:01:21,000
+es decir, de lo que está alrededor,
+
+29
+0:01:22.786,000 --> 0:01:24,000
+y una perfecta programación de cada movimiento
+
+30
+0:01:25.659,000 --> 0:01:26,000
+de las articulaciones del robot,
+
+31
+0:01:27.608,000 --> 0:01:3,000
+porque un error pequeño puede generar una falla muy grande,
+
+32
+0:01:30.894,000 --> 0:01:33,000
+con lo que se puede dañar algo o se puede dañar el robot,
+
+33
+0:01:33.931,000 --> 0:01:34,000
+si se golpea contra algo más duro.
+
+34
+0:01:36.107,000 --> 0:01:38,000
+Hablemos de estos robots por un momento.
+
+35
+0:01:38.336,000 --> 0:01:41,000
+Pero no piensen en el cerebro que tienen,
+
+36
+0:01:41.583,000 --> 0:01:43,000
+ni en lo bien programados que están.
+
+37
+0:01:44.352,000 --> 0:01:45,000
+Fíjense más bien en sus cuerpos.
+
+38
+0:01:46.606,000 --> 0:01:48,000
+Es obvio que algo está mal,
+
+39
+0:01:49.509,000 --> 0:01:52,000
+porque lo que hace que un robot sea preciso y fuerte,
+
+40
+0:01:52.66,000 --> 0:01:56,000
+también lo hace ridículamente peligroso e inefectivo en el mundo real,
+
+41
+0:01:57.073,000 --> 0:01:58,000
+porque su cuerpo no se deforma
+
+42
+0:01:59.082,000 --> 0:02:02,000
+ni se adapta a la interacción con el mundo real.
+
+43
+0:02:03.226,000 --> 0:02:06,000
+Pensemos entonces en el enfoque opuesto:
+
+44
+0:02:06.368,000 --> 0:02:08,000
+ser más blando que todo lo que nos rodea.
+
+45
+0:02:09.827,000 --> 0:02:11,000
+Tal vez les parezca
+
+46
+0:02:12.262,000 --> 0:02:15,000
+que ser blando no sirve prácticamente para nada.
+
+47
+0:02:16.017,000 --> 0:02:18,000
+Bueno, la naturaleza nos enseña lo contrario.
+
+48
+0:02:19.001,000 --> 0:02:21,000
+En el fondo del océano, por ejemplo,
+
+49
+0:02:21.056,000 --> 0:02:23,000
+sometido a miles de kilos de presión hidrostática,
+
+50
+0:02:23.516,000 --> 0:02:25,000
+un animal completamente blando
+
+51
+0:02:25.968,000 --> 0:02:28,000
+es capaz de moverse e interactuar con un objeto mucho más rígido.
+
+52
+0:02:29.878,000 --> 0:02:31,000
+Camina llevando una cáscara de coco
+
+53
+0:02:32.749,000 --> 0:02:34,000
+gracias a sus tentáculos flexibles,
+
+54
+0:02:35.157,000 --> 0:02:37,000
+que le sirven a modo de pies y de manos.
+
+55
+0:02:38.241,000 --> 0:02:41,000
+Y, aparentemente, un pulpo también es capaz de abrir un frasco.
+
+56
+0:02:43.883,000 --> 0:02:44,000
+Es bastante impresionante, ¿no?
+
+57
+0:02:47.918,000 --> 0:02:51,000
+Es obvio que esto no es posible únicamente gracias al cerebro del animal;
+
+58
+0:02:52.442,000 --> 0:02:54,000
+también tiene que ver con su cuerpo.
+
+59
+0:02:54.48,000 --> 0:02:58,000
+Es, tal vez, el ejemplo más claro
+
+60
+0:02:58.536,000 --> 0:02:59,000
+de la inteligencia corporal,
+
+61
+0:03:00.36,000 --> 0:03:03,000
+un tipo de inteligencia que tienen todos los organismos vivos.
+
+62
+0:03:03.67,000 --> 0:03:04,000
+Todos nosotros la tenemos.
+
+63
+0:03:05.26,000 --> 0:03:08,000
+La forma, el material y la estructura de nuestro cuerpo
+
+64
+0:03:09.126,000 --> 0:03:12,000
+juegan un papel fundamental para hacer una tarea física,
+
+65
+0:03:12.332,000 --> 0:03:17,000
+porque nos permiten adaptarnos al entorno
+
+66
+0:03:17.969,000 --> 0:03:19,000
+y resolver con éxito una variedad de situaciones
+
+67
+0:03:20.397,000 --> 0:03:22,000
+sin mucha planificación ni cálculos previos.
+
+68
+0:03:23.414,000 --> 0:03:27,000
+Entonces, ¿por qué no diseñar robots con un poco de esta inteligencia corporal,
+
+69
+0:03:27.732,000 --> 0:03:29,000
+para que no requieran tanto trabajo,
+
+70
+0:03:30.105,000 --> 0:03:32,000
+tanto cálculo y tantos sensores?
+
+71
+0:03:33.097,000 --> 0:03:35,000
+Para eso, podemos seguir la estrategia de la naturaleza,
+
+72
+0:03:35.771,000 --> 0:03:38,000
+que, a lo largo de la evolución, ha diseñado máquinas excelentes
+
+73
+0:03:39.773,000 --> 0:03:41,000
+para interactuar con el medio.
+
+74
+0:03:42.927,000 --> 0:03:46,000
+Es fácil darse cuenta de que la naturaleza usa materiales blandos frecuentemente
+
+75
+0:03:47.445,000 --> 0:03:49,000
+y materiales rígidos en forma esporádica.
+
+76
+0:03:49.764,000 --> 0:03:52,000
+Y esto es lo que hacemos en este nuevo campo de la robótica
+
+77
+0:03:53.58,000 --> 0:03:55,000
+que se llama "robótica blanda",
+
+78
+0:03:55.904,000 --> 0:03:58,000
+donde el objetivo principal no es diseñar máquinas súper precisas,
+
+79
+0:03:59.664,000 --> 0:04:,000
+porque ya las tenemos,
+
+80
+0:04:01.625,000 --> 0:04:05,000
+sino diseñar robots capaces de afrontar situaciones inesperadas en el mundo real,
+
+81
+0:04:06.569,000 --> 0:04:07,000
+capaces de salir al mundo.
+
+82
+0:04:08.15,000 --> 0:04:11,000
+Para hacer un robot blando, lo primero que se necesita es un cuerpo maleable,
+
+83
+0:04:11.764,000 --> 0:04:15,000
+hecho de materiales o estructuras con gran capacidad de deformación,
+
+84
+0:04:17.253,000 --> 0:04:18,000
+así que no más elementos rígidos.
+
+85
+0:04:19.108,000 --> 0:04:22,000
+En segundo lugar, para moverlo, usamos "actuación distribuida".
+
+86
+0:04:22.68,000 --> 0:04:27,000
+Quiere decir que controlamos continuamente la forma de ese cuerpo tan deformable,
+
+87
+0:04:27.736,000 --> 0:04:31,000
+produciendo el mismo efecto que tener muchos elementos rígidos y articulaciones,
+
+88
+0:04:31.774,000 --> 0:04:32,000
+pero sin ninguna estructura rígida.
+
+89
+0:04:33.705,000 --> 0:04:34,000
+Como pueden imaginar,
+
+90
+0:04:34.749,000 --> 0:04:38,000
+la construcción de un robot blando es muy distinta a la robótica tradicional,
+
+91
+0:04:39.103,000 --> 0:04:42,000
+donde hay que combinar brazos, engranajes y tornillos de una forma muy definida.
+
+92
+0:04:42.948,000 --> 0:04:45,000
+En la robótica blanda construimos el actuador de cero, prácticamente,
+
+93
+0:04:46.497,000 --> 0:04:47,000
+la mayoría de las veces,
+
+94
+0:04:47.672,000 --> 0:04:49,000
+amoldando el material flexible
+
+95
+0:04:50.078,000 --> 0:04:52,000
+para que se deforme en función de un cierto estímulo.
+
+96
+0:04:53.054,000 --> 0:04:55,000
+Por ejemplo, aquí podemos deformar una estructura
+
+97
+0:04:55.536,000 --> 0:04:57,000
+y darle una forma que sería bastante compleja
+
+98
+0:04:58.031,000 --> 0:05:01,000
+si tuviéramos que hacerla con elementos rígidos y articulaciones.
+
+99
+0:05:01.333,000 --> 0:05:03,000
+Aquí usamos un solo estímulo:
+
+100
+0:05:03.69,000 --> 0:05:04,000
+aire a presión.
+
+101
+0:05:05.869,000 --> 0:05:08,000
+Veamos algunos ejemplos interesantes de robots blandos.
+
+102
+0:05:09.765,000 --> 0:05:13,000
+Aquí tenemos un amiguito simpático desarrollado en la Universidad de Harvard,
+
+103
+0:05:14.336,000 --> 0:05:18,000
+que camina cuando se le aplican ondas de presión a lo largo del cuerpo.
+
+104
+0:05:18.853,000 --> 0:05:21,000
+Como es flexible, también es capaz de arrastrarse debajo de un puente,
+
+105
+0:05:22.199,000 --> 0:05:26,000
+pasar del otro lado, y luego seguir caminando de otra forma.
+
+106
+0:05:27.345,000 --> 0:05:29,000
+Este es un prototipo muy preliminar,
+
+107
+0:05:29.6,000 --> 0:05:32,000
+pero también construyeron una versión más robusta con potencia incorporada
+
+108
+0:05:33.3,000 --> 0:05:38,000
+que puede salir y afrontar las interacciones con el mundo real,
+
+109
+0:05:38.771,000 --> 0:05:4,000
+como ser atropellado por un auto...
+
+110
+0:05:42.09,000 --> 0:05:43,000
+y seguir caminando.
+
+111
+0:05:44.056,000 --> 0:05:45,000
+Es lindo.
+
+112
+0:05:45.231,000 --> 0:05:46,000
+(Risas)
+
+113
+0:05:46.676,000 --> 0:05:49,000
+O un pez robótico que nada como un pez real
+
+114
+0:05:50.564,000 --> 0:05:51,000
+simplemente porque tiene una cola blanda
+
+115
+0:05:52.552,000 --> 0:05:55,000
+con actuación distribuida que funciona también con aire a presión.
+
+116
+0:05:55.954,000 --> 0:05:56,000
+Ese es del MIT.
+
+117
+0:05:57.336,000 --> 0:05:59,000
+Y, por supuesto, tenemos el pulpo robótico.
+
+118
+0:06:00.165,000 --> 0:06:04,000
+Fue uno de los primeros proyectos en el nuevo campo de la robótica blanda.
+
+119
+0:06:04.418,000 --> 0:06:05,000
+Aquí vemos el tentáculo artificial,
+
+120
+0:06:06.328,000 --> 0:06:1,000
+pero en realidad construyeron una máquina entera, con varios tentáculos,
+
+121
+0:06:11.031,000 --> 0:06:13,000
+que se puede tirar directamente al agua
+
+122
+0:06:13.666,000 --> 0:06:17,000
+y, como ven, puede desplazarse y hacer exploraciones submarinas
+
+123
+0:06:17.983,000 --> 0:06:2,000
+de una forma diferente a la de los robots rígidos.
+
+124
+0:06:21.31,000 --> 0:06:24,000
+Esto es muy importante en ambientes delicados, como los arrecifes de coral.
+
+125
+0:06:24.994,000 --> 0:06:25,000
+Volviendo a la superficie,
+
+126
+0:06:26.414,000 --> 0:06:29,000
+aquí tenemos una vista tomada desde un robot que crece,
+
+127
+0:06:29.544,000 --> 0:06:31,000
+desarrollado por mis colegas en Stanford.
+
+128
+0:06:31.8,000 --> 0:06:32,000
+Vemos la cámara adosada arriba.
+
+129
+0:06:33.684,000 --> 0:06:36,000
+Lo particular es que crece por la punta cuando se le inyecta aire a presión,
+
+130
+0:06:37.576,000 --> 0:06:4,000
+mientras el resto del cuerpo permanece en contacto con el entorno.
+
+131
+0:06:41.316,000 --> 0:06:43,000
+Está inspirado en las plantas, no en los animales,
+
+132
+0:06:44.058,000 --> 0:06:47,000
+porque las plantas crecen de una forma parecida
+
+133
+0:06:47.397,000 --> 0:06:49,000
+y así pueden afrontar gran variedad de situaciones.
+
+134
+0:06:51.043,000 --> 0:06:52,000
+Pero yo soy ingeniera biomédica,
+
+135
+0:06:52.735,000 --> 0:06:55,000
+y las aplicaciones en el campo médico son, tal vez, las que más me gustan.
+
+136
+0:06:56.505,000 --> 0:07:,000
+Es difícil imaginar una interacción con el cuerpo humano más cercana
+
+137
+0:07:01.37,000 --> 0:07:02,000
+que directamente "entrar" en el cuerpo,
+
+138
+0:07:03.313,000 --> 0:07:06,000
+como cuando se realiza un procedimiento mínimamente invasivo, por ejemplo.
+
+139
+0:07:06.958,000 --> 0:07:09,000
+Aquí, los robots pueden ayudar mucho al cirujano,
+
+140
+0:07:10.384,000 --> 0:07:13,000
+porque tienen que acceder al cuerpo por orificios pequeños
+
+141
+0:07:13.483,000 --> 0:07:14,000
+y con instrumentos rígidos.
+
+142
+0:07:14.808,000 --> 0:07:17,000
+Estos instrumentos deben interactuar con estructuras muy delicadas,
+
+143
+0:07:18.342,000 --> 0:07:21,000
+en un entorno muy incierto y de forma segura.
+
+144
+0:07:22.113,000 --> 0:07:24,000
+Además, poner la cámara dentro del cuerpo,
+
+145
+0:07:24.249,000 --> 0:07:27,000
+es decir, los ojos del cirujano dentro del campo quirúrgico,
+
+146
+0:07:27.891,000 --> 0:07:29,000
+puede ser muy difícil con un elemento rígido,
+
+147
+0:07:30.412,000 --> 0:07:31,000
+como un endoscopio tradicional.
+
+148
+0:07:32.517,000 --> 0:07:34,000
+Con mi grupo anterior de investigación en Europa,
+
+149
+0:07:35.13,000 --> 0:07:37,000
+desarrollamos este robot quirúrgico blando con cámara,
+
+150
+0:07:37.75,000 --> 0:07:4,000
+que es muy diferente de un endoscopio tradicional
+
+151
+0:07:41.542,000 --> 0:07:44,000
+y que se mueve gracias a la flexibilidad del módulo,
+
+152
+0:07:44.67,000 --> 0:07:48,000
+que puede elongarse y doblarse en cualquier dirección.
+
+153
+0:07:49.582,000 --> 0:07:53,000
+Los cirujanos lo usaron para ver lo que hacían con otros instrumentos
+
+154
+0:07:53.682,000 --> 0:07:54,000
+desde distintos puntos de vista,
+
+155
+0:07:55.478,000 --> 0:07:58,000
+sin preocuparse demasiado por lo que tocaban alrededor.
+
+156
+0:07:59.247,000 --> 0:08:02,000
+Aquí vemos el robot blando en acción,
+
+157
+0:08:03.014,000 --> 0:08:05,000
+y aquí lo vemos ingresar.
+
+158
+0:08:05.856,000 --> 0:08:08,000
+Esto es un simulador; no es un cuerpo humano.
+
+159
+0:08:09.149,000 --> 0:08:1,000
+Ahí da la vuelta.
+
+160
+0:08:10.324,000 --> 0:08:13,000
+Tiene una luz, porque normalmente hay poca luz dentro del cuerpo.
+
+161
+0:08:13.682,000 --> 0:08:14,000
+(Risas)
+
+162
+0:08:15.167,000 --> 0:08:16,000
+Esperemos.
+
+163
+0:08:16.364,000 --> 0:08:18,000
+(Risas)
+
+164
+0:08:19.39,000 --> 0:08:23,000
+Pero hay procedimientos quirúrgicos que se realizan con tan solo una aguja,
+
+165
+0:08:24.112,000 --> 0:08:25,000
+y ahora, en Stanford,
+
+166
+0:08:25.163,000 --> 0:08:27,000
+estamos desarrollando una aguja muy flexible.
+
+167
+0:08:27.353,000 --> 0:08:3,000
+Una especie de robot blando muy diminuto,
+
+168
+0:08:30.859,000 --> 0:08:33,000
+mecánicamente diseñado para aprovechar la interacción con los tejidos
+
+169
+0:08:34.177,000 --> 0:08:36,000
+y moverse dentro de un órgano sólido.
+
+170
+0:08:36.431,000 --> 0:08:4,000
+Esto permite alcanzar tumores y otros objetivos específicos
+
+171
+0:08:40.535,000 --> 0:08:41,000
+en el interior de un órgano,
+
+172
+0:08:42.257,000 --> 0:08:44,000
+con tan solo una incisión.
+
+173
+0:08:44.606,000 --> 0:08:48,000
+Incluso se puede evitar una estructura
+
+174
+0:08:48.669,000 --> 0:08:49,000
+de camino al objetivo.
+
+175
+0:08:51.377,000 --> 0:08:54,000
+Claramente, este es un momento muy interesante para la robótica.
+
+176
+0:08:54.706,000 --> 0:08:57,000
+Tenemos robots que trabajan con estructuras blandas,
+
+177
+0:08:57.883,000 --> 0:08:59,000
+lo cual plantea preguntas nuevas y muy difíciles
+
+178
+0:09:00.492,000 --> 0:09:01,000
+para la comunidad de la robótica.
+
+179
+0:09:02.149,000 --> 0:09:04,000
+Recién estamos empezando a aprender cómo controlar,
+
+180
+0:09:04.572,000 --> 0:09:07,000
+cómo poner sensores en estas estructuras tan flexibles.
+
+181
+0:09:07.6,000 --> 0:09:1,000
+Pero claramente estamos muy lejos de lo que creó la naturaleza
+
+182
+0:09:10.71,000 --> 0:09:12,000
+durante millones de años de evolución.
+
+183
+0:09:12.802,000 --> 0:09:14,000
+Pero hay algo que sí sé:
+
+184
+0:09:14.93,000 --> 0:09:16,000
+los robots serán más blandos, más seguros,
+
+185
+0:09:17.47,000 --> 0:09:19,000
+y estarán allí afuera ayudando a la gente.
+
+186
+0:09:20.809,000 --> 0:09:21,000
+Gracias.
+
+187
+0:09:21.984,000 --> 0:09:25,000
+(Aplausos)
+

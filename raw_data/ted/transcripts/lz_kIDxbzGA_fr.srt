@@ -1,0 +1,1092 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Jean-Pierre Bourgault Relecteur: Vincent LECOANET
+
+2
+0:00:12.711,000 --> 0:00:14,000
+10 000 km de routes,
+
+3
+0:00:15.531,000 --> 0:00:17,000
+1000 km de rails de métro,
+
+4
+0:00:17.734,000 --> 0:00:18,000
+640 km d'aménagements cyclables
+
+5
+0:00:19.378,000 --> 0:00:2,000
+et un tramway aérien de 945 m reliant
+
+6
+0:00:21.199,000 --> 0:00:22,000
+Manhattan à Roosevelt Island.
+
+7
+0:00:23.152,000 --> 0:00:26,000
+Ces quelques nombres décrivent l'infrastructure routière
+
+8
+0:00:26.486,000 --> 0:00:28,000
+de la ville de New York.
+
+9
+0:00:29.105,000 --> 0:00:32,000
+Les rapports des organismes municipaux contiennent ces données.
+
+10
+0:00:32.291,000 --> 0:00:34,000
+Le département des transports, vous dira
+
+11
+0:00:34.521,000 --> 0:00:35,000
+le nombre de km de routes entretenus
+
+12
+0:00:36.24,000 --> 0:00:38,000
+Le MTA se vantera du nombre de km de voies de métro.
+
+13
+0:00:38.831,000 --> 0:00:4,000
+La plupart des organismes établissent des statistiques.
+
+14
+0:00:41.432,000 --> 0:00:43,000
+Voici des données d'un rapport de cette année
+
+15
+0:00:43.859,000 --> 0:00:44,000
+de la commission des taxis,
+
+16
+0:00:45.152,000 --> 0:00:48,000
+qui nous apprennent qu'il y a environ 13 500 taxis ici à New York.
+
+17
+0:00:48.458,000 --> 0:00:49,000
+Intéressant, n'est-ce pas?
+
+18
+0:00:50.038,000 --> 0:00:52,000
+Mais vous êtes-vous déjà demandé d'où viennent ces nombres?
+
+19
+0:00:52.804,000 --> 0:00:55,000
+Pour qu'ils existent, des fonctionnaires ont dû
+
+20
+0:00:56.047,000 --> 0:00:59,000
+s'arrêter et se dire, hum, voici une donnée qui intéresse peut-être quelqu'un.
+
+21
+0:00:59.707,000 --> 0:01:01,000
+Voilà un nombre dont nos citoyens ont besoin.
+
+22
+0:01:01.817,000 --> 0:01:02,000
+Ils sortent alors leurs données brutes,
+
+23
+0:01:03.647,000 --> 0:01:04,000
+comptent, ajoutent, calculent,
+
+24
+0:01:05.094,000 --> 0:01:06,000
+et rédigent des rapports
+
+25
+0:01:06.721,000 --> 0:01:08,000
+contenant de nouveaux chiffres.
+
+26
+0:01:09.048,000 --> 0:01:11,000
+Mais le problème : comment devinent-ils nos questions?
+
+27
+0:01:11.728,000 --> 0:01:12,000
+Nous en avons beaucoup.
+
+28
+0:01:13.231,000 --> 0:01:16,000
+En fait, le nombre de questions que nous nous posons sur notre ville
+
+29
+0:01:16.571,000 --> 0:01:17,000
+est infini et les organismes
+
+30
+0:01:18.22,000 --> 0:01:19,000
+peinent à nous suivre.
+
+31
+0:01:19.695,000 --> 0:01:23,000
+Cette façon de faire n'est pas au point et je crois que nos décideurs le réalisent,
+
+32
+0:01:23.751,000 --> 0:01:26,000
+car en 2012, le maire Bloomberg a signé ce qu'il a appelé la mesure
+
+33
+0:01:27.71,000 --> 0:01:3,000
+législative sur les données ouvertes la plus ambitieuse et exhaustive au pays.
+
+34
+0:01:31.547,000 --> 0:01:32,000
+Il a raison à bien des égards.
+
+35
+0:01:33.12,000 --> 0:01:35,000
+En deux ans, la ville a publié 1000 jeux de données sur notre
+
+36
+0:01:35.981,000 --> 0:01:36,000
+portail des données ouvertes,
+
+37
+0:01:37.591,000 --> 0:01:38,000
+ce qui n'est pas mal.
+
+38
+0:01:39.355,000 --> 0:01:4,000
+Vous regardez des données comme celles-là
+
+39
+0:01:41.323,000 --> 0:01:43,000
+et vous commencez à vous poser des questions qui
+
+40
+0:01:43.612,000 --> 0:01:44,000
+vont au-delà du simple nombre de taxis.
+
+41
+0:01:45.555,000 --> 0:01:46,000
+Moi, je me suis demandé,
+
+42
+0:01:46.755,000 --> 0:01:47,000
+quelle est l'heure de pointe à NY?
+
+43
+0:01:48.456,000 --> 0:01:5,000
+La réponse ne nous vient pas naturellement.
+
+44
+0:01:51.037,000 --> 0:01:53,000
+Et je me suis dit, ces taxis sont plus que des nombres,
+
+45
+0:01:53.662,000 --> 0:01:55,000
+ils transportent des GPS qui enregistrent
+
+46
+0:01:56.373,000 --> 0:01:57,000
+chaque course qu'ils font.
+
+47
+0:01:58.286,000 --> 0:02:,000
+J'ai donc jeté un œil à ces données,
+
+48
+0:02:00.608,000 --> 0:02:03,000
+et j'ai tracé une courbe de la vitesse moyenne des taxis durant la journée.
+
+49
+0:02:04.569,000 --> 0:02:07,000
+Vous pouvez voir qu'à partir de minuit jusqu'à environ 5 h 18,
+
+50
+0:02:07.981,000 --> 0:02:1,000
+la vitesse augmente, puis les choses se gâtent et
+
+51
+0:02:11.544,000 --> 0:02:14,000
+la vitesse décroît et décroît et décroît jusqu'à 8 h 35,
+
+52
+0:02:15.506,000 --> 0:02:17,000
+où elle se stabilise à environ 18,5 km par heure.
+
+53
+0:02:18.199,000 --> 0:02:21,000
+Les taxis roulent en moyenne à 18,5 km/h dans les rues de notre ville,
+
+54
+0:02:21.761,000 --> 0:02:22,000
+et leur vitesse demeure telle quelle
+
+55
+0:02:23.748,000 --> 0:02:26,000
+toute la journée.
+
+56
+0:02:27.116,000 --> 0:02:28,000
+(Rires)
+
+57
+0:02:28.489,000 --> 0:02:31,000
+J'en conclus donc qu'il n'y a pas d'heure de pointe à New York,
+
+58
+0:02:31.669,000 --> 0:02:32,000
+mais des journées de pointe.
+
+59
+0:02:33.206,000 --> 0:02:35,000
+Logique. Et c'est important pour diverses raisons.
+
+60
+0:02:36.056,000 --> 0:02:39,000
+Si vous travaillez dans le domaine du transport, c'est intéressant pour vous.
+
+61
+0:02:39.693,000 --> 0:02:4,000
+Et si vous êtes quelqu'un de pressé,
+
+62
+0:02:41.578,000 --> 0:02:43,000
+vous savez maintenant que vous devez vous réveiller à 4 h 45.
+
+63
+0:02:44.496,000 --> 0:02:45,000
+New York, non?
+
+64
+0:02:46.08,000 --> 0:02:47,000
+Mais ces données ont elles aussi une
+
+65
+0:02:47.842,000 --> 0:02:49,000
+histoire : elles n'étaient publiées nulle part
+
+66
+0:02:50.027,000 --> 0:02:52,000
+et ont été obtenues par suite d'une demande faite en vertu
+
+67
+0:02:52.756,000 --> 0:02:53,000
+de la loi del’accès à l’information.
+
+68
+0:02:54.522,000 --> 0:02:57,000
+Le formulaire pour faire une telle demande est sur le site de la TLC.
+
+69
+0:02:57.808,000 --> 0:03:,000
+Pour obtenir les données, vous devez le remplir, l'envoyer, puis
+
+70
+0:03:01.014,000 --> 0:03:02,000
+attendre qu'on communique avec nous.
+
+71
+0:03:02.86,000 --> 0:03:04,000
+C'est ce qu'a fait Chris Whong.
+
+72
+0:03:04.99,000 --> 0:03:05,000
+Voici ce que le TLC lui a demandé :
+
+73
+0:03:06.98,000 --> 0:03:08,000
+« Apportez-nous un disque dur neuf. Nous y copierons
+
+74
+0:03:09.807,000 --> 0:03:12,000
+les données et vous pourrez venir le chercher cinq heures plus tard. »
+
+75
+0:03:13.231,000 --> 0:03:15,000
+Voilà d'où les données proviennent.
+
+76
+0:03:15.263,000 --> 0:03:18,000
+Chris est de ceux qui veulent que de telles données soient
+
+77
+0:03:18.268,000 --> 0:03:21,000
+publiques, et il les a mis en ligne, ce qui m'a permis de faire la carte.
+
+78
+0:03:22.052,000 --> 0:03:25,000
+Le fait que ces enregistrements GPS existent -- vraiment cool.
+
+79
+0:03:25.57,000 --> 0:03:28,000
+Mais le fait que des citoyens se promènent avec des disques durs
+
+80
+0:03:28.688,000 --> 0:03:3,000
+pour aller chercher des données,
+
+81
+0:03:31.27,000 --> 0:03:33,000
+qui en soi sont « publiques », mais
+
+82
+0:03:33.66,000 --> 0:03:34,000
+qui ne sont pas rendues publiques,
+
+83
+0:03:35.472,000 --> 0:03:36,000
+nous pouvons faire mieux comme ville.
+
+84
+0:03:37.434,000 --> 0:03:39,000
+Nul besoin que nos citoyens trimbalent des disques durs.
+
+85
+0:03:40.19,000 --> 0:03:42,000
+Mais certaines données sont déjà à disposition.
+
+86
+0:03:42.527,000 --> 0:03:45,000
+Voici une carte que j'ai créée des intersections de NY enregistrant le plus
+
+87
+0:03:46.329,000 --> 0:03:47,000
+d'accidents impliquant des cyclistes.
+
+88
+0:03:48.137,000 --> 0:03:5,000
+Les zones rouges sont les plus dangereuses.
+
+89
+0:03:50.146,000 --> 0:03:52,000
+Ce que l'on observe, c'est que la portion est de l'île,
+
+90
+0:03:52.759,000 --> 0:03:55,000
+particulièrement dans le sud de la ville, enregistre le plus d'accidents.
+
+91
+0:03:56.59,000 --> 0:03:57,000
+Ce n'est pas illogique,
+
+92
+0:03:57.689,000 --> 0:03:59,000
+car beaucoup de cyclistes sortent du pont à cet endroit.
+
+93
+0:04:00.355,000 --> 0:04:01,000
+Mais d'autres zones, comme Williamsburg,
+
+94
+0:04:02.239,000 --> 0:04:04,000
+Roosevelt Avenue dans Queens, méritent notre attention.
+
+95
+0:04:04.908,000 --> 0:04:06,000
+C'est le genre de données dont Vision Zero a besoin.
+
+96
+0:04:07.36,000 --> 0:04:09,000
+C'est ce qui fait notre bonheur.
+
+97
+0:04:09.75,000 --> 0:04:11,000
+Mais encore une fois, il y a une histoire
+
+98
+0:04:11.885,000 --> 0:04:13,000
+à raconter au sujet de ces données.
+
+99
+0:04:13.952,000 --> 0:04:15,000
+Combien d'entre vous connaissent ce logo?
+
+100
+0:04:16.213,000 --> 0:04:17,000
+Je vois des hochements de tête.
+
+101
+0:04:17.695,000 --> 0:04:19,000
+Avez-vous déjà copié et collé des données d'un PDF,
+
+102
+0:04:20.35,000 --> 0:04:21,000
+puis essayé d'y voir clair?
+
+103
+0:04:21.707,000 --> 0:04:22,000
+Vous l'êtes apparemment.
+
+104
+0:04:22.877,000 --> 0:04:25,000
+Plus à avoir fait du copier-coller qu'à reconnaître le logo. Intéressant.
+
+105
+0:04:26.312,000 --> 0:04:29,000
+Les données que vous avez vues se trouvaient à l'origine dans un PDF.
+
+106
+0:04:29.592,000 --> 0:04:32,000
+En fait, dans un PDF de plusieurs centaines de pages
+
+107
+0:04:32.727,000 --> 0:04:34,000
+créé par notre service de police,
+
+108
+0:04:34.886,000 --> 0:04:37,000
+et pour pouvoir les utiliser, vous deviez faire du copier-coller,
+
+109
+0:04:38.038,000 --> 0:04:39,000
+pendant des heures,
+
+110
+0:04:39.764,000 --> 0:04:4,000
+ou vous appelez John Krauss.
+
+111
+0:04:41.108,000 --> 0:04:42,000
+John Krauss s'est dit,
+
+112
+0:04:42.171,000 --> 0:04:45,000
+je ne vais pas copier ces données, mais plutôt créer un programme,
+
+113
+0:04:45.564,000 --> 0:04:47,000
+le NYPD Crash Data Band-Aid,
+
+114
+0:04:47.852,000 --> 0:04:5,000
+qui se promène sur le site Web du NYPD pour y dénicher des PDF.
+
+115
+0:04:50.884,000 --> 0:04:53,000
+Chaque jour, il cherche, trouve et télécharge des PDF,
+
+116
+0:04:54.01,000 --> 0:04:56,000
+puis en extrait le contenu qu'il
+
+117
+0:04:56.26,000 --> 0:04:57,000
+transforme en texte et
+
+118
+0:04:57.596,000 --> 0:05:,000
+qu'il publie sur le Web, pour que l'on puisse faire des cartes.
+
+119
+0:05:01.161,000 --> 0:05:04,000
+Et le fait que nous ayons ces données --
+
+120
+0:05:04.56,000 --> 0:05:06,000
+en passant, chaque ligne du tableau est un accident.
+
+121
+0:05:07.04,000 --> 0:05:08,000
+Vous pouvez imaginer le nombre de PDF.
+
+122
+0:05:08.876,000 --> 0:05:1,000
+Le fait que nous y ayons accès est formidable,
+
+123
+0:05:11.083,000 --> 0:05:13,000
+mais ne les publions pas dans des PDF,
+
+124
+0:05:13.193,000 --> 0:05:15,000
+car nos citoyens chercheront le moyen de les en extraire.
+
+125
+0:05:15.932,000 --> 0:05:17,000
+Nos citoyens n'ont pas de temps à perdre,
+
+126
+0:05:18.008,000 --> 0:05:2,000
+et comme ville nous pouvons offrir mieux.
+
+127
+0:05:20.012,000 --> 0:05:22,000
+La bonne nouvelle, c'est que l'administration Blasio
+
+128
+0:05:22.748,000 --> 0:05:24,000
+a publié ces données il y a quelques mois,
+
+129
+0:05:25.28,000 --> 0:05:27,000
+Mais beaucoup de données restent enfermées
+
+130
+0:05:27.438,000 --> 0:05:29,000
+dans des PDF, ce qui est notamment le cas
+
+131
+0:05:29.974,000 --> 0:05:32,000
+des données sur les crimes.
+
+132
+0:05:33.171,000 --> 0:05:36,000
+Tout comme du budget de notre propre ville.
+
+133
+0:05:36.926,000 --> 0:05:39,000
+Le budget de NY n'est actuellement disponible qu'en format PDF.
+
+134
+0:05:40.655,000 --> 0:05:42,000
+Nous ne sommes pas les seuls que cela embête.
+
+135
+0:05:42.796,000 --> 0:05:44,000
+Nos propres législateurs, ceux qui votent le budget,
+
+136
+0:05:45.751,000 --> 0:05:46,000
+le reçoivent en PDF.
+
+137
+0:05:47.694,000 --> 0:05:5,000
+Nos législateurs ne peuvent pas analyser le budget qu'ils votent.
+
+138
+0:05:51.538,000 --> 0:05:54,000
+Et je crois que comme ville nous pouvons faire un peu mieux que cela.
+
+139
+0:05:55.146,000 --> 0:05:57,000
+Toutes les données ne sont pas cachées dans des PDF.
+
+140
+0:05:57.634,000 --> 0:05:58,000
+Voici une carte que j'ai faite
+
+141
+0:05:59.334,000 --> 0:06:01,000
+des voies de navigation les plus sales de New York.
+
+142
+0:06:02.26,000 --> 0:06:03,000
+Que veux-je dire par sale?
+
+143
+0:06:03.769,000 --> 0:06:04,000
+C'est quelque peu étrange,
+
+144
+0:06:05.626,000 --> 0:06:07,000
+mais j'ai pris le nombre de coliformes fécaux,
+
+145
+0:06:07.769,000 --> 0:06:1,000
+soit la quantité de matière fécale, dans chacune de nos voies d'eau.
+
+146
+0:06:11.245,000 --> 0:06:14,000
+Plus le cercle est grand, plus l'eau est sale,
+
+147
+0:06:14.519,000 --> 0:06:17,000
+et vice versa. Ce que vous voyez ce sont
+
+148
+0:06:17.876,000 --> 0:06:18,000
+les voies navigables intérieures.
+
+149
+0:06:19.52,000 --> 0:06:22,000
+Il s'agit de données que la ville recueille depuis cinq ans.
+
+150
+0:06:22.924,000 --> 0:06:24,000
+Les voies intérieures sont généralement plus sales,
+
+151
+0:06:25.618,000 --> 0:06:26,000
+C'est assez évident, non?
+
+152
+0:06:26.836,000 --> 0:06:29,000
+Voici ce que j'ai découvert grâce à cette carte.
+
+153
+0:06:30.21,000 --> 0:06:33,000
+Premièrement, il ne faut jamais nager dans un « creek » ou un « canal ».
+
+154
+0:06:33.674,000 --> 0:06:37,000
+Deuxièmement, la voie la plus sale de New York est Coney Island Creek,
+
+155
+0:06:37.692,000 --> 0:06:38,000
+d'après cette mesure.
+
+156
+0:06:39.526,000 --> 0:06:42,000
+Ce n'est heureusement pas le Coney Island où vous vous baignez.
+
+157
+0:06:43.174,000 --> 0:06:44,000
+C'est de l'autre côté.
+
+158
+0:06:44.332,000 --> 0:06:47,000
+Mais à Coney Island Creek, 94 % des échantillons prélevés depuis cinq ans
+
+159
+0:06:48.21,000 --> 0:06:5,000
+contenaient tellement de coliformes fécaux
+
+160
+0:06:50.367,000 --> 0:06:53,000
+que les lois de l'État le rendent impropre à la baignade.
+
+161
+0:06:53.46,000 --> 0:06:55,000
+Et ce n'est pas le genre de faits que les rapports
+
+162
+0:06:56.189,000 --> 0:06:57,000
+de la ville contiennent ou qui
+
+163
+0:06:57.726,000 --> 0:06:59,000
+figure sur la page d'accueil du nyc.gov, non?
+
+164
+0:06:59.976,000 --> 0:07:,000
+Vous ne les y verrez pas, mais
+
+165
+0:07:01.556,000 --> 0:07:03,000
+le fait qu'on puisse trouver ces données est génial.
+
+166
+0:07:04.074,000 --> 0:07:05,000
+Ici encore, ce ne fut pas facile, car
+
+167
+0:07:05.847,000 --> 0:07:07,000
+elles ne figuraient pas dans le portail des
+
+168
+0:07:08.205,000 --> 0:07:1,000
+données ouvertes, où vous trouverez
+
+169
+0:07:10.218,000 --> 0:07:12,000
+seulement des chiffres pour un an ou quelques mois.
+
+170
+0:07:12.831,000 --> 0:07:15,000
+Elles étaient plutôt sur le site du DEP de la ville de NY.
+
+171
+0:07:16.221,000 --> 0:07:19,000
+Chacun de ces liens ouvre un tableur Excel différent, avec des titres différents.
+
+172
+0:07:20.099,000 --> 0:07:21,000
+Vous copiez, collez, réorganisez le tout,
+
+173
+0:07:22.049,000 --> 0:07:24,000
+puis faites des cartes et c'est bien, mais encore une fois,
+
+174
+0:07:24.861,000 --> 0:07:26,000
+nous pouvons faire mieux comme ville et établir des normes.
+
+175
+0:07:27.67,000 --> 0:07:29,000
+Et nous y arrivons par des sites Web comme celui de Socrata
+
+176
+0:07:30.514,000 --> 0:07:31,000
+appelé l'Open Data Portal NYC,
+
+177
+0:07:32.025,000 --> 0:07:34,000
+où 1100 jeux de données, qui ne souffrent pas
+
+178
+0:07:34.232,000 --> 0:07:35,000
+des maux que j'ai décrits se trouvent,
+
+179
+0:07:36.133,000 --> 0:07:37,000
+et leur nombre ne cesse de croître.
+
+180
+0:07:37.781,000 --> 0:07:4,000
+Vous pouvez y télécharger les données que vous voulez dans une foule
+
+181
+0:07:40.983,000 --> 0:07:44,000
+de formats : CSV, PDF, XLS ou autres.
+
+182
+0:07:45.72,000 --> 0:07:46,000
+Vous découvrirez alors que
+
+183
+0:07:47.072,000 --> 0:07:5,000
+le format des adresses n'est pas le même d'un organisme à l'autre.
+
+184
+0:07:50.758,000 --> 0:07:52,000
+L'un classe ses données par rue ou par
+
+185
+0:07:52.899,000 --> 0:07:54,000
+intersection, l'autre par quartier ou adresse postale.
+
+186
+0:07:55.39,000 --> 0:07:58,000
+Même avec ce portail, vous perdez du temps, car vous devez
+
+187
+0:07:58.57,000 --> 0:08:,000
+uniformiser les champs des adresses.
+
+188
+0:08:01.176,000 --> 0:08:03,000
+Et nos citoyens ont d'autres chats à fouetter.
+
+189
+0:08:03.329,000 --> 0:08:04,000
+Nous pouvons faire mieux comme ville.
+
+190
+0:08:05.205,000 --> 0:08:06,000
+Nous pourrions normaliser nos adresses,
+
+191
+0:08:07.08,000 --> 0:08:09,000
+ce qui nous aiderait à créer plus de cartes.
+
+192
+0:08:09.225,000 --> 0:08:11,000
+En voici une des bornes d'incendie de NY,
+
+193
+0:08:11.51,000 --> 0:08:12,000
+mais pas de n'importe quelle borne.
+
+194
+0:08:13.201,000 --> 0:08:17,000
+Il s'agit des 250 bornes ayant remis le plus grand nombre de contraventions.
+
+195
+0:08:17.767,000 --> 0:08:18,000
+(Rires)
+
+196
+0:08:19.753,000 --> 0:08:22,000
+J'ai fait des découvertes grâce à cette carte.
+
+197
+0:08:23.111,000 --> 0:08:25,000
+Primo, ne vous garez pas dans l'Upper East Side.
+
+198
+0:08:25.513,000 --> 0:08:28,000
+Peu importe où vous vous garerez, vous aurez un ticket.
+
+199
+0:08:29.1,000 --> 0:08:33,000
+J'ai également trouvé les deux bornes les plus lucratives pour la ville,
+
+200
+0:08:33.253,000 --> 0:08:34,000
+deux bornes dans le Lower East Side,
+
+201
+0:08:35.139,000 --> 0:08:4,000
+qui rapportent plus de 55 000 $ par année en contraventions.
+
+202
+0:08:40.237,000 --> 0:08:42,000
+Cela m'a surpris.
+
+203
+0:08:42.975,000 --> 0:08:45,000
+J'ai donc fait des recherches et j'ai découvert
+
+204
+0:08:46.244,000 --> 0:08:47,000
+qu'une avancée de trottoir de sept pieds
+
+205
+0:08:48.24,000 --> 0:08:5,000
+sépare la place de parking
+
+206
+0:08:50.299,000 --> 0:08:51,000
+de la borne d'incendie.
+
+207
+0:08:51.455,000 --> 0:08:53,000
+Un conducteur arrive et se dit :
+
+208
+0:08:53.709,000 --> 0:08:54,000
+« La borne est là-bas, je suis ok. »
+
+209
+0:08:55.62,000 --> 0:08:58,000
+Il regarde les lignes de parking dessinées au sol et se gare.
+
+210
+0:08:59.094,000 --> 0:09:02,000
+Les policiers, qui ne voient pas les choses du même œil, lui
+
+211
+0:09:02.249,000 --> 0:09:03,000
+collent une amende.
+
+212
+0:09:03.307,000 --> 0:09:05,000
+Je ne suis pas le seul à avoir remarqué cela.
+
+213
+0:09:05.651,000 --> 0:09:07,000
+La voiture de Google qui passait par là
+
+214
+0:09:07.797,000 --> 0:09:08,000
+a photographié la scène.
+
+215
+0:09:09.414,000 --> 0:09:13,000
+J'en ai parlé dans mon blogue I Quant NY, à la suite de quoi le DOT m'a répondu,
+
+216
+0:09:13.918,000 --> 0:09:14,000
+et a déclaré :
+
+217
+0:09:14.938,000 --> 0:09:17,000
+« Bien que le DOT n'ait reçu aucune plainte au sujet de
+
+218
+0:09:18.348,000 --> 0:09:22,000
+cet emplacement, nous allons revoir le marquage au sol. »
+
+219
+0:09:22.89,000 --> 0:09:24,000
+Je me suis dit, voilà une réponse typique,
+
+220
+0:09:25.849,000 --> 0:09:26,000
+merci, passons à autre chose.
+
+221
+0:09:27.73,000 --> 0:09:3,000
+Mais, quelques semaines plus tard, une chose extraordinaire s'est produite.
+
+222
+0:09:31.7,000 --> 0:09:33,000
+Ils ont refait les lignes, et pendant
+
+223
+0:09:34.22,000 --> 0:09:36,000
+une seconde, j'ai vu l'avenir de l'ouverture des données,
+
+224
+0:09:36.91,000 --> 0:09:38,000
+car pensez à ce qui est arrivé ici.
+
+225
+0:09:38.91,000 --> 0:09:43,000
+Durant cinq ans, ceux qui se garaient-là recevaient un ticket sans comprendre,
+
+226
+0:09:44.01,000 --> 0:09:48,000
+puis un citoyen a fait une observation, en a fait part à la ville et en quelques
+
+227
+0:09:48.316,000 --> 0:09:49,000
+semaines tout était réglé.
+
+228
+0:09:49.61,000 --> 0:09:52,000
+C'est formidable. Plusieurs personnes voient là un rôle de cerbère.
+
+229
+0:09:52.81,000 --> 0:09:53,000
+Les données sont plutôt un outil,
+
+230
+0:09:54.582,000 --> 0:09:57,000
+qui nous permettent d'être de vrais partenaires du gouvernement,
+
+231
+0:09:57.72,000 --> 0:09:58,000
+et ce n'est pas si complexe.
+
+232
+0:09:59.601,000 --> 0:10:,000
+Peu de changements sont requis.
+
+233
+0:10:01.09,000 --> 0:10:02,000
+Si vous vous faites
+
+234
+0:10:02.167,000 --> 0:10:04,000
+régulièrement demander vos données,
+
+235
+0:10:05.034,000 --> 0:10:08,000
+rendez-les publiques, c'est un signe qu'elles devraient l'être.
+
+236
+0:10:08.608,000 --> 0:10:1,000
+Votons aussi une loi qui oblige les organismes
+
+237
+0:10:11.09,000 --> 0:10:14,000
+gouvernementaux qui mettent en ligne des PDF à joindre à ceux-ci
+
+238
+0:10:14.739,000 --> 0:10:16,000
+les données brutes, car celles-ci proviennent
+
+239
+0:10:16.867,000 --> 0:10:18,000
+nécessairement de quelque part,
+
+240
+0:10:19.249,000 --> 0:10:2,000
+et devraient être accessibles.
+
+241
+0:10:20.974,000 --> 0:10:22,000
+Fixons des normes sur les données ouvertes
+
+242
+0:10:23.385,000 --> 0:10:25,000
+et uniformisons le format
+
+243
+0:10:25.866,000 --> 0:10:27,000
+des adresses de New York.
+
+244
+0:10:27.94,000 --> 0:10:29,000
+Malgré tout ce que j'ai dit, NY reste un
+
+245
+0:10:30.002,000 --> 0:10:32,000
+leader dans le domaine des données ouvertes
+
+246
+0:10:32.791,000 --> 0:10:35,000
+et si nous choisissons d'établir des normes en la matière
+
+247
+0:10:35.912,000 --> 0:10:38,000
+d'autres feront de même. L'État, le gouvernement fédéral, voire d'autres
+
+248
+0:10:39.546,000 --> 0:10:4,000
+pays pourraient nous suivre.
+
+249
+0:10:40.881,000 --> 0:10:43,000
+Nous approchons d'une ère où nous aurons un programme qui pourra
+
+250
+0:10:43.892,000 --> 0:10:45,000
+créeons des cartes avec les données de 100 pays.
+
+251
+0:10:46.142,000 --> 0:10:48,000
+Ce n'est pas de la science fiction, nous y sommes presque.
+
+252
+0:10:48.909,000 --> 0:10:5,000
+Mais au fait, à qui donnons-nous le pouvoir?
+
+253
+0:10:51.029,000 --> 0:10:53,000
+Car il ne s'agit pas seulement de John Krauss et de Chris Whong,
+
+254
+0:10:54.024,000 --> 0:10:57,000
+Il y a actuellement des centaines de Meetup actifs
+
+255
+0:10:57.119,000 --> 0:10:57,000
+à New York.
+
+256
+0:10:57.844,000 --> 0:10:59,000
+Ils sont des milliers à participer à ces réunions.
+
+257
+0:11:00.416,000 --> 0:11:02,000
+Ils y assistent après le travail et les weekends,
+
+258
+0:11:02.784,000 --> 0:11:04,000
+pour passer en revue des données et améliorer la
+
+259
+0:11:05.42,000 --> 0:11:06,000
+qualité de vie dans notre ville.
+
+260
+0:11:07.06,000 --> 0:11:11,000
+Des groupes comme BetaNYC, qui la semaine dernière a lancé citygram.nyc,
+
+261
+0:11:11.433,000 --> 0:11:13,000
+où vous pouvez vous abonner à un bulletin des
+
+262
+0:11:13.58,000 --> 0:11:15,000
+plaintes que la ville reçoit au 311 dans un
+
+263
+0:11:15.648,000 --> 0:11:17,000
+rayon autour de chez vous ou de votre travail.
+
+264
+0:11:18.075,000 --> 0:11:21,000
+Et ce n'est pas que la communauté techno que cela intéresse.
+
+265
+0:11:21.449,000 --> 0:11:23,000
+Les urbanistes, mes étudiants, les défenseurs
+
+266
+0:11:24.071,000 --> 0:11:25,000
+du domaine public, des citoyens
+
+267
+0:11:25.99,000 --> 0:11:27,000
+de tous les milieux. Tout le monde s'y intéresse.
+
+268
+0:11:28.553,000 --> 0:11:3,000
+Et tous ces petits changements progressifs
+
+269
+0:11:31.339,000 --> 0:11:34,000
+attisent la passion de nos citoyens et leur permettent
+
+270
+0:11:34.564,000 --> 0:11:37,000
+d'utiliser des données pour améliorer notre ville,
+
+271
+0:11:37.72,000 --> 0:11:4,000
+que ce soit une donnée ou une place de stationnement à la fois.
+
+272
+0:11:41.346,000 --> 0:11:43,000
+Merci.
+
+273
+0:11:43.668,000 --> 0:11:46,000
+(Applaudissements)
+

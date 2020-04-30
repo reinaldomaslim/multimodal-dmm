@@ -1,0 +1,1292 @@
+1
+0:00:12.811,000 --> 0:00:15,000
+So you go to the doctor and get some tests.
+
+2
+0:00:16.674,000 --> 0:00:18,000
+The doctor determines that you have high cholesterol
+
+3
+0:00:19.318,000 --> 0:00:22,000
+and you would benefit from medication to treat it.
+
+4
+0:00:22.981,000 --> 0:00:23,000
+So you get a pillbox.
+
+5
+0:00:25.505,000 --> 0:00:26,000
+You have some confidence,
+
+6
+0:00:26.728,000 --> 0:00:28,000
+your physician has some confidence that this is going to work.
+
+7
+0:00:29.689,000 --> 0:00:32,000
+The company that invented it did a lot of studies, submitted it to the FDA.
+
+8
+0:00:33.266,000 --> 0:00:36,000
+They studied it very carefully, skeptically, they approved it.
+
+9
+0:00:36.397,000 --> 0:00:37,000
+They have a rough idea of how it works,
+
+10
+0:00:38.31,000 --> 0:00:4,000
+they have a rough idea of what the side effects are.
+
+11
+0:00:40.787,000 --> 0:00:41,000
+It should be OK.
+
+12
+0:00:42.864,000 --> 0:00:44,000
+You have a little more of a conversation with your physician
+
+13
+0:00:45.706,000 --> 0:00:47,000
+and the physician is a little worried because you've been blue,
+
+14
+0:00:48.693,000 --> 0:00:49,000
+haven't felt like yourself,
+
+15
+0:00:50.01,000 --> 0:00:53,000
+you haven't been able to enjoy things in life quite as much as you usually do.
+
+16
+0:00:53.765,000 --> 0:00:56,000
+Your physician says, "You know, I think you have some depression.
+
+17
+0:00:57.792,000 --> 0:00:59,000
+I'm going to have to give you another pill."
+
+18
+0:01:00.934,000 --> 0:01:02,000
+So now we're talking about two medications.
+
+19
+0:01:03.441,000 --> 0:01:06,000
+This pill also -- millions of people have taken it,
+
+20
+0:01:06.569,000 --> 0:01:09,000
+the company did studies, the FDA looked at it -- all good.
+
+21
+0:01:10.823,000 --> 0:01:12,000
+Think things should go OK.
+
+22
+0:01:12.904,000 --> 0:01:14,000
+Think things should go OK.
+
+23
+0:01:15.125,000 --> 0:01:16,000
+Well, wait a minute.
+
+24
+0:01:16.588,000 --> 0:01:19,000
+How much have we studied these two together?
+
+25
+0:01:20.63,000 --> 0:01:22,000
+Well, it's very hard to do that.
+
+26
+0:01:22.954,000 --> 0:01:24,000
+In fact, it's not traditionally done.
+
+27
+0:01:25.108,000 --> 0:01:3,000
+We totally depend on what we call "post-marketing surveillance,"
+
+28
+0:01:30.65,000 --> 0:01:31,000
+after the drugs hit the market.
+
+29
+0:01:32.996,000 --> 0:01:34,000
+How can we figure out if bad things are happening
+
+30
+0:01:35.868,000 --> 0:01:36,000
+between two medications?
+
+31
+0:01:37.249,000 --> 0:01:39,000
+Three? Five? Seven?
+
+32
+0:01:39.708,000 --> 0:01:41,000
+Ask your favorite person who has several diagnoses
+
+33
+0:01:42.147,000 --> 0:01:43,000
+how many medications they're on.
+
+34
+0:01:44.53,000 --> 0:01:45,000
+Why do I care about this problem?
+
+35
+0:01:46.134,000 --> 0:01:47,000
+I care about it deeply.
+
+36
+0:01:47.315,000 --> 0:01:51,000
+I'm an informatics and data science guy and really, in my opinion,
+
+37
+0:01:51.643,000 --> 0:01:54,000
+the only hope -- only hope -- to understand these interactions
+
+38
+0:01:55.412,000 --> 0:01:58,000
+is to leverage lots of different sources of data
+
+39
+0:01:58.492,000 --> 0:02:01,000
+in order to figure out when drugs can be used together safely
+
+40
+0:02:02.072,000 --> 0:02:03,000
+and when it's not so safe.
+
+41
+0:02:04.615,000 --> 0:02:06,000
+So let me tell you a data science story.
+
+42
+0:02:06.69,000 --> 0:02:08,000
+And it begins with my student Nick.
+
+43
+0:02:08.868,000 --> 0:02:1,000
+Let's call him "Nick," because that's his name.
+
+44
+0:02:11.272,000 --> 0:02:12,000
+(Laughter)
+
+45
+0:02:12.888,000 --> 0:02:13,000
+Nick was a young student.
+
+46
+0:02:14.113,000 --> 0:02:17,000
+I said, "You know, Nick, we have to understand how drugs work
+
+47
+0:02:17.216,000 --> 0:02:19,000
+and how they work together and how they work separately,
+
+48
+0:02:19.866,000 --> 0:02:2,000
+and we don't have a great understanding.
+
+49
+0:02:21.812,000 --> 0:02:23,000
+But the FDA has made available an amazing database.
+
+50
+0:02:24.241,000 --> 0:02:25,000
+It's a database of adverse events.
+
+51
+0:02:26.321,000 --> 0:02:27,000
+They literally put on the web --
+
+52
+0:02:27.987,000 --> 0:02:3,000
+publicly available, you could all download it right now --
+
+53
+0:02:31.13,000 --> 0:02:34,000
+hundreds of thousands of adverse event reports
+
+54
+0:02:34.781,000 --> 0:02:37,000
+from patients, doctors, companies, pharmacists.
+
+55
+0:02:38.565,000 --> 0:02:39,000
+And these reports are pretty simple:
+
+56
+0:02:40.338,000 --> 0:02:42,000
+it has all the diseases that the patient has,
+
+57
+0:02:43.02,000 --> 0:02:44,000
+all the drugs that they're on,
+
+58
+0:02:44.811,000 --> 0:02:47,000
+and all the adverse events, or side effects, that they experience.
+
+59
+0:02:48.653,000 --> 0:02:51,000
+It is not all of the adverse events that are occurring in America today,
+
+60
+0:02:52.113,000 --> 0:02:54,000
+but it's hundreds and hundreds of thousands of drugs.
+
+61
+0:02:54.715,000 --> 0:02:55,000
+So I said to Nick,
+
+62
+0:02:56.038,000 --> 0:02:57,000
+"Let's think about glucose.
+
+63
+0:02:57.888,000 --> 0:03:,000
+Glucose is very important, and we know it's involved with diabetes.
+
+64
+0:03:01.479,000 --> 0:03:04,000
+Let's see if we can understand glucose response.
+
+65
+0:03:05.473,000 --> 0:03:07,000
+I sent Nick off. Nick came back.
+
+66
+0:03:08.248,000 --> 0:03:09,000
+"Russ," he said,
+
+67
+0:03:10.351,000 --> 0:03:15,000
+"I've created a classifier that can look at the side effects of a drug
+
+68
+0:03:15.487,000 --> 0:03:17,000
+based on looking at this database,
+
+69
+0:03:17.562,000 --> 0:03:21,000
+and can tell you whether that drug is likely to change glucose or not."
+
+70
+0:03:21.857,000 --> 0:03:23,000
+He did it. It was very simple, in a way.
+
+71
+0:03:23.897,000 --> 0:03:25,000
+He took all the drugs that were known to change glucose
+
+72
+0:03:26.556,000 --> 0:03:28,000
+and a bunch of drugs that don't change glucose,
+
+73
+0:03:28.969,000 --> 0:03:3,000
+and said, "What's the difference in their side effects?
+
+74
+0:03:31.881,000 --> 0:03:35,000
+Differences in fatigue? In appetite? In urination habits?"
+
+75
+0:03:36.757,000 --> 0:03:38,000
+All those things conspired to give him a really good predictor.
+
+76
+0:03:39.741,000 --> 0:03:41,000
+He said, "Russ, I can predict with 93 percent accuracy
+
+77
+0:03:42.313,000 --> 0:03:43,000
+when a drug will change glucose."
+
+78
+0:03:43.909,000 --> 0:03:44,000
+I said, "Nick, that's great."
+
+79
+0:03:45.349,000 --> 0:03:47,000
+He's a young student, you have to build his confidence.
+
+80
+0:03:48.269,000 --> 0:03:49,000
+"But Nick, there's a problem.
+
+81
+0:03:49.683,000 --> 0:03:52,000
+It's that every physician in the world knows all the drugs that change glucose,
+
+82
+0:03:53.667,000 --> 0:03:55,000
+because it's core to our practice.
+
+83
+0:03:55.729,000 --> 0:03:58,000
+So it's great, good job, but not really that interesting,
+
+84
+0:03:59.475,000 --> 0:04:,000
+definitely not publishable."
+
+85
+0:04:01.03,000 --> 0:04:02,000
+(Laughter)
+
+86
+0:04:02.068,000 --> 0:04:04,000
+He said, "I know, Russ. I thought you might say that."
+
+87
+0:04:04.642,000 --> 0:04:05,000
+Nick is smart.
+
+88
+0:04:06.149,000 --> 0:04:08,000
+"I thought you might say that, so I did one other experiment.
+
+89
+0:04:09.047,000 --> 0:04:11,000
+I looked at people in this database who were on two drugs,
+
+90
+0:04:11.999,000 --> 0:04:15,000
+and I looked for signals similar, glucose-changing signals,
+
+91
+0:04:16.445,000 --> 0:04:17,000
+for people taking two drugs,
+
+92
+0:04:18.093,000 --> 0:04:23,000
+where each drug alone did not change glucose,
+
+93
+0:04:23.686,000 --> 0:04:25,000
+but together I saw a strong signal."
+
+94
+0:04:26.17,000 --> 0:04:29,000
+And I said, "Oh! You're clever. Good idea. Show me the list."
+
+95
+0:04:29.343,000 --> 0:04:31,000
+And there's a bunch of drugs, not very exciting.
+
+96
+0:04:31.621,000 --> 0:04:34,000
+But what caught my eye was, on the list there were two drugs:
+
+97
+0:04:35.577,000 --> 0:04:38,000
+paroxetine, or Paxil, an antidepressant;
+
+98
+0:04:39.756,000 --> 0:04:42,000
+and pravastatin, or Pravachol, a cholesterol medication.
+
+99
+0:04:43.936,000 --> 0:04:47,000
+And I said, "Huh. There are millions of Americans on those two drugs."
+
+100
+0:04:48.243,000 --> 0:04:49,000
+In fact, we learned later,
+
+101
+0:04:49.513,000 --> 0:04:55,000
+15 million Americans on paroxetine at the time, 15 million on pravastatin,
+
+102
+0:04:55.569,000 --> 0:04:57,000
+and a million, we estimated, on both.
+
+103
+0:04:58.767,000 --> 0:04:59,000
+So that's a million people
+
+104
+0:05:00.045,000 --> 0:05:02,000
+who might be having some problems with their glucose
+
+105
+0:05:02.522,000 --> 0:05:05,000
+if this machine-learning mumbo jumbo that he did in the FDA database
+
+106
+0:05:05.752,000 --> 0:05:06,000
+actually holds up.
+
+107
+0:05:07.03,000 --> 0:05:08,000
+But I said, "It's still not publishable,
+
+108
+0:05:08.981,000 --> 0:05:1,000
+because I love what you did with the mumbo jumbo,
+
+109
+0:05:11.301,000 --> 0:05:12,000
+with the machine learning,
+
+110
+0:05:12.571,000 --> 0:05:15,000
+but it's not really standard-of-proof evidence that we have."
+
+111
+0:05:17.618,000 --> 0:05:18,000
+So we have to do something else.
+
+112
+0:05:19.231,000 --> 0:05:21,000
+Let's go into the Stanford electronic medical record.
+
+113
+0:05:22.131,000 --> 0:05:24,000
+We have a copy of it that's OK for research,
+
+114
+0:05:24.219,000 --> 0:05:26,000
+we removed identifying information.
+
+115
+0:05:26.581,000 --> 0:05:28,000
+And I said, "Let's see if people on these two drugs
+
+116
+0:05:29.108,000 --> 0:05:3,000
+have problems with their glucose."
+
+117
+0:05:31.242,000 --> 0:05:33,000
+Now there are thousands and thousands of people
+
+118
+0:05:33.473,000 --> 0:05:36,000
+in the Stanford medical records that take paroxetine and pravastatin.
+
+119
+0:05:36.956,000 --> 0:05:37,000
+But we needed special patients.
+
+120
+0:05:38.779,000 --> 0:05:42,000
+We needed patients who were on one of them and had a glucose measurement,
+
+121
+0:05:43.4,000 --> 0:05:46,000
+then got the second one and had another glucose measurement,
+
+122
+0:05:46.873,000 --> 0:05:49,000
+all within a reasonable period of time -- something like two months.
+
+123
+0:05:50.512,000 --> 0:05:53,000
+And when we did that, we found 10 patients.
+
+124
+0:05:54.592,000 --> 0:05:58,000
+However, eight out of the 10 had a bump in their glucose
+
+125
+0:05:59.154,000 --> 0:06:01,000
+when they got the second P -- we call this P and P --
+
+126
+0:06:01.823,000 --> 0:06:02,000
+when they got the second P.
+
+127
+0:06:03.157,000 --> 0:06:05,000
+Either one could be first, the second one comes up,
+
+128
+0:06:05.743,000 --> 0:06:07,000
+glucose went up 20 milligrams per deciliter.
+
+129
+0:06:08.614,000 --> 0:06:09,000
+Just as a reminder,
+
+130
+0:06:09.796,000 --> 0:06:11,000
+you walk around normally, if you're not diabetic,
+
+131
+0:06:12.145,000 --> 0:06:13,000
+with a glucose of around 90.
+
+132
+0:06:13.528,000 --> 0:06:15,000
+And if it gets up to 120, 125,
+
+133
+0:06:15.628,000 --> 0:06:18,000
+your doctor begins to think about a potential diagnosis of diabetes.
+
+134
+0:06:19.102,000 --> 0:06:21,000
+So a 20 bump -- pretty significant.
+
+135
+0:06:22.601,000 --> 0:06:23,000
+I said, "Nick, this is very cool.
+
+136
+0:06:25.616,000 --> 0:06:27,000
+But, I'm sorry, we still don't have a paper,
+
+137
+0:06:27.693,000 --> 0:06:29,000
+because this is 10 patients and -- give me a break --
+
+138
+0:06:30.296,000 --> 0:06:31,000
+it's not enough patients."
+
+139
+0:06:31.565,000 --> 0:06:32,000
+So we said, what can we do?
+
+140
+0:06:32.895,000 --> 0:06:34,000
+And we said, let's call our friends at Harvard and Vanderbilt,
+
+141
+0:06:35.895,000 --> 0:06:37,000
+who also -- Harvard in Boston, Vanderbilt in Nashville,
+
+142
+0:06:38.506,000 --> 0:06:4,000
+who also have electronic medical records similar to ours.
+
+143
+0:06:41.351,000 --> 0:06:43,000
+Let's see if they can find similar patients
+
+144
+0:06:43.395,000 --> 0:06:46,000
+with the one P, the other P, the glucose measurements
+
+145
+0:06:46.695,000 --> 0:06:47,000
+in that range that we need.
+
+146
+0:06:48.787,000 --> 0:06:52,000
+God bless them, Vanderbilt in one week found 40 such patients,
+
+147
+0:06:53.766,000 --> 0:06:54,000
+same trend.
+
+148
+0:06:55.804,000 --> 0:06:58,000
+Harvard found 100 patients, same trend.
+
+149
+0:06:59.448,000 --> 0:07:03,000
+So at the end, we had 150 patients from three diverse medical centers
+
+150
+0:07:03.753,000 --> 0:07:06,000
+that were telling us that patients getting these two drugs
+
+151
+0:07:07.074,000 --> 0:07:09,000
+were having their glucose bump somewhat significantly.
+
+152
+0:07:10.317,000 --> 0:07:12,000
+More interestingly, we had left out diabetics,
+
+153
+0:07:13.151,000 --> 0:07:15,000
+because diabetics already have messed up glucose.
+
+154
+0:07:15.492,000 --> 0:07:17,000
+When we looked at the glucose of diabetics,
+
+155
+0:07:17.754,000 --> 0:07:2,000
+it was going up 60 milligrams per deciliter, not just 20.
+
+156
+0:07:21.76,000 --> 0:07:24,000
+This was a big deal, and we said, "We've got to publish this."
+
+157
+0:07:25.236,000 --> 0:07:26,000
+We submitted the paper.
+
+158
+0:07:26.439,000 --> 0:07:28,000
+It was all data evidence,
+
+159
+0:07:28.574,000 --> 0:07:3,000
+data from the FDA, data from Stanford,
+
+160
+0:07:31.081,000 --> 0:07:32,000
+data from Vanderbilt, data from Harvard.
+
+161
+0:07:33.051,000 --> 0:07:35,000
+We had not done a single real experiment.
+
+162
+0:07:36.495,000 --> 0:07:37,000
+But we were nervous.
+
+163
+0:07:38.201,000 --> 0:07:41,000
+So Nick, while the paper was in review, went to the lab.
+
+164
+0:07:41.955,000 --> 0:07:43,000
+We found somebody who knew about lab stuff.
+
+165
+0:07:44.441,000 --> 0:07:45,000
+I don't do that.
+
+166
+0:07:45.858,000 --> 0:07:47,000
+I take care of patients, but I don't do pipettes.
+
+167
+0:07:49.42,000 --> 0:07:52,000
+They taught us how to feed mice drugs.
+
+168
+0:07:52.864,000 --> 0:07:54,000
+We took mice and we gave them one P, paroxetine.
+
+169
+0:07:55.302,000 --> 0:07:57,000
+We gave some other mice pravastatin.
+
+170
+0:07:57.834,000 --> 0:08:,000
+And we gave a third group of mice both of them.
+
+171
+0:08:01.893,000 --> 0:08:04,000
+And lo and behold, glucose went up 20 to 60 milligrams per deciliter
+
+172
+0:08:05.863,000 --> 0:08:06,000
+in the mice.
+
+173
+0:08:07.058,000 --> 0:08:1,000
+So the paper was accepted based on the informatics evidence alone,
+
+174
+0:08:10.24,000 --> 0:08:11,000
+but we added a little note at the end,
+
+175
+0:08:12.158,000 --> 0:08:14,000
+saying, oh by the way, if you give these to mice, it goes up.
+
+176
+0:08:15.081,000 --> 0:08:17,000
+That was great, and the story could have ended there.
+
+177
+0:08:17.613,000 --> 0:08:18,000
+But I still have six and a half minutes.
+
+178
+0:08:19.634,000 --> 0:08:21,000
+(Laughter)
+
+179
+0:08:22.465,000 --> 0:08:24,000
+So we were sitting around thinking about all of this,
+
+180
+0:08:25.304,000 --> 0:08:27,000
+and I don't remember who thought of it, but somebody said,
+
+181
+0:08:28.063,000 --> 0:08:31,000
+"I wonder if patients who are taking these two drugs
+
+182
+0:08:31.288,000 --> 0:08:34,000
+are noticing side effects of hyperglycemia.
+
+183
+0:08:34.865,000 --> 0:08:35,000
+They could and they should.
+
+184
+0:08:36.761,000 --> 0:08:37,000
+How would we ever determine that?"
+
+185
+0:08:39.551,000 --> 0:08:4,000
+We said, well, what do you do?
+
+186
+0:08:41.018,000 --> 0:08:43,000
+You're taking a medication, one new medication or two,
+
+187
+0:08:43.622,000 --> 0:08:44,000
+and you get a funny feeling.
+
+188
+0:08:45.184,000 --> 0:08:46,000
+What do you do?
+
+189
+0:08:46.359,000 --> 0:08:47,000
+You go to Google
+
+190
+0:08:47.534,000 --> 0:08:5,000
+and type in the two drugs you're taking or the one drug you're taking,
+
+191
+0:08:50.907,000 --> 0:08:51,000
+and you type in "side effects."
+
+192
+0:08:52.534,000 --> 0:08:53,000
+What are you experiencing?
+
+193
+0:08:54.239,000 --> 0:08:55,000
+So we said OK,
+
+194
+0:08:55.414,000 --> 0:08:58,000
+let's ask Google if they will share their search logs with us,
+
+195
+0:08:58.494,000 --> 0:08:59,000
+so that we can look at the search logs
+
+196
+0:09:00.351,000 --> 0:09:02,000
+and see if patients are doing these kinds of searches.
+
+197
+0:09:02.94,000 --> 0:09:05,000
+Google, I am sorry to say, denied our request.
+
+198
+0:09:06.819,000 --> 0:09:07,000
+So I was bummed.
+
+199
+0:09:07.994,000 --> 0:09:1,000
+I was at a dinner with a colleague who works at Microsoft Research
+
+200
+0:09:11.184,000 --> 0:09:12,000
+and I said, "We wanted to do this study,
+
+201
+0:09:13.149,000 --> 0:09:14,000
+Google said no, it's kind of a bummer."
+
+202
+0:09:15.053,000 --> 0:09:17,000
+He said, "Well, we have the Bing searches."
+
+203
+0:09:18.195,000 --> 0:09:21,000
+(Laughter)
+
+204
+0:09:22.805,000 --> 0:09:23,000
+Yeah.
+
+205
+0:09:24.096,000 --> 0:09:25,000
+That's great.
+
+206
+0:09:25.271,000 --> 0:09:26,000
+Now I felt like I was --
+
+207
+0:09:26.446,000 --> 0:09:27,000
+(Laughter)
+
+208
+0:09:27.47,000 --> 0:09:29,000
+I felt like I was talking to Nick again.
+
+209
+0:09:30.437,000 --> 0:09:32,000
+He works for one of the largest companies in the world,
+
+210
+0:09:33.085,000 --> 0:09:35,000
+and I'm already trying to make him feel better.
+
+211
+0:09:35.315,000 --> 0:09:37,000
+But he said, "No, Russ -- you might not understand.
+
+212
+0:09:37.784,000 --> 0:09:38,000
+We not only have Bing searches,
+
+213
+0:09:39.308,000 --> 0:09:42,000
+but if you use Internet Explorer to do searches at Google,
+
+214
+0:09:42.672,000 --> 0:09:43,000
+Yahoo, Bing, any ...
+
+215
+0:09:44.587,000 --> 0:09:47,000
+Then, for 18 months, we keep that data for research purposes only."
+
+216
+0:09:48.254,000 --> 0:09:49,000
+I said, "Now you're talking!"
+
+217
+0:09:50.214,000 --> 0:09:52,000
+This was Eric Horvitz, my friend at Microsoft.
+
+218
+0:09:52.436,000 --> 0:09:53,000
+So we did a study
+
+219
+0:09:54.155,000 --> 0:09:58,000
+where we defined 50 words that a regular person might type in
+
+220
+0:09:58.798,000 --> 0:09:59,000
+if they're having hyperglycemia,
+
+221
+0:10:00.424,000 --> 0:10:04,000
+like "fatigue," "loss of appetite," "urinating a lot," "peeing a lot" --
+
+222
+0:10:05.21,000 --> 0:10:07,000
+forgive me, but that's one of the things you might type in.
+
+223
+0:10:08.001,000 --> 0:10:1,000
+So we had 50 phrases that we called the "diabetes words."
+
+224
+0:10:10.815,000 --> 0:10:12,000
+And we did first a baseline.
+
+225
+0:10:12.902,000 --> 0:10:14,000
+And it turns out that about .5 to one percent
+
+226
+0:10:15.63,000 --> 0:10:17,000
+of all searches on the Internet involve one of those words.
+
+227
+0:10:18.636,000 --> 0:10:19,000
+So that's our baseline rate.
+
+228
+0:10:20.402,000 --> 0:10:24,000
+If people type in "paroxetine" or "Paxil" -- those are synonyms --
+
+229
+0:10:24.569,000 --> 0:10:25,000
+and one of those words,
+
+230
+0:10:25.808,000 --> 0:10:29,000
+the rate goes up to about two percent of diabetes-type words,
+
+231
+0:10:30.722,000 --> 0:10:33,000
+if you already know that there's that "paroxetine" word.
+
+232
+0:10:34.191,000 --> 0:10:38,000
+If it's "pravastatin," the rate goes up to about three percent from the baseline.
+
+233
+0:10:39.171,000 --> 0:10:43,000
+If both "paroxetine" and "pravastatin" are present in the query,
+
+234
+0:10:43.585,000 --> 0:10:44,000
+it goes up to 10 percent,
+
+235
+0:10:45.278,000 --> 0:10:48,000
+a huge three- to four-fold increase
+
+236
+0:10:48.763,000 --> 0:10:51,000
+in those searches with the two drugs that we were interested in,
+
+237
+0:10:52.176,000 --> 0:10:55,000
+and diabetes-type words or hyperglycemia-type words.
+
+238
+0:10:56.216,000 --> 0:10:57,000
+We published this,
+
+239
+0:10:57.505,000 --> 0:10:58,000
+and it got some attention.
+
+240
+0:10:58.995,000 --> 0:10:59,000
+The reason it deserves attention
+
+241
+0:11:00.797,000 --> 0:11:04,000
+is that patients are telling us their side effects indirectly
+
+242
+0:11:05.133,000 --> 0:11:06,000
+through their searches.
+
+243
+0:11:06.313,000 --> 0:11:08,000
+We brought this to the attention of the FDA.
+
+244
+0:11:08.475,000 --> 0:11:09,000
+They were interested.
+
+245
+0:11:09.768,000 --> 0:11:12,000
+They have set up social media surveillance programs
+
+246
+0:11:13.398,000 --> 0:11:14,000
+to collaborate with Microsoft,
+
+247
+0:11:15.173,000 --> 0:11:17,000
+which had a nice infrastructure for doing this, and others,
+
+248
+0:11:17.991,000 --> 0:11:18,000
+to look at Twitter feeds,
+
+249
+0:11:19.297,000 --> 0:11:2,000
+to look at Facebook feeds,
+
+250
+0:11:21.037,000 --> 0:11:22,000
+to look at search logs,
+
+251
+0:11:22.372,000 --> 0:11:26,000
+to try to see early signs that drugs, either individually or together,
+
+252
+0:11:27.305,000 --> 0:11:28,000
+are causing problems.
+
+253
+0:11:28.918,000 --> 0:11:3,000
+What do I take from this? Why tell this story?
+
+254
+0:11:31.116,000 --> 0:11:32,000
+Well, first of all,
+
+255
+0:11:32.347,000 --> 0:11:36,000
+we have now the promise of big data and medium-sized data
+
+256
+0:11:36.408,000 --> 0:11:38,000
+to help us understand drug interactions
+
+257
+0:11:39.35,000 --> 0:11:41,000
+and really, fundamentally, drug actions.
+
+258
+0:11:41.794,000 --> 0:11:42,000
+How do drugs work?
+
+259
+0:11:43.231,000 --> 0:11:45,000
+This will create and has created a new ecosystem
+
+260
+0:11:46.091,000 --> 0:11:49,000
+for understanding how drugs work and to optimize their use.
+
+261
+0:11:50.303,000 --> 0:11:52,000
+Nick went on; he's a professor at Columbia now.
+
+262
+0:11:52.986,000 --> 0:11:56,000
+He did this in his PhD for hundreds of pairs of drugs.
+
+263
+0:11:57.082,000 --> 0:11:59,000
+He found several very important interactions,
+
+264
+0:11:59.623,000 --> 0:12:,000
+and so we replicated this
+
+265
+0:12:00.861,000 --> 0:12:02,000
+and we showed that this is a way that really works
+
+266
+0:12:03.459,000 --> 0:12:05,000
+for finding drug-drug interactions.
+
+267
+0:12:06.282,000 --> 0:12:07,000
+However, there's a couple of things.
+
+268
+0:12:08.04,000 --> 0:12:11,000
+We don't just use pairs of drugs at a time.
+
+269
+0:12:11.11,000 --> 0:12:15,000
+As I said before, there are patients on three, five, seven, nine drugs.
+
+270
+0:12:15.981,000 --> 0:12:18,000
+Have they been studied with respect to their nine-way interaction?
+
+271
+0:12:19.647,000 --> 0:12:23,000
+Yes, we can do pair-wise, A and B, A and C, A and D,
+
+272
+0:12:23.879,000 --> 0:12:27,000
+but what about A, B, C, D, E, F, G all together,
+
+273
+0:12:28.189,000 --> 0:12:29,000
+being taken by the same patient,
+
+274
+0:12:29.975,000 --> 0:12:31,000
+perhaps interacting with each other
+
+275
+0:12:32.117,000 --> 0:12:35,000
+in ways that either makes them more effective or less effective
+
+276
+0:12:35.919,000 --> 0:12:37,000
+or causes side effects that are unexpected?
+
+277
+0:12:38.275,000 --> 0:12:39,000
+We really have no idea.
+
+278
+0:12:40.126,000 --> 0:12:43,000
+It's a blue sky, open field for us to use data
+
+279
+0:12:43.906,000 --> 0:12:45,000
+to try to understand the interaction of drugs.
+
+280
+0:12:46.848,000 --> 0:12:47,000
+Two more lessons:
+
+281
+0:12:48.242,000 --> 0:12:52,000
+I want you to think about the power that we were able to generate
+
+282
+0:12:52.465,000 --> 0:12:56,000
+with the data from people who had volunteered their adverse reactions
+
+283
+0:12:57.2,000 --> 0:13:,000
+through their pharmacists, through themselves, through their doctors,
+
+284
+0:13:00.493,000 --> 0:13:03,000
+the people who allowed the databases at Stanford, Harvard, Vanderbilt,
+
+285
+0:13:04.184,000 --> 0:13:05,000
+to be used for research.
+
+286
+0:13:05.929,000 --> 0:13:06,000
+People are worried about data.
+
+287
+0:13:07.398,000 --> 0:13:1,000
+They're worried about their privacy and security -- they should be.
+
+288
+0:13:10.609,000 --> 0:13:11,000
+We need secure systems.
+
+289
+0:13:11.784,000 --> 0:13:14,000
+But we can't have a system that closes that data off,
+
+290
+0:13:15.214,000 --> 0:13:17,000
+because it is too rich of a source
+
+291
+0:13:17.99,000 --> 0:13:2,000
+of inspiration, innovation and discovery
+
+292
+0:13:21.985,000 --> 0:13:22,000
+for new things in medicine.
+
+293
+0:13:24.494,000 --> 0:13:25,000
+And the final thing I want to say is,
+
+294
+0:13:26.312,000 --> 0:13:29,000
+in this case we found two drugs and it was a little bit of a sad story.
+
+295
+0:13:29.693,000 --> 0:13:3,000
+The two drugs actually caused problems.
+
+296
+0:13:31.638,000 --> 0:13:32,000
+They increased glucose.
+
+297
+0:13:33.137,000 --> 0:13:35,000
+They could throw somebody into diabetes
+
+298
+0:13:35.607,000 --> 0:13:37,000
+who would otherwise not be in diabetes,
+
+299
+0:13:37.925,000 --> 0:13:4,000
+and so you would want to use the two drugs very carefully together,
+
+300
+0:13:41.124,000 --> 0:13:42,000
+perhaps not together,
+
+301
+0:13:42.299,000 --> 0:13:44,000
+make different choices when you're prescribing.
+
+302
+0:13:44.663,000 --> 0:13:45,000
+But there was another possibility.
+
+303
+0:13:46.533,000 --> 0:13:48,000
+We could have found two drugs or three drugs
+
+304
+0:13:48.901,000 --> 0:13:5,000
+that were interacting in a beneficial way.
+
+305
+0:13:51.616,000 --> 0:13:53,000
+We could have found new effects of drugs
+
+306
+0:13:54.352,000 --> 0:13:56,000
+that neither of them has alone,
+
+307
+0:13:56.536,000 --> 0:13:58,000
+but together, instead of causing a side effect,
+
+308
+0:13:59.053,000 --> 0:14:01,000
+they could be a new and novel treatment
+
+309
+0:14:01.502,000 --> 0:14:02,000
+for diseases that don't have treatments
+
+310
+0:14:03.408,000 --> 0:14:05,000
+or where the treatments are not effective.
+
+311
+0:14:05.439,000 --> 0:14:07,000
+If we think about drug treatment today,
+
+312
+0:14:07.858,000 --> 0:14:08,000
+all the major breakthroughs --
+
+313
+0:14:09.634,000 --> 0:14:13,000
+for HIV, for tuberculosis, for depression, for diabetes --
+
+314
+0:14:13.955,000 --> 0:14:15,000
+it's always a cocktail of drugs.
+
+315
+0:14:16.809,000 --> 0:14:17,000
+And so the upside here,
+
+316
+0:14:18.563,000 --> 0:14:2,000
+and the subject for a different TED Talk on a different day,
+
+317
+0:14:21.436,000 --> 0:14:23,000
+is how can we use the same data sources
+
+318
+0:14:24.053,000 --> 0:14:27,000
+to find good effects of drugs in combination
+
+319
+0:14:27.64,000 --> 0:14:29,000
+that will provide us new treatments,
+
+320
+0:14:29.839,000 --> 0:14:3,000
+new insights into how drugs work
+
+321
+0:14:31.715,000 --> 0:14:34,000
+and enable us to take care of our patients even better?
+
+322
+0:14:35.525,000 --> 0:14:36,000
+Thank you very much.
+
+323
+0:14:36.715,000 --> 0:14:39,000
+(Applause)
+

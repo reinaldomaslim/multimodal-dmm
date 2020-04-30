@@ -1,0 +1,686 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Luis Javier Salvador Revisor: Ciro Gomez
+
+2
+0:00:15.73,000 --> 0:00:17,000
+Como arquitecto, a menudo me pregunto,
+
+3
+0:00:18.179,000 --> 0:00:2,000
+¿cuál es el origen de las formas que diseñamos?
+
+4
+0:00:21.019,000 --> 0:00:23,000
+¿Qué tipo de formas podríamos diseñar
+
+5
+0:00:23.924,000 --> 0:00:25,000
+si dejáramos de trabajar con referencias?
+
+6
+0:00:26.747,000 --> 0:00:29,000
+Si no tuviéramos preferencias ni ideas preconcebidas,
+
+7
+0:00:30.132,000 --> 0:00:32,000
+¿qué tipo de formas podríamos diseñar
+
+8
+0:00:32.339,000 --> 0:00:33,000
+si pudiésemos dejar a un lado
+
+9
+0:00:33.939,000 --> 0:00:35,000
+nuestra experiencia,
+
+10
+0:00:36.075,000 --> 0:00:4,000
+si pudiésemos liberarnos de nuestra educación?
+
+11
+0:00:40.809,000 --> 0:00:43,000
+¿Qué aspecto tendrían estas formas nunca vistas?
+
+12
+0:00:43.836,000 --> 0:00:46,000
+¿Nos sorprenderían? ¿Nos fascinarían?
+
+13
+0:00:47.547,000 --> 0:00:49,000
+¿Nos deleitarían?
+
+14
+0:00:49.962,000 --> 0:00:52,000
+En ese caso, ¿cómo podemos abordar la creación de algo que es realmente nuevo?
+
+15
+0:00:53.883,000 --> 0:00:55,000
+Propongo que nos fijemos en la naturaleza.
+
+16
+0:00:56.275,000 --> 0:01:,000
+A la naturaleza se le denomina la mejor arquitecta de formas.
+
+17
+0:01:00.539,000 --> 0:01:03,000
+No estoy diciendo que debamos copiarla
+
+18
+0:01:04.127,000 --> 0:01:06,000
+o imitar a la biología,
+
+19
+0:01:06.507,000 --> 0:01:09,000
+sino que adoptemos los procesos de la naturaleza.
+
+20
+0:01:09.955,000 --> 0:01:13,000
+Podemos abstraerlos y crear algo nuevo.
+
+21
+0:01:14.409,000 --> 0:01:17,000
+El principal proceso de creación en la naturaleza, la morfogénesis,
+
+22
+0:01:18.287,000 --> 0:01:21,000
+divide una célula en dos células.
+
+23
+0:01:22.116,000 --> 0:01:24,000
+Y estas células pueden ser idénticas,
+
+24
+0:01:24.173,000 --> 0:01:26,000
+o diferentes entre sí
+
+25
+0:01:26.348,000 --> 0:01:28,000
+a través de la división celular asimétrica.
+
+26
+0:01:28.412,000 --> 0:01:31,000
+Abstrayendo este proceso y simplificándolo todo lo posible,
+
+27
+0:01:32.211,000 --> 0:01:34,000
+podríamos empezar con una sola hoja de papel,
+
+28
+0:01:34.444,000 --> 0:01:36,000
+una única superficie, y podríamos doblarla
+
+29
+0:01:36.94,000 --> 0:01:38,000
+dividiendo la superficie en dos superficies.
+
+30
+0:01:39.876,000 --> 0:01:41,000
+Podemos doblarla por donde queramos.
+
+31
+0:01:42.139,000 --> 0:01:46,000
+Y de esta forma, podemos distinguir las superficies.
+
+32
+0:01:47.049,000 --> 0:01:48,000
+A través de este simplísimo proceso,
+
+33
+0:01:48.943,000 --> 0:01:51,000
+podemos crear una increíble variedad de formas.
+
+34
+0:01:52.555,000 --> 0:01:54,000
+Bien, podemos tomar esta forma y usar el mismo proceso
+
+35
+0:01:55.28,000 --> 0:01:56,000
+para generar estructuras en 3D,
+
+36
+0:01:57.272,000 --> 0:01:59,000
+pero en vez de doblarlas a mano,
+
+37
+0:01:59.68,000 --> 0:02:01,000
+trasladaremos la estructura a un computador,
+
+38
+0:02:02.265,000 --> 0:02:04,000
+y la codificaremos en un algoritmo.
+
+39
+0:02:05.24,000 --> 0:02:08,000
+Y haciéndolo, podemos doblar cualquier cosa.
+
+40
+0:02:08.248,000 --> 0:02:1,000
+Podemos hacerlo un millón de veces más rápido,
+
+41
+0:02:10.407,000 --> 0:02:13,000
+y emplear cientos y cientos de variantes.
+
+42
+0:02:13.568,000 --> 0:02:15,000
+Y puesto que buscamos crear algo en 3D,
+
+43
+0:02:16.048,000 --> 0:02:19,000
+no empezaremos con una única superficie, sino con un sólido.
+
+44
+0:02:19.264,000 --> 0:02:2,000
+Uno sencillo, el cubo.
+
+45
+0:02:20.617,000 --> 0:02:21,000
+Si tomamos sus superficies y las doblamos
+
+46
+0:02:22.337,000 --> 0:02:24,000
+una y otra y otra vez,
+
+47
+0:02:24.393,000 --> 0:02:26,000
+después de 16 iteraciones, 16 pasos,
+
+48
+0:02:27.256,000 --> 0:02:3,000
+obtendremos 400 000 superficies y una figura con,
+
+49
+0:02:31.105,000 --> 0:02:33,000
+por ejemplo, este aspecto.
+
+50
+0:02:33.64,000 --> 0:02:35,000
+Y si lo doblamos por otro sitio,
+
+51
+0:02:36.352,000 --> 0:02:37,000
+si cambiamos la proporción de los pliegues,
+
+52
+0:02:37.993,000 --> 0:02:4,000
+entonces este cubo se convierte en este otro.
+
+53
+0:02:41.416,000 --> 0:02:45,000
+Podemos cambiar la proporción de nuevo y obtener esta figura,
+
+54
+0:02:45.555,000 --> 0:02:46,000
+o esta otra.
+
+55
+0:02:47.382,000 --> 0:02:48,000
+Ejercemos control sobre la forma
+
+56
+0:02:49.005,000 --> 0:02:52,000
+al especificar el punto donde lo doblamos,
+
+57
+0:02:52.509,000 --> 0:02:56,000
+pero básicamente lo que ven es un cubo plegado.
+
+58
+0:02:57.215,000 --> 0:02:58,000
+Y podemos jugar con esto.
+
+59
+0:02:58.279,000 --> 0:03:,000
+Podemos aplicar diferentes proporciones a diferentes partes
+
+60
+0:03:00.895,000 --> 0:03:02,000
+de la forma para crear condiciones específicas.
+
+61
+0:03:03.64,000 --> 0:03:04,000
+Podemos empezar a esculpir la forma.
+
+62
+0:03:05.583,000 --> 0:03:07,000
+Y puesto que hacemos los pliegues en el ordenador,
+
+63
+0:03:08.471,000 --> 0:03:11,000
+no tenemos absolutamente ningún límite físico.
+
+64
+0:03:12.167,000 --> 0:03:14,000
+Lo que significa que las superficies pueden entrecruzarse,
+
+65
+0:03:15.118,000 --> 0:03:16,000
+y llegar a ser increíblemente pequeñas.
+
+66
+0:03:16.607,000 --> 0:03:19,000
+Podemos hacer pliegues que de otra forma no podríamos.
+
+67
+0:03:20.208,000 --> 0:03:21,000
+Las superficies pueden hacerse porosas.
+
+68
+0:03:22.086,000 --> 0:03:24,000
+Pueden estirarse. Pueden rasgarse.
+
+69
+0:03:24.815,000 --> 0:03:28,000
+Y todo esto explica la variedad de formas que podemos producir.
+
+70
+0:03:29.45,000 --> 0:03:31,000
+Pero en ninguno de estos casos diseñé la forma.
+
+71
+0:03:32.2,000 --> 0:03:36,000
+Diseñé el proceso que generaba la forma.
+
+72
+0:03:36.801,000 --> 0:03:4,000
+En general, si realizamos un pequeño cambio en la proporción de los pliegues,
+
+73
+0:03:41.289,000 --> 0:03:42,000
+que es lo que están viendo,
+
+74
+0:03:42.884,000 --> 0:03:45,000
+la forma cambia en consecuencia.
+
+75
+0:03:46.657,000 --> 0:03:48,000
+Pero eso es solo una parte de la historia,
+
+76
+0:03:48.913,000 --> 0:03:52,000
+el 99,9 % de las proporciones no producen esto,
+
+77
+0:03:53.236,000 --> 0:03:57,000
+sino esto, el equivalente geométrico del ruido.
+
+78
+0:03:58.132,000 --> 0:04:,000
+Las formas que mostré antes se lograron
+
+79
+0:04:00.252,000 --> 0:04:01,000
+a través de un largo proceso de ensayo y error.
+
+80
+0:04:01.9,000 --> 0:04:04,000
+Una manera mucho más efectiva de crear formas que he encontrado
+
+81
+0:04:05.116,000 --> 0:04:08,000
+es usar la información ya contenida en las formas.
+
+82
+0:04:09.004,000 --> 0:04:11,000
+Una forma muy sencilla como ésta contiene
+
+83
+0:04:11.659,000 --> 0:04:14,000
+mucha información que puede ser invisible al ojo humano.
+
+84
+0:04:15.251,000 --> 0:04:17,000
+Por ejemplo, podemos determinar la longitud de los bordes.
+
+85
+0:04:17.732,000 --> 0:04:2,000
+Las superficies blancas tienen bordes largos, las negras, cortos.
+
+86
+0:04:21.068,000 --> 0:04:24,000
+Podemos determinar la planitud de las superficies, su curvatura,
+
+87
+0:04:24.645,000 --> 0:04:28,000
+lo radiales que son; toda la información que quizás
+
+88
+0:04:28.732,000 --> 0:04:29,000
+no sea visible de inmediato,
+
+89
+0:04:30.679,000 --> 0:04:32,000
+pero que podemos extraer, definir
+
+90
+0:04:33.104,000 --> 0:04:36,000
+y usar para controlar los pliegues.
+
+91
+0:04:36.48,000 --> 0:04:37,000
+Así que ahora no especifico una única
+
+92
+0:04:38.439,000 --> 0:04:4,000
+proporción para doblarla,
+
+93
+0:04:40.615,000 --> 0:04:42,000
+sino que establezco una regla,
+
+94
+0:04:43.167,000 --> 0:04:45,000
+un enlace entre una propiedad de una superficie
+
+95
+0:04:45.603,000 --> 0:04:47,000
+y cómo ésta se dobla.
+
+96
+0:04:48.576,000 --> 0:04:5,000
+Y puesto que he diseñado el proceso y no la forma,
+
+97
+0:04:51.527,000 --> 0:04:53,000
+puedo ejecutar el proceso una y otra vez
+
+98
+0:04:53.849,000 --> 0:04:55,000
+para producir toda una familia de formas.
+
+99
+0:05:08.645,000 --> 0:05:12,000
+Estas formas parecen elaboradas, pero el proceso es muy simple.
+
+100
+0:05:13.088,000 --> 0:05:14,000
+Se hace un simple ingreso de datos,
+
+101
+0:05:14.217,000 --> 0:05:15,000
+siempre empiezo con un cubo,
+
+102
+0:05:16.169,000 --> 0:05:19,000
+y es una operación muy simple: hacer un pliegue,
+
+103
+0:05:19.745,000 --> 0:05:22,000
+y hacerlo una y otra vez.
+
+104
+0:05:23.697,000 --> 0:05:25,000
+Llevemos este proceso a la arquitectura.
+
+105
+0:05:25.977,000 --> 0:05:26,000
+¿Cómo? ¿Y a qué escala?
+
+106
+0:05:27.577,000 --> 0:05:28,000
+Elegí diseñar una columna.
+
+107
+0:05:29.305,000 --> 0:05:32,000
+Las columnas son arquetipos arquitectónicos.
+
+108
+0:05:32.681,000 --> 0:05:35,000
+Se han usado a lo largo de la historia para expresar ideales
+
+109
+0:05:35.748,000 --> 0:05:4,000
+de belleza y de tecnología.
+
+110
+0:05:40.823,000 --> 0:05:41,000
+Todo un reto para mí era cómo podríamos expresar
+
+111
+0:05:42.745,000 --> 0:05:45,000
+este nuevo orden algorítmico en una columna.
+
+112
+0:05:46.041,000 --> 0:05:48,000
+Empecé usando 4 cilindros.
+
+113
+0:05:49.025,000 --> 0:05:52,000
+Después de mucha experimentación, estos cilindros
+
+114
+0:05:52.801,000 --> 0:05:55,000
+acabaron evolucionando así.
+
+115
+0:05:55.936,000 --> 0:05:59,000
+Estas columnas contienen información a muchísimas escalas.
+
+116
+0:06:00.552,000 --> 0:06:02,000
+Podemos empezar a acercarnos a ellas.
+
+117
+0:06:03.07,000 --> 0:06:06,000
+Cuanto más nos acercamos, más detalles nuevos descubrimos.
+
+118
+0:06:06.625,000 --> 0:06:09,000
+Algunas formaciones se hallan en el límite de la visibilidad humana.
+
+119
+0:06:10.297,000 --> 0:06:11,000
+Y al contrario que la arquitectura tradicional,
+
+120
+0:06:12.249,000 --> 0:06:14,000
+es un único proceso el que crea tanto la forma global
+
+121
+0:06:15.033,000 --> 0:06:2,000
+como el detalle microscópico de la superficie.
+
+122
+0:06:20.378,000 --> 0:06:22,000
+Estas formas son imposibles de dibujar.
+
+123
+0:06:23.069,000 --> 0:06:26,000
+Un arquitecto que las dibujara en papel y lápiz
+
+124
+0:06:26.445,000 --> 0:06:27,000
+tardaría meses probablemente,
+
+125
+0:06:28.237,000 --> 0:06:3,000
+o incluso un año si dibujara todas las secciones,
+
+126
+0:06:30.621,000 --> 0:06:32,000
+todas las elevaciones; solo se puede crear algo así
+
+127
+0:06:32.925,000 --> 0:06:34,000
+a través de un algoritmo.
+
+128
+0:06:35.061,000 --> 0:06:37,000
+Quizás una pregunta más interesante sería:
+
+129
+0:06:37.093,000 --> 0:06:39,000
+¿Son imaginables estas formas?
+
+130
+0:06:39.722,000 --> 0:06:41,000
+Generalmente, un arquitecto puede visualizar el resultado final
+
+131
+0:06:42.357,000 --> 0:06:43,000
+de lo que está diseñando.
+
+132
+0:06:44.221,000 --> 0:06:46,000
+En este caso, el proceso es determinista.
+
+133
+0:06:47.046,000 --> 0:06:49,000
+No existe aleatoriedad alguna,
+
+134
+0:06:49.405,000 --> 0:06:51,000
+pero no es completamente predecible.
+
+135
+0:06:51.412,000 --> 0:06:52,000
+Hay tantas superficies
+
+136
+0:06:52.988,000 --> 0:06:55,000
+y tantos detalles, que no podemos ver el resultado final.
+
+137
+0:06:56.598,000 --> 0:06:59,000
+Esto nos lleva a un nuevo rol del arquitecto.
+
+138
+0:06:59.812,000 --> 0:07:02,000
+Necesitamos un nuevo método para explorar todas las posibilidades
+
+139
+0:07:03.423,000 --> 0:07:04,000
+que existen.
+
+140
+0:07:05.199,000 --> 0:07:08,000
+En primer lugar, podemos diseñar gran variedad de formas,
+
+141
+0:07:08.431,000 --> 0:07:1,000
+en paralelo, y podemos ir desarrollándolas.
+
+142
+0:07:10.645,000 --> 0:07:12,000
+Y volviendo a la analogía con la naturaleza,
+
+143
+0:07:12.893,000 --> 0:07:14,000
+podemos empezar a pensar en términos de poblaciones,
+
+144
+0:07:15.389,000 --> 0:07:18,000
+podemos hablar de permutaciones, de generaciones,
+
+145
+0:07:18.917,000 --> 0:07:22,000
+de cruzamientos y reproducciones para lograr un diseño.
+
+146
+0:07:23.78,000 --> 0:07:25,000
+Y el arquitecto pasa a ser
+
+147
+0:07:26.165,000 --> 0:07:29,000
+el orquestador de todos estos procesos.
+
+148
+0:07:29.597,000 --> 0:07:31,000
+Pero basta de teoría.
+
+149
+0:07:31.941,000 --> 0:07:33,000
+En un momento dado, simplemente quería saltar dentro
+
+150
+0:07:34.468,000 --> 0:07:37,000
+de la imagen, por así decirlo; compré estas gafas 3D
+
+151
+0:07:38.297,000 --> 0:07:4,000
+rojas y azules, me acerqué bastante a la pantalla,
+
+152
+0:07:41.233,000 --> 0:07:43,000
+pero seguía sin ser lo mismo que poder
+
+153
+0:07:43.305,000 --> 0:07:45,000
+andar por ahí y tocar cosas.
+
+154
+0:07:45.657,000 --> 0:07:46,000
+Así pues, sólo había una posibilidad:
+
+155
+0:07:47.56,000 --> 0:07:5,000
+sacar la columna del computador.
+
+156
+0:07:50.657,000 --> 0:07:52,000
+Se ha hablado mucho ahora de la impresión en 3D.
+
+157
+0:07:53.577,000 --> 0:07:55,000
+Para mí, o para mi propósito en este momento,
+
+158
+0:07:56.536,000 --> 0:07:59,000
+no compensa todavía elegir
+
+159
+0:07:59.618,000 --> 0:08:05,000
+entre escala, por un lado, y resolución y velocidad por el otro.
+
+160
+0:08:06.401,000 --> 0:08:08,000
+En su lugar, decidimos tomar la columna
+
+161
+0:08:08.658,000 --> 0:08:1,000
+y construirla como un modelo con capas,
+
+162
+0:08:11.097,000 --> 0:08:15,000
+compuesto de una gran cantidad de finas láminas, apiladas unas sobre otras.
+
+163
+0:08:15.225,000 --> 0:08:16,000
+Lo que están viendo aquí es una radiografía
+
+164
+0:08:17.122,000 --> 0:08:19,000
+de la columna que acaban de ver, vista desde arriba.
+
+165
+0:08:19.897,000 --> 0:08:21,000
+Por entonces ignoraba,
+
+166
+0:08:21.897,000 --> 0:08:23,000
+puesto que sólo habíamos visto el exterior,
+
+167
+0:08:24.273,000 --> 0:08:26,000
+que las superficies continuaban doblándose,
+
+168
+0:08:26.433,000 --> 0:08:28,000
+creciendo dentro de la columna,
+
+169
+0:08:28.697,000 --> 0:08:3,000
+lo cual fue un descubrimiento sorprendente.
+
+170
+0:08:31.243,000 --> 0:08:34,000
+Partiendo de esta forma, calculamos una línea de corte,
+
+171
+0:08:34.857,000 --> 0:08:37,000
+y la enviamos a una cortadora láser
+
+172
+0:08:37.881,000 --> 0:08:4,000

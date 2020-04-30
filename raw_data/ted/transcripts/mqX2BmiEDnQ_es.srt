@@ -1,0 +1,860 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Lucía Rodríguez Revisor: Florencia Bracamonte
+
+2
+0:00:12.896,000 --> 0:00:16,000
+Sabemos más sobre otros planetas que sobre el nuestro,
+
+3
+0:00:17.446,000 --> 0:00:2,000
+y hoy quiero enseñarles un nuevo tipo de robot
+
+4
+0:00:20.693,000 --> 0:00:24,000
+diseñado para ayudarnos a entender mejor nuestro planeta.
+
+5
+0:00:25.408,000 --> 0:00:28,000
+Pertenece a una categoría conocida en la comunidad oceanográfica
+
+6
+0:00:29.02,000 --> 0:00:32,000
+como vehículo de superficie no tripulado, o VSNT.
+
+7
+0:00:32.665,000 --> 0:00:34,000
+Y no utiliza combustible.
+
+8
+0:00:35.047,000 --> 0:00:38,000
+Su método de propulsión se basa en la energía eólica.
+
+9
+0:00:39.005,000 --> 0:00:42,000
+Y aun así puede navegar por el mundo durante meses.
+
+10
+0:00:43.474,000 --> 0:00:46,000
+Quiero compartir con Uds. la razón por la que lo construimos,
+
+11
+0:00:46.533,000 --> 0:00:48,000
+y lo que esto significa para Uds.
+
+12
+0:00:49.814,000 --> 0:00:53,000
+Hace un par de años, atravesaba el Pacífico en un velero,
+
+13
+0:00:54.412,000 --> 0:00:56,000
+desde San Francisco a Hawái.
+
+14
+0:00:57.296,000 --> 0:01:,000
+Había pasado los 10 años previos trabajando sin parar,
+
+15
+0:01:00.674,000 --> 0:01:03,000
+desarrollando videojuegos para cientos de millones de usuarios,
+
+16
+0:01:03.814,000 --> 0:01:06,000
+y quería dar un paso atrás, observar el panorama general
+
+17
+0:01:07.069,000 --> 0:01:09,000
+y obtener algo del tan necesario tiempo para pensar.
+
+18
+0:01:09.918,000 --> 0:01:1,000
+Yo era el capitán a bordo
+
+19
+0:01:12.034,000 --> 0:01:15,000
+y, una tarde, tras una larga sesión analizando datos meteorológicos
+
+20
+0:01:15.788,000 --> 0:01:19,000
+y planeando nuestro rumbo, subí a la cubierta y vi este atardecer precioso.
+
+21
+0:01:20.814,000 --> 0:01:21,000
+Y pensé:
+
+22
+0:01:22.747,000 --> 0:01:25,000
+¿Cuánto sabemos realmente de nuestros océanos?
+
+23
+0:01:27.252,000 --> 0:01:3,000
+El Pacífico se extendía a mi alrededor hasta donde llegaba mi vista,
+
+24
+0:01:31.155,000 --> 0:01:33,000
+y las olas movían nuestro barco con fuerza,
+
+25
+0:01:33.494,000 --> 0:01:36,000
+como un recordatorio constante de su poder silencioso.
+
+26
+0:01:37.291,000 --> 0:01:4,000
+¿Cuánto sabemos realmente de nuestros océanos?
+
+27
+0:01:41.235,000 --> 0:01:42,000
+Decidí averiguarlo.
+
+28
+0:01:44.362,000 --> 0:01:47,000
+Lo que aprendí rápidamente es que no sabemos mucho.
+
+29
+0:01:47.495,000 --> 0:01:5,000
+La primera razón es que los océanos son muy amplios,
+
+30
+0:01:50.651,000 --> 0:01:52,000
+cubren el 70 % del planeta.
+
+31
+0:01:53.01,000 --> 0:01:56,000
+Aun así, sabemos que influyen en los complejos sistemas planetarios,
+
+32
+0:01:56.579,000 --> 0:01:59,000
+como el clima mundial que nos afecta a todos diariamente,
+
+33
+0:02:00.252,000 --> 0:02:01,000
+a veces de forma dramática.
+
+34
+0:02:02.562,000 --> 0:02:05,000
+Y aun así esas actividades nos son mayormente invisibles.
+
+35
+0:02:06.944,000 --> 0:02:09,000
+Los datos oceánicos son escasos desde cualquier punto de vista.
+
+36
+0:02:11.268,000 --> 0:02:16,000
+En tierra, me había acostumbrado a tener acceso a muchos sensores,
+
+37
+0:02:16.362,000 --> 0:02:17,000
+miles de millones, de hecho.
+
+38
+0:02:18.576,000 --> 0:02:24,000
+Pero en el mar, los datos in situ son escasos y caros.
+
+39
+0:02:25.535,000 --> 0:02:29,000
+¿Por qué? Porque dependen de unos pocos barcos y boyas.
+
+40
+0:02:29.919,000 --> 0:02:31,000
+Fue una gran sorpresa qué fueran tan pocos.
+
+41
+0:02:33.329,000 --> 0:02:37,000
+Nuestra Administración Nacional Oceánica y Atmosférica, más conocida como NOAA,
+
+42
+0:02:38.121,000 --> 0:02:4,000
+solo tiene 16 barcos
+
+43
+0:02:40.969,000 --> 0:02:44,000
+y hay menos de 200 boyas en el agua a nivel global.
+
+44
+0:02:45.77,000 --> 0:02:46,000
+Es fácil entender por qué:
+
+45
+0:02:47.465,000 --> 0:02:49,000
+los océanos son implacables
+
+46
+0:02:49.629,000 --> 0:02:52,000
+y para recoger datos in situ se necesita un barco grande
+
+47
+0:02:52.987,000 --> 0:02:55,000
+capaz de llevar una gran cantidad de combustible y grandes tripulaciones.
+
+48
+0:02:57.187,000 --> 0:03:,000
+Cada uno cuesta millones de dólares.
+
+49
+0:03:00.39,000 --> 0:03:05,000
+O grandes boyas amarradas al suelo oceánico con un cable de 6 km de largo
+
+50
+0:03:06.513,000 --> 0:03:08,000
+y sujetadas abajo por un grupo de ruedas de trenes,
+
+51
+0:03:09.532,000 --> 0:03:13,000
+de peligrosa instalación y caro mantenimiento.
+
+52
+0:03:14.628,000 --> 0:03:16,000
+Podrían preguntar: ¿Qué hay de los satélites?
+
+53
+0:03:17.034,000 --> 0:03:18,000
+Bueno, los satélites son fantásticos
+
+54
+0:03:18.875,000 --> 0:03:2,000
+y nos han enseñado muchísimo sobre el panorama general
+
+55
+0:03:21.482,000 --> 0:03:23,000
+durante las últimas décadas.
+
+56
+0:03:23.527,000 --> 0:03:25,000
+Sin embargo, el problema con los satélites
+
+57
+0:03:25.927,000 --> 0:03:29,000
+es que solo ven una micra de la superficie del océano.
+
+58
+0:03:31.124,000 --> 0:03:34,000
+Tienen una resolución espacial y temporal relativamente pobre
+
+59
+0:03:35.45,000 --> 0:03:39,000
+y hay que corregir su señal a causa de las nubes, los efectos terrestres
+
+60
+0:03:39.708,000 --> 0:03:4,000
+y otros factores.
+
+61
+0:03:42.094,000 --> 0:03:45,000
+Pues bien, ¿qué está pasando en los océanos?
+
+62
+0:03:45.929,000 --> 0:03:46,000
+¿Qué intentamos medir?
+
+63
+0:03:48.283,000 --> 0:03:5,000
+¿Y cómo podría ayudar un robot?
+
+64
+0:03:51.361,000 --> 0:03:54,000
+Hagamos zoom en un pequeño cubo en el océano.
+
+65
+0:03:55.283,000 --> 0:03:58,000
+Uno de los elementos claves que queremos entender es la superficie
+
+66
+0:03:58.625,000 --> 0:04:03,000
+porque, si lo piensan, la superficie es el nexo de toda interacción aire-mar.
+
+67
+0:04:04.001,000 --> 0:04:08,000
+Es la interfaz por la que deben pasar toda la energía y los gases.
+
+68
+0:04:09.552,000 --> 0:04:13,000
+Nuestro Sol irradia energía que es absorbida por los océanos como calor
+
+69
+0:04:14.596,000 --> 0:04:16,000
+y luego parcialmente expulsada a la atmósfera.
+
+70
+0:04:17.492,000 --> 0:04:21,000
+Los gases en nuestra atmósfera, como el CO2, se disuelven en los océanos.
+
+71
+0:04:22.099,000 --> 0:04:25,000
+En efecto, se absorbe alrededor del 30 % del CO2 global.
+
+72
+0:04:26.603,000 --> 0:04:29,000
+El plancton y los microorganismos liberan tanto oxígeno a la atmósfera,
+
+73
+0:04:30.235,000 --> 0:04:34,000
+que una de cada dos de nuestras respiraciones proviene del océano.
+
+74
+0:04:34.43,000 --> 0:04:36,000
+Parte de ese calor genera evaporación, que a su vez crea nubes
+
+75
+0:04:37.346,000 --> 0:04:39,000
+y finalmente produce precipitaciones.
+
+76
+0:04:39.694,000 --> 0:04:41,000
+Las variaciones de presión crean viento superficial
+
+77
+0:04:42.197,000 --> 0:04:44,000
+que mueve la humedad por la atmósfera.
+
+78
+0:04:45.731,000 --> 0:04:48,000
+Parte de ese calor se irradia hasta la profundidad del océano,
+
+79
+0:04:49.588,000 --> 0:04:51,000
+se almacena en distintas capas
+
+80
+0:04:51.74,000 --> 0:04:54,000
+y el océano actúa como una caldera a escala planetaria
+
+81
+0:04:55.029,000 --> 0:04:56,000
+para almacenar toda esa energía,
+
+82
+0:04:56.714,000 --> 0:04:59,000
+que más tarde se liberará en eventos de corto plazo como los huracanes
+
+83
+0:05:00.475,000 --> 0:05:02,000
+o fenómenos más largos como 'El Niño'.
+
+84
+0:05:03.329,000 --> 0:05:07,000
+Estas capas se pueden mezclar con corrientes verticales ascendentes
+
+85
+0:05:07.668,000 --> 0:05:1,000
+o corrientes horizontales, que son esenciales para transportar el calor
+
+86
+0:05:11.138,000 --> 0:05:13,000
+de los trópicos a los polos.
+
+87
+0:05:13.623,000 --> 0:05:15,000
+Y por supuesto está la vida marina,
+
+88
+0:05:16.446,000 --> 0:05:21,000
+que constituye el ecosistema más grande del planeta
+
+89
+0:05:21.486,000 --> 0:05:24,000
+e incluye microorganismos, peces, mamíferos marinos
+
+90
+0:05:25.212,000 --> 0:05:28,000
+como las focas, los delfines y las ballenas.
+
+91
+0:05:28.244,000 --> 0:05:31,000
+Pero todo esto nos es mayormente invisible.
+
+92
+0:05:33.821,000 --> 0:05:38,000
+El reto de estudiar las variables oceánicas a escala
+
+93
+0:05:39.221,000 --> 0:05:41,000
+tiene que ver con la energía,
+
+94
+0:05:41.419,000 --> 0:05:45,000
+la energía que demanda desplegar sensores en la profundidad oceánica.
+
+95
+0:05:46.507,000 --> 0:05:48,000
+Por supuesto se han ideado muchas soluciones,
+
+96
+0:05:48.774,000 --> 0:05:51,000
+desde aparatos impulsados por las olas hasta derivadores
+
+97
+0:05:52.114,000 --> 0:05:57,000
+y artefactos a energía solar; cada uno de los cuales tiene sus limitaciones.
+
+98
+0:05:57.665,000 --> 0:06:,000
+El gran avance de nuestro equipo llegó a través de una fuente insospechada:
+
+99
+0:06:01.185,000 --> 0:06:05,000
+la búsqueda del récord mundial de velocidad con un yate de energía eólica.
+
+100
+0:06:05.742,000 --> 0:06:09,000
+Llevó 10 años de investigación y desarrollo inventar un nuevo tipo de vela
+
+101
+0:06:10.62,000 --> 0:06:13,000
+que solo necesita tres vatios de energía para funcionar,
+
+102
+0:06:14.452,000 --> 0:06:17,000
+y aun así puede propulsar un vehículo alrededor de la Tierra
+
+103
+0:06:17.534,000 --> 0:06:19,000
+con una autonomía aparentemente ilimitada.
+
+104
+0:06:20.262,000 --> 0:06:23,000
+Al adaptar este concepto de las velas a un vehículo marino,
+
+105
+0:06:24.306,000 --> 0:06:26,000
+dimos origen al dron oceánico.
+
+106
+0:06:27.28,000 --> 0:06:29,000
+Son más grandes de lo que parecen.
+
+107
+0:06:29.638,000 --> 0:06:33,000
+Tienen unos 4 metros de alto, 7 de largo y 2 de profundidad.
+
+108
+0:06:34.238,000 --> 0:06:35,000
+Son como satélites de superficie.
+
+109
+0:06:36.225,000 --> 0:06:39,000
+Están cargados con un conjunto de sensores de graduación científica
+
+110
+0:06:39.493,000 --> 0:06:43,000
+que miden todas las variables clave, tanto oceanográficas como atmosféricas;
+
+111
+0:06:44.331,000 --> 0:06:48,000
+y con un enlace satelital que transmite en vivo los datos en alta resolución
+
+112
+0:06:48.712,000 --> 0:06:5,000
+a la orilla y en tiempo real.
+
+113
+0:06:51.515,000 --> 0:06:53,000
+Nuestro equipo ha trabajado mucho en los últimos años,
+
+114
+0:06:54.417,000 --> 0:06:57,000
+realizando misiones en algunas de las condiciones oceánicas más duras
+
+115
+0:06:57.949,000 --> 0:06:58,000
+del planeta,
+
+116
+0:06:59.197,000 --> 0:07:01,000
+desde el Ártico hasta el Pacífico tropical.
+
+117
+0:07:01.686,000 --> 0:07:03,000
+Hemos navegado hasta los casquetes polares.
+
+118
+0:07:04.434,000 --> 0:07:06,000
+Hemos navegado en medio de huracanes en el Atlántico.
+
+119
+0:07:07.159,000 --> 0:07:08,000
+Hemos bordeado el Cabo de Hornos
+
+120
+0:07:08.881,000 --> 0:07:11,000
+y hemos hecho slalom entre las plataformas petrolíferas del Golfo de México.
+
+121
+0:07:12.46,000 --> 0:07:14,000
+Este robot es resistente.
+
+122
+0:07:15.629,000 --> 0:07:19,000
+Déjenme enseñarles nuestro trabajo más reciente alrededor de las islas Pribilof.
+
+123
+0:07:20.532,000 --> 0:07:23,000
+Se trata de un pequeño grupo de islas en lo profundo del frío mar de Bering,
+
+124
+0:07:24.475,000 --> 0:07:26,000
+entre EE. UU. y Rusia.
+
+125
+0:07:26.661,000 --> 0:07:29,000
+El mar de Bering es el hogar del abadejo de Alaska,
+
+126
+0:07:30.135,000 --> 0:07:32,000
+un pez blanco que puede que no reconozcan,
+
+127
+0:07:32.734,000 --> 0:07:36,000
+pero que hayan probado si les gustan los palitos de pescado o el surimi.
+
+128
+0:07:37.445,000 --> 0:07:4,000
+Sí, el surimi parece cangrejo, pero en realidad es abadejo.
+
+129
+0:07:41.908,000 --> 0:07:44,000
+Y la pesquería de abadejo es la más grande de la nación,
+
+130
+0:07:44.942,000 --> 0:07:46,000
+tanto en valor como en volumen,
+
+131
+0:07:47.511,000 --> 0:07:5,000
+con alrededor de 1 400 millones de kg de pescado cada año.
+
+132
+0:07:51.605,000 --> 0:07:53,000
+Durante los últimos años, una flota de drones oceánicos
+
+133
+0:07:54.284,000 --> 0:07:56,000
+ha estado trabajando arduamente en el mar de Bering
+
+134
+0:07:56.704,000 --> 0:08:,000
+con el objetivo de ayudar a evaluar el tamaño de los cardúmenes de abadejos.
+
+135
+0:08:01.153,000 --> 0:08:04,000
+Esto ayuda a mejorar el sistema de cuotas que se usa para gestionar la pesca,
+
+136
+0:08:04.942,000 --> 0:08:06,000
+ayudar a prevenir el colapso de los suministros
+
+137
+0:08:07.198,000 --> 0:08:09,000
+y protege el frágil ecosistema.
+
+138
+0:08:10.538,000 --> 0:08:16,000
+Los drones analizan la zona de pesca usando la acústica, es decir, un sonar.
+
+139
+0:08:16.919,000 --> 0:08:19,000
+Esto envía una onda sonora hacia abajo
+
+140
+0:08:19.994,000 --> 0:08:21,000
+y luego la reverberación, el eco de la onda sonora
+
+141
+0:08:22.468,000 --> 0:08:24,000
+en el fondo del mar o en los cardúmenes,
+
+142
+0:08:24.626,000 --> 0:08:26,000
+nos da una idea de lo que sucede bajo la superficie.
+
+143
+0:08:27.849,000 --> 0:08:31,000
+Nuestros drones oceánicos son bastante buenos en esta tarea repetitiva,
+
+144
+0:08:31.879,000 --> 0:08:34,000
+así que han estado mapeando el mar de Bering todos los días.
+
+145
+0:08:35.808,000 --> 0:08:41,000
+Las islas Pribilof también albergan una gran colonia de lobos marinos.
+
+146
+0:08:43.175,000 --> 0:08:47,000
+En los 50, había unos dos millones de especímenes en esa colonia.
+
+147
+0:08:48.374,000 --> 0:08:51,000
+Lamentablemente, hoy en día la población ha disminuido drásticamente.
+
+148
+0:08:52.158,000 --> 0:08:56,000
+Quedan menos del 50 % y la población continúa disminuyendo a gran velocidad.
+
+149
+0:08:57.904,000 --> 0:08:59,000
+Para entender por qué,
+
+150
+0:09:00.031,000 --> 0:09:03,000
+nuestro colega científico del Laboratorio Nacional de Mamíferos Marinos
+
+151
+0:09:03.524,000 --> 0:09:06,000
+ha colocado un rastreador GPS a algunas de las lobas madres,
+
+152
+0:09:06.931,000 --> 0:09:07,000
+pegado en su pelaje.
+
+153
+0:09:08.412,000 --> 0:09:1,000
+Este rastreador registra la ubicación y la profundidad,
+
+154
+0:09:11.431,000 --> 0:09:13,000
+y también tiene una cámara muy buena
+
+155
+0:09:13.787,000 --> 0:09:15,000
+que se enciende con la aceleración repentina.
+
+156
+0:09:16.213,000 --> 0:09:19,000
+Esto es una película de la cámara de una foca con tendencias artísticas
+
+157
+0:09:20.145,000 --> 0:09:23,000
+que nos ha ofrecido una demostración sin precedentes de la caza subacuática
+
+158
+0:09:23.87,000 --> 0:09:24,000
+en lo profundo del Ártico,
+
+159
+0:09:25.748,000 --> 0:09:29,000
+y la fotografía de este abadejo unos segundos antes de ser devorado.
+
+160
+0:09:30.934,000 --> 0:09:33,000
+Trabajar en el Ártico es muy duro, incluso para los robots.
+
+161
+0:09:34.744,000 --> 0:09:39,000
+Sobrevivieron a una tormenta de nieve en agosto y a interferencias de transeúntes.
+
+162
+0:09:41.064,000 --> 0:09:44,000
+Esa pequeña foca manchada estaba disfrutando el paseo.
+
+163
+0:09:44.155,000 --> 0:09:45,000
+(Risas)
+
+164
+0:09:47.378,000 --> 0:09:52,000
+Los rastreadores de las focas han registrado unas 200 000 zambullidas
+
+165
+0:09:52.765,000 --> 0:09:55,000
+en la temporada y, si miramos más de cerca,
+
+166
+0:09:56.378,000 --> 0:10:,000
+podemos ver los rastros individuales y las zambullidas repetitivas.
+
+167
+0:10:01.413,000 --> 0:10:03,000
+Estamos intentando descifrar qué está pasando realmente
+
+168
+0:10:04.294,000 --> 0:10:05,000
+en la búsqueda de alimento,
+
+169
+0:10:06.003,000 --> 0:10:07,000
+y es muy hermoso.
+
+170
+0:10:08.362,000 --> 0:10:11,000
+Una vez que se superponen los datos acústicos recogidos por los drones,
+
+171
+0:10:11.789,000 --> 0:10:13,000
+empieza a aparecer una imagen.
+
+172
+0:10:13.937,000 --> 0:10:17,000
+Cuando las focas se van de las islas y nadan de un lado a otro,
+
+173
+0:10:18.333,000 --> 0:10:22,000
+se ha visto que bucean a una profundidad relativamente superficial, de unos 20 m,
+
+174
+0:10:22.77,000 --> 0:10:26,000
+que, según registra el dron, está poblada por abadejos pequeños y jóvenes,
+
+175
+0:10:26.883,000 --> 0:10:28,000
+con bajo contenido calórico.
+
+176
+0:10:28.99,000 --> 0:10:32,000
+Luego las focas nadan mucho más lejos y bucean más hondo
+
+177
+0:10:33.138,000 --> 0:10:37,000
+hasta un lugar donde el dron identifica abadejos más grandes y adultos,
+
+178
+0:10:37.834,000 --> 0:10:39,000
+que están más nutritivos.
+
+179
+0:10:40.117,000 --> 0:10:44,000
+Desgraciadamente, las calorías gastadas por las focas madre
+
+180
+0:10:44.263,000 --> 0:10:46,000
+para nadar la distancia extra
+
+181
+0:10:46.41,000 --> 0:10:5,000
+no les deja energía suficiente para amamantar a sus crías en la isla.
+
+182
+0:10:51.35,000 --> 0:10:53,000
+En consecuencia, la población disminuye.
+
+183
+0:10:54.408,000 --> 0:10:58,000
+Además, los drones han registrado que la temperatura del agua
+
+184
+0:10:59.009,000 --> 0:11:01,000
+que rodea las islas ha aumentado significativamente.
+
+185
+0:11:01.494,000 --> 0:11:05,000
+Quizás sea una de las principales causas que está llevando a los abadejos al norte
+
+186
+0:11:05.582,000 --> 0:11:07,000
+y que hace que se dispersen en busca de regiones más frías.
+
+187
+0:11:08.535,000 --> 0:11:1,000
+El análisis de los datos todavía está en curso,
+
+188
+0:11:10.73,000 --> 0:11:13,000
+pero ya podemos ver que algunas de las piezas del rompecabezas
+
+189
+0:11:13.787,000 --> 0:11:16,000
+del misterio de los lobos marinos están empezando a encajar.
+
+190
+0:11:18.69,000 --> 0:11:21,000
+Pero si miran el panorama general, nosotros también somos mamíferos.
+
+191
+0:11:23.032,000 --> 0:11:26,000
+Y, de hecho, los océanos nos brindan 20 kg de pescado por humano al año.
+
+192
+0:11:26.8,000 --> 0:11:28,000
+Mientras agotamos los suministros de pescado,
+
+193
+0:11:29.003,000 --> 0:11:31,000
+¿qué podemos aprender de la historia de los lobos marinos?
+
+194
+0:11:32.479,000 --> 0:11:35,000
+Y más allá de los peces, los océanos nos afectan a todos a diario
+
+195
+0:11:35.526,000 --> 0:11:37,000
+pues influyen en los sistemas climáticos globales
+
+196
+0:11:37.81,000 --> 0:11:39,000
+que afectan el producto de la agricultura mundial,
+
+197
+0:11:40.299,000 --> 0:11:43,000
+o pueden ocasionar destrucciones devastadoras de vidas y de propiedades
+
+198
+0:11:43.952,000 --> 0:11:46,000
+a través de huracanes, calor extremo e inundaciones.
+
+199
+0:11:47.756,000 --> 0:11:5,000
+Casi no hemos explorado ni recogido muestras de nuestros océanos,
+
+200
+0:11:51.56,000 --> 0:11:55,000
+y hoy en día seguimos sabiendo más sobre otros planetas que sobre el nuestro.
+
+201
+0:11:56.021,000 --> 0:11:59,000
+Pero si dividen este amplio océano en cuadrados de seis por seis,
+
+202
+0:11:59.833,000 --> 0:12:01,000
+cada uno de 600 km de largo,
+
+203
+0:12:03.539,000 --> 0:12:04,000
+obtendrían unos 1000 cuadrados.
+
+204
+0:12:05.507,000 --> 0:12:07,000
+Así que poco a poco, trabajando con nuestros compañeros,
+
+205
+0:12:08.133,000 --> 0:12:12,000
+desplegaremos un dron oceánico en cada uno de esos cuadrados,
+
+206
+0:12:12.139,000 --> 0:12:14,000
+con la esperanza de que, si cubrimos todo el planeta,
+
+207
+0:12:14.631,000 --> 0:12:17,000
+tendremos una mejor visión de esos sistemas planetarios
+
+208
+0:12:17.799,000 --> 0:12:18,000
+que afectan a la humanidad.
+
+209
+0:12:19.603,000 --> 0:12:22,000
+Hemos usado robots para estudiar mundos distantes en el sistema solar
+
+210
+0:12:23.209,000 --> 0:12:24,000
+durante varios años ya.
+
+211
+0:12:24.849,000 --> 0:12:26,000
+Ahora es el momento de cuantificar nuestro propio planeta,
+
+212
+0:12:28.44,000 --> 0:12:31,000
+porque no podemos arreglar lo que no podemos medir
+
+213
+0:12:32.303,000 --> 0:12:34,000
+y no podemos prepararnos para lo que no conocemos.
+
+214
+0:12:35.761,000 --> 0:12:36,000
+Gracias.
+
+215
+0:12:37.001,000 --> 0:12:4,000
+(Aplausos)
+

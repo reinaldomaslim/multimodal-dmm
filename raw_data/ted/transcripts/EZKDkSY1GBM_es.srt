@@ -1,0 +1,672 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Silvina Katz Revisor: Sebastian Betti
+
+2
+0:00:13.507,000 --> 0:00:14,000
+Hola.
+
+3
+0:00:14.944,000 --> 0:00:15,000
+Soy Sarah,
+
+4
+0:00:17.087,000 --> 0:00:19,000
+y me encuentro excluida del mercado de la vivienda.
+
+5
+0:00:21.809,000 --> 0:00:22,000
+De hecho,
+
+6
+0:00:24.395,000 --> 0:00:27,000
+soy una, como la mayoría de los de mi generación,
+
+7
+0:00:27.991,000 --> 0:00:29,000
+que no puede pagar su vivienda.
+
+8
+0:00:31.228,000 --> 0:00:35,000
+Y en 2017, la propiedad de vivienda entre los jóvenes australianos
+
+9
+0:00:36.251,000 --> 0:00:4,000
+ha caído al nivel más bajo de la historia.
+
+10
+0:00:42.601,000 --> 0:00:45,000
+Entonces, tontamente o no,
+
+11
+0:00:46.165,000 --> 0:00:47,000
+decidí construir mi propia casa.
+
+12
+0:00:49.585,000 --> 0:00:51,000
+Pero el pronóstico tampoco era bueno.
+
+13
+0:00:53.069,000 --> 0:00:56,000
+Los arquitectos se ocupan del 1 %,
+
+14
+0:00:56.227,000 --> 0:00:57,000
+hay pocos constructores,
+
+15
+0:00:57.831,000 --> 0:01:,000
+el servicio es inconsistente y los precios son altos.
+
+16
+0:01:02.325,000 --> 0:01:05,000
+La mayor inversión en mi vida,
+
+17
+0:01:06.077,000 --> 0:01:09,000
+y lo extraordinario era ver la poca autodeterminación,
+
+18
+0:01:10.704,000 --> 0:01:11,000
+opciones
+
+19
+0:01:12.442,000 --> 0:01:14,000
+y, en última instancia, control, que tenía.
+
+20
+0:01:16.053,000 --> 0:01:21,000
+Además, me sorprendió doblemente lo vulnerable que esto me hizo sentir.
+
+21
+0:01:22.56,000 --> 0:01:24,000
+Francamente, me sentí atrapada.
+
+22
+0:01:27.923,000 --> 0:01:31,000
+Entonces, reflexioné sobre esto durante bastante tiempo
+
+23
+0:01:33.031,000 --> 0:01:34,000
+y después me di cuenta
+
+24
+0:01:34.618,000 --> 0:01:39,000
+de que quería un diseño y una construcción democratizados.
+
+25
+0:01:41.975,000 --> 0:01:45,000
+Y eso me llevó a preguntar algo muy simple:
+
+26
+0:01:47.452,000 --> 0:01:49,000
+¿Qué significa construir una casa?
+
+27
+0:01:51.332,000 --> 0:01:52,000
+¿Qué es?
+
+28
+0:01:52.934,000 --> 0:01:56,000
+Bueno, resulta que construir una casa
+
+29
+0:01:57.133,000 --> 0:02:02,000
+es tomar una serie de decisiones, algunas con consecuencias físicas,
+
+30
+0:02:02.641,000 --> 0:02:05,000
+dentro de un conjunto definido de parámetros.
+
+31
+0:02:06.95,000 --> 0:02:09,000
+Y, habiendo trabajado en aplicaciones de software desde hace un tiempo,
+
+32
+0:02:10.752,000 --> 0:02:12,000
+todo esto me sonaba muy familiar.
+
+33
+0:02:13.696,000 --> 0:02:16,000
+Tampoco podía entender por qué construimos en el sitio propio.
+
+34
+0:02:18.442,000 --> 0:02:22,000
+Ningún otro ensamble importante en nuestras vidas está construido así.
+
+35
+0:02:23.944,000 --> 0:02:25,000
+Los autos no vienen en piezas
+
+36
+0:02:26.714,000 --> 0:02:28,000
+con un 10 % adicional por si acaso,
+
+37
+0:02:29.189,000 --> 0:02:32,000
+para ser montado a merced del clima.
+
+38
+0:02:32.849,000 --> 0:02:34,000
+Entonces, ¿por qué deberían serlo nuestras casas?
+
+39
+0:02:36.46,000 --> 0:02:38,000
+Así que construí un videojuego.
+
+40
+0:02:40.532,000 --> 0:02:43,000
+Un juego que les permite diseñar su casa,
+
+41
+0:02:43.984,000 --> 0:02:44,000
+y luego se las envía.
+
+42
+0:02:45.807,000 --> 0:02:48,000
+Un juego que pone al constructor de casas
+
+43
+0:02:49.474,000 --> 0:02:54,000
+en el centro de la compra más grande de su vida,
+
+44
+0:02:55.266,000 --> 0:02:59,000
+elevándolo de ser espectador a ser jugador.
+
+45
+0:03:00.927,000 --> 0:03:04,000
+Un juego con plena visibilidad de los costos e impacto ambiental
+
+46
+0:03:05.4,000 --> 0:03:07,000
+de cada nuevo atributo que agreguen.
+
+47
+0:03:08.466,000 --> 0:03:12,000
+Usando componentes modulares, los jugadores eligen de su biblioteca
+
+48
+0:03:13.061,000 --> 0:03:15,000
+y traen los objetos a su mundo.
+
+49
+0:03:16.053,000 --> 0:03:22,000
+Cada elemento, ya sea una pared, una batería solar o incluso un sillón,
+
+50
+0:03:22.246,000 --> 0:03:26,000
+tiene toda la información para que el sistema calcule los costos,
+
+51
+0:03:26.743,000 --> 0:03:27,000
+impacto medioambiental
+
+52
+0:03:28.665,000 --> 0:03:3,000
+e incluso un contador de felicidad para el jugador.
+
+53
+0:03:33.371,000 --> 0:03:37,000
+El 83 % de los constructores de viviendas dijeron que además del costo,
+
+54
+0:03:37.502,000 --> 0:03:41,000
+las características ecológicas fueron lo más importante para ellos.
+
+55
+0:03:42.553,000 --> 0:03:46,000
+Entonces, fuera del portal las casas se integran con los sistemas solares.
+
+56
+0:03:47.276,000 --> 0:03:48,000
+Nacen ecológicas.
+
+57
+0:03:50.321,000 --> 0:03:54,000
+La vivienda sostenible suele asociarse con la riqueza y la prosperidad,
+
+58
+0:03:54.736,000 --> 0:03:55,000
+pero ese no debería ser el caso.
+
+59
+0:03:56.72,000 --> 0:04:,000
+De hecho, una vivienda verdaderamente sostenible debería estar al alcance de todos
+
+60
+0:04:01.253,000 --> 0:04:03,000
+y ser asequible para todos.
+
+61
+0:04:04.563,000 --> 0:04:1,000
+Entonces, encontré una forma de recuperar el control que anhelaba
+
+62
+0:04:12.029,000 --> 0:04:14,000
+y dárselo a otros.
+
+63
+0:04:15.173,000 --> 0:04:16,000
+Pero algo me seguía molestando,
+
+64
+0:04:16.887,000 --> 0:04:18,000
+algo todavía me tenía despierta de noche.
+
+65
+0:04:21.038,000 --> 0:04:23,000
+¿Qué pasa con esas personas
+
+66
+0:04:23.783,000 --> 0:04:27,000
+que realmente no tienen control sobre dónde viven?
+
+67
+0:04:29.704,000 --> 0:04:33,000
+Cada hora, en el espacio del entreacto,
+
+68
+0:04:33.872,000 --> 0:04:37,000
+se necesitan 4000 casas nuevas en el mundo.
+
+69
+0:04:38.506,000 --> 0:04:39,000
+Imaginen ese número.
+
+70
+0:04:41.585,000 --> 0:04:47,000
+Eso es un asombroso 35 millones de hogares en todo el mundo, cada año.
+
+71
+0:04:49.641,000 --> 0:04:5,000
+Y solo en Australia,
+
+72
+0:04:51.411,000 --> 0:04:55,000
+tenemos un déficit de 250 000 viviendas.
+
+73
+0:04:56.768,000 --> 0:04:59,000
+Además de eso,
+
+74
+0:04:59.958,000 --> 0:05:04,000
+hay unas 190 000 familias en la lista de espera para vivienda asistida;
+
+75
+0:05:06.481,000 --> 0:05:09,000
+familias que necesitan un hogar.
+
+76
+0:05:11.615,000 --> 0:05:14,000
+Entre ahora y 2050,
+
+77
+0:05:14.711,000 --> 0:05:2,000
+cuando la población mundial supere los 7600 millones de hoy
+
+78
+0:05:21.624,000 --> 0:05:26,000
+hacia los 9800 millones de personas de mañana,
+
+79
+0:05:26.734,000 --> 0:05:29,000
+cientos de millones de personas
+
+80
+0:05:30.02,000 --> 0:05:34,000
+experimentarán problemas de seguridad, salud y seguridad.
+
+81
+0:05:37.127,000 --> 0:05:41,000
+Imagínense no poder sentirse seguros en su hogar:
+
+82
+0:05:42.626,000 --> 0:05:44,000
+no por delitos o por hurtos,
+
+83
+0:05:46.149,000 --> 0:05:48,000
+sino por el hecho de que el edificio en el que están,
+
+84
+0:05:49.141,000 --> 0:05:5,000
+el edificio en el que están,
+
+85
+0:05:50.527,000 --> 0:05:51,000
+podría no ser estructuralmente sólido
+
+86
+0:05:53.268,000 --> 0:05:55,000
+o construido a partir de componentes no tóxicos
+
+87
+0:05:55.895,000 --> 0:05:57,000
+o cumplir con los estándares locales contra desastres naturales.
+
+88
+0:06:00.926,000 --> 0:06:01,000
+Este es el siglo XXI.
+
+89
+0:06:03.76,000 --> 0:06:05,000
+Y esto simplemente no está bien.
+
+90
+0:06:09.395,000 --> 0:06:11,000
+Qué pasa si, qué pasaría si...
+
+91
+0:06:13.167,000 --> 0:06:18,000
+pudiéramos devolver el control y la dignidad de esas personas
+
+92
+0:06:18.72,000 --> 0:06:21,000
+dándoles un hogar, pero no cualquier hogar:
+
+93
+0:06:23.165,000 --> 0:06:24,000
+su hogar,
+
+94
+0:06:24.823,000 --> 0:06:25,000
+un hogar con diseño propio.
+
+95
+0:06:27.756,000 --> 0:06:31,000
+Ahora estamos adaptando el juego para que cuando un jugador construya un hogar,
+
+96
+0:06:31.879,000 --> 0:06:33,000
+esté contribuyendo a un hogar para alguien que lo necesita.
+
+97
+0:06:35.791,000 --> 0:06:37,000
+Y sé que esto suena como un objetivo noble,
+
+98
+0:06:38.093,000 --> 0:06:4,000
+y es ridículamente ambicioso,
+
+99
+0:06:40.839,000 --> 0:06:42,000
+pero nuestro modelo operativo actual
+
+100
+0:06:43.641,000 --> 0:06:45,000
+opera en una proporción de 10 a 1.
+
+101
+0:06:46.691,000 --> 0:06:48,000
+Y, por cada 10 casas que construimos,
+
+102
+0:06:49.032,000 --> 0:06:52,000
+podemos construir un hogar para alguien que lo necesite.
+
+103
+0:06:52.701,000 --> 0:06:56,000
+(Aplausos)
+
+104
+0:06:58.022,000 --> 0:07:01,000
+Esto es posible porque hoy,
+
+105
+0:07:01.784,000 --> 0:07:03,000
+diseñando para la manufactura y montaje,
+
+106
+0:07:05.538,000 --> 0:07:09,000
+con construcción de marco de acero de calibre liviano,
+
+107
+0:07:10.053,000 --> 0:07:12,000
+enviado y ensamblado en el sitio,
+
+108
+0:07:12.474,000 --> 0:07:14,000
+podemos disminuir los costos de construcción en un 20 %
+
+109
+0:07:15.418,000 --> 0:07:18,000
+y los desechos ambientales en un 15 %,
+
+110
+0:07:18.496,000 --> 0:07:2,000
+ahorrando tiempo, dinero
+
+111
+0:07:20.781,000 --> 0:07:23,000
+y evitando tirar toneladas de desechos en los vertederos.
+
+112
+0:07:24.586,000 --> 0:07:27,000
+El poder en la construcción modular
+
+113
+0:07:27.991,000 --> 0:07:31,000
+es que uno puede construir durante todo el año con confianza en los costos,
+
+114
+0:07:33.902,000 --> 0:07:34,000
+en la calidad,
+
+115
+0:07:35.633,000 --> 0:07:37,000
+y en la fecha de entrega, en la fecha de construcción.
+
+116
+0:07:38.26,000 --> 0:07:4,000
+Ahora, ¿no sería loco? ¿No sería genial?
+
+117
+0:07:41.807,000 --> 0:07:42,000
+Pero...
+
+118
+0:07:45.189,000 --> 0:07:47,000
+eso no me lleva a mi objetivo.
+
+119
+0:07:47.458,000 --> 0:07:5,000
+Mi objetivo es uno por uno.
+
+120
+0:07:52.863,000 --> 0:07:54,000
+Así que he estado viajando por el mundo,
+
+121
+0:07:55.324,000 --> 0:07:58,000
+mirando diferentes alternativas de impresión 3D de construcción,
+
+122
+0:07:58.673,000 --> 0:08:01,000
+tratando de encontrar tecnología que me ayude a cumplir mi ambición.
+
+123
+0:08:02.919,000 --> 0:08:06,000
+La impresión 3D es emocionante y prometedora,
+
+124
+0:08:07.283,000 --> 0:08:11,000
+ofrece una reducción del 40 % en el costo y un desperdicio cercano a cero.
+
+125
+0:08:12.546,000 --> 0:08:13,000
+Y esto solo por nombrar algunos,
+
+126
+0:08:14.276,000 --> 0:08:17,000
+pero algunas de las innovaciones realmente emocionantes que suceden en todo el mundo
+
+127
+0:08:17.382,000 --> 0:08:2,000
+están sucediendo en Italia, Francia, Dubái y Australia.
+
+128
+0:08:21.101,000 --> 0:08:25,000
+Y usan brazos robóticos para imprimir todo de la roca
+
+129
+0:08:25.477,000 --> 0:08:26,000
+al hormigón, a la cera.
+
+130
+0:08:26.932,000 --> 0:08:29,000
+En Italia, han desarrollado una técnica usando cemento sorel.
+
+131
+0:08:31.182,000 --> 0:08:35,000
+El cemento sorel se inventó en 1867,
+
+132
+0:08:36.085,000 --> 0:08:42,000
+y es el hermoso maridaje químico del óxido de magnesio y la arena local,
+
+133
+0:08:42.395,000 --> 0:08:45,000
+que ahora puede usarse para imprimir paredes de piedra sólidas.
+
+134
+0:08:46.601,000 --> 0:08:47,000
+Y, en Francia,
+
+135
+0:08:47.807,000 --> 0:08:5,000
+tienen un proceso aprobado por el regulador aunque aún es experimental,
+
+136
+0:08:51.385,000 --> 0:08:54,000
+donde imprimen dos pistas paralelas de espuma aisladora
+
+137
+0:08:54.974,000 --> 0:08:57,000
+y vierten cemento en el medio para crear una piedra sólida.
+
+138
+0:08:59.061,000 --> 0:09:04,000
+Y en Dubái, al pie de esas dos gloriosas torres de los Emiratos
+
+139
+0:09:04.966,000 --> 0:09:06,000
+hay una visión del futuro en el medio del desierto.
+
+140
+0:09:07.934,000 --> 0:09:1,000
+Tienen su oficina experimental del futuro,
+
+141
+0:09:11.537,000 --> 0:09:14,000
+construida con hormigón en 3D
+
+142
+0:09:14.942,000 --> 0:09:15,000
+que fue impreso en China
+
+143
+0:09:16.316,000 --> 0:09:18,000
+y enviado y ensamblado en el lugar en Dubái.
+
+144
+0:09:19.53,000 --> 0:09:2,000
+Y para no ser menos,
+
+145
+0:09:20.83,000 --> 0:09:23,000
+en Australia, hemos sido pioneros en una increíble tecnología
+
+146
+0:09:24.457,000 --> 0:09:26,000
+que permite imprimir moldes de cera
+
+147
+0:09:26.998,000 --> 0:09:28,000
+y verter el cemento sobre la parte superior,
+
+148
+0:09:29.522,000 --> 0:09:34,000
+lo que permite crear fachadas intrincadamente hermosas y rentables
+
+149
+0:09:35.212,000 --> 0:09:36,000
+que pueden ver en persona
+
+150
+0:09:36.551,000 --> 0:09:38,000
+la próxima vez que usen el metro de Londres.
+
+151
+0:09:38.99,000 --> 0:09:41,000
+Pero todas estas cosas son herramientas:
+
+152
+0:09:42.488,000 --> 0:09:44,000
+los martillos del mañana, si quieren.
+
+153
+0:09:44.813,000 --> 0:09:47,000
+Y el hilo común que conecta todas estas cosas
+
+154
+0:09:47.869,000 --> 0:09:49,000
+es el diseño asistido por computadora.
+
+155
+0:09:50.305,000 --> 0:09:54,000
+Necesitaremos modelos para construir con estas técnicas,
+
+156
+0:09:55.434,000 --> 0:09:59,000
+modelos como los que están desarrollando los jugadores en nuestro juego.
+
+157
+0:10:02.545,000 --> 0:10:06,000
+Quiero que cada persona que quiera uno
+
+158
+0:10:06.595,000 --> 0:10:08,000
+pueda tener un hogar de diseño propio.
+
+159
+0:10:09.761,000 --> 0:10:11,000
+Y todavía hay muchas más aplicaciones.
+
+160
+0:10:12.476,000 --> 0:10:16,000
+Podríamos marcar el comienzo de una experiencia nueva y empoderada
+
+161
+0:10:17.237,000 --> 0:10:2,000
+de necesidades especiales o hogares de ancianos.
+
+162
+0:10:20.737,000 --> 0:10:22,000
+Y podríamos proporcionar asistencia rápida en el sitio
+
+163
+0:10:23.331,000 --> 0:10:25,000
+en situaciones de vivienda de emergencia.
+
+164
+0:10:26.371,000 --> 0:10:28,000
+En palabras de uno de mis jugadores:
+
+165
+0:10:28.879,000 --> 0:10:3,000
+"Quiero tomar la cosa en mis propias manos
+
+166
+0:10:31.838,000 --> 0:10:33,000
+y predicar con el ejemplo".
+
+167
+0:10:35.371,000 --> 0:10:36,000
+Gracias.
+
+168
+0:10:36.546,000 --> 0:10:39,000
+(Aplausos)
+

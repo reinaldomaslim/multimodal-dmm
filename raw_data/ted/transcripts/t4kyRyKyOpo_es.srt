@@ -1,0 +1,390 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Sebastian Betti Revisor: Silvia Rivera
+
+2
+0:00:12.88,000 --> 0:00:15,000
+Antes, si querías que un computador hiciera algo nuevo
+
+3
+0:00:16.677,000 --> 0:00:17,000
+tenías, normalmente, que programarlo.
+
+4
+0:00:18.509,000 --> 0:00:21,000
+La programación, para quienes no la han practicado,
+
+5
+0:00:21.818,000 --> 0:00:24,000
+requiere especificar con el más mínimo detalle
+
+6
+0:00:24.898,000 --> 0:00:27,000
+cada paso que uno quiere que haga su computador
+
+7
+0:00:28.487,000 --> 0:00:3,000
+para alcanzar el objetivo.
+
+8
+0:00:30.734,000 --> 0:00:33,000
+Si quieren hacer algo que no saben hacer por sí mismos
+
+9
+0:00:34.379,000 --> 0:00:36,000
+entonces están ante un gran reto.
+
+10
+0:00:36.385,000 --> 0:00:39,000
+Ese fue el reto al que se enfrentó este hombre, Arthur Samuel.
+
+11
+0:00:39.935,000 --> 0:00:45,000
+En 1956, quería hacer que su computador pudiera ganarle a las damas.
+
+12
+0:00:46.028,000 --> 0:00:47,000
+¿Cómo se puede diseñar un programa,
+
+13
+0:00:47.785,000 --> 0:00:51,000
+teniendo en cuenta el más mínimo detalle que sea mejor que sí mismo a las damas?
+
+14
+0:00:52.073,000 --> 0:00:53,000
+Y se le ocurrió una idea:
+
+15
+0:00:53.78,000 --> 0:00:56,000
+hizo jugar al computador contra sí mismo miles de veces
+
+16
+0:00:57.623,000 --> 0:00:59,000
+y le hizo aprender a jugar a las damas.
+
+17
+0:01:00.079,000 --> 0:01:02,000
+De hecho funcionó, ya en 1962,
+
+18
+0:01:03.027,000 --> 0:01:05,000
+este computador había ganado la competición estatal de Connecticut.
+
+19
+0:01:06.669,000 --> 0:01:09,000
+Arthur Samuel fue el padre del aprendizaje automático,
+
+20
+0:01:10.112,000 --> 0:01:11,000
+y tengo una deuda con él,
+
+21
+0:01:11.694,000 --> 0:01:13,000
+porque soy un profesional del aprendizaje automático.
+
+22
+0:01:14.532,000 --> 0:01:15,000
+Fui presidente de Kaggle,
+
+23
+0:01:16.159,000 --> 0:01:17,000
+una comunidad de unos 200 000
+
+24
+0:01:17.786,000 --> 0:01:18,000
+profesionales del aprendizaje automático.
+
+25
+0:01:19.415,000 --> 0:01:21,000
+Kaggle contribuye con competiciones
+
+26
+0:01:21.7,000 --> 0:01:24,000
+para tratar de resolver problemas anteriores no resueltos,
+
+27
+0:01:25.324,000 --> 0:01:27,000
+y tuvo éxito cientos de veces.
+
+28
+0:01:28.98,000 --> 0:01:3,000
+Así que desde esa perspectiva, pude descubrir
+
+29
+0:01:31.371,000 --> 0:01:35,000
+mucho sobre lo que el aprendizaje automático hizo, puede hacer hoy
+
+30
+0:01:35.422,000 --> 0:01:37,000
+y lo que podrá hacer en el futuro.
+
+31
+0:01:37.62,000 --> 0:01:39,000
+Quizás el primer gran éxito
+
+32
+0:01:39.858,000 --> 0:01:41,000
+del aprendizaje automático en el mercado fue Google.
+
+33
+0:01:42.462,000 --> 0:01:45,000
+Google demostró que era posible encontrar información
+
+34
+0:01:46.038,000 --> 0:01:47,000
+usando un algoritmo informático
+
+35
+0:01:47.364,000 --> 0:01:5,000
+y ese algoritmo se basa en el aprendizaje automático.
+
+36
+0:01:50.778,000 --> 0:01:53,000
+Desde entonces, ha habido muchos éxitos comerciales del aprendizaje automático.
+
+37
+0:01:54.524,000 --> 0:01:56,000
+Compañías como Amazon y Netflix usan el aprendizaje automático
+
+38
+0:01:57.469,000 --> 0:01:59,000
+para sugerir artículos que les puedan interesar comprar,
+
+39
+0:01:59.854,000 --> 0:02:,000
+películas que les puedan interesar ver
+
+40
+0:02:01.4,000 --> 0:02:02,000
+A veces, es casi escalofriante.
+
+41
+0:02:03.114,000 --> 0:02:05,000
+Compañías como LinkedIn y Facebook
+
+42
+0:02:05.168,000 --> 0:02:07,000
+dicen, en ocasiones, cuáles pueden ser sus amigos
+
+43
+0:02:07.993,000 --> 0:02:08,000
+y uno no tiene ni idea de cómo lo han hecho,
+
+44
+0:02:09.864,000 --> 0:02:11,000
+y es porque hace uso del poder del aprendizaje automático.
+
+45
+0:02:12.443,000 --> 0:02:15,000
+Estos son algoritmos que han aprendido como hacerlo a partir de los datos
+
+46
+0:02:15.872,000 --> 0:02:17,000
+en lugar de ser programados a mano.
+
+47
+0:02:19.113,000 --> 0:02:21,000
+Así es también como IBM tuvo éxito
+
+48
+0:02:21.447,000 --> 0:02:25,000
+en conseguir que Watson ganara dos campeonatos mundiales de "Jeopardy"
+
+49
+0:02:25.769,000 --> 0:02:27,000
+respondiendo preguntas increíblemente ingeniosas, como esta.
+
+50
+0:02:28.446,000 --> 0:02:31,000
+[El antiguo "León de Nimrud" se perdió del Museo Nacional de esta ciudad en 2003]
+
+51
+0:02:32.161,000 --> 0:02:35,000
+También es por eso, que podemos ver los primeros autos sin piloto.
+
+52
+0:02:35.377,000 --> 0:02:37,000
+Si pueden diferenciar entre, por ejemplo
+
+53
+0:02:38.009,000 --> 0:02:4,000
+un árbol y un peatón, es algo muy importante.
+
+54
+0:02:40.871,000 --> 0:02:42,000
+No sabemos diseñar estos programas manualmente,
+
+55
+0:02:43.568,000 --> 0:02:45,000
+pero con el aprendizaje automático es posible.
+
+56
+0:02:46.175,000 --> 0:02:49,000
+De hecho, este auto ha conducido más de un millón y medio de kilómetros
+
+57
+0:02:49.573,000 --> 0:02:51,000
+sin tener accidentes en carretera.
+
+58
+0:02:52.076,000 --> 0:02:55,000
+Así, sabemos que los computadores pueden aprender
+
+59
+0:02:55.643,000 --> 0:02:57,000
+y pueden aprender a hacer cosas
+
+60
+0:02:57.803,000 --> 0:02:59,000
+que de hecho nosotros, a veces, no sabemos hacer,
+
+61
+0:03:00.558,000 --> 0:03:02,000
+o las pueden hacer mejor que nosotros.
+
+62
+0:03:03.315,000 --> 0:03:07,000
+Uno de los ejemplos más sorprendentes que he visto en aprendizaje automático
+
+63
+0:03:07.585,000 --> 0:03:09,000
+ocurrió en un proyecto que dirigía en Kaggle
+
+64
+0:03:10.116,000 --> 0:03:13,000
+donde un equipo dirigido por un chico llamado Geoffrey Hinton
+
+65
+0:03:13.604,000 --> 0:03:14,000
+de la Universidad de Toronto
+
+66
+0:03:14.979,000 --> 0:03:17,000
+ganó un concurso para el descubrimiento automático de medicamentos.
+
+67
+0:03:18.081,000 --> 0:03:2,000
+Lo extraordinario fue no solo que batiera
+
+68
+0:03:20.556,000 --> 0:03:21,000
+a todos los algoritmos desarrollados por Merck
+
+69
+0:03:22.537,000 --> 0:03:24,000
+o la comunidad académica internacional,
+
+70
+0:03:25.098,000 --> 0:03:27,000
+sino que nadie del equipo tenía experiencia en química
+
+71
+0:03:27.739,000 --> 0:03:31,000
+o biología o ciencias biológicas y lo hicieron en dos semanas.
+
+72
+0:03:31.843,000 --> 0:03:33,000
+¿Cómo lo hicieron?
+
+73
+0:03:34.256,000 --> 0:03:37,000
+Usaron un algoritmo extraordinario llamado aprendizaje profundo.
+
+74
+0:03:37.261,000 --> 0:03:4,000
+Fue tan exitoso que tuvo cobertura
+
+75
+0:03:40.325,000 --> 0:03:43,000
+en The New York Times en un artículo de portada unas semanas después.
+
+76
+0:03:43.362,000 --> 0:03:45,000
+Este es Geoffrey Hinton a la izquierda.
+
+77
+0:03:45.98,000 --> 0:03:49,000
+El aprendizaje profundo es un algoritmo inspirado en el cerebro humano
+
+78
+0:03:49.991,000 --> 0:03:5,000
+y como resultado
+
+79
+0:03:51.962,000 --> 0:03:54,000
+no tiene limitaciones teóricas en lo que puede hacer.
+
+80
+0:03:55.361,000 --> 0:03:58,000
+Cuantos más datos y tiempo de cálculo uno le dé
+
+81
+0:03:58.762,000 --> 0:03:59,000
+mejor funciona.
+
+82
+0:04:00.005,000 --> 0:04:02,000
+The New York Times mostró, también en su artículo
+
+83
+0:04:02.404,000 --> 0:04:04,000
+otro resultado extraordinario del aprendizaje profundo
+
+84
+0:04:04.927,000 --> 0:04:06,000
+que mostraré ahora.
+
+85
+0:04:07.181,000 --> 0:04:1,000
+Demuestra que los computadores pueden escuchar y comprender.
+
+86
+0:04:13.077,000 --> 0:04:15,000
+(Vídeo) Richard Rashid: El último paso
+
+87
+0:04:16.161,000 --> 0:04:17,000
+que quiero dar en este proceso
+
+88
+0:04:18.656,000 --> 0:04:2,000
+es hablar en chino.
+
+89
+0:04:23.877,000 --> 0:04:24,000
+La clave es,
+
+90
+0:04:25.163,000 --> 0:04:29,000
+hemos recopilado una gran información de hablantes de chino
+
+91
+0:04:29.784,000 --> 0:04:32,000
+y producido un sistema de conversión de texto a voz
+
+92
+0:04:32.894,000 --> 0:04:36,000
+que toma el texto en chino y lo convierte en lengua oral,
+
+93
+0:04:38.681,000 --> 0:04:41,000
+luego hemos grabado una hora de mi voz
+
+94
+0:04:42.205,000 --> 0:04:44,000
+que usamos para modular
+
+95
+0:04:44.471,000 --> 0:04:47,000
+el texto estándar de conversión de texto a voz para que suene como yo.
+
+96
+0:04:48.441,000 --> 0:04:5,000
+De nuevo, el resultado no es perfecto.
+
+97
+0:04:50.979,000 --> 0:04:52,000
+De hecho, hay unos cuantos errores.
+
+98
+0:04:53.807,000 --> 0:04:55,000

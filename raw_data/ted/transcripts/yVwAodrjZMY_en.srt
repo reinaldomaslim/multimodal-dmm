@@ -1,0 +1,3160 @@
+1
+0:00:13.072,000 --> 0:00:15,000
+Chris Anderson: The rights of citizens,
+
+2
+0:00:15.083,000 --> 0:00:17,000
+the future of the Internet.
+
+3
+0:00:17.169,000 --> 0:00:2,000
+So I would like to welcome to the TED stage
+
+4
+0:00:20.552,000 --> 0:00:22,000
+the man behind those revelations,
+
+5
+0:00:23.378,000 --> 0:00:25,000
+Ed Snowden.
+
+6
+0:00:25.754,000 --> 0:00:28,000
+(Applause)
+
+7
+0:00:29.321,000 --> 0:00:33,000
+Ed is in a remote location somewhere in Russia
+
+8
+0:00:33.574,000 --> 0:00:35,000
+controlling this bot from his laptop,
+
+9
+0:00:36.349,000 --> 0:00:4,000
+so he can see what the bot can see.
+
+10
+0:00:40.402,000 --> 0:00:41,000
+Ed, welcome to the TED stage.
+
+11
+0:00:42.35,000 --> 0:00:45,000
+What can you see, as a matter of fact?
+
+12
+0:00:45.961,000 --> 0:00:46,000
+Edward Snowden: Ha, I can see everyone.
+
+13
+0:00:47.699,000 --> 0:00:49,000
+This is amazing.
+
+14
+0:00:49.949,000 --> 0:00:52,000
+(Laughter)
+
+15
+0:00:53.162,000 --> 0:00:56,000
+CA: Ed, some questions for you.
+
+16
+0:00:56.445,000 --> 0:00:57,000
+You've been called many things
+
+17
+0:00:57.738,000 --> 0:00:58,000
+in the last few months.
+
+18
+0:00:59.303,000 --> 0:01:03,000
+You've been called a whistleblower, a traitor,
+
+19
+0:01:04.228,000 --> 0:01:05,000
+a hero.
+
+20
+0:01:05.957,000 --> 0:01:08,000
+What words would you describe yourself with?
+
+21
+0:01:09.774,000 --> 0:01:11,000
+ES: You know, everybody who is involved
+
+22
+0:01:12.436,000 --> 0:01:13,000
+with this debate
+
+23
+0:01:13.932,000 --> 0:01:15,000
+has been struggling over me and my personality
+
+24
+0:01:16.674,000 --> 0:01:19,000
+and how to describe me.
+
+25
+0:01:19.723,000 --> 0:01:2,000
+But when I think about it,
+
+26
+0:01:21.412,000 --> 0:01:24,000
+this isn't the question that we should be struggling with.
+
+27
+0:01:24.841,000 --> 0:01:27,000
+Who I am really doesn't matter at all.
+
+28
+0:01:28.008,000 --> 0:01:3,000
+If I'm the worst person in the world,
+
+29
+0:01:30.72,000 --> 0:01:31,000
+you can hate me and move on.
+
+30
+0:01:32.677,000 --> 0:01:34,000
+What really matters here are the issues.
+
+31
+0:01:35.212,000 --> 0:01:37,000
+What really matters here is the kind of government we want,
+
+32
+0:01:38.047,000 --> 0:01:39,000
+the kind of Internet we want,
+
+33
+0:01:39.56,000 --> 0:01:41,000
+the kind of relationship between people
+
+34
+0:01:42.118,000 --> 0:01:43,000
+and societies.
+
+35
+0:01:43.458,000 --> 0:01:46,000
+And that's what I'm hoping the debate will move towards,
+
+36
+0:01:46.546,000 --> 0:01:48,000
+and we've seen that increasing over time.
+
+37
+0:01:48.918,000 --> 0:01:49,000
+If I had to describe myself,
+
+38
+0:01:50.828,000 --> 0:01:51,000
+I wouldn't use words like "hero."
+
+39
+0:01:52.172,000 --> 0:01:54,000
+I wouldn't use "patriot," and I wouldn't use "traitor."
+
+40
+0:01:54.874,000 --> 0:01:56,000
+I'd say I'm an American and I'm a citizen,
+
+41
+0:01:57.068,000 --> 0:01:59,000
+just like everyone else.
+
+42
+0:01:59.632,000 --> 0:02:,000
+CA: So just to give some context
+
+43
+0:02:01.505,000 --> 0:02:03,000
+for those who don't know the whole story --
+
+44
+0:02:03.701,000 --> 0:02:06,000
+(Applause) —
+
+45
+0:02:07.431,000 --> 0:02:11,000
+this time a year ago, you were stationed in Hawaii
+
+46
+0:02:11.994,000 --> 0:02:13,000
+working as a consultant to the NSA.
+
+47
+0:02:14.384,000 --> 0:02:16,000
+As a sysadmin, you had access
+
+48
+0:02:16.428,000 --> 0:02:18,000
+to their systems,
+
+49
+0:02:18.833,000 --> 0:02:22,000
+and you began revealing certain classified documents
+
+50
+0:02:23.087,000 --> 0:02:26,000
+to some handpicked journalists
+
+51
+0:02:26.287,000 --> 0:02:27,000
+leading the way to June's revelations.
+
+52
+0:02:27.878,000 --> 0:02:32,000
+Now, what propelled you to do this?
+
+53
+0:02:33.254,000 --> 0:02:35,000
+ES: You know,
+
+54
+0:02:36.04,000 --> 0:02:38,000
+when I was sitting in Hawaii,
+
+55
+0:02:38.22,000 --> 0:02:4,000
+and the years before, when I was working in the intelligence community,
+
+56
+0:02:40.878,000 --> 0:02:43,000
+I saw a lot of things that had disturbed me.
+
+57
+0:02:44.6,000 --> 0:02:47,000
+We do a lot of good things in the intelligence community,
+
+58
+0:02:47.877,000 --> 0:02:48,000
+things that need to be done,
+
+59
+0:02:49.07,000 --> 0:02:51,000
+and things that help everyone.
+
+60
+0:02:51.767,000 --> 0:02:52,000
+But there are also things that go too far.
+
+61
+0:02:53.724,000 --> 0:02:54,000
+There are things that shouldn't be done,
+
+62
+0:02:55.02,000 --> 0:02:58,000
+and decisions that were being made in secret
+
+63
+0:02:58.088,000 --> 0:02:59,000
+without the public's awareness,
+
+64
+0:02:59.336,000 --> 0:03:01,000
+without the public's consent,
+
+65
+0:03:01.848,000 --> 0:03:03,000
+and without even our representatives in government
+
+66
+0:03:04.7,000 --> 0:03:07,000
+having knowledge of these programs.
+
+67
+0:03:08.333,000 --> 0:03:12,000
+When I really came to struggle with these issues,
+
+68
+0:03:12.866,000 --> 0:03:13,000
+I thought to myself,
+
+69
+0:03:14.488,000 --> 0:03:17,000
+how can I do this in the most responsible way,
+
+70
+0:03:17.574,000 --> 0:03:2,000
+that maximizes the public benefit
+
+71
+0:03:20.582,000 --> 0:03:22,000
+while minimizing the risks?
+
+72
+0:03:23.293,000 --> 0:03:26,000
+And out of all the solutions that I could come up with,
+
+73
+0:03:26.381,000 --> 0:03:28,000
+out of going to Congress,
+
+74
+0:03:28.623,000 --> 0:03:29,000
+when there were no laws,
+
+75
+0:03:29.926,000 --> 0:03:3,000
+there were no legal protections
+
+76
+0:03:31.611,000 --> 0:03:32,000
+for a private employee,
+
+77
+0:03:33.378,000 --> 0:03:36,000
+a contractor in intelligence like myself,
+
+78
+0:03:36.711,000 --> 0:03:39,000
+there was a risk that I would be buried along with the information
+
+79
+0:03:40.358,000 --> 0:03:41,000
+and the public would never find out.
+
+80
+0:03:42.265,000 --> 0:03:45,000
+But the First Amendment of the United States Constitution
+
+81
+0:03:45.287,000 --> 0:03:48,000
+guarantees us a free press for a reason,
+
+82
+0:03:48.828,000 --> 0:03:51,000
+and that's to enable an adversarial press,
+
+83
+0:03:52.033,000 --> 0:03:53,000
+to challenge the government,
+
+84
+0:03:53.93,000 --> 0:03:55,000
+but also to work together with the government,
+
+85
+0:03:56.564,000 --> 0:03:58,000
+to have a dialogue and debate about how we can
+
+86
+0:03:58.882,000 --> 0:04:03,000
+inform the public about matters of vital importance
+
+87
+0:04:04.321,000 --> 0:04:07,000
+without putting our national security at risk.
+
+88
+0:04:07.451,000 --> 0:04:08,000
+And by working with journalists,
+
+89
+0:04:09.127,000 --> 0:04:11,000
+by giving all of my information
+
+90
+0:04:11.281,000 --> 0:04:13,000
+back to the American people,
+
+91
+0:04:13.558,000 --> 0:04:14,000
+rather than trusting myself to make
+
+92
+0:04:15.329,000 --> 0:04:17,000
+the decisions about publication,
+
+93
+0:04:18.063,000 --> 0:04:2,000
+we've had a robust debate
+
+94
+0:04:20.299,000 --> 0:04:23,000
+with a deep investment by the government
+
+95
+0:04:23.566,000 --> 0:04:28,000
+that I think has resulted in a benefit for everyone.
+
+96
+0:04:28.672,000 --> 0:04:31,000
+And the risks that have been threatened,
+
+97
+0:04:32.447,000 --> 0:04:34,000
+the risks that have been played up
+
+98
+0:04:34.58,000 --> 0:04:35,000
+by the government
+
+99
+0:04:36.132,000 --> 0:04:37,000
+have never materialized.
+
+100
+0:04:37.558,000 --> 0:04:39,000
+We've never seen any evidence
+
+101
+0:04:39.636,000 --> 0:04:42,000
+of even a single instance of specific harm,
+
+102
+0:04:43.192,000 --> 0:04:44,000
+and because of that,
+
+103
+0:04:44.661,000 --> 0:04:46,000
+I'm comfortable with the decisions that I made.
+
+104
+0:04:46.788,000 --> 0:04:48,000
+CA: So let me show the audience
+
+105
+0:04:49.001,000 --> 0:04:51,000
+a couple of examples of what you revealed.
+
+106
+0:04:51.47,000 --> 0:04:52,000
+If we could have a slide up, and Ed,
+
+107
+0:04:53.382,000 --> 0:04:54,000
+I don't know whether you can see,
+
+108
+0:04:55.137,000 --> 0:04:56,000
+the slides are here.
+
+109
+0:04:56.251,000 --> 0:04:58,000
+This is a slide of the PRISM program,
+
+110
+0:04:58.836,000 --> 0:05:,000
+and maybe you could tell the audience
+
+111
+0:05:01.305,000 --> 0:05:03,000
+what that was that was revealed.
+
+112
+0:05:03.911,000 --> 0:05:05,000
+ES: The best way to understand PRISM,
+
+113
+0:05:06.123,000 --> 0:05:07,000
+because there's been a little bit of controversy,
+
+114
+0:05:07.584,000 --> 0:05:1,000
+is to first talk about what PRISM isn't.
+
+115
+0:05:11.335,000 --> 0:05:13,000
+Much of the debate in the U.S. has been about metadata.
+
+116
+0:05:14.09,000 --> 0:05:16,000
+They've said it's just metadata, it's just metadata,
+
+117
+0:05:16.981,000 --> 0:05:18,000
+and they're talking about a specific legal authority
+
+118
+0:05:19.722,000 --> 0:05:21,000
+called Section 215 of the Patriot Act.
+
+119
+0:05:22.427,000 --> 0:05:25,000
+That allows sort of a warrantless wiretapping,
+
+120
+0:05:25.496,000 --> 0:05:27,000
+mass surveillance of the entire country's
+
+121
+0:05:27.859,000 --> 0:05:29,000
+phone records, things like that --
+
+122
+0:05:30.016,000 --> 0:05:31,000
+who you're talking to,
+
+123
+0:05:31.378,000 --> 0:05:33,000
+when you're talking to them,
+
+124
+0:05:33.406,000 --> 0:05:34,000
+where you traveled.
+
+125
+0:05:34.702,000 --> 0:05:36,000
+These are all metadata events.
+
+126
+0:05:37.203,000 --> 0:05:4,000
+PRISM is about content.
+
+127
+0:05:40.549,000 --> 0:05:42,000
+It's a program through which the government could
+
+128
+0:05:42.689,000 --> 0:05:44,000
+compel corporate America,
+
+129
+0:05:44.733,000 --> 0:05:47,000
+it could deputize corporate America
+
+130
+0:05:48.126,000 --> 0:05:51,000
+to do its dirty work for the NSA.
+
+131
+0:05:51.99,000 --> 0:05:53,000
+And even though some of these companies did resist,
+
+132
+0:05:54.986,000 --> 0:05:55,000
+even though some of them --
+
+133
+0:05:56.409,000 --> 0:05:57,000
+I believe Yahoo was one of them —
+
+134
+0:05:57.655,000 --> 0:05:59,000
+challenged them in court, they all lost,
+
+135
+0:06:00.312,000 --> 0:06:02,000
+because it was never tried by an open court.
+
+136
+0:06:03.227,000 --> 0:06:06,000
+They were only tried by a secret court.
+
+137
+0:06:06.358,000 --> 0:06:07,000
+And something that we've seen,
+
+138
+0:06:07.725,000 --> 0:06:09,000
+something about the PRISM program that's very concerning to me is,
+
+139
+0:06:10.429,000 --> 0:06:11,000
+there's been a talking point in the U.S. government
+
+140
+0:06:12.408,000 --> 0:06:15,000
+where they've said 15 federal judges
+
+141
+0:06:16.159,000 --> 0:06:18,000
+have reviewed these programs and found them to be lawful,
+
+142
+0:06:18.857,000 --> 0:06:2,000
+but what they don't tell you
+
+143
+0:06:21.577,000 --> 0:06:23,000
+is those are secret judges
+
+144
+0:06:24.207,000 --> 0:06:26,000
+in a secret court
+
+145
+0:06:26.209,000 --> 0:06:29,000
+based on secret interpretations of law
+
+146
+0:06:29.283,000 --> 0:06:33,000
+that's considered 34,000 warrant requests
+
+147
+0:06:33.517,000 --> 0:06:35,000
+over 33 years,
+
+148
+0:06:35.976,000 --> 0:06:37,000
+and in 33 years only rejected
+
+149
+0:06:38.163,000 --> 0:06:4,000
+11 government requests.
+
+150
+0:06:41.046,000 --> 0:06:43,000
+These aren't the people that we want deciding
+
+151
+0:06:43.793,000 --> 0:06:45,000
+what the role of corporate America
+
+152
+0:06:45.939,000 --> 0:06:47,000
+in a free and open Internet should be.
+
+153
+0:06:48.395,000 --> 0:06:5,000
+CA: Now, this slide that we're showing here
+
+154
+0:06:50.506,000 --> 0:06:52,000
+shows the dates in which
+
+155
+0:06:52.718,000 --> 0:06:54,000
+different technology companies, Internet companies,
+
+156
+0:06:55.133,000 --> 0:06:57,000
+are alleged to have joined the program,
+
+157
+0:06:57.487,000 --> 0:06:59,000
+and where data collection began from them.
+
+158
+0:07:00.445,000 --> 0:07:04,000
+Now, they have denied collaborating with the NSA.
+
+159
+0:07:05.194,000 --> 0:07:1,000
+How was that data collected by the NSA?
+
+160
+0:07:10.298,000 --> 0:07:13,000
+ES: Right. So the NSA's own slides
+
+161
+0:07:13.477,000 --> 0:07:15,000
+refer to it as direct access.
+
+162
+0:07:16.277,000 --> 0:07:18,000
+What that means to an actual NSA analyst,
+
+163
+0:07:19.027,000 --> 0:07:22,000
+someone like me who was working as an intelligence analyst
+
+164
+0:07:22.135,000 --> 0:07:24,000
+targeting, Chinese cyber-hackers,
+
+165
+0:07:24.606,000 --> 0:07:26,000
+things like that, in Hawaii,
+
+166
+0:07:26.688,000 --> 0:07:27,000
+is the provenance of that data
+
+167
+0:07:28.657,000 --> 0:07:3,000
+is directly from their servers.
+
+168
+0:07:30.913,000 --> 0:07:32,000
+It doesn't mean
+
+169
+0:07:32.977,000 --> 0:07:34,000
+that there's a group of company representatives
+
+170
+0:07:35.783,000 --> 0:07:37,000
+sitting in a smoky room with the NSA
+
+171
+0:07:38.22,000 --> 0:07:39,000
+palling around and making back-room deals
+
+172
+0:07:40.01,000 --> 0:07:42,000
+about how they're going to give this stuff away.
+
+173
+0:07:42.553,000 --> 0:07:44,000
+Now each company handles it different ways.
+
+174
+0:07:44.946,000 --> 0:07:45,000
+Some are responsible.
+
+175
+0:07:46.122,000 --> 0:07:48,000
+Some are somewhat less responsible.
+
+176
+0:07:48.213,000 --> 0:07:49,000
+But the bottom line is, when we talk about
+
+177
+0:07:49.981,000 --> 0:07:52,000
+how this information is given,
+
+178
+0:07:53.36,000 --> 0:07:55,000
+it's coming from the companies themselves.
+
+179
+0:07:55.846,000 --> 0:07:57,000
+It's not stolen from the lines.
+
+180
+0:07:58.141,000 --> 0:07:59,000
+But there's an important thing to remember here:
+
+181
+0:08:00.073,000 --> 0:08:01,000
+even though companies pushed back,
+
+182
+0:08:02.004,000 --> 0:08:04,000
+even though companies demanded,
+
+183
+0:08:04.057,000 --> 0:08:06,000
+hey, let's do this through a warrant process,
+
+184
+0:08:06.603,000 --> 0:08:07,000
+let's do this
+
+185
+0:08:08.377,000 --> 0:08:11,000
+where we actually have some sort of legal review,
+
+186
+0:08:11.526,000 --> 0:08:12,000
+some sort of basis for handing over
+
+187
+0:08:13.357,000 --> 0:08:14,000
+these users' data,
+
+188
+0:08:15.297,000 --> 0:08:17,000
+we saw stories in the Washington Post last year
+
+189
+0:08:17.688,000 --> 0:08:2,000
+that weren't as well reported as the PRISM story
+
+190
+0:08:20.9,000 --> 0:08:22,000
+that said the NSA broke in
+
+191
+0:08:23.499,000 --> 0:08:24,000
+to the data center communications
+
+192
+0:08:25.3,000 --> 0:08:27,000
+between Google to itself
+
+193
+0:08:27.456,000 --> 0:08:28,000
+and Yahoo to itself.
+
+194
+0:08:29.034,000 --> 0:08:31,000
+So even these companies that are cooperating
+
+195
+0:08:31.866,000 --> 0:08:33,000
+in at least a compelled but hopefully lawful manner
+
+196
+0:08:34.737,000 --> 0:08:35,000
+with the NSA,
+
+197
+0:08:36.61,000 --> 0:08:39,000
+the NSA isn't satisfied with that,
+
+198
+0:08:39.906,000 --> 0:08:4,000
+and because of that, we need our companies
+
+199
+0:08:41.884,000 --> 0:08:43,000
+to work very hard
+
+200
+0:08:44.699,000 --> 0:08:46,000
+to guarantee that they're going to represent
+
+201
+0:08:47.171,000 --> 0:08:49,000
+the interests of the user, and also advocate
+
+202
+0:08:49.757,000 --> 0:08:5,000
+for the rights of the users.
+
+203
+0:08:51.673,000 --> 0:08:52,000
+And I think over the last year,
+
+204
+0:08:52.947,000 --> 0:08:53,000
+we've seen the companies that are named
+
+205
+0:08:54.53,000 --> 0:08:55,000
+on the PRISM slides
+
+206
+0:08:55.948,000 --> 0:08:56,000
+take great strides to do that,
+
+207
+0:08:57.757,000 --> 0:08:59,000
+and I encourage them to continue.
+
+208
+0:09:00.01,000 --> 0:09:02,000
+CA: What more should they do?
+
+209
+0:09:02.692,000 --> 0:09:05,000
+ES: The biggest thing that an Internet company
+
+210
+0:09:06.209,000 --> 0:09:09,000
+in America can do today, right now,
+
+211
+0:09:09.435,000 --> 0:09:1,000
+without consulting with lawyers,
+
+212
+0:09:10.877,000 --> 0:09:13,000
+to protect the rights of users worldwide,
+
+213
+0:09:14.416,000 --> 0:09:19,000
+is to enable SSL web encryption
+
+214
+0:09:19.799,000 --> 0:09:21,000
+on every page you visit.
+
+215
+0:09:21.804,000 --> 0:09:23,000
+The reason this matters is today,
+
+216
+0:09:24.746,000 --> 0:09:29,000
+if you go to look at a copy of "1984" on Amazon.com,
+
+217
+0:09:29.984,000 --> 0:09:31,000
+the NSA can see a record of that,
+
+218
+0:09:32.431,000 --> 0:09:34,000
+the Russian intelligence service can see a record of that,
+
+219
+0:09:34.65,000 --> 0:09:36,000
+the Chinese service can see a record of that,
+
+220
+0:09:37.107,000 --> 0:09:38,000
+the French service, the German service,
+
+221
+0:09:39.005,000 --> 0:09:4,000
+the services of Andorra.
+
+222
+0:09:40.327,000 --> 0:09:43,000
+They can all see it because it's unencrypted.
+
+223
+0:09:43.605,000 --> 0:09:46,000
+The world's library is Amazon.com,
+
+224
+0:09:47.205,000 --> 0:09:49,000
+but not only do they not support encryption by default,
+
+225
+0:09:49.86,000 --> 0:09:51,000
+you cannot choose to use encryption
+
+226
+0:09:52.026,000 --> 0:09:53,000
+when browsing through books.
+
+227
+0:09:53.753,000 --> 0:09:54,000
+This is something that we need to change,
+
+228
+0:09:55.462,000 --> 0:09:56,000
+not just for Amazon, I don't mean to single them out,
+
+229
+0:09:57.337,000 --> 0:09:58,000
+but they're a great example.
+
+230
+0:09:58.829,000 --> 0:09:59,000
+All companies need to move
+
+231
+0:10:00.497,000 --> 0:10:03,000
+to an encrypted browsing habit by default
+
+232
+0:10:03.89,000 --> 0:10:05,000
+for all users who haven't taken any action
+
+233
+0:10:06.374,000 --> 0:10:08,000
+or picked any special methods on their own.
+
+234
+0:10:08.635,000 --> 0:10:1,000
+That'll increase the privacy and the rights
+
+235
+0:10:10.946,000 --> 0:10:12,000
+that people enjoy worldwide.
+
+236
+0:10:13.711,000 --> 0:10:15,000
+CA: Ed, come with me to this part of the stage.
+
+237
+0:10:16.189,000 --> 0:10:18,000
+I want to show you the next slide here. (Applause)
+
+238
+0:10:19.142,000 --> 0:10:21,000
+This is a program called Boundless Informant.
+
+239
+0:10:21.85,000 --> 0:10:22,000
+What is that?
+
+240
+0:10:23.526,000 --> 0:10:25,000
+ES: So, I've got to give credit to the NSA
+
+241
+0:10:25.706,000 --> 0:10:27,000
+for using appropriate names on this.
+
+242
+0:10:28.149,000 --> 0:10:31,000
+This is one of my favorite NSA cryptonyms.
+
+243
+0:10:31.994,000 --> 0:10:32,000
+Boundless Informant
+
+244
+0:10:33.464,000 --> 0:10:35,000
+is a program that the NSA hid from Congress.
+
+245
+0:10:36.314,000 --> 0:10:38,000
+The NSA was previously asked by Congress,
+
+246
+0:10:38.723,000 --> 0:10:4,000
+was there any ability that they had
+
+247
+0:10:40.936,000 --> 0:10:43,000
+to even give a rough ballpark estimate
+
+248
+0:10:44.694,000 --> 0:10:46,000
+of the amount of American communications
+
+249
+0:10:46.88,000 --> 0:10:48,000
+that were being intercepted.
+
+250
+0:10:49.014,000 --> 0:10:52,000
+They said no. They said, we don't track those stats,
+
+251
+0:10:52.045,000 --> 0:10:53,000
+and we can't track those stats.
+
+252
+0:10:53.594,000 --> 0:10:56,000
+We can't tell you how many communications
+
+253
+0:10:56.698,000 --> 0:10:57,000
+we're intercepting around the world,
+
+254
+0:10:58.161,000 --> 0:10:59,000
+because to tell you that would be
+
+255
+0:10:59.648,000 --> 0:11:02,000
+to invade your privacy.
+
+256
+0:11:02.955,000 --> 0:11:04,000
+Now, I really appreciate that sentiment from them,
+
+257
+0:11:05.17,000 --> 0:11:07,000
+but the reality, when you look at this slide is,
+
+258
+0:11:07.305,000 --> 0:11:08,000
+not only do they have the capability,
+
+259
+0:11:08.958,000 --> 0:11:1,000
+the capability already exists.
+
+260
+0:11:11.574,000 --> 0:11:12,000
+It's already in place.
+
+261
+0:11:13.248,000 --> 0:11:16,000
+The NSA has its own internal data format
+
+262
+0:11:16.396,000 --> 0:11:2,000
+that tracks both ends of a communication,
+
+263
+0:11:20.545,000 --> 0:11:21,000
+and if it says,
+
+264
+0:11:21.827,000 --> 0:11:23,000
+this communication came from America,
+
+265
+0:11:23.853,000 --> 0:11:25,000
+they can tell Congress how many of those communications
+
+266
+0:11:26.209,000 --> 0:11:28,000
+they have today, right now.
+
+267
+0:11:28.725,000 --> 0:11:3,000
+And what Boundless Informant tells us
+
+268
+0:11:31.696,000 --> 0:11:33,000
+is more communications are being intercepted
+
+269
+0:11:34.422,000 --> 0:11:36,000
+in America about Americans
+
+270
+0:11:37.395,000 --> 0:11:4,000
+than there are in Russia about Russians.
+
+271
+0:11:40.815,000 --> 0:11:41,000
+I'm not sure that's what an intelligence agency
+
+272
+0:11:42.68,000 --> 0:11:44,000
+should be aiming for.
+
+273
+0:11:44.999,000 --> 0:11:46,000
+CA: Ed, there was a story broken in the Washington Post,
+
+274
+0:11:47.405,000 --> 0:11:48,000
+again from your data.
+
+275
+0:11:49.127,000 --> 0:11:5,000
+The headline says,
+
+276
+0:11:50.806,000 --> 0:11:51,000
+"NSA broke privacy rules
+
+277
+0:11:52.303,000 --> 0:11:54,000
+thousands of times per year."
+
+278
+0:11:54.333,000 --> 0:11:55,000
+Tell us about that.
+
+279
+0:11:55.871,000 --> 0:11:57,000
+ES: We also heard in Congressional testimony last year,
+
+280
+0:11:58.464,000 --> 0:11:59,000
+it was an amazing thing for someone like me
+
+281
+0:12:00.401,000 --> 0:12:01,000
+who came from the NSA
+
+282
+0:12:02.105,000 --> 0:12:04,000
+and who's seen the actual internal documents,
+
+283
+0:12:04.677,000 --> 0:12:06,000
+knows what's in them,
+
+284
+0:12:07.268,000 --> 0:12:09,000
+to see officials testifying under oath
+
+285
+0:12:09.808,000 --> 0:12:1,000
+that there had been no abuses,
+
+286
+0:12:11.69,000 --> 0:12:14,000
+that there had been no violations of the NSA's rules,
+
+287
+0:12:15.323,000 --> 0:12:17,000
+when we knew this story was coming.
+
+288
+0:12:18.264,000 --> 0:12:2,000
+But what's especially interesting about this,
+
+289
+0:12:20.352,000 --> 0:12:22,000
+about the fact that the NSA has violated
+
+290
+0:12:22.4,000 --> 0:12:24,000
+their own rules, their own laws
+
+291
+0:12:24.768,000 --> 0:12:26,000
+thousands of times in a single year,
+
+292
+0:12:27.441,000 --> 0:12:29,000
+including one event by itself,
+
+293
+0:12:30.168,000 --> 0:12:34,000
+one event out of those 2,776,
+
+294
+0:12:35.144,000 --> 0:12:37,000
+that affected more than 3,000 people.
+
+295
+0:12:37.45,000 --> 0:12:38,000
+In another event, they intercepted
+
+296
+0:12:39.289,000 --> 0:12:43,000
+all the calls in Washington, D.C., by accident.
+
+297
+0:12:43.501,000 --> 0:12:45,000
+What's amazing about this,
+
+298
+0:12:45.738,000 --> 0:12:47,000
+this report, that didn't get that much attention,
+
+299
+0:12:47.946,000 --> 0:12:51,000
+is the fact that not only were there 2,776 abuses,
+
+300
+0:12:52.807,000 --> 0:12:54,000
+the chairman of the Senate Intelligence Committee,
+
+301
+0:12:54.948,000 --> 0:12:57,000
+Dianne Feinstein, had not seen this report
+
+302
+0:12:58.935,000 --> 0:13:01,000
+until the Washington Post contacted her
+
+303
+0:13:02.126,000 --> 0:13:04,000
+asking for comment on the report.
+
+304
+0:13:04.574,000 --> 0:13:05,000
+And she then requested a copy from the NSA
+
+305
+0:13:06.467,000 --> 0:13:07,000
+and received it,
+
+306
+0:13:08.168,000 --> 0:13:1,000
+but had never seen this before that.
+
+307
+0:13:10.195,000 --> 0:13:12,000
+What does that say about the state of oversight
+
+308
+0:13:12.882,000 --> 0:13:13,000
+in American intelligence
+
+309
+0:13:14.619,000 --> 0:13:15,000
+when the chairman of the Senate Intelligence Committee
+
+310
+0:13:16.407,000 --> 0:13:18,000
+has no idea that the rules are being broken
+
+311
+0:13:19.2,000 --> 0:13:21,000
+thousands of times every year?
+
+312
+0:13:21.36,000 --> 0:13:24,000
+CA: Ed, one response to this whole debate is this:
+
+313
+0:13:24.989,000 --> 0:13:26,000
+Why should we care about
+
+314
+0:13:27.654,000 --> 0:13:28,000
+all this surveillance, honestly?
+
+315
+0:13:29.122,000 --> 0:13:31,000
+I mean, look, if you've done nothing wrong,
+
+316
+0:13:31.274,000 --> 0:13:33,000
+you've got nothing to worry about.
+
+317
+0:13:34.058,000 --> 0:13:36,000
+What's wrong with that point of view?
+
+318
+0:13:36.35,000 --> 0:13:37,000
+ES: Well, so the first thing is,
+
+319
+0:13:37.998,000 --> 0:13:38,000
+you're giving up your rights.
+
+320
+0:13:39.711,000 --> 0:13:4,000
+You're saying hey, you know,
+
+321
+0:13:41.069,000 --> 0:13:43,000
+I don't think I'm going to need them,
+
+322
+0:13:43.441,000 --> 0:13:44,000
+so I'm just going to trust that, you know,
+
+323
+0:13:45.123,000 --> 0:13:47,000
+let's get rid of them, it doesn't really matter,
+
+324
+0:13:48.101,000 --> 0:13:49,000
+these guys are going to do the right thing.
+
+325
+0:13:50.075,000 --> 0:13:51,000
+Your rights matter
+
+326
+0:13:51.934,000 --> 0:13:53,000
+because you never know when you're going to need them.
+
+327
+0:13:54.776,000 --> 0:13:56,000
+Beyond that, it's a part of our cultural identity,
+
+328
+0:13:57.058,000 --> 0:13:59,000
+not just in America,
+
+329
+0:13:59.19,000 --> 0:14:,000
+but in Western societies
+
+330
+0:14:00.781,000 --> 0:14:02,000
+and in democratic societies around the world.
+
+331
+0:14:03.743,000 --> 0:14:05,000
+People should be able to pick up the phone
+
+332
+0:14:06.147,000 --> 0:14:07,000
+and to call their family,
+
+333
+0:14:07.601,000 --> 0:14:08,000
+people should be able to send a text message
+
+334
+0:14:09.6,000 --> 0:14:1,000
+to their loved ones,
+
+335
+0:14:10.728,000 --> 0:14:12,000
+people should be able to buy a book online,
+
+336
+0:14:13.182,000 --> 0:14:14,000
+they should be able to travel by train,
+
+337
+0:14:14.972,000 --> 0:14:16,000
+they should be able to buy an airline ticket
+
+338
+0:14:17.189,000 --> 0:14:18,000
+without wondering about how these events
+
+339
+0:14:18.926,000 --> 0:14:21,000
+are going to look to an agent of the government,
+
+340
+0:14:22.611,000 --> 0:14:24,000
+possibly not even your government
+
+341
+0:14:25.201,000 --> 0:14:26,000
+years in the future,
+
+342
+0:14:26.956,000 --> 0:14:27,000
+how they're going to be misinterpreted
+
+343
+0:14:28.696,000 --> 0:14:3,000
+and what they're going to think your intentions were.
+
+344
+0:14:31.48,000 --> 0:14:33,000
+We have a right to privacy.
+
+345
+0:14:33.554,000 --> 0:14:36,000
+We require warrants to be based on probable cause
+
+346
+0:14:37.172,000 --> 0:14:39,000
+or some kind of individualized suspicion
+
+347
+0:14:39.636,000 --> 0:14:43,000
+because we recognize that trusting anybody,
+
+348
+0:14:44.163,000 --> 0:14:45,000
+any government authority,
+
+349
+0:14:45.757,000 --> 0:14:48,000
+with the entirety of human communications
+
+350
+0:14:48.841,000 --> 0:14:5,000
+in secret and without oversight
+
+351
+0:14:51.274,000 --> 0:14:55,000
+is simply too great a temptation to be ignored.
+
+352
+0:14:56.118,000 --> 0:14:58,000
+CA: Some people are furious at what you've done.
+
+353
+0:14:58.677,000 --> 0:15:,000
+I heard a quote recently from Dick Cheney
+
+354
+0:15:01.516,000 --> 0:15:06,000
+who said that Julian Assange was a flea bite,
+
+355
+0:15:07.408,000 --> 0:15:1,000
+Edward Snowden is the lion that bit the head off the dog.
+
+356
+0:15:10.83,000 --> 0:15:11,000
+He thinks you've committed
+
+357
+0:15:12.383,000 --> 0:15:14,000
+one of the worst acts of betrayal
+
+358
+0:15:14.675,000 --> 0:15:16,000
+in American history.
+
+359
+0:15:16.781,000 --> 0:15:2,000
+What would you say to people who think that?
+
+360
+0:15:22.975,000 --> 0:15:24,000
+ES: Dick Cheney's really something else.
+
+361
+0:15:25.18,000 --> 0:15:31,000
+(Laughter) (Applause)
+
+362
+0:15:32.476,000 --> 0:15:36,000
+Thank you. (Laughter)
+
+363
+0:15:37.378,000 --> 0:15:39,000
+I think it's amazing, because at the time
+
+364
+0:15:39.854,000 --> 0:15:42,000
+Julian Assange was doing some of his greatest work,
+
+365
+0:15:43.629,000 --> 0:15:44,000
+Dick Cheney was saying
+
+366
+0:15:45.065,000 --> 0:15:47,000
+he was going to end governments worldwide,
+
+367
+0:15:47.495,000 --> 0:15:49,000
+the skies were going to ignite
+
+368
+0:15:50.4,000 --> 0:15:52,000
+and the seas were going to boil off,
+
+369
+0:15:52.536,000 --> 0:15:54,000
+and now he's saying it's a flea bite.
+
+370
+0:15:54.754,000 --> 0:15:56,000
+So we should be suspicious about the same sort of
+
+371
+0:15:57.267,000 --> 0:16:01,000
+overblown claims of damage to national security
+
+372
+0:16:01.46,000 --> 0:16:02,000
+from these kind of officials.
+
+373
+0:16:03.145,000 --> 0:16:09,000
+But let's assume that these people really believe this.
+
+374
+0:16:09.994,000 --> 0:16:11,000
+I would argue that they have kind of
+
+375
+0:16:12.224,000 --> 0:16:16,000
+a narrow conception of national security.
+
+376
+0:16:16.594,000 --> 0:16:19,000
+The prerogatives of people like Dick Cheney
+
+377
+0:16:19.841,000 --> 0:16:21,000
+do not keep the nation safe.
+
+378
+0:16:22.822,000 --> 0:16:26,000
+The public interest is not always the same
+
+379
+0:16:26.855,000 --> 0:16:28,000
+as the national interest.
+
+380
+0:16:29.29,000 --> 0:16:32,000
+Going to war with people who are not our enemy
+
+381
+0:16:33.184,000 --> 0:16:35,000
+in places that are not a threat
+
+382
+0:16:35.314,000 --> 0:16:37,000
+doesn't make us safe,
+
+383
+0:16:37.481,000 --> 0:16:39,000
+and that applies whether it's in Iraq
+
+384
+0:16:39.648,000 --> 0:16:4,000
+or on the Internet.
+
+385
+0:16:41.415,000 --> 0:16:42,000
+The Internet is not the enemy.
+
+386
+0:16:42.938,000 --> 0:16:44,000
+Our economy is not the enemy.
+
+387
+0:16:44.963,000 --> 0:16:46,000
+American businesses, Chinese businesses,
+
+388
+0:16:47.249,000 --> 0:16:51,000
+and any other company out there
+
+389
+0:16:51.82,000 --> 0:16:53,000
+is a part of our society.
+
+390
+0:16:54.251,000 --> 0:16:56,000
+It's a part of our interconnected world.
+
+391
+0:16:56.465,000 --> 0:17:,000
+There are ties of fraternity that bond us together,
+
+392
+0:17:00.91,000 --> 0:17:02,000
+and if we destroy these bonds
+
+393
+0:17:03.578,000 --> 0:17:06,000
+by undermining the standards, the security,
+
+394
+0:17:06.733,000 --> 0:17:08,000
+the manner of behavior,
+
+395
+0:17:09.59,000 --> 0:17:11,000
+that nations and citizens all around the world
+
+396
+0:17:12.541,000 --> 0:17:14,000
+expect us to abide by.
+
+397
+0:17:14.918,000 --> 0:17:17,000
+CA: But it's alleged that you've stolen
+
+398
+0:17:18.62,000 --> 0:17:19,000
+1.7 million documents.
+
+399
+0:17:20.519,000 --> 0:17:21,000
+It seems only a few hundred of them
+
+400
+0:17:22.346,000 --> 0:17:24,000
+have been shared with journalists so far.
+
+401
+0:17:25.203,000 --> 0:17:28,000
+Are there more revelations to come?
+
+402
+0:17:28.248,000 --> 0:17:3,000
+ES: There are absolutely more revelations to come.
+
+403
+0:17:30.69,000 --> 0:17:32,000
+I don't think there's any question
+
+404
+0:17:33.491,000 --> 0:17:37,000
+that some of the most important reporting
+
+405
+0:17:37.738,000 --> 0:17:41,000
+to be done is yet to come.
+
+406
+0:17:42.478,000 --> 0:17:44,000
+CA: Come here, because I want to ask you
+
+407
+0:17:44.54,000 --> 0:17:45,000
+about this particular revelation.
+
+408
+0:17:46.067,000 --> 0:17:49,000
+Come and take a look at this.
+
+409
+0:17:49.089,000 --> 0:17:52,000
+I mean, this is a story which I think for a lot of the techies in this room
+
+410
+0:17:52.337,000 --> 0:17:53,000
+is the single most shocking thing
+
+411
+0:17:54.076,000 --> 0:17:56,000
+that they have heard in the last few months.
+
+412
+0:17:56.436,000 --> 0:17:58,000
+It's about a program called "Bullrun."
+
+413
+0:17:59.061,000 --> 0:18:02,000
+Can you explain what that is?
+
+414
+0:18:02.837,000 --> 0:18:03,000
+ES: So Bullrun, and this is again
+
+415
+0:18:04.545,000 --> 0:18:11,000
+where we've got to thank the NSA for their candor,
+
+416
+0:18:11.642,000 --> 0:18:15,000
+this is a program named after a Civil War battle.
+
+417
+0:18:16.232,000 --> 0:18:17,000
+The British counterpart is called Edgehill,
+
+418
+0:18:17.845,000 --> 0:18:18,000
+which is a U.K. civil war battle.
+
+419
+0:18:19.32,000 --> 0:18:21,000
+And the reason that I believe they're named this way
+
+420
+0:18:21.527,000 --> 0:18:24,000
+is because they target our own infrastructure.
+
+421
+0:18:25.016,000 --> 0:18:27,000
+They're programs through which the NSA
+
+422
+0:18:27.707,000 --> 0:18:31,000
+intentionally misleads corporate partners.
+
+423
+0:18:31.922,000 --> 0:18:32,000
+They tell corporate partners that these
+
+424
+0:18:33.804,000 --> 0:18:34,000
+are safe standards.
+
+425
+0:18:35.479,000 --> 0:18:37,000
+They say hey, we need to work with you
+
+426
+0:18:37.498,000 --> 0:18:4,000
+to secure your systems,
+
+427
+0:18:41.151,000 --> 0:18:44,000
+but in reality, they're giving bad advice
+
+428
+0:18:44.344,000 --> 0:18:45,000
+to these companies that makes them
+
+429
+0:18:45.61,000 --> 0:18:47,000
+degrade the security of their services.
+
+430
+0:18:47.905,000 --> 0:18:49,000
+They're building in backdoors that not only
+
+431
+0:18:50.234,000 --> 0:18:52,000
+the NSA can exploit,
+
+432
+0:18:52.592,000 --> 0:18:54,000
+but anyone else who has time and money
+
+433
+0:18:55.113,000 --> 0:18:57,000
+to research and find it
+
+434
+0:18:57.233,000 --> 0:18:59,000
+can then use to let themselves in
+
+435
+0:18:59.367,000 --> 0:19:,000
+to the world's communications.
+
+436
+0:19:01.237,000 --> 0:19:02,000
+And this is really dangerous,
+
+437
+0:19:03.007,000 --> 0:19:07,000
+because if we lose a single standard,
+
+438
+0:19:07.191,000 --> 0:19:1,000
+if we lose the trust of something like SSL,
+
+439
+0:19:10.25,000 --> 0:19:11,000
+which was specifically targeted
+
+440
+0:19:11.732,000 --> 0:19:13,000
+by the Bullrun program,
+
+441
+0:19:13.855,000 --> 0:19:15,000
+we will live a less safe world overall.
+
+442
+0:19:16.523,000 --> 0:19:18,000
+We won't be able to access our banks
+
+443
+0:19:18.63,000 --> 0:19:23,000
+and we won't be able to access commerce
+
+444
+0:19:23.883,000 --> 0:19:25,000
+without worrying about people monitoring those communications
+
+445
+0:19:26.706,000 --> 0:19:28,000
+or subverting them for their own ends.
+
+446
+0:19:28.884,000 --> 0:19:32,000
+CA: And do those same decisions also potentially
+
+447
+0:19:32.953,000 --> 0:19:34,000
+open America up to cyberattacks
+
+448
+0:19:35.939,000 --> 0:19:38,000
+from other sources?
+
+449
+0:19:39.855,000 --> 0:19:4,000
+ES: Absolutely.
+
+450
+0:19:41.32,000 --> 0:19:42,000
+One of the problems,
+
+451
+0:19:43.052,000 --> 0:19:46,000
+one of the dangerous legacies
+
+452
+0:19:46.502,000 --> 0:19:49,000
+that we've seen in the post-9/11 era,
+
+453
+0:19:49.994,000 --> 0:19:53,000
+is that the NSA has traditionally worn two hats.
+
+454
+0:19:54.231,000 --> 0:19:55,000
+They've been in charge of offensive operations,
+
+455
+0:19:56.157,000 --> 0:19:57,000
+that is hacking,
+
+456
+0:19:57.278,000 --> 0:19:59,000
+but they've also been in charge of defensive operations,
+
+457
+0:19:59.988,000 --> 0:20:01,000
+and traditionally they've always prioritized
+
+458
+0:20:02.351,000 --> 0:20:03,000
+defense over offense
+
+459
+0:20:03.738,000 --> 0:20:04,000
+based on the principle
+
+460
+0:20:05.128,000 --> 0:20:07,000
+that American secrets are simply worth more.
+
+461
+0:20:07.944,000 --> 0:20:09,000
+If we hack a Chinese business
+
+462
+0:20:10.054,000 --> 0:20:11,000
+and steal their secrets,
+
+463
+0:20:11.738,000 --> 0:20:13,000
+if we hack a government office in Berlin
+
+464
+0:20:13.821,000 --> 0:20:15,000
+and steal their secrets,
+
+465
+0:20:15.919,000 --> 0:20:18,000
+that has less value to the American people
+
+466
+0:20:19.526,000 --> 0:20:21,000
+than making sure that the Chinese
+
+467
+0:20:21.626,000 --> 0:20:23,000
+can't get access to our secrets.
+
+468
+0:20:24.132,000 --> 0:20:28,000
+So by reducing the security of our communications,
+
+469
+0:20:28.263,000 --> 0:20:3,000
+they're not only putting the world at risk,
+
+470
+0:20:30.291,000 --> 0:20:32,000
+they're putting America at risk in a fundamental way,
+
+471
+0:20:32.563,000 --> 0:20:34,000
+because intellectual property is the basis,
+
+472
+0:20:35.234,000 --> 0:20:36,000
+the foundation of our economy,
+
+473
+0:20:37.161,000 --> 0:20:39,000
+and if we put that at risk through weak security,
+
+474
+0:20:39.419,000 --> 0:20:4,000
+we're going to be paying for it for years.
+
+475
+0:20:41.048,000 --> 0:20:42,000
+CA: But they've made a calculation
+
+476
+0:20:42.595,000 --> 0:20:44,000
+that it was worth doing this
+
+477
+0:20:44.786,000 --> 0:20:47,000
+as part of America's defense against terrorism.
+
+478
+0:20:48.325,000 --> 0:20:51,000
+Surely that makes it a price worth paying.
+
+479
+0:20:51.937,000 --> 0:20:54,000
+ES: Well, when you look at the results
+
+480
+0:20:55.824,000 --> 0:20:57,000
+of these programs in stopping terrorism,
+
+481
+0:20:58.131,000 --> 0:21:01,000
+you will see that that's unfounded,
+
+482
+0:21:01.881,000 --> 0:21:02,000
+and you don't have to take my word for it,
+
+483
+0:21:03.8,000 --> 0:21:06,000
+because we've had the first open court,
+
+484
+0:21:07.572,000 --> 0:21:09,000
+the first federal court that's reviewed this,
+
+485
+0:21:09.941,000 --> 0:21:11,000
+outside the secrecy arrangement,
+
+486
+0:21:12.737,000 --> 0:21:13,000
+called these programs Orwellian
+
+487
+0:21:14.724,000 --> 0:21:16,000
+and likely unconstitutional.
+
+488
+0:21:16.958,000 --> 0:21:18,000
+Congress, who has access
+
+489
+0:21:19.697,000 --> 0:21:2,000
+to be briefed on these things,
+
+490
+0:21:21.008,000 --> 0:21:23,000
+and now has the desire to be,
+
+491
+0:21:23.99,000 --> 0:21:25,000
+has produced bills to reform it,
+
+492
+0:21:26.397,000 --> 0:21:28,000
+and two independent White House panels
+
+493
+0:21:29.282,000 --> 0:21:31,000
+who reviewed all of the classified evidence
+
+494
+0:21:31.372,000 --> 0:21:33,000
+said these programs have never stopped
+
+495
+0:21:34.005,000 --> 0:21:35,000
+a single terrorist attack
+
+496
+0:21:35.766,000 --> 0:21:38,000
+that was imminent in the United States.
+
+497
+0:21:39.269,000 --> 0:21:42,000
+So is it really terrorism that we're stopping?
+
+498
+0:21:42.455,000 --> 0:21:44,000
+Do these programs have any value at all?
+
+499
+0:21:44.786,000 --> 0:21:46,000
+I say no, and all three branches
+
+500
+0:21:47.03,000 --> 0:21:49,000
+of the American government say no as well.
+
+501
+0:21:49.462,000 --> 0:21:5,000
+CA: I mean, do you think there's a deeper motivation
+
+502
+0:21:51.275,000 --> 0:21:54,000
+for them than the war against terrorism?
+
+503
+0:21:54.56,000 --> 0:21:55,000
+ES: I'm sorry, I couldn't hear you, say again?
+
+504
+0:21:56.11,000 --> 0:21:59,000
+CA: Sorry. Do you think there's a deeper motivation
+
+505
+0:21:59.11,000 --> 0:22:02,000
+for them other than the war against terrorism?
+
+506
+0:22:02.989,000 --> 0:22:04,000
+ES: Yeah. The bottom line is that terrorism
+
+507
+0:22:05.684,000 --> 0:22:07,000
+has always been what we in the intelligence world
+
+508
+0:22:07.885,000 --> 0:22:1,000
+would call a cover for action.
+
+509
+0:22:11.158,000 --> 0:22:12,000
+Terrorism is something that provokes
+
+510
+0:22:13.083,000 --> 0:22:15,000
+an emotional response that allows people
+
+511
+0:22:15.313,000 --> 0:22:19,000
+to rationalize authorizing powers and programs
+
+512
+0:22:19.67,000 --> 0:22:21,000
+that they wouldn't give otherwise.
+
+513
+0:22:22.114,000 --> 0:22:24,000
+The Bullrun and Edgehill-type programs,
+
+514
+0:22:24.6,000 --> 0:22:25,000
+the NSA asked for these authorities
+
+515
+0:22:26.317,000 --> 0:22:27,000
+back in the 1990s.
+
+516
+0:22:28.254,000 --> 0:22:3,000
+They asked the FBI to go to Congress and make the case.
+
+517
+0:22:31.244,000 --> 0:22:33,000
+The FBI went to Congress and did make the case.
+
+518
+0:22:33.418,000 --> 0:22:35,000
+But Congress and the American people said no.
+
+519
+0:22:35.983,000 --> 0:22:37,000
+They said, it's not worth the risk to our economy.
+
+520
+0:22:38.394,000 --> 0:22:39,000
+They said it's worth too much damage
+
+521
+0:22:40.313,000 --> 0:22:42,000
+to our society to justify the gains.
+
+522
+0:22:43,000 --> 0:22:47,000
+But what we saw is, in the post-9/11 era,
+
+523
+0:22:47.275,000 --> 0:22:5,000
+they used secrecy and they used the justification of terrorism
+
+524
+0:22:50.526,000 --> 0:22:51,000
+to start these programs in secret
+
+525
+0:22:52.46,000 --> 0:22:53,000
+without asking Congress,
+
+526
+0:22:54.272,000 --> 0:22:56,000
+without asking the American people,
+
+527
+0:22:56.452,000 --> 0:22:58,000
+and it's that kind of government behind closed doors
+
+528
+0:22:59.19,000 --> 0:23:01,000
+that we need to guard ourselves against,
+
+529
+0:23:01.749,000 --> 0:23:02,000
+because it makes us less safe,
+
+530
+0:23:02.999,000 --> 0:23:03,000
+and it offers no value.
+
+531
+0:23:04.891,000 --> 0:23:05,000
+CA: Okay, come with me here for a sec,
+
+532
+0:23:06.757,000 --> 0:23:08,000
+because I've got a more personal question for you.
+
+533
+0:23:08.939,000 --> 0:23:1,000
+Speaking of terror,
+
+534
+0:23:11.863,000 --> 0:23:14,000
+most people would find the situation you're in right now
+
+535
+0:23:15.82,000 --> 0:23:18,000
+in Russia pretty terrifying.
+
+536
+0:23:19.116,000 --> 0:23:22,000
+You obviously heard what happened,
+
+537
+0:23:22.703,000 --> 0:23:24,000
+what the treatment that Bradley Manning got,
+
+538
+0:23:24.896,000 --> 0:23:26,000
+Chelsea Manning as now is,
+
+539
+0:23:27.177,000 --> 0:23:29,000
+and there was a story in Buzzfeed saying that
+
+540
+0:23:29.664,000 --> 0:23:3,000
+there are people in the intelligence community
+
+541
+0:23:31.322,000 --> 0:23:33,000
+who want you dead.
+
+542
+0:23:33.601,000 --> 0:23:34,000
+How are you coping with this?
+
+543
+0:23:35.541,000 --> 0:23:36,000
+How are you coping with the fear?
+
+544
+0:23:37.49,000 --> 0:23:4,000
+ES: It's no mystery
+
+545
+0:23:40.494,000 --> 0:23:45,000
+that there are governments out there that want to see me dead.
+
+546
+0:23:46.142,000 --> 0:23:49,000
+I've made clear again and again and again
+
+547
+0:23:49.552,000 --> 0:23:52,000
+that I go to sleep every morning
+
+548
+0:23:52.918,000 --> 0:23:56,000
+thinking about what I can do for the American people.
+
+549
+0:23:57.478,000 --> 0:24:,000
+I don't want to harm my government.
+
+550
+0:24:00.51,000 --> 0:24:03,000
+I want to help my government,
+
+551
+0:24:03.773,000 --> 0:24:06,000
+but the fact that they are willing to
+
+552
+0:24:07.581,000 --> 0:24:09,000
+completely ignore due process,
+
+553
+0:24:09.901,000 --> 0:24:11,000
+they're willing to declare guilt
+
+554
+0:24:12.609,000 --> 0:24:15,000
+without ever seeing a trial,
+
+555
+0:24:15.895,000 --> 0:24:17,000
+these are things that we need to work against
+
+556
+0:24:18.311,000 --> 0:24:21,000
+as a society, and say hey, this is not appropriate.
+
+557
+0:24:21.889,000 --> 0:24:22,000
+We shouldn't be threatening dissidents.
+
+558
+0:24:23.716,000 --> 0:24:26,000
+We shouldn't be criminalizing journalism.
+
+559
+0:24:26.73,000 --> 0:24:29,000
+And whatever part I can do to see that end,
+
+560
+0:24:30.049,000 --> 0:24:33,000
+I'm happy to do despite the risks.
+
+561
+0:24:33.202,000 --> 0:24:34,000
+CA: So I'd actually like to get some feedback
+
+562
+0:24:34.726,000 --> 0:24:35,000
+from the audience here,
+
+563
+0:24:35.945,000 --> 0:24:37,000
+because I know there's widely differing reactions
+
+564
+0:24:38.049,000 --> 0:24:39,000
+to Edward Snowden.
+
+565
+0:24:39.99,000 --> 0:24:41,000
+Suppose you had the following two choices, right?
+
+566
+0:24:42.278,000 --> 0:24:44,000
+You could view what he did
+
+567
+0:24:45.084,000 --> 0:24:46,000
+as fundamentally a reckless act
+
+568
+0:24:46.978,000 --> 0:24:49,000
+that has endangered America
+
+569
+0:24:50.197,000 --> 0:24:53,000
+or you could view it as fundamentally a heroic act
+
+570
+0:24:53.76,000 --> 0:24:56,000
+that will work towards America and the world's
+
+571
+0:24:57.235,000 --> 0:24:58,000
+long-term good?
+
+572
+0:24:58.622,000 --> 0:25:01,000
+Those are the two choices I'll give you.
+
+573
+0:25:01.94,000 --> 0:25:03,000
+I'm curious to see who's willing to vote with
+
+574
+0:25:04.095,000 --> 0:25:05,000
+the first of those,
+
+575
+0:25:05.512,000 --> 0:25:08,000
+that this was a reckless act?
+
+576
+0:25:08.921,000 --> 0:25:09,000
+There are some hands going up.
+
+577
+0:25:10.576,000 --> 0:25:11,000
+Some hands going up.
+
+578
+0:25:11.96,000 --> 0:25:12,000
+It's hard to put your hand up
+
+579
+0:25:13.236,000 --> 0:25:15,000
+when the man is standing right here,
+
+580
+0:25:15.347,000 --> 0:25:16,000
+but I see them.
+
+581
+0:25:16.912,000 --> 0:25:18,000
+ES: I can see you. (Laughter)
+
+582
+0:25:19.443,000 --> 0:25:21,000
+CA: And who goes with the second choice,
+
+583
+0:25:21.704,000 --> 0:25:22,000
+the fundamentally heroic act?
+
+584
+0:25:23.587,000 --> 0:25:25,000
+(Applause) (Cheers)
+
+585
+0:25:26.234,000 --> 0:25:28,000
+And I think it's true to say that there are a lot of people
+
+586
+0:25:28.808,000 --> 0:25:3,000
+who didn't show a hand and I think
+
+587
+0:25:31.033,000 --> 0:25:32,000
+are still thinking this through,
+
+588
+0:25:32.743,000 --> 0:25:35,000
+because it seems to me that the debate around you
+
+589
+0:25:36.201,000 --> 0:25:39,000
+doesn't split along traditional political lines.
+
+590
+0:25:39.31,000 --> 0:25:41,000
+It's not left or right, it's not really about
+
+591
+0:25:41.564,000 --> 0:25:45,000
+pro-government, libertarian, or not just that.
+
+592
+0:25:45.686,000 --> 0:25:47,000
+Part of it is almost a generational issue.
+
+593
+0:25:48.399,000 --> 0:25:49,000
+You're part of a generation that grew up
+
+594
+0:25:50.207,000 --> 0:25:52,000
+with the Internet, and it seems as if
+
+595
+0:25:53.133,000 --> 0:25:56,000
+you become offended at almost a visceral level
+
+596
+0:25:56.341,000 --> 0:25:57,000
+when you see something done
+
+597
+0:25:57.637,000 --> 0:25:59,000
+that you think will harm the Internet.
+
+598
+0:25:59.699,000 --> 0:26:02,000
+Is there some truth to that?
+
+599
+0:26:03.272,000 --> 0:26:08,000
+ES: It is. I think it's very true.
+
+600
+0:26:08.32,000 --> 0:26:11,000
+This is not a left or right issue.
+
+601
+0:26:11.418,000 --> 0:26:13,000
+Our basic freedoms, and when I say our,
+
+602
+0:26:13.995,000 --> 0:26:14,000
+I don't just mean Americans,
+
+603
+0:26:15.542,000 --> 0:26:17,000
+I mean people around the world,
+
+604
+0:26:17.555,000 --> 0:26:19,000
+it's not a partisan issue.
+
+605
+0:26:19.901,000 --> 0:26:21,000
+These are things that all people believe,
+
+606
+0:26:21.94,000 --> 0:26:23,000
+and it's up to all of us to protect them,
+
+607
+0:26:24.465,000 --> 0:26:26,000
+and to people who have seen and enjoyed
+
+608
+0:26:27.297,000 --> 0:26:28,000
+a free and open Internet,
+
+609
+0:26:28.958,000 --> 0:26:31,000
+it's up to us to preserve that liberty
+
+610
+0:26:32.184,000 --> 0:26:33,000
+for the next generation to enjoy,
+
+611
+0:26:34.089,000 --> 0:26:35,000
+and if we don't change things,
+
+612
+0:26:35.954,000 --> 0:26:38,000
+if we don't stand up to make the changes
+
+613
+0:26:39.087,000 --> 0:26:42,000
+we need to do to keep the Internet safe,
+
+614
+0:26:42.294,000 --> 0:26:44,000
+not just for us but for everyone,
+
+615
+0:26:45.062,000 --> 0:26:46,000
+we're going to lose that,
+
+616
+0:26:46.527,000 --> 0:26:47,000
+and that would be a tremendous loss,
+
+617
+0:26:47.78,000 --> 0:26:49,000
+not just for us, but for the world.
+
+618
+0:26:50.127,000 --> 0:26:52,000
+CA: Well, I have heard similar language recently
+
+619
+0:26:52.2,000 --> 0:26:53,000
+from the founder of the world wide web,
+
+620
+0:26:54.048,000 --> 0:26:58,000
+who I actually think is with us, Sir Tim Berners-Lee.
+
+621
+0:26:58.565,000 --> 0:27:,000
+Tim, actually, would you like to come up and say,
+
+622
+0:27:01.269,000 --> 0:27:02,000
+do we have a microphone for Tim?
+
+623
+0:27:03.14,000 --> 0:27:05,000
+(Applause)
+
+624
+0:27:05.507,000 --> 0:27:12,000
+Tim, good to see you. Come up there.
+
+625
+0:27:12.582,000 --> 0:27:14,000
+Which camp are you in, by the way,
+
+626
+0:27:15.019,000 --> 0:27:18,000
+traitor, hero? I have a theory on this, but --
+
+627
+0:27:18.519,000 --> 0:27:2,000
+Tim Berners-Lee: I've given much longer
+
+628
+0:27:21.213,000 --> 0:27:24,000
+answers to that question, but hero,
+
+629
+0:27:24.268,000 --> 0:27:27,000
+if I have to make the choice between the two.
+
+630
+0:27:27.67,000 --> 0:27:3,000
+CA: And Ed, I think you've read
+
+631
+0:27:31.003,000 --> 0:27:33,000
+the proposal that Sir Tim has talked about
+
+632
+0:27:33.087,000 --> 0:27:35,000
+about a new Magna Carta to take back the Internet.
+
+633
+0:27:36.055,000 --> 0:27:38,000
+Is that something that makes sense?
+
+634
+0:27:38.157,000 --> 0:27:41,000
+ES: Absolutely. I mean, my generation, I grew up
+
+635
+0:27:41.798,000 --> 0:27:43,000
+not just thinking about the Internet,
+
+636
+0:27:43.857,000 --> 0:27:45,000
+but I grew up in the Internet,
+
+637
+0:27:46.221,000 --> 0:27:5,000
+and although I never expected to have the chance
+
+638
+0:27:50.881,000 --> 0:27:55,000
+to defend it in such a direct and practical manner
+
+639
+0:27:56.428,000 --> 0:27:59,000
+and to embody it in this unusual,
+
+640
+0:28:00.224,000 --> 0:28:02,000
+almost avatar manner,
+
+641
+0:28:02.353,000 --> 0:28:04,000
+I think there's something poetic about the fact that
+
+642
+0:28:05.059,000 --> 0:28:06,000
+one of the sons of the Internet
+
+643
+0:28:07.041,000 --> 0:28:1,000
+has actually become close to the Internet
+
+644
+0:28:10.093,000 --> 0:28:12,000
+as a result of their political expression.
+
+645
+0:28:12.579,000 --> 0:28:15,000
+And I believe that a Magna Carta for the Internet
+
+646
+0:28:16.29,000 --> 0:28:17,000
+is exactly what we need.
+
+647
+0:28:18.252,000 --> 0:28:21,000
+We need to encode our values
+
+648
+0:28:21.76,000 --> 0:28:24,000
+not just in writing but in the structure of the Internet,
+
+649
+0:28:25.107,000 --> 0:28:27,000
+and it's something that I hope,
+
+650
+0:28:27.347,000 --> 0:28:29,000
+I invite everyone in the audience,
+
+651
+0:28:29.87,000 --> 0:28:32,000
+not just here in Vancouver but around the world,
+
+652
+0:28:33.12,000 --> 0:28:35,000
+to join and participate in.
+
+653
+0:28:35.476,000 --> 0:28:37,000
+CA: Do you have a question for Ed?
+
+654
+0:28:37.79,000 --> 0:28:39,000
+TBL: Well, two questions,
+
+655
+0:28:39.82,000 --> 0:28:4,000
+a general question —
+
+656
+0:28:40.944,000 --> 0:28:41,000
+CA: Ed, can you still hear us?
+
+657
+0:28:42.739,000 --> 0:28:45,000
+ES: Yes, I can hear you. CA: Oh, he's back.
+
+658
+0:28:46.255,000 --> 0:28:47,000
+TBL: The wiretap on your line
+
+659
+0:28:47.85,000 --> 0:28:48,000
+got a little interfered with for a moment.
+
+660
+0:28:49.756,000 --> 0:28:5,000
+(Laughter)
+
+661
+0:28:51.409,000 --> 0:28:53,000
+ES: It's a little bit of an NSA problem.
+
+662
+0:28:53.611,000 --> 0:28:56,000
+TBL: So, from the 25 years,
+
+663
+0:28:57.418,000 --> 0:28:59,000
+stepping back and thinking,
+
+664
+0:29:00.355,000 --> 0:29:01,000
+what would you think would be
+
+665
+0:29:02.101,000 --> 0:29:04,000
+the best that we could achieve
+
+666
+0:29:04.708,000 --> 0:29:05,000
+from all the discussions that we have
+
+667
+0:29:06.568,000 --> 0:29:08,000
+about the web we want?
+
+668
+0:29:09.461,000 --> 0:29:12,000
+ES: When we think about
+
+669
+0:29:12.833,000 --> 0:29:15,000
+in terms of how far we can go,
+
+670
+0:29:15.946,000 --> 0:29:17,000
+I think that's a question that's really only limited
+
+671
+0:29:18.099,000 --> 0:29:2,000
+by what we're willing to put into it.
+
+672
+0:29:20.636,000 --> 0:29:22,000
+I think the Internet that we've enjoyed in the past
+
+673
+0:29:23.593,000 --> 0:29:28,000
+has been exactly what we as not just a nation
+
+674
+0:29:29.151,000 --> 0:29:32,000
+but as a people around the world need,
+
+675
+0:29:32.49,000 --> 0:29:36,000
+and by cooperating, by engaging not just
+
+676
+0:29:36.716,000 --> 0:29:37,000
+the technical parts of society,
+
+677
+0:29:38.12,000 --> 0:29:4,000
+but as you said, the users,
+
+678
+0:29:40.962,000 --> 0:29:42,000
+the people around the world who contribute
+
+679
+0:29:43.026,000 --> 0:29:45,000
+through the Internet, through social media,
+
+680
+0:29:45.468,000 --> 0:29:46,000
+who just check the weather,
+
+681
+0:29:47.195,000 --> 0:29:49,000
+who rely on it every day as a part of their life,
+
+682
+0:29:49.748,000 --> 0:29:51,000
+to champion that.
+
+683
+0:29:52.688,000 --> 0:29:54,000
+We'll get not just the Internet we've had,
+
+684
+0:29:55.225,000 --> 0:29:57,000
+but a better Internet, a better now,
+
+685
+0:29:58.174,000 --> 0:30:02,000
+something that we can use to build a future
+
+686
+0:30:02.217,000 --> 0:30:04,000
+that'll be better not just than what we hoped for
+
+687
+0:30:05.185,000 --> 0:30:07,000
+but anything that we could have imagined.
+
+688
+0:30:07.57,000 --> 0:30:12,000
+CA: It's 30 years ago that TED was founded, 1984.
+
+689
+0:30:13.032,000 --> 0:30:15,000
+A lot of the conversation since then has been
+
+690
+0:30:15.037,000 --> 0:30:17,000
+along the lines that
+
+691
+0:30:17.091,000 --> 0:30:18,000
+actually George Orwell got it wrong.
+
+692
+0:30:18.994,000 --> 0:30:19,000
+It's not Big Brother watching us.
+
+693
+0:30:20.713,000 --> 0:30:21,000
+We, through the power of the web,
+
+694
+0:30:22.327,000 --> 0:30:24,000
+and transparency, are now watching Big Brother.
+
+695
+0:30:24.691,000 --> 0:30:26,000
+Your revelations kind of drove a stake
+
+696
+0:30:26.952,000 --> 0:30:29,000
+through the heart of that rather optimistic view,
+
+697
+0:30:30.699,000 --> 0:30:33,000
+but you still believe there's a way of doing something
+
+698
+0:30:34.119,000 --> 0:30:35,000
+about that.
+
+699
+0:30:35.988,000 --> 0:30:36,000
+And you do too.
+
+700
+0:30:37.728,000 --> 0:30:43,000
+ES: Right, so there is an argument to be made
+
+701
+0:30:43.896,000 --> 0:30:46,000
+that the powers of Big Brother have increased enormously.
+
+702
+0:30:47.493,000 --> 0:30:51,000
+There was a recent legal article at Yale
+
+703
+0:30:51.822,000 --> 0:30:54,000
+that established something called the Bankston-Soltani Principle,
+
+704
+0:30:55.553,000 --> 0:31:,000
+which is that our expectation of privacy is violated
+
+705
+0:31:00.782,000 --> 0:31:01,000
+when the capabilities of government surveillance
+
+706
+0:31:02.651,000 --> 0:31:05,000
+have become cheaper by an order of magnitude,
+
+707
+0:31:05.846,000 --> 0:31:07,000
+and each time that occurs, we need to revisit
+
+708
+0:31:08.568,000 --> 0:31:11,000
+and rebalance our privacy rights.
+
+709
+0:31:11.621,000 --> 0:31:12,000
+Now, that hasn't happened since
+
+710
+0:31:13.611,000 --> 0:31:15,000
+the government's surveillance powers
+
+711
+0:31:15.709,000 --> 0:31:17,000
+have increased by several orders of magnitude,
+
+712
+0:31:18.489,000 --> 0:31:2,000
+and that's why we're in the problem that we're in today,
+
+713
+0:31:21.463,000 --> 0:31:24,000
+but there is still hope,
+
+714
+0:31:25.275,000 --> 0:31:27,000
+because the power of individuals
+
+715
+0:31:27.411,000 --> 0:31:29,000
+have also been increased by technology.
+
+716
+0:31:30.018,000 --> 0:31:32,000
+I am living proof
+
+717
+0:31:32.019,000 --> 0:31:34,000
+that an individual can go head to head
+
+718
+0:31:34.181,000 --> 0:31:36,000
+against the most powerful adversaries
+
+719
+0:31:36.499,000 --> 0:31:38,000
+and the most powerful intelligence agencies
+
+720
+0:31:38.82,000 --> 0:31:41,000
+around the world and win,
+
+721
+0:31:42.58,000 --> 0:31:43,000
+and I think that's something
+
+722
+0:31:44.24,000 --> 0:31:46,000
+that we need to take hope from,
+
+723
+0:31:46.663,000 --> 0:31:47,000
+and we need to build on
+
+724
+0:31:47.84,000 --> 0:31:49,000
+to make it accessible not just to technical experts
+
+725
+0:31:50.277,000 --> 0:31:52,000
+but to ordinary citizens around the world.
+
+726
+0:31:52.794,000 --> 0:31:53,000
+Journalism is not a crime,
+
+727
+0:31:54.461,000 --> 0:31:55,000
+communication is not a crime,
+
+728
+0:31:56.251,000 --> 0:31:58,000
+and we should not be monitored in our everyday activities.
+
+729
+0:31:59.195,000 --> 0:32:01,000
+CA: I'm not quite sure how you shake the hand of a bot,
+
+730
+0:32:01.924,000 --> 0:32:06,000
+but I imagine it's, this is the hand right here. TBL: That'll come very soon.
+
+731
+0:32:07.814,000 --> 0:32:08,000
+ES: Nice to meet you,
+
+732
+0:32:08.937,000 --> 0:32:1,000
+and I hope my beam looks as nice
+
+733
+0:32:10.984,000 --> 0:32:12,000
+as my view of you guys does.
+
+734
+0:32:13.328,000 --> 0:32:15,000
+CA: Thank you, Tim.
+
+735
+0:32:16.048,000 --> 0:32:21,000
+(Applause)
+
+736
+0:32:21.78,000 --> 0:32:25,000
+I mean, The New York Times recently called for an amnesty for you.
+
+737
+0:32:25.832,000 --> 0:32:29,000
+Would you welcome the chance to come back to America?
+
+738
+0:32:30.058,000 --> 0:32:33,000
+ES: Absolutely. There's really no question,
+
+739
+0:32:33.943,000 --> 0:32:35,000
+the principles that have been the foundation
+
+740
+0:32:36.525,000 --> 0:32:38,000
+of this project
+
+741
+0:32:38.918,000 --> 0:32:42,000
+have been the public interest
+
+742
+0:32:42.998,000 --> 0:32:44,000
+and the principles that underly
+
+743
+0:32:45.941,000 --> 0:32:48,000
+the journalistic establishment in the United States
+
+744
+0:32:49.217,000 --> 0:32:51,000
+and around the world,
+
+745
+0:32:51.663,000 --> 0:32:55,000
+and I think if the press is now saying,
+
+746
+0:32:56.508,000 --> 0:32:58,000
+we support this,
+
+747
+0:32:58.59,000 --> 0:33:,000
+this is something that needed to happen,
+
+748
+0:33:00.678,000 --> 0:33:02,000
+that's a powerful argument, but it's not the final argument,
+
+749
+0:33:03.322,000 --> 0:33:05,000
+and I think that's something that public should decide.
+
+750
+0:33:06.035,000 --> 0:33:07,000
+But at the same time,
+
+751
+0:33:07.877,000 --> 0:33:08,000
+the government has hinted that they want
+
+752
+0:33:09.423,000 --> 0:33:1,000
+some kind of deal,
+
+753
+0:33:11.267,000 --> 0:33:13,000
+that they want me to compromise
+
+754
+0:33:13.381,000 --> 0:33:15,000
+the journalists with which I've been working,
+
+755
+0:33:15.556,000 --> 0:33:16,000
+to come back,
+
+756
+0:33:16.989,000 --> 0:33:18,000
+and I want to make it very clear
+
+757
+0:33:19.542,000 --> 0:33:21,000
+that I did not do this to be safe.
+
+758
+0:33:22.268,000 --> 0:33:24,000
+I did this to do what was right,
+
+759
+0:33:24.536,000 --> 0:33:26,000
+and I'm not going to stop my work
+
+760
+0:33:26.763,000 --> 0:33:27,000
+in the public interest
+
+761
+0:33:28.137,000 --> 0:33:3,000
+just to benefit myself.
+
+762
+0:33:30.926,000 --> 0:33:35,000
+(Applause)
+
+763
+0:33:36.704,000 --> 0:33:37,000
+CA: In the meantime,
+
+764
+0:33:38.623,000 --> 0:33:41,000
+courtesy of the Internet and this technology,
+
+765
+0:33:42.391,000 --> 0:33:43,000
+you're here, back in North America,
+
+766
+0:33:44.041,000 --> 0:33:48,000
+not quite the U.S., Canada, in this form.
+
+767
+0:33:48.057,000 --> 0:33:52,000
+I'm curious, how does that feel?
+
+768
+0:33:52.951,000 --> 0:33:54,000
+ES: Canada is different than what I expected.
+
+769
+0:33:55.089,000 --> 0:33:57,000
+It's a lot warmer.
+
+770
+0:33:57.214,000 --> 0:34:02,000
+(Laughter)
+
+771
+0:34:02.921,000 --> 0:34:05,000
+CA: At TED, the mission is "ideas worth spreading."
+
+772
+0:34:06.177,000 --> 0:34:08,000
+If you could encapsulate it in a single idea,
+
+773
+0:34:08.375,000 --> 0:34:1,000
+what is your idea worth spreading
+
+774
+0:34:10.59,000 --> 0:34:14,000
+right now at this moment?
+
+775
+0:34:14.665,000 --> 0:34:17,000
+ES: I would say the last year has been a reminder
+
+776
+0:34:18.315,000 --> 0:34:21,000
+that democracy may die behind closed doors,
+
+777
+0:34:21.918,000 --> 0:34:22,000
+but we as individuals are born
+
+778
+0:34:23.822,000 --> 0:34:25,000
+behind those same closed doors,
+
+779
+0:34:26.471,000 --> 0:34:28,000
+and we don't have to give up
+
+780
+0:34:28.836,000 --> 0:34:31,000
+our privacy to have good government.
+
+781
+0:34:32.069,000 --> 0:34:34,000
+We don't have to give up our liberty
+
+782
+0:34:34.159,000 --> 0:34:35,000
+to have security.
+
+783
+0:34:35.938,000 --> 0:34:37,000
+And I think by working together
+
+784
+0:34:38.726,000 --> 0:34:4,000
+we can have both open government
+
+785
+0:34:41.051,000 --> 0:34:42,000
+and private lives,
+
+786
+0:34:42.988,000 --> 0:34:43,000
+and I look forward to working with everyone
+
+787
+0:34:44.761,000 --> 0:34:46,000
+around the world to see that happen.
+
+788
+0:34:47.3,000 --> 0:34:48,000
+Thank you very much.
+
+789
+0:34:48.638,000 --> 0:34:5,000
+CA: Ed, thank you.
+
+790
+0:34:50.878,000 --> 0:34:58,000
+(Applause)
+

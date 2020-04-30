@@ -1,0 +1,1912 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Elisabeth Buffard Relecteur: eric vautier
+
+2
+0:00:16.26,000 --> 0:00:19,000
+Je voudrais parler aujourd'hui d'une idée. C'est une grande idée.
+
+3
+0:00:19.26,000 --> 0:00:21,000
+En fait, je pense qu'on finira par
+
+4
+0:00:21.26,000 --> 0:00:23,000
+la considérer comme sans doute la plus grande idée
+
+5
+0:00:23.26,000 --> 0:00:25,000
+qui ait émergé au cours du siècle passé.
+
+6
+0:00:25.26,000 --> 0:00:27,000
+C'est l'idée de calcul.
+
+7
+0:00:27.26,000 --> 0:00:29,000
+Bien sûr, cette idée nous a apporté
+
+8
+0:00:29.26,000 --> 0:00:32,000
+toute la technologie computationnelle que nous avons aujourd'hui
+
+9
+0:00:32.26,000 --> 0:00:35,000
+Mais il y a en fait beaucoup plus que ça dans le calcul.
+
+10
+0:00:35.26,000 --> 0:00:38,000
+C'est vraiment une idée vraiment très profonde, très puissante, très fondamentale,
+
+11
+0:00:38.26,000 --> 0:00:41,000
+dont nous avons à peine commencé à voir les effets.
+
+12
+0:00:41.26,000 --> 0:00:44,000
+Eh bien, j'ai passé les 30 dernières années de ma vie
+
+13
+0:00:44.26,000 --> 0:00:46,000
+à travailler sur trois grands projets
+
+14
+0:00:46.26,000 --> 0:00:49,000
+qui essayent vraiment de prendre l'idée de calcul au sérieux.
+
+15
+0:00:50.26,000 --> 0:00:53,000
+J'ai donc commencé jeune en tant que physicien
+
+16
+0:00:53.26,000 --> 0:00:55,000
+à utiliser des ordinateurs comme des outils.
+
+17
+0:00:55.26,000 --> 0:00:57,000
+Puis, j'ai commencé à creuser,
+
+18
+0:00:57.26,000 --> 0:00:59,000
+à réfléchir sur les calculs que je pourrais vouloir faire,
+
+19
+0:00:59.26,000 --> 0:01:02,000
+à essayer de comprendre à partir de quelles primitives on pouvait les construire
+
+20
+0:01:02.26,000 --> 0:01:05,000
+et comment ils pourraient être aussi automatisés que possible.
+
+21
+0:01:05.26,000 --> 0:01:07,000
+Finalement, j'ai créé toute une structure
+
+22
+0:01:07.26,000 --> 0:01:09,000
+basée sur la programmation symbolique
+
+23
+0:01:09.26,000 --> 0:01:11,000
+qui m'a permis de construire Mathematica.
+
+24
+0:01:11.26,000 --> 0:01:13,000
+Et pendant ces 23 dernières années, à un rythme croissant,
+
+25
+0:01:13.26,000 --> 0:01:15,000
+nous avons été verser de plus en plus d'idées
+
+26
+0:01:15.26,000 --> 0:01:17,000
+et de capacités dans Mathematica,
+
+27
+0:01:17.26,000 --> 0:01:2,000
+je suis heureux de dire que cela a conduit à beaucoup de bonnes choses
+
+28
+0:01:20.26,000 --> 0:01:22,000
+en Recherche et Développement et en éducation,
+
+29
+0:01:22.26,000 --> 0:01:24,000
+dans beaucoup d'autres domaines.
+
+30
+0:01:24.26,000 --> 0:01:26,000
+Eh bien, je dois admettre que, en fait,
+
+31
+0:01:26.26,000 --> 0:01:29,000
+que j'avais aussi une raison très égoïste pour construire Mathematica.
+
+32
+0:01:29.26,000 --> 0:01:31,000
+Je voulais l'utiliser moi-même,
+
+33
+0:01:31.26,000 --> 0:01:33,000
+un peu comme Galilée avait utilisé son télescope
+
+34
+0:01:33.26,000 --> 0:01:35,000
+il y a 400 ans.
+
+35
+0:01:35.26,000 --> 0:01:38,000
+Mais je voulais regarder, non pas l'univers astronomique,
+
+36
+0:01:38.26,000 --> 0:01:41,000
+mais l'univers computationnel.
+
+37
+0:01:41.26,000 --> 0:01:43,000
+Nous considérons habituellement les programmes comme
+
+38
+0:01:43.26,000 --> 0:01:45,000
+des choses compliquées que nous construisons
+
+39
+0:01:45.26,000 --> 0:01:47,000
+à des fins très spécifiques.
+
+40
+0:01:47.26,000 --> 0:01:5,000
+Mais qu'en est-il de l'espace de tous les programmes possibles?
+
+41
+0:01:50.26,000 --> 0:01:53,000
+Voici une représentation d'un programme très simple.
+
+42
+0:01:53.26,000 --> 0:01:55,000
+Si nous exécutons ce programme,
+
+43
+0:01:55.26,000 --> 0:01:57,000
+voici ce que nous obtenons.
+
+44
+0:01:57.26,000 --> 0:01:59,000
+Très simple.
+
+45
+0:01:59.26,000 --> 0:02:01,000
+Essayons donc de modifier un peu la règle
+
+46
+0:02:01.26,000 --> 0:02:03,000
+pour ce programme .
+
+47
+0:02:03.26,000 --> 0:02:05,000
+Nous obtenons maintenant un autre résultat,
+
+48
+0:02:05.26,000 --> 0:02:07,000
+toujours très simple.
+
+49
+0:02:07.26,000 --> 0:02:1,000
+Essayez de le changer à nouveau.
+
+50
+0:02:10.26,000 --> 0:02:12,000
+Vous obtenez quelque chose d'un peu plus compliqué,
+
+51
+0:02:12.26,000 --> 0:02:14,000
+mais si nous continuons à le faire tourner pendant un certain temps,
+
+52
+0:02:14.26,000 --> 0:02:17,000
+nous constatons que, bien que le schéma que nous obtenons soit très complexe,
+
+53
+0:02:17.26,000 --> 0:02:2,000
+il a une structure très régulière.
+
+54
+0:02:20.26,000 --> 0:02:23,000
+La question est donc: est-ce que qu'autre chose peut se produire?
+
+55
+0:02:23.26,000 --> 0:02:25,000
+Eh bien, nous pouvons faire une petite expérience.
+
+56
+0:02:25.26,000 --> 0:02:28,000
+Faisons simplement une petite expérience mathématique, et essayons de savoir.
+
+57
+0:02:29.26,000 --> 0:02:32,000
+Exécutons tous les programmes possibles
+
+58
+0:02:32.26,000 --> 0:02:34,000
+du type particulier que nous étudions.
+
+59
+0:02:34.26,000 --> 0:02:36,000
+On les appelle des automates cellulaires.
+
+60
+0:02:36.26,000 --> 0:02:38,000
+Vous pouvez voir une grande diversité dans le comportement ici.
+
+61
+0:02:38.26,000 --> 0:02:4,000
+La plupart d'entre eux font des choses très simples.
+
+62
+0:02:40.26,000 --> 0:02:42,000
+Mais si vous regardez toutes ces images différentes,
+
+63
+0:02:42.26,000 --> 0:02:44,000
+à la règle numéro 30,
+
+64
+0:02:44.26,000 --> 0:02:46,000
+vous commencez à voir que quelque chose d'intéressant se passe.
+
+65
+0:02:46.26,000 --> 0:02:48,000
+Regardons de plus près
+
+66
+0:02:48.26,000 --> 0:02:5,000
+la règle numéro 30 ici.
+
+67
+0:02:50.26,000 --> 0:02:52,000
+Voilà.
+
+68
+0:02:52.26,000 --> 0:02:55,000
+Nous ne faisons que suivre cette règle très simple ici, en bas,
+
+69
+0:02:55.26,000 --> 0:02:57,000
+mais nous obtenons toutes des choses incroyables.
+
+70
+0:02:57.26,000 --> 0:02:59,000
+Ce n'est pas du tout ce à quoi nous sommes habitués,
+
+71
+0:02:59.26,000 --> 0:03:01,000
+et je dois dire que, quand j'ai vu cela pour la première fois,
+
+72
+0:03:01.26,000 --> 0:03:04,000
+ce fut un grand choc pour mon intuition,
+
+73
+0:03:04.26,000 --> 0:03:06,000
+et, en fait, pour le comprendre,
+
+74
+0:03:06.26,000 --> 0:03:08,000
+j'ai finalement dû créer
+
+75
+0:03:08.26,000 --> 0:03:1,000
+un nouveau type de science.
+
+76
+0:03:11.26,000 --> 0:03:13,000
+(Rires)
+
+77
+0:03:13.26,000 --> 0:03:16,000
+Cette science est différente, plus générale,
+
+78
+0:03:16.26,000 --> 0:03:18,000
+que la science basée sur les mathématiques de
+
+79
+0:03:18.26,000 --> 0:03:21,000
+ces 300 dernières années.
+
+80
+0:03:21.26,000 --> 0:03:23,000
+Il a toujours semblé très mystérieux
+
+81
+0:03:23.26,000 --> 0:03:26,000
+comment la nature, apparemment sans effort
+
+82
+0:03:26.26,000 --> 0:03:28,000
+parvient à produire tant de choses
+
+83
+0:03:28.26,000 --> 0:03:31,000
+qui nous semblent si complexes.
+
+84
+0:03:31.26,000 --> 0:03:34,000
+Eh bien, je pense que nous avons trouvé son secret.
+
+85
+0:03:34.26,000 --> 0:03:37,000
+C'est juste qu'en échantillonnant ce qui existe dans l'univers computationnel,
+
+86
+0:03:37.26,000 --> 0:03:4,000
+on obtient plutôt fréquemment des choses semblables à la règle 30
+
+87
+0:03:40.26,000 --> 0:03:43,000
+ou à cela.
+
+88
+0:03:44.26,000 --> 0:03:46,000
+Sachant cela, on commence à expliquer
+
+89
+0:03:46.26,000 --> 0:03:49,000
+beaucoup de mystères de longue date dans la science.
+
+90
+0:03:49.26,000 --> 0:03:51,000
+Cependant, cela soulève aussi de nouveaux problèmes,
+
+91
+0:03:51.26,000 --> 0:03:54,000
+comme l'irréductibilité computationnelle.
+
+92
+0:03:54.26,000 --> 0:03:57,000
+Nous sommes habitués à ce que la science nous permette de prédire des choses,
+
+93
+0:03:57.26,000 --> 0:03:59,000
+mais quelque chose comme ceci
+
+94
+0:03:59.26,000 --> 0:04:01,000
+est fondamentalement irréductible.
+
+95
+0:04:01.26,000 --> 0:04:03,000
+La seule façon d'en trouver le résultat
+
+96
+0:04:03.26,000 --> 0:04:06,000
+est, en fait, de simplement le regarder évoluer.
+
+97
+0:04:06.26,000 --> 0:04:08,000
+Il est connecté à ce que j'appelle
+
+98
+0:04:08.26,000 --> 0:04:1,000
+le principe de l'équivalence de calcul,
+
+99
+0:04:10.26,000 --> 0:04:13,000
+qui nous dit que même les systèmes incroyablement simples
+
+100
+0:04:13.26,000 --> 0:04:16,000
+peuvent faire des calculs aussi complexes.
+
+101
+0:04:16.26,000 --> 0:04:19,000
+Pas besoin de beaucoup d'évolution technologique ou biologique
+
+102
+0:04:19.26,000 --> 0:04:21,000
+pour être capable de faire un calcul arbitraire,
+
+103
+0:04:21.26,000 --> 0:04:23,000
+juste quelque chose qui se passe, naturellement,
+
+104
+0:04:23.26,000 --> 0:04:25,000
+partout.
+
+105
+0:04:25.26,000 --> 0:04:28,000
+Des choses avec des règles aussi simples que celles-ci peuvent le faire.
+
+106
+0:04:29.26,000 --> 0:04:31,000
+Eh bien, cela a des implications profondes
+
+107
+0:04:31.26,000 --> 0:04:33,000
+sur les limites de la science,
+
+108
+0:04:33.26,000 --> 0:04:35,000
+sur la prévisibilité et la contrôlabilité
+
+109
+0:04:35.26,000 --> 0:04:38,000
+des processus biologiques ou des économies,
+
+110
+0:04:38.26,000 --> 0:04:4,000
+sur l'intelligence dans l'univers,
+
+111
+0:04:40.26,000 --> 0:04:42,000
+sur des questions comme le libre-arbitre
+
+112
+0:04:42.26,000 --> 0:04:45,000
+et sur la création de technologie.
+
+113
+0:04:45.26,000 --> 0:04:47,000
+Travaillant sur cette science depuis de nombreuses années,
+
+114
+0:04:47.26,000 --> 0:04:49,000
+je me demandais,
+
+115
+0:04:49.26,000 --> 0:04:51,000
+«Quelle sera sa première application géniale?"
+
+116
+0:04:51.26,000 --> 0:04:53,000
+Eh bien, depuis que je suis enfant,
+
+117
+0:04:53.26,000 --> 0:04:55,000
+je réfléchis à la systématisation des connaissances
+
+118
+0:04:55.26,000 --> 0:04:57,000
+et en quelque sorte à son informatisation.
+
+119
+0:04:57.26,000 --> 0:04:59,000
+Des gens comme Leibniz s'étaient également interrogés là-dessus
+
+120
+0:04:59.26,000 --> 0:05:01,000
+300 ans auparavant.
+
+121
+0:05:01.26,000 --> 0:05:03,000
+Mais j'avais toujours pensé que pour faire des progrès,
+
+122
+0:05:03.26,000 --> 0:05:06,000
+je devrais principalement répliquer un cerveau entier.
+
+123
+0:05:06.26,000 --> 0:05:08,000
+Eh bien, maintenant j'en suis arrivé à penser que
+
+124
+0:05:08.26,000 --> 0:05:11,000
+mon paradigme scientifique suggère quelque chose de différent.
+
+125
+0:05:11.26,000 --> 0:05:13,000
+Et, soit dit en passant, j'ai maintenant obtenu
+
+126
+0:05:13.26,000 --> 0:05:16,000
+des capacités de calcul énormes dans Mathematica,
+
+127
+0:05:16.26,000 --> 0:05:19,000
+et je suis PDG avec des ressources matérielles
+
+128
+0:05:19.26,000 --> 0:05:22,000
+pour faire de grands projets, apparemment fous.
+
+129
+0:05:22.26,000 --> 0:05:24,000
+Ainsi j'ai décidé de simplement essayer de voir
+
+130
+0:05:24.26,000 --> 0:05:27,000
+quelle quantité de la connaissance systématique dans le monde
+
+131
+0:05:27.26,000 --> 0:05:29,000
+nous pouvons informatiser.
+
+132
+0:05:29.26,000 --> 0:05:31,000
+Donc, ça a été un grand projet très complexe,
+
+133
+0:05:31.26,000 --> 0:05:34,000
+dont je n'étais pas du tout sûr qu'il allait aboutir.
+
+134
+0:05:34.26,000 --> 0:05:37,000
+Mais je suis heureux de dire qu'il va vraiment très bien.
+
+135
+0:05:37.26,000 --> 0:05:39,000
+L'année dernière, nous avons pu
+
+136
+0:05:39.26,000 --> 0:05:41,000
+lancer la première version
+
+137
+0:05:41.26,000 --> 0:05:43,000
+en ligne de Wolfram Alpha.
+
+138
+0:05:43.26,000 --> 0:05:46,000
+Il a pour objectif d'être un moteur de connaissances sérieuses
+
+139
+0:05:46.26,000 --> 0:05:49,000
+qui calcule les réponses aux questions.
+
+140
+0:05:49.26,000 --> 0:05:51,000
+Faisons un essai.
+
+141
+0:05:51.26,000 --> 0:05:53,000
+Commençons avec quelque chose de très simple.
+
+142
+0:05:53.26,000 --> 0:05:55,000
+Espérons que tout aille bien.
+
+143
+0:05:55.26,000 --> 0:05:57,000
+Très bien. Très bien.
+
+144
+0:05:57.26,000 --> 0:05:59,000
+Jusqu'ici tout va bien.
+
+145
+0:05:59.26,000 --> 0:06:02,000
+(Rires)
+
+146
+0:06:02.26,000 --> 0:06:05,000
+Essayons quelque chose d'un peu plus difficile.
+
+147
+0:06:05.26,000 --> 0:06:07,000
+Disons que...
+
+148
+0:06:07.26,000 --> 0:06:1,000
+Faisons quelque chose de mathématique
+
+149
+0:06:10.26,000 --> 0:06:13,000
+et avec de la chance il trouvera la réponse
+
+150
+0:06:13.26,000 --> 0:06:15,000
+et essayera de nous dire des choses intéressantes
+
+151
+0:06:15.26,000 --> 0:06:17,000
+sur les mathématiques en rapport.
+
+152
+0:06:17.26,000 --> 0:06:2,000
+Nous pourrions lui demander quelque chose sur le monde réel.
+
+153
+0:06:20.26,000 --> 0:06:22,000
+Disons que - je ne sais pas -
+
+154
+0:06:22.26,000 --> 0:06:25,000
+Quel est le PIB de l'Espagne?
+
+155
+0:06:25.26,000 --> 0:06:27,000
+Il devrait être en mesure de nous le dire.
+
+156
+0:06:27.26,000 --> 0:06:29,000
+Maintenant, nous pourrions calculer quelque chose lié à cela,
+
+157
+0:06:29.26,000 --> 0:06:31,000
+Disons le PIB de l'Espagne
+
+158
+0:06:31.26,000 --> 0:06:33,000
+divisé par, je ne sais pas,
+
+159
+0:06:33.26,000 --> 0:06:35,000
+le - hmmm ...
+
+160
+0:06:35.26,000 --> 0:06:37,000
+Disons le chiffre d'affaires de Microsoft.
+
+161
+0:06:37.26,000 --> 0:06:39,000
+(Rires)
+
+162
+0:06:39.26,000 --> 0:06:41,000
+L'idée est que nous pouvons entrer ceci,
+
+163
+0:06:41.26,000 --> 0:06:44,000
+ce genre de question sous quelque forme que nous la concevions.
+
+164
+0:06:44.26,000 --> 0:06:46,000
+Essayons donc de poser une question,
+
+165
+0:06:46.26,000 --> 0:06:48,000
+comme une question sur la santé.
+
+166
+0:06:48.26,000 --> 0:06:51,000
+Alors disons que nous avons un laboratoire de recherche qui -
+
+167
+0:06:51.26,000 --> 0:06:53,000
+vous savez, le taux de cholesterol d'un homme de 50 ans
+
+168
+0:06:53.26,000 --> 0:06:56,000
+est de 140.
+
+169
+0:06:56.26,000 --> 0:06:58,000
+Tapons cela, et maintenant Wolfram Alpha
+
+170
+0:06:58.26,000 --> 0:07:,000
+va utiliser les données de santé publique disponibles
+
+171
+0:07:00.26,000 --> 0:07:02,000
+et essayer de trouver
+
+172
+0:07:02.26,000 --> 0:07:05,000
+à quelle partie de la population cela correspond, etc.
+
+173
+0:07:05.26,000 --> 0:07:08,000
+Ou essayons de poser une question sur, je ne sais pas,
+
+174
+0:07:08.26,000 --> 0:07:1,000
+la station spatiale internationale.
+
+175
+0:07:10.26,000 --> 0:07:12,000
+Ce qui se passe ici, c'est que
+
+176
+0:07:12.26,000 --> 0:07:14,000
+Wolfram Alpha ne se contente pas de chercher quelque chose;
+
+177
+0:07:14.26,000 --> 0:07:17,000
+il calcule, en temps réel,
+
+178
+0:07:17.26,000 --> 0:07:2,000
+où la station spatiale internationale est maintenant, en ce moment,
+
+179
+0:07:20.26,000 --> 0:07:23,000
+à quelle vitesse elle va, etc.
+
+180
+0:07:24.26,000 --> 0:07:27,000
+Wolfram Alpha connaît donc beaucoup, beaucoup de choses.
+
+181
+0:07:27.26,000 --> 0:07:29,000
+Il couvre assez bien à ce jour,
+
+182
+0:07:29.26,000 --> 0:07:31,000
+tout ce que vous pourriez trouver
+
+183
+0:07:31.26,000 --> 0:07:34,000
+dans une bibliothèque de référence standard.
+
+184
+0:07:34.26,000 --> 0:07:36,000
+Mais l'objectif est d'aller beaucoup plus loin
+
+185
+0:07:36.26,000 --> 0:07:39,000
+et, de façon très large, de démocratiser
+
+186
+0:07:39.26,000 --> 0:07:42,000
+tout ce genre de connaissance,
+
+187
+0:07:42.26,000 --> 0:07:44,000
+et d'essayer de constituer une source
+
+188
+0:07:44.26,000 --> 0:07:46,000
+qualifiée dans tous les domaines,
+
+189
+0:07:46.26,000 --> 0:07:49,000
+pour être en mesure de calculer les réponses aux questions spécifiques que les gens ont,
+
+190
+0:07:49.26,000 --> 0:07:51,000
+pas en cherchant ce que les autres
+
+191
+0:07:51.26,000 --> 0:07:53,000
+ont pu écrire avant,
+
+192
+0:07:53.26,000 --> 0:07:55,000
+mais en utilisant la connaissance intégrée
+
+193
+0:07:55.26,000 --> 0:07:58,000
+pour calculer de toutes nouvelles réponses à une question spécifique.
+
+194
+0:07:58.26,000 --> 0:08:,000
+Maintenant, bien sûr, Wolfram Alpha
+
+195
+0:08:00.26,000 --> 0:08:02,000
+est un projet à long terme, monumentalement énorme,
+
+196
+0:08:02.26,000 --> 0:08:04,000
+avec beaucoup, beaucoup de défis.
+
+197
+0:08:04.26,000 --> 0:08:07,000
+Pour commencer, il faut organiser une quantité astronomique
+
+198
+0:08:07.26,000 --> 0:08:1,000
+de sources différentes de faits et de données,
+
+199
+0:08:10.26,000 --> 0:08:13,000
+nous avons construit tout un pipeline d'automatisation Mathematica
+
+200
+0:08:13.26,000 --> 0:08:16,000
+et d'experts humains pour ce faire.
+
+201
+0:08:16.26,000 --> 0:08:18,000
+Mais ce n'est que le début.
+
+202
+0:08:18.26,000 --> 0:08:2,000
+Compte tenu des faits ou des données brutes
+
+203
+0:08:20.26,000 --> 0:08:22,000
+pour répondre effectivement aux questions,
+
+204
+0:08:22.26,000 --> 0:08:24,000
+on doit calculer,
+
+205
+0:08:24.26,000 --> 0:08:26,000
+on doit mettre en œuvre toutes les méthodes, tous les modèles,
+
+206
+0:08:26.26,000 --> 0:08:28,000
+tous les algorithmes, etc.
+
+207
+0:08:28.26,000 --> 0:08:31,000
+que la science et d'autres domaines ont construits au fil des siècles.
+
+208
+0:08:31.26,000 --> 0:08:34,000
+Eh bien, même à partir de Mathematica,
+
+209
+0:08:34.26,000 --> 0:08:36,000
+c'est toujours une énorme quantité de travail.
+
+210
+0:08:36.26,000 --> 0:08:38,000
+Jusqu'à présent, il y a environ 8 millions de lignes
+
+211
+0:08:38.26,000 --> 0:08:4,000
+de code Mathematica dans Wolfram Alpha
+
+212
+0:08:40.26,000 --> 0:08:43,000
+construit par des experts de très nombreux domaines différents.
+
+213
+0:08:43.26,000 --> 0:08:46,000
+Eh bien, une idée essentielle de Wolfram Alpha
+
+214
+0:08:46.26,000 --> 0:08:48,000
+est que vous pouvez juste lui poser des questions
+
+215
+0:08:48.26,000 --> 0:08:51,000
+en utilisant le langage humain ordinaire,
+
+216
+0:08:51.26,000 --> 0:08:53,000
+ce qui signifie que nous devons être en mesure de prendre
+
+217
+0:08:53.26,000 --> 0:08:56,000
+tous ces énoncés étranges que les gens tapent dans le champ de saisie
+
+218
+0:08:56.26,000 --> 0:08:58,000
+et de les comprendre.
+
+219
+0:08:58.26,000 --> 0:09:,000
+Je dois dire que je pensais que cette étape
+
+220
+0:09:00.26,000 --> 0:09:03,000
+pourrait bien être tout bonnement impossible.
+
+221
+0:09:04.26,000 --> 0:09:06,000
+Deux événements importants ont eu lieu.
+
+222
+0:09:06.26,000 --> 0:09:09,000
+Tout d'abord, un tas de nouvelles idées sur la linguistique
+
+223
+0:09:09.26,000 --> 0:09:12,000
+qui venaient de l'étude de l'univers computationnel.
+
+224
+0:09:12.26,000 --> 0:09:15,000
+Ensuite, la réalisation que d'avoir une connaissance réelle calculable
+
+225
+0:09:15.26,000 --> 0:09:17,000
+change complètement la façon dont on peut
+
+226
+0:09:17.26,000 --> 0:09:2,000
+aborder la compréhension du langage.
+
+227
+0:09:20.26,000 --> 0:09:22,000
+Et, bien sûr, maintenant
+
+228
+0:09:22.26,000 --> 0:09:24,000
+avec Wolfram Alpha effectivement dans la nature,
+
+229
+0:09:24.26,000 --> 0:09:26,000
+nous pouvons tirer des conclusions par son utilisation actuelle.
+
+230
+0:09:26.26,000 --> 0:09:28,000
+Et, en effet, il y a
+
+231
+0:09:28.26,000 --> 0:09:3,000
+une coévolution intéressante
+
+232
+0:09:30.26,000 --> 0:09:32,000
+entre Wolfram Alpha
+
+233
+0:09:32.26,000 --> 0:09:34,000
+et ses utilisateurs humains.
+
+234
+0:09:34.26,000 --> 0:09:36,000
+C'est vraiment encourageant.
+
+235
+0:09:36.26,000 --> 0:09:38,000
+À l'heure actuelle, si l'on regarde les requêtes web,
+
+236
+0:09:38.26,000 --> 0:09:41,000
+plus de 80% sont traitées avec succès la première fois.
+
+237
+0:09:41.26,000 --> 0:09:43,000
+Si vous regardez l'application iPhone,
+
+238
+0:09:43.26,000 --> 0:09:45,000
+le pourcentage est beaucoup plus grand.
+
+239
+0:09:45.26,000 --> 0:09:47,000
+Donc, je suis plutôt content de tout cela.
+
+240
+0:09:47.26,000 --> 0:09:49,000
+Mais, à bien des égards,
+
+241
+0:09:49.26,000 --> 0:09:52,000
+nous en sommes encore au tout début avec Wolfram Alpha.
+
+242
+0:09:52.26,000 --> 0:09:54,000
+Tout cela progresse très bien
+
+243
+0:09:54.26,000 --> 0:09:56,000
+Nous devenons plus confiants.
+
+244
+0:09:56.26,000 --> 0:09:58,000
+Vous pouvez vous attendre à voir la technologie Wolfram Alpha
+
+245
+0:09:58.26,000 --> 0:10:,000
+apparaître à plus en plus d'endroits,
+
+246
+0:10:00.26,000 --> 0:10:03,000
+travaillant à la fois avec ce genre de données publiques, comme sur le site,
+
+247
+0:10:03.26,000 --> 0:10:05,000
+et avec la connaissance privée
+
+248
+0:10:05.26,000 --> 0:10:08,000
+pour des personnes, des entreprises, etc.
+
+249
+0:10:08.26,000 --> 0:10:11,000
+Je me suis rendu compte que Wolfram Alpha donne à chacun
+
+250
+0:10:11.26,000 --> 0:10:13,000
+un tout nouveau type de calcul
+
+251
+0:10:13.26,000 --> 0:10:15,000
+que l'on peut appeler le calcul fondé sur la connaissance,
+
+252
+0:10:15.26,000 --> 0:10:18,000
+où l'on ne se base pas seulement sur le calcul brut,
+
+253
+0:10:18.26,000 --> 0:10:21,000
+mais sur une grande quantité de connaissance intégrée.
+
+254
+0:10:21.26,000 --> 0:10:23,000
+Quand on fait cela, on change vraiment
+
+255
+0:10:23.26,000 --> 0:10:26,000
+l'économie de la prestation des choses computationnelles,
+
+256
+0:10:26.26,000 --> 0:10:28,000
+que ce soit sur le web ou ailleurs.
+
+257
+0:10:28.26,000 --> 0:10:31,000
+Nous vivons une situation assez intéressante en ce moment.
+
+258
+0:10:31.26,000 --> 0:10:33,000
+D'une part, nous avons Mathematica,
+
+259
+0:10:33.26,000 --> 0:10:36,000
+avec son genre de langage formel et précis
+
+260
+0:10:36.26,000 --> 0:10:38,000
+et un vaste réseau
+
+261
+0:10:38.26,000 --> 0:10:4,000
+de capacités conçues avec soin
+
+262
+0:10:40.26,000 --> 0:10:43,000
+capables de faire beaucoup de choses en quelques lignes.
+
+263
+0:10:43.26,000 --> 0:10:46,000
+Permettez-moi de vous montrer quelques exemples ici.
+
+264
+0:10:47.26,000 --> 0:10:5,000
+Voici un morceau trivial de programmation Mathematica.
+
+265
+0:10:51.26,000 --> 0:10:53,000
+Voici quelque chose où nous intégrons
+
+266
+0:10:53.26,000 --> 0:10:56,000
+en quelque sorte un tas de capacités différentes.
+
+267
+0:10:56.26,000 --> 0:10:59,000
+Ici, nous allons simplement créer dans cette ligne
+
+268
+0:10:59.26,000 --> 0:11:02,000
+une petite interface utilisateur qui nous permet de
+
+269
+0:11:02.26,000 --> 0:11:04,000
+faire quelque chose d'amusant.
+
+270
+0:11:05.26,000 --> 0:11:07,000
+Si vous continuez, c'est un programme un peu plus compliqué
+
+271
+0:11:07.26,000 --> 0:11:1,000
+qui est en train de faire toutes sortes de choses algorithmiques,
+
+272
+0:11:10.26,000 --> 0:11:12,000
+et de créer l'interface utilisateur.
+
+273
+0:11:12.26,000 --> 0:11:15,000
+Mais c'est quelque chose de très précis.
+
+274
+0:11:15.26,000 --> 0:11:18,000
+Il s'agit d'une description précise d'un langage formel précis
+
+275
+0:11:18.26,000 --> 0:11:21,000
+qui fait que Mathematica sait quoi faire ici.
+
+276
+0:11:21.26,000 --> 0:11:24,000
+Eh bien, d'autre part, nous avons Wolfram Alpha,
+
+277
+0:11:24.26,000 --> 0:11:26,000
+avec toutes les désordres du monde
+
+278
+0:11:26.26,000 --> 0:11:28,000
+et le langage humain par-dessus.
+
+279
+0:11:28.26,000 --> 0:11:31,000
+Alors, que se passe-t-il quand vous mettez ces choses ensemble?
+
+280
+0:11:31.26,000 --> 0:11:33,000
+Je pense que c'est en fait assez merveilleux.
+
+281
+0:11:33.26,000 --> 0:11:35,000
+Avec Wolfram Alpha à l'intérieur de Mathematica,
+
+282
+0:11:35.26,000 --> 0:11:37,000
+vous pouvez, par exemple, faire des programmes précis
+
+283
+0:11:37.26,000 --> 0:11:39,000
+qui font appel à des données du monde réel.
+
+284
+0:11:39.26,000 --> 0:11:41,000
+Voici un exemple très simple.
+
+285
+0:11:44.26,000 --> 0:11:47,000
+Vous pouvez aussi entrer quelque chose de vague
+
+286
+0:11:47.26,000 --> 0:11:49,000
+puis essayer que Wolfram Alpha
+
+287
+0:11:49.26,000 --> 0:11:51,000
+comprenne ce dont vous parlez.
+
+288
+0:11:51.26,000 --> 0:11:53,000
+Essayons de voir ici.
+
+289
+0:11:53.26,000 --> 0:11:56,000
+Mais en réalité, je crois que la chose la plus passionnante à ce sujet
+
+290
+0:11:56.26,000 --> 0:11:58,000
+est que cela donne vraiment la possibilité
+
+291
+0:11:58.26,000 --> 0:12:01,000
+de démocratiser la programmation.
+
+292
+0:12:01.26,000 --> 0:12:04,000
+N'importe qui, capable de dire ce qu'il veut en langage naturel,
+
+293
+0:12:04.26,000 --> 0:12:07,000
+eh bien, l'idée est que Wolfram Alpha sera capable de comprendre
+
+294
+0:12:07.26,000 --> 0:12:09,000
+précisément quelles parties de code
+
+295
+0:12:09.26,000 --> 0:12:11,000
+pourront faire ce qu'on lui demande,
+
+296
+0:12:11.26,000 --> 0:12:14,000
+puis montrer les exemples qui permettront de choisir ce dont on a besoin
+
+297
+0:12:14.26,000 --> 0:12:17,000
+pour construire des programmes précis de plus en plus importants.
+
+298
+0:12:17.26,000 --> 0:12:19,000
+Alors, parfois, Wolfram Alpha
+
+299
+0:12:19.26,000 --> 0:12:21,000
+sera en mesure de faire tout ça tout de suite
+
+300
+0:12:21.26,000 --> 0:12:24,000
+et juste de redonner un seul programme avec lequel vous pouvez ensuite calculer.
+
+301
+0:12:24.26,000 --> 0:12:26,000
+Voici un grand site web
+
+302
+0:12:26.26,000 --> 0:12:29,000
+où nous avons recueilli beaucoup de démonstrations
+
+303
+0:12:29.26,000 --> 0:12:32,000
+éducatives sur toutes sortes de choses.
+
+304
+0:12:32.26,000 --> 0:12:35,000
+Au hasard, je vais vous montrer un exemple, peut-être ici.
+
+305
+0:12:36.26,000 --> 0:12:39,000
+Ce n'est qu'un exemple d'un de ces documents informatisés.
+
+306
+0:12:39.26,000 --> 0:12:41,000
+C'est probablement un assez petit
+
+307
+0:12:41.26,000 --> 0:12:43,000
+morceau de code Mathematica
+
+308
+0:12:43.26,000 --> 0:12:45,000
+qui est capable de fonctionner ici.
+
+309
+0:12:47.26,000 --> 0:12:5,000
+Très bien. Effectuons un zoom arrière.
+
+310
+0:12:50.26,000 --> 0:12:52,000
+Ainsi, compte tenu de notre nouvelle science,
+
+311
+0:12:52.26,000 --> 0:12:55,000
+y a-t-il une manière générale de l'utiliser pour créer de la technologie?
+
+312
+0:12:55.26,000 --> 0:12:57,000
+Ainsi, avec des matériaux physiques,
+
+313
+0:12:57.26,000 --> 0:12:59,000
+nous sommes habitués à faire le tour du monde
+
+314
+0:12:59.26,000 --> 0:13:01,000
+et découvrir que des matériaux particuliers
+
+315
+0:13:01.26,000 --> 0:13:03,000
+sont utiles pour des objectifs
+
+316
+0:13:03.26,000 --> 0:13:05,000
+technologiques particuliers.
+
+317
+0:13:05.26,000 --> 0:13:07,000
+Eh bien, il s'avère que nous pouvons faire quasiment la même chose
+
+318
+0:13:07.26,000 --> 0:13:09,000
+dans l'univers computationnel.
+
+319
+0:13:09.26,000 --> 0:13:12,000
+Il existe une source inépuisable de programmes.
+
+320
+0:13:12.26,000 --> 0:13:14,000
+Le défi consiste à voir comment
+
+321
+0:13:14.26,000 --> 0:13:16,000
+les exploiter à des fins humaines.
+
+322
+0:13:16.26,000 --> 0:13:18,000
+Quelque chose comme la règle 30, par exemple,
+
+323
+0:13:18.26,000 --> 0:13:2,000
+s'avère être un vraiment bon générateur aléatoire.
+
+324
+0:13:20.26,000 --> 0:13:22,000
+D'autres programmes simples sont de bons modèles
+
+325
+0:13:22.26,000 --> 0:13:25,000
+pour les processus dans le monde naturel ou social.
+
+326
+0:13:25.26,000 --> 0:13:27,000
+Et, par exemple, Wolfram Alpha et Mathematica
+
+327
+0:13:27.26,000 --> 0:13:29,000
+sont en fait maintenant chargés d'algorithmes
+
+328
+0:13:29.26,000 --> 0:13:32,000
+que nous avons découverts en fouillant l'univers computationnel.
+
+329
+0:13:33.26,000 --> 0:13:36,000
+Et, par exemple, - retournons sur -
+
+330
+0:13:37.26,000 --> 0:13:39,000
+ceci est devenu étonnamment populaire
+
+331
+0:13:39.26,000 --> 0:13:41,000
+parmi les compositeurs
+
+332
+0:13:41.26,000 --> 0:13:44,000
+qui trouvent des formes musicales en explorant l'univers computationnel.
+
+333
+0:13:45.26,000 --> 0:13:47,000
+En un sens, nous pouvons utiliser l'univers computationnel
+
+334
+0:13:47.26,000 --> 0:13:5,000
+pour obtenir une créativité de masse sur mesure.
+
+335
+0:13:50.26,000 --> 0:13:52,000
+J'espère que nous pourrons, par exemple,
+
+336
+0:13:52.26,000 --> 0:13:54,000
+utiliser cela même pour que Wolfram Alpha
+
+337
+0:13:54.26,000 --> 0:13:57,000
+fasse systématiquement des inventions et des découvertes à la volée
+
+338
+0:13:57.26,000 --> 0:13:59,000
+et trouve toutes sortes de choses merveilleuses
+
+339
+0:13:59.26,000 --> 0:14:01,000
+qu'aucun ingénieur
+
+340
+0:14:01.26,000 --> 0:14:04,000
+et aucun processus d'évolution progressive n'auraient jamais trouvé.
+
+341
+0:14:05.26,000 --> 0:14:08,000
+Cela mène à une sorte de question ultime.
+
+342
+0:14:08.26,000 --> 0:14:11,000
+Est-ce que quelque part dans l'univers computationnel
+
+343
+0:14:11.26,000 --> 0:14:14,000
+nous pourrions trouver notre univers physique?
+
+344
+0:14:14.26,000 --> 0:14:16,000
+Peut-être qu'il y a même une règle très simple,
+
+345
+0:14:16.26,000 --> 0:14:19,000
+un programme simple pour notre univers.
+
+346
+0:14:19.26,000 --> 0:14:21,000
+Eh bien, l'histoire de la physique voudrait nous faire croire
+
+347
+0:14:21.26,000 --> 0:14:24,000
+que la règle de l'univers doit être assez compliquée.
+
+348
+0:14:24.26,000 --> 0:14:26,000
+Mais dans l'univers computationnel
+
+349
+0:14:26.26,000 --> 0:14:29,000
+nous avons vu comment les règles qui sont incroyablement simples
+
+350
+0:14:29.26,000 --> 0:14:32,000
+peuvent produire des comportements incroyablement riches et complexes.
+
+351
+0:14:32.26,000 --> 0:14:35,000
+Se pourrait-il qu'il en aille de même pour notre univers tout entier?
+
+352
+0:14:36.26,000 --> 0:14:38,000
+Si les règles de l'univers sont simples,
+
+353
+0:14:38.26,000 --> 0:14:4,000
+il est en quelque sorte inévitable qu'elles soient
+
+354
+0:14:40.26,000 --> 0:14:42,000
+très abstraites et de très faible niveau,
+
+355
+0:14:42.26,000 --> 0:14:44,000
+opérant, par exemple, bien au-dessous
+
+356
+0:14:44.26,000 --> 0:14:46,000
+du niveau de l'espace ou du temps,
+
+357
+0:14:46.26,000 --> 0:14:48,000
+ce qui rend difficile leur représentation.
+
+358
+0:14:48.26,000 --> 0:14:5,000
+Mais dans une grande variété de cas,
+
+359
+0:14:50.26,000 --> 0:14:52,000
+on peut penser à l'univers comme étant
+
+360
+0:14:52.26,000 --> 0:14:54,000
+une sorte de réseau,
+
+361
+0:14:54.26,000 --> 0:14:56,000
+qui, quand il est assez grand,
+
+362
+0:14:56.26,000 --> 0:14:58,000
+se comporte comme un espace continu
+
+363
+0:14:58.26,000 --> 0:15:,000
+un peu comme si plein de molécules
+
+364
+0:15:00.26,000 --> 0:15:02,000
+se comportaient comme un fluide continu.
+
+365
+0:15:02.26,000 --> 0:15:05,000
+Eh bien, l'univers doit évoluer en appliquant
+
+366
+0:15:05.26,000 --> 0:15:08,000
+des petites règles qui, progressivement, mettent à jour de ce réseau.
+
+367
+0:15:08.26,000 --> 0:15:1,000
+Et chaque règle possible, en un sens,
+
+368
+0:15:10.26,000 --> 0:15:12,000
+correspond à un univers candidat.
+
+369
+0:15:12.26,000 --> 0:15:15,000
+En fait, je n'ai encore jamais montré ceci,
+
+370
+0:15:16.26,000 --> 0:15:19,000
+mais voici quelques-uns des univers candidats
+
+371
+0:15:19.26,000 --> 0:15:21,000
+que j'ai observés.
+
+372
+0:15:21.26,000 --> 0:15:23,000
+Certains de ces univers sont sans espoir,
+
+373
+0:15:23.26,000 --> 0:15:25,000
+complètement stériles,
+
+374
+0:15:25.26,000 --> 0:15:27,000
+avec d'autres types de pathologies comme aucune notion de l'espace,
+
+375
+0:15:27.26,000 --> 0:15:3,000
+aucune notion du temps, pas de matière,
+
+376
+0:15:30.26,000 --> 0:15:32,000
+d'autres problèmes comme ça.
+
+377
+0:15:32.26,000 --> 0:15:35,000
+Mais la chose passionnante que j'ai trouvée ces dernières années
+
+378
+0:15:35.26,000 --> 0:15:37,000
+est que vous n'avez pas besoin d'aller très loin
+
+379
+0:15:37.26,000 --> 0:15:39,000
+dans l'univers computationnel
+
+380
+0:15:39.26,000 --> 0:15:41,000
+avant de commencer à trouver des univers candidats
+
+381
+0:15:41.26,000 --> 0:15:44,000
+qui ne sont pas évidemment pas notre univers.
+
+382
+0:15:44.26,000 --> 0:15:46,000
+Voici le problème:
+
+383
+0:15:46.26,000 --> 0:15:49,000
+tout candidat sérieux pour notre univers,
+
+384
+0:15:49.26,000 --> 0:15:52,000
+est inévitablement plein d'irréductibilité de calcul,
+
+385
+0:15:52.26,000 --> 0:15:55,000
+ce qui signifie qu'il est irréductiblement difficile
+
+386
+0:15:55.26,000 --> 0:15:57,000
+de savoir comment il va vraiment se comporter,
+
+387
+0:15:57.26,000 --> 0:16:,000
+et s'il correspond à notre univers physique.
+
+388
+0:16:01.26,000 --> 0:16:04,000
+Il y a quelques années, j'étais plutôt enthousiaste à l'idée de découvrir
+
+389
+0:16:04.26,000 --> 0:16:07,000
+s'il y avait des univers candidats avec des règles extrêmement simples
+
+390
+0:16:07.26,000 --> 0:16:09,000
+qui réussissent à reproduire la relativité restreinte
+
+391
+0:16:09.26,000 --> 0:16:12,000
+et même la relativité générale et la gravitation,
+
+392
+0:16:12.26,000 --> 0:16:15,000
+et qui au moins donnent des indications de mécanique quantique.
+
+393
+0:16:15.26,000 --> 0:16:17,000
+Alors, allons-nous trouver l'ensemble de la physique?
+
+394
+0:16:17.26,000 --> 0:16:19,000
+Je n'en suis pas sûr.
+
+395
+0:16:19.26,000 --> 0:16:21,000
+Mais je pense qu'à ce stade c'est
+
+396
+0:16:21.26,000 --> 0:16:23,000
+presque gênant de ne pas au moins essayer.
+
+397
+0:16:23.26,000 --> 0:16:25,000
+Pas un projet facile.
+
+398
+0:16:25.26,000 --> 0:16:27,000
+On doit construire beaucoup de technologie.
+
+399
+0:16:27.26,000 --> 0:16:29,000
+On doit construire une structure qui est probablement
+
+400
+0:16:29.26,000 --> 0:16:31,000
+au moins aussi profonde que la physique actuelle.
+
+401
+0:16:31.26,000 --> 0:16:34,000
+Et je ne suis pas sûr de savoir quel est le meilleur moyen d'organiser tout cela.
+
+402
+0:16:34.26,000 --> 0:16:37,000
+Constituer une équipe, l'ouvrir, offrir des prix, etc.
+
+403
+0:16:37.26,000 --> 0:16:39,000
+Mais je vous dis ici aujourd'hui
+
+404
+0:16:39.26,000 --> 0:16:41,000
+que je suis déterminé à voir ce projet se réaliser,
+
+405
+0:16:41.26,000 --> 0:16:44,000
+pour voir si, dans cette décennie,
+
+406
+0:16:44.26,000 --> 0:16:46,000
+nous pouvons enfin tenir dans nos mains
+
+407
+0:16:46.26,000 --> 0:16:48,000
+la règle de notre univers
+
+408
+0:16:48.26,000 --> 0:16:5,000
+et savoir où se trouve notre univers
+
+409
+0:16:50.26,000 --> 0:16:52,000
+dans l'espace de tous les univers possibles -
+
+410
+0:16:52.26,000 --> 0:16:55,000
+et être capable de taper dans Wolfram Alpha "la théorie de l'univers",
+
+411
+0:16:55.26,000 --> 0:16:57,000
+et qu'il nous le dise.
+
+412
+0:16:57.26,000 --> 0:16:59,000
+(Rires)
+
+413
+0:17:00.26,000 --> 0:17:02,000
+J'ai donc travaillé sur l'idée de calcul
+
+414
+0:17:02.26,000 --> 0:17:04,000
+depuis plus de 30 ans,
+
+415
+0:17:04.26,000 --> 0:17:07,000
+en construisant des outils et des méthodes et en transformant des idées intellectuelles
+
+416
+0:17:07.26,000 --> 0:17:09,000
+en millions de lignes de code
+
+417
+0:17:09.26,000 --> 0:17:11,000
+et en grain à moudre pour les parcs de serveurs.
+
+418
+0:17:11.26,000 --> 0:17:13,000
+Année après année,
+
+419
+0:17:13.26,000 --> 0:17:15,000
+je me rends compte à quel point
+
+420
+0:17:15.26,000 --> 0:17:17,000
+l'idée de calcul est vraiment plus puissante.
+
+421
+0:17:17.26,000 --> 0:17:19,000
+Nous avons déjà parcouru un long chemin,
+
+422
+0:17:19.26,000 --> 0:17:21,000
+mais il y a tellement plus à faire.
+
+423
+0:17:21.26,000 --> 0:17:23,000
+Des fondations de la science
+
+424
+0:17:23.26,000 --> 0:17:25,000
+aux limites de la technologie
+
+425
+0:17:25.26,000 --> 0:17:27,000
+à la définition même de la condition humaine,
+
+426
+0:17:27.26,000 --> 0:17:29,000
+je pense que le calcul est destiné à être
+
+427
+0:17:29.26,000 --> 0:17:31,000
+l'idée déterminante de notre avenir.
+
+428
+0:17:31.26,000 --> 0:17:33,000
+Merci.
+
+429
+0:17:33.26,000 --> 0:17:47,000
+(Applaudissements)
+
+430
+0:17:47.26,000 --> 0:17:49,000
+Chris Anderson: C'était vraiment éblouissant.
+
+431
+0:17:49.26,000 --> 0:17:51,000
+Restez ici. J'ai une question.
+
+432
+0:17:51.26,000 --> 0:17:55,000
+(Applaudissements)
+
+433
+0:17:57.26,000 --> 0:18:,000
+Alors, c'était, pour être honnête, un exposé éblouissant.
+
+434
+0:18:01.26,000 --> 0:18:04,000
+Êtes-vous capable de dire en une phrase ou deux
+
+435
+0:18:04.26,000 --> 0:18:07,000
+comment ce type de réflexion
+
+436
+0:18:07.26,000 --> 0:18:09,000
+pourrait s'intégrer à un moment donné
+
+437
+0:18:09.26,000 --> 0:18:11,000
+à des choses comme la théorie des cordes ou le genre de choses que les gens considèrent
+
+438
+0:18:11.26,000 --> 0:18:14,000
+comme les explications fondamentales de l'univers?
+
+439
+0:18:14.26,000 --> 0:18:16,000
+Stephen Wolfram: Eh bien, les parties de la physique
+
+440
+0:18:16.26,000 --> 0:18:18,000
+que nous tenons pour vraies,
+
+441
+0:18:18.26,000 --> 0:18:2,000
+des choses comme le modèle standard de la physique.
+
+442
+0:18:20.26,000 --> 0:18:23,000
+Ce que j'essaie de faire reproduit mieux le modèle standard de la physique
+
+443
+0:18:23.26,000 --> 0:18:25,000
+ou c'est tout simplement faux.
+
+444
+0:18:25.26,000 --> 0:18:27,000
+Les choses que les gens ont essayé de faire au cours des 25 dernières années
+
+445
+0:18:27.26,000 --> 0:18:29,000
+avec la théorie des cordes,
+
+446
+0:18:29.26,000 --> 0:18:31,000
+ont été une exploration intéressante
+
+447
+0:18:31.26,000 --> 0:18:34,000
+qui a essayé de revenir au modèle standard,
+
+448
+0:18:34.26,000 --> 0:18:36,000
+mais ils n'y sont pas tout à fait parvenus.
+
+449
+0:18:36.26,000 --> 0:18:39,000
+Je pense que certaines simplifications de choses que je fais
+
+450
+0:18:39.26,000 --> 0:18:42,000
+peuvent en fait avoir une résonance considérable
+
+451
+0:18:42.26,000 --> 0:18:44,000
+avec ce qui a été fait dans la théorie des cordes,
+
+452
+0:18:44.26,000 --> 0:18:47,000
+mais c'est une chose mathématique compliquée
+
+453
+0:18:47.26,000 --> 0:18:5,000
+dont je ne sais pas encore comment elle va tourner.
+
+454
+0:18:50.26,000 --> 0:18:52,000
+CA: Benoit Mandelbrot est dans le public.
+
+455
+0:18:52.26,000 --> 0:18:54,000
+Il a également montré comment la complexité
+
+456
+0:18:54.26,000 --> 0:18:56,000
+peut découler d'un début simple.
+
+457
+0:18:56.26,000 --> 0:18:58,000
+Votre travail a-t-il un rapport avec le sien?
+
+458
+0:18:58.26,000 --> 0:19:,000
+SW: Je pense que oui.
+
+459
+0:19:00.26,000 --> 0:19:02,000
+Je considère le travail de Benoit Mandelbrot
+
+460
+0:19:02.26,000 --> 0:19:05,000
+comme en quelque sorte une des contributions fondatrices
+
+461
+0:19:05.26,000 --> 0:19:08,000
+dans ce genre de domaine.
+
+462
+0:19:08.26,000 --> 0:19:1,000
+Benoit a été particulièrement intéressé
+
+463
+0:19:10.26,000 --> 0:19:12,000
+par les modèles imbriqués, les fractales, etc,
+
+464
+0:19:12.26,000 --> 0:19:14,000
+où la structure est quelque chose
+
+465
+0:19:14.26,000 --> 0:19:16,000
+qui a un peu la forme d'un arbre,
+
+466
+0:19:16.26,000 --> 0:19:18,000
+et où il y a une grosse branche qui fait des petites branches,
+
+467
+0:19:18.26,000 --> 0:19:21,000
+et des branches encore plus petites, etc.
+
+468
+0:19:21.26,000 --> 0:19:23,000
+C'est l'un des moyens
+
+469
+0:19:23.26,000 --> 0:19:26,000
+de s'approcher de la véritable complexité.
+
+470
+0:19:26.26,000 --> 0:19:29,000
+Je pense que des choses comme l'automate cellulaire de la règle 30
+
+471
+0:19:29.26,000 --> 0:19:31,000
+nous amène à un niveau différent.
+
+472
+0:19:31.26,000 --> 0:19:34,000
+En fait, d'une manière très précise, ils nous amènent à un niveau différent
+
+473
+0:19:34.26,000 --> 0:19:36,000
+parce qu'ils semblent être des choses qui sont
+
+474
+0:19:37.26,000 --> 0:19:4,000
+capables de complexité
+
+475
+0:19:40.26,000 --> 0:19:43,000
+qui est presque aussi grande que la complexité puisse jamais être...
+
+476
+0:19:44.26,000 --> 0:19:47,000
+Je pourrais continuer sur ce sujet indéfiniment, mais je ne le ferai pas.
+
+477
+0:19:47.26,000 --> 0:19:49,000
+CA: Stephen Wolfram, merci.
+
+478
+0:19:49.26,000 --> 0:19:51,000
+(Applaudissements)
+

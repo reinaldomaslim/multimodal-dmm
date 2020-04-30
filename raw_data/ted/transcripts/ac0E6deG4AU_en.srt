@@ -1,0 +1,688 @@
+1
+0:00:25.095,000 --> 0:00:26,000
+I'm really excited to be here today.
+
+2
+0:00:26.898,000 --> 0:00:29,000
+I'll show you some stuff that's just ready to come out of the lab,
+
+3
+0:00:30.024,000 --> 0:00:32,000
+literally, and I'm really glad that you guys
+
+4
+0:00:32.824,000 --> 0:00:34,000
+are going to be among the first to see it in person,
+
+5
+0:00:35.32,000 --> 0:00:37,000
+because I really think this is going to really change
+
+6
+0:00:37.833,000 --> 0:00:39,000
+the way we interact with machines from this point on.
+
+7
+0:00:40.339,000 --> 0:00:42,000
+Now, this is a rear-projected drafting table.
+
+8
+0:00:43.038,000 --> 0:00:44,000
+It's about 36 inches wide
+
+9
+0:00:44.284,000 --> 0:00:46,000
+and it's equipped with a multi-touch sensor.
+
+10
+0:00:46.391,000 --> 0:00:47,000
+Normal touch sensors that you see,
+
+11
+0:00:48.059,000 --> 0:00:5,000
+like on a kiosk or interactive whiteboards,
+
+12
+0:00:50.22,000 --> 0:00:52,000
+can only register one point of contact at a time.
+
+13
+0:00:53.137,000 --> 0:00:56,000
+This thing allows you to have multiple points at the same time.
+
+14
+0:00:56.876,000 --> 0:00:59,000
+They can use both my hands; I can use chording actions;
+
+15
+0:01:00.214,000 --> 0:01:02,000
+I can just go right up and use all 10 fingers if I wanted to.
+
+16
+0:01:03.597,000 --> 0:01:04,000
+You know, like that.
+
+17
+0:01:04.778,000 --> 0:01:08,000
+Now, multi-touch sensing isn't completely new.
+
+18
+0:01:09.345,000 --> 0:01:12,000
+People like Bill Buxton have been playing around with it in the '80s.
+
+19
+0:01:12.622,000 --> 0:01:16,000
+However, the approach I built here is actually high-resolution,
+
+20
+0:01:16.674,000 --> 0:01:18,000
+low-cost, and probably most importantly, very scalable.
+
+21
+0:01:2,000 --> 0:01:22,000
+So, the technology, you know,
+
+22
+0:01:22.361,000 --> 0:01:24,000
+isn't the most exciting thing here right now,
+
+23
+0:01:24.831,000 --> 0:01:26,000
+other than probably its newfound accessibility.
+
+24
+0:01:27.173,000 --> 0:01:3,000
+What's really interesting here is what you can do with it
+
+25
+0:01:30.722,000 --> 0:01:32,000
+and the kind of interfaces you can build on top of it.
+
+26
+0:01:34.141,000 --> 0:01:35,000
+So let's see.
+
+27
+0:01:36.111,000 --> 0:01:4,000
+So, for instance, we have a lava lamp application here.
+
+28
+0:01:40.448,000 --> 0:01:41,000
+Now, you can see,
+
+29
+0:01:42.174,000 --> 0:01:45,000
+I can use both of my hands to kind of squeeze and put the blobs together.
+
+30
+0:01:45.627,000 --> 0:01:47,000
+I can inject heat into the system here,
+
+31
+0:01:48.194,000 --> 0:01:5,000
+or I can pull it apart with two of my fingers.
+
+32
+0:01:50.4,000 --> 0:01:52,000
+It's completely intuitive; there's no instruction manual.
+
+33
+0:01:53.154,000 --> 0:01:54,000
+The interface just kind of disappears.
+
+34
+0:01:55,000 --> 0:01:56,000
+This started out as a screensaver app
+
+35
+0:01:56.944,000 --> 0:01:59,000
+that one of the Ph.D. students in our lab, Ilya Rosenberg, made.
+
+36
+0:02:00.015,000 --> 0:02:04,000
+But I think its true identity comes out here.
+
+37
+0:02:05.153,000 --> 0:02:07,000
+Now what's great about a multi-touch sensor is that, you know,
+
+38
+0:02:08.1,000 --> 0:02:1,000
+I could be doing this with as many fingers here,
+
+39
+0:02:10.861,000 --> 0:02:12,000
+but of course multi-touch also inherently means multi-user.
+
+40
+0:02:13.863,000 --> 0:02:15,000
+Chris could be interacting with another part of Lava,
+
+41
+0:02:16.386,000 --> 0:02:17,000
+while I play around with it here.
+
+42
+0:02:18.044,000 --> 0:02:2,000
+You can imagine a new kind of sculpting tool,
+
+43
+0:02:20.164,000 --> 0:02:22,000
+where I'm kind of warming something up, making it malleable,
+
+44
+0:02:23.167,000 --> 0:02:26,000
+and then letting it cool down and solidifying in a certain state.
+
+45
+0:02:30.712,000 --> 0:02:32,000
+Google should have something like this in their lobby.
+
+46
+0:02:33.683,000 --> 0:02:38,000
+(Laughter)
+
+47
+0:02:39,000 --> 0:02:42,000
+I'll show you a little more of a concrete example here,
+
+48
+0:02:42.296,000 --> 0:02:43,000
+as this thing loads.
+
+49
+0:02:44.181,000 --> 0:02:46,000
+This is a photographer's light-box application.
+
+50
+0:02:46.922,000 --> 0:02:49,000
+Again, I can use both of my hands to interact and move photos around.
+
+51
+0:02:50.923,000 --> 0:02:53,000
+But what's even cooler is that if I have two fingers,
+
+52
+0:02:54.502,000 --> 0:02:58,000
+I can actually grab a photo and then stretch it out like that really easily.
+
+53
+0:02:58.656,000 --> 0:03:01,000
+I can pan, zoom and rotate it effortlessly.
+
+54
+0:03:02.146,000 --> 0:03:04,000
+I can do that grossly with both of my hands,
+
+55
+0:03:04.501,000 --> 0:03:07,000
+or I can do it just with two fingers on each of my hands together.
+
+56
+0:03:07.729,000 --> 0:03:1,000
+If I grab the canvas, I can do the same thing -- stretch it out.
+
+57
+0:03:10.78,000 --> 0:03:12,000
+I can do it simultaneously, holding this down,
+
+58
+0:03:12.963,000 --> 0:03:14,000
+and gripping on another one, stretching this out.
+
+59
+0:03:15.286,000 --> 0:03:17,000
+Again, the interface just disappears here.
+
+60
+0:03:17.538,000 --> 0:03:18,000
+There's no manual.
+
+61
+0:03:18.595,000 --> 0:03:2,000
+This is exactly what you expect,
+
+62
+0:03:20.921,000 --> 0:03:23,000
+especially if you haven't interacted with a computer before.
+
+63
+0:03:24,000 --> 0:03:26,000
+Now, when you have initiatives like the $100 laptop,
+
+64
+0:03:26.728,000 --> 0:03:27,000
+I kind of cringe at the idea
+
+65
+0:03:28.285,000 --> 0:03:3,000
+of introducing a whole new generation to computing
+
+66
+0:03:30.886,000 --> 0:03:32,000
+with this standard mouse-and-windows-pointer interface.
+
+67
+0:03:33.648,000 --> 0:03:36,000
+This is something that I think is really the way
+
+68
+0:03:36.808,000 --> 0:03:38,000
+we should be interacting with machines from now on.
+
+69
+0:03:39.473,000 --> 0:03:45,000
+(Applause)
+
+70
+0:03:46,000 --> 0:03:48,000
+Now, of course, I can bring up a keyboard.
+
+71
+0:03:48.024,000 --> 0:03:5,000
+(Laughter)
+
+72
+0:03:53,000 --> 0:03:55,000
+And I can bring that around, put that up there.
+
+73
+0:03:56.213,000 --> 0:03:57,000
+Obviously, this is a standard keyboard,
+
+74
+0:03:58.095,000 --> 0:04:01,000
+but of course I can rescale it to make it work well for my hands.
+
+75
+0:04:01.201,000 --> 0:04:04,000
+That's really important, because there's no reason in this day and age
+
+76
+0:04:04.558,000 --> 0:04:06,000
+that we should be conforming to a physical device.
+
+77
+0:04:06.922,000 --> 0:04:07,000
+That leads to bad things, like RSI.
+
+78
+0:04:08.693,000 --> 0:04:1,000
+We have so much technology nowadays
+
+79
+0:04:11.494,000 --> 0:04:15,000
+that these interfaces should start conforming to us.
+
+80
+0:04:15.547,000 --> 0:04:18,000
+There's so little applied now to actually improving
+
+81
+0:04:19.548,000 --> 0:04:21,000
+the way we interact with interfaces from this point on.
+
+82
+0:04:22.151,000 --> 0:04:25,000
+This keyboard is probably actually the really wrong direction to go.
+
+83
+0:04:25.366,000 --> 0:04:28,000
+You can imagine, in the future, as we develop this kind of technology,
+
+84
+0:04:28.692,000 --> 0:04:31,000
+a keyboard that kind of automatically drifts as your hand moves away,
+
+85
+0:04:32.119,000 --> 0:04:35,000
+and really intelligently anticipates which key you're trying to stroke.
+
+86
+0:04:36.477,000 --> 0:04:38,000
+So -- again, isn't this great?
+
+87
+0:04:40.051,000 --> 0:04:41,000
+(Laughter)
+
+88
+0:04:42.047,000 --> 0:04:43,000
+Audience: Where's your lab?
+
+89
+0:04:43.834,000 --> 0:04:45,000
+Jeff Han: I'm a research scientist at NYU in New York.
+
+90
+0:04:50.341,000 --> 0:04:53,000
+Here's an example of another kind of app. I can make these little fuzz balls.
+
+91
+0:04:54,000 --> 0:04:56,000
+It'll remember the strokes I'm making.
+
+92
+0:04:56.358,000 --> 0:04:57,000
+Of course I can do it with all my hands.
+
+93
+0:04:58.301,000 --> 0:04:59,000
+It's pressure-sensitive.
+
+94
+0:05:00.905,000 --> 0:05:01,000
+What's neat about that is,
+
+95
+0:05:02.485,000 --> 0:05:04,000
+I showed that two-finger gesture that zooms in really quickly.
+
+96
+0:05:05.474,000 --> 0:05:07,000
+Because you don't have to switch to a hand tool
+
+97
+0:05:07.705,000 --> 0:05:08,000
+or the magnifying glass tool,
+
+98
+0:05:09.135,000 --> 0:05:11,000
+you can just continuously make things
+
+99
+0:05:11.698,000 --> 0:05:13,000
+in real multiple scales, all at the same time.
+
+100
+0:05:14.076,000 --> 0:05:16,000
+I can create big things out here,
+
+101
+0:05:16.113,000 --> 0:05:18,000
+but I can go back and really quickly go back
+
+102
+0:05:18.235,000 --> 0:05:2,000
+to where I started, and make even smaller things here.
+
+103
+0:05:22.271,000 --> 0:05:23,000
+This is going to be really important
+
+104
+0:05:24.182,000 --> 0:05:27,000
+as we start getting to things like data visualization.
+
+105
+0:05:27.239,000 --> 0:05:29,000
+For instance, I think we all enjoyed Hans Rosling's talk,
+
+106
+0:05:29.93,000 --> 0:05:32,000
+and he really emphasized the fact I've been thinking about for a long time:
+
+107
+0:05:33.48,000 --> 0:05:34,000
+We have all this great data,
+
+108
+0:05:34.855,000 --> 0:05:36,000
+but for some reason, it's just sitting there.
+
+109
+0:05:36.976,000 --> 0:05:37,000
+We're not accessing it.
+
+110
+0:05:38.119,000 --> 0:05:41,000
+And one of the reasons why I think that is
+
+111
+0:05:41.666,000 --> 0:05:45,000
+will be helped by things like graphics and visualization and inference tools,
+
+112
+0:05:46.406,000 --> 0:05:47,000
+but I also think a big part of it
+
+113
+0:05:48.291,000 --> 0:05:5,000
+is going to be having better interfaces,
+
+114
+0:05:50.371,000 --> 0:05:52,000
+to be able to drill down into this kind of data,
+
+115
+0:05:52.635,000 --> 0:05:54,000
+while still thinking about the big picture here.
+
+116
+0:05:55.46,000 --> 0:05:57,000
+Let me show you another app here. This is called WorldWind.
+
+117
+0:05:58.463,000 --> 0:05:59,000
+It's done by NASA.
+
+118
+0:05:59.626,000 --> 0:06:01,000
+We've all seen Google Earth;
+
+119
+0:06:02.48,000 --> 0:06:03,000
+this is an open-source version of that.
+
+120
+0:06:04.462,000 --> 0:06:07,000
+There are plug-ins to be able to load in different data sets
+
+121
+0:06:08.01,000 --> 0:06:09,000
+that NASA's collected over the years.
+
+122
+0:06:09.833,000 --> 0:06:11,000
+As you can see, I can use the same two-fingered gestures
+
+123
+0:06:12.477,000 --> 0:06:14,000
+to go down and go in really seamlessly.
+
+124
+0:06:14.983,000 --> 0:06:15,000
+There's no interface, again.
+
+125
+0:06:16.387,000 --> 0:06:19,000
+It really allows anybody to kind of go in --
+
+126
+0:06:19.682,000 --> 0:06:21,000
+and it just does what you'd expect, you know?
+
+127
+0:06:22.669,000 --> 0:06:25,000
+Again, there's just no interface here. The interface just disappears.
+
+128
+0:06:28,000 --> 0:06:29,000
+I can switch to different data views.
+
+129
+0:06:29.9,000 --> 0:06:31,000
+That's what's neat about this app here.
+
+130
+0:06:32.118,000 --> 0:06:33,000
+NASA's really cool.
+
+131
+0:06:33.299,000 --> 0:06:35,000
+These hyper-spectral images are false-colored so you can --
+
+132
+0:06:36.085,000 --> 0:06:39,000
+it's really good for determining vegetative use.
+
+133
+0:06:40.887,000 --> 0:06:41,000
+Well, let's go back to this.
+
+134
+0:06:45.312,000 --> 0:06:47,000
+The great thing about mapping applications --
+
+135
+0:06:47.51,000 --> 0:06:48,000
+it's not really 2D, it's 3D.
+
+136
+0:06:49.024,000 --> 0:06:52,000
+So, again, with a multi-point interface, you can do a gesture like this --
+
+137
+0:06:52.54,000 --> 0:06:55,000
+so you can be able to tilt around like that --
+
+138
+0:06:56.001,000 --> 0:06:57,000
+(Surprised laughter)
+
+139
+0:06:57.899,000 --> 0:07:,000
+It's not just simply relegated to a kind of 2D panning and motion.
+
+140
+0:07:01.105,000 --> 0:07:03,000
+This gesture is just putting two fingers down --
+
+141
+0:07:03.764,000 --> 0:07:06,000
+it's defining an axis of tilt -- and I can tilt up and down that way.
+
+142
+0:07:07.441,000 --> 0:07:09,000
+We just came up with that on the spot,
+
+143
+0:07:09.543,000 --> 0:07:1,000
+it's probably not the right thing to do,
+
+144
+0:07:11.504,000 --> 0:07:14,000
+but there's such interesting things you can do with this interface.
+
+145
+0:07:16,000 --> 0:07:18,000
+It's just so much fun playing around with it, too.
+
+146
+0:07:18.958,000 --> 0:07:19,000
+(Laughter)
+
+147
+0:07:20.335,000 --> 0:07:22,000
+And so the last thing I want to show you is --
+
+148
+0:07:23,000 --> 0:07:25,000
+I'm sure we can all think of a lot of entertainment apps
+
+149
+0:07:25.701,000 --> 0:07:26,000
+that you can do with this thing.
+
+150
+0:07:27.249,000 --> 0:07:31,000
+I'm more interested in the creative applications we can do with this.
+
+151
+0:07:31.323,000 --> 0:07:34,000
+Now, here's a simple application here -- I can draw out a curve.
+
+152
+0:07:36.201,000 --> 0:07:39,000
+And when I close it, it becomes a character.
+
+153
+0:07:39.785,000 --> 0:07:41,000
+But the neat thing about it is I can add control points.
+
+154
+0:07:42.786,000 --> 0:07:45,000
+And then what I can do is manipulate them with both of my fingers at the same time.
+
+155
+0:07:46.787,000 --> 0:07:47,000
+And you notice what it does.
+
+156
+0:07:49.253,000 --> 0:07:51,000
+It's kind of a puppeteering thing,
+
+157
+0:07:51.832,000 --> 0:07:56,000
+where I can use as many fingers as I have to draw and make --
+
+158
+0:08:03.274,000 --> 0:08:05,000
+Now, there's a lot of actual math going on under here
+
+159
+0:08:06,000 --> 0:08:1,000
+for this to control this mesh and do the right thing.
+
+160
+0:08:11.183,000 --> 0:08:16,000
+This technique of being able to manipulate a mesh here, with multiple control points,
+
+161
+0:08:16.899,000 --> 0:08:17,000
+is actually state of the art.
+
+162
+0:08:18.399,000 --> 0:08:19,000
+It was released at SIGGRAPH last year.
+
+163
+0:08:20.247,000 --> 0:08:22,000
+It's a great example of the kind of research I really love:
+
+164
+0:08:23.041,000 --> 0:08:25,000
+all this compute power to make things do the right things,
+
+165
+0:08:25.864,000 --> 0:08:27,000
+intuitive things, to do exactly what you expect.
+
+166
+0:08:32,000 --> 0:08:36,000
+So, multi-touch interaction research is a very active field right now in HCI.
+
+167
+0:08:37,000 --> 0:08:4,000
+I'm not the only one doing it, a lot of other people are getting into it.
+
+168
+0:08:40.5,000 --> 0:08:43,000
+This kind of technology is going to let even more people get into it,
+
+169
+0:08:43.769,000 --> 0:08:46,000
+I'm looking forward to interacting with all of you over the next few days
+
+170
+0:08:47.285,000 --> 0:08:49,000
+and seeing how it can apply to your respective fields.
+
+171
+0:08:49.846,000 --> 0:08:5,000
+Thank you.
+
+172
+0:08:51.028,000 --> 0:08:53,000
+(Applause)
+

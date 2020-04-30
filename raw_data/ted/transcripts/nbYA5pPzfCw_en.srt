@@ -1,0 +1,352 @@
+1
+0:00:13.507,000 --> 0:00:14,000
+In 2003,
+
+2
+0:00:15.42,000 --> 0:00:17,000
+when we sequenced the human genome,
+
+3
+0:00:18.357,000 --> 0:00:21,000
+we thought we would have the answer to treat many diseases.
+
+4
+0:00:22.974,000 --> 0:00:24,000
+But the reality is far from that,
+
+5
+0:00:26.782,000 --> 0:00:27,000
+because in addition to our genes,
+
+6
+0:00:28.727,000 --> 0:00:32,000
+our environment and lifestyle could have a significant role
+
+7
+0:00:33.321,000 --> 0:00:35,000
+in developing many major diseases.
+
+8
+0:00:35.893,000 --> 0:00:38,000
+One example is fatty liver disease,
+
+9
+0:00:39.497,000 --> 0:00:43,000
+which is affecting over 20 percent of the population globally,
+
+10
+0:00:43.604,000 --> 0:00:46,000
+and it has no treatment and leads to liver cancer
+
+11
+0:00:46.662,000 --> 0:00:47,000
+or liver failure.
+
+12
+0:00:49.517,000 --> 0:00:53,000
+So sequencing DNA alone doesn't give us enough information
+
+13
+0:00:54.285,000 --> 0:00:56,000
+to find effective therapeutics.
+
+14
+0:00:56.541,000 --> 0:00:59,000
+On the bright side, there are many other molecules in our body.
+
+15
+0:01:00.321,000 --> 0:01:03,000
+In fact, there are over 100,000 metabolites.
+
+16
+0:01:04.325,000 --> 0:01:08,000
+Metabolites are any molecule that is supersmall in their size.
+
+17
+0:01:09.193,000 --> 0:01:13,000
+Known examples are glucose, fructose, fats, cholesterol --
+
+18
+0:01:14.189,000 --> 0:01:15,000
+things we hear all the time.
+
+19
+0:01:16.273,000 --> 0:01:18,000
+Metabolites are involved in our metabolism.
+
+20
+0:01:20.066,000 --> 0:01:24,000
+They are also downstream of DNA,
+
+21
+0:01:24.118,000 --> 0:01:29,000
+so they carry information from both our genes as well as lifestyle.
+
+22
+0:01:29.224,000 --> 0:01:34,000
+Understanding metabolites is essential to find treatments for many diseases.
+
+23
+0:01:34.897,000 --> 0:01:36,000
+I've always wanted to treat patients.
+
+24
+0:01:37.934,000 --> 0:01:4,000
+Despite that, 15 years ago, I left medical school,
+
+25
+0:01:41.816,000 --> 0:01:42,000
+as I missed mathematics.
+
+26
+0:01:45.019,000 --> 0:01:47,000
+Soon after, I found the coolest thing:
+
+27
+0:01:48.692,000 --> 0:01:5,000
+I can use mathematics to study medicine.
+
+28
+0:01:53.026,000 --> 0:01:58,000
+Since then, I've been developing algorithms to analyze biological data.
+
+29
+0:01:59.092,000 --> 0:02:01,000
+So, it sounded easy:
+
+30
+0:02:01.399,000 --> 0:02:04,000
+let's collect data from all the metabolites in our body,
+
+31
+0:02:05.024,000 --> 0:02:1,000
+develop mathematical models to describe how they are changed in a disease
+
+32
+0:02:10.176,000 --> 0:02:12,000
+and intervene in those changes to treat them.
+
+33
+0:02:14.488,000 --> 0:02:17,000
+Then I realized why no one has done this before:
+
+34
+0:02:19.23,000 --> 0:02:2,000
+it's extremely difficult.
+
+35
+0:02:20.941,000 --> 0:02:21,000
+(Laughter)
+
+36
+0:02:22.052,000 --> 0:02:24,000
+There are many metabolites in our body.
+
+37
+0:02:24.783,000 --> 0:02:26,000
+Each one is different from the other one.
+
+38
+0:02:27.307,000 --> 0:02:3,000
+For some metabolites, we can measure their molecular mass
+
+39
+0:02:31.059,000 --> 0:02:33,000
+using mass spectrometry instruments.
+
+40
+0:02:33.676,000 --> 0:02:37,000
+But because there could be, like, 10 molecules with the exact same mass,
+
+41
+0:02:38.093,000 --> 0:02:39,000
+we don't know exactly what they are,
+
+42
+0:02:39.924,000 --> 0:02:41,000
+and if you want to clearly identify all of them,
+
+43
+0:02:42.722,000 --> 0:02:45,000
+you have to do more experiments, which could take decades
+
+44
+0:02:45.85,000 --> 0:02:46,000
+and billions of dollars.
+
+45
+0:02:48.207,000 --> 0:02:53,000
+So we developed an artificial intelligence, or AI, platform, to do that.
+
+46
+0:02:53.794,000 --> 0:02:55,000
+We leveraged the growth of biological data
+
+47
+0:02:56.662,000 --> 0:03:,000
+and built a database of any existing information about metabolites
+
+48
+0:03:01.11,000 --> 0:03:04,000
+and their interactions with other molecules.
+
+49
+0:03:04.262,000 --> 0:03:07,000
+We combined all this data as a meganetwork.
+
+50
+0:03:07.71,000 --> 0:03:1,000
+Then, from tissues or blood of patients,
+
+51
+0:03:11.13,000 --> 0:03:13,000
+we measure masses of metabolites
+
+52
+0:03:13.905,000 --> 0:03:16,000
+and find the masses that are changed in a disease.
+
+53
+0:03:17.188,000 --> 0:03:2,000
+But, as I mentioned earlier, we don't know exactly what they are.
+
+54
+0:03:20.402,000 --> 0:03:25,000
+A molecular mass of 180 could be either the glucose, galactose or fructose.
+
+55
+0:03:25.561,000 --> 0:03:27,000
+They all have the exact same mass
+
+56
+0:03:27.604,000 --> 0:03:29,000
+but different functions in our body.
+
+57
+0:03:29.715,000 --> 0:03:32,000
+Our AI algorithm considered all these ambiguities.
+
+58
+0:03:33.326,000 --> 0:03:35,000
+It then mined that meganetwork
+
+59
+0:03:36.086,000 --> 0:03:4,000
+to find how those metabolic masses are connected to each other
+
+60
+0:03:40.463,000 --> 0:03:41,000
+that result in disease.
+
+61
+0:03:42.445,000 --> 0:03:44,000
+And because of the way they are connected,
+
+62
+0:03:44.707,000 --> 0:03:48,000
+then we are able to infer what each metabolite mass is,
+
+63
+0:03:49.054,000 --> 0:03:51,000
+like that 180 could be glucose here,
+
+64
+0:03:52.002,000 --> 0:03:54,000
+and, more importantly, to discover
+
+65
+0:03:54.577,000 --> 0:03:57,000
+how changes in glucose and other metabolites
+
+66
+0:03:57.968,000 --> 0:03:58,000
+lead to a disease.
+
+67
+0:03:59.497,000 --> 0:04:01,000
+This novel understanding of disease mechanisms
+
+68
+0:04:02.516,000 --> 0:04:06,000
+then enable us to discover effective therapeutics to target that.
+
+69
+0:04:07.601,000 --> 0:04:1,000
+So we formed a start-up company to bring this technology to the market
+
+70
+0:04:11.47,000 --> 0:04:12,000
+and impact people's lives.
+
+71
+0:04:13.722,000 --> 0:04:16,000
+Now my team and I at ReviveMed are working to discover
+
+72
+0:04:17.291,000 --> 0:04:22,000
+therapeutics for major diseases that metabolites are key drivers for,
+
+73
+0:04:22.42,000 --> 0:04:23,000
+like fatty liver disease,
+
+74
+0:04:24.341,000 --> 0:04:26,000
+because it is caused by accumulation of fats,
+
+75
+0:04:27.289,000 --> 0:04:29,000
+which are types of metabolites in the liver.
+
+76
+0:04:29.786,000 --> 0:04:32,000
+As I mentioned earlier, it's a huge epidemic with no treatment.
+
+77
+0:04:33.75,000 --> 0:04:35,000
+And fatty liver disease is just one example.
+
+78
+0:04:36.498,000 --> 0:04:4,000
+Moving forward, we are going to tackle hundreds of other diseases
+
+79
+0:04:40.7,000 --> 0:04:41,000
+with no treatment.
+
+80
+0:04:42.217,000 --> 0:04:46,000
+And by collecting more and more data about metabolites
+
+81
+0:04:46.795,000 --> 0:04:49,000
+and understanding how changes in metabolites
+
+82
+0:04:50.363,000 --> 0:04:52,000
+leads to developing diseases,
+
+83
+0:04:52.789,000 --> 0:04:55,000
+our algorithms will get smarter and smarter
+
+84
+0:04:56.302,000 --> 0:05:,000
+to discover the right therapeutics for the right patients.
+
+85
+0:05:00.522,000 --> 0:05:03,000
+And we will get closer to reach our vision
+
+86
+0:05:04.316,000 --> 0:05:07,000
+of saving lives with every line of code.
+
+87
+0:05:08.203,000 --> 0:05:09,000
+Thank you.
+
+88
+0:05:09.548,000 --> 0:05:12,000
+(Applause)
+

@@ -1,0 +1,1328 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Lison Hasse Relecteur: Alicia Oliva
+
+2
+0:00:13.434,000 --> 0:00:14,000
+J'aimerais vous parler d'une chose
+
+3
+0:00:15.108,000 --> 0:00:16,000
+et d'une chose seulement.
+
+4
+0:00:16.864,000 --> 0:00:19,000
+Ça concerne ce que les gens me demandent :
+
+5
+0:00:20.62,000 --> 0:00:23,000
+que faites-vous?
+
+6
+0:00:23.867,000 --> 0:00:24,000
+Et ma réponse habituelle :
+
+7
+0:00:25.767,000 --> 0:00:27,000
+« Je fais de la musique électronique »
+
+8
+0:00:28.747,000 --> 0:00:32,000
+À ce moment-là, une bonne partie des gens arrête immédiatement de me parler
+
+9
+0:00:33.089,000 --> 0:00:35,000
+et ceux qui restent ont généralement
+
+10
+0:00:35.502,000 --> 0:00:37,000
+ce regard vide
+
+11
+0:00:37.63,000 --> 0:00:39,000
+comme pour dire : qu'est ce que ça signifie ?
+
+12
+0:00:39.919,000 --> 0:00:4,000
+Et j'ai l'impression
+
+13
+0:00:41.137,000 --> 0:00:45,000
+de les priver d'information en ne leur disant que ça.
+
+14
+0:00:45.342,000 --> 0:00:46,000
+À ce moment-là, je panique souvent
+
+15
+0:00:47.07,000 --> 0:00:49,000
+et dis la première chose qui me vient à l'esprit :
+
+16
+0:00:49.41,000 --> 0:00:52,000
+« Je n'ai aucune idée de ce que je fais ».
+
+17
+0:00:52.442,000 --> 0:00:53,000
+Ce qui est vrai
+
+18
+0:00:54.054,000 --> 0:00:56,000
+et souvent suivit d'une seconde pensée :
+
+19
+0:00:56.91,000 --> 0:00:59,000
+« qu'importe ce que je fais,
+
+20
+0:01:00.21,000 --> 0:01:01,000
+j'adore ça. »
+
+21
+0:01:01.902,000 --> 0:01:05,000
+Et aujourd'hui, je voudrais partager avec vous
+
+22
+0:01:06.209,000 --> 0:01:07,000
+quelque chose que j'aime
+
+23
+0:01:07.87,000 --> 0:01:08,000
+et pourquoi j'aime ça.
+
+24
+0:01:09.354,000 --> 0:01:12,000
+Et je crois qu'on va commencer par cette question :
+
+25
+0:01:12.733,000 --> 0:01:14,000
+Qu'est-ce que la musique électronique?
+
+26
+0:01:14.738,000 --> 0:01:17,000
+Et je vais faire de mon mieux pour vous donner la meilleure définition.
+
+27
+0:01:18.609,000 --> 0:01:2,000
+Peut-être en vous racontant l'histoire
+
+28
+0:01:20.838,000 --> 0:01:22,000
+de certaines choses sur lesquelles j'ai travaillé.
+
+29
+0:01:23.704,000 --> 0:01:24,000
+La première chose dans notre histoire
+
+30
+0:01:25.516,000 --> 0:01:27,000
+est un outil appelé Chuck.
+
+31
+0:01:29.954,000 --> 0:01:32,000
+Chuck est un langage de programmation pour la musique.
+
+32
+0:01:33.437,000 --> 0:01:35,000
+C'est open source, disponible gratuitement
+
+33
+0:01:36.106,000 --> 0:01:37,000
+et j'aime penser que ça plante aussi bien
+
+34
+0:01:38.066,000 --> 0:01:4,000
+sur tous les systèmes d'exploitation modernes.
+
+35
+0:01:40.41,000 --> 0:01:42,000
+Et plutôt que de vous en parler plus,
+
+36
+0:01:43.14,000 --> 0:01:45,000
+je vais juste vous faire une démonstration.
+
+37
+0:01:45.196,000 --> 0:01:48,000
+Au fait, je vais jouer mon geek pendant quelques minutes
+
+38
+0:01:48.292,000 --> 0:01:5,000
+donc, n'ayez pas peur.
+
+39
+0:01:50.779,000 --> 0:01:52,000
+Je vais vous inviterais même à me rejoindre
+
+40
+0:01:52.85,000 --> 0:01:53,000
+en jouant au geek.
+
+41
+0:01:54.034,000 --> 0:01:56,000
+Si vous n'avez jamais écrit une ligne de codes dans votre vie,
+
+42
+0:01:56.946,000 --> 0:01:57,000
+ne vous inquiétez pas.
+
+43
+0:01:58.342,000 --> 0:02:01,000
+Je parie que vous arriverez à suivre.
+
+44
+0:02:01.799,000 --> 0:02:04,000
+Je vais d'abord créer un oscillateur d'onde sinus
+
+45
+0:02:05.068,000 --> 0:02:09,000
+et nous allons appeler « Ge » le générateur d'onde.
+
+46
+0:02:10.075,000 --> 0:02:12,000
+Puis on va connecter Ge au convertisseur numérique-analogique
+
+47
+0:02:12.937,000 --> 0:02:15,000
+Voilà le concept du son qui sortira de mon ordinateur, OK?
+
+48
+0:02:16.701,000 --> 0:02:19,000
+Donc je me suis connecté au haut-parleur.
+
+49
+0:02:19.899,000 --> 0:02:22,000
+Ensuite, je vais dire que ma fréquence est de 440 hertz.
+
+50
+0:02:23.541,000 --> 0:02:26,000
+Je vais laisser le temps avancer
+
+51
+0:02:27.268,000 --> 0:02:29,000
+de 2 secondes pendant cette opération.
+
+52
+0:02:3,000 --> 0:02:34,000
+Voila, donc si je jouais ça,
+
+53
+0:02:34.068,000 --> 0:02:36,000
+(Son)
+
+54
+0:02:36.07,000 --> 0:02:39,000
+vous auriez une onde sinusoïdale de 440 hertz pendant 2 secondes.
+
+55
+0:02:39.351,000 --> 0:02:43,000
+Parfait. Maintenant je fais copier-coller et je change quelques chiffres,
+
+56
+0:02:43.937,000 --> 0:02:46,000
+220,5 ; je laisse 440 tel quel ;
+
+57
+0:02:47.891,000 --> 0:02:49,000
+0,5 et 880.
+
+58
+0:02:50.331,000 --> 0:02:51,000
+En doublant la fréquence,
+
+59
+0:02:51.693,000 --> 0:02:53,000
+nous montons dans des octaves successives
+
+60
+0:02:54.21,000 --> 0:02:57,000
+donc on a cette séquence de tonalités.
+
+61
+0:02:57.687,000 --> 0:02:58,000
+Ok, parfait, maintenant je peux créer
+
+62
+0:02:59.562,000 --> 0:03:02,000
+pleins de morceaux de musique horribles avec des ondes sinusoïdales simples
+
+63
+0:03:03.42,000 --> 0:03:06,000
+mais je vais faire quelque chose que les ordinateurs savent très bien faire :
+
+64
+0:03:07.112,000 --> 0:03:08,000
+la répétition.
+
+65
+0:03:08.246,000 --> 0:03:09,000
+Je vais tout mettre en boucle.
+
+66
+0:03:09.68,000 --> 0:03:12,000
+Pas besoin de faire d'alinéa sauf pour des raisons esthétiques.
+
+67
+0:03:13.28,000 --> 0:03:14,000
+C'est un bon entraînement.
+
+68
+0:03:14.884,000 --> 0:03:15,000
+Et quand on fait ça —
+
+69
+0:03:16.464,000 --> 0:03:19,000
+(Sons)
+
+70
+0:03:20.811,000 --> 0:03:21,000
+Ça va continuer un moment.
+
+71
+0:03:22.134,000 --> 0:03:25,000
+En fait, ça ne va pas s'arrêter avant que l'ordinateur se désintègre.
+
+72
+0:03:25.418,000 --> 0:03:27,000
+Je ne peux pas vous le prouver empiriquement
+
+73
+0:03:28.11,000 --> 0:03:31,000
+mais j'espère que vous me croyez.
+
+74
+0:03:31.779,000 --> 0:03:32,000
+Ensuite, je vais remplacer 220
+
+75
+0:03:33.655,000 --> 0:03:35,000
+par math.random2f.
+
+76
+0:03:36.021,000 --> 0:03:37,000
+Je vais générer un chiffre au hasard
+
+77
+0:03:37.919,000 --> 0:03:42,000
+entre 30 et 1000 et envoyer ça à ma fréquence.
+
+78
+0:03:42.965,000 --> 0:03:44,000
+Et je vais faire ça chaque demi seconde.
+
+79
+0:03:45.065,000 --> 0:03:47,000
+(Sons)
+
+80
+0:03:48.007,000 --> 0:03:5,000
+Toutes les 200 millisecondes
+
+81
+0:03:50.668,000 --> 0:03:53,000
+(Sons)
+
+82
+0:03:55.29,000 --> 0:03:56,000
+100 millisecondes
+
+83
+0:03:56.745,000 --> 0:03:57,000
+(Sons)
+
+84
+0:03:58.357,000 --> 0:03:59,000
+Très bien.
+
+85
+0:03:59.591,000 --> 0:04:02,000
+À ce point, nous avons atteint ce que j'appellerais
+
+86
+0:04:02.625,000 --> 0:04:06,000
+la musique électronique par excellence.
+
+87
+0:04:06.626,000 --> 0:04:09,000
+Pour moi, c'est le bruit que les unités centrales
+
+88
+0:04:10.443,000 --> 0:04:14,000
+sont supposées faire quand elles fonctionnent à plein régime.
+
+89
+0:04:14.807,000 --> 0:04:16,000
+Ce son c'est comme :
+
+90
+0:04:16.9,000 --> 0:04:19,000
+la racine carrée de 5 millions
+
+91
+0:04:22.427,000 --> 0:04:25,000
+Donc est-ce ça, la musique électronique ?
+
+92
+0:04:26.211,000 --> 0:04:27,000
+Oui, par définition, je suppose,
+
+93
+0:04:28.13,000 --> 0:04:29,000
+c'en est en quelque sorte.
+
+94
+0:04:29.395,000 --> 0:04:32,000
+Ce n'est probablement pas le genre de musique qu'on écouterait
+
+95
+0:04:32.403,000 --> 0:04:33,000
+en roulant sur l'autoroute,
+
+96
+0:04:33.891,000 --> 0:04:38,000
+mais c'est la base de la musique générée par ordinateur.
+
+97
+0:04:38.907,000 --> 0:04:4,000
+Et en utilisant Chuck
+
+98
+0:04:41.11,000 --> 0:04:42,000
+on a pu fabriquer des instruments
+
+99
+0:04:42.803,000 --> 0:04:43,000
+pour le Stanford Laptop Orchestra,
+
+100
+0:04:44.699,000 --> 0:04:48,000
+au Centre de Recherche Informatique pour la Musique et l'Acoustique ici à Stanford.
+
+101
+0:04:48.9,000 --> 0:04:5,000
+Le Laptop Orchestra est un ensemble d'ordinateurs, d'hommes,
+
+102
+0:04:51.703,000 --> 0:04:53,000
+et une série de hauts-parleurs hémisphériques spéciaux.
+
+103
+0:04:54.312,000 --> 0:04:55,000
+Et on utilise ces hauts-parleurs car,
+
+104
+0:04:56.109,000 --> 0:04:58,000
+pour les instruments que nous créons sur ordinateur,
+
+105
+0:04:58.799,000 --> 0:04:59,000
+nous voulons que le son sorte
+
+106
+0:05:00.603,000 --> 0:05:03,000
+de quelque part près de l'instrument et de l'artiste,
+
+107
+0:05:04.503,000 --> 0:05:06,000
+un peu comme un instrument acoustique traditionnel.
+
+108
+0:05:07.193,000 --> 0:05:09,000
+Comme si je jouais du violon ici.
+
+109
+0:05:09.219,000 --> 0:05:13,000
+Le son ne va naturellement pas venir de la sono, mais de l'objet lui-même.
+
+110
+0:05:14.15,000 --> 0:05:17,000
+Donc ces hauts-parleurs sont faits pour imiter ça.
+
+111
+0:05:17.481,000 --> 0:05:2,000
+Je vais même vous montrer comment on les fabrique.
+
+112
+0:05:21.25,000 --> 0:05:24,000
+La première étape est d'aller à IKEA et d'acheter un saladier.
+
+113
+0:05:24.817,000 --> 0:05:27,000
+Un Blanda Matt 11 pouces,
+
+114
+0:05:27.917,000 --> 0:05:28,000
+c'est son vrai nom.
+
+115
+0:05:29.415,000 --> 0:05:3,000
+En fait j'en utilise aussi un
+
+116
+0:05:30.797,000 --> 0:05:32,000
+pour préparer la salade chez moi, je ne rigole pas.
+
+117
+0:05:33.175,000 --> 0:05:36,000
+La première étape est de le mettre à l'envers,
+
+118
+0:05:36.236,000 --> 0:05:38,000
+puis on perce des trous dedans
+
+119
+0:05:38.931,000 --> 0:05:4,000
+6 trous par hémisphère.
+
+120
+0:05:41.22,000 --> 0:05:42,000
+Ensuite faites une embase,
+
+121
+0:05:42.934,000 --> 0:05:44,000
+mettez un haut-parleur dedans
+
+122
+0:05:45.614,000 --> 0:05:47,000
+avec des amplificateurs dans l'enceinte,
+
+123
+0:05:48.205,000 --> 0:05:49,000
+on assemble le tout,
+
+124
+0:05:49.329,000 --> 0:05:51,000
+et voilà nos hauts-parleurs hémisphériques.
+
+125
+0:05:51.333,000 --> 0:05:55,000
+Ajoutez des gens et des ordinateurs vous avez un orchestre d'ordinateurs.
+
+126
+0:05:55.766,000 --> 0:05:58,000
+Quel son produirait un orchestre électronique?
+
+127
+0:05:59.114,000 --> 0:06:,000
+Laissez-moi vous faire une démonstration
+
+128
+0:06:01.033,000 --> 0:06:04,000
+d'un des quelques 200 instruments que nous avons créé jusqu'ici
+
+129
+0:06:04.268,000 --> 0:06:06,000
+pour le Laptop Orchestra.
+
+130
+0:06:07.481,000 --> 0:06:09,000
+Ce que je vais faire c'est m'approcher de cet objet.
+
+131
+0:06:09.923,000 --> 0:06:14,000
+Ceci était à l'origine utilisé comme une manette de jeu,
+
+132
+0:06:15.355,000 --> 0:06:16,000
+on appelle ça un Gametrak.
+
+133
+0:06:17.145,000 --> 0:06:18,000
+On a ici un gant qu'on peut enfiler.
+
+134
+0:06:19.021,000 --> 0:06:2,000
+Il est attaché à l'appareil
+
+135
+0:06:20.581,000 --> 0:06:22,000
+et va suivre la position de vos mains
+
+136
+0:06:23.11,000 --> 0:06:24,000
+en temps réel.
+
+137
+0:06:24.163,000 --> 0:06:27,000
+À l'origine, c'était censé être une manette de golf
+
+138
+0:06:27.437,000 --> 0:06:29,000
+qui détectait le mouvement de votre swing.
+
+139
+0:06:29.453,000 --> 0:06:31,000
+Ça s'est avéré être un assez grand
+
+140
+0:06:31.984,000 --> 0:06:32,000
+échec commercial
+
+141
+0:06:33.688,000 --> 0:06:36,000
+au point que leur prix est tombé à 10 dollars.
+
+142
+0:06:37.442,000 --> 0:06:39,000
+Les chercheurs en musique électronique
+
+143
+0:06:39.45,000 --> 0:06:4,000
+se sont alors dit : « C'est génial !
+
+144
+0:06:41.448,000 --> 0:06:43,000
+On peut faire des prototypes d'instruments à partir de ça ».
+
+145
+0:06:44.257,000 --> 0:06:46,000
+Donc je vais vous montrer un instrument que nous avons créé,
+
+146
+0:06:47.201,000 --> 0:06:5,000
+parmi d'autres, et cet instrument est appelé « Twilight » (Crépuscule)
+
+147
+0:06:50.843,000 --> 0:06:52,000
+et c'est fait pour ressembler à cette métaphore :
+
+148
+0:06:53.688,000 --> 0:06:55,000
+tirer un son de la terre.
+
+149
+0:06:56.401,000 --> 0:06:59,000
+Voyons si ça fonctionne.
+
+150
+0:07:02.012,000 --> 0:07:05,000
+(Musique)
+
+151
+0:07:08.588,000 --> 0:07:09,000
+Et je le repose.
+
+152
+0:07:10.481,000 --> 0:07:13,000
+Ensuite si vous allez à gauche,
+
+153
+0:07:14.336,000 --> 0:07:17,000
+à droite.
+
+154
+0:07:21.007,000 --> 0:07:24,000
+Ça ressemble au cri d'un éléphant qui souffre.
+
+155
+0:07:24.981,000 --> 0:07:27,000
+Ceci est un son légèrement métallique.
+
+156
+0:07:28.259,000 --> 0:07:31,000
+Je tourne un tout petit peu.
+
+157
+0:07:31.613,000 --> 0:07:33,000
+(Musique)
+
+158
+0:07:36.941,000 --> 0:07:39,000
+C'est comme une voiture qui plane.
+
+159
+0:07:43.906,000 --> 0:07:44,000
+Bien.
+
+160
+0:07:45.799,000 --> 0:07:49,000
+La troisième est comme un enchaînement de cliquetis.
+
+161
+0:07:51.36,000 --> 0:07:53,000
+Je vais l'allumer.
+
+162
+0:07:56.915,000 --> 0:07:59,000
+(Musique)
+
+163
+0:08:02.068,000 --> 0:08:03,000
+C'est un concept légèrement différent.
+
+164
+0:08:03.948,000 --> 0:08:05,000
+Le quatrième est un drone.
+
+165
+0:08:07.583,000 --> 0:08:1,000
+(Musique)
+
+166
+0:08:20.623,000 --> 0:08:22,000
+Et finalement, voyons voir,
+
+167
+0:08:23.319,000 --> 0:08:24,000
+c'est une idée totalement différente,
+
+168
+0:08:25.13,000 --> 0:08:26,000
+et je crois que vous devez imaginer
+
+169
+0:08:26.94,000 --> 0:08:28,000
+comme un tambour géant invisible, ici sur scène,
+
+170
+0:08:29.872,000 --> 0:08:31,000
+et je vais le frapper.
+
+171
+0:08:34.785,000 --> 0:08:36,000
+(Batterie)
+
+172
+0:08:36.902,000 --> 0:08:39,000
+(Rires)
+
+173
+0:08:40.241,000 --> 0:08:42,000
+Donc voila, c'est l'un des nombreux instruments
+
+174
+0:08:42.685,000 --> 0:08:43,000
+du Laptop Orchestra.
+
+175
+0:08:44.455,000 --> 0:08:47,000
+(Applaudissements)
+
+176
+0:08:48.399,000 --> 0:08:49,000
+Merci.
+
+177
+0:08:50.29,000 --> 0:08:52,000
+Et quand vous mettez tout ça ensemble,
+
+178
+0:08:52.396,000 --> 0:08:56,000
+vous avez quelque chose qui ressemble à ça.
+
+179
+0:08:56.464,000 --> 0:08:59,000
+(Musique)
+
+180
+0:09:45.47,000 --> 0:09:47,000
+Ok, et donc, je crois que de cette expérience
+
+181
+0:09:47.82,000 --> 0:09:49,000
+de fabriquer divers instruments pour cet orchestre
+
+182
+0:09:50.343,000 --> 0:09:52,000
+et de la curiosité de se demander :
+
+183
+0:09:52.827,000 --> 0:09:55,000
+« et si l'on prenait ces instruments, que j'espère expressifs
+
+184
+0:09:56.25,000 --> 0:09:58,000
+et que nous les présentions au public »,
+
+185
+0:09:58.575,000 --> 0:10:,000
+plus le grain de folie nécessaire.
+
+186
+0:10:00.982,000 --> 0:10:01,000
+Associez ces trois éléments --
+
+187
+0:10:02.471,000 --> 0:10:05,000
+voilà ce qui m'a poussé à co-fonder en 2008
+
+188
+0:10:05.987,000 --> 0:10:07,000
+une entreprise appelée Smule.
+
+189
+0:10:08.446,000 --> 0:10:09,000
+La mission de Smule est de créer
+
+190
+0:10:10.366,000 --> 0:10:13,000
+des morceaux de musiques expressifs et mobiles,
+
+191
+0:10:14.223,000 --> 0:10:18,000
+et l'un des premiers instruments
+
+192
+0:10:18.985,000 --> 0:10:19,000
+que nous avons créé est appelé Ocarina.
+
+193
+0:10:20.845,000 --> 0:10:23,000
+Je vais vous en faire une très brève démonstration.
+
+194
+0:10:27.234,000 --> 0:10:29,000
+Donc Ocarina --
+
+195
+0:10:29.65,000 --> 0:10:32,000
+(Musique)
+
+196
+0:10:33.248,000 --> 0:10:36,000
+est basé sur une sorte de flûte ancienne
+
+197
+0:10:36.371,000 --> 0:10:37,000
+appelée l'ocarina,
+
+198
+0:10:37.78,000 --> 0:10:4,000
+et celle-ci est l'ocarina anglais à quatre trous.
+
+199
+0:10:41.163,000 --> 0:10:44,000
+Vous soufflez littéralement dans le micro
+
+200
+0:10:44.566,000 --> 0:10:46,000
+pour produire le son.
+
+201
+0:10:47.122,000 --> 0:10:49,000
+Il y a un petit script « Chuck » là-dedans
+
+202
+0:10:49.843,000 --> 0:10:52,000
+qui détecte la force de votre souffle et qui synthétise le son.
+
+203
+0:10:53.633,000 --> 0:10:55,000
+(Musique)
+
+204
+0:10:57.478,000 --> 0:11:,000
+Le vibrato est détecté par l'accéléromètre
+
+205
+0:11:00.808,000 --> 0:11:01,000
+et vous obtenez
+
+206
+0:11:02.461,000 --> 0:11:05,000
+(Musique)
+
+207
+0:11:05.79,000 --> 0:11:08,000
+Voila. Donc laissez-moi vous jouer une petite chanson,
+
+208
+0:11:11.263,000 --> 0:11:12,000
+un petit Bach.
+
+209
+0:11:13.029,000 --> 0:11:15,000
+Et ici, vous allez entendre un accompagnement.
+
+210
+0:11:15.941,000 --> 0:11:17,000
+L'accompagnement suit la mélodie,
+
+211
+0:11:18.509,000 --> 0:11:2,000
+pas l'inverse.
+
+212
+0:11:21.84,000 --> 0:11:24,000
+(Musique)
+
+213
+0:11:34.572,000 --> 0:11:36,000
+Et ça a été conçu
+
+214
+0:11:37.235,000 --> 0:11:41,000
+pour vous laisser le temps de trouver votre rythme musical.
+
+215
+0:11:41.27,000 --> 0:11:45,000
+Donc vous pouvez trainer là un moment pour un effet dramatique,
+
+216
+0:11:46.057,000 --> 0:11:49,000
+et quand vous êtes prêt --
+
+217
+0:11:49.205,000 --> 0:11:52,000
+(Musique)
+
+218
+0:12:05.119,000 --> 0:12:07,000
+Et sur ces longues notes, je vais utiliser plus de vibrato
+
+219
+0:12:07.86,000 --> 0:12:08,000
+vers la fin des notes
+
+220
+0:12:09.082,000 --> 0:12:12,000
+pour donner un caractère plus expressif.
+
+221
+0:12:12.134,000 --> 0:12:15,000
+(Musique)
+
+222
+0:12:19.473,000 --> 0:12:22,000
+Hum, c'est un bel accord pour finir cette démonstration.
+
+223
+0:12:23.16,000 --> 0:12:26,000
+(Applaudissements)
+
+224
+0:12:26.581,000 --> 0:12:28,000
+Merci.
+
+225
+0:12:31.75,000 --> 0:12:34,000
+Donc je crois qu'une bonne question à se poser à propos d'Ocarina est :
+
+226
+0:12:35.366,000 --> 0:12:38,000
+« est-ce un jouet ou un instrument ? »
+
+227
+0:12:38.598,000 --> 0:12:39,000
+Peut-être les deux,
+
+228
+0:12:40.06,000 --> 0:12:42,000
+mais pour moi, la question la plus importante est :
+
+229
+0:12:42.502,000 --> 0:12:43,000
+« Est-ce que c'est expressif ? »
+
+230
+0:12:44.043,000 --> 0:12:46,000
+Et en même temps, je crois,
+
+231
+0:12:46.117,000 --> 0:12:5,000
+que créer ces instruments pose la question du rôle de la technologie
+
+232
+0:12:50.811,000 --> 0:12:51,000
+et de sa place dans la musique.
+
+233
+0:12:52.477,000 --> 0:12:52,000
+Par exemple,
+
+234
+0:12:53.474,000 --> 0:12:54,000
+il y a environ 100 ans --
+
+235
+0:12:55.47,000 --> 0:12:57,000
+ce n'est pas si long dans l'histoire humaine --
+
+236
+0:12:57.64,000 --> 0:13:01,000
+les familles en ce temps là faisaient de la musique ensemble
+
+237
+0:13:01.821,000 --> 0:13:03,000
+comme une forme de divertissement classique.
+
+238
+0:13:04.557,000 --> 0:13:06,000
+Je doute que ça se passe ainsi de nos jours.
+
+239
+0:13:06.827,000 --> 0:13:08,000
+C'était avant la radio ou les enregistrements.
+
+240
+0:13:09.007,000 --> 0:13:11,000
+Ces derniers 100 ans, avec la technologie
+
+241
+0:13:11.214,000 --> 0:13:13,000
+nous avons maintenant accès à la musique
+
+242
+0:13:13.388,000 --> 0:13:14,000
+comme auditeurs et consommateurs.
+
+243
+0:13:15.021,000 --> 0:13:18,000
+Mais, étrangement, je crois que nous faisons moins de musique
+
+244
+0:13:18.084,000 --> 0:13:19,000
+que jamais auparavant.
+
+245
+0:13:19.77,000 --> 0:13:2,000
+Je ne sais pas vraiment pourquoi.
+
+246
+0:13:21.401,000 --> 0:13:23,000
+Peut-être que c'est très facile d'appuyer sur play.
+
+247
+0:13:24.05,000 --> 0:13:26,000
+Et, même si écouter de la musique est formidable,
+
+248
+0:13:26.509,000 --> 0:13:29,000
+il y a un certain plaisir à faire de la musique
+
+249
+0:13:29.918,000 --> 0:13:3,000
+qui est tout différent.
+
+250
+0:13:31.573,000 --> 0:13:32,000
+Voilà en partie la raison
+
+251
+0:13:33.126,000 --> 0:13:34,000
+pour laquelle je fais ce que je fais.
+
+252
+0:13:34.926,000 --> 0:13:38,000
+C'est un peu comme voyager dans le passé, n'est-ce pas?
+
+253
+0:13:39.682,000 --> 0:13:39,000
+En voilà une raison.
+
+254
+0:13:40.652,000 --> 0:13:42,000
+Une autre est de regarder le futur et d'imaginer
+
+255
+0:13:42.892,000 --> 0:13:44,000
+les nouvelles choses que nous pouvons faire,
+
+256
+0:13:45.229,000 --> 0:13:47,000
+qui n'ont peut-être pas encore de nom,
+
+257
+0:13:47.822,000 --> 0:13:49,000
+et qui découlent de la technologie, mais finalement
+
+258
+0:13:50.465,000 --> 0:13:52,000
+pourraient changer la manière dont on fait de la musique.
+
+259
+0:13:53.126,000 --> 0:13:55,000
+Et je vais juste vous montrer un exemple.
+
+260
+0:13:55.498,000 --> 0:13:59,000
+C'est une autre caractéristique d'Ocarina.
+
+261
+0:14:01.723,000 --> 0:14:03,000
+Voici un globe
+
+262
+0:14:03.91,000 --> 0:14:05,000
+et vous êtes en train d'écouter
+
+263
+0:14:06.683,000 --> 0:14:08,000
+ce que d'autres utilisateurs d'Ocarina
+
+264
+0:14:08.735,000 --> 0:14:11,000
+jouent en soufflant dans leur Iphone.
+
+265
+0:14:12.715,000 --> 0:14:16,000
+Là c'est « G.I.R. » du Texas.
+
+266
+0:14:17.568,000 --> 0:14:22,000
+« R.I.K. » -- pourquoi ces noms à trois lettres aujourd'hui -- de Los Angeles.
+
+267
+0:14:23.501,000 --> 0:14:28,000
+Ils jouent tous plutôt bien,
+
+268
+0:14:28.519,000 --> 0:14:31,000
+plutôt minimaliste dans ce cas.
+
+269
+0:14:31.879,000 --> 0:14:34,000
+(Musique)
+
+270
+0:14:37.327,000 --> 0:14:39,000
+Et l'idée ici c'est
+
+271
+0:14:39.663,000 --> 0:14:42,000
+que la technologie ne devrait pas être au premier plan ici,
+
+272
+0:14:42.92,000 --> 0:14:44,000
+(Rires)
+
+273
+0:14:45.523,000 --> 0:14:47,000
+On ouvre ça
+
+274
+0:14:48.456,000 --> 0:14:49,000
+et on pense d'abord :
+
+275
+0:14:50.153,000 --> 0:14:54,000
+« Hé, il y a quelqu'un quelque part qui fait de la musique »,
+
+276
+0:14:54.353,000 --> 0:14:57,000
+et je trouve que ça crée un lien, petit mais important à faire,
+
+277
+0:14:57.613,000 --> 0:14:59,000
+que peut-être, la technologie nous permet.
+
+278
+0:15:00.611,000 --> 0:15:02,000
+Comme dernier exemple,
+
+279
+0:15:03.435,000 --> 0:15:04,000
+peut-être mon préféré.
+
+280
+0:15:04.79,000 --> 0:15:07,000
+Après les tremblements de terre de 2011
+
+281
+0:15:07.941,000 --> 0:15:09,000
+et le désastre du Tsunami au Japon,
+
+282
+0:15:10.427,000 --> 0:15:12,000
+une femme a utilisé notre application
+
+283
+0:15:13.27,000 --> 0:15:15,000
+pour convaincre des gens de chanter avec elle
+
+284
+0:15:15.907,000 --> 0:15:16,000
+sur une version de « Lean on Me ».
+
+285
+0:15:17.762,000 --> 0:15:19,000
+Donc, sur cette application, il y a une chose qui permet
+
+286
+0:15:20.43,000 --> 0:15:21,000
+à un utilisateur d'ajouter sa voix
+
+287
+0:15:22.241,000 --> 0:15:24,000
+à un enregistrement existant fait par une autre utilisateur
+
+288
+0:15:25.169,000 --> 0:15:26,000
+ou groupe d'utilisateurs,
+
+289
+0:15:26.493,000 --> 0:15:27,000
+donc elle a en quelque sorte créé
+
+290
+0:15:28.388,000 --> 0:15:31,000
+cette chorale spontanée d'étrangers.
+
+291
+0:15:31.772,000 --> 0:15:33,000
+Et en quelques semaines, des milliers de gens
+
+292
+0:15:33.98,000 --> 0:15:34,000
+s'y sont joint.
+
+293
+0:15:35.612,000 --> 0:15:37,000
+Vous pouvez voir des gens venant du monde entier
+
+294
+0:15:37.991,000 --> 0:15:39,000
+et toutes ces lignes convergent vers l'endroit
+
+295
+0:15:40.272,000 --> 0:15:42,000
+où la première version a été chantée,
+
+296
+0:15:42.62,000 --> 0:15:43,000
+à Tokyo.
+
+297
+0:15:44.254,000 --> 0:15:47,000
+Et voilà à quoi ça ressemble quand on réunit 1000 personnes.
+
+298
+0:15:47.686,000 --> 0:15:48,000
+Donc 1000 voix.
+
+299
+0:15:49.37,000 --> 0:15:5,000
+(Musique)
+
+300
+0:15:51.184,000 --> 0:15:53,000
+« Parfois dans nos vies »
+
+301
+0:15:54.4,000 --> 0:15:59,000
+« Nous avons de la peine, nous avons du chagrin »
+
+302
+0:16:01.17,000 --> 0:16:04,000
+« Mais si nous sommes sages »
+
+303
+0:16:05.1,000 --> 0:16:1,000
+« Nous savons qu'il y a toujours demain »
+
+304
+0:16:10.99,000 --> 0:16:12,000
+« Repose toi sur moi »
+
+305
+0:16:13.497,000 --> 0:16:15,000
+« Quand tu manque de force »
+
+306
+0:16:16.31,000 --> 0:16:18,000
+« Et je serai ton ami »
+
+307
+0:16:18.95,000 --> 0:16:22,000
+« Je t'aiderai à continuer »
+
+308
+0:16:23.052,000 --> 0:16:27,000
+« Car ce ne sera pas long »
+
+309
+0:16:27.248,000 --> 0:16:29,000
+« Avant que j'aie besoin »
+
+310
+0:16:29.976,000 --> 0:16:32,000
+« De quelqu'un sur qui me reposer »
+
+311
+0:16:33.372,000 --> 0:16:35,000
+« Repose toi »
+
+312
+0:16:35.386,000 --> 0:16:36,000
+Est-ce de la musique électronique?
+
+313
+0:16:37.296,000 --> 0:16:39,000
+(Applaudissements)
+
+314
+0:16:42.728,000 --> 0:16:43,000
+C'est ça la musique par ordinateur?
+
+315
+0:16:44.696,000 --> 0:16:46,000
+Oui, je suppose; ça n'aurait vraiment pas été possible
+
+316
+0:16:47.483,000 --> 0:16:48,000
+sans ordinateur.
+
+317
+0:16:49.028,000 --> 0:16:53,000
+Mais en même temps, c'est aussi humain.
+
+318
+0:16:53.264,000 --> 0:16:56,000
+Je crois avoir globalement répondu à la question de départ :
+
+319
+0:16:56.353,000 --> 0:16:59,000
+c'est peut-être pour cela que je fait ce que je fais.
+
+320
+0:16:59.744,000 --> 0:17:01,000
+Retournons pour finir à la première question :
+
+321
+0:17:02.136,000 --> 0:17:04,000
+« Qu'est ce que la musique par ordinateur ? »
+
+322
+0:17:04.248,000 --> 0:17:05,000
+Et l'essentiel ici est que,
+
+323
+0:17:05.782,000 --> 0:17:07,000
+du moins pour moi, la musique électronique,
+
+324
+0:17:07.808,000 --> 0:17:08,000
+ne concerne pas vraiment les ordinateurs,
+
+325
+0:17:09.756,000 --> 0:17:1,000
+mais les gens.
+
+326
+0:17:10.762,000 --> 0:17:12,000
+Comment pouvons-nous utiliser la technologie
+
+327
+0:17:12.816,000 --> 0:17:15,000
+pour changer notre conception et notre façon de faire de la musique
+
+328
+0:17:16.322,000 --> 0:17:19,000
+et peut-être aussi comment nous pouvons
+
+329
+0:17:19.992,000 --> 0:17:21,000
+nous rencontrer grâce à la musique.
+
+330
+0:17:22.502,000 --> 0:17:24,000
+Et là-dessus je voudrais dire :
+
+331
+0:17:24.655,000 --> 0:17:27,000
+voilà de la musique électronique, et merci d'avoir écouté.
+
+332
+0:17:27.752,000 --> 0:17:29,000
+(Applaudissements)
+

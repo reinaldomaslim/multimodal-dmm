@@ -1,0 +1,936 @@
+1
+0:00:12.722,000 --> 0:00:15,000
+We need to build a weather service for water.
+
+2
+0:00:16.236,000 --> 0:00:19,000
+Yet, until we collectively demand accountability,
+
+3
+0:00:19.634,000 --> 0:00:21,000
+the incentives to fund it will not exist.
+
+4
+0:00:23.805,000 --> 0:00:27,000
+The first time I spoke at a conference was here at TED, eight years ago.
+
+5
+0:00:28.768,000 --> 0:00:3,000
+Fresh out of grad school, little did I know
+
+6
+0:00:31.08,000 --> 0:00:32,000
+that in those few minutes onstage,
+
+7
+0:00:32.958,000 --> 0:00:34,000
+I was framing the questions I was going to be asked
+
+8
+0:00:35.516,000 --> 0:00:36,000
+for the next decade.
+
+9
+0:00:37.599,000 --> 0:00:39,000
+And, like too many 20-somethings,
+
+10
+0:00:40.135,000 --> 0:00:42,000
+I expected to solve the world's problems --
+
+11
+0:00:42.635,000 --> 0:00:44,000
+more specifically, the world's water problems --
+
+12
+0:00:45.411,000 --> 0:00:46,000
+with my technology.
+
+13
+0:00:48.044,000 --> 0:00:49,000
+I had a lot to learn.
+
+14
+0:00:50.63,000 --> 0:00:51,000
+It was seductive,
+
+15
+0:00:52.138,000 --> 0:00:56,000
+believing that our biggest water quality problems persist
+
+16
+0:00:56.494,000 --> 0:00:58,000
+because they're so hard to identify.
+
+17
+0:00:59.532,000 --> 0:01:,000
+And I presumed
+
+18
+0:01:01.223,000 --> 0:01:06,000
+that we just needed simpler, faster and more affordable sensors.
+
+19
+0:01:07.071,000 --> 0:01:08,000
+I was wrong.
+
+20
+0:01:09.512,000 --> 0:01:13,000
+While it's true that managing tomorrow's water risk
+
+21
+0:01:13.659,000 --> 0:01:17,000
+is going to require better data and more technology,
+
+22
+0:01:17.753,000 --> 0:01:21,000
+today we're barely using the little water data that we have.
+
+23
+0:01:22.814,000 --> 0:01:26,000
+Our biggest water problems persist because of what we don't do
+
+24
+0:01:27.525,000 --> 0:01:29,000
+and the problems we fail to acknowledge.
+
+25
+0:01:31.151,000 --> 0:01:32,000
+There's actually little question
+
+26
+0:01:32.788,000 --> 0:01:36,000
+about what today's water data is telling us to do as a species:
+
+27
+0:01:37.659,000 --> 0:01:38,000
+we need to conserve more,
+
+28
+0:01:39.467,000 --> 0:01:4,000
+and we need to pollute less.
+
+29
+0:01:42.364,000 --> 0:01:46,000
+But today's data is not going to help us forecast the emerging risks
+
+30
+0:01:46.712,000 --> 0:01:48,000
+facing businesses and markets.
+
+31
+0:01:48.948,000 --> 0:01:51,000
+It's rapidly becoming useless for that.
+
+32
+0:01:52.039,000 --> 0:01:53,000
+It used to carry more value,
+
+33
+0:01:54.021,000 --> 0:01:57,000
+but it's never actually told us with any real accuracy
+
+34
+0:01:58.04,000 --> 0:01:59,000
+how much water we have
+
+35
+0:01:59.606,000 --> 0:02:,000
+or what's in it.
+
+36
+0:02:01.899,000 --> 0:02:05,000
+Let's consider the past decade of water usage statistics
+
+37
+0:02:06.306,000 --> 0:02:08,000
+from each of the G20 nations.
+
+38
+0:02:08.556,000 --> 0:02:1,000
+Now, what these numbers do not tell you
+
+39
+0:02:11.133,000 --> 0:02:16,000
+is that none of these countries directly measures how much water they use.
+
+40
+0:02:16.221,000 --> 0:02:17,000
+These are all estimates,
+
+41
+0:02:17.529,000 --> 0:02:19,000
+and they're based on outdated models
+
+42
+0:02:20.176,000 --> 0:02:22,000
+that don't consider the climate crisis,
+
+43
+0:02:23.034,000 --> 0:02:26,000
+nor do they consider its impact on water.
+
+44
+0:02:28.037,000 --> 0:02:32,000
+In 2015, Chennai, India's sixth-largest city,
+
+45
+0:02:32.103,000 --> 0:02:35,000
+was hit with the worst floods it had seen in a century.
+
+46
+0:02:37.1,000 --> 0:02:4,000
+Today, its water reservoirs are nearly dry.
+
+47
+0:02:40.862,000 --> 0:02:43,000
+It took three years to get here,
+
+48
+0:02:43.888,000 --> 0:02:45,000
+three years of subaverage rainfall.
+
+49
+0:02:46.231,000 --> 0:02:5,000
+Now, that's faster than most nations tabulate their national water data,
+
+50
+0:02:50.965,000 --> 0:02:51,000
+including the US.
+
+51
+0:02:53.2,000 --> 0:02:55,000
+And although there were forecasts
+
+52
+0:02:55.832,000 --> 0:02:59,000
+that predicted severe shortages of water in Chennai,
+
+53
+0:03:00.088,000 --> 0:03:03,000
+none of them could actually help us pinpoint exactly when or where
+
+54
+0:03:03.62,000 --> 0:03:04,000
+this was going to happen.
+
+55
+0:03:05.536,000 --> 0:03:08,000
+This is a new type of water problem,
+
+56
+0:03:08.601,000 --> 0:03:13,000
+because the rate at which every aspect of our water cycle changes
+
+57
+0:03:13.939,000 --> 0:03:14,000
+is accelerating.
+
+58
+0:03:15.392,000 --> 0:03:18,000
+As a recent UN warning this month revealed,
+
+59
+0:03:18.741,000 --> 0:03:23,000
+we are now facing one new climate emergency every single week.
+
+60
+0:03:26.089,000 --> 0:03:29,000
+There are greater uncertainties ahead for water quality.
+
+61
+0:03:29.344,000 --> 0:03:32,000
+It's rare in most countries for most water bodies to be tested
+
+62
+0:03:33.165,000 --> 0:03:35,000
+for more than a handful of contaminants in a year.
+
+63
+0:03:36.04,000 --> 0:03:39,000
+Instead of testing, we use what's called the "dilution model"
+
+64
+0:03:39.225,000 --> 0:03:4,000
+to manage pollution.
+
+65
+0:03:41.011,000 --> 0:03:44,000
+Now, imagine I took an Olympic-sized swimming pool,
+
+66
+0:03:44.703,000 --> 0:03:47,000
+I filled it with fresh water and I added one drop of mercury.
+
+67
+0:03:48.06,000 --> 0:03:5,000
+That would dilute down to one part per billion mercury,
+
+68
+0:03:50.906,000 --> 0:03:52,000
+which is well within what the World Health Organization
+
+69
+0:03:53.503,000 --> 0:03:54,000
+considers safe.
+
+70
+0:03:55.061,000 --> 0:03:59,000
+But if there was any unforeseen drop in how much water was available --
+
+71
+0:03:59.303,000 --> 0:04:03,000
+less groundwater, less stream flow, less water in the pool --
+
+72
+0:04:04.244,000 --> 0:04:05,000
+less dilution would take place,
+
+73
+0:04:06.225,000 --> 0:04:08,000
+and things would get more toxic.
+
+74
+0:04:09.049,000 --> 0:04:12,000
+So this is how most countries are managing pollution.
+
+75
+0:04:12.438,000 --> 0:04:15,000
+They use this model to tell them how much pollution is safe.
+
+76
+0:04:16.146,000 --> 0:04:18,000
+And it has clear weaknesses,
+
+77
+0:04:18.295,000 --> 0:04:2,000
+but it worked well enough when we had abundant water
+
+78
+0:04:20.961,000 --> 0:04:22,000
+and consistent weather patterns.
+
+79
+0:04:23.751,000 --> 0:04:27,000
+Now that we don't, we're going to need to invest and develop
+
+80
+0:04:27.811,000 --> 0:04:29,000
+new data-collection strategies.
+
+81
+0:04:30.161,000 --> 0:04:34,000
+But before we do that, we have to start acting on the data we already have.
+
+82
+0:04:34.944,000 --> 0:04:36,000
+This is a jet fuel fire.
+
+83
+0:04:37.09,000 --> 0:04:38,000
+As many of you may be aware,
+
+84
+0:04:38.95,000 --> 0:04:41,000
+jet fuel emissions play an enormous role in climate change.
+
+85
+0:04:42.307,000 --> 0:04:45,000
+What you might not be aware of is that the US Department of Defense
+
+86
+0:04:45.965,000 --> 0:04:47,000
+is the world's largest consumer of jet fuel.
+
+87
+0:04:48.772,000 --> 0:04:49,000
+And when they consume jet fuel,
+
+88
+0:04:50.526,000 --> 0:04:54,000
+they mandate the use of the firefighting foam pictured here,
+
+89
+0:04:54.576,000 --> 0:04:57,000
+which contains a class of chemicals called PFAS.
+
+90
+0:04:57.827,000 --> 0:05:,000
+Nobody uses more of this foam than the US Department of Defense,
+
+91
+0:05:01.658,000 --> 0:05:05,000
+and every time it's used, PFAS finds its way into our water systems.
+
+92
+0:05:06.582,000 --> 0:05:1,000
+Globally, militaries have been using this foam since the 1970s.
+
+93
+0:05:11.511,000 --> 0:05:14,000
+We know PFAS causes cancer, birth defects,
+
+94
+0:05:15.081,000 --> 0:05:17,000
+and it's now so pervasive in the environment
+
+95
+0:05:17.952,000 --> 0:05:21,000
+that we seem to find it in nearly every living thing we test,
+
+96
+0:05:22.262,000 --> 0:05:23,000
+including us.
+
+97
+0:05:25.073,000 --> 0:05:29,000
+But so far, the US Department of Defense has not been held accountable
+
+98
+0:05:29.259,000 --> 0:05:3,000
+for PFAS contamination,
+
+99
+0:05:31.045,000 --> 0:05:32,000
+nor has it been held liable.
+
+100
+0:05:32.969,000 --> 0:05:35,000
+And although there's an effort underway to phase out these firefighting foams,
+
+101
+0:05:36.956,000 --> 0:05:39,000
+they're not embracing safer, effective alternatives.
+
+102
+0:05:40.493,000 --> 0:05:42,000
+They're actually using other PFAS molecules,
+
+103
+0:05:43.354,000 --> 0:05:48,000
+which may, for all we know, carry worse health consequences.
+
+104
+0:05:49.969,000 --> 0:05:55,000
+So today, government accountability is eroding to the point of elimination,
+
+105
+0:05:56.544,000 --> 0:06:,000
+and the risk of liability from water pollution is vanishing.
+
+106
+0:06:02.029,000 --> 0:06:06,000
+What types of incentives does this create for investing in our water future?
+
+107
+0:06:07.19,000 --> 0:06:12,000
+Over the past decade, the average early stage global investment
+
+108
+0:06:12.94,000 --> 0:06:14,000
+in early stage water technology companies
+
+109
+0:06:15.391,000 --> 0:06:17,000
+has totaled less than 30 million dollars every year.
+
+110
+0:06:18.919,000 --> 0:06:24,000
+That's 0.12 percent of global venture capital for early stage companies.
+
+111
+0:06:27.035,000 --> 0:06:31,000
+And public spending is not going up nearly fast enough.
+
+112
+0:06:31.629,000 --> 0:06:35,000
+And a closer look at it reveals that water is not a priority.
+
+113
+0:06:36.371,000 --> 0:06:41,000
+In 2014, the US federal government was spending 11 dollars per citizen
+
+114
+0:06:41.803,000 --> 0:06:42,000
+on water infrastructure,
+
+115
+0:06:43.717,000 --> 0:06:47,000
+versus 251 dollars on IT infrastructure.
+
+116
+0:06:48.478,000 --> 0:06:51,000
+So when we don't use the data we have,
+
+117
+0:06:51.819,000 --> 0:06:53,000
+we don't encourage investment in new technologies,
+
+118
+0:06:54.482,000 --> 0:06:56,000
+we don't encourage more data collection
+
+119
+0:06:56.666,000 --> 0:07:01,000
+and we certainly don't encourage investment in securing a water future.
+
+120
+0:07:02.82,000 --> 0:07:03,000
+So are we doomed?
+
+121
+0:07:05.477,000 --> 0:07:06,000
+Part of what I'm still learning
+
+122
+0:07:07.212,000 --> 0:07:12,000
+is how to balance the doom and the urgency with things we can do,
+
+123
+0:07:12.358,000 --> 0:07:14,000
+because Greta Thunberg and the Extinction Rebellion
+
+124
+0:07:15.208,000 --> 0:07:17,000
+don't want our hope -- they want us to act.
+
+125
+0:07:17.388,000 --> 0:07:18,000
+So what can we do?
+
+126
+0:07:19.872,000 --> 0:07:23,000
+It's hard to imagine life without a weather service,
+
+127
+0:07:24.806,000 --> 0:07:26,000
+but before modern weather forecasting,
+
+128
+0:07:27.145,000 --> 0:07:29,000
+we had no commercial air travel,
+
+129
+0:07:29.22,000 --> 0:07:32,000
+it was common for ships to be lost at sea,
+
+130
+0:07:33.112,000 --> 0:07:36,000
+and a single storm could produce a food shortage.
+
+131
+0:07:37.46,000 --> 0:07:39,000
+Once we had radio and telegraph networks,
+
+132
+0:07:39.92,000 --> 0:07:42,000
+all that was necessary to solve these problems
+
+133
+0:07:43.252,000 --> 0:07:45,000
+was tracking the movement of storms.
+
+134
+0:07:46.705,000 --> 0:07:5,000
+And that laid the foundation for a global data collection effort,
+
+135
+0:07:51.113,000 --> 0:07:55,000
+one that every household and every business depends upon today.
+
+136
+0:07:55.987,000 --> 0:07:58,000
+And this was as much the result of coordinated and consistent data collection
+
+137
+0:07:59.748,000 --> 0:08:04,000
+as it was the result of producing a culture that saw greater value
+
+138
+0:08:05.179,000 --> 0:08:09,000
+in openly assessing and sharing everything that it could find out and discover
+
+139
+0:08:10.05,000 --> 0:08:11,000
+about the risks we face.
+
+140
+0:08:13.108,000 --> 0:08:16,000
+A global weather service for water would help us forecast water shortages.
+
+141
+0:08:17.77,000 --> 0:08:22,000
+It could help us implement rationing well before reservoirs run dry.
+
+142
+0:08:23.942,000 --> 0:08:26,000
+It could help us detect contamination before it spreads.
+
+143
+0:08:27.221,000 --> 0:08:29,000
+It could protect our supply chains,
+
+144
+0:08:29.625,000 --> 0:08:3,000
+secure our food supplies,
+
+145
+0:08:31.503,000 --> 0:08:32,000
+and, perhaps most importantly,
+
+146
+0:08:33.173,000 --> 0:08:36,000
+it would enable the precise estimation of risk
+
+147
+0:08:36.635,000 --> 0:08:38,000
+necessary to insure against it.
+
+148
+0:08:40.062,000 --> 0:08:43,000
+We know we can do this because we've already done it with weather.
+
+149
+0:08:43.283,000 --> 0:08:45,000
+But it's going to require resources.
+
+150
+0:08:46.683,000 --> 0:08:48,000
+We need to encourage greater investment in water.
+
+151
+0:08:49.513,000 --> 0:08:51,000
+Investors, venture capitalists:
+
+152
+0:08:51.649,000 --> 0:08:54,000
+a portion of your funds and portfolios should be dedicated to water.
+
+153
+0:08:55.715,000 --> 0:08:56,000
+Nothing is more valuable
+
+154
+0:08:57.283,000 --> 0:09:,000
+and, after all, businesses are going to need to understand water risks
+
+155
+0:09:01.078,000 --> 0:09:04,000
+in order to remain competitive in the world we are entering.
+
+156
+0:09:05.22,000 --> 0:09:07,000
+Aside from venture capital,
+
+157
+0:09:07.479,000 --> 0:09:1,000
+there are also lots of promising government programs
+
+158
+0:09:10.782,000 --> 0:09:13,000
+that encourage economic development through tax incentives.
+
+159
+0:09:14.665,000 --> 0:09:16,000
+A new option in the US that my company is using
+
+160
+0:09:17.518,000 --> 0:09:18,000
+is called "opportunity zones."
+
+161
+0:09:19.651,000 --> 0:09:22,000
+They offer favorable tax treatment for investing capital gains
+
+162
+0:09:23.581,000 --> 0:09:26,000
+in designated distressed and low-income areas.
+
+163
+0:09:26.94,000 --> 0:09:27,000
+Now, these are areas
+
+164
+0:09:28.761,000 --> 0:09:3,000
+that are also facing staggering water risk,
+
+165
+0:09:31.399,000 --> 0:09:34,000
+so this creates crucial incentives to work directly with the communities
+
+166
+0:09:34.976,000 --> 0:09:35,000
+who need help most.
+
+167
+0:09:36.78,000 --> 0:09:4,000
+And if you're not looking to make this type of investment
+
+168
+0:09:41.131,000 --> 0:09:42,000
+but you own land in the US,
+
+169
+0:09:42.684,000 --> 0:09:45,000
+did you know that you can leverage your land
+
+170
+0:09:46.262,000 --> 0:09:48,000
+to conserve water quality permanently
+
+171
+0:09:49.201,000 --> 0:09:51,000
+with a conservation easement?
+
+172
+0:09:51.242,000 --> 0:09:54,000
+You can assign the perpetual right to a local land trust
+
+173
+0:09:54.875,000 --> 0:09:55,000
+to conserve your land
+
+174
+0:09:56.512,000 --> 0:09:57,000
+and set specific water quality goals.
+
+175
+0:09:58.47,000 --> 0:09:59,000
+And if you meet those goals,
+
+176
+0:10:00.204,000 --> 0:10:04,000
+you can be rewarded with a substantial tax discount every year.
+
+177
+0:10:06.435,000 --> 0:10:1,000
+How many areas could our global community protect
+
+178
+0:10:10.869,000 --> 0:10:12,000
+through these and other programs?
+
+179
+0:10:14.435,000 --> 0:10:17,000
+They're powerful because they offer the access to real property
+
+180
+0:10:17.942,000 --> 0:10:21,000
+necessary to lay the foundation for a global weather service for water.
+
+181
+0:10:23.02,000 --> 0:10:28,000
+But this can only work if we use these programs as they are intended
+
+182
+0:10:28.779,000 --> 0:10:31,000
+and not as mere vehicles for tax evasion.
+
+183
+0:10:33.072,000 --> 0:10:35,000
+When the conservation easement was established,
+
+184
+0:10:35.357,000 --> 0:10:38,000
+nobody could anticipate how ingrained in environmental movements
+
+185
+0:10:38.639,000 --> 0:10:4,000
+corporate polluters would become.
+
+186
+0:10:40.941,000 --> 0:10:44,000
+And we've become accustomed to companies talking about the climate crisis
+
+187
+0:10:45.676,000 --> 0:10:47,000
+while doing nothing about it.
+
+188
+0:10:49.738,000 --> 0:10:53,000
+This has undermined the legacy and the impact of these programs,
+
+189
+0:10:54.403,000 --> 0:10:56,000
+but it also makes them ripe for reclamation.
+
+190
+0:10:57.109,000 --> 0:11:,000
+Why not use conservation easements as they were intended,
+
+191
+0:11:00.231,000 --> 0:11:04,000
+to set and reach ambitious conservation goals?
+
+192
+0:11:04.605,000 --> 0:11:08,000
+Why not create opportunities in opportunity zones?
+
+193
+0:11:09.456,000 --> 0:11:13,000
+Because fundamentally, water security requires accountability.
+
+194
+0:11:14.444,000 --> 0:11:19,000
+Accountability is not corporate polluters sponsoring environmental groups
+
+195
+0:11:20.186,000 --> 0:11:21,000
+and museums.
+
+196
+0:11:22.019,000 --> 0:11:24,000
+Those are conflicts of interest.
+
+197
+0:11:24.083,000 --> 0:11:29,000
+(Applause)
+
+198
+0:11:30.126,000 --> 0:11:32,000
+Accountability is:
+
+199
+0:11:33.143,000 --> 0:11:37,000
+making the risk of liability too expensive
+
+200
+0:11:37.427,000 --> 0:11:39,000
+to continue polluting and wasting our water.
+
+201
+0:11:40.429,000 --> 0:11:43,000
+We can't keep settling for words. It's time to act.
+
+202
+0:11:44.233,000 --> 0:11:47,000
+And where better to start than with our biggest polluters,
+
+203
+0:11:47.725,000 --> 0:11:52,000
+particularly the US Department of Defense, which is taxpayer-funded.
+
+204
+0:11:52.828,000 --> 0:11:55,000
+Who and what are we protecting when US soldiers, their families
+
+205
+0:11:56.525,000 --> 0:11:59,000
+and the people who live near US military bases abroad
+
+206
+0:12:00.036,000 --> 0:12:02,000
+are all drinking toxic water?
+
+207
+0:12:02.876,000 --> 0:12:06,000
+Global security can no longer remain at odds with protecting our planet
+
+208
+0:12:07.347,000 --> 0:12:08,000
+or our collective health.
+
+209
+0:12:08.811,000 --> 0:12:1,000
+Our survival depends on it.
+
+210
+0:12:11.404,000 --> 0:12:12,000
+Similarly,
+
+211
+0:12:13.178,000 --> 0:12:16,000
+agriculture in most countries depends on taxpayer-funded subsidies
+
+212
+0:12:17.078,000 --> 0:12:2,000
+that are paid to farmers to secure and stabilize food supplies.
+
+213
+0:12:22.039,000 --> 0:12:26,000
+These incentives are a crucial leverage point for us,
+
+214
+0:12:26.441,000 --> 0:12:3,000
+because agriculture is responsible for consuming 70 percent
+
+215
+0:12:30.995,000 --> 0:12:32,000
+of all the water we use every year.
+
+216
+0:12:34.061,000 --> 0:12:36,000
+Fertilizer and pesticide runoff
+
+217
+0:12:36.737,000 --> 0:12:38,000
+are the two biggest sources of water pollution.
+
+218
+0:12:39.46,000 --> 0:12:42,000
+Let's restructure these subsidies to demand better water efficiency
+
+219
+0:12:43.249,000 --> 0:12:44,000
+and less pollution.
+
+220
+0:12:44.995,000 --> 0:12:49,000
+(Applause)
+
+221
+0:12:50.74,000 --> 0:12:51,000
+Finally:
+
+222
+0:12:52.223,000 --> 0:12:53,000
+we can't expect progress
+
+223
+0:12:53.719,000 --> 0:12:55,000
+if we're unwilling to confront the conflicts of interest
+
+224
+0:12:56.621,000 --> 0:12:57,000
+that suppress science,
+
+225
+0:12:58.502,000 --> 0:12:59,000
+that undermine innovation
+
+226
+0:13:00.474,000 --> 0:13:02,000
+and that discourage transparency.
+
+227
+0:13:02.956,000 --> 0:13:03,000
+It is in the public interest
+
+228
+0:13:04.78,000 --> 0:13:07,000
+to measure and to share everything we can learn and discover
+
+229
+0:13:08.752,000 --> 0:13:1,000
+about the risks we face in water.
+
+230
+0:13:11.881,000 --> 0:13:14,000
+Reality does not exist until it's measured.
+
+231
+0:13:15.475,000 --> 0:13:18,000
+It doesn't just take technology to measure it.
+
+232
+0:13:19.298,000 --> 0:13:2,000
+It takes our collective will.
+
+233
+0:13:21.201,000 --> 0:13:22,000
+Thank you.
+
+234
+0:13:22.559,000 --> 0:13:27,000
+(Applause)
+

@@ -1,0 +1,1792 @@
+1
+0:00:15.26,000 --> 0:00:18,000
+For the last 10 years, I've been spending my time trying to figure out
+
+2
+0:00:18.26,000 --> 0:00:2,000
+how and why human beings
+
+3
+0:00:20.26,000 --> 0:00:23,000
+assemble themselves into social networks.
+
+4
+0:00:23.26,000 --> 0:00:25,000
+And the kind of social network I'm talking about
+
+5
+0:00:25.26,000 --> 0:00:27,000
+is not the recent online variety,
+
+6
+0:00:27.26,000 --> 0:00:29,000
+but rather, the kind of social networks
+
+7
+0:00:29.26,000 --> 0:00:32,000
+that human beings have been assembling for hundreds of thousands of years,
+
+8
+0:00:32.26,000 --> 0:00:35,000
+ever since we emerged from the African savannah.
+
+9
+0:00:35.26,000 --> 0:00:37,000
+So, I form friendships and co-worker
+
+10
+0:00:37.26,000 --> 0:00:4,000
+and sibling and relative relationships with other people
+
+11
+0:00:40.26,000 --> 0:00:42,000
+who in turn have similar relationships with other people.
+
+12
+0:00:42.26,000 --> 0:00:45,000
+And this spreads on out endlessly into a distance.
+
+13
+0:00:45.26,000 --> 0:00:47,000
+And you get a network that looks like this.
+
+14
+0:00:47.26,000 --> 0:00:49,000
+Every dot is a person.
+
+15
+0:00:49.26,000 --> 0:00:51,000
+Every line between them is a relationship between two people --
+
+16
+0:00:51.26,000 --> 0:00:53,000
+different kinds of relationships.
+
+17
+0:00:53.26,000 --> 0:00:56,000
+And you can get this kind of vast fabric of humanity,
+
+18
+0:00:56.26,000 --> 0:00:58,000
+in which we're all embedded.
+
+19
+0:00:58.26,000 --> 0:01:01,000
+And my colleague, James Fowler and I have been studying for quite sometime
+
+20
+0:01:01.26,000 --> 0:01:03,000
+what are the mathematical, social,
+
+21
+0:01:03.26,000 --> 0:01:06,000
+biological and psychological rules
+
+22
+0:01:06.26,000 --> 0:01:08,000
+that govern how these networks are assembled
+
+23
+0:01:08.26,000 --> 0:01:1,000
+and what are the similar rules
+
+24
+0:01:10.26,000 --> 0:01:13,000
+that govern how they operate, how they affect our lives.
+
+25
+0:01:13.26,000 --> 0:01:15,000
+But recently, we've been wondering
+
+26
+0:01:15.26,000 --> 0:01:18,000
+whether it might be possible to take advantage of this insight,
+
+27
+0:01:18.26,000 --> 0:01:2,000
+to actually find ways to improve the world,
+
+28
+0:01:20.26,000 --> 0:01:22,000
+to do something better,
+
+29
+0:01:22.26,000 --> 0:01:25,000
+to actually fix things, not just understand things.
+
+30
+0:01:25.26,000 --> 0:01:28,000
+So one of the first things we thought we would tackle
+
+31
+0:01:28.26,000 --> 0:01:31,000
+would be how we go about predicting epidemics.
+
+32
+0:01:31.26,000 --> 0:01:33,000
+And the current state of the art in predicting an epidemic --
+
+33
+0:01:33.26,000 --> 0:01:36,000
+if you're the CDC or some other national body --
+
+34
+0:01:36.26,000 --> 0:01:38,000
+is to sit in the middle where you are
+
+35
+0:01:38.26,000 --> 0:01:4,000
+and collect data
+
+36
+0:01:40.26,000 --> 0:01:42,000
+from physicians and laboratories in the field
+
+37
+0:01:42.26,000 --> 0:01:45,000
+that report the prevalence or the incidence of certain conditions.
+
+38
+0:01:45.26,000 --> 0:01:48,000
+So, so and so patients have been diagnosed with something,
+
+39
+0:01:48.26,000 --> 0:01:5,000
+or other patients have been diagnosed,
+
+40
+0:01:50.26,000 --> 0:01:53,000
+and all these data are fed into a central repository, with some delay.
+
+41
+0:01:53.26,000 --> 0:01:55,000
+And if everything goes smoothly,
+
+42
+0:01:55.26,000 --> 0:01:57,000
+one to two weeks from now
+
+43
+0:01:57.26,000 --> 0:02:,000
+you'll know where the epidemic was today.
+
+44
+0:02:00.26,000 --> 0:02:02,000
+And actually, about a year or so ago,
+
+45
+0:02:02.26,000 --> 0:02:04,000
+there was this promulgation
+
+46
+0:02:04.26,000 --> 0:02:07,000
+of the idea of Google Flu Trends, with respect to the flu,
+
+47
+0:02:07.26,000 --> 0:02:1,000
+where by looking at people's searching behavior today,
+
+48
+0:02:10.26,000 --> 0:02:12,000
+we could know where the flu --
+
+49
+0:02:12.26,000 --> 0:02:14,000
+what the status of the epidemic was today,
+
+50
+0:02:14.26,000 --> 0:02:17,000
+what's the prevalence of the epidemic today.
+
+51
+0:02:17.26,000 --> 0:02:19,000
+But what I'd like to show you today
+
+52
+0:02:19.26,000 --> 0:02:21,000
+is a means by which we might get
+
+53
+0:02:21.26,000 --> 0:02:24,000
+not just rapid warning about an epidemic,
+
+54
+0:02:24.26,000 --> 0:02:26,000
+but also actually
+
+55
+0:02:26.26,000 --> 0:02:28,000
+early detection of an epidemic.
+
+56
+0:02:28.26,000 --> 0:02:3,000
+And, in fact, this idea can be used
+
+57
+0:02:30.26,000 --> 0:02:33,000
+not just to predict epidemics of germs,
+
+58
+0:02:33.26,000 --> 0:02:36,000
+but also to predict epidemics of all sorts of kinds.
+
+59
+0:02:37.26,000 --> 0:02:4,000
+For example, anything that spreads by a form of social contagion
+
+60
+0:02:40.26,000 --> 0:02:42,000
+could be understood in this way,
+
+61
+0:02:42.26,000 --> 0:02:44,000
+from abstract ideas on the left
+
+62
+0:02:44.26,000 --> 0:02:47,000
+like patriotism, or altruism, or religion
+
+63
+0:02:47.26,000 --> 0:02:49,000
+to practices
+
+64
+0:02:49.26,000 --> 0:02:51,000
+like dieting behavior, or book purchasing,
+
+65
+0:02:51.26,000 --> 0:02:54,000
+or drinking, or bicycle-helmet [and] other safety practices,
+
+66
+0:02:54.26,000 --> 0:02:56,000
+or products that people might buy,
+
+67
+0:02:56.26,000 --> 0:02:58,000
+purchases of electronic goods,
+
+68
+0:02:58.26,000 --> 0:03:01,000
+anything in which there's kind of an interpersonal spread.
+
+69
+0:03:01.26,000 --> 0:03:03,000
+A kind of a diffusion of innovation
+
+70
+0:03:03.26,000 --> 0:03:05,000
+could be understood and predicted
+
+71
+0:03:05.26,000 --> 0:03:08,000
+by the mechanism I'm going to show you now.
+
+72
+0:03:08.26,000 --> 0:03:1,000
+So, as all of you probably know,
+
+73
+0:03:10.26,000 --> 0:03:12,000
+the classic way of thinking about this
+
+74
+0:03:12.26,000 --> 0:03:14,000
+is the diffusion-of-innovation,
+
+75
+0:03:14.26,000 --> 0:03:16,000
+or the adoption curve.
+
+76
+0:03:16.26,000 --> 0:03:18,000
+So here on the Y-axis, we have the percent of the people affected,
+
+77
+0:03:18.26,000 --> 0:03:2,000
+and on the X-axis, we have time.
+
+78
+0:03:20.26,000 --> 0:03:23,000
+And at the very beginning, not too many people are affected,
+
+79
+0:03:23.26,000 --> 0:03:25,000
+and you get this classic sigmoidal,
+
+80
+0:03:25.26,000 --> 0:03:27,000
+or S-shaped, curve.
+
+81
+0:03:27.26,000 --> 0:03:29,000
+And the reason for this shape is that at the very beginning,
+
+82
+0:03:29.26,000 --> 0:03:31,000
+let's say one or two people
+
+83
+0:03:31.26,000 --> 0:03:33,000
+are infected, or affected by the thing
+
+84
+0:03:33.26,000 --> 0:03:35,000
+and then they affect, or infect, two people,
+
+85
+0:03:35.26,000 --> 0:03:38,000
+who in turn affect four, eight, 16 and so forth,
+
+86
+0:03:38.26,000 --> 0:03:41,000
+and you get the epidemic growth phase of the curve.
+
+87
+0:03:41.26,000 --> 0:03:43,000
+And eventually, you saturate the population.
+
+88
+0:03:43.26,000 --> 0:03:45,000
+There are fewer and fewer people
+
+89
+0:03:45.26,000 --> 0:03:47,000
+who are still available that you might infect,
+
+90
+0:03:47.26,000 --> 0:03:49,000
+and then you get the plateau of the curve,
+
+91
+0:03:49.26,000 --> 0:03:52,000
+and you get this classic sigmoidal curve.
+
+92
+0:03:52.26,000 --> 0:03:54,000
+And this holds for germs, ideas,
+
+93
+0:03:54.26,000 --> 0:03:56,000
+product adoption, behaviors,
+
+94
+0:03:56.26,000 --> 0:03:58,000
+and the like.
+
+95
+0:03:58.26,000 --> 0:04:01,000
+But things don't just diffuse in human populations at random.
+
+96
+0:04:01.26,000 --> 0:04:03,000
+They actually diffuse through networks.
+
+97
+0:04:03.26,000 --> 0:04:06,000
+Because, as I said, we live our lives in networks,
+
+98
+0:04:06.26,000 --> 0:04:09,000
+and these networks have a particular kind of a structure.
+
+99
+0:04:09.26,000 --> 0:04:11,000
+Now if you look at a network like this --
+
+100
+0:04:11.26,000 --> 0:04:13,000
+this is 105 people.
+
+101
+0:04:13.26,000 --> 0:04:15,000
+And the lines represent -- the dots are the people,
+
+102
+0:04:15.26,000 --> 0:04:17,000
+and the lines represent friendship relationships.
+
+103
+0:04:17.26,000 --> 0:04:19,000
+You might see that people occupy
+
+104
+0:04:19.26,000 --> 0:04:21,000
+different locations within the network.
+
+105
+0:04:21.26,000 --> 0:04:23,000
+And there are different kinds of relationships between the people.
+
+106
+0:04:23.26,000 --> 0:04:26,000
+You could have friendship relationships, sibling relationships,
+
+107
+0:04:26.26,000 --> 0:04:29,000
+spousal relationships, co-worker relationships,
+
+108
+0:04:29.26,000 --> 0:04:32,000
+neighbor relationships and the like.
+
+109
+0:04:32.26,000 --> 0:04:34,000
+And different sorts of things
+
+110
+0:04:34.26,000 --> 0:04:36,000
+spread across different sorts of ties.
+
+111
+0:04:36.26,000 --> 0:04:38,000
+For instance, sexually transmitted diseases
+
+112
+0:04:38.26,000 --> 0:04:4,000
+will spread across sexual ties.
+
+113
+0:04:40.26,000 --> 0:04:42,000
+Or, for instance, people's smoking behavior
+
+114
+0:04:42.26,000 --> 0:04:44,000
+might be influenced by their friends.
+
+115
+0:04:44.26,000 --> 0:04:46,000
+Or their altruistic or their charitable giving behavior
+
+116
+0:04:46.26,000 --> 0:04:48,000
+might be influenced by their coworkers,
+
+117
+0:04:48.26,000 --> 0:04:5,000
+or by their neighbors.
+
+118
+0:04:50.26,000 --> 0:04:53,000
+But not all positions in the network are the same.
+
+119
+0:04:53.26,000 --> 0:04:55,000
+So if you look at this, you might immediately grasp
+
+120
+0:04:55.26,000 --> 0:04:58,000
+that different people have different numbers of connections.
+
+121
+0:04:58.26,000 --> 0:05:,000
+Some people have one connection, some have two,
+
+122
+0:05:00.26,000 --> 0:05:03,000
+some have six, some have 10 connections.
+
+123
+0:05:03.26,000 --> 0:05:05,000
+And this is called the "degree" of a node,
+
+124
+0:05:05.26,000 --> 0:05:07,000
+or the number of connections that a node has.
+
+125
+0:05:07.26,000 --> 0:05:09,000
+But in addition, there's something else.
+
+126
+0:05:09.26,000 --> 0:05:11,000
+So, if you look at nodes A and B,
+
+127
+0:05:11.26,000 --> 0:05:13,000
+they both have six connections.
+
+128
+0:05:13.26,000 --> 0:05:16,000
+But if you can see this image [of the network] from a bird's eye view,
+
+129
+0:05:16.26,000 --> 0:05:18,000
+you can appreciate that there's something very different
+
+130
+0:05:18.26,000 --> 0:05:2,000
+about nodes A and B.
+
+131
+0:05:20.26,000 --> 0:05:23,000
+So, let me ask you this -- I can cultivate this intuition by asking a question --
+
+132
+0:05:23.26,000 --> 0:05:25,000
+who would you rather be
+
+133
+0:05:25.26,000 --> 0:05:28,000
+if a deadly germ was spreading through the network, A or B?
+
+134
+0:05:28.26,000 --> 0:05:3,000
+(Audience: B.) Nicholas Christakis: B, it's obvious.
+
+135
+0:05:30.26,000 --> 0:05:32,000
+B is located on the edge of the network.
+
+136
+0:05:32.26,000 --> 0:05:34,000
+Now, who would you rather be
+
+137
+0:05:34.26,000 --> 0:05:37,000
+if a juicy piece of gossip were spreading through the network?
+
+138
+0:05:37.26,000 --> 0:05:4,000
+A. And you have an immediate appreciation
+
+139
+0:05:40.26,000 --> 0:05:42,000
+that A is going to be more likely
+
+140
+0:05:42.26,000 --> 0:05:45,000
+to get the thing that's spreading and to get it sooner
+
+141
+0:05:45.26,000 --> 0:05:48,000
+by virtue of their structural location within the network.
+
+142
+0:05:48.26,000 --> 0:05:5,000
+A, in fact, is more central,
+
+143
+0:05:50.26,000 --> 0:05:53,000
+and this can be formalized mathematically.
+
+144
+0:05:53.26,000 --> 0:05:55,000
+So, if we want to track something
+
+145
+0:05:55.26,000 --> 0:05:58,000
+that was spreading through a network,
+
+146
+0:05:58.26,000 --> 0:06:,000
+what we ideally would like to do is to set up sensors
+
+147
+0:06:00.26,000 --> 0:06:02,000
+on the central individuals within the network,
+
+148
+0:06:02.26,000 --> 0:06:04,000
+including node A,
+
+149
+0:06:04.26,000 --> 0:06:07,000
+monitor those people that are right there in the middle of the network,
+
+150
+0:06:07.26,000 --> 0:06:09,000
+and somehow get an early detection
+
+151
+0:06:09.26,000 --> 0:06:12,000
+of whatever it is that is spreading through the network.
+
+152
+0:06:12.26,000 --> 0:06:15,000
+So if you saw them contract a germ or a piece of information,
+
+153
+0:06:15.26,000 --> 0:06:17,000
+you would know that, soon enough,
+
+154
+0:06:17.26,000 --> 0:06:19,000
+everybody was about to contract this germ
+
+155
+0:06:19.26,000 --> 0:06:21,000
+or this piece of information.
+
+156
+0:06:21.26,000 --> 0:06:23,000
+And this would be much better
+
+157
+0:06:23.26,000 --> 0:06:25,000
+than monitoring six randomly chosen people,
+
+158
+0:06:25.26,000 --> 0:06:28,000
+without reference to the structure of the population.
+
+159
+0:06:28.26,000 --> 0:06:3,000
+And in fact, if you could do that,
+
+160
+0:06:30.26,000 --> 0:06:32,000
+what you would see is something like this.
+
+161
+0:06:32.26,000 --> 0:06:35,000
+On the left-hand panel, again, we have the S-shaped curve of adoption.
+
+162
+0:06:35.26,000 --> 0:06:37,000
+In the dotted red line, we show
+
+163
+0:06:37.26,000 --> 0:06:39,000
+what the adoption would be in the random people,
+
+164
+0:06:39.26,000 --> 0:06:42,000
+and in the left-hand line, shifted to the left,
+
+165
+0:06:42.26,000 --> 0:06:44,000
+we show what the adoption would be
+
+166
+0:06:44.26,000 --> 0:06:46,000
+in the central individuals within the network.
+
+167
+0:06:46.26,000 --> 0:06:48,000
+On the Y-axis is the cumulative instances of contagion,
+
+168
+0:06:48.26,000 --> 0:06:5,000
+and on the X-axis is the time.
+
+169
+0:06:50.26,000 --> 0:06:52,000
+And on the right-hand side, we show the same data,
+
+170
+0:06:52.26,000 --> 0:06:54,000
+but here with daily incidence.
+
+171
+0:06:54.26,000 --> 0:06:56,000
+And what we show here is -- like, here --
+
+172
+0:06:56.26,000 --> 0:06:58,000
+very few people are affected, more and more and more and up to here,
+
+173
+0:06:58.26,000 --> 0:07:,000
+and here's the peak of the epidemic.
+
+174
+0:07:00.26,000 --> 0:07:02,000
+But shifted to the left is what's occurring in the central individuals.
+
+175
+0:07:02.26,000 --> 0:07:05,000
+And this difference in time between the two
+
+176
+0:07:05.26,000 --> 0:07:08,000
+is the early detection, the early warning we can get,
+
+177
+0:07:08.26,000 --> 0:07:1,000
+about an impending epidemic
+
+178
+0:07:10.26,000 --> 0:07:12,000
+in the human population.
+
+179
+0:07:12.26,000 --> 0:07:14,000
+The problem, however,
+
+180
+0:07:14.26,000 --> 0:07:16,000
+is that mapping human social networks
+
+181
+0:07:16.26,000 --> 0:07:18,000
+is not always possible.
+
+182
+0:07:18.26,000 --> 0:07:2,000
+It can be expensive, not feasible,
+
+183
+0:07:20.26,000 --> 0:07:22,000
+unethical,
+
+184
+0:07:22.26,000 --> 0:07:25,000
+or, frankly, just not possible to do such a thing.
+
+185
+0:07:25.26,000 --> 0:07:27,000
+So, how can we figure out
+
+186
+0:07:27.26,000 --> 0:07:29,000
+who the central people are in a network
+
+187
+0:07:29.26,000 --> 0:07:32,000
+without actually mapping the network?
+
+188
+0:07:32.26,000 --> 0:07:34,000
+What we came up with
+
+189
+0:07:34.26,000 --> 0:07:36,000
+was an idea to exploit an old fact,
+
+190
+0:07:36.26,000 --> 0:07:38,000
+or a known fact, about social networks,
+
+191
+0:07:38.26,000 --> 0:07:4,000
+which goes like this:
+
+192
+0:07:40.26,000 --> 0:07:42,000
+Do you know that your friends
+
+193
+0:07:42.26,000 --> 0:07:45,000
+have more friends than you do?
+
+194
+0:07:45.26,000 --> 0:07:48,000
+Your friends have more friends than you do,
+
+195
+0:07:48.26,000 --> 0:07:5,000
+and this is known as the friendship paradox.
+
+196
+0:07:50.26,000 --> 0:07:52,000
+Imagine a very popular person in the social network --
+
+197
+0:07:52.26,000 --> 0:07:55,000
+like a party host who has hundreds of friends --
+
+198
+0:07:55.26,000 --> 0:07:57,000
+and a misanthrope who has just one friend,
+
+199
+0:07:57.26,000 --> 0:08:,000
+and you pick someone at random from the population;
+
+200
+0:08:00.26,000 --> 0:08:02,000
+they were much more likely to know the party host.
+
+201
+0:08:02.26,000 --> 0:08:04,000
+And if they nominate the party host as their friend,
+
+202
+0:08:04.26,000 --> 0:08:06,000
+that party host has a hundred friends,
+
+203
+0:08:06.26,000 --> 0:08:09,000
+therefore, has more friends than they do.
+
+204
+0:08:09.26,000 --> 0:08:12,000
+And this, in essence, is what's known as the friendship paradox.
+
+205
+0:08:12.26,000 --> 0:08:15,000
+The friends of randomly chosen people
+
+206
+0:08:15.26,000 --> 0:08:17,000
+have higher degree, and are more central
+
+207
+0:08:17.26,000 --> 0:08:19,000
+than the random people themselves.
+
+208
+0:08:19.26,000 --> 0:08:21,000
+And you can get an intuitive appreciation for this
+
+209
+0:08:21.26,000 --> 0:08:24,000
+if you imagine just the people at the perimeter of the network.
+
+210
+0:08:24.26,000 --> 0:08:26,000
+If you pick this person,
+
+211
+0:08:26.26,000 --> 0:08:29,000
+the only friend they have to nominate is this person,
+
+212
+0:08:29.26,000 --> 0:08:31,000
+who, by construction, must have at least two
+
+213
+0:08:31.26,000 --> 0:08:33,000
+and typically more friends.
+
+214
+0:08:33.26,000 --> 0:08:35,000
+And that happens at every peripheral node.
+
+215
+0:08:35.26,000 --> 0:08:38,000
+And in fact, it happens throughout the network as you move in,
+
+216
+0:08:38.26,000 --> 0:08:4,000
+everyone you pick, when they nominate a random --
+
+217
+0:08:40.26,000 --> 0:08:43,000
+when a random person nominates a friend of theirs,
+
+218
+0:08:43.26,000 --> 0:08:46,000
+you move closer to the center of the network.
+
+219
+0:08:46.26,000 --> 0:08:49,000
+So, we thought we would exploit this idea
+
+220
+0:08:49.26,000 --> 0:08:52,000
+in order to study whether we could predict phenomena within networks.
+
+221
+0:08:52.26,000 --> 0:08:54,000
+Because now, with this idea
+
+222
+0:08:54.26,000 --> 0:08:56,000
+we can take a random sample of people,
+
+223
+0:08:56.26,000 --> 0:08:58,000
+have them nominate their friends,
+
+224
+0:08:58.26,000 --> 0:09:,000
+those friends would be more central,
+
+225
+0:09:00.26,000 --> 0:09:03,000
+and we could do this without having to map the network.
+
+226
+0:09:03.26,000 --> 0:09:06,000
+And we tested this idea with an outbreak of H1N1 flu
+
+227
+0:09:06.26,000 --> 0:09:08,000
+at Harvard College
+
+228
+0:09:08.26,000 --> 0:09:11,000
+in the fall and winter of 2009, just a few months ago.
+
+229
+0:09:11.26,000 --> 0:09:14,000
+We took 1,300 randomly selected undergraduates,
+
+230
+0:09:14.26,000 --> 0:09:16,000
+we had them nominate their friends,
+
+231
+0:09:16.26,000 --> 0:09:18,000
+and we followed both the random students and their friends
+
+232
+0:09:18.26,000 --> 0:09:2,000
+daily in time
+
+233
+0:09:20.26,000 --> 0:09:23,000
+to see whether or not they had the flu epidemic.
+
+234
+0:09:23.26,000 --> 0:09:26,000
+And we did this passively by looking at whether or not they'd gone to university health services.
+
+235
+0:09:26.26,000 --> 0:09:29,000
+And also, we had them [actively] email us a couple of times a week.
+
+236
+0:09:29.26,000 --> 0:09:32,000
+Exactly what we predicted happened.
+
+237
+0:09:32.26,000 --> 0:09:35,000
+So the random group is in the red line.
+
+238
+0:09:35.26,000 --> 0:09:38,000
+The epidemic in the friends group has shifted to the left, over here.
+
+239
+0:09:38.26,000 --> 0:09:41,000
+And the difference in the two is 16 days.
+
+240
+0:09:41.26,000 --> 0:09:43,000
+By monitoring the friends group,
+
+241
+0:09:43.26,000 --> 0:09:45,000
+we could get 16 days advance warning
+
+242
+0:09:45.26,000 --> 0:09:48,000
+of an impending epidemic in this human population.
+
+243
+0:09:48.26,000 --> 0:09:5,000
+Now, in addition to that,
+
+244
+0:09:50.26,000 --> 0:09:53,000
+if you were an analyst who was trying to study an epidemic
+
+245
+0:09:53.26,000 --> 0:09:56,000
+or to predict the adoption of a product, for example,
+
+246
+0:09:56.26,000 --> 0:09:59,000
+what you could do is you could pick a random sample of the population,
+
+247
+0:09:59.26,000 --> 0:10:02,000
+also have them nominate their friends and follow the friends
+
+248
+0:10:02.26,000 --> 0:10:05,000
+and follow both the randoms and the friends.
+
+249
+0:10:05.26,000 --> 0:10:08,000
+Among the friends, the first evidence you saw of a blip above zero
+
+250
+0:10:08.26,000 --> 0:10:11,000
+in adoption of the innovation, for example,
+
+251
+0:10:11.26,000 --> 0:10:13,000
+would be evidence of an impending epidemic.
+
+252
+0:10:13.26,000 --> 0:10:16,000
+Or you could see the first time the two curves diverged,
+
+253
+0:10:16.26,000 --> 0:10:18,000
+as shown on the left.
+
+254
+0:10:18.26,000 --> 0:10:21,000
+When did the randoms -- when did the friends take off
+
+255
+0:10:21.26,000 --> 0:10:23,000
+and leave the randoms,
+
+256
+0:10:23.26,000 --> 0:10:25,000
+and [when did] their curve start shifting?
+
+257
+0:10:25.26,000 --> 0:10:27,000
+And that, as indicated by the white line,
+
+258
+0:10:27.26,000 --> 0:10:29,000
+occurred 46 days
+
+259
+0:10:29.26,000 --> 0:10:31,000
+before the peak of the epidemic.
+
+260
+0:10:31.26,000 --> 0:10:33,000
+So this would be a technique
+
+261
+0:10:33.26,000 --> 0:10:35,000
+whereby we could get more than a month-and-a-half warning
+
+262
+0:10:35.26,000 --> 0:10:38,000
+about a flu epidemic in a particular population.
+
+263
+0:10:38.26,000 --> 0:10:4,000
+I should say that
+
+264
+0:10:40.26,000 --> 0:10:42,000
+how far advanced a notice one might get about something
+
+265
+0:10:42.26,000 --> 0:10:44,000
+depends on a host of factors.
+
+266
+0:10:44.26,000 --> 0:10:46,000
+It could depend on the nature of the pathogen --
+
+267
+0:10:46.26,000 --> 0:10:48,000
+different pathogens,
+
+268
+0:10:48.26,000 --> 0:10:5,000
+using this technique, you'd get different warning --
+
+269
+0:10:50.26,000 --> 0:10:52,000
+or other phenomena that are spreading,
+
+270
+0:10:52.26,000 --> 0:10:55,000
+or frankly, on the structure of the human network.
+
+271
+0:10:55.26,000 --> 0:10:58,000
+Now in our case, although it wasn't necessary,
+
+272
+0:10:58.26,000 --> 0:11:,000
+we could also actually map the network of the students.
+
+273
+0:11:00.26,000 --> 0:11:02,000
+So, this is a map of 714 students
+
+274
+0:11:02.26,000 --> 0:11:04,000
+and their friendship ties.
+
+275
+0:11:04.26,000 --> 0:11:06,000
+And in a minute now, I'm going to put this map into motion.
+
+276
+0:11:06.26,000 --> 0:11:08,000
+We're going to take daily cuts through the network
+
+277
+0:11:08.26,000 --> 0:11:1,000
+for 120 days.
+
+278
+0:11:10.26,000 --> 0:11:13,000
+The red dots are going to be cases of the flu,
+
+279
+0:11:13.26,000 --> 0:11:16,000
+and the yellow dots are going to be friends of the people with the flu.
+
+280
+0:11:16.26,000 --> 0:11:18,000
+And the size of the dots is going to be proportional
+
+281
+0:11:18.26,000 --> 0:11:2,000
+to how many of their friends have the flu.
+
+282
+0:11:20.26,000 --> 0:11:23,000
+So bigger dots mean more of your friends have the flu.
+
+283
+0:11:23.26,000 --> 0:11:26,000
+And if you look at this image -- here we are now in September the 13th --
+
+284
+0:11:26.26,000 --> 0:11:28,000
+you're going to see a few cases light up.
+
+285
+0:11:28.26,000 --> 0:11:3,000
+You're going to see kind of blooming of the flu in the middle.
+
+286
+0:11:30.26,000 --> 0:11:33,000
+Here we are on October the 19th.
+
+287
+0:11:33.26,000 --> 0:11:35,000
+The slope of the epidemic curve is approaching now, in November.
+
+288
+0:11:35.26,000 --> 0:11:38,000
+Bang, bang, bang, bang, bang -- you're going to see lots of blooming in the middle,
+
+289
+0:11:38.26,000 --> 0:11:4,000
+and then you're going to see a sort of leveling off,
+
+290
+0:11:40.26,000 --> 0:11:43,000
+fewer and fewer cases towards the end of December.
+
+291
+0:11:43.26,000 --> 0:11:45,000
+And this type of a visualization
+
+292
+0:11:45.26,000 --> 0:11:47,000
+can show that epidemics like this take root
+
+293
+0:11:47.26,000 --> 0:11:49,000
+and affect central individuals first,
+
+294
+0:11:49.26,000 --> 0:11:51,000
+before they affect others.
+
+295
+0:11:51.26,000 --> 0:11:53,000
+Now, as I've been suggesting,
+
+296
+0:11:53.26,000 --> 0:11:56,000
+this method is not restricted to germs,
+
+297
+0:11:56.26,000 --> 0:11:58,000
+but actually to anything that spreads in populations.
+
+298
+0:11:58.26,000 --> 0:12:,000
+Information spreads in populations,
+
+299
+0:12:00.26,000 --> 0:12:02,000
+norms can spread in populations,
+
+300
+0:12:02.26,000 --> 0:12:04,000
+behaviors can spread in populations.
+
+301
+0:12:04.26,000 --> 0:12:07,000
+And by behaviors, I can mean things like criminal behavior,
+
+302
+0:12:07.26,000 --> 0:12:1,000
+or voting behavior, or health care behavior,
+
+303
+0:12:10.26,000 --> 0:12:12,000
+like smoking, or vaccination,
+
+304
+0:12:12.26,000 --> 0:12:14,000
+or product adoption, or other kinds of behaviors
+
+305
+0:12:14.26,000 --> 0:12:16,000
+that relate to interpersonal influence.
+
+306
+0:12:16.26,000 --> 0:12:19,000
+If I'm likely to do something that affects others around me,
+
+307
+0:12:19.26,000 --> 0:12:22,000
+this technique can get early warning or early detection
+
+308
+0:12:22.26,000 --> 0:12:25,000
+about the adoption within the population.
+
+309
+0:12:25.26,000 --> 0:12:27,000
+The key thing is that for it to work,
+
+310
+0:12:27.26,000 --> 0:12:29,000
+there has to be interpersonal influence.
+
+311
+0:12:29.26,000 --> 0:12:31,000
+It cannot be because of some broadcast mechanism
+
+312
+0:12:31.26,000 --> 0:12:34,000
+affecting everyone uniformly.
+
+313
+0:12:35.26,000 --> 0:12:37,000
+Now the same insights
+
+314
+0:12:37.26,000 --> 0:12:4,000
+can also be exploited -- with respect to networks --
+
+315
+0:12:40.26,000 --> 0:12:43,000
+can also be exploited in other ways,
+
+316
+0:12:43.26,000 --> 0:12:45,000
+for example, in the use of targeting
+
+317
+0:12:45.26,000 --> 0:12:47,000
+specific people for interventions.
+
+318
+0:12:47.26,000 --> 0:12:49,000
+So, for example, most of you are probably familiar
+
+319
+0:12:49.26,000 --> 0:12:51,000
+with the notion of herd immunity.
+
+320
+0:12:51.26,000 --> 0:12:54,000
+So, if we have a population of a thousand people,
+
+321
+0:12:54.26,000 --> 0:12:57,000
+and we want to make the population immune to a pathogen,
+
+322
+0:12:57.26,000 --> 0:12:59,000
+we don't have to immunize every single person.
+
+323
+0:12:59.26,000 --> 0:13:01,000
+If we immunize 960 of them,
+
+324
+0:13:01.26,000 --> 0:13:04,000
+it's as if we had immunized a hundred [percent] of them.
+
+325
+0:13:04.26,000 --> 0:13:07,000
+Because even if one or two of the non-immune people gets infected,
+
+326
+0:13:07.26,000 --> 0:13:09,000
+there's no one for them to infect.
+
+327
+0:13:09.26,000 --> 0:13:11,000
+They are surrounded by immunized people.
+
+328
+0:13:11.26,000 --> 0:13:14,000
+So 96 percent is as good as 100 percent.
+
+329
+0:13:14.26,000 --> 0:13:16,000
+Well, some other scientists have estimated
+
+330
+0:13:16.26,000 --> 0:13:18,000
+what would happen if you took a 30 percent random sample
+
+331
+0:13:18.26,000 --> 0:13:21,000
+of these 1000 people, 300 people and immunized them.
+
+332
+0:13:21.26,000 --> 0:13:23,000
+Would you get any population-level immunity?
+
+333
+0:13:23.26,000 --> 0:13:26,000
+And the answer is no.
+
+334
+0:13:26.26,000 --> 0:13:28,000
+But if you took this 30 percent, these 300 people
+
+335
+0:13:28.26,000 --> 0:13:3,000
+and had them nominate their friends
+
+336
+0:13:30.26,000 --> 0:13:33,000
+and took the same number of vaccine doses
+
+337
+0:13:33.26,000 --> 0:13:35,000
+and vaccinated the friends of the 300 --
+
+338
+0:13:35.26,000 --> 0:13:37,000
+the 300 friends --
+
+339
+0:13:37.26,000 --> 0:13:39,000
+you can get the same level of herd immunity
+
+340
+0:13:39.26,000 --> 0:13:42,000
+as if you had vaccinated 96 percent of the population
+
+341
+0:13:42.26,000 --> 0:13:45,000
+at a much greater efficiency, with a strict budget constraint.
+
+342
+0:13:45.26,000 --> 0:13:47,000
+And similar ideas can be used, for instance,
+
+343
+0:13:47.26,000 --> 0:13:49,000
+to target distribution of things like bed nets
+
+344
+0:13:49.26,000 --> 0:13:51,000
+in the developing world.
+
+345
+0:13:51.26,000 --> 0:13:54,000
+If we could understand the structure of networks in villages,
+
+346
+0:13:54.26,000 --> 0:13:56,000
+we could target to whom to give the interventions
+
+347
+0:13:56.26,000 --> 0:13:58,000
+to foster these kinds of spreads.
+
+348
+0:13:58.26,000 --> 0:14:01,000
+Or, frankly, for advertising with all kinds of products.
+
+349
+0:14:01.26,000 --> 0:14:03,000
+If we could understand how to target,
+
+350
+0:14:03.26,000 --> 0:14:05,000
+it could affect the efficiency
+
+351
+0:14:05.26,000 --> 0:14:07,000
+of what we're trying to achieve.
+
+352
+0:14:07.26,000 --> 0:14:09,000
+And in fact, we can use data
+
+353
+0:14:09.26,000 --> 0:14:11,000
+from all kinds of sources nowadays [to do this].
+
+354
+0:14:11.26,000 --> 0:14:13,000
+This is a map of eight million phone users
+
+355
+0:14:13.26,000 --> 0:14:15,000
+in a European country.
+
+356
+0:14:15.26,000 --> 0:14:17,000
+Every dot is a person, and every line represents
+
+357
+0:14:17.26,000 --> 0:14:19,000
+a volume of calls between the people.
+
+358
+0:14:19.26,000 --> 0:14:22,000
+And we can use such data, that's being passively obtained,
+
+359
+0:14:22.26,000 --> 0:14:24,000
+to map these whole countries
+
+360
+0:14:24.26,000 --> 0:14:27,000
+and understand who is located where within the network.
+
+361
+0:14:27.26,000 --> 0:14:29,000
+Without actually having to query them at all,
+
+362
+0:14:29.26,000 --> 0:14:31,000
+we can get this kind of a structural insight.
+
+363
+0:14:31.26,000 --> 0:14:34,000
+And other sources of information, as you're no doubt aware
+
+364
+0:14:34.26,000 --> 0:14:37,000
+are available about such features, from email interactions,
+
+365
+0:14:37.26,000 --> 0:14:39,000
+online interactions,
+
+366
+0:14:39.26,000 --> 0:14:42,000
+online social networks and so forth.
+
+367
+0:14:42.26,000 --> 0:14:44,000
+And in fact, we are in the era of what I would call
+
+368
+0:14:44.26,000 --> 0:14:47,000
+"massive-passive" data collection efforts.
+
+369
+0:14:47.26,000 --> 0:14:5,000
+They're all kinds of ways we can use massively collected data
+
+370
+0:14:50.26,000 --> 0:14:53,000
+to create sensor networks
+
+371
+0:14:53.26,000 --> 0:14:55,000
+to follow the population,
+
+372
+0:14:55.26,000 --> 0:14:57,000
+understand what's happening in the population,
+
+373
+0:14:57.26,000 --> 0:15:,000
+and intervene in the population for the better.
+
+374
+0:15:00.26,000 --> 0:15:02,000
+Because these new technologies tell us
+
+375
+0:15:02.26,000 --> 0:15:04,000
+not just who is talking to whom,
+
+376
+0:15:04.26,000 --> 0:15:06,000
+but where everyone is,
+
+377
+0:15:06.26,000 --> 0:15:09,000
+and what they're thinking based on what they're uploading on the Internet,
+
+378
+0:15:09.26,000 --> 0:15:11,000
+and what they're buying based on their purchases.
+
+379
+0:15:11.26,000 --> 0:15:14,000
+And all this administrative data can be pulled together
+
+380
+0:15:14.26,000 --> 0:15:16,000
+and processed to understand human behavior
+
+381
+0:15:16.26,000 --> 0:15:19,000
+in a way we never could before.
+
+382
+0:15:19.26,000 --> 0:15:22,000
+So, for example, we could use truckers' purchases of fuel.
+
+383
+0:15:22.26,000 --> 0:15:24,000
+So the truckers are just going about their business,
+
+384
+0:15:24.26,000 --> 0:15:26,000
+and they're buying fuel.
+
+385
+0:15:26.26,000 --> 0:15:29,000
+And we see a blip up in the truckers' purchases of fuel,
+
+386
+0:15:29.26,000 --> 0:15:31,000
+and we know that a recession is about to end.
+
+387
+0:15:31.26,000 --> 0:15:33,000
+Or we can monitor the velocity
+
+388
+0:15:33.26,000 --> 0:15:36,000
+with which people are moving with their phones on a highway,
+
+389
+0:15:36.26,000 --> 0:15:38,000
+and the phone company can see,
+
+390
+0:15:38.26,000 --> 0:15:4,000
+as the velocity is slowing down,
+
+391
+0:15:40.26,000 --> 0:15:42,000
+that there's a traffic jam.
+
+392
+0:15:42.26,000 --> 0:15:45,000
+And they can feed that information back to their subscribers,
+
+393
+0:15:45.26,000 --> 0:15:47,000
+but only to their subscribers on the same highway
+
+394
+0:15:47.26,000 --> 0:15:49,000
+located behind the traffic jam!
+
+395
+0:15:49.26,000 --> 0:15:52,000
+Or we can monitor doctors prescribing behaviors, passively,
+
+396
+0:15:52.26,000 --> 0:15:55,000
+and see how the diffusion of innovation with pharmaceuticals
+
+397
+0:15:55.26,000 --> 0:15:57,000
+occurs within [networks of] doctors.
+
+398
+0:15:57.26,000 --> 0:15:59,000
+Or again, we can monitor purchasing behavior in people
+
+399
+0:15:59.26,000 --> 0:16:01,000
+and watch how these types of phenomena
+
+400
+0:16:01.26,000 --> 0:16:04,000
+can diffuse within human populations.
+
+401
+0:16:04.26,000 --> 0:16:06,000
+And there are three ways, I think,
+
+402
+0:16:06.26,000 --> 0:16:08,000
+that these massive-passive data can be used.
+
+403
+0:16:08.26,000 --> 0:16:1,000
+One is fully passive,
+
+404
+0:16:10.26,000 --> 0:16:12,000
+like I just described --
+
+405
+0:16:12.26,000 --> 0:16:14,000
+as in, for instance, the trucker example,
+
+406
+0:16:14.26,000 --> 0:16:16,000
+where we don't actually intervene in the population in any way.
+
+407
+0:16:16.26,000 --> 0:16:18,000
+One is quasi-active,
+
+408
+0:16:18.26,000 --> 0:16:2,000
+like the flu example I gave,
+
+409
+0:16:20.26,000 --> 0:16:23,000
+where we get some people to nominate their friends
+
+410
+0:16:23.26,000 --> 0:16:25,000
+and then passively monitor their friends --
+
+411
+0:16:25.26,000 --> 0:16:27,000
+do they have the flu, or not? -- and then get warning.
+
+412
+0:16:27.26,000 --> 0:16:29,000
+Or another example would be,
+
+413
+0:16:29.26,000 --> 0:16:32,000
+if you're a phone company, you figure out who's central in the network
+
+414
+0:16:32.26,000 --> 0:16:35,000
+and you ask those people, "Look, will you just text us your fever every day?
+
+415
+0:16:35.26,000 --> 0:16:37,000
+Just text us your temperature."
+
+416
+0:16:37.26,000 --> 0:16:4,000
+And collect vast amounts of information about people's temperature,
+
+417
+0:16:40.26,000 --> 0:16:42,000
+but from centrally located individuals.
+
+418
+0:16:42.26,000 --> 0:16:44,000
+And be able, on a large scale,
+
+419
+0:16:44.26,000 --> 0:16:46,000
+to monitor an impending epidemic
+
+420
+0:16:46.26,000 --> 0:16:48,000
+with very minimal input from people.
+
+421
+0:16:48.26,000 --> 0:16:5,000
+Or, finally, it can be more fully active --
+
+422
+0:16:50.26,000 --> 0:16:52,000
+as I know subsequent speakers will also talk about today --
+
+423
+0:16:52.26,000 --> 0:16:54,000
+where people might globally participate in wikis,
+
+424
+0:16:54.26,000 --> 0:16:57,000
+or photographing, or monitoring elections,
+
+425
+0:16:57.26,000 --> 0:16:59,000
+and upload information in a way that allows us to pool
+
+426
+0:16:59.26,000 --> 0:17:01,000
+information in order to understand social processes
+
+427
+0:17:01.26,000 --> 0:17:03,000
+and social phenomena.
+
+428
+0:17:03.26,000 --> 0:17:05,000
+In fact, the availability of these data, I think,
+
+429
+0:17:05.26,000 --> 0:17:07,000
+heralds a kind of new era
+
+430
+0:17:07.26,000 --> 0:17:09,000
+of what I and others would like to call
+
+431
+0:17:09.26,000 --> 0:17:11,000
+"computational social science."
+
+432
+0:17:11.26,000 --> 0:17:14,000
+It's sort of like when Galileo invented -- or, didn't invent --
+
+433
+0:17:14.26,000 --> 0:17:16,000
+came to use a telescope
+
+434
+0:17:16.26,000 --> 0:17:18,000
+and could see the heavens in a new way,
+
+435
+0:17:18.26,000 --> 0:17:2,000
+or Leeuwenhoek became aware of the microscope --
+
+436
+0:17:20.26,000 --> 0:17:22,000
+or actually invented --
+
+437
+0:17:22.26,000 --> 0:17:24,000
+and could see biology in a new way.
+
+438
+0:17:24.26,000 --> 0:17:26,000
+But now we have access to these kinds of data
+
+439
+0:17:26.26,000 --> 0:17:28,000
+that allow us to understand social processes
+
+440
+0:17:28.26,000 --> 0:17:3,000
+and social phenomena
+
+441
+0:17:30.26,000 --> 0:17:33,000
+in an entirely new way that was never before possible.
+
+442
+0:17:33.26,000 --> 0:17:35,000
+And with this science, we can
+
+443
+0:17:35.26,000 --> 0:17:37,000
+understand how exactly
+
+444
+0:17:37.26,000 --> 0:17:39,000
+the whole comes to be greater
+
+445
+0:17:39.26,000 --> 0:17:41,000
+than the sum of its parts.
+
+446
+0:17:41.26,000 --> 0:17:43,000
+And actually, we can use these insights
+
+447
+0:17:43.26,000 --> 0:17:46,000
+to improve society and improve human well-being.
+
+448
+0:17:46.26,000 --> 0:17:48,000
+Thank you.
+

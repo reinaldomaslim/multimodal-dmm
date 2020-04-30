@@ -1,0 +1,1156 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Thomas Marteau Relecteur: eric vautier
+
+2
+0:00:12.864,000 --> 0:00:14,000
+Nous vivons dans un environnement très complexe :
+
+3
+0:00:15.187,000 --> 0:00:17,000
+complexité, dynamisme
+
+4
+0:00:17.831,000 --> 0:00:18,000
+et motifs évidents
+
+5
+0:00:19.154,000 --> 0:00:21,000
+des photos satellites et des vidéos.
+
+6
+0:00:22.039,000 --> 0:00:24,000
+Vous pouvez même le voir par la fenêtre.
+
+7
+0:00:25.309,000 --> 0:00:28,000
+C'est infiniment complexe et pourtant familier,
+
+8
+0:00:28.91,000 --> 0:00:29,000
+mais les motifs se répètent,
+
+9
+0:00:30.87,000 --> 0:00:32,000
+bien que jamais exactement pareils.
+
+10
+0:00:33.36,000 --> 0:00:37,000
+Comprendre cela est un défi immense.
+
+11
+0:00:37.487,000 --> 0:00:39,000
+Les motifs que vous voyez
+
+12
+0:00:39.619,000 --> 0:00:42,000
+sont présents à toutes les échelles
+
+13
+0:00:43.339,000 --> 0:00:45,000
+mais vous ne pouvez en extraire une partie et dire
+
+14
+0:00:46.245,000 --> 0:00:48,000
+« Eh bien, créons de plus petits climats. »
+
+15
+0:00:48.908,000 --> 0:00:52,000
+On ne peut pas utiliser le réductionnisme
+
+16
+0:00:53.12,000 --> 0:00:55,000
+pour obtenir une chose de plus en plus petite que l'on puisse étudier
+
+17
+0:00:55.842,000 --> 0:00:57,000
+en laboratoire et dire : « Oh,
+
+18
+0:00:58.15,000 --> 0:01:,000
+maintenant c'est quelque chose que je peux comprendre. »
+
+19
+0:01:00.546,000 --> 0:01:03,000
+C'est tout ou rien.
+
+20
+0:01:03.913,000 --> 0:01:05,000
+Les différentes échelles qui vous donnent
+
+21
+0:01:06.465,000 --> 0:01:08,000
+ces genres de motifs
+
+22
+0:01:08.587,000 --> 0:01:11,000
+s'étendent sur une échelle de grandeur gigantesque,
+
+23
+0:01:12.044,000 --> 0:01:14,000
+à peu près 14 ordres de grandeurs,
+
+24
+0:01:14.46,000 --> 0:01:16,000
+des particules microscopiques
+
+25
+0:01:16.951,000 --> 0:01:18,000
+qui nourrissent les nuages
+
+26
+0:01:19.327,000 --> 0:01:21,000
+à la grandeur de la Terre elle-même ;
+
+27
+0:01:21.887,000 --> 0:01:22,000
+de 10 exposant moins 6
+
+28
+0:01:23.163,000 --> 0:01:24,000
+à 10 exposant 8,
+
+29
+0:01:24.24,000 --> 0:01:25,000
+14 ordres de grandeur spatiale.
+
+30
+0:01:26.602,000 --> 0:01:29,000
+Dans le temps, de la milliseconde au millénaire,
+
+31
+0:01:29.943,000 --> 0:01:32,000
+là encore, environ 14 ordres de grandeur.
+
+32
+0:01:32.998,000 --> 0:01:33,000
+Qu'est-ce que ça veut dire ?
+
+33
+0:01:34.385,000 --> 0:01:35,000
+Eh bien si vous pensez à comment
+
+34
+0:01:36.324,000 --> 0:01:38,000
+vous pourriez calculer ces choses,
+
+35
+0:01:38.984,000 --> 0:01:39,000
+vous pouvez prendre ce que vous voyez,
+
+36
+0:01:40.944,000 --> 0:01:41,000
+ok, je vais le couper
+
+37
+0:01:41.97,000 --> 0:01:42,000
+en plusieurs petites boites,
+
+38
+0:01:43.349,000 --> 0:01:45,000
+et c'est le résultat de la physique, pas vrai ?
+
+39
+0:01:45.704,000 --> 0:01:46,000
+Et si je pense à un modèle météorologique,
+
+40
+0:01:47.429,000 --> 0:01:49,000
+qui s’étend sur environ 5 ordres de grandeur,
+
+41
+0:01:49.923,000 --> 0:01:52,000
+de la planète à quelques kilomètres,
+
+42
+0:01:53.05,000 --> 0:01:54,000
+et sur l'échelle de temps,
+
+43
+0:01:54.588,000 --> 0:01:58,000
+de quelques minutes à 10 jours, peut-être un mois.
+
+44
+0:01:59,000 --> 0:02:,000
+Nous nous intéressons à plus que ça.
+
+45
+0:02:00.395,000 --> 0:02:01,000
+Nous nous intéressons au climat.
+
+46
+0:02:01.7,000 --> 0:02:03,000
+Cela représente des années, des millénaires
+
+47
+0:02:03.841,000 --> 0:02:05,000
+et nous devons aller à de plus petites échelles.
+
+48
+0:02:06.414,000 --> 0:02:07,000
+Ce que nous ne pouvons pas résoudre,
+
+49
+0:02:08.015,000 --> 0:02:09,000
+les processus à échelle inférieure,
+
+50
+0:02:09.98,000 --> 0:02:1,000
+nous devons trouver un moyen de faire des approximations.
+
+51
+0:02:11.96,000 --> 0:02:12,000
+C'est un défi immense.
+
+52
+0:02:13.722,000 --> 0:02:15,000
+Les modèles climatiques des années 1990
+
+53
+0:02:15.91,000 --> 0:02:16,000
+prenaient un plus petit tableau,
+
+54
+0:02:17.88,000 --> 0:02:19,000
+seulement 3 ordres de grandeur.
+
+55
+0:02:19.898,000 --> 0:02:21,000
+Les modèles des années 2010
+
+56
+0:02:21.993,000 --> 0:02:22,000
+ce sur quoi nous travaillons en ce moment ;
+
+57
+0:02:23.767,000 --> 0:02:25,000
+4 ordres de grandeur.
+
+58
+0:02:26.707,000 --> 0:02:28,000
+Il nous en faut encore 14.
+
+59
+0:02:29.01,000 --> 0:02:31,000
+Nous augmentons notre capacité
+
+60
+0:02:31.21,000 --> 0:02:32,000
+à les simuler au rythme d'environ
+
+61
+0:02:33.08,000 --> 0:02:36,000
+un ordre de grandeur tous les 10 ans.
+
+62
+0:02:36.626,000 --> 0:02:37,000
+Un ordre de grandeur spatial supplémentaire,
+
+63
+0:02:38.521,000 --> 0:02:41,000
+c'est 10 000 fois plus de calculs.
+
+64
+0:02:41.77,000 --> 0:02:43,000
+Nous ajoutons toujours plus de choses,
+
+65
+0:02:44.15,000 --> 0:02:46,000
+plus de questions à ces différents modèles.
+
+66
+0:02:46.524,000 --> 0:02:48,000
+À quoi ressemble un modèle climatique ?
+
+67
+0:02:49.257,000 --> 0:02:51,000
+C'est un vieux modèle, j'en conviens,
+
+68
+0:02:51.598,000 --> 0:02:55,000
+une carte perforée, une simple ligne en Fortran.
+
+69
+0:02:55.678,000 --> 0:02:56,000
+On n'utilise plus les cartes perforées.
+
+70
+0:02:57.656,000 --> 0:02:59,000
+On utilise encore Fortran cependant.
+
+71
+0:02:59.897,000 --> 0:03:,000
+Des idées ultramodernes comme C
+
+72
+0:03:01.854,000 --> 0:03:04,000
+n'ont pas eu un gros impact
+
+73
+0:03:05.089,000 --> 0:03:07,000
+sur la communauté de modélisation du climat.
+
+74
+0:03:07.456,000 --> 0:03:08,000
+Mais comment peut-on s'y prendre ?
+
+75
+0:03:08.856,000 --> 0:03:12,000
+Comment passer de la complexité
+
+76
+0:03:13.48,000 --> 0:03:15,000
+à une ligne de code ?
+
+77
+0:03:16.01,000 --> 0:03:17,000
+Nous le faisons petit à petit.
+
+78
+0:03:17.583,000 --> 0:03:18,000
+Voici une image de la banquise
+
+79
+0:03:19.461,000 --> 0:03:21,000
+prise au dessus de l'Arctique.
+
+80
+0:03:21.559,000 --> 0:03:23,000
+Nous pouvons consulter les différentes équations
+
+81
+0:03:23.597,000 --> 0:03:26,000
+qui entrent dans la formation de la glace,
+
+82
+0:03:26.709,000 --> 0:03:28,000
+dans sa fonte ou dans sa transformation.
+
+83
+0:03:28.823,000 --> 0:03:29,000
+Nous pouvons constater les fluctuations.
+
+84
+0:03:29.954,000 --> 0:03:3,000
+Nous pouvons voir la vitesse à laquelle
+
+85
+0:03:31.906,000 --> 0:03:33,000
+la neige se transforme en glace.
+
+86
+0:03:34.751,000 --> 0:03:36,000
+Nous pouvons entrer tout ça dans un code.
+
+87
+0:03:37.08,000 --> 0:03:38,000
+Ces modèles font environ
+
+88
+0:03:38.306,000 --> 0:03:4,000
+un million de lignes de code en ce moment,
+
+89
+0:03:40.389,000 --> 0:03:43,000
+et augmentent de dizaines de milliers
+
+90
+0:03:43.859,000 --> 0:03:44,000
+chaque année.
+
+91
+0:03:45.05,000 --> 0:03:46,000
+Vous pouvez regarder ce morceau,
+
+92
+0:03:46.703,000 --> 0:03:47,000
+mais vous pouvez en regarder d'autres aussi.
+
+93
+0:03:48.625,000 --> 0:03:49,000
+Qu'arrive-t-il quand il y a des nuages ?
+
+94
+0:03:50.558,000 --> 0:03:52,000
+Lorsque les nuages se forment,
+
+95
+0:03:52.717,000 --> 0:03:53,000
+lorsqu'ils se dissipent, lorsqu'il pleut ?
+
+96
+0:03:54.599,000 --> 0:03:55,000
+C'est un autre morceau.
+
+97
+0:03:56.341,000 --> 0:03:57,000
+Qu'arrive-t-il lorsque la radiation
+
+98
+0:03:58.187,000 --> 0:04:,000
+émanant du soleil, traversant l'atmosphère,
+
+99
+0:04:00.721,000 --> 0:04:01,000
+est absorbée et réfléchie ?
+
+100
+0:04:02.647,000 --> 0:04:05,000
+Nous pouvons aussi encoder ces petits morceaux-là.
+
+101
+0:04:06.626,000 --> 0:04:07,000
+Il y a d'autres morceaux :
+
+102
+0:04:08.042,000 --> 0:04:11,000
+Le vent qui modifie les courants marins.
+
+103
+0:04:11.502,000 --> 0:04:14,000
+On peut parler du rôle qu'a la végétation
+
+104
+0:04:14.97,000 --> 0:04:16,000
+dans le cycle de l'eau du sol
+
+105
+0:04:17.874,000 --> 0:04:18,000
+vers l'atmosphère.
+
+106
+0:04:19.57,000 --> 0:04:21,000
+Chacun de ces différents éléments
+
+107
+0:04:22.484,000 --> 0:04:25,000
+peuvent être encapsulés et systématisés.
+
+108
+0:04:26.108,000 --> 0:04:31,000
+Ces pièces s'additionnent pour former un tout.
+
+109
+0:04:31.256,000 --> 0:04:33,000
+Vous obtenez alors quelque chose comme ça.
+
+110
+0:04:33.553,000 --> 0:04:35,000
+Vous obtenez une représentation magnifique
+
+111
+0:04:36.401,000 --> 0:04:38,000
+de ce qui se passe dans le système climatique,
+
+112
+0:04:39.023,000 --> 0:04:42,000
+dans lequel chacun
+
+113
+0:04:42.412,000 --> 0:04:44,000
+des motifs émergents que vous voyez,
+
+114
+0:04:45.194,000 --> 0:04:47,000
+les tourbillons dans l'océan Austral,
+
+115
+0:04:47.197,000 --> 0:04:49,000
+le cyclone tropical dans le golfe du Mexique,
+
+116
+0:04:49.953,000 --> 0:04:5,000
+et il y en a 2 autres qui vont apparaître
+
+117
+0:04:51.545,000 --> 0:04:53,000
+dans le Pacifique incessamment,
+
+118
+0:04:53.948,000 --> 0:04:55,000
+ces flots d'eau atmosphérique,
+
+119
+0:04:56.661,000 --> 0:04:58,000
+toutes ces propriétés émergentes
+
+120
+0:04:59.518,000 --> 0:05:01,000
+qui proviennent des interactions
+
+121
+0:05:01.642,000 --> 0:05:04,000
+de tous ces processus à petite échelle que j'ai mentionnés.
+
+122
+0:05:05.137,000 --> 0:05:06,000
+Aucun code ne dit :
+
+123
+0:05:07.042,000 --> 0:05:08,000
+« Fais un remous dans l'océan Austral. »
+
+124
+0:05:08.899,000 --> 0:05:1,000
+Aucun code ne dit : « Il doit y avoir
+
+125
+0:05:11.567,000 --> 0:05:13,000
+2 cyclones tropicaux qui tournoient l'un autour de l'autre. »
+
+126
+0:05:14.465,000 --> 0:05:17,000
+Toutes ces événements sont des propriétés émergentes.
+
+127
+0:05:18.277,000 --> 0:05:2,000
+C'est très bien. C'est excellent.
+
+128
+0:05:20.423,000 --> 0:05:21,000
+Mais ce qu'on veut vraiment savoir,
+
+129
+0:05:21.693,000 --> 0:05:22,000
+c'est : qu'arrive-t-il à ces propriétés
+
+130
+0:05:23.642,000 --> 0:05:24,000
+lorsque l'on perturbe le système ?
+
+131
+0:05:25.347,000 --> 0:05:28,000
+Lorsque quelque chose change, qu'arrive-t-il à ces propriétés ?
+
+132
+0:05:28.88,000 --> 0:05:3,000
+Il y a beaucoup de façons différentes de troubler le système.
+
+133
+0:05:31.869,000 --> 0:05:33,000
+Il y a des oscillations dans l'orbite de la planète
+
+134
+0:05:33.902,000 --> 0:05:34,000
+sur des périodes de centaines de milliers d'années
+
+135
+0:05:35.781,000 --> 0:05:37,000
+qui changent le climat.
+
+136
+0:05:37.807,000 --> 0:05:39,000
+Il y a des changements dans les cycles solaires,
+
+137
+0:05:39.943,000 --> 0:05:42,000
+tout les 11 ans et plus, qui changent le climat.
+
+138
+0:05:43.048,000 --> 0:05:46,000
+De grands volcans entrent en éruption et provoquent un changement climatique.
+
+139
+0:05:46.622,000 --> 0:05:49,000
+Des changements dans la combustion de biomasse, dans la fumée,
+
+140
+0:05:49.86,000 --> 0:05:5,000
+dans les particules d'aérosols ; toutes ces choses
+
+141
+0:05:51.723,000 --> 0:05:52,000
+changent le climat.
+
+142
+0:05:53.545,000 --> 0:05:57,000
+Le trou d'ozone a changé le climat.
+
+143
+0:05:57.604,000 --> 0:05:59,000
+La déforestation change le climat
+
+144
+0:05:59.821,000 --> 0:06:,000
+en changeant les propriétés de surface
+
+145
+0:06:01.747,000 --> 0:06:02,000
+et la façon dont l'eau s'évapore
+
+146
+0:06:03.737,000 --> 0:06:05,000
+et se déplace dans le système.
+
+147
+0:06:06.203,000 --> 0:06:08,000
+Les trainées de condensation changent le climat
+
+148
+0:06:08.488,000 --> 0:06:1,000
+en créant des nuages là où il n'y en avait pas auparavant,
+
+149
+0:06:11.355,000 --> 0:06:15,000
+et bien sûr, les gaz à effet de serre changent le système.
+
+150
+0:06:15.953,000 --> 0:06:18,000
+Chacune de ces perturbations
+
+151
+0:06:18.974,000 --> 0:06:2,000
+nous donne des indices
+
+152
+0:06:21.125,000 --> 0:06:23,000
+pour évaluer notre compréhension
+
+153
+0:06:23.96,000 --> 0:06:25,000
+de ce système.
+
+154
+0:06:26.121,000 --> 0:06:28,000
+Nous pouvons donc examiner
+
+155
+0:06:28.513,000 --> 0:06:3,000
+ce qu'est notre habileté à faire des modèles.
+
+156
+0:06:31.217,000 --> 0:06:33,000
+J'utilise le mot « habileté » en connaissance de cause :
+
+157
+0:06:33.25,000 --> 0:06:35,000
+les modèles ne sont ni bon ni mauvais ; ils sont toujours mauvais.
+
+158
+0:06:35.661,000 --> 0:06:36,000
+Ils sont toujours des approximations.
+
+159
+0:06:37.381,000 --> 0:06:38,000
+Vous devez vous demander
+
+160
+0:06:39.275,000 --> 0:06:42,000
+si un modèle vous fournit plus d'informations
+
+161
+0:06:42.354,000 --> 0:06:43,000
+que vous en auriez autrement.
+
+162
+0:06:44.279,000 --> 0:06:47,000
+Si oui, c'est utile.
+
+163
+0:06:47.66,000 --> 0:06:49,000
+Voici l'effet du trou de la couche d'ozone
+
+164
+0:06:50.114,000 --> 0:06:52,000
+sur la pression au niveau de la mer ; basse pression, haute pression
+
+165
+0:06:52.974,000 --> 0:06:54,000
+autour des océans austraux, autour de l'Antarctique.
+
+166
+0:06:55.569,000 --> 0:06:56,000
+Voici les données observées.
+
+167
+0:06:57.482,000 --> 0:06:59,000
+Voici les données modélisées.
+
+168
+0:06:59.57,000 --> 0:07:,000
+La correspondance est plutôt bonne
+
+169
+0:07:01.164,000 --> 0:07:02,000
+car on comprend les lois de la physique
+
+170
+0:07:03.115,000 --> 0:07:06,000
+qui régissent les températures dans la stratosphère
+
+171
+0:07:06.253,000 --> 0:07:07,000
+et leurs effets sur les vents
+
+172
+0:07:07.999,000 --> 0:07:09,000
+autour des océans austraux.
+
+173
+0:07:10.18,000 --> 0:07:11,000
+Nous pouvons prendre d'autres exemples.
+
+174
+0:07:11.699,000 --> 0:07:13,000
+L'éruption du Pinatubo en 1991
+
+175
+0:07:14.555,000 --> 0:07:16,000
+a jeté d'énormes quantités d'aérosols, des petites particules,
+
+176
+0:07:17.354,000 --> 0:07:18,000
+dans la stratosphère.
+
+177
+0:07:18.941,000 --> 0:07:21,000
+Ça a changé l'équilibre de la radiation sur toute la Terre.
+
+178
+0:07:22.088,000 --> 0:07:24,000
+Moins d'énergie entrait dans l'atmosphère qu'avant,
+
+179
+0:07:24.87,000 --> 0:07:25,000
+refroidissant ainsi la planète.
+
+180
+0:07:26.528,000 --> 0:07:28,000
+Ces lignes rouges et ces lignes vertes
+
+181
+0:07:28.547,000 --> 0:07:3,000
+représentent les différences entre ce que nous attendions
+
+182
+0:07:31.112,000 --> 0:07:32,000
+et ce qui s'est réellement produit.
+
+183
+0:07:32.8,000 --> 0:07:33,000
+Les modèles sont utiles,
+
+184
+0:07:34.583,000 --> 0:07:35,000
+non seulement dans le sens global,
+
+185
+0:07:36.276,000 --> 0:07:39,000
+mais également dans les motifs régionaux.
+
+186
+0:07:39.32,000 --> 0:07:41,000
+Je pourrais vous présenter des dizaines d'autres exemples :
+
+187
+0:07:42.16,000 --> 0:07:44,000
+notre connaissance quant aux cycles solaires,
+
+188
+0:07:45.01,000 --> 0:07:47,000
+qui modifient l'ozone dans la stratosphère ;
+
+189
+0:07:47.08,000 --> 0:07:49,000
+notre connaissance concernant les changements dans l'orbite terrestre
+
+190
+0:07:49.427,000 --> 0:07:51,000
+depuis 6 000 ans.
+
+191
+0:07:51.483,000 --> 0:07:53,000
+On peut prendre ça en compte et les modèles sont utiles.
+
+192
+0:07:53.881,000 --> 0:07:56,000
+Les modèles sont utiles pour comprendre les nappes de glace
+
+193
+0:07:56.975,000 --> 0:07:57,000
+20 000 ans en arrière.
+
+194
+0:07:58.495,000 --> 0:07:59,000
+Les modèles sont utiles
+
+195
+0:08:00.166,000 --> 0:08:02,000
+quand il est question des tendances du 20e siècle
+
+196
+0:08:03.07,000 --> 0:08:04,000
+au fil des décennies.
+
+197
+0:08:04.585,000 --> 0:08:06,000
+On réussit à modéliser
+
+198
+0:08:06.867,000 --> 0:08:08,000
+les débordements des lacs dans l'Atlantique Nord
+
+199
+0:08:09.472,000 --> 0:08:1,000
+il y a 8 000 ans.
+
+200
+0:08:11.237,000 --> 0:08:14,000
+Et nous pouvons faire correspondre les données.
+
+201
+0:08:15.463,000 --> 0:08:17,000
+Chacune de ces cibles,
+
+202
+0:08:17.85,000 --> 0:08:19,000
+chacune de ces évaluations,
+
+203
+0:08:19.98,000 --> 0:08:21,000
+nous ont apporté une vision plus étendue
+
+204
+0:08:22.371,000 --> 0:08:23,000
+de ces modèles
+
+205
+0:08:23.522,000 --> 0:08:25,000
+et nous a menés vers de plus en plus
+
+206
+0:08:26.266,000 --> 0:08:29,000
+de situations complexes où l'on peut se demander
+
+207
+0:08:30.254,000 --> 0:08:32,000
+de plus en plus de questions intéressantes
+
+208
+0:08:32.823,000 --> 0:08:34,000
+comme, comment la poussière provenant du Sahara,
+
+209
+0:08:35.533,000 --> 0:08:36,000
+en orange ici,
+
+210
+0:08:37.267,000 --> 0:08:4,000
+interagit-elle avec les cyclones tropicaux de l'Atlantique?
+
+211
+0:08:40.71,000 --> 0:08:43,000
+De quel façon les aérosols organiques de la combustion de la biomasse,
+
+212
+0:08:44.187,000 --> 0:08:46,000
+représentés par les points rouges,
+
+213
+0:08:46.91,000 --> 0:08:48,000
+et les structures de nuages et de pluie se croisent-ils ?
+
+214
+0:08:49.844,000 --> 0:08:5,000
+Comment la pollution, que vous pouvez voir
+
+215
+0:08:51.631,000 --> 0:08:54,000
+dans les volutes blanches de sulfates polluants en Europe,
+
+216
+0:08:55.53,000 --> 0:08:58,000
+affecte-t-elle la température à la surface
+
+217
+0:08:58.865,000 --> 0:09:01,000
+et la lumière du soleil reçue au sol ?
+
+218
+0:09:02.353,000 --> 0:09:05,000
+Nous pouvons voir ces phénomènes partout sur la planète.
+
+219
+0:09:05.841,000 --> 0:09:08,000
+On peut voir la pollution en Chine
+
+220
+0:09:09.501,000 --> 0:09:12,000
+On peut voir les effets de tempêtes
+
+221
+0:09:13.099,000 --> 0:09:16,000
+sur les particules de sel de mer dans l'atmosphère.
+
+222
+0:09:16.543,000 --> 0:09:18,000
+On peut voir la combinaison
+
+223
+0:09:19.104,000 --> 0:09:21,000
+de toutes ces différentes choses
+
+224
+0:09:21.275,000 --> 0:09:22,000
+qui se produisent en même temps
+
+225
+0:09:22.743,000 --> 0:09:24,000
+et on peut se poser de plus intéressantes questions encore.
+
+226
+0:09:25.15,000 --> 0:09:29,000
+Comment la pollution de l'air et le climat coexistent-ils ?
+
+227
+0:09:29.774,000 --> 0:09:3,000
+Pouvons-nous changer des choses
+
+228
+0:09:31.283,000 --> 0:09:33,000
+qui agissent sur la pollution et sur le climat en même temps ?
+
+229
+0:09:33.872,000 --> 0:09:35,000
+La réponse est oui.
+
+230
+0:09:36.216,000 --> 0:09:39,000
+Voici l'historique du 20e siècle.
+
+231
+0:09:39.26,000 --> 0:09:41,000
+l'animation du haut, c'est le modèle.
+
+232
+0:09:41.503,000 --> 0:09:42,000
+La météo est un peu différente
+
+233
+0:09:42.91,000 --> 0:09:43,000
+de ce qui s'est réellement produit.
+
+234
+0:09:44.199,000 --> 0:09:46,000
+L'animation du bas, ce sont les observations.
+
+235
+0:09:46.231,000 --> 0:09:48,000
+Nous traversons les années 1930.
+
+236
+0:09:48.556,000 --> 0:09:5,000
+Il y a de la variabilité, beaucoup de choses se produisent,
+
+237
+0:09:51.38,000 --> 0:09:53,000
+Mais ce ne sont que des parasites.
+
+238
+0:09:53.562,000 --> 0:09:55,000
+À mesure que l'on approche des années 1970,
+
+239
+0:09:56.424,000 --> 0:09:58,000
+les choses vont commencer à changer.
+
+240
+0:09:58.433,000 --> 0:10:,000
+Ils vont commencer à se ressembler
+
+241
+0:10:00.495,000 --> 0:10:02,000
+et lorsqu'on arrive aux années 2000,
+
+242
+0:10:03.063,000 --> 0:10:05,000
+vous pouvez constater le modèle du réchauffement climatique.
+
+243
+0:10:05.705,000 --> 0:10:07,000
+dans les observations comme dans le modèle.
+
+244
+0:10:08.454,000 --> 0:10:1,000
+Nous savons ce qui s'est produit au 20e siècle.
+
+245
+0:10:10.581,000 --> 0:10:11,000
+Vrai ? Nous savons que la Terre se réchauffe.
+
+246
+0:10:12.341,000 --> 0:10:13,000
+Nous savons où ça se réchauffe.
+
+247
+0:10:13.952,000 --> 0:10:15,000
+Si vous interrogez les modèles pour savoir pourquoi cela s'est produit,
+
+248
+0:10:16.692,000 --> 0:10:18,000
+vous pouvez dire : d'accord, eh bien, oui,
+
+249
+0:10:18.817,000 --> 0:10:19,000
+au fond c'est à cause du dioxyde de carbone
+
+250
+0:10:20.683,000 --> 0:10:21,000
+que nous émettons dans l'atmosphère.
+
+251
+0:10:22.662,000 --> 0:10:23,000
+Nos prédictions sont très bonnes
+
+252
+0:10:24.344,000 --> 0:10:26,000
+jusqu'à maintenant.
+
+253
+0:10:26.971,000 --> 0:10:29,000
+Il y a une raison fondamentale pour expliquer la consultation des modèles,
+
+254
+0:10:30.391,000 --> 0:10:32,000
+c'est à cause de cette phrase :
+
+255
+0:10:32.612,000 --> 0:10:34,000
+parce que si nous avions des observations provenant du futur,
+
+256
+0:10:35.107,000 --> 0:10:38,000
+nous y ferions plus confiance qu'en nos modèles
+
+257
+0:10:38.436,000 --> 0:10:39,000
+mais malheureusement,
+
+258
+0:10:40.38,000 --> 0:10:45,000
+les observations du futur ne sont pas disponibles encore.
+
+259
+0:10:45.92,000 --> 0:10:47,000
+Quand nous nous projetons dans le futur, il y a une différence.
+
+260
+0:10:48.625,000 --> 0:10:5,000
+On ne connaît pas le futur, il est incertain
+
+261
+0:10:51.187,000 --> 0:10:53,000
+et nous avons des options.
+
+262
+0:10:53.591,000 --> 0:10:54,000
+Voici les options que nous avons.
+
+263
+0:10:55.424,000 --> 0:10:57,000
+Nous pouvons travailler afin d'atténuer
+
+264
+0:10:57.563,000 --> 0:10:59,000
+nos émissions de dioxyde de carbone dans l'atmosphère.
+
+265
+0:11:00.358,000 --> 0:11:01,000
+C'est l'option qui est en haut.
+
+266
+0:11:02.284,000 --> 0:11:03,000
+Nous pouvons travailler encore plus
+
+267
+0:11:04.19,000 --> 0:11:06,000
+pour vraiment les diminuer
+
+268
+0:11:06.366,000 --> 0:11:08,000
+pour qu'à la fin de ce siècle,
+
+269
+0:11:08.584,000 --> 0:11:1,000
+il n'y en ait pas plus qu'aujourd'hui.
+
+270
+0:11:11.048,000 --> 0:11:14,000
+Ou bien nous pouvons nous en remettre au destin
+
+271
+0:11:14.815,000 --> 0:11:15,000
+et continuer
+
+272
+0:11:16.308,000 --> 0:11:19,000
+comme si de rien était.
+
+273
+0:11:20.054,000 --> 0:11:23,000
+Les différences entre ces options
+
+274
+0:11:23.51,000 --> 0:11:27,000
+ne peuvent pas être mesurées en consultant des modèles.
+
+275
+0:11:28.307,000 --> 0:11:29,000
+Une célèbre phrase
+
+276
+0:11:29.946,000 --> 0:11:3,000
+de Sherwood Rowland,
+
+277
+0:11:31.739,000 --> 0:11:34,000
+prix Nobel de chimie
+
+278
+0:11:34.993,000 --> 0:11:36,000
+pour sa théorie sur la diminution de l'ozone,
+
+279
+0:11:37.876,000 --> 0:11:39,000
+lorsqu'il accepta son Prix,
+
+280
+0:11:40.273,000 --> 0:11:41,000
+il a posé cette question :
+
+281
+0:11:41.652,000 --> 0:11:43,000
+« Quelle est l'utilité d'avoir développé une science
+
+282
+0:11:43.963,000 --> 0:11:46,000
+assez pour pouvoir faire des prédictions, si, au bout du compte,
+
+283
+0:11:47.224,000 --> 0:11:49,000
+tout ce que nous sommes prêts à faire, c'est de rester là
+
+284
+0:11:50.053,000 --> 0:11:52,000
+à attendre que ça se produise ? »
+
+285
+0:11:52.76,000 --> 0:11:54,000
+Les modèles sont utiles,
+
+286
+0:11:55.497,000 --> 0:11:58,000
+mais ce que pouvons nous faire de l'information collectée
+
+287
+0:11:58.815,000 --> 0:12:,000
+est de notre ressort.
+
+288
+0:12:00.986,000 --> 0:12:01,000
+Merci.
+
+289
+0:12:02.924,000 --> 0:12:04,000
+(Applaudissements)
+

@@ -1,0 +1,656 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Anaclara Alonso Canoura Revisor: Ciro Gomez
+
+2
+0:00:12.346,000 --> 0:00:14,000
+Este soy yo construyendo un prototipo
+
+3
+0:00:15.116,000 --> 0:00:17,000
+durante 6 horas de corrido.
+
+4
+0:00:18.036,000 --> 0:00:21,000
+Fui mano de obra esclava de mi propio proyecto.
+
+5
+0:00:21.957,000 --> 0:00:25,000
+Así es como los movimientos "Hazlo Tú Mismo" y 'maker' son en la realidad.
+
+6
+0:00:26.947,000 --> 0:00:3,000
+Y esto es una analogía del mundo actual de la construcción y manufactura
+
+7
+0:00:31.713,000 --> 0:00:33,000
+qué usa técnicas de ensamblaje a fuerza bruta.
+
+8
+0:00:34.501,000 --> 0:00:36,000
+Y esta es la razón por la cual comencé a estudiar
+
+9
+0:00:37.335,000 --> 0:00:41,000
+cómo programar a los materiales físicos para que se construyeran solos.
+
+10
+0:00:41.604,000 --> 0:00:42,000
+Pero hay otro mundo.
+
+11
+0:00:43.364,000 --> 0:00:44,000
+Hoy en día, en materia de microescala y nanoescala,
+
+12
+0:00:45.359,000 --> 0:00:47,000
+se está viviendo una revolución sin precedentes.
+
+13
+0:00:48.11,000 --> 0:00:52,000
+Y esta es la capacidad de programar materiales físicos y biológicos
+
+14
+0:00:52.242,000 --> 0:00:54,000
+para que cambien de forma, de propiedades
+
+15
+0:00:54.966,000 --> 0:00:56,000
+e incluso para que hagan cómputos en materia no basada en silicio.
+
+16
+0:00:57.952,000 --> 0:00:59,000
+Incluso existe un software llamado cadnano
+
+17
+0:01:00.459,000 --> 0:01:02,000
+que nos permite diseñar formas tridimensionales,
+
+18
+0:01:03.242,000 --> 0:01:06,000
+como nanorobots o sistemas de administración de medicamentos,
+
+19
+0:01:06.326,000 --> 0:01:1,000
+y usar el ADN para que esas estructuras funcionales se autoensamblen.
+
+20
+0:01:10.629,000 --> 0:01:12,000
+Pero si consideramos la escala humana,
+
+21
+0:01:12.702,000 --> 0:01:15,000
+existen problemas enormes que no son abordados
+
+22
+0:01:15.758,000 --> 0:01:17,000
+por esos avances en la nanotecnología.
+
+23
+0:01:18.126,000 --> 0:01:2,000
+En términos de construcción y manufactura,
+
+24
+0:01:20.225,000 --> 0:01:24,000
+hay deficiencias importantes, consumo energético
+
+25
+0:01:24.418,000 --> 0:01:26,000
+y técnicas con demasiada mano de obra.
+
+26
+0:01:26.745,000 --> 0:01:28,000
+Pongamos un ejemplo de infraestructura.
+
+27
+0:01:29.25,000 --> 0:01:3,000
+Los sistemas de cañerías.
+
+28
+0:01:30.733,000 --> 0:01:33,000
+En las tuberías de agua, hay tuberías de capacidad fija
+
+29
+0:01:34.458,000 --> 0:01:38,000
+que son de caudal fijo, con excepción de las bombas y válvulas costosas.
+
+30
+0:01:38.917,000 --> 0:01:39,000
+Las enterramos en la tierra.
+
+31
+0:01:40.208,000 --> 0:01:42,000
+Si algo cambia —si su entorno cambia,
+
+32
+0:01:42.829,000 --> 0:01:44,000
+si la tierra se mueve, o demanda cambios—
+
+33
+0:01:45.466,000 --> 0:01:49,000
+debemos comenzar de cero, quitarlas y reemplazarlas.
+
+34
+0:01:49.716,000 --> 0:01:52,000
+Así que me gustaría proponer combinar ambos mundos,
+
+35
+0:01:53.084,000 --> 0:01:58,000
+podemos combinar el mundo de los materiales adaptables programados con nanotecnología
+
+36
+0:01:58.255,000 --> 0:01:59,000
+y el ambiente de construcción.
+
+37
+0:01:59.932,000 --> 0:02:01,000
+Y no me refiero a máquinas automatizadas.
+
+38
+0:02:02.118,000 --> 0:02:04,000
+No me refiero a máquinas inteligentes que reemplacen a los humanos.
+
+39
+0:02:04.577,000 --> 0:02:07,000
+Me refiero a materiales programables que se construyan solos.
+
+40
+0:02:08.461,000 --> 0:02:1,000
+Y a eso se le llama autoensamblaje,
+
+41
+0:02:10.517,000 --> 0:02:14,000
+que es un proceso por el cual partes desordenadas construyen una estructura ordenada
+
+42
+0:02:15.034,000 --> 0:02:17,000
+solamente a través de la interacción local.
+
+43
+0:02:17.527,000 --> 0:02:2,000
+¿Entonces qué precisamos si lo queremos llevar a cabo en la escala humana?
+
+44
+0:02:20.702,000 --> 0:02:21,000
+Precisamos algunos ingredientes sencillos.
+
+45
+0:02:22.677,000 --> 0:02:24,000
+El primer ingrediente es materiales y geometría,
+
+46
+0:02:25.516,000 --> 0:02:28,000
+y estos precisan estar estrechamente vinculados con la fuente de energía.
+
+47
+0:02:28.985,000 --> 0:02:29,000
+Y pueden usar energía pasiva
+
+48
+0:02:30.643,000 --> 0:02:34,000
+es decir térmica, cinética, neumática, gravitatoria o magnética.
+
+49
+0:02:35.327,000 --> 0:02:38,000
+Y luego precisas interacciones de diseño inteligente.
+
+50
+0:02:38.402,000 --> 0:02:4,000
+Y esas interacciones permiten la corrección de errores,
+
+51
+0:02:40.535,000 --> 0:02:44,000
+y permiten que las formas pasen de un estado a otro.
+
+52
+0:02:44.535,000 --> 0:02:47,000
+Ahora voy a mostrarles una serie de proyectos que construimos,
+
+53
+0:02:47.767,000 --> 0:02:5,000
+desde sistemas unidimensionales, bidimensionales, tridimensionales
+
+54
+0:02:51.051,000 --> 0:02:54,000
+y hasta cuatridimensionales.
+
+55
+0:02:54.118,000 --> 0:02:55,000
+Así que, en sistemas unidimensionales
+
+56
+0:02:56.004,000 --> 0:02:58,000
+—este es un proyecto llamado las proteínas autoplegables—.
+
+57
+0:02:58.911,000 --> 0:03:02,000
+La idea es tomar la estructura tridimensional de una proteína
+
+58
+0:03:03.618,000 --> 0:03:05,000
+—en este caso es la proteína crambina—
+
+59
+0:03:06.299,000 --> 0:03:09,000
+tomamos el esqueleto —sin ramificaciones, sin interacciones con el entorno—
+
+60
+0:03:09.945,000 --> 0:03:12,000
+y lo fragmentamos en una serie de componentes.
+
+61
+0:03:13.096,000 --> 0:03:15,000
+Y luego le incorporamos elástico.
+
+62
+0:03:15.37,000 --> 0:03:17,000
+Y cuando lanzo esto al aire y lo atrapo,
+
+63
+0:03:17.711,000 --> 0:03:21,000
+tiene la estructura tridimensional completa de la proteína, con todas sus complejidades.
+
+64
+0:03:22.562,000 --> 0:03:24,000
+Y esto nos da un modelo tangible
+
+65
+0:03:24.662,000 --> 0:03:27,000
+de la proteína tridimensional y como esta se pliega
+
+66
+0:03:28.396,000 --> 0:03:3,000
+y todas las complejidades de su geometría.
+
+67
+0:03:30.68,000 --> 0:03:33,000
+Entonces podemos estudiar esto como un modelo físico, intuitivo.
+
+68
+0:03:34.128,000 --> 0:03:36,000
+Y también estamos trasladándolo hacia sistemas bidimensionales
+
+69
+0:03:36.93,000 --> 0:03:4,000
+—para que hojas planas puedan plegarse sobre sí mismas y formar estructuras tridimensionales—.
+
+70
+0:03:41.229,000 --> 0:03:45,000
+En tres dimensiones, hicimos un proyecto el año pasado en TEDGlobal
+
+71
+0:03:45.682,000 --> 0:03:46,000
+con Autodesk y Arthut Olson,
+
+72
+0:03:47.646,000 --> 0:03:48,000
+en el cual consideramos las partes autónomas
+
+73
+0:03:49.344,000 --> 0:03:53,000
+—es decir, partes individuales sin conexiones previas que pueden unirse con autonomía—.
+
+74
+0:03:53.663,000 --> 0:03:55,000
+Y armamos 500 de estos vasos de precipitado.
+
+75
+0:03:56.429,000 --> 0:03:58,000
+Cada uno contenía diferentes estructuras moleculares
+
+76
+0:03:58.896,000 --> 0:04:,000
+y diferentes colores que podían ser mezclados y combinados.
+
+77
+0:04:01.12,000 --> 0:04:03,000
+Y se los regalamos a todos los TEDores.
+
+78
+0:04:03.369,000 --> 0:04:05,000
+Así que estos se convirtieron en modelos intuitivos
+
+79
+0:04:05.87,000 --> 0:04:08,000
+para comprender cómo funciona el autoensamblaje molecular en la escala humana.
+
+80
+0:04:09.362,000 --> 0:04:1,000
+Este es el virus de la polio.
+
+81
+0:04:11.179,000 --> 0:04:12,000
+Si lo sacudes con fuerza se rompe.
+
+82
+0:04:13.111,000 --> 0:04:14,000
+Y cuando lo sacudes aleatoriamente
+
+83
+0:04:14.557,000 --> 0:04:17,000
+comienza a corregir el error y a reconstruir la estructura con autonomía.
+
+84
+0:04:18.061,000 --> 0:04:2,000
+Y esto demuestra que a través de la energía aleatoria,
+
+85
+0:04:21.028,000 --> 0:04:25,000
+podemos construir formas no aleatorias.
+
+86
+0:04:25.656,000 --> 0:04:28,000
+Incluso demostramos que podemos llevarlo a cabo a gran escala.
+
+87
+0:04:29.18,000 --> 0:04:31,000
+El año pasado en TED Long Beach,
+
+88
+0:04:31.334,000 --> 0:04:34,000
+construimos una instalación que construye instalaciones.
+
+89
+0:04:34.545,000 --> 0:04:37,000
+La idea era, ¿podemos autoensamblar objetos del tamaño de un mueble?
+
+90
+0:04:38.082,000 --> 0:04:4,000
+Así que construimos una gran cámara giratoria,
+
+91
+0:04:40.583,000 --> 0:04:43,000
+y la gente se acercaba y la hacía girar rápido o lento,
+
+92
+0:04:43.796,000 --> 0:04:44,000
+así agregaban energía al sistema
+
+93
+0:04:45.381,000 --> 0:04:48,000
+y conseguían una comprensión intuitiva del funcionamiento del autoensamblaje
+
+94
+0:04:48.827,000 --> 0:04:49,000
+y de cómo podemos usarlo
+
+95
+0:04:50.206,000 --> 0:04:54,000
+como técnica de construcción o manufactura de productos en gran escala.
+
+96
+0:04:54.952,000 --> 0:04:55,000
+Pero recuerden, yo dije 4D.
+
+97
+0:04:56.619,000 --> 0:04:59,000
+Hoy, por primera vez, estamos inaugurando un nuevo proyecto,
+
+98
+0:05:00.314,000 --> 0:05:01,000
+que es una colaboración con Stratasys,
+
+99
+0:05:02.2,000 --> 0:05:03,000
+y se llama impresión en 4D.
+
+100
+0:05:04.035,000 --> 0:05:05,000
+La idea detrás de la impresión en 4D
+
+101
+0:05:05.995,000 --> 0:05:08,000
+es tomar la impresión 3D multimaterial
+
+102
+0:05:08.995,000 --> 0:05:1,000
+—en la cual se pueden depositar varios materiales—
+
+103
+0:05:11.184,000 --> 0:05:12,000
+y se le agrega una nueva capacidad,
+
+104
+0:05:13.068,000 --> 0:05:14,000
+la transformación,
+
+105
+0:05:14.934,000 --> 0:05:15,000
+que instantáneamente,
+
+106
+0:05:16.251,000 --> 0:05:2,000
+las partes pueden transformarse de una forma a la otra con autonomía.
+
+107
+0:05:20.578,000 --> 0:05:23,000
+Y esto es como la robótica pero sin cables ni motores.
+
+108
+0:05:24.078,000 --> 0:05:25,000
+Así que puedes imprimir esta parte completamente,
+
+109
+0:05:25.729,000 --> 0:05:27,000
+y puede transformarse en algo totalmente distinto.
+
+110
+0:05:28.533,000 --> 0:05:32,000
+También trabajamos con Autodesk en un software que están desarrollando que se llama Project Cyborg.
+
+111
+0:05:33.494,000 --> 0:05:36,000
+Y esto nos permite simular este comportamiento de autoensamblaje
+
+112
+0:05:36.617,000 --> 0:05:39,000
+e intentar optimizar qué partes se pliegan en qué momento.
+
+113
+0:05:39.819,000 --> 0:05:41,000
+Pero lo más importante es que podemos usar este mismo software
+
+114
+0:05:42.549,000 --> 0:05:44,000
+para el diseño de sistemas de autoensamblaje en nanoescala
+
+115
+0:05:45.457,000 --> 0:05:47,000
+y sistemas de autoensamblaje en la escala humana.
+
+116
+0:05:48.3,000 --> 0:05:51,000
+Estas son partes impresas con propiedades multimaterial.
+
+117
+0:05:51.813,000 --> 0:05:52,000
+Esta es la primera demostración.
+
+118
+0:05:53.53,000 --> 0:05:54,000
+Una cadena única sumergida en agua
+
+119
+0:05:55.434,000 --> 0:05:57,000
+que se pliega sobre sí misma con total autonomía
+
+120
+0:05:57.783,000 --> 0:06:,000
+formando las letras M I T.
+
+121
+0:06:01.701,000 --> 0:06:02,000
+Estoy sesgado.
+
+122
+0:06:03.523,000 --> 0:06:06,000
+Esta es otra parte, cadena única, sumergida en un tanque más grande
+
+123
+0:06:06.972,000 --> 0:06:1,000
+que por sí mismo puede plegarse para formar un cubo, una estructura tridimensional.
+
+124
+0:06:11.595,000 --> 0:06:12,000
+Así que no hay interacción humana.
+
+125
+0:06:13.446,000 --> 0:06:14,000
+Y creemos que esta es la primera vez
+
+126
+0:06:15.335,000 --> 0:06:17,000
+que un programa y una transformación
+
+127
+0:06:17.582,000 --> 0:06:2,000
+han sido fundidos directamente en los materiales.
+
+128
+0:06:20.832,000 --> 0:06:22,000
+Y esta puede perfectamente ser la técnica de manufactura
+
+129
+0:06:23.562,000 --> 0:06:27,000
+que en el futuro nos permita producir una infraestructura más adaptable.
+
+130
+0:06:27.696,000 --> 0:06:28,000
+Pero sé que probablemente estén pensando,
+
+131
+0:06:28.882,000 --> 0:06:32,000
+bueno, todo esto es genial, ¿pero cómo lo usamos en nuestro ambiente de construcción?
+
+132
+0:06:33.114,000 --> 0:06:35,000
+Así que abrí un laboratorio en MIT
+
+133
+0:06:35.369,000 --> 0:06:36,000
+y se llama el Laboratorio Autoensamblable.
+
+134
+0:06:37.251,000 --> 0:06:4,000
+Y estamos dedicados a intentar desarrollar materiales programables
+
+135
+0:06:40.395,000 --> 0:06:41,000
+para el ambiente de construcción.
+
+136
+0:06:41.586,000 --> 0:06:42,000
+Y creemos que hay unos pocos sectores clave
+
+137
+0:06:43.549,000 --> 0:06:45,000
+en los que se podría aplicar a relativamente corto plazo.
+
+138
+0:06:45.863,000 --> 0:06:47,000
+Una de ellas es en ambientes de condiciones extremas.
+
+139
+0:06:47.918,000 --> 0:06:49,000
+Estos son escenarios en los cuales resulta difícil construir,
+
+140
+0:06:50.464,000 --> 0:06:52,000
+nuestras técnicas de construcción actuales no funcionan,
+
+141
+0:06:52.952,000 --> 0:06:55,000
+es demasiado grande, peligroso, caro, demasiadas partes.
+
+142
+0:06:56.512,000 --> 0:06:58,000
+Y el espacio es un gran ejemplo de esto.
+
+143
+0:06:58.879,000 --> 0:07:,000
+Estamos intentando diseñar nuevos escenarios para el espacio
+
+144
+0:07:01.245,000 --> 0:07:04,000
+que tengan estructuras totalmente reconfigurables y autoensamblables
+
+145
+0:07:04.545,000 --> 0:07:07,000
+que puedan pasar por sistemas altamente funcionales, de uno a otro.
+
+146
+0:07:08.235,000 --> 0:07:1,000
+Volvamos a la infraestructura.
+
+147
+0:07:10.346,000 --> 0:07:13,000
+En infraestructura, estamos trabajando con una compañía de Boston llamada Geosyntec.
+
+148
+0:07:14.245,000 --> 0:07:16,000
+Y estamos desarrollando un nuevo paradigma para los sistemas de tuberías.
+
+149
+0:07:17.045,000 --> 0:07:2,000
+Imaginen si las tuberías pudieran expandirse o contraerse
+
+150
+0:07:20.668,000 --> 0:07:22,000
+para cambiar de capacidad o caudal,
+
+151
+0:07:23.418,000 --> 0:07:27,000
+o quizás incluso pudieran ondularse como peristálticas para mover el agua ellas mismas.
+
+152
+0:07:27.952,000 --> 0:07:29,000
+Y esto no son bombas o válvulas caras.
+
+153
+0:07:30.562,000 --> 0:07:34,000
+Es una tubería que puede programarse y adaptarse con autonomía.
+
+154
+0:07:34.845,000 --> 0:07:35,000
+Así que hoy quisiera recordarles
+
+155
+0:07:36.66,000 --> 0:07:39,000
+de las duras realidades de ensamblaje de nuestro mundo.
+
+156
+0:07:40.044,000 --> 0:07:43,000
+Estas son cosas complejas construidas con partes complejas
+
+157
+0:07:43.509,000 --> 0:07:45,000
+que se unen de formas complejas.
+
+158
+0:07:46.294,000 --> 0:07:49,000
+Así que me gustaría invitarlos, sin importar la industria en que trabajen,
+
+159
+0:07:49.493,000 --> 0:07:53,000
+a que se nos unan para reinventar e imaginar el mundo,
+
+160
+0:07:53.546,000 --> 0:07:56,000
+cómo las cosas se vinculan desde la nanoescala hasta la escala humana,
+
+161
+0:07:57.245,000 --> 0:08:,000
+para que podamos pasar de un mundo así
+
+162
+0:08:00.32,000 --> 0:08:02,000
+a un mundo un poco más así.
+
+163
+0:08:12.632,000 --> 0:08:13,000
+Gracias.
+
+164
+0:08:14.542,000 --> 0:08:16,000
+(Aplausos)
+

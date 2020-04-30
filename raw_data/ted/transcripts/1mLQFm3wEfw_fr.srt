@@ -1,0 +1,1000 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Claire Ghyselen Relecteur: eric vautier
+
+2
+0:00:13.407,000 --> 0:00:14,000
+S'il y a bien une ville au monde
+
+3
+0:00:14.988,000 --> 0:00:16,000
+où c'est compliqué de trouver un bien à louer ou acheter,
+
+4
+0:00:17.661,000 --> 0:00:17,000
+c'est Sydney.
+
+5
+0:00:19.043,000 --> 0:00:23,000
+Si vous avez cherché une maison récemment, vous savez de quoi je parle.
+
+6
+0:00:23.298,000 --> 0:00:25,000
+Chaque fois que vous visitez une maison,
+
+7
+0:00:25.312,000 --> 0:00:27,000
+vous obtenez des informations sur le potentiel de l'offre
+
+8
+0:00:28.003,000 --> 0:00:28,000
+et sur le marché.
+
+9
+0:00:28.968,000 --> 0:00:29,000
+Quand vous rejetez un choix,
+
+10
+0:00:30.422,000 --> 0:00:33,000
+vous prenez le risque de rater la meilleure maison.
+
+11
+0:00:33.66,000 --> 0:00:35,000
+Comment savez-vous alors quand arrêter de chercher
+
+12
+0:00:36.504,000 --> 0:00:37,000
+et faire une offre ?
+
+13
+0:00:39.663,000 --> 0:00:41,000
+Ce problème est à la fois si cruel et si familier,
+
+14
+0:00:42.088,000 --> 0:00:45,000
+que vous serez surpris de savoir que la réponse est simple.
+
+15
+0:00:45.588,000 --> 0:00:46,000
+37%.
+
+16
+0:00:46.791,000 --> 0:00:47,000
+(Rires)
+
+17
+0:00:48.667,000 --> 0:00:51,000
+Pour maximiser la probabilité de trouver la meilleure maison,
+
+18
+0:00:52.627,000 --> 0:00:54,000
+vous devez visiter 37% des offres sur le marché
+
+19
+0:00:55.476,000 --> 0:00:56,000
+et faire une offre pour le lieu suivant
+
+20
+0:00:57.456,000 --> 0:00:59,000
+qui sera meilleur que tout ce que vous avez déjà visité.
+
+21
+0:01:00.42,000 --> 0:01:03,000
+Imaginons avoir un mois pour y arriver, il convient d'y réserver 37% du temps,
+
+22
+0:01:04.187,000 --> 0:01:06,000
+11 jours, pour avoir un standard,
+
+23
+0:01:07.126,000 --> 0:01:08,000
+pour être prêt à agir.
+
+24
+0:01:09.829,000 --> 0:01:11,000
+Nous savons cela car la recherche d'un lieu de vie
+
+25
+0:01:12.562,000 --> 0:01:14,000
+est un exemple de problème d'arrêt optimal.
+
+26
+0:01:14.887,000 --> 0:01:16,000
+C'est une catégorie de problèmes étudiée intensivement
+
+27
+0:01:17.45,000 --> 0:01:19,000
+par les mathématiciens et les informaticiens.
+
+28
+0:01:21.502,000 --> 0:01:23,000
+Je suis spécialiste en science cognitive informatique.
+
+29
+0:01:24.045,000 --> 0:01:27,000
+Je cherche à comprendre comment l'esprit de l'homme fonctionne,
+
+30
+0:01:27.865,000 --> 0:01:3,000
+depuis nos réussites éblouissantes jusqu'à nos échecs les plus retentissants.
+
+31
+0:01:32.552,000 --> 0:01:34,000
+Pour ça, je réfléchis à la structure de calcul analogique
+
+32
+0:01:35.225,000 --> 0:01:37,000
+des problèmes qui égrènent notre quotidien,
+
+33
+0:01:37.728,000 --> 0:01:39,000
+et je compare les solutions idéales de ces problèmes
+
+34
+0:01:40.173,000 --> 0:01:42,000
+avec nos comportements dans la réalité.
+
+35
+0:01:42.725,000 --> 0:01:43,000
+Effet secondaire :
+
+36
+0:01:43.934,000 --> 0:01:45,000
+je vois que des petites touches de science informatique
+
+37
+0:01:46.699,000 --> 0:01:48,000
+peuvent faciliter notre processus de décision.
+
+38
+0:01:49.828,000 --> 0:01:5,000
+Mes motivations sont très personnelles.
+
+39
+0:01:52.153,000 --> 0:01:55,000
+J'ai grandi à Perth et j'étais un gamin trop intellectuel.
+
+40
+0:01:55.319,000 --> 0:01:56,000
+(Rires)
+
+41
+0:02:00.098,000 --> 0:02:03,000
+J'essayais toujours d'agir de la façon qui me semblait rationnelle,
+
+42
+0:02:03.269,000 --> 0:02:04,000
+mûrissant toutes mes décisions,
+
+43
+0:02:04.866,000 --> 0:02:06,000
+tentant de déterminer la meilleure action à prendre.
+
+44
+0:02:07.972,000 --> 0:02:09,000
+Mais ce n'est pas une approche viable
+
+45
+0:02:10.162,000 --> 0:02:13,000
+quand on rencontre le genre de problèmes qui émergent dans la vie adulte.
+
+46
+0:02:13.974,000 --> 0:02:15,000
+J'ai même essayé de rompre avec ma copine
+
+47
+0:02:16.728,000 --> 0:02:19,000
+parce que prendre en considération ses préférences et les miennes
+
+48
+0:02:20.102,000 --> 0:02:21,000
+pour trouver la solution parfaite
+
+49
+0:02:21.785,000 --> 0:02:22,000
+(Rires)
+
+50
+0:02:24.092,000 --> 0:02:25,000
+m'épuisait littéralement.
+
+51
+0:02:25.994,000 --> 0:02:25,000
+(Rires)
+
+52
+0:02:28.401,000 --> 0:02:3,000
+Elle m'a fait remarquer que mon approche n'était pas bonne
+
+53
+0:02:31.17,000 --> 0:02:32,000
+pour résoudre ça --
+
+54
+0:02:32.511,000 --> 0:02:33,000
+et elle est devenue ma femme.
+
+55
+0:02:33.893,000 --> 0:02:34,000
+(Rires)
+
+56
+0:02:36.003,000 --> 0:02:37,000
+(Applaudissements)
+
+57
+0:02:40.998,000 --> 0:02:43,000
+Qu'il s'agisse d'une décision simple comme le choix d'un restaurant,
+
+58
+0:02:44.483,000 --> 0:02:48,000
+ou plus importante, comme décider avec qui passer sa vie,
+
+59
+0:02:48.538,000 --> 0:02:5,000
+la vie des hommes est saturée de problèmes à analyser
+
+60
+0:02:51.043,000 --> 0:02:55,000
+trop complexes à résoudre avec la force brute uniquement.
+
+61
+0:02:55.65,000 --> 0:02:58,000
+Pour ces problèmes, pourquoi ne pas consulter des spécialistes :
+
+62
+0:02:58.706,000 --> 0:02:59,000
+des informaticiens ?
+
+63
+0:03:00.046,000 --> 0:03:01,000
+(Rires)
+
+64
+0:03:01.784,000 --> 0:03:03,000
+Quand on a besoin d'un conseil dans la vie,
+
+65
+0:03:03.813,000 --> 0:03:06,000
+on ne pense pas spontanément à demander l'avis d'un informaticien.
+
+66
+0:03:07.315,000 --> 0:03:08,000
+Vivre une vie d'ordinateur,
+
+67
+0:03:09.19,000 --> 0:03:11,000
+déterministe à un point affligeant, exhaustif et exact.
+
+68
+0:03:11.768,000 --> 0:03:12,000
+A priori, aucun gai luron ici.
+
+69
+0:03:14.153,000 --> 0:03:16,000
+Mais envisager la science informatique des décisions humaines
+
+70
+0:03:17.08,000 --> 0:03:19,000
+dévoile le fait que nous prenons le problème à l'envers.
+
+71
+0:03:19.708,000 --> 0:03:21,000
+En appliquant au genre de problèmes complexes
+
+72
+0:03:21.814,000 --> 0:03:22,000
+rencontrés dans la vie,
+
+73
+0:03:23.017,000 --> 0:03:25,000
+la méthode des ordinateurs pour résoudre ces problèmes
+
+74
+0:03:25.772,000 --> 0:03:27,000
+ressemble beaucoup aux comportements réels des gens.
+
+75
+0:03:29.267,000 --> 0:03:31,000
+Prenons l'exemple du choix du restaurant.
+
+76
+0:03:33.09,000 --> 0:03:36,000
+Ce problème a une structure analytique spécifique.
+
+77
+0:03:36.178,000 --> 0:03:39,000
+Il y a plusieurs options, vous allez en choisir une
+
+78
+0:03:39.799,000 --> 0:03:41,000
+et demain, vous serez confronté à exactement la même décision.
+
+79
+0:03:42.76,000 --> 0:03:45,000
+C'est ce que nous appelons être confronté
+
+80
+0:03:46.129,000 --> 0:03:48,000
+au compromis entre l'exploration et l'exploitation.
+
+81
+0:03:49.115,000 --> 0:03:5,000
+Vous devez décider
+
+82
+0:03:50.519,000 --> 0:03:52,000
+si vous allez essayer quelque chose de nouveau,
+
+83
+0:03:52.721,000 --> 0:03:56,000
+explorer, collecter des informations utilisables à l'avenir,
+
+84
+0:03:57.157,000 --> 0:04:,000
+ou si vous allez aller dans ce resto que vous connaissez et qui n'est pas mal,
+
+85
+0:04:01.164,000 --> 0:04:04,000
+soit exploiter l'information que vous avez déjà en main.
+
+86
+0:04:05.488,000 --> 0:04:07,000
+Vous devez faire un compromis entre explorer ou exploiter
+
+87
+0:04:08.194,000 --> 0:04:09,000
+devant le choix de découvrir
+
+88
+0:04:10.094,000 --> 0:04:13,000
+ou de revenir à une chose connue qui est de fait plutôt bonne,
+
+89
+0:04:13.26,000 --> 0:04:14,000
+écouter de la musique
+
+90
+0:04:14.56,000 --> 0:04:16,000
+ou décider avec qui passer votre temps.
+
+91
+0:04:17.194,000 --> 0:04:19,000
+Les entreprises technologiques partagent votre problème
+
+92
+0:04:19.798,000 --> 0:04:22,000
+quand elles décident quelle publicité vous montrer sur votre page web.
+
+93
+0:04:23.077,000 --> 0:04:26,000
+Doivent-elles montrer une nouvelle pub et en apprendre davantage
+
+94
+0:04:26.84,000 --> 0:04:26,000
+ou privilégier une pub
+
+95
+0:04:27.756,000 --> 0:04:29,000
+dont elles savent que la probabilité de cliquer est grande ?
+
+96
+0:04:30.75,000 --> 0:04:31,000
+Ces 60 dernières années,
+
+97
+0:04:31.901,000 --> 0:04:33,000
+la compréhension des informaticiens a beaucoup progressé
+
+98
+0:04:34.771,000 --> 0:04:35,000
+au sujet de ce compromis.
+
+99
+0:04:36.293,000 --> 0:04:38,000
+Leurs résultats mettent au jour des réflexions surprenantes.
+
+100
+0:04:39.291,000 --> 0:04:41,000
+Quand on décide d'un restaurant,
+
+101
+0:04:41.913,000 --> 0:04:43,000
+la première question à se poser est :
+
+102
+0:04:43.913,000 --> 0:04:45,000
+« Combien de temps resterai-je encore en ville ? »
+
+103
+0:04:46.505,000 --> 0:04:48,000
+Si vous ne restez que peu de temps,
+
+104
+0:04:48.871,000 --> 0:04:49,000
+choisissez l'exploitation.
+
+105
+0:04:50.41,000 --> 0:04:51,000
+Ça ne fait pas sens de collecter.
+
+106
+0:04:52.339,000 --> 0:04:54,000
+Visitez un restaurant qui vous plaît déjà.
+
+107
+0:04:54.411,000 --> 0:04:56,000
+Mais si vous résidez plus longtemps, explorez.
+
+108
+0:04:57.364,000 --> 0:04:58,000
+Essayez des choses nouvelles,
+
+109
+0:04:58.775,000 --> 0:05:01,000
+car ces informations vous permettront d'améliorer vos choix à l'avenir.
+
+110
+0:05:02.773,000 --> 0:05:03,000
+La valeur des informations augmente
+
+111
+0:05:04.752,000 --> 0:05:07,000
+avec le nombre d'occasions que vous aurez de les mettre à profit.
+
+112
+0:05:08.193,000 --> 0:05:12,000
+Ce principe nous dévoile la structure de la vie humaine.
+
+113
+0:05:13.104,000 --> 0:05:16,000
+Les bébés n'ont pas la réputation d'être rationnels.
+
+114
+0:05:17.098,000 --> 0:05:18,000
+Ils essaient toujours de nouveaux trucs,
+
+115
+0:05:19.023,000 --> 0:05:21,000
+et de les mettre en bouche, vous voyez ce que je veux dire ?
+
+116
+0:05:22.621,000 --> 0:05:24,000
+En fait, c'est exactement ce qu'ils doivent faire.
+
+117
+0:05:25.597,000 --> 0:05:27,000
+Ils sont dans la phase d'exploration de leur vie.
+
+118
+0:05:28.051,000 --> 0:05:3,000
+Et certaines choses pourraient être vraiment bonnes.
+
+119
+0:05:32.04,000 --> 0:05:33,000
+A l'autre bout du spectre,
+
+120
+0:05:33.612,000 --> 0:05:35,000
+il y a le vieil homme qui va toujours au même restaurant
+
+121
+0:05:36.258,000 --> 0:05:37,000
+où il mange la même chose.
+
+122
+0:05:37.801,000 --> 0:05:39,000
+Ce n'est pas d'un ennui mortel, il optimise.
+
+123
+0:05:40.709,000 --> 0:05:41,000
+(Rires)
+
+124
+0:05:44.564,000 --> 0:05:48,000
+Il exploite le savoir accumulé durant sa vie.
+
+125
+0:05:50.406,000 --> 0:05:53,000
+De manière générale, être conscient de ce compromis
+
+126
+0:05:53.637,000 --> 0:05:58,000
+vous rend la vie plus facile et plus relax au moment de prendre une décision.
+
+127
+0:05:59.047,000 --> 0:06:01,000
+Pourquoi aller dans le meilleur restaurant tous les soirs ?
+
+128
+0:06:01.935,000 --> 0:06:05,000
+Osez quelque chose de nouveau, explorez ! Vous pourriez apprendre quelque chose.
+
+129
+0:06:06.53,000 --> 0:06:1,000
+L'information gagnée aura plus de valeur que ce dîner pas mal du tout.
+
+130
+0:06:12.178,000 --> 0:06:15,000
+La science informatique nous aide aussi à rendre la vie plus facile
+
+131
+0:06:15.347,000 --> 0:06:16,000
+ailleurs, à la maison ou au bureau.
+
+132
+0:06:17.86,000 --> 0:06:19,000
+Quand vous rangez votre penderie,
+
+133
+0:06:20.337,000 --> 0:06:22,000
+vous avez ces choix impossibles et angoissants à faire :
+
+134
+0:06:23.032,000 --> 0:06:25,000
+qu'allez-vous conserver,
+
+135
+0:06:25.438,000 --> 0:06:27,000
+et qu'allez-vous donner ?
+
+136
+0:06:27.974,000 --> 0:06:3,000
+Martha Steward y a consacré beaucoup de réflexion.
+
+137
+0:06:30.998,000 --> 0:06:31,000
+(Rires)
+
+138
+0:06:32.227,000 --> 0:06:33,000
+Elle en a retiré de bons conseils :
+
+139
+0:06:33.975,000 --> 0:06:35,000
+« Posez-vous quatre questions :
+
+140
+0:06:36.224,000 --> 0:06:37,000
+Depuis combien de temps ai-je ça ?
+
+141
+0:06:37.85,000 --> 0:06:38,000
+Est-ce qu'il me va toujours ?
+
+142
+0:06:39.272,000 --> 0:06:42,000
+Ai-je autre chose de similaire ?
+
+143
+0:06:42.495,000 --> 0:06:44,000
+Quand l'ai-je porté pour la dernière fois ? »
+
+144
+0:06:46.648,000 --> 0:06:47,000
+Il y a toutefois un autre genre de spécialistes
+
+145
+0:06:48.387,000 --> 0:06:51,000
+qui y a sans doute pensé plus intensément.
+
+146
+0:06:51.541,000 --> 0:06:54,000
+Ils ajouteraient qu'une de ces questions est plus importante que les autres.
+
+147
+0:06:55.819,000 --> 0:06:56,000
+Quels spécialistes ?
+
+148
+0:06:57.281,000 --> 0:06:59,000
+Ceux qui conçoivent les systèmes de mémoire des ordinateurs.
+
+149
+0:07:00.153,000 --> 0:07:02,000
+Les ordinateurs ont deux types de processeur :
+
+150
+0:07:02.431,000 --> 0:07:03,000
+un processeur rapide,
+
+151
+0:07:03.842,000 --> 0:07:06,000
+comme un ensemble de cartes mémoires avec une capacité limitée,
+
+152
+0:07:07.035,000 --> 0:07:09,000
+car elles sont coûteuses,
+
+153
+0:07:09.111,000 --> 0:07:12,000
+et une mémoire RAM, plus lente mais de plus grande capacité.
+
+154
+0:07:13.239,000 --> 0:07:16,000
+Pour optimiser l'efficacité de l'ordinateur,
+
+155
+0:07:16.263,000 --> 0:07:19,000
+on doit s'assurer que les informations auxquelles on veut avoir accès
+
+156
+0:07:19.814,000 --> 0:07:22,000
+sont dans le processeur rapide, pour les récupérer rapidement.
+
+157
+0:07:23.101,000 --> 0:07:26,000
+Chaque fois qu'on récupère une donnée, elle est chargée dans le processeur,
+
+158
+0:07:26.841,000 --> 0:07:29,000
+et l'ordinateur doit décider ce qu'il va effacer
+
+159
+0:07:30.628,000 --> 0:07:31,000
+pour lui laisser de la place.
+
+160
+0:07:33.794,000 --> 0:07:34,000
+Depuis longtemps,
+
+161
+0:07:34.969,000 --> 0:07:36,000
+les informaticiens ont essayé différentes stratégies
+
+162
+0:07:37.428,000 --> 0:07:39,000
+de décision sur les données à enlever du processeur rapide.
+
+163
+0:07:40.21,000 --> 0:07:43,000
+Ils sont passés du choix aléatoire,
+
+164
+0:07:43.248,000 --> 0:07:45,000
+au principe du premier entré, premier sorti,
+
+165
+0:07:46.154,000 --> 0:07:49,000
+qui signifie enlever les données les plus anciennes de la mémoire.
+
+166
+0:07:50.093,000 --> 0:07:52,000
+Mais la stratégie qui s'avère la plus efficace
+
+167
+0:07:52.828,000 --> 0:07:55,000
+se concentre sur les données qui ont été les moins utilisées.
+
+168
+0:07:56.972,000 --> 0:07:59,000
+Donc, si vous devez choisir des données pour les effacer du processeur,
+
+169
+0:08:00.323,000 --> 0:08:04,000
+vous devez supprimer celles qui n'ont plus été utilisées depuis longtemps.
+
+170
+0:08:05.179,000 --> 0:08:07,000
+Il y a une logique sous-jacente.
+
+171
+0:08:07.362,000 --> 0:08:1,000
+S'il y a longtemps que vous n'avez plus utilisé une information,
+
+172
+0:08:10.984,000 --> 0:08:13,000
+il est probable que vous n'aurez pas besoin d'y accéder avant longtemps.
+
+173
+0:08:15.787,000 --> 0:08:17,000
+Votre penderie est exactement comme un processeur.
+
+174
+0:08:18.585,000 --> 0:08:2,000
+La capacité est limitée,
+
+175
+0:08:20.639,000 --> 0:08:25,000
+et vous devez y ranger les vêtements dont vous aurez le plus besoin
+
+176
+0:08:25.99,000 --> 0:08:27,000
+pour y avoir accès le plus rapidement possible.
+
+177
+0:08:29.016,000 --> 0:08:3,000
+Fort de ce constat,
+
+178
+0:08:30.191,000 --> 0:08:32,000
+c'est sans doute une bonne idée d'appliquer ce principe
+
+179
+0:08:32.758,000 --> 0:08:34,000
+pour organiser votre penderie.
+
+180
+0:08:35.001,000 --> 0:08:37,000
+Reprenons les quatre questions de Martha.
+
+181
+0:08:37.107,000 --> 0:08:39,000
+Les informaticiens affirmeront
+
+182
+0:08:39.128,000 --> 0:08:42,000
+que la dernière question est la plus importante.
+
+183
+0:08:43.473,000 --> 0:08:45,000
+L'idée d'organiser les choses
+
+184
+0:08:45.528,000 --> 0:08:48,000
+afin que celles dont vous avez le plus besoin soient le plus accessibles
+
+185
+0:08:48.947,000 --> 0:08:49,000
+fonctionne aussi pour le bureau.
+
+186
+0:08:51.091,000 --> 0:08:52,000
+L'économiste japonais Yukio Noguchi
+
+187
+0:08:53.045,000 --> 0:08:56,000
+a inventé un système de rangement selon ce principe.
+
+188
+0:08:57.161,000 --> 0:08:58,000
+Il a pris une caisse,
+
+189
+0:08:58.794,000 --> 0:09:,000
+et il y a classé ses documents en commençant par la gauche.
+
+190
+0:09:02.067,000 --> 0:09:05,000
+Quand il ajoute un document, il pousse tout le reste vers la droite
+
+191
+0:09:05.401,000 --> 0:09:07,000
+et classe le nouveau document à gauche.
+
+192
+0:09:08.004,000 --> 0:09:1,000
+Chaque fois qu'il prend un document de la boîte
+
+193
+0:09:10.695,000 --> 0:09:12,000
+pour le consulter, il le range à gauche.
+
+194
+0:09:13.327,000 --> 0:09:16,000
+Par conséquent, les documents sont classés de gauche à droite
+
+195
+0:09:16.632,000 --> 0:09:17,000
+par ordre d'utilisation récente.
+
+196
+0:09:18.417,000 --> 0:09:2,000
+Il s'est aperçu qu'il trouvait aisément ce qu'il cherchait
+
+197
+0:09:21.191,000 --> 0:09:24,000
+en feuilletant les documents de gauche à droite.
+
+198
+0:09:25.215,000 --> 0:09:27,000
+Avant de rentrer à la maison et classer vos documents ainsi,
+
+199
+0:09:28.186,000 --> 0:09:29,000
+(Rires)
+
+200
+0:09:29.615,000 --> 0:09:31,000
+c'est important de reconnaître que vous le faites déjà.
+
+201
+0:09:32.891,000 --> 0:09:33,000
+(Rires)
+
+202
+0:09:36.225,000 --> 0:09:38,000
+Ce tas de document sur votre bureau,
+
+203
+0:09:39.115,000 --> 0:09:41,000
+toujours en désordre, mal rangés,
+
+204
+0:09:41.613,000 --> 0:09:43,000
+mais une pile de documents parfaitement organisés !
+
+205
+0:09:44.202,000 --> 0:09:45,000
+(Rires)
+
+206
+0:09:45.226,000 --> 0:09:47,000
+Tant que vous prenez un papier
+
+207
+0:09:47.264,000 --> 0:09:49,000
+et que vous le reposez sur le dessus de la pile,
+
+208
+0:09:49.72,000 --> 0:09:51,000
+Ces documents seront classés de haut en bas
+
+209
+0:09:52.57,000 --> 0:09:53,000
+le plus récemment utilisé au-dessus.
+
+210
+0:09:54.302,000 --> 0:09:56,000
+Vous trouverez sans doute aisément ce que vous cherchez
+
+211
+0:09:56.877,000 --> 0:09:57,000
+en commençant par le haut de la pile.
+
+212
+0:09:59.988,000 --> 0:10:,000
+Ranger votre penderie ou votre bureau
+
+213
+0:10:01.836,000 --> 0:10:04,000
+n'est peut-être pas le problème le plus épineux dans votre vie.
+
+214
+0:10:05.588,000 --> 0:10:08,000
+Parfois, nos problèmes sont très, très durs à résoudre.
+
+215
+0:10:09.716,000 --> 0:10:1,000
+Mais même dans ces cas,
+
+216
+0:10:10.89,000 --> 0:10:14,000
+l'informatique offre des stratégies et pourquoi pas, un certain réconfort.
+
+217
+0:10:16.048,000 --> 0:10:19,000
+Les meilleurs algorithmes permettent de faire ce qui a le plus de sens
+
+218
+0:10:19.343,000 --> 0:10:2,000
+dans le moins de temps possible.
+
+219
+0:10:22.627,000 --> 0:10:24,000
+Un ordinateur qui résout un problème complexe
+
+220
+0:10:24.735,000 --> 0:10:26,000
+le fait en le découpant en plus petits problèmes,
+
+221
+0:10:27.395,000 --> 0:10:28,000
+de manière aléatoire,
+
+222
+0:10:28.765,000 --> 0:10:31,000
+en supprimant des contraintes ou en faisant des approximations.
+
+223
+0:10:32.582,000 --> 0:10:33,000
+Résoudre des problèmes plus simples
+
+224
+0:10:34.276,000 --> 0:10:36,000
+conduit à une meilleure appréhension des problèmes complexes
+
+225
+0:10:37.164,000 --> 0:10:39,000
+et produisent parfois de bonnes solutions.
+
+226
+0:10:41.658,000 --> 0:10:44,000
+Savoir tout cela m'aide à ne pas stresser quand je dois prendre des décisions.
+
+227
+0:10:45.357,000 --> 0:10:48,000
+La règle des 37% pour trouver une maison est un exemple.
+
+228
+0:10:49.015,000 --> 0:10:51,000
+Il est impossible d'envisager tous les choix.
+
+229
+0:10:51.731,000 --> 0:10:53,000
+Donc, il faut s'en remettre un peu à la chance.
+
+230
+0:10:53.941,000 --> 0:10:55,000
+De toute façon, même si on adopte une stratégie optimale,
+
+231
+0:10:56.748,000 --> 0:10:58,000
+rien ne nous garantit un résultat parfait.
+
+232
+0:10:59.198,000 --> 0:11:01,000
+Si vous suivez la règle des 37%,
+
+233
+0:11:01.376,000 --> 0:11:04,000
+la probabilité de trouver la meilleure maison est -
+
+234
+0:11:04.679,000 --> 0:11:05,000
+et c'est très curieux -
+
+235
+0:11:06.211,000 --> 0:11:07,000
+(Rires)
+
+236
+0:11:07.249,000 --> 0:11:08,000
+de 37%.
+
+237
+0:11:09.966,000 --> 0:11:11,000
+Vous raterez votre coup la plupart du temps.
+
+238
+0:11:12.522,000 --> 0:11:14,000
+Mais c'est le mieux que vous puissiez faire.
+
+239
+0:11:14.846,000 --> 0:11:17,000
+Enfin, l'informatique peut nous aider à devenir plus indulgent
+
+240
+0:11:17.922,000 --> 0:11:18,000
+vis-à-vis de nos limites.
+
+241
+0:11:20.333,000 --> 0:11:22,000
+On ne contrôle pas le résultat, juste les processus.
+
+242
+0:11:22.896,000 --> 0:11:24,000
+Tant qu'on utilise le meilleur processus,
+
+243
+0:11:25.039,000 --> 0:11:26,000
+on fait du mieux qu'on peut.
+
+244
+0:11:26.826,000 --> 0:11:29,000
+Parfois, cela signifie de prendre un risque,
+
+245
+0:11:30.538,000 --> 0:11:32,000
+et de ne pas envisager tous les choix,
+
+246
+0:11:32.677,000 --> 0:11:34,000
+ou d'être prêt à accepter une solution suffisamment bonne.
+
+247
+0:11:35.43,000 --> 0:11:38,000
+Il ne s'agit pas là de concessions faites sans rationalité,
+
+248
+0:11:38.804,000 --> 0:11:4,000
+mais sont au contraire l'expression de la raison.
+
+249
+0:11:41.153,000 --> 0:11:42,000
+Merci.
+
+250
+0:11:42.254,000 --> 0:11:43,000
+(Applaudissements)
+

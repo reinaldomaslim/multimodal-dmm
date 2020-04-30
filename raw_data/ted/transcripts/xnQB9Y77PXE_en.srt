@@ -1,0 +1,500 @@
+1
+0:00:12.706,000 --> 0:00:13,000
+Do you remember your first kiss?
+
+2
+0:00:15.548,000 --> 0:00:17,000
+Or that time you burned the roof of your mouth
+
+3
+0:00:17.785,000 --> 0:00:18,000
+on a hot slice of pizza?
+
+4
+0:00:19.532,000 --> 0:00:21,000
+What about playing tag or duck, duck, goose as a child?
+
+5
+0:00:22.863,000 --> 0:00:25,000
+These are all instances where we're using touch to understand something.
+
+6
+0:00:26.974,000 --> 0:00:27,000
+And it's the basis of haptic design.
+
+7
+0:00:29.434,000 --> 0:00:31,000
+"Haptic" means of or relating to the sense of touch.
+
+8
+0:00:32.252,000 --> 0:00:34,000
+And we've all been using that our entire lives.
+
+9
+0:00:35.791,000 --> 0:00:37,000
+I was working on my computer when my friend,
+
+10
+0:00:38.308,000 --> 0:00:4,000
+seeing me hunched over typing, walked over behind me.
+
+11
+0:00:41.617,000 --> 0:00:43,000
+She put her left thumb into the left side of my lower back,
+
+12
+0:00:44.537,000 --> 0:00:47,000
+while reaching her right index finger around to the front of my right shoulder.
+
+13
+0:00:48.315,000 --> 0:00:49,000
+Instinctively, I sat up straight.
+
+14
+0:00:50.179,000 --> 0:00:52,000
+In one quick and gentle gesture,
+
+15
+0:00:52.395,000 --> 0:00:54,000
+she had communicated how to improve my posture.
+
+16
+0:00:55.561,000 --> 0:00:57,000
+The paper I was working on at that very moment
+
+17
+0:00:57.754,000 --> 0:01:,000
+centered around developing new ways to teach movement using technology.
+
+18
+0:01:01.579,000 --> 0:01:04,000
+I wanted to create a suit that could teach a person kung fu.
+
+19
+0:01:05.434,000 --> 0:01:06,000
+(Laughter)
+
+20
+0:01:07.26,000 --> 0:01:09,000
+But I had no idea how to communicate movement
+
+21
+0:01:09.403,000 --> 0:01:1,000
+without an instructor being in the room.
+
+22
+0:01:12.187,000 --> 0:01:15,000
+And in that moment, it became crystal clear: touch.
+
+23
+0:01:16.657,000 --> 0:01:19,000
+If I had vibrating motors where she had placed each of her fingers,
+
+24
+0:01:20.18,000 --> 0:01:24,000
+paired with motion-capture data of my current and optimal posture,
+
+25
+0:01:24.57,000 --> 0:01:25,000
+I could simulate the entire experience
+
+26
+0:01:26.497,000 --> 0:01:28,000
+without an instructor needing to be in the room.
+
+27
+0:01:28.995,000 --> 0:01:31,000
+But there was still one important part of the puzzle that was missing.
+
+28
+0:01:32.727,000 --> 0:01:34,000
+If I want you to raise your wrist two inches off of your lap,
+
+29
+0:01:35.624,000 --> 0:01:36,000
+using vibration,
+
+30
+0:01:37.361,000 --> 0:01:38,000
+how do I tell you to do that?
+
+31
+0:01:40.237,000 --> 0:01:43,000
+Do I put a motor at the top of your wrist, so you know to lift up?
+
+32
+0:01:43.539,000 --> 0:01:45,000
+Or do I put one at the bottom of your wrist,
+
+33
+0:01:45.658,000 --> 0:01:46,000
+so it feels like you're being pushed up?
+
+34
+0:01:47.61,000 --> 0:01:48,000
+There were no readily available answers
+
+35
+0:01:49.546,000 --> 0:01:51,000
+because there was no commonly agreed-upon haptic language
+
+36
+0:01:52.245,000 --> 0:01:53,000
+to communicate information with.
+
+37
+0:01:54.188,000 --> 0:01:56,000
+So my cofounders and I set out to create that language.
+
+38
+0:01:57.987,000 --> 0:02:,000
+And the first device we built was not a kung fu suit.
+
+39
+0:02:01.178,000 --> 0:02:02,000
+(Laughter)
+
+40
+0:02:02.408,000 --> 0:02:04,000
+But in a way, it was even more impressive
+
+41
+0:02:04.792,000 --> 0:02:06,000
+because of its simplicity and usefulness.
+
+42
+0:02:07.394,000 --> 0:02:09,000
+We started with the use case of navigation,
+
+43
+0:02:09.823,000 --> 0:02:11,000
+which is a simplified form of movement.
+
+44
+0:02:12.687,000 --> 0:02:13,000
+We then created Wayband,
+
+45
+0:02:15.561,000 --> 0:02:18,000
+a wrist-wearable device that could orient a user toward a destination,
+
+46
+0:02:19.414,000 --> 0:02:2,000
+using vibrating cues.
+
+47
+0:02:22.235,000 --> 0:02:23,000
+We would ask people to spin around
+
+48
+0:02:25.054,000 --> 0:02:28,000
+and to stop in a way that they felt was the right way to go.
+
+49
+0:02:29.061,000 --> 0:02:31,000
+Informally, we tried this with hundreds of people,
+
+50
+0:02:31.458,000 --> 0:02:33,000
+and most could figure it out within about 15 seconds.
+
+51
+0:02:34.441,000 --> 0:02:35,000
+It was that intuitive.
+
+52
+0:02:36.847,000 --> 0:02:39,000
+Initially, we were just trying to get people out of their phones
+
+53
+0:02:39.953,000 --> 0:02:4,000
+and back into the real world.
+
+54
+0:02:41.776,000 --> 0:02:42,000
+But the more we experimented,
+
+55
+0:02:43.76,000 --> 0:02:47,000
+the more we realized that those who stood to benefit most from our work
+
+56
+0:02:47.951,000 --> 0:02:49,000
+were people who had little or no sight.
+
+57
+0:02:51.387,000 --> 0:02:53,000
+When we first approached a blind organization, they told us,
+
+58
+0:02:54.276,000 --> 0:02:55,000
+"Don't build a blind device.
+
+59
+0:02:56.68,000 --> 0:02:58,000
+Build a device that everyone can use
+
+60
+0:02:58.704,000 --> 0:03:,000
+but that's optimized for the blind experience."
+
+61
+0:03:01.505,000 --> 0:03:04,000
+We created our company WearWorks with three guiding principles:
+
+62
+0:03:06.792,000 --> 0:03:07,000
+make cool stuff,
+
+63
+0:03:08.49,000 --> 0:03:1,000
+create the greatest impact we can in our lifetimes
+
+64
+0:03:11.442,000 --> 0:03:14,000
+and reimagine an entire world designed for touch.
+
+65
+0:03:15.62,000 --> 0:03:17,000
+And on November 5, 2017,
+
+66
+0:03:19.446,000 --> 0:03:21,000
+Wayband helped a person who was blind
+
+67
+0:03:22.382,000 --> 0:03:24,000
+run the first 15 miles of the New York City Marathon
+
+68
+0:03:25.188,000 --> 0:03:26,000
+without any sighted assistance.
+
+69
+0:03:27.165,000 --> 0:03:33,000
+(Applause)
+
+70
+0:03:35.744,000 --> 0:03:38,000
+It didn't get him through the entire race due to the heavy rain,
+
+71
+0:03:38.785,000 --> 0:03:39,000
+but that didn't matter.
+
+72
+0:03:39.999,000 --> 0:03:4,000
+(Laughter)
+
+73
+0:03:41.03,000 --> 0:03:42,000
+We had proved the point:
+
+74
+0:03:42.268,000 --> 0:03:45,000
+that it was possible to navigate a complex route using only touch.
+
+75
+0:03:45.847,000 --> 0:03:46,000
+So, why touch?
+
+76
+0:03:47.903,000 --> 0:03:48,000
+The skin has an innate sensitivity
+
+77
+0:03:49.618,000 --> 0:03:52,000
+akin to the eyes' ability to recognize millions of colors
+
+78
+0:03:53.109,000 --> 0:03:56,000
+or the ears' ability to recognize complex pitch and tone.
+
+79
+0:03:56.387,000 --> 0:03:57,000
+Yet, as a communications channel,
+
+80
+0:03:58.038,000 --> 0:04:01,000
+it's been largely relegated to Morse code-like cell phone notifications.
+
+81
+0:04:01.696,000 --> 0:04:04,000
+If you were to suddenly receive a kiss or a punch,
+
+82
+0:04:04.792,000 --> 0:04:06,000
+your reaction would be instinctive and immediate.
+
+83
+0:04:08.378,000 --> 0:04:1,000
+Meanwhile, your brain would be playing catch-up on the back end
+
+84
+0:04:11.397,000 --> 0:04:13,000
+to understand the details of what just occurred.
+
+85
+0:04:13.714,000 --> 0:04:16,000
+And compared to instincts, conscious thought is pretty slow.
+
+86
+0:04:17.706,000 --> 0:04:18,000
+But it's a lightning bolt
+
+87
+0:04:18.993,000 --> 0:04:2,000
+compared to the snail's pace of language acquisition.
+
+88
+0:04:22.008,000 --> 0:04:24,000
+I spent a considerable amount of time
+
+89
+0:04:24.395,000 --> 0:04:29,000
+learning Spanish, Japanese, German and currently Swedish,
+
+90
+0:04:30.125,000 --> 0:04:31,000
+with varying degrees of failure.
+
+91
+0:04:31.856,000 --> 0:04:33,000
+(Laughter)
+
+92
+0:04:35.482,000 --> 0:04:39,000
+But within those failures were kernels of how different languages are organized.
+
+93
+0:04:39.659,000 --> 0:04:4,000
+That gave our team insight
+
+94
+0:04:41.39,000 --> 0:04:44,000
+into how to use the linguistic order of well-established languages
+
+95
+0:04:45.152,000 --> 0:04:48,000
+as inspiration for an entirely new haptic language,
+
+96
+0:04:48.538,000 --> 0:04:49,000
+one based purely on touch.
+
+97
+0:04:50.95,000 --> 0:04:53,000
+It also showed us when using language mechanics wasn't the best way
+
+98
+0:04:54.543,000 --> 0:04:55,000
+to deliver information.
+
+99
+0:04:56.823,000 --> 0:04:59,000
+In the same way a smile is a smile across every culture,
+
+100
+0:05:00.339,000 --> 0:05:02,000
+what if there was some underlying mechanism of touch
+
+101
+0:05:02.8,000 --> 0:05:04,000
+that transcended linguistic and cultural boundaries?
+
+102
+0:05:06.235,000 --> 0:05:07,000
+A universal language, of sorts.
+
+103
+0:05:08.646,000 --> 0:05:12,000
+You see, I could give you buzz-buzz-buzz, buzz-buzz,
+
+104
+0:05:13.092,000 --> 0:05:14,000
+and you would eventually learn
+
+105
+0:05:14.567,000 --> 0:05:16,000
+that that particular vibration means "stop."
+
+106
+0:05:17.123,000 --> 0:05:19,000
+But as haptic designers, we challenged ourselves.
+
+107
+0:05:21.045,000 --> 0:05:23,000
+What would it be like to design "stop?"
+
+108
+0:05:24.299,000 --> 0:05:25,000
+Well, based on context,
+
+109
+0:05:25.562,000 --> 0:05:27,000
+most of us have the experience of being in a vehicle
+
+110
+0:05:28.03,000 --> 0:05:31,000
+and having that vehicle stop suddenly, along with our body's reaction to it.
+
+111
+0:05:32.545,000 --> 0:05:33,000
+So if I wanted you to stop,
+
+112
+0:05:34.298,000 --> 0:05:36,000
+I could send you a vibration pattern, sure.
+
+113
+0:05:36.339,000 --> 0:05:38,000
+Or, I could design a haptic experience
+
+114
+0:05:39.123,000 --> 0:05:42,000
+that just made stopping feel like it was the right thing to do.
+
+115
+0:05:43.496,000 --> 0:05:46,000
+And that takes more than an arbitrary assignment of haptic cues to meanings.
+
+116
+0:05:47.704,000 --> 0:05:48,000
+It takes a deep empathy.
+
+117
+0:05:49.95,000 --> 0:05:53,000
+It also takes the ability to distill human experience into meaningful insights
+
+118
+0:05:54.744,000 --> 0:05:57,000
+and then into haptic gestures and products.
+
+119
+0:05:59.133,000 --> 0:06:01,000
+Haptic design is going to expand the human ability
+
+120
+0:06:01.918,000 --> 0:06:03,000
+to sense and respond to our environments,
+
+121
+0:06:04.117,000 --> 0:06:05,000
+both physical and virtual.
+
+122
+0:06:06.292,000 --> 0:06:08,000
+There's a new frontier: touch.
+
+123
+0:06:09.545,000 --> 0:06:12,000
+And it has the power to change how we all see the world around us.
+
+124
+0:06:13.325,000 --> 0:06:14,000
+Thank you.
+
+125
+0:06:14.531,000 --> 0:06:19,000
+(Applause)
+

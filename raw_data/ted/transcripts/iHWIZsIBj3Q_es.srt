@@ -1,0 +1,488 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Ciro Gomez Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:12.579,000 --> 0:00:15,000
+Quisiera demostrar por primera vez en público
+
+3
+0:00:16.048,000 --> 0:00:2,000
+que es posible transmitir un vídeo
+
+4
+0:00:20.143,000 --> 0:00:24,000
+desde una bombilla LED comercial estándar
+
+5
+0:00:24.476,000 --> 0:00:29,000
+a un panel solar con una computadora portátil que actúa como receptor.
+
+6
+0:00:30.478,000 --> 0:00:32,000
+No hay Wi-Fi involucrado, es solo luz.
+
+7
+0:00:33.093,000 --> 0:00:35,000
+Y pueden preguntarse, ¿cuál es la razón?
+
+8
+0:00:35.951,000 --> 0:00:36,000
+Y la razón es es que
+
+9
+0:00:38.249,000 --> 0:00:4,000
+habrá una extensión masiva de Internet
+
+10
+0:00:41.099,000 --> 0:00:43,000
+para cerrar la brecha digital,
+
+11
+0:00:43.933,000 --> 0:00:46,000
+y para permitir lo que llamamos "El Internet de las cosas"
+
+12
+0:00:47.918,000 --> 0:00:5,000
+--decenas de miles de millones de dispositivos conectados a Internet--.
+
+13
+0:00:51.328,000 --> 0:00:55,000
+En mi opinión, una extensión de Internet solo puede funcionar
+
+14
+0:00:55.383,000 --> 0:00:57,000
+si es casi energéticamente neutral.
+
+15
+0:00:58.173,000 --> 0:01:02,000
+Lo que significa usar la infraestructura existente tanto como sea posible.
+
+16
+0:01:03.377,000 --> 0:01:08,000
+Y aquí es donde la célula solar y el LED intervienen.
+
+17
+0:01:08.829,000 --> 0:01:1,000
+Demostré por primera vez,
+
+18
+0:01:11.301,000 --> 0:01:12,000
+en TED en 2011,
+
+19
+0:01:13.29,000 --> 0:01:14,000
+la Li-Fi o fidelidad de luz.
+
+20
+0:01:15.781,000 --> 0:01:2,000
+La Li-Fi utiliza LEDs comerciales para transmitir datos increíblemente rápido,
+
+21
+0:01:21.8,000 --> 0:01:23,000
+y también en una manera segura y protegida.
+
+22
+0:01:25.402,000 --> 0:01:27,000
+Los datos se transportan por la luz,
+
+23
+0:01:28.307,000 --> 0:01:31,000
+codificados en cambios sutiles del brillo.
+
+24
+0:01:32.39,000 --> 0:01:35,000
+Si miramos a nuestro alrededor, tenemos muchos LEDs que nos rodean,
+
+25
+0:01:35.978,000 --> 0:01:39,000
+así que hay una rica infraestructura de transmisores Li-Fi que nos rodea.
+
+26
+0:01:41.393,000 --> 0:01:46,000
+Pero hasta ahora, usamos dispositivos especiales, pequeños detectores de fotos,
+
+27
+0:01:46.656,000 --> 0:01:49,000
+para recibir la información codificada en los datos.
+
+28
+0:01:50.94,000 --> 0:01:53,000
+Yo quería encontrar una manera de usar también la infraestructura existente
+
+29
+0:01:54.856,000 --> 0:01:57,000
+para recibir los datos de nuestras luces Li-Fi.
+
+30
+0:01:58.426,000 --> 0:02:02,000
+Y es por eso que he estado buscando en las células solares y paneles solares.
+
+31
+0:02:03.016,000 --> 0:02:08,000
+Un panel solar absorbe la luz y la convierte en energía eléctrica.
+
+32
+0:02:08.549,000 --> 0:02:12,000
+Por eso podemos utilizar un panel solar para cargar nuestro teléfono móvil.
+
+33
+0:02:13.559,000 --> 0:02:14,000
+Pero recordemos
+
+34
+0:02:14.989,000 --> 0:02:2,000
+que los datos se codifican en cambios sutiles del brillo del LED,
+
+35
+0:02:21.244,000 --> 0:02:24,000
+por lo que si la luz entrante fluctúa,
+
+36
+0:02:24.617,000 --> 0:02:26,000
+también lo hace la energía obtenida de la célula solar.
+
+37
+0:02:28.579,000 --> 0:02:31,000
+Esto significa que tenemos un mecanismo principal allí
+
+38
+0:02:32.112,000 --> 0:02:38,000
+para recibir información de la luz y por el panel solar,
+
+39
+0:02:38.246,000 --> 0:02:4,000
+porque las fluctuaciones de la energía recolectada
+
+40
+0:02:41.045,000 --> 0:02:43,000
+corresponden a los datos transmitidos.
+
+41
+0:02:43.934,000 --> 0:02:45,000
+Por supuesto, la pregunta es:
+
+42
+0:02:46.084,000 --> 0:02:5,000
+¿podemos recibir los cambios muy rápidos y sutiles de la luminosidad,
+
+43
+0:02:50.268,000 --> 0:02:53,000
+como los transmitidos por nuestras luces LED?
+
+44
+0:02:54.641,000 --> 0:02:57,000
+Y la respuesta a eso es sí, sí podemos.
+
+45
+0:02:58.637,000 --> 0:02:59,000
+Hemos demostrado en el laboratorio
+
+46
+0:03:00.44,000 --> 0:03:03,000
+que podemos recibir hasta 50 megabytes por segundo
+
+47
+0:03:03.946,000 --> 0:03:05,000
+de un panel solar comercial estándar.
+
+48
+0:03:06.921,000 --> 0:03:09,000
+Más rápido que la mayoría de las conexiones de banda ancha actuales.
+
+49
+0:03:11.437,000 --> 0:03:14,000
+Ahora déjenme mostrárselos en la práctica.
+
+50
+0:03:17.095,000 --> 0:03:21,000
+En esta caja hay una lámpara LED comercial estándar.
+
+51
+0:03:23.193,000 --> 0:03:25,000
+Este es un panel solar comercial estándar;
+
+52
+0:03:25.792,000 --> 0:03:27,000
+está conectado a la computadora portátil.
+
+53
+0:03:28.949,000 --> 0:03:3,000
+Y también tenemos un instrumento aquí
+
+54
+0:03:31.293,000 --> 0:03:34,000
+para visualizar la energía que recolectamos del panel solar.
+
+55
+0:03:35.095,000 --> 0:03:37,000
+Este instrumento muestra algo en este momento.
+
+56
+0:03:37.917,000 --> 0:03:41,000
+Esto se debe a que el panel solar ya recolecta luz de la luz ambiente.
+
+57
+0:03:43.102,000 --> 0:03:45,000
+Ahora lo que me gustaría hacer primero es encender la luz,
+
+58
+0:03:45.966,000 --> 0:03:47,000
+y simplemente voy, solo enciendo la luz,
+
+59
+0:03:48.096,000 --> 0:03:5,000
+por un momento,
+
+60
+0:03:50.228,000 --> 0:03:53,000
+y lo que notarán es que el instrumento salta a la derecha.
+
+61
+0:03:54.714,000 --> 0:03:55,000
+El panel solar, por el momento,
+
+62
+0:03:56.618,000 --> 0:03:59,000
+está recolectando energía a partir de esta fuente de luz artificial.
+
+63
+0:04:00.54,000 --> 0:04:03,000
+Si lo apago, vemos que baja.
+
+64
+0:04:03.842,000 --> 0:04:04,000
+Lo enciendo...
+
+65
+0:04:05.049,000 --> 0:04:07,000
+Así que recolectamos energía con el panel solar.
+
+66
+0:04:08.586,000 --> 0:04:13,000
+Pero a continuación me gustaría activar la transmisión del video.
+
+67
+0:04:15.238,000 --> 0:04:17,000
+Y lo hago presionando este botón.
+
+68
+0:04:17.766,000 --> 0:04:21,000
+Así que ahora esta lámpara LED aquí está transmitiendo un video
+
+69
+0:04:22.513,000 --> 0:04:26,000
+cambiando el brillo del LED de una manera muy sutil,
+
+70
+0:04:26.669,000 --> 0:04:28,000
+de una manera indetectable a simple vista,
+
+71
+0:04:29.19,000 --> 0:04:32,000
+porque los cambios son demasiado rápidos para reconocerlos.
+
+72
+0:04:33.384,000 --> 0:04:35,000
+Pero con el fin de probar el punto,
+
+73
+0:04:35.807,000 --> 0:04:38,000
+puedo bloquear la luz de la célula solar.
+
+74
+0:04:40.087,000 --> 0:04:43,000
+Así que primero se nota es que la recolección de energía cae
+
+75
+0:04:43.334,000 --> 0:04:44,000
+y el video se detiene también.
+
+76
+0:04:45.05,000 --> 0:04:48,000
+Si quito el bloqueo, el video se reiniciará.
+
+77
+0:04:49.357,000 --> 0:04:55,000
+(Aplausos)
+
+78
+0:04:55.61,000 --> 0:04:57,000
+Y puedo repetirlo.
+
+79
+0:04:57.967,000 --> 0:05:02,000
+Así que detenemos la transmisión del vídeo y la recolección de energía también.
+
+80
+0:05:03.242,000 --> 0:05:07,000
+Así demostramos que el panel solar actúa como un receptor.
+
+81
+0:05:08.079,000 --> 0:05:13,000
+Pero ahora imaginen que esta lámpara LED es una luz de la calle, y hay niebla.
+
+82
+0:05:14.106,000 --> 0:05:16,000
+Quiero para simular niebla,
+
+83
+0:05:16.433,000 --> 0:05:18,000
+y por eso he traído un pañuelo conmigo.
+
+84
+0:05:19.2,000 --> 0:05:2,000
+(Risas)
+
+85
+0:05:20.656,000 --> 0:05:23,000
+Y déjenme poner el pañuelo sobre el panel solar.
+
+86
+0:05:25.905,000 --> 0:05:26,000
+En primer lugar notan
+
+87
+0:05:27.557,000 --> 0:05:31,000
+que la energía recolectada cae, como se esperaba,
+
+88
+0:05:31.778,000 --> 0:05:33,000
+pero ahora el video aún continúa.
+
+89
+0:05:34.769,000 --> 0:05:36,000
+Esto significa, que a pesar de la obstrucción,
+
+90
+0:05:37.412,000 --> 0:05:4,000
+hay suficiente luz que entra por el pañuelo al panel solar,
+
+91
+0:05:41.317,000 --> 0:05:46,000
+de manera que el panel solar puede descodificar y transmitir esa información,
+
+92
+0:05:46.856,000 --> 0:05:49,000
+en este caso, un vídeo de alta definición.
+
+93
+0:05:51.04,000 --> 0:05:56,000
+Lo que realmente importante aquí es que un panel solar se convirtió en un receptor
+
+94
+0:05:56.627,000 --> 0:05:59,000
+para señales inalámbricas de alta velocidad codificadas en la luz,
+
+95
+0:06:00.466,000 --> 0:06:04,000
+mientras se mantiene su función principal de recolección de energía.
+
+96
+0:06:05.872,000 --> 0:06:07,000
+Por eso es posible
+
+97
+0:06:08.315,000 --> 0:06:11,000
+utilizar paneles solares existentes en el techo de una choza
+
+98
+0:06:12.196,000 --> 0:06:14,000
+para actuar como un receptores de banda ancha
+
+99
+0:06:14.713,000 --> 0:06:18,000
+desde una estación de láser cerca en una colina, o de hecho, en un poste de luz.
+
+100
+0:06:19.605,000 --> 0:06:22,000
+Y realmente no importa dónde el rayo golpea el panel solar.
+
+101
+0:06:23.647,000 --> 0:06:24,000
+Y lo mismo es cierto
+
+102
+0:06:24.849,000 --> 0:06:27,000
+para los paneles solares translúcidos integradas en las ventanas,
+
+103
+0:06:28.666,000 --> 0:06:31,000
+paneles solares integrados en el mobiliario urbano,
+
+104
+0:06:32.222,000 --> 0:06:36,000
+o, de hecho, paneles solares integrados en estos miles de millones de dispositivos
+
+105
+0:06:36.789,000 --> 0:06:38,000
+que formarán el Internet de las Cosas.
+
+106
+0:06:38.889,000 --> 0:06:39,000
+Porque simplemente,
+
+107
+0:06:40.071,000 --> 0:06:42,000
+no queremos cargar estos dispositivos regularmente,
+
+108
+0:06:42.586,000 --> 0:06:44,000
+o peor, reemplazar las baterías cada pocos meses.
+
+109
+0:06:46.418,000 --> 0:06:47,000
+Como les dije,
+
+110
+0:06:48.172,000 --> 0:06:5,000
+esta es la primera vez que he mostrado esto en público.
+
+111
+0:06:50.514,000 --> 0:06:52,000
+Es una demostración de laboratorio,
+
+112
+0:06:52.593,000 --> 0:06:53,000
+un prototipo.
+
+113
+0:06:54.276,000 --> 0:06:57,000
+Pero mi equipo y yo estamos seguros de que podemos lanzarlo al mercado
+
+114
+0:06:57.783,000 --> 0:06:58,000
+en los los próximos 2 - 3 años.
+
+115
+0:07:00.251,000 --> 0:07:05,000
+Y esperamos poder contribuir a cerrar la brecha digital,
+
+116
+0:07:05.398,000 --> 0:07:06,000
+y contribuir también
+
+117
+0:07:06.67,000 --> 0:07:09,000
+a la conexión de todos estos miles de millones de dispositivos a Internet.
+
+118
+0:07:10.37,000 --> 0:07:11,000
+Y todo esto sin causar
+
+119
+0:07:11.919,000 --> 0:07:13,000
+una explosión masiva del consumo de energía,
+
+120
+0:07:14.035,000 --> 0:07:17,000
+sino lo contrario por los paneles solares,
+
+121
+0:07:17.167,000 --> 0:07:17,000
+Gracias.
+
+122
+0:07:18.278,000 --> 0:07:22,000
+(Aplausos)
+

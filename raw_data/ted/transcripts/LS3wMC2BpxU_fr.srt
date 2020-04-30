@@ -1,0 +1,1272 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Louis-Philippe Thouin Relecteur: Jerome Faul
+
+2
+0:00:18.33,000 --> 0:00:21,000
+Notre mission est de construire
+
+3
+0:00:21.33,000 --> 0:00:23,000
+de façon détaillée et réaliste,
+
+4
+0:00:23.33,000 --> 0:00:25,000
+un modèle informatique du cerveau humain.
+
+5
+0:00:25.33,000 --> 0:00:28,000
+Nous avons déjà réalisé, depuis 4 ans,
+
+6
+0:00:28.33,000 --> 0:00:3,000
+une démonstration de faisabilité
+
+7
+0:00:30.33,000 --> 0:00:33,000
+sur une petite partie d'un cerveau de rongeur
+
+8
+0:00:33.33,000 --> 0:00:36,000
+et, avec cette démonstration de faisabilité, nous faisons une mise en échelle
+
+9
+0:00:36.33,000 --> 0:00:39,000
+pour atteindre le cerveau humain.
+
+10
+0:00:39.33,000 --> 0:00:41,000
+Pourquoi faisons-nous cela ?
+
+11
+0:00:41.33,000 --> 0:00:43,000
+Il y a 3 raisons importantes.
+
+12
+0:00:43.33,000 --> 0:00:47,000
+La première est qu'il est essentiel pour nous de comprendre le cerveau humain
+
+13
+0:00:47.33,000 --> 0:00:49,000
+si nous voulons cohabiter harmonieusement en société,
+
+14
+0:00:49.33,000 --> 0:00:53,000
+et je crois qu'il s'agit d'une étape clé de l'évolution.
+
+15
+0:00:53.33,000 --> 0:00:55,000
+La deuxième raison est
+
+16
+0:00:55.33,000 --> 0:01:01,000
+que nous ne pouvons pas continuer à expérimenter sur des animaux éternellement.
+
+17
+0:01:01.33,000 --> 0:01:05,000
+Nous devons donc réunir toutes nos données et toute notre connaissance
+
+18
+0:01:05.33,000 --> 0:01:08,000
+dans un modèle fonctionnel.
+
+19
+0:01:08.33,000 --> 0:01:12,000
+C'est comme l'Arche de Noé. C'est une sorte d'archive.
+
+20
+0:01:12.33,000 --> 0:01:15,000
+La troisième raison, c'est qu'il y a deux milliards de personnes sur la planète
+
+21
+0:01:15.33,000 --> 0:01:19,000
+qui sont atteintes d'un trouble mental
+
+22
+0:01:19.33,000 --> 0:01:21,000
+et que les drogues que nous utilisons présentement
+
+23
+0:01:21.33,000 --> 0:01:23,000
+sont en grande partie empiriques.
+
+24
+0:01:23.33,000 --> 0:01:26,000
+Je crois qu'on peut en arriver à des solutions très concrètes
+
+25
+0:01:26.33,000 --> 0:01:29,000
+sur comment traiter ces troubles.
+
+26
+0:01:29.33,000 --> 0:01:32,000
+Présentement, nous pouvons déjà
+
+27
+0:01:32.33,000 --> 0:01:34,000
+utiliser le modèle du cerveau
+
+28
+0:01:34.33,000 --> 0:01:37,000
+pour explorer des questions fondamentales
+
+29
+0:01:37.33,000 --> 0:01:39,000
+sur le fonctionnement du cerveau.
+
+30
+0:01:39.33,000 --> 0:01:41,000
+Et ici, chez TED, pour la première fois,
+
+31
+0:01:41.33,000 --> 0:01:43,000
+j'aimerais partager avec vous notre approche
+
+32
+0:01:43.33,000 --> 0:01:46,000
+d'une théorie -- et il y a plusieurs théories --
+
+33
+0:01:46.33,000 --> 0:01:5,000
+sur comment fonctionne le cerveau.
+
+34
+0:01:50.33,000 --> 0:01:54,000
+Alors, cette théorie stipule que le cerveau
+
+35
+0:01:54.33,000 --> 0:02:,000
+crée, construit, une version de l'Univers.
+
+36
+0:02:00.33,000 --> 0:02:03,000
+Et projette cette version de l'Univers,
+
+37
+0:02:03.33,000 --> 0:02:07,000
+comme une bulle, tout autour de nous.
+
+38
+0:02:07.33,000 --> 0:02:11,000
+Il s'agit évidemment d'un sujet de débat philosophique depuis des siècles.
+
+39
+0:02:11.33,000 --> 0:02:14,000
+Mais, pour la première fois, nous pouvons aborder ceci
+
+40
+0:02:14.33,000 --> 0:02:16,000
+avec une simulation du cerveau
+
+41
+0:02:16.33,000 --> 0:02:2,000
+et poser des questions rigoureuses et systématiques,
+
+42
+0:02:20.33,000 --> 0:02:24,000
+à savoir si cette théorie peut s'avérer vraie.
+
+43
+0:02:24.33,000 --> 0:02:27,000
+La raison pour laquelle la Lune apparaît immense sur l'horizon,
+
+44
+0:02:27.33,000 --> 0:02:3,000
+c'est simplement que notre bulle perceptive
+
+45
+0:02:30.33,000 --> 0:02:34,000
+ne s'étend pas jusqu'à 380 000 kilomètres.
+
+46
+0:02:34.33,000 --> 0:02:36,000
+Elle manque d'espace.
+
+47
+0:02:36.33,000 --> 0:02:4,000
+Ce que nous faisons, c'est que nous comparons les édifices
+
+48
+0:02:40.33,000 --> 0:02:42,000
+situés à l'intérieur de notre bulle perceptive,
+
+49
+0:02:42.33,000 --> 0:02:44,000
+et nous prenons une décision.
+
+50
+0:02:44.33,000 --> 0:02:46,000
+Nous décidons qu'elle est aussi grosse,
+
+51
+0:02:46.33,000 --> 0:02:48,000
+même si elle n'est pas aussi grosse,
+
+52
+0:02:48.33,000 --> 0:02:5,000
+et ce que ceci illustre
+
+53
+0:02:50.33,000 --> 0:02:52,000
+que les décisions sont les éléments clés
+
+54
+0:02:52.33,000 --> 0:02:57,000
+qui supportent notre bulle perceptive. Ça la garde en vie.
+
+55
+0:02:57.33,000 --> 0:02:59,000
+Sans décisions vous ne pouvez voir, vous ne pouvez penser,
+
+56
+0:02:59.33,000 --> 0:03:01,000
+vous ne pouvez ressentir.
+
+57
+0:03:01.33,000 --> 0:03:03,000
+Et vous pouvez penser que les anesthésiques fonctionnent
+
+58
+0:03:03.33,000 --> 0:03:06,000
+en vous plongeant dans une sorte de sommeil profond,
+
+59
+0:03:06.33,000 --> 0:03:09,000
+ou en bloquant vos récepteurs pour empêcher de sentir la douleur
+
+60
+0:03:09.33,000 --> 0:03:12,000
+mais en fait la plupart des anesthésiques ne fonctionnent pas de cette façon.
+
+61
+0:03:12.33,000 --> 0:03:15,000
+Ce qu'ils font c'est introduire un bruit
+
+62
+0:03:15.33,000 --> 0:03:18,000
+dans le cerveau, empêchant les neurones de se comprendre.
+
+63
+0:03:18.33,000 --> 0:03:2,000
+Ils sont déroutés
+
+64
+0:03:20.33,000 --> 0:03:23,000
+et vous ne pouvez plus prendre une décision.
+
+65
+0:03:23.33,000 --> 0:03:26,000
+De sorte que, pendant que vous êtes en train de vous faire une idée de
+
+66
+0:03:26.33,000 --> 0:03:28,000
+ce que le médecin, le chirurgien, est en train de faire
+
+67
+0:03:28.33,000 --> 0:03:3,000
+alors qu'il entaille votre corps, il vagabonde ailleurs.
+
+68
+0:03:30.33,000 --> 0:03:32,000
+Il est chez lui en train de prendre le thé.
+
+69
+0:03:32.33,000 --> 0:03:34,000
+(Rires)
+
+70
+0:03:34.33,000 --> 0:03:37,000
+Ainsi, lorsque vous marchez vers une porte et que vous l'ouvrez,
+
+71
+0:03:37.33,000 --> 0:03:4,000
+ce que vous faites de façon irrépressible afin de percevoir,
+
+72
+0:03:40.33,000 --> 0:03:42,000
+c'est de prendre des décisions,
+
+73
+0:03:42.33,000 --> 0:03:45,000
+des milliers de décisions sur les dimensions de la pièce,
+
+74
+0:03:45.33,000 --> 0:03:48,000
+le mur, la hauteur, les objets dans cette pièce.
+
+75
+0:03:48.33,000 --> 0:03:51,000
+99% de ce que vous voyez
+
+76
+0:03:51.33,000 --> 0:03:55,000
+n'est pas ce qui traverse vos yeux.
+
+77
+0:03:55.33,000 --> 0:03:59,000
+C'est ce que vous déduisez par inférence au sujet de cette pièce.
+
+78
+0:03:59.33,000 --> 0:04:03,000
+De sorte que je puis dire, avec une certaine certitude,
+
+79
+0:04:03.33,000 --> 0:04:06,000
+"Je pense donc je suis."
+
+80
+0:04:06.33,000 --> 0:04:1,000
+mais je ne puis pas dire "Vous pensez, donc vous êtes"
+
+81
+0:04:10.33,000 --> 0:04:15,000
+parce que vous êtes à l'intérieur de ma bulle perceptive.
+
+82
+0:04:15.33,000 --> 0:04:18,000
+Bien sûr, nous pourrions spéculer et philosopher là-dessus,
+
+83
+0:04:18.33,000 --> 0:04:21,000
+durant les100 prochaines années, mais nous n'y sommes pas obligés.
+
+84
+0:04:21.33,000 --> 0:04:23,000
+Nous pouvons poser une question bien concrète.
+
+85
+0:04:23.33,000 --> 0:04:27,000
+Le cerveau peut-il construire une telle perception ?
+
+86
+0:04:27.33,000 --> 0:04:29,000
+Est-il capable de faire cela ?
+
+87
+0:04:29.33,000 --> 0:04:31,000
+Possède-t-il la matière pour faire cela ?
+
+88
+0:04:31.33,000 --> 0:04:34,000
+Et c'est ce que je vais vous décrire aujourd'hui.
+
+89
+0:04:34.33,000 --> 0:04:38,000
+Ca a pris à l'univers 11 milliards d'années pour construire le cerveau.
+
+90
+0:04:38.33,000 --> 0:04:4,000
+Il a fallu l'améliorer un peu.
+
+91
+0:04:40.33,000 --> 0:04:43,000
+Il a fallu ajouter la partie frontale, nous permettant d'avoir des instincts
+
+92
+0:04:43.33,000 --> 0:04:46,000
+car il fallait faire face aux situations sur la terre ferme.
+
+93
+0:04:46.33,000 --> 0:04:5,000
+Mais la vraie grande avancée fut le néocortex.
+
+94
+0:04:50.33,000 --> 0:04:52,000
+C'est un nouveau cerveau. Vous en aviez besoin.
+
+95
+0:04:52.33,000 --> 0:04:54,000
+Les mammifères en avaient besoin
+
+96
+0:04:54.33,000 --> 0:04:58,000
+parce qu'ils devaient s'occuper d'être parents,
+
+97
+0:04:58.33,000 --> 0:05:,000
+d'interactions sociales,
+
+98
+0:05:00.33,000 --> 0:05:03,000
+de fonctions cognitives complexes.
+
+99
+0:05:03.33,000 --> 0:05:05,000
+De sorte que vous pouvez penser au néocortex
+
+100
+0:05:05.33,000 --> 0:05:1,000
+comme étant l'ultime solution aujourd'hui
+
+101
+0:05:10.33,000 --> 0:05:13,000
+de l'univers tel que nous le connaissons.
+
+102
+0:05:13.33,000 --> 0:05:15,000
+C'est le pinacle, c'est la production finale
+
+103
+0:05:15.33,000 --> 0:05:19,000
+que l'univers a produit.
+
+104
+0:05:19.33,000 --> 0:05:21,000
+Il a si bien réussi dans l'évolution
+
+105
+0:05:21.33,000 --> 0:05:23,000
+que, de la souris à l'homme, il s'est agrandi
+
+106
+0:05:23.33,000 --> 0:05:26,000
+environ mille fois en termes de nombre de neurones,
+
+107
+0:05:26.33,000 --> 0:05:29,000
+pour produire ce quasiment effrayant
+
+108
+0:05:29.33,000 --> 0:05:32,000
+organe, cette structure.
+
+109
+0:05:32.33,000 --> 0:05:35,000
+Il n'a pas arrêté sa trajectoire évolutive.
+
+110
+0:05:35.33,000 --> 0:05:37,000
+En fait, le néocortex du cerveau humain
+
+111
+0:05:37.33,000 --> 0:05:4,000
+évolue à une immense vitesse.
+
+112
+0:05:40.33,000 --> 0:05:42,000
+Si vous zoomez à la surface du néocortex,
+
+113
+0:05:42.33,000 --> 0:05:45,000
+vous découvrez qu'il est fait de petits modules,
+
+114
+0:05:45.33,000 --> 0:05:47,000
+des processeurs G5, comme dans un ordinateur.
+
+115
+0:05:47.33,000 --> 0:05:5,000
+Mais il y a environ un million de ces processeurs.
+
+116
+0:05:50.33,000 --> 0:05:52,000
+Ils ont eu tellement de succès dans l'évolution
+
+117
+0:05:52.33,000 --> 0:05:54,000
+que nous nous sommes mis à les dupliquer
+
+118
+0:05:54.33,000 --> 0:05:56,000
+maintes et maintes fois et à en ajouter de plus en plus au cerveau
+
+119
+0:05:56.33,000 --> 0:05:59,000
+jusqu'à ce que nous épuisions l'espace dans le crâne.
+
+120
+0:05:59.33,000 --> 0:06:01,000
+Le cerveau a commencé à se replier sur lui-même,
+
+121
+0:06:01.33,000 --> 0:06:04,000
+et c'est pourquoi le néocortex est si hautement tarabiscoté.
+
+122
+0:06:04.33,000 --> 0:06:06,000
+Nous ne faisons qu'empiler des colonnes
+
+123
+0:06:06.33,000 --> 0:06:09,000
+de façon à avoir encore plus de colonnes néocorticales
+
+124
+0:06:09.33,000 --> 0:06:12,000
+afin d'exécuter des fonctions plus complexes.
+
+125
+0:06:12.33,000 --> 0:06:14,000
+De sorte que vous pouvez penser au néocortex comme étant
+
+126
+0:06:14.33,000 --> 0:06:16,000
+un énorme piano à queue,
+
+127
+0:06:16.33,000 --> 0:06:19,000
+un piano à queue ayant un million de touches.
+
+128
+0:06:19.33,000 --> 0:06:21,000
+Chacune de ces colonnes néocorticales
+
+129
+0:06:21.33,000 --> 0:06:23,000
+produirait une note.
+
+130
+0:06:23.33,000 --> 0:06:26,000
+Vous le stimulez ; il produit une symphonie.
+
+131
+0:06:26.33,000 --> 0:06:29,000
+Mais il ne s'agit pas seulement d'une symphonie de perception.
+
+132
+0:06:29.33,000 --> 0:06:32,000
+C'est une symphonie de votre univers, c'est votre réalité.
+
+133
+0:06:32.33,000 --> 0:06:35,000
+Mais, bien sûr, cela prend des années pour apprendre
+
+134
+0:06:35.33,000 --> 0:06:38,000
+à maîtriser un piano à queue d'un million de touches.
+
+135
+0:06:38.33,000 --> 0:06:4,000
+C'est pourquoi vous devez envoyer vos enfants à de bonnes écoles,
+
+136
+0:06:40.33,000 --> 0:06:42,000
+espérant finalement Oxford.
+
+137
+0:06:42.33,000 --> 0:06:45,000
+Mais il ne s'agit pas seulement d'éducation.
+
+138
+0:06:45.33,000 --> 0:06:47,000
+Il y a aussi de la génétique.
+
+139
+0:06:47.33,000 --> 0:06:49,000
+Vous pouvez être né chanceux,
+
+140
+0:06:49.33,000 --> 0:06:53,000
+ou vous savez comment maîtriser votre colonne néocorticale,
+
+141
+0:06:53.33,000 --> 0:06:55,000
+et vous savez comment jouer une symphonie fantastique.
+
+142
+0:06:55.33,000 --> 0:06:58,000
+En fait, il y a une nouvelle théorie de l'autisme
+
+143
+0:06:58.33,000 --> 0:07:,000
+nommée la théorie du "monde intense",
+
+144
+0:07:00.33,000 --> 0:07:04,000
+qui suggère que les colonnes néocorticales sont des supercolonnes.
+
+145
+0:07:04.33,000 --> 0:07:08,000
+Elles sont hautement réactives, et elles sont super-plastiques,
+
+146
+0:07:08.33,000 --> 0:07:11,000
+de sorte que les autistes sont probablement capables
+
+147
+0:07:11.33,000 --> 0:07:13,000
+de construire et d'apprendre une symphonie
+
+148
+0:07:13.33,000 --> 0:07:15,000
+qui serait impensable pour nous.
+
+149
+0:07:15.33,000 --> 0:07:17,000
+Vous pouvez aussi comprendre
+
+150
+0:07:17.33,000 --> 0:07:19,000
+que si vous avez une maladie
+
+151
+0:07:19.33,000 --> 0:07:21,000
+à l'intérieur d'une de ces colonnes,
+
+152
+0:07:21.33,000 --> 0:07:23,000
+que la note sonnera faux.
+
+153
+0:07:23.33,000 --> 0:07:25,000
+La perception, la symphonie que vous créez
+
+154
+0:07:25.33,000 --> 0:07:27,000
+sera donc corrompue
+
+155
+0:07:27.33,000 --> 0:07:3,000
+et vous manifesterez des symptômes de maladies.
+
+156
+0:07:30.33,000 --> 0:07:34,000
+Ainsi, le Saint-Graal de la neuroscience
+
+157
+0:07:34.33,000 --> 0:07:38,000
+est vraiment de comprendre le design de la colonne néocorticale --
+
+158
+0:07:38.33,000 --> 0:07:4,000
+et ce n'est pas seulement pour les neurosciences ;
+
+159
+0:07:40.33,000 --> 0:07:43,000
+c'est peut-être pour comprendre la perception, pour comprendre la réalité,
+
+160
+0:07:43.33,000 --> 0:07:47,000
+et peut-être même aussi pour comprendre la réalité physique.
+
+161
+0:07:47.33,000 --> 0:07:5,000
+Bref, ce que nous avons fait, durant les dernières 15 années,
+
+162
+0:07:50.33,000 --> 0:07:54,000
+fut de disséquer le néocortex, systématiquement.
+
+163
+0:07:54.33,000 --> 0:07:58,000
+C'est un peu comme si on allait cataloguer une partie de la forêt tropicale.
+
+164
+0:07:58.33,000 --> 0:08:,000
+Combien d'arbres y a-t-il ?
+
+165
+0:08:00.33,000 --> 0:08:02,000
+Quelles formes ont ces arbres ?
+
+166
+0:08:02.33,000 --> 0:08:05,000
+Combien de chaque type d'arbres avons-nous ? Où sont-ils situés ?
+
+167
+0:08:05.33,000 --> 0:08:07,000
+C'est un peu plus qu'un simple catalogage car vous devez en réalité
+
+168
+0:08:07.33,000 --> 0:08:11,000
+décrire et découvrir toutes les règles de communication,
+
+169
+0:08:11.33,000 --> 0:08:13,000
+les règles de connectivité,
+
+170
+0:08:13.33,000 --> 0:08:16,000
+car les neurones n'aiment pas simplement s'interconnecter avec tout neurone.
+
+171
+0:08:16.33,000 --> 0:08:19,000
+Ils choisissent soigneusement avec lesquels ils se connectent.
+
+172
+0:08:19.33,000 --> 0:08:22,000
+C'est aussi plus qu'un catalogage
+
+173
+0:08:22.33,000 --> 0:08:24,000
+parce que vous devez en fait construire en trois dimensions
+
+174
+0:08:24.33,000 --> 0:08:26,000
+des modèles numériques de neurones.
+
+175
+0:08:26.33,000 --> 0:08:28,000
+Nous avons fait cela pour des dizaines de milliers de neurones,
+
+176
+0:08:28.33,000 --> 0:08:31,000
+bâtissant des modèles numériques de chaque différent type
+
+177
+0:08:31.33,000 --> 0:08:33,000
+de neurone que nous avons rencontrés.
+
+178
+0:08:33.33,000 --> 0:08:35,000
+Et une fois que vous avez fait cela, vous pouvez vraiment
+
+179
+0:08:35.33,000 --> 0:08:39,000
+entreprendre la construction de la colonne néocorticale.
+
+180
+0:08:39.33,000 --> 0:08:42,000
+Et ici nous sommes en train de les assembler.
+
+181
+0:08:42.33,000 --> 0:08:45,000
+Ce faisant, ce que nous voyons,
+
+182
+0:08:45.33,000 --> 0:08:47,000
+c'est que les branches sont intersectées
+
+183
+0:08:47.33,000 --> 0:08:5,000
+en fait à des millions d'emplacements,
+
+184
+0:08:50.33,000 --> 0:08:53,000
+et qu'à chacune de ces intersections
+
+185
+0:08:53.33,000 --> 0:08:55,000
+elles peuvent former une synapse.
+
+186
+0:08:55.33,000 --> 0:08:57,000
+Une synapse est un emplacement chimique
+
+187
+0:08:57.33,000 --> 0:09:,000
+où ils communiquent entre eux.
+
+188
+0:09:00.33,000 --> 0:09:02,000
+Et, ensemble, ces synapses
+
+189
+0:09:02.33,000 --> 0:09:04,000
+forment le réseau
+
+190
+0:09:04.33,000 --> 0:09:07,000
+ou le circuit du cerveau.
+
+191
+0:09:07.33,000 --> 0:09:11,000
+Le circuit, vous pouvez ausi le voir comme
+
+192
+0:09:11.33,000 --> 0:09:13,000
+le tissu du cerveau.
+
+193
+0:09:13.33,000 --> 0:09:16,000
+Lorsque vous pensez au tissu du cerveau,
+
+194
+0:09:16.33,000 --> 0:09:2,000
+la structure, comment est-elle faite ? Quel est le patron du tapis ?
+
+195
+0:09:20.33,000 --> 0:09:22,000
+Vous réalisez que ceci pose
+
+196
+0:09:22.33,000 --> 0:09:26,000
+un défi fondamental à toute théorie du cerveau
+
+197
+0:09:26.33,000 --> 0:09:28,000
+et en particulier à une théorie affirmant
+
+198
+0:09:28.33,000 --> 0:09:3,000
+qu'il y a une sorte de réalité qui émerge
+
+199
+0:09:30.33,000 --> 0:09:33,000
+de ce tapis, de ce tapis particulier
+
+200
+0:09:33.33,000 --> 0:09:35,000
+avec son patron particulier.
+
+201
+0:09:35.33,000 --> 0:09:38,000
+La raison est que le plus important secret de design du cerveau
+
+202
+0:09:38.33,000 --> 0:09:4,000
+est sa diversité.
+
+203
+0:09:40.33,000 --> 0:09:42,000
+Chaque neurone est différent.
+
+204
+0:09:42.33,000 --> 0:09:44,000
+C'est la même chose dans la forêt. Chaque pin est différent.
+
+205
+0:09:44.33,000 --> 0:09:46,000
+Vous pouvez avoir plusieurs différents types d'arbres
+
+206
+0:09:46.33,000 --> 0:09:49,000
+mais chaque pin est différent. Et dans le cerveau ,c'est pareil.
+
+207
+0:09:49.33,000 --> 0:09:52,000
+Il n'y a donc aucun neurone dans mon cerveau qui soit identique à un autre,
+
+208
+0:09:52.33,000 --> 0:09:55,000
+et il n'y a aucun neurone dans mon cerveau identique à un dans le vôtre.
+
+209
+0:09:55.33,000 --> 0:09:58,000
+Vos neurones ne seront pas orientés et positionnés
+
+210
+0:09:58.33,000 --> 0:10:,000
+exactement de la même manière.
+
+211
+0:10:00.33,000 --> 0:10:02,000
+Vous aurez peut-être plus ou moins de neurones.
+
+212
+0:10:02.33,000 --> 0:10:04,000
+Il est donc très improbable
+
+213
+0:10:04.33,000 --> 0:10:08,000
+que vous ayez le même tissu, le même circuit.
+
+214
+0:10:08.33,000 --> 0:10:1,000
+Alors, comment pouvons-nous possiblement créer une réalité
+
+215
+0:10:10.33,000 --> 0:10:13,000
+nous permettant de nous comprendre l'un l'autre ?
+
+216
+0:10:13.33,000 --> 0:10:15,000
+Eh bien, nul besoin de spéculer.
+
+217
+0:10:15.33,000 --> 0:10:18,000
+Nous pouvons maintenant observer nos 10 millions de synapses.
+
+218
+0:10:18.33,000 --> 0:10:21,000
+Nous pouvons observer le tissu et nous pouvons changer les neurones.
+
+219
+0:10:21.33,000 --> 0:10:23,000
+Nous pouvons utiliser différents neurones avec différentes variations.
+
+220
+0:10:23.33,000 --> 0:10:25,000
+Nous pouvons les positionner à différents emplacements,
+
+221
+0:10:25.33,000 --> 0:10:27,000
+les orienter en différents emplacements.
+
+222
+0:10:27.33,000 --> 0:10:29,000
+Nous pouvons en utiliser plus ou moins.
+
+223
+0:10:29.33,000 --> 0:10:31,000
+Lorsque nous faisons cela,
+
+224
+0:10:31.33,000 --> 0:10:34,000
+ce que nous découvrons, c'est que le circuit change.
+
+225
+0:10:34.33,000 --> 0:10:41,000
+Mais que le patron du design du circuit ne change pas.
+
+226
+0:10:41.33,000 --> 0:10:43,000
+De sorte que, le tissu du cerveau,
+
+227
+0:10:43.33,000 --> 0:10:45,000
+quoique votre cerveau peut être plus petit, plus grand,
+
+228
+0:10:45.33,000 --> 0:10:48,000
+il peut avoir différents types de neurones,
+
+229
+0:10:48.33,000 --> 0:10:5,000
+différentes morphologies de neurones.
+
+230
+0:10:50.33,000 --> 0:10:53,000
+Nous partageons en effet
+
+231
+0:10:53.33,000 --> 0:10:55,000
+le même tissu.
+
+232
+0:10:55.33,000 --> 0:10:57,000
+Et nous croyons que ceci est spécifique à chaque espèce,
+
+233
+0:10:57.33,000 --> 0:10:59,000
+ce qui expliquerait pourquoi
+
+234
+0:10:59.33,000 --> 0:11:01,000
+nous ne pouvons communiquer d'une espèce à une autre.
+
+235
+0:11:01.33,000 --> 0:11:04,000
+Donc, mettons cela en marche. Mais pour l'allumer, vous devez
+
+236
+0:11:04.33,000 --> 0:11:06,000
+donner la vie à tout cela.
+
+237
+0:11:06.33,000 --> 0:11:08,000
+Nous rendons tout cela vivant
+
+238
+0:11:08.33,000 --> 0:11:1,000
+avec des équations, beaucoup de mathématiques.
+
+239
+0:11:10.33,000 --> 0:11:14,000
+En fait, les équations transformant les neurones en générateurs électriques
+
+240
+0:11:14.33,000 --> 0:11:17,000
+furent découvertes par deux prix Nobel de Cambridge.
+
+241
+0:11:17.33,000 --> 0:11:2,000
+Nous avons donc les mathématiques pour donner vie aux neurones.
+
+242
+0:11:20.33,000 --> 0:11:22,000
+Nous avons aussi les mathématiques décrivant
+
+243
+0:11:22.33,000 --> 0:11:25,000
+comment les neurones recueillent l'information
+
+244
+0:11:25.33,000 --> 0:11:28,000
+et comment ils créent un petit éclair
+
+245
+0:11:28.33,000 --> 0:11:3,000
+pour communiquer entre eux.
+
+246
+0:11:30.33,000 --> 0:11:32,000
+Lorsqu'ils arrivent à la synapse,
+
+247
+0:11:32.33,000 --> 0:11:34,000
+ce qu'ils font est d'effectivement,
+
+248
+0:11:34.33,000 --> 0:11:37,000
+littéralement, commotionner la synapse.
+
+249
+0:11:37.33,000 --> 0:11:39,000
+C'est comme un choc électrique
+
+250
+0:11:39.33,000 --> 0:11:42,000
+qui libère les produits chimiques de ces synapses.
+
+251
+0:11:42.33,000 --> 0:11:45,000
+Nous avons les mathématiques pour décrire ce processus.
+
+252
+0:11:45.33,000 --> 0:11:49,000
+Nous pouvons ainsi décrire la communication entre ces neurones.
+
+253
+0:11:49.33,000 --> 0:11:52,000
+Avec seulement une poignée d'équations,
+
+254
+0:11:52.33,000 --> 0:11:54,000
+vous pouvez simuler
+
+255
+0:11:54.33,000 --> 0:11:56,000
+l'activité du néocortex.
+
+256
+0:11:56.33,000 --> 0:11:59,000
+Mais vous avez surtout besoin d'un très gros ordinateur.
+
+257
+0:11:59.33,000 --> 0:12:01,000
+En fait, vous avez besoin d'un ordinateur portable
+
+258
+0:12:01.33,000 --> 0:12:04,000
+pour effectuer tous les calculs de seulement un neurone.
+
+259
+0:12:04.33,000 --> 0:12:06,000
+Vous avez donc besoin de 10 000 ordinateurs portables.
+
+260
+0:12:06.33,000 --> 0:12:08,000
+Où aller ? Vous allez chez IBM,
+
+261
+0:12:08.33,000 --> 0:12:1,000
+et vous prenez un superordinateur car ils savent comment concentrer
+
+262
+0:12:10.33,000 --> 0:12:14,000
+10 000 ordinateurs portables dans les dimensions d'un réfrigérateur.
+
+263
+0:12:14.33,000 --> 0:12:17,000
+Nous avons donc maintenant ce superordinateur "Blue Gene".
+
+264
+0:12:17.33,000 --> 0:12:19,000
+Nous pouvons charger tous les neurones,
+
+265
+0:12:19.33,000 --> 0:12:21,000
+chacun sur son propre processeur,
+
+266
+0:12:21.33,000 --> 0:12:25,000
+et allumer le tout, et observer ce qui arrive.
+
+267
+0:12:25.33,000 --> 0:12:28,000
+Embarquez sur le tapis volant pour une promenade !
+
+268
+0:12:28.33,000 --> 0:12:31,000
+Ici, nous l'avons activé. Et voici le premier coup d'oeil
+
+269
+0:12:31.33,000 --> 0:12:33,000
+de ce qui se passe dans votre cerveau
+
+270
+0:12:33.33,000 --> 0:12:35,000
+lorsqu'il y a une stimulation.
+
+271
+0:12:35.33,000 --> 0:12:37,000
+C'est une première vue.
+
+272
+0:12:37.33,000 --> 0:12:39,000
+Lorsque vous regardez ça la première fois, vous pensez,
+
+273
+0:12:39.33,000 --> 0:12:44,000
+"Mon Dieu. Comment la réalité peut-elle sortir de ça ?"
+
+274
+0:12:44.33,000 --> 0:12:47,000
+Mais, en fait, vous pouvez commencer,
+
+275
+0:12:47.33,000 --> 0:12:51,000
+même si nous n'avons pas entraîné cette colonne néocorticale
+
+276
+0:12:51.33,000 --> 0:12:53,000
+à créer une réalité spécifique.
+
+277
+0:12:53.33,000 --> 0:12:57,000
+Mais on peut demander "Où est la rose ?"
+
+278
+0:12:57.33,000 --> 0:12:59,000
+On peut demander "Où est-elle à l'intérieur,
+
+279
+0:12:59.33,000 --> 0:13:02,000
+si on le stimule avec une image ?"
+
+280
+0:13:02.33,000 --> 0:13:04,000
+Où est-elle à l'intérieur du néocortex ?
+
+281
+0:13:04.33,000 --> 0:13:08,000
+Finalement, elle doit être là si on le stimule avec l'image.
+
+282
+0:13:08.33,000 --> 0:13:1,000
+Ainsi, la manière qu'on peut considérer cela
+
+283
+0:13:10.33,000 --> 0:13:13,000
+consiste à ignorer les neurones, ignorer les synapses,
+
+284
+0:13:13.33,000 --> 0:13:15,000
+et observer seulement l'activité électrique brute.
+
+285
+0:13:15.33,000 --> 0:13:17,000
+Parce que c'est ce qu'il est en train de créer.
+
+286
+0:13:17.33,000 --> 0:13:19,000
+Il est en train de créer des patrons électriques.
+
+287
+0:13:19.33,000 --> 0:13:21,000
+Donc lorsqu'on a fait cela,
+
+288
+0:13:21.33,000 --> 0:13:23,000
+nous avons vraiment, pour la première fois,
+
+289
+0:13:23.33,000 --> 0:13:26,000
+vu ces structures évanescentes :
+
+290
+0:13:26.33,000 --> 0:13:29,000
+des objets électriques apparaissant
+
+291
+0:13:29.33,000 --> 0:13:32,000
+à l'intérieur de la colonne néocorticale.
+
+292
+0:13:32.33,000 --> 0:13:35,000
+Ce sont ces objets électriques
+
+293
+0:13:35.33,000 --> 0:13:38,000
+qui détiennent toute l'information au sujet
+
+294
+0:13:38.33,000 --> 0:13:41,000
+la chose qui l'a stimulé - quelle qu'elle soit.
+
+295
+0:13:41.33,000 --> 0:13:43,000
+Et en faisant le zoom sur ceci,
+
+296
+0:13:43.33,000 --> 0:13:47,000
+c'est comme un véritable univers.
+
+297
+0:13:47.33,000 --> 0:13:49,000
+Alors, la prochaine étape,
+
+298
+0:13:49.33,000 --> 0:13:53,000
+c'est de prendre ces coordonnées du cerveau
+
+299
+0:13:53.33,000 --> 0:13:57,000
+et de les projeter dans l'espace perceptuel.
+
+300
+0:13:57.33,000 --> 0:13:59,000
+Et si vous faites cela,
+
+301
+0:13:59.33,000 --> 0:14:01,000
+vous pourrez pénétrer à l'intérieur
+
+302
+0:14:01.33,000 --> 0:14:03,000
+de la réalité qui est créée
+
+303
+0:14:03.33,000 --> 0:14:05,000
+par cette machine,
+
+304
+0:14:05.33,000 --> 0:14:08,000
+par cette partie du cerveau.
+
+305
+0:14:08.33,000 --> 0:14:1,000
+En résumé,
+
+306
+0:14:10.33,000 --> 0:14:12,000
+je crois que l'univers pourrait avoir évolué
+
+307
+0:14:12.33,000 --> 0:14:14,000
+-- c'est possible --
+
+308
+0:14:14.33,000 --> 0:14:17,000
+en un cerveau pouvant se voir lui-même,
+
+309
+0:14:17.33,000 --> 0:14:22,000
+ce qui pourrait être le premier pas vers une prise de conscience de lui-même.
+
+310
+0:14:22.33,000 --> 0:14:24,000
+Il y a encore beaucoup à faire pour tester ces théories,
+
+311
+0:14:24.33,000 --> 0:14:27,000
+et pour tester plusieurs autres théories.
+
+312
+0:14:27.33,000 --> 0:14:3,000
+Mais j'espère que vous êtes au moins en partie convaincus
+
+313
+0:14:30.33,000 --> 0:14:33,000
+qu'il n'est pas impossible de construire un cerveau.
+
+314
+0:14:33.33,000 --> 0:14:35,000
+Nous pouvons le faire dans moins de 10 ans,
+
+315
+0:14:35.33,000 --> 0:14:37,000
+et si nous réussissons à le faire,
+
+316
+0:14:37.33,000 --> 0:14:39,000
+nous enverrons à TED, dans 10 ans,
+
+317
+0:14:39.33,000 --> 0:14:42,000
+un hologramme pour vous parler. Merci.
+
+318
+0:14:42.33,000 --> 0:14:48,000
+(Applaudissements)
+

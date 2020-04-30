@@ -1,0 +1,804 @@
+1
+0:00:12.575,000 --> 0:00:14,000
+In my early days as a graduate student,
+
+2
+0:00:14.614,000 --> 0:00:17,000
+I went on a snorkeling trip off the coast of the Bahamas.
+
+3
+0:00:18.609,000 --> 0:00:2,000
+I'd actually never swum in the ocean before,
+
+4
+0:00:21.582,000 --> 0:00:22,000
+so it was a bit terrifying.
+
+5
+0:00:23.836,000 --> 0:00:26,000
+What I remember the most is, as I put my head in the water
+
+6
+0:00:26.86,000 --> 0:00:3,000
+and I was trying really hard to breathe through the snorkel,
+
+7
+0:00:31.134,000 --> 0:00:36,000
+this huge group of striped yellow and black fish
+
+8
+0:00:36.524,000 --> 0:00:37,000
+came straight at me ...
+
+9
+0:00:38.637,000 --> 0:00:39,000
+and I just froze.
+
+10
+0:00:40.795,000 --> 0:00:43,000
+And then, as if it had suddenly changed its mind,
+
+11
+0:00:44.432,000 --> 0:00:46,000
+came towards me and then swerved to the right
+
+12
+0:00:46.893,000 --> 0:00:47,000
+and went right around me.
+
+13
+0:00:48.74,000 --> 0:00:49,000
+It was absolutely mesmerizing.
+
+14
+0:00:50.29,000 --> 0:00:52,000
+Maybe many of you have had this experience.
+
+15
+0:00:53.059,000 --> 0:00:56,000
+Of course, there's the color and the beauty of it,
+
+16
+0:00:56.505,000 --> 0:00:58,000
+but there was also just the sheer oneness of it,
+
+17
+0:00:59.457,000 --> 0:01:01,000
+as if it wasn't hundreds of fish
+
+18
+0:01:01.824,000 --> 0:01:04,000
+but a single entity with a single collective mind
+
+19
+0:01:04.983,000 --> 0:01:05,000
+that was making decisions.
+
+20
+0:01:07.486,000 --> 0:01:1,000
+When I look back, I think that experience really ended up determining
+
+21
+0:01:11.192,000 --> 0:01:13,000
+what I've worked on for most of my career.
+
+22
+0:01:15.977,000 --> 0:01:16,000
+I'm a computer scientist,
+
+23
+0:01:17.281,000 --> 0:01:19,000
+and the field that I work in is artificial intelligence.
+
+24
+0:01:20.459,000 --> 0:01:21,000
+And a key theme in AI
+
+25
+0:01:22,000 --> 0:01:26,000
+is being able to understand intelligence by creating our own computational systems
+
+26
+0:01:26.467,000 --> 0:01:29,000
+that display intelligence the way we see it in nature.
+
+27
+0:01:30.287,000 --> 0:01:34,000
+Now, most popular views of AI, of course, come from science fiction and the movies,
+
+28
+0:01:34.749,000 --> 0:01:36,000
+and I'm personally a big Star Wars fan.
+
+29
+0:01:38.321,000 --> 0:01:41,000
+But that tends to be a very human-centric view of intelligence.
+
+30
+0:01:42.964,000 --> 0:01:44,000
+When you think of a fish school,
+
+31
+0:01:45.195,000 --> 0:01:47,000
+or when I think of a flock of starlings,
+
+32
+0:01:48.172,000 --> 0:01:51,000
+that feels like a really different kind of intelligence.
+
+33
+0:01:52.765,000 --> 0:01:55,000
+For starters, any one fish is just so tiny
+
+34
+0:01:56.702,000 --> 0:01:58,000
+compared to the sheer size of the collective,
+
+35
+0:01:59.613,000 --> 0:02:02,000
+so it seems that any one individual
+
+36
+0:02:02.747,000 --> 0:02:04,000
+would have a really limited and myopic view of what's going on,
+
+37
+0:02:05.764,000 --> 0:02:07,000
+and intelligence isn't really about the individual
+
+38
+0:02:08.122,000 --> 0:02:1,000
+but somehow a property of the group itself.
+
+39
+0:02:11.938,000 --> 0:02:14,000
+Secondly, and the thing that I still find most remarkable,
+
+40
+0:02:15.193,000 --> 0:02:2,000
+is that we know that there are no leaders supervising this fish school.
+
+41
+0:02:20.983,000 --> 0:02:23,000
+Instead, this incredible collective mind behavior
+
+42
+0:02:24.508,000 --> 0:02:28,000
+is emerging purely from the interactions of one fish and another.
+
+43
+0:02:29.064,000 --> 0:02:32,000
+Somehow, there are these interactions or rules of engagement
+
+44
+0:02:33.056,000 --> 0:02:34,000
+between neighboring fish
+
+45
+0:02:34.835,000 --> 0:02:35,000
+that make it all work out.
+
+46
+0:02:37.556,000 --> 0:02:39,000
+So the question for AI then becomes,
+
+47
+0:02:40.231,000 --> 0:02:44,000
+what are those rules of engagement that lead to this kind of intelligence,
+
+48
+0:02:44.413,000 --> 0:02:45,000
+and of course, can we create our own?
+
+49
+0:02:46.819,000 --> 0:02:49,000
+And that's the primary thing that I work on with my team in my lab.
+
+50
+0:02:50.763,000 --> 0:02:51,000
+We work on it through theory,
+
+51
+0:02:52.424,000 --> 0:02:54,000
+looking at abstract rule systems
+
+52
+0:02:54.796,000 --> 0:02:56,000
+and thinking about the mathematics behind it.
+
+53
+0:02:57.717,000 --> 0:03:01,000
+We also do it through biology, working closely with experimentalists.
+
+54
+0:03:02.399,000 --> 0:03:03,000
+But mostly, we do it through robotics,
+
+55
+0:03:04.376,000 --> 0:03:07,000
+where we try to create our own collective systems
+
+56
+0:03:08.304,000 --> 0:03:1,000
+that can do the kinds of things that we see in nature,
+
+57
+0:03:11.035,000 --> 0:03:12,000
+or at least try to.
+
+58
+0:03:13.727,000 --> 0:03:15,000
+One of our first robotic quests along this line
+
+59
+0:03:16.555,000 --> 0:03:2,000
+was to create our very own colony of a thousand robots.
+
+60
+0:03:20.96,000 --> 0:03:21,000
+So very simple robots,
+
+61
+0:03:22.318,000 --> 0:03:25,000
+but they could be programmed to exhibit collective intelligence,
+
+62
+0:03:25.945,000 --> 0:03:26,000
+and that's what we were able to do.
+
+63
+0:03:28.014,000 --> 0:03:3,000
+So this is what a single robot looks like.
+
+64
+0:03:30.07,000 --> 0:03:32,000
+It's quite small, about the size of a quarter,
+
+65
+0:03:32.617,000 --> 0:03:34,000
+and you can program how it moves,
+
+66
+0:03:34.951,000 --> 0:03:37,000
+but it can also wirelessly communicate with other robots,
+
+67
+0:03:38.391,000 --> 0:03:4,000
+and it can measure distances from them.
+
+68
+0:03:40.582,000 --> 0:03:43,000
+And so now we can start to program exactly an interaction,
+
+69
+0:03:44.082,000 --> 0:03:46,000
+a rule of engagement between neighbors.
+
+70
+0:03:46.533,000 --> 0:03:47,000
+And once we have this system,
+
+71
+0:03:48.451,000 --> 0:03:51,000
+we can start to program many different kinds of rules of engagement
+
+72
+0:03:51.891,000 --> 0:03:52,000
+that you would see in nature.
+
+73
+0:03:53.421,000 --> 0:03:55,000
+So for example, spontaneous synchronization,
+
+74
+0:03:56.421,000 --> 0:04:01,000
+how audiences are clapping and suddenly start all clapping together,
+
+75
+0:04:01.683,000 --> 0:04:03,000
+the fireflies flashing together.
+
+76
+0:04:06.739,000 --> 0:04:08,000
+We can program rules for pattern formation,
+
+77
+0:04:09.454,000 --> 0:04:1,000
+how cells in a tissue
+
+78
+0:04:11.264,000 --> 0:04:13,000
+determine what role they're going to take on
+
+79
+0:04:13.39,000 --> 0:04:14,000
+and set the patterns of our bodies.
+
+80
+0:04:16.865,000 --> 0:04:18,000
+We can program rules for migration,
+
+81
+0:04:18.978,000 --> 0:04:2,000
+and in this way, we're really learning from nature's rules.
+
+82
+0:04:22.415,000 --> 0:04:24,000
+But we can also take it a step further.
+
+83
+0:04:25.086,000 --> 0:04:27,000
+We can actually take these rules that we've learned from nature
+
+84
+0:04:28.102,000 --> 0:04:31,000
+and combine them and create entirely new collective behaviors
+
+85
+0:04:31.92,000 --> 0:04:32,000
+of our very own.
+
+86
+0:04:33.78,000 --> 0:04:34,000
+So for example,
+
+87
+0:04:35.282,000 --> 0:04:37,000
+imagine that you had two different kinds of rules.
+
+88
+0:04:38.194,000 --> 0:04:4,000
+So your first rule is a motion rule
+
+89
+0:04:40.337,000 --> 0:04:44,000
+where a moving robot can move around other stationary robots.
+
+90
+0:04:44.702,000 --> 0:04:45,000
+And your second rule is a pattern rule
+
+91
+0:04:46.537,000 --> 0:04:49,000
+where a robot takes on a color based on its two nearest neighbors.
+
+92
+0:04:50.499,000 --> 0:04:53,000
+So if I start with a blob of robots in a little pattern seed,
+
+93
+0:04:53.968,000 --> 0:04:55,000
+it turns out that these two rules are sufficient for the group
+
+94
+0:04:56.898,000 --> 0:04:58,000
+to be able to self-assemble a simple line pattern.
+
+95
+0:05:00.934,000 --> 0:05:02,000
+And if I have more complicated pattern rules,
+
+96
+0:05:03.502,000 --> 0:05:05,000
+and I design error correction rules,
+
+97
+0:05:05.843,000 --> 0:05:08,000
+we can actually create really, really complicated self assemblies,
+
+98
+0:05:08.964,000 --> 0:05:09,000
+and here's what that looks like.
+
+99
+0:05:11.694,000 --> 0:05:13,000
+So here, you're going to see a thousand robots
+
+100
+0:05:14.703,000 --> 0:05:17,000
+that are working together to self-assemble the letter K.
+
+101
+0:05:18.189,000 --> 0:05:19,000
+The K is on its side.
+
+102
+0:05:20.043,000 --> 0:05:22,000
+And the important thing is that no one is in charge.
+
+103
+0:05:22.798,000 --> 0:05:26,000
+So any single robot is only talking to a small number of robots nearby it,
+
+104
+0:05:27.647,000 --> 0:05:3,000
+and it's using its motion rule to move around the half-built structure
+
+105
+0:05:31.608,000 --> 0:05:34,000
+just looking for a place to fit in based on its pattern rules.
+
+106
+0:05:35.614,000 --> 0:05:39,000
+And even though no robot is doing anything perfectly,
+
+107
+0:05:40.036,000 --> 0:05:43,000
+the rules are such that we can get the collective to do its goal
+
+108
+0:05:43.72,000 --> 0:05:44,000
+robustly together.
+
+109
+0:05:45.853,000 --> 0:05:47,000
+And the illusion becomes almost so perfect, you know --
+
+110
+0:05:48.859,000 --> 0:05:51,000
+you just start to not even notice that they're individual robots at all,
+
+111
+0:05:52.299,000 --> 0:05:53,000
+and it becomes a single entity,
+
+112
+0:05:54.006,000 --> 0:05:55,000
+kind of like the school of fish.
+
+113
+0:05:59.833,000 --> 0:06:01,000
+So these are robots and rules in two dimensions,
+
+114
+0:06:02.596,000 --> 0:06:05,000
+but we can also think about robots and rules in three dimensions.
+
+115
+0:06:05.931,000 --> 0:06:08,000
+So what if we could create robots that could build together?
+
+116
+0:06:10.396,000 --> 0:06:13,000
+And here, we can take inspiration from social insects.
+
+117
+0:06:14.009,000 --> 0:06:16,000
+So if you think about mound-building termites
+
+118
+0:06:16.693,000 --> 0:06:18,000
+or you think about army ants,
+
+119
+0:06:18.769,000 --> 0:06:22,000
+they create incredible, complex nest structures out of mud
+
+120
+0:06:23.046,000 --> 0:06:25,000
+and even out of their own bodies.
+
+121
+0:06:26.422,000 --> 0:06:28,000
+And like the system I showed you before,
+
+122
+0:06:28.666,000 --> 0:06:3,000
+these insects actually also have pattern rules
+
+123
+0:06:31.66,000 --> 0:06:33,000
+that help them determine what to build,
+
+124
+0:06:33.722,000 --> 0:06:35,000
+but the pattern can be made out of other insects,
+
+125
+0:06:36.048,000 --> 0:06:37,000
+or it could be made out of mud.
+
+126
+0:06:38.998,000 --> 0:06:42,000
+And we can use that same idea to create rules for robots.
+
+127
+0:06:44.041,000 --> 0:06:47,000
+So here, you're going to see some simulated robots.
+
+128
+0:06:47.226,000 --> 0:06:49,000
+So the simulated robot has a motion rule,
+
+129
+0:06:49.733,000 --> 0:06:51,000
+which is how it traverses through the structure,
+
+130
+0:06:52.09,000 --> 0:06:53,000
+looking for a place to fit in,
+
+131
+0:06:54.111,000 --> 0:06:57,000
+and it has pattern rules where it looks at groups of blocks
+
+132
+0:06:57.135,000 --> 0:06:59,000
+to decide whether to place a block.
+
+133
+0:07:00.464,000 --> 0:07:03,000
+And with the right motion rules and the right pattern rules,
+
+134
+0:07:03.551,000 --> 0:07:06,000
+we can actually get the robots to build whatever we want.
+
+135
+0:07:08.017,000 --> 0:07:1,000
+And of course, everybody wants their own tower.
+
+136
+0:07:11.17,000 --> 0:07:12,000
+(Laughter)
+
+137
+0:07:13.82,000 --> 0:07:14,000
+So once we have these rules,
+
+138
+0:07:15.528,000 --> 0:07:18,000
+we can start to create the robot bodies that go with these rules.
+
+139
+0:07:18.718,000 --> 0:07:21,000
+So here, you see a robot that can climb over blocks,
+
+140
+0:07:22.051,000 --> 0:07:24,000
+but it can also lift and move these blocks
+
+141
+0:07:24.756,000 --> 0:07:26,000
+and it can start to edit the very structure that it's on.
+
+142
+0:07:28.437,000 --> 0:07:29,000
+But with these rules,
+
+143
+0:07:29.609,000 --> 0:07:32,000
+this is really only one kind of robot body that you could imagine.
+
+144
+0:07:33.112,000 --> 0:07:35,000
+You could imagine many different kinds of robot bodies.
+
+145
+0:07:35.715,000 --> 0:07:39,000
+So if you think about robots that maybe could move sandbags
+
+146
+0:07:40.349,000 --> 0:07:42,000
+and could help build levees,
+
+147
+0:07:42.922,000 --> 0:07:46,000
+or we could think of robots that built out of soft materials
+
+148
+0:07:47.247,000 --> 0:07:5,000
+and worked together to shore up a collapsed building --
+
+149
+0:07:50.915,000 --> 0:07:52,000
+so just the same kind of rules in different kinds of bodies.
+
+150
+0:07:56.03,000 --> 0:08:,000
+Or if, like my group, you are completely obsessed with army ants,
+
+151
+0:08:00.277,000 --> 0:08:04,000
+then maybe one day we can make robots that can climb over literally anything
+
+152
+0:08:04.675,000 --> 0:08:06,000
+including other members of their tribe,
+
+153
+0:08:06.873,000 --> 0:08:08,000
+and self-assemble things out of their own bodies.
+
+154
+0:08:09.957,000 --> 0:08:1,000
+Once you understand the rules,
+
+155
+0:08:11.662,000 --> 0:08:14,000
+just many different kinds of robot visions become possible.
+
+156
+0:08:18.612,000 --> 0:08:2,000
+And coming back to the snorkeling trip,
+
+157
+0:08:20.87,000 --> 0:08:25,000
+we actually understand a great deal about the rules that fish schools use.
+
+158
+0:08:26.589,000 --> 0:08:28,000
+So if we can invent the bodies to go with that,
+
+159
+0:08:29.449,000 --> 0:08:3,000
+then maybe there is a future
+
+160
+0:08:30.901,000 --> 0:08:34,000
+where I and my group will get to snorkel with a fish school of our own creation.
+
+161
+0:08:40.67,000 --> 0:08:42,000
+Each of these systems that I showed you
+
+162
+0:08:42.823,000 --> 0:08:46,000
+brings us closer to having the mathematical and the conceptual tools
+
+163
+0:08:47.124,000 --> 0:08:5,000
+to create our own versions of collective power,
+
+164
+0:08:50.529,000 --> 0:08:53,000
+and this can enable many different kinds of future applications,
+
+165
+0:08:53.554,000 --> 0:08:56,000
+whether you think about robots that build flood barriers
+
+166
+0:08:56.742,000 --> 0:09:,000
+or you think about robotic bee colonies that could pollinate crops
+
+167
+0:09:01.063,000 --> 0:09:04,000
+or underwater schools of robots that monitor coral reefs,
+
+168
+0:09:04.611,000 --> 0:09:07,000
+or if we reach for the stars and we thinking about programming
+
+169
+0:09:07.738,000 --> 0:09:08,000
+constellations of satellites.
+
+170
+0:09:09.968,000 --> 0:09:1,000
+In each of these systems,
+
+171
+0:09:11.604,000 --> 0:09:14,000
+being able to understand how to design the rules of engagement
+
+172
+0:09:15.175,000 --> 0:09:17,000
+and being able to create good collective behavior
+
+173
+0:09:17.713,000 --> 0:09:19,000
+becomes a key to realizing these visions.
+
+174
+0:09:22.562,000 --> 0:09:26,000
+So, so far I've talked about rules for insects and for fish
+
+175
+0:09:26.693,000 --> 0:09:28,000
+and for robots,
+
+176
+0:09:29.086,000 --> 0:09:32,000
+but what about the rules that apply to our own human collective?
+
+177
+0:09:32.686,000 --> 0:09:34,000
+And the last thought that I'd like to leave you with
+
+178
+0:09:35.14,000 --> 0:09:36,000
+is that science is of course itself
+
+179
+0:09:36.845,000 --> 0:09:39,000
+an incredible manifestation of collective intelligence,
+
+180
+0:09:40.353,000 --> 0:09:43,000
+but unlike the beautiful fish schools that I study,
+
+181
+0:09:43.695,000 --> 0:09:46,000
+I feel we still have a much longer evolutionary path to walk.
+
+182
+0:09:48.566,000 --> 0:09:52,000
+So in addition to working on improving the science of robot collectives,
+
+183
+0:09:53.194,000 --> 0:09:56,000
+I also work on creating robots and thinking about rules
+
+184
+0:09:56.495,000 --> 0:09:58,000
+that will improve our own scientific collective.
+
+185
+0:10:00.018,000 --> 0:10:01,000
+There's this saying that I love:
+
+186
+0:10:01.71,000 --> 0:10:04,000
+who does science determines what science gets done.
+
+187
+0:10:06.059,000 --> 0:10:08,000
+Imagine a society
+
+188
+0:10:09.024,000 --> 0:10:1,000
+where we had rules of engagement
+
+189
+0:10:10.699,000 --> 0:10:13,000
+where every child grew up believing that they could stand here
+
+190
+0:10:14.026,000 --> 0:10:16,000
+and be a technologist of the future,
+
+191
+0:10:16.472,000 --> 0:10:17,000
+or where every adult
+
+192
+0:10:17.997,000 --> 0:10:21,000
+believed that they had the ability not just to understand but to change
+
+193
+0:10:22.14,000 --> 0:10:25,000
+how science and technology impacts their everyday lives.
+
+194
+0:10:26.64,000 --> 0:10:27,000
+What would that society look like?
+
+195
+0:10:30.206,000 --> 0:10:31,000
+I believe that we can do that.
+
+196
+0:10:31.738,000 --> 0:10:33,000
+I believe that we can choose our rules,
+
+197
+0:10:34.053,000 --> 0:10:35,000
+and we engineer not just robots
+
+198
+0:10:35.834,000 --> 0:10:37,000
+but we can engineer our own human collective,
+
+199
+0:10:38.454,000 --> 0:10:41,000
+and if we do and when we do, it will be beautiful.
+
+200
+0:10:42.312,000 --> 0:10:43,000
+Thank you.
+
+201
+0:10:43.487,000 --> 0:10:49,000
+(Applause)
+

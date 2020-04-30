@@ -1,0 +1,1724 @@
+1
+0:00:,000 --> 0:00:07,000
+Traductor: Nerea García Garmendia Revisor: Lidia Cámara de la Fuente
+
+2
+0:00:13,000 --> 0:00:14,000
+Chris Anderson: Nick Bostrom.
+
+3
+0:00:14.809,000 --> 0:00:18,000
+Nos has dado muchas ideas locas.
+
+4
+0:00:18.809,000 --> 0:00:19,000
+Creo que hace un par de décadas,
+
+5
+0:00:20.679,000 --> 0:00:22,000
+defendías que estaríamos viviendo una simulación,
+
+6
+0:00:23.322,000 --> 0:00:24,000
+o que, probablemente, vivíamos en una.
+
+7
+0:00:25.375,000 --> 0:00:26,000
+Recientemente,
+
+8
+0:00:26.75,000 --> 0:00:3,000
+has dado ejemplos muy claros de cómo la inteligencia artificial general
+
+9
+0:00:31.351,000 --> 0:00:33,000
+podría generar resultados terribles.
+
+10
+0:00:33.538,000 --> 0:00:35,000
+Y este año estás a punto de publicar
+
+11
+0:00:37.347,000 --> 0:00:4,000
+un ensayo sobre algo denominado la hipótesis del mundo vulnerable.
+
+12
+0:00:41.267,000 --> 0:00:45,000
+Nuestro trabajo esta tarde consiste en ofrecer una guía ilustrada sobre eso.
+
+13
+0:00:46.821,000 --> 0:00:47,000
+Así que empecemos.
+
+14
+0:00:48.833,000 --> 0:00:49,000
+¿En qué consiste esa hipótesis?
+
+15
+0:00:52.4,000 --> 0:00:53,000
+Nick Bostrom: Se trata de pensar
+
+16
+0:00:54.238,000 --> 0:00:57,000
+en una especie de característica estructural de la actual condición humana.
+
+17
+0:00:59.125,000 --> 0:01:01,000
+Como te gusta la metáfora de la urna,
+
+18
+0:01:01.5,000 --> 0:01:02,000
+voy a utilizarla para explicarlo.
+
+19
+0:01:03.653,000 --> 0:01:06,000
+Imagínate una gran urna llena de bolas
+
+20
+0:01:07.792,000 --> 0:01:1,000
+que representan ideas, métodos, posibles tecnologías.
+
+21
+0:01:12.983,000 --> 0:01:15,000
+Puedes pensar en la historia de la creatividad humana
+
+22
+0:01:16.559,000 --> 0:01:19,000
+como el proceso de extraer de esta urna una bola tras otra,
+
+23
+0:01:20.497,000 --> 0:01:23,000
+y el efecto neto hasta la fecha ha sido muy beneficioso, ¿verdad?
+
+24
+0:01:23.667,000 --> 0:01:25,000
+Hemos extraído una gran cantidad de bolas blancas,
+
+25
+0:01:26.597,000 --> 0:01:28,000
+de varias tonalidades de gris, con pros y contras.
+
+26
+0:01:30.042,000 --> 0:01:32,000
+Hasta ahora no hemos sacado la bola negra:
+
+27
+0:01:34.292,000 --> 0:01:39,000
+una tecnología que invariablemente destruye la civilización que la descubre.
+
+28
+0:01:39.768,000 --> 0:01:42,000
+Mi ensayo trata de pensar qué podría ser esa bola negra.
+
+29
+0:01:42.979,000 --> 0:01:44,000
+CA: Así que defines la bola negra
+
+30
+0:01:45.117,000 --> 0:01:48,000
+como una que llevará inevitablemente a la destrucción de la civilización.
+
+31
+0:01:49.081,000 --> 0:01:53,000
+NB: Salvo que salgamos de lo que denomino condición semianárquica por defecto.
+
+32
+0:01:53.934,000 --> 0:01:54,000
+Bueno, más o menos por defecto.
+
+33
+0:01:56.333,000 --> 0:01:59,000
+CA: Haces que este caso adquiera carácter de urgencia
+
+34
+0:01:59.851,000 --> 0:02:01,000
+al mostrar contraejemplos
+
+35
+0:02:01.917,000 --> 0:02:03,000
+que crees que demuestran que hasta ahora hemos tenido suerte,
+
+36
+0:02:04.851,000 --> 0:02:06,000
+que puede que hayamos sacado la bola de la muerte,
+
+37
+0:02:07.556,000 --> 0:02:08,000
+sin habernos siquiera dado cuenta.
+
+38
+0:02:09.183,000 --> 0:02:11,000
+Hay una cita al respecto, ¿cuál es?
+
+39
+0:02:12.465,000 --> 0:02:16,000
+NB: Bueno, imagino que solo trato de ilustrar la dificultad de prever
+
+40
+0:02:17.438,000 --> 0:02:19,000
+hacia dónde llevarán los descubrimientos básicos,
+
+41
+0:02:20.143,000 --> 0:02:22,000
+simplemente no tenemos esa capacidad.
+
+42
+0:02:23.25,000 --> 0:02:26,000
+Porque nos hemos hecho bastante hábiles extrayendo bolas,
+
+43
+0:02:26.851,000 --> 0:02:29,000
+pero realmente no tenemos la capacidad de devolver la bola a la urna.
+
+44
+0:02:30.351,000 --> 0:02:32,000
+Podemos inventar, pero no desinventar.
+
+45
+0:02:33.583,000 --> 0:02:35,000
+Así que nuestra estrategia, en realidad,
+
+46
+0:02:35.951,000 --> 0:02:37,000
+es confiar en que no haya una bola negra en la urna.
+
+47
+0:02:38.453,000 --> 0:02:42,000
+CA: Así que una vez que está fuera, no se puede devolver a la urna,
+
+48
+0:02:42.893,000 --> 0:02:43,000
+y crees que hemos tenido suerte.
+
+49
+0:02:44.458,000 --> 0:02:46,000
+Cuéntanos un par de ejemplos.
+
+50
+0:02:46.708,000 --> 0:02:48,000
+Hablas de diferentes tipos de vulnerabilidad.
+
+51
+0:02:49.833,000 --> 0:02:51,000
+NB: El tipo más fácil de comprender
+
+52
+0:02:52.268,000 --> 0:02:57,000
+es una tecnología que hace muy fácil producir una enorme destrucción.
+
+53
+0:02:59.375,000 --> 0:03:01,000
+La biología sintética podría ser una fuente abundante
+
+54
+0:03:02.033,000 --> 0:03:03,000
+de ese tipo de bola negra,
+
+55
+0:03:03.565,000 --> 0:03:05,000
+pero hay muchas otras cosas en las que podríamos pensar,
+
+56
+0:03:06.413,000 --> 0:03:08,000
+como la geoingeniería, realmente genial, ¿verdad?
+
+57
+0:03:08.949,000 --> 0:03:1,000
+Podríamos combatir el calentamiento global,
+
+58
+0:03:10.951,000 --> 0:03:12,000
+pero tampoco queremos que sea demasiado sencillo,
+
+59
+0:03:13.257,000 --> 0:03:15,000
+que cualquier persona y su abuela tengan la capacidad
+
+60
+0:03:16.177,000 --> 0:03:18,000
+de alterar radicalmente el clima de la Tierra.
+
+61
+0:03:18.65,000 --> 0:03:21,000
+O tal vez producir en masa drones autónomos letales,
+
+62
+0:03:22.593,000 --> 0:03:25,000
+enjambres de robots asesinos del tamaño de un mosquito.
+
+63
+0:03:26.44,000 --> 0:03:28,000
+Nanotecnología, inteligencia artificial general.
+
+64
+0:03:28.759,000 --> 0:03:31,000
+CA: Tú argumentas en el ensayo que fue una cuestión de suerte
+
+65
+0:03:31.996,000 --> 0:03:34,000
+que el descubrimiento de la energía nuclear
+
+66
+0:03:35.43,000 --> 0:03:36,000
+pudiera crear una bomba;
+
+67
+0:03:37.215,000 --> 0:03:4,000
+podría haber sido el caso de que fuera posible crear una bomba
+
+68
+0:03:40.25,000 --> 0:03:42,000
+con recursos mucho menores, accesibles a cualquiera.
+
+69
+0:03:43.833,000 --> 0:03:46,000
+NB: Sí, creo que allá por los años 30,
+
+70
+0:03:47.393,000 --> 0:03:5,000
+cuando por primera vez hicimos grandes avances en física nuclear,
+
+71
+0:03:51.732,000 --> 0:03:52,000
+algunas figuras insignes expusieron
+
+72
+0:03:53.4,000 --> 0:03:55,000
+que era posible crear reacciones nucleares en cadena
+
+73
+0:03:56.13,000 --> 0:03:59,000
+para luego caer en la cuenta de que eso podría llevar a crear una bomba.
+
+74
+0:03:59.956,000 --> 0:04:02,000
+Investigamos y descubrimos que para hacer una bomba nuclear
+
+75
+0:04:03.909,000 --> 0:04:05,000
+se necesita uranio enriquecido o plutonio,
+
+76
+0:04:06.155,000 --> 0:04:08,000
+que son materiales muy difíciles de conseguir.
+
+77
+0:04:08.362,000 --> 0:04:1,000
+Se precisan ultracentrifugadoras,
+
+78
+0:04:11.293,000 --> 0:04:13,000
+reactores para gigantescas cantidades de energía.
+
+79
+0:04:13.935,000 --> 0:04:15,000
+Pero imagínate que en lugar de eso,
+
+80
+0:04:16.017,000 --> 0:04:19,000
+hubiera habido una manera fácil de liberar la energía del átomo.
+
+81
+0:04:19.75,000 --> 0:04:22,000
+Que tal vez calentando arena en el microondas o algo así
+
+82
+0:04:23.2,000 --> 0:04:25,000
+se hubiese podido crear una detonación nuclear.
+
+83
+0:04:25.561,000 --> 0:04:26,000
+Sabemos que es físicamente imposible.
+
+84
+0:04:27.498,000 --> 0:04:29,000
+Pero antes de desarrollar esa física relevante,
+
+85
+0:04:30.129,000 --> 0:04:32,000
+¿cómo se podría haber sabido cómo acabaría?
+
+86
+0:04:32.353,000 --> 0:04:34,000
+CA: A pesar de eso, ¿no se podría alegar
+
+87
+0:04:34.551,000 --> 0:04:36,000
+que para que la vida evolucionara en la Tierra
+
+88
+0:04:36.743,000 --> 0:04:38,000
+se necesitaría cierto entorno estable,
+
+89
+0:04:39.462,000 --> 0:04:42,000
+y que si fuera tan fácil crear reacciones nucleares masivas
+
+90
+0:04:42.603,000 --> 0:04:43,000
+la Tierra nunca habría sido estable,
+
+91
+0:04:44.468,000 --> 0:04:46,000
+y por tanto no podríamos estar aquí.
+
+92
+0:04:46.704,000 --> 0:04:49,000
+NB: Sí, salvo que hubiera algo fácil de hacer a propósito,
+
+93
+0:04:50.291,000 --> 0:04:52,000
+pero que no ocurriría solo por azar.
+
+94
+0:04:52.871,000 --> 0:04:54,000
+Es decir, cosas que podemos hacer con facilidad,
+
+95
+0:04:55.112,000 --> 0:04:57,000
+podemos apilar 10 bloques uno sobre otro,
+
+96
+0:04:57.116,000 --> 0:05:,000
+pero en la naturaleza, no se da una pila de 10 bloques.
+
+97
+0:05:00.163,000 --> 0:05:03,000
+CA: De acuerdo, quizá esto es lo que más nos preocupa a la mayoría,
+
+98
+0:05:03.95,000 --> 0:05:06,000
+y sí, la biología sintética es tal vez la vía más rápida
+
+99
+0:05:07.187,000 --> 0:05:1,000
+que podemos prever en nuestro futuro cercano para llegar hasta aquí.
+
+100
+0:05:10.608,000 --> 0:05:12,000
+NB: Sí, imagínate lo que eso habría supuesto,
+
+101
+0:05:13.437,000 --> 0:05:16,000
+si, digamos, cualquiera trabajando en su cocina por la tarde
+
+102
+0:05:16.968,000 --> 0:05:17,000
+pudiera destruir una ciudad.
+
+103
+0:05:18.889,000 --> 0:05:2,000
+Cuesta entender que la civilización moderna,
+
+104
+0:05:21.382,000 --> 0:05:23,000
+tal como la conocemos, haya podido sobrevivir a eso,
+
+105
+0:05:23.893,000 --> 0:05:25,000
+porque en cualquier población de un millón de personas
+
+106
+0:05:26.531,000 --> 0:05:28,000
+siempre habrá alguien que, por algún motivo,
+
+107
+0:05:28.809,000 --> 0:05:3,000
+quiera utilizar ese poder de destrucción.
+
+108
+0:05:31.75,000 --> 0:05:34,000
+Así que si ese residuo apocalíptico
+
+109
+0:05:35.133,000 --> 0:05:36,000
+eligiera destruir una ciudad, o peor aún,
+
+110
+0:05:37.127,000 --> 0:05:38,000
+las ciudades podrían ser destruidas.
+
+111
+0:05:38.87,000 --> 0:05:39,000
+CA: Hay otra clase de vulnerabilidad,
+
+112
+0:05:40.701,000 --> 0:05:41,000
+hábleme de ella.
+
+113
+0:05:42.542,000 --> 0:05:45,000
+NB: Sí, además de estos tipos evidentes de bolas negras
+
+114
+0:05:46.502,000 --> 0:05:48,000
+que podrían hacer que muchas cosas volaran por los aires,
+
+115
+0:05:49.182,000 --> 0:05:53,000
+hay otros tipos que pueden crear malos incentivos
+
+116
+0:05:53.833,000 --> 0:05:55,000
+para que los humanos hagamos cosas dañinas.
+
+117
+0:05:56.083,000 --> 0:05:59,000
+El Tipo 2a, podríamos llamarlo,
+
+118
+0:06:00.208,000 --> 0:06:04,000
+serían tecnologías que posibilitan a los grandes poderes
+
+119
+0:06:04.726,000 --> 0:06:08,000
+usar su enorme fuerza para crear destrucción.
+
+120
+0:06:09.25,000 --> 0:06:12,000
+Las armas nucleares están muy cerca de esto, ¿verdad?
+
+121
+0:06:14.083,000 --> 0:06:17,000
+Hemos gastado más de USD 10 billones
+
+122
+0:06:17.143,000 --> 0:06:19,000
+para construir 70 000 cabezas nucleares
+
+123
+0:06:19.684,000 --> 0:06:21,000
+que están en estado de alerta instantánea.
+
+124
+0:06:22.167,000 --> 0:06:24,000
+Hubo varios momentos durante la Guerra Fría
+
+125
+0:06:24.434,000 --> 0:06:26,000
+en los que casi nos volamos por los aires.
+
+126
+0:06:26.446,000 --> 0:06:28,000
+No es que muchos pensaran que era una gran idea
+
+127
+0:06:28.641,000 --> 0:06:3,000
+gastarnos USD 10 billones para volarnos por los aires,
+
+128
+0:06:31.407,000 --> 0:06:33,000
+pero los incentivos eran tales que nos encontrábamos...
+
+129
+0:06:34.007,000 --> 0:06:35,000
+podría haber sido mucho peor.
+
+130
+0:06:35.408,000 --> 0:06:37,000
+Imagina que hubiera habido un primer ataque seguro.
+
+131
+0:06:38.5,000 --> 0:06:41,000
+Habría sido muy difícil, en una situación de crisis,
+
+132
+0:06:41.855,000 --> 0:06:44,000
+reprimir el lanzamiento de todos los misiles nucleares,
+
+133
+0:06:44.952,000 --> 0:06:47,000
+aunque solo fuera por el temor a que lo hiciera el otro.
+
+134
+0:06:47.968,000 --> 0:06:49,000
+CA: De acuerdo, la destrucción mutua asegurada
+
+135
+0:06:50.135,000 --> 0:06:52,000
+mantuvo la Guerra Fría relativamente estable,
+
+136
+0:06:52.4,000 --> 0:06:54,000
+porque sin eso, podríamos no estar hoy aquí.
+
+137
+0:06:54.463,000 --> 0:06:55,000
+NB: Pudo haber sido más inestable,
+
+138
+0:06:56.233,000 --> 0:06:58,000
+y pudo haber otras propiedades de la tecnología,
+
+139
+0:06:58.588,000 --> 0:07:01,000
+pudo haber sido más difícil lograr tratados armamentísticos,
+
+140
+0:07:01.625,000 --> 0:07:02,000
+si en vez de cabezas nucleares,
+
+141
+0:07:03.25,000 --> 0:07:05,000
+hubiera habido cosas más pequeñas o menos distintivas.
+
+142
+0:07:05.768,000 --> 0:07:08,000
+CA: Al igual que los malos incentivos para los actores del poder,
+
+143
+0:07:08.811,000 --> 0:07:11,000
+también te preocupan los malos incentivos para todos nosotros, en este Tipo 2a.
+
+144
+0:07:12.527,000 --> 0:07:16,000
+NB: Sí, podemos poner el caso del calentamiento global.
+
+145
+0:07:18.958,000 --> 0:07:2,000
+Hay muchos pequeños inconvenientes
+
+146
+0:07:21.025,000 --> 0:07:23,000
+que nos llevan a hacer cosas
+
+147
+0:07:23.693,000 --> 0:07:25,000
+que individualmente no tienen efecto, ¿verdad?
+
+148
+0:07:25.958,000 --> 0:07:27,000
+Pero si miles de millones de personas lo hacen,
+
+149
+0:07:28.148,000 --> 0:07:3,000
+acumulativamente, tiene un efecto perjudicial.
+
+150
+0:07:30.292,000 --> 0:07:32,000
+El calentamiento global podría haber sido mucho peor.
+
+151
+0:07:33.085,000 --> 0:07:36,000
+Tenemos el parámetro de la sensibilidad climática.
+
+152
+0:07:36.185,000 --> 0:07:38,000
+Se trata de un parámetro que indica cuánto se calentaría
+
+153
+0:07:39.148,000 --> 0:07:41,000
+si emitieras cierta cantidad de gases de efecto invernadero.
+
+154
+0:07:42.25,000 --> 0:07:44,000
+Pero, suponiendo que fuera el caso
+
+155
+0:07:44.643,000 --> 0:07:47,000
+de que con la cantidad de gases de efecto invernadero que hemos emitido
+
+156
+0:07:48.006,000 --> 0:07:52,000
+en lugar de que la temperatura subiera, entre 3 y 4.5 º C hasta 2100,
+
+157
+0:07:53.042,000 --> 0:07:55,000
+imagina que hubieran sido 15 o 20 ºC,
+
+158
+0:07:56.375,000 --> 0:07:58,000
+entonces estaríamos en una situación muy mala.
+
+159
+0:07:58.574,000 --> 0:08:,000
+O que la energía renovable fuera más difícil de producir.
+
+160
+0:08:01.283,000 --> 0:08:03,000
+o que hubiera más combustibles fósiles en el subsuelo.
+
+161
+0:08:03.818,000 --> 0:08:05,000
+CA: No se podría argumentar que,
+
+162
+0:08:06.083,000 --> 0:08:09,000
+si lo que hacemos hoy
+
+163
+0:08:09.184,000 --> 0:08:13,000
+hubiera producido 10 º C de diferencia en un periodo que pudiéramos ver,
+
+164
+0:08:13.792,000 --> 0:08:16,000
+la humanidad ya se habría puesto las pilas para hacer algo al respecto.
+
+165
+0:08:17.476,000 --> 0:08:19,000
+Somos estúpidos, pero quizá no tanto.
+
+166
+0:08:19.889,000 --> 0:08:2,000
+O tal vez sí.
+
+167
+0:08:21.151,000 --> 0:08:22,000
+NB: No apostaría por ello.
+
+168
+0:08:22.533,000 --> 0:08:23,000
+(Risas)
+
+169
+0:08:25.125,000 --> 0:08:27,000
+Puedes imaginarte otras características.
+
+170
+0:08:28.339,000 --> 0:08:31,000
+En estos momentos es algo difícil cambiar a las renovables y todo eso, de acuerdo,
+
+171
+0:08:32.241,000 --> 0:08:33,000
+pero se puede hacer.
+
+172
+0:08:33.683,000 --> 0:08:35,000
+Pero podría haber sucedido que, con una física algo diferente,
+
+173
+0:08:36.643,000 --> 0:08:38,000
+hubiera sido mucho más difícil hacer estas cosas.
+
+174
+0:08:40.296,000 --> 0:08:44,000
+CA: ¿Qué opinas, Nick, crees que, teniendo en cuenta todo esto,
+
+175
+0:08:46.039,000 --> 0:08:49,000
+este planeta, nosotros como humanidad, conformamos un mundo vulnerable,
+
+176
+0:08:49.95,000 --> 0:08:51,000
+que hay una bola de muerte en nuestro futuro?
+
+177
+0:08:55.898,000 --> 0:08:56,000
+NB: Es difícil de decir,
+
+178
+0:08:57.24,000 --> 0:09:03,000
+creo que también hay algunas bolas doradas en la urna, o eso parece.
+
+179
+0:09:03.667,000 --> 0:09:05,000
+Puede que haya algunas bolas doradas
+
+180
+0:09:06.059,000 --> 0:09:09,000
+que nos puedan proteger de las bolas negras.
+
+181
+0:09:09.583,000 --> 0:09:11,000
+Y no sé en qué orden van a salir.
+
+182
+0:09:12.583,000 --> 0:09:15,000
+CA: Una posible crítica filosófica a esta idea
+
+183
+0:09:16.434,000 --> 0:09:21,000
+es que implica la visión de que el futuro está básicamente determinado.
+
+184
+0:09:22.125,000 --> 0:09:24,000
+De que o bien está esa bola ahí o no está.
+
+185
+0:09:24.881,000 --> 0:09:28,000
+Y de alguna manera, no es una visión del futuro en la que quiero creer.
+
+186
+0:09:29.437,000 --> 0:09:31,000
+Quiero creer que el futuro es indeterminado,
+
+187
+0:09:31.752,000 --> 0:09:35,000
+que nuestras decisiones de hoy determinarán qué tipos de bolas sacamos.
+
+188
+0:09:37.917,000 --> 0:09:4,000
+NB: Si seguimos inventando,
+
+189
+0:09:41.844,000 --> 0:09:43,000
+al final acabaremos sacando todas las bolas.
+
+190
+0:09:44.625,000 --> 0:09:47,000
+Creo que hay una forma débil de determinismo tecnológico
+
+191
+0:09:47.859,000 --> 0:09:48,000
+que es bastante plausible,
+
+192
+0:09:49.339,000 --> 0:09:51,000
+como que es bastante improbable que encontremos una sociedad
+
+193
+0:09:52.32,000 --> 0:09:54,000
+que use hachas de pedernal y aviones tipo jet.
+
+194
+0:09:56.208,000 --> 0:10:,000
+Pero casi puedes pensar en una tecnología como un conjunto de posibilidades.
+
+195
+0:10:00.268,000 --> 0:10:02,000
+La tecnología nos permite hacer varias cosas
+
+196
+0:10:02.745,000 --> 0:10:03,000
+y conseguir diversos efectos en el mundo.
+
+197
+0:10:04.725,000 --> 0:10:06,000
+Cómo la usemos depende de nuestra elección como humanos.
+
+198
+0:10:07.787,000 --> 0:10:09,000
+Pero si pensamos en estos tres tipos de vulnerabilidades,
+
+199
+0:10:10.615,000 --> 0:10:13,000
+hacen unas asunciones bastante débiles sobre cómo podríamos elegir utilizarla.
+
+200
+0:10:14.282,000 --> 0:10:17,000
+En el Tipo 1 de vulnerabilidad, con su poder destructor masivo,
+
+201
+0:10:17.644,000 --> 0:10:19,000
+es una asunción bastante débil suponer
+
+202
+0:10:19.677,000 --> 0:10:21,000
+que en una población de millones de personas
+
+203
+0:10:21.723,000 --> 0:10:23,000
+haya alguno que elija usarlo de manera destructiva.
+
+204
+0:10:24.542,000 --> 0:10:26,000
+CA: Para mí, el argumento más inquietante
+
+205
+0:10:27,000 --> 0:10:31,000
+es que puede que tengamos cierta visión de la urna,
+
+206
+0:10:31.583,000 --> 0:10:34,000
+que hace pensar que muy posiblemente estemos condenados.
+
+207
+0:10:35.125,000 --> 0:10:39,000
+Por ejemplo, si crees en el poder de la aceleración,
+
+208
+0:10:39.768,000 --> 0:10:41,000
+esa tecnología inherentemente se acelera,
+
+209
+0:10:41.942,000 --> 0:10:43,000
+y si creamos la herramientas que nos den más poder
+
+210
+0:10:44.292,000 --> 0:10:47,000
+llegaremos a un punto
+
+211
+0:10:47.309,000 --> 0:10:49,000
+en el que un solo individuo pueda acabar con todo,
+
+212
+0:10:50.292,000 --> 0:10:52,000
+y eso nos lleva a pensar que estamos apañados.
+
+213
+0:10:53.143,000 --> 0:10:55,000
+¿No es un argumento bastante alarmante?
+
+214
+0:10:56.125,000 --> 0:10:57,000
+NB: Ah, sí...
+
+215
+0:10:58.708,000 --> 0:10:59,000
+(Risas)
+
+216
+0:11:00.14,000 --> 0:11:01,000
+Creo que...
+
+217
+0:11:02.875,000 --> 0:11:03,000
+Sí, tenemos más y más poder,
+
+218
+0:11:05.94,000 --> 0:11:06,000
+y es cada vez más sencillo utilizarlo,
+
+219
+0:11:08.458,000 --> 0:11:09,000
+pero también podemos inventar tecnologías
+
+220
+0:11:10.438,000 --> 0:11:13,000
+que nos ayuden a controlar cómo las personas utilizan ese poder.
+
+221
+0:11:14.083,000 --> 0:11:16,000
+CA: Hablemos de eso, de la respuesta.
+
+222
+0:11:16.508,000 --> 0:11:2,000
+Imagina todas las posibilidades que tenemos ahora,
+
+223
+0:11:21.417,000 --> 0:11:23,000
+no es solo la biología sintética,
+
+224
+0:11:23.513,000 --> 0:11:27,000
+sino cosas como la ciberguerra, la inteligencia artificial, etc.,
+
+225
+0:11:28.542,000 --> 0:11:32,000
+que indican que nuestro futuro puede estar seriamente condenado.
+
+226
+0:11:32.959,000 --> 0:11:33,000
+¿Cuáles son las posibles respuestas?
+
+227
+0:11:35.228,000 --> 0:11:38,000
+Has hablado de cuatro posibles respuestas.
+
+228
+0:11:39.625,000 --> 0:11:42,000
+NB: Restringir el desarrollo tecnológico no parece prometedor,
+
+229
+0:11:43.268,000 --> 0:11:46,000
+si hablamos de un parón general del progreso tecnológico,
+
+230
+0:11:46.638,000 --> 0:11:49,000
+no creo que sea ni factible ni deseable, aunque lo pudiéramos hacer.
+
+231
+0:11:50.167,000 --> 0:11:52,000
+Creo que hay áreas muy limitadas
+
+232
+0:11:53.044,000 --> 0:11:55,000
+en las que tal vez desees un progreso tecnológico más lento.
+
+233
+0:11:55.921,000 --> 0:11:58,000
+No creo que quieras un progreso mayor en bioarmamento,
+
+234
+0:11:59.801,000 --> 0:12:,000
+o en separación isotópica,
+
+235
+0:12:01.434,000 --> 0:12:03,000
+que facilitaría la creación de armas nucleares.
+
+236
+0:12:04.583,000 --> 0:12:07,000
+CA: Antes solía estar totalmente de acuerdo en eso.
+
+237
+0:12:07.893,000 --> 0:12:1,000
+Pero me gustaría retroceder un paso un momento.
+
+238
+0:12:11.184,000 --> 0:12:14,000
+Antes de nada, si ves la historia de hace un par de décadas,
+
+239
+0:12:15.36,000 --> 0:12:18,000
+ha sido una continua aceleración a toda velocidad,
+
+240
+0:12:18.809,000 --> 0:12:19,000
+está bien, pero es nuestra elección,
+
+241
+0:12:20.708,000 --> 0:12:24,000
+pero si te fijas en la globalización y su rápida aceleración,
+
+242
+0:12:24.976,000 --> 0:12:27,000
+si te fijas en la estrategia de "muévete rápido y rompe cosas"
+
+243
+0:12:28.434,000 --> 0:12:29,000
+y lo que ha producido,
+
+244
+0:12:30.542,000 --> 0:12:32,000
+y luego te fijas en el potencia de la biología sintética,
+
+245
+0:12:33.309,000 --> 0:12:38,000
+no creo que debamos avanzar rápidamente sin ningún tipo de restricción
+
+246
+0:12:39.205,000 --> 0:12:42,000
+hacia un mundo en el que pueda haber una impresora de ADN en cada casa
+
+247
+0:12:42.498,000 --> 0:12:43,000
+en cada laboratorio de secundaria.
+
+248
+0:12:45.087,000 --> 0:12:46,000
+Hay algunas restricciones, ¿verdad?
+
+249
+0:12:46.761,000 --> 0:12:49,000
+NB: Posiblemente en la primera parte, en la no factibilidad,
+
+250
+0:12:49.842,000 --> 0:12:52,000
+si crees que sería deseable pararla, aparece el problema de la factibilidad.
+
+251
+0:12:53.41,000 --> 0:12:55,000
+No ayudaría que un país...
+
+252
+0:12:56.059,000 --> 0:12:58,000
+CA: No, no ayudaría que un país lo hiciera,
+
+253
+0:12:58.115,000 --> 0:13:,000
+pero hemos tenido tratados con anterioridad.
+
+254
+0:13:01.333,000 --> 0:13:04,000
+Así es como hemos sobrevivido a la amenaza nuclear,
+
+255
+0:13:04.618,000 --> 0:13:07,000
+gracias a que hemos salido y hemos pasado por el penoso proceso de negociación.
+
+256
+0:13:08.542,000 --> 0:13:13,000
+Me pregunto si la lógica no es acaso que nosotros, como prioridad global,
+
+257
+0:13:14,000 --> 0:13:18,000
+no deberíamos salir e intentar negociar normas muy duras
+
+258
+0:13:18.114,000 --> 0:13:2,000
+sobre dónde se hace la investigación en biología sintética,
+
+259
+0:13:21.101,000 --> 0:13:23,000
+porque no es algo que quieras democratizar, ¿no?
+
+260
+0:13:23.856,000 --> 0:13:24,000
+NB: Estoy totalmente de acuerdo con eso,
+
+261
+0:13:25.803,000 --> 0:13:29,000
+sería deseable, por ejemplo,
+
+262
+0:13:30.059,000 --> 0:13:33,000
+tener máquinas para sintetizar ADN,
+
+263
+0:13:33.628,000 --> 0:13:36,000
+no de manera en la que cada laboratorio sea el dueño de su propio dispositivo,
+
+264
+0:13:37.292,000 --> 0:13:38,000
+sino como un servicio.
+
+265
+0:13:38.792,000 --> 0:13:4,000
+Podría haber cuatro o cinco lugares en el mundo
+
+266
+0:13:41.1,000 --> 0:13:44,000
+a los que enviar el modelo digital y recibir el ADN de vuelta, ¿verdad?
+
+267
+0:13:44.851,000 --> 0:13:47,000
+Entonces, tendrías la habilidad, si un día fuera necesario,
+
+268
+0:13:48.653,000 --> 0:13:5,000
+tendríamos un número finito de cuellos de botella.
+
+269
+0:13:51.458,000 --> 0:13:54,000
+Creo que tienes que fijarte en ciertos tipos de oportunidades
+
+270
+0:13:54.976,000 --> 0:13:56,000
+sobre las que quieres tener control.
+
+271
+0:13:57.059,000 --> 0:13:58,000
+CA: Crees, fundamentalmente,
+
+272
+0:13:58.726,000 --> 0:14:,000
+que no vamos a conseguir retenerlo.
+
+273
+0:14:01.643,000 --> 0:14:03,000
+Que alguien, en algún lugar como Corea del Norte,
+
+274
+0:14:04.497,000 --> 0:14:08,000
+va a descubrir este conocimiento, si es que es posible descubrirlo.
+
+275
+0:14:09.114,000 --> 0:14:11,000
+NB: Parece posible en las condiciones actuales.
+
+276
+0:14:11.311,000 --> 0:14:12,000
+No es solo la biología sintética,
+
+277
+0:14:12.895,000 --> 0:14:15,000
+sino que cualquier cambio nuevo y profundo en el mundo
+
+278
+0:14:15.937,000 --> 0:14:16,000
+puede convertirse en una bola negra.
+
+279
+0:14:17.727,000 --> 0:14:18,000
+CA: Vamos a ver otra posible respuesta.
+
+280
+0:14:19.583,000 --> 0:14:21,000
+NB: Creo que esto también tiene un potencial limitado.
+
+281
+0:14:23.251,000 --> 0:14:25,000
+Con el Tipo 1 de vulnerabilidad,
+
+282
+0:14:25.753,000 --> 0:14:3,000
+si puedes reducir el número de personas motivadas a destruir el mundo,
+
+283
+0:14:30.992,000 --> 0:14:32,000
+si solo ellos tuvieran acceso a los medios,
+
+284
+0:14:33.009,000 --> 0:14:34,000
+eso estaría bien.
+
+285
+0:14:34.211,000 --> 0:14:35,000
+CA: En esta imagen que nos muestras,
+
+286
+0:14:36.105,000 --> 0:14:39,000
+imaginas esos drones de reconocimiento facial volando alrededor del mundo.
+
+287
+0:14:39.774,000 --> 0:14:42,000
+Cuando detectan a alguien con signos de comportamiento sociopático,
+
+288
+0:14:43.267,000 --> 0:14:45,000
+lo cubren de amor y lo curan.
+
+289
+0:14:45.875,000 --> 0:14:46,000
+NB: Creo que es una imagen híbrida.
+
+290
+0:14:47.768,000 --> 0:14:51,000
+Eliminar puede significar encarcelar o matar,
+
+291
+0:14:52.057,000 --> 0:14:54,000
+o persuadir de una visión más optimista del mundo.
+
+292
+0:14:54.875,000 --> 0:14:56,000
+Pero el asunto es,
+
+293
+0:14:57.151,000 --> 0:14:58,000
+imagina que tuvieras éxito
+
+294
+0:14:58.852,000 --> 0:15:,000
+y redujeras el número de esos individuos a la mitad.
+
+295
+0:15:01.793,000 --> 0:15:03,000
+Si lo quieres hacer mediante la persuasión,
+
+296
+0:15:03.912,000 --> 0:15:05,000
+estás compitiendo contra otras fuerzas poderosas
+
+297
+0:15:06.154,000 --> 0:15:07,000
+que tratan de persuadir a la gente:
+
+298
+0:15:07.847,000 --> 0:15:09,000
+partidos políticos, religión o el sistema educativo.
+
+299
+0:15:10.288,000 --> 0:15:11,000
+Pero imagina que lo reduces a la mitad;
+
+300
+0:15:12.153,000 --> 0:15:14,000
+no creo que el riesgo se redujera a la mitad,
+
+301
+0:15:14.281,000 --> 0:15:15,000
+sino a un 5 o 10 %.
+
+302
+0:15:15.726,000 --> 0:15:17,000
+CA: No recomiendas que nos juguemos el futuro de la humanidad
+
+303
+0:15:18.645,000 --> 0:15:19,000
+a la respuesta 2.
+
+304
+0:15:20.085,000 --> 0:15:23,000
+NB: Creo que está muy bien tratar de disuadir a las personas,
+
+305
+0:15:23.143,000 --> 0:15:25,000
+pero no deberíamos considerarlo nuestro único salvavidas.
+
+306
+0:15:25.893,000 --> 0:15:26,000
+CA: ¿Y la tercera?
+
+307
+0:15:27.458,000 --> 0:15:29,000
+NB: Creo que hay tres métodos generales
+
+308
+0:15:30.351,000 --> 0:15:34,000
+con los que que podemos tener la habilidad de estabilizar el mundo
+
+309
+0:15:34.351,000 --> 0:15:37,000
+contra todo el espectro de posibles vulnerabilidades.
+
+310
+0:15:37.351,000 --> 0:15:38,000
+Y probablemente necesitamos las dos.
+
+311
+0:15:39.41,000 --> 0:15:44,000
+Una es una habilidad extremadamente efectiva de crear políticas preventivas,
+
+312
+0:15:45.292,000 --> 0:15:46,000
+pensadas para interceptar.
+
+313
+0:15:46.816,000 --> 0:15:48,000
+Si todos empezaran a hacer esto tan peligroso,
+
+314
+0:15:49.625,000 --> 0:15:51,000
+podrías interceptarlos en tiempo real y detenerlos.
+
+315
+0:15:52.689,000 --> 0:15:54,000
+Esto requeriría vigilancia ubicua,
+
+316
+0:15:54.785,000 --> 0:15:56,000
+todo el mundo estaría monitorizado todo el tiempo.
+
+317
+0:15:58.137,000 --> 0:16:,000
+CA: Esto es "Minority Report", en esencia.
+
+318
+0:16:00.917,000 --> 0:16:01,000
+NB: Tal vez tendrías algoritmos de IA,
+
+319
+0:16:02.851,000 --> 0:16:06,000
+grandes centros de libertad que estarían revisándolos, etc.
+
+320
+0:16:08.583,000 --> 0:16:09,000
+CA: ¿Sabes que la vigilancia masiva
+
+321
+0:16:10.42,000 --> 0:16:12,000
+no es un término muy popular en este momento?
+
+322
+0:16:13,000 --> 0:16:14,000
+(Risas)
+
+323
+0:16:15.378,000 --> 0:16:17,000
+NB: Sí, ese pequeño dispositivo,
+
+324
+0:16:17.392,000 --> 0:16:2,000
+imagina un tipo de collar que tuvieras que llevar todo el tiempo
+
+325
+0:16:20.893,000 --> 0:16:22,000
+con cámaras multidireccionales.
+
+326
+0:16:23.652,000 --> 0:16:24,000
+Pero para hacerlo más llevadero,
+
+327
+0:16:25.407,000 --> 0:16:27,000
+imagínate llamarlo "etiqueta de libertad" o algo así.
+
+328
+0:16:27.903,000 --> 0:16:29,000
+(Risas)
+
+329
+0:16:30.184,000 --> 0:16:31,000
+CA: De acuerdo.
+
+330
+0:16:31.5,000 --> 0:16:33,000
+Esta es la conversación, amigos,
+
+331
+0:16:33.625,000 --> 0:16:36,000
+esta es la razón por la que es una conversación alucinante.
+
+332
+0:16:36.744,000 --> 0:16:39,000
+NB: De hecho, ya hay una gran conversación sobre de esto, obviamente.
+
+333
+0:16:40.897,000 --> 0:16:42,000
+Entraña grandes problemas y riesgos, ¿verdad?
+
+334
+0:16:43.533,000 --> 0:16:44,000
+Tal vez volvamos a eso.
+
+335
+0:16:44.934,000 --> 0:16:47,000
+Así que última, la otra capacidad de estabilización general
+
+336
+0:16:48.906,000 --> 0:16:49,000
+es llenar otro vacío de gobernanza.
+
+337
+0:16:50.887,000 --> 0:16:54,000
+De modo que la vigilancia sería un vacío de gobernanza a nivel micro,
+
+338
+0:16:55.101,000 --> 0:16:57,000
+como impedir que cualquiera haga algo altamente ilegal.
+
+339
+0:16:58.25,000 --> 0:17:01,000
+Pero hay un vacío de gobernanza a nivel macro, global.
+
+340
+0:17:01.983,000 --> 0:17:05,000
+Necesitarías la habilidad, de manera fiable,
+
+341
+0:17:06.37,000 --> 0:17:08,000
+de prevenir los mayores fallos de coordinación global,
+
+342
+0:17:09.309,000 --> 0:17:12,000
+para evitar guerras entre grandes poderes,
+
+343
+0:17:12.661,000 --> 0:17:13,000
+guerras armamentísticas,
+
+344
+0:17:15.38,000 --> 0:17:17,000
+problemas cataclísmicos de los bienes comunes,
+
+345
+0:17:19.667,000 --> 0:17:22,000
+para poder lidiar con las vulnerabilidades del Tipo 2a.
+
+346
+0:17:23.875,000 --> 0:17:27,000
+CA: La gobernanza global es un término totalmente en desuso ahora,
+
+347
+0:17:28.107,000 --> 0:17:29,000
+pero se podría argumentar
+
+348
+0:17:29.645,000 --> 0:17:31,000
+que a lo largo de la historia de la humanidad,
+
+349
+0:17:31.853,000 --> 0:17:35,000
+en cada fase del aumento del poder tecnológico,
+
+350
+0:17:37.365,000 --> 0:17:4,000
+la gente se ha reorganizado para centralizar el poder, por así decir,
+
+351
+0:17:40.625,000 --> 0:17:43,000
+Por ejemplo, cuando una banda errante de criminales
+
+352
+0:17:44.059,000 --> 0:17:45,000
+podía conquistar una sociedad,
+
+353
+0:17:45.768,000 --> 0:17:47,000
+se respondía con el Estado nación,
+
+354
+0:17:47.771,000 --> 0:17:49,000
+y se centralizaba la fuerza, policial o militar,
+
+355
+0:17:50.126,000 --> 0:17:52,000
+así que "no, no puedes hacer eso".
+
+356
+0:17:52.143,000 --> 0:17:57,000
+La lógica de que una sola persona o grupo pueda conquistar la humanidad
+
+357
+0:17:57.846,000 --> 0:18:,000
+tal vez signifique que en algún momento tendremos que tomar este camino,
+
+358
+0:18:01.247,000 --> 0:18:02,000
+al menos en cierta manera, ¿no?
+
+359
+0:18:02.725,000 --> 0:18:05,000
+NB: Es cierto que la escala de la organización política ha aumentado
+
+360
+0:18:06.309,000 --> 0:18:08,000
+a lo largo de la historia de la humanidad.
+
+361
+0:18:08.416,000 --> 0:18:1,000
+Solíamos ser grupos de cazadores-recolectores,
+
+362
+0:18:10.612,000 --> 0:18:12,000
+luego liderados por jefes, Estados naciones, naciones,
+
+363
+0:18:13.09,000 --> 0:18:17,000
+y ahora hay organizaciones internacionales y todo eso.
+
+364
+0:18:17.5,000 --> 0:18:19,000
+De nuevo, solo quiero asegurarme
+
+365
+0:18:19.688,000 --> 0:18:21,000
+de que remarco que obviamente hay enormes desventajas,
+
+366
+0:18:22.684,000 --> 0:18:23,000
+y desde luego, riesgos descomunales,
+
+367
+0:18:24.42,000 --> 0:18:27,000
+tanto en la vigilancia masiva como en la gobernanza global.
+
+368
+0:18:27.601,000 --> 0:18:29,000
+Solo estoy destacando que, si tenemos suerte,
+
+369
+0:18:30.144,000 --> 0:18:31,000
+el mundo puede llegar a un punto
+
+370
+0:18:31.693,000 --> 0:18:33,000
+en el que solo así podamos sobrevivir a la bola negra.
+
+371
+0:18:34.458,000 --> 0:18:35,000
+CA: La lógica de esta teoría,
+
+372
+0:18:36.976,000 --> 0:18:37,000
+me parece,
+
+373
+0:18:38.268,000 --> 0:18:41,000
+es que tenemos que asumir que no podemos tenerlo todo.
+
+374
+0:18:41.893,000 --> 0:18:47,000
+Que el sueño inocente, por así decir, que muchos de nosotros teníamos
+
+375
+0:18:48.3,000 --> 0:18:51,000
+de que esa tecnología siempre va a ser una fuerza positiva,
+
+376
+0:18:51.851,000 --> 0:18:54,000
+sigue adelante, no pares, ve tan rápido como puedas
+
+377
+0:18:54.851,000 --> 0:18:56,000
+y no te fijes en las consecuencias,
+
+378
+0:18:57.25,000 --> 0:18:58,000
+ya no es una opción.
+
+379
+0:18:58.958,000 --> 0:18:59,000
+Podemos tenerlo.
+
+380
+0:19:00.893,000 --> 0:19:01,000
+Si podemos tenerlo,
+
+381
+0:19:02.184,000 --> 0:19:06,000
+tendremos que aceptar algunos aspectos muy incómodos que conlleva,
+
+382
+0:19:06.25,000 --> 0:19:08,000
+y entrar esta carrera armamentística con nosotros mismos,
+
+383
+0:19:08.93,000 --> 0:19:1,000
+de modo que si quieres poder tienes que limitarlo,
+
+384
+0:19:11.285,000 --> 0:19:12,000
+y más te vale averiguar cómo.
+
+385
+0:19:12.934,000 --> 0:19:15,000
+NB: Creo que es una opción,
+
+386
+0:19:16.434,000 --> 0:19:18,000
+una opción muy tentadora, diría que la más sencilla,
+
+387
+0:19:19.026,000 --> 0:19:2,000
+y podría funcionar,
+
+388
+0:19:20.542,000 --> 0:19:24,000
+pero significa que somos fundamentalmente vulnerables a extraer la bola negra.
+
+389
+0:19:25.351,000 --> 0:19:27,000
+Pero pienso que con un poco de coordinación,
+
+390
+0:19:27.452,000 --> 0:19:29,000
+pongamos que has resuelto el problema de la macrogobernanza
+
+391
+0:19:30.292,000 --> 0:19:31,000
+y el de la microgobernanza,
+
+392
+0:19:31.917,000 --> 0:19:33,000
+podríamos extraer todas las bolas de la urna
+
+393
+0:19:34.226,000 --> 0:19:35,000
+y beneficiarnos enormemente.
+
+394
+0:19:36.542,000 --> 0:19:39,000
+CA: Y si estamos viviendo en una simulación, ¿qué más da?
+
+395
+0:19:39.836,000 --> 0:19:4,000
+Simplemente nos reiniciamos.
+
+396
+0:19:41.333,000 --> 0:19:42,000
+(Risas)
+
+397
+0:19:42.601,000 --> 0:19:43,000
+NB: Entonces...
+
+398
+0:19:44.268,000 --> 0:19:46,000
+(Risas)
+
+399
+0:19:46.598,000 --> 0:19:47,000
+Eso no me lo esperaba.
+
+400
+0:19:50.125,000 --> 0:19:51,000
+CA: ¿Cuál es tu opinión?
+
+401
+0:19:51.577,000 --> 0:19:52,000
+Si juntamos todas las piezas,
+
+402
+0:19:53.15,000 --> 0:19:55,000
+qué posibilidades tenemos de estar condenados?
+
+403
+0:19:56.25,000 --> 0:19:57,000
+(Risas)
+
+404
+0:19:58.852,000 --> 0:20:,000
+Me encanta que la gente se ría cuando hago esa pregunta.
+
+405
+0:20:01.488,000 --> 0:20:02,000
+NB: A nivel individual,
+
+406
+0:20:03.349,000 --> 0:20:06,000
+parece que ya estamos condenados, solo con el cronograma,
+
+407
+0:20:06.684,000 --> 0:20:08,000
+nos pudrimos y envejecemos y todo eso, ¿verdad?
+
+408
+0:20:09.309,000 --> 0:20:1,000
+(Risas)
+
+409
+0:20:10.554,000 --> 0:20:11,000
+La verdad es que es un poco complicado.
+
+410
+0:20:12.407,000 --> 0:20:14,000
+Si quieres hacerte una idea para obtener una probabilidad,
+
+411
+0:20:15.164,000 --> 0:20:16,000
+antes de nada, ¿quiénes somos?
+
+412
+0:20:16.596,000 --> 0:20:18,000
+Si eres muy mayor, seguramente morirás de causas naturales,
+
+413
+0:20:19.476,000 --> 0:20:21,000
+si eres muy joven, tal vez vivas 100 años;
+
+414
+0:20:21.571,000 --> 0:20:23,000
+la probabilidad dependerá de a quién preguntes.
+
+415
+0:20:23.858,000 --> 0:20:26,000
+Luego está el umbral: ¿Qué se considera como devastación de la humanidad?
+
+416
+0:20:28.292,000 --> 0:20:33,000
+Sobre el papel, no necesito una catástrofe existencial
+
+417
+0:20:33.832,000 --> 0:20:34,000
+para que la considere como tal.
+
+418
+0:20:35.633,000 --> 0:20:36,000
+Es cuestión de definición:
+
+419
+0:20:37.125,000 --> 0:20:4,000
+si digo mil millones de muertos, o la reducción del PIB al 50 %,
+
+420
+0:20:40.432,000 --> 0:20:42,000
+así que dependiendo de dónde pongas el umbral,
+
+421
+0:20:42.638,000 --> 0:20:44,000
+obtienes una estimación de probabilidad diferente.
+
+422
+0:20:45.018,000 --> 0:20:48,000
+Supongo que me podrías catalogar como un optimista asustado.
+
+423
+0:20:49.009,000 --> 0:20:5,000
+(Risas)
+
+424
+0:20:50.458,000 --> 0:20:51,000
+CA: Eres un optimista asustado,
+
+425
+0:20:52.101,000 --> 0:20:57,000
+y creo que acabas de crear una gran cantidad de personas asustadas...
+
+426
+0:20:57.213,000 --> 0:20:58,000
+(Risas)
+
+427
+0:20:58.402,000 --> 0:20:59,000
+NB: En la simulación.
+
+428
+0:20:59.569,000 --> 0:21:,000
+CA: En una simulación.
+
+429
+0:21:00.811,000 --> 0:21:02,000
+Nick Bostrom, tu mente me fascina,
+
+430
+0:21:02.859,000 --> 0:21:04,000
+muchas gracias por asustarnos hasta la médula.
+
+431
+0:21:05.256,000 --> 0:21:07,000
+(Aplausos)
+

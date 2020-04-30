@@ -1,0 +1,572 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Matthieu Coville Relecteur: eric vautier
+
+2
+0:00:12.16,000 --> 0:00:14,000
+Je vais commencer par vous demander de vous souvenir quand vous étiez enfant,
+
+3
+0:00:14.16,000 --> 0:00:16,000
+et que vous jouiez avec des cubes.
+
+4
+0:00:16.16,000 --> 0:00:18,000
+Tandis que vous découvriez comment tendre le bras et les saisir,
+
+5
+0:00:18.16,000 --> 0:00:2,000
+les soulever et les déplacer,
+
+6
+0:00:20.16,000 --> 0:00:22,000
+vous appreniez en fait à réfléchir et à résoudre des problèmes
+
+7
+0:00:22.16,000 --> 0:00:25,000
+en comprenant et en manipulant des relations dans l'espace.
+
+8
+0:00:25.16,000 --> 0:00:28,000
+Le raisonnement dans l'espace est profondément lié
+
+9
+0:00:28.16,000 --> 0:00:3,000
+à notre façon de comprendre une grande partie du monde qui nous entoure.
+
+10
+0:00:30.16,000 --> 0:00:32,000
+Donc, en tant qu'informaticien
+
+11
+0:00:32.16,000 --> 0:00:35,000
+inspiré par cette utilité de nos interactions avec les objets physiques,
+
+12
+0:00:35.16,000 --> 0:00:39,000
+avec l'aide de ma conseillère Pattie, et de mon collaborateur Jeevan Kalanithi,
+
+13
+0:00:39.16,000 --> 0:00:42,000
+j'ai commencé à me demander... qu'adviendrait-il si pour utiliser un ordinateur,
+
+14
+0:00:42.16,000 --> 0:00:45,000
+au lieu d'avoir ce curseur de souris qui sert de doigt numérique
+
+15
+0:00:45.16,000 --> 0:00:47,000
+qui se promène sur un bureau plat,
+
+16
+0:00:47.16,000 --> 0:00:51,000
+on pouvait tendre les deux mains et saisir l'information physiquement,
+
+17
+0:00:51.16,000 --> 0:00:53,000
+pour l'arranger de la manière qu'on veut ?
+
+18
+0:00:53.16,000 --> 0:00:56,000
+Cette question était tellement fascinante que nous avons décidé d'étudier la réponse,
+
+19
+0:00:56.16,000 --> 0:00:58,000
+en fabriquant les Siftables.
+
+20
+0:00:58.16,000 --> 0:01:01,000
+Pour résumer, un Siftable est un ordinateur interactif
+
+21
+0:01:01.16,000 --> 0:01:03,000
+de la taille d'un cookie.
+
+22
+0:01:03.16,000 --> 0:01:05,000
+On peut les déplacer à la main,
+
+23
+0:01:05.16,000 --> 0:01:07,000
+ils peuvent se reconnaître entre eux, ils peuvent sentir leur mouvement,
+
+24
+0:01:07.16,000 --> 0:01:1,000
+et ils sont équipés d'un écran et d'une radio sans fil.
+
+25
+0:01:10.16,000 --> 0:01:12,000
+Plus important encore, ce sont des objets physiques,
+
+26
+0:01:12.16,000 --> 0:01:15,000
+donc tout comme les cubes, on peut les déplacer simplement en tendant le bras et en les prenant en main.
+
+27
+0:01:15.16,000 --> 0:01:18,000
+Et les Siftables sont un exemple de nouvel écosystème
+
+28
+0:01:18.16,000 --> 0:01:2,000
+d'outils pour manipuler l'information numérique.
+
+29
+0:01:20.16,000 --> 0:01:23,000
+A mesure que ces outils deviennent de plus en plus physiques,
+
+30
+0:01:23.16,000 --> 0:01:25,000
+davantage conscients de leur mouvement, de la présence des autres,
+
+31
+0:01:25.16,000 --> 0:01:27,000
+et conscients des nuances dans notre façon de les déplacer,
+
+32
+0:01:27.16,000 --> 0:01:3,000
+on peut commencer à étudier de nouveaux styles d'interactions amusants.
+
+33
+0:01:30.16,000 --> 0:01:32,000
+Donc je vais commencer par quelques exemples simples.
+
+34
+0:01:32.16,000 --> 0:01:35,000
+Ce Siftable est configuré pour montrer de la vidéo,
+
+35
+0:01:35.16,000 --> 0:01:37,000
+et si je l'incline dans une direction, il fera avancer la vidéo dans ce sens,
+
+36
+0:01:37.16,000 --> 0:01:4,000
+si je l'incline dans l'autre sens la vidéo reviendra en arrière.
+
+37
+0:01:40.16,000 --> 0:01:43,000
+Et ces portraits interactifs sont conscients de la présence des autres.
+
+38
+0:01:43.16,000 --> 0:01:46,000
+Donc si je les mets les uns à côté des autres, ils s'y intéressent.
+
+39
+0:01:46.16,000 --> 0:01:5,000
+S'ils se retrouvent encerclés, ils s'en rendent compte aussi,
+
+40
+0:01:50.16,000 --> 0:01:52,000
+et ils peuvent devenir un peu agités.
+
+41
+0:01:52.16,000 --> 0:01:56,000
+Ils peuvent aussi sentir leur mouvement et leur inclinaison.
+
+42
+0:01:56.16,000 --> 0:02:01,000
+Nous avons commencé à réaliser que l'une des implications intéressantes de l'interaction,
+
+43
+0:02:01.16,000 --> 0:02:03,000
+c'était que l'on pouvait utiliser des gestes du quotidien avec les données,
+
+44
+0:02:03.16,000 --> 0:02:06,000
+comme de verser une couleur de la même manière qu'on verserait un liquide.
+
+45
+0:02:06.16,000 --> 0:02:1,000
+Donc dans ce cas, on a trois Siftables configurés en pots de peinture
+
+46
+0:02:10.16,000 --> 0:02:13,000
+et je peux les utiliser pour verser des couleurs dans celui du milieu,
+
+47
+0:02:13.16,000 --> 0:02:15,000
+où elles se mélangent.
+
+48
+0:02:15.16,000 --> 0:02:18,000
+Si on en met trop, on peut en enlever un petit peu.
+
+49
+0:02:19.16,000 --> 0:02:22,000
+Cela ouvre aussi de belles opportunités en ce qui concerne l'éducation,
+
+50
+0:02:22.16,000 --> 0:02:24,000
+comme les langues, les mathématiques et les jeux de logique,
+
+51
+0:02:24.16,000 --> 0:02:26,000
+où on veut donner aux gens la possibilité de faire des essais rapidement,
+
+52
+0:02:26.16,000 --> 0:02:29,000
+et de constater les résultats immédiatement.
+
+53
+0:02:29.16,000 --> 0:02:31,000
+Donc là je...
+
+54
+0:02:31.16,000 --> 0:02:33,000
+(Applaudissements)
+
+55
+0:02:33.16,000 --> 0:02:37,000
+C'est une suite de Fibonacci que je fais avec un simple programme d'équation.
+
+56
+0:02:37.16,000 --> 0:02:41,000
+Ici on a un jeu de lettres qui est une espèce de mélange entre le Scrabble et le Boggle.
+
+57
+0:02:41.16,000 --> 0:02:43,000
+En gros, à chaque tour
+
+58
+0:02:43.16,000 --> 0:02:45,000
+une lettre est attribuée aléatoirement sur chaque Siftable,
+
+59
+0:02:45.16,000 --> 0:02:48,000
+et tandis que vous essayez de faire des mots, il vérifie dans un dictionnaire.
+
+60
+0:02:48.16,000 --> 0:02:51,000
+Ensuite, au bout de 30 secondes, il mélange à nouveau,
+
+61
+0:02:51.16,000 --> 0:02:54,000
+et on a un nouvel ensemble de lettres et de nouvelles possibilités à explorer.
+
+62
+0:02:54.16,000 --> 0:02:55,000
+(Applaudissements)
+
+63
+0:02:55.16,000 --> 0:02:56,000
+Merci.
+
+64
+0:02:56.16,000 --> 0:02:58,000
+(Applaudissements)
+
+65
+0:02:58.16,000 --> 0:03:,000
+Voici des enfants qui sont venus au Media Lab pour une sortie scolaire,
+
+66
+0:03:00.16,000 --> 0:03:03,000
+et j'ai réussi à leur faire essayer, sous l'œil de la caméra.
+
+67
+0:03:10.16,000 --> 0:03:12,000
+Ils ont vraiment adoré.
+
+68
+0:03:12.16,000 --> 0:03:15,000
+De plus, l'un des aspects intéressants de ce genre d'application
+
+69
+0:03:15.16,000 --> 0:03:18,000
+c'est qu'on n'a pas besoin de donner aux gens des tas d'instructions.
+
+70
+0:03:18.16,000 --> 0:03:2,000
+Tout ce qu'on a à dire, c'est: "Fais des mots",
+
+71
+0:03:20.16,000 --> 0:03:22,000
+et ils savent exactement quoi faire.
+
+72
+0:03:22.16,000 --> 0:03:24,000
+Voici un autre groupe de gens en train de les essayer.
+
+73
+0:03:31.16,000 --> 0:03:34,000
+Voilà notre plus jeune bêta testeur, en bas à droite.
+
+74
+0:03:36.16,000 --> 0:03:41,000
+En fait, tout ce qui l'intéressait c'était d'empiler les Siftables.
+
+75
+0:03:42.16,000 --> 0:03:45,000
+Pour lui, ce n'était que des cubes.
+
+76
+0:03:46.16,000 --> 0:03:49,000
+Là, on a une application de dessin animé interactif.
+
+77
+0:03:49.16,000 --> 0:03:54,000
+Nous voulions construire un outil d'apprentissage pour ceux qui apprennent des langues.
+
+78
+0:03:54.16,000 --> 0:03:56,000
+Eh bien voilà Félix.
+
+79
+0:03:57.16,000 --> 0:03:59,000
+Il peut amener de nouveaux personnages dans la scène,
+
+80
+0:03:59.16,000 --> 0:04:03,000
+simplement en soulevant de la table les Siftables présentant ce personnage.
+
+81
+0:04:03.16,000 --> 0:04:06,000
+Là, il fait lever le Soleil.
+
+82
+0:04:07.16,000 --> 0:04:09,000
+Vidéo: Le Soleil se lève.
+
+83
+0:04:09.16,000 --> 0:04:12,000
+David Merrill: Là il a ajouté un tracteur à la scène.
+
+84
+0:04:13.16,000 --> 0:04:15,000
+Vidéo: Le tracteur orange.
+
+85
+0:04:15.16,000 --> 0:04:17,000
+Bien joué ! Ouais !
+
+86
+0:04:18.16,000 --> 0:04:21,000
+Donc en secouant les Siftables et en les plaçant les uns à côté des autres
+
+87
+0:04:21.16,000 --> 0:04:23,000
+il peut faire interagir les personnages...
+
+88
+0:04:23.16,000 --> 0:04:24,000
+Vidéo: Ouaf !
+
+89
+0:04:24.16,000 --> 0:04:26,000
+DM: et inventer sa propre histoire.
+
+90
+0:04:26.16,000 --> 0:04:27,000
+Vidéo: Salut !
+
+91
+0:04:27.16,000 --> 0:04:29,000
+DM: C'est une histoire avec une fin ouverte,
+
+92
+0:04:29.16,000 --> 0:04:31,000
+à lui de choisir le dénouement.
+
+93
+0:04:34.16,000 --> 0:04:36,000
+Vidéo: Enfuis-toi, le chat.
+
+94
+0:04:42.16,000 --> 0:04:45,000
+DM: Le dernier exemple que j'ai le temps de vous montrer aujourd'hui
+
+95
+0:04:45.16,000 --> 0:04:47,000
+est un outil d'arrangement musical et de performance en direct
+
+96
+0:04:47.16,000 --> 0:04:49,000
+que nous avons construit récemment,
+
+97
+0:04:49.16,000 --> 0:04:52,000
+dans lequel les Siftables jouent le rôle de sons
+
+98
+0:04:52.16,000 --> 0:04:54,000
+comme la voix principale, la basse et la batterie.
+
+99
+0:04:54.16,000 --> 0:04:56,000
+Chacun d'entre eux possède quatre variations,
+
+100
+0:04:56.16,000 --> 0:04:58,000
+on peut choisir celle qu'on veut utiliser.
+
+101
+0:04:58.16,000 --> 0:05:01,000
+Et on peut intégrer ces sons dans une séquence
+
+102
+0:05:01.16,000 --> 0:05:04,000
+que l'on peut assembler au sein du schéma qu'on veut.
+
+103
+0:05:04.16,000 --> 0:05:08,000
+et on l'intègre simplement en cognant le Siftable de son contre un Siftable de séquence.
+
+104
+0:05:08.16,000 --> 0:05:12,000
+Il y a des effets que l'on peut contrôler en direct, comme la réverbération et le filtre.
+
+105
+0:05:12.16,000 --> 0:05:15,000
+On l'attache à un son en particulier et ensuite on incline pour l'ajuster.
+
+106
+0:05:15.16,000 --> 0:05:18,000
+En plus, il y a des effets généraux comme le tempo et le volume
+
+107
+0:05:18.16,000 --> 0:05:2,000
+qui s'appliquent à toute la séquence.
+
+108
+0:05:20.16,000 --> 0:05:22,000
+Jetons un œil.
+
+109
+0:05:22.16,000 --> 0:05:24,000
+Vidéo: (Musique)
+
+110
+0:05:24.16,000 --> 0:05:26,000
+DM: On va commencer en mettant une voix principale
+
+111
+0:05:26.16,000 --> 0:05:31,000
+dans deux Siftables de séquence, on les met à la suite,
+
+112
+0:05:31.16,000 --> 0:05:33,000
+on allonge la suite avec un peu plus de voix principale.
+
+113
+0:05:34.16,000 --> 0:05:36,000
+Là j'ajoute une ligne de basse.
+
+114
+0:05:36.16,000 --> 0:05:41,000
+Vidéo: (Musique)
+
+115
+0:05:41.16,000 --> 0:05:43,000
+DM: Maintenant je vais ajouter des percussions.
+
+116
+0:05:43.16,000 --> 0:05:48,000
+Vidéo: (Musique)
+
+117
+0:05:48.16,000 --> 0:05:51,000
+DM: Et maintenant je vais attacher le filtre à la batterie, pour pouvoir contrôler les effets en direct.
+
+118
+0:05:51.16,000 --> 0:05:53,000
+Vidéo: (Musique)
+
+119
+0:05:53.16,000 --> 0:05:55,000
+DM: Je peux accélérer toute la séquence
+
+120
+0:05:55.16,000 --> 0:05:58,000
+en inclinant le tempo dans un sens ou dans l'autre.
+
+121
+0:05:58.16,000 --> 0:06:,000
+Vidéo: (Musique)
+
+122
+0:06:00.16,000 --> 0:06:03,000
+DM: Et maintenant je vais attacher le filtre à la basse, pour plus d'expressivité.
+
+123
+0:06:03.16,000 --> 0:06:08,000
+Vidéo: (Musique)
+
+124
+0:06:08.16,000 --> 0:06:11,000
+DM: Je peux réorganiser la séquence pendant la lecture.
+
+125
+0:06:11.16,000 --> 0:06:13,000
+Je n'ai donc pas besoin de la planifier à l'avance, mais je peux improviser,
+
+126
+0:06:13.16,000 --> 0:06:15,000
+je peux l'allonger ou la raccourcir en plein milieu.
+
+127
+0:06:16.16,000 --> 0:06:19,000
+Et enfin, je peux diminuer progressivement le volume de la séquence
+
+128
+0:06:19.16,000 --> 0:06:22,000
+en utilisant le Siftable de volume, incliné sur la gauche.
+
+129
+0:06:22.16,000 --> 0:06:27,000
+(Applaudissements)
+
+130
+0:06:27.16,000 --> 0:06:29,000
+Merci.
+
+131
+0:06:29.16,000 --> 0:06:32,000
+Donc, comme vous le voyez,
+
+132
+0:06:32.16,000 --> 0:06:35,000
+ma passion est de créer de nouvelles interfaces entre humains et ordinateurs
+
+133
+0:06:35.16,000 --> 0:06:38,000
+qui correspondent mieux à la façon dont fonctionnent notre cerveau et notre corps.
+
+134
+0:06:38.16,000 --> 0:06:42,000
+Aujourd'hui, j'ai eu le temps de vous montrer un point de ce nouvel espace de conception,
+
+135
+0:06:42.16,000 --> 0:06:45,000
+et quelques-unes des possibilités que nous cherchons à faire sortir du laboratoire.
+
+136
+0:06:45.16,000 --> 0:06:47,000
+La dernière pensée que je veux vous transmettre,
+
+137
+0:06:47.16,000 --> 0:06:5,000
+c'est que cette nouvelle génération d'outils s'annonce
+
+138
+0:06:50.16,000 --> 0:06:53,000
+pour interagir avec les médias numériques,
+
+139
+0:06:53.16,000 --> 0:06:56,000
+qui apporteront l'information dans notre monde
+
+140
+0:06:56.16,000 --> 0:06:58,000
+à notre manière.
+
+141
+0:06:58.16,000 --> 0:06:59,000
+Merci beaucoup.
+
+142
+0:06:59.16,000 --> 0:07:01,000
+J'ai hâte de discuter avec vous tous.
+
+143
+0:07:01.16,000 --> 0:07:03,000
+(Applaudissements)
+

@@ -1,0 +1,620 @@
+1
+0:00:12.691,000 --> 0:00:13,000
+I was only nine
+
+2
+0:00:13.993,000 --> 0:00:17,000
+when my grandfather first described to me the horrors he witnessed six years earlier
+
+3
+0:00:18.94,000 --> 0:00:2,000
+when human stampedes killed 39 people
+
+4
+0:00:21.868,000 --> 0:00:23,000
+in our hometown of Nashik, India.
+
+5
+0:00:24.461,000 --> 0:00:27,000
+It was during the 2003 Nashik Kumbh Mela,
+
+6
+0:00:27.774,000 --> 0:00:29,000
+one of the world's largest religious gatherings.
+
+7
+0:00:31.213,000 --> 0:00:34,000
+Every 12 years, over 30 million Hindu worshippers
+
+8
+0:00:34.967,000 --> 0:00:35,000
+descend upon our city --
+
+9
+0:00:36.57,000 --> 0:00:38,000
+which is built only for 1.5 million people --
+
+10
+0:00:39.434,000 --> 0:00:4,000
+and stay for 45 days.
+
+11
+0:00:41.601,000 --> 0:00:44,000
+The main purpose is to wash away all their sins
+
+12
+0:00:44.696,000 --> 0:00:46,000
+by bathing in the river Godavari.
+
+13
+0:00:47.807,000 --> 0:00:49,000
+And stampedes may easily happen
+
+14
+0:00:50.069,000 --> 0:00:53,000
+because a high-density crowd moves at a slow pace.
+
+15
+0:00:54.002,000 --> 0:00:58,000
+Apart from Nashik, this event happens in three other places in India,
+
+16
+0:00:58.335,000 --> 0:00:59,000
+with varying frequency,
+
+17
+0:01:00.078,000 --> 0:01:02,000
+and between 2001 and 2014,
+
+18
+0:01:02.871,000 --> 0:01:07,000
+over 2,400 lives have been lost in stampedes at these events.
+
+19
+0:01:09.362,000 --> 0:01:1,000
+What saddened me the most
+
+20
+0:01:11.243,000 --> 0:01:15,000
+is seeing people around me resigning to the city's fate
+
+21
+0:01:15.782,000 --> 0:01:18,000
+in witnessing the seemingly inevitable deaths of dozens
+
+22
+0:01:19.631,000 --> 0:01:2,000
+at every Kumbh Mela.
+
+23
+0:01:21.448,000 --> 0:01:22,000
+I sought to change this,
+
+24
+0:01:22.902,000 --> 0:01:24,000
+and I thought, why can't I try to find a solution to this?
+
+25
+0:01:25.901,000 --> 0:01:26,000
+Because I knew it is wrong.
+
+26
+0:01:27.701,000 --> 0:01:3,000
+Having learned coding at an early age and being a maker,
+
+27
+0:01:31.177,000 --> 0:01:32,000
+I considered the wild idea --
+
+28
+0:01:32.869,000 --> 0:01:33,000
+(Laughter)
+
+29
+0:01:34.081,000 --> 0:01:35,000
+[Makers always find a way]
+
+30
+0:01:35.49,000 --> 0:01:38,000
+I considered the wild idea of building a system
+
+31
+0:01:38.579,000 --> 0:01:4,000
+that would help regulate the flow of people
+
+32
+0:01:41.065,000 --> 0:01:43,000
+and use it in the next Kumbh Mela in 2015,
+
+33
+0:01:44.078,000 --> 0:01:47,000
+to have fewer stampedes and, hopefully, fewer deaths.
+
+34
+0:01:48.177,000 --> 0:01:5,000
+It seemed like a mission impossible,
+
+35
+0:01:50.672,000 --> 0:01:51,000
+a dream too big,
+
+36
+0:01:52.464,000 --> 0:01:54,000
+especially for a 15-year-old,
+
+37
+0:01:54.669,000 --> 0:01:57,000
+yet that dream came true in 2015,
+
+38
+0:01:58.232,000 --> 0:02:01,000
+when not only did we succeed
+
+39
+0:02:01.949,000 --> 0:02:03,000
+in reducing the stampedes and their intensity,
+
+40
+0:02:04.925,000 --> 0:02:06,000
+but we marked 2015
+
+41
+0:02:07.126,000 --> 0:02:11,000
+as the first Nashik Kumbh Mela to have zero stampedes.
+
+42
+0:02:11.596,000 --> 0:02:16,000
+(Applause)
+
+43
+0:02:16.958,000 --> 0:02:18,000
+It was the first time in recorded history
+
+44
+0:02:19.468,000 --> 0:02:21,000
+that this event passed without any casualties.
+
+45
+0:02:22.888,000 --> 0:02:23,000
+How did we do it?
+
+46
+0:02:24.623,000 --> 0:02:27,000
+It all started when I joined an innovation workshop
+
+47
+0:02:27.678,000 --> 0:02:29,000
+by MIT Media Lab in 2014
+
+48
+0:02:30.378,000 --> 0:02:31,000
+called the Kumbhathon
+
+49
+0:02:32.371,000 --> 0:02:36,000
+that aimed at solving challenges faced at the grand scale of Kumbh Mela.
+
+50
+0:02:37.784,000 --> 0:02:41,000
+Now, we figured out to solve the stampede problem,
+
+51
+0:02:42.316,000 --> 0:02:44,000
+we wanted to know only three things:
+
+52
+0:02:44.504,000 --> 0:02:46,000
+the number of people, the location,
+
+53
+0:02:47.267,000 --> 0:02:5,000
+and the rate of the flow of people per minute.
+
+54
+0:02:51.241,000 --> 0:02:55,000
+So we started to look for technologies that would help us get these three things.
+
+55
+0:02:56.091,000 --> 0:03:,000
+Can we distribute radio-frequency tokens to identify people?
+
+56
+0:03:00.369,000 --> 0:03:03,000
+We figured out that it would be too expensive and impractical
+
+57
+0:03:03.806,000 --> 0:03:04,000
+to distribute 30 million tags.
+
+58
+0:03:06.545,000 --> 0:03:09,000
+Can you use CCTV cameras with image-processing techniques?
+
+59
+0:03:09.95,000 --> 0:03:11,000
+Again, too expensive for that scale,
+
+60
+0:03:12.021,000 --> 0:03:14,000
+along with the disadvantages of being non-portable
+
+61
+0:03:14.923,000 --> 0:03:16,000
+and being completely useless in the case of rain,
+
+62
+0:03:17.765,000 --> 0:03:19,000
+which is a common thing to happen in Kumbh Mela.
+
+63
+0:03:21.12,000 --> 0:03:23,000
+Can we use cell phone tower data?
+
+64
+0:03:23.806,000 --> 0:03:25,000
+It sounds like the perfect solution,
+
+65
+0:03:26.297,000 --> 0:03:27,000
+but the funny part is,
+
+66
+0:03:28.094,000 --> 0:03:3,000
+most of the people do not carry cell phones
+
+67
+0:03:30.863,000 --> 0:03:31,000
+in events like Kumbh Mela.
+
+68
+0:03:32.887,000 --> 0:03:35,000
+Also, the data wouldn't have been granular enough for us.
+
+69
+0:03:36.625,000 --> 0:03:38,000
+So we wanted something that was real-time,
+
+70
+0:03:39.102,000 --> 0:03:42,000
+low-cost, sturdy and waterproof,
+
+71
+0:03:42.443,000 --> 0:03:44,000
+and it was easy to get the data for processing.
+
+72
+0:03:45.672,000 --> 0:03:47,000
+So we built Ashioto,
+
+73
+0:03:48.052,000 --> 0:03:5,000
+meaning "footstep" in Japanese,
+
+74
+0:03:50.161,000 --> 0:03:54,000
+as it consists of a portable mat which has pressure sensors
+
+75
+0:03:54.37,000 --> 0:03:56,000
+which can count the number of people walking on it,
+
+76
+0:03:56.885,000 --> 0:03:58,000
+and sends the data over the internet
+
+77
+0:03:59.341,000 --> 0:04:01,000
+to the advanced data analysis software we created.
+
+78
+0:04:02.483,000 --> 0:04:05,000
+The possible errors, like overcounting or double-stepping,
+
+79
+0:04:05.795,000 --> 0:04:07,000
+were overcome using design interventions.
+
+80
+0:04:08.803,000 --> 0:04:11,000
+The optimum breadth of the mat was determined to be 18 inches,
+
+81
+0:04:12.353,000 --> 0:04:14,000
+after we tested many different versions
+
+82
+0:04:14.616,000 --> 0:04:16,000
+and observed the average stride length of a person.
+
+83
+0:04:18.111,000 --> 0:04:2,000
+Otherwise, people might step over the sensor.
+
+84
+0:04:21.04,000 --> 0:04:23,000
+We started with a proof of concept built in three days,
+
+85
+0:04:23.636,000 --> 0:04:25,000
+made out of cardboard and aluminum foil.
+
+86
+0:04:26.534,000 --> 0:04:27,000
+(Laughter)
+
+87
+0:04:27.559,000 --> 0:04:29,000
+It worked, for real.
+
+88
+0:04:29.957,000 --> 0:04:31,000
+We built another one with aluminum composite panels
+
+89
+0:04:32.671,000 --> 0:04:33,000
+and piezoelectric plates,
+
+90
+0:04:34.333,000 --> 0:04:37,000
+which are plates that generate a small pulse of electricity under pressure.
+
+91
+0:04:38.959,000 --> 0:04:41,000
+We tested this at 30 different pilots in public,
+
+92
+0:04:42.252,000 --> 0:04:45,000
+in crowded restaurants, in malls, in temples, etc.,
+
+93
+0:04:45.998,000 --> 0:04:46,000
+to see how people reacted.
+
+94
+0:04:48.72,000 --> 0:04:5,000
+And people let us run these pilots
+
+95
+0:04:50.767,000 --> 0:04:56,000
+because they were excited to see localites work on problems for the city.
+
+96
+0:04:57.68,000 --> 0:05:,000
+I was 15 and my team members were in their early 20s.
+
+97
+0:05:01.736,000 --> 0:05:05,000
+When the sensors were colored,
+
+98
+0:05:06.251,000 --> 0:05:08,000
+people would get scared and would ask us questions like,
+
+99
+0:05:09.116,000 --> 0:05:11,000
+"Will I get electrocuted if I step on this?"
+
+100
+0:05:11.347,000 --> 0:05:12,000
+(Laughter)
+
+101
+0:05:12.372,000 --> 0:05:16,000
+Or, if it was very obvious that it was an electronic sensor on the ground,
+
+102
+0:05:16.768,000 --> 0:05:17,000
+they would just jump over it.
+
+103
+0:05:18.285,000 --> 0:05:19,000
+(Laughter)
+
+104
+0:05:19.385,000 --> 0:05:22,000
+So we decided to design a cover for the sensor
+
+105
+0:05:22.473,000 --> 0:05:25,000
+so that people don't have to worry what it is on the ground.
+
+106
+0:05:25.554,000 --> 0:05:26,000
+So after some experimentation,
+
+107
+0:05:27.554,000 --> 0:05:29,000
+we decided to use an industrial sensor,
+
+108
+0:05:30.388,000 --> 0:05:32,000
+used as a safety trigger in hazardous areas
+
+109
+0:05:33.381,000 --> 0:05:34,000
+as the sensor,
+
+110
+0:05:34.556,000 --> 0:05:36,000
+and a black neoprene rubber sheet
+
+111
+0:05:36.661,000 --> 0:05:37,000
+as the cover.
+
+112
+0:05:38.374,000 --> 0:05:4,000
+Now, another added benefit of using black rubber
+
+113
+0:05:41.215,000 --> 0:05:44,000
+was that dust naturally accumulates over the surface,
+
+114
+0:05:44.866,000 --> 0:05:46,000
+eventually camouflaging it with the ground.
+
+115
+0:05:47.54,000 --> 0:05:52,000
+We also had to make sure that the sensor is no higher than 12 millimeters.
+
+116
+0:05:53.206,000 --> 0:05:55,000
+Otherwise, people might trip over it,
+
+117
+0:05:55.459,000 --> 0:05:56,000
+which in itself would cause stampedes.
+
+118
+0:05:57.792,000 --> 0:06:,000
+(Laughter)
+
+119
+0:06:01.603,000 --> 0:06:02,000
+We don't want that.
+
+120
+0:06:02.989,000 --> 0:06:03,000
+(Laughter)
+
+121
+0:06:04.802,000 --> 0:06:08,000
+So we were able to design a sensor which was only 10 millimeters thick.
+
+122
+0:06:09.469,000 --> 0:06:11,000
+Now the data is sent to the server in real time,
+
+123
+0:06:11.733,000 --> 0:06:12,000
+and a heat map is plotted,
+
+124
+0:06:13.405,000 --> 0:06:16,000
+taking into account all the active devices on the ground.
+
+125
+0:06:16.772,000 --> 0:06:2,000
+The authorities could be alerted if the crowd movement slowed down
+
+126
+0:06:21.081,000 --> 0:06:24,000
+or if the crowd density moved beyond a desired threshold.
+
+127
+0:06:24.992,000 --> 0:06:28,000
+We installed five of these mats in the Nashik Kumbh Mela 2015,
+
+128
+0:06:30.008,000 --> 0:06:32,000
+and counted over half a million people
+
+129
+0:06:32.422,000 --> 0:06:33,000
+in 18 hours,
+
+130
+0:06:34.128,000 --> 0:06:38,000
+ensuring that the data was available in real time at various checkpoints,
+
+131
+0:06:38.529,000 --> 0:06:39,000
+ensuring a safe flow of people.
+
+132
+0:06:40.429,000 --> 0:06:43,000
+Now, this system, eventually, with other innovations,
+
+133
+0:06:43.898,000 --> 0:06:46,000
+is what helped prevent stampedes altogether at that festival.
+
+134
+0:06:47.585,000 --> 0:06:49,000
+The code used by Ashioto during Kumbh Mela
+
+135
+0:06:50.482,000 --> 0:06:53,000
+will soon be made publicly available, free to use for anyone.
+
+136
+0:06:53.918,000 --> 0:06:54,000
+I would be glad if someone used this code
+
+137
+0:06:55.919,000 --> 0:06:57,000
+to make many more gatherings safer.
+
+138
+0:06:58.878,000 --> 0:06:59,000
+Having succeeded at Kumbh Mela
+
+139
+0:07:00.828,000 --> 0:07:03,000
+has inspired me to help others who may also suffer from stampedes.
+
+140
+0:07:04.764,000 --> 0:07:06,000
+The design of the system makes it adaptable
+
+141
+0:07:07.597,000 --> 0:07:08,000
+to pretty much any event
+
+142
+0:07:09.615,000 --> 0:07:12,000
+that involves an organized gathering of people.
+
+143
+0:07:13.435,000 --> 0:07:17,000
+And my new dream is to improve, adapt and deploy the system
+
+144
+0:07:17.769,000 --> 0:07:22,000
+all over the world to prevent loss of life and ensure a safe flow of people,
+
+145
+0:07:23.262,000 --> 0:07:25,000
+because every human soul is precious,
+
+146
+0:07:26.073,000 --> 0:07:28,000
+whether at concerts or sporting events,
+
+147
+0:07:28.475,000 --> 0:07:29,000
+the Maha Kumbh Mela in Allahabad,
+
+148
+0:07:30.386,000 --> 0:07:31,000
+the Hajj in Mecca,
+
+149
+0:07:31.861,000 --> 0:07:32,000
+the Shia procession to Karbala
+
+150
+0:07:33.782,000 --> 0:07:34,000
+or at the Vatican City.
+
+151
+0:07:35.893,000 --> 0:07:36,000
+So what do you all think, can we do it?
+
+152
+0:07:37.794,000 --> 0:07:38,000
+(Audience) Yes!
+
+153
+0:07:38.969,000 --> 0:07:39,000
+Thank you.
+
+154
+0:07:40.144,000 --> 0:07:41,000
+(Cheers)
+
+155
+0:07:41.169,000 --> 0:07:44,000
+(Applause)
+

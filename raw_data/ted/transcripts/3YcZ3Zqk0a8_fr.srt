@@ -1,0 +1,532 @@
+1
+0:00:,000 --> 0:00:07,000
+Traducteur: Karine AUBRY Relecteur: Pascal DELAMAIRE
+
+2
+0:00:15.26,000 --> 0:00:17,000
+L'an dernier, ici à TED,
+
+3
+0:00:17.26,000 --> 0:00:19,000
+je vous ai demandé de me donner vos données,
+
+4
+0:00:19.26,000 --> 0:00:21,000
+de mettre vos données sur le web, en partant du principe
+
+5
+0:00:21.26,000 --> 0:00:24,000
+que si les gens mettent leurs données sur le web,
+
+6
+0:00:24.26,000 --> 0:00:27,000
+les données gouvernementales, scientifiques, communautaires,
+
+7
+0:00:27.26,000 --> 0:00:29,000
+quoi que ce soit, ce sera utilisé par d'autres personnes
+
+8
+0:00:29.26,000 --> 0:00:31,000
+pour faire des choses merveilleuses, d'une manière
+
+9
+0:00:31.26,000 --> 0:00:33,000
+qu'ils n'auraient jamais pu imaginer.
+
+10
+0:00:33.26,000 --> 0:00:36,000
+Alors aujourd'hui, je suis de retour pour vous montrer quelques petites choses,
+
+11
+0:00:36.26,000 --> 0:00:38,000
+vous montrer, en fait, qu'il y a
+
+12
+0:00:38.26,000 --> 0:00:43,000
+un mouvement pour les données libres qui s'est lancé,
+
+13
+0:00:43.26,000 --> 0:00:45,000
+aujourd'hui partout dans le monde.
+
+14
+0:00:45.26,000 --> 0:00:47,000
+Le cri pour "des données brutes, maintenant"
+
+15
+0:00:47.26,000 --> 0:00:49,000
+que j'ai fait pousser aux gens dans l'auditorium
+
+16
+0:00:49.26,000 --> 0:00:51,000
+a été entendu dans le monde entier.
+
+17
+0:00:51.26,000 --> 0:00:54,000
+Alors balançons cette vidéo.
+
+18
+0:00:54.26,000 --> 0:00:57,000
+L'histoire classique, la première que beaucoup de gens ont relevée
+
+19
+0:00:57.26,000 --> 0:01:,000
+c'était quand, en mars, le 10 mars en fait, juste après TED,
+
+20
+0:01:00.26,000 --> 0:01:03,000
+Paul Clarke, du gouvernement britannique,
+
+21
+0:01:03.26,000 --> 0:01:05,000
+a blogué "Oh, je viens de recevoir des données brutes. Les voilà,
+
+22
+0:01:05.26,000 --> 0:01:08,000
+c'est à propos des accidents de vélo."
+
+23
+0:01:08.26,000 --> 0:01:11,000
+Ça a pris deux jours au "Times Online"
+
+24
+0:01:11.26,000 --> 0:01:13,000
+pour faire une carte, une carte composite,
+
+25
+0:01:13.26,000 --> 0:01:15,000
+on appelle ces trucs des mash-ups,
+
+26
+0:01:15.26,000 --> 0:01:17,000
+un mash-up, une interface utilisateur qui vous permet d'aller
+
+27
+0:01:17.26,000 --> 0:01:19,000
+regarder pour voir si la piste cyclable
+
+28
+0:01:19.26,000 --> 0:01:21,000
+qui mène à votre travail, était concernée.
+
+29
+0:01:21.26,000 --> 0:01:23,000
+Il y a d'autres données, des données d'enquête de circulation
+
+30
+0:01:23.26,000 --> 0:01:25,000
+encore, qui ont été diffusées par le gouvernement britannique,
+
+31
+0:01:25.26,000 --> 0:01:28,000
+et comme ils les publient en utilisant les standards Linked data
+
+32
+0:01:28.26,000 --> 0:01:3,000
+un utilisateur a la possibilité de créer une carte,
+
+33
+0:01:30.26,000 --> 0:01:32,000
+juste en cliquant.
+
+34
+0:01:32.26,000 --> 0:01:34,000
+Est-ce que ces données ont des effets ? Eh bien, en fait, revenons en 2008.
+
+35
+0:01:34.26,000 --> 0:01:37,000
+Regardons le cas de Zanesville, Ohio.
+
+36
+0:01:37.26,000 --> 0:01:4,000
+Voici une carte faite par un avocat, il y a dessiné le réseau d'eau potable,
+
+37
+0:01:40.26,000 --> 0:01:42,000
+on y voit les maisons,
+
+38
+0:01:42.26,000 --> 0:01:44,000
+et lesquelles sont raccordées au réseau d'eau potable.
+
+39
+0:01:44.26,000 --> 0:01:46,000
+Et il a eu, par d'autres sources de données,
+
+40
+0:01:46.26,000 --> 0:01:49,000
+des informations qui montrent
+
+41
+0:01:49.26,000 --> 0:01:51,000
+quelles maisons sont occupées par des blancs.
+
+42
+0:01:51.26,000 --> 0:01:54,000
+Eh bien, il a eu l'impression qu'il y avait une trop grande corrélation
+
+43
+0:01:54.26,000 --> 0:01:57,000
+entre les maisons qui étaient occupées par des blancs
+
+44
+0:01:57.26,000 --> 0:02:,000
+et celles qui avaient l'eau, et le juge ne s'est pas laissé impressionner.
+
+45
+0:02:00.26,000 --> 0:02:03,000
+Le juge a été frappé à hauteur de 10,9 millions de dollars.
+
+46
+0:02:03.26,000 --> 0:02:05,000
+C'est toute la force de prendre un bout d'une donnée,
+
+47
+0:02:05.26,000 --> 0:02:08,000
+un autre bout de donnée, de les mettre ensemble,
+
+48
+0:02:08.26,000 --> 0:02:1,000
+et de montrer le résultat.
+
+49
+0:02:10.26,000 --> 0:02:12,000
+Regardons maintenant quelques données du Royaume-Uni.
+
+50
+0:02:12.26,000 --> 0:02:14,000
+Ce sont des données du gouvernement britannique, sur un site entièrement indépendant,
+
+51
+0:02:14.26,000 --> 0:02:16,000
+"Où va mon argent",
+
+52
+0:02:16.26,000 --> 0:02:18,000
+qui permet à n'importe qui d'aller creuser.
+
+53
+0:02:18.26,000 --> 0:02:2,000
+Vous pouvez fouiner sur un type particulier de dépenses
+
+54
+0:02:20.26,000 --> 0:02:24,000
+ou vous pouvez passer en revue les différentes régions et les comparer.
+
+55
+0:02:24.26,000 --> 0:02:27,000
+Donc, c'est ce qui se passe au Royaume-Uni avec les données du gouvernement britannique.
+
+56
+0:02:27.26,000 --> 0:02:29,000
+Oui, on peut certainement le faire par ici.
+
+57
+0:02:29.26,000 --> 0:02:32,000
+Voici un site qui vous permet de regarder les dépenses publiques
+
+58
+0:02:32.26,000 --> 0:02:34,000
+en Californie.
+
+59
+0:02:34.26,000 --> 0:02:36,000
+Et prenez un exemple au hasard, Long Beach, Californie,
+
+60
+0:02:36.26,000 --> 0:02:39,000
+vous pouvez aller regarder combien ils ont dépensé en fonds publics
+
+61
+0:02:39.26,000 --> 0:02:42,000
+pour différentes choses comme l'énergie.
+
+62
+0:02:42.26,000 --> 0:02:45,000
+En fait, voici le graphique du nombre de jeux de données
+
+63
+0:02:45.26,000 --> 0:02:47,000
+dans les référentiels de data.gov,
+
+64
+0:02:47.26,000 --> 0:02:49,000
+sur data.gov.uk.
+
+65
+0:02:49.26,000 --> 0:02:51,000
+Et je suis ravi de voir une forte concurrence
+
+66
+0:02:51.26,000 --> 0:02:53,000
+entre le Royaume-Uni en bleu, et les Etats-Unis en rouge.
+
+67
+0:02:53.26,000 --> 0:02:55,000
+Comment on peut utiliser ce truc ?
+
+68
+0:02:55.26,000 --> 0:02:58,000
+Eh bien, par exemple, si vous avez une quantité de données sur des lieux
+
+69
+0:02:58.26,000 --> 0:03:,000
+vous pouvez prendre, à partir d'un code postal anglais,
+
+70
+0:03:00.26,000 --> 0:03:02,000
+qui est comme un code postal américain plus quatre chiffres,
+
+71
+0:03:02.26,000 --> 0:03:05,000
+pour un groupe précis de maisons, vous pouvez faire un rapport,
+
+72
+0:03:05.26,000 --> 0:03:07,000
+imprimer un article avec des choses
+
+73
+0:03:07.26,000 --> 0:03:09,000
+très très précises sur les arrêts de bus,
+
+74
+0:03:09.26,000 --> 0:03:11,000
+les choses spécialement près de vous.
+
+75
+0:03:11.26,000 --> 0:03:14,000
+A une plus grand échelle, voici un mash-up
+
+76
+0:03:14.26,000 --> 0:03:17,000
+des données publiées au sujet des élections afghanes.
+
+77
+0:03:17.26,000 --> 0:03:19,000
+Ça vous permet de choisir vos propres critères
+
+78
+0:03:19.26,000 --> 0:03:21,000
+sur le genre de choses que vous voulez regarder.
+
+79
+0:03:21.26,000 --> 0:03:23,000
+Les cercles en rouge sont des centres de vote,
+
+80
+0:03:23.26,000 --> 0:03:25,000
+sélectionnés selon vos critères.
+
+81
+0:03:25.26,000 --> 0:03:27,000
+Et ensuite vous pouvez sélectionner également d'autres choses sur la carte
+
+82
+0:03:27.26,000 --> 0:03:29,000
+pour voir d'autres facteurs comme le niveau de menace.
+
+83
+0:03:29.26,000 --> 0:03:32,000
+Donc, ça c'était pour les données gouvernementales.
+
+84
+0:03:32.26,000 --> 0:03:34,000
+J'ai aussi parlé des données générées par les communautés -- en fait j'ai coupé la vidéo --
+
+85
+0:03:34.26,000 --> 0:03:36,000
+voici la carte wiki, c'est la carte libre d'OpenStreetMap
+
+86
+0:03:36.26,000 --> 0:03:38,000
+Le Terrace Theater, en fait je l'ai mis
+
+87
+0:03:38.26,000 --> 0:03:41,000
+sur le plan parce qu'il n'y était pas avant le TED de l'an dernier.
+
+88
+0:03:41.26,000 --> 0:03:44,000
+Je n'étais pas le seul à modifier la carte libre d'OpenStreetMap
+
+89
+0:03:44.26,000 --> 0:03:46,000
+Chaque flash sur cette visualisation
+
+90
+0:03:46.26,000 --> 0:03:48,000
+assemblée par ITO World
+
+91
+0:03:48.26,000 --> 0:03:5,000
+montre une modification apportée en 2009
+
+92
+0:03:50.26,000 --> 0:03:52,000
+sur la carte libre d'OpenStreetMap.
+
+93
+0:03:52.26,000 --> 0:03:55,000
+Faisons maintenant tourner le globe au cours de la même année.
+
+94
+0:03:55.26,000 --> 0:03:57,000
+Chaque flash est une mise à jour. Quelqu'un quelque part
+
+95
+0:03:57.26,000 --> 0:04:,000
+en train de regarder le plan d'OpenStreetMap, et de réaliser qu'on pourrait l'améliorer.
+
+96
+0:04:00.26,000 --> 0:04:03,000
+Vous voyez que l'Europe est embrasée de mises à jour.
+
+97
+0:04:03.26,000 --> 0:04:06,000
+D'autres endroits, peut-être pas autant qu'ils le devraient.
+
+98
+0:04:06.26,000 --> 0:04:08,000
+Zoomons ici sur Haïti.
+
+99
+0:04:08.26,000 --> 0:04:1,000
+La carte de Port-au-Prince à la fin
+
+100
+0:04:10.26,000 --> 0:04:12,000
+de 2009 n'était pas complète,
+
+101
+0:04:12.26,000 --> 0:04:14,000
+pas aussi bonne que celle de la Californie.
+
+102
+0:04:14.26,000 --> 0:04:17,000
+Heureusement, juste après le tremblement de terre,
+
+103
+0:04:17.26,000 --> 0:04:19,000
+GeoEye, une entreprise commerciale,
+
+104
+0:04:19.26,000 --> 0:04:21,000
+a sorti des images satellite
+
+105
+0:04:21.26,000 --> 0:04:23,000
+avec une licence qui permettait
+
+106
+0:04:23.26,000 --> 0:04:25,000
+à la communauté open-source de les utiliser.
+
+107
+0:04:25.26,000 --> 0:04:27,000
+Voici la durée du mois de janvier,
+
+108
+0:04:27.26,000 --> 0:04:29,000
+les gens font des modifications, voilà le tremblement de terre.
+
+109
+0:04:29.26,000 --> 0:04:31,000
+Après le tremblement de terre, immédiatement,
+
+110
+0:04:31.26,000 --> 0:04:33,000
+des gens partout dans le monde, des mappers
+
+111
+0:04:33.26,000 --> 0:04:35,000
+qui voulaient aider, et le pouvaient,
+
+112
+0:04:35.26,000 --> 0:04:38,000
+ont regardé ces images, construit la carte, qui se développe rapidement.
+
+113
+0:04:38.26,000 --> 0:04:39,000
+Nous nous centrons à présent sur Port-au-Prince.
+
+114
+0:04:39.26,000 --> 0:04:43,000
+La couleur bleue indique les camps de réfugiés que ces bénévoles avaient repérés depuis le ciel.
+
+115
+0:04:43.26,000 --> 0:04:45,000
+Donc, maintenant nous avons, immédiatement, une carte en temps réel
+
+116
+0:04:45.26,000 --> 0:04:47,000
+qui montre où il y a des camps de réfugiés,
+
+117
+0:04:47.26,000 --> 0:04:49,000
+et qui rapidement est devenue la meilleure carte
+
+118
+0:04:49.26,000 --> 0:04:52,000
+à utiliser si vous faites un travail de secours à Port-au-Prince.
+
+119
+0:04:52.26,000 --> 0:04:54,000
+Vous êtes témoins du fait qu'elle est là, sur l'appareil Garmin
+
+120
+0:04:54.26,000 --> 0:04:56,000
+utilisé par une équipe de secours.
+
+121
+0:04:56.26,000 --> 0:04:59,000
+Et pour Haïti, voici la carte qui montre
+
+122
+0:04:59.26,000 --> 0:05:01,000
+sur le côté gauche là,
+
+123
+0:05:01.26,000 --> 0:05:03,000
+cet hôpital, en fait c'est un navire-hôpital.
+
+124
+0:05:03.26,000 --> 0:05:06,000
+Voici une carte en temps réel qui montre les routes bloquées
+
+125
+0:05:06.26,000 --> 0:05:08,000
+les bâtiments endommagés, les camps de réfugiés.
+
+126
+0:05:08.26,000 --> 0:05:1,000
+Elle montre des choses dont on a besoin.
+
+127
+0:05:10.26,000 --> 0:05:12,000
+Alors, si vous avez participé à ça de près ou de loin,
+
+128
+0:05:12.26,000 --> 0:05:14,000
+je voulais juste dire que quoi que vous ayez fait,
+
+129
+0:05:14.26,000 --> 0:05:16,000
+que vous ayez juste mis en forme des données brutes,
+
+130
+0:05:16.26,000 --> 0:05:19,000
+ou que vous ayez mis en ligne des données gouvernementales ou scientifiques,
+
+131
+0:05:19.26,000 --> 0:05:21,000
+je voulais profiter de cette occasion pour vous dire un grand merci,
+
+132
+0:05:21.26,000 --> 0:05:24,000
+et ce n'est pour nous que le début.
+
+133
+0:05:24.26,000 --> 0:05:26,000
+(Applaudissements)
+
