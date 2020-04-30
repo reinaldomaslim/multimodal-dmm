@@ -124,7 +124,7 @@ def get_sec(time_str):
 
 if __name__ == '__main__':
 
-    modalities = ['en', 'es']
+    modalities = ['en', 'fr']
     data_base_dir = '../raw_data/ted/'
     destination = '../datasets/subtitles/'
     path_file = data_base_dir + 'vid_'+modalities[0]+'_'+modalities[1]+'_lang.txt'
