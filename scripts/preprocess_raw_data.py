@@ -125,11 +125,6 @@ def get_sec(time_str):
 if __name__ == '__main__':
 
     modalities = ['en', 'es']
-    encodings = {
-                'en': 'ISO-8859-1', 
-                'es': 'latin-1'
-    }           
-
     data_base_dir = '../raw_data/ted/'
     destination = '../datasets/subtitles/'
     path_file = data_base_dir + 'vid_'+modalities[0]+'_'+modalities[1]+'_lang.txt'
@@ -155,7 +150,7 @@ if __name__ == '__main__':
 
                 for modal in modalities:
                     lang_path = data_base_dir + 'transcripts/'+ vid_name +'_'+modal+'.srt'
-                    subs = pysubs2.load(lang_path, encoding= encodings[modal], format_= "srt")
+                    subs = pysubs2.load(lang_path, encoding= 'ISO-8859-1', format_= "srt")
                     print('loading sub', modal)    
                     for sub in subs:
                         split = sub.text.split('\\N')
@@ -166,16 +161,19 @@ if __name__ == '__main__':
                             sub_start_1 = get_sec(split[3].split(',0')[0])
 
                             for token in doc_0:
-                                tokens[modal].append([token.text, token.pos_, token.vector_norm, sub.start])
+                                text_hash = doc_0.vocab.strings[token.text]
+                                tokens[modal].append([token.text, token.pos_, text_hash, sub.start])
 
                             for token in doc_1:
-                                tokens[modal].append([token.text, token.pos_, token.vector_norm, sub_start_1])
+                                text_hash = doc_1.vocab.strings[token.text]
+                                tokens[modal].append([token.text, token.pos_, text_hash, sub_start_1])
 
                         else:
                             doc = nlp[modal](sub.text)
                         
                             for token in doc:
-                                tokens[modal].append([token.text, token.pos_, token.vector_norm, sub.start])
+                                text_hash = doc.vocab.strings[token.text]
+                                tokens[modal].append([token.text, token.pos_, text_hash, sub.start])
 
                 print('aligning tokens')
                 aligned_tokens = align_tokens(tokens)
