@@ -57,7 +57,7 @@ def test_dataset(modalities = ['en', 'es'], data_dir='./subtitles'):
         x, y = data[:2]
 
         print(x.shape, y.shape)
-
+        
         if len(x) != len(y):
             print("WARNING: Mismatched sequence lengths.")
 
