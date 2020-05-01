@@ -187,6 +187,8 @@ if __name__ == '__main__':
                     aligned_tokens[key] = pd.DataFrame(aligned_tokens[key])
                 df = pd.concat(aligned_tokens, axis=1)
                 val = df.to_numpy()
+                if val.shape[0] == 0 and val.shape[1] == 0:
+                    continue
                 df = pd.DataFrame(val)
                 df.to_csv(dst)     
                 print(df)
