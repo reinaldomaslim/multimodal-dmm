@@ -6,6 +6,8 @@ import lap
 import os
 from scipy.optimize import linear_sum_assignment, minimize
 
+ENCODING = 'ISO-8859-1'
+
 np.set_printoptions(suppress = True)
 
 def naive_assignment(cost_mat):
@@ -124,11 +126,7 @@ def get_sec(time_str):
 
 if __name__ == '__main__':
 
-<<<<<<< HEAD
     modalities = ['es', 'fr']
-=======
-    modalities = ['en', 'fr']
->>>>>>> 6cd3effbbd4f42301980a03eb2722440fe90ac64
     data_base_dir = '../raw_data/ted/'
     destination = '../datasets/subtitles/'
     path_file = data_base_dir + 'vid_'+modalities[0]+'_'+modalities[1]+'_lang.txt'
@@ -154,7 +152,7 @@ if __name__ == '__main__':
 
                 for modal in modalities:
                     lang_path = data_base_dir + 'transcripts/'+ vid_name +'_'+modal+'.srt'
-                    subs = pysubs2.load(lang_path, encoding= 'ISO-8859-1', format_= "srt")
+                    subs = pysubs2.load(lang_path, encoding= ENCODING, format_= "srt")
                     print('loading sub', modal)    
                     for sub in subs:
                         split = sub.text.split('\\N')

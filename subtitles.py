@@ -14,6 +14,7 @@ from matplotlib.collections import EllipseCollection
 from datasets.spirals import SpiralsDataset
 import trainer
 
+
 class SpiralsTrainer(trainer.Trainer):
     """Class for training on noisy 2D spirals."""
 
