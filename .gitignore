@@ -1,4 +1,6 @@
 # Datasets specific to this repository
+datasets/subtitles/processed
+datasets/subtitles/ted
 datasets/spirals/
 datasets/weizmann/
 datasets/vidTIMIT/
@@ -107,3 +109,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# macOS
+.DS_Store
+
