@@ -8,6 +8,7 @@ import zipfile
 
 
 import spacy
+from spacy_syllables import SpacySyllables
 import pysubs2
 import lap
 from scipy.optimize import linear_sum_assignment, minimize
@@ -26,10 +27,13 @@ ENCODING = 'ISO-8859-1'
 
 np.set_printoptions(suppress = True)
 
+#TODO: Add download from URL maybe?
 DOWNLOAD_URL = "https://app.box.com/s/604f3grzaudrq7z0qm3qyw65j2q5drr3/folder/111495067042"
 TYPE_FACTOR = 7
 IND_FACTOR = 1
 SPACY_CODECS = {}
+LANG2CODECS_MAP = {'en': 'en_core_web_md', 'es': 'es_core_news_md', 'fr': 'fr_core_news_md'}
+DUMMY_WRD = '^'
 
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
@@ -46,9 +50,9 @@ class SubtitlesDataset(MultiseqDataset):
         # Load x, y, and metadata as separate modalities
         preprocess = {
             # Keep only embedded value
-            modalities[0]: lambda df : df.loc[:, ['{}_word'.format(modalities[0])]],
+            modalities[0]: lambda df : df.filter(regex=r'{}_encoding_.*'.format(modalities[0])),
             # Keep only embedded value
-            modalities[1]: lambda df : df.loc[:, ['{}_word'.format(modalities[1])]]
+            modalities[1]: lambda df : df.filter(regex=r'{}_encoding_.*'.format(modalities[1]))
         }
 
         super(SubtitlesDataset, self).__init__(
@@ -60,7 +64,9 @@ def filter_langs(modalities):
     for idx, m in enumerate(modalities):
         if not m in SPACY_CODECS:
             try:
-                SPACY_CODECS[m] = spacy.load(m)
+                SPACY_CODECS[m] = spacy.load(LANG2CODECS_MAP[m])
+                syllables = SpacySyllables(SPACY_CODECS[m])
+                SPACY_CODECS[m].add_pipe(syllables, after='tagger')
             except Exception as e:
                 print("Modality {} couldn't be decoded. Dropped.".format(m))
                 del modalities[idx]
@@ -105,16 +111,25 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
         align_subs(subs, tokens, langs)
     
         def _attributes(key, subs):
-            for sub in subs[key]:
-                for token in sub.text:
-                    yield token.text, token.pos_, sub.start, sub.end
+            for sen_idx, sub in enumerate(subs[key]):
+                for token_idx, token in enumerate(sub.text):
+                    if sub.shuffled:
+                        word_idx = sub.order[token_idx]
+                    else:
+                        word_idx = token_idx
+                    dummy_word = token.text == DUMMY_WRD
+                    yield (token.text, token.pos_, sub.start, sub.end, sen_idx, word_idx, dummy_word, *token.vector.tolist())
 
         def _columns(key, subs):
-            columns = []
-            columns.append('{}_{}'.format(key, 'word'))
-            columns.append('{}_{}'.format(key, 'type'))
-            columns.append('{}_{}'.format(key, 'starttime'))
-            columns.append('{}_{}'.format(key, 'endtime'))
+            columns = list(range(7 + SPACY_CODECS[key].vocab.vectors.shape[1]))
+            columns[0] = '{}_{}'.format(key, 'word')
+            columns[1] = '{}_{}'.format(key, 'type')
+            columns[2] = '{}_{}'.format(key, 'starttime')
+            columns[3] = '{}_{}'.format(key, 'endtime')
+            columns[4] = '{}_{}'.format(key, 'sentence_idx')
+            columns[5] = '{}_{}'.format(key, 'word_idx')
+            columns[6] = '{}_{}'.format(key, 'dummy_word')
+            columns[7:] = ['{}_{}_{}'.format(key, 'encoding', ind) for ind in range(SPACY_CODECS[key].vocab.vectors.shape[1])]
             return columns
 
         for key in subs.keys():
@@ -154,11 +169,12 @@ def align_subs(subs, tokens, langs):
         new_X_words = [x.text for x in X]
         new_Y_words = [y.text for y in Y]
         if len(new_X_words) < len(new_Y_words):
-            new_X_words.extend(['.'] * (len(Y) - len(X)))
+            new_X_words.extend([DUMMY_WRD] * (len(Y) - len(X)))
         else:
-            new_Y_words.extend(['.'] * (len(X) - len(Y)))
-        new_X = spacy.tokens.Doc(X.vocab, words=new_X_words)
-        new_Y = spacy.tokens.Doc(Y.vocab, words=[new_Y_words[an] for an in x_order])
+            new_Y_words.extend([DUMMY_WRD] * (len(X) - len(Y)))
+        
+        new_X = SPACY_CODECS[X.lang_](' '.join(new_X_words))
+        new_Y = SPACY_CODECS[Y.lang_](' '.join([new_Y_words[an] for an in x_order]))
         for idy, an in enumerate(x_order):
             if an < len(Y):
                 new_Y[idy].pos_ = Y[an].pos_
@@ -172,7 +188,7 @@ def align_subs(subs, tokens, langs):
 
         sub[0].shuffled, sub[0].order, sub[0].text = False, x_order, new_X
         sub[1].shuffled, sub[1].order, sub[1].text = True, y_order, new_Y
-        
+
 def get_cost_mat(X, Y):
     size = max(len(X), len(Y))
     cost_mat = np.ones((size, size))*100
