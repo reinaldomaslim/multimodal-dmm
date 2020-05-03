@@ -5,7 +5,7 @@ from __future__ import absolute_import
 from builtins import range
 import os
 import zipfile
-
+import traceback
 
 import spacy
 from spacy_syllables import SpacySyllables
@@ -34,14 +34,14 @@ IND_FACTOR = 1
 SPACY_CODECS = {}
 LANG2CODECS_MAP = {'en': 'en_core_web_md', 'es': 'es_core_news_md', 'fr': 'fr_core_news_md'}
 DUMMY_WRD = '^'
-
+TRAIN_SPLIT = 0.95
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
 
-    def __init__(self, modalities, base_dir):
-        processed_dir = os.path.join(base_dir, 'processed')
+    def __init__(self, modalities, base_dir, subdir='train'):
+        processed_dir = os.path.join(base_dir, 'processed', subdir)
         if not os.path.isdir(processed_dir):
-            process_dataset(langs=modalities, data_dir=base_dir)
+            process_dataset(langs=modalities, data_dir=base_dir, subdir=subdir)
 
         regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)\.csv')
         rates = 1.0
@@ -71,11 +71,11 @@ def filter_langs(modalities):
                 print("Modality {} couldn't be decoded. Dropped.".format(m))
                 del modalities[idx]
 
-def process_dataset(langs=['en', 'es'], data_dir='./subtitles'):
+def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
     transcript_zip_path = os.path.join(data_dir, 'ted.zip')
     transcript_unzip_path = os.path.join(data_dir, 'ted')
     vidid_file = os.path.join(data_dir, "{}_{}_{}".format('vid', '_'.join(sorted(langs)), 'lang.txt'))
-    processed_path = os.path.join(data_dir, 'processed')
+    processed_path = os.path.join(data_dir, 'processed', subdir)
 
     if not os.path.isdir(data_dir) \
         or not os.path.isfile(transcript_zip_path) \
@@ -83,19 +83,27 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles'):
         print("Please download and save as {} from {}.".format((transcript_zip_path, vidid_file), DOWNLOAD_URL))
         exit(1)
 
-    with zipfile.ZipFile(transcript_zip_path, 'r') as zip_ref:
-        zip_ref.extractall(data_dir)
+    if not os.path.isdir(transcript_unzip_path):
+        with zipfile.ZipFile(transcript_zip_path, 'r') as zip_ref:
+            zip_ref.extractall(data_dir)
 
     if not os.path.isdir(processed_path):
         os.makedirs(processed_path)
 
     with open(vidid_file) as f:
-        for file_count, line in enumerate(f):
-            vid_name = line.rstrip()
-            dst_file =  os.path.join(processed_path, "{}_{:05d}.csv".format('_'.join(sorted(langs)), file_count))
-            src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
-            tokens = defaultdict(list)
-            process_srt(src_files, dst_file, langs, tokens)
+        lines = f.readlines()
+
+    if subdir == 'train':
+        lines = lines[:int(len(lines) * TRAIN_SPLIT)]
+    else:
+        lines = lines[int(len(lines) * TRAIN_SPLIT):]
+
+    for file_count, line in enumerate(lines):
+        vid_name = line.rstrip()
+        dst_file =  os.path.join(processed_path, "{}_{:05d}.csv".format('_'.join(sorted(langs)), file_count))
+        src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
+        tokens = defaultdict(list)
+        process_srt(src_files, dst_file, langs, tokens)
 
 
 def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
@@ -137,9 +145,8 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
         df = pd.concat(subs.values(), axis=1)
         df.to_csv(dst_file, index=False)
     except Exception as e:
-        raise e
-        print(e, "Couldn't save file")
-
+        print("Couldn't process {}".format(src_files))
+        traceback.print_exc()
 
 def tokenize_sub(sub, codex):
     for idx, dialogue in enumerate(sub):
