@@ -11,12 +11,13 @@ import torch
 import matplotlib.pyplot as plt
 from matplotlib.collections import EllipseCollection
 
-from datasets.spirals import SpiralsDataset
+from datasets.subtitles import SubtitlesDataset
+import models
 import trainer
 
 
-class SpiralsTrainer(trainer.Trainer):
-    """Class for training on noisy 2D spirals."""
+class SubtitlesTrainer(trainer.Trainer):
+    """Class for training on subtitle datasets."""
 
     parser = copy.copy(trainer.Trainer.parser)
 
@@ -32,9 +33,9 @@ class SpiralsTrainer(trainer.Trainer):
     defaults = {
         'modalities' : ['en', 'es'],
         'batch_size' : 100, 'split' : 1, 'bylen' : False,
-        'epochs' : 500, 'lr' : 1e-4,
+        'epochs' : 50, 'lr' : 1e-4,
         'kld_anneal' : 100, 'burst_frac' : 0.1,
-        'drop_frac' : 0.5, 'start_frac' : 0.25, 'stop_frac' : 0.75,
+        'drop_frac' : 0.1, 'start_frac' : 0.25, 'stop_frac' : 0.75,
         'eval_metric' : 'mse', 'viz_metric' : 'mse',
         'eval_freq' : 10, 'save_freq' : 10,
         'data_dir' : './datasets/subtitles',
@@ -44,22 +45,27 @@ class SpiralsTrainer(trainer.Trainer):
 
     def build_model(self, constructor, args):
         """Construct model using provided constructor."""
-        dims = {'en': 1, 'es': 1}
+        dims = {'en': 300, 'es': 50}
+        dists = {'en': 'Normal',
+                 'es': 'Normal',}
+        z_dim = args.model_args.get('z_dim', 256)
+        h_dim = args.model_args.get('h_dim', 256)
         model = constructor(args.modalities,
                             dims=(dims[m] for m in args.modalities),
-                            z_dim=5, h_dim=20,
+                            dists=[dists[m] for m in args.modalities],
+                            z_dim=z_dim, h_dim=h_dim,
                             device=args.device, **args.model_args)
         return model
 
     def pre_build_args(self, args):
         """Process args before model is constructed."""
-        args = super(SpiralsTrainer, self).pre_build_args(args)
+        args = super(SubtitlesTrainer, self).pre_build_args(args)
         # Set up method specific model and training args
         if args.method in ['b-skip', 'f-skip', 'b-mask', 'f-mask']:
             # No direct connection from features to z in encoder
-            args.model_args['feat_to_z'] = False
+            args.model_args['feat_to_z'] = True
             # Do not add unimodal ELBO training loss for RNN methods
-            args.train_args['uni_loss'] = False
+            args.train_args['uni_loss'] = True
         return args
 
     def post_build_args(self, args):
@@ -77,10 +83,8 @@ class SpiralsTrainer(trainer.Trainer):
         """Loads data for specified modalities."""
         print("Loading data...")
         data_dir = os.path.abspath(args.data_dir)
-        train_data = SpiralsDataset(modalities, data_dir, args.train_subdir,
-                                    truncate=True, item_as_dict=True)
-        test_data = SpiralsDataset(modalities, data_dir, args.test_subdir,
-                                   truncate=True, item_as_dict=True)
+        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir)
+        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir)
         print("Done.")
         if len(args.normalize) > 0:
             print("Normalizing ", args.normalize, "...")
@@ -129,6 +133,7 @@ class SpiralsTrainer(trainer.Trainer):
         return summary
 
     def visualize(self, results, metric, args):
+        return
         """Plots predictions against truth for representative fits."""
         reference = results['targets']
         observed = results['inputs']
@@ -207,6 +212,6 @@ class SpiralsTrainer(trainer.Trainer):
         pass
 
 if __name__ == "__main__":
-    args = SpiralsTrainer.parser.parse_args()
-    trainer = SpiralsTrainer(args)
+    args = SubtitlesTrainer.parser.parse_args()
+    trainer = SubtitlesTrainer(args)
     trainer.run(args)

@@ -58,7 +58,7 @@ class SubtitlesDataset(MultiseqDataset):
         super(SubtitlesDataset, self).__init__(
             modalities, processed_dir, regex,
             [preprocess[m] for m in modalities],
-            rates, base_rate, False, [], False)
+            rates, base_rate, True, [], True)
 
 def filter_langs(modalities):
     for idx, m in enumerate(modalities):
