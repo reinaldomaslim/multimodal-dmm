@@ -17,6 +17,7 @@ import numpy.random as rand
 import pandas as pd
 import glob
 from collections import defaultdict
+from multiprocessing import Pool, TimeoutError, cpu_count
 
 if __name__ == '__main__':
     from multiseq import MultiseqDataset, seq_collate
@@ -98,13 +99,17 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
     else:
         lines = lines[int(len(lines) * TRAIN_SPLIT):]
 
+    pool = Pool(processes=cpu_count())
+    res = []
     for file_count, line in enumerate(lines):
         vid_name = line.rstrip()
         dst_file =  os.path.join(processed_path, "{}_{:05d}.csv".format('_'.join(sorted(langs)), file_count))
         src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
         tokens = defaultdict(list)
-        process_srt(src_files, dst_file, langs, tokens)
-
+        res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens)))
+        # process_srt(src_files, dst_file, langs, tokens)
+    for r in res:
+        r.get()
 
 def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
     filter_langs(langs)
