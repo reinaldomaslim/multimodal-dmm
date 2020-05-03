@@ -39,7 +39,8 @@ TRAIN_SPLIT = 0.95
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
 
-    def __init__(self, modalities, base_dir, subdir='train'):
+    def __init__(self, modalities, base_dir, subdir='train',
+                 truncate=False, item_as_dict=False):
         processed_dir = os.path.join(base_dir, 'processed', subdir)
         if not os.path.isdir(processed_dir):
             process_dataset(langs=modalities, data_dir=base_dir, subdir=subdir)
@@ -59,7 +60,7 @@ class SubtitlesDataset(MultiseqDataset):
         super(SubtitlesDataset, self).__init__(
             modalities, processed_dir, regex,
             [preprocess[m] for m in modalities],
-            rates, base_rate, True, [], True)
+            rates, base_rate, truncate, [], item_as_dict)
 
 def filter_langs(modalities):
     for idx, m in enumerate(modalities):

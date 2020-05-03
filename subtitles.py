@@ -83,8 +83,10 @@ class SubtitlesTrainer(trainer.Trainer):
         """Loads data for specified modalities."""
         print("Loading data...")
         data_dir = os.path.abspath(args.data_dir)
-        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir)
-        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir)
+        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir,
+                                      truncate=True, item_as_dict=True)
+        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir,
+                                     truncate=True, item_as_dict=True)
         print("Done.")
         if len(args.normalize) > 0:
             print("Normalizing ", args.normalize, "...")
