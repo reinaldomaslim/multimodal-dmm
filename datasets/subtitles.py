@@ -161,7 +161,7 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), subdir='tr
             df.to_csv(dst_file, index=False)
     except Exception as e:
         print("Couldn't process {}".format(src_files))
-        traceback.print_exc()
+        # traceback.print_exc()
 
 def tokenize_sub(sub, codex):
     for idx, dialogue in enumerate(sub):
