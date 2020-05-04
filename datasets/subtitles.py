@@ -36,8 +36,8 @@ SPACY_CODECS = {}
 LANG2CODECS_MAP = {'en': 'en_core_web_md', 'es': 'es_core_news_md', 'fr': 'fr_core_news_md'}
 DUMMY_WRD = '^'
 TRAIN_SPLIT = 0.95
-MAXLEN = 100
-NUM_VIDS = 500
+MAXLEN = 200
+NUM_VIDS = 100
 
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
@@ -107,7 +107,9 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
     res = []
     for file_count, line in enumerate(lines):
         vid_name = line.rstrip()
-        dst_file =  os.path.join(processed_path, "{}_{:05d}_{}.csv".format('_'.join(sorted(langs)), file_count, '{:05d}'))
+        dst_file =  os.path.join(processed_path, "{}_{:05d}_{}.csv".format('_'.join(sorted(langs)),
+                                                                                    file_count,
+                                                                                    '{:05d}' if subdir == 'train' else ''))
         src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
         tokens = defaultdict(list)
         res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens, subdir)))
