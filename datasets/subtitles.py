@@ -48,7 +48,7 @@ class SubtitlesDataset(MultiseqDataset):
         if not os.path.isdir(processed_dir):
             process_dataset(langs=modalities, data_dir=base_dir, subdir=subdir)
 
-        regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)\.csv')
+        regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)?\.csv')
         rates = 1.0
         base_rate = rates
 
