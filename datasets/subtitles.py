@@ -36,15 +36,19 @@ SPACY_CODECS = {}
 LANG2CODECS_MAP = {'en': 'en_core_web_md', 'es': 'es_core_news_md', 'fr': 'fr_core_news_md'}
 DUMMY_WRD = '^'
 TRAIN_SPLIT = 0.95
+MAXLEN = 200
+NUM_VIDS = 100
+
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
 
-    def __init__(self, modalities, base_dir, subdir='train'):
+    def __init__(self, modalities, base_dir, subdir='train',
+                 truncate=False, item_as_dict=False):
         processed_dir = os.path.join(base_dir, 'processed', subdir)
         if not os.path.isdir(processed_dir):
             process_dataset(langs=modalities, data_dir=base_dir, subdir=subdir)
 
-        regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)\.csv')
+        regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)?\.csv')
         rates = 1.0
         base_rate = rates
 
@@ -59,7 +63,7 @@ class SubtitlesDataset(MultiseqDataset):
         super(SubtitlesDataset, self).__init__(
             modalities, processed_dir, regex,
             [preprocess[m] for m in modalities],
-            rates, base_rate, True, [], True)
+            rates, base_rate, truncate, [], item_as_dict)
 
 def filter_langs(modalities):
     for idx, m in enumerate(modalities):
@@ -92,7 +96,7 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
         os.makedirs(processed_path)
 
     with open(vidid_file) as f:
-        lines = f.readlines()
+        lines = f.readlines()[:NUM_VIDS]
 
     if subdir == 'train':
         lines = lines[:int(len(lines) * TRAIN_SPLIT)]
@@ -103,15 +107,17 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
     res = []
     for file_count, line in enumerate(lines):
         vid_name = line.rstrip()
-        dst_file =  os.path.join(processed_path, "{}_{:05d}.csv".format('_'.join(sorted(langs)), file_count))
+        dst_file =  os.path.join(processed_path, "{}_{:05d}_{}.csv".format('_'.join(sorted(langs)),
+                                                                                    file_count,
+                                                                                    '{:05d}' if subdir == 'train' else ''))
         src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
         tokens = defaultdict(list)
-        res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens)))
-        # process_srt(src_files, dst_file, langs, tokens)
-    for r in res:
-        r.get()
+        res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens, subdir)))
+        # process_srt(src_files, dst_file, langs, tokens, subdir)
+    pool.close()
+    pool.join()
 
-def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
+def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), subdir='train'):
     filter_langs(langs)
     try:
         subs = {}
@@ -148,10 +154,14 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list)):
         for key in subs.keys():
             subs[key] = pd.DataFrame(_attributes(key, subs), columns=_columns(key, subs))
         df = pd.concat(subs.values(), axis=1)
-        df.to_csv(dst_file, index=False)
+        if subdir == 'train':
+            for i in range(0, len(df), MAXLEN):
+                df.loc[i:i+MAXLEN-1,:].to_csv(dst_file.format(int(i/MAXLEN)), index=False)
+        else:
+            df.to_csv(dst_file, index=False)
     except Exception as e:
         print("Couldn't process {}".format(src_files))
-        traceback.print_exc()
+        # traceback.print_exc()
 
 def tokenize_sub(sub, codex):
     for idx, dialogue in enumerate(sub):

@@ -32,7 +32,7 @@ class SubtitlesTrainer(trainer.Trainer):
     # Set parameter defaults for spirals dataset
     defaults = {
         'modalities' : ['en', 'es'],
-        'batch_size' : 100, 'split' : 1, 'bylen' : False,
+        'batch_size' : 32, 'split' : 1, 'bylen' : False,
         'epochs' : 50, 'lr' : 1e-4,
         'kld_anneal' : 100, 'burst_frac' : 0.1,
         'drop_frac' : 0.1, 'start_frac' : 0.25, 'stop_frac' : 0.75,
@@ -48,8 +48,8 @@ class SubtitlesTrainer(trainer.Trainer):
         dims = {'en': 300, 'es': 50}
         dists = {'en': 'Normal',
                  'es': 'Normal',}
-        z_dim = args.model_args.get('z_dim', 256)
-        h_dim = args.model_args.get('h_dim', 256)
+        z_dim = args.model_args.get('z_dim', 32)
+        h_dim = args.model_args.get('h_dim', 32)
         model = constructor(args.modalities,
                             dims=(dims[m] for m in args.modalities),
                             dists=[dists[m] for m in args.modalities],
@@ -83,8 +83,10 @@ class SubtitlesTrainer(trainer.Trainer):
         """Loads data for specified modalities."""
         print("Loading data...")
         data_dir = os.path.abspath(args.data_dir)
-        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir)
-        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir)
+        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir,
+                                      truncate=True, item_as_dict=True)
+        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir,
+                                     truncate=True, item_as_dict=True)
         print("Done.")
         if len(args.normalize) > 0:
             print("Normalizing ", args.normalize, "...")
