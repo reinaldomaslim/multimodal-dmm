@@ -32,12 +32,12 @@ class SubtitlesTrainer(trainer.Trainer):
     # Set parameter defaults for spirals dataset
     defaults = {
         'modalities' : ['en', 'es'],
-        'batch_size' : 32, 'split' : 1, 'bylen' : False,
+        'batch_size' : 1, 'split' : 1, 'bylen' : False,
         'epochs' : 50, 'lr' : 1e-4,
         'kld_anneal' : 100, 'burst_frac' : 0.1,
         'drop_frac' : 0.1, 'start_frac' : 0.25, 'stop_frac' : 0.75,
         'eval_metric' : 'mse', 'viz_metric' : 'mse',
-        'eval_freq' : 10, 'save_freq' : 10,
+        'eval_freq' : 1, 'save_freq' : 1,
         'data_dir' : './datasets/subtitles',
         'save_dir' : './subtitles_save'
     }
@@ -107,14 +107,11 @@ class SubtitlesTrainer(trainer.Trainer):
         metrics['kld_loss'] = model.kld_loss(infer, prior, mask).item()
         metrics['rec_loss'] = model.rec_loss(targets, recon, mask,
                                              args.rec_mults).item()
+
+        for m in list(recon.keys()): targets[m][torch.isnan(targets[m])] = 0
         # Compute mean squared error in 2D space for each time-step
-        mse = sum([(recon[m][0]-targets[m]).pow(2) for m in list(recon.keys())])
-        mse = mse.sum(dim=list(range(2, mse.dim())))
-        # Average across timesteps, for each sequence
-        def time_avg(val):
-            val[1 - mask.squeeze(-1)] = 0.0
-            return val.sum(dim = 0) / lengths
-        metrics['mse'] = time_avg(mse)[order].tolist()
+        mse = sum([torch.sum((recon[m][0]-targets[m]).pow(2), dim = 2) for m in list(recon.keys())])
+        metrics['mse'] = torch.squeeze(mse).tolist()
         return metrics
 
     def summarize_metrics(self, metrics, n_timesteps):
