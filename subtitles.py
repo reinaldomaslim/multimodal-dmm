@@ -32,12 +32,12 @@ class SubtitlesTrainer(trainer.Trainer):
     # Set parameter defaults for spirals dataset
     defaults = {
         'modalities' : ['en', 'es'],
-        'batch_size' : 1, 'split' : 1, 'bylen' : False,
+        'batch_size' : 16, 'split' : 1, 'bylen' : False,
         'epochs' : 50, 'lr' : 1e-4,
         'kld_anneal' : 100, 'burst_frac' : 0.1,
         'drop_frac' : 0.1, 'start_frac' : 0.25, 'stop_frac' : 0.75,
         'eval_metric' : 'mse', 'viz_metric' : 'mse',
-        'eval_freq' : 1, 'save_freq' : 1,
+        'eval_freq' : 10, 'save_freq' : 10,
         'data_dir' : './datasets/subtitles',
         'save_dir' : './subtitles_save'
     }
