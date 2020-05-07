@@ -409,7 +409,7 @@ class Trainer(object):
             loader = DataLoader(self.train_data, batch_size=args.batch_sz_eval,
                                 collate_fn=mseq.seq_collate_dict,
                                 shuffle=False, pin_memory=args.pin_memory,
-                                num_workers=args.data_workers)
+                                num_workers=args.data_workers, drop_last=True)
             with torch.no_grad():
                 args.eval_set = 'train'
                 results, train_metrics  = self.evaluate(loader, args)
@@ -422,7 +422,7 @@ class Trainer(object):
             loader = DataLoader(self.test_data, batch_size=args.batch_sz_eval,
                                 collate_fn=mseq.seq_collate_dict,
                                 shuffle=False, pin_memory=args.pin_memory,
-                                num_workers=args.data_workers)
+                                num_workers=args.data_workers, drop_last=True)
             with torch.no_grad():
                 args.eval_set = 'test'
                 results, test_metrics = self.evaluate(loader, args)

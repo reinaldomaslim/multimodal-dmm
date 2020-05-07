@@ -11,10 +11,12 @@ import torch
 import matplotlib.pyplot as plt
 from matplotlib.collections import EllipseCollection
 
-from datasets.subtitles import SubtitlesDataset
+from datasets.subtitles import *
+from datasets.multiseq import seq_collate_dict
 import models
 import trainer
-
+import yaml
+import pandas as pd
 
 class SubtitlesTrainer(trainer.Trainer):
     """Class for training on subtitle datasets."""
@@ -22,17 +24,17 @@ class SubtitlesTrainer(trainer.Trainer):
     parser = copy.copy(trainer.Trainer.parser)
 
     # Add these arguments specifically for the Spirals dataset
-    parser.add_argument('--train_subdir', type=str,
-                        default='train', metavar='DIR',
-                        help='training data subdirectory')
-    parser.add_argument('--test_subdir', type=str,
-                        default='test', metavar='DIR',
-                        help='testing data subdirectory')
+    parser.add_argument('--rectify_srts', type=yaml.safe_load,
+                        default={}, metavar='DICT',
+                        help='rectifying data subdirectory')
+    parser.add_argument('--dst_file', type=str, 
+                        default='./subtitles_save/rectified_{}.srt',
+                        help='device to use')
 
     # Set parameter defaults for spirals dataset
     defaults = {
         'modalities' : ['en', 'es'],
-        'batch_size' : 16, 'split' : 1, 'bylen' : False,
+        'batch_size' : 3, 'split' : 1, 'bylen' : False,
         'epochs' : 100, 'lr' : 1e-4,
         'kld_anneal' : 100, 'burst_frac' : 0.1,
         'drop_frac' : 0.1, 'start_frac' : 0.25, 'stop_frac' : 0.75,
@@ -83,9 +85,9 @@ class SubtitlesTrainer(trainer.Trainer):
         """Loads data for specified modalities."""
         print("Loading data...")
         data_dir = os.path.abspath(args.data_dir)
-        train_data = SubtitlesDataset(modalities, data_dir, args.train_subdir,
+        train_data = SubtitlesDataset(modalities, data_dir, mode='train',
                                       truncate=True, item_as_dict=True)
-        test_data = SubtitlesDataset(modalities, data_dir, args.test_subdir,
+        test_data = SubtitlesDataset(modalities, data_dir, mode='test',
                                      truncate=True, item_as_dict=True)
         print("Done.")
         if len(args.normalize) > 0:
@@ -110,10 +112,15 @@ class SubtitlesTrainer(trainer.Trainer):
 
         for m in list(recon.keys()): targets[m][torch.isnan(targets[m])] = 0
         # Compute mean squared error in 2D space for each time-step
-        mse = sum([torch.sum((recon[m][0]-targets[m]).pow(2), dim = 2) for m in list(recon.keys())])
-        metrics['mse'] = torch.squeeze(mse).tolist()
+        tdims = targets[m].dim()
+        mse = sum([(recon[m][0]-targets[m]).pow(2).sum(dim=list(range(2, tdims))) for m in list(recon.keys())])
+        # Average across timesteps, for each sequence
+        def time_avg(val):
+            val[1 - mask.squeeze(-1)] = 0.0
+            return val.sum(dim = 0) / lengths
+        metrics['mse'] = time_avg(mse)[order].tolist()
         return metrics
-
+ 
     def summarize_metrics(self, metrics, n_timesteps):
         """Summarize and print metrics across dataset."""
         summary = dict()
@@ -133,84 +140,43 @@ class SubtitlesTrainer(trainer.Trainer):
 
     def visualize(self, results, metric, args):
         return
-        """Plots predictions against truth for representative fits."""
-        reference = results['targets']
-        observed = results['inputs']
-        predicted = results['recon']
-
-        # Select top 4 and bottom 4 predictions
-        sel_idx = np.concatenate((np.argsort(metric)[:4],
-                                  np.argsort(metric)[-4:][::-1]))
-        sel_metric = [metric[i] for i in sel_idx]
-        sel_true = [reference['metadata'][i][:,0:2] for i in sel_idx]
-        sel_true = [(arr[:,0], arr[:,1]) for arr in sel_true]
-        sel_data = [(reference['spiral-x'][i], reference['spiral-y'][i])
-                    for i in sel_idx]
-        sel_obsv = [(observed['spiral-x'][i], observed['spiral-y'][i])
-                   for i in sel_idx]
-        sel_pred = [(predicted['spiral-x'][i][:,0],
-                     predicted['spiral-y'][i][:,0])
-                    for i in sel_idx]
-        sel_rng = [(predicted['spiral-x'][i][:,1],
-                    predicted['spiral-y'][i][:,1])
-                    for i in sel_idx]
-
-        # Create figure to visualize predictions
-        if not hasattr(args, 'fig'):
-            args.fig, args.axes = plt.subplots(4, 2, figsize=(4,8),
-                                               subplot_kw={'aspect': 'equal'})
-        else:
-            plt.figure(args.fig.number)
-        axes = args.axes
-
-        # Set current figure
-        plt.figure(args.fig.number)
-        for i in range(len(sel_idx)):
-            axis = args.axes[(i % 4),(i // 4)]
-            # Plot spiral
-            self.plot_spiral(axis, sel_true[i], sel_data[i],
-                             sel_obsv[i], sel_pred[i], sel_rng[i])
-            # Set title as metric
-            axis.set_title("Metric = {:0.3f}".format(sel_metric[i]))
-            axis.set_xlabel("Spiral {:03d}".format(sel_idx[i]))
-
-        plt.tight_layout()
-        plt.draw()
-        if args.eval_set is not None:
-            fig_path = os.path.join(args.save_dir, args.eval_set + '.pdf')
-            plt.savefig(fig_path)
-        plt.pause(1.0 if args.evaluate else 0.001)
-
-    def plot_spiral(self, axis, true, data, obsv, pred, rng):
-        """Plots a single spiral on provided axis."""
-        axis.cla()
-        # Plot 95% confidence ellipses
-        ec = EllipseCollection(1.96*rng[0], 1.96*rng[1], (0,), units='x',
-                               facecolors=('c',), alpha=0.25,
-                               offsets=np.column_stack(pred),
-                               transOffset=axis.transData)
-        axis.add_collection(ec)
-
-        # Plot ground truth
-        axis.plot(true[0], true[1], 'b-', linewidth=1.5)
-
-        # Plot observations (blue = both, pink = x-only, yellow = y-only)
-        if (np.isnan(obsv[0]) != np.isnan(obsv[1])).any():
-            axis.plot(obsv[0], data[1], '<', markersize=2, color='#fe46a5')
-            axis.plot(data[0], obsv[1], 'v', markersize=2, color='#fec615')
-        axis.plot(obsv[0], obsv[1], 'bo', markersize=3)
-
-        # Plot predictions
-        axis.plot(pred[0], pred[1], '-', linewidth=1.5, color='#04d8b2')
-
-        # Set limits
-        axis.set_xlim(-4, 4)
-        axis.set_ylim(-4, 4)
 
     def save_results(self, results, args):
         pass
 
+    def rectify_srt(self, args):
+        rectify_dataset = SubtitlesDataset(args.modalities, args.data_dir,
+                                           mode='rectify', truncate=True,
+                                           item_as_dict=True, rectify_files=args.rectify_srts)
+        assert isinstance(rectify_dataset.df, pd.DataFrame), "DataFrame not loaded."
+        data, mask, lengths, order, ids = seq_collate_dict([rectify_dataset[0]])
+        infer, prior, recon = self.model(data, lengths=lengths)
+
+        def _update_row(row):
+            new_row = pd.Series()
+            for modal in args.modalities:
+                for regex_part in ['type', 'starttime', 'endtime', 'sentence_idx', 'word_idx', 'dummy_word']:
+                    key = '{}_{}'.format(modal, regex_part)
+                    new_row[key] = row[key]
+
+                vector_len = row.filter(regex=r'{}_encoding_.*'.format(modal)).shape[0]
+                vector_idx = ['{}_encoding_{}'.format(modal, i) for i in range(vector_len)]
+                if row['{}_word'.format(modal)] == PLCHLDR_WRD:
+                    vector = recon[modal][0][row.name]  # Asumming dataframe index is same as data index
+                    new_row['{}_word'.format(modal)] = SPACY_CODECS[modal].vocab.vectors.most_similar(vector)[0][0][0]
+                    new_row = new_row.append(pd.Series(vector, vector_idx))
+                else:
+                    new_row['{}_word'.format(modal)] = row['{}_word'.format(modal)]
+                    new_row = new_row.append(row[vector_idx])
+            return new_row
+
+        rectified_df = rectify_dataset.df.apply(_update_row, axis=1)
+        process_csv(rectified_df, args.dst_file)
+
 if __name__ == "__main__":
     args = SubtitlesTrainer.parser.parse_args()
     trainer = SubtitlesTrainer(args)
-    trainer.run(args)
+    if args.rectify_srts:
+        trainer.rectify_srt(args)
+    else:
+        trainer.run(args)

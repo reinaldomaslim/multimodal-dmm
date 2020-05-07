@@ -35,6 +35,7 @@ IND_FACTOR = 1
 SPACY_CODECS = {}
 LANG2CODECS_MAP = {'en': 'en_core_web_md', 'es': 'es_core_news_md', 'fr': 'fr_core_news_md'}
 DUMMY_WRD = '^'
+PLCHLDR_WRD = '+'
 TRAIN_SPLIT = 0.95
 MAXLEN = 200
 NUM_VIDS = 100
@@ -45,8 +46,8 @@ class SubtitlesDataset(MultiseqDataset):
     def __init__(self, modalities, base_dir, mode='train',
                  truncate=False, item_as_dict=False, rectify_files={}):
         processed_dir = os.path.join(base_dir, 'processed', mode)
-        if not os.path.isdir(processed_dir):
-            process_dataset(langs=modalities, data_dir=base_dir, mode=mode, rectify_files=rectify_files)
+        if not os.path.isdir(processed_dir) or mode=='rectify':
+            self.df = process_dataset(langs=modalities, data_dir=base_dir, mode=mode, rectify_files=rectify_files)
 
         if mode != 'rectify':
             regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)?\.csv')
@@ -110,7 +111,7 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', mode='train', re
     else:
         lines = []
         dst_file = os.path.join(processed_path, "rectify.csv")
-        process_srt(rectify_files, dst_file, langs, defaultdict(list), 'rectify')
+        return process_srt(rectify_files, dst_file, langs, defaultdict(list), 'rectify')
 
     pool = Pool(processes=cpu_count())
     res = []
@@ -182,7 +183,7 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), mode='trai
                         word_idx = token_idx
                     dummy_word = token.text == DUMMY_WRD
                     # Delete Word in rectify mode.
-                    vector = token.vector if not token.text == DUMMY_WRD else np.full_like(token.vector, float('nan'))
+                    vector = token.vector if not token.text == PLCHLDR_WRD else np.full_like(token.vector, float('nan'))
                     yield (token.text, token.pos_, sub.start, sub.end, sen_idx, word_idx, dummy_word, *vector.tolist())
 
         def _columns(key, subs):
