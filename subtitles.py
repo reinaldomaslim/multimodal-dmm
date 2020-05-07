@@ -162,9 +162,10 @@ class SubtitlesTrainer(trainer.Trainer):
                 vector_len = row.filter(regex=r'{}_encoding_.*'.format(modal)).shape[0]
                 vector_idx = ['{}_encoding_{}'.format(modal, i) for i in range(vector_len)]
                 if row['{}_word'.format(modal)] == PLCHLDR_WRD:
-                    vector = recon[modal][0][row.name]  # Asumming dataframe index is same as data index
-                    new_row['{}_word'.format(modal)] = SPACY_CODECS[modal].vocab.vectors.most_similar(vector)[0][0][0]
-                    new_row = new_row.append(pd.Series(vector, vector_idx))
+                    vector = recon[modal][0][row.name].detach().numpy()  # Asumming dataframe index is same as data index
+                    key = SPACY_CODECS[modal].vocab.vectors.most_similar(vector)[0][0][0]
+                    new_row['{}_word'.format(modal)] = SPACY_CODECS[modal].vocab.strings[key].lower()
+                    new_row = new_row.append(pd.Series(vector[0], vector_idx))
                 else:
                     new_row['{}_word'.format(modal)] = row['{}_word'.format(modal)]
                     new_row = new_row.append(row[vector_idx])
