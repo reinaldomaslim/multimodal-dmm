@@ -42,22 +42,27 @@ NUM_VIDS = 100
 class SubtitlesDataset(MultiseqDataset):
     """Dataset of noisy spirals."""
 
-    def __init__(self, modalities, base_dir, subdir='train',
-                 truncate=False, item_as_dict=False):
-        processed_dir = os.path.join(base_dir, 'processed', subdir)
+    def __init__(self, modalities, base_dir, mode='train',
+                 truncate=False, item_as_dict=False, rectify_files={}):
+        processed_dir = os.path.join(base_dir, 'processed', mode)
         if not os.path.isdir(processed_dir):
-            process_dataset(langs=modalities, data_dir=base_dir, subdir=subdir)
+            process_dataset(langs=modalities, data_dir=base_dir, mode=mode, rectify_files=rectify_files)
 
-        regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)?\.csv')
+        if mode != 'rectify':
+            regex = "{}_{}".format('_'.join(sorted(modalities)), '(\d+)_(\d+)?\.csv')
+        else:
+            regex = "rectify.csv"
         rates = 1.0
         base_rate = rates
 
         # Load x, y, and metadata as separate modalities
         preprocess = {
             # Keep only embedded value
-            modalities[0]: lambda df : df.filter(regex=r'{}_encoding_.*'.format(modalities[0])),
+            'en': lambda df : df.filter(regex=r'{}_encoding_.*'.format('en')),
             # Keep only embedded value
-            modalities[1]: lambda df : df.filter(regex=r'{}_encoding_.*'.format(modalities[1]))
+            'es': lambda df : df.filter(regex=r'{}_encoding_.*'.format('es')),
+            # Keep only embedded value
+            'fr': lambda df : df.filter(regex=r'{}_encoding_.*'.format('fr')),
         }
 
         super(SubtitlesDataset, self).__init__(
@@ -76,11 +81,11 @@ def filter_langs(modalities):
                 print("Modality {} couldn't be decoded. Dropped.".format(m))
                 del modalities[idx]
 
-def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
+def process_dataset(langs=['en', 'es'], data_dir='./subtitles', mode='train', rectify_files={}):
     transcript_zip_path = os.path.join(data_dir, 'ted.zip')
     transcript_unzip_path = os.path.join(data_dir, 'ted')
     vidid_file = os.path.join(data_dir, "{}_{}_{}".format('vid', '_'.join(sorted(langs)), 'lang.txt'))
-    processed_path = os.path.join(data_dir, 'processed', subdir)
+    processed_path = os.path.join(data_dir, 'processed', mode)
 
     if not os.path.isdir(data_dir) \
         or not os.path.isfile(transcript_zip_path) \
@@ -98,26 +103,65 @@ def process_dataset(langs=['en', 'es'], data_dir='./subtitles', subdir='train'):
     with open(vidid_file) as f:
         lines = f.readlines()[:NUM_VIDS]
 
-    if subdir == 'train':
+    if mode == 'train':
         lines = lines[:int(len(lines) * TRAIN_SPLIT)]
-    else:
+    elif mode == 'test':
         lines = lines[int(len(lines) * TRAIN_SPLIT):]
+    else:
+        lines = []
+        dst_file = os.path.join(processed_path, "rectify.csv")
+        process_srt(rectify_files, dst_file, langs, defaultdict(list), 'rectify')
 
     pool = Pool(processes=cpu_count())
     res = []
     for file_count, line in enumerate(lines):
         vid_name = line.rstrip()
-        dst_file =  os.path.join(processed_path, "{}_{:05d}_{}.csv".format('_'.join(sorted(langs)),
-                                                                                    file_count,
-                                                                                    '{:05d}' if subdir == 'train' else ''))
+        dst_file = os.path.join(processed_path, "{}_{:05d}_{}.csv".format('_'.join(sorted(langs)),
+                                                                                   file_count,
+                                                                                   '{:05d}' if mode == 'train' else ''))
         src_files = {m:os.path.join(transcript_unzip_path, '{}_{}.srt'.format(vid_name, m)) for m in langs}
         tokens = defaultdict(list)
-        res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens, subdir)))
+        res.append(pool.apply_async(process_srt, (src_files, dst_file, langs, tokens, mode)))
         # process_srt(src_files, dst_file, langs, tokens, subdir)
     pool.close()
     pool.join()
 
-def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), subdir='train'):
+def process_csv(src, dst_file):
+    if isinstance(src, str):
+        df = pd.read_csv(src)
+    elif isinstance(src, pd.DataFrame):
+        df = src
+    else:
+        print("Unsupported input {} for processing.".format(src))
+
+    assert '{}' in dst_file.split('/')[-1], 'dst_file should have "{}" placeholder'
+    if not os.path.isdir(os.path.dirname(dst_file)):
+        os.makedirs(os.path.dirname(dst_file))
+
+    modalities = set(map(lambda k: k.split('_')[0], df.keys()))
+
+    def _word_aggregate(series):
+        return ' '.join(series)
+
+    for modal in modalities:
+        modal_df = df.filter(regex=r'^{}.*'.format(modal))
+        modal_df = modal_df.where(modal_df['{}_word'.format(modal)] != DUMMY_WRD)
+        modal_df = modal_df.sort_values(by='{}_word_idx'.format(modal))
+        modal_df = modal_df.groupby(by='{}_sentence_idx'.format(modal))
+        modal_df = modal_df.agg({
+            '{}_word'.format(modal): _word_aggregate,
+            '{}_starttime'.format(modal): min,
+            '{}_endtime'.format(modal): max})
+
+        subs = pysubs2.SSAFile()
+        for index, row in modal_df.iterrows():
+            subs.append(pysubs2.SSAEvent(
+                start =row['{}_starttime'.format(modal)],
+                end = row['{}_endtime'.format(modal)],
+                text=row['{}_word'.format(modal)]))
+        subs.save(dst_file.format(modal))
+
+def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), mode='train'):
     filter_langs(langs)
     try:
         subs = {}
@@ -137,7 +181,9 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), subdir='tr
                     else:
                         word_idx = token_idx
                     dummy_word = token.text == DUMMY_WRD
-                    yield (token.text, token.pos_, sub.start, sub.end, sen_idx, word_idx, dummy_word, *token.vector.tolist())
+                    # Delete Word in rectify mode.
+                    vector = token.vector if not token.text == DUMMY_WRD else np.full_like(token.vector, float('nan'))
+                    yield (token.text, token.pos_, sub.start, sub.end, sen_idx, word_idx, dummy_word, *vector.tolist())
 
         def _columns(key, subs):
             columns = list(range(7 + SPACY_CODECS[key].vocab.vectors.shape[1]))
@@ -154,14 +200,16 @@ def process_srt(src_files, dst_file, langs, tokens=defaultdict(list), subdir='tr
         for key in subs.keys():
             subs[key] = pd.DataFrame(_attributes(key, subs), columns=_columns(key, subs))
         df = pd.concat(subs.values(), axis=1)
-        if subdir == 'train':
-            for i in range(0, len(df), MAXLEN):
-                df.loc[i:i+MAXLEN-1,:].to_csv(dst_file.format(int(i/MAXLEN)), index=False)
-        else:
-            df.to_csv(dst_file, index=False)
+        if dst_file:
+            if mode == 'train':
+                for i in range(0, len(df), MAXLEN):
+                    df.loc[i:i+MAXLEN-1,:].to_csv(dst_file.format(int(i/MAXLEN)), index=False)
+            else:
+                df.to_csv(dst_file, index=False)
+        return df
     except Exception as e:
         print("Couldn't process {}".format(src_files))
-        # traceback.print_exc()
+        traceback.print_exc()
 
 def tokenize_sub(sub, codex):
     for idx, dialogue in enumerate(sub):
@@ -247,6 +295,14 @@ def test_dataset(modalities = ['en', 'es'], data_dir='./subtitles'):
         if len(x) != len(y):
             print("WARNING: Mismatched sequence lengths.")
 
+
+def test_rectify_dataset(modalities = ['en', 'es'], data_dir='./subtitles'):
+    print("Loading data...")
+    dataset = SubtitlesDataset(modalities, data_dir, mode='rectify',
+                               rectify_files={'en': '/tmp/mov_en.srt', 'es': '/tmp/mov_es.srt'})
+    print("Testing csv2srt. destination: /tmp/mov_(en\es).srt")
+    process_csv(os.path.join(data_dir, 'processed/rectify', 'rectify.csv'), '/tmp/mov_res_{}.srt')
+
 if __name__ == '__main__':
     test_dataset()
-
+    test_rectify_dataset()
