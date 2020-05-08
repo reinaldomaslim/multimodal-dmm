@@ -5,6 +5,8 @@ from __future__ import absolute_import
 from builtins import range
 import torch
 import torch.nn as nn
+from itertools import chain
+import numpy as np
 
 class CategoricalMLP(nn.Module):
     """MLP from input to categorical output."""
@@ -288,3 +290,23 @@ class AudioDecoder(nn.Module):
         feats = self.z_to_feat(z).view(-1, *self.feat_shape)
         probs = self.deconv_stack(feats)
         return (probs,)
+
+class DeepGaussianMLP(nn.Module):
+    """Decoder for words."""
+    def __init__(self, in_dim, out_dim, h_dim, n_layers=3, min_std=1e-3):
+        super(DeepGaussianMLP, self).__init__()
+        self.min_std = min_std
+        self.in_to_h = nn.Sequential(
+            *([nn.Linear(in_dim, h_dim), nn.ReLU()] +
+              sum(([nn.Linear(h_dim, h_dim), nn.ReLU()] for l in range(1, n_layers-1)), []))
+        )
+
+        self.h_to_mean = nn.Linear(h_dim, out_dim)
+        self.h_to_std = nn.Sequential(
+            nn.Linear(h_dim, out_dim),
+            nn.Softplus())
+
+    def forward(self, x):
+        h = self.in_to_h(x)
+        mean, std = self.h_to_mean(h), (self.h_to_std(h) + self.min_std)
+        return mean, std

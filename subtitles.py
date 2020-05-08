@@ -50,11 +50,20 @@ class SubtitlesTrainer(trainer.Trainer):
         dims = {'en': 300, 'es': 50}
         dists = {'en': 'Normal',
                  'es': 'Normal',}
-        z_dim = args.model_args.get('z_dim', 32)
-        h_dim = args.model_args.get('h_dim', 32)
+        z_dim = args.model_args.get('z_dim', 64)
+        h_dim = args.model_args.get('h_dim', 64)
+        n_layers = args.model_args.get('n_layers', 3)
+        gauss_out = (args.model != 'MultiDKS')        
+        encoders = {'en': models.common.DeepGaussianMLP(dims['en'], z_dim, h_dim, n_layers),
+                    'es': models.common.DeepGaussianMLP(dims['es'], z_dim, h_dim, n_layers)}
+        decoders = {'en': models.common.DeepGaussianMLP(z_dim, dims['en'], h_dim, n_layers),
+                    'es': models.common.DeepGaussianMLP(z_dim, dims['es'], h_dim, n_layers)}
+        custom_mods = [m for m in ['en', 'es'] if m in args.modalities]
         model = constructor(args.modalities,
                             dims=(dims[m] for m in args.modalities),
                             dists=[dists[m] for m in args.modalities],
+                            encoders={m: encoders[m] for m in custom_mods},
+                            decoders={m: decoders[m] for m in custom_mods},
                             z_dim=z_dim, h_dim=h_dim,
                             device=args.device, **args.model_args)
         return model
